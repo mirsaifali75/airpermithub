@@ -1,0 +1,118 @@
+{
+  "code": "NY",
+  "name": "New York",
+  "slug": "new-york",
+  "epaRegion": 2,
+  "agency": {
+    "name": "New York State Department of Environmental Conservation (NYSDEC)",
+    "division": "Division of Air Resources; Division of Environmental Permits",
+    "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees",
+    "permitsUrl": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program"
+  },
+  "localAgencies": [
+    {
+      "name": "New York City Department of Environmental Protection (DEP)",
+      "jurisdiction": "New York City (five boroughs)",
+      "url": "https://www.nyc.gov/site/dep/environment/clean-air-tracking-system.page",
+      "notes": "Separate city-level filings (registrations, work permits, certificates of operation) for boilers, engines/generators, industrial process sources, gas stations, char broilers, and more through the Clean Air Tracking System (CATS). These are in addition to, not in place of, NYSDEC permits. Example thresholds on DEP's page: Boiler Registration I for 350,000 BTU/hr to under 2.8 million BTU/hr; Boiler Registration II for 2.8 to under 4.2 million BTU/hr; boiler work permits for 4.2 million BTU/hr and above."
+    }
+  ],
+  "overview": "NYSDEC issues air permits and registrations under 6 NYCRR Part 201: Air Facility Registrations (Subpart 201-4) for smaller non-major facilities, State Facility Permits (Subpart 201-5) for larger non-major facilities using enforceable limits, and Title V Facility Permits (Subpart 201-6) for major and Acid Rain sources. Major projects need nonattainment NSR under Part 231 or federal PSD under 40 CFR 52.21. Major source thresholds vary by location: the New York City metropolitan severe ozone nonattainment area has the lowest NOx/VOC thresholds. Permit processing follows the Uniform Procedures Act (Part 621). EPA Region 2 is the permitting authority in the eight Tribal Nations.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Exempt and trivial activities",
+      "description": "Activities listed as exempt or trivial under Subpart 201-3 do not require a registration or permit, though exempt activities must be listed in Title V and State Facility applications. NYSDEC publishes a List of Exempt Activities form.",
+      "citation": "6 NYCRR Subpart 201-3",
+      "url": "https://extapps.dec.ny.gov/docs/air_pdf/exemption.pdf"
+    },
+    {
+      "type": "registration",
+      "name": "Air Facility Registration",
+      "description": "For smaller, non-major facilities; issued for up to 10 years. Fees are per emission point (ECL 72-0302).",
+      "citation": "6 NYCRR Subpart 201-4",
+      "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees",
+      "quote": "Their annual emissions are less than half of the level that would make them a major source. Their annual emissions of high toxicity air contaminants do not equal or exceed the applicable thresholds."
+    },
+    {
+      "type": "state-operating",
+      "name": "State Facility Permit",
+      "description": "For generally large non-major facilities, including those using enforceable conditions (caps) to stay below major source levels; issued for up to 10 years. Fees are per emission unit (ECL 72-0302).",
+      "citation": "6 NYCRR Subpart 201-5",
+      "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees",
+      "quote": "Their annual emissions exceed 50 percent of the level that would make them a major source. Their annual emissions of high toxicity air contaminants equal or exceed the applicable thresholds."
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment New Source Review",
+      "description": "Major new source and major modification preconstruction permitting in nonattainment areas and the Ozone Transport Region.",
+      "citation": "6 NYCRR Part 231",
+      "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project",
+      "thresholds": "Major source thresholds (tpy) per NYSDEC: NOx 25 and VOC 25 in the severe ozone nonattainment area (Bronx, Kings, Lower Orange County Metropolitan Area, Nassau, New York, Queens, Richmond, Rockland, Suffolk, Westchester); NOx 100 and VOC 50 in the rest of the state (Ozone Transport Region); CO 100 in Bronx, Kings, Nassau, New York, Queens, Richmond, Westchester; PM-10 100 in New York County (restated from NYSDEC table)."
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "Major projects in attainment areas are reviewed under the federal PSD regulations, which NYSDEC references directly.",
+      "citation": "40 CFR 52.21",
+      "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Facility Permit",
+      "description": "Comprehensive permit for major stationary sources and Acid Rain facilities; issued for up to 5 years. Fees are per ton of prior-year emissions (up to 7,000 tons per contaminant) under 6 NYCRR Subpart 482-2. Title V initial permits, significant modifications, and renewals are 'major projects' under the Uniform Procedures Act.",
+      "citation": "6 NYCRR Subpart 201-6",
+      "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "New York's Oil and Natural Gas Sector rule (6 NYCRR Part 203, adopted January 2022, compliance from January 1, 2023) sets methane and VOC requirements for oil and gas production, separation and storage, natural gas storage, gathering and boosting, transmission and compressor stations, and metering/regulating stations. Requirements include LDAR, limits on venting from pneumatic devices and pumps, compressor seal controls, storage vessel controls, blowdown notifications, and annual pigging reports.",
+    "programs": [
+      {
+        "type": "other",
+        "name": "Oil and Natural Gas Sector (Part 203)",
+        "description": "LDAR (semiannual at well sites, quarterly at gathering/boosting stations and city gates, bimonthly at compressor and storage facilities), pneumatic and pump venting limits, compressor controls, storage vessel controls, blowdown notice, pigging reports, and a baseline component report.",
+        "citation": "6 NYCRR Part 203",
+        "url": "https://extapps.dec.ny.gov/docs/air_pdf/sip203revision.pdf",
+        "thresholds": "Storage vessels with potential VOC emissions of 6 tpy or more installed before 2023 need 95% vapor control; newer vessels may not vent. Planned blowdowns over 10,000 cubic feet need 48 hours' notice (restated from the NYSDEC SIP revision document)."
+      }
+    ]
+  },
+  "regulations": [
+    { "citation": "6 NYCRR Part 200", "title": "General Provisions" },
+    { "citation": "6 NYCRR Part 201", "title": "Permits and Registrations" },
+    { "citation": "6 NYCRR Part 203", "title": "Oil and Natural Gas Sector", "url": "https://extapps.dec.ny.gov/docs/air_pdf/sip203revision.pdf" },
+    { "citation": "6 NYCRR Part 231", "title": "New Source Review for New and Modified Facilities (nonattainment areas and Ozone Transport Region)" },
+    { "citation": "6 NYCRR Subpart 482-2", "title": "Operating Permit Program Fees (Title V)" },
+    { "citation": "6 NYCRR Part 621", "title": "Uniform Procedures" },
+    { "citation": "ECL 72-0302", "title": "Air fees for State Facility, Registration, and historic permits" }
+  ],
+  "forms": [
+    { "name": "Air Program Forms and Instructions", "url": "https://dec.ny.gov/environmental-protection/air-quality/air-program-forms-and-instructions" },
+    { "name": "Air Facility Registration form and instructions", "url": "https://dec.ny.gov/sites/default/files/2024-03/regisfrm.pdf" },
+    { "name": "Air Permit Application (State and Title V)", "url": "https://www.dec.ny.gov/docs/air_pdf/airpermitapp.pdf" },
+    { "name": "Air Permit Application Instructions", "url": "https://www.dec.ny.gov/docs/air_pdf/airpermitinst.pdf" },
+    { "name": "List of Exempt Activities", "url": "https://www.dec.ny.gov/docs/air_pdf/exemption.pdf" },
+    { "name": "Annual Capping Certification", "url": "https://www.dec.ny.gov/docs/air_pdf/capcert.pdf" },
+    { "name": "Title V Annual Compliance Certification", "url": "https://www.dec.ny.gov/docs/air_pdf/dar11paper.pdf" }
+  ],
+  "guidance": [
+    { "name": "Is This Project Major or Minor (thresholds by area)", "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project" },
+    { "name": "DAR-1: Guidelines for Air Toxics", "url": "https://dec.ny.gov/docs/air_pdf/dar1.pdf" },
+    { "name": "DAR-10: Dispersion Modeling Guidelines", "url": "https://dec.ny.gov/docs/air_pdf/dar10.pdf" },
+    { "name": "DAR-17: Federal Enforceability of Permits", "url": "https://dec.ny.gov/docs/air_pdf/dar17.pdf" },
+    { "name": "Air Compliance and Emissions (ACE) Reporting", "url": "https://dec.ny.gov/environmental-protection/air-quality/air-compliance-emissions-reporting" },
+    { "name": "Issued Title V permits", "url": "http://www.dec.ny.gov/dardata/boss/afs/issued_atv.html" }
+  ],
+  "fees": { "name": "2026 Title V Fees Fact Sheet", "url": "https://dec.ny.gov/sites/default/files/2026-08/482factsheet.pdf" },
+  "sources": [
+    { "name": "NYSDEC Air Facility Permits, Registrations, and Fees", "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees" },
+    { "name": "NYSDEC Air Pollution Control Permit Program", "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program" },
+    { "name": "NYSDEC Major or Minor Project", "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project" },
+    { "name": "EPA Clean Air Permitting in New York", "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-york" },
+    { "name": "NYC DEP Clean Air Tracking System", "url": "https://www.nyc.gov/site/dep/environment/clean-air-tracking-system.page" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "NYSDEC has no online air permit application system per its forms page; ACE handles Title V compliance and emissions reporting. NYSDEC pages do not mention general permits. EPA lists EPA Region 2 as sharing permitting responsibility and as the sole authority in the eight Tribal Nations. NYC DEP filings are in addition to state requirements. Division of Environmental Permits: 518-402-9167."
+}

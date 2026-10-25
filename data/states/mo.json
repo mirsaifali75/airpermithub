@@ -1,0 +1,44 @@
+{
+  "code": "MO", "name": "Missouri", "slug": "missouri", "epaRegion": 7,
+  "agency": { "name": "Missouri Department of Natural Resources (DNR)", "division": "Air Pollution Control Program", "url": "https://dnr.mo.gov/air/business-industry/air-permits", "permitsUrl": "https://dnr.mo.gov/air/business-industry/permits/construction" },
+  "overview": "Missouri DNR issues air permits statewide (EPA's Missouri page lists no local permitting agencies and no federally recognized tribes). Construction permits under 10 CSR 10-6.060 are chosen by existing and project potential emissions: de minimis, minor, general, permits-by-rule, portable relocation, temporary/pilot, major NSR (nonattainment), PSD, and major HAP permits. Exemptions are in 10 CSR 10-6.061. Operating permits under 10 CSR 10-6.065 are Intermediate (synthetic minor) or Part 70.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Construction permit exemptions", "description": "Activities determined to be insignificant sources are exempt from construction permitting.", "citation": "10 CSR 10-6.061", "url": "https://www.sos.mo.gov/CMSImages/AdRules/csr/current/10csr/10c10-6.pdf#page=55" },
+    { "type": "pbr", "name": "Permits-by-Rule", "description": "For printing, crematories and animal incinerators, surface coating, and livestock markets, in place of a de minimis or minor permit; can be issued within seven days of a complete application.", "url": "https://dnr.mo.gov/air/business-industry/permits/by-rule-construction" },
+    { "type": "general", "name": "General construction permits", "description": "Filing fee $700 (effective Jan. 1, 2026).", "citation": "10 CSR 10-6.060", "url": "https://dnr.mo.gov/air/business-industry/permits/construction" },
+    { "type": "minor-nsr", "name": "De minimis and minor construction permits", "description": "For projects below major thresholds. Minor permit filing fee $300 plus $100/hour processing. Portable relocation and temporary/pilot permits also available.", "citation": "10 CSR 10-6.060", "url": "https://dnr.mo.gov/air/business-industry/permits/construction" },
+    { "type": "nnsr", "name": "Major NSR (nonattainment)", "description": "Major construction permit for nonattainment areas; $6,000 filing fee. EPA reclassified the Missouri portion of the St. Louis area to Serious for the 2015 ozone standard, but the Eighth Circuit stayed that rule on June 6, 2025, so Moderate requirements remain while the stay is in effect.", "citation": "10 CSR 10-6.060", "url": "https://dnr.mo.gov/document-search/air-permitting-impacts-st-louis-ozone-reclassification-serious-nonattainment" },
+    { "type": "psd", "name": "PSD", "description": "Major construction permit for attainment areas; $6,000 filing fee plus processing. PAL permits available.", "citation": "10 CSR 10-6.060", "url": "https://dnr.mo.gov/air/business-industry/permits/construction" },
+    { "type": "state-operating", "name": "Intermediate Operating Permit", "description": "For installations accepting federally enforceable limits to stay below major source levels; five-year term; apply within 90 days after operation begins.", "citation": "10 CSR 10-6.065", "url": "https://dnr.mo.gov/air/business-industry/permits/operating" },
+    { "type": "title-v", "name": "Part 70 Operating Permit", "description": "For installations at or above major source levels; five-year term; apply within 12 months after operation begins; renew 6 to 18 months before expiration.", "citation": "10 CSR 10-6.065", "url": "https://dnr.mo.gov/air/business-industry/permits/operating" }
+  ],
+  "oilAndGas": { "summary": "DNR's construction and operating permit pages list no oil-and-gas-specific air permit.", "programs": [] },
+  "regulations": [
+    { "citation": "10 CSR 10-6.060", "title": "Construction Permits Required", "url": "https://www.sos.mo.gov/CMSImages/AdRules/csr/current/10csr/10c10-6.pdf" },
+    { "citation": "10 CSR 10-6.061", "title": "Construction Permit Exemptions", "url": "https://www.sos.mo.gov/CMSImages/AdRules/csr/current/10csr/10c10-6.pdf#page=55" },
+    { "citation": "10 CSR 10-6.065", "title": "Operating Permits", "url": "https://www.sos.mo.gov/CMSImages/AdRules/csr/current/10csr/10c10-6.pdf" },
+    { "citation": "Section 643.050, RSMo", "title": "Missouri Air Conservation Law (cited by DNR for operating permits)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=643.050" }
+  ],
+  "forms": [
+    { "name": "Application for Authority to Construct (MO 780-1323)", "url": "https://dnr.mo.gov/document-search/application-authority-construct-mo-780-1323" },
+    { "name": "Application instructions", "url": "https://dnr.mo.gov/document-search/application-authority-construct-instructions" },
+    { "name": "Portable Source Relocation Request (MO 780-2803)", "url": "https://dnr.mo.gov/document-search/portable-source-relocation-request-mo-780-2803" },
+    { "name": "Pre-Construction Prohibition Waiver (PUB2014)", "url": "https://dnr.mo.gov/document-search/pre-construction-prohibition-waiver-pub2014/pub2014" },
+    { "name": "Forms and Applications", "url": "https://dnr.mo.gov/forms-applications" }
+  ],
+  "guidance": [
+    { "name": "Discussion of Potential to Emit", "url": "https://dnr.mo.gov/document-search/discussion-potential-emit" },
+    { "name": "Projects exempt from construction permitting", "url": "https://dnr.mo.gov/sites/dnr/files/vfc/2021/03/main/Projects%20Exempt%20from%20Construction%20Permitting.pdf" },
+    { "name": "The Permitting Process", "url": "https://dnr.mo.gov/sites/dnr/files/vfc/2021/03/main/The%20Permitting%20Process.pdf" },
+    { "name": "Permit Modeling", "url": "https://dnr.mo.gov/air/business-industry/permit-modeling" },
+    { "name": "EPA: Clean Air Act Permitting in Missouri", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-missouri" }
+  ],
+  "fees": { "name": "Air-related Fees", "url": "https://dnr.mo.gov/air/business-industry/fees" },
+  "sources": [
+    { "name": "MoDNR Air Construction Permits", "url": "https://dnr.mo.gov/air/business-industry/permits/construction" },
+    { "name": "MoDNR Air Operating Permits", "url": "https://dnr.mo.gov/air/business-industry/permits/operating" },
+    { "name": "EPA: Clean Air Act Permitting in Missouri", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-missouri" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "DNR's construction page is inconsistent about which rule subsection numbers apply to de minimis, minor, and general permits; subsection numbers are omitted here. Numeric thresholds were not stated on the DNR pages reviewed."
+}

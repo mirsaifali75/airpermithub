@@ -1,0 +1,116 @@
+{
+  "code": "OK",
+  "name": "Oklahoma",
+  "slug": "oklahoma",
+  "epaRegion": 6,
+  "agency": {
+    "name": "Oklahoma Department of Environmental Quality (DEQ)",
+    "division": "Air Quality Division (AQD)",
+    "url": "https://oklahoma.gov/deq.html",
+    "permitsUrl": "https://oklahoma.gov/deq/permits/air-permits/general-permits-pbr.html"
+  },
+  "overview": "Oklahoma DEQ's Air Quality Division issues permits under OAC 252:100 Subchapter 7 (minor facilities) and Subchapter 8 (Part 70 and major source construction permits), with public participation tiers set by OAC 252:4-7. Options include permit-exempt and de minimis facilities, Permits by Rule (including a Minor Oil and Natural Gas PBR), general permits (including the Oil & Gas Facilities GP), individual minor source construction and operating permits (Tier I), major source/Part 70 permits (Tier II), and PSD permits (Tier III). Minor NSR allows some construction after an administratively complete application, at the applicant's risk.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Permit exempt facilities",
+      "description": "No air permit needed if the facility's potential to emit is below major source levels, actual emissions of each criteria pollutant are below 40 tons/year, and the facility is not subject to any NSPS or NESHAP emission, equipment, or work practice standard. De minimis facilities and activities (OAC 252:100 Appendix H) are separately defined.",
+      "citation": "OAC 252:100-7",
+      "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf",
+      "quote": "100 tons/year of any criteria pollutant ... 10 tons/year of any individual federally defined hazardous air pollutant ... 25 tons/year of all HAPs combined"
+    },
+    {
+      "type": "pbr",
+      "name": "Permits by Rule (PBR)",
+      "description": "Registration-based authorizations for: cotton gins (252:100-7-60.1), grain elevators (252:100-7-60.2), minor oil and natural gas facilities (252:100-7-60.5), emergency engines (252:100-7-60.6), gasoline dispensing (252:100-7-60.7), particulate matter emission sources (252:100-19-13), and VOC storage and loading (252:100-37 Part 9). DEQ's guide lists PBR registration fees for construction and operation.",
+      "citation": "OAC 252:100-7-60.1 to 60.7",
+      "url": "https://oklahoma.gov/deq/permits/air-permits/general-permits-pbr.html"
+    },
+    {
+      "type": "general",
+      "name": "General Permits",
+      "description": "General permits for air curtain incinerators; area source NESHAP and small NSPS facilities; chromium electroplating/anodizing (also halogenated solvent cleaning); dry cleaning; hot mix asphalt (2024 GP; 2002 GP holders must transition by April 1, 2026); nonmetallic mineral processing (2026 GP; 2007 GP holders by October 2, 2028); oil and gas facilities; and printing, packaging, and publishing.",
+      "citation": "OAC 252:100-7",
+      "url": "https://oklahoma.gov/deq/permits/air-permits/general-permits-pbr.html"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Minor Source Construction and Operating Permits (Tier I)",
+      "description": "Required for facilities that are not permit exempt and not covered by a PBR or general permit. Individual minor source permits have a 30-day public review posted on DEQ's website. Typical timeline 4-6 months. Construction may begin after an administratively complete application, but not to the point of making an emissions unit operational. A modification increasing emissions by 5 tpy or more of a regulated pollutant triggers a construction permit (per DEQ's 2024 rulemaking presentation).",
+      "citation": "OAC 252:100-7; OAC 252:4-7",
+      "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf"
+    },
+    {
+      "type": "psd",
+      "name": "PSD-Major Source Permit (Tier III)",
+      "description": "For large new sources and major modifications in attainment areas. Requires a 30-day draft permit review, a 20-day proposed permit review, a process meeting opportunity, and possible administrative hearing; issued by the Executive Director. Typical timeline 9-12 months.",
+      "citation": "OAC 252:100-8 Part 7; OAC 252:100-8-31",
+      "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf",
+      "quote": "250 tons/year"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Major stationary sources in nonattainment areas are defined under OAC 252:100-8-51. Oklahoma's general permits exclude facilities in nonattainment areas.",
+      "citation": "OAC 252:100-8 Part 9; OAC 252:100-8-51",
+      "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/events/AQAC_2024_JUL_SC_5_7_8_presentation.pdf"
+    },
+    {
+      "type": "title-v",
+      "name": "Major Source / Part 70 Permit (Tier II)",
+      "description": "Part 70 construction and operating permits for major sources. Requires newspaper notice, a draft permit with 30-day comment, and possible public meeting. Typical timeline 6-9 months. A state (non-PSD) BACT and modeling review applies to increases of 100 tpy that don't require PSD.",
+      "citation": "OAC 252:100-8; OAC 252:100-8-2",
+      "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf",
+      "thresholds": "Major source at 100 tpy (Part 70), 10 tpy single HAP, 25 tpy combined HAPs (restated from DEQ's Permit Assistance Guide and 2024 AQAC presentation)."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Oklahoma has two oil and gas specific authorizations: the Minor Oil and Natural Gas Permit by Rule (OAC 252:100-7-60.5, emergency rule effective July 25, 2024) and the General Permit for Oil & Gas Facilities (GP-OGF, 2022, Version 2 per a December 2023 memo). The PBR includes an option for legally and practicably enforceable limits on tank batteries to stay below NSPS OOOOb storage vessel thresholds. Methane and GHGs in the aggregate are excluded from certain PBR determinations.",
+    "programs": [
+      {
+        "type": "pbr",
+        "name": "Minor Oil and Natural Gas PBR",
+        "description": "For minor oil and gas facilities whose potential emissions stay below PSD, NNSR, and Part 70 triggers. Covers NSPS OOOO/OOOOa/OOOOb, IIII, JJJJ, NESHAP HH and ZZZZ sources at minor/area facilities. Storage vessel and tank battery options include 6 tpy VOC (and 20 tpy methane for the OOOOb LPE option) 12-month rolling limits with controls.",
+        "citation": "OAC 252:100-7-60.5",
+        "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/PBR_oil_and_gas_rule.pdf",
+        "quote": "The facility has actual emissions of 40 TPY or less of each regulated air pollutant, except HAPs and GHGs."
+      },
+      {
+        "type": "general",
+        "name": "General Permit for Oil & Gas Facilities (GP-OGF)",
+        "description": "For minor facilities in attainment areas that produce, gather, process, store, or transport crude oil, petroleum products, natural gas, NGL, or condensate. File a Notice of Intent to Construct before construction (coverage effective on receipt with fee); Authorization to Operate is due within 180 days of startup; some changes need only a Notice of Modification within 15 days. Class I (limits below 80% of major levels) or Class II (below 100%). Some facilities (e.g., sour crude or gas above stated H2S levels, multiple amine units, fuel-burning equipment of 50 MMBtu/hr or more) cannot get an Authorization to Construct under the GP.",
+        "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/GP_oil_and_gas_facilities_statement_of_basis_memo.pdf",
+        "quote": "less than 100 tons/year (TPY) of a regulated pollutant in an attainment area ... less than 10 TPY of any single hazardous air pollutant (HAP) ... less than 25 TPY of total HAPs"
+      }
+    ]
+  },
+  "regulations": [
+    { "citation": "OAC 252:100", "title": "Air Pollution Control", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/rules/100.pdf" },
+    { "citation": "OAC 252:100-7", "title": "Permits for Minor Facilities" },
+    { "citation": "OAC 252:100-8", "title": "Permits for Part 70 Sources and major source construction (PSD Part 7, NNSR Part 9)" },
+    { "citation": "OAC 252:100 Appendix H", "title": "De minimis activities" },
+    { "citation": "OAC 252:4-7", "title": "Rules of Practice and Procedure: permit tiers and public participation", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/rules/004.pdf" }
+  ],
+  "forms": [
+    { "name": "Minor Source Permit Application (Form 100-110)", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/Form_100-110_word.doc" },
+    { "name": "Minor Oil & Natural Gas PBR Registration (Form 100-223)", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/Form_100-223.pdf" },
+    { "name": "Area Source NESHAP & Small NSPS GP Application (Form 100-360)", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/Form_100-360.pdf" },
+    { "name": "Printing/Packaging GP Application (Form 100-350)", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/Form_100-350.pdf" }
+  ],
+  "guidance": [
+    { "name": "Environmental Permit Assistance Guide (rev. July 2026)", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf" },
+    { "name": "GP-OGF Statement of Basis", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/GP_oil_and_gas_facilities_statement_of_basis_memo.pdf" },
+    { "name": "GP-OGF Permit", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/GP_oil_and_gas_facilities_permit.pdf" },
+    { "name": "Overview of Proposed Changes to Air Quality Permitting Rules (AQAC, July 2024)", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/events/AQAC_2024_JUL_SC_5_7_8_presentation.pdf" }
+  ],
+  "fees": { "name": "Fee schedule (in Environmental Permit Assistance Guide)", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf" },
+  "sources": [
+    { "name": "OK DEQ General Permits & Permits by Rule", "url": "https://oklahoma.gov/deq/permits/air-permits/general-permits-pbr.html" },
+    { "name": "OK DEQ Environmental Permit Assistance Guide", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf" },
+    { "name": "OK DEQ Oil & Gas PBR rule text", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/PBR_oil_and_gas_rule.pdf" },
+    { "name": "OK DEQ GP-OGF Statement of Basis", "url": "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/GP_oil_and_gas_facilities_statement_of_basis_memo.pdf" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "The Minor Oil & Natural Gas PBR text reviewed was an emergency rule effective July 25, 2024; check DEQ for the current permanent rule. The PSD quote is DEQ's Tier III description; 100 tpy applies to listed source types. PSD/NNSR Part numbers in Subchapter 8 are inferred from section numbers (8-31, 8-51) cited by DEQ. Air permitting in Indian country in Oklahoma has a complex jurisdictional history; confirm the permitting authority with DEQ and EPA Region 6. AQD permitting: 405-702-4188."
+}

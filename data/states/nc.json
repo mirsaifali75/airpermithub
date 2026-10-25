@@ -1,0 +1,134 @@
+{
+  "code": "NC",
+  "name": "North Carolina",
+  "slug": "north-carolina",
+  "epaRegion": 4,
+  "agency": {
+    "name": "North Carolina Department of Environmental Quality (NC DEQ)",
+    "division": "Division of Air Quality (DAQ)",
+    "url": "https://www.deq.nc.gov/about/divisions/air-quality",
+    "permitsUrl": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/modifying-or-applying-air-quality-permit"
+  },
+  "localAgencies": [
+    {
+      "name": "Forsyth County Office of Environmental Assistance and Protection",
+      "jurisdiction": "Forsyth County, NC",
+      "url": "http://www.co.forsyth.nc.us/EAP/default.aspx"
+    },
+    {
+      "name": "Mecklenburg County Land Use and Environmental Services Agency (LUESA)",
+      "jurisdiction": "Mecklenburg County, NC",
+      "url": "https://luesa.mecknc.gov/"
+    },
+    {
+      "name": "Asheville-Buncombe Air Quality Agency",
+      "jurisdiction": "City of Asheville and Buncombe County, NC",
+      "url": "https://www.buncombenc.gov/168/Asheville-Buncombe-Air-Quality-Agency"
+    }
+  ],
+  "overview": "NC DAQ issues air permits statewide, with local programs in Forsyth County, Mecklenburg County, and Asheville/Buncombe County. Options by size: permit exemption for very small facilities (15A NCAC 02Q .0102), registration for facilities with aggregate actual emissions from 5 to under 25 tpy (02D .0202), general permits for listed source types, Small and Synthetic Minor permits (02Q .0300, .0315), Title V permits for major sources (02Q .0500), and PSD/nonattainment NSR for major new sources and modifications. Non-Title V permits run eight years; Title V permits five years. A zoning consistency determination is needed for a complete application.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Permit exemption (small facilities)",
+      "description": "Facilities meeting the per-pollutant and aggregate limits may be exempt from 02Q .0300 permitting. An exempt facility may keep its permit, register, or ask DAQ to rescind its permit. Facilities with modeling-based toxics limits under 02D .1100 are not eligible.",
+      "citation": "15A NCAC 02Q .0102(d)",
+      "url": "https://deq.nc.gov/about/divisions/air-quality/air-quality-permits/application-forms-instructions/permit-application-permit-exemption-and-registration-small-facilities",
+      "thresholds": "Each of PM10, SO2, NOx, VOC, CO, HAP, and TAP less than 5 tpy, and total aggregate emissions less than 10 tpy (DAQ page quotes 'less than 5 tpy, each')."
+    },
+    {
+      "type": "registration",
+      "name": "Registration",
+      "description": "Instead of a permit, for facilities that are not exempt with aggregate actual emissions of at least 5 tpy and below 25 tpy. Not available to synthetic minor facilities under 02Q .0315, facilities with a Part 63 MACT source, facilities with VOC or NOx sources in a nonattainment area, or facilities with an NSPS source (unless exempted under 02Q .0102(g) or (h)).",
+      "citation": "15A NCAC 02D .0202; 02Q .0102(e)",
+      "url": "https://deq.nc.gov/about/divisions/air-quality/air-quality-permits/application-forms-instructions/permit-application-permit-exemption-and-registration-small-facilities"
+    },
+    {
+      "type": "general",
+      "name": "General permits",
+      "description": "Non-Title V general permits (02Q .0310) for emergency generators, cotton ginning, yarn spinning plants, and concrete batch plants. A Title V general permit (02Q .0509) covers new air curtain incinerators subject to NSPS Subpart CCCC burning only wood waste, clean lumber, and/or yard waste above 35 tons/day (DAQ's FAQ text conflicts on this figure).",
+      "citation": "15A NCAC 02Q .0310; 02Q .0509",
+      "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/modifying-or-applying-air-quality-permit/general-air-quality-permits"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Non-Title V construction and operation permit (Small permit)",
+      "description": "Combined construction and operating permit for sources subject to an applicable standard or rule that are not exempt, registered, or Title V. Valid eight years. DAQ acts within 90 days of a complete application when no public notice is required. Submitted to the DAQ Regional Office. Some changes need no permit revision under 02Q .0318.",
+      "citation": "15A NCAC 02Q .0300",
+      "url": "https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-construct-operate/download"
+    },
+    {
+      "type": "state-operating",
+      "name": "Synthetic Minor permit",
+      "description": "Non-Title V permit with enforceable limits that keep a facility below major source thresholds. Valid eight years; submitted to the DAQ Regional Office.",
+      "citation": "15A NCAC 02Q .0315",
+      "url": "https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-construct-operate/download"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "Major source preconstruction review in attainment areas. DAQ publishes a PSD preapplication checklist, NSR regulated pollutant list, PSD increment tracking, and Class I increment decisions. Applications go to the Raleigh Central Office Permitting Section.",
+      "citation": "15A NCAC 02D .0530",
+      "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/nsr-permitting"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Major source preconstruction review in nonattainment areas; DAQ's NSR page has a 'Non-Attainment NSR Issues' section.",
+      "citation": "15A NCAC 02D .0531",
+      "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/nsr-permitting"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V permit",
+      "description": "For sources subject to 02Q .0500 (major sources under Part 70); exemptions in 02Q .0523. Five-year term. DAQ completes technical review of significant modifications within 270 days of a complete application, and generally acts on minor modifications within 90 days. Title V applications can be filed electronically in AccessDEQ.",
+      "citation": "15A NCAC 02Q .0500",
+      "url": "https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-title-v-permit/download"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "DAQ's permitting and general permit pages list no oil and gas specific air permits. Natural gas pipeline compressor stations and similar sources follow the standard exemption, registration, permit, and Title V thresholds above, plus federal NSPS/NESHAP.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "15A NCAC 02Q", "title": "Air Quality Permit Procedures", "url": "https://www.deq.nc.gov/media/48411/download?attachment=" },
+    { "citation": "15A NCAC 02Q .0102", "title": "Activities Exempted from Permit Requirements", "url": "https://files.nc.gov/ncdeq/Air%20Quality/rules/rules/15a%20ncac%2002q%20.0102.pdf" },
+    { "citation": "15A NCAC 02Q .0200", "title": "Permit Fees", "url": "https://files.nc.gov/ncdeq/Air%20Quality/rules/rules/secQ0200.pdf" },
+    { "citation": "15A NCAC 02Q .0500", "title": "Title V Procedures", "url": "https://files.nc.gov/ncdeq/Air%20Quality/rules/rules/secQ0500.pdf" },
+    { "citation": "15A NCAC 02Q .0113", "title": "Zoning consistency" },
+    { "citation": "15A NCAC 02D .0202", "title": "Registration of Air Pollution Sources" },
+    { "citation": "15A NCAC 02D .0530", "title": "Prevention of Significant Deterioration" },
+    { "citation": "15A NCAC 02D .0531", "title": "Sources in Nonattainment Areas" },
+    { "citation": "15A NCAC 02D .1100", "title": "Control of Toxic Air Pollutants" }
+  ],
+  "forms": [
+    { "name": "Application forms: construct/operate (Title V and non-Title V)", "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permits/application-forms-instructions/application-forms-air-quality-permit-construct-operate-non-title-v-title-v-facilities" },
+    { "name": "Registration Form", "url": "https://www.deq.nc.gov/documents/files/newforms/application-form-registration-06142016/download" },
+    { "name": "Exemption/Registration Flow Chart", "url": "https://www.deq.nc.gov/documents/files/newforms/exemption-registration-flow-chart-06272016/download" },
+    { "name": "Title V Application Checklist", "url": "https://www.deq.nc.gov/air-quality/permits/titlevpermitapplicationchecklist2017pdf/download?attachment" },
+    { "name": "Non-Title V Application Checklist", "url": "https://www.deq.nc.gov/air-quality/permits/non-titlevpermitapplicationchecklistrevcpdf/download?attachment" },
+    { "name": "Emergency Generator General Permit Application", "url": "https://www.deq.nc.gov/air-quality/permits/emgeneapppdf/download?attachment" },
+    { "name": "Concrete Batch Plant General Permit Application", "url": "https://www.deq.nc.gov/air-quality/permits/concreteapppdf/download?attachment" },
+    { "name": "02Q .0318 Notification Form (changes not requiring permit revision)", "url": "https://www.deq.nc.gov/air-quality/permits/final2q0318notificationform04022019xls/download?attachment" }
+  ],
+  "guidance": [
+    { "name": "Permitting Procedures Memos and Guidance", "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permits/permitting-procedures-memos-guidance" },
+    { "name": "NSR Permitting", "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/nsr-permitting" },
+    { "name": "Emission Estimation Spreadsheets", "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/emission-estimation-spreadsheets" },
+    { "name": "Intent to Construct", "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/intent-construct" },
+    { "name": "Zoning Consistency Determination", "url": "https://www.deq.nc.gov/about/divisions/environmental-assistance-customer-service/deacs-permit-guidance/small-business-environmental-assistance/permit-information/zoning-consistency-determination" }
+  ],
+  "ePermitting": { "name": "AccessDEQ (Title V applications)", "url": "https://www.deq.nc.gov/accessdeq" },
+  "fees": { "name": "2026 DAQ Permit and Application Fee Schedule", "url": "https://edocs.deq.nc.gov/AirQuality/DocView.aspx?id=647336&dbid=0&repo=AirQuality" },
+  "sources": [
+    { "name": "NC DAQ Modifying or Applying for an Air Quality Permit", "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/modifying-or-applying-air-quality-permit" },
+    { "name": "NC DAQ Small Facilities: Exemption and Registration", "url": "https://deq.nc.gov/about/divisions/air-quality/air-quality-permits/application-forms-instructions/permit-application-permit-exemption-and-registration-small-facilities" },
+    { "name": "NC DAQ General Air Quality Permits", "url": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/modifying-or-applying-air-quality-permit/general-air-quality-permits" },
+    { "name": "NC DEQ Permit Directory: Title V", "url": "https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-title-v-permit/download" },
+    { "name": "NC DEQ Permit Directory: Construct/Operate", "url": "https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-construct-operate/download" },
+    { "name": "EPA Clean Air Act Permitting in North Carolina", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-north-carolina" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "DAQ pages reviewed do not state numeric Title V or PSD thresholds; see the 02Q .0500 rule text and federal Part 70 / 40 CFR 52.21. The 02D .0530/.0531 titles were confirmed from EMC rulemaking records rather than a DAQ program page. Non-Title V e-permitting in AccessDEQ was described as planned. DAQ Permitting Section: (919) 707-8400."
+}

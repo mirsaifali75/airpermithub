@@ -1,0 +1,121 @@
+{
+  "code": "NE",
+  "name": "Nebraska",
+  "slug": "nebraska",
+  "epaRegion": 7,
+  "agency": {
+    "name": "Nebraska Department of Water, Energy, and Environment (DWEE)",
+    "division": "Air Quality Program",
+    "url": "https://dwee.nebraska.gov/",
+    "permitsUrl": "https://dwee.nebraska.gov/air/air-permitting/air-construction-permit-program"
+  },
+  "localAgencies": [
+    {
+      "name": "Lincoln-Lancaster County Health Department",
+      "jurisdiction": "Lincoln, Lancaster County",
+      "url": "https://www.lincoln.ne.gov/City/Departments/Health-Department/Environmental/Air",
+      "notes": "Issues construction and operating permits (per EPA's CAA Permitting in Nebraska page). DWEE general permits are not available for new locations in Lancaster County."
+    },
+    {
+      "name": "Omaha Public Works Department, Air Quality Control Division",
+      "jurisdiction": "Omaha",
+      "url": "https://publicworks.cityofomaha.org/oaqc-omaha-air-quality-control/",
+      "notes": "Issues construction and operating permits (per EPA). DWEE general permits are not available for new locations in the City of Omaha."
+    }
+  ],
+  "overview": "Nebraska's air program (formerly the Nebraska Department of Environment and Energy, NDEE; now the Department of Water, Energy, and Environment, DWEE) issues state construction permits (Title 129, Chapter 3), federal PSD/NSR construction permits (Chapter 4), general construction and operating permits (Chapter 7), and Class I (Title V) and Class II (state minor) operating permits (Chapter 6). DWEE states Nebraska is in attainment for all ambient air quality standards. Lincoln-Lancaster County and Omaha run local programs; EPA Region 7 permits in Indian country.",
+  "permitTypes": [
+    {
+      "type": "minor-nsr",
+      "name": "State Construction Permit",
+      "description": "Required before constructing, reconstructing, or modifying a source where potential emissions increase above the listed thresholds. All incinerators need a construction permit regardless of emissions. DWEE cites typical review of four to six months plus a 30-day public comment period, and a fee tiered by potential emissions.",
+      "citation": "Title 129, Chapter 3",
+      "url": "https://dwee.nebraska.gov/air/air-permitting/air-construction-permit-program",
+      "quote": "15 tons per year (tpy) of PM10 (Particulate Matter 10 microns in diameter or smaller), 10 tons tpy of PM2.5 (Particulate Matter 2.5 microns in diameter or smaller), 40 tpy of SO2 (Sulfur dioxide) or SO3 (Sulfur trioxide) or any combination thereof, 40 tpy of oxides of nitrogen (calculated as NO2), 40 tpy VOC (Volatile Organic Compounds), 100 tpy CO (Carbon Monoxide), 0.6 tpy Lead, or 2.5 tpy of any single HAP (Hazardous Air Pollutant) or 10 tpy of all HAPs combined. In addition, all incinerators, regardless of emissions, must have a construction permit."
+    },
+    {
+      "type": "general",
+      "name": "Air General Permits (construction and operating)",
+      "description": "Online general permits for: aggregate processing plants; drum mix and batch mix hot mix asphalt plants; truck mix concrete plants (controlled and uncontrolled loadout); diesel emergency engines (two versions); controlled incinerators (construction) and incinerator operating permit; and surface coating. Not available for new locations in Lancaster County, the City of Omaha, or tribal lands.",
+      "citation": "Title 129, Chapter 7",
+      "url": "https://dwee.nebraska.gov/air-general-permit"
+    },
+    {
+      "type": "psd",
+      "name": "Federal Construction Permit (PSD)",
+      "description": "Applies when a source has potential emissions of at least 100 tpy (26 listed source categories) or 250 tpy (other sources) of a regulated PSD pollutant and the project's net emissions increase meets significance levels.",
+      "citation": "Title 129, Chapter 4",
+      "url": "https://dwee.nebraska.gov/air/air-permitting/air-construction-permit-program",
+      "thresholds": "Major source: at least 100 tpy for one of 26 listed source categories or 250 tpy for other sources. Significant net increases listed by DWEE include PM 25 tpy, PM10 15 tpy, SO2/SO3 40 tpy, NOx 40 tpy, VOC 40 tpy, CO 100 tpy, lead 0.6 tpy (restated)."
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Applies to major sources in nonattainment areas. DWEE's page states Nebraska is currently in attainment for all ambient air quality standards.",
+      "citation": "Title 129, Chapter 4",
+      "url": "https://dwee.nebraska.gov/air/air-permitting/air-construction-permit-program"
+    },
+    {
+      "type": "title-v",
+      "name": "Class I (Title V) Operating Permit",
+      "description": "Major source operating permit. Application forms are due within 12 months after emissions units begin operation or become subject to the requirement, whichever is earlier.",
+      "citation": "Title 129, Chapter 6",
+      "url": "https://dwee.nebraska.gov/air/air-permitting/air-operating-permit-program",
+      "quote": "100 tons per year (tpy) of any criteria air pollutant* excluding lead; 10 tpy of any single hazardous air pollutant (HAP) or 25 tpy of a combination of HAPs; or 5 tpy of lead."
+    },
+    {
+      "type": "state-operating",
+      "name": "Class II (minor source) Operating Permit",
+      "description": "State operating permit for synthetic minor sources (potential emissions above Class I levels, limited by federally enforceable conditions) and natural minor sources (potential below Class I levels but actual emissions above 50% of Class I levels). Incinerators need an operating permit regardless of emissions.",
+      "citation": "Title 129, Chapter 6",
+      "url": "https://dwee.nebraska.gov/air/air-permitting/air-operating-permit-program",
+      "quote": "50 tpy of criteria pollutant except lead; 5 tpy of any single hazardous air pollutant (HAP) or 12.5 tons per year of a combination of HAPs; or 2.5 tpy of lead."
+    },
+    {
+      "type": "exemption",
+      "name": "Low Emitter",
+      "description": "A source with potential emissions above Class I levels but actual emissions below Class II levels may not need an operating permit. Submit the Low Emitter Worksheet for DWEE approval (at least one full year of operating data required) and keep records showing actual emissions stay below Class II levels.",
+      "citation": "Title 129, Chapter 6",
+      "url": "https://dwee.nebraska.gov/air/air-permitting/air-operating-permit-program"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "DWEE's air permitting and general permit pages list no oil and gas specific air permit or registration. Oil and gas facilities follow the general construction and operating permit thresholds above, plus applicable federal NSPS (OOOO/OOOOa/OOOOb) and NESHAP (HH) requirements.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "Title 129", "title": "Nebraska Air Quality Regulations (effective 09-28-2022)", "url": "https://dwee.nebraska.gov/sites/default/files/titles/Title%20129%20Effective%2009-28-2022.pdf" },
+    { "citation": "Title 129, Chapter 3", "title": "State construction permits" },
+    { "citation": "Title 129, Chapter 4", "title": "Federal construction permits (PSD/NSR)" },
+    { "citation": "Title 129, Chapter 6", "title": "Operating permits and low emitter provisions" },
+    { "citation": "Title 129, Chapter 7", "title": "General construction and operating permits" }
+  ],
+  "forms": [
+    { "name": "Construction Permit Application Forms and Publications", "url": "https://dwee.nebraska.gov/forms/publications-grants-forms?combine=&form_type=All&program=177" },
+    { "name": "Operating Permit Application Forms", "url": "https://dwee.nebraska.gov/forms/publications-grants-forms?combine=&form_type=All&program=180" },
+    { "name": "Potential Emission Calculation Spreadsheets", "url": "https://dwee.nebraska.gov/forms/publications-grants-forms/air068" },
+    { "name": "Low Emitter Worksheet", "url": "https://dwee.nebraska.gov/forms/publications-grants-forms/14-007" }
+  ],
+  "guidance": [
+    { "name": "Overview of Air, AFO, and Wastewater Permitting Programs (16-022)", "url": "https://dwee.nebraska.gov/sites/default/files/publications/16-022-Overview_NDEE_Air_AFO_Wastewater_Permitting_Programs.pdf" },
+    { "name": "Construction Permit Fact Sheet", "url": "https://dwee.nebraska.gov/sites/default/files/publications/31364806.pdf" },
+    { "name": "Air Quality Permit Application Tips", "url": "https://dwee.nebraska.gov/sites/default/files/publications/09-001%20Air%20Quality%20Permit%20Application%20Tips.pdf" },
+    { "name": "Pre-Application Meetings Fact Sheet", "url": "https://dwee.nebraska.gov/sites/default/files/publications/05-168%20Pre-Application%20Meetings.pdf" },
+    { "name": "General Permits guidance (16-011)", "url": "https://dwee.nebraska.gov/sites/default/files/publications/16-011%20General%20Permits_1.pdf" },
+    { "name": "Operating Permits fact sheet (00-008)", "url": "https://dwee.nebraska.gov/sites/default/files/publications/00-008%20Operating%20Permits.pdf" },
+    { "name": "Low Emitter Rule Fact Sheet", "url": "https://dwee.nebraska.gov/forms/publications-grants-forms/00-001" },
+    { "name": "Hazardous Air Pollutant List", "url": "https://dwee.nebraska.gov/sites/default/files/publications/06-220_0.pdf" }
+  ],
+  "ePermitting": { "name": "Online Application for Air General Permits", "url": "https://ecmp.nebraska.gov/DEQ-AIR/" },
+  "fees": { "name": "Construction Permit Application Fees", "url": "https://dwee.nebraska.gov/sites/default/files/publications/05-159%20Construction%20Permit%20Application%20Fees_0.pdf" },
+  "sources": [
+    { "name": "DWEE Air Construction Permit Program", "url": "https://dwee.nebraska.gov/air/air-permitting/air-construction-permit-program" },
+    { "name": "DWEE Air Operating Permit Program", "url": "https://dwee.nebraska.gov/air/air-permitting/air-operating-permit-program" },
+    { "name": "DWEE Air General Permit", "url": "https://dwee.nebraska.gov/air-general-permit" },
+    { "name": "DWEE Permitting Overview (16-022)", "url": "https://dwee.nebraska.gov/sites/default/files/publications/16-022-Overview_NDEE_Air_AFO_Wastewater_Permitting_Programs.pdf" },
+    { "name": "EPA Clean Air Act Permitting in Nebraska", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-nebraska" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "The agency's web domain moved from dee.nebraska.gov to dwee.nebraska.gov; EPA's page still lists the former name (NDEE). Construction fee tiers per 16-022: $250 if under 50 tpy, $1,500 for 50 to under 100 tpy, $3,000 for 100 tpy or more (single pollutant); general construction permit $250 for new sources. Air Quality Program: (402) 471-2186; permit hotline (877) 834-0474."
+}

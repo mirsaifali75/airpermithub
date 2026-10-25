@@ -1,0 +1,154 @@
+{
+  "code": "OH",
+  "name": "Ohio",
+  "slug": "ohio",
+  "epaRegion": 5,
+  "agency": {
+    "name": "Ohio Environmental Protection Agency (Ohio EPA)",
+    "division": "Division of Air Pollution Control (DAPC)",
+    "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control",
+    "permitsUrl": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/applying-for-an-air-pollution-control-permit"
+  },
+  "localAgencies": [
+    { "name": "Akron Regional Air Quality Management", "jurisdiction": "Medina, Portage, Summit counties", "url": "https://www.scph.org/aboutaraqmd" },
+    { "name": "Canton City Public Health", "jurisdiction": "Stark County", "url": "http://www.cantonhealth.org" },
+    { "name": "Southwest Ohio Air Quality Agency", "jurisdiction": "Butler, Clermont, Clinton, Hamilton, Warren counties", "url": "http://www.southwestohioair.org/" },
+    { "name": "Cleveland Department of Public Health, Division of Air Quality", "jurisdiction": "Cuyahoga County", "url": "https://www.clevelandhealth.org/programs/air/monitoring/" },
+    { "name": "Lake County General Health District Air Pollution Control", "jurisdiction": "Geauga and Lake counties", "url": "https://www.lcghd.org/air-pollution-control/", "notes": "Permitting for Geauga and Lake counties is handled by Ohio EPA's Northeast District Office." },
+    { "name": "Portsmouth City Health Department Air Division", "jurisdiction": "Adams, Brown, Highland, Lawrence, Scioto counties", "url": "https://portsmouthcityhealth.org/pch-dept/air-division/" },
+    { "name": "Regional Air Pollution Control Agency (RAPCA)", "jurisdiction": "Clark, Darke, Greene, Miami, Montgomery, Preble counties", "url": "https://www.rapca.org/" },
+    { "name": "Toledo Division of Environmental Services", "jurisdiction": "Lucas County", "url": "https://toledo.oh.gov/business/environment/air-quality" }
+  ],
+  "overview": "Ohio EPA DAPC issues air permits through its Central Office and district offices plus eight local air agencies that serve as Ohio EPA's representatives for their counties. Non-Title V facilities get a Permit-to-Install and Operate (PTIO); Title V facilities get a Permit-to-Install (PTI) for construction plus a Title V operating permit (OAC 3745-77). Lower tiers include permanent and discretionary exemptions (OAC 3745-31-03), the de minimis exemption (OAC 3745-15-05), permits-by-rule (OAC 3745-31-30), and general permits (OAC 3745-31-29), including oil and gas well-site and natural gas compressor station general permits. Best Available Technology (BAT) applies to new sources. Major sources go through attainment-area review (PSD, OAC 3745-31-10 to -20) or nonattainment review (OAC 3745-31-21 to -27).",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Permanent and discretionary exemptions",
+      "description": "Over 60 permanent exemptions (e.g., small boilers and heaters, certain storage tanks) need no notification. Discretionary exemptions require a written request and may be granted by director's letter.",
+      "citation": "OAC 3745-31-03(B)(1); 3745-31-03(B)(3)",
+      "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/applying-for-an-air-pollution-control-permit"
+    },
+    {
+      "type": "exemption",
+      "name": "De minimis exemption",
+      "description": "No notification required, but records must be kept.",
+      "citation": "OAC 3745-15-05",
+      "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/applying-for-an-air-pollution-control-permit",
+      "thresholds": "Source emits less than 10 pounds per day of a regulated air contaminant; not available if potential emissions of any air pollutant exceed 25 tons per year or the source emits more than one ton per year of HAPs (restated; key phrases quoted on Ohio EPA's page)."
+    },
+    {
+      "type": "pbr",
+      "name": "Permit-by-Rule (PBR)",
+      "description": "One-page notification to the district office or local agency, no waiting period or fee (unless converting an existing permit); does not expire. Categories: unpaved and paved roadways/parking, auto body refinishing, gasoline dispensing facilities, gas-fired boilers and heaters, small/midsize printing, emergency generators/pumps/compressors, resin injection/compression molding, crushing and screening plants, and soil vapor/liquid remediation.",
+      "citation": "OAC 3745-31-30",
+      "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/permit-by-rule-pbr"
+    },
+    {
+      "type": "general",
+      "name": "General Permits (general PTI / general PTIO)",
+      "description": "Model permits with qualifying criteria for: aggregate processing, asphalt plants, boilers, drycleaning, human crematories, mineral extraction, miscellaneous metal parts coating, paved and unpaved roadways, ready mix concrete, storage piles, tub grinders, portable diesel engines, oil and gas well-site production, and natural gas compressor stations. Sources must continually meet the qualifying criteria.",
+      "citation": "OAC 3745-31-29",
+      "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/general-permit-program"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Permit-to-Install and Operate (PTIO) / Permit-to-Install (PTI)",
+      "description": "Must be issued before installation or modification begins; construction must start within 18 months. PTIO for non-Title V facilities, PTI for Title V facilities. Applications use Form 3150a (Section I, a Section II per emissions unit, plus Emissions Activity Category forms). Best Available Technology is set case by case; toxic air contaminant modeling is required if allowable emissions of a toxic exceed 1.0 ton per year.",
+      "citation": "OAC 3745-31-02, 3745-31-05",
+      "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/applying-for-an-air-pollution-control-permit"
+    },
+    {
+      "type": "state-operating",
+      "name": "Federally Enforceable PTIO (synthetic minor)",
+      "description": "PTIO special terms that create federally enforceable restrictions to avoid PSD, nonattainment NSR, Title V, or MACT applicability. Synthetic Minor Title V facilities file through Air Services.",
+      "citation": "OAC 3745-31-05(D)",
+      "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/engineer/eguides/guide86-374531RuleCites3.pdf"
+    },
+    {
+      "type": "psd",
+      "name": "Attainment provisions (PSD)",
+      "description": "Review of major stationary sources and major modifications in attainment or unclassifiable areas, including BACT and Class I/II increments.",
+      "citation": "OAC 3745-31-10 to 3745-31-20",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3745-31-13"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment provisions",
+      "description": "Major stationary sources and major modifications in nonattainment areas may not begin actual construction until rules 3745-31-21 through 3745-31-27 are met and a PTI is obtained (LAER and offsets).",
+      "citation": "OAC 3745-31-21 to 3745-31-27",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3745-31-21"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "New major sources file within 12 months of becoming subject to Title V; renewals are filed 6 to 18 months before expiration. Title V and Synthetic Minor Title V facilities must use the eBusiness Center Air Services. Fees are per ton of actual emissions plus a base fee (OAC 3745-78, ORC 3745.11).",
+      "citation": "OAC Chapter 3745-77",
+      "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/title-v-permitting-program",
+      "quote": "100 tons per year or more of any one regulated pollutant ... 10 tons per year or more of any one hazardous air pollutant (HAP) ... 25 tons per year or more of any two or more HAPs"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Ohio (Utica/Marcellus) uses general permits for upstream and midstream oil and gas. Well-site GPs 12.1 and 12.2 (2014) are no longer available for new sources as of May 7, 2024 (the effective date of NSPS OOOOb) but are renewed for non-OOOOb facilities; GPs 12.3.1 and 12.3.2 cover sources constructed, modified, or reconstructed after December 6, 2022 and incorporate OOOOb. Midstream compressor stations use a family of unit-specific GPs (engines, dehydrators, flares, compressors, leaks, tanks, truck loading, pigging), with supplemental information showing the project won't trigger major NSR.",
+    "programs": [
+      {
+        "type": "general",
+        "name": "Well-site production GP 12.1 / 12.2 (legacy)",
+        "description": "GP 12.1: small flare (nominal 10 mmBtu/hr) with up to 1,800 total hp of engines. GP 12.2: large flare (nominal 32 mmBtu/hr) with up to 1,000 total hp. Covers glycol dehydrators, gas and diesel engines, fixed roof tanks, flares, and ancillary equipment. Terms effective April 4, 2014; closed to new sources from May 7, 2024.",
+        "citation": "OAC 3745-31-29",
+        "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/general-permits-oil-and-gas-well-site-production-operations"
+      },
+      {
+        "type": "general",
+        "name": "Well-site production GP 12.3.1 (small flare) / 12.3.2 (large flare)",
+        "description": "For sources commencing construction, modification, or reconstruction after December 6, 2022. Covers fugitive equipment/pipeline leaks, dehydration, spark-ignition engines, flares/combustion devices, blowdowns/rod packing, truck loading, and condensate/produced water tank batteries; incorporates NSPS OOOOb.",
+        "citation": "OAC 3745-31-29",
+        "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/general-permits-oil-and-gas-well-site-production-operations"
+      },
+      {
+        "type": "general",
+        "name": "Natural gas compressor station GPs",
+        "description": "Lean-burn and rich-burn gas engines (GP 14.01-14.10, 100 to 3,800 BHP bands, terms effective October 30, 2024); portable diesel engines (9.13, 9.14); glycol dehydrators (15.1 up to 90 MMscf/day, 15.2 90-150 MMscf/day); flares (16.1 open up to 1 MMBtu/hr, 16.2 enclosed up to 10, 16.3 enclosed over 10 to 20); reciprocating compressors (17.1); equipment leaks up to 10 tpy VOC (18.1); fixed-roof tanks up to 500 bbl (19.1); truck loading up to 32,000,000 gal/yr (20.1); pigging (21.1, effective July 9, 2024).",
+        "citation": "OAC 3745-31-29",
+        "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/general-permits-natural-gas-compressor-stations-and-similar-facilities"
+      }
+    ]
+  },
+  "regulations": [
+    { "citation": "OAC Chapter 3745-31", "title": "Permits-to-install new sources and permits-to-install and operate", "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-3745-31" },
+    { "citation": "OAC 3745-31-03", "title": "Permit exemptions", "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/regs/3745-31/3745-31-03-FS.pdf" },
+    { "citation": "OAC 3745-31-29", "title": "General permits", "url": "https://epa.ohio.gov/static/Portals/27/regs/3745-31/3745-31-29f.pdf" },
+    { "citation": "OAC 3745-31-30", "title": "Permits-by-rule" },
+    { "citation": "OAC 3745-15-05", "title": "De minimis air contaminant source exemption" },
+    { "citation": "OAC Chapter 3745-77", "title": "Title V permits" },
+    { "citation": "OAC Chapter 3745-78", "title": "Title V fees" },
+    { "citation": "DAPC effective rules", "title": "Ohio EPA DAPC rule index", "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/regulations/effective-rules/dapc-effective-rules" }
+  ],
+  "forms": [
+    { "name": "Permit Application Forms", "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/permit-application-forms" },
+    { "name": "PTI/PTIO Application Section I", "url": "https://epa.ohio.gov/static/Portals/27/permittest/PTIPTIOappsec1.pdf" },
+    { "name": "PTI/PTIO Instructions", "url": "https://epa.ohio.gov/static/Portals/27/permittest/PTIPTIOinstructions.pdf" },
+    { "name": "PBR notification: Gas-fired Boiler and Heater", "url": "https://epa.ohio.gov/static/Portals/27/pbr/PBRBOILER.pdf" },
+    { "name": "PBR notification: Emergency Generator/Pump/Compressor", "url": "https://epa.ohio.gov/static/Portals/27/pbr/PBRGENERATOR.pdf" },
+    { "name": "EAC 3862 Stationary Internal Combustion Engines", "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/fops/eac/intcomb.pdf" },
+    { "name": "EAC 3104 Storage Tank", "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/fops/eac/stortank.pdf" }
+  ],
+  "guidance": [
+    { "name": "Applying for an Air Pollution Control Permit", "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/applying-for-an-air-pollution-control-permit" },
+    { "name": "Permit Exemptions fact sheet (3745-31-03)", "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/regs/3745-31/3745-31-03-FS.pdf" },
+    { "name": "Engineering Guide #86: OAC 3745-31 rule cites in permits", "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/engineer/eguides/guide86-374531RuleCites3.pdf" },
+    { "name": "District Offices and Local Air Agencies", "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/ohio-epa-district-offices-and-local-air-pollution-control-agencies" },
+    { "name": "Oil and Gas Well-site GP 12.3.1 qualifying criteria", "url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/oil%20and%20gas/GP-12.3.1.QC.pdf" }
+  ],
+  "ePermitting": { "name": "eBusiness Center: Air Services", "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/about-dapc/air-services" },
+  "fees": { "name": "Title V fee reporting", "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/reporting" },
+  "sources": [
+    { "name": "Ohio EPA Applying for an Air Pollution Control Permit", "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/applying-for-an-air-pollution-control-permit" },
+    { "name": "Ohio EPA General Permit Program", "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/general-permit-program" },
+    { "name": "Ohio EPA Permit-by-Rule", "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/permit-by-rule-pbr" },
+    { "name": "Ohio EPA Title V Permitting Program", "url": "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/title-v-permitting-program" },
+    { "name": "OAC 3745-31-21 (nonattainment)", "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3745-31-21" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Ohio EPA's PBR page cites OAC 3745-31-30 but links a file named 3745-31-03_Final.pdf; confirm against rule text. Title V fee for reporting year 2025 listed as $65.38/ton plus a $5,000 base fee. PSD/NNSR rule ranges confirmed from codes.ohio.gov rule text (3745-31-13 and 3745-31-21). Compliance Assistance Unit: 800-329-7518."
+}

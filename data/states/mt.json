@@ -1,0 +1,147 @@
+{
+  "code": "MT",
+  "name": "Montana",
+  "slug": "montana",
+  "epaRegion": 8,
+  "agency": {
+    "name": "Montana Department of Environmental Quality (DEQ)",
+    "division": "Air Quality Bureau",
+    "url": "https://deq.mt.gov/air",
+    "permitsUrl": "https://deq.mt.gov/air/assistance"
+  },
+  "overview": "Montana DEQ issues Montana Air Quality Permits (MAQPs, preconstruction permits under ARM 17.8 Subchapter 7), Title V Operating Permits (ARM 17.8 Subchapter 12), and registrations for specific portable or well-site source types (oil and gas well facilities, nonmetallic mineral crushers/screeners, concrete batch plants, and asphalt plants). Per DEQ, MAQPs do not expire. PSD applies to major stationary sources under ARM 17.8 Subchapter 8.",
+  "permitTypes": [
+    {
+      "type": "minor-nsr",
+      "name": "Montana Air Quality Permit (MAQP)",
+      "description": "Preconstruction permit required before constructing, installing, or altering a facility above the MAQP threshold. DEQ states MAQPs do not expire. DEQ lists typical processing of roughly 75 to 90 days for a complete application.",
+      "citation": "ARM 17.8 Subchapter 7 (ARM 17.8.743)",
+      "url": "https://deq.mt.gov/air/assistance",
+      "thresholds": "Facilities with the potential to emit more than 5 tons per year of lead or more than 25 tons per year of any other airborne pollutant, and any incinerator, need an MAQP unless exempt (restated from DEQ's air permitting assistance page)."
+    },
+    {
+      "type": "exemption",
+      "name": "De minimis changes",
+      "description": "Certain small changes at permitted facilities may proceed without a permit modification if they meet the de minimis criteria; DEQ requires advance notice of the change.",
+      "citation": "ARM 17.8.745",
+      "url": "https://deq.mt.gov/air/assistance",
+      "thresholds": "DEQ's page states the owner/operator must notify DEQ at least 10 days before beginning a de minimis change (restated)."
+    },
+    {
+      "type": "registration",
+      "name": "Registration: Oil and gas well facilities",
+      "description": "Oil and gas well facilities that would otherwise need an MAQP may register instead of permitting. Title V sources are not eligible. See the Oil and Gas section.",
+      "citation": "ARM 17.8 Subchapter 17 (ARM 17.8.1701-17.8.1713)",
+      "url": "https://deq.mt.gov/air/assistance"
+    },
+    {
+      "type": "registration",
+      "name": "Registration: Nonmetallic mineral processing (crushers and screeners)",
+      "description": "Portable and stationary crushing and screening operations may register under the registration rules instead of obtaining an MAQP, subject to eligibility and production limits in the rule.",
+      "citation": "ARM 17.8 Subchapter 18 (ARM 17.8.1802)",
+      "url": "https://deq.mt.gov/air/assistance"
+    },
+    {
+      "type": "registration",
+      "name": "Registration: Concrete batch plants and asphalt plants",
+      "description": "DEQ lists registration options for concrete batch plants and asphalt plants, with associated fees and production limits.",
+      "citation": "ARM 17.8 Subchapter 18",
+      "url": "https://deq.mt.gov/air/assistance"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "Major source preconstruction review in attainment areas. DEQ's PSD web section was marked 'under construction' on the review date; consult the rule text.",
+      "citation": "ARM 17.8 Subchapter 8",
+      "url": "https://deq.mt.gov/air/assistance"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Operating permit for major sources. Permits have a 5-year term; renewal applications are due at least 6 months before expiration.",
+      "citation": "ARM 17.8 Subchapter 12",
+      "url": "https://deq.mt.gov/air/assistance",
+      "thresholds": "Potential to emit more than 100 tons per year of any criteria pollutant, more than 10 tons per year of any single hazardous air pollutant, or more than 25 tons per year of combined hazardous air pollutants (restated from DEQ's page)."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Montana lets oil and gas well facilities register with DEQ in place of an MAQP. DEQ's page describes eligibility for well facilities with potential emissions above 25 tons per year, constructed after November 23, 1968; Title V sources are not eligible. Registration is due within 60 days of initial well completion. Federal NSPS OOOO/OOOOa/OOOOb and NESHAP HH may also apply.",
+    "programs": [
+      {
+        "type": "registration",
+        "name": "Oil and Gas Well Facility Registration",
+        "description": "Registration in lieu of an MAQP for qualifying oil and gas well facilities. DEQ lists a registration fee and an annual fee; see the fee schedule.",
+        "citation": "ARM 17.8.1701, 17.8.1703, 17.8.1704",
+        "url": "https://deq.mt.gov/air/assistance",
+        "thresholds": "Register within 60 days of initial well completion; DEQ lists a $500 registration fee and $850 annual fee (restated; confirm in the current fee schedule)."
+      }
+    ]
+  },
+  "regulations": [
+    {
+      "citation": "ARM Title 17, Chapter 8",
+      "title": "Air Quality (Administrative Rules of Montana)"
+    },
+    {
+      "citation": "ARM 17.8 Subchapter 7",
+      "title": "Permit, Construction, and Operation of Air Contaminant Sources (MAQP)"
+    },
+    {
+      "citation": "ARM 17.8 Subchapter 8",
+      "title": "Prevention of Significant Deterioration of Air Quality"
+    },
+    {
+      "citation": "ARM 17.8 Subchapter 12",
+      "title": "Operating Permit Program (Title V)"
+    },
+    {
+      "citation": "ARM 17.8 Subchapter 17",
+      "title": "Registration of Air Contaminant Sources: Oil and Gas Well Facilities"
+    },
+    {
+      "citation": "ARM 17.8 Subchapter 18",
+      "title": "Registration of Air Contaminant Sources: Nonmetallic Mineral Processing and other portable sources"
+    },
+    {
+      "citation": "Title 75, Chapter 2, MCA",
+      "title": "Clean Air Act of Montana"
+    }
+  ],
+  "forms": [
+    {
+      "name": "Stationary Source MAQP Application (2025)",
+      "url": "https://deq.mt.gov/files/Air/AirQuality/Documents/Forms/StationaryApp_2025.docx"
+    },
+    {
+      "name": "Oil and Gas Registration Form",
+      "url": "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/OGRegistrationForm.docx"
+    },
+    {
+      "name": "Oil and Gas Registration Instructions",
+      "url": "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.pdf"
+    }
+  ],
+  "guidance": [
+    {
+      "name": "DEQ Air Permitting Assistance",
+      "url": "https://deq.mt.gov/air/assistance"
+    }
+  ],
+  "fees": {
+    "name": "Permit Application Fees",
+    "url": "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/PermitApplicationFees.docx"
+  },
+  "sources": [
+    {
+      "name": "Montana DEQ Air Permitting Assistance",
+      "url": "https://deq.mt.gov/air/assistance"
+    },
+    {
+      "name": "EPA CAA Permitting in Montana",
+      "url": "https://www.epa.gov/caa-permitting/caa-permitting-montana"
+    }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "partial",
+  "notes": "Thresholds restated from DEQ's permitting assistance page (not verbatim); confirm against current ARM text. DEQ's PSD page was under construction on the review date. Reservations and Indian country in Montana are generally under EPA Region 8 jurisdiction. DEQ air permitting phone: 406-444-3490."
+}

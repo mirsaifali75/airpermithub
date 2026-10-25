@@ -1,0 +1,37 @@
+{
+  "code": "MN", "name": "Minnesota", "slug": "minnesota", "epaRegion": 5,
+  "agency": { "name": "Minnesota Pollution Control Agency (MPCA)", "division": "Industrial Division, Air Permits", "url": "https://www.pca.state.mn.us/business-with-us/air-permits", "permitsUrl": "https://www.pca.state.mn.us/business-with-us/air-permit-types" },
+  "overview": "In Minnesota a facility needs an air permit when its potential to emit exceeds a permitting threshold, unless it is an insignificant facility or a conditionally exempt source. State permits for minor sources include one-page registration permits, capped emission permits, a state general permit, and individual state total facility permits. Federal permits are Part 70 individual permits and a Part 70 manufacturing general permit. Rules are in Minn. R. ch. 7007 (permits) and ch. 7008 (conditionally exempt sources).",
+  "permitTypes": [
+    { "type": "exemption", "name": "Insignificant facilities and conditionally exempt sources", "description": "Insignificant facilities may not need a permit (MPCA offers a PTE calculator). Conditionally exempt sources (e.g., auto body, coating, woodworking, gasoline stations, concrete manufacturers) may exceed thresholds but follow technical standards and usually notify MPCA instead of getting a permit.", "citation": "Minn. R. ch. 7008", "url": "https://www.pca.state.mn.us/business-with-us/conditionally-exempt-sources" },
+    { "type": "registration", "name": "Registration Permits (incl. Option D)", "description": "One-page, non-expiring state permits for facilities whose actual emissions are low compared to potential (generally under 50% of federal thresholds). Not available to acid rain sources, waste combustors, or facilities with SIP requirements or certain NSPS.", "citation": "Minn. R. ch. 7007", "url": "https://www.pca.state.mn.us/business-with-us/air-registration-permits", "thresholds": "Per MPCA (Option D, actual emissions): under 50 tpy each of PM, PM10, VOC, SO2, NOx, CO; under 5 tpy single HAP; under 12.5 tpy all HAPs; under 0.5 tpy lead; under 50,000 tpy CO2e." },
+    { "type": "state-operating", "name": "Capped Emission Permit", "description": "Caps facility-wide emissions to stay below Part 70 or NSR major thresholds; changes allowed without amendment while under the cap. Single-page permit.", "citation": "Minn. R. ch. 7007", "url": "https://pca.state.mn.us/air/capped-air-emission-state-permit", "thresholds": "Per MPCA: actual emissions under 75%-90% of federal thresholds (e.g., Option 1 under 90 tpy listed pollutants including insignificant activities)." },
+    { "type": "general", "name": "State General Permit", "description": "One state general permit is currently available, for non-metallic mineral processing.", "url": "https://www.pca.state.mn.us/business-with-us/air-permit-types" },
+    { "type": "minor-nsr", "name": "Individual State Total Facility Permit", "description": "Facility-specific permit with limits to remain minor for NSR and Part 70; 30-day public notice; five-year term; amendments required for changes.", "citation": "Minn. R. 7007.1000", "url": "https://www.pca.state.mn.us/business-with-us/air-permit-types" },
+    { "type": "psd", "name": "PSD / NSR", "description": "Major NSR applies at 100 or 250 tpy depending on source category; individual Part 70 permits often include limits to remain minor for NSR.", "url": "https://www.pca.state.mn.us/sites/default/files/aq2-29.pdf" },
+    { "type": "title-v", "name": "Part 70 Individual and General Permits", "description": "Individual permits for the largest facilities (30-day public comment, 45-day EPA review, five-year renewal). A Part 70 general permit covers manufacturing facilities.", "url": "https://www.pca.state.mn.us/business-with-us/part-70-manufacturing-general-permit" }
+  ],
+  "oilAndGas": { "summary": "Minnesota has no oil and gas production. MPCA's permit pages list no oil-and-gas-specific air program; stationary engine guidance applies to compressor and generator engines.", "programs": [] },
+  "regulations": [
+    { "citation": "Minn. R. ch. 7007", "title": "Air Emission Permits" },
+    { "citation": "Minn. R. ch. 7008", "title": "Conditionally Exempt Stationary Sources" }
+  ],
+  "forms": [
+    { "name": "Air permits (forms and applications)", "url": "https://www.pca.state.mn.us/business-with-us/air-permits" },
+    { "name": "CH-16 Applicability Determination Request", "url": "https://www.pca.state.mn.us/sites/default/files/aq-f2-ch16.doc" },
+    { "name": "Insignificant facility PTE calculator", "url": "https://www.pca.state.mn.us/sites/default/files/p-sbap5-35.xlsm" }
+  ],
+  "guidance": [
+    { "name": "Do I need an air permit?", "url": "https://www.pca.state.mn.us/business-with-us/do-i-need-an-air-permit" },
+    { "name": "Comparison of Air Permit Flexibility Options", "url": "https://www.pca.state.mn.us/sites/default/files/aq2-29.pdf" },
+    { "name": "Option D Registration Permit fact sheet", "url": "https://www.pca.state.mn.us/sites/default/files/aq3-04.pdf" },
+    { "name": "Air emissions calculators", "url": "https://www.pca.state.mn.us/business-with-us/air-emissions-calculators" }
+  ],
+  "sources": [
+    { "name": "MPCA Air permit types", "url": "https://www.pca.state.mn.us/business-with-us/air-permit-types" },
+    { "name": "MPCA Do I need an air permit?", "url": "https://www.pca.state.mn.us/business-with-us/do-i-need-an-air-permit" },
+    { "name": "MPCA Comparison of Air Permit Flexibility Options", "url": "https://www.pca.state.mn.us/sites/default/files/aq2-29.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Registration Options A-C and numeric permitting thresholds (Minn. R. 7007.0250/0300) were not stated on the pages reviewed."
+}

@@ -1,0 +1,38 @@
+{
+  "code": "MD", "name": "Maryland", "slug": "maryland", "epaRegion": 3,
+  "agency": { "name": "Maryland Department of the Environment (MDE)", "division": "Air and Radiation Administration, Air Quality Permits Program", "url": "https://mde.maryland.gov/programs/permits/airmanagementpermits/pages/air.aspx", "permitsUrl": "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/PermitstoConstructandOperate.aspx" },
+  "overview": "Maryland requires an Air Quality Permit to Construct before installing, modifying, replacing, or moving equipment that emits air pollutants, unless exempt under COMAR 26.11.02.10. Common equipment can use General Permits to Construct. Sources with potential to significantly affect air quality need a State Permit to Operate; major sources need a Part 70 (Title V) permit. Major projects require New Source Review (nonattainment) or PSD approval.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Permit to Construct exemptions", "description": "Sources listed in COMAR 26.11.02.10 do not need a permit to construct; de minimis thresholds are in COMAR 26.11.02.10(x).", "citation": "COMAR 26.11.02.10", "url": "https://mde.maryland.gov/programs/permits/Documents/2008permitguide/ARMA/1.02.pdf" },
+    { "type": "general", "name": "General Permits to Construct", "description": "Categories: perc dry cleaning ($500), charbroilers/pit barbeques ($100), small fuel burning equipment ($400), medium fuel burning equipment ($500), vehicle refueling ($200), off-road gasoline refueling ($200), groundwater air strippers and SVE ($250), sheetfed non-heatset lithographic printers ($500), vehicle refinishing ($500), ready-mix concrete batch plants ($250), emergency generators ($400).", "citation": "COMAR 26.11.02", "url": "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.01.pdf" },
+    { "type": "minor-nsr", "name": "Air Quality Permit to Construct", "description": "One-time permit required before construction or installation; terminates if construction doesn't begin within 18 months. Some applications require public review and local zoning compliance (Environment Article § 2-404). Fees $400 to $20,500. Turnaround 3 to 11 months depending on review type.", "citation": "COMAR 26.11.02.01-.21; fees at 26.11.02.17-.18", "url": "https://mde.maryland.gov/programs/permits/Documents/2008permitguide/ARMA/1.02.pdf" },
+    { "type": "state-operating", "name": "State Permit to Operate", "description": "For sources with potential to significantly affect air quality (e.g., incinerators, crematories, asphalt plants, cement kilns, large VOC tanks, EtO sterilizers). Maximum five-year term; renew at least 60 days before expiration. Annual base fee $500 ($1,000 for synthetic minors) plus an emissions-based fee.", "citation": "COMAR 26.11.02.13", "url": "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.05.pdf" },
+    { "type": "nnsr", "name": "New Source Review (NSR) Approval", "description": "Major source review in nonattainment areas; Maryland is in the Ozone Transport Region.", "url": "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.03.pdf" },
+    { "type": "psd", "name": "Prevention of Significant Deterioration (PSD) Approval", "description": "Major source review in attainment areas.", "url": "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.04.pdf" },
+    { "type": "title-v", "name": "Part 70 (Title V) Operating Permit", "description": "For acid rain sources, major sources, medical waste incinerators, large MSW landfills, and certain NSPS/NESHAP sources. Apply within 12 months of initial operation; five-year term; annual fee $5,000 plus emissions-based fee.", "citation": "COMAR 26.11.03", "url": "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.06.pdf", "thresholds": "Per MDE: potential to emit 100 tpy or more of any regulated pollutant; 10 tpy single HAP or 25 tpy combined HAPs; or more than any applicable nonattainment major source threshold in COMAR 26.11.02.01.C. MSW landfills of 2.75 million tons capacity or more." }
+  ],
+  "oilAndGas": { "summary": "Maryland has no significant oil and gas production. MDE's permit guide lists no oil-and-gas-specific air permit; vehicle refueling and fuel burning general permits are the closest categories.", "programs": [] },
+  "regulations": [
+    { "citation": "COMAR 26.11.02", "title": "Permits, Approvals, and Registration" },
+    { "citation": "COMAR 26.11.03", "title": "Permits, Approvals, and Registration: Title V Permits" },
+    { "citation": "Environment Article, Title 2, Subtitle 4", "title": "Maryland air quality statute" }
+  ],
+  "forms": [
+    { "name": "Air Quality General Permit page", "url": "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/AirQualityGeneralPermit.aspx" },
+    { "name": "Permits to Construct and Operate", "url": "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/PermitstoConstructandOperate.aspx" },
+    { "name": "Part 70 Initial Permit Application", "url": "https://mde.maryland.gov/programs/permits/Documents/Permit%20Applications/Air/Federal%20Title%20V%20-%20Part%2070%20Operating%20Permit%20-%20Initial%20Permit%20Application-ARA.pdf" }
+  ],
+  "guidance": [
+    { "name": "Title V Program Information", "url": "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/TitleVProgramInformation.aspx" },
+    { "name": "Toxic Air Pollutant Regulations", "url": "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/ToxicAirPollutantRegulationDocuments.aspx" },
+    { "name": "Issued Part 70 Permits", "url": "https://mde.maryland.gov/programs/permits/airmanagementpermits/pages/title5_issued_permits.aspx" }
+  ],
+  "sources": [
+    { "name": "MDE Air Permits & Approvals", "url": "https://mde.maryland.gov/programs/permits/airmanagementpermits/pages/air.aspx" },
+    { "name": "MDE Permit Guide 1.02 Permit to Construct", "url": "https://mde.maryland.gov/programs/permits/Documents/2008permitguide/ARMA/1.02.pdf" },
+    { "name": "MDE Permit Guide 1.05 State Permit to Operate", "url": "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.05.pdf" },
+    { "name": "MDE Permit Guide 1.06 Part 70", "url": "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.06.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Permit guide documents carry a 2008 path but list 2020 fee figures. NSR and PSD guide sheets (1.03, 1.04) were linked but not read in detail. COMAR chapter titles are summarized."
+}

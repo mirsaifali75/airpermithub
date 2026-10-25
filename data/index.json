@@ -172,6 +172,114 @@
       "file": "states/la.json"
     },
     {
+      "code": "MA",
+      "name": "Massachusetts",
+      "slug": "massachusetts",
+      "agency": "Massachusetts Department of Environmental Protection (MassDEP)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ma.json"
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "slug": "maryland",
+      "agency": "Maryland Department of the Environment (MDE)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/md.json"
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "slug": "maine",
+      "agency": "Maine Department of Environmental Protection (DEP)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/me.json"
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "slug": "michigan",
+      "agency": "Michigan Department of Environment, Great Lakes, and Energy (EGLE)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/mi.json"
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "slug": "minnesota",
+      "agency": "Minnesota Pollution Control Agency (MPCA)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/mn.json"
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "slug": "missouri",
+      "agency": "Missouri Department of Natural Resources (DNR)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/mo.json"
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "slug": "mississippi",
+      "agency": "Mississippi Department of Environmental Quality (MDEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ms.json"
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "slug": "montana",
+      "agency": "Montana Department of Environmental Quality (DEQ)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/mt.json"
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "slug": "north-carolina",
+      "agency": "North Carolina Department of Environmental Quality (NC DEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/nc.json"
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "slug": "north-dakota",
+      "agency": "North Dakota Department of Environmental Quality (NDDEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/nd.json"
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "slug": "nebraska",
+      "agency": "Nebraska Department of Water, Energy, and Environment (DWEE)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ne.json"
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "slug": "new-hampshire",
+      "agency": "New Hampshire Department of Environmental Services (NHDES)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/nh.json"
+    },
+    {
       "code": "NM",
       "name": "New Mexico",
       "slug": "new-mexico",
@@ -179,6 +287,69 @@
       "verification": "verified",
       "lastReviewed": "2026-10-25",
       "file": "states/nm.json"
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "slug": "nevada",
+      "agency": "Nevada Division of Environmental Protection (NDEP)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/nv.json"
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "slug": "new-york",
+      "agency": "New York State Department of Environmental Conservation (NYSDEC)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ny.json"
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "slug": "ohio",
+      "agency": "Ohio Environmental Protection Agency (Ohio EPA)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/oh.json"
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "slug": "oklahoma",
+      "agency": "Oklahoma Department of Environmental Quality (DEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ok.json"
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "slug": "oregon",
+      "agency": "Oregon Department of Environmental Quality (DEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/or.json"
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "slug": "pennsylvania",
+      "agency": "Pennsylvania Department of Environmental Protection (DEP)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/pa.json"
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "slug": "rhode-island",
+      "agency": "Rhode Island Department of Environmental Management (DEM)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ri.json"
     },
     {
       "code": "TX",
@@ -190,5 +361,5 @@
       "file": "states/tx.json"
     }
   ],
-  "count": 21
+  "count": 40
 }

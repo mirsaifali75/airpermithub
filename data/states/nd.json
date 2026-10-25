@@ -1,0 +1,202 @@
+{
+  "code": "ND",
+  "name": "North Dakota",
+  "slug": "north-dakota",
+  "epaRegion": 8,
+  "agency": {
+    "name": "North Dakota Department of Environmental Quality (NDDEQ)",
+    "division": "Division of Air Quality",
+    "url": "https://www.deq.nd.gov/aq/permitting/",
+    "permitsUrl": "https://deq.nd.gov/aq/permitting/construction.aspx"
+  },
+  "overview": "North Dakota uses a two-step system: a Permit to Construct (PTC) before building or modifying a source in a designated category (NDAC 33.1-15-14), then a Permit to Operate (PTO) issued after DEQ inspects the facility. Sources are classed as true minor, synthetic minor (federally enforceable limits), Title V major, and PSD major. North Dakota is in attainment for all criteria pollutants, so major preconstruction review is PSD. Oil and gas production facilities use a General Permit (GP-OG) filed through CERIS-ND. Applications and reports are filed electronically through CERIS-ND. Indian country is outside the GP-OG and NDDEQ's jurisdiction.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Exempt sources",
+      "description": "Sources exempt from a PTC are listed in NDAC 33.1-15-14-02.13. For some minor-impact sources, an applicant may file and DEQ will decide in writing whether a permit is needed.",
+      "citation": "NDAC 33.1-15-14-02.13",
+      "url": "https://deq.nd.gov/aq/permitting/construction.aspx"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Minor Source Permit to Construct and Permit to Operate",
+      "description": "PTC required before construction or modification; PTO issued after inspection confirms the facility was built per the PTC. Notify DEQ within 30 days of initial operation. A PTC lapses if construction does not start within 18 months unless extended. True minors generally do not need public comment.",
+      "citation": "NDAC 33.1-15-14",
+      "url": "https://deq.nd.gov/aq/permitting/construction.aspx",
+      "quote": "less than 100 ton/yr of a criteria pollutant, less than 10 ton/yr of any single hazardous air pollutant, less than 25 ton/yr of any combination of hazardous air pollutants"
+    },
+    {
+      "type": "state-operating",
+      "name": "Synthetic Minor PTC and PTO",
+      "description": "For sources whose potential emissions are at or above major levels that accept federally enforceable limits to stay below them. Initial synthetic minor PTCs require a 30-day public comment period.",
+      "citation": "NDAC 33.1-15-14",
+      "url": "https://www.deq.nd.gov/aq/permitting/"
+    },
+    {
+      "type": "general",
+      "name": "Oil and Gas General Permit (GP-OG)",
+      "description": "General permit for oil and gas production facilities outside Indian country, filed through CERIS-ND. See the Oil and Gas section.",
+      "url": "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD) Permit to Construct",
+      "description": "For new major sources and major modifications (all of ND is attainment/unclassifiable). Requires BACT, air quality analysis, additional impacts analysis, and a 30-day public comment period.",
+      "citation": "NDAC 33.1-15-15; 40 CFR 52.21(b)",
+      "url": "https://www.deq.nd.gov/aq/permitting/",
+      "thresholds": "100 tons/yr for the listed source categories and 250 tons/yr for other sources, criteria pollutants only (restated from the DEQ permitting page)."
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Permit to Operate",
+      "description": "Major source operating permit, also required for some sources due to PSD applicability or Title IV Acid Rain. Initial issuance, renewals, and significant modifications need 30-day public comment, 45-day EPA review, and affected state review where applicable.",
+      "citation": "NDAC 33.1-15-14-06",
+      "url": "https://deq.nd.gov/AQ/permitting/Operating.aspx",
+      "thresholds": "At or above 100 tons/yr of a criteria pollutant, 25 tons/yr combined HAP, or 10 tons/yr of a single HAP (restated from the DEQ permitting page table)."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "North Dakota (Bakken) has a dedicated oil and gas air program. Upstream operators submit the GP-OG Application / Well Registration through CERIS-ND before well completion, then a startup notification and a Potential to Emit (PTE) report. The GP-OG is a synthetic minor permit under PSD (facility-wide criteria PTE below 250 tpy, excluding fugitives). Storage tank control is under NDAC 33.1-15-07-02.1; flares must meet NDAC 33.1-15-07-02, 33.1-15-03-03.1, 33.1-15-20, and 40 CFR 60.18. DEQ implements NSPS OOOO/OOOOa reporting. Flared gas volumes are regulated separately by the ND Industrial Commission.",
+    "programs": [
+      {
+        "type": "general",
+        "name": "Air Oil & Gas General Permit Application / Well Registration (GP-OG)",
+        "description": "Required for new and modified production facilities and new or recompleted wells. Startup of production notification is due within 30 days (measured from the final well), and the facility PTE Report within 90 days of startup. Sweetening units need site-specific permits.",
+        "citation": "NDAC 33.1-15-14; GP-OG guidance effective July 1, 2025",
+        "url": "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf",
+        "quote": "No later than two days prior to any planned well completion activities."
+      },
+      {
+        "type": "other",
+        "name": "Well site and tank controls",
+        "description": "DEQ's Oil & Gas pages state new wells need at least a pit flare with 90% destruction and removal efficiency on first production, and tanks emitting more than 20 tpy VOC need more efficient controls operating within 60 days of first production. Flares need an automatic igniter or continuous pilot.",
+        "citation": "NDAC 33.1-15-07-02; 33.1-15-07-02.1; 33.1-15-20",
+        "url": "https://deq.nd.gov/aq/oilgas/"
+      },
+      {
+        "type": "other",
+        "name": "Title V and PSD triggers for production facilities",
+        "description": "Facilities must notify DEQ within 60 days of exceeding Title V thresholds and apply within 12 months; PSD exceedance notification is due the first business day after the exceedance is determined.",
+        "url": "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf"
+      }
+    ]
+  },
+  "regulations": [
+    {
+      "citation": "NDAC Article 33.1-15",
+      "title": "Air Pollution Control",
+      "url": "https://ndlegis.gov/information/acdata/html/33.1-15.html"
+    },
+    {
+      "citation": "NDAC 33.1-15-14",
+      "title": "Designated Air Contaminant Sources, Permit to Construct, Minor Source Permit to Operate, Title V Permit to Operate",
+      "url": "https://ndlegis.gov/information/acdata/pdf/33.1-15-14.pdf"
+    },
+    {
+      "citation": "NDAC 33.1-15-07",
+      "title": "Control of Organic Compounds Emissions (incl. storage tank and gas disposal rules)"
+    },
+    {
+      "citation": "NDAC 33.1-15-20",
+      "title": "Control of Emissions from Oil and Gas Well Production Facilities"
+    },
+    {
+      "citation": "NDAC 33.1-15-13",
+      "title": "Emission Standards for Hazardous Air Pollutants (cited for public comment procedures)"
+    },
+    {
+      "citation": "NDAC 33.1-15-15",
+      "title": "Prevention of Significant Deterioration of Air Quality"
+    },
+    {
+      "citation": "NDAC 33.1-15-23",
+      "title": "Fees"
+    }
+  ],
+  "forms": [
+    {
+      "name": "Instructions for Completing Permit Application Forms",
+      "url": "https://deq.nd.gov/Forms/AQ/Permitting/FormInstructions.pdf"
+    },
+    {
+      "name": "SFN 8516 Air Contaminant Sources",
+      "url": "https://deq.nd.gov/forms/aq/Permitting/SFN8516.pdf"
+    },
+    {
+      "name": "SFN 8891 Internal Combustion Engines and Turbines",
+      "url": "https://deq.nd.gov/forms/aq/Permitting/SFN8891.pdf"
+    },
+    {
+      "name": "SFN 58923 Glycol Dehydration Units",
+      "url": "https://deq.nd.gov/forms/aq/Permitting/SFN58923.pdf"
+    },
+    {
+      "name": "SFN 59652 Flares",
+      "url": "https://deq.nd.gov/forms/aq/Permitting/SFN59652.pdf"
+    },
+    {
+      "name": "SFN 11408 Natural Gas Processing Plants",
+      "url": "https://deq.nd.gov/forms/aq/Permitting/SFN11408.pdf"
+    },
+    {
+      "name": "SFN 8535 VOC Storage Tank",
+      "url": "https://deq.nd.gov/forms/aq/Permitting/SFN8535.pdf"
+    },
+    {
+      "name": "Title V Application Instructions",
+      "url": "https://deq.nd.gov/forms/AQ/Title-V/Title_V_Instructions.pdf"
+    }
+  ],
+  "guidance": [
+    {
+      "name": "Oil & Gas General Permit Application Guidance (July 2025)",
+      "url": "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf"
+    },
+    {
+      "name": "Oil & Gas program",
+      "url": "https://deq.nd.gov/aq/oilgas/"
+    },
+    {
+      "name": "Oil & Gas Wells",
+      "url": "https://deq.nd.gov/aq/oilgas/OilGasWell.aspx"
+    },
+    {
+      "name": "Bakken Pool Oil and Gas Production Facilities Permitting Guidance (2011, historical)",
+      "url": "https://deq.nd.gov/publications/AQ/policy/PC/20110502_OilGas_Permitting_Guidance.pdf"
+    },
+    {
+      "name": "Permit Portal (example permits)",
+      "url": "https://deq.nd.gov/AQ/permitting/PermitPortal.aspx"
+    },
+    {
+      "name": "Air Modeling",
+      "url": "https://deq.nd.gov/AQ/modeling/"
+    }
+  ],
+  "ePermitting": {
+    "name": "CERIS-ND",
+    "url": "https://ceris.deq.nd.gov/ext/ncore/"
+  },
+  "sources": [
+    {
+      "name": "NDDEQ Air Permitting",
+      "url": "https://www.deq.nd.gov/aq/permitting/"
+    },
+    {
+      "name": "NDDEQ Construction Permitting",
+      "url": "https://deq.nd.gov/aq/permitting/construction.aspx"
+    },
+    {
+      "name": "NDDEQ Oil & Gas",
+      "url": "https://deq.nd.gov/aq/oilgas/"
+    },
+    {
+      "name": "NDDEQ GP-OG Guidance",
+      "url": "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf"
+    }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "The DEQ construction page phrases the synthetic minor HAP trigger as '10 ton/yr or greater of any hazardous air pollutant'; thresholds otherwise restated from DEQ's permitting table. Chapter titles (incl. PSD at 33.1-15-15) confirmed from the NDAC Article 33.1-15 index. Indian country (e.g., Fort Berthold) is under EPA Region 8 permitting (not verified on an EPA page in this review). Permitting: 701-328-5188."
+}

@@ -1,0 +1,122 @@
+{
+  "code": "OR",
+  "name": "Oregon",
+  "slug": "oregon",
+  "epaRegion": 10,
+  "agency": {
+    "name": "Oregon Department of Environmental Quality (DEQ)",
+    "division": "Air Quality Program",
+    "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/default.aspx",
+    "permitsUrl": "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx"
+  },
+  "localAgencies": [
+    {
+      "name": "Lane Regional Air Protection Agency (LRAPA)",
+      "jurisdiction": "Lane County",
+      "url": "https://www.lrapa-or.gov/",
+      "notes": "Permitting authority for PSD, minor NSR, nonattainment NSR, and Title V in Lane County (per EPA)."
+    }
+  ],
+  "overview": "Oregon DEQ issues Air Contaminant Discharge Permits (ACDPs) for minor sources and for new major sources/major modifications, plus Title V operating permits for major sources. Which ACDP applies depends on the source category in the Table of Activities and Sources (OAR 340-216-8010, Table 1): Part A sources qualify for a Basic ACDP, Part B for a General, Simple, or Standard ACDP, and Part C must get a Standard ACDP. Permits carry Plant Site Emission Limits (PSELs) compared against Significant Emission Rates (SERs). Many sources need a Notice of Construction even without a permit (OAR Division 210), and every permit needs a Land Use Compatibility Statement. Cleaner Air Oregon adds facility risk assessment for toxic air contaminants. LRAPA permits in Lane County; EPA Region 10 permits in Indian Country and on the Outer Continental Shelf.",
+  "permitTypes": [
+    {
+      "type": "registration",
+      "name": "Notice of Construction / Notice of Intent to Construct",
+      "description": "Many sources must submit a Notice of Construction even if no permit is required; sources that believe no permit is needed submit an AQ104 Notice of Intent to Construct.",
+      "citation": "OAR 340 Division 210",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Basic ACDP",
+      "description": "Contains only the most significant rules for listed Part A source categories; no PSEL; term up to 10 years. Categories: autobody shops (Portland area), concrete manufacturing (5,000-25,000 cy/yr), crematories (under 20 tons/yr), gas-fired boilers (10 to under 30 MMBtu/hr), prepared feeds (1,000-10,000 tons/yr), rock crushers (5,000-25,000 tons/yr), surface coating (over 250 gal/month), and other sources taking enforceable limits.",
+      "citation": "OAR 340-216-8010, Table 1, Part A",
+      "url": "https://www.oregon.gov/deq/aq/aqpermits/pages/acdp-general.aspx",
+      "thresholds": "Typical actual emissions under 10 tons/yr (DEQ ACDP application instructions comparison table)."
+    },
+    {
+      "type": "general",
+      "name": "General ACDPs",
+      "description": "Issued by order for a source category, up to 10 years; sources are assigned if they qualify and actual emissions stay below the General ACDP PSELs. Categories include degreasers (GP 05), dry cleaners (06), asphalt plants (07), rock crushers (08), concrete (09), sawmills (10), boilers (11), crematories (12), grain elevators (13), prepared feeds (14), seed cleaning (15), coffee roasters (16), bulk gasoline plants (17), electric power generators (18), clay ceramics (19), hospital sterilizers (20), gasoline dispensing (22, 23), metal fabrication/finishing (25, 29), plating and polishing (26), surface coating (27), air curtain incinerators (31), and emergency engines (Attachment 32a).",
+      "citation": "OAR 340-216 (General ACDPs)",
+      "url": "https://www.oregon.gov/deq/aq/aqpermits/pages/acdp-general.aspx"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Simple ACDP",
+      "description": "For Part B sources with source-specific PSELs below the SERs; term up to 10 years. A source may request a Standard ACDP instead to keep a netting basis.",
+      "citation": "OAR 340-216-8010, Table 1, Part B",
+      "url": "https://www.oregon.gov/deq/filterpermitsdocs/acdp-applguidelines.pdf"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Standard ACDP",
+      "description": "For Part C sources, sources requesting a PSEL at or above the SER, sources keeping a netting basis, and sources meeting potential-to-emit criteria; term up to 5 years. Also used for NSR/PSD sources.",
+      "citation": "OAR 340-216-8010, Table 1, Part C",
+      "url": "https://www.oregon.gov/deq/filterpermitsdocs/acdp-applguidelines.pdf",
+      "quote": "the potential to emit 100 tons or more of any regulated pollutant, except GHG, in a year"
+    },
+    {
+      "type": "other",
+      "name": "Construction ACDP",
+      "description": "Covers Type 3 or Type 4 construction or modification changes (OAR 340-210-0225) for sources needing a Standard ACDP or Title V permit. Optional for ACDP sources, required for Title V sources. Does not authorize operation.",
+      "citation": "OAR 340-210-0225",
+      "url": "https://www.oregon.gov/deq/filterpermitsdocs/acdp-applguidelines.pdf"
+    },
+    {
+      "type": "psd",
+      "name": "Major New Source Review (PSD and nonattainment/maintenance area NSR)",
+      "description": "New major sources and major modifications obtain a Standard ACDP (DEQ lists a separate initial fee for NSR/PSD Standard ACDPs). Oregon's major NSR rules are in OAR Division 224.",
+      "citation": "OAR 340 Division 224",
+      "url": "https://www.oregon.gov/deq/filterpermitsdocs/acdp-applguidelines.pdf"
+    },
+    {
+      "type": "title-v",
+      "name": "Oregon Title V Operating Permit",
+      "description": "For major sources; about 120 sources are permitted. Sources can take federally enforceable limits to remain synthetic minors in the ACDP program. Funded by emission, base, and user fees (OAR Division 220).",
+      "citation": "OAR 340 Division 218",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/TVrule.aspx",
+      "thresholds": "Potential to emit 100 tons of any criteria pollutant, 10 tons of any single HAP, or 25 tons of any combination of HAPs (restated from DEQ's Title V Rules and Fees page)."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Oregon has no oil production; DEQ's General and Basic ACDP lists include no oil and gas production permits. Related categories are bulk gasoline plants (GP 17), gasoline dispensing (GP 22/23), and gas-fired boilers (Basic 04, GP 11).",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "OAR 340 Division 210", "title": "Stationary Source Notification Requirements (Notice of Construction)", "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1535" },
+    { "citation": "OAR 340-216-8010, Table 1", "title": "Activities and Sources requiring ACDPs", "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=238864" },
+    { "citation": "OAR 340-216-8020, Table 2", "title": "ACDP Fees", "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=270004" },
+    { "citation": "OAR 340 Division 218", "title": "Oregon Title V Operating Permits" },
+    { "citation": "OAR 340 Division 220", "title": "Oregon Title V Operating Permit Fees", "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1541" },
+    { "citation": "OAR 340 Division 224", "title": "Major New Source Review" },
+    { "citation": "OAR 340 Division 245", "title": "Cleaner Air Oregon" }
+  ],
+  "forms": [
+    { "name": "Basic and General ACDP forms", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP-General.aspx" },
+    { "name": "Simple, Standard, and Construction ACDP forms", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP-Simple.aspx" },
+    { "name": "Title V Forms and Guidance", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/TV.aspx" },
+    { "name": "AQ104 Notice of Construction instructions", "url": "https://www.oregon.gov/deq/FilterPermitsDocs/AQ104_I.pdf" },
+    { "name": "Land Use Compatibility Statement", "url": "https://www.oregon.gov/deq/Permits/Pages/LUCS.aspx" }
+  ],
+  "guidance": [
+    { "name": "Help Finding the Right Permit", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx" },
+    { "name": "Instructions for Using ACDP Application Forms", "url": "https://www.oregon.gov/deq/filterpermitsdocs/acdp-applguidelines.pdf" },
+    { "name": "Permit Elections for Simple and Standard ACDPs", "url": "https://www.oregon.gov/deq/aq/Documents/bapPermElectAcdps.pdf" },
+    { "name": "Notice of Construction fact sheet", "url": "https://www.oregon.gov/deq/aq/Documents/NoticeofConstruction.pdf" },
+    { "name": "Cleaner Air Oregon resources", "url": "https://www.oregon.gov/deq/aq/cao/Pages/CAO-Risk-Assessment-Resources.aspx" },
+    { "name": "Annual Title V Fees fact sheet", "url": "https://www.oregon.gov/deq/FilterDocs/annualTVfees.pdf" }
+  ],
+  "ePermitting": { "name": "Air Quality Permits in Your DEQ Online", "url": "https://www.oregon.gov/deq/permits/Pages/AQP-inYDO.aspx" },
+  "fees": { "name": "ACDP fee table (OAR 340-216-8020)", "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=270004" },
+  "sources": [
+    { "name": "Oregon DEQ Air Contaminant Discharge Permits", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP.aspx" },
+    { "name": "Oregon DEQ Help Finding the Right Permit", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx" },
+    { "name": "Oregon DEQ Basic and General ACDPs", "url": "https://www.oregon.gov/deq/aq/aqpermits/pages/acdp-general.aspx" },
+    { "name": "Oregon DEQ Title V Rules and Fees", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/TVrule.aspx" },
+    { "name": "EPA Clean Air Act Permitting Authorities in Oregon", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-authorities-oregon" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Division titles for OAR 340 Divisions 218, 224, and 245 are not shown on the DEQ pages reviewed (Division 218 confirmed via secondary rule indexes); confirm on the Secretary of State OARD site. ACDP initial fees in DEQ's instructions: Basic $180, General $1,800, Simple $9,000, Standard $18,000 ($63,000 NSR/PSD), Construction $14,400; check the current fee table. Title V contact: 503-229-5108."
+}

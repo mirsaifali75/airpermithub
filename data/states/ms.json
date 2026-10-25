@@ -1,0 +1,36 @@
+{
+  "code": "MS", "name": "Mississippi", "slug": "mississippi", "epaRegion": 4,
+  "agency": { "name": "Mississippi Department of Environmental Quality (MDEQ)", "division": "Office of Pollution Control, Environmental Permits Division", "url": "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/", "permitsUrl": "https://www.mdeq.ms.gov/wp-content/uploads/2022/09/Air-Permitting-in-Mississippi_2022-07-13.pdf" },
+  "overview": "Mississippi requires a Permit to Construct for new facilities unless a facility-wide exclusion under Rule 2.13 applies. Construction permits are PSD (major), PSD-avoidance (moderate sources taking limits), or minor. Operating permits are Title V (Chapter 6), Synthetic Minor Operating Permits, or State Operating Permits for listed significant minor source types; true minor sources need no operating permit. MDEQ charges no air permit application fees; only Title V facilities pay annual fees.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Permit to Construct exclusions", "description": "Facility-wide exclusions under Rule 2.13.D and 2.13.E. The common Rule 2.13.D(5) exclusion does not apply to facilities with hazardous or solid waste incinerators or to CAFOs.", "citation": "11 Miss. Admin. Code Pt. 2, Ch. 2, R. 2.13.D-E", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2022/09/Air-Permitting-in-Mississippi_2022-07-13.pdf", "thresholds": "Per MDEQ (Rule 2.13.D(5)): facility-wide potential emissions below 10 tpy each of PM10, SO2, NOx, CO, and VOC; below 1.0 tpy any single HAP; below 2.5 tpy total HAPs." },
+    { "type": "general", "name": "General Permits", "description": "MDEQ lists an Oil Production General Permit under air general permits, and multimedia general permits such as the Hot-Mix Asphalt General Permit.", "url": "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/" },
+    { "type": "minor-nsr", "name": "Permit to Construct (minor and PSD-avoidance)", "description": "Minor sources below PSD thresholds without limits need a Permit to Construct unless excluded; moderate sources take federally enforceable limits through a PSD-Avoidance Permit to Construct. De minimis modifications (below 3/4 of significance or major thresholds) have a simplified path. Pre-permit construction at the applicant's risk is available for some projects (Rule 2.15.B).", "citation": "11 Miss. Admin. Code Pt. 2, Ch. 2", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2022/09/Air-Permitting-in-Mississippi_2022-07-13.pdf" },
+    { "type": "state-operating", "name": "Synthetic Minor Operating Permit (SMOP) and State Operating Permit", "description": "SMOPs set federally enforceable limits to avoid Title V. State Operating Permits are required for listed significant minor source types (e.g., cotton gins, rendering plants) under Rule 2.1.C(25).", "citation": "11 Miss. Admin. Code Pt. 2, Ch. 2", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2022/09/Air-Permitting-in-Mississippi_2022-07-13.pdf" },
+    { "type": "psd", "name": "PSD Permit to Construct", "description": "Adopts 40 CFR 52.21 with some exceptions. MDEQ estimates 150+ days.", "citation": "11 Miss. Admin. Code Pt. 2, Ch. 5", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2024/02/11-Miss.-Admin.-Code-Pt.-2-Ch.-5-Amended-February-22-2024-website-version-5.pdf" },
+    { "type": "title-v", "name": "Title V Operating Permit (TVOP)", "description": "For major sources; revisions are administrative amendments, minor or significant modifications, or 502(b)(10) changes. Optional Title V modification path under Rule 2.15.C.", "citation": "11 Miss. Admin. Code Pt. 2, Ch. 6", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2022/09/Air-Permitting-in-Mississippi_2022-07-13.pdf", "thresholds": "Per MDEQ: potential emissions above 100 tpy of a criteria pollutant, 10 tpy of any single HAP, or 25 tpy of total HAPs." }
+  ],
+  "oilAndGas": { "summary": "MDEQ lists an Oil Production General Permit under its air general permits. No other oil-and-gas-specific air provisions were described in MDEQ's permitting guide.", "programs": [
+    { "type": "general", "name": "Oil Production General Permit", "description": "Air general permit listed by MDEQ; details are on the general permits page.", "url": "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/" }
+  ] },
+  "regulations": [
+    { "citation": "11 Miss. Admin. Code Pt. 2, Ch. 2", "title": "Permit Regulations for the Construction and/or Operation of Air Emissions Equipment", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2017/06/11-Miss.-Admin.-Code-Pt.-2-Ch.-2.pdf" },
+    { "citation": "11 Miss. Admin. Code Pt. 2, Ch. 5", "title": "Regulations for the Prevention of Significant Deterioration (amended Feb. 22, 2024)", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2024/02/11-Miss.-Admin.-Code-Pt.-2-Ch.-5-Amended-February-22-2024-website-version-5.pdf" },
+    { "citation": "11 Miss. Admin. Code Pt. 2, Ch. 6", "title": "Title V Operating Permit regulations" },
+    { "citation": "MDEQ Air Regulations index", "title": "All Mississippi air regulations", "url": "https://www.mdeq.ms.gov/about-mdeq/regulations/air-regulations/" }
+  ],
+  "forms": [
+    { "name": "Applications and Forms", "url": "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/" },
+    { "name": "General Permits and Notice of Intent Forms", "url": "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/" },
+    { "name": "Hot-Mix Asphalt General Permit", "url": "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/hmagp/" }
+  ],
+  "guidance": [
+    { "name": "Air Permitting in Mississippi (July 2022)", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2022/09/Air-Permitting-in-Mississippi_2022-07-13.pdf" }
+  ],
+  "sources": [
+    { "name": "MDEQ Air Permitting in Mississippi", "url": "https://www.mdeq.ms.gov/wp-content/uploads/2022/09/Air-Permitting-in-Mississippi_2022-07-13.pdf" },
+    { "name": "MDEQ General Permits", "url": "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "MDEQ proposed revisions to Chapter 2 in late 2023 (prehearing drafts posted); the linked Chapter 2 PDF is dated 2017. Chapter 2 and 6 titles are summarized."
+}

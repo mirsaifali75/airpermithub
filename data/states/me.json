@@ -1,0 +1,36 @@
+{
+  "code": "ME", "name": "Maine", "slug": "maine", "epaRegion": 1,
+  "agency": { "name": "Maine Department of Environmental Protection (DEP)", "division": "Bureau of Air Quality", "url": "https://www.maine.gov/dep/air/permits/index.html", "permitsUrl": "https://www.maine.gov/dep/air/permits/index.html" },
+  "overview": "Maine issues air emission licenses. Minor sources and new source review (new equipment or modifications) are licensed under Chapter 115; major sources also need a Part 70 (Title V) license under Chapter 140. All of Maine is in the Ozone Transport Region, so the VOC major source threshold is 50 tons per year. New sources and minor and major modifications require a BACT analysis. General permits cover rock crushers and concrete batch plants.",
+  "permitTypes": [
+    { "type": "general", "name": "General Permits", "description": "Rock Crusher General Permit and Concrete Batch Plant General Permit.", "url": "https://www.maine.gov/dep/air/permits/minor.html" },
+    { "type": "minor-nsr", "name": "Chapter 115 Minor Source Air Emission License", "description": "License for minor sources and for new equipment or modifications (new source review). BACT analysis required for new sources and minor and major modifications. Synthetic minor status is available by taking federally enforceable limits or caps.", "citation": "06-096 CMR Chapter 115", "url": "https://www.maine.gov/dep/air/permits/minor.html", "thresholds": "Per DEP: minor sources have potential to emit below 50 tpy VOC (Ozone Transport Region), 10 tpy any single HAP, 25 tpy combined HAPs, and 100 tpy of any other regulated pollutant." },
+    { "type": "psd", "name": "Chapter 115 Major New Source / Major Modification", "description": "Major new sources and major modifications are licensed under Chapter 115 with additional public notice (Notice of Draft License Availability) and major source application guidance.", "citation": "06-096 CMR Chapter 115", "url": "https://www.maine.gov/dep/air/permits/major.html" },
+    { "type": "title-v", "name": "Part 70 (Title V) Air Emission License", "description": "Required for major sources in addition to Chapter 115 licensing; separate forms for initial/renewal, modifications, and transfers.", "citation": "06-096 CMR Chapter 140", "url": "https://www.maine.gov/dep/air/permits/major.html", "thresholds": "Per DEP: 50 tpy VOC (Ozone Transport Region); 10 tpy single HAP; 25 tpy combined HAPs; 100 tpy any other regulated pollutant." }
+  ],
+  "oilAndGas": { "summary": "Maine has no oil and gas production. DEP's permitting pages list no oil-and-gas-specific air program.", "programs": [] },
+  "regulations": [
+    { "citation": "06-096 CMR Chapter 115", "title": "Major and Minor Source Air Emission License Regulations", "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/096c115.doc" },
+    { "citation": "06-096 CMR Chapter 140", "title": "Part 70 Air Emission License Regulations" },
+    { "citation": "Maine DEP air rules index", "title": "All Maine air rules", "url": "https://www.maine.gov/dep/air/rules/index.html" }
+  ],
+  "forms": [
+    { "name": "Chapter 115 License Application", "url": "https://www.maine.gov/dep/air/permits/docs/Ch115Application.docx" },
+    { "name": "Chapter 115 Application Instructions", "url": "https://www.maine.gov/dep/air/permits/docs/Ch115Instructions.docx" },
+    { "name": "Mineral Processing Chapter 115 Application", "url": "https://www.maine.gov/dep/air/permits/docs/Ch115MinProcForm.docx" },
+    { "name": "Public Notice of Intent to File", "url": "https://www.maine.gov/dep/air/permits/docs/intenttofile.docx" },
+    { "name": "Transfer Application", "url": "https://www.maine.gov/dep/air/permits/docs/transferapp2026.docx" }
+  ],
+  "guidance": [
+    { "name": "Minor Source Information", "url": "https://www.maine.gov/dep/air/permits/minor.html" },
+    { "name": "Major Source Information", "url": "https://www.maine.gov/dep/air/permits/major.html" },
+    { "name": "Maine DEP BACT Guidance", "url": "https://www.maine.gov/dep/air/publications/docs/BACT%20Guidance%20A-L-0082%202026%2003%2017%20ADA.docx" }
+  ],
+  "fees": { "name": "DEP Fee Schedule", "url": "https://www.maine.gov/dep/feeschedule.pdf" },
+  "sources": [
+    { "name": "Maine DEP Minor Source Information", "url": "https://www.maine.gov/dep/air/permits/minor.html" },
+    { "name": "Maine DEP Major Source Information", "url": "https://www.maine.gov/dep/air/permits/major.html" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Chapter titles are summarized; confirm on the Secretary of State DEP rules page. Exemption thresholds for minor sources were not stated on the pages reviewed."
+}

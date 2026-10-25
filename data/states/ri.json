@@ -1,0 +1,95 @@
+{
+  "code": "RI",
+  "name": "Rhode Island",
+  "slug": "rhode-island",
+  "epaRegion": 1,
+  "agency": {
+    "name": "Rhode Island Department of Environmental Management (DEM)",
+    "division": "Office of Air Resources",
+    "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permitting",
+    "permitsUrl": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits"
+  },
+  "overview": "RI DEM's Office of Air Resources issues preconstruction permits under Air Pollution Control Regulation No. 9 (250-RICR-120-05-9): minor source permits (with exemptions, general permits, temporary permits, and expedited processing), major source permits in nonattainment areas, and PSD permits in attainment areas. Operating permits for major sources are issued under Regulation No. 29 (250-RICR-120-05-29), with fees under Regulation No. 28. Rhode Island's major source threshold for VOC and NOx is 50 tpy under Regulation 29. There are no local air agencies.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Minor source permit exemptions",
+      "description": "Sources below the 9.7.1 applicability thresholds, or listed in the exemptions in 9.7.2, do not need a minor source permit.",
+      "citation": "250-RICR-120-05-9, §9.7.2",
+      "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9"
+    },
+    {
+      "type": "registration",
+      "name": "Registration of Air Pollution Control Equipment",
+      "description": "DEM registration form for air pollution control equipment (see Applications & Forms).",
+      "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/apcreg.pdf"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Minor Source Permit (preconstruction)",
+      "description": "Required before constructing, installing, or modifying a source meeting any applicability criterion in 9.7.1(A). Includes expedited processing options (9.7.8, 9.7.9) and temporary permits (9.7.7).",
+      "citation": "250-RICR-120-05-9, §9.7",
+      "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9",
+      "quote": "Residual oil or solid fossil fuels: having a heat input capacity of one million Btu or more per hour; other liquid fuels: having a heat input capacity of five (5) million Btu or more per hour; gaseous fuel: having a heat input capacity of ten (10) million Btu or more per hour; alternative fuels: having a heat input capacity of one (1) million Btu or more per hour; emergency or distributed generators: with a heat input capacity of 350,000 BTUs or more per hour or, in the case of internal combustion engines, is 50 HP or larger; emits or has the potential to emit, in the aggregate, twenty-five (25) tons per year [of HAPs]; other sources: having the potential to emit one hundred (100) pounds or more per day, or ten (10) pounds or more per hour"
+    },
+    {
+      "type": "general",
+      "name": "General Permit for an Emergency Generator",
+      "description": "General permits (GPEG series) issued under Regulation No. 9 for stationary emergency generators, with conditions such as a 500-hour per 12-month operating limit for emergency, maintenance, and testing use and ultra-low sulfur diesel (per an example GPEG permit). Regulation 9 provides for general permits at 9.7.5-9.7.6.",
+      "citation": "250-RICR-120-05-9, §9.7.5-9.7.6",
+      "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/gpegapp.pdf"
+    },
+    {
+      "type": "nnsr",
+      "name": "Major Source Permits in Nonattainment Areas",
+      "description": "Preconstruction permits for new major sources and major modifications in nonattainment areas (LAER, offsets). Rhode Island is in the Ozone Transport Region.",
+      "citation": "250-RICR-120-05-9, §9.8",
+      "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits"
+    },
+    {
+      "type": "psd",
+      "name": "Major Source Permits in Attainment or Unclassifiable Areas (PSD)",
+      "description": "Preconstruction permits for new major sources and major modifications in attainment/unclassifiable areas (BACT).",
+      "citation": "250-RICR-120-05-9, §9.9",
+      "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9"
+    },
+    {
+      "type": "title-v",
+      "name": "Operating Permit (Title V)",
+      "description": "For major sources. New sources apply within 12 months of becoming subject (or within 12 months of commencing operation for sources needing a 112(g) or Part 9 permit); renewals at least 12 months before expiration. Term up to five years (fixed five years for Acid Rain sources). Insignificant activities are listed in §29.20. Fees under Regulation No. 28.",
+      "citation": "250-RICR-120-05-29",
+      "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-29",
+      "quote": "ten (10) tons per year (tpy) or more of any hazardous air pollutant ... one hundred (100) tpy or more of any air pollutant subject to regulation including any fugitive emissions ... fifty (50) tpy or more of volatile organic compounds or oxides of nitrogen including any fugitive emission"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Rhode Island has no oil and gas production. Bulk gasoline terminals and fuel-burning equipment are covered by the general Regulation 9 and Regulation 29 requirements.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "250-RICR-120-05-9", "title": "Air Pollution Control Permits (APC Regulation No. 9)", "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9" },
+    { "citation": "250-RICR-120-05-28", "title": "Operating Permit Fees (APC Regulation No. 28)", "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-28" },
+    { "citation": "250-RICR-120-05-29", "title": "Operating Permits (APC Regulation No. 29)", "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-29" }
+  ],
+  "forms": [
+    { "name": "DEM Applications & Forms", "url": "https://dem.ri.gov/online-services/applications-forms" },
+    { "name": "Expedited Minor Source Permit Application instructions", "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/emspa.pdf" },
+    { "name": "Expedited Minor Source Permit checklist", "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/emspa-cl.pdf" },
+    { "name": "Application for a General Permit for an Emergency Generator", "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/gpegapp.pdf" },
+    { "name": "Registration of Air Pollution Control Equipment", "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/apcreg.pdf" }
+  ],
+  "guidance": [
+    { "name": "Preconstruction Permits", "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits" },
+    { "name": "Operating Permits (issued Title V permits)", "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/operating-permits" },
+    { "name": "MA DEP BACT Guidance (referenced by RI DEM)", "url": "https://dem.ri.gov/programs/air/documents/bactguid.pdf" }
+  ],
+  "sources": [
+    { "name": "RI DEM Preconstruction Permits", "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits" },
+    { "name": "RI DEM Operating Permits", "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/operating-permits" },
+    { "name": "RI Secretary of State: 250-RICR-120-05-9", "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9" },
+    { "name": "RI Secretary of State: 250-RICR-120-05-29", "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-29" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Applicability thresholds quoted from the Regulation 9 text on the RI Secretary of State site (bracketed text added for context). DEM does not list a Title V application form online; contact the Office of Air Resources. Office of Air Resources: 401-222-2808, DEM.AirPermits@dem.ri.gov."
+}

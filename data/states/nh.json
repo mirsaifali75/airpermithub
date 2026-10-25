@@ -1,0 +1,98 @@
+{
+  "code": "NH",
+  "name": "New Hampshire",
+  "slug": "new-hampshire",
+  "epaRegion": 1,
+  "agency": {
+    "name": "New Hampshire Department of Environmental Services (NHDES)",
+    "division": "Air Resources Division, Air Permit Programs",
+    "url": "https://www.des.nh.gov/air/industrial-sources",
+    "permitsUrl": "https://www.des.nh.gov/air/industrial-sources/permit-guidance"
+  },
+  "overview": "NHDES is the sole permitting authority statewide (no local air agencies). New or modified sources above the device/source thresholds in Env-A 600 need a Temporary Permit (construction, up to 18 months), followed by a State Permit to Operate (up to 5 years) or a Title V Operating Permit (5 years). Alternatives include General State Permits for emergency engines and Permit-by-Notification for rock crushers. Although New Hampshire is in attainment for ozone, it is in the Northeast Ozone Transport Region, so nonattainment NSR applies to major NOx and VOC sources (Env-A 618); PSD is under Env-A 619.",
+  "permitTypes": [
+    {
+      "type": "minor-nsr",
+      "name": "Temporary Permit (construction)",
+      "description": "Required before construction, installation, or modification of a source above the Env-A 600 Table I thresholds. Lasts up to 18 months and is the first step toward a State Permit to Operate or Title V permit. Permits can also be required for sources taking limits on potential to emit, sources subject to NESHAP/MACT or NOx RACT, sources needing a permit to meet NAAQS or toxic ambient air limits, and Acid Rain sources.",
+      "citation": "Env-A 600",
+      "url": "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf",
+      "thresholds": "Table I examples from ARD-17: fuel-burning devices at or above 10 MMBtu/hr (gas or distillate oil), 4 MMBtu/hr (#4 oil), or 2 MMBtu/hr (solid fuel, residual or used oil); internal combustion engines at or above 1.5 MMBtu/hr aggregate (counting engines above 0.15 MMBtu/hr); sources with actual VOC emissions of 10 tons/year or more; VOC storage tanks of 40,000 gallons or more holding VOCs with true vapor pressure at or above 1.52 psia at 60°F; gasoline terminal truck loading of 20,000 gallons/day or more; fixed nonmetallic mineral processing plants or coal crushers at or above 25 tons/hour, portable plants at or above 150 tons/hour (restated; see full table in ARD-17 and Env-A 607)."
+    },
+    {
+      "type": "state-operating",
+      "name": "State Permit to Operate",
+      "description": "Issued after construction, startup, and demonstrated compliance; valid up to 5 years. Covers sources not subject to Title V, including synthetic minor sources that limit potential emissions below Title V thresholds.",
+      "citation": "Env-A 600",
+      "url": "https://www.des.nh.gov/air/industrial-sources/permit-guidance"
+    },
+    {
+      "type": "general",
+      "name": "General State Permit (GSP): emergency engines",
+      "description": "Streamlined option for emergency generator and fire pump engines, valid up to 5 years; sources register instead of obtaining a Temporary Permit and State Permit to Operate. Available through Air E-Permitting (OneStop) or paper registration.",
+      "citation": "Env-A 600",
+      "url": "https://www.des.nh.gov/air/industrial-sources/permit-guidance"
+    },
+    {
+      "type": "registration",
+      "name": "Permit-by-Notification (PBN): nonmetallic mineral processing",
+      "description": "Simplified process for non-metallic mineral processing plants (rock crushers), used instead of a Temporary Permit or State Permit to Operate.",
+      "citation": "Env-A 600",
+      "url": "https://www.des.nh.gov/air/industrial-sources/permit-guidance"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR (Ozone Transport Region)",
+      "description": "Applies to new major NOx or VOC sources and major NOx/VOC modifications at existing major sources, because NH is in the Ozone Transport Region. Requires LAER analysis. NSR permits are valid for 18 months, typically processed in six to nine months. Sources may take federally enforceable limits to avoid NSR.",
+      "citation": "Env-A 618",
+      "url": "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf",
+      "quote": "VOCs – 50 tons per consecutive 12-month period (tpy). NOx – 100 tpy."
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "Major source preconstruction permit in attainment areas; requires BACT analysis.",
+      "citation": "Env-A 619",
+      "url": "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf",
+      "thresholds": "100 tpy for listed source categories and 250 tpy for other sources (NO2, CO, SO2, PM); greenhouse gases 100,000 tpy CO2e and major for at least one other pollutant (restated from NHDES NSR/PSD guidance, March 2020)."
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Required for major sources (thresholds vary by pollutant and county) and certain area sources subject to NSPS, HAP rules, or Acid Rain. Program effective June 30, 1995; permits last 5 years.",
+      "citation": "Env-A 600",
+      "url": "https://www.des.nh.gov/air/industrial-sources/permit-guidance",
+      "thresholds": "10 tpy of any one HAP or 25 tpy combined HAPs; 50 tpy VOC; 100 tpy of any criteria pollutant; NOx at 100 tpy in Belknap, Carroll, Cheshire, Coos, Grafton, and Sullivan Counties and 50 tpy in Hillsborough, Merrimack, Rockingham, and Strafford Counties (restated from NHDES Permit Guidance)."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "New Hampshire has no oil and gas production program in its air permitting guidance. Gasoline terminals, VOC storage tanks, and fuel-burning equipment are covered by the general Env-A 600 thresholds.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "Env-A 600", "title": "Statewide Permit System (EPA SIP copy)", "url": "https://www.epa.gov/system/files/documents/2022-09/nh-env-a-600.pdf" },
+    { "citation": "Env-A 618", "title": "Additional requirements in nonattainment areas and the NH portion of the Northeast Ozone Transport Region" },
+    { "citation": "Env-A 619", "title": "Prevention of Significant Deterioration permit requirements" }
+  ],
+  "forms": [
+    { "name": "All NHDES Forms", "url": "https://www.des.nh.gov/document/all-nhdes-forms" },
+    { "name": "OneStop (Air E-Permitting access)", "url": "https://www.des.nh.gov/onestop-navigation" }
+  ],
+  "guidance": [
+    { "name": "ARD-17: New Hampshire's Air Permit Program (2020)", "url": "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf" },
+    { "name": "Permit Guidance", "url": "https://www.des.nh.gov/air/industrial-sources/permit-guidance" },
+    { "name": "Temporary Permit Guidance (March 2020)", "url": "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/temporary-permit-guidance.pdf" },
+    { "name": "Nonattainment NSR and PSD Guidance (March 2020)", "url": "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf" }
+  ],
+  "ePermitting": { "name": "OneStop / Air E-Permitting", "url": "https://www.des.nh.gov/onestop-navigation" },
+  "sources": [
+    { "name": "NHDES Industrial Sources", "url": "https://www.des.nh.gov/air/industrial-sources" },
+    { "name": "NHDES Permit Guidance", "url": "https://www.des.nh.gov/air/industrial-sources/permit-guidance" },
+    { "name": "NHDES ARD-17", "url": "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf" },
+    { "name": "NHDES NSR/PSD Guidance", "url": "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf" },
+    { "name": "EPA CAA Permitting in New Hampshire", "url": "https://www.epa.gov/caa-permitting/caa-permitting-new-hampshire" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Thresholds restated from NHDES guidance (ARD-17 is dated 2020; NSR/PSD guidance March 2020); confirm against current Env-A text. ARD-17 lists a 50 tpy NOx Title V threshold only for the four southern counties, consistent with the Permit Guidance page. Fee schedule not located on the reviewed pages. Air Permit Programs: (603) 271-1370."
+}

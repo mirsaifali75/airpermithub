@@ -1,0 +1,130 @@
+{
+  "code": "NV",
+  "name": "Nevada",
+  "slug": "nevada",
+  "epaRegion": 9,
+  "agency": {
+    "name": "Nevada Division of Environmental Protection (NDEP)",
+    "division": "Bureau of Air Pollution Control (BAPC)",
+    "url": "https://ndep.nv.gov/air",
+    "permitsUrl": "https://ndep.nv.gov/air/permitting"
+  },
+  "localAgencies": [
+    {
+      "name": "Clark County Department of Environment and Sustainability, Division of Air Quality",
+      "jurisdiction": "Clark County except Indian Country",
+      "url": "https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/division_of_air_quality/permitting/index.php",
+      "notes": "Runs its own permitting program (including Title V). Per NDEP, fossil-fuel-fired steam electric plants in Clark County remain under BAPC."
+    },
+    {
+      "name": "Northern Nevada Public Health, Air Quality Management Division",
+      "jurisdiction": "Washoe County except Indian Country",
+      "url": "https://www.nnph.org/programs-and-services/air-quality/index.php",
+      "notes": "Runs its own permitting program. Per NDEP, fossil-fuel-fired steam electric plants in Washoe County remain under BAPC."
+    }
+  ],
+  "overview": "NDEP's Bureau of Air Pollution Control issues Air Quality Operating Permits (AQOPs) statewide except in Clark County, Washoe County, and Indian Country (EPA Region 9). Nevada uses a class system: Class I for major sources (including Title V, PSD, and major MACT sources) and Class II for smaller sources above listed pollutant levels, plus Class II general permits, Surface Area Disturbance (SAD) permits, Change of Location Approvals (COLAs) for portable equipment, and Nevada Mercury Control Program permits for thermal units that emit mercury. New Class I sources obtain an Operating Permit to Construct (OPTC).",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Insignificant activities",
+      "description": "Some small or low-impact emission units are insignificant under NAC 445B.288. Sources that emit only steam or water droplets need no permit. BAPC offers an Insignificant Activity Determination (fee listed on NDEP's guidance page).",
+      "citation": "NAC 445B.288",
+      "url": "https://ndep.nv.gov/air/permitting/permit-guidance"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Class II Air Quality Operating Permit",
+      "description": "For facilities below Class I levels that exceed any of the Class II pollutant levels. In Nevada, the operating permit also authorizes construction for Class II sources.",
+      "citation": "NAC 445B",
+      "url": "https://ndep.nv.gov/air/permitting/permit-guidance",
+      "thresholds": "Below Class I levels (under 100 tpy any regulated pollutant, under 25 tpy total HAP, under 10 tpy single HAP) and more than: 5 tpy PM2.5 or PM10; 50 tpy CO; 20 tpy VOC; 5 tpy NOx or SO2; or 1 tpy H2S (restated from NDEP's permit guidance page)."
+    },
+    {
+      "type": "general",
+      "name": "Class II General Permits",
+      "description": "General permits for temporary stationary sources and general stationary sources, including nonmetallic mineral crushing and screening plants and concrete batch plants. Five-year lifespan, renewed as a group.",
+      "citation": "NAC 445B",
+      "url": "https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources/"
+    },
+    {
+      "type": "other",
+      "name": "Change of Location Approval (COLA)",
+      "description": "For portable construction equipment (often road and highway projects) operating less than 12 months at one location under a general permit.",
+      "url": "https://ndep.nv.gov/air/permitting"
+    },
+    {
+      "type": "other",
+      "name": "Surface Area Disturbance (SAD) Permit",
+      "description": "Required for disturbing non-agricultural land above the acreage threshold. NDEP's guidance page uses both 'five or more acres' and 'more than 5 acres'; confirm with BAPC.",
+      "citation": "NAC 445B.22037",
+      "url": "https://ndep.nv.gov/air/permitting/permit-guidance"
+    },
+    {
+      "type": "other",
+      "name": "Nevada Mercury Control Program (Mercury Operating Permit to Construct)",
+      "description": "Required for owners or operators of thermal units that emit mercury; new or modified units need a permit before construction. Facilities subject to 40 CFR Part 63 Subpart EEEEEEE need a Class I (Title V) permit regardless of size.",
+      "url": "https://ndep.nv.gov/air/nevada-mercury-control-program-nmcp/"
+    },
+    {
+      "type": "psd",
+      "name": "PSD (within Class I permitting)",
+      "description": "PSD sources are permitted as Class I sources. NDEP's guidance cites 40 CFR 52.21, a 180-day preliminary determination window and 12-month final decision window, and higher application fees for PSD sources. NDEP publishes a map of PSD-triggered planning areas.",
+      "citation": "40 CFR 52.21 (as referenced by NDEP)",
+      "url": "https://ndep.nv.gov/air/permitting/permit-guidance"
+    },
+    {
+      "type": "title-v",
+      "name": "Class I Air Quality Operating Permit (Title V) and Operating Permit to Construct",
+      "description": "Major source program. New or modified Class I sources obtain an Operating Permit to Construct (OPTC) before construction, then a Class I operating permit.",
+      "citation": "NAC 445B",
+      "url": "https://ndep.nv.gov/air/permitting",
+      "thresholds": "Typically facilities emitting more than 100 tpy of any regulated pollutant, more than 25 tpy total HAP, or more than 10 tpy of any single HAP; also PSD and major MACT sources (restated from NDEP; BAPC makes final determinations)."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "NDEP's permitting, guidance, and forms pages list no oil and gas specific air permit; BAPC directs oil and gas questions to its front office. Oil and gas sources follow the Class I/Class II thresholds plus applicable federal NSPS and NESHAP.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "NAC Chapter 445B", "title": "Air Controls (Nevada Administrative Code)", "url": "https://www.leg.state.nv.us/NAC/NAC-445B.html" },
+    { "citation": "NRS Chapter 445B", "title": "Air Pollution (Nevada Revised Statutes)" },
+    { "citation": "NAC 445B.156", "title": "Responsible Official (definition)" },
+    { "citation": "NAC 445B.22037", "title": "Surface area disturbance permits", "url": "https://www.leg.state.nv.us/NAC/NAC-445B.html#NAC445BSec22037" },
+    { "citation": "NAC 445B.288", "title": "Insignificant activities", "url": "https://www.leg.state.nv.us/NAC/NAC-445B.html#NAC445BSec288" },
+    { "citation": "NAC 445B.327; 445B.3689", "title": "Fees" }
+  ],
+  "forms": [
+    { "name": "Air Permit Forms and Resources", "url": "https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources/" },
+    { "name": "Class I Permit Application", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/Class_1_AQOP_Application_%28Updated_260813%29.pdf" },
+    { "name": "Class II Operating Permit Application", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/Class_2_AQOP_Application_%28Updated_260813%29.pdf" },
+    { "name": "Class II Applicability Determination", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/260728-class-2-app-determ-form-fillable.pdf" },
+    { "name": "General Permit: Temporary Sources Application", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/220110_Class_II_General_Temporary_Sources_Application2.pdf" },
+    { "name": "General Permit: Crushing and Screening Plants", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/220830_Crushing_and_Screening_Plant_Application_Form2.pdf" },
+    { "name": "General Permit: Concrete Batch Plants", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/220830_Concrete_Batch_Plant_Application_Form.pdf" },
+    { "name": "SAD Permit Application", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/260813-class-2-sad-app.pdf" },
+    { "name": "COLA Request Form", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/240523_COLA_Request_Form.pdf" },
+    { "name": "Insignificant Activity Determination", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/200923-ia-determination2.pdf" },
+    { "name": "Notification of Authorized Change", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/240916_noac_form.pdf" }
+  ],
+  "guidance": [
+    { "name": "Permit Guidance (FAQ)", "url": "https://ndep.nv.gov/air/permitting/permit-guidance" },
+    { "name": "Class I Application Guidance", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/Class_1_AQOP_Application_Guidance_Document_%28Updated_260813%29.pdf" },
+    { "name": "Class II Application Guidance", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/Class_2_AQOP_Application_Guidance_Document_%28Updated_260813%29.pdf" },
+    { "name": "General Permit Guidance", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/260813_General_Guidance_Document.pdf" },
+    { "name": "COLA Guidance", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/260813_COLA_Guidance_Document.pdf" },
+    { "name": "Nevada PSD Triggered Planning Areas map", "url": "https://ndep.nv.gov/uploads/air-permitting-docs/psd_map.pdf" },
+    { "name": "Emissions Reduction Credit Program", "url": "https://ndep.nv.gov/air/permitting/emissions-reduction-credit-program/" },
+    { "name": "Process Flow Diagram Guidance", "url": "https://ndep.nv.gov/uploads/air-aqm-docs/guidance-process-flow-diagram.pdf" }
+  ],
+  "fees": { "name": "Air Fee Schedule", "url": "https://ndep.nv.gov/air/air-fee-schedule/" },
+  "sources": [
+    { "name": "NDEP Air Permitting", "url": "https://ndep.nv.gov/air/permitting" },
+    { "name": "NDEP Permit Guidance", "url": "https://ndep.nv.gov/air/permitting/permit-guidance" },
+    { "name": "NDEP Air Permit Forms and Resources", "url": "https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources/" },
+    { "name": "EPA Clean Air Act Permitting in Nevada", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-nevada" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Thresholds restated from NDEP pages, which describe them as general guidance (BAPC makes final determinations). NDEP's current pages describe Class I and Class II only. No air ePermitting portal is listed; NDEP offers e-payments at https://epayments.ndep.nv.gov/ and a public document search at https://ndep-onbase.nv.gov/. Tribal lands: EPA Region 9 (https://www.epa.gov/caa-permitting/r9-tribal-minor-nsr). BAPC permitting branch: (775) 687-9349."
+}

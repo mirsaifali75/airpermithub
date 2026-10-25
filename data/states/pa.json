@@ -1,0 +1,153 @@
+{
+  "code": "PA",
+  "name": "Pennsylvania",
+  "slug": "pennsylvania",
+  "epaRegion": 3,
+  "agency": {
+    "name": "Pennsylvania Department of Environmental Protection (DEP)",
+    "division": "Bureau of Air Quality, Permits Division",
+    "url": "https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality",
+    "permitsUrl": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits"
+  },
+  "localAgencies": [
+    {
+      "name": "Allegheny County Health Department (ACHD), Air Quality Program",
+      "jurisdiction": "Allegheny County",
+      "url": "https://www.alleghenycounty.us/Services/Health-Department/Air-Quality/Air-Quality-Permitting",
+      "notes": "Handles air permits in Allegheny County; DEP's GP-5 and GP-5A do not apply here."
+    },
+    {
+      "name": "Philadelphia Air Management Services (AMS), Department of Public Health",
+      "jurisdiction": "City of Philadelphia",
+      "url": "https://www.phila.gov/departments/department-of-public-health/for-business-owners/air-and-dust/",
+      "notes": "Handles air permits in Philadelphia; DEP's GP-5 and GP-5A do not apply here."
+    }
+  ],
+  "overview": "Pennsylvania DEP requires a plan approval before constructing, modifying, or reactivating a source or installing an air cleaning device (25 Pa. Code Chapter 127, Subchapter B), and an operating permit (State-Only or Title V, Subchapter F and Title V provisions) to operate. Many sources are exempt from plan approval under 25 Pa. Code 127.14 and DEP's Air Quality Permit Exemptions list (275-2101-003), but plan approval exemptions do not automatically exempt a facility from operating permits. A Request for Determination (RFD) gets a case-by-case decision. General plan approvals/general operating permits (GP-1 to GP-24) cover common source types, including GP-5 and GP-5A for natural gas operations. Allegheny County and Philadelphia run their own programs. Annual operating permit maintenance fees apply (2026-2030: $10,000 Title V, $5,000 synthetic minor, $2,500 natural minor).",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Plan approval exemptions and trivial activities",
+      "description": "Eight broad categories under 127.14(a) and roughly 49 numbered categories under 127.14(a)(8) (categories 45-49 require an RFD). Trivial activities need no notice, RFD, plan approval, or listing in a permit application. Examples: combustion units rated 2.5 MMBtu/hr or less; units under 10 MMBtu/hr on natural gas or No. 2 oil meeting sulfur limits; engines under 100 bhp; uncontrolled VOC projects under 2.7 tons per 12 months (with 15-day notice); de minimis increases under 127.449. Records supporting threshold exemptions must be kept 5 years.",
+      "citation": "25 Pa. Code 127.14; DEP 275-2101-003 (July 1, 2021)",
+      "url": "https://greenport.pa.gov/elibrary//PDFProvider.ashx?action=PDFStream&docID=3791499&revision=0&docName=01+AIR+QUALITY+PERMIT+EXEMPTIONS&nativeExt=pdf&PromptToSave=False&Size=251545&ViewerMode=2&overlay=0",
+      "quote": "Combustion units with a rated capacity of less than 10 million Btus per hour of heat input"
+    },
+    {
+      "type": "registration",
+      "name": "Request for Determination (RFD)",
+      "description": "Case-by-case determination of whether a plan approval or operating permit is required. Some physical changes may proceed 7 days (no equipment installed) or 15 days (equipment installed) after DEP receives a written request unless DEP objects (127.14(c)). Online or paper.",
+      "citation": "25 Pa. Code 127.14(c)",
+      "url": "https://www.pa.gov/services/dep/request-for-determination-rfd-for-online-rfd-users"
+    },
+    {
+      "type": "general",
+      "name": "General Plan Approvals and General Operating Permits (GP-1 to GP-24)",
+      "description": "GP-1 small gas/No. 2 oil combustion units; GP-2 VOL storage tanks; GP-3 portable nonmetallic mineral processing; GP-4 burn-off ovens; GP-5/5A natural gas compression, processing, and well pads; GP-6 petroleum dry cleaning; GP-7 and GP-10 lithographic printing; GP-8 powder metal sintering; GP-9 diesel/No. 2 engines; GP-11 nonroad engines; GP-12 coal prep plant fugitives and engines; GP-13 hot mix asphalt; GP-14 crematories; GP-15 feed mills; GP-16 gaseous fuel spark ignition engines; GP-19 dry abrasive blasting; GP-20 natural gas CHP; GP-21 coal mine methane flares; GP-22 landfill gas turbines; GP-24 pharmaceutical/specialty chemical. ePermitting through GreenPort is encouraged.",
+      "url": "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Plan Approval",
+      "description": "Required before construction, modification, reactivation, or installation of an air cleaning device unless exempt. Submit to the DEP Regional Office with a Compliance Review Form, municipal notification, General Information Form, and fees.",
+      "citation": "25 Pa. Code Chapter 127, Subchapter B",
+      "url": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits/plan-apps"
+    },
+    {
+      "type": "state-operating",
+      "name": "State-Only Operating Permit (natural minor and synthetic minor)",
+      "description": "Facility-wide operating permit for non-Title V facilities above the State-Only thresholds. Exempt sources generally must still be listed unless trivial.",
+      "citation": "25 Pa. Code Chapter 127, Subchapter F",
+      "url": "https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit",
+      "thresholds": "State-Only operating permit thresholds (PTE / actual, tpy) per DEP 275-2101-003: CO 100/20; NOx 100/10 (25 PTE in Bucks, Chester, Delaware, Montgomery); SOx 100/8; PM10 100/3; VOC 50/8 (25 PTE in the same four counties); single HAP 10/1; multiple HAPs 25/2.5 (restated)."
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment New Source Review",
+      "description": "Major sources and major modifications in nonattainment areas and the Ozone Transport Region (all of Pennsylvania). DEP maintains an Emission Reduction Credit Registry for offsets.",
+      "citation": "25 Pa. Code Chapter 127, Subchapter E",
+      "url": "https://www.pa.gov/services/dep/apply-for-emission-reduction-credit-registry1"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "Major source review in attainment areas. DEP, EPA Region 3, and Federal Land Managers coordinate under an MOU.",
+      "citation": "25 Pa. Code Chapter 127, Subchapter D",
+      "url": "http://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/FLM_MOU_signed.pdf"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Required for facilities with potential emissions above Title V thresholds. EPA approved Pennsylvania's operating permit program in 1996. Annual maintenance fee plus annual Title V emission fees (due September 1).",
+      "citation": "25 Pa. Code Chapter 127, Subchapters F and G",
+      "url": "https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Pennsylvania (Marcellus/Utica) regulates natural gas operations through GP-5 (midstream compression and processing at minor sources), GP-5A (unconventional well sites and related sources, final June 2018), and Exemption Category No. 38 for qualifying well-site sources. GP-5 requires facility-wide quarterly LDAR. DEP rescinded its case-by-case single source determination guidance on June 9, 2018 and follows EPA's 2016 recommendation. Act 13 requires 24-hour notice before each well completion.",
+    "programs": [
+      {
+        "type": "general",
+        "name": "GP-5: Natural Gas Compression and/or Processing Facilities",
+        "description": "General plan approval/operating permit for minor midstream compression and processing facilities. Well pad engines qualify only if aggregated with midstream compression and collecting gas from multiple pads. Not available in Allegheny County or Philadelphia.",
+        "citation": "2700-PM-BAQ0267",
+        "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=8904"
+      },
+      {
+        "type": "general",
+        "name": "GP-5A: Unconventional Natural Gas Well Site Operations and Remote Pigging Stations",
+        "description": "General plan approval/operating permit for well site sources (final 6/9/18). Category title per DEP's GP-5A folder; see the permit for eligibility.",
+        "citation": "2700-PM-BAQ0268",
+        "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=36120"
+      },
+      {
+        "type": "exemption",
+        "name": "Exemption Category No. 38 (oil and gas)",
+        "description": "Exemption for qualifying well-site sources, with criteria that vary by construction date (before August 10, 2013; August 10, 2013 to August 8, 2018; on or after August 8, 2018). Leak repair within 15 days; compliance demonstration within 180 days after well completion or installation.",
+        "citation": "25 Pa. Code 127.14(a)(8), Category 38",
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dep/documents/business/air/baq/permits/documents/faq_gp-5_and_exemption_category_no_38.pdf",
+        "quote": "combined VOC emissions from all sources at the facility must be less than 2.7 tons on a 12-month rolling basis"
+      }
+    ]
+  },
+  "regulations": [
+    { "citation": "25 Pa. Code Chapter 127", "title": "Construction, Modification, Reactivation and Operation of Sources" },
+    { "citation": "25 Pa. Code 127.14", "title": "Exemptions (plan approval)" },
+    { "citation": "25 Pa. Code 127.449", "title": "De minimis emission increases" },
+    { "citation": "25 Pa. Code 127.701-127.710", "title": "Air quality fees", "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/subchapItoc.html&d=reduce" },
+    { "citation": "25 Pa. Code 129.111-129.115", "title": "RACT III (major NOx/VOC sources)" },
+    { "citation": "25 Pa. Code 121.1", "title": "Definitions" },
+    { "citation": "25 Pa. Code 135.3", "title": "Annual source reporting" }
+  ],
+  "forms": [
+    { "name": "Air Quality Permit Exemptions (275-2101-003)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=4564" },
+    { "name": "Request for Determination (paper)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3658" },
+    { "name": "Plan Approval: Combustion Unit", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3652" },
+    { "name": "Plan Approval: Processes", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3656" },
+    { "name": "General Information Form", "url": "https://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=927289" },
+    { "name": "Compliance Review Form (2700-PM-AQ0004)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3626" },
+    { "name": "State-Only Operating Permit Application (2700-PM-BAQ0013)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3662" },
+    { "name": "Title V Operating Permit Application (2700-PM-BAQ0010)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3663" },
+    { "name": "GP-5 compliance forms", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=60774" }
+  ],
+  "guidance": [
+    { "name": "Air Quality Technical Guidance", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=4563" },
+    { "name": "GP-5 and Exemption Category No. 38 FAQ", "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dep/documents/business/air/baq/permits/documents/faq_gp-5_and_exemption_category_no_38.pdf" },
+    { "name": "DEP Air Quality Risk Assessment Guidance", "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/misc/DEP_risk_assessment_guidance.pdf" },
+    { "name": "RACT III FAQ", "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/RACT/RACT%20III%20FAQ.pdf" },
+    { "name": "Regional office contact list", "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/contact_list.pdf" }
+  ],
+  "ePermitting": { "name": "DEP GreenPort ePermitting", "url": "https://www.depgreenport.state.pa.us/" },
+  "fees": { "name": "Air Quality Fee Schedule (2700-PM-BAQ0030A-E)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=203696" },
+  "sources": [
+    { "name": "PA DEP Air Quality Permits", "url": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits" },
+    { "name": "PA DEP Bureau of Air Quality", "url": "https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality" },
+    { "name": "PA DEP Apply for an Air Quality General Permit", "url": "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit" },
+    { "name": "PA DEP Plan Approval Applications", "url": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits/plan-apps" },
+    { "name": "PA DEP Air Quality Permit Exemptions (275-2101-003)", "url": "https://greenport.pa.gov/elibrary//PDFProvider.ashx?action=PDFStream&docID=3791499&revision=0&docName=01+AIR+QUALITY+PERMIT+EXEMPTIONS&nativeExt=pdf&PromptToSave=False&Size=251545&ViewerMode=2&overlay=0" },
+    { "name": "EPA CAA Permitting in Pennsylvania", "url": "https://www.epa.gov/caa-permitting/caa-permitting-pennsylvania" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "partial",
+  "notes": "Chapter 127 Subchapter letters for PSD (D), NSR (E), and Title V (G) are from general knowledge of 25 Pa. Code and could not be confirmed (the PA Code site blocks automated access); Subchapters B and F are confirmed in DEP's GP-5 FAQ. The GP-5A full category title is unverified. Air quality fees increased January 1, 2026. Central Office: 717-783-9476."
+}

@@ -1,0 +1,37 @@
+{
+  "code": "MI", "name": "Michigan", "slug": "michigan", "epaRegion": 5,
+  "agency": { "name": "Michigan Department of Environment, Great Lakes, and Energy (EGLE)", "division": "Air Quality Division (AQD)", "url": "https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review", "permitsUrl": "https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review" },
+  "overview": "Michigan requires a Permit to Install (PTI) before installing, relocating, modifying, or reconstructing equipment that emits air contaminants (R 336.1201), unless an exemption in Part 2 applies. PTIs are free and do not expire. General PTIs exist for a few categories. Major sources need a Renewable Operating Permit (ROP), Michigan's Title V program (R 336.1210-1218). Part 18 (PSD) mirrors 40 CFR 52.21 and Part 19 covers nonattainment NSR.",
+  "permitTypes": [
+    { "type": "exemption", "name": "PTI exemptions", "description": "Part 2 rules exempt insignificant sources (e.g., welding, natural gas-fired furnaces of 50 million Btu/hr or less). See EGLE's Permit to Install Exemption Handbook.", "citation": "Mich. Admin. Code R 336.1280-336.1291 (Part 2)", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/Guidance/pti-exemption-booklet.pdf" },
+    { "type": "general", "name": "General Permits to Install", "description": "Available categories: anhydrous ammonia storage/handling, natural gas-fired burn-off ovens, nonmetallic mineral crushing plants, propane or natural gas-fired boilers, and gasoline/petroleum remediation processes. Coating line, diesel generator, and EtO sterilizer general PTIs are suspended or unavailable.", "url": "https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review/general-permits" },
+    { "type": "minor-nsr", "name": "Permit to Install (PTI)", "description": "Required before installing, relocating, modifying, or reconstructing emitting equipment. Free and does not expire; may limit potential to emit to create synthetic minor status.", "citation": "Mich. Admin. Code R 336.1201", "url": "https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review" },
+    { "type": "psd", "name": "PSD (Part 18)", "description": "Mirrors 40 CFR 52.21, including PAL options and actual-to-projected-actual tests.", "citation": "Mich. Admin. Code Part 18", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf", "thresholds": "Per EGLE guide: major stationary source is 100 tpy or more of an NSR pollutant for listed categories, or 250 tpy or more otherwise." },
+    { "type": "nnsr", "name": "Nonattainment NSR (Part 19)", "description": "Major sources affecting nonattainment areas.", "citation": "Mich. Admin. Code Part 19", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf", "thresholds": "Per EGLE guide (tpy): VOC and NOx 100 marginal/moderate, 50 serious, 25 severe, 10 extreme; PM10 100 moderate, 70 serious; CO 100 moderate, 50 serious." },
+    { "type": "title-v", "name": "Renewable Operating Permit (ROP)", "description": "Michigan's Title V permit; also required for acid rain and waste incineration facilities. Does not replace PTIs.", "citation": "Mich. Admin. Code R 336.1210-336.1218", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf", "thresholds": "Per EGLE guide: 100 tpy of any regulated air contaminant; 10 tpy single HAP; 25 tpy combined HAPs." }
+  ],
+  "oilAndGas": { "summary": "EGLE's general PTI list has no oil-and-gas category, and the EGLE regulatory guide has no dedicated oil and gas section. Oil and gas facilities follow PTI/ROP rules; EGLE provides a NESHAP initial notification form for oil and natural gas production facilities (40 CFR 63 Subpart HH).", "programs": [
+    { "type": "other", "name": "NESHAP initial notification: Oil and Natural Gas Production Facilities", "description": "EGLE form EQP3570 for 40 CFR 63 Subpart HH notifications.", "citation": "40 CFR 63 Subpart HH", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Forms/AQD/NESHAP/EQP3570-Initial-Notification-Report-NESHAP-Oil-and-Natural-Gas-Production-Facilities.pdf" }
+  ] },
+  "regulations": [
+    { "citation": "Mich. Admin. Code R 336.1101 et seq.", "title": "Michigan Air Pollution Control Rules (Parts 1-19)" },
+    { "citation": "R 336.1201", "title": "Permits to Install" },
+    { "citation": "R 336.1210-1218", "title": "Renewable Operating Permits" }
+  ],
+  "forms": [
+    { "name": "Permit Information Checklist (EQP3580)", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Forms/ESD/EQP3580-Permit-Information-Checklist.pdf" },
+    { "name": "General PTI description", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/General-PTIs/general-permits-description.pdf" }
+  ],
+  "guidance": [
+    { "name": "Michigan Guide to Environmental Regulations, Ch. 1 Air", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf" },
+    { "name": "Permit to Install Exemption Handbook", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/Guidance/pti-exemption-booklet.pdf" },
+    { "name": "Air quality facility-specific information", "url": "https://www.michigan.gov/egle/about/organization/air-quality/facility-specific-info" }
+  ],
+  "sources": [
+    { "name": "EGLE PTI / NSR", "url": "https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review" },
+    { "name": "EGLE General PTIs", "url": "https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review/general-permits" },
+    { "name": "EGLE Michigan Guide to Environmental Regulations (2024), Ch. 1", "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Exemption rule range (R 336.1280-1291) is the commonly cited Part 2 exemption range and was not confirmed in the guide; see the Exemption Handbook. Michigan has oil and gas production, but no state-specific oil and gas air permit was found on the pages reviewed."
+}
