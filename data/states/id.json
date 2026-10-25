@@ -1,0 +1,36 @@
+{
+  "code": "ID", "name": "Idaho", "slug": "idaho", "epaRegion": 10,
+  "agency": { "name": "Idaho Department of Environmental Quality (DEQ)", "division": "Air Quality Division", "url": "https://www.deq.idaho.gov/air-quality/", "permitsUrl": "https://www.deq.idaho.gov/permits/air-quality-permitting/" },
+  "overview": "Idaho DEQ requires a Permit to Construct (PTC) before constructing or modifying sources that emit or may emit air pollutants, unless exempt. Rock crushers and certain dairies may use a Permit by Rule registration instead. General permits cover concrete batch plants, hot mix asphalt plants, and automotive coating. Tier I operating permits are Idaho's Title V permits (DEQ is the EPA-delegated agency); Tier II operating permits set facility caps, synthetic minor limits, or other limits. Rules are in IDAPA 58.01.01.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Exemptions", "description": "Self-exemption and exemption forms exist (general Exemptions Form, 6H Notification and Petition, automotive coating and cabinet making self-exemptions). One-time occurrences, such as painting a vehicle in a shop, do not require a permit.", "citation": "IDAPA 58.01.01", "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/" },
+    { "type": "pbr", "name": "Permit by Rule (PBR)", "description": "Registration in place of a PTC; available only to rock crushers and certain dairies.", "citation": "IDAPA 58.01.01", "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/" },
+    { "type": "general", "name": "General Permits", "description": "Concrete batch plants, hot-mix asphalt plants, and automotive coating operations. One-time fee of $1,500 ($1,000 application plus $500 processing) per DEQ.", "citation": "IDAPA 58.01.01", "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/", "thresholds": "Per DEQ: automotive coating general permit applies to facilities using 4 gallons or less of coating materials per calendar day." },
+    { "type": "minor-nsr", "name": "Permit to Construct (PTC)", "description": "Required before constructing or modifying sources that emit or may emit air pollutants; typically requires an air quality modeling demonstration.", "citation": "IDAPA 58.01.01", "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/" },
+    { "type": "state-operating", "name": "Tier II Operating Permit", "description": "Authorizes facility emission caps, mercury BACT limits, or synthetic minor limits; may be required for Regional Haze BART.", "citation": "IDAPA 58.01.01", "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/" },
+    { "type": "psd", "name": "PSD", "description": "Major source preconstruction review is part of Idaho's PTC rules in IDAPA 58.01.01. DEQ's permitting page does not describe PSD separately.", "citation": "IDAPA 58.01.01", "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf" },
+    { "type": "title-v", "name": "Tier I Operating Permit (Title V)", "description": "Consolidates applicable federal, state, and local requirements for major stationary sources into one federally enforceable permit.", "citation": "IDAPA 58.01.01", "url": "https://www.deq.idaho.gov/permitting/air-quality-permitting/tier-i/" }
+  ],
+  "oilAndGas": { "summary": "DEQ's air permitting pages list no oil-and-gas-specific air permit. Oil and gas facilities follow the PTC/Tier I/Tier II framework; federal NSPS OOOO-series and NESHAP HH apply where applicable.", "programs": [] },
+  "regulations": [
+    { "citation": "IDAPA 58.01.01", "title": "Rules for the Control of Air Pollution in Idaho", "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf" }
+  ],
+  "forms": [
+    { "name": "Minor Source PTC Application Completeness Checklist", "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5189" },
+    { "name": "Tier I Application Completeness Checklist", "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5212" },
+    { "name": "Exemptions Form", "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5191" },
+    { "name": "Rock Crusher PBR Registration Form", "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5204" },
+    { "name": "Pre-Application Meeting Request Form", "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5250" }
+  ],
+  "guidance": [
+    { "name": "State of Idaho Guideline for Performing Air Quality Impact Analyses", "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5962" },
+    { "name": "PM2.5 NAAQS Changes (2024)", "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/22214" }
+  ],
+  "fees": { "name": "Permit and Application Fees", "url": "https://www.deq.idaho.gov/permits/permit-and-application-fees/" },
+  "sources": [
+    { "name": "Idaho DEQ Air Quality Permitting", "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/" },
+    { "name": "Idaho DEQ Administrative Rules", "url": "https://www.deq.idaho.gov/rules-and-guidance/administrative-rules/" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "partial",
+  "notes": "Specific IDAPA 58.01.01 section numbers and numeric thresholds were not stated on DEQ's permitting page and are omitted. The Tier I page could not be loaded during review. Air permitting hotline: 1-877-573-7648."
+}

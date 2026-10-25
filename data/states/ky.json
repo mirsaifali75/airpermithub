@@ -1,0 +1,42 @@
+{
+  "code": "KY", "name": "Kentucky", "slug": "kentucky", "epaRegion": 4,
+  "agency": { "name": "Kentucky Energy and Environment Cabinet", "division": "Department for Environmental Protection, Division for Air Quality (DAQ)", "url": "https://eec.ky.gov/Environmental-Protection/Air/Pages/Air-Permitting.aspx", "permitsUrl": "https://eec.ky.gov/Environmental-Protection/Air/Pages/Air-Permitting.aspx" },
+  "localAgencies": [
+    { "name": "Louisville Metro Air Pollution Control District", "jurisdiction": "Jefferson County", "url": "https://louisvilleky.gov/government/air-pollution-control-district/air-pollution-permits-and-compliance", "notes": "Handles air permitting in Jefferson County; DAQ covers all other counties." }
+  ],
+  "overview": "Kentucky DAQ requires registration or permit approval before construction begins. Very small sources may need nothing; others register (401 KAR 52:070), get a minor/state-origin permit (52:040), a conditional major/FESOP (52:030), or a Title V permit (52:020). PSD applies to certain major projects in attainment areas.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Insignificant and trivial activities", "description": "Insignificant activities must be listed in applications and permits; trivial activities need not be included.", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/Insignificant%20Activities.pdf" },
+    { "type": "registration", "name": "Registration", "description": "Some sources above certain thresholds must register rather than obtain a permit.", "citation": "401 KAR 52:070", "url": "https://eec.ky.gov/Environmental-Protection/Air/Pages/Air-Permitting.aspx" },
+    { "type": "minor-nsr", "name": "Minor / State-Origin Permit", "description": "For sources above registration levels and below major thresholds.", "citation": "401 KAR 52:040", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/52-040%20IBR%20Final.pdf", "thresholds": "Per DAQ: above registration levels but below 100 TPY of a non-hazardous pollutant, and below 10 TPY of any single HAP or 25 TPY of all HAPs." },
+    { "type": "state-operating", "name": "Conditional Major (FESOP)", "description": "For sources whose potential emissions would otherwise require a major permit, if they accept limits.", "citation": "401 KAR 52:030", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/52-030%20IBR%20Final.pdf" },
+    { "type": "psd", "name": "PSD", "description": "Applies to certain major projects in areas meeting air quality standards; requires BACT.", "url": "https://eec.ky.gov/Environmental-Protection/Air/Pages/Air-Permitting.aspx" },
+    { "type": "title-v", "name": "Major / Title V Permit", "description": "Operating permit for major sources.", "citation": "401 KAR 52:020", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/52-020%20IBR%20Final.pdf", "thresholds": "Per DAQ: more than 100 TPY of any non-hazardous pollutant, or more than 10 TPY of any single HAP or 25 TPY of all HAPs combined." }
+  ],
+  "oilAndGas": { "summary": "DAQ's permitting page lists no oil-and-gas-specific air permit. Oil and gas facilities follow the registration/state-origin/conditional major/Title V framework; federal NSPS OOOO-series and NESHAP HH apply where applicable.", "programs": [] },
+  "regulations": [
+    { "citation": "401 KAR Chapter 52", "title": "Permits, Registrations, and Prohibitory Rules", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/CHAP52.pdf" },
+    { "citation": "401 KAR 52:020", "title": "Title V permits" },
+    { "citation": "401 KAR 52:030", "title": "Federally-enforceable permits for nonmajor sources" },
+    { "citation": "401 KAR 52:040", "title": "State-origin permits" },
+    { "citation": "401 KAR 52:070", "title": "Registration of designated sources" }
+  ],
+  "forms": [
+    { "name": "Air Permitting Forms and Information (DEP 7007 series)", "url": "https://eec.ky.gov/Environmental-Protection/Air/Pages/Air-Permitting-Forms-and-Information.aspx" },
+    { "name": "DEP 7007AI Administrative Information instructions", "url": "https://eec.ky.gov/Environmental-Protection/Forms%20Library/DEP7007AI%20Form%20Instructions.pdf" },
+    { "name": "Ownership Change Form", "url": "https://eec.ky.gov/Environmental-Protection/Forms%20Library/Ownership%20Change%20Form.pdf" }
+  ],
+  "guidance": [
+    { "name": "Air Permit Application Guide", "url": "https://eec.ky.gov/Environmental-Protection/Compliance-Assistance/Pages/Air-Permit-Application-Guide.aspx" },
+    { "name": "Title V procedures (ADA)", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/Cabinet%20Provisions%20and%20Procedures%20for%20Title%20V%20Permits%20ADA.pdf" },
+    { "name": "Trivial Activities", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/TrivialActivities.pdf" },
+    { "name": "Air quality program fee change fact sheet", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/50_038%20Fact%20Sheet.pdf" }
+  ],
+  "ePermitting": { "name": "EEC eForms", "url": "https://dep.gateway.ky.gov/eForms/account/Home.aspx" },
+  "sources": [
+    { "name": "KY DAQ Air Permitting", "url": "https://eec.ky.gov/Environmental-Protection/Air/Pages/Air-Permitting.aspx" },
+    { "name": "401 KAR Chapter 52", "url": "https://eec.ky.gov/Environmental-Protection/Air/Documents/CHAP52.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Regulation section titles are summarized; confirm in the Chapter 52 PDF. PSD and nonattainment regulation citations (401 KAR Chapter 51) were not stated on the DAQ page."
+}

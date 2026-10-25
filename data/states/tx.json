@@ -1,0 +1,170 @@
+{
+  "code": "TX",
+  "name": "Texas",
+  "slug": "texas",
+  "epaRegion": 6,
+  "agency": {
+    "name": "Texas Commission on Environmental Quality (TCEQ)",
+    "division": "Office of Air, Air Permits Division",
+    "url": "https://www.tceq.texas.gov/",
+    "permitsUrl": "https://www.tceq.texas.gov/permitting/air/air_permits.html"
+  },
+  "localAgencies": [
+    {
+      "name": "Local air pollution control programs",
+      "jurisdiction": "Certain Texas cities and counties",
+      "url": "https://www.tceq.texas.gov/permitting/air/local_programs.html",
+      "notes": "TCEQ issues air permits statewide; check this TCEQ page for local programs that also have requirements."
+    }
+  ],
+  "overview": "TCEQ authorizes new and modified air emission sources through a tiered system under New Source Review (NSR): de minimis, permits by rule (PBR), standard permits, and case-by-case NSR permits, with federal PSD and nonattainment review for major sources. Major sites also need a federal operating permit (Title V), issued as a site operating permit (SOP) or general operating permit (GOP).",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "De minimis facilities",
+      "description": "Facilities or sources meeting the de minimis criteria do not have to obtain any registration or authorization prior to construction.",
+      "citation": "30 TAC §116.119(a)",
+      "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/de_minimis.html"
+    },
+    {
+      "type": "pbr",
+      "name": "Permits by Rule (PBR)",
+      "description": "Authorizes facilities that will not make a significant contribution of air contaminants when built and operated under the conditions of a specific PBR. Facilities must meet the general emission limits in 30 TAC 106.4 and other Chapter 106 requirements, such as recordkeeping in 30 TAC 106.8.",
+      "citation": "30 TAC Chapter 106",
+      "url": "https://www.tceq.texas.gov/permitting/air/permitbyrule/air_pbr_index.html",
+      "quote": "An operation may qualify for a permit by rule (PBR) authorization if it emits less than: 250 tons per year (tpy) of carbon monoxide or nitrogen oxides; 25 tpy of volatile organic compounds, sulfur dioxide, or inhalable particulate matter; 15 tpy of particulate matter with diameters of 10 microns or less; 10 tpy of particulate matter with diameters of 2.5 microns or less; 25 tpy of any other air contaminant (exclusions apply). (TCEQ RG-616, rev. January 2026)"
+    },
+    {
+      "type": "standard",
+      "name": "Standard Permits",
+      "description": "Permits for specific, well-characterized classes of facilities, authorized under 30 TAC Chapter 116, Subchapter F.",
+      "citation": "30 TAC Chapter 116, Subchapter F",
+      "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/standard"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Case-by-case NSR permit",
+      "description": "For facilities that cannot qualify for a PBR or standard permit. Includes amendments, alterations, renewals, and Readily Available Permits (a streamlined option for certain facility types).",
+      "citation": "30 TAC Chapter 116, Subchapter B",
+      "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/air_nsrpermits.html"
+    },
+    {
+      "type": "other",
+      "name": "Flexible permits",
+      "description": "Lets operators manage operations under an overall emissions cap or individual emission limits; follows the same permitting requirements as NSR permits.",
+      "citation": "30 TAC Chapter 116",
+      "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/flexible_permit.html"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "Required for a new major stationary source or major modification in an attainment area. TCEQ also administers greenhouse gas PSD permitting.",
+      "citation": "30 TAC Chapter 116; GHG thresholds at 30 TAC 116.164(a)",
+      "url": "https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/ghg/ghg-permitting.html"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment review",
+      "description": "Required when emissions exceed the applicable major source or significance threshold for the nonattainment area and pollutant.",
+      "citation": "30 TAC Chapter 116",
+      "url": "https://www.tceq.texas.gov/permitting/air/guidance/authorize.html"
+    },
+    {
+      "type": "title-v",
+      "name": "Federal Operating Permits (Title V): SOP and GOP",
+      "description": "Major sites need a federal operating permit. A Site Operating Permit (SOP) is customized to the emission sources at an individual site; a General Operating Permit (GOP) has uniform conditions for all sites in a defined class.",
+      "citation": "30 TAC Chapter 122; major source definition at 30 TAC 122.10(13)",
+      "url": "https://www.tceq.texas.gov/permitting/air/titlev/air_oppermits_v.html"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Oil and gas sites follow the same tiered path: de minimis, then PBR (Subchapter O), then the Air Quality Standard Permit for Oil and Gas Facilities, then a case-by-case NSR permit. Major sites may use Title V general operating permits GOP 511 or 514.",
+    "programs": [
+      {
+        "type": "pbr",
+        "name": "PBR 106.352: Oil and Gas Handling and Production Facilities",
+        "description": "PBR for oil and gas handling and production facilities, with registration information and an emissions calculation spreadsheet tool.",
+        "citation": "30 TAC §106.352",
+        "url": "https://www.tceq.texas.gov/permitting/air/permitbyrule/subchapter-o/oil_and_gas.html"
+      },
+      {
+        "type": "pbr",
+        "name": "PBR 106.359: Planned MSS at Oil and Gas Facilities",
+        "description": "Planned maintenance, startup, and shutdown at oil and gas production and handling facilities.",
+        "citation": "30 TAC §106.359",
+        "url": "https://www.tceq.texas.gov/permitting/air/permitbyrule/subchapter-o/mss-oil-gas.html"
+      },
+      {
+        "type": "pbr",
+        "name": "Subchapter O PBRs for oil and gas",
+        "description": "Index of Chapter 106 Subchapter O permits by rule for oil and gas facilities.",
+        "citation": "30 TAC Chapter 106, Subchapter O",
+        "url": "https://www.tceq.texas.gov/permitting/air/permitbyrule/subchapter-o/index.html"
+      },
+      {
+        "type": "standard",
+        "name": "Air Quality Standard Permit for Oil and Gas Facilities",
+        "description": "For oil and gas facilities that cannot meet a PBR. Includes applicability, registration information, and an emissions calculation tool.",
+        "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/chemical/oil_and_gas_sp.html"
+      },
+      {
+        "type": "title-v",
+        "name": "GOP No. 511: Oil and Gas General Operating Permit",
+        "description": "Title V general operating permit for oil and gas sites.",
+        "url": "https://www.tceq.texas.gov/permitting/air/titlev/generalpermits/gop_no_511.html"
+      },
+      {
+        "type": "title-v",
+        "name": "GOP No. 514: Oil and Gas General Operating Permit",
+        "description": "Title V general operating permit for oil and gas sites.",
+        "url": "https://www.tceq.texas.gov/permitting/air/titlev/generalpermits/gop_no_514.html"
+      },
+      {
+        "type": "other",
+        "name": "Barnett Shale and Eagle Ford Shale information",
+        "description": "TCEQ regional information pages for these shale plays.",
+        "url": "https://www.tceq.texas.gov/airquality/barnettshale"
+      }
+    ]
+  },
+  "regulations": [
+    { "citation": "30 TAC Chapter 39", "title": "Public Notice", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/39/r39hp.html" },
+    { "citation": "30 TAC Chapter 101", "title": "General Air Quality Rules", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/statehp.html" },
+    { "citation": "30 TAC Chapter 106", "title": "Permits by Rule (Exemptions from Permitting)", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/statehp.html" },
+    { "citation": "30 TAC Chapter 111", "title": "Visible Emissions and Particulate Matter", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/111/r1hp.html" },
+    { "citation": "30 TAC Chapter 112", "title": "Sulfur Compounds", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/112/r2hp.html" },
+    { "citation": "30 TAC Chapter 113", "title": "Toxic Materials (incl. NESHAP/MACT incorporation)", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/113/r3hp.html" },
+    { "citation": "30 TAC Chapter 115", "title": "Volatile Organic Compounds", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/115/r5hp.html" },
+    { "citation": "30 TAC Chapter 116", "title": "Permits for New Construction or Modification", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/statehp.html" },
+    { "citation": "30 TAC Chapter 117", "title": "Nitrogen Compounds", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/117/r7hp.html" },
+    { "citation": "30 TAC Chapter 122", "title": "Federal Operating Permits Program", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/122/r12hp.html" }
+  ],
+  "forms": [
+    { "name": "Application and Registration Forms for Air Permits", "url": "https://www.tceq.texas.gov/permitting/air/forms/forms-index" },
+    { "name": "NSR forms and guidance", "url": "https://www.tceq.texas.gov/permitting/air/nav/nsr_forms_forms.html" },
+    { "name": "NSR Application Tools", "url": "https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/nsrapp-tools.html" },
+    { "name": "TCEQ forms search", "url": "https://www.tceq.texas.gov/publications/search_forms.html" }
+  ],
+  "guidance": [
+    { "name": "Types of New Source Review Authorizations", "url": "https://www.tceq.texas.gov/permitting/air/guidance/authorize.html" },
+    { "name": "RG-616 Air Permit Fact Sheet (rev. Jan 2026)", "url": "https://www.tceq.texas.gov/assets/public/permitting/air/factsheets/permit-factsheet.pdf" },
+    { "name": "Before You Build", "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/before.html" },
+    { "name": "Oil and Gas Facilities: Air Compliance Information", "url": "https://www.tceq.texas.gov/assistance/industry/oil-and-gas/oilgas_air.html" },
+    { "name": "Title V Program Applicability", "url": "https://www.tceq.texas.gov/permitting/air/titlev/pro_applicability.html" },
+    { "name": "Air Dispersion Modeling", "url": "https://www.tceq.texas.gov/permitting/air/modeling/modeling-index" },
+    { "name": "Public Notice for Air Permit Applications", "url": "https://www.tceq.texas.gov/permitting/air/bilingual/publicnotice-airpermits" },
+    { "name": "Current Air Permitting Policy and Guidance Memos", "url": "https://www.tceq.texas.gov/permitting/air/memos/air-memos-all" }
+  ],
+  "fees": { "name": "Fees for Air Permitting", "url": "https://www.tceq.texas.gov/permitting/air/fees" },
+  "sources": [
+    { "name": "TCEQ Air Permitting home", "url": "https://www.tceq.texas.gov/permitting/air/air_permits.html" },
+    { "name": "TCEQ Types of NSR Authorizations", "url": "https://www.tceq.texas.gov/permitting/air/guidance/authorize.html" },
+    { "name": "TCEQ Oil and Gas Air Compliance", "url": "https://www.tceq.texas.gov/assistance/industry/oil-and-gas/oilgas_air.html" },
+    { "name": "TCEQ Title V Operating Permits", "url": "https://www.tceq.texas.gov/permitting/air/titlev/air_oppermits_v.html" },
+    { "name": "TCEQ RG-616", "url": "https://www.tceq.texas.gov/assets/public/permitting/air/factsheets/permit-factsheet.pdf" },
+    { "name": "TCEQ 30 TAC air rules index", "url": "https://www.tceq.texas.gov/permitting/air/rules/state/statehp.html" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Content reviewed against TCEQ pages on the lastReviewed date. Major-source PSD/NNSR numeric thresholds are not stated on the TCEQ pages reviewed and are intentionally omitted; see 40 CFR 52.21 and the federal page."
+}

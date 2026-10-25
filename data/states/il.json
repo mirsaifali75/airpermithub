@@ -1,0 +1,47 @@
+{
+  "code": "IL", "name": "Illinois", "slug": "illinois", "epaRegion": 5,
+  "agency": { "name": "Illinois Environmental Protection Agency (Illinois EPA)", "division": "Bureau of Air, Permit Section", "url": "https://epa.illinois.gov/topics/forms/air-permits.html", "permitsUrl": "https://epa.illinois.gov/topics/forms/air-permits.html" },
+  "localAgencies": [
+    { "name": "Cook County Department of Environment and Sustainability", "jurisdiction": "Suburban and unincorporated Cook County", "url": "https://www.cookcountyil.gov/service/equipment-registration-permitting-environmental-control", "notes": "Requires equipment registration permits for air emission equipment (even units Illinois EPA treats as insignificant) under Cook County Code §§ 30-151 and 32-1. This is in addition to Illinois EPA permits." },
+    { "name": "City of Chicago Department of Public Health", "jurisdiction": "City of Chicago", "url": "https://www.chicago.gov/city/en/depts/cdph/provdrs/healthy_communities/svcs/environmental-permits---regulation.html", "notes": "Issues city air pollution control permits." }
+  ],
+  "overview": "Illinois EPA requires a construction permit before building an emission unit or air pollution control equipment unless an exemption applies, and an operating permit to operate. Operating permit options depend on size: Registration of Smaller Sources (ROSS) for very small sources, lifetime state operating permits, general permits for true minor sources, FESOPs for synthetic minors, and CAAPP (Illinois's Title V program) for major sources. PSD and nonattainment NSR apply to major projects.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Permit exemptions", "description": "Appendix 2 / Section 201.146 lists equipment and activities that need no construction or operating permit (e.g., certain small combustion units, storage tanks, cold cleaning degreasers). Exempt units must still meet other requirements and can count toward NSR or CAAPP applicability.", "citation": "35 Ill. Adm. Code 201.146", "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/small-business/publications/documents/airpermit2016.pdf" },
+    { "type": "registration", "name": "Registration of Smaller Sources (ROSS)", "description": "Registration replaces a permit for eligible small sources, based on prior-year actual emissions from non-exempt units. Annual fee applies.", "citation": "35 Ill. Adm. Code 201.175", "url": "https://epa.illinois.gov/topics/forms/air-forms/lifetime.html", "thresholds": "Per Illinois EPA guide: up to 5.0 tons/yr combined PM, CO, NOx, SO2, and VOM; 0.50 tons/yr combined HAPs; 0.05 tons/yr lead; 0.05 tons/yr mercury." },
+    { "type": "minor-nsr", "name": "Construction Permit", "description": "Required before building an emission unit or air pollution control equipment, or making a modification, unless exempt.", "citation": "35 Ill. Adm. Code 201.142-201.144", "url": "https://epa.illinois.gov/topics/forms/air-forms/state.html" },
+    { "type": "state-operating", "name": "Lifetime State Operating Permit", "description": "Operating permit for non-CAAPP, non-FESOP sources that does not require renewal unless the Agency requests it.", "citation": "Ill. Environmental Protection Act; 35 Ill. Adm. Code 201", "url": "https://epa.illinois.gov/topics/forms/air-forms/lifetime.html" },
+    { "type": "general", "name": "General Permits", "description": "Available only to true minor sources; allow adding or modifying units within the permit's limits without a new construction permit. Illinois EPA has also issued general FESOPs (e.g., batch-mix asphalt).", "citation": "Ill. Environmental Protection Act § 39.10", "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/small-business/publications/documents/airpermit2016.pdf" },
+    { "type": "state-operating", "name": "Federally Enforceable State Operating Permit (FESOP)", "description": "Voluntary synthetic minor permit with federally enforceable limits keeping potential emissions below major source thresholds.", "url": "https://epa.illinois.gov/topics/forms/air-forms/fesop.html" },
+    { "type": "psd", "name": "PSD", "description": "Major source review in attainment areas.", "citation": "40 CFR 52.21", "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/small-business/publications/documents/airpermit2016.pdf", "thresholds": "Per Illinois EPA guide: 100 tons/yr for 28 listed source categories; 250 tons/yr for others." },
+    { "type": "nnsr", "name": "Nonattainment New Source Review", "description": "Major source review in nonattainment areas.", "citation": "35 Ill. Adm. Code Part 203", "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/small-business/publications/documents/airpermit2016.pdf", "thresholds": "Per Illinois EPA guide: 100 tons/yr in a nonattainment area (lower thresholds may apply depending on classification)." },
+    { "type": "title-v", "name": "Clean Air Act Permit Program (CAAPP)", "description": "Illinois's Title V program for major sources and certain other sources.", "citation": "Ill. Environmental Protection Act § 39.5", "url": "https://epa.illinois.gov/topics/forms/air-forms/caapp.html", "thresholds": "Per Illinois EPA guide: 100 tons/yr of any criteria pollutant; 10 tons/yr of any single HAP; 25 tons/yr of combined HAPs (potential to emit at 8,760 hours/yr)." }
+  ],
+  "oilAndGas": { "summary": "Illinois EPA's permitting pages list no oil-and-gas-specific air permit. Oil and gas facilities follow construction, lifetime, FESOP, or CAAPP permitting; federal NSPS OOOO-series and NESHAP HH apply where applicable.", "programs": [] },
+  "regulations": [
+    { "citation": "35 Ill. Adm. Code Part 201", "title": "Permits and General Provisions (201.102 definitions; 201.142-144 permits; 201.146 exemptions; 201.175 ROSS)" },
+    { "citation": "35 Ill. Adm. Code Part 203", "title": "Major Stationary Sources Construction and Modification (nonattainment NSR)" },
+    { "citation": "415 ILCS 5/39.5", "title": "Clean Air Act Permit Program (CAAPP)" },
+    { "citation": "415 ILCS 5/39.10", "title": "General permits" }
+  ],
+  "forms": [
+    { "name": "State (non-CAAPP) permit forms", "url": "https://epa.illinois.gov/topics/forms/air-forms/state.html" },
+    { "name": "Lifetime permit and ROSS forms", "url": "https://epa.illinois.gov/topics/forms/air-forms/lifetime.html" },
+    { "name": "FESOP forms", "url": "https://epa.illinois.gov/topics/forms/air-forms/fesop.html" },
+    { "name": "CAAPP forms", "url": "https://epa.illinois.gov/topics/forms/air-forms/caapp.html" }
+  ],
+  "guidance": [
+    { "name": "Does My Business Need an Air Pollution Control Permit?", "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/small-business/publications/documents/airpermit2016.pdf" },
+    { "name": "Determining Potential to Emit", "url": "https://epa.illinois.gov/topics/forms/air-permits/potential-to-emit.html" },
+    { "name": "Annual Emission Reports", "url": "https://epa.illinois.gov/topics/air-quality/planning-reporting/annual-emission-reports.html" },
+    { "name": "Aggregate Processing Plant Application Guidance", "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/documents/air/permits/aggregate-processing-plant-application-guidance.pdf" }
+  ],
+  "fees": { "name": "Permitting, Forms, and Fees", "url": "https://epa.illinois.gov/topics/forms.html" },
+  "sources": [
+    { "name": "Illinois EPA Air Permits", "url": "https://epa.illinois.gov/topics/forms/air-permits.html" },
+    { "name": "Illinois EPA permit eligibility guide (2016)", "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/small-business/publications/documents/airpermit2016.pdf" },
+    { "name": "Cook County Equipment Registration Permitting", "url": "https://www.cookcountyil.gov/service/equipment-registration-permitting-environmental-control" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "The Illinois EPA eligibility guide is dated 2016; fee amounts and ROSS deadlines in it may be outdated. The Chicago-area ozone nonattainment classification can lower major source thresholds; check the Green Book."
+}

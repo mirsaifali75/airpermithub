@@ -1,0 +1,43 @@
+{
+  "code": "DE", "name": "Delaware", "slug": "delaware", "epaRegion": 3,
+  "agency": { "name": "Delaware Department of Natural Resources and Environmental Control (DNREC)", "division": "Division of Air Quality", "url": "https://dnrec.delaware.gov/air/", "permitsUrl": "https://dnrec.delaware.gov/air/permitting/" },
+  "overview": "In Delaware, any equipment that emits or controls air contaminants needs DNREC approval before construction or operation under 7 DE Admin. Code 1102, unless exempt or eligible for registration. Sources are classified as natural minor, synthetic minor, or major. Major sources are subject to NSR/PSD (Regulation 1125) and Title V (Regulation 1130). Major source thresholds for VOC and NOx are lower in New Castle and Kent counties than in Sussex County.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Exemptions", "description": "Equipment listed in Appendix A of Regulation 1102, or equipment with very low actual daily emissions, is exempt. Exempt sources must still quantify, document, and keep emissions records on site.", "citation": "7 DE Admin. Code 1102, Appendix A", "url": "https://dnrec.delaware.gov/air/permitting/q-and-a/", "quote": "actual emissions each and every day less than 0.2 pounds per day" },
+    { "type": "registration", "name": "Air Contaminant Equipment Registration", "description": "Eligible sources may register instead of obtaining a permit; self-registration allows work to start on submittal, at the source's own risk.", "citation": "7 DE Admin. Code 1102", "url": "https://dnrec.delaware.gov/air/permitting/equipment-registration/" },
+    { "type": "minor-nsr", "name": "Natural Minor Permit (Regulation 1102)", "description": "Construction/operating permit for sources that do not meet major or synthetic minor criteria. Temporary natural minor permits are also issued. DNREC lists equipment without a control device emitting ten pounds per day or more as a permit trigger.", "citation": "7 DE Admin. Code 1102", "url": "https://regulations.delaware.gov/AdminCode/title7/1102" },
+    { "type": "state-operating", "name": "Synthetic Minor Permit (Regulation 1102 / Title V)", "description": "Federally enforceable permit for sources with potential to emit at or above major thresholds that accept limits to stay below them.", "citation": "7 DE Admin. Code 1102 and 1130", "url": "https://dnrec.delaware.gov/air/permitting/q-and-a/" },
+    { "type": "psd", "name": "New Source Review / PSD (Regulation 1125)", "description": "Preconstruction review program for major stationary sources, covering both nonattainment NSR and PSD.", "citation": "7 DE Admin. Code 1125", "url": "https://regulations.delaware.gov/AdminCode/title7/1125" },
+    { "type": "nnsr", "name": "Nonattainment NSR (Regulation 1125)", "description": "Major source preconstruction review in nonattainment areas under Regulation 1125.", "citation": "7 DE Admin. Code 1125", "url": "https://regulations.delaware.gov/AdminCode/title7/1125" },
+    { "type": "title-v", "name": "Title V Operating Permit (Regulation 1130)", "description": "Operating permit program for major sources.", "citation": "7 DE Admin. Code 1130", "url": "https://dnrec.delaware.gov/air/permitting/major-air-sources/", "thresholds": "Per DNREC (tpy): New Castle and Kent: VOC 25, NOx 25, CO 100, sulfur 100, PM 100, single HAP 10, other 100. Sussex: VOC 50, NOx 100, others same. Total of all HAPs: 25 tpy." }
+  ],
+  "oilAndGas": { "summary": "Delaware has no oil and gas production. DNREC's permitting pages list no oil-and-gas-specific air program.", "programs": [] },
+  "regulations": [
+    { "citation": "7 DE Admin. Code 1101", "title": "Definitions and Administrative Principles", "url": "https://regulations.delaware.gov/AdminCode/title7/1101" },
+    { "citation": "7 DE Admin. Code 1102", "title": "Permits", "url": "https://regulations.delaware.gov/AdminCode/title7/1102" },
+    { "citation": "7 DE Admin. Code 1125", "title": "Requirements for Preconstruction Review", "url": "https://regulations.delaware.gov/AdminCode/title7/1125" },
+    { "citation": "7 DE Admin. Code 1130", "title": "Title V State Operating Permit Program", "url": "https://regulations.delaware.gov/AdminCode/title7/1130" },
+    { "citation": "Title 7 Air Quality Regulations index", "title": "All Delaware air regulations", "url": "https://regulations.delaware.gov/AdminCode/title7/" }
+  ],
+  "forms": [
+    { "name": "Air Quality Permit Applications", "url": "https://dnrec.delaware.gov/air/permitting/permit-applications/" },
+    { "name": "Title V AQM-1001 Administrative Information", "url": "https://documents.dnrec.delaware.gov/Air/Documents/title-v/AQM-1001.pdf" },
+    { "name": "Title V Instructions", "url": "https://documents.dnrec.delaware.gov/Air/Documents/title-v/Title-V-Instructions.pdf" },
+    { "name": "Title V Minor Permit Modification (AQM-1001FF)", "url": "https://documents.dnrec.delaware.gov/Air/Documents/title-v/semiannual/AQM-1001FF.pdf" }
+  ],
+  "guidance": [
+    { "name": "Air Permit Application Process (Sept 2023)", "url": "https://documents.dnrec.delaware.gov/Air/permitting/Air-Permit-Application-Process.pdf" },
+    { "name": "Air Permitting Q&A", "url": "https://dnrec.delaware.gov/air/permitting/q-and-a/" },
+    { "name": "Draft Application Review Meeting", "url": "https://dnrec.delaware.gov/air/permitting/pre-application-review/" },
+    { "name": "Generators", "url": "https://dnrec.delaware.gov/air/permitting/generators/" },
+    { "name": "Emission Banking", "url": "https://dnrec.delaware.gov/air/permitting/emission-banking/" }
+  ],
+  "fees": { "name": "DNREC Permit Fees (Air)", "url": "https://dnrec.delaware.gov/admin-law/permit-fees/#air" },
+  "sources": [
+    { "name": "DNREC Air Quality Permitting and Regulation", "url": "https://dnrec.delaware.gov/air/permitting/" },
+    { "name": "DNREC Permitting Q&A", "url": "https://dnrec.delaware.gov/air/permitting/q-and-a/" },
+    { "name": "DNREC Major Air Sources (Title V)", "url": "https://dnrec.delaware.gov/air/permitting/major-air-sources/" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Regulation titles for 1101, 1125, and 1130 are standard Delaware titles; confirm on the linked Admin Code pages."
+}

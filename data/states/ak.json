@@ -1,0 +1,45 @@
+{
+  "code": "AK", "name": "Alaska", "slug": "alaska", "epaRegion": 10,
+  "agency": { "name": "Alaska Department of Environmental Conservation (DEC)", "division": "Division of Air Quality, Air Permit Program", "url": "https://dec.alaska.gov/air/air-permit/", "permitsUrl": "https://dec.alaska.gov/air/air-permit/guidance/" },
+  "localAgencies": [
+    { "name": "Municipality of Anchorage", "jurisdiction": "Anchorage (open burning only)", "url": "https://www.muni.org/Departments/Fire/Wildfire/Pages/BurnPermits.aspx", "notes": "Handles burn permits inside Anchorage; stationary source air permits are issued by DEC." }
+  ],
+  "overview": "Alaska DEC's Air Permit Program issues construction permits (major sources), minor source specific permits, general permits for common source types, Owner Requested Limits (ORL), Pre-Approved Emission Limits (PAEL), and Title V operating permits under 18 AAC 50 and AS 46.14.",
+  "permitTypes": [
+    { "type": "psd", "name": "Construction Permits", "description": "Required for new major sources and major modifications.", "citation": "18 AAC 50; thresholds tied to 40 CFR 52.21(b)(1)(i)(a)", "url": "https://dec.alaska.gov/air/air-permit/construction-minor-applications/", "thresholds": "Per DEC: 100 tpy of any regulated pollutant for the 28 facility types listed at 40 CFR 52.21(b)(1)(i)(a); 250 tpy for other facilities." },
+    { "type": "minor-nsr", "name": "Minor Source Specific (MSS) Permits", "description": "Minor permits for sources that do not need a construction permit, including drilling rigs.", "citation": "18 AAC 50", "url": "https://dec.alaska.gov/air/air-permit/construction-minor-applications/" },
+    { "type": "general", "name": "General Permits", "description": "GPA (fuel-limited diesel electric plants, renewals only), MG1 (oil and gas drill rigs), MG3 (asphalt plants under 100 tpy), MG9 (rock crushers under 100 tpy), GP3 (asphalt plants over 100 tpy).", "citation": "18 AAC 50", "url": "https://dec.alaska.gov/air/air-permit/general-permits/" },
+    { "type": "other", "name": "Owner Requested Limit (ORL)", "description": "An enforceable limit on potential to emit to avoid permitting obligations.", "citation": "18 AAC 50.225", "url": "https://dec.alaska.gov/air/air-permit/orl-pael-application/" },
+    { "type": "other", "name": "Pre-Approved Emission Limits (PAEL)", "description": "PAEL1 for gasoline distribution bulk storage and PAEL2 for diesel generator facilities.", "citation": "18 AAC 50", "url": "https://dec.alaska.gov/air/air-permit/orl-pael-application/pael-notice-guidance/" },
+    { "type": "title-v", "name": "Operating Permits (Title V)", "description": "Federal operating permit program run by DEC.", "citation": "18 AAC 50", "url": "https://dec.alaska.gov/air/air-permit/operating-application/", "thresholds": "Per DEC: potential to emit 10 tpy or more of any single HAP, 25 tpy or more of combined HAPs, or more than 100 tpy of other criteria pollutants." },
+    { "type": "other", "name": "Open Burn Approval", "description": "Required for certain open burning not covered by exemptions.", "url": "https://dec.alaska.gov/air/air-permit/open-burn-application/" }
+  ],
+  "oilAndGas": { "summary": "Oil and gas drill rigs can use the MG1 general permit or a Minor Source Specific permit. DEC defines Portable Oil and Gas Operations as operations that move between sites to drill or test wells.", "programs": [
+    { "type": "general", "name": "MG1: Oil and Gas Drill Rigs General Permit", "description": "General permit for portable oil and gas drill rigs.", "url": "https://dec.alaska.gov/air/air-permit/general-permits/" },
+    { "type": "minor-nsr", "name": "Minor Source Specific permit (drilling rigs)", "description": "Alternative to MG1 for drilling operations.", "url": "https://dec.alaska.gov/air/air-permit/construction-minor-applications/" }
+  ] },
+  "regulations": [
+    { "citation": "18 AAC 50", "title": "Air Quality Control (effective December 14, 2024)", "url": "https://dec.alaska.gov/media/b1kj1lr4/18-aac-50.pdf" },
+    { "citation": "AS 46.14", "title": "Air Quality Control statute", "url": "https://dec.alaska.gov/media/8452/46-14-2009-statutes-070710.pdf" },
+    { "citation": "Alaska SIP", "title": "State Air Quality Control Plan", "url": "https://dec.alaska.gov/air/anpms/sip/" }
+  ],
+  "forms": [
+    { "name": "Transfer of Ownership", "url": "https://dec.alaska.gov/media/11441/transfer-ownership-2018.pdf" },
+    { "name": "Source Test Plan Summary", "url": "https://dec.alaska.gov/media/6689/stp-form.pdf" },
+    { "name": "Title V Minor Revision Checklist", "url": "https://dec.alaska.gov/media/7327/titlev-minor-revision-checklist.pdf" },
+    { "name": "MG1 Notification Form", "url": "https://dec.alaska.gov/media/9103/mg1-notification-form-revision-1-111610.pdf" }
+  ],
+  "guidance": [
+    { "name": "Permit Application Guidance: Where to Start", "url": "https://dec.alaska.gov/air/air-permit/guidance/" },
+    { "name": "Air Permit Policies", "url": "https://dec.alaska.gov/air/air-permit/policies" },
+    { "name": "Standard Permit Conditions", "url": "https://dec.alaska.gov/air/air-permit/standard-conditions/" }
+  ],
+  "ePermitting": { "name": "Air Online Services", "url": "https://dec.alaska.gov/applications/air/airtoolsweb/" },
+  "fees": { "name": "DEC Online Payment Center", "url": "https://dec.alaska.gov/applications/DAS/OPC/" },
+  "sources": [
+    { "name": "DEC Permit Application Guidance", "url": "https://dec.alaska.gov/air/air-permit/guidance/" },
+    { "name": "DEC Air Permit Regulations", "url": "https://dec.alaska.gov/air/air-permit/permit-regulations/" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Outer Continental Shelf sources off Alaska are permitted by EPA Region 10 (not verified on DEC pages)."
+}

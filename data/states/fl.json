@@ -1,0 +1,52 @@
+{
+  "code": "FL", "name": "Florida", "slug": "florida", "epaRegion": 4,
+  "agency": { "name": "Florida Department of Environmental Protection (DEP)", "division": "Division of Air Resource Management; DEP district offices", "url": "https://floridadep.gov/air", "permitsUrl": "https://floridadep.gov/air/permitting-compliance/content/air-permit-review-section" },
+  "localAgencies": [
+    { "name": "Approved local air programs", "jurisdiction": "Broward, Duval, Hillsborough, Miami-Dade, Orange, Palm Beach, Pinellas, and Sarasota counties", "url": "https://floridadep.gov/air/air-director/content/local-program-air-contacts", "notes": "Minor source construction permits in counties with an approved local air program are processed locally; DEP's Division handles PSD and certain facility types." }
+  ],
+  "overview": "Florida DEP requires an air construction permit before building or modifying non-exempt emissions units, and an air operation permit to operate. Many small sources qualify for categorical, conditional, or generic exemptions (Rule 62-210.300(3), F.A.C.) or for one of the air general permits (Rule 62-210.310). Minor construction permits are processed by DEP districts or approved local programs; PSD, nonattainment NSR, and power plant permits are processed by the Division. Operation permits are state-only (natural or synthetic minor), federally enforceable state operation permits (FESOP), or Title V (Chapter 62-213).",
+  "permitTypes": [
+    { "type": "exemption", "name": "Categorical, conditional, generic, and case-by-case exemptions", "description": "Categorical exemptions cover whole unit categories (e.g., space heaters other than boilers, welding, vehicle refueling); conditional exemptions apply below set capacities with records; generic exemptions apply to units with potential emissions below defined thresholds and no unit-specific requirements; case-by-case exemptions under Rule 62-4.040. A Title V major source may not be exempt from permitting.", "citation": "Rule 62-210.300(3), F.A.C.; Rule 62-4.040, F.A.C.", "url": "https://floridadep.gov/sites/default/files/Do-I-need-an-air-permit.pdf" },
+    { "type": "general", "name": "Air General Permits", "description": "Registration-based permits (five-year maximum, $100 processing fee) for animal and human crematories, asbestos fabrication, asphalt concrete plants, bulk gasoline plants, cast polymer, chromium electroplaters, concrete batching, ethylene oxide sterilizers, halogenated solvent degreasers, mercury recovery, nonmetallic mineral processing, perc dry cleaners, printing, RICE, reinforced polyester resin, secondary aluminum sweat furnaces, and surface coating. Registered online through AGPERS.", "citation": "Rule 62-210.310, F.A.C.", "url": "https://floridadep.gov/air/permitting-compliance/content/air-general-permits" },
+    { "type": "minor-nsr", "name": "Minor Air Construction Permit", "description": "Required before construction when activities are not exempt and no general permit fits. Application sealed by a Florida-registered PE. Processing fee under Rule 62-4.050 (none for existing Title V facilities).", "citation": "Chapters 62-4, 62-204, 62-210, 62-212, F.A.C.", "url": "https://floridadep.gov/sites/default/files/Air-Construction-Permits.pdf" },
+    { "type": "psd", "name": "PSD Permit", "description": "Processed by the Division; requires applicability analysis, BACT, dispersion modeling, and additional impacts analysis.", "citation": "Rule 62-212.400, F.A.C.", "url": "https://floridadep.gov/sites/default/files/Air-Construction-Permits.pdf", "thresholds": "Per DEP: new major source with potential emissions of a PSD pollutant at or above 100 tpy (including fugitives) in one of the 28 listed categories, or at or above 250 tpy otherwise; or a major modification at or above the significant emission rate in Rule 62-210.200." },
+    { "type": "nnsr", "name": "Nonattainment New Source Review", "description": "For projects in nonattainment areas (DEP lists SO2 in Hillsborough and Nassau counties and lead in the Tampa Bay region) or their area of influence. Requires LAER and offsets before construction.", "citation": "Chapter 62-212, F.A.C.", "url": "https://floridadep.gov/sites/default/files/Air-Construction-Permits.pdf" },
+    { "type": "state-operating", "name": "Non-Title V Operation Permits (state-only and FESOP)", "description": "State-only permits for natural and synthetic minor sources; FESOPs set federally enforceable facility-wide limits to establish synthetic minor status (14-day public comment). Terms up to five years; minor source renewals due at least 60 days before expiration.", "citation": "Chapter 62-210, F.A.C.", "url": "https://floridadep.gov/sites/default/files/Air-Operation-Permits_0.pdf" },
+    { "type": "title-v", "name": "Title V Major Source Operation Permit", "description": "Comprehensive permit for major sources. No processing fee; annual operating fees based on actual emissions. Renewal due at least 225 days before expiration.", "citation": "Chapter 62-213, F.A.C.", "url": "https://floridadep.gov/sites/default/files/Air-Operation-Permits_0.pdf", "thresholds": "Per DEP: PSD major source; 100 tpy or more of any regulated air pollutant; 25 tpy or more of combined HAP; 10 tpy or more of any single HAP; 5 tpy or more of lead; NSPS/NESHAP categories requiring Title V; or major under lower nonattainment thresholds." }
+  ],
+  "oilAndGas": { "summary": "DEP's air permitting pages list no oil-and-gas-specific air permit. Engines can use the RICE air general permit, and bulk gasoline plants have their own general permit.", "programs": [
+    { "type": "general", "name": "Air General Permit: Reciprocating Internal Combustion Engines", "description": "General permit for RICE.", "citation": "Rule 62-210.310, F.A.C.", "url": "https://floridadep.gov/air/permitting-compliance/content/reciprocating-internal-combustion-engines" },
+    { "type": "general", "name": "Air General Permit: Bulk Gasoline Plants", "description": "General permit for bulk gasoline plants.", "citation": "Rule 62-210.310, F.A.C.", "url": "https://floridadep.gov/air/permitting-compliance/content/bulk-gasoline-plants" }
+  ] },
+  "regulations": [
+    { "citation": "Chapter 62-4, F.A.C.", "title": "Permits", "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-4" },
+    { "citation": "Chapter 62-204, F.A.C.", "title": "Air Pollution Control - General Provisions", "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-204" },
+    { "citation": "Chapter 62-210, F.A.C.", "title": "Stationary Sources - General Requirements", "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-210" },
+    { "citation": "Chapter 62-212, F.A.C.", "title": "Stationary Sources - Preconstruction Review", "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-212" },
+    { "citation": "Chapter 62-213, F.A.C.", "title": "Operation Permits for Major Sources of Air Pollution", "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-213" },
+    { "citation": "Chapter 62-214, F.A.C.", "title": "Requirements for Sources Subject to the Federal Acid Rain Program", "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-214" },
+    { "citation": "Chapter 62-296, F.A.C.", "title": "Stationary Sources - Emission Standards", "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-296" },
+    { "citation": "Chapter 62-297, F.A.C.", "title": "Stationary Sources - Emissions Monitoring", "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-297" }
+  ],
+  "forms": [
+    { "name": "Air Division Forms (application, report, notification)", "url": "https://floridadep.gov/air/permitting-compliance/content/air-division-forms" },
+    { "name": "DEP Form 62-210.900(1): Application for Air Permit", "url": "https://floridadep.gov/sites/default/files/DEP_Form_62-210_900(1).pdf" },
+    { "name": "Application for Transfer of Air Permit", "url": "https://floridadep.gov/air/permitting-compliance/forms/application-transfer-air-permit-title-v-and-non-title-v-source" }
+  ],
+  "guidance": [
+    { "name": "Do I need an air permit?", "url": "https://floridadep.gov/sites/default/files/Do-I-need-an-air-permit.pdf" },
+    { "name": "Air Construction Permits", "url": "https://floridadep.gov/sites/default/files/Air-Construction-Permits.pdf" },
+    { "name": "Air Operation Permits", "url": "https://floridadep.gov/sites/default/files/Air-Operation-Permits_0.pdf" },
+    { "name": "Changes Without Permit Revisions", "url": "https://floridadep.gov/air/permitting-compliance/content/changes-without-permit-revisions" },
+    { "name": "DEP District Air Contacts", "url": "https://floridadep.gov/air/air-director/content/district-air-contacts" }
+  ],
+  "ePermitting": { "name": "DEP Business Portal (AGPERS and e-applications)", "url": "http://www.fldepportal.com/go/" },
+  "sources": [
+    { "name": "FDEP Air Permit Review Section", "url": "https://floridadep.gov/air/permitting-compliance/content/air-permit-review-section" },
+    { "name": "FDEP Air General Permits", "url": "https://floridadep.gov/air/permitting-compliance/content/air-general-permits" },
+    { "name": "FDEP Current Air Rules", "url": "https://floridadep.gov/air/air-business-planning/content/current-air-rules" },
+    { "name": "FDEP Air Construction / Operation Permits guides", "url": "https://floridadep.gov/sites/default/files/Air-Construction-Permits.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Rule text links go to flrules.org, the Florida Department of State's official Administrative Code site."
+}

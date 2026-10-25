@@ -1,0 +1,41 @@
+{
+  "code": "AR", "name": "Arkansas", "slug": "arkansas", "epaRegion": 6,
+  "agency": { "name": "Arkansas Department of Energy and Environment, Division of Environmental Quality (DEQ)", "division": "Office of Air Quality, Permits Branch", "url": "https://adeq.state.ar.us/air/", "permitsUrl": "https://adeq.state.ar.us/air/permits/" },
+  "overview": "Arkansas DEQ issues registrations, minor source permits, general permits, and Title V permits under APC&EC Rules 18, 19, and 26. Permits must be obtained before construction begins. Minor source permits do not expire; general and Title V permits have five-year terms.",
+  "permitTypes": [
+    { "type": "registration", "name": "Rule 18.315 Registration", "description": "For facilities with actual emissions in the registration band. Fixed fee per DEQ FAQ.", "citation": "APC&EC Rule 18.315", "url": "https://adeq.state.ar.us/air/faq.aspx", "thresholds": "Per DEQ FAQ 8 (total facility actual emissions, tpy): CO 40 to <75; NOx 25 to <40; SO2 25 to <40; VOC 25 to <40; PM 15 to <25; PM10 10 to <15; single HAP 1 to <2; combined HAPs 3 to <5." },
+    { "type": "minor-nsr", "name": "Minor Source Permit", "description": "Required above registration levels and below Title V, and for certain listed source categories regardless of emission rate. Does not expire.", "citation": "APC&EC Rule 19", "url": "https://adeq.state.ar.us/air/faq.aspx", "thresholds": "Per DEQ FAQ 8 (tpy): CO 75 to <100; NOx, SO2, VOC 40 to <100; PM 25 or more; PM10 15 to <100; direct PM2.5 10 to <100; lead 0.5 to <10; single HAP 2 to <10; combined HAPs 5 to <25; any other air contaminant 25 or more." },
+    { "type": "general", "name": "General Permits", "description": "Coverage by Notice of Intent via SEEK. Minor source GPs: animal/human remains incinerators, cotton gins, gasoline bulk plants, hot mix asphalt, natural gas compression stations, rock crushing. Title V GPs: air curtain incinerators, cotton gins. Five-year term.", "url": "https://adeq.state.ar.us/air/permits/instructions.aspx" },
+    { "type": "psd", "name": "PSD", "description": "Major source permitting in attainment areas under Arkansas's SIP (Rule 19). DEQ notes greenhouse gas permitting applies only to sources otherwise required to obtain a PSD permit.", "citation": "APC&EC Rule 19", "url": "https://adeq.state.ar.us/air/permits/" },
+    { "type": "title-v", "name": "Title V Permit", "description": "Required at major source levels or when a federal regulation requires one. Five-year term.", "citation": "APC&EC Rule 26", "url": "https://adeq.state.ar.us/air/faq.aspx", "thresholds": "Per DEQ FAQ 8 (total facility emissions, tpy): CO, NOx, SO2, VOC, PM10, PM2.5 100 or more; lead 10 or more; single HAP 10 or more; combined HAPs 25 or more." }
+  ],
+  "oilAndGas": { "summary": "Arkansas has a minor source General Air Permit for Natural Gas Compression Stations, obtained by Notice of Intent.", "programs": [
+    { "type": "general", "name": "General Air Permit for Minor Source Natural Gas Compression Stations", "description": "General permit (1868-AGP-000) for minor source compressor stations.", "url": "https://eportal.adeq.state.ar.us/webfiles/Air/General%20Permits/1868-AGP-000.pdf" }
+  ] },
+  "regulations": [
+    { "citation": "APC&EC Rule 18", "title": "Arkansas Air Pollution Control Code" },
+    { "citation": "APC&EC Rule 19", "title": "Arkansas Plan of Implementation for Air Pollution Control (SIP)", "url": "https://adeq.state.ar.us/regs/files/reg19_final_160314.pdf" },
+    { "citation": "APC&EC Rule 26", "title": "Arkansas Operating Air Permit Program (Title V)", "url": "https://adeq.state.ar.us/regs/files/reg26_final_160314.pdf" },
+    { "citation": "APC&EC Rule 9", "title": "Permit Fee Regulations" }
+  ],
+  "forms": [
+    { "name": "Registration / Minor Source / Title V application package (ePortal)", "url": "https://eportal.adeq.state.ar.us/?FormTag=Air_Ext_RegMST5" },
+    { "name": "Air Permit Application Forms & Instructions", "url": "https://adeq.state.ar.us/air/permits/instructions.aspx" },
+    { "name": "Name Change / Transfer of Ownership", "url": "https://eportal.adeq.state.ar.us/?FormTag=Air_Ext_Transfer" },
+    { "name": "Miscellaneous Permit Correspondence", "url": "https://eportal.adeq.state.ar.us/?FormTag=Air_Ext_Misc" }
+  ],
+  "guidance": [
+    { "name": "Air Permitting Introductory Guide", "url": "https://adeq.state.ar.us/poa/enterprise-services/pdfs/air-permitting-introductory-guide.pdf" },
+    { "name": "OAQ Permitting FAQ (PDF)", "url": "https://adeq.state.ar.us/air/permits/pdfs/oaq_permitting_faq.pdf" },
+    { "name": "Office of Air Quality FAQ", "url": "https://adeq.state.ar.us/air/faq.aspx" },
+    { "name": "Arkansas SIP", "url": "https://adeq.state.ar.us/air/planning/sip/" }
+  ],
+  "ePermitting": { "name": "DEQ ePortal (Air)", "url": "https://eportal.adeq.state.ar.us/?OrganizationCode=AIR" },
+  "sources": [
+    { "name": "DEQ Air Permits", "url": "https://adeq.state.ar.us/air/permits/" },
+    { "name": "DEQ OAQ FAQ", "url": "https://adeq.state.ar.us/air/faq.aspx" },
+    { "name": "DEQ Forms & Instructions", "url": "https://adeq.state.ar.us/air/permits/instructions.aspx" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Rule PDFs linked are the versions posted on DEQ's site (2016 file dates); check for later amendments. DEQ lists a permit fee factor effective October 1, 2025 under 8 CAR § 12-402."
+}

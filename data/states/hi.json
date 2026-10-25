@@ -1,0 +1,33 @@
+{
+  "code": "HI", "name": "Hawaii", "slug": "hawaii", "epaRegion": 9,
+  "agency": { "name": "Hawaii State Department of Health (DOH)", "division": "Clean Air Branch", "url": "https://health.hawaii.gov/cab/", "permitsUrl": "https://health.hawaii.gov/cab/permit-application-forms/" },
+  "overview": "Hawaii DOH's Clean Air Branch requires an Air Pollution Control Permit before constructing, reconstructing, modifying, or operating a stationary air pollution source or control equipment, except as provided in HAR 11-60.1-62 and 11-60.1-82. Permits are either Covered Source Permits (major sources and sources subject to federal NSPS, NESHAP, or PSD; Hawaii's Title V-equivalent program) or Noncovered Source Permits (all other sources). Both have initial, renewal, temporary, general, modification, and transfer actions. Agricultural burning permits are also issued.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Permit exemptions", "description": "Exceptions to the permit requirement are in HAR 11-60.1-62 (noncovered) and 11-60.1-82 (covered).", "citation": "HAR §§ 11-60.1-62, 11-60.1-82", "url": "https://health.hawaii.gov/cab/permit-application-forms/" },
+    { "type": "general", "name": "General Permits (covered and noncovered)", "description": "General permits for numerous similar sources; covered general permits under HAR 11-60.1-92 and noncovered general permits under HAR 11-60.1-70.", "citation": "HAR §§ 11-60.1-70, 11-60.1-92", "url": "https://health.hawaii.gov/cab/files/2015/02/2015-01-APC-Instructions.pdf" },
+    { "type": "minor-nsr", "name": "Noncovered Source Permit", "description": "For stationary sources constructed, modified, or relocated after March 20, 1972 that are not covered sources. A noncovered source is a toxic source above set HAP levels. Temporary noncovered permits apply to portable sources.", "citation": "HAR § 11-60.1-62", "url": "https://health.hawaii.gov/cab/files/2015/02/2015-01-APC-Instructions.pdf", "thresholds": "Per DOH instructions: a noncovered source is a 'toxic source' if it emits or has potential to emit 2 tpy or more of any HAP, or 5 tpy or more of any combination." },
+    { "type": "title-v", "name": "Covered Source Permit (Title V program)", "description": "Covers major sources, sources subject to CAA Section 111 or 112 standards (excluding those subject only to 112(r)), and sources subject to PSD. Actions: initial, renewal, temporary, general, significant and minor modification, transfer.", "citation": "HAR § 11-60.1-82", "url": "https://health.hawaii.gov/cab/files/2015/02/2015-01-APC-Instructions.pdf", "thresholds": "Per DOH instructions: major source is 100 tpy or more of any air pollutant, or 10 tpy or more of any single HAP or 25 tpy or more of any combination of HAPs." },
+    { "type": "psd", "name": "PSD", "description": "Sources subject to PSD are covered sources; PSD requirements are in HAR Chapter 11-60.1.", "citation": "HAR Chapter 11-60.1", "url": "https://health.hawaii.gov/cab/files/2023/03/HAR_11-60_1_RAMSEYER_2023_03_29.pdf" },
+    { "type": "other", "name": "Agricultural Burning Permit", "description": "Required before agricultural burning.", "citation": "HAR §§ 11-60.1-51 to -57, 11-60.1-121", "url": "https://health.hawaii.gov/cab/permit-application-forms/" }
+  ],
+  "oilAndGas": { "summary": "Hawaii has no oil and gas production. Refineries and fuel terminals are permitted as covered sources.", "programs": [] },
+  "regulations": [
+    { "citation": "HAR Chapter 11-60.1", "title": "Air Pollution Control (2023 compilation)", "url": "https://health.hawaii.gov/cab/files/2023/03/HAR_11-60_1_RAMSEYER_2023_03_29.pdf" }
+  ],
+  "forms": [
+    { "name": "Permit Application Forms (covered and noncovered)", "url": "https://health.hawaii.gov/cab/permit-application-forms/" },
+    { "name": "Instructions for Applying for an Air Pollution Control Permit", "url": "https://health.hawaii.gov/cab/files/2015/02/2015-01-APC-Instructions.pdf" },
+    { "name": "Covered Source initial application bundle", "url": "https://health.hawaii.gov/cab/files/2013/05/csp_all_initial.pdf" },
+    { "name": "Noncovered Source initial application bundle", "url": "https://health.hawaii.gov/cab/files/2013/05/nsp_all_initial.pdf" }
+  ],
+  "guidance": [
+    { "name": "APC Permit Instructions (includes fee tables)", "url": "https://health.hawaii.gov/cab/files/2015/02/2015-01-APC-Instructions.pdf" }
+  ],
+  "fees": { "name": "Fee schedule in APC instructions", "url": "https://health.hawaii.gov/cab/files/2015/02/2015-01-APC-Instructions.pdf" },
+  "sources": [
+    { "name": "Hawaii DOH Clean Air Branch Permit Application Forms", "url": "https://health.hawaii.gov/cab/permit-application-forms/" },
+    { "name": "Hawaii DOH APC Instructions (02/15)", "url": "https://health.hawaii.gov/cab/files/2015/02/2015-01-APC-Instructions.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Instructions document is dated 02/2015; confirm fee amounts against current HAR 11-60.1."
+}

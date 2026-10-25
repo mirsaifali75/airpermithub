@@ -1,0 +1,113 @@
+{
+  "programs": [
+    {
+      "id": "nsr",
+      "name": "New Source Review (NSR) overview",
+      "citation": "Clean Air Act Parts C and D; 40 CFR 51.160-51.166, 52.21",
+      "description": "Preconstruction permitting for new and modified stationary sources. Includes PSD (major sources in attainment areas), Nonattainment NSR (major sources in nonattainment areas), and minor NSR (programs run by states, locals, and tribes).",
+      "url": "https://www.epa.gov/nsr/learn-about-new-source-review"
+    },
+    {
+      "id": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "citation": "40 CFR 52.21; 40 CFR 51.166",
+      "description": "Major source preconstruction permits in attainment/unclassifiable areas. Requires Best Available Control Technology (BACT), air quality analysis, and additional impacts analysis. Most states run PSD under an approved SIP; where they do not, the federal program at 40 CFR 52.21 applies.",
+      "url": "https://www.epa.gov/nsr/learn-about-new-source-review",
+      "ecfrUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21"
+    },
+    {
+      "id": "nnsr",
+      "name": "Nonattainment New Source Review (NNSR)",
+      "citation": "40 CFR 51.165; 40 CFR Part 51 Appendix S",
+      "description": "Major source preconstruction permits in nonattainment areas. Requires Lowest Achievable Emission Rate (LAER) and emission offsets.",
+      "url": "https://www.epa.gov/nsr/nonattainment-nsr-basic-information"
+    },
+    {
+      "id": "minor-nsr",
+      "name": "Minor NSR",
+      "citation": "40 CFR 51.160-51.164; tribal minor NSR at 40 CFR 49.151-49.161",
+      "description": "Preconstruction review for sources below major thresholds, designed by each state in its SIP. EPA administers a federal minor NSR program in Indian country.",
+      "url": "https://www.epa.gov/nsr/minor-nsr-basic-information"
+    },
+    {
+      "id": "part70",
+      "name": "Title V State Operating Permit Programs",
+      "citation": "40 CFR Part 70",
+      "description": "Minimum requirements for state/local Title V operating permit programs. Title V permits consolidate all applicable requirements for major sources and certain other sources into one operating permit.",
+      "url": "https://www.epa.gov/title-v-operating-permits/basic-information-about-operating-permits",
+      "ecfrUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70"
+    },
+    {
+      "id": "part71",
+      "name": "Federal Operating Permit Program",
+      "citation": "40 CFR Part 71",
+      "description": "EPA-issued Title V permits where no approved Part 70 program applies, most notably for sources in Indian country.",
+      "url": "https://www.epa.gov/title-v-operating-permits/who-has-obtain-title-v-permit",
+      "ecfrUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-71?toc=1"
+    },
+    {
+      "id": "part60",
+      "name": "New Source Performance Standards (NSPS)",
+      "citation": "40 CFR Part 60",
+      "description": "Technology-based emission standards for new, modified, and reconstructed sources in specific industrial categories (e.g., Subpart JJJJ engines, Subpart KKKK turbines, Subparts OOOO/OOOOa/OOOOb oil and natural gas).",
+      "url": "https://www.epa.gov/title-v-operating-permits/nsps-neshap",
+      "ecfrUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60"
+    },
+    {
+      "id": "part61",
+      "name": "NESHAP (pre-1990 pollutant standards)",
+      "citation": "40 CFR Part 61",
+      "description": "National Emission Standards for Hazardous Air Pollutants for specific pollutants such as asbestos, benzene, beryllium, mercury, radionuclides, and vinyl chloride.",
+      "url": "https://www.epa.gov/title-v-operating-permits/nsps-neshap",
+      "ecfrUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-61?toc=1"
+    },
+    {
+      "id": "part63",
+      "name": "NESHAP for Source Categories (MACT / GACT)",
+      "citation": "40 CFR Part 63",
+      "description": "Hazardous air pollutant standards for major and area source categories (e.g., Subpart HH oil and natural gas production, Subpart ZZZZ RICE).",
+      "url": "https://www.epa.gov/title-v-operating-permits/nsps-neshap",
+      "ecfrUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63?toc=1"
+    },
+    {
+      "id": "oil-gas",
+      "name": "Oil and Natural Gas: NSPS OOOOb and Emission Guidelines OOOOc",
+      "citation": "40 CFR Part 60, Subparts OOOOb and OOOOc",
+      "description": "Methane and VOC standards for new oil and gas sources (OOOOb) and emission guidelines for state plans covering existing sources (OOOOc). EPA extended several compliance deadlines through a 2025 interim final rule; check EPA's page for current status.",
+      "url": "https://www.epa.gov/controlling-air-pollution-oil-and-natural-gas-operations/epas-final-rule-reduce-methane-and-other"
+    },
+    {
+      "id": "part98",
+      "name": "Greenhouse Gas Reporting Program",
+      "citation": "40 CFR Part 98",
+      "description": "Annual greenhouse gas emissions reporting for covered facilities and suppliers (including Subpart W for petroleum and natural gas systems).",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-98/subpart-A",
+      "ecfrUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-98/subpart-A"
+    },
+    {
+      "id": "sip",
+      "name": "State Implementation Plans (SIPs)",
+      "citation": "40 CFR Part 52 (state-by-state subparts)",
+      "description": "Each state's EPA-approved air rules are listed in its 40 CFR Part 52 subpart and on EPA regional SIP pages. Use EPA's SIP status tools to see what is federally enforceable.",
+      "url": "https://www.epa.gov/air-quality-implementation-plans/tools-state-implementation-plan-sip-status"
+    }
+  ],
+  "tools": [
+    { "name": "AP-42: Compilation of Air Emissions Factors from Stationary Sources", "url": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors-stationary-sources" },
+    { "name": "Clearinghouse for Inventories and Emissions Factors (CHIEF)", "url": "https://www.epa.gov/chief" },
+    { "name": "Green Book: nonattainment areas", "url": "https://www.epa.gov/green-book/green-book-national-area-and-county-level-multi-pollutant-information" },
+    { "name": "Current Nonattainment Counties", "url": "https://www3.epa.gov/airquality/greenbook/ancl.html" },
+    { "name": "SIP Status Reports", "url": "https://www.epa.gov/air-quality-implementation-plans/state-implementation-plan-sip-status-reports" },
+    { "name": "Title V Policy and Guidance Document Index", "url": "https://www.epa.gov/title-v-operating-permits/title-v-operating-permit-policy-and-guidance-document-index" },
+    { "name": "NSR Regulatory Actions", "url": "https://www.epa.gov/nsr/nsr-regulatory-actions" }
+  ],
+  "sources": [
+    { "name": "EPA Learn About NSR", "url": "https://www.epa.gov/nsr/learn-about-new-source-review" },
+    { "name": "EPA Basic Information about Operating Permits", "url": "https://www.epa.gov/title-v-operating-permits/basic-information-about-operating-permits" },
+    { "name": "EPA NSPS & NESHAP", "url": "https://www.epa.gov/title-v-operating-permits/nsps-neshap" },
+    { "name": "eCFR Title 40 Chapter I", "url": "https://www.ecfr.gov/current/title-40/chapter-I" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "partial",
+  "notes": "Links confirmed via EPA/eCFR search results on lastReviewed date; program descriptions summarize long-standing federal structure and should be spot-checked. EPA proposed NSR changes in May 2026 (begin actual construction); see NSR Regulatory Actions."
+}

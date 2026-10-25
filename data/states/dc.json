@@ -1,0 +1,36 @@
+{
+  "code": "DC", "name": "District of Columbia", "slug": "district-of-columbia", "epaRegion": 3,
+  "agency": { "name": "DC Department of Energy and Environment (DOEE)", "division": "Air Quality Division, Air Quality Permitting Branch", "url": "https://doee.dc.gov/service/airpermits", "permitsUrl": "https://doee.dc.gov/service/airpermits" },
+  "overview": "Most stationary sources of air pollution in the District must obtain permits from DOEE's Air Quality Division. Minor sources (such as gas stations, dry cleaners, auto body shops, generator sites, and small printers) generally need a Chapter 2 pre-construction review permit and then a Chapter 2 operating permit. Major sources need pre-construction review, NSR permits under 20 DCMR § 204 for new major sources or emission-increasing modifications, and Title V operating permits under 20 DCMR Chapter 3. Source category permits offer a fast standardized path for emergency engines and temporary portable plants.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Exemptions", "description": "DOEE workshop materials state that external combustion equipment (boilers) rated 5 MMBTU/hr heat input or less is exempt. See 20 DCMR Chapter 2 for the full exemption list.", "citation": "20 DCMR Chapter 2", "url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/publication/attachments/Building%2C%20Air%20Quality%20Permitting.pdf" },
+    { "type": "general", "name": "Source Category Permits", "description": "Standardized permits for specific source types without separate public review; DOEE states applications are automatically approved if no response arrives in the specified time. Categories: temporary portable crusher/screen/conveyor equipment; temporary portable concrete plants; natural gas emergency engines (NSPS JJJJ); diesel emergency engines (NSPS IIII); existing natural gas and diesel emergency engines (NESHAP ZZZZ).", "url": "https://doee.dc.gov/service/airpermits" },
+    { "type": "minor-nsr", "name": "Chapter 2 Pre-construction Review and Operating Permits (minor sources)", "description": "Permit required before construction, then an operating permit after construction. Minor New Source Review applies.", "citation": "20 DCMR Chapter 2", "url": "https://doee.dc.gov/node/7702" },
+    { "type": "nnsr", "name": "New Source Review (20 DCMR § 204)", "description": "For new major sources or modifications that increase emissions at existing major sources. The District is in the Washington ozone nonattainment area, so nonattainment NSR applies to major ozone precursor sources.", "citation": "20 DCMR § 204", "url": "https://doee.dc.gov/node/7722" },
+    { "type": "title-v", "name": "Title V Operating Permit (20 DCMR Chapter 3)", "description": "For sources with potential to emit above major source thresholds. DOEE often issues combined Title V and Chapter 2 operating permits.", "citation": "20 DCMR Chapter 3", "url": "https://doee.dc.gov/node/1548156" },
+    { "type": "other", "name": "Acid Rain Permits", "description": "For power plants in the Acid Rain Program (CAA Title IV).", "url": "https://doee.dc.gov/service/airpermits" }
+  ],
+  "oilAndGas": { "summary": "The District has no oil and gas production. Emergency generators and boilers are the most common permitted sources.", "programs": [] },
+  "regulations": [
+    { "citation": "20 DCMR Chapter 2", "title": "General and Non-Attainment Area Permits", "url": "http://www.dcregs.dc.gov/Gateway/ChapterHome.aspx?ChapterNumber=20-2" },
+    { "citation": "20 DCMR Chapter 3", "title": "Operating Permits and Acid Rain Programs (Title V)", "url": "http://www.dcregs.dc.gov/Gateway/ChapterHome.aspx?ChapterNumber=20-3" },
+    { "citation": "20 DCMR Chapter 2 (DOEE PDF)", "title": "Chapter 2 text", "url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/publication/attachments/dcmr_chapter_2_0.pdf" }
+  ],
+  "forms": [
+    { "name": "Minor Source Permit Applications", "url": "https://doee.dc.gov/node/7702" },
+    { "name": "Major Source Permit Applications, Forms, and Documents", "url": "https://doee.dc.gov/node/7722" },
+    { "name": "Online application upload", "url": "https://octo.quickbase.com/db/brqt582ud" }
+  ],
+  "guidance": [
+    { "name": "General Requirements to Obtain Approval for a Permit", "url": "https://doee.dc.gov/node/28202" },
+    { "name": "Major Source Requirements", "url": "https://doee.dc.gov/node/1548156" },
+    { "name": "Air Quality Permit Decommissioning Guidance", "url": "https://doee.dc.gov/sites/default/files/dc/sites/doee/service_content/attachments/AQD%20Permit%20Decommissioning%20Guidance.pdf" },
+    { "name": "Air Quality Requirements 101 (workshop)", "url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/publication/attachments/Building%2C%20Air%20Quality%20Permitting.pdf" }
+  ],
+  "sources": [
+    { "name": "DOEE Apply for an Air Pollutant Permit", "url": "https://doee.dc.gov/service/airpermits" },
+    { "name": "DOEE Air Quality Requirements 101", "url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/publication/attachments/Building%2C%20Air%20Quality%20Permitting.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "partial",
+  "notes": "Chapter titles for 20 DCMR Chapters 2 and 3 are summarized; confirm on DC Regulations. Statement about ozone nonattainment is general background, not taken from the DOEE permit page."
+}

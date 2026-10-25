@@ -1,0 +1,41 @@
+{
+  "code": "LA", "name": "Louisiana", "slug": "louisiana", "epaRegion": 6,
+  "agency": { "name": "Louisiana Department of Environmental Quality (LDEQ)", "division": "Office of Environmental Services, Air Permits Division", "url": "https://www.deq.louisiana.gov/air", "permitsUrl": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit" },
+  "overview": "In Louisiana any source that emits or could emit an air contaminant generally needs an air permit unless an exception applies. Very small facilities are excused by statute (Act 547) or can use the small source exemption (LAC 33:III.501.B.4); insignificant activities are listed in LAC 33:III.501.B.5. Other non-Part 70 facilities get state minor source permits under LAC 33:III.503, or coverage under minor source general permits such as the one for crude oil and natural gas production. Major sources need Part 70 (Title V) permits under LAC 33:III.507, plus PSD or nonattainment NSR for major projects.",
+  "permitTypes": [
+    { "type": "exemption", "name": "No permit required (Act 547 / R.S. 30:2054(B)(2)(b)(ix))", "description": "Facilities with facility-wide potential emissions below the limits generally need no permit; before exceeding them, apply for a permit or small source exemption. Portable source emissions count totals from all sites.", "url": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit", "thresholds": "Per LDEQ: below 5 TPY of each regulated pollutant, below 15 TPY combined, and below the minimum emission rate (MER) for each toxic air pollutant." },
+    { "type": "exemption", "name": "Small Source Exemption", "description": "For non-major sources emitting no more than 5 TPY of any regulated pollutant and less than the MER (LAC 33:III.5112, Table 51.1) for each toxic air pollutant, needing no enforceable permit conditions and no public notice.", "citation": "LAC 33:III.501.B.4", "url": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit" },
+    { "type": "exemption", "name": "Insignificant Activities", "description": "Listed activities exempt from permitting based on size, pollutant, and activity; case-by-case claims under 501.B.5.D.", "citation": "LAC 33:III.501.B.5", "url": "https://www.deq.louisiana.gov/page/casebycase-insignificant-activities" },
+    { "type": "general", "name": "Minor Source General Permits", "description": "General permits for numerous similar sources, including crude oil and natural gas production facilities.", "citation": "LAC 33:III.513.A", "url": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf" },
+    { "type": "minor-nsr", "name": "State (Minor Source) Permit", "description": "For facilities not exempt and not Part 70 sources. Synthetic minor sources accept federally enforceable limits with public notice under LAC 33:III.531.A.1. Fees under LAC 33:III Chapter 2.", "citation": "LAC 33:III.503", "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits" },
+    { "type": "psd", "name": "PSD", "description": "Major source review in attainment areas under LAC 33:III Chapter 5.", "citation": "LAC 33:III Chapter 5", "url": "https://www.deq.louisiana.gov/assets/docs/Air/Air_Permit_Applications/r06_LouisianaGuidanceforAirPermittingActions.pdf" },
+    { "type": "nnsr", "name": "Nonattainment New Source Review", "description": "Major source review in nonattainment areas under LAC 33:III Chapter 5.", "citation": "LAC 33:III Chapter 5", "url": "https://www.deq.louisiana.gov/assets/docs/Air/Air_Permit_Applications/r06_LouisianaGuidanceforAirPermittingActions.pdf" },
+    { "type": "title-v", "name": "Part 70 (Title V) Operating Permit", "description": "For major sources; Title V general permits also exist.", "citation": "LAC 33:III.507; 40 CFR Part 70", "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits" }
+  ],
+  "oilAndGas": { "summary": "Louisiana has a minor source general permit for crude oil and natural gas production facilities (SIC 1311) and midstream gas compression and processing (SIC 1389), with lower facility-wide limits in the five-parish Baton Rouge area. Part 70 sources and some others are excluded.", "programs": [
+    { "type": "general", "name": "Minor Source General Permit: Crude Oil and Natural Gas Production Facilities", "description": "Covers field production and midstream compression/processing below facility-wide limits. Excludes Part 70 sources and facilities subject to LAC 33:III Chapter 59 or 40 CFR Part 68, among others.", "citation": "LAC 33:III.513.A", "url": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf", "thresholds": "Per LDEQ general permit (facility-wide PTE, tpy): Baton Rouge area (Ascension, East Baton Rouge, Iberville, Livingston, West Baton Rouge): PM10 15, SO2 40, NOx 20, CO 90, VOC 20, total TAPs 20, individual TAP 8. Other parishes: same except NOx 90 and VOC 90." },
+    { "type": "other", "name": "Statement of Basis for the oil and gas general permit", "description": "Technical basis for the 2016 general permit modifications.", "url": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/SOB_10-28-16.pdf" }
+  ] },
+  "regulations": [
+    { "citation": "LAC 33:III (Part III, Air)", "title": "Louisiana Environmental Regulatory Code, Air", "url": "https://www.deq.louisiana.gov/assets/docs/Legal_Affairs/ERC/33v03Air.pdf" },
+    { "citation": "LAC 33:III Chapter 5", "title": "Permit Procedures (501 exemptions, 503 minor source, 507 Part 70, 513 general permits)" },
+    { "citation": "LAC 33:III Chapter 2", "title": "Emission Inventory and permit fees" },
+    { "citation": "LAC 33:III Chapter 51", "title": "Comprehensive Toxic Air Pollutant Emission Control Program (MER Table 51.1)" }
+  ],
+  "forms": [
+    { "name": "Air forms and applications", "url": "https://www.deq.louisiana.gov/air-forms-and-applications" },
+    { "name": "Louisiana Guidance for Air Permitting Actions", "url": "https://www.deq.louisiana.gov/assets/docs/Air/Air_Permit_Applications/r06_LouisianaGuidanceforAirPermittingActions.pdf" }
+  ],
+  "guidance": [
+    { "name": "Do I Need an Air Permit?", "url": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit" },
+    { "name": "State (Minor Source) Permits", "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits" },
+    { "name": "Case-by-case insignificant activities", "url": "https://www.deq.louisiana.gov/page/casebycase-insignificant-activities" }
+  ],
+  "sources": [
+    { "name": "LDEQ Do I Need an Air Permit?", "url": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit" },
+    { "name": "LDEQ State (Minor Source) Permits", "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits" },
+    { "name": "LDEQ Oil and Gas Minor Source General Permit (2016)", "url": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "partial",
+  "notes": "Specific PSD and nonattainment section numbers and Title V thresholds were not stated on the LDEQ pages reviewed. The LAC 33:III Part III PDF is the copy posted on LDEQ's site; check for later amendments. Chapter 2 and 51 titles are summarized."
+}

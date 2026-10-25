@@ -1,0 +1,153 @@
+{
+  "code": "IN",
+  "name": "Indiana",
+  "slug": "indiana",
+  "epaRegion": 5,
+  "agency": {
+    "name": "Indiana Department of Environmental Management (IDEM)",
+    "division": "Office of Air Quality",
+    "url": "https://www.in.gov/idem/airpermit/",
+    "permitsUrl": "https://www.in.gov/idem/airpermit/who-needs-an-air-permit"
+  },
+  "overview": "IDEM's Office of Air Quality ties permit level to a source's potential to emit (PTE): exemptions below registration levels, registrations, Minor Source Operating Permits (MSOP) for natural minors, FESOPs for synthetic minors, and Part 70 (Title V) permits for major sources. New construction and modifications get the matching level of NSR: minor NSR (construction permits), PSD (326 IAC 2-2), or nonattainment emission offset review (326 IAC 2-3), usually combined with the operating permit.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Exemptions",
+      "description": "Sources below registration thresholds and listed exempt activities do not need a permit.",
+      "citation": "326 IAC 2",
+      "url": "https://www.in.gov/idem/airpermit/information-about/exemptions"
+    },
+    {
+      "type": "registration",
+      "name": "Registration",
+      "description": "For sources with PTE in the registration range; IDEM also offers other alternate approval programs.",
+      "citation": "326 IAC 2",
+      "url": "https://www.in.gov/idem/airpermit/information-about/alternate-approvals",
+      "thresholds": "Per IDEM table (PTE, tpy, min to <max): VOC 10-25 (5-25 if VOC rules require controls); NOx 10-25; CO 25-100; SO2 10-25; PM, PM10, PM2.5 5-25; lead 0.2-5; fluorides, H2S, TRS, reduced sulfur compounds 5-25."
+    },
+    {
+      "type": "state-operating",
+      "name": "Minor Source Operating Permit (MSOP)",
+      "description": "For natural minor sources with PTE between registration and Part 70 thresholds that are not otherwise subject to Part 70.",
+      "citation": "326 IAC 2-6.1",
+      "url": "https://www.in.gov/idem/airpermit/information-about/operating-permits/"
+    },
+    {
+      "type": "state-operating",
+      "name": "Federally Enforceable State Operating Permit (FESOP)",
+      "description": "For sources that would be Part 70 based on PTE but agree to limit PTE below Title V thresholds.",
+      "citation": "326 IAC 2-8",
+      "url": "https://www.in.gov/idem/airpermit/information-about/operating-permits/"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Minor NSR (construction permits)",
+      "description": "For sources not requiring PSD or nonattainment NSR, in attainment and nonattainment areas. New sources: 326 IAC 2-5.1-3. Modifications: 326 IAC 2-7-10.5 (Part 70), 2-6.1-6 (MSOP), 2-8-11.1 (FESOP).",
+      "citation": "326 IAC 2-5.1-3",
+      "url": "https://www.in.gov/idem/airpermit/information-about/new-source-review"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration",
+      "description": "New PSD major sources and major modifications in attainment/unclassifiable areas. BACT, air quality analysis, additional impacts analysis, public participation.",
+      "citation": "326 IAC 2-2",
+      "url": "https://www.in.gov/idem/airpermit/information-about/new-source-review"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR (Emission Offset)",
+      "description": "New emission offset major sources and major modifications in nonattainment areas. LAER, offsets, public participation.",
+      "citation": "326 IAC 2-3",
+      "url": "https://www.in.gov/idem/airpermit/information-about/new-source-review"
+    },
+    {
+      "type": "title-v",
+      "name": "Part 70 Operating Permit (Title V)",
+      "description": "For sources with PTE above Title V major source thresholds or in categories requiring Title V.",
+      "citation": "326 IAC 2-7",
+      "url": "https://www.in.gov/idem/airpermit/information-about/operating-permits/",
+      "thresholds": "Per IDEM table (PTE, tpy): VOC and NOx 100 (attainment/marginal/moderate), 50 serious, 25 severe, 10 extreme; SO2, CO, PM10, PM2.5 100; lead 10; single HAP 10; combined HAPs 25; other regulated pollutants 100."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "IDEM's air permitting pages reviewed list no oil-and-gas-specific air permit. Oil and gas facilities follow the PTE-based registration/MSOP/FESOP/Part 70 framework.",
+    "programs": []
+  },
+  "regulations": [
+    {
+      "citation": "326 IAC 2",
+      "title": "Permit Review Rules",
+      "url": "http://www.in.gov/legislative/iac/T03260/A00020.PDF"
+    },
+    {
+      "citation": "326 IAC 2-2",
+      "title": "Prevention of Significant Deterioration"
+    },
+    {
+      "citation": "326 IAC 2-3",
+      "title": "Emission Offset (nonattainment NSR)"
+    },
+    {
+      "citation": "326 IAC 2-5.1",
+      "title": "Construction of New Sources"
+    },
+    {
+      "citation": "326 IAC 2-6.1",
+      "title": "Minor Source Operating Permit Program"
+    },
+    {
+      "citation": "326 IAC 2-7",
+      "title": "Part 70 Permit Program"
+    },
+    {
+      "citation": "326 IAC 2-8",
+      "title": "Federally Enforceable State Operating Permit Program"
+    }
+  ],
+  "forms": [
+    {
+      "name": "Application process",
+      "url": "https://www.in.gov/idem/airpermit/information-about/application-process"
+    }
+  ],
+  "guidance": [
+    {
+      "name": "Who needs an air permit",
+      "url": "https://www.in.gov/idem/airpermit/who-needs-an-air-permit"
+    },
+    {
+      "name": "Emissions applicability thresholds",
+      "url": "https://www.in.gov/idem/airpermit/information-about/potential-to-emit-and-source-category/emissions-applicability-thresholds"
+    },
+    {
+      "name": "Potential to emit and source category",
+      "url": "https://www.in.gov/idem/airpermit/information-about/potential-to-emit-and-source-category"
+    },
+    {
+      "name": "Operating permits",
+      "url": "https://www.in.gov/idem/airpermit/information-about/operating-permits/"
+    },
+    {
+      "name": "New source review",
+      "url": "https://www.in.gov/idem/airpermit/information-about/new-source-review"
+    }
+  ],
+  "sources": [
+    {
+      "name": "IDEM Operating Permits",
+      "url": "https://www.in.gov/idem/airpermit/information-about/operating-permits/"
+    },
+    {
+      "name": "IDEM Emissions Applicability Thresholds",
+      "url": "https://www.in.gov/idem/airpermit/information-about/potential-to-emit-and-source-category/emissions-applicability-thresholds"
+    },
+    {
+      "name": "IDEM New Source Review",
+      "url": "https://www.in.gov/idem/airpermit/information-about/new-source-review"
+    }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "IDEM says its threshold tables are for reference and applicants should refer to the rules. Rule titles for 326 IAC 2 subdivisions are standard titles; confirm in the rule PDF."
+}

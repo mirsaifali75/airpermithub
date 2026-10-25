@@ -1,0 +1,46 @@
+{
+  "code": "CA", "name": "California", "slug": "california", "epaRegion": 9,
+  "agency": { "name": "California Air Resources Board (CARB) with 35 local air districts", "division": "Air districts issue stationary source permits; CARB provides oversight", "url": "https://ww2.arb.ca.gov/", "permitsUrl": "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions" },
+  "localAgencies": [
+    { "name": "35 local air pollution control / air quality management districts", "jurisdiction": "Each county or multi-county region", "url": "https://ww2.arb.ca.gov/california-map-local-air-district-websites", "notes": "Find the district for a site on CARB's district map. District rules are indexed at https://ww2.arb.ca.gov/current-air-district-rules." },
+    { "name": "South Coast Air Quality Management District (South Coast AQMD)", "jurisdiction": "Orange County and urban portions of Los Angeles, Riverside, and San Bernardino counties", "url": "https://www.aqmd.gov/home/permits/understanding-scaqmd-permits", "notes": "Runs PSD under EPA delegation (excluding GHG), per EPA Region 9." },
+    { "name": "U.S. EPA Region 9", "jurisdiction": "Tribal lands in California", "url": "https://www.epa.gov/caa-permitting/r9-tribal-minor-nsr" }
+  ],
+  "overview": "California's 35 local air districts are the primary agencies that review and issue stationary source air permits. CARB plays an oversight role and generally does not issue preconstruction or operating permits (Cal. Health & Safety Code §§ 39620, 41500). Districts issue an Authority to Construct (ATC) before building or modifying equipment and a Permit to Operate (PTO) once ATC requirements are met; they also run New Source Review and EPA-approved Title V programs. CARB directly regulates oil and gas methane emissions through a statewide regulation enforced with districts.",
+  "permitTypes": [
+    { "type": "minor-nsr", "name": "Authority to Construct (ATC)", "description": "Issued by air districts to let an owner or operator build, modify, or relocate equipment; can allow operation until a Permit to Operate is issued. District New Source Review rules apply, including BACT/LAER and offsets where emissions increases exceed district thresholds.", "citation": "District NSR rules (SIP-approved)", "url": "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions" },
+    { "type": "state-operating", "name": "Permit to Operate (PTO)", "description": "Issued by air districts once ATC requirements are met; subject to renewal and fees.", "citation": "Cal. Health & Safety Code § 42301", "url": "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions" },
+    { "type": "exemption", "name": "District permit exemptions", "description": "Each district maintains its own list of equipment exempt from permits in its rules. Check the district's rulebook.", "url": "https://ww2.arb.ca.gov/current-air-district-rules" },
+    { "type": "psd", "name": "PSD", "description": "Most districts run SIP-approved PSD programs; South Coast AQMD runs PSD under EPA delegation (SIP-approved for GHG only). For four districts (Mendocino, North Coast, Northern Sonoma, Sacramento Metro), EPA retains authority for certain project types such as resource recovery facilities (40 CFR 52.270).", "citation": "District PSD rules; 40 CFR 52.270", "url": "https://www.epa.gov/caa-permitting/r9-delegation-and-psd-sip-approval-status" },
+    { "type": "nnsr", "name": "Nonattainment NSR", "description": "District NSR rules require offsets and LAER for major sources and modifications in nonattainment areas; California has extensive ozone and PM nonattainment areas.", "citation": "District NSR rules (SIP-approved)", "url": "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions" },
+    { "type": "title-v", "name": "Title V Operating Permit", "description": "Issued by districts with EPA-approved Title V programs (most approved in 2003 or 2012). Submitted to EPA for review before issuance (40 CFR 70.8); renewed at least every five years.", "citation": "40 CFR Part 70; district Title V rules", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-california" }
+  ],
+  "oilAndGas": { "summary": "CARB's Oil and Gas Methane Regulation (17 CCR §§ 95665-95677, amended version effective April 1, 2024) sets greenhouse gas standards for crude oil and natural gas facilities, implemented with air districts through memoranda of agreement. District permits (ATC/PTO) and district oil and gas rules also apply.", "programs": [
+    { "type": "other", "name": "Greenhouse Gas Emission Standards for Crude Oil and Natural Gas Facilities", "description": "Covers onshore/offshore production, separation and storage, underground storage, gathering and boosting, processing plants, and transmission compressor stations. Requirements include separator and tank vapor collection, compressor seal/rod packing, pneumatic controllers and pumps, liquids unloading, well casing vents, underground storage monitoring, and LDAR.", "citation": "17 CCR §§ 95665-95677", "url": "http://ww2.arb.ca.gov/sites/default/files/2024-05/2024OilandGasRegulationunofficial.pdf" },
+    { "type": "other", "name": "CARB-district Oil and Gas Regulation MOAs", "description": "Agreements dividing implementation and enforcement of the methane regulation between CARB and districts (e.g., San Joaquin Valley).", "url": "https://ww2.arb.ca.gov/sites/default/files/2020-04/san_joaquin_valley_moa.pdf" }
+  ] },
+  "regulations": [
+    { "citation": "Cal. Health & Safety Code § 42300 et seq.", "title": "District permit systems (ATC/PTO); § 42301 permit requirements" },
+    { "citation": "Cal. Health & Safety Code §§ 39620, 41500", "title": "CARB permitting assistance and oversight authority" },
+    { "citation": "17 CCR §§ 95665-95677", "title": "Oil and Gas Methane Regulation", "url": "http://ww2.arb.ca.gov/sites/default/files/2024-05/2024OilandGasRegulationunofficial.pdf" },
+    { "citation": "Local district rules", "title": "Current Air District Rules (CARB index)", "url": "https://ww2.arb.ca.gov/current-air-district-rules" },
+    { "citation": "40 CFR 52.220 et seq.", "title": "EPA-approved California SIP (district regulations)", "url": "https://epa.gov/air-quality-implementation-plans/epa-approved-south-coast-air-district-regulations-california-sip" }
+  ],
+  "forms": [
+    { "name": "Permit forms are issued by each district; start from CARB's district map", "url": "https://ww2.arb.ca.gov/california-map-local-air-district-websites" }
+  ],
+  "guidance": [
+    { "name": "CARB Stationary Source Permitting: Community Questions", "url": "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions" },
+    { "name": "EPA: Clean Air Act Permitting in California", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-california" },
+    { "name": "EPA Region 9 PSD SIP Approval and Delegation Status", "url": "https://www.epa.gov/caa-permitting/r9-delegation-and-psd-sip-approval-status" },
+    { "name": "EPA Region 9 Title V Program Evaluations (CA)", "url": "https://www.epa.gov/caa-permitting/title-v-program-evaluations-pacific-southwest-region-9#ca" }
+  ],
+  "sources": [
+    { "name": "EPA: Clean Air Act Permitting in California", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-california" },
+    { "name": "EPA Region 9 Delegation and PSD SIP Approval Status", "url": "https://www.epa.gov/caa-permitting/r9-delegation-and-psd-sip-approval-status" },
+    { "name": "CARB Stationary Source Permitting Q&A", "url": "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions" },
+    { "name": "CARB Oil and Gas Methane Regulation (unofficial text)", "url": "http://ww2.arb.ca.gov/sites/default/files/2024-05/2024OilandGasRegulationunofficial.pdf" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "partial",
+  "notes": "California permitting is district-specific; thresholds, exemptions, and forms differ by district and are not listed here. Per-district profiles are a recommended follow-up."
+}

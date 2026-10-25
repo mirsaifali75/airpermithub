@@ -1,0 +1,56 @@
+{
+  "code": "CO", "name": "Colorado", "slug": "colorado", "epaRegion": 8,
+  "agency": { "name": "Colorado Department of Public Health and Environment (CDPHE)", "division": "Air Pollution Control Division (APCD); rules adopted by the Air Quality Control Commission", "url": "https://cdphe.colorado.gov/apcd", "permitsUrl": "https://cdphe.colorado.gov/apcd/apens-air-permits" },
+  "overview": "Colorado uses a two-step system: sources report emissions on an Air Pollutant Emission Notice (APEN) above APEN thresholds, and need a construction permit above facility-wide permit thresholds (Regulation 3, Parts A and B). Lower thresholds apply for VOC and NOx in the Denver Metro/North Front Range ozone nonattainment area. General permits cover common oil and gas equipment, engines, and land development. Major sources need a Title V operating permit (Regulation 3, Part C) and PSD/NNSR review (Regulation 3, Part D). Since June 30, 2026, APENs and construction permit applications must be filed through the online submission tool, and applications require an Environmental Justice Summary.",
+  "permitTypes": [
+    { "type": "exemption", "name": "APEN and permit exemptions", "description": "APEN-exempt sources are listed in Regulation 3, Part A.II.D; permit-exempt sources in Part B.II.D (an APEN may still be required).", "citation": "Regulation 3, Part A.II.D and Part B.II.D", "url": "https://cdphe.colorado.gov/apcd/apen-permitting-exemptions" },
+    { "type": "registration", "name": "Air Pollutant Emission Notice (APEN)", "description": "Used to report emissions, apply for a permit, or modify a permit. Compare uncontrolled actual emissions per calendar year (not counting control equipment) to the APEN threshold. Renew every five years or sooner for significant increases or changes.", "citation": "Regulation 3, Part A", "url": "https://cdphe.colorado.gov/apcd/apens-air-permits", "thresholds": "Per APCD (uncontrolled actual emissions per year), attainment / nonattainment: VOC 2 tons / 1 ton; NOx 2 tons / 1 ton; PM10, PM2.5, TSP, CO, SOx 2 tons; lead 100 lb; HAPs 250 lb." },
+    { "type": "minor-nsr", "name": "Construction Permit", "description": "Required before constructing a new source or modifying an existing stationary source. Thresholds apply to the whole facility (sum of all APEN-required sources). Initial Approval permit, Notice of Startup within 15 days, and self-certification within 180 days.", "citation": "Regulation 3, Part B", "url": "https://cdphe.colorado.gov/apcd/apens-air-permits", "thresholds": "Per APCD (total facility uncontrolled actual emissions), attainment / nonattainment: VOC 5 / 2 tons; NOx 10 / 5 tons; PM10 5 tons; PM2.5 5 tons; TSP 10 tons; CO 10 tons; SOx 10 tons; lead 200 lb." },
+    { "type": "general", "name": "General Permits", "description": "Streamlined permits for qualifying sources: GP01 condensate tank batteries, GP02 natural gas RICE, GP03 land development, GP05 produced water tanks, GP06 diesel engines, GP07 hydrocarbon liquid loadout, GP08 oil and gas storage tanks, GP11 routine gas venting, GP12 oil and gas well production facilities (replaces GP09/GP10).", "citation": "Regulation 3, Part B", "url": "https://cdphe.colorado.gov/apcd/general-air-permits" },
+    { "type": "psd", "name": "PSD / Nonattainment NSR", "description": "Major stationary source review under Regulation 3, Part D (major stationary source defined at Part D, Section II.A.25). The Denver Metro/North Front Range area has been reclassified to severe ozone nonattainment (see PS Memo 22-01).", "citation": "Regulation 3, Part D", "url": "https://cdphe.colorado.gov/aqcc-regulations" },
+    { "type": "title-v", "name": "Title V Operating Permit", "description": "Required for major sources as defined in Regulation 3, Part A, Section I.B.30, plus Acid Rain sources and certain NSPS sources (e.g., landfills under Subparts Cf and XXX). 30-day public comment and 45-day EPA review; renew every five years.", "citation": "Regulation 3, Part C; major source at Part A, I.B.30", "url": "https://cdphe.colorado.gov/apcd/titlev", "quote": "10 tons per year or more of any single hazardous air pollutant; 25 tons per year or more of any combination of hazardous air pollutants; 100 tons per year or more of any pollutant subject to regulation. Denver Metro/North Front Range: 25 tons per year or more of nitrogen oxides (NOx); 25 tons per year or more of volatile organic compounds (VOCs)." }
+  ],
+  "oilAndGas": { "summary": "Colorado has one of the most detailed state oil and gas air programs. Regulation 7 governs oil and gas operations to reduce ozone precursors and methane (storage tank emissions management, LDAR, pneumatic controllers, well liquids unloading, emissions reporting), revised alongside Regulation 22 (greenhouse gases). Oil and gas sources file APCD-200 series APENs, can use oil and gas general permits (GP01, GP02, GP05, GP07, GP08, GP11, GP12), and synthetic minor/major sources need O&M plans. Annual inventory reporting is via ONGAEIR.", "programs": [
+    { "type": "general", "name": "GP12: Oil and Gas Well Production Facilities", "description": "The only facility-wide general permit for constructing and operating new well production facilities; replaces GP09 and GP10.", "url": "https://oitco.hylandcloud.com/cdphermpop/docpop/docpop.aspx?docid=63372084" },
+    { "type": "general", "name": "GP08: Oil and Gas Industry Storage Tanks", "description": "Condensate, crude oil, and produced water storage tanks.", "url": "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=11306945" },
+    { "type": "general", "name": "GP02: Natural Gas Fired RICE (oil and gas operators)", "description": "General permit for natural gas engines.", "url": "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=11306935" },
+    { "type": "general", "name": "GP07: Hydrocarbon Liquid Loadout", "description": "General permit for oil and gas loadout.", "url": "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=11306940" },
+    { "type": "general", "name": "GP11: Routine or Predictable Gas Venting", "description": "General permit for oil and gas venting emissions.", "url": "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=11306947" },
+    { "type": "other", "name": "Regulation 7: Oil and gas emission controls", "description": "Storage Tank Emissions Management (STEM), LDAR including approved instrument monitoring methods, pneumatic controller reporting, well liquids unloading and maintenance, and emissions reporting.", "citation": "Regulation 7", "url": "https://cdphe.colorado.gov/apcd/oil-gas-compliance" },
+    { "type": "registration", "name": "Oil and gas APENs", "description": "APCD-200 series APENs for each reportable emission point.", "url": "https://cdphe.colorado.gov/apcd/oil-gas-apens" },
+    { "type": "other", "name": "Oil and Natural Gas Annual Emission Inventory Reporting (ONGAEIR)", "description": "Annual emissions inventory reporting for oil and gas.", "url": "https://cdphe.colorado.gov/apcd/ongaeir" }
+  ] },
+  "regulations": [
+    { "citation": "AQCC Regulation 3", "title": "Stationary Source Permitting and Air Pollutant Emission Notice Requirements (Parts A-D)", "url": "https://cdphe.colorado.gov/aqcc-regulations" },
+    { "citation": "AQCC Regulation 6", "title": "Standards of Performance for New Stationary Sources", "url": "https://cdphe.colorado.gov/aqcc-regulations" },
+    { "citation": "AQCC Regulation 7", "title": "Control of Ozone via Ozone Precursors and Hydrocarbons via Oil and Gas Emissions", "url": "https://cdphe.colorado.gov/aqcc-regulations" },
+    { "citation": "AQCC Regulation 22", "title": "Climate Change and Greenhouse Gas Reporting/Emission Reductions", "url": "https://cdphe.colorado.gov/aqcc-regulations" }
+  ],
+  "forms": [
+    { "name": "Form APCD-100: Permit Application/Registration Checklist", "url": "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=12452702" },
+    { "name": "Form APCD-101: Company Contact Information", "url": "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=3088616" },
+    { "name": "Form APCD-102: Facility-wide Emissions Inventory", "url": "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=5309717" },
+    { "name": "Index of forms and guidance: oil and gas", "url": "https://cdphe.colorado.gov/apcd/forms-guidance-oil-gas" },
+    { "name": "Index of forms and guidance: non-oil and gas", "url": "https://cdphe.colorado.gov/apcd/guidance-non-oil-and-gas" }
+  ],
+  "guidance": [
+    { "name": "Reporting Your Air Emissions and Applying for Air Permits", "url": "https://oitco.hylandcloud.com/POP/DocPop/DocPop.aspx?docid=3273398" },
+    { "name": "Oil and Gas Emissions Calculation Manual (v3, July 2026)", "url": "https://oitco.hylandcloud.com/POP/DocPop/DocPop.aspx?docid=20745201" },
+    { "name": "Air permitting guidance memos", "url": "https://cdphe.colorado.gov/air-permitting-guidance-memos" },
+    { "name": "Environmental justice in air permitting", "url": "https://cdphe.colorado.gov/apens-and-air-permits/environmental-justice-in-air-permitting" },
+    { "name": "Disproportionately impacted community permitting rule", "url": "https://cdphe.colorado.gov/apcd/disproportionately-impacted-community-permitting-rule" },
+    { "name": "Modeling guidance for permits", "url": "https://cdphe.colorado.gov/apcd/modeling-guidance-permits" },
+    { "name": "PS Memo 22-01: Severe ozone reclassification permitting issues", "url": "https://oitco.hylandcloud.com/CDPHERMPop/docpop/docpop.aspx?clienttype=html&docid=11722930" }
+  ],
+  "ePermitting": { "name": "APCD online submission tool", "url": "https://cdphe.colorado.gov/apcd/electronic-submission" },
+  "fees": { "name": "Emissions and permitting fees", "url": "https://cdphe.colorado.gov/apcd/emissions-and-permitting-fees" },
+  "sources": [
+    { "name": "CDPHE APENs and air permits", "url": "https://cdphe.colorado.gov/apcd/apens-air-permits" },
+    { "name": "CDPHE General air permits", "url": "https://cdphe.colorado.gov/apcd/general-air-permits" },
+    { "name": "CDPHE About Title V", "url": "https://cdphe.colorado.gov/apcd/titlev" },
+    { "name": "CDPHE Oil and gas compliance", "url": "https://cdphe.colorado.gov/apcd/oil-gas-compliance" },
+    { "name": "CDPHE Oil and gas air permits", "url": "https://cdphe.colorado.gov/apcd/oil-and-gas-air-permit" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "CDPHE hosts documents on its official records system (oitco.hylandcloud.com). Regulation titles for 6, 7, and 22 are summarized; confirm exact titles on the AQCC regulations page."
+}

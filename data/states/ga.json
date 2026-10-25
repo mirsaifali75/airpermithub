@@ -1,0 +1,44 @@
+{
+  "code": "GA", "name": "Georgia", "slug": "georgia", "epaRegion": 4,
+  "agency": { "name": "Georgia Environmental Protection Division (EPD)", "division": "Air Protection Branch, Stationary Source Permitting Program", "url": "https://epd.georgia.gov/forms-permits/air-protection-branch-forms-permits/air-permits", "permitsUrl": "https://epd.georgia.gov/apply-air-permit" },
+  "overview": "Georgia EPD requires an air permit before beginning construction or modification that may cause air pollution, unless exempt (Rule 391-3-1-.03(1), (2), (6)). Minor and synthetic minor sources get SIP construction and operating permits; some categories can accept a permit-by-rule (which still requires a SIP permit). Major sources need PSD/112(g) construction permits and Title V (Part 70) permits filed through GEOS. Projects subject to Georgia's VOC or NOx RACT rules must always be permitted with public notice.",
+  "permitTypes": [
+    { "type": "exemption", "name": "SIP permit exemptions", "description": "Equipment-specific exemptions with size/throughput limits (e.g., a boiler greater than 10 mmBtu/hr must be permitted regardless of emissions). Exemptions cannot be used to avoid emission limits or major source thresholds; cumulative unpermitted increases are tracked under Rule 391-3-1-.03(6)(i)3. A No Permit Required (NPR) form can be used for determinations.", "citation": "Ga. Comp. R. & Regs. 391-3-1-.03(6)", "url": "https://epd.georgia.gov/sip-permit-exemptions" },
+    { "type": "pbr", "name": "Permit-by-Rule", "description": "Standardized conditions for fuel-burning equipment (gas/LPG/distillate or residual oil), on-site power generation, concrete products, asphalt plants, cotton gins, coating and gluing, printing, non-reactive mixing, fiberglass molding, and nut shelling. A SIP construction/operating permit is still required.", "citation": "Ga. Comp. R. & Regs. 391-3-1-.03(11)", "url": "https://epd.georgia.gov/permit-rule" },
+    { "type": "general", "name": "Generic Air Permits", "description": "EPD's generic permits page states the Air Protection Branch currently has no issued generic permits (the SIP permitting page separately mentions approved generic permits for concrete batch and hot mix asphalt plants).", "url": "https://epd.georgia.gov/generic-air-permits" },
+    { "type": "minor-nsr", "name": "SIP Construction and Operating Permit", "description": "Initial permits and modifications for minor (B) and synthetic minor sources. EPD timeframe goal for non-PSD construction permits is 120 days or less.", "citation": "Ga. Comp. R. & Regs. 391-3-1-.03(1), (2)", "url": "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/state-implementation-plan-sip" },
+    { "type": "state-operating", "name": "Synthetic Minor Permit", "description": "Federally enforceable limits restricting potential emissions below major source thresholds so the facility can operate without a Title V permit.", "url": "https://epd.georgia.gov/synthetic-minor-permits" },
+    { "type": "psd", "name": "PSD / 112(g) Construction Permit", "description": "For major sources and major modifications; EPD timeframe goal is 6 months or more.", "url": "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/prevention-significant" },
+    { "type": "title-v", "name": "Title V (Part 70) Permit", "description": "Filed electronically through GEOS; for a new major source the application is due within one year of beginning operation as a major source. A SIP major source transitional permit applies to facilities that cannot accept synthetic minor limits.", "url": "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/title-v-permitting" }
+  ],
+  "oilAndGas": { "summary": "Georgia has no significant oil and gas production. EPD's permitting pages list no oil-and-gas-specific air program; pipeline compressor stations follow SIP or Title V permitting.", "programs": [] },
+  "regulations": [
+    { "citation": "Ga. Comp. R. & Regs. Chapter 391-3-1", "title": "Rules for Air Quality Control", "url": "https://epd.georgia.gov/document/document/rules-air-quality-control-0/download" },
+    { "citation": "391-3-1-.02(2)(tt), (yy)", "title": "VOC RACT and NOx RACT (permit always required)" },
+    { "citation": "391-3-1-.03", "title": "Permits (construction, operating, exemptions, permit-by-rule)" }
+  ],
+  "forms": [
+    { "name": "Apply for an Air Permit", "url": "https://epd.georgia.gov/apply-air-permit" },
+    { "name": "SIP Construction & Operating Permit Application", "url": "https://epd.georgia.gov/forms-permits/air-protection-branch-forms-permits/air-permits/apply-air-permit/apply-sip" },
+    { "name": "SIP No Permit Required (NPR) form", "url": "https://epd.georgia.gov/documents/ssppsip-no-permit-required-form" },
+    { "name": "Permit-by-Rule Application (PDF)", "url": "https://epd.georgia.gov/document/document/pdf-document/download" },
+    { "name": "Comprehensive Title V application instructions", "url": "https://epd.georgia.gov/document/document/comprehensive-title-v-application-instructions/download" }
+  ],
+  "guidance": [
+    { "name": "Permitting Program FAQ", "url": "https://epd.georgia.gov/air-protection-branch/air-branch-programs/permitting-program/permitting-program-frequently-asked" },
+    { "name": "5 steps to determine whether your facility needs an air permit", "url": "https://epd.georgia.gov/document/pdf/5-steps-determine-whether-your-facility-needs-air-permit/download" },
+    { "name": "Title V Insignificant Activities List", "url": "https://epd.georgia.gov/insignificant-activities-list" },
+    { "name": "Title V Trivial List", "url": "https://epd.georgia.gov/trivial-list" },
+    { "name": "Greenhouse Gas Permitting", "url": "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/greenhouse-gas-permitting" }
+  ],
+  "ePermitting": { "name": "Georgia Environmental Online System (GEOS)", "url": "https://geos.epd.georgia.gov/GA/GEOS/Public" },
+  "fees": { "name": "Air Permit Fee Manual (2025)", "url": "https://epd.georgia.gov/document/document/air-permit-fee-manual2025/download" },
+  "sources": [
+    { "name": "GA EPD Permitting Program FAQ", "url": "https://epd.georgia.gov/air-protection-branch/air-branch-programs/permitting-program/permitting-program-frequently-asked" },
+    { "name": "GA EPD SIP Permitting", "url": "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/state-implementation-plan-sip" },
+    { "name": "GA EPD Title V Permitting", "url": "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/title-v-permitting" },
+    { "name": "GA EPD Permit-by-Rule", "url": "https://epd.georgia.gov/permit-rule" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "EPD pages conflict on whether generic permits are currently issued; both statements are reported. Major source thresholds are not stated on the EPD pages reviewed."
+}

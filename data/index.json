@@ -1,0 +1,194 @@
+{
+  "states": [
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "slug": "alaska",
+      "agency": "Alaska Department of Environmental Conservation (DEC)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ak.json"
+    },
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "slug": "alabama",
+      "agency": "Alabama Department of Environmental Management (ADEM)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/al.json"
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "slug": "arkansas",
+      "agency": "Arkansas Department of Energy and Environment, Division of Environmental Quality (DEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ar.json"
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "slug": "arizona",
+      "agency": "Arizona Department of Environmental Quality (ADEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/az.json"
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "slug": "california",
+      "agency": "California Air Resources Board (CARB) with 35 local air districts",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ca.json"
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "slug": "colorado",
+      "agency": "Colorado Department of Public Health and Environment (CDPHE)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/co.json"
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "slug": "connecticut",
+      "agency": "Connecticut Department of Energy and Environmental Protection (DEEP)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ct.json"
+    },
+    {
+      "code": "DC",
+      "name": "District of Columbia",
+      "slug": "district-of-columbia",
+      "agency": "DC Department of Energy and Environment (DOEE)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/dc.json"
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "slug": "delaware",
+      "agency": "Delaware Department of Natural Resources and Environmental Control (DNREC)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/de.json"
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "slug": "florida",
+      "agency": "Florida Department of Environmental Protection (DEP)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/fl.json"
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "slug": "georgia",
+      "agency": "Georgia Environmental Protection Division (EPD)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ga.json"
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "slug": "hawaii",
+      "agency": "Hawaii State Department of Health (DOH)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/hi.json"
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "slug": "iowa",
+      "agency": "Iowa Department of Natural Resources (DNR)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ia.json"
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "slug": "idaho",
+      "agency": "Idaho Department of Environmental Quality (DEQ)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/id.json"
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "slug": "illinois",
+      "agency": "Illinois Environmental Protection Agency (Illinois EPA)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/il.json"
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "slug": "indiana",
+      "agency": "Indiana Department of Environmental Management (IDEM)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/in.json"
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "slug": "kansas",
+      "agency": "Kansas Department of Health and Environment (KDHE)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ks.json"
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "slug": "kentucky",
+      "agency": "Kentucky Energy and Environment Cabinet",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ky.json"
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "slug": "louisiana",
+      "agency": "Louisiana Department of Environmental Quality (LDEQ)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/la.json"
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "slug": "new-mexico",
+      "agency": "New Mexico Environment Department (NMED)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/nm.json"
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "slug": "texas",
+      "agency": "Texas Commission on Environmental Quality (TCEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/tx.json"
+    }
+  ],
+  "count": 21
+}

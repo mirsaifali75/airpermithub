@@ -1,0 +1,44 @@
+{
+  "code": "IA", "name": "Iowa", "slug": "iowa", "epaRegion": 7,
+  "agency": { "name": "Iowa Department of Natural Resources (DNR)", "division": "Air Quality Bureau (Construction Permits and Operating Permits sections)", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-construction-permits", "permitsUrl": "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-construction-permits" },
+  "localAgencies": [
+    { "name": "Linn County Health Department, Air Quality Division", "jurisdiction": "Linn County", "url": "https://www.linncountyiowa.gov/1429/Air-Quality", "notes": "DNR-delegated local program; handles pre-construction permitting in Linn County." },
+    { "name": "Polk County Public Works, Air Quality Division", "jurisdiction": "Polk County", "url": "https://www.polkcountyiowa.gov/public-works/air-quality/", "notes": "DNR-delegated local program; handles pre-construction permitting in Polk County." }
+  ],
+  "overview": "Iowa requires an air construction permit before constructing or modifying equipment or control equipment, except where an exemption applies (including the small unit exemption in 567 IAC 22.1(2)\"w\"). Complex reviews cover PSD, major source nonattainment permitting, SIP maintenance areas, avoidance limits, and greenfield facilities. Iowa's Operating Permit Program issues Title V permits and Small Source operating permits. Since January 1, 2023, construction permit applications are accepted only through Iowa EASY Air.",
+  "permitTypes": [
+    { "type": "exemption", "name": "Small Unit Exemption", "description": "For units emitting below small unit thresholds on a 12-month rolling basis; not available for units venting through a permitted point, emitting non-regulated pollutants, or requiring NESHAP review. An Exemption Justification Document must be kept on site; 'substantial' small units need advance notice to DNR, and cumulative notice thresholds apply.", "citation": "567 IAC 22.1(2)\"w\"", "url": "https://iowadnr.gov/media/2133/download?inline=", "thresholds": "Per DNR fact sheet (per year): SO2, NOx, VOC, CO 5 tons each; PM 5 tons; PM10 2.5 tons; PM2.5 0.52 tons; HAPs 5 tons; lead 2 lb (40 lb for equipment begun on or before Oct. 23, 2013)." },
+    { "type": "exemption", "name": "Other construction permit exemptions", "description": "Includes manual non-production tools and other listed exemptions.", "citation": "567 IAC 22.1(2)", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-construction-permits" },
+    { "type": "minor-nsr", "name": "Air Construction Permit", "description": "Required before constructing or modifying equipment or control equipment. DNR offers category guidance for aggregate processing, asphalt plants, concrete batch, engines, gasoline bulk plants, grain elevators, prepared feeds, spray booths, and CHP.", "citation": "567 IAC Chapter 22", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-construction-permits" },
+    { "type": "psd", "name": "PSD (complex review)", "description": "Major source review in attainment areas, handled as a complex construction permit review.", "citation": "567 IAC Chapters 21-33", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-construction-permits" },
+    { "type": "nnsr", "name": "Major Source Nonattainment Area permitting (complex review)", "description": "Major source review in nonattainment areas and SIP maintenance areas.", "citation": "567 IAC Chapters 21-33", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-construction-permits" },
+    { "type": "state-operating", "name": "Small Source Operating Permit", "description": "Operating permit type for smaller sources in Iowa's Operating Permit Program.", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits/small-sources" },
+    { "type": "title-v", "name": "Title V Operating Permit", "description": "Single state-issued document consolidating state and federal air requirements for larger facilities.", "citation": "567 IAC Chapters 21-33", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits" }
+  ],
+  "oilAndGas": { "summary": "Iowa has no oil and gas production. DNR's permitting pages list no oil-and-gas-specific air program; engine guidance applies to compressor stations.", "programs": [] },
+  "regulations": [
+    { "citation": "567 IAC Chapters 21-33", "title": "Iowa Administrative Rules for Air Quality", "url": "http://www.legis.iowa.gov/law/administrativeRules/agencies" },
+    { "citation": "567 IAC 22.1(2)", "title": "Construction permit exemptions" },
+    { "citation": "567 IAC 24.103", "title": "Title V insignificant activities" }
+  ],
+  "forms": [
+    { "name": "Iowa EASY Air (construction permit applications)", "url": "https://programs.iowadnr.gov/easyair/Public/GovEnt/Shared/Pages/Main/Login.aspx" },
+    { "name": "Title V Forms & Instructions", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits/title-v-forms-instructions" }
+  ],
+  "guidance": [
+    { "name": "Construction Permitting Summary", "url": "https://www.iowadnr.gov/media/2122/download?inline" },
+    { "name": "Construction Permitting Fact Sheet", "url": "https://www.iowadnr.gov/media/2105/download?inline" },
+    { "name": "Small Unit Exemption fact sheet", "url": "https://iowadnr.gov/media/2133/download?inline=" },
+    { "name": "Operating Permits Technical Guidance", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits/technical-guidance" },
+    { "name": "Construction permit search", "url": "https://idnraqrr.iowadnr.gov/ConPermitSearch" }
+  ],
+  "ePermitting": { "name": "Iowa EASY Air", "url": "https://programs.iowadnr.gov/easyair/Public/GovEnt/Shared/Pages/Main/Login.aspx" },
+  "fees": { "name": "Air Quality Fees & Schedule", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-fees-schedule" },
+  "sources": [
+    { "name": "Iowa DNR Air Quality Construction Permits", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-construction-permits" },
+    { "name": "Iowa DNR Operating Permits", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits" },
+    { "name": "Iowa DNR Local Air Quality Programs", "url": "https://www.iowadnr.gov/environmental-protection/air-quality/local-air-quality-programs" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified",
+  "notes": "Title V and Small Source operating permit thresholds are in DNR's Operating Permits FAQ, not reviewed here. Permitting helpline: 1-877-AIR-IOWA."
+}

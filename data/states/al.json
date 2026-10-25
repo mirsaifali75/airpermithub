@@ -1,0 +1,48 @@
+{
+  "code": "AL", "name": "Alabama", "slug": "alabama", "epaRegion": 4,
+  "agency": { "name": "Alabama Department of Environmental Management (ADEM)", "division": "Air Division", "url": "https://adem.alabama.gov/air", "permitsUrl": "https://adem.alabama.gov/air/air-permitting" },
+  "localAgencies": [
+    { "name": "Jefferson County Department of Health, Air & Radiation Protection", "jurisdiction": "Jefferson County (Birmingham area)", "url": "https://www.jcdh.org/SitePages/Programs-Services/EnvironmentalHealth/Air-RadiationProtectionDivision/RegAirFac.aspx", "notes": "Issues construction, operating, and Title V permits in Jefferson County per EPA's Alabama permitting page." },
+    { "name": "City of Huntsville Natural Resources & Environmental Management", "jurisdiction": "City of Huntsville", "url": "https://www.huntsvilleal.gov/environment/air-quality/air-quality-permits/" }
+  ],
+  "overview": "ADEM's Air Division issues minor source construction permits, PSD and nonattainment NSR permits, Synthetic Minor Operating Permits (SMOP), and Title V Major Source Operating Permits (MSOP) statewide, except where Jefferson County and the City of Huntsville run local permit programs. ADEM has not established a list of exempt source types or sizes; the need for a permit is decided case by case.",
+  "permitTypes": [
+    { "type": "exemption", "name": "No general exemption list", "description": "ADEM states it has not established a list of source types or sizes that are exempt from permitting; permit necessity is determined case by case. Title V trivial and insignificant activity lists apply only at major sources.", "url": "https://adem.alabama.gov/air/air-permitting" },
+    { "type": "minor-nsr", "name": "Air Permit (Minor Source)", "description": "Construction/operating permit for minor sources. Does not expire.", "citation": "ADEM Admin. Code r. 335-3-14-.01", "url": "https://adem.alabama.gov/air/air-permitting" },
+    { "type": "state-operating", "name": "Synthetic Minor Operating Permit (SMOP)", "description": "Operating permit with enforceable limits that keep a source below major source thresholds. Does not expire.", "citation": "ADEM Admin. Code r. 335-3-15-.03", "url": "https://adem.alabama.gov/air/air-permitting" },
+    { "type": "psd", "name": "Air Permit (NSR/PSD)", "description": "For projects that are major sources by themselves or exceed significance levels at existing major sources in attainment areas. Requires BACT and ambient air quality modeling.", "citation": "ADEM Admin. Code r. 335-3-14-.04", "url": "https://adem.alabama.gov/air/air-permitting" },
+    { "type": "nnsr", "name": "Nonattainment NSR", "description": "For major projects in nonattainment areas. Requires LAER and emission offsets.", "citation": "ADEM Admin. Code ch. 335-3-14", "url": "https://adem.alabama.gov/air/air-permitting" },
+    { "type": "title-v", "name": "Major Source Operating Permit (MSOP)", "description": "Title V permit consolidating applicable requirements for major sources into one document. Five-year renewable term; ADEM states there are no permit fees for MSOP issuance.", "citation": "ADEM Admin. Code r. 335-3-16-.03", "url": "https://adem.alabama.gov/air/air-permitting" },
+    { "type": "other", "name": "Acid Rain Permit", "description": "Five-year term.", "citation": "ADEM Admin. Code ch. 335-3-18", "url": "https://adem.alabama.gov/air/air-permitting" },
+    { "type": "other", "name": "Gasoline Transporter Air Permit", "description": "Permit does not expire, but the Air Sticker must be renewed annually.", "citation": "ADEM Admin. Code r. 335-3-6-.20", "url": "https://adem.alabama.gov/air/air-permitting" }
+  ],
+  "oilAndGas": { "summary": "ADEM's air permitting page lists no oil-and-gas-specific air permit. Oil and gas facilities use the standard minor source, SMOP, PSD, or MSOP paths; federal NSPS (40 CFR 60 Subparts OOOO/OOOOa/OOOOb) and NESHAP (40 CFR 63 Subpart HH) apply where applicable.", "programs": [] },
+  "regulations": [
+    { "citation": "ADEM Admin. Code Division 335-3", "title": "Air Pollution Control Program (full text)", "url": "https://adem.alabama.gov/sites/default/files/2025-10/Division3.pdf" },
+    { "citation": "335-3-14", "title": "Air Permits (minor, PSD, nonattainment)" },
+    { "citation": "335-3-15", "title": "Synthetic Minor Operating Permits" },
+    { "citation": "335-3-16", "title": "Major Source Operating Permits (Title V)" },
+    { "citation": "335-3-18", "title": "Acid Rain Program" },
+    { "citation": "335-1, Schedule A", "title": "Permit fees" }
+  ],
+  "forms": [
+    { "name": "Air forms index", "url": "https://adem.alabama.gov/air/forms" },
+    { "name": "ADEM Form 103: Facility Identification", "url": "https://adem.alabama.gov/sites/default/files/legacyfiles/DeptForms/Form103.pdf" },
+    { "name": "ADEM Form 105: Manufacturing or Process", "url": "https://adem.alabama.gov/sites/default/files/2025-04/Form105.pdf" },
+    { "name": "ADEM Form 107: Internal Combustion Engine", "url": "https://adem.alabama.gov/sites/default/files/legacyfiles/DeptForms/Form107.pdf" },
+    { "name": "ADEM Form 108: VOC Storage Tanks", "url": "https://adem.alabama.gov/sites/default/files/legacyfiles/DeptForms/Form108.pdf" },
+    { "name": "ADEM Form 110: Air Pollution Control Device", "url": "https://adem.alabama.gov/sites/default/files/legacyfiles/DeptForms/Form110.pdf" },
+    { "name": "Title V Annual Compliance Certification", "url": "https://adem.alabama.gov/sites/default/files/legacyfiles/programs/air/airforms/AnnualComplianceCertificationForm.pdf" }
+  ],
+  "guidance": [
+    { "name": "Title V Permit Application Requirements", "url": "https://adem.alabama.gov/sites/default/files/2025-04/airappreq.pdf" },
+    { "name": "Title V Trivial and Insignificant Activities Lists", "url": "https://adem.alabama.gov/sites/default/files/2025-04/titlevlists.pdf" },
+    { "name": "EPA: Clean Air Act Permitting in Alabama", "url": "https://epa.gov/caa-permitting/clean-air-act-permitting-alabama" }
+  ],
+  "ePermitting": { "name": "ADEM eFile", "url": "https://app.adem.alabama.gov/eFile/" },
+  "sources": [
+    { "name": "ADEM Air Permitting", "url": "https://adem.alabama.gov/air/air-permitting" },
+    { "name": "EPA: Clean Air Act Permitting in Alabama", "url": "https://epa.gov/caa-permitting/clean-air-act-permitting-alabama" }
+  ],
+  "lastReviewed": "2026-10-25", "verification": "verified"
+}
