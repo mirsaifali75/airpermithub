@@ -1,0 +1,112 @@
+{
+  "code": "WY",
+  "name": "Wyoming",
+  "slug": "wyoming",
+  "epaRegion": 8,
+  "agency": {
+    "name": "Wyoming Department of Environmental Quality (DEQ)",
+    "division": "Air Quality Division (AQD)",
+    "url": "https://deq.wyoming.gov/aqd/",
+    "permitsUrl": "https://deq.wyoming.gov/aqd/new-source-review/"
+  },
+  "overview": "Wyoming DEQ's Air Quality Division requires a construction permit before construction or modification of a source begins (WAQSR Chapter 6, Section 2(a)(i)). DEQ says Chapter 6 has no de minimis emission levels; instead, Section 2(k) lists specific activities that do not need approval. Oil and gas production sites that use Best Available Control Technology (BACT) may begin construction without prior authorization under W.S. 35-11-801(e), and DEQ's Oil and Gas Production Facilities Permitting Guidance defines that BACT. Major sources need PSD (Chapter 6, Section 4), nonattainment NSR (Chapter 6, Section 13; Upper Green River Basin ozone area), and a Title V operating permit (Chapter 6, Section 3). Applications are submitted through the IMPACT portal, and drafts are posted on OpenAir. EPA Region 8 is the permitting authority in Indian Country.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Chapter 6, Section 2(k) activities not requiring approval",
+      "description": "No approval is needed for these activities: air pollutant detectors, recorders, combustion controllers or shutoffs; air conditioning or ventilation not designed to remove pollutants; smaller fuel-burning equipment within specified heat input and fuel limits; mobile internal combustion engines; laboratory equipment used only for analyses; installing air pollution control equipment; gasoline storage tanks at retail establishments; and other minor sources the Administrator finds insignificant (a waiver under 2(k)(viii)). Major emitting facilities under Section 4 must still comply with Sections 2 and 4. DEQ states there are no de minimis emission levels.",
+      "citation": "WAQSR Ch. 6, Sec. 2(k)",
+      "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf",
+      "quote": "The permitting rules contained in Chapter 6 of the WAQSR do not include de minimis emission levels"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Construction / Modification Permit (NSR)",
+      "description": "A construction or modification permit is required before work begins on a new or modified source. After DEQ proposes a decision, it advertises it for a 30-day public comment period, and drafts are posted on OpenAir. Fees are a minimum $1,000 initial fee per application plus a minimum of $105 per hour, invoiced after filing. Applications go through IMPACT or are mailed (two paper copies) to the NSR Permitting Program in Cheyenne.",
+      "citation": "WAQSR Ch. 6, Sec. 2(a)(i)",
+      "url": "https://deq.wyoming.gov/aqd/new-source-review/"
+    },
+    {
+      "type": "state-operating",
+      "name": "Minor Source Operating Permit",
+      "description": "Under Section 2(a)(iii), the applicant submits an as-built application. Section 2(e) requires the applicant to show compliance and that construction matched the permit before DEQ grants an operating permit.",
+      "citation": "WAQSR Ch. 6, Sec. 2(a)(iii), 2(e)",
+      "url": "https://deq.wyoming.gov/aqd/new-source-review/"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "PSD applies to major emitting facilities and major modifications. The pages reviewed do not restate numeric thresholds; see Chapter 6, Section 4.",
+      "citation": "WAQSR Ch. 6, Sec. 4",
+      "url": "https://deq.wyoming.gov/aqd/new-source-review/"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment New Source Review",
+      "description": "Applies to new major sources and major modifications of NOx and VOC (ozone precursors) in the Upper Green River Basin ozone nonattainment area, with LAER instead of BACT. The minor NSR exemptions in Section 2(k) do not apply to NNSR. Section 13 does not apply in the Sheridan PM10 area, where a Section 2(c)(ii)(B) construction ban continues. EPA approved Section 13 effective July 5, 2016.",
+      "citation": "WAQSR Ch. 6, Sec. 13",
+      "url": "https://www.federalregister.gov/documents/2016/06/02/2016-12725/approval-and-promulgation-of-air-quality-implementation-plans-wyoming-revisions-to-wyoming-air"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Wyoming DEQ AQD issues Title V permits outside Indian Country (per EPA). DEQ's Title V page would not load during review, so thresholds and timelines are not restated here.",
+      "citation": "WAQSR Ch. 6, Sec. 3",
+      "url": "https://deq.wyoming.gov/aqd/title-v-permitting/"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Wyoming law (W.S. 35-11-801(e)) lets oil and gas production sites that meet BACT begin construction without prior authorization. Since 1997, DEQ's Oil and Gas Production Facilities Permitting Guidance has defined BACT for these sites. The May 2016 (8th) update merged the former Statewide and Concentrated Development Areas into one area. In that area, single-well tanks and dehydration units need controls when VOC and HAP emissions are 6 tpy or more, and truck loading statewide needs controls at 6 tpy or more. The Upper Green River Basin (UGRB) was designated an ozone nonattainment area in 2012 under the 2008 standard; EPA found it attained in 2016, and DEQ began redesignation in December 2024. In 2024 DEQ adopted an emergency rule to incorporate EPA's NSPS OOOOb methane rule.",
+    "programs": [
+      {
+        "type": "other",
+        "name": "Oil and Gas Production Facilities Permitting Guidance (BACT)",
+        "description": "Defines presumptive BACT and permitting procedures for oil and gas production facilities, including tanks, dehydration units, truck loading and pumping unit engines. Applications are submitted through IMPACT.",
+        "citation": "W.S. 35-11-801(e); WAQSR Ch. 6, Sec. 2",
+        "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
+        "quote": "6 tons per year or more"
+      },
+      {
+        "type": "other",
+        "name": "UGRB ozone requirements and redesignation",
+        "description": "DEQ adopted enforceable reductions for the Upper Green River Basin and is preparing a redesignation request with a 20-year maintenance plan.",
+        "url": "https://deq.wyoming.gov/2024/12/the-wyoming-department-of-environmental-quality-begins-redesignation-process/"
+      },
+      {
+        "type": "other",
+        "name": "NSPS OOOOb emergency rule (2024)",
+        "description": "Emergency rule incorporating 40 CFR Part 60 subpart OOOOb (effective federally May 7, 2024) so DEQ keeps primacy, with a regular rulemaking to follow.",
+        "url": "https://deq.wyoming.gov/2024/05/the-wyoming-department-of-environmental-quality-air-quality-division-issues-oil-and-gas-emergency-rulemaking/"
+      }
+    ]
+  },
+  "regulations": [
+    { "citation": "WAQSR Ch. 6, Sec. 2", "title": "Permit requirements for construction, modification, and operation", "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf" },
+    { "citation": "WAQSR Ch. 6, Sec. 3", "title": "Operating permits (Title V)" },
+    { "citation": "WAQSR Ch. 6, Sec. 4", "title": "Prevention of significant deterioration", "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf" },
+    { "citation": "WAQSR Ch. 6, Sec. 13", "title": "Nonattainment new source review permit requirements", "url": "https://www.govinfo.gov/content/pkg/FR-2016-06-02/pdf/2016-12725.pdf" },
+    { "citation": "WAQSR Ch. 6, Sec. 14", "title": "Incorporation by reference" },
+    { "citation": "WAQSR Ch. 8, Sec. 6", "title": "Upper Green River Basin permit by rule for existing sources" },
+    { "citation": "W.S. 35-11-801(e)", "title": "Oil and gas production facility construction authority (BACT)" }
+  ],
+  "forms": [
+    { "name": "IMPACT and OpenAir (electronic applications and public documents)", "url": "https://deq.wyoming.gov/aqd/impact-and-open-air/" },
+    { "name": "OpenAir public permit documents", "url": "https://openair.wyo.gov" }
+  ],
+  "guidance": [
+    { "name": "New Source Review program", "url": "https://deq.wyoming.gov/aqd/new-source-review/" },
+    { "name": "Oil and Gas Production Facilities Permitting Guidance (2016 update announcement)", "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/" },
+    { "name": "EPA Wyoming Title V program evaluation", "url": "https://www.epa.gov/caa-permitting/wyoming-title-v-program-evaluation" }
+  ],
+  "ePermitting": { "name": "IMPACT", "url": "https://deq.wyoming.gov/aqd/impact-and-open-air/" },
+  "sources": [
+    { "name": "Wyoming DEQ New Source Review", "url": "https://deq.wyoming.gov/aqd/new-source-review/" },
+    { "name": "EPA CAA Permitting in Wyoming", "url": "https://www.epa.gov/caa-permitting/caa-permitting-wyoming" },
+    { "name": "EPA Wyoming SIP Table C (Chapter 6 text)", "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf" },
+    { "name": "Federal Register 2016-12725 (Ch. 6 Sec. 13 approval)", "url": "https://www.federalregister.gov/documents/2016/06/02/2016-12725/approval-and-promulgation-of-air-quality-implementation-plans-wyoming-revisions-to-wyoming-air" },
+    { "name": "Wyoming DEQ Oil and Gas Guidance release (May 2016)", "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "partial",
+  "notes": "DEQ's Title V and Ozone pages need JavaScript and could not be read, so Title V thresholds are not stated. The Oil and Gas Guidance document itself was not retrieved; the 6 tpy figures come from DEQ's 2016 release, and a newer revision may exist. The Chapter 8, Section 6 title comes from the published Wyoming code and was not seen on a .gov page. PSD numeric thresholds are not restated. NSR Program: (307) 777-7045; IMPACT help: deq-air-impact@wyo.gov, 307-777-7391."
+}

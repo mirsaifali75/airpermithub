@@ -1,0 +1,101 @@
+{
+  "code": "SD",
+  "name": "South Dakota",
+  "slug": "south-dakota",
+  "epaRegion": 8,
+  "agency": {
+    "name": "South Dakota Department of Agriculture and Natural Resources (DANR)",
+    "division": "Air Quality Program",
+    "url": "https://danr.sd.gov/Environment/AirQuality/default.aspx",
+    "permitsUrl": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx"
+  },
+  "overview": "South Dakota DANR's Air Quality Program issues minor source operating permits (ARSD 74:36:04), Title V (Part 70) operating permits, general permits for portable and stationary sources (asphalt plants, rock crushers, concrete plants, grain elevators), and PSD pre-construction permits (ARSD 74:36:09, adopting 40 CFR 52.21). South Dakota is in attainment, so nonattainment NSR (ARSD 74:36:10) does not currently apply. The Rapid City area has PM10 Natural Events Action Plan requirements, including general permits for construction and continuous activities on state property. EPA Region 8 is the permitting authority in Indian Country.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Insignificant activities",
+      "description": "DANR provides an Insignificant Activities data sheet to be submitted with applications. DANR's permitting page does not list facility-level exemptions.",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Insignificant%20Activities%2021.doc"
+    },
+    {
+      "type": "general",
+      "name": "General Permits",
+      "description": "For portable or stationary Part 70, synthetic minor, or minor sources: asphalt plants, rock crushers, concrete batch plants, grain elevators, and (Rapid City area) construction and continuous activities on state property. Requires an application and a Notice of Intent to operate. Flat annual fees apply to asphalt plant and rock crusher general permits.",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Applications.aspx"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Construction Permit",
+      "description": "DANR provides a general construction permit application form. DANR's permitting page describes pre-construction permits mainly in the PSD context.",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Construction%2021.docx"
+    },
+    {
+      "type": "state-operating",
+      "name": "Minor Source Operating Permit",
+      "description": "For sources that are not Part 70 sources and have uncontrolled potential emissions below 100 tons per year of a regulated pollutant.",
+      "citation": "ARSD 74:36:04",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD) pre-construction permit",
+      "description": "New or modified sources in attainment areas meeting PSD applicability must obtain a pre-construction permit. Adopts 40 CFR 52.21 by reference.",
+      "citation": "ARSD 74:36:09",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf"
+    },
+    {
+      "type": "nnsr",
+      "name": "New Source Review (nonattainment)",
+      "description": "Applies only in areas designated nonattainment; DANR states South Dakota is in attainment, so it does not currently apply.",
+      "citation": "ARSD 74:36:10",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V (Part 70) Operating Permit",
+      "description": "For major sources, and sources that fall under NSPS or MACT applicability requirements. Fees under ARSD 74:37 (administrative fee by emission tier plus a per-ton emission fee).",
+      "citation": "ARSD 74:36:05",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx",
+      "thresholds": "Potential to emit greater than 100 tons per year of a regulated pollutant, more than 10 tons per year of one HAP, or more than 25 tons per year of combined HAPs (DANR quotes 'greater than 100 tons per year')."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "DANR's air permitting and application pages list no oil and gas specific air permits. Oil and gas sources follow the minor source and Title V thresholds and applicable federal NSPS/NESHAP (adopted by reference in ARSD 74:36:07 and 74:36:08). Oil and gas wells on tribal lands fall under EPA Region 8.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "ARSD Article 74:36", "title": "Air Pollution Control Program", "url": "https://sdlegislature.gov/Rules/Administrative/28180" },
+    { "citation": "ARSD 74:36:04", "title": "Operating Permits for Minor Sources" },
+    { "citation": "ARSD 74:36:05", "title": "Operating Permits for Part 70 Sources" },
+    { "citation": "ARSD 74:36:07", "title": "New Source Performance Standards (adopts 40 CFR 60)" },
+    { "citation": "ARSD 74:36:08", "title": "MACT/NESHAP (adopts 40 CFR 63)" },
+    { "citation": "ARSD 74:36:09", "title": "Prevention of Significant Deterioration (adopts 40 CFR 52.21)" },
+    { "citation": "ARSD 74:36:10", "title": "New Source Review (nonattainment)" },
+    { "citation": "ARSD 74:37", "title": "Air Emission Fees", "url": "https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37" }
+  ],
+  "forms": [
+    { "name": "Air Quality Permit Applications", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Applications.aspx" },
+    { "name": "Minor Source General Application", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Minor%2021.docx" },
+    { "name": "Title V General Application", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/TitleV%2021.docx" },
+    { "name": "Construction Application", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Construction%2021.docx" },
+    { "name": "Generators and Fire Pumps data sheet", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/EGenerator%2021.doc" },
+    { "name": "NOI: Rock Crushers", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/NOIRock%20Crushers%2021.doc" },
+    { "name": "NOI: Concrete Batch Plants", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/NOIConcretePlants%2026.docx" }
+  ],
+  "guidance": [
+    { "name": "Air Quality Permitting", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx" },
+    { "name": "Concrete Plant General Permit Statement of Basis", "url": "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf" },
+    { "name": "Regulated Facilities search", "url": "https://apps.sd.gov/NR34AirQuality/public.aspx" },
+    { "name": "Air Consultants List", "url": "https://danr.sd.gov/Environment/AirQuality/Docs/Consultants.pdf" }
+  ],
+  "fees": { "name": "Air Emission Fees (ARSD 74:37)", "url": "https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37" },
+  "sources": [
+    { "name": "SD DANR Air Quality Permitting", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx" },
+    { "name": "SD DANR Air Quality Applications", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Applications.aspx" },
+    { "name": "SD DANR Concrete Plant GP Statement of Basis", "url": "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf" },
+    { "name": "EPA CAA Permitting in South Dakota", "url": "https://www.epa.gov/caa-permitting/caa-permitting-south-dakota" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "partial",
+  "notes": "ARSD 74:36:05 as the Part 70 chapter is from general knowledge; DANR's page did not cite it and the SD Legislature rules site requires JavaScript. 74:36:04, :09, and :10 are confirmed in DANR's concrete GP statement of basis. Fees (as listed by DANR): administrative fee $1,383 / $666 / $138 by emission tier plus $8.30 per ton; check ARSD 74:37 for current amounts. No online permit application; fees can be paid online."
+}

@@ -1,0 +1,108 @@
+{
+  "code": "SC",
+  "name": "South Carolina",
+  "slug": "south-carolina",
+  "epaRegion": 4,
+  "agency": {
+    "name": "South Carolina Department of Environmental Services (SCDES)",
+    "division": "Bureau of Air Quality (BAQ), Air Permitting Division",
+    "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting",
+    "permitsUrl": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/construction-permits-air"
+  },
+  "overview": "SCDES (formerly SC DHEC's environmental programs) issues air construction permits before construction, alteration, or addition of a stationary source, and operating permits afterward, under S.C. Regulation 61-62.1 Section II. Lower tiers include construction permit exemptions (61-62.1 Section II(B) and the BAQ exemptions list), registration permits, and general permits (general construction, general state operating, and general conditional major operating permits) for sectors such as concrete plants, asphalt plants, nonmetallic mineral processing, and fuel combustion. Conditional major (synthetic minor) permits take limits to avoid PSD (61-62.1 Section II.E) and Title V (Section II.G). Title V is under Regulation 61-62.70. Non-Title V applications must be filed through ePermitting (paper not accepted after February 1, 2025). There are no local air agencies.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Construction permit exemptions",
+      "description": "Source-specific exemptions (e.g., small boilers and space heaters, gas-fired units under 10 MMBtu/hr, emergency generators up to 150 kW, comfort HVAC, lab hoods) and emission-level exemptions based on uncontrolled potential to emit. Exemption requests go through ePermitting and documentation is kept on site. Some exempt engines and boilers remain subject to NSPS IIII/JJJJ and NESHAP ZZZZ.",
+      "citation": "S.C. Regulation 61-62.1, Section II(B)",
+      "url": "https://des.sc.gov/sites/des/files/Library/CR-010877.pdf",
+      "quote": "PTE less than 5 tons per year [PM, PM10, PM2.5, SO2, NOx, CO] ... PTE less than 1000 pounds per month [VOC]"
+    },
+    {
+      "type": "registration",
+      "name": "Registration Permits (e.g., fuel combustion)",
+      "description": "For true minor facilities with listed equipment. Fuel combustion registration: boilers on natural gas, propane, virgin No. 2 oil, diesel, or biodiesel; non-fuel-gas boilers limited to 30 MMBtu/hr each and 100 MMBtu/hr total; non-emergency generators certified to EPA nonroad tiers and limited to 500 hr/yr for the modeling exemption.",
+      "citation": "S.C. Regulation 61-62.1, Section II",
+      "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations"
+    },
+    {
+      "type": "general",
+      "name": "General Construction and General Operating Permits",
+      "description": "General construction permits and general state or general conditional major operating permits for concrete plants (batch, block, pug mills; fuel-burning devices under 30 MMBtu/hr), asphalt plants (general conditional major and general synthetic minor construction), nonmetallic mineral processing (general conditional major), and fuel combustion (general conditional major).",
+      "citation": "S.C. Regulation 61-62.1, Section II",
+      "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/general-and-registration-permits-air-quality"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Construction Permit (state and synthetic minor)",
+      "description": "Required before construction, alteration, or addition of a stationary air pollution source; construction may not begin until it is issued. Synthetic minor construction permits set enforceable limits to avoid PSD and Title V.",
+      "citation": "S.C. Regulation 61-62.1, Section II",
+      "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/construction-permits-air"
+    },
+    {
+      "type": "state-operating",
+      "name": "Conditional Major Operating Permit",
+      "description": "Operating permit with federally enforceable limits keeping the facility below PSD and Title V thresholds. The general conditional major permit for fuel combustion limits each criteria pollutant to under 100 tpy, single HAP under 10 tpy, and combined HAPs under 25 tpy. Renewal under 61-62.1 Section II.H.",
+      "citation": "S.C. Regulation 61-62.1, Section II.E and II.G",
+      "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "Major source construction permits in attainment areas, issued by SCDES. Conditional major permits cite 61-62.1 Section II.E for PSD avoidance; the PSD standard is in Regulation 61-62.5.",
+      "citation": "S.C. Regulation 61-62.5, Standard No. 7",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Major source nonattainment permits, issued by SCDES (per EPA).",
+      "citation": "S.C. Regulation 61-62.5, Standard No. 7.1",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Operating permit for major sources under South Carolina's Part 70 program.",
+      "citation": "S.C. Regulation 61-62.70",
+      "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "South Carolina has no oil and gas production. SCDES's 'Oil & Natural Gas and Terminal Facility Registration' is a Bureau of Land & Waste Management program, not an air permit. Gasoline dispensing has its own BAQ page.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "S.C. Regulation 61-62", "title": "Air Pollution Control Regulations and Standards" },
+    { "citation": "S.C. Regulation 61-62.1", "title": "Definitions and General Requirements (Section II: Permit Requirements)" },
+    { "citation": "S.C. Regulation 61-62.5", "title": "Air Pollution Control Standards (incl. Standard No. 7 PSD, No. 7.1 nonattainment NSR, No. 8 toxic air pollutants)" },
+    { "citation": "S.C. Regulation 61-62.70", "title": "Title V Operating Permit Program" }
+  ],
+  "forms": [
+    { "name": "Air Guidance & Permitting Tools", "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/guidance-emission-calculators-air-permits" },
+    { "name": "Concrete plant general permit (example)", "url": "https://www.des.sc.gov/sites/des/files/Documents/BAQ/DepartmentDecisions/GCP%20Concrete/Permit.pdf" },
+    { "name": "General Conditional Major Permit: Nonmetallic Mineral Processing", "url": "https://www.des.sc.gov/sites/des/files/media/document/2017-09-19_GCM%20Nonmetallic%20Mineral%20Permit.pdf" }
+  ],
+  "guidance": [
+    { "name": "Simplifying the Air Permitting Process (exemptions booklet)", "url": "https://des.sc.gov/sites/des/files/Library/CR-010877.pdf" },
+    { "name": "Sources Exempt from Air Quality Construction Permits", "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/sources-exempt-air-quality-construction-permits" },
+    { "name": "Fuel Combustion Operations", "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations" },
+    { "name": "Concrete Plants", "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/concrete-plants" },
+    { "name": "Gasoline Dispensing", "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/gasoline-dispensing" },
+    { "name": "Air Permitting and Public Participation", "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/air-permitting-and-public-participation" },
+    { "name": "BAQ Permitting Contacts for Industry Sectors", "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/baq-permitting-contacts-industry-sectors" }
+  ],
+  "ePermitting": { "name": "SCDES ePermitting", "url": "https://des.sc.gov/permits-regulations/permit-central/epermitting-training" },
+  "fees": { "name": "Annual Air Quality Fees", "url": "https://des.sc.gov/programs/bureau-air-quality/air-compliance/annual-air-quality-fees" },
+  "sources": [
+    { "name": "SCDES Air Permitting", "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting" },
+    { "name": "SCDES Simplifying the Air Permitting Process (CR-010877)", "url": "https://des.sc.gov/sites/des/files/Library/CR-010877.pdf" },
+    { "name": "SCDES Fuel Combustion Operations", "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations" },
+    { "name": "SCDES Concrete Plants", "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/concrete-plants" },
+    { "name": "EPA Clean Air Act Permitting in South Carolina", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "partial",
+  "notes": "SCDES's main construction and operating permit pages could not be read in full (body text did not load), so Title V thresholds and PSD/NNSR details rely on EPA's page and permit documents. Standard No. 7 / 7.1 numbering for PSD/NNSR is from general knowledge and should be confirmed. Bracketed pollutant labels in the exemption quote were added for context. Coastal counties may need a coastal zone consistency certification. BAQ Air Permitting: (803) 898-4123."
+}

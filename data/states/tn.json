@@ -1,0 +1,110 @@
+{
+  "code": "TN",
+  "name": "Tennessee",
+  "slug": "tennessee",
+  "epaRegion": 4,
+  "agency": {
+    "name": "Tennessee Department of Environment and Conservation (TDEC)",
+    "division": "Division of Air Pollution Control (APC)",
+    "url": "https://www.tn.gov/environment/air.html",
+    "permitsUrl": "https://www.tn.gov/environment/permits/air.html"
+  },
+  "localAgencies": [
+    { "name": "Chattanooga-Hamilton County Air Pollution Control Bureau", "jurisdiction": "City of Chattanooga and Hamilton County, TN", "url": "https://apcb.org/" },
+    { "name": "Knox County Department of Air Quality Management", "jurisdiction": "Knox County, TN", "url": "https://www.knoxcounty.org/airquality/" },
+    { "name": "Memphis-Shelby County Health Department, Pollution Control Section", "jurisdiction": "City of Memphis and Shelby County, TN", "url": "https://www.shelbytnhealth.com/168/Air-Planning" },
+    { "name": "Metro Public Health Department, Division of Air Pollution Control", "jurisdiction": "City of Nashville and Davidson County, TN", "url": "https://www.nashville.gov/departments/health/environmental-health/air-pollution-control" }
+  ],
+  "overview": "TDEC's Division of Air Pollution Control requires a construction permit before building or modifying an air contaminant source unless it is exempt (Rule 1200-03-09), followed by an operating permit: true minor, conditional major (limits to stay below Title V), or Title V. Combined construction/operating permits are available. General permits (via Notice of Intent and Notice of Coverage) and Permits by Rule (via NOI and Notice of Authorization, Rule 1200-03-09-.07) cover listed categories. Major sources need PSD (BACT) in attainment areas or nonattainment NSR (LAER). Four local programs (Chattanooga-Hamilton, Knox, Memphis-Shelby, Nashville-Davidson) permit in their areas. Non-confidential submittals can be emailed to Air.Pollution.Control@tn.gov.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Exempt and insignificant activities",
+      "description": "Exemptions are in Rule 1200-03-09-.04; farming equipment and mobile sources are exempt. Exempt and insignificant units must be designated in writing and listed in the Title V permit if the source is major. For PBR-listed federal-rule sources, insignificant status uses uncontrolled PTE thresholds.",
+      "citation": "Rule 1200-03-09-.04",
+      "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf",
+      "thresholds": "Insignificant status (PBR-listed federal rule sources): uncontrolled PTE below 5 TPY per criteria pollutant and below 1,000 lbs/yr per HAP (restated from TDEC's August 2025 permitting workshop)."
+    },
+    {
+      "type": "pbr",
+      "name": "Permit by Rule (PBR)",
+      "description": "For minor sources in specific categories: gasoline dispensing facilities, stationary emergency internal combustion engines, and auto body refinishing (some excluded by Rule 1200-03-18). Obtained through a Notice of Intent and Notice of Authorization. Implemented starting 2017.",
+      "citation": "Rule 1200-03-09-.07",
+      "url": "https://www.tn.gov/environment/permits/air/permit-by-rule.html"
+    },
+    {
+      "type": "general",
+      "name": "General Permits",
+      "description": "G00001 perchloroethylene dry cleaners and G00002 petroleum solvent dry cleaners (expire February 1, 2027); G00003 concrete batch plants with emissions under 10 tons/year (expires March 11, 2034); G00004 nonmetallic mineral crushing and sizing (expires April 17, 2034); G00005 large concrete batch plants (expires May 15, 2035). Obtained through a Notice of Intent and Notice of Coverage. Construction application fees and annual fees apply to most general permit sources since 2024.",
+      "url": "https://www.tn.gov/environment/permits/air/general.html"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Construction Permit (minor NSR)",
+      "description": "Required before building or modifying an air contaminant source unless exempt. Minor (non-Title V) applications should be submitted at least 90 days before construction; the Division has 115 days to issue after a complete application.",
+      "citation": "Rule 1200-03-09-.01(1)",
+      "url": "https://www.tn.gov/environment/permits/air/construction.html"
+    },
+    {
+      "type": "state-operating",
+      "name": "Non-Title V Operating Permit (true minor or conditional major)",
+      "description": "Non-Title V construction permit holders apply within 30 days of startup. Conditional major permits take limits to stay below Title V thresholds. Typically issued for 10 years.",
+      "citation": "Rule 1200-03-09",
+      "url": "https://www.tn.gov/environment/permits/air/operating.html"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "Major NSR in attainment areas; requires BACT. Major/Title V and major NSR applications should be submitted at least 120 days before construction; the Division has 180 days to issue after a complete application.",
+      "citation": "Rule 1200-03-09",
+      "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf",
+      "thresholds": "100 TPY for listed industrial categories or 250 TPY for all other categories (restated from TDEC's August 2025 workshop)."
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Major NSR in nonattainment areas; requires LAER.",
+      "citation": "Rule 1200-03-09",
+      "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf",
+      "thresholds": "Generally 100 TPY of the nonattainment pollutant or its designated precursors (restated)."
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Major sources, Title IV acid rain sources, and facilities required by federal rule (e.g., some landfills); lower thresholds apply in nonattainment areas. New applications are due within the construction permit's timeframe and no later than 360 days after startup; renewals 6 to 9 months before expiration; 5-year term. Draft permits get 30 days of public review and 45 days of EPA review.",
+      "citation": "Rule 1200-03-09",
+      "url": "https://www.tn.gov/content/tn/environment/permits/air/operating/title5.html",
+      "thresholds": "10 tpy of any HAP, 25 tpy of combined HAPs, or 100 tpy of any regulated air pollutant (restated from TDEC's Air Permits page)."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "TDEC's air permit pages list no oil and gas specific general permit or PBR. Oil and gas sources follow the construction and operating permit requirements above and applicable federal NSPS/NESHAP.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "Tenn. Comp. R. & Regs. Chapter 1200-03", "title": "Air Pollution Control Rules", "url": "https://publications.tnsosfiles.com/rules/1200/1200-03/1200-03.htm" },
+    { "citation": "Rule 1200-03-09", "title": "Construction and Operating Permits" },
+    { "citation": "Rule 1200-03-26", "title": "Fees (non-Title V fee rulemaking)", "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/publicnotices/apc_ppo-chapter-1200-03-26-non-title-v-fees-signature-copy.pdf" },
+    { "citation": "Rule 1200-03-18", "title": "Volatile Organic Compounds (referenced for auto body PBR exclusions)" }
+  ],
+  "forms": [
+    { "name": "Construction Permit page (application checklists)", "url": "https://www.tn.gov/environment/permits/air/construction.html" },
+    { "name": "General Permits (NOI forms)", "url": "https://www.tn.gov/environment/permits/air/general.html" },
+    { "name": "HAP list", "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apcmoved/permit_air_hap-list.pdf" }
+  ],
+  "guidance": [
+    { "name": "Air Pollution Permitting Workshop: General Permitting Information (August 2025)", "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf" },
+    { "name": "Air Permits in Tennessee", "url": "https://www.tn.gov/environment/permits/air.html" },
+    { "name": "Air Notices and Hearings", "url": "https://www.tn.gov/environment/ppo/air.html" }
+  ],
+  "sources": [
+    { "name": "TDEC Air Permits in Tennessee", "url": "https://www.tn.gov/environment/permits/air.html" },
+    { "name": "TDEC Construction Permits", "url": "https://www.tn.gov/environment/permits/air/construction.html" },
+    { "name": "TDEC General Permits", "url": "https://www.tn.gov/environment/permits/air/general.html" },
+    { "name": "TDEC Permitting Workshop (August 2025)", "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf" },
+    { "name": "EPA Clean Air Act Permitting in Tennessee", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-tennessee" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Fee changes took effect March 3, 2024 and July 1, 2024; specific amounts not listed on reviewed pages. Rule 1200-03-26 title inferred from a TDEC rulemaking filing name. Scanned permit documents are on TDEC's SmogLog dataviewer."
+}

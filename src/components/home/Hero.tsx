@@ -68,9 +68,9 @@ export function Hero({ liveStates }: { liveStates: string[] }) {
             <span>
               <span className="block text-[0.65rem] font-semibold tracking-[0.2em] text-white/60">STATE HUBS</span>
               <span className="block font-display text-lg font-bold">
-                {liveStates.length <= 2 ? `${liveStates.join(" & ")} live` : `${liveStates.length} state hubs live`}
+                {liveStates.length >= 51 ? "All 50 states + DC" : liveStates.length <= 2 ? `${liveStates.join(" & ")} live` : `${liveStates.length} state hubs live`}
               </span>
-              <span className="block text-xs text-white/65">All 50 states mapped, more in research</span>
+              <span className="block text-xs text-white/65">{liveStates.length >= 51 ? "Agency programs, forms & guidance" : "All 50 states mapped, more in research"}</span>
             </span>
             <ArrowRight className="ml-auto h-5 w-5 text-cyan-400 transition-transform group-hover:translate-x-1" aria-hidden="true" />
           </Link>

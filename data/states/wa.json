@@ -1,0 +1,109 @@
+{
+  "code": "WA",
+  "name": "Washington",
+  "slug": "washington",
+  "epaRegion": 10,
+  "agency": {
+    "name": "Washington State Department of Ecology",
+    "division": "Air Quality Program",
+    "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits",
+    "permitsUrl": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/notice-of-construction-permit"
+  },
+  "localAgencies": [
+    { "name": "Benton Clean Air Agency", "jurisdiction": "Benton County", "url": "https://bentoncleanair.org/for-business/air-operating-permits/" },
+    { "name": "Olympic Region Clean Air Agency (ORCAA)", "jurisdiction": "Clallam, Grays Harbor, Jefferson, Mason, Pacific, Thurston counties", "url": "https://www.orcaa.org/air-quality/" },
+    { "name": "Southwest Clean Air Agency", "jurisdiction": "Clark, Cowlitz, Lewis, Skamania, Wahkiakum counties", "url": "https://www.swcleanair.gov/permits/index.asp" },
+    { "name": "Puget Sound Clean Air Agency", "jurisdiction": "King, Kitsap, Pierce, Snohomish counties", "url": "https://www.pscleanair.org/101/Permits-Registration" },
+    { "name": "Northwest Clean Air Agency", "jurisdiction": "Island, Skagit, Whatcom counties", "url": "https://nwcleanairwa.gov/resources/aop-page/" },
+    { "name": "Spokane Regional Clean Air Agency", "jurisdiction": "Spokane County", "url": "https://spokanecleanair.org/for-business/air-operating-permits/" },
+    { "name": "Yakima Regional Clean Air Agency", "jurisdiction": "Yakima County", "url": "https://www.yakimacleanair.org/" },
+    { "name": "Energy Facility Site Evaluation Council (EFSEC)", "jurisdiction": "Energy projects greater than 350 MW (statewide)", "url": "https://www.efsec.wa.gov/", "notes": "Issues PSD, minor NSR, nonattainment NSR, and Title V for its facilities (per EPA)." }
+  ],
+  "overview": "Washington splits air permitting among Ecology, seven local clean air agencies, EFSEC (large energy facilities), and EPA Region 10 (Indian Country and the Outer Continental Shelf). Ecology issues permits in counties without a local agency and for pulp mills, aluminum mills, and Hanford statewide, and it issues all PSD permits not under EFSEC, EPA, or tribal jurisdiction. Before installing or modifying a source, a business needs a Notice of Construction (NOC) order of approval unless exempt under WAC 173-400-110; toxic air pollutant emitters may need a health impact assessment (WAC 173-460). General orders cover common source types. Major sources need an Air Operating Permit (Title V, WAC 173-401). Most permitted industrial sources must also join the registration program and pay annual fees.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "NOC exemptions",
+      "description": "Whether an NOC is needed depends on the equipment or its emission levels; exemptions and exemption levels are in WAC 173-400-110.",
+      "citation": "WAC 173-400-110",
+      "url": "http://apps.leg.wa.gov/wac/default.aspx?cite=173-400-110"
+    },
+    {
+      "type": "registration",
+      "name": "Registration program",
+      "description": "Most companies with an industrial air permit must register and pay a yearly fee based on permitted emissions.",
+      "url": "https://ecology.wa.gov/regulations-permits/reporting-requirements/air-quality-emissions-reporting/air-quality-registration"
+    },
+    {
+      "type": "general",
+      "name": "General Orders of Approval",
+      "description": "Ecology general orders for asphalt plants, auto body shops, concrete batch plants, dry cleaners using less than 2,100 gallons of perchloroethylene per year, rock crushers, and small water heaters and steam-generating boilers (in Ecology-jurisdiction counties). Portable plants with a valid local agency permit notify Ecology at least 15 days before working in an Ecology county.",
+      "citation": "WAC 173-400-560",
+      "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-quality-general-orders"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Notice of Construction (NOC) Order of Approval",
+      "description": "Pre-construction permit required before installing or modifying an air pollution source (new businesses, replacing or changing control equipment, or increasing emissions). May require a SEPA checklist and a health impact assessment for toxic air pollutants. Ecology charges hourly or complexity-based fees (hourly rate $141 for 2026).",
+      "citation": "WAC 173-400-110; WAC 173-460",
+      "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/notice-of-construction-permit"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "For new large facilities or changes at existing large facilities that could increase air pollution. Ecology issues PSD permits statewide except for projects regulated by EFSEC, EPA, or tribes.",
+      "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/prevention-of-significant-deterioration-psd"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Issued by Ecology or the local clean air agency with jurisdiction (per EPA).",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-washington"
+    },
+    {
+      "type": "title-v",
+      "name": "Air Operating Permit (AOP)",
+      "description": "Apply 12 months before the business has the potential to emit the threshold amounts; renewals 6 to 18 months before expiration; 5-year term. Businesses below thresholds may still need an AOP under federal NSPS/NESHAP. Fees based on emissions and permit category.",
+      "citation": "Chapter 173-401 WAC",
+      "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-operating-permit",
+      "quote": "More than 100 tons per year of any air pollutant. More than 10 tons per year of any hazardous air pollutant. More than 25 tons per year of a combination of hazardous air pollutants."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Washington has no meaningful oil and gas production program in Ecology's air permitting pages. Refineries and large energy facilities are handled through NOC/AOP permits by the local agency, Ecology, or EFSEC.",
+    "programs": []
+  },
+  "regulations": [
+    { "citation": "Chapter 173-400 WAC", "title": "General Regulations for Air Pollution Sources", "url": "http://apps.leg.wa.gov/wac/default.aspx?cite=173-400" },
+    { "citation": "WAC 173-400-110", "title": "New source review (NSR) for sources and portable sources (incl. exemptions)", "url": "http://apps.leg.wa.gov/wac/default.aspx?cite=173-400-110" },
+    { "citation": "WAC 173-400-560", "title": "General order of approval", "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=173-400-560" },
+    { "citation": "Chapter 173-401 WAC", "title": "Operating Permit Regulation", "url": "http://apps.leg.wa.gov/WAC/default.aspx?cite=173-401" },
+    { "citation": "Chapter 173-460 WAC", "title": "Controls for New Sources of Toxic Air Pollutants", "url": "http://apps.leg.wa.gov/WAC/default.aspx?cite=173-460-150" },
+    { "citation": "WAC 173-455-031; 173-455-120", "title": "Air quality fee rule", "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=173-455-120" }
+  ],
+  "forms": [
+    { "name": "Notice of Construction application", "url": "https://apps.ecology.wa.gov/publications/SummaryPages/ECY070410.html" },
+    { "name": "NOC application instructions", "url": "https://apps.ecology.wa.gov/publications/SummaryPages/ECY070410A.html" },
+    { "name": "AOP initial application", "url": "https://apps.ecology.wa.gov/publications/SummaryPages/94175.html" },
+    { "name": "AOP renewal application", "url": "https://apps.ecology.wa.gov/publications/SummaryPages/0502001.html" },
+    { "name": "Voluntary emissions limit application", "url": "https://apps.ecology.wa.gov/publications/SummaryPages/ECY070416.html" },
+    { "name": "Auto body shop general order application", "url": "https://apps.ecology.wa.gov/publications/SummaryPages/ECY070309.html" }
+  ],
+  "guidance": [
+    { "name": "Health impact assessments of toxic air pollutants", "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/notice-of-construction-permit/health-impact-assessments-of-toxic-air-pollutants" },
+    { "name": "Washington clean air agencies", "url": "https://ecology.wa.gov/about-us/accountability-transparency/partnerships-committees/clean-air-agencies" },
+    { "name": "ORIA Permit Handbook: Air Quality NOC", "url": "https://www.oria.wa.gov/permithandbook/permitdetail/1" },
+    { "name": "AOP Permit Register", "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-operating-permit/permit-register" }
+  ],
+  "fees": { "name": "Air Quality Permit Fees (2026)", "url": "https://ecology.wa.gov/202608permitfees" },
+  "sources": [
+    { "name": "Ecology Air Quality Permits", "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits" },
+    { "name": "Ecology Notice of Construction", "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/notice-of-construction-permit" },
+    { "name": "Ecology General Orders", "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-quality-general-orders" },
+    { "name": "Ecology Air Operating Permit", "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-operating-permit" },
+    { "name": "EPA Clean Air Act Permitting in Washington", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-washington" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Source conflict: Ecology's pages list Klickitat County (not San Juan) under Ecology jurisdiction; EPA's page lists San Juan (not Klickitat). Confirm with Ecology. Ecology's AOP page uses 'more than' thresholds. EPA Region 10 permits in Indian Country and the OCS."
+}

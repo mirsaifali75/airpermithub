@@ -1,0 +1,116 @@
+{
+  "code": "WV",
+  "name": "West Virginia",
+  "slug": "west-virginia",
+  "epaRegion": 3,
+  "agency": {
+    "name": "West Virginia Department of Environmental Protection (WVDEP)",
+    "division": "Division of Air Quality (DAQ)",
+    "url": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx",
+    "permitsUrl": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx"
+  },
+  "overview": "WVDEP's Division of Air Quality issues construction, modification, relocation, and temporary permits under 45CSR13 for stationary sources above the rule's thresholds, plus Class I and Class II general permit registrations (filed through the Electronic Submission System), PSD permits (45CSR14), nonattainment NSR permits (45CSR19), and Title V operating permits (45CSR30). Fees are under 45CSR22. A Permit Determination request confirms whether a permit is needed. West Virginia has extensive oil and gas general permits: G70-E for well sites and G35-E for compressor and dehydration facilities. There are no local air agencies.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Permit Determination / below 45CSR13 thresholds",
+      "description": "Sources below the 45CSR13 stationary source thresholds and not subject to an emission control rule do not need a permit. DAQ will confirm through a Permit Determination (no fee, 30 business days).",
+      "citation": "45CSR13",
+      "url": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx"
+    },
+    {
+      "type": "general",
+      "name": "General Permit Registrations (Class I and Class II)",
+      "description": "G10-D coal preparation/handling; G20-C hot mix asphalt (minor); G33-A natural gas compressor station spark-ignition engines 25-500 hp (Class I); G35-E natural gas compressor and/or dehydration facilities; G40-C nonmetallic minerals processing; G50-C concrete batch plants (minor); G60-D emergency generators (Class II); G65-D single emergency generator (Class I); G70-E natural gas production at the well site. Class I: no public notice, 45-day review, $250. Class II: 30-day applicant notice, 45-day review, $500 plus 45CSR22 fees.",
+      "citation": "45CSR13",
+      "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "45CSR13 Construction / Modification Permit",
+      "description": "Required for new stationary sources and modifications. 30-day DAQ public notice; 90-day review after completeness (extendable 30 days for comments); $1,000 plus 45CSR22 fees (e.g., NSPS, NESHAP/MACT/toxics add-ons). Relocation and temporary permits (6 months, extendable) also available. Class I/II administrative updates handle smaller changes.",
+      "citation": "45CSR13",
+      "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf",
+      "quote": "six (6) pounds per hour and ten (10) tons per year or 144 pounds/day of VOCs or any regulated air pollutant ... more than two (2) pounds per hour or (5) five tons per year of HAPs on an aggregated basis"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "New major sources or major modifications in attainment areas. Decision within six months of a complete application.",
+      "citation": "45CSR14",
+      "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf",
+      "thresholds": "100 tons/year or more for Table 1 source categories; 250 tons/year or more for other sources; major modification above 45CSR14 significance thresholds (restated from the DAQ Permitting Handbook)."
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Sources with potential to emit 100 tons/year or more in nonattainment areas and major modifications; requires LAER and offsets.",
+      "citation": "45CSR19",
+      "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Five-year permits; annual fee based on prior-year actual emissions. DAQ has 60 days to determine completeness and 12 months to act on initial or renewal permits.",
+      "citation": "45CSR30",
+      "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf",
+      "thresholds": "More than 100 tons/year of regulated pollutants; 10 tons/year of a single HAP or 25 tons/year of combined HAPs; sources subject to CAA sections 111 and 112 unless deferred (restated from the DAQ Permitting Handbook)."
+    }
+  ],
+  "oilAndGas": {
+    "summary": "West Virginia (Marcellus/Utica) uses general permits for upstream and midstream gas. G70-E covers natural gas production facilities at the well site and replaces G70-A through G70-D (G70-D registrations are automatically covered). G35-E (issued September 5, 2024) covers natural gas compressor and/or dehydration facilities and replaces G30-D and G35-A/C/D. G33-A covers small compressor engines. DAQ's well pad guidance explains when a permit is generally triggered and which NSPS (OOOO/OOOOa/OOOOb) applies by date. Well completion notifications are due at least 2 days before each completion.",
+    "programs": [
+      {
+        "type": "general",
+        "name": "G70-E: Natural Gas Production Facilities at the Well Site",
+        "description": "Class II general permit for well sites; annual certification and annual fee. Alternative Operating Scenario notifications are filed through ESS.",
+        "citation": "45CSR13",
+        "url": "https://apps.dep.wv.gov/Documents/DAQ/GeneralPermit/G70-E/General%20Permit%20G70-E.pdf",
+        "thresholds": "DAQ guidance: a permit is generally required if condensate production exceeds 0.5 barrels (21 gallons) per day, or facility-wide uncontrolled VOC potential exceeds 6 lb/hr (144 lb/day), or benzene/formaldehyde reaches 1,000 lb/yr or more (restated)."
+      },
+      {
+        "type": "general",
+        "name": "G35-E: Natural Gas Compressor and/or Dehydration Facilities",
+        "description": "General permit issued September 5, 2024 for new registrations and modifications at compressor and dehydration facilities; existing G35-D permits are treated as G35-E.",
+        "citation": "45CSR13",
+        "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx"
+      },
+      {
+        "type": "general",
+        "name": "G33-A: Natural Gas Compressor Station Engines",
+        "description": "Class I general permit for spark-ignition engines of 25 to 500 hp, incorporating NSPS JJJJ.",
+        "citation": "45CSR13",
+        "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx"
+      }
+    ]
+  },
+  "regulations": [
+    { "citation": "45CSR13", "title": "Permits for Construction, Modification, Relocation and Operation of Stationary Sources", "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR13.pdf" },
+    { "citation": "45CSR14", "title": "Prevention of Significant Deterioration" },
+    { "citation": "45CSR19", "title": "Permits for Construction and Major Modification of Major Stationary Sources in Nonattainment Areas" },
+    { "citation": "45CSR22", "title": "Air Quality Management Fee Program", "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR22.pdf" },
+    { "citation": "45CSR30", "title": "Requirements for Operating Permits (Title V)" },
+    { "citation": "45CSR6", "title": "Control of air pollution from combustion of refuse (flares)", "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR6.pdf" }
+  ],
+  "forms": [
+    { "name": "General Permit Registration (all GPs)", "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx" },
+    { "name": "G70-E General Permit", "url": "https://apps.dep.wv.gov/Documents/DAQ/GeneralPermit/G70-E/General%20Permit%20G70-E.pdf" },
+    { "name": "Well Completion Notification Instructions", "url": "https://apps.dep.wv.gov/Documents/DAQ/Oil-and-Gas/Well%20Completion%20Notification%20Instructions.pdf" }
+  ],
+  "guidance": [
+    { "name": "DAQ Permitting Handbook", "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf" },
+    { "name": "Permit Levels for 45CSR13", "url": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx" },
+    { "name": "Oil & Gas Well Pads Guidance: Air Permitting and Compliance", "url": "https://dep.wv.gov/daq/Pages/Oil-and-Gas.aspx" },
+    { "name": "G35-E Fact Sheet (draft)", "url": "https://dep.wv.gov/daq/permitting/Documents/GeneralPermits/G35-Draft/G35-E%20Fact%20Sheet%20DRAFT.pdf" }
+  ],
+  "fees": { "name": "45CSR22 Air Quality Management Fee Program", "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR22.pdf" },
+  "sources": [
+    { "name": "WVDEP Permit Levels for 45CSR13", "url": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx" },
+    { "name": "WVDEP Air General Permits", "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx" },
+    { "name": "WVDEP Oil & Gas Well Pads Guidance", "url": "https://dep.wv.gov/daq/Pages/Oil-and-Gas.aspx" },
+    { "name": "WVDEP DAQ Permitting Handbook", "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "The DAQ Permitting Handbook is undated and lists older general permit versions (e.g., G70-A, G35-A); current versions are from DAQ's general permit page. Rule titles for 45CSR14/19/30 are standard titles not shown verbatim on reviewed pages. DAQ's oil and gas page lists two different notification emails; confirm with DAQ. DAQ Permitting: (304) 926-0475."
+}

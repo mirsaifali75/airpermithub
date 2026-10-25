@@ -153,6 +153,11 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
 
       <div className="container-page grid gap-10 py-10 lg:grid-cols-[1fr_20rem]">
         <div className="min-w-0 space-y-12">
+          {p.verification !== "verified" && (
+            <VerifyNotice>
+              <strong className="font-semibold">Partially verified.</strong> {p.notes ?? "Some details on this page could not be confirmed against the agency's site."}
+            </VerifyNotice>
+          )}
           {groups.map((g) => (
             <Block key={g.id} id={g.id} title={g.title} icon={<Route className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
               <ul className="grid gap-4 md:grid-cols-2">{byType(g.types).map((t) => <ProgramCard key={t.name} p={t} />)}</ul>
@@ -196,7 +201,7 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
 
           <Block id="sources" title="Sources" icon={<ShieldCheck className="h-5 w-5 text-eco-600" aria-hidden="true" />}>
             <LinkList links={p.sources} />
-            {p.notes && <p className="mt-4 text-sm text-muted"><span className="font-semibold text-ink">Editorial note: </span>{p.notes}</p>}
+            {p.notes && p.verification === "verified" && <p className="mt-4 text-sm text-muted"><span className="font-semibold text-ink">Editorial note: </span>{p.notes}</p>}
           </Block>
           <Disclaimer />
         </div>
@@ -224,7 +229,12 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
               ))}
             </div>
           )}
-          <VerifyNotice>Content checked against {p.agency.name.replace(/ \(.*\)/, "")} pages on {p.lastReviewed}. Rules change; confirm with the agency before relying on it.</VerifyNotice>
+          <VerifyNotice>
+            {p.verification === "verified"
+              ? `Content checked against ${p.agency.name.replace(/ \(.*\)/, "")} pages on ${p.lastReviewed}.`
+              : `Partially verified on ${p.lastReviewed}. See the note on what could not be confirmed.`}{" "}
+            Rules change; confirm with the agency before relying on it.
+          </VerifyNotice>
           <Link href="/permit-finder" className={buttonClass("secondary", "md", "w-full")}>Screen a {p.name} facility <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
         </aside>
       </div>

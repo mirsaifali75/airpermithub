@@ -280,6 +280,15 @@
       "file": "states/nh.json"
     },
     {
+      "code": "NJ",
+      "name": "New Jersey",
+      "slug": "new-jersey",
+      "agency": "New Jersey Department of Environmental Protection (NJDEP)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/nj.json"
+    },
+    {
       "code": "NM",
       "name": "New Mexico",
       "slug": "new-mexico",
@@ -352,6 +361,33 @@
       "file": "states/ri.json"
     },
     {
+      "code": "SC",
+      "name": "South Carolina",
+      "slug": "south-carolina",
+      "agency": "South Carolina Department of Environmental Services (SCDES)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/sc.json"
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "slug": "south-dakota",
+      "agency": "South Dakota Department of Agriculture and Natural Resources (DANR)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/sd.json"
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "slug": "tennessee",
+      "agency": "Tennessee Department of Environment and Conservation (TDEC)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/tn.json"
+    },
+    {
       "code": "TX",
       "name": "Texas",
       "slug": "texas",
@@ -359,7 +395,70 @@
       "verification": "verified",
       "lastReviewed": "2026-10-25",
       "file": "states/tx.json"
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "slug": "utah",
+      "agency": "Utah Department of Environmental Quality (DEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/ut.json"
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "slug": "virginia",
+      "agency": "Virginia Department of Environmental Quality (DEQ)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/va.json"
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "slug": "vermont",
+      "agency": "Vermont Agency of Natural Resources, Department of Environmental Conservation (DEC)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/vt.json"
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "slug": "washington",
+      "agency": "Washington State Department of Ecology",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/wa.json"
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "slug": "wisconsin",
+      "agency": "Wisconsin Department of Natural Resources (DNR)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/wi.json"
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "slug": "west-virginia",
+      "agency": "West Virginia Department of Environmental Protection (WVDEP)",
+      "verification": "verified",
+      "lastReviewed": "2026-10-25",
+      "file": "states/wv.json"
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "slug": "wyoming",
+      "agency": "Wyoming Department of Environmental Quality (DEQ)",
+      "verification": "partial",
+      "lastReviewed": "2026-10-25",
+      "file": "states/wy.json"
     }
   ],
-  "count": 40
+  "count": 51
 }

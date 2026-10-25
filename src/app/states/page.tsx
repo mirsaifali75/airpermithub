@@ -25,7 +25,7 @@ export default function StatesPage() {
         eyebrow="State regulatory hubs"
         title="Air Permitting by State"
         icon={<MapPinned className="h-7 w-7" />}
-        description={`${profiles.length} state hubs are live and verified against agency sources. The remaining states are in research and publish as they are checked.`}
+        description={`${profiles.length} state hubs are live, each checked against the agency's own pages and labeled verified or partially verified.${profiles.length < stateTiles.length ? " The remaining states publish as they are checked." : ""}`}
       />
       <div className="container-page space-y-14 py-12">
         <StateTileMap profiles={profiles} />

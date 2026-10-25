@@ -1,0 +1,113 @@
+{
+  "code": "UT",
+  "name": "Utah",
+  "slug": "utah",
+  "epaRegion": 8,
+  "agency": {
+    "name": "Utah Department of Environmental Quality (DEQ)",
+    "division": "Division of Air Quality (DAQ)",
+    "url": "https://deq.utah.gov/air-quality/general-permitting-information-air-quality",
+    "permitsUrl": "https://deq.utah.gov/daq/nsr-permitting"
+  },
+  "overview": "Utah DAQ requires an Approval Order (AO) before starting construction or operation of emitting equipment, obtained by filing a Notice of Intent under R307-401 (New Source Review section). Small sources may be exempt (R307-401-9), and permits by rule are available for listed emission units (R307-431) and source categories (R307-432). Oil and gas sources on state-jurisdiction lands register once under R307-505 and follow the R307-500 series oil and gas rules. Major sources need nonattainment/maintenance area review (R307-403) or PSD (R307-405) and a Title V operating permit (R307-415). EPA Region 8 is the permitting authority in Indian Country.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Small Source Exemption",
+      "description": "Sources meeting all three thresholds are exempt from the Notice of Intent and Approval Order requirements (R307-401-5 through 8) and need not file a registration notice. Sources that later exceed the category must submit a Notice of Intent.",
+      "citation": "R307-401-9",
+      "url": "https://deq.utah.gov/air-quality/new-source-review-exemptions-from-permitting-air-quality",
+      "thresholds": "Less than 5 tons per year of each of PM10, SO2, CO, NOx, and VOC (verbatim phrase on DAQ page: 'Emits less than 5 tons per year of any of the following pollutants'); less than 500 lb/yr of any single HAP and 2,000 lb/yr combined HAPs; less than 500 lb/yr of any other air contaminant and 2,000 lb/yr combined."
+    },
+    {
+      "type": "pbr",
+      "name": "Permit by Rule: emission units and source categories",
+      "description": "Exemptions from obtaining an Approval Order for listed emission units (R307-431) and source categories (R307-432).",
+      "citation": "R307-431; R307-432",
+      "url": "https://deq.utah.gov/air-quality/air-quality-laws-and-rules"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Approval Order (New Source Review)",
+      "description": "Required for most new or modified operations since 1969. Apply by submitting a Notice of Intent before starting construction or operation of any emitting equipment. Emissions impact analysis under R307-410 may apply.",
+      "citation": "R307-401",
+      "url": "https://deq.utah.gov/air-quality/general-permitting-information-air-quality"
+    },
+    {
+      "type": "nnsr",
+      "name": "Permits: Nonattainment and Maintenance Areas",
+      "description": "New and modified sources in nonattainment and maintenance areas.",
+      "citation": "R307-403",
+      "url": "https://deq.utah.gov/air-quality/air-quality-laws-and-rules"
+    },
+    {
+      "type": "psd",
+      "name": "Permits: Major Sources in Attainment or Unclassified Areas (PSD)",
+      "description": "Major source preconstruction review in attainment/unclassifiable areas.",
+      "citation": "R307-405",
+      "url": "https://deq.utah.gov/air-quality/air-quality-laws-and-rules"
+    },
+    {
+      "type": "title-v",
+      "name": "Operating Permit (Title V)",
+      "description": "Issued by DAQ's Operating Permit section for major sources; smaller operations regulated under NSPS, NESHAP, or other Clean Air Act requirements may also need to apply.",
+      "citation": "R307-415",
+      "url": "https://deq.utah.gov/air-quality/general-permitting-information-air-quality",
+      "quote": "10 tons per year of any hazardous air pollutant ... 25 tons per year of any combination of hazardous air pollutants ... 100 tons per year of any other air pollutant"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "Utah (Uinta Basin) regulates oil and gas through a registration/permit-by-rule system and equipment-specific rules in the R307-500 series: general provisions (501), pneumatic controllers (502), flares (503), tank truck loading (504), registration (505), storage vessels (506), dehydrators (507), VOC control devices (508), LDAR (509), natural gas engines (510), and associated gas flaring (511). Most oil and gas sources are minor or exempt small sources. Sources in Indian Country (much of the Uinta Basin) are permitted by EPA Region 8.",
+    "programs": [
+      {
+        "type": "registration",
+        "name": "Oil and Gas Registration (Permit by Rule)",
+        "description": "One-time registration with DAQ for oil and gas sources on lands under state jurisdiction. Filing fee: $2,000 controlled site, $1,000 uncontrolled site. Registrants with uncontrolled actual emissions above one ton per year of any single pollutant file emission inventories (annual or triennial under R307-150) using the PBR workbook.",
+        "citation": "R307-505",
+        "url": "https://deq.utah.gov/air-quality/oil-and-gas-registration-pbr-and-emissions-reporting-system"
+      },
+      {
+        "type": "other",
+        "name": "Oil and Gas Industry equipment rules (R307-501 to R307-511)",
+        "description": "Requirements for pneumatic controllers, flares, tank truck loading, storage vessels, dehydrators, VOC control devices, leak detection and repair, natural gas engines, and associated gas flaring.",
+        "citation": "R307-501 through R307-511",
+        "url": "https://deq.utah.gov/air-quality/air-quality-laws-and-rules"
+      }
+    ]
+  },
+  "regulations": [
+    { "citation": "R307-401", "title": "Permit: New and Modified Sources", "url": "https://rules.utah.gov/publicat/code/r307/r307-401.htm" },
+    { "citation": "R307-403", "title": "Permits: New and Modified Sources in Nonattainment Areas and Maintenance Areas", "url": "http://adminrules.utah.gov/Rule/640" },
+    { "citation": "R307-405", "title": "Permits: Major Sources in Attainment or Unclassified Areas (PSD)", "url": "http://adminrules.utah.gov/Rule/647" },
+    { "citation": "R307-410", "title": "Emissions Impact Analysis", "url": "http://adminrules.utah.gov/Rule/643" },
+    { "citation": "R307-415", "title": "Permits: Operating Permit Requirements", "url": "http://adminrules.utah.gov/Rule/642" },
+    { "citation": "R307-431", "title": "Permit by Rule for Emission Units", "url": "http://adminrules.utah.gov/Rule/2994" },
+    { "citation": "R307-432", "title": "Permit by Rule for Source Categories", "url": "http://adminrules.utah.gov/Rule/2995" },
+    { "citation": "R307-505", "title": "Oil and Gas Industry: Registration Requirements", "url": "https://rules.utah.gov/publicat/code/r307/r307-505.htm" },
+    { "citation": "R307-509", "title": "Oil and Gas Industry: Leak Detection and Repair Requirements", "url": "https://rules.utah.gov/publicat/code/r307/r307-509.htm" }
+  ],
+  "forms": [
+    { "name": "Permitting Forms", "url": "https://deq.utah.gov/daq/permitting-forms-air-quality" },
+    { "name": "Notice of Intent application guide", "url": "https://lf-public.deq.utah.gov/WebLink/ElectronicFile.aspx?docid=388862&eqdocs=DAQ-2018-002271" },
+    { "name": "Submit new Oil and Gas PBR registration", "url": "https://tempo.deq.utah.gov/PBRRegistration/AIRequest/NEW" }
+  ],
+  "guidance": [
+    { "name": "NSR Exemptions from Permitting", "url": "https://deq.utah.gov/air-quality/new-source-review-exemptions-from-permitting-air-quality" },
+    { "name": "Source Size Categories", "url": "https://deq.utah.gov/daq/source-size-categories" },
+    { "name": "Air Quality Permitting Guidance", "url": "https://deq.utah.gov/daq/air-quality-permitting-guidance" },
+    { "name": "Title V Operating Permit Fact Sheet", "url": "https://deq.utah.gov/daq/operating-permit-fact-sheet" },
+    { "name": "Small Business Assistance Program", "url": "https://deq.utah.gov/daq/air-quality-small-business-assistance" }
+  ],
+  "ePermitting": { "name": "DAQ Permitting (applications, drafts, permits, PBR registrations)", "url": "https://daqpermitting.utah.gov/" },
+  "fees": { "name": "Air Quality Fees and Payments", "url": "https://deq.utah.gov/air-quality/fees-air-quality-permitting" },
+  "sources": [
+    { "name": "Utah DAQ General Permitting Information", "url": "https://deq.utah.gov/air-quality/general-permitting-information-air-quality" },
+    { "name": "Utah DAQ NSR Exemptions", "url": "https://deq.utah.gov/air-quality/new-source-review-exemptions-from-permitting-air-quality" },
+    { "name": "Utah DAQ Oil and Gas Registration/PBR", "url": "https://deq.utah.gov/air-quality/oil-and-gas-registration-pbr-and-emissions-reporting-system" },
+    { "name": "Utah DAQ Laws and Rules", "url": "https://deq.utah.gov/air-quality/air-quality-laws-and-rules" },
+    { "name": "EPA CAA Permitting in Utah", "url": "https://www.epa.gov/caa-permitting/caa-permitting-utah" }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Small source thresholds restated from DAQ's exemptions page; confirm against R307-401-9. DAQ also issues General Approval Orders for some source categories (not detailed on the pages reviewed). Division phone: (801) 536-4000."
+}

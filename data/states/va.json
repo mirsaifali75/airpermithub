@@ -1,0 +1,144 @@
+{
+  "code": "VA",
+  "name": "Virginia",
+  "slug": "virginia",
+  "epaRegion": 3,
+  "agency": {
+    "name": "Virginia Department of Environmental Quality (DEQ)",
+    "division": "Air and Renewable Energy Division; regional offices",
+    "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air",
+    "permitsUrl": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+  },
+  "overview": "Virginia DEQ issues air permits under 9VAC5-80 (Permits for Stationary Sources). New sources and projects above the exemption levels in 9VAC5-80-1105 need a minor NSR permit (Article 6), or a state major permit for Title V major facilities that are not PSD. Major sources need PSD (Article 8) in attainment areas or nonattainment NSR (Article 9; Northern Virginia ozone area). Case-by-case MACT is under Article 7. State Operating Permits (Article 5) are elective and usually create synthetic minor limits. Title V permits are under Article 1. General permits cover nonmetallic mineral processing, biomass pilot test facilities, voluntary demand response generators, and emergency generators. There are no local air permitting agencies.",
+  "permitTypes": [
+    {
+      "type": "exemption",
+      "name": "Exemptions by size, type, and emission rate",
+      "description": "Exempt by type or size under 9VAC5-80-1105 B (e.g., fuel-burning equipment below heat input limits, emergency engines below aggregate horsepower limits operating no more than 500 hours per year), or by uncontrolled emission rate under 9VAC5-80-1105 C (new sources) and D (projects); toxic exemption levels are in 9VAC5-80-1105 E. In ozone nonattainment or maintenance areas, fuel-burning thresholds apply in aggregate per fuel type.",
+      "citation": "9VAC5-80-1105",
+      "url": "https://law.lis.virginia.gov/admincode/title9/agency5/chapter80/section1105/",
+      "quote": "Using gaseous fuel with a maximum heat input of less than 50,000,000 Btu per hour.",
+      "thresholds": "New source exempt rates (uncontrolled, tpy): CO 100, NOx 40, SO2 40, PM 25, PM10 15, PM2.5 10, VOC 25, lead 0.6. Project rates: CO 100, NOx 10, SO2 10, PM 15, PM10 10, PM2.5 6, VOC 10, lead 0.6. Emergency engines: diesel under 1,675 hp (1,125 kW generators), gasoline under 910 hp (611 kW) in aggregate."
+    },
+    {
+      "type": "general",
+      "name": "General Permits",
+      "description": "Non-metallic mineral processing (9VAC5-510; Forms 510-1/2/3), biomass pilot test facility (Form 520), voluntary demand response generators (Form 530), and emergency generators (Form 540).",
+      "citation": "9VAC5-510 and related general permit chapters",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Minor New Source Review Permit",
+      "description": "For new sources or projects above the exemption levels at facilities under 100 tpy of any criteria pollutant. Does not expire. Completeness review 30 days; processing 90 days (180 with public participation). Form 7.",
+      "citation": "9VAC5-80 Article 6 (9VAC5-80-1100 et seq.)",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "State Major Permit",
+      "description": "For Title V major facilities that are not PSD sources (more than 100 tpy but less than 250 tpy of a criteria pollutant and not in the 28 listed categories). Requires public participation (30-day comment and hearing) and modeling; processing 180 days.",
+      "citation": "9VAC5-80 Article 6",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+    },
+    {
+      "type": "state-operating",
+      "name": "State Operating Permit (SOP)",
+      "description": "Elective permit, most often used to create synthetic minor limits. Does not expire; at least a 30-day public comment period.",
+      "citation": "9VAC5-80 Article 5 (9VAC5-80-840, -1020)",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration (PSD)",
+      "description": "New major sources and major modifications in attainment areas. Requires BACT and air quality analysis; review up to 12 months with at least one public hearing.",
+      "citation": "9VAC5-80 Article 8; 9VAC5-85 Part III",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air",
+      "thresholds": "250 tpy of any regulated pollutant, or 100 tpy for the 28 listed categories, or 100,000 tpy CO2e (restated from DEQ's Air Permits page)."
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Major sources in nonattainment areas; requires LAER and offsets.",
+      "citation": "9VAC5-80 Article 9 (9VAC5-80-2010)",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air",
+      "thresholds": "Northern Virginia Ozone Nonattainment Area (Ozone Transport Region): 100 tpy NOx and/or 50 tpy VOC (restated)."
+    },
+    {
+      "type": "other",
+      "name": "Case-by-case MACT (Article 7)",
+      "description": "Applies when controlled emissions reach 10 tpy of any single HAP or 25 tpy combined, unless a MACT standard applies. Completeness review 45 days; processing normally 180 days.",
+      "citation": "9VAC5-80 Article 7 (9VAC5-80-1440, -1460)",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Required for facilities above major source thresholds in 9VAC5-80-60 and certain HAP area sources. Form 805; 5-year maximum term; completeness review 60 days; processing 18 months. Title IV acid rain permits also use Form 805.",
+      "citation": "9VAC5-80 Article 1 (9VAC5-80-50 et seq.)",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+    }
+  ],
+  "oilAndGas": {
+    "summary": "DEQ's air permit pages list no oil and gas specific air permit. Natural gas compressor stations and similar sources use the exemption, minor NSR, SOP, and Title V framework above.",
+    "programs": []
+  },
+  "regulations": [
+    {
+      "citation": "9VAC5-80",
+      "title": "Permits for Stationary Sources",
+      "url": "https://law.lis.virginia.gov/admincodefull/title9/agency5/chapter80/"
+    },
+    {
+      "citation": "9VAC5-80-1105",
+      "title": "Permit exemptions (minor NSR)",
+      "url": "https://law.lis.virginia.gov/admincode/title9/agency5/chapter80/section1105/"
+    },
+    {
+      "citation": "9VAC5-80 Article 6",
+      "title": "Permits for New and Modified Stationary Sources",
+      "url": "https://law.lis.virginia.gov/admincodefull/title9/agency5/chapter80/partII/article6/"
+    },
+    {
+      "citation": "9VAC5-85",
+      "title": "Permits for Stationary Sources of Pollutants Subject to Regulation (PSD for GHGs)"
+    }
+  ],
+  "forms": [
+    {
+      "name": "DEQ Air Permit Forms (Form 7, Form 805, general permit forms, fee form)",
+      "url": "https://www.deq.virginia.gov/permits/air/forms"
+    }
+  ],
+  "guidance": [
+    {
+      "name": "Title V Air Permits Guidance Manual",
+      "url": "https://townhall.virginia.gov/l/GetFile.cfm?File=C%3A\\TownHall\\docroot\\GuidanceDocs\\440\\GDoc_DEQ_2183_v11.pdf"
+    },
+    {
+      "name": "Air Permits (overview and processing times)",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+    }
+  ],
+  "ePermitting": {
+    "name": "Virginia Permit Transparency (DEQ)",
+    "url": "https://permits.virginia.gov/Agency/Deq"
+  },
+  "sources": [
+    {
+      "name": "Virginia DEQ Air Permits",
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+    },
+    {
+      "name": "9VAC5-80-1105 (LIS)",
+      "url": "https://law.lis.virginia.gov/admincode/title9/agency5/chapter80/section1105/"
+    },
+    {
+      "name": "9VAC5-80 (LIS)",
+      "url": "https://law.lis.virginia.gov/admincodefull/title9/agency5/chapter80/"
+    }
+  ],
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
+  "notes": "Exemption thresholds restated from the 9VAC5-80-1105 text (one heat input phrase quoted verbatim). Article 8 start section is cited inconsistently in the regulation definitions (9VAC5-80-1605 vs -1700). DEQ guidance APG-576 sets presumptive BACT for data center diesel gen-sets for applications on or after July 1, 2026. Applicability questions: (804) 664-3464."
+}
