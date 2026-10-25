@@ -29,7 +29,7 @@
     {
       "type": "minor-nsr",
       "name": "Basic ACDP",
-      "description": "Contains only the most significant rules for listed Part A source categories; no PSEL; term up to 10 years. Categories: autobody shops (Portland area), concrete manufacturing (5,000-25,000 cy/yr), crematories (under 20 tons/yr), gas-fired boilers (10 to under 30 MMBtu/hr), prepared feeds (1,000-10,000 tons/yr), rock crushers (5,000-25,000 tons/yr), surface coating (over 250 gal/month), and other sources taking enforceable limits.",
+      "description": "Contains only the most significant rules for listed Part A source categories; no PSEL; term up to 10 years. Categories: autobody shops (Portland area), concrete manufacturing, crematories, gas-fired boilers, prepared feeds, rock crushers, surface coating, and other sources taking enforceable limits.",
       "citation": "OAR 340-216-8010, Table 1, Part A",
       "url": "https://www.oregon.gov/deq/aq/aqpermits/pages/acdp-general.aspx",
       "thresholds": "Typical actual emissions under 10 tons/yr (DEQ ACDP application instructions comparison table)."
@@ -84,37 +84,116 @@
     "programs": []
   },
   "regulations": [
-    { "citation": "OAR 340 Division 210", "title": "Stationary Source Notification Requirements (Notice of Construction)", "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1535" },
-    { "citation": "OAR 340-216-8010, Table 1", "title": "Activities and Sources requiring ACDPs", "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=238864" },
-    { "citation": "OAR 340-216-8020, Table 2", "title": "ACDP Fees", "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=270004" },
-    { "citation": "OAR 340 Division 218", "title": "Oregon Title V Operating Permits" },
-    { "citation": "OAR 340 Division 220", "title": "Oregon Title V Operating Permit Fees", "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1541" },
-    { "citation": "OAR 340 Division 224", "title": "Major New Source Review" },
-    { "citation": "OAR 340 Division 245", "title": "Cleaner Air Oregon" }
+    {
+      "citation": "OAR 340 Division 210",
+      "title": "Stationary Source Notification Requirements (Notice of Construction)",
+      "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1535"
+    },
+    {
+      "citation": "OAR 340-216-8010, Table 1",
+      "title": "Activities and Sources requiring ACDPs",
+      "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=238864"
+    },
+    {
+      "citation": "OAR 340-216-8020, Table 2",
+      "title": "ACDP Fees",
+      "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=270004"
+    },
+    {
+      "citation": "OAR 340 Division 218",
+      "title": "Oregon Title V Operating Permits"
+    },
+    {
+      "citation": "OAR 340 Division 220",
+      "title": "Oregon Title V Operating Permit Fees",
+      "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1541"
+    },
+    {
+      "citation": "OAR 340 Division 224",
+      "title": "Major New Source Review"
+    },
+    {
+      "citation": "OAR 340 Division 245",
+      "title": "Cleaner Air Oregon"
+    }
   ],
   "forms": [
-    { "name": "Basic and General ACDP forms", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP-General.aspx" },
-    { "name": "Simple, Standard, and Construction ACDP forms", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP-Simple.aspx" },
-    { "name": "Title V Forms and Guidance", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/TV.aspx" },
-    { "name": "AQ104 Notice of Construction instructions", "url": "https://www.oregon.gov/deq/FilterPermitsDocs/AQ104_I.pdf" },
-    { "name": "Land Use Compatibility Statement", "url": "https://www.oregon.gov/deq/Permits/Pages/LUCS.aspx" }
+    {
+      "name": "Basic and General ACDP forms",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP-General.aspx"
+    },
+    {
+      "name": "Simple, Standard, and Construction ACDP forms",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP-Simple.aspx"
+    },
+    {
+      "name": "Title V Forms and Guidance",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/TV.aspx"
+    },
+    {
+      "name": "AQ104 Notice of Construction instructions",
+      "url": "https://www.oregon.gov/deq/FilterPermitsDocs/AQ104_I.pdf"
+    },
+    {
+      "name": "Land Use Compatibility Statement",
+      "url": "https://www.oregon.gov/deq/Permits/Pages/LUCS.aspx"
+    }
   ],
   "guidance": [
-    { "name": "Help Finding the Right Permit", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx" },
-    { "name": "Instructions for Using ACDP Application Forms", "url": "https://www.oregon.gov/deq/filterpermitsdocs/acdp-applguidelines.pdf" },
-    { "name": "Permit Elections for Simple and Standard ACDPs", "url": "https://www.oregon.gov/deq/aq/Documents/bapPermElectAcdps.pdf" },
-    { "name": "Notice of Construction fact sheet", "url": "https://www.oregon.gov/deq/aq/Documents/NoticeofConstruction.pdf" },
-    { "name": "Cleaner Air Oregon resources", "url": "https://www.oregon.gov/deq/aq/cao/Pages/CAO-Risk-Assessment-Resources.aspx" },
-    { "name": "Annual Title V Fees fact sheet", "url": "https://www.oregon.gov/deq/FilterDocs/annualTVfees.pdf" }
+    {
+      "name": "Help Finding the Right Permit",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx"
+    },
+    {
+      "name": "Instructions for Using ACDP Application Forms",
+      "url": "https://www.oregon.gov/deq/filterpermitsdocs/acdp-applguidelines.pdf"
+    },
+    {
+      "name": "Permit Elections for Simple and Standard ACDPs",
+      "url": "https://www.oregon.gov/deq/aq/Documents/bapPermElectAcdps.pdf"
+    },
+    {
+      "name": "Notice of Construction fact sheet",
+      "url": "https://www.oregon.gov/deq/aq/Documents/NoticeofConstruction.pdf"
+    },
+    {
+      "name": "Cleaner Air Oregon resources",
+      "url": "https://www.oregon.gov/deq/aq/cao/Pages/CAO-Risk-Assessment-Resources.aspx"
+    },
+    {
+      "name": "Annual Title V Fees fact sheet",
+      "url": "https://www.oregon.gov/deq/FilterDocs/annualTVfees.pdf"
+    }
   ],
-  "ePermitting": { "name": "Air Quality Permits in Your DEQ Online", "url": "https://www.oregon.gov/deq/permits/Pages/AQP-inYDO.aspx" },
-  "fees": { "name": "ACDP fee table (OAR 340-216-8020)", "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=270004" },
+  "ePermitting": {
+    "name": "Air Quality Permits in Your DEQ Online",
+    "url": "https://www.oregon.gov/deq/permits/Pages/AQP-inYDO.aspx"
+  },
+  "fees": {
+    "name": "ACDP fee table (OAR 340-216-8020)",
+    "url": "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=270004"
+  },
   "sources": [
-    { "name": "Oregon DEQ Air Contaminant Discharge Permits", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP.aspx" },
-    { "name": "Oregon DEQ Help Finding the Right Permit", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx" },
-    { "name": "Oregon DEQ Basic and General ACDPs", "url": "https://www.oregon.gov/deq/aq/aqpermits/pages/acdp-general.aspx" },
-    { "name": "Oregon DEQ Title V Rules and Fees", "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/TVrule.aspx" },
-    { "name": "EPA Clean Air Act Permitting Authorities in Oregon", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-authorities-oregon" }
+    {
+      "name": "Oregon DEQ Air Contaminant Discharge Permits",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP.aspx"
+    },
+    {
+      "name": "Oregon DEQ Help Finding the Right Permit",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx"
+    },
+    {
+      "name": "Oregon DEQ Basic and General ACDPs",
+      "url": "https://www.oregon.gov/deq/aq/aqpermits/pages/acdp-general.aspx"
+    },
+    {
+      "name": "Oregon DEQ Title V Rules and Fees",
+      "url": "https://www.oregon.gov/deq/aq/aqPermits/Pages/TVrule.aspx"
+    },
+    {
+      "name": "EPA Clean Air Act Permitting Authorities in Oregon",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-authorities-oregon"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",

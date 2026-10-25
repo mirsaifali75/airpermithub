@@ -37,7 +37,8 @@
       "type": "general",
       "name": "Oil and Gas General Permit (GP-OG)",
       "description": "General permit for oil and gas production facilities outside Indian country, filed through CERIS-ND. See the Oil and Gas section.",
-      "url": "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf"
+      "url": "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf",
+      "thresholds": "Facility-wide criteria pollutant PTE below 250 tpy, excluding fugitives (restated from DEQ)."
     },
     {
       "type": "psd",
@@ -57,7 +58,7 @@
     }
   ],
   "oilAndGas": {
-    "summary": "North Dakota (Bakken) has a dedicated oil and gas air program. Upstream operators submit the GP-OG Application / Well Registration through CERIS-ND before well completion, then a startup notification and a Potential to Emit (PTE) report. The GP-OG is a synthetic minor permit under PSD (facility-wide criteria PTE below 250 tpy, excluding fugitives). Storage tank control is under NDAC 33.1-15-07-02.1; flares must meet NDAC 33.1-15-07-02, 33.1-15-03-03.1, 33.1-15-20, and 40 CFR 60.18. DEQ implements NSPS OOOO/OOOOa reporting. Flared gas volumes are regulated separately by the ND Industrial Commission.",
+    "summary": "North Dakota (Bakken) has a dedicated oil and gas air program. Upstream operators submit the GP-OG Application / Well Registration through CERIS-ND before well completion, then a startup notification and a Potential to Emit (PTE) report. The GP-OG is a synthetic minor permit that keeps facilities below PSD. Storage tank control is under NDAC 33.1-15-07-02.1; flares must meet NDAC 33.1-15-07-02, 33.1-15-03-03.1, 33.1-15-20, and 40 CFR 60.18. DEQ implements NSPS OOOO/OOOOa reporting. Flared gas volumes are regulated separately by the ND Industrial Commission.",
     "programs": [
       {
         "type": "general",
@@ -65,14 +66,16 @@
         "description": "Required for new and modified production facilities and new or recompleted wells. Startup of production notification is due within 30 days (measured from the final well), and the facility PTE Report within 90 days of startup. Sweetening units need site-specific permits.",
         "citation": "NDAC 33.1-15-14; GP-OG guidance effective July 1, 2025",
         "url": "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf",
-        "quote": "No later than two days prior to any planned well completion activities."
+        "quote": "No later than two days prior to any planned well completion activities.",
+        "thresholds": "Facility-wide criteria pollutant PTE below 250 tpy, excluding fugitives (restated from DEQ)."
       },
       {
         "type": "other",
         "name": "Well site and tank controls",
-        "description": "DEQ's Oil & Gas pages state new wells need at least a pit flare with 90% destruction and removal efficiency on first production, and tanks emitting more than 20 tpy VOC need more efficient controls operating within 60 days of first production. Flares need an automatic igniter or continuous pilot.",
+        "description": "DEQ's Oil & Gas pages require new wells to have at least a pit flare on first production, and higher-emitting tanks need more efficient controls operating within 60 days of first production. Flares need an automatic igniter or continuous pilot.",
         "citation": "NDAC 33.1-15-07-02; 33.1-15-07-02.1; 33.1-15-20",
-        "url": "https://deq.nd.gov/aq/oilgas/"
+        "url": "https://deq.nd.gov/aq/oilgas/",
+        "thresholds": "Pit flare with 90% destruction and removal efficiency; tanks emitting more than 20 tpy VOC need more efficient controls (restated from DEQ)."
       },
       {
         "type": "other",

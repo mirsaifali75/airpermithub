@@ -60,9 +60,10 @@
     {
       "type": "title-v",
       "name": "Title V Facility Permit",
-      "description": "Comprehensive permit for major stationary sources and Acid Rain facilities; issued for up to 5 years. Fees are per ton of prior-year emissions (up to 7,000 tons per contaminant) under 6 NYCRR Subpart 482-2. Title V initial permits, significant modifications, and renewals are 'major projects' under the Uniform Procedures Act.",
+      "description": "Comprehensive permit for major stationary sources and Acid Rain facilities; issued for up to 5 years. Fees are per ton of prior-year emissions, with a per-contaminant cap, under 6 NYCRR Subpart 482-2. Title V initial permits, significant modifications, and renewals are 'major projects' under the Uniform Procedures Act.",
       "citation": "6 NYCRR Subpart 201-6",
-      "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees"
+      "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees",
+      "thresholds": "Fee cap: up to 7,000 tons per contaminant (restated from DEC)."
     }
   ],
   "oilAndGas": {
@@ -79,38 +80,117 @@
     ]
   },
   "regulations": [
-    { "citation": "6 NYCRR Part 200", "title": "General Provisions" },
-    { "citation": "6 NYCRR Part 201", "title": "Permits and Registrations" },
-    { "citation": "6 NYCRR Part 203", "title": "Oil and Natural Gas Sector", "url": "https://extapps.dec.ny.gov/docs/air_pdf/sip203revision.pdf" },
-    { "citation": "6 NYCRR Part 231", "title": "New Source Review for New and Modified Facilities (nonattainment areas and Ozone Transport Region)" },
-    { "citation": "6 NYCRR Subpart 482-2", "title": "Operating Permit Program Fees (Title V)" },
-    { "citation": "6 NYCRR Part 621", "title": "Uniform Procedures" },
-    { "citation": "ECL 72-0302", "title": "Air fees for State Facility, Registration, and historic permits" }
+    {
+      "citation": "6 NYCRR Part 200",
+      "title": "General Provisions"
+    },
+    {
+      "citation": "6 NYCRR Part 201",
+      "title": "Permits and Registrations"
+    },
+    {
+      "citation": "6 NYCRR Part 203",
+      "title": "Oil and Natural Gas Sector",
+      "url": "https://extapps.dec.ny.gov/docs/air_pdf/sip203revision.pdf"
+    },
+    {
+      "citation": "6 NYCRR Part 231",
+      "title": "New Source Review for New and Modified Facilities (nonattainment areas and Ozone Transport Region)"
+    },
+    {
+      "citation": "6 NYCRR Subpart 482-2",
+      "title": "Operating Permit Program Fees (Title V)"
+    },
+    {
+      "citation": "6 NYCRR Part 621",
+      "title": "Uniform Procedures"
+    },
+    {
+      "citation": "ECL 72-0302",
+      "title": "Air fees for State Facility, Registration, and historic permits"
+    }
   ],
   "forms": [
-    { "name": "Air Program Forms and Instructions", "url": "https://dec.ny.gov/environmental-protection/air-quality/air-program-forms-and-instructions" },
-    { "name": "Air Facility Registration form and instructions", "url": "https://dec.ny.gov/sites/default/files/2024-03/regisfrm.pdf" },
-    { "name": "Air Permit Application (State and Title V)", "url": "https://www.dec.ny.gov/docs/air_pdf/airpermitapp.pdf" },
-    { "name": "Air Permit Application Instructions", "url": "https://www.dec.ny.gov/docs/air_pdf/airpermitinst.pdf" },
-    { "name": "List of Exempt Activities", "url": "https://www.dec.ny.gov/docs/air_pdf/exemption.pdf" },
-    { "name": "Annual Capping Certification", "url": "https://www.dec.ny.gov/docs/air_pdf/capcert.pdf" },
-    { "name": "Title V Annual Compliance Certification", "url": "https://www.dec.ny.gov/docs/air_pdf/dar11paper.pdf" }
+    {
+      "name": "Air Program Forms and Instructions",
+      "url": "https://dec.ny.gov/environmental-protection/air-quality/air-program-forms-and-instructions"
+    },
+    {
+      "name": "Air Facility Registration form and instructions",
+      "url": "https://dec.ny.gov/sites/default/files/2024-03/regisfrm.pdf"
+    },
+    {
+      "name": "Air Permit Application (State and Title V)",
+      "url": "https://www.dec.ny.gov/docs/air_pdf/airpermitapp.pdf"
+    },
+    {
+      "name": "Air Permit Application Instructions",
+      "url": "https://www.dec.ny.gov/docs/air_pdf/airpermitinst.pdf"
+    },
+    {
+      "name": "List of Exempt Activities",
+      "url": "https://www.dec.ny.gov/docs/air_pdf/exemption.pdf"
+    },
+    {
+      "name": "Annual Capping Certification",
+      "url": "https://www.dec.ny.gov/docs/air_pdf/capcert.pdf"
+    },
+    {
+      "name": "Title V Annual Compliance Certification",
+      "url": "https://www.dec.ny.gov/docs/air_pdf/dar11paper.pdf"
+    }
   ],
   "guidance": [
-    { "name": "Is This Project Major or Minor (thresholds by area)", "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project" },
-    { "name": "DAR-1: Guidelines for Air Toxics", "url": "https://dec.ny.gov/docs/air_pdf/dar1.pdf" },
-    { "name": "DAR-10: Dispersion Modeling Guidelines", "url": "https://dec.ny.gov/docs/air_pdf/dar10.pdf" },
-    { "name": "DAR-17: Federal Enforceability of Permits", "url": "https://dec.ny.gov/docs/air_pdf/dar17.pdf" },
-    { "name": "Air Compliance and Emissions (ACE) Reporting", "url": "https://dec.ny.gov/environmental-protection/air-quality/air-compliance-emissions-reporting" },
-    { "name": "Issued Title V permits", "url": "http://www.dec.ny.gov/dardata/boss/afs/issued_atv.html" }
+    {
+      "name": "Is This Project Major or Minor (thresholds by area)",
+      "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project"
+    },
+    {
+      "name": "DAR-1: Guidelines for Air Toxics",
+      "url": "https://dec.ny.gov/docs/air_pdf/dar1.pdf"
+    },
+    {
+      "name": "DAR-10: Dispersion Modeling Guidelines",
+      "url": "https://dec.ny.gov/docs/air_pdf/dar10.pdf"
+    },
+    {
+      "name": "DAR-17: Federal Enforceability of Permits",
+      "url": "https://dec.ny.gov/docs/air_pdf/dar17.pdf"
+    },
+    {
+      "name": "Air Compliance and Emissions (ACE) Reporting",
+      "url": "https://dec.ny.gov/environmental-protection/air-quality/air-compliance-emissions-reporting"
+    },
+    {
+      "name": "Issued Title V permits",
+      "url": "http://www.dec.ny.gov/dardata/boss/afs/issued_atv.html"
+    }
   ],
-  "fees": { "name": "2026 Title V Fees Fact Sheet", "url": "https://dec.ny.gov/sites/default/files/2026-08/482factsheet.pdf" },
+  "fees": {
+    "name": "2026 Title V Fees Fact Sheet",
+    "url": "https://dec.ny.gov/sites/default/files/2026-08/482factsheet.pdf"
+  },
   "sources": [
-    { "name": "NYSDEC Air Facility Permits, Registrations, and Fees", "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees" },
-    { "name": "NYSDEC Air Pollution Control Permit Program", "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program" },
-    { "name": "NYSDEC Major or Minor Project", "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project" },
-    { "name": "EPA Clean Air Permitting in New York", "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-york" },
-    { "name": "NYC DEP Clean Air Tracking System", "url": "https://www.nyc.gov/site/dep/environment/clean-air-tracking-system.page" }
+    {
+      "name": "NYSDEC Air Facility Permits, Registrations, and Fees",
+      "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees"
+    },
+    {
+      "name": "NYSDEC Air Pollution Control Permit Program",
+      "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program"
+    },
+    {
+      "name": "NYSDEC Major or Minor Project",
+      "url": "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project"
+    },
+    {
+      "name": "EPA Clean Air Permitting in New York",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-york"
+    },
+    {
+      "name": "NYC DEP Clean Air Tracking System",
+      "url": "https://www.nyc.gov/site/dep/environment/clean-air-tracking-system.page"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",

@@ -32,9 +32,10 @@
     {
       "type": "state-operating",
       "name": "Minor Source Operating Permit",
-      "description": "For sources that are not Part 70 sources and have uncontrolled potential emissions below 100 tons per year of a regulated pollutant.",
+      "description": "For sources that are not Part 70 sources and are below the uncontrolled potential emission level for Part 70.",
       "citation": "ARSD 74:36:04",
-      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx"
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx",
+      "thresholds": "Uncontrolled potential emissions below 100 tons per year of a regulated pollutant (restated from DANR)."
     },
     {
       "type": "psd",
@@ -64,36 +65,110 @@
     "programs": []
   },
   "regulations": [
-    { "citation": "ARSD Article 74:36", "title": "Air Pollution Control Program", "url": "https://sdlegislature.gov/Rules/Administrative/28180" },
-    { "citation": "ARSD 74:36:04", "title": "Operating Permits for Minor Sources" },
-    { "citation": "ARSD 74:36:05", "title": "Operating Permits for Part 70 Sources" },
-    { "citation": "ARSD 74:36:07", "title": "New Source Performance Standards (adopts 40 CFR 60)" },
-    { "citation": "ARSD 74:36:08", "title": "MACT/NESHAP (adopts 40 CFR 63)" },
-    { "citation": "ARSD 74:36:09", "title": "Prevention of Significant Deterioration (adopts 40 CFR 52.21)" },
-    { "citation": "ARSD 74:36:10", "title": "New Source Review (nonattainment)" },
-    { "citation": "ARSD 74:37", "title": "Air Emission Fees", "url": "https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37" }
+    {
+      "citation": "ARSD Article 74:36",
+      "title": "Air Pollution Control Program",
+      "url": "https://sdlegislature.gov/Rules/Administrative/28180"
+    },
+    {
+      "citation": "ARSD 74:36:04",
+      "title": "Operating Permits for Minor Sources"
+    },
+    {
+      "citation": "ARSD 74:36:05",
+      "title": "Operating Permits for Part 70 Sources"
+    },
+    {
+      "citation": "ARSD 74:36:07",
+      "title": "New Source Performance Standards (adopts 40 CFR 60)"
+    },
+    {
+      "citation": "ARSD 74:36:08",
+      "title": "MACT/NESHAP (adopts 40 CFR 63)"
+    },
+    {
+      "citation": "ARSD 74:36:09",
+      "title": "Prevention of Significant Deterioration (adopts 40 CFR 52.21)"
+    },
+    {
+      "citation": "ARSD 74:36:10",
+      "title": "New Source Review (nonattainment)"
+    },
+    {
+      "citation": "ARSD 74:37",
+      "title": "Air Emission Fees",
+      "url": "https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37"
+    }
   ],
   "forms": [
-    { "name": "Air Quality Permit Applications", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Applications.aspx" },
-    { "name": "Minor Source General Application", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Minor%2021.docx" },
-    { "name": "Title V General Application", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/TitleV%2021.docx" },
-    { "name": "Construction Application", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Construction%2021.docx" },
-    { "name": "Generators and Fire Pumps data sheet", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/EGenerator%2021.doc" },
-    { "name": "NOI: Rock Crushers", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/NOIRock%20Crushers%2021.doc" },
-    { "name": "NOI: Concrete Batch Plants", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/NOIConcretePlants%2026.docx" }
+    {
+      "name": "Air Quality Permit Applications",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Applications.aspx"
+    },
+    {
+      "name": "Minor Source General Application",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Minor%2021.docx"
+    },
+    {
+      "name": "Title V General Application",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/TitleV%2021.docx"
+    },
+    {
+      "name": "Construction Application",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Construction%2021.docx"
+    },
+    {
+      "name": "Generators and Fire Pumps data sheet",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/EGenerator%2021.doc"
+    },
+    {
+      "name": "NOI: Rock Crushers",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/NOIRock%20Crushers%2021.doc"
+    },
+    {
+      "name": "NOI: Concrete Batch Plants",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/NOIConcretePlants%2026.docx"
+    }
   ],
   "guidance": [
-    { "name": "Air Quality Permitting", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx" },
-    { "name": "Concrete Plant General Permit Statement of Basis", "url": "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf" },
-    { "name": "Regulated Facilities search", "url": "https://apps.sd.gov/NR34AirQuality/public.aspx" },
-    { "name": "Air Consultants List", "url": "https://danr.sd.gov/Environment/AirQuality/Docs/Consultants.pdf" }
+    {
+      "name": "Air Quality Permitting",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx"
+    },
+    {
+      "name": "Concrete Plant General Permit Statement of Basis",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf"
+    },
+    {
+      "name": "Regulated Facilities search",
+      "url": "https://apps.sd.gov/NR34AirQuality/public.aspx"
+    },
+    {
+      "name": "Air Consultants List",
+      "url": "https://danr.sd.gov/Environment/AirQuality/Docs/Consultants.pdf"
+    }
   ],
-  "fees": { "name": "Air Emission Fees (ARSD 74:37)", "url": "https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37" },
+  "fees": {
+    "name": "Air Emission Fees (ARSD 74:37)",
+    "url": "https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37"
+  },
   "sources": [
-    { "name": "SD DANR Air Quality Permitting", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx" },
-    { "name": "SD DANR Air Quality Applications", "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Applications.aspx" },
-    { "name": "SD DANR Concrete Plant GP Statement of Basis", "url": "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf" },
-    { "name": "EPA CAA Permitting in South Dakota", "url": "https://www.epa.gov/caa-permitting/caa-permitting-south-dakota" }
+    {
+      "name": "SD DANR Air Quality Permitting",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx"
+    },
+    {
+      "name": "SD DANR Air Quality Applications",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Applications.aspx"
+    },
+    {
+      "name": "SD DANR Concrete Plant GP Statement of Basis",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf"
+    },
+    {
+      "name": "EPA CAA Permitting in South Dakota",
+      "url": "https://www.epa.gov/caa-permitting/caa-permitting-south-dakota"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "partial",

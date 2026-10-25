@@ -1,44 +1,168 @@
 {
-  "code": "CT", "name": "Connecticut", "slug": "connecticut", "epaRegion": 1,
-  "agency": { "name": "Connecticut Department of Energy and Environmental Protection (DEEP)", "division": "Bureau of Air Management", "url": "https://portal.ct.gov/deep/air/permits/air-permits", "permitsUrl": "https://portal.ct.gov/DEEP/Air/Permits/Air-Permits--Frequently-Asked-Questions" },
+  "code": "CT",
+  "name": "Connecticut",
+  "slug": "connecticut",
+  "epaRegion": 1,
+  "agency": {
+    "name": "Connecticut Department of Energy and Environmental Protection (DEEP)",
+    "division": "Bureau of Air Management",
+    "url": "https://portal.ct.gov/deep/air/permits/air-permits",
+    "permitsUrl": "https://portal.ct.gov/DEEP/Air/Permits/Air-Permits--Frequently-Asked-Questions"
+  },
   "overview": "Connecticut DEEP issues equipment-specific New Source Review permits under RCSA § 22a-174-3a, with permit-by-rule alternatives for certain equipment (§§ 22a-174-3b, -3c, -3d) and premises-wide Title V operating permits under § 22a-174-33. Facilities can stay below Title V with emissions caps under §§ 22a-174-33a and -33b, which replaced the expired General Permit to Limit Potential to Emit. Southwest Connecticut was reclassified to severe nonattainment for the 2008 ozone standard, lowering major source thresholds for NOx and VOC there.",
   "permitTypes": [
-    { "type": "minor-nsr", "name": "New Source Review (NSR) permit", "description": "Required before construction for subject sources; issued per piece of equipment with design, operating, monitoring, recordkeeping, and emission limits. Most NSR permits do not expire.", "citation": "RCSA § 22a-174-3a", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3a/", "thresholds": "Per DEEP FAQ: a new individual piece of equipment with potential emissions greater than 15 tpy of any individual air pollutant, or 10 tpy or more of any federal HAP, generally needs an NSR permit unless an exemption or permit-by-rule applies. Other triggers and exemptions are in RCSA § 22a-174-3a(a)." },
-    { "type": "pbr", "name": "Permit-by-rule (equipment-specific)", "description": "Material limits, operating practices, and recordkeeping in lieu of NSR for external combustion, automotive refinishing, emergency engines, nonmetallic mineral processing, and surface coating.", "citation": "RCSA § 22a-174-3b", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3b/" },
-    { "type": "pbr", "name": "Permit-by-rule (premises-wide limits)", "description": "Premises-wide limits in lieu of NSR, including a premises-wide coating limit.", "citation": "RCSA § 22a-174-3c", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3c/", "thresholds": "Per DEEP FAQ: premises-wide VOC coating limit of 1,500 gallons per calendar year (§ 22a-174-3c(b)(10))." },
-    { "type": "pbr", "name": "Permit-by-rule: Combined Heat and Power", "description": "Notification-based authorization for CHP systems.", "citation": "RCSA § 22a-174-3d", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3d/" },
-    { "type": "state-operating", "name": "Title V alternatives (emissions caps)", "description": "Let a premises with potential emissions at or above Title V thresholds operate below them by capping actual emissions. Replaced the General Permit to Limit Potential to Emit (expired November 8, 2020).", "citation": "RCSA §§ 22a-174-33a, 22a-174-33b", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33a/", "thresholds": "Per DEEP FAQ: actual emissions below 80% of Title V thresholds (below 100% for greenhouse gases)." },
-    { "type": "psd", "name": "PSD (major NSR)", "description": "Major source and major modification review in attainment areas, applied through the NSR application (Attachment I, DEEP-NSR-APP-216). BACT review required.", "citation": "RCSA § 22a-174-3a", "url": "https://portal.ct.gov/deep/permits-and-licenses/air-emissions-permits-and-general-permits" },
-    { "type": "nnsr", "name": "Nonattainment review (major NSR)", "description": "Major source and major modification review in nonattainment areas (Attachment J, DEEP-NSR-APP-215), with LAER and offsets. DEEP cites a potential NOx or VOC level above 25 tpy for facilities in towns reclassified to severe under the 2008 ozone standard.", "citation": "RCSA § 22a-174-3a", "url": "https://portal.ct.gov/DEEP/Air/Planning/Ozone/2008-Ozone-NAAQS-Reclassification" },
-    { "type": "title-v", "name": "Title V Operating Permit", "description": "Premises-wide permit combining all applicable state and federal requirements. Expires no later than five years after issuance; renewal due at least 12 months before expiration.", "citation": "RCSA § 22a-174-33 (thresholds at § 22a-174-33(a)(1)(E)-(F))", "url": "https://portal.ct.gov/deep/air/permits/title-v-operating-permit-program" }
+    {
+      "type": "minor-nsr",
+      "name": "New Source Review (NSR) permit",
+      "description": "Required before construction for subject sources; issued per piece of equipment with design, operating, monitoring, recordkeeping, and emission limits. Most NSR permits do not expire.",
+      "citation": "RCSA § 22a-174-3a",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3a/",
+      "thresholds": "Per DEEP FAQ: a new individual piece of equipment with potential emissions greater than 15 tpy of any individual air pollutant, or 10 tpy or more of any federal HAP, generally needs an NSR permit unless an exemption or permit-by-rule applies. Other triggers and exemptions are in RCSA § 22a-174-3a(a)."
+    },
+    {
+      "type": "pbr",
+      "name": "Permit-by-rule (equipment-specific)",
+      "description": "Material limits, operating practices, and recordkeeping in lieu of NSR for external combustion, automotive refinishing, emergency engines, nonmetallic mineral processing, and surface coating.",
+      "citation": "RCSA § 22a-174-3b",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3b/"
+    },
+    {
+      "type": "pbr",
+      "name": "Permit-by-rule (premises-wide limits)",
+      "description": "Premises-wide limits in lieu of NSR, including a premises-wide coating limit.",
+      "citation": "RCSA § 22a-174-3c",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3c/",
+      "thresholds": "Per DEEP FAQ: premises-wide VOC coating limit of 1,500 gallons per calendar year (§ 22a-174-3c(b)(10))."
+    },
+    {
+      "type": "pbr",
+      "name": "Permit-by-rule: Combined Heat and Power",
+      "description": "Notification-based authorization for CHP systems.",
+      "citation": "RCSA § 22a-174-3d",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3d/"
+    },
+    {
+      "type": "state-operating",
+      "name": "Title V alternatives (emissions caps)",
+      "description": "Let a premises with potential emissions at or above Title V thresholds operate below them by capping actual emissions. Replaced the General Permit to Limit Potential to Emit (expired November 8, 2020).",
+      "citation": "RCSA §§ 22a-174-33a, 22a-174-33b",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33a/",
+      "thresholds": "Per DEEP FAQ: actual emissions below 80% of Title V thresholds (below 100% for greenhouse gases)."
+    },
+    {
+      "type": "psd",
+      "name": "PSD (major NSR)",
+      "description": "Major source and major modification review in attainment areas, applied through the NSR application (Attachment I, DEEP-NSR-APP-216). BACT review required.",
+      "citation": "RCSA § 22a-174-3a",
+      "url": "https://portal.ct.gov/deep/permits-and-licenses/air-emissions-permits-and-general-permits"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment review (major NSR)",
+      "description": "Major source and major modification review in nonattainment areas (Attachment J, DEEP-NSR-APP-215), with LAER and offsets.",
+      "citation": "RCSA § 22a-174-3a",
+      "url": "https://portal.ct.gov/DEEP/Air/Planning/Ozone/2008-Ozone-NAAQS-Reclassification",
+      "thresholds": "DEEP cites potential NOx or VOC above 25 tpy for facilities in towns reclassified to severe under the 2008 ozone standard (restated)."
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "Premises-wide permit combining all applicable state and federal requirements. Expires no later than five years after issuance; renewal due at least 12 months before expiration.",
+      "citation": "RCSA § 22a-174-33 (thresholds at § 22a-174-33(a)(1)(E)-(F))",
+      "url": "https://portal.ct.gov/deep/air/permits/title-v-operating-permit-program"
+    }
   ],
-  "oilAndGas": { "summary": "Connecticut has no oil and gas production. DEEP's permitting pages list no oil-and-gas-specific air program; pipeline compressor stations and fuel storage follow standard NSR/Title V rules.", "programs": [] },
+  "oilAndGas": {
+    "summary": "Connecticut has no oil and gas production. DEEP's permitting pages list no oil-and-gas-specific air program; pipeline compressor stations and fuel storage follow standard NSR/Title V rules.",
+    "programs": []
+  },
   "regulations": [
-    { "citation": "RCSA § 22a-174-1", "title": "Definitions", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-1/" },
-    { "citation": "RCSA § 22a-174-3a", "title": "Permit to construct and operate stationary sources (NSR)", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3a/" },
-    { "citation": "RCSA §§ 22a-174-3b to 3d", "title": "Exemptions/permits-by-rule", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3b/" },
-    { "citation": "RCSA § 22a-174-33", "title": "Title V sources", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33/" },
-    { "citation": "RCSA §§ 22a-174-33a, 33b", "title": "Limits on potential to emit (Title V alternatives)", "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33b/" },
-    { "citation": "CT Air Regulations index", "title": "Current regulations, SIP revisions, regulations in development", "url": "https://portal.ct.gov/deep/air/planning/regulations/air-regulations" }
+    {
+      "citation": "RCSA § 22a-174-1",
+      "title": "Definitions",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-1/"
+    },
+    {
+      "citation": "RCSA § 22a-174-3a",
+      "title": "Permit to construct and operate stationary sources (NSR)",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3a/"
+    },
+    {
+      "citation": "RCSA §§ 22a-174-3b to 3d",
+      "title": "Exemptions/permits-by-rule",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3b/"
+    },
+    {
+      "citation": "RCSA § 22a-174-33",
+      "title": "Title V sources",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33/"
+    },
+    {
+      "citation": "RCSA §§ 22a-174-33a, 33b",
+      "title": "Limits on potential to emit (Title V alternatives)",
+      "url": "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33b/"
+    },
+    {
+      "citation": "CT Air Regulations index",
+      "title": "Current regulations, SIP revisions, regulations in development",
+      "url": "https://portal.ct.gov/deep/air/planning/regulations/air-regulations"
+    }
   ],
   "forms": [
-    { "name": "Air Emissions Permits and General Permits (all NSR, Title V, Title IV forms)", "url": "https://portal.ct.gov/deep/permits-and-licenses/air-emissions-permits-and-general-permits" },
-    { "name": "Main NSR Application instructions (DEEP-NSR-INST-200)", "url": "https://portal.ct.gov/-/media/deep/permits_and_licenses/air_emissions_permits/deep-nsr-inst-200_main-nsr.pdf" },
-    { "name": "Title V Instructions (DEEP-TV-INST-100)", "url": "https://portal.ct.gov/-/media/DEEP/Permits_and_Licenses/Air_Emissions_Permits/DEEP-TV-INST-100_Title-V-Instructions.pdf" },
-    { "name": "Permit-by-rule and 33a/33b notifications", "url": "https://portal.ct.gov/DEEP/Air/Compliance-Assurance/Air-Compliance-Assurance---Forms#CHP" }
+    {
+      "name": "Air Emissions Permits and General Permits (all NSR, Title V, Title IV forms)",
+      "url": "https://portal.ct.gov/deep/permits-and-licenses/air-emissions-permits-and-general-permits"
+    },
+    {
+      "name": "Main NSR Application instructions (DEEP-NSR-INST-200)",
+      "url": "https://portal.ct.gov/-/media/deep/permits_and_licenses/air_emissions_permits/deep-nsr-inst-200_main-nsr.pdf"
+    },
+    {
+      "name": "Title V Instructions (DEEP-TV-INST-100)",
+      "url": "https://portal.ct.gov/-/media/DEEP/Permits_and_Licenses/Air_Emissions_Permits/DEEP-TV-INST-100_Title-V-Instructions.pdf"
+    },
+    {
+      "name": "Permit-by-rule and 33a/33b notifications",
+      "url": "https://portal.ct.gov/DEEP/Air/Compliance-Assurance/Air-Compliance-Assurance---Forms#CHP"
+    }
   ],
   "guidance": [
-    { "name": "Air Permits FAQ", "url": "https://portal.ct.gov/DEEP/Air/Permits/Air-Permits--Frequently-Asked-Questions" },
-    { "name": "Air Permitting Assistance (NSR wizard, CT BACT database, calculators)", "url": "https://portal.ct.gov/DEEP/Air/Permits/Air-Permitting-Assistance" },
-    { "name": "Dispersion modeling", "url": "https://portal.ct.gov/deep/air/modeling/dispersion" },
-    { "name": "2008 Ozone NAAQS Reclassification", "url": "https://portal.ct.gov/DEEP/Air/Planning/Ozone/2008-Ozone-NAAQS-Reclassification" },
-    { "name": "Air Permitting Contact Sheet", "url": "https://portal.ct.gov/-/media/deep/air/permits/air_permit_contact_sheet.pdf" }
+    {
+      "name": "Air Permits FAQ",
+      "url": "https://portal.ct.gov/DEEP/Air/Permits/Air-Permits--Frequently-Asked-Questions"
+    },
+    {
+      "name": "Air Permitting Assistance (NSR wizard, CT BACT database, calculators)",
+      "url": "https://portal.ct.gov/DEEP/Air/Permits/Air-Permitting-Assistance"
+    },
+    {
+      "name": "Dispersion modeling",
+      "url": "https://portal.ct.gov/deep/air/modeling/dispersion"
+    },
+    {
+      "name": "2008 Ozone NAAQS Reclassification",
+      "url": "https://portal.ct.gov/DEEP/Air/Planning/Ozone/2008-Ozone-NAAQS-Reclassification"
+    },
+    {
+      "name": "Air Permitting Contact Sheet",
+      "url": "https://portal.ct.gov/-/media/deep/air/permits/air_permit_contact_sheet.pdf"
+    }
   ],
   "sources": [
-    { "name": "CT DEEP Air Permits FAQ", "url": "https://portal.ct.gov/DEEP/Air/Permits/Air-Permits--Frequently-Asked-Questions" },
-    { "name": "CT DEEP Air Permitting & Inventory", "url": "https://portal.ct.gov/deep/air/permits/air-permits" },
-    { "name": "CT DEEP Air Emissions Permits and General Permits", "url": "https://portal.ct.gov/deep/permits-and-licenses/air-emissions-permits-and-general-permits" }
+    {
+      "name": "CT DEEP Air Permits FAQ",
+      "url": "https://portal.ct.gov/DEEP/Air/Permits/Air-Permits--Frequently-Asked-Questions"
+    },
+    {
+      "name": "CT DEEP Air Permitting & Inventory",
+      "url": "https://portal.ct.gov/deep/air/permits/air-permits"
+    },
+    {
+      "name": "CT DEEP Air Emissions Permits and General Permits",
+      "url": "https://portal.ct.gov/deep/permits-and-licenses/air-emissions-permits-and-general-permits"
+    }
   ],
-  "lastReviewed": "2026-10-25", "verification": "verified",
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
   "notes": "DEEP's FAQ page was last updated January 19, 2024; regulation links go to the official CT eRegulations System."
 }

@@ -9,7 +9,7 @@
     "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permitting",
     "permitsUrl": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits"
   },
-  "overview": "RI DEM's Office of Air Resources issues preconstruction permits under Air Pollution Control Regulation No. 9 (250-RICR-120-05-9): minor source permits (with exemptions, general permits, temporary permits, and expedited processing), major source permits in nonattainment areas, and PSD permits in attainment areas. Operating permits for major sources are issued under Regulation No. 29 (250-RICR-120-05-29), with fees under Regulation No. 28. Rhode Island's major source threshold for VOC and NOx is 50 tpy under Regulation 29. There are no local air agencies.",
+  "overview": "RI DEM's Office of Air Resources issues preconstruction permits under Air Pollution Control Regulation No. 9 (250-RICR-120-05-9): minor source permits (with exemptions, general permits, temporary permits, and expedited processing), major source permits in nonattainment areas, and PSD permits in attainment areas. Operating permits for major sources are issued under Regulation No. 29 (250-RICR-120-05-29), with fees under Regulation No. 28. Rhode Island's VOC and NOx major source threshold under Regulation 29 is lower than the federal default (see the Title V entry). There are no local air agencies.",
   "permitTypes": [
     {
       "type": "exemption",
@@ -67,27 +67,75 @@
     "programs": []
   },
   "regulations": [
-    { "citation": "250-RICR-120-05-9", "title": "Air Pollution Control Permits (APC Regulation No. 9)", "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9" },
-    { "citation": "250-RICR-120-05-28", "title": "Operating Permit Fees (APC Regulation No. 28)", "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-28" },
-    { "citation": "250-RICR-120-05-29", "title": "Operating Permits (APC Regulation No. 29)", "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-29" }
+    {
+      "citation": "250-RICR-120-05-9",
+      "title": "Air Pollution Control Permits (APC Regulation No. 9)",
+      "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9"
+    },
+    {
+      "citation": "250-RICR-120-05-28",
+      "title": "Operating Permit Fees (APC Regulation No. 28)",
+      "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-28"
+    },
+    {
+      "citation": "250-RICR-120-05-29",
+      "title": "Operating Permits (APC Regulation No. 29)",
+      "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-29"
+    }
   ],
   "forms": [
-    { "name": "DEM Applications & Forms", "url": "https://dem.ri.gov/online-services/applications-forms" },
-    { "name": "Expedited Minor Source Permit Application instructions", "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/emspa.pdf" },
-    { "name": "Expedited Minor Source Permit checklist", "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/emspa-cl.pdf" },
-    { "name": "Application for a General Permit for an Emergency Generator", "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/gpegapp.pdf" },
-    { "name": "Registration of Air Pollution Control Equipment", "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/apcreg.pdf" }
+    {
+      "name": "DEM Applications & Forms",
+      "url": "https://dem.ri.gov/online-services/applications-forms"
+    },
+    {
+      "name": "Expedited Minor Source Permit Application instructions",
+      "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/emspa.pdf"
+    },
+    {
+      "name": "Expedited Minor Source Permit checklist",
+      "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/emspa-cl.pdf"
+    },
+    {
+      "name": "Application for a General Permit for an Emergency Generator",
+      "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/gpegapp.pdf"
+    },
+    {
+      "name": "Registration of Air Pollution Control Equipment",
+      "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/apcreg.pdf"
+    }
   ],
   "guidance": [
-    { "name": "Preconstruction Permits", "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits" },
-    { "name": "Operating Permits (issued Title V permits)", "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/operating-permits" },
-    { "name": "MA DEP BACT Guidance (referenced by RI DEM)", "url": "https://dem.ri.gov/programs/air/documents/bactguid.pdf" }
+    {
+      "name": "Preconstruction Permits",
+      "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits"
+    },
+    {
+      "name": "Operating Permits (issued Title V permits)",
+      "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/operating-permits"
+    },
+    {
+      "name": "MA DEP BACT Guidance (referenced by RI DEM)",
+      "url": "https://dem.ri.gov/programs/air/documents/bactguid.pdf"
+    }
   ],
   "sources": [
-    { "name": "RI DEM Preconstruction Permits", "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits" },
-    { "name": "RI DEM Operating Permits", "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/operating-permits" },
-    { "name": "RI Secretary of State: 250-RICR-120-05-9", "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9" },
-    { "name": "RI Secretary of State: 250-RICR-120-05-29", "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-29" }
+    {
+      "name": "RI DEM Preconstruction Permits",
+      "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits"
+    },
+    {
+      "name": "RI DEM Operating Permits",
+      "url": "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/operating-permits"
+    },
+    {
+      "name": "RI Secretary of State: 250-RICR-120-05-9",
+      "url": "https://rules.sos.ri.gov/regulations/Part/250-120-05-9"
+    },
+    {
+      "name": "RI Secretary of State: 250-RICR-120-05-29",
+      "url": "https://rules.sos.ri.gov/regulations/part/250-120-05-29"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",

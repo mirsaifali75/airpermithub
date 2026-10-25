@@ -22,9 +22,10 @@
     {
       "type": "exemption",
       "name": "Specific source-category exemptions",
-      "description": "Covers gaseous-fuel boilers with total heat input under 25 MMBtu/hr; restricted-use reciprocating engines with total electric output under 3,000 kW; painting, coating, graphic arts and refinishing using no more than 1,666 lb of VOC per month before controls; cold cleaning with a total air-to-vapor interface of 1.0 m² or less; dry cleaning up to 75 lb of clothes per hour total capacity; grain storage receiving an average under 5,500 tons per month; grain processing averaging under 4,500 tons per month; and gasoline dispensing. A facility may combine categories for an operation exemption only if NR 407.03(1)(t) lists them.",
+      "description": "Size-limited exemptions for gaseous-fuel boilers, restricted-use reciprocating engines, painting/coating/graphic arts/refinishing, cold cleaning, dry cleaning, grain storage, grain processing, and gasoline dispensing. A facility may combine categories for an operation exemption only if NR 407.03(1)(t) lists them.",
       "citation": "NR 406.04(1); NR 407.03(1)",
-      "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/Exemptions.html"
+      "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/Exemptions.html",
+      "thresholds": "Restated from DNR: boilers under 25 MMBtu/hr total; engines under 3,000 kW total electric output; coating no more than 1,666 lb VOC/month before controls; cold cleaning 1.0 m² or less air-to-vapor interface; dry cleaning 75 lb clothes/hr total; grain storage under 5,500 tons/month received; grain processing under 4,500 tons/month."
     },
     {
       "type": "exemption",
@@ -36,7 +37,7 @@
     {
       "type": "registration",
       "name": "Registration Operation Permits (Types A, B, C, G)",
-      "description": "These are streamlined operation permits for small emitters. Type A (ROP-A) is the simplest option. Type B (ROP-B) has higher eligibility thresholds. Type C (ROP-C) is for printers and allows hazardous air pollutants below 50% of the major source threshold. Type G (ROP-G01/G02) is for Green Tier participants and requires emissions below 80% of major source thresholds. DNR must review each application within 15 days, and the annual fee is $400.",
+      "description": "These are streamlined operation permits for small emitters. Type A (ROP-A) is the simplest option. Type B (ROP-B) has higher eligibility thresholds. Type C (ROP-C) is for printers. Type G (ROP-G01/G02) is for Green Tier participants. DNR must review each application within 15 days, and the annual fee is $400.",
       "url": "https://dnr.wisconsin.gov/topic/AirPermits/Registration.html",
       "quote": "Facilities must have emissions below 25% of the major source threshold for both criteria and hazardous air pollutants.",
       "thresholds": "Type A: below 25% of major source thresholds (criteria and HAP). Type B: below 50% (criteria and HAP). Type C: below 25% for criteria pollutants and 50% for HAP. Type G: below 80%, plus Green Tier Tier 2 status (verbatim percentages from DNR's Registration Permit Options page)."
@@ -57,7 +58,7 @@
     {
       "type": "state-operating",
       "name": "Operation Permit (non-Part 70 minor and synthetic minor)",
-      "description": "An operation permit covers the entire facility, and it is required unless the facility is exempt. A synthetic minor accepts limits that keep it under major source levels. Limits between 80 and 99 tpy are classed as SM80, and limits below 80 tpy are classed as SM, with lower fees. Non-Title V permits issued after December 2015 generally do not expire.",
+      "description": "An operation permit covers the entire facility, and it is required unless the facility is exempt. A synthetic minor accepts limits that keep it under major source levels; limits below the SM80 band are classed as SM, with lower fees. Non-Title V permits issued after December 2015 generally do not expire.",
       "citation": "NR 407",
       "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/PermitTypes.html",
       "quote": "Anything between 99 tons per year and 80 tons per year is called SM80"
@@ -72,10 +73,11 @@
     {
       "type": "nnsr",
       "name": "Nonattainment NSR",
-      "description": "This permit applies to the 2015 ozone nonattainment areas: all of Milwaukee and Ozaukee counties, parts of Washington, Waukesha and Racine counties, and parts of Sheboygan and Kenosha counties. DNR says it is generally more stringent than PSD. For existing major sources, a project triggers NNSR if its increase exceeds 40 tpy. A Serious reclassification would lower the threshold to 50 tpy, but the Seventh Circuit stayed that reclassification on Sept. 5, 2025, so Moderate requirements currently apply.",
+      "description": "This permit applies to the 2015 ozone nonattainment areas: all of Milwaukee and Ozaukee counties, parts of Washington, Waukesha and Racine counties, and parts of Sheboygan and Kenosha counties. DNR says it is generally more stringent than PSD. A Serious reclassification was stayed by the Seventh Circuit on Sept. 5, 2025, so Moderate requirements currently apply.",
       "citation": "NR 408",
       "url": "https://dnr.wisconsin.gov/topic/AirPermits/Nonattainment.html",
-      "quote": "the NNSR major source threshold of 100 tons per year"
+      "quote": "the NNSR major source threshold of 100 tons per year",
+      "thresholds": "Existing major sources: a project triggers NNSR if its increase exceeds 40 tpy. A Serious reclassification would lower the major source threshold to 50 tpy (restated from DNR)."
     },
     {
       "type": "title-v",
@@ -91,31 +93,94 @@
     "programs": []
   },
   "regulations": [
-    { "citation": "NR 405", "title": "Prevention of significant deterioration", "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/405" },
-    { "citation": "NR 406", "title": "Construction permits", "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/406" },
-    { "citation": "NR 407", "title": "Operation permits", "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/407" },
-    { "citation": "NR 408", "title": "Construction permits for direct major sources in nonattainment areas", "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/408" },
-    { "citation": "NR 410", "title": "Air permit, emission and inspection fees", "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/410" },
-    { "citation": "NR 445", "title": "Control of hazardous pollutants", "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/445" }
+    {
+      "citation": "NR 405",
+      "title": "Prevention of significant deterioration",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/405"
+    },
+    {
+      "citation": "NR 406",
+      "title": "Construction permits",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/406"
+    },
+    {
+      "citation": "NR 407",
+      "title": "Operation permits",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/407"
+    },
+    {
+      "citation": "NR 408",
+      "title": "Construction permits for direct major sources in nonattainment areas",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/408"
+    },
+    {
+      "citation": "NR 410",
+      "title": "Air permit, emission and inspection fees",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/410"
+    },
+    {
+      "citation": "NR 445",
+      "title": "Control of hazardous pollutants",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/445"
+    }
   ],
   "forms": [
-    { "name": "Air permit forms (4530-100 Facility Details; 4530-156 Type A; 4530-183 Type B; 4530-172 Type C; 4530-185 Type G; 4530-163 Asphalt GCP/GOP; 4530-141 Crusher GOP)", "url": "https://dnr.wisconsin.gov/topic/AirPermits/Forms.html" },
-    { "name": "How to Apply (electronic submission and signature)", "url": "https://dnr.wisconsin.gov/topic/AirPermits/Apply.html" }
+    {
+      "name": "Air permit forms (4530-100 Facility Details; 4530-156 Type A; 4530-183 Type B; 4530-172 Type C; 4530-185 Type G; 4530-163 Asphalt GCP/GOP; 4530-141 Crusher GOP)",
+      "url": "https://dnr.wisconsin.gov/topic/AirPermits/Forms.html"
+    },
+    {
+      "name": "How to Apply (electronic submission and signature)",
+      "url": "https://dnr.wisconsin.gov/topic/AirPermits/Apply.html"
+    }
   ],
   "guidance": [
-    { "name": "Air Permit Options", "url": "https://dnr.wisconsin.gov/topic/AirPermits/Options.html" },
-    { "name": "Air permit exemptions (small business)", "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/Exemptions.html" },
-    { "name": "Streamlined permit options for small sources", "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/SmallAirSources.html" },
-    { "name": "Permitting requirements for nonattainment areas", "url": "https://dnr.wisconsin.gov/topic/AirPermits/Nonattainment.html" },
-    { "name": "LFB Informational Paper 72: Air Management Programs (Jan 2025)", "url": "https://docs.legis.wisconsin.gov/misc/lfb/informational_papers/january_2025/0072_air_management_programs_informational_paper_72.pdf" }
+    {
+      "name": "Air Permit Options",
+      "url": "https://dnr.wisconsin.gov/topic/AirPermits/Options.html"
+    },
+    {
+      "name": "Air permit exemptions (small business)",
+      "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/Exemptions.html"
+    },
+    {
+      "name": "Streamlined permit options for small sources",
+      "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/SmallAirSources.html"
+    },
+    {
+      "name": "Permitting requirements for nonattainment areas",
+      "url": "https://dnr.wisconsin.gov/topic/AirPermits/Nonattainment.html"
+    },
+    {
+      "name": "LFB Informational Paper 72: Air Management Programs (Jan 2025)",
+      "url": "https://docs.legis.wisconsin.gov/misc/lfb/informational_papers/january_2025/0072_air_management_programs_informational_paper_72.pdf"
+    }
   ],
   "sources": [
-    { "name": "Wisconsin DNR Air Permit Options", "url": "https://dnr.wisconsin.gov/topic/AirPermits/Options.html" },
-    { "name": "Wisconsin DNR Air permit types for small businesses", "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/PermitTypes.html" },
-    { "name": "Wisconsin DNR Air permit exemptions", "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/Exemptions.html" },
-    { "name": "Wisconsin DNR Registration Permit Options", "url": "https://dnr.wisconsin.gov/topic/AirPermits/Registration.html" },
-    { "name": "Wisconsin DNR Nonattainment permitting", "url": "https://dnr.wisconsin.gov/topic/AirPermits/Nonattainment.html" },
-    { "name": "Wisconsin DNR Air Permit Forms", "url": "https://dnr.wisconsin.gov/topic/AirPermits/Forms.html" }
+    {
+      "name": "Wisconsin DNR Air Permit Options",
+      "url": "https://dnr.wisconsin.gov/topic/AirPermits/Options.html"
+    },
+    {
+      "name": "Wisconsin DNR Air permit types for small businesses",
+      "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/PermitTypes.html"
+    },
+    {
+      "name": "Wisconsin DNR Air permit exemptions",
+      "url": "https://dnr.wisconsin.gov/topic/SmallBusiness/Exemptions.html"
+    },
+    {
+      "name": "Wisconsin DNR Registration Permit Options",
+      "url": "https://dnr.wisconsin.gov/topic/AirPermits/Registration.html"
+    },
+    {
+      "name": "Wisconsin DNR Nonattainment permitting",
+      "url": "https://dnr.wisconsin.gov/topic/AirPermits/Nonattainment.html"
+    },
+    {
+      "name": "Wisconsin DNR Air Permit Forms",
+      "url": "https://dnr.wisconsin.gov/topic/AirPermits/Forms.html"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",

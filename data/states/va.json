@@ -30,16 +30,18 @@
     {
       "type": "minor-nsr",
       "name": "Minor New Source Review Permit",
-      "description": "For new sources or projects above the exemption levels at facilities under 100 tpy of any criteria pollutant. Does not expire. Completeness review 30 days; processing 90 days (180 with public participation). Form 7.",
+      "description": "For new sources or projects above the exemption levels at minor facilities. Does not expire. Completeness review 30 days; processing 90 days (180 with public participation). Form 7.",
       "citation": "9VAC5-80 Article 6 (9VAC5-80-1100 et seq.)",
-      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air",
+      "thresholds": "Facilities under 100 tpy of any criteria pollutant (restated from DEQ)."
     },
     {
       "type": "minor-nsr",
       "name": "State Major Permit",
-      "description": "For Title V major facilities that are not PSD sources (more than 100 tpy but less than 250 tpy of a criteria pollutant and not in the 28 listed categories). Requires public participation (30-day comment and hearing) and modeling; processing 180 days.",
+      "description": "For Title V major facilities that are not PSD sources. Requires public participation (30-day comment and hearing) and modeling; processing 180 days.",
       "citation": "9VAC5-80 Article 6",
-      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air",
+      "thresholds": "More than 100 tpy but less than 250 tpy of a criteria pollutant and not in the 28 listed categories (restated from DEQ)."
     },
     {
       "type": "state-operating",
@@ -67,9 +69,10 @@
     {
       "type": "other",
       "name": "Case-by-case MACT (Article 7)",
-      "description": "Applies when controlled emissions reach 10 tpy of any single HAP or 25 tpy combined, unless a MACT standard applies. Completeness review 45 days; processing normally 180 days.",
+      "description": "Applies to major HAP sources unless a MACT standard applies. Completeness review 45 days; processing normally 180 days.",
       "citation": "9VAC5-80 Article 7 (9VAC5-80-1440, -1460)",
-      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air"
+      "url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air",
+      "thresholds": "Controlled emissions of 10 tpy of any single HAP or 25 tpy combined (restated from DEQ)."
     },
     {
       "type": "title-v",

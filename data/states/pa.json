@@ -28,10 +28,11 @@
     {
       "type": "exemption",
       "name": "Plan approval exemptions and trivial activities",
-      "description": "Eight broad categories under 127.14(a) and roughly 49 numbered categories under 127.14(a)(8) (categories 45-49 require an RFD). Trivial activities need no notice, RFD, plan approval, or listing in a permit application. Examples: combustion units rated 2.5 MMBtu/hr or less; units under 10 MMBtu/hr on natural gas or No. 2 oil meeting sulfur limits; engines under 100 bhp; uncontrolled VOC projects under 2.7 tons per 12 months (with 15-day notice); de minimis increases under 127.449. Records supporting threshold exemptions must be kept 5 years.",
+      "description": "Eight broad categories under 127.14(a) and roughly 49 numbered categories under 127.14(a)(8) (categories 45-49 require an RFD). Trivial activities need no notice, RFD, plan approval, or listing in a permit application. Examples include small combustion units, small engines, small uncontrolled VOC projects (with 15-day notice), and de minimis increases under 127.449. Records supporting threshold exemptions must be kept 5 years.",
       "citation": "25 Pa. Code 127.14; DEP 275-2101-003 (July 1, 2021)",
       "url": "https://greenport.pa.gov/elibrary//PDFProvider.ashx?action=PDFStream&docID=3791499&revision=0&docName=01+AIR+QUALITY+PERMIT+EXEMPTIONS&nativeExt=pdf&PromptToSave=False&Size=251545&ViewerMode=2&overlay=0",
-      "quote": "Combustion units with a rated capacity of less than 10 million Btus per hour of heat input"
+      "quote": "Combustion units with a rated capacity of less than 10 million Btus per hour of heat input",
+      "thresholds": "Examples (restated from DEP exemption list 275-2101-003): combustion units rated 2.5 MMBtu/hr or less; units under 10 MMBtu/hr on natural gas or No. 2 oil meeting sulfur limits; engines under 100 bhp; uncontrolled VOC projects under 2.7 tons per 12 months."
     },
     {
       "type": "registration",
@@ -111,41 +112,129 @@
     ]
   },
   "regulations": [
-    { "citation": "25 Pa. Code Chapter 127", "title": "Construction, Modification, Reactivation and Operation of Sources" },
-    { "citation": "25 Pa. Code 127.14", "title": "Exemptions (plan approval)" },
-    { "citation": "25 Pa. Code 127.449", "title": "De minimis emission increases" },
-    { "citation": "25 Pa. Code 127.701-127.710", "title": "Air quality fees", "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/subchapItoc.html&d=reduce" },
-    { "citation": "25 Pa. Code 129.111-129.115", "title": "RACT III (major NOx/VOC sources)" },
-    { "citation": "25 Pa. Code 121.1", "title": "Definitions" },
-    { "citation": "25 Pa. Code 135.3", "title": "Annual source reporting" }
+    {
+      "citation": "25 Pa. Code Chapter 127",
+      "title": "Construction, Modification, Reactivation and Operation of Sources"
+    },
+    {
+      "citation": "25 Pa. Code 127.14",
+      "title": "Exemptions (plan approval)"
+    },
+    {
+      "citation": "25 Pa. Code 127.449",
+      "title": "De minimis emission increases"
+    },
+    {
+      "citation": "25 Pa. Code 127.701-127.710",
+      "title": "Air quality fees",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/subchapItoc.html&d=reduce"
+    },
+    {
+      "citation": "25 Pa. Code 129.111-129.115",
+      "title": "RACT III (major NOx/VOC sources)"
+    },
+    {
+      "citation": "25 Pa. Code 121.1",
+      "title": "Definitions"
+    },
+    {
+      "citation": "25 Pa. Code 135.3",
+      "title": "Annual source reporting"
+    }
   ],
   "forms": [
-    { "name": "Air Quality Permit Exemptions (275-2101-003)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=4564" },
-    { "name": "Request for Determination (paper)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3658" },
-    { "name": "Plan Approval: Combustion Unit", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3652" },
-    { "name": "Plan Approval: Processes", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3656" },
-    { "name": "General Information Form", "url": "https://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=927289" },
-    { "name": "Compliance Review Form (2700-PM-AQ0004)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3626" },
-    { "name": "State-Only Operating Permit Application (2700-PM-BAQ0013)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3662" },
-    { "name": "Title V Operating Permit Application (2700-PM-BAQ0010)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3663" },
-    { "name": "GP-5 compliance forms", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=60774" }
+    {
+      "name": "Air Quality Permit Exemptions (275-2101-003)",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=4564"
+    },
+    {
+      "name": "Request for Determination (paper)",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3658"
+    },
+    {
+      "name": "Plan Approval: Combustion Unit",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3652"
+    },
+    {
+      "name": "Plan Approval: Processes",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3656"
+    },
+    {
+      "name": "General Information Form",
+      "url": "https://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=927289"
+    },
+    {
+      "name": "Compliance Review Form (2700-PM-AQ0004)",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3626"
+    },
+    {
+      "name": "State-Only Operating Permit Application (2700-PM-BAQ0013)",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3662"
+    },
+    {
+      "name": "Title V Operating Permit Application (2700-PM-BAQ0010)",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3663"
+    },
+    {
+      "name": "GP-5 compliance forms",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=60774"
+    }
   ],
   "guidance": [
-    { "name": "Air Quality Technical Guidance", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=4563" },
-    { "name": "GP-5 and Exemption Category No. 38 FAQ", "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dep/documents/business/air/baq/permits/documents/faq_gp-5_and_exemption_category_no_38.pdf" },
-    { "name": "DEP Air Quality Risk Assessment Guidance", "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/misc/DEP_risk_assessment_guidance.pdf" },
-    { "name": "RACT III FAQ", "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/RACT/RACT%20III%20FAQ.pdf" },
-    { "name": "Regional office contact list", "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/contact_list.pdf" }
+    {
+      "name": "Air Quality Technical Guidance",
+      "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=4563"
+    },
+    {
+      "name": "GP-5 and Exemption Category No. 38 FAQ",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dep/documents/business/air/baq/permits/documents/faq_gp-5_and_exemption_category_no_38.pdf"
+    },
+    {
+      "name": "DEP Air Quality Risk Assessment Guidance",
+      "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/misc/DEP_risk_assessment_guidance.pdf"
+    },
+    {
+      "name": "RACT III FAQ",
+      "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/RACT/RACT%20III%20FAQ.pdf"
+    },
+    {
+      "name": "Regional office contact list",
+      "url": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/contact_list.pdf"
+    }
   ],
-  "ePermitting": { "name": "DEP GreenPort ePermitting", "url": "https://www.depgreenport.state.pa.us/" },
-  "fees": { "name": "Air Quality Fee Schedule (2700-PM-BAQ0030A-E)", "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=203696" },
+  "ePermitting": {
+    "name": "DEP GreenPort ePermitting",
+    "url": "https://www.depgreenport.state.pa.us/"
+  },
+  "fees": {
+    "name": "Air Quality Fee Schedule (2700-PM-BAQ0030A-E)",
+    "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=203696"
+  },
   "sources": [
-    { "name": "PA DEP Air Quality Permits", "url": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits" },
-    { "name": "PA DEP Bureau of Air Quality", "url": "https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality" },
-    { "name": "PA DEP Apply for an Air Quality General Permit", "url": "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit" },
-    { "name": "PA DEP Plan Approval Applications", "url": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits/plan-apps" },
-    { "name": "PA DEP Air Quality Permit Exemptions (275-2101-003)", "url": "https://greenport.pa.gov/elibrary//PDFProvider.ashx?action=PDFStream&docID=3791499&revision=0&docName=01+AIR+QUALITY+PERMIT+EXEMPTIONS&nativeExt=pdf&PromptToSave=False&Size=251545&ViewerMode=2&overlay=0" },
-    { "name": "EPA CAA Permitting in Pennsylvania", "url": "https://www.epa.gov/caa-permitting/caa-permitting-pennsylvania" }
+    {
+      "name": "PA DEP Air Quality Permits",
+      "url": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits"
+    },
+    {
+      "name": "PA DEP Bureau of Air Quality",
+      "url": "https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality"
+    },
+    {
+      "name": "PA DEP Apply for an Air Quality General Permit",
+      "url": "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit"
+    },
+    {
+      "name": "PA DEP Plan Approval Applications",
+      "url": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits/plan-apps"
+    },
+    {
+      "name": "PA DEP Air Quality Permit Exemptions (275-2101-003)",
+      "url": "https://greenport.pa.gov/elibrary//PDFProvider.ashx?action=PDFStream&docID=3791499&revision=0&docName=01+AIR+QUALITY+PERMIT+EXEMPTIONS&nativeExt=pdf&PromptToSave=False&Size=251545&ViewerMode=2&overlay=0"
+    },
+    {
+      "name": "EPA CAA Permitting in Pennsylvania",
+      "url": "https://www.epa.gov/caa-permitting/caa-permitting-pennsylvania"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "partial",

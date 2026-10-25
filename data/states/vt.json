@@ -9,21 +9,23 @@
     "url": "https://dec.vermont.gov/air-quality/permits/construction",
     "permitsUrl": "https://dec.vermont.gov/air-quality/permits/construction"
   },
-  "overview": "Vermont DEC's Air Quality & Climate Division issues a Permit to Construct before construction of a new or modified air contaminant source (sources listed in §5-401 of the Vermont Air Pollution Control Regulations; Subchapter V), and a Permit to Operate for facilities with potential emissions of 10 tons per year or more in total (Subchapter X, which incorporates Title V). Most permits are combined Permits to Construct and Operate. Vermont implements federal NSR/PSD and Title V within its state program, so the state permit is the only construction or operating permit needed. DEC publishes source category guidance (boilers, engines, evaporators, breweries, quarries, asphalt, coating, and others). There are no local air agencies.",
+  "overview": "Vermont DEC's Air Quality & Climate Division issues a Permit to Construct before construction of a new or modified air contaminant source (sources listed in §5-401 of the Vermont Air Pollution Control Regulations; Subchapter V), and a Permit to Operate for facilities above the potential-emissions level in Subchapter X (see the Permit to Operate entry), which incorporates Title V. Most permits are combined Permits to Construct and Operate. Vermont implements federal NSR/PSD and Title V within its state program, so the state permit is the only construction or operating permit needed. DEC publishes source category guidance (boilers, engines, evaporators, breweries, quarries, asphalt, coating, and others). There are no local air agencies.",
   "permitTypes": [
     {
       "type": "exemption",
       "name": "Sources not listed in §5-401 / emergency engines",
-      "description": "Sources that are not air contaminant sources under §5-401 do not need a Permit to Construct. Example from DEC's engine guidance: emergency-only engines typically don't need a permit if facility-wide aggregate emergency engine capacity is below 2,000 bhp, but emergency engines of 450 bhp or more installed after July 1, 2007 must meet minimum emission standards. All stationary RICE need advance notification to AQCD.",
+      "description": "Sources that are not air contaminant sources under §5-401 do not need a Permit to Construct. DEC's engine guidance explains when emergency-only engines need a permit and which must meet minimum emission standards. All stationary RICE need advance notification to AQCD.",
       "citation": "VAPCR §5-401",
-      "url": "https://dec.vermont.gov/air-quality/permits/source-categories/stationary-reciprocating-internal-combustion-engines"
+      "url": "https://dec.vermont.gov/air-quality/permits/source-categories/stationary-reciprocating-internal-combustion-engines",
+      "thresholds": "Emergency engines typically need no permit if facility-wide aggregate emergency capacity is below 2,000 bhp; emergency engines of 450 bhp or more installed after July 1, 2007 must meet minimum emission standards (restated from DEC RICE guidance)."
     },
     {
       "type": "minor-nsr",
       "name": "Permit to Construct (minor source / minor modification)",
-      "description": "Required before a facility commences construction of a new air contaminant source or modification. Lasts for the life of the project. Processing about 150 days for a complete minor application; base fee plus supplemental fees for engineering review, modeling, and emission testing (per DEC Permit Handbook Sheet #14, April 2020). Example trigger: non-emergency engines over 300 bhp.",
+      "description": "Required before a facility commences construction of a new air contaminant source or modification. Lasts for the life of the project. Processing about 150 days for a complete minor application; base fee plus supplemental fees for engineering review, modeling, and emission testing (per DEC Permit Handbook Sheet #14, April 2020).",
       "citation": "VAPCR §§5-401, 5-501, 5-502, 5-504; 10 V.S.A. §556",
-      "url": "https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf"
+      "url": "https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf",
+      "thresholds": "Example trigger: non-emergency engines over 300 bhp (restated from DEC RICE guidance)."
     },
     {
       "type": "psd",
@@ -35,7 +37,7 @@
     {
       "type": "state-operating",
       "name": "Permit to Operate",
-      "description": "Required for facilities with potential emissions of 10 tons per year or more in total; renewed every five years. Usually combined with the Permit to Construct.",
+      "description": "Required above the potential-emissions level in the quote; renewed every five years. Usually combined with the Permit to Construct.",
       "citation": "VAPCR Subchapter X",
       "url": "https://dec.vermont.gov/air-quality/permits/operating-permits",
       "quote": "is required for any new or existing facility that has the potential to emit 10 or more tons per year of air pollution in total"
@@ -53,31 +55,90 @@
     "programs": []
   },
   "regulations": [
-    { "citation": "Vermont Air Pollution Control Regulations", "title": "Environmental Protection Rules, Chapter 5 (adopted December 13, 2018)", "url": "https://dec.vermont.gov/sites/dec/files/aqc/laws-regs/documents/AQCD%20Regulations%20ADOPTED_Dec132018.pdf" },
-    { "citation": "VAPCR §5-401", "title": "Classification of air contaminant sources (sources requiring permits)" },
-    { "citation": "VAPCR Subchapter V (§§5-501 to 5-504)", "title": "Review of new air contaminant sources" },
-    { "citation": "VAPCR Subchapter X", "title": "Operating Permits" },
-    { "citation": "10 V.S.A. §556", "title": "Permit authority", "url": "https://dec.vermont.gov/sites/dec/files/aqc/laws-regs/documents/VTAirStatutes07-01-2018.pdf" }
+    {
+      "citation": "Vermont Air Pollution Control Regulations",
+      "title": "Environmental Protection Rules, Chapter 5 (adopted December 13, 2018)",
+      "url": "https://dec.vermont.gov/sites/dec/files/aqc/laws-regs/documents/AQCD%20Regulations%20ADOPTED_Dec132018.pdf"
+    },
+    {
+      "citation": "VAPCR §5-401",
+      "title": "Classification of air contaminant sources (sources requiring permits)"
+    },
+    {
+      "citation": "VAPCR Subchapter V (§§5-501 to 5-504)",
+      "title": "Review of new air contaminant sources"
+    },
+    {
+      "citation": "VAPCR Subchapter X",
+      "title": "Operating Permits"
+    },
+    {
+      "citation": "10 V.S.A. §556",
+      "title": "Permit authority",
+      "url": "https://dec.vermont.gov/sites/dec/files/aqc/laws-regs/documents/VTAirStatutes07-01-2018.pdf"
+    }
   ],
   "forms": [
-    { "name": "Construction Permit Application Guidance", "url": "https://dec.vermont.gov/air-quality/permits/construction/application-guidance" },
-    { "name": "Operating Permit Application Guidance", "url": "https://dec.vermont.gov/air-quality/permits/operating/operating-permit-application-guidance" },
-    { "name": "Certification of Notification to Adjoining Landowners", "url": "https://dec.vermont.gov/air-quality/permits/construction/certification-of-notification-to-adjoining-landowners" }
+    {
+      "name": "Construction Permit Application Guidance",
+      "url": "https://dec.vermont.gov/air-quality/permits/construction/application-guidance"
+    },
+    {
+      "name": "Operating Permit Application Guidance",
+      "url": "https://dec.vermont.gov/air-quality/permits/operating/operating-permit-application-guidance"
+    },
+    {
+      "name": "Certification of Notification to Adjoining Landowners",
+      "url": "https://dec.vermont.gov/air-quality/permits/construction/certification-of-notification-to-adjoining-landowners"
+    }
   ],
   "guidance": [
-    { "name": "Permit Handbook Sheet #14: Permits to Construct (April 2020)", "url": "https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf" },
-    { "name": "Source Categories", "url": "https://dec.vermont.gov/air-quality/permits/source-categories" },
-    { "name": "Stationary RICE guidance", "url": "https://dec.vermont.gov/air-quality/permits/source-categories/stationary-reciprocating-internal-combustion-engines" },
-    { "name": "Air Quality Impact Evaluation", "url": "https://dec.vermont.gov/air-quality/permits/construction/air-quality-impact-evaluation" },
-    { "name": "Air Permits FAQ", "url": "https://dec.vermont.gov/air-quality/permits/faq" },
-    { "name": "Air Permits Search", "url": "https://dec.vermont.gov/air-quality/permits/air-permits-search" }
+    {
+      "name": "Permit Handbook Sheet #14: Permits to Construct (April 2020)",
+      "url": "https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf"
+    },
+    {
+      "name": "Source Categories",
+      "url": "https://dec.vermont.gov/air-quality/permits/source-categories"
+    },
+    {
+      "name": "Stationary RICE guidance",
+      "url": "https://dec.vermont.gov/air-quality/permits/source-categories/stationary-reciprocating-internal-combustion-engines"
+    },
+    {
+      "name": "Air Quality Impact Evaluation",
+      "url": "https://dec.vermont.gov/air-quality/permits/construction/air-quality-impact-evaluation"
+    },
+    {
+      "name": "Air Permits FAQ",
+      "url": "https://dec.vermont.gov/air-quality/permits/faq"
+    },
+    {
+      "name": "Air Permits Search",
+      "url": "https://dec.vermont.gov/air-quality/permits/air-permits-search"
+    }
   ],
-  "fees": { "name": "Permit Fees", "url": "https://dec.vermont.gov/air-quality/permits/permit-fees" },
+  "fees": {
+    "name": "Permit Fees",
+    "url": "https://dec.vermont.gov/air-quality/permits/permit-fees"
+  },
   "sources": [
-    { "name": "Vermont DEC Construction Permits", "url": "https://dec.vermont.gov/air-quality/permits/construction" },
-    { "name": "Vermont DEC Operating Permits", "url": "https://dec.vermont.gov/air-quality/permits/operating-permits" },
-    { "name": "Vermont Permit Handbook Sheet #14", "url": "https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf" },
-    { "name": "Vermont DEC Stationary RICE", "url": "https://dec.vermont.gov/air-quality/permits/source-categories/stationary-reciprocating-internal-combustion-engines" }
+    {
+      "name": "Vermont DEC Construction Permits",
+      "url": "https://dec.vermont.gov/air-quality/permits/construction"
+    },
+    {
+      "name": "Vermont DEC Operating Permits",
+      "url": "https://dec.vermont.gov/air-quality/permits/operating-permits"
+    },
+    {
+      "name": "Vermont Permit Handbook Sheet #14",
+      "url": "https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf"
+    },
+    {
+      "name": "Vermont DEC Stationary RICE",
+      "url": "https://dec.vermont.gov/air-quality/permits/source-categories/stationary-reciprocating-internal-combustion-engines"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",

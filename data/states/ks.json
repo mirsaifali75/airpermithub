@@ -1,41 +1,147 @@
 {
-  "code": "KS", "name": "Kansas", "slug": "kansas", "epaRegion": 7,
-  "agency": { "name": "Kansas Department of Health and Environment (KDHE)", "division": "Bureau of Air, Permitting Section", "url": "https://www.kdhe.ks.gov/166/Air", "permitsUrl": "https://www.kdhe.ks.gov/313/Permitting" },
+  "code": "KS",
+  "name": "Kansas",
+  "slug": "kansas",
+  "epaRegion": 7,
+  "agency": {
+    "name": "Kansas Department of Health and Environment (KDHE)",
+    "division": "Bureau of Air, Permitting Section",
+    "url": "https://www.kdhe.ks.gov/166/Air",
+    "permitsUrl": "https://www.kdhe.ks.gov/313/Permitting"
+  },
   "overview": "Kansas requires a state construction permit (K.A.R. 28-19-300(a)) or, below permit thresholds, a construction approval (28-19-300(b)) before beginning actual construction or modification. Operating permits are Class I (Kansas's Title V permit) or Class II (federally enforceable limits, including permits-by-rule). PSD is implemented under K.A.R. 28-19-350, adopting portions of 40 CFR 52.21. All applications go through KEIMS.",
   "permitTypes": [
-    { "type": "registration", "name": "Construction Approval", "description": "Required when a construction permit is not, for new sources or modifications above approval thresholds, most minor NSPS and NESHAP sources, and sources accepting operational restrictions under K.A.R. 28-19-302(c). Fee $750 per application (K.A.R. 28-19-304(a)).", "citation": "K.A.R. 28-19-300(b)", "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF", "thresholds": "Per KDHE overview (2016): PM 5 lb/hr; agricultural PM10 5 lb/hr; other PM10 2 lb/hr; SO2/SO3 2 lb/hr; CO 50 lb/24-hr; VOC 50 lb/24-hr (15 lb/24-hr or 3 lb/hr in Wyandotte or Johnson counties); NOx 50 lb/24-hr; lead 0.1 lb/hr." },
-    { "type": "minor-nsr", "name": "State Construction Permit", "description": "Required for new sources and modifications where potential-to-emit reaches the permit threshold, plus Title IV affected sources, most incinerators, and new major HAP sources. Land clearing and equipment purchase may occur before the permit; foundation work may not.", "citation": "K.A.R. 28-19-300(a)", "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF", "thresholds": "Per KDHE overview (PTE, tons/yr): PM 25; PM10 15; agricultural PM/PM10 100; SO2/SO3 40; CO 100; VOC 40; NOx 40; lead 0.6; single HAP 10; combined HAPs 25." },
-    { "type": "pbr", "name": "Class II Permits-by-Rule", "description": "Available for reciprocating engines, organic solvent evaporative sources, hot mix asphalt facilities, and sources with actual emissions below 50% of major source thresholds. $50 fee.", "citation": "K.A.R. 28-19-500(b) series", "url": "https://www.kdhe.ks.gov/313/Permitting" },
-    { "type": "state-operating", "name": "Class II Operating Permit (FESOP)", "description": "Lowers potential to emit through federally enforceable limits. Fees: initial $200, modification $100, general application $50.", "citation": "K.A.R. 28-19-500(b)", "url": "https://www.kdhe.ks.gov/313/Permitting" },
-    { "type": "psd", "name": "Prevention of Significant Deterioration", "description": "Adopts portions of 40 CFR 52.21.", "citation": "K.A.R. 28-19-350", "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF", "thresholds": "Per KDHE overview: major source 100 tons/yr PTE for listed categories, 250 tons/yr otherwise. Significance levels include CO 100, NOx 40, SO2 40, PM 25, PM10 15, PM2.5 10, VOC 40, lead 0.6, GHG 75,000 tons CO2e." },
-    { "type": "title-v", "name": "Class I Operating Permit (Title V)", "description": "Consolidates all air requirements; satisfies Title V. Also required for Title IV sources, CAA §129(e) incinerators, non-exempt NSPS/NESHAP sources, and NSPS WWW landfills. Fees: initial $3,000, renewal $3,000, significant modification $1,500.", "citation": "K.A.R. 28-19-500(a)", "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF", "thresholds": "Per KDHE overview: individual HAP 10 tons/yr or more; combined HAPs 25 tons/yr or more; any other regulated pollutant 100 tons/yr or more." }
+    {
+      "type": "registration",
+      "name": "Construction Approval",
+      "description": "Required when a construction permit is not, for new sources or modifications above approval thresholds, most minor NSPS and NESHAP sources, and sources accepting operational restrictions under K.A.R. 28-19-302(c). Fee $750 per application (K.A.R. 28-19-304(a)).",
+      "citation": "K.A.R. 28-19-300(b)",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF",
+      "thresholds": "Per KDHE overview (2016): PM 5 lb/hr; agricultural PM10 5 lb/hr; other PM10 2 lb/hr; SO2/SO3 2 lb/hr; CO 50 lb/24-hr; VOC 50 lb/24-hr (15 lb/24-hr or 3 lb/hr in Wyandotte or Johnson counties); NOx 50 lb/24-hr; lead 0.1 lb/hr."
+    },
+    {
+      "type": "minor-nsr",
+      "name": "State Construction Permit",
+      "description": "Required for new sources and modifications where potential-to-emit reaches the permit threshold, plus Title IV affected sources, most incinerators, and new major HAP sources. Land clearing and equipment purchase may occur before the permit; foundation work may not.",
+      "citation": "K.A.R. 28-19-300(a)",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF",
+      "thresholds": "Per KDHE overview (PTE, tons/yr): PM 25; PM10 15; agricultural PM/PM10 100; SO2/SO3 40; CO 100; VOC 40; NOx 40; lead 0.6; single HAP 10; combined HAPs 25."
+    },
+    {
+      "type": "pbr",
+      "name": "Class II Permits-by-Rule",
+      "description": "Available for reciprocating engines, organic solvent evaporative sources, hot mix asphalt facilities, and low-emitting sources. $50 fee.",
+      "citation": "K.A.R. 28-19-500(b) series",
+      "url": "https://www.kdhe.ks.gov/313/Permitting",
+      "thresholds": "Low-emitting sources: actual emissions below 50% of major source thresholds (restated from KDHE)."
+    },
+    {
+      "type": "state-operating",
+      "name": "Class II Operating Permit (FESOP)",
+      "description": "Lowers potential to emit through federally enforceable limits. Fees: initial $200, modification $100, general application $50.",
+      "citation": "K.A.R. 28-19-500(b)",
+      "url": "https://www.kdhe.ks.gov/313/Permitting"
+    },
+    {
+      "type": "psd",
+      "name": "Prevention of Significant Deterioration",
+      "description": "Adopts portions of 40 CFR 52.21.",
+      "citation": "K.A.R. 28-19-350",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF",
+      "thresholds": "Per KDHE overview: major source 100 tons/yr PTE for listed categories, 250 tons/yr otherwise. Significance levels include CO 100, NOx 40, SO2 40, PM 25, PM10 15, PM2.5 10, VOC 40, lead 0.6, GHG 75,000 tons CO2e."
+    },
+    {
+      "type": "title-v",
+      "name": "Class I Operating Permit (Title V)",
+      "description": "Consolidates all air requirements; satisfies Title V. Also required for Title IV sources, CAA §129(e) incinerators, non-exempt NSPS/NESHAP sources, and NSPS WWW landfills. Fees: initial $3,000, renewal $3,000, significant modification $1,500.",
+      "citation": "K.A.R. 28-19-500(a)",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF",
+      "thresholds": "Per KDHE overview: individual HAP 10 tons/yr or more; combined HAPs 25 tons/yr or more; any other regulated pollutant 100 tons/yr or more."
+    }
   ],
-  "oilAndGas": { "summary": "KDHE notes gas well drilling and completion are subject to NSPS OOOO (40 CFR 60.5375(a)), and initial drilling requires a Gas Well Notification Form. Other oil and gas activities may need a construction permit or approval; compressor engines can use the reciprocating engine Class II permit-by-rule.", "programs": [
-    { "type": "registration", "name": "Gas Well Notification", "description": "Notification for initial gas well drilling subject to NSPS OOOO.", "citation": "40 CFR 60.5375(a)", "url": "https://www.kdhe.ks.gov/313/Permitting" },
-    { "type": "pbr", "name": "Class II permit-by-rule: reciprocating engines", "description": "Permit-by-rule for reciprocating engines.", "url": "https://www.kdhe.ks.gov/313/Permitting" }
-  ] },
+  "oilAndGas": {
+    "summary": "KDHE notes gas well drilling and completion are subject to NSPS OOOO (40 CFR 60.5375(a)), and initial drilling requires a Gas Well Notification Form. Other oil and gas activities may need a construction permit or approval; compressor engines can use the reciprocating engine Class II permit-by-rule.",
+    "programs": [
+      {
+        "type": "registration",
+        "name": "Gas Well Notification",
+        "description": "Notification for initial gas well drilling subject to NSPS OOOO.",
+        "citation": "40 CFR 60.5375(a)",
+        "url": "https://www.kdhe.ks.gov/313/Permitting"
+      },
+      {
+        "type": "pbr",
+        "name": "Class II permit-by-rule: reciprocating engines",
+        "description": "Permit-by-rule for reciprocating engines.",
+        "url": "https://www.kdhe.ks.gov/313/Permitting"
+      }
+    ]
+  },
   "regulations": [
-    { "citation": "K.A.R. 28-19-300 to 28-19-304", "title": "Construction permits and approvals; fees" },
-    { "citation": "K.A.R. 28-19-350", "title": "Prevention of significant deterioration" },
-    { "citation": "K.A.R. 28-19-500 series", "title": "Operating permits (Class I and Class II)" }
+    {
+      "citation": "K.A.R. 28-19-300 to 28-19-304",
+      "title": "Construction permits and approvals; fees"
+    },
+    {
+      "citation": "K.A.R. 28-19-350",
+      "title": "Prevention of significant deterioration"
+    },
+    {
+      "citation": "K.A.R. 28-19-500 series",
+      "title": "Operating permits (Class I and Class II)"
+    }
   ],
   "forms": [
-    { "name": "Process/Equipment Description Forms", "url": "https://www.kdhe.ks.gov/339/Process-Equipment-Description-Forms" },
-    { "name": "Permit and Approvals Information Sheet", "url": "https://www.kdhe.ks.gov/DocumentCenter/View/21165" },
-    { "name": "Gasoline Dispensing Standard Construction Permit/Approval", "url": "https://www.kdhe.ks.gov/DocumentCenter/View/1223/Standard-Construction-Permit--Approval-for-Gasoline-Dispensing-Facilities-PDF" }
+    {
+      "name": "Process/Equipment Description Forms",
+      "url": "https://www.kdhe.ks.gov/339/Process-Equipment-Description-Forms"
+    },
+    {
+      "name": "Permit and Approvals Information Sheet",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/21165"
+    },
+    {
+      "name": "Gasoline Dispensing Standard Construction Permit/Approval",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/1223/Standard-Construction-Permit--Approval-for-Gasoline-Dispensing-Facilities-PDF"
+    }
   ],
   "guidance": [
-    { "name": "Overview of Kansas Air Quality Program (Rev. 8, 2016)", "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF" },
-    { "name": "Air Construction Permit FAQs", "url": "https://www.kdhe.ks.gov/Faq.aspx?TID=22" },
-    { "name": "Air Operating Permit FAQs", "url": "https://www.kdhe.ks.gov/Faq.aspx?TID=20" },
-    { "name": "Air Permit Modeling", "url": "https://www.kdhe.ks.gov/333/Air-Permit-Modeling" },
-    { "name": "Permit Technical Guidance", "url": "https://www.kdhe.ks.gov/335/Permit-Technical-Guidance-Information" }
+    {
+      "name": "Overview of Kansas Air Quality Program (Rev. 8, 2016)",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF"
+    },
+    {
+      "name": "Air Construction Permit FAQs",
+      "url": "https://www.kdhe.ks.gov/Faq.aspx?TID=22"
+    },
+    {
+      "name": "Air Operating Permit FAQs",
+      "url": "https://www.kdhe.ks.gov/Faq.aspx?TID=20"
+    },
+    {
+      "name": "Air Permit Modeling",
+      "url": "https://www.kdhe.ks.gov/333/Air-Permit-Modeling"
+    },
+    {
+      "name": "Permit Technical Guidance",
+      "url": "https://www.kdhe.ks.gov/335/Permit-Technical-Guidance-Information"
+    }
   ],
-  "ePermitting": { "name": "KEIMS (Kansas Environmental Information Management System)", "url": "https://www.kdhe.ks.gov/249/KS-Environmental-Information-Management-" },
+  "ePermitting": {
+    "name": "KEIMS (Kansas Environmental Information Management System)",
+    "url": "https://www.kdhe.ks.gov/249/KS-Environmental-Information-Management-"
+  },
   "sources": [
-    { "name": "KDHE Bureau of Air Permitting", "url": "https://www.kdhe.ks.gov/313/Permitting" },
-    { "name": "KDHE Overview of Kansas Air Quality Program", "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF" }
+    {
+      "name": "KDHE Bureau of Air Permitting",
+      "url": "https://www.kdhe.ks.gov/313/Permitting"
+    },
+    {
+      "name": "KDHE Overview of Kansas Air Quality Program",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF"
+    }
   ],
-  "lastReviewed": "2026-10-25", "verification": "verified",
+  "lastReviewed": "2026-10-25",
+  "verification": "verified",
   "notes": "Thresholds come from KDHE's 2016 program overview, which says to consult the official regulations before final decisions. Local air agencies in Kansas were not reviewed."
 }

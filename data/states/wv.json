@@ -21,9 +21,10 @@
     {
       "type": "general",
       "name": "General Permit Registrations (Class I and Class II)",
-      "description": "G10-D coal preparation/handling; G20-C hot mix asphalt (minor); G33-A natural gas compressor station spark-ignition engines 25-500 hp (Class I); G35-E natural gas compressor and/or dehydration facilities; G40-C nonmetallic minerals processing; G50-C concrete batch plants (minor); G60-D emergency generators (Class II); G65-D single emergency generator (Class I); G70-E natural gas production at the well site. Class I: no public notice, 45-day review, $250. Class II: 30-day applicant notice, 45-day review, $500 plus 45CSR22 fees.",
+      "description": "G10-D coal preparation/handling; G20-C hot mix asphalt (minor); G33-A natural gas compressor station spark-ignition engines (Class I); G35-E natural gas compressor and/or dehydration facilities; G40-C nonmetallic minerals processing; G50-C concrete batch plants (minor); G60-D emergency generators (Class II); G65-D single emergency generator (Class I); G70-E natural gas production at the well site. Class I: no public notice, 45-day review, $250. Class II: 30-day applicant notice, 45-day review, $500 plus 45CSR22 fees.",
       "citation": "45CSR13",
-      "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx"
+      "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx",
+      "thresholds": "G33-A: engines of 25-500 hp (restated from DAQ)."
     },
     {
       "type": "minor-nsr",
@@ -44,9 +45,10 @@
     {
       "type": "nnsr",
       "name": "Nonattainment NSR",
-      "description": "Sources with potential to emit 100 tons/year or more in nonattainment areas and major modifications; requires LAER and offsets.",
+      "description": "New major sources in nonattainment areas and major modifications; requires LAER and offsets.",
       "citation": "45CSR19",
-      "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf"
+      "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf",
+      "thresholds": "Potential to emit 100 tons/year or more (restated from the DAQ Permitting Handbook)."
     },
     {
       "type": "title-v",
@@ -78,37 +80,95 @@
       {
         "type": "general",
         "name": "G33-A: Natural Gas Compressor Station Engines",
-        "description": "Class I general permit for spark-ignition engines of 25 to 500 hp, incorporating NSPS JJJJ.",
+        "description": "Class I general permit for small spark-ignition engines, incorporating NSPS JJJJ.",
         "citation": "45CSR13",
-        "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx"
+        "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx",
+        "thresholds": "Engines of 25 to 500 hp (restated from DAQ)."
       }
     ]
   },
   "regulations": [
-    { "citation": "45CSR13", "title": "Permits for Construction, Modification, Relocation and Operation of Stationary Sources", "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR13.pdf" },
-    { "citation": "45CSR14", "title": "Prevention of Significant Deterioration" },
-    { "citation": "45CSR19", "title": "Permits for Construction and Major Modification of Major Stationary Sources in Nonattainment Areas" },
-    { "citation": "45CSR22", "title": "Air Quality Management Fee Program", "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR22.pdf" },
-    { "citation": "45CSR30", "title": "Requirements for Operating Permits (Title V)" },
-    { "citation": "45CSR6", "title": "Control of air pollution from combustion of refuse (flares)", "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR6.pdf" }
+    {
+      "citation": "45CSR13",
+      "title": "Permits for Construction, Modification, Relocation and Operation of Stationary Sources",
+      "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR13.pdf"
+    },
+    {
+      "citation": "45CSR14",
+      "title": "Prevention of Significant Deterioration"
+    },
+    {
+      "citation": "45CSR19",
+      "title": "Permits for Construction and Major Modification of Major Stationary Sources in Nonattainment Areas"
+    },
+    {
+      "citation": "45CSR22",
+      "title": "Air Quality Management Fee Program",
+      "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR22.pdf"
+    },
+    {
+      "citation": "45CSR30",
+      "title": "Requirements for Operating Permits (Title V)"
+    },
+    {
+      "citation": "45CSR6",
+      "title": "Control of air pollution from combustion of refuse (flares)",
+      "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR6.pdf"
+    }
   ],
   "forms": [
-    { "name": "General Permit Registration (all GPs)", "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx" },
-    { "name": "G70-E General Permit", "url": "https://apps.dep.wv.gov/Documents/DAQ/GeneralPermit/G70-E/General%20Permit%20G70-E.pdf" },
-    { "name": "Well Completion Notification Instructions", "url": "https://apps.dep.wv.gov/Documents/DAQ/Oil-and-Gas/Well%20Completion%20Notification%20Instructions.pdf" }
+    {
+      "name": "General Permit Registration (all GPs)",
+      "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx"
+    },
+    {
+      "name": "G70-E General Permit",
+      "url": "https://apps.dep.wv.gov/Documents/DAQ/GeneralPermit/G70-E/General%20Permit%20G70-E.pdf"
+    },
+    {
+      "name": "Well Completion Notification Instructions",
+      "url": "https://apps.dep.wv.gov/Documents/DAQ/Oil-and-Gas/Well%20Completion%20Notification%20Instructions.pdf"
+    }
   ],
   "guidance": [
-    { "name": "DAQ Permitting Handbook", "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf" },
-    { "name": "Permit Levels for 45CSR13", "url": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx" },
-    { "name": "Oil & Gas Well Pads Guidance: Air Permitting and Compliance", "url": "https://dep.wv.gov/daq/Pages/Oil-and-Gas.aspx" },
-    { "name": "G35-E Fact Sheet (draft)", "url": "https://dep.wv.gov/daq/permitting/Documents/GeneralPermits/G35-Draft/G35-E%20Fact%20Sheet%20DRAFT.pdf" }
+    {
+      "name": "DAQ Permitting Handbook",
+      "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf"
+    },
+    {
+      "name": "Permit Levels for 45CSR13",
+      "url": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx"
+    },
+    {
+      "name": "Oil & Gas Well Pads Guidance: Air Permitting and Compliance",
+      "url": "https://dep.wv.gov/daq/Pages/Oil-and-Gas.aspx"
+    },
+    {
+      "name": "G35-E Fact Sheet (draft)",
+      "url": "https://dep.wv.gov/daq/permitting/Documents/GeneralPermits/G35-Draft/G35-E%20Fact%20Sheet%20DRAFT.pdf"
+    }
   ],
-  "fees": { "name": "45CSR22 Air Quality Management Fee Program", "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR22.pdf" },
+  "fees": {
+    "name": "45CSR22 Air Quality Management Fee Program",
+    "url": "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR22.pdf"
+  },
   "sources": [
-    { "name": "WVDEP Permit Levels for 45CSR13", "url": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx" },
-    { "name": "WVDEP Air General Permits", "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx" },
-    { "name": "WVDEP Oil & Gas Well Pads Guidance", "url": "https://dep.wv.gov/daq/Pages/Oil-and-Gas.aspx" },
-    { "name": "WVDEP DAQ Permitting Handbook", "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf" }
+    {
+      "name": "WVDEP Permit Levels for 45CSR13",
+      "url": "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx"
+    },
+    {
+      "name": "WVDEP Air General Permits",
+      "url": "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx"
+    },
+    {
+      "name": "WVDEP Oil & Gas Well Pads Guidance",
+      "url": "https://dep.wv.gov/daq/Pages/Oil-and-Gas.aspx"
+    },
+    {
+      "name": "WVDEP DAQ Permitting Handbook",
+      "url": "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",

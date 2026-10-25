@@ -10,10 +10,26 @@
     "permitsUrl": "https://www.tn.gov/environment/permits/air.html"
   },
   "localAgencies": [
-    { "name": "Chattanooga-Hamilton County Air Pollution Control Bureau", "jurisdiction": "City of Chattanooga and Hamilton County, TN", "url": "https://apcb.org/" },
-    { "name": "Knox County Department of Air Quality Management", "jurisdiction": "Knox County, TN", "url": "https://www.knoxcounty.org/airquality/" },
-    { "name": "Memphis-Shelby County Health Department, Pollution Control Section", "jurisdiction": "City of Memphis and Shelby County, TN", "url": "https://www.shelbytnhealth.com/168/Air-Planning" },
-    { "name": "Metro Public Health Department, Division of Air Pollution Control", "jurisdiction": "City of Nashville and Davidson County, TN", "url": "https://www.nashville.gov/departments/health/environmental-health/air-pollution-control" }
+    {
+      "name": "Chattanooga-Hamilton County Air Pollution Control Bureau",
+      "jurisdiction": "City of Chattanooga and Hamilton County, TN",
+      "url": "https://apcb.org/"
+    },
+    {
+      "name": "Knox County Department of Air Quality Management",
+      "jurisdiction": "Knox County, TN",
+      "url": "https://www.knoxcounty.org/airquality/"
+    },
+    {
+      "name": "Memphis-Shelby County Health Department, Pollution Control Section",
+      "jurisdiction": "City of Memphis and Shelby County, TN",
+      "url": "https://www.shelbytnhealth.com/168/Air-Planning"
+    },
+    {
+      "name": "Metro Public Health Department, Division of Air Pollution Control",
+      "jurisdiction": "City of Nashville and Davidson County, TN",
+      "url": "https://www.nashville.gov/departments/health/environmental-health/air-pollution-control"
+    }
   ],
   "overview": "TDEC's Division of Air Pollution Control requires a construction permit before building or modifying an air contaminant source unless it is exempt (Rule 1200-03-09), followed by an operating permit: true minor, conditional major (limits to stay below Title V), or Title V. Combined construction/operating permits are available. General permits (via Notice of Intent and Notice of Coverage) and Permits by Rule (via NOI and Notice of Authorization, Rule 1200-03-09-.07) cover listed categories. Major sources need PSD (BACT) in attainment areas or nonattainment NSR (LAER). Four local programs (Chattanooga-Hamilton, Knox, Memphis-Shelby, Nashville-Davidson) permit in their areas. Non-confidential submittals can be emailed to Air.Pollution.Control@tn.gov.",
   "permitTypes": [
@@ -35,8 +51,9 @@
     {
       "type": "general",
       "name": "General Permits",
-      "description": "G00001 perchloroethylene dry cleaners and G00002 petroleum solvent dry cleaners (expire February 1, 2027); G00003 concrete batch plants with emissions under 10 tons/year (expires March 11, 2034); G00004 nonmetallic mineral crushing and sizing (expires April 17, 2034); G00005 large concrete batch plants (expires May 15, 2035). Obtained through a Notice of Intent and Notice of Coverage. Construction application fees and annual fees apply to most general permit sources since 2024.",
-      "url": "https://www.tn.gov/environment/permits/air/general.html"
+      "description": "G00001 perchloroethylene dry cleaners and G00002 petroleum solvent dry cleaners (expire February 1, 2027); G00003 concrete batch plants (expires March 11, 2034); G00004 nonmetallic mineral crushing and sizing (expires April 17, 2034); G00005 large concrete batch plants (expires May 15, 2035). Obtained through a Notice of Intent and Notice of Coverage. Construction application fees and annual fees apply to most general permit sources since 2024.",
+      "url": "https://www.tn.gov/environment/permits/air/general.html",
+      "thresholds": "G00003: concrete batch plants with emissions under 10 tons/year (restated from TDEC)."
     },
     {
       "type": "minor-nsr",
@@ -82,27 +99,74 @@
     "programs": []
   },
   "regulations": [
-    { "citation": "Tenn. Comp. R. & Regs. Chapter 1200-03", "title": "Air Pollution Control Rules", "url": "https://publications.tnsosfiles.com/rules/1200/1200-03/1200-03.htm" },
-    { "citation": "Rule 1200-03-09", "title": "Construction and Operating Permits" },
-    { "citation": "Rule 1200-03-26", "title": "Fees (non-Title V fee rulemaking)", "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/publicnotices/apc_ppo-chapter-1200-03-26-non-title-v-fees-signature-copy.pdf" },
-    { "citation": "Rule 1200-03-18", "title": "Volatile Organic Compounds (referenced for auto body PBR exclusions)" }
+    {
+      "citation": "Tenn. Comp. R. & Regs. Chapter 1200-03",
+      "title": "Air Pollution Control Rules",
+      "url": "https://publications.tnsosfiles.com/rules/1200/1200-03/1200-03.htm"
+    },
+    {
+      "citation": "Rule 1200-03-09",
+      "title": "Construction and Operating Permits"
+    },
+    {
+      "citation": "Rule 1200-03-26",
+      "title": "Fees (non-Title V fee rulemaking)",
+      "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/publicnotices/apc_ppo-chapter-1200-03-26-non-title-v-fees-signature-copy.pdf"
+    },
+    {
+      "citation": "Rule 1200-03-18",
+      "title": "Volatile Organic Compounds (referenced for auto body PBR exclusions)"
+    }
   ],
   "forms": [
-    { "name": "Construction Permit page (application checklists)", "url": "https://www.tn.gov/environment/permits/air/construction.html" },
-    { "name": "General Permits (NOI forms)", "url": "https://www.tn.gov/environment/permits/air/general.html" },
-    { "name": "HAP list", "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apcmoved/permit_air_hap-list.pdf" }
+    {
+      "name": "Construction Permit page (application checklists)",
+      "url": "https://www.tn.gov/environment/permits/air/construction.html"
+    },
+    {
+      "name": "General Permits (NOI forms)",
+      "url": "https://www.tn.gov/environment/permits/air/general.html"
+    },
+    {
+      "name": "HAP list",
+      "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apcmoved/permit_air_hap-list.pdf"
+    }
   ],
   "guidance": [
-    { "name": "Air Pollution Permitting Workshop: General Permitting Information (August 2025)", "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf" },
-    { "name": "Air Permits in Tennessee", "url": "https://www.tn.gov/environment/permits/air.html" },
-    { "name": "Air Notices and Hearings", "url": "https://www.tn.gov/environment/ppo/air.html" }
+    {
+      "name": "Air Pollution Permitting Workshop: General Permitting Information (August 2025)",
+      "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf"
+    },
+    {
+      "name": "Air Permits in Tennessee",
+      "url": "https://www.tn.gov/environment/permits/air.html"
+    },
+    {
+      "name": "Air Notices and Hearings",
+      "url": "https://www.tn.gov/environment/ppo/air.html"
+    }
   ],
   "sources": [
-    { "name": "TDEC Air Permits in Tennessee", "url": "https://www.tn.gov/environment/permits/air.html" },
-    { "name": "TDEC Construction Permits", "url": "https://www.tn.gov/environment/permits/air/construction.html" },
-    { "name": "TDEC General Permits", "url": "https://www.tn.gov/environment/permits/air/general.html" },
-    { "name": "TDEC Permitting Workshop (August 2025)", "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf" },
-    { "name": "EPA Clean Air Act Permitting in Tennessee", "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-tennessee" }
+    {
+      "name": "TDEC Air Permits in Tennessee",
+      "url": "https://www.tn.gov/environment/permits/air.html"
+    },
+    {
+      "name": "TDEC Construction Permits",
+      "url": "https://www.tn.gov/environment/permits/air/construction.html"
+    },
+    {
+      "name": "TDEC General Permits",
+      "url": "https://www.tn.gov/environment/permits/air/general.html"
+    },
+    {
+      "name": "TDEC Permitting Workshop (August 2025)",
+      "url": "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf"
+    },
+    {
+      "name": "EPA Clean Air Act Permitting in Tennessee",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-tennessee"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",

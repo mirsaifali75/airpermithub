@@ -30,6 +30,8 @@ export interface PermitProgram {
   url?: string;
   /** Verbatim threshold text from the source at `url`, if any. */
   quote?: string;
+  /** Thresholds restated closely from the source at `url` (not verbatim); confirm against the source. */
+  thresholds?: string;
 }
 
 export interface LocalAgency {

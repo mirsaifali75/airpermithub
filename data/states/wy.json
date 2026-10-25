@@ -56,7 +56,7 @@
     }
   ],
   "oilAndGas": {
-    "summary": "Wyoming law (W.S. 35-11-801(e)) lets oil and gas production sites that meet BACT begin construction without prior authorization. Since 1997, DEQ's Oil and Gas Production Facilities Permitting Guidance has defined BACT for these sites. The May 2016 (8th) update merged the former Statewide and Concentrated Development Areas into one area. In that area, single-well tanks and dehydration units need controls when VOC and HAP emissions are 6 tpy or more, and truck loading statewide needs controls at 6 tpy or more. The Upper Green River Basin (UGRB) was designated an ozone nonattainment area in 2012 under the 2008 standard; EPA found it attained in 2016, and DEQ began redesignation in December 2024. In 2024 DEQ adopted an emergency rule to incorporate EPA's NSPS OOOOb methane rule.",
+    "summary": "Wyoming law (W.S. 35-11-801(e)) lets oil and gas production sites that meet BACT begin construction without prior authorization. Since 1997, DEQ's Oil and Gas Production Facilities Permitting Guidance has defined BACT for these sites; the May 2016 (8th) update merged the former Statewide and Concentrated Development Areas into one area (control levels are in the guidance entry). The Upper Green River Basin (UGRB) was designated an ozone nonattainment area in 2012 under the 2008 standard; EPA found it attained in 2016, and DEQ began redesignation in December 2024. In 2024 DEQ adopted an emergency rule to incorporate EPA's NSPS OOOOb methane rule.",
     "programs": [
       {
         "type": "other",
@@ -64,7 +64,8 @@
         "description": "Defines presumptive BACT and permitting procedures for oil and gas production facilities, including tanks, dehydration units, truck loading and pumping unit engines. Applications are submitted through IMPACT.",
         "citation": "W.S. 35-11-801(e); WAQSR Ch. 6, Sec. 2",
         "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
-        "quote": "6 tons per year or more"
+        "quote": "6 tons per year or more",
+        "thresholds": "Controls for single-well tanks and dehydration units at VOC/HAP emissions of 6 tpy or more; truck loading controls statewide at 6 tpy or more (restated from DEQ 2016 release)."
       },
       {
         "type": "other",
@@ -81,30 +82,87 @@
     ]
   },
   "regulations": [
-    { "citation": "WAQSR Ch. 6, Sec. 2", "title": "Permit requirements for construction, modification, and operation", "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf" },
-    { "citation": "WAQSR Ch. 6, Sec. 3", "title": "Operating permits (Title V)" },
-    { "citation": "WAQSR Ch. 6, Sec. 4", "title": "Prevention of significant deterioration", "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf" },
-    { "citation": "WAQSR Ch. 6, Sec. 13", "title": "Nonattainment new source review permit requirements", "url": "https://www.govinfo.gov/content/pkg/FR-2016-06-02/pdf/2016-12725.pdf" },
-    { "citation": "WAQSR Ch. 6, Sec. 14", "title": "Incorporation by reference" },
-    { "citation": "WAQSR Ch. 8, Sec. 6", "title": "Upper Green River Basin permit by rule for existing sources" },
-    { "citation": "W.S. 35-11-801(e)", "title": "Oil and gas production facility construction authority (BACT)" }
+    {
+      "citation": "WAQSR Ch. 6, Sec. 2",
+      "title": "Permit requirements for construction, modification, and operation",
+      "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf"
+    },
+    {
+      "citation": "WAQSR Ch. 6, Sec. 3",
+      "title": "Operating permits (Title V)"
+    },
+    {
+      "citation": "WAQSR Ch. 6, Sec. 4",
+      "title": "Prevention of significant deterioration",
+      "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf"
+    },
+    {
+      "citation": "WAQSR Ch. 6, Sec. 13",
+      "title": "Nonattainment new source review permit requirements",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2016-06-02/pdf/2016-12725.pdf"
+    },
+    {
+      "citation": "WAQSR Ch. 6, Sec. 14",
+      "title": "Incorporation by reference"
+    },
+    {
+      "citation": "WAQSR Ch. 8, Sec. 6",
+      "title": "Upper Green River Basin permit by rule for existing sources"
+    },
+    {
+      "citation": "W.S. 35-11-801(e)",
+      "title": "Oil and gas production facility construction authority (BACT)"
+    }
   ],
   "forms": [
-    { "name": "IMPACT and OpenAir (electronic applications and public documents)", "url": "https://deq.wyoming.gov/aqd/impact-and-open-air/" },
-    { "name": "OpenAir public permit documents", "url": "https://openair.wyo.gov" }
+    {
+      "name": "IMPACT and OpenAir (electronic applications and public documents)",
+      "url": "https://deq.wyoming.gov/aqd/impact-and-open-air/"
+    },
+    {
+      "name": "OpenAir public permit documents",
+      "url": "https://openair.wyo.gov"
+    }
   ],
   "guidance": [
-    { "name": "New Source Review program", "url": "https://deq.wyoming.gov/aqd/new-source-review/" },
-    { "name": "Oil and Gas Production Facilities Permitting Guidance (2016 update announcement)", "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/" },
-    { "name": "EPA Wyoming Title V program evaluation", "url": "https://www.epa.gov/caa-permitting/wyoming-title-v-program-evaluation" }
+    {
+      "name": "New Source Review program",
+      "url": "https://deq.wyoming.gov/aqd/new-source-review/"
+    },
+    {
+      "name": "Oil and Gas Production Facilities Permitting Guidance (2016 update announcement)",
+      "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/"
+    },
+    {
+      "name": "EPA Wyoming Title V program evaluation",
+      "url": "https://www.epa.gov/caa-permitting/wyoming-title-v-program-evaluation"
+    }
   ],
-  "ePermitting": { "name": "IMPACT", "url": "https://deq.wyoming.gov/aqd/impact-and-open-air/" },
+  "ePermitting": {
+    "name": "IMPACT",
+    "url": "https://deq.wyoming.gov/aqd/impact-and-open-air/"
+  },
   "sources": [
-    { "name": "Wyoming DEQ New Source Review", "url": "https://deq.wyoming.gov/aqd/new-source-review/" },
-    { "name": "EPA CAA Permitting in Wyoming", "url": "https://www.epa.gov/caa-permitting/caa-permitting-wyoming" },
-    { "name": "EPA Wyoming SIP Table C (Chapter 6 text)", "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf" },
-    { "name": "Federal Register 2016-12725 (Ch. 6 Sec. 13 approval)", "url": "https://www.federalregister.gov/documents/2016/06/02/2016-12725/approval-and-promulgation-of-air-quality-implementation-plans-wyoming-revisions-to-wyoming-air" },
-    { "name": "Wyoming DEQ Oil and Gas Guidance release (May 2016)", "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/" }
+    {
+      "name": "Wyoming DEQ New Source Review",
+      "url": "https://deq.wyoming.gov/aqd/new-source-review/"
+    },
+    {
+      "name": "EPA CAA Permitting in Wyoming",
+      "url": "https://www.epa.gov/caa-permitting/caa-permitting-wyoming"
+    },
+    {
+      "name": "EPA Wyoming SIP Table C (Chapter 6 text)",
+      "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf"
+    },
+    {
+      "name": "Federal Register 2016-12725 (Ch. 6 Sec. 13 approval)",
+      "url": "https://www.federalregister.gov/documents/2016/06/02/2016-12725/approval-and-promulgation-of-air-quality-implementation-plans-wyoming-revisions-to-wyoming-air"
+    },
+    {
+      "name": "Wyoming DEQ Oil and Gas Guidance release (May 2016)",
+      "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "partial",

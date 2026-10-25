@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ArrowRight, Building2, ExternalLink, FileText, Fuel, Landmark, Quote, Route, ShieldCheck } from "lucide-react";
+import { ArrowRight, Building2, Gauge, ExternalLink, FileText, Fuel, Landmark, Quote, Route, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
@@ -55,6 +55,12 @@ function ProgramCard({ p }: { p: PermitProgram }) {
           <figcaption className="mb-1 flex items-center gap-1.5 text-xs font-semibold text-muted"><Quote className="h-3.5 w-3.5" aria-hidden="true" /> Quoted verbatim from the agency source</figcaption>
           <blockquote className="text-sm text-slate-700">{p.quote}</blockquote>
         </figure>
+      )}
+      {p.thresholds && (
+        <div className="mt-3 rounded-xl border border-amber-300/50 bg-amber-50/60 px-4 py-3">
+          <p className="mb-1 flex items-center gap-1.5 text-xs font-semibold text-amber-900"><Gauge className="h-3.5 w-3.5" aria-hidden="true" /> Thresholds (summarized from source, not a quotation)</p>
+          <p className="text-sm text-slate-700">{p.thresholds}</p>
+        </div>
       )}
       <div className="mt-3 flex flex-wrap items-center gap-3">
         {p.citation && <CitationBadge>{p.citation}</CitationBadge>}

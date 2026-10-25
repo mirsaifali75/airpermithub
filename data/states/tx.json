@@ -22,9 +22,10 @@
     {
       "type": "exemption",
       "name": "De minimis facilities",
-      "description": "Facilities or sources meeting the de minimis criteria do not have to obtain any registration or authorization prior to construction. A site qualifies by appearing on the TCEQ De Minimis Facilities or Sources List, by staying under the site-wide Materials and Usage List amounts, or by staying within the ESL list and emission rate caps in 116.119(a)(3). Examples from the Materials and Usage List: 50 gal/yr cleaning and stripping solvents, 100 gal/yr coatings, 1,000 lb/yr dyes, and 2,500 gal/yr water-based surfactants and detergents (restated from TCEQ RG-404, 2011; confirm against the current list).",
+      "description": "Facilities or sources meeting the de minimis criteria do not have to obtain any registration or authorization prior to construction. A site qualifies by appearing on the TCEQ De Minimis Facilities or Sources List, by staying under the site-wide Materials and Usage List amounts, or by staying within the ESL list and emission rate caps in 116.119(a)(3).",
       "citation": "30 TAC §116.119(a)",
-      "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/de_minimis.html"
+      "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/de_minimis.html",
+      "thresholds": "Materials and Usage List examples: 50 gal/yr cleaning and stripping solvents, 100 gal/yr coatings, 1,000 lb/yr dyes, 2,500 gal/yr water-based surfactants and detergents (restated from TCEQ RG-404, 2011; confirm against the current list)."
     },
     {
       "type": "pbr",
