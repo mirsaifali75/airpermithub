@@ -7,15 +7,17 @@ import {
 import Link from "next/link";
 import { useId, useMemo, useState } from "react";
 import { ApplicabilityBadge, CitationBadge, VerificationBadge } from "@/components/ui/Badge";
+import type { ApplicabilityStatus } from "@/lib/data/types";
 import { Button, buttonClass } from "@/components/ui/Button";
 import { Disclaimer } from "@/components/ui/Notices";
 import { cn } from "@/lib/cn";
-import { equipmentOptions, facilityTypesByIndustry, permitFinderIndustries } from "@/lib/data/equipment";
+import { equipmentOptions, facilityTypesByIndustry, permitFinderIndustries, pollutants as pollutantOptions } from "@/lib/data/equipment";
 import type { StateProfileSummary } from "@/lib/data/state-profiles";
 import { stateTiles } from "@/lib/data/states";
 import { screen, type ScreeningInput, type ScreeningItem } from "@/lib/screening";
 
-const steps = ["Facility", "Location", "Emissions", "Operations", "Results"] as const;
+const steps = ["Facility", "Location", "Equipment", "Emissions", "Operations", "Applicability", "Results"] as const;
+const RESULTS = steps.length - 1;
 
 const industryIcon: Record<(typeof permitFinderIndustries)[number], { icon: LucideIcon; label: string }> = {
   "Oil & Gas": { icon: Droplets, label: "Oil & Gas Production" },
@@ -53,12 +55,25 @@ interface FormState extends Required<Pick<ScreeningInput, "state" | "industry" |
   pteKnown: NonNullable<ScreeningInput["pteKnown"]> | "";
   controls: string[];
   schedule: NonNullable<ScreeningInput["schedule"]> | "";
+  pollutants: string[];
+  datesKnown: NonNullable<ScreeningInput["datesKnown"]> | "";
+  attainment: NonNullable<ScreeningInput["attainment"]> | "";
+  hapStatus: NonNullable<ScreeningInput["hapStatus"]> | "";
 }
 
 const initial: FormState = {
   state: "", county: "", location: "", facilityName: "", industry: "", facilityType: "", equipment: [],
   project: "", existingAuthorization: "", pteKnown: "", controls: [], schedule: "",
+  pollutants: [], datesKnown: "", attainment: "", hapStatus: "",
 };
+
+/** Result tiles, in the order the brief lists the four outcomes. */
+const outcomes: { status: ApplicabilityStatus; label: string; color: string; note: string }[] = [
+  { status: "potentially-applicable", label: "Potentially Applicable", color: "text-brand-600", note: "Worth reviewing for this facility." },
+  { status: "more-info-needed", label: "Additional Review Required", color: "text-amber-700", note: "Depends on facts to compare against the rule." },
+  { status: "insufficient-info", label: "Insufficient Information", color: "text-red-600", note: "A deciding fact was answered \u201cdon\u2019t know\u201d." },
+  { status: "likely-not-applicable", label: "Likely Not Applicable", color: "text-slate-600", note: "Based on the information you entered." },
+];
 
 const field = "h-12 w-full rounded-xl border border-line bg-white px-3 text-ink focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none";
 
@@ -74,7 +89,7 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
     setForm((f) => ({ ...f, [k]: v }));
     setError(null);
   };
-  const toggle = (k: "equipment" | "controls", v: string) =>
+  const toggle = (k: "equipment" | "controls" | "pollutants", v: string) =>
     setForm((f) => {
       const list = f[k];
       let next = list.includes(v) ? list.filter((x) => x !== v) : [...list, v];
@@ -87,7 +102,7 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
     if (step === 0 && !form.facilityType) return "Select a facility type.";
     if (step === 1 && !form.state) return "Select the state where the facility is located.";
     if (step === 2 && form.equipment.length === 0) return "Select at least one emission source.";
-    if (step === 3 && !form.project) return "Tell us whether this is a new facility, a modification, or an existing site.";
+    if (step === 4 && !form.project) return "Tell us whether this is a new facility, a modification, or an existing site.";
     return null;
   };
 
@@ -108,8 +123,11 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
     existingAuthorization: form.existingAuthorization || undefined,
     pteKnown: form.pteKnown || undefined,
     schedule: form.schedule || undefined,
+    datesKnown: form.datesKnown || undefined,
+    attainment: form.attainment || undefined,
+    hapStatus: form.hapStatus || undefined,
   };
-  const result = step === 4 ? screen(input, profiles) : null;
+  const result = step === RESULTS ? screen(input, profiles) : null;
   const profile = profiles.find((p) => p.slug === form.state);
   const stateName = stateTiles.find((s) => s.slug === form.state)?.name;
 
@@ -130,13 +148,13 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
                   aria-current={current ? "step" : undefined}
                   aria-label={`Step ${idx + 1}: ${label}${done ? " (done)" : ""}`}
                   className={cn(
-                    "relative z-10 flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold ring-4 ring-white transition-colors",
+                    "relative z-10 flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold ring-4 ring-white transition-colors disabled:cursor-not-allowed",
                     done ? "bg-brand-600 text-white" : current ? "bg-brand-600 text-white shadow-[0_0_0_6px_rgb(20_125_255/0.15)]" : "bg-slate-100 text-slate-500",
                   )}
                 >
                   {done ? <Check className="h-4 w-4" aria-hidden="true" /> : idx + 1}
                 </button>
-                <span className={cn("mt-2 text-xs font-semibold sm:text-sm", current ? "text-ink" : "text-muted")}>{label}</span>
+                <span className={cn("mt-2 text-xs font-semibold lg:text-sm", current ? "text-ink" : "hidden text-muted sm:block")}>{label}</span>
               </li>
             );
           })}
@@ -249,6 +267,11 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
                 })}
               </div>
             </fieldset>
+          </div>
+        )}
+
+        {step === 3 && (
+          <div className="space-y-7">
             <Choice
               legend="Have you calculated potential to emit (PTE)?"
               hint="PTE drives most applicability decisions. You can calculate it with the Emission Calculators."
@@ -256,10 +279,22 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
               onChange={(v) => set("pteKnown", v as FormState["pteKnown"])}
               options={[{ v: "yes", l: "Yes, I have PTE estimates" }, { v: "no", l: "Not yet" }]}
             />
+            <ChipGroup
+              legend="Pollutants expected at the site"
+              hint="Applicability is decided pollutant by pollutant. Select any you expect."
+              options={[...pollutantOptions]}
+              selected={form.pollutants}
+              onToggle={(v) => toggle("pollutants", v)}
+            />
+            <ChipGroup legend="Emission controls planned or installed" options={controlOptions} selected={form.controls} onToggle={(v) => toggle("controls", v)} />
+            <p className="flex flex-wrap items-center gap-2 rounded-xl bg-canvas px-4 py-3 text-sm text-slate-700">
+              <Calculator className="h-4 w-4 text-brand-500" aria-hidden="true" /> Need numbers first?
+              <Link href="/calculators" target="_blank" className="font-semibold text-brand-600 hover:text-brand-700">Open the Emission Calculators in a new tab</Link>
+            </p>
           </div>
         )}
 
-        {step === 3 && (
+        {step === 4 && (
           <div className="space-y-7">
             <Choice
               legend="What kind of project is this?"
@@ -274,20 +309,6 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
               onChange={(v) => set("existingAuthorization", v as FormState["existingAuthorization"])}
               options={[{ v: "yes", l: "Yes" }, { v: "no", l: "No" }, { v: "unsure", l: "Not sure" }]}
             />
-            <fieldset>
-              <legend className="text-base font-bold text-ink">Emission controls planned or installed</legend>
-              <div className="mt-3 flex flex-wrap gap-2">
-                {controlOptions.map((c) => {
-                  const checked = form.controls.includes(c);
-                  return (
-                    <label key={c} className={cn("cursor-pointer rounded-full border px-3.5 py-2 text-sm transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-cyan-500", checked ? "border-brand-500 bg-brand-50 font-semibold text-brand-700" : "border-line hover:border-brand-200")}>
-                      <input type="checkbox" className="sr-only" checked={checked} onChange={() => toggle("controls", c)} />
-                      {c}
-                    </label>
-                  );
-                })}
-              </div>
-            </fieldset>
             <Choice
               legend="Operating schedule"
               value={form.schedule}
@@ -297,7 +318,57 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
           </div>
         )}
 
-        {step === 4 && result && (
+        {step === 5 && (
+          <div className="space-y-7">
+            <div>
+              <h2 className="text-xl font-bold text-ink">Applicability questions</h2>
+              <p className="mt-1 text-sm text-muted">These facts decide many federal and state programs. &ldquo;Not sure&rdquo; is a fine answer: the results will say which programs need it.</p>
+            </div>
+            <Choice
+              legend="Do you know when each unit was constructed, modified, or reconstructed?"
+              hint="Most NSPS subparts apply by date."
+              value={form.datesKnown}
+              onChange={(v) => set("datesKnown", v as FormState["datesKnown"])}
+              options={[{ v: "yes", l: "Yes" }, { v: "no", l: "Not sure" }]}
+            />
+            <Choice
+              legend="What is the county's attainment status?"
+              hint="Decides between PSD and nonattainment NSR for each pollutant. Designations are listed in 40 CFR Part 81."
+              value={form.attainment}
+              onChange={(v) => set("attainment", v as FormState["attainment"])}
+              options={[{ v: "all-attainment", l: "Attainment for all pollutants" }, { v: "some-nonattainment", l: "Nonattainment for one or more" }, { v: "unsure", l: "Not sure" }]}
+            />
+            <Choice
+              legend="Is the site a major or area source of hazardous air pollutants (HAP)?"
+              hint="Decides which Part 63 NESHAP subparts can apply."
+              value={form.hapStatus}
+              onChange={(v) => set("hapStatus", v as FormState["hapStatus"])}
+              options={[{ v: "major", l: "Major source" }, { v: "area", l: "Area source" }, { v: "unsure", l: "Not sure" }]}
+            />
+            <section className="rounded-2xl border border-line bg-canvas p-5">
+              <h3 className="font-semibold text-ink">Your entries</h3>
+              <dl className="mt-3 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2">
+                {[
+                  { k: "Facility", v: [form.facilityName, form.facilityType, industryIcon[form.industry as keyof typeof industryIcon]?.label].filter(Boolean).join(" · "), to: 0 },
+                  { k: "Location", v: [form.county, stateName].filter(Boolean).join(", "), to: 1 },
+                  { k: "Equipment", v: form.equipment.join(", "), to: 2 },
+                  { k: "Emissions", v: [form.pteKnown === "yes" ? "PTE estimated" : form.pteKnown === "no" ? "PTE not yet calculated" : "", form.pollutants.join(", ")].filter(Boolean).join(" · "), to: 3 },
+                  { k: "Operations", v: [form.project && { new: "New facility", modification: "Modification", existing: "Existing facility" }[form.project], form.schedule && { continuous: "Continuous", limited: "Limited hours" }[form.schedule]].filter(Boolean).join(" · "), to: 4 },
+                ].map((r) => (
+                  <div key={r.k} className="flex min-w-0 items-baseline justify-between gap-3 border-b border-line/70 py-1.5">
+                    <dt className="shrink-0 font-medium text-muted">{r.k}</dt>
+                    <dd className="flex min-w-0 items-baseline gap-2 text-right text-ink">
+                      <span className="truncate">{r.v || "Not entered"}</span>
+                      <button type="button" onClick={() => go(r.to)} className="shrink-0 text-xs font-semibold text-brand-600 hover:text-brand-700">Edit<span className="sr-only"> {r.k}</span></button>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          </div>
+        )}
+
+        {step === RESULTS && result && (
           <div>
             <div className="flex flex-wrap items-start justify-between gap-3">
               <div>
@@ -313,15 +384,11 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
               </div>
             </div>
 
-            <dl className="mt-5 grid grid-cols-3 gap-3">
-              {[
-                { k: "Potentially applicable", v: [...result.pathways, ...result.federalRules].filter((i) => i.status === "potentially-applicable").length, c: "text-brand-600" },
-                { k: "Further review required", v: [...result.pathways, ...result.federalRules].filter((i) => i.status === "more-info-needed").length, c: "text-amber-600" },
-                { k: "Information gaps", v: result.dataGaps.length, c: "text-slate-600" },
-              ].map(({ k, v, c }) => (
-                <div key={k} className="rounded-xl border border-line px-4 py-3">
-                  <dd className={cn("font-display text-2xl font-extrabold", c)}>{v}</dd>
-                  <dt className="text-xs text-muted">{k}</dt>
+            <dl className="mt-5 grid grid-cols-2 gap-3 lg:grid-cols-4">
+              {outcomes.map(({ status, label, color, note }) => (
+                <div key={status} className="flex flex-col-reverse rounded-xl border border-line px-4 py-3">
+                  <dt className="text-xs text-muted"><span className="block font-semibold text-ink">{label}</span>{note}</dt>
+                  <dd className={cn("font-display text-2xl font-extrabold", color)}>{[...result.pathways, ...result.federalRules].filter((i) => i.status === status).length}</dd>
                 </div>
               ))}
             </dl>
@@ -370,8 +437,8 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
           {step > 0 ? (
             <Button variant="subtle" onClick={() => go(step - 1)}><ArrowLeft className="h-4 w-4" aria-hidden="true" /> Back</Button>
           ) : <span />}
-          {step < 4 ? (
-            <Button onClick={next}>{step === 3 ? "See results" : "Next Step"} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Button>
+          {step < RESULTS ? (
+            <Button onClick={next}>{step === RESULTS - 1 ? "See results" : "Next Step"} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Button>
           ) : (
             <Button variant="subtle" onClick={() => { setForm(initial); go(0); }}><RotateCcw className="h-4 w-4" aria-hidden="true" /> Start over</Button>
           )}
@@ -402,6 +469,26 @@ function Choice({ legend, hint, options, value, onChange, required }: { legend: 
   );
 }
 
+function ChipGroup({ legend, hint, options, selected, onToggle }: { legend: string; hint?: string; options: string[]; selected: string[]; onToggle: (v: string) => void }) {
+  return (
+    <fieldset>
+      <legend className="text-base font-bold text-ink">{legend}</legend>
+      {hint && <p className="mt-0.5 text-sm text-muted">{hint}</p>}
+      <div className="mt-3 flex flex-wrap gap-2">
+        {options.map((c) => {
+          const checked = selected.includes(c);
+          return (
+            <label key={c} className={cn("cursor-pointer rounded-full border px-3.5 py-2 text-sm transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-cyan-500", checked ? "border-brand-500 bg-brand-50 font-semibold text-brand-700" : "border-line hover:border-brand-200")}>
+              <input type="checkbox" className="sr-only" checked={checked} onChange={() => onToggle(c)} />
+              {c}
+            </label>
+          );
+        })}
+      </div>
+    </fieldset>
+  );
+}
+
 function ResultGroup({ title, items, empty }: { title: string; items: ScreeningItem[]; empty?: string }) {
   return (
     <section className="mt-8">
@@ -422,7 +509,7 @@ function ResultGroup({ title, items, empty }: { title: string; items: ScreeningI
                 </div>
                 <ApplicabilityBadge status={it.status} />
               </div>
-              <p className="mt-2.5 text-sm text-slate-700"><span className="font-medium text-ink">Why it may apply: </span>{it.why}</p>
+              <p className="mt-2.5 text-sm text-slate-700"><span className="font-medium text-ink">{it.status === "likely-not-applicable" ? "Why it likely doesn’t: " : "Why it’s listed: "}</span>{it.why}</p>
               <p className="mt-1.5 text-sm text-slate-700"><span className="font-medium text-ink">Further review: </span>{it.nextStep}</p>
               {it.href && (
                 <Link href={it.href} className="no-print mt-2 inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:text-brand-700">

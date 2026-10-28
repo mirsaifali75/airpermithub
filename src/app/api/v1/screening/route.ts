@@ -7,7 +7,8 @@ import { site } from "@/lib/site";
 
 /**
  * POST /api/v1/screening — same preliminary screening the Permit Finder runs.
- * Body: { state, county?, industry, facilityType, equipment: string[], controls?, project?, existingAuthorization?, pteKnown?, schedule? }
+ * Body: { state, county?, industry, facilityType, equipment: string[], controls?, pollutants?, project?,
+ *         existingAuthorization?, pteKnown?, schedule?, datesKnown?, attainment?, hapStatus? }
  */
 
 const MAX_BODY_BYTES = 8 * 1024;

@@ -12,7 +12,7 @@ export type ContentStatus =
   | "archived";
 
 /** Screening outcome. Never a legal conclusion. */
-export type ApplicabilityStatus = "potentially-applicable" | "likely-not-applicable" | "more-info-needed";
+export type ApplicabilityStatus = "potentially-applicable" | "likely-not-applicable" | "more-info-needed" | "insufficient-info";
 
 export type ComplianceStatus = "on-track" | "due-soon" | "overdue" | "completed" | "not-evaluated";
 

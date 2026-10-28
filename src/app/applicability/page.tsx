@@ -34,6 +34,7 @@ export default function ApplicabilityPage() {
             <ApplicabilityBadge status="potentially-applicable" />
             <ApplicabilityBadge status="likely-not-applicable" />
             <ApplicabilityBadge status="more-info-needed" />
+            <ApplicabilityBadge status="insufficient-info" />
           </div>
           <p className="mt-2 text-sm text-muted">AirPermitHub never labels a rule &quot;applicable&quot;. That determination belongs to you, your counsel, and the agency.</p>
         </section>

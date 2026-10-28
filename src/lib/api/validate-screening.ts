@@ -1,4 +1,4 @@
-import { equipmentOptions, permitFinderIndustries } from "@/lib/data/equipment";
+import { equipmentOptions, permitFinderIndustries, pollutants as pollutantOptions } from "@/lib/data/equipment";
 import type { ScreeningInput } from "@/lib/screening";
 
 /**
@@ -14,6 +14,8 @@ const projects = ["new", "modification", "existing"] as const;
 const authorizations = ["yes", "no", "unsure"] as const;
 const yesNo = ["yes", "no"] as const;
 const schedules = ["continuous", "limited"] as const;
+const attainments = ["all-attainment", "some-nonattainment", "unsure"] as const;
+const hapStatuses = ["major", "area", "unsure"] as const;
 
 export type ValidationResult = { ok: true; value: ScreeningInput } | { ok: false; errors: string[] };
 
@@ -49,10 +51,18 @@ export function validateScreening(raw: unknown, stateSlugs: ReadonlySet<string>)
     errors.push("controls must be an array of short text values");
   }
 
+  const pollutants = body.pollutants;
+  if (pollutants !== undefined && (!Array.isArray(pollutants) || !pollutants.every((p) => (pollutantOptions as readonly unknown[]).includes(p)))) {
+    errors.push(`pollutants must be an array of: ${pollutantOptions.join(", ")}`);
+  }
+
   const project = optionalEnum(body, "project", projects, errors);
   const existingAuthorization = optionalEnum(body, "existingAuthorization", authorizations, errors);
   const pteKnown = optionalEnum(body, "pteKnown", yesNo, errors);
   const schedule = optionalEnum(body, "schedule", schedules, errors);
+  const datesKnown = optionalEnum(body, "datesKnown", yesNo, errors);
+  const attainment = optionalEnum(body, "attainment", attainments, errors);
+  const hapStatus = optionalEnum(body, "hapStatus", hapStatuses, errors);
 
   if (errors.length > 0) return { ok: false, errors };
 
@@ -69,6 +79,10 @@ export function validateScreening(raw: unknown, stateSlugs: ReadonlySet<string>)
       existingAuthorization,
       pteKnown,
       schedule,
+      pollutants: pollutants ? [...new Set(pollutants as string[])] : undefined,
+      datesKnown,
+      attainment,
+      hapStatus,
     },
   };
 }

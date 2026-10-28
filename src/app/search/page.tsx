@@ -9,7 +9,7 @@ import { buildSearchIndex, exampleQueries, search, type SearchKind } from "@/lib
 
 export const metadata: Metadata = { title: "Search", robots: { index: false } };
 
-const kinds: SearchKind[] = ["Regulation", "State", "Industry", "Calculator", "Tool"];
+const kinds: SearchKind[] = ["Regulation", "State", "Industry", "Calculator", "Resource", "Tool"];
 const futureFilters = ["Permit", "Agency", "Equipment", "Pollutant", "Document type"];
 
 export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; type?: string }> }) {

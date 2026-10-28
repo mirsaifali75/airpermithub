@@ -48,8 +48,9 @@ export function ContentStatusBadge({ status }: { status: ContentStatus }) {
 
 const applicabilityMap: Record<ApplicabilityStatus, { tone: Tone; label: string; icon: ReactNode }> = {
   "potentially-applicable": { tone: "blue", label: "Potentially Applicable", icon: <CircleAlert className={i} /> },
-  "likely-not-applicable": { tone: "gray", label: "Likely Not Applicable", icon: <CircleDashed className={i} /> },
-  "more-info-needed": { tone: "amber", label: "More Information Needed", icon: <CircleHelp className={i} /> },
+  "likely-not-applicable": { tone: "gray", label: "Likely Not Applicable Based on Entered Information", icon: <CircleDashed className={i} /> },
+  "more-info-needed": { tone: "amber", label: "Additional Review Required", icon: <CircleHelp className={i} /> },
+  "insufficient-info": { tone: "red", label: "Insufficient Information", icon: <CircleHelp className={i} /> },
 };
 
 export function ApplicabilityBadge({ status }: { status: ApplicabilityStatus }) {

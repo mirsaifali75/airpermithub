@@ -11,9 +11,14 @@ describe("validateScreening", () => {
     expect(r.ok).toBe(true);
   });
 
+  it("accepts the applicability answers", () => {
+    const r = validateScreening({ ...good, pollutants: ["NOx", "VOC"], datesKnown: "no", attainment: "unsure", hapStatus: "area" }, slugs);
+    expect(r.ok && r.value.hapStatus).toBe("area");
+  });
+
   it("drops unknown fields and de-duplicates lists", () => {
     const r = validateScreening({ ...good, equipment: ["Storage Tanks", "Storage Tanks"], admin: true }, slugs);
-    expect(r.ok && r.value).toEqual({ ...good, county: undefined, controls: undefined, project: undefined, existingAuthorization: undefined, pteKnown: undefined, schedule: undefined });
+    expect(r.ok && r.value).toEqual({ ...good, county: undefined, controls: undefined, project: undefined, existingAuthorization: undefined, pteKnown: undefined, schedule: undefined, pollutants: undefined, datesKnown: undefined, attainment: undefined, hapStatus: undefined });
   });
 
   it.each([
@@ -27,6 +32,9 @@ describe("validateScreening", () => {
     ["equipment not a list", { ...good, equipment: "Storage Tanks" }],
     ["bad project", { ...good, project: "maybe" }],
     ["bad schedule", { ...good, schedule: 3 }],
+    ["unknown pollutant", { ...good, pollutants: ["Kryptonite"] }],
+    ["bad attainment", { ...good, attainment: "maybe" }],
+    ["bad HAP status", { ...good, hapStatus: "minor" }],
     ["huge controls list", { ...good, controls: Array.from({ length: 100 }, (_, i) => `c${i}`) }],
   ])("rejects %s", (_label, body) => {
     expect(validateScreening(body, slugs).ok).toBe(false);
