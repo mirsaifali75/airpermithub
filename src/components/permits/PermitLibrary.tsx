@@ -25,7 +25,7 @@ export interface LibraryItem {
 }
 
 const tabNote: Record<LibraryTab, string> = {
-  Permits: "Fictional records that preview the permit database (Phase 2). Not real permits.",
+  Permits: "Fictional records that preview the upcoming permit database. Not real permits.",
   Templates: "AirPermitHub templates are our own working files (CSV). They are not government forms.",
   Forms: "Official forms pages from each state air agency, linked to the agency's own site.",
   Checklists: "AirPermitHub checklists (CSV). Pair them with the agency's own instructions.",
@@ -116,7 +116,7 @@ export function PermitLibrary({ items, states }: { items: LibraryItem[]; states:
         {results.slice(0, 60).map((i) => {
           const Icon = i.kind === "aph" ? FileSpreadsheet : FileText;
           return (
-            <li key={i.id} className="flex items-center gap-4 px-4 py-4 sm:px-5">
+            <li key={i.id} className="flex items-center gap-4 px-4 py-4 sm:px-5" {...(i.kind === "demo" ? { "data-nosnippet": true } : {})}>
               <span className={cn("flex h-11 w-10 shrink-0 flex-col items-center justify-center rounded-lg text-[0.55rem] font-bold", i.kind === "demo" ? "bg-red-50 text-red-600" : i.kind === "aph" ? "bg-eco-50 text-eco-700" : "bg-brand-50 text-brand-600")}>
                 <Icon className="h-5 w-5" aria-hidden="true" />
                 {i.kind === "demo" ? "PDF" : i.kind === "aph" ? "CSV" : "WEB"}

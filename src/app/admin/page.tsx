@@ -32,7 +32,7 @@ export default async function AdminPage() {
               <h2 className="font-semibold text-ink">{m.title}</h2>
               <ul className="mt-2 flex-1 space-y-1 text-sm text-muted">{m.items.map((i) => <li key={i}>{i}</li>)}</ul>
               <p className="mt-4 flex items-center gap-1.5 text-xs text-navy-700"><Database className="h-3.5 w-3.5" aria-hidden="true" /> {m.model}</p>
-              <Badge tone="gray" className="mt-3 self-start">Phase 2</Badge>
+              <Badge tone="gray" className="mt-3 self-start">Planned</Badge>
             </li>
           ))}
         </ul>

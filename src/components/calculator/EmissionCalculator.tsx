@@ -253,8 +253,8 @@ export function EmissionCalculator({ methodSlug }: { methodSlug: string }) {
 
             <div className="mt-5 flex flex-wrap gap-2 border-t border-line pt-4">
               <Button size="sm" onClick={addToSet} disabled={!result}><Copy className="h-4 w-4" aria-hidden="true" /> Add to calculation set</Button>
-              <Button size="sm" variant="subtle" disabled title="Requires an account (Phase 2)"><Save className="h-4 w-4" aria-hidden="true" /> Save</Button>
-              <Button size="sm" variant="subtle" disabled title="Requires an account (Phase 2)"><FolderPlus className="h-4 w-4" aria-hidden="true" /> Add to Facility</Button>
+              <Button size="sm" variant="subtle" disabled title="Requires an account (coming soon)"><Save className="h-4 w-4" aria-hidden="true" /> Save</Button>
+              <Button size="sm" variant="subtle" disabled title="Requires an account (coming soon)"><FolderPlus className="h-4 w-4" aria-hidden="true" /> Add to Facility</Button>
               <Button size="sm" variant="subtle" onClick={() => window.print()} disabled={!result}><Printer className="h-4 w-4" aria-hidden="true" /> Export PDF</Button>
             </div>
           </section>
@@ -356,7 +356,7 @@ export function EmissionCalculator({ methodSlug }: { methodSlug: string }) {
             </div>
           </>
         )}
-        <p className="mt-4 flex items-center gap-1.5 text-xs text-muted"><FileDown className="h-3.5 w-3.5" aria-hidden="true" /> Native Excel and PDF exports with full methodology arrive with saved accounts. <CitationBadge>Phase 2</CitationBadge></p>
+        <p className="mt-4 flex items-center gap-1.5 text-xs text-muted"><FileDown className="h-3.5 w-3.5" aria-hidden="true" /> Native Excel and PDF exports with full methodology arrive with saved accounts. <CitationBadge>Coming soon</CitationBadge></p>
       </section>
     </div>
   );

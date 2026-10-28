@@ -36,7 +36,7 @@ export default function CalculatorsPage() {
           {[
             { icon: Eye, title: "Transparent by design", body: "Every result shows its formula, inputs, emission factor, and each intermediate step, so a reviewer can reproduce it by hand." },
             { icon: FileCheck2, title: "You cite the factor", body: "AirPermitHub does not ship unverified emission factors. Enter the factor and its reference; results without a cited source are flagged." },
-            { icon: History, title: "Versioned factor library", body: "Phase 2 adds a factor database where every value carries its publication, revision date, URL, and version history." },
+            { icon: History, title: "Versioned factor library", body: "Coming soon: a factor database where every value carries its publication, revision date, URL, and version history." },
           ].map(({ icon: Icon, title, body }) => (
             <div key={title} className="rounded-2xl border border-line bg-white p-6 shadow-card">
               <Icon className="h-6 w-6 text-brand-500" aria-hidden="true" />

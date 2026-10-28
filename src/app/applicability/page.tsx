@@ -23,7 +23,7 @@ export default function ApplicabilityPage() {
         <div className="flex flex-col gap-4 rounded-2xl bg-navy-900 p-6 text-white sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h2 className="text-xl font-bold">Start with your facility profile</h2>
-            <p className="text-sm text-white/70">Phase 1 screening runs inside the Permit Finder. The full rule-by-rule checker arrives with the regulatory database.</p>
+            <p className="text-sm text-white/70">Screening currently runs inside the Permit Finder. The full rule-by-rule checker arrives with the regulatory database.</p>
           </div>
           <Link href="/permit-finder" className={buttonClass("primary", "lg")}>Run screening <ArrowRight className="h-5 w-5" aria-hidden="true" /></Link>
         </div>

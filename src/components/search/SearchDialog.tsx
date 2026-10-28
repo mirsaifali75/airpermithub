@@ -117,7 +117,7 @@ export function SearchDialog({ index, open, onClose }: { index: SearchDoc[]; ope
           </ul>
         )}
         <div className="flex items-center justify-between border-t border-line bg-canvas px-4 py-2.5 text-xs text-muted">
-          <span>Phase 1 searches AirPermitHub pages. Permit and document search arrives with the database.</span>
+          <span>Search covers AirPermitHub pages. Permit and document search arrives with the database.</span>
           <button onClick={() => go(`/search?q=${encodeURIComponent(q)}`)} className="hidden items-center gap-1 font-semibold text-brand-600 sm:inline-flex">
             All results <ArrowRight className="h-3.5 w-3.5" />
           </button>

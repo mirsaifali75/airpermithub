@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { ArrowRight, BookOpen, Download, FileSpreadsheet, Landmark, ListChecks, MapPinned, PlayCircle, ScrollText } from "lucide-react";
+import { ArrowRight, BookOpen, Download, FileSpreadsheet, Landmark, ListChecks, MapPinned, } from "lucide-react";
 import Link from "next/link";
 import { Scene } from "@/components/illustrations/Scene";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { AccordionItem } from "@/components/ui/Accordion";
 import { Badge } from "@/components/ui/Badge";
-import { Disclaimer, EmptyState } from "@/components/ui/Notices";
+import { Disclaimer } from "@/components/ui/Notices";
 import { Tabs } from "@/components/ui/Tabs";
 import { faqs, guides } from "@/lib/data/guides";
 import { resources } from "@/lib/data/resources";
@@ -99,16 +99,6 @@ export default function ResourcesPage() {
               ),
             },
             { label: "Templates", count: aphTemplates.length, content: <ul className="space-y-3">{templateRows}</ul> },
-            {
-              label: "Webinars",
-              count: 0,
-              content: <EmptyState icon={<PlayCircle className="h-6 w-6" />} title="No webinars scheduled yet">Training sessions will be announced here and in the newsletter. Recordings will be posted with their slides and sources.</EmptyState>,
-            },
-            {
-              label: "White Papers",
-              count: 0,
-              content: <EmptyState icon={<ScrollText className="h-6 w-6" />} title="White papers in production">Longer technical papers will be published here once they have been reviewed against their sources.</EmptyState>,
-            },
             {
               label: "FAQs",
               count: faqs.length,

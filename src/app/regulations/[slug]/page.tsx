@@ -202,7 +202,7 @@ export default async function RegulationPage({ params }: { params: Promise<{ slu
             </div>
           </section>
 
-          <p className="text-xs text-muted">Last updated on AirPermitHub: record created in Phase 1. Version history is tracked in the RegulationVersion table.</p>
+          <p className="text-xs text-muted">Each change to this summary will be dated and listed here once regulation records move to the reviewed database. Until then, rely on the linked eCFR text.</p>
           <Disclaimer />
         </article>
       </div>

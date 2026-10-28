@@ -12,6 +12,14 @@ npm run dev          # http://localhost:3000
 npm run build && npm start
 ```
 
+Checks (CI runs the same on every push to `main`):
+
+```bash
+npm run check        # typecheck + ESLint + unit tests
+npm test             # Vitest: calculator math, screening rules, API validation, data integrity
+npm run check-links  # checks every outbound source link; needs open internet (runs weekly in GitHub Actions)
+```
+
 Optional database tooling:
 
 ```bash

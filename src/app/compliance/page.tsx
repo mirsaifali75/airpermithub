@@ -28,7 +28,7 @@ export default function CompliancePage() {
       <PageHeader crumbs={[{ label: "Compliance" }]} title="Compliance Calendar" icon={<CalendarClock />} scene="midstream" description="Track permitting, reporting and compliance deadlines. Add your own tasks and export them to Outlook, Google, or Apple Calendar." />
       <div className="container-page space-y-12 py-10">
         <ComplianceCalendar />
-        <DemoNotice>Demo tasks, facilities, and counts below preview the Phase 2 compliance workspace and are fictional. Tasks you add yourself stay in your browser.</DemoNotice>
+        <DemoNotice>Demo tasks, facilities, and counts below preview the upcoming compliance workspace and are fictional. Tasks you add yourself stay in your browser.</DemoNotice>
 
         <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
           {cards.map(({ label, value, icon: Icon, tone }) => (
@@ -63,7 +63,7 @@ export default function CompliancePage() {
           </div>
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
             <h2 className="text-lg font-bold text-ink">Reminders</h2>
-            <ul className="mt-4 flex flex-wrap gap-2">{["Calendar export (.ics): live", "Email reminders: Phase 2", "Dashboard notifications: Phase 2"].map((c) => <li key={c}><Badge tone="gray">{c}</Badge></li>)}</ul>
+            <ul className="mt-4 flex flex-wrap gap-2">{["Calendar export (.ics): live", "Email reminders: coming soon", "Dashboard notifications: coming soon"].map((c) => <li key={c}><Badge tone="gray">{c}</Badge></li>)}</ul>
             <p className="mt-3 text-sm text-muted">Deadlines will always come from your permit conditions or the cited rule, never from AirPermitHub assumptions.</p>
           </div>
         </section>

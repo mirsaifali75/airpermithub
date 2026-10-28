@@ -49,7 +49,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
           {!q ? (
             <div className="flex flex-wrap gap-2">{exampleQueries.map((e) => <Link key={e} href={`/search?q=${encodeURIComponent(e)}`} className="rounded-full border border-line bg-white px-3 py-1.5 text-sm hover:border-brand-200">{e}</Link>)}</div>
           ) : results.length === 0 ? (
-            <EmptyState icon={<Search className="h-6 w-6" />} title="No results yet">Phase 1 searches AirPermitHub pages only. Permit and document search arrives with the database.</EmptyState>
+            <EmptyState icon={<Search className="h-6 w-6" />} title="No results yet">Search covers AirPermitHub pages only. Permit and document search arrives with the database.</EmptyState>
           ) : (
             <ul className="space-y-3">
               {results.map((r) => (

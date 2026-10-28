@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, Briefcase, ClipboardList, Factory, GraduationCap, HardHat, MapPin, UserCog, Users } from "lucide-react";
+import { ArrowRight, BookOpen, ClipboardList, Factory, GraduationCap, HardHat, MapPin, UserCog, Users } from "lucide-react";
 import Link from "next/link";
 import { SectionHeading } from "@/components/ui/Section";
 import { Badge, DemoBadge } from "@/components/ui/Badge";

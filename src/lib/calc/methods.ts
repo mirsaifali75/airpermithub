@@ -382,23 +382,27 @@ export const calculatorMethods: CalculatorMethod[] = [
     equipmentCategory: "Stationary fuel combustion (GHG)",
     description: "Fuel heat input times a per-MMBtu greenhouse gas factor, with CO₂e from the GWP you enter.",
     keywords: "ghg greenhouse gas co2 ch4 n2o co2e gwp combustion kg/mmbtu part 98",
-    formula: "E (lb/hr) = Q (MMBtu/hr) × EF (kg/MMBtu) × 2.20462 (lb/kg)",
+    formula: "E (lb/hr) = Q (MMBtu/hr) × EF (kg/MMBtu) × 2.20462 (lb/kg) × GWP",
     methodology:
-      "Heat-input method for combustion greenhouse gases. Multiplies heat input by a per-MMBtu factor for the selected gas, converts kilograms to pounds, then (for CH4 and N2O) multiplies by the global warming potential you enter to report CO2e.",
+      "Heat-input method for combustion greenhouse gases. Multiplies heat input by a per-MMBtu factor for the selected gas and converts kilograms to pounds. The result is multiplied by the global warming potential you enter: use 1 to report the mass of the gas itself, or the program's GWP for CH4 or N2O to report CO2e.",
     factorGuidance:
       "Use the fuel-specific factor and GWP values required by your reporting program, and cite the table and the version in effect for the reporting year.",
     inputs: [{ key: "q", label: "Heat input", unit: "MMBtu/hr", min: 0, step: 0.1, demo: 10 }],
-    factors: [{ key: "ef", label: "Emission factor", unit: "kg/MMBtu", demo: 50 }],
+    factors: [
+      { key: "ef", label: "Emission factor", unit: "kg/MMBtu", demo: 50 },
+      { key: "gwp", label: "Global warming potential (1 = mass of the gas)", unit: "—", demo: 1 },
+    ],
     compute(i, f) {
       const kg = i.q * f.ef;
-      const lbPerHr = kg * LB_PER_KG;
-      return {
-        lbPerHr,
-        steps: [
-          { label: "Mass rate", expression: `${i.q} MMBtu/hr × ${f.ef} kg/MMBtu`, value: round(kg), unit: "kg/hr" },
-          { label: "Convert to lb/hr", expression: `${round(kg)} kg/hr × ${LB_PER_KG} lb/kg`, value: round(lbPerHr), unit: "lb/hr" },
-        ],
-      };
+      const lbGas = kg * LB_PER_KG;
+      const gwp = Number.isFinite(f.gwp) && f.gwp > 0 ? f.gwp : 1;
+      const lbPerHr = lbGas * gwp;
+      const steps: CalcStep[] = [
+        { label: "Mass rate", expression: `${i.q} MMBtu/hr × ${f.ef} kg/MMBtu`, value: round(kg), unit: "kg/hr" },
+        { label: "Convert to lb/hr", expression: `${round(kg)} kg/hr × ${LB_PER_KG} lb/kg`, value: round(lbGas), unit: "lb/hr" },
+      ];
+      if (gwp !== 1) steps.push({ label: "CO2e", expression: `${round(lbGas)} lb/hr × GWP ${gwp}`, value: round(lbPerHr), unit: "lb CO2e/hr" });
+      return { lbPerHr, steps };
     },
   },
 ];

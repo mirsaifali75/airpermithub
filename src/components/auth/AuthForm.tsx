@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/Button";
 import { accountTypes } from "@/lib/auth/types";
 
 /**
- * Sign-in / sign-up UI. Not wired to a provider yet: submission explains that
- * accounts open in Phase 2. See src/lib/auth for the provider-agnostic contract.
+ * Sign-in / sign-up UI. Not wired to a provider yet: a notice above the form
+ * says so before anyone types, and submission repeats it. See src/lib/auth for the provider-agnostic contract.
  */
 export function AuthForm({ mode }: { mode: "sign-in" | "sign-up" }) {
   const id = useId();
@@ -21,6 +21,9 @@ export function AuthForm({ mode }: { mode: "sign-in" | "sign-up" }) {
       <Logo tone="light" />
       <h1 className="mt-8 text-3xl font-extrabold text-navy-900">{mode === "sign-in" ? "Welcome Back" : "Create your free account"}</h1>
       <p className="mt-1 text-sm text-muted">{mode === "sign-in" ? "Sign in to your account." : "Free accounts include regulation search, calculators, and resources."}</p>
+      <p role="note" className="mt-5 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+        <span className="font-semibold">Accounts are coming soon.</span> Sign-in isn&apos;t available yet, and nothing you enter on this page is sent or stored. Every tool works without an account.
+      </p>
       <form
         className="mt-6 space-y-4"
         noValidate
@@ -57,7 +60,7 @@ export function AuthForm({ mode }: { mode: "sign-in" | "sign-up" }) {
           <input id={`${id}-pw`} name="password" type="password" autoComplete={mode === "sign-in" ? "current-password" : "new-password"} required minLength={8} className={field} />
         </div>
         {error && <p id={`${id}-err`} role="alert" className="rounded-xl bg-red-50 px-4 py-2.5 text-sm text-red-700">{error}</p>}
-        {submitted && <p role="status" className="rounded-xl bg-brand-50 px-4 py-2.5 text-sm text-navy-800">Accounts open in Phase 2. Nothing was sent or stored.</p>}
+        {submitted && <p role="status" className="rounded-xl bg-brand-50 px-4 py-2.5 text-sm text-navy-800">Accounts are not open yet. Nothing was sent or stored.</p>}
         {mode === "sign-in" && (
           <div className="flex items-center justify-between text-sm">
             <label className="flex items-center gap-2 text-slate-700"><input type="checkbox" name="remember" className="h-4 w-4 accent-brand-500" /> Remember me</label>

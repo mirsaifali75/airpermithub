@@ -17,7 +17,7 @@ export type ApplicabilityStatus = "potentially-applicable" | "likely-not-applica
 export type ComplianceStatus = "on-track" | "due-soon" | "overdue" | "completed" | "not-evaluated";
 
 /** Distinguishes where a document came from in the permit library. */
-export type DocumentOrigin = "official" | "aph-summary" | "user-upload";
+export type DocumentOrigin = "official" | "aph-summary" | "user-upload" | "demo";
 
 export interface SourceRef {
   agency: string;

@@ -140,7 +140,7 @@ export function DashboardHome() {
           ))}
         </ul>
       </section>
-      <p className="flex items-center gap-2 text-xs text-muted"><Briefcase className="h-3.5 w-3.5" aria-hidden="true" />Data on this page stays in this browser. Accounts (Phase 2) will sync it across devices and teams.</p>
+      <p className="flex items-center gap-2 text-xs text-muted"><Briefcase className="h-3.5 w-3.5" aria-hidden="true" />Data on this page stays in this browser. Accounts (coming soon) will sync it across devices and teams.</p>
     </div>
   );
 }

@@ -78,6 +78,7 @@ const originMap: Record<DocumentOrigin, { tone: Tone; label: string; icon: React
   official: { tone: "green", label: "Official Source", icon: <ShieldCheck className={i} /> },
   "aph-summary": { tone: "blue", label: "AirPermitHub Summary", icon: <FileText className={i} /> },
   "user-upload": { tone: "gray", label: "User Upload", icon: <Upload className={i} /> },
+  demo: { tone: "amber", label: "Demo Record", icon: <FlaskConical className={i} /> },
 };
 
 export function OriginBadge({ origin }: { origin: DocumentOrigin }) {
