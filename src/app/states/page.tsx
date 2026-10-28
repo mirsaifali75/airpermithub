@@ -1,46 +1,83 @@
 import type { Metadata } from "next";
-import { MapPinned } from "lucide-react";
+import { ArrowRight, MapPinned } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { StateTileMap } from "@/components/states/StateTileMap";
+import { StateExplorer } from "@/components/states/StateExplorer";
+import { VerificationBadge } from "@/components/ui/Badge";
 import { Disclaimer } from "@/components/ui/Notices";
 import { SectionHeading } from "@/components/ui/Section";
-import { stateMapProfiles } from "@/lib/data/state-profiles";
-import { stateTiles } from "@/lib/data/states";
+import { agencyShortName, listStateProfiles, stateMapProfiles } from "@/lib/data/state-profiles";
 
 export const metadata: Metadata = {
-  title: "State Air Permitting Hubs",
-  description: "State-by-state air permitting programs, agencies, forms, and guidance, each verified against the agency's own pages.",
+  title: "Explore Air Permitting by State",
+  description: "State-by-state air permitting programs, agencies, forms, and guidance for all 50 states and DC, each checked against the agency's own pages.",
   alternates: { canonical: "/states" },
 };
 
 export default function StatesPage() {
   const profiles = stateMapProfiles();
-  const live = new Set(profiles.map((p) => p.slug));
-  const sorted = [...stateTiles].sort((a, b) => a.name.localeCompare(b.name));
+  const full = listStateProfiles();
+  const verified = full.filter((p) => p.verification === "verified").length;
   return (
     <>
       <PageHeader
-        crumbs={[{ label: "States" }]}
-        eyebrow="State regulatory hubs"
-        title="Air Permitting by State"
-        icon={<MapPinned className="h-7 w-7" />}
-        description={`${profiles.length} state hubs are live, each checked against the agency's own pages and labeled verified or partially verified.${profiles.length < stateTiles.length ? " The remaining states publish as they are checked." : ""}`}
-      />
-      <div className="container-page space-y-14 py-12">
-        <StateTileMap profiles={profiles} />
+        crumbs={[{ label: "State Explorer" }]}
+        title="Explore by State"
+        icon={<MapPinned />}
+        scene="refinery"
+        description="Find state-specific air permitting information, rules and resources. Every hub links to the agency's own pages and shows how far it has been verified."
+      >
+        <dl className="flex flex-wrap gap-3">
+          {[
+            { k: "State hubs", v: `${full.length}` },
+            { k: "Verified against agency pages", v: `${verified}` },
+            { k: "Official forms linked", v: `${full.reduce((n, p) => n + p.forms.length, 0)}` },
+            { k: "Guidance links", v: `${full.reduce((n, p) => n + p.guidance.length, 0)}` },
+          ].map(({ k, v }) => (
+            <div key={k} className="rounded-xl border border-line bg-white/90 px-4 py-2.5 shadow-card">
+              <dt className="text-xs text-muted">{k}</dt>
+              <dd className="font-display text-xl font-bold text-navy-900">{v}</dd>
+            </div>
+          ))}
+        </dl>
+      </PageHeader>
+      <div className="container-page space-y-14 py-10">
+        <StateExplorer profiles={profiles} />
+
         <section aria-labelledby="all">
-          <SectionHeading id="all" title="All states" />
-          <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
-            {sorted.map((s) => (
-              <li key={s.slug}>
-                <Link href={`/states/${s.slug}`} className="flex items-center justify-between rounded-xl border border-line bg-white px-3 py-2.5 text-sm hover:border-brand-200">
-                  <span className={live.has(s.slug) ? "font-semibold text-ink" : "text-slate-600"}>{s.name}</span>
-                  {live.has(s.slug) ? <span className="h-2 w-2 rounded-full bg-eco-500" aria-label="Hub available" /> : <span className="text-xs text-slate-400">soon</span>}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <SectionHeading id="all" title="All states and agencies" description="Counts come straight from each state hub. Partial hubs say which parts still need checking." />
+          <div className="overflow-hidden rounded-2xl border border-line bg-white shadow-card">
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[44rem] text-left text-sm">
+                <thead className="bg-canvas text-xs tracking-wide text-muted uppercase">
+                  <tr>
+                    <th scope="col" className="px-4 py-3 font-semibold">State</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Air agency</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">EPA region</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Programs</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Forms</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Status</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Reviewed</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-line">
+                  {full.map((p) => (
+                    <tr key={p.slug} className="hover:bg-canvas/60">
+                      <th scope="row" className="px-4 py-3 font-semibold text-ink">
+                        <Link href={`/states/${p.slug}`} className="inline-flex items-center gap-1.5 hover:text-brand-600">{p.name} <ArrowRight className="h-3.5 w-3.5 text-slate-300" aria-hidden="true" /></Link>
+                      </th>
+                      <td className="px-4 py-3 text-slate-700" title={p.agency.name}>{agencyShortName(p.agency.name)}</td>
+                      <td className="px-4 py-3 text-slate-700">{p.epaRegion}</td>
+                      <td className="px-4 py-3 tabular-nums text-slate-700">{p.permitTypes.length}</td>
+                      <td className="px-4 py-3 tabular-nums text-slate-700">{p.forms.length}</td>
+                      <td className="px-4 py-3"><VerificationBadge level={p.verification} /></td>
+                      <td className="px-4 py-3 text-slate-500 tabular-nums">{p.lastReviewed}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
         </section>
         <Disclaimer />
       </div>

@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { Route } from "lucide-react";
+import { HelpSidebar } from "@/components/layout/HelpSidebar";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { PermitFinderWizard } from "@/components/permit-finder/PermitFinderWizard";
 import { stateProfileSummaries } from "@/lib/data/state-profiles";
 
 export const metadata: Metadata = {
   title: "Permit Finder: Screen Your Air Permitting Path",
-  description: "Screen potential air permitting pathways by state, industry, facility type, and equipment. Preliminary screening with citations and next steps.",
+  description: "Find the right air permit path for your facility. Guided questions on facility, location, emission sources, and operations return state and federal programs to review, with citations.",
   alternates: { canonical: "/permit-finder" },
 };
 
@@ -15,13 +16,16 @@ export default function PermitFinderPage() {
     <>
       <PageHeader
         crumbs={[{ label: "Permit Finder" }]}
-        eyebrow="Screening tool"
         title="Permit Finder"
-        icon={<Route className="h-7 w-7" />}
-        description="Answer four questions to see which authorization options and federal programs deserve a closer look. Results are screening pointers with citations, not determinations."
+        icon={<Route />}
+        scene="refinery"
+        description="Find the right permit path for your facility. Guided questions based on federal and state regulations; results are screening pointers with citations, not determinations."
       />
-      <div className="container-page py-10">
-        <PermitFinderWizard profiles={stateProfileSummaries()} />
+      <div className="container-page grid grid-cols-[minmax(0,1fr)] gap-6 py-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+        <div className="min-w-0">
+          <PermitFinderWizard profiles={stateProfileSummaries()} />
+        </div>
+        <HelpSidebar />
       </div>
     </>
   );

@@ -16,21 +16,32 @@ export const site = {
 export type NavItem = { label: string; href: string; description?: string };
 
 export const primaryNav: NavItem[] = [
-  { label: "Home", href: "/" },
   { label: "Permit Finder", href: "/permit-finder" },
   { label: "Calculators", href: "/calculators" },
   { label: "Regulations", href: "/regulations" },
   { label: "Permit Library", href: "/permits" },
   { label: "Compliance", href: "/compliance" },
+  { label: "Industries", href: "/industries" },
   { label: "Jobs", href: "/jobs" },
   { label: "Resources", href: "/resources" },
 ];
 
 export const resourcesMenu: NavItem[] = [
-  { label: "Resource Center", href: "/resources", description: "Guides, checklists, and references" },
+  { label: "Resource Center", href: "/resources", description: "Guides, checklists, FAQs, and references" },
+  { label: "State Explorer", href: "/states", description: "All 50 states + DC: agencies, programs, forms" },
   { label: "Templates", href: "/templates", description: "AirPermitHub engineering templates" },
-  { label: "Industries", href: "/industries", description: "Industry-specific permitting hubs" },
-  { label: "State Hubs", href: "/states", description: "State agency programs and resources" },
+  { label: "Applicability Checker", href: "/applicability", description: "Screen federal programs by equipment" },
+];
+
+/**
+ * Official social accounts. Leave null until the account exists; the footer
+ * shows a muted "coming soon" icon instead of a dead link.
+ */
+export const social: { name: "LinkedIn" | "YouTube" | "X" | "Facebook"; href: string | null }[] = [
+  { name: "LinkedIn", href: null },
+  { name: "YouTube", href: null },
+  { name: "X", href: null },
+  { name: "Facebook", href: null },
 ];
 
 export const footerNav: { title: string; links: NavItem[] }[] = [
@@ -38,19 +49,21 @@ export const footerNav: { title: string; links: NavItem[] }[] = [
     title: "Tools",
     links: [
       { label: "Permit Finder", href: "/permit-finder" },
-      { label: "Calculators", href: "/calculators" },
-      { label: "Permit Search", href: "/permits" },
-      { label: "Applicability Checker", href: "/applicability" },
-      { label: "Compliance", href: "/compliance" },
+      { label: "Emission Calculators", href: "/calculators" },
+      { label: "Compliance Calendar", href: "/compliance" },
+      { label: "Permit Library", href: "/permits" },
+      { label: "Templates & Forms", href: "/templates" },
+      { label: "Job Board", href: "/jobs" },
     ],
   },
   {
     title: "Regulations",
     links: [
       { label: "Federal", href: "/regulations/federal" },
-      { label: "Texas", href: "/states/texas" },
-      { label: "New Mexico", href: "/states/new-mexico" },
-      { label: "State Resources", href: "/states" },
+      { label: "State Explorer", href: "/states" },
+      { label: "EPA Guidance", href: "/regulations?tab=guidance" },
+      { label: "Texas (TCEQ)", href: "/states/texas" },
+      { label: "New Mexico (NMED)", href: "/states/new-mexico" },
     ],
   },
   {
@@ -59,30 +72,27 @@ export const footerNav: { title: string; links: NavItem[] }[] = [
       { label: "Oil & Gas", href: "/industries/oil-gas" },
       { label: "Midstream", href: "/industries/midstream" },
       { label: "Refining", href: "/industries/refining" },
+      { label: "Power Generation", href: "/industries/power-generation" },
+      { label: "Chemical", href: "/industries/chemical" },
       { label: "Manufacturing", href: "/industries/manufacturing" },
-    ],
-  },
-  {
-    title: "Jobs",
-    links: [
-      { label: "Air Quality Jobs", href: "/jobs" },
-      { label: "Post a Job", href: "/contact" },
     ],
   },
   {
     title: "Resources",
     links: [
-      { label: "Guides", href: "/resources" },
+      { label: "Guides", href: "/resources?tab=guides" },
       { label: "Templates", href: "/templates" },
+      { label: "FAQs", href: "/resources?tab=faqs" },
+      { label: "Search", href: "/search" },
     ],
   },
   {
-    title: "AirPermitHub",
+    title: "Company",
     links: [
       { label: "About", href: "/about" },
       { label: "Contact", href: "/contact" },
-      { label: "Privacy", href: "/privacy" },
-      { label: "Terms", href: "/terms" },
+      { label: "Privacy Policy", href: "/privacy" },
+      { label: "Terms of Use", href: "/terms" },
       { label: "Disclaimer", href: "/disclaimer" },
     ],
   },

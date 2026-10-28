@@ -1,6 +1,6 @@
 "use client";
 
-import { Calculator, ChevronDown, FileSearch, Landmark, Menu, Route, Search, ShieldCheck, X } from "lucide-react";
+import { Calculator, ChevronDown, FileSearch, Landmark, MapPinned, Menu, Route, Search, ShieldCheck, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -17,6 +17,7 @@ const mobilePriority = [
   { label: "Regulations", href: "/regulations", icon: Landmark },
   { label: "Compliance", href: "/compliance", icon: ShieldCheck },
   { label: "Permit Library", href: "/permits", icon: FileSearch },
+  { label: "State Explorer", href: "/states", icon: MapPinned },
 ];
 
 export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
@@ -82,14 +83,14 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
             <Logo tone="dark" />
           </Link>
 
-          <nav aria-label="Primary" className="ml-4 hidden flex-1 items-center gap-0.5 xl:flex">
+          <nav aria-label="Primary" className="ml-2 hidden flex-1 items-center gap-0 xl:flex">
             {primaryNav.filter((n) => n.href !== "/resources").map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 aria-current={isActive(item.href) ? "page" : undefined}
                 className={cn(
-                  "relative rounded-lg px-2.5 py-2 text-[0.9rem] font-medium transition-colors",
+                  "relative rounded-lg px-2.5 py-2 text-[0.875rem] font-medium whitespace-nowrap transition-colors",
                   isActive(item.href) ? "text-white" : "text-white/75 hover:text-white",
                 )}
               >
@@ -103,8 +104,8 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
                 aria-expanded={resourcesOpen}
                 aria-haspopup="true"
                 className={cn(
-                  "inline-flex items-center gap-1 rounded-lg px-2.5 py-2 text-[0.9rem] font-medium",
-                  isActive("/resources") || isActive("/templates") ? "text-white" : "text-white/75 hover:text-white",
+                  "inline-flex items-center gap-1 rounded-lg px-2.5 py-2 text-[0.875rem] font-medium",
+                  ["/resources", "/templates", "/states", "/applicability"].some(isActive) ? "text-white" : "text-white/75 hover:text-white",
                 )}
               >
                 Resources <ChevronDown className={cn("h-4 w-4 transition-transform", resourcesOpen && "rotate-180")} aria-hidden="true" />
@@ -132,7 +133,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
             </button>
             <div className="hidden items-center gap-2 sm:flex">
               <Link href="/sign-in" className={buttonClass("outline-light", "sm")}>Sign In</Link>
-              <Link href="/sign-up" className={buttonClass("primary", "sm")}>Sign Up</Link>
+              <Link href="/sign-up" className={buttonClass("primary", "sm")}>Get Started</Link>
             </div>
             <button
               onClick={() => setMobileOpen((o) => !o)}
@@ -166,7 +167,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
                 ))}
               </div>
               <nav aria-label="Mobile" className="mt-4 grid grid-cols-2 gap-x-4 border-t border-white/10 pt-4">
-                {[...primaryNav.filter((n) => !mobilePriority.some((p) => p.href === n.href)), ...resourcesMenu.slice(1)].map((n) => (
+                {[...primaryNav.filter((n) => !mobilePriority.some((p) => p.href === n.href)), ...resourcesMenu.slice(2), { label: "Dashboard", href: "/dashboard" }].map((n) => (
                   <Link key={n.href} href={n.href} className="py-2.5 text-white/80 hover:text-white">
                     {n.label}
                   </Link>
@@ -174,7 +175,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
               </nav>
               <div className="mt-4 grid grid-cols-2 gap-2 border-t border-white/10 pt-4">
                 <Link href="/sign-in" className={buttonClass("outline-light", "md")}>Sign In</Link>
-                <Link href="/sign-up" className={buttonClass("primary", "md")}>Sign Up</Link>
+                <Link href="/sign-up" className={buttonClass("primary", "md")}>Get Started</Link>
               </div>
             </div>
           </div>

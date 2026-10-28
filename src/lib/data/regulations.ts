@@ -299,6 +299,40 @@ export const federalRegulations: Regulation[] = [
     relatedRules: ["nsps", "title-v"],
     relatedCalculators: ["engines", "heaters", "flares", "tanks", "fugitives"],
   },
+  {
+    slug: "ghg-reporting",
+    shortName: "GHG Reporting",
+    name: "Greenhouse Gas Reporting Program",
+    citation: "40 CFR Part 98",
+    jurisdiction: "federal",
+    agency: EPA,
+    status: "aph-summary",
+    tagline: "Mandatory annual reporting of greenhouse gas data from covered source categories.",
+    summary:
+      "Part 98 requires covered facilities and suppliers to monitor and report greenhouse gas data each year. It is a reporting program, not a permitting program: it does not by itself set emission limits. Subpart A holds the General Provisions; source-category subparts set what is reported and how it is calculated.",
+    applicability: {
+      summary:
+        "Applicability is set by source category and by the criteria in Subpart A and each source-category subpart. Read the applicability sections directly; AirPermitHub does not restate the reporting thresholds.",
+      pointers: [{ label: "Who must report", citation: "40 CFR 98.2" }],
+    },
+    requirements: { summary: "Calculation methodologies, monitoring, and data requirements are set subpart by subpart." },
+    monitoring: { summary: "Each source-category subpart specifies monitoring and quality-assurance requirements for its calculation methods." },
+    testing: pending,
+    recordkeeping: { summary: "Subpart A sets general recordkeeping requirements; subparts add their own.", pointers: [{ label: "Recordkeeping", citation: "40 CFR 98.3(g)" }] },
+    reporting: { summary: "Reports are submitted annually through EPA's electronic reporting system. Deadlines and content are in Subpart A and the subparts.", pointers: [{ label: "General monitoring, reporting, recordkeeping and verification requirements", citation: "40 CFR 98.3" }] },
+    definitions: { summary: "Definitions are in Subpart A.", pointers: [{ label: "Definitions", citation: "40 CFR 98.6" }] },
+    keySubparts: [
+      { code: "Subpart A", title: "General Provisions" },
+      { code: "Subpart C", title: "General Stationary Fuel Combustion Sources" },
+      { code: "Subpart W", title: "Petroleum and Natural Gas Systems" },
+    ],
+    sources: [
+      { agency: EPA, title: "40 CFR Part 98 (eCFR)", url: ecfr(98), citation: "40 CFR Part 98", lastReviewed: null },
+      { agency: EPA, title: "Greenhouse Gas Reporting Program (EPA)", url: "https://www.epa.gov/ghgreporting", lastReviewed: null },
+    ],
+    relatedRules: ["title-v", "ap-42"],
+    relatedCalculators: ["ghg", "heaters", "pneumatics", "compressors"],
+  },
 ];
 
 export function getRegulation(slug: string) {
@@ -314,5 +348,6 @@ export const regulationCategories = [
   { title: "PSD", href: "/regulations/psd", blurb: "Major NSR in attainment areas" },
   { title: "Nonattainment NSR", href: "/regulations/nonattainment-nsr", blurb: "Major NSR in nonattainment areas" },
   { title: "Emission Factors", href: "/regulations/ap-42", blurb: "AP-42 and factor provenance" },
+  { title: "GHG Reporting", href: "/regulations/ghg-reporting", blurb: "Greenhouse Gas Reporting Program, 40 CFR Part 98" },
   { title: "Regulatory Guidance", href: "/resources?category=federal-regulations", blurb: "Guidance indexes (in development)" },
 ];

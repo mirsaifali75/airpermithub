@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import { ArrowRight, Briefcase, Calculator, Cog, Flame, Gavel, Wind } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { IndustryArt } from "@/components/illustrations/IndustryArt";
+import { Scene } from "@/components/illustrations/Scene";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Badge, CitationBadge, DemoBadge } from "@/components/ui/Badge";
 import { buttonClass } from "@/components/ui/Button";
 import { Disclaimer } from "@/components/ui/Notices";
 import { SectionHeading } from "@/components/ui/Section";
 import { getMethod } from "@/lib/calc/methods";
-import { getIndustry, industries, oilGasSegments } from "@/lib/data/industries";
+import { getIndustry, industries, industryScene, oilGasSegments } from "@/lib/data/industries";
 import { demoJobs } from "@/lib/data/jobs";
 import { getRegulation } from "@/lib/data/regulations";
-import { resources } from "@/lib/data/resources";
+import { guides as allGuides } from "@/lib/data/guides";
 import { listStateProfiles } from "@/lib/data/state-profiles";
 
 export function generateStaticParams() {
@@ -33,13 +33,13 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
   const calcs = ind.calculators.map(getMethod).filter((m) => !!m);
   const jobs = demoJobs.filter((j) => j.industry === ind.name || (isOG && j.industry === "Midstream")).slice(0, 3);
   const stateOG = isOG ? listStateProfiles().filter((s) => s.oilAndGas) : [];
-  const guides = resources.filter((r) => (isOG ? r.category === "oil-gas" || r.category === "air-permitting" : r.category === "air-permitting"));
+  const guides = allGuides;
 
   return (
     <>
       <section className="relative isolate overflow-hidden bg-navy-950 pt-24 pb-14 text-white sm:pt-28">
-        <IndustryArt kind={ind.art} className="absolute inset-0 -z-10 h-full w-full opacity-70" />
-        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950 via-navy-950/85 to-navy-950/30" />
+        <Scene kind={industryScene[ind.slug]} className="absolute inset-0 -z-10 h-full w-full" />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950 via-navy-950/80 to-navy-950/10" />
         <div className="container-page">
           <Breadcrumbs items={[{ label: "Industries", href: "/industries" }, { label: ind.name }]} />
           <p className="mt-6 text-xs font-bold tracking-[0.2em] text-eco-500 uppercase">Industry hub</p>
@@ -128,7 +128,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
             <h2 className="text-lg font-bold text-ink">Educational articles</h2>
             <ul className="mt-4 space-y-3">
-              {guides.slice(0, 3).map((g) => <li key={g.slug} className="text-sm"><span className="font-medium text-ink">{g.title}</span> <Badge tone="gray">Planned</Badge></li>)}
+              {guides.slice(0, 4).map((g) => <li key={g.slug} className="text-sm"><Link href={`/resources/${g.slug}`} className="font-medium text-brand-700 hover:underline">{g.title}</Link></li>)}
             </ul>
             <Link href="/resources" className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Compliance resources <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
           </div>

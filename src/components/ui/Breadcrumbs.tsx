@@ -23,7 +23,7 @@ export function Breadcrumbs({ items, tone = "dark" }: { items: Crumb[]; tone?: "
       <ol className="flex flex-wrap items-center gap-1 text-sm">
         {all.map((c, idx) => (
           <li key={c.label} className="flex items-center gap-1">
-            {idx > 0 && <ChevronRight className="h-3.5 w-3.5 text-white/30" aria-hidden="true" />}
+            {idx > 0 && <ChevronRight className={tone === "dark" ? "h-3.5 w-3.5 text-white/30" : "h-3.5 w-3.5 text-slate-300"} aria-hidden="true" />}
             {c.href && idx < all.length - 1 ? (
               <Link href={c.href} className={muted}>{c.label}</Link>
             ) : (

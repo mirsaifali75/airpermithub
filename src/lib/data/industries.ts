@@ -1,3 +1,4 @@
+import type { SceneKind } from "@/components/illustrations/Scene";
 /**
  * Industry hubs. "potentialRules" are programs worth screening, never a
  * statement that a rule applies. Rule slugs map to /regulations/[slug].
@@ -43,7 +44,7 @@ export const industries: Industry[] = [
   },
   {
     slug: "refining",
-    name: "Refineries",
+    name: "Refining",
     short: "Petroleum refining and terminals",
     art: "refinery",
     summary: "Refineries are complex major-source facilities with process heaters, flares, storage, and wastewater systems under many overlapping programs.",
@@ -87,8 +88,8 @@ export const industries: Industry[] = [
   },
   {
     slug: "aggregates",
-    name: "Aggregates",
-    short: "Quarries, crushing, and screening",
+    name: "Mining & Aggregates",
+    short: "Quarries, crushing, screening, and mineral processing",
     art: "aggregate",
     summary: "Aggregate operations are typically particulate-focused, with crushing, screening, conveying, and haul roads.",
     commonSources: ["Crushing and screening", "Conveyor transfer points", "Haul roads", "Stockpiles", "Engines"],
@@ -98,7 +99,7 @@ export const industries: Industry[] = [
   },
   {
     slug: "landfills-waste",
-    name: "Landfills & Waste",
+    name: "Waste & Landfills",
     short: "Landfills and waste handling",
     art: "landfill",
     summary: "Landfill gas collection and control is a central air topic for waste facilities.",
@@ -142,3 +143,21 @@ export const oilGasSegments = [
     equipment: ["Amine units", "Cryogenic trains", "Heaters", "Flares", "Storage"],
   },
 ];
+
+/** Illustration used for each industry on cards and banners. */
+export const industryScene: Record<string, SceneKind> = {
+  "oil-gas": "oil-gas",
+  midstream: "midstream",
+  refining: "refinery",
+  chemical: "chemical",
+  "power-generation": "power",
+  manufacturing: "manufacturing",
+  aggregates: "mining",
+  "landfills-waste": "waste",
+  "other-industrial": "industrial",
+};
+
+/** Display order used on the Industries page and home grid. */
+export const industryOrder = ["oil-gas", "midstream", "refining", "power-generation", "chemical", "manufacturing", "aggregates", "landfills-waste", "other-industrial"];
+
+export const orderedIndustries = () => industryOrder.map((slug) => industries.find((i) => i.slug === slug)!).filter(Boolean);

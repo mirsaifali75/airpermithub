@@ -1,7 +1,7 @@
 "use client";
 
 import { Copy, Download, FileDown, FlaskConical, FolderPlus, Info, Printer, Save, Sigma, Trash2 } from "lucide-react";
-import { useId, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { CitationBadge, DemoBadge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
@@ -26,7 +26,11 @@ interface SavedCalc {
   usedDemo: boolean;
   factorRef: string;
   steps: CalcStep[];
+  savedAt?: string;
 }
+
+/** Calculation set persists in this browser until accounts launch (shared across calculators and the dashboard). */
+export const CALC_STORE = "aph.calc.saved.v1";
 
 const fmt = (n: number) =>
   !Number.isFinite(n) ? "—" : n === 0 ? "0" : Math.abs(n) >= 1000 ? n.toLocaleString(undefined, { maximumFractionDigits: 1 }) : Math.abs(n) >= 1 ? n.toFixed(3) : n.toPrecision(3);
@@ -50,6 +54,15 @@ export function EmissionCalculator({ methodSlug }: { methodSlug: string }) {
   const [gwp, setGwp] = useState("");
   const [usedDemo, setUsedDemo] = useState(false);
   const [saved, setSaved] = useState<SavedCalc[]>([]);
+  const loaded = useRef(false);
+  useEffect(() => {
+    try { setSaved(JSON.parse(localStorage.getItem(CALC_STORE) ?? "[]")); } catch {}
+  }, []);
+  useEffect(() => {
+    // Skip the first run so the empty initial state never overwrites stored work.
+    if (!loaded.current) { loaded.current = true; return; }
+    try { localStorage.setItem(CALC_STORE, JSON.stringify(saved)); } catch {}
+  }, [saved]);
 
   const parsed = useMemo(() => {
     const num = (v: string) => (v.trim() === "" ? NaN : Number(v));
@@ -106,6 +119,7 @@ export function EmissionCalculator({ methodSlug }: { methodSlug: string }) {
         usedDemo,
         factorRef: factorSource.reference || "Not provided",
         steps: result.steps,
+        savedAt: new Date().toISOString(),
       },
     ]);
   };
@@ -132,7 +146,7 @@ export function EmissionCalculator({ methodSlug }: { methodSlug: string }) {
 
   return (
     <div className="space-y-6">
-      <div className="grid gap-6 xl:grid-cols-[1fr_1.1fr]">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-6 xl:grid-cols-[1fr_1.1fr]">
         {/* Inputs */}
         <form className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" onSubmit={(e) => e.preventDefault()}>
           <div className="flex flex-wrap items-center justify-between gap-3">
@@ -171,7 +185,7 @@ export function EmissionCalculator({ methodSlug }: { methodSlug: string }) {
           </fieldset>
 
           <fieldset className="mt-6">
-            <legend className="text-sm font-bold tracking-wide text-muted uppercase">Emission factor</legend>
+            <legend className="text-sm font-bold tracking-wide text-muted uppercase">{method.factors.length ? "Emission factor" : "Data source"}</legend>
             <p className="mt-1 text-xs text-muted">{method.factorGuidance}</p>
             <div className="mt-3 grid gap-4 sm:grid-cols-2">
               {method.factors.map((f) => (
@@ -254,6 +268,7 @@ export function EmissionCalculator({ methodSlug }: { methodSlug: string }) {
               <div className="rounded-xl bg-canvas p-3">
                 <dt className="text-xs font-semibold text-muted uppercase">Emission factor</dt>
                 <dd className="mt-1 text-ink">
+                  {method.factors.length === 0 && <span className="block">None: mass balance from measured or engineered inputs.</span>}
                   {method.factors.map((f) => (
                     <span key={f.key} className="block tabular-nums">{f.label}: {factors[f.key] || "—"} {f.unit}</span>
                   ))}

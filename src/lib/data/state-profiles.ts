@@ -61,12 +61,18 @@ export function stateProfileSummaries(): StateProfileSummary[] {
 export function stateMapProfiles() {
   return listStateProfiles().map((p) => ({
     slug: p.slug,
+    code: p.code,
     name: p.name,
     agency: p.agency,
     verification: p.verification,
     lastReviewed: p.lastReviewed,
     forms: p.forms,
     guidance: p.guidance,
-    programs: p.permitTypes.map((t) => t.name),
+    programs: p.permitTypes.map((t) => ({ name: t.name, type: t.type, url: t.url })),
   }));
+}
+
+/** "Texas Commission on Environmental Quality (TCEQ)" -> "TCEQ". */
+export function agencyShortName(name: string) {
+  return name.match(/\(([A-Z][A-Za-z&. -]{1,13})\)/)?.[1] ?? name;
 }

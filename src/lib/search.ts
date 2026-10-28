@@ -3,6 +3,8 @@ import { industries } from "./data/industries";
 import { stateTiles } from "./data/states";
 import type { StateAirPermitProfile } from "./data/state-profile-types";
 import { calculatorMethods } from "./calc/methods";
+import { guides } from "./data/guides";
+import { aphTemplates } from "./data/templates";
 
 /**
  * Site search index. Phase 1 searches a static in-memory index of site
@@ -25,7 +27,7 @@ const tools: SearchDoc[] = [
   { title: "Emission Calculator", href: "/calculators", kind: "Tool", snippet: "Transparent equipment-based emission calculations.", keywords: "emissions calculator pte potential to emit nox voc co tons per year" },
   { title: "Applicability Checker", href: "/applicability", kind: "Tool", snippet: "Screen NSPS, NESHAP, Title V, NSR, PSD, and state requirements.", keywords: "applicability screening threshold title v threshold" },
   { title: "Permit Library", href: "/permits", kind: "Tool", snippet: "Search permits, facilities, and regulatory documents.", keywords: "permit search facility permit number company county" },
-  { title: "Compliance Dashboard", href: "/compliance", kind: "Tool", snippet: "Track testing, reporting, inspections, and renewals.", keywords: "compliance calendar deadlines reporting testing ldar inspection" },
+  { title: "Compliance Calendar", href: "/compliance", kind: "Tool", snippet: "Track testing, reporting, inspections, and renewals; export to your calendar.", keywords: "compliance calendar deadlines reporting testing ldar inspection" },
   { title: "Air Quality Jobs", href: "/jobs", kind: "Tool", snippet: "Air permitting, EHS, and environmental engineering jobs.", keywords: "jobs careers air quality engineer ehs environmental" },
 ];
 
@@ -60,8 +62,22 @@ export function buildSearchIndex(profiles: StateAirPermitProfile[]): SearchDoc[]
     snippet: i.summary,
     keywords: [...i.equipment, ...i.commonSources].join(" "),
   })),
+  ...guides.map((g) => ({
+    title: g.title,
+    href: `/resources/${g.slug}`,
+    kind: "Resource" as const,
+    snippet: g.summary,
+    keywords: g.sections.map((s) => s.heading).join(" "),
+  })),
+  ...aphTemplates.map((t) => ({
+    title: `${t.title} (template)`,
+    href: "/templates",
+    kind: "Resource" as const,
+    snippet: t.description,
+    keywords: `template checklist csv download ${t.tags.join(" ")}`,
+  })),
   ...calculatorMethods.map((m) => ({
-    title: `${m.name} emissions calculator`,
+    title: m.title,
     href: `/calculators/${m.slug}`,
     kind: "Calculator" as const,
     snippet: m.description,

@@ -4,7 +4,9 @@ import { SectionHeading } from "@/components/ui/Section";
 import { Badge, DemoBadge } from "@/components/ui/Badge";
 import { buttonClass } from "@/components/ui/Button";
 import { demoJobs } from "@/lib/data/jobs";
-import { resourceCategories, resources } from "@/lib/data/resources";
+import { Scene } from "@/components/illustrations/Scene";
+import { CompanyLogo } from "@/components/jobs/CompanyLogo";
+import { guides } from "@/lib/data/guides";
 
 const audiences = [
   { title: "Environmental Engineers", body: "Calculations, applicability screening, and permit research in one workspace.", icon: HardHat },
@@ -38,23 +40,23 @@ export function Audiences() {
   );
 }
 
-const categoryName = (slug: string) => resourceCategories.find((c) => c.slug === slug)?.name ?? slug;
-
 export function LatestResources() {
   return (
     <section className="bg-white py-16 sm:py-20" aria-labelledby="res-heading">
       <div className="container-page">
-        <SectionHeading id="res-heading" eyebrow="Resource center" title="Latest Air Permitting Resources" action={{ label: "All resources", href: "/resources" }} description="Our first guides are in production. Each will cite its sources and show a last-reviewed date." />
+        <SectionHeading id="res-heading" eyebrow="Resource center" title="Latest Air Permitting Guides" action={{ label: "All resources", href: "/resources" }} description="Each guide cites its sources and points to the governing text." />
         <ul className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-          {resources.slice(0, 4).map((r) => (
-            <li key={r.slug} className="flex flex-col rounded-2xl border border-line bg-canvas/60 p-5">
-              <div className="flex items-center justify-between gap-2">
-                <span className="text-xs font-semibold text-brand-600">{categoryName(r.category)}</span>
-                <Badge tone="gray">Planned guide</Badge>
-              </div>
-              <h3 className="mt-3 font-semibold text-ink">{r.title}</h3>
-              <p className="mt-2 flex-1 text-sm text-muted">{r.excerpt}</p>
-              <p className="mt-4 flex items-center gap-1.5 text-xs text-muted"><BookOpen className="h-3.5 w-3.5" aria-hidden="true" /> ~{r.readMinutes} min read</p>
+          {guides.map((g) => (
+            <li key={g.slug}>
+              <Link href={`/resources/${g.slug}`} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
+                <Scene kind={g.scene} grain={false} className="aspect-[16/9] w-full" />
+                <div className="flex flex-1 flex-col p-5">
+                  <span className="text-xs font-semibold text-brand-600">{g.category}</span>
+                  <h3 className="mt-1.5 font-semibold text-ink group-hover:text-brand-700">{g.title}</h3>
+                  <p className="mt-2 line-clamp-3 flex-1 text-sm text-muted">{g.summary}</p>
+                  <p className="mt-4 flex items-center gap-1.5 text-xs text-muted"><BookOpen className="h-3.5 w-3.5" aria-hidden="true" /> {g.readMinutes} min read</p>
+                </div>
+              </Link>
             </li>
           ))}
         </ul>
@@ -72,7 +74,7 @@ export function LatestJobs() {
           {demoJobs.slice(0, 4).map((j) => (
             <li key={j.id} className="min-w-0">
               <Link href="/jobs" className="flex items-center gap-4 rounded-2xl border border-line bg-white p-4 shadow-card transition-colors hover:border-brand-200">
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-900 text-cyan-400"><Briefcase className="h-5 w-5" aria-hidden="true" /></span>
+                <CompanyLogo company={j.company} />
                 <span className="min-w-0 flex-1">
                   <span className="block truncate font-semibold text-ink">{j.title}</span>
                   <span className="flex flex-wrap items-center gap-x-3 text-sm text-muted">

@@ -38,17 +38,3 @@ export const resources: Resource[] = [
   { slug: "texas-authorization-options", title: "Texas air authorization options overview", category: "state-regulations", excerpt: "How PBRs, standard permits, and NSR permits fit together in the TCEQ program.", readMinutes: 9, status: "planned" },
   { slug: "air-quality-career-paths", title: "Career paths in air quality engineering", category: "career", excerpt: "Roles, skills, and certifications across consulting, industry, and agencies.", readMinutes: 6, status: "planned" },
 ];
-
-export const templates = [
-  "Air Permit Checklist",
-  "Facility Equipment Inventory",
-  "Emission Calculation Workbook",
-  "Compliance Calendar",
-  "Inspection Checklist",
-  "Engine Inventory",
-  "Tank Inventory",
-  "Flare Tracking",
-  "Deviation Log",
-  "Permit Condition Tracker",
-  "Regulatory Applicability Matrix",
-];

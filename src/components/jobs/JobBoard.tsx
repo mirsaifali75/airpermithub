@@ -1,120 +1,143 @@
 "use client";
 
-import { Briefcase, MapPin, SlidersHorizontal, X } from "lucide-react";
-import { useMemo, useState } from "react";
+import { Bookmark, BookmarkCheck, MapPin, Search, SlidersHorizontal } from "lucide-react";
+import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
 import { Badge, DemoBadge } from "@/components/ui/Badge";
 import { EmptyState } from "@/components/ui/Notices";
 import { cn } from "@/lib/cn";
-import { demoJobs, jobCategories, type Job } from "@/lib/data/jobs";
+import { companyFor, demoJobs, jobCategories, roleGroups, type Job } from "@/lib/data/jobs";
+import { CompanyLogo } from "./CompanyLogo";
 
-type Filters = { q: string; category: string; state: string; type: string; experience: string; industry: string; remote: boolean };
-const empty: Filters = { q: "", category: "", state: "", type: "", experience: "", industry: "", remote: false };
-const uniq = (k: keyof Job) => [...new Set(demoJobs.map((j) => String(j[k])))].sort();
+const STORE = "aph.jobs.saved.v1";
+const uniq = (list: Job[], k: keyof Job) => [...new Set(list.map((j) => String(j[k])))].sort();
 
-export function JobBoard() {
-  const [f, setF] = useState<Filters>(empty);
-  const [open, setOpen] = useState(false);
-  const set = <K extends keyof Filters>(k: K, v: Filters[K]) => setF((s) => ({ ...s, [k]: v }));
+export function JobBoard({ jobs: source = demoJobs, compact = false }: { jobs?: Job[]; compact?: boolean }) {
+  const [q, setQ] = useState("");
+  const [loc, setLoc] = useState("");
+  const [group, setGroup] = useState("All Roles");
+  const [more, setMore] = useState({ category: "", type: "", experience: "", industry: "", remote: false });
+  const [showMore, setShowMore] = useState(false);
+  const [saved, setSaved] = useState<string[]>([]);
+  const [savedOnly, setSavedOnly] = useState(false);
 
+  useEffect(() => {
+    try { setSaved(JSON.parse(localStorage.getItem(STORE) ?? "[]")); } catch {}
+  }, []);
+  const toggleSave = (id: string) => {
+    const next = saved.includes(id) ? saved.filter((x) => x !== id) : [...saved, id];
+    setSaved(next);
+    try { localStorage.setItem(STORE, JSON.stringify(next)); } catch {}
+  };
+
+  const states = uniq(source, "state");
   const jobs = useMemo(() => {
-    const q = f.q.toLowerCase();
-    return demoJobs.filter(
-      (j) =>
-        (!q || `${j.title} ${j.company} ${j.city}`.toLowerCase().includes(q)) &&
-        (!f.category || j.category === f.category) &&
-        (!f.state || j.state === f.state) &&
-        (!f.type || j.type === f.type) &&
-        (!f.experience || j.experience === f.experience) &&
-        (!f.industry || j.industry === f.industry) &&
-        (!f.remote || j.remote),
-    );
-  }, [f]);
+    const t = q.trim().toLowerCase();
+    const g = roleGroups.find((r) => r.label === group);
+    return source
+      .filter(
+        (j) =>
+          (!t || `${j.title} ${j.company} ${j.category} ${j.industry}`.toLowerCase().includes(t)) &&
+          (!loc || (loc === "remote" ? j.remote : j.state === loc)) &&
+          (!g || g.categories.includes(j.category)) &&
+          (!more.category || j.category === more.category) &&
+          (!more.type || j.type === more.type) &&
+          (!more.experience || j.experience === more.experience) &&
+          (!more.industry || j.industry === more.industry) &&
+          (!more.remote || j.remote) &&
+          (!savedOnly || saved.includes(j.id)),
+      )
+      .sort((a, b) => a.postedDaysAgo - b.postedDaysAgo);
+  }, [source, q, loc, group, more, savedOnly, saved]);
 
-  const active = Object.entries(f).filter(([k, v]) => k !== "q" && v).length;
-  const select = "h-11 w-full rounded-xl border border-line bg-white px-3 text-sm text-ink focus:border-brand-500 focus:outline-none";
-
-  const panel = (
-    <div className="space-y-4">
-      {([
-        ["category", "Category", [...jobCategories]],
-        ["state", "State", uniq("state")],
-        ["type", "Job type", uniq("type")],
-        ["experience", "Experience", uniq("experience")],
-        ["industry", "Industry", uniq("industry")],
-      ] as const).map(([key, label, opts]) => (
-        <div key={key}>
-          <label htmlFor={`f-${key}`} className="mb-1.5 block text-sm font-semibold text-ink">{label}</label>
-          <select id={`f-${key}`} className={select} value={f[key]} onChange={(e) => set(key, e.target.value)}>
-            <option value="">Any</option>
-            {opts.map((o) => <option key={o}>{o}</option>)}
-          </select>
-        </div>
-      ))}
-      <label className="flex items-center gap-2.5 text-sm font-medium text-ink">
-        <input type="checkbox" checked={f.remote} onChange={(e) => set("remote", e.target.checked)} className="h-4.5 w-4.5 accent-brand-500" /> Remote only
-      </label>
-      <p className="text-xs text-muted">Company and salary filters activate once real listings include them.</p>
-      {active > 0 && <button onClick={() => setF({ ...empty, q: f.q })} className="text-sm font-semibold text-brand-600">Clear filters</button>}
-    </div>
-  );
+  const sel = "h-11 w-full rounded-xl border border-line bg-white px-3 text-sm text-ink focus:border-brand-500 focus:outline-none";
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[16rem_1fr]">
-      <aside className="hidden rounded-2xl border border-line bg-white p-5 shadow-card lg:block lg:self-start" aria-label="Job filters">{panel}</aside>
-
-      <div className="min-w-0">
-        <div className="flex gap-2">
-          <label htmlFor="job-q" className="sr-only">Search jobs</label>
-          <input id="job-q" value={f.q} onChange={(e) => set("q", e.target.value)} placeholder="Search title, company, or city" className="h-12 min-w-0 flex-1 rounded-xl border border-line bg-white px-4 text-ink focus:border-brand-500 focus:outline-none" />
-          <button onClick={() => setOpen(true)} className="inline-flex h-12 items-center gap-2 rounded-xl border border-line bg-white px-4 text-sm font-semibold lg:hidden" aria-haspopup="dialog">
-            <SlidersHorizontal className="h-4 w-4" aria-hidden="true" /> Filters{active ? ` (${active})` : ""}
-          </button>
-        </div>
-        <p className="mt-4 text-sm text-muted" aria-live="polite">{jobs.length} {jobs.length === 1 ? "listing" : "listings"}</p>
-
-        {jobs.length === 0 ? (
-          <div className="mt-4"><EmptyState icon={<Briefcase className="h-6 w-6" />} title="No matching jobs">Try removing a filter.</EmptyState></div>
-        ) : (
-          <ul className="mt-3 space-y-3">
-            {jobs.map((j) => (
-              <li key={j.id} className="rounded-2xl border border-line bg-white p-5 shadow-card">
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div className="flex gap-4">
-                    <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-navy-900 text-cyan-400"><Briefcase className="h-5 w-5" aria-hidden="true" /></span>
-                    <div>
-                      <h3 className="font-semibold text-ink">{j.title}</h3>
-                      <p className="text-sm text-muted">{j.company}</p>
-                      <p className="mt-1 flex items-center gap-1 text-sm text-muted"><MapPin className="h-3.5 w-3.5" aria-hidden="true" />{j.city}, {j.state}{j.remote && " · Remote"}</p>
-                    </div>
-                  </div>
-                  <span className="text-xs text-muted">{j.postedDaysAgo}d ago</span>
-                </div>
-                <div className="mt-4 flex flex-wrap gap-1.5">
-                  <DemoBadge>Demo</DemoBadge>
-                  <Badge tone="blue">{j.category}</Badge>
-                  <Badge tone="gray">{j.type}</Badge>
-                  <Badge tone="gray">{j.experience}</Badge>
-                  <Badge tone="gray">{j.industry}</Badge>
-                  {j.remote && <Badge tone="green">Remote</Badge>}
-                </div>
-              </li>
+    <div className="rounded-2xl border border-line bg-white shadow-card">
+      {!compact && (
+        <div className="border-b border-line p-4 sm:p-5">
+          <form role="search" onSubmit={(e) => e.preventDefault()} className="grid gap-2 sm:grid-cols-[1fr_14rem_auto]">
+            <label className="relative">
+              <span className="sr-only">Job title, skill or company</span>
+              <Search className="absolute top-3.5 left-3.5 h-4.5 w-4.5 text-slate-400" aria-hidden="true" />
+              <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Job title, skill or company" className="h-12 w-full rounded-xl border border-line pr-3 pl-10 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none" />
+            </label>
+            <label className="relative">
+              <span className="sr-only">Location</span>
+              <MapPin className="absolute top-3.5 left-3.5 h-4.5 w-4.5 text-slate-400" aria-hidden="true" />
+              <select value={loc} onChange={(e) => setLoc(e.target.value)} className="h-12 w-full appearance-none rounded-xl border border-line bg-white pr-3 pl-10 focus:border-brand-500 focus:outline-none">
+                <option value="">United States</option>
+                <option value="remote">Remote</option>
+                {states.map((s) => <option key={s} value={s}>{s}</option>)}
+              </select>
+            </label>
+            <button type="submit" className="h-12 rounded-xl bg-brand-500 px-6 font-semibold text-white hover:bg-brand-600">Search</button>
+          </form>
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            {["All Roles", ...roleGroups.map((r) => r.label)].map((g) => (
+              <button key={g} onClick={() => setGroup(g)} aria-pressed={group === g} className={cn("rounded-full border px-3.5 py-1.5 text-sm font-semibold", group === g ? "border-brand-500 bg-brand-500 text-white" : "border-line text-slate-600 hover:border-brand-200")}>{g}</button>
             ))}
-          </ul>
-        )}
-      </div>
-
-      {open && (
-        <div className="fixed inset-0 z-[60] lg:hidden" role="dialog" aria-modal="true" aria-label="Job filters">
-          <div className="absolute inset-0 bg-navy-950/60" onClick={() => setOpen(false)} />
-          <div className={cn("absolute inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-3xl bg-white p-5")}>
-            <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-lg font-bold">Filters</h2>
-              <button onClick={() => setOpen(false)} aria-label="Close filters" className="rounded-lg p-2 hover:bg-canvas"><X className="h-5 w-5" /></button>
-            </div>
-            {panel}
-            <button onClick={() => setOpen(false)} className="mt-6 h-12 w-full rounded-xl bg-brand-500 font-semibold text-white">Show {jobs.length} listings</button>
+            <button onClick={() => setShowMore((s) => !s)} aria-expanded={showMore} className="ml-auto inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold text-brand-600 hover:bg-brand-50">
+              <SlidersHorizontal className="h-4 w-4" aria-hidden="true" /> More filters
+            </button>
+            <button onClick={() => setSavedOnly((s) => !s)} aria-pressed={savedOnly} className={cn("inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold", savedOnly ? "bg-navy-900 text-white" : "text-slate-600 hover:bg-canvas")}>
+              <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> Saved ({saved.length})
+            </button>
           </div>
+          {showMore && (
+            <div className="mt-4 grid gap-3 rounded-xl bg-canvas p-3 sm:grid-cols-2 lg:grid-cols-5">
+              {([["category", "Category", [...jobCategories]], ["type", "Job type", uniq(source, "type")], ["experience", "Experience", uniq(source, "experience")], ["industry", "Industry", uniq(source, "industry")]] as const).map(([k, label, opts]) => (
+                <label key={k} className="text-xs font-semibold text-muted">
+                  {label}
+                  <select className={cn(sel, "mt-1")} value={more[k]} onChange={(e) => setMore((m) => ({ ...m, [k]: e.target.value }))}>
+                    <option value="">Any</option>
+                    {opts.map((o) => <option key={o}>{o}</option>)}
+                  </select>
+                </label>
+              ))}
+              <label className="flex items-end gap-2 pb-3 text-sm font-semibold text-ink">
+                <input type="checkbox" checked={more.remote} onChange={(e) => setMore((m) => ({ ...m, remote: e.target.checked }))} className="h-4 w-4 accent-brand-500" /> Remote only
+              </label>
+            </div>
+          )}
         </div>
+      )}
+      <p className="flex items-center justify-between px-5 pt-4 text-sm text-muted">
+        <span>{jobs.length} {jobs.length === 1 ? "job" : "jobs"}</span>
+        <DemoBadge>Sample listings</DemoBadge>
+      </p>
+      {jobs.length === 0 ? (
+        <div className="p-5"><EmptyState title="No jobs match">Try clearing a filter or searching a broader title.</EmptyState></div>
+      ) : (
+        <ul className="divide-y divide-line">
+          {jobs.map((j) => {
+            const c = companyFor(j.company);
+            return (
+              <li key={j.id} className="flex items-center gap-4 px-4 py-4 sm:px-5">
+                <CompanyLogo company={j.company} />
+                <div className="min-w-0 flex-1">
+                  <p className="font-semibold text-navy-900">{j.title}</p>
+                  <p className="text-sm text-muted">
+                    {c ? <Link href={`/jobs/companies/${c.slug}`} className="hover:text-brand-700 hover:underline">{j.company}</Link> : j.company} · {j.city}, {j.state}
+                    {j.remote && " · Remote OK"}
+                  </p>
+                  <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+                    <Badge tone="blue">{j.type === "Full-time" ? "Full Time" : j.type}</Badge>
+                    <Badge tone="gray">{j.experience}</Badge>
+                    <span className="text-xs text-muted">{j.industry}</span>
+                  </div>
+                </div>
+                <div className="flex flex-col items-end gap-2">
+                  {j.postedDaysAgo <= 2 && <span className="rounded-md bg-eco-50 px-2 py-0.5 text-xs font-bold text-eco-700">New</span>}
+                  <span className="hidden text-xs text-muted sm:block">{j.postedDaysAgo === 1 ? "1 day ago" : `${j.postedDaysAgo} days ago`}</span>
+                </div>
+                <button onClick={() => toggleSave(j.id)} aria-pressed={saved.includes(j.id)} aria-label={saved.includes(j.id) ? `Remove ${j.title} from saved` : `Save ${j.title}`} className="rounded-lg p-2 text-slate-400 hover:bg-canvas hover:text-brand-600">
+                  {saved.includes(j.id) ? <BookmarkCheck className="h-5 w-5 text-brand-600" /> : <Bookmark className="h-5 w-5" />}
+                </button>
+              </li>
+            );
+          })}
+        </ul>
       )}
     </div>
   );

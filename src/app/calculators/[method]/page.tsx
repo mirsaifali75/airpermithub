@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ method: s
   const m = getMethod((await params).method);
   if (!m) return {};
   return {
-    title: `${m.name} Emissions Calculator`,
+    title: m.title,
     description: `${m.description} Formula: ${m.formula}.`,
     alternates: { canonical: `/calculators/${m.slug}` },
   };
@@ -28,8 +28,8 @@ export default async function MethodPage({ params }: { params: Promise<{ method:
       <PageHeader
         crumbs={[{ label: "Calculators", href: "/calculators" }, { label: m.name }]}
         eyebrow={m.equipmentCategory}
-        title={`${m.name} Emissions Calculator`}
-        icon={<Calculator className="h-7 w-7" />}
+        title={m.title}
+        icon={<Calculator />}
         description={m.description}
       />
       <div className="container-page space-y-6 py-10">

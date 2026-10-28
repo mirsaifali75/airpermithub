@@ -1,7 +1,7 @@
 import { ArrowRight, BarChart3, FileCog, FileText, Gavel, LayoutGrid, MapPinned, Scale } from "lucide-react";
 import Link from "next/link";
-import { IndustryArt } from "@/components/illustrations/IndustryArt";
-import { industries } from "@/lib/data/industries";
+import { Scene } from "@/components/illustrations/Scene";
+import { industryScene, orderedIndustries } from "@/lib/data/industries";
 
 const regCards = [
   { title: "NSPS", body: "New Source Performance Standards", href: "/regulations/nsps", icon: FileText },
@@ -14,7 +14,7 @@ const regCards = [
 
 export function IndustriesAndRegulations() {
   return (
-    <section className="bg-canvas py-6">
+    <section className="bg-canvas pt-12 pb-6">
       <div className="container-page grid gap-4 lg:grid-cols-[1.9fr_1fr]">
         <div className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6">
           <div className="mb-5 flex items-center justify-between">
@@ -24,10 +24,10 @@ export function IndustriesAndRegulations() {
             </Link>
           </div>
           <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-            {industries.slice(0, 8).map((i) => (
+            {orderedIndustries().slice(0, 8).map((i) => (
               <li key={i.slug}>
                 <Link href={`/industries/${i.slug}`} className="group relative block overflow-hidden rounded-xl ring-1 ring-line transition-all hover:-translate-y-0.5 hover:ring-2 hover:ring-brand-500">
-                  <IndustryArt kind={i.art} className="aspect-[4/3] h-full w-full transition-transform duration-500 group-hover:scale-105" />
+                  <Scene kind={industryScene[i.slug]} grain={false} className="aspect-[4/3] h-full w-full transition-transform duration-500 group-hover:scale-105" />
                   <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950/95 to-transparent px-2 pt-8 pb-2.5 text-center text-sm font-semibold text-white">
                     {i.name}
                   </span>

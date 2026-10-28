@@ -26,6 +26,11 @@ export const demoTasks: DemoTask[] = [
   { id: "t5", title: "Annual compliance certification", facility: "Placeholder Gas Plant", category: "Certification", dueOffsetDays: 18, status: "on-track" },
   { id: "t6", title: "Emissions inventory submittal", facility: "Example Compressor Station", category: "Emission Inventory", dueOffsetDays: 25, status: "not-evaluated" },
   { id: "t7", title: "Tank throughput records", facility: "Demo SWD Facility", category: "Recordkeeping", dueOffsetDays: -8, status: "completed" },
+  { id: "t8", title: "Title V semiannual report", facility: "Placeholder Gas Plant", category: "Reporting", dueOffsetDays: 2, status: "due-soon" },
+  { id: "t9", title: "Subpart Kb records review", facility: "Sample Terminal", category: "Recordkeeping", dueOffsetDays: 15, status: "on-track" },
+  { id: "t10", title: "Annual GHG report preparation", facility: "Example Compressor Station", category: "Reporting", dueOffsetDays: 21, status: "not-evaluated" },
+  { id: "t11", title: "MACT notification review", facility: "Sample Terminal", category: "Reporting", dueOffsetDays: 28, status: "on-track" },
+  { id: "t12", title: "Visible emissions observation", facility: "Sample Ranch Tank Battery", category: "Monitoring", dueOffsetDays: 6, status: "on-track" },
 ];
 
 export const demoFacilities = [

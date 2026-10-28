@@ -25,9 +25,12 @@
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "d3-geo": "^3.1.1",
     "postcss": "^8.5.31",
     "prisma": "^6.19.3",
     "tailwindcss": "^4.3.3",
-    "typescript": "5.9"
+    "topojson-client": "^3.1.0",
+    "typescript": "5.9",
+    "us-atlas": "^3.0.1"
   }
 }

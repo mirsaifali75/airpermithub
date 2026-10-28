@@ -1,34 +1,85 @@
 import type { Metadata } from "next";
-import { FileSearch, FileText, ShieldCheck, Upload } from "lucide-react";
+import { FileStack } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { PermitLibrary } from "@/components/permits/PermitLibrary";
-import { DemoNotice, Disclaimer } from "@/components/ui/Notices";
+import { PermitLibrary, type LibraryItem } from "@/components/permits/PermitLibrary";
+import { Disclaimer } from "@/components/ui/Notices";
+import { demoPermits } from "@/lib/data/permits";
+import { agencyShortName, listStateProfiles } from "@/lib/data/state-profiles";
+import { aphTemplates } from "@/lib/data/templates";
 
 export const metadata: Metadata = {
-  title: "Air Permit Search & Permit Library",
-  description: "Search air permits, facilities, and regulatory documents by company, facility, permit number, location, equipment, and agency.",
+  title: "Permit Library: Permits, Templates, Forms & Checklists",
+  description: "Official state air permit forms and application pages, AirPermitHub templates and checklists, and example permit records, searchable by state, industry, and type.",
   alternates: { canonical: "/permits" },
 };
 
+const isApplication = (name: string) => /applica|registration|notice of intent|\bnoi\b|claim/i.test(name);
+
 export default function PermitsPage() {
+  const states = listStateProfiles();
+  const forms: LibraryItem[] = states.flatMap((s) =>
+    s.forms.map((f, idx) => ({
+      id: `${s.code}-f${idx}`,
+      tab: (isApplication(f.name) ? "Applications" : "Forms") as LibraryItem["tab"],
+      title: f.name,
+      subtitle: `${s.name} · ${s.agency.name}`,
+      tags: [agencyShortName(s.agency.name), s.name],
+      state: s.code,
+      type: isApplication(f.name) ? "Application / registration" : "Forms index",
+      href: f.url,
+      action: "external" as const,
+      kind: "official" as const,
+    })),
+  );
+  const tpl: LibraryItem[] = aphTemplates.map((t) => ({
+    id: t.slug,
+    tab: t.kind === "checklist" ? "Checklists" : "Templates",
+    title: t.title,
+    subtitle: t.description,
+    tags: ["AirPermitHub Template", ...t.tags],
+    type: t.kind === "checklist" ? "Checklist" : "Template",
+    href: `/api/v1/templates/${t.slug}`,
+    action: "download",
+    kind: "aph",
+  }));
+  const demos: LibraryItem[] = demoPermits.flatMap((p) => [
+    {
+      id: p.id,
+      tab: "Permits" as const,
+      title: `${p.permitType}: ${p.facility}`,
+      subtitle: `${p.company} · ${p.county}, ${p.state} · ${p.permitNumber}`,
+      tags: [p.agency, p.industry, ...p.equipment],
+      state: p.state,
+      industry: p.industry,
+      type: p.permitType,
+      action: "none" as const,
+      kind: "demo" as const,
+    },
+    {
+      id: `${p.id}-ex`,
+      tab: "Examples" as const,
+      title: `${p.permitType} – Example`,
+      subtitle: `${p.facility} (fictional) · ${p.industry}`,
+      tags: [p.permitType, p.industry, p.state],
+      state: p.state,
+      industry: p.industry,
+      type: p.permitType,
+      action: "none" as const,
+      kind: "demo" as const,
+    },
+  ]);
+
   return (
     <>
-      <PageHeader crumbs={[{ label: "Permit Library" }]} eyebrow="Permit search" title="Permit Library" icon={<FileSearch className="h-7 w-7" />} description="Research publicly available permits, facilities, and regulatory documents. Every record is labeled by where it came from." />
+      <PageHeader
+        crumbs={[{ label: "Permit Library" }]}
+        title="Permit Library"
+        icon={<FileStack />}
+        scene="tank-farm"
+        description="Access permits, templates, forms and example documents. Official forms link to the agency; AirPermitHub templates are labeled as ours; example permits are clearly marked demo."
+      />
       <div className="container-page space-y-6 py-10">
-        <DemoNotice>The permit database launches in Phase 2. These fictional records demonstrate the search and result layout only.</DemoNotice>
-        <ul className="grid gap-3 md:grid-cols-3">
-          {[
-            { icon: ShieldCheck, title: "Official source documents", body: "Retrieved from the issuing agency, linked to the original." , cls: "text-eco-600" },
-            { icon: FileText, title: "AirPermitHub summaries", body: "Our plain-language summaries, always linked to the source.", cls: "text-brand-500" },
-            { icon: Upload, title: "User-uploaded documents", body: "Shared by users; not verified by AirPermitHub.", cls: "text-slate-500" },
-          ].map(({ icon: Icon, title, body, cls }) => (
-            <li key={title} className="flex gap-3 rounded-2xl border border-line bg-white p-4">
-              <Icon className={`h-5 w-5 shrink-0 ${cls}`} aria-hidden="true" />
-              <span><span className="block text-sm font-semibold text-ink">{title}</span><span className="text-xs text-muted">{body}</span></span>
-            </li>
-          ))}
-        </ul>
-        <PermitLibrary />
+        <PermitLibrary items={[...demos, ...tpl, ...forms]} states={states.map((s) => ({ code: s.code, name: s.name }))} />
         <Disclaimer />
       </div>
     </>

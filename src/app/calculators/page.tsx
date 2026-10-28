@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { ArrowRight, Calculator, Database, Eye, FileCheck2, History } from "lucide-react";
-import Link from "next/link";
+import { Calculator, Database, Eye, FileCheck2, History } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge } from "@/components/ui/Badge";
 import { Disclaimer } from "@/components/ui/Notices";
-import { SectionHeading } from "@/components/ui/Section";
-import { calculatorMethods } from "@/lib/calc/methods";
+import { calcCategories, calculatorMethods } from "@/lib/calc/methods";
+import { CalculatorGrid } from "@/components/calculator/CalculatorGrid";
 import { pollutants } from "@/lib/data/equipment";
 
 export const metadata: Metadata = {
@@ -14,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "/calculators" },
 };
 
-const planned = ["Dehydrators", "Pneumatics", "Loading", "Turbines"];
 
 const factorFields = ["Source category", "Pollutant", "Factor value", "Units", "Reference document", "Section / table", "Publication or revision date", "Official URL", "Rating / quality", "Notes", "Version history"];
 
@@ -23,37 +21,16 @@ export default function CalculatorsPage() {
     <>
       <PageHeader
         crumbs={[{ label: "Calculators" }]}
-        eyebrow="Emissions toolkit"
         title="Emission Calculators"
-        icon={<Calculator className="h-7 w-7" />}
-        description="Equipment-based calculations that show the formula, the emission factor, its source, and every intermediate step. Nothing is hidden."
+        icon={<Calculator />}
+        scene="power"
+        description="Estimate emissions using EPA methods and industry-standard approaches. Every result shows the formula, the factor you cite, and each intermediate step."
       />
-      <div className="container-page space-y-14 py-12">
-        <section aria-labelledby="calc-list">
-          <SectionHeading id="calc-list" title="Choose equipment" />
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {calculatorMethods.map((m) => (
-              <li key={m.slug}>
-                <Link href={`/calculators/${m.slug}`} className="group flex h-full flex-col rounded-2xl border border-line bg-white p-5 shadow-card transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-lift">
-                  <span className="text-xs font-semibold text-brand-600">{m.equipmentCategory}</span>
-                  <h3 className="mt-1 text-lg font-bold text-ink">{m.name}</h3>
-                  <p className="mt-1.5 flex-1 text-sm text-muted">{m.description}</p>
-                  <code className="mt-4 block truncate rounded-lg bg-canvas px-3 py-2 text-xs text-navy-800">{m.formula}</code>
-                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Start calculating <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" /></span>
-                </Link>
-              </li>
-            ))}
-            {planned.map((p) => (
-              <li key={p} className="flex flex-col justify-between rounded-2xl border border-dashed border-line bg-white/60 p-5">
-                <div>
-                  <h3 className="text-lg font-bold text-slate-500">{p}</h3>
-                  <p className="mt-1.5 text-sm text-muted">Method in development.</p>
-                </div>
-                <Badge tone="gray" className="mt-4 self-start">Phase 2</Badge>
-              </li>
-            ))}
-          </ul>
-        </section>
+      <div className="container-page space-y-14 py-10">
+        <CalculatorGrid
+          categories={calcCategories}
+          methods={calculatorMethods.map(({ slug, title, short, formula, categories, icon }) => ({ slug, title, short, formula, categories, icon }))}
+        />
 
         <section className="grid gap-6 lg:grid-cols-3" aria-label="How calculations work">
           {[

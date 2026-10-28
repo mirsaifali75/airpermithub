@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { MobileTabBar } from "@/components/layout/MobileTabBar";
 import { listStateProfiles } from "@/lib/data/state-profiles";
 import { buildSearchIndex } from "@/lib/search";
 import { site } from "@/lib/site";
@@ -39,10 +40,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const searchIndex = buildSearchIndex(listStateProfiles());
   return (
     <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
-      <body className="min-h-screen">
+      <body className="min-h-screen pb-16 lg:pb-0">
         <Header searchIndex={searchIndex} />
         <main id="main">{children}</main>
         <Footer />
+        <MobileTabBar />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
       </body>
     </html>

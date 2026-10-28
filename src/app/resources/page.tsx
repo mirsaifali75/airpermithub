@@ -1,68 +1,141 @@
 import type { Metadata } from "next";
-import { BookOpen, FolderDown } from "lucide-react";
+import { ArrowRight, BookOpen, Download, FileSpreadsheet, Landmark, ListChecks, MapPinned, PlayCircle, ScrollText } from "lucide-react";
 import Link from "next/link";
+import { Scene } from "@/components/illustrations/Scene";
 import { PageHeader } from "@/components/layout/PageHeader";
+import { AccordionItem } from "@/components/ui/Accordion";
 import { Badge } from "@/components/ui/Badge";
-import { buttonClass } from "@/components/ui/Button";
-import { Disclaimer } from "@/components/ui/Notices";
-import { cn } from "@/lib/cn";
-import { resourceCategories, resources } from "@/lib/data/resources";
+import { Disclaimer, EmptyState } from "@/components/ui/Notices";
+import { Tabs } from "@/components/ui/Tabs";
+import { faqs, guides } from "@/lib/data/guides";
+import { resources } from "@/lib/data/resources";
+import { listStateProfiles } from "@/lib/data/state-profiles";
+import { aphTemplates } from "@/lib/data/templates";
 
 export const metadata: Metadata = {
-  title: "Air Permitting Resource Center",
-  description: "Guides, checklists, templates, and training on air permitting, emission calculations, and compliance.",
+  title: "Air Permitting Resources: Guides, Templates & FAQs",
+  description: "Guides, articles, templates and tools for air permitting professionals: where to start, potential to emit, PSD vs. NSR, Title V, state guides, CSV templates, and FAQs.",
   alternates: { canonical: "/resources" },
 };
 
-export default async function ResourcesPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {
-  const { category } = await searchParams;
-  const list = category ? resources.filter((r) => r.category === category) : resources;
-  const catName = (slug: string) => resourceCategories.find((c) => c.slug === slug)?.name;
+function Row({ href, title, sub, thumb, meta, download }: { href: string; title: string; sub: string; thumb: React.ReactNode; meta?: React.ReactNode; download?: boolean }) {
+  const inner = (
+    <>
+      <span className="relative h-16 w-24 shrink-0 overflow-hidden rounded-lg bg-navy-900">{thumb}</span>
+      <span className="min-w-0 flex-1">
+        <span className="block font-semibold text-navy-900">{title}</span>
+        <span className="mt-0.5 line-clamp-2 block text-sm text-muted">{sub}</span>
+        {meta && <span className="mt-1.5 flex flex-wrap items-center gap-1.5">{meta}</span>}
+      </span>
+      {download ? <Download className="h-5 w-5 shrink-0 text-brand-500" aria-hidden="true" /> : <ArrowRight className="h-5 w-5 shrink-0 text-brand-500 transition-transform group-hover:translate-x-1" aria-hidden="true" />}
+    </>
+  );
+  const cls = "group flex items-center gap-4 rounded-xl border border-line bg-white p-3 pr-4 shadow-card transition-colors hover:border-brand-200";
+  return download ? <a href={href} download className={cls}>{inner}</a> : <Link href={href} className={cls}>{inner}</Link>;
+}
+
+const iconThumb = (Icon: typeof BookOpen) => (
+  <span className="flex h-full w-full items-center justify-center bg-gradient-to-br from-navy-800 to-navy-950 text-cyan-400"><Icon className="h-7 w-7" aria-hidden="true" /></span>
+);
+
+export default function ResourcesPage() {
+  const states = listStateProfiles();
+  const featuredStates = ["texas", "new-mexico", "oklahoma", "colorado", "louisiana", "north-dakota"].map((s) => states.find((p) => p.slug === s)).filter((p) => !!p);
+  const planned = resources.filter((r) => !guides.some((g) => g.slug === r.slug));
+
+  const guideRows = guides.map((g) => (
+    <li key={g.slug}>
+      <Row href={`/resources/${g.slug}`} title={g.title} sub={g.summary} thumb={<Scene kind={g.scene} grain={false} className="h-full w-full" />} meta={<><Badge tone="blue">{g.category}</Badge><span className="text-xs text-muted">{g.readMinutes} min read</span></>} />
+    </li>
+  ));
+  const stateRows = featuredStates.map((s) => (
+    <li key={s.slug}>
+      <Row href={`/states/${s.slug}`} title={`${s.name} Air Permitting Guide`} sub={`${s.agency.name}: ${s.permitTypes.map((p) => p.name).slice(0, 3).join(", ")}, and more.`} thumb={iconThumb(MapPinned)} meta={<span className="text-xs text-muted">Reviewed {s.lastReviewed}</span>} />
+    </li>
+  ));
+  const templateRows = aphTemplates.map((t) => (
+    <li key={t.slug}>
+      <Row href={`/api/v1/templates/${t.slug}`} download title={t.title} sub={t.description} thumb={iconThumb(t.kind === "checklist" ? ListChecks : FileSpreadsheet)} meta={<><Badge tone="navy">AirPermitHub Template</Badge><span className="text-xs text-muted">CSV</span></>} />
+    </li>
+  ));
+
   return (
     <>
-      <PageHeader crumbs={[{ label: "Resources" }]} eyebrow="Resource center" title="Resources" icon={<BookOpen className="h-7 w-7" />} description="Practical guides for permitting, calculations, and compliance. Every guide will cite its sources and carry a last-reviewed date." />
-      <div className="container-page grid gap-8 py-10 lg:grid-cols-[15rem_1fr]">
-        <nav aria-label="Resource categories" className="lg:self-start">
-          <ul className="flex gap-2 overflow-x-auto pb-1 lg:flex-col lg:gap-1">
-            <li className="shrink-0"><Link href="/resources" className={cn("block rounded-lg px-3 py-2 text-sm", !category ? "bg-white font-semibold text-ink shadow-card" : "text-muted hover:text-ink")}>All</Link></li>
-            {resourceCategories.map((c) => (
-              <li key={c.slug} className="shrink-0">
-                <Link href={c.slug === "templates" ? "/templates" : `/resources?category=${c.slug}`} aria-current={category === c.slug ? "page" : undefined}
-                  className={cn("block rounded-lg px-3 py-2 text-sm whitespace-nowrap", category === c.slug ? "bg-white font-semibold text-ink shadow-card" : "text-muted hover:text-ink")}>{c.name}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        <div className="min-w-0 space-y-6">
-          {list.length === 0 ? (
-            <div className="rounded-2xl border border-dashed border-line bg-white p-10 text-center">
-              <h2 className="font-semibold text-ink">{catName(category!) ?? "This category"}: guides in production</h2>
-              <p className="mt-1 text-sm text-muted">No published or planned guides are listed here yet.</p>
-            </div>
-          ) : (
-            <ul className="grid gap-4 md:grid-cols-2">
-              {list.map((r) => (
-                <li key={r.slug} className="flex flex-col rounded-2xl border border-line bg-white p-5 shadow-card">
-                  <div className="flex items-center justify-between gap-2">
-                    <span className="text-xs font-semibold text-brand-600">{catName(r.category)}</span>
-                    <Badge tone="gray">Planned guide</Badge>
-                  </div>
-                  <h2 className="mt-3 font-semibold text-ink">{r.title}</h2>
-                  <p className="mt-2 flex-1 text-sm text-muted">{r.excerpt}</p>
-                  <p className="mt-4 text-xs text-muted">~{r.readMinutes} min read</p>
-                </li>
+      <PageHeader crumbs={[{ label: "Resources" }]} title="Resources" icon={<BookOpen />} scene="oil-gas" description="Guides, articles, templates and tools for air permitting professionals. Every guide cites its sources and points to the governing text." />
+      <div className="container-page grid grid-cols-[minmax(0,1fr)] gap-8 py-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+        <Tabs
+          className="min-w-0"
+          tabs={[
+            {
+              label: "Featured",
+              content: <ul className="space-y-3">{guideRows.slice(0, 3)}{stateRows.slice(0, 2)}{templateRows.slice(0, 1)}</ul>,
+            },
+            {
+              label: "Guides",
+              count: guides.length + featuredStates.length,
+              content: (
+                <div className="space-y-8">
+                  <ul className="space-y-3">{guideRows}</ul>
+                  <section>
+                    <h2 className="mb-3 text-sm font-bold tracking-wider text-muted uppercase">State guides</h2>
+                    <ul className="space-y-3">{stateRows}</ul>
+                    <Link href="/states" className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">All {states.length} state hubs <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+                  </section>
+                  {planned.length > 0 && (
+                    <section>
+                      <h2 className="mb-3 text-sm font-bold tracking-wider text-muted uppercase">In production</h2>
+                      <ul className="grid gap-3 sm:grid-cols-2">
+                        {planned.map((r) => (
+                          <li key={r.slug} className="rounded-xl border border-dashed border-line bg-white/60 p-4">
+                            <p className="font-semibold text-slate-600">{r.title}</p>
+                            <p className="mt-1 text-sm text-muted">{r.excerpt}</p>
+                            <Badge tone="gray" className="mt-2">Planned</Badge>
+                          </li>
+                        ))}
+                      </ul>
+                    </section>
+                  )}
+                </div>
+              ),
+            },
+            { label: "Templates", count: aphTemplates.length, content: <ul className="space-y-3">{templateRows}</ul> },
+            {
+              label: "Webinars",
+              count: 0,
+              content: <EmptyState icon={<PlayCircle className="h-6 w-6" />} title="No webinars scheduled yet">Training sessions will be announced here and in the newsletter. Recordings will be posted with their slides and sources.</EmptyState>,
+            },
+            {
+              label: "White Papers",
+              count: 0,
+              content: <EmptyState icon={<ScrollText className="h-6 w-6" />} title="White papers in production">Longer technical papers will be published here once they have been reviewed against their sources.</EmptyState>,
+            },
+            {
+              label: "FAQs",
+              count: faqs.length,
+              content: (
+                <div className="overflow-hidden rounded-2xl border border-line bg-white shadow-card">
+                  {faqs.map((f, i) => <AccordionItem key={f.q} title={f.q} defaultOpen={i === 0}>{f.a}</AccordionItem>)}
+                </div>
+              ),
+            },
+          ]}
+        />
+        <aside className="space-y-4 lg:pt-14">
+          <div className="rounded-2xl border border-line bg-white p-5 shadow-card">
+            <h2 className="font-bold text-ink">Quick links</h2>
+            <ul className="mt-3 space-y-1 text-sm">
+              {[
+                { l: "Regulations Explorer", h: "/regulations", i: Landmark },
+                { l: "State Explorer", h: "/states", i: MapPinned },
+                { l: "Official forms (Permit Library)", h: "/permits?tab=forms", i: FileSpreadsheet },
+                { l: "EPA guidance", h: "/regulations?tab=guidance", i: BookOpen },
+              ].map(({ l, h, i: Icon }) => (
+                <li key={h}><Link href={h} className="flex items-center gap-2 rounded-lg px-2 py-1.5 text-slate-700 hover:bg-canvas hover:text-brand-700"><Icon className="h-4 w-4 text-brand-500" aria-hidden="true" />{l}</Link></li>
               ))}
             </ul>
-          )}
-          <div className="flex flex-col items-start gap-4 rounded-2xl bg-navy-900 p-6 text-white sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <h2 className="flex items-center gap-2 text-lg font-bold"><FolderDown className="h-5 w-5 text-cyan-400" aria-hidden="true" /> Engineering templates</h2>
-              <p className="text-sm text-white/70">Checklists, inventories, and trackers built for air permitting work.</p>
-            </div>
-            <Link href="/templates" className={buttonClass("primary")}>Browse templates</Link>
           </div>
           <Disclaimer />
-        </div>
+        </aside>
       </div>
     </>
   );

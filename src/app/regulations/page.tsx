@@ -1,91 +1,75 @@
 import type { Metadata } from "next";
-import { ArrowRight, Landmark, MapPinned } from "lucide-react";
-import Link from "next/link";
+import { Landmark } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { RegulationCard } from "@/components/regulations/RegulationCard";
-import { Badge, VerificationBadge } from "@/components/ui/Badge";
+import { RegulationsExplorer, type ExplorerEntry } from "@/components/regulations/RegulationsExplorer";
 import { Disclaimer } from "@/components/ui/Notices";
-import { SectionHeading } from "@/components/ui/Section";
-import { federalRegulations, regulationCategories } from "@/lib/data/regulations";
-import { listStateProfiles } from "@/lib/data/state-profiles";
+import { federalGuidance } from "@/lib/data/guidance";
+import { federalRegulations } from "@/lib/data/regulations";
+import { agencyShortName, listStateProfiles } from "@/lib/data/state-profiles";
 
 export const metadata: Metadata = {
-  title: "Air Regulations Library: NSPS, NESHAP, Title V, NSR, PSD",
-  description: "A source-linked library of federal and state air regulations, with citations, applicability pointers, and last-reviewed dates.",
+  title: "Regulations Explorer: Federal & State Air Regulations",
+  description: "Search and browse federal and state air regulations, permit programs, guidance, and requirements: NSPS, NESHAP, MACT, Title V, NSR, PSD, GHG reporting, and all 50 state programs.",
   alternates: { canonical: "/regulations" },
 };
 
+/** Plain-language descriptions of program types; numbers live in each state's quoted sources. */
+const programTypes: { type: string; title: string; description: string; href: string }[] = [
+  { type: "exemption", title: "Exemptions & de minimis", description: "Sources or changes below a level the agency treats as not needing a permit, usually with conditions and records.", href: "/states" },
+  { type: "registration", title: "Registrations & notices", description: "Notify-and-register options for qualifying sources, such as notices of intent or registration permits.", href: "/states" },
+  { type: "pbr", title: "Permits by rule", description: "Pre-written rule authorizations a facility claims by meeting every condition of the rule.", href: "/states/texas" },
+  { type: "general", title: "General permits", description: "One permit written for a class of similar sources; facilities apply for coverage under it.", href: "/states" },
+  { type: "standard", title: "Standard permits", description: "Pre-approved permit terms for specific facility types (Texas uses this term).", href: "/states/texas" },
+  { type: "minor-nsr", title: "Minor NSR / construction permits", description: "Case-by-case preconstruction permits for sources that are not major.", href: "/regulations/nsr" },
+  { type: "state-operating", title: "State operating permits", description: "Non-Title V operating permits, including synthetic minor permits that take limits to stay below major thresholds.", href: "/states" },
+  { type: "psd", title: "Prevention of Significant Deterioration", description: "Major NSR for pollutants in attainment areas.", href: "/regulations/psd" },
+  { type: "nnsr", title: "Nonattainment NSR", description: "Major NSR for pollutants in nonattainment areas.", href: "/regulations/nonattainment-nsr" },
+  { type: "title-v", title: "Title V operating permits", description: "Federally required operating permits for major sources and certain other sources.", href: "/regulations/title-v" },
+];
+
 export default function RegulationsPage() {
   const states = listStateProfiles();
+  const entries: ExplorerEntry[] = [
+    ...federalRegulations.map((r) => ({ tab: "Federal" as const, title: r.shortName === r.name ? r.name : `${r.shortName}`, citation: r.citation, description: r.name === r.shortName ? r.tagline : `${r.name}. ${r.tagline}`, href: `/regulations/${r.slug}`, keywords: (r.keySubparts ?? []).map((k) => `${k.code} ${k.title}`).join(" ") })),
+    { tab: "Federal", title: "MACT standards", citation: "40 CFR Part 63", description: "Maximum Achievable Control Technology standards for major sources of hazardous air pollutants, organized by source category in Part 63.", href: "/regulations/neshap", keywords: "maximum achievable control technology gact area source hap" },
+    { tab: "Federal", title: "State regulations", description: "Air agency rules, permit programs, forms, and guidance for all 50 states and DC.", href: "/states" },
+    { tab: "Federal", title: "EPA guidance documents", description: "Program pages, emission factor references, and nonattainment designations from EPA.", href: "/regulations?tab=guidance" },
+    ...states.map((s) => ({
+      tab: "State" as const,
+      title: `${s.name} – ${agencyShortName(s.agency.name)}`,
+      citation: s.regulations.slice(0, 2).map((r) => r.citation).join(" · ") || undefined,
+      description: `${s.permitTypes.length} authorization programs, ${s.forms.length} official forms, ${s.guidance.length} guidance links.`,
+      href: `/states/${s.slug}`,
+      meta: s.verification === "verified" ? "Verified" : "Partially verified",
+      keywords: `${s.agency.name} ${s.code} ${s.regulations.map((r) => `${r.citation} ${r.title}`).join(" ")} ${s.permitTypes.map((p) => p.name).join(" ")}`,
+    })),
+    ...programTypes.map((p) => ({
+      tab: "Programs" as const,
+      title: p.title,
+      description: p.description,
+      href: p.href,
+      meta: `${states.filter((s) => s.permitTypes.some((t) => t.type === p.type)).length} state hubs list one`,
+      keywords: states.flatMap((s) => s.permitTypes.filter((t) => t.type === p.type).map((t) => t.name)).join(" "),
+    })),
+    ...federalGuidance.map((g) => ({ tab: "Guidance" as const, title: g.title, description: g.note, href: g.url, external: true, meta: "EPA" })),
+    ...states.flatMap((s) => s.guidance.map((g) => ({ tab: "Guidance" as const, title: g.name, description: `${s.name} · ${s.agency.name}`, href: g.url, external: true, meta: s.code }))),
+    ...[...states]
+      .sort((a, b) => b.lastReviewed.localeCompare(a.lastReviewed) || a.name.localeCompare(b.name))
+      .map((s) => ({ tab: "Recent Updates" as const, title: `${s.name} hub reviewed`, description: `${agencyShortName(s.agency.name)} programs, forms, and guidance checked against agency pages${s.verification === "partial" ? " (partially verified)" : ""}.`, href: `/states/${s.slug}`, meta: s.lastReviewed })),
+  ];
+
   return (
     <>
       <PageHeader
         crumbs={[{ label: "Regulations" }]}
-        eyebrow="Regulations library"
-        title="Air Regulations & Guidance"
-        icon={<Landmark className="h-7 w-7" />}
-        description="Plain-language orientation to federal and state air programs, always linked to the official text. Each record shows its status, citation, and review date."
-      >
-        <ul className="flex flex-wrap gap-2">
-          {["Federal EPA", ...states.map((s) => s.name), "Other States"].map((c) => (
-            <li key={c}><span className="glass-dark inline-block rounded-full px-3 py-1 text-sm text-white/85">{c}</span></li>
-          ))}
-        </ul>
-      </PageHeader>
-      <div className="container-page space-y-14 py-12">
-        <section aria-labelledby="fed">
-          <SectionHeading id="fed" eyebrow="Federal EPA" title="Federal programs" action={{ label: "Federal overview", href: "/regulations/federal" }} />
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {federalRegulations.map((r) => <li key={r.slug}><RegulationCard reg={r} /></li>)}
-            <li>
-              <Link href="/resources?category=federal-regulations" className="flex h-full flex-col justify-between rounded-2xl border border-dashed border-line bg-white/60 p-5 hover:border-brand-200">
-                <div>
-                  <span className="font-display text-2xl font-extrabold text-slate-400">Guidance</span>
-                  <h3 className="mt-1 font-semibold text-ink">Regulatory Guidance</h3>
-                  <p className="mt-1.5 text-sm text-muted">EPA guidance and applicability determinations index.</p>
-                </div>
-                <Badge tone="gray" className="mt-4 self-start">In development</Badge>
-              </Link>
-            </li>
-          </ul>
-        </section>
-
-        <section aria-labelledby="st">
-          <SectionHeading id="st" eyebrow="State programs" title="State regulatory hubs" action={{ label: "All 50 states", href: "/states" }} />
-          <ul className="grid gap-4 md:grid-cols-2">
-            {states.map((s) => (
-              <li key={s.slug}>
-                <Link href={`/states/${s.slug}`} className="group flex h-full flex-col rounded-2xl border border-line bg-white p-6 shadow-card hover:border-brand-200">
-                  <div className="flex flex-wrap items-center justify-between gap-2">
-                    <h3 className="flex items-center gap-2 text-xl font-bold text-ink"><MapPinned className="h-5 w-5 text-brand-500" aria-hidden="true" /> {s.name}</h3>
-                    <VerificationBadge level={s.verification} />
-                  </div>
-                  <p className="mt-1 text-sm font-medium text-navy-700">{s.agency.name}</p>
-                  <ul className="mt-4 flex flex-wrap gap-1.5">
-                    {s.regulations.slice(0, 6).map((r) => (
-                      <li key={r.citation} className="rounded-md bg-canvas px-2 py-1 font-mono text-xs text-navy-800 ring-1 ring-line">{r.citation}</li>
-                    ))}
-                  </ul>
-                  <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Open hub <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" /></span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section aria-labelledby="cats">
-          <SectionHeading id="cats" title="Browse by category" />
-          <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {regulationCategories.map((c) => (
-              <li key={c.title}>
-                <Link href={c.href} className="block h-full rounded-xl border border-line bg-white p-4 hover:border-brand-200 hover:bg-brand-50/50">
-                  <span className="font-semibold text-ink">{c.title}</span>
-                  <span className="mt-0.5 block text-sm text-muted">{c.blurb}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
+        title="Regulations Explorer"
+        icon={<Landmark />}
+        scene="chemical"
+        description="Search and browse federal and state air regulations, guidance and requirements. Every entry links to the official text and shows how far it has been reviewed."
+      />
+      <div className="container-page space-y-8 py-10">
+        <RegulationsExplorer entries={entries} />
+        <p className="text-sm text-muted">Federal summaries describe program structure only and are marked “not yet reviewed” until an editor checks them against the eCFR. Thresholds, limits, and deadlines always come from the official text.</p>
         <Disclaimer />
       </div>
     </>

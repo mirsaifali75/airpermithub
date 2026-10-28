@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { AlarmClock, CalendarClock, ClipboardCheck, FileClock, FlaskConical, ShieldCheck, Wrench } from "lucide-react";
+import { AlarmClock, CalendarClock, ClipboardCheck, FileClock, FlaskConical, Wrench } from "lucide-react";
 import { ComplianceCalendar } from "@/components/compliance/ComplianceCalendar";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge, ComplianceBadge } from "@/components/ui/Badge";
@@ -25,9 +25,10 @@ export default function CompliancePage() {
   ];
   return (
     <>
-      <PageHeader crumbs={[{ label: "Compliance" }]} eyebrow="Compliance management" title="Compliance Dashboard" icon={<ShieldCheck className="h-7 w-7" />} description="Track testing, reporting, inspections, certifications, and renewals across every facility, with status you can read at a glance." />
+      <PageHeader crumbs={[{ label: "Compliance" }]} title="Compliance Calendar" icon={<CalendarClock />} scene="midstream" description="Track permitting, reporting and compliance deadlines. Add your own tasks and export them to Outlook, Google, or Apple Calendar." />
       <div className="container-page space-y-12 py-10">
-        <DemoNotice>This is a preview of the Phase 2 compliance workspace. Facilities, tasks, and counts are fictional.</DemoNotice>
+        <ComplianceCalendar />
+        <DemoNotice>Demo tasks, facilities, and counts below preview the Phase 2 compliance workspace and are fictional. Tasks you add yourself stay in your browser.</DemoNotice>
 
         <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
           {cards.map(({ label, value, icon: Icon, tone }) => (
@@ -54,10 +55,6 @@ export default function CompliancePage() {
           </ul>
         </section>
 
-        <section aria-labelledby="cal">
-          <SectionHeading id="cal" title="Compliance calendar" />
-          <ComplianceCalendar />
-        </section>
 
         <section className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
@@ -65,8 +62,8 @@ export default function CompliancePage() {
             <ul className="mt-4 flex flex-wrap gap-2">{complianceCategories.map((c) => <li key={c}><Badge tone="blue">{c}</Badge></li>)}</ul>
           </div>
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
-            <h2 className="text-lg font-bold text-ink">Reminders (coming)</h2>
-            <ul className="mt-4 flex flex-wrap gap-2">{["Email", "Dashboard notifications", "Calendar integrations"].map((c) => <li key={c}><Badge tone="gray">{c}</Badge></li>)}</ul>
+            <h2 className="text-lg font-bold text-ink">Reminders</h2>
+            <ul className="mt-4 flex flex-wrap gap-2">{["Calendar export (.ics): live", "Email reminders: Phase 2", "Dashboard notifications: Phase 2"].map((c) => <li key={c}><Badge tone="gray">{c}</Badge></li>)}</ul>
             <p className="mt-3 text-sm text-muted">Deadlines will always come from your permit conditions or the cited rule, never from AirPermitHub assumptions.</p>
           </div>
         </section>

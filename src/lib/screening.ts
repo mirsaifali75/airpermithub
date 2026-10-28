@@ -16,6 +16,12 @@ export interface ScreeningInput {
   industry: string;
   facilityType: string;
   equipment: string[];
+  /** Operations step (optional; adds considerations, never conclusions). */
+  project?: "new" | "modification" | "existing";
+  existingAuthorization?: "yes" | "no" | "unsure";
+  pteKnown?: "yes" | "no";
+  controls?: string[];
+  schedule?: "continuous" | "limited";
 }
 
 export interface ScreeningItem {
@@ -32,6 +38,34 @@ export interface ScreeningResult {
   pathways: ScreeningItem[];
   federalRules: ScreeningItem[];
   dataGaps: string[];
+  considerations: { title: string; body: string }[];
+}
+
+/** General permitting concepts triggered by the operations answers. */
+function considerationsFor(input: ScreeningInput): ScreeningResult["considerations"] {
+  const out: ScreeningResult["considerations"] = [];
+  if (input.project === "new") {
+    out.push({ title: "Authorization before construction", body: "Preconstruction programs generally require authorization before construction begins. Confirm with the agency what activities count as beginning construction under its rules." });
+  }
+  if (input.project === "modification") {
+    out.push({ title: "Modification rules decide the path", body: "For a change at an existing site, each program's own definition of modification (and any netting or aggregation provisions) decides which path applies. Start from the existing authorization and the cited rule text." });
+  }
+  if (input.project === "existing") {
+    out.push({ title: "Review the current authorization", body: "For an existing facility, compare current equipment and operations against the authorization on file, and check renewal and reporting obligations in that permit." });
+  }
+  if (input.existingAuthorization === "yes") {
+    out.push({ title: "Amend or replace?", body: "Check whether the existing authorization can be amended or registered against, or whether a new authorization is needed. Agencies set this in rule and guidance." });
+  }
+  if (input.existingAuthorization === "unsure") {
+    out.push({ title: "Find existing authorizations first", body: "Search the agency's permit database or records for the site before choosing a path; an existing authorization can change the answer." });
+  }
+  if (input.controls && input.controls.length > 0 && !input.controls.includes("None")) {
+    out.push({ title: "Controls and potential to emit", body: "Control devices lower potential to emit only when the reduction is enforceable, typically through a permit condition or rule. Document the control efficiency you claim and how it will be monitored." });
+  }
+  if (input.schedule === "limited") {
+    out.push({ title: "Limited operating hours", body: "Using fewer than full-year operating hours in a potential-to-emit calculation generally requires an enforceable limit on hours or throughput." });
+  }
+  return out;
 }
 
 const OG_INDUSTRIES = new Set(["Oil & Gas", "Midstream"]);
@@ -195,5 +229,9 @@ export function screen(input: ScreeningInput, profiles: StateProfileSummary[]): 
   if (!hub) {
     dataGaps.unshift("State program details for this state are not yet in AirPermitHub.");
   }
-  return { pathways: pathwaysFor(input, hub), federalRules: federalRulesFor(input.equipment, input.industry), dataGaps };
+  if (input.pteKnown === "yes") {
+    const i = dataGaps.findIndex((g) => g.startsWith("Potential to emit"));
+    dataGaps[i] = "Compare your potential-to-emit estimates against the applicability criteria quoted on the state hub and in the federal rule text.";
+  }
+  return { pathways: pathwaysFor(input, hub), federalRules: federalRulesFor(input.equipment, input.industry), dataGaps, considerations: considerationsFor(input) };
 }
