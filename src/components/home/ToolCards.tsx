@@ -21,7 +21,7 @@ export function ToolCards() {
               href={href}
               className="group flex h-full flex-col rounded-2xl border border-line bg-white p-4 shadow-lift transition-all hover:-translate-y-1 hover:border-brand-200 sm:p-5"
             >
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500 text-white shadow-[0_8px_18px_-8px_rgb(30_111_255/0.8)]">
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500 text-white shadow-[0_8px_18px_-8px_rgb(20_125_255/0.8)]">
                 <Icon className="h-5.5 w-5.5" aria-hidden="true" />
               </span>
               <h3 className="mt-4 text-[0.95rem] font-bold text-navy-900 sm:text-base">{title}</h3>

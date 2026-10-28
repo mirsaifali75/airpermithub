@@ -8,17 +8,17 @@ import { cn } from "@/lib/cn";
  */
 export function LogoMark({ className, tone = "dark" }: { className?: string; tone?: "dark" | "light" }) {
   const id = useId().replace(/:/g, "");
-  const frame = tone === "dark" ? "#FFFFFF" : "#0B1E3A";
+  const frame = tone === "dark" ? "#FFFFFF" : "#0B2942";
   return (
     <svg viewBox="0 0 48 48" className={className} aria-hidden="true" focusable="false">
       <defs>
         <linearGradient id={`${id}-air`} x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#1E6FFF" />
-          <stop offset="1" stopColor="#00B4FF" />
+          <stop offset="0" stopColor="#147DFF" />
+          <stop offset="1" stopColor="#00B8FF" />
         </linearGradient>
         <linearGradient id={`${id}-leg`} x1="0" y1="1" x2="0" y2="0">
-          <stop offset="0" stopColor="#1E6FFF" />
-          <stop offset="1" stopColor="#00B4FF" />
+          <stop offset="0" stopColor="#147DFF" />
+          <stop offset="1" stopColor="#00B8FF" />
         </linearGradient>
       </defs>
       {/* Left leg */}
@@ -29,10 +29,10 @@ export function LogoMark({ className, tone = "dark" }: { className?: string; ton
       <path d="M17 45 V38 H19.5 V33 H21 V38 H23 V35 L26 33.5 V38 H28 V31 H29.5 V38 H31 V45 Z" fill={frame} opacity="0.9" />
       {/* Air stream crossbar */}
       <path d="M2 31.5 C 12 24, 24 30.5, 41 21" stroke={`url(#${id}-air)`} strokeWidth="3.4" strokeLinecap="round" fill="none" />
-      <path d="M8 36 C 16 31.5, 25 34.5, 36 29" stroke="#00B4FF" strokeWidth="1.8" strokeLinecap="round" fill="none" opacity="0.7" />
+      <path d="M8 36 C 16 31.5, 25 34.5, 36 29" stroke="#00B8FF" strokeWidth="1.8" strokeLinecap="round" fill="none" opacity="0.7" />
       {/* Leaf */}
-      <path d="M31 9 C 31.5 3.5, 37 1, 46 1.5 C 45.5 8.5, 40 12.5, 31 9 Z" fill="#22C55E" />
-      <path d="M32 8.6 C 36 6.5, 39.5 5, 43 3.2" stroke="#0B1E3A" strokeOpacity="0.35" strokeWidth="0.8" fill="none" />
+      <path d="M31 9 C 31.5 3.5, 37 1, 46 1.5 C 45.5 8.5, 40 12.5, 31 9 Z" fill="#1FA463" />
+      <path d="M32 8.6 C 36 6.5, 39.5 5, 43 3.2" stroke="#0B2942" strokeOpacity="0.35" strokeWidth="0.8" fill="none" />
     </svg>
   );
 }

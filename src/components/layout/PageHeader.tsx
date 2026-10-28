@@ -41,7 +41,7 @@ export function PageHeader({
         <Breadcrumbs items={crumbs} tone="light" />
         <div className="mt-5 flex items-start gap-4">
           {icon && (
-            <div className="hidden h-13 w-13 shrink-0 items-center justify-center rounded-2xl bg-brand-500 text-white shadow-[0_10px_24px_-10px_rgb(30_111_255/0.8)] sm:flex [&_svg]:h-6.5 [&_svg]:w-6.5">
+            <div className="hidden h-13 w-13 shrink-0 items-center justify-center rounded-2xl bg-brand-500 text-white shadow-[0_10px_24px_-10px_rgb(20_125_255/0.8)] sm:flex [&_svg]:h-6.5 [&_svg]:w-6.5">
               {icon}
             </div>
           )}

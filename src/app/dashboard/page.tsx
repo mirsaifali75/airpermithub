@@ -15,7 +15,7 @@ export default function DashboardPage() {
             <ul className="flex gap-1 overflow-x-auto lg:flex-col">
               {dashboardNav.map(({ label, href, icon: Icon }, i) => (
                 <li key={label} className="shrink-0">
-                  <Link href={href} aria-current={i === 0 ? "page" : undefined} className={i === 0 ? "flex items-center gap-2.5 rounded-xl bg-brand-500 px-3 py-2.5 text-sm font-semibold text-white" : "flex items-center gap-2.5 rounded-xl px-3 py-2.5 text-sm text-slate-700 hover:bg-canvas"}>
+                  <Link href={href} aria-current={i === 0 ? "page" : undefined} className={i === 0 ? "flex items-center gap-2.5 rounded-xl bg-brand-600 px-3 py-2.5 text-sm font-semibold text-white" : "flex items-center gap-2.5 rounded-xl px-3 py-2.5 text-sm text-slate-700 hover:bg-canvas"}>
                     <Icon className="h-4.5 w-4.5" aria-hidden="true" /> {label}
                   </Link>
                 </li>

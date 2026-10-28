@@ -79,7 +79,7 @@ export function PermitLibrary({ items, states }: { items: LibraryItem[]; states:
       <div className="border-b border-line p-4 sm:p-5">
         <div role="tablist" aria-label="Library sections" className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-1">
           {libraryTabs.map((t) => (
-            <button key={t} role="tab" aria-selected={tab === t} onClick={() => select(t)} className={cn("shrink-0 rounded-lg px-3.5 py-2 text-sm font-semibold", tab === t ? "bg-brand-500 text-white" : "text-slate-600 hover:bg-canvas hover:text-ink")}>
+            <button key={t} role="tab" aria-selected={tab === t} onClick={() => select(t)} className={cn("shrink-0 rounded-lg px-3.5 py-2 text-sm font-semibold", tab === t ? "bg-brand-600 text-white" : "text-slate-600 hover:bg-canvas hover:text-ink")}>
               {t} <span className={cn("ml-0.5 text-xs", tab === t ? "text-white/75" : "text-slate-400")}>{items.filter((i) => i.tab === t).length}</span>
             </button>
           ))}
@@ -90,7 +90,7 @@ export function PermitLibrary({ items, states }: { items: LibraryItem[]; states:
             <Search className="absolute top-3.5 left-3.5 h-4.5 w-4.5 text-slate-400" aria-hidden="true" />
             <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search permits, industries, states..." className="h-12 w-full rounded-xl border border-line pr-3 pl-10 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none" />
           </label>
-          <button type="submit" className="h-12 rounded-xl bg-brand-500 px-5 font-semibold text-white hover:bg-brand-600">Search</button>
+          <button type="submit" className="h-12 rounded-xl bg-brand-600 px-5 font-semibold text-white hover:bg-brand-700">Search</button>
         </form>
         <div className="mt-3 flex flex-wrap gap-2">
           <select aria-label="Industry" value={industry} onChange={(e) => setIndustry(e.target.value)} disabled={industries.length === 0} className={sel}>

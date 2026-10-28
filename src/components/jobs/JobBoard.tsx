@@ -71,11 +71,11 @@ export function JobBoard({ jobs: source = demoJobs, compact = false }: { jobs?: 
                 {states.map((s) => <option key={s} value={s}>{s}</option>)}
               </select>
             </label>
-            <button type="submit" className="h-12 rounded-xl bg-brand-500 px-6 font-semibold text-white hover:bg-brand-600">Search</button>
+            <button type="submit" className="h-12 rounded-xl bg-brand-600 px-6 font-semibold text-white hover:bg-brand-700">Search</button>
           </form>
           <div className="mt-4 flex flex-wrap items-center gap-2">
             {["All Roles", ...roleGroups.map((r) => r.label)].map((g) => (
-              <button key={g} onClick={() => setGroup(g)} aria-pressed={group === g} className={cn("rounded-full border px-3.5 py-1.5 text-sm font-semibold", group === g ? "border-brand-500 bg-brand-500 text-white" : "border-line text-slate-600 hover:border-brand-200")}>{g}</button>
+              <button key={g} onClick={() => setGroup(g)} aria-pressed={group === g} className={cn("rounded-full border px-3.5 py-1.5 text-sm font-semibold", group === g ? "border-brand-500 bg-brand-600 text-white" : "border-line text-slate-600 hover:border-brand-200")}>{g}</button>
             ))}
             <button onClick={() => setShowMore((s) => !s)} aria-expanded={showMore} className="ml-auto inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold text-brand-600 hover:bg-brand-50">
               <SlidersHorizontal className="h-4 w-4" aria-hidden="true" /> More filters

@@ -59,7 +59,7 @@ prisma/schema.prisma   database schema
 
 ## Design system
 
-Tokens live in `src/app/globals.css` (`@theme`): navy `#0B1E3A`, brand blue `#1E6FFF`, cyan `#00B4FF`, green `#22C55E` (verified/compliant/success only), canvas `#F5F7FB`, ink `#0F172A`, muted `#64748B`. Fonts: Plus Jakarta Sans (display), Inter (body). Utilities: `text-gradient-brand`, `bg-gradient-brand`, `glass-dark`, `container-page`.
+Tokens live in `src/app/globals.css` (`@theme`), using the approved 2026-10 palette: deep navy `#071A2B` (`navy-950`), navy `#0B2942` (`navy-900`), primary blue `#147DFF` (`brand-500`, fills/icons/borders), AA-safe blue `#0066DB` (`brand-600`, small text and button fills), electric blue `#0077FF` (`electric`, gradients), cyan `#00B8FF`, success green `#16834B` (`eco-600`, verified/compliant/success only), warning amber `#F5A623` (`amber-500`), error red `#D92D20` (`red-600`), background `#F5F8FC` (`canvas`), text `#0F172A` (`ink`), secondary `#64748B` (`muted`), border `#E2E8F0` (`line`). Fonts: Plus Jakarta Sans (display), Inter (body). Utilities: `text-gradient-brand`, `bg-gradient-brand`, `glass-dark`, `container-page`.
 
 Status components map 1:1 to the brief's status system: `ContentStatusBadge`, `ApplicabilityBadge`, `ComplianceBadge`, `OriginBadge`, `VerificationBadge`, `DemoBadge`, `CitationBadge`, `ReviewedBadge`.
 

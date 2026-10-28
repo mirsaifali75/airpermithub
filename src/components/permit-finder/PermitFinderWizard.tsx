@@ -131,7 +131,7 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
                   aria-label={`Step ${idx + 1}: ${label}${done ? " (done)" : ""}`}
                   className={cn(
                     "relative z-10 flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold ring-4 ring-white transition-colors",
-                    done ? "bg-brand-500 text-white" : current ? "bg-brand-500 text-white shadow-[0_0_0_6px_rgb(30_111_255/0.15)]" : "bg-slate-100 text-slate-500",
+                    done ? "bg-brand-600 text-white" : current ? "bg-brand-600 text-white shadow-[0_0_0_6px_rgb(20_125_255/0.15)]" : "bg-slate-100 text-slate-500",
                   )}
                 >
                   {done ? <Check className="h-4 w-4" aria-hidden="true" /> : idx + 1}

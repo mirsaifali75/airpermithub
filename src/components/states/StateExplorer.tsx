@@ -15,7 +15,7 @@ export type MapProfile = Pick<StateAirPermitProfile, "slug" | "code" | "name" | 
 const shortAgency = (name: string) => name.match(/\(([A-Z][A-Za-z&. -]{1,13})\)/)?.[1] ?? name;
 
 const fillFor = (v: MapProfile["verification"] | undefined, selected: boolean, hovered: boolean) => {
-  if (selected) return "#1E6FFF";
+  if (selected) return "#147DFF";
   if (hovered) return "#8fb4ff";
   if (v === "verified") return "#cddcf7";
   if (v === "partial") return "#e3e8f0";
@@ -71,7 +71,7 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
             {usMap.states
               .filter((s) => s.slug === selected)
               .map((s) => (
-                <path key="sel" d={s.d} fill="none" stroke="#0B1E3A" strokeWidth={1.5} pointerEvents="none" />
+                <path key="sel" d={s.d} fill="none" stroke="#0B2942" strokeWidth={1.5} pointerEvents="none" />
               ))}
           </svg>
           <div className="pointer-events-none absolute top-3 left-3 rounded-lg bg-white/90 px-2.5 py-1 text-xs font-semibold text-navy-900 shadow-card sm:top-5 sm:left-5">
@@ -100,7 +100,7 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
                   aria-pressed={s.slug === selected}
                   className={cn(
                     "flex w-full items-center justify-between gap-2 rounded-lg px-3 py-2 text-left text-sm",
-                    s.slug === selected ? "bg-brand-500 font-semibold text-white" : "text-ink hover:bg-canvas",
+                    s.slug === selected ? "bg-brand-600 font-semibold text-white" : "text-ink hover:bg-canvas",
                   )}
                 >
                   <span className="truncate">{s.name}</span>

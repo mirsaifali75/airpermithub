@@ -34,7 +34,7 @@ export function Tabs({ tabs, className }: { tabs: { label: string; count?: numbe
             aria-selected={active === i}
             aria-controls={`${id}-p${i}`}
             onClick={() => select(i)}
-            className={cn("shrink-0 rounded-lg px-3.5 py-2 text-sm font-semibold transition-colors", active === i ? "bg-brand-500 text-white shadow-card" : "text-slate-600 hover:bg-white hover:text-ink")}
+            className={cn("shrink-0 rounded-lg px-3.5 py-2 text-sm font-semibold transition-colors", active === i ? "bg-brand-600 text-white shadow-card" : "text-slate-600 hover:bg-white hover:text-ink")}
           >
             {t.label}
             {t.count !== undefined && <span className={cn("ml-1 text-xs", active === i ? "text-white/75" : "text-slate-400")}>{t.count}</span>}

@@ -4,7 +4,7 @@ import { cn } from "@/lib/cn";
 const glyph: Record<(typeof social)[number]["name"], React.ReactNode> = {
   LinkedIn: <span className="font-display text-[0.95rem] font-extrabold tracking-tight">in</span>,
   YouTube: (
-    <svg viewBox="0 0 24 24" className="h-4.5 w-4.5" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor" /><path d="M10 9l5 3-5 3z" fill="#061227" /></svg>
+    <svg viewBox="0 0 24 24" className="h-4.5 w-4.5" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor" /><path d="M10 9l5 3-5 3z" fill="#071A2B" /></svg>
   ),
   X: (
     <svg viewBox="0 0 24 24" className="h-4 w-4" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" /></svg>

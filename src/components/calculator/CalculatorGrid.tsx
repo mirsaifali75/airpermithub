@@ -46,7 +46,7 @@ export function CalculatorGrid({ methods, categories }: { methods: CalcCard[]; c
               role="tab"
               aria-selected={tab === c}
               onClick={() => setTab(c)}
-              className={cn("shrink-0 rounded-lg px-3.5 py-2 text-sm font-semibold transition-colors", tab === c ? "bg-brand-500 text-white shadow-card" : "text-slate-600 hover:bg-white hover:text-ink")}
+              className={cn("shrink-0 rounded-lg px-3.5 py-2 text-sm font-semibold transition-colors", tab === c ? "bg-brand-600 text-white shadow-card" : "text-slate-600 hover:bg-white hover:text-ink")}
             >
               {c}
             </button>

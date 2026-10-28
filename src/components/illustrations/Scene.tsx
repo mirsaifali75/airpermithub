@@ -342,7 +342,7 @@ const palettes: Record<SceneTone, { sky: [number, string][]; sun: string; far: s
     ground: "#070c18",
   },
   night: {
-    sky: [[0, "#040914"], [0.5, "#0b1e3a"], [0.85, "#16386a"], [1, "#2f5f9e"]],
+    sky: [[0, "#040914"], [0.5, "#0B2942"], [0.85, "#16386a"], [1, "#2f5f9e"]],
     sun: "#6fb6ff",
     far: "#162a4a",
     ground: "#04070f",

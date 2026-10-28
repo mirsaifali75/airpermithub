@@ -26,7 +26,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
         <form action="/search" role="search" className="flex max-w-2xl gap-2">
           <label htmlFor="sq" className="sr-only">Search</label>
           <input id="sq" name="q" defaultValue={q} placeholder="Search permits, regulations, equipment, facilities, or keywords..." className="h-12 min-w-0 flex-1 rounded-xl bg-white px-4 text-ink outline-none" />
-          <button className="h-12 rounded-xl bg-brand-500 px-5 font-semibold text-white">Search</button>
+          <button className="h-12 rounded-xl bg-brand-600 px-5 font-semibold text-white">Search</button>
         </form>
       </PageHeader>
       <div className="container-page grid gap-8 py-10 lg:grid-cols-[14rem_1fr]">

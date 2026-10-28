@@ -72,15 +72,15 @@ export function IndustrialScene({ className }: { className?: string }) {
           <stop offset="1" stopColor="#ff7a3d" stopOpacity="0" />
         </radialGradient>
         <linearGradient id="readability" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#061227" stopOpacity="0.97" />
-          <stop offset="0.34" stopColor="#061227" stopOpacity="0.88" />
-          <stop offset="0.56" stopColor="#061227" stopOpacity="0.2" />
-          <stop offset="1" stopColor="#061227" stopOpacity="0" />
+          <stop offset="0" stopColor="#071A2B" stopOpacity="0.97" />
+          <stop offset="0.34" stopColor="#071A2B" stopOpacity="0.88" />
+          <stop offset="0.56" stopColor="#071A2B" stopOpacity="0.2" />
+          <stop offset="1" stopColor="#071A2B" stopOpacity="0" />
         </linearGradient>
         <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#061227" stopOpacity="0" />
-          <stop offset="0.75" stopColor="#061227" stopOpacity="0.6" />
-          <stop offset="1" stopColor="#061227" stopOpacity="0.95" />
+          <stop offset="0" stopColor="#071A2B" stopOpacity="0" />
+          <stop offset="0.75" stopColor="#071A2B" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#071A2B" stopOpacity="0.95" />
         </linearGradient>
         <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
           <stop offset="0" stopColor="#ffdd7a" />
@@ -88,9 +88,9 @@ export function IndustrialScene({ className }: { className?: string }) {
           <stop offset="1" stopColor="#ff5a1f" stopOpacity="0" />
         </linearGradient>
         <linearGradient id="airstream" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#1E6FFF" stopOpacity="0" />
-          <stop offset="0.4" stopColor="#00B4FF" stopOpacity="0.55" />
-          <stop offset="1" stopColor="#22C55E" stopOpacity="0" />
+          <stop offset="0" stopColor="#147DFF" stopOpacity="0" />
+          <stop offset="0.4" stopColor="#00B8FF" stopOpacity="0.55" />
+          <stop offset="1" stopColor="#1FA463" stopOpacity="0" />
         </linearGradient>
       </defs>
 

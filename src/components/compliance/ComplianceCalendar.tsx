@@ -141,7 +141,7 @@ export function ComplianceCalendar() {
             const dayTasks = valid ? tasks.filter((t) => +t.due === +date) : [];
             return (
               <div key={i} className={cn("min-h-16 border-b border-line p-1 text-left sm:min-h-24 [&:not(:nth-child(7n))]:border-r", !valid && "bg-canvas/50")}>
-                {valid && <span className={cn("inline-flex h-6 w-6 items-center justify-center rounded-full text-xs font-semibold", isToday ? "bg-brand-500 text-white" : "text-slate-600")}>{d}</span>}
+                {valid && <span className={cn("inline-flex h-6 w-6 items-center justify-center rounded-full text-xs font-semibold", isToday ? "bg-brand-600 text-white" : "text-slate-600")}>{d}</span>}
                 <div className="mt-0.5 space-y-0.5">
                   {dayTasks.slice(0, 3).map((t) => (
                     <span key={t.id} title={`${t.title} · ${t.facility}${t.demo ? " (demo)" : ""}`} className={cn("block truncate rounded px-1 py-0.5 text-[0.6rem] font-semibold text-white sm:text-[0.65rem]", bar[t.category], t.demo && "opacity-80")}>
