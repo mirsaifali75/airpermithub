@@ -5,6 +5,7 @@ import { EmissionCalculator } from "@/components/calculator/EmissionCalculator";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Disclaimer } from "@/components/ui/Notices";
 import { calculatorMethods, getMethod } from "@/lib/calc/methods";
+import { federalRegulations } from "@/lib/data/regulations";
 
 export function generateStaticParams() {
   return calculatorMethods.map((m) => ({ method: m.slug }));
@@ -33,7 +34,10 @@ export default async function MethodPage({ params }: { params: Promise<{ method:
         description={m.description}
       />
       <div className="container-page space-y-6 py-10">
-        <EmissionCalculator methodSlug={m.slug} />
+        <EmissionCalculator
+          methodSlug={m.slug}
+          related={federalRegulations.filter((r) => r.relatedCalculators.includes(m.slug)).map((r) => ({ slug: r.slug, shortName: r.shortName, citation: r.citation }))}
+        />
         <Disclaimer />
       </div>
     </>

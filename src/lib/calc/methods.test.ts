@@ -66,11 +66,8 @@ describe("calculator methods: hand-checked math", () => {
     expect(r.lbPerHr).toBeCloseTo((scf / 379.3) * 20 * 0.1, 12);
   });
 
-  it("ghg: heat input × kg/MMBtu × lb/kg × GWP", () => {
-    expect(run("ghg", { q: 10 }, { ef: 50, gwp: 1 }).lbPerHr).toBeCloseTo(500 * LB_PER_KG, 9);
-    const co2e = run("ghg", { q: 10 }, { ef: 50, gwp: 25 });
-    expect(co2e.lbPerHr).toBeCloseTo(500 * LB_PER_KG * 25, 6);
-    expect(co2e.steps.at(-1)?.unit).toBe("lb CO2e/hr");
+  it("ghg: heat input × kg/MMBtu × lb/kg (CO2e is applied in the calculator from the GWP the user enters)", () => {
+    expect(run("ghg", { q: 10 }, { ef: 50 }).lbPerHr).toBeCloseTo(500 * LB_PER_KG, 9);
   });
 });
 

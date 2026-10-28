@@ -21,6 +21,8 @@ export interface NumberInput {
   max?: number;
   step?: number;
   demo: number;
+  /** Varies by pollutant (e.g. weight fraction), so each pollutant row carries its own value. */
+  perPollutant?: boolean;
 }
 
 export interface FactorInput {
@@ -90,7 +92,7 @@ function gasSteps(scfPerHr: number, i: Record<string, number>, lead: CalcStep[])
 
 const gasInputs: NumberInput[] = [
   { key: "mw", label: "Gas molecular weight", unit: "lb/lb-mol", min: 0, step: 0.01, demo: 20, help: "From a representative gas analysis." },
-  { key: "wt", label: "Pollutant weight fraction", unit: "%", min: 0, max: 100, step: 0.1, demo: 10, help: "Weight percent of the selected pollutant (e.g. VOC, CH4) in the gas." },
+  { key: "wt", label: "Pollutant weight fraction", unit: "%", min: 0, max: 100, step: 0.1, demo: 10, perPollutant: true, help: "Weight percent of the selected pollutant (e.g. VOC, CH4) in the gas." },
   { key: "molarVolume", label: "Molar volume at standard conditions", unit: "scf/lb-mol", min: 1, step: 0.1, demo: 379.3, help: "Use the value for the standard temperature and pressure your program or method specifies." },
 ];
 
@@ -243,7 +245,7 @@ export const calculatorMethods: CalculatorMethod[] = [
       { key: "connectors", label: "Connectors", unit: "count", min: 0, step: 1, demo: 400 },
       { key: "flanges", label: "Flanges", unit: "count", min: 0, step: 1, demo: 80 },
       { key: "other", label: "Other components", unit: "count", min: 0, step: 1, demo: 20 },
-      { key: "wt", label: "Pollutant weight fraction", unit: "%", min: 0, max: 100, step: 0.1, demo: 25, help: "Weight percent of the selected pollutant in the stream." },
+      { key: "wt", label: "Pollutant weight fraction", unit: "%", min: 0, max: 100, step: 0.1, demo: 25, perPollutant: true, help: "Weight percent of the selected pollutant in the stream." },
     ],
     factors: [
       { key: "efValves", label: "Valve factor", unit: "kg/hr/comp", demo: 0.004 },
@@ -382,27 +384,23 @@ export const calculatorMethods: CalculatorMethod[] = [
     equipmentCategory: "Stationary fuel combustion (GHG)",
     description: "Fuel heat input times a per-MMBtu greenhouse gas factor, with CO₂e from the GWP you enter.",
     keywords: "ghg greenhouse gas co2 ch4 n2o co2e gwp combustion kg/mmbtu part 98",
-    formula: "E (lb/hr) = Q (MMBtu/hr) × EF (kg/MMBtu) × 2.20462 (lb/kg) × GWP",
+    formula: "E (lb/hr) = Q (MMBtu/hr) × EF (kg/MMBtu) × 2.20462 (lb/kg)",
     methodology:
-      "Heat-input method for combustion greenhouse gases. Multiplies heat input by a per-MMBtu factor for the selected gas and converts kilograms to pounds. The result is multiplied by the global warming potential you enter: use 1 to report the mass of the gas itself, or the program's GWP for CH4 or N2O to report CO2e.",
+      "Heat-input method for combustion greenhouse gases. Multiplies heat input by a per-MMBtu factor for the selected gas, converts kilograms to pounds, then (for CH4 and N2O) multiplies by the global warming potential you enter to report CO2e.",
     factorGuidance:
       "Use the fuel-specific factor and GWP values required by your reporting program, and cite the table and the version in effect for the reporting year.",
     inputs: [{ key: "q", label: "Heat input", unit: "MMBtu/hr", min: 0, step: 0.1, demo: 10 }],
-    factors: [
-      { key: "ef", label: "Emission factor", unit: "kg/MMBtu", demo: 50 },
-      { key: "gwp", label: "Global warming potential (1 = mass of the gas)", unit: "—", demo: 1 },
-    ],
+    factors: [{ key: "ef", label: "Emission factor", unit: "kg/MMBtu", demo: 50 }],
     compute(i, f) {
       const kg = i.q * f.ef;
-      const lbGas = kg * LB_PER_KG;
-      const gwp = Number.isFinite(f.gwp) && f.gwp > 0 ? f.gwp : 1;
-      const lbPerHr = lbGas * gwp;
-      const steps: CalcStep[] = [
-        { label: "Mass rate", expression: `${i.q} MMBtu/hr × ${f.ef} kg/MMBtu`, value: round(kg), unit: "kg/hr" },
-        { label: "Convert to lb/hr", expression: `${round(kg)} kg/hr × ${LB_PER_KG} lb/kg`, value: round(lbGas), unit: "lb/hr" },
-      ];
-      if (gwp !== 1) steps.push({ label: "CO2e", expression: `${round(lbGas)} lb/hr × GWP ${gwp}`, value: round(lbPerHr), unit: "lb CO2e/hr" });
-      return { lbPerHr, steps };
+      const lbPerHr = kg * LB_PER_KG;
+      return {
+        lbPerHr,
+        steps: [
+          { label: "Mass rate", expression: `${i.q} MMBtu/hr × ${f.ef} kg/MMBtu`, value: round(kg), unit: "kg/hr" },
+          { label: "Convert to lb/hr", expression: `${round(kg)} kg/hr × ${LB_PER_KG} lb/kg`, value: round(lbPerHr), unit: "lb/hr" },
+        ],
+      };
     },
   },
 ];
