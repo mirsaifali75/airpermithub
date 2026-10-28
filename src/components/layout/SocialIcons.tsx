@@ -22,7 +22,7 @@ export function SocialIcons({ className }: { className?: string }) {
               {glyph[name]}
             </a>
           ) : (
-            <span title={`${name}: coming soon`} aria-label={`${name} (coming soon)`} className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/5 text-white/45">
+            <span role="img" title={`${name}: coming soon`} aria-label={`${name} (coming soon)`} className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/5 text-white/65">
               {glyph[name]}
             </span>
           )}

@@ -80,7 +80,7 @@ export function PermitLibrary({ items, states }: { items: LibraryItem[]; states:
         <div role="tablist" aria-label="Library sections" className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-1">
           {libraryTabs.map((t) => (
             <button key={t} role="tab" aria-selected={tab === t} onClick={() => select(t)} className={cn("shrink-0 rounded-lg px-3.5 py-2 text-sm font-semibold", tab === t ? "bg-brand-600 text-white" : "text-slate-600 hover:bg-canvas hover:text-ink")}>
-              {t} <span className={cn("ml-0.5 text-xs", tab === t ? "text-white/75" : "text-slate-400")}>{items.filter((i) => i.tab === t).length}</span>
+              {t} <span className={cn("ml-0.5 text-xs", tab === t ? "text-white" : "text-muted")}>{items.filter((i) => i.tab === t).length}</span>
             </button>
           ))}
         </div>
@@ -117,7 +117,7 @@ export function PermitLibrary({ items, states }: { items: LibraryItem[]; states:
           const Icon = i.kind === "aph" ? FileSpreadsheet : FileText;
           return (
             <li key={i.id} className="flex items-center gap-4 px-4 py-4 sm:px-5" {...(i.kind === "demo" ? { "data-nosnippet": true } : {})}>
-              <span className={cn("flex h-11 w-10 shrink-0 flex-col items-center justify-center rounded-lg text-[0.55rem] font-bold", i.kind === "demo" ? "bg-red-50 text-red-600" : i.kind === "aph" ? "bg-eco-50 text-eco-700" : "bg-brand-50 text-brand-600")}>
+              <span className={cn("flex h-11 w-10 shrink-0 flex-col items-center justify-center rounded-lg text-[0.55rem] font-bold", i.kind === "demo" ? "bg-red-50 text-red-700" : i.kind === "aph" ? "bg-eco-50 text-eco-700" : "bg-brand-50 text-brand-600")}>
                 <Icon className="h-5 w-5" aria-hidden="true" />
                 {i.kind === "demo" ? "PDF" : i.kind === "aph" ? "CSV" : "WEB"}
               </span>

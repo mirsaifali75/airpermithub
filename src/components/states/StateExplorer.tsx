@@ -104,7 +104,7 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
                   )}
                 >
                   <span className="truncate">{s.name}</span>
-                  {s.p && <span className={cn("max-w-[7.5rem] truncate text-[0.7rem] font-semibold", s.slug === selected ? "text-white/80" : "text-muted")}>{shortAgency(s.p.agency.name)}</span>}
+                  {s.p && <span className={cn("max-w-[7.5rem] truncate text-[0.7rem] font-semibold", s.slug === selected ? "text-white" : "text-muted")}>{shortAgency(s.p.agency.name)}</span>}
                 </button>
               </li>
             ))}

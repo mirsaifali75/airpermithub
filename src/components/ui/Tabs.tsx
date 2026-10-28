@@ -105,7 +105,7 @@ export function Tabs({
           >
             {t.label}
             {t.count !== undefined && (
-              <span className={cn("ml-1 text-xs", active === i && variant === "pill" ? "text-white/75" : "text-slate-400")}>{t.count}</span>
+              <span className={cn("ml-1 text-xs", active === i && variant === "pill" ? "text-white" : "text-muted")}>{t.count}</span>
             )}
           </button>
         ))}

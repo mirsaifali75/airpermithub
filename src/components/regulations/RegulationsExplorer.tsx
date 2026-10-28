@@ -62,7 +62,7 @@ export function RegulationsExplorer({ entries }: { entries: ExplorerEntry[] }) {
               onClick={() => select(t)}
               className={cn("shrink-0 rounded-lg px-3.5 py-2 text-sm font-semibold transition-colors", !term && tab === t ? "bg-brand-600 text-white" : "text-slate-600 hover:bg-canvas hover:text-ink")}
             >
-              {t} <span className={cn("ml-1 text-xs", !term && tab === t ? "text-white/75" : "text-slate-400")}>{counts[t]}</span>
+              {t} <span className={cn("ml-1 text-xs", !term && tab === t ? "text-white" : "text-muted")}>{counts[t]}</span>
             </button>
           ))}
         </div>
@@ -77,7 +77,8 @@ export function RegulationsExplorer({ entries }: { entries: ExplorerEntry[] }) {
         {term && <p className="mt-3 text-sm text-muted">{results.length} results across all categories for “{q}”.</p>}
       </div>
 
-      <ul className="divide-y divide-line" role="tabpanel">
+      <div role="tabpanel" aria-label={term ? "Search results" : tab}>
+      <ul className="divide-y divide-line">
         {results.slice(0, limit).map((e) => {
           const Icon = tabIcon[e.tab];
           const inner = (
@@ -104,6 +105,7 @@ export function RegulationsExplorer({ entries }: { entries: ExplorerEntry[] }) {
         })}
         {results.length === 0 && <li className="px-5 py-12 text-center text-sm text-muted">Nothing matches “{q}”. Try a CFR part, a program name, or a state.</li>}
       </ul>
+      </div>
       {results.length > limit && (
         <div className="border-t border-line p-4 text-center">
           <button onClick={() => setLimit((l) => l + PAGE * 2)} className="text-sm font-semibold text-brand-600 hover:text-brand-700">Show more ({results.length - limit} remaining)</button>

@@ -18,7 +18,8 @@ export function HowItWorks() {
         <ol className="mt-10 grid gap-5 lg:grid-cols-3">
           {steps.map(({ n, icon: Icon, title, body, href, cta }) => (
             <li key={n} className="relative flex flex-col rounded-2xl border border-line bg-canvas/60 p-6">
-              <span className="absolute top-5 right-6 font-display text-4xl font-extrabold text-slate-200">{n}</span>
+              {/* Decorative step number, drawn with CSS so it isn't read as low-contrast text. */}
+              <span aria-hidden="true" data-n={n} className="absolute top-5 right-6 font-display text-4xl font-extrabold text-slate-200 before:content-[attr(data-n)]" />
               <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-navy-900 text-cyan-400"><Icon className="h-6 w-6" aria-hidden="true" /></span>
               <h3 className="mt-5 text-lg font-bold text-ink">{title}</h3>
               <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">{body}</p>

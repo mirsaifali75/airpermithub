@@ -97,3 +97,13 @@ Status components map 1:1 to the brief's status system: `ContentStatusBadge`, `A
 - Demo permits use `origin: "demo"` and their rows carry `data-nosnippet`.
 - Vercel Web Analytics and Speed Insights are mounted in `src/app/layout.tsx`; enable both in the Vercel project for them to collect data.
 - `.github/workflows/ci.yml` runs typecheck, lint, tests, and build; `.github/workflows/link-check.yml` runs `scripts/check-links.mjs` weekly and attaches the report.
+
+## Roadmap phases 3–9 (2026-10-28)
+
+- **Palette:** see Design system above. White text sits on `brand-600` or darker; `brand-500` is for fills, icons, and borders. `muted` and `slate-500` are `#5E6D82` so secondary text passes AA on the canvas background.
+- **Home:** hero search posts to `/search?q=&type=`; popular chips link only to existing pages.
+- **Permit Finder:** 7 steps. `screen()` returns four outcomes (`potentially-applicable`, `more-info-needed` = Additional Review Required, `insufficient-info`, `likely-not-applicable` = based on entered information). "Likely not" is only produced from the user's own answers (non-oil-and-gas industry, area HAP source, all-attainment county); see `src/lib/screening.test.ts`.
+- **Calculators:** workspace tabs (Inputs, Method & Factors, Results, References). Inputs flagged `perPollutant` (weight fraction) live on each pollutant row with its factors, control efficiency, GWP, and citation. Saved rows keep the `aph.calc.saved.v1` shape.
+- **Tabs (`components/ui/Tabs.tsx`):** pill or underline, arrow keys, `?tab=` and `#hash` deep links, `printAll` for printing every panel. Used by regulation pages, state hubs, the calculator, resources, and company pages.
+- **Compliance:** Month, Week, Day, List views (`?view=`).
+- **QA:** Playwright sweep of 40 routes at 1440px and 390px (no overflow, no console errors, one h1 each) and axe-core WCAG 2 A/AA on 12 key pages with no violations.

@@ -15,7 +15,7 @@ export function Footer() {
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">{site.description}</p>
             <div className="mt-8 max-w-sm">
               <h2 className="text-sm font-semibold">Stay Updated</h2>
-              <p className="mt-1 mb-3 text-sm text-white/55">Get the latest air permitting news and resources.</p>
+              <p className="mt-1 mb-3 text-sm text-white/70">Get the latest air permitting news and resources.</p>
               <NewsletterForm />
             </div>
           </div>
@@ -36,8 +36,8 @@ export function Footer() {
             ))}
           </div>
         </div>
-        <p className="mt-12 border-t border-white/10 pt-6 text-xs leading-relaxed text-white/45">{site.disclaimer}</p>
-        <div className="mt-6 flex flex-col-reverse gap-4 text-sm text-white/50 sm:flex-row sm:items-center sm:justify-between">
+        <p className="mt-12 border-t border-white/10 pt-6 text-xs leading-relaxed text-white/65">{site.disclaimer}</p>
+        <div className="mt-6 flex flex-col-reverse gap-4 text-sm text-white/65 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} AirPermitHub. All rights reserved.</p>
           <SocialIcons />
         </div>

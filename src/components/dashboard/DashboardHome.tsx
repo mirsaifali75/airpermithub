@@ -64,7 +64,7 @@ export function DashboardHome() {
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-50 text-brand-600"><Icon className="h-5 w-5" aria-hidden="true" /></span>
                 <span className="mt-3 block font-display text-3xl font-extrabold text-navy-900 tabular-nums">{d ? value : "–"}</span>
                 <span className="block text-sm text-muted">{label}</span>
-                {note && <span className="mt-1 block text-[0.7rem] text-slate-400">{note}</span>}
+                {note && <span className="mt-1 block text-[0.7rem] text-muted">{note}</span>}
               </>
             );
             return (

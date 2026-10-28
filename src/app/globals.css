@@ -51,9 +51,11 @@
   --color-red-600: #d92d20;
   --color-red-700: #b42318;
 
+  --color-slate-500: #5e6d82;
+
   --color-canvas: #f5f8fc;
   --color-ink: #0f172a;
-  --color-muted: #64748b;
+  --color-muted: #5e6d82;
   --color-line: #e2e8f0;
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;

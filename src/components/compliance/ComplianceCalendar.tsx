@@ -20,15 +20,16 @@ const addDays = (d: Date, n: number) => new Date(d.getFullYear(), d.getMonth(), 
 const startOfWeek = (d: Date) => addDays(d, -d.getDay());
 
 const bar: Record<Category, string> = {
-  Testing: "bg-violet-500",
-  Inspection: "bg-teal-500",
-  Reporting: "bg-brand-500",
+  // Dark enough for white text (WCAG AA).
+  Testing: "bg-violet-600",
+  Inspection: "bg-teal-700",
+  Reporting: "bg-brand-600",
   Certification: "bg-eco-600",
-  "Permit Renewal": "bg-orange-500",
-  Monitoring: "bg-cyan-500",
-  Recordkeeping: "bg-slate-500",
-  LDAR: "bg-rose-500",
-  "Emission Inventory": "bg-amber-500",
+  "Permit Renewal": "bg-orange-700",
+  Monitoring: "bg-cyan-700",
+  Recordkeeping: "bg-slate-600",
+  LDAR: "bg-rose-700",
+  "Emission Inventory": "bg-amber-800",
   "Deviation Reporting": "bg-red-600",
 };
 
@@ -202,7 +203,7 @@ export function ComplianceCalendar() {
                 )}
                 <div className="mt-0.5 space-y-0.5">
                   {dayTasks.slice(0, 3).map((t) => (
-                    <span key={t.id} title={`${t.title} · ${t.facility}${t.demo ? " (demo)" : ""}`} className={cn("block truncate rounded px-1 py-0.5 text-[0.6rem] font-semibold text-white sm:text-[0.65rem]", bar[t.category], t.demo && "opacity-80")}>
+                    <span key={t.id} title={`${t.title} · ${t.facility}${t.demo ? " (demo)" : ""}`} className={cn("block truncate rounded px-1 py-0.5 text-[0.6rem] font-semibold text-white sm:text-[0.65rem]", bar[t.category])}>
                       <span className="hidden sm:inline">{t.title}</span>
                       <span className="sm:hidden">•</span>
                     </span>
@@ -228,9 +229,9 @@ export function ComplianceCalendar() {
                   </button>
                   <ul className="mt-2 space-y-1">
                     {dayTasks.map((t) => (
-                      <li key={t.id} title={`${t.title} · ${t.facility}${t.demo ? " (demo)" : ""}`} className={cn("rounded px-1.5 py-1 text-[0.7rem] leading-snug font-semibold text-white", bar[t.category], t.demo && "opacity-80")}>{t.title}</li>
+                      <li key={t.id} title={`${t.title} · ${t.facility}${t.demo ? " (demo)" : ""}`} className={cn("rounded px-1.5 py-1 text-[0.7rem] leading-snug font-semibold text-white", bar[t.category])}>{t.title}</li>
                     ))}
-                    {dayTasks.length === 0 && <li className="text-xs text-slate-400 md:hidden">No tasks</li>}
+                    {dayTasks.length === 0 && <li className="text-xs text-muted md:hidden">No tasks</li>}
                   </ul>
                 </li>
               );
