@@ -36,12 +36,22 @@ export function Tabs({
 
   useEffect(() => {
     if (!sync) return;
-    const t = new URLSearchParams(window.location.search).get("tab");
-    const i = tabs.findIndex((x) => slug(x.label) === t);
-    if (i >= 0) {
-      setInner(i);
-      onSelect?.(i);
-    }
+    // ?tab=slug or #slug opens a tab; in-page #slug links switch tabs too.
+    const fromUrl = () => {
+      const want = window.location.hash.slice(1) || new URLSearchParams(window.location.search).get("tab");
+      const i = tabs.findIndex((x) => slug(x.label) === want);
+      if (i >= 0) {
+        setInner(i);
+        onSelect?.(i);
+      }
+      return i;
+    };
+    fromUrl();
+    const onHash = () => {
+      if (fromUrl() >= 0) refs.current[0]?.parentElement?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -51,6 +61,7 @@ export function Tabs({
     if (sync) {
       const url = new URL(window.location.href);
       url.searchParams.set("tab", slug(tabs[i].label));
+      url.hash = "";
       window.history.replaceState(null, "", url);
     }
   };
@@ -69,7 +80,7 @@ export function Tabs({
       <div
         role="tablist"
         className={cn(
-          "no-print flex overflow-x-auto",
+          "no-print flex scroll-mt-24 overflow-x-auto",
           variant === "pill" ? "-mx-1 gap-1 px-1 pb-1" : "gap-1 border-b border-line",
         )}
       >

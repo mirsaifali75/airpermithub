@@ -231,7 +231,7 @@ function pathwaysFor(input: ScreeningInput, hub: StateProfileSummary | undefined
         nextStep: og
           ? "Check this program's eligibility conditions against the selected equipment and site emissions."
           : "No action unless the site also has oil and gas operations.",
-        href: `/states/${hub.slug}#oil-gas`,
+        href: `/states/${hub.slug}?tab=oil-gas`,
       });
     }
     return out;

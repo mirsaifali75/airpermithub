@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ArrowRight, Building2, Gauge, ExternalLink, FileText, Fuel, Landmark, Quote, Route, ShieldCheck } from "lucide-react";
+import { ArrowRight, Building2, Gauge, ExternalLink, FileText, Landmark, Quote, Route } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
@@ -7,7 +7,8 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge, CitationBadge, VerificationBadge } from "@/components/ui/Badge";
 import { buttonClass } from "@/components/ui/Button";
 import { Disclaimer, EmptyState, VerifyNotice } from "@/components/ui/Notices";
-import { getStateProfile } from "@/lib/data/state-profiles";
+import { Tabs } from "@/components/ui/Tabs";
+import { agencyShortName, getStateProfile } from "@/lib/data/state-profiles";
 import type { PermitProgram, PermitType } from "@/lib/data/state-profile-types";
 import { getStateTile, stateTiles } from "@/lib/data/states";
 
@@ -74,10 +75,10 @@ function ProgramCard({ p }: { p: PermitProgram }) {
   );
 }
 
-function Block({ id, title, icon, children }: { id: string; title: string; icon: ReactNode; children: ReactNode }) {
+function Block({ title, icon, children }: { title: string; icon: ReactNode; children: ReactNode }) {
   return (
-    <section id={id} className="scroll-mt-24">
-      <h2 className="mb-4 flex items-center gap-2 text-xl font-bold text-ink">{icon} {title}</h2>
+    <section>
+      <h2 className="mb-4 flex items-center gap-2 text-lg font-bold text-ink">{icon} {title}</h2>
       {children}
     </section>
   );
@@ -124,14 +125,143 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
     { id: "title-v", title: "Title V operating permits", types: ["title-v"] as PermitType[] },
   ].filter((g) => byType(g.types).length);
 
-  const nav = [
-    ...groups.map((g) => [g.id, g.title.split(" (")[0]]),
-    ...(p.oilAndGas ? [["oil-gas", "Oil & Gas"]] : []),
-    ["regulations", "Regulations"],
-    ["forms", "Forms"],
-    ["guidance", "Guidance"],
-    ["compliance", "Compliance"],
-    ["sources", "Sources"],
+  const abbr = agencyShortName(p.agency.name);
+  const short = abbr !== p.agency.name ? abbr : null;
+  const highlights = groups.flatMap((g) => byType(g.types)).slice(0, 4);
+  const popular = [...p.forms.slice(0, 3), ...p.guidance.slice(0, 3)];
+
+  const tabs = [
+    {
+      label: "Overview",
+      content: (
+        <div className="space-y-8">
+          <section>
+            <h2 className="text-lg font-bold text-ink">Air permitting in {p.name}</h2>
+            <p className="mt-2 text-slate-700">{p.overview}</p>
+          </section>
+          {highlights.length > 0 && (
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {highlights.map((t) => (
+                <li key={t.name} className="flex flex-col rounded-2xl border border-line p-4">
+                  <div className="flex items-start gap-3">
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600"><Route className="h-5 w-5" aria-hidden="true" /></span>
+                    <div className="min-w-0">
+                      <p className="font-semibold text-ink">{t.name}</p>
+                      <p className="text-xs text-muted">{typeLabel[t.type]}</p>
+                    </div>
+                  </div>
+                  <a href="#permit-pathways" className="mt-3 inline-flex items-center gap-1 self-end text-sm font-semibold text-brand-600 hover:text-brand-700">View details <ArrowRight className="h-4 w-4" aria-hidden="true" /></a>
+                </li>
+              ))}
+            </ul>
+          )}
+          {popular.length > 0 && (
+            <section>
+              <h2 className="text-lg font-bold text-ink">Popular resources</h2>
+              <ul className="mt-3 grid gap-x-6 gap-y-2 sm:grid-cols-2">
+                {popular.map((l) => (
+                  <li key={l.url}>
+                    <a href={l.url} target="_blank" rel="noopener noreferrer" className="flex items-start gap-2 text-sm text-brand-600 hover:underline">
+                      <FileText className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" /> {l.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </div>
+      ),
+    },
+    {
+      label: "Permit Pathways",
+      count: p.permitTypes.length,
+      content: (
+        <div className="space-y-10">
+          {groups.map((g) => (
+            <Block key={g.id} title={g.title} icon={<Route className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
+              <ul className="grid gap-4 md:grid-cols-2">{byType(g.types).map((t) => <ProgramCard key={t.name} p={t} />)}</ul>
+            </Block>
+          ))}
+        </div>
+      ),
+    },
+    ...(p.oilAndGas
+      ? [{
+          label: "Oil & Gas",
+          count: p.oilAndGas.programs.length,
+          content: (
+            <>
+              <p className="mb-4 text-slate-700">{p.oilAndGas.summary}</p>
+              <ul className="grid gap-4 md:grid-cols-2">{p.oilAndGas.programs.map((t) => <ProgramCard key={t.name} p={t} />)}</ul>
+              <Link href="/industries/oil-gas" className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Oil & Gas industry hub <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+            </>
+          ),
+        }]
+      : []),
+    {
+      label: "Rules",
+      count: p.regulations.length,
+      content: (
+        <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-white">
+          {p.regulations.map((r) => (
+            <li key={r.citation} className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:gap-4">
+              <span className="w-48 shrink-0"><CitationBadge>{r.citation}</CitationBadge></span>
+              {r.url ? (
+                <a href={r.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm text-ink hover:text-brand-600">{r.title} <ExternalLink className="h-3.5 w-3.5 text-brand-500" aria-hidden="true" /></a>
+              ) : <span className="text-sm text-ink">{r.title}</span>}
+            </li>
+          ))}
+        </ul>
+      ),
+    },
+    { label: "Forms", count: p.forms.length, content: <LinkList links={p.forms} /> },
+    { label: "Guidance", count: p.guidance.length, content: <LinkList links={p.guidance} /> },
+    {
+      label: "Contacts",
+      content: (
+        <div className="space-y-6">
+          <dl className="divide-y divide-line rounded-xl border border-line text-sm">
+            {[
+              { k: "Agency", v: <a href={p.agency.url} target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:underline">{p.agency.name}</a> },
+              ...(p.agency.division ? [{ k: "Division", v: p.agency.division }] : []),
+              ...(p.agency.permitsUrl ? [{ k: "Air permits page", v: <a href={p.agency.permitsUrl} target="_blank" rel="noopener noreferrer" className="break-all text-brand-600 hover:underline">{p.agency.permitsUrl}</a> }] : []),
+              ...(p.ePermitting ? [{ k: "Online permitting", v: <a href={p.ePermitting.url} target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:underline">{p.ePermitting.name}</a> }] : []),
+              ...(p.fees ? [{ k: "Fees", v: <a href={p.fees.url} target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:underline">{p.fees.name}</a> }] : []),
+              { k: "EPA region", v: `Region ${p.epaRegion}` },
+            ].map(({ k, v }) => (
+              <div key={k} className="grid gap-1 px-4 py-2.5 sm:grid-cols-[10rem_minmax(0,1fr)]">
+                <dt className="font-medium text-muted">{k}</dt>
+                <dd className="min-w-0 text-ink">{v}</dd>
+              </div>
+            ))}
+          </dl>
+          {p.localAgencies && p.localAgencies.length > 0 && (
+            <Block title="Local air agencies" icon={<Building2 className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
+              <ul className="grid gap-3 sm:grid-cols-2">
+                {p.localAgencies.map((l) => (
+                  <li key={l.url} className="rounded-xl border border-line p-4 text-sm">
+                    <a href={l.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-brand-600 hover:underline">{l.name}</a>
+                    <p className="text-muted">{l.jurisdiction}</p>
+                    {l.notes && <p className="mt-1 text-xs text-slate-600">{l.notes}</p>}
+                  </li>
+                ))}
+              </ul>
+            </Block>
+          )}
+          <p className="text-sm text-muted">AirPermitHub links to agency pages only; it does not list individual staff contacts.</p>
+        </div>
+      ),
+    },
+    {
+      label: "Sources",
+      count: p.sources.length,
+      content: (
+        <>
+          <LinkList links={p.sources} />
+          {p.notes && p.verification === "verified" && <p className="mt-4 text-sm text-muted"><span className="font-semibold text-ink">Editorial note: </span>{p.notes}</p>}
+        </>
+      ),
+    },
   ];
 
   return (
@@ -139,80 +269,31 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
       <PageHeader
         crumbs={[{ label: "States", href: "/states" }, { label: tile.name }]}
         eyebrow={`${p.code} · EPA Region ${p.epaRegion}`}
-        title={`${p.name} Air Permits`}
+        title={short ? `${p.name} Air Permits – ${short}` : `${p.name} Air Permits`}
         icon={<Landmark className="h-7 w-7" />}
-        description={p.overview}
+        description={p.agency.name}
       >
         <div className="flex flex-wrap items-center gap-2">
           <VerificationBadge level={p.verification} />
           <Badge tone="gray">Last reviewed {p.lastReviewed}</Badge>
+          <a href={p.agency.url} target="_blank" rel="noopener noreferrer" className={buttonClass("primary", "sm")}>Visit {short ?? "agency"} website <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" /></a>
         </div>
       </PageHeader>
 
-      <div className="sticky top-16 z-30 border-b border-line bg-white/90 backdrop-blur lg:top-[4.5rem]">
-        <nav aria-label={`${p.name} sections`} className="container-page flex gap-1 overflow-x-auto py-2">
-          {nav.map(([id, label]) => (
-            <a key={id} href={`#${id}`} className="shrink-0 rounded-lg px-3 py-1.5 text-sm font-medium text-muted hover:bg-canvas hover:text-ink">{label}</a>
-          ))}
-        </nav>
-      </div>
-
-      <div className="container-page grid gap-10 py-10 lg:grid-cols-[1fr_20rem]">
-        <div className="min-w-0 space-y-12">
+      <div className="container-page grid gap-8 py-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
+        <div className="min-w-0 space-y-6">
           {p.verification !== "verified" && (
             <VerifyNotice>
               <strong className="font-semibold">Partially verified.</strong> {p.notes ?? "Some details on this page could not be confirmed against the agency's site."}
             </VerifyNotice>
           )}
-          {groups.map((g) => (
-            <Block key={g.id} id={g.id} title={g.title} icon={<Route className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
-              <ul className="grid gap-4 md:grid-cols-2">{byType(g.types).map((t) => <ProgramCard key={t.name} p={t} />)}</ul>
-            </Block>
-          ))}
-
-          {p.oilAndGas && (
-            <Block id="oil-gas" title="Oil & Gas" icon={<Fuel className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
-              <p className="mb-4 text-slate-700">{p.oilAndGas.summary}</p>
-              <ul className="grid gap-4 md:grid-cols-2">{p.oilAndGas.programs.map((t) => <ProgramCard key={t.name} p={t} />)}</ul>
-              <Link href="/industries/oil-gas" className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Oil & Gas industry hub <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
-            </Block>
-          )}
-
-          <Block id="regulations" title="State air regulations" icon={<FileText className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
-            <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-white">
-              {p.regulations.map((r) => (
-                <li key={r.citation} className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:gap-4">
-                  <span className="w-48 shrink-0"><CitationBadge>{r.citation}</CitationBadge></span>
-                  {r.url ? (
-                    <a href={r.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm text-ink hover:text-brand-600">{r.title} <ExternalLink className="h-3.5 w-3.5 text-brand-500" aria-hidden="true" /></a>
-                  ) : <span className="text-sm text-ink">{r.title}</span>}
-                </li>
-              ))}
-            </ul>
-          </Block>
-
-          <Block id="forms" title="Forms" icon={<FileText className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
-            <LinkList links={p.forms} />
-          </Block>
-
-          <Block id="guidance" title="Guidance" icon={<FileText className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
-            <LinkList links={p.guidance} />
-          </Block>
-
-          <Block id="compliance" title="Compliance" icon={<ShieldCheck className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
-            <p className="rounded-xl bg-canvas px-4 py-3 text-sm text-muted">
-              State compliance obligations (reporting, emissions inventory, testing) are being indexed. Use the <Link href="/compliance" className="font-medium text-brand-600">Compliance dashboard</Link> preview to see how they will be tracked.
-            </p>
-          </Block>
-
-          <Block id="sources" title="Sources" icon={<ShieldCheck className="h-5 w-5 text-eco-600" aria-hidden="true" />}>
-            <LinkList links={p.sources} />
-            {p.notes && p.verification === "verified" && <p className="mt-4 text-sm text-muted"><span className="font-semibold text-ink">Editorial note: </span>{p.notes}</p>}
-          </Block>
+          <div className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6">
+            <Tabs variant="underline" printAll tabs={tabs} />
+          </div>
           <Disclaimer />
         </div>
 
-        <aside className="space-y-4 lg:sticky lg:top-36 lg:self-start">
+        <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
           <div className="rounded-2xl border border-line bg-white p-5 shadow-card">
             <p className="text-xs font-semibold text-muted uppercase">Agency</p>
             <a href={p.agency.url} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-start gap-1 font-semibold text-ink hover:text-brand-600">{p.agency.name} <ExternalLink className="mt-1 h-3.5 w-3.5 shrink-0 text-brand-500" aria-hidden="true" /></a>

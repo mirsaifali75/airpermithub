@@ -111,7 +111,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
                       <li key={p.name} className="flex flex-wrap items-center gap-2 text-sm text-ink"><Flame className="h-3.5 w-3.5 text-amber-500" aria-hidden="true" />{p.name}</li>
                     ))}
                   </ul>
-                  <Link href={`/states/${s.slug}#oil-gas`} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">All {s.name} oil & gas programs <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+                  <Link href={`/states/${s.slug}?tab=oil-gas`} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">All {s.name} oil & gas programs <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
                 </li>
               ))}
             </ul>
