@@ -5,6 +5,8 @@ import type { StateAirPermitProfile } from "./data/state-profile-types";
 import { calculatorMethods } from "./calc/methods";
 import { guides } from "./data/guides";
 import { aphTemplates } from "./data/templates";
+import { glossary } from "./data/glossary";
+import { allToolPages } from "./tools/catalog";
 
 /**
  * Site search index. Phase 1 searches a static in-memory index of site
@@ -36,6 +38,15 @@ export function buildSearchIndex(profiles: StateAirPermitProfile[]): SearchDoc[]
   const bySlug = new Map(profiles.map((p) => [p.slug, p]));
   return [
   ...tools,
+  { title: "Practitioner Tools", href: "/tools", kind: "Tool" as const, snippet: "Rolling limits, NSR baselines, compliance matrices, deviation logs, and stack test converters.", keywords: "tools rolling nsr baseline compliance matrix deviation converter" },
+  ...allToolPages.map((t) => ({ title: t.name, href: t.href, kind: "Tool" as const, snippet: t.description, keywords: t.keywords })),
+  ...glossary.map((g) => ({
+    title: `${g.term}${g.abbr ? ` (${g.abbr})` : ""}: definition`,
+    href: `/glossary#${g.slug}`,
+    kind: "Resource" as const,
+    snippet: g.definition,
+    keywords: `glossary definition meaning ${g.abbr ?? ""} ${g.cites.map((c) => c.label).join(" ")}`,
+  })),
   ...federalRegulations.map((r) => ({
     title: `${r.shortName} — ${r.name}`,
     href: `/regulations/${r.slug}`,

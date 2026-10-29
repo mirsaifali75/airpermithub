@@ -1,6 +1,6 @@
 "use client";
 
-import { Calculator, ChevronDown, FileSearch, Landmark, MapPinned, Menu, Route, Search, ShieldCheck, X } from "lucide-react";
+import { Calculator, ChevronDown, FileSearch, Landmark, Menu, Route, Search, ShieldCheck, Wrench, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -14,10 +14,10 @@ import { primaryNav, resourcesMenu } from "@/lib/site";
 const mobilePriority = [
   { label: "Permit Finder", href: "/permit-finder", icon: Route },
   { label: "Calculators", href: "/calculators", icon: Calculator },
+  { label: "Tools", href: "/tools", icon: Wrench },
   { label: "Regulations", href: "/regulations", icon: Landmark },
   { label: "Compliance", href: "/compliance", icon: ShieldCheck },
   { label: "Permit Library", href: "/permits", icon: FileSearch },
-  { label: "State Explorer", href: "/states", icon: MapPinned },
 ];
 
 export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
@@ -90,12 +90,12 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
                 href={item.href}
                 aria-current={isActive(item.href) ? "page" : undefined}
                 className={cn(
-                  "relative rounded-lg px-2.5 py-2 text-[0.875rem] font-medium whitespace-nowrap transition-colors",
+                  "relative rounded-lg px-2 py-2 text-[0.875rem] font-medium whitespace-nowrap transition-colors 2xl:px-2.5",
                   isActive(item.href) ? "text-white" : "text-white/75 hover:text-white",
                 )}
               >
                 {item.label}
-                {isActive(item.href) && <span className="absolute inset-x-2.5 -bottom-0.5 h-0.5 rounded-full bg-cyan-500" />}
+                {isActive(item.href) && <span className="absolute inset-x-2 -bottom-0.5 h-0.5 rounded-full bg-cyan-500 2xl:inset-x-2.5" />}
               </Link>
             ))}
             <div ref={resourcesRef} className="relative">
@@ -105,7 +105,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
                 aria-haspopup="true"
                 className={cn(
                   "inline-flex items-center gap-1 rounded-lg px-2.5 py-2 text-[0.875rem] font-medium",
-                  ["/resources", "/templates", "/states", "/applicability"].some(isActive) ? "text-white" : "text-white/75 hover:text-white",
+                  ["/resources", "/templates", "/states", "/applicability", "/regulatory-updates", "/glossary"].some(isActive) ? "text-white" : "text-white/75 hover:text-white",
                 )}
               >
                 Resources <ChevronDown className={cn("h-4 w-4 transition-transform", resourcesOpen && "rotate-180")} aria-hidden="true" />
@@ -132,7 +132,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
               <Search className="h-5 w-5" />
             </button>
             <div className="hidden items-center gap-2 sm:flex">
-              <Link href="/sign-in" className={buttonClass("outline-light", "sm")}>Sign In</Link>
+              <Link href="/sign-in" className={buttonClass("outline-light", "sm", "xl:hidden 2xl:inline-flex")}>Sign In</Link>
               <Link href="/sign-up" className={buttonClass("primary", "sm")}>Get Started</Link>
             </div>
             <button
@@ -167,7 +167,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
                 ))}
               </div>
               <nav aria-label="Mobile" className="mt-4 grid grid-cols-2 gap-x-4 border-t border-white/10 pt-4">
-                {[...primaryNav.filter((n) => !mobilePriority.some((p) => p.href === n.href)), ...resourcesMenu.slice(2), { label: "Dashboard", href: "/dashboard" }].map((n) => (
+                {[...primaryNav, ...resourcesMenu.slice(1), { label: "Dashboard", href: "/dashboard" }].filter((n) => !mobilePriority.some((p) => p.href === n.href)).map((n) => (
                   <Link key={n.href} href={n.href} className="py-2.5 text-white/80 hover:text-white">
                     {n.label}
                   </Link>

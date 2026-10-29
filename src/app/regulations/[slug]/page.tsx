@@ -166,7 +166,7 @@ export default async function RegulationPage({ params }: { params: Promise<{ slu
               ]}
             />
           </div>
-          <p className="text-xs text-muted">Each change to this summary will be dated and listed here once regulation records move to the reviewed database. Until then, rely on the linked eCFR text.</p>
+          <p className="text-xs text-muted">Each change to this summary will be dated and listed here once regulation records move to the reviewed database. Until then, rely on the linked eCFR text. New EPA rules and proposals appear in the <Link href="/regulatory-updates" className="font-semibold text-brand-700 hover:underline">Federal Air Rule Tracker</Link>.</p>
           <Disclaimer />
         </article>
 

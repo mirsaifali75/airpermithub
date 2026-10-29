@@ -13,6 +13,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx vitest run src/lib/links-export.test.ts
+        env:
+          LINKS_OUT: link-urls.json
       - run: node scripts/check-links.mjs --out link-report.md
       - run: cat link-report.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4

@@ -5,11 +5,13 @@ import { industries } from "@/lib/data/industries";
 import { federalRegulations } from "@/lib/data/regulations";
 import { listStateProfiles } from "@/lib/data/state-profiles";
 import { site } from "@/lib/site";
+import { allToolPages } from "@/lib/tools/catalog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
     "/", "/permit-finder", "/calculators", "/applicability", "/regulations", "/regulations/federal", "/states", "/permits",
-    "/compliance", "/industries", "/jobs", "/resources", "/templates", "/about", "/disclaimer",
+    "/compliance", "/industries", "/jobs", "/resources", "/templates", "/about", "/disclaimer", "/tools",
+    ...allToolPages.map((t) => t.href),
     ...calculatorMethods.map((m) => `/calculators/${m.slug}`),
     ...federalRegulations.map((r) => `/regulations/${r.slug}`),
     ...listStateProfiles().map((s) => `/states/${s.slug}`),

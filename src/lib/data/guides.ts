@@ -1,4 +1,5 @@
 import type { SceneKind } from "@/components/illustrations/Scene";
+import { practitionerGuides } from "./practitioner-guides";
 
 /**
  * Published AirPermitHub guides.
@@ -30,7 +31,7 @@ export interface Guide {
 const ecfr = (part: number, section?: string) =>
   `https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-${part}${section ? `/section-${section}` : ""}`;
 
-export const guides: Guide[] = [
+const foundationGuides: Guide[] = [
   {
     slug: "where-to-start-air-permit",
     title: "Which air permit do I need? Where to start",
@@ -283,6 +284,9 @@ export const guides: Guide[] = [
     ],
   },
 ];
+
+/** Newest first: practitioner guides, then the foundation guides. */
+export const guides: Guide[] = [...practitionerGuides, ...foundationGuides];
 
 export function getGuide(slug: string) {
   return guides.find((g) => g.slug === slug);

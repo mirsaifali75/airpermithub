@@ -107,3 +107,22 @@ Status components map 1:1 to the brief's status system: `ContentStatusBadge`, `A
 - **Tabs (`components/ui/Tabs.tsx`):** pill or underline, arrow keys, `?tab=` and `#hash` deep links, `printAll` for printing every panel. Used by regulation pages, state hubs, the calculator, resources, and company pages.
 - **Compliance:** Month, Week, Day, List views (`?view=`).
 - **QA:** Playwright sweep of 40 routes at 1440px and 390px (no overflow, no console errors, one h1 each) and axe-core WCAG 2 A/AA on 12 key pages with no violations.
+
+## Practitioner tools (2026-10-29)
+
+Tools built around recurring air permitting problems. The math lives in `src/lib/tools/` as pure, tested functions; components in `src/components/tools/` only render it.
+
+| Route | What it does | Logic |
+|---|---|---|
+| `/tools` | Hub, framed by the problem each tool answers | `lib/tools/catalog.ts` |
+| `/tools/rolling-12-month-tracker` | N-month rolling sum or average vs. a limit, next-month headroom, forecast | `rolling.ts` |
+| `/tools/nsr-baseline-calculator` | Highest eligible consecutive baseline window across units; Step 1 and hybrid sums | `nsr.ts` (rule text quoted verbatim from govinfo.gov) |
+| `/tools/compliance-matrix-builder` | Permit text to conditions with keyword-suggested type, frequency, citations, deadline phrases; pushes dated rows to the Compliance Calendar store | `matrix.ts` |
+| `/tools/deviation-log` | Deviations grouped by the permit's reporting periods; CSV export | `deviations.ts` |
+| `/tools/[slug]` | Eight unit converters (ppm, O2, lb/MMBtu, g/hp-hr, tpy, mg/m³, wet/dry) with steps and FAQ schema | `converters.ts` |
+| `/regulatory-updates` | EPA rules and proposals from the Federal Register API by 40 CFR part; ISR every 6 hours; falls back to search links | `lib/fedreg.ts` |
+| `/glossary` | Terms with plain-language definitions and CFR citations; DefinedTermSet schema | `lib/data/glossary.ts` |
+
+Rules the tools follow: regulatory values (limits, significance levels, F-factors, reference O2) are entered by the user, never prefilled; examples are labeled; tool data stays in localStorage (`aph.tools.*.v1`). The matrix builder writes to `aph.compliance.tasks.v1` in the calendar's existing shape.
+
+Practitioner guides are in `lib/data/practitioner-guides.ts` and merge into `guides`. `src/lib/links-export.test.ts` exports every source URL built in code so the weekly link check covers them; `src/lib/tools/internal-links.test.ts` fails the build if a tool, guide, or glossary link points to a page that doesn't exist.

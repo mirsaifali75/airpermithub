@@ -18,6 +18,7 @@ export type NavItem = { label: string; href: string; description?: string };
 export const primaryNav: NavItem[] = [
   { label: "Permit Finder", href: "/permit-finder" },
   { label: "Calculators", href: "/calculators" },
+  { label: "Tools", href: "/tools" },
   { label: "Regulations", href: "/regulations" },
   { label: "Permit Library", href: "/permits" },
   { label: "Compliance", href: "/compliance" },
@@ -31,6 +32,8 @@ export const resourcesMenu: NavItem[] = [
   { label: "State Explorer", href: "/states", description: "All 50 states + DC: agencies, programs, forms" },
   { label: "Templates", href: "/templates", description: "AirPermitHub engineering templates" },
   { label: "Applicability Checker", href: "/applicability", description: "Screen federal programs by equipment" },
+  { label: "Federal Air Rule Tracker", href: "/regulatory-updates", description: "New EPA rules and comment deadlines" },
+  { label: "Glossary", href: "/glossary", description: "Air permitting terms with CFR citations" },
 ];
 
 /**
@@ -50,6 +53,8 @@ export const footerNav: { title: string; links: NavItem[] }[] = [
     links: [
       { label: "Permit Finder", href: "/permit-finder" },
       { label: "Emission Calculators", href: "/calculators" },
+      { label: "Practitioner Tools", href: "/tools" },
+      { label: "Federal Air Rule Tracker", href: "/regulatory-updates" },
       { label: "Compliance Calendar", href: "/compliance" },
       { label: "Permit Library", href: "/permits" },
       { label: "Templates & Forms", href: "/templates" },
@@ -83,6 +88,7 @@ export const footerNav: { title: string; links: NavItem[] }[] = [
       { label: "Guides", href: "/resources?tab=guides" },
       { label: "Templates", href: "/templates" },
       { label: "FAQs", href: "/resources?tab=faqs" },
+      { label: "Glossary", href: "/glossary" },
       { label: "Search", href: "/search" },
     ],
   },

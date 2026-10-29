@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 /**
  * Checks every outbound source link the site publishes: state profile JSON
- * and the URLs in src/lib/data. Writes a Markdown report and prints a
+ * and the URLs in src/lib/data, src/lib/tools, and the tool pages, plus
+ * URLs built in code (link-urls.json, see below). Writes a Markdown report and prints a
  * summary. Run it somewhere with open internet access (GitHub Actions does
  * this weekly); agency sites block some automated clients, so a 403 means
  * "check by hand", not necessarily "broken".
  *
  *   node scripts/check-links.mjs [--out link-report.md] [--strict]
  */
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const args = process.argv.slice(2);
@@ -35,13 +36,21 @@ const statesDir = join(root, "data", "states");
 for (const f of readdirSync(statesDir).filter((f) => f.endsWith(".json"))) {
   walkJson(JSON.parse(readFileSync(join(statesDir, f), "utf8")), `data/states/${f}`);
 }
-const dataDir = join(root, "src", "lib", "data");
-for (const f of readdirSync(dataDir).filter((f) => f.endsWith(".ts"))) {
-  const text = readFileSync(join(dataDir, f), "utf8");
-  for (const m of text.matchAll(/https?:\/\/[^\s"'`<>]+/g)) add(m[0], `src/lib/data/${f}`);
-}
+// Literal URLs in data modules, tool code, and tool pages.
+const scan = (rel) => {
+  const abs = join(root, rel);
+  if (!existsSync(abs)) return;
+  if (statSync(abs).isDirectory()) { for (const f of readdirSync(abs)) scan(join(rel, f)); return; }
+  if (!/\.(ts|tsx)$/.test(rel) || /\.test\.ts$/.test(rel)) return;
+  const text = readFileSync(abs, "utf8");
+  for (const m of text.matchAll(/https?:\/\/[^\s"'`<>]+/g)) add(m[0], rel);
+};
+["src/lib/data", "src/lib/tools", "src/lib/fedreg.ts", "src/app/tools"].forEach(scan);
+// URLs assembled in code, exported by `LINKS_OUT=link-urls.json npx vitest run src/lib/links-export.test.ts`.
+const built = join(root, "link-urls.json");
+if (existsSync(built)) for (const { url, where } of JSON.parse(readFileSync(built, "utf8"))) add(url, where);
 
-const SKIP = [/^https:\/\/schema\.org/, /^https?:\/\/(www\.)?airpermithub\.com/];
+const SKIP = [/^https:\/\/schema\.org/, /^https?:\/\/(www\.)?airpermithub\.com/, /^https:\/\/www\.federalregister\.gov\/api\//, /^https:\/\/www\.linkedin\.com\/sharing/];
 const urls = [...found.keys()].filter((u) => !SKIP.some((r) => r.test(u)));
 
 async function check(url) {

@@ -1,5 +1,6 @@
 import { Hero } from "@/components/home/Hero";
 import { HowItWorks } from "@/components/home/HowItWorks";
+import { ProblemSolvers } from "@/components/home/ProblemSolvers";
 import { IndustriesAndRegulations } from "@/components/home/IndustriesAndRegulations";
 import { Audiences, FinalCta, LatestJobs, LatestResources } from "@/components/home/LowerSections";
 import { SectorStrip } from "@/components/home/SectorStrip";
@@ -18,6 +19,7 @@ export default function HomePage() {
         <ToolCards />
       </div>
       <SectorStrip />
+      <ProblemSolvers />
       <IndustriesAndRegulations />
       <HowItWorks />
       <section className="bg-canvas py-16 sm:py-20" aria-labelledby="states-heading">

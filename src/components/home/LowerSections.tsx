@@ -46,7 +46,7 @@ export function LatestResources() {
       <div className="container-page">
         <SectionHeading id="res-heading" eyebrow="Resource center" title="Latest Air Permitting Guides" action={{ label: "All resources", href: "/resources" }} description="Each guide cites its sources and points to the governing text." />
         <ul className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-          {guides.map((g) => (
+          {guides.slice(0, 4).map((g) => (
             <li key={g.slug}>
               <Link href={`/resources/${g.slug}`} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
                 <Scene kind={g.scene} grain={false} className="aspect-[16/9] w-full" />
