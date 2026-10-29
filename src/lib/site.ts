@@ -7,6 +7,8 @@ export const site = {
   description:
     "Your all-in-one platform for air permits, emissions calculations, regulations, compliance tools, and industry resources.",
   altMessage: "From Regulations to Operations.",
+  /** Mailbox (at `domain`) that the Ask page sends questions to. Shown only in the browser, never in static HTML. */
+  askInbox: "ask",
   disclaimer:
     "AirPermitHub provides educational, engineering, research, and compliance-support information. Information provided by the platform does not constitute legal advice and should not replace review of applicable regulations, permits, agency guidance, or consultation with qualified professionals.",
   screeningDisclaimer:
@@ -34,6 +36,7 @@ export const resourcesMenu: NavItem[] = [
   { label: "Applicability Checker", href: "/applicability", description: "Screen federal programs by equipment" },
   { label: "Federal Air Rule Tracker", href: "/regulatory-updates", description: "New EPA rules and comment deadlines" },
   { label: "Glossary", href: "/glossary", description: "Air permitting terms with CFR citations" },
+  { label: "Ask a Question", href: "/ask", description: "Send an air permitting question" },
 ];
 
 /**
@@ -96,6 +99,7 @@ export const footerNav: { title: string; links: NavItem[] }[] = [
     title: "Company",
     links: [
       { label: "About", href: "/about" },
+      { label: "Ask a Question", href: "/ask" },
       { label: "Contact", href: "/contact" },
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Use", href: "/terms" },

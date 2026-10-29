@@ -1,6 +1,7 @@
 import { ArrowRight, ExternalLink, Quote, Wrench } from "lucide-react";
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { AskCta } from "@/components/ask/AskCta";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Disclaimer } from "@/components/ui/Notices";
 import { ShareLinks } from "@/components/ui/ShareLinks";
@@ -103,6 +104,7 @@ export function ToolPage({ path, title, description, problem, children, how, quo
             <span className="mt-2 block font-semibold">All practitioner tools</span>
             <span className="mt-1 block text-sm text-white/75">Rolling limits, NSR baselines, compliance matrices, deviation logs, and unit converters.</span>
           </Link>
+          <AskCta path={path} />
         </aside>
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />

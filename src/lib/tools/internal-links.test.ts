@@ -1,8 +1,10 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import { askTopics } from "../ask";
 import { glossary } from "../data/glossary";
 import { guides } from "../data/guides";
+import { industries } from "../data/industries";
 import { federalRegulations } from "../data/regulations";
 import { allToolPages, coreTools } from "./catalog";
 import { converters } from "./converters";
@@ -29,6 +31,7 @@ const known = new Set([
   ...guides.map((g) => `/resources/${g.slug}`),
   ...converters.map((c) => `/tools/${c.slug}`),
   ...federalRegulations.map((r) => `/regulations/${r.slug}`),
+  ...industries.map((i) => `/industries/${i.slug}`),
   "/states/texas",
 ]);
 const terms = new Set(glossary.map((g) => g.slug));
@@ -45,6 +48,7 @@ describe("internal links from tools, guides, and the glossary", () => {
     for (const g of guides) for (const r of g.related) if (r.href.startsWith("/") && !r.href.startsWith("/api/")) check(r.href, `guide ${g.slug}`);
     for (const t of glossary) for (const l of t.links ?? []) check(l.href, `glossary ${t.slug}`);
     for (const t of [...coreTools, ...allToolPages]) check(t.href, `tool ${t.slug}`);
+    for (const t of askTopics) for (const l of t.tryFirst) check(l.href, `ask topic ${t.slug}`);
   });
   it("in tool page files point to pages that exist", () => {
     const files = readdirSync(join(appDir, "tools"), { recursive: true }).map(String).filter((f) => f.endsWith("page.tsx"));

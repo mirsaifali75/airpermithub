@@ -3,6 +3,7 @@ import { ArrowRight, Building2, Gauge, ExternalLink, FileText, Landmark, Quote, 
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
+import { AskCta } from "@/components/ask/AskCta";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge, CitationBadge, VerificationBadge } from "@/components/ui/Badge";
 import { buttonClass } from "@/components/ui/Button";
@@ -323,6 +324,7 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
             Rules change; confirm with the agency before relying on it.
           </VerifyNotice>
           <Link href="/permit-finder" className={buttonClass("secondary", "md", "w-full")}>Screen a {p.name} facility <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+          <AskCta path={`/states/${slug}`} />
         </aside>
       </div>
     </>

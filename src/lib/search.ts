@@ -38,6 +38,7 @@ export function buildSearchIndex(profiles: StateAirPermitProfile[]): SearchDoc[]
   const bySlug = new Map(profiles.map((p) => [p.slug, p]));
   return [
   ...tools,
+  { title: "Ask an Air Permitting Question", href: "/ask", kind: "Tool" as const, snippet: "Send a question about applicability, PTE, NSR, Title V, testing, or compliance records.", keywords: "ask question help expert contact consult answer" },
   { title: "Practitioner Tools", href: "/tools", kind: "Tool" as const, snippet: "Rolling limits, NSR baselines, compliance matrices, deviation logs, and stack test converters.", keywords: "tools rolling nsr baseline compliance matrix deviation converter" },
   ...allToolPages.map((t) => ({ title: t.name, href: t.href, kind: "Tool" as const, snippet: t.description, keywords: t.keywords })),
   ...glossary.map((g) => ({

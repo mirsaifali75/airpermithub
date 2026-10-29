@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ArrowRight, Calculator, ExternalLink, FileText } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AskCta } from "@/components/ask/AskCta";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { CitationBadge, ContentStatusBadge, ReviewedBadge } from "@/components/ui/Badge";
 import { buttonClass } from "@/components/ui/Button";
@@ -206,6 +207,7 @@ export default async function RegulationPage({ params }: { params: Promise<{ slu
             </section>
           )}
           <Link href="/permit-finder" className={buttonClass("secondary", "md", "w-full")}>Screen a facility <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+          <AskCta path={`/regulations/${reg.slug}`} />
         </aside>
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />

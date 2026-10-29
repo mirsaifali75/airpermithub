@@ -105,7 +105,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
                 aria-haspopup="true"
                 className={cn(
                   "inline-flex items-center gap-1 rounded-lg px-2.5 py-2 text-[0.875rem] font-medium",
-                  ["/resources", "/templates", "/states", "/applicability", "/regulatory-updates", "/glossary"].some(isActive) ? "text-white" : "text-white/75 hover:text-white",
+                  ["/resources", "/templates", "/states", "/applicability", "/regulatory-updates", "/glossary", "/ask"].some(isActive) ? "text-white" : "text-white/75 hover:text-white",
                 )}
               >
                 Resources <ChevronDown className={cn("h-4 w-4 transition-transform", resourcesOpen && "rotate-180")} aria-hidden="true" />

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ArrowRight, BookOpen, CalendarDays, Clock, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AskCta } from "@/components/ask/AskCta";
 import { Scene } from "@/components/illustrations/Scene";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
@@ -95,6 +96,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
               {guides.filter((x) => x.slug !== g.slug).map((x) => <li key={x.slug}><Link href={`/resources/${x.slug}`} className="text-white/80 hover:text-white">{x.title}</Link></li>)}
             </ul>
           </div>
+          <AskCta path={`/resources/${g.slug}`} />
         </aside>
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />

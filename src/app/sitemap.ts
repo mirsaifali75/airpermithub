@@ -10,7 +10,7 @@ import { allToolPages } from "@/lib/tools/catalog";
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
     "/", "/permit-finder", "/calculators", "/applicability", "/regulations", "/regulations/federal", "/states", "/permits",
-    "/compliance", "/industries", "/jobs", "/resources", "/templates", "/about", "/disclaimer", "/tools",
+    "/compliance", "/industries", "/jobs", "/resources", "/templates", "/about", "/disclaimer", "/tools", "/ask", "/glossary", "/regulatory-updates",
     ...allToolPages.map((t) => t.href),
     ...calculatorMethods.map((m) => `/calculators/${m.slug}`),
     ...federalRegulations.map((r) => `/regulations/${r.slug}`),
