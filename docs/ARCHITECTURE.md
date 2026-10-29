@@ -126,3 +126,7 @@ Tools built around recurring air permitting problems. The math lives in `src/lib
 Rules the tools follow: regulatory values (limits, significance levels, F-factors, reference O2) are entered by the user, never prefilled; examples are labeled; tool data stays in localStorage (`aph.tools.*.v1`). The matrix builder writes to `aph.compliance.tasks.v1` in the calendar's existing shape.
 
 Practitioner guides are in `lib/data/practitioner-guides.ts` and merge into `guides`. `src/lib/links-export.test.ts` exports every source URL built in code so the weekly link check covers them; `src/lib/tools/internal-links.test.ts` fails the build if a tool, guide, or glossary link points to a page that doesn't exist.
+
+## P0 + P1 design (proposed 2026-10-29)
+
+The audit against the brief's 45 features and the P0 + P1 database and system design are in the doc "AirPermitHub P0 + P1 Audit and Architecture". The proposed schema is `docs/design/p0-p1-schema.prisma` (50 models, passes `prisma validate`). It replaces `prisma/schema.prisma` when P0 starts. Its header lists the constraints that go into the first SQL migration: one published version per record, the publish and immutability triggers, the reviewer-is-not-author check, and the one-version-per-citation check.

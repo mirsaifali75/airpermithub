@@ -1,0 +1,1187 @@
+// AirPermitHub database: P0 + P1 proposal (2026-10-29). Not migrated.
+//
+// Design doc: "AirPermitHub P0 + P1 Audit and Architecture". This file
+// replaces prisma/schema.prisma when P0 starts; until then it is a design
+// artifact checked with `prisma validate`.
+//
+// Rules the schema carries (R numbers match the design doc):
+// R1  A version is published only with a citation to an official source.
+// R2  Numbers appear only as verbatim quotes or as factors tied to a table.
+// R3  Published versions are never edited; a change is a new version.
+// R4  The reviewer of a version is never its author.
+// R6  Screening stores only the four outcome statuses.
+// R7  Saved calculations point at version rows, not identities.
+// R8  Demo rows never mix with real data.
+// R9  Every write to regulatory or workspace data adds an AuditLog row.
+//
+// Constraints Prisma can't express go in the first SQL migration:
+// - one PUBLISHED version per record (partial unique index on each *Version);
+// - R1 publish check and R3 immutability (trigger on each *Version);
+// - R4: CHECK (reviewed_by_id IS NULL OR reviewed_by_id <> author_id);
+// - Citation: CHECK (num_nonnulls(<the eight version FKs>) = 1);
+// - CalculationResult: CHECK (factor_version_id IS NOT NULL OR custom_factor_ref IS NOT NULL).
+//
+// Every *Version model repeats the same envelope fields, in the same order:
+// versionNo, status, contentStatus, verification, effectiveFrom, effectiveTo,
+// publishedAt, supersededAt, authorId, reviewedById, reviewedAt,
+// revisionNotes, createdAt.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ─────────────────────────── Enums ───────────────────────────
+
+enum PlatformRole {
+  USER
+  EDITOR
+  REVIEWER
+  ADMIN
+}
+
+enum AccountType {
+  INDIVIDUAL
+  CONSULTANT
+  COMPANY
+}
+
+enum PlanTier {
+  FREE
+  PROFESSIONAL
+  TEAM
+  ENTERPRISE
+}
+
+enum WorkspaceKind {
+  PERSONAL
+  TEAM
+}
+
+enum WorkspaceRole {
+  OWNER
+  ADMIN
+  EDITOR
+  VIEWER
+}
+
+enum Jurisdiction {
+  FEDERAL
+  STATE
+  LOCAL
+  TRIBAL
+}
+
+enum VersionStatus {
+  DRAFT
+  IN_REVIEW
+  PUBLISHED
+  SUPERSEDED
+  REJECTED
+}
+
+enum ContentStatus {
+  OFFICIAL_SOURCE
+  APH_SUMMARY
+  NEEDS_REVIEW
+  RECENTLY_UPDATED
+  ARCHIVED
+}
+
+enum Verification {
+  VERIFIED
+  PARTIAL
+  UNVERIFIED
+}
+
+enum SourceKind {
+  RULE_TEXT
+  FEDERAL_REGISTER
+  GUIDANCE
+  FORM
+  DATA
+  AGENCY_PAGE
+  OTHER
+}
+
+enum ContentEntity {
+  STATE_PROFILE
+  AGENCY
+  PERMIT_PROGRAM
+  REGULATION
+  GLOSSARY_TERM
+  CALCULATION_METHOD
+  EMISSION_FACTOR
+  GWP_SET
+  SOURCE
+}
+
+enum ReviewKind {
+  NEW_RECORD
+  CHANGE
+  SOURCE_CHANGED
+  ERROR_REPORT
+  FEDERAL_REGISTER_MATCH
+  RESTATED_THRESHOLD
+}
+
+enum ReviewStatus {
+  OPEN
+  IN_PROGRESS
+  APPROVED
+  SENT_BACK
+  REJECTED
+  CLOSED
+}
+
+enum PermitType {
+  EXEMPTION
+  REGISTRATION
+  PBR
+  GENERAL
+  STANDARD
+  MINOR_NSR
+  PSD
+  NNSR
+  TITLE_V
+  STATE_OPERATING
+  OTHER
+}
+
+/// R6: the only outcomes screening may store. Never "required".
+enum ApplicabilityStatus {
+  POTENTIALLY_APPLICABLE
+  LIKELY_NOT_APPLICABLE
+  MORE_INFO_NEEDED
+  INSUFFICIENT_INFO
+}
+
+enum ComplianceCategory {
+  TESTING
+  INSPECTION
+  REPORTING
+  CERTIFICATION
+  PERMIT_RENEWAL
+  MONITORING
+  RECORDKEEPING
+  LDAR
+  EMISSION_INVENTORY
+  DEVIATION_REPORTING
+}
+
+enum Recurrence {
+  ONE_TIME
+  CONTINUOUS
+  DAILY
+  WEEKLY
+  MONTHLY
+  QUARTERLY
+  SEMIANNUAL
+  ANNUAL
+  MULTI_YEAR
+  EVENT_DRIVEN
+}
+
+enum TaskStatus {
+  OPEN
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+}
+
+enum DeviationStatus {
+  OPEN
+  REPORTED
+  CLOSED
+}
+
+enum RollingMode {
+  SUM
+  AVERAGE
+}
+
+enum ErrorReportStatus {
+  NEW
+  TRIAGED
+  FIXED
+  REJECTED
+}
+
+enum FederalRegisterType {
+  RULE
+  PROPOSED_RULE
+}
+
+// ═══════════════════════════ P0 ═══════════════════════════
+
+// ─────────────────────── Sign-in (Auth.js) ───────────────────────
+
+model User {
+  id            String       @id @default(cuid())
+  email         String       @unique
+  emailVerified DateTime?
+  name          String?
+  image         String?
+  platformRole  PlatformRole @default(USER)
+  accountType   AccountType  @default(INDIVIDUAL)
+  plan          PlanTier     @default(FREE)
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  accounts        Account[]
+  sessions        Session[]
+  memberships     Membership[]
+  auditLogs       AuditLog[]
+  reviewsAssigned ReviewTask[]     @relation("ReviewAssignee")
+  reviewsDecided  ReviewTask[]     @relation("ReviewDecider")
+  errorReports    ErrorReport[]
+  browserImports  BrowserImport[]
+  tasksAssigned   ComplianceTask[]
+  domainsAdded    OfficialDomain[]
+
+  stateProfilesAuthored StateProfileVersion[]      @relation("StateProfileAuthor")
+  stateProfilesReviewed StateProfileVersion[]      @relation("StateProfileReviewer")
+  agenciesAuthored      AgencyVersion[]            @relation("AgencyAuthor")
+  agenciesReviewed      AgencyVersion[]            @relation("AgencyReviewer")
+  programsAuthored      PermitProgramVersion[]     @relation("ProgramAuthor")
+  programsReviewed      PermitProgramVersion[]     @relation("ProgramReviewer")
+  regulationsAuthored   RegulationVersion[]        @relation("RegulationAuthor")
+  regulationsReviewed   RegulationVersion[]        @relation("RegulationReviewer")
+  glossaryAuthored      GlossaryTermVersion[]      @relation("GlossaryAuthor")
+  glossaryReviewed      GlossaryTermVersion[]      @relation("GlossaryReviewer")
+  methodsAuthored       CalculationMethodVersion[] @relation("MethodAuthor")
+  methodsReviewed       CalculationMethodVersion[] @relation("MethodReviewer")
+  factorsAuthored       EmissionFactorVersion[]    @relation("FactorAuthor")
+  factorsReviewed       EmissionFactorVersion[]    @relation("FactorReviewer")
+  gwpSetsAuthored       GwpSet[]                   @relation("GwpAuthor")
+  gwpSetsReviewed       GwpSet[]                   @relation("GwpReviewer")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ─────────────────────── Provenance ───────────────────────
+
+/// A document at a URL. `isOfficial` is set from OfficialDomain, never by hand (R1).
+model Source {
+  id         String     @id @default(cuid())
+  title      String
+  url        String     @unique
+  kind       SourceKind
+  publisher  String
+  agencyId   String?
+  isOfficial Boolean    @default(false)
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+
+  agency    RegulatoryAgency? @relation(fields: [agencyId], references: [id])
+  snapshots SourceSnapshot[]
+  citations Citation[]
+}
+
+/// Allowlist behind R1: .gov, ecfr.gov, federalregister.gov, govinfo.gov, state registers.
+/// Vendor-hosted agency portals are added one by one after a reviewer confirms them.
+model OfficialDomain {
+  id           String       @id @default(cuid())
+  domain       String       @unique
+  jurisdiction Jurisdiction
+  note         String?
+  addedById    String
+  addedAt      DateTime     @default(now())
+  addedBy      User         @relation(fields: [addedById], references: [id])
+}
+
+/// One fetch of a source. A changed hash opens a SOURCE_CHANGED review task.
+model SourceSnapshot {
+  id                   String   @id @default(cuid())
+  sourceId             String
+  retrievedAt          DateTime @default(now())
+  httpStatus           Int
+  contentHash          String?
+  changedSincePrevious Boolean  @default(false)
+  source               Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@index([sourceId, retrievedAt])
+}
+
+/// Ties exactly one version (one of the FKs below) to one source (SQL CHECK).
+/// `verbatimQuote` is the only place a threshold, limit, or deadline may appear (R2).
+model Citation {
+  id             String    @id @default(cuid())
+  sourceId       String
+  pinpoint       String?
+  page           String?
+  verbatimQuote  String?
+  quoteCheckedAt DateTime?
+  createdAt      DateTime  @default(now())
+
+  stateProfileVersionId String?
+  agencyVersionId       String?
+  programVersionId      String?
+  regulationVersionId   String?
+  glossaryVersionId     String?
+  methodVersionId       String?
+  factorVersionId       String?
+  gwpSetId              String?
+
+  source              Source                    @relation(fields: [sourceId], references: [id])
+  stateProfileVersion StateProfileVersion?      @relation(fields: [stateProfileVersionId], references: [id], onDelete: Cascade)
+  agencyVersion       AgencyVersion?            @relation(fields: [agencyVersionId], references: [id], onDelete: Cascade)
+  programVersion      PermitProgramVersion?     @relation(fields: [programVersionId], references: [id], onDelete: Cascade)
+  regulationVersion   RegulationVersion?        @relation(fields: [regulationVersionId], references: [id], onDelete: Cascade)
+  glossaryVersion     GlossaryTermVersion?      @relation(fields: [glossaryVersionId], references: [id], onDelete: Cascade)
+  methodVersion       CalculationMethodVersion? @relation(fields: [methodVersionId], references: [id], onDelete: Cascade)
+  factorVersion       EmissionFactorVersion?    @relation(fields: [factorVersionId], references: [id], onDelete: Cascade)
+  gwpSet              GwpSet?                   @relation(fields: [gwpSetId], references: [id], onDelete: Cascade)
+
+  @@index([sourceId])
+}
+
+// ─────────────────── Reference content: identity + versions ───────────────────
+
+model State {
+  id        String @id @default(cuid())
+  code      String @unique @db.Char(2)
+  slug      String @unique
+  name      String
+  epaRegion Int
+
+  versions   StateProfileVersion[]
+  agencies   RegulatoryAgency[]
+  programs   PermitProgram[]
+  facilities Facility[]
+}
+
+model StateProfileVersion {
+  id       String  @id @default(cuid())
+  stateId  String
+  overview String
+  notes    String?
+
+  versionNo     Int
+  status        VersionStatus @default(DRAFT)
+  contentStatus ContentStatus @default(NEEDS_REVIEW)
+  verification  Verification  @default(UNVERIFIED)
+  effectiveFrom DateTime?     @db.Date
+  effectiveTo   DateTime?     @db.Date
+  publishedAt   DateTime?
+  supersededAt  DateTime?
+  authorId      String
+  reviewedById  String?
+  reviewedAt    DateTime?
+  revisionNotes String?
+  createdAt     DateTime      @default(now())
+
+  state      State      @relation(fields: [stateId], references: [id])
+  author     User       @relation("StateProfileAuthor", fields: [authorId], references: [id])
+  reviewedBy User?      @relation("StateProfileReviewer", fields: [reviewedById], references: [id])
+  citations  Citation[]
+
+  @@unique([stateId, versionNo])
+}
+
+model RegulatoryAgency {
+  id           String       @id @default(cuid())
+  slug         String       @unique
+  jurisdiction Jurisdiction
+  stateId      String?
+
+  state           State?           @relation(fields: [stateId], references: [id])
+  versions        AgencyVersion[]
+  sources         Source[]
+  programs        PermitProgram[]
+  facilityPermits FacilityPermit[]
+}
+
+model AgencyVersion {
+  id           String  @id @default(cuid())
+  agencyId     String
+  name         String
+  abbreviation String?
+  division     String?
+  url          String
+  permitsUrl   String?
+
+  versionNo     Int
+  status        VersionStatus @default(DRAFT)
+  contentStatus ContentStatus @default(NEEDS_REVIEW)
+  verification  Verification  @default(UNVERIFIED)
+  effectiveFrom DateTime?     @db.Date
+  effectiveTo   DateTime?     @db.Date
+  publishedAt   DateTime?
+  supersededAt  DateTime?
+  authorId      String
+  reviewedById  String?
+  reviewedAt    DateTime?
+  revisionNotes String?
+  createdAt     DateTime      @default(now())
+
+  agency     RegulatoryAgency @relation(fields: [agencyId], references: [id])
+  author     User             @relation("AgencyAuthor", fields: [authorId], references: [id])
+  reviewedBy User?            @relation("AgencyReviewer", fields: [reviewedById], references: [id])
+  citations  Citation[]
+
+  @@unique([agencyId, versionNo])
+}
+
+model PermitProgram {
+  id          String     @id @default(cuid())
+  slug        String     @unique
+  stateId     String?
+  agencyId    String
+  type        PermitType
+  isOilAndGas Boolean    @default(false)
+
+  state           State?                 @relation(fields: [stateId], references: [id])
+  agency          RegulatoryAgency       @relation(fields: [agencyId], references: [id])
+  versions        PermitProgramVersion[]
+  facilityPermits FacilityPermit[]
+}
+
+model PermitProgramVersion {
+  id                String  @id @default(cuid())
+  programId         String
+  name              String
+  description       String
+  citationText      String?
+  /// Verbatim threshold text; the matching Citation carries the same quote (R2).
+  verbatimQuote     String?
+  /// Restated, not verbatim. Always shown as "summarized from source"; keeps the version at NEEDS_REVIEW.
+  restatedThreshold String?
+
+  versionNo     Int
+  status        VersionStatus @default(DRAFT)
+  contentStatus ContentStatus @default(NEEDS_REVIEW)
+  verification  Verification  @default(UNVERIFIED)
+  effectiveFrom DateTime?     @db.Date
+  effectiveTo   DateTime?     @db.Date
+  publishedAt   DateTime?
+  supersededAt  DateTime?
+  authorId      String
+  reviewedById  String?
+  reviewedAt    DateTime?
+  revisionNotes String?
+  createdAt     DateTime      @default(now())
+
+  program        PermitProgram   @relation(fields: [programId], references: [id])
+  author         User            @relation("ProgramAuthor", fields: [authorId], references: [id])
+  reviewedBy     User?           @relation("ProgramReviewer", fields: [reviewedById], references: [id])
+  citations      Citation[]
+  screeningItems ScreeningItem[]
+
+  @@unique([programId, versionNo])
+}
+
+model Regulation {
+  id           String       @id @default(cuid())
+  slug         String       @unique
+  shortName    String
+  citation     String
+  jurisdiction Jurisdiction
+  cfrTitle     Int?
+  cfrPart      String?
+  stateId      String?
+
+  versions      RegulationVersion[]
+  relatedFrom   RegulationRelation[]   @relation("RelFrom")
+  relatedTo     RegulationRelation[]   @relation("RelTo")
+  fedRegMatches FederalRegisterMatch[]
+
+  @@index([cfrTitle, cfrPart])
+}
+
+model RegulationVersion {
+  id            String  @id @default(cuid())
+  regulationId  String
+  name          String
+  tagline       String?
+  summary       String
+  applicability String?
+  requirements  String?
+  monitoring    String?
+  testing       String?
+  recordkeeping String?
+  reporting     String?
+  definitions   String?
+  /// [{ code, title }] as published.
+  keySubparts   Json?
+
+  versionNo     Int
+  status        VersionStatus @default(DRAFT)
+  contentStatus ContentStatus @default(NEEDS_REVIEW)
+  verification  Verification  @default(UNVERIFIED)
+  effectiveFrom DateTime?     @db.Date
+  effectiveTo   DateTime?     @db.Date
+  publishedAt   DateTime?
+  supersededAt  DateTime?
+  authorId      String
+  reviewedById  String?
+  reviewedAt    DateTime?
+  revisionNotes String?
+  createdAt     DateTime      @default(now())
+
+  regulation     Regulation      @relation(fields: [regulationId], references: [id])
+  author         User            @relation("RegulationAuthor", fields: [authorId], references: [id])
+  reviewedBy     User?           @relation("RegulationReviewer", fields: [reviewedById], references: [id])
+  citations      Citation[]
+  screeningItems ScreeningItem[]
+  obligations    Obligation[]
+  nsrAnalyses    NsrAnalysis[]
+
+  @@unique([regulationId, versionNo])
+}
+
+model RegulationRelation {
+  fromId String
+  toId   String
+  kind   String     @default("related")
+  from   Regulation @relation("RelFrom", fields: [fromId], references: [id], onDelete: Cascade)
+  to     Regulation @relation("RelTo", fields: [toId], references: [id], onDelete: Cascade)
+
+  @@id([fromId, toId])
+}
+
+model GlossaryTerm {
+  id       String                @id @default(cuid())
+  slug     String                @unique
+  category String
+  versions GlossaryTermVersion[]
+}
+
+model GlossaryTermVersion {
+  id         String  @id @default(cuid())
+  termId     String
+  term       String
+  abbr       String?
+  definition String
+
+  versionNo     Int
+  status        VersionStatus @default(DRAFT)
+  contentStatus ContentStatus @default(NEEDS_REVIEW)
+  verification  Verification  @default(UNVERIFIED)
+  effectiveFrom DateTime?     @db.Date
+  effectiveTo   DateTime?     @db.Date
+  publishedAt   DateTime?
+  supersededAt  DateTime?
+  authorId      String
+  reviewedById  String?
+  reviewedAt    DateTime?
+  revisionNotes String?
+  createdAt     DateTime      @default(now())
+
+  glossaryTerm GlossaryTerm @relation(fields: [termId], references: [id])
+  author       User         @relation("GlossaryAuthor", fields: [authorId], references: [id])
+  reviewedBy   User?        @relation("GlossaryReviewer", fields: [reviewedById], references: [id])
+  citations    Citation[]
+
+  @@unique([termId, versionNo])
+}
+
+// ─────────────────────── Review & audit ───────────────────────
+
+/// The review queue. Detected changes only open a task; they never edit a page.
+model ReviewTask {
+  id           String        @id @default(cuid())
+  kind         ReviewKind
+  status       ReviewStatus  @default(OPEN)
+  entityType   ContentEntity
+  entityId     String
+  versionId    String?
+  title        String
+  detail       String?
+  assigneeId   String?
+  decidedById  String?
+  decidedAt    DateTime?
+  decisionNote String?
+  createdAt    DateTime      @default(now())
+
+  assignee    User?                 @relation("ReviewAssignee", fields: [assigneeId], references: [id])
+  decidedBy   User?                 @relation("ReviewDecider", fields: [decidedById], references: [id])
+  errorReport ErrorReport?
+  fedRegMatch FederalRegisterMatch?
+
+  @@index([status, kind])
+  @@index([entityType, entityId])
+}
+
+/// Append-only (no UPDATE or DELETE grants for the app role).
+model AuditLog {
+  id          String   @id @default(cuid())
+  actorId     String?
+  workspaceId String?
+  action      String
+  entityType  String
+  entityId    String
+  before      Json?
+  after       Json?
+  createdAt   DateTime @default(now())
+
+  actor     User?      @relation(fields: [actorId], references: [id])
+  workspace Workspace? @relation(fields: [workspaceId], references: [id])
+
+  @@index([entityType, entityId])
+  @@index([workspaceId, createdAt])
+}
+
+model ErrorReport {
+  id           String            @id @default(cuid())
+  reporterId   String?
+  replyEmail   String?
+  pageUrl      String
+  message      String
+  status       ErrorReportStatus @default(NEW)
+  reviewTaskId String?           @unique
+  createdAt    DateTime          @default(now())
+
+  reporter   User?       @relation(fields: [reporterId], references: [id])
+  reviewTask ReviewTask? @relation(fields: [reviewTaskId], references: [id])
+}
+
+// ═══════════════════════════ P1 ═══════════════════════════
+
+// ─────────────────────── Workspaces ───────────────────────
+
+/// Owns all saved work. Every workspace query filters on workspaceId.
+model Workspace {
+  id        String        @id @default(cuid())
+  name      String
+  kind      WorkspaceKind @default(PERSONAL)
+  plan      PlanTier      @default(FREE)
+  createdAt DateTime      @default(now())
+
+  memberships  Membership[]
+  facilities   Facility[]
+  calculations Calculation[]
+  screenings   Screening[]
+  auditLogs    AuditLog[]
+}
+
+model Membership {
+  id          String        @id @default(cuid())
+  userId      String
+  workspaceId String
+  role        WorkspaceRole @default(OWNER)
+  createdAt   DateTime      @default(now())
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspace   Workspace     @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, workspaceId])
+}
+
+// ─────────────────────── Facilities ───────────────────────
+
+model Facility {
+  id           String   @id @default(cuid())
+  workspaceId  String
+  name         String
+  stateId      String
+  county       String?
+  latitude     Float?
+  longitude    Float?
+  industry     String
+  facilityType String
+  isDemo       Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  workspace     Workspace         @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  state         State             @relation(fields: [stateId], references: [id])
+  equipment     Equipment[]
+  contacts      FacilityContact[]
+  permits       FacilityPermit[]
+  obligations   Obligation[]
+  tasks         ComplianceTask[]
+  deviations    Deviation[]
+  limitTrackers LimitTracker[]
+  nsrAnalyses   NsrAnalysis[]
+  calculations  Calculation[]
+  screenings    Screening[]
+
+  @@index([workspaceId])
+}
+
+model Equipment {
+  id            String    @id @default(cuid())
+  facilityId    String
+  tag           String
+  type          String
+  make          String?
+  model         String?
+  ratingValue   Float?
+  ratingUnits   String?
+  constructedAt DateTime? @db.Date
+  installedAt   DateTime? @db.Date
+
+  facility Facility         @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+  sources  EmissionSource[]
+}
+
+model EmissionSource {
+  id           String        @id @default(cuid())
+  equipmentId  String
+  name         String
+  description  String?
+  equipment    Equipment     @relation(fields: [equipmentId], references: [id], onDelete: Cascade)
+  calculations Calculation[]
+}
+
+model FacilityContact {
+  id         String   @id @default(cuid())
+  facilityId String
+  name       String
+  role       String?
+  email      String?
+  phone      String?
+  facility   Facility @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+}
+
+// ─────────────────────── The user's own permits ───────────────────────
+
+/// A permit the user entered. Labeled "Entered by you"; never an AirPermitHub record.
+model FacilityPermit {
+  id             String     @id @default(cuid())
+  facilityId     String
+  agencyId       String?
+  programId      String?
+  type           PermitType
+  permitNumber   String
+  issueDate      DateTime?  @db.Date
+  expirationDate DateTime?  @db.Date
+  renewalDueDate DateTime?  @db.Date
+  notes          String?
+  createdAt      DateTime   @default(now())
+
+  facility   Facility          @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+  agency     RegulatoryAgency? @relation(fields: [agencyId], references: [id])
+  program    PermitProgram?    @relation(fields: [programId], references: [id])
+  conditions PermitCondition[]
+}
+
+/// One condition as pasted. Type and frequency are suggestions until the user confirms them.
+model PermitCondition {
+  id              String      @id @default(cuid())
+  permitId        String
+  ref             String
+  text            String
+  type            String?
+  recurrence      Recurrence?
+  citedRules      String[]
+  deadlinePhrases String[]
+  confirmedByUser Boolean     @default(false)
+  parserVersion   String?
+
+  permit      FacilityPermit @relation(fields: [permitId], references: [id], onDelete: Cascade)
+  obligations Obligation[]
+  deviations  Deviation[]
+  trackers    LimitTracker[]
+}
+
+// ─────────────────────── Compliance ───────────────────────
+
+/// Something the facility must do, traced to the user's permit condition or a cited rule version.
+model Obligation {
+  id                  String             @id @default(cuid())
+  facilityId          String
+  conditionId         String?
+  regulationVersionId String?
+  title               String
+  category            ComplianceCategory
+  recurrence          Recurrence
+  firstDueDate        DateTime?          @db.Date
+  /// Where the date came from, e.g. "Condition 3.2 as entered". AirPermitHub never supplies one.
+  dueDateBasis        String?
+  createdAt           DateTime           @default(now())
+
+  facility          Facility           @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+  condition         PermitCondition?   @relation(fields: [conditionId], references: [id])
+  regulationVersion RegulationVersion? @relation(fields: [regulationVersionId], references: [id])
+  tasks             ComplianceTask[]
+}
+
+model ComplianceTask {
+  id           String             @id @default(cuid())
+  facilityId   String
+  obligationId String?
+  title        String
+  category     ComplianceCategory
+  dueDate      DateTime           @db.Date
+  status       TaskStatus         @default(OPEN)
+  assigneeId   String?
+  completedAt  DateTime?
+  evidenceNote String?
+  isDemo       Boolean            @default(false)
+  createdAt    DateTime           @default(now())
+
+  facility   Facility    @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+  obligation Obligation? @relation(fields: [obligationId], references: [id])
+  assignee   User?       @relation(fields: [assigneeId], references: [id])
+
+  @@index([facilityId, dueDate])
+}
+
+model Deviation {
+  id             String          @id @default(cuid())
+  facilityId     String
+  conditionId    String?
+  startAt        DateTime
+  endAt          DateTime?
+  unit           String
+  requirement    String
+  description    String
+  cause          String?
+  corrective     String?
+  durationHours  Float?
+  pollutants     String?
+  excessEstimate String?
+  reportedOn     DateTime?       @db.Date
+  status         DeviationStatus @default(OPEN)
+  createdAt      DateTime        @default(now())
+
+  facility  Facility         @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+  condition PermitCondition? @relation(fields: [conditionId], references: [id])
+
+  @@index([facilityId, startAt])
+}
+
+// ─────────────────────── Tools ───────────────────────
+
+/// Rolling tracker. The limit is the user's own value from their permit condition.
+model LimitTracker {
+  id           String      @id @default(cuid())
+  facilityId   String
+  conditionId  String?
+  name         String
+  pollutant    String?
+  units        String
+  periodMonths Int         @default(12)
+  mode         RollingMode @default(SUM)
+  limit        Float?
+  limitBasis   String?
+  alertPct     Float?
+  startMonth   String
+  createdAt    DateTime    @default(now())
+
+  facility  Facility            @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+  condition PermitCondition?    @relation(fields: [conditionId], references: [id])
+  values    LimitTrackerValue[]
+}
+
+model LimitTrackerValue {
+  trackerId String
+  /// YYYY-MM
+  month     String
+  value     Float?
+  tracker   LimitTracker @relation(fields: [trackerId], references: [id], onDelete: Cascade)
+
+  @@id([trackerId, month])
+}
+
+/// NSR baseline worksheet. Pins the 52.21 version it quotes and the code version (R7).
+model NsrAnalysis {
+  id                  String   @id @default(cuid())
+  facilityId          String
+  name                String
+  data                Json
+  engineVersion       String
+  regulationVersionId String?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  facility          Facility           @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+  regulationVersion RegulationVersion? @relation(fields: [regulationVersionId], references: [id])
+}
+
+// ─────────────────────── Calculations ───────────────────────
+
+model Pollutant {
+  id    String  @id @default(cuid())
+  code  String  @unique
+  name  String
+  casNo String?
+  isHap Boolean @default(false)
+  isGhg Boolean @default(false)
+
+  factors   EmissionFactor[]
+  gwpValues GwpValue[]
+  results   CalculationResult[]
+}
+
+model CalculationMethod {
+  id       String                     @id @default(cuid())
+  slug     String                     @unique
+  versions CalculationMethodVersion[]
+}
+
+model CalculationMethodVersion {
+  id            String @id @default(cuid())
+  methodId      String
+  name          String
+  formula       String
+  methodology   String
+  /// Version of src/lib/calc that implements this text.
+  engineVersion String
+
+  versionNo     Int
+  status        VersionStatus @default(DRAFT)
+  contentStatus ContentStatus @default(NEEDS_REVIEW)
+  verification  Verification  @default(UNVERIFIED)
+  effectiveFrom DateTime?     @db.Date
+  effectiveTo   DateTime?     @db.Date
+  publishedAt   DateTime?
+  supersededAt  DateTime?
+  authorId      String
+  reviewedById  String?
+  reviewedAt    DateTime?
+  revisionNotes String?
+  createdAt     DateTime      @default(now())
+
+  method       CalculationMethod @relation(fields: [methodId], references: [id])
+  author       User              @relation("MethodAuthor", fields: [authorId], references: [id])
+  reviewedBy   User?             @relation("MethodReviewer", fields: [reviewedById], references: [id])
+  citations    Citation[]
+  calculations Calculation[]
+
+  @@unique([methodId, versionNo])
+}
+
+model EmissionFactor {
+  id             String                  @id @default(cuid())
+  slug           String                  @unique
+  pollutantId    String
+  sourceCategory String
+  equipmentType  String?
+  pollutant      Pollutant               @relation(fields: [pollutantId], references: [id])
+  versions       EmissionFactorVersion[]
+
+  @@index([sourceCategory, pollutantId])
+}
+
+/// Only PUBLISHED + VERIFIED factors can be picked in the calculator.
+model EmissionFactorVersion {
+  id       String  @id @default(cuid())
+  factorId String
+  value    Float
+  units    String
+  basis    String?
+  rating   String?
+  /// Section and table in the cited source, e.g. "Section 3.2, Table 3.2-2".
+  tableRef String
+
+  versionNo     Int
+  status        VersionStatus @default(DRAFT)
+  contentStatus ContentStatus @default(NEEDS_REVIEW)
+  verification  Verification  @default(UNVERIFIED)
+  effectiveFrom DateTime?     @db.Date
+  effectiveTo   DateTime?     @db.Date
+  publishedAt   DateTime?
+  supersededAt  DateTime?
+  authorId      String
+  reviewedById  String?
+  reviewedAt    DateTime?
+  revisionNotes String?
+  createdAt     DateTime      @default(now())
+
+  factor     EmissionFactor      @relation(fields: [factorId], references: [id])
+  author     User                @relation("FactorAuthor", fields: [authorId], references: [id])
+  reviewedBy User?               @relation("FactorReviewer", fields: [reviewedById], references: [id])
+  citations  Citation[]
+  results    CalculationResult[]
+
+  @@unique([factorId, versionNo])
+}
+
+/// GWP values for one program as of one date. Versioned as a set.
+model GwpSet {
+  id      String @id @default(cuid())
+  program String
+
+  versionNo     Int
+  status        VersionStatus @default(DRAFT)
+  contentStatus ContentStatus @default(NEEDS_REVIEW)
+  verification  Verification  @default(UNVERIFIED)
+  effectiveFrom DateTime?     @db.Date
+  effectiveTo   DateTime?     @db.Date
+  publishedAt   DateTime?
+  supersededAt  DateTime?
+  authorId      String
+  reviewedById  String?
+  reviewedAt    DateTime?
+  revisionNotes String?
+  createdAt     DateTime      @default(now())
+
+  author     User       @relation("GwpAuthor", fields: [authorId], references: [id])
+  reviewedBy User?      @relation("GwpReviewer", fields: [reviewedById], references: [id])
+  values     GwpValue[]
+  citations  Citation[]
+
+  @@unique([program, versionNo])
+}
+
+model GwpValue {
+  gwpSetId    String
+  pollutantId String
+  value       Float
+  gwpSet      GwpSet    @relation(fields: [gwpSetId], references: [id], onDelete: Cascade)
+  pollutant   Pollutant @relation(fields: [pollutantId], references: [id])
+
+  @@id([gwpSetId, pollutantId])
+}
+
+/// A saved calculation. Points at version rows so results never change silently (R7).
+model Calculation {
+  id               String   @id @default(cuid())
+  workspaceId      String
+  facilityId       String?
+  emissionSourceId String?
+  methodVersionId  String
+  engineVersion    String
+  name             String
+  inputs           Json
+  operatingHours   Float
+  isDemo           Boolean  @default(false)
+  duplicatedFromId String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  workspace      Workspace                @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  facility       Facility?                @relation(fields: [facilityId], references: [id])
+  emissionSource EmissionSource?          @relation(fields: [emissionSourceId], references: [id])
+  methodVersion  CalculationMethodVersion @relation(fields: [methodVersionId], references: [id])
+  results        CalculationResult[]
+
+  @@index([workspaceId])
+}
+
+model CalculationResult {
+  id              String  @id @default(cuid())
+  calculationId   String
+  pollutantId     String
+  factorVersionId String?
+  /// A user-entered factor needs its reference (SQL CHECK with factorVersionId).
+  customFactor    Float?
+  customFactorRef String?
+  controlPct      Float   @default(0)
+  lbPerHr         Float
+  lbPerDay        Float
+  tonsPerYear     Float
+  steps           Json
+
+  calculation   Calculation            @relation(fields: [calculationId], references: [id], onDelete: Cascade)
+  pollutant     Pollutant              @relation(fields: [pollutantId], references: [id])
+  factorVersion EmissionFactorVersion? @relation(fields: [factorVersionId], references: [id])
+}
+
+// ─────────────────────── Screening ───────────────────────
+
+/// A saved Permit Finder run, reproducible from its inputs and code version.
+model Screening {
+  id            String   @id @default(cuid())
+  workspaceId   String
+  facilityId    String?
+  inputs        Json
+  engineVersion String
+  createdAt     DateTime @default(now())
+
+  workspace Workspace       @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  facility  Facility?       @relation(fields: [facilityId], references: [id])
+  items     ScreeningItem[]
+}
+
+model ScreeningItem {
+  id                  String              @id @default(cuid())
+  screeningId         String
+  status              ApplicabilityStatus
+  title               String
+  why                 String
+  nextStep            String
+  programVersionId    String?
+  regulationVersionId String?
+
+  screening         Screening             @relation(fields: [screeningId], references: [id], onDelete: Cascade)
+  programVersion    PermitProgramVersion? @relation(fields: [programVersionId], references: [id])
+  regulationVersion RegulationVersion?    @relation(fields: [regulationVersionId], references: [id])
+}
+
+// ─────────────────────── Rule changes ───────────────────────
+
+/// Stored as published by the Federal Register API; never edited.
+model FederalRegisterDocument {
+  id              String              @id @default(cuid())
+  documentNumber  String              @unique
+  type            FederalRegisterType
+  title           String
+  abstract        String?
+  htmlUrl         String
+  publicationDate DateTime            @db.Date
+  effectiveOn     DateTime?           @db.Date
+  commentsCloseOn DateTime?           @db.Date
+  cfrReferences   Json
+  docketIds       String[]
+  fetchedAt       DateTime            @default(now())
+
+  matches FederalRegisterMatch[]
+}
+
+model FederalRegisterMatch {
+  id           String   @id @default(cuid())
+  documentId   String
+  regulationId String
+  reviewTaskId String?  @unique
+  createdAt    DateTime @default(now())
+
+  document   FederalRegisterDocument @relation(fields: [documentId], references: [id])
+  regulation Regulation              @relation(fields: [regulationId], references: [id])
+  reviewTask ReviewTask?             @relation(fields: [reviewTaskId], references: [id])
+
+  @@unique([documentId, regulationId])
+}
+
+// ─────────────────────── Import ───────────────────────
+
+/// One-time, user-confirmed copy of browser data (aph.* keys) into a workspace.
+model BrowserImport {
+  id         String   @id @default(cuid())
+  userId     String
+  storageKey String
+  itemCount  Int
+  importedAt DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, storageKey])
+}
