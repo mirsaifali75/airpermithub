@@ -1,0 +1,333 @@
+{
+  "title": 40,
+  "part": 63,
+  "subpart": "FFFF",
+  "url": "https://www.ecfr.gov/current/title-40/part-63/subpart-FFFF",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2024-04-04",
+  "hash": "afa935bd325a551a37a1e9191e2c42f9e51c48a467da3c11cd5fc22e7cefb3ed",
+  "heading": "National Emission Standards for Hazardous Air Pollutants: Miscellaneous Organic Chemical Manufacturing",
+  "fullHeading": "Subpart FFFF—National Emission Standards for Hazardous Air Pollutants: Miscellaneous Organic Chemical Manufacturing",
+  "source": "68 FR 63888, Nov. 10, 2003, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "63.2430",
+      "heading": "What is the purpose of this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.2435",
+      "heading": "Am I subject to the requirements in this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2440",
+      "heading": "What parts of my plant does this subpart cover?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.2445",
+      "heading": "When do I have to comply with this subpart?",
+      "group": "Compliance Dates",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2450",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2455",
+      "heading": "What requirements must I meet for continuous process vents?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2460",
+      "heading": "What requirements must I meet for batch process vents?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2465",
+      "heading": "What requirements must I meet for process vents that emit hydrogen halide and halogen HAP or HAP metals?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2470",
+      "heading": "What requirements must I meet for storage tanks?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2475",
+      "heading": "What requirements must I meet for transfer racks?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2480",
+      "heading": "What requirements must I meet for equipment leaks?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2485",
+      "heading": "What requirements must I meet for wastewater streams and liquid streams in open systems within an MCPU?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2490",
+      "heading": "What requirements must I meet for heat exchange systems?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2492",
+      "heading": "How do I determine whether my process vent, storage tank, or equipment is in ethylene oxide service?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2493",
+      "heading": "What requirements must I meet for process vents, storage tanks, or equipment that are in ethylene oxide service?",
+      "group": "Emission Limits, Work Practice Standards, and Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2495",
+      "heading": "How do I comply with the pollution prevention standard?",
+      "group": "Alternative Means of Compliance",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2500",
+      "heading": "How do I comply with emissions averaging?",
+      "group": "Alternative Means of Compliance",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2505",
+      "heading": "How do I comply with the alternative standard?",
+      "group": "Alternative Means of Compliance",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2515",
+      "heading": "What notifications must I submit and when?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2520",
+      "heading": "What reports must I submit and when?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2525",
+      "heading": "What records must I keep?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2535",
+      "heading": "What compliance options do I have if part of my plant is subject to both this subpart and another subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2540",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.2545",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2020-08-12"
+    },
+    {
+      "id": "63.2550",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart FFFF of Part 63—Emission Limits and Work Practice Standards for Continuous Process Vents",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart FFFF of Part 63—Emission Limits and Work Practice Standards for Batch Process Vents",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart FFFF of Part 63—Emission Limits for Hydrogen Halide and Halogen HAP Emissions or HAP Metals Emissions From Process Vents",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart FFFF of Part 63—Emission Limits for Storage Tanks",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart FFFF of Part 63—Emission Limits and Work Practice Standards for Transfer Racks",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart FFFF of Part 63—Requirements for Equipment Leaks",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart FFFF of Part 63—Requirements for Wastewater Streams and Liquid Streams in Open Systems Within an MCPU",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 8 to Subpart FFFF of Part 63—Partially Soluble Hazardous Air Pollutants",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 9 to Subpart FFFF of Part 63—Soluble Hazardous Air Pollutants",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 10 to Subpart FFFF of Part 63—Work Practice Standards for Heat Exchange Systems",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 11 to Subpart FFFF of Part 63—Requirements for Reports",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 12 to Subpart FFFF of Part 63—Applicability of General Provisions to Subpart FFFF",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "63.2430",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "This subpart establishes national emission standards for hazardous air pollutants (NESHAP) for miscellaneous organic chemical manufacturing. This subpart also establishes requirements to demonstrate initial and continuous compliance with the emission limits, operating limits, and work practice standards."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.2435",
+      "heading": "Am I subject to the requirements in this subpart?",
+      "paragraphs": [
+        "(a) You are subject to the requirements in this subpart if you own or operate miscellaneous organic chemical manufacturing process units (MCPU) that are located at, or are part of, a major source of hazardous air pollutants (HAP) emissions as defined in section 112(a) of the Clean Air Act (CAA).",
+        "(b) An MCPU includes equipment necessary to operate a miscellaneous organic chemical manufacturing process, as defined in § 63.2550, that satisfies all of the conditions specified in paragraphs (b)(1) through (3) of this section. An MCPU also includes any assigned storage tanks and transfer racks; equipment in open systems that is used to convey or store water having the same concentration and flow characteristics as wastewater; and components such as pumps, compressors, agitators, pressure relief devices, sampling connection systems, open-ended valves or lines, valves, connectors, and instrumentation systems that are used to manufacture any material or family of materials described in paragraphs (b)(1)(i) through (v) of this section.",
+        "(1) The MCPU produces material or family of materials that is described in paragraph (b)(1)(i), (ii), (iii), (iv), or (v) of this section.",
+        "(i) An organic chemical(s) classified using the 1987 version of SIC code 282, 283, 284, 285, 286, 287, 289, or 386, except as provided in paragraph (c)(5) of this section.",
+        "(ii) An organic chemical(s) classified using the 1997 version of NAICS code 325, except as provided in paragraph (c)(5) of this section.",
+        "(iii) Quaternary ammonium compounds and ammonium sulfate produced with caprolactam.",
+        "(iv) Hydrazine.",
+        "(v) Organic solvents classified in any of the SIC or NAICS codes listed in paragraph (b)(1)(i) or (ii) of this section that are recovered using nondedicated solvent recovery operations.",
+        "(2) The MCPU processes, uses, or generates any of the organic HAP listed in section 112(b) of the CAA or hydrogen halide and halogen HAP, as defined in § 63.2550.",
+        "(3) The MCPU is not an affected source or part of an affected source under another subpart of this part 63, except for process vents from batch operations within a chemical manufacturing process unit (CMPU), as identified in § 63.100(j)(4). For this situation, the MCPU is the same as the CMPU as defined in § 63.100, and you are subject only to the requirements for batch process vents in this subpart.",
+        "(c) The requirements in this subpart do not apply to the operations specified in paragraphs (c)(1) through (7) of this section.",
+        "(1) Research and development facilities, as defined in section 112(c)(7) of the CAA.",
+        "(2) The manufacture of ammonium sulfate as a by-product, if the slurry entering the by-product manufacturing process contains 50 parts per million by weight (ppmw) HAP or less or 10 ppmw benzene or less. You must retain information, data, and analysis to document the HAP concentration in the entering slurry in order to claim this exemption.",
+        "(3) The affiliated operations located at an affected source under subparts GG (National Emission Standards for Aerospace Manufacturing and Rework Facilities), KK (National Emission Standards for the Printing and Publishing Industry), JJJJ (NESHAP: Paper and Other Web Coating), MMMM (NESHAP: Surface Coating of Miscellaneous Metal Parts and Products), and SSSS (NESHAP: Surface Coating of Metal Coil) of this part. Affiliated operations include, but are not limited to, mixing or dissolving of coating ingredients; coating mixing for viscosity adjustment, color tint or additive blending, or pH adjustment; cleaning of coating lines and coating line parts; handling and storage of coatings and solvent; and conveyance and treatment of wastewater.",
+        "(4) Fabricating operations (such as spinning or compressing a solid polymer into its end use); compounding operations (in which blending, melting, and resolidification of a solid polymer product occur for the purpose of incorporating additives, colorants, or stabilizers); and extrusion and drawing operations (converting an already produced solid polymer into a different shape by melting or mixing the polymer and then forcing it or pulling it through an orifice to create an extruded product). An operation is not exempt if it involves processing with HAP solvent or if an intended purpose of the operation is to remove residual HAP monomer.",
+        "(5) Production activities described using the 1997 version of NAICS codes 325131, 325181, 325188 (except the requirements do apply to hydrazine), 325314, 325991 (except the requirements do apply to reformulating plastics resins from recycled plastics products), and 325992 (except the requirements do apply to photographic chemicals).",
+        "(6) Tall oil recovery systems.",
+        "(7) Carbon monoxide production.",
+        "(d) If the predominant use of a transfer rack loading arm or storage tank (including storage tanks in series) is associated with a miscellaneous organic chemical manufacturing process, and the loading arm or storage tank is not part of an affected source under a subpart of this part 63, then you must assign the loading arm or storage tank to the MCPU for that miscellaneous organic chemical manufacturing process. If the predominant use cannot be determined, then you may assign the loading arm or storage tank to any MCPU that shares it and is subject to this subpart. If the use varies from year to year, then you must base the determination on the utilization that occurred during the year preceding November 10, 2003 or, if the loading arm or storage tank was not in operation during that year, you must base the use on the expected use for the first 5-year period after startup. You must include the determination in the notification of compliance status report specified in § 63.2520(d). You must redetermine the primary use at least once every 5 years, or any time you implement emissions averaging or pollution prevention after the compliance date.",
+        "(e) For nondedicated equipment used to create at least one MCPU, you may elect to develop process unit groups (PUG), determine the primary product of each PUG, and comply with the requirements of the subpart in 40 CFR part 63 that applies to that primary product as specified in § 63.2535(l)."
+      ],
+      "cita": "[68 FR 63888, Nov. 10, 2003, as amended at 71 FR 40331, July 14, 2006; 85 FR 49132, Aug. 12, 2020]"
+    },
+    {
+      "id": "63.2440",
+      "heading": "What parts of my plant does this subpart cover?",
+      "paragraphs": [
+        "(a) This subpart applies to each miscellaneous organic chemical manufacturing affected source.",
+        "(b) The miscellaneous organic chemical manufacturing affected source is the facilitywide collection of MCPU and heat exchange systems, wastewater, and waste management units that are associated with manufacturing materials described in § 63.2435(b)(1).",
+        "(c) A new affected source is described by either paragraph (c)(1) or (2) of this section.",
+        "(1) Each affected source defined in paragraph (b) of this section for which you commenced construction or reconstruction after April 4, 2002, and you meet the applicability criteria at the time you commenced construction or reconstruction.",
+        "(2) Each dedicated MCPU that has the potential to emit 10 tons per year (tpy) of any one HAP or 25 tpy of combined HAP, and you commenced construction or reconstruction of the MCPU after April 4, 2002. For the purposes of this paragraph, an MCPU is an affected source in the definition of the term “reconstruction” in § 63.2.",
+        "(d) An MCPU that is also a CMPU under § 63.100 is reconstructed for the purposes of this subpart if, and only if, the CMPU meets the requirements for reconstruction in § 63.100(l)(2)."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2024-04-04",
+    "2023-03-08",
+    "2021-01-19",
+    "2020-11-19",
+    "2020-10-13",
+    "2020-08-12",
+    "2016-09-12"
+  ]
+}

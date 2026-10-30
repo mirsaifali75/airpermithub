@@ -1,0 +1,365 @@
+{
+  "title": 40,
+  "part": 63,
+  "subpart": "UUUUU",
+  "url": "https://www.ecfr.gov/current/title-40/part-63/subpart-UUUUU",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2026-06-15",
+  "hash": "362178d3ea1cb96f88bd31d84054bdf0637600664a69332dc116eec223cab085",
+  "heading": "National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units",
+  "fullHeading": "Subpart UUUUU—National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units",
+  "source": "77 FR 9464, Feb. 16, 2012, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "63.9980",
+      "heading": "What is the purpose of this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.9981",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.9982",
+      "heading": "What is the affected source of this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2020-04-15"
+    },
+    {
+      "id": "63.9983",
+      "heading": "Are any fossil fuel-fired electric generating units not subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.9984",
+      "heading": "When do I have to comply with this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2020-04-15"
+    },
+    {
+      "id": "63.9985",
+      "heading": "What is a new EGU?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.9990",
+      "heading": "What are the subcategories of EGUs?",
+      "group": "Emission Limitations and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2020-04-15"
+    },
+    {
+      "id": "63.9991",
+      "heading": "What emission limitations, work practice standards, and operating limits must I meet?",
+      "group": "Emission Limitations and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10000",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10001",
+      "heading": "[Reserved]",
+      "group": "General Compliance Requirements",
+      "kind": "reserved",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.10005",
+      "heading": "What are my initial compliance requirements and by what date must I conduct them?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10006",
+      "heading": "When must I conduct subsequent performance tests or tune-ups?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10007",
+      "heading": "What methods and other procedures must I use for the performance tests?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10008",
+      "heading": "[Reserved]",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "reserved",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.10009",
+      "heading": "May I use emissions averaging to comply with this subpart?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-09-09"
+    },
+    {
+      "id": "63.10010",
+      "heading": "What are my monitoring, installation, operation, and maintenance requirements?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10011",
+      "heading": "How do I demonstrate initial compliance with the emissions limits and work practice standards?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10020",
+      "heading": "How do I monitor and collect data to demonstrate continuous compliance?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10021",
+      "heading": "How do I demonstrate continuous compliance with the emission limitations, operating limits, and work practice standards?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10022",
+      "heading": "How do I demonstrate continuous compliance under the emissions averaging provision?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10023",
+      "heading": "How do I establish my PM CPMS operating limit and determine compliance with it?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10030",
+      "heading": "What notifications must I submit and when?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10031",
+      "heading": "What reports must I submit and when?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10032",
+      "heading": "What records must I keep?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2026-04-27"
+    },
+    {
+      "id": "63.10033",
+      "heading": "In what form and how long must I keep my records?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.10040",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.10041",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.10042",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2026-06-15"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart UUUUU of Part 63—Emission Limits for New or Reconstructed EGUs",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart UUUUU of Part 63—Emission Limits for Existing EGUs",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart UUUUU of Part 63—Work Practice Standards",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart UUUUU of Part 63—Operating Limits for EGUs",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart UUUUU of Part 63—Performance Testing Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart UUUUU of Part 63—Establishing PM CPMS Operating Limits",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart UUUUU of Part 63—Demonstrating Continuous Compliance",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 8 to Subpart UUUUU of Part 63—Reporting Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 9 to Subpart UUUUU of Part 63—Applicability of General Provisions to Subpart UUUUU",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Appendix A to Subpart UUUUU of Part 63—Hg Monitoring Provisions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Appendix B to Subpart UUUUU of Part 63—-HCl and HF Monitoring Provisions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Appendix C to Subpart UUUUU of Part 63—PM Monitoring Provisions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Appendix D to Subpart UUUUU of Part 63—PM CPMS Monitoring Provisions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Appendix E to Subpart UUUUU of Part 63—Data Elements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "63.9980",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "This subpart establishes national emission limitations and work practice standards for hazardous air pollutants (HAP) emitted from coal- and oil-fired electric utility steam generating units (EGUs) as defined in § 63.10042 of this subpart. This subpart also establishes requirements to demonstrate initial and continuous compliance with the emission limitations."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.9981",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "You are subject to this subpart if you own or operate a coal-fired EGU or an oil-fired EGU as defined in § 63.10042 of this subpart."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.9982",
+      "heading": "What is the affected source of this subpart?",
+      "paragraphs": [
+        "(a) This subpart applies to each individual or group of two or more new, reconstructed, or existing affected source(s) as described in paragraphs (a)(1) and (2) of this section within a contiguous area and under common control.",
+        "(1) The affected source of this subpart is the collection of all existing coal- or oil-fired EGUs, as defined in § 63.10042, within a subcategory.",
+        "(2) The affected source of this subpart is each new or reconstructed coal- or oil-fired EGU as defined in § 63.10042.",
+        "(b) An EGU is new if you commence construction of the coal- or oil-fired EGU after May 3, 2011.",
+        "(c) An EGU is reconstructed if you meet the reconstruction criteria as defined in § 63.2, and if you commence reconstruction after May 3, 2011.",
+        "(d) An EGU is existing if it is not new or reconstructed. An existing electric steam generating unit that meets the applicability requirements after April 16, 2012, due to a change in process (e.g., fuel or utilization) is considered to be an existing source under this subpart."
+      ],
+      "cita": "[77 FR 9464, Feb. 16, 2012, as amended at 77 FR 23402, Apr. 19, 2012; 78 FR 24084, Apr. 24, 2013; 85 FR 20850, Apr. 15, 2020]"
+    }
+  ],
+  "amendmentDates": [
+    "2026-06-15",
+    "2026-04-27",
+    "2026-04-16",
+    "2026-04-01",
+    "2026-02-24",
+    "2024-07-08",
+    "2024-05-07",
+    "2023-06-02",
+    "2023-05-30",
+    "2023-04-20",
+    "2023-03-29",
+    "2020-12-02",
+    "2020-10-07",
+    "2020-09-09",
+    "2020-04-15",
+    "2019-05-23",
+    "2019-05-15",
+    "2019-01-14",
+    "2018-11-21",
+    "2018-11-14",
+    "2018-07-02",
+    "2017-04-06",
+    "2016-12-22"
+  ]
+}

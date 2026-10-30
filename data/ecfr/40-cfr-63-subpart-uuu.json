@@ -1,0 +1,525 @@
+{
+  "title": 40,
+  "part": 63,
+  "subpart": "UUU",
+  "url": "https://www.ecfr.gov/current/title-40/part-63/subpart-UUU",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2023-03-08",
+  "hash": "2b9e25259a8cdc6633b29349bbbce3a83e7cb02fd653e9b7d84c5c371be1cd26",
+  "heading": "National Emission Standards for Hazardous Air Pollutants for Petroleum Refineries: Catalytic Cracking Units, Catalytic Reforming Units, and Sulfur Recovery Units",
+  "fullHeading": "Subpart UUU—National Emission Standards for Hazardous Air Pollutants for Petroleum Refineries: Catalytic Cracking Units, Catalytic Reforming Units, and Sulfur Recovery Units",
+  "source": "67 FR 17773, Apr. 11, 2002, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "63.1560",
+      "heading": "What is the purpose of this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1561",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1562",
+      "heading": "What parts of my plant are covered by this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1563",
+      "heading": "When do I have to comply with this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1564",
+      "heading": "What are my requirements for metal HAP emissions from catalytic cracking units?",
+      "group": "Catalytic Cracking Units, Catalytic Reforming Units, Sulfur Recovery Units, and Bypass Lines",
+      "kind": "section",
+      "lastAmended": "2017-11-26"
+    },
+    {
+      "id": "63.1565",
+      "heading": "What are my requirements for organic HAP emissions from catalytic cracking units?",
+      "group": "Catalytic Cracking Units, Catalytic Reforming Units, Sulfur Recovery Units, and Bypass Lines",
+      "kind": "section",
+      "lastAmended": "2017-11-26"
+    },
+    {
+      "id": "63.1566",
+      "heading": "What are my requirements for organic HAP emissions from catalytic reforming units?",
+      "group": "Catalytic Cracking Units, Catalytic Reforming Units, Sulfur Recovery Units, and Bypass Lines",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1567",
+      "heading": "What are my requirements for inorganic HAP emissions from catalytic reforming units?",
+      "group": "Catalytic Cracking Units, Catalytic Reforming Units, Sulfur Recovery Units, and Bypass Lines",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1568",
+      "heading": "What are my requirements for HAP emissions from sulfur recovery units?",
+      "group": "Catalytic Cracking Units, Catalytic Reforming Units, Sulfur Recovery Units, and Bypass Lines",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1569",
+      "heading": "What are my requirements for HAP emissions from bypass lines?",
+      "group": "Catalytic Cracking Units, Catalytic Reforming Units, Sulfur Recovery Units, and Bypass Lines",
+      "kind": "section",
+      "lastAmended": "2017-11-26"
+    },
+    {
+      "id": "63.1570",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1571",
+      "heading": "How and when do I conduct a performance test or other initial compliance demonstration?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2017-11-26"
+    },
+    {
+      "id": "63.1572",
+      "heading": "What are my monitoring installation, operation, and maintenance requirements?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2017-11-26"
+    },
+    {
+      "id": "63.1573",
+      "heading": "What are my monitoring alternatives?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2017-11-26"
+    },
+    {
+      "id": "63.1574",
+      "heading": "What notifications must I submit and when?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2021-01-19"
+    },
+    {
+      "id": "63.1575",
+      "heading": "What reports must I submit and when?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2017-11-26"
+    },
+    {
+      "id": "63.1576",
+      "heading": "What records must I keep, in what form, and for how long?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2017-11-26"
+    },
+    {
+      "id": "63.1577",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1578",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.1579",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart UUU of Part 63—Metal HAP Emission Limits for Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart UUU of Part 63—Operating Limits for Metal HAP Emissions From Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart UUU of Part 63—Continuous Monitoring Systems for Metal HAP Emissions From Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart UUU of Part 63—Requirements for Performance Tests for Metal HAP Emissions From Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart UUU of Part 63—Initial Compliance With Metal HAP Emission Limits for Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart UUU of Part 63—Continuous Compliance With Metal HAP Emission Limits for Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart UUU of Part 63—Continuous Compliance With Operating Limits for Metal HAP Emissions From Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 8 to Subpart UUU of Part 63—Organic HAP Emission Limits for Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 9 to Subpart UUU of Part 63—Operating Limits for Organic HAP Emissions From Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 10 to Subpart UUU of Part 63—Continuous Monitoring Systems for Organic HAP Emissions From Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 11 to Subpart UUU of Part 63—Requirements for Performance Tests for Organic HAP Emissions From Catalytic Cracking Units Not Subject to New Source Performance Standard (NSPS) for Carbon Monoxide (CO)",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 12 to Subpart UUU of Part 63—Initial Compliance With Organic HAP Emission Limits for Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 13 to Subpart UUU of Part 63—Continuous Compliance With Organic HAP Emission Limits for Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 14 to Subpart UUU of Part 63—Continuous Compliance With Operating Limits for Organic HAP Emissions From Catalytic Cracking Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 15 to Subpart UUU of Part 63—Organic HAP Emission Limits for Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 16 to Subpart UUU of Part 63—Operating Limits for Organic HAP Emissions From Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 17 to Subpart UUU of Part 63—Continuous Monitoring Systems for Organic HAP Emissions From Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 18 to Subpart UUU of Part 63—Requirements for Performance Tests for Organic HAP Emissions From Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 19 to Subpart UUU of Part 63—Initial Compliance With Organic HAP Emission Limits for Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 20 to Subpart UUU of Part 63—Continuous Compliance With Organic HAP Emission Limits for Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 21 to Subpart UUU of Part 63—Continuous Compliance With Operating Limits for Organic HAP Emissions From Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 22 to Subpart UUU of Part 63—Inorganic HAP Emission Limits for Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 23 to Subpart UUU of Part 63—Operating Limits for Inorganic HAP Emission Limitations for Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 24 to Subpart UUU of Part 63—Continuous Monitoring Systems for Inorganic HAP Emissions From Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 25 to Subpart UUU of Part 63—Requirements for Performance Tests for Inorganic HAP Emissions From Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 26 to Subpart UUU of Part 63—Initial Compliance With Inorganic HAP Emission Limits for Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 27 to Subpart UUU of Part 63—Continuous Compliance With Inorganic HAP Emission Limits for Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 28 to Subpart UUU of Part 63—Continuous Compliance With Operating Limits for Inorganic HAP Emissions From Catalytic Reforming Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 29 to Subpart UUU of Part 63—HAP Emission Limits for Sulfur Recovery Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 30 to Subpart UUU of Part 63—Operating Limits for HAP Emissions From Sulfur Recovery Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 31 to Subpart UUU of Part 63—Continuous Monitoring Systems for HAP Emissions From Sulfur Recovery Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 32 to Subpart UUU of Part 63—Requirements for Performance Tests for HAP Emissions From Sulfur Recovery Units Not Subject to the New Source Performance Standards for Sulfur Oxides",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 33 to Subpart UUU of Part 63—Initial Compliance With HAP Emission Limits for Sulfur Recovery Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 34 to Subpart UUU of Part 63—Continuous Compliance With HAP Emission Limits for Sulfur Recovery Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 35 to Subpart UUU of Part 63—Continuous Compliance With Operating Limits for HAP Emissions From Sulfur Recovery Units",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 36 to Subpart UUU of Part 63—Work Practice Standards for HAP Emissions From Bypass Lines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 37 to Subpart UUU of Part 63—Requirements for Performance Tests for Bypass Lines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 38 to Subpart UUU of Part 63—Initial Compliance With Work Practice Standards for HAP Emissions From Bypass Lines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 39 to Subpart UUU of Part 63—Continuous Compliance With Work Practice Standards for HAP Emissions From Bypass Lines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 40 to Subpart UUU of Part 63—Requirements for Installation, Operation, and Maintenance of Continuous Opacity Monitoring Systems and Continuous Emission Monitoring Systems",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 41 to Subpart UUU of Part 63—Requirements for Installation, Operation, and Maintenance of Continuous Parameter Monitoring Systems",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 42 to Subpart UUU of Part 63—Additional Information for Initial Notification of Compliance Status",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 43 to Subpart UUU of Part 63—Requirements for Reports",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 44 to Subpart UUU of Part 63—Applicability of NESHAP General Provisions to Subpart UUU",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Appendix A to Subpart UUU of Part 63—Determination of Metal Concentration on Catalyst Particles (Instrumental Analyzer Procedure)",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "63.1560",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "This subpart establishes national emission standards for hazardous air pollutants (HAP) emitted from petroleum refineries. This subpart also establishes requirements to demonstrate initial and continuous compliance with the emission limitations and work practice standards."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.1561",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "(a) You are subject to this subpart if you own or operate a petroleum refinery that is located at a major source of HAP emissions.",
+        "(1) A petroleum refinery is an establishment engaged primarily in petroleum refining as defined in the Standard Industrial Classification (SIC) code 2911 and the North American Industry Classification (NAIC) code 32411, and used mainly for:",
+        "(i) Producing transportation fuels (such as gasoline, diesel fuels, and jet fuels), heating fuels (such as kerosene, fuel gas distillate, and fuel oils), or lubricants;",
+        "(ii) Separating petroleum; or",
+        "(iii) Separating, cracking, reacting, or reforming an intermediate petroleum stream, or recovering a by-product(s) from the intermediate petroleum stream (e.g., sulfur recovery).",
+        "(2) A major source of HAP is a plant site that emits or has the potential to emit any single HAP at a rate of 9.07 megagrams (10 tons) or more per year or any combination of HAP at a rate of 22.68 megagrams (25 tons) or more per year.",
+        "(b) [Reserved]"
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.1562",
+      "heading": "What parts of my plant are covered by this subpart?",
+      "paragraphs": [
+        "(a) This subpart applies to each new, reconstructed, or existing affected source at a petroleum refinery.",
+        "(b) The affected sources are:",
+        "(1) The process vent or group of process vents on fluidized catalytic cracking units that are associated with regeneration of the catalyst used in the unit (i.e., the catalyst regeneration flue gas vent).",
+        "(2) The process vent or group of process vents on catalytic reforming units (including but not limited to semi-regenerative, cyclic, or continuous processes) that are associated with regeneration of the catalyst used in the unit. This affected source includes vents that are used during the unit depressurization, purging, coke burn, and catalyst rejuvenation.",
+        "(3) The process vent or group of process vents on Claus or other types of sulfur recovery plant units or the tail gas treatment units serving sulfur recovery plants that are associated with sulfur recovery.",
+        "(4) Each bypass line serving a new, existing, or reconstructed catalytic cracking unit, catalytic reforming unit, or sulfur recovery unit. This means each vent system that contains a bypass line (e.g., ductwork) that could divert an affected vent stream away from a control device used to comply with the requirements of this subpart.",
+        "(c) An affected source is a new affected source if you commence construction of the affected source after September 11, 1998, and you meet the applicability criteria in § 63.1561 at the time you commenced construction.",
+        "(d) Any affected source is reconstructed if you meet the criteria in § 63.2.",
+        "(e) An affected source is existing if it is not new or reconstructed.",
+        "(f) This subpart does not apply to:",
+        "(1) A thermal catalytic cracking unit.",
+        "(2) A sulfur recovery unit that does not recover elemental sulfur or where the modified reaction is carried out in a water solution which contains a metal ion capable of oxidizing the sulfide ion to sulfur (e.g., the LO-CAT II process).",
+        "(3) A redundant sulfur recovery unit not located at a petroleum refinery and used by the refinery only for emergency or maintenance backup.",
+        "(4) Equipment associated with bypass lines such as low leg drains, high point bleed, analyzer vents, open-ended valves or lines, or pressure relief valves needed for safety reasons.",
+        "(5) Gaseous streams routed to a fuel gas system, provided that on and after January 30, 2019, any flares receiving gas from the fuel gas system are subject to § 63.670."
+      ],
+      "cita": "[67 FR 17773, Apr. 11, 2002, as amended at 70 FR 6938, Feb. 9, 2005; 80 FR 75273, Dec. 1, 2015]"
+    }
+  ],
+  "amendmentDates": [
+    "2023-03-08",
+    "2021-01-19",
+    "2020-11-19",
+    "2020-02-04",
+    "2017-11-26",
+    "2017-10-16",
+    "2016-09-12"
+  ]
+}

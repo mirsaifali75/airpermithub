@@ -1,0 +1,100 @@
+{
+  "title": 40,
+  "part": 98,
+  "subpart": "D",
+  "url": "https://www.ecfr.gov/current/title-40/part-98/subpart-D",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2017-01-01",
+  "hash": "2f8b975eceef187466cabb691e2438aec418b84e05eddfc86ebba01d6f35fc00",
+  "heading": "Electricity Generation",
+  "fullHeading": "Subpart D—Electricity Generation",
+  "source": null,
+  "sections": [
+    {
+      "id": "98.40",
+      "heading": "Definition of the source category.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.41",
+      "heading": "Reporting threshold.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.42",
+      "heading": "GHGs to report.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.43",
+      "heading": "Calculating GHG emissions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.44",
+      "heading": "Monitoring and QA/QC requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.45",
+      "heading": "Procedures for estimating missing data.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.46",
+      "heading": "Data reporting requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.47",
+      "heading": "Records that must be retained.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.48",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "98.40",
+      "heading": "Definition of the source category.",
+      "paragraphs": [
+        "(a) The electricity generation source category comprises electricity generating units that are subject to the requirements of the Acid Rain Program and any other electricity generating units that are required to monitor and report to EPA CO2 mass emissions year-round according to 40 CFR part 75.",
+        "(b) This source category does not include portable equipment, emergency equipment, or emergency generators, as defined in § 98.6."
+      ],
+      "cita": "[74 FR 56374, Oct. 30, 2009, as amended at 75 FR 79155, Dec. 17, 2010]"
+    },
+    {
+      "id": "98.41",
+      "heading": "Reporting threshold.",
+      "paragraphs": [
+        "You must report GHG emissions under this subpart if your facility contains one or more electricity generating units and the facility meets the requirements of § 98.2(a)(1)."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2017-01-01"
+  ]
+}
