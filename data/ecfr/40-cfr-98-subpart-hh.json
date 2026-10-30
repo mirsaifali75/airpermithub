@@ -1,0 +1,139 @@
+{
+  "title": 40,
+  "part": 98,
+  "subpart": "HH",
+  "url": "https://www.ecfr.gov/current/title-40/part-98/subpart-HH",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2025-09-29",
+  "hash": "73829d4d93ea4ba1497ad6d20d4f5e64cfb6fd723d4d348f2163eccc87bd5e38",
+  "heading": "Municipal Solid Waste Landfills",
+  "fullHeading": "Subpart HH—Municipal Solid Waste Landfills",
+  "source": null,
+  "sections": [
+    {
+      "id": "98.340",
+      "heading": "Definition of the source category.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.341",
+      "heading": "Reporting threshold.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.342",
+      "heading": "GHGs to report.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.343",
+      "heading": "Calculating GHG emissions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.344",
+      "heading": "Monitoring and QA/QC requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.345",
+      "heading": "Procedures for estimating missing data.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.346",
+      "heading": "Data reporting requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-09-29"
+    },
+    {
+      "id": "98.347",
+      "heading": "Records that must be retained.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.348",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": null,
+      "heading": "Table HH-1 to Subpart HH of Part 98—Emissions Factors, Oxidation Factors and Methods",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table HH-2 to Subpart HH of Part 98—U.S. Per Capita Waste Disposal Rates",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table HH-3 to Subpart HH of Part 98—Landfill Gas Collection Efficiencies",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table HH-4 to Subpart HH of Part 98—Landfill Methane Oxidation Fractions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "98.340",
+      "heading": "Definition of the source category.",
+      "paragraphs": [
+        "(a) This source category applies to municipal solid waste (MSW) landfills that accepted waste on or after January 1, 1980, unless all three of the following conditions apply.",
+        "(1) The MSW landfill did not receive waste on or after January 1, 2013.",
+        "(2) The MSW landfill had CH4 generation as determined using Equation HH-5 and, if applicable, Equation HH-7 of this subpart of less than 1,190 metric tons of CH4 in the 2013 reporting year.",
+        "(3) The owner or operator of the MSW landfill was not required to submit an annual report under any requirement of this part in any reporting year prior to 2013.",
+        "(b) This source category does not include Resource Conservation and Recovery Act (RCRA) Subtitle C or Toxic Substances Control Act (TSCA) hazardous waste landfills, construction and demolition waste landfills, or industrial waste landfills.",
+        "(c) This source category consists of the following sources at municipal solid waste (MSW) landfills: Landfills, landfill gas collection systems, and landfill gas destruction devices (including flares)."
+      ],
+      "cita": "[74 FR 56374, Oct. 30, 2009, as amended at 75 FR 66470, Oct. 28, 2010; 78 FR 71968, Nov. 29, 2013]"
+    },
+    {
+      "id": "98.341",
+      "heading": "Reporting threshold.",
+      "paragraphs": [
+        "You must report GHG emissions under this subpart if your facility contains a MSW landfill and the facility meets the requirements of § 98.2(a)(1)."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2025-09-29",
+    "2025-01-01",
+    "2024-04-25",
+    "2019-01-01",
+    "2017-08-14",
+    "2017-07-17",
+    "2017-03-06",
+    "2017-01-01"
+  ]
+}

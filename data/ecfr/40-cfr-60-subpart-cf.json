@@ -1,0 +1,108 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "Cf",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-Cf",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2020-03-26",
+  "hash": "f466dc048ad175b6ef5adfd8136aa3872d4849ae28c709544c1232498d0cc48a",
+  "heading": "Emission Guidelines and Compliance Times for Municipal Solid Waste Landfills",
+  "fullHeading": "Subpart Cf—Emission Guidelines and Compliance Times for Municipal Solid Waste Landfills",
+  "source": "81 FR 59313, Aug. 29, 2016, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.30f",
+      "heading": "Scope and delegated authorities.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2019-09-06"
+    },
+    {
+      "id": "60.31f",
+      "heading": "Designated facilities.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.32f",
+      "heading": "Compliance times.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.33f",
+      "heading": "Emission Guidelines for municipal solid waste landfill emissions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-07-10"
+    },
+    {
+      "id": "60.34f",
+      "heading": "Operational standards for collection and control systems.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.35f",
+      "heading": "Test methods and procedures.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.36f",
+      "heading": "Compliance provisions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.37f",
+      "heading": "Monitoring of operations.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.38f",
+      "heading": "Reporting guidelines.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.39f",
+      "heading": "Recordkeeping guidelines.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.40f",
+      "heading": "Specifications for active collection systems.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.41f",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    }
+  ],
+  "quotes": [],
+  "amendmentDates": [
+    "2020-03-26",
+    "2019-09-06",
+    "2019-08-26",
+    "2019-08-16",
+    "2017-07-10",
+    "2016-10-31"
+  ]
+}

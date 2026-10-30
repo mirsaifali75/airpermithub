@@ -1,0 +1,150 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "TTTT",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-TTTT",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2026-09-17",
+  "hash": "30bba0d5d2605b9860e43d120ed8fab39ce086b79b7ea446c308b535e826893d",
+  "heading": "Standards of Performance for Greenhouse Gas Emissions for Electric Generating Units",
+  "fullHeading": "Subpart TTTT—Standards of Performance for Greenhouse Gas Emissions for Electric Generating Units",
+  "source": "80 FR 64648, Oct. 23, 2015, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.5508",
+      "heading": "What is the purpose of this subpart?",
+      "group": "Applicability",
+      "kind": "section",
+      "lastAmended": "2026-09-17"
+    },
+    {
+      "id": "60.5509",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "Applicability",
+      "kind": "section",
+      "lastAmended": "2024-07-08"
+    },
+    {
+      "id": "60.5515",
+      "heading": "Which pollutants are regulated by this subpart?",
+      "group": "Emission Standards",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.5520",
+      "heading": "What CO2 emissions standard must I meet?",
+      "group": "Emission Standards",
+      "kind": "section",
+      "lastAmended": "2024-07-08"
+    },
+    {
+      "id": "60.5525",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-07-08"
+    },
+    {
+      "id": "60.5535",
+      "heading": "How do I monitor and collect data to demonstrate compliance?",
+      "group": "Monitoring and Compliance Determination Procedures",
+      "kind": "section",
+      "lastAmended": "2024-07-08"
+    },
+    {
+      "id": "60.5540",
+      "heading": "How do I demonstrate compliance with my CO2 emissions standard and determine excess emissions?",
+      "group": "Monitoring and Compliance Determination Procedures",
+      "kind": "section",
+      "lastAmended": "2024-07-08"
+    },
+    {
+      "id": "60.5550",
+      "heading": "What notifications must I submit and when?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.5555",
+      "heading": "What reports must I submit and when?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-07-08"
+    },
+    {
+      "id": "60.5560",
+      "heading": "What records must I maintain?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-07-08"
+    },
+    {
+      "id": "60.5565",
+      "heading": "In what form and how long must I keep my records?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.5570",
+      "heading": "What parts of the general provisions apply to my affected EGU?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.5575",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.5580",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2026-09-17"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart TTTT of Part 60—CO2 Emission Standards for Affected Steam Generating Units and Integrated Gasification Combined Cycle Facilities That Commenced Construction After January 8, 2014, and Reconstruction or Modification After June 18, 2014",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart TTTT of Part 60—CO2 Emission Standards for Affected Stationary Combustion Turbines That Commenced Construction After January 8, 2014, and Reconstruction After June 18, 2014 (Net Energy Output-Based Standards Applicable as Approved by the Administrator)",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart TTTT of Part 60—Applicability of Subpart A of Part 60 (General Provisions) to Subpart TTTT",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.5508",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "This subpart establishes emission standards and compliance schedules for the control of greenhouse gas (GHG) emissions from a steam generating unit or an integrated gasification combined cycle (IGCC) facility that commences construction after January 8, 2014, commences reconstruction after June 18, 2014, or commences modification after January 8, 2014, but on or before May 23, 2023. This subpart also establishes emission standards and compliance schedules for the control of GHG emissions from a stationary combustion turbine that commences construction after January 8, 2014, but on or before May 23, 2023, or commences reconstruction after June 18, 2014, but on or before May 23, 2023. An affected steam generating unit, IGCC, or stationary combustion turbine shall, for the purposes of this subpart, be referred to as an affected electric generating unit (EGU)."
+      ],
+      "cita": "[89 FR 40028, May 9, 2024]"
+    }
+  ],
+  "amendmentDates": [
+    "2026-09-17",
+    "2024-07-08",
+    "2024-05-09",
+    "2016-12-23"
+  ]
+}

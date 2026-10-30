@@ -1,0 +1,95 @@
+{
+  "title": 40,
+  "part": 98,
+  "subpart": "Y",
+  "url": "https://www.ecfr.gov/current/title-40/part-98/subpart-Y",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2025-01-01",
+  "hash": "0541de00f0da813a8d8326a8063e07598641c69a9ff09d0245c3a361079602b5",
+  "heading": "Petroleum Refineries",
+  "fullHeading": "Subpart Y—Petroleum Refineries",
+  "source": null,
+  "sections": [
+    {
+      "id": "98.250",
+      "heading": "Definition of source category.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.251",
+      "heading": "Reporting threshold.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.252",
+      "heading": "GHGs to report.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.253",
+      "heading": "Calculating GHG emissions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.254",
+      "heading": "Monitoring and QA/QC requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.255",
+      "heading": "Procedures for estimating missing data.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.256",
+      "heading": "Data reporting requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.257",
+      "heading": "Records that must be retained.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.258",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "98.251",
+      "heading": "Reporting threshold.",
+      "paragraphs": [
+        "You must report GHG emissions under this subpart if your facility contains a petroleum refineries process and the facility meets the requirements of either § 98.2(a)(1) or (a)(2)."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2025-01-01",
+    "2024-04-25",
+    "2019-01-01",
+    "2017-03-06",
+    "2017-01-01"
+  ]
+}

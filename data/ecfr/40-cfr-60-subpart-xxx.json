@@ -1,0 +1,105 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "XXX",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-XXX",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2022-02-14",
+  "hash": "ac67c25dfe8c8f9758dc40d3c2606df0ffe9788c1db4b3915b375e2bbcc12bf3",
+  "heading": "Standards of Performance for Municipal Solid Waste Landfills That Commenced Construction, Reconstruction, or Modification After July 17, 2014",
+  "fullHeading": "Subpart XXX—Standards of Performance for Municipal Solid Waste Landfills That Commenced Construction, Reconstruction, or Modification After July 17, 2014",
+  "source": "81 FR 59368, Aug. 29, 2016, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.760",
+      "heading": "Applicability, designation of affected source, and delegation of authority.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.761",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2022-02-14"
+    },
+    {
+      "id": "60.762",
+      "heading": "Standards for air emissions from municipal solid waste landfills.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2022-02-14"
+    },
+    {
+      "id": "60.763",
+      "heading": "Operational standards for collection and control systems.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.764",
+      "heading": "Test methods and procedures.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.765",
+      "heading": "Compliance provisions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.766",
+      "heading": "Monitoring of operations.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-12-07"
+    },
+    {
+      "id": "60.767",
+      "heading": "Reporting requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2022-02-14"
+    },
+    {
+      "id": "60.768",
+      "heading": "Recordkeeping requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.769",
+      "heading": "Specifications for active collection systems.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.760",
+      "heading": "Applicability, designation of affected source, and delegation of authority.",
+      "paragraphs": [
+        "(a) The provisions of this subpart apply to each municipal solid waste landfill that commenced construction, reconstruction, or modification after July 17, 2014. Physical or operational changes made to an MSW landfill solely to comply with subparts Cc, Cf, or WWW of this part are not considered construction, reconstruction, or modification for the purposes of this section.",
+        "(b) The following authorities are retained by the Administrator and are not transferred to the state: § 60.764(a)(5).",
+        "(c) Activities required by or conducted pursuant to a Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), Resource Conservation and Recovery Act (RCRA), or state remedial action are not considered construction, reconstruction, or modification for purposes of this subpart."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2022-02-14",
+    "2020-12-07",
+    "2020-10-07",
+    "2020-03-26",
+    "2017-08-29",
+    "2016-12-23"
+  ]
+}
