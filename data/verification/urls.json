@@ -1,0 +1,5206 @@
+{
+ "https://adem.alabama.gov/air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air | Alabama Department of Environmental Management",
+  "textLength": 5554
+ },
+ "https://adem.alabama.gov/air/air-permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting | Alabama Department of Environmental Management",
+  "textLength": 19331
+ },
+ "https://www.jcdh.org/SitePages/Programs-Services/EnvironmentalHealth/Air-RadiationProtectionDivision/RegAirFac.aspx": {
+  "status": 0,
+  "textLength": 0,
+  "error": "CERT_HAS_EXPIRED"
+ },
+ "https://www.huntsvilleal.gov/environment/air-quality/air-quality-permits/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permits - City of Huntsville",
+  "textLength": 2792
+ },
+ "https://adem.alabama.gov/sites/default/files/2025-10/Division3.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 1757029
+ },
+ "https://adem.alabama.gov/air/forms": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Forms | Alabama Department of Environmental Management",
+  "textLength": 5959
+ },
+ "https://adem.alabama.gov/sites/default/files/legacyfiles/DeptForms/Form103.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 8218
+ },
+ "https://adem.alabama.gov/sites/default/files/2025-04/Form105.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 9500
+ },
+ "https://adem.alabama.gov/sites/default/files/legacyfiles/DeptForms/Form107.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 12202
+ },
+ "https://adem.alabama.gov/sites/default/files/legacyfiles/DeptForms/Form108.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 16920
+ },
+ "https://adem.alabama.gov/sites/default/files/legacyfiles/DeptForms/Form110.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 7696
+ },
+ "https://adem.alabama.gov/sites/default/files/legacyfiles/programs/air/airforms/AnnualComplianceCertificationForm.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5471
+ },
+ "https://adem.alabama.gov/sites/default/files/2025-04/airappreq.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5811
+ },
+ "https://adem.alabama.gov/sites/default/files/2025-04/titlevlists.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 20347
+ },
+ "https://epa.gov/caa-permitting/clean-air-act-permitting-alabama": {
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-alabama",
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in Alabama | US EPA",
+  "textLength": 4570
+ },
+ "https://app.adem.alabama.gov/eFile/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eFile: Main",
+  "textLength": 30288
+ },
+ "https://dec.alaska.gov/air/air-permit/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/air/air-permit/guidance/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://www.muni.org/Departments/Fire/Wildfire/Pages/BurnPermits.aspx": {
+  "status": 404,
+  "type": "text/html",
+  "title": "404",
+  "textLength": 9131
+ },
+ "https://dec.alaska.gov/air/air-permit/construction-minor-applications/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/air/air-permit/general-permits/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/air/air-permit/orl-pael-application/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/air/air-permit/orl-pael-application/pael-notice-guidance/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/air/air-permit/operating-application/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/air/air-permit/open-burn-application/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/media/b1kj1lr4/18-aac-50.pdf": {
+  "status": 403,
+  "finalUrl": "https://dec.alaska.gov/commish/regulations/18-aac-50",
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/media/8452/46-14-2009-statutes-070710.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 117752
+ },
+ "https://dec.alaska.gov/air/anpms/sip/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/media/11441/transfer-ownership-2018.pdf": {
+  "status": 404,
+  "type": "",
+  "textLength": 0
+ },
+ "https://dec.alaska.gov/media/6689/stp-form.pdf": {
+  "status": 404,
+  "type": "",
+  "textLength": 0
+ },
+ "https://dec.alaska.gov/media/7327/titlev-minor-revision-checklist.pdf": {
+  "status": 404,
+  "type": "",
+  "textLength": 0
+ },
+ "https://dec.alaska.gov/media/9103/mg1-notification-form-revision-1-111610.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 8164
+ },
+ "https://dec.alaska.gov/air/air-permit/policies": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/air/air-permit/standard-conditions/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/air/air-permit/permit-regulations/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/applications/air/airtoolsweb/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://dec.alaska.gov/applications/DAS/OPC/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "alaska.gov",
+  "textLength": 54
+ },
+ "https://azdeq.gov/air-permits-comp": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://www.azdeq.gov/node/6372": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://www.maricopa.gov/1244/Air-Quality": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality | Maricopa County, AZ",
+  "textLength": 4887
+ },
+ "https://webcms.pima.gov/government/environmental_quality/air/": {
+  "status": 404,
+  "finalUrl": "https://www.pima.gov/government/environmental_quality/air",
+  "type": "text/html",
+  "title": "Pima County, AZ",
+  "textLength": 875
+ },
+ "http://www.pinalcountyaz.gov/AirQuality/Pages/home.aspx": {
+  "status": 403,
+  "finalUrl": "https://www.pinal.gov/305/Air-Quality",
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 771
+ },
+ "https://www.epa.gov/tribal-air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Tribal Air and Climate Resources | US EPA",
+  "textLength": 3619
+ },
+ "https://azdeq.gov/node/3446": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://azdeq.gov/node/446": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://azdeq.gov/air-permit-classifications-defined": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://azdeq.gov/LawsAndRules": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://static.azdeq.gov/forms/classI_app.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://static.azdeq.gov/forms/classII_app.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "http://static.azdeq.gov/forms/aq_determination.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://legacy.azdeq.gov/environ/air/permits/download/reg_app.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://legacy.azdeq.gov/environ/air/permits/download/ect.xls": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://azdeq.gov/forms": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://static.azdeq.gov/aqd/minor_nsr_guid.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://static.azdeq.gov/aqd/modeling_guidance.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://static.azdeq.gov/aqd/aqpermit_top10_pres.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "http://static.azdeq.gov/aqd/aqd_class_fees.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://adeq.state.ar.us/air/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Office of Air Quality | DEQ",
+  "textLength": 5195
+ },
+ "https://adeq.state.ar.us/air/permits/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permits | DEQ",
+  "textLength": 9438
+ },
+ "https://adeq.state.ar.us/air/faq.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Frequently Asked Questions of the Office of Air Quality | DEQ",
+  "textLength": 51285
+ },
+ "https://adeq.state.ar.us/air/permits/instructions.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permit Applications Forms & Instructions | DEQ",
+  "textLength": 6923
+ },
+ "https://eportal.adeq.state.ar.us/webfiles/Air/General%20Permits/1868-AGP-000.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 46229
+ },
+ "https://adeq.state.ar.us/regs/files/reg19_final_160314.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 184685
+ },
+ "https://adeq.state.ar.us/regs/files/reg26_final_160314.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 106348
+ },
+ "https://eportal.adeq.state.ar.us/?FormTag=Air_Ext_RegMST5": {
+  "status": 200,
+  "finalUrl": "https://eportal.adeq.state.ar.us/app/",
+  "type": "text/html",
+  "title": "DEQ ePortal System - Department of Energy and Environment - Loading...",
+  "textLength": 128
+ },
+ "https://eportal.adeq.state.ar.us/?FormTag=Air_Ext_Transfer": {
+  "status": 200,
+  "finalUrl": "https://eportal.adeq.state.ar.us/app/",
+  "type": "text/html",
+  "title": "DEQ ePortal System - Department of Energy and Environment - Loading...",
+  "textLength": 128
+ },
+ "https://eportal.adeq.state.ar.us/?FormTag=Air_Ext_Misc": {
+  "status": 200,
+  "finalUrl": "https://eportal.adeq.state.ar.us/app/",
+  "type": "text/html",
+  "title": "DEQ ePortal System - Department of Energy and Environment - Loading...",
+  "textLength": 128
+ },
+ "https://adeq.state.ar.us/poa/enterprise-services/pdfs/air-permitting-introductory-guide.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 43933
+ },
+ "https://adeq.state.ar.us/air/permits/pdfs/oaq_permitting_faq.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 161126
+ },
+ "https://adeq.state.ar.us/air/planning/sip/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air State Implementation Plan Development | DEQ",
+  "textLength": 14355
+ },
+ "https://eportal.adeq.state.ar.us/?OrganizationCode=AIR": {
+  "status": 200,
+  "finalUrl": "https://eportal.adeq.state.ar.us/Home/e8f74e04-6779-45e1-99af-b8b3338f851c",
+  "type": "text/html",
+  "title": "DEQ ePortal System - Air Permits Branch",
+  "textLength": 7925
+ },
+ "https://ww2.arb.ca.gov/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "ERROR: The request could not be satisfied",
+  "textLength": 554
+ },
+ "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions": {
+  "status": 403,
+  "type": "text/html",
+  "title": "ERROR: The request could not be satisfied",
+  "textLength": 554
+ },
+ "https://ww2.arb.ca.gov/california-map-local-air-district-websites": {
+  "status": 403,
+  "type": "text/html",
+  "title": "ERROR: The request could not be satisfied",
+  "textLength": 554
+ },
+ "https://www.aqmd.gov/home/permits/understanding-scaqmd-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Understanding South Coast AQMD Permits",
+  "textLength": 6074
+ },
+ "https://www.epa.gov/caa-permitting/r9-tribal-minor-nsr": {
+  "status": 200,
+  "type": "text/html",
+  "title": "About Tribal Minor New Source Review Permitting in Region 9 | US EPA",
+  "textLength": 12470
+ },
+ "https://ww2.arb.ca.gov/current-air-district-rules": {
+  "status": 403,
+  "type": "text/html",
+  "title": "ERROR: The request could not be satisfied",
+  "textLength": 554
+ },
+ "https://www.epa.gov/caa-permitting/r9-delegation-and-psd-sip-approval-status": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permit Delegation and PSD SIP Approval Status in EPA's Pacific Southwest (Region 9) | US EPA",
+  "textLength": 11226
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-california": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in California | US EPA",
+  "textLength": 8824
+ },
+ "http://ww2.arb.ca.gov/sites/default/files/2024-05/2024OilandGasRegulationunofficial.pdf": {
+  "status": 200,
+  "finalUrl": "https://ww2.arb.ca.gov/sites/default/files/2024-05/2024OilandGasRegulationunofficial.pdf",
+  "type": "pdf",
+  "textLength": 265993
+ },
+ "https://ww2.arb.ca.gov/sites/default/files/2020-04/san_joaquin_valley_moa.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 31074
+ },
+ "https://epa.gov/air-quality-implementation-plans/epa-approved-south-coast-air-district-regulations-california-sip": {
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/air-quality-implementation-plans/epa-approved-scaqmd-regulations",
+  "type": "text/html",
+  "title": "EPA-Approved South Coast AQMD Regulations in the California SIP | US EPA",
+  "textLength": 54128
+ },
+ "https://www.epa.gov/caa-permitting/title-v-program-evaluations-pacific-southwest-region-9": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title V Program Evaluations in the Pacific Southwest (Region 9) | US EPA",
+  "textLength": 9034
+ },
+ "https://cdphe.colorado.gov/apcd": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Pollution Control | Colorado Department of Public Health and Environment",
+  "textLength": 10744
+ },
+ "https://cdphe.colorado.gov/apcd/apens-air-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "APENs and air permits | Colorado Department of Public Health and Environment",
+  "textLength": 32135
+ },
+ "https://cdphe.colorado.gov/apcd/apen-permitting-exemptions": {
+  "status": 200,
+  "type": "text/html",
+  "title": "APEN and permitting exemptions | Colorado Department of Public Health and Environment",
+  "textLength": 25459
+ },
+ "https://cdphe.colorado.gov/apcd/general-air-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "General air permits | Colorado Department of Public Health and Environment",
+  "textLength": 20771
+ },
+ "https://cdphe.colorado.gov/aqcc-regulations": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Control Commission regulations | Colorado Department of Public Health and Environment",
+  "textLength": 11712
+ },
+ "https://cdphe.colorado.gov/apcd/titlev": {
+  "status": 200,
+  "type": "text/html",
+  "title": "About Title V operating permits | Colorado Department of Public Health and Environment",
+  "textLength": 14225
+ },
+ "https://oitco.hylandcloud.com/cdphermpop/docpop/docpop.aspx?docid=63372084": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=11306945": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=11306935": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=11306940": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=11306947": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://cdphe.colorado.gov/apcd/oil-gas-compliance": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil and gas compliance and recordkeeping | Colorado Department of Public Health and Environment",
+  "textLength": 24093
+ },
+ "https://cdphe.colorado.gov/apcd/oil-gas-apens": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil and gas APENs | Colorado Department of Public Health and Environment",
+  "textLength": 16651
+ },
+ "https://cdphe.colorado.gov/apcd/ongaeir": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil and Natural Gas Annual Emission Inventory Reporting | Colorado Department of Public Health and Environment",
+  "textLength": 14315
+ },
+ "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=12452702": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=3088616": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://oitco.hylandcloud.com/CDPHERMPOP/DocPop/DocPop.aspx?docid=5309717": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://cdphe.colorado.gov/apcd/forms-guidance-oil-gas": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Index of forms and guidance for oil and gas | Colorado Department of Public Health and Environment",
+  "textLength": 17877
+ },
+ "https://cdphe.colorado.gov/apcd/guidance-non-oil-and-gas": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Index of forms and guidance for non-oil and gas | Colorado Department of Public Health and Environment",
+  "textLength": 16173
+ },
+ "https://oitco.hylandcloud.com/POP/DocPop/DocPop.aspx?docid=3273398": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://oitco.hylandcloud.com/POP/DocPop/DocPop.aspx?docid=20745201": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://cdphe.colorado.gov/air-permitting-guidance-memos": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air permitting guidance memos | Colorado Department of Public Health and Environment",
+  "textLength": 14791
+ },
+ "https://cdphe.colorado.gov/apens-and-air-permits/environmental-justice-in-air-permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Environmental justice in air permitting | Colorado Department of Public Health and Environment",
+  "textLength": 17225
+ },
+ "https://cdphe.colorado.gov/apcd/disproportionately-impacted-community-permitting-rule": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Disproportionately impacted community permitting rule | Colorado Department of Public Health and Environment",
+  "textLength": 20441
+ },
+ "https://cdphe.colorado.gov/apcd/modeling-guidance-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air quality modeling guidance for permits | Colorado Department of Public Health and Environment",
+  "textLength": 23079
+ },
+ "https://oitco.hylandcloud.com/CDPHERMPop/docpop/docpop.aspx?clienttype=html&docid=11722930": {
+  "status": 200,
+  "type": "text/html",
+  "title": "OnBase 24.1.4.1000",
+  "textLength": 18
+ },
+ "https://cdphe.colorado.gov/apcd/oil-and-gas-air-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil and gas air permits | Colorado Department of Public Health and Environment",
+  "textLength": 18827
+ },
+ "https://cdphe.colorado.gov/apcd/electronic-submission": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Electronic submission | Colorado Department of Public Health and Environment",
+  "textLength": 14066
+ },
+ "https://cdphe.colorado.gov/apcd/emissions-and-permitting-fees": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Emissions and permitting fees | Colorado Department of Public Health and Environment",
+  "textLength": 21258
+ },
+ "https://portal.ct.gov/deep/air/permits/air-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting & Inventory",
+  "textLength": 3712
+ },
+ "https://portal.ct.gov/DEEP/Air/Permits/Air-Permits--Frequently-Asked-Questions": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permits- Frequently Asked Questions",
+  "textLength": 31869
+ },
+ "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3a/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eRegulations - Browse Regulations of Connecticut State Agencies",
+  "textLength": 763
+ },
+ "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3b/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eRegulations - Browse Regulations of Connecticut State Agencies",
+  "textLength": 763
+ },
+ "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3c/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eRegulations - Browse Regulations of Connecticut State Agencies",
+  "textLength": 763
+ },
+ "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3d/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eRegulations - Browse Regulations of Connecticut State Agencies",
+  "textLength": 763
+ },
+ "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33a/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eRegulations - Browse Regulations of Connecticut State Agencies",
+  "textLength": 763
+ },
+ "https://portal.ct.gov/deep/permits-and-licenses/air-emissions-permits-and-general-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Emissions Permits and General Permits",
+  "textLength": 13651
+ },
+ "https://portal.ct.gov/DEEP/Air/Planning/Ozone/2008-Ozone-NAAQS-Reclassification": {
+  "status": 200,
+  "type": "text/html",
+  "title": "2008 Ozone NAAQS Reclassification",
+  "textLength": 4203
+ },
+ "https://portal.ct.gov/deep/air/permits/title-v-operating-permit-program": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title V Operating Permit Program",
+  "textLength": 37609
+ },
+ "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-1/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eRegulations - Browse Regulations of Connecticut State Agencies",
+  "textLength": 763
+ },
+ "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eRegulations - Browse Regulations of Connecticut State Agencies",
+  "textLength": 763
+ },
+ "https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33b/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eRegulations - Browse Regulations of Connecticut State Agencies",
+  "textLength": 763
+ },
+ "https://portal.ct.gov/deep/air/planning/regulations/air-regulations": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Regulations",
+  "textLength": 2865
+ },
+ "https://portal.ct.gov/-/media/deep/permits_and_licenses/air_emissions_permits/deep-nsr-inst-200_main-nsr.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 60030
+ },
+ "https://portal.ct.gov/-/media/DEEP/Permits_and_Licenses/Air_Emissions_Permits/DEEP-TV-INST-100_Title-V-Instructions.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 87526
+ },
+ "https://portal.ct.gov/DEEP/Air/Compliance-Assurance/Air-Compliance-Assurance---Forms": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Compliance Assurance - Forms",
+  "textLength": 15517
+ },
+ "https://portal.ct.gov/DEEP/Air/Permits/Air-Permitting-Assistance": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting Assistance",
+  "textLength": 7505
+ },
+ "https://portal.ct.gov/deep/air/modeling/dispersion": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Dispersion Modeling",
+  "textLength": 3599
+ },
+ "https://portal.ct.gov/-/media/deep/air/permits/air_permit_contact_sheet.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3050
+ },
+ "https://dnrec.delaware.gov/air/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Division of Air Quality - DNREC",
+  "textLength": 5291
+ },
+ "https://dnrec.delaware.gov/air/permitting/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permitting and Regulation - DNREC",
+  "textLength": 5687
+ },
+ "https://dnrec.delaware.gov/air/permitting/q-and-a/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Questions and Answers About Air Quality Permits - DNREC",
+  "textLength": 29112
+ },
+ "https://dnrec.delaware.gov/air/permitting/equipment-registration/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Contaminant Equipment Registration - DNREC",
+  "textLength": 4202
+ },
+ "https://regulations.delaware.gov/AdminCode/title7/1102": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Delaware Regulations",
+  "textLength": 20
+ },
+ "https://regulations.delaware.gov/AdminCode/title7/1125": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Delaware Regulations",
+  "textLength": 20
+ },
+ "https://dnrec.delaware.gov/air/permitting/major-air-sources/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title V: Major Air Sources - DNREC",
+  "textLength": 7932
+ },
+ "https://regulations.delaware.gov/AdminCode/title7/1101": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Delaware Regulations",
+  "textLength": 20
+ },
+ "https://regulations.delaware.gov/AdminCode/title7/1130": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Delaware Regulations",
+  "textLength": 20
+ },
+ "https://regulations.delaware.gov/AdminCode/title7/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Delaware Regulations",
+  "textLength": 20
+ },
+ "https://dnrec.delaware.gov/air/permitting/permit-applications/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permit Applications - DNREC",
+  "textLength": 10995
+ },
+ "https://documents.dnrec.delaware.gov/Air/Documents/title-v/AQM-1001.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4640
+ },
+ "https://documents.dnrec.delaware.gov/Air/Documents/title-v/Title-V-Instructions.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 29994
+ },
+ "https://documents.dnrec.delaware.gov/Air/Documents/title-v/semiannual/AQM-1001FF.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 8833
+ },
+ "https://documents.dnrec.delaware.gov/Air/permitting/Air-Permit-Application-Process.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 18856
+ },
+ "https://dnrec.delaware.gov/air/permitting/pre-application-review/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Pre-Application Review - DNREC",
+  "textLength": 6593
+ },
+ "https://dnrec.delaware.gov/air/permitting/generators/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Stationary Generator Emissions - DNREC",
+  "textLength": 8259
+ },
+ "https://dnrec.delaware.gov/air/permitting/emission-banking/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Emission Banking and Trading - DNREC",
+  "textLength": 5637
+ },
+ "https://dnrec.delaware.gov/admin-law/permit-fees/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "DNREC Permit Fees - DNREC",
+  "textLength": 29307
+ },
+ "https://doee.dc.gov/service/airpermits": {
+  "status": 200,
+  "finalUrl": "https://doee.dc.gov/service/apply-air-pollutant-permit",
+  "type": "text/html",
+  "title": "Apply for an Air Pollutant Permit | doee",
+  "textLength": 8124
+ },
+ "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/publication/attachments/Building%2C%20Air%20Quality%20Permitting.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5771
+ },
+ "https://doee.dc.gov/node/7702": {
+  "status": 200,
+  "finalUrl": "https://doee.dc.gov/publication/non-major-air-pollutant-source-construction-and-operation-permit-applications-%E2%80%93-air",
+  "type": "text/html",
+  "title": "Non-Major (Air Pollutant) Source Construction and Operation Permit Applications – Air Quality Forms | doee",
+  "textLength": 2949
+ },
+ "https://doee.dc.gov/node/7722": {
+  "status": 200,
+  "finalUrl": "https://doee.dc.gov/publication/major-air-pollutant-source-operating-permit-applications-forms-and-documents",
+  "type": "text/html",
+  "title": "Major Air Pollutant Source Operating Permit Applications, Forms, and Documents | doee",
+  "textLength": 1954
+ },
+ "https://doee.dc.gov/node/1548156": {
+  "status": 200,
+  "finalUrl": "https://doee.dc.gov/service/major-source-requirements-title-v-facilities",
+  "type": "text/html",
+  "title": "Major Source Requirements for Title V Facilities | doee",
+  "textLength": 6000
+ },
+ "http://www.dcregs.dc.gov/Gateway/ChapterHome.aspx?ChapterNumber=20-2": {
+  "status": 200,
+  "finalUrl": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=20-2",
+  "type": "text/html",
+  "title": "- DCRegs",
+  "textLength": 2224
+ },
+ "http://www.dcregs.dc.gov/Gateway/ChapterHome.aspx?ChapterNumber=20-3": {
+  "status": 200,
+  "finalUrl": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=20-3",
+  "type": "text/html",
+  "title": "- DCRegs",
+  "textLength": 1820
+ },
+ "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/publication/attachments/dcmr_chapter_2_0.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 25642
+ },
+ "https://octo.quickbase.com/db/brqt582ud": {
+  "status": 200,
+  "finalUrl": "https://octo.quickbase.com/nav/app/brqt582ud/action/appoverview",
+  "type": "text/html",
+  "title": "Air Quality Permit System - Air Quality Permit Application Submission Tool",
+  "textLength": 5988
+ },
+ "https://doee.dc.gov/node/28202": {
+  "status": 200,
+  "finalUrl": "https://doee.dc.gov/publication/general-requirements-obtain-approval-permit",
+  "type": "text/html",
+  "title": "General Requirements to Obtain Approval for a Permit | doee",
+  "textLength": 1655
+ },
+ "https://doee.dc.gov/sites/default/files/dc/sites/doee/service_content/attachments/AQD%20Permit%20Decommissioning%20Guidance.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4933
+ },
+ "https://floridadep.gov/air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Resource Management | Florida Department of Environmental Protection",
+  "textLength": 8743
+ },
+ "https://floridadep.gov/air/permitting-compliance/content/air-permit-review-section": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permit Review Section | Florida Department of Environmental Protection",
+  "textLength": 10091
+ },
+ "https://floridadep.gov/air/air-director/content/local-program-air-contacts": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Local Program Air Contacts | Florida Department of Environmental Protection",
+  "textLength": 9434
+ },
+ "https://floridadep.gov/sites/default/files/Do-I-need-an-air-permit.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4987
+ },
+ "https://floridadep.gov/air/permitting-compliance/content/air-general-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air General Permits | Florida Department of Environmental Protection",
+  "textLength": 9852
+ },
+ "https://floridadep.gov/sites/default/files/Air-Construction-Permits.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 11222
+ },
+ "https://floridadep.gov/sites/default/files/Air-Operation-Permits_0.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 9597
+ },
+ "https://floridadep.gov/air/permitting-compliance/content/reciprocating-internal-combustion-engines": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Reciprocating Internal Combustion Engines | Florida Department of Environmental Protection",
+  "textLength": 9051
+ },
+ "https://floridadep.gov/air/permitting-compliance/content/bulk-gasoline-plants": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Bulk Gasoline Plants | Florida Department of Environmental Protection",
+  "textLength": 8053
+ },
+ "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-4": {
+  "status": 200,
+  "type": "text/html",
+  "title": "62-4 : PERMITS - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+  "textLength": 2894
+ },
+ "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-204": {
+  "status": 200,
+  "type": "text/html",
+  "title": "62-204 : AIR POLLUTION CONTROL - GENERAL PROVISIONS - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+  "textLength": 1841
+ },
+ "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-210": {
+  "status": 200,
+  "type": "text/html",
+  "title": "62-210 : STATIONARY SOURCES - GENERAL REQUIREMENTS - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+  "textLength": 1817
+ },
+ "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-212": {
+  "status": 200,
+  "type": "text/html",
+  "title": "62-212 : STATIONARY SOURCES - PRECONSTRUCTION REVIEW - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+  "textLength": 1492
+ },
+ "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-213": {
+  "status": 200,
+  "type": "text/html",
+  "title": "62-213 : OPERATION PERMITS FOR MAJOR SOURCES OF AIR POLLUTION - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+  "textLength": 1928
+ },
+ "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-214": {
+  "status": 200,
+  "type": "text/html",
+  "title": "62-214 : REQUIREMENTS FOR SOURCES SUBJECT TO THE FEDERAL ACID RAIN PROGRAM - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+  "textLength": 1580
+ },
+ "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-296": {
+  "status": 200,
+  "type": "text/html",
+  "title": "62-296 : STATIONARY SOURCES - EMISSION STANDARDS - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+  "textLength": 4795
+ },
+ "https://flrules.org/gateway/ChapterHome.asp?Chapter=62-297": {
+  "status": 200,
+  "type": "text/html",
+  "title": "62-297 : STATIONARY SOURCES - EMISSIONS MONITORING - Florida Administrative Rules, Law, Code, Register - FAC, FAR, eRulemaking",
+  "textLength": 1580
+ },
+ "https://floridadep.gov/air/permitting-compliance/content/air-division-forms": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Division Forms | Florida Department of Environmental Protection",
+  "textLength": 8658
+ },
+ "https://floridadep.gov/sites/default/files/DEP_Form_62-210_900(1).pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 225227
+ },
+ "https://floridadep.gov/air/permitting-compliance/forms/application-transfer-air-permit-title-v-and-non-title-v-source": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Application for Transfer of Air Permit - Title V and Non-Title V Source | Florida Department of Environmental Protection",
+  "textLength": 6781
+ },
+ "https://floridadep.gov/air/permitting-compliance/content/changes-without-permit-revisions": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Changes Without Permit Revisions | Florida Department of Environmental Protection",
+  "textLength": 9856
+ },
+ "https://floridadep.gov/air/air-director/content/district-air-contacts": {
+  "status": 200,
+  "type": "text/html",
+  "title": "District Air Contacts | Florida Department of Environmental Protection",
+  "textLength": 5878
+ },
+ "https://floridadep.gov/air/air-business-planning/content/current-air-rules": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Current Air Rules | Florida Department of Environmental Protection",
+  "textLength": 6918
+ },
+ "http://www.fldepportal.com/go/": {
+  "status": 200,
+  "finalUrl": "https://www.fldepportal.com/go/",
+  "type": "text/html",
+  "title": "Home | DEP Business Portal",
+  "textLength": 26
+ },
+ "https://epd.georgia.gov/forms-permits/air-protection-branch-forms-permits/air-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permits | Environmental Protection Division",
+  "textLength": 7928
+ },
+ "https://epd.georgia.gov/apply-air-permit": {
+  "status": 200,
+  "finalUrl": "https://epd.georgia.gov/forms-permits/air-protection-branch-forms-permits/air-permits/apply-air-permit",
+  "type": "text/html",
+  "title": "Apply for an Air Permit | Environmental Protection Division",
+  "textLength": 5739
+ },
+ "https://epd.georgia.gov/sip-permit-exemptions": {
+  "status": 200,
+  "type": "text/html",
+  "title": "SIP Permit Exemptions | Environmental Protection Division",
+  "textLength": 23025
+ },
+ "https://epd.georgia.gov/permit-rule": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit-by-Rule | Environmental Protection Division",
+  "textLength": 4600
+ },
+ "https://epd.georgia.gov/generic-air-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Generic Air Permits | Environmental Protection Division",
+  "textLength": 2356
+ },
+ "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/state-implementation-plan-sip": {
+  "status": 200,
+  "type": "text/html",
+  "title": "State Implementation Plan (SIP) Permitting | Environmental Protection Division",
+  "textLength": 8693
+ },
+ "https://epd.georgia.gov/synthetic-minor-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Synthetic Minor Permits | Environmental Protection Division",
+  "textLength": 2886
+ },
+ "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/prevention-significant": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Prevention of Significant Deterioration (PSD) Permitting Resources | Environmental Protection Division",
+  "textLength": 7768
+ },
+ "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/title-v-permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title V Permitting | Environmental Protection Division",
+  "textLength": 9614
+ },
+ "https://epd.georgia.gov/document/document/rules-air-quality-control-0/download": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 827038
+ },
+ "https://epd.georgia.gov/forms-permits/air-protection-branch-forms-permits/air-permits/apply-air-permit/apply-sip": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Apply for SIP | Environmental Protection Division",
+  "textLength": 9413
+ },
+ "https://epd.georgia.gov/documents/ssppsip-no-permit-required-form": {
+  "status": 200,
+  "finalUrl": "https://epd.georgia.gov/ssppsip-no-permit-required-form",
+  "type": "text/html",
+  "title": "SSPP/sip-No Permit Required Form | Environmental Protection Division",
+  "textLength": 2233
+ },
+ "https://epd.georgia.gov/document/document/pdf-document/download": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4438
+ },
+ "https://epd.georgia.gov/document/document/comprehensive-title-v-application-instructions/download": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 20766
+ },
+ "https://epd.georgia.gov/air-protection-branch/air-branch-programs/permitting-program/permitting-program-frequently-asked": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permitting Program Frequently Asked Questions | Environmental Protection Division",
+  "textLength": 23555
+ },
+ "https://epd.georgia.gov/document/pdf/5-steps-determine-whether-your-facility-needs-air-permit/download": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 15669
+ },
+ "https://epd.georgia.gov/insignificant-activities-list": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Insignificant Activities List | Environmental Protection Division",
+  "textLength": 12371
+ },
+ "https://epd.georgia.gov/trivial-list": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Trivial List | Environmental Protection Division",
+  "textLength": 9769
+ },
+ "https://epd.georgia.gov/air-protection-branch-technical-guidance-0/types-air-quality-permits/greenhouse-gas-permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Greenhouse Gas Permitting | Environmental Protection Division",
+  "textLength": 9300
+ },
+ "https://geos.epd.georgia.gov/GA/GEOS/Public": {
+  "status": 200,
+  "finalUrl": "https://geos.epd.georgia.gov/GA/GEOS/Public/GovEnt/Shared/Pages/Main/Login.aspx",
+  "type": "text/html",
+  "title": "GEOS - Public",
+  "textLength": 10694
+ },
+ "https://epd.georgia.gov/document/document/air-permit-fee-manual2025/download": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 103850
+ },
+ "https://health.hawaii.gov/cab/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Branch – State of Hawaii, Department of Health",
+  "textLength": 13603
+ },
+ "https://health.hawaii.gov/cab/permit-application-forms/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit Application Forms – Clean Air Branch",
+  "textLength": 10617
+ },
+ "https://health.hawaii.gov/cab/files/2015/02/2015-01-APC-Instructions.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 23954
+ },
+ "https://health.hawaii.gov/cab/files/2023/03/HAR_11-60_1_RAMSEYER_2023_03_29.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 434126
+ },
+ "https://health.hawaii.gov/cab/files/2013/05/csp_all_initial.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 29561
+ },
+ "https://health.hawaii.gov/cab/files/2013/05/nsp_all_initial.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 19898
+ },
+ "https://www.deq.idaho.gov/air-quality/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality - Idaho Department of Environmental Quality",
+  "textLength": 5829
+ },
+ "https://www.deq.idaho.gov/permits/air-quality-permitting/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permitting - Idaho Department of Environmental Quality",
+  "textLength": 13756
+ },
+ "https://adminrules.idaho.gov/rules/current/58/580101.pdf": {
+  "status": 200,
+  "finalUrl": "https://files.dfm.idaho.gov/dfm-admin-website/rules/current/58/580101.pdf",
+  "type": "pdf",
+  "textLength": 483343
+ },
+ "https://www.deq.idaho.gov/permitting/air-quality-permitting/tier-i/": {
+  "status": 404,
+  "type": "text/html",
+  "title": "Page not found - Idaho Department of Environmental Quality",
+  "textLength": 5059
+ },
+ "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5189": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 28768
+ },
+ "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5212": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 24806
+ },
+ "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5191": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 120107
+ },
+ "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5204": {
+  "status": 200,
+  "type": "application/msword",
+  "textLength": 0
+ },
+ "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5250": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 145683
+ },
+ "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/5962": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 179720
+ },
+ "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/22214": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5491
+ },
+ "https://www.deq.idaho.gov/rules-and-guidance/administrative-rules/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Administrative Rules - Idaho Department of Environmental Quality",
+  "textLength": 6764
+ },
+ "https://www.deq.idaho.gov/permits/permit-and-application-fees/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit and Application Fees - Idaho Department of Environmental Quality",
+  "textLength": 11558
+ },
+ "https://epa.illinois.gov/topics/forms/air-permits.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permits",
+  "textLength": 3905
+ },
+ "https://www.cookcountyil.gov/service/equipment-registration-permitting-environmental-control": {
+  "status": 200,
+  "finalUrl": "https://www.cookcountyil.gov/service/equipment-registration-permitting",
+  "type": "text/html",
+  "title": "Equipment Registration Permitting",
+  "textLength": 6443
+ },
+ "https://www.chicago.gov/city/en/depts/cdph/provdrs/healthy_communities/svcs/environmental-permits---regulation.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 302
+ },
+ "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/small-business/publications/documents/airpermit2016.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 106333
+ },
+ "https://epa.illinois.gov/topics/forms/air-forms/lifetime.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Lifetime Permit Forms",
+  "textLength": 3499
+ },
+ "https://epa.illinois.gov/topics/forms/air-forms/state.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Illinois Air Pollution Control Permit Forms",
+  "textLength": 4501
+ },
+ "https://epa.illinois.gov/topics/forms/air-forms/fesop.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Federally Enforceable State Operating Permit (FESOP) Forms",
+  "textLength": 3861
+ },
+ "https://epa.illinois.gov/topics/forms/air-forms/caapp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "CAAPP Forms",
+  "textLength": 6802
+ },
+ "https://epa.illinois.gov/topics/forms/air-permits/potential-to-emit.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Potential to Emit",
+  "textLength": 3120
+ },
+ "https://epa.illinois.gov/topics/air-quality/planning-reporting/annual-emission-reports.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Annual Emissions Reports",
+  "textLength": 3172
+ },
+ "https://epa.illinois.gov/content/dam/soi/en/web/epa/documents/air/permits/aggregate-processing-plant-application-guidance.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5991
+ },
+ "https://epa.illinois.gov/topics/forms.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permitting, Forms, and Fees",
+  "textLength": 4358
+ },
+ "https://www.in.gov/idem/airpermit/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting: Home",
+  "textLength": 4241
+ },
+ "https://www.in.gov/idem/airpermit/who-needs-an-air-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting: Who Needs an Air Permit",
+  "textLength": 4670
+ },
+ "https://www.in.gov/idem/airpermit/information-about/exemptions": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting: Exemptions",
+  "textLength": 3353
+ },
+ "https://www.in.gov/idem/airpermit/information-about/alternate-approvals": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting: Alternate Approvals",
+  "textLength": 6089
+ },
+ "https://www.in.gov/idem/airpermit/information-about/operating-permits/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting: Operating Permits",
+  "textLength": 3669
+ },
+ "https://www.in.gov/idem/airpermit/information-about/new-source-review": {
+  "status": 200,
+  "finalUrl": "https://www.in.gov/idem/airpermit/information-about/new-source-review/",
+  "type": "text/html",
+  "title": "Air Permitting: New Source Review",
+  "textLength": 4728
+ },
+ "http://www.in.gov/legislative/iac/T03260/A00020.PDF": {
+  "status": 200,
+  "finalUrl": "https://iar.iga.in.gov/iac//T03260/A00020.PDF",
+  "type": "text/html",
+  "title": "Indiana Register",
+  "textLength": 16
+ },
+ "https://www.in.gov/idem/airpermit/information-about/application-process": {
+  "status": 200,
+  "finalUrl": "https://www.in.gov/idem/airpermit/information-about/application-process/",
+  "type": "text/html",
+  "title": "Air Permitting: Application Process",
+  "textLength": 5694
+ },
+ "https://www.in.gov/idem/airpermit/information-about/potential-to-emit-and-source-category/emissions-applicability-thresholds": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting: Emissions Applicability Thresholds",
+  "textLength": 5162
+ },
+ "https://www.in.gov/idem/airpermit/information-about/potential-to-emit-and-source-category": {
+  "status": 200,
+  "finalUrl": "https://www.in.gov/idem/airpermit/information-about/potential-to-emit-and-source-category/",
+  "type": "text/html",
+  "title": "Air Permitting: Potential To Emit and Source Category",
+  "textLength": 7603
+ },
+ "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-construction-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Construction Permits | Department of Natural Resources",
+  "textLength": 22146
+ },
+ "https://www.linncountyiowa.gov/1429/Air-Quality": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 771
+ },
+ "https://www.polkcountyiowa.gov/public-works/air-quality/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 241
+ },
+ "https://iowadnr.gov/media/2133/download?inline=": {
+  "status": 200,
+  "finalUrl": "https://www.iowadnr.gov/media/2133/download?inline=",
+  "type": "pdf",
+  "textLength": 19530
+ },
+ "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits/small-sources": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Small Sources | Department of Natural Resources",
+  "textLength": 8235
+ },
+ "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Operating Permits | Department of Natural Resources",
+  "textLength": 5130
+ },
+ "http://www.legis.iowa.gov/law/administrativeRules/agencies": {
+  "status": 200,
+  "finalUrl": "https://www.legis.iowa.gov/law/administrativeRules/agencies",
+  "type": "text/html",
+  "title": "Iowa Legislature - Iowa Administrative Code",
+  "textLength": 7431
+ },
+ "https://programs.iowadnr.gov/easyair/Public/GovEnt/Shared/Pages/Main/Login.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "EASY Air - Public",
+  "textLength": 11197
+ },
+ "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits/title-v-forms-instructions": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title V Forms & Instructions | Department of Natural Resources",
+  "textLength": 5166
+ },
+ "https://www.iowadnr.gov/media/2122/download?inline": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5750
+ },
+ "https://www.iowadnr.gov/media/2105/download?inline": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 2278
+ },
+ "https://www.iowadnr.gov/environmental-protection/air-quality/operating-permits/technical-guidance": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Technical Guidance | Department of Natural Resources",
+  "textLength": 6435
+ },
+ "https://idnraqrr.iowadnr.gov/ConPermitSearch": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Public Access Menu - AQRR",
+  "textLength": 586
+ },
+ "https://www.iowadnr.gov/environmental-protection/air-quality/local-air-quality-programs": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Local Air Quality Programs | Department of Natural Resources",
+  "textLength": 4528
+ },
+ "https://www.iowadnr.gov/environmental-protection/air-quality/air-quality-fees-schedule": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Fees & Schedule | Department of Natural Resources",
+  "textLength": 5692
+ },
+ "https://www.kdhe.ks.gov/166/Air": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/313/Permitting": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/339/Process-Equipment-Description-Forms": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/DocumentCenter/View/21165": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/DocumentCenter/View/1223/Standard-Construction-Permit--Approval-for-Gasoline-Dispensing-Facilities-PDF": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/Faq.aspx?TID=22": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/Faq.aspx?TID=20": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/333/Air-Permit-Modeling": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/335/Permit-Technical-Guidance-Information": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://www.kdhe.ks.gov/249/KS-Environmental-Information-Management-": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Pages/Air-Permitting.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting - Kentucky Energy and Environment Cabinet",
+  "textLength": 17889
+ },
+ "https://louisvilleky.gov/government/air-pollution-control-district/air-pollution-permits-and-compliance": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 775
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Documents/Insignificant%20Activities.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5493
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Documents/52-040%20IBR%20Final.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 16054
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Documents/52-030%20IBR%20Final.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 19565
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Documents/52-020%20IBR%20Final.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 29781
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Documents/CHAP52.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 7145
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Pages/Air-Permitting-Forms-and-Information.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting Forms and Information - Kentucky Energy and Environment Cabinet",
+  "textLength": 12339
+ },
+ "https://eec.ky.gov/Environmental-Protection/Forms%20Library/DEP7007AI%20Form%20Instructions.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6600
+ },
+ "https://eec.ky.gov/Environmental-Protection/Forms%20Library/Ownership%20Change%20Form.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 1190
+ },
+ "https://eec.ky.gov/Environmental-Protection/Compliance-Assistance/Pages/Air-Permit-Application-Guide.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permit Application Guide - Kentucky Energy and Environment Cabinet",
+  "textLength": 22227
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Documents/Cabinet%20Provisions%20and%20Procedures%20for%20Title%20V%20Permits%20ADA.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 30690
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Documents/TrivialActivities.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6485
+ },
+ "https://eec.ky.gov/Environmental-Protection/Air/Documents/50_038%20Fact%20Sheet.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 17651
+ },
+ "https://dep.gateway.ky.gov/eForms/account/Home.aspx": {
+  "status": 200,
+  "finalUrl": "https://dep.gateway.ky.gov/eForms/Home",
+  "type": "text/html",
+  "title": "eForms",
+  "textLength": 1409
+ },
+ "https://www.deq.louisiana.gov/air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permits | Louisiana Department of Environmental Quality",
+  "textLength": 10201
+ },
+ "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Do I Need an Air Permit? | Louisiana Department of Environmental Quality",
+  "textLength": 10468
+ },
+ "https://www.deq.louisiana.gov/page/casebycase-insignificant-activities": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Case-By-Case Insignificant Activities | Louisiana Department of Environmental Quality",
+  "textLength": 7997
+ },
+ "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 232625
+ },
+ "https://www.deq.louisiana.gov/page/state-minor-source-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "State (Minor Source) Permits | Louisiana Department of Environmental Quality",
+  "textLength": 6181
+ },
+ "https://www.deq.louisiana.gov/assets/docs/Air/Air_Permit_Applications/r06_LouisianaGuidanceforAirPermittingActions.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 540512
+ },
+ "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/SOB_10-28-16.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 20926
+ },
+ "https://www.deq.louisiana.gov/assets/docs/Legal_Affairs/ERC/33v03Air.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 1948896
+ },
+ "https://www.deq.louisiana.gov/air-forms-and-applications": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Forms and Applications | Louisiana Department of Environmental Quality",
+  "textLength": 13936
+ },
+ "https://www.maine.gov/dep/air/permits/index.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permits, Licenses, Certifications, Maine DEP",
+  "textLength": 4735
+ },
+ "https://www.maine.gov/dep/air/permits/minor.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Minor Source Information Maine DEP",
+  "textLength": 5537
+ },
+ "https://www.maine.gov/dep/air/permits/major.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Major Source Informaion- Air- Maine DEP",
+  "textLength": 5025
+ },
+ "https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/096c115.doc": {
+  "status": 200,
+  "type": "application/msword",
+  "textLength": 0
+ },
+ "https://www.maine.gov/dep/air/rules/index.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Rules, Maine Department of Environmental Protection",
+  "textLength": 7510
+ },
+ "https://www.maine.gov/dep/air/permits/docs/Ch115Application.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 46547
+ },
+ "https://www.maine.gov/dep/air/permits/docs/Ch115Instructions.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 23241
+ },
+ "https://www.maine.gov/dep/air/permits/docs/Ch115MinProcForm.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 36818
+ },
+ "https://www.maine.gov/dep/air/permits/docs/intenttofile.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 17926
+ },
+ "https://www.maine.gov/dep/air/permits/docs/transferapp2026.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 21697
+ },
+ "https://www.maine.gov/dep/air/publications/docs/BACT%20Guidance%20A-L-0082%202026%2003%2017%20ADA.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 18133
+ },
+ "https://www.maine.gov/dep/feeschedule.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 34956
+ },
+ "https://mde.maryland.gov/programs/permits/airmanagementpermits/pages/air.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air and Radiological Health Management Permits & Approvals",
+  "textLength": 4199
+ },
+ "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/PermitstoConstructandOperate.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permits to Construct and Operate",
+  "textLength": 10794
+ },
+ "https://mde.maryland.gov/programs/permits/Documents/2008permitguide/ARMA/1.02.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 7731
+ },
+ "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.01.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3077
+ },
+ "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.05.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4559
+ },
+ "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.03.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4303
+ },
+ "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.04.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5678
+ },
+ "https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.06.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5227
+ },
+ "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/AirQualityGeneralPermit.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality General Permits to Construct Application Forms",
+  "textLength": 2178
+ },
+ "https://mde.maryland.gov/programs/permits/Documents/Permit%20Applications/Air/Federal%20Title%20V%20-%20Part%2070%20Operating%20Permit%20-%20Initial%20Permit%20Application-ARA.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 58653
+ },
+ "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/TitleVProgramInformation.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title 5 Program Information",
+  "textLength": 1478
+ },
+ "https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/ToxicAirPollutantRegulationDocuments.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Toxic Air Pollutant Regulations Assistance",
+  "textLength": 1464
+ },
+ "https://mde.maryland.gov/programs/permits/airmanagementpermits/pages/title5_issued_permits.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Issued Part 70 Permits",
+  "textLength": 7093
+ },
+ "https://www.mass.gov/info-details/how-to-participate-in-massdep-air-quality-permitting-decisions": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Not allowed | Mass Gov",
+  "textLength": 174
+ },
+ "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Not allowed | Mass Gov",
+  "textLength": 174
+ },
+ "https://www.mass.gov/doc/general-instructions-operating-permits/download": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Not allowed | Mass Gov",
+  "textLength": 174
+ },
+ "https://www.mass.gov/doc/310-cmr-7-air-pollution-control/download": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Not allowed | Mass Gov",
+  "textLength": 174
+ },
+ "https://www.mass.gov/guides/massdep-source-registration-greenhouse-gas-reporting": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Not allowed | Mass Gov",
+  "textLength": 174
+ },
+ "https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 277
+ },
+ "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/Guidance/pti-exemption-booklet.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 307
+ },
+ "https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review/general-permits": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 293
+ },
+ "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 374
+ },
+ "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Forms/AQD/NESHAP/EQP3570-Initial-Notification-Report-NESHAP-Oil-and-Natural-Gas-Production-Facilities.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 362
+ },
+ "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Forms/ESD/EQP3580-Permit-Information-Checklist.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 307
+ },
+ "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/General-PTIs/general-permits-description.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 317
+ },
+ "https://www.michigan.gov/egle/about/organization/air-quality/facility-specific-info": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 270
+ },
+ "https://www.pca.state.mn.us/business-with-us/air-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Radware Page",
+  "textLength": 108
+ },
+ "https://www.pca.state.mn.us/business-with-us/air-permit-types": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Radware Page",
+  "textLength": 108
+ },
+ "https://www.pca.state.mn.us/business-with-us/conditionally-exempt-sources": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Radware Page",
+  "textLength": 108
+ },
+ "https://www.pca.state.mn.us/business-with-us/air-registration-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Radware Page",
+  "textLength": 108
+ },
+ "https://pca.state.mn.us/air/capped-air-emission-state-permit": {
+  "status": 0,
+  "textLength": 0,
+  "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+ },
+ "https://www.pca.state.mn.us/sites/default/files/aq2-29.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 7299
+ },
+ "https://www.pca.state.mn.us/business-with-us/part-70-manufacturing-general-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Radware Page",
+  "textLength": 108
+ },
+ "https://www.pca.state.mn.us/sites/default/files/aq-f2-ch16.doc": {
+  "status": 200,
+  "type": "application/msword",
+  "textLength": 0
+ },
+ "https://www.pca.state.mn.us/sites/default/files/p-sbap5-35.xlsm": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Radware Page",
+  "textLength": 108
+ },
+ "https://www.pca.state.mn.us/business-with-us/do-i-need-an-air-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Radware Page",
+  "textLength": 108
+ },
+ "https://www.pca.state.mn.us/sites/default/files/aq3-04.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 16853
+ },
+ "https://www.pca.state.mn.us/business-with-us/air-emissions-calculators": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Radware Page",
+  "textLength": 108
+ },
+ "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Applications and Forms – MDEQ",
+  "textLength": 4492
+ },
+ "https://www.mdeq.ms.gov/wp-content/uploads/2022/09/Air-Permitting-in-Mississippi_2022-07-13.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 11715
+ },
+ "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "General Permits and Notice of Intent Forms – MDEQ",
+  "textLength": 7447
+ },
+ "https://www.mdeq.ms.gov/wp-content/uploads/2024/02/11-Miss.-Admin.-Code-Pt.-2-Ch.-5-Amended-February-22-2024-website-version-5.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 83496
+ },
+ "https://www.mdeq.ms.gov/wp-content/uploads/2017/06/11-Miss.-Admin.-Code-Pt.-2-Ch.-2.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 89139
+ },
+ "https://www.mdeq.ms.gov/about-mdeq/regulations/air-regulations/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Regulations – MDEQ",
+  "textLength": 1901
+ },
+ "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/hmagp/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Hot-Mix Asphalt General Permit – MDEQ",
+  "textLength": 2570
+ },
+ "https://dnr.mo.gov/air/business-industry/air-permits": {
+  "status": 200,
+  "finalUrl": "https://dnr.mo.gov/air/business-industry/permits",
+  "type": "text/html",
+  "title": "Air-related Permits | Missouri Department of Natural Resources",
+  "textLength": 13789
+ },
+ "https://dnr.mo.gov/air/business-industry/permits/construction": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Construction Permits | Missouri Department of Natural Resources",
+  "textLength": 19610
+ },
+ "https://www.sos.mo.gov/CMSImages/AdRules/csr/current/10csr/10c10-6.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 948547
+ },
+ "https://dnr.mo.gov/air/business-industry/permits/by-rule-construction": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 – Forbidden | Missouri Department of Natural Resources",
+  "textLength": 11446
+ },
+ "https://dnr.mo.gov/document-search/air-permitting-impacts-st-louis-ozone-reclassification-serious-nonattainment": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting Impacts of the St. Louis Ozone Reclassification to Serious Nonattainment | Missouri Department of Natural Resources",
+  "textLength": 11235
+ },
+ "https://dnr.mo.gov/air/business-industry/permits/operating": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Operating Permits | Missouri Department of Natural Resources",
+  "textLength": 26910
+ },
+ "https://revisor.mo.gov/main/OneSection.aspx?section=643.050": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Missouri Revisor of Statutes - Revised Statutes of Missouri, RSMo Section 643.050",
+  "textLength": 8756
+ },
+ "https://dnr.mo.gov/document-search/application-authority-construct-mo-780-1323": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Application for Authority to Construct MO 780-1323 | Missouri Department of Natural Resources",
+  "textLength": 11630
+ },
+ "https://dnr.mo.gov/document-search/application-authority-construct-instructions": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Application for Authority to Construct Instructions | Missouri Department of Natural Resources",
+  "textLength": 11187
+ },
+ "https://dnr.mo.gov/document-search/portable-source-relocation-request-mo-780-2803": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Portable Source Relocation Request MO 780-2803 | Missouri Department of Natural Resources",
+  "textLength": 11498
+ },
+ "https://dnr.mo.gov/document-search/pre-construction-prohibition-waiver-pub2014/pub2014": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Pre-Construction Prohibition Waiver - PUB2014 | Missouri Department of Natural Resources",
+  "textLength": 13348
+ },
+ "https://dnr.mo.gov/forms-applications": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Forms and Applications | Missouri Department of Natural Resources",
+  "textLength": 17216
+ },
+ "https://dnr.mo.gov/document-search/discussion-potential-emit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Discussion of Potential to Emit | Missouri Department of Natural Resources",
+  "textLength": 11142
+ },
+ "https://dnr.mo.gov/sites/dnr/files/vfc/2021/03/main/Projects%20Exempt%20from%20Construction%20Permitting.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5473
+ },
+ "https://dnr.mo.gov/sites/dnr/files/vfc/2021/03/main/The%20Permitting%20Process.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3296
+ },
+ "https://dnr.mo.gov/air/business-industry/permit-modeling": {
+  "status": 200,
+  "finalUrl": "https://dnr.mo.gov/air/business-industry/guidance-technical-assistance/permit-modeling",
+  "type": "text/html",
+  "title": "Air Permit Modeling | Missouri Department of Natural Resources",
+  "textLength": 34951
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-missouri": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in Missouri | US EPA",
+  "textLength": 4278
+ },
+ "https://dnr.mo.gov/air/business-industry/fees": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air-related Fees | Missouri Department of Natural Resources",
+  "textLength": 12622
+ },
+ "https://deq.mt.gov/air": {
+  "status": 200,
+  "finalUrl": "https://deq.mt.gov/air/",
+  "type": "text/html",
+  "title": "About Air | Montana DEQ",
+  "textLength": 3208
+ },
+ "https://deq.mt.gov/air/assistance": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting and Operator Assistance | Montana DEQ",
+  "textLength": 89327
+ },
+ "https://deq.mt.gov/files/Air/AirQuality/Documents/Forms/StationaryApp_2025.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 68100
+ },
+ "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/OGRegistrationForm.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 85370
+ },
+ "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.pdf": {
+  "status": 404,
+  "type": "text/html",
+  "textLength": 103
+ },
+ "https://www.epa.gov/caa-permitting/caa-permitting-montana": {
+  "status": 200,
+  "type": "text/html",
+  "title": "CAA Permitting in Montana | US EPA",
+  "textLength": 4614
+ },
+ "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/PermitApplicationFees.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 68091
+ },
+ "https://dwee.nebraska.gov/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Home Page | DWEE NE",
+  "textLength": 16080
+ },
+ "https://dwee.nebraska.gov/air/air-permitting/air-construction-permit-program": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Construction Permit Program | DWEE NE",
+  "textLength": 19838
+ },
+ "https://www.lincoln.ne.gov/City/Departments/Health-Department/Environmental/Air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality – City of Lincoln, NE",
+  "textLength": 76356
+ },
+ "https://publicworks.cityofomaha.org/oaqc-omaha-air-quality-control/": {
+  "status": 403,
+  "finalUrl": "https://publicworks.omaha.gov/oaqc-omaha-air-quality-control/",
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 246
+ },
+ "https://dwee.nebraska.gov/air-general-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air General Permit | DWEE NE",
+  "textLength": 15295
+ },
+ "https://dwee.nebraska.gov/air/air-permitting/air-operating-permit-program": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Operating Permit Program | DWEE NE",
+  "textLength": 16995
+ },
+ "https://dwee.nebraska.gov/sites/default/files/titles/Title%20129%20Effective%2009-28-2022.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 242210
+ },
+ "https://dwee.nebraska.gov/forms/publications-grants-forms?combine=&form_type=All&program=177": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Publications, Grants & Forms | DWEE NE",
+  "textLength": 17914
+ },
+ "https://dwee.nebraska.gov/forms/publications-grants-forms?combine=&form_type=All&program=180": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Publications, Grants & Forms | DWEE NE",
+  "textLength": 17906
+ },
+ "https://dwee.nebraska.gov/forms/publications-grants-forms/air068": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Potential Emission Calculation Spreadsheets | DWEE NE",
+  "textLength": 13478
+ },
+ "https://dwee.nebraska.gov/forms/publications-grants-forms/14-007": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Low Emitter/No Operating Permit Required Application | DWEE NE",
+  "textLength": 13289
+ },
+ "https://dwee.nebraska.gov/sites/default/files/publications/16-022-Overview_NDEE_Air_AFO_Wastewater_Permitting_Programs.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 18383
+ },
+ "https://dwee.nebraska.gov/sites/default/files/publications/31364806.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 12292
+ },
+ "https://dwee.nebraska.gov/sites/default/files/publications/09-001%20Air%20Quality%20Permit%20Application%20Tips.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 8582
+ },
+ "https://dwee.nebraska.gov/sites/default/files/publications/05-168%20Pre-Application%20Meetings.pdf": {
+  "status": 404,
+  "type": "text/html",
+  "title": "Page not found | DWEE NE",
+  "textLength": 12747
+ },
+ "https://dwee.nebraska.gov/sites/default/files/publications/16-011%20General%20Permits_1.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6966
+ },
+ "https://dwee.nebraska.gov/sites/default/files/publications/00-008%20Operating%20Permits.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 9354
+ },
+ "https://dwee.nebraska.gov/forms/publications-grants-forms/00-001": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Nebraska’s Low Emitter Rule | DWEE NE",
+  "textLength": 13575
+ },
+ "https://dwee.nebraska.gov/sites/default/files/publications/06-220_0.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 13353
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-nebraska": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in Nebraska | US EPA",
+  "textLength": 5230
+ },
+ "https://ecmp.nebraska.gov/DEQ-AIR/": {
+  "status": 200,
+  "finalUrl": "https://ecmp.nebraska.gov/DEQ-AIR/Account/Login?ReturnUrl=%2fDEQ-AIR%2f",
+  "type": "text/html",
+  "title": "Air Quality General Permitting",
+  "textLength": 1089
+ },
+ "https://dwee.nebraska.gov/sites/default/files/publications/05-159%20Construction%20Permit%20Application%20Fees_0.pdf": {
+  "status": 404,
+  "type": "text/html",
+  "title": "Page not found | DWEE NE",
+  "textLength": 12747
+ },
+ "https://ndep.nv.gov/air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air | NDEP",
+  "textLength": 19825
+ },
+ "https://ndep.nv.gov/air/permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permitting | NDEP",
+  "textLength": 39211
+ },
+ "https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/division_of_air_quality/permitting/index.php": {
+  "status": 200,
+  "finalUrl": "https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/division_of_air_quality/permitting/",
+  "type": "text/html",
+  "title": "Welcome to Clark County, NV",
+  "textLength": 1203
+ },
+ "https://www.nnph.org/programs-and-services/air-quality/index.php": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+ },
+ "https://ndep.nv.gov/air/permitting/permit-guidance": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit Guidance | NDEP",
+  "textLength": 41316
+ },
+ "https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources/": {
+  "status": 200,
+  "finalUrl": "https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources",
+  "type": "text/html",
+  "title": "Air Permit Forms and Resources | NDEP",
+  "textLength": 23791
+ },
+ "https://ndep.nv.gov/air/nevada-mercury-control-program-nmcp/": {
+  "status": 200,
+  "finalUrl": "https://ndep.nv.gov/air/nevada-mercury-control-program-nmcp",
+  "type": "text/html",
+  "title": "Nevada Mercury Control Program (NMCP) | NDEP",
+  "textLength": 21478
+ },
+ "https://www.leg.state.nv.us/NAC/NAC-445B.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "NAC: CHAPTER 445B - AIR CONTROLS",
+  "textLength": 736189
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/Class_1_AQOP_Application_%28Updated_260813%29.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 33530
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/Class_2_AQOP_Application_%28Updated_260813%29.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 23793
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/260728-class-2-app-determ-form-fillable.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6595
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/220110_Class_II_General_Temporary_Sources_Application2.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5518
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/220830_Crushing_and_Screening_Plant_Application_Form2.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 18141
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/220830_Concrete_Batch_Plant_Application_Form.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 16657
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/260813-class-2-sad-app.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 9345
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/240523_COLA_Request_Form.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 11004
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/200923-ia-determination2.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 11605
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/240916_noac_form.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5633
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/Class_1_AQOP_Application_Guidance_Document_%28Updated_260813%29.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 110497
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/Class_2_AQOP_Application_Guidance_Document_%28Updated_260813%29.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 96576
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/260813_General_Guidance_Document.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 26836
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/260813_COLA_Guidance_Document.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 42540
+ },
+ "https://ndep.nv.gov/uploads/air-permitting-docs/psd_map.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 857
+ },
+ "https://ndep.nv.gov/air/permitting/emissions-reduction-credit-program/": {
+  "status": 200,
+  "finalUrl": "https://ndep.nv.gov/air/permitting/emissions-reduction-credit-program",
+  "type": "text/html",
+  "title": "Emissions Reduction Credit Program | NDEP",
+  "textLength": 19042
+ },
+ "https://ndep.nv.gov/uploads/air-aqm-docs/guidance-process-flow-diagram.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 2233
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-nevada": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in Nevada | US EPA",
+  "textLength": 5730
+ },
+ "https://ndep.nv.gov/air/air-fee-schedule/": {
+  "status": 200,
+  "finalUrl": "https://ndep.nv.gov/air/air-fee-schedule",
+  "type": "text/html",
+  "title": "Air Fee Schedule | NDEP",
+  "textLength": 20055
+ },
+ "https://www.des.nh.gov/air/industrial-sources": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 232
+ },
+ "https://www.des.nh.gov/air/industrial-sources/permit-guidance": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 248
+ },
+ "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 268
+ },
+ "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 270
+ },
+ "https://www.epa.gov/system/files/documents/2022-09/nh-env-a-600.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 56804
+ },
+ "https://www.des.nh.gov/document/all-nhdes-forms": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 234
+ },
+ "https://www.des.nh.gov/onestop-navigation": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 228
+ },
+ "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/temporary-permit-guidance.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 279
+ },
+ "https://www.epa.gov/caa-permitting/caa-permitting-new-hampshire": {
+  "status": 200,
+  "type": "text/html",
+  "title": "CAA Permitting in New Hampshire | US EPA",
+  "textLength": 4170
+ },
+ "https://dep.nj.gov/boss/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "NJDEP| Bureau of Stationary Sources | Bureau of Stationary Sources",
+  "textLength": 7538
+ },
+ "https://dep.nj.gov/boss/general-permits/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "NJDEP| Bureau of Stationary Sources | General Permits",
+  "textLength": 7476
+ },
+ "https://www.epa.gov/system/files/documents/2025-07/ibr-nj-subchapter-8-eff-jan-16-2018.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 224440
+ },
+ "https://www.nj.gov/dep/enforcement/aceacademy/GP-update-Ketting-Adhanom.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 10564
+ },
+ "https://www.epa.gov/caa-permitting/caa-permitting-new-jersey": {
+  "status": 404,
+  "type": "text/html",
+  "title": "Page Not Found | US EPA",
+  "textLength": 694
+ },
+ "https://www.govinfo.gov/content/pkg/FR-2021-11-23/pdf/2021-25004.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 28327
+ },
+ "https://dep.nj.gov/boss/online-permitting-help/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "NJDEP| Bureau of Stationary Sources | Online Permitting Help",
+  "textLength": 6952
+ },
+ "https://dep.nj.gov/boss/program-updates/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "NJDEP| Bureau of Stationary Sources | Program Updates",
+  "textLength": 16722
+ },
+ "https://www.env.nm.gov/air-quality/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Bureau",
+  "textLength": 4974
+ },
+ "https://www.env.nm.gov/air-quality/permitting-section-home-page/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permitting",
+  "textLength": 9639
+ },
+ "https://www.cabq.gov/airquality/air-quality-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permits — City of Albuquerque",
+  "textLength": 14958
+ },
+ "https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-noi-application-form/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Oil and Gas Notice of Intent",
+  "textLength": 4533
+ },
+ "https://www.srca.nm.gov/parts/title20/20.002.0072.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "20.2.72 NMAC",
+  "textLength": 214290
+ },
+ "http://www.srca.nm.gov/parts/title20/20.002.0074.html": {
+  "status": 200,
+  "finalUrl": "https://www.srca.nm.gov/parts/title20/20.002.0074.html",
+  "type": "text/html",
+  "title": "20.2.74 NMAC",
+  "textLength": 154464
+ },
+ "https://www.env.nm.gov/air-quality/nonattainment-areas/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Nonattainment Areas",
+  "textLength": 4967
+ },
+ "https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Title V Operating Permits Guidance Page",
+  "textLength": 5022
+ },
+ "https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-gcp-application-forms/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil and Gas Facilities (GCP-O&G)",
+  "textLength": 5807
+ },
+ "https://www.env.nm.gov/air-quality/gcp-6-oil-gas-storage-vessels": {
+  "status": 200,
+  "finalUrl": "https://www.env.nm.gov/air-quality/gcp-6-oil-gas-storage-vessels/",
+  "type": "text/html",
+  "title": "Oil and Gas Storage Vessels (GCP-6)",
+  "textLength": 5093
+ },
+ "https://www.env.nm.gov/air-quality/gcp-temporary-control-gcp-tc/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Temporary Control (GCP-TC) Permits (Minor & Major)",
+  "textLength": 5796
+ },
+ "https://www.srca.nm.gov/parts/title20/20.002.0050.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "20.2.50 NMAC",
+  "textLength": 193545
+ },
+ "https://www.srca.nm.gov/parts/title20/20.002.0073.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "20.2.73 NMAC",
+  "textLength": 30674
+ },
+ "http://164.64.110.134/parts/title20/20.002.0079.html": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ "https://www.cabq.gov/airquality/air-quality-control-board": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Albuquerque-Bernalillo County Air Quality Control Board — City of Albuquerque",
+  "textLength": 14468
+ },
+ "https://www.env.nm.gov/air-quality/universal-application-2-2/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Bureau Universal Application Forms",
+  "textLength": 7314
+ },
+ "https://www.env.nm.gov/wp-content/uploads/sites/2/2017/10/InsignificantListTitleV.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4691
+ },
+ "https://www.env.nm.gov/wp-content/uploads/sites/2/2017/10/TrivialListTitleV.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4759
+ },
+ "https://www.env.nm.gov/forms/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "All Application Forms and Guidance",
+  "textLength": 19617
+ },
+ "https://www.cabq.gov/airquality/air-quality-permits/air-quality-application-forms": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permit Application Forms — City of Albuquerque",
+  "textLength": 17606
+ },
+ "https://www.env.nm.gov/air-quality/permitting-section-procedures-and-guidance/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permitting Procedures and Guidance",
+  "textLength": 11235
+ },
+ "https://www.env.nm.gov/air-quality/ozone-draft-rule/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Ozone Precursor Rulemaking",
+  "textLength": 12354
+ },
+ "http://www.env.nm.gov/air-quality/small-biz-eap-2/": {
+  "status": 200,
+  "finalUrl": "https://www.env.nm.gov/air-quality/small-biz-eap-2/",
+  "type": "text/html",
+  "title": "Small Business Environmental Assistance Program",
+  "textLength": 7111
+ },
+ "https://www.env.nm.gov/air-quality/aqb-epermitting-portal/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "AQB ePermitting Portal",
+  "textLength": 7737
+ },
+ "https://www.env.nm.gov/air-quality/permit-fees-2/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit Fees",
+  "textLength": 11757
+ },
+ "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://www.nyc.gov/site/dep/environment/clean-air-tracking-system.page": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Tracking System - DEP",
+  "textLength": 6304
+ },
+ "https://extapps.dec.ny.gov/docs/air_pdf/exemption.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 14800
+ },
+ "https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://extapps.dec.ny.gov/docs/air_pdf/sip203revision.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 495032
+ },
+ "https://dec.ny.gov/environmental-protection/air-quality/air-program-forms-and-instructions": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://dec.ny.gov/sites/default/files/2024-03/regisfrm.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://www.dec.ny.gov/docs/air_pdf/airpermitapp.pdf": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/docs/air_pdf/airpermitapp.pdf",
+  "type": "pdf",
+  "textLength": 16275
+ },
+ "https://www.dec.ny.gov/docs/air_pdf/airpermitinst.pdf": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/docs/air_pdf/airpermitinst.pdf",
+  "type": "pdf",
+  "textLength": 119043
+ },
+ "https://www.dec.ny.gov/docs/air_pdf/exemption.pdf": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/docs/air_pdf/exemption.pdf",
+  "type": "pdf",
+  "textLength": 14800
+ },
+ "https://www.dec.ny.gov/docs/air_pdf/capcert.pdf": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/docs/air_pdf/capcert.pdf",
+  "type": "pdf",
+  "textLength": 6368
+ },
+ "https://www.dec.ny.gov/docs/air_pdf/dar11paper.pdf": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/docs/air_pdf/dar11paper.pdf",
+  "type": "pdf",
+  "textLength": 1976
+ },
+ "https://dec.ny.gov/docs/air_pdf/dar1.pdf": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/docs/air_pdf/dar1.pdf",
+  "type": "pdf",
+  "textLength": 209170
+ },
+ "https://dec.ny.gov/docs/air_pdf/dar10.pdf": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/docs/air_pdf/dar10.pdf",
+  "type": "pdf",
+  "textLength": 76185
+ },
+ "https://dec.ny.gov/docs/air_pdf/dar17.pdf": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/docs/air_pdf/dar17.pdf",
+  "type": "pdf",
+  "textLength": 19211
+ },
+ "https://dec.ny.gov/environmental-protection/air-quality/air-compliance-emissions-reporting": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "http://www.dec.ny.gov/dardata/boss/afs/issued_atv.html": {
+  "status": 200,
+  "finalUrl": "https://extapps.dec.ny.gov/data/dar/afs/issued_atv.html",
+  "type": "text/html",
+  "title": "Bureau of Stationary Sources : Issued Title V Permits",
+  "textLength": 28109
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-permitting-new-york": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Permitting in New York | US EPA",
+  "textLength": 4189
+ },
+ "https://dec.ny.gov/sites/default/files/2026-08/482factsheet.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://www.deq.nc.gov/about/divisions/air-quality": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality | NC DEQ",
+  "textLength": 7527
+ },
+ "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/modifying-or-applying-air-quality-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Modifying or Applying for an Air Quality Permit | NC DEQ",
+  "textLength": 6923
+ },
+ "http://www.co.forsyth.nc.us/EAP/default.aspx": {
+  "status": 200,
+  "finalUrl": "https://www.co.forsyth.nc.us/EAP/",
+  "type": "text/html",
+  "title": "Environmental Assistance & Protection, North Carolina",
+  "textLength": 1916
+ },
+ "https://luesa.mecknc.gov/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Land Use and Environmental Services Agency | LUESA",
+  "textLength": 6585
+ },
+ "https://www.buncombenc.gov/168/Asheville-Buncombe-Air-Quality-Agency": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Attention Required! | Cloudflare",
+  "textLength": 771
+ },
+ "https://deq.nc.gov/about/divisions/air-quality/air-quality-permits/application-forms-instructions/permit-application-permit-exemption-and-registration-small-facilities": {
+  "status": 200,
+  "finalUrl": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/modifying-or-applying-air-quality-permit/permit-application-permit-exemption-and-registration-small-facilities",
+  "type": "text/html",
+  "title": "Permit Application, Permit Exemption, and Registration for Small Facilities | NC DEQ",
+  "textLength": 7093
+ },
+ "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/modifying-or-applying-air-quality-permit/general-air-quality-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "General Air Quality Permits | NC DEQ",
+  "textLength": 10674
+ },
+ "https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-construct-operate/download": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3750
+ },
+ "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/nsr-permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "NSR Permitting | NC DEQ",
+  "textLength": 4128
+ },
+ "https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-title-v-permit/download": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3567
+ },
+ "https://www.deq.nc.gov/media/48411/download?attachment=": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 276266
+ },
+ "https://files.nc.gov/ncdeq/Air%20Quality/rules/rules/15a%20ncac%2002q%20.0102.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 11286
+ },
+ "https://files.nc.gov/ncdeq/Air%20Quality/rules/rules/secQ0200.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 15664
+ },
+ "https://files.nc.gov/ncdeq/Air%20Quality/rules/rules/secQ0500.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 99885
+ },
+ "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permits/application-forms-instructions/application-forms-air-quality-permit-construct-operate-non-title-v-title-v-facilities": {
+  "status": 200,
+  "finalUrl": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/modifying-or-applying-air-quality-permit/application-forms-air-quality-permit-constructoperate-non-title-v-and-title-v-facilities",
+  "type": "text/html",
+  "title": "Application Forms for Air Quality Permit to Construct/Operate Non-Title V and Title V Facilities | NC DEQ",
+  "textLength": 7441
+ },
+ "https://www.deq.nc.gov/documents/files/newforms/application-form-registration-06142016/download": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "textLength": 14257
+ },
+ "https://www.deq.nc.gov/documents/files/newforms/exemption-registration-flow-chart-06272016/download": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 35250
+ },
+ "https://www.deq.nc.gov/air-quality/permits/titlevpermitapplicationchecklist2017pdf/download?attachment": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4151
+ },
+ "https://www.deq.nc.gov/air-quality/permits/non-titlevpermitapplicationchecklistrevcpdf/download?attachment": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3450
+ },
+ "https://www.deq.nc.gov/air-quality/permits/emgeneapppdf/download?attachment": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6944
+ },
+ "https://www.deq.nc.gov/air-quality/permits/concreteapppdf/download?attachment": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 12945
+ },
+ "https://www.deq.nc.gov/air-quality/permits/final2q0318notificationform04022019xls/download?attachment": {
+  "status": 200,
+  "type": "application/x-ole-storage",
+  "textLength": 0
+ },
+ "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permits/permitting-procedures-memos-guidance": {
+  "status": 200,
+  "finalUrl": "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/permitting-procedures-memos-and-guidance",
+  "type": "text/html",
+  "title": "Permitting Procedures Memos and Guidance | NC DEQ",
+  "textLength": 7073
+ },
+ "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/emission-estimation-spreadsheets": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Emission Estimation Spreadsheets | NC DEQ",
+  "textLength": 4590
+ },
+ "https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/intent-construct": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Intent to Construct | NC DEQ",
+  "textLength": 29869
+ },
+ "https://www.deq.nc.gov/about/divisions/environmental-assistance-customer-service/deacs-permit-guidance/small-business-environmental-assistance/permit-information/zoning-consistency-determination": {
+  "status": 200,
+  "finalUrl": "https://www.deq.nc.gov/about/divisions/environmental-assistance-and-customer-service/small-business-environmental-assistance/permit-information/zoning-consistency-determination",
+  "type": "text/html",
+  "title": "Zoning Consistency Determination | NC DEQ",
+  "textLength": 5458
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-north-carolina": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in North Carolina | US EPA",
+  "textLength": 5081
+ },
+ "https://www.deq.nc.gov/accessdeq": {
+  "status": 200,
+  "type": "text/html",
+  "title": "AccessDEQ | NC DEQ",
+  "textLength": 5730
+ },
+ "https://edocs.deq.nc.gov/AirQuality/DocView.aspx?id=647336&dbid=0&repo=AirQuality": {
+  "status": 200,
+  "finalUrl": "https://edocs.deq.nc.gov/AirQuality/DocView.aspx?id=647336&dbid=0&repo=AirQuality&cr=1",
+  "type": "text/html",
+  "title": "STR_ERROR_PAGE_TITLE",
+  "textLength": 53
+ },
+ "https://www.deq.nd.gov/aq/permitting/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permitting - Air Quality - North Dakota DEQ",
+  "textLength": 15409
+ },
+ "https://deq.nd.gov/aq/permitting/construction.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Construction Permitting - Air Quality - North Dakota DEQ",
+  "textLength": 20780
+ },
+ "https://deq.nd.gov/publications/AQ/policy/PC/Oil_and_Gas_General_Permit_Guidance.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 77344
+ },
+ "https://deq.nd.gov/AQ/permitting/Operating.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Operating Permits - Air Quality - North Dakota DEQ",
+  "textLength": 20613
+ },
+ "https://deq.nd.gov/aq/oilgas/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil & Gas - Air Quality - North Dakota DEQ",
+  "textLength": 13412
+ },
+ "https://ndlegis.gov/information/acdata/html/33.1-15.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "North Dakota Administrative Code | North Dakota Legislative Branch",
+  "textLength": 7074
+ },
+ "https://ndlegis.gov/information/acdata/pdf/33.1-15-14.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 157135
+ },
+ "https://deq.nd.gov/Forms/AQ/Permitting/FormInstructions.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5279
+ },
+ "https://deq.nd.gov/forms/aq/Permitting/SFN8516.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6250
+ },
+ "https://deq.nd.gov/forms/aq/Permitting/SFN8891.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 2855
+ },
+ "https://deq.nd.gov/forms/aq/Permitting/SFN58923.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 2618
+ },
+ "https://deq.nd.gov/forms/aq/Permitting/SFN59652.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 1750
+ },
+ "https://deq.nd.gov/forms/aq/Permitting/SFN11408.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3499
+ },
+ "https://deq.nd.gov/forms/aq/Permitting/SFN8535.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 2790
+ },
+ "https://deq.nd.gov/forms/AQ/Title-V/Title_V_Instructions.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6218
+ },
+ "https://deq.nd.gov/aq/oilgas/OilGasWell.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil & Gas Wells - Air Quality - North Dakota DEQ",
+  "textLength": 11762
+ },
+ "https://deq.nd.gov/publications/AQ/policy/PC/20110502_OilGas_Permitting_Guidance.pdf": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Resource Not Found - North Dakota Department of Environmental Quality",
+  "textLength": 6175
+ },
+ "https://deq.nd.gov/AQ/permitting/PermitPortal.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit Portal - Air Quality - North Dakota DEQ",
+  "textLength": 4346
+ },
+ "https://deq.nd.gov/AQ/modeling/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Modeling - Air Quality - North Dakota DEQ",
+  "textLength": 5567
+ },
+ "https://ceris.deq.nd.gov/ext/ncore/": {
+  "status": 200,
+  "type": "text/html",
+  "textLength": 270
+ },
+ "https://epa.ohio.gov/divisions-and-offices/air-pollution-control": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Pollution Control",
+  "textLength": 3936
+ },
+ "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/applying-for-an-air-pollution-control-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Applying for an Air Pollution Control Permit",
+  "textLength": 15008
+ },
+ "https://www.scph.org/aboutaraqmd": {
+  "status": 200,
+  "type": "text/html",
+  "title": "ARAQMD | Summit County Public Health",
+  "textLength": 8032
+ },
+ "http://www.cantonhealth.org": {
+  "status": 200,
+  "finalUrl": "https://www.cantonohio.gov/health",
+  "type": "text/html",
+  "title": "Canton City Public Health Department | Canton, OH",
+  "textLength": 2479
+ },
+ "http://www.southwestohioair.org/": {
+  "status": 200,
+  "finalUrl": "https://www.southwestohioair.org/",
+  "type": "text/html",
+  "title": "Hamilton Air Quality",
+  "textLength": 2175
+ },
+ "https://www.clevelandhealth.org/programs/air/monitoring/": {
+  "status": 200,
+  "finalUrl": "https://www.clevelandohio.gov/city-hall/departments/public-health/programs-services/air-quality/monitoring",
+  "type": "text/html",
+  "title": "Air Quality Monitoring | City of Cleveland Ohio",
+  "textLength": 13586
+ },
+ "https://www.lcghd.org/air-pollution-control/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Pollution Control | Lake County General Health",
+  "textLength": 4928
+ },
+ "https://portsmouthcityhealth.org/pch-dept/air-division/": {
+  "status": 200,
+  "finalUrl": "https://portsmouthcityhealth.org/air-division/",
+  "type": "text/html",
+  "title": "Air Division | Portsmouth City Health Department",
+  "textLength": 3663
+ },
+ "https://www.rapca.org/": {
+  "status": 202,
+  "type": "text/html",
+  "textLength": 0
+ },
+ "https://toledo.oh.gov/business/environment/air-quality": {
+  "status": 200,
+  "type": "text/html",
+  "title": "City of Toledo | Air Quality",
+  "textLength": 5097
+ },
+ "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/permit-by-rule-pbr": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit-by-Rule (PBR)",
+  "textLength": 15929
+ },
+ "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/general-permit-program": {
+  "status": 200,
+  "type": "text/html",
+  "title": "General Permit Program",
+  "textLength": 11673
+ },
+ "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/engineer/eguides/guide86-374531RuleCites3.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 5534
+ },
+ "https://codes.ohio.gov/ohio-administrative-code/rule-3745-31-13": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Rule 3745-31-13 - Ohio Administrative Code | Ohio Laws",
+  "textLength": 7447
+ },
+ "https://codes.ohio.gov/ohio-administrative-code/rule-3745-31-21": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Rule 3745-31-21 - Ohio Administrative Code | Ohio Laws",
+  "textLength": 7002
+ },
+ "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/title-v-permitting-program": {
+  "status": 200,
+  "finalUrl": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/title-v-permitting-program",
+  "type": "text/html",
+  "title": "Title V Permitting Program",
+  "textLength": 10619
+ },
+ "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/general-permits-oil-and-gas-well-site-production-operations": {
+  "status": 200,
+  "finalUrl": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/general-permits-oil-and-gas-well-site-production-operations",
+  "type": "text/html",
+  "title": "General Permits - Oil and Gas Well-site Production Operations",
+  "textLength": 7966
+ },
+ "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/general-permits-natural-gas-compressor-stations-and-similar-facilities": {
+  "status": 200,
+  "finalUrl": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/general-permits-natural-gas-compressor-stations-and-similar-facilities",
+  "type": "text/html",
+  "title": "General Permits - Natural Gas Compressor Stations and Similar Facilities",
+  "textLength": 23850
+ },
+ "https://codes.ohio.gov/ohio-administrative-code/chapter-3745-31": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Chapter 3745-31 - Ohio Administrative Code | Ohio Laws",
+  "textLength": 486960
+ },
+ "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/regs/3745-31/3745-31-03-FS.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 2949
+ },
+ "https://epa.ohio.gov/static/Portals/27/regs/3745-31/3745-31-29f.pdf": {
+  "status": 200,
+  "finalUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/regs/3745-31/3745-31-29f.pdf",
+  "type": "pdf",
+  "textLength": 11131
+ },
+ "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/regulations/effective-rules/dapc-effective-rules": {
+  "status": 200,
+  "finalUrl": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/regulations/effective-rules/dapc-effective-rules",
+  "type": "text/html",
+  "title": "DAPC Effective Rules",
+  "textLength": 103571
+ },
+ "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/permit-application-forms": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit Application Forms",
+  "textLength": 11822
+ },
+ "https://epa.ohio.gov/static/Portals/27/permittest/PTIPTIOappsec1.pdf": {
+  "status": 200,
+  "finalUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/permittest/PTIPTIOappsec1.pdf",
+  "type": "pdf",
+  "textLength": 9272
+ },
+ "https://epa.ohio.gov/static/Portals/27/permittest/PTIPTIOinstructions.pdf": {
+  "status": 200,
+  "finalUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/permittest/PTIPTIOinstructions.pdf",
+  "type": "pdf",
+  "textLength": 44651
+ },
+ "https://epa.ohio.gov/static/Portals/27/pbr/PBRBOILER.pdf": {
+  "status": 200,
+  "finalUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/pbr/PBRBOILER.pdf",
+  "type": "pdf",
+  "textLength": 20759
+ },
+ "https://epa.ohio.gov/static/Portals/27/pbr/PBRGENERATOR.pdf": {
+  "status": 200,
+  "finalUrl": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/pbr/PBRGENERATOR.pdf",
+  "type": "pdf",
+  "textLength": 15501
+ },
+ "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/fops/eac/intcomb.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 11590
+ },
+ "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/fops/eac/stortank.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 20365
+ },
+ "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/ohio-epa-district-offices-and-local-air-pollution-control-agencies": {
+  "status": 200,
+  "finalUrl": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/ohio-epa-district-offices-and-local-air-pollution-control-agencies",
+  "type": "text/html",
+  "title": "District and Local Air Agency Contacts",
+  "textLength": 15552
+ },
+ "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/oil%20and%20gas/GP-12.3.1.QC.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3454
+ },
+ "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/about-dapc/air-services": {
+  "status": 200,
+  "finalUrl": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/about-dapc/air-services",
+  "type": "text/html",
+  "title": "Air Services",
+  "textLength": 8930
+ },
+ "https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/reporting": {
+  "status": 200,
+  "finalUrl": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/reporting",
+  "type": "text/html",
+  "title": "Reporting",
+  "textLength": 5971
+ },
+ "https://oklahoma.gov/deq.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Environmental Quality Department (292)",
+  "textLength": 12860
+ },
+ "https://oklahoma.gov/deq/permits/air-permits/general-permits-pbr.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "General Permits & Permits by Rule",
+  "textLength": 32536
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 37474
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/events/AQAC_2024_JUL_SC_5_7_8_presentation.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 19071
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/PBR_oil_and_gas_rule.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 18895
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/GP_oil_and_gas_facilities_statement_of_basis_memo.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 129213
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/rules/100.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 725285
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/rules/004.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 113438
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/Form_100-110_word.doc": {
+  "status": 200,
+  "type": "application/msword",
+  "textLength": 0
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/Form_100-223.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 35691
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/Form_100-360.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 40922
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/Form_100-350.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 35073
+ },
+ "https://oklahoma.gov/content/dam/ok/en/deq/documents/air-quality/GP_oil_and_gas_facilities_permit.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 122871
+ },
+ "https://www.oregon.gov/deq/aq/aqPermits/Pages/default.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Air Quality Permitting and Technical Assistance : Air Quality Permits : State of Oregon",
+  "textLength": 7646
+ },
+ "https://www.oregon.gov/deq/aq/aqPermits/Pages/Help-Finding-Permit.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Help Finding the Right Permit : Air Quality Permits : State of Oregon",
+  "textLength": 11704
+ },
+ "https://www.lrapa-or.gov/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Lane Regional Air Protection Agency | Welcome",
+  "textLength": 4933
+ },
+ "https://www.oregon.gov/deq/aq/aqpermits/pages/acdp-general.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Basic and General Air Contaminant Discharge Permits : Air Quality Permits : State of Oregon",
+  "textLength": 30493
+ },
+ "https://www.oregon.gov/deq/filterpermitsdocs/acdp-applguidelines.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 63803
+ },
+ "https://www.oregon.gov/deq/aq/aqPermits/Pages/TVrule.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Title V Rules and Fees : Air Quality Permits : State of Oregon",
+  "textLength": 13207
+ },
+ "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1535": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oregon Secretary of State Administrative Rules",
+  "textLength": 40608
+ },
+ "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=238864": {
+  "status": 200,
+  "finalUrl": "https://secure.sos.state.or.us/oard/viewSingleRule.action;JSESSIONID_OARD=5kuLpm3MJA5tATFaPwGUJ6Jd9rAtAJmh7ckbFEM24CQeuLQmjA8C!1626920300?ruleVrsnRsn=340746",
+  "type": "text/html",
+  "title": "Oregon Secretary of State Administrative Rules",
+  "textLength": 1758
+ },
+ "https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=270004": {
+  "status": 200,
+  "finalUrl": "https://secure.sos.state.or.us/oard/viewSingleRule.action;JSESSIONID_OARD=CtKLpm6_07A5JJ3eK4tvVnoQaNwKcSGO4IHGAWKNaN8-vN_EQRSu!-999993626?ruleVrsnRsn=340747",
+  "type": "text/html",
+  "title": "Oregon Secretary of State Administrative Rules",
+  "textLength": 2518
+ },
+ "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1541": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oregon Secretary of State Administrative Rules",
+  "textLength": 39215
+ },
+ "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP-General.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Basic and General Air Contaminant Discharge Permits : Air Quality Permits : State of Oregon",
+  "textLength": 30493
+ },
+ "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP-Simple.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Simple, Standard and Construction ACDP Application and Reporting Forms : Air Quality Permits : State of Oregon",
+  "textLength": 11692
+ },
+ "https://www.oregon.gov/deq/aq/aqPermits/Pages/TV.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Title V Forms and Guidance : Air Quality Permits : State of Oregon",
+  "textLength": 9185
+ },
+ "https://www.oregon.gov/deq/FilterPermitsDocs/AQ104_I.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 27792
+ },
+ "https://www.oregon.gov/deq/Permits/Pages/LUCS.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Land Use Compatibility Statement : Online Services : State of Oregon",
+  "textLength": 8569
+ },
+ "https://www.oregon.gov/deq/aq/Documents/bapPermElectAcdps.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 9265
+ },
+ "https://www.oregon.gov/deq/aq/Documents/NoticeofConstruction.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4291
+ },
+ "https://www.oregon.gov/deq/aq/cao/Pages/CAO-Risk-Assessment-Resources.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Step-by-Step Guide for Facilities : Cleaner Air Oregon : State of Oregon",
+  "textLength": 16910
+ },
+ "https://www.oregon.gov/deq/FilterDocs/annualTVfees.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3161
+ },
+ "https://www.oregon.gov/deq/aq/aqPermits/Pages/ACDP.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Air Contaminant Discharge Permits : Air Quality Permits : State of Oregon",
+  "textLength": 7289
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-authorities-oregon": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting Authorities in Oregon | US EPA",
+  "textLength": 5101
+ },
+ "https://www.oregon.gov/deq/permits/Pages/AQP-inYDO.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Department of Environmental Quality : Air Quality Permits in Your DEQ Online : Online Services : State of Oregon",
+  "textLength": 9935
+ },
+ "https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Bureau of Air Quality | Department of Environmental Protection | Commonwealth of Pennsylvania",
+  "textLength": 25454
+ },
+ "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permit Information | Department of Environmental Protection | Commonwealth of Pennsylvania",
+  "textLength": 20406
+ },
+ "https://www.alleghenycounty.us/Services/Health-Department/Air-Quality/Air-Quality-Permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permitting - Allegheny County, PA",
+  "textLength": 22356
+ },
+ "https://www.phila.gov/departments/department-of-public-health/for-business-owners/air-and-dust/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air and dust | Department of Public Health | City of Philadelphia",
+  "textLength": 4416
+ },
+ "https://greenport.pa.gov/elibrary//PDFProvider.ashx?action=PDFStream&docID=3791499&revision=0&docName=01+AIR+QUALITY+PERMIT+EXEMPTIONS&nativeExt=pdf&PromptToSave=False&Size=251545&ViewerMode=2&overlay=0": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 62719
+ },
+ "https://www.pa.gov/services/dep/request-for-determination-rfd-for-online-rfd-users": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Request for Determination (RFD) for Online RFD Users | Commonwealth of Pennsylvania",
+  "textLength": 4348
+ },
+ "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Apply for an Air Quality General Permit | Commonwealth of Pennsylvania",
+  "textLength": 11399
+ },
+ "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits/plan-apps": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Plan Approval Applications | Department of Environmental Protection | Commonwealth of Pennsylvania",
+  "textLength": 18802
+ },
+ "https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Operating Permits",
+  "textLength": 6719
+ },
+ "https://www.pa.gov/services/dep/apply-for-emission-reduction-credit-registry1": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Apply for Emission Reduction Credit Registry | Commonwealth of Pennsylvania",
+  "textLength": 3690
+ },
+ "http://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/FLM_MOU_signed.pdf": {
+  "status": 200,
+  "finalUrl": "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/FLM_MOU_signed.pdf",
+  "type": "pdf",
+  "textLength": 8
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=8904": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 496
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=36120": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 580
+ },
+ "https://www.pa.gov/content/dam/copapwp-pagov/en/dep/documents/business/air/baq/permits/documents/faq_gp-5_and_exemption_category_no_38.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 53346
+ },
+ "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/subchapItoc.html&d=reduce": {
+  "status": 200,
+  "type": "text/html",
+  "title": "25 Pa. Code Subchapter I. Plan Approval And Operating Permit Fees",
+  "textLength": 31585
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=4564": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 474
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3658": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 576
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3652": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 498
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3656": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 486
+ },
+ "https://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=927289": {
+  "status": 200,
+  "finalUrl": "https://greenport.pa.gov/elibrary//GetFolder?FolderID=927289",
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 498
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3626": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 498
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3662": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 448
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=3663": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 395
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=60774": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 488
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=4563": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 1377
+ },
+ "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/misc/DEP_risk_assessment_guidance.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 78047
+ },
+ "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/RACT/RACT%20III%20FAQ.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 17374
+ },
+ "https://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/contact_list.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 4820
+ },
+ "https://www.epa.gov/caa-permitting/caa-permitting-pennsylvania": {
+  "status": 200,
+  "type": "text/html",
+  "title": "CAA Permitting in Pennsylvania | US EPA",
+  "textLength": 5268
+ },
+ "https://www.depgreenport.state.pa.us/": {
+  "status": 200,
+  "finalUrl": "https://greenport.pa.gov/gpl/",
+  "type": "text/html",
+  "title": "PA.GOV | Department of Environmental Protection",
+  "textLength": 2112
+ },
+ "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=203696": {
+  "status": 200,
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "textLength": 471
+ },
+ "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permitting": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Preconstruction Permits | Rhode Island Department of Environmental Management",
+  "textLength": 16653
+ },
+ "https://rules.sos.ri.gov/regulations/Part/250-120-05-9": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Pollution Control Permits (250-RICR-120-05-9) - Rhode Island Department of State",
+  "textLength": 111315
+ },
+ "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/apcreg.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6124
+ },
+ "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/gpegapp.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 2313
+ },
+ "https://rules.sos.ri.gov/regulations/part/250-120-05-29": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Pollution Control Regulation No. 29 - Operating Permits - Rhode Island Department of State",
+  "textLength": 125445
+ },
+ "https://rules.sos.ri.gov/regulations/part/250-120-05-28": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Pollution Control Regulation No. 28- Operating Permit Fees - Rhode Island Department of State",
+  "textLength": 18469
+ },
+ "https://dem.ri.gov/online-services/applications-forms": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Applications & Forms | Rhode Island Department of Environmental Management",
+  "textLength": 35808
+ },
+ "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/emspa.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 21658
+ },
+ "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/emspa-cl.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3211
+ },
+ "https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/operating-permits": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://dem.ri.gov/programs/air/documents/bactguid.pdf": {
+  "status": 200,
+  "finalUrl": "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/bactguid.pdf",
+  "type": "pdf",
+  "textLength": 19476
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting | South Carolina Department of Environmental Services",
+  "textLength": 34781
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-permitting/construction-permits-air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Construction Permits (Air) | South Carolina Department of Environmental Services",
+  "textLength": 37855
+ },
+ "https://des.sc.gov/sites/des/files/Library/CR-010877.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 26871
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access denied | South Carolina Department of Environmental Services",
+  "textLength": 34299
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-permitting/general-and-registration-permits-air-quality": {
+  "status": 200,
+  "type": "text/html",
+  "title": "General and Registration Permits (Air Quality) | South Carolina Department of Environmental Services",
+  "textLength": 48789
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Operating Permits (Air) | South Carolina Department of Environmental Services",
+  "textLength": 38498
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in South Carolina | US EPA",
+  "textLength": 4656
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-permitting/guidance-emission-calculators-air-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Guidance & Emission Calculators for Air Permits | South Carolina Department of Environmental Services",
+  "textLength": 41051
+ },
+ "https://www.des.sc.gov/sites/des/files/Documents/BAQ/DepartmentDecisions/GCP%20Concrete/Permit.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 31067
+ },
+ "https://www.des.sc.gov/sites/des/files/media/document/2017-09-19_GCM%20Nonmetallic%20Mineral%20Permit.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 48944
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-permitting/sources-exempt-air-quality-construction-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Sources Exempt from Air Quality Construction Permits | South Carolina Department of Environmental Services",
+  "textLength": 36242
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/concrete-plants": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access denied | South Carolina Department of Environmental Services",
+  "textLength": 34299
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/gasoline-dispensing": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Gasoline Dispensing | South Carolina Department of Environmental Services",
+  "textLength": 35643
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/air-permitting-and-public-participation": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting and Public Participation | South Carolina Department of Environmental Services",
+  "textLength": 35899
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-permitting/baq-permitting-contacts-industry-sectors": {
+  "status": 200,
+  "type": "text/html",
+  "title": "BAQ Permitting: Contacts for Industry Sectors | South Carolina Department of Environmental Services",
+  "textLength": 41418
+ },
+ "https://des.sc.gov/permits-regulations/permit-central/epermitting-training": {
+  "status": 200,
+  "type": "text/html",
+  "title": "ePermitting Training | South Carolina Department of Environmental Services",
+  "textLength": 36247
+ },
+ "https://des.sc.gov/programs/bureau-air-quality/air-compliance/annual-air-quality-fees": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Annual Air Quality Fees | South Carolina Department of Environmental Services",
+  "textLength": 38339
+ },
+ "https://danr.sd.gov/Environment/AirQuality/default.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "South Dakota Air Quality Program",
+  "textLength": 6286
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "South Dakota Air Quality - Air Quality Permitting",
+  "textLength": 11327
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Insignificant%20Activities%2021.doc": {
+  "status": 200,
+  "type": "application/msword",
+  "textLength": 0
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/Applications.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "South Dakota Air Quality - Air Quality Permit Application",
+  "textLength": 2735
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Construction%2021.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 136657
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PN/GCPsb.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 42276
+ },
+ "https://sdlegislature.gov/Rules/Administrative/28180": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Loading... | South Dakota Legislature",
+  "textLength": 160
+ },
+ "https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37": {
+  "status": 200,
+  "finalUrl": "https://sdlegislature.gov/Rules/Administrative/74:37",
+  "type": "text/html",
+  "title": "Loading... | South Dakota Legislature",
+  "textLength": 160
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Minor%2021.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 136842
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/TitleV%2021.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 137149
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/EGenerator%2021.doc": {
+  "status": 200,
+  "type": "application/msword",
+  "textLength": 0
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/NOIRock%20Crushers%2021.doc": {
+  "status": 200,
+  "type": "application/msword",
+  "textLength": 0
+ },
+ "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/NOIConcretePlants%2026.docx": {
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "textLength": 140480
+ },
+ "https://apps.sd.gov/NR34AirQuality/public.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "SD DENR Air Quality Regulated Facilities",
+  "textLength": 3503
+ },
+ "https://danr.sd.gov/Environment/AirQuality/Docs/Consultants.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 19031
+ },
+ "https://www.epa.gov/caa-permitting/caa-permitting-south-dakota": {
+  "status": 200,
+  "type": "text/html",
+  "title": "CAA Permitting in South Dakota | US EPA",
+  "textLength": 4754
+ },
+ "https://www.tn.gov/environment/air.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.tn.gov/environment/permits/air.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://apcb.org/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Home | Chattanooga-Hamilton County Air Pollution Control Bureau",
+  "textLength": 5716
+ },
+ "https://www.knoxcounty.org/airquality/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Management - Knox County Tennessee Government",
+  "textLength": 4548
+ },
+ "https://www.shelbytnhealth.com/168/Air-Planning": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Planning | Shelby County Health Dept., TN",
+  "textLength": 3087
+ },
+ "https://www.nashville.gov/departments/health/environmental-health/air-pollution-control": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Pollution Control | Nashville.gov",
+  "textLength": 7058
+ },
+ "https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.tn.gov/environment/permits/air/permit-by-rule.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.tn.gov/environment/permits/air/general.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.tn.gov/environment/permits/air/construction.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.tn.gov/environment/permits/air/operating.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.tn.gov/content/tn/environment/permits/air/operating/title5.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://publications.tnsosfiles.com/rules/1200/1200-03/1200-03.htm": {
+  "status": 200,
+  "type": "text/html",
+  "title": "1200-03 - Air Pollution Control",
+  "textLength": 2114
+ },
+ "https://www.tn.gov/content/dam/tn/environment/air/documents/publicnotices/apc_ppo-chapter-1200-03-26-non-title-v-fees-signature-copy.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.tn.gov/content/dam/tn/environment/air/documents/apcmoved/permit_air_hap-list.pdf": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.tn.gov/environment/ppo/air.html": {
+  "status": 403,
+  "type": "text/html",
+  "title": "403 Forbidden",
+  "textLength": 28
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-tennessee": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in Tennessee | US EPA",
+  "textLength": 5011
+ },
+ "https://www.tceq.texas.gov/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Homepage - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 2610
+ },
+ "https://www.tceq.texas.gov/permitting/air/air_permits.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permitting - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 5904
+ },
+ "https://www.tceq.texas.gov/permitting/air/local_programs.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Local Air Pollution Control Programs - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 1979
+ },
+ "https://www.tceq.texas.gov/permitting/air/newsourcereview/de_minimis.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "New Source Review: De Minimis Facilities - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 2402
+ },
+ "https://www.tceq.texas.gov/permitting/air/permitbyrule/air_pbr_index.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Indexes to Air Permits by Rule - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3530
+ },
+ "https://www.tceq.texas.gov/permitting/air/newsourcereview/standard": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Standard Air Permits - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 14683
+ },
+ "https://www.tceq.texas.gov/permitting/air/newsourcereview/air_nsrpermits.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air New Source Review Permits - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 2991
+ },
+ "https://www.tceq.texas.gov/permitting/air/newsourcereview/flexible_permit.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Flexible Permits - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3403
+ },
+ "https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/ghg/ghg-permitting.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Greenhouse Gas Permitting - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 8307
+ },
+ "https://www.tceq.texas.gov/downloads/permitting/air/publications/nsr/factsheets/rg-636-factsheet-psd-na.pdf/@@download/file/rg-636-factsheet-psd-na.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 10246
+ },
+ "https://www.tceq.texas.gov/permitting/air/titlev/air_oppermits_v.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Operating Permits (Title V) - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3728
+ },
+ "https://www.tceq.texas.gov/permitting/air/permitbyrule/subchapter-o/oil_and_gas.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air PBR 106.352: Oil and Gas Handling and Production Facilities - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 6927
+ },
+ "https://www.tceq.texas.gov/permitting/air/permitbyrule/subchapter-o/mss-oil-gas.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air PBR 106.359: Planned Maintenance, Startup, and Shutdown at Oil and Gas Handling and Production Facilities - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 5986
+ },
+ "https://www.tceq.texas.gov/permitting/air/permitbyrule/subchapter-o/index.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air PBRs of Subchapter O - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3494
+ },
+ "https://www.tceq.texas.gov/permitting/air/newsourcereview/chemical/oil_and_gas_sp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Standard Permit for Oil and Gas Handling and Production Facilities - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 8316
+ },
+ "https://www.tceq.texas.gov/permitting/air/titlev/generalpermits/gop_no_511.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air GOP No. 511: Oil and Gas General Operating Permit - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3595
+ },
+ "https://www.tceq.texas.gov/permitting/air/titlev/generalpermits/gop_no_514.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air GOP No. 514: Oil and Gas General Operating Permit - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3712
+ },
+ "https://www.tceq.texas.gov/airquality/barnettshale": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Barnett Shale Geological Area - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3571
+ },
+ "https://www.tceq.texas.gov/permitting/air/rules/state/39/r39hp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title 30 TAC Chapter 39 - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 2026
+ },
+ "https://www.tceq.texas.gov/permitting/air/rules/state/statehp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Texas Administrative Code (TAC) Title 30 - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 2520
+ },
+ "https://www.tceq.texas.gov/permitting/air/rules/state/111/r1hp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title 30 TAC - Chapter 111 - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3758
+ },
+ "https://www.tceq.texas.gov/permitting/air/rules/state/112/r2hp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title 30 TAC - Chapter 112 - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 2474
+ },
+ "https://www.tceq.texas.gov/permitting/air/rules/state/113/r3hp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title 30 TAC - Chapter 113 - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 4624
+ },
+ "https://www.tceq.texas.gov/permitting/air/rules/state/115/r5hp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title 30 TAC - Chapter 115 - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 5917
+ },
+ "https://www.tceq.texas.gov/permitting/air/rules/state/117/r7hp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title 30 TAC Chapter 117 - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 6037
+ },
+ "https://www.tceq.texas.gov/permitting/air/rules/state/122/r12hp.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title 30 TAC Chapter 122 - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 5417
+ },
+ "https://www.tceq.texas.gov/permitting/air/forms/forms-index": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Application and Registration Forms for Air Permits - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3844
+ },
+ "https://www.tceq.texas.gov/permitting/air/nav/nsr_forms_forms.html": {
+  "status": 200,
+  "finalUrl": "https://www.tceq.texas.gov/permitting/air/forms/newsourcereview/nsr-forms",
+  "type": "text/html",
+  "title": "Forms for Air New Source Review Permits - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3242
+ },
+ "https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/nsrapp-tools.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "New Source Review Application Tools - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 11624
+ },
+ "https://www.tceq.texas.gov/publications/search_forms.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Search for Forms and Instructions - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 2134
+ },
+ "https://www.tceq.texas.gov/permitting/air/guidance/authorize.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Types of New Source Review Authorizations - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3983
+ },
+ "https://www.tceq.texas.gov/assets/public/permitting/air/factsheets/permit-factsheet.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 9097
+ },
+ "https://www.tceq.texas.gov/permitting/air/newsourcereview/before.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permits to Construct: Before You Build - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 4107
+ },
+ "https://www.tceq.texas.gov/assistance/industry/oil-and-gas/oilgas_air.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil and Gas Facilities: Air Compliance Information - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 11034
+ },
+ "https://www.tceq.texas.gov/permitting/air/titlev/pro_applicability.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Program Applicability - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3821
+ },
+ "https://www.tceq.texas.gov/permitting/air/modeling/modeling-index": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Dispersion Modeling - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 4517
+ },
+ "https://www.tceq.texas.gov/permitting/air/bilingual/publicnotice-airpermits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Public Notice Information for Air Permit Applications - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3176
+ },
+ "https://www.tceq.texas.gov/permitting/air/memos/air-memos-all": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Current Air Permitting Policy Memos, Guidance Memos, and Implementation Guidance - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 3058
+ },
+ "https://www.tceq.texas.gov/downloads/permitting/air/publications/nsr/factsheets/rg-635-factsheet-psd-na-sigemiss.pdf/@@download/file/rg-635-factsheet-psd-na-sigemiss.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 10683
+ },
+ "https://www.tceq.texas.gov/assets/public/permitting/air/Guidance/NewSourceReview/PermitsByRule/6244.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 6164
+ },
+ "https://www.tceq.texas.gov/permitting/air/fees": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Fees for Air Permitting - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "textLength": 2500
+ },
+ "https://deq.utah.gov/air-quality/general-permitting-information-air-quality": {
+  "status": 200,
+  "finalUrl": "https://deq.utah.gov/daq/air-quality-permitting-general",
+  "type": "text/html",
+  "title": "Air Quality General Permitting Information - Utah Department of Environmental Quality",
+  "textLength": 5753
+ },
+ "https://deq.utah.gov/daq/nsr-permitting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permitting Resources (New Source Review) - Utah Department of Environmental Quality",
+  "textLength": 4315
+ },
+ "https://deq.utah.gov/air-quality/new-source-review-exemptions-from-permitting-air-quality": {
+  "status": 200,
+  "finalUrl": "https://deq.utah.gov/daq/nsr-exemptions",
+  "type": "text/html",
+  "title": "Air Quality New Source Review Exemptions from Permitting - Utah Department of Environmental Quality",
+  "textLength": 5287
+ },
+ "https://deq.utah.gov/air-quality/air-quality-laws-and-rules": {
+  "status": 200,
+  "finalUrl": "https://deq.utah.gov/daq/air-quality-laws-and-rules",
+  "type": "text/html",
+  "title": "Air Quality Laws and Rules - Utah Department of Environmental Quality",
+  "textLength": 11579
+ },
+ "https://deq.utah.gov/air-quality/oil-and-gas-registration-pbr-and-emissions-reporting-system": {
+  "status": 200,
+  "finalUrl": "https://deq.utah.gov/daq/pbr-emissions-reporting",
+  "type": "text/html",
+  "title": "Air Quality Oil and Gas Registration/Emissions Reporting System - Utah Department of Environmental Quality",
+  "textLength": 5599
+ },
+ "https://rules.utah.gov/publicat/code/r307/r307-401.htm": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Utah Administrative Code",
+  "textLength": 156
+ },
+ "http://adminrules.utah.gov/Rule/640": {
+  "status": 200,
+  "finalUrl": "https://adminrules.utah.gov/Rule/640",
+  "type": "text/html",
+  "title": "Utah Office of Administrative Rules",
+  "textLength": 28027
+ },
+ "http://adminrules.utah.gov/Rule/647": {
+  "status": 200,
+  "finalUrl": "https://adminrules.utah.gov/Rule/647",
+  "type": "text/html",
+  "title": "Utah Office of Administrative Rules",
+  "textLength": 15021
+ },
+ "http://adminrules.utah.gov/Rule/643": {
+  "status": 200,
+  "finalUrl": "https://adminrules.utah.gov/Rule/643",
+  "type": "text/html",
+  "title": "Utah Office of Administrative Rules",
+  "textLength": 12822
+ },
+ "http://adminrules.utah.gov/Rule/642": {
+  "status": 200,
+  "finalUrl": "https://adminrules.utah.gov/Rule/642",
+  "type": "text/html",
+  "title": "Utah Office of Administrative Rules",
+  "textLength": 93564
+ },
+ "http://adminrules.utah.gov/Rule/2994": {
+  "status": 200,
+  "finalUrl": "https://adminrules.utah.gov/Rule/2994",
+  "type": "text/html",
+  "title": "Utah Office of Administrative Rules",
+  "textLength": 8279
+ },
+ "http://adminrules.utah.gov/Rule/2995": {
+  "status": 200,
+  "finalUrl": "https://adminrules.utah.gov/Rule/2995",
+  "type": "text/html",
+  "title": "Utah Office of Administrative Rules",
+  "textLength": 4455
+ },
+ "https://rules.utah.gov/publicat/code/r307/r307-505.htm": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Utah Administrative Code",
+  "textLength": 156
+ },
+ "https://rules.utah.gov/publicat/code/r307/r307-509.htm": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Utah Administrative Code",
+  "textLength": 156
+ },
+ "https://deq.utah.gov/daq/permitting-forms-air-quality": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permitting Forms - Utah Department of Environmental Quality",
+  "textLength": 6447
+ },
+ "https://lf-public.deq.utah.gov/WebLink/ElectronicFile.aspx?docid=388862&eqdocs=DAQ-2018-002271": {
+  "status": 200,
+  "finalUrl": "https://lf-public.deq.utah.gov/WebLink/ElectronicFile.aspx?docid=388862&eqdocs=DAQ-2018-002271&cr=1",
+  "type": "text/html",
+  "title": "STR_ERROR_PAGE_TITLE",
+  "textLength": 53
+ },
+ "https://tempo.deq.utah.gov/PBRRegistration/AIRequest/NEW": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Utah DAQ Permit By Rule Registration",
+  "textLength": 74
+ },
+ "https://deq.utah.gov/daq/source-size-categories": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permitting Source Size Categories - Utah Department of Environmental Quality",
+  "textLength": 4702
+ },
+ "https://deq.utah.gov/daq/air-quality-permitting-guidance": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permitting Guidelines - Utah Department of Environmental Quality",
+  "textLength": 4637
+ },
+ "https://deq.utah.gov/daq/operating-permit-fact-sheet": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Operating Permit Program Fact Sheet - Utah Department of Environmental Quality",
+  "textLength": 7560
+ },
+ "https://deq.utah.gov/daq/air-quality-small-business-assistance": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Small Business Environmental Assistance Program Air Quality - Utah Department of Environmental Quality",
+  "textLength": 5685
+ },
+ "https://www.epa.gov/caa-permitting/caa-permitting-utah": {
+  "status": 200,
+  "type": "text/html",
+  "title": "CAA Permitting in Utah | US EPA",
+  "textLength": 4714
+ },
+ "https://daqpermitting.utah.gov/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Permitting Notices - Utah Department of Environmental Quality",
+  "textLength": 1597
+ },
+ "https://deq.utah.gov/air-quality/fees-air-quality-permitting": {
+  "status": 200,
+  "finalUrl": "https://deq.utah.gov/daq/fees-and-payments-air-quality",
+  "type": "text/html",
+  "title": "Air Quality Fees and Payments - Utah Department of Environmental Quality",
+  "textLength": 11883
+ },
+ "https://dec.vermont.gov/air-quality/permits/construction": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Construction Permits | Department of Environmental Conservation",
+  "textLength": 7172
+ },
+ "https://dec.vermont.gov/air-quality/permits/source-categories/stationary-reciprocating-internal-combustion-engines": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Stationary Reciprocating Internal Combustion Engines | Department of Environmental Conservation",
+  "textLength": 20896
+ },
+ "https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 3976
+ },
+ "https://dec.vermont.gov/air-quality/permits/operating-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Operating Permits | Department of Environmental Conservation",
+  "textLength": 6545
+ },
+ "https://dec.vermont.gov/sites/dec/files/aqc/laws-regs/documents/AQCD%20Regulations%20ADOPTED_Dec132018.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 464536
+ },
+ "https://dec.vermont.gov/sites/dec/files/aqc/laws-regs/documents/VTAirStatutes07-01-2018.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 174203
+ },
+ "https://dec.vermont.gov/air-quality/permits/construction/application-guidance": {
+  "status": 200,
+  "finalUrl": "https://dec.vermont.gov/air-quality/permits/construction/construction-permit-application-guidance",
+  "type": "text/html",
+  "title": "Construction Permit Application Guidance | Department of Environmental Conservation",
+  "textLength": 10288
+ },
+ "https://dec.vermont.gov/air-quality/permits/operating/operating-permit-application-guidance": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Operating Permit Application Guidance | Department of Environmental Conservation",
+  "textLength": 12754
+ },
+ "https://dec.vermont.gov/air-quality/permits/construction/certification-of-notification-to-adjoining-landowners": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Public Notice and Certification of Notification to Adjoining Landowners | Department of Environmental Conservation",
+  "textLength": 7779
+ },
+ "https://dec.vermont.gov/air-quality/permits/source-categories": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Source Categories | Department of Environmental Conservation",
+  "textLength": 5329
+ },
+ "https://dec.vermont.gov/air-quality/permits/construction/air-quality-impact-evaluation": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Impact Evaluation | Department of Environmental Conservation",
+  "textLength": 6870
+ },
+ "https://dec.vermont.gov/air-quality/permits/faq": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Frequently Asked Questions | Department of Environmental Conservation",
+  "textLength": 18359
+ },
+ "https://dec.vermont.gov/air-quality/permits/air-permits-search": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permits Search | Department of Environmental Conservation",
+  "textLength": 3907
+ },
+ "https://dec.vermont.gov/air-quality/permits/permit-fees": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit Fees | Department of Environmental Conservation",
+  "textLength": 5524
+ },
+ "https://www.deq.virginia.gov/news-info/shortcuts/permits/air": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 259
+ },
+ "https://law.lis.virginia.gov/admincode/title9/agency5/chapter80/section1105/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "9VAC5-80-1105. Permit exemptions.",
+  "textLength": 25825
+ },
+ "https://law.lis.virginia.gov/admincodefull/title9/agency5/chapter80/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Forms (9VAC5-80)",
+  "textLength": 1056440
+ },
+ "https://law.lis.virginia.gov/admincodefull/title9/agency5/chapter80/partII/article6/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "9VAC5-80-1320. (Repealed.)",
+  "textLength": 139317
+ },
+ "https://www.deq.virginia.gov/permits/air/forms": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Access Denied",
+  "textLength": 247
+ },
+ "https://townhall.virginia.gov/l/GetFile.cfm?File=C%3A\\TownHall\\docroot\\GuidanceDocs\\440\\GDoc_DEQ_2183_v11.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 372530
+ },
+ "https://permits.virginia.gov/Agency/Deq": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+ },
+ "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air quality permits - Washington State Department of Ecology",
+  "textLength": 7279
+ },
+ "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/notice-of-construction-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Notice of construction permit - Washington State Department of Ecology",
+  "textLength": 6452
+ },
+ "https://bentoncleanair.org/for-business/air-operating-permits/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Operating Permits - Benton Clean Air Agency",
+  "textLength": 4103
+ },
+ "https://www.orcaa.org/air-quality/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality - ORCAA",
+  "textLength": 3931
+ },
+ "https://www.swcleanair.gov/permits/index.asp": {
+  "status": 200,
+  "type": "text/html",
+  "title": "SWCAA Permits",
+  "textLength": 7399
+ },
+ "https://www.pscleanair.org/101/Permits-Registration": {
+  "status": 200,
+  "finalUrl": "https://pscleanair.gov/101/Permits-Registration",
+  "type": "text/html",
+  "title": "Permits & Registration | Puget Sound Clean Air Agency, WA",
+  "textLength": 4014
+ },
+ "https://nwcleanairwa.gov/resources/aop-page/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Major Source Info & Air Operating Permits - Northwest Clean Air Agency",
+  "textLength": 12211
+ },
+ "https://spokanecleanair.org/for-business/air-operating-permits/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Operating Permits - Spokane Regional Clean Air Agency",
+  "textLength": 3014
+ },
+ "https://www.yakimacleanair.org/": {
+  "status": 403,
+  "type": "text/html",
+  "title": "Just a moment...",
+  "textLength": 16
+ },
+ "https://www.efsec.wa.gov/": {
+  "status": 200,
+  "finalUrl": "https://efsec.wa.gov/",
+  "type": "text/html",
+  "title": "Home | EFSEC",
+  "textLength": 9643
+ },
+ "http://apps.leg.wa.gov/wac/default.aspx?cite=173-400-110": {
+  "status": 200,
+  "finalUrl": "https://apps.leg.wa.gov/wac/default.aspx?cite=173-400-110",
+  "type": "text/html",
+  "title": "WAC 173-400-110:",
+  "textLength": 19549
+ },
+ "https://ecology.wa.gov/regulations-permits/reporting-requirements/air-quality-emissions-reporting/air-quality-registration": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air quality registration - Washington State Department of Ecology",
+  "textLength": 4675
+ },
+ "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-quality-general-orders": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air quality general orders - Washington State Department of Ecology",
+  "textLength": 7012
+ },
+ "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/prevention-of-significant-deterioration-psd": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Prevention of Significant Deterioration - Washington State Department of Ecology",
+  "textLength": 7490
+ },
+ "https://www.epa.gov/caa-permitting/clean-air-act-permitting-washington": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in Washington | US EPA",
+  "textLength": 6674
+ },
+ "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-operating-permit": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air operating permit - Washington State Department of Ecology",
+  "textLength": 6706
+ },
+ "http://apps.leg.wa.gov/wac/default.aspx?cite=173-400": {
+  "status": 200,
+  "finalUrl": "https://apps.leg.wa.gov/wac/default.aspx?cite=173-400",
+  "type": "text/html",
+  "title": "Chapter 173-400 WAC:",
+  "textLength": 7446
+ },
+ "https://app.leg.wa.gov/WAC/default.aspx?cite=173-400-560": {
+  "status": 200,
+  "type": "text/html",
+  "title": "WAC 173-400-560:",
+  "textLength": 10599
+ },
+ "http://apps.leg.wa.gov/WAC/default.aspx?cite=173-401": {
+  "status": 200,
+  "finalUrl": "https://apps.leg.wa.gov/WAC/default.aspx?cite=173-401",
+  "type": "text/html",
+  "title": "Chapter 173-401 WAC:",
+  "textLength": 5996
+ },
+ "http://apps.leg.wa.gov/WAC/default.aspx?cite=173-460-150": {
+  "status": 200,
+  "finalUrl": "https://apps.leg.wa.gov/WAC/default.aspx?cite=173-460-150",
+  "type": "text/html",
+  "title": "WAC 173-460-150:",
+  "textLength": 31275
+ },
+ "https://app.leg.wa.gov/WAC/default.aspx?cite=173-455-120": {
+  "status": 200,
+  "type": "text/html",
+  "title": "WAC 173-455-120:",
+  "textLength": 22680
+ },
+ "https://apps.ecology.wa.gov/publications/SummaryPages/ECY070410.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Notice of Construction Application",
+  "textLength": 2341
+ },
+ "https://apps.ecology.wa.gov/publications/SummaryPages/ECY070410A.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Instructions for Ecology's Notice of Construction Application",
+  "textLength": 2259
+ },
+ "https://apps.ecology.wa.gov/publications/SummaryPages/94175.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Operating Permit Application and Instructions",
+  "textLength": 2054
+ },
+ "https://apps.ecology.wa.gov/publications/SummaryPages/0502001.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Operating Permit Renewal Application and Instructions",
+  "textLength": 2017
+ },
+ "https://apps.ecology.wa.gov/publications/SummaryPages/ECY070416.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Application to Establish a Voluntary Emissions Limit",
+  "textLength": 2085
+ },
+ "https://apps.ecology.wa.gov/publications/SummaryPages/ECY070309.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "General Order Application: Automobile Body Repair and Refinishing Shops",
+  "textLength": 2155
+ },
+ "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/notice-of-construction-permit/health-impact-assessments-of-toxic-air-pollutants": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Health impact assessment of toxic air pollutants - Washington State Department of Ecology",
+  "textLength": 5242
+ },
+ "https://ecology.wa.gov/about-us/accountability-transparency/partnerships-committees/clean-air-agencies": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Clean air agencies - Washington State Department of Ecology",
+  "textLength": 4896
+ },
+ "https://www.oria.wa.gov/permithandbook/permitdetail/1": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality Notice of Construction (NOC) Permit",
+  "textLength": 9825
+ },
+ "https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-operating-permit/permit-register": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit Register - Washington State Department of Ecology",
+  "textLength": 3511
+ },
+ "https://ecology.wa.gov/202608permitfees": {
+  "status": 200,
+  "finalUrl": "https://ecology.wa.gov/getattachment/0af2759f-6852-4884-b9f1-ea564f60ae41/202609PermitFees.pdf",
+  "type": "pdf",
+  "textLength": 10575
+ },
+ "https://dep.wv.gov/daq/permitting/Pages/PermitLevelsfor45CSR13.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permit Levels for 45CSR13",
+  "textLength": 4985
+ },
+ "https://dep.wv.gov/daq/permitting/Pages/airgeneralpermit.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "General Permit Registration",
+  "textLength": 10555
+ },
+ "https://dep.wv.gov/Permits/Documents/Permitting_Handbooks/DAQ_PermittingHandbook.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 53844
+ },
+ "https://apps.dep.wv.gov/Documents/DAQ/GeneralPermit/G70-E/General%20Permit%20G70-E.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 116650
+ },
+ "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR13.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 87377
+ },
+ "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR22.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 12677
+ },
+ "https://apps.dep.wv.gov/Documents/DAQ/Rules/45CSR6.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 25617
+ },
+ "https://apps.dep.wv.gov/Documents/DAQ/Oil-and-Gas/Well%20Completion%20Notification%20Instructions.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 7693
+ },
+ "https://dep.wv.gov/daq/Pages/Oil-and-Gas.aspx": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Oil & Gas Well Pads Guidance: Air Permitting and Compliance",
+  "textLength": 16928
+ },
+ "https://dep.wv.gov/daq/permitting/Documents/GeneralPermits/G35-Draft/G35-E%20Fact%20Sheet%20DRAFT.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 63082
+ },
+ "https://dnr.wisconsin.gov/topic/AirPermits/Options.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permit Options | | Wisconsin DNR",
+  "textLength": 30366
+ },
+ "https://dnr.wisconsin.gov/topic/AirPermits/Apply.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "How to Apply for Air Permits | | Wisconsin DNR",
+  "textLength": 9932
+ },
+ "https://dnr.wisconsin.gov/topic/SmallBusiness/Exemptions.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air permit exemptions | | Wisconsin DNR",
+  "textLength": 38546
+ },
+ "https://dnr.wisconsin.gov/topic/AirPermits/Registration.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Registration Permit Options | | Wisconsin DNR",
+  "textLength": 19193
+ },
+ "https://dnr.wisconsin.gov/topic/SmallBusiness/PermitTypes.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air permit types for small businesses | | Wisconsin DNR",
+  "textLength": 18424
+ },
+ "https://dnr.wisconsin.gov/topic/AirPermits/Nonattainment.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Permitting Requirements for Nonattainment Areas in Wisconsin | | Wisconsin DNR",
+  "textLength": 21470
+ },
+ "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/405": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/406": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/407": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/408": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/410": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ "https://docs.legis.wisconsin.gov/code/admin_code/nr/400/445": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ "https://dnr.wisconsin.gov/topic/AirPermits/Forms.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Permit Forms | | Wisconsin DNR",
+  "textLength": 9172
+ },
+ "https://dnr.wisconsin.gov/topic/SmallBusiness/SmallAirSources.html": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Streamlined Permit Options for Small Sources of Air Pollution | | Wisconsin DNR",
+  "textLength": 18684
+ },
+ "https://docs.legis.wisconsin.gov/misc/lfb/informational_papers/january_2025/0072_air_management_programs_informational_paper_72.pdf": {
+  "status": 0,
+  "textLength": 0,
+  "error": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ "https://deq.wyoming.gov/aqd/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Quality - Wyoming Department of Environmental Quality",
+  "textLength": 7506
+ },
+ "https://deq.wyoming.gov/aqd/new-source-review/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "New Source Review - Wyoming Department of Environmental Quality",
+  "textLength": 15089
+ },
+ "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 500635
+ },
+ "https://www.federalregister.gov/documents/2016/06/02/2016-12725/approval-and-promulgation-of-air-quality-implementation-plans-wyoming-revisions-to-wyoming-air": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Federal Register :: Approval and Promulgation of Air Quality Implementation Plans; Wyoming; Revisions to Wyoming Air Quality Standards and Regulations",
+  "textLength": 28530
+ },
+ "https://deq.wyoming.gov/aqd/title-v-permitting/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Title V Permitting - Wyoming Department of Environmental Quality",
+  "textLength": 13214
+ },
+ "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/": {
+  "status": 500,
+  "type": "text/html",
+  "title": "DEQ continues to be Air Quality Leader with release of Oil and Gas Guidance Document - Wyoming Department of Environmental Quality",
+  "textLength": 8883
+ },
+ "https://deq.wyoming.gov/2024/12/the-wyoming-department-of-environmental-quality-begins-redesignation-process/": {
+  "status": 500,
+  "type": "text/html",
+  "title": "The Wyoming Department of Environmental Quality Begins Redesignation Process - Wyoming Department of Environmental Quality",
+  "textLength": 8965
+ },
+ "https://deq.wyoming.gov/2024/05/the-wyoming-department-of-environmental-quality-air-quality-division-issues-oil-and-gas-emergency-rulemaking/": {
+  "status": 500,
+  "type": "text/html",
+  "title": "The Wyoming Department of Environmental Quality – Air Quality Division issues Oil and Gas Emergency Rulemaking. - Wyoming Department of Environmental Quality",
+  "textLength": 8841
+ },
+ "https://www.govinfo.gov/content/pkg/FR-2016-06-02/pdf/2016-12725.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 22446
+ },
+ "https://deq.wyoming.gov/aqd/impact-and-open-air/": {
+  "status": 200,
+  "type": "text/html",
+  "title": "IMPACT and Open Air - Wyoming Department of Environmental Quality",
+  "textLength": 12386
+ },
+ "https://openair.wyo.gov": {
+  "status": 200,
+  "finalUrl": "https://openair.wyo.gov/disclaimer.jsf",
+  "type": "text/html",
+  "title": "IMPACT Home",
+  "textLength": 1416
+ },
+ "https://www.epa.gov/caa-permitting/wyoming-title-v-program-evaluation": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Wyoming Title V Program Evaluation | US EPA",
+  "textLength": 2792
+ },
+ "https://www.epa.gov/caa-permitting/caa-permitting-wyoming": {
+  "status": 200,
+  "type": "text/html",
+  "title": "CAA Permitting in Wyoming | US EPA",
+  "textLength": 4542
+ },
+ "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7412&num=0&edition=prelim": {
+  "status": 404,
+  "type": "text/html",
+  "title": "Page Not Found - US Code",
+  "textLength": 1156
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-81": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 81 -- Designation of Areas for Air Quality Planning Purposes",
+  "textLength": 27127
+ },
+ "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7407&num=0&edition=prelim": {
+  "status": 404,
+  "type": "text/html",
+  "title": "Page Not Found - US Code",
+  "textLength": 1156
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-64": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 64 -- Compliance Assurance Monitoring",
+  "textLength": 53573
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 60 -- Standards of Performance for New Stationary Sources",
+  "textLength": 181463
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-50": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 50 -- National Primary and Secondary Ambient Air Quality Standards",
+  "textLength": 576329
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-98": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 98 -- Mandatory Greenhouse Gas Reporting",
+  "textLength": 2471038
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 63 -- National Emission Standards for Hazardous Air Pollutants for Source Categories",
+  "textLength": 278916
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-61": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 61 -- National Emission Standards for Hazardous Air Pollutants",
+  "textLength": 1244536
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 51 -- Requirements for Preparation, Adoption, and Submittal of Implementation Plans",
+  "textLength": 2055285
+ },
+ "https://texreg.sos.state.tx.us/public/readtac$ext.ViewTAC?tac_view=4&ti=30&pt=1&ch=106": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Site Has Moved",
+  "textLength": 185
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 52 -- Approval and Promulgation of Implementation Plans",
+  "textLength": 65101
+ },
+ "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7410&num=0&edition=prelim": {
+  "status": 404,
+  "type": "text/html",
+  "title": "Page Not Found - US Code",
+  "textLength": 1156
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 70 -- State Operating Permit Programs",
+  "textLength": 277690
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-71": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 71 -- Federal Operating Permit Programs",
+  "textLength": 229521
+ },
+ "https://www.ecfr.gov/current/title-40/section-70.6": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.6",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.6 -- Permit content.",
+  "textLength": 28489
+ },
+ "https://www.ecfr.gov/current/title-40/section-52.21": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "textLength": 149263
+ },
+ "https://www.govinfo.gov/content/pkg/CFR-2020-title40-vol3/pdf/CFR-2020-title40-vol3-sec52-21.pdf": {
+  "status": 200,
+  "type": "pdf",
+  "textLength": 173431
+ },
+ "https://www.epa.gov/nsr": {
+  "status": 200,
+  "type": "text/html",
+  "title": "New Source Review (NSR) Permitting | US EPA",
+  "textLength": 3835
+ },
+ "https://www.ecfr.gov/current/title-40/section-70.7": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.7",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.7 -- Permit issuance, renewal, reopenings, and revisions.",
+  "textLength": 33063
+ },
+ "https://www.epa.gov/title-v-operating-permits": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Operating Permits Issued under Title V of the Clean Air Act | US EPA",
+  "textLength": 2649
+ },
+ "https://www.ecfr.gov/current/title-40/section-63.2": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-A/section-63.2",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.2 -- Definitions.",
+  "textLength": 35527
+ },
+ "https://www.ecfr.gov/current/title-40/section-60.8": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-A/section-60.8",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.8 -- Performance tests.",
+  "textLength": 27128
+ },
+ "https://www.epa.gov/emc": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Air Emission Measurement Center (EMC) | US EPA",
+  "textLength": 6261
+ },
+ "https://www.ecfr.gov/current/title-40/section-63.7": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-A/section-63.7",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.7 -- Performance testing requirements.",
+  "textLength": 42371
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/section-52.21": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "textLength": 149263
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.2": {
+  "status": 200,
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.2 -- Definitions.",
+  "textLength": 28316
+ },
+ "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors-stationary-sources": {
+  "status": 200,
+  "type": "text/html",
+  "title": "AP-42: Compilation of Air Emissions Factors from Stationary Sources | US EPA",
+  "textLength": 4942
+ },
+ "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/section-51.165": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/subpart-I/section-51.165",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 51.165 -- Permit requirements.",
+  "textLength": 110855
+ },
+ "https://www.epa.gov/green-book": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Nonattainment Areas for Criteria Pollutants (Green Book) | US EPA",
+  "textLength": 3494
+ },
+ "https://www.epa.gov/ghgreporting": {
+  "status": 200,
+  "type": "text/html",
+  "title": "Greenhouse Gas Reporting Program (GHGRP) | US EPA",
+  "textLength": 4453
+ },
+ "https://www.ecfr.gov/current/title-40/section-60.4233": {
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-JJJJ/subject-group-ECFR9dcaa92eb62138c/section-60.4233",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.4233 -- What emission standards must I meet if I am an owner or operator of a stationary SI internal combustion engine?",
+  "textLength": 15452
+ }
+}
