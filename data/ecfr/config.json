@@ -24,7 +24,7 @@
     { "part": 60, "subpart": "WWW" },
     { "part": 60, "subpart": "XXX" },
     { "part": 60, "subpart": "Cf" },
-    { "part": 60, "subpart": "TTTT" },
+    { "part": 60, "subpart": "TTTT", "quote": ["60.5509"] },
     { "part": 63, "subpart": "A" },
     { "part": 63, "subpart": "CC" },
     { "part": 63, "subpart": "HH" },

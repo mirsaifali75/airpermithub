@@ -9,7 +9,7 @@
  */
 
 export type RulePart = 60 | 63 | 98;
-export type RuleCategory = "oil-gas" | "engines" | "turbines" | "boilers" | "storage" | "refining" | "ghg" | "general";
+export type RuleCategory = "oil-gas" | "engines" | "turbines" | "boilers" | "storage" | "gasoline" | "refining" | "chemical" | "power" | "minerals" | "landfills" | "manufacturing" | "ghg" | "general";
 
 export interface EcfrSection {
   id: string | null;
@@ -60,7 +60,13 @@ export const ruleCategories: { key: RuleCategory; label: string; description: st
   { key: "turbines", label: "Combustion turbines", description: "Stationary gas and combustion turbines." },
   { key: "boilers", label: "Boilers and process heaters", description: "Steam generating units, boilers, and process heaters." },
   { key: "storage", label: "Storage tanks and liquid transfer", description: "Volatile organic liquid storage vessels and organic liquids distribution." },
+  { key: "gasoline", label: "Gasoline distribution", description: "Gasoline dispensing facilities and bulk gasoline terminals and plants." },
   { key: "refining", label: "Petroleum refineries", description: "Refinery process units and related equipment." },
+  { key: "chemical", label: "Chemical manufacturing", description: "Organic chemical manufacturing process units." },
+  { key: "power", label: "Power plants", description: "Electric utility steam generating units and generating plants." },
+  { key: "minerals", label: "Aggregates and asphalt", description: "Nonmetallic mineral processing and hot mix asphalt plants." },
+  { key: "landfills", label: "Landfills", description: "Municipal solid waste landfills." },
+  { key: "manufacturing", label: "Surface coating and metal work", description: "Paint stripping, surface coating, metal fabrication, and solvent cleaning." },
   { key: "ghg", label: "Greenhouse gas reporting", description: "40 CFR Part 98 reporting requirements." },
   { key: "general", label: "General provisions", description: "Provisions that apply across a part unless a subpart says otherwise." },
 ];
@@ -87,9 +93,30 @@ export const ruleMeta: RuleMeta[] = [
   { part: 60, subpart: "Kb", category: "storage", also: ["oil-gas"] },
   { part: 60, subpart: "Kc", category: "storage" },
   { part: 63, subpart: "EEEE", category: "storage", aka: ["OLD MACT"] },
+  { part: 63, subpart: "CCCCCC", category: "gasoline", aka: ["6C", "GDF rule"] },
+  { part: 63, subpart: "BBBBBB", category: "gasoline", aka: ["6B"] },
   { part: 63, subpart: "CC", category: "refining", aka: ["Refinery MACT 1"] },
+  { part: 63, subpart: "UUU", category: "refining", aka: ["Refinery MACT 2"] },
+  { part: 60, subpart: "Ja", category: "refining" },
+  { part: 60, subpart: "J", category: "refining" },
+  { part: 63, subpart: "FFFF", category: "chemical", aka: ["MON"] },
+  { part: 60, subpart: "Da", category: "power" },
+  { part: 60, subpart: "TTTT", category: "power" },
+  { part: 63, subpart: "UUUUU", category: "power", aka: ["MATS"] },
+  { part: 60, subpart: "OOO", category: "minerals" },
+  { part: 60, subpart: "I", category: "minerals" },
+  { part: 60, subpart: "XXX", category: "landfills" },
+  { part: 60, subpart: "WWW", category: "landfills" },
+  { part: 60, subpart: "Cf", category: "landfills" },
+  { part: 63, subpart: "AAAA", category: "landfills" },
+  { part: 63, subpart: "HHHHHH", category: "manufacturing", aka: ["6H"] },
+  { part: 63, subpart: "XXXXXX", category: "manufacturing", aka: ["6X"] },
+  { part: 63, subpart: "T", category: "manufacturing" },
   { part: 98, subpart: "W", category: "ghg", also: ["oil-gas"], aka: ["GHGRP Subpart W"] },
   { part: 98, subpart: "C", category: "ghg", aka: ["GHGRP Subpart C"] },
+  { part: 98, subpart: "D", category: "ghg", also: ["power"], aka: ["GHGRP Subpart D"] },
+  { part: 98, subpart: "Y", category: "ghg", also: ["refining"], aka: ["GHGRP Subpart Y"] },
+  { part: 98, subpart: "HH", category: "ghg", also: ["landfills"], aka: ["GHGRP Subpart HH"] },
   { part: 98, subpart: "A", category: "ghg", also: ["general"] },
   { part: 60, subpart: "A", category: "general" },
   { part: 63, subpart: "A", category: "general" },

@@ -1,6 +1,8 @@
 // Pulls official rule text from the eCFR API for the subparts in data/ecfr/config.json
 // and writes one JSON file per subpart. A file is rewritten only when the rule text,
 // headings, or amendment dates change, so a diff means eCFR changed.
+// A config entry can list extra section ids to quote in `quote` when a subpart's
+// applicability section has a heading the automatic match doesn't catch.
 // Usage: node scripts/sync-ecfr.mjs [--report report.md]
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
@@ -14,7 +16,7 @@ const reportPath = arg("--report");
 const today = new Date().toISOString().slice(0, 10);
 
 /** Section headings whose full text is kept: the parts of a subpart that say who it covers. */
-const QUOTE_RE = /^(applicability|am i subject|am i affected|does this subpart apply|what is the purpose of this subpart|what parts of my (plant|facility)|what is the affected source|who must report|definition of the source category|reporting threshold)/i;
+const QUOTE_RE = /^(applicability|am i subject|am i affected|does this subpart apply|what is the purpose of this subpart|what parts of my (plant|facility)|what is the affected source|who must report|definition of (the )?source category|reporting threshold|scope\b|designated facilities)/i;
 const MAX_QUOTES = 4;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -54,7 +56,7 @@ export function text(x) {
 }
 
 /** Parses the eCFR XML for one subpart. */
-export function parseSubpart(xml) {
+export function parseSubpart(xml, extraQuotes = []) {
   const top = xml.match(/<DIV6[^>]*TYPE="SUBPART"[^>]*>\s*<HEAD>([\s\S]*?)<\/HEAD>/);
   if (!top) throw new Error("No subpart heading in eCFR response");
   const fullHeading = text(top[1]);
@@ -74,12 +76,12 @@ export function parseSubpart(xml) {
       sections.push({ id: null, heading: head, group: "Tables and appendices", kind: "table" });
       continue;
     }
-    const h = head.match(/^§+\s*([0-9]+\.[0-9]+[a-z]*)(?:\s*[-–—]\s*[0-9]+\.[0-9]+[a-z]*)?\s*(.*)$/);
+    const h = head.match(/^§+\s*([0-9]+\.[0-9]+[a-zA-Z]*)(?:\s*[-–—]\s*[0-9]+\.[0-9]+[a-zA-Z]*)?\s*(.*)$/);
     if (!h) continue;
     const [, id, rest] = h;
     const reserved = /\[Reserved\]/i.test(rest);
     sections.push({ id, heading: rest.trim(), group, kind: reserved ? "reserved" : "section" });
-    if (!reserved && QUOTE_RE.test(rest.trim()) && quotes.length < MAX_QUOTES) {
+    if (!reserved && (extraQuotes.includes(id) || (QUOTE_RE.test(rest.trim()) && quotes.length < MAX_QUOTES))) {
       const paragraphs = [];
       for (const p of body.matchAll(/<(P|FP)\b[^>]*>([\s\S]*?)<\/\1>|<ROW\b[^>]*>([\s\S]*?)<\/ROW>|<TTITLE>([\s\S]*?)<\/TTITLE>/g)) {
         const t = p[3] !== undefined
@@ -117,12 +119,12 @@ async function main() {
   const lines = [`# eCFR snapshot`, ``, `Title ${title} up to date as of ${date} (eCFR). Checked ${today}.`, ``];
   let failed = 0, changed = 0;
 
-  for (const { part, subpart } of subparts) {
+  for (const { part, subpart, quote = [] } of subparts) {
     const label = `40 CFR Part ${part}, Subpart ${subpart}`;
     try {
       const q = `part=${part}&subpart=${encodeURIComponent(subpart)}`;
       const xml = await get(`${API}/full/${date}/title-${title}.xml?${q}`, "text");
-      const parsed = parseSubpart(xml);
+      const parsed = parseSubpart(xml, quote);
       let versions = { bySection: {}, dates: [] };
       try { versions = parseVersions(await get(`${API}/versions/title-${title}.json?${q}`, "json")); } catch (e) { lines.push(`- ⚠️ ${label}: amendment dates unavailable (${e.message})`); }
       const sections = parsed.sections.map((s) => ({ ...s, lastAmended: (s.id && versions.bySection[s.id]) ?? null }));
