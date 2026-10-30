@@ -60,3 +60,12 @@ describe("source verifier", () => {
     expect(htmlText("<html><script>var x=1</script><p>Air&nbsp;permits &amp; forms</p></html>")).toBe("Air permits & forms");
   });
 });
+
+describe("quote fragments", () => {
+  it("splits on ellipses and drops bracketed insertions", async () => {
+    // @ts-expect-error plain ESM script without type declarations
+    const { quoteFragments } = await import("../../scripts/verify-sources.mjs");
+    expect(quoteFragments("PTE less than 5 tons per year [PM, NOx] ... PTE less than 1000 pounds per month [VOC]")).toEqual(["PTE less than 5 tons per year", "PTE less than 1000 pounds per month"]);
+    expect(quoteFragments("100 tons per year or more … 10 tons per year")).toEqual(["100 tons per year or more", "10 tons per year"]);
+  });
+});

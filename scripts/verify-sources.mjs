@@ -41,13 +41,37 @@ export function htmlText(html) {
     .replace(/<(script|style|noscript|svg|template)\b[\s\S]*?<\/\1>/gi, " ")
     .replace(/<br\s*\/?>/gi, "\n")
     .replace(/<\/(p|div|li|tr|h[1-6]|td|th|section|article|dd|dt)>/gi, "\n")
-    .replace(/<[^>]+>/g, " ");
+    .replace(/<[a-zA-Z/!](?:[^>"']|"[^"]*"|'[^']*')*>/g, " ");
   return decode(body).replace(/[ \t\r\f\v ]+/g, " ").replace(/\n\s*/g, "\n").trim();
 }
 export const titleOf = (html) => decode(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").replace(/\s+/g, " ").trim();
 
 /** Lowercase letters and digits only: ignores spacing, punctuation, line-break hyphens, and quote styles. */
 export const alnum = (s) => s.normalize("NFKD").toLowerCase().replace(/[^a-z0-9]/g, "");
+
+/**
+ * Pieces of a quote that must each appear word for word: text between
+ * ellipses, with [bracketed editorial insertions] removed.
+ */
+export function quoteFragments(quote) {
+  return quote
+    .replace(/\[[^\]]*\]/g, " ")
+    .split(/\s*(?:\.\.\.|…)\s*/)
+    .map((f) => f.trim().replace(/^[,;:\s]+|[,;:\s]+$/g, ""))
+    .filter((f) => f.split(/\s+/).length >= 2);
+}
+
+/** Text around the first place a quote's wording shows up, for an editor fixing a quote. */
+export function contextFor(quote, text, size = 1200) {
+  const words = quote.replace(/\[[^\]]*\]/g, " ").split(/\s+/).filter((w) => /[a-z0-9]/i.test(w));
+  const lower = text.toLowerCase();
+  for (let i = 0; i + 4 <= words.length; i++) {
+    const probe = words.slice(i, i + 4).join(" ").toLowerCase().replace(/[.,;:]+$/, "");
+    const at = lower.indexOf(probe);
+    if (at >= 0) return text.slice(Math.max(0, at - 300), at + size).replace(/\s+/g, " ");
+  }
+  return null;
+}
 
 /** Share of the quote's 6-word runs that appear in the text, 0 to 1. */
 export function coverage(quote, textAlnum) {
@@ -183,6 +207,7 @@ async function fetchPage(url) {
 
 let ecfrDate = null;
 const sectionCache = new Map();
+const rawSections = new Map();
 async function ecfrSection(section) {
   if (sectionCache.has(section)) return sectionCache.get(section);
   const p = (async () => {
@@ -193,6 +218,7 @@ async function ecfrSection(section) {
         if (res.status === 404 || res.status === 400) return { exists: false };
         if (res.ok) {
           const xml = await res.text();
+          rawSections.set(section, xml);
           const head = decode((xml.match(/<HEAD>([\s\S]*?)<\/HEAD>/)?.[1] ?? "").replace(/<[^>]+>/g, "")).replace(/\s+/g, " ").trim();
           return { exists: true, head, paras: ecfrParagraphs(xml) };
         }
@@ -234,12 +260,17 @@ async function check(c) {
     if (problem) return problem;
     if (c.kind === "quote") {
       if (page.textAlnum.includes(alnum(c.text))) return { result: "verified" };
+      const frags = quoteFragments(c.text);
+      const missing = frags.filter((f) => !page.textAlnum.includes(alnum(f)));
+      if (frags.length > 1 && missing.length === 0) return { result: "verified", detail: `${frags.length} excerpts joined with ellipses, each found word for word` };
       const cov = coverage(c.text, page.textAlnum);
-      return { result: cov >= 0.8 ? "near" : "not-found", detail: `${Math.round(cov * 100)}% of the quote's wording found`, candidates: closestSentences(c.text, page.text) };
+      return { result: cov >= 0.8 ? "near" : "not-found", detail: `${Math.round(cov * 100)}% of the quote's wording found${frags.length > 1 ? `; ${missing.length} of ${frags.length} excerpts missing` : ""}`, missing, candidates: closestSentences(c.text, page.text), context: contextFor(c.text, page.text) };
     }
     if (c.kind === "name") {
       const hay = page.textAlnum + alnum(page.title ?? "");
-      return hay.includes(alnum(c.text)) ? { result: "verified" } : { result: "not-found", detail: page.title ? `page title: ${page.title}` : undefined };
+      const plain = c.text.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+      if (hay.includes(alnum(c.text)) || hay.includes(alnum(plain))) return { result: "verified" };
+      return { result: "not-found", detail: page.title ? `page title: ${page.title}` : undefined };
     }
     if (c.kind === "citation") {
       const core = c.text.match(/[\d][\d.:\-–A-Za-z]*\d/g)?.at(-1);
@@ -248,7 +279,7 @@ async function check(c) {
     }
     const nums = numbersIn(c.text);
     const missing = nums.filter((n) => !hasNumber(page.text, n));
-    return { result: missing.length ? "numbers-missing" : "numbers-found", detail: missing.length ? `not on page: ${missing.join(", ")}` : `${nums.length} numbers found`, candidates: closestSentences(c.text, page.text) };
+    return { result: missing.length ? "numbers-missing" : "numbers-found", detail: missing.length ? `not on page: ${missing.join(", ")}` : `${nums.length} numbers found`, candidates: closestSentences(c.text, page.text), context: missing.length ? contextFor(c.text, page.text) : undefined };
   }
   // 40 CFR checks
   const cites = (c.cite ?? "").split("|").map(splitCite).filter(Boolean);
@@ -260,7 +291,7 @@ async function check(c) {
     if (!sec.exists) { results.push({ result: "not-found", detail: `§ ${section} not in current eCFR` }); continue; }
     const desExists = !des || sec.paras.some((p) => p.des === des || p.des.startsWith(`${des}(`));
     if (c.kind === "cfr") { results.push(desExists ? { result: "verified", detail: sec.head } : { result: "not-found", detail: `§ ${section} exists but paragraph ${des} not found` }); continue; }
-    const target = alnum(c.text);
+    const target = alnum(c.kind === "cfr-term" ? c.text.replace(/\s*\([^)]*\)\s*/g, " ") : c.text);
     if (desExists && alnum(paragraphText(sec.paras, des)).includes(target)) { results.push({ result: "verified", detail: `§ ${section}${des}` }); continue; }
     const elsewhere = sec.paras.find((p) => alnum(p.text).includes(target));
     if (elsewhere) { results.push({ result: "other-paragraph", detail: `found in § ${section}${elsewhere.des}, cited ${des || "section"}` }); continue; }
@@ -302,6 +333,23 @@ async function main() {
   for (const [u, p] of pageCache) {
     const page = await p;
     urls[u] = { status: page.status, finalUrl: page.finalUrl && page.finalUrl !== u ? page.finalUrl : undefined, type: page.type, title: page.title || undefined, textLength: page.text?.length ?? 0, error: page.error };
+  }
+  const debugDir = arg("--debug", null);
+  if (debugDir) {
+    mkdirSync(join(debugDir, "ecfr"), { recursive: true });
+    mkdirSync(join(debugDir, "pages"), { recursive: true });
+    for (const [sec, xml] of rawSections) writeFileSync(join(debugDir, "ecfr", `${sec}.xml`), xml);
+    const textUrls = new Set(claims.filter((c) => ["quote", "threshold"].includes(c.kind)).map((c) => c.url.split("#")[0]));
+    const index = {};
+    let n = 0;
+    for (const u of textUrls) {
+      const page = await pageCache.get(u);
+      if (!page?.text) continue;
+      const name = `p${String(++n).padStart(3, "0")}.txt`;
+      index[name] = u;
+      writeFileSync(join(debugDir, "pages", name), page.text);
+    }
+    writeFileSync(join(debugDir, "pages", "index.json"), JSON.stringify(index, null, 1));
   }
   writeFileSync(join(outDir, "report.json"), JSON.stringify({ checkedOn, ecfrDate, summary, results }, null, 1) + "\n");
   writeFileSync(join(outDir, "urls.json"), JSON.stringify(urls, null, 1) + "\n");

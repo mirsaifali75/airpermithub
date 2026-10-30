@@ -27,7 +27,7 @@ jobs:
       - run: npx vitest run src/lib/verify-export.test.ts
         env:
           VERIFY_OUT: verify-claims.json
-      - run: node scripts/verify-sources.mjs --claims verify-claims.json --out data/verification
+      - run: node scripts/verify-sources.mjs --claims verify-claims.json --out data/verification --debug verification-debug
       - run: head -c 900000 data/verification/report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Save the report on a branch
         run: |
@@ -35,6 +35,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add data/verification
+          git add data/verification verification-debug
           git commit -m "Source verification report"
           git push -u origin "$branch"
