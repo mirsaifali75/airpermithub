@@ -68,7 +68,11 @@
         "description": "Class II general permit for well sites; annual certification and annual fee. Alternative Operating Scenario notifications are filed through ESS.",
         "citation": "45CSR13",
         "url": "https://apps.dep.wv.gov/Documents/DAQ/GeneralPermit/G70-E/General%20Permit%20G70-E.pdf",
-        "thresholds": "DAQ guidance: a permit is generally required if condensate production exceeds 0.5 barrels (21 gallons) per day, or facility-wide uncontrolled VOC potential exceeds 6 lb/hr (144 lb/day), or benzene/formaldehyde reaches 1,000 lb/yr or more (restated)."
+        "thresholds": "DAQ guidance: a permit is generally required if condensate production exceeds 0.5 barrels (21 gallons) per day, or facility-wide uncontrolled VOC potential exceeds 6 lb/hr (144 lb/day), or benzene/formaldehyde reaches 1,000 lb/yr or more (restated).",
+        "thresholdsSource": {
+          "name": "WV DAQ Oil and Gas Well Pads guidance brochure",
+          "url": "https://dep.wv.gov/daq/CandE/Documents/OilGasWellPadsGuidance_Brochure.pdf"
+        }
       },
       {
         "type": "general",

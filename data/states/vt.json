@@ -25,7 +25,11 @@
       "description": "Required before a facility commences construction of a new air contaminant source or modification. Lasts for the life of the project. Processing about 150 days for a complete minor application; base fee plus supplemental fees for engineering review, modeling, and emission testing (per DEC Permit Handbook Sheet #14, April 2020).",
       "citation": "VAPCR §§5-401, 5-501, 5-502, 5-504; 10 V.S.A. §556",
       "url": "https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf",
-      "thresholds": "Example trigger: non-emergency engines over 300 bhp (restated from DEC RICE guidance)."
+      "thresholds": "Example trigger: non-emergency engines over 300 bhp (restated from DEC RICE guidance).",
+      "thresholdsSource": {
+        "name": "Vermont DEC: Stationary RICE",
+        "url": "https://dec.vermont.gov/air-quality/permits/source-categories/stationary-reciprocating-internal-combustion-engines"
+      }
     },
     {
       "type": "psd",

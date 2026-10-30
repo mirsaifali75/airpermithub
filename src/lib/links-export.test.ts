@@ -17,7 +17,7 @@ function collect() {
   for (const g of guides) for (const s of g.sources) out.push({ url: s.url, where: `guide: ${g.slug}` });
   for (const r of federalRegulations) for (const s of r.sources) out.push({ url: s.url, where: `regulation: ${r.slug}` });
   for (const c of converters) for (const s of c.sources) out.push({ url: s.url, where: `converter: ${c.slug}` });
-  out.push({ url: nsrRuleText.source.url, where: "nsr tool" }, { url: nsrRuleText.current.url, where: "nsr tool" });
+  out.push({ url: nsrRuleText.printEdition.url, where: "nsr tool" }, { url: nsrRuleText.current.url, where: "nsr tool" });
   return out;
 }
 

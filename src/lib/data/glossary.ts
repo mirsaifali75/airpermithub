@@ -14,17 +14,20 @@ export interface GlossaryTerm {
   abbr?: string;
   category: GlossaryCategory;
   definition: string;
-  cites: { label: string; url: string }[];
+  /** `match`: wording the cited provision must contain, when the provision governs the term rather than defining it word for word. */
+  cites: { label: string; url: string; match?: string }[];
   related?: string[];
   links?: { label: string; href: string }[];
 }
 
-const s = (section: string, para?: string) => ({
+const s = (section: string, para?: string, match?: string) => ({
   label: `40 CFR ${section}${para ?? ""}`,
   url: `https://www.ecfr.gov/current/title-40/section-${section}${para ? `#p-${section}${para}` : ""}`,
+  ...(match ? { match } : {}),
 });
 const part = (n: number, label?: string) => ({ label: label ?? `40 CFR Part ${n}`, url: `https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-${n}` });
-const usc = (section: number, label: string) => ({ label, url: `https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section${section}&num=0&edition=prelim` });
+// govinfo's annual U.S. Code edition: a stable PDF per section (uscode.house.gov links refuse automated checks)
+const usc = (section: number, label: string) => ({ label, url: `https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec${section}.pdf` });
 
 export const glossary: GlossaryTerm[] = [
   {
@@ -45,7 +48,7 @@ export const glossary: GlossaryTerm[] = [
   {
     slug: "annual-compliance-certification", term: "Annual compliance certification", category: "Title V",
     definition: "The Title V report in which the responsible official certifies the facility's compliance status with each permit term over the period, identifies the methods used to determine it, and notes any deviations. The permit sets the frequency and due date.",
-    cites: [s("70.6", "(c)(5)")], related: ["responsible-official", "deviation", "semiannual-monitoring-report"],
+    cites: [s("70.6", "(c)(5)", "compliance certification")], related: ["responsible-official", "deviation", "semiannual-monitoring-report"],
     links: [{ label: "Title V Deviation Log", href: "/tools/deviation-log" }],
   },
   {
@@ -93,7 +96,7 @@ export const glossary: GlossaryTerm[] = [
   {
     slug: "commence-construction", term: "Commence construction", category: "New Source Review",
     definition: "In PSD, having all necessary preconstruction approvals and either beginning actual construction or entering binding agreements that cannot be cancelled without substantial loss. NSPS uses its own definition of commenced to set applicability dates.",
-    cites: [s("52.21", "(b)(9)"), s("60.2")], related: ["begin-actual-construction", "affected-facility"],
+    cites: [s("52.21", "(b)(9)", "Commence as applied to construction"), s("60.2", undefined, "Commenced means")], related: ["begin-actual-construction", "affected-facility"],
   },
   {
     slug: "criteria-pollutants", term: "Criteria pollutants", category: "Air Quality Planning",
@@ -102,8 +105,8 @@ export const glossary: GlossaryTerm[] = [
   },
   {
     slug: "deviation", term: "Deviation", category: "Title V",
-    definition: "Any instance in which a source fails to meet a permit term or applicable requirement, including emission limits, operating limits, and monitoring or recordkeeping obligations. Part 63 defines the term; Title V permits require prompt reporting of deviations and identification of all of them in periodic reports.",
-    cites: [s("63.2"), s("70.6", "(a)(3)(iii)")], related: ["semiannual-monitoring-report", "annual-compliance-certification", "excursion"],
+    definition: "Any instance in which a source fails to meet a permit term or applicable requirement, including emission limits, operating limits, and monitoring or recordkeeping obligations. Part 63 subparts define the term in their own definitions sections (for example, 40 CFR 63.6675 for stationary engines); Title V permits require prompt reporting of deviations and identification of all of them in periodic reports.",
+    cites: [s("63.6675", undefined, "Deviation means"), s("70.6", "(a)(3)(iii)", "deviations")], related: ["semiannual-monitoring-report", "annual-compliance-certification", "excursion"],
     links: [{ label: "Title V Deviation Log", href: "/tools/deviation-log" }],
   },
   {
@@ -212,7 +215,7 @@ export const glossary: GlossaryTerm[] = [
   {
     slug: "nnsr", term: "Nonattainment New Source Review", abbr: "NNSR", category: "New Source Review",
     definition: "Preconstruction review for new major sources and major modifications in nonattainment areas, for the pollutants for which the area is nonattainment. It requires LAER, emission offsets, and other demonstrations.",
-    cites: [s("51.165"), part(51, "40 CFR Part 51, Appendix S")], related: ["laer", "offsets", "psd", "attainment-area"],
+    cites: [s("51.165", undefined, "nonattainment"), part(51, "40 CFR Part 51, Appendix S")], related: ["laer", "offsets", "psd", "attainment-area"],
     links: [{ label: "Nonattainment NSR overview", href: "/regulations/nonattainment-nsr" }],
   },
   {
@@ -224,7 +227,7 @@ export const glossary: GlossaryTerm[] = [
   {
     slug: "offsets", term: "Emission offsets", category: "New Source Review",
     definition: "Enforceable emission reductions from existing sources that a Nonattainment NSR project must obtain to balance its new emissions. The rule and the state program set the ratio and what reductions qualify.",
-    cites: [s("51.165", "(a)(3)")], related: ["nnsr", "laer"],
+    cites: [s("51.165", "(a)(3)", "offset")], related: ["nnsr", "laer"],
   },
   {
     slug: "opacity", term: "Opacity", category: "Monitoring & Testing",
@@ -256,7 +259,7 @@ export const glossary: GlossaryTerm[] = [
   {
     slug: "minor-nsr", term: "Minor New Source Review", category: "New Source Review",
     definition: "State preconstruction review of new and modified sources that are not major. Federal rules require states to have such a program but leave its design to them, so exemptions, permits by rule, general permits, and case-by-case permits vary by state.",
-    cites: [s("51.160"), s("51.164")], related: ["pbr", "psd"],
+    cites: [s("51.160", undefined, "construction or modification")], related: ["pbr", "psd"],
     links: [{ label: "State Explorer", href: "/states" }],
   },
   {
@@ -295,7 +298,7 @@ export const glossary: GlossaryTerm[] = [
   {
     slug: "semiannual-monitoring-report", term: "Semiannual monitoring report", category: "Title V",
     definition: "The periodic Title V report of required monitoring, in which all deviations from permit requirements must be clearly identified. The permit sets the reporting periods and due dates.",
-    cites: [s("70.6", "(a)(3)(iii)(A)")], related: ["deviation", "annual-compliance-certification"],
+    cites: [s("70.6", "(a)(3)(iii)(A)", "at least every 6 months")], related: ["deviation", "annual-compliance-certification"],
     links: [{ label: "Title V Deviation Log", href: "/tools/deviation-log" }],
   },
   {
@@ -312,17 +315,17 @@ export const glossary: GlossaryTerm[] = [
   {
     slug: "startup-shutdown", term: "Startup and shutdown", category: "NSPS & NESHAP",
     definition: "The setting in operation, and the cessation of operation, of an affected source or unit, as each program defines them. Many current standards apply at all times, including startup and shutdown, or specify alternative work practices for those periods.",
-    cites: [s("60.2"), s("63.2")], related: ["malfunction"],
+    cites: [s("60.2", undefined, "Startup means | Shutdown means"), s("63.2", undefined, "Startup means | Shutdown means")], related: ["malfunction"],
   },
   {
     slug: "stationary-source", term: "Stationary source", category: "New Source Review",
     definition: "Any building, structure, facility, or installation that emits or may emit a regulated NSR pollutant. Activities are one source when they belong to the same industrial grouping, are on contiguous or adjacent properties, and are under common control.",
-    cites: [s("52.21", "(b)(5)"), s("52.21", "(b)(6)")], related: ["emissions-unit", "major-stationary-source"],
+    cites: [s("52.21", "(b)(5)"), s("52.21", "(b)(6)", "same industrial grouping")], related: ["emissions-unit", "major-stationary-source"],
   },
   {
     slug: "synthetic-minor", term: "Synthetic minor", category: "Emissions",
     definition: "A term of practice for a source whose uncontrolled potential to emit would make it major, but which takes enforceable limits (such as on hours, throughput, or control efficiency) that keep its potential to emit below major source levels. The limits need monitoring and records that prove compliance.",
-    cites: [s("52.21", "(b)(4)"), s("70.2")], related: ["potential-to-emit", "federally-enforceable", "major-source-title-v"],
+    cites: [s("52.21", "(b)(4)", "federally enforceable"), s("70.2", undefined, "Potential to emit")], related: ["potential-to-emit", "federally-enforceable", "major-source-title-v"],
     links: [{ label: "Rolling 12-Month Limit Tracker", href: "/tools/rolling-12-month-tracker" }],
   },
   {

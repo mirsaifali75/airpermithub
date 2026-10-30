@@ -16,7 +16,8 @@ import { nsrRuleText } from "./tools/nsr";
  *  - link: a source link; must load
  *  - cfr: a 40 CFR citation; the section and paragraph must exist in eCFR
  *  - cfr-quote: rule text quoted from a 40 CFR paragraph
- *  - cfr-term: a glossary term; must appear in the cited 40 CFR paragraph
+ *  - cfr-term: a glossary term (or the cite's `match` wording, " | " between
+ *    required pieces); must appear in the cited 40 CFR paragraph
  *  - citation: a state rule citation; its number should appear at `url`
  */
 export interface Claim {
@@ -26,6 +27,8 @@ export interface Claim {
   url?: string;
   text: string;
   cite?: string;
+  /** More pages to read with `url`, for thresholds summarized from two documents. */
+  also?: string[];
 }
 
 const CFR_RE = /40 CFR (?:§\s*)?(\d+)\.(\d+[a-zA-Z]*)((?:\([0-9a-zA-Z]+\))*)/g;
@@ -46,8 +49,12 @@ export function collectClaims(): Claim[] {
     for (const { p, k } of programs) {
       const pw = `${w}:${k}:${p.name}`;
       if (p.url) push({ kind: "link", where: pw, url: p.url, text: p.name });
-      if (p.url && p.quote) push({ kind: "quote", where: pw, url: p.url, text: p.quote });
-      if (p.url && p.thresholds) push({ kind: "threshold", where: pw, url: p.url, text: p.thresholds });
+      const quoteUrl = p.quoteSource?.url ?? p.url;
+      const thresholdsUrl = p.thresholdsSource?.url ?? p.url;
+      if (quoteUrl && p.quote) push({ kind: "quote", where: pw, url: quoteUrl, text: p.quote });
+      if (thresholdsUrl && p.thresholds) push({ kind: "threshold", where: pw, url: thresholdsUrl, text: p.thresholds, ...(p.thresholdsSource ? { also: [p.url, p.quoteSource?.url].filter((u): u is string => !!u && u !== thresholdsUrl) } : {}) });
+      if (p.quoteSource) push({ kind: "link", where: pw, url: p.quoteSource.url, text: p.quoteSource.name });
+      if (p.thresholdsSource) push({ kind: "link", where: pw, url: p.thresholdsSource.url, text: p.thresholdsSource.name });
       if (p.url && p.citation) push({ kind: "citation", where: pw, url: p.url, text: p.citation });
       cfrIn(p.citation, pw);
       cfrIn(p.description, pw);
@@ -67,7 +74,7 @@ export function collectClaims(): Claim[] {
   for (const t of glossary) {
     for (const c of t.cites) {
       const m = c.url.match(/section-(\d+\.\d+[a-zA-Z]*)(?:#p-[\d.a-zA-Z]+((?:\([0-9a-zA-Z]+\))+))?/);
-      if (m) push({ kind: "cfr-term", where: `glossary:${t.slug}`, url: c.url, text: t.term, cite: `${m[1]}${m[2] ?? ""}` });
+      if (m) push({ kind: "cfr-term", where: `glossary:${t.slug}`, url: c.url, text: c.match ?? t.term, cite: `${m[1]}${m[2] ?? ""}` });
       else push({ kind: "link", where: `glossary:${t.slug}`, url: c.url, text: c.label });
     }
     cfrIn(t.definition, `glossary:${t.slug}`);

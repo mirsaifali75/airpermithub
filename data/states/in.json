@@ -24,7 +24,11 @@
       "description": "For sources with PTE in the registration range; IDEM also offers other alternate approval programs.",
       "citation": "326 IAC 2",
       "url": "https://www.in.gov/idem/airpermit/information-about/alternate-approvals",
-      "thresholds": "Per IDEM table (PTE, tpy, min to <max): VOC 10-25 (5-25 if VOC rules require controls); NOx 10-25; CO 25-100; SO2 10-25; PM, PM10, PM2.5 5-25; lead 0.2-5; fluorides, H2S, TRS, reduced sulfur compounds 5-25."
+      "thresholds": "Per IDEM table (PTE, tpy, min to <max): VOC 10-25 (5-25 if VOC rules require controls); NOx 10-25; CO 25-100; SO2 10-25; PM, PM10, PM2.5 5-25; lead 0.2-5; fluorides, H2S, TRS, reduced sulfur compounds 5-25.",
+      "thresholdsSource": {
+        "name": "IDEM: Emissions applicability thresholds",
+        "url": "https://www.in.gov/idem/airpermit/information-about/potential-to-emit-and-source-category/emissions-applicability-thresholds"
+      }
     },
     {
       "type": "state-operating",
@@ -67,7 +71,11 @@
       "description": "For sources with PTE above Title V major source thresholds or in categories requiring Title V.",
       "citation": "326 IAC 2-7",
       "url": "https://www.in.gov/idem/airpermit/information-about/operating-permits/",
-      "thresholds": "Per IDEM table (PTE, tpy): VOC and NOx 100 (attainment/marginal/moderate), 50 serious, 25 severe, 10 extreme; SO2, CO, PM10, PM2.5 100; lead 10; single HAP 10; combined HAPs 25; other regulated pollutants 100."
+      "thresholds": "Per IDEM table (PTE, tpy): VOC and NOx 100 (attainment/marginal/moderate), 50 serious, 25 severe, 10 extreme; SO2, CO, PM10, PM2.5 100; lead 10; single HAP 10; combined HAPs 25; other regulated pollutants 100.",
+      "thresholdsSource": {
+        "name": "IDEM: Emissions applicability thresholds",
+        "url": "https://www.in.gov/idem/airpermit/information-about/potential-to-emit-and-source-category/emissions-applicability-thresholds"
+      }
     }
   ],
   "oilAndGas": {

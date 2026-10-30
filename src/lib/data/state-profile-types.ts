@@ -28,10 +28,14 @@ export interface PermitProgram {
   description: string;
   citation?: string;
   url?: string;
-  /** Verbatim threshold text from the source at `url`, if any. */
+  /** Verbatim threshold text from the source at `url` (or `quoteSource`), if any. */
   quote?: string;
-  /** Thresholds restated closely from the source at `url` (not verbatim); confirm against the source. */
+  /** The document the quote comes from, when it is not the page at `url`. */
+  quoteSource?: Link;
+  /** Thresholds restated closely from the source at `url` (or `thresholdsSource`), not verbatim; confirm against the source. */
   thresholds?: string;
+  /** The document the thresholds are restated from, when it is not the page at `url`. */
+  thresholdsSource?: Link;
 }
 
 export interface LocalAgency {

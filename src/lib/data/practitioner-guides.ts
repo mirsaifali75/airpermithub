@@ -119,7 +119,7 @@ export const practitionerGuides: Guide[] = [
       {
         heading: "Projected actual emissions and the exclusion",
         paragraphs: [
-          "On the other side of the comparison, projected actual emissions are the highest annual rate the unit is projected to emit in the period after the project that the rule specifies, based on all relevant information. The owner may exclude the part of “the unit's emissions following the project that an existing unit could have accommodated” during the baseline period and that is unrelated to the project, such as growth in demand (40 CFR 52.21(b)(41)(ii)(c)). Electing potential to emit instead removes that exclusion.",
+          "On the other side of the comparison, projected actual emissions are the highest annual rate the unit is projected to emit in the period after the project that the rule specifies, based on all relevant information. The owner may exclude the part of “the unit's emissions following the project that an existing unit could have accommodated” during the baseline period and that is unrelated to the project, such as growth in demand (40 CFR 52.21(b)(41)(ii)(C)). Electing potential to emit instead removes that exclusion.",
           "Write down the basis for both numbers: data sources, business projections, and why any excluded emissions are unrelated to the project. That record is what an agency reviews.",
         ],
       },
@@ -131,8 +131,8 @@ export const practitionerGuides: Guide[] = [
       },
     ],
     sources: [
-      { title: "40 CFR 52.21, 2020 edition (govinfo.gov), source of the quoted text", url: govinfo5221 },
-      { title: "40 CFR 52.21, current text (eCFR)", url: ecfr("52.21") },
+      { title: "40 CFR 52.21, current text (eCFR), source of the quoted text", url: ecfr("52.21") },
+      { title: "40 CFR 52.21, 2020 edition (govinfo.gov), same wording with lowercase paragraph letters", url: govinfo5221 },
       { title: "EPA: New Source Review (NSR) Permitting", url: "https://www.epa.gov/nsr" },
     ],
     related: [

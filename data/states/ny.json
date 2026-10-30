@@ -32,7 +32,7 @@
       "description": "For smaller, non-major facilities; issued for up to 10 years. Fees are per emission point (ECL 72-0302).",
       "citation": "6 NYCRR Subpart 201-4",
       "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees",
-      "quote": "Their annual emissions are less than half of the level that would make them a major source. Their annual emissions of high toxicity air contaminants do not equal or exceed the applicable thresholds."
+      "quote": "Their annual emissions are less than half of the level that would make them a major source. ... Their annual emissions of high toxicity air contaminants do not equal or exceed the applicable thresholds."
     },
     {
       "type": "state-operating",
@@ -40,7 +40,7 @@
       "description": "For generally large non-major facilities, including those using enforceable conditions (caps) to stay below major source levels; issued for up to 10 years. Fees are per emission unit (ECL 72-0302).",
       "citation": "6 NYCRR Subpart 201-5",
       "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees",
-      "quote": "Their annual emissions exceed 50 percent of the level that would make them a major source. Their annual emissions of high toxicity air contaminants equal or exceed the applicable thresholds."
+      "quote": "Their annual emissions exceed 50 percent of the level that would make them a major source, but their potential to emit, as defined in 6 NYCRR Part 200, does not place them in the major source category. ... Their annual emissions of high toxicity air contaminants equal or exceed the applicable thresholds."
     },
     {
       "type": "nnsr",

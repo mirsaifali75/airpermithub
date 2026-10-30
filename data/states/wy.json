@@ -17,7 +17,11 @@
       "description": "No approval is needed for these activities: air pollutant detectors, recorders, combustion controllers or shutoffs; air conditioning or ventilation not designed to remove pollutants; smaller fuel-burning equipment within specified heat input and fuel limits; mobile internal combustion engines; laboratory equipment used only for analyses; installing air pollution control equipment; gasoline storage tanks at retail establishments; and other minor sources the Administrator finds insignificant (a waiver under 2(k)(viii)). Major emitting facilities under Section 4 must still comply with Sections 2 and 4. DEQ states there are no de minimis emission levels.",
       "citation": "WAQSR Ch. 6, Sec. 2(k)",
       "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf",
-      "quote": "The permitting rules contained in Chapter 6 of the WAQSR do not include de minimis emission levels"
+      "quote": "The permitting rules contained in Chapter 6 of the WAQSR do not include de minimis emission levels below which facilities or projects are exempted from permitting.",
+      "quoteSource": {
+        "name": "Wyoming DEQ Air Quality Division: New Source Review",
+        "url": "https://deq.wyoming.gov/aqd/new-source-review/"
+      }
     },
     {
       "type": "minor-nsr",

@@ -1,44 +1,152 @@
 {
-  "code": "AZ", "name": "Arizona", "slug": "arizona", "epaRegion": 9,
-  "agency": { "name": "Arizona Department of Environmental Quality (ADEQ)", "division": "Air Quality Division", "url": "https://azdeq.gov/air-permits-comp", "permitsUrl": "https://www.azdeq.gov/node/6372" },
+  "code": "AZ",
+  "name": "Arizona",
+  "slug": "arizona",
+  "epaRegion": 9,
+  "agency": {
+    "name": "Arizona Department of Environmental Quality (ADEQ)",
+    "division": "Air Quality Division",
+    "url": "https://azdeq.gov/air-permits-comp",
+    "permitsUrl": "https://www.azdeq.gov/node/6372"
+  },
   "localAgencies": [
-    { "name": "Maricopa County Air Quality Department", "jurisdiction": "Maricopa County", "url": "https://www.maricopa.gov/1244/Air-Quality" },
-    { "name": "Pima County Department of Environmental Quality", "jurisdiction": "Pima County", "url": "https://webcms.pima.gov/government/environmental_quality/air/" },
-    { "name": "Pinal County Air Quality Control District", "jurisdiction": "Pinal County", "url": "http://www.pinalcountyaz.gov/AirQuality/Pages/home.aspx" },
-    { "name": "U.S. EPA Region 9", "jurisdiction": "Tribal lands in Arizona", "url": "https://www.epa.gov/tribal-air", "notes": "ADEQ states EPA Region 9 issues air permits on tribal lands, excluding the Navajo Nation and Gila River Indian Community." }
+    {
+      "name": "Maricopa County Air Quality Department",
+      "jurisdiction": "Maricopa County",
+      "url": "https://www.maricopa.gov/1244/Air-Quality"
+    },
+    {
+      "name": "Pima County Department of Environmental Quality",
+      "jurisdiction": "Pima County",
+      "url": "https://www.pima.gov/air-quality-permitting-overview"
+    },
+    {
+      "name": "Pinal County Air Quality Control District",
+      "jurisdiction": "Pinal County",
+      "url": "http://www.pinalcountyaz.gov/AirQuality/Pages/home.aspx"
+    },
+    {
+      "name": "U.S. EPA Region 9",
+      "jurisdiction": "Tribal lands in Arizona",
+      "url": "https://www.epa.gov/tribal-air",
+      "notes": "ADEQ states EPA Region 9 issues air permits on tribal lands, excluding the Navajo Nation and Gila River Indian Community."
+    }
   ],
   "overview": "ADEQ issues Class I (major/Title V) and Class II individual permits, general permits, and registrations everywhere except Maricopa, Pima, and Pinal counties, which run their own permitting, inspection, and enforcement programs. EPA Region 9 permits on most tribal lands.",
   "permitTypes": [
-    { "type": "registration", "name": "Air Quality Registration", "description": "Registration application for qualifying smaller sources.", "url": "https://azdeq.gov/node/3446" },
-    { "type": "general", "name": "General Permits", "description": "Pre-approved permits for classes of similar sources; an Authorization to Operate is issued for each major piece of equipment. ADEQ general permits include air curtain incinerators, concrete batch plants, crushing and screening, hospitals, hot mix asphalt, soil vapor extraction, and dust action.", "url": "https://www.azdeq.gov/node/6372" },
-    { "type": "minor-nsr", "name": "Class II Individual Permit", "description": "For sources that do not qualify for Class I but meet A.A.C. R18-2-302(B)(2), including sources with potential to emit significant quantities and sources subject to CAA sections 111 or 112 (with listed exceptions). Valid five years.", "citation": "A.A.C. Title 18, Ch. 2, R18-2-302(B)(2)", "url": "https://azdeq.gov/node/446" },
-    { "type": "title-v", "name": "Class I Individual Permit (Title V)", "description": "Major sources; Arizona's Title V program is EPA-approved. Valid five years.", "citation": "A.A.C. R18-2-302(B)(1); major source definition R18-2-101", "url": "https://azdeq.gov/air-permit-classifications-defined", "thresholds": "Per ADEQ: 100 tons/year or more of any criteria pollutant, 10 tons/year or more of any single HAP, or 25 tons/year or more of combined HAPs." },
-    { "type": "psd", "name": "PSD permit", "description": "Required before construction of new major sources and major modifications in attainment areas.", "url": "https://azdeq.gov/air-permit-classifications-defined" },
-    { "type": "nnsr", "name": "Nonattainment NSR permit", "description": "Required before construction of new major sources and major modifications in nonattainment areas.", "url": "https://azdeq.gov/air-permit-classifications-defined" }
+    {
+      "type": "registration",
+      "name": "Air Quality Registration",
+      "description": "Registration application for qualifying smaller sources.",
+      "url": "https://azdeq.gov/node/3446"
+    },
+    {
+      "type": "general",
+      "name": "General Permits",
+      "description": "Pre-approved permits for classes of similar sources; an Authorization to Operate is issued for each major piece of equipment. ADEQ general permits include air curtain incinerators, concrete batch plants, crushing and screening, hospitals, hot mix asphalt, soil vapor extraction, and dust action.",
+      "url": "https://www.azdeq.gov/node/6372"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Class II Individual Permit",
+      "description": "For sources that do not qualify for Class I but meet A.A.C. R18-2-302(B)(2), including sources with potential to emit significant quantities and sources subject to CAA sections 111 or 112 (with listed exceptions). Valid five years.",
+      "citation": "A.A.C. Title 18, Ch. 2, R18-2-302(B)(2)",
+      "url": "https://azdeq.gov/node/446"
+    },
+    {
+      "type": "title-v",
+      "name": "Class I Individual Permit (Title V)",
+      "description": "Major sources; Arizona's Title V program is EPA-approved. Valid five years.",
+      "citation": "A.A.C. R18-2-302(B)(1); major source definition R18-2-101",
+      "url": "https://azdeq.gov/air-permit-classifications-defined",
+      "thresholds": "Per ADEQ: 100 tons/year or more of any criteria pollutant, 10 tons/year or more of any single HAP, or 25 tons/year or more of combined HAPs."
+    },
+    {
+      "type": "psd",
+      "name": "PSD permit",
+      "description": "Required before construction of new major sources and major modifications in attainment areas.",
+      "url": "https://azdeq.gov/air-permit-classifications-defined"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR permit",
+      "description": "Required before construction of new major sources and major modifications in nonattainment areas.",
+      "url": "https://azdeq.gov/air-permit-classifications-defined"
+    }
   ],
-  "oilAndGas": { "summary": "ADEQ's air permitting pages reviewed list no oil-and-gas-specific air permit or rule. Oil and gas sources use Class I/II individual permits; federal NSPS and NESHAP apply.", "programs": [] },
+  "oilAndGas": {
+    "summary": "ADEQ's air permitting pages reviewed list no oil-and-gas-specific air permit or rule. Oil and gas sources use Class I/II individual permits; federal NSPS and NESHAP apply.",
+    "programs": []
+  },
   "regulations": [
-    { "citation": "A.A.C. Title 18, Chapter 2", "title": "Air Pollution Control (R18-2-101 definitions; R18-2-302 permit classes)", "url": "https://azdeq.gov/LawsAndRules" }
+    {
+      "citation": "A.A.C. Title 18, Chapter 2",
+      "title": "Air Pollution Control (R18-2-101 definitions; R18-2-302 permit classes)",
+      "url": "https://azdeq.gov/LawsAndRules"
+    }
   ],
   "forms": [
-    { "name": "Class I Individual Permit Application", "url": "https://static.azdeq.gov/forms/classI_app.pdf" },
-    { "name": "Class II Individual Permit Application", "url": "https://static.azdeq.gov/forms/classII_app.pdf" },
-    { "name": "Air Quality Permit Determination Request", "url": "http://static.azdeq.gov/forms/aq_determination.pdf" },
-    { "name": "Air Quality Registration Application", "url": "https://legacy.azdeq.gov/environ/air/permits/download/reg_app.pdf" },
-    { "name": "Emissions Calculations Template", "url": "https://legacy.azdeq.gov/environ/air/permits/download/ect.xls" },
-    { "name": "ADEQ forms", "url": "https://azdeq.gov/forms" }
+    {
+      "name": "Class I Individual Permit Application",
+      "url": "https://static.azdeq.gov/forms/classI_app.pdf"
+    },
+    {
+      "name": "Class II Individual Permit Application",
+      "url": "https://static.azdeq.gov/forms/classII_app.pdf"
+    },
+    {
+      "name": "Air Quality Permit Determination Request",
+      "url": "http://static.azdeq.gov/forms/aq_determination.pdf"
+    },
+    {
+      "name": "Air Quality Registration Application",
+      "url": "https://legacy.azdeq.gov/environ/air/permits/download/reg_app.pdf"
+    },
+    {
+      "name": "Emissions Calculations Template",
+      "url": "https://legacy.azdeq.gov/environ/air/permits/download/ect.xls"
+    },
+    {
+      "name": "ADEQ forms",
+      "url": "https://azdeq.gov/forms"
+    }
   ],
   "guidance": [
-    { "name": "Minor NSR Guidance", "url": "https://static.azdeq.gov/aqd/minor_nsr_guid.pdf" },
-    { "name": "Air Dispersion Modeling Guidelines", "url": "https://static.azdeq.gov/aqd/modeling_guidance.pdf" },
-    { "name": "Top 10 Tips for a Complete Air Permit Application", "url": "https://static.azdeq.gov/aqd/aqpermit_top10_pres.pdf" },
-    { "name": "Air Permit Classifications Defined", "url": "https://azdeq.gov/air-permit-classifications-defined" }
+    {
+      "name": "Minor NSR Guidance",
+      "url": "https://static.azdeq.gov/aqd/minor_nsr_guid.pdf"
+    },
+    {
+      "name": "Air Dispersion Modeling Guidelines",
+      "url": "https://static.azdeq.gov/aqd/modeling_guidance.pdf"
+    },
+    {
+      "name": "Top 10 Tips for a Complete Air Permit Application",
+      "url": "https://static.azdeq.gov/aqd/aqpermit_top10_pres.pdf"
+    },
+    {
+      "name": "Air Permit Classifications Defined",
+      "url": "https://azdeq.gov/air-permit-classifications-defined"
+    }
   ],
-  "fees": { "name": "Class I & II Schedule of Fees Summary", "url": "http://static.azdeq.gov/aqd/aqd_class_fees.pdf" },
+  "fees": {
+    "name": "Class I & II Schedule of Fees Summary",
+    "url": "http://static.azdeq.gov/aqd/aqd_class_fees.pdf"
+  },
   "sources": [
-    { "name": "ADEQ Air Quality Permitting (Compliance Assistance)", "url": "https://www.azdeq.gov/node/6372" },
-    { "name": "ADEQ Air Permit Classifications Defined", "url": "https://azdeq.gov/air-permit-classifications-defined" },
-    { "name": "ADEQ Individual Permits", "url": "https://azdeq.gov/node/446" }
+    {
+      "name": "ADEQ Air Quality Permitting (Compliance Assistance)",
+      "url": "https://www.azdeq.gov/node/6372"
+    },
+    {
+      "name": "ADEQ Air Permit Classifications Defined",
+      "url": "https://azdeq.gov/air-permit-classifications-defined"
+    },
+    {
+      "name": "ADEQ Individual Permits",
+      "url": "https://azdeq.gov/node/446"
+    }
   ],
-  "lastReviewed": "2026-10-25", "verification": "verified"
+  "lastReviewed": "2026-10-25",
+  "verification": "verified"
 }

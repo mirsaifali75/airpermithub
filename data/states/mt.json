@@ -33,7 +33,11 @@
       "description": "Oil and gas well facilities that would otherwise need an MAQP may register instead of permitting. Title V sources are not eligible. See the Oil and Gas section.",
       "citation": "ARM 17.8 Subchapter 17 (ARM 17.8.1701-17.8.1713)",
       "url": "https://deq.mt.gov/air/assistance",
-      "thresholds": "Oil and gas well registration: for well facilities with potential emissions above 25 tons per year, constructed after November 23, 1968; Title V sources are not eligible; due within 60 days of initial well completion (restated from DEQ)."
+      "thresholds": "Oil and gas well registration: for well facilities with potential emissions above 25 tons per year, constructed after November 23, 1968; Title V sources are not eligible; due within 60 days of initial well completion (restated from DEQ).",
+      "thresholdsSource": {
+        "name": "MT DEQ instructions for registering an oil or gas well facility",
+        "url": "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.docx"
+      }
     },
     {
       "type": "registration",
@@ -74,7 +78,11 @@
         "description": "Registration in lieu of an MAQP for qualifying oil and gas well facilities. DEQ lists a registration fee and an annual fee; see the fee schedule.",
         "citation": "ARM 17.8.1701, 17.8.1703, 17.8.1704",
         "url": "https://deq.mt.gov/air/assistance",
-        "thresholds": "Register within 60 days of initial well completion; DEQ lists a $500 registration fee and $850 annual fee (restated; confirm in the current fee schedule). Oil and gas well registration: for well facilities with potential emissions above 25 tons per year, constructed after November 23, 1968; Title V sources are not eligible; due within 60 days of initial well completion (restated from DEQ)."
+        "thresholds": "Register within 60 days of initial well completion; DEQ lists a $500 registration fee and $850 annual fee (restated; confirm in the current fee schedule). Oil and gas well registration: for well facilities with potential emissions above 25 tons per year, constructed after November 23, 1968; Title V sources are not eligible; due within 60 days of initial well completion (restated from DEQ).",
+        "thresholdsSource": {
+          "name": "MT DEQ instructions for registering an oil or gas well facility",
+          "url": "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.docx"
+        }
       }
     ]
   },
@@ -119,7 +127,7 @@
     },
     {
       "name": "Oil and Gas Registration Instructions",
-      "url": "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.pdf"
+      "url": "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.docx"
     }
   ],
   "guidance": [

@@ -71,6 +71,8 @@ describe("source verifier", () => {
 
   it("reads page text without scripts", () => {
     expect(htmlText("<html><script>var x=1</script><p>Air&nbsp;permits &amp; forms</p></html>")).toBe("Air permits & forms");
+    // A stray quote in a tag must not swallow the text after it; markup inside attribute values stays hidden
+    expect(htmlText(`<table border="0" collapse"><tr><td>less than 100 ton/yr of a <a data-content="<ul><li>CO</li></ul>" title="x">criteria pollutant</a>, less</td></tr></table>`)).toBe("less than 100 ton/yr of a criteria pollutant , less");
   });
 });
 

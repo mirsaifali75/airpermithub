@@ -60,7 +60,7 @@ describe("internal links from tools, guides, and the glossary", () => {
     expect(terms.size).toBe(glossary.length);
     for (const t of glossary) {
       expect(t.cites.length, t.slug).toBeGreaterThan(0);
-      for (const c of t.cites) expect(c.url, t.slug).toMatch(/^https:\/\/(www\.ecfr\.gov|uscode\.house\.gov|texreg\.sos\.state\.tx\.us)\//);
+      for (const c of t.cites) expect(c.url, t.slug).toMatch(/^https:\/\/(www\.ecfr\.gov|www\.govinfo\.gov|texreg\.sos\.state\.tx\.us)\//);
       for (const r of t.related ?? []) expect(terms.has(r), `${t.slug} -> ${r}`).toBe(true);
       expect(t.definition, t.slug).not.toMatch(/\d+\s*(tpy|tons per year|ppm|percent|%)/i);
     }

@@ -28,7 +28,7 @@ describe("state profiles", () => {
     const urls = [
       p.agency.url, p.agency.permitsUrl, p.ePermitting?.url, p.fees?.url,
       ...p.sources.map((l) => l.url), ...p.forms.map((l) => l.url), ...p.guidance.map((l) => l.url),
-      ...p.permitTypes.map((x) => x.url), ...(p.oilAndGas?.programs ?? []).map((x) => x.url),
+      ...[...p.permitTypes, ...(p.oilAndGas?.programs ?? [])].flatMap((x) => [x.url, x.quoteSource?.url, x.thresholdsSource?.url]),
       ...p.regulations.map((r) => r.url), ...(p.localAgencies ?? []).map((l) => l.url),
     ];
     for (const u of urls) expect(https(u), u).toBe(true);

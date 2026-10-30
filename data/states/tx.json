@@ -25,7 +25,11 @@
       "description": "Facilities or sources meeting the de minimis criteria do not have to obtain any registration or authorization prior to construction. A site qualifies by appearing on the TCEQ De Minimis Facilities or Sources List, by staying under the site-wide Materials and Usage List amounts, or by staying within the ESL list and emission rate caps in 116.119(a)(3).",
       "citation": "30 TAC §116.119(a)",
       "url": "https://www.tceq.texas.gov/permitting/air/newsourcereview/de_minimis.html",
-      "thresholds": "Materials and Usage List examples: 50 gal/yr cleaning and stripping solvents, 100 gal/yr coatings, 1,000 lb/yr dyes, 2,500 gal/yr water-based surfactants and detergents (restated from TCEQ RG-404, 2011; confirm against the current list)."
+      "thresholds": "Materials and Usage List examples: 50 gal/yr cleaning and stripping solvents, 100 gal/yr coatings, 1,000 lb/yr dyes, 2,500 gal/yr water-based surfactants and detergents (restated from TCEQ RG-404, 2011; confirm against the current list).",
+      "thresholdsSource": {
+        "name": "TCEQ RG-404 (2011)",
+        "url": "https://www.tceq.texas.gov/downloads/assistance/publications/rg-404.pdf"
+      }
     },
     {
       "type": "pbr",
@@ -33,8 +37,16 @@
       "description": "Authorizes facilities that will not make a significant contribution of air contaminants when built and operated under the conditions of a specific PBR. Facilities must meet the general emission limits in 30 TAC 106.4 and other Chapter 106 requirements, such as recordkeeping in 30 TAC 106.8.",
       "citation": "30 TAC Chapter 106",
       "url": "https://www.tceq.texas.gov/permitting/air/permitbyrule/air_pbr_index.html",
-      "quote": "An operation may qualify for a permit by rule (PBR) authorization if it emits less than: 250 tons per year (tpy) of carbon monoxide or nitrogen oxides; 25 tpy of volatile organic compounds, sulfur dioxide, or inhalable particulate matter; 15 tpy of particulate matter with diameters of 10 microns or less; 10 tpy of particulate matter with diameters of 2.5 microns or less; 25 tpy of any other air contaminant (exclusions apply). (TCEQ RG-616, rev. January 2026)",
-      "thresholds": "Per facility, under 30 TAC 106.4(a)(1): 250 tpy or less of NOx and CO; 25 tpy or less of VOC, PM, SO2, and any other contaminant (TCEQ PBR Certification Fact Sheet APDG 6244, July 2014)."
+      "quote": "An operation may qualify for a permit by rule (PBR) authorization if it emits less than: 250 tons per year (tpy) of carbon monoxide or nitrogen oxides. 25 tpy of volatile organic compounds, sulfur dioxide, or inhalable particulate matter. 15 tpy of particulate matter with diameters of 10 microns or less. 10 tpy of particulate matter with diameters of 2.5 microns or less. 25 tpy of any other air contaminant [except carbon dioxide, water, nitrogen, ethane, hydrogen, oxygen, and greenhouse gases (GHGs), unless there is a specific provision in an individual PBR to the contrary].",
+      "thresholds": "Per facility, under 30 TAC 106.4(a)(1): 250 tpy or less of NOx and CO; 25 tpy or less of VOC, PM, SO2, and any other contaminant (TCEQ PBR Certification Fact Sheet APDG 6244, July 2014).",
+      "quoteSource": {
+        "name": "TCEQ Air Permitting Fact Sheet RG-616 (revised January 2026)",
+        "url": "https://www.tceq.texas.gov/assets/public/permitting/air/factsheets/permit-factsheet.pdf"
+      },
+      "thresholdsSource": {
+        "name": "TCEQ PBR Certification Fact Sheet (APDG 6244, July 2014)",
+        "url": "https://www.tceq.texas.gov/assets/public/permitting/air/Guidance/NewSourceReview/PermitsByRule/6244.pdf"
+      }
     },
     {
       "type": "standard",
@@ -63,8 +75,16 @@
       "description": "Required for a new major stationary source or major modification in an attainment area. TCEQ also administers greenhouse gas PSD permitting. Details are in TCEQ fact sheets RG-636 (May 2024) and RG-635 (Aug 2024).",
       "citation": "30 TAC Chapter 116; GHG thresholds at 30 TAC 116.164(a)",
       "url": "https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/ghg/ghg-permitting.html",
-      "quote": "potential to emit (PTE) 100 tons per year (tpy) or more of a regulated pollutant",
-      "thresholds": "Named (listed) source categories: PTE of 100 tpy or more. Other sources: PTE of 250 tpy or more. Significant emission rates (tpy): CO 100; NOx 40; SO2 40; VOC 40; PM10 15; PM2.5 10; PM 25; lead 0.6; H2S 10; TRS 10; H2SO4 7; fluorides 3; GHG 75,000 CO2e (TCEQ RG-636, May 2024, and RG-635, Aug 2024)."
+      "quote": "Named: A stationary source category listed in 40 CFR 51.166(b)(1) with the potential to emit (PTE) 100 tons per year (tpy) or more of a regulated pollutant. ... Un-named: Any stationary source not listed in 40 CFR 51.166(b)(1) with a PTE of 250 tpy or more of a regulated pollutant.",
+      "thresholds": "Named (listed) source categories: PTE of 100 tpy or more. Other sources: PTE of 250 tpy or more. Significant emission rates (tpy): CO 100; NOx 40; SO2 40; VOC 40; PM10 15; PM2.5 10; PM 25; lead 0.6; H2S 10; TRS 10; H2SO4 7; fluorides 3; GHG 75,000 CO2e (TCEQ RG-636, May 2024, and RG-635, Aug 2024).",
+      "quoteSource": {
+        "name": "TCEQ Fact Sheet RG-636 (revised May 2024)",
+        "url": "https://www.tceq.texas.gov/downloads/permitting/air/publications/nsr/factsheets/rg-636-factsheet-psd-na.pdf/@@download/file/rg-636-factsheet-psd-na.pdf"
+      },
+      "thresholdsSource": {
+        "name": "TCEQ Fact Sheet RG-635 (Aug 2024)",
+        "url": "https://www.tceq.texas.gov/downloads/permitting/air/publications/nsr/factsheets/rg-635-factsheet-psd-na-sigemiss.pdf/@@download/file/rg-635-factsheet-psd-na-sigemiss.pdf"
+      }
     },
     {
       "type": "nnsr",
@@ -72,7 +92,11 @@
       "description": "Required when emissions exceed the applicable major source or significance threshold for the nonattainment area and pollutant.",
       "citation": "30 TAC Chapter 116",
       "url": "https://www.tceq.texas.gov/downloads/permitting/air/publications/nsr/factsheets/rg-636-factsheet-psd-na.pdf/@@download/file/rg-636-factsheet-psd-na.pdf",
-      "thresholds": "Ozone (VOC/NOx) major source thresholds: Marginal/Moderate 100 tpy; Serious 50 tpy; Severe 25 tpy. Minimum offset ratios: 1.10, 1.15, 1.20, and 1.30 to 1. Major modification SER is 25 tpy for VOC or NOx in Dallas-Fort Worth and Houston-Galveston-Brazoria (2008 ozone Severe; 2015 ozone Serious) and San Antonio/Bexar County (2015 ozone Serious). PM10 SER is 15 tpy in the City of El Paso (1987 PM10 Moderate). SO2 SER is 40 tpy in the 2010 SO2 nonattainment counties (TCEQ RG-636 Table 1 and RG-635 Table 4)."
+      "thresholds": "Ozone (VOC/NOx) major source thresholds: Marginal/Moderate 100 tpy; Serious 50 tpy; Severe 25 tpy. Minimum offset ratios: 1.10, 1.15, 1.20, and 1.30 to 1. Major modification SER is 25 tpy for VOC or NOx in Dallas-Fort Worth and Houston-Galveston-Brazoria (2008 ozone Severe; 2015 ozone Serious) and San Antonio/Bexar County (2015 ozone Serious). PM10 SER is 15 tpy in the City of El Paso (1987 PM10 Moderate). SO2 SER is 40 tpy in the 2010 SO2 nonattainment counties (TCEQ RG-636 Table 1 and RG-635 Table 4).",
+      "thresholdsSource": {
+        "name": "TCEQ Fact Sheet RG-635 (Aug 2024)",
+        "url": "https://www.tceq.texas.gov/downloads/permitting/air/publications/nsr/factsheets/rg-635-factsheet-psd-na-sigemiss.pdf/@@download/file/rg-635-factsheet-psd-na-sigemiss.pdf"
+      }
     },
     {
       "type": "title-v",
@@ -80,7 +104,11 @@
       "description": "Major sites need a federal operating permit. A Site Operating Permit (SOP) is customized to the emission sources at an individual site; a General Operating Permit (GOP) has uniform conditions for all sites in a defined class. A source can stay synthetic minor by using a PI-7-CERT to set federally enforceable limits.",
       "citation": "30 TAC Chapter 122; major source definition at 30 TAC 122.10(13)",
       "url": "https://www.tceq.texas.gov/permitting/air/titlev/air_oppermits_v.html",
-      "thresholds": "10 tpy of a single HAP or 25 tpy of combined HAPs; 100 tpy or more of any other contaminant in attainment counties. Nonattainment counties have lower thresholds under 30 TAC 122.10 (restated from TCEQ RG-404, 2011)."
+      "thresholds": "10 tpy of a single HAP or 25 tpy of combined HAPs; 100 tpy or more of any other contaminant in attainment counties. Nonattainment counties have lower thresholds under 30 TAC 122.10 (restated from TCEQ RG-404, 2011).",
+      "thresholdsSource": {
+        "name": "TCEQ RG-404 (2011)",
+        "url": "https://www.tceq.texas.gov/downloads/assistance/publications/rg-404.pdf"
+      }
     }
   ],
   "oilAndGas": {

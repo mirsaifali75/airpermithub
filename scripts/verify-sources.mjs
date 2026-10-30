@@ -39,8 +39,9 @@ export function htmlText(html) {
   const body = html
     .replace(/<!--[\s\S]*?-->/g, " ")
     .replace(/<(script|style|noscript|svg|template)\b[\s\S]*?<\/\1>/gi, " ")
-    // One pass over tags, so markup inside attribute values (tooltips) is never split
-    .replace(/<[a-zA-Z/!](?:[^>"']|"[^"]*"|'[^']*')*>/g, (t) => (/^<(br\b|\/(p|div|li|tr|h[1-6]|td|th|section|article|dd|dt)>)/i.test(t) ? "\n" : " "));
+    // One pass over tags, so markup inside attribute values (tooltips) is never split.
+    // As in browsers, a quote opens a value only after "="; a stray quote is just a character.
+    .replace(/<[a-zA-Z/!](?:=\s*"[^"]*"|=\s*'[^']*'|[^>])*>/g, (t) => (/^<(br\b|\/(p|div|li|tr|h[1-6]|td|th|section|article|dd|dt)>)/i.test(t) ? "\n" : " "));
   return decode(body).replace(/[ \t\r\f\v ]+/g, " ").replace(/\n\s*/g, "\n").trim();
 }
 export const titleOf = (html) => decode(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").replace(/\s+/g, " ").trim();
@@ -85,9 +86,23 @@ export function coverage(quote, textAlnum) {
 export function numbersIn(s) {
   return [...new Set([...s.matchAll(/(?<![\w.])\d{1,3}(?:,\d{3})+(?:\.\d+)?|(?<![\w.])\d+(?:\.\d+)?/g)].map((m) => m[0].replace(/,/g, "")))];
 }
+/**
+ * Numbers a threshold summary restates, leaving out its source notes, e.g.
+ * "(restated from TCEQ RG-404, 2011)", and rule numbers such as § 22a-174-3a,
+ * Rule 62-210.200, or 30 TAC 122.10, which are not thresholds.
+ */
+export function thresholdNumbers(s) {
+  const plain = s
+    .replace(/\((?:[^()]|\([^()]*\))*\b(?:restated|per|from|fact sheet|RG-\d+|presentation|guide|guidance|rev\.)(?:[^()]|\([^()]*\))*\)/gi, " ")
+    .replace(/(?:§+\s*|\b(?:Rule|TAC|COMAR|RCSA|NMAC|IAC|ARM|CSR|CFR|AAC|APDG|RG-|Chapter|Section|Part)\s*)\d[\w.\-()]*/g, " ")
+    .replace(/\b\d+[a-z]+-\d[\w.\-()]*|\b\d+-\d+\.\d[\w.\-()]*|\b\d+-\d+-\d[\w.\-()]*/g, " ");
+  return numbersIn(plain);
+}
 export function hasNumber(text, n) {
   const variants = [n];
   if (/^\d{4,}$/.test(n)) variants.push(Number(n).toLocaleString("en-US"));
+  // "0.50" on the site and "0.5" at the source are the same number
+  if (/\.\d*0$/.test(n)) variants.push(String(Number(n)));
   return variants.some((v) => new RegExp(`(?<![\\d.,])${v.replace(/[.,]/g, (c) => `\\${c}`)}(?![\\d]|[.,]\\d)`).test(text));
 }
 
@@ -194,8 +209,14 @@ async function fetchPage(url) {
         const type = res.headers.get("content-type") ?? "";
         const buf = Buffer.from(await res.arrayBuffer());
         const isPdf = type.includes("pdf") || buf.subarray(0, 5).toString() === "%PDF-";
+        const isDocx = type.includes("wordprocessingml") || (/\.docx$/i.test(key) && buf.subarray(0, 2).toString() === "PK");
         let text = "", title = "", raw;
-        if (isPdf) {
+        if (isDocx) {
+          const f = join(tmp, `p${pdfCount++}.docx`);
+          writeFileSync(f, buf);
+          // Word splits text into runs mid-word, so drop run tags without adding spaces
+          try { text = decode(execFileSync("unzip", ["-p", f, "word/document.xml"], { maxBuffer: 64 * 1024 * 1024 }).toString().replace(/<\/w:p>/g, "\n").replace(/<w:(tab|br)\b[^>]*\/>/g, " ").replace(/<[^>]+>/g, "")).replace(/[ \t]+/g, " ").trim(); } catch { text = ""; }
+        } else if (isPdf) {
           const f = join(tmp, `p${pdfCount++}.pdf`);
           writeFileSync(f, buf);
           try { text = execFileSync("pdftotext", ["-q", f, "-"], { maxBuffer: 64 * 1024 * 1024 }).toString(); } catch { text = ""; }
@@ -205,7 +226,7 @@ async function fetchPage(url) {
           title = titleOf(html);
           if (keepRaw) raw = html;
         }
-        last = { status: res.status, finalUrl: res.url, type: isPdf ? "pdf" : type.split(";")[0], title, text, textAlnum: alnum(text), raw };
+        last = { status: res.status, finalUrl: res.url, type: isPdf ? "pdf" : isDocx ? "docx" : type.split(";")[0], title, text, textAlnum: alnum(text), raw };
         if (res.status < 500 && res.status !== 429) return last;
       } catch (e) {
         last = { status: 0, error: e.cause?.code ?? e.name ?? String(e), text: "", textAlnum: "" };
@@ -251,8 +272,12 @@ const splitCite = (cite) => {
 
 // ---------- checks ----------
 
+// Some agency sites answer with a server error but still send the full page.
+const servedDespiteError = (page) => page.status >= 500 && !!page.title && page.text.length >= 2000;
+
 function pageProblem(page) {
   if (!page || page.status === 0) return { result: "unreachable", detail: page?.error ?? "no response" };
+  if (servedDespiteError(page)) return null;
   if (page.status === 401 || page.status === 403 || page.status === 429) return { result: "blocked", detail: `HTTP ${page.status}` };
   if (page.status >= 400) return { result: "broken", detail: `HTTP ${page.status}` };
   if (page.text.length < 400) return { result: "unreadable", detail: page.type === "pdf" ? "PDF has no extractable text" : "page text not readable (likely needs JavaScript)" };
@@ -264,11 +289,18 @@ async function check(c) {
     const page = await fetchPage(c.url);
     if (!page || page.status === 0) return { result: "unreachable", detail: page?.error };
     if ([401, 403, 429].includes(page.status)) return { result: "blocked", detail: `HTTP ${page.status}` };
+    if (servedDespiteError(page)) return { result: "ok", detail: `${page.title} (server reported HTTP ${page.status} but sent the page)` };
     if (page.status >= 400) return { result: "broken", detail: `HTTP ${page.status}` };
     return { result: "ok", detail: page.title || undefined };
   }
   if (c.kind === "quote" || c.kind === "name" || c.kind === "citation" || c.kind === "threshold") {
-    const page = await fetchPage(c.url);
+    let page = await fetchPage(c.url);
+    if (c.also?.length && !pageProblem(page)) {
+      // Thresholds summarized from two documents: check the numbers against both
+      const more = (await Promise.all(c.also.map(fetchPage))).filter((p) => !pageProblem(p));
+      const text = [page.text, ...more.map((p) => p.text)].join("\n");
+      page = { ...page, text, textAlnum: alnum(text) };
+    }
     const problem = pageProblem(page);
     if (problem) return problem;
     if (c.kind === "quote") {
@@ -283,14 +315,20 @@ async function check(c) {
       const hay = page.textAlnum + alnum(page.title ?? "");
       const plain = c.text.replace(/\s*\([^)]*\)\s*/g, " ").trim();
       if (hay.includes(alnum(c.text)) || hay.includes(alnum(plain))) return { result: "verified" };
-      return { result: "not-found", detail: page.title ? `page title: ${page.title}` : undefined };
+      // Pages often shorten a formal name; check that every word of it is on the page
+      const words = plain.match(/[A-Za-z][A-Za-z.'&-]{2,}|\d+/g)?.filter((w) => !/^(and|the|for)$/i.test(w)) ?? [];
+      const missing = words.filter((w) => !hay.includes(alnum(w)));
+      if (words.length && !missing.length) return { result: "words-found", detail: `every word of the name is on the page, not the full name in that order${page.title ? `; page title: ${page.title}` : ""}` };
+      return { result: "not-found", detail: `${missing.length ? `missing: ${missing.join(", ")}; ` : ""}${page.title ? `page title: ${page.title}` : ""}` };
     }
     if (c.kind === "citation") {
       const core = c.text.match(/[\d][\d.:\-–A-Za-z]*\d/g)?.at(-1);
       if (!core) return { result: "skipped", detail: "no section number" };
-      return page.textAlnum.includes(alnum(core)) ? { result: "verified" } : { result: "not-found", detail: `"${core}" not on page` };
+      // "201.142-201.144" or "9.7.5-9.7.6": a range; either end on the page counts
+      const ends = core.match(/^(.*[.:].*)[-–](\d.*[.:].*)$/)?.slice(1) ?? [core];
+      return ends.some((e) => page.textAlnum.includes(alnum(e))) ? { result: "verified" } : { result: "not-found", detail: `"${core}" not on page` };
     }
-    const nums = numbersIn(c.text);
+    const nums = thresholdNumbers(c.text);
     const missing = nums.filter((n) => !hasNumber(page.text, n));
     return { result: missing.length ? "numbers-missing" : "numbers-found", detail: missing.length ? `not on page: ${missing.join(", ")}` : `${nums.length} numbers found`, candidates: closestSentences(c.text, page.text), context: missing.length ? contextFor(c.text, page.text) : undefined };
   }
@@ -376,7 +414,7 @@ async function main() {
     mkdirSync(join(debugDir, "ecfr"), { recursive: true });
     mkdirSync(join(debugDir, "pages"), { recursive: true });
     for (const [sec, xml] of rawSections) writeFileSync(join(debugDir, "ecfr", `${sec}.xml`), xml);
-    const textUrls = new Set(claims.filter((c) => ["quote", "threshold"].includes(c.kind)).map((c) => c.url.split("#")[0]));
+    const textUrls = new Set(claims.filter((c) => ["quote", "threshold"].includes(c.kind)).flatMap((c) => [c.url, ...(c.also ?? [])].map((u) => u.split("#")[0])));
     const index = {};
     let n = 0;
     for (const u of textUrls) {
@@ -394,7 +432,7 @@ async function main() {
   const md = [`# Source verification`, ``, `Checked ${checkedOn} against live pages and eCFR (current through ${ecfrDate}). ${claims.length} claims, ${pageCache.size} pages, ${sectionCache.size} eCFR sections.`, ``, `| Kind | Results |`, `|---|---|`];
   for (const [k, v] of Object.entries(summary)) md.push(`| ${k} | ${Object.entries(v).map(([r, n]) => `${r}: ${n}`).join(", ")} |`);
   md.push(``, `## Needs attention`, ``);
-  for (const r of results.filter((r) => !["verified", "ok", "numbers-found", "skipped"].includes(r.result))) md.push(`- **${r.result}** ${r.kind} · ${r.where} · ${r.text.slice(0, 120).replace(/\|/g, "/")}${r.detail ? ` · ${r.detail}` : ""}${r.url ? ` · ${r.url}` : ""}`);
+  for (const r of results.filter((r) => !["verified", "ok", "numbers-found", "skipped", "words-found"].includes(r.result))) md.push(`- **${r.result}** ${r.kind} · ${r.where} · ${r.text.slice(0, 120).replace(/\|/g, "/")}${r.detail ? ` · ${r.detail}` : ""}${r.url ? ` · ${r.url}` : ""}`);
   writeFileSync(join(outDir, "report.md"), md.join("\n") + "\n");
   console.log(md.slice(0, 20).join("\n"));
 }

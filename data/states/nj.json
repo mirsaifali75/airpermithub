@@ -38,16 +38,15 @@
     {
       "type": "psd",
       "name": "Prevention of Significant Deterioration (PSD)",
-      "description": "NJDEP issues PSD permits (per EPA's CAA Permitting in New Jersey page). The pages reviewed do not restate numeric thresholds.",
-      "url": "https://www.epa.gov/caa-permitting/caa-permitting-new-jersey"
+      "description": "NJDEP issues PSD permits (per EPA's Clean Air Permitting in New Jersey page and EPA's 2011 PSD delegation to New Jersey). The pages reviewed do not restate numeric thresholds.",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey"
     },
     {
       "type": "nnsr",
       "name": "Nonattainment NSR (Emission Offsets)",
-      "description": "NJDEP issues nonattainment NSR permits (per EPA). Emission offset requirements are in N.J.A.C. 7:27-18. New Jersey is in the Ozone Transport Region.",
+      "description": "NJDEP issues nonattainment NSR permits (per EPA's Clean Air Permitting in New Jersey page). Emission offset requirements are in N.J.A.C. 7:27-18. New Jersey is in the Ozone Transport Region. Numeric thresholds are not restated here because the current rule text could not be read.",
       "citation": "N.J.A.C. 7:27-18",
-      "url": "https://www.epa.gov/caa-permitting/caa-permitting-new-jersey",
-      "quote": "major source threshold for Potential to Emit (PTE) of 25 tons/year NOx"
+      "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey"
     },
     {
       "type": "title-v",
@@ -112,8 +111,8 @@
       "url": "https://www.nj.gov/dep/enforcement/aceacademy/GP-update-Ketting-Adhanom.pdf"
     },
     {
-      "name": "EPA CAA Permitting in New Jersey",
-      "url": "https://www.epa.gov/caa-permitting/caa-permitting-new-jersey"
+      "name": "EPA: Clean Air Permitting in New Jersey",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey"
     },
     {
       "name": "Federal Register 2021-25004 (NJ Subchapter 22 listing)",
@@ -122,5 +121,5 @@
   ],
   "lastReviewed": "2026-10-25",
   "verification": "partial",
-  "notes": "NJDEP's own website (dep.nj.gov) refused automated access throughout this review, so its current pages, the full general permit list, and the current rule text could not be read. Thresholds come from EPA's 2018 incorporation-by-reference copy of Subchapter 8 and may have been amended since. The general permit list, fees, and processing times come from an undated NJDEP training deck and should be checked against the current BOSS general permits page. The Subchapter 18 title is the standard rule title and was not seen in text."
+  "notes": "NJDEP's own website (dep.nj.gov) refused automated access throughout this review, so its current pages, the full general permit list, and the current rule text could not be read. Thresholds come from EPA's 2018 incorporation-by-reference copy of Subchapter 8 and may have been amended since. The general permit list, fees, and processing times come from an undated NJDEP training deck and should be checked against the current BOSS general permits page. The Subchapter 18 title is the standard rule title and was not seen in text. A nonattainment NSR threshold quote was removed on 2026-10-30 because the EPA page it came from no longer exists."
 }

@@ -60,7 +60,11 @@
       "description": "Facility-wide operating permit for non-Title V facilities above the State-Only thresholds. Exempt sources generally must still be listed unless trivial.",
       "citation": "25 Pa. Code Chapter 127, Subchapter F",
       "url": "https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit",
-      "thresholds": "State-Only operating permit thresholds (PTE / actual, tpy) per DEP 275-2101-003: CO 100/20; NOx 100/10 (25 PTE in Bucks, Chester, Delaware, Montgomery); SOx 100/8; PM10 100/3; VOC 50/8 (25 PTE in the same four counties); single HAP 10/1; multiple HAPs 25/2.5 (restated)."
+      "thresholds": "State-Only operating permit thresholds (PTE / actual, tpy) per DEP 275-2101-003: CO 100/20; NOx 100/10 (25 PTE in Bucks, Chester, Delaware, Montgomery); SOx 100/8; PM10 100/3; VOC 50/8 (25 PTE in the same four counties); single HAP 10/1; multiple HAPs 25/2.5 (restated).",
+      "thresholdsSource": {
+        "name": "PA DEP Air Quality Permit Exemptions (275-2101-003)",
+        "url": "https://greenport.pa.gov/elibrary//PDFProvider.ashx?action=PDFStream&docID=3791499&revision=0&docName=01+AIR+QUALITY+PERMIT+EXEMPTIONS&nativeExt=pdf&PromptToSave=False&Size=251545&ViewerMode=2&overlay=0"
+      }
     },
     {
       "type": "nnsr",

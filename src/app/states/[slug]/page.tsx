@@ -53,13 +53,33 @@ function ProgramCard({ p }: { p: PermitProgram }) {
       <p className="mt-2 text-sm text-slate-700">{p.description}</p>
       {p.quote && (
         <figure className="mt-3 rounded-xl border-l-4 border-cyan-500 bg-canvas px-4 py-3">
-          <figcaption className="mb-1 flex items-center gap-1.5 text-xs font-semibold text-muted"><Quote className="h-3.5 w-3.5" aria-hidden="true" /> Quoted verbatim from the agency source</figcaption>
+          <figcaption className="mb-1 flex items-center gap-1.5 text-xs font-semibold text-muted">
+            <Quote className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+            {p.quoteSource ? (
+              <span>
+                Quoted verbatim from{" "}
+                <a href={p.quoteSource.url} target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:underline">{p.quoteSource.name}</a>
+              </span>
+            ) : (
+              "Quoted verbatim from the agency source"
+            )}
+          </figcaption>
           <blockquote className="text-sm text-slate-700">{p.quote}</blockquote>
         </figure>
       )}
       {p.thresholds && (
         <div className="mt-3 rounded-xl border border-amber-300/50 bg-amber-50/60 px-4 py-3">
-          <p className="mb-1 flex items-center gap-1.5 text-xs font-semibold text-amber-900"><Gauge className="h-3.5 w-3.5" aria-hidden="true" /> Thresholds (summarized from source, not a quotation)</p>
+          <p className="mb-1 flex items-center gap-1.5 text-xs font-semibold text-amber-900">
+            <Gauge className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+            {p.thresholdsSource ? (
+              <span>
+                Thresholds summarized from{" "}
+                <a href={p.thresholdsSource.url} target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">{p.thresholdsSource.name}</a>, not a quotation
+              </span>
+            ) : (
+              "Thresholds (summarized from source, not a quotation)"
+            )}
+          </p>
           <p className="text-sm text-slate-700">{p.thresholds}</p>
         </div>
       )}

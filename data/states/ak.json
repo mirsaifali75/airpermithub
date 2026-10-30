@@ -23,9 +23,9 @@
       "type": "psd",
       "name": "Construction Permits",
       "description": "Required for new major sources and major modifications.",
-      "citation": "18 AAC 50; thresholds tied to 40 CFR 52.21(b)(1)(i)(a)",
+      "citation": "18 AAC 50; thresholds tied to 40 CFR 52.21(b)(1)(i)(A)",
       "url": "https://dec.alaska.gov/air/air-permit/construction-minor-applications/",
-      "thresholds": "Per DEC: 100 tpy of any regulated pollutant for the 28 facility types listed at 40 CFR 52.21(b)(1)(i)(a); 250 tpy for other facilities."
+      "thresholds": "Per DEC: 100 tpy of any regulated pollutant for the 28 facility types listed at 40 CFR 52.21(b)(1)(i)(A); 250 tpy for other facilities."
     },
     {
       "type": "minor-nsr",
@@ -108,15 +108,11 @@
   "forms": [
     {
       "name": "Transfer of Ownership",
-      "url": "https://dec.alaska.gov/media/11441/transfer-ownership-2018.pdf"
+      "url": "https://dec.alaska.gov/media/fczfipzz/transfer-ownership-2018.pdf"
     },
     {
       "name": "Source Test Plan Summary",
-      "url": "https://dec.alaska.gov/media/6689/stp-form.pdf"
-    },
-    {
-      "name": "Title V Minor Revision Checklist",
-      "url": "https://dec.alaska.gov/media/7327/titlev-minor-revision-checklist.pdf"
+      "url": "https://dec.alaska.gov/media/ek4p1f33/stp-form.pdf"
     },
     {
       "name": "MG1 Notification Form",

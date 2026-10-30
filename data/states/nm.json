@@ -33,7 +33,11 @@
       "description": "A filing with NMED before construction. Per NMED, an NOI is not a permit. A separate Oil and Gas NOI form exists.",
       "citation": "20.2.73 NMAC",
       "url": "https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-noi-application-form/",
-      "quote": "More than 10 tons per year for any regulated air contaminant (including VOCs)."
+      "quote": "More than 10 tons per year for any regulated air contaminant (including VOCs).",
+      "quoteSource": {
+        "name": "NMED Air Quality Bureau, Permitting Section (Types of Permits)",
+        "url": "https://www.env.nm.gov/air-quality/permitting-section-home-page/"
+      }
     },
     {
       "type": "minor-nsr",
@@ -41,7 +45,11 @@
       "description": "Required before construction or modification above the Part 72 triggers. Includes streamline permits (20.2.72.300 NMAC) and toxic air pollutant review (20.2.72.400 NMAC).",
       "citation": "20.2.72 NMAC",
       "url": "https://www.srca.nm.gov/parts/title20/20.002.0072.html",
-      "quote": "More than 10 pounds per hour of criteria pollutants (does not include VOCs), More than 25 tons per year of criteria pollutants (does not include VOCs), or More than the pound per hour levels listed in 20.2.72.400 NMAC for New Mexico Toxic Air Pollutants."
+      "quote": "More than 10 pounds per hour of criteria pollutants (does not include VOCs), More than 25 tons per year of criteria pollutants (does not include VOCs), or More than the pound per hour levels listed in 20.2.72.400 NMAC for New Mexico Toxic Air Pollutants.",
+      "quoteSource": {
+        "name": "NMED Air Quality Bureau, Permitting Section (Types of Permits)",
+        "url": "https://www.env.nm.gov/air-quality/permitting-section-home-page/"
+      }
     },
     {
       "type": "general",
@@ -55,8 +63,12 @@
       "name": "Prevention of Significant Deterioration (PSD) Construction Permit",
       "description": "Major source construction permit for attainment areas.",
       "citation": "20.2.74 NMAC; Table 1 at 20.2.74.501 NMAC",
-      "url": "http://www.srca.nm.gov/parts/title20/20.002.0074.html",
-      "quote": "A stationary source is listed in Table 1 (20.2.74.501 NMAC) which emits, or has the potential to emit, 100 tons per year or more of any regulated new source review pollutant. Any stationary source not listed in Table 1 (20.2.74.501 NMAC): 250 tons per year or more of any regulated new source review pollutant."
+      "url": "https://www.srca.nm.gov/parts/title20/20.002.0074.html",
+      "quote": "A stationary source is listed in Table 1 (20.2.74.501 NMAC) which emits, or has the potential to emit, 100 tons per year or more of any regulated new source review pollutant. Any stationary source not listed in Table 1 (20.2.74.501 NMAC) and which emits, or has the potential to emit, 250 tons per year or more of any regulated new source review pollutant.",
+      "quoteSource": {
+        "name": "NMED Air Quality Bureau, Permitting Section (Types of Permits)",
+        "url": "https://www.env.nm.gov/air-quality/permitting-section-home-page/"
+      }
     },
     {
       "type": "nnsr",
@@ -71,7 +83,11 @@
       "description": "Operating permit for major sources. Except for certain grandfathered sources, Title V sources must also obtain a construction permit before constructing or modifying. First-time applications are due within 12 months after the source begins operating as a Title V source.",
       "citation": "20.2.70 NMAC",
       "url": "https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/",
-      "quote": "Facilities with the potential to emit more than 100 tons per year for any pollutant subject to regulation (includes VOCs), Landfills greater than 2.5 million cubic meters in volume, or Facilities with the potential to emit greater than 10 tons per year of a single Hazardous Air Pollutant, or 25 tons per year of any combination of Hazardous Air Pollutants."
+      "quote": "Facilities with the potential to emit more than 100 tons per year for any pollutant subject to regulation (includes VOCs), Landfills greater than 2.5 million cubic meters in volume, or Facilities with the potential to emit greater than 10 tons per year of a single Hazardous Air Pollutant, or 25 tons per year of any combination of Hazardous Air Pollutants.",
+      "quoteSource": {
+        "name": "NMED Air Quality Bureau, Permitting Section (Types of Permits)",
+        "url": "https://www.env.nm.gov/air-quality/permitting-section-home-page/"
+      }
     }
   ],
   "oilAndGas": {
@@ -115,37 +131,119 @@
     ]
   },
   "regulations": [
-    { "citation": "20.2.50 NMAC", "title": "Oil and Gas Sector: Ozone Precursor Pollutants", "url": "https://www.srca.nm.gov/parts/title20/20.002.0050.html" },
-    { "citation": "20.2.70 NMAC", "title": "Operating Permits (Title V)", "url": "https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/" },
-    { "citation": "20.2.72 NMAC", "title": "Construction Permits", "url": "https://www.srca.nm.gov/parts/title20/20.002.0072.html" },
-    { "citation": "20.2.73 NMAC", "title": "Notice of Intent and Emissions Inventory Requirements", "url": "https://www.srca.nm.gov/parts/title20/20.002.0073.html" },
-    { "citation": "20.2.74 NMAC", "title": "Permits: Prevention of Significant Deterioration", "url": "http://www.srca.nm.gov/parts/title20/20.002.0074.html" },
-    { "citation": "20.2.79 NMAC", "title": "Permits: Nonattainment Areas", "url": "http://164.64.110.134/parts/title20/20.002.0079.html" },
-    { "citation": "20.11 NMAC", "title": "Albuquerque-Bernalillo County air quality regulations", "url": "https://www.cabq.gov/airquality/air-quality-control-board" }
+    {
+      "citation": "20.2.50 NMAC",
+      "title": "Oil and Gas Sector: Ozone Precursor Pollutants",
+      "url": "https://www.srca.nm.gov/parts/title20/20.002.0050.html"
+    },
+    {
+      "citation": "20.2.70 NMAC",
+      "title": "Operating Permits (Title V)",
+      "url": "https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/"
+    },
+    {
+      "citation": "20.2.72 NMAC",
+      "title": "Construction Permits",
+      "url": "https://www.srca.nm.gov/parts/title20/20.002.0072.html"
+    },
+    {
+      "citation": "20.2.73 NMAC",
+      "title": "Notice of Intent and Emissions Inventory Requirements",
+      "url": "https://www.srca.nm.gov/parts/title20/20.002.0073.html"
+    },
+    {
+      "citation": "20.2.74 NMAC",
+      "title": "Permits: Prevention of Significant Deterioration",
+      "url": "http://www.srca.nm.gov/parts/title20/20.002.0074.html"
+    },
+    {
+      "citation": "20.2.79 NMAC",
+      "title": "Permits: Nonattainment Areas",
+      "url": "https://www.srca.nm.gov/parts/title20/20.002.0079.html"
+    },
+    {
+      "citation": "20.11 NMAC",
+      "title": "Albuquerque-Bernalillo County air quality regulations",
+      "url": "https://www.cabq.gov/airquality/air-quality-control-board"
+    }
   ],
   "forms": [
-    { "name": "Universal Application Form", "url": "https://www.env.nm.gov/air-quality/universal-application-2-2/" },
-    { "name": "Oil and Gas NOI form", "url": "https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-noi-application-form/" },
-    { "name": "GCP-Oil and Gas application forms", "url": "https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-gcp-application-forms/" },
-    { "name": "Title V Insignificant Activities list", "url": "https://www.env.nm.gov/wp-content/uploads/sites/2/2017/10/InsignificantListTitleV.pdf" },
-    { "name": "Title V Trivial Activities list", "url": "https://www.env.nm.gov/wp-content/uploads/sites/2/2017/10/TrivialListTitleV.pdf" },
-    { "name": "NMED forms", "url": "https://www.env.nm.gov/forms/" },
-    { "name": "Albuquerque-Bernalillo County application forms", "url": "https://www.cabq.gov/airquality/air-quality-permits/air-quality-application-forms" }
+    {
+      "name": "Universal Application Form",
+      "url": "https://www.env.nm.gov/air-quality/universal-application-2-2/"
+    },
+    {
+      "name": "Oil and Gas NOI form",
+      "url": "https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-noi-application-form/"
+    },
+    {
+      "name": "GCP-Oil and Gas application forms",
+      "url": "https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-gcp-application-forms/"
+    },
+    {
+      "name": "Title V Insignificant Activities list",
+      "url": "https://www.env.nm.gov/wp-content/uploads/sites/2/2017/10/InsignificantListTitleV.pdf"
+    },
+    {
+      "name": "Title V Trivial Activities list",
+      "url": "https://www.env.nm.gov/wp-content/uploads/sites/2/2017/10/TrivialListTitleV.pdf"
+    },
+    {
+      "name": "NMED forms",
+      "url": "https://www.env.nm.gov/forms/"
+    },
+    {
+      "name": "Albuquerque-Bernalillo County application forms",
+      "url": "https://www.cabq.gov/airquality/air-quality-permits/air-quality-application-forms"
+    }
   ],
   "guidance": [
-    { "name": "Permitting Procedures and Guidance", "url": "https://www.env.nm.gov/air-quality/permitting-section-procedures-and-guidance/" },
-    { "name": "Title V Operating Permits Guidance", "url": "https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/" },
-    { "name": "Nonattainment Areas", "url": "https://www.env.nm.gov/air-quality/nonattainment-areas/" },
-    { "name": "Ozone Precursor Rulemaking", "url": "https://www.env.nm.gov/air-quality/ozone-draft-rule/" },
-    { "name": "Small Business Environmental Assistance Program", "url": "http://www.env.nm.gov/air-quality/small-biz-eap-2/" }
+    {
+      "name": "Permitting Procedures and Guidance",
+      "url": "https://www.env.nm.gov/air-quality/permitting-section-procedures-and-guidance/"
+    },
+    {
+      "name": "Title V Operating Permits Guidance",
+      "url": "https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/"
+    },
+    {
+      "name": "Nonattainment Areas",
+      "url": "https://www.env.nm.gov/air-quality/nonattainment-areas/"
+    },
+    {
+      "name": "Ozone Precursor Rulemaking",
+      "url": "https://www.env.nm.gov/air-quality/ozone-draft-rule/"
+    },
+    {
+      "name": "Small Business Environmental Assistance Program",
+      "url": "http://www.env.nm.gov/air-quality/small-biz-eap-2/"
+    }
   ],
-  "ePermitting": { "name": "AQB ePermitting Portal", "url": "https://www.env.nm.gov/air-quality/aqb-epermitting-portal/" },
-  "fees": { "name": "Permit Fees", "url": "https://www.env.nm.gov/air-quality/permit-fees-2/" },
+  "ePermitting": {
+    "name": "AQB ePermitting Portal",
+    "url": "https://www.env.nm.gov/air-quality/aqb-epermitting-portal/"
+  },
+  "fees": {
+    "name": "Permit Fees",
+    "url": "https://www.env.nm.gov/air-quality/permit-fees-2/"
+  },
   "sources": [
-    { "name": "NMED AQB Permitting home", "url": "https://www.env.nm.gov/air-quality/permitting-section-home-page/" },
-    { "name": "NMED Title V guidance", "url": "https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/" },
-    { "name": "NM State Records Center: 20.2.50 NMAC", "url": "https://www.srca.nm.gov/parts/title20/20.002.0050.html" },
-    { "name": "City of Albuquerque Air Quality Permits", "url": "https://www.cabq.gov/airquality/air-quality-permits" }
+    {
+      "name": "NMED AQB Permitting home",
+      "url": "https://www.env.nm.gov/air-quality/permitting-section-home-page/"
+    },
+    {
+      "name": "NMED Title V guidance",
+      "url": "https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/"
+    },
+    {
+      "name": "NM State Records Center: 20.2.50 NMAC",
+      "url": "https://www.srca.nm.gov/parts/title20/20.002.0050.html"
+    },
+    {
+      "name": "City of Albuquerque Air Quality Permits",
+      "url": "https://www.cabq.gov/airquality/air-quality-permits"
+    }
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",
