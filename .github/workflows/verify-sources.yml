@@ -1,0 +1,40 @@
+name: Source verification
+
+# Checks every quote, restated threshold, 40 CFR citation, glossary term, agency
+# name, and source link against the live government pages and current eCFR.
+# The report goes on a branch (verify/<date>-<run>) for an editor to review.
+
+on:
+  schedule:
+    - cron: "0 14 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+      - run: npm ci
+      - run: npx vitest run src/lib/verify-export.test.ts
+        env:
+          VERIFY_OUT: verify-claims.json
+      - run: node scripts/verify-sources.mjs --claims verify-claims.json --out data/verification
+      - run: head -c 900000 data/verification/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Save the report on a branch
+        run: |
+          branch="verify/$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data/verification
+          git commit -m "Source verification report"
+          git push -u origin "$branch"
