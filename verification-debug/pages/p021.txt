@@ -1,0 +1,2211 @@
+State of Illinois
+Illinois Department of Commerce and Economic Opportunity
+Illinois Environmental Protection Agency
+Illinois Environmental
+Protection Agency
+
+Does my business need an
+
+Air Pollution Control Permit?
+
+Does My Business Need an Air Pollution Control Permit?
+Introduction
+This document is intended to provide a guide or roadmap to assist you in determining whether your business
+requires an air pollution control permit or registration from the Bureau of Air. Figuring out whether or not a
+permit or registration is needed has been confusing and frustrating to many small businesses. While this
+document is intended to help explain how to make this determination, it does not provide a definitive answer
+for every person or facility. Permit decisions can be complex matters and situations requiring interpretation
+and assistance can arise. You are encouraged to call the Agency's Bureau of Air Permit Section at 217.785.1705 if
+you have additional questions or concerns. Someone will be ready to assist you. If you have questions on the
+requirements for registration under the Registration of Smaller Sources, also known as the ROSS program, you
+should call the Small Business Environmental Assistance Program (SBEAP) at 800.252.3998. You may also wish
+to obtain assistance from an independent environmental professional of your choice.
+There are two kinds of air pollution control permits, other than the registration program called ROSS,
+required by the Illinois Environmental Protection Act. Construction permits are required prior to beginning
+construction of an emission source or air pollution control equipment. Operating permits are required for
+operation of an emission source or air pollution control equipment subject to the permit requirements.
+Determining whether your business contains an emission unit may be a complicated question that
+requires interpretation. Similarly, questions requiring interpretation may arise in determining whether an
+"emission unit" falls within an exemption, how to calculate emissions, or what kind of permit you may
+need or if you fall under the ROSS program and need to register.
+Your business may also need a water permit or a land permit or both, regardless of whether an air permit
+is required. Documents to assist you with these permits are also available from the Agency. If you have
+questions about land or water permits you can contact those offices at:
+Illinois EPA Bureau of Land Permit Section
+Illinois EPA Bureau of Water Permit Section
+Illinois Small Business Environmental Assistance Program
+
+217.524.3300
+217.782.0610
+800.252.3998
+
+Does My Business Need a Construction Permit?
+Generally, you can determine whether your business needs an air pollution control construction permit
+by going through the steps described below. For a new business or a new “source,” you can determine
+whether your business needs a construction permit by going through Steps 1 and 2 below. For an existing
+source, you will also need to look at Step 3 below to determine whether your existing source has been
+modified so as to require a construction permit.
+For an existing source, you should be aware that even if you did not obtain a construction permit prior to
+the construction of your source, you may be required to obtain an operating permit. The Agency
+recommends that you determine whether you need an operating permit (see the Operating Permit
+Section of this document) and apply for an operating permit or register under the ROSS program
+regardless of whether you obtained a construction permit.
+
+Step 1: Does my business have an emission unit?
+You should first ask whether your business has an emission unit or air pollution control equipment as
+defined in the state air pollution control regulations (the definitions of “emission source” and “emission
+unit” are very broad and can include almost any industrial or process equipment).
+Air pollution control equipment is any equipment or facility of a type intended to eliminate, prevent,
+reduce or control the emission of specified air contaminants (see Appendix 1) to the atmosphere.
+1
+
+An emission source is any equipment or facility of a type capable of emitting specified air contaminants
+(see Appendix 1) to the atmosphere. An emission unit is any part or activity at a stationary source that
+emits or has the potential to emit any air pollutant.
+
+Two important considerations:
+• If your business has air pollution control equipment, it has an emission unit.
+• If your business does not have an emission unit meeting this definition, you are not required to
+obtain an air pollution control construction permit or register under the ROSS program.
+If your business does have an emission unit, you should go on to Step 2.
+
+Step 2: Does my source or emission unit fit within any of the exemptions from the
+state permit requirements?
+The environmental regulations for air pollution contain a list of emission units (and associated air pollution
+control equipment) for which you are not required to obtain a construction permit. Most of these are
+small emission sources, many of which are located at small businesses.
+Appendix 2 contains a list of the exemptions to air permit requirements contained in the state air pollution
+control regulations. You should review Appendix 2 to determine whether your “emission unit“ may fit
+within any of the exemptions to the permit requirement.
+
+Important considerations:
+• If any of your emission units do not fit within one of the permit exemptions, you are required to
+obtain an air pollution control construction permit or register under the ROSS program from the
+Bureau of Air prior to construction of the emission units that do not fall under any of the permit
+exemptions.
+• If all of your emission units do fit within one of more of the exemptions, you are not required to
+obtain a state air pollution control construction permit or register under the ROSS program.
+• It is important to remember that while your units may be exempt because they are listed in the
+exemptions the accumulation of emissions of regulated pollutants (NOx, CO, etc) or accumulation of
+HAPs from your units may cause you to need an air permit due to New Source Review (NSR). See the
+description below in Step four for more information on New Source Review and the Prevention of
+Serious Deterioration (PSD) programs.
+
+You should be aware that even if you do not need a permit, there may be certification,
+control requirements or recordkeeping requirements with which you must comply. The
+same requirements may apply to those sources registered under the ROSS program.
+Additionally, the federal USEPA has National Emission Standards for Hazardous Air Pollutant (NESHAP)
+regulations that may apply to your facility’s operation. There is a list of the existing NESHAP regulations at
+the back of this pamphlet in Appendix 3. The USEPA makes regular updates to its NESHAP regulations;
+you can get updated information about the NESHAP regulations at
+http://www.epa.gov/ttn/atw/eparules.html. These NESHAP regulations cover a variety of smaller area
+sources. Area sources are those sources that emit less than 10 tons per year (tpy) of any single hazardous
+air pollutant (HAP) or less than 25 tpy of any combination of HAP. A full list of the HAP regulated by USEPA
+can be found in Appendix 1 or at http://www.epa.gov/ttn/atw/orig189.html.
+
+Step 3: For an existing emission source, have you made any modification that triggers
+the construction permit requirement?
+You should ask whether your source or emission units will be modified in a manner that meets the
+definition of a modification as contained in the air pollution control regulations:
+• A modification is any physical change in, or change in the method of operations, of an emission
+2
+
+source or of air pollution control equipment which increases the amount of any specified air
+contaminant emitted by such source or equipment or which results in the emission of any specified
+air contaminant not previously emitted. It shall be presumed that an increase in the use of raw
+materials, the time of operation or the rate of production will change the amount of any specified air
+contaminant emitted. Notwithstanding any other provisions of this definition, for purposes of permits
+issued pursuant to Subpart D, the Illinois Environmental Protection Agency (Agency) may specify
+conditions under which an emission source or air pollution control equipment may be operated
+without causing a modification as herein defined, and normal cyclical variations, before the date
+operating permits are required, shall not be considered modifications.
+There is a significant amount of historical interpretation of this definition (35 Ill. Adm. Code §201.102). In
+some situations, the interpretation can be quite complex. However, under the air regulations, any physical
+change in an emission unit that increases emissions will generally require a construction permit unless the
+source is currently registered under the ROSS program and the modification does not change the levels
+of total emissions under the ROSS program.
+You may wish to discuss these issues with someone from the Bureau of Air’s Permit Section or obtain
+professional assistance or both in making this determination.
+
+Step 4: If new equipment or modifications cause increased emissions, are any other
+regulations triggered?
+You should ask yourself if your emissions from new construction or modifications are at a major source
+level (defined in this section).
+If the emissions do exceed the major source threshold, then the new emission unit(s) or existing modified
+emission unit(s) may need to comply with 40 CFR 52.21, the federal regulations for the Prevention of
+Significant Deterioration (PSD) of air quality or 35 Ill. Adm. Code Part 203, Major Stationary Source
+Construction And Modification, also known as Nonattainment New Source Review (NNSR). Under the PSD
+rules, the owner or operator of the subject source will be required to apply the Best Available Control
+Technology (BACT) for the new or modified emission unit(s) for each pollutant for which the source
+triggers PSD for that pollutant, while under NNSR requirements, the owner or operator of the subject
+source is required to apply the Lowest Achievable Emission Rate (LAER) and obtain emission offsets.
+If your emissions are close to or at a major source level, then a meeting with a permit analyst is strongly
+recommended before a construction permit application is submitted in order to determine applicability
+of these rules and discuss the permitting process. Because the applicability and requirements of PSD and
+NNSR are very complicated, the discussion below highlights the key aspects of these rules, but is not
+comprehensive. Again, if you suspect that your project may trigger PSD and/or NNSR, you are advised to
+speak with a permit analyst in the major source construction unit.
+• A major source under PSD is defined as any stationary source (or any group of stationary sources
+that are located on one or more contiguous or adjacent properties, and are under common control
+of the same person or persons) belonging to a single major industrial grouping and is described in
+one of the following:
+• When the new or modified source is among a list of 28 specific categories (e.g., refinery, lime
+plant), the potential to emit is 100 tons per year or more of any air pollutant, i.e., particulate
+matter (PM-10), sulfur dioxide (SO2), nitrogen oxides (NOx), carbon monoxide (CO), or
+volatile organic material (VOM).
+• If the source category is not in that list, the potential to emit is 250 tons per year or more of
+any air pollutant, i.e., PM-10, SO2, NOx, CO, or VOM.
+• In a nonattainment area, when the new or modified source’s potential to emit is 100 tons per
+year or more for a nonattainment area pollutant.
+Note: Greenhouse gases are considered air pollutants and can trigger these
+requirements (definition of greenhouse gases can be found in Appendix 1).
+
+3
+
+There are other requirements that go beyond the scope of this document for purposes of PSD and
+nonattainment-NSR. Please contact the Permit Section or a professional consultant if your business is
+subject to either one of these requirements.
+
+Does My Business Need An Operating Permit?
+Determining whether your business needs an air pollution control operating permit is nearly identical to
+determining whether your business needs a construction permit. However, you should pay special
+attention to the explanation of the federal Clean Air Act Permit Program (CAAPP) requirements below,
+since they do not always follow the same steps. There are also different kinds of operating permits and a
+registration program of which you need to be aware.
+
+1. Will you need an air pollution operating permit for your source or emission unit?
+• If your source, emission unit, or air pollution control equipment does not need an air construction
+permit (as determined from Steps 1 and 2 of the earlier section of this document), it does not need
+an operating permit. (But see Note below.)
+• If your source, emission unit, or air pollution control equipment does or will need a construction
+permit, it will also need an operating permit or may fall under the ROSS program.
+Note: In a limited number of circumstances, the requirement for a CAAPP permit may still apply even if
+your emission source fits within one of the exemptions. For example, as is explained in the earlier section,
+certain businesses subject to the requirements of the National Emission Standards for Hazardous Air
+Pollutants (NESHAP) are exempt from the state operating permit requirements (i.e., certain dry cleaners);
+however, they may emit a level of hazardous air pollutant (HAP) emissions that triggers a CAAPP permit
+requirement. A list of the 187 HAPs is found in Appendix 1. Similarly, certain engines exempt from the state
+operating permit requirement may emit enough nitrogen oxides to trigger the CAAPP permit
+requirement.
+
+2. What Type of Operating Permit Is Required?
+The most important thing to determine is whether your business needs to obtain an air pollution control
+operating permit or register under the ROSS program. Completing the steps mentioned earlier will help
+you answer that question.
+However, if you have determined that you need an operating permit for your business, you will want to
+know the type of operating permit you need. This will determine the application requirements you must
+meet, the application forms you should use, and the permit you will receive. The Bureau of Air’s Permit
+Section, at 217-785-1705, will help you if you need assistance.
+A brief description of the different kinds of operating permits and the ROSS registration program follows
+below. As with the Steps above, determining what kind of permit you need to obtain may require
+interpretation for which you may want to obtain assistance from the Bureau of Air. You may also wish to
+obtain assistance from an environmental professional of your choice.
+
+Registration of Smaller Sources (ROSS) program:
+The ROSS program is intended to simplify air regulatory requirements by requiring sources with lower
+emissions to register with the agency rather than acquiring or maintaining an air permit. It is important to
+note that although the source may no longer be subject to permitting, the source must still comply with all
+applicable environmental requirements.
+Sources meeting the following eligibility criteria must register under ROSS:
+• Not required to get a Title V or Clean Air Permit Program (CAPP) permit
+• Not required to get a Federally Enforceable State Operating Permit (FESOP)
+4
+
+• Not required to get a permit under the New Source Performance Standards (NSPS) or under the
+National Emission Standards for Hazardous Air Pollutants (NESHAP) or by USEPA.
+• Actual emissions from the source's emission units are less than the following limits for the prior
+calendar year*:
+o 5.0 Tons/yr of combined pollutants (particulate matter, carbon monoxide, nitrogen oxides, sulfur
+dioxide and volatile organic material)
+o 0.50 Tons/yr of combined Hazardous Air Pollutants (HAPs)
+o 0.05 Tons/yr of mercury air emissions
+o 0.05 Tons/yr of lead air emissions
+*Do not include emission units that are exempt from the permitting requirements-see Appendix 2
+• If a new source the sum of the anticipated estimated actual annual emissions from all non-exempt
+units associated with the source must meet the limits as stated above. If the source has been
+operating less than one calendar year, projected estimated emissions may be used for all of the
+remaining months in the prior calendar year.
+• Emission units or source is not subject to maximum achievable control technology under 40 CFR Part
+61 or the NESHAP under 40 CFR Part 63 unless it is categorized as an area source
+• Emission units at the source are not used as thermal desorption systems pursuant to 35 Ill. Adm.
+Code 728 Table F or as an incinerator system.
+• The source is not subject to local siting review under Section 39.2 of the Act
+
+Lifetime State Operating Permit:
+Sources subject to the requirement to obtain a state air pollution control operating permit were able to
+receive a lifetime permit for the emission source. This lifetime permit does not require renewal or reapplication
+unless requested by the Agency for certain defined reasons. After July 1, 1998, lifetime permits will be issued
+for all new sources not subject to CAAPP or FESOP permitting requirements (see below). All existing state
+operating permits were issued as lifetime permits at the time of their first renewal after July 1, 1998.
+
+Is there a fee and is there a deadline to register?
+Yes, the annual registration fee is $235 and there are registration deadlines. The annual fee payment will
+serve as the owner or operator's verification that the source continues to meet the eligibility criteria each
+year. The registration deadlines are as follows:
+• Sources holding a permit must register no later than their annual fee payment date in state fiscal year
+2013 (July 1, 2012 through June 30, 2013). The registration fee is due by this date also.
+• The owner or operator of an operating source not holding a permit shall register no later than July 1,
+2012 and payment of the fee is due at the time of registration.
+• The owner or operator of a new source shall register at least 10 days before commencing
+construction or operation and may commence construction or operation 10 days after submittal to
+the Agency. Fee payment is due at the time of registration.
+
+What happens if I am in ROSS and I am no longer eligible?
+If you had an existing operating permit, then you would notify the Permit Section that you are no longer
+eligible for ROSS and want to go back to your permit. If you had made any changes to your operation
+that would need a modification to your permit, these changes should be noted. If you made changes to
+your operation that included constructing an emission unit that put you over the applicability requirement,
+then you may need to get a construction permit for that specific emission unit that caused your source to
+fall out of ROSS. (Previous construction for emission units that did not cause the exceedance of
+applicability while under ROSS will not require a construction permit.)
+If you were a new source under ROSS, then you will have to submit permit application forms within 90
+days of your annual fee payment date.
+5
+
+Once your business meets the eligibility requirement for ROSS, then you can reenter into the ROSS
+program at that time.
+There are many nuances to the ROSS program. For the complete regulation on ROSS, see Appendix 5
+For more information on the ROSS program, check out the ROSS webpage at www.ienconnect.com/enviro
+or call the Small Business Environmental Assistance Program at 1-800-252-3998.
+
+General Permits:
+For True Minor Sources Only
+Under Section 39.10 of the Illinois Environmental Protection Act (Act), the Illinois Environmental Protection
+Agency (Illinois EPA) is providing general permits for specific categories of true minor sources.
+
+What is a General Permit?
+A general permit is a permit that covers a specific category of facilities/ sources that have similar
+operations and types of emissions. Individual permits are unique to each facility based on the facility's
+operations, type and amount of emissions, equipment, and other factors. Because individual permits for
+some categories of sources can contain very similar or, in many cases, identical emission limitations and
+requirements, their standard contents have been compiled into one pre-approved permit that can be
+applied to certain categories of sources. This is a general permit.
+
+What is a True Minor Source?
+Air pollution sources whose potential to emit (PTE) is less than the major source annual emission thresholds
+are considered minor sources. Potential to Emit (PTE) is defined at Section 39.5 of the Illinois Environmental
+Protection Act and is used to predict the release of air contaminants from an emission source operating at
+its maximum rate capacity, 24 hours per day, 365 days a year (8760 operating hours per year). A true minor
+air pollution source is one that, even operating at its maximum capacity and continuously, cannot exceed
+the major source annual emission threshold levels. A true minor source should not be confused with a
+synthetic minor source which is an air pollution source that has a Federally Enforceable State Operating
+Permit (FESOP) (discussed later in this section) with conditions that legally restrict its PTE to below the major
+source threshold levels. (See Clean Air Act Permitting Program section below for major source thresholds.)
+
+What Are the Benefits of the General Permit Program?
+Once a source has a general operating permit they are able to add or modify emission units without
+having to obtain a construction permit or revised operating permit as long as they stay at or below the
+maximum number of emission units and material throughput and emission limits allowed by the general
+operating permit with which they are covered. This saves the source time and money in the preparation
+of construction and operating permit applications and construction permit application fees. In addition,
+the source will not have to wait for additions and modifications to be issued for their permit each time
+they want to add or modify an emission unit given they can comply with their general operating permit
+limits. This also increases efficiency for the Bureau of Air as it reduces the number of applications
+reviewed and permits issued for true minor sources of pollution so more resources can be allocated to
+reviewing and permitting larger sources of air emissions.
+
+How Does a Source Become Covered by a General Permit?
+In order to obtain coverage by the general operating permits provided pursuant to Section 39.10 of the Act,
+the source must complete and submit a Notice of Intent to be Covered Form and the appropriate
+construction permit application fee for a new stationary source or new or existing portable source
+requesting coverage by a joint general construction and lifetime operating permit. If the source is an
+existing non-portable source, then just the appropriate Notice of Intent to be Covered Form would need to
+be completed and submitted in order to obtain coverage by one of the lifetime general operating permits.
+(An existing source is one that has previously been issued a permit by the Illinois EPA Bureau of Air)
+Upon review of the Notice of Intent to be Covered Form by the Bureau of Air Permit Section, the
+appropriate general permit would be issued and a copy sent to the applicant or the applicant would be
+notified of deficiencies with their Notice of Intent to be Covered Form. If the noted deficiencies are
+rectified then the appropriate permit would be issued and a copy sent to the applicant.
+6
+
+The Notice of Intent to be Covered forms for available General Permits can be found at:
+http://www.epa.state.il.us/air/forms/general-permits/index.html.
+
+Clean Air Act Permit Program (CAAPP):
+The CAAPP permit is the most extensive and demanding of the operating permits. The CAAPP program was
+mandated by the federal Clean Air Act and is contained in Section 39.5 of the Illinois Environmental Protection
+Act. It generally covers larger or more significant emission sources from an air pollution perspective.
+For sources that previously had a regular state operating permit, the CAAPP permit replaced the earlier
+operating permit.
+The CAAPP application process is detailed and complex and will typically require professional assistance. A
+packet of information, including application forms, is available from the Bureau of Air’s Permit Section. The
+requirements of a CAAPP permit are more extensive than the existing state operating permit program in a
+number of areas. Public notice and an opportunity for hearing are required. In addition, there is an opportunity
+for review of proposed permits by USEPA, the public and affected states. USEPA also has the ability to object
+to, terminate and reissue permits.
+The CAAPP permit requirement applies to any source that meets one of the criteria below:
+• Any major source,
+• A major source is defined as any stationary source (or any group of stationary sources that are
+located on one or more contiguous or adjacent properties, and are under common control of
+the same person or persons) belonging to a single major industrial grouping and is described in
+one of the following:
+o potential to emit 100 tons per year (“T/yr”) or more of any air pollutant, i.e., particulate
+matter (PM-10), sulfur dioxide (SO2), nitrogen oxides (N0x), carbon monoxide (CO), or
+volatile organic material (VOM).
+o potential to emit 10 T/yr or more of any one of the 187 Hazardous Air Pollutants (HAPs)
+listed pursuant to section 112(b) of the Clean Air Act, or
+o potential to emit 25 T/yr or more of any combination of HAPS
+{Potential to emit is the maximum capacity of a stationary source to emit any air pollutant
+under its physical and operational design after any required reduction by air pollution
+control devices. Note that this is calculated considering the maximum capacity of the
+equipment (use 8760 operating hours per year).}
+• Sources subject to requirements under New Source Performance Standards (NSPS) or National
+Emission Standards for Hazardous Air Pollutants (NESHAPS), if specifically required by USEPA, (See
+Appendices 3 and 4 for more information about the existing NESHAPs and NSPS)
+• Coal-fired electric utilities subject to acid-rain control requirements.
+(See the Clean Air Act Permit Program, Section 39.5 of the Illinois Environmental Protection Act).
+• Any other sources subject under the Clean Air Act or applicable Board regulation.
+In order to make a definitive interpretation for your business, you may wish to contact the Bureau of Air's
+Permit Section or obtain professional assistance through an outside consulting firm.
+The owner or operator of a new CAAPP source must submit a complete CAAPP application within 12 months
+after commencing operation. A construction permit must be obtained prior to construction. The owner or
+operator of an existing source that becomes subject to CAAPP requirements solely due to a change in
+operation must submit a complete CAAPP application at least 180 days before the change in operation.
+
+Federally Enforceable State Operating Permit (FESOP):
+This type of permit is available on a voluntary basis for those sources subject to CAAPP because only
+their potential emissions, but not their actual emissions, exceed major source thresholds. A source with
+actual emissions below the major source thresholds may wish to avoid the CAAPP permit requirement.
+Not all persons who are subject to the CAAPP can obtain a FESOP in lieu of the CAAPP. Generally, a
+FESOP is only available for a source that can voluntarily limit its emissions by accepting limits on their
+production rates, material usage, or fuel usage so as to keep their emissions below the applicability
+provisions of the CAAPP program. Like the CAAPP permit, application for a FESOP involves public notice,
+federal review and other requirements. However, it typically is less costly to apply for a FESOP.
+7
+
+What is the purpose or value of a FESOP?
+A FESOP allows certain sources to restrict their operations in a manner to avoid the requirement to obtain a
+CAAPP permit. In almost every case, it will be more expensive to obtain and comply with a CAAPP permit.
+
+What is a FESOP?
+A FESOP is a type of synthetic minor operating permit that has undergone public notice and contains
+conditions that can be enforced by USEPA. These conditions can contain limits on the operations of the
+plant (i.e., types and amounts of material used, production or throughput of emission units, hours of
+operation, etc.) and associated recordkeeping requirements, which effectively restrict and redefine the
+potential to emit (see page 3) of a source to be below major source levels thereby excluding the source
+from the CAAPP requirement.
+
+What sources are eligible for a FESOP?
+A source can apply for a FESOP if the potential to emit (see page 7) from the source triggers CAAPP
+requirements, but maximum actual emissions are consistently below the levels, and can be restricted to
+remain below major source thresholds.
+
+How does someone apply for a FESOP?
+Application is strictly on a voluntary basis. The applicant must formally request an operating permit
+containing federally enforceable limits restricting the “potential to emit” below major source levels to
+avoid CAAPP. The complete application must propose a set of enforceable limitations on emissions,
+operations and production, which constrain plant emissions below major source level.
+
+Are there other benefits to applying for a FESOP?
+Yes. The following is a brief summary of the benefits of applying for a FESOP
+National Emission Standards for Hazardous Air Pollutants (NESHAP): A source may want to be established
+as an “Area Source” so that the source is only subject to only those NESHAP provisions applicable to an
+area source. This must be done prior to the first compliance date of any applicable major source NESHAP
+under 40 CFR Part 63 or the source is subject to the NESHAP and Title V or CAAPP permitting requirements.
+Emission Reduction Market System (ERMS): ERMS is applicable for sources in the Chicago nonattainment
+area with a PTE > 25 and actual ozone seasonal (May 1st through September 30th) VOM emissions of 10
+tons or more. A FESOP permit can be used to:
+a. establish conditions for the source to participate in the ERMS in order to trade allotment trading
+units (ATUs).
+b. establish 15 ton per ozone season (tps) limits to allow the source to be exempted from participating
+in ERMS.
+c. establish a one time 18% reduction to allow the source to be exempted from participating in ERMS.
+Reasonably Available Control Technology (RACT): FESOPs can be used to establish VOM emission limits
+for a source to avoid an otherwise applicable RACT rule (e.g., 35 IAC Parts 218 or 219) where the rule is
+applicable to a source based on PTE or Maximum Theoretical Emissions (MTE) above a certain level.
+New Source Review (NSR): FESOPs can be used to establish emission limits on a source to avoid
+triggering NSR (either Prevention of Significant Deterioration (PSD, see 40 CFR 52.21) or nonattainment-NSR
+(see 35 IAC Part 203)).
+
+What fees should I expect to pay?
+Permit fees are set by statute and are subject to change through legislative amendments. The following
+table, current as of January 2012, is a summary of the fees that are associated with the different types of
+permits described above. Generally speaking, air permit construction fees range from $500 - $30,000 plus
+a possible additional $25,000 if the permit application is complex and another $10,000 if a hearing is held.
+See Section 9.12 of the Illinois Environmental Protection Act (Act).
+8
+8
+
+Operation fees range from $235- $4,112 per year for smaller sources. Major sources have a range of
+annual fees from $2,150 – up to $294,000 per year based on $21.50/ton of emissions, excluding
+greenhouse gases. See Sections 9.6 and 39.5(18) of the Act.
+There is a new option for expediting a permit. This process costs four times the standard permit fee
+required and shall not exceed $100,000. Time frames for the expedited permit should be negotiated with
+the Permit Section.
+
+Construction fee table
+Major Source Fee Schedule
+Base Fees
+
+Amount
+Prior Jan1,2012/
+On & after Jan 1,2012
+
+First emission unit
+Each additional new or modified emission unit
+• If any unit is new, the maximum total fee for any combination of new and/or
+modified units is $10,000
+If only modified units are involved, the maximum fee is $5,000
+Supplemental Fees
+New major source (“entry fee”)
+New source or emission unit subject to local siting review (i.e., a new landfill),
+a commercial incinerator or other municipal waste, hazardous waste, or waste
+tire incinerator, a commercial power generator, or one or more other emission
+units designated as a complex source by Agency rulemaking.
+Netting for any pollutant, i.e., reliance on contemporaneous emission
+decrease(s)
+New major source subject to Prevention of Significant Deterioration (PSD)
+Major modification subject to PSD
+New major source subject to nonattainment New Source Review (NSR)
+Major modification subject to nonattainment NSR
+Determination of Maximum Achievable Control Technology for a pollutant, if the
+project is not subject to BACT or LAER for the related PSD or nonattainment
+NSR pollutant (e.g., volatile organic material or hazardous air pollutants)
+Public Hearing Fee *if unknown will be paid upon request of applicant or within
+30 days of being informed hearing is required by the Agency.
+
+Applications Subject Only To A Filing Fee
+
+New $4,000
+Modified $2,000
+$1,000 each
+
+Amount
+$5,000
+$25,000
+
+$3,000 per
+pollutant
+$12,000
+$6,000
+$20,000
+$12,000
+$5,000 (per
+unit)
+$10,000*
+$500
+
+If an application only involves the following activities, only a filing fee applies
+• Addition or replacement of control devices on permitted units
+• Pilot projects/trial burns by a permitted unit
+• Land remediation projects
+• Revisions related to methodology or timing for emission testing
+• Administrative-type modifications to a permit
+
+9
+
+Non-Major Source Fee Schedule
+Base Fees
+Small project - No more than one new emission unit or no more than two
+modified emission units or no more than one new emission unit and one
+modified emission unit
+
+Amount
+$500
+
+Other project - More than one new emission unit or more than two modified units
+Supplemental Fees
+
+$1,000
+Amount
+
+New State source (“entry fee”)
+
+$500
+
+New source or emission unit subject to local siting review (i.e., a new landfill),
+a commercial incinerator or other municipal waste, hazardous waste, or waste
+tire incinerator, a commercial power generator, or one or more other emission
+units designated as a complex source by Agency rulemaking.
+
+$15,000
+
+Transition from Major Source to Non-Major Source
+
+$4,000/$0
+
+Public Hearing Fee/*if unknown will be paid upon request of applicant or within
+30 days of being informed hearing is required by the Agency.
+
+$10,000*
+
+Types of Applications Subject Only To A Filing Fee
+If an application only involves the following, only a filing fee applies
+• Addition or replacement of control devices on permitted units
+• Pilot projects/trial burns by a permitted unit
+• Land remediation projects
+• Revisions related to methodology or timing for emission testing
+• Administrative-type modifications to a permit
+
+$500
+
+Non-Title V Operating Permit Fees
+Who is covered?
+This permit program covers sources in Illinois that are required by our federally approved State
+Implementation Plan to have operating permits but are not large enough to be required to obtain a permit
+under Title V of the federal Clean Air Act, known as the “Clean Air Act Permit Program” or “CAAPP” permit.
+These sources typically include concrete batch plants, quarries, drycleaners, grain elevators and small
+printing and coating operations.
+What is the fee?
+The legislation sets the site fees based on the amount of emissions of any combination of
+regulated air pollutants excluding greenhouse gases as indicated below:
+Allowable Emissions/Year
+< 25 tons
+25 tons to <100 tons
+100 tons to 194 tons
+>194 tons
+
+Fee
+$200/$235
+$1,800/$2150
+$18/ton/$21.50/ton
+$3,500/$4112
+
+10
+
+Clean Air Title V Fees
+Who is covered?
+Sources that are subject to Illinois’ Title V permit program or CAPPP under Section 39.5 of the
+Environmental Protection Act.
+What is the fee?
+The site fees are based on the amount of emissions of any combination of regulated air pollutants
+excluding greenhouse gases as indicated below:
+Allowable Emissions/Year
+< 100 tons
+100 tons to <13,888 tons
+> 13,888 tons
+
+Fee
+$1,800/$2150
+$18.00/ton/$21.50/ton
+$250,000/$294,000
+
+For Further Information
+For questions you can contact the Bureau of Air’s Permit Section at 217.785.1705, or you can write to:
+Illinois EPA
+Bureau of Air, Permit Section, #11
+1021 North Grand Ave. E
+P. O. Box 19506
+Springfield, IL 62794-9506
+Permit application forms are available on line at www.epa.illinois.gov/topics/forms/air-forms/index or
+through the permitting portal found on the main page at www.epa.state.il.us
+A complete database of the Illinois environmental rules in Title 35 is available from the Pollution Control
+Board's web site at www.ipcb.state.il.us/SLR/IPCBandIEPAEnvironmentalRegulations-Title35.aspx
+Or you can also contact the Small Business Environmental Assistance Program (SBEAP) at 1.800.252.3998,
+by email at dceo.sbeap@illinois.gov or by mail:
+SBEAP
+Dept. of Commerce and Economic Opportunity
+500 East Monroe, 5th floor
+Springfield, IL 62701
+You can also check out the SBEAP website for factsheets, workshops and other assistance tools for small
+businesses at www.ILDCEO.net/enviro
+
+11
+
+Appendix 1
+Specified Air Contaminant:
+Any air contaminant as to which this Subtitle (Title 35: Environmental Protection, Subtitle B: Air Pollution)
+contains emission standards or other specific limitations and any contaminant regulated in Illinois pursuant
+to Section 9.1 of the Act.
+Air contaminants that meet this definition include the following:
+furans
+carbon monoxide (CO)
+volatile organic material
+fluorides
+particulate matter (PM-10)
+(including volatile organic
+hydrogen chloride
+nitrogen oxides (NOx)
+compounds (VOCs))
+total particulates
+hydrogen sulfide
+sulfur dioxides (SO2)
+organic material
+sulfuric acid mist
+lead
+dioxins
+sulfur compounds
+In addition, it includes most of the 187 hazardous air pollutants (see list below) regulated under and listed
+in Section 112(b) of the Clean Air Act Amendments of 1990. Note: Because of the number of contaminants
+meeting this definition of “special air contaminant,” you are very likely to be an emission source if you
+have emissions. (The above definitions are taken from “Title 35: Environmental Protection, Subtitle B: Air
+Pollution, Chapter I: Pollution Control Board, State of Illinois Rules and Regulations,” Section 201.102)
+In addition, it includes greenhouse gases or “GHG” as defined in 415 ILCS 5/3.207 means the air pollutant
+defined in 40 CFR 86.1818 12(a) as the aggregate group of 6 greenhouse gases: carbon dioxide, nitrous
+oxide, methane, hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.
+
+Hazardous Air Pollutants
+The following is a list of the 187 Hazardous Air Pollutants that are regulated by EPA under Section 112 of the
+Clean Air Act. This list is current as of January 13, 2012. You can check the USEPA web site for updates to this
+list and for an overview of the requirements of Section 112 of the Clean Air Act at
+http://www.epa.gov/ttn/atw/overview.html
+CAS
+Number
+75070
+60355
+75058
+98862
+53963
+107028
+79061
+79107
+107131
+107051
+92671
+62533
+90040
+1332214
+71432
+92875
+98077
+100447
+92524
+117817
+542881
+75252
+106990
+156627
+
+Chemical
+Name
+Acetaldehyde
+Acetamide
+Acetonitrile
+Acetophenone
+2-Acetylaminofluorene
+Acrolein
+Acrylamide
+Acrylic acid
+Acrylonitrile
+Allyl chloride
+4-Aminobiphenyl
+Aniline
+o-Anisidine
+Asbestos
+Benzene (including benzene
+from gasoline)
+Benzidine
+Benzotrichloride
+Benzyl chloride
+Biphenyl
+Bis(2-ethylhexyl)phthalate
+(DEHP)
+Bis(chloromethyl)ether
+Bromoform
+1,3-Butadiene
+Calcium cyanamide
+
+CAS
+Chemical
+Number Name
+133062
+Captan
+63252
+Carbaryl
+75150
+Carbon disulfide
+56235
+Carbon tetrachloride
+463581
+Carbonyl sulfide
+120809
+Catechol
+133904
+Chloramben
+57749
+Chlordane
+7782505 Chlorine
+79118
+Chloroacetic acid
+532274 2-Chloroacetophenone
+108907
+Chlorobenzene
+510156
+Chlorobenzilate
+67663
+Chloroform
+107302
+Chloromethyl methyl ether
+126998
+Chloroprene
+1319773 Cresols/Cresylic acid (isomers and mixture)
+95487
+o-Cresol
+108394
+m-Cresol
+106445
+p-Cresol
+98828
+Cumene
+94757
+2,4-D, salts and esters
+3547044 DDE
+334883 Diazomethane
+132649
+Dibenzofurans
+12
+
+CAS
+Number
+96128
+84742
+106467
+91941
+111444
+542756
+62737
+111422
+121697
+64675
+119904
+60117
+119937
+79447
+68122
+57147
+131113
+77781
+534521
+51285
+121142
+123911
+122667
+
+Chemical
+Name
+1,2-Dibromo-3-chloropropane
+Dibutylphthalate
+1,4-Dichlorobenzene(p)
+3,3-Dichlorobenzidene
+Dichloroethyl ether (Bis(2chloroethyl)ether)
+1,3-Dichloropropene
+Dichlorvos
+Diethanolamine
+N,N-Diethyl aniline (N,N-Dimethylaniline)
+Diethyl sulfate
+3,3-Dimethoxybenzidine
+Dimethyl aminoazobenzene
+3,3’-Dimethyl benzidine
+Dimethyl carbamoyl chloride
+Dimethyl formamide
+1,1-Dimethyl hydrazine
+Dimethyl phthalate
+Dimethyl sulfate
+4,6-Dinitro-o-cresol, and salts
+2,4-Dinitrophenol
+2,4-Dinitrotoluene
+1,4-Dioxane (1,4-Diethyleneoxide)
+1,2-Diphenylhydrazine
+
+CAS
+Chemical
+Number Name
+106898 Epichlorohydrin (l-Chloro-2,3epoxypropane)
+106887
+1,2-Epoxybutane
+140885
+Ethyl acrylate
+100414
+Ethyl benzene
+51796
+Ethyl carbamate (Urethane)
+75003
+Ethyl chloride (Chloroethane)
+106934 Ethylene dibromide (Dibromoethane)
+107062 Ethylene dichloride (1,2Dichloroethane)
+107211
+Ethylene glycol
+151564
+Ethylene imine (Aziridine)
+75218
+Ethylene oxide
+96457
+Ethylene thiourea
+75343
+Ethylidene dichloride (1,1Dichloroethane)
+50000
+Formaldehyde
+76448
+Heptachlor
+118741
+Hexachlorobenzene
+87683
+Hexachlorobutadiene
+77474
+Hexachlorocyclopentadiene
+67721
+Hexachloroethane
+822060 Hexamethylene-1,6-diisocyanate
+680319
+Hexamethylphosphoramide
+110543
+Hexane
+302012
+Hydrazine
+7647010 Hydrochloric acid
+7664393 Hydrogen fluoride (Hydrofluoric acid)
+7783064 Hydrogen sulfide (See Modification)
+123319
+78591
+58899
+108316
+67561
+72435
+74839
+74873
+71556
+78933
+
+Hydroquinone
+Isophorone
+Lindane (all isomers)
+Maleic anhydride
+Methanol
+Methoxychlor
+Methyl bromide (Bromomethane)
+Methyl chloride
+(Chloromethane)
+Methyl chloroform (1,1,1Trichloroethane)
+Methyl ethyl ketone (2-Butanone) (See Modification)
+
+CAS
+Chemical
+Number Name
+60344
+Methyl hydrazine
+74884
+Methyl iodide (Iodomethane)
+108101
+Methyl isobutyl ketone (Hexone)
+624839 Methyl isocyanate
+80626
+Methyl methacrylate
+1634044 Methyl tert butyl ether
+101144
+4,4-Methylene bis(2chloroaniline)
+75092
+Methylene chloride
+(Dichloromethane)
+101688
+Methylene diphenyl diisocyanate (MDI)
+101779
+4,4’¬-Methylenedianiline
+91203
+Naphthalene
+98953
+Nitrobenzene
+92933
+4-Nitrobiphenyl
+100027
+4-Nitrophenol
+79469
+2-Nitropropane
+684935 N-Nitroso-N-methylurea
+62759
+N-Nitrosodimethylamine
+59892
+N-Nitrosomorpholine
+56382
+Parathion
+82688
+Pentachloronitrobenzene
+(Quintobenzene)
+87865
+Pentachlorophenol
+108952
+Phenol
+106503
+p-Phenylenediamine
+75445
+Phosgene
+7803512 Phosphine
+7723140 Phosphorus
+85449
+Phthalic anhydride
+1336363 Polychlorinated biphenyls
+(Aroclors)
+1120714 1,3-Propane sultone
+57578
+beta-Propiolactone
+123386
+Propionaldehyde
+114261
+Propoxur (Baygon)
+78875
+Propylene dichloride (1,2Dichloropropane)
+75569
+Propylene oxide
+75558
+1,2-Propylenimine (2-Methyl
+aziridine)
+91225
+Quinoline
+106514
+Quinone
+100425
+Styrene
+96093
+Styrene oxide
+1746016 2,3,7,8-Tetrachlorodibenzo-pdioxin
+
+CAS
+Chemical
+Number Name
+79345
+1,1,2,2-Tetrachloroethane
+127184
+Tetrachloroethylene (Perchloroethylene)
+7550450 Titanium tetrachloride
+108883
+Toluene
+95807
+2,4-Toluene diamine
+584849 2,4-Toluene diisocyanate
+95534
+o-Toluidine
+8001352 Toxaphene (chlorinated camphene)
+120821
+1,2,4-Trichlorobenzene
+79005
+1,1,2-Trichloroethane
+79016
+Trichloroethylene
+95954
+2,4,5-Trichlorophenol
+88062
+2,4,6-Trichlorophenol
+121448
+Triethylamine
+1582098 Trifluralin
+540841
+2,2,4-Trimethylpentane
+108054
+Vinyl acetate
+593602 Vinyl bromide
+75014
+Vinyl chloride
+75354
+Vinylidene chloride (1,1Dichloroethylene)
+1330207 Xylenes (isomers and mixture)
+95476
+o-Xylenes
+108383
+m-Xylenes
+106423
+p-Xylenes
+0 Antimony Compounds
+0 Arsenic Compounds (inorganic including arsine)
+0 Beryllium Compounds
+0 Cadmium Compounds
+0 Chromium Compounds
+0 Cobalt Compounds
+0 Coke Oven Emissions
+0 Cyanide Compounds1
+0 Glycol ethers2
+0 Lead Compounds
+0 Manganese Compounds
+0 Mercury Compounds
+0 Fine mineral fibers3
+0 Nickel Compounds
+0 Polycylic Organic Matter4
+0 Radionuclides (including
+radon)5
+0 Selenium Compounds
+
+NOTE: For all listings above which contain the word “compounds” and for glycol ethers, the following applies: Unless otherwise
+specified, these listings are defined as including any unique chemical substance that contains the named chemical (i.e., antimony,
+arsenic, etc.) as part of that chemical’s infrastructure.
+1 X’CN where X = H’ or any other group where a formal dissociation may occur. For example KCN or Ca(CN)2
+2 Includes mono- and di- ethers of ethylene glycol, diethylene glycol, and triethylene glycol R-(OCH2CH2)n -OR’ where
+n = 1, 2, or 3
+R = alkyl or aryl groups
+R’ = R, H, or groups which, when removed, yield glycol ethers with the structure: R-(OCH2CH)n-OH. Polymers are excluded from
+the glycol category.(See Modification)
+3 Includes mineral fiber emissions from facilities manufacturing or processing glass, rock, or slag fibers (or other mineral derived
+fibers) of average diameter 1 micrometer or less.
+4 Includes organic compounds with more than one benzene ring, and which have a boiling point greater than or equal to 100 º C.
+5 A type of atom which spontaneously undergoes radioactive decay.
+13
+
+Appendix 2
+Permit Exemptions
+Construction or operating permits, pursuant to Sections 201.142, 201.143 and 201.144 of this Part, are not
+required for the classes of equipment and activities listed below in this Section. The permitting
+exemptions in this Section do not relieve the owner or operator of any source from any obligation to
+comply with any other applicable requirements, including the obligation to obtain a permit pursuant to
+Sections 9.1(d) and 39.5 of the Act, sections 165, 173 and 502 of the Clean Air Act or any other applicable
+permit or registration requirements.
+a)
+
+Air contaminant detectors or recorders, combustion controllers or combustion shutoffs;
+
+b)
+
+Air conditioning or ventilating equipment not designed to remove air contaminants
+generated by or released from associated equipment;
+
+c)
+
+Each fuel burning emission unit for indirect systems and for heating and reheating furnace
+systems used exclusively for residential, or commercial establishments using gas and/or
+fuel oil exclusively with a design heat input capacity of less than 14.6 MW (50 mmbtu/hr),
+except that a permit shall be required for any such emission unit with a design heat input
+capacity of at least 10 mmbtu/hr that was constructed, reconstructed or modified after June
+9, 1989 and that is subject to 40 CFR 60, subpart D;
+
+d)
+
+Each fuel burning emission unit other than those listed in subsection (c) of this Section for
+direct systems used for comfort heating purposes and indirect heating systems with a
+design heat input capacity of less than 2930 kW (10 mmbtu/hr);
+
+e)
+
+Internal combustion engines or boilers (including the fuel system) of motor vehicles,
+locomotives, air craft, watercraft, lifttrucks and other vehicles powered by nonroad engines;
+
+f)
+
+Bench scale laboratory equipment and laboratory equipment used exclusively for chemical
+and physical analysis, including associated laboratory fume hoods, vacuum producing
+devices and control devices installed primarily to address potential accidental releases;
+
+g)
+
+Coating operations located at a source using not in excess of 18,925 1 (5,000 gal) of coating
+(including thinner) per year;
+
+h)
+
+Any emission unit acquired exclusively for domestic use, except that a permit shall be
+required for any incinerator and for any fuel combustion emission unit using solid fuel with
+a design heat input capacity of 14.6 MW (50 mmbtu/hr) or more;
+
+i)
+
+Any stationary internal combustion engine with a rated power output of less than 1118 kW
+(1500 bhp) or stationary turbine, except that a permit shall be required for the following:
+
+j)
+
+1)
+
+Any internal combustion engine with a rating at equal to or greater than 500 bhp output
+that is subject to the control requirements of 35 Ill. Adm. Code 217.388(a) or (b); or
+
+2)
+
+Any stationary gas turbine engine with a rated heat input at peak load of 10.7
+gigajoules/hr (10 mmbtu/hr) or more that is constructed, reconstructed or modified
+after October 3, 1977 and that is subject to requirements of 40 CFR 60, subpart GG;
+
+Rest room facilities and associated cleanup operations, and stacks or vents used to prevent
+the escape of sewer gases through plumbing traps;
+14
+
+k)
+
+Safety devices designed to protect life and limb, provided that a permit is not otherwise
+required for the emission unit with which the safety device is associated;
+
+l)
+
+Storage tanks and fuel dispensing equipment that are both used for the dispensing of fuel
+to mobile sources, including on-road and off-road vehicles, for use in such mobile sources;
+
+m)
+
+Printing operations with aggregate organic solvent usage that never exceeds 2,839 l (750
+gal) per year from all printing lines at the source, including organic solvent from inks,
+dilutents, fountain solutions and cleaning materials;
+
+n)
+
+Storage tanks of:
+1)
+
+Organic liquids with a capacity of less than 37,850 l (10,000 gal), provided the storage
+tank is not used to store any amount of material or mixture of any material listed as a
+hazardous air pollutant pursuant to section 112(b) of the Clean Air Act;
+
+2)
+
+Any size containing exclusively soaps, detergents, surfactants, waxes, glycerin, vegetable
+oils, greases, animal fats, sweetener, corn syrup, aqueous salt solutions or aqueous
+caustic solutions, provided an organic solvent has not been mixed with such materials; or
+
+3)
+
+Any size containing virgin or re-refined distillate oil (including kerosene and diesel
+fuel), hydrocarbon condensate from natural gas pipeline or storage systems,
+lubricating oil or residual fuel oils;
+
+o)
+
+Threaded pipe connections, vessel manways, flanges, valves, pump seals, pressure relief
+valves, pressure relief devices and pumps;
+
+p)
+
+Sampling connections used exclusively to withdraw materials for testing and analyses;
+
+q)
+
+All storage tanks of Illinois crude oil with capacity of less than 151,400 1 (40,000 gal) located
+on oil field sites;
+
+r)
+
+All organic material-water single or multiple compartment effluent water separator facilities
+for Illinois crude oil of vapor pressure of less than 34.5 kPa absolute (5 psia);
+
+s)
+
+Grain-handling operations, exclusive of grain-drying operations, with an annual grain
+through-put not exceeding 300,000 bushels;
+
+t)
+
+Grain-drying operations with a total grain-drying capacity not exceeding 750 bushels per
+hour for 5% moisture extraction at manufacturer's rated capacity, using the American
+Society of Agricultural Engineers Standard 248.2, Section 9, Basis for Stating Drying Capacity
+of Batch and Continuous-Flow Grain Dryers;
+
+u)
+
+Portable grain-handling equipment and one-turn storage space;
+
+v)
+
+Cold cleaning degreasers that are not in-line cleaning machines, where the vapor pressure
+of the solvents used never exceeds 2 kPa (15 mmHg or 0.3 psi) measured at 38°C (100°F) or
+0.7 kPa (5 mmHg or 0.1 psi) at 20°C (68°F);
+
+w)
+
+Coin-operated dry cleaning operations;
+
+x)
+
+Dry cleaning operations at a source that consume less than 30 gallons per month of
+perchloroethylene;
+
+y)
+
+Brazing, soldering, wave soldering or welding equipment, including associated ventilation
+hoods;
+15
+
+z)
+
+Cafeterias, kitchens, and other similar facilities, including smokehouses, used for preparing food
+or beverages, but not including facilities used in the manufacturing and wholesale distribution
+of food, beverages, food or beverage products, or food or beverage components;
+
+aa)
+
+Equipment for carving, cutting, routing, turning, drilling, machining, sawing, surface grinding,
+sanding, planing, buffing, sand blast cleaning, shot blasting, shot peening, or polishing
+ceramic artwork, leather, metals (other than beryllium), plastics, concrete, rubber, paper
+stock, wood or wood products, where such equipment is either:
+1)
+
+Used for maintenance activity;
+
+2)
+
+Manually operated;
+
+3)
+
+Exhausted inside a building; or
+
+4)
+
+Vented externally with emissions controlled by an appropriately operated cyclonic
+inertial separator (cyclone), filter, electro-static precipitor or a scrubber;
+
+bb)
+
+Feed mills that produce no more than 10,000 tons of feed per calendar year, provided that a
+permit is not otherwise required for the source pursuant to Section 201.142, 201.143 or 201.144;
+
+cc)
+
+Extruders used for the extrusion of metals, minerals, plastics, rubber or wood, excluding:
+1)
+
+Extruders used in the manufacture of polymers;
+
+2)
+
+Extruders using foaming agents or release agents that contain volatile organic materials
+or Class I or II substances subject to the requirements of Title VI of the Clean Air Act; and
+
+3)
+
+Extruders processing scrap material that was produced using foaming agents
+containing volatile organic materials or Class I or II substances subject to the
+requirements of Title VI of the Clean Air Act;
+
+dd)
+
+Furnaces used for melting metals, other than beryllium, with a brim full capacity of less than
+450 cubic inches by volume;
+
+ee)
+
+Equipment used for the melting or application of less than 22,767 kg/yr (50,000 lbs/yr) of
+wax to which no organic solvent has been added;
+
+ff)
+
+Equipment used for filling drums, pails or other packaging containers, excluding aerosol
+cans, with soaps, detergents, surfactants, lubricating oils, waxes, vegetable oils, greases,
+animal fats, glycerin, sweeteners, corn syrup, aqueous salt solutions or aqueous caustic
+solutions, provided an organic solvent has not been mixed with such materials;
+
+gg)
+
+Loading and unloading systems for railcars, tank trucks, or watercraft that handle only the
+following liquid materials: soaps, detergents, surfactants, lubricating oils, waxes, glycerin,
+vegetable oils, greases, animal fats, sweetener, corn syrup, aqueous salt solutions or aqueous
+caustic solutions, provided an organic solvent has not been mixed with such materials;
+
+hh)
+
+Equipment used for the mixing and blending of materials at ambient temperatures to make
+water based adhesives, provided each material mixed or blended contains less than 5%
+organic solvent by weight;
+
+ii)
+
+Die casting machines where a metal or plastic is formed under pressure in a die located at
+a source with a through-put of less than 2,000,000 lbs of metal or plastic per year, in the
+aggregate, from all die casting machines;
+16
+
+jj)
+
+Air pollution control devices used exclusively with other equipment that is exempt from
+permitting, as provided in this Section;
+
+kk)
+
+(Reserved);
+
+ll)
+
+Photographic process equipment by which an image is reproduced upon material
+sensitized to radiant energy;
+
+mm)
+
+Equipment used for hydraulic or hydrostatic testing;
+
+nn)
+
+General vehicle maintenance and servicing activities conducted at a source, motor vehicle
+repair shops, and motor vehicle body shops, but not including motor vehicle refinishing;
+
+oo)
+
+Equipment using water, water and soap or detergent, or a suspension of abrasives in water for
+purposes of cleaning or finishing, provided no organic solvent has been added to the water;
+
+pp)
+
+Administrative activities including, but not limited to, paper shredding, copying,
+photographic activities and blueprinting machines. This does not include incinerators;
+
+qq)
+
+Laundry dryers, extractors, and tumblers processing that have been cleaned with water
+solutions of bleach or detergents that are:
+1)
+
+Located at a source and process clothing, bedding and other fabric items used at
+the source, provided that any organic solvent present in such items before
+processing that is retained from cleanup operations shall be addressed as part of
+the VOM emissions from use of cleaning materials;
+
+2)
+
+Located at a commercial laundry; or
+
+3)
+
+Coin operated;
+
+rr)
+
+Housekeeping activities for cleaning purposes, including collecting spilled and
+accumulated materials, including operation of fixed vacuum cleaning systems specifically
+for such purposes, but not including use of cleaning materials that contain organic solvent;
+
+ss)
+
+Refrigeration systems, including storage tanks used in refrigeration systems, but excluding
+any combustion equipment associated with such systems;
+
+tt)
+
+Activities associated with the construction, on-site repair, maintenance or dismantlement of
+buildings, utility lines, pipelines, wells, excavations, earthworks and other structures that do
+not constitute emission units;
+
+uu)
+
+Piping and storage systems for natural gas, propane and liquefied petroleum gas;
+
+vv)
+
+Water treatment or storage systems, as follows:
+
+ww)
+
+1)
+
+Systems for potable water or boiler feedwater;
+
+2)
+
+Systems, including cooling towers, for process water, provided that such water has
+not been in direct or indirect contact with process streams that contain volatile
+organic material or materials listed as hazardous air pollutants pursuant to section
+112(b) of the Clean Air Act;
+
+Lawn care, landscape maintenance and grounds keeping activities;
+17
+
+xx)
+
+Containers, reservoirs or tanks used exclusively in dipping operations to coat objects with
+oils, waxes or greases, provided no organic solvent has been mixed with such materials;
+
+yy)
+
+Use of consumer products, including hazardous substances as that term is defined in the
+Federal Hazardous Substances Act (15 USC 1261 et seq.), where the product is used at a
+source in the same manner as normal consumer use;
+
+zz)
+
+Activities directly used in the diagnosis and treatment of disease, injury or other medical
+condition;
+
+aaa)
+
+Activities associated with the construction, repair or maintenance of roads or other paved
+or open areas, including operation of street sweepers, vacuum trucks, spray trucks and
+other vehicles related to the control of fugitive emissions of such roads or other areas;
+
+bbb) Storage and handling of drums or other transportable containers, where the containers are
+sealed during storage and handling;
+ccc)
+
+Activities at a source associated with the maintenance, repair or dismantlement of an
+emission unit or other equipment installed at the source, not including the shutdown of the
+unit or equipment, including preparation for maintenance, repair or dismantlement, and
+preparation for subsequent startup, including preparation of a shutdown vessel for entry,
+replacement of insulation, welding and cutting, and steam purging of a vessel prior to
+startup;
+
+ddd) Equipment used for corona arc discharge surface treatment of plastic with a power rating of
+5 kW or less or equipped with an ozone destruction device;
+eee) Equipment used to seal or cut plastic bags for commercial, industrial or domestic use;
+fff)
+
+Each direct-fired gas dryer used for a washing, cleaning, coating or printing line, excluding:
+1)
+
+Dryers with a rated heat input capacity of 2930 kW (10 mmbtu/hr) or more; and
+
+2)
+
+Dryers for which emissions other than those attributable to combustion of fuel in the
+dryer, including emissions attributable to use or application of cleaning agents,
+washing materials, coatings or inks or other process materials that contain volatile
+organic material are not addressed as part of the permitting of such line, if a permit
+is otherwise required for the line;
+
+ggg) Municipal solid waste landfills with a maximum total design capacity of less than 2.5 million
+Mg or 2.5 million m3 that are not required to install a gas collection and control system
+pursuant to 35 Ill. Adm. Code 220 or 800 through 849 or Section 9.1 of the Act;
+hhh)
+
+Replacement or addition of air pollution control equipment for existing emission units in
+circumstances where:
+1)
+
+The existing emission unit is permitted and has operated in compliance for the past
+year;
+
+2)
+
+The new control equipment will provide equal or better control of the target
+pollutants;
+
+3)
+
+The new control device will not be accompanied by a net increase in emissions of
+any non-targeted criteria air pollutant;
+18
+
+iii)
+
+jjj)
+
+4)
+
+Different State or federal regulatory requirements or newly proposed regulatory
+requirements will not apply to the unit; and
+BOARD NOTE: All sources must comply with underlying federal regulations and
+future State regulations.
+
+5)
+
+Where the existing air pollution control equipment had required monitoring
+equipment, the new air pollution control equipment will be equipped with the
+instrumentation and monitoring devices that are typically installed on the new
+equipment of that type.
+BOARD NOTE: For major sources subject to Section 39.5 of the Act, where the new
+air pollution control equipment will require a different compliance determination
+method in the facility's CAAPP permit, the facility may need a permit modification to
+address the changed compliance determination method;
+
+Replacement, addition, or modification of emission units at facilities with federally
+enforceable State operating permits limiting their potential to emit in circumstances where:
+1)
+
+The potential to emit any regulated air pollutant in the absence of air pollution
+control equipment from the new emission unit, or the increase in the potential to
+emit resulting from the modification of any existing emission unit, is less than 0.1
+pound per hour or 0.44 tons per year;
+
+2)
+
+The raw materials and fuels used or present in the emission unit that cause or contribute
+to emissions, based on the information contained in Material Safety Data Sheets for
+those materials, do not contain equal to or greater than 0.01 percent by weight of any
+hazardous air pollutant as defined under section 112(b) of the federal Clean Air Act;
+
+3)
+
+The emission unit or modification is not subject to an emission standard or other
+regulatory requirement pursuant to section 111 of the federal Clean Air Act;
+
+4)
+
+Potential emissions of regulated air pollutants from the emission unit or modification will
+not, in combination with emissions from existing units or other proposed units, trigger
+permitting requirements under Section 39.5, permitting requirements under section 165
+or 173 of the federal Clean Air Act, or the requirement to obtain a revised federally
+enforceable State operating permit limiting the source's potential to emit; and
+
+5)
+
+The source is not currently the subject of a Non-compliance Advisory, Clean Air Act
+Section 114 Request, Violation Notice, Notice of Violation, Compliance Commitment
+Agreement, Administrative Order, or civil or criminal enforcement action, related to
+the air emissions of the source;
+
+Replacement, addition, or modification of emission units at permitted sources that are not
+major sources subject to Section 39.5 of the Act and that do not have a federally
+enforceable State operating permit limiting their potential to emit, in circumstances where:
+1)
+
+The potential to emit of any regulated air pollutant in the absence of air pollution
+control equipment from the new emission unit, or the increase in the potential to
+emit resulting from the modification of any existing emission unit is either:
+A)
+
+Less than 0.1 pound per hour or 0.44 tons per year; or
+
+B)
+
+Less than 0.5 pound per hour, and the permittee provides prior notification to
+the Agency of the intent to construct or install the unit. The unit may be
+constructed, installed or modified immediately after the notification is filed;
+19
+
+2)
+
+The emission unit or modification is not subject to an emission standard or other
+regulatory requirement under section 111 or 112 of the federal Clean Air Act;
+
+3)
+
+Potential emissions of regulated air pollutants from the emission unit or modification
+will not, in combination with the emissions from existing units or other proposed
+units, trigger permitting requirements under Section 39.5 of the Act or the
+requirement to obtain a federally enforceable permit limiting the source's potential
+to emit; and
+
+4)
+
+The source is not currently the subject of a Non-compliance Advisory, Clean Air Act
+Section 114 Request, Violation Notice, Notice of Violation, Compliance Commitment
+Agreement, Administrative Order, or civil or criminal enforcement action, related to
+the air emissions of the source;
+
+kkk)
+
+The owner or operator of a CAAPP source is not required to obtain an air pollution control
+construction permit for the construction or modification of an emission unit or activity that is
+an insignificant activity as addressed by Section 201.210 or 201.211 of this Part. Section 201.212
+of this Part must still be followed, as applicable. Other than excusing the owner or operator
+of a CAAPP source from the requirement to obtain an air pollution control construction
+permit for the emission units or activities, nothing in this subsection shall alter or affect the
+liability of the CAAPP source for compliance with emission standards and other
+requirements that apply to the emission units or activities, either individually or in
+conjunction with other emission units or activities constructed, modified or located at the
+source;
+
+lll)
+
+Plastic injection molding equipment with an annual through-put not exceeding 5,000 tons of
+plastic resin in the aggregate from all plastic injection molding equipment at the source,
+and all associated plastic resin loading, unloading, conveying, mixing, storage, grinding,
+and drying equipment and associated mold release and mold cleaning agents.
+
+Source: Amended at 38 Ill. Reg. 1005, effective December 23, 2013)
+
+20
+
+Appendix 3
+The United States Environmental Protection Agency has National Emission Standards for
+Hazardous Air Pollutants (NESHAP) regulations that may affect your small business, even if you
+are not regulated under other state or federal regulations. Many of these regulations include
+notification, recordkeeping, and reporting requirements, so it is important to review the
+industries that are included in the following list to see if you may be covered by any NESHAP
+regulations. This list includes NESHAP regulations adopted through January 13, 2012. You can
+get a current list of final NESHAP standards from the USEPA at:
+http://www.epa.gov/ttn/atw/mactfnlalph.html
+
+List of Existing NESHAP regulations under 40 CFR 63
+Subpart A
+Subpart B
+Subpart C
+Subpart D
+Subpart E
+Subpart F
+Subpart G
+Subpart H
+Subpart I
+Subpart J
+Subpart L
+Subpart M
+Subpart N
+Subpart O
+Subpart Q
+Subpart R
+Subpart S
+Subpart T
+Subpart U
+Subpart W
+Subpart X
+Subpart Y
+Subpart AA
+Subpart BB
+Subpart CC
+Subpart DD
+Subpart EE
+Subpart GG
+Subpart HH
+Subpart II
+Subpart JJ
+Subpart KK
+Subpart LL
+Subpart MM
+Subpart OO
+Subpart PP
+Subpart QQ
+Subpart RR
+Subpart SS
+
+General Provisions
+Requirements For Control Technology Determinations For Major Sources In Accordance With Clean Air Act
+Sections, Sections 112(g) And 112(j)
+List Of Hazardous Air Pollutants, Petition Process, Lesser Quantity Designations, Source Category List
+Regulations Governing Compliance Extensions For Early Reductions Of Hazardous Air Pollutants
+Approval Of State Programs And Delegation Of Federal Authorities
+National Emission Standards For Organic Hazardous Air Pollutants From The Synthetic Organic Chemical
+Manufacturing Industry
+National Emission Standards For Organic Hazardous Air Pollutants From The Synthetic Organic Chemical
+Manufacturing Industry For Process Vents, Storage Vessels, Transfer Operations, And Wastewater
+National Emission Standards For Organic Hazardous Air Pollutants For Equipment Leaks
+National Emission Standards For Organic Hazardous Air Pollutants For Certain Processes Subject To The
+Negotiated Regulation For Equipment Leaks
+National Emission Standards For Hazardous Air Pollutants For Polyvinyl Chloride And Copolymers Production
+National Emission Standards For Coke Oven Batteries
+National Perchloroethylene Air Emission Standards For Dry Cleaning Facilities
+National Emission Standards For Chromium Emissions From Hard And Decorative Chromium Electroplating And
+Chromium Anodizing Tanks
+Ethylene Oxide Emissions Standards For Sterilization Facilities
+National Emission Standards For Hazardous Air Pollutants For Industrial Process Cooling Towers
+National Emission Standards For Gasoline Distribution Facilities (Bulk Gasoline Terminals And Pipeline Breakout
+Stations)
+National Emission Standards For Hazardous Air Pollutants From The Pulp And Paper Industry
+National Emission Standards For Halogenated Solvent Cleaning
+National Emission Standards For Hazardous Air Pollutant Emissions: Group I Polymers And Resins
+National Emission Standards For Hazardous Air Pollutants For Epoxy Resins Production And Non-Nylon Polyamides
+Production
+National Emission Standards For Hazardous Air Pollutants From Secondary Lead Smelting
+National Emission Standards For Marine Tank Vessel Loading Operations
+National Emission Standards For Hazardous Air Pollutants From Phosphoric Acid Manufacturing Plants
+National Emission Standards For Hazardous Air Pollutants From Phosphate Fertilizers Production Plants
+National Emission Standards For Hazardous Air Pollutants From Petroleum Refineries
+National Emission Standards For Hazardous Air Pollutants From Off-Site Waste And Recovery Operations
+National Emission Standards For Magnetic Tape Manufacturing Operations
+National Emission Standards For Aerospace Manufacturing And Rework Facilities
+National Emission Standards For Hazardous Air Pollutants From Oil And Natural Gas Production Facilities
+National Emission Standards For Shipbuilding And Ship Repair (Surface Coating)
+National Emission Standards For Wood Furniture Manufacturing Operations
+National Emission Standards For The Printing And Publishing Industry
+National Emission Standards For Hazardous Air Pollutants For Primary Aluminum Reduction Plants
+National Emission Standards For Hazardous Air Pollutants For Chemical Recovery Combustion Sources At Kraft,
+Soda, Sulfite, And Stand-Alone Semichemical Pulp Mills
+National Emission Standards For Tanks-Level 1
+National Emission Standards For Containers
+National Emission Standards For Surface Impoundments
+National Emission Standards For Individual Drain Systems
+National Emission Standards For Closed Vent Systems, Control Devices, Recovery Devices And Routing To A
+Fuel Gas System Or A Process
+21
+
+Subpart TT
+Subpart UU
+Subpart VV
+Subpart WW
+Subpart XX
+
+National Emission Standards For Equipment Leaks--Control Level 1
+National Emission Standards For Equipment Leaks--Control Level 2 Standards
+National Emission Standards For Oil-Water Separators And Organic-Water Separators
+National Emission Standards For Storage Vessels (Tanks)--Control Level 2
+National Emission Standards For Ethylene Manufacturing Process Units: Heat Exchange Systems And Waste
+Operations
+Subpart YY
+National Emission Standards For Hazardous Air Pollutants For Source Categories: Generic Maximum Achievable
+Control Technology Standards
+Subpart CCC
+National Emission Standards For Hazardous Air Pollutants For Steel Pickling--HCl Process Facilities And
+Hydrochloric Acid Regeneration Plants
+Subpart DDD
+National Emission Standards For Hazardous Air Pollutants For Mineral Wool Production
+Subpart EEE
+National Emission Standards For Hazardous Air Pollutants From Hazardous Waste Combustors
+Subpart GGG National Emission Standards For Pharmaceuticals Production
+Subpart HHH
+National Emission Standards For Hazardous Air Pollutants From Natural Gas Transmission And Storage Facilities
+Subpart III
+National Emission Standards For Hazardous Air Pollutants For Flexible Polyurethane Foam Production
+Subpart JJJ
+National Emission Standards For Hazardous Air Pollutant Emissions: Group IV Polymers And Resins
+Subpart LLL
+National Emission Standards For Hazardous Air Pollutants From The Portland Cement Manufacturing Industry
+Subpart MMM National Emission Standards For Hazardous Air Pollutants For Pesticide Active Ingredient Production
+Subpart NNN
+National Emission Standards For Hazardous Air Pollutants For Wool Fiberglass Manufacturing
+Subpart OOO National Emission Standards For Hazardous Air Pollutant Emissions: Manufacture Of Amino/Phenolic Resins
+Subpart PPP
+National Emission Standards For Hazardous Air Pollutant Emissions For Polyether Polyols Production
+Subpart QQQ National Emission Standards For Hazardous Air Pollutants For Primary Copper Smelting
+Subpart RRR
+National Emission Standards For Hazardous Air Pollutants For Secondary Aluminum Production
+Subpart TTT
+National Emission Standards For Hazardous Air Pollutants For Primary Lead Smelting
+Subpart UUU
+National Emission Standards For Hazardous Air Pollutants For Petroleum Refineries: Catalytic Cracking Units,
+Catalytic Reforming Units, And Sulfur Recovery Units
+Subpart VVV
+National Emission Standards For Hazardous Air Pollutants: Publicly Owned Treatment Works
+Subpart XXX
+National Emission Standards For Hazardous Air Pollutants For Ferroalloys Production: Ferromanganese And
+Silicomanganese
+Subpart AAAA National Emission Standards For Hazardous Air Pollutants: Municipal Solid Waste Landfills
+Subpart CCCC National Emission Standards For Hazardous Air Pollutants: Manufacturing Of Nutritional Yeast
+Subpart DDDD National Emission Standards For Hazardous Air Pollutants: Plywood And Composite Wood Products
+Subpart EEEE
+National Emission Standards For Hazardous Air Pollutants: Organic Liquids Distribution (Non-Gasoline)
+Subpart FFFF
+National Emission Standards For Hazardous Air Pollutants: Miscellaneous Organic Chemical Manufacturing
+Subpart GGGG National Emission Standards For Hazardous Air Pollutants: Solvent Extraction For Vegetable Oil Production
+Subpart HHHH National Emission Standards For Hazardous Air Pollutants For Wet-Formed Fiberglass Mat Production
+Subpart IIII
+National Emission Standards For Hazardous Air Pollutants: Surface Coating Of Automobiles And Light-Duty Trucks
+Subpart JJJJ
+National Emission Standards For Hazardous Air Pollutants: Paper And Other Web Coating
+Subpart KKKK
+National Emission Standards For Hazardous Air Pollutants: Surface Coating Of Metal Cans
+Subpart MMMM National Emission Standards For Hazardous Air Pollutants For Surface Coating Of Miscellaneous Metal Parts And
+Products
+Subpart NNNN National Emission Standards For Hazardous Air Pollutants: Surface Coating Of Large Appliances
+Subpart OOOO National Emission Standards For Hazardous Air Pollutants: Printing, Coating, And Dyeing Of Fabrics And Other
+Textiles
+Subpart PPPP
+National Emission Standards For Hazardous Air Pollutants For Surface Coating Of Plastic Parts And Products
+Subpart QQQQ
+National Emission Standards For Hazardous Air Pollutants: Surface Coating Of Wood Building Products
+Subpart RRRR
+National Emission Standards For Hazardous Air Pollutants: Surface Coating Of Metal Furniture
+Subpart SSSS
+National Emission Standards For Hazardous Air Pollutants: Surface Coating Of Metal Coil
+Subpart TTTT
+National Emission Standards For Hazardous Air Pollutants For Leather Finishing Operations
+Subpart UUUU
+National Emission Standards For Hazardous Air Pollutants For Cellulose Products Manufacturing
+Subpart VVVV
+National Emission Standards For Hazardous Air Pollutants For Boat Manufacturing
+Subpart WWWW
+National Emissions Standards For Hazardous Air Pollutants: Reinforced Plastic Composites Production
+Subpart XXXX
+National Emission Standards For Hazardous Air Pollutants: Rubber Tire Manufacturing
+Subpart YYYY
+National Emission Standards for Hazardous Air Pollutants For Stationary Combustion Turbines
+Subpart ZZZZ
+National Emission Standards For Hazardous Air Pollutants For Stationary Reciprocating Internal Combustion
+Engines
+Subpart AAAAA
+National Emission Standards For Hazardous Air Pollutants For Lime Manufacturing Plants
+Subpart BBBBB
+National Emission Standards For Hazardous Air Pollutants For Semiconductor Manufacturing
+Subpart CCCCC
+National Emission Standards For Hazardous Air Pollutants For Coke Ovens: Pushing, Quenching, And
+Battery Stacks
+Subpart DDDDD
+National Emission Standards For Hazardous Air Pollutants For Industrial, Commercial, And Institutional
+Boilers And Process Heaters
+Subpart EEEEE
+National Emission Standards For Hazardous Air Pollutants For Iron And Steel Foundries
+Subpart FFFFF
+National Emission Standards For Hazardous Air Pollutants For Integrated Iron And Steel Manufacturing Facilities
+22
+
+Subpart GGGGG
+Subpart HHHHH
+Subpart IIIII
+
+National Emission Standards For Hazardous Air Pollutants: Site Remediation
+National Emission Standards For Hazardous Air Pollutants: Miscellaneous Coating Manufacturing
+National Emission Standards For Hazardous Air Pollutants: Mercury Emissions From Mercury Cell ChlorAlkali Plants
+Subpart JJJJJ
+National Emission Standards For Hazardous Air Pollutants For Brick And Structural Clay Products Manufacturing
+Subpart KKKKK
+National Emission Standards For Hazardous Air Pollutants For Clay Ceramics Manufacturing
+Subpart LLLLL
+National Emission Standards For Hazardous Air Pollutants: Asphalt Processing And Asphalt Roofing
+Manufacturing
+Subpart MMMMM
+National Emission Standards For Hazardous Air Pollutants: Flexible Polyurethane Foam Fabrication Operations
+Subpart NNNNN
+National Emission Standards For Hazardous Air Pollutants: Hydrochloric Acid Production
+Subpart PPPPP
+National Emission Standards For Hazardous Air Pollutants For Engine Test Cells/Stands
+Subpart QQQQQ
+National Emission Standards For Hazardous Air Pollutants For Friction Materials Manufacturing Facilities
+Subpart RRRRR
+National Emission Standards For Hazardous Air Pollutants: Taconite Iron Ore Processing
+Subpart SSSSS
+National Emission Standards For Hazardous Air Pollutants For Refractory Products Manufacturing
+Subpart TTTTT
+National Emissions Standards For Hazardous Air Pollutants For Primary Magnesium Refining
+Subpart UUUUU
+National Emmission Standards For Hazardous Air Pollutants: Coal-and Oil-Fired Electric Utility Steam
+Generating Units
+Subpart WWWWW National Emission Standards For Hospital Ethylene Oxide Sterilizers
+Subpart YYYYY
+National Emission Standards For Hazardous Air Pollutants For Area Sources: Electric Arc Furnace
+Steelmaking Facilities
+Subpart ZZZZZ
+National Emission Standards For Hazardous Air Pollutants For Iron And Steel Foundries Area Sources
+Subpart BBBBBB
+National Emission Standards For Hazardous Air Pollutants For Source Category: Gasoline Distribution Bulk
+Terminals, Bulk Plants, And Pipeline Facilities
+Subpart CCCCCC
+National Emission Standards For Hazardous Air Pollutants For Source Category: Gasoline Dispensing Facilities
+Subpart DDDDDD
+National Emission Standards For Hazardous Air Pollutants For Polyvinyl Chloride And Copolymers
+Production Area Sources
+Subpart EEEEEE
+National Emission Standards For Hazardous Air Pollutants For Primary Copper Smelting Area Sources
+Subpart FFFFFF
+National Emission Standards For Hazardous Air Pollutants For Secondary Copper Smelting Area Sources
+Subpart GGGGGG National Emission Standards For Hazardous Air Pollutants For Primary Nonferrous Metals Area Sources-Zinc, Cadmium, And Beryllium
+Subpart HHHHHH
+National Emission Standards For Hazardous Air Pollutants: Paint Stripping And Miscellaneous Surface
+Coating Operations At Area Sources
+Subpart JJJJJJ
+National Emission Standards for Hazardous Air Pollutants for Industrial, Commercial, and Institutional Boilers
+Area Sources
+Subpart LLLLLL
+National Emission Standards For Hazardous Air Pollutants For Acrylic And Modacrylic Fibers Production
+Area Sources
+Subpart MMMMMM National Emission Standards For Hazardous Air Pollutants For Carbon Black Production Area Sources
+Subpart NNNNNN
+National Emission Standards For Hazardous Air Pollutants For Chemical Manufacturing Area Sources:
+Chromium Compounds
+Subpart OOOOOO National Emission Standards For Hazardous Air Pollutants For Flexible Polyurethane Foam Production And
+Fabrication Area Sources
+Subpart PPPPPP
+National Emission Standards For Hazardous Air Pollutants For Lead Acid Battery Manufacturing Area Sources
+Subpart QQQQQQ National Emission Standards For Hazardous Air Pollutants For Wood Preserving Area Sources
+Subpart RRRRRR
+National Emission Standards For Hazardous Air Pollutants For Clay Ceramics Manufacturing Area Sources
+Subpart SSSSSS
+National Emission Standards For Hazardous Air Pollutants For Glass Manufacturing Area Sources
+Subpart TTTTTT
+National Emission Standards For Hazardous Air Pollutants For Secondary Nonferrous Metals Processing
+Area Sources
+Subpart VVVVVV
+National Emission Standards for Hazardous Air Pollutants for Chemical Manufacturing Area Sources
+Subpart WWWWWW National Emission Standards For Hazardous Air Pollutants: Area Source Standards For Plating And Polishing
+Operations
+Subpart XXXXXX
+National Emission Standards For Hazardous Air Pollutants Area Source Standards For Nine Metal Fabrication
+And Finishing Source Categories
+Subpart YYYYYY
+National Emission Standards For Hazardous Air Pollutants for Area Source: Ferroalloys Production Facilities
+Subpart ZZZZZZ
+National Emission Standards For Hazardous Air Pollutants: Area Source Standards For Aluminum, Copper,
+and Other Nonferrous Foundries
+Subpart AAAAAAA National Emission Standards for Hazardous Air Pollutants for Area Sources: Asphalt Processing and Asphalt
+Roofing Manufacturing
+Subpart BBBBBBB
+National Emission Standards for Hazardous Air Pollutants for Area Sources: Chemical Preparations Industry
+Subpart CCCCCCC National Emission Standards for Hazardous Air Pollutants for Area Sources: Paints and Allied Products
+Manufacturing
+Subpart DDDDDDD National Emission Standards for Hazardous Air Pollutants for Area Sources: Prepared Feeds Manufacturing
+Subpart EEEEEEE
+National Emission Standards for Hazardous Air Pollutants: Gold Mine Ore Processing and Production Area
+Source Category
+Subpart HHHHHHH National Emission Standards for Hazardous Air Pollutant Emissions for Polyvinyl Chloride and Copolymers
+Production
+23
+
+List of National Emission Standards in 40 CFR 61
+Subpart A—General Provisions
+Subpart B—National Emission Standards For Radon Emissions From Underground Uranium Mines
+Subpart C—National Emission Standard For Beryllium
+Subpart D—National Emission Standard For Beryllium Rocket Motor Firing
+Subpart E—National Emission Standard For Mercury
+Subpart F—National Emission Standard For Vinyl Chloride
+Subpart H—National Emission Standards For Emissions Of Radionuclides Other Than Radon From Department Of Energy Facilities
+Subpart I—National Emission Standards For Radionuclide Emissions From Federal Facilities Other Than Nuclear Regulatory
+Commission Licensees And Not Covered By
+Subpart J—National Emission Standard For Equipment Leaks (Fugitive Emission Sources) Of Benzene
+Subpart K—National Emission Standards For Radionuclide Emissions From Elemental Phosphorus Plants
+Subpart L—National Emission Standard For Benzene Emissions From Coke By-Product Recovery Plants
+Subpart M—National Emission Standard For Asbestos
+Subpart N—National Emission Standard For Inorganic Arsenic Emissions From Gas Manufacturing Plants
+Subpart O—National Emission Standard For Inorganic Arsenic Emissions From Primary Copper Smelters
+Subpart P—National Emission Standard For Inorganic Arsenic Emissions From Arsenic Trioxide And Metallic Arsenic Production Facilities
+Subpart Q—National Emission Standards For Radon Emissions From Department Of Energy Facilities
+Subpart R—National Emission Standards For Radon Emissions From Phosphogypsum Stacks.
+Subpart T—National Emission Standards For Radon Emissions From The Disposal Of Uranium Mill Tailings
+Subpart V—National Emission Standard For Equipment Leaks (Fugitive Emission Sources)
+Subpart W—National Emission Standards For Radon Emissions From Operating Mill Tailings
+Subpart Y—National Emission Standard For Benzene Emissions From Benzene Storage Vessels
+Subpart BB—National Emission Standard For Benzene Emissions From Benzene Transfer Operations
+Subpart FF—National Emission Standard For Benzene Waste Operations
+
+24
+
+Appendix 4
+STANDARDS OF PERFORMANCE FOR NEW STATIONARY SOURCES
+New Source Performance Standards (NSPS) regulate the level of pollution that a new stationary source
+may produce. These standards are intended to promote use of the best air pollution control
+technologies, taking into account the cost of such technology and any other non-air quality, health, and
+environmental impact and energy requirements. The standards are authorized by Section 111 of the CAA
+and the regulations are published in 40 CFR Part 60. NSPS have been established for a number of
+individual industrial or source categories; the following is a listing of all of the NSPS regulations, current as
+of January 13, 2012, under 40 CFR 60.
+Subpart A—General Provisions
+Subpart B—Adoption and Submittal of State Plans for Designated Facilities
+Subpart C—Emission Guidelines and Compliance Times
+Subpart Ca—[Reserved]
+Subpart Cb—Emissions Guidelines and Compliance Times for Large Municipal Waste Combustors That Are Constructed on or
+Before September 20, 1994
+Subpart Cc—Emission Guidelines and Compliance Times for Municipal Solid Waste Landfills
+Subpart Cd—Emissions Guidelines and Compliance Times for Sulfuric Acid Production Units
+Subpart Ce—Emission Guidelines and Compliance Times for Hospital/Medical/Infectious Waste Incinerators
+Subpart D—Standards of Performance for Fossil-Fuel-Fired Steam Generators for Which Construction Is Commenced After
+August 17, 1971
+Subpart Da—Standards of Performance for Electric Utility Steam Generating Units for Which Construction is Commenced After
+September 18, 1978
+Subpart Db—Standards of Performance for Industrial-Commercial-Institutional Steam Generating Units
+Subpart Dc—Standards of Performance for Small Industrial-Commercial-Institutional Steam Generating Units
+Subpart E—Standards of Performance for Incinerators
+Subpart Ea—Standards of Performance for Municipal Waste Combustors for Which Construction Is Commenced After
+December 20, 1989 and on or Before September 20, 1994
+Subpart Eb—Standards of Performance for Large Municipal Waste Combustors for Which Construction Is Commenced After
+September 20, 1994 or for Which Modification or Reconstruction Is Commenced After June 19, 1996
+Subpart Ec—Standards of Performance for Hospital/ Medical/Infectious Waste Incinerators for Which Construction Is
+Commenced After June 20, 1996
+Subpart F—Standards of Performance for Portland Cement Plants
+Subpart G—Standards of Performance for Nitric Acid Plants
+Subpart Ga—Standards of Performance for Nitric Acid Plants for Which Construction, Reconstruction, or Modification
+Commenced After October 14, 2011
+Subpart H—Standards of Performance for Sulfuric Acid Plants
+Subpart I—Standards of Performance for Hot Mix Asphalt Facilities
+Subpart J—Standards of Performance for Petroleum Refineries
+Subpart Ja—Standards of Performance for Petroleum Refineries for Which Construction, Reconstruction, or Modification
+Commenced After May 14, 2007
+Subpart K—Standards of Performance for Storage Vessels for Petroleum Liquids for Which Construction, Reconstruction, or
+Modification Commenced After June 11, 1973, and Prior to May 19, 1978
+Subpart Ka—Standards of Performance for Storage Vessels for Petroleum Liquids for Which Construction, Reconstruction, or
+Modification Commenced After May 18, 1978, and Prior to July 23, 1984
+Subpart Kb—Standards of Performance for Volatile Organic Liquid Storage Vessels (Including Petroleum Liquid Storage
+Vessels) for Which Construction, Reconstruction, or Modification Commenced After July 23, 1984
+Subpart L—Standards of Performance for Secondary Lead Smelters
+Subpart M—Standards of Performance for Secondary Brass and Bronze Production Plants
+Subpart N—Standards of Performance for Primary Emissions from Basic Oxygen Process Furnaces for Which Construction Is
+Commenced After June 11, 1973
+Subpart Na—Standards of Performance for Secondary Emissions from Basic Oxygen Process Steelmaking Facilities for Which
+Construction Is Commenced After January 20, 1983
+Subpart O—Standards of Performance for Sewage Treatment Plants
+Subpart P—Standards of Performance for Primary Copper Smelters
+Subpart Q—Standards of Performance for Primary Zinc Smelters
+Subpart R—Standards of Performance for Primary Lead Smelters
+Subpart S—Standards of Performance for Primary Aluminum Reduction Plants
+25
+
+Subpart T—Standards of Performance for the Phosphate Fertilizer Industry: Wet-Process Phosphoric Acid Plants
+Subpart U—Standards of Performance for the Phosphate Fertilizer Industry: Superphosphoric Acid Plants
+Subpart V—Standards of Performance for the Phosphate Fertilizer Industry: Diammonium Phosphate Plants
+Subpart W—Standards of Performance for the Phosphate Fertilizer Industry: Triple Superphosphate Plants
+Subpart X—Standards of Performance for the Phosphate Fertilizer Industry: Granular Triple Superphosphate Storage Facilities
+Subpart Y—Standards of Performance for Coal Preparation Plants
+Subpart Z—Standards of Performance for Ferroalloy Production Facilities
+Subpart AA—Standards of Performance for Steel Plants: Electric Arc Furnaces Constructed After October 21, 1974, and on or
+Before August 17, 1983
+Subpart AAa—Standards of Performance for Steel Plants: Electric Arc Furnaces and Argon-Oxygen Decarburization Vessels
+Constructed After August 17, 1983
+Subpart BB—Standards of Performance for Kraft Pulp Mills
+Subpart CC—Standards of Performance for Glass Manufacturing Plants
+Subpart DD—Standards of Performance for Grain Elevators
+Subpart EE—Standards of Performance for Surface Coating of Metal Furniture
+Subpart GG—Standards of Performance for Stationary Gas Turbines
+Subpart HH—Standards of Performance for Lime Manufacturing Plants
+Subpart KK—Standards of Performance for Lead-Acid Battery Manufacturing Plants
+Subpart LL—Standards of Performance for Metallic Mineral Processing Plants
+Subpart MM—Standards of Performance for Automobile and Light Duty Truck Surface Coating Operations
+Subpart NN—Standards of Performance for Phosphate Rock Plants
+Subpart PP—Standards of Performance for Ammonium Sulfate Manufacture
+Subpart QQ—Standards of Performance for the Graphic Arts Industry: Publication Rotogravure Printing
+Subpart RR—Standards of Performance for Pressure Sensitive Tape and Label Surface Coating Operations
+Subpart SS—Standards of Performance for Industrial Surface Coating: Large Appliances
+Subpart TT—Standards of Performance for Metal Coil Surface Coating
+Subpart UU—Standards of Performance for Asphalt Processing and Asphalt Roofing Manufacture
+Subpart VV—Standards of Performance for Equipment Leaks of VOC in the Synthetic Organic Chemicals Manufacturing Industry
+for which Construction, Reconstruction, or Modification Commenced After January 5, 1981, and on or Before
+November 7, 2006
+Subpart VVa—Standards of Performance for Equipment Leaks of VOC in the Synthetic Organic Chemicals Manufacturing
+Industry for Which Construction, Reconstruction, or Modification Commenced After November 7, 2006
+Subpart WW—Standards of Performance for the Beverage Can Surface Coating Industry
+Subpart XX—Standards of Performance for Bulk Gasoline Terminals
+Subpart AAA—Standards of Performance for New Residential Wood Heaters
+Subpart BBB—Standards of Performance for the Rubber Tire Manufacturing Industry
+Subpart DDD—Standards of Performance for Volatile Organic Compound (VOC) Emissions from the Polymer Manufacturing
+Industry
+Subpart FFF—Standards of Performance for Flexible Vinyl and Urethane Coating and Printing
+Subpart GGG—Standards of Performance for Equipment Leaks of VOC in Petroleum Refineries for Which Construction,
+Reconstruction, or Modification Commenced After January 4, 1983, and on or Before November 7, 2006
+Subpart GGGa—Standards of Performance for Equipment Leaks of VOC in Petroleum Refineries for Which Construction,
+Reconstruction, or Modification Commenced After November 7, 2006
+Subpart HHH—Standards of Performance for Synthetic Fiber Production Facilities
+Subpart III—Standards of Performance for Volatile Organic Compound (VOC) Emissions From the Synthetic Organic Chemical
+Manufacturing Industry (SOCMI) Air Oxidation Unit Processes
+Subpart JJJ—Standards of Performance for Petroleum Dry Cleaners
+Subpart KKK—Standards of Performance for Equipment Leaks of VOC From Onshore Natural Gas Processing Plants.
+Subpart LLL—Standards of Performance for Onshore Natural Gas Processing: SO 2 Emissions
+Subpart NNN—Standards of Performance for Volatile Organic Compound (VOC) Emissions From Synthetic Organic Chemical
+Manufacturing Industry (SOCMI) Distillation Operations
+Subpart OOO—Standards of Performance for Nonmetallic Mineral Processing Plants
+Subpart PPP—Standard of Performance for Wool Fiberglass Insulation Manufacturing Plants
+Subpart QQQ—Standards of Performance for VOC Emissions From Petroleum Refinery Wastewater Systems
+Subpart RRR—Standards of Performance for Volatile Organic Compound Emissions From Synthetic Organic Chemical
+Manufacturing Industry (SOCMI) Reactor Processes
+Subpart SSS—Standards of Performance for Magnetic Tape Coating Facilities
+Subpart TTT—Standards of Performance for Industrial Surface Coating: Surface Coating of Plastic Parts for Business Machines
+Subpart UUU—Standards of Performance for Calciners and Dryers in Mineral Industries
+Subpart VVV—Standards of Performance for Polymeric Coating of Supporting Substrates Facilities
+Subpart WWW—Standards of Performance for Municipal Solid Waste Landfills
+Subpart AAAA—Standards of Performance for Small Municipal Waste Combustion Units for Which Construction Is Commenced
+After August 30, 1999 or for Which Modification or Reconstruction Is Commenced After June 6, 2001
+Subpart BBBB—Emission Guidelines and Compliance Times for Small Municipal Waste Combustion Units Constructed on or
+Before August 30, 1999
+26
+
+Subpart CCCC—Standards of Performance for Commercial and Industrial Solid Waste Incineration Units for Which Construction
+Is Commenced After November 30, 1999 or for Which Modification or Reconstruction Is Commenced on or
+After June 1, 2001.
+Subpart DDDD—Emissions Guidelines and Compliance Times for Commercial and Industrial Solid Waste Incineration Units that
+Commenced Construction On or Before November 30, 1999
+Subpart EEEE—Standards of Performance for Other Solid Waste Incineration Units for Which Construction Is Commenced After
+December 9, 2004, or for Which Modification or Reconstruction Is Commenced on or After June 16, 2006
+Subpart FFFF—Emission Guidelines and Compliance Times for Other Solid Waste Incineration Units That Commenced
+Construction on or Before December 9, 2004
+Subpart IIII—Standards of Performance for Stationary Compression Ignition Internal Combustion Engines
+Subpart JJJJ—Standards of Performance for Stationary Spark Ignition Internal Combustion Engines
+Subpart KKKK—Standards of Performance for Stationary Combustion Turbines
+Subpart LLLL—Standards of Performance for New Sewage Sludge Incineration Units
+Subpart MMMM—Emission Guidelines and Compliance Times for Existing Sewage Sludge Incineration Units
+Subpart OOOO—Standards of Performance for Crude Oil and Natural Gas Production, Transmission and Distribution
+
+Appendix 5
+REGISTRATION OF SMALLER SOURCES (ROSS)
+Section 201.175 Registration of Smaller Sources (ROSS)
+a) An owner or operator of an eligible source shall annually register with the Agency instead of
+complying with the requirement to obtain an air pollution construction or operating permit under the
+Act or complying with a permit issued under Section 201.169. The owner and operator of a ROSS
+source are still subject to all applicable environmental statutes and regulations. The source must meet
+all of the following criteria to be an eligible source:
+1) Pursuant to Section 9.14 of the Act:
+A) The source must not be required to obtain a permit pursuant to the Clean Air Act Permit
+Program, or federally enforceable State operating permit program, or under regulations
+promulgated pursuant to Section 111 or 112 of the Clean Air Act;
+B) USEPA has not otherwise determined that a permit is required;
+C) The source emits less than an actual 5 tons per year of combined particulate matter, carbon
+monoxide, nitrogen oxides, sulfur dioxide, and volatile organic material air pollutant emissions;
+D) The source emits less than an actual 0.5 tons per year of combined hazardous air pollutant emissions;
+E) The source emits less than an actual 0.05 tons per year of lead air emissions;
+F) The source emits less than an actual 0.05 tons per year of mercury air emissions; and
+G) The source does not have an emission unit or source subject to a standard pursuant to 40 CFR 61
+(Maximum Achievable Control Technology) or 40 CFR 63 (National Emissions Standards for
+Hazardous Air Pollutants), other than those regulations that USEPA has categorized as “area source.”
+2) Emission units at the source are not used as thermal desorption systems pursuant to 35 Adm. Code
+728.Table F or as incinerator systems.
+3) The source or its emission units must not be subject to local siting under Section 39.2 of the Act.
+27
+
+b) For the purposes of determining whether the actual emissions from the source meet the criteria of
+subsections (a)(1)(C), (a)(1)(D), (a)(1)(E), and (a)(1)(F) of this Section, the owner or operator of a source
+shall only use emissions from units that are not exempt from the requirement to obtain a permit
+pursuant to Section 201.146, as follows:
+1) Initial registration or reentry into ROSS: the owner or operator must sum the actual emissions from
+all units associated with the source for the prior calendar year. If the source is new, or has been
+operating less than one calendar year, projected estimated emissions may be used for all of the
+remaining months in the prior calendar year, respectively.
+2) Annual renewal of registration:
+A) For the purposes of determining compliance with subsection (a)(1)(C) of this Section, the
+owner or operator must:
+i) Verify that the source still meets the eligibility criteria in subsection (a)(1)(C); or
+ii) Calculate emissions by summing all actual emissions of combined particulate matter, carbon
+monoxide, nitrogen oxides, sulfur dioxide, and volatile organic material air pollutant
+emissions from all units associated with the source for the prior calendar year. The total sum
+of actual emissions of combined particulate matter, carbon monoxide, nitrogen oxides, sulfur
+dioxide, and volatile organic material air pollutant emissions for the prior calendar year must
+be less than or equal to 7 tons, or the total sum of actual emissions of combined particulate
+matter, carbon monoxide, nitrogen oxides, sulfur dioxide, and volatile organic material air
+pollutant emissions from the prior two calendar years must be less than or equal to 10 tons.
+B) For the purposes of determining compliance with subsections (a)(1)(D), (a)(1)(E) and (a)(1)(F) of
+this Section, the owner or operator must:
+i) Verify that the source still meets the eligibility criteria in subsections (a)(1)(D), (a)(1)(E), and
+(a)(1)(F) of this Section; or
+ii) Calculate emissions by summing all actual emissions from all units at the source for the prior
+calendar year. Summed emissions of HAPs, mercury or lead must be less than or equal to 0.5
+tons per year, 0.05 tons per year, or 0.05 tons per year, for the prior calendar year, respectively.
+c) The following must be included in each initial registration and each re-entry registration:
+1) The name, address, and telephone number of the source and of the person responsible for
+submitting and retaining copies of the registration information and the records;
+2) A statement that the source meets the requirements of this Section;
+3) A certification that the information submitted in subsections (c)(1) and (c)(2) of this Section is correct
+or a correction of the information; and
+4) The applicable fee pursuant to Section 9.14 of the Act.
+d) The owner or operator of an eligible source shall submit the registration required by subsection (c) of
+this Section as follows:
+28
+
+1) Initial registration:
+A) The owner or operator of a source holding a permit may register after the effective date of this
+Section and no later than their annual fee payment date in fiscal year 2013 (July 1, 2012 through
+June 30, 2013). The terms and conditions of a permit issued pursuant to Section 201.169 do not
+apply during the period the source is registered. The owner and operator of a ROSS source
+are still subject to all applicable environmental statutes and regulations.
+B) The owner or operator of an operating source not holding a permit shall register no later than
+July 1, 2012.
+C) The owner or operator of a new source shall register at least 10 days before commencing
+construction or operation and may commence construction or operation 10 days after submittal
+to the Agency.
+2) Annual registration. The owner or operator of a ROSS source must pay an annual fee on or before
+their annual fee payment date. Annual payment of the fee is verification by the owner or operator
+that the source continues to meet the criteria in subsection (a), as determined by subsection (b)(2),
+as applicable.
+3) Re-entry into ROSS under subsection (h). The owner or operator of a source that re-enters ROSS
+based on the criteria in subsection (a), as determined by subsection (b)(1), must register and pay an
+annual fee on or before their annual fee payment date.
+e) The owner or operator shall keep the following records and make them available for inspection by
+the Agency:
+1) A description of the emission units associated with the source and their associated control devices;
+2) A description of control efficiency or emission rates of any control devices that are relied upon to meet
+the criteria for ROSS in subsection (a), as determined by subsection (b)(1) or (b)(2), as applicable;
+3) Documentation of the source’s actual emissions and calculations demonstrating that the source is eligible
+for ROSS pursuant to the criteria in subsections (a), as determined by subsection (b)(1) or (b)(2), as
+applicable. This documentation may include, but is not limited to, annual material usage or emission rates;
+4) A copy of the source’s initial registration; and
+5) A copy of the owner’s or operator’s annual fee payment for at least the most recent 5 calendar years.
+f) Changes to a ROSS source requiring notification: The owner or operator of the source must notify the
+Agency in writing within 45 days after the change to the source, if the information provided in
+subsection (c)(1) of this Section changes.
+g) Changes requiring a new or modified construction or operating permit, or compliance with conditions
+in an existing permit issued pursuant to Section 201.169:
+1) The owner or operator must apply for a permit by the date required by the new regulation or
+statute if there is a change in a regulation or statutory requirement or a new regulation or statutory
+requirement that makes a source ineligible for ROSS under the criteria in subsection (a), as
+determined in subsection (b)(2), as applicable.
+29
+
+2) If the source no longer meets the criteria in subsection (a), as determined by subsection (b)(2), as
+applicable:
+A) The owner or operator of a source that did not have a permit under Section 201.169 prior to
+registration must apply and comply with the applicable requirements of the Act and 35 Ill. Adm.
+Code Parts 201 and 203, as follows:
+i) If the source is eligible for a permit under Section 201.169, the owner or operator must
+apply for a permit within 90 days of the source’s annual fee payment date.
+ii) If the source is not eligible under Section 201.169, the owner or operator must apply for a
+permit as provided for under the Act and 35 Ill. Adm. Code Parts 201 and 203.
+iii) If the source was not constructed or operated at the time of initial registration and has
+actual emissions in excess of the eligibility levels during the first or second year of
+operations as determined in subsection (b)(2), the owner or operator must apply for an
+operating permit and pay construction permit application fees.
+B) The owner or operator of a source that had a permit under Section 201.169 prior to registration:
+i) If the source is in compliance with the terms and conditions of the permit, the owner or
+operator shall notify the Agency no later than the source’s annual fee payment date of the
+calendar year following the change in status from a ROSS eligible source to a permitted source.
+ii) If the source is not in compliance with the terms and conditions of the permit, but is still
+eligible for a permit pursuant to Section 201.169, the owner or operator must apply for a
+new or revised permit within 90 days of the source’s annual fee payment date.
+iii) If the source is not eligible for a permit pursuant to Section 201.169, the owner or
+operator must comply with the applicable permitting requirements under the Act and 35
+Ill. Adm. Code Parts 201 and 203.
+h) Reentry into ROSS: the owner or operator of a source that changed status to become a permitted
+source pursuant to subsection (g) of this Section shall submit a registration for ROSS if the source
+meets the criteria in subsections (a), as determined in subsection (b)(1), in the prior calendar year.
+(Source: 35 Ill. Reg. 19790, effective December 5, 2011)
+
+Additional Assistance
+You may obtain copies of this document, or other fact sheets, workbooks, etc., by contacting Illinois
+Department of Commerce and Economic Opportunity (DCEO) Small Business Environmental Assistance
+Program or the Office of Small Business at the Illinois EPA or by contacting the appropriate permit section:
+DCEO Small Business Environmental Assistance Program
+Illinois EPA Bureau of Air Permit Section
+Illinois EPA Bureau of Land Permit Section
+Illinois EPA Bureau of Water Permit Section
+
+800.252.3998
+217.785.1708
+217.524.3300
+217.782.0610
+
+You may also obtain information or assistance from these sections by calling the above numbers.
+30
+
+Printed by the Authority of the State of Illinois.
+
+5/16 W.O.16-046
+
+IOCI 16-603
+
+

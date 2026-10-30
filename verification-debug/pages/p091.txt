@@ -1,0 +1,270 @@
+TCEQ REGULATED GUIDANCE
+Air Permits Division
+RG-616 ● Revised January 2026
+Air Permitting Fact Sheet
+Any person who plans to construct a new facility or modify an existing facility which
+emits air contaminants into the atmosphere shall obtain authorization to do so from
+the Texas Commission on Environmental Quality (TCEQ). The type of authorization
+required for a facility is determined by the type of facility and the amount of
+pollutant(s) emitted. The list of potential air quality authorizations, in order of
+increasing emissions, are as follows:
+•
+
+De Minimis Facilities or Sources – Facilities or sources that meet the
+conditions of Title 30, Texas Administrative Code (30 TAC) Section
+116.119(a) are considered de minimis and do not have to obtain any
+registration or authorization prior to construction.
+
+•
+
+Permit by Rule Authorizations – An operation may qualify for a permit by
+rule (PBR) authorization if it emits less than:
+o
+
+250 tons per year (tpy) of carbon monoxide or nitrogen oxides.
+
+o
+
+25 tpy of volatile organic compounds, sulfur dioxide, or inhalable
+particulate matter.
+
+o
+
+15 tpy of particulate matter with diameters of 10 microns or less.
+
+o
+
+10 tpy of particulate matter with diameters of 2.5 microns or less.
+
+o
+
+25 tpy of any other air contaminant [except carbon dioxide, water,
+nitrogen, ethane, hydrogen, oxygen, and greenhouse gases (GHGs),
+unless there is a specific provision in an individual PBR to the
+contrary].
+
+The general requirements and specific PBRs are found in 30 TAC
+Chapter 106. There are 108 individual PBRs that may be claimed or
+registered. Note that the facility must meet all the established PBR
+requirements to claim a PBR.
+•
+
+Standard Permits – Standard permits are authorized under 30 TAC Chapter
+116, Subchapter F and are available for the following project types:
+anhydrous ammonia storage and distribution operations; animal carcass
+incinerators; boilers; concrete batch plants; concrete batch plants with
+enhanced controls; cotton gins and cotton burr tub grinders; dry bulk
+fertilizer handling; electric generating units; feed mills, portable augers, and
+hay grinders; grain elevators, grain handling, and portable grain augers;
+marine loading operations; peanut-handling; municipal solid waste landfills;
+oil and gas facilities; pollution control projects; sawmills; temporary and
+permanent hot mix asphalt plants; temporary and permanent polyphosphate
+blenders; and temporary and permanent rock and concrete crushers. Owners
+or operators of facilities that meet the established standard permit criteria
+TEXAS COMMISSION ON ENVIRONMENTAL QUALITY • PO BOX 13087 • AUSTIN, TX 78711-3087
+
+TCEQ is an equal opportunity employer. The agency does not allow discrimination on the basis of race, color, religion, national origin, sex, disability, age,
+sexual orientation, or veteran status. In compliance with the Americans with Disabilities Act, this document may be requested in alternate formats by
+contacting TCEQ at 512-239-0010, or 800-RELAY-TX (TDD), or by writing PO Box 13087, Austin TX 78711-3087. We authorize you to use or reproduce
+any original material contained in this publication—that is, any material we did not obtain from other sources. Please acknowledge TCEQ as your source.
+For more information on TCEQ publications, visit our website at: tceq.texas.gov/publications
+How is our customer service? tceq.texas.gov/customersurvey
+
+RG-616 ● Fact Sheet - Air Permitting
+
+may qualify for a standard permit. Certain standard permits include
+requirements for public notice.
+•
+
+New Source Review (NSR) Permits – Owners or operators of facilities
+that do not qualify for PBRs or standard permits can submit an NSR case-bycase permit application (30 TAC Chapter 116). After receiving a complete
+application, TCEQ staff will begin an administrative and technical review.
+During the administrative review, staff will determine if public notice is
+required and if so, will send the applicant the public notice package for the
+publication and posting of signs. The publication starts a 30-day comment
+period. The technical review primarily relates to source identification and air
+emission quantification, analysis of the off-property health impacts of those
+emissions, determination of best available control technology, and the
+applicability of any source category or emission-based state and federal
+regulations. The applicant may also be required to publish a second public
+notice and post signs around the proposed facility location for an additional
+30-day comment period.
+
+•
+
+Flexible Permits – A flexible permit allows an owner or operator more
+flexibility in managing operations by staying under an overall emissions cap
+or individual emission limitation. The owner or operator is allowed to
+structure the flexible permit to best serve their needs. Flexible permits follow
+the same permitting requirements for NSR permits.
+
+•
+
+Prevention of Significant Deterioration (PSD) Permits – If a new facility
+is a major stationary source (or if construction is a major modification) for an
+NSR regulated pollutant other than criteria pollutants or located in an
+attainment or unclassifiable area for the criteria pollutant, a PSD permit is
+required. In addition to the requirements for NSR permits, the PSD review
+will require additional modeling. If emissions of GHGs from new construction
+or major modification do not meet or exceed the thresholds in 30 TAC
+116.164(a)(1) or (a)(2), no authorization for those GHG emissions is
+required, otherwise a GHG PSD permit is also required.
+
+•
+
+Nonattainment Permits – If the facility is located in a nonattainment area
+designated by the U.S. Environmental Protection Agency, additional
+permitting requirements may apply. In addition to the requirements
+discussed for NSR permits, a nonattainment permit review is required if the
+facility has emissions above the major source (for new major sources) or
+significant thresholds (for existing major sources) for the specific
+nonattainment area and criteria pollutant or precursor. Nonattainment
+permitting requires the installation of the lowest achievable emission rate
+control technology and the acquisition of emission reductions to offset
+proposed emissions increases of the criteria pollutant, as well as its
+precursors, before the start of operations.
+
+Title V Federal Operating Permits – The owner or operator of major facilities,
+per 30 TAC Chapter 122, must submit an abbreviated Title V permit application
+before the start-up of a facility. TCEQ shall inform the applicant in writing of the
+deadline for submitting the remaining information. Submittal of a Title V permit
+application will not affect the start-up of the facility.
+
+January 2026 ● Page 2
+
+RG-616 ● Fact Sheet - Air Permitting
+
+Air Permitting Target Time Frames
+This table includes the time frame goals for the Air Permits Division to review air
+quality permit applications. Issuance days are determined from the receipt date to
+the final action date of a permitting project.
+Project Type
+
+Issuance (Days)
+
+Permits By Rule
+
+45
+
+Standard Permits (without Public Notice), Changes to
+Qualified Facilities (SB1126), and Relocations
+
+45
+
+Standard Permits (with Public Notice)
+
+150
+
+Standard Permits for Concrete Batch Plants (with Public Notice)
+
+150
+
+New NSR Permits
+
+285
+
+NSR Alterations and other changes
+
+120
+
+NSR Amendments
+
+315
+
+NSR Renewals
+
+270
+
+Federal NSR (PSD, Nonattainment, 112g, Plant-wide
+Applicability Limits) New and Major Modifications
+
+365
+
+Title V Federal Operating Permits – New Site Operating Permit
+(SOP)
+
+365
+
+Title V Federal Operating Permits – SOP Revision
+
+365
+
+Title V Federal Operating Permits – SOP Renewal
+
+365
+
+Title V Federal Operating Permits – New General Operating
+Permit (GOP)
+
+120
+
+Title V Federal Operating Permits – GOP Revision
+
+330
+
+Title V Federal Operating Permits – GOP Renewal
+
+210
+
+Note: All the listed issuance time frames are target goals.
+
+January 2026 ● Page 3
+
+RG-616 ● Fact Sheet - Air Permitting
+
+The following additional guidance is also available:
+•
+
+Before You Build:
+www.tceq.texas.gov/permitting/air/newsourcereview/before.html
+
+•
+
+Types of NSR Authorizations:
+www.tceq.texas.gov/permitting/air/guidance/authorize.html
+
+•
+
+Keyword Index to Air Permits by Rule:
+www.tceq.texas.gov/permitting/air/permitbyrule/pbr_index.html
+
+•
+
+Index of Common Permitted Facilities:
+www.tceq.texas.gov/permitting/air/guidance/newsourcereview/nsr_fac_index
+.html
+
+•
+
+Public Notice Requirements:
+www.tceq.texas.gov/permitting/air/bilingual/how1_2_pn.html
+
+•
+
+Title VI Requirements:
+www.tceq.texas.gov/agency/decisions/participation/title-vi-compliance
+
+•
+
+New Source Review Application Tools:
+https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/nsrap
+p-tools.html
+
+•
+
+Fact Sheet – PSD and Nonattainment:
+www.tceq.texas.gov/permitting/air/guidance/permit-factsheets.html
+
+•
+
+Fact Sheet – PSD and Nonattainment Significant Emissions:
+www.tceq.texas.gov/permitting/air/guidance/permit-factsheets.html
+
+•
+
+Complying with an Air Permit:
+www.tceq.texas.gov/permitting/air/newsourcereview/after.html
+
+January 2026 ● Page 4
+
+

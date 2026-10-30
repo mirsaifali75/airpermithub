@@ -1,0 +1,180 @@
+Air Permitting: Emissions Applicability Thresholds 
+Skip to main content
+An official website of the Indiana State Government 
+Language Translation 
+Governor Mike Braun 
+MENU
+Indiana Department of Environmental Management
+Start voice
+input 
+Frequent Searches 
+> Submit text
+search 
+IDEM 
+Air Permitting Home 
+How Air Permits Help Protect Public Health and the Environment 
+Who Needs an Air Permit 
+Regulated Pollutants 
+Air Permit Programs Overview 
+Public Participation 
+Applicant Assistance and Resources 
+Laws, Rules, and Policies 
+Toggle submenu 
+Removal of Affirmative Defense Provisions from Part 70 and FESOP Programs 
+Contact 
+Information About 
+Toggle submenu 
+Application Process 
+Toggle submenu 
+Preliminary Application Submitted by Email 
+New Source Review 
+Operating Permits 
+Alternate Approvals 
+Exemptions 
+Renewals, Revisions, and Transitions 
+Pending and Issued Permits 
+Potential To Emit and Source Category 
+Revocation Due to Inactivity, Abandonment, and/or Nonpayment 
+Air Permit Ownership Transfer or Company Name Change 
+Responsible Official/Authorized Individual Change 
+Resources 
+Toggle submenu 
+Guidance Materials and Resources 
+Toggle submenu 
+Industry Specific Guidance 
+Calculations: Templates for Common Processes 
+Timeframes and Fees 
+Air Quality in Indiana 
+Public Notices 
+Close Menu
+Emissions Applicability Thresholds
+IDEM 
+Air Permitting 
+Information About 
+Potential To Emit and Source Category 
+Emissions Applicability Thresholds 
+Potential to emit (PTE) is used for determining new source review and operating permit requirements, unless there are requirements based on industry source category .
+The tables below contain the PTE thresholds used for determining the applicable operating permitting level. For example, the Registration Thresholds Table shows that a registration may be required for carbon monoxide emissions between 25 and 100 tons per year. A source with PTE less than the minimum Registration Thresholds is typically exempt from permit regulations.
+As shown in the Title V Thresholds Table for Major Sources, there are lower thresholds for certain nonattainment areas so a source’s location may be a factor.
+Applicants should refer to rules for permitting purposes, and contact IDEM for permitting assistance .
+Note: PTE is calculated for use in permit determinations. PTE is different than actual emissions, which are based on the actual operating schedule and production levels and take into account air pollution controls that may be in place. Actual emissions are used for reporting purposes and evaluating compliance .
+Registration Thresholds Table
+Type of Pollutant
+Minimum Threshold (PTE Equal to or Greater Than) in Tons Per Year
+Maximum Threshold (but Less Than) in Tons Per Year
+Volatile organic compounds (VOCs) for sources not required to use air pollution control equipment to comply with the VOC emission rules
+10
+25
+VOCs for sources that are required to use air pollution control equipment to comply with the VOC emission rules
+5
+25
+Nitrogen dioxide and oxides of nitrogen (NOX)
+10
+25
+Carbon monoxide (CO)
+25
+100
+Sulfur dioxide (SO2)
+10
+25
+Particulate matter (PM)
+5
+25
+Particulate matter smaller than 10 microns (PM 10 )
+5
+25
+Particulate matter smaller than 2.5 microns (PM 2.5 )
+5
+25
+Lead
+0.2 (400 pounds per year)
+5
+Fluorides
+5
+25
+Hydrogen sulfide
+5
+25
+Total reduced sulfur
+5
+25
+Reduced sulfur compounds
+5
+25
+Title V Thresholds for Major Sources
+Type of Pollutant
+PTE threshold in tons per year
+VOCs (related to ozone formation)
+100 TPY in attainment areas
+100 TPY in marginal nonattainment areas
+100 TPY in moderate nonattainment areas
+50 TPY in serious nonattainment areas
+25 TPY in severe nonattainment areas
+10 TPY in extreme nonattainment areas
+NOX (related to ozone formation)
+100 TPY in attainment areas
+100 TPY in marginal nonattainment areas
+100 TPY in moderate nonattainment areas
+50 TPY in serious nonattainment areas
+25 TPY in severe nonattainment areas
+10 TPY in extreme nonattainment areas
+SO2
+100 TPY
+CO
+100 TPY
+PM 10 
+100 TPY
+PM 2.5 
+100 TPY
+Lead
+10 TPY
+A single hazardous air pollutant (HAP)
+10 TPY
+A combination of HAPs
+25 TPY
+Any other air pollutant subject to regulation
+100 TPY
+Note: Secondary lead smelters are required to have a Title V permit by 40 CFR 63 Subpart X.
+I Want To
+Find mailing addresses for IDEM's Office of Air Quality 
+Apply for a permit 
+Final local air quality conditions and forecasts 
+Know my area's attainment status 
+Know where I can recycle 
+Online Services
+Acronyms List 
+Electronic Permitting 
+Enforcement Database 
+IDEM Forms 
+Online Air Permit Search 
+Real-Time Monitoring 
+SmogWatch 
+Virtual File Cabinet 
+More IN.gov Online Services 
+IN.gov Subscriber Center 
+Top FAQs
+Find Information
+State Information Center Live Chat 
+Email State Information Center 
+Find an Agency 
+Call: 1-800-457-8283 
+Text: 1-888-311-1846 
+Quick Information
+IN.gov User Survey 
+Advanced Search 
+Policies 
+Sitemap 
+IN.gov FAQs 
+State Employee
+Resources 
+State Information
+Maps & Information 
+IN.gov News &
+Events 
+Email Updates 
+Indiana Code 
+Indiana Administrative Code 
+Awards 
+Report
+Accessibility Issues 
+Copyright © 2026 State of Indiana - All rights reserved.

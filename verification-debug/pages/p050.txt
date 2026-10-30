@@ -1,0 +1,237 @@
+ARD-17
+
+2020
+
+New Hampshire’s Air Permit Program
+NHDES regulates and limits air emissions from a variety of sources within New Hampshire
+through a statewide permitting program. The New Hampshire Code of Administrative Rules,
+Chapter Env-A 600 outlines the permitting process and lists sources that require permits for air
+emissions, either by overall source, specific device, or by pollutant. The permitting program is
+part of New Hampshire’s plan to achieve and maintain air quality standards throughout the
+state. These standards include National Ambient Air Quality Standards, or NAAQS for six
+“criteria” pollutants (ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, particulate
+matter and lead), and standards (Ambient Air Limits or AALs) for Regulated Toxic Air Pollutants
+(RTAPs).
+What Sources Need An Air Permit?
+Sources of air emissions that require permits include point sources, such as stationary
+commercial and industrial facilities; area sources, which are smaller stationary sources, like
+spray booths and print shops; and devices, which include individual burners, furnaces,
+machines, etc. Table I, on page 2, summarizes the source/device threshold limits that trigger
+the requirement for obtaining an air permit from NHDES.
+In addition to the specific sources/devices listed in Table I, the rules contain other conditions
+under which a source would be required to obtain a permit. Examples of these conditions
+include:
+•
+
+Sources choosing to limit their potential to emit by accepting enforceable permit
+conditions.
+
+•
+
+Sources at which documented and repeated violations occur of any of the applicable
+opacity or emission limits found in the rules.
+
+•
+
+Sources at which documented and repeated violations of any NAAQS occur and the
+source is a significant contributor to the violation.
+
+•
+
+Sources subject to National Emission Standards for Hazardous Air Pollutants (NESHAP)
+for source categories defined in federal regulations 40 CFR Parts 61.
+
+•
+
+Sources that are required to obtain a permit pursuant to Maximum Achievable Control
+Technology (MACT) 40 CFR Part 63.
+1
+
+•
+
+Sources subject to the rules governing reasonably available control technology (RACT)
+for nitrogen oxides (NOx).
+
+•
+
+Sources using a RACT Order to comply with RACT for volatile organic compounds (VOCs).
+
+•
+
+Sources where a permit is required in order to achieve compliance with NAAQS for
+criteria pollutants.
+
+•
+
+Sources where a permit is required in order to achieve compliance with AALs for RTAPs.
+
+•
+
+Sources affected by or opting into the Acid Rain program under Title IV of the federal
+Clean Air Act Amendments of 1990.
+
+•
+
+Sources defined in the rules as “major sources,” as determined by the type and amount
+of pollutant emitted from the source and the geographical location of the source
+(required by Title V of the federal Clean Air Act Amendments of 1990).
+TABLE I
+Devices and Sources That Require Permits for Air Emissions
+Device/Source
+
+Design Rating
+
+Fuel
+
+Fuel Burning Device
+
+≥ 10 million Btu/hr
+
+Gaseous or distillate fuel oil
+
+Fuel Burning Device
+
+≥ 4 million Btu/hr
+
+#4 fuel oil
+
+Fuel Burning Device
+
+≥ 2 million Btu/hr
+
+Solid fuel, residual oil, or used oil
+
+Internal Combustion Engine
+
+≥ 1.5 million Btu/hr (aggregate of all
+engines > 0.15 million Btu/hr)
+
+Liquid fuel oil
+
+(One or more at a source; design rating threshold
+is combined total of all)
+
+Gaseous fuel
+
+Incinerator
+
+≥ 1,000 lbs/hr
+
+Type 0, 1, 2, 3 waste
+
+Incinerator
+
+≥ 200 lbs/hr
+
+Type 4, 5, 6, 7 waste
+
+Stationary Source, Area Source, or Device
+
+Total actual VOC emissions ≥ 10 tons per year
+
+Aboveground, Vertical, VOC Storage Tank
+
+Capacity ≥ 40,000 gallons containing VOCs with a true vapor pressure ≥
+1.52 psia at 60ºF
+
+Device for loading tank trucks with gasoline at a
+gasoline terminal
+
+Design throughput ≥ 20,000 gal/day
+
+Woodworking Device employing pneumatic
+transfer system, using a cyclone but no baghouse,
+for collecting any amount of sander dust
+
+Wood waste collection rate ≥ 20 tons/yr
+
+Pneumatic dust transfer equipment used to convey materials, other than wood waste, into bins or silos, and not using a
+baghouse or filter for controlling dust
+Fixed non-metallic mineral processing plant or
+coal crusher
+
+Design throughput ≥ 25 tons/hr
+
+Portable sand and gravel or crushed stone plant or Design throughput ≥ 150 tons/hr
+coal crusher
+
+2
+
+What Permits Are Required?
+For sources that fit into one or more of the categories described above, NHDES issues five types
+of permits: Temporary Permits, State Permits to Operate, General State Permits, Title V
+Operating Permits and Permits-by-Notification.
+
+
+Temporary Permits
+A Temporary Permit is issued prior to the commencement of construction or
+installation of any new or modified source or device. A Temporary Permit is issued for a
+period no longer than 18 months and contains terms and conditions establishing the
+parameters under which the source or device is constructed or operated. A Temporary
+Permit is issued to sources or devices based on several criteria, including the source or
+device type, design ratings, levels of production, and annual emission levels. A
+Temporary Permit will contain conditions to confirm that the source or device can
+operate as proposed and in compliance with applicable air standards and regulations,
+e.g., stack testing, monitoring, and record keeping requirements. A Temporary Permit is
+the first step toward obtaining either a State Permit to Operate or a Title V Operating
+Permit.
+
+
+
+State Permits to Operate
+A State Permit to Operate is issued for a period not to exceed five years and is only
+issued once a source has been constructed, started operation, and demonstrated that it
+can operate in compliance with all applicable air regulations. A State Permit to Operate
+contains the emission limits and any other conditions the source is required to meet to
+ensure that the operation of the source will not result in a violation of any air quality
+standard or regulation. State permits to operate are issued to sources or devices that
+were required to hold Temporary Permits and are not subject to the Title V Operating
+Permit program.
+
+
+
+General State Permits
+A General State Permit is a streamlined permit available for internal combustion engines
+used as emergency generators or fire pump engines. A General State Permit is issued for
+a period not to exceed five years. A source that falls under the General State Permit
+category may choose to comply with the terms and conditions of the General State
+Permit instead of obtaining a Temporary Permit and State Permit to Operate.
+
+
+
+Title V Operating Permits
+The Title V Operating Permit program, effective June 30, 1995, is a requirement of Title
+V of the federal Clean Air Act Amendments of 1990. Title V Operating Permits are issued
+to sources, called “major sources,” which emit or have the potential to emit the
+following pollutants at the levels specified:
+o 10 tons per year (TPY) or more of any one hazardous air pollutant (HAP).
+o 25 TPY or more of any combination of HAPs.
+o 50 TPY or more of VOCs.
+3
+
+o 100 TPY or more of any criteria pollutant (e.g., sulfur dioxide (SO2), nitrogen
+oxide (NOx), etc.). In Hillsborough, Merrimack, Rockingham or Strafford
+Counties, the level for NOx is 50 TPY or more.
+Other sources, including area sources, may also be required to obtain Title V Operating
+Permits if they are subject to federal requirements relating to new source performance
+standards, hazardous air pollutants, or acid rain control.
+
+
+Permit-by-Notification
+A Permit-by-Notification (PBN) is a simplified permit process available for non-metallic
+mineral processing plants (rock crushers). A source that falls under the PBN category
+may choose to comply with the PBN procedures and requirements for the category
+instead of obtaining a Temporary Permit or State Permit to Operate.
+
+How Can I Get More Information?
+The Air Permit Program is a complex process involving multiple conditions, requirements and
+procedures. The information presented in this fact sheet provides an overview of the statewide
+air permit program; it is a starting point to help sources determine if they need to enter the
+process. As always, NHDES is pleased to provide assistance to companies throughout the
+process. Additional information may be obtained by contacting the NHDES Air Permit Programs
+Manager, Todd Moore at todd.moore@des.nh.gov or (603) 271-1370, or on the NHDES
+website.
+
+4
+
+

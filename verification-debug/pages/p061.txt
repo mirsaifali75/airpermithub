@@ -1,0 +1,305 @@
+Construction Permitting - Air Quality - North Dakota DEQ 
+Skip to main content 
+Website Accessibility Statement 
+We are committed to ensuring our website and web content complies with the Americans 
+with Disabilities Act (ADA) and applicable web accessibility standards. 
+If you have difficulty using our site or need an accommodation, please 
+contact us at deq@nd.gov . To learn more, visit our Accessibility page . 
+Air Quality
+Air Quality
+Search: 
+Toggle left popout navigation 
+Toggle top navigation 
+DEQ Home 
+Air Quality 
+Chemistry 
+Municipal Facilities 
+Waste Management 
+Water Quality 
+Office of Director 
+Home 
+AQ 
+Permitting 
+Construction Permitting
+DEQ Resources 
+Electronic Reporting & Permit Systems 
+Report a Spill 
+Environmental Topics A-Z 
+Risk Based Corrective Action 
+Public Comments, Meetings &amp Notices 
+Calendar and Events 
+Rules and Regulations 
+Forms 
+Publications 
+Press Releases 
+Open Records 
+Legislative Testimony 
+Employment Opportunities 
+Nondiscrimination Program 
+Environmental Audits 
+Environmental Review Advisory Council 
+Search EHS for 
+Go! 
+Division of Air Quality Resources
+Air Quality Home 
+CERIS-ND 
+Permit Portal 
+Fees 
+Forms 
+Rules, Regulations & Policies 
+Public Comments & Notices 
+Data & Maps 
+Training 
+AQ Publications 
+About DoAQ 
+Notice: Many Air Quality forms are fillable PDF forms. For the best experience, ensure your browser is up to date. If you have trouble filling out a form within your browser, we recommend downloading the file and opening it with Adobe Acrobat Reader 
+Construction Permits
+North Dakota's New Source Review (NSR) is handled through our permitting program—specifically through issuing Permits to Construct (PTCs). The PTC process reviews proposed sources or modifications to existing sources of air contaminants. A construction permit is issued only if it is expected that the proposed source or modification will comply with the applicable rules.
+For questions related to a specific construction permit or general questions about construction permitting contact David Stroh at 701-328-5229 or by email at destroh@nd.gov .
+Air Permitting Program Process 
+A Permit to Construct (PTC) is required for any new stationary source, or modification to an existing source, within a source category designated in 
+Section 33.1-15-14-01 . Sources exempt from obtaining a Permit to Construct are listed in 
+Section 33.1-15-14-02.13 . 
+Construction May Not Begin Before a Permit Is Issued 
+No construction, installation or establishment of a new stationary source may commence unless the owner or operator has filed an application for and received a Permit to Construct in accordance with Chapter 33.1-15-14 . 
+Construction, installation or establishment means:
+For sources subject to a standard or requirement under chapters 33.1-15-13 , 
+33.1-15-15 (excluding increment consumption by non–major sources), and 33.1-15-22 , it shall have the meaning given for construction in each of the respective chapters. 
+For all other sources, construction means the placement or erection - including fabrication, demolition or modification - of an air contaminant emissions unit and any equipment, process, or structure that will be used to reduce, physically or chemically change, or transmit to the atmosphere any air contaminant. This does not include the building that houses the source, site work, foundations or other equipment that does not affect the amount, ambient concentration or type of air contaminants emitted. With respect to a physical change or a change in the method of operation, it means those on-site activities that will affect an existing emissions unit or the establishment of a new unit that emits into the atmosphere.
+The Application Process 
+Construction Permitting is based on the Potential to Emit (PTE) of Criteria Pollutants and Hazardous Air Pollutants (HAPs). 
+General Process for All Pre–Construction Permitting 
+The application package is received by the Department and reviewed for completeness. 
+NOTE: At the very minimum, an application should include the following items: 
+A written description of the proposed project and the facility including site diagrams (if a physical change is proposed) and applicable process descriptions and technical specifications. 
+A summary of Hazardous Air Pollutant emissions and compliance with the Air Toxics Policy (rescinded) . 
+A written section addressing Title V and PSD applicability. 
+A summary of state and federal rule applicability including a listing of any New Source Performance Standards (NSPS, see 40 CFR 60 ) and National Emission Standards for Hazardous Air Pollutants (NESHAP, see 40 CFR 63 ) subparts that apply. 
+A statement addressing any dispersion modeling requirements for Criteria Pollutants or Air Toxics and the inclusion of any required modeling analysis with a complete method description in accordance with the State Air Quality Analysis Guide or Department guidance. 
+All Applicable Air Quality Permit Application forms . 
+The $325 Permit to Construct filing fee payment per NDAC 33.1-15-23-02 . 
+Completeness is determined on a case by case basis and, to be deemed complete, a given application may require other information in addition to the items listed above. 
+If the application is incomplete, the applicant will be notified of the deficiencies. If the application is complete, the technical review will begin. 
+After review, the Department will issue or deny the permit. The decision to issue or deny the permit will be based on the expected compliance status with respect to applicable state and federal air pollution requirements.
+The Permit to Construct may include conditions for compliance testing, monitoring, record-keeping and reporting. If the conditions of the permit to construct are satisfied, a Permit to Operate will be issued for the source. See Permit to Operate .
+NOTE: Construction permits become invalid if construction is not commenced within 18 months of the permit's issuance. The department may extend the 18 month period upon a satisfactory showing that an extension is justified per NDAC 33.1-15-14-02.10b . 
+True Minor Source Permitting 
+A Construction Permit is required for the installation of a new stationary source or modification to an existing source that is designated in Section 33.1-15-14.01 .
+True Minor— A true minor source Construction Permit is issued to facilities that have the potential to emit less than 100 ton/yr of a criteria pollutant , less than 10 ton/yr of any single hazardous air pollutant and less than 25 ton/yr of any combination of hazardous air pollutants.
+General Permit— A general Permit to Construct may be issued to cover numerous, similar, true minor sources such as asphalt plants, dry cleaners and grain elevators. 
+Some sources or modifications may represent such a minor impact to the air quality that a permit to construct is not required. In such cases, an application for a Construction Permit is required, at which point the Department will determine if a Permit is necessary. Should it be deemed that a Permit is not required, the Department will notify the source in writing as such.
+Is modeling required?
+Modeling may be required depending on the amount and types of pollutants emitted by the source. Some source types may be exempt from modeling if they meet the criteria for exemption. For more information on exemptions, inputs, and modeling guidance see Modeling . 
+Synthetic Minor Source Permitting 
+Sources that have the potential to emit 100 ton/yr or greater of a criteria pollutant , 10 ton/yr or greater of any hazardous air pollutant, or 25 ton/yr or greater of any combination of hazardous air pollutants, and the permittee accepts a federally enforceable limit in the Permit to Construct which limits the potential to emit to the same limit specified for a true minor source.
+What are federally enforceable limits?
+Typically, a federally-enforceable limit is a physical or operational limitation on the capacity of a source to emit an air pollutant that is capable of being enforced by the federal government and citizens in federal court. A limitation will be considered federally enforceable if it is enforceable as a practical matter.
+Examples of federally enforceable limits include:
+Throughput limits/Production rate limits
+Operational limits
+Fuel type and usage amount limits
+Emission limits over a set period of time
+Is modeling required?
+Modeling may be required dependent on the amount and types of pollutants emitted by the source. Some source types may be exempt from modeling if they meet the criteria for exemption. For more information on exemptions, inputs, and modeling guidance see our Modeling page. 
+Major (Title V) Source Permitting 
+A source that has the potential to emit 100 ton/yr or greater of a criteria pollutant , 10 ton/yr or greater of any hazardous air pollutant, or 25 ton/yr or greater of any combination of hazardous air pollutants is considered a Major Source under Title V of the Clean Air Act (Operating Permits) and may be Major or Minor under the Prevention of Significant Deterioration (PSD) rules depending on the source type.
+Is modeling required?
+Modeling is often required for major sources dependent on the amount and types of pollutants emitted by the source. Some source types may be exempt from modeling if they meet the criteria for exemption. For more information on exemptions, inputs, and modeling guidance see our Modeling page. 
+Prevention of Significant Deterioration (PSD)
+Prevention of Significant Deterioration (PSD) applies to new major sources or major modifications at existing sources for pollutants where the area the source is located is in attainment or unclassifiable with the National Ambient Air Quality Standards (NAAQS) . North Dakota is in attainment for all criteria pollutants. 
+PSD sources require the following: 
+installation of the Best Available Control Technology (BACT) or Best Available Retrofit Technology (BART);
+an air quality analysis;
+an additional impacts analysis; and
+public involvement
+E-Permitting 
+The Division of Air Quality has developed electronic permitting for Pre-Construction (NSR/PSD) permitting.
+Access CERIS-ND Subscriber Agreement Required for Submission 
+Permit to Construct (PTC) Forms 
+Instructions for Completing Permit Application Forms 
+Form Name 
+SFN 
+Rev. Date
+Form Type
+Submit Electronically?
+Air Contaminant Sources (Required for all minor/synthetic minor permit application packages.) 
+8516 
+09-21
+Permit Application
+CERIS-ND 
+Air Pollution Control Equipment
+8532 
+09-21
+Permit Application
+CERIS-ND 
+Asphalt Concrete Plants
+8526 
+09-21
+Permit Application
+CERIS-ND 
+Contaminated Soil Treatment Facilities
+52724 
+09-21
+Permit Application
+CERIS-ND 
+Flares
+59652 
+09-21
+Permit Application
+CERIS-ND 
+Fuel Burning Equipment for Indirect Heating
+8518 
+09-21
+Permit Application
+CERIS-ND 
+Glycol Dehydration Units
+58923 
+09-21
+Permit Application
+CERIS-ND 
+Grain, Feed, and Fertilizer Operations
+8524 
+09-21
+Permit Application
+CERIS-ND 
+Hazardous Air Pollutant (HAP) Sources
+8329 
+09-21
+Permit Application
+CERIS-ND 
+Incinerators/Crematories
+8522 
+09-21
+Permit Application
+CERIS-ND 
+Internal Combustion Engines and Turbines
+8891 
+09-21
+Permit Application
+CERIS-ND 
+Manufacturing or Processing Equipment
+8520 
+09-21
+Permit Application
+CERIS-ND 
+Natural Gas Processing Plants
+11408 
+09-21
+Permit Application
+CERIS-ND 
+Oil/Gas Production Facility Registration (new and modified)
+CERIS-ND ONLY 
+12-20
+Oil & Gas Production
+Registration
+CERIS-ND 
+Rock, Sand and Gravel Plants
+8530 
+09-21
+Permit Application
+CERIS-ND 
+Volatile Organic Compounds Storage Tank
+8535 
+09-21
+Permit Application
+CERIS-ND 
+Permit Application for Perchloroethylene Dry Cleaning Facilities
+60923 
+09-21
+Permit Application
+CERIS-ND 
+How long will it take to issue my permit? 
+Because the permitting process can be very detailed and can include public participation and air dispersion modeling, it can take from three months to one year to obtain a Permit to Construct. Therefore, plan to submit your application well before the proposed installation and start-up date of the source. 
+Permit applications will be reviewed in the order that they are received. Applicants will be contacted if any additional information is required to complete the permit application process .
+The amount of review time required for a permit application is dependent on a variety of factors (completeness of the application, complexity of the review, number of applications currently under review, current staffing levels/expertise, etc.). 
+Type of Application
+Permit Issuance Time-frame*
+Minor Source w/o public comment nor refined dispersion modeling
+~4–6 months
+Minor source with public comment
+~5–7 months
+Minor source with refined dispersion modeling
+~7–9 months
+Major PSD source
+~12–15 months
+* From the date of receipt of a COMPLETE permit application including application fee ( NDAC 33.1-15-14-01.1.1 ). 
+Pre–Construction Air Dispersion Modeling 
+Below are a few of the modeling policies that apply to construction permits. If modeling is required for your facility, please see our Modeling page for guidance documents and more information.
+Air Dispersion Modeling Emergency Engines/Flares 
+Criteria Pollutant Modeling Requirements for a Permit to Construct 
+Dispersion Modeling Requirements for Compressor Engines and Glycol Dehydration Units 
+Policy for the Control of Hazardous Air Pollutant Emissions in ND (Air Toxic Policy) 
+Public Notification and Participation 
+Permit to Construct (PTC) 
+A 30-day public comment period is required for PTCs which are:
+Affected facilities under 
+Chapter 33.1-15-13 — Emission Standards for Hazardous Air Pollutants. 
+New sources that will be required to obtain a Permit to Operate under the Title V Permit Program . 
+Modifications to an existing facility that will increase the potential to emit from the facility by the following amounts:
+One hundred tons [90.72 metric tons] per year or more of particulate matter (PM, PM 10 PM 2.5 ), sulfur dioxide (SO 2 ), nitrogen oxides (NO x ), hydrogen sulfide (H 2 S), carbon monoxide (CO) or volatile organic compounds (VOCs); or
+Ten tons [9.07 metric tons] per year or more of any contaminant listed under section 112(b) of the Federal Clean Air Act; or
+Twenty-five tons [22.68 metric tons] per year or more of any combination of contaminants listed under section 112(b) of the Federal Clean Air Act; or
+Sources that the Department has determined to have a major impact on air quality, sources that have received a request for a public comment period from the public, a source with a significant degree of public interest, or those sources that request a federally enforceable permit which limits their potential to emit (i.e. synthetic minor permits).
+Permit Type
+30-Day Public Comment Required
+Major Source
+Initial Issue 
+Yes (website)
+Synthetic Minor
+Initial Issue 
+Yes (website)
+True Minor or Minor by Rule 1 
+Initial Issue 
+No
+Modification of Issued PTC 1 
+See NDAC 33.1-15-14-02.6 for public comment modification rules.
+1 A public comment period may be required if there is a significant level of public interest or if a public comment period has been requested by the permittee or the public. 
+What happens after my permit is issued? 
+Construction may begin per NDAC Chapter 33.1-15-14 . Review your permit to see if any testing and/or record-keeping and reporting are required of your facility.
+Notification of Initial Operation 
+After a permit to construct is issued, the permittee has 18 months to start construction. After construction is completed the permittee is required to notify the Department within 30 days of initial operation . After the Department is notified, Department staff will arrange a site inspection to verify that equipment in place matches what was permitted and that all pollution control equipment is in operation. 
+Inspection 
+Department staff may arrange a facility inspection after initial operation. During the inspection staff will review the equipment in place to verify that it matches equipment listed in the construction permit, and verify that any and all pollution control equipment is present and operational.
+After the initial inspection, a summary of inspection findings will be submitted to the permittee. If the facility is in compliance with the construction permit an operating permit may be issued. More information about inspections can be found on our Inspection Page and more information about Operating Permits can be found on our Operating Permit Page .
+Testing Requirements 
+Engine, stack, and other testing maybe required of equipment to verify emission rates. Review your permit for any testing requirements and any time-frame requirements to complete the testing. Some testing may be required after initial operation, others maybe on specified intervals. More information about testing can be found on our Testing Page . 
+Record–keeping & Reporting Requirements 
+Depending on the type of facility and equipment, there maybe requirements for record-keeping and reporting to the Department or EPA. These requirements will be listed on your construction permit or within the regulations that apply to it. More information about record-keeping and reporting can be found on our Reporting Page . 
+I'm looking for an issued permit. 
+All issued Construction Permits can be found through CERIS-ND . 
+Questions related to a specific Construction Permit call 701-328-5188 or email David Stroh ( destroh@nd.gov ).
+FAQ 
+Who is responsible for obtaining a Permit to Construct 
+The owner or operator of the source that will be installed or modified is ultimately responsible for obtaining the Permit to Construct. 
+What forms will I need? 
+Required forms will depend on what equipment is to be at the facility. All permit information is required to be signed and competed on forms furnished by the Department per 
+Section 33.1-15-14-02.2 . 
+To assist in the application process common forms based on facility type have been assembled and can be found above under Construction Permit Packages. All forms can be found on our Forms page ; all memos and guidance documents can be found on our Rules and Regulations page .
+Does the Division keep a list of consultants to help with applications? 
+Yes. A consultant list is maintained by the Department. Consultants wishing to be placed on the list should contact the North Dakota Department of Environmental Quality at 701-328-5188 or email Air Quality ( AirQuality@nd.gov ). Include all fields from the list in the request.
+Where can I get examples of Permits to Construct 
+Active Permits to Construct are available on-line through our Permit Portal page. North Dakota is an open records state and as such all active permits are available to everyone on-line, inactive or older permits may be requested by contacting the Division of Air Quality. On-line permits offer a range of facility types that may be used as a guide for submitting an application.
+&larr; Permitting 
+Modeling &rarr; 
+Last Updated: 07/14/2022 
+This web page may contain legacy documents — materials published prior to April 24, 2026 — available here for reference and research. These older documents may not be fully accessible for all users or compatible with assistive technologies. We are committed to providing equal access — if you encounter any barriers opening, reading, or using any document on this page, please contact us at deq@nd.gov and we will provide the information in an alternative format.
+Department of Environmental Quality 
+4201 Normandy Street
+Bismarck, ND 58503-1324
+P: 
+701-328-5150
+F: 
+701-328-5200
+E: deq@nd.gov 
+Contact Us 
+About Us 
+Accessibility 
+Jobs 
+FAQs 
+Local Public Health Units 
+Intranet 
+Copyright © 2026 
+Icon fonts generated by flaticon.com under Creative Commons BY . The authors are: Freepik , OCHA , Icomoon , Stephen Hutchings, Rami McMin, Yannick , SimpleIcon , TutsPlus , Vaadin , GraphBerry , Daniel Bruce , Vectorgraphit, Ema Dimitrova , Amit Jakhu, Tintins, and Plainicon. 
+Older documents are available here for reference and recordkeeping. They may not meet current ADA accessibility standards. 
+To request an accessible version, please email 
+deq@nd.gov .

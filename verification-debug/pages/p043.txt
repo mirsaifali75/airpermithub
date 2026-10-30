@@ -1,0 +1,262 @@
+Air Permitting in Mississippi
+An Overview
+
+Last Revised: 7/13/2022
+
+Two Types of Air Permits
+The Environmental Permits Division (EPD) of the Mississippi Department of Environmental Quality (MDEQ) is
+responsible for reviewing applications and issuing permits allowing construction and operation of air emissions
+equipment. The air regulations found in 11 Miss. Admin. Code Pt. 2, Ch. 2 address two types of permits that may
+be required for new and existing facilities – a Permit to Construct and a Permit to Operate air emissions equipment.
+Because Mississippi currently does not have any non-attainment areas (NAAs) with regards to the National Ambient
+Air Quality Standards (NAAQS), information concerning permitting in NAAs is not provided in this document.
+
+Permit to Construct
+3 Categories for New Facilities:
+1. Major Stationary Source is defined under the Prevention of Significant Deterioration (PSD) regulations in 11
+Miss. Admin. Code Pt. 2, Ch. 5, which adopts the federal PSD regulations in 40 CFR 52.21 by reference (with
+a few exceptions). Major stationary sources require a preconstruction permit, generally referred to as a PSD
+Permit to Construct.
+2. Moderate Stationary Source is a source requesting federally enforceable emissions limit or other operating
+restrictions to avoid being a major PSD source. Moderate stationary sources require a preconstruction
+permit, often referred to as a PSD-Avoidance Permit to Construct.
+3. “Minor” Stationary Source, although not specifically defined in the regulations, has potential facility-wide
+emissions that will not exceed the PSD major source thresholds and needs no emissions limit or operating
+restrictions to stay below the PSD thresholds. A minor stationary source requires a Permit to Construct unless
+the source meets an exclusion in 11 Miss. Admin. Code Pt. 2, R. 2.13.
+
+Documenting Exclusions in
+Chapter 2
+
+1.
+
+Rule 2.13.D(5) exclusion for new
+facilities – Document Potential-toEmit (PTE) for entire facility
+
+2.
+
+Rule 2.13.F exclusion for a de
+minimis NSR modification –
+Document emissions change for
+the project
+
+3.
+
+Although fugitive emissions may
+not be required to determine Title
+V applicability, they should be
+addressed in the Title V
+application for fee purposes.
+
+Exclusions for New Facilities
+A Permit to Construct a new (aka Greenfield) facility is required, unless
+the facility meets one of the exclusions in 11 Miss. Admin. Code Pt. 2,
+R. 2.13.D. or 2.13.E. These exclusions apply to the entirety of the facility.
+For example, under Rule 2.13.E(1)., a facility that has natural gas fired
+boilers totaling less than 25 MMBtu/hr is not exempt from a Permit to
+Construct under this exclusion if there are other sources of air emissions
+at the facility, which must be considered. The most common exemption
+from a Permit to Construct for new facilities is Rule 2.13.D(5). This rule
+exempts stationary sources from the requirement for both a Permit to
+Construct and a Permit to Operate if facility-wide emissions are (1) less
+than 10 tons per year (tpy) of PM10, SO2, NOx, CO, and VOCs; (2) less
+than 1.0 tpy of any individual hazardous air pollutant (HAP); and (3) less
+than 2.5 tpy of total HAPs. Note that this exemption does not apply if the
+facility has an incinerator (hazardous or solid waste) or is a
+Concentrated Animal Feeding Operation (CAFO).
+
+Permit to Operate
+4 Categories:
+1. Major Stationary Source, for purposes of operating, is defined under
+the Title V regulations in 11 Miss. Admin. Code Pt. 2, Ch. 6. A Title V
+major source, not to be confused with a PSD major stationary
+source, has potential emissions greater than 100 tpy of a criteria
+pollutant and/or greater than 10 tpy of an individual HAP and/or
+greater than 25 tpy of total HAPs. All Title V major sources must
+obtain a Title V Operating Permit (TVOP).
+
+Air Permitting in Mississippi
+An Overview
+Oddities with Operating
+Permits
+
+Last Revised: 7/13/2022
+2. Synthetic Minor Source is a facility requesting federally enforceable
+emission limits or other operating restrictions to avoid being a Title
+V major source. These limits/restrictions have often been
+established in a Permit to Construct. A Synthetic Minor Operating
+Permit (SMOP) is the type of State Operating Permit issued to such
+sources under 11 Miss. Admin. Code Pt. 2, Ch. 2.
+3. Significant Minor Source is a specifc facility listed in 11 Miss. Admin.
+Code Pt. 2, Rule 2.1.C(25). (e.g., cotton gins, rendering plants, etc.)
+that must obtain a State Operating Permit, if not already required to
+obtain a TVOP or SMOP.
+
+1.
+
+Sections 112 and 129 of the
+CAA may require a source to
+obtain a TVOP regardless of
+the potential emissions.
+
+2.
+
+Insignificant activities are only
+defined for Title V facilities.
+Therefore, applications for
+SMOPs must address all
+emission sources.
+
+3.
+
+Fugitive emissions must be
+included to determine major
+source applicability for
+pollutants addressed in an
+applicable NSPS or NESHAP,
+regardless of whether it is
+one of the listed sources in
+the PSD/Title V regulations.
+
+4. “True Minor” Source is a source that does not qualify as a Title V,
+synthetic minor, or significant minor source and requires no Permit
+to Operate per 11 Miss. Admin. Code Pt. 2, Rule 2.13.G.
+
+Expediting a Permit
+MDEQ has no provisions for expediting a permit action. MDEQ prioritizes
+permits based on receipt date, economic impact, project schedule,
+commitments to EPA, etc. Therefore, it is imperative to submit both a
+timely and complete application as far in advance of the anticipated
+startup of construction as feasible. For new projects, including new
+construction and modifications to existing facilities, MDEQ recommends
+conducting a pre-permit conference call or in-person meeting to discuss
+permitting needs, timelines, expectations, etc. For projects that require
+a Permit to Construct, but do not require a PSD permit or case-by-case
+MACT determination and do not involve medical or hazardous waste
+incinerators, the applicant may request “Optional Pre-Permit
+Construction” approval under 11 Miss. Admin. Code Pt. 2, Rule 2.15.B.
+Optional Pre-Permit Construction approval allows the applicant to
+undertake construction at their own risk prior to obtaining a Permit to
+Construct. MDEQ may consider the nature of the project, public interest,
+or other factors when determining whether to grant approval.
+
+Application Fees: A common question is “What are your application fees for air permits?” Currently,
+MDEQ has NO application fees for air permits. There is also no fee for requesting emissions inventories
+used in the PSD air quality analysis. The only air-related fees assessed by MDEQ are annual fees associated
+with operating a Title V facility.
+
+Addressing Facility Modifications
+Modifications at existing facilities may require a Permit to Construct and/or a revision to the existing Permit to Operate.
+With respect to construction activities, the term “modification” is defined to include physical changes or changes in
+the method of operation, which results in an increase to actual or potential emissions. A modification at a Title V facility
+requiring a Permit to Construct, but not constituting a major PSD modification, may be processed either through
+issuance of a Permit to Construct followed by revision of the TVOP or solely through a revision of the TVOP, per the
+Optional Title V Modification provisions of 11 Miss. Admin. Code Pt. 2, R. 2.15.C. To use this provision, the TVOP cannot
+be expired, unless the modification is processed with renewal of the permit. Also, the facility cannot begin construction
+on the project until the TVOP is revised or a request for Pre-Permit Construction is approved. The facility can only begin
+operating the modified facility upon revision of the TVOP.
+
+DEQ Air Websites: Air Regulations; Applications and Forms; NSR Air Quality Modeling
+
+Air Permitting in Mississippi
+An Overview
+
+Last Revised: 7/13/2022
+
+When is a Permit to Construct required for an existing facility?
+The facility must apply for a Permit to Construct if a modification does not
+meet the “de minimis NSR modification” definition in Rule 2.1.C(5). of
+Chapter 2, thereby qualifying for the exclusion from a Permit to Construct
+under Rule 2.13.F. A de minimis NSR modification is a modification in
+which the emissions increase of each NSR regulated pollutant is less than
+¾ of the significant emission rate (SER) found in 40 CFR 52.21(b)(23) for
+a facility that is already a PSD major source, and less than ¾ of the PSD
+major source threshold of 100 or 250 tpy for a source that is not currently
+a major PSD source. To meet this exemption, the modification cannot be
+one of the following modifications:
+ A major modification under the PSD regulations;
+ A moderate modification (i.e., one requiring emission limits,
+operating restrictions, or other federally-enforceable provisions to
+avoid being a major PSD modification);
+ A modification involving medial or hazardous waste incineration; and
+ A modification requiring a case-by-case MACT determination.
+
+When to apply for a Permit
+to Construct rather than
+the Optional Title V Permit
+Modification
+
+
+The modification is complex or
+involves modification to many
+existing emission sources.
+
+
+
+Your operating permit has
+expired and the timeline for
+renewal does not align with start
+of construction and operation for
+the modification.
+
+
+
+There is uncertainty regarding
+whether all or part of the
+modification will move forward.
+
+The facility can operate under a Permit to Construct for a year, at which time an application for any required Operating
+Permit (or modification to an Operating Permit) is required.
+
+When do I need to revise the Title V Operating Permit or State Operating Permit?
+The Title V regulations in 11 Miss. Admin. Code Pt. 2, Ch. 6 address four specific types of revisions in Rules 6.4.D, E,
+and F, including (1) Administrative Amendments, (2) Minor Modifications, (3) Significant Modifications, and (4) Section
+502(b)(10) changes for operational flexibility. The Title V regulations address the specific criteria for each type of
+revision, with significant modifications being the only type of Title V revision requiring public notice.
+There are no specific regulations addressing revisions to State Operating Permits for synthetic minor and significant
+minor sources. However, if a change is occurring at a Synthetic Minor facility, the facility must submit an application
+for modification and obtain a modified permit prior to operating the change.
+
+Timing…
+Other than application fees, the question of timing always arises, The table below represents an estimated time
+particularly with new construction. Here are four important steps range for issuance of an initial permit or approval.
+you can take to prevent hindering the permitting process:
+Obviously, factors such as staffing, permit
+priorities, complexity, and outside interest or
+1. Request a pre-application meeting from the branch
+opposition from third parties or EPA can impact
+manager or your permit engineer to review the project;
+timing.
+2. Ensure the application is thorough and complete, prepared
+Air Permit Action
+Estimated Time
+by someone knowledgeable with your facility and MDEQ
+Pre-permit Construction Approval
+<30 days
+requirements;
+PSD-Avoidance Permit to
+3. Propose emission limits, monitoring and recordkeeping
+that make sense for your facility; and
+4. Respond promptly to DEQ comments or requests for
+review or additional information.
+Remember, most permitting actions require a 30-day public
+comment period and, for Title V actions, a 45-day EPA review.
+
+Construct
+PSD Major Permit to Construct
+Synthetic Minor Operating Permit
+Title V Operating Permit
+
+90-150
+
+days
+
+150+
+90-180
+180
+
+days
+days
+days
+
+

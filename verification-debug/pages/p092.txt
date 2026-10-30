@@ -1,0 +1,112 @@
+Permits by Rule (PBR) Certification Fact Sheet
+Introduction
+
+This fact sheet provides information on certifying emissions from certain facilities
+subject to the Federal or Texas Clean Air Acts. The following list is not inclusive of all
+reasons for which applicants may be asked to certify PBR registrations or claims.
+Federal New Source Review Issues
+
+For projects at existing major sites, 30 TAC 106.4(a) (1) establishes limits for production
+and planned MSS for each facility (piece of equipment) at ≤ 250 tons per year (tpy)
+Nitrogen Oxides (NOx) and Carbon Monoxide (CO) or 25 tpy Volatile Organic
+Compounds (VOC), Particulate Matter (PM), Sulfur Dioxide (SO2), and any other
+contaminant. However, these limits are greater than the triggers/ thresholds for major
+sources or major modifications under Nonattainment New Source Review (NNSR) or
+Prevention of Significant Deterioration (PSD).
+•
+•
+•
+•
+•
+•
+
+5 tpy VOC or NOx netting triggers for NNSR areas
+25 tpy, 50 tpy or 100 tpy NOx for NNSR areas
+40 tpy or 100 tpy NOx anywhere for PSD
+100 tpy CO anywhere for PSD
+15 tpy PM10 anywhere for PSD
+10 tpy PM2.5 anywhere for PSD
+
+1. For projects at existing major sites, specific PBRs for plants or facilities may have no
+emission limits or allow emissions > triggers or thresholds for major sources or
+major modifications under NNSR or PSD. Examples include, but are not limited to
+106.261 allows 10 tpy of NOx or VOC, but > 5 tpy VOC or NOx are the netting triggers
+for NNSR areas.
+If projects at major sites are NOT certified, Reviewers must make the following major
+source or major project applicability analysis:
+a. What federal review may be applicable? (NNSR or PSD)
+b. Without consideration of any decreases in emissions, “total potential emission
+increases” must be less than netting or major source trigger levels. “Total
+emission increases” are based on the PBR rule limits, physical
+capacity/throughput of all facilities, continuous operation of 8760 hrs/yr,
+worst-case materials, and uncontrolled (unless the control is specified in the
+specific PBR). These increases must also include all planned MSS, whether
+registered or not, regardless of industry type.
+c. If PSD: CO ≤ 100 tpy, NOx ≤ 40 tpy, SO2 ≤ 40 tpy , VOC ≤ 40 tpy, PM10 ≤ 25
+tpy, PM2.5 ≤ 10 tpy (see PSD Guidance for additional air contaminant
+significance levels).
+d. If NNSR: NOx ≤ 5 tpy, VOC ≤ 5 tpy
+e. If netting is not required, continue thru this list for other possible reasons to
+certify the project. If netting is required based on the above, the PBR claim may
+be certified to show that netting is not required or netting must be submitted and
+certified.
+2. If a project includes control technology, limited hours, throughput, and materials or
+other operational limitations which are less than the Potential to Emit (PTE), EPA’s
+guidance is clear that these limitations must be federally enforceable. Establishing
+certified limits ensures EPA and Texas that these emissions can be relied upon for
+TCEQ – (APDG 6244v01, Released 07/14) Permits by Rule (PBR) Certification Fact Sheet
+This form is for use by facilities subject to air quality permit requirements and
+may be revised periodically.
+
+Page 1 of 2
+
+federal permitting (PSD, NNSR, and 112g) or federal standards (NSPS, NESHAP,
+MACT) applicability. For additional guidance memos on PTE use the search tool on
+the Search Region 7 Air Pages EPA web page at
+www.epa.gov/region07/programs/artd/air/policy/search.html and search for
+“potential to emit.”
+3. For projects at existing major sites, future-netting exercises for a site must rely on
+“creditable” increases or decreases. To be creditable, emission values must be
+federally enforceable. If not certified, future netting evaluations would have to rely on
+the facility is PTE or Chapter 106 rule limitations, which would often result in
+inaccurate data and could potentially, affect the outcome of the netting evaluations.
+Planned Maintenance Startup and Shutdown (MSS)
+4. If a project is located at a site which has passed the deadlines in 30 TAC 101.222(h),
+project must include planned MSS (even if emissions are zero) for determination of
+compliance with PBR rules (30 TAC 106.4(a)(1) at a minimum). If also at a major
+site, issues are the same as those listed in 1-3 above.
+Toxics
+5. If a project is in an Air Pollutant Watch List or Houston Toxics List area and has
+increases or decreases in any pollutants of concern, the TCEQ is strongly
+recommending the representations be federally enforceable.
+Nonattainment
+6. If a project is located at a site subject to NOx Cap and Trade requirements
+(30 TAC 101), the amount of NOx subject to that program must be federally
+enforceable.
+Compliance Assurance
+7. Certification establishes the basis for future compliance demonstrations and gives
+certainty to permit holders, regional investigators, permitting staff, and the general
+public. This certainly is especially important for Title V compliance certifications and
+deviation reports.
+8. For projects which resolve compliance issues, in many cases Regional offices may
+request that PBRs be certified to ensure awareness of the requirements and
+expectations.
+Other Rules and Requirements
+9. For projects affecting facilities under Flexible Permits, 30 TAC 116.720 requires that
+any PBR claim not exceed the permitted flexible caps. This statement should be
+certified to ensure it is enforceable.
+10. Projects under 30 TAC 106.261 and 106.262 can add waste streams to existing
+permitted control devices. This is acceptable since the PBR requirements only limit
+“no changes to or additions of air pollution abatement equipment” since this scenario
+does not change the existing control. However, to ensure no backsliding of
+permitting effectiveness or destruction efficiency, the applicant should certify that
+the additional stream or scenario would not affect the control’s DRE, thus ensuring
+continuing compliance with permitted representations of the control.
+
+TCEQ – (APDG 6244v01, Released 07/14) Permits by Rule (PBR) Certification Fact Sheet
+This form is for use by facilities subject to air quality permit requirements and
+may be revised periodically.
+
+Page 2 of 2
+
+
