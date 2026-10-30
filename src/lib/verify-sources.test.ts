@@ -16,6 +16,12 @@ const xml = `<DIV8 N="52.21" TYPE="SECTION"><HEAD>§ 52.21 Prevention of signifi
 <P>(ii) For an existing emissions unit (other than an electric utility steam generating unit):</P>
 <P>(<I>d</I>) For a regulated NSR pollutant, when a project involves multiple emissions units, only one consecutive 24-month period must be used.</P>
 <P>(c) <I>Ambient air increments.</I> In areas designated as Class I.</P>
+<P>(e) <I>Restrictions on area classifications.</I> (1) All of the following areas shall be Class I areas:</P>
+<P>(i) International parks,</P>
+<P>(2) <I>Applicability procedures.</I> (i) The requirements apply to construction.</P>
+<EXTRACT><FP-1>Carbon monoxide: 100 tons per year (tpy)
+</FP-1><FP-1>Nitrogen oxides: 40 tpy</FP-1></EXTRACT>
+<P>(ii) Second requirement.</P>
 <P>(h) Eighth paragraph.</P>
 <P>(1) One.</P>
 <P>(2) Two.</P>
@@ -38,6 +44,13 @@ describe("source verifier", () => {
     expect(des("For an existing emissions unit")).toBe("(b)(48)(ii)");
     expect(des("For a regulated NSR pollutant")).toBe("(b)(48)(ii)(d)");
     expect(des("Ambient air")).toBe("(c)");
+    // Headings between markers, and FP-1 rows inside an extract
+    expect(des("Restrictions on area")).toBe("(e)");
+    expect(des("All of the following areas")).toBe("(e)(1)");
+    expect(des("International parks")).toBe("(e)(1)(i)");
+    expect(des("The requirements apply")).toBe("(e)(2)(i)");
+    expect(des("Nitrogen oxides")).toBe("(e)(2)(i)");
+    expect(des("Second requirement")).toBe("(e)(2)(ii)");
     expect(des("The letter i")).toBe("(i)");
     expect(paragraphText(paras, "(b)(48)")).toContain("only one consecutive 24-month period");
   });

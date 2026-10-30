@@ -125,9 +125,10 @@ export function ecfrParagraphs(xml) {
   const out = [];
   let stack = [];
   let prevText = "";
-  for (const m of xml.matchAll(/<(P|FP)\b[^>]*>([\s\S]*?)<\/\1>/g)) {
+  for (const m of xml.matchAll(/<(P|FP[-A-Z0-9]*)(?=[\s>])[^>]*>([\s\S]*?)<\/\1>/g)) {
     let raw = m[2].trim();
     let marker;
+    let inline = false;
     while ((marker = raw.match(/^\(\s*(<(?:I|E)[^>]*>)?\s*([0-9]+|[a-z]{1,4}|[A-Z]{1,3})\s*(?:<\/(?:I|E)>)?\s*\)\s*/))) {
       const italic = !!marker[1];
       const label = marker[2];
@@ -135,14 +136,15 @@ export function ecfrParagraphs(xml) {
       if (/^\d+$/.test(label)) candidates = [italic ? "idigit" : "digit"];
       else if (/^[A-Z]+$/.test(label)) candidates = ["upper"];
       else candidates = ROMAN.includes(label) ? [italic ? "iroman" : "roman", italic ? "ilower" : "lower"] : [italic ? "ilower" : "lower"];
-      const leadIn = /[:—-]\s*$|means\s*$/.test(prevText);
+      // A second marker in the same paragraph, or one after a lead-in ending in a colon or dash, opens a new, deeper list.
+      const leadIn = inline || /[:—-]\s*$|means\s*$/.test(prevText);
       const options = candidates.map((type) => {
         const k = stack.findIndex((s) => s.type === type);
         if (k >= 0 && follows(type, stack[k].label, label)) return { type, k, cont: true };
         if (k < 0 && FIRST[type] === label) return { type, k: stack.length, cont: false };
         return null;
       }).filter(Boolean);
-      // "(i)" can continue a letter list or start a roman one; a lead-in ending in a colon or dash means a new, deeper list.
+      // "(i)" can continue a letter list or start a roman one.
       let pick = options[0];
       if (options.length > 1) pick = options.find((o) => (leadIn ? !o.cont : o.cont)) ?? options[0];
       if (!pick) {
@@ -151,6 +153,14 @@ export function ecfrParagraphs(xml) {
       }
       stack = [...stack.slice(0, pick.k), { type: pick.type, label }];
       raw = raw.slice(marker[0].length);
+      inline = true;
+      // "(e) <I>Heading.</I> (1) Text": the heading belongs to (e), the text to (e)(1).
+      const heading = raw.match(/^<(I|E)\b[^>]*>([^<]*)<\/\1>\s*(?=\(\s*(?:<(?:I|E)[^>]*>)?\s*(?:[0-9]+|[a-z]{1,4}|[A-Z]{1,3})\s*(?:<\/(?:I|E)>)?\s*\)\s)/);
+      if (heading) {
+        out.push({ des: stack.map((s) => `(${s.label})`).join(""), text: decode(heading[2]).trim() });
+        prevText = heading[2];
+        raw = raw.slice(heading[0].length);
+      }
     }
     const text = decode(raw.replace(/<\/?(E|I|B|SU)\b[^>]*>/g, "").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
     out.push({ des: stack.map((s) => `(${s.label})`).join(""), text });
