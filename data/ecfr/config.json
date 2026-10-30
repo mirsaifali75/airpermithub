@@ -1,0 +1,32 @@
+{
+  "title": 40,
+  "subparts": [
+    { "part": 60, "subpart": "A" },
+    { "part": 60, "subpart": "Db" },
+    { "part": 60, "subpart": "Dc" },
+    { "part": 60, "subpart": "Kb" },
+    { "part": 60, "subpart": "Kc" },
+    { "part": 60, "subpart": "GG" },
+    { "part": 60, "subpart": "KKK" },
+    { "part": 60, "subpart": "LLL" },
+    { "part": 60, "subpart": "IIII" },
+    { "part": 60, "subpart": "JJJJ" },
+    { "part": 60, "subpart": "KKKK" },
+    { "part": 60, "subpart": "OOOO" },
+    { "part": 60, "subpart": "OOOOa" },
+    { "part": 60, "subpart": "OOOOb" },
+    { "part": 60, "subpart": "OOOOc" },
+    { "part": 63, "subpart": "A" },
+    { "part": 63, "subpart": "CC" },
+    { "part": 63, "subpart": "HH" },
+    { "part": 63, "subpart": "HHH" },
+    { "part": 63, "subpart": "EEEE" },
+    { "part": 63, "subpart": "YYYY" },
+    { "part": 63, "subpart": "ZZZZ" },
+    { "part": 63, "subpart": "DDDDD" },
+    { "part": 63, "subpart": "JJJJJJ" },
+    { "part": 98, "subpart": "A" },
+    { "part": 98, "subpart": "C" },
+    { "part": 98, "subpart": "W" }
+  ]
+}
