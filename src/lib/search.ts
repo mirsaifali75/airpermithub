@@ -7,6 +7,8 @@ import { guides } from "./data/guides";
 import { aphTemplates } from "./data/templates";
 import { glossary } from "./data/glossary";
 import { allToolPages } from "./tools/catalog";
+import { ruleCitation, ruleHref, ruleName } from "./rules";
+import type { RuleSummary } from "./data/ecfr";
 
 /**
  * Site search index. Phase 1 searches a static in-memory index of site
@@ -34,7 +36,7 @@ const tools: SearchDoc[] = [
 ];
 
 /** Builds the index. Call on the server; pass the result to client search UI. */
-export function buildSearchIndex(profiles: StateAirPermitProfile[]): SearchDoc[] {
+export function buildSearchIndex(profiles: StateAirPermitProfile[], rules: RuleSummary[] = []): SearchDoc[] {
   const bySlug = new Map(profiles.map((p) => [p.slug, p]));
   return [
   ...tools,
@@ -46,6 +48,14 @@ export function buildSearchIndex(profiles: StateAirPermitProfile[]): SearchDoc[]
     kind: "Resource" as const,
     snippet: g.definition,
     keywords: `glossary definition meaning ${g.abbr ?? ""} ${g.cites.map((c) => c.label).join(" ")}`,
+  })),
+  { title: "Federal Rule Library", href: "/regulations/library", kind: "Regulation" as const, snippet: "NSPS, NESHAP, and GHG reporting subparts with eCFR text, section lists, and amendment dates.", keywords: "subpart library ecfr cfr rule text nsps neshap mact ghgrp" },
+  ...rules.map((r) => ({
+    title: `${ruleName(r)}${r.aka.length ? ` (${r.aka[0]})` : ""}`,
+    href: ruleHref(r),
+    kind: "Regulation" as const,
+    snippet: `${ruleCitation(r)}. ${r.shortHeading}.`,
+    keywords: [`subpart ${r.subpart}`, r.subpart, `40 cfr ${r.part}`, r.heading, ...r.aka].join(" "),
   })),
   ...federalRegulations.map((r) => ({
     title: `${r.shortName} — ${r.name}`,

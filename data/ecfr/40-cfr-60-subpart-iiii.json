@@ -1,0 +1,249 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "IIII",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-IIII",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2024-08-30",
+  "hash": "f8362d3800d1b89fdbbebc3b5d616c46355f2a52361c0199b6fc7c6787eb1d0b",
+  "heading": "Standards of Performance for Stationary Compression Ignition Internal Combustion Engines",
+  "fullHeading": "Subpart IIII—Standards of Performance for Stationary Compression Ignition Internal Combustion Engines",
+  "source": "71 FR 39172, July 11, 2006, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.4200",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4201",
+      "heading": "What emission standards must I meet for non-emergency engines if I am a stationary CI internal combustion engine manufacturer?",
+      "group": "Emission Standards for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4202",
+      "heading": "What emission standards must I meet for emergency engines if I am a stationary CI internal combustion engine manufacturer?",
+      "group": "Emission Standards for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2023-03-27"
+    },
+    {
+      "id": "60.4203",
+      "heading": "How long must my engines meet the emission standards if I am a manufacturer of stationary CI internal combustion engines?",
+      "group": "Emission Standards for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4204",
+      "heading": "What emission standards must I meet for non-emergency engines if I am an owner or operator of a stationary CI internal combustion engine?",
+      "group": "Emission Standards for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4205",
+      "heading": "What emission standards must I meet for emergency engines if I am an owner or operator of a stationary CI internal combustion engine?",
+      "group": "Emission Standards for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4206",
+      "heading": "How long must I meet the emission standards if I am an owner or operator of a stationary CI internal combustion engine?",
+      "group": "Emission Standards for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4207",
+      "heading": "What fuel requirements must I meet if I am an owner or operator of a stationary CI internal combustion engine subject to this subpart?",
+      "group": "Fuel Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2021-01-01"
+    },
+    {
+      "id": "60.4208",
+      "heading": "What is the deadline for importing or installing stationary CI ICE produced in previous model years?",
+      "group": "Other Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4209",
+      "heading": "What are the monitoring requirements if I am an owner or operator of a stationary CI internal combustion engine?",
+      "group": "Other Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4210",
+      "heading": "What are my compliance requirements if I am a stationary CI internal combustion engine manufacturer?",
+      "group": "Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4211",
+      "heading": "What are my compliance requirements if I am an owner or operator of a stationary CI internal combustion engine?",
+      "group": "Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": "60.4212",
+      "heading": "What test methods and other procedures must I use if I am an owner or operator of a stationary CI internal combustion engine with a displacement of less than 30 liters per cylinder?",
+      "group": "Testing Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4213",
+      "heading": "What test methods and other procedures must I use if I am an owner or operator of a stationary CI internal combustion engine with a displacement of greater than or equal to 30 liters per cylinder?",
+      "group": "Testing Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4214",
+      "heading": "What are my notification, reporting, and recordkeeping requirements if I am an owner or operator of a stationary CI internal combustion engine?",
+      "group": "Notification, Reports, and Records for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "60.4215",
+      "heading": "What requirements must I meet for engines used in Guam, American Samoa, or the Commonwealth of the Northern Mariana Islands?",
+      "group": "Special Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4216",
+      "heading": "What requirements must I meet for engines used in Alaska?",
+      "group": "Special Requirements",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4217",
+      "heading": "What emission standards must I meet if I am an owner or operator of a stationary internal combustion engine using special fuels?",
+      "group": "Special Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4218",
+      "heading": "What General Provisions and confidential information provisions apply to me?",
+      "group": "General Provisions",
+      "kind": "section",
+      "lastAmended": "2023-03-27"
+    },
+    {
+      "id": "60.4219",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Definitions",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart IIII of Part 60—Emission Standards for Stationary Pre-2007 Model Year Engines With a Displacement of <10 Liters per Cylinder and 2007-2010 Model Year Engines >2,237 KW (3,000 HP) and With a Displacement of <10 Liters per Cylinder",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart IIII of Part 60—Emission Standards for 2008 Model Year and Later Emergency Stationary CI ICE <37 KW (50 HP) With a Displacement of <10 Liters per Cylinder",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart IIII of Part 60—Certification Requirements for Stationary Fire Pump Engines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart IIII of Part 60—Emission Standards for Stationary Fire Pump Engines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart IIII of Part 60—Labeling and Recordkeeping Requirements for New Stationary Emergency Engines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart IIII of Part 60—Optional 3-Mode Test Cycle for Stationary Fire Pump Engines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart IIII of Part 60—Requirements for Performance Tests for Stationary CI ICE With a Displacement of ≥30 Liters per Cylinder",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 8 to Subpart IIII of Part 60—Applicability of General Provisions to Subpart IIII",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.4200",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "(a) The provisions of this subpart are applicable to manufacturers, owners, and operators of stationary compression ignition (CI) internal combustion engines (ICE) and other persons as specified in paragraphs (a)(1) through (4) of this section. For the purposes of this subpart, the date that construction commences is the date the engine is ordered by the owner or operator.",
+        "(1) Manufacturers of stationary CI ICE with a displacement of less than 30 liters per cylinder where the model year is:",
+        "(i) 2007 or later, for engines that are not fire pump engines;",
+        "(ii) The model year listed in Table 3 to this subpart or later model year, for fire pump engines.",
+        "(2) Owners and operators of stationary CI ICE that commence construction after July 11, 2005, where the stationary CI ICE are:",
+        "(i) Manufactured after April 1, 2006, and are not fire pump engines, or",
+        "(ii) Manufactured as a certified National Fire Protection Association (NFPA) fire pump engine after July 1, 2006.",
+        "(3) Owners and operators of any stationary CI ICE that are modified or reconstructed after July 11, 2005 and any person that modifies or reconstructs any stationary CI ICE after July 11, 2005.",
+        "(4) The provisions of § 60.4208 of this subpart are applicable to all owners and operators of stationary CI ICE that commence construction after July 11, 2005.",
+        "(b) The provisions of this subpart are not applicable to stationary CI ICE being tested at a stationary CI ICE test cell/stand.",
+        "(c) If you are an owner or operator of an area source subject to this subpart, you are exempt from the obligation to obtain a permit under 40 CFR part 70 or 40 CFR part 71, provided you are not required to obtain a permit under 40 CFR 70.3(a) or 40 CFR 71.3(a) for a reason other than your status as an area source under this subpart. Notwithstanding the previous sentence, you must continue to comply with the provisions of this subpart applicable to area sources.",
+        "(d) Stationary CI ICE may be eligible for exemption from the requirements of this subpart as described in 40 CFR part 1068, subpart C, except that owners and operators, as well as manufacturers, may be eligible to request an exemption for national security.",
+        "(e) Owners and operators of facilities with CI ICE that are acting as temporary replacement units and that are located at a stationary source for less than 1 year and that have been properly certified as meeting the standards that would be applicable to such engine under the appropriate nonroad engine provisions, are not required to meet any other provisions under this subpart with regard to such engines."
+      ],
+      "cita": "[71 FR 39172, July 11, 2006, as amended at 76 FR 37967, June 28, 2011; 86 FR 34357, June 29, 2021]"
+    }
+  ],
+  "amendmentDates": [
+    "2024-08-30",
+    "2023-03-27",
+    "2023-01-24",
+    "2022-08-10",
+    "2021-07-29",
+    "2021-06-29",
+    "2021-01-01",
+    "2020-12-04",
+    "2019-11-13",
+    "2019-09-20",
+    "2019-09-06",
+    "2019-07-26",
+    "2019-07-05",
+    "2016-12-23"
+  ]
+}

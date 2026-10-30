@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Landmark } from "lucide-react";
+import { ArrowRight, Landmark, ScrollText } from "lucide-react";
+import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { RegulationCard } from "@/components/regulations/RegulationCard";
 import { Disclaimer, VerifyNotice } from "@/components/ui/Notices";
@@ -26,6 +27,16 @@ export default function FederalPage() {
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {federalRegulations.map((r) => <li key={r.slug}><RegulationCard reg={r} /></li>)}
         </ul>
+        <Link href="/regulations/library" className="group flex flex-col gap-3 rounded-2xl bg-navy-900 p-6 text-white sm:flex-row sm:items-center sm:justify-between">
+          <span className="flex items-start gap-3">
+            <ScrollText className="mt-0.5 h-6 w-6 shrink-0 text-cyan-400" aria-hidden="true" />
+            <span>
+              <span className="block font-bold">Federal Rule Library</span>
+              <span className="block text-sm text-white/80">NSPS, NESHAP, and GHG reporting subparts: who each covers in eCFR&apos;s words, every section, and amendment dates.</span>
+            </span>
+          </span>
+          <span className="inline-flex shrink-0 items-center gap-1.5 text-sm font-semibold text-cyan-300 group-hover:text-white">Browse subparts <ArrowRight className="h-4 w-4" aria-hidden="true" /></span>
+        </Link>
         <Disclaimer />
       </div>
     </>

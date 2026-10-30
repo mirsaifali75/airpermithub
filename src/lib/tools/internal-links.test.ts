@@ -4,6 +4,8 @@ import { describe, expect, it } from "vitest";
 import { glossary } from "../data/glossary";
 import { guides } from "../data/guides";
 import { federalRegulations } from "../data/regulations";
+import { listRules } from "../data/ecfr";
+import { ruleHref } from "../rules";
 import { allToolPages, coreTools } from "./catalog";
 import { converters } from "./converters";
 
@@ -29,6 +31,7 @@ const known = new Set([
   ...guides.map((g) => `/resources/${g.slug}`),
   ...converters.map((c) => `/tools/${c.slug}`),
   ...federalRegulations.map((r) => `/regulations/${r.slug}`),
+  ...listRules().map(ruleHref),
   "/states/texas",
 ]);
 const terms = new Set(glossary.map((g) => g.slug));

@@ -1,0 +1,497 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "OOOOc",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-OOOOc",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2026-06-08",
+  "hash": "116f785fc49aea3189923bf675561531c50fbb16b89dce88bd1f152873905807",
+  "heading": "Emissions Guidelines for Greenhouse Gas Emissions From Existing Crude Oil and Natural Gas Facilities",
+  "fullHeading": "Subpart OOOOc—Emissions Guidelines for Greenhouse Gas Emissions From Existing Crude Oil and Natural Gas Facilities",
+  "source": "89 FR 17140, Mar. 8, 2024, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.5360c",
+      "heading": "What is the purpose of this subpart?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5361c",
+      "heading": "Which pollutants are regulated by this subpart?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5362c",
+      "heading": "Am I affected by this subpart?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2025-07-31"
+    },
+    {
+      "id": "60.5363c",
+      "heading": "What must I include in my state or Tribal plan?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5364c",
+      "heading": "How do I apply to use my state standards as part of my state or Tribal plan submission?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5365c",
+      "heading": "How do I apply for a less stringent standard taking into consideration the remaining useful life of a designated facility and other factors?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5366c",
+      "heading": "[Reserved]",
+      "group": "Introduction",
+      "kind": "reserved",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5367c",
+      "heading": "Is there an approval process for my state or Tribal plan?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5368c",
+      "heading": "What if my state or Tribal plan is not approvable?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2025-07-31"
+    },
+    {
+      "id": "60.5369c",
+      "heading": "Is there an approval process for a negative declaration letter?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5370c",
+      "heading": "What compliance schedule must I include in my state or Tribal plan?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5371c",
+      "heading": "What requirements apply to revisions to my state or Tribal plan?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5372c",
+      "heading": "In lieu of a state or Tribal plan submittal, are there other acceptable option(s) for a state to meet its Clean Air Act section 111(d) obligations?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5373c",
+      "heading": "What authorities will not be delegated to state, local, or Tribal agencies?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5374c",
+      "heading": "Does this subpart directly affect designated facility owners and operators in my state?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2025-07-31"
+    },
+    {
+      "id": "60.5375c",
+      "heading": "What designated facilities must I address in my state or Tribal plan?",
+      "group": "Applicability of State or Tribal Plans",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5376c",
+      "heading": "What is the “model rule” in this subpart?",
+      "group": "Use of Model Rule",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5377c",
+      "heading": "How does the model rule relate to the required elements of my state or Tribal plan?",
+      "group": "Use of Model Rule",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5378c",
+      "heading": "What are the principal components of the model rule?",
+      "group": "Use of Model Rule",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5379c",
+      "heading": "What are my requirements for meeting increments of progress and achieving final compliance?",
+      "group": "Model Rule—Increments of Progress",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5380c",
+      "heading": "What if I do not meet the final control plan increment of progress compliance date?",
+      "group": "Model Rule—Increments of Progress",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5381c",
+      "heading": "How do I comply with the increment of progress for submittal of a final compliance control plan?",
+      "group": "Model Rule—Increments of Progress",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5385c",
+      "heading": "What is the purpose of this subpart?",
+      "group": "Model Rule—Applicability",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5386c",
+      "heading": "Am I subject to this subpart?",
+      "group": "Model Rule—Applicability",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5387c",
+      "heading": "When must I comply with this subpart?",
+      "group": "Model Rule—Applicability",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5388c",
+      "heading": "What standards apply to super-emitter events?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5390c",
+      "heading": "What GHG standards apply to gas well liquids unloading operations at well designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5391c",
+      "heading": "What GHG standards apply to associated gas wells at well designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2026-06-08"
+    },
+    {
+      "id": "60.5392c",
+      "heading": "What GHG standards apply to centrifugal compressor designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5393c",
+      "heading": "What GHG standards apply to reciprocating compressor designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5394c",
+      "heading": "What GHG standards apply to process controller designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5395c",
+      "heading": "What GHG standards apply to pump designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5396c",
+      "heading": "What GHG standards apply to storage vessel designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5397c",
+      "heading": "What GHG standards apply to fugitive emissions components designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5398c",
+      "heading": "What alternative GHG standards apply to fugitive emissions components designated facilities and what inspection and monitoring requirements apply to covers and closed vent systems when using an alternative technology?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5400c",
+      "heading": "What GHG standards apply to process unit equipment designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5401c",
+      "heading": "What are the alternative GHG standards for process unit equipment designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5402c",
+      "heading": "What are the exceptions to the GHG standards for process unit equipment designated facilities?",
+      "group": "Model Rule—Emission and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5405c",
+      "heading": "What test methods and procedures must I use for my centrifugal compressor and reciprocating compressor designated facilities?",
+      "group": "Model Rule—Test Methods and Performance Testing",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5406c",
+      "heading": "What test methods and procedures must I use for my process unit equipment designated facilities?",
+      "group": "Model Rule—Test Methods and Performance Testing",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5410c",
+      "heading": "How do I demonstrate initial compliance with the standards for each of my designated facilities?",
+      "group": "Model Rule—Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5411c",
+      "heading": "What additional requirements must I meet to determine initial compliance for my covers and closed vent systems?",
+      "group": "Model Rule—Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5412c",
+      "heading": "What additional requirements must I meet for determining initial compliance of my control devices?",
+      "group": "Model Rule—Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-06-08"
+    },
+    {
+      "id": "60.5413c",
+      "heading": "What are the performance testing procedures for control devices?",
+      "group": "Model Rule—Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5415c",
+      "heading": "How do I demonstrate continuous compliance with the standards for each of my designated facilities?",
+      "group": "Model Rule—Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-06-08"
+    },
+    {
+      "id": "60.5416c",
+      "heading": "What are the initial and continuous cover and closed vent system inspection and monitoring requirements?",
+      "group": "Model Rule—Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5417c",
+      "heading": "What are the continuous monitoring requirements for my control devices?",
+      "group": "Model Rule—Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-06-08"
+    },
+    {
+      "id": "60.5420c",
+      "heading": "What are my notification, reporting, and recordkeeping requirements?",
+      "group": "Model Rule—Recordkeeping and Reporting",
+      "kind": "section",
+      "lastAmended": "2026-06-08"
+    },
+    {
+      "id": "60.5421c",
+      "heading": "What are my additional recordkeeping requirements for process unit equipment designated facilities?",
+      "group": "Model Rule—Recordkeeping and Reporting",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5422c",
+      "heading": "What are my additional reporting requirements for process unit equipment designated facilities?",
+      "group": "Model Rule—Recordkeeping and Reporting",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5424c",
+      "heading": "What are my additional recordkeeping and reporting requirements if I comply with the alternative GHG standards for fugitive emissions components designated facilities and covers and closed vent systems?",
+      "group": "Model Rule—Recordkeeping and Reporting",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5425c",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Model Rule—Recordkeeping and Reporting",
+      "kind": "section",
+      "lastAmended": "2024-05-07"
+    },
+    {
+      "id": "60.5430c",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Model Rule—Definitions",
+      "kind": "section",
+      "lastAmended": "2024-08-01"
+    },
+    {
+      "id": "60.5431c",
+      "heading": "[Reserved]",
+      "group": "Model Rule—Definitions",
+      "kind": "reserved",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart OOOOc of Part 60—Designated Facility Presumptive Standards and Regulated Entity Compliance Dates",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart OOOOc of Part 60—Alternative Technology Periodic Screening Frequency at Well Sites, Centralized Production Facilities, and Compressor Stations Subject to AVO Inspections With Quarterly OGI or EPA Method 21 Monitoring",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart OOOOc of Part 60—Alternative Technology Periodic Screening Frequency at Well Sites and Centralized Production Facilities Subject to AVO Inspections and/or Semiannual OGI or EPA Method 21 Monitoring",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart OOOOc of Part 60—Applicability of General Provisions to Subpart OOOOc",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.5360c",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "This subpart establishes emission guidelines and compliance schedules for the control of greenhouse gas (GHG) emissions from designated facilities in the crude oil and natural gas source category as defined in the Model Rule at § 60.5430c, in accordance with section 111(d) of the Clean Air Act and subpart Ba of this part. The designated facilities, standards section reference and compliance dates are listed in table 1 to this subpart. To the extent any requirement of this subpart is inconsistent with the requirements of subpart A or Ba of this part, the requirements of this subpart will apply."
+      ],
+      "cita": null
+    },
+    {
+      "id": "60.5362c",
+      "heading": "Am I affected by this subpart?",
+      "paragraphs": [
+        "(a) If you are the Administrator of an air pollution control agency in a state or United States protectorate with one or more designated facilities that commenced construction, modification, or reconstruction on or before December 6, 2022, you must submit a state or Tribal plan to the U.S. Environmental Protection Agency (EPA) that implements the emission guidelines contained in this subpart. The submission of such plan shall be made in electronic format according to subpart Ba of this part.",
+        "(b) If you are the Administrator of an air pollution control agency in a state or United States protectorate with no designated facilities for which construction commenced on or before December 6, 2022, you must submit a negative declaration letter in place of the state or Tribal plan. The submission of such negative declaration letter shall be made in electronic format according to subpart Ba of this part.",
+        "(c) You must submit the state or Tribal plan or negative declaration letter to EPA by January 22, 2027."
+      ],
+      "cita": "[89 FR 17140, Mar. 8, 2024, as amended at 90 FR 35984, July 31, 2025]"
+    },
+    {
+      "id": "60.5385c",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "(a) Scope. This subpart establishes emission standards and compliance schedules for the control of the pollutant greenhouse gases (GHG). The greenhouse gas standard in this subpart is in the form of a limitation on emissions of methane from designated facilities in the crude oil and natural gas source category that commence construction, modification, or reconstruction on or before December 6, 2022.",
+        "(b) Prevention of Significant Deterioration (PSD) and title V thresholds for Greenhouse Gases. (1) For the purposes of 40 CFR 51.166(b)(49)(ii), with respect to GHG emissions from designated facilities, the “pollutant that is subject to the standard promulgated under section 111 of the Act” shall be considered the pollutant that otherwise is subject to regulation under the Act as defined in 40 CFR 51.166(b)(48) and in any State Implementation Plan (SIP) approved by the EPA that is interpreted to incorporate, or specifically incorporates, 40 CFR 51.166(b)(48).",
+        "(2) For the purposes of 40 CFR 52.21(b)(50)(ii), with respect to GHG emissions from designated facilities, the “pollutant that is subject to the standard promulgated under section 111 of the Act” shall be considered the pollutant that otherwise is subject to regulation under the Clean Air Act as defined in 40 CFR 52.21(b)(49).",
+        "(3) For the purposes of 40 CFR 70.2, with respect to GHG emissions from designated facilities, the “pollutant that is subject to any standard promulgated under section 111 of the Act” shall be considered the pollutant that otherwise is “subject to regulation” as defined in 40 CFR 70.2.",
+        "(4) For the purposes of 40 CFR 71.2, with respect to GHG emissions from designated facilities, the “pollutant that is subject to any standard promulgated under section 111 of the Act” shall be considered the pollutant that otherwise is “subject to regulation” as defined in 40 CFR 71.2.",
+        "(c) Exemption. You are exempt from the obligation to obtain a permit under 40 CFR part 70 or 40 CFR part 71, provided you are not otherwise required by law to obtain a permit under 40 CFR 70.3(a) or 40 CFR 71.3(a). Notwithstanding the previous sentence, you must continue to comply with the provisions of this subpart."
+      ],
+      "cita": null
+    },
+    {
+      "id": "60.5386c",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "You are subject to the applicable provisions of this subpart if you are the owner or operator of one or more of the onshore designated facilities listed in paragraphs (a) through (h) of this section, that is located within the Crude Oil and Natural Gas source category, as defined in § 60.5430c, for which you commence construction, modification, or reconstruction on or before December 6, 2022. Facilities located inside and including the Local Distribution Company (LDC) custody transfer station are not subject to this subpart.",
+        "(a) Each well designated facility, which is a single well drilled for the purpose of producing oil or natural gas.",
+        "(b) Each centrifugal compressor designated facility, which is a single centrifugal compressor. A centrifugal compressor located at a well site is not a designated facility under this subpart. A centrifugal compressor located at a centralized production facility is a designated facility under this subpart.",
+        "(c) Each reciprocating compressor designated facility, which is a single reciprocating compressor. A reciprocating compressor located at a well site is not a designated facility under this subpart. A reciprocating compressor located at a centralized production facility is a designated facility under this subpart.",
+        "(d) Each process controller designated facility, which is the collection of natural gas-driven process controllers at a well site, centralized production facility, onshore natural gas processing plant, or a compressor station. Natural gas-driven process controllers that function as emergency shutdown devices and process controllers that are not driven by natural gas are exempt from the designated facility.",
+        "(e)(1) Each storage vessel designated facility, which is a tank battery that has the potential for methane emissions equal to or greater than 20 tpy as specified in paragraph (e)(2) of this section. A tank battery with the potential for methane emissions below 20 tpy is not a storage vessel designated facility provided the owner or operator keeps records of the potential for emissions calculation for the life of the storage vessel or until such time the tank battery becomes a storage vessel designated facility because the potential for methane emissions meets or exceeds 20 tpy.",
+        "(2) The potential for methane emissions must be calculated as the cumulative emissions from all storage vessels within the tank battery as specified by the applicable requirements in paragraphs (e)(2)(i) through (iii) of this section. The determination may take into account requirements under a legally and practicably enforceable limit in an operating permit or other requirement established under a Federal, state, local, or Tribal authority.",
+        "(i) For purposes of determining the applicability of a storage vessel tank battery as a designated facility, a legally and practicably enforceable limit must include the elements provided in paragraphs (e)(2)(i)(A) through (F) of this section.",
+        "(A) A quantitative production limit and quantitative operational limit(s) for the equipment, or quantitative operational limits for the equipment;",
+        "(B) An averaging time period for the production limit in (e)(2)(i)(A), if a production-based limit is used, that is equal to or less than 30 days;",
+        "(C) Established parametric limits for the production and/or operational limit(s) in paragraph (e)(2)(i)(A), and where a control device is used to achieve an operational limit, an initial compliance demonstration (i.e., performance test) for the control device that establishes the parametric limits;",
+        "(D) Ongoing monitoring of the parametric limits in (e)(2)(i)(C) that demonstrates continuous compliance with the production and/or operational limit(s) in (e)(2)(i)(A);",
+        "(E) Recordkeeping by the owner or operator that demonstrates continuous compliance with the limit(s) in (e)(2)(i)(A) through (D); and",
+        "(F) Periodic reporting that demonstrates continuous compliance.",
+        "(ii) For each tank battery located at a well site or centralized production facility, you must determine the potential for methane emissions within 60 days after the effective date of the approved state or Tribal plan, except as provided in paragraph (e)(4)(iv) of this section. The potential for methane emissions must be calculated using a generally accepted model or calculation methodology that accounts for flashing, working, and breathing losses, based on the maximum average daily throughput to the tank battery determined for a 30-day period of production.",
+        "(iii) For each tank battery not located at a well site or centralized production facility, including each tank battery located at a compressor station or onshore natural gas processing plant, you must determine the potential for methane emissions within 60 days after the effective date of the approved state or Tribal plan, using either method described in paragraph (e)(2)(iii)(A) or (B) of this section.",
+        "(A) Determine the potential for methane emissions using a generally accepted model or calculation methodology that accounts for flashing, working, and breathing losses, and based on the throughput to the tank battery established in a legally and practicably enforceable limit in an operating permit or other requirement established under a Federal, state, local, or Tribal authority; or",
+        "(B) Determine the potential for methane emissions using a generally accepted model or calculation methodology that accounts for flashing, working and breathing losses, based on projected maximum average daily throughput. Maximum average daily throughput is determined using a generally accepted engineering model (e.g., volumetric condensate rates from the tank battery based on the maximum gas throughput capacity of each producing facility) to project the maximum average daily throughput for the tank battery.",
+        "(3) A storage vessel designated facility that subsequently has its potential for methane emissions decrease to less than 20 tpy shall remain a designated facility under this subpart.",
+        "(4) For storage vessels not subject to a legally and practicably enforceable limit in an operating permit or other requirement established under Federal, state, local, or Tribal authority, any vapor from the storage vessel that is recovered and routed to a process through a vapor recovery unit designed and operated as specified in this section is not required to be included in the determination of potential for methane emissions for purposes of determining designated facility status, provided you comply with the requirements of paragraphs (e)(4)(i) through (iv) of this section.",
+        "(i) You meet the cover requirements specified in § 60.5411c(b).",
+        "(ii) You meet the closed vent system requirements specified in § 60.5411c(a)(2) through (4) and (c).",
+        "(iii) You must maintain records that document compliance with paragraphs (e)(4)(i) and (ii) of this section.",
+        "(iv) In the event of removal of apparatus that recovers and routes vapor to a process, or operation that is inconsistent with the conditions specified in paragraphs (e)(4)(i) and (ii) of this section, you must determine the storage vessel's potential for methane emissions according to this section within 30 days of such removal or operation.",
+        "(5) The requirements of this paragraph (e)(5) apply to each storage vessel designated facility immediately upon return to service. A storage vessel designated facility or portion of a storage vessel designated facility that is reconnected to the original source of liquids remains a storage vessel designated facility subject to the same requirements that applied before being removed from service. Any storage vessel that is used to replace a storage vessel designated facility or portion of a storage vessel designated facility, or used to expand a storage vessel designated facility assumes the designated facility status of the storage vessel designated facility being replaced or expanded.",
+        "(6) A storage vessel with a capacity greater than 100,000 gallons used to recycle water that has been passed through two stage separation is not a storage vessel designated facility.",
+        "(f) Each process unit equipment designated facility, which is the group of all equipment within a process unit at an onshore natural gas processing plant is a designated facility. Equipment associated with a compressor station, dehydration unit, sweetening unit, underground storage vessel, field gas gathering system, or liquefied natural gas unit is covered by §§ 60.5400c, 60.5401c, 60.5402c, 60.5421c, and 60.5422c if it is located at an onshore natural gas processing plant. Equipment not located at the onshore natural gas processing plant site is exempt from the provisions of §§ 60.5400c, 60.5401c, 60.5402c, 60.5421c, and 60.5422c.",
+        "(g) Each pump designated facility, which is the collection of natural gas-driven diaphragm and piston pumps at a well site, centralized production facility, onshore natural gas processing plant, or a compressor station. Pumps that are not driven by natural gas and that are not in operation 90 days or more per calendar year are not included in the pump designated facility.",
+        "(h) Each fugitive emissions components designated facility, which is the collection of fugitive emissions components at a well site, centralized production facility, or a compressor station."
+      ],
+      "cita": "[89 FR 17043, Mar. 8, 2024, as amended at 89 FR 62918, Aug. 1, 2024]"
+    }
+  ],
+  "amendmentDates": [
+    "2026-06-08",
+    "2026-04-09",
+    "2025-07-31",
+    "2024-08-01",
+    "2024-05-07"
+  ]
+}

@@ -8,8 +8,10 @@ import { buttonClass } from "@/components/ui/Button";
 import { Tabs } from "@/components/ui/Tabs";
 import { Disclaimer, VerifyNotice } from "@/components/ui/Notices";
 import { getMethod } from "@/lib/calc/methods";
+import { listRules } from "@/lib/data/ecfr";
 import { federalRegulations, getRegulation } from "@/lib/data/regulations";
 import type { RegulationSection } from "@/lib/data/types";
+import { metaForCode, programForPart, ruleCitation, ruleHref } from "@/lib/rules";
 import { site } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -67,6 +69,10 @@ export default async function RegulationPage({ params }: { params: Promise<{ slu
   const related = reg.relatedRules.map(getRegulation).filter((r) => !!r);
   const calcs = reg.relatedCalculators.map(getMethod).filter((m) => !!m);
   const lastReviewed = reg.sources.map((s) => s.lastReviewed).filter(Boolean).sort().at(-1) ?? null;
+  const library = listRules().filter((r) => programForPart[r.part] === reg.slug);
+  const defaultPart = library[0]?.part ?? 60;
+  const otherSubparts = (reg.keySubparts ?? []).filter((sp) => !library.some((r) => r.meta === metaForCode(defaultPart, sp.code)));
+  const subpartCount = library.length + otherSubparts.length;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -125,21 +131,33 @@ export default async function RegulationPage({ params }: { params: Promise<{ slu
                   ),
                 },
                 ...sectionOrder.map(([key, label]) => ({ label, content: <SectionBody section={reg[key]} /> })),
-                ...(reg.keySubparts
+                ...(subpartCount > 0
                   ? [{
                       label: "Key Subparts",
-                      count: reg.keySubparts.length,
+                      count: subpartCount,
                       content: (
                         <>
-                          <p className="text-sm text-muted">Subparts commonly reviewed for industrial and oil and gas facilities. Not a complete list.</p>
+                          <p className="text-sm text-muted">
+                            Subparts commonly reviewed for industrial and oil and gas facilities. Not a complete list.
+                            {library.length > 0 && <> Linked subparts open a page with eCFR text on who the subpart covers and every section.</>}
+                          </p>
                           <ul className="mt-4 divide-y divide-line rounded-xl border border-line">
-                            {reg.keySubparts.map((sp) => (
+                            {library.map((r) => (
+                              <li key={ruleHref(r)} className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:gap-4">
+                                <span className="w-44 shrink-0"><CitationBadge>{ruleCitation(r).replace("40 CFR ", "").replace(", ", " ")}</CitationBadge></span>
+                                <Link href={ruleHref(r)} className="text-sm font-medium text-brand-700 hover:underline">
+                                  {r.shortHeading}{r.meta.aka?.length ? <span className="text-muted"> ({r.meta.aka[0]})</span> : null}
+                                </Link>
+                              </li>
+                            ))}
+                            {otherSubparts.map((sp) => (
                               <li key={sp.code} className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:gap-4">
                                 <span className="w-44 shrink-0"><CitationBadge>{sp.code}</CitationBadge></span>
                                 <span className="text-sm text-slate-700">{sp.title}</span>
                               </li>
                             ))}
                           </ul>
+                          {library.length > 0 && <p className="mt-3 text-sm"><Link href="/regulations/library" className="font-semibold text-brand-700 hover:underline">Browse the full rule library</Link></p>}
                         </>
                       ),
                     }]

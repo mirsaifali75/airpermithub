@@ -3,6 +3,8 @@ import { calculatorMethods } from "@/lib/calc/methods";
 import { guides } from "@/lib/data/guides";
 import { industries } from "@/lib/data/industries";
 import { federalRegulations } from "@/lib/data/regulations";
+import { listRules } from "@/lib/data/ecfr";
+import { ruleHref } from "@/lib/rules";
 import { listStateProfiles } from "@/lib/data/state-profiles";
 import { site } from "@/lib/site";
 import { allToolPages } from "@/lib/tools/catalog";
@@ -14,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...allToolPages.map((t) => t.href),
     ...calculatorMethods.map((m) => `/calculators/${m.slug}`),
     ...federalRegulations.map((r) => `/regulations/${r.slug}`),
+    "/regulations/library",
+    ...listRules().map(ruleHref),
     ...listStateProfiles().map((s) => `/states/${s.slug}`),
     ...industries.map((i) => `/industries/${i.slug}`),
     ...guides.map((g) => `/resources/${g.slug}`),
