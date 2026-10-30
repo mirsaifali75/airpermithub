@@ -1,0 +1,2787 @@
+West Virginia Department of Environmental Protection
+Harold D. Ward,
+Cabinet Secretary
+
+Class II General Permit
+G70-E
+
+for the
+Prevention and Control of Air Pollution in regard to the
+Construction, Modification, Relocation, Administrative Update and
+Operation of Natural Gas Production Facilities Located at the Well Site
+This permit is issued in accordance with the West Virginia Air Pollution Control Act
+(West Virginia Code §§ 22-5-1 et seq.) and 45CSR13 — Permits for Construction, Modification, Relocation
+and Operation of Stationary Sources of Air Pollutants,
+Notification Requirements, Temporary Permits, General Permits and Procedures for Evaluation.
+
+Laura M. Crowder
+
+_________________________________________
+
+Laura M. Crowder
+Director, Division of Air Quality
+Laura M. Crowder
+
+Digitally signed by: Laura M. Crowder
+DN: CN = Laura M. Crowder email = Laura.M.
+Crowder@wv.gov C = US O = WV DEP OU = DAQ
+Date: 2024.09.06 12:27:07 -04'00'
+
+Issued: September 6, 2024
+
+G70-E
+Natural Gas Production Facility
+
+2 of 39
+
+Class II General Permit G70-E supersedes and replaces General Permit G70-D issued on September 30, 2016.
+Any person whose interest may be affected, including, but not necessarily limited to, the applicant and any person
+who participated in the public comment process, by a permit issued, modified or denied by the Secretary may appeal
+such action of the Secretary to the Air Quality Board pursuant to article one [§§22B-1-1 et seq.], Chapter 22B of
+the Code of West Virginia. West Virginia Code §§22-5-14.
+——————————————————————
+The source is not subject to 45CSR30.
+——————————————————————
+
+General Permit G70-E authorizes the construction, modification, administrative update and/or operation of natural
+gas production facilities. The applicability of General Permit G70-E may include any of the following: gas wells
+and associated equipment, natural gas-fired spark ignition internal combustion engines, diesel-fired compression
+ignition internal combustion engines, storage vessels/tanks, glycol dehydration units and associated equipment,
+equipment leaks, truck and rail car loading operations, pneumatic pumps and pneumatic controllers.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+3 of 39
+
+Table of Contents
+1.0.
+
+Emission Units .............................................................................................................. 5
+
+2.0.
+
+General Conditions....................................................................................................... 6
+
+1.1.
+2.1.
+2.2.
+2.3.
+2.4.
+2.5.
+2.6.
+2.7.
+2.8.
+2.9.
+2.10.
+2.11.
+2.12.
+2.13.
+2.14.
+2.15.
+2.16.
+2.17.
+2.18.
+2.19.
+2.20.
+2.21.
+
+3.0.
+
+Purpose ...................................................................................................................6
+Authority.................................................................................................................6
+Applicability ...........................................................................................................6
+Definitions ..............................................................................................................7
+Acronyms................................................................................................................8
+Permit Expiration and Renewal ..............................................................................8
+Administrative Update to General Permit Registration ..........................................8
+Modification to General Permit Registration ..........................................................9
+Duty to Comply ......................................................................................................9
+Inspection and Entry ...............................................................................................9
+Need to Halt or Reduce Activity not a Defense ......................................................10
+Emergency ..............................................................................................................10
+Federally-Enforceable Requirements......................................................................10
+Duty to Provide Information ...................................................................................10
+Duty to Supplement and Correct Information.........................................................10
+Credible Evidence...................................................................................................10
+Severability .............................................................................................................11
+Property Rights .......................................................................................................11
+Notification Requirements ......................................................................................11
+Suspension of Activities .........................................................................................11
+Transferability.........................................................................................................11
+
+Facility-Wide Requirements ........................................................................................ 12
+3.1.
+3.2.
+3.3.
+3.4.
+3.5.
+3.6.
+
+4.0.
+
+General Permit Registration...................................................................................5
+
+Siting Criteria .........................................................................................................12
+Limitations and Standards ......................................................................................12
+Monitoring Requirements .......................................................................................13
+Testing Requirements .............................................................................................13
+Recordkeeping Requirements .................................................................................14
+Reporting Requirements .........................................................................................14
+
+Source-Specific Requirements..................................................................................... 16
+4.1.
+4.2.
+
+Limitations and Standards ......................................................................................16
+Recordkeeping Requirements .................................................................................16
+
+5.0.
+Source-Specific Requirements [Gas and Oil Well Affected Facility (NSPS, Subpart
+OOOO/OOOOa/OOOOb] ........................................................................................................ 17
+5.1.
+
+Limitations and Standards ......................................................................................17
+
+6.0.
+Source-Specific Requirements [Storage Vessels Containing Condensate and/or
+Produced Water] ....................................................................................................................... 17
+6.1.
+6.2.
+6.3.
+6.4.
+
+Limitations and Standards ......................................................................................17
+Monitoring Requirements .......................................................................................19
+Recordkeeping Requirements .................................................................................20
+Notification and Reporting Requirements ..............................................................20
+
+7.0.
+Source-Specific Requirements [Standards of Performance for Storage Vessel
+Affected Facilities (NSPS, Subpart OOOO/OOOOa/OOOOb)] ........................................... 20
+7.1.
+
+Limitations and Standards ......................................................................................20
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+4 of 39
+
+8.0.
+Source-Specific Requirements [Control Devices and Emission Reduction Devices not
+subject to NSPS Subpart OOOO/OOOOa/OOOOb and/or NESHAP Subpart HH] ......... 21
+8.1.
+8.2.
+8.3.
+8.4.
+8.5.
+
+Limitations and Standards ......................................................................................21
+Monitoring Requirements .......................................................................................25
+Testing Requirements .............................................................................................27
+Recordkeeping Requirements .................................................................................27
+Reporting Requirements .........................................................................................29
+
+9.0.
+Source-Specific Requirements [Small Heaters and Reboilers not subject to 40CFR60
+Subpart Dc] ................................................................................................................................ 30
+9.1.
+9.2.
+9.3
+9.4.
+
+Limitations and Standards ......................................................................................30
+Monitoring Requirements .......................................................................................30
+Testing Requirements .............................................................................................30
+Recordkeeping Requirements .................................................................................30
+
+10.0. Source-Specific Requirements [Pneumatic Controllers Affected Facility (NSPS,
+Subpart OOOO/OOOOa/OOOOb)] ........................................................................................ 31
+10.1.
+
+Limitations and Standards ......................................................................................31
+
+11.0. Source-Specific Requirements [Pneumatic Pump Affected Facility (NSPS, Subpart
+OOOOa/OOOOb)] .................................................................................................................... 31
+11.1.
+
+Limitations and Standards ......................................................................................31
+
+12.0. Source-Specific Requirements [Fugitive Emissions GHG and VOC Standards (NSPS,
+Subpart OOOOa/OOOOb)] ..................................................................................................... 31
+12.1.
+
+Limitations and Standards ......................................................................................31
+
+13.0. Source-Specific Requirements [Reciprocating Internal Combustion Engine(s) (RICE),
+Generators, Microturbine Generators] ................................................................................... 32
+13.1.
+13.2.
+13.3.
+13.4.
+13.5.
+
+14.0.
+
+Source-Specific Requirements [Tanker Truck/Rail Car Loading] .......................... 34
+14.1.
+14.2.
+
+15.0
+
+Limitations and Standards ......................................................................................32
+Monitoring Requirements .......................................................................................33
+Recordkeeping Requirements .................................................................................33
+Testing Requirements .............................................................................................33
+Reporting Requirements .........................................................................................34
+Limitations and Standards ......................................................................................34
+Recordkeeping Requirements .................................................................................34
+
+Source-Specific Requirements [Glycol Dehydration Units] ..................................... 35
+15.1.
+15.2.
+15.3.
+15.4.
+15.5.
+
+Limitations and Standards ......................................................................................35
+Monitoring Requirements .......................................................................................35
+Testing Requirements .............................................................................................36
+Recordkeeping Requirements .................................................................................37
+Reporting Requirements .........................................................................................37
+
+16.0. Source-Specific Requirements [Liquids Unloading Operation at Gas Well Affected
+Facility (NSPS, Subpart OOOOb)] .......................................................................................... 38
+16.1.
+
+17.0
+
+Limitations and Standards ......................................................................................38
+
+Source-Specific Requirements [Blowdown and Pigging Operations] ...................... 38
+17.1.
+17.2.
+17.3.
+
+Limitations and Standards ......................................................................................38
+Recordkeeping Requirements .................................................................................38
+Reporting Requirements .........................................................................................38
+
+CERTIFICATION OF DATA ACCURACY.......................................................................... 39
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+1.0.
+
+5 of 39
+
+Emission Units
+1.1.
+
+General Permit Registration
+1.1.1.
+
+The registered facility’s emissions shall be less than the facility-wide regulated pollutant emission
+limits listed in the table below. The fugitive emissions of a stationary source shall not be
+considered in determining whether it is a major stationary source for the purposes of 45CSR302.26.b or for eligibility of this General Permit.
+Pollutant
+Nitrogen Oxides
+Carbon Monoxide
+Volatile Organic Compounds
+Particulate Matter – 10/2.5
+Sulfur Dioxide
+
+Maximum Annual Emission Limit
+(tons/year)
+50
+80
+80
+20
+20
+
+1.1.2.
+
+The registered facility’s HAP emissions shall be less than 8 tons per year for each individual
+Hazardous Air Pollutant (HAP) or 20 tons per year of aggregated HAPs.
+
+1.1.3.
+
+The registrant shall notify the Secretary, in writing, no later than fifteen (15) calendar days after
+the actual startup of any alternative operating scenario or combination of alternative operating
+scenarios. Alternative operating scenarios are listed below:
+a.
+
+b.
+
+c.
+
+d.
+e.
+
+f.
+
+g.
+
+h.
+
+i.
+
+Increases in condensate/produced water tank throughputs that result in total facility emissions
+less than or equal to the pollutant limitations established in sections 1.1.1 and 1.1.2 of this
+general permit.
+Increases in truck loading/rail car loading throughputs or change in truck/rail car certification
+established in section 14.1.2 that result in total facility emissions less than or equal to the
+pollutant limitations established in sections 1.1.1 and 1.1.2 of this general permit. Only one
+(1) truck/rail car loading certification change allowed per calendar year.
+Air pollution control device and emission reduction device additions, removals and
+replacements that result in total facility emissions less than or equal to the pollutant
+limitations established in sections 1.1.1 and 1.1.2 of this general permit.
+Replacement of like kind air emission units.
+Addition of air emission units (excluding engines) that results in total facility emissions less
+than or equal to the pollutant limitations established in sections 1.1.1 and 1.1.2 of this general
+permit.
+Addition or replacement of engines that result in an emission increase or decrease less than
+45CSR13 permitting thresholds, possess an EPA Certificate of Conformity to show
+compliance with 40CFR60 Subparts IIII and/or JJJJ, and result in total facility emissions less
+than the pollutant limitations established in sections 1.1.1 and 1.1.2 of this general permit.
+Addition or replacement of engines that result in an emission increase or decrease less than
+45CSR13 permitting thresholds, are not subject to performance testing requirements under
+40CFR60 Subparts IIII and/or JJJJ and/or 40CFR63 Subpart ZZZZ, and result in total facility
+emissions less than or equal to the pollutant limitations established in sections 1.1.1 and 1.1.2
+of this general permit.
+Replacement of engines that result in an emission increase or decrease less than 45CSR13
+permitting thresholds, which are subject to a performance test under 40CFR60 Subparts IIII
+and/or JJJJ, with an engine subject to performance testing requirements under 40CFR60
+Subparts IIII and/or JJJJ, and/or 40CFR63 Subpart ZZZZ.
+Removal of low pressure towers/stabilization equipment subject to Section 6.1.4 that result in
+total facility emissions less than or equal to the pollutant limitations established in sections
+1.1.1 and 1.1.2 of this general permit.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+6 of 39
+
+Alternative operating scenarios are done at the registrant’s own risk.
+
+2.0.
+2.1.
+
+1.1.4.
+
+G70-E Annual Certification. Annually from the date of G70-C, G70-D or G70-E registration
+issuance (or alternate date requested by the registrant and established in the G70-C, G70-D or
+G70-E Registration), the registrant shall prepare and submit a G70-E Annual Certification for the
+previous year, addressing the potential emissions from the facility (using a generally accepted
+model or calculation methodology) and an updated Emission Units/ERD/APCD table (if
+necessary). The registrant shall pay an annual $1,000 certification fee. The fee shall be paid by
+negotiable instrument made payable to the "DEP-Division of Air Quality.”
+
+1.1.5.
+
+Minor Source. The registrant shall maintain records of annual HAP and all other regulated air
+pollutant emissions using AP-42 emission factors, GRI-GLYCalc model inputs and outputs,
+ProMax, flashing simulation model inputs and outputs, manufacturer guaranteed values, sample
+and/or test data, or other methods approved by DAQ demonstrating that facility-wide emissions
+are less than those specified in Sections 1.1.1 and 1.1.2. To demonstrate compliance with sections
+1.1.1 and 1.1.2 of this general permit, the registrant shall maintain a record of the emissions on a
+rolling twelve (12) month total.
+
+General Conditions
+Purpose
+The purpose of this Class II General Permit is to authorize the construction, modification, administrative
+update, relocation, and operation of eligible natural gas production facilities located at the well site through
+a Class II General Permit Registration process. The requirements, provisions, standards and conditions of
+this Class II General Permit address the prevention and control of regulated pollutants from the operation of
+a natural gas production facility located at the well site.
+
+2.2.
+
+Authority
+This permit is issued in accordance with West Virginia air pollution control law W.Va. Code §§ 22-5-1. et
+seq. and the following Legislative Rules promulgated thereunder:
+2.2.1.
+
+2.3.
+
+45CSR13 – Permits for Construction, Modification, Relocation and Operation of Stationary
+Sources of Air Pollutants, Notification Requirements, Administrative Updates, Temporary
+Permits, General Permits, Permission to Commence Construction, and Procedures for
+Evaluation.
+
+Applicability
+2.3.1.
+
+All natural gas production facilities located at the well site designed and operated for the purpose
+of producing natural gas and included in the following NAICS and/or SIC codes are eligible for
+General Permit registration except for those instances listed in (a) through (h) below:
+NAICS Code
+211111
+213112
+a.
+b.
+
+SIC Code
+1311
+1382, 1389
+
+Description
+Crude Petroleum and Natural Gas Extraction
+Support Activities for Oil and Gas Operations
+
+Any natural gas production facility which is a major source of pollutants as defined in
+45CSR14, 45CSR19 or 45CSR30.
+Any natural gas production facility that is located in Putnam County, Kanawha County,
+Cabell County, Wayne County, or Wood County and is required by 45CSR21 to conduct a
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+c.
+d.
+e.
+f.
+g.
+h.
+
+2.4.
+
+7 of 39
+
+Reasonably Available Control Technology (RACT) Analysis and/or subject to 45CSR21
+Section 29 (Leaks from Natural Gas/Gasoline Processing Equipment).
+Any natural gas processing plant (e.g. production of ethane, propane, butane, and pentane) as
+defined in 40 CFR §60.5430.
+Any natural gas sweetening plant.
+Any natural gas production facility with a storage tank subject to NSPS, Subpart Kb.
+Any steam generating unit (as defined in §60.41c) subject to NSPS, Subpart Dc (> 10
+MMBTU/hr).
+Any turbine subject to NSPS, Subpart KKKK.
+Any natural gas production facility which will require an individual air quality permit review
+process (45CSR13 construction/modification permit) to incorporate regulatory requirement(s)
+other than those established by General Permit G70-E. This would include “synthetic
+minor” permitting actions, as they are required to undergo Notice Level C under 45CSR13
+Section 8.5. “Synthetic minor” permitting actions would include limitations on physical or
+operational capacity to remain below major stationary source thresholds (including 45CSR14,
+45CSR19, 45CSR30 and 45CSR34).
+
+2.3.2.
+
+For the purposes of General Permit G70-E, gas well means an onshore well drilled principally for
+production of natural gas and/or oil. Well completion means the process that allows for the
+flowback of petroleum or natural gas from newly drilled wells to expel drilling and reservoir fluids
+and tests the reservoir flow characteristics, which may vent produced hydrocarbons to the
+atmosphere via an open pit or tank.
+
+2.3.3.
+
+For the purposes of General Permit G70-E, natural gas production facility activities refers to
+natural gas well completion operations; separation of the condensate, natural gas and water in gas
+production units; additional separation of the natural gas, condensate, oil and water emulsion in
+heater treaters; compression of the natural gas; dehydration of the natural gas; storage of the
+condensate, oil and produced water; and, loading of tanker trucks/rail cars to transport condensate,
+oil and produced water from the facility.
+
+2.3.4.
+
+The West Virginia Division of Air Quality reserves the right to reopen this permit or any
+authorization issued under this permit if the area in which the facility is located is federally
+designated as non-attainment for specified pollutants. If subsequently any proposed construction,
+modification and/or operation does not demonstrate eligibility and/or compliance with the
+requirements, provisions, standards and conditions of this General Permit, this General Permit
+registration shall be denied and an individual permit for the proposed activity shall be required.
+
+Definitions
+2.4.1.
+
+All references to the “West Virginia Air Pollution Control Act” or the “Air Pollution Control Act”
+mean those provisions contained in W.Va. Code §§ 22-5.
+
+2.4.2.
+
+The “Clean Air Act” means those provisions contained in 42 U.S.C. §§ 7401 to 7671q, and
+regulations promulgated thereunder.
+
+2.4.3.
+
+“Secretary” means the Secretary of the Department of Environmental Protection or such other
+person to whom the Secretary has delegated authority or duties pursuant to W.Va. Code §§ 22-1-6
+or 22-1-8 (45CSR§30-2.12.). The Director of the Division of Air Quality is the Secretary’s
+designated representative for the purposes of this permit.
+
+2.4.4.
+
+The terms established in applicable definitions codified in the Code of Federal Regulations
+including 40 CFR Part 60 NSPS Subparts A, IIII, JJJJ, OOOO, OOOOa and OOOOb or 40 CFR
+Part 63 MACT Subparts A, HH and ZZZZ shall also apply to those sections of General Permit
+G70-E where these subparts are incorporated or otherwise addressed.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+2.5.
+
+Acronyms
+BBL or bbl Barrel
+CAAA
+Clean Air Act Amendments
+CBI
+Confidential Business
+Information
+CEM
+Continuous Emission Monitor
+CES
+Certified Emission Statement
+C.F.R.
+Code of Federal Regulations
+CO
+Carbon Monoxide
+C.S.R.
+Code of State Rules
+DAQ
+Division of Air Quality
+DEP
+Department of Environmental
+Protection
+FOIA
+Freedom of Information Act
+HAP
+Hazardous Air Pollutant
+HP
+Horsepower
+lb/hr
+Pounds per hour
+LDAR
+Leak Detection and Repair
+M or m
+Thousand
+MACT
+Maximum Achievable
+Control Technology
+MDHI
+Maximum Design Heat Input
+MM or mm Million
+MMBTU/hr Million British Thermal Units
+Per Hour
+MMCF/hr Million Cubic Feet per Hour
+N/A
+Not Applicable
+NAAQS
+National Ambient Air Quality
+Standards
+NESHAPS National Emissions Standards
+for Hazardous Air Pollutants
+LAT
+Latitude
+LON
+Longitude
+
+2.6.
+
+2.7.
+
+8 of 39
+
+NOx
+NSCR
+NSPS
+PM
+PM2.5
+PM10
+ppm
+ppmv
+PSD
+psi
+RICE
+SCR
+SIC
+SIP
+SO2
+TAP
+TPY
+TSP
+USEPA
+UTM
+VEE
+VOC
+VRU
+
+Nitrogen Oxides
+Non Selective Catalytic
+Reduction
+New Source Performance
+Standards
+Particulate Matter
+Particulate Matter less than 2.5
+μm in diameter
+Particulate Matter less than 10
+μm in diameter
+Parts per million
+Parts per million by Volume
+Prevention of Significant
+Deterioration
+Pounds per square inch
+Reciprocating Internal
+Combustion Engine
+Selective Catalytic Reduction
+Standard Industrial
+Classification
+State Implementation Plan
+Sulfur Dioxide
+Toxic Air Pollutant
+Tons per year
+Total Suspended Particulate
+United States Environmental
+Protection Agency
+Universal Transverse Mercator
+Visual Emissions Evaluation
+Volatile Organic Compounds
+Vapor Recovery Unit
+
+Permit Expiration and Renewal
+2.6.1.
+
+This Class II General Permit shall remain valid, continuous and in effect unless it is revised,
+suspended, revoked or otherwise changed under an applicable provision of 45CSR13 or any other
+applicable legislative rule.
+
+2.6.2.
+
+General Permit registrations granted by the Secretary shall remain valid, continuous and in effect
+unless suspended or revoked by the Secretary. If the Class II General Permit registration is subject
+to action or change, existing registrations will continue to be authorized and subject to the
+previously established permit conditions.[45CSR§13-10.2, 45CSR§13-10.3]
+
+Administrative Update to General Permit Registration
+2.7.1.
+
+The registrant may request an administrative update to their General Permit registration as defined
+in and according to the procedures specified in 45CSR§13-4.
+[45CSR§13-4.]
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+2.8.
+
+9 of 39
+
+Modification to General Permit Registration
+2.8.1.
+
+The registrant may request a minor permit modification to their General Permit registration as
+defined in and according to the procedures specified in 45CSR§13-5. [45CSR§13-5.]
+
+2.8.2.
+
+Any changes to the facility listed as an Alternative Operating Scenario under section 1.1.3 of this
+general permit are not subject to modification requirements specified in 45CSR§13-5 if the
+registrant complies with the applicable requirements in section 1.1.3.
+
+2.9.
+
+Duty to Comply
+2.9.1.
+
+The registered facility shall be constructed and operated in accordance with the information filed
+in the General Permit Registration Application, alternative operating scenario notifications per
+section 1.1.3 of this general permit, any amendments thereto or facility changes that do not meet
+the definition of modification as defined in 45CSR13. The Secretary may suspend or revoke a
+General Permit registration if the plans and specifications upon which the approval was based are
+not adhered to.
+
+2.9.2.
+
+The registrant must comply with all applicable conditions of this Class II General Permit. Any
+General Permit noncompliance constitutes a violation of the West Virginia Code, and/or the Clean
+Air Act, and is grounds for enforcement action by the Secretary or USEPA.
+
+2.9.3.
+
+Violation of any of the applicable requirements, provisions, standards or conditions contained in
+this Class II General Permit, or incorporated herein by reference, may subject the registrant to civil
+and/or criminal penalties for each violation and further action or remedies as provided by West
+Virginia Code 22-5-6 and 22-5-7.
+
+2.9.4.
+
+Registration under this Class II General Permit does not relieve the registrant herein of the
+responsibility to apply for and obtain all other permits, licenses, and/or approvals from other
+agencies; i.e. local, state and federal, which may have jurisdiction over the construction and/or
+operation of the source(s) and/or facility herein permitted.
+
+2.10.
+
+Inspection and Entry
+
+2.10.1. The registrant shall allow any authorized representative of the Secretary, upon the presentation of
+credentials and other documents as may be required by law, to perform the following:
+a.
+
+At all reasonable times enter upon the registrant’s premises where a source is located or
+emissions related activity is conducted, or where records must be kept under the conditions of
+this permit;
+
+b.
+
+Have access to and copy, at reasonable times, any records that must be kept under the
+conditions of this Class II General Permit;
+
+c.
+
+Inspect at reasonable times (including all times in which the facility is in operation) any
+facilities, equipment (including monitoring and air pollution control equipment), practices, or
+operations regulated or required under this Class II General Permit;
+
+d.
+
+Sample or monitor at reasonable times, substances or parameters to determine compliance
+with the permit or applicable requirements or ascertain the amounts and types of air pollutants
+discharged.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+2.11.
+
+10 of 39
+
+Need to Halt or Reduce Activity not a Defense
+
+2.11.1. It shall not be a defense for a registrant in an enforcement action that it would have been necessary
+to halt or reduce the permitted activity in order to maintain compliance with the conditions of this
+Class II General Permit. However, nothing in this paragraph shall be construed as precluding
+consideration of a need to halt or reduce activity as a mitigating factor in determining penalties for
+noncompliance if the health, safety, or environmental impacts of halting or reducing operations
+would be more serious than the impacts of continued operations.
+
+2.12.
+
+[Reserved]
+
+2.13.
+
+Federally-Enforceable Requirements
+
+2.13.1. All terms and conditions in this permit are enforceable by the Secretary, USEPA, and citizens
+under the Clean Air Act.
+2.13.2. Those provisions specifically designated in the permit as “State-enforceable only” shall become
+“Federally-Enforceable” requirements upon SIP approval by the USEPA.
+
+2.14.
+
+Duty to Provide Information
+
+2.14.1. The registrant shall furnish to the Secretary within a reasonable time any information the Secretary
+may request in writing to determine whether cause exists for modifying, revoking and reissuing, or
+terminating this Class II General Permit Registration or to determine compliance with this General
+Permit. Upon request, the registrant shall also furnish to the Secretary copies of records required
+to be kept by the registrant. For information claimed to be confidential, the registrant shall furnish
+such records to the Secretary along with a claim of confidentiality in accordance with 45CSR31.
+If confidential information is to be sent to USEPA, the registrant shall directly provide such
+information to USEPA along with a claim of confidentiality in accordance with 40 C.F.R. Part 2.
+
+2.15.
+
+Duty to Supplement and Correct Information
+
+2.15.1. Upon becoming aware of a failure to submit any relevant facts or a submittal of incorrect
+information in any registration application, the registrant shall promptly submit to the Secretary
+such supplemental facts or corrected information.
+
+2.16.
+
+Credible Evidence
+
+2.16.1. Nothing in this Class II General Permit shall alter or affect the ability of any person to establish
+compliance with, or a violation of, any applicable requirement through the use of credible
+evidence to the extent authorized by law. Nothing in this permit shall be construed to waive any
+defenses otherwise available to the registrant including but not limited to any challenge to the
+credible evidence rule in the context of any future proceeding.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+2.17.
+
+11 of 39
+
+Severability
+
+2.17.1. The provisions of this Class II General Permit are severable. If any provision of this Class II
+General Permit, or the application of any provision of this Class II General Permit to any
+circumstance is held invalid by a court of competent jurisdiction, the remaining Class II General
+Permit terms and conditions or their application to other circumstances shall remain in full force
+and effect.
+
+2.18.
+
+Property Rights
+
+2.18.1. Registration under this Class II General Permit does not convey any property rights of any sort or
+any exclusive privilege.
+
+2.19.
+
+Notification Requirements
+
+2.19.1. The registrant shall notify the Secretary, in writing, no later than thirty (30) calendar days after the
+actual startup of the operations authorized under this permit except as required under section 1.1.3
+(e.g. 15 days after alternative operating scenario startup).
+
+2.20.
+
+Suspension of Activities
+
+2.20.1. In the event the registrant should deem it necessary to suspend, for a period in excess of one (1)
+year, all operations authorized by this permit, the registrant shall notify the Secretary, in writing,
+within two (2) calendar weeks of the passing of the one (1) year of the suspension period.
+
+2.21.
+
+Transferability
+
+2.21.1. This permit is transferable in accordance with the requirements outlined in Section 10.1 of
+45CSR13. [45CSR§13-10.1.]
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+3.0.
+
+12 of 39
+
+Facility-Wide Requirements
+3.1.
+
+Siting Criteria
+3.1.1.
+
+3.2.
+
+All persons submitting a Class II General Permit Registration Application to construct, modify or
+relocate a natural gas production facility shall be subject to the following siting criteria:
+a.
+
+No emission unit shall be constructed, located or relocated within 300 feet of any occupied
+dwelling, business, public building, school, church, community building, institutional
+building or public park. An owner of an occupied dwelling or business may elect to waive the
+300 foot siting criteria.
+
+b.
+
+Any person proposing to construct, modify or relocate any emission unit(s) within 300 feet of
+any occupied dwelling, business, public building, school, church, community, institutional
+building or public park may elect to obtain an individual permit pursuant to 45CSR13.
+
+Limitations and Standards
+3.2.1.
+
+Open burning. The open burning of refuse by any person is prohibited except as noted in
+45CSR§6-3.1.
+[45CSR§6-3.1.]
+
+3.2.2.
+
+Open burning exemptions. The exemptions listed in 45CSR§6-3.1 are subject to the following
+stipulation: Upon notification by the Secretary, no person shall cause or allow any form of open
+burning during existing or predicted periods of atmospheric stagnation. Notification shall be made
+by such means as the Secretary may deem necessary and feasible.
+[45CSR§6-3.2.]
+
+3.2.3.
+
+Asbestos. The registrant is responsible for thoroughly inspecting the facility, or part of the
+facility, prior to commencement of demolition or renovation for the presence of asbestos and
+complying with 40 C.F.R. § 61.145, 40 C.F.R. § 61.148, and 40 C.F.R. § 61.150. The registrant,
+owner, or operator must notify the Secretary at least ten (10) working days prior to the
+commencement of any asbestos removal on the forms prescribed by the Secretary if the registrant
+is subject to the notification requirements of 40 C.F.R. § 61.145(b)(3)(i). USEPA, the
+Division of Water and Waste Management (DWWM), and the Department of Health and Human
+Resources (DHHR) – Office of Environmental Health Services (OEHS) require a copy of this
+notice to be sent to them.
+[40CFR§61.145(b) and 45CSR§34]
+
+3.2.4.
+
+Odor. No person shall cause, suffer, allow or permit the discharge of air pollutants which cause
+or contribute to an objectionable odor at any location occupied by the public.
+[45CSR§4-3.1] [State Enforceable Only]
+
+3.2.5.
+
+Permanent shutdown. A source which has not operated at least 500 hours in one, twelve (12)
+month period within the previous five (5) year time period may be considered permanently
+shutdown, unless such source can provide to the Secretary, with reasonable specificity,
+information to the contrary. All permits may be modified or revoked and/or reapplication or
+application for new permits may be required for any source determined to be permanently
+shutdown. This requirement does not apply to emergency generator(s) permitted to operate only
+500 hours per year.
+[45CSR§13-10.5.]
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+3.3.
+
+13 of 39
+
+3.2.6.
+
+Standby plan for reducing emissions. When requested by the Secretary, the registrant shall
+prepare standby plans for reducing the emissions of air pollutants in accordance with the
+objectives set forth in Tables I, II, and III of 45CSR11.
+[45CSR§11-5.2.]
+
+3.2.7.
+
+Minimization of Fugitive Emissions. The registrant shall operate consistent with information
+provided in registrant’s G70-E General Permit Registration Application for fugitive emission
+sources.
+[45CSR§13-5.10.]
+
+Monitoring Requirements
+See Section 4.2.
+
+3.4.
+
+Testing Requirements
+3.4.1.
+
+Stack testing. As per provisions set forth in this permit or as otherwise required by the Secretary,
+in accordance with the West Virginia Code, underlying regulations, permits and orders, the
+registrant shall conduct test(s) to determine compliance with the emission limitations set forth in
+this Class II General Permit and/or established or set forth in underlying documents. The
+Secretary, or their duly authorized representative, may at his/her option witness or conduct such
+test(s). Should the Secretary exercise his/her option to conduct such test(s), the operator shall
+provide all necessary sampling connections and sampling ports to be located in such manner as the
+Secretary may require, power for test equipment and the required safety equipment, such as
+scaffolding, railings and ladders, to comply with generally accepted good safety practices. Such
+tests shall be conducted in accordance with the methods and procedures set forth in this permit or
+as otherwise approved or specified by the Secretary in accordance with the following:
+a.
+
+The Secretary may on a source-specific basis approve or specify additional testing or
+alternative testing to the test methods specified in the permit for demonstrating compliance
+with 40 C.F.R. Parts 60, 61, and 63 in accordance with the Secretary’s delegated authority and
+any established equivalency determination methods which are applicable. If a testing method
+is specified or approved which effectively replaces a test method specified in the Class II
+General Permit, the permit may be revised in accordance with 45CSR§13-4. or 45CSR§13-5.4
+as applicable.
+
+b.
+
+The Secretary may on a source-specific basis require, approve or specify additional testing or
+alternative testing to the test methods specified in the Class II General Permit for
+demonstrating compliance with applicable requirements which do not involve federal
+delegation. In specifying or approving such alternative testing to the test methods, the
+Secretary, to the extent possible, shall utilize the same equivalency criteria as would be used
+in approving such changes under Section 3.4.1.a. of this general permit. If a testing method is
+specified or approved which effectively replaces a test method specified in the permit, the
+permit may be revised in accordance with 45CSR§13-4. or 45CSR§13-5.4 as applicable.
+
+c.
+
+All periodic tests to determine mass emission limits from or air pollutant concentrations in
+discharge stacks and such other tests as specified in this Class II General Permit shall be
+conducted in accordance with an approved test protocol. Such protocols shall be submitted to
+the Secretary in writing at least thirty (30) days prior to any testing and shall contain the
+information set forth by the Secretary. In addition, the registrant shall notify the Secretary at
+least fifteen (15) days prior to any testing so the Secretary may have the opportunity to
+observe such tests. This notification shall include the actual date and time during which the
+test will be conducted and, if appropriate, verification that the tests will fully conform to a
+referenced protocol previously approved by the Secretary.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+d.
+
+14 of 39
+
+The registrant shall submit a report of the results of the stack test within sixty (60) days of
+completion of the test. The test report shall provide the information necessary to document
+the objectives of the test and to determine whether proper procedures were used to accomplish
+these objectives and any operating parameters required to be monitored. The report shall
+include the following: the certification described in paragraph 3.6.1; a statement of
+compliance status, also signed by a responsible official; and, a summary of conditions which
+form the basis for the compliance status evaluation. The summary of conditions shall
+include the following:
+1. The permit or rule evaluated, with the citation number and language;
+2. The result of the test for each permit or rule condition; and,
+3. A statement of compliance or noncompliance with each permit or rule condition.
+[WV Code § 22-5-4(a)(14-15) and 45CSR13]
+
+3.5.
+
+3.6.
+
+Recordkeeping Requirements
+3.5.1.
+
+Retention of records. The registrant shall maintain records of all information (including
+monitoring data, support information, reports, and notifications) required by this permit recorded
+in a form suitable and readily available for expeditious inspection and review. Support
+information includes all calibration and maintenance records. The files shall be maintained for at
+least five (5) years following the date of each occurrence, measurement, maintenance, corrective
+action, report, or record. Said records shall be maintained on site or in a readily accessible off-site
+location maintained by the registrant for a period of five (5) years. Said records shall be readily
+available to the Secretary of the Division of Air Quality or his/her duly authorized representative
+for expeditious inspection and review. Any records submitted to the agency pursuant to a
+requirement of this permit or upon request by the Secretary shall be certified by a responsible
+official. Where appropriate, the registrant may maintain records electronically.
+
+3.5.2.
+
+Odors. For the purposes of 45CSR4, the registrant shall maintain a record of all odor complaints
+received, any investigation performed in response to such a complaint, and any responsive
+action(s) taken. [45CSR§4. State Enforceable Only.]
+
+Reporting Requirements
+3.6.1.
+
+Responsible official. Any application form, report, or compliance certification required by this
+permit to be submitted to the DAQ and/or USEPA shall contain a certification by the responsible
+official that states that, based on information and belief formed after reasonable inquiry, the
+statements and information in the document are true, accurate, and complete.
+
+3.6.2.
+
+Confidential information. A registrant may request confidential treatment for the submission of
+reporting required by this permit pursuant to the limitations and procedures of W.Va. Code § 225-10 and 45CSR31.
+
+3.6.3.
+
+Correspondence. All notices, requests, demands, submissions and other communications
+required or permitted to be made to the Secretary of DEP and/or USEPA shall be made in writing
+and shall be deemed to have been duly given when delivered by hand, e-mailed or mailed first
+class with postage prepaid to the address(es) set forth below or to such other person or address as
+the Secretary of the Department of Environmental Protection may designate:
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+If to the DAQ:
+Director
+WVDEP
+Division of Air Quality
+601 57th Street SE
+Charleston, WV 25304-2345
+
+3.6.4.
+
+15 of 39
+
+If to the US EPA:
+Section Chief, USEPA, Region III
+Enforcement and Compliance Assurance Division
+Air Section (3ED21)
+Four Penn Center
+1600 John F Kennedy Blvd
+Philadelphia, PA 19103-2852
+
+Emission inventory. At such time(s) as the Secretary may designate, the registrant herein shall
+prepare and submit an emission inventory for the previous year, addressing the emissions from the
+facility and/or process(es) authorized herein, in accordance with the emission inventory submittal
+requirements of the DAQ. After the initial submittal, the Secretary may, based upon the type and
+quantity of the pollutants emitted, establish a frequency other than on an annual basis.
+
+3.6.5.
+
+Operating Fee
+
+3.6.5.1. In accordance with 45CSR22 – Air Quality Management Fee Program, the registrant shall not
+operate nor cause to operate the permitted facility or other associated facilities on the same or
+contiguous sites comprising the plant without first obtaining and having in current effect a
+Certificate to Operate (CTO). Such Certificate to Operate (CTO) shall be renewed annually,
+shall be maintained on the premises for which the certificate has been issued, and shall be
+made immediately available for inspection by the Secretary or his/her duly authorized
+representative.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+4.0.
+
+16 of 39
+
+Source-Specific Requirements
+4.1.
+
+Limitations and Standards
+4.1.1.
+
+Operation and Maintenance of Air Pollution Control Equipment and Emission Reduction Devices.
+The registrant shall, to the extent practicable, install, maintain, and operate all pollution control
+equipment and emission reduction devices listed in the issued General Permit Registration and
+associated monitoring equipment to comply with limits set forth in this General Permit or as set
+forth by any State rule, Federal regulation, or alternative control plan approved by the Secretary.
+[45CSR§13-5.10.]
+
+4.1.2.
+
+Applicability of State and Federal Regulations. The registrant is subject to the provisions of the
+following State Rules and Federal Regulations, to the extent applicable based on its registration:
+a.
+b.
+c.
+d.
+
+45CSR2 - Particulate Air Pollution from Combustion of Fuel in Indirect Heat Exchangers
+45CSR6 - To Prevent and Control Air Pollution from the Combustion of Refuse
+45CSR10 - To Prevent and Control Air Pollution from the Emissions of Sulfur Oxides
+45CSR13 - Permits for Construction, Modification, Relocation and Operation of Stationary
+Sources of Air Pollutants, Notification Requirements, Administrative Updates, Temporary
+Permits, General Permits, and Procedures for Evaluation
+e. 45CSR16 - Standards of Performance for New Stationary Sources Pursuant to 40 CFR Part 60
+f. 45CSR22 - Air Quality Management Fee Program
+g. 40CFR60 Subpart IIII - Standards of Performance for Stationary Compression Ignition
+Internal Combustion Engines
+h. 40CFR60 Subpart JJJJ - Standards of Performance for Stationary Spark Ignition Internal
+Combustion Engines
+i. 40CFR60 Subpart OOOO – Standards of Performance for Crude Oil and Natural Gas
+Production, Transmission, and Distribution for which Construction, Modification or
+Reconstruction Commenced after August 23, 2011, and on or before September 18, 2015.
+j. 40CFR60 Subpart OOOOa – Standards of Performance for Crude Oil and Natural Gas
+Production, Transmission, and Distribution for which Construction, Modification or
+Reconstruction Commenced after September 18, 2015.
+k. 40CFR60 Subpart OOOOb—Standards of Performance for Crude Oil and Natural Gas
+Facilities for which Construction, Modification or Reconstruction Commenced After
+December 6, 2022
+l. 40CFR63 Subpart HH – National Emission Standards for Hazardous Air Pollutants from Oil
+and Natural Gas Production Facilities
+m. 40CFR63 Subpart ZZZZ - National Emission Standards for Hazardous Air Pollutants for
+Reciprocating Internal Combustion Engines
+
+4.2.
+
+Recordkeeping Requirements
+4.2.1.
+
+Monitoring information. The registrant shall keep records of monitoring information that include
+the following:
+a.
+b.
+c.
+d.
+e.
+f.
+
+4.2.2.
+
+The date, place as defined in this permit and time of sampling or measurements;
+The date(s) analyses were performed;
+The company or entity that performed the analyses;
+The analytical techniques or methods used;
+The results of the analyses; and
+The operating conditions existing at the time of sampling or measurement.
+
+Record of Maintenance of Air Pollution Control Equipment and Emission Reduction Devices. For
+all pollution control equipment and emission reduction devices listed in the General Permit
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+17 of 39
+
+Registration, the registrant shall maintain accurate records of all required pollution control
+equipment and emission reduction devices inspection and/or preventative maintenance procedures
+specifically required in this General Permit.
+4.2.3.
+
+Record of Malfunctions of Air Pollution Control Equipment and Emission Reduction Devices. For
+all air pollution control equipment and emission reduction devices listed in the General Permit
+Registration, the registrant shall maintain records of the occurrence and duration of any
+malfunction or operational shutdown of the air pollution control equipment and emission
+reduction devices during which excess emissions above the applicable permit limits specified in
+sections 1.1.1 and/or 1.1.2. For each such case, the following information shall be recorded:
+a.
+b.
+c.
+d.
+
+The equipment involved.
+Steps taken to minimize emissions during the event.
+The duration of the event.
+The estimated increase in emissions during the event.
+
+For each such case associated with an equipment malfunction, the additional information shall
+also be recorded:
+e.
+f.
+g.
+
+The cause of the malfunction.
+Steps taken to correct the malfunction.
+Any changes or modifications to equipment or procedures that would help prevent future
+recurrences of the malfunction.
+
+5.0.
+Source-Specific Requirements [Gas and Oil Well Affected Facility (NSPS, Subpart
+OOOO/OOOOa/OOOOb)]
+5.1.
+
+Limitations and Standards
+5.1.1.
+
+The registrant of each gas well affected facility which commenced construction, modification or
+reconstruction after August 23, 2011, and on or before September 18, 2015 shall comply with the
+applicable requirements specified in 40 CFR Part 60, Subpart OOOO.
+
+5.1.2.
+
+The registrant of each gas well affected facility which commenced construction, modification or
+reconstruction after September 18, 2015 and on or before December 6, 2022 shall comply with the
+applicable requirements specified in 40 CFR Part 60, Subpart OOOOa.
+
+5.1.3.
+
+The registrant of each gas well affected facility which commenced construction, modification or
+reconstruction after December 6, 2022 shall comply with the applicable requirements specified in
+40 CFR Part 60, Subpart OOOOb.
+
+5.1.4.
+
+Completion Combustion Devices/Temporary Flares/Incinerators/Vapor Combustors/Enclosed
+Combustors. These devices are subject to the applicable requirements specified in 45CSR6.
+
+6.0.
+Source-Specific Requirements [Storage Vessels Containing Condensate and/or
+Produced Water]
+6.1.
+
+Limitations and Standards
+6.1.1.
+
+Emissions determination. The registrant shall determine the VOC and Methane emissions for
+each storage vessel affected facility (as defined in § 60.5430, 60.5430a, 60.5430b) to determine
+affected facility status in accordance with the emissions determination required below:
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+6.1.2.
+
+a.
+
+All storage vessels that commenced construction, modification or reconstruction after August
+23, 2011, and on or before September 18, 2015 must use the emissions determination in §
+60.5365.
+
+b.
+
+All storage vessels that commenced construction, modification or reconstruction after
+September 18, 2015 and on or before December 6, 2022 must use the emissions determination
+in § 60.5365a.
+
+c.
+
+All storage vessels that commenced construction, modification or reconstruction after
+December 6, 2022 must use the emissions determination in § 60.5365b.
+
+Control Devices. The registrant shall install, operate, and maintain all control devices listed in the
+G70-E General Permit Registration for the purpose of controlling emissions from the storage
+vessels in accordance with what was recorded with the registrant’s General Permit Registration
+Application.
+1.
+
+Control Devices that are not subject to the control device requirements of NSPS, Subparts
+OOOO/OOOOa/OOOOb.. If the registrant has determined per section 6.1.1 of this general
+permit that the storage vessel(s) are not subject to control requirements of 40CFR60 Subparts
+OOOO/OOOOa/OOOOb, the registrant shall choose whether they want to be subject to the
+control device and closed vent system requirements of section 7.0 or section 8.0 of this
+general permit.
+
+2.
+
+Control Devices that are subject to the control device requirements of NSPS, Subparts
+OOOO/OOOOa/OOOOb.
+i. If the registrant has determined per section 6.1.1 of this general permit that the storage
+vessel(s) are subject to control requirements of 40CFR60 Subparts
+OOOO/OOOOa/OOOOb, the registrant shall be subject to the control device and closed
+vent system requirements of section 7.0 of this general permit.
+ii.
+
+6.1.3.
+
+18 of 39
+
+The registered enclosed combustion device, flare or incinerator is subject to 45CSR6.
+The registrant is subject to the applicable requirements specified in 45CSR6.
+
+Site specific liquid sample. (Only for storage vessels with no air pollution control devices or
+VRUs)
+1.
+
+2.
+
+Applicability. The requirements of this section apply to storage vessels that meet the
+requirements of paragraphs (a) and (b).
+a.
+
+Any storage vessel that contains condensate and/or produced water.
+
+b.
+
+Any storage vessel that has an upstream low pressure tower/stabilization equipment that
+meets the requirements of section 6.1.4 of this general permit is exempt from the
+requirements of this section.
+
+For registrants that meet the applicability requirements of paragraph (1) of this section, the
+registrant shall use a site specific sample to determine potential emissions. The registrant
+shall comply with the following:
+i.
+
+The site specific sample shall be taken within thirty (30) days after startup of production.
+
+ii.
+
+The type and location of the sample shall be appropriate for the calculation methodology
+or model (e.g. ProMax, E&P Tanks, HYSYS) being used to calculate the emissions. The
+sample location shall be equipped with appropriate sampling access.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+19 of 39
+
+iii. If the VOC or Methane potential emissions are higher than the emission limits in the
+registration, DAQ shall be notified in accordance with section 6.4.2.
+a.
+
+6.1.4.
+
+The registrant shall re-evaluate the VOC or Methane potential emissions based on
+the site specific sample within 90 days of receiving the analysis of the site specific
+sample determined per section 6.1.1 of this general permit.
+
+Low Pressure Towers/Stabilization Equipment. If the registrant calculated their VOC flash
+emissions for their General Permit Registration Application based on operating conditions using a
+low pressure tower/stabilization equipment upstream of the storage vessels, the registrant shall
+provide notification requirements listed in section 6.4.1 to DAQ in accordance with sections 1.1.3
+and 1.1.4 of this general permit if the low pressure tower/stabilization equipment is removed from
+service. If the vents from the storage vessels storing liquids from the low pressure
+tower/stabilization equipment are uncontrolled, then the low pressure tower operating pressure
+shall not exceed the value used to determine the VOC flash emissions.
+For the purposes of General Permit G70-E, stabilization equipment refers to equipment, skids, or
+combinations thereof forming additional processes that involve heat, pressure reduction and
+separation, or by other means, are designed to stabilize condensate products in order to minimize
+tank flash and limit Reid Vapor Pressure.
+
+6.2.
+
+Monitoring Requirements
+6.2.1.
+
+Flash emissions.
+1.
+
+2.
+
+6.2.2.
+
+6.3.
+
+The requirements of this section apply to storage vessels that meet the requirements of
+paragraphs (a) and (b) of this section.
+a.
+
+Any storage vessel that contains condensate and/or produced water.
+
+b.
+
+Any storage vessel that is not subject to the control device requirements of 6.1.2.
+
+c.
+
+Any storage vessel that has a VRU system that is designed and operated in accordance
+with section 8.1.7 of this general permit is exempt from the requirements of this section.
+
+The registrant shall monitor and maintain quarterly records of the temperature and pressure
+upstream of any storage vessel containing condensate and/or produced water at the
+appropriate separation unit based on the calculation methodology or model being used by
+the registrant to calculate their VOC flash emissions.
+
+Uncontrolled production storage vessels that are fed by a gas to liquid separator shall perform the
+following:
+1.
+
+Inspect and maintain records of the separator liquid level that opens the dump valve on an as
+needed basis and annually (at a minimum).
+
+2.
+
+Inspect and maintain records of the separator dump valves operation per manufacturer
+recommendations or annually (at a minimum).
+
+Recordkeeping Requirements
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+6.4.
+
+6.3.1.
+
+The registrant shall maintain a record of the aggregate throughput for the storage vessel(s) that
+contains condensate and/or produced water on a monthly and rolling twelve (12) month total.
+Alternatively, recording the monthly and rolling twelve (12) month total of condensate and/or
+produced water loaded into tanker trucks from the storage vessels according to section 14.2.1 can
+be used to demonstrate compliance. Said records shall be maintained in accordance with section
+3.5.1 of this general permit.
+
+6.3.2.
+
+To demonstrate compliance with section 6.1.1 of this general permit, the registrant shall maintain
+records of the determination of the VOC emission rate per storage vessel, including identification
+of the model or calculation methodology used to calculate the VOC emission rate.
+
+6.3.3.
+
+To demonstrate compliance with section 6.1.3 of this general permit, the registrant shall maintain
+records of the type of sample taken, the location of the sample within the process, the temperature
+at the location and time where the sample was taken, the pressure at the location and time that the
+sample was taken, the analysis of the sample, and the resulting emissions calculations using the
+site specific sample.
+
+Notification and Reporting Requirements
+6.4.1.
+
+6.4.2.
+
+7.0.
+
+20 of 39
+
+To demonstrate compliance with requirement 6.1.4 of this general permit, the registrant shall
+notify the Director of the DAQ in writing when a low pressure tower/stabilization equipment that
+meets the conditions of 6.1.4 of this general permit is removed from service. The notification
+shall:
+i.
+
+Include revised flash emission calculations for any storage vessel with emission limits in the
+registration based on a site specific sample in accordance with 6.1.3 of this general permit to
+demonstrate that the emission limits will not be exceeded as a result of the change in
+operating conditions;
+
+ii.
+
+Include the date that the low pressure tower/stabilization equipment was (or will be) removed
+from service;
+
+The registrant shall notify the Director of the DAQ in writing for any instance when the potential
+emissions determined with a site specific sample in accordance with section 6.1.3 of this general
+permit were greater than the potential emissions provided in the G70-E general permit application.
+Any increase in emissions must follow the notification requirements in section 1.1.3 of this
+general permit. Additional notification is required if the change in emissions affects applicability
+determination to NSPS, Subparts OOOO/OOOOa/OOOOb for any storage vessel. The
+notification to the Director shall be provided no later than 30 days from the date of discovery of
+the NSPS, Subparts OOOO/OOOOa/OOOOb applicability change.
+
+Source-Specific Requirements [Standards of Performance for Storage Vessel
+Affected Facilities (NSPS, Subpart OOOO/OOOOa/OOOOb)]
+7.1.
+
+Limitations and Standards
+7.1.1.
+
+The registrant of each storage vessel affected facility that commenced construction, modification
+or reconstruction after August 23, 2011, and on or before September 18, 2015 shall comply with
+the applicable requirements specified in 40 CFR Part 60, Subpart OOOO, unless they have
+installed a VRU or have Federally Enforceable Controls to limit each storage vessel(s) potential to
+emit below 6 tons per year of Volatile Organic Compounds.
+
+7.1.2.
+
+The registrant of each storage vessel affected facility that commenced construction, modification
+or reconstruction after September 18, 2015 and on or before December 6, 2022 shall comply with
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+21 of 39
+
+the applicable requirements specified in 40 CFR Part 60, Subpart OOOOa, unless they have
+installed a VRU or have Federally Enforceable Controls to limit each storage vessel(s) potential to
+emit below 6 tons per year of Volatile Organic Compounds.
+7.1.3.
+
+8.0.
+
+The registrant of each tank battery that commenced construction, modification or reconstruction
+after December 6, 2022 shall comply with the applicable requirements specified in 40 CFR Part
+60, Subpart OOOOb, unless they have installed a VRU or have Federally Enforceable Controls to
+limit each storage vessel(s) potential to emit below 6 tons per year of Volatile Organic
+Compounds or 20 tons per year of Methane.
+
+Source-Specific Requirements [Control Devices and Emission Reduction Devices not
+subject to NSPS Subpart OOOO/OOOOa/OOOOb and/or NESHAP Subpart HH]
+8.1.
+
+Limitations and Standards
+Scope: The scope of this section is to address requirements for control devices and emission reduction
+devices that will be installed and operated to control air emissions at a natural gas production
+facility and that are not subject to NSPS, Subpart OOOO/OOOOa/OOOOb or NESHAP, Subpart
+HH requirements. If the control device is subject to NSPS, Subpart OOOO/OOOOa/OOOOb
+control device and closed system requirements, they are subject to Section 7.0.
+Possible control and emission reduction devices meeting the scope of this section include: (1)
+control devices used to control VOC and HAP emissions from the tanker truck loading operations;
+(2) control devices used to control VOC and HAP emissions from the storage vessel(s) below the
+NSPS, Subpart OOOO/OOOOa/OOOOb threshold of 6 tpy VOC or 20 tpy methane (as
+applicable). Control devices that are permitted under a legally and practically enforceable state
+permit achieve a “federally enforceable PTE” for VOC emissions at the storage vessels; and (3)
+control devices used to control VOC and HAP emissions from dehydration units.
+8.1.1.
+
+Operation and Maintenance of Air Pollution Control Equipment and Emission Reduction Devices.
+The registrant shall, to the extent practicable, install, maintain, and operate all air pollution control
+equipment and emission reduction devices listed in the General Permit Registration and associated
+monitoring equipment in a manner consistent with safety and good air pollution control practices
+for minimizing emissions, or comply with any more stringent limits set forth in this permit or as
+set forth by any State rule, Federal regulation, or alternative control plan approved by the
+Secretary.
+[45CSR§13-5.10.]
+
+8.1.2.
+
+Enclosed Combustion Devices and Flares. The registrant shall comply with the requirements in
+this section for any registered enclosed combustion device or flare that is listed as a control device
+in the General Permit Registration:
+1.
+
+The registrant may use the same control device to control emissions from multiple emission
+sources (ex. storage vessels, loading racks, etc.) where the control device is both subject to
+and not subject to NSPS, Subpart OOOO/OOOOa/OOOOb requirements depending on the
+emission source being controlled and if the control device was designed accordingly. If the
+registrant uses the
+control device for multiple source types, they shall comply with the
+more stringent NSPS, Subpart OOOO/OOOOa/OOOOb closed vent system and control
+device requirements for the entire system and shall comply with the applicable NSPS, Subpart
+OOOO/OOOOa/OOOOb closed vent system and control requirements for storage vessels
+provided in section 7.0 of this general permit.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+2.
+
+22 of 39
+
+Flares. If the registrant utilizes a flare control device, the registrant shall comply with the
+design and operating requirements below:
+i.
+
+Vapors that are being controlled by the flare shall be routed to the flare at all times.
+
+ii.
+
+Flares shall be operated with a flame present at all times, as determined by the methods
+specified in section 8.2.1 of this general permit;
+
+iii. Flares shall be designed according to the requirements specified in § 60.18;
+iv. Flares shall be operated at all times when emissions are vented to them;
+v.
+
+To ensure compliance with 8.1.2.2 (iv) of this general permit, the registrant shall monitor
+in accordance with section 8.2.1 of this general permit.
+
+vi. Flares shall be designed for and operated with no visible emissions as determined by the
+methods specified in permit section 8.3.1 of this general permit except for periods not to
+exceed a total of 5 minutes during any 2 consecutive hours; and,
+vii. The registrant shall monitor the flare(s) to ensure that they are operated and maintained in
+conformance with their designs.
+The registrant may claim a capture and control efficiency of 98% for those units meeting the
+requirements of 2.i-vii.
+3.
+
+Enclosed Combustion Devices. If the registrant utilizes an enclosed combustion control
+device, the registrant shall comply with the design and operating requirements below:
+i.
+
+Vapors that are being controlled by the enclosed combustion device shall be routed to the
+enclosed combustion device at all times.
+
+ii.
+
+The enclosed combustion device shall be operated with a flame present at all times, as
+determined by the methods specified in sections 8.2.1 and 8.2.3 of this general permit.
+
+iii. Enclosed combustion devices shall be designed for and operated with no visible
+emissions as determined by the methods specified in section 8.3.1 of this general permit
+except for either (a) or (b):
+a.
+
+periods not to exceed a total of one minute during any 15 minute period, determined
+on a monthly basis; or
+
+b.
+
+periods not to exceed a total of two (2) minutes during any hour, determined on a
+quarterly basis if the enclosed combustion device installed was a model tested under
+§ 60.5413(d) which meets the criteria in § 60.5413(d)(11).
+
+iv. Enclosed combustion devices shall be operated at all times when emissions are vented to
+them.
+v.
+
+To ensure compliance with 8.1.2.3(iv) above, the registrant shall monitor in accordance
+with section 8.2.3 of this general permit.
+
+vi. The registrant shall operate and maintain the enclosed combustion device according to
+the manufacturer’s specifications for operating and maintenance requirements to maintain
+the guaranteed control efficiency listed in the General Permit Registration.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+23 of 39
+
+The registrant may claim a capture and control efficiency of 98% for those units meeting the
+requirements of 3.i-vi.
+
+8.1.3.
+
+4.
+
+Closed Vent System. The registrant shall comply with the closed vent system requirements in
+section 8.1.4.
+
+5.
+
+Maximum Design Heat Input. The total maximum design heat input for all registered flares or
+enclosed combustion devices shall not exceed a Maximum Design Heat Input of 36
+MMBTU/hr.
+
+6.
+
+The registered enclosed combustion device or flare is subject to the applicable requirements
+specified in 45CSR6.
+
+Cover Requirements. The registrant shall comply with the cover requirements in this section if the
+potential emissions that were calculated to determine affected facility status did include recovered
+vapors from the storage vessel as allowed and in accordance with 6.1.2 of this general permit.
+1.
+
+The cover and all openings on the cover (e.g., access hatches, sampling ports, pressure relief
+valves and gauge wells) shall form a continuous impermeable barrier over the entire surface
+area of the liquid in the storage vessel.
+
+2.
+
+Each cover opening shall be secured in a closed, sealed position (e.g., covered by a gasketed
+lid or cap) whenever material is in the unit on which the cover is installed except during those
+times when it is necessary to use an opening as follows:
+(i) To add material to, or remove material from the unit (this includes openings necessary to
+equalize or balance the internal pressure of the unit following changes in the level of the
+material in the unit);
+(ii) To inspect or sample the material in the unit;
+(iii) To inspect, maintain, repair, or replace equipment located inside the unit; or
+(iv) To vent liquids, gases, or fumes from the unit through a closed-vent system designed and
+operated in accordance with the requirements of this general permit to a control device
+or to a process.
+
+3.
+
+8.1.4.
+
+Each storage vessel thief hatch shall be weighted and properly seated. You must select gasket
+material for the hatch based on composition of the fluid in the storage vessel and weather
+conditions.
+[45CSR§13-5.10.]
+
+Closed Vent Systems (applies to all non 40CFR60 Subpart OOOO/OOOOa/OOOOb controls).
+The registrant shall comply with the closed vent system requirements in this section if the
+potential emissions that were calculated to determine affected facility status did include recovered
+or controlled vapors from the storage vessel as allowed and in accordance with 6.1.2 of this
+general permit.
+1.
+
+You must design the closed vent system to route all gases, vapors, and fumes emitted from the
+material in the storage vessel to a control device that meets the requirements of 6.1.2 of this
+general permit or to a process.
+
+2.
+
+You must design and operate a closed vent system with no detectable emissions, as
+determined following the procedures in section 12.0 of this general permit for ongoing
+compliance.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+3.
+
+24 of 39
+
+You must comply with either paragraph (A) or (B) of this section for each bypass device.
+A. You must properly install, calibrate, maintain, and operate a flow indicator at the
+inlet to the bypass device that could divert the stream away from the control device
+or process to the atmosphere that sounds an alarm, or initiates notification via remote
+alarm to the nearest field office, when the bypass device is open such that the stream
+is being, or could be, diverted away from the control device or process to the
+atmosphere.
+B. You must secure the bypass device valve installed at the inlet to the bypass device in
+the non-diverting position using a car-seal or a lock-and-key type configuration.
+ii.
+
+Low leg drains, high point bleeds, analyzer vents, open-ended valves or lines, and safety
+devices are not subject to the requirements of paragraph (i) of this section.
+[45CSR§13-5.10.]
+8.1.5.
+
+Carbon Adsorption Systems. The registrant shall comply with the requirements below for any
+registered carbon adsorption system that is listed as a control device in the General Permit
+Registration:
+i.
+
+The carbon adsorption system shall be designed to achieve the minimum guaranteed control
+efficiency that is listed in the General Permit Registration for volatile organic compound
+(VOC) emissions;
+
+ii.
+
+The carbon adsorption system must be operated at all times when gases, vapors, and fumes
+are vented to it. Carbon canisters shall be operated in series as dual carbon canisters, in case
+of emission breakthrough in one carbon canister.
+
+iii. The carbon adsorption system must have a commercially manufactured saturation indicator
+installed.
+iv. Prior to the loading of each truck, the saturation indicator on the carbon adsorption system
+shall be checked to ensure that the carbon is not spent. These records must be kept in
+accordance with section 3.5.1 of this general permit. If the saturation indicator demonstrates
+that the carbon is saturated, truck loading is prohibited and/or emissions are to cease.
+v.
+
+All carbon in the carbon canister shall be replaced with fresh carbon or the carbon canister
+replaced with a new canister when the saturation indicator changes in color and indicates
+saturation.
+
+vi. Fresh replacements for all carbon being used in the carbon adsorption system shall be kept on
+site.
+The registrant may claim a control efficiency of 95% for those units meeting the requirements of
+8.1.5.i-vi.
+8.1.6.
+
+Condensers/BTEX Eliminators. The registrant shall comply with the requirements below for any
+registered condenser/BTEX Eliminator that is listed as a control device/emission reduction device
+for a glycol dehydration unit in the General Permit Registration:
+i.
+
+Vapors that are being controlled by the condenser/BTEX Eliminator shall be routed through a
+closed vent system to the condenser/BTEX Eliminator at all times when there is a potential
+that vapors (emissions) can be generated from the glycol dehydration still column.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+ii.
+
+The condenser/BTEX Eliminator shall be designed, operated, and maintained according to
+good engineering practices and manufacturer’s specifications so as to achieve, at a
+minimum, a capture and control efficiency of 50%.
+a.
+
+8.1.7.
+
+25 of 39
+
+The registrant may claim a capture and control efficiency greater than 50% if the General
+Permit Registration was approved based on manufacturer’s specifications and the unit
+was operated as such.
+
+Vapor Recovery Units (VRUs)
+i.
+
+The registrant shall comply with the closed vent system requirements in Section 8.1.4 of this
+general permit.
+
+ii.
+
+The registrant may claim a capture and control efficiency of 95% (which accounts for 5%
+expected downtime).
+
+iii. The registrant may claim a capture and control efficiency of 98% if the VRU has a backup
+flare (enclosed combustion device) that meet the requirements of section 8.1.2 of this general
+permit.
+iv. The registrant may claim a capture and control efficiency of 98% if the VRU has a backup
+VRU.
+8.1.8.
+
+Glycol Dehydration Units Recycling Back to Flame Zone of the Reboiler. If the registrant is
+reducing emissions by recycling the glycol dehydration unit back to the flame zone of the reboiler,
+it shall be designed and operated in accordance with the following:
+a.
+
+The vapors/overheads from the still column shall be routed through a condenser at all
+times when there is a potential that vapors (emissions) can be generated from the still
+column.
+
+b.
+
+The reboiler shall only be fired with vapors from the still column and flash tank, and
+natural gas may be used as a supplemental fuel.
+
+c.
+
+The vapors/overheads from the still column shall be introduced into the flame zone of the
+reboiler as the primary fuel or with the primary fuel before the combustion chamber.
+
+The registrant may claim a capture and control efficiency of 50% for those units meeting the
+requirements of either a or b. The registrant may claim a capture and control efficiency greater
+than 50% if the General Permit Registration was approved based on manufacturer’s specifications
+and the unit was operated as such.
+
+8.2.
+
+Monitoring Requirements
+8.2.1.
+
+To demonstrate compliance with the pilot flame requirements of sections 8.1.2.2 and 8.1.2.3 of
+this general permit, the presence of a pilot flame shall be continuously monitored using a
+thermocouple or any other equivalent device to detect the presence of a flame when emissions are
+vented to it. The pilot shall be equipped such that it sounds an alarm, or initiates notification via
+remote alarm to the nearest field office, when the pilot light is out. Only facilities manned 24/7
+can have an alarm with no remote notification capability. Facilities that are not manned 24/7 shall
+have an alarm that remotely notifies company personnel if the pilot light is out. If the remote
+alarm is not operating properly, the registrant shall record daily the pilot status until the remote
+notification system is repaired. The remote notification system shall be repaired as soon as
+possible, but no later than 15 days or as agreed upon by the DAQ.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+8.2.2.
+
+26 of 39
+
+To demonstrate compliance with the closed vent system requirements of section 8.1.4 of this
+general permit, the registrant shall:
+a.
+
+Initial requirements. The registrant shall follow the procedures in section 12.0 of this general
+permit. The initial inspection shall include the bypass inspection, conducted according to
+paragraph (b) of this section.
+
+b.
+
+Bypass inspection. Visually inspect the bypass valve during the initial inspection for the
+presence of the car seal or lock-and-key type configuration to verify that the valve is
+maintained in the non-diverting position to ensure that the vent stream is not diverted through
+the bypass device. If an alternative method is used, conduct the inspection of the bypass as
+described in the operating procedures.
+
+c.
+
+Unsafe to inspect requirements. You may designate any parts of the closed vent system as
+unsafe to inspect if the requirements in paragraphs (i) and (ii) of this section are met. Unsafe
+to inspect parts are exempt from the inspection requirements of paragraphs (a) and (b) of this
+section.
+i.
+
+You determine that the equipment is unsafe to inspect because inspecting personnel
+would be exposed to an imminent or potential danger as a consequence of complying
+with the requirements.
+
+ii.
+
+You have a written plan that requires inspection of the equipment as frequently as
+practicable during safe-to-inspect times.
+[45CSR§13-5.10.]
+8.2.3.
+
+To demonstrate compliance with the pilot flame requirements of sections 8.1.2.3 of this general
+permit, the registrant shall follow (i) and (ii).
+i.
+
+The presence of a pilot flame shall be continuously monitored using a thermocouple or any
+other equivalent device to detect the presence of a flame when emissions are vented to it.
+The pilot shall be equipped such that it sounds an alarm, or initiates notification via remote
+alarm to the nearest field office, when the pilot light is out.
+
+ii.
+
+For any absence of pilot flame, or other indication of smoking or improper equipment
+operation, you must ensure the equipment is returned to proper operation as soon as
+practicable after the event occurs. At a minimum, you must: (1) Check the air vent for
+obstruction. If an obstruction is observed, you must clear the obstruction as soon as
+practicable. (2) Check for liquid reaching the combustor.
+
+iii. To demonstrate compliance with the pilot flame requirements of sections 8.1.2.3 of this
+general permit, the registrant shall follow the continuous compliance requirements of
+§60.5417b(d).
+iv. For each combustion device the registrant must conduct inspections at least once every
+calendar month to confirm that the pilot is lit when vapors are being routed to the combustion
+device and that the continuous burning pilot flame is operating properly. Monthly inspections
+must be separated by at least 14 calendar days. During each inspection, the registrant shall
+confirm the functional status of the combustion device agrees with the remote monitoring and
+malfunction notification system.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+8.3.
+
+27 of 39
+
+Testing Requirements
+8.3.1.
+
+To demonstrate compliance with the visible emissions requirements of section 8.1.2.2, 8.1.2.3,
+and 8.1.2.6 of this general permit, the registrant shall conduct visible emission checks and/or
+opacity monitoring and recordkeeping for all emission sources subject to an opacity limit.
+i.
+
+The visible emission check shall determine the presence or absence of visible emissions. The
+observations shall be conducted according to Section 11 of EPA Method 22. At a
+minimum, the observer must be trained and knowledgeable regarding the effects of
+background contrast, ambient lighting, observer position relative to lighting, wind, and the
+presence of uncombined water (condensing water vapor) on the visibility of emissions. This
+training may be obtained from written materials found in the References 1 and 2 from 40CFR
+Part 60, Appendix A, Method 22 or from the lecture portion of the 40CFR Part 60, Appendix
+A, Method 9 certification course. The observation period shall be:
+a.
+b.
+c.
+
+ii.
+
+a minimum of 2 hours if demonstrating compliance with 8.1.2.2;
+a minimum of 15 minutes if demonstrating compliance with 8.1.2.3(iii)(a); or
+a minimum of 1 hour if demonstrating compliance with 8.1.2.3 (iii)(b)
+
+The visible emission check shall be conducted initially within 180 days of start-up to
+demonstrate compliance while vapors are being sent to the control device.
+
+iii. If during this visible emission check or at any other time visible emissions are observed,
+compliance with section 8.1.2.6 of this general permit shall be determined by conducting
+opacity tests in accordance with Method 9 or 40 CFR 60, Appendix A.
+
+8.4.
+
+8.3.2.
+
+A flare that is designed and operated in accordance with §60.18(b) shall not require a compliance
+demonstration, unless at the request of the Secretary, but must conduct visible emission check.
+
+8.3.3.
+
+Enclosed combustion devices or flares. At such reasonable times as the Secretary may designate,
+the operator of any incinerator shall be required to conduct or have conducted stack tests to
+determine the particulate matter loading, by using 40 CFR Part 60, Appendix A, Method 5, and
+volatile organic compound loading, by using Methods 18 and 25A of 40 CFR Part 60, Appendix
+A, Method 320 of 40 CFR Part 63, Appendix A, or ASTM D 6348-03 or other equivalent U.S.
+EPA approved method approved by the Secretary, in exhaust gases. Such tests shall be conducted
+in such manner as the Secretary may specify and be filed on forms and in a manner acceptable to
+the Secretary. The Secretary may, at the Secretary’s option, witness or conduct such stack tests.
+Should the Secretary exercise his or her option to conduct such tests, the operator will provide all
+the necessary sampling connections and sampling ports to be located in such manner as the
+Secretary may require, power for test equipment and the required safety equipment such as
+scaffolding, railings and ladders to comply with generally accepted good safety practices. The
+Secretary may conduct such other tests as the Secretary may deem necessary to evaluate air
+pollution emissions other than those noted above. [45CSR6 §§7.1 and 7.2]
+
+Recordkeeping Requirements
+8.4.1.
+
+For the purpose of demonstrating compliance with the design requirements in section 8.1.2.2 of
+this permit, the registrant shall maintain a record of the flare design evaluation. The flare design
+evaluation shall include, net heat value calculations, exit (tip) velocity calculations, and all
+supporting concentration calculations.
+
+8.4.2.
+
+For the purpose of demonstrating compliance with the continuous pilot flame requirements in
+sections 8.1.2.2 and 8.1.2.3 of this general permit, the registrant shall maintain records of the times
+and duration of all periods when the pilot flame was not present and vapors were vented to the
+device.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+28 of 39
+
+i.
+
+If the registrant is demonstrating compliance to 8.2.3 of this general permit with visual
+inspections, the registrant shall maintain records of the inspections.
+
+ii.
+
+If the registrant is demonstrating compliance to 8.2.3 of this general permit with an enclosed
+combustion device model that was tested under the conditions of § 60.5413(d), a record shall
+be maintained of the performance test results.
+
+8.4.3.
+
+For the purpose of demonstrating compliance with the visible emissions and opacity requirements,
+the registrant shall maintain records of the visible emission opacity tests and checks. The registrant
+shall maintain records of all monitoring data required by section 8.3.1 of this general permit
+documenting the date and time of each visible emission check, the emission point or equipment/
+source identification number, the name or means of identification of the observer, the results of the
+check(s), whether the visible emissions are normal for the process, and, if applicable, all corrective
+measures taken or planned. The registrant shall also record the general weather conditions (i.e.
+sunny, approximately 80°F, 6-10 mph NE wind) during the visual emission check(s). Should a
+visible emission observation be required to be performed per the requirements specified in Method
+9, the data records of each observation shall be maintained per the requirements of Method 9. For
+an emission unit out of service during the evaluation, the record of observation may note "out of
+service" (O/S) or equivalent.
+
+8.4.4.
+
+To demonstrate compliance with section 8.1.2.3.vi of this general permit, the registrant shall
+maintain records of the manufacturer’s specifications for operating and maintenance requirements
+to maintain the control efficiency.
+
+8.4.5.
+
+To demonstrate compliance with the closed vent monitoring requirements in section 8.2.2 of this
+general permit, records shall be maintained of:
+i.
+
+The initial compliance requirements;
+
+ii.
+
+If you are subject to the bypass requirements, the following records shall also be maintained:
+(a) Each inspection or each time the key is checked out or a record of each time the alarm is
+sounded;
+(b) Each occurrence that the control device was bypassed. If the device was bypassed, the
+records shall include the date, time, and duration of the event and shall provide the
+reason that the event occurred. The record shall also include the estimate of emissions
+that were released to the environment as a result of the bypass.
+
+iii. Any part of the system that has been designated as “unsafe to inspect” in accordance with
+8.2.2(d).
+[45CSR§13-5.10.]
+8.4.6.
+
+To demonstrate compliance with section 8.1.5 of this general permit, records shall be kept on each
+carbon canister to indicate the date when the activated carbon was replaced and the date of all
+indicator checks.
+
+8.4.7.
+
+The registrant shall maintain records of any testing that is conducted according to section 8.3 of
+this general permit.
+
+8.4.8.
+
+All records required under Section 8.4 shall be maintained on site or in a readily accessible off-site
+location maintained by the registrant for a period of five (5) years. Said records shall be readily
+available to the Director of the DAQ or his/her duly authorized representative for expeditious
+inspection and review. Any records submitted to the agency pursuant to a requirement of this
+permit or upon request by the Director shall be certified by a responsible official.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+8.4.9.
+
+8.5.
+
+29 of 39
+
+To demonstrate compliance with section 8.1.2.5 of this general permit, the registrant shall record
+the volume of gas flared on a monthly basis.
+
+Reporting Requirements
+8.5.1.
+
+Any deviation of the allowable visible emission requirement for any emission source discovered
+during observation using 40CFR Part 60, Appendix A, Method 9 per section 8.3.1(iii) of this
+general permit must be reported in writing to the Director of the DAQ as soon as practicable,
+but within ten (10) calendar days, of the occurrence and shall include, at a minimum, the
+following information: the results of the visible determination of opacity of emissions, the
+cause or suspected cause of the violation(s), and any corrective measures taken or planned.
+
+8.5.2.
+
+Any bypass event of the registered control device must be reported in writing to the Director of the
+DAQ as soon as practicable, but within ten (10) calendar days, of the occurrence and shall include,
+at a minimum, the following information: the date of the bypass, the estimate of VOC emissions
+released to the atmosphere as a result of the bypass, the cause or suspected cause of the bypass,
+and any corrective measures taken or planned.
+
+8.5.3.
+
+Any time the air pollution control device is not operating for a period greater than twenty-four (24)
+hours when emissions are vented to it, shall be reported in writing to the Director of the DAQ as
+soon as practicable, but within ten (10) calendar days of the discovery.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+30 of 39
+
+9.0.
+Source-Specific Requirements [Small Heaters and Reboilers not subject to 40CFR60
+Subpart Dc]
+9.1.
+
+9.2.
+
+Limitations and Standards
+9.1.1.
+
+Maximum Design Heat Input. The maximum design heat input for any small heater and/or
+reboiler shall be less than 10 MMBTU/hr.
+
+9.1.2.
+
+No person shall cause, suffer, allow or permit emission of smoke and/or particulate matter into the
+open air from any fuel burning unit which is greater than ten (10) percent opacity based on a six
+minute block average. [45CSR§2-3.1.]
+
+Monitoring Requirements
+9.2.1.
+
+9.3
+
+Testing Requirements
+9.3.1.
+
+9.4.
+
+At such reasonable times as the Secretary may designate, the registrant shall conduct Method 9
+emission observations for the purpose of demonstrating compliance with section 9.1.2 of this
+general permit. Method 9 shall be conducted in accordance with 40 CFR 60 Appendix A.
+
+Upon request by the Secretary, compliance with the visible emission requirements of section 9.1.2
+of this general permit shall be determined in accordance with 40 CFR Part 60, Appendix A,
+Method 9 or by using measurements from continuous opacity monitoring systems approved by the
+Secretary. The Secretary may require the installation, calibration, maintenance and operation of
+continuous opacity monitoring systems and may establish policies for the evaluation of continuous
+opacity monitoring results and the determination of compliance with the visible emission
+requirements of section 9.1.2 of this general permit. Continuous opacity monitors shall not be
+required on fuel burning units which employ wet scrubbing systems for emission control.
+[45CSR§2-3.2.]
+
+Recordkeeping Requirements
+9.4.1.
+
+The registrant shall maintain records of all monitoring data required by section 9.2.1 of this
+general permit documenting the date and time of each visible emission check, the emission point
+or equipment/source identification number, the name or means of identification of the observer,
+the results of the check(s), whether the visible emissions are normal for the process, and, if
+applicable, all corrective measures taken or planned. The registrant shall also record the general
+weather conditions (i.e. sunny, approximately 80EF, 6 - 10 mph NE wind) during the visual
+emission check(s). Should a visible emission observation be required to be performed per the
+requirements specified in Method 9, the data records of each observation shall be maintained per
+the requirements of Method 9.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+31 of 39
+
+10.0. Source-Specific Requirements [Pneumatic (Process) Controllers Affected Facility
+(NSPS, Subpart OOOO/OOOOa/OOOOb)]
+10.1.
+
+Limitations and Standards
+
+10.1.1. The registrant of each pneumatic controller affected facility that commenced construction,
+modification or reconstruction after August 23, 2011, and on or before September 18, 2015 shall
+comply with the applicable requirements specified in 40 CFR Part 60, Subpart OOOO.
+10.1.2. The registrant of each pneumatic controller affected facility that commenced construction,
+modification or reconstruction after September 18, 2015 and on or before December 6, 2022 shall
+comply with the applicable requirements specified in 40 CFR Part 60, Subpart OOOOa.
+10.1.3. The registrant of each process controller affected facility that commenced construction,
+modification or reconstruction after December 6, 2022 shall comply with the applicable
+requirements specified in 40 CFR Part 60, Subpart OOOOb.
+
+11.0.
+
+Source-Specific Requirements [Pneumatic Pump Affected Facility (NSPS, Subpart
+OOOOa/OOOOb)]
+
+11.1.
+
+Limitations and Standards
+
+11.1.1. The registrant of each pneumatic pump affected facility that commenced construction,
+modification or reconstruction after September 18, 2015 and on or before December 6, 2022 shall
+comply with the applicable requirements specified in 40 CFR Part 60, Subpart OOOOa.
+11.1.2. The registrant of each pneumatic pump affected facility that commenced construction,
+modification or reconstruction after December 6, 2022 shall comply with the applicable
+requirements specified in 40 CFR Part 60, Subpart OOOOb.
+
+12.0.
+
+Source-Specific Requirements [Fugitive Emissions GHG and VOC Standards
+(NSPS, Subpart OOOOa/OOOOb)]
+
+12.1.
+
+Limitations and Standards
+
+12.1.1. The registrant of each affected facility (collection of fugitive emissions components at a well site)
+that commenced construction, modification or reconstruction after September 18, 2015 and on or
+before December 6, 2022 shall comply with the applicable requirements specified in 40 CFR Part
+60, Subpart OOOOa.
+12.1.2. The registrant of each affected facility (collection of fugitive emissions components at a well site)
+that commenced construction, modification or reconstruction after December 6, 2022 shall comply
+with the applicable requirements specified in 40 CFR Part 60, Subpart OOOOb.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+32 of 39
+
+13.0. Source-Specific Requirements [Reciprocating Internal Combustion Engine(s)
+(RICE), Generators, Microturbine Generators]
+13.1.
+
+Limitations and Standards
+
+13.1.1. The applicable RICE(s) and/or generator(s) shall be operated and maintained as follows:
+a.
+b.
+
+In accordance with the manufacturer’s recommendations and specifications or in
+accordance with a site specific maintenance plan; and,
+In a manner consistent with good operating practices.
+
+13.1.2. Requirements for Use of Catalytic Reduction Devices
+a.
+
+Rich-burn natural gas-fired engine(s) equipped with non-selective catalytic reduction
+(NSCR) air pollution control devices shall be fitted with a closed-loop, automatic air/fuel
+ratio controller to ensure emissions of regulated pollutants do not exceed the emission limit
+listed in the General Permit Registration for any engine/NSCR combination under varying
+load. The closed-loop, automatic air/fuel ratio controller shall control a fuel metering valve
+to ensure a fuel-rich mixture and a resultant exhaust oxygen content of less than or equal to
+2%.
+
+b.
+
+Lean-burn natural gas engine(s) equipped with selective catalytic reduction (SCR) air
+pollution control devices shall be fitted with a closed-loop automatic feedback controller to
+ensure emissions of regulated pollutants do not exceed the emission limit listed in the
+General Permit Registration for any engine/SCR combination under varying load. The
+closed-loop automatic feedback controller shall provide proper and efficient operation of the
+engine, ammonia injection and SCR device, monitor emission levels downstream of the
+catalyst element and limit ammonia slip to less than 10 ppmv.
+
+c.
+
+Lean-burn natural gas engine(s) equipped with oxidation catalyst air pollution control
+devices shall be fitted with a closed-loop automatic air/fuel ratio feedback controller to
+ensure emissions of regulated pollutants do not exceed the emission limit listed in the
+General Permit Registration for any engine/oxidation catalyst combination under varying
+load. The closed-loop, automatic air/fuel ratio controller shall control a fuel metering valve
+to ensure a lean-rich mixture.
+
+d.
+
+For natural gas engine(s), the registrant shall monitor the temperature to the inlet of the
+catalyst and in accordance with manufacturer’s specifications; a high temperature alarm shall
+shut off the engine before thermal deactivation of the catalyst occurs. If the engine shuts off
+due to high temperature, the registrant shall also check for thermal deactivation of the
+catalyst before normal operations are resumed.
+
+e.
+
+The registrant shall follow a written operation and maintenance plan that provides the
+periodic and annual maintenance requirements.
+
+13.1.3. The registrant shall comply with all applicable NSPS for Stationary Compression Ignition
+Internal Combustion Engines specified in 40 CFR Part 60, Subpart IIII, Stationary Spark Ignition
+Internal Combustion Engines specified in 40 CFR Part 60, Subpart JJJJ, and/or the National
+Emission Standards for Hazardous Air Pollutants (NESHAP) for Stationary Spark Ignition and
+Compression Ignition Internal Combustion Engines specified in 40 CFR Part 63, Subpart ZZZZ.
+13.1.4. Periods of start-up and shut-down shall not exceed 30 minutes per occurrence. The registrant
+shall operate the engine in a manner consistent with good air pollution control practices for
+minimizing emissions at all times, including periods of start-up and shut-down. The registrant
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+33 of 39
+
+shall comply with all applicable start-up and shut-down requirements in accordance with 40 CFR
+Part 60, Subparts IIII, JJJJ and 40 CFR Part 63, Subpart ZZZZ.
+13.1.6. For the purposes of General Permit G70-E, emergency generator means a generator whose
+purpose is to allow key systems to continue to operate without interruption during times of utility
+power outages.
+
+13.2.
+
+Monitoring Requirements
+
+13.2.1. Catalytic Reduction Devices
+a. The registrant shall regularly inspect, properly maintain and/or replace catalytic reduction
+devices and auxiliary air pollution control devices to ensure functional and effective operation
+of the engine’s physical and operational design. The registrant shall ensure proper operation,
+maintenance and performance of catalytic reduction devices and auxiliary air pollution control
+devices by:
+
+13.3.
+
+1.
+
+Maintaining proper operation of the automatic air/fuel ratio controller or automatic
+feedback controller.
+
+2.
+
+Following the catalyst manufacturer emissions related operating and maintenance
+recommendations, or develop, implement, or follow a site-specific maintenance plan.
+
+Recordkeeping Requirements
+
+13.3.1. To demonstrate compliance with general permit section 13.1.2, the registrant shall maintain
+records of the maintenance performed on each RICE and/or generator.
+13.3.2. To demonstrate compliance with general permit sections 13.2.1, the registrant shall maintain a
+copy of the site specific maintenance plan or manufacturer maintenance plan.
+13.3.3. The registrant shall comply with all applicable recordkeeping requirements under NSPS for
+Stationary Compression Ignition Internal Combustion Engines specified in 40 CFR Part 60,
+Subpart IIII, Stationary Spark Ignition Internal Combustion Engines specified in 40 CFR Part 60,
+Subpart JJJJ, and/or the National Emission Standards for Hazardous Air Pollutants (NESHAP) for
+Stationary Spark Ignition and Compression Ignition Internal Combustion Engines specified in 40
+CFR Part 63, Subpart ZZZZ.
+13.3.4. All records required by this section shall be maintained in accordance with section 3.5.1 of this
+general permit.
+
+13.4.
+
+Testing Requirements
+
+13.4.1. The registrant shall comply with all applicable testing requirements under NSPS for Stationary
+Compression Ignition Internal Combustion Engines specified in 40 CFR Part 60, Subpart IIII,
+Stationary Spark Ignition Internal Combustion Engines specified in 40 CFR Part 60, Subpart JJJJ,
+and/or the National Emission Standards for Hazardous Air Pollutants (NESHAP) for Stationary
+Spark Ignition and Compression Ignition Internal Combustion Engines specified in 40 CFR Part
+63, Subpart ZZZZ.
+13.4.2. To demonstrate compliance with general permit section 13.1.2(a), the registrant shall verify that
+the closed-loop, automatic air/fuel ratio controller shall control a fuel metering valve to ensure a
+fuel-rich mixture and a resultant exhaust oxygen content of less than or equal to 2% during any
+performance testing.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+13.5.
+
+34 of 39
+
+Reporting Requirements
+
+13.5.1. The registrant shall comply with all applicable notification requirements under NSPS for
+Stationary Compression Ignition Internal Combustion Engines specified in 40 CFR Part 60,
+Subpart IIII, Stationary Spark Ignition Internal Combustion Engines specified in 40 CFR Part 60,
+Subpart JJJJ, and/or the National Emission Standards for Hazardous Air Pollutants (NESHAP) for
+Stationary Spark Ignition and Compression Ignition Internal Combustion Engines specified in 40
+CFR Part 63, Subpart ZZZZ.
+
+14.0.
+
+Source-Specific Requirements [Tanker Truck/Rail Car Loading]
+
+14.1.
+
+Limitations and Standards
+
+14.1.1. Control Devices and VRUs. The registrant shall install, operate, and maintain all control devices
+and/or VRU(s) in accordance with the applicable requirements of section 8.0 of this general
+permit.
+14.1.2. The following applicable capture efficiencies are required:
+a.
+b.
+c.
+
+For tanker trucks and/or rail cars not passing one of the annual leak tests in 14.1.2(b) or (c)
+and has vapor return – 70%
+For tanker trucks and/or rail cars passing the NSPS level annual leak test – 98.7%.
+For tanker trucks and/or rail cars passing the MACT level annual leak test – 99.2%
+
+Compliance with this requirement shall be demonstrated by keeping records of the applicable
+MACT or NSPS Annual Leak Test certification for every truck and rail car loaded/unloaded. This
+requirement can be satisfied if the trucking/rail car company provided certification that all tanker
+trucks/rail cars servicing the location are compliant. This certification must be submitted with the
+G70-E Annual Certification.
+
+14.2.
+
+Recordkeeping Requirements
+
+14.2.1. The registrant shall maintain monthly and annual records that include the total quantity of material
+loaded into tanker trucks/rail cars. The annual records shall be calculated on a twelve (12) month
+rolling total.
+14.2.2. For the purpose of demonstrating compliance with section 14.1.2, the registrant shall maintain
+records of the MACT and/or NSPS Annual Leak Tests of all trucks/rail cars loaded at the
+facility. This requirement can be satisfied if the trucking/rail car company provided certification
+all tanker trucks/rail cars servicing the location was compliant. This certification must be
+submitted in writing to the Director of the DAQ.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+15.0
+
+35 of 39
+
+Source-Specific Requirements [Glycol Dehydration Units]
+
+15.1.
+
+Limitations and Standards
+
+15.1.1. The registrant of each glycol dehydration unit subject to 40 CFR Part 63, Subpart HH shall
+comply with the applicable requirements specified in 40 CFR Part 63, Subpart HH.
+15.1.2. Emission Calculations.
+a.
+
+For purposes of determining potential HAP emissions, the methods specified in 40 CFR 63,
+Subpart HH shall be used.
+
+b.
+
+Any source that has actual emissions of 5 tons per year or more of a single HAP, or 12.5 tons
+per year or more of a combination of HAP (i.e., 50 percent of the major source thresholds),
+shall update its major source determination within 1 year of the prior determination or
+October 15, 2012, whichever is later, and each year thereafter, using gas composition data
+measured during the preceding 12 months. [40CFR§63.760(c)]
+
+c.
+
+For the purposes of determining actual annual average natural gas throughput or actual
+average benzene emissions, the methods specified in § 63.772(b) of 40 CFR 63, Subpart HH
+shall be used if the registrant is exempt from § 63.764(d).
+
+15.1.3. Control Devices and Emission Reduction Devices. The registrant shall comply with all applicable
+control device and emission reduction device requirements provided in section 8.0 of this general
+permit for any control device and emission reduction device used to control emissions from the
+dehydration unit and that is listed in the G70-E General Permit Registration. Compliance will be
+demonstrated according to the requirements listed in Section 8.0 of this general permit.
+15.1.4. Maximum Glycol Recirculation Rate. The maximum glycol recirculation rate shall not exceed
+the gallons per minute limit listed in the registrant’s G70-D general permit application.
+Compliance with the Maximum Glycol Recirculation Limitation shall be determined using an
+average of a minimum of quarterly readings of the actual glycol pump(s) rate. If more than one
+pump is operating simultaneously then the rate of each operating pump shall be recorded and
+totaled for compliance purposes.
+
+15.2.
+
+Monitoring Requirements
+
+15.2.1. The registrant shall monitor the throughput of dry natural gas from the dehydration system on a
+quarterly basis for each glycol dehydration unit at the facility.
+15.2.2. Representative gas sample collection and analysis frequency for dehydration units shall be
+determined as set forth in the schedule provided in Table 15.2.2 of this section.
+Table 15.2.2
+Wet Gas Sampling and Analysis Frequency for Dehydration Units
+Based on Potential HAP Emission Rates
+Each dehydration unit exempt from
+§ 63.764(d) requirements and with
+federally enforceable controls
+
+Upon request by the Secretary.
+
+Each dehydration unit exempt from
+§ 63.764(d) requirements and without
+federally enforceable controls
+
+An initial compliance evaluation within 180 days
+of registration issuance or within 180 days of
+start-up of the dehydration unit, whichever is later.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+36 of 39
+
+15.2.3. To demonstrate compliance with area source status and the benzene exemption in 15.1.2.c, the
+following parameters shall be measured at a minimum frequency of once per quarter, with the
+exception of natural gas flowrate annual daily average, natural gas flowrate maximum design
+capacity and wet gas composition, in order to define annual average values or, if monitoring is
+not practical, some parameters may be assigned default values as listed below.
+a.
+
+b.
+c.
+d.
+e.
+f.
+g.
+
+h.
+i.
+
+Natural Gas Flowrate
+i. Operating hours per quarter
+ii. Quarterly throughput (MMscf/quarter)
+iii. Annual daily average (MMscf/day), and
+iv. Maximum design capacity (MMscf/day)
+Absorber temperature and pressure
+Lean glycol circulation rate
+Glycol pump type and maximum design capacity (gpm)
+Flash tank temperature and pressure, if applicable
+Stripping Gas flow rate, if applicable
+Wet gas composition (upstream of the absorber – dehydration column) sampled in
+accordance with GPA method 2166 and analyzed consistent with GPA extended method
+2286 as well as the procedures presented in the GRI-GLYCalc™ Technical Reference
+User Manual and Handbook V4
+Wet gas water content (lbs H2O/MMscf)
+Dry gas water content (lbs H2O/MMscf) at a point directly after exiting the dehydration
+column and before any additional separation points
+
+The following operating parameter(s) may be assigned default values when using GRI-GLYCalc:
+a.
+b.
+c.
+d.
+
+Dry gas water content can be assumed to be equivalent to pipeline quality at 7 lb H2O /
+MMscf
+Wet gas water content can be assumed to be saturated
+Lean glycol water content if not directly measured may use the default value of 1.5 %
+water as established by GRI
+Lean glycol circulation rate may be estimated using the TEG recirculation ratio of 3 gal
+TEG / lb H2O removed.
+
+Note: If you are measuring and using actual wet or dry gas water content, then you should
+also measure the glycol circulation rate rather than using the default TEG recirculation
+ratio.
+[45CSR§13-5.10, §63.772(b)(2)(i)]
+
+15.3.
+
+Testing Requirements
+
+15.3.1. The registrant shall sample wet natural gas in accordance with the Gas Processor Association
+(GPA) Method 2166 and analyze the samples in accordance with GPA Method 2286. The
+registrant may utilize other equivalent methods provided they are approved in advance by DAQ as
+part of a testing protocol. If alternative methods are proposed, a test protocol shall be submitted
+for approval no later than 60 days before the scheduled test date.
+Note: The DAQ defines a representative wet gas sample to be one that is characteristic of the
+average gas composition dehydrated throughout a calendar year. If an isolated sample is not
+indicative of the annual average composition, then a company may opt to produce a weighted
+average based on throughput between multiple sampling events, which can be used to define a
+more representative average annual gas composition profile.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+15.4.
+
+37 of 39
+
+Recordkeeping Requirements
+
+15.4.1. The registrant shall maintain records of the monthly dry natural gas throughput through the
+glycol dehydration unit(s), all monitoring data, wet gas sampling, and GRI-GLYCalcTM emission
+estimates. Said records shall be maintained in accordance with section 3.5.1 of this general
+permit.
+
+15.5.
+
+Reporting Requirements
+
+15.5.1. The registrant shall submit the wet gas analysis report required by section 15.2 of this general
+permit within 60 days of conducting the sampling of the wet gas stream as required. This report
+shall include a potential to emit (PTE) estimate using ProMax or GRI-GlyCalc Version 3.0 or
+higher, incorporating the specific parameters measured, as well as a copy of the laboratory
+analysis.
+15.5.2. If the results of the compliance determination conducted as required in Section 15.2 of this
+general permit predict the emissions to be at or above 0.95 tons per year of benzene, the registrant
+shall submit such determination and all supporting documentation to the Secretary within 15 days
+after making such determination.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+16.0.
+
+38 of 39
+
+Source-Specific Requirements [Liquids Unloading Operation at Gas Well Affected
+Facility (NSPS, Subpart OOOOb)]
+
+16.1.
+
+Limitations and Standards
+
+16.1.1. The registrant of each liquids unloading operation at gas well affected facilities that commenced
+construction, modification or reconstruction after December 6, 2022 shall comply with the
+applicable requirements specified in 40 CFR Part 60, Subpart OOOOb.
+
+17.0
+
+Source-Specific Requirements [Blowdown and Pigging Operations]
+
+17.1.
+
+Limitations and Standards
+
+17.1.1. The maximum number of blowdown events per year shall not exceed the number listed in the
+registrant’s G70-E General Permit Registration. Compliance with the Maximum Throughput
+Limitation shall be determined using a twelve (12) month rolling total. A twelve (12) month
+rolling total shall mean the sum of the quarterly throughput at any given time during the previous
+twelve (12) consecutive calendar months.
+17.1.2. The maximum number of compressor startup events per year shall not exceed the number listed in
+the registrant’s G70-E General Permit Registration. Compliance with the Maximum Throughput
+Limitation shall be determined using a twelve (12) month rolling total. A twelve (12) month
+rolling total shall mean the sum of the quarterly throughput at any given time during the previous
+twelve (12) consecutive calendar months.
+17.1.3. The maximum number of low pressure pigging events per year shall not exceed the number listed
+in the registrant’s G70-E General Permit Registration. Compliance with the Maximum
+Throughput Limitation shall be determined using a twelve (12) month rolling total. A twelve (12)
+month rolling total shall mean the sum of the quarterly throughput at any given time during the
+previous twelve (12) consecutive calendar months.
+17.1.4. The maximum number of high pressure pigging events per year shall not exceed the number listed
+in the registrant’s G70-E General Permit Registration. Compliance with the Maximum
+Throughput Limitation shall be determined using a twelve (12) month rolling total. A twelve (12)
+month rolling total shall mean the sum of the quarterly throughput at any given time during the
+previous twelve (12) consecutive calendar months.
+
+17.2.
+
+Recordkeeping Requirements
+
+17.2.1. All records required under section 17.2 of this permit shall be kept in accordance with permit
+condition 3.5.1.
+17.2.2. To demonstrate compliance with permit conditions 17.1.1 – 17.1.4, the permittee shall maintain a
+record of the blowdown and pigging events and estimated volume per event (scf) on a monthly
+and rolling twelve (12) month total.
+
+17.3.
+
+Reporting Requirements
+
+17.3.1. Any exceedance of permit conditions 17.1.1 – 17.1.4 must be reported in writing to the Director of
+the DAQ as soon as practicable, but within ten (10) calendar days, of the occurrence and shall
+include, at a minimum, the following information: the date of the exceedance, the estimate of
+VOC emissions released to the atmosphere as a result of the exceedance and any corrective
+measures taken or planned.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+G70-E
+Natural Gas Production Facility
+
+39 of 39
+
+CERTIFICATION OF DATA ACCURACY
+I, the undersigned, hereby certify that, based on information and belief formed after reasonable
+inquiry, all information contained in the attached ____________________________________, representing the
+period beginning _________________________ and ending _________________________, and any supporting
+documents appended hereto, is true, accurate, and complete.
+
+Signature1
+(please use blue ink)
+
+Responsible Official or Authorized Representative
+
+Date
+
+Name & Title
+(please print or type)
+
+Telephone No.
+
+1
+
+Name
+
+Title
+
+Fax No.
+
+This form shall be signed by a “Responsible Official.” “Responsible Official” means one of the following:
+a.
+
+For a corporation: The president, secretary, treasurer, or vice-president of the corporation in charge of a
+principal business function, or any other person who performs similar policy or decision-making functions
+for the corporation, or a duly authorized representative of such person if the representative is responsible
+for the overall operation of one or more manufacturing, production, or operating facilities applying for or
+subject to a permit and either:
+(i) the facilities employ more than 250 persons or have a gross annual sales or expenditures exceeding $25
+million (in second quarter 1980 dollars), or
+(ii) the delegation of authority to such representative is approved in advance by the Director;
+
+b.
+
+For a partnership or sole proprietorship: a general partner or the proprietor, respectively;
+
+c.
+
+For a municipality, State, Federal, or other public entity: either a principal executive officer or ranking
+elected official. For the purposes of this part, a principal executive officer of a Federal agency includes the
+chief executive officer having responsibility for the overall operations of a principal geographic unit of the
+agency (e.g., a Regional Administrator of U.S. EPA); or
+
+d.
+
+The designated representative delegated with such authority and approved in advance by the Director.
+
+West Virginia Department of Environmental Protection • Division of Air Quality
+
+

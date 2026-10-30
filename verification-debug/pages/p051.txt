@@ -1,0 +1,387 @@
+AIR PERMITTING
+GENERAL PERMIT UPDATES
+NEW JERSEY
+DEPARTMENT OF ENVIRONMENTAL PROTECTION
+BUREAU OF STATIONARY SOURCES
+
+NJDEP AIR PERMIT APPLICABILITY FOR
+EMERGENCY GENERATORS
+• Commercial fuel burning equipment that has a
+maximum rated heat input of 1,000,000 BTU per hour
+or greater to the burning chamber, including
+emergency generators.
+• Any stationary reciprocating engine with a
+maximum rated power output of 37 kW or greater,
+used for generating electricity, not including
+emergency generators.
+
+2
+
+WHEN A GENERATOR IS CONSIDERED AN
+EMERGENCY GENERATOR
+• Emergency generators may be operated in three limited cases:
+1. During the performance of normal testing and maintenance
+procedures, as recommended in writing by the manufacturer
+and/or as required in writing by a Federal or State law or regulation
+2.
+
+When there is power outage or the primary source of mechanical or
+thermal energy fails because of an emergency.
+
+3.
+
+When there is a voltage reduction issued by PJM and posted on the
+PJM internet website (www.pjm.com) under the “emergency
+procedures” menu.
+
+• Operation of the equipment that does not meet one of these three
+cases disqualifies the equipment from meeting the definition of an
+emergency generator.
+Note: The use of a generator for demand response is not allowed under a general permit. The facility would
+have to obtain a regular air permit Preconstruction or Operating permit. The engine would be required to
+comply with all applicable regulations including NOx RACT, State of The Art and be subject to a risk
+screening analysis. Compliance with the aforementioned regulations and emissions standards typically
+3
+results in the installation of add-on air pollution control.
+
+AIR PERMIT APPLICABILITY DETERMINATION
+FOR EMERGENCY GENERATORS
+• http://www.nj.gov/dep/enforcement/air-resources.html
+
+4
+
+PERMITTING OPTIONS FOR MAJOR SOURCES
+Operating Permit – NJAC 7:27-22 Major Facilities Regulated
+under Title V of the Clean Air Act
+Note: The major source threshold for Potential to Emit (PTE) of 25
+tons/year NOx is what typically causes a combustion source to trigger
+Major Source applicability
+
+Two Permitting Procedures for Major Facilities
+• General Operating Permits (GOPs)
+• Case- by-Case (Title V Permit)
+
+5
+
+PERMITTING OPTIONS FOR
+MINOR SOURCES
+Preconstruction Permit – NJAC 7:27-8 Minor Facilities, State Issued Permit
+Two Permitting Procedures for Minor Facilities
+• General Permits (GPs)
+• On-line Registration
+• Immediate authorization to construct
+• Case- by-Case
+• Preconstruction Permits (PCPs) – Electronic Application (Radius) for
+Minor Sources
+• 30-60 day average processing time
+
+6
+
+PERMIT OPTION FOR EMERGENCY GENERATORS
+BURNING DISTILLATE FUELS*
+GP-005A for minor facilities or
+GOP-003 for major facilities
+Applicability
+• GP-005A for a single or multiple emergency generator burning
+distillate fuel(s) with a maximum rated heat input to the burning
+chamber of less than 100 million BTU per hour (MMBTU/hr).
+• GOP-003 for a single emergency generator, 2007 model year or
+later, having a maximum rated heat input less than or equal to 30
+million BTU per hour (MMBTU/hr)
+*Distillate fuels means Diesel, Kerosene and no.2 fuel oil
+
+7
+
+PERMIT OPTION FOR EMERGENCY GENERATORS
+BURNING GASEOUS FUELS*
+GP-005B for minor facilities or
+GOP-004 for major facilities
+Applicability
+• GP-005B for a single or multiple emergency generator burning
+gaseous fuel(s) with a maximum rated heat input to the burning
+chamber of less than 70 million BTU per hour (MMBTU/hr).
+• GOP-004 for a single emergency generator
+*Gaseous fuels means Natural Gas and/or Propane
+
+8
+
+GP-005A AND GOP-003
+EMERGENCY GENERATOR(S)
+BURNING DISTILLATE FUELS
+
+
+Federal Requirements:
+• NSPS:
+• All model year 2007 and later emergency generators
+must be a certified engine
+• The maximum sulfur content for the Distillate fuel
+should not exceed 15 ppm
+
+
+MACT for existing engines for minor facilities:
+• Pollution prevention measures that involve inspections
+and/or change of oil to optimize engine efficiency
+
+9
+
+GP-005B AND GOP-004
+EMERGENCY GENERATOR(S)
+BURNING GASEOUS FUELS
+
+
+Federal Requirements:
+• NSPS is applicable:
+• If construction (the date the engine is ordered by the
+owner or operator) commenced after June 12, 2006
+AND it was manufactured on or after January 1, 2009
+• Emergency generators must be certified by EPA
+conformity
+• MACT for existing engines:
+• Pollution prevention measures that involve inspections
+and/or change of oil to optimize engine efficiency
+
+10
+
+WHAT “CERTIFIED” MEANS?
+“Certified Stationary Internal Combustion Engine” means an
+engine that belongs to an engine family that has a certificate of
+conformity that complies with the emission standards and
+requirements in 40 CFR part 60.4230, et. seq.,40 CFR part 90, 40
+CFR Part 1048, or 40 CFR part 1054, as appropriate.
+
+“Certificate of Conformity” means a certificate issued by EPA to
+the manufacturer of the stationary internal combustion engine
+that the engine is certified and conforms to the emission
+standards and requirements in 40 CFR part 90, 40 CFR part 1048,
+or 40 CFR part 1054, as applicable.
+
+11
+
+Note: Engines that are not certified must come case by
+case application, and pay the appropriate fees
+applications and NSPS review.
+12
+
+13
+
+HTTP://WWW.EPA.GOV/OTAQ/CERTDATA.HTM#LSI
+
+14
+
+GP-21 CHP TURBINE <= 65 MMBTU/HR
+Applicability
+• GP-021 is for a single or multiple Combined Heat
+and Power (CHP) combustion turbine(s), with or
+without duct burner(s), having a maximum or
+combined total heat input rate less than or equal
+to 65 million BTU per hour (MMBtu/hr) based on
+the higher heating value (HHV) of the fuel;
+Note:
+
+This General Permit can only be used for CHP combustion turbine unit(s)
+with total designed efficiency greater than or equal to 65 percent; and
+burning the following fuels: natural gas or propane as gaseous fuels and
+kerosene or distillate oil as liquid fuels .
+15
+
+GP-022 CHP SI RECIPROCATING ENGINE
+<= 65 MMBTU/HR
+
+Applicability
+• GP-022 is for a single or multiple Combined Heat
+and Power (CHP) spark ignition reciprocating
+engine(s), with or without duct burner(s), having a
+maximum or combined total heat input rate less
+than or equal to 65 million BTU per hour (MMBtu/hr)
+based on the higher heating value (HHV) of the
+fuel
+Note:
+
+This General Permit can only be used for CHP SI engine unit(s) with a
+maximum total designed efficiency greater than or equal to 65 percent;
+and combusting only natural gas or propane
+16
+
+GENERAL PERMIT UPDATES
+• GP-017A Each Less Than 5 MMBTU/hr
+Applicability
+• A single or multiple boiler(s) and/or heater(s) with a
+maximum rated heat input to the burning chamber of
+less than 5 million BTU/hr burning only the following
+commercial fuels: Natural Gas, No. 2 Fuel Oil, Propane
+and/or Kerosene.
+17
+
+GENERAL PERMIT UPDATES
+• GP-018A Each greater than or equal 5
+MMBTU/hr and less than 10 MMBTU/hr
+Applicability
+• A single or multiple boiler(s) and/or heater(s) with a
+maximum rated heat input to the burning chamber of
+less than 10 million BTU/hr burning only the following
+commercial fuels: Natural Gas, No. 2 Fuel Oil, Propane
+and/or Kerosene.
+18
+
+GENERAL PERMIT UPDATES
+• GP-016A Small Emitter General Air Permit (SEGAP)
+Applicability
+The following source category is eligible for this General Permit:
+• Equipment in which the combined weight of all raw materials used exceeds
+50 pounds in any one hour, in accordance with N.J.A.C. 7:27-8.2(c)19. In
+determining the weight of the raw materials used, the weight of the
+following shall be excluded, in accordance with N.J.A.C. 7:27-8.2(c)19ii.
+• Air;
+• Water;
+• Containers, as long as the container is not consumed as part of the
+operation; and
+• Paper, metal or plastic that is twisted, bent or folded in the
+operation, as long as it does not cause visible emissions.
+
+19
+
+WHAT AIR PERMIT IS APPLICABLE?
+Sources
+
+Permit
+
+EG burning Natural Gas and/or
+Propane
+
+GP-005B or GOP-004
+
+EG burning Diesel
+
+GP-005A or GOP-003
+
+EG burning Dual fuel (Natural gas
+and/or diesel)
+
+PCP or Operating Permit case by case
+review
+
+EG burning Tri fuel (Natural gas,
+Propane and/or Gasoline)
+
+PCP or Operating Permit case by case
+review
+
+Note: The use of a generator for demand response is not allowed under a general
+permit. The facility would have to obtain a regular air permit Preconstruction or
+Operating permit. The engine would be required to comply with all applicable
+regulations including NOx RACT, State of The Art and be subject to a risk
+screening analysis. Compliance with the aforementioned regulations and
+emissions standards typically results in the installation of add-on air pollution
+control.
+20
+
+HOW TO REGISTER?
+
+• General Permits:
+• Online Registration and online submittal
+• Fee: $820 (multiple pieces of equipment) (other associated
+fees may apply)
+
+• PCP case by Case application:
+• Radius Program – online submittal or by mail
+• Fee: $2,527 and $590.00 (per each additional piece of
+equipment)
+
+21
+
+REQUIREMENTS FOR
+ONLINE BUSINESS PORTAL
+• http://www.state.nj.us/dep/aqpp (GPs and Radius
+procedures)
+• Obtain Facility ID / Program Interest Number
+(Applications and Forms – AIMS 099)
+• Create a "My New Jersey Account" at:
+http://www.njdeponline.com/ (then you will be able
+to login and create your GP)
+• Information or documents required:
+• Facility specific information
+• Details on Source Operations
+• Authorization to Certify registration (Individual With Direct Knowledge
+& Responsible Official)
+• Credit card or bank routing number (e-check) to complete the
+process
+22
+
+TO RENEW AN EXISTING
+GENERAL PERMIT
+http://www.njdeponline.com/
+
+You will need the invoice number.
+Otherwise you can submit your payment by mail to Treasurer
+
+23
+
+HINT, HINT, HINT
+• Invoice numbers change from initial to second
+notice to third notice. NJEMS Bill ID Numbers DO
+NOT!
+• Both are on the Invoice
+• Track the NJEMS BILL ID Numbers in addition to the
+invoice number so you DON’T PAY TWICE!
+
+24
+
+IF YOUR GENERAL PERMIT
+CANNOT BE RENEWED
+• Existing GPs that have been replaced by new
+General permits can not be renewed. For example
+existing GP-005. A new registration should be
+submitted.
+
+25
+
+CONTACT INFORMATION
+Name
+
+Phone number
+
+email
+
+General Permit
+HELP LINE
+
+609-633-2829
+
+----------------------------------------
+
+RADIUS HELP LINE
+
+609-292-6716
+
+----------------------------------------
+
+Mayra Reyes for
+General permits
+
+609-984-6072
+
+mayra.reyes@dep.nj.gov
+
+Edivia Molina
+GP Helpline
+
+609-633-2931
+
+edivia.molina@dep.nj.gov
+
+Northern REO
+
+973-656-4444
+
+Central REO
+
+609-292-3187
+
+Southern REO
+
+856-614-3601
+26
+
+QUESTIONS
+
+

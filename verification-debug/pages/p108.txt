@@ -1,0 +1,272 @@
+Air permit exemptions | | Wisconsin DNR 
+Skip to main content
+Facebook 
+YouTube 
+Instagram 
+LinkedIn 
+Search 
+Main navigation 
+Hunting 
+Fishing 
+Parks 
+Climate 
+Environment 
+Forestry 
+Licenses 
+News 
+About 
+Contact 
+Small Business_Content Page_Air permit exemptions 
+Breadcrumb
+Home 
+&raquo; 
+Topic 
+&raquo; 
+Small Business 
+Air permit exemptions
+New facilities, or construction projects at existing facilities, with low air pollution emissions may be exempt from air pollution permits. This may apply to small facilities or small changes at larger facilities. Even if a facility is eligible for a permit exemption, you must still abide by all applicable air quality regulations.
+There are different types of exemptions. Exemption types are described on the tabs below in addition to frequently asked questions to provide additional information. You may need to calculate your air pollution emissions to determine if the facility qualifies and demonstrates ongoing eligibility for most types. The actual emissions construction permit exemption is based on the emissions from only the air emission units being added or changed by a construction project. The actual emissions operation permit exemption is based on the emissions from all air emission units at the entire facility.
+Exemptions use two different terms for emissions:
+Will emit means the actual emissions the unit will generate under normal operations.
+Maximum theoretical emissions (MTE) is defined in s. NR 400.02(95) , Wis. Adm. Code and means the emissions from the operations at the absolute highest production level physically allowed by the design capacity. It is not just the maximum level at which you expect to operate the process line. MTE also does not consider any control device that might be used to reduce emissions. The process design capacity may be the maximum conveyor line speed if the process paints parts attached to an overhead conveyor line, or maximum press speed, etc. These are important distinctions to consider when determining if you meet one of these exemptions. The MTE Calculations for Air Permit Exemptions (AM-548) fact sheet may help explain these definitions further.
+If you determine that the facility or the construction project qualifies for an exemption, you may need to apply to gain DNR approval for certain exemptions. In the case of an exempt construction project, facilities with a source-specific operation permit will need to submit an operation permit revision application to incorporate the exempt units into the operation permit. Each tab below indicates which air permit forms and checklists should be completed for a particular exemption request. The Air Permit and Compliance Forms page has instructions on how to submit the completed forms.
+Some exemptions require a fee in addition to submitting an application. Required fees are listed on the tabs for exemptions summarized below. Refer to the Construction Permit Exemption section on the FAQs tab for a list of other exemptions that require fees.
+If the project or facility does not meet one of these exemptions, review the other permit options available. If the project or facility is exempt, review additional air regulations that may apply (such as annual emission inventory reporting requirements under ch. NR 438, Wis. Adm. Code).
+Construction Permit Exemptions
+(based on the construction project)
+Operation Permit Exemptions
+(based on the entire facility)
+General Exemptions
+General Exemptions
+Specific Categories of Exemptions
+Specific Categories of Exemptions
+Actual Emissions-Based Exemptions for Construction Permits (New Source, or NS)
+Actual Emissions-Based Exemptions for Operation Permits (OP)
+Natural Minor Source Exemptions
+General 
+Specific 
+Actual Emissions OP 
+Actual Emissions NS 
+Natural Minor 
+FAQs 
+General exemptions
+The general exemptions are available for both construction and operation permits, and can be used to exempt just a construction project or the whole facility. They are based on the MTE of each criteria pollutant and hazardous air pollutant. The MTE of each pollutant may not exceed the following:
+9.0 pounds (lb) per hour of sulfur dioxide or carbon monoxide;
+5.7 lb/hr of particulate matter (PM), nitrogen oxides (NOx) or volatile organic compounds (VOC);
+3.4 lb/hr of PM less than 10 microns in size (PM10);
+2.2 lb/hr of PM2.5;
+0.13 lb/hr of Lead (Pb);
+the value for any hazardous air contaminant listed in Tables A, B, or C in ch. NR 445, Wis. Adm. Code, for the respective stack height listed in each column; and
+10 tons per year (TPY) of any one federal hazardous air pollutants (HAP) or 25 TPY combined of all federal HAPs.
+A few other thresholds must be met to use this exemption. Be sure to review the rules in ss. NR 406.04(2) or NR 407.03(2) , Wis. Adm. Code, for the most current thresholds.
+When using this exemption for a construction project, the emissions from the project must meet each of the thresholds. The exception for the NR 445 values, when combining the stacks associated with the construction project into the stack height categories and the total HAPs emissions for each category are below the NR 445 thresholds. The facility will need to add the exempt construction project to the source-specific operation permit by submitting an application for revision.
+Identify the appropriate revision option on Form 4530-100, Facility Details and Permit Actions (4530-100) , and submit any additional application forms as appropriate to submit a complete amended/revision application.
+Use the Operation Permit Revision Application Checklist (AM-598) to ensure a complete revision application.
+Always download Air Management PDF forms to your computer before opening and entering information. If needed, visit the DNR's PDF Help page for assistance.
+If requesting in your application that the department affirm the general exemption determination, include the applicable fee specified in the Construction Permit Actions Section B of Form 4530-100. A copy of Form 4530-100 can be found at the Air Permit Forms webpage under the Source-Specific Forms tab.
+For example, if you want to add a new unit or increase the capacity of a unit like a solvent-based parts washer, the MTE of VOCs from the new or expanded parts washer must be less than the exemption threshold of 5.7 pounds per hour. Any hazardous air contaminants must meet NR 445 levels to qualify for the general category of construction permit exemptions. If the project qualifies for a construction permit exemption, but the entire facility does not qualify for an operation permit exemption, you must apply for an operation permit revision to incorporate the new/modified parts washer. An operation permit revision application includes process-related forms for each exempt unit included in the project.
+To qualify for the general exemption from operation permits in NR 407, the MTE from the entire facility must be below each of the thresholds, and the other exemption criteria must be met.
+MTE Example Calculations Worksheet (SB-300) [Excel] — Examples in this spreadsheet explain MTE calculations for various emissions sources. Always include fugitive emissions in the MTE calculations. Download the spreadsheet to your computer and enable editing or create your own spreadsheet and follow the calculation examples provided.
+Specific exemptions
+Specific exemptions are available for certain industries where DNR has established operational or production rates that ensure a facility or construction project will not require a permit.
+There are slight differences in how these categorical exemptions can be combined for a construction project or the whole facility. Contact the Small Business Environmental Assistance Program (SBEAP) staff at the helpline or email address provided on the right side of this page.
+Some categories of exemptions include:
+Gaseous fuel boilers with a total heat input rate less than 25 MMBtu/hr.
+Restricted use reciprocating internal combustion engines (e.g., emergency generators, fire pumps) with a total electric output of less than 3,000 KW.
+Painting or coating operations that emit or will emit no more than 1,666 pounds of volatile organic compounds (VOCs) per month, measured before entering any emission control device.
+Graphic arts operations that emit or will emit no more than 1,666 pounds of VOCs per month, which are measured before entering any emission control device.
+Motor vehicle refinishing shops that emit or will emit no more than 1,666 pounds of VOCs per month, which are measured before entering any emission control device.
+Cold cleaning equipment with a total air to vapor interface of 1.0 square meters or less during operation.
+Dry cleaning operations with a total maximum operating capacity for all machines of 75 pounds of clothes per hour.
+Gasoline dispensing facilities that dispense gasoline or other petroleum products.
+Grain storage facilities with an average of less than 5500 tons grain received per month.
+Grain processing facilities with an average of less than 4500 tons per month.
+Review ss. NR 406.04(1) or NR 407.03(1) for all the specific exemption categories available.
+In a construction project, a facility may install multiple categories of units so long as each one meets a listed specific exemption. If any unit included in the project does not meet the exemption or is not listed, then the entire project cannot use the specific exemption. If the facility anticipates potentially exceeding an exemption level within a year or so, consider another type of exemption or apply for a construction permit.
+For the operation of an entire facility, you may only use the specific exemption for multiple categories of units if they are listed in s. NR 407.03(1)(t) , Wis. Adm. Code.
+An exempt construction project must be added to a source-specific operation permit by submitting an application for revision.
+Identify the appropriate revision option on Form 4530-100, Facility Details and Permit Actions , and submit any additional application forms as appropriate to submit a complete amended/revision application.
+Use the Operation Permit Revision Application Checklist (AM-598) to ensure a complete revision application.
+Always download Air Management PDF forms to your computer before opening and entering information. If needed, visit DNR's PDF Help page for assistance.
+If requesting in your application that the department affirm the general exemption determination, include the applicable fee specified in the Construction Permit Actions Section B of Form 4530-100. A copy of Form 4530-100 can be found at the Air Permit Forms webpage under the Source-Specific Forms tab.
+Actual emissions exemption from operation permit
+The actual emissions-based operation permit exemption is intended for facilities with low actual emissions. Facilities eligible for this exemption are also exempt from construction permit requirements.
+For example, if a small facility is constructing a new unit, first determine whether the whole facility is eligible for the operation permit exemption. If eligible, the facility may add the unit under this exemption without a construction permit.
+The following fact sheets contain more information on this exemption and how to determine if your facility is eligible:
+Actual Emissions Based-Exemption from Operation Permits (AM-388) 
+Actual Emissions Example Calculations (SB-301) [Excel] — Always include fugitive emissions in the calculations. Download the spreadsheet to your computer and enable editing or create your own spreadsheet and follow the calculation examples provided.
+Exemption from the requirement to get a permit does not exempt the facility from other air pollution regulations. The Small Business Environmental Assistance Program (SBEAP) has resources to help facilities determine what rules apply and how to show compliance with them. Contact SBEAP staff at the helpline or email address provided on the right side of this page.
+How to obtain an exemption
+If a facility is eligible for an actual emissions-based operation permit exemption, notify DNR in writing of the intent to operate under the exemption if either of the following conditions apply to the facility:
+The facility is required to report annual emissions under s. NR 438.03 , Wis. Adm. Code.
+The facility has submitted an operation permit application or is currently operating under an air pollution control permit.
+To notify DNR of the facility's intent to operate under the actual emissions exemption, complete Form 4530-100 Facility Details and Permit Actions Air Pollution Control Application (4530-100) and select the appropriate Operation Permit exemption option. Always download PDF applications to your computer before opening and entering information. If needed, visit DNR's PDF Help page for assistance.
+In addition to form 4530-100, submit information to demonstrate that the facility qualifies for the exemption, including an estimate of the air pollution emissions from the facility. Complete the Operation Permit Exemption Checklist (AM-597) to ensure a complete application is submitted. No fee is required when requesting this exemption.
+Actual emissions exemption for a construction permit
+The actual emissions-based construction permit exemption is for projects at any facility that meet certain emissions limits. Facilities with a Registration Permit or General Operation Permit do not need to apply for this exemption.
+For example, if a small facility is constructing a new unit, check first to determine if it is eligible for the actual emissions operation permit exemption on the previous tab. If eligible, the facility may add the unit under the operation permit exemption without a construction permit, as long as the unit stays under the exemption threshold.
+The following fact sheets contain more information on permit exemptions and how to determine if your facility is eligible:
+Exemptions from Construction Permits Based on Actual Emissions (AM-387) 
+Actual Emissions Example Calculations (SB-301) [Excel] — Always include fugitive emissions in the calculations. Download the spreadsheet to your computer and enable editing or create your own spreadsheet and follow the calculation examples provided.
+Exemption from the requirement to get a permit does not exempt a facility from other air pollution regulations. The Small Business Environmental Assistance Program (SBEAP) has resources to help facilities determine what rules apply and how to show compliance with them. Contact SBEAP staff at the helpline or the email address provided on the right side of this page.
+How to obtain an exemption
+If a facility is eligible for a construction permit exemption, take the following steps before starting on any projects.
+Make a claim of exemption from construction permitting by completing Form 4530-100 Facility Details and Permit Actions Air Pollution Control Application (4530-100) and submitting a thorough description of the project, emission estimates and any other information needed to confirm eligibility for the exemption. Always download Air Management PDF forms to your computer before opening and entering information. If needed, visit DNR's PDF Help page for assistance.
+Complete the Construction Permit Exemption Application Checklist (AM-387) to ensure a complete application is submitted.
+Include the applicable fee specified in the Construction Permit Actions Section B of Form 4530-100. A copy of Form 4530-100 can be found at the Air Permit Forms webpage under the Source-Specific Forms tab.
+In addition, include a complete application for a revision to the facility-wide operation permit or, if DNR has not yet acted upon the application for an operation permit, submit an amendment to your application . Identify the appropriate revision option on Form 4530-100, Facility Details and Permit Actions, and submit any additional application forms as appropriate to submit a complete amended/revision application.
+If control equipment is used to limit actual emissions from any unit in the project, the operation permit revision application or amendment must propose methods that will be used to monitor the operation of the control equipment.
+Natural minor exemption for operation permits
+The natural minor exemption allows minor source facilities to operate without obtaining an operation permit. All other air pollution requirements still apply, as well as the requirement to obtain construction permits when needed.
+Who is eligible?
+A facility could be eligible for this exemption if it:
+is not a major source under chapters NR 405 or NR 408,
+is not a synthetic minor source under NR 407 or to avoid permitting under NR 405 or NR 408, or
+is not a major Part 70 source under NR 407.
+Facilities with existing operation permits or construction permits can determine whether any of these apply based on the types of construction and operation permit types issued previously. If you have an operation permit number that ends in "-S" followed by two digits, then the facility is considered a "Non-Part 70" source and is likely eligible for this exemption.
+Sources that do not have an operation permit yet should calculate their current Maximum Theoretical Emissions (MTE) from the whole facility to determine eligibility. MTE greater than the following levels would make the facility a Part 70 source, and not eligible for this exemption:
+MTE Example Calculations Worksheet (SB-300) [Excel] — Examples in this spreadsheet explain MTE calculations for a variety of emissions sources. Download the spreadsheet to your computer and enable editing or create your own spreadsheet and follow the calculation examples provided.
+For Natural Minor facility status determinations, do not include fugitive emissions in these calculations, UNLESS the facility is in a category listed in NR 407.02(4)(b) – shown here:
+Carbon black plants, furnace process
+Charcoal production plants
+Coal cleaning plants with thermal dryers
+Coke oven batteries
+Chemical process plants (Except ethanol production facilities that use natural fermentation, as described by 312140 or 325193 in 2007 NAICS.)
+Fossil-fuel boilers, or a combination thereof, totaling more than 250 million British thermal units per hour heat input
+Fossil-fuel-fired steam electric plants of more than 250 million British thermal units per hour heat input
+Fuel conversion plants
+Glass fiber processing plants
+Hydrofluoric, sulfuric or nitric acid plants
+Iron and steel mills
+Kraft pulp mills
+Lime plants
+Primary aluminum ore reduction plants
+Primary copper smelters
+Primary lead smelters
+Primary zinc smelters
+Secondary metal production plants
+Sintering plants
+Sulfur recovery plants
+Taconite ore processing plants
+Any other stationary source category not listed, which as of Aug. 7, 1980 is being regulated under section 111 or 112 of the Clean Air Act: s. 111 - incinerators, Portland cement plants, nitric acid and sulfuric acid plants, asphalt plants, petroleum refineries, storage vessels for petroleum liquids, secondary lead smelter, secondary brass and bronze production, basic oxygen process furnaces, sewage treatment plants, primary copper, zinc, lead smelters, primary aluminum
+How to apply
+Sources that qualify and wish to operate under the natural minor exemption can declare their intent to operate under this exemption by completing the form 4530-100 Facility Details and Permit Actions Air Pollution Control Application (4530-100) and selecting the appropriate Operation Permit exemption option. In addition to form 4530-100, submit information to demonstrate that the facility qualifies for the exemption, including an estimate of the MTE from the facility. Complete the Operation Permit Exemption Checklist (AM-597) to ensure a complete application is submitted. Always download PDF applications to your computer before opening and entering information. If needed, visit DNR's PDF Help page for assistance.
+Submitting a request to operate under this exemption will trigger DNR to revoke all existing operation permits. While exempt from operation permits, sources must still obtain and comply with construction permits when needed.
+For more details on eligibility, what to submit and the process to obtain the exemption, read the fact sheet Natural Minor Source Exemption from Operation Permits (AM-547) . No fee is required when requesting this exemption.
+Demonstrating compliance
+Exemption from the requirement to get a permit does not exempt a facility from other air pollution regulations. Sources with an existing operation permit considering this exemption may want to review their current operation permit for all applicable requirements listed and be sure they can maintain compliance with those conditions going forward. Sources that have not been issued an operation permit may want to review the "Compliance Resources" tab on the small air sources page for more information on requirements that may apply and how to demonstrate compliance.
+Sources should be aware that revoking all previously issued operation permits will remove any synthetic minor limits or other restrictions that may have been established to avoid certain requirements, such as a rule on Volatile Organic Compounds (VOC) to meet either Reasonably Available Control Technology (RACT) standards in ch. NR 422, Wis. Adm. Code, or a Latest Available Control Techniques and operating practices (LACT) determination under ch. NR 424, Wis. Adm. Code. Or there might be a limit to restrict emissions used to meet the state hazardous air pollutant rule in ch. NR 445, Wis. Adm. Code, that is removed. If these limits were not established in a construction permit, then the source will need to determine a new compliance method for those requirements. It would be possible to request a construction permit to set those limits permanently, but that will incur construction permit application and review fees.
+Operation Permit Exemption FAQ
+How does a facility apply for an operation permit exemption?
+DNR offers four types of operation permit exemptions. Review the information provided on the Air Permit Exemption webpage to determine which type of exemption best suits the operations at the facility. The facility may qualify for one or more types of operation permit exemptions. The most popular option is the actual emissions-based operation permit exemption in s. NR 407.03(1m) , Wis. Adm. Code.
+Contact DNR's Small Business Helpline at 1-855-889-3021 for assistance in determining the type(s) of operation permit exemptions that may apply.
+What does a facility need to submit to DNR when applying for an operation permit exemption?
+For the "Actual Emission-based Operation Permit Exemption" in s. NR 407.03(1m) , Wis. Adm. Code, and the "Natural Minor Source Operation Permit Exemption" in s. NR 407.03(1s) , Wis. Adm. Code, application form 4530-100 must be submitted along with the associated emission calculations to support the claim of exemption. For all other types of operation permit exemptions, it is not required to notify DNR or submit an application. For the actual emission-based operation permit exemption, submit a copy of the recent or projected actual emissions information. An emission inventory report could serve this purpose if one has been filed in the previous calendar year. For the natural minor source operation permit exemption, submit a copy of the maximum theoretical emission (MTE) calculations for all air pollution emitting units at the source.
+Is there a fee for applying for an operation permit exemption?
+No. There is no fee for requesting an operation permit exemption approval.
+How long will it take to receive an operation permit exemption approval once the application is submitted?
+Generally, applicants receive their exemption approval within a couple of weeks if adequate information is provided. Contact DNR for questions on the status of an exemption request. Air Permit Contacts .
+The emission units at the facility fit into more than one source category listed in the specific categories of exempt sources in s. NR 407.03(1) , Wis. Adm. Code. Can the facility qualify for the operation permit exemption under s. NR 407.03(1) , Wis. Adm. Code?
+Facilities qualify for the specific categories of exempt sources listed in s. NR 407.03(1) , Wis. Adm. Code only if the operations all fit under one of the categories listed, or the operations fit into the combination of categories allowed in s. NR 407.03(1)(t) , Wis. Adm Code. If the facility does not qualify for the specific categories of exempt sources, review the other exemption options on the Air Permit Exemptions webpage .
+Does the operation permit exemption approved by DNR also exempt the facility from any future construction permit requirements?
+Only if the facility operates under the actual emission-based operation permit exemption in s. NR 407.03(1m) , Wis. Adm. Code, and the facility continues to qualify for that exemption after each construction project is complete. If the facility operates under a different operation permit exemption, each future project must be evaluated to determine whether it qualifies for a construction permit exemption under s. NR 406.04 , Wis. Adm. Code.
+If a facility plans to add new units or to modify existing units and the project is exempt from construction permit requirements, is it also exempt from operation permit requirements?
+Whether a facility is exempt from operation permit requirements is determined based on the emissions from the entire facility, including both new and existing emission units. Whether a construction project is exempt from construction permit requirements is determined based on the emissions from the emissions units covered by the construction project solely. Refer to the previous question for an explanation of the exemption option that may allow for construction without submitting an additional application for exemption or permit.
+If a facility has received an actual emissions-based operation permit exemption approval, is there a requirement to notify DNR of any construction or modification in the future?
+An actual emissions-based operation permit exemption allows for construction and modification projects without additional DNR notification, as long as the facility continues to qualify for the actual emissions-based operation permit exemption status after construction or modification is complete.
+If a facility plans to make changes and no longer qualifies for an operation permit exemption approval, is there a requirement to apply for an operation permit?
+Yes. If planning changes that will no longer qualify the facility for an operation permit exemption, an operation permit application must be submitted to the department before commencing construction or modification. Check the permit option webpage to determine the type(s) of operation permits available. If the proposed construction or modification project does not qualify for a construction permit exemption under s. NR 406.04 , Wis, Adm. Code, a construction permit application for the project must be submitted. Contact DNR's Small Business Helpline at 1-855-889-3021 for assistance.
+Is a facility required to report annual emissions if exempt from operation permits?
+Emission reporting is required when the actual emissions from the entire facility are above the reporting thresholds specified in ch. NR 438 , Wis. Adm. Code. Even if exempt from operation permit requirements, a facility must meet all other applicable requirements in chs. NR 400-499 , Wis. Adm. Code, and federal air pollution regulations, including emission reporting requirements.
+What records are required to be submitted to DNR to show a facility's emissions are below the exemption thresholds?
+Other than the annual air emission reports required under ch. NR 438 , Wis. Adm. Code, there is no requirement to submit additional information to DNR. However, the facility is required to maintain internal records to support any operation permit exemption claims and any other records required in chs. NR 400-499 , Wis. Adm. Code, or federal air pollution regulations.
+Can the operation permit exemption approval be transferred to the next owner if the operations are sold?
+Yes. The operation permit exemption is transferable. Please notify DNR about the new facility name and contact personnel following the Administrative Changes web page's instructions.
+If a facility moves to a new location, is there a requirement to apply for a new operation permit exemption?
+Yes. Air permits and air permit exemptions are location-specific, and a new air permit or air permit exemption should be applied for before the facility moves to a different location.
+Construction Permit Exemption FAQ
+Is a facility required to apply for a construction permit exemption determination for the project to be considered exempt?
+For most exemptions, no. However, the following construction permit exemptions do require that a facility applies for an exemption determination from the department for the exemption to apply:
+Research and testing exemption in s. NR 406.04(1)(i) , Wis. Adm. Code;
+Temporary steam generating equipment exemption in s. NR 406.04(1)(zg) , Wis. Adm. Code; and
+Controlled actual emissions exemption in s. NR 406.04(1q) , Wis. Adm. Code.
+For all other types of construction permit exemptions, the facility can request a construction permit exemption determination from the department. However, it is not a requirement.
+How does a facility apply for a construction permit exemption determination?
+The construction permit exemption application checklist (AM-593) contains details of how to apply for a construction permit exemption determination.
+If a project is exempt from construction permitting under ch. NR 406 , Wis. Adm. Code, is it also exempt from operation permitting under ch. NR 407 , Wis. Adm. Code?
+A project must qualify for a construction permit exemption to be exempt from construction permitting. The entire facility must qualify for an operation permit exemption to be exempt from operation permitting. If a project is exempt from construction permitting, but the entire facility is not exempt from operation permitting, the facility must apply for an operation permit for the project before beginning construction on the project.
+Are fees required when a facility applies for a construction permit exemption?
+Yes, fees are required when requesting a department determination for a construction permit exemption. A complete list of construction permit and exemption fees can be found on the Construction Permit Fees webpage.
+If a project is exempt from construction permitting, when can construction and operation of the emissions units associated with the project begin?
+It depends on whether the entire facility is exempt under an operation permit exemption:
+If the entire facility is not exempt under an operation permit exemption, construction and operation can begin after submitting an operation permit application for the project.
+If the entire facility is exempt under an operation permit exemption other than the actual emissions exemption in s. NR 407.03(1m) , Wis. Adm. Code, construction and operation can begin immediately.
+If the entire facility is exempt under the actual emissions operation permit exemption in s. NR 407.03(1m) , Wis. Adm. Code, then construction and operation can begin following completion of the notification required under s. NR 407.03(1m)(c) , Wis. Adm. Code. If the facility has previously made this notification, construction and operation can begin immediately.
+Can a facility combine more than one type of exemption in s. NR 406.04 , Wis. Adm Code (e.g., specific, actuals, general), when determining if a project is exempt from construction permitting?
+No, with two exceptions. To be exempt from construction permitting, the entire project must qualify for one type of construction permit exemption, except a change that qualifies as an exempt relocation under s. NR 406.04(5) , Wis. Adm. Code, or as an exclusion from modification in s. NR 406.04(4)(a) to (i) , Wis. Adm. Code, can be separated from a project when determining if the project qualifies for an exemption. See the examples below.
+Example #1: A project consists of the construction of a new 20 million Btu per hour natural gas-fired boiler and the relocation of a paint booth. If the relocation of the paint booth qualifies as an exempt relocation under s. NR 406.04(5) , Wis. Adm. Code, that relocation can be separated from the project when determining if the project is exempt. The construction of the natural gas-fired boiler could then be exempt from construction permitting under the Specific Category of Exempt Sources in s. NR 406.04(1)(a)5. , Wis. Adm. Code.
+Example #2: A project consists of the construction of a new shot blasting booth and a proposed change to s. NR 424.03(2)(c) , Wis. Adm. Code, Latest Available Control Technology (LACT) requirements for an existing paint booth. If the change to the LACT requirements qualifies as an exclusion from modification in s. NR 406.04(4)(h) , Wis. Adm. Code, that change can be separated from the project when determining if the project is exempt. If the new shot blasting booth qualifies for a construction permit exemption, the project would be exempt from construction permitting.
+Example #3: A project consists of a new 20 million Btu per hour natural gas-fired boiler, a shot blast booth and a paint booth. This project could not be exempt by claiming the boiler to be exempt under the specific categories of exempt sources in s. NR 406.04(1)(a)5. , Wis. Adm. Code, the paint booth to be exempt under the controlled actual emissions exemption in s. NR 406.04(1q) , Wis. Adm. Code, and the shot blast booth to be exempt under the general category of exemptions in s. NR 406.04(2) , Wis. Adm. Code. The entire project would need to fit under one of these types of exemptions.
+Can a facility combine more than one of the Specific Categories of Exempt Sources in s. NR 406.04(1) , Wis. Adm. Code, to exempt a project from construction permitting?
+Yes. The specific categories of exempt sources listed in s. NR 406.04(1) , Wis. Adm. Code, are all part of the same type of exemption (i.e., specific), so they can be combined to exempt a project. See the example below.
+Example: A project includes the construction of new 20 million Btu per hour natural gas-fired boiler and a 150-kW stationary emergency generator that meets the definition of a restricted use reciprocating internal combustion engine. This project would be exempt from construction permitting under ss. NR 406.04(1)(a)5. and (1)(w) , Wis. Adm. Code.
+If a project includes the shutdown of an emissions unit, can the decrease in emissions be counted when calculating the emissions from the project and determine if the project qualifies for a construction permit exemption such as the controlled actual emissions exemption in s. NR 406.04(1q) , Wis. Adm. Code, or the general category of exemptions in s. NR 406.04(2) , Wis. Adm. Code?
+No. When evaluating whether emissions from a project are below construction permit exemption thresholds, only the emissions from emissions units that will be constructed, reconstructed, replaced or modified as part of the project are counted.
+What is the difference between a construction permit exemption and an exclusion from modification?
+While the construction permit exemptions in s. NR 406.04 , Wis. Adm. Code, and the exclusions from modification in s. NR 406.04(4) , Wis. Adm. Code, both have the effect of exempting a change from construction permitting, a change that qualifies as an exclusion from modification is also not considered a modification for purposes of determining rule applicability under chs. NR 400 to 499, Wis. Adm. Code.
+Note that a change that qualifies as an exclusion from modification under s. NR 406.04(4) , Wis. Adm. Code, could potentially be considered a modification under other rules, such as the New Source Performance Standards (NSPS) in 40 CFR Part 60 and major source construction permitting in chs. NR 405 and 408 , Wis. Adm. Code. This is because these rules evaluate whether a modification has occurred differently than ch. NR 406, Wis. Adm. Code. For more information on what changes are considered modifications under these rules, please refer to the following:
+40 CFR 60.14 for NSPS;
+Sec. NR 405.02(21) , Wis. Adm. Code, for Prevention of Significant Deterioration major source construction permitting; and
+Sec. NR 408.02(20) , Wis. Adm. Code, for Nonattainment Area major source construction permitting.
+Example: A project at a facility located in Portage County consists of a change to an 8 million Btu per hour natural gas-fired boiler that was constructed in 1970 to add the ability to combust distillate oil. Assuming this change meets the requirements for an exclusion from modification for a change to use a clean fuel in s. NR 406.04(4)(i) , Wis. Adm. Code, this change would be exempt from construction permitting. Additionally, this change would also not be considered a modification for purposes of determining rule applicability in ss. NR 400 to 499, Wis. Adm. Code. So, the applicable particulate matter emission limit under ch. NR 415, Wis. Adm. Code, would continue to be 0.60 pounds per million Btu heat input under s. NR 415.06(1)(a), Wis. Adm. Code, for fuel-burning installations on which construction or modification commenced on or before April 1, 1972.
+Additional resources
+Air Permit Types 
+Apply for Air Permit 
+Air Emissions 
+Small Air Sources 
+Air permit exemptions 
+Industry/process resources 
+Compliance 
+NSPS categories 
+NESHAP categories 
+Enviro-Nav 
+Small Business Environmental Assistance Program
+Small Business 
+SBEAP Team 
+Council 
+Advisor 
+Compliance 
+Enviro-Nav 
+Related Links
+Purchasing Property 
+Industry/Process Resources 
+Air Pollution Basics 
+Water Overview 
+Waste Overview 
+Spills 
+Contamination 
+Partners 
+For a list of permit contacts, visit
+Air Permits_Topic Contact_Main Permit Contacts 
+Air Permit Contacts
+Small Business_Contact_Primary 
+For more information, contact
+Small Business Helpline
+tel:+1-855-889-3021 
+Wisconsin Department of Natural Resources
+4822 Madison Yards Way PO Box 7921
+Madison, WI 53707-7921 
+Call 1-888-936-7463 (TTY Access via relay - 711) from 7 a.m. to 10 p.m.
+Facebook 
+YouTube 
+Instagram 
+LinkedIn 
+Secretary's Office 
+Contact Us 
+Office Locations 
+Hotlines 
+For Media 
+Careers 
+Notice of Nondiscrimination 
+Subscribe for DNR Email Updates 
+© Wisconsin Department of Natural Resources | Site requirements | Accessibility | Legal | Privacy | Employee resources

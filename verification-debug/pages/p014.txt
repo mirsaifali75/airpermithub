@@ -1,0 +1,250 @@
+Air Construction Permits
+Many new commercial and industrial businesses include operations that are subject to specific air quality regulations.
+State-specific emission standards are identified in Chapter 62-296 of the Florida Administrative Code (F.A.C.). Florida
+regulates hazardous air pollutants (HAP) in accordance with the National Emissions Standards for Hazardous Air
+Pollutants (NESHAP) in Title 40 of the Code of Federal Regulations (CFR): Part 61 is regulation by HAP and Part 63 is
+regulation by industrial category. There are also federal New Source Performance Standards specified for criteria air
+pollutants in Title 40, Part 60 of the CFR.
+Permits are required for operations subject to applicable regulations or that emit air pollutants in sufficient quantities to
+warrant regulation. For example, equipment that combusts fuel (e.g., boilers, furnaces, stationary engines, etc.) is
+common to many businesses and such equipment may be subject to a range of state and federal regulations. Businesses
+that utilize regulated equipment are required to obtain permits prior to beginning construction on new emissions units,
+modifying an existing emissions unit or installing air pollution control equipment. These permits will specify applicable
+emissions standards and work practices to control the emissions of pollutants such as:
+
+
+Particulate matter from combustion exhaust or dust from material handling, sizing and screening;
+
+
+
+Carbon monoxide, nitrogen oxides, and sulfur oxides from equipment that burns oil, natural gas, wood, or other
+fuels;
+
+
+
+Volatile organic compounds, which includes a variety of chemical compounds commonly found in paints, thinners,
+cleaning agents, adhesives and other solvent-containing materials; and
+
+
+
+Hazardous air pollutants like styrene, which is released during fiberglass product manufacturing.
+
+Businesses are encouraged to conduct a thorough site/plan survey to identify all activities that generate and/or control
+air emissions. If the air-emitting activities at a proposed business are not exempt from permitting or the facility is not
+eligible for an air general permit, then the owner or operator must obtain an air construction permit before construction
+can begin. Air permitting requirements are specified in Chapters 62-4, 62-204, 62-210, and 62-212 of the Florida
+Administrative Code (F.A.C.).
+Applications
+The process for obtaining an air construction permit begins with submitting the appropriate:
+
+
+Application form or electronic form, and
+
+
+
+Fee for minor facility (Rule 62-4.050, F.A.C.)
+
+The Florida Department of Environmental Protection’s (DEP’s) Division of Air Resource Management (Division) processes
+applications for all major source permits subject to the Prevention of Significant Deterioration (PSD) of air quality as well
+as all minor air construction permits for utility power plants, facilities subject to the acid rain program, waste-to-energy
+facilities, landfills, and other select special projects. DEP’s District offices process all minor air construction permits
+within the District, except for those within a county for which an approved local air program has jurisdiction. The
+Division or District offices also process the applications for pulp and paper mills, chemical manufacturing plants, sugar
+mills, county-owned or operated facilities and construction permits subject to processing under state “expedited
+permitting” statutes.
+See following webpages for contact information:
+
+
+Division of Air
+
+
+
+District Offices
+
+
+
+Local Programs
+
+Page 1 of 4
+
+Applicants must identify general facility information, contact information, process equipment, air pollution control
+equipment, fuels, materials processed, operational restrictions, applicable state and federal regulations, emissions
+standards, and methods of compliance. Applications for air construction permits must be sealed by a professional
+engineer registered in Florida.
+Administrative Process
+The permitting flowchart on the following page provides a simplified view of the permitting and administrative process
+from the receipt of an application through issuance of a final air construction permit.
+The critical components are:
+(1) The processing fee must be received by permitting authority in order for the application to be considered
+“received.” There are no applicable fees for an existing facility holding a Title V air operation permit.
+(2) Within 30 days of receipt of the initial application or receipt of the last item of information submitted to complete
+the application, the permitting authority must determine whether the application is complete.
+(3) If the application is deemed incomplete, the applicant has 90 days to submit the requested additional information or
+may request additional time to provide the information.
+(4) The permitting authority must make a written permitting decision (issue or deny) within 90 days from receiving a
+complete application or from receipt of the last item required to complete the application. The first step towards
+permit issuance is providing the applicant with a written notice of intent to issue a permit, a draft permit, and a
+public notice.
+(5) Affected parties may petition for an administrative hearing within 14 days from the date of “actual notice” or from
+publication of the Notice of Intent, whichever occurs first.
+(6) Affected parties, federal agencies and the public may provide comments on the draft permit. The comment period
+ends 30 days after publication for PSD permits and 14 days after publication for all other permits. If the draft permit
+is substantially revised due to public comments, the permitting authority will issue a revised draft permit and require
+another public notice.
+(7) Hearings are conducted by the Florida Division of Administrative Hearings. DEP cannot issue a final permit until the
+Administrative Law Judge issues a Recommended Order.
+(8) If the draft permit is not substantially revised and no hearing is requested, the final permit decision is issued
+promptly following close of the public comment period. Substantial revisions based on comments require a new
+public notice.
+(9) The final permit decision may be appealed to a Florida District Court of Appeal. A Notice of Appeal must be filed
+within 30 days of the final permitting decision.
+Permit Content
+Air construction permits specify the equipment capacities, operational restrictions, air pollution controls, emission
+limits, work practice standards, monitoring and testing requirements, records, reporting provisions and other
+compliance demonstrations. Each permit has an expiration date, which authorizes a period of time to construct, test,
+and operate while obtaining an air operation permit. Nevertheless, the limitations and requirements in the air
+construction permit that are applicable to the design and operation of the equipment remain in effect until the
+equipment is permanently shut down or the requirement becomes obsolete by its nature (e.g., a requirement for initial
+compliance testing). See subparagraph 62-210.300(1)(b)1, F.A.C. These permit conditions are applicable requirements
+for operation permits and may only be revised by a subsequent air construction permit or modification of the original air
+construction permit.
+
+Page 2 of 4
+
+Simplified Air Construction Permitting Flow Chart
+Timeline
+Day
+
+Application (or Additional
+Information) Received1
+
+0
+
+Completeness
+Review
+
+Applicant Submits
+Additional Information3
+
+Applicant Publishes
+Notice of Application
+in Newspaper of
+General Circulation
+(Upon Request by
+DEP)
+
+30
+
+Application
+Complete?2
+
+No
+
+DEP Requests Additional
+Information (RAI)
+
+Yes
+
+Administrative Hearing
+
+Yes
+
+DEP Processes
+Application
+
+90
+
+Draft Permit Decision4
+
+Applicant Publishes
+Notice of Intent in
+Newspaper of
+General Circulation
+
+Petition and Public
+Comment Period5,6
+
+Administrative
+Hearing Requested?
+
+No
+
+Final Permit Decision8, 9
+
+Page 3 of 4
+
+Administrative Law
+Judge Issues
+Recommended Order 7
+
+PSD Permits
+Applications for air construction permits subject to PSD preconstruction review (Rule 62-212.400, F.A.C.) are required
+for:
+28 PSD Listed Categories
+1. Fossil fuel-fired steam electric plants
+> 250 MMBtu/hour
+2. Coal cleaning plants w/thermal dryers
+3. Kraft pulp mills
+4. Portland cement plants
+5. Primary zinc smelters
+6. Iron and steel mill plants
+7. Primary aluminum ore reduction plants
+8. Primary copper smelters
+9. Municipal incinerators > 250 tons per day
+10. Hydrofluoric acid plants
+11. Sulfuric acid plants
+12. Nitric acid plants
+13. Petroleum refineries
+14. Lime plants
+15. Phosphate rock processing plants
+16. Coke oven batteries
+17. Sulfur recovery plants
+18. Carbon black plants (furnace process)
+19. Primary lead smelters
+20. Fuel conversion plants
+21. Sintering plants
+22. Secondary metal production plants
+23. Chemical process plants
+24. Fossil fuel boilers totaling > 250 MMBtu/hour
+25. Petroleum storage and transfer units w/total
+storage capacity > 300,000 barrels
+26. Taconite ore processing plants
+27. Glass fiber processing plants
+28. Charcoal production plants
+
+• New major sources with potential emissions of a PSD pollutant
+of 100 tons/year or greater (including fugitive emissions) if one of
+the 28 PSD “listed” facility categories (see list);
+• New major sources with potential emissions of a PSD pollutant
+of 250 tons/year or greater; or
+• Major modifications to existing PSD major sources that equal or
+exceed the PSD significant emissions rate defined in Rule 62210.200, F.A.C.
+Applications for PSD projects are much more comprehensive and
+require a rule applicability analysis, a review of the best available
+control technology, an air dispersion modeling analysis and an
+additional impacts analysis. For these projects, it is critical that an
+applicant hire a consultant experienced in PSD preconstruction
+permitting and air dispersion modeling. It is also highly
+recommended that an applicant schedule a pre-application meeting
+with the Division to discuss the project and expectations. Good
+communication is essential to satisfying the regulatory
+requirements and getting authorization to construct quickly.
+Construction in Non-Attainment Areas
+
+In 2010, the U.S. Environmental Protection Agency (EPA) revised the
+National Ambient Air Quality Standards (NAAQS) for nitrogen
+dioxide (NO2) and sulfur dioxide (SO2). After collecting and
+reviewing ambient air quality data, Florida designated two small
+non-attainment areas for SO2, one in Hillsborough county and one in
+Nassau county, and DEP is currently developing a plan for meeting
+attainment requirements in these areas. Florida also has one very
+small non-attainment area for lead in the Tampa Bay region. Any
+new projects within these non-attainment areas, or within an area of influence, will be subject to non-attainment area
+new source review. This permitting process requires meeting the “lowest achievable emissions rate (LAER)” excluding
+cost considerations, and obtaining emissions offsets prior to beginning construction. Recent monitoring data shows
+significant improvement in the air quality in these areas and DEP’s plan for attainment will bring those areas back into
+compliance with the federal air quality standards.
+
+Page 4 of 4
+
+

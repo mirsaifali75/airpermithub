@@ -1,0 +1,357 @@
+TCEQ REGULATORY GUIDANCE
+Air Permits Division
+RG-636 ● Revised May 2024
+
+Prevention of Significant Deterioration
+and Nonattainment Fact Sheet
+This document is a general guide to the requirements of prevention of significant
+deterioration (PSD) and nonattainment air permits. The information in this guidance
+document does not replace the discussed laws and regulations. They take priority over
+any information supplied here.
+
+Prevention of Significant Deterioration (PSD)
+New Source Review (NSR) Permit
+PSD permits authorize the construction/modification of major sources of criteria
+pollutants, certain non-criteria regulated pollutants located in areas that attain federal
+standards, and greenhouse gases (GHGs) statewide.
+
+
+Criteria pollutant: A regulated pollutant with a national ambient air quality
+standard (NAAQS).
+
+
+
+Noncriteria pollutant: A regulated pollutant with emission limits but no
+NAAQS. Applicants must demonstrate that these pollutants are compliant with
+state standards and effects screening levels. (Includes the pollutant GHGs when
+emissions meet the thresholds specified in Title 30, Texas Administrative Code,
+Subsection 116.164(a)(1) or (a)(2).)
+
+Applicability
+PSD review applies to new major sources and major modifications of existing major
+sources.
+Two types of “major stationary source:”
+
+
+Named: A stationary source category listed in 40 CFR 51.166(b)(1) with the
+potential to emit (PTE) 100 tons per year (tpy) or more of a regulated pollutant.
+See Fact Sheet – PSD and Nonattainment Significant Emissions for a list of
+named sources. Please note that fugitive emissions are included in the total tpy
+emission rate.
+
+
+
+Un-named: Any stationary source not listed in 40 CFR 51.166(b)(1) with a PTE
+of 250 tpy or more of a regulated pollutant.
+
+Any source that is major for any one regulated pollutant, is considered to be major for all
+regulated pollutants.
+A minor source is a named or un-named source with regulated pollutant emissions that
+are less than the major source thresholds (100 tpy for named sources or 250 tpy for
+un-named sources).
+
+TEXAS COMMISSION ON ENVIRONMENTAL QUALITY • PO BOX 13087 • AUSTIN, TX 78711-3087
+TCEQ is an equal opportunity employer. The agency does not allow discrimination on the basis of race, color, religion, national origin, sex, disability, age, sexual
+orientation, or veteran status. In compliance with the Americans with Disabilities Act, this document may be requested in alternate formats by contacting TCEQ at
+512-239-0010, or 800-RELAY-TX (TDD), or by writing PO Box 13087, Austin TX 78711-3087. We authorize you to use or reproduce any original material contained in
+this publicationthat is, any material we did not obtain from other sources. Please acknowledge TCEQ as your source. For more information on TCEQ publications, visit
+our website at: tceq.texas.gov/publications
+How is our customer service? tceq.texas.gov/customersurvey
+
+TCEQ RG-636 ● Prevention of Significant Deterioration and Nonattainment Fact Sheet
+
+When is a PSD review required?
+
+
+At a new major source for a regulated pollutant.
+
+
+
+At an existing major source, if the net emissions increase equals or exceeds the
+pollutant-specific significant emission rates (SER).
+
+
+
+At an existing minor source, if the project emissions increase meets either the
+named or the un-named major source threshold by itself (no netting allowed),
+then project emissions increase for all other regulated pollutants are evaluated
+against the SER to determine if PSD is triggered for the pollutant. If the project
+emissions increase equals or exceeds the SER for the pollutant, PSD is triggered
+for that pollutant as well.
+
+PSD Permit Requirements
+A PSD permit review requires a Best Available Control Technology (BACT) review, an air
+quality analysis (AQA) (including an additional impacts analysis (AIA) and a Class I
+analysis), and public notice.
+BACT review: A control technology evaluation that considers technical practicability and
+economic reasonableness of the control.
+AQA: An analysis that demonstrates that the the source’s impact will not cause or
+contribute to a violation of a NAAQS or PSD increment. Air dispersion modeling and
+ambient air monitoring may be required. This AQA requirement does not apply to GHGs.
+
+
+AIA: An analysis that examines the impacts of air emissions on soils,
+vegetation, and visibility. The AIA requirement does not apply to GHGs.
+
+
+
+Class I analysis: An analysis that is required if the major project is located
+within 100 km (62 miles) of a Class I area. Refer to the Class I Area map to see
+potentially affected areas. The Class I analysis requirement does not apply to
+GHGs.
+
+Public notice: The public notice period(s) provide the opportunity for the public to
+comment on the draft permit and request a contested case hearing. Public notice
+requirements for NSR permits are governed by 30 TAC Chapters 39 and 116. Contested
+case hearings do not apply to GHGs.
+
+Nonattainment New Source Review (NNSR)
+Permit
+NNSR permits authorize the construction/modification of major sources located in areas
+that do not attain federal standards. Nonattainment areas, emission limits, and offsets are
+pollutant specific. The source must be located in the nonattainment area and must be
+major for the nonattainment pollutant in order for nonattainment review to apply. GHGs
+do not have a NAAQS and are only regulated under PSD permits.
+
+May 2024 ● Page 2
+
+TCEQ RG-636 ● Prevention of Significant Deterioration and Nonattainment Fact Sheet
+
+Major Sources for NNSR
+A major source for NNSR is one that meets the major source emission threshold based on
+the nonattainment pollutant and area classification. A major source for NNSR may be
+different from a major source for PSD.
+NNSR review applies to new major sources, major modifications of existing major sources,
+and existing minor sources when project emission increases for a nonattainment pollutant
+is major by itself. For information concerning current nonattainment areas and pollutants
+in the state see Table 4 of TCEQ RG-635 - Prevention of Significant Deterioration and
+Nonattainment Major Source Significant Emissions Fact Sheet.
+
+Nonattainment Review
+An NNSR permit requires nonattainment review. Note that when two standards apply in a
+nonattainment county or area, the most stringent is used for air permitting. Table 1
+provides the nonattainment classifications for criteria pollutants, the major source
+threshold and major modification SER, and offset ratio for each classification. Except for
+NOx and VOC in serious and severe ozone nonattainment areas, the netting SER for each
+pollutant is equal to the major modification SER. The netting SER for NOx and VOC in
+serious and severe ozone nonattainment areas is 5 tpy.
+
+May 2024 ● Page 3
+
+TCEQ RG-636 ● Prevention of Significant Deterioration and Nonattainment Fact Sheet
+
+Table 1: Nonattainment classifications, Emission Thresholds, and Offset Ratios
+Pollutant
+
+Pollutant
+Designation
+
+Major
+Source
+Threshold
+(tpy)
+
+Major
+Offset
+Modification
+Ratio
+Significant
+(minimum)
+Emission Rate 1
+(tpy)
+
+Ozone (VOC, NOx)
+
+Marginal
+
+100
+
+40
+
+1.10 to 1
+
+Ozone (VOC, NOx)
+
+Moderate
+
+100
+
+40
+
+1.15 to 1
+
+Ozone (VOC, NOx)
+
+Serious
+
+50
+
+25
+
+1.20 to 1
+
+Ozone (VOC, NOx)
+
+Severe
+
+25
+
+25
+
+1.30 to 1
+
+Carbon monoxide (CO)
+
+Moderate
+
+100
+
+100
+
+1.00 to 1 2
+
+Carbon monoxide (CO)
+
+Serious
+
+50
+
+50
+
+1.00 to 1 3
+
+Sulfur dioxide (SO2)
+
+N/A 4
+
+100
+
+40
+
+1.00 to 1 5
+
+PM10 (includes
+condensable emissions)
+
+Moderate
+
+100
+
+15
+
+1.00 to 1 6
+
+PM10 (includes
+condensable emissions)
+
+Serious
+
+70
+
+15
+
+1.00 to 1 7
+
+PM2.5 (includes
+condensable emissions)
+
+Moderate
+
+100
+
+10
+
+1.00 to 1 8
+
+PM2.5 (includes
+condensable emissions)
+
+Serious
+
+70
+
+10
+
+1.00 to 1 9
+
+Oxides of nitrogen (NOx) N/A 10
+
+100
+
+40
+
+1.00 to 1 11
+
+Lead (Pb)
+
+100
+
+0.60
+
+1.00 to 1 13
+
+N/A 12
+
+1
+The significant level is applicable only to existing major sources and shall be evaluated after netting, unless the applicant
+chooses to apply NNSR directly to the project. The appropriate netting significance levels for existing major sources of NOX
+and VOC as ozone precursors are specified in §116.150 (relating to New Major Source or Major Modification in Ozone
+Nonattainment Areas) and for other pollutants are equal to the significant level listed in this table.
+
+2 The offset ratio is specified to be greater than 1.00 to 1.
+3 The offset ratio is specified to be greater than 1.00 to 1.
+4
+
+Refer to 40 CFR § 51.165 for more information.
+
+5 The offset ratio is specified to be greater than 1.00 to 1.
+6 The offset ratio is specified to be greater than 1.00 to 1.
+7 The offset ratio is specified to be greater than 1.00 to 1.
+8 The offset ratio is specified to be greater than 1.00 to 1.
+9 The offset ratio is specified to be greater than 1.00 to 1.
+10
+
+Refer to 40 CFR § 51.165 for more information.
+
+11 The offset ratio is specified to be greater than 1.00 to 1.
+12
+
+Refer to 40 CFR § 51.165 for more information.
+
+13 The offset ratio is specified to be greater than 1.00 to 1.
+
+May 2024 ● Page 4
+
+TCEQ RG-636 ● Prevention of Significant Deterioration and Nonattainment Fact Sheet
+
+NNSR Permit Requirements
+NNSR requires a Lowest Achievable Emission Rate (LAER) technology evaluation,
+emissions offsets, and public notice. Unlike BACT, LAER does not consider economic
+impacts.
+LAER: The most stringent emission limitation of either.
+
+
+contained in the State Implementation Plan (SIP) of any state for such class or
+category of source or TCEQ rule for the source or achieved in practice by such a
+class or source category.
+
+Offsets: Actual emission reductions of a pollutant or precursor pollutant that is
+increasing. This must be obtained from within the nonattainment area.
+
+
+The offset ratio depends on the nonattainment classification. Reductions must
+offset the emissions increase.
+
+
+
+The Air Permits Division and Emissions Banking and Trading Team administers
+offsets. They track emissions available for purchase or trade and ensures those
+emissions are creditable.
+
+Public notice: The public notice period(s) provide the opportunity for the public to
+comment on the draft permit and request a contested case hearing. Public notice
+requirements for NSR permits are governed by 30 TAC Chapters 39 and 116.
+
+May 2024 ● Page 5
+
+

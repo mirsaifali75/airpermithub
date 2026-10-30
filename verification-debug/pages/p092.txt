@@ -1,0 +1,558 @@
+TCEQ REGULATORY GUIDANCE
+Air Permits Division
+RG-635 ● Revised August 2024
+
+Prevention of Significant
+Deterioration and Nonattainment
+Major Source Significant Emissions
+Fact Sheet
+This fact sheet outlines the requirements for prevention of significant deterioration
+(PSD) and nonattainment major source significant emissions. The information in
+this guidance document does not replace the discussed laws and regulations. They
+take priority over any information supplied here.
+See the Pollutant and Acronym Key at the end of this publication.
+
+Prevention of Significant Deterioration Major
+Source Thresholds
+[Title 40, Code of Federal Regulations, Subsection 51.166(b)(1) (40 CFR
+51.166(b)(1)) and Title 30, Texas Administrative Code, Subsection
+116.164(a)(1) (30 TAC 116.164(a)(1))]
+Major Named Source: One of the stationary source categories listed below with a
+potential to emit (PTE) of 100 tons per year (tpy) or more of a regulated pollutant,
+including fugitive emissions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Coal cleaning plants (with thermal dryers).
+Kraft pulp mills.
+Portland cement plants.
+Primary zinc smelters.
+Iron and steel mills.
+Primary aluminum ore reduction plants.
+Primary copper smelters.
+Municipal incinerators capable of charging more than 250 tons of refuse
+per day.
+Hydrofluoric, sulfuric, or nitric acid plants.
+Petroleum refineries.
+Lime plants.
+Phosphate rock processing plants.
+Coke oven batteries.
+Sulfur recovery plants.
+Carbon black plants (furnace process).
+
+TEXAS COMMISSION ON ENVIRONMENTAL QUALITY • PO BOX 13087 • AUSTIN, TX 78711-3087
+
+TCEQ is an equal opportunity employer. The agency does not allow discrimination on the basis of race, color, religion, national origin, sex, disability, age,
+sexual orientation, or veteran status. In compliance with the Americans with Disabilities Act, this document may be requested in alternate formats by
+contacting TCEQ at 512-239-0010, or 800-RELAY-TX (TDD), or by writing PO Box 13087, Austin TX 78711-3087. We authorize you to use or reproduce
+any original material contained in this publication—that is, any material we did not obtain from other sources. Please acknowledge TCEQ as your source.
+For more information on TCEQ publications, visit our website at: tceq.texas.gov/publications
+How is our customer service? tceq.texas.gov/customersurvey
+
+TCEQ RG-635 ● Prevention of Significant Deterioration and Nonattainment Major Source Significant Emissions Fact
+Sheet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Primary lead smelters.
+Fuel conversion plants.
+Sintering plants.
+Secondary metal production plants.
+Chemical process plants. Not including facilities that produce ethanol by
+natural fermentation included in the North American Industry
+Classification System codes 325193 or 312140.
+Fossil-fuel boilers (or combinations thereof) totaling greater than
+250 million British thermal units (BTUs) per hour of heat input.
+Petroleum storage and transfer units with total storage capacity above
+300,000 barrels.
+Taconite ore processing plants.
+Glass fiber processing plants.
+Charcoal production plants.
+Fossil fuel-fired steam electric plants greater than 250 million BTUs per
+hour of heat input.
+
+Major Un-named source: Any stationary source that is not a named source with a
+PTE of 250 tpy or more of a regulated pollutant. As of August 7, 1980, fugitive
+emissions from an un-named source under the New Source Performance Standards
+or National Emission Standards for Hazardous Air Pollutants are included in the tpy
+emission.
+Minor source: A named or un-named source with emissions less than major
+source thresholds.
+Major source: A named or un-named source with a PTE greater than or equal to
+major source thresholds. A source that is major for any regulated pollutant is major
+for all regulated pollutants.
+
+Significant Emission Rates (SER) for PSD
+Major Sources
+[40 CFR 51.166(b)(23) and 30 TAC 116.164(a)(2)]
+PSD review is required for a new major source if the project emissions increase
+equals or exceeds the corresponding named or un-named major source threshold
+by itself. If PSD is triggered for a new major source for a pollutant, the project
+emissions increase for all other regulated pollutants are evaluated against the SER
+to determine if PSD is triggered for the pollutant. If the project emissions increase
+equals or exceeds the SER for the pollutant, PSD is triggered for that pollutant as
+well.
+PSD review is required at an existing site if one of the following criteria occurs:
+
+
+Minor source: If the project increase equals or exceeds either the
+corresponding named or un-named major source threshold by itself. If
+PSD is triggered for an existing minor source for a pollutant, the project
+emissions increase for all other regulated pollutants is evaluated against
+the SER to determine if PSD is triggered for the pollutant (no netting
+
+August 2024 ● Page 2
+
+TCEQ RG-635 ● Prevention of Significant Deterioration and Nonattainment Major Source Significant Emissions Fact
+Sheet
+
+allowed). If the project emissions increase equals or exceeds the SER for
+the pollutant, PSD is triggered for that pollutant as well.
+
+
+Major source: If the net emissions increase for the pollutant equals or
+exceeds the SER (Tables 1-3).
+
+Table 1. PSD Major Source Modification SERs for Criteria Pollutants
+Criteria Pollutant
+
+Major Source Modification SER (tpy)
+
+Carbon monoxide (CO)
+
+100
+
+Oxides of nitrogen (NOx)
+
+40
+
+Sulfur dioxide (SO2)
+
+40
+
+Ozone as volatile organic compound
+(VOC)
+
+40
+
+Ozone as NOx
+
+40
+
+PM10 (includes condensable emissions)
+
+15
+
+PM2.5 (includes condensable emissions)
+
+10
+
+Lead (Pb)
+
+0.6
+
+August 2024 ● Page 3
+
+TCEQ RG-635 ● Prevention of Significant Deterioration and Nonattainment Major Source Significant Emissions Fact
+Sheet
+
+Table 2. Major Source Modification SERs for Non-Criteria Pollutants
+Non-Criteria Pollutant
+
+Major Source Modification SER (tpy)
+
+Particulate matter (PM)
+
+25
+
+Hydrogen sulfide (H2S)
+
+10
+
+Total reduced sulfur (TRS)
+
+10
+
+Reduced sulfur compounds (including
+H2S)
+
+10
+
+Sulfuric acid (H2SO4)
+
+7
+
+Fluoride excluding hydrogen fluoride
+(HF)
+
+3
+
+Greenhouse gases (GHG)
+
+Greater than zero as GHG and 75,000 as
+carbon dioxide equivalent (CO2e)
+
+Any regulated pollutant not listed in 40
+CFR § 51.166(b)(23)(i)
+
+Greater than zero
+
+Table 3. Major Source Modification SERs for Other Sources/Pollutants
+Other
+
+Measured as
+
+Major Source
+Modification SER
+(tpy)
+
+Municipal waste combustor total tetra-through octaorganics
+chlorinated dibenzo-pdioxins and dibenzofurans
+
+3.5 × 10-6
+
+Municipal waste combustor Particulate matter
+metals
+
+15
+
+Municipal waste combustor SO2 and hydrogen chloride
+acid gases
+
+40
+
+Municipal solid waste
+landfills
+
+50
+
+Nonmethane organic
+compounds
+
+Any new or modified major Any criteria pollutant
+source within 10 kilometers
+of a Class I area
+
+August 2024 ● Page 4
+
+Any rate or net increase
+with a 24-hour impact of
+≥ 1 µg/m3
+
+TCEQ RG-635 ● Prevention of Significant Deterioration and Nonattainment Major Source Significant Emissions Fact
+Sheet
+
+Nonattainment Major Source Emission Rates
+[40 CFR 51.165 (a)(1)(iv)(A), 51.165 (a)(1)(x)(A), 51.165(a)(9), and
+51.165(a)(10)]
+Nonattainment review applies to any pollutant for which areas are designated as
+nonattainment. For the nonattainment review to apply, the source must be major
+for the nonattainment pollutant or precursor.
+Nonattainment review is required for a new major source if the project emissions
+increase of the nonattainment pollutant equals or exceeds the major source
+threshold for the area classification by itself.
+Nonattainment review is required at an existing site if one of the following criteria
+occurs:
+
+
+Minor source: If the project emissions increase of the nonattainment
+pollutant (no netting allowed) equals or exceeds the major source
+threshold for the area classification by itself (Table 4).
+
+
+
+Major source: If the net emissions increase for the nonattainment
+pollutant equals or exceeds the SER (Table 4).
+
+For current nonattainment areas, counties, and classifications, refer to Table 4.
+Nonattainment areas, emission limits, and offsets are pollutant specific.
+Note that when multiple nonattainment classifications for the same pollutant apply
+in a nonattainment area, the most stringent nonattainment classification is used for
+air permitting.
+
+August 2024 ● Page 5
+
+TCEQ RG-635 ● Prevention of Significant Deterioration and Nonattainment Major Source Significant Emissions Fact
+Sheet
+
+Table 4. Nonattainment Emissions Thresholds and Offset Ratios
+Criteria
+
+Nonattainment
+
+Nonattainment
+
+Nonattainment
+
+Offset Ratio
+
+Pollutant
+
+Area
+
+County or Area
+
+Major Source
+
+Major Source
+
+Minimum
+
+Classification
+
+(tpy)
+
+Modification SER
+(tpy)
+
+Ozone as VOC or
+
+Severe
+
+Dallas-Fort Worth (Collin,
+
+NOx
+
+Dallas, Denton, Ellis,
+
+(2008 Standard)
+
+Johnson, Kaufman, Parker,
+
+25
+
+25
+
+1.3 to 1
+
+50
+
+25
+
+1.2 to 1
+
+25
+
+25
+
+1.3 to 1
+
+50
+
+25
+
+1.2 to 1
+
+50
+
+25
+
+1.2 to 1
+
+Rockwall, Tarrant, and Wise
+Counties)
+Ozone as VOC or
+
+Serious
+
+Dallas-Fort Worth (Collin,
+
+NOx
+
+Dallas, Denton, Ellis,
+
+(2015 Standard)
+
+Johnson, Kaufman, Parker,
+Tarrant, and Wise Counties)
+
+Ozone as VOC or
+
+Severe
+
+Houston-Galveston-
+
+NOx
+
+Brazoria (Brazoria,
+
+(2008 Standard)
+
+Chambers, Fort Bend,
+Galveston, Harris, Liberty,
+Montgomery, and Waller
+Counties)
+
+Ozone as VOC or
+
+Serious
+
+Houston-Galveston-
+
+NOx (2015
+
+Brazoria (Brazoria,
+
+Standard)
+
+Chambers, Fort Bend,
+Galveston, Harris, and
+Montgomery Counties)
+
+Ozone as VOC or
+
+Serious
+
+NOx
+
+San Antonio
+(Bexar County)
+
+(2015 Standard)
+PM10
+
+Moderate
+
+City of El Paso
+
+100
+
+15
+
+1.00 to 1
+
+Nonattainment
+
+Freestone (partial),
+
+100
+
+40
+
+1.00 to 1
+
+(1987 standard)
+SO2
+(2010 standard)
+
+Anderson (partial), Rusk
+(partial), Panola (partial),
+Hutchinson, Howard,
+Navarro, and Titus (partial)
+Counties
+
+August 2024 ● Page 6
+
+TCEQ RG-635 ● Prevention of Significant Deterioration and Nonattainment Major Source Significant Emissions Fact
+Sheet
+
+Pollutant and Acronym Key
+Pollutant and Acronym Key
+BTU
+
+British thermal unit
+
+CFR
+
+Code of Federal Regulations
+
+CO
+
+carbon monoxide
+
+CO2e
+
+carbon dioxide equivalent
+
+GHGs greenhouse gases
+HF
+
+hydrogen fluoride
+
+H2S
+
+hydrogen sulfide
+
+H2SO4 sulfuric acid
+µg/m3 microgram per cubic meter
+NO2
+
+nitrogen dioxide
+
+NOx
+
+oxides of nitrogen
+
+Pb
+
+lead
+
+PM10
+
+particulate matter with an aerodynamic diameter of 10 microns or less
+(includes condensable emissions)
+
+PM2.5
+
+particulate matter with an aerodynamic diameter of 2.5 microns or less
+(includes condensable emissions)
+
+PSD
+
+prevention of significant deterioration
+
+PTE
+
+potential to emit
+
+SER
+
+significant emission rate
+
+SO2
+
+sulfur dioxide
+
+TAC
+
+Texas Administrative Code
+
+tpy
+
+tons per year
+
+TRS
+
+total reduced sulfur
+
+VOC
+
+volatile organic compounds
+
+August 2024 ● Page 7
+
+

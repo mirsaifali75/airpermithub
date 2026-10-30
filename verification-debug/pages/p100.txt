@@ -1,0 +1,231 @@
+9VAC5-80-1105. Permit exemptions. 
+Virginia General Assembly /
+LIS Learning Center /
+Privacy Policy /
+LIS home /
+Register Account /
+Login 
+Session Information 
+Bills & Resolutions 
+State Budget 
+Virginia Law 
+Reports to the General Assembly 
+Virginia Law 
+Select Search Type 
+All 
+Code of Virginia 
+Administrative Code 
+Constitution 
+Charters 
+Authorities 
+Compacts 
+Uncodified Acts 
+Administrative Code
+Table of Contents &raquo; Title 9. Environment &raquo; Agency 5. State Air Pollution Control Board &raquo; Chapter 80. Permits for Stationary Sources &raquo; Part II. Permit Procedures &raquo; Article 6. Permits for New and Modified Stationary Sources &raquo; 9VAC5-80-1105. Permit exemptions. 
+Section 
+Print 
+PDF 
+email 
+Creating a Report: Check the sections you'd like to appear in the report, then use the "Create Report" button at the bottom of the page to generate your report. Once the report is generated you'll then have the option to download it as a pdf, print or email the report.
+Virginia Administrative Code
+Title 9. Environment
+Agency 5. State Air Pollution Control Board
+Chapter 80. Permits for Stationary Sources
+10/30/2026
+9VAC5-80-1105. Permit exemptions.
+A. The general requirements for minor NSR permit exemptions are as follows:
+1. The provisions of this article do not apply to the following stationary sources or emissions units:
+a. The construction of any stationary source or emissions unit that is exempt under the provisions of subsections B through F of this section. In determining whether a source is exempt from the provisions of this article, the provisions of subsections B, C, and D of this section are independent from the provisions of subsections E and F of this section. A source must be determined to be exempt both under the provisions of subsections B, C, and D of this section taken as a group and under the provisions of subsections E and F of this section to be exempt from this article.
+b. Vegetative waste recycling/mulching operations that do not exceed 2100 hours of operation in any 12-month consecutive period at a single stationary source. To qualify as an exemption under this subdivision, the total rated capacity of all diesel engines at the source, including portable diesel engines temporarily located at the site, may not exceed 1200 brake horsepower (output).
+c. The location of a portable emissions unit at a site subject to the following conditions:
+(1) Any new emissions from the portable emissions unit are secondary emissions.
+(2) The portable emissions unit is either subject to (i) a minor NSR permit authorizing the emissions unit as a portable emissions unit subject to this subdivision or (ii) a general permit.
+(3) The emissions of the portable emissions unit at the site would be temporary.
+(4) The portable emissions unit would not undergo modification or replacement that would be subject to this article.
+(5) The portable emissions unit is suitable to the area in which it is to be located.
+(6) Reasonable notice is given to the department prior to locating the emissions unit to the site identifying the proposed site and the probable duration of operation at the site. Such notice shall be provided to the department not less than 15 days prior to the date the emissions unit is to be located at the site unless a different notification schedule is previously approved by the department.
+d. The reactivation of a stationary source unless a determination concerning shutdown has been made pursuant to the provisions of 9VAC5-20-220 .
+e. The use by any existing stationary source or emissions unit of an alternative fuel or raw material, if the following conditions are met:
+(1) The owner demonstrates to the department that, as a result of trial burns at the owner's facility or other facilities or other sufficient data, the emissions resulting from the use of the alternative fuel or raw material supply are decreased. No demonstration will be required for the use of processed animal fat, processed fish oil, processed vegetable oil, distillate oil, or any mixture thereof in place of the same quantity of residual oil to fire industrial boilers.
+(2) The use of an alternative fuel or raw material would not be subject to review under this article as a project.
+2. The provisions of this article do not apply to the following stationary sources or emissions units provided the stationary source or emissions unit (i) is exempt under the provisions of subsections E and F of this section and (ii) meets any other applicable criteria or conditions set forth in this subdivision.
+a. Replacement of an emissions unit subject to the following criteria:
+(1) The replacement emissions unit is (i) of an equal or lesser size and (ii) of an equal or lesser rated capacity as compared to the replaced emissions unit.
+(2) The replacement emissions unit is functionally equivalent to the replaced emissions unit.
+(3) The replacement emissions unit does not change the basic design parameters of the process operation.
+(4) The potential to emit of the replacement emissions unit does not exceed the potential to emit of the replaced emissions unit. If the replaced emissions unit is subject to terms and conditions contained in a minor NSR permit, the owner may, concurrently with the notification required in subdivision (6) of this subdivision, request a minor amendment as provided in 9VAC5-80-1280 B 4 to that permit to apply those terms and conditions to the replacement emissions unit. However, the replacement emissions unit's potential to emit is not limited for the purposes of this subdivision unless (and until) the requested minor permit amendment is granted by the department.
+(5) The replaced emissions unit is either removed or permanently shut down in accordance with the provisions of 9VAC5-20-220 .
+(6) The owner notifies the department, in writing, of the proposed replacement at least 15 days prior to commencing construction on the replacement emissions unit. Such notification shall include the size, function, and rated capacity of the existing and replacement emissions units and the registration number of the affected stationary source.
+b. A reduction in stack outlet elevation, provided that the stack serves only facilities that have been previously determined to be exempt from the minor NSR program.
+3. In determining whether a facility is exempt from the provisions of this article under the provisions of subsection B of this section, the definitions in 9VAC5-40 (Existing Stationary Sources) that would cover the facility if it were an existing source shall be used unless deemed inappropriate by the department.
+4. Any owner claiming that a facility is exempt from this article under the provisions of this section shall keep records as may be necessary to demonstrate to the satisfaction of the department that the facility was exempt at the time a minor NSR permit would have otherwise been required under this article.
+B. Facilities as specified in this subsection shall be exempt from the provisions of this article.
+1. Fuel burning equipment units (external combustion units, not engines and turbines) and space heaters in a single application as follows:
+a. Except as provided in subdivision b of this subdivision, the exemption thresholds in subdivisions (1) through (4) of this subdivision shall be applied on an individual unit basis for each fuel type.
+(1) Using solid fuel with a maximum heat input of less than 1,000,000 Btu per hour.
+(2) Using liquid fuel with a maximum heat input of less than 10,000,000 Btu per hour.
+(3) Using liquid and gaseous fuel with a maximum heat input of less than 10,000,000 Btu per hour.
+(4) Using gaseous fuel with a maximum heat input of less than 50,000,000 Btu per hour.
+b. In ozone nonattainment areas designated in 9VAC5-20-204 or ozone maintenance areas designated in 9VAC5-20-203 , the exemption thresholds in subdivision 1 a of this subsection shall be applied in the aggregate for each fuel type.
+2. Engines and turbines that do not individually exceed 500 hours of operation per year at a single stationary source and that are used only (i) during an emergency, for required maintenance, or for operability and emissions testing or (ii) as provided by 9VAC5-80-1111 as follows. All engines and turbines in a single application must also meet the following criteria to be exempt.
+a. Gasoline engines with an aggregate rated brake (output) horsepower of less than 910 hp and gasoline engines powering electrical generators having an aggregate rated electrical power output of less than 611 kilowatts.
+b. Diesel engines with an aggregate rated brake (output) horsepower of less than 1,675 hp and diesel engines powering electrical generators having an aggregate rated electrical power output of less than 1125 kilowatts.
+c. Combustion gas turbines with an aggregate of less than 10,000,000 Btu per hour heat input (low heating value).
+3. Engines that power mobile sources during periods of maintenance, repair, or testing.
+4. Volatile organic compound storage and transfer operations involving petroleum liquids and other volatile organic compounds with a vapor pressure less than 1.5 pounds per square inch absolute under actual storage conditions or, in the case of loading or processing, under actual loading or processing conditions; and any operation specified below:
+a. Volatile organic compound transfer operations involving:
+(1) Any tank of 2,000 gallons or less storage capacity; or
+(2) Any operation outside the volatile organic compound emissions control areas designated in 9VAC5-20-206 .
+b. Volatile organic compound storage operations involving any tank of 40,000 gallons or less storage capacity.
+5. Vehicle customizing coating operations, if production is less than 20 vehicles per day.
+6. Vehicle refinishing operations.
+7. Coating operations for the exterior of fully assembled aircraft or marine vessels.
+8. Petroleum liquid storage and transfer operations involving petroleum liquids with a vapor pressure less than 1.5 pounds per square inch absolute under actual storage conditions or, in the case of loading or processing, under actual loading or processing conditions (kerosene and fuel oil used for household heating have vapor pressures of less than 1.5 pounds per square inch absolute under actual storage conditions; therefore, kerosene and fuel oil are not subject to the provisions of this article when used or stored at ambient temperatures); and any operation or facility specified in subdivisions 8 a through 8 e of this subsection:
+a. Gasoline bulk loading operations at bulk terminals located outside volatile organic compound emissions control areas designated in 9VAC5-20-206 .
+b. Gasoline dispensing facilities.
+c. Gasoline bulk loading operations at bulk plants:
+(1) With an expected daily throughput of less than 4,000 gallons, or
+(2) Located outside volatile organic compound emissions control areas designated in 9VAC5-20-206 .
+d. Account/tank trucks; however, permits issued for gasoline storage/transfer facilities should include a provision that all associated account/tank trucks meet the same requirements as those trucks serving existing facilities.
+e. Petroleum liquid storage operations involving:
+(1) Any tank of 40,000 gallons or less storage capacity;
+(2) Any tank of less than 420,000 gallons storage capacity for crude oil or condensate stored, processed, or treated at a drilling and production facility prior to custody transfer; or
+(3) Any tank storing waxy, heavy pour crude oil.
+9. Petroleum dry cleaning plants with a total manufacturer rated solvent dryer capacity less than 84 pounds as determined by the applicable new source performance standard in 9VAC5-50-410 .
+10. Any addition of, relocation of, or change to a woodworking machine within a wood product manufacturing plant, provided the system air movement capacity, expressed as the cubic feet per minute of air, is not increased and maximum control efficiency of the control system is not decreased.
+11. Wood sawmills and planing mills primarily engaged in sawing rough lumber and timber from logs and bolts, or resawing cants and flitches into lumber, including box lumber and softwood cut stock; planing mills combined with sawmills; and separately operated planing mills that are engaged primarily in producing surfaced lumber and standard workings or patterns of lumber. This also includes facilities primarily engaged in sawing lath and railroad ties and in producing tobacco hogshead stock, wood chips, and snow fence lath. This exemption does not include any facility that engages in the kiln drying of lumber.
+12. Exhaust flares at natural gas and coalbed methane extraction wells.
+13. Temporary facilities subject to the following conditions:
+a. The operational period of the temporary facility (the period from the date that the first pollutant-emitting operation is commenced to the date of shutdown of the temporary facility) is 12 months or less.
+b. The uncontrolled emissions rate of any regulated air pollutant that would be emitted from the temporary facility during the operational period does not exceed the applicable exempt emission rate as set forth in subsection C of this section (exemption rates for new stationary sources) or subsection D of this section (exemption rates for projects). The uncontrolled emission rate may be calculated based upon the total number of hours in the operational period instead of 8760 hours. All temporary facilities that will be co-located at a stationary source shall be considered in the aggregate when calculating the uncontrolled emissions rate under this subdivision 13.
+c. Upon completion of the operational period, the temporary facility shall be either (i) shut down in accordance with 9VAC5-20-220 or (ii) returned to its original state and condition unless, prior to the end of the operational period, the owner demonstrates in writing to the satisfaction of the department that the facility is exempt under subsection C of this section (exemption rates for new stationary sources) or subsection D of this section (exemption rates for new stationary projects) using 8760 hours of operation per year.
+d. Not less than 30 calendar days prior to commencing the operational period, the owner shall notify the department in writing of the proposed temporary facility and shall provide (i) calculations demonstrating that the temporary facility is exempt under this subdivision 13 and subsections E and F of this section and (ii) proposed dates for commencing the first pollutant-emitting operation and shutdown of the temporary facility.
+e. The owner shall provide written notifications to the department of (i) the actual date of commencing the first pollutant-emitting operation and (ii) the actual date of shutdown of the temporary facility. Notifications shall be postmarked or electronically submitted not more than 10 days after such dates.
+14. Open pit incinerators subject to 9VAC5-130 (Regulation for Open Burning) and used solely for the purpose of disposal of clean burning waste and debris waste.
+15. Poultry, swine, or bovine incinerators located on a farm where all of the following conditions are met:
+a. Auxiliary fuels for the incinerator unit shall be limited to natural gas, liquid petroleum gas, or distilled petroleum liquid fuel. Solid fuels, waste materials, or residual petroleum oil products shall not be used to fire the incinerator.
+b. The waste incinerated shall be limited to pathological waste (poultry, swine, or bovine remains). Litter and animal bedding or any other waste materials shall not be incinerated.
+c. The design burn rate or capacity rate of the incinerator shall be 400 pounds per hour or less of poultry, swine, or bovines. This value shall apply only to the mass of the poultry, swine, or bovines and shall not include the mass of the fuel.
+d. The incinerator shall be used solely to dispose of poultry, swine, or bovines originating on the farm where the incinerator is located.
+e. The incinerator shall be owned and operated by the owner or operator of the farm where the incinerator is located.
+f. The incinerator shall not be charged beyond the manufacturer's recommended rated capacity.
+g. Records shall be maintained on site to demonstrate compliance with the conditions for this exemption, including the total amount of pathological waste incinerated and the fuel usage on a calendar year quarterly basis.
+C. The exemption of new stationary sources shall be determined as specified in this subsection:
+1. New stationary sources with uncontrolled emission rates less than all of the emission rates specified in the table in this subdivision shall be exempt from the provisions of this article. The uncontrolled emission rate of a new stationary source is the sum of the uncontrolled emission rates of the individual affected emissions units. Facilities exempted by subsection B of this section shall not be included in the summation of uncontrolled emissions for purposes of exempting new stationary sources under this subsection.
+Pollutant 
+Emissions Rate 
+Carbon Monoxide
+100 tons per year (tpy)
+Nitrogen Oxides
+40 tpy
+Sulfur Dioxide
+40 tpy
+Particulate Matter
+25 tpy
+Particulate Matter (PM 10 )
+15 tpy
+Particulate Matter (PM 2.5 )
+10 tpy
+Volatile organic compounds
+25 tpy
+Lead
+0.6 tpy
+Fluorides
+3 tpy
+Sulfuric Acid Mist
+6 tpy
+Hydrogen Sulfide (H 2 S)
+9 tpy
+Total Reduced Sulfur (including H 2 S)
+9 tpy
+Reduced Sulfur Compounds (including H 2 S)
+9 tpy
+Municipal waste combustor organics (measured as total tetra-throughocta-chlorinated dibenzo-p-dioxins and dibenzofurans)
+3.5 x 10 -6 tpy
+Municipal waste combustor metals (measured as particulate matter)
+13 tpy
+Municipal waste combustor acid gases (measured as the sum of SO 2 and HCl)
+35 tpy
+Municipal solid waste landfill emissions (measured as nonmethane organic compounds)
+22 tpy
+2. If the particulate matter (PM 10 or PM 2.5 ) emissions for a stationary source can be determined in a manner acceptable to the department and the stationary source is deemed exempt using the emission rate for particulate matter (PM 10 or PM 2.5 ), the stationary source shall be considered to be exempt for particulate matter (PM). If the emissions of particulate matter (PM 10 or PM 2.5 ) cannot be determined in a manner acceptable to the department, the emission rate for particulate matter (PM) shall be used to determine the exemption status.
+3. The provisions of this article do not apply to a new stationary source if all of the emissions considered in calculating the uncontrolled emission rate of the new stationary source are fugitive emissions.
+D. The exemption of projects shall be determined as specified in this subsection:
+1. A project that would result in increases in uncontrolled emission rates at the stationary source less than all of the emission rates specified in the table in this subdivision shall be exempt from the provisions of this article. The uncontrolled emission rate increase of a project is the sum of the uncontrolled emission rate increases of the individual affected emissions units. Uncontrolled emissions rate decreases are not considered as part of this calculation. Facilities exempted by subsection B of this section shall not be included in the summation of uncontrolled emissions for purposes of exempting projects under this subsection.
+Pollutant 
+Emissions Rate 
+Carbon Monoxide
+100 tons per year (tpy)
+Nitrogen Oxides
+10 tpy
+Sulfur Dioxide
+10 tpy
+Particulate matter
+15 tpy
+Particulate matter PM 10 
+10 tpy
+Particulate matter (PM 2.5 )
+6 tpy
+Volatile organic compounds
+10 tpy
+Lead
+0.6 tpy
+Fluorides
+3 tpy
+Sulfuric Acid Mist
+6 tpy
+Hydrogen Sulfide (H 2 S)
+9 tpy
+Total Reduced Sulfur (including H 2 S)
+9 tpy
+Reduced Sulfur Compounds (including H 2 S)
+9 tpy
+Municipal waste combustor organics (measured as total tetra-through octa-chlorinated dibenzo-p-dioxins and dibenzofurans)
+3.5 x 10 - 6 tpy
+Municipal waste combustor metals (measured as particulate matter)
+13 tpy
+Municipal waste combustor acid gases (measured as the sum of SO 2 and HCl)
+35 tpy
+Municipal solid waste landfill emissions (measured as nonmethane organic compounds)
+22 tpy
+2. If the particulate matter (PM 10 or PM 2.5 ) emissions for a stationary source can be determined in a manner acceptable to the department and the stationary source is deemed exempt using the emission rate for particulate matter (PM 10 or PM 2.5 ), the stationary source shall be considered to be exempt for particulate matter (PM). If the emissions of particulate matter (PM 10 or PM 2.5 ) cannot be determined in a manner acceptable to the department, the emission rate for particulate matter (PM) shall be used to determine the exemption status.
+3. The provisions of this article do not apply to a project if all of the emissions considered in calculating the uncontrolled emission rate increase of the project are fugitive emissions.
+E. Exemptions for stationary sources of toxic pollutants not subject to the federal hazardous air pollutant new source review program shall be as follows:
+1. Stationary sources exempt from the requirements of Article 5 ( 9VAC5-60-300 et seq.) of Part II of 9VAC5-60 (Hazardous Air Pollutant Sources) as provided in 9VAC5-60-300 C 1, C 2, C 7, D, or E shall be exempt from the provisions of this article.
+2. Facilities as specified in this subdivision shall not be exempt, regardless of size or emission rate, from the provisions of this article.
+a. Incinerators, unless (i) the incinerator is used exclusively as air pollution control equipment, (ii) the incinerator is an open pit incinerator subject to 9VAC5-130 (Regulation for Open Burning) and used solely for the disposal of clean burning waste and debris waste, or (iii) the incinerator is a poultry, swine, or bovine incinerator located on a farm and all of the conditions of subdivision B 15 of this section are met.
+b. Ethylene oxide sterilizers.
+c. Boilers, incinerators, or industrial furnaces as defined in 40 CFR 260.10 and subject to 9VAC20-60 (Hazardous Waste Regulations).
+F. This subsection provides information on the extent to which any source category or portion of a source category subject to the federal hazardous air pollutant new source review program may be exempt from the provisions of this article.
+1. This subdivision addresses those source categories subject to the provisions of 40 CFR 61.05, 40 CFR 61.06, 40 CFR 61.07, 40 CFR 61.08, and 40 CFR 61.15 that establish the requirements for issuing approvals of the construction of any new source or modification of any existing source subject to the provisions of 40 CFR Part 61. Any source category or portion of a source category subject to this element of the federal hazardous air pollutant new source review program shall be exempt from the provisions of this article if specifically exempted from that program by 40 CFR Part 61.
+2. This subdivision addresses those source categories subject to the provisions of 40 CFR 63.5 that establish the requirements for issuing approvals to construct a new source or reconstruct a source subject to the provisions of 40 CFR Part 63, except for Subparts B, D, and E. Any source category or portion of a source category subject to this element of the federal hazardous air pollutant new source review program shall be exempt from the provisions of this article if specifically exempted from that program by 40 CFR Part 63.
+3. This subdivision addresses those source categories subject to the provisions of 40 CFR 63.50 through 40 CFR 63.56 that establish the requirements for issuing notices of MACT approval prior to the construction of a new emissions unit listed in the source category schedule for standards. Any information regarding exemptions for a source category or portion of a source category subject to this element of the federal hazardous air pollutant new source review program may be found in Article 3 ( 9VAC5-60-120 et seq.) of Part II of 9VAC5-60 (Hazardous Air Pollutant Sources).
+4. This subdivision addresses those source categories for which EPA has promulgated a formal determination that no regulations or other requirements need to be established pursuant to § 112 of the federal Clean Air Act in the source category schedule for standards. Any source category or portion of a source category subject to this element of the federal hazardous air pollutant new source review program shall be exempt from the provisions of this article.
+Statutory Authority
+§ 10.1-1308 of the Code of Virginia.
+Historical Notes
+Derived from Virginia Register Volume 29, Issue 3 , eff. November 7, 2012; amended, Virginia Register Volume 39, Issue 5 , eff. November 23, 2022; Volume 40, Issue 14 , eff. April 11, 2024; Volume 41, Issue 24 , eff. June 16, 2025; Volume 41, Issue 23 , eff. July 30, 2025.
+Website addresses provided in the Virginia Administrative Code to documents incorporated by reference are for the reader's convenience only, may not necessarily be active or current, and should not be relied upon. To ensure the information incorporated by reference is accurate, the reader is encouraged to use the source document described in the regulation.
+As a service to the public, the Virginia Administrative Code is provided online by the Virginia General Assembly. We are unable to answer legal questions or respond to requests for legal advice, including application of law to specific fact. To understand and protect your legal rights, you should consult an attorney.
+Section 
+Code of Virginia 
+Administrative Code 
+View by Agency 
+Emergency Regulations 
+VAC# Look Up 
+Go 
+Constitution of Virginia 
+Charters 
+Authorities 
+Compacts 
+Uncodified Acts 
+Sign In
+Username: 
+Password: 
+Cancel 
+LIS Home 
+Lobbyist-in-a-Box 
+Privacy Policy 
+© Copyright Commonwealth of Virginia, 
+. All rights reserved. Site developed by the Division of Legislative Automated Systems (DLAS) . 
+Sign In

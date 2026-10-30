@@ -1,0 +1,712 @@
+Air Pollution Control Regulation No. 29 - Operating Permits - Rhode Island Department of State 
+An Official Rhode Island State Website. 
+Rhode Island Department of State 
+Gregg M. Amore 
+Secretary of State 
+Menu
+Business Services 
+Elections 
+Civics and Education 
+Open Government 
+You are here:
+Home 
+Open Government 
+Rules and Regulations 
+Code of Regulations 
+Air Pollution Control Regulation No. 29 - Operating Permits
+250-RICR-120-05-29 
+ACTIVE RULE 
+Regulation Text 
+Overview 
+Regulation 
+History 
+Rulemaking Documents 
+To view the official Final Regulation for accessibility and readability, click Download Regulation: 
+Download Regulation 
+My Page Title 29.1 Purpose and Authority 
+29.1.1 Purpose 
+A. The purpose of this regulation is to specify operating permit requirements for stationary sources. 
+29.1.2 Authority 
+A. These regulations are authorized pursuant to R.I. Gen. Laws § 42-17.1-2(19) and R.I. Gen. Laws Chapter 23-23, and have been promulgated pursuant to the procedures set forth in the Rhode Island Administrative Procedures Act, R.I. Gen. Laws Chapter 42-35. 
+29.2 Repealed 
+29.3 Repealed 
+29.4 Incorporated Materials 
+A. These Regulations hereby adopt and incorporate 40 C.F.R. §§ 61.145, 60 Subpart AAA, and 72 (2023) by reference, not including any further editions or amendments thereof and only to the extent that the provisions therein are not inconsistent with these Regulations. 
+29.5 Definitions 
+A. Unless otherwise expressly defined in this section, the terms used in this regulation shall be defined by reference to Part 0 of this Subchapter (General Definitions). As used in this regulation, the following terms shall, where the context permits, be construed as follows: 
+1. "42 U.S.C. § 7661(a) (Clean Air Act § 502(b)(10)) change" means changes that contravene an express permit term. Such changes do not include changes that would violate applicable requirements or contravene federally enforceable permit terms and conditions that are monitoring (including test methods), recordkeeping, reporting, or compliance certification requirements. 
+2. "Actual emissions" means the actual rate of emissions of a pollutant from an emissions unit, as determined in accordance with §§ 29.5(A)(2)(a) through (c) of this Part: 
+a. In general, actual emissions as of a particular date shall equal the average rate, in tons per year, at which the unit actually emitted the pollutant during a two-year period which precedes the particular date and which is representative of normal source operation. The Director shall allow the use of a different time period upon a determination that it is more representative of normal source operation. Actual emissions shall be calculated using the unit's actual operating hours, production rates, and types of materials processed, stored, or combusted during the selected time period. 
+b. The Director may presume that source specific allowable emissions for the unit are equivalent to actual emissions of the unit. 
+c. For any emissions unit which has not begun normal operations on the particular date, actual emissions shall equal the potential to emit of the unit on that date. 
+3. "Affected source" means the meaning given to it in the regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). 
+4. "Affected states" means any state that: 
+a. Is contiguous to Rhode Island and whose air quality may be affected; or 
+b. Is located within fifty (50) miles of a facility subject to the operating permit program in Rhode Island. 
+5. "Affected unit" means the meaning given to it in the regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416) . 
+6. "Applicable requirement" means all of the following as they apply to emissions units in a stationary source (including requirements that have been promulgated or approved by EPA through rulemaking at the time of issuance but have future-effective compliance dates): 
+a. Any Air Pollution Control Regulation or other requirement provided for in the Rhode Island State Implementation Plan approved or promulgated by EPA through rulemaking under 42 U.S.C. §§ 7401-7431 (CAA §§ 101-131), 42 U.S.C. §§ 7470-7492 (CAA §§ 160-169b), or 42 U.S.C §§ 7501-7515 (CAA §§ 171-193) that implements the relevant requirements of the Act, including any revisions to that plan promulgated in 40 C.F.R. § 52; 
+b. Any term or condition of any preconstruction permits issued pursuant to Part 9 of this Subchapter (Air Pollution Control Permits) or issued pursuant to regulations approved or promulgated through rulemaking under 42 U.S.C. § § 7401-7431 (CAA §§ 101-131), 42 U.S.C. §§ 7470-7492 (CAA §§ 160-169b), or 42 U.S.C §§ 7501-7515 (CAA §§ 171-193). 
+c. Any standard or other requirement under 42 U.S.C. § 7411 (CAA § 111) , including 42 U.S.C. § 7411(d) (CAA § 111(d)); 
+d. Any standard or other requirement under 42 U.S.C. § 7412 (CAA § 112) , including any requirement concerning accident prevention under 42 U.S.C. § 7412(r)(7) (CAA § 112 (r)(7)); 
+e. Any standard or other requirement of the acid rain program under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416) or the regulations promulgated thereunder; 
+f. Any requirements established pursuant to 42 U.S.C. § 7661c(b) (CAA § 504(b)) or 42 U.S.C. § 7414(a)(3) (CAA § 114(a)(3)); 
+g. Any standard or other requirement governing solid waste incineration, under 42 U.S.C. § 7429 (CAA § 129); 
+h. Any standard or other requirement for consumer and commercial products, under 42 U.S.C. § 7511b(e) ( CAA § 183(e)); 
+i. Any standard or other requirement for tank vessels, under 42 U.S.C. § 7511b(f) (CAA § 183(f)); 
+j. Any standard or other requirement of the program to control air pollution from outer continental shelf sources, under 42 U.S.C. § 7627 (CAA § 328); 
+k. Any standard or other requirement of the regulations promulgated to protect stratospheric ozone under 42 U.S.C. §§ 7671-7671q (CAA §§ 601-618), unless the Administrator has determined that such requirements need not be contained in an Operating Permit; and 
+l. Any national ambient air quality standard or increment or visibility requirement under 42 U.S.C. §§ 7470-7492 (CAA §§ 160-169b), but only as it would apply to temporary stationary sources permitted pursuant to § 29.12 of this Part. 
+m. Any air pollution control regulation adopted by the Office of Air Resources pursuant to R.I. Gen. Laws Chapter 23-23. 
+7. "Area source" means any stationary source of hazardous air pollutants that is not a major source as defined in § 29.5(A)(15)(a) of this Part. 
+8. "Designated representative" means a responsible person or official authorized by the owner or operator of a unit to represent the owner or operator in matters pertaining to the holding, transfer, or disposition of allowances allocated to a unit, and the submission of and compliance with permits, permit applications, and compliance plans for the unit under acid rain requirements of 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416) and regulations promulgated thereunder. 
+9. "Draft permit" means the version of an operating permit for which the Office of Air Resources offers public participation or affected State review. 
+10. "Emissions allowable under the permit" means a federally enforceable permit term or condition determined at issuance to be required by an applicable requirement that establishes an emissions limit (including a work practice standard) or a federally enforceable emissions cap that the stationary source has assumed to avoid an applicable requirement to which the stationary source would otherwise be subject. 
+11. "Emissions cap" means any emission limitation or physical or operational limitations, imposed in a federally enforceable document that establishes the maximum quantity of emissions which may be released from a stationary source. 
+12. "Emissions trading" means the averaging of emissions of a given air pollutant from two (2) or more emissions units within a stationary source for the purpose of complying with a federally enforceable emissions cap or an applicable requirement. 
+13. "Final permit" means the version of an operating permit issued by the Office of Air Resources that has completed all review procedures. 
+14. "General permit" means an operating permit that meets the requirements of § 29.11 of this Part. 
+15. "Major source" means any of the following: 
+a. For pollutants other than radionuclides, all of the pollutant-emitting activities located within a contiguous area and under common control that emits or has the potential to emit, in the aggregate, ten (10) tons per year (tpy) or more of any hazardous air pollutant which has been listed pursuant to 42 U.S.C. § 7412(b) (CAA § 112(b)), twenty-five (25) tpy or more of any combination of such hazardous air pollutants, or such lesser quantity as the Administrator may establish by rule. Notwithstanding the preceding sentence, emissions from any oil or gas exploration or production well (with its associated equipment) and emissions from any pipeline compressor or pump station shall not be aggregated with emissions from other similar units, whether or not such units are in a contiguous area or under common control, to determine whether such units or stations are major sources; or 
+b. For radionuclides, "major source" shall have the meaning specified by the Administrator by rule. 
+c. All the pollutant-emitting activities, which belong to the same industrial grouping, are located on one or more contiguous or adjacent properties and are under control of the same person or persons under common control, that emits or has the potential to emit, one hundred (100) tpy or more of any air pollutant subject to regulation including any fugitive emissions, to the extent they are quantifiable; or 
+d. Pollutant-emitting activities shall be considered as part of the same industrial grouping if they belong to the same two-digit code as described in the Standard Industrial Classification Manual, 1987 
+e. All the pollutant-emitting activities, which belong to the same industrial grouping, are located on one or more contiguous or adjacent properties and are under control of the same person or persons under common control, that emits or has the potential to emit fifty (50) tpy or more of volatile organic compounds or oxides of nitrogen including any fugitive emission, to the extent they are quantifiable. 
+f. Pollutant-emitting activities shall be considered as part of the same industrial grouping if they belong to the same two-digit code as described in the Standard Industrial Classification Manual, 1987. 
+16. "Operating permit" means any permit or group of permits covering a stationary source that is issued, renewed, amended, or revised pursuant to this regulation. 
+17. "Operating permit program" means a program approved by the Administrator under 40 C.F.R. § 70. 
+18. "Permit modification" means any revision to an operating permit that cannot be accomplished under the provisions for administrative amendments provided in § 29.14.1 of this Part. A permit modification for purposes of the acid rain portion of the permit shall be governed by regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). 
+19. "Permit revision" means any permit modification or administrative permit amendment. 
+20. "Proposed permit" means the version of a permit that the Office of Air Resources proposes to issue and forwards to the Administrator for review. 
+21. "Regulated air pollutant" means the following: 
+a. Nitrogen oxides or any volatile organic compounds; 
+b. Any pollutant for which a national ambient air quality standard has been promulgated; 
+c. Any pollutant that is subject to any standard promulgated under 42 U.S.C. § 7411 (CAA § 111); 
+d. Any Class I or II substance subject to a standard promulgated under or established by 42 U.S.C. §§ 7671-7671q (CAA §§ 601-618); or 
+e. Any pollutant subject to a standard promulgated under 42 U.S.C. § 7412 (CAA § 112) or other requirements established under 42 U.S.C. § 7412 (CAA § 112) , including 42 U.S.C. § 7412(g) (CAA § 112(g)), 42 U.S.C. § 7412(j) (CAA § 112(j)), and 42 U.S.C. § 7412(r) (CAA § 112(r)), including the following: 
+(1) Any pollutant subject to requirements under 42 U.S.C § 7412(j) (CAA § 112(j)). If the Administrator fails to promulgate a standard by the date established pursuant to 42 U.S.C § 7412(e) (CAA § 112 (e)), any pollutant for which a subject stationary source would be major shall be considered to be regulated on the date eighteen (18) months after the applicable date established pursuant to 42 U.S.C § 7412(e) (CAA § 112(e)); and 
+(2) Any pollutant for which the requirements of 42 U.S.C § 7412 (CAA § 112(g)(2)) of the Act have been met, but only with respect to the individual stationary source subject to the 42 U.S.C § 7412(g)(2) (CAA § 112 (g)(2)) requirement. 
+f. Any substance which is listed in Part 22 of this Subchapter (Air Toxics). 
+22. "Renewal" means the process by which a permit is reissued at the end of its term. 
+23. "Research and development operations" means activities in a laboratory or pilot plant directed toward: 
+a. The discovery of facts, scientific principles, reactions or substances; or, 
+b. The structuring or establishment of methods of manufacture or of specific designs of saleable substances, devices or procedures, based upon previously discovered facts, scientific principles, reactions or substances. 
+c. Development shall not include production for sale of established products through established processes; nor shall it include production for distribution through market testing channels. 
+24. "Responsible official" means one of the following: 
+a. For a corporation: a president, secretary, treasurer, or vice-president of the corporation in charge of a principal business function, or any other person who performs similar policy or decision-making functions for the corporation, or a duly authorized representative of such person if the representative is responsible for the overall operation of one or more manufacturing, production, or operating facilities applying for or subject to a permit and either: 
+(1) The facilities employ more than two hundred fifty (250) persons or have gross annual sales or expenditures exceeding twenty-five (25) million dollars (in second quarter 1980 dollars); or 
+(2) The delegation of authority to such representative is approved in advance by the Office of Air Resources; 
+b. For a partnership or sole proprietorship: a general partner or the proprietor, respectively; 
+c. For a municipality, State, Federal, or other public agency: either a principal executive officer or ranking elected official. For the purposes of this regulation, a principal executive officer of a Federal agency includes the chief executive officer having responsibility for the overall operations of a principal geographic unit of the agency (e.g., a Regional Administrator of EPA); or 
+d. For affected sources: 
+(1) The designated representative in so far as actions, standards, requirements, or prohibitions under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416) or the regulations promulgated thereunder are concerned; and 
+(2) The designated representative for any other purposes under 40 C.F.R. § 70. 
+25. "Section 111" means that portion of the Federal Clean Air Act that addresses New Source Performance Standards. 
+26. "Section 112" means that portion of the Federal Clean Air Act that addresses National Emission Standards for Hazardous Air Pollutants. 
+27. "Section 502(b)(10) changes" means changes that contravene an express permit term. Such changes do not include changes that would violate applicable requirements or contravene federally enforceable permit terms and conditions that are monitoring (including test methods), recordkeeping, reporting, or compliance certification requirements. 
+28. "Subject to regulation" means, for any air pollutant, that the pollutant is subject to either a provision in the Clean Air Act, or a nationally-applicable regulation codified by the EPA in 40 C.F.R. §§ 50 through 99, that requires actual control of the quantity of emissions of that pollutant, and that such a control requirement has taken effect and is operative to control, limit or restrict the quantity of emissions of that pollutant released from the regulated activity. Except that: 
+a. Greenhouse gases (GHGs), the air pollutant defined in 40 C.F.R. § 86.1818–12(a) as the aggregate group of six (6) greenhouse gases: carbon dioxide, nitrous oxide, methane, hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride, shall not be subject to regulation unless, as of July 1, 2011, the GHG emissions are at a stationary source emitting or having the potential to emit one-hundred thousand (100,000) tpy CO 2 equivalent emissions. 
+b. The term tpy CO 2 equivalent emissions (CO 2 e) shall represent an amount of GHGs emitted, and shall be computed by multiplying the mass amount of emissions (tpy), for each of the six (6) greenhouse gases in the pollutant GHGs, by the gas’s associated global warming potential published at 40 C.F.R. § 98, Table A-1, and summing the resultant value for each to compute a tpy CO 2 e. 
+29. "Technology-based emission limitation" means an emission limitation that is formulated on the basis of the application of measures, processes, methods, systems or techniques including but not limited to: 
+a. Enclosing systems or processes to eliminate emissions, 
+b. Collecting, capturing, destroying, incinerating or treating such pollutants when released from a process, stack, storage or fugitive emissions point, 
+c. Design, equipment, work practice, or operational standards, or 
+d. Reducing the volume of or eliminating emissions of such pollutants through process changes, substitution of materials or other modifications, or 
+e. Are a combination of any of the above. 
+30. "Temporary source" means a stationary source which, by design, is intended to be operated at more than one location and which is relocated at least once in five (5) years. 
+31. "Title I" means that portion of the Federal Clean Air Act Amendments of 1990 codified in 42 U.S.C. § 7401-7431 (CAA § 101-131), 42 U.S.C. § 7470-7492 (CAA § 160-169b), and 42 U.S.C § 7501-7515 (CAA § 171-193) of the Act. 
+32. "Title I modification” or “modification under any provision of Title I of the Act" means any modification under 42 U.S.C. § 7411 (CAA § 111) or 42 U.S.C. § 7412 (CAA § 112) and any physical change or change in method of operations that is subject to the preconstruction regulations promulgated 42 U.S.C. § 7470-7492 (CAA § 160-169b), or 42 U.S.C § 7501-7515 (CAA § 171-193). The following are not considered Title I modifications or modifications under any provision of Title I: 
+a. Routine maintenance, repair and replacement. 
+b. An increase in the hours of operation or in the production rate, unless such change is prohibited by conditions of any federally enforceable document. 
+c. A change in ownership at a stationary source. 
+d. Any modification subject to the minor source permitting requirements in Part 9 of this Subchapter (Air Pollution Control Permits). 
+29.6 Applicability and Exemptions 
+A. This regulation applies to the following stationary sources as defined below: 
+1. Any major source; 
+2. Any affected source; and 
+3. Any stationary source in a source category designated by the EPA pursuant to 40 C.F.R. § 70. 
+4. Any stationary source, including an area source, subject to a standard, limitation, or other requirement under 42 U.S.C. § 7411 (CAA § 111). 
+5. Any stationary source, including an area source, subject to a standard or other requirement under 42 U.S.C. § 7412 (CAA § 112) , except that a stationary source is not required to obtain a permit solely because it is subject to regulations or requirements under 42 U.S.C. § 7412 (CAA § 112(r)). 
+B. The following stationary sources are exempt from obtaining a permit: 
+1. All stationary sources listed in § 29.6(A) of this Part that are not major sources, affected sources, or solid waste incineration units required to obtain a permit pursuant to 42 U.S.C. § 7429(e) (CAA § 129(e)). 
+2. In the case of stationary sources subject to a standard or other requirement under either 42 U.S.C. § 7411 (CAA § 111) or 42 U.S.C. § 7412 (CAA § 112) after July 21, 1992, that are not major sources, the EPA will determine whether to exempt any or all such applicable stationary sources from the requirement to obtain an operating permit at the time that the new standard is promulgated. 
+3. Any stationary source listed in § 29.6(A) of this Part which is exempt from the requirement to obtain a permit under this section may opt to apply for a permit under the operating permit program. 
+4. Unless otherwise required by the Office of Air Resources to obtain an operating permit, the following source categories are exempt from the obligation to obtain an operating permit: 
+a. All stationary sources and source categories that would be required to obtain a permit solely because they are subject to the Standards of Performance for New Residential Wood Heaters, 40 C.F.R. § 60, Subpart AAA, incorporated in § 29.4 of this Part; and 
+b. All stationary sources and source categories that would be required to obtain a permit solely because they are subject to the National Emission Standard for Hazardous Air Pollutants for Asbestos, Standard for Demolition and Renovation, 40 C.F.R. § 61.145, incorporated in § 29.4 of this Part. 
+C. Stationary sources that emitted or had the potential to emit any air pollutants in excess of the thresholds for a major source as defined in § 29.5(A)(15) of this Part, at any time since January 1, 1990, shall be presumed to be a major source. 
+1. The owner or operator of a stationary source can rebut this presumption by presenting evidence to demonstrate to the satisfaction of the Office of Air Resources that the potential to emit of the stationary source has been reduced by means of a physical change or change in the method of operation of the stationary source. 
+D. For the purposes of determining applicability pursuant to § 29.6 of this Part, an owner or operator may elect to treat any part(s) of a stationary source, which part is used solely for research and development operations, as a separate stationary source. If any research and development operations of a stationary source are treated separately for the purposes of determining applicability, the emissions or the potential to emit of those operations may be considered separately from the emissions or the potential to emit of the remainder of the stationary source. However, research and development operations may not be treated separately for the purposes of determining compliance with Part 22 of this Subchapter (Air Toxics). 
+E. Any stationary source, operating in compliance with a permit issued under this regulation, that no longer meets any of the applicability criteria in § 29.6(A) of this Part, may petition the Office of Air Resources to terminate its permit and relieve it of its obligation to obtain and operate under a permit issued under this regulation. 
+29.7 Emissions Caps 
+A. Any stationary source with potential emissions in excess of any of the applicability thresholds for this regulation, but with actual emissions less than those thresholds, may apply to the Director for an emissions cap, at or below that threshold level. An emissions cap relieves the stationary source from the requirement to obtain an operating permit under this regulation. 
+B. The following stationary sources are not eligible to apply for an emissions cap: 
+1. Any non-major source required to obtain a permit pursuant to § 29.6 of this Part by the Administrator, regardless of emissions level. 
+2. Any stationary source, including an area source, subject to a Maximum Achievable Control Technology (MACT) standard promulgated by EPA pursuant to 42 U.S.C. § 7412(e) (CAA § 112(e)), whose actual emissions exceed the applicability threshold of the standard. 
+3. Any stationary source, including an area source, subject to a Maximum Achievable Control Technology (MACT) standard determined by the Office of Air Resources pursuant to 42 U.S.C. § 7412(j) (CAA § 112(j)), whose actual emissions exceed the applicability threshold of the standard. 
+C. Application for an emissions cap can be made at any time. Any stationary source applying for an emissions cap must submit an application at least six (6) months prior to: 
+1. The date by which a timely and complete initial operating permit application must be submitted to the Office of Air Resources . 
+D. Application for an emissions cap shall: 
+1. Be made on forms obtained from the Office of Air Resources or by other means prescribed by the Office of Air Resources. 
+2. Be submitted in duplicate and signed by a responsible official. 
+3. Include documentation of actual annual emissions for each of the three (3) previous calendar years. 
+4. Include sufficient information to document the proposed restriction. 
+E. An emissions cap issued by the Office of Air Resources shall: 
+1. Be federally enforceable and include some combination of production and /or operational limitations to ensure that emissions are limited by quantifiable and enforceable means including short-term emission limits or operational restrictions. 
+2. Include requirements to maintain records sufficient to demonstrate that the limitations imposed in the emissions cap are followed and that the emissions have not exceeded those allowed by the emissions cap. 
+3. All emissions limitations, controls and other requirements imposed by the emissions cap will be at least as stringent as any applicable requirement and the emissions cap will not waive or make less stringent any applicable requirement. 
+F. All emissions caps shall be processed according to the following procedures: 
+1. Following receipt of a complete application the Office of Air Resources shall review each application and shall either: 
+a. Deny the application for an emissions cap and notify the applicant and EPA of the denial; or, 
+b. Give public notice of its intention to issue an emissions cap. 
+2. The draft emissions cap, including all supporting documentation, shall be made available for public comment. The notice of public comment period shall be posted on the Department's website. Public notice may also include any other means the Office of Air Resources finds necessary to assure adequate notice to the affected public of the opportunity for public comment. 
+3. At a minimum, a copy of the public notice shall be sent to: 
+a. The applicant for the emissions cap. 
+b. The Regional Administrator of the EPA or their authorized representative. 
+c. The chief executives of the city or town where the source is located. 
+d. Persons on a mailing list developed by the Office of Air Resources, including those who request in writing to be on the list. 
+4. A public hearing for interested persons to appear and submit written or oral comments on the emissions cap shall be held if requested by ten (10) or more persons, or by a governmental subdivision or agency or by an association having not less than ten (10) members. The Director shall also hold a hearing, whenever they believe there is a significant degree of public interest in the proposed action. If held, a hearing shall take place no earlier than thirty (30) days nor later than sixty (60) days following initial public notice. Comments from the applicant and/or any interested persons shall be recorded at the public hearing. Written comments, to be considered part of the record, must be submitted during the public comment period. The public comment period shall commence on the date of initial public notice. The public comment period shall close thirty (30) days later, if no hearing is held. If a public hearing is held, the public comment period shall close at the close of the public comment hearing or on a date set by the Office of Air Resources. 
+5. After the close of the public comment period, the Office of Air Resources shall prepare a final determination concerning the request for an emissions cap and notify the applicant of its determination. The Office of Air Resources shall provide a written response to each substantive public comment. A copy of all emissions caps will be forwarded to the EPA. The Office of Air Resources shall maintain a record of the commenters and also of the issues raised during the public participation process. Such records shall be available to the public upon request. 
+G. If the application for an emissions cap is not approved, the applicant will be notified, by certified mail, of: 
+1. The reasons the application for an emissions cap was not approved; and, 
+2. The date by which a timely and complete operating permit application must be submitted to the Office of Air Resources. 
+H. Except as provided in §§ 29.8(F), 29.14.2, and 29.14.3 of this Part, no source may operate after the time it is required to submit a timely and complete application under the operating permit program except in compliance with either: 
+1. A permit issued under this regulation; or, 
+2. An emissions cap issued under this regulation. 
+29.8 General Requirements for Application Submissions 
+A. For all stationary sources subject to this regulation, as described in § 29.6 of this Part, the owner or operator shall submit a timely and complete permit application in accordance with this section. 
+B. Timely Application 
+1. After May 18, 1995, timely and complete operating permit applications shall be submitted to the Office of Air Resources within ninety (90) days of receipt of notice, by certified mail, from the Office of Air Resources that such application to the Office of Air Resources is required 
+2. All major sources required to meet the requirements under 42 U.S.C. § 7412(g) (CAA § 112(g)) or to have a permit under Part 9 of this Subchapter (Air Pollution Control Permits), shall file a complete application to obtain an operating permit or permit revision within twelve (12) months after commencing operation. Where an existing operating permit would prohibit such construction or change in operation, the stationary source must obtain a permit revision before commencing operation. 
+3. For purposes of permit renewal, a timely application is one that is submitted at least twelve (12) months prior to the date of permit expiration. 
+4. For any stationary source that becomes subject to this regulation after May 18, 1995, a timely application is one that is submitted within twelve (12) months after the stationary source becomes subject to this regulation. 
+C. Complete Application 
+1. A complete application must provide all the information requested in § 29.9.1 of this Part. Information required under § 29.9.1 of this Part must be sufficient to evaluate the subject stationary source and its application and to determine all applicable requirements. The stationary source's ability to operate without a permit, as set forth in § 29.8(F) of this Part, shall be in effect from the date the application is determined or deemed to be complete until the final permit is issued, provided that the applicant submits any requested additional information by the deadline specified by the Office of Air Resources. 
+2. Applications for permit revision need only submit information related to the proposed change. 
+3. The Office of Air Resources will determine whether an application is complete within sixty (60) days of receipt of the application. Unless the Office of Air Resources determines that an application is not complete within sixty (60) days of receipt of the application, the application will be deemed complete. However, if while reviewing a complete permit application it is determined that additional information is required to take final action on the permit, including any information needed due to changes to this regulation, the Office of Air Resources may request such information in writing and set a reasonable deadline for such a response. 
+D. All fugitive emissions from any stationary source listed in §§ 29.6(A)(1) through (5) of this Part to the extent they are quantifiable, shall be included in the permit application and in the permit in the same manner as stack emissions. 
+E. The submittal of a complete application shall not affect the requirement that any stationary source have a preconstruction permit under Part 9 of this Subchapter (Air Pollution Control Permits). 
+F. Except as provided in the following sentence and §§ 29.14.2, and 29.14.3 of this Part, no stationary source may operate after the time that it is required to submit a timely and complete application under the operating permit program except in compliance with a permit issued under this regulation. If a stationary source submits a timely and complete application for permit issuance (including for renewal), the stationary source's failure to have a permit is not a violation of this regulation until the Office of Air Resources takes final action on the permit application, except as noted in § 29.8(F) of this Part. This protection shall cease to apply if, subsequent to the completeness determination made pursuant to § 29.8(C) of this Part, the applicant fails to submit by the deadline specified in writing by the Office of Air Resources any additional information identified as being needed to process the application. 
+29.9 Applications and Required Information 
+29.9.1 Standard Application Form and Required Information 
+A. All information as described below shall be included for each emissions unit at the stationary source, except for insignificant activities listed in § 29.20 of this Part, in the application provided to the Office of Air Resources. An applicant may not omit information needed to determine the applicability of or to impose, any applicable requirement, or to evaluate the fee amount required under Part 28 of this Subchapter (Operating Permit Fees). All applications shall contain the following elements: 
+1. Identifying information, including company name and address (or plant name and address if different from the company name), owner's name and registered agent, if applicable, and telephone number and names of plant site manager/contact. 
+2. A description of the stationary source's processes and products, by Standard Industrial Classification Code, including any associated with each alternate scenario identified by the stationary source. 
+3. The following emissions-related information: 
+a. All emissions of pollutants for which the stationary source is major and all emissions of regulated air pollutants. The applicant shall describe all emissions of regulated air pollutants emitted from any emissions unit except those units which are insignificant activities listed in § 29.20 of this Part. The Office of Air Resources shall require additional information related to the emissions of air pollutants to verify which requirements are applicable to the stationary source and any other information necessary to collect any permit fees under Part 28 of this Subchapter (Operating Permit Fees). 
+b. Identification and description of all points of emissions described in § 29.9.1(A)(3)(a) of this Part above, in sufficient detail to establish the basis for fees and applicability of requirements of the Act. 
+c. Emissions rates in tons per year and in such terms as are necessary to establish compliance consistent with the applicable standard reference test method. 
+d. The following information to the extent it is needed to determine or regulate emissions: fuels, fuel use, raw materials, production rates and operating schedules. 
+e. Identification and description of air pollution control equipment and compliance monitoring devices or activities. 
+f. Limitations on stationary source operation affecting emissions or any work practice standards, where applicable, for all regulated pollutants at the stationary source. 
+g. Other information required by any applicable requirement including information related to stack height limitations developed pursuant to 42 U.S.C. § 7423 (CAA § 123). 
+h. Calculations on which the above information in items §§ 29.9.1(A)(3)(a) through (g) of this Part are based. 
+4. The following air pollution control requirements: 
+a. Citation and description of all applicable requirements. 
+b. Description of or reference to any applicable test method for determining compliance with each applicable requirement. 
+5. Any other specific information that the Office of Air Resources may deem necessary to implement and enforce other applicable requirements of the Act or of this regulation or to determine the applicability of such requirements. 
+6. An explanation of any proposed exemptions from otherwise applicable requirements. 
+7. An application seeking authorization for emissions trading shall also provide the following information to the Office of Air Resources: 
+a. A description of the planned emissions trading. 
+b. A statement of the purpose for seeking emissions trading at the facility. 
+c. Specification of any permit condition or applicable requirement that would be: 
+(1) Complied with through emissions trading; or 
+(2) No longer applicable as a result of the emissions trading. 
+d. The specific emissions units that would be included in the emissions trading program. 
+e. For each emissions unit subject to the emissions trading program, each air contaminant for which the quantity or rate of actual emissions may be increased or decreased as a result of emissions trading. 
+f. For each air contaminant, the proposed federally enforceable emissions cap for the group of emissions units that are to be included in the emissions trading program. 
+g. A description of the types of circumstances under which decreases in emissions from one or more emissions units will be used to offset increases in emissions from one or more other emissions units. 
+h. Proposed permit conditions which will allow the Office of Air Resources to readily verify whether emissions from the stationary source have exceeded the emissions cap; such permit conditions shall set forth replicable procedures sufficient to ensure that emissions are quantified and recorded and that compliance with the emissions cap is enforceable. Such replicable procedures shall include monitoring or stationary source emissions testing, or both, and recordkeeping and reporting procedures. 
+i. A statement affirming that each included emissions unit shall operate in compliance with the applicable provisions of § 29.9.1 of this Part and all other applicable requirements. 
+8. An application seeking authorization for alternative operating scenarios shall also provide the following information to the Office of Air Resources: 
+a. A description of the proposed alternative operating scenarios. 
+b. The specific emissions units that are to be included in the proposed alternative operating scenario. 
+c. A description of the circumstances under which an operation will be changed over from one operating scenario to an alternative. 
+d. A demonstration that each alternative operating scenario meets all applicable requirements. 
+9. All additional information determined necessary by the Office of Air Resources to define alternative operating scenarios or to define permit terms and conditions for emissions trading. 
+10. A compliance plan for all stationary sources subject to this regulation that contains all of the following: 
+a. A description of the compliance status of the stationary source with respect to all applicable requirements. 
+b. A description as follows: 
+(1) For applicable requirements with which the stationary source is in compliance, a statement that the stationary source will continue to comply with such requirements. 
+(2) For applicable requirements that will become effective during the permit term, a statement that the stationary source will meet such requirements on a timely basis. 
+(3) For requirements for which the stationary source is not in compliance at the time of permit issuance, a narrative description of how the stationary source will achieve compliance with such requirements. 
+c. A compliance schedule as follows: 
+(1) For applicable requirements with which the stationary source is in compliance, a statement that the stationary source will continue to comply with such requirements. 
+(2) For applicable requirements that will become effective during the permit term, a statement that the stationary source will meet such requirements on a timely basis. A statement that the stationary source will meet in a timely manner applicable requirements that become effective during the permit term shall satisfy this provision, unless a more detailed schedule is expressly required by the applicable requirement. 
+(3) A schedule of compliance for stationary sources that are not in compliance with all applicable requirements at the time of permit issuance. The schedule shall include a schedule of remedial measures, including an enforceable sequence of actions with milestones leading to compliance with any applicable requirements for which the stationary source will be in noncompliance at the time of permit issuance. This compliance schedule shall resemble and be at least as stringent as that contained in any judicial consent decree or administrative order to which the stationary source is subject. Any such schedule of compliance shall be supplemental to and shall not sanction noncompliance with, the applicable requirements on which it is based. 
+d. A schedule for submission of certified progress reports, consistent with § 29.9.1(B) of this Part, no less frequently than every six (6) months for stationary sources required to have a schedule of compliance to remedy a violation. 
+e. The compliance plan content requirements specified in this paragraph shall apply and be included in the acid rain portion of the compliance plan for an affected source, except as specifically superseded by regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416) with regard to the schedule and method(s) the stationary source will use to achieve compliance with the acid rain emissions limitations. 
+11. Requirements for compliance certification including the following: 
+a. A certification of compliance with all applicable requirements by a responsible official consistent with § 29.9.1(B) of this Part and 42 U.S.C. § 7414 (CAA § 114). 
+b. A statement of methods used for determining compliance including a description of monitoring, recordkeeping, and reporting requirements and test methods. 
+c. A schedule for submission of compliance certifications, during the permit term, to be submitted annually or more frequently if specified by the underlying applicable requirement or by the Office of Air Resources. 
+d. A statement indicating the stationary source's compliance status with any applicable monitoring and compliance certification requirements of the Act. 
+12. The use of nationally-standardized forms for acid rain portions of the permit applications and compliance plans, as required by regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). 
+13. A list of insignificant activities, found in § 29.20(A)(2) of this Part, which are exempted because of size or production rate, their emissions, to the extent required by the Office of Air Resources, and any information necessary to determine applicable requirements. 
+B. Any application form, report or compliance certification submitted pursuant to these regulations shall contain certification by a responsible official of truth, accuracy and completeness. This certification and any other certification required under this regulation shall state that based on information and belief formed after reasonable inquiry, the statements and information in the document are true, accurate, and complete. 
+29.9.2 Confidential Information 
+A. All confidentiality claims made regarding material submitted to the Office of Air Resources under this regulation shall be reviewed under the provisions of the R.I. Gen. Laws Chapters 23-23 and 38-2. 
+B. In the case where a stationary source has submitted information to the Office of Air Resources under a claim of confidentiality, the stationary source may be required to submit a copy of such information directly to EPA. 
+C. If the Office of Air Resources at any time determines that information or data requested to be kept confidential is not entitled to confidential treatment, it shall provide fifteen (15) days written notice of its decision to the owner or operator requesting such confidential treatment prior to making such information or data public. 
+D. In no event shall the contents of an operating permit be entitled to confidential treatment. 
+E. Duty to Supplement or Correct Application 
+1. Any applicant who fails to submit any relevant facts or who has submitted incorrect information in a permit application shall, upon becoming aware of such failure or incorrect submittal, promptly submit such supplementary facts or corrected information to the Office of Air Resources. In addition, an applicant shall provide additional information, as necessary, to address any requirements that become applicable to the stationary source after the date it filed a complete application but prior to release of a draft permit. 
+29.10 Permit Content 
+A. Emissions Units 
+1. For major sources, the Office of Air Resources shall include in the permit all applicable requirements for all relevant emissions units in the major source. 
+2. For any stationary source subject to the operating permit program under §§ 29.6(A) and (B) of this Part, that is not a major source, the Office of Air Resources shall include in the permit all requirements applicable to emissions units that cause the stationary source to be subject to the operating permit program. 
+B. Standard Permit Requirements 
+1. All permits issued by the Office of Air Resources shall include all emission limitations and standards, including those operational requirements and limitations that assure compliance with all applicable requirements at the time of permit issuance. 
+C. Monitoring Requirements 
+1. All permits issued by the Office of Air Resources shall include the following elements with respect to monitoring: 
+a. All emissions monitoring and analysis procedures or test methods required under the applicable requirements, including any procedures and methods promulgated pursuant to 42 U.S.C. § 7414 (CAA § 114(a)(3)) or 42 U.S.C. § 7661c (CAA § 504(b)). 
+b. Periodic monitoring sufficient to yield reliable data from the relevant time periods that are representative of the stationary source's compliance with the permit, as reported pursuant to § 29.10(D)(2) of this Part unless the applicable requirement requires periodic testing or instrumental or non-instrumental monitoring (which may consist of recordkeeping designed to serve as monitoring). Such monitoring requirements shall assure use of terms, test methods, units, averaging periods and other statistical conventions consistent with the applicable requirement. Recordkeeping provisions may be sufficient to meet the requirements of this paragraph. 
+c. All necessary requirements pertaining to the use, maintenance and where appropriate the installation of monitoring equipment or methods. 
+D. Recordkeeping/Reporting Requirements 
+1. All permits issued by the Office of Air Resources shall include the following elements: 
+a. With respect to recordkeeping, the permit shall incorporate all applicable recordkeeping requirements and require the monitoring information in §§ 29.10(D)(1)(a)(1) through (6) of this Part, where applicable: 
+(1) The date, place as defined in the permit, and time of sampling or measurements; 
+(2) The date(s) analyses were performed; 
+(3) The company or entity that performed the analyses; 
+(4) The analytical techniques or methods used; 
+(5) The results of such analyses; and 
+(6) The operating conditions as existing at the time of sampling or measurement. 
+b. All records and supporting information shall be retained for at least five (5) years from the date of sample monitoring, measurement, report or application. Supporting information includes all calibration and maintenance records and all original strip-chart recordings for continuous monitoring instrumentation and copies of all reports required by the permit. 
+2. With respect to reporting, the permit shall incorporate all applicable reporting requirements in addition to the following: 
+a. A requirement that all required monitoring reports shall be submitted to the Office of Air Resources at least every six (6) months. These reports shall be due to the Office of Air Resources no later than forty-five (45) days after the end of the reporting period. Any deviation from permit requirements shall be clearly identified in these reports. All required reports must be certified by a responsible official consistent with § 29.9.1(B) of this Part. 
+b. A requirement that there be prompt reporting of any deviation from the permit requirements, including those attributable to upset conditions as defined in the permit, the probable cause of such deviations, and any corrective actions or preventive measures taken. The Office of Air Resources shall define "prompt" in relation to the degree and type of deviation likely to occur and the applicable requirements. 
+3. A stationary source authorized to implement emissions trading shall maintain an emissions trading log at the facility. In this log the permittee shall record, on a daily basis, the emissions trading that has occurred. Specifically, the log shall reflect for each day: 
+a. Whether the facility complied with the operating permit by operating within one or more emissions caps established for one or more groups of emissions units; and 
+b. If compliance is achieved through meeting the emissions cap for any group of emissions units and for any contaminant, for that group of emissions units and for that air contaminant the following information: 
+(1) The actual emissions of each emissions unit per unit of time. The unit of time used for this record shall be the same as that in which the emissions cap is given. For example, if the emissions cap is given in pounds per hour, the record shall contain for that day the pounds of actual emissions for each hour of the day for each emissions unit; and 
+(2) The total emissions from all emissions units in the group subject to the emissions cap per the same unit of time as is used for § 29.10(D)(3)(b)(1) of this Part. 
+E. Compliance Requirements 
+1. All permits issued by the Office of Air Resources shall include the following elements: 
+a. A schedule of compliance consistent with § 29.9.1(A)(10) of this Part. 
+b. A requirement that progress reports shall be submitted at least semiannually or at a more frequent period if specified in the applicable requirement or by the Office of Air Resources. The progress report shall be consistent with an applicable schedule of compliance and with § 29.9.1(A)(10)(e) of this Part and shall contain the following information: 
+(1) Dates for achieving the activities, milestones or compliance required in the schedule of compliance and dates when such activities, milestones or compliance were achieved; and 
+(2) An explanation of why any dates were not or will not be met and any preventive or corrective measures adopted. 
+c. Requirements for compliance certification with terms and conditions contained in the permit, including emission limitations, standards or work practices. Permits shall include the following: 
+(1) The frequency (not less than annually or such more frequent periods as specified in the applicable requirement or by the Office of Air Resources) of submissions of compliance certifications; 
+(2) In accordance with § 29.10(C) of this Part, a means for monitoring the compliance of a stationary source including its emissions limitations, standards and work practices. 
+(3) A requirement that the compliance certification shall include the following: 
+(AA) The identification of each term or condition of the permit that is the basis of the certification. 
+(BB) The compliance status. 
+(CC) Whether compliance was continuous or intermittent. 
+(DD) The method(s) used for determining the current compliance status and the compliance status during the reporting period of the stationary source. 
+(EE) Any additional requirements the Office of Air Resources may require to determine the compliance status of the stationary source. 
+(4) A requirement that all compliance certifications be submitted to the EPA as well as to the Office of Air Resources; and 
+(5) Any additional requirements which may be specified in 42 U.S.C. § 7414(a)(3) (CAA § 114(a)(3)) and 42 U.S.C. § 7661c (CAA § 504(b)). 
+F. Emissions Trading Requirements 
+1. All permits issued by the Office of Air Resources shall include the following elements: 
+a. A provision stating that no permit revision shall be required, under any approved economic incentives, emissions trading and other similar programs or processes for changes that are provided for in the permit. 
+b. Terms and conditions, if the permit applicant requests them, for the trading of emissions increases and decreases, in the permitted facility, to the extent that the applicable requirements provide for trading such increases and decreases without a case-by-case approval of each emissions trade. Such terms and conditions: 
+(1) Shall include all terms required under § 29.10 of this Part to determine compliance; 
+(2) May extend the permit shield described in § 29.10(K) of this Part to all terms and conditions, of § 29.10(F) of this Part, which allow for increases and decreases in emissions; and 
+(3) Shall require compliance with all applicable requirements and the requirements of this regulation. 
+(4) Shall require written notification in advance of the proposed change as required in §§ 29.15.3(A)(1) and (2) of this Part. 
+c. Terms and conditions, if the permit applicant requests them, for the trading of emissions increases and decreases, in the permitted facility, solely for the purpose of complying with a federally enforceable emissions cap that is established in the permit independent of otherwise applicable requirements. Such terms and conditions: 
+(1) Shall include all terms required under § 29.10 of this Part to determine compliance; 
+(2) May extend the permit shield described in § 29.10(K) of this Part to all terms and conditions, of § 29.10(F) of this Part, which allow for increases and decreases in emissions; and 
+(3) Shall require compliance with all applicable requirements and the requirements of this regulation. 
+(4) Shall require written notification in advance of the proposed change as required in §§ 29.15.4(A)(1) and (2) of this Part. 
+G. Alternative Operating Scenarios 
+1. All permits issued by the Office of Air Resources shall include terms and conditions of reasonably anticipated operating scenarios identified by the stationary source in its application as approved by the Office of Air Resources. Such terms and conditions: 
+a. Shall require the stationary source, contemporaneously with making a change from one operating scenario to another, to record in a log at the permitted facility a record of the scenario under which it is operating; 
+b. May extend the permit shield described in § 29.10(K) of this Part to all terms and conditions under each operating scenario; and 
+c. Must ensure the terms and conditions of each alternative operating scenario meet all applicable requirements and the requirements of this regulation. 
+H. Miscellaneous Requirements 
+1. All permits issued by the Office of Air Resources shall include the following elements: 
+a. A provision stating the duration of the permit. The Office of Air Resources shall issue permits for a fixed term of five (5) years for all affected sources under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). Solid waste incineration units combusting municipal waste shall be permitted for a period not to exceed twelve (12) years and shall be reviewed every five (5) years. All other stationary sources shall be permitted for a term not to exceed five (5) years. 
+b. A severability clause to ensure continued validity of the various permit requirements in the event of a challenge to any portion of the permit. 
+c. Provisions stating the following: 
+(1) The permittee must comply with all of the conditions of the operating permit. Any permit noncompliance constitutes a violation of the Act and this regulation and is grounds for enforcement action, permit termination, revocation and reissuance or modification, or the denial of a permit renewal application. 
+(2) It shall not be a defense for a permittee in an enforcement action that it would have been necessary to halt or reduce the permitted activity in order to maintain compliance with the conditions of the permit. 
+(3) The permit may be modified, revoked, reopened, reissued or terminated for cause. The filing of a request, by the permittee, for a permit modification, revocation and reissuance or termination or of a notification of planned changes or anticipated noncompliance does not release the permittee from the conditions of the permit. 
+(4) The permit does not convey any property rights of any sort or any exclusive privilege. 
+(5) The permittee shall furnish to the Office of Air Resources, within a reasonable period of time, any pertinent information that the Office of Air Resources may request in writing to determine whether cause exists for modifying, revoking and reissuing or terminating a permit or to determine compliance with the permit. If requested by the Office of Air Resources, the permittee shall also furnish copies of records required to be kept by the permit. For information claimed to be confidential, the permittee may forward these records directly to the EPA along with a claim of confidentiality. 
+d. A provision to ensure that a stationary source pays fees to the Office of Air Resources consistent with Part 28 of this Subchapter (Operating Permit Fees). 
+e. A provision to require that any document (including reports) required by the operating permit shall contain a certification by a responsible official that meets the requirements of § 29.9.1(B) of this Part. 
+f. Inspection and entry requirements that require that, upon presentation of credentials and other documents as may be required by law, the permittee shall allow the Office of Air Resources or an authorized representative to perform the following: 
+(1) Enter the permittee's premises where emissions-related activity is conducted, or where records are kept under the requirements of the permit. 
+(2) Have access to and copy, at reasonable times, any records that are kept under the requirements of the permit. 
+(3) Inspect at reasonable times any facilities, equipment (including monitoring and air pollution control equipment), practices or operations regulated or required under the permit. 
+(4) Sample or monitor at reasonable times, substances or parameters for the purpose of assuring compliance with the permit or applicable requirements. 
+I. 42 U.S.C. §§ 7651-7651o (CAA §§ 401-406) Requirements 
+1. All permits issued by the Office of Air Resources shall include a permit condition prohibiting emissions exceeding any allowances that the stationary source lawfully holds under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416) or the regulations promulgated thereunder. 
+a. No permit will need to be revised for increases in emissions that were authorized by allowances acquired pursuant to the acid rain program. Provided that the increases do not require a permit revision under any other applicable requirement. 
+b. There shall be no limit on the number of allowances held by a stationary source. However; the stationary source may not use allowances as a defense to noncompliance with any other applicable requirement. 
+c. All allowances shall be accounted for according to the procedures established in the regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). 
+J. Federally Enforceable Requirements 
+1. All permits issued by the Office of Air Resources shall include the following elements: 
+a. A statement that all terms and conditions in an operating permit, including any provisions designed to limit a stationary source's potential to emit are enforceable by the EPA and citizens under the Act. 
+b. Notwithstanding § 29.10(J)(1)(a) of this Part, the Office of Air Resources shall determine and specify any terms and conditions which are not federally enforceable under the Act or required under any of the applicable requirements. 
+K. Permit Shield 
+1. All permits issued by the Office of Air Resources shall include the following elements: 
+a. Except as stated in this regulation, the Office of Air Resources shall include, in an operating permit, a provision stating that compliance with the conditions of the permit shall be deemed compliance with any applicable requirements as of the date of permit issuance, provided that: 
+(1) Such applicable requirements are included and are specifically identified in the permit; or 
+(2) The Office of Air Resources, in acting on the permit application or revision, determines that other requirements specifically identified are not applicable to the stationary source and a determination is made and stated in the permit. 
+b. It shall be presumed that no permit shield exists if it is not expressly stated in the operating permit. 
+c. Nothing in this paragraph or in any operating permit shall alter or affect the following: 
+(1) The provisions of 42 U.S.C. § 7603 (CAA § 303), including the authority of the EPA under that Section. 
+(2) The liability of an owner or operator of a stationary source for any violation of applicable requirements prior to or at the time of permit issuance. 
+(3) The applicable requirements of the acid rain program consistent with 42 U.S.C. § 7651g (CAA § 408). 
+(4) The ability of EPA to obtain information from a stationary source pursuant to 42 U.S.C. § 7414 (CAA § 114). 
+d. If it is determined that an operating permit was issued based on inaccurate or incomplete information provided by the applicant, any permit shield provision in that operating permit shall be void as to the portions of the permit which are affected, directly or indirectly, by the inaccurate or incomplete information. 
+L. Reopenings for Cause 
+1. All issued permits shall include provisions specifying the conditions under which the permit will be reopened prior to the expiration of the permit. A permit shall be reopened and revised under the following circumstances: 
+a. Additional applicable requirements become applicable to a stationary source with a remaining permit term of three (3) or more years. Such a reopening shall be completed not later than eighteen (18) months after promulgation of the applicable requirement. No such reopening is required if the effective date of the requirement is later than the date on which the permit is due to expire, unless the original permit or any of its terms and conditions have been extended pursuant to § 29.13.4(D) of this Part. 
+b. Additional requirements (including excess emissions requirements) become applicable to an affected source under the acid rain program. Upon approval by the Administrator, excess emissions offset plans shall be deemed to be incorporated into the permit. 
+c. The Office of Air Resources or EPA determines that the permit contains a material mistake or that inaccurate statements were made in establishing the emissions standards or other terms or conditions of the permit. 
+d. The Office of Air Resources or EPA determines that the permit must be revised or revoked to assure compliance with an applicable requirement. 
+e. The permit shall specify and reference the origin of and authority for each term or condition and identify any difference in form as compared to the applicable requirement upon which the term or condition is based. 
+f. The permit shall state that, where an applicable requirement of the Act is more stringent than an applicable requirement of the regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416), both provisions shall be incorporated in the permit and shall be enforceable by the EPA. 
+g. The Office of Air Resources may, in the permit issuance, renewal or significant modification process, make a determination of an alternative emission limit at a stationary source, equivalent to, or more stringent than that contained in the state implementation plan, where the plan allows for such determinations of alternative emission limits in an operating permit. Any permit containing such equivalency determination must contain provisions to ensure that the resulting emissions limit has been demonstrated to be quantifiable, accountable, enforceable, and based on replicable procedures. 
+29.11 General Permits 
+A. The Office of Air Resources may, after notice and opportunity for public participation provided in §§ 29.13.2(C) through (M) of this Part, issue a general permit covering numerous similar stationary sources. A complete application need not be received before issuance of a general permit. Any general permit will comply with all requirements applicable to other stationary sources subject to this regulation and will identify criteria by which stationary sources may qualify for a general permit. To stationary sources that qualify, the Office of Air Resources shall grant the conditions and terms of the general permit. Notwithstanding, the shield provisions of § 29.10(K) of this Part, the stationary source shall be subject to enforcement action for operation without an operating permit if the stationary source is later determined not to qualify for the conditions and terms of the general permit. General permits shall not be authorized for affected sources under the acid rain program unless otherwise provided in regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). 
+B. Stationary sources that would qualify for a general permit must apply to the Office of Air Resources for coverage under the terms of the general permit or must apply for an operating permit consistent with § 29.9 of this Part. The Office of Air Resources may, in the general permit, provide for applications which deviate from the requirements of § 29.9 of this Part, provided that such applications meet the requirements of 42 U.S.C. §§ 7661-7661f (CAA §§ 501-507), and include all information necessary to determine qualification for, and to assure compliance within the general permit. Without repeating the public participation procedures required under §§ 29.13.2(D) through (M) of this Part, the Office of Air Resources may grant a stationary source's request for authorization to operate under a general permit but such authorization shall not be a final permit action for purposes of judicial review. 
+29.12 Temporary Stationary Sources 
+A. The Office of Air Resources may issue a single permit authorizing emissions from similar operations by the same stationary source owner or operator at multiple temporary locations. The operation must involve at least one change of location during the term of the permit. No affected source shall be permitted as a temporary stationary source. Permits for temporary stationary sources shall include the following: 
+1. Conditions that will assure compliance with all applicable requirements at all authorized locations. 
+2. Requirements that the owner or operator notify the Office of Air Resources at least fifteen (15) days in advance of each change in location. Notification shall include a description of where the stationary source is to be relocated and how long it will be located there; and 
+3. Conditions that assure compliance with all other provisions of § 29.12 of this Part. 
+29.13 Procedures for Processing Permit Applications 
+29.13.1 Action on Application 
+A. A permit, permit modification or permit renewal may be issued only if all of the following conditions have been met: 
+1. The Office of Air Resources has a complete application for a permit, permit modification or permit renewal. 
+2. Except for modifications qualifying as minor permit modifications, the Office of Air Resources has complied with the requirements for public participation as stated in §§ 29.13.2(D) through (M) of this Part. 
+3. The Office of Air Resources has complied with the requirements for notifying and responding to affected States. 
+4. The conditions of the permit provide for compliance with all applicable requirements and the requirements of this regulation; and 
+5. The EPA has received a copy of the proposed permit and any notices required by § 29.13.2(H) of this Part and has not objected to the issuance of the permit within the time period specified. 
+B. Priority shall be given to applications for construction or modification under 42 U.S.C. §§ 7440-7490 (CAA §§ 160-169(b)) and 42 U.S.C. §§ 7501-7515 (CAA §§ 171-193). 
+C. Except as provided under the initial transition plan or under regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-406) or 42 U.S.C. §§ 7661-7661f (CAA §§ 501-507) for permitting of affected sources under the acid rain program, the Office of Air Resources shall take final action on each permit application (including a request for permit modification or renewal) within eighteen (18) months after receiving a complete application. 
+29.13.2 Initial Permit Issuance 
+A. The Office of Air Resources shall notify the applicant of whether the application is complete within sixty (60) days of receipt of the application. A complete application must provide all the information requested in § 29.9.1 of this Part. Unless the Office of Air Resources requests additional information or otherwise notifies the applicant of incompleteness within sixty (60) days of receipt of an application, the application shall be deemed complete. However, if while reviewing a complete permit application it is determined that additional information is required to take final action on the permit, the Office of Air Resources may request such information in writing and set a reasonable deadline for a response. 
+B. A copy of each complete permit application will be forwarded to the EPA. The Office of Air Resources may require the applicant to send a copy of the application (including the compliance plan) directly to the EPA. Upon agreement with EPA, the Office of Air Resources may submit to EPA a permit application summary form and any relevant portion of the permit application and compliance plan, in place of the complete application and compliance plan. 
+C. The Office of Air Resources shall provide a statement that sets forth the legal and factual basis for the draft permit conditions (including references to the applicable statutory or regulatory provisions). The Office of Air Resources shall send this statement to EPA and to any other person who requests it. 
+D. The Office of Air Resources shall review each application and shall give public notice of its intention to either issue a permit or deny the application. The draft permit or tentative denial, including all supporting documentation, shall be made available for public comment. A public notice shall be posted on the Department's website. Public notice may also include any other means the Office of Air Resources finds is necessary to assure adequate notice to the affected public of the opportunity for public comment. 
+E. All public notices shall contain the following minimum information: 
+1. Identification of the affected facility. 
+2. Name and address of the permittee. 
+3. Name and address of the Rhode Island Department of Environmental Management, Office of Air Resources (the agency reviewing the permit). 
+4. The activity or activities involved in the permit action. 
+5. The emissions change involved in any permit modification. 
+6. The name, address and telephone number of a person from whom interested persons may obtain additional information, including the availability for public inspection of copies of the draft permit, the application, all relevant supporting information including; compliance plans, monitoring and compliance certification reports (except for information entitled to confidential treatment pursuant to 42 U.S.C. § 7414(c) ( CAA § 114(c)) ; and all other materials available to the Office of Air Resources that are relevant to the permit decision. 
+7. A brief description of the comment procedures required by this regulation. 
+8. The time and place of any hearing that may be held, including a statement of procedures to request a hearing unless a hearing has already been scheduled. 
+F. At a minimum, a copy of the public notice shall be sent to: 
+1. The permit applicant. 
+2. The Regional Administrator of the EPA. 
+3. The chief executives of the city or town where the stationary source is located. 
+4. Persons on a mailing list developed by the Office of Air Resources, including those who request in writing to be on the list. 
+5. Any affected State. 
+G. A public hearing for interested persons to appear and submit written or oral comments on the draft permit or tentative denial shall be held if requested by ten (10) or more persons, or by a governmental subdivision or agency or by an association having not less than ten (10) members. The Director shall also hold a hearing, whenever they believe there is a significant degree of public interest in the proposed action. If held, a hearing shall take place no earlier than thirty (30) days nor later than sixty (60) days following initial public notice. The public shall have at least thirty (30) days notice of any hearing. Comments from the applicant and/or any interested persons shall be recorded at the public hearing. Written comments, to be considered part of the record, must be submitted during the public comment period. The public comment period shall commence on the date of initial public notice. The public comment period shall close thirty (30) days later, if no hearing is held. If a public hearing is held, the public comment period shall close at the close of the public comment hearing or on a date set by the Office of Air Resources. 
+H. After the close of the public comment period, the Office of Air Resources shall prepare a proposed permit. The Office of Air Resources shall provide a written response to each substantive public comment. A copy of the proposed permit will be forwarded to the EPA. The Office of Air Resources shall, when submitting a proposed or revised permit to EPA for review, notify the EPA and any affected State of any refusal by the Office of Air Resources to accept all recommendations for the proposed revised permit that the affected state submitted during its review period. The notice shall include the Office of Air Resource's reasons for not accepting any such recommendation. The Office of Air Resources is not required to accept any recommendations that are not based on applicable requirements or the requirements of 40 C.F.R. § 70. 
+I. The Office of Air Resources shall maintain, for seven (7) years, a record of the commenters and also of the issues raised during the public participation process. Such records shall be available to the public upon request. 
+J. No permit for which an application must be transmitted to the EPA under this regulation shall be issued if the EPA objects to its issuance in writing within forty-five (45) days of receipt of the proposed permit and all necessary supporting information. The EPA will object to the issuance of any permit which it determines is not in compliance with the applicable requirements or requirements under 40 C.F.R. § 70. 
+K. Any EPA objection under § 29.13.2(J) of this Part shall include a statement of the EPA's reasons for objection and a description of the terms and conditions that the permit must include to respond to the objections. The EPA will provide the permit applicant a copy of the objection. 
+L. Within ninety (90) days after the date of an objection under § 29.13.2(J) of this Part, the Office of Air Resources shall revise the proposed permit in response to the objection and issue the permit or deny the application in writing. A copy of each final permit will be forwarded to the EPA. 
+M. If the Office of Air Resources fails, within ninety (90) days after the date of an objection under § 29.13.2(J) of this Part, to revise and submit a final permit in response to the objection, the EPA will issue the permit or deny the application in accordance with the requirements of the Federal Operating Permit Program promulgated under 40 C.F.R. § 71 . 
+29.13.3 Public Petitions to the EPA 
+A. If the EPA does not object in writing as stated in § 29.13.2(I) of this Part any person may petition the EPA within sixty (60) days after the expiration of the EPA's 45-day review period to make such objection. Any such petition shall be based on comments raised with reasonable specificity during the public comment period provided for in § 29.13.2(G) of this Part unless the petitioner demonstrates that it was impracticable to raise such objections within such period, or unless the grounds for such objection period arose after such period. 
+B. If the EPA objects to the permit as a result of a petition filed under this paragraph, the Office of Air Resources shall not issue the permit until EPA's objection has been resolved, except that the petition for review does not stay the effectiveness of a permit or its requirements if the permit was issued after the end of the 45-day review period and prior to an EPA objection. 
+C. If the Office of Air Resources has issued a permit prior to receipt of an EPA objection under this paragraph, the Administrator will modify, terminate, or revoke such permit, and shall do so consistent with the procedures in §§ 29.13.6(D) or 29.13.6(E)(1) and (2) of this Part except in unusual circumstances, and the Office of Air Resources may thereafter issue only a revised permit that satisfies EPA's objection. In any case, the stationary source will not be in violation of the requirement to have submitted a timely and complete application. 
+29.13.4 Permit Renewal and Expiration 
+A. Permits being renewed are subject to the same procedural requirements, including those for public participation, affected State and EPA review, which apply to initial permit issuance. 
+B. Permit expiration terminates the stationary source's right to operate unless a timely and complete renewal application has been submitted consistent with §§ 29.8(B)(3), 29.8(C), and 29.8(F) of this Part or an emissions cap has been issued to the stationary source pursuant to § 29.7 of this Part. 
+C. If the Office of Air Resources fails to act in a timely manner with regard to a permit renewal, EPA may invoke its authority under 42 U.S.C. § 7661d(e) (CAA § 505(e)) to terminate or revoke and reissue the permit. 
+D. If a timely and complete application for a permit renewal is submitted, consistent with § 29.8(B)(3) of this Part, but the Office of Air Resources has failed to issue or deny the renewal permit before the end of the term of the previous permit, then the permit shall not expire until the renewal permit has been issued or denied and any permit shield that may be granted pursuant to § 29.10(K) of this Part may extend beyond the original permit term until renewal. 
+29.13.5 Reopenings for cause by the State 
+A. Proceedings to reopen and issue a permit shall follow the same procedures as apply to initial permit issuance and shall affect only those parts of the permit for which cause to reopen exists. Such reopening shall be made as expeditiously as practicable. 
+B. Reopenings for cause by the State shall not be initiated before a notice of such intent is provided to the stationary source by the Office of Air Resources. This notice shall be sent at least thirty (30) days in advance of the date that the permit is to be reopened. In the case of an emergency, notice shall be sent five (5) days in advance of the date that the permit is to be reopened. 
+29.13.6 Reopenings for cause by EPA 
+A. If the EPA finds that cause exists to terminate, modify, or revoke and reissue a permit pursuant to § 29.13.5 of this Part, the EPA will notify the Office of Air Resources and the permittee of such finding in writing. 
+B. The Office of Air Resources shall, within ninety (90) days after receipt of such notification, forward to EPA a proposed determination of termination, modification, or revocation and reissuance as appropriate. The EPA may extend this 90-day period for an additional ninety (90) days if it finds that a new or revised permit application is necessary or that the EPA must require the permittee to submit additional information. 
+C. The EPA will review the proposed determination from the Office of Air Resources within ninety (90) days of receipt. 
+D. The Office of Air Resources shall have ninety (90) days from receipt of an EPA objection to resolve any objection that EPA makes and to terminate, modify, or revoke and reissue the permit in accordance with EPA's objection. 
+E. If the Office of Air Resources fails to submit a proposed determination pursuant to § 29.13.6(B) of this Part or fails to resolve any objection pursuant to § 29.13.6(D) of this Part, the EPA will terminate, modify, or revoke and reissue the permit after taking the following actions: 
+1. Provide at least thirty (30) days written notice to the permittee of the reasons for any such action. This notice may be given during the procedures in §§ 29.13.6(A) through (D) of this Part. 
+2. Provide the permittee an opportunity for comment on EPA's proposed action and an opportunity for a hearing. 
+29.14 Changes at a Permitted Facility Requiring a Permit Revision 
+29.14.1 Administrative Permit Amendments 
+A. An administrative permit amendment is a permit revision that: 
+1. Corrects typographical errors; 
+2. Identifies a change in the name, address or phone number of any person identified in the permit; or provides a similar minor administrative change at the stationary source; 
+3. Requires more frequent monitoring or reporting by the permittee; 
+4. Allows for a change in ownership or operational control of a stationary source where the Office of Air Resources determines that no other change in the permit is necessary, provided that a written agreement containing a specific date for transfer of permit responsibility, coverage and liability between the current and new permittee has been submitted to the Office of Air Resources; 
+5. Incorporates into the permit the requirements from preconstruction review permits authorized under an EPA-approved program, provided that such a program meets procedural requirements substantially equivalent to the requirements of § 29.14 of this Part that would be applicable to the change if it were subject to review as a permit modification and compliance requirements substantially equivalent to those contained in § 29.10 of this Part. 
+6. Incorporates into the permit any terms and conditions which are not federally enforceable under the Act. 
+B. Administrative permit amendments for purposes of the acid rain portion of the permit shall be governed by regulations promulgated under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). 
+C. An administrative permit amendment may be made by the Office of Air Resources consistent with the following: 
+1. The Office of Air Resources shall take no longer than sixty (60) days after receiving the request for an administrative permit amendment to take final action on the request. The Office of Air Resources may incorporate such changes without providing notice to the public or affected States provided that it designates any such permit revisions are in accordance with those listed in § 29.14.1(A) of this Part. 
+2. The Office of Air Resources will submit a copy of the revised permit to the EPA. 
+3. The stationary source may implement any changes addressed in the administrative amendment request immediately upon submittal of the request. 
+D. The Office of Air Resources may, upon taking final action granting a request for an administrative permit amendment, allow coverage by the permit shield in § 29.10(K) of this Part for administrative permit amendments made pursuant to § 29.14.1(A)(5) of this Part which meet the relevant requirements of §§ 29.10, 29.13.2 and 29.14.4 of this Part for significant permit modifications. 
+29.14.2 Minor Permit Modifications 
+A. Minor permit modification procedures may be used only for those permit modifications that: 
+1. Do not violate any applicable requirement; 
+2. Do not involve significant changes to existing monitoring, reporting or recordkeeping requirements in the permit; 
+3. Do not require or change a case by case determination of an emission limitation including those made under Part 9 of this Subchapter (Air Pollution Control Permits), §§ 9.8.1(A) and (B) or §§ 9.9.1(A)(1)(a) and (b) of this Subchapter (Air Pollution Control Permits), or a source specific determination for temporary stationary sources of ambient impacts, or a visibility or increment analysis made under Part 9 of this Subchapter (Air Pollution Control Permits), §§ 9.9.1(A)(2)(a)(2) or 9.9.1(A)(3)(a) of this Subchapter (Air Pollution Control Permits). 
+4. Do not seek to establish or change a permit term or condition for which there is no corresponding underlying applicable requirement and that the stationary source has assumed to avoid an applicable requirement to which the stationary source would otherwise be subject. Such terms and conditions include: 
+a. A federally enforceable emissions cap assumed to avoid classification as a modification under any provision of 42 U.S.C. §§ 7401-7431 (CAA §§ 101-131), 42 U.S.C. §§ 7470-7492 (CAA §§ 160-169b), or 42 U.S.C. §§ 7501-7515 (CAA §§ 171-193) ; and 
+b. An alternative emissions limit approved pursuant to regulations promulgated under 42 U.S.C. § 7412(i)(5) (CAA § 112(i)(5)); 
+5. Are not modifications under any provision of 42 U.S.C. §§ 7401-7431 (CAA §§ 101-131), 42 U.S.C. §§ 7470-7492 (CAA §§ 160-169b), or 42 U.S.C. §§ 7501-7515 (CAA §§ 171-193); 
+6. Are not otherwise required by the Office of Air Resources to be processed as a significant modification. 
+B. Notwithstanding §§ 29.14.2(A) and 29.14.3(A) of this Part; minor permit modification procedures may be used for permit modifications involving the use of economic incentives, marketable permits, emissions trading and other similar approaches, to the extent that such minor permit modification procedures are explicitly provided for in the Rhode Island State Implementation Plan or in applicable requirements promulgated by EPA. 
+C. An application requesting the use of minor permit modification procedures shall meet the requirements of § 29.9.1 of this Part. The application need only include such information as is relevant to the proposed modification. In addition, the application shall include the following: 
+1. A description of the proposed change, the emissions resulting from the change and any new applicable requirements that will apply if the change occurs; 
+2. A proposed draft permit reflecting the proposed change; 
+3. Certification by a responsible official, consistent with § 29.9.1(B) of this Part that the proposed modification meets the criteria for use of minor permit modification procedures and a request that such procedures be used; and 
+4. Completed forms, available from the Office of Air Resources, for the Office of Air Resources to use to notify the EPA and affected States of the proposed change. 
+D. Following receipt of an application for a minor permit modification, the Office of Air Resources shall notify the applicant of whether the application is complete. A complete application must provide all the information requested in § 29.14.2(C) of this Part as it pertains to the proposed modification. 
+E. If the application for a minor modification is incomplete, the Office of Air Resources may request additional information in writing and set a reasonable deadline for a response. 
+F. If the application for a minor modification is complete, the Office of Air Resources will, within five (5) working days, notify the EPA and any affected States of the requested permit modification. EPA and affected States will then have forty-five (45) days to notify the Office of Air Resources of any objection to, or comment on, the application. Such objection or comment shall be sent to the Office of Air Resources. The 45-day review period shall be presumed to begin three (3) days after the Office of Air Resources has mailed the notification to both the EPA and affected States, unless EPA demonstrates it received the notice late, in which case it shall begin on the date of receipt. 
+G. The Office of Air Resources will not take final action on an application for a minor permit modification until after EPA's 45-day review period has concluded or until EPA has notified the Office of Air Resources that it will not object to issuance of the proposed permit modification, whichever is first. 
+H. Within ninety (90) days after the application for a minor modification is complete, or fifteen (15) days after the completion of EPA's 45-day review period, whichever is later, the Office of Air Resources shall: 
+1. Issue the permit modification as proposed; or 
+2. Deny the permit modification application; or 
+3. Determine that the requested modification does not meet the minor permit modification criteria and should be reviewed under the significant modification procedures; or 
+4. Revise the draft permit modification and transmit to the EPA the new proposed permit modification. 
+I. A copy of the final permit modification will be forwarded to the EPA. The Office of Air Resources shall, when submitting a revised permit to EPA notify the EPA and any affected State of any refusal by the Office of Air Resources to accept all recommendations for the proposed permit that the affected state submitted during its review period. The notice shall include the Office of Air Resource's reasons for not accepting any such recommendation. EPA shall have forty-five (45) days following receipt of such notice to object to the permit modification. The Office of Air Resources is not required to accept any recommendations that are not based on applicable requirements or the requirements of 40 C.F.R. § 70. 
+J. If preconstruction permits are required pursuant to Part 9 of this Subchapter (Air Pollution Control Permits) for the minor modification, the proposed change may, at the stationary source's risk, be made as soon as all required preconstruction permits have been issued, but no sooner. If the stationary source elects to make such changes and until the Office of Air Resources issues its final determination in accordance with § 29.14.2(H) of this Part, the stationary source must comply with both applicable requirements governing the change and the proposed permit terms and conditions. During this time period, the stationary source need not comply with the existing permit terms and conditions it seeks to modify. However, if the stationary source fails to comply with its proposed permit terms and conditions during the time period, the existing permit terms and conditions it seeks to modify may be enforced against it. 
+K. If preconstruction permits are not required pursuant to Part 9 of this Subchapter (Air Pollution Control Permits), for the minor modification, the proposed change may, at the stationary source's risk, be made as soon as the application for a minor modification is filed with the Office of Air Resources, but no sooner. If the stationary source elects to make such changes and until the Office of Air Resources issues its final determination in accordance with § 29.14.2(H) of this Part, the stationary source must comply with both applicable requirements governing the change and the proposed permit terms and conditions. During this time period, the stationary source need not comply with the existing permit terms and conditions it seeks to modify. However, if the stationary source fails to comply with its proposed permit terms and conditions during the time period, the existing permit terms and conditions it seeks to modify may be enforced against it. 
+L. The permit shield as stated in § 29.10(K) of this Part does not apply to minor permit modifications. 
+29.14.3 Group Processing of Minor Permit Modifications 
+A. Group processing of modifications may be used only for those permit modifications: 
+1. That individually meet the criteria for minor permit modification procedures under § 29.14.2(A) of this Part; and 
+2. That collectively are below the lowest threshold level as set forth below: 
+a. Ten percent (10%) of the emissions allowed by the permit for the emissions unit for which the change is requested, or 
+b. Twenty percent (20%) of the applicable definition of major source, or 
+c. Five (5) tons per year, whichever is least. 
+B. An application requesting the use of group processing procedures shall meet the requirements of § 29.9.1 of this Part. The application need only include such information as is relevant to the proposed modifications. In addition, the application shall include the following: 
+1. A description of each change, the emissions resulting from the changes and any new applicable requirement that will apply if the changes occur. 
+2. The stationary sources suggested draft permit. 
+3. Certification by a responsible official, consistent with § 29.9.1(B) of this Part, that the proposed modification meets the criteria for use of group processing procedures and a request that such procedures be used. 
+4. A list of all of the stationary source's pending applications for minor permit modifications and a determination of whether the requested modification, aggregated with these other applications, equals or exceeds the threshold set in § 29.14.3(A)(2) of this Part. 
+5. Certification, consistent with § 29.9.1(B) of this Part, that the stationary source has notified EPA of the proposed modification. Such notification need only contain a brief description of the requested modification. 
+6. Completed forms for the Office of Air Resources to use to notify the EPA and affected States. 
+C. Following receipt of an application for a group processing, the Office of Air Resources shall notify the applicant of whether the application is complete. A complete application must provide all the information requested in § 29.14.3(B) of this Part as it pertains to the proposed modifications. 
+D. If the application for group processing is incomplete, the Office of Air Resources may deny the application or request additional information. 
+E. On a quarterly basis or within five (5) business days of receipt of an application demonstrating that the aggregate of a stationary source's pending applications equals or exceeds the threshold level set under § 29.14.3(A)(2) of this Part, whichever is earlier, the Office of Air Resources shall notify the EPA and affected States of the requested permit modifications. 
+F. EPA and affected States will then have forty-five (45) days from the receipt of such notice to notify the Office of Air Resources of any objection to, or comment on, the application. Such objection or comment shall be sent to the Office of Air Resources. The 45-day review period shall be presumed to begin three (3) days after the Office of Air Resources has mailed the notification to both the EPA and affected States, unless EPA demonstrates it received notice late, in which case it shall begin on the date of receipt. 
+G. The Office of Air Resources will not take final action on the application until after EPA's 45-day review period has concluded or until EPA has notified the Office of Air Resources that EPA will not object to the issuance of the permit modification, whichever is first. 
+H. Within one hundred eighty (180) days of receipt of a complete application for group processing of minor permit modifications under this section, or fifteen (15) calendar days after the end of EPA's 45-day review period whichever is later, the Office of Air Resources shall: 
+1. Issue the minor permit modification as proposed; or, 
+2. Deny the minor permit modification application; or, 
+3. Determine that the requested modifications do not meet the minor permit modification criteria and should be reviewed under the significant modifications procedures; or, 
+4. Revise the draft minor permit modification and transmit to the EPA the new proposed minor permit modification. 
+I. A copy of the final permit modification will be forwarded to the EPA. The Office of Air Resources shall, when submitting a revised permit to EPA, notify the EPA and any affected State of any refusal by the Office of Air Resources to accept all recommendations for the proposed permit that the affected state submitted during its review period. The notice shall include the Office of Air Resources’ reasons for not accepting any such recommendation. EPA shall have forty-five (45) days following receipt of such notice to object to the permit modification. The Office of Air Resources is not required to accept any recommendations that are not based on applicable requirements or the requirements of 40 C.F.R. § 70. 
+J. If preconstruction permits are required pursuant to Part 9 of this Subchapter (Air Pollution Control Permits), for the modifications, the proposed changes may, at the stationary source's risk, be made as soon as all required preconstruction permits have been issued, but no sooner. If the stationary source elects to make such changes and until the Office of Air Resources issues its final determination in accordance with § 29.14.3(H) of this Part, the stationary source must comply with both applicable requirements governing the change and the proposed permit terms and conditions. During this time period, the stationary source need not comply with the existing permit terms and conditions it seeks to modify. However, if the stationary source fails to comply with its proposed permit terms and conditions during the time period, the existing permit terms and conditions it seeks to modify may be enforced against it. 
+K. If preconstruction permits are not required pursuant to Part 9 of this Subchapter (Air Pollution Control Permits), for the modifications, the proposed changes may, at the stationary source's risk, be made as soon as the application for group processing has been filed with the Office of Air Resources, but no sooner. If the stationary source elects to make such changes and until the Office of Air Resources issues its final determination in accordance with § 29.14.3(H) of this Part, the stationary source must comply with both applicable requirements governing the change and the proposed permit terms and conditions. During this time period, the stationary source need not comply with the existing permit terms and conditions it seeks to modify. However, if the stationary source fails to comply with its proposed permit terms and conditions during the time period, the existing permit terms and conditions it seeks to modify may be enforced against it. 
+L. The permit shield under § 29.10(K) of this Part shall not apply to group processing of minor permit modifications. 
+29.14.4 Significant Permit Modifications 
+A. A permittee must apply for a significant permit modification if a proposed modification does not qualify as a minor permit modification or an administrative permit amendment. A significant permit modification shall include but not be limited to the following: 
+1. Any change that is considered a modification under any provision of 42 U.S.C. §§ 7401-7431 (CAA §§ 101-131), 42 U.S.C. §§ 7470-7492 (CAA §§ 160-169b), or 42 U.S.C. §§ 7501-7515 (CAA §§ 171-193); 
+2. Every significant change in existing monitoring permit terms or conditions; 
+3. Every relaxation of reporting or recordkeeping permit terms or conditions. 
+B. Nothing herein shall be construed to preclude the permittee from making changes consistent with § 29.14.4 of this Part that would render existing permit compliance terms and conditions irrelevant. 
+C. An application for a significant modification may, at the applicant's discretion, be submitted simultaneously with the corresponding application for a preconstruction permit for the proposed change required pursuant to Part 9 of this Subchapter (Air Pollution Control Permits). To be deemed timely, applications for significant permit modifications shall be submitted at least twelve (12) months prior to the planned startup of any emissions unit proposed to be modified or to be part of the modification. 
+D. Where the existing operating permit prohibits the significant permit modification, the stationary source shall obtain the significant permit modification before commencing operation. 
+E. Where the existing operating permit does not address or prohibit the significant permit modification and all required preconstruction permits have been issued following procedural requirements substantially equivalent to the requirements of § 29.13.2 of this Part, the stationary source can commence construction immediately after obtaining all preconstruction permits. 
+F. Where the existing operating permit does not address or prohibit the significant permit modification and all required preconstruction permits have been issued following procedural requirements that are not substantially equivalent to the requirements of § 29.13.2 of this Part, the stationary source shall obtain the significant permit modification before commencing operation. 
+G. An application requesting the use of significant permit modification procedures shall meet the requirements of § 29.9.1 of this Part. The application need only include such information as is relevant to the proposed modification. In addition, the application shall include the following: 
+1. A description of the change, the emissions resulting from the change and any new applicable requirements that will apply if the change occurs; 
+2. A proposed draft permit reflecting the proposed change; 
+3. Completed forms, available at the Office of Air Resources, for the Office of Air Resources to use to notify the EPA and affected States of the proposed change. 
+H. Significant permit modifications shall be processed following the procedures for initial permit issuance in § 29.13.2 of this Part. 
+I. The permit shield under § 29.10(K) of this Part shall apply to significant modifications obtained pursuant to the provisions of § 29.14.4 of this Part. 
+J. Notwithstanding the provisions of §§ 29.14.1 through 29.14.4 of this Part above, a permit revision is necessary for any change that is not addressed or prohibited by the operating permit, if such change is subject to any requirements under 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416) or is a modification under any provision of Title I of the Act. 
+29.15 Changes at a Permitted Facility That Do Not Require a Permit Revision 
+29.15.1 42 U.S.C. § 7661(a)(b)(10) (CAA § 502(b)(10)) Changes 
+A. No permit revision is necessary for 42 U.S.C. § 7661(a)(b)(10) (CAA § 502(b)(10)) changes within a permitted facility, if the changes are not modifications under any provision of 42 U.S.C. §§ 7401-7431 (CAA §§ 101-131), 42 U.S.C. §§ 7470-7492 (CAA §§ 160-169b), or 42 U.S.C. §§ 7501-7515 (CAA §§ 171-193) and the changes do not exceed the emissions allowable under the permit, whether expressed therein as a rate of emissions or in the terms of total emissions, and provided that notice is provided to the Office of Air Resources as set forth below: 
+1. For each such change, the stationary source shall provide the Office of Air Resources and EPA with a minimum of fourteen (14) days written notification in advance of the proposed changes. The notice must be received by the Office of Air Resources no later than fourteen (14) days in advance of the proposed changes. The stationary source, the Office of Air Resources and the EPA shall attach each such notice to their copy of the relevant permit. 
+2. For each such change, the written notification required above shall include information describing the nature of the change, the effect of the change on the emission of any air contaminant, the scheduled completion date of the planned change and any permit term or condition that is no longer applicable as a result of the change. 
+B. A stationary source shall be allowed to make such change proposed in its notice the day following the last day of the advance notice described in § 29.15.1 of this Part if the Office of Air Resources has not responded nor objected to the proposed change on or before that day. 
+C. The permit shield shall not apply to any changes made pursuant to § 29.15.1 of this Part. If subsequent changes cause the stationary source's operations and emissions to revert to those anticipated in the operating permit, the permittee resumes compliance with the terms and conditions of the permit, and has provided the Office of Air Resources and EPA with a minimum of fourteen (14) days advance notice of such changes in accordance with the provisions of § 29.15.1(A)(1) of this Part the permit shield may be reinstated in accordance with terms and conditions stated in the operating permit. 
+D. Changes made pursuant to § 29.15.1 of this Part shall be incorporated into the operating permit at the time of renewal. 
+29.15.2 Off Permit Changes 
+A. No permit revision shall be necessary for changes within a permitted facility, not otherwise addressed or prohibited in the permit. This provision shall not apply to modifications under any provision of 42 U.S.C. §§ 7401-7431 (CAA §§ 101-131), 42 U.S.C. §§ 7470-7492 (CAA §§ 160-169b), or 42 U.S.C. §§ 7501-7515 (CAA §§ 171-193) or if such changes are subject to requirements of 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). Changes made pursuant to § 29.15.2 of this Part shall not be exempt from the requirement to obtain a minor source permit pursuant to the requirements of Part 9 of this Subchapter (Air Pollution Control Permits). 
+B. Each such change shall meet all applicable requirements and shall not violate any existing permit term or condition. 
+C. The stationary source must provide concurrent written notice to the Office of Air Resources and the EPA of each such change, except for changes that have been determined to be insignificant by the Office of Air Resources pursuant to regulation. Such written notice shall describe each such change, including the date, and change in emissions, pollutants emitted, and any applicable requirement that would apply as a result of the change. 
+D. The permit shield shall not apply to any such change made pursuant to § 29.15.2 of this Part. 
+E. The stationary source shall keep a record describing changes made at the stationary source that result in emissions of a regulated air pollutant subject to an applicable requirement, but not otherwise regulated under the permit, and the emissions resulting from those changes, including any other data necessary to show compliance with applicable ambient air quality standards. 
+F. Changes made pursuant to § 29.15.2 of this Part shall be incorporated into the operating permit at the time of renewal. 
+29.15.3 Emission Trading Allowed Under the SIP 
+A. No permit revision shall be necessary for a permitted stationary source to trade increases and decreases in emissions in the permitted facility, where the RI State Implementation Plan provides for such trades without requiring a permit revision and based on the notice provided in § 29.15.3(A)(1) of this Part. This provision is available in those cases where the permit does not already provide for such emissions trading. Notice shall be provided to the Office of Air Resources as set forth below: 
+1. For each such change, the stationary source shall provide the Office of Air Resources and EPA with a minimum of twenty (20) days written notification in advance of the proposed trades. The notice must be received by the Office of Air Resources no later than twenty (20) days in advance of the proposed trades. The stationary source, the Office of Air Resources and the EPA shall attach each such notice to their copy of the relevant permit. 
+2. For each such trade, the written notification required in § 29.15.3(A)(1) of this Part shall include information as may be required by the provision in the RI State Implementation Plan authorizing the emissions trade, including at a minimum, when the proposed trade will occur, a description of each trade, any change in emissions that will result, the permit requirements with which the stationary source will comply using the emissions trading provision of the RI State Implementation Plan, and the pollutants emitted subject to the trade. The notice shall also refer to the provisions with which the stationary source will comply in the RI State Implementation Plan and that provide for the trade. 
+B. A stationary source shall be allowed to make such trade proposed in its notice the day following the last day of the advance notice described in § 29.15.3 of this Part if the Office of Air Resources has not responded nor objected to the proposed trade on or before that day. 
+C. The permit shield shall not apply to any changes made pursuant to § 29.15.3 of this Part. If subsequent changes cause the stationary source's operations and emissions to revert to those anticipated in the operating permit, the permittee resumes compliance with the terms and conditions of the permit, and has provided the Office of Air Resources and EPA with a minimum of twenty (20) days advance notice of such changes in accordance with the provisions of § 29.15.3(A)(1) of this Part the permit shield may be reinstated in accordance with terms and conditions stated in the operating permit. 
+29.15.4 Emission Trading Under an Emissions Cap 
+A. No permit revision shall be necessary for the trading of emissions increases and decreases in a permitted facility solely for the purpose of complying with a federally enforceable emissions cap that is established in the permit independent of otherwise applicable requirements consistent with § 29.10.6(F)(1)(c) of this Part. Notice shall be provided to the Office of Air Resources as set forth below: 
+1. For each such change, the stationary source shall provide the Office of Air Resources and EPA with a minimum of twenty (20) days written notification in advance of the proposed trades. The notice must be received by the Office of Air Resources no later than twenty (20) days in advance of the proposed trades. The stationary source, the Office of Air Resources and the EPA shall attach each such notice to their copy of the relevant permit. 
+2. For each such trade, the written notification required above shall state when the change will occur and shall describe the changes in emissions that will result and how these increases and decreases in emissions will comply with the terms and conditions of the permit. 
+B. A stationary source shall be allowed to make such trade proposed in its notice the day following the last day of the advance notice described in § 29.15.4 of this Part if the Office of Air Resources has not responded nor objected to the proposed trade on or before that day. 
+C. The permit shield shall not apply to any changes made pursuant to § 29.15.4 of this Part. 
+D. Prior to the issuance of a stationary source's initial operating permit, the stationary source can make any modifications and commence operation immediately after obtaining all preconstruction permits required pursuant to Part 9 of this Subchapter (Air Pollution Control Permits). 
+29.16 Appeals 
+A. Decisions of the Office of Air Resources made pursuant to the following provisions of this regulation may be appealed to the Administrative Adjudication Division of the Department: 
+1. § 29.13.2(K) of this Part Initial Permit Issuance 
+2. § 29.13.4 of this Part Permit Renewal and Expiration 
+3. § 29.13.5 of this Part Reopenings for Cause by the State 
+4. § 29.14.2(H) of this Part Minor Permit Modifications 
+5. § 29.14.3(H) of this Part Group Processing of Minor Permit Modifications 
+6. § 29.14.4 of this Part Significant Permit Modifications 
+7. § 29.17 of this Part Variances 
+B. The applicant and/or any person who provided substantive comment at any time during the public comment period may appeal the decision of the Office of Air Resources to the Administrative Adjudication Division of the Department provided, however, any person who shall demonstrate good cause for failure to participate and demonstrate that their interests shall be substantially impacted if prohibited from appearance in the appeal, may at the discretion of the hearing officer, be permitted to participate in the appeal process. 
+C. The appeal shall be limited to those issues raised by the parties, provided, however, that upon good cause shown, the Director shall allow additional issues to be raised. 
+D. All appeals shall be pursuant to the rules and regulations established by the Director and the rules and regulations established by the Administrative Adjudication Division provided; however, that all appeals shall contain precise statements of the issues presented on appeal and the specific part or parts of the decision of the Office of Air Resources which are challenged. 
+E. All appeals shall be heard before Administrative Adjudication Division hearing officers. All hearings shall be evidentiary hearings. All witnesses shall testify under oath and shall be subject to cross-examination. 
+F. All requests to appeal the decision of the Office of Air Resources must be filed with the Administrative Adjudication Division within thirty (30) days of the decision of the Office of Air Resources. 
+G. The hearing officer shall determine and apportion to the applicant the actual costs of the appeal process, exclusive of attorneys' fees. These costs shall not be considered administrative penalties. 
+29.17 Variances 
+A. Any variance or deferral from compliance with an applicable requirement shall be processed as a significant permit modification. 
+29.18 Phase II Acid Rain Stationary Sources: Permitting Requirements 
+A. The Office of Air Resources hereby adopts the provisions of 40 C.F.R. § 72, incorporated in § 29.4 of this Part, for purposes of implementing an acid rain program that meets the requirements of 42 U.S.C. §§ 7651-7651o (CAA §§ 401-416). The term "permitting authority" shall mean the Office of Air Resources and the term "Administrator" shall mean the Administrator of the United States Environmental Protection Agency. 
+B. If the provisions or requirements of 40 C.F.R. § 72, incorporated in § 29.4 of this Part conflict with or are not included in this regulation, the 40 C.F.R. § 72 provisions and requirements shall apply and take precedence. 
+29.19 New Source Review Integration 
+A. At the time of filing an application under Part 9 of this Subchapter (Air Pollution Control Permits) for a proposed new source or modification, the applicant may elect to integrate new source review and operating permit issuance/modification for the proposed new source or modification. Procedures for integration of the two processes are as follows: 
+1. The owner or operator of an existing stationary source with an operating permit, applying to modify the stationary source, may elect to integrate new source review and modification of the operating permit by so indicating, in writing, at the time it files its permit application under Part 9 of this Subchapter (Air Pollution Control Permits). The Office of Air Resources shall process the applications in accordance with the procedures in § 29.13.2 of this Part. A proposed permit for the modification shall be provided to the EPA for review as provided in § 29.13.2(H) of this Part, along with a proposed administrative permit amendment to the stationary source's operating permit. The administrative permit amendment shall incorporate into the operating permit all terms and conditions of the proposed permit and include compliance requirements for any new or modified emissions unit substantially equivalent to those contained in § 29.10 of this Part. 
+2. Any person who proposes to construct a new stationary source, may elect to integrate new source review and initial operating permit issuance by concurrently filing with the Office of Air Resources a permit application under Part 9 of this Subchapter (Air Pollution Control Permits) and an operating permit application. The Office of Air Resources shall process the applications in accordance with the procedures in § 29.13.2 of this Part. The Office of Air Resources shall process the two applications in parallel and consolidate all required public hearings, comment periods and EPA review periods. A proposed permit for the new stationary source shall be provided to the EPA for review as provided in § 29.13.2(H) of this Part, along with a proposed operating permit. 
+29.20 Appendix A: List of Insignificant Activities 
+A. The activities in §§ 29.20(A)(1) and (2) of this Part are those that the Office of Air Resources has designated as insignificant and therefore are exempt from having to be fully described and included in the operating permit application. 
+1. Operating permit applications are not required to contain any information on any activity listed in §§ 29.20(A)(1)(a) through (aa) of this Part. 
+a. Air conditioning or ventilating systems not designed to remove air pollutants generated by or released from specific processes or equipment; 
+b. Equipment used for the preparation of food for human consumption in cafeterias or dining rooms at the stationary source; 
+c. Plant maintenance activities such as brazing, soldering, or welding operations, pipefitting and caulking; 
+d. Groundkeeping activities such as the use of lawnmowers, trimmers, snow blowers, etc., the use of pesticides, fumigants and herbicides, weeding and sweeping. 
+e. Smoking rooms and areas; 
+f. Restroom ventilation including stacks or vents to prevent escape of sewer gases through plumbing traps; 
+g. Blueprint copiers and photographic processes; 
+h. Woodworking shops activities that are vented indoors such as sawing, sanding, drilling and planing; 
+i. Pharmacies, excluding any synthesized pharmaceutical manufacturing as defined in Part 26 of this Subchapter (Control of Organic Solvent Emissions from Manufacturers of Synthesized Pharmaceutical Products); 
+j. Janitorial activities and other indoor maintenance activities such as vacuum cleaning and cleaning of rugs, floors or furniture, but not solvent clean-up of any sort subject to a work practice standard under any applicable requirement; 
+k. Office activities, including typing, copying and printing; 
+l. Equipment used exclusively for portable steam cleaning. 
+m. Emissions from any laboratory activities, excluding research and development operations. Laboratory means a place or activity devoted to experimental study or teaching in any science, or to the testing and analysis of drugs, chemicals, chemical compounds, or other substances, or similar activities, provided that the activities described in this sentence are conducted on a laboratory scale. Activities are conducted on a laboratory scale if the containers used for reactions, transfers, and other handling of substances are designed to be easily and safely manipulated by one person by hand. If a facility manufactures or produces products for profit in any quantity, it may not be considered to be a laboratory under this item. Support activities necessary to the operation of the laboratory are considered to be part of the laboratory. Support activities do not include the provision of power to the laboratory from stationary sources that provide power to multiple projects or from stationary sources which would provide power to multiple projects or from stationary sources which would otherwise require permitting, such as boilers that provide power to an entire facility. 
+n. Architectural maintenance activities for the buildings and structures at a stationary source such as painting, caulking, reroofing, etc.; 
+o. The engine of any vehicle, such as forklifts, tractors, construction equipment, motor vehicle, etc.; 
+p. Fuel burning equipment and/or fuel oil tanks in 1, 2, 3 or 4 family residential housing units where the fuel burning equipment is used solely for heating the building for personal comfort or for producing hot water for personal use. 
+q. Dryers and distribution systems for instrument air. 
+r. Locker room ventilation and maintenance. 
+s. Air contaminant detectors. 
+t. Electrically powered air compressors and pumps. 
+u. Dumpsters. 
+v. All electric motors. 
+w. Sampling connections and systems used exclusively to withdraw materials for testing and analysis including air contaminant detectors and vent lines. 
+x. Grinding or abrasive blasting for nondestructive testing of metals. 
+y. Steam vents and steam leaks from boilers and steam distribution systems. 
+z. Rupture discs for gas handling systems. 
+aa. Purging of natural gas lines. 
+2. Activities listed in §§ 29.20(A)(2)(a) through (e) of this Part that are exempted because of size, emission levels or production rate, must be listed in an operating permit application. This list must contain enough information to show that the activity qualifies for the exemption. 
+a. A fuel burning device designed to burn: 
+(1) Residual oil or solid fossil fuels having a heat input capacity less than one million (1,000,000) Btu per hour, 
+(2) All other liquid fuels having a heat input capacity of less than five million (5,000,000) Btu per hour, 
+(3) Gaseous fuel having a heat input capacity of less than ten million (10,000,000) Btu per hour, 
+(4) Alternative fuels, including but not limited to, wood chips, hazardous wastes or waste oil having a heat input capacity of less than one million (1,000,000) Btu per hour. 
+b. A storage tank, reservoir or containers with a capacity of ten thousand (10,000) gallons or less used for the storage of liquids having a vapor pressure less than 0.1 mm of mercury at two hundred degrees Celsius (200°C). 
+c. A storage tank, reservoir or containers with a capacity of two thousand (2,000) gallons or less used for the storage of liquids having a vapor pressure greater than 0.1 mm of mercury at two hundred degrees Celsius 200°C. 
+d. Any emissions unit that has the potential to emit less than twenty percent (20%) of the minimum quantities of the air contaminants listed in Part 22 of the Subchapter (Air Toxics). 
+e. Any emissions unit that has the potential to emit less than the following quantity of the listed air contaminant: 
+Air Contaminant 
+De Minimis Level 
+VOC 
+2000 
+TSP 
+2000 
+PM-10 
+2000 
+NO X§ 
+2000 
+CO 
+5000 
+SO 2 
+2000 
+Any other air contaminant, excluding those in Part 22 of this Subchapter (Air Toxics) 
+1000 
+B. Any activity that is subject to any state or federal air pollution control regulation or is regulated by the terms or conditions of any preconstruction permit issued to the stationary source pursuant to Part 9 of this Subchapter (Air Pollution Control Permits) shall not be considered an insignificant activity, regardless of whether the activity meets the criteria listed in § § 29.20(A)(1) or (2) of this Part. 
+Title 
+250
+Department of Environmental Management
+Chapter 
+120
+Air Resources
+Subchapter 
+05
+Air Pollution Control
+Part 
+29
+Air Pollution Control Regulation No. 29 - Operating Permits
+Type of Filing 
+Amendment 
+Regulation Status 
+Active 
+Effective 
+04/09/2024
+Additional Information 
+https://www.dem.ri.gov/documents/regulations/ 
+Regulation Authority: 
+R.I. Gen. Laws § 42-17.1-2(19)
+R.I. Gen. Laws Chapter 23-23
+R.I. Gen. Laws Chapter 42-35
+Purpose and Reason: 
+250-RICR-120-05-29 (Part 29) specifies operating permit requirements for major stationary sources. RIDEM OAR is proposing to remove §29.10(K) which currently allows sources to exceed permitted emissions levels during an emergency. 
+To view the official Final Regulation for accessibility and readability, click Download Regulation: 
+Download Regulation 
+ACTIVE RULE 
+Amendment 
+- effective from 04/09/2024 
+to Current 
+INACTIVE RULE 
+Periodic Refile 
+- effective from 01/04/2022 
+to 04/09/2024 
+INACTIVE RULE 
+Amendment 
+- effective from 01/10/2019 
+to 01/04/2022 
+INACTIVE RULE 
+Technical Revision 
+- effective from 01/31/2011 
+to 01/10/2019 
+INACTIVE RULE 
+Technical Revision 
+- effective from 01/31/2011 
+to 01/31/2011 
+INACTIVE RULE 
+Amendment 
+- effective from 01/31/2011 
+to 01/31/2011 
+INACTIVE RULE 
+Amendment 
+- effective from 06/11/2009 
+to 01/31/2011 
+INACTIVE RULE 
+Amendment 
+- effective from 07/19/2007 
+to 06/11/2009 
+INACTIVE RULE 
+Periodic Refile 
+- effective from 12/31/2001 
+to 07/19/2007 
+Rulemaking Documents are organized by document type and are part of this rule’s rulemaking record (R.I. Gen. Laws § 42-35-2.3). If multiple documents of the same type are listed below, each is a unique document. 
+If there are multiple Public Notice of Proposed Rulemaking documents, view each document to identify the most recently amended version, as it may be amended at any point during the Public Comment Period. 
+Concise Explanatory Statement 
+Public Comment 
+Public Notice of Proposed Rulemaking 
+Proposed Rule 
+Additional Documentation 
+Additional Documentation 
+2002-Current Regulations 
+1950-2001 Regulations 
+FAQs 
+Subscribe to Notifications 
+Return to top 
+About 
+Contact 
+News 
+Notary Public 
+Rhode Island Department of State 
+Facebook 
+LinkedIn 
+Twitter

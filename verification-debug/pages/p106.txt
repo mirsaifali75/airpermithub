@@ -1,0 +1,217 @@
+State Air Quality Rules
+Flares – 45CSR6
+Air Permits – 45CSR13 (Rule 13)
+Annual Operating Fee – 45CSR22
+G70-D Annual Certiﬁcation Fee
+Road Dust – 45CSR17
+Air Pollution – WV Code 22-5
+
+We are here to help
+Jamie Jarrett
+Compliance & Enforcement
+304-926-0499 x41265
+James.F.Jarrett@wv.gov
+Alex Wood
+Permitting
+304-926-0499 x43752
+Alexander.T.Wood@wv.gov
+Roy Kees
+Permitting
+304-926-0499 x41269
+Roy.F.Kees@wv.gov
+
+Oil & Gas Well Pads
+Guidance
+West Virginia Department of
+Environmental Protection
+Division of Air Quality (DAQ)
+
+New Federal NSPS OOOOa
+This regulation (40CFR60 Subpart OOOOa)
+applies to each oil/gas well that is hydraulically
+fractured/refractured after September 18, 2015,
+each centrifugal compressor using wet seals,
+each reciprocating compressor, continuous
+bleed natural gas-driven pneumatic controllers
+and storage vessels at oil and gas wells.
+NSPS OOOOa Exemptions:
+
+Federal Regula ons
+ Engines (compressor, VRU,
+etc.) – 40CFR63 subpart ZZZZ
+and 40CFR60 subpart JJJJ
+ Dehydration Units – 40CFR63
+subpart HH
+ Flares – 40CFR60.18 and
+40CFR63.11
+ Accident Prevention – Clean
+Air Act 112(r)
+
+ Storage vessels less than 6 tpy PTE
+VOCs.
+ Compressors at well pads.
+ Pneumatic controllers with a single
+“continuous bleed” rate <6 scfh.
+
+US EPA has been inspecting well pads as
+well as other oil and gas sites for compliance
+with the 112(r) General Duty Clause (“GDC”).
+For more information go to
+https://dep.wv.gov/daq/Air%20Toxics/Pages/
+112(r)-Prevention-of-Accidental-Releases-an
+d-General-Duty-Clause.aspx
+
+Air Permi ng and
+Compliance Guide
+Phone: 304-926-0475
+www.dep.wv.gov/daq
+Updated 3/2018
+
+Permits
+ An air quality permit may be required prior to
+construction and operation of any air emissions
+units under 45CSR13 (Rule 13).
+ DAQ has developed General Permit
+G70-D, which covers a wider variety of
+changes at a well pad and provides greater
+ﬂexibility. G70-D requires an “Annual
+Certiﬁcation” submittal to evaluate
+changes and an annual certiﬁcation fee of
+$1,000.
+ Submittal of G70-D permit applications,
+Alternative Operating Scenarios and Annual
+Certiﬁcations must be through DEP’s ESS
+System (https://apps.dep.wv.gov/eplogin.cfm)
+as of March 1, 2018.
+ “Rule of thumb” – brand new well sites that
+produce “Condensate” generally require
+an air permit – 0.5 bbl (21 gallons/day
+production triggers a permit).
+ Storage Tanks are considered “permanent” if
+they are “intended” to be located at a site
+for 180 consecutive days or more and could
+trigger Rule 13 permitting.
+ Air emissions units may be “stored/
+received” on-site prior to an air permit being
+issued, but you may not “install/erect” air
+emission units – please contact DAQ for any
+questions.
+Flares/Combustors
+ Permanent ﬂares/combustors automatically
+require an air permit (under 45CSR6 - Rule 6).
+Engines (compressors and generators)
+ Engines greater than 500 hp may require
+annual emission testing.
+ Engines greater than or equal to 100 hp may
+require an initial emission test.
+ Engines smaller than 100 hp may require a ﬁeld
+emission test.
+ If the engine is USEPA certiﬁed, it is generally
+exempt from emission tests.
+
+Federal NSPS OOOO/OOOOa
+ Federal NSPS OOOO regulates gas wells drilled
+after August 23, 2011 and on or before
+September 18, 2015.
+ Federal NSPS OOOOa regulates oil/gas wells that
+were drilled after September 18, 2015 and
+regulates VOCs and “GHG” (for the ﬁrst time).
+ NSPS OOOOa regulates fugitive emissions (leaking
+component monitoring) of VOC/GHG by June 2017.
+ Storage Tanks that receive liquids sixty (60) days after
+production starts trigger NSPS OOOO and OOOOa
+and could trigger Rule 13 permitting.
+ Notiﬁcation is required two (2) days prior to
+ﬂowback. Notiﬁcations can be emailed to USEPA
+Region III (r3wellcompletion@epa.gov) and DAQ
+(DEPOilandGasSector@wv.gov).
+ “Green Completions” are required for oil/gas
+wells and gas may not to be ﬂared/vented if the gas
+can be separated (exemption for <300 scf/bbl wells).
+ Temporary ﬂares/combustors used for ﬂowback
+generally do not require an air permit (less than 30
+days in 12 month period per site).
+
+Poten al to Emit (PTE)
+ An air permit is required if the facility-wide
+
+VOC PTE is 6 lbs./hr. (144 lbs./day) or greater
+OR if the benzene and/or formaldehyde PTE
+is 1,000 lbs./year or greater.
+ PTE is based on 8,760 hours without controls/
+emission reduction limitations.
+ An air permit is required if a facility triggers
+any substantive requirement of an emissions
+control rule, including NSPS OOOOa storage
+vessel controls or LDAR.
+ Storage vessels use maximum throughput
+based on ﬁrst 30 days of production for
+emission calculations.1
+Rule 13
+VOC
+
+Pre-Drilling Checklist
+ Will I need to use a ﬂare/combustor more than 30 days
+to control emissions for safety or any other reason? If
+yes, then you are required to obtain an air permit.
+ Do I expect condensate production? If yes, you will
+need to estimate how much may be produced by using
+estimates from existing or “representative” (in the
+area) wells and how much VOCs will be emitted from
+the storage tanks to determine if a permit is needed.
+ Will I need an engine (VRU, compressor, etc.) at
+the well pad? If so, you will need to determine the
+horsepower required, engine manufacture date,
+whether the engine needs a catalyst installed and the
+air emissions from the engine to determine if a permit
+is needed.
+ Will I need a triethylene glycol dehydration unit? If
+so, you will need to get a wet gas extended analysis,
+estimate the expected gas production, and use
+the maximum glycol pump(s) rate to estimate the
+emissions to determine if you need a permit.
+
+Benzene
+
+Vapor
+Recovery
+Unit
+(VRU)2,3
+
+≥6 lbs./hour
+facility-wide
+uncontrolled
+≥1,000
+lbs./year
+facility-wide
+uncontrolled
+Does “not”
+count toward
+emissions
+reductions for
+PTE
+
+Federal
+NSPS OOOO
+≥6 TPY per storage vessel
+N/A
+
+Counts towards
+emissions
+reductions from
+a storage vessel
+conditionally
+
+Use maximum throughput (storage vessels) for
+NSPS OOOOa applicability.
+2
+VRU limiting VOC emissions from storage vessels (6
+tpy trigger) is required to follow conditions set forth in
+NSPS OOOOa.
+3
+If VRU removed, then the storage vessel’s VOC
+PTE must be redetermined within 30 days (NSPS
+OOOOa).
+1
+
+
