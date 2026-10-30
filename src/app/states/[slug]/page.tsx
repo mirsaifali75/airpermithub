@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ArrowRight, Building2, Gauge, ExternalLink, FileText, Landmark, Quote, Route } from "lucide-react";
+import { ArrowRight, Building2, CircleAlert, CircleCheck, CircleDashed, Gauge, ExternalLink, FileText, Landmark, Quote, Route } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
@@ -10,6 +10,7 @@ import { Disclaimer, EmptyState, VerifyNotice } from "@/components/ui/Notices";
 import { Tabs } from "@/components/ui/Tabs";
 import { agencyShortName, getStateProfile } from "@/lib/data/state-profiles";
 import type { PermitProgram, PermitType } from "@/lib/data/state-profile-types";
+import { programCheck, stateTallies, verificationStatus, type ClaimCheck } from "@/lib/data/verification";
 import { getStateTile, stateTiles } from "@/lib/data/states";
 
 export function generateStaticParams() {
@@ -43,7 +44,36 @@ const typeLabel: Record<PermitType, string> = {
   other: "Other",
 };
 
-function ProgramCard({ p }: { p: PermitProgram }) {
+/** One line under a quote or threshold summary: what the last source check found. */
+function CheckLine({ check, kind }: { check?: ClaimCheck; kind: "quote" | "threshold" }) {
+  const on = verificationStatus()?.checkedOn;
+  if (!check || !on) return null;
+  const date = check.by === "hand" ? check.on : on;
+  const text =
+    check.s === "pass"
+      ? check.by === "hand"
+        ? `Confirmed against the source by hand on ${date} (the agency's site refused the automated check).`
+        : kind === "quote"
+          ? `Matched word for word against the source on ${date}.`
+          : `Every number above was found in the source on ${date}.`
+      : check.s === "unchecked"
+        ? `The automated check on ${date} could not read the source (${check.r}). Confirm with the agency.`
+        : kind === "quote"
+          ? `The automated check on ${date} did not find this wording at the source; it is under review.`
+          : `The automated check on ${date} did not find every number at the source; it is under review.`;
+  const Icon = check.s === "pass" ? CircleCheck : check.s === "unchecked" ? CircleDashed : CircleAlert;
+  return (
+    <p className={`mt-2 flex items-start gap-1.5 text-xs ${check.s === "pass" ? "text-emerald-800" : check.s === "unchecked" ? "text-muted" : "text-amber-900"}`}>
+      <Icon className="mt-px h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+      <span>
+        {text}{" "}
+        <Link href="/verification" className="underline-offset-2 hover:underline">How we check</Link>
+      </span>
+    </p>
+  );
+}
+
+function ProgramCard({ p, code, group }: { p: PermitProgram; code: string; group: "program" | "oil-gas" }) {
   return (
     <li className="rounded-2xl border border-line bg-white p-5 shadow-card">
       <div className="flex flex-wrap items-start justify-between gap-2">
@@ -65,6 +95,7 @@ function ProgramCard({ p }: { p: PermitProgram }) {
             )}
           </figcaption>
           <blockquote className="text-sm text-slate-700">{p.quote}</blockquote>
+          <CheckLine kind="quote" check={programCheck("quote", code, group, p.name)} />
         </figure>
       )}
       {p.thresholds && (
@@ -81,6 +112,7 @@ function ProgramCard({ p }: { p: PermitProgram }) {
             )}
           </p>
           <p className="text-sm text-slate-700">{p.thresholds}</p>
+          <CheckLine kind="threshold" check={programCheck("threshold", code, group, p.name)} />
         </div>
       )}
       <div className="mt-3 flex flex-wrap items-center gap-3">
@@ -116,6 +148,37 @@ function LinkList({ links }: { links: { name: string; url: string }[] }) {
         </li>
       ))}
     </ul>
+  );
+}
+
+function SourceCheck({ code }: { code: string }) {
+  const status = verificationStatus();
+  const t = stateTallies(code);
+  if (!status || !t) return null;
+  const row = (label: string, k: string) => {
+    const c = t[k];
+    if (!c) return null;
+    const total = c.pass + c.fail + c.unchecked;
+    return (
+      <li className="flex justify-between gap-3">
+        <span>{label}</span>
+        <span className="shrink-0 text-right tabular-nums whitespace-nowrap text-ink">
+          {c.pass} of {total}
+          {c.unchecked > 0 && <span className="text-muted"> ({c.unchecked} unreadable)</span>}
+        </span>
+      </li>
+    );
+  };
+  return (
+    <div className="rounded-2xl border border-line bg-white p-5 text-sm shadow-card">
+      <p className="text-xs font-semibold text-muted uppercase">Source check, {status.checkedOn}</p>
+      <ul className="mt-2 space-y-1 text-slate-700">
+        {row("Quotes matched word for word", "quote")}
+        {row("Threshold numbers found", "threshold")}
+        {row("Links that load", "link")}
+      </ul>
+      <Link href="/verification" className="mt-3 inline-block text-xs font-medium text-brand-600 hover:underline">How the check works</Link>
+    </div>
   );
 }
 
@@ -199,7 +262,7 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
         <div className="space-y-10">
           {groups.map((g) => (
             <Block key={g.id} title={g.title} icon={<Route className="h-5 w-5 text-brand-500" aria-hidden="true" />}>
-              <ul className="grid gap-4 md:grid-cols-2">{byType(g.types).map((t) => <ProgramCard key={t.name} p={t} />)}</ul>
+              <ul className="grid gap-4 md:grid-cols-2">{byType(g.types).map((t) => <ProgramCard key={t.name} p={t} code={p.code} group="program" />)}</ul>
             </Block>
           ))}
         </div>
@@ -212,7 +275,7 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
           content: (
             <>
               <p className="mb-4 text-slate-700">{p.oilAndGas.summary}</p>
-              <ul className="grid gap-4 md:grid-cols-2">{p.oilAndGas.programs.map((t) => <ProgramCard key={t.name} p={t} />)}</ul>
+              <ul className="grid gap-4 md:grid-cols-2">{p.oilAndGas.programs.map((t) => <ProgramCard key={t.name} p={t} code={p.code} group="oil-gas" />)}</ul>
               <Link href="/industries/oil-gas" className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Oil & Gas industry hub <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
             </>
           ),
@@ -342,6 +405,7 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
               : `Partially verified on ${p.lastReviewed}. See the note on what could not be confirmed.`}{" "}
             Rules change; confirm with the agency before relying on it.
           </VerifyNotice>
+          <SourceCheck code={p.code} />
           <Link href="/permit-finder" className={buttonClass("secondary", "md", "w-full")}>Screen a {p.name} facility <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
         </aside>
       </div>

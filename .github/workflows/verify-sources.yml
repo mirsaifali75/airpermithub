@@ -3,6 +3,9 @@ name: Source verification
 # Checks every quote, restated threshold, 40 CFR citation, glossary term, agency
 # name, and source link against the live government pages and current eCFR.
 # The report goes on a branch (verify/<date>-<run>) for an editor to review.
+# After fixing what it finds, the editor publishes the result on the site with
+#   node scripts/verification-status.mjs <report.json> [earlier report.json ...]
+# and commits data/verification/status.json (hand checks go in manual.json).
 
 on:
   schedule:

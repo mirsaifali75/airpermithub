@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { ProsePage } from "@/components/layout/ProsePage";
 import { site } from "@/lib/site";
 
@@ -13,6 +14,7 @@ export default function AboutPage() {
         <li>Every regulatory record links to its official source and shows when we last reviewed it.</li>
         <li>We separate official documents, AirPermitHub summaries, and user uploads.</li>
         <li>We do not invent thresholds, emission factors, deadlines, or agency interpretations. Where we cannot verify something, we say so.</li>
+        <li>A script checks every quote, threshold, citation, and link against its government source each month. <Link href="/verification" className="font-semibold text-brand-600 hover:underline">See how, and what the last check found</Link>.</li>
         <li>Demo and placeholder content is always labeled.</li>
       </ul>
       <h2>Who it&apos;s for</h2>
