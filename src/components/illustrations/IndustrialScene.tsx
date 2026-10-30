@@ -41,6 +41,18 @@ function DerrickShape({ x, h, w }: Derrick) {
   );
 }
 
+/**
+ * Air moving through the plant: each stream is a faint curve with a row of
+ * dots that drift along it. Dash pattern length is 46.1, and each stream moves
+ * a whole number of patterns per loop so the motion never jumps.
+ */
+const streams = [
+  { d: "M380 560 C 700 470, 1000 610, 1600 470", w: 2, o: 1, dur: 10 },
+  { d: "M520 610 C 820 540, 1080 650, 1600 540", w: 1.2, o: 0.7, dur: 13 },
+  { d: "M300 470 C 660 390, 1060 520, 1600 392", w: 1, o: 0.4, dur: 16 },
+  { d: "M660 668 C 920 622, 1190 700, 1600 628", w: 1, o: 0.35, dur: 12 },
+];
+
 const lights: [number, number][] = [
   [905, 560], [905, 650], [1075, 600], [1335, 640], [1500, 690], [994, 520], [994, 600], [994, 690],
   [1252, 560], [1252, 650], [820, 720], [1420, 720], [1190, 700], [1110, 730], [960, 740], [1560, 735],
@@ -92,6 +104,15 @@ export function IndustrialScene({ className }: { className?: string }) {
           <stop offset="0.4" stopColor="#00B8FF" stopOpacity="0.55" />
           <stop offset="1" stopColor="#1FA463" stopOpacity="0" />
         </linearGradient>
+        <linearGradient id="streamFade" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.2" stopColor="#000" />
+          <stop offset="0.45" stopColor="#fff" />
+          <stop offset="0.85" stopColor="#fff" />
+          <stop offset="1" stopColor="#000" />
+        </linearGradient>
+        <mask id="streamMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="900">
+          <rect width="1600" height="900" fill="url(#streamFade)" />
+        </mask>
       </defs>
 
       <rect width="1600" height="900" fill="url(#sky)" />
@@ -134,8 +155,25 @@ export function IndustrialScene({ className }: { className?: string }) {
       ))}
 
       {/* Air stream motif */}
-      <path d="M380 560 C 700 470, 1000 610, 1600 470" stroke="url(#airstream)" strokeWidth="2" fill="none" />
-      <path d="M520 610 C 820 540, 1080 650, 1600 540" stroke="url(#airstream)" strokeWidth="1.2" fill="none" opacity="0.7" />
+      {streams.map((st) => (
+        <path key={st.d} d={st.d} stroke="url(#airstream)" strokeWidth={st.w} fill="none" opacity={st.o} />
+      ))}
+      <g mask="url(#streamMask)">
+        {streams.map((st, i) => (
+          <path
+            key={st.d}
+            d={st.d}
+            className="aph-wind"
+            style={{ animationDuration: `${st.dur}s`, animationDelay: `${-i * 2.3}s` }}
+            stroke="#a5ecff"
+            strokeOpacity={0.35 + st.o * 0.5}
+            strokeWidth={st.w + 1.6}
+            strokeLinecap="round"
+            strokeDasharray="0.1 46"
+            fill="none"
+          />
+        ))}
+      </g>
 
       <rect width="1600" height="900" fill="url(#readability)" />
       <rect y="700" width="1600" height="200" fill="url(#floor)" />

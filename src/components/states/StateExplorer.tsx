@@ -2,7 +2,7 @@
 
 import { ArrowRight, ExternalLink, FileText, Landmark, Search } from "lucide-react";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { VerificationBadge } from "@/components/ui/Badge";
 import { cn } from "@/lib/cn";
 import type { StateAirPermitProfile } from "@/lib/data/state-profile-types";
@@ -42,12 +42,14 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
   }, [q, bySlug]);
   const verifiedCount = profiles.filter((p) => p.verification === "verified").length;
   const hovered = hover ? usMap.states.find((s) => s.slug === hover) : null;
+  const mapRef = useRef<SVGSVGElement>(null);
+  const sweep = useMapSweep(mapRef);
 
   return (
     <div className="space-y-5">
       <div className={cn("grid gap-5", compact ? "lg:grid-cols-[minmax(0,1fr)_15rem]" : "lg:grid-cols-[minmax(0,1fr)_17rem]")}>
         <div className="relative rounded-2xl border border-line bg-white p-3 shadow-card sm:p-5">
-          <svg viewBox={`0 0 ${usMap.width} ${usMap.height}`} className="h-auto w-full" role="img" aria-label="Map of U.S. states. Use the state list to select a state.">
+          <svg ref={mapRef} viewBox={`0 0 ${usMap.width} ${usMap.height}`} className={cn("h-auto w-full", sweep === "armed" && "aph-map-armed", sweep === "play" && "aph-map-play")} role="img" aria-label="Map of U.S. states. Use the state list to select a state.">
             <g>
               {usMap.states.map((s) => {
                 const p = bySlug.get(s.slug);
@@ -58,7 +60,8 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
                     fill={fillFor(p?.verification, s.slug === selected, s.slug === hover)}
                     stroke="#ffffff"
                     strokeWidth={1}
-                    className="cursor-pointer transition-[fill] duration-150"
+                    className="aph-state cursor-pointer transition-[fill] duration-150"
+                    style={{ "--d": `${Math.round((s.cx / usMap.width) * 900)}ms` } as React.CSSProperties}
                     onClick={() => setSelected(s.slug)}
                     onMouseEnter={() => setHover(s.slug)}
                     onMouseLeave={() => setHover(null)}
@@ -68,6 +71,18 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
                 );
               })}
             </g>
+            {sweep === "play" && (
+              <g pointerEvents="none" aria-hidden="true">
+                <defs>
+                  <linearGradient id="map-scan" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stopColor="#00B8FF" stopOpacity="0" />
+                    <stop offset="0.85" stopColor="#00B8FF" stopOpacity="0.22" />
+                    <stop offset="1" stopColor="#00B8FF" stopOpacity="0" />
+                  </linearGradient>
+                </defs>
+                <rect className="aph-scan" x={0} y={0} width={110} height={usMap.height} fill="url(#map-scan)" />
+              </g>
+            )}
             {usMap.states
               .filter((s) => s.slug === selected)
               .map((s) => (
@@ -165,3 +180,32 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
     </div>
   );
 }
+
+/**
+ * Plays the map's west-to-east fill once, the first time it scrolls into view.
+ * Skipped when the map is already on screen at load, when the visitor prefers
+ * reduced motion, or without IntersectionObserver; the map is fully drawn in
+ * all of those cases.
+ */
+function useMapSweep(ref: React.RefObject<SVGSVGElement | null>) {
+  const [state, setState] = useState<"idle" | "armed" | "play">("idle");
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || !("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const r = el.getBoundingClientRect();
+    if (r.top < window.innerHeight && r.bottom > 0) return;
+    setState("armed");
+    const io = new IntersectionObserver(
+      ([e]) => {
+        if (!e.isIntersecting) return;
+        setState("play");
+        io.disconnect();
+      },
+      { threshold: 0.3 },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [ref]);
+  return state;
+}
+

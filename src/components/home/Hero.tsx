@@ -48,7 +48,7 @@ export function Hero({ stateCount }: { stateCount: number }) {
           </p>
         </div>
 
-        <form action="/search" role="search" className="mt-8 flex max-w-4xl flex-col gap-2 rounded-2xl bg-white p-2 shadow-lift sm:flex-row sm:items-center">
+        <form action="/search" role="search" className="mt-8 flex animate-fade-up [animation-delay:120ms] max-w-4xl flex-col gap-2 rounded-2xl bg-white p-2 shadow-lift sm:flex-row sm:items-center">
           <label htmlFor="hero-q" className="sr-only">Search AirPermitHub</label>
           <div className="flex min-w-0 flex-1 items-center gap-3 px-3">
             <Search className="h-5 w-5 shrink-0 text-muted" aria-hidden="true" />
@@ -62,7 +62,7 @@ export function Hero({ stateCount }: { stateCount: number }) {
             <button type="submit" className="h-12 shrink-0 rounded-xl bg-brand-600 px-6 font-semibold text-white hover:bg-brand-700">Search</button>
           </div>
         </form>
-        <div className="mt-4 flex max-w-4xl flex-wrap items-center gap-2 text-sm">
+        <div className="mt-4 flex max-w-4xl animate-fade-up flex-wrap items-center gap-2 text-sm [animation-delay:220ms]">
           <span className="font-semibold text-white/80">Popular:</span>
           {popular.map((p) => (
             <Link key={p.label} href={p.href} className="rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/90 transition-colors hover:border-cyan-400/60 hover:bg-white/15">
@@ -70,11 +70,11 @@ export function Hero({ stateCount }: { stateCount: number }) {
             </Link>
           ))}
         </div>
-        <p className="mt-4 text-sm text-white/60">
+        <p className="mt-4 animate-fade-up text-sm text-white/60 [animation-delay:300ms]">
           {stateCount >= 51 ? "All 50 states + DC" : `${stateCount} state hubs`} · Federal programs · Official sources linked on every record
         </p>
 
-        <ul className="glass-dark mt-10 grid grid-cols-1 overflow-hidden rounded-2xl sm:grid-cols-2 lg:mt-12 lg:grid-cols-4">
+        <ul className="glass-dark mt-10 grid animate-fade-up [animation-delay:380ms] grid-cols-1 overflow-hidden rounded-2xl sm:grid-cols-2 lg:mt-12 lg:grid-cols-4">
           {features.map(({ icon: Icon, title, sub, href }) => (
             <li key={title} className="border-white/10 max-sm:[&:not(:first-child)]:border-t sm:max-lg:[&:nth-child(odd)]:border-r sm:max-lg:[&:nth-child(n+3)]:border-t lg:[&:not(:last-child)]:border-r">
               <Link href={href} className="flex items-center gap-3 px-4 py-4 transition-colors hover:bg-white/5 sm:px-5">
