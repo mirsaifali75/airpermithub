@@ -1,0 +1,258 @@
+{
+ "f001.txt": {
+  "url": "https://www.tceq.texas.gov/downloads/assistance/publications/rg-616.pdf",
+  "status": 404,
+  "finalUrl": "https://www.tceq.texas.gov/downloads/assistance/publications/rg-616.pdf",
+  "type": "text/html",
+  "title": "TCEQ - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "length": 1470
+ },
+ "f002.txt": {
+  "url": "https://www.tceq.texas.gov/assets/public/permitting/air/factsheets/permit-factsheet.pdf",
+  "status": 200,
+  "finalUrl": "https://www.tceq.texas.gov/assets/public/permitting/air/factsheets/permit-factsheet.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 9097
+ },
+ "f003.txt": {
+  "url": "https://www.tceq.texas.gov/permitting/air/permitbyrule",
+  "status": 200,
+  "finalUrl": "https://www.tceq.texas.gov/permitting/air/permitbyrule",
+  "type": "text/html",
+  "title": "Indexes to Air Permits by Rule - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "length": 3530
+ },
+ "f004.txt": {
+  "url": "https://deq.nd.gov/aq/permitting/construction.aspx",
+  "status": 200,
+  "finalUrl": "https://deq.nd.gov/aq/permitting/construction.aspx",
+  "type": "text/html",
+  "title": "Construction Permitting - Air Quality - North Dakota DEQ",
+  "length": 14385
+ },
+ "f005.txt": {
+  "url": "https://deq.wyoming.gov/aqd/new-source-review/",
+  "status": 200,
+  "finalUrl": "https://deq.wyoming.gov/aqd/new-source-review/",
+  "type": "text/html",
+  "title": "New Source Review - Wyoming Department of Environmental Quality",
+  "length": 15089
+ },
+ "f006.txt": {
+  "url": "https://www.epa.gov/caa-permitting/caa-permitting-new-jersey-new-york-puerto-rico-us-virgin-islands",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/caa-permitting-new-jersey-new-york-puerto-rico-us-virgin-islands",
+  "type": "text/html",
+  "title": "CAA Permitting in New Jersey, New York, Puerto Rico, the U.S. Virgin Islands | US EPA",
+  "length": 4992
+ },
+ "f007.txt": {
+  "url": "https://www.epa.gov/caa-permitting/psd-permit-program-delegation-new-jersey",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/psd-permit-program-delegation-new-jersey",
+  "type": "text/html",
+  "title": "PSD Permit Program Delegation to New Jersey | US EPA",
+  "length": 3025
+ },
+ "f008.txt": {
+  "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey",
+  "type": "text/html",
+  "title": "Clean Air Permitting in New Jersey | US EPA",
+  "length": 4239
+ },
+ "f009.txt": {
+  "url": "https://www.muni.org/Departments/Fire/Wildfire/Pages/Laws%20and%20Guidelines.aspx",
+  "status": 404,
+  "finalUrl": "https://www.muni.org/Departments/Fire/Wildfire/Pages/Laws%20and%20Guidelines.aspx",
+  "type": "text/html",
+  "title": "404",
+  "length": 9131
+ },
+ "f010.txt": {
+  "url": "https://www.muni.org/departments/fire/pages/faq.aspx",
+  "status": 404,
+  "finalUrl": "https://www.muni.org/departments/fire/pages/faq.aspx",
+  "type": "text/html",
+  "title": "404",
+  "length": 9131
+ },
+ "f011.txt": {
+  "url": "https://dec.alaska.gov/media/fczfipzz/transfer-ownership-2018.pdf",
+  "status": 200,
+  "finalUrl": "https://dec.alaska.gov/media/fczfipzz/transfer-ownership-2018.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 4034
+ },
+ "f012.txt": {
+  "url": "https://dec.alaska.gov/media/ek4p1f33/stp-form.pdf",
+  "status": 200,
+  "finalUrl": "https://dec.alaska.gov/media/ek4p1f33/stp-form.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 1890
+ },
+ "f013.txt": {
+  "url": "https://dec.alaska.gov/air/air-permit/info/",
+  "status": 403,
+  "finalUrl": "https://dec.alaska.gov/air/air-permit/info/",
+  "type": "text/html",
+  "title": "alaska.gov",
+  "length": 54
+ },
+ "f014.txt": {
+  "url": "https://dec.alaska.gov/air/air-compliance/forms",
+  "status": 403,
+  "finalUrl": "https://dec.alaska.gov/air/air-compliance/forms",
+  "type": "text/html",
+  "title": "alaska.gov",
+  "length": 54
+ },
+ "f015.txt": {
+  "url": "https://www.pima.gov/547/Air",
+  "status": 200,
+  "finalUrl": "https://www.pima.gov/air-0",
+  "type": "text/html",
+  "title": "Air | Pima County, AZ",
+  "length": 2425
+ },
+ "f016.txt": {
+  "url": "https://www.pima.gov/448/Air-Quality-Permitting-Overview",
+  "status": 200,
+  "finalUrl": "https://www.pima.gov/air-quality-permitting-overview",
+  "type": "text/html",
+  "title": "Air Quality Permitting Overview | Pima County, AZ",
+  "length": 3510
+ },
+ "f017.txt": {
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "status": 200,
+  "finalUrl": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "type": "text/html",
+  "title": "Air Quality Permitting - Idaho Department of Environmental Quality",
+  "length": 13781
+ },
+ "f018.txt": {
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/tier-i/",
+  "status": 404,
+  "finalUrl": "https://www.deq.idaho.gov/permits/air-quality-permitting/tier-i/",
+  "type": "text/html",
+  "title": "Page not found - Idaho Department of Environmental Quality",
+  "length": 5059
+ },
+ "f019.txt": {
+  "url": "https://deq.mt.gov/Portals/112/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.pdf",
+  "status": 404,
+  "finalUrl": "https://deq.mt.gov/files/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.pdf",
+  "type": "text/html",
+  "title": "",
+  "length": 103
+ },
+ "f020.txt": {
+  "url": "https://deq.mt.gov/air/assistance",
+  "status": 200,
+  "finalUrl": "https://deq.mt.gov/air/assistance",
+  "type": "text/html",
+  "title": "Air Permitting and Operator Assistance | Montana DEQ",
+  "length": 89327
+ },
+ "f021.txt": {
+  "url": "https://dwee.nebraska.gov/sites/default/files/publications/05-168%20Pre-Application%20Meetings_1.pdf",
+  "status": 200,
+  "finalUrl": "https://dwee.nebraska.gov/sites/default/files/publications/05-168%20Pre-Application%20Meetings_1.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 5014
+ },
+ "f022.txt": {
+  "url": "https://dwee.nebraska.gov/sites/default/files/publications/05-159%20Construction%20Permit%20Application%20Fees_1.pdf",
+  "status": 200,
+  "finalUrl": "https://dwee.nebraska.gov/sites/default/files/publications/05-159%20Construction%20Permit%20Application%20Fees_1.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 10040
+ },
+ "f023.txt": {
+  "url": "https://dwee.nebraska.gov/forms/publications-grants-forms/05-159",
+  "status": 200,
+  "finalUrl": "https://dwee.nebraska.gov/forms/publications-grants-forms/05-159",
+  "type": "text/html",
+  "title": "Construction Permit Application Fees | DWEE NE",
+  "length": 13612
+ },
+ "f024.txt": {
+  "url": "https://www.pca.state.mn.us/business-with-us/capped-emission-permit",
+  "status": 200,
+  "finalUrl": "https://www.pca.state.mn.us/business-with-us/capped-emission-permit",
+  "type": "text/html",
+  "title": "Radware Page",
+  "length": 108
+ },
+ "f025.txt": {
+  "url": "https://www.srca.nm.gov/parts/title20/20.002.0079.html",
+  "status": 200,
+  "finalUrl": "https://www.srca.nm.gov/parts/title20/20.002.0079.html",
+  "type": "text/html",
+  "title": "20.2.79 NMAC",
+  "length": 137997
+ },
+ "f026.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7412.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7412.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 178042
+ },
+ "f027.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7407.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7407.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 37039
+ },
+ "f028.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7410.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7410.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 56654
+ },
+ "f029.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.6675",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.6675",
+  "type": "text/xml",
+  "title": "",
+  "length": 19498
+ },
+ "f030.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.7575",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.7575",
+  "type": "text/xml",
+  "title": "",
+  "length": 52038
+ },
+ "f031.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=71&section=71.6",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=71&section=71.6",
+  "type": "text/xml",
+  "title": "",
+  "length": 29077
+ },
+ "f032.txt": {
+  "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
+  "status": 500,
+  "finalUrl": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
+  "type": "text/html",
+  "title": "DEQ continues to be Air Quality Leader with release of Oil and Gas Guidance Document - Wyoming Department of Environmental Quality",
+  "length": 8883
+ }
+}

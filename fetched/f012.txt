@@ -1,0 +1,73 @@
+ADEC Source/Performance Test Plan Summary Form
+For EACH source being tested, attach a completed version of this form to the source test plans
+that are submitted to ADEC within 30 to 60 days prior to testing.
+Name of Permittee
+Facility Name
+
+1.
+
+Reason for the Source/Performance Test:
+Permit Requirement: provide the following information.
+Permit #____________________
+
+Application # ____________
+
+Condition ______________________
+Deadline for Completion of Source Testing: __________________
+ADEC Request: provide the following information.
+Type of request: circle one of the following.
+COBC NOV
+
+Letter
+
+Email
+
+Verbal Other (describe below)
+
+If COBC or NOV, provide #______________________________
+Date of the Request: ____________________
+Deadline for Completion of Source Testing: __________________
+
+2.
+
+Source/Performance Test Information:
+Source ID No.
+Source Name
+Air Pollution Control Device
+Being Tested
+Scheduled Testing Dates
+Pollutants Measured
+Reference Methods
+Number of Tests
+Test Conditions
+(Operational Loads)
+Number of Runs per Test
+Condition
+Duration of Each Test Run
+
+3.
+
+Alternative Test Plans (these require administrator approval): Detail proposed
+deviations from reference method protocol.
+
+4.
+
+Sample Port Location: Attach a longitudinal section drawing of the test stack indicating
+the diameter or if the stack is rectangular, the cross sectional dimensions and the
+distances from the sampling ports to upstream and downstream disturbances.
+
+5.
+
+Traverse Point Locations for Velocity, Particulate, and Other Sampling: Attach
+cross sectional drawings indicating the sampling sites with distances given for velocity,
+particulate, and other measurements.
+
+Based on information and belief formed after reasonable inquiry, I certify that the statements and information in and
+attached to this document are true, accurate, and complete.
+Printed Name
+
+Signature
+
+Date
+
+

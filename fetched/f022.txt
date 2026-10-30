@@ -1,0 +1,175 @@
+This guidance document is advisory in nature but is binding on an agency until amended by such agency. A guidance document does not
+include internal procedural documents that only affect the internal operations of the agency and does not impose additional requirements or
+penalties on regulated parties or include confidential information or rules and regulations made in accordance with the Administrative
+Procedure Act. If you believe that this guidance document imposes additional requirements or penalties on regulated parties, you may request
+a review of the document.
+
+05-159
+
+June 2026
+
+Construction Permit Application Fees
+Chapter 3, Section 002.01 of Nebraska Administrative Code Title 129 – Nebraska Air Quality
+Regulations requires that each air quality construction permit application be accompanied by a nonrefundable fee. The fee is based on the amount of pollutants (including fugitive emissions) the entire
+source will directly emit or have potential to emit (PTE), taking into consideration the restrictions and
+emissions limits included with the issuance of the construction permit, as provided for in Nebraska
+Revised Statutes §81-1505.06.
+
+PERMIT APPLICATION FEE SCHEDULE
+FACILITY-WIDE PTE
+Less than 50 tons per year of any listed air pollutant; or
+Less than 2.5 tons per year of any single hazardous air pollutant (HAP);
+or Less than 10 tons per year of any combination of HAPs
+50 tons or more but less than 100 tons per year of any listed air pollutant; or
+2.5 tons or more but less than 10 tons per year of any single HAP; or
+10 tons or more but less than 25 tons per year of any combination of HAPs
+100 tons or more per year of any listed air pollutant; or
+10 tons or more per year of any single HAP; or
+25 tons or more per year of any combination of HAPs
+
+FEE
+$250
+$1,500
+$3,000
+
+Listed air pollutants for application fee purposes include particulate matter with aerodynamic diameter
+less than 10 micrometers (PM10), oxides of sulfur (SOx), nitrogen oxides (NOx), volatile organic
+compounds (VOC), and carbon monoxide (CO).
+
+Frequently Asked Questions
+Q. When and how do I submit the application fee?
+A. Submit the appropriate application fee with your completed Application – Construction Permit –
+Form 1.0 – General Information to the Nebraska Department of Water, Energy, and Environment
+(DWEE) Air Quality Program. Payment must be made by check or money order made out to the
+Nebraska Department of Water, Energy, and Environment. DWEE cannot currently accept or
+process electronic payments.
+Q. How do I know if I need to obtain a construction permit?
+Page 1 of 4
+
+A. A construction permit is typically required for the construction of any new emission unit or the
+modification of an existing unit at a source that produces a net increase in PTE equal to or exceeding
+any of the levels specified in Title 129, Chapter 3, Section 001.03A. A construction permit is also
+required for any incinerator, regardless of size. If you are unsure, you can either apply for a permit, or
+you can e-mail the Air Quality Program Construction Permit program at
+DWEE.AirQuality@Nebraska.gov or call the Small Business & Public Assistance Program Coordinator
+at (402) 471-2186 to discuss your project.
+Q. What is an “emission unit”?
+A. An “emission unit” is any part or activity at a stationary source that emits or would have the
+potential to emit any regulated air pollutant. A source can have one or more emission units that
+contribute to the PTE.
+Q. How do I obtain a construction permit application?
+A. A construction permit application is available on the DWEE website at
+https://dwee.nebraska.gov/. From the DWEE home page, select the Air tab. Under More
+Information, choose Air Quality Publications, Forms & Applications. In the Program Name
+dropdown, select Air Construction Permit Program and click Apply. The relevant Air
+Construction Permit Program forms will then appear; select the appropriate form from the
+dropdown menu.
+You can also request an application from the Air Quality Program by e-mail at
+DWEE.AirQuality@Nebraska.gov, or by mail at:
+Nebraska Department of Water, Energy, and Environment
+Air Quality Program
+245 Fallbrook Blvd., Suite 100
+Lincoln, NE 68521
+Q. How do I calculate Potential to Emit (PTE) for my facility?
+A. The PTE for the facility is the current PTE plus the PTE of all new and modified emission units. It
+takes into account any permit limits requested in the permit application. PTE means the
+maximum capacity of a stationary source to emit a pollutant under its physical and operational
+design (Title 129, Chapter 1). Potential emission calculation spreadsheets for specific types of
+sources are also available for download from the DWEE Publications web pages.
+Example 1: You plan to build a new painting facility (source) to replace an existing facility that has a
+PTE of 12 tons per year for a single Hazardous Air Pollutant (HAP). In the application, you
+propose to accept limits on the new source in the construction permit - to keep single HAP
+emissions below 2.5 tons per year and total HAP emissions below 10 tons per year - to avoid the
+requirement to apply best available control technologies in accordance with Title 129, Chapter 13.
+A $250 fee is required with your construction permit application.
+
+Example 2: You currently operate a source that has a facility-wide PTE as shown in column 2 of the
+table below. You plan to add a new emission unit that has a PTE as listed in column 3. After the
+application is processed, the facility-wide PTE adds up to the values in column 4.
+
+Page 2 of 4
+
+PM10
+
+Current Facilitywide PTE
+(tons/yr)
+40
+
+PTE of new
+equipment
+(tons/yr)
+8
+
+Facility-wide PTE
+under new permit
+(tons/yr)
+48
+
+VOC
+
+23
+
+41
+
+64
+
+PageAir
+
+ Since the PTE for VOCs is between 50 and 100 tons per year, you must submit a $1,500
+
+fee with the construction permit application for this source.
+Q. Do I need to combine the PTE for pollutants to determine the fee?
+A. No, do not combine pollutants for a facility-wide PTE to determine the fee using the schedule
+(e.g., do not add PM10 and VOC emissions together to determine the fee amount). The fee is
+based on the PTE of single regulated air pollutants, the single largest HAP, and all HAPs
+combined. Each pollutant may fall into a different fee level, and the required fee will be based
+on the single highest fee level.
+Q. What are the regulated air pollutants for purposes of fee estimation?
+A. Regulated air pollutants for purposes of fee estimation are: PM10, SOx, NOx, VOC, CO, and
+HAPs. Particulate matter (PM), PM2.5, and Greenhouse Gases are not pollutants of concern when
+estimating the fee.
+Q. What if I propose to reduce emissions by installing pollution control equipment?
+A. A source does not need to submit a construction permit to install air pollution control equipment;
+therefore, an application fee may not be required. However, if a source wants credit for reducing
+their emissions by installing and operating the equipment, a construction permit is necessary.
+Since the application fee is based on the facility-wide PTE after the application is processed and
+a permit is issued, the emission reductions due to the new control equipment would likely
+minimize the applicable fee.
+Q. If I end up not needing a construction permit, do I get a refund for my fees?
+A. The application fee is non-refundable (Title 129, Chapter 3, Section 002.01).
+Q. What if I decide to withdraw my application after I have submitted it or decide not to proceed
+with the construction project?
+A. The application fee is non-refundable (Title 129, Chapter 3, Section 002.01).
+Q. If I reduce my potential emissions after submitting the application and before issuing the
+permit, am I entitled to reimbursement of the application fee amount ‘overpaid’?
+A. Application fees are specifically identified as non-refundable in Title 129, but the application fee is
+based on the total facility-wide PTE after the application is processed and the permit issued.
+Consequently, if, during the course of DWEE’s review of the application and preparation of permit
+documents, you request to further restrict the facility-wide PTE of your facility to a lower fee
+category, you may be eligible for partial reimbursement of the amount that exceeded the required
+Page 3 of 4
+
+application fee amount based on the issued construction permit. If there is a difference that is
+reimbursable, it should be noted in the Fact Sheet issued with your permit.
+Q. If entitled, how do I request reimbursement of an application fee overpayment?
+A. After the permit has been issued, if you are eligible for partial reimbursement of the application
+fee, you must submit a request for reimbursement to the Air Quality Permitting Program at the
+same address from which you mailed your application. Your request should state that you are
+requesting partial reimbursement of an air quality construction permit application fee and provide a
+brief reason for the request (e.g., for overpayment of the application fee). Include the DWEE
+facility identification number, the application number or permit number (ex. CP14-087) for which
+you are seeking refund of a portion of the application fee, the amount paid initially and the amount
+of overpayment, and the original check number (to help us match up original fee amount) that the
+application fee was paid with. Along with this request, you must submit a completed State of
+Nebraska Substitute form W-9 & ACH-W9 Enrollment Form available at
+https://das.nebraska.gov/accounting/forms/forms.htm (or contact the Air Permitting Program).
+Your request cannot be processed without the completed ACH-W9. The information on the ACHW9 should match the owner information on the permit application; a reimbursement check, if
+issued, will be to the owner.
+
+Produced by: Nebraska Department of Water, Energy, and Environment, 245 Fallbrook Blvd., Suite 100, Lincoln, NE 68521;
+phone (402) 471-2186. To view this, and other information related to our agency, visit our web site at
+https://dwee.nebraska.gov/
+
+Page 4 of 4
+
+

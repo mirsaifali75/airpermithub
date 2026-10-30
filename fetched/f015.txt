@@ -1,0 +1,27 @@
+Air | Pima County, AZ 
+Skip to Main Content 
+Government 
+Departments & Offices 
+Services 
+I want to... 
+Opens in a new window 
+Home 
+Departments & Offices 
+Health & Community Services 
+Environmental Quality 
+Pima Department of Environmental Quality GIS Maps 
+Air
+Air
+Air Quality Permits
+The Air Quality Permits layer displays sources of air pollution permitted by the Pima County Department of Environmental Quality. This layer focuses on Class I, Class II, and other air quality permits. A more comprehensive list can be found by visiting PDEQ's Air Quality Operating Permits page . Permits included in this layer include copper mines, natural gas compression, aerospace manufacturers, power generation, landfills, and other sources of air pollution which require a permit. The data displayed is static data updated as of March 1, 2020.
+Nonattainment & Maintenance Areas
+There are two nonattainment areas and three maintenance areas that are either partially or fully within Pima County. Nonattainment and Maintenance Areas are areas designated by the U.S. Environmental Protection Agency (EPA) for each of the National Ambient Air Quality Standards (NAAQS) required by the Clean Air Act . PDEQ monitors each of the six criteria pollutants through an air monitoring network; please review the Air Monitoring page for more information. The Clean Air Act requires a federally approved and enforceable plan developed by a state or local authority that identifies how it will meet and/or maintain the NAAQS, this plan is known as a State Implementation Plan (SIP) . For each of the NAAQS EPA must designate areas as meeting (attainment) or not meeting (nonattainment) each standard.
+Pima County is in the attainment of the NAAQS with the exception of the Rillito and Ajo areas which are both non-attainment for PM 10 . These two nonattainment areas are displayed on the Nonattainment Areas layer.
+When an area was formerly nonattainment and is redesignated as an attainment area, the area is covered under a maintenance plan. There are three maintenance areas within Pima County: two Sulfur Dioxide (SO2) maintenance areas in Ajo and San Manual and one Carbon Monoxide maintenance area in Tucson. The Tucson Carbon Monoxide Limited Maintenance area is not displayed on the Pima DEQ GIS Maps because this plan is in the second 10-year plan.
+Air 
+Superfund 
+Waste 
+Water 
+PIMA COUNTY WEATHER 
+Government Websites by CivicPlus® 
+[]
