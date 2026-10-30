@@ -1,0 +1,1526 @@
+DEPARTMENT OF ENVIRONMENTAL PROTECTION
+Bureau of Air Quality
+DOCUMENT NUMBER:
+
+275-2101-003
+
+TITLE:
+
+Air Quality Permit Exemptions
+
+EFFECTIVE DATE:
+
+July 1, 2021
+
+AUTHORITY:
+
+Air Pollution Control Act (APCA), 35 P.S. § 4001 et seq. and 25 Pa. Code
+§ 127.14 (relating to exemptions)
+
+POLICY:
+
+Plan Approval and Operating Permit Exemptions
+
+PURPOSE:
+
+This document provides criteria for sources and physical changes to
+sources determined to be eligible for permitting exemptions as sources of
+minor significance.
+
+APPLICABILITY:
+
+Staff/Regulated Public
+
+DISCLAIMER:
+
+The policies and procedures outlined in this guidance are intended to
+supplement existing requirements. Nothing in the policies or procedures
+shall affect regulatory requirements.
+The policies and procedures herein are not an adjudication or a regulation.
+DEP does not intend to give this guidance that weight or deference. This
+document establishes the framework, within which DEP will exercise its
+administrative discretion in the future. DEP reserves the discretion to
+deviate from this policy statement if circumstances warrant.
+
+PAGE LENGTH:
+
+24 pages
+
+275-2101-003 / July 1, 2021 / Page i
+
+TABLE OF CONTENTS
+Qualifications Regarding Exempted Sources ......................................................................................... 2
+Listing of Plan Approval Exemptions ..................................................................................................... 3
+Physical Changes Qualifying for Exemption Under Section 127.14(a)(9) ......................................... 15
+Exemption Criteria for Operating Permits .......................................................................................... 17
+State-Only Operating Permit Facility Exemptions* ............................................................................ 18
+Exempted Facility and Source Categories for Operating Permits ..................................................... 18
+Trivial Activities ...................................................................................................................................... 19
+
+275-2101-003 / July 1, 2021 / Page ii
+
+COMMONWEALTH OF PENNSYLVANIA
+DEPARTMENT OF ENVIRONMENTAL PROTECTION
+BUREAU OF AIR QUALITY
+NOTICE
+Plan Approval and Operating Permit Exemptions
+Consistent with the applicable provisions of the Pennsylvania Air Pollution Control Act (APCA),
+35 P.S. § 4001 et seq. and 25 Pa. Code § 127.14 (relating to exemptions), the Department of
+Environmental Protection (Department or DEP) may determine sources or classes of sources to be
+exempt from the plan approval and permitting requirements of 25 Pa. Code Chapter 127 (relating to
+construction, modification, reactivation and operation of sources). This guidance document identifies
+the following:
+•
+•
+•
+•
+
+exemptions under § 127.14(a) and exemptions under § 127.14(a)(8) that do not require
+submission of a Request for Determination (RFD) form;
+exemption criteria that the Department may use when an owner or operator of a source or facility
+is seeking an exemption from plan approval;
+further qualifications regarding plan approval exempted sources; exemptions under
+§ 127.14(a)(9) related to physical changes; and
+exemption criteria for operating permits.
+
+This amended guidance document is applicable to sources that will be constructed as new or modified
+sources after the effective date of this document. It does not apply to sources that were constructed or
+modified prior to the effective date of this guidance document and operating lawfully without a permit.
+Sources exempted from plan approvals are not automatically exempted from operating permit
+requirements.
+A Plan Approval is written approval from DEP’s Air Quality Program required before an owner or
+operator of a facility can begin to construct, modify, or operate a source, emissions unit or equipment
+emitting air contaminants in Pennsylvania. Plan approval applications are submitted to the appropriate
+DEP regional office and are required to be approved before construction or modification commences.
+However, not all air contamination sources require a plan approval or operating permit; some may be
+exempt under Department regulations, and some may be granted an exemption on a case-by-case basis.
+The process used to obtain a case-by-case exemption requires that an RFD form be submitted, which is
+the mechanism by which the Department evaluates a case-by-case exemption request.
+Some exemptions require prior written notification. Written notifications are not RFDs and have no fee
+associated with them. The notifications must contain all information necessary for DEP to evaluate the
+exemption status of the project, including identification of the sources and/or control devices, emission
+calculations, and operating parameters, as well as any necessary supporting documentation. All
+notifications are to be submitted through mail or e-mail to the appropriate DEP Regional Air Program
+Manager.
+Some exemptions allow for alternative methods based on Department approval (“Any other method
+approved by the Department”). A request to use an alternative method not yet approved by the
+Department is to be submitted to the appropriate DEP Regional Air Program Manager. The owner or
+operator cannot use the alternative method until written approval from DEP has been granted.
+275-2101-003 / July 1, 2021 / Page 1
+
+Words and terms that are not defined in this document have the meaning set forth in 25 Pa. Code § 121.1
+(relating to definitions) or the APCA (35 P.S. § 4003), 25 Pa. Code Chapters 121 - 145 and applicable
+definitions codified in the Code of Federal Regulations (CFR), including 40 CFR Parts 60 and 63.
+Qualifications Regarding Exempted Sources
+1.
+
+This notice shall not be construed to exempt facilities that include multiple sources of air
+contaminants, unless specifically stated in the source category.
+
+2.
+
+The addition of any source that would subject the facility to major source New Source Review or
+Prevention of Significant Deterioration, Title V or Reasonably Available Control Technology
+(RACT) requirements shall comply with plan approval requirements, even if such sources are
+within a category in the below list.
+
+3.
+
+Sources exempt from plan approval may be required to be included in the operating permit if the
+source is not included in the trivial activity listing.
+
+4.
+
+Sources located in Allegheny and Philadelphia Counties may be subject to different permitting
+requirements. Please contact the Allegheny County Air Quality Program or the Philadelphia Air
+Management Services for information applicable to sources located in those counties.
+
+5.
+
+Any sources claiming an exemption based on rated capacity or emission thresholds must keep
+adequate records to clearly demonstrate to the Department that the applicable thresholds are not
+exceeded. The records must be kept for five (5) years and be made available to the Department
+upon request.
+
+6.
+
+All air contamination sources, and air pollution control devices must be operated in a manner
+consistent with the manufacturer’s specifications and good engineering practice.
+These determinations do not exempt the below-listed sources from compliance with the emission
+limitations, work practice, and other applicable requirements contained in Chapters 121, 122,
+123, 124, 127, 129, and 135. Although a source may be exempt from the plan approval and
+operating permit requirements of Chapter 127, the source is subject to all other applicable air
+quality regulations. For example, combustion units exempt from the requirements of
+Chapter 127 are not exempt from the opacity limitations of § 123.41 or the emission limitations
+of § 123.22. Storage vessels for organic compounds with capacities between 2,000 gallons to
+40,000 gallons, not subject to the requirements of Chapter 127, must install pressure relief valves
+in accordance with the requirements of § 129.57. (Note: Storage vessels in this size range
+would also not be subject to the requirements of §§ 129.59 and 129.60.)
+If the Department determines that any exempted source is causing air pollution in violation of
+Section 8 of the Air Pollution Control Act, 35 P. S. § 4008, or 25 Pa. Code § 121.7, the
+Department may order the installation of additional air cleaning devices. In those cases, plan
+approvals and operating permits may be required.
+Requests for exemptions from the plan approval requirements of Chapter 127 for multiple source
+facilities must be considered on a case-by-case basis, unless otherwise noted within the
+exemption category.
+275-2101-003 / July 1, 2021 / Page 2
+
+As noted in Category 44 of the list, additional exemptions, when appropriate, may be obtained through
+the submission of a completed RFD form. These forms are available from any of the Department’s Air
+Program offices and on the DEP website at www.dep.pa.gov under the Air Quality page.
+Listing of Plan Approval Exemptions
+Section 127.14(a) Exemptions that do not require the submission of an RFD form
+In accordance with § 127.14(a), approval is not required for the construction, modification, reactivation,
+or installation of the following:
+1.
+
+Air conditioning or ventilation systems not designed to remove pollutants generated by or
+released from other sources.
+
+2.
+
+Combustion units rated at 2.5 million or less Btus per hour of heat input.
+
+3.
+
+Combustion units with a rated capacity of less than 10 million Btus per hour of heat input fueled
+by natural gas supplied by a public utility or by commercial fuel oils which are No. 2 or
+lighter - viscosity less than or equal to 5.82 C St -- and which meet the sulfur content
+requirements of § 123.22 (relating to combustion units). Combustion units converting to fuel
+oils which are No. 3 or heavier-viscosity greater than 5.82 C St or contain sulfur in excess of the
+requirements of § 123.22 require approval. For the purpose of this section, commercial fuel oil
+shall be virgin oil which contains no reprocessed, recycled, or waste material added. See
+Section 127.14(a)(8) Exemption Category #39 for combustion units fired by LPG/propane or
+pipeline quality natural gas.
+
+4.
+
+Sources used in residential premises designed to house four or less families.
+
+5.
+
+Space heaters which heat by direct heat transfer.
+
+6.
+
+Mobile sources.
+
+7.
+
+Laboratory equipment used exclusively for chemical or physical analyses.
+
+8.
+
+Other sources and classes of sources determined to be of minor significance by the Department.
+Section 127.14(a)(8) Exemptions that do not require the submission of an RFD form
+
+The following is a list of those sources and classes of sources determined, in accordance with
+§ 127.14(a)(8), to be exempt from the Plan Approval requirements of §§ 127.11 and 127.12. The
+commencement of construction of sources is exempted from the plan approval requirements provided
+the following exemption criteria are met. Unless labeled otherwise, emission rates are to be considered
+actual tons per year (tpy). Note that certain exceptions and qualifications regarding this list are
+contained in the discussion that precedes the list.
+1.
+
+Reserved.
+
+2.
+
+Sources of only particulate matter with fabric collectors, cartridge collectors or scrubbers
+designed using good engineering practices and manufactured as an integral part of the design and
+275-2101-003 / July 1, 2021 / Page 3
+
+which have exhaust volumes equal to or smaller than 5,000 scfm. Concentration of particulate
+matter emissions may not exceed 0.01 gr/dscf from the fabric collector, cartridge collector, or
+scrubber stack. Hazardous Air Pollutant (HAP) emissions may not exceed 1000 lbs/yr of a
+single HAP or one tpy of a combination of HAPs that does not include chromium, mercury (Hg)
+or lead (Pb).
+3.
+
+Combustion turbines rated at less than 1,000 horsepower. This category does not apply to newly
+installed turbines of a model year that is not within five years of the installation date unless the
+turbine meets the applicable New Source Performance Standard emission rates that apply to a
+newly manufactured turbine.
+
+4.
+
+Internal combustion engines rated at less than 100 brake horsepower. This category does not
+apply to newly installed engines of a model year that is not within five years of the installation
+date unless the engine meets the applicable New Source Performance Standard emission rates
+that apply to a newly manufactured engine.
+
+5.
+
+Portable, temporary internal combustion engines used for 14 days or less at special events (such
+as county fairs, circuses, and concerts).
+
+6.
+
+Internal combustion engines regardless of size, with combined NOx actual emissions less than
+100 lbs/hr, 1000 lbs/day, 2.75 tons per ozone season and 6.6 tons per year on a 12-month rolling
+basis for all exempt engines at the site. This category does not apply to newly installed engines
+of a model year that is not within five years of the installation date unless the engine meets the
+applicable New Source Performance Standard emission rates that apply to a newly manufactured
+engine. The emission criteria do not include emissions from sources which are approved by the
+Department in plan approvals or the general plan approvals/general operating permits at the
+facility. This category does not apply if an add-on air cleaning device, such as selective catalytic
+reduction (SCR), is installed. Note Category 38 addresses oil and gas facilities.
+
+7.
+
+Natural gas-fired heat-treating furnaces with less than 10 million Btus per hour heat input (fuel
+burning emissions only). HAP emissions may not exceed 1000 lbs/yr of a single HAP or one tpy
+of a combination of HAPs. The HAPs may not contain Polychlorinated Biphenyls (PCBs),
+Chromium (Cr), Mercury (Hg), Lead (Pb), Polycyclic Organic Matter (POM), Dioxins or Furans.
+
+8.
+
+Steam aspirated vacuum degassing of molten steel.
+
+9.
+
+Coal-handling facilities processing less than 200 tons per day. (Thermal coal dryers and
+pneumatic coal cleaners remain subject to the requirements of § 127.11). This exemption
+includes internal combustion engines meeting the criteria for plan approval exemption described
+in Category 6 above.
+
+10.
+
+Wet sand and gravel operations (screening only) and dry sand and gravel operations (including
+crushers) processing unconsolidated materials with a rated capacity of less than 150 tons per
+hour.
+
+11.
+
+Coal and non-metallic mineral-handling activities directly associated with either deep or surface
+mines that consist only of conveyors and non-vibratory screens (aka grizzlies). This exemption
+includes internal combustion engines meeting the criteria for plan approval exemption described
+in Category 6 above.
+275-2101-003 / July 1, 2021 / Page 4
+
+12.
+
+Portable crushers that are controlled with properly located water sprays or with fabric filters,
+operated during daylight, and located on a site for less than 60 calendar days provided, however,
+that the crushers do not process materials containing asbestos. This exemption includes
+associated screens and drop points; tub grinders used to mulch grubbing waste; and internal
+combustion engines meeting the criteria for plan approval exemption described in Category 6
+above.
+
+13.
+
+Concrete batch plants and associated storage vessels that are equipped with fabric collectors
+designed using good engineering practices. Concentration of particulate matter emissions may
+not exceed 0.01 gr/dscf from the fabric collector stack.
+
+14.
+
+Bulk material storage bins, except those associated with a production facility with total actual
+facility particulate emissions greater than 10 tpy.
+
+15.
+
+Storage vessels for volatile organic compounds which have capacities less than 40 m3
+(10,000 gallons) based on vessel dimensions, unless subject to § 129.57 (storage tanks less than
+or equal to 40,000 gallons capacity containing VOCs), § 129.59 (bulk gasoline terminals) or
+§ 129.60(b) and (c) (bulk gasoline plants). HAP emissions may not exceed 1000 lbs/yr of a
+single HAP or one tpy of a combination of HAPs. The HAPs may not contain Polychlorinated
+Biphenyls (PCBs), Chromium (Cr), Mercury (Hg), Lead (Pb), Polycyclic Organic Matter (POM),
+Dioxins or Furans.
+
+16.
+
+Storage vessels containing non-VOC, non-malodorous, or non-hazardous air pollutant materials.
+
+17.
+
+Diesel fuel; Nos. 2, 4, and 6 fuel oils; or kerosene and jet fuel storage and dispensing facilities as
+long as the stored or dispensed product has a vapor pressure less than 1.5 psia.
+
+18.
+
+Covered wastewater transfer systems such as covered junction boxes, sumps, and tanks at
+industrial sites.
+
+19.
+
+Plastic bead or pellet milling, screening, and storage operations (does not include handling and
+storage of resin powders).
+
+20.
+
+Plastic parts casting ovens and injection molding processes. HAP emissions may not exceed
+1000 lbs/yr of a single HAP or one tpy of a combination of HAPs. The HAPs may not contain
+Polychlorinated Biphenyls (PCBs), Chromium (Cr), Mercury (Hg), Lead (Pb), Polycyclic
+Organic Matter (POM), Dioxins or Furans.
+
+21.
+
+Tire buffing.
+
+22.
+
+Paper trimmers/binders.
+
+23.
+
+Vocational education shops. Chemistry laboratories at schools and colleges.
+
+24.
+
+Bench-scale laboratory equipment used for kinetic studies, mass/energy transport studies,
+chemical synthesis and physical or chemical analysis.
+
+275-2101-003 / July 1, 2021 / Page 5
+
+25.
+
+Research and development activities as defined in 25 Pa. Code Chapter 121 with the following
+annual emission rates. See Category No. 45 which specifies emission rates where the owner or
+operator of a source or a facility needs to submit RFD.
+i.
+ii.
+iii.
+iv.
+v.
+
+26.
+
+less than or equal to 10 tpy of CO;
+less than or equal to 1.5 tpy of non-HAP PM10;
+less than or equal to 4 tpy of SO2 or non-HAP VOC;
+less than or equal to 5 tpy of NOx;
+less than or equal to 1000 lbs/yr of a single HAP or one tpy of a combination of HAPs.
+The HAPs may not contain Polychlorinated Biphenyls (PCBs), Chromium (Cr), Mercury
+(Hg), Lead (Pb), Polycyclic Organic Matter (POM), Dioxins or Furans.
+
+Woodworking facilities including sawmills and pallet mills which process green wood; or, small
+woodworking facilities processing kiln-dried wood or wood products (flakeboard, particleboard,
+etc.) associated with pattern shops, retail lumber yards, shipping and packing departments, etc.
+This category also includes woodworking facilities of any size processing kiln-dried wood or
+wood products equipped with fabric collectors designed to have emission rates that are less than
+0.01 gr/dscf.
+This exemption does not apply to woodworking facilities processing wood that has been treated
+with a wood preservative of any kind. The term “woodworking facilities” refers only to
+operations in which wood or a wood product is sawed, sanded, planed, or similarly shaped or
+reshaped. The term does not include such activities as painting, finishing, hardboard
+manufacturing, plywood manufacturing, and the like.
+
+27.
+
+Smokehouses.
+
+28.
+
+Slaughterhouses (rendering cookers remain subject to the requirements of § 127.11).
+
+29.
+
+Restaurant operations.
+
+30.
+
+Degreasing operations at a facility emitting less than 2.7 tons of VOCs on a 12-month rolling
+basis and not subject to the Federal NESHAP for halogenated solvent cleaners under 40 CFR
+Part 63.
+
+31.
+
+Sources of uncontrolled VOC emissions from a project that are less than 2.7 tons on a 12-month
+rolling basis. Uncontrolled HAPs emissions from a project may not exceed 1000 lbs of a single
+HAP or one ton of a combination of HAPs in any consecutive 12-month period. The HAPs may
+not contain Polychlorinated Biphenyls (PCBs), Chromium (Cr), Mercury (Hg), Lead (Pb),
+Polycyclic Organic Matter (POM), Dioxins or Furans. Facilities claiming this exemption must
+provide a 15-day prior written notification with calculations and supporting documents to DEP.
+
+32.
+
+Dry-cleaning facilities that are not subject to NSPS, MACT, PSD or NSR requirements.
+
+33.
+a.
+
+Retail gasoline dispensing facilities and similar vehicle-fueling operations at industrial
+facilities.
+275-2101-003 / July 1, 2021 / Page 6
+
+b.
+
+Compressed natural gas dispensing facilities meeting the following requirements:
+i.
+
+Combined NOx emissions from the stationary internal combustion engines at a
+facility less than 100 lbs/hr, 1000 lbs/day, 2.75 tons per ozone season (the period
+beginning May 1 of each year and ending on September 30 of the same year) and
+6.6 tons per year on a 12-month rolling basis. The emissions criteria do not
+include emissions from sources which are approved by the Department in plan
+approvals, general plan approval/general operating permits or emissions from
+sources at the facility approved under Category No. 33a.
+
+ii.
+
+Combined VOC emissions from all the sources at the facility less than 2.7 tons on
+a 12-month rolling basis. If the VOCs include HAPs, the HAP exemption criteria
+in this paragraph must be met. Compliance with this criterion will be determined
+using any generally accepted model or calculation methodology. Combined HAP
+emissions [not including Polychlorinated Biphenyls (PCBs), Chromium (Cr),
+Mercury (Hg), Lead (Pb), Polycyclic Organic Matter (POM), Dioxins and Furans]
+at the facility less than 1000 lbs. of a single HAP or one ton of a combination of
+HAPs in any consecutive 12-month period. The emissions criteria do not include
+emissions from sources which are approved by the Department in plan approvals,
+general plan approval/general operating permits, or emissions from sources
+approved under Category No. 33a. at the facility.
+
+iii.
+
+The owner or operator of the compressed natural gas fueling station will annually
+perform a leak detection and repair (LDAR) program that includes either the use
+of an optical gas imaging camera such as a FLIR camera or a gas leak detector
+capable of reading methane concentrations in air of 0% to 5% with an accuracy of
++/- 0.2% or other leak detection monitoring devices approved by the Department.
+The LDAR program will be conducted on valves, flanges, connectors, storage
+vessels/storage tanks, and compressor seals in natural gas or hydrocarbon liquids
+service. Leaks are to be repaired no later than 15 days after leak detections unless
+facility shutdowns or ordering of replacement parts are necessary for repair of the
+leaks. For the storage vessel, any leak detection and repair are to be performed in
+accordance with 40 CFR Part 60, Subpart OOOO.
+A.
+
+A leak is considered repaired if one of the following can be demonstrated:
+1.
+
+No detectable emissions consistent with Method 21 specified in
+40 CFR Part 60, Appendix A;
+
+2.
+
+A concentration of 2.5% methane or less using a gas leak detector;
+
+3.
+
+No visible leak image when using an optical gas imaging camera;
+
+4.
+
+No bubbling at leak interface using a soap solution bubble test
+specified in Method 21. A procedure based on the formation of
+bubbles in a soap solution that is sprayed on a potential leak source
+may be used for those sources that do not have continuously
+moving parts and that do not have a surface temperature greater
+275-2101-003 / July 1, 2021 / Page 7
+
+than the boiling point or less than the freezing point of the soap
+solution; or
+5.
+B.
+
+Any other method approved by the Department.
+
+Leaks, repair methods, and repair delays are to be recorded and those
+records should be maintained for five years. If a gas leak detector is used,
+a leak is to be detected by placing the probe inlet at the surface of a
+component. The Department may grant an extension for leak detection
+deadlines or repairs upon written request from the owner or operator of the
+facility documenting the justification for the requested extension.
+
+34.
+
+Sources of particulate matter (not subject to NESHAPs, NSPS, PSD, or major source
+requirements) that are controlled by a baghouse, have an emission rate which meets the limits of
+Chapter 123, and are exhausted indoors and cannot be bypassed to exhaust to the outdoor
+atmosphere. These sources should not emit more than 1000 lbs/yr of a single HAP or one tpy of
+a combination of HAPs. The HAPs may not contain Polychlorinated Biphenyls (PCBs),
+Chromium (Cr), Mercury (Hg), Lead (Pb), Polycyclic Organic Matter (POM), Dioxins or Furans.
+Multiple sources within this category may be exempt from plan approval requirements.
+
+35.
+
+Sources emitting only inert gases [such as argon (Ar), helium (He), krypton (Kr), neon (Ne), and
+xenon (Xe)], nitrogen (N2), oxygen (O2), carbon dioxide (CO2), or ethane (C2H6).
+
+36.
+
+Source(s) qualifying under § 127.449 as de minimis emission increases.
+
+37.
+
+Reserved. See Category 46.
+
+38(a). Existing oil and gas exploration, development, and production facilities and associated
+equipment and operations constructed prior to August 10, 2013. Any modification of an existing
+source or construction of a new source after August 8, 2018, is subject to 38(c).
+38(b). Existing oil and gas exploration, development, and production facilities and associated
+equipment and operations authorized to operate under exemption criteria dated August 10, 2013,
+but prior to August 8, 2018, of this exemption criteria that meet any of the following provisions
+(a – d). This exemption criteria also apply to a well that was spudded (drilled) on or after
+August 10, 2013, but before August 8, 2018, and an air contamination source that was
+constructed, reconstructed or modified on or after August 10, 2013, but before August 8, 2018:
+a.
+
+Site preparation, well drilling, hydraulic fracturing, completion, and work-over activities
+for conventional and unconventional well sites.
+
+b.
+
+Conventional wells, wellheads, and all other associated equipment. A conventional well
+is any well that does not meet the definition of unconventional gas well in 58 PA.C.S
+§ 3203.
+
+c.
+
+Non-road engines as defined in 40 CFR § 89.2.
+
+275-2101-003 / July 1, 2021 / Page 8
+
+d.
+
+Unconventional wells, wellheads, and associated equipment provided the applicable
+exemption criteria specified in subparagraphs i, ii, iii, iv, and v are met.
+i.
+
+Within 60 days after the well is put into production, and annually thereafter, the
+owner/operator will perform a leak detection and repair (LDAR) program that
+includes either the use of an optical gas imaging camera, Method 21 of 40 CFR
+Part 60, or other leak detection monitoring devices approved by the Department.
+LDAR is to be conducted on valves, flanges, connectors, storage vessels/storage
+tanks, and compressor seals in natural gas or hydrocarbon liquids service. Leaks
+are to be repaired no later than 15 days after leak detections unless facility
+shutdowns or ordering of replacement parts are necessary for repair of the leaks.
+The optical gas imaging camera, Method 21, or other Department-approved gas
+leak detection equipment is to be operated in accordance with manufacturerrecommended procedures. For the storage vessel, any leak detection and repair
+will be performed in accordance with 40 CFR Part 60, Subpart OOOO.
+A.
+
+B.
+
+ii.
+
+A leak is considered repaired if one of the following can be demonstrated:
+1.
+
+No detectable emissions consistent with Method 21 specified in
+40 CFR Part 60, Appendix A;
+
+2.
+
+A concentration of 2.5% methane or less using a gas leak detector
+and a VOC concentration of 500 ppm or less;
+
+3.
+
+No visible leak image when using an optical gas imaging camera;
+
+4.
+
+No bubbling at leak interface using a soap solution bubble test
+specified in Method 21; or a procedure based on the formation of
+bubbles in a soap solution that is sprayed on a potential leak source
+may be used for those sources that do not have continuously
+moving parts and that do not have a surface temperature greater
+than the boiling point or less than the freezing point of the soap
+solution; or
+
+5.
+
+Any other method approved by the Department.
+
+Leaks, repair methods and repair delays will be recorded and those records
+should be maintained for five years. If a gas leak detector is used, a leak is
+to be detected by placing the probe inlet at the surface of a component.
+The Department may grant an extension for leak detection deadlines or
+repairs upon the receipt of a written request from the owner or operator of
+the facility documenting the justification for the requested extension.
+
+Storage vessels/storage tanks or other equipment equipped with VOC emission
+controls achieving emissions reduction of 95% or greater. Compliance will be
+demonstrated consistent with 40 CFR Part 60, Subpart OOOO, as applicable, or
+an alternative test method approved by the Department.
+
+275-2101-003 / July 1, 2021 / Page 9
+
+iii.
+
+Combined VOC emissions from all the sources at the facility less than 2.7 tons on
+a 12-month rolling basis. If the VOCs include HAPs, the HAP exemption
+criterion in this paragraph will be met. Compliance with this criterion is to be
+determined using any generally accepted model or calculation methodology.
+Combined HAP emissions [not including Polychlorinated Biphenyls (PCBs),
+Chromium (Cr), Mercury (Hg), Lead (Pb), Polycyclic Organic Matter (POM),
+Dioxins and Furans] at the facility less than 1000 lbs of a single HAP or one ton
+of a combination of HAPs in any consecutive 12-month period. The emission
+criteria do not include emissions from sources which are approved by the
+Department in plan approvals or general plan approvals/general operating permits
+at the facility and the emissions from sources meeting the exemption criteria in
+subparagraphs i, ii, and iv.
+
+iv.
+
+Flaring activities as outlined below:
+
+v.
+
+A.
+
+Flaring used at exploration wells to determine whether oil and/or gas
+exists in geological formations or to appraise the physical extent, reserves
+and likely production rate of an oil or gas field.
+
+B.
+
+Flaring used for repair, maintenance, emergency, or safety purposes.
+
+C.
+
+Flaring used for other operations at a wellhead or facility to comply with
+40 CFR Part 60, Subpart OOOO requirements as applicable.
+
+D.
+
+Enclosed combustion device including enclosed flare will be used for all
+permanent flaring operations at a wellhead or facility. These flaring
+operations will be designed and operated in accordance with the
+requirements of 40 CFR § 60.18.
+
+Combined NOx emissions from the stationary internal combustion engines at
+wells, and wellheads less than 100 lbs./hr., 1000 lbs./day, 2.75 tons per ozone
+season (the period beginning May 1 of each year and ending on September 30 the
+same year), and 6.6 tons per year on a 12-month rolling basis. The emission
+criteria do not include emissions from sources which are approved by plan
+approvals or the general plan approvals/general operating permits at the facility.
+
+The owner or operator will comply with all applicable state and federal requirements including
+notification, recordkeeping, and reporting requirements as specified in 40 CFR Part 60
+Subpart OOOO as applicable. The owner or operator will also demonstrate compliance with the
+exemption criteria to the Department using any generally accepted model or calculation
+methodology within 180 days after the well completion or installation of a source.
+The owners and operators of sources not meeting the provisions of subsections a.- d. of this
+category may submit an RFD to the Department. If the RFD is not approved by the Department,
+an application for authorization to use a general permit or a plan approval application is to be
+submitted to the Department, as appropriate.
+If drilling a new well or hydraulically refracturing an existing well, or adding new, reconstructed
+or modified equipment to an existing facility previously exempt under Category 38(a) or 38(b),
+275-2101-003 / July 1, 2021 / Page 10
+
+the owner or operator can meet the exemption criteria under 38(c); submit and obtain approval
+for an RFD; or apply for, and receive, authorization to use GP-5A.
+If the source does not meet the exemption criteria under 38(c), an authorization cannot be
+granted under GP-5A and an RFD is not approved by the Department, a plan approval and/or an
+operating permit issued in accordance with 25 Pa. Code, Chapter 127, Subchapter B (relating to
+plan approval requirements) and/or Subchapter F (relating to operating permit requirements) will
+be required, as appropriate.
+38(c). Oil and gas exploration, development, and production facilities and associated equipment and
+operations for which construction or reconstruction commenced on or after August 8, 2018, of
+this Exemption criteria meeting the following provisions or drilling (spudding) a new well;
+hydraulically refracturing an existing well; or adding new, reconstructed, or modified
+equipment to an existing facility previously exempted from plan approval and operating permit,
+meeting the following provisions:
+a.
+
+Conventional wells, wellheads, and all other associated equipment. A conventional well
+is any well that does not meet the definition of unconventional gas well in 58 PA.C.S.
+§ 3203.
+
+b.
+
+Site preparation, well drilling, hydraulic fracturing, completion, work-over activities, and
+associated temporary flaring operations for conventional and unconventional well sites.
+
+c.
+
+Unconventional natural gas well site operations or remote pigging stations, provided they
+meet the following criteria:
+i.
+
+The owner or operator must comply with the following leak detection and repair
+(LDAR) program.
+Within 60 days after the well is put into production, and semi-annually thereafter,
+the owner/operator will perform LDAR that includes the use of an optical gas
+imaging camera calibrated according to 40 CFR § 60.18 and a detection
+sensitivity level of 60 grams/hour, Method 21 of 40 CFR Part 60, or other leak
+detection monitoring devices approved by the Department. LDAR is to be
+conducted on valves, flanges, connectors, storage vessels/storage tanks, and
+compressor seals in natural gas or hydrocarbon liquids service. Leaks are to be
+repaired no later than 15 days after leak detections unless facility shutdowns or
+ordering of replacement parts are necessary for repair of the leaks. The optical
+gas imaging camera, Method 21, or other Department-approved gas leak detection
+equipment is to be operated in accordance with manufacturer-recommended
+procedures. For the storage vessel, any leak detection and repair will be
+performed in accordance with 40 CFR Part 60, Subpart OOOO or
+Subpart OOOOa, as applicable.
+A.
+
+A leak is considered repaired if one of the following can be demonstrated:
+1.
+
+No detectable emissions consistent with Method 21 specified in
+40 CFR Part 60, Appendix A;
+275-2101-003 / July 1, 2021 / Page 11
+
+B.
+
+2.
+
+A leak of less than 500 ppm calibrated as methane is detected
+when the gas leak detector probe inlet is placed at the surface of
+the component;
+
+3.
+
+No visible leak image when using an optical gas imaging camera;
+
+4.
+
+No bubbling at leak interface using a soap solution bubble test
+specified in Method 21; or a procedure based on the formation of
+bubbles in a soap solution that is sprayed on a potential leak source
+may be used for those sources that do not have continuously
+moving parts and that do not have a surface temperature greater
+than the boiling point or less than the freezing point of the soap
+solution; or
+
+5.
+
+Any other method approved by the Department.
+
+Leaks, repair methods and repair delays will be recorded and maintained
+for five years. If a gas leak detector is used, a leak is to be detected by
+placing the probe inlet at the surface of a component. The Department
+may grant an extension for leak detection deadlines or repairs upon the
+receipt of a written request from the owner or operator of the facility
+documenting the justification for the requested extension.
+
+ii.
+
+Combined VOC emissions from all sources including tanker truck loadouts at the
+facility less than 2.7 tons on a 12-month rolling basis. If the VOCs include HAPs,
+the HAP exemption criterion in this paragraph will be met. Compliance with this
+criterion is to be determined using any generally accepted model or calculation
+methodology. Combined HAP emissions [not including Polychlorinated
+Biphenyls (PCBs), Chromium (Cr), Mercury (Hg), Lead (Pb), Polycyclic Organic
+Matter (POM), Dioxins and Furans] at the facility less than 1000 lbs of a single
+HAP or one ton of a combination of HAPs in any consecutive 12-month period.
+The emission criteria do not include emissions from sources which are approved
+by the Department in plan approvals or general plan approvals/general operating
+permits at the facility.
+
+iii.
+
+Methane emissions from each individual source at the facility less than 200 tpy.
+
+iv.
+
+Non-road engines as defined in 40 CFR § 89.2.
+
+v.
+
+Internal combustion engines regardless of size, with combined NOx emissions
+less than 100 lbs/hr, 1000 lbs/day, 2.75 tons per ozone season and 6.6 tons per
+year on a 12-month rolling basis for all exempt engines at the site. The emission
+criteria do not include emissions from sources which are approved by the
+Department in plan approvals or the general plan approvals/general operating
+permits at the facility. For control of NOx emissions with a technology that uses
+ammonia or urea as a reagent, the exhaust ammonia slip is limited to 10 ppmvd or
+less corrected to 15% O2.
+
+275-2101-003 / July 1, 2021 / Page 12
+
+vi.
+
+The owner or operator that conducts pigging operations shall employ best
+management practices to minimize the liquids present in the pig receiver chamber
+and to minimize emissions from the pig receiver chamber including, but not
+limited to, installing liquids ramps, installing liquids drains, routing high-pressure
+chambers to a low-pressure line or vessel, using ball valve type chambers, or
+using multiple pig chambers. The selection of the appropriate best management
+practices must be documented.
+
+The owners and operators of sources not meeting the provisions of subsections a.- c. of this
+category may submit an RFD form to the Department. If the RFD is not approved by the
+Department, an application for authorization to use a general permit or a plan approval
+application is to be submitted to the Department, as appropriate.
+The owner or operator will also comply with all applicable state and federal requirements
+including notification, recordkeeping, and reporting requirements as specified in 40 CFR Part 60
+Subpart OOOO or Subpart OOOOa, as applicable.
+The owner or operator shall keep adequate records for five years, including but not limited to, a
+representative fractional analysis of the gas processed by the facility to demonstrate compliance
+with the exemption criteria using any generally accepted model or calculation methodology.
+39.
+
+Combustion units with a rated capacity of less than 10 million Btus per hour of heat input fueled
+by LPG/Propane or pipeline quality natural gas.
+
+40.
+
+Any source qualifying for exemption based on criteria contained in a general permit developed in
+accordance with the procedures described in §§ 127.601 through 127.642.
+
+41.
+
+Reserved. See Category No. 47.
+
+42.
+
+Facilities engaged primarily in collision repair and refinishing of automobiles and light-duty
+trucks.
+
+43.
+
+Reserved. See Category No 48.
+
+44.
+
+Any source granted an exemption by the Department through the execution of an RFD form.
+Section 127.14(a)(8) exemptions that require the submission of an RFD form.
+
+The following is a list of sources where the owner or operator of a source or a facility seeking an
+exemption must submit an RFD form. The Department may use the criteria specified in the category for
+review of the RFD form.
+45.
+
+Research and development activities as defined in 25 Pa. Code Chapter 121 with annual
+emission rates:
+i.
+ii.
+iii.
+iv.
+
+CO emissions greater than 10 tpy but less than or equal to 20 tpy
+Non-HAP PM10 emissions greater than 1.5 tpy but less than or equal to 3 tpy
+SO2 or non-HAP VOC emissions greater than 4 tpy but less than or equal to 8 tpy
+NOx emissions greater than 5 tpy but less than or equal to 10 tpy
+275-2101-003 / July 1, 2021 / Page 13
+
+v.
+
+Single HAP emissions greater than 1000 lb/yr but less than or equal to 1 tpy or Combined
+HAP emissions greater than one tpy but less than or equal to 2.5 tpy. The HAPs may not
+contain Polychlorinated Biphenyls (PCBs), Chromium (Cr), Mercury (Hg), Lead (Pb),
+Polycyclic Organic Matter (POM), Dioxins or Furans.
+
+46.
+
+Sources that exhaust to a filter/baghouse and have particulate loading (before control) below
+limits specified in Chapter 123.
+
+47.
+
+Powdered metal sintering furnaces using only organic lubricants equal to or less than 0.75%
+organic lubricant by weight. The furnace atmosphere must contain hydrogen (H2) at 3%
+volume or greater. The furnace must also maintain an operating flame curtain between the part
+entry and pre-heat zone. In the absence of an operating flame curtain, the furnace must operate
+an afterburner.
+A sintering furnace using only metal containing lubricants may be exempted if the furnace emits
+particulate matter not exceeding 0.15 lb. /hr. (determined by mass balance or stack tests). Note:
+for mass balance purposes, the following conversion factors are to be used:
+Zinc Stearate to Zinc Oxide particulate matter = 0.129,
+Lithium Stearate to Lithium Carbonate particulate matter = 0.15.
+The Department may approve alternate conversion factors provided a satisfactory written
+justification is submitted to the Department.
+The owner/operator of a sintering furnace exempt from permitting requirements must notify the
+Department within 30 days of the furnace installation. For sintering furnaces using metal
+containing lubricants, records must be maintained to demonstrate compliance with the particulate
+matter emission limit of 0.15 lb/hour for each product.
+Facilities that use both organic and/or metal-containing lubricants are exempted if the lubricants
+are less than 0.75% organic lubricant by weight; and, the furnace is designed and operated as
+described in the preceding paragraph and emits particulate matter at rates less than 0.15 lb./hr
+(determined by mass balance or stack tests).
+
+48.
+
+Remediation of gasoline or fuel oil contaminated soil, groundwater or surface water by
+equipment installed, maintained, and operated as provided herein. All air exhaust points are
+controlled by dual, activated carbon beds operating in series or a thermal/catalytic oxidizer. For
+activated carbon beds, monitoring (e.g. intrinsically safe ionization detector) at an appropriate
+frequency (e.g., one-fourth the predicted time to breakthrough of the first bed) must be
+performed at the inlet, between the first and second beds and after the second bed. If
+breakthrough of the first bed is detected, the first bed is removed, the second bed is shifted to
+the first position and the new bed is placed in the second position. Monitoring, operating, and
+maintenance records are maintained and available to the Department upon request. Equipment
+installed and operated as described above must be designed to achieve a minimum VOC control
+efficiency of 90% and shall emit actual annual emissions after control less than one tpy of VOC
+or HAPs.
+
+275-2101-003 / July 1, 2021 / Page 14
+
+49.
+
+Bulk material storage bins (not subject to NESHAPs, NSPS, PSD, NSR, or major source
+requirements) that are equipped with fabric collectors designed to have particulate matter
+emission rates that are less than 0.01 gr/dscf.
+Physical Changes Qualifying for Exemption Under Section 127.14(a)(9)
+
+In accordance with § 127.14(a)(9), the Department has determined that the following physical changes
+qualify for plan approval exemption if the change: a) would not violate the terms of an operating
+permit, the Air Pollution Control Act, the Clean Air Act or the regulations adopted under the acts;
+b) would not result in emission increases above the allowable limit in the operating permit; and c) would
+not result in an increased ambient air quality impact for an air contaminant. These changes may be
+made without notification or submission of an RFD to the Department.
+Caution: Do not make determinations regarding the following list without consideration of the
+preceding criteria.
+1.
+
+Changes in the supplier or formulation of similar raw materials, fuels, paints, and other coatings
+which do not affect emissions, and which meet all applicable standards and limitations.
+
+2.
+
+Changes in product formulations that do not affect air emissions.
+
+3.
+
+Changes that result in different speciation of pollutants but fall within permit limitations.
+
+4.
+
+Changes in the method of raw material addition.
+
+5.
+
+Changes in the method of product packaging.
+
+6.
+
+Changes in temperature, pressure, or other operating parameters that do not adversely affect air
+cleaning device performance or air emissions.
+
+7.
+
+Additions of or changes to sampling connections used exclusively to withdraw materials for
+testing and analysis including air contaminant detection and vent lines.
+
+8.
+
+Changes to paint drying oven length designed to alter curing time, so long as capture efficiencies
+of control equipment are not altered.
+
+9.
+
+Routine maintenance, inspection, and cleaning of storage tanks and process vessels or the closure
+or dismantling of a storage tank or process.
+
+10.
+
+Changing water sources to air cleaning devices when there is no effect on air cleaning device
+performance or air emissions.
+
+11.
+
+Moving a source from one location to another at the same facility with no change in operation or
+controls.
+
+12.
+
+Installation of an air-cleaning device when there is no obligation to install an air-cleaning device
+under any applicable requirement and will not be used to generate emission reduction credits.
+Owners and operators claiming this exemption must provide a 30-day prior written notification
+to DEP. This exemption does not apply to the installation of catalytic or reagent-based
+275-2101-003 / July 1, 2021 / Page 15
+
+reduction, thermal oxidation (including open flares), catalytic oxidation, scrubbing for SO2 or
+acid gas control, electrostatic precipitation, or any air-cleaning devices that increases air
+contaminant emissions.
+13.
+
+Repairing, replacing, upgrading, maintaining, or installing pollution control device
+instrumentation or component equipment including pumps, blowers, burners, filters, filter bags,
+devices for measuring pressure drop across an air cleaning device or a filter breakage detector for
+a baghouse, provided such changes would not violate an operating permit term or condition.
+
+14.
+
+Installing a fume hood or vent system for industrial hygiene purposes or in a laboratory.
+
+15.
+
+The temporary (no longer than six months) replacement of a source with a source of equal or less
+emission potential.
+
+16.
+
+Turbine core replacement is allowed for a turbine, provided the following conditions are met:
+a)
+
+The owner or operator shall provide thirty (30) days written notification to the
+Department of a planned turbine core replacement, or within seven (7) days after an
+unplanned replacement is commenced. The turbine core consists of the compressor,
+combustor, and power sections together.
+
+b)
+
+The written notice shall identify the location, the manufacturer, model, and serial number
+of the turbine, and the manufacturer, model, and serial number of the turbine core to be
+installed, or which has been installed, in the turbine and the air contaminant emission
+rates which will exist following the turbine core replacement, including NOX, CO and
+NMNEHC.
+
+c)
+
+The written notice shall also contain a certification from the owner or operator that any
+turbine core to be installed will be a lower emitting turbine core or, if the core will be
+replaced with an identical core, that a lower emitting core is not available. The notice
+shall indicate whether the turbine core has been manufactured by either the existing
+turbine manufacturer or other manufacturer. Existing turbine manufacturers shall include
+companies that maintain the turbine cores of the existing turbines at the facility. If the
+permittee decides to install a turbine core obtained from a manufacturer other than the
+existing turbine manufacturer, the notice shall contain a certification, signed by a
+“responsible official” as defined in 25 Pa. Code Section § 121.1, that the permittee has
+examined the turbine cores that are available from all such manufacturers and will install,
+or has installed, the lowest emitting turbine core available from any manufacturer.
+
+d)
+
+The core to be installed, or which has been installed, shall be an identical turbine core or
+lower emitting turbine core.
+
+e)
+
+The notice shall be accompanied by a vendor-provided guarantee of the achievable air
+contaminant emission rates of the new turbine core. If such a guarantee is not available,
+the notice shall include certification that the permittee attempted to obtain such guarantee
+and an explanation as to why the vendor will not provide such a guarantee.
+
+f)
+
+All certifications shall be signed by a responsible official and shall acknowledge that the
+certifying party is aware of the penalties for unsworn falsification to governmental
+275-2101-003 / July 1, 2021 / Page 16
+
+authorities as established under 18 Pa.C.S. § 4904. The certification shall also state that
+based on information and belief formed after reasonable inquiry, that the information in
+the notice is true, accurate and complete.
+g)
+
+A turbine core is a “Lower Emitting Turbine Core” if it is commercially available, has
+the same operating characteristics as the core being removed and the rate of NOX
+emissions, expressed as either parts per million by volume dry basis (“ppmvd”) or
+pounds per hour (“lb/h”) would be lower than the rates of emission achievable by any
+commercially available alternative turbine core when the respective turbine was
+operating at the same level of performance. If the horsepower, firing rate, and operating
+speed of the core being removed falls within the ranges of horsepower, firing rate, and
+operating speed for the Lower Emitting Turbine Core, the Lower Emitting Turbine Core
+is considered to have the same operating characteristics as the core being removed. A
+turbine core is an “Identical Turbine Core” if the rate of NOX emissions is no higher than
+the emission rates of the turbine core being replaced when the respective turbine is
+operating at the same level of performance.
+
+h)
+
+After a turbine core has been replaced, the permittee shall perform NOx, CO, and
+NMNEHC emissions testing for the respective turbine compressor engine(s) within
+one-hundred twenty (120) days of completing the replacement if no emissions testing is
+required by the operating permit. Stack testing shall be performed in accordance 25 Pa.
+Code Title 25, Chapter 139.
+
+i)
+
+The fixed capital cost of turbine core replacement shall not exceed 50% of the fixed
+capital cost that would be required to construct a comparable entirely new source; fixed
+capital cost means the capital needed to provide the depreciable components.
+
+In accordance with § 127.14(c), additional physical changes may be determined to be of minor
+significance and not subject to plan approval requirements through the following procedure:
+1.
+
+If the changes do not involve the installation of equipment, the changes may be made within
+7 calendar days of the Department’s receipt of a written request provided the Department does
+not request additional information or objects to the change within the 7-day period.
+
+2.
+
+If the changes involve the installation of equipment, the changes may be made within
+15 calendar days of the Department’s receipt of a written request provided the Department does
+not request additional information or objects to the change within the 15-day period.
+
+3.
+
+If the change would violate the terms of an operating permit, the plan approval exemption may
+be processed contemporaneously with the minor operating permit modification under the
+procedures described in § 127.462.
+Exemption Criteria for Operating Permits
+A Title V operating permit is needed by all facilities that have the potential to emit (PTE)
+exceeding the levels described in the definition of “Title V facility.” A state-only operating
+permit is needed for facilities that do not have a PTE which exceeds the Title V facility
+thresholds, but which has actual emissions equal to or exceeding the facility levels summarized
+below. An existing facility which does not have a PTE exceeding the Title V facility thresholds
+275-2101-003 / July 1, 2021 / Page 17
+
+and which does not have actual emissions exceeding the levels shown below is exempt from the
+requirement to obtain an operating permit. The exemption criteria for operating permits are not
+applicable to facilities which have sources that require plan approvals or should have required
+plan approvals. The Department may exempt a facility from operating permit requirements on a
+case-by-case basis as appropriate.
+State-Only Operating Permit Facility Exemptions*
+Pollutant
+CO
+NOx
+SOx
+PM10
+VOCs
+Single HAP
+Multiple HAPs
+*
+
+PTE<
+100 TPY
+100 TPY**
+100 TPY
+100 TPY
+50 TPY**
+10 TPY
+25 TPY
+
+Actual Emission <
+20 TPY
+10 TPY
+8 TPY
+3 TPY
+8 TPY
+1 TPY
+2.5 TPY
+
+Sources located in Allegheny and Philadelphia Counties may be subject to different
+permitting requirements. Please contact the Allegheny County Air Quality Program or the
+Philadelphia Air Management Services for information applicable to sources located in those
+counties.
+
+** 25 tpy for Bucks, Chester, Delaware, and Montgomery Counties.
+Consistent with the list and criteria established in this guidance document, sources that are
+exempt from plan approval should be included in a facility-wide operating permit application
+unless that source is also included in the listing of trivial activities as set forth below.
+When an RFD is issued for a source not included on the list of trivial activities, the source need
+not be brought into the facility-wide operating permit until the renewal of the operating permit;
+provided that all applicable requirements are met and there is no need to revise the facility-wide
+operating permit prior to renewal. In the case where physical changes of minor significance
+would violate the terms of a facility-wide operating permit, a plan approval exemption and a
+permit modification should be processed contemporaneously. All air contamination sources and
+air pollution control devices must be operated in a manner consistent with the manufacturer’s
+specifications and good engineering practice.
+Exempted Facility and Source Categories for Operating Permits
+Unless precluded by the CAA or the regulations thereunder, the following facilities and source
+categories are exempted from the operating permit requirements of § 127.402.
+1.
+
+Residential wood stoves.
+
+2.
+
+Asbestos demolition/renovation activities.
+
+3.
+
+Facilities engaged primarily in collision repair and refinishing of automobiles and light-duty
+trucks.
+275-2101-003 / July 1, 2021 / Page 18
+
+4.
+
+Retail gasoline stations.
+Trivial Activities
+
+For trivial activities, owners and operators are not required to submit notifications, RFD forms, or Plan
+Approval applications. In addition, these activities do not need to be described in a Title V or state-only
+operating permit application. Trivial activities are those located within a facility which do not create air
+pollution in significant amounts. By way of comparison, sources listed in the plan approval exemption
+list may require a notification or RFD to be submitted, and should be included in an operating permit
+application.
+1.
+
+Combustion emissions from propulsion of mobile air contamination sources. The term “mobile
+air contamination source” means an air contamination source, including, but not limited to,
+automobiles, trucks, tractors, buses, and other motor vehicles; railroad locomotives; ships, boats,
+and other waterborne craft. The term does not include a source mounted on a vehicle, whether
+the mounting is permanent or temporary, that is not used to supply power to the vehicle.
+Examples might include lawn mowers, tow, and lift vehicles, and the like.
+
+2.
+
+Air-conditioning units used for human comfort that do not have applicable requirements under
+Title VI of the CAA.
+
+3.
+
+Ventilating units used for human comfort that do not exhaust air pollutants into the ambient air
+from any manufacturing, industrial, or commercial process.
+
+4.
+
+Electric space heaters. Propane and gas-fired space heaters with a plant-wide capacity less than
+2.5 million Btus per hour heat input and which have not been subject to RACT requirements.
+
+5.
+
+Electrically heated furnaces, ovens and heaters, and other electrically operated equipment from
+which no emissions of air contaminants occur.
+
+6.
+
+Non-commercial food preparation.
+
+7.
+
+Use of office equipment and products, not including printers or businesses primarily involved in
+photographic reproduction.
+
+8.
+
+Any equipment, machine, or device from which emission of an air contaminant does not occur.
+
+9.
+
+Janitorial services and consumer use of janitorial products.
+
+10.
+
+Internal combustion engines used for landscaping purposes.
+
+11.
+
+Garbage compactors and waste barrels.
+
+12.
+
+Laundry activities, except for dry-cleaning and steam boilers.
+
+13.
+
+Bathroom/toilet vent emissions.
+
+14.
+
+Emergency (backup) electrical generators at residential locations.
+275-2101-003 / July 1, 2021 / Page 19
+
+15.
+
+Tobacco smoking rooms and areas.
+
+16.
+
+Blacksmith forges.
+
+17.
+
+Plant maintenance and upkeep activities (such as grounds-keeping, general repairs, cleaning,
+painting, welding, plumbing, re-tarring roofs, installing insulation, and paving parking lots)
+provided these activities are not conducted as part of a manufacturing process, not related to the
+source’s primary business activity, and not otherwise triggering a permit modification.i
+
+18.
+
+Repair or maintenance shop activities not related to the source’s primary business activity, not
+including emissions from surface coating or de-greasing (solvent metal cleaning) activities, and
+not otherwise triggering a permit modification.
+
+19.
+
+Reserved.
+
+20.
+
+Hand-held equipment for buffing, polishing, cutting, drilling, sawing, grinding, turning, or
+machining wood, metal, or plastic.
+
+21.
+
+Brazing, soldering, and welding equipment, and cutting torches related to maintenance and
+construction activities that do not result in emission of HAP metals.ii
+
+22.
+
+Air compressors and air-driven pneumatically operated equipment, including hand tools.
+
+23.
+
+Batteries and battery charging stations, except at battery manufacturing plants.
+
+24.
+
+Storage tanks, vessels, and containers holding or storing liquid substances that will not emit any
+VOC or HAP.
+
+25.
+
+Propane or natural gas tanks and containers.
+
+26.
+
+Storage tanks, reservoirs, and pumping and handling equipment of any size containing soaps,
+vegetable oil, grease, animal fat, and nonvolatile aqueous salt solutions, provided appropriate lids
+and covers are utilized.
+
+27.
+
+Equipment used to mix and package soaps, vegetable oil, grease, animal fat, and nonvolatile
+aqueous salt solutions, provided appropriate lids and covers are utilized.
+
+28.
+
+Drop hammers or hydraulic presses for forging or metalworking.
+
+29.
+
+Equipment used exclusively to slaughter animals, but not including other equipment at
+slaughterhouses, such as rendering cookers, boilers, heating plants, incinerators, and electrical
+power generating equipment.
+
+30.
+
+Vents from continuous emissions monitors and other analyzers.
+
+31.
+
+Reserved.
+
+32.
+
+Hand-held applicator equipment for hot melt adhesives with no VOC in the adhesive
+formulation.
+275-2101-003 / July 1, 2021 / Page 20
+
+33.
+
+Equipment used for surface coating, painting, dipping or spraying operations, except those that
+will emit PM, VOC, or HAP.
+
+34.
+
+CO2 lasers used only on metals and other materials that do not emit HAP in the process.
+
+35.
+
+Consumer use of paper trimmers/binders.
+
+36.
+
+Electric or steam-heated drying ovens and autoclaves, but not the emissions from the articles or
+substances being processed in the ovens or autoclaves or the boilers delivering the steam.
+
+37.
+
+Salt baths using nonvolatile salts that do not result in emissions of any regulated air pollutants.
+
+38.
+
+Laser trimmers using dust collection to prevent fugitive emissions.
+
+39.
+
+Reserved.
+
+40.
+
+Sources emitting only inert gases [such as argon (Ar), helium (He), krypton (Kr), neon (Ne), and
+xenon (Xe)], nitrogen (N2), oxygen (O2), carbon dioxide (CO2), or ethane (C2H6).
+
+41.
+
+Routine calibration and maintenance of laboratory equipment or other analytical instruments.
+
+42.
+
+Equipment used for quality control/assurance or inspection purposes, including sampling
+equipment used to withdraw materials for analysis.
+
+43.
+
+Hydraulic and hydrostatic testing equipment.
+
+44.
+
+Environmental chambers not using HAP gases.
+
+45.
+
+Shock chambers.
+
+46.
+
+Humidity chambers.
+
+47.
+
+Solar simulators.
+
+48.
+
+Fugitive emissions related to movement of passenger vehicles, provided the emissions are not
+counted for applicability purposes and any required fugitive dust control plan or its equivalent is
+submitted.
+
+49.
+
+Process water filtration systems and demineralizers, but not including air strippers.
+
+50.
+
+Demineralized water tanks and demineralizer vents.
+
+51.
+
+Boiler water treatment operations, not including cooling towers.
+
+52.
+
+Oxygen scavenging (de-aeration) of water.
+
+53.
+
+Potable water treatment systems.
+275-2101-003 / July 1, 2021 / Page 21
+
+54.
+
+Ozone generators.
+
+55.
+
+Fire suppression systems and activities involved in fire protection training, first aid or emergency
+medical training.
+
+56.
+
+Emergency road flares.
+
+57.
+
+Steam vents and safety relief valves.
+
+58.
+
+Steam leaks.
+
+59.
+
+Steam cleaning operations.
+
+60.
+
+Steam sterilizers.
+
+61.
+
+Reserved.
+
+62.
+
+Typesetting, image-setting, and plate-making equipment used in the preparatory phase of
+printing.
+
+If an applicant conducts an activity that is believed trivial but not covered by this listing, the applicant
+may list the activity in an operating permit application and provide a written justification for listing the
+activity as trivial. If the Department accepts the applicant’s justification, no further information will be
+required on the activity. If the Department rejects the justification, additional information must be
+included in an operating permit application submitted to the Department.
+i
+
+Cleaning and painting activities qualify if they are not subject to VOC or HAP control requirements. Asphalt batch plant
+owners/operators must still get a permit.
+ii
+Brazing, soldering, and welding equipment, and cutting torches related to manufacturing and construction activities that
+emit HAP metals are more appropriate for treatment as insignificant activities based on size or production level thresholds.
+Brazing, soldering, welding, and cutting torches directly related to plant maintenance and upkeep and repair or maintenance
+shop activities that emit HAP metals are treated as trivial and listed separately in this appendix.
+
+275-2101-003 / July 1, 2021 / Page 22
+
+

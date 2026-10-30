@@ -1,0 +1,178 @@
+Oil & Gas - Air Quality - North Dakota DEQ 
+Skip to main content 
+Website Accessibility Statement 
+We are committed to ensuring our website and web content complies with the Americans 
+with Disabilities Act (ADA) and applicable web accessibility standards. 
+If you have difficulty using our site or need an accommodation, please 
+contact us at deq@nd.gov . To learn more, visit our Accessibility page . 
+<table width="100%" border="0" cellpadding="0" border-collapse: collapse"> 
+Air Quality
+Air Quality
+Search: 
+Toggle left popout navigation 
+Toggle top navigation 
+DEQ Home 
+Air Quality 
+Chemistry 
+Municipal Facilities 
+Waste Management 
+Water Quality 
+Office of Director 
+Home 
+AQ 
+Oil & Gas
+DEQ Resources 
+Electronic Reporting & Permit Systems 
+Report a Spill 
+Environmental Topics A-Z 
+Risk Based Corrective Action 
+Public Comments, Meetings &amp Notices 
+Calendar and Events 
+Rules and Regulations 
+Forms 
+Publications 
+Press Releases 
+Open Records 
+Legislative Testimony 
+Employment Opportunities 
+Nondiscrimination Program 
+Environmental Audits 
+Environmental Review Advisory Council 
+Search EHS for 
+Go! 
+Division of Air Quality Resources
+Air Quality Home 
+CERIS-ND 
+Permit Portal 
+Fees 
+Forms 
+Rules, Regulations & Policies 
+Public Comments & Notices 
+Data & Maps 
+Training 
+AQ Publications 
+About DoAQ 
+Important Notice: 
+On July 1, 2025, the Department began implementation of a General Permit 
+for Oil and Gas Production Facilities (GP-OG v1.0). This resulted in a change to the current Oil and Gas Well Registration process, which is outlined in the North Dakota Air Pollution Control 
+General Permit Application Guidance for Oil and Gas Production Facilities. 
+Oil & Gas
+The Division registers upstream well heads, and permits midstream and downstream oil and gas facilities. Information specific to the air pollution rules relative to oil and gas in North Dakota may be found here.
+Questions about well inspections may be addressed to Matt Bingert at 701-328-5192 or ( MBingert@nd.gov ). 
+Questions about well registration may be addressed to Wyatt Peterson at 701-328-5184 or ( Wyatt.Peterson@nd.gov ). 
+Questions about NSPS OOOO/OOOOa reporting may be addressed to Russell Martin at 701-328-4639 or ( RSMartin@nd.gov ).
+Applicability 
+Control of emissions from oil and gas well production facilities are outlined in 
+Chapter 33.1-15-20 of the North Dakota Air Pollution Control Rules. The provisions of this chapter apply to any oil or gas well production facility. This chapter includes requirements for control of production facility emissions, registration, reporting and permitting requirements. 
+Midstream and Upstream facilities are permitted under the Construction Permit and Operating Permit programs.
+Upstream 
+An oil and gas production facility means all equipment, wells, flow lines, separators, treaters, tanks, flares, gathering lines, and auxiliary non transportation-related equipment used in the exploration, development, or subsequent production or handling of oil and gas from an oil or gas well or wells which are located on one or more contiguous or adjacent surface properties, and are under the control of the same person (or persons under common control) as defined in Subdivision 33.1-15-20-01.2.n of the NDAC .
+For all oil and gas upstream facilities : 
+No later than two days prior to any planned well completion activities, the owner / operator will submit an “Air Oil & Gas General Permit Application / Well Registration” (GP-OG Application) through CERIS-ND. 
+Guidance 
+Once the GP-OG is obtained, the owner / operator must notify the Department within 30 days following the startup of production of the facility by submitting the “Air Oil & Gas Startup of Production Notification” in CERIS-ND. 
+Guidance 
+To fulfill the final requirement of the application process, the permittee shall submit the PTE Report to the Department within 90 days following startup of production of the facility. 
+Guidance 
+Oil & Gas Upstream Wells 
+Midstream 
+Midstream facilities are those which transport or store oil and gas from upstream facilities. These include tank batteries located off of well pads, pipelines, compressor stations, as well as truck and rail load-out stations. 
+Oil & Gas Midstream 
+Oil & Gas Documents and Bakken Guidance 
+Due to the unique properties of the Bakken, Three Forks, and Sanish formations, the Department has developed special guidelines and regulations related to the air quality requirements of facilities producing and processing oil and gas from these formations. Many of these documents apply to other non-Bakken, Three Forks, or Sanish wells.
+Click to Expand 
+Document Name
+Rev. Date
+Doc Type
+Testing Requirements for Non-Emergency Engines (RICE) Located at Minor Source Oil and Gas Facilities 
+09 June 2021 
+Policy
+High Efficiency Program Specifically Applies to Flares (Steffes, LLC) For Midstream Facilities
+15 March 2021 
+Oil &Gas
+ND Air Pollution Control General Permit Application Guidance for Oil and Gas Production Facilities
+01 July 2025 
+Oil &Gas
+High Efficiency Program Specifically Applies to Flares (Steffes, LLC) For Upstream Production Facilities
+15 March 2021 
+Oil &Gas
+High Efficiency Program Specifically Applies to Combustors For Upstream Production Facilities
+18 March 2021 
+Oil &Gas
+High Efficiency Program Specifically Applies to Flares (Steffes, LLC) For Upstream Production Facilities
+13 January 2022 
+Oil &Gas
+Oil and Gas Production General Permit applications must be submitted through CERIS-ND for new and modified Oil and Gas Production Sites.
+Access CERIS-ND 
+New Source Performance Standards (NSPS) OOOO and OOOOa 
+The Department has completed rulemaking to take primacy of NSPS OOOO and OOOOa (Quad-O/Oa) as directed by House Bill 1024 (HB1024 from the 66th Assembly). For information about the Department's implementation of these Subparts and how to submit Quad-O/Oa reports and notifications to the Department see our Quad-O/Oa page (button below). 
+Quad-O/Oa Reporting 
+North Dakota Industrial Commission (NDIC) 
+The Division works in conjunction with the North Dakota Industrial Commission (NDIC) . The Division of Air Quality registers wells using the NDIC issued well number—wells will need to be registered with the Division of Air Quality independently of the NDIC. Well information such as location, name, number, and field can be looked up using the NDIC's well search . 
+Flaring in Oil & Gas 
+A minimum of a pit flare with 90% Destruction and Removal Efficiency (DRE) is required for well head and tank emission control on all new wells on the first date of production to ensure adequate control. 
+Evaluations of emissions will direct what level of control is needed next. More efficient pollution control is required for tanks located on oil and gas production sites where the Volatile Organic Compounds (VOCs) from tanks are greater than 20 tons per year; such controls must be in place and operational within 60 days of first production . 
+Flare Requirements
+All flares must adhere to NDAC 33.1-15-07-02 – Requirements for organic compounds gas disposal, NDAC 33.1-15-03-03.1 — Restrictions Applicable to Flares, NDAC 33.1-15-20 – Control of Emissions from Oil and Gas Well Production Facilities, and 40 CFR 60.18 .
+Must be equipped and operated with an automatic ignitor or a continuous burning pilot (i.e. the flare must be operational and capable of proper combustion at all times).
+Visible emissions must not exceed 20% opacity except that a maximum of 60% opacity is permissible for not more than one six-minute period per hour.
+NDIC Flare Reduction Rule
+North Dakota Department of Environmental Quality, Division of Air Quality is responsible for flaring regulations associated with air quality and the control of pollutants. This includes when a flare must be used at a well site, the type of flare that is permissible, and proper operation of said flare. The North Dakota Industrial Commission (NDIC) has jurisdiction over the volume of gas flared at a well site in regards to conserving mineral resources. For more information about NDIC's flaring policy see Case No. 22058/Order No. 24665 . 
+JT Skids for Liquid Knockouts at Oil & Gas Production Sites
+In an effort to reduce flaring per NDIC rule, many well pads are using JT skid/liquids knockouts on oil and gas production sites that operate without a sales gas line. JT skid/liquids knockouts collect and condense some of the Volatile Organic Chemicals (VOCs), such as methane, out of tanks and from flare systems. This condensed gas is then trucked out and used as fuel. This effort to reduce flaring has a co-benefit to air quality.
+Storage Vessel Guidance (Upstream) 
+For sources that have Bakken Pool Guidance registrations on file with the Department, no additional registration is required to demonstrate that emissions per tank are less than 6 tons per year of VOCs. If facility tank emissions as calculated under New Source Performance Standard (NSPS) Subpart OOOO (often called Quad-O) 40 CFR 60 Subpart OOOO are less than 6 tons per year of VOCs, operators are required to keep records of these emission calculations on site, and the records must be made available to the Department upon request.
+Note: As of July 1, 2020 North Dakota Department of Environmental Quality, is the implementing and enforcement agency for Subpart OOOO/OOOOa, facilities that are subject to Subpart OOOO/OOOOa may have record-keeping and reporting requirements to the Department, for instructions on how to submit reporting and notifications see our Quad-O/Oa Page .
+Storage Vessels at Non-Production Facilities (Midstream) 
+The Department has developed a storage vessel guidance to allow for establishment of emission limits for storage vessels of oil, condensate and produced water at non-production facilities to restrict emissions from each storage vessel to less than 6 tons per year of volatile organic compounds (VOCs). 
+Storage Vessels at Oil & Gas Non-Production Facilities (FAQ) 
+High Efficiency Program 
+The end goal of the High Efficiency Program is to reduce fugitive emissions, increase control efficiency, and improve North Dakota’s air quality. The High Efficiency Program is an optional flare/combustor approval program within the Division of Air Quality. The program requires collaboration between control device manufacturers, industry leaders, facility operators, and the Department. 
+The High Efficiency Program takes a top-down approach to addressing emissions from oil and gas facilities through the following steps: 
+Flare and combustor manufacturers who want to certify their products within the High Efficiency Program must perform rigorous testing, which is reviewed independently by the Department. 
+Companies operating oil and gas facilities work with the Department to negotiate an agreement to ensure that both the approved control devices and the facility itself continuously reduce emissions through enhanced inspections monitoring, maintenance, and air pollution control equipment. 
+The Department monitors all aspects of the program to ensure that emissions are being maintained within the standards of the High Efficiency Program.
+The Department must approve the use of flares or combustors within the High Efficiency Program BEFORE any alternative emission factors can be used . 
+THE HIGH EFFICIENCY PROGRAM DOES NOT ALLOW RETROACTIVE AUTHORIZATIONS. 
+For more information on the high efficiency program see our High Efficiency Program page.
+Other Resources 
+For other oil and gas related information please see the following government and industry sites:
+North Dakota Department of Environmental Quality Incident Reports 
+EPA's Oil and Natural Gas Air Pollution Standards 
+EPA Regulatory Information By Sector–Oil & Gas Extraction Sector (NAICS 211) 
+North Dakota Industrial Commission, Department of Mineral Resources, Oil & Gas Division 
+North Dakota Association of Oil & Gas Producing Counties 
+North Dakota Petroleum Council 
+American Petroleum Institute 
+Oil Well Flare
+Flaring of gas burns Volatile Organic Compounds (VOCs) and reduces ozone (O 3 ) emissions.
+VOCs Venting
+Open thief hatches vent VOCs into the atmosphere.
+Well in the Morning
+A well pad in the morning fog.
+FLIR Camera 
+Infrared color gradient image of VOCs being emitted from a tank.
+&larr; AQ Home 
+Upstream &rarr; 
+Last Updated: 01/30/2026 
+This web page may contain legacy documents — materials published prior to April 24, 2026 — available here for reference and research. These older documents may not be fully accessible for all users or compatible with assistive technologies. We are committed to providing equal access — if you encounter any barriers opening, reading, or using any document on this page, please contact us at deq@nd.gov and we will provide the information in an alternative format.
+Department of Environmental Quality 
+4201 Normandy Street
+Bismarck, ND 58503-1324
+P: 
+701-328-5150
+F: 
+701-328-5200
+E: deq@nd.gov 
+Contact Us 
+About Us 
+Accessibility 
+Jobs 
+FAQs 
+Local Public Health Units 
+Intranet 
+Copyright © 2026 
+Icon fonts generated by flaticon.com under Creative Commons BY . The authors are: Freepik , OCHA , Icomoon , Stephen Hutchings, Rami McMin, Yannick , SimpleIcon , TutsPlus , Vaadin , GraphBerry , Daniel Bruce , Vectorgraphit, Ema Dimitrova , Amit Jakhu, Tintins, and Plainicon. 
+Older documents are available here for reference and recordkeeping. They may not meet current ADA accessibility standards. 
+To request an accessible version, please email 
+deq@nd.gov .

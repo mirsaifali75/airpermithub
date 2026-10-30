@@ -1,0 +1,2574 @@
+OKLAHOMA DEPARTMENT OF ENVIRONMENTAL QUALITY
+AIR QUALITY DIVISION
+MEMORANDUM
+
+December 1, 2023
+
+TO:
+
+Kendal Stegmann, Division Director
+
+THROUGH:
+
+Phillip Fielder, P.E., Chief Engineer
+
+THROUGH:
+
+Travis Couch, Environmental Attorney, Legal Counsel
+
+THROUGH:
+
+Rick Groshong, Environmental Manager, Enforcement and Compliance
+
+FROM:
+
+Lee Warden, P.E., Permits and Engineering Group Manager
+Richard Kienlen, P.E., Engineering Manager, New Source Permits Section
+Phil Martin, P.E., Engineering Manager, Existing Source Permits Section
+Eric L. Milligan, P.E., Engineering Manager, Engineering Section
+
+SUBJECT:
+
+Minor Source General Permit for Oil and Gas Facilities (GP-OGF)
+2022 GP-OGF (Version 2) Background Document
+
+2022 GP-OGF (Version 2)
+
+Table of Contents
+
+OKLAHOMA DEPARTMENT OF ENVIRONMENTAL QUALITY ......................................... 1
+SECTION I. INTRODUCTION ..................................................................................................... 2
+SECTION II. ELIGIBILITY .......................................................................................................... 4
+A. INELIGIBLE FACILITIES .................................................................................................... 5
+B. FACILITIES INELIGIBLE FOR AN AUTHORIZATION TO CONSTRUCT ................... 5
+SECTION III. DESCRIPTION ....................................................................................................... 7
+A. EQUIPMENT ......................................................................................................................... 7
+Storage Vessels and Effluent Water Separators ....................................................................... 7
+VOC Loading Operations......................................................................................................... 7
+Combustion Equipment ............................................................................................................ 7
+Glycol Dehydration Units ........................................................................................................ 8
+Amine Units ............................................................................................................................. 8
+Fugitive Emission Sources ....................................................................................................... 8
+De Minimis Facilities ............................................................................................................... 8
+B. LIQUIDS STORED ................................................................................................................ 9
+Crude Oil/Condensate/Produced Water ................................................................................... 9
+Refined Petroleum Products ................................................................................................... 10
+Ethylene Glycols .................................................................................................................... 10
+Methanol................................................................................................................................. 10
+SECTION IV. PERMIT STRUCTURE ....................................................................................... 10
+SECTION V. EMISSION LIMITATIONS AND CALCULATION METHODS FOR
+COMPLIANCE WITH THE CAP................................................................................................ 12
+A. FACILITY-WIDE EMISSIONS CAP ................................................................................. 12
+B. STORAGE TANKS AND EFFLUENT WATER SEPARATORS ..................................... 13
+C. VOC LOADING OPERATIONS ......................................................................................... 14
+D. COMBUSTION EQUIPMENT ............................................................................................ 14
+Engines ................................................................................................................................... 14
+Boilers and Heaters ................................................................................................................ 15
+Flares or enclosed combustion devices .................................................................................. 16
+E. GLYCOL DEHYDRATION UNIT ...................................................................................... 16
+F. AMINE UNIT ....................................................................................................................... 17
+G. FUGITIVE EMISSIONS SOURCE ..................................................................................... 17
+H. OTHER PROCESS EQUIPMENT....................................................................................... 18
+I. MAINTENANCE, STARTUP AND SHUTDOWN (MSS)................................................. 18
+SECTION VI. CONTROL EFFICIENCIES AND MONITORING REQUIREMENTS ............ 18
+SECTION VII. APPLICABLE REGULATIONS ........................................................................ 22
+A. Oklahoma Air Pollution Control .......................................................................................... 22
+Non-applicable Oklahoma Regulations ................................................................................. 29
+B. Federal Regulations .............................................................................................................. 30
+SECTION VIII. DEFINITIONS ................................................................................................... 32
+SECTION IX. TIER CLASSIFICATION AND PUBLIC REVIEW ........................................... 34
+SECTION X. SUMMARY ........................................................................................................... 34
+APPENDIX A ............................................................................................................................. A-1
+
+2022 GP-OGF – Memorandum (Version 2)
+
+2
+
+SECTION I. INTRODUCTION
+The GP-OGF was replaced on July 1, 2022, (2022 GP-OGF). After initial implementation, it was
+determined that there were certain issues/aspects that needed to be addressed. Therefore, specific
+revisions were made to the 2022 GP-OGF and these revisions supersede any conditions in the 2022
+GP-OGF. The following is a list of the changes and does not include typos and other administrative
+changes:
+Changes to Appendix A (Construction, Operation, Maintenance, and Monitoring
+Requirements For Control Devices):
+-
+
+NSCR/Oxidation Catalyst maximum allowed control efficiency was removed.
+o The specific maximum allowed control efficiencies for NSCR/Oxidation Catalyst
+listed were removed to allow flexibility for applicants who may have reduction
+efficiencies greater than the values indicated based on engine manufacturer data and
+control device manufacture guarantees. The applicants must provide the engine
+manufacturer data and control device manufacture guarantees to support the specific
+control efficiencies needed to meet the emission limits of the engines provided in the
+application.
+o The wording related to providing the manufacture guarantees was changed from
+“stated” to “provided” to represent the intent of the GP-OGF for the applicant to be
+required to provide the control device specifications in the application.
+
+-
+
+Removed from the Requirements Section for NSCR/Oxidation Catalyst the requirement to
+document the O2 concentration and changed the wording in the Requirements Section from
+NOX and CO “concentrations” to “emissions”. The requirement to measure the diluent [O2]
+gas concentration to determine emissions is addressed in the Portable Analyzer Guidance.
+The requirement in the GP-OGF is to determine compliance with the NOX and CO emission
+limits provided in the application.
+
+-
+
+Requirements for Glycol Dehydration Units and Amine Units.
+o Added wording to the Condenser Only Requirements Section for exemption from the
+requirement to install a temperature sensor and monitor the condenser outlet
+temperature if the applicant relies on an outlet condenser temperature equal to or greater
+than 100 °F. This is based on the average ambient temperature in Oklahoma of 70 °F
+plus 30 °F which a well-designed commercially available condenser is expected to be
+able to achieve.
+o Moved the exemption from the requirement to install a temperature sensor and
+monitoring the condenser outlet temperature if the uncondensed vapors are burned in a
+combustion device from the Condenser Only Requirements Section to the Condenser
+Plus Combustion Device Section. The Condenser Plus Combustion Device Section is
+the correct location for this condition.
+o Added wording that allowed use of a flare or an enclosed combustion device which is
+maintained and operated per manufacturer’s specifications to the Condenser Plus
+Combustion Device Section. Enclosed combustion devices were previously not
+
+2022 GP-OGF – Memorandum (Version 2)
+
+3
+
+specifically mentioned in the section and this change incorporated the allowance of use
+of these types of combustion devices.
+-
+
+Flares or enclosed combustion devices Requirements Section:
+o Added “enclosed combustion devices” to second bullet to clarify that the requirement
+was applicable to both flares and enclosed combustion devices.
+o Added “automatic ignition systems” to the third bullet as a separate compliance
+requirement for flares equipped with automatic ignition systems.
+
+-
+
+Clarify that only one amine unit can be present to meet the GP modeling criteria for H2S
+compliance.
+
+-
+
+Reworded paragraph Part 1, Section III.C.1 of the 2022 GP-OGF to reflect fuel-burning
+equipment firing low sulfur diesel is not prohibited by the GP-OGF.
+
+This General Permit has been developed to authorize construction and/or operation of facilities
+and limit potential emissions to less than 100 tons/year (TPY) of a regulated pollutant in an
+attainment area, less than 10 TPY of any single hazardous air pollutant (HAP), and less than 25
+TPY of total HAPs. Facilities can meet the emissions limits by either operating as a minor facility,
+by limiting the emissions through controls, and/or documenting actual emissions are below the
+permit limits. In all cases, the permit provides for enforceable limits by requiring appropriate
+monitoring, recordkeeping, and emission calculations.
+In addition, this permit will distinguish synthetic minor facilities with actual emissions below 80
+TPY and those facilities with actual emissions equal to or above 80 TPY but below 100 TPY. The
+applicant can request limits of less than 80 TPY for NOX, CO, PM10, PM2.5, VOC and SO2.
+The permit is limited to air pollutant emitting sources located at Oil and Gas Facilities (OGF) that
+are designed and operated for the production, gathering, processing, storage, and/or transportation
+of crude oil, refined petroleum products, natural gas, and natural gas liquids (NGL), including
+condensate. These facilities are typically categorized under the following SIC and NAICS codes:
+SIC Code
+1311
+1321
+4612
+4613
+4922
+5171
+
+NAICS Code
+211120
+211130
+486110
+486910
+486210
+424710
+
+5172
+
+424720
+
+Industry
+Crude Petroleum Extraction
+Natural Gas Liquids
+Pipeline Transportation of Crude Oil
+Pipeline Transportation of Refined Petroleum Products
+Pipeline Transportation of Natural Gas
+Petroleum Bulk Stations and Terminals
+Petroleum and Petroleum Products Wholesalers
+(except Bulk Stations and Terminals)
+
+Facilities with the same or substantially similar operations and activities, which emit the same
+types of regulated air pollutants, and which are subject to the same or similar standards, limitations,
+operating requirements, and monitoring requirements can be covered under this general permit.
+Permits issued to these facilities must address all air emissions from all sources at these facilities.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+4
+
+Thus, this general permit is designed to include those sources typically expected to be present at
+OGF, including storage tanks, VOC Loading Operations, combustion equipment (engines, heaters,
+boilers, and flares), glycol dehydration units, amine units, fugitive emission sources, and
+equipment and activities in De minimis facilities, as defined in OAC 252:100 Appendix H.
+Facilities with other sources of air emissions are not eligible for coverage under this permit, unless
+a minor source construction permit is obtained and the requirements of that permit are incorporated
+into an Authorization to Operate. For instance, some OGF may have amine units that require
+applicability review, compliance demonstrations, and/or specific conditions for compliance with
+OAC 252:100-31 and New Source Performance Standards (NSPS) Subpart LLL.
+Table I-1 shows the approximate number of facilities located in Oklahoma that are potentially
+eligible for coverage under this permit.
+
+SIC
+Code
+1311
+1321
+4612
+4613
+4922
+5171
+5172
+
+TABLE I-1. OKLAHOMA MINOR OIL and GAS FACILITIES
+Facilities
+Facilities
+Reporting Reporting
+Industry
+to AQD
+to AQD
+Inventory Inventory
+(2003)
+(2011)
+Crude Petroleum and Natural Gas Extraction
+232
+1,663
+Natural Gas Liquids
+21
+86
+Pipeline Transportation of Crude Oil
+73
+92
+Pipeline Transportation of Refined Petroleum
+5
+16
+Products
+Pipeline Transportation of Natural Gas
+269
+333
+Petroleum Bulk Stations and Terminals
+11
+14
+Petroleum and Petroleum Products Wholesalers
+8
+12
+(except Bulk Stations and Terminals)
+Totals
+619
+2,216
+
+Facilities
+Reporting
+to AQD
+Inventory
+(2018)
+8,696
+50
+118
+10
+259
+16
+6
+9,155
+
+SECTION II. ELIGIBILITY
+In order to provide the broadest coverage to applicants under this permit and to assure compliance
+with all applicable requirements, eligibility must be restricted to those minor facilities whose
+emission units are addressed in this permit. The permit has been developed for facilities designed
+and operated for the production, gathering, processing, storage, or transportation of crude oil,
+refined petroleum products, natural gas, and natural gas liquids (NGL), including condensate.
+Emission units identified as typically present at such a facility, and addressed in the permit, include
+storage tanks, VOC Loading Operations, engines and other combustion equipment, glycol
+dehydration units, amine units, and fugitive equipment components. In addition, those emission
+units identified as a De Minimis Facility, as defined in OAC 252:100 Appendix H, are also
+recognized as typically present at such a facility and are addressed in the permit. Any other
+emissions unit not addressed in this permit makes that facility ineligible for coverage under this
+permit.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+5
+
+A. INELIGIBLE FACILITIES
+The following facilities are not eligible for coverage under this permit.
+1.
+
+Facilities for which material facts were misrepresented or omitted from the application and
+the applicant knew or should have known of such misrepresentation or omission.
+
+2.
+
+Facilities with emissions units that are subject to:
+a.
+b.
+
+OAC 252:100-8 (Permits for Part 70 Sources)
+OAC 252:100-17 (Incinerators)
+
+B. FACILITIES INELIGIBLE FOR AN AUTHORIZATION TO CONSTRUCT
+The following facilities are not eligible to obtain an Authorization to Construct under this permit,
+but may be eligible for coverage under an Authorization to Operate if they obtain a minor source
+construction permit and all relevant requirements and limitations in that permit are incorporated
+into the Authorization to Operate.
+1.
+
+Facilities with combustion equipment fired with fuels liquid petroleum gas (LPG) or
+natural gas with a maximum total sulfur content greater than 162 ppmv; or diesel fuel or
+No. 2 fuel oil with a total sulfur content greater than 0.05% by weight.
+
+2.
+
+Stationary reciprocating engines burning diesel fuel with a total sulfur content greater than
+15 ppm by weight.
+
+3.
+
+Facilities storing/distributing crude oil that cannot demonstrate a maximum H2S
+concentration of 6 ppmw for all categories of crude oil stored at the facility. Such
+demonstration must be documented using the methods outlined in Appendix B of the 2022
+GP-OGF.
+
+4.
+
+Facilities that use incinerators, regenerative or non-regenerative carbon absorbers, or
+catalytic systems to control emissions of H2S.
+
+5.
+
+Facilities with a VOC loading facility subject to OAC 252:100-37-16(a) or OAC 252:10039-41.
+
+6.
+
+Facilities with glycol dehydration units that process natural gas with an H2S content greater
+than 4 ppmv.
+
+7.
+
+Facilities with more than 1 amine unit.
+
+8.
+
+Facilities with amine units under the following conditions: (1) that process natural gas with
+an H2S content greater than 4 ppmv; or (2) that do not control emissions from the rich
+amine flash tank and amine regeneration vent. To be considered controlled, the rich amine
+flash tank can either be routed to the inlet, fuel gas system, or a flare. The amine
+
+2022 GP-OGF – Memorandum (Version 2)
+
+6
+
+regeneration still vent must be routed to a flare meeting the requirements of OAC 252:10031-26. Facilities with amine units that process natural gas with an H2S content greater than
+4 ppmv, or that do not control emissions from the rich amine flash tank and amine
+regeneration vent, would require a site-specific determination of compliance with the H2S
+ambient concentration limit of OAC 252:100-31-7.
+9.
+
+Facilities with amine units that process more than 0.1276 long ton per day (LTPD) of
+sulfur. Facilities with amine units without sulfur recovery that process more than 0.1276
+LTPD of sulfur would be a major source for SO2.
+
+10.
+
+Facilities with “new fuel-burning equipment,” as that term is defined in OAC 252:100-33,
+with a rated heat input of 50 MMBtu/hr or greater (excluding reciprocating engines).
+
+11.
+
+Facilities with selective catalytic reduction (SCR) and selective non-catalytic reduction
+(SNCR) control systems on any engine or other combustion source. These are control
+systems that require injection of ammonia, and do not include 3-way catalyst (NSCR) or
+oxidation catalyst.
+
+12.
+
+Facilities that require a specific limitation(s) not otherwise addressed in order to maintain
+compliance with the cap.
+
+13.
+
+Facilities located in an area that is federally designated as non-attainment.
+
+14.
+
+Facilities that request an Alternative Emissions Reduction Authorization under OAC
+252:100-11.
+
+15.
+
+Facilities requesting control efficiencies above the levels allowed in Section VI- Control
+Efficiencies and Monitoring Requirements.
+
+16.
+
+Facilities requesting unit specific limits not allowed or required under the general permit.
+
+Conditions established in an individual minor source construction permit and incorporated into an
+Authorization to Operate may supersede conditions established in the GP-OGF, as long as the
+requirements that are incorporated are in compliance with all currently applicable rules and
+regulations.
+The DEQ may not issue a permit authorization sought by an applicant that has not paid all money
+owed to the DEQ or is not in substantial compliance with the Environmental Quality Code, rules
+of the Board, and/or the terms of any existing DEQ permits and orders. The DEQ may impose
+specific conditions on the applicant to assure compliance and/or a separate schedule that the DEQ
+considers necessary to achieve required compliance.
+The DEQ may refuse issuance of an Authorization to an applicant even though the facility meets
+the above eligibility criteria. In such a case, DEQ will provide to the facility a written explanation
+providing the reason(s) for the decision.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+7
+
+SECTION III. DESCRIPTION
+A. EQUIPMENT
+OGF typically have the following emission sources in common: storage tanks, VOC Loading
+Operations, combustion equipment (engines, heaters, boilers, and flares), glycol dehydration units,
+amine units, fugitive emission sources (pump seals, compressor seals, valves, flanges, connectors,
+pneumatic devices, and other components), and De Minimis Facilities as defined in OAC 252:100,
+Appendix H.
+Storage Vessels and Effluent Water Separators
+Crude oil production sites use tanks to store the produced crude oil prior to truck loading or
+pumping to pipelines. Crude oil trucking stations use tanks to store crude oil delivered from tank
+trucks, prior to the crude oil being pumped into pipelines. Breakout tanks are used at pipeline pump
+stations for surge capacity, sorting, measuring, rerouting, and temporary storage. Compressor
+stations and natural gas plants use tanks to store slop oil, oily water, and/or condensate prior to
+truck loading or unloading. Bulk stations and wholesale facilities store refined petroleum products
+prior to truck loading for delivery to retail stations or customers. Storage tanks emit VOC due to
+working and breathing losses and flash emissions from volatile liquids.
+Effluent water separator is any vessel in which any VOC floating on, entrained in, or contained in
+water entering the vessel is physically separated and removed from the water prior to discharge of
+the water from the vessel. These units are not designed for long terms storage but are designed for
+the VOC/wastewater mixture to flow through the unit.
+VOC Loading Operations
+VOC is emitted from tank trucks being loaded (typically) or unloaded at a facility. The transferred
+liquids displace vapors present in the truck tank if loading or the storage vessel if unloading. These
+emissions may consist of vapors remaining from a previous cargo, or may be flashed from the
+liquid being loaded, or a combination of both. A controlled system may include “vapor balancing”
+whereby the displaced vapors are returned to the unloading truck tank, or the vapors from loading
+a truck tank may be routed back to the storage tank and then either recycled by compression back
+to the process or vented to a combustion device.
+Combustion Equipment
+The vast majority of OGF have one or more engine driven compressors, although large pumps at
+petroleum liquid storage facilities are typically driven by electric motors. Small heaters, such as
+crude oil heater treaters, small boilers, and glycol or molecular sieve regenerator heaters exist at
+many facilities. Flares, incinerators, and thermal oxidizers may also be present at some facilities.
+All combustion sources emit regulated air pollutants NOX, CO, VOC, SO2, and PM10.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+8
+
+Glycol Dehydration Units
+Both ethylene glycol (EG) and, more typically, triethylene glycol (TEG) dehydration units are
+used at many minor OGF. These units emit VOC and HAP (benzene, toluene, ethylbenzene,
+xylene, and n-hexane) from rich glycol flash tank vents and glycol regenerator still vents.
+Amine Units
+Amine units are used to remove hydrogen sulfide (H2S) and CO2 (acid gases) from natural gas or
+natural gas liquids. These units emit H2S, CO2, VOC, and HAPs from rich amine flash tank vents
+and amine regeneration still vents.
+Fugitive Emission Sources
+Equipment components such as pump seals, compressor seals, valves, flanges, connectors, openended lines, pneumatic control devices, and other components are the source of fugitive VOC
+emissions.
+De Minimis Facilities
+OGF often contain equipment and activities that are listed as De Minimis Facilities under OAC
+252:100, Appendix H. Certain equipment or activities on the De Minimis Facilities list warrant
+inclusion in the emissions calculations for compliance with the emissions cap if located at a
+permitted facility. AQD evaluated the De Minimis Facilities list and determined the equipment or
+activities that need to be included for the facility-wide emissions cap are in the following list:
+Storage Tanks
+• Fuel/VOC storage tanks with less than 400 gallons capacity, or fuel/VOC storage tanks
+with less than 10,567 gallons capacity built after July 23, 1984, or tanks storing
+fuel/VOC that has a true vapor pressure at storage conditions less than 1.5 psia. This
+includes Fuel Oils Nos. 2 - 6, Nos. 2-GO - 4-GO, Diesel Fuel Oils Nos. 2-D - 4-D, and
+Kerosene.*
+• Tanks containing separated water produced from oil and gas operations.
+• Emergency use equipment, unless utilized in excess of 500 hours per year, and
+associated fuel storage tankage.*
+Blowdowns
+• Blowdown of compressors or other vessels containing natural gas or liquid
+hydrocarbons for maintenance due to emergency circumstances
+Combustion Equipment
+• Space heaters and boilers less than 10 MMBTU/hr heat input.**
+• Emissions from non-natural gas fueled stationary internal combustion engines rated
+less than 50 hp output.**
+• Emissions from gas turbines with less than 215 kilowatt rating of electric output.**
+• Natural gas fueled internal combustion engines rated <150 hp and <20 years old.**
+
+2022 GP-OGF – Memorandum (Version 2)
+•
+
+9
+
+Emergency use equipment, unless utilized in excess of 500 hours per year, and
+associated fuel storage tankage.*
+
+Fugitive Emission Sources
+• Pneumatic starters on reciprocating engines, turbines, compressors, or other
+equipment.*
+• Instrument systems utilizing air or natural gas.*
+MSS
+• Pipeline maintenance pigging activities.
+• General maintenance, upkeep, and replacement activities, including those which do
+not alter the capacity of process, combustion or control equipment nor increase
+regulated pollutant emissions, unless subject to NESHAP or NSPS.*
+• Crude oil tank bottom reclaiming.*
+Miscellaneous
+• Vent emissions from gas streams used as buffer or seal gas in rotating pump and
+compressor seals.*
+• Engine crankcase vents and equipment lubricating sumps.*
+* In lieu of specific monitoring, recordkeeping, and calculations, the De Minimis Facilities
+activities designated with an asterisk (*) can use a simplified method of representing emissions by
+assuming emissions are 5 TPY for all emission units contained within the defined activity. For
+those activities designated with **, each emission unit within the defined activity can use a
+simplified method of representing emissions by assuming emissions are 5 TPY for each emission
+unit. For those activities requiring specific calculations or where a facility elects to not use the
+simplified method, the calculation methods specified in the individual sections shall be used.
+B. LIQUIDS STORED
+Petroleum liquids stored at these facilities generally include crude oil, slop oil, condensate, and
+any finished or intermediate liquid products manufactured or extracted in a petroleum refinery
+such as gasoline, diesel, fuel oil, jet fuel, and kerosene. Small amounts of petroleum liquids can be
+entrained in produced water. These facilities can also store ethylene glycols (EG, DEG, and TEG)
+and methanol for use in dehydrators, for engine cooling solutions, and for injection into refrigerant
+processes to control hydrate formation. Other stored liquids can include produced water,
+antifreeze, corrosion inhibitors, amines, and lube oils.
+Crude Oil/Condensate/Produced Water
+Emissions from the storage and loading of crude oil, condensate, and produced water include VOC,
+H2S, and HAPs. VOC emissions from crude oil, condensate, and produced water include HAPs
+such as benzene, toluene, ethylbenzene, xylene (BTEX), and n-hexane. Condensate, as defined in
+OAC 252:100-37-2, means hydrocarbon liquid separated from natural gas which condenses due to
+changes in temperature and/or pressure and remains liquid at normal operating conditions.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+10
+
+According to the Oklahoma Corporation Commission (OCC) condensate has an API gravity equal
+to or greater than 50 degrees.
+Refined Petroleum Products
+Refined petroleum products include, but are not limited to, the following: gasoline, diesel fuels,
+fuel oil, jet fuels, kerosene, and naphtha. These refined products can contain the same HAP as
+listed for crude oil.
+Ethylene Glycols
+Ethylene glycols (EG, DEG, and TEG) are HAPs; however, due to the low vapor pressure of these
+compounds and their water solutions, no emission calculations or specific requirements are
+necessary at minor OGF.
+Methanol
+Methanol is a HAP; however, due to its relatively low vapor pressure and typically small storage
+volumes, no emission calculations or specific requirements are necessary at minor OGF other than
+the requirement of a submerged fill pipe per OAC 252:100-37 Part 3, unless stored at a drilling or
+production facility for use on site (OAC 252:100-37-4(b)).
+Amine
+Amines (MEA, DEA, TEA, DGA, and MDEA) are VOC; however, due to the low vapor pressure
+of these compounds and their water solutions, no emission calculations or specific requirements
+are necessary at minor OGF.
+SECTION IV. PERMIT STRUCTURE
+This general permit is designed for minor facilities (i.e., with actual emissions less than 100 TPY
+of a non-HAP regulated pollutant in an attainment area, less than 10 TPY of any single HAP, and
+less than 25 TPY of total HAPs). The general permit can authorize both construction and operation,
+and can be used both for new sources and for modifications at existing sources. Major sources
+must obtain coverage under a major source construction permit and Part 70 permit.
+The general permit is structured so that eligible facilities can obtain an Authorization to Construct
+and Authorization to Operate under the general permit, or can obtain an individual minor source
+construction permit and then an Authorization to Operate under the general permit, or can obtain
+an Authorization to Construct under the general permit and then an individual minor source
+operating permit and pay all applicable fees. This should allow applicants the greatest flexibility
+for obtaining coverage under the general permit. No site-specific determinations can be made in
+issuance of an Authorization to Construct under a general permit. However, once these sitespecific determinations have been completed and drafted into an individual minor source
+construction permit as emissions limitations and/or specific conditions, they can then be
+incorporated into the Authorization to Operate under a general permit.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+11
+
+In addition, certain other options usually available by regulation had to be disallowed so that no
+site-specific determinations were made in issuance of an Authorization to Construct under the
+general permit. For example, facilities with amine units that have uncontrolled amine regeneration
+still vents and sour crude oil storage sites cannot obtain an Authorization to Construct because
+these types of facilities require a site-specific determination of compliance with the ambient H2S
+standard of OAC 252:100-31-7. Also, facilities with “new fuel-burning equipment” subject to
+OAC 252:100-33 cannot obtain an Authorization to Construct. Alternate emissions reduction
+authorizations are not allowed under an Authorization to Construct under this permit, as these sitespecific limitations require Air Quality Council approval. Similarly, several regulations allow
+exceptions from specific requirements "if approved by the Executive Director." These approvals
+also require a site-specific determination that cannot be reasonably made in issuance of an
+Authorization to Construct under this permit.
+All conditions in the general permit have been derived directly from applicable requirements given
+in OAC 252:100, Air Pollution Control, as promulgated to implement the Oklahoma Clean Air
+Act. The general permit is formatted so that the first section establishes emissions limitations. Then
+specific conditions are given for each emissions unit allowed under the general permit. Each
+section may contain a list of emissions limitations, operational conditions, and monitoring and
+recordkeeping conditions developed to assure compliance with applicable requirements.
+Conditions to assure compliance with those state regulations that implement federal requirements;
+e.g., NSPS and National Emissions Standards for Hazardous Air Pollutants (NESHAP), are also
+incorporated as a specific condition for the general permit. These emission unit-specific
+conditions, as required by Oklahoma regulations, are generally established in the Authorization to
+Construct under this general permit, or by a minor source individual construction permit, and then
+incorporated into a subsequently issued Authorization to Operate for the facility. Additionally, a
+section of standard conditions contain those requirements applicable to all minor facilities.
+Specific numeric emissions limitations are usually required for sources that have the potential to
+exceed a threshold value or violate an applicable requirement. However, this general permit
+establishes those limitations as a facility-wide cap on emissions from the facility, rather than
+establishing limitations on individual emission units, except where emissions limits are required
+for compliance methods to avoid an otherwise applicable limit. The permit initially establishes a
+facility-wide emissions cap, which may include pre-approved changes foreseeable at the time of
+permit application. Certain modifications, e.g., adding, modifying, replacing equipment, changing
+fuels, or increasing operating hours of equipment, or adding or removing a unit specific TPY limit,
+are pre-approved so long as the facility remains in compliance with its facility-wide emissions cap
+and all other applicable notifications and recordkeeping.
+This approach should greatly reduce the burden on both the permittee and AQD by eliminating the
+need for construction permits, permit modifications, or new Authorizations when making certain
+changes to the facility. Notification to DEQ within 15 days following the start of operation is
+required for certain specified changes that do not result in an exceedance of the facility-wide
+emissions cap.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+12
+
+The terms and conditions of the 2022 GP-OGF supersede all previous versions of the GP-OGF.
+All facilities constructing or operating under the previous GP-OGF dated December 18, 2008, will
+be subject to and must comply with the 2022 GP-OGF, including any revisions, within 24-months
+of July 1, 2022. During the 24-month transition period: (1) any facility constructing or operating
+under the previous GP-OGF (dated December 18, 2008, et. al.) and an existing Authorization must
+comply with the standards set forth therein; (2) the NOM for the previous GP-OGF may be used
+for those facilities wanting to maintain coverage under the previous GP-OGF; and (3) usage of the
+NOM from the 2022 GP-OGF automatically subjects the facility to the 2022 GP-OGF including
+any revisions upon submittal. For facilities that have conditions in their current authorization that
+conflict with the requirements of the 2022 GP-OGF, these facilities must obtain an individual
+minor source construction permit and then incorporate these conditions into a subsequently issued
+Authorization to Operate. All facilities will automatically be authorized as Class II facilities at the
+end of the transition period unless coverage as a Class I facility has been requested.
+SECTION V. EMISSION LIMITATIONS AND CALCULATION METHODS FOR
+COMPLIANCE WITH THE CAP
+Equipment authorized by the general permit may require emission controls for the facility to be a
+“synthetic minor” facility. The general permit addresses common control types and methods and
+specifies approved efficiencies based on certain monitoring and recordkeeping requirements in
+Appendix A of the General Permit.
+Various processes addressed below rely on representative gas and liquid analyses to determine
+emissions. DEQ has guidance that addresses criteria for accepting representative versus sitespecific analyses: “Representative Sampling Guidance” found in the AQD guidance section of the
+DEQ website.
+A. FACILITY-WIDE EMISSIONS CAP
+Emissions limitations specified in the general permit are established from applicable federal and
+state requirements, or from a limitation that the source assumes to avoid an applicable requirement,
+or from limitations established in previously issued state or federal permits for the facility.
+Provided, however, that source assumed limitations and/or limitations from previously issued
+permits must be equivalent to or more stringent than the federal and state applicable requirements.
+Because of the similarity of emissions and emissions units at minor OGF, specific numeric
+emissions limitations need not be developed for each emissions unit; except where emissions limits
+on engines are required for compliance methods as discussed below; except where tank TPY limits
+are required; or except where units have specific TPY limits.
+The permit requires the calculation of actual facility-wide emissions, as a monthly, 12-month
+rolling total, to determine compliance with each facility-wide emissions cap. The facility-wide
+annual emissions must include emissions from each source located at the facility, including
+emissions related to maintenance, startup, and shutdowns. A direct comparison of the calculated
+emissions can then be compared to the permitted level to determine compliance with the specific
+condition in the general permit. In those cases where a numerical limitation is not specifically
+
+2022 GP-OGF – Memorandum (Version 2)
+
+13
+
+developed to demonstrate compliance, other methods (e.g., work practices, parametric monitoring,
+operational limits, modeling analyses, etc.) are required by the general permit to assure
+compliance.
+As an alternative approach for compliance with the 12-month rolling total emission limits,
+facilities can calculate maximum projected actual emissions for all equipment based on specific
+oil and gas throughputs and hours of operation. The applicant then may use those calculations as
+the demonstration of compliance provided the throughputs and hours of operations (maintained on
+a monthly and 12-month rolling total) used in those calculations have not been exceeded and where
+no other physical or operational changes have occurred.
+General EPA policy and preference is to not have emission compliance periods longer than one
+month, i.e., a 12-month rolling total is preferred for compliance with annual emissions limitations.
+Also, to demonstrate compliance with the facility-wide emissions caps, the permit requires the use
+of conservatively high, short-term emission rates for some emission units, which can be
+significantly higher than actual emissions.
+Note that facilities covered by a general permit are not required to obtain an Authorization to
+Construct when adding a piece of equipment subject to NSPS or NESHAP. An Authorization to
+Construct, and a new Authorization to Operate, is not needed for most other changes at the facility,
+so long as facility emissions after the change do not exceed the facility-wide cap. For certain
+modifications at the facility, the permittee must send in an NOM to AQD documenting that such
+changes do not cause emissions to exceed the facility-wide cap.
+B. STORAGE TANKS AND EFFLUENT WATER SEPARATORS
+The general permit allows a facility to request a VOC limit of 5.99 TPY for any storage tank. In
+addition to the facility-wide cap, the following methods are used to demonstrate compliance with
+the individual storage tank emission limit. VOC emissions emitted at the storage tanks and the
+flare or enclosed combustion device are included in this limit. Averaging of facility-wide
+throughput across tanks at a storage vessel battery, constructed, modified, or reconstructed after
+November 16, 2020, which consists of two or more storage vessels, is allowed if it meets all of the
+design and operational criteria specified in §60.5365a(e)(3).
+The permittee will be required to maintain records of all storage tanks at the facility with a capacity
+of 400 gallons or more that store VOCs. The permittee will be required to calculate emissions of
+VOC and HAP from these storage tanks based on actual throughputs, a maximum capture
+efficiency of 98% when using a control device, the maximum allowed control efficiency in
+Appendix A of the GP-OGF, and the following methods.
+The EPA document Preferred and Alternative Methods for Estimating Air Emissions from Oil and
+Gas Field Production and Processing Operations (9/1999) provides guidelines for emission
+estimation techniques for stationary point sources. The preferred method of estimating working
+and breathing losses from storage tanks is the use of equations presented in AP-42, Chapter 7.
+AQD has guidance which addresses acceptable methods for estimating VOC flash emissions from
+storage tanks: “VOC Emissions/Flashing Losses from Hydrocarbon Storage Tanks” found in the
+
+2022 GP-OGF – Memorandum (Version 2)
+
+14
+
+AQD guidance section of the DEQ website. Storage tanks using vapor balancing during unloading
+shall include captured loading loss emissions in tank emissions or use the designated turnover
+factor KN in working loss emissions calculations.
+HAP emissions from tanks storing petroleum liquids, other than crude oil, condensate, and
+produced water can be estimated using the default HAP content in AP-42 Section 7.1 or other
+methods that speciate the amount of HAP contained in the VOC emissions. VOC emissions from
+the storage of crude oil, condensate, and produced water can contain significant amounts of HAPs,
+especially n-hexane and should be calculated based on representative sampling.
+Some facilities store liquids containing varying levels of H2S. Available information indicates that
+H2S levels in crude oils are dependent upon the field and formation from which a particular crude
+oil is produced. Typical sweet crude oils contain zero to 6-ppm H2S by weight. H2S has a very
+high vapor pressure and stable (flashed and weathered from storage) sour crude oils handled by
+pipeline facilities will typically have much lower maximum H2S concentrations than production
+facilities. Appendix A of this memorandum presents more detailed information on H2S emissions
+from crude oil.
+Emissions from effluent water separators can be calculated using similar methods to storage tanks.
+C. VOC LOADING OPERATIONS
+The permittee will be required to calculate emissions of VOC and HAP from all loading operations,
+based on actual throughputs. Emissions of H2S from VOC loading operations are expected to be
+negligible as demonstrated in Appendix A.
+VOC emissions from the loading of tank trucks are generally estimated using AP-42, Chapter
+5.2.2.1.1, Equation 1 and Table 5.2-1 or other equivalent methods approved by Air Quality. AQD
+has guidance which addresses acceptable methods for estimating condensate and crude oil loading
+losses: “Estimating Condensate and Crude Oil Loading Losses from Tank Trucks” found in the
+AQD guidance section of the DEQ website.
+D. COMBUSTION EQUIPMENT
+Equipment such as engines, heaters, boilers, and flares, emit NOX, CO, SO2, VOC, and PM10 from
+the combustion and incomplete combustion of natural gas and liquid fuels. Based on the eligibility
+restrictions of the general permit, SO2 and PM10 potential emissions will be below major source
+thresholds. Therefore, no demonstration of compliance with the cap is required for these pollutants
+(except for SO2 at a facility with an amine unit). For facilities with an amine unit, SO2 emissions
+will be based on a mass balance.
+Engines
+The permittee will be required to calculate emissions of NOX, CO, VOC, and HAPs from engines.
+Short-term (lb/hr) emission limits for NOX, CO, and VOC are required to be established in the
+application for the general permit or NOM unless the engine is an Emergency Use Engine or an
+engine rated less than or equal to 250-hp.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+15
+
+NOX, CO, and VOC short-term emission limits shall be estimated from emissions factors based on
+stack test data obtained from appropriate EPA test methods, manufacturer’s data, NSPS Subparts
+IIII or JJJJ, NESHAP Subpart ZZZZ, or AP-42, Chapters 1 and 3. Annual emissions must be based
+on the short-term limit and annual hours of operation.
+The general permit requires initial and semi-annual testing for engines to demonstrate compliance
+with the short-term emission limits. To reduce the regulatory burden on the permittee and AQD, the
+general permit does not require testing for Emergency Use Engines or engines rated less than or
+equal to 250-hp.
+Compliance with NOX and CO hourly emissions limits for engines using a control device (e.g.,
+catalytic converter or oxidation catalyst) is more critical. Catalytic converters and oxidation
+catalysts typically have pollutant conversion efficiencies as high as 90%. Thus, if the catalyst fails or
+is bypassed substantially through channeling, or, for three-way NSCR, if the AFR controller is not
+maintaining the appropriate amount of excess oxygen in the engine exhaust (typically less than 0.5%
+oxygen), a single engine could become a major source if operated for even a short period of time. A
+specific condition requiring semi-annual testing of NOX and CO emissions from each non-emergency
+controlled engine greater than 250-hp is included in the GP-OGF.
+Engines, lean-burn more so than rich-burn, emit HAPs, the most significant being formaldehyde.
+Estimates of potential formaldehyde emissions may be made using manufacturer’s data, stack
+tests, or emission factors from AP-42, Chapter 3 (for engines older than model year 2000). The
+permittee will be required to include annual emissions of formaldehyde from all engines, based on
+annual operating hours, to demonstrate compliance with the facility-wide emissions cap for HAP.
+Compliance with the CO limit shall be used as a surrogacy for compliance with the formaldehyde
+limit. Formaldehyde control efficiency shall be at or below the efficiency requested for CO.
+Boilers and Heaters
+The permittee will be required to calculate emissions of NOx, CO, and VOC from all boilers and
+heaters based on rating, the emission factors provided in the application of NOM (usually based
+on AP-42) , and continuous hours of operation or actual hours of operation when appropriate
+monitoring is included.
+The permit limits boilers and heaters to units less than 50 MMBtu/hr. Therefore, no short-term
+emission limitations or testing were required in the general permit.
+HAP emissions from the combustion of natural gas and liquid fuels in equipment such as boilers
+and heaters are negligible at facilities covered by the GP-OGF. Therefore, emissions of HAP from
+boilers and heaters do not need to be included in the annual emissions calculated for compliance
+with the facility-wide cap for HAP.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+16
+
+Flares or enclosed combustion devices
+The permittee will be required to calculate emissions of NOx, and CO from all flares or enclosed
+combustion devices using heat input, emissions factors, and continuous hours of operation. The
+heat input shall be based on: (1) design capacity rating; (2) measured waste gas flow rate to the
+device; or (3) as calculated using the methodologies approved in this section. Emission factors
+shall be taken from manufacturer’s data, TCEQ’s document “Air Permit Technical Guidance for
+Chemical Sources: Flares & Thermal Oxidizers –RG-109 (draft) September 2000”, or latest
+version of AP-42 Section 13.5.
+The permittee will be required to calculate emissions of VOC and HAP from all units routed to
+the flares or enclosed combustion devices using the appropriate methods for those units in this
+section and 98% destruction efficiency as specified in Section VI of the memorandum.
+E. GLYCOL DEHYDRATION UNIT
+The general permit requires that the permittee estimate the potential to emit VOC and HAP from
+any glycol dehydration units and include those emissions in calculating compliance with the
+facility-wide emissions cap for VOC and HAP. Facilities that have potential HAP emissions from
+all dehydrator units, individual or combined, above 80% of major source levels are required to
+sample and perform an extended gas analysis on the wet gas once each year. No specific
+requirements to limit emissions from glycol dehydration units are necessary in the general permit
+when using the potential to emit; however, specific requirements have been incorporated into the
+general permit to ensure compliance when a condenser is used to control emissions and it is
+considered in the calculation of potential to emit. Facilities that require other limitations on a glycol
+dehydration unit in order to remain a minor source must obtain a minor source construction permit
+and any specific requirements in that permit can be included in an Authorization to Operate.
+Emissions from glycol dehydration units are often controlled by using a condenser on the
+regenerator still vent and then venting to atmosphere or to the regenerator reboiler firebox, other
+heaters, or a flare. Emissions from rich glycol flash tank vents are often controlled by combustion
+or by recycling back to low-pressure inlet gas streams or fuel gas system. For combustion of gasses
+from a glycol still vent, flash tank, or condenser in a reboiler firebox, only 50% destruction
+efficiency shall be allowed unless combined with other controls such as flares, glow plugs, fuel
+gas system, or inlet of facility. If such controls are installed, greater than 50% destruction may be
+applied as allowed under this general permit.
+Glycol dehydration units emit VOC and HAPs from rich glycol flash tank vents and regenerator
+still vents. Potential emissions from glycol dehydrator units can be estimated using the GRIGLYCalc program (Version 4.0 or later), a process simulator program, or the Atmospheric
+Rich/Lean (ARL) Method. The emissions should be based on the potential to emit by assuming
+continuous operation, the dry gas flow rate, an extended wet gas analysis, the normal process
+operating temperature and pressure, the expected removal efficiency of any control device, and the
+maximum pump rate of the lean glycol circulation pump. The dry gas flow rate shall be based upon
+one of the following: (1) the maximum design dry gas rate for the dehydrator unit; or (2) the
+maximum facility dry gas rate based on an inherent process limitation such as compressor
+
+2022 GP-OGF – Memorandum (Version 2)
+
+17
+
+horsepower or capacity limitations; or (3) the maximum facility dry gas rate based on an inherent
+limit on gas production; or (4) the maximum annual average dry gas rate for the last 2 years plus
+a 20% safety factor.
+F. AMINE UNIT
+The general permit requires that the permittee estimate the potential to emit of VOC, HAP, and
+SO2 from any amine unit and include those emissions in calculating compliance with the facilitywide emissions cap. Based on Appendix A, the amine units are required to control emissions from
+the rich amine flash tank and the amine regeneration still vent, and limit the inlet H2S concentration
+to 4 ppmv. Therefore, no additional specific requirements to limit emissions from amine units are
+necessary.
+Amine units emit VOC, HAPs, and SO2 from the rich amine flash tank and regenerator still vents.
+Potential emissions can be estimated using the AMINE-Calc program, a process simulator
+program, and/or mass balance equations. The emissions should be based on the potential to emit
+by assuming continuous operation, the gas flow rate, an extended gas analysis or natural gas liquid
+analysis, the normal process operating temperatures and pressures, and the maximum pump rate
+of the lean amine circulation pump. The gas flow rate shall be based upon one of the following:
+(1) the maximum design gas rate for the amine unit; or (2) the maximum facility gas rate based on
+an inherent process limitation such as compressor horsepower or capacity limitations; or (3) the
+maximum facility gas rate based on an inherent limit on gas production; or (4) the maximum annual
+average gas rate for the last 2 years plus a 20% safety factor. Emissions from amine unit flash
+tanks are often controlled by routing the gases to the fuel gas system or by using a flare. Emissions
+from the regenerator still vent are vented to the atmosphere or controlled by flaring.
+G. FUGITIVE EMISSIONS SOURCE
+The general permit will require that the permittee maintain an approximate fugitive equipment
+component inventory. Typically, OGF are not required to calculate fugitives to determine major
+source status. However, per EPA guidance documents, petroleum storage facilities (PSF) with a
+total storage capacity exceeding 300,000 barrels or any facility with a source category subject to
+an NSPS or NESHAP standard in effect prior to August 7, 1980, are required to include fugitive
+emissions for determination of major source status. The permit will require those facilities that
+have a total storage capacity exceeding 300,000 barrels or storage tanks that meet the source
+categories addressed by NSPS Subparts K or Ka to include fugitive VOC emissions in the
+emissions calculated for compliance with the facility-wide emissions cap for VOC.
+Emissions of HAP from fugitive emission sources are negligible at minor OGF and do not need to
+be included in the emissions calculated for compliance with the facility-wide emissions cap for
+HAP. Emissions of H2S are also negligible as demonstrated in Appendix A.
+VOC emissions from fugitive equipment components are generally estimated using emission
+factors from EPA’s 1995 Protocol for Equipment Leak Emission Estimates (EPA-453/R-95-017)
+or from other DEQ approved emissions factors, an approximate number of components, type of
+service, and percent VOC.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+18
+
+H. OTHER PROCESS EQUIPMENT
+The general permit requires the permittee to calculate VOC emissions from other process
+equipment not previously listed (e.g., inlet separator routed to control device). The uncontrolled
+emissions shall be calculated using a process simulator program and/or mass balance equations.
+Any VOC emissions from other process equipment that are recovered and routed to a process
+through a vapor recovery unit (VRU) designed and operated as specified in §60.5365a(e)(5) are
+not required to be included in the determination of VOC for purposes of determining compliance
+with emission limitations of the general permit. A properly installed and operated VRU is
+considered to recover 100% of the VOC emissions during the time the VRU is in use.
+I. MAINTENANCE, STARTUP AND SHUTDOWN (MSS)
+The general permit requires the permittee to estimate VOC emissions from any MSS activity and
+include those emissions in calculating compliance with the facility-wide emissions cap for VOC.
+Some MSS emissions, such as blowdowns, can be estimated using mass balance equations, volume
+of gas vented, the number of events, and percent VOC.
+SECTION VI. CONTROL EFFICIENCIES AND MONITORING REQUIREMENTS
+Typical control options expected at OGF include floating roofs, vapor-recovery systems, flares,
+vapor balancing systems, and condensers to reduce VOC and HAP emissions, and catalytic
+converters on engines to reduce NOX, CO, and VOC (primarily three-way NSCR) or CO and VOC
+(primarily oxidation catalyst). Higher control efficiencies may be established by obtaining an
+individual minor source construction permit and incorporating site-specific conditions into an
+authorization to operate to assure compliance.
+The permit must incorporate a CO lb/hr limit and require monitoring of CO as a surrogate to assure
+compliance with formaldehyde limits. Limits shall be based on manufacturers’ uncontrolled CO
+emissions guarantee at 100% load reduced using a control efficiency equal to or greater than the
+control rate requested for formaldehyde, not to exceed 90%. If manufacturers’ data is not available,
+the most representative data available should be used, to include stack test data.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+19
+
+Non-Selective Catalytic Reduction (NSCR)
+Maximum Allowed
+Control Efficiency
+
+Requirements
+•
+•
+
+Manufacture guarantee
+as provided in the
+application
+
+•
+
+Must be maintained and operated as specified by the
+manufactured or design specifications.
+Be constructed with an Air-to-Fuel Ratio Controller (AFRC)
+that operates on exhaust oxygen sensor control.
+Use a portable analyzer to monitor NOX and CO emissions in
+the exhaust stream of the control device.
+▪ The portable analyzer shall be operated in accordance with
+the requirements of the latest AQD “Portable Analyzer
+Guidance” document or an equivalent method approved by
+the AQD.
+▪ Testing shall be performed semi-annually.
+Oxidation Catalyst
+
+Maximum Allowed
+Control Efficiency
+Manufacture guarantee
+as provided in the
+application
+Formaldehyde reduction
+≤ CO reduction
+
+Requirements
+
+•
+
+Meet requirements listed above for NSCR except for AFRC.
+
+The permit requires that condensers be properly operated, constructed with a temperature sensor
+in the outlet, and designed to achieve the expected removal efficiency at the maximum expected
+condenser outlet temperature, unless all vapor from the condenser is combusted or recycled to the
+process.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+20
+
+Glycol Dehydration Units and Amine Units
+Maximum Allowed
+Requirements
+Control Efficiency
+Control Device: Condenser Only
+• Must be maintained and operated as specified by the
+manufactured or design specifications.
+• Unit must be equipped with a flash tank.
+• Constructed with a temperature sensor in the outlet.
+• The permittee shall inspect the condenser for proper operation
+and measure and record the condenser outlet temperature at least
+<90% for VOC’s
+one day each month during daylight hours.
+and HAP’s
+• If the applicant relies on an outlet condenser temperature equal
+to or greater than 100 °F, then installation of the temperature
+sensor and monitoring of the condenser temperature is not
+required.
+• Not followed by further control such as reboilers, flares or instack ignitor. Greater than 90% reduction may be applied if
+meeting the device requirements of the additional controls.
+Control Device: Recycled or Recompressed
+• Have the flash tank stream pre-mixed with the primary fuel gas
+≤ 100% for VOC’s
+and used to fuel the device; or
+and HAP’s
+• Routed to the facility inlet.
+Control Device: Combustion device such as reboiler or heater
+< 50% for VOC’s
+• Have still vent stream delivered to the flame zone/firebox.
+and HAP’s
+• Have still vent stream delivered to the flame zone/firebox when
+firing; and
+< 95 % for VOC’s
+• Delivered to an in-stack igniter when the firebox is not firing.
+and HAP’s
+• In-stack igniter must be maintained and operated per
+manufacturer’s specifications.
+Control Device: Condenser plus combustion device such as reboiler or heater
+• Must meet requirements to claim 90% efficiency as described
+for a condenser; and
+< 95% for VOC’s
+• Have still vent stream delivered to the flame zone/firebox.
+and HAP’s
+• Installation of the temperature sensor and measuring and
+recording of the condenser outlet temperature is not required if
+the uncondensed vapors are burned in a combustion device.
+• Must meet requirements to claim 90% efficiency as described
+for a condenser;
+• Have still vent stream delivered to the flame zone/firebox; and
+≤ 98% for VOC’s
+• Utilize an in-stack igniter which is maintained and operated per
+and HAP’s
+manufacturer’s specifications.
+• Utilize a flare or an enclosed combustion device which is
+maintained and operated per manufacturer’s specifications.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+21
+
+The loading operations, vapor collection system, and vapor disposal system shall be operated in
+accordance with the following.
+Vapor Collection for Loading
+Maximum Allowed
+Requirements
+Control Efficiency
+Vapor Collection Systems
+• The tank trucks shall be bottom loaded with hatches closed
+(vapor tight) and the storage tank hatches and atmospheric vents
+shall be closed (vapor tight).
+• A vapor collection line shall be connected from the tank truck
+to the vapor collection system and shall route all vapors
+generated during loading to the vapor collection system.
+n/a
+• All loading and vapor lines shall be equipped with fittings that
+make vapor-tight connections and which must be closed when
+disconnected or which close automatically when disconnected.
+• A means shall be provided to prevent VOC drainage from the
+loading device when it is removed from any tank truck or trailer,
+or to accomplish complete drainage before removal.
+Vapor Balancing (Collection Efficiency)
+• In addition to the requirements above, the tanks shall be
+equipped with a vapor pressure-vacuum vent valve that
+maintains a positive pressure setting during tank truck loading
+operations.
+< 70% for VOC’s
+•
+Loading loss emissions routed to the storage tanks shall be
+and HAP’s
+added to the storage tank emissions. In lieu of adding loading
+loss emissions to storage tanks, working loss emissions from the
+storage tanks being unloaded shall be calculated using a
+turnover factor (KN) of 1.
+Vapor Control
+• Meet requirements of vapor balancing.
+• Control percentage only applies to vapors collected in vapor
+< 98% for VOC’s
+balancing; and
+and HAP’s
+• The vapor disposal system shall route all vapors to a flare. Flares
+must meet requirements described in the flares or enclosed
+combustion device table.
+Vapor Recovery
+• Control percentage only applies to vapors collected in vapor
+100 % for VOC’s
+balancing; and
+and HAP’s
+• Routed to the process stream or sales line.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+22
+
+Flares or Enclosed Combustion Devices
+Maximum Allowed
+Control Efficiency
+
+Requirements
+•
+•
+
+< 98% for VOC’s,
+HAP’s,
+and H2S
+•
+
+Flares must meet 40 CFR §60.18 requirements for minimum
+heating value and maximum flare tip velocities.
+Flares and enclosed combustion devices must be operated with
+a flame present at all times by having a continuous pilot flame
+or an automatic ignition system.
+▪ Presence of a pilot flame shall be monitored using a
+thermocouple or any other equivalent device to detect the
+presence of a flame; and
+▪ Records of the pilot flame(s) outages and/or downtime shall
+be maintained.
+Pilot flame monitors and/or automatic ignition systems must be
+installed, operated, and calibrated in accordance with
+manufacturer’s specifications.
+
+SECTION VII. APPLICABLE REGULATIONS
+Applicable rules and regulations are given below for each emission unit, and also for fugitive
+emissions authorized in this permit, including facility-wide requirements, storage tanks, VOC
+loading operations, combustion equipment, amine units, and glycol dehydration units. For brevity,
+only those applicable requirements that are specific to the particular emissions unit, and not
+addressed in the facility-wide requirements, are covered in each section.
+A. Oklahoma Air Pollution Control
+OAC 252:100-1 (General Provisions)
+Subchapter 1 includes definitions but there are no regulatory requirements.
+
+[Applicable]
+
+OAC 252:100-2 (Incorporation by Reference)
+[Applicable]
+The purpose of this Subchapter is to incorporate by reference applicable provisions of Title 40 of
+the Code of Federal Regulations listed in OAC 252:100, Appendix Q. These requirements are
+addressed in the “Federal Regulations” section.
+OAC 252:100-3 (Air Quality Standards and Increments)
+[Applicable]
+Subchapter 3 enumerates the primary and secondary ambient air quality standards and the
+significant deterioration increments. At this time, all of Oklahoma is in attainment of these
+standards.
+OAC 252:100-5 (Registration, Emissions Inventory, & Annual Operating Fees)
+[Applicable]
+Subchapter 5 requires sources of air contaminants to register with Air Quality, file emission
+inventories annually, and pay annual operating fees based upon total annual emissions of regulated
+pollutants.
+This permit assures compliance with this regulation using the following approach:
+
+2022 GP-OGF – Memorandum (Version 2)
+
+23
+
+A standard condition in the permit requires the permittee to file an annual emissions inventory and
+pay annual fees in accordance with OAC 252:100-5(2)(e).
+Fugitive emissions are reportable as actual facility emissions. However, compliance with the limit
+of this permit does not include fugitive emissions except for those source categories that are a
+listed source category.
+OAC 252:100-7 (Permits for Minor Facilities)
+[Applicable]
+Part 1 includes definitions and subjects all permitting to the tiered Uniformed Permitting Act.
+Permits are required to meet public review requirements consistent with the Tier System given in
+the Uniform Permitting Act.
+Part 2 establishes fees for construction and operating permits, Authorizations issued under General
+Permits, and applicability determinations.
+Part 3 establishes construction permit categories and requirements. A construction permit is
+required for new facilities and modification of existing facilities. A general permit may be issued
+for an industry if there are a sufficient number of facilities that have the same or substantially
+similar operations, emissions, and activities that are subject to the same standards, limitations, and
+operating and monitoring requirements. For general permits that provide for application through
+the filing of a notice of intent (NOI) to construct, authorization under the general permit is effective
+upon receipt of the NOI. Construction permits shall require compliance with all applicable air
+pollution rules, prohibit the exceedance of ambient air quality standards contained in OAC
+252:100-3, and may establish permit conditions and limitations as necessary to assure compliance
+with all rules.
+Part 4 establishes operating permit requirements. Emission limitations established and made a part
+of the construction permit are incorporated into and become enforceable limitations of the
+subsequently issued operating permit. Permit limitations in adjustment of, or in addition to, the
+facility's construction permit limitations may be made a condition of the facility's operating permit
+issuance.
+This permit assures compliance with this regulation using the following approach:
+For Part 1, the general permit has gone through Tier II review; therefore, Authorizations will only
+require Tier I review, without website notice in accordance with the Director’s discretion under
+OAC 252:4-7-13(g)(10). Any part 70 source seeking an Authorization under the general permit,
+that once issued would qualify as a minor facility, requires a Tier II application.
+For Part 2, the general permit requires remittance of the applicable fees.
+For Part 3, the general permit is designed to allow minor facilities to fulfill the requirement to
+obtain an Authorization to Construct before starting construction of an eligible facility or for
+modifications to existing eligible facilities. Limitations are established as part of the facility-wide
+emissions cap of this general permit, not to equal or exceed the levels for Class I or Class II
+facilities. AQD has determined that a sufficient number of oil and gas facilities with the same or
+substantially similar operations and activities exist within the state of Oklahoma that require
+permitting, which creates the need to develop this general permit.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+24
+
+An NOI to Construct is required prior to commencing construction of a new facility or
+modification of an existing facility not covered under this general permit. Coverage under the
+general permit is effective upon receipt of the NOI to Construct application when accompanied by
+fee, a receipt, or other confirmation of payment by the AQD. The earliest of (1) a legible dated
+U.S. Postal Service postmark (private metered postmarks are not acceptable); (2) a dated receipt
+from a commercial carrier or the U.S. Postal Service; (3) a DEQ date stamped application; or (4)
+a date of receipt of a digital copy of an application is acceptable documentation of receipt of the
+NOI to Construct.
+In lieu of an Authorization to Construct, an applicant may obtain an individual minor source
+construction permit. Certain facility modifications, as defined by the general permit, may be
+constructed without an individual minor source construction permit, an Authorization to Construct,
+or a new Authorization to Operate. For these modifications, the permittee must submit a Notice of
+Modification (NOM) form to AQD within 15 days of the start of operation of the modification.
+This general permit requires compliance with all state and federal regulations which are evaluated
+in this Section of the memorandum.
+For Part 4, after construction is complete, an application for an Authorization to Operate must be
+submitted within 180 days of startup. A condition has been included in the permit that allows
+conditions from an individual minor source construction permit to be incorporated into the
+Authorization to Operate. Operational conditions have been included in the permit to require a
+source to construct and operate all emission units and associated control equipment within a
+practical range of operating conditions to achieve, on a continuous basis, a level of emissions that
+complies with applicable requirements. Operating and compliance requirements, as well as
+monitoring and recordkeeping requirements for control devices, are specifically addressed in the
+permit. The Authorization to Operate does not make use of an NOI process, therefore, coverage
+under the general permit is not effective until the issuance of the Authorization to Operate. An
+applicant proposing to obtain coverage under this permit for an existing, previously permitted
+facility, need only apply for an Authorization to Operate.
+OAC 252:100-9 (Excess Emission Reporting Requirements)
+[Applicable]
+Subchapter 9 requires an owner or operator of a regulated facility to report all excess emissions
+from an air pollution source caused by malfunction, shutdown, startup, or regularly scheduled
+maintenance that are in violation of the applicable air pollution control rule, permit, or order of the
+DEQ. No specific emission limitation, standard, or criterion is specified in this subchapter.
+The permit assures compliance with this regulation using the following approach:
+Conditions are included in the standard conditions of the general permit that require compliance
+with this subchapter should excess emissions occur.
+OAC 252:100-13 (Open Burning)
+[Applicable]
+This subchapter prohibits open burning of refuse and other combustible material except in
+compliance with OAC 252:100-13-7 and 9. No specific emission limitation or criterion is specified
+in this subchapter. However, work practice conditions and standards are specified.
+The permit assures compliance with this regulation using the following approach:
+
+2022 GP-OGF – Memorandum (Version 2)
+
+25
+
+Subchapter 13 applies to all facilities. Therefore, the general permit includes a condition that
+requires compliance with this subchapter. However, open burning is not expected to take place at
+facilities covered under this permit. Therefore, no initial compliance demonstration or continuing
+monitoring, recordkeeping, or reporting requirements associated with this subchapter are included
+in the general permit.
+OAC 252:100-19 (PM Emissions from Fuel-burning Equipment)
+[Applicable]
+The purpose of this subchapter is to control the emission of particulate matter from fuel-burning
+units and industrial processes. This subchapter requires that the maximum allowable emissions of
+particulate matter from engines and other combustion equipment not exceed the limits listed in
+OAC 252:100 Appendix C.
+The permit assures compliance with this regulation using the following approach:
+The general permit is restricted to those facilities using liquid petroleum gas, natural gas with no
+greater than 162 ppmv total sulfur content, diesel fuel with a sulfur content less than 0.05% by
+weight, or No. 2 with a sulfur content less than 0.05 wt%. Usage of these fuels and AP-42 PM
+emission factors for engines and heaters will assure compliance with this subchapter.
+OAC 252:100-25 (Visible Emissions and Particulates)
+[Applicable]
+This subchapter states no person shall allow or permit the discharge of any fumes, aerosol, mist,
+gas, smoke, vapor, particulate matter, or any combination thereof, exhibiting greater than 20
+percent equivalent opacity except for short-term occurrences. At no time may the opacity exceed
+20 percent for one six-minute period in any consecutive 60 minutes nor more than three such
+periods in any consecutive 24 hours. In no case shall the average of any six-minute period exceed
+60% opacity.
+The general permit assures compliance with this regulation using the following approach:
+The only emissions units/activities with the potential for visible emissions are flares and engines,
+especially liquid-fueled engines. Most engines are natural gas-fired. In addition, liquid-fueled
+engines restricted to the fuels allowed in this general permit have very little potential to violate
+these opacity requirements. Ongoing operation and maintenance activities at facilities should
+provide sufficient opportunities to allow owner/operators to identify and take corrective action to
+address any opacity exceedance. These activities, along with DEQ complaint and compliance
+activities, should be sufficient to assure compliance with this requirement. Thus, periodic
+monitoring of opacity is not being required at any of these facilities.
+OAC 252:100-29 (Control of Fugitive Dust)
+[Applicable]
+This subchapter prohibits any person from causing or allowing any fugitive dust source to be
+operated, or any substances to be handled, transported, or stored, or any structure constructed,
+altered, or demolished to the extent that such operation or activity may enable fugitive dust to
+become airborne and result in air pollution, without taking reasonable precautions to minimize or
+prevent pollution. Subchapter 29 further prohibits discharge of visible fugitive dust beyond the
+property line on which the emissions originated in such a manner as to damage or interfere with
+the use of adjacent properties, or cause air quality standards to be exceeded, or to interfere with
+the maintenance of air quality standards. A list of reasonable precautions is specified in this
+subchapter.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+26
+
+The general permit assures compliance with this regulation using the following approach:
+Under normal operating conditions, these facilities have negligible potential to violate this
+requirement; therefore, it is not necessary to require specific precautions to be taken.
+OAC 252:100-31 (Sulfur Compounds)
+[Applicable]
+Part 2 limits the ambient air impacts of H2S emissions from any facility to 0.2 ppm at standard
+conditions, 24-hour average (equivalent to 283 g/m3). The standard shall not apply to ambient air
+concentrations occurring on the property from which such emission occurs, providing such
+property, from the emission point to the point of any such concentration, is controlled by the person
+responsible for such emission.
+Part 5 limits SO2 emissions from any new gas-fired fuel-burning equipment to 0.2 lb/MMBTU
+heat input and new liquid-fired fuel-burning equipment to 0.8 lb/MMBTU heat input, three-hour
+average.
+Part 5 requires H2S in the waste gas stream from any new petroleum or natural gas process
+equipment (constructed after July 1, 1972) to be reduced by 95% by removal or by being oxidized
+to SO2. This requirement does not apply if a facility’s emissions of H2S do not exceed 0.3 lb/hr,
+two-hour average. The owner or operator is required to install, maintain, and operate an alarm
+system that will signal a malfunction for all thermal devices used to control H2S emissions from
+petroleum and natural gas processing facilities regulated under OAC 252:100-31-26(1).
+The general permit assures compliance with this regulation using the following approach:
+Except for facilities that store sour crude oil, no significant emission of H2S is expected from
+storage tanks at these facilities (see Appendix A). Eligibility for an Authorization to Construct
+under the permit is restricted to those facilities that do not store sour crude oil. Facilities that store
+sour crude oil may apply for a minor source construction permit and then obtain an Authorization
+to Operate under this permit. Any emission limitations or specific conditions necessary for
+compliance with Subchapter 31, Part 2 from the construction permit will be incorporated into the
+Authorization to Operate.
+Emissions of H2S from VOC Loading Operations are negligible (see Appendix A).
+Eligibility for an Authorization to Construct under the permit is restricted to those facilities using
+liquid petroleum gas, natural gas with no greater than 10 grains/100 scf total sulfur content, or
+diesel or No. 2 fuel oil with a sulfur content less than 0.05% by weight. These fuel sulfur contents
+are in compliance with this subchapter.
+Eligibility for an Authorization to Construct is restricted to facilities that do not have glycol
+dehydration units which treat sour natural gas (see Appendix A). Sour gas is natural gas containing
+greater than 4 ppmv H2S. Glycol dehydrators treating sour natural gas have the potential to emit
+significant amounts of H2S. A facility that has a glycol dehydration unit which processes sour
+natural gas may apply for a minor source construction permit and then obtain an Authorization to
+Operate under this permit. Any emission limitations or specific conditions necessary for
+compliance with Subchapter 31, Part 2 from the construction permit will be incorporated into the
+Authorization to Operate.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+27
+
+Eligibility for an Authorization to Construct is restricted to facilities that only have a single amine
+unit, which treats sweet natural gas and/or liquids, and is controlled (see Appendix A). The general
+permit requires emissions from the rich amine flash tank to be routed to a flare or to the fuel gas
+system and the amine regenerator still vent to be routed to a flare with combustion efficiency of
+95% or greater to the atmosphere. A facility that has multiple amine units or an amine unit which
+processes sour natural gas or which is uncontrolled may apply for a minor source construction
+permit and then obtain an Authorization to Operate under this permit. Any emission limitations or
+specific conditions necessary for compliance with Subchapter 31, Part 2 from the construction
+permit will be incorporated into the Authorization to Operate.
+The permit also requires acid gas flares at petroleum and natural gas processing facilities to be
+equipped with an alarm system that will signal when there is no pilot flame.
+The permit will also limit applicability of the permit to amine units which process less than 0.1276
+long tons per day (LT/D), since at this level a facility would become a major source for SO2.
+As shown in Appendix A, fugitive emissions of H2S are negligible for the facilities eligible for this
+permit.
+OAC 252:100-37 (Control of VOCs)
+[Applicable]
+Part 3 requires storage tanks (except pressure tanks) built after 12/28/74, and with a capacity of
+400 gallons or more storing a VOC with a vapor pressure of 1.5 psia or greater under actual
+conditions, to be equipped with a submerged fill pipe or a vapor-recovery system.
+Part 3 requires storage tanks (except pressure tanks) built after 12/28/74, with a capacity greater
+than 40,000 gallons to be equipped with a floating roof or a vapor-recovery system capable of
+collecting 85% or more of the uncontrolled VOCs.
+Part 3 requires VOC loading facilities built after 12/28/74, and with a throughput greater than
+40,000 gal/day, to be equipped with a vapor collection and disposal system unless all tank trucks
+or trailers are bottom loaded with hatches closed.
+Part 3 requires VOC loading facilities built after 12/28/74, and with a throughput less than 40,000
+gal/day, to be equipped with a system for submerged filling of tank trucks or trailers which is
+installed and operated to maintain a 97 percent submergence factor.
+Part 7 provides that all fuel-burning equipment shall be cleaned, operated, and maintained to
+minimize emissions of VOCs. The equipment should be operated such that it is not overloaded
+and that temperature and available air are sufficient to provide essentially complete combustion.
+Part 7 requires single-compartment or multiple-compartment VOC/water separators that receives
+effluent water containing 200 gallons per day or more of any VOC from any equipment processing,
+refining, treating, storing, or handling VOCs shall be totally enclosed, or equipped with an external
+floating roof, internal floating roof, or a vapor-recovery system. All gauging and sampling devices
+shall be gas-tight except when gauging or sampling is taking place. The oil removal devices shall
+be gas-tight except when manual skimming, inspection and/or repair is in progress.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+28
+
+The general permit assures compliance with this regulation using the following approach:
+Specific operational conditions, based on this subchapter, are included in the general permit for
+storage tanks and effluent water separators.
+Facilities with VOC loading facilities subject to OAC 252:100-37-16(a), load above 40,000
+gal/day, are not eligible for an Authorization to Construct. Such facilities must obtain a minor
+source construction permit for these loading facilities and operational requirements developed in
+that construction permit must be incorporated into an Authorization to Operate. The permit
+requires compliance with OAC 252:100-37-16(b) for VOC Loading Operations.
+Specific conditions are included in the permit that require that the permittee properly operate and
+maintain engines and associated control systems in a manner that will minimize emissions.
+Operational and maintenance records are required to be kept to document compliance with this
+requirement.
+OAC 252:100-39 (VOCs in Non-Attainment and Former Non-attainment Areas)
+[Applicable]
+Part 5 sets control requirements for petroleum liquid storage vessels equipped with external
+floating roofs, having capacities greater than 40,000 gallons and located in Tulsa and Oklahoma
+counties.
+Part 7 requires that each VOC vessel with a capacity greater than 40,000-gal shall be a pressure
+vessel or shall be equipped with a floating roof or a vapor-recovery system that consists of a vaporgathering system capable of collecting 90 percent by weight or more of the uncontrolled VOCs.
+Part 7 requires that each VOC storage vessel with a nominal capacity greater than 400-gal and less
+than 40,000-gal shall be equipped with a submerged fill pipe or be bottom filled. The displaced
+vapors from each storage vessel with an average daily throughput of 30,000-gal or greater which
+stores VOCs shall be processed by a system that has a total collection efficiency no less than 90
+percent by weight of total VOCs in the vapors.
+Part 7 requires that each VOC storage vessel (located in Tulsa County only) with a nominal
+capacity greater than 2,000-gal and less than 40,000-gal, in addition to being equipped with a
+submerged fill pipe or being bottom loading, shall be equipped with a vapor control system.
+Part 7 requires that each VOC loading facility with an annual throughput of 120,000 gallons or
+greater shall be equipped with a vapor-collection and/or disposal system. For facilities in Tulsa,
+stationary VOC loading facilities shall be checked annually in accordance with EPA Test Method
+21, Leak Test. Leaks greater than 5,000 ppmv shall be repaired within 15 days. Facilities shall
+retain inspection and repair records for at least two years. Part 7 also specifies methods to be used
+to determine leakage from gasoline trucks and associated vapor control systems.
+The permit assures compliance with this regulation using the following approach:
+Specific operational conditions, based on this subchapter, are included in the permit for storage
+tanks. Continuing compliance requires that the permittee perform routine inspections of all seal
+closure devices semi-annually; measure the secondary seal gap annually when the floating roof is
+equipped with a vapor-mounted primary seal; and maintain records of the types of volatile
+petroleum liquids stored, the true vapor pressure of the liquid as stored, and the results of the above
+inspections. An Authorization to Construct is not allowed for a facility using a vaporrecovery/vapor disposal system as required by 100-39-41(a)(2), 100-39-41(b)(2), or 100-3941(c)(5), or other equipment of equal efficiency, as required by 100-39-41(a)(3). Such facilities
+
+2022 GP-OGF – Memorandum (Version 2)
+
+29
+
+must obtain a minor source construction permit for these vapor-recovery/vapor disposal systems
+and operational requirements developed in that construction permit must be incorporated into an
+Authorization to Operate. Thus, requirements do not need to be included in the general permit for
+vapor recovery/vapor disposal systems and their associated control devices.
+Facilities with VOC loading facilities subject to OAC 252:100-39 are not eligible for an
+Authorization to Construct. Such facilities must obtain a minor source construction permit for
+these loading facilities and operational requirements developed in that construction permit must
+be incorporated into an Authorization to Operate.
+OAC 252:100-43 (Testing, Monitoring, and Recordkeeping)
+[Applicable]
+This subchapter provides general requirements for testing, monitoring and recordkeeping and
+applies to any testing, monitoring or recordkeeping activity conducted at any stationary source. To
+determine compliance with emissions limitations or standards, the Air Quality Director may
+require the owner or operator of any source in the state of Oklahoma to install, maintain and operate
+monitoring equipment or to conduct tests, including stack tests, of the air contaminant source. All
+required testing must be conducted by methods approved by the Air Quality Director and under
+the direction of qualified personnel. A notice-of-intent to test and a testing protocol shall be
+submitted to Air Quality at least 30 days prior to any EPA Reference Method stack tests. Emissions
+and other data required to demonstrate compliance with any federal or state emission limit or
+standard, or any requirement set forth in a valid permit shall be recorded, maintained, and
+submitted as required by this subchapter, an applicable rule, or permit requirement. Data from any
+required testing or monitoring not conducted in accordance with the provisions of this subchapter
+shall be considered invalid. Nothing shall preclude the use, including the exclusive use, of any
+credible evidence or information relevant to whether a source would have been in compliance with
+applicable requirements if the appropriate performance or compliance test or procedure had been
+performed.
+The general permit assures compliance with this regulation using the following approach:
+A standard condition is included which states that all required tests shall be performed and the
+results calculated in accordance with test procedures described or referenced in the permit and
+approved by Air Quality. The general permit establishes minimum monitoring requirements for
+control devices associated with emission units addressed in this permit. In addition, testing must
+be performed as specified in 40 CFR Parts 51, 60, 61, 63, and 75, as applicable, unless otherwise
+specified in an Authorization under this permit.
+Non-applicable Oklahoma Regulations
+Table VIII-1 lists the Oklahoma Air Quality Regulations that are not applicable to facilities
+covered under this permit on a facility-wide basis. Rules applicable to a specific emission unit are
+listed separately.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+30
+
+Table VIII-1- Non-applicable Oklahoma Air Pollution Control Regulations
+Rule
+Description
+Reason
+OAC 252:100-8
+Permits for Major Sources
+Not a major source
+OAC 252:100-11
+Alternative Emissions Reduction
+Ineligible *
+OAC 252:100-17
+Incinerators
+Not a covered source
+OAC 252:100-19-10 & 11
+PM from Wood Waste Burning
+Not a covered source
+OAC 252:100-23
+Cotton Gins
+Not a covered source
+OAC 252:100-24
+Grain Elevators
+Not a covered source
+OAC 252:100-33
+Nitrogen Oxides
+Ineligible *
+OAC 252:100-35
+Carbon Monoxide
+Not a covered source
+OAC 252:100-37, Part 5
+Control of VOCs
+Not a covered source
+OAC 252:100-39, Part 7
+Emissions of VOCs in Nonattainment
+Not a covered source
+(except Section 41 *)
+Areas and Former Non-Attainment Areas
+OAC 252:100-47
+Existing Municipal Solid Waste Landfills Not a covered source
+*
+
+Ineligible for an Authorization to Construct. May be addressed in a minor source construction permit by specific
+conditions that are then incorporated into the Authorization to Operate
+
+B. Federal Regulations
+Certain state regulations require compliance with federally promulgated regulations. OAC
+252:100-7-15(d) requires that construction permits include all applicable requirements, including
+NSPS and NESHAP.
+NSPS, 40 CFR Part 60
+[Applicable]
+NSPS means a standard of emissions of air pollutants that reflects the degree of emission limitation
+achievable through the application of the best system of emission reduction that, taking into
+account the cost of achieving such reduction and any non-air quality health and environmental
+impact and energy requirements, the Administrator of EPA determines has been adequately
+demonstrated. NSPS apply to the owner or operator of any stationary source which contains an
+affected facility, the construction or modification of which is commenced after the date of
+publication of the standard applicable to that facility. Certain notification, recordkeeping,
+emissions limitations, performance tests, and monitoring requirements are specified in these NSPS
+regulations.
+Subpart
+
+Description
+
+A
+
+General Provisions
+Small Industrial-Commercial- Institutional Steam
+Generating Units
+Storage Vessels for Petroleum Liquids for Which
+Construction, Reconstruction, or Modification
+Commenced After June 11, 1973, and Prior to May 19,
+1978
+
+Dc
+
+K
+
+Applicable
+Equipment
+Boilers
+
+Storage Tanks
+
+2022 GP-OGF – Memorandum (Version 2)
+
+Subpart
+
+Ka
+
+Kb
+GG
+KKK
+LLL
+IIII
+JJJJ
+KKKK
+OOOO
+
+OOOOa
+
+Description
+
+31
+Applicable
+Equipment
+
+Storage Vessels for Petroleum Liquids for Which
+Construction, Reconstruction, or Modification
+Storage Tanks
+Commenced After May 18, 1978, and Prior to July 23,
+1984
+VOL Storage Vessels (Including Petroleum Liquid
+Storage Vessels) for Which Construction, Reconstruction,
+Storage Tanks
+or Modification Commenced After July 23, 1984
+Stationary Gas Turbines
+Turbines
+Equipment Leaks of VOC From Onshore Natural Gas
+Fugitives
+Processing Plants
+SO2 Emissions From Onshore Natural Gas Processing
+Amine Units
+Stationary Compression Ignition Internal Combustion
+Engines
+Engines
+Stationary Spark Ignition Internal Combustion Engines
+Engines
+Stationary Combustion Turbines
+Turbines
+Crude Oil and Natural Gas Production, Transmission and
+Storage Tanks,
+Distribution for which Construction, Modification or
+Fugitives, Amine
+Reconstruction Commenced after August 23, 2011, and on
+Units, Compressors
+or before September 18, 2015
+Crude Oil and Natural Gas Facilities for which
+Storage Tanks,
+Construction, Modification or Reconstruction Commenced Fugitives, Amine
+after September 18, 2015
+Units, Compressors
+
+The general permit assures compliance with this regulation using the following approach:
+Conditions are included to address the NSPS general notification, recordkeeping, emissions
+limitations, performance test, and monitoring requirements. Language in the general permit
+emphasizes that NSPS notification and performance test requirements are separate, stand-alone,
+and independent federal requirements that must be met in addition to any other general permit
+requirements, e.g., equipment addition or change notifications. However, a timely submitted NOM
+shall suffice as a notice of the actual date of initial startup, and as a notice of a physical or
+operational change to an existing facility which may increase the emission rate of any air pollutant
+to which a standard applies as required by an NSPS (40 CFR 60.7(a)). Conditions specific to a
+particular NSPS are included for each emissions unit that may be determined to be an affected
+unit.
+NESHAP, 40 CFR Part 63
+[Applicable]
+NESHAP contains standards that regulate specific categories of stationary sources that emit one
+or more hazardous air pollutants. These standards require all owners or operators of major and area
+sources in certain source categories that are constructed or reconstructed to install generally
+achievable control technology (GACT) unless specifically exempted. Certain notification,
+recordkeeping, emissions limitations, performance tests, and monitoring requirements are
+specified in these NESHAP regulations.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+Subpart
+
+Description
+
+A
+HH
+ZZZZ
+CCCCCC
+JJJJJJ
+
+General Provisions
+Oil and Natural Gas Production Facilities
+Stationary Reciprocating Internal Combustion Engines
+Gasoline Dispensing Facilities
+Industrial, Commercial, and Institutional Boilers
+
+32
+Applicable
+Equipment
+Dehydration Units
+Engines
+Fugitives
+Boilers
+
+The general permit assures compliance with this regulation using the following approach:
+Conditions are included to address NESHAP general notification, recordkeeping, emissions
+limitations, performance test, and monitoring requirements. Language in the general permit
+emphasizes that NESHAP notification and performance test requirements are separate, standalone, and independent federal requirements that must be met in addition to any other general
+permit requirements, e.g., equipment addition or change notifications. However, a timely
+submitted NOM shall suffice as a notice of the actual date of initial startup.
+SECTION VIII. DEFINITIONS
+The following definitions apply to this memorandum and general permit. All defined terms are
+written with initial capital letters in the memorandum and permit.
+“Affected Facility” as defined in 40 CFR §60.2 of the General Provisions means with reference
+to a stationary source, any apparatus to which a standard is applicable. Each NSPS standard defines
+the affected facility.
+“Affected Source” as defined in 40 CFR §63.2 of the General Provisions means the stationary
+source, the group of stationary sources, or the portion of a stationary source that is regulated by a
+relevant standard or other requirement established pursuant to Section 112 of the Clean Air Act.
+Each MACT standard defines the affected source.
+“Appendix H Activities” means certain equipment or activities on the De Minimis Facilities list
+under OAC 252:100 Appendix H which warrant inclusion in the facility’s emissions calculations
+if located at a permitted facility. AQD evaluated the De Minimis Facilities list and determined the
+equipment or activities that need to be included for oil and natural gas facilities (Part 2 Section I,
+E).
+“Certified Engine” means any engine that has been certified by the EPA to meet emissions
+standards for the purposes of meeting an NSPS or NESHAP.
+“Class I” means a facility that has an enforceable limit less than 80% of major source levels for
+each regulated air pollutant.
+“Class II” means a facility that has an enforceable limit of less than 100% of major source levels
+for each regulated air pollutant and is not a Class I facility.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+33
+
+“Controlled Engine” means an engine, with or without an Air to Fuel Ratio Controller, that uses
+catalytic or oxidation catalyst control.
+“Engine” means any reciprocating internal combustion engine or any gas-fired turbine.
+“Emergency Use Engine” means any engine that drives an emergency power generator, peaking
+power generator, firewater pump, or other emergency use equipment, and operates no more than
+500 hours per year.
+“Extended Gas Analysis” means an extended analysis (using GPA 2286 or similar approved
+methods) that provides speciated data for HAP components benzene, toluene, ethylbenzene,
+xylenes, and n-hexane.
+“Maintenance, Startup, and Shutdown (MSS)” include air emissions resulting from the
+maintenance, startup, or shutdown of equipment or facilities at a site and may include activities
+such as routine maintenance and other activities such as equipment blowdowns, pipeline pigging,
+or tank de-gassing.
+[Note: MSS emissions are part of normal operation of a source and should be accounted for in
+planning, design, and implementation of operating procedures for process and control equipment.
+As such, MSS emissions should be included in Potential to Emit (PTE) calculations and are subject
+to applicable permitting requirements. Facility shall estimate MSS emissions to the extent that they
+are predictable and quantifiable.]
+“Maintenance” means the planned routine repair and upkeep of equipment.
+“Malfunction” means a sudden and unavoidable breakdown of process or control equipment.
+“Maximum Rated Horsepower” means an engine’s maximum horsepower at ISO or
+manufacturer’s standard conditions and maximum RPM, or an engine’s maximum horsepower at
+engine site conditions and maximum RPM.
+“Notice of Modification (NOM)” means a written notice informing AQD of: (1) any modification
+or change of operations at the facility that would construct a piece of equipment or a process that
+is subject to NSPS or NESHAP, or that would modify or reconstruct a piece of equipment or a
+process such that it becomes subject to NSPS or NESHAP; (2) that would change its facility
+classification (either from a Class I facility to a Class II facility or a Class II facility to a Class I
+facility); (3) any modification to add or replace a storage tank with a capacity of 400 gallons or
+more storing VOC, a VOC Loading Operation, any combustion equipment, any amine unit, or any
+dehydration unit; (4) any modification to change emissions factors relied on in an application or a
+previous NOM; or (5) any modification to add or remove a federally enforceable limit (FEL) (e.g.,
+6 TPY limit on storage tanks). Such notice shall contain all information required in the NOM form.
+Any emissions limits requested in an NOM become an enforceable upon submittal.
+“Shutdown” means, generally, the cessation of operation of a source for any reason.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+34
+
+“Startup” means, generally, the setting in operation of a source for any reason.
+“Synthetic Minor Facility” means a facility that has the potential to emit over major source levels
+of any regulated air pollutant but with controlled actual emissions below major source levels.
+“Uncontrolled Engine” means an engine, with or without an Air to Fuel Ratio Controller, that
+has no catalytic or oxidation catalyst control.
+“VOC Loading Operation” means loading liquid VOC into a tank truck or trailer for
+transportation offsite or unloading of liquid VOC from a tank truck or trailer to a storage tank
+onsite. A VOC Loading Operation does not have the physical equipment (loading arm and pump)
+to conduct the type of loading regulated by OAC 252:100-37-16 and 100-39-41 for VOC loading
+facilities, even though it may or may not use tank trucks or trailers that meet the requirements for
+delivery vessels in OAC:252-100-39-41(d).
+SECTION IX. TIER CLASSIFICATION AND PUBLIC REVIEW
+Processing of a new, modified, or renewed General Permit has been classified as Tier II based on
+OAC 252:4-7-33(c)(1). A request for an Authorization under this General Permit is classified as
+Tier I review, without website notice in accordance with the Director’s discretion under OAC
+252:4-7-13(g)(10). However, any part 70 source seeking an Authorization under the general
+permit, that once issued would qualify as a minor facility, requires a Tier II application.
+A public notice of a 30-day public review period for the draft permit was published in The
+Oklahoman on September 20, 2023, and in The Tulsa World on September 22, 2023. A copy of
+the draft permit was available for review on the Air Quality Section of the DEQ web page:
+www.deq.ok.gov during the public review period and was also available upon request. No
+comments were received.
+SECTION X. SUMMARY
+Applicants must demonstrate eligibility for coverage under this General Permit and that they are
+able to comply with applicable Air Quality regulations. Ambient air quality standards are not
+threatened at any of the sites eligible for coverage under this General Permit. Issuance of the permit
+is recommended.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-1
+
+APPENDIX A
+Justification to Document Compliance with OAC 252:100-31 for H2S
+SECTION I. INTRODUCTION
+AERSCREEN (16216r) was used to conduct modeling to determine compliance with the ambient
+standard for H2S of OAC 252:100-31-7 for emission sources at oil and natural gas facilities to
+include: storage tanks, loading operations, combustion equipment (engines and heaters/boilers),
+glycol dehydration units, amine units, and fugitives. The ambient air quality standard is shown
+below.
+252:100-31-7. Allowable hydrogen sulfide (H2S) ambient air concentrations for new and
+existing sources
+(b) Hydrogen sulfide. Emissions of H2S from any facility shall not cause an ambient air
+concentration of H2S greater than 0.2 ppm at standard conditions, 24-hour average.
+(c) Exceptions. The standards set in this section shall not apply to ambient air concentrations
+or impacts occurring on the property from which such emission occurs, providing such
+property, from the emission point to the point of any such concentration, is controlled by the
+person responsible for such emission.
+Each section identifies the type of source being modeled, the description of the different scenarios,
+and the individual cases within each scenario. The source data used in the AERSCREEN modeling
+was based on information obtained from AQD’s Emission Inventory database. Each of the modeling
+scenarios were modeled in three locations (cases) which were determined to be representative of the
+varying terrain in the State of Oklahoma. For information related to the locations, development of
+each scenario, source type, or modeling input parameters for the storage tanks, amine units, engines
+and heaters/boilers, refer to the background information document entitled GP-OGF Modeling of
+H2S Sources dated April 6, 2017. Information related to development of each scenario, source type,
+or modeling input parameters for the loading operations and fugitives are contained in this appendix.
+SECTION II. STORAGE TANKS
+For storage tanks, the AERSCREEN modeling conducted to determine compliance with OAC
+252:100-31-7 was based on the following four (4) scenarios:
+A.
+
+Storage Tank Modeling Scenario 1
+•
+
+Vertical fixed roof storage tanks with VOC emission equal to 99 TPY, and vented directly
+to the atmosphere without controls. Two cases for this scenario were developed based on the
+concentration of H2S in crude oil/condensate.
+o The first case is “sweet” crude oil (less than or equal to 0.5% by weight sulfur (S) & 6
+ppmw H2S).
+o The second case is “sour” crude oil (greater than 0.5% S & 135 ppmw H2S).
+
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-2
+
+Vertical Fixed Roof Storage Tank AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+55.9
+1,258
+Location 2
+49.4
+1,112
+Location 3
+51.1
+1,150
+The ambient impacts from Case 2 exceed the H2S ambient air concentration limit (283 µg/m3) at all
+three locations. Based on the modeling and only taking into account impacts from the storage tanks,
+the maximum concentration of H2S in the crude oil that would be in compliance with the standard
+is 30 ppmw.
+B.
+
+Storage Tank Modeling Scenario 2
+•
+
+External floating roof storage tanks with VOC emissions equal to 99 TPY and vented directly
+to the atmosphere without controls. Two cases for this scenario were developed related to
+the concentration of H2S in crude oil/condensate.
+o The first case is “sweet” crude oil (less than or equal to 0.5% S & 6 ppmw H2S).
+o The second case is “sour” crude oil (greater than 0.5% S & 135 ppmw H2S).
+
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+External Floating Roof Storage Tank AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+120.2
+2,705
+Location 2
+13.4
+301.6
+Location 3
+13.3
+299.3
+The ambient impacts from Case 2 exceed the H2S ambient air concentration limit (283 µg/m3) at all
+three locations. Based on the modeling and only taking into account impacts from the storage tanks,
+the maximum concentration of H2S in the crude oil that would be in compliance with the standard
+is 14 ppmw.
+C.
+
+Storage Tank Modeling Scenario 3
+•
+
+Internal floating roof storage tanks with VOC emissions equal to 99 TPY and vented directly
+to the atmosphere without controls. Two cases for this scenario were developed related to
+the concentration of H2S in crude oil/condensate.
+o The first case is “sweet” crude oil (less than or equal to 0.5% S & 6 ppmw H2S).
+o The second case is “sour” crude oil (greater than 0.5% S & 135 ppmw H2S).
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-3
+
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+Internal Floating Roof Storage Tank AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+60.6
+1,364
+Location 2
+13.5
+303.3
+Location 3
+13.8
+310.6
+The ambient impacts from Case 2 exceed the H2S ambient air concentration limit (283 µg/m3) at all
+three locations. Based on the modeling and only taking into account impacts from the storage tanks,
+the maximum concentration of H2S in the crude oil that would be in compliance with the standard
+is 27 ppmw.
+D.
+
+Storage Tank Modeling Scenario 4
+•
+
+Storage tanks with VOC emissions equal to 400 TPY and vented to a flare. Two cases for
+this scenario were developed related to the concentration of H2S in crude oil/condensate.
+o The first case is “sweet” crude oil (less than or equal to 0.5% S & 6 ppmw H2S).
+o The second case is “sour” crude oil (greater than 0.5% S & 135 ppmw H2S).
+
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+Flared Storage Tank AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+0.1
+1.5
+Location 2
+<0.1
+1.1
+Location 3
+<0.1
+1.1
+The ambient impacts from both cases are in compliance with the H2S ambient air concentration limit
+(283 µg/m3) at all three locations.
+E.
+
+Summary
+
+The maximum modeled concentrations for Scenarios 1, 2, and 3, Case 2 (uncontrolled “sour” crude
+oil tanks) are greater than the 0.2 ppm (283 µg/m3) H2S ambient air concentration limit. However,
+the maximum modeled concentrations for Scenarios 1, 2, and 3, Case 1 (uncontrolled “sweet” crude
+oil tanks) and Scenario 4, Case 1 and 2 (flared crude oil tanks) do not exceed the H2S ambient air
+concentration limit. Therefore, the general permit will exclude those facilities that store “sour”
+(>0.5% S & 6 ppmw H2S) crude oil.
+Based on the modeling analyses, facilities with storage tanks storing “sour” crude oil would need a
+case-by-case analysis to demonstrate compliance with the H2S ambient air concentration limit.
+Facilities processing “sour” crude oil may be eligible for coverage under an Authorization to Operate
+if they first obtain an individual minor source construction permit, which addresses all relevant
+requirements and limitations to demonstrate compliance with OAC 252:100-31-7.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-4
+
+In order to ensure that only facilities processing “sweet” crude oil are permitted under the general
+permit, the general permit must incorporate a requirement for each facility to identify the type of
+cure oil produced at the facility. The general permit incorporates monitoring and recordkeeping of
+the type of crude oil processed at the facility to ensure compliance with this requirement. Facilities
+should monitor the crude oil sulfur content and/or H2S concentration to ensure that they remain
+eligible for the general permit.
+SECTION III. LOADING OPERATIONS
+For loading operations, the AERSCREEN modeling of a vertical fixed roof tank was used to
+determine compliance with OAC 252:100-31-7.
+•
+
+Maximum hourly emissions for loading operations were based on loading a tank truck with
+a capacity of 11,600 gallons and the default AP-42 (7/2008), Section 5.2, emission factor for
+submerged loading of crude oil into a tank truck in dedicated normal service of 2 lb/1,000
+gallons. Two cases for loading operations were developed based on the concentration of H2S
+in crude oil/condensate.
+o The first case is “sweet” crude oil (less than or equal to 0.5% by weight sulfur (S) &
+6 ppmw H2S) with an H2S/VOC emission ratio of 1,971 ppmw.
+o The second case is “sour” crude oil (greater than 0.5% S & 135 ppmw H2S) with an
+H2S/VOC emission ratio of 44,346 ppmw.
+Vertical Fixed Roof Storage Tank AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+57.4
+1,291
+Location 2
+50.7
+1,141
+Location 3
+52.4
+1,180
+
+The ambient impacts from Case 2 exceed the H2S ambient air concentration limit (283 µg/m3) at all
+three locations. Based on the modeling and only taking into account impacts from loading
+operations, the maximum concentration of H2S in the crude oil that would be in compliance with the
+standard is 29 ppmw. Since the ambient impacts from loading “sour” crude oil exceed the H2S
+ambient air concentration limit, the general permit will exclude those facilities that load “sour”
+(>0.5% S & 6 ppmw H2S) crude oil.
+Based on the modeling analyses, facilities with “sour” crude oil loading operations would need a
+case-by-case analysis to demonstrate compliance with the H2S ambient air concentration limit.
+Facilities processing “sour” crude oil may be eligible for coverage under an Authorization to Operate
+if they first obtain an individual minor source construction permit, which addresses all relevant
+requirements and limitations to demonstrate compliance with the H2S ambient air concentration limit
+of OAC 252:100-31-7.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-5
+
+SECTION IV. COMBUSTION EQUIPMENT
+A.
+
+Engines
+
+The general permit limits the sulfur content of fuel gas for engines (fuel-burning equipment) to 162
+ppmv (10 gr/100 SCF). Therefore, the modeling to determine compliance with OAC 252:100-31-7
+represents engines combusting fuel gas with an H2S content of 162 ppmv and a combustion
+efficiency of 99%, which results in an emission factor of 1.43 x 10-4 lb/MMBTU. Three cases were
+developed for modeling engines: small engines with a stack diameter of less than a foot, medium
+engines with a stack diameter of equal to one foot, and large engines with a stack diameter greater
+than a foot. The following table shows the AERSCREEN results for all three cases at each of the
+three locations.
+Engine AERSCREEN 24-hr Average Concentration (µg/m3)
+Case 1
+Case 2
+Location 1
+<0.1
+0.1
+Location 2
+<0.1
+<0.1
+Location 3
+<0.1
+0.1
+
+Case 3
+0.1
+0.1
+0.1
+
+The maximum impact for engines is less than 0.1% of the standard (0.3 µg/m3); therefore, all engines
+combusting fuel with a sulfur content less than 162 ppmv are in compliance with the H2S ambient
+air concentration limit.
+B.
+
+Heaters/Boilers
+
+The general permit limits the sulfur content of the fuel gas for heaters/boilers (fuel-burning
+equipment) to 162 ppmv (10 gr/100 SCF). Therefore, the modeling to determine compliance with
+OAC 252:100-31-7 represents heaters/boilers combusting fuel gas with an H2S content of 162 ppmv
+and a combustion efficiency of 95%, which results in an emission factor of 7.13 x 10-4 lb/MMBTU.
+Three cases were developed for modeling heaters/boilers: heaters/boilers with a heat input less than
+one (1) MMBTUH, heaters/boilers with a heat input greater than or equal to one (1) MMTBUH, and
+heaters/boilers with a heat input greater than or equal to ten (10) MMBTUH. The following table
+shows the AERSCREEN results for all three cases at each of the three locations.
+Heater/Boiler AERSCREEN 24-hr Average Concentration (µg/m3)
+Case 1
+Case 2
+Case 3
+Location 1
+0.2
+0.3
+0.4
+Location 2
+0.1
+0.1
+0.1
+Location 3
+0.1
+0.1
+0.1
+The maximum impact for heater/boilers is about 0.1% of the standard (0.3 µg/m3); therefore, all
+heaters/boilers combusting fuel with a sulfur content less than 162 ppmv are in compliance with the
+H2S ambient air concentration limit.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-6
+
+SECTION V. GLYCOL DEHYDRATION UNITS
+The general permit does not specify specific controls for dehydration units. For dehydration units,
+the AERSCREEN modeling conducted to determine compliance with OAC 252:100-31-7 was based
+on the following three (3) scenarios:
+A.
+
+Dehydration Unit Modeling Scenario 1
+•
+
+Dehydration unit with a throughput of 10 MMSCFD and not equipped with a flash tank. The
+dehydration unit’s still vent is vented directly to the atmosphere without controls. Two cases
+for this scenario were developed based on the concentration of H2S in natural gas being
+treated.
+o The first case is “sweet” natural gas (less than or equal to 4 ppmv H2S).
+o The second case is “sour” natural gas (greater than or equal to 162 ppmv H2S).
+
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+10 MMSCFD Dehydration Unit AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+6.9
+280.4
+Location 2
+0.7
+30.0
+Location 3
+0.8
+32.2
+The ambient impacts from both cases are in compliance with the H2S ambient air concentration limit
+(283 µg/m3) at all three locations. However, the ambient impact from Case 2 at Location 1 has the
+potential to exceed the H2S ambient air concentration limit (283 µg/m3) when taking into account
+impacts from other sources.
+B.
+
+Dehydration Unit Modeling Scenario 2
+•
+
+Dehydration unit with a throughput of 30 MMSCFD and equipped with a flash tank. The
+dehydration unit’s still vent and flash tank are vented directly to the atmosphere without
+controls. Two cases for this scenario were developed based on the concentration of H2S in
+natural gas being treated.
+o The first case is “sweet” natural gas (less than or equal to 4 ppmv H2S).
+o The second case is “sour” natural gas (greater than or equal to 162 ppmv H2S).
+
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+30 MMSCFD Dehydration Unit AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+24.3
+985.0
+Location 2
+2.9
+119.1
+Location 3
+3.2
+128.2
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-7
+
+The ambient impact from Case 2 exceeds the H2S ambient air concentration limit (283 µg/m3) at
+Location 1. Based on the modeling and only taking into account impacts from the dehydration unit,
+the maximum concentration of H2S in the natural gas that would be in compliance with the standard
+is 46 ppmv.
+C.
+
+Dehydration Unit Modeling Scenario 3
+•
+
+Dehydration unit with a throughput of 100 MMSCFD and equipped with a flash tank. The
+dehydration unit’s flash tank is routed to the inlet or reboiler fuel gas system and the
+dehydration unit’s still vent is vented through a condenser to the atmosphere. Two cases for
+this scenario were developed based on the concentration of H2S in natural gas being treated.
+o The first case is “sweet” natural gas (less than or equal to 4 ppmv H2S).
+o The second case is “sour” natural gas (greater than or equal to 162 ppmv H2S).
+
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+100 MMSCFD Dehydration Unit AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+55.2
+2,237
+Location 2
+9.7
+394.6
+Location 3
+10.2
+412.8
+The ambient impacts from Case 2 exceed the H2S ambient air concentration limit (283 µg/m3) at all
+three locations. Based on the modeling and only taking into account impacts from the dehydration
+unit, the maximum concentration of H2S in the natural gas being treated that would be in compliance
+with the standard is 20 ppmv.
+D.
+
+Summary
+
+The maximum modeled concentrations for Scenarios 2 and 3, Case 2 (“sour” natural gas) are greater
+than the 0.2 ppm (283 µg/m3) H2S ambient air concentration limit. The maximum modeled
+concentrations for Scenarios 1, 2, and 3, Case 1 (“sweet” natural gas) and Scenario 1, Case 2 (“sour”
+natural gas) do not exceed the H2S ambient air concentration limit. However, the impacts from
+Scenario 1, Case 2 when combined with other facility impacts could exceed the H2S ambient air
+concentration limit. Therefore, the general permit will exclude those facilities with dehydration units
+that treat “sour” (>4 ppmv H2S) natural gas.
+Based on the modeling analyses, facilities with dehydration units that treat “sour” (>4 ppmw H2S)
+natural gas would need a case-by-case analysis to demonstrate compliance with the H2S ambient air
+concentration limit. Facilities with dehydration units that treat “sour” (>4 ppmw H2S) natural gas
+may be eligible for coverage under an Authorization to Operate if they first obtain an individual
+minor source construction permit, which addresses all relevant requirements and limitations to
+demonstrate compliance with OAC 252:100-31-7.
+In order to ensure that only facilities with dehydration units only process “sweet” (≤ 4 ppmw H2S)
+natural gas are permitted under the general permit, the general permit must incorporate a requirement
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-8
+
+for determining the H2S content of gas treated by a facility with a dehydration unit. The general
+permit incorporates monitoring and recordkeeping of the H2S content of the natural gas for facilities
+with dehydration units to ensure compliance with this requirement. Facilities with dehydration units
+should also continue to monitor the H2S concentration of the natural gas to ensure that they remain
+eligible for the general permit.
+SECTION VI. AMINE UNITS
+For amine units, the AERSCREEN modeling conducted to determine compliance with OAC
+252:100-31-7 was based on the following two (2) scenarios:
+A.
+
+Amine Unit Modeling Scenario 1
+•
+
+Amine unit still vents with H2S emission less than or equal to 0.3 lb/hr. The amine unit still
+vent is vented directly to the atmosphere without controls. Two cases for this scenario were
+developed based on the concentration of H2S in natural gas being treated.
+o The first case is a facility which treats “sweet” natural gas (less than or equal to 4 ppmv
+H2S).
+o The second case is a facility which treats “sour” natural gas (greater than 4 ppmv H2S
+(10 ppmv)).
+
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+Uncontrolled Amine Unit AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+384.0
+539.4
+Location 2
+191.9
+213.3
+Location 3
+198.8
+231.1
+The ambient impacts from Case 1 and Case 2 exceed the H2S ambient air concentration limit (283
+µg/m3) at Location 1. However, the ambient impact from Case 2 at Location 3 also has the potential
+to exceed the H2S ambient air concentration limit (283 µg/m3) when taking into account impacts
+from other sources.
+B.
+
+Amine Unit Modeling Scenario 2
+•
+
+Amine unit still vents with H2S emission greater than 0.3 lb/hr. and flared (oxidized). Two
+cases for this scenario were developed based on the concentration of H2S in natural gas being
+treated.
+o The first case is based on the de minimis level of H2S emissions 0.3 lb/hr being flared,
+assuming 95% control (0.015 lb/hr H2S).
+o The second case is based on the maximum amount of SO2 emissions for a minor source
+or the major source threshold. Assuming 95% control and 99 TPY (23.79 lb/hr) SO2, this
+is equivalent to uncontrolled H2S emissions of 0.63 lb/hr.
+The following table shows the AERSCREEN results for both cases at each of the three locations.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-9
+
+Controlled Amine Unit AERSCREEN Results (µg/m3)
+Case 1
+Case 2
+Location 1
+0.9
+246.9
+Location 2
+0.2
+38.3
+Location 3
+0.2
+31.1
+The ambient impacts from both cases are in compliance with the H2S ambient air concentration limit
+(283 µg/m3) at all three locations. However, the ambient impact from Case 2 at Location 1 has the
+potential to exceed the H2S ambient air concentration limit (283 µg/m3) when taking into account
+impacts from other sources.
+C.
+
+Summary
+
+The maximum modeled concentration for Scenario 1, Case 1 and 2 are above the 0.2 ppm (283
+µg/m3) H2S ambient air concentration limit at Location 1. Therefore, the general permit will exclude
+those facilities with uncontrolled amine units. The maximum modeled concentration for Scenario 2,
+Case 2 is within 80% of the H2S ambient air concentration limit at Location 1. Therefore, the general
+permit will exclude those facilities with controlled amine units treating “sour” natural gas.
+Based on the modeling analyses, facilities with uncontrolled amine units and controlled amine units
+treating “sour” natural gas would need a case-by-case analysis to demonstrate compliance with the
+H2S ambient air concentration limit. Facilities with uncontrolled amine units or controlled amine
+units treating “sour” natural gas may be eligible for coverage under an Authorization to Operate if
+they first obtain an individual minor source construction permit, which addresses all relevant
+requirements and limitations to demonstrate compliance with OAC 252:100-31-7.
+In order to ensure that only facilities with controlled amine units treating “sweet” (≤ 4 ppmw H2S)
+natural gas are permitted under the general permit, the general permit must incorporate a requirement
+for determining the H2S content of gas treated by a facility with an amine unit and establish that all
+amine units must be flared. The general permit incorporates monitoring and recordkeeping of the
+H2S content of the natural gas for facilities with amine units to ensure compliance with the
+requirement that the amine unit treat “sweet” natural gas. The general permit also establishes a
+requirement that facilities with amine units route the flash tank and still vent of the amine unit to a
+control device. Facilities with amine units should also continue to monitor the H2S concentration of
+the natural gas to ensure that they remain eligible for the general permit.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-10
+
+SECTION VII. FUGITIVE EMISSION SOURCES
+For fugitive emission sources, the AERSCREEN modeling used to determine compliance with OAC
+252:100-31-7 was based on a 150 ft x 150 ft volume source emitting 5 TPY of VOC from
+components in gas and liquid service for a facility processing natural gas with a maximum H2S
+concentration of 162 ppmv and “sweet” crude oil (less than or equal to 0.5% S & 6 ppmw H2S).
+The following table shows the AERSCREEN results for Scenario 1 at each of the three locations.
+AERSCREEN 24-hr Average Concentrations (µg/m3)
+Scenario 1
+Location 1
+0.1
+Location 2
+0.1
+Location 3
+0.1
+The maximum modeled concentration is less than 1% of the standard; therefore, impacts from
+fugitive equipment leaks in gas service processing natural gas with a maximum H2S concentration
+of 162 ppmv and in liquid service processing “sweet” crude oil or condensate are in compliance with
+the ambient air concentration limit.
+SECTION VIII. SUMMARY
+A.
+
+Storage Tanks
+
+Storage tanks at facilities producing or handling “sweet” (<0.5% S & 6 ppmw H2S) crude oil will
+have impacts below the H2S ambient air concentration limit. Storage tanks at facilities producing or
+handling “sour (>0.5% S & 135 ppmw H2S) crude oil have the possibility of exceeding the H2S
+ambient air concentration limit. Limiting the general permit to facilities that produce or handle
+“sweet” crude oil will ensure compliance with OAC 252:100-31-7.
+B.
+
+Loading Operations
+
+Loading operations involving “sweet” (<0.5% S & 6 ppmw H2S) crude oil at production sites and
+condensate at compressor stations will have impacts below the H2S ambient air concentration limit
+Limiting the general permit to facilities that load “sweet” crude oil or condensate into tank trucks
+will ensure compliance with OAC 252:100-31-7.
+C.
+
+Combustion Equipment
+
+Engines and heaters/boilers combusting fuel with a sulfur content less than 162 ppmv have impacts
+of less than 0.1% of the H2S ambient air concentration limit and will not contribute significantly to
+the facility wide impact. Limiting the fuel sulfur content of combustion equipment to 162 ppmv will
+ensure compliance with OAC 252:100-31-7.
+
+2022 GP-OGF – Memorandum (Version 2)
+D.
+
+APPENDIX A
+
+A-11
+
+Glycol Dehydration Units
+
+Dehydration units processing “sweet” (≤ 4 ppmv H2S) natural gas will have impacts below the H2S
+ambient air concentration limit. Dehydration units processing “sour” (> 4 ppmv H2S) natural gas
+have the possibility of exceeding the H2S ambient air concentration limit. Limiting the general
+permit to facilities with dehydration units that processing “sweet” (≤ 4 ppmv H2S) natural gas will
+ensure compliance with OAC 252:100-31-7.
+E.
+
+Amine Units
+
+Controlled amine units processing “sweet” (≤ 4 ppmv H2S) natural gas will have impacts below the
+H2S ambient air concentration limit. Uncontrolled amine units processing “sweet” (≤ 4 ppmv H2S)
+natural gas and controlled amine units processing “sour” (> 4 ppmv H2S) natural gas have the
+possibility of exceeding the H2S ambient air concentration limit. Limiting the general permit to
+facilities with controlled amine units that processing “sweet” (≤ 4 ppmv H2S) natural gas will ensure
+compliance with OAC 252:100-31-7.
+F.
+
+Fugitive Emission Sources
+
+Emissions from fugitive equipment leaks at facilities processing “sweet” crude oil, condensate, and
+natural gas containing less than 162 ppmv H2S will have impacts of less than 0.1% of the H2S
+ambient air concentration limit and will not contribute significantly to the facility wide impact.
+Limiting the general permit to facilities that process “sweet” crude oil, condensate, or natural gas
+containing less than 162 ppmv H2S will ensure compliance with OAC 252:100-31-7.
+G.
+
+Facility Wide Compliance
+
+The H2S ambient air concentration of OAC 252:100-31-7 is applicable to each facility as a whole.
+Since not each type of oil and gas facilities will have all of the emission sources which have been
+evaluated, a number of representative oil and gas facility types were established to evaluate the
+impacts from the whole facility for the types of emission sources usually located at those facilities.
+Typical Emission Units Located at Specific Types of Facilities
+Emission Units
+FR Storage Tank
+IFR Storage Tank
+EFR Storage Tank
+Loading Operation
+Combustion Equipment
+Dehydration Unit
+Amine Unit
+Fugitive Sources
+1
+
+Production
+Sites
+X
+
+X
+X
+X3
+X3
+X
+
+Tank
+Battery
+X
+
+X
+X
+
+X
+
+Compressor
+Station1
+X2
+
+X2
+X
+X
+X3
+X
+
+Transfer
+Station
+X
+X
+X
+
+Storage
+Facility
+
+X
+
+X
+
+X
+X
+
+- Compressor stations also represents gas plants since similar equipment is located at both.
+2
+- Even though compressor stations will have FR storage tanks and loading operations, the liquids handled at
+compressor stations do not contain significant amounts of H2S.
+3
+- Most facilities will not have multiple dehydration units or amine units so the evaluation only takes into account
+impacts from a single dehydration unit or amine unit.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-12
+
+Cumulative H2S Impact at a Production Site
+Emission Units
+Source Impact (µg/m3)
+1
+FR Storage Tank
+55.9
+1
+Loading Operation
+57.4
+2
+Combustion Equipment
+1.0
+Dehydration Unit 3
+55.2
+Amine Unit 4
+0.9
+Fugitive Sources
+0.1
+Total H2S Impact
+
+170.5
+
+1
+
+- Based on “sweet” crude oil.
+- Based on maximum impact for engines and heaters/boilers and two engines and
+two heaters/boilers.
+3
+- Based on maximum impact for a dehydration unit treating “sweet” natural gas.
+4
+- Based on maximum impact of a controlled amine unit treating “sweet” natural gas.
+2
+
+Cumulative H2S Impact at a Tank Battery
+Emission Units
+Source Impact (µg/m3)
+FR Storage Tank 1
+55.9
+1
+Loading Operation
+57.4
+Combustion Equipment 2
+0.8
+Fugitive Sources
+0.1
+Total H2S Impact
+
+114.2
+
+1
+
+- Based on “sweet” crude oil.
+2
+- Based on maximum impact for heaters/boilers and two heaters/boilers.
+
+Cumulative H2S Impact at a Compressor Station
+Emission Units
+Source Impact (µg/m3)
+FR Storage Tank 1
+55.9
+Loading Operation 1
+57.4
+2
+Combustion Equipment
+2.2
+Dehydration Unit 3
+55.2
+Amine Unit 4
+0.9
+Fugitive Sources
+0.1
+Total H2S Impact
+1
+
+171.7
+
+- Based on “sweet” crude oil.
+2
+- Based on maximum impact for engines and heaters/boilers and ten engines and
+three heaters/boilers.
+3
+- Based on maximum impact for a dehydration unit treating “sweet” natural gas.
+4
+- Based on maximum impact for a controlled amine unit treating “sweet” natural
+gas.
+
+2022 GP-OGF – Memorandum (Version 2)
+
+APPENDIX A
+
+A-13
+
+Transfer Station/Storage Facility
+Emission Units
+Source Impact (µg/m3)
+1
+FR Storage Tank
+55.9
+1
+EFR Storage Tank
+120.2
+1
+IFR Storage Tank
+60.6
+Fugitive Sources
+0.1
+Total H2S Impact
+1
+
+236.8
+
+- Based on “sweet” crude oil.
+
+Based on the modeling, the cumulative impact of the facilities is below the H2S ambient air
+concentration limit. To ensure compliance with OAC 252:100-31-7, the general permit should
+exclude the following:
+•
+•
+•
+•
+•
+
+Facilities that produce or handle “sour” crude oil;
+Facilities with uncontrolled amine units;
+Facilities with controlled amine units treating “sour” natural gas;
+Facilities with multiple amine units; and
+Facilities with glycol dehydration units treating “sour” natural gas.
+
+These facilities may be eligible for coverage under an Authorization to Operate if they first obtain
+an individual minor source construction permit, where all relevant requirements and limitations
+demonstrate compliance with OAC 252:100-31-7.
+
+
