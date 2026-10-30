@@ -1,0 +1,35 @@
+name: Fetch source pages
+
+# Saves the text of the listed government pages and PDFs on a branch
+# (fetch/<run>) so an editor can compare site wording with the source.
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: Space-separated page or PDF URLs
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+      - run: printf '%s\n' "$URLS" > fetch-urls.txt
+        env:
+          URLS: ${{ inputs.urls }}
+      - run: node scripts/verify-sources.mjs --fetch fetch-urls.txt --out fetched
+      - name: Save the pages on a branch
+        run: |
+          branch="fetch/${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add fetched
+          git commit -m "Fetched source pages"
+          git push -u origin "$branch"

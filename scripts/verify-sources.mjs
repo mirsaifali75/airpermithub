@@ -39,9 +39,8 @@ export function htmlText(html) {
   const body = html
     .replace(/<!--[\s\S]*?-->/g, " ")
     .replace(/<(script|style|noscript|svg|template)\b[\s\S]*?<\/\1>/gi, " ")
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/(p|div|li|tr|h[1-6]|td|th|section|article|dd|dt)>/gi, "\n")
-    .replace(/<[a-zA-Z/!](?:[^>"']|"[^"]*"|'[^']*')*>/g, " ");
+    // One pass over tags, so markup inside attribute values (tooltips) is never split
+    .replace(/<[a-zA-Z/!](?:[^>"']|"[^"]*"|'[^']*')*>/g, (t) => (/^<(br\b|\/(p|div|li|tr|h[1-6]|td|th|section|article|dd|dt)>)/i.test(t) ? "\n" : " "));
   return decode(body).replace(/[ \t\r\f\v ]+/g, " ").replace(/\n\s*/g, "\n").trim();
 }
 export const titleOf = (html) => decode(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").replace(/\s+/g, " ").trim();
@@ -107,7 +106,9 @@ export function closestSentences(claim, text, n = 2) {
 
 // ---------- eCFR paragraphs ----------
 
-const ROMAN = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x", "xi", "xii", "xiii", "xiv", "xv", "xvi", "xvii", "xviii", "xix", "xx", "xxi", "xxii", "xxiii", "xxiv", "xxv"];
+const roman = (n) => [["c", 100], ["xc", 90], ["l", 50], ["xl", 40], ["x", 10], ["ix", 9], ["v", 5], ["iv", 4], ["i", 1]].reduce((out, [r, v]) => { while (n >= v) { out += r; n -= v; } return out; }, "");
+// Definitions sections run past (xl), as in 51.165(a)(1)(xlii)
+const ROMAN = Array.from({ length: 120 }, (_, i) => roman(i + 1));
 const nextLetter = (l) => (l === "z" ? "aa" : l.length === 2 ? String.fromCharCode(l.charCodeAt(0) + 1).repeat(2) : String.fromCharCode(l.charCodeAt(0) + 1));
 function follows(type, prev, label) {
   if (type.endsWith("digit")) return Number(label) === Number(prev) + 1;
@@ -129,7 +130,7 @@ export function ecfrParagraphs(xml) {
     let raw = m[2].trim();
     let marker;
     let inline = false;
-    while ((marker = raw.match(/^\(\s*(<(?:I|E)[^>]*>)?\s*([0-9]+|[a-z]{1,4}|[A-Z]{1,3})\s*(?:<\/(?:I|E)>)?\s*\)\s*/))) {
+    while ((marker = raw.match(/^\(\s*(<(?:I|E)[^>]*>)?\s*([0-9]+|[a-z]{1,6}|[A-Z]{1,3})\s*(?:<\/(?:I|E)>)?\s*\)\s*/))) {
       const italic = !!marker[1];
       const label = marker[2];
       let candidates;
@@ -155,7 +156,7 @@ export function ecfrParagraphs(xml) {
       raw = raw.slice(marker[0].length);
       inline = true;
       // "(e) <I>Heading.</I> (1) Text": the heading belongs to (e), the text to (e)(1).
-      const heading = raw.match(/^<(I|E)\b[^>]*>([^<]*)<\/\1>\s*(?=\(\s*(?:<(?:I|E)[^>]*>)?\s*(?:[0-9]+|[a-z]{1,4}|[A-Z]{1,3})\s*(?:<\/(?:I|E)>)?\s*\)\s)/);
+      const heading = raw.match(/^<(I|E)\b[^>]*>([^<]*)<\/\1>\s*(?=\(\s*(?:<(?:I|E)[^>]*>)?\s*(?:[0-9]+|[a-z]{1,6}|[A-Z]{1,3})\s*(?:<\/(?:I|E)>)?\s*\)\s)/);
       if (heading) {
         out.push({ des: stack.map((s) => `(${s.label})`).join(""), text: decode(heading[2]).trim() });
         prevText = heading[2];
@@ -180,6 +181,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const pageCache = new Map();
 const tmp = mkdtempSync(join(tmpdir(), "verify-"));
 let pdfCount = 0;
+let keepRaw = false;
 
 async function fetchPage(url) {
   const key = url.split("#")[0];
@@ -192,7 +194,7 @@ async function fetchPage(url) {
         const type = res.headers.get("content-type") ?? "";
         const buf = Buffer.from(await res.arrayBuffer());
         const isPdf = type.includes("pdf") || buf.subarray(0, 5).toString() === "%PDF-";
-        let text = "", title = "";
+        let text = "", title = "", raw;
         if (isPdf) {
           const f = join(tmp, `p${pdfCount++}.pdf`);
           writeFileSync(f, buf);
@@ -201,8 +203,9 @@ async function fetchPage(url) {
           const html = buf.toString("utf8");
           text = htmlText(html);
           title = titleOf(html);
+          if (keepRaw) raw = html;
         }
-        last = { status: res.status, finalUrl: res.url, type: isPdf ? "pdf" : type.split(";")[0], title, text, textAlnum: alnum(text) };
+        last = { status: res.status, finalUrl: res.url, type: isPdf ? "pdf" : type.split(";")[0], title, text, textAlnum: alnum(text), raw };
         if (res.status < 500 && res.status !== 429) return last;
       } catch (e) {
         last = { status: 0, error: e.cause?.code ?? e.name ?? String(e), text: "", textAlnum: "" };
@@ -302,6 +305,12 @@ async function check(c) {
     const desExists = !des || sec.paras.some((p) => p.des === des || p.des.startsWith(`${des}(`));
     if (c.kind === "cfr") { results.push(desExists ? { result: "verified", detail: sec.head } : { result: "not-found", detail: `§ ${section} exists but paragraph ${des} not found` }); continue; }
     const target = alnum(c.kind === "cfr-term" ? c.text.replace(/\s*\([^)]*\)\s*/g, " ") : c.text);
+    if (c.kind === "cfr-term" && c.text.includes(" | ")) {
+      const here = alnum(paragraphText(sec.paras, des));
+      const missing = c.text.split(" | ").filter((t) => !here.includes(alnum(t)));
+      results.push(desExists && !missing.length ? { result: "verified", detail: `§ ${section}${des}` } : { result: "not-found", detail: `not in § ${section}${des}: ${missing.join("; ")}` });
+      continue;
+    }
     if (desExists && alnum(paragraphText(sec.paras, des)).includes(target)) { results.push({ result: "verified", detail: `§ ${section}${des}` }); continue; }
     const elsewhere = sec.paras.find((p) => alnum(p.text).includes(target));
     if (elsewhere) { results.push({ result: "other-paragraph", detail: `found in § ${section}${elsewhere.des}, cited ${des || "section"}` }); continue; }
@@ -314,8 +323,26 @@ async function check(c) {
 
 // ---------- main ----------
 
+/** Saves the text of each listed page, for an editor checking wording against the source. */
+async function fetchOnly(listFile, outDir) {
+  mkdirSync(outDir, { recursive: true });
+  keepRaw = true;
+  const urls = readFileSync(listFile, "utf8").split(/\s+/).filter((u) => /^https?:\/\//.test(u));
+  const index = {};
+  for (const [n, u] of urls.entries()) {
+    const page = await fetchPage(u);
+    const name = `f${String(n + 1).padStart(3, "0")}.txt`;
+    index[name] = { url: u, status: page.status, finalUrl: page.finalUrl, type: page.type, title: page.title, error: page.error, length: page.text?.length ?? 0 };
+    writeFileSync(join(outDir, name), page.text ?? "");
+    if (page.raw) writeFileSync(join(outDir, name.replace(/\.txt$/, ".html")), page.raw);
+  }
+  writeFileSync(join(outDir, "index.json"), JSON.stringify(index, null, 1));
+  console.log(JSON.stringify(index, null, 1));
+}
+
 async function main() {
   const arg = (n, d) => (process.argv.includes(n) ? process.argv[process.argv.indexOf(n) + 1] : d);
+  if (arg("--fetch", null)) return fetchOnly(arg("--fetch"), arg("--out", "fetched"));
   const claims = JSON.parse(readFileSync(arg("--claims", "verify-claims.json"), "utf8"));
   const outDir = arg("--out", "data/verification");
   mkdirSync(outDir, { recursive: true });
