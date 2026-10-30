@@ -1,0 +1,357 @@
+{
+  "title": 40,
+  "part": 63,
+  "subpart": "ZZZZ",
+  "url": "https://www.ecfr.gov/current/title-40/part-63/subpart-ZZZZ",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2024-08-30",
+  "hash": "076cce894f2680c09c8a4a215e1a8481f3ff8a8b89a805b1302cd3ac18564637",
+  "heading": "National Emissions Standards for Hazardous Air Pollutants for Stationary Reciprocating Internal Combustion Engines",
+  "fullHeading": "Subpart ZZZZ—National Emissions Standards for Hazardous Air Pollutants for Stationary Reciprocating Internal Combustion Engines",
+  "source": "69 FR 33506, June 15, 2004, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "63.6580",
+      "heading": "What is the purpose of subpart ZZZZ?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6585",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": "63.6590",
+      "heading": "What parts of my plant does this subpart cover?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": "63.6595",
+      "heading": "When do I have to comply with this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6600",
+      "heading": "What emission limitations and operating limitations must I meet if I own or operate a stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions?",
+      "group": "Emission and Operating Limitations",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6601",
+      "heading": "What emission limitations must I meet if I own or operate a new or reconstructed 4SLB stationary RICE with a site rating of greater than or equal to 250 brake HP and less than or equal to 500 brake HP located at a major source of HAP emissions?",
+      "group": "Emission and Operating Limitations",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6602",
+      "heading": "What emission limitations and other requirements must I meet if I own or operate an existing stationary RICE with a site rating of equal to or less than 500 brake HP located at a major source of HAP emissions?",
+      "group": "Emission and Operating Limitations",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6603",
+      "heading": "What emission limitations, operating limitations, and other requirements must I meet if I own or operate an existing stationary RICE located at an area source of HAP emissions?",
+      "group": "Emission and Operating Limitations",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "63.6604",
+      "heading": "What fuel requirements must I meet if I own or operate a stationary CI RICE?",
+      "group": "Emission and Operating Limitations",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": "63.6605",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6610",
+      "heading": "By what date must I conduct the initial performance tests or other initial compliance demonstrations if I own or operate a stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6611",
+      "heading": "By what date must I conduct the initial performance tests or other initial compliance demonstrations if I own or operate a new or reconstructed 4SLB SI stationary RICE with a site rating of greater than or equal to 250 and less than or equal to 500 brake HP located at a major source of HAP emissions?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6612",
+      "heading": "By what date must I conduct the initial performance tests or other initial compliance demonstrations if I own or operate an existing stationary RICE with a site rating of less than or equal to 500 brake HP located at a major source of HAP emissions or an existing stationary RICE located at an area source of HAP emissions?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6615",
+      "heading": "When must I conduct subsequent performance tests?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6620",
+      "heading": "What performance tests and other procedures must I use?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "63.6625",
+      "heading": "What are my monitoring, installation, collection, operation, and maintenance requirements?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "63.6630",
+      "heading": "How do I demonstrate initial compliance with the emission limitations, operating limitations, and other requirements?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6635",
+      "heading": "How do I monitor and collect data to demonstrate continuous compliance?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6640",
+      "heading": "How do I demonstrate continuous compliance with the emission limitations, operating limitations, and other requirements?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": "63.6645",
+      "heading": "What notifications must I submit and when?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "63.6650",
+      "heading": "What reports must I submit and when?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "63.6655",
+      "heading": "What records must I keep?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "63.6660",
+      "heading": "In what form and how long must I keep my records?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6665",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.6670",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "63.6675",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": null,
+      "heading": "Table 1a to Subpart ZZZZ of Part 63—Emission Limitations for Existing, New, and Reconstructed Spark Ignition, 4SRB Stationary RICE >500 HP Located at a Major Source of HAP Emissions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 1b to Subpart ZZZZ of Part 63—Operating Limitations for Existing, New, and Reconstructed SI 4SRB Stationary RICE >500 HP Located at a Major Source of HAP Emissions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2a to Subpart ZZZZ of Part 63—Emission Limitations for New and Reconstructed 2SLB and Compression Ignition Stationary RICE >500 HP and New and Reconstructed 4SLB Stationary RICE ≥250 HP Located at a Major Source of HAP Emissions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2b to Subpart ZZZZ of Part 63—Operating Limitations for New and Reconstructed 2SLB and CI Stationary RICE >500 HP Located at a Major Source of HAP Emissions, New and Reconstructed 4SLB Stationary RICE ≥250 HP Located at a Major Source of HAP Emissions, Existing CI Stationary RICE >500 HP",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2c to Subpart ZZZZ of Part 63—Requirements for Existing Compression Ignition Stationary RICE Located at a Major Source of HAP Emissions and Existing Spark Ignition Stationary RICE ≤500 HP Located at a Major Source of HAP Emissions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2d to Subpart ZZZZ of Part 63—Requirements for Existing Stationary RICE Located at Area Sources of HAP Emissions",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart ZZZZ of Part 63—Subsequent Performance Tests",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart ZZZZ of Part 63—Requirements for Performance Tests",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart ZZZZ of Part 63—Initial Compliance With Emission Limitations, Operating Limitations, and Other Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart ZZZZ of Part 63—Continuous Compliance With Emission Limitations, and Other Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart ZZZZ of Part 63—Requirements for Reports",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 8 to Subpart ZZZZ of Part 63—Applicability of General Provisions to Subpart ZZZZ",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Appendix A to Subpart ZZZZ of Part 63—Protocol for Using an Electrochemical Analyzer to Determine Oxygen and Carbon Monoxide Concentrations From Certain Engines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "63.6585",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "You are subject to this subpart if you own or operate a stationary RICE at a major or area source of HAP emissions, except if the stationary RICE is being tested at a stationary RICE test cell/stand.",
+        "(a) A stationary RICE is any internal combustion engine which uses reciprocating motion to convert heat energy into mechanical work and which is not mobile. Stationary RICE differ from mobile RICE in that a stationary RICE is not a non-road engine as defined at 40 CFR 1068.30, and is not used to propel a motor vehicle or a vehicle used solely for competition.",
+        "(b) A major source of HAP emissions is a plant site that emits or has the potential to emit any single HAP at a rate of 10 tons (9.07 megagrams) or more per year or any combination of HAP at a rate of 25 tons (22.68 megagrams) or more per year, except that for oil and gas production facilities, a major source of HAP emissions is determined for each surface site.",
+        "(c) An area source of HAP emissions is a source that is not a major source.",
+        "(d) If you are an owner or operator of an area source subject to this subpart, your status as an entity subject to a standard or other requirements under this subpart does not subject you to the obligation to obtain a permit under 40 CFR part 70 or 71, provided you are not required to obtain a permit under 40 CFR 70.3(a) or 40 CFR 71.3(a) for a reason other than your status as an area source under this subpart. Notwithstanding the previous sentence, you must continue to comply with the provisions of this subpart as applicable.",
+        "(e) If you are an owner or operator of a stationary RICE used for national security purposes, you may be eligible to request an exemption from the requirements of this subpart as described in 40 CFR part 1068, subpart C.",
+        "(f) The emergency stationary RICE listed in paragraphs (f)(1) through (3) of this section are not subject to this subpart. The stationary RICE must meet the definition of an emergency stationary RICE in § 63.6675, which includes operating according to the provisions specified in § 63.6640(f).",
+        "(1) Existing residential emergency stationary RICE located at an area source of HAP emissions that do not operate for the purpose specified in § 63.6640(f)(4)(ii).",
+        "(2) Existing commercial emergency stationary RICE located at an area source of HAP emissions that do not operate for the purpose specified in § 63.6640(f)(4)(ii).",
+        "(3) Existing institutional emergency stationary RICE located at an area source of HAP emissions that do not operate for the purpose specified in § 63.6640(f)(4)(ii)."
+      ],
+      "cita": "[69 FR 33506, June 15, 2004, as amended at 73 FR 3603, Jan. 18, 2008; 78 FR 6700, Jan. 30, 2013; 87 FR 48607, Aug. 10, 2022]"
+    },
+    {
+      "id": "63.6590",
+      "heading": "What parts of my plant does this subpart cover?",
+      "paragraphs": [
+        "This subpart applies to each affected source.",
+        "(a) Affected source. An affected source is any existing, new, or reconstructed stationary RICE located at a major or area source of HAP emissions, excluding stationary RICE being tested at a stationary RICE test cell/stand.",
+        "(1) Existing stationary RICE.",
+        "(i) For stationary RICE with a site rating of more than 500 brake horsepower (HP) located at a major source of HAP emissions, a stationary RICE is existing if you commenced construction or reconstruction of the stationary RICE before December 19, 2002.",
+        "(ii) For stationary RICE with a site rating of less than or equal to 500 brake HP located at a major source of HAP emissions, a stationary RICE is existing if you commenced construction or reconstruction of the stationary RICE before June 12, 2006.",
+        "(iii) For stationary RICE located at an area source of HAP emissions, a stationary RICE is existing if you commenced construction or reconstruction of the stationary RICE before June 12, 2006.",
+        "(iv) A change in ownership of an existing stationary RICE does not make that stationary RICE a new or reconstructed stationary RICE.",
+        "(2) New stationary RICE. (i) A stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions is new if you commenced construction of the stationary RICE on or after December 19, 2002.",
+        "(ii) A stationary RICE with a site rating of equal to or less than 500 brake HP located at a major source of HAP emissions is new if you commenced construction of the stationary RICE on or after June 12, 2006.",
+        "(iii) A stationary RICE located at an area source of HAP emissions is new if you commenced construction of the stationary RICE on or after June 12, 2006.",
+        "(3) Reconstructed stationary RICE. (i) A stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions is reconstructed if you meet the definition of reconstruction in § 63.2 and reconstruction is commenced on or after December 19, 2002.",
+        "(ii) A stationary RICE with a site rating of equal to or less than 500 brake HP located at a major source of HAP emissions is reconstructed if you meet the definition of reconstruction in § 63.2 and reconstruction is commenced on or after June 12, 2006.",
+        "(iii) A stationary RICE located at an area source of HAP emissions is reconstructed if you meet the definition of reconstruction in § 63.2 and reconstruction is commenced on or after June 12, 2006.",
+        "(b) Stationary RICE subject to limited requirements. (1) An affected source which meets either of the criteria in paragraphs (b)(1)(i) through (ii) of this section does not have to meet the requirements of this subpart and of subpart A of this part except for the initial notification requirements of § 63.6645(f).",
+        "(i) The stationary RICE is a new or reconstructed emergency stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions.",
+        "(ii) The stationary RICE is a new or reconstructed limited use stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions.",
+        "(2) A new or reconstructed stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions which combusts landfill or digester gas equivalent to 10 percent or more of the gross heat input on an annual basis must meet the initial notification requirements of § 63.6645(f) and the requirements of §§ 63.6625(c), 63.6650(g), and 63.6655(c). These stationary RICE do not have to meet the emission limitations and operating limitations of this subpart.",
+        "(3) The following stationary RICE do not have to meet the requirements of this subpart and of subpart A of this part, including initial notification requirements:",
+        "(i) Existing spark ignition 2 stroke lean burn (2SLB) stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions;",
+        "(ii) Existing spark ignition 4 stroke lean burn (4SLB) stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions;",
+        "(iii) Existing emergency stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions.",
+        "(iv) Existing limited use stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions;",
+        "(v) Existing stationary RICE with a site rating of more than 500 brake HP located at a major source of HAP emissions that combusts landfill gas or digester gas equivalent to 10 percent or more of the gross heat input on an annual basis;",
+        "(c) Stationary RICE subject to Regulations under 40 CFR Part 60. An affected source that meets any of the criteria in paragraphs (c)(1) through (7) of this section must meet the requirements of this part by meeting the requirements of 40 CFR part 60 subpart IIII, for compression ignition engines or 40 CFR part 60 subpart JJJJ, for spark ignition engines. No further requirements apply for such engines under this part.",
+        "(1) A new or reconstructed stationary RICE located at an area source;",
+        "(2) A new or reconstructed 2SLB stationary RICE with a site rating of less than or equal to 500 brake HP located at a major source of HAP emissions;",
+        "(3) A new or reconstructed 4SLB stationary RICE with a site rating of less than 250 brake HP located at a major source of HAP emissions;",
+        "(4) A new or reconstructed spark ignition 4 stroke rich burn (4SRB) stationary RICE with a site rating of less than or equal to 500 brake HP located at a major source of HAP emissions;",
+        "(5) A new or reconstructed stationary RICE with a site rating of less than or equal to 500 brake HP located at a major source of HAP emissions which combusts landfill or digester gas equivalent to 10 percent or more of the gross heat input on an annual basis;",
+        "(6) A new or reconstructed emergency or limited use stationary RICE with a site rating of less than or equal to 500 brake HP located at a major source of HAP emissions;",
+        "(7) A new or reconstructed compression ignition (CI) stationary RICE with a site rating of less than or equal to 500 brake HP located at a major source of HAP emissions."
+      ],
+      "cita": "[69 FR 33506, June 15, 2004, as amended at 73 FR 3604, Jan. 18, 2008; 75 FR 9674, Mar. 3, 2010; 75 FR 37733, June 30, 2010; 75 FR 51588, Aug. 20, 2010; 78 FR 6700, Jan. 30, 2013; 87 FR 48607, Aug. 10, 2022]"
+    }
+  ],
+  "amendmentDates": [
+    "2024-08-30",
+    "2023-05-30",
+    "2023-03-29",
+    "2022-08-10",
+    "2021-01-20",
+    "2021-01-01",
+    "2020-12-04",
+    "2020-11-19",
+    "2018-11-14",
+    "2016-08-24"
+  ]
+}

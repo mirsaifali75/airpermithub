@@ -5,6 +5,7 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { EmptyState } from "@/components/ui/Notices";
 import { cn } from "@/lib/cn";
 import { listStateProfiles } from "@/lib/data/state-profiles";
+import { ruleSummaries } from "@/lib/data/ecfr";
 import { buildSearchIndex, exampleQueries, search, type SearchKind } from "@/lib/search";
 
 export const metadata: Metadata = { title: "Search", robots: { index: false } };
@@ -15,7 +16,7 @@ const futureFilters = ["Permit", "Agency", "Equipment", "Pollutant", "Document t
 export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; type?: string }> }) {
   const { q = "", type } = await searchParams;
   const kind = kinds.find((k) => k === type);
-  const index = buildSearchIndex(listStateProfiles());
+  const index = buildSearchIndex(listStateProfiles(), ruleSummaries());
   const all = q ? search(index, q) : [];
   const results = kind ? all.filter((r) => r.kind === kind) : all;
   const href = (k?: string) => `/search?q=${encodeURIComponent(q)}${k ? `&type=${k}` : ""}`;

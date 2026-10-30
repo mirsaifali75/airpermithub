@@ -68,6 +68,7 @@ export const footerNav: { title: string; links: NavItem[] }[] = [
     title: "Regulations",
     links: [
       { label: "Federal", href: "/regulations/federal" },
+      { label: "Federal Rule Library", href: "/regulations/library" },
       { label: "State Explorer", href: "/states" },
       { label: "EPA Guidance", href: "/regulations?tab=guidance" },
       { label: "Texas (TCEQ)", href: "/states/texas" },

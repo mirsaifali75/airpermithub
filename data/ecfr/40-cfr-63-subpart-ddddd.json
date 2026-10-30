@@ -1,0 +1,351 @@
+{
+  "title": 40,
+  "part": 63,
+  "subpart": "DDDDD",
+  "url": "https://www.ecfr.gov/current/title-40/part-63/subpart-DDDDD",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2022-12-05",
+  "hash": "42122a0cc7cb7d21c746b84296492a1b2cf9027778bcdfc320321bd38b20f6c3",
+  "heading": "National Emission Standards for Hazardous Air Pollutants for Major Sources: Industrial, Commercial, and Institutional Boilers and Process Heaters",
+  "fullHeading": "Subpart DDDDD—National Emission Standards for Hazardous Air Pollutants for Major Sources: Industrial, Commercial, and Institutional Boilers and Process Heaters",
+  "source": "76 FR 15664, Mar. 21, 2011, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "63.7480",
+      "heading": "What is the purpose of this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7485",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7490",
+      "heading": "What is the affected source of this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7491",
+      "heading": "Are any boilers or process heaters not subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7495",
+      "heading": "When do I have to comply with this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7499",
+      "heading": "What are the subcategories of boilers and process heaters?",
+      "group": "Emission Limitations and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7500",
+      "heading": "What emission limitations, work practice standards, and operating limits must I meet?",
+      "group": "Emission Limitations and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7501",
+      "heading": "[Reserved]",
+      "group": "Emission Limitations and Work Practice Standards",
+      "kind": "reserved",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7505",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7510",
+      "heading": "What are my initial compliance requirements and by what date must I conduct them?",
+      "group": "Testing, Fuel Analyses, and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7515",
+      "heading": "When must I conduct subsequent performance tests, fuel analyses, or tune-ups?",
+      "group": "Testing, Fuel Analyses, and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7520",
+      "heading": "What stack tests and procedures must I use?",
+      "group": "Testing, Fuel Analyses, and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7521",
+      "heading": "What fuel analyses, fuel specification, and procedures must I use?",
+      "group": "Testing, Fuel Analyses, and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7522",
+      "heading": "Can I use emissions averaging to comply with this subpart?",
+      "group": "Testing, Fuel Analyses, and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7525",
+      "heading": "What are my monitoring, installation, operation, and maintenance requirements?",
+      "group": "Testing, Fuel Analyses, and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7530",
+      "heading": "How do I demonstrate initial compliance with the emission limitations, fuel specifications and work practice standards?",
+      "group": "Testing, Fuel Analyses, and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7533",
+      "heading": "Can I use efficiency credits earned from implementation of energy conservation measures to comply with this subpart?",
+      "group": "Testing, Fuel Analyses, and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7535",
+      "heading": "Is there a minimum amount of monitoring data I must obtain?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7540",
+      "heading": "How do I demonstrate continuous compliance with the emission limitations, fuel specifications and work practice standards?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7541",
+      "heading": "How do I demonstrate continuous compliance under the emissions averaging provision?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7545",
+      "heading": "What notifications must I submit and when?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7550",
+      "heading": "What reports must I submit and when?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7555",
+      "heading": "What records must I keep?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": "63.7560",
+      "heading": "In what form and how long must I keep my records?",
+      "group": "Notification, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7565",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7570",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-08-24"
+    },
+    {
+      "id": "63.7575",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2022-12-05"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart DDDDD of Part 63—Emission Limits for New or Reconstructed Boilers and Process Heaters c",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart DDDDD of Part 63—Emission Limits for Existing Boilers and Process Heaters d",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart DDDDD of Part 63—Work Practice Standards",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart DDDDD of Part 63—Operating Limits for Boilers and Process Heaters",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart DDDDD of Part 63—Performance Testing Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart DDDDD of Part 63—Fuel Analysis Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart DDDDD of Part 63—Establishing Operating Limits a b",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 8 to Subpart DDDDD of Part 63—Demonstrating Continuous Compliance",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 9 to Subpart DDDDD of Part 63—Reporting Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 10 to Subpart DDDDD of Part 63—Applicability of General Provisions to Subpart DDDDD",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 11 to Subpart DDDDD of Part 63—Alternative Emission Limits for New or Reconstructed Boilers and Process Heaters That Commenced Construction or Reconstruction After June 4, 2010, and Before May 20, 2011",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 12 to Subpart DDDDD of Part 63—Alternative Emission Limits for New or Reconstructed Boilers and Process Heaters That Commenced Construction or Reconstruction After May 20, 2011, and Before December 23, 2011",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 13 to Subpart DDDDD of Part 63—Alternative Emission Limits for New or Reconstructed Boilers and Process Heaters That Commenced Construction or Reconstruction After December 23, 2011, and Before April 1, 2013",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 14 to Subpart DDDDD of Part 63—Alternative Emission Limits for New or Reconstructed Boilers and Process Heaters c",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 15 to Subpart DDDDD of Part 63—Alternative Emission Limits for Existing Boilers and Process Heaters d",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "63.7480",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "This subpart establishes national emission limitations and work practice standards for hazardous air pollutants (HAP) emitted from industrial, commercial, and institutional boilers and process heaters located at major sources of HAP. This subpart also establishes requirements to demonstrate initial and continuous compliance with the emission limitations and work practice standards."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.7485",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "You are subject to this subpart if you own or operate an industrial, commercial, or institutional boiler or process heater as defined in § 63.7575 that is located at, or is part of, a major source of HAP, except as specified in § 63.7491. For purposes of this subpart, a major source of HAP is as defined in § 63.2, except that for oil and natural gas production facilities, a major source of HAP is as defined in § 63.7575."
+      ],
+      "cita": "[78 FR 7162, Jan. 31, 2013]"
+    },
+    {
+      "id": "63.7490",
+      "heading": "What is the affected source of this subpart?",
+      "paragraphs": [
+        "(a) This subpart applies to new, reconstructed, and existing affected sources as described in paragraphs (a)(1) and (2) of this section.",
+        "(1) The affected source of this subpart is the collection at a major source of all existing industrial, commercial, and institutional boilers and process heaters within a subcategory as defined in § 63.7575.",
+        "(2) The affected source of this subpart is each new or reconstructed industrial, commercial, or institutional boiler or process heater, as defined in § 63.7575, located at a major source.",
+        "(b) A boiler or process heater is new if you commence construction of the boiler or process heater after June 4, 2010, and you meet the applicability criteria at the time you commence construction.",
+        "(c) A boiler or process heater is reconstructed if you meet the reconstruction criteria as defined in § 63.2, you commence reconstruction after June 4, 2010, and you meet the applicability criteria at the time you commence reconstruction.",
+        "(d) A boiler or process heater is existing if it is not new or reconstructed.",
+        "(e) An existing electric utility steam generating unit (EGU) that meets the applicability requirements of this subpart after the effective date of this final rule due to a change (e.g., fuel switch) is considered to be an existing source under this subpart."
+      ],
+      "cita": "[76 FR 15664, Mar. 21, 2011, as amended at 78 FR 7162, Jan. 31, 2013]"
+    }
+  ],
+  "amendmentDates": [
+    "2022-12-05",
+    "2022-10-06",
+    "2021-01-20",
+    "2020-12-28",
+    "2020-11-19",
+    "2019-01-14",
+    "2018-11-14",
+    "2016-08-24"
+  ]
+}

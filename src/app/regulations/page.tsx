@@ -5,6 +5,8 @@ import { RegulationsExplorer, type ExplorerEntry } from "@/components/regulation
 import { Disclaimer } from "@/components/ui/Notices";
 import { federalGuidance } from "@/lib/data/guidance";
 import { federalRegulations } from "@/lib/data/regulations";
+import { ruleSummaries } from "@/lib/data/ecfr";
+import { ruleCitation, ruleHref, ruleName } from "@/lib/rules";
 import { agencyShortName, listStateProfiles } from "@/lib/data/state-profiles";
 
 export const metadata: Metadata = {
@@ -31,9 +33,11 @@ export default function RegulationsPage() {
   const states = listStateProfiles();
   const entries: ExplorerEntry[] = [
     ...federalRegulations.map((r) => ({ tab: "Federal" as const, title: r.shortName === r.name ? r.name : `${r.shortName}`, citation: r.citation, description: r.name === r.shortName ? r.tagline : `${r.name}. ${r.tagline}`, href: `/regulations/${r.slug}`, keywords: (r.keySubparts ?? []).map((k) => `${k.code} ${k.title}`).join(" ") })),
+    { tab: "Federal", title: "Federal Rule Library", description: "NSPS, NESHAP, and GHG reporting subparts with eCFR text on who each covers, every section, and amendment dates.", href: "/regulations/library", keywords: "subpart library ecfr rule text" },
     { tab: "Federal", title: "MACT standards", citation: "40 CFR Part 63", description: "Maximum Achievable Control Technology standards for major sources of hazardous air pollutants, organized by source category in Part 63.", href: "/regulations/neshap", keywords: "maximum achievable control technology gact area source hap" },
     { tab: "Federal", title: "State regulations", description: "Air agency rules, permit programs, forms, and guidance for all 50 states and DC.", href: "/states" },
     { tab: "Federal", title: "EPA guidance documents", description: "Program pages, emission factor references, and nonattainment designations from EPA.", href: "/regulations?tab=guidance" },
+    ...ruleSummaries().map((r) => ({ tab: "Federal" as const, title: `${ruleName(r)}${r.aka.length ? ` (${r.aka[0]})` : ""}`, citation: ruleCitation(r), description: r.shortHeading, href: ruleHref(r), keywords: [r.heading, ...r.aka].join(" ") })),
     ...states.map((s) => ({
       tab: "State" as const,
       title: `${s.name} – ${agencyShortName(s.agency.name)}`,

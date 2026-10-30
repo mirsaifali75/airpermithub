@@ -1,0 +1,47 @@
+name: eCFR snapshot
+
+# Pulls the official text of the rules in data/ecfr/config.json from eCFR every week.
+# When anything changed, the new text goes on a branch with a pull request, so a
+# person reviews it before it reaches the live site.
+
+on:
+  schedule:
+    - cron: "0 12 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-ecfr.mjs --report ecfr-report.md
+      - run: cat ecfr-report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Open a pull request for review when the text changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain -- data/ecfr)" ]; then
+            echo "No changes in eCFR text."
+            exit 0
+          fi
+          branch="ecfr-update/$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data/ecfr
+          git commit -m "eCFR text changed: review before publishing"
+          git push -u origin "$branch"
+          title="eCFR text changed ($(date -u +%Y-%m-%d))"
+          if ! gh pr create --base main --head "$branch" --title "$title" --body-file ecfr-report.md; then
+            # Repositories can block Actions from opening pull requests; flag the change in an issue instead.
+            { echo "The new text is on branch \`$branch\`. Open a pull request from it to review and publish:"; echo; echo "https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch}"; echo; cat ecfr-report.md; } > issue.md
+            gh issue create --title "$title" --body-file issue.md
+          fi

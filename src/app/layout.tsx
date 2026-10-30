@@ -6,6 +6,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { MobileTabBar } from "@/components/layout/MobileTabBar";
 import { listStateProfiles } from "@/lib/data/state-profiles";
+import { ruleSummaries } from "@/lib/data/ecfr";
 import { buildSearchIndex } from "@/lib/search";
 import { site } from "@/lib/site";
 import "./globals.css";
@@ -39,7 +40,7 @@ const orgJsonLd = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const searchIndex = buildSearchIndex(listStateProfiles());
+  const searchIndex = buildSearchIndex(listStateProfiles(), ruleSummaries());
   return (
     <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
       <body className="min-h-screen pb-16 lg:pb-0">
