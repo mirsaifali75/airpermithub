@@ -1,0 +1,57 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "I",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-I",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2016-10-31",
+  "hash": "c5b96da670f40ae6929605bc5fb370ace75eed201efbba49de759e0ff56568df",
+  "heading": "Standards of Performance for Hot Mix Asphalt Facilities",
+  "fullHeading": "Subpart I—Standards of Performance for Hot Mix Asphalt Facilities",
+  "source": null,
+  "sections": [
+    {
+      "id": "60.90",
+      "heading": "Applicability and designation of affected facility.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.91",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.92",
+      "heading": "Standard for particulate matter.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.93",
+      "heading": "Test methods and procedures.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.90",
+      "heading": "Applicability and designation of affected facility.",
+      "paragraphs": [
+        "(a) The affected facility to which the provisions of this subpart apply is each hot mix asphalt facility. For the purpose of this subpart, a hot mix asphalt facility is comprised only of any combination of the following: dryers; systems for screening, handling, storing, and weighing hot aggregate; systems for loading, transferring, and storing mineral filler, systems for mixing hot mix asphalt; and the loading, transfer, and storage systems associated with emission control systems.",
+        "(b) Any facility under paragraph (a) of this section that commences construction or modification after June 11, 1973, is subject to the requirements of this subpart."
+      ],
+      "cita": "[42 FR 37936, July 25, 1977, as amended at 51 FR 12325, Apr. 10, 1986]"
+    }
+  ],
+  "amendmentDates": [
+    "2016-10-31"
+  ]
+}

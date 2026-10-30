@@ -1,0 +1,143 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "Cf",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-Cf",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2020-03-26",
+  "hash": "9d91329ffd693d6f8516625341e89b8c757e727e80fa89bb6df01e1355363cf2",
+  "heading": "Emission Guidelines and Compliance Times for Municipal Solid Waste Landfills",
+  "fullHeading": "Subpart Cf—Emission Guidelines and Compliance Times for Municipal Solid Waste Landfills",
+  "source": "81 FR 59313, Aug. 29, 2016, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.30f",
+      "heading": "Scope and delegated authorities.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2019-09-06"
+    },
+    {
+      "id": "60.31f",
+      "heading": "Designated facilities.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.32f",
+      "heading": "Compliance times.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.33f",
+      "heading": "Emission Guidelines for municipal solid waste landfill emissions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-07-10"
+    },
+    {
+      "id": "60.34f",
+      "heading": "Operational standards for collection and control systems.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.35f",
+      "heading": "Test methods and procedures.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.36f",
+      "heading": "Compliance provisions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.37f",
+      "heading": "Monitoring of operations.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.38f",
+      "heading": "Reporting guidelines.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.39f",
+      "heading": "Recordkeeping guidelines.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2020-03-26"
+    },
+    {
+      "id": "60.40f",
+      "heading": "Specifications for active collection systems.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.41f",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.30f",
+      "heading": "Scope and delegated authorities.",
+      "paragraphs": [
+        "This subpart establishes Emission Guidelines and compliance times for the control of designated pollutants from certain designated municipal solid waste (MSW) landfills in accordance with section 111(d) of the Clean Air Act and subpart B of this part.",
+        "(a) If you are the Administrator of an air quality program in a state or United States protectorate with one or more existing MSW landfills that commenced construction, modification, or reconstruction on or before July 17, 2014, you must submit a state plan to the U.S. Environmental Protection Agency (EPA) that implements the Emission Guidelines contained in this subpart. The requirements for state and federal plans are specified in subpart B of this part with the exception that §§ 60.23 and 60.27 will not apply. Notwithstanding the provisions of § 60.20a(a) in subpart Ba of this part, the requirements of §§ 60.23a and 60.27a will apply for state plans submitted after September 6, 2019, and federal plans, except that the requirements of § 60.23a(a)(1) will apply to a notice of availability of a final guideline document that was published under § 60.22(a). Likewise, the requirements of § 60.27a(e)(1) will refer to a final guideline document that was published under § 60.22(a).",
+        "(b) You must submit a state plan to the EPA by August 29, 2019.",
+        "(c) The following authorities will not be delegated to state, local, or tribal agencies:",
+        "(1) Approval of alternative methods to determine the NMOC concentration or a site-specific methane generation rate constant (k).",
+        "(2) [Reserved]"
+      ],
+      "cita": "[81 FR 59313, Aug. 29, 2016, as amended at 84 FR 44555, Aug. 26, 2019]"
+    },
+    {
+      "id": "60.31f",
+      "heading": "Designated facilities.",
+      "paragraphs": [
+        "(a) The designated facility to which these Emission Guidelines apply is each existing MSW landfill for which construction, reconstruction, or modification was commenced on or before July 17, 2014.",
+        "(b) Physical or operational changes made to an existing MSW landfill solely to comply with an emission guideline are not considered a modification or reconstruction and would not subject an existing MSW landfill to the requirements of a standard of performance for new MSW landfills.",
+        "(c) For purposes of obtaining an operating permit under title V of the Clean Air Act, the owner or operator of an MSW landfill subject to this subpart with a design capacity less than 2.5 million megagrams or 2.5 million cubic meters is not subject to the requirement to obtain an operating permit for the landfill under part 70 or 71 of this chapter, unless the landfill is otherwise subject to either part 70 or 71. For purposes of submitting a timely application for an operating permit under part 70 or 71, the owner or operator of an MSW landfill subject to this subpart with a design capacity greater than or equal to 2.5 million megagrams and 2.5 million cubic meters on the effective date of EPA approval of the state's program under section 111(d) of the Clean Air Act, and not otherwise subject to either part 70 or 71, becomes subject to the requirements of § 70.5(a)(1)(i) or § 71.5(a)(1)(i) of this chapter 90 days after the effective date of such section 111(d) program approval, even if the design capacity report is submitted earlier.",
+        "(d) When an MSW landfill subject to this subpart is closed as defined in this subpart, the owner or operator is no longer subject to the requirement to maintain an operating permit under part 70 or 71 of this chapter for the landfill if the landfill is not otherwise subject to the requirements of either part 70 or 71 and if either of the following conditions are met:",
+        "(1) The landfill was never subject to the requirement to install and operate a gas collection and control system under § 60.33f; or",
+        "(2) The landfill meets the conditions for control system removal specified in § 60.33f(f).",
+        "(e) When an MSW landfill subject to this subpart is in the closed landfill subcategory, the owner or operator is not subject to the following reports of this subpart, provided the owner or operator submitted these reports under the provisions of subpart WWW of this part; 40 CFR part 62, subpart GGG; or a state plan implementing subpart Cc of this part on or before July 17, 2014:",
+        "(1) Initial design capacity report specified in § 60.38f(a).",
+        "(2) Initial or subsequent NMOC emission rate report specified in § 60.38f(c), provided that the most recent NMOC emission rate report indicated the NMOC emissions were below 50 Mg/yr.",
+        "(3) Collection and control system design plan specified in § 60.38f(d).",
+        "(4) Closure report specified in § 60.38f(f).",
+        "(5) Equipment removal report specified in § 60.38f(g).",
+        "(6) Initial annual report specified in § 60.38f(h).",
+        "(7) Initial performance test report in § 60.38f(i)."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2020-03-26",
+    "2019-09-06",
+    "2019-08-26",
+    "2019-08-16",
+    "2017-07-10",
+    "2016-10-31"
+  ]
+}

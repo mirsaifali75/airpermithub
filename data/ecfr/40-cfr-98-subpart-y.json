@@ -1,0 +1,105 @@
+{
+  "title": 40,
+  "part": 98,
+  "subpart": "Y",
+  "url": "https://www.ecfr.gov/current/title-40/part-98/subpart-Y",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2025-01-01",
+  "hash": "f18460a7c16407a88a18d385e13317a3ffe8764c1d1c9e3fb1cdc954ce9f7136",
+  "heading": "Petroleum Refineries",
+  "fullHeading": "Subpart Y—Petroleum Refineries",
+  "source": null,
+  "sections": [
+    {
+      "id": "98.250",
+      "heading": "Definition of source category.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.251",
+      "heading": "Reporting threshold.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.252",
+      "heading": "GHGs to report.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.253",
+      "heading": "Calculating GHG emissions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.254",
+      "heading": "Monitoring and QA/QC requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.255",
+      "heading": "Procedures for estimating missing data.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.256",
+      "heading": "Data reporting requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.257",
+      "heading": "Records that must be retained.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.258",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "98.250",
+      "heading": "Definition of source category.",
+      "paragraphs": [
+        "(a) A petroleum refinery is any facility engaged in producing gasoline, gasoline blending stocks, naphtha, kerosene, distillate fuel oils, residual fuel oils, lubricants, or asphalt (bitumen) through distillation of petroleum or through redistillation, cracking, or reforming of unfinished petroleum derivatives, except as provided in paragraph (b) of this section.",
+        "(b) For the purposes of this subpart, facilities that distill only pipeline transmix (off-spec material created when different specification products mix during pipeline transportation) are not petroleum refineries, regardless of the products produced.",
+        "(c) This source category consists of the following sources at petroleum refineries: Catalytic cracking units; fluid coking units; delayed coking units; catalytic reforming units; asphalt blowing operations; blowdown systems; storage tanks; process equipment components (compressors, pumps, valves, pressure relief devices, flanges, and connectors) in gas service; marine vessel, barge, tanker truck, and similar loading operations; flares; and sulfur recovery plants."
+      ],
+      "cita": "[74 FR 56374, Oct. 30, 2009, as amended at 89 FR 31929, Apr. 25, 2024]"
+    },
+    {
+      "id": "98.251",
+      "heading": "Reporting threshold.",
+      "paragraphs": [
+        "You must report GHG emissions under this subpart if your facility contains a petroleum refineries process and the facility meets the requirements of either § 98.2(a)(1) or (a)(2)."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2025-01-01",
+    "2024-04-25",
+    "2019-01-01",
+    "2017-03-06",
+    "2017-01-01"
+  ]
+}
