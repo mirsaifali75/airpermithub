@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: "0 12 * * 2"
   workflow_dispatch:
+    inputs:
+      review:
+        description: "Open a pull request (or issue) for review when the text changed"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -39,6 +44,10 @@ jobs:
           git add data/ecfr
           git commit -m "eCFR text changed: review before publishing"
           git push -u origin "$branch"
+          if [ "${{ inputs.review }}" = "false" ]; then
+            echo "Pushed $branch without opening a review request."
+            exit 0
+          fi
           title="eCFR text changed ($(date -u +%Y-%m-%d))"
           if ! gh pr create --base main --head "$branch" --title "$title" --body-file ecfr-report.md; then
             # Repositories can block Actions from opening pull requests; flag the change in an issue instead.
