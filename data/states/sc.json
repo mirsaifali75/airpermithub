@@ -26,7 +26,7 @@
       "description": "For true minor facilities with listed equipment. Fuel combustion registration covers boilers on natural gas, propane, virgin No. 2 oil, diesel, or biodiesel, with size limits for non-fuel-gas boilers, and non-emergency generators certified to EPA nonroad tiers with an hours limit for the modeling exemption.",
       "citation": "S.C. Regulation 61-62.1, Section II",
       "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations",
-      "thresholds": "Non-fuel-gas boilers: 30 MMBtu/hr each and 100 MMBtu/hr total; generators limited to 500 hr/yr (restated from SCDES)."
+      "thresholds": "Boilers burning fuels other than natural gas or propane: 30 million Btu/hr heat input capacity for a single boiler and 100 million Btu/hr for all boilers on site combined. Non-emergency generators: no more than 500 hours per year, a condition of the exemption from modeling (restated from SCDES)."
     },
     {
       "type": "general",

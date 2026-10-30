@@ -23,9 +23,8 @@
       "type": "psd",
       "name": "Construction Permits",
       "description": "Required for new major sources and major modifications.",
-      "citation": "18 AAC 50; thresholds tied to 40 CFR 52.21(b)(1)(i)(A)",
-      "url": "https://dec.alaska.gov/air/air-permit/construction-minor-applications/",
-      "thresholds": "Per DEC: 100 tpy of any regulated pollutant for the 28 facility types listed at 40 CFR 52.21(b)(1)(i)(A); 250 tpy for other facilities."
+      "citation": "18 AAC 50",
+      "url": "https://dec.alaska.gov/air/air-permit/construction-minor-applications/"
     },
     {
       "type": "minor-nsr",
@@ -40,7 +39,7 @@
       "description": "GPA (fuel-limited diesel electric plants, renewals only), MG1 (oil and gas drill rigs), MG3 (smaller asphalt plants), MG9 (smaller rock crushers), GP3 (larger asphalt plants).",
       "citation": "18 AAC 50",
       "url": "https://dec.alaska.gov/air/air-permit/general-permits/",
-      "thresholds": "MG3 and MG9: under 100 tpy; GP3: over 100 tpy (restated from ADEC)."
+      "thresholds": "MG3 and MG9 are listed as General Minor Permits (under 100 TPY); GP3 as a General Operation Permit (100 TPY to under 250 TPY) (restated from ADEC's General Permits page)."
     },
     {
       "type": "other",
@@ -61,8 +60,7 @@
       "name": "Operating Permits (Title V)",
       "description": "Federal operating permit program run by DEC.",
       "citation": "18 AAC 50",
-      "url": "https://dec.alaska.gov/air/air-permit/operating-application/",
-      "thresholds": "Per DEC: potential to emit 10 tpy or more of any single HAP, 25 tpy or more of combined HAPs, or more than 100 tpy of other criteria pollutants."
+      "url": "https://dec.alaska.gov/air/air-permit/operating-application/"
     },
     {
       "type": "other",
@@ -153,5 +151,5 @@
   ],
   "lastReviewed": "2026-10-25",
   "verification": "verified",
-  "notes": "Outer Continental Shelf sources off Alaska are permitted by EPA Region 10 (not verified on DEC pages)."
+  "notes": "Outer Continental Shelf sources off Alaska are permitted by EPA Region 10 (not verified on DEC pages). Construction and Title V tons-per-year thresholds are not restated because the DEC pages reviewed on 2026-10-30 do not state them; see 18 AAC 50."
 }

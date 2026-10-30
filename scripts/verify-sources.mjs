@@ -220,6 +220,8 @@ async function fetchPage(url) {
           const f = join(tmp, `p${pdfCount++}.pdf`);
           writeFileSync(f, buf);
           try { text = execFileSync("pdftotext", ["-q", f, "-"], { maxBuffer: 64 * 1024 * 1024 }).toString(); } catch { text = ""; }
+          // List bullets come out as lines of their own ("o", "•"); they are not part of the wording
+          text = text.replace(/^[ \t]*[o•▪◦■□➢✓\uf0b7\uf0a7-][ \t]*$/gm, "");
         } else if (/html|xml|text/.test(type) || !type) {
           const html = buf.toString("utf8");
           text = htmlText(html);
@@ -315,8 +317,9 @@ async function check(c) {
       const hay = page.textAlnum + alnum(page.title ?? "");
       const plain = c.text.replace(/\s*\([^)]*\)\s*/g, " ").trim();
       if (hay.includes(alnum(c.text)) || hay.includes(alnum(plain))) return { result: "verified" };
-      // Pages often shorten a formal name; check that every word of it is on the page
-      const words = plain.match(/[A-Za-z][A-Za-z.'&-]{2,}|\d+/g)?.filter((w) => !/^(and|the|for)$/i.test(w)) ?? [];
+      // Pages often shorten a formal name; check that every distinctive word of it is on the page
+      const GENERIC = /^(and|the|for|with|department|dept|division|section|office|agency|bureau|program|local)$/i;
+      const words = plain.match(/[A-Za-z][A-Za-z.'&]{2,}|\d+/g)?.filter((w) => !GENERIC.test(w)) ?? [];
       const missing = words.filter((w) => !hay.includes(alnum(w)));
       if (words.length && !missing.length) return { result: "words-found", detail: `every word of the name is on the page, not the full name in that order${page.title ? `; page title: ${page.title}` : ""}` };
       return { result: "not-found", detail: `${missing.length ? `missing: ${missing.join(", ")}; ` : ""}${page.title ? `page title: ${page.title}` : ""}` };

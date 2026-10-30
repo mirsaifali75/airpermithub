@@ -32,8 +32,7 @@
       "name": "Class II Permits-by-Rule",
       "description": "Available for reciprocating engines, organic solvent evaporative sources, hot mix asphalt facilities, and low-emitting sources. $50 fee.",
       "citation": "K.A.R. 28-19-500(b) series",
-      "url": "https://www.kdhe.ks.gov/313/Permitting",
-      "thresholds": "Low-emitting sources: actual emissions below 50% of major source thresholds (restated from KDHE)."
+      "url": "https://www.kdhe.ks.gov/313/Permitting"
     },
     {
       "type": "state-operating",

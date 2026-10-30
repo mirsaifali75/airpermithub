@@ -24,7 +24,7 @@
       "description": "One-page, non-expiring state permits for facilities whose actual emissions are low compared to potential. Not available to acid rain sources, waste combustors, or facilities with SIP requirements or certain NSPS.",
       "citation": "Minn. R. ch. 7007",
       "url": "https://www.pca.state.mn.us/business-with-us/air-registration-permits",
-      "thresholds": "Per MPCA (Option D, actual emissions): under 50 tpy each of PM, PM10, VOC, SO2, NOx, CO; under 5 tpy single HAP; under 12.5 tpy all HAPs; under 0.5 tpy lead; under 50,000 tpy CO2e."
+      "thresholds": "Per MPCA: Option D facilities' actual emissions must be less than half the federal permit threshold for each pollutant (restated)."
     },
     {
       "type": "state-operating",
@@ -32,7 +32,7 @@
       "description": "Caps facility-wide emissions to stay below Part 70 or NSR major thresholds; changes allowed without amendment while under the cap. Single-page permit.",
       "citation": "Minn. R. ch. 7007",
       "url": "https://www.pca.state.mn.us/business-with-us/capped-emission-permit",
-      "thresholds": "Per MPCA: actual emissions under 75%-90% of federal thresholds (e.g., Option 1 under 90 tpy listed pollutants including insignificant activities)."
+      "thresholds": "Per MPCA: emissions no greater than 90% of federal permitting thresholds (restated)."
     },
     {
       "type": "general",
