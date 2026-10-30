@@ -1,0 +1,251 @@
+{
+  "title": 40,
+  "part": 63,
+  "subpart": "YYYY",
+  "url": "https://www.ecfr.gov/current/title-40/part-63/subpart-YYYY",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2022-03-09",
+  "hash": "cb3a93ac458a77ef4f560dd4bdb4962465be793e89b20935780fbb7e97e86fa3",
+  "heading": "National Emission Standards for Hazardous Air Pollutants for Stationary Combustion Turbines",
+  "fullHeading": "Subpart YYYY—National Emission Standards for Hazardous Air Pollutants for Stationary Combustion Turbines",
+  "source": "69 FR 10537, Mar. 5, 2004, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "63.6080",
+      "heading": "What is the purpose of subpart YYYY?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6085",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6090",
+      "heading": "What parts of my plant does this subpart cover?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6092",
+      "heading": "Are duct burners and waste heat recovery units covered by subpart YYYY?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6095",
+      "heading": "When do I have to comply with this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2022-03-09"
+    },
+    {
+      "id": "63.6100",
+      "heading": "What emission and operating limitations must I meet?",
+      "group": "Emission and Operating Limitations",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6105",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-03-09"
+    },
+    {
+      "id": "63.6110",
+      "heading": "By what date must I conduct the initial performance tests or other initial compliance demonstrations?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6115",
+      "heading": "When must I conduct subsequent performance tests?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6120",
+      "heading": "What performance tests and other procedures must I use?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-03-09"
+    },
+    {
+      "id": "63.6125",
+      "heading": "What are my monitor installation, operation, and maintenance requirements?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-03-09"
+    },
+    {
+      "id": "63.6130",
+      "heading": "How do I demonstrate initial compliance with the emission and operating limitations?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6135",
+      "heading": "How do I monitor and collect data to demonstrate continuous compliance?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6140",
+      "heading": "How do I demonstrate continuous compliance with the emission and operating limitations?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-03-09"
+    },
+    {
+      "id": "63.6145",
+      "heading": "What notifications must I submit and when?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2021-01-19"
+    },
+    {
+      "id": "63.6150",
+      "heading": "What reports must I submit and when?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2020-03-09"
+    },
+    {
+      "id": "63.6155",
+      "heading": "What records must I keep?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2020-03-09"
+    },
+    {
+      "id": "63.6160",
+      "heading": "In what form and how long must I keep my records?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6165",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.6170",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2020-03-09"
+    },
+    {
+      "id": "63.6175",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2020-03-09"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart YYYY of Part 63—Emission Limitations",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart YYYY of Part 63—Operating Limitations",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart YYYY of Part 63—Requirements for Performance Tests and Initial Compliance Demonstrations",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart YYYY of Part 63—Initial Compliance With Emission Limitations",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart YYYY of Part 63—Continuous Compliance With Operating Limitations",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart YYYY of Part 63—Requirements for Reports",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart YYYY of Part 63—Applicability of General Provisions to Subpart YYYY",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "63.6085",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "You are subject to this subpart if you own or operate a stationary combustion turbine located at a major source of HAP emissions.",
+        "(a) Stationary combustion turbine means all equipment, including but not limited to the turbine, the fuel, air, lubrication and exhaust gas systems, control systems (except emissions control equipment), and any ancillary components and sub-components comprising any simple cycle stationary combustion turbine, any regenerative/recuperative cycle stationary combustion turbine, the combustion turbine portion of any stationary cogeneration cycle combustion system, or the combustion turbine portion of any stationary combined cycle steam/electric generating system. Stationary means that the combustion turbine is not self propelled or intended to be propelled while performing its function, although it may be mounted on a vehicle for portability or transportability. Stationary combustion turbines covered by this subpart include simple cycle stationary combustion turbines, regenerative/recuperative cycle stationary combustion turbines, cogeneration cycle stationary combustion turbines, and combined cycle stationary combustion turbines. Stationary combustion turbines subject to this subpart do not include turbines located at a research or laboratory facility, if research is conducted on the turbine itself and the turbine is not being used to power other applications at the research or laboratory facility.",
+        "(b) A major source of HAP emissions is a contiguous site under common control that emits or has the potential to emit any single HAP at a rate of 10 tons (9.07 megagrams) or more per year or any combination of HAP at a rate of 25 tons (22.68 megagrams) or more per year, except that for oil and gas production facilities, a major source of HAP emissions is determined for each surface site."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.6090",
+      "heading": "What parts of my plant does this subpart cover?",
+      "paragraphs": [
+        "This subpart applies to each affected source.",
+        "(a) Affected source. An affected source is any existing, new, or reconstructed stationary combustion turbine located at a major source of HAP emissions.",
+        "(1) Existing stationary combustion turbine. A stationary combustion turbine is existing if you commenced construction or reconstruction of the stationary combustion turbine on or before January 14, 2003. A change in ownership of an existing stationary combustion turbine does not make that stationary combustion turbine a new or reconstructed stationary combustion turbine.",
+        "(2) New stationary combustion turbine. A stationary combustion turbine is new if you commenced construction of the stationary combustion turbine after January 14, 2003.",
+        "(3) Reconstructed stationary combustion turbine. A stationary combustion turbine is reconstructed if you meet the definition of reconstruction in § 63.2 of subpart A of this part and reconstruction is commenced after January 14, 2003.",
+        "(b) Subcategories with limited requirements. (1) A new or reconstructed stationary combustion turbine located at a major source which meets either of the following criteria does not have to meet the requirements of this subpart and of subpart A of this part except for the initial notification requirements of § 63.6145(d):",
+        "(i) The stationary combustion turbine is an emergency stationary combustion turbine; or",
+        "(ii) The stationary combustion turbine is located on the North Slope of Alaska.",
+        "(2) A stationary combustion turbine which burns landfill gas or digester gas equivalent to 10 percent or more of the gross heat input on an annual basis, or a stationary combustion turbine where gasified municipal solid waste (MSW) is used to generate 10 percent or more of the gross heat input on an annual basis does not have to meet the requirements of this subpart except for:",
+        "(i) The initial notification requirements of § 63.6145(d); and",
+        "(ii) Additional monitoring and reporting requirements as provided in §§ 63.6125(c) and 63.6150.",
+        "(3) An existing, new, or reconstructed stationary combustion turbine with a rated peak power output of less than 1.0 megawatt (MW) at International Organization for Standardization (ISO) standard day conditions, which is located at a major source, does not have to meet the requirements of this subpart and of subpart A of this part. This determination applies to the capacities of individual combustion turbines, whether or not an aggregated group of combustion turbines has a common add-on air pollution control device. No initial notification is necessary, even if the unit appears to be subject to other requirements for initial notification. For example, a 0.75 MW emergency turbine would not have to submit an initial notification.",
+        "(4) Existing stationary combustion turbines in all subcategories do not have to meet the requirements of this subpart and of subpart A of this part. No initial notification is necessary for any existing stationary combustion turbine, even if a new or reconstructed turbine in the same category would require an initial notification.",
+        "(5) Combustion turbine engine test cells/stands do not have to meet the requirements of this subpart but may have to meet the requirements of subpart A of this part if subject to another subpart. No initial notification is necessary, even if the unit appears to be subject to other requirements for initial notification."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2022-03-09",
+    "2021-01-19",
+    "2020-11-19",
+    "2020-03-09",
+    "2016-09-12"
+  ]
+}

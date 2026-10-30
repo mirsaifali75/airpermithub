@@ -1,0 +1,95 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "LLL",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-LLL",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2016-12-23",
+  "hash": "dbc17fbf033fd585fc93003eaed50fbfb392cf7f5c2fb403b7236e7e32f5f12d",
+  "heading": "Standards of Performance for SO2 Emissions From Onshore Natural Gas Processing for Which Construction, Reconstruction, or Modification Commenced After January 20, 1984, and on or Before August 23, 2011",
+  "fullHeading": "Subpart LLL—Standards of Performance for SO2 Emissions From Onshore Natural Gas Processing for Which Construction, Reconstruction, or Modification Commenced After January 20, 1984, and on or Before August 23, 2011",
+  "source": "50 FR 40160, Oct. 1, 1985, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.640",
+      "heading": "Applicability and designation of affected facilities.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.641",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.642",
+      "heading": "Standards for sulfur dioxide.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.643",
+      "heading": "Compliance provisions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.644",
+      "heading": "Test methods and procedures.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.645",
+      "heading": "[Reserved]",
+      "group": null,
+      "kind": "reserved",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.646",
+      "heading": "Monitoring of emissions and operations.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.647",
+      "heading": "Recordkeeping and reporting requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.648",
+      "heading": "Optional procedure for measuring hydrogen sulfide in acid gas—Tutwiler Procedure. ¹",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.640",
+      "heading": "Applicability and designation of affected facilities.",
+      "paragraphs": [
+        "(a) The provisions of this subpart are applicable to the following affected facilities that process natural gas: each sweetening unit, and each sweetening unit followed by a sulfur recovery unit.",
+        "(b) Facilities that have a design capacity less than 2 long tons per day (LT/D) of hydrogen sulfide (H2S) in the acid gas (expressed as sulfur) are required to comply with § 60.647(c) but are not required to comply with §§ 60.642 through 60.646.",
+        "(c) The provisions of this subpart are applicable to facilities located on land and include facilities located onshore which process natural gas produced from either onshore or offshore wells.",
+        "(d) The provisions of this subpart apply to each affected facility identified in paragraph (a) of this section which commences construction or modification after January 20, 1984, and on or before August 23, 2011.",
+        "(e) The provisions of this subpart do not apply to sweetening facilities producing acid gas that is completely reinjected into oil-or-gas-bearing geologic strata or that is otherwise not released to the atmosphere."
+      ],
+      "cita": "[50 FR 40160, Oct. 1, 1985, as amended at 77 FR 49542, Aug. 16, 2012]"
+    }
+  ],
+  "amendmentDates": [
+    "2016-12-23"
+  ]
+}

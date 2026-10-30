@@ -1,0 +1,242 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "KKKK",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-KKKK",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2026-08-17",
+  "hash": "d7ee26c5c73e62a6d08041c74d31c92df58b0d44e7fec50e8e07e5ccc5fe4aad",
+  "heading": "Standards of Performance for Stationary Combustion Turbines",
+  "fullHeading": "Subpart KKKK—Standards of Performance for Stationary Combustion Turbines",
+  "source": "71 FR 38497, July 6, 2006, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.4300",
+      "heading": "What is the purpose of this subpart?",
+      "group": "Introduction",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4305",
+      "heading": "Does this subpart apply to my stationary combustion turbine?",
+      "group": "Applicability",
+      "kind": "section",
+      "lastAmended": "2026-08-17"
+    },
+    {
+      "id": "60.4310",
+      "heading": "What types of operations are exempt from these standards of performance?",
+      "group": "Applicability",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4315",
+      "heading": "What pollutants are regulated by this subpart?",
+      "group": "Emission Limits",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4320",
+      "heading": "What emission limits must I meet for nitrogen oxides (NOX)?",
+      "group": "Emission Limits",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4325",
+      "heading": "What emission limits must I meet for NOX if my turbine burns both natural gas and distillate oil (or some other combination of fuels)?",
+      "group": "Emission Limits",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4330",
+      "heading": "What emission limits must I meet for sulfur dioxide (SO2)?",
+      "group": "Emission Limits",
+      "kind": "section",
+      "lastAmended": "2026-03-12"
+    },
+    {
+      "id": "60.4331",
+      "heading": "What are the requirements for operating a stationary temporary combustion turbine?",
+      "group": "Emission Limits",
+      "kind": "section",
+      "lastAmended": "2026-08-17"
+    },
+    {
+      "id": "60.4333",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4335",
+      "heading": "How do I demonstrate compliance for NOX if I use water or steam injection?",
+      "group": "Monitoring",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4340",
+      "heading": "How do I demonstrate continuous compliance for NOX if I do not use water or steam injection?",
+      "group": "Monitoring",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4345",
+      "heading": "What are the requirements for the continuous emission monitoring system equipment, if I choose to use this option?",
+      "group": "Monitoring",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4350",
+      "heading": "How do I use data from the continuous emission monitoring equipment to identify excess emissions?",
+      "group": "Monitoring",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4355",
+      "heading": "How do I establish and document a proper parameter monitoring plan?",
+      "group": "Monitoring",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4360",
+      "heading": "How do I determine the total sulfur content of the turbine's combustion fuel?",
+      "group": "Monitoring",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4365",
+      "heading": "How can I be exempted from monitoring the total sulfur content of the fuel?",
+      "group": "Monitoring",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4370",
+      "heading": "How often must I determine the sulfur content of the fuel?",
+      "group": "Monitoring",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4375",
+      "heading": "What reports must I submit?",
+      "group": "Reporting",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4380",
+      "heading": "How are excess emissions and monitor downtime defined for NOX?",
+      "group": "Reporting",
+      "kind": "section",
+      "lastAmended": "2026-08-17"
+    },
+    {
+      "id": "60.4385",
+      "heading": "How are excess emissions and monitoring downtime defined for SO2?",
+      "group": "Reporting",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4390",
+      "heading": "What are my reporting requirements if I operate an emergency combustion turbine or a research and development turbine?",
+      "group": "Reporting",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4395",
+      "heading": "When must I submit my reports?",
+      "group": "Reporting",
+      "kind": "section",
+      "lastAmended": "2026-08-17"
+    },
+    {
+      "id": "60.4400",
+      "heading": "How do I conduct the initial and subsequent performance tests, regarding NOX?",
+      "group": "Performance Tests",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4405",
+      "heading": "How do I perform the initial performance test if I have chosen to install a NOX-diluent CEMS?",
+      "group": "Performance Tests",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4410",
+      "heading": "How do I establish a valid parameter range if I have chosen to continuously monitor parameters?",
+      "group": "Performance Tests",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4415",
+      "heading": "How do I conduct the initial and subsequent performance tests for sulfur?",
+      "group": "Performance Tests",
+      "kind": "section",
+      "lastAmended": "2026-01-15"
+    },
+    {
+      "id": "60.4420",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Definitions",
+      "kind": "section",
+      "lastAmended": "2026-08-17"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart KKKK of Part 60—Nitrogen Oxide Emission Limits for New Stationary Combustion Turbines",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.4300",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "This subpart establishes emission standards and compliance schedules for the control of emissions from stationary combustion turbines that commenced construction, modification or reconstruction after February 18, 2005."
+      ],
+      "cita": null
+    },
+    {
+      "id": "60.4305",
+      "heading": "Does this subpart apply to my stationary combustion turbine?",
+      "paragraphs": [
+        "(a) If you are the owner or operator of a stationary combustion turbine with a heat input at peak load equal to or greater than 10.7 gigajoules (10 MMBtu) per hour, based on the higher heating value of the fuel, which commenced construction, modification, or reconstruction after February 18, 2005, your turbine is subject to this subpart. Only heat input to the combustion turbine engine should be included when determining whether or not this subpart is applicable to your combustion turbine. Any additional heat input to associated heat recovery steam generators (HRSG) or duct burners should not be included when determining your peak heat input. However, this subpart does apply to emissions from any associated HRSG and duct burners.",
+        "(b) Stationary combustion turbines regulated under this subpart are not subject to subpart GG of this part. Heat recovery steam generators and duct burners regulated under this subpart are not subject to subparts Da, Db, and Dc of this part.",
+        "(c) Stationary combustion turbines subject to subpart KKKKa of this part are not subject to this subpart.",
+        "(d) As an alternative to being subject to this subpart, the owner or operator of an affected stationary combustion turbine meeting the applicability of this subpart may petition the Administrator (in writing) to become subject to the requirements for modified units in subpart KKKKa of this part. If the Administrator grants the petition, the affected facility is no longer subject to this subpart and is subject to (unless the unit is modified or reconstructed in the future) the requirements for modified units under subpart KKKKa of this part. The Administrator can only grant the petition if it is determined that compliance with subpart KKKKa of this part would be equivalent to, or more stringent than, compliance with this subpart.",
+        "(e) Combustion turbines subject to title II of the Clean Air Act are not subject to this subpart."
+      ],
+      "cita": "[91 FR 1978, Jan. 15, 2026, as amended at 91 FR 43564, July 16, 2026]"
+    }
+  ],
+  "amendmentDates": [
+    "2026-08-17",
+    "2026-07-16",
+    "2026-03-12",
+    "2026-01-15",
+    "2020-12-07",
+    "2020-10-07",
+    "2016-12-23"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "JJJJ",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-JJJJ",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2024-08-30",
+  "hash": "8662218102e20b82fe547f9a3b622c9496fbc110bc7eb8962ff474007d6408cd",
+  "heading": "Standards of Performance for Stationary Spark Ignition Internal Combustion Engines",
+  "fullHeading": "Subpart JJJJ—Standards of Performance for Stationary Spark Ignition Internal Combustion Engines",
+  "source": "73 FR 3591, Jan. 18, 2008, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "60.4230",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4231",
+      "heading": "What emission standards must I meet if I am a manufacturer of stationary SI internal combustion engines or equipment containing such engines?",
+      "group": "Emission Standards for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4232",
+      "heading": "How long must my engines meet the emission standards if I am a manufacturer of stationary SI internal combustion engines?",
+      "group": "Emission Standards for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4233",
+      "heading": "What emission standards must I meet if I am an owner or operator of a stationary SI internal combustion engine?",
+      "group": "Emission Standards for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4234",
+      "heading": "How long must I meet the emission standards if I am an owner or operator of a stationary SI internal combustion engine?",
+      "group": "Emission Standards for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4235",
+      "heading": "What fuel requirements must I meet if I am an owner or operator of a stationary SI gasoline fired internal combustion engine subject to this subpart?",
+      "group": "Other Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2021-01-01"
+    },
+    {
+      "id": "60.4236",
+      "heading": "What is the deadline for importing or installing stationary SI ICE produced in previous model years?",
+      "group": "Other Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4237",
+      "heading": "What are the monitoring requirements if I am an owner or operator of an emergency stationary SI internal combustion engine?",
+      "group": "Other Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4238",
+      "heading": "What are my compliance requirements if I am a manufacturer of stationary SI internal combustion engines ≤19 KW (25 HP) or a manufacturer of equipment containing such engines?",
+      "group": "Compliance Requirements for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4239",
+      "heading": "What are my compliance requirements if I am a manufacturer of stationary SI internal combustion engines >19 KW (25 HP) that use gasoline or a manufacturer of equipment containing such engines?",
+      "group": "Compliance Requirements for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4240",
+      "heading": "What are my compliance requirements if I am a manufacturer of stationary SI internal combustion engines >19 KW (25 HP) that are rich burn engines that use LPG or a manufacturer of equipment containing such engines?",
+      "group": "Compliance Requirements for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4241",
+      "heading": "What are my compliance requirements if I am a manufacturer of stationary SI internal combustion engines participating in the voluntary certification program or a manufacturer of equipment containing such engines?",
+      "group": "Compliance Requirements for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4242",
+      "heading": "What other requirements must I meet if I am a manufacturer of stationary SI internal combustion engines or equipment containing stationary SI internal combustion engines or a manufacturer of equipment containing such engines?",
+      "group": "Compliance Requirements for Manufacturers",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4243",
+      "heading": "What are my compliance requirements if I am an owner or operator of a stationary SI internal combustion engine?",
+      "group": "Compliance Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": "60.4244",
+      "heading": "What test methods and other procedures must I use if I am an owner or operator of a stationary SI internal combustion engine?",
+      "group": "Testing Requirements for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2016-12-23"
+    },
+    {
+      "id": "60.4245",
+      "heading": "What are my notification, reporting, and recordkeeping requirements if I am an owner or operator of a stationary SI internal combustion engine?",
+      "group": "Notification, Reports, and Records for Owners and Operators",
+      "kind": "section",
+      "lastAmended": "2024-08-30"
+    },
+    {
+      "id": "60.4246",
+      "heading": "What General Provisions and confidential information provisions apply to me?",
+      "group": "General Provisions",
+      "kind": "section",
+      "lastAmended": "2023-03-27"
+    },
+    {
+      "id": "60.4247",
+      "heading": "What parts of the mobile source provisions apply to me if I am a manufacturer of stationary SI internal combustion engines or a manufacturer of equipment containing such engines?",
+      "group": "Mobile Source Provisions",
+      "kind": "section",
+      "lastAmended": "2021-07-29"
+    },
+    {
+      "id": "60.4248",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Definitions",
+      "kind": "section",
+      "lastAmended": "2022-08-10"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart JJJJ of Part 60—NOX, CO, and VOC Emission Standards for Stationary Non-Emergency SI Engines ≥100 HP (Except Gasoline and Rich Burn LPG), Stationary SI Landfill/Digester Gas Engines, and Stationary Emergency Engines >25 HP",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart JJJJ of Part 60—Requirements for Performance Tests",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart JJJJ of Part 60—Applicability of General Provisions to Subpart JJJJ",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart JJJJ of Part 60—Applicability of Mobile Source Provisions for Manufacturers Participating in the Voluntary Certification Program and Certifying Stationary SI ICE to Emission Standards in Table 1 of Subpart JJJJ",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.4230",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "(a) The provisions of this subpart are applicable to manufacturers, owners, and operators of stationary spark ignition (SI) internal combustion engines (ICE) as specified in paragraphs (a)(1) through (6) of this section. For the purposes of this subpart, the date that construction commences is the date the engine is ordered by the owner or operator.",
+        "(1) Manufacturers of stationary SI ICE with a maximum engine power less than or equal to 19 kilowatt (KW) (25 horsepower (HP)) that are manufactured on or after July 1, 2008.",
+        "(2) Manufacturers of stationary SI ICE with a maximum engine power greater than 19 KW (25 HP) that are gasoline fueled or that are rich burn engines fueled by liquefied petroleum gas (LPG), where the date of manufacture is:",
+        "(i) On or after July 1, 2008; or",
+        "(ii) On or after January 1, 2009, for emergency engines.",
+        "(3) Manufacturers of stationary SI ICE with a maximum engine power greater than 19 KW (25 HP) that are not gasoline fueled and are not rich burn engines fueled by LPG, where the manufacturer participates in the voluntary manufacturer certification program described in this subpart and where the date of manufacture is:",
+        "(i) On or after July 1, 2007, for engines with a maximum engine power greater than or equal to 500 HP (except lean burn engines with a maximum engine power greater than or equal to 500 HP and less than 1,350 HP);",
+        "(ii) On or after January 1, 2008, for lean burn engines with a maximum engine power greater than or equal to 500 HP and less than 1,350 HP;",
+        "(iii) On or after July 1, 2008, for engines with a maximum engine power less than 500 HP; or",
+        "(iv) On or after January 1, 2009, for emergency engines.",
+        "(4) Owners and operators of stationary SI ICE that commence construction after June 12, 2006, where the stationary SI ICE are manufactured:",
+        "(i) On or after July 1, 2007, for engines with a maximum engine power greater than or equal to 500 HP (except lean burn engines with a maximum engine power greater than or equal to 500 HP and less than 1,350 HP);",
+        "(ii) on or after January 1, 2008, for lean burn engines with a maximum engine power greater than or equal to 500 HP and less than 1,350 HP;",
+        "(iii) on or after July 1, 2008, for engines with a maximum engine power less than 500 HP; or",
+        "(iv) on or after January 1, 2009, for emergency engines with a maximum engine power greater than 19 KW (25 HP).",
+        "(5) Owners and operators of stationary SI ICE that are modified or reconstructed after June 12, 2006, and any person that modifies or reconstructs any stationary SI ICE after June 12, 2006.",
+        "(6) The provisions of § 60.4236 of this subpart are applicable to all owners and operators of stationary SI ICE that commence construction after June 12, 2006.",
+        "(b) The provisions of this subpart are not applicable to stationary SI ICE being tested at an engine test cell/stand.",
+        "(c) If you are an owner or operator of an area source subject to this subpart, you are exempt from the obligation to obtain a permit under 40 CFR part 70 or 40 CFR part 71, provided you are not required to obtain a permit under 40 CFR 70.3(a) or 40 CFR 71.3(a) for a reason other than your status as an area source under this subpart. Notwithstanding the previous sentence, you must continue to comply with the provisions of this subpart as applicable.",
+        "(d) For the purposes of this subpart, stationary SI ICE using alcohol-based fuels are considered gasoline engines.",
+        "(e) Stationary SI ICE may be eligible for exemption from the requirements of this subpart as described in 40 CFR part 1068, subpart C (or the exemptions described in 40 CFR parts 1048 and 1054, for engines that would need to be certified to standards in those parts), except that owners and operators, as well as manufacturers, may be eligible to request an exemption for national security.",
+        "(f) Owners and operators of facilities with internal combustion engines that are acting as temporary replacement units and that are located at a stationary source for less than 1 year and that have been properly certified as meeting the standards that would be applicable to such engine under the appropriate nonroad engine provisions, are not required to meet any other provisions under this subpart with regard to such engines."
+      ],
+      "cita": "[73 FR 3591, Jan. 18, 2008, as amended at 76 FR 37972, June 28, 2011; 86 FR 34360, June 29, 2021]"
+    }
+  ],
+  "amendmentDates": [
+    "2024-08-30",
+    "2023-03-27",
+    "2023-01-24",
+    "2022-08-10",
+    "2021-07-29",
+    "2021-06-29",
+    "2021-01-01",
+    "2020-12-07",
+    "2020-12-04",
+    "2020-10-07",
+    "2019-09-06",
+    "2016-12-23"
+  ]
+}

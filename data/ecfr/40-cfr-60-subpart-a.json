@@ -1,0 +1,236 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "A",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-A",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2026-09-17",
+  "hash": "c28d5d591d232ca4789b35fb281062fe3125e9a19328f8dffded9dbb9ff17571",
+  "heading": "General Provisions",
+  "fullHeading": "Subpart A—General Provisions",
+  "source": null,
+  "sections": [
+    {
+      "id": "60.1",
+      "heading": "Applicability.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2023-12-18"
+    },
+    {
+      "id": "60.2",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.3",
+      "heading": "Units and abbreviations.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.4",
+      "heading": "Address.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2026-01-20"
+    },
+    {
+      "id": "60.5",
+      "heading": "Determination of construction or modification.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.6",
+      "heading": "Review of plans.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.7",
+      "heading": "Notification and record keeping.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2019-08-16"
+    },
+    {
+      "id": "60.8",
+      "heading": "Performance tests.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2019-08-16"
+    },
+    {
+      "id": "60.9",
+      "heading": "Availability of information.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.10",
+      "heading": "State authority.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.11",
+      "heading": "Compliance with standards and maintenance requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.12",
+      "heading": "Circumvention.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.13",
+      "heading": "Monitoring requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.14",
+      "heading": "Modification.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.15",
+      "heading": "Reconstruction.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.16",
+      "heading": "Priority list.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.17",
+      "heading": "Incorporations by reference.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2026-09-17"
+    },
+    {
+      "id": "60.18",
+      "heading": "General control device and work practice requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": "60.19",
+      "heading": "General notification and reporting requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2016-10-31"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart A of Part 60—Detection Sensitivity Levels (grams per hour)",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.1",
+      "heading": "Applicability.",
+      "paragraphs": [
+        "(a) Except as provided in subparts B, Ba, and C of this part, the provisions of this part apply to the owner or operator of any stationary source which contains an affected facility, the construction or modification of which is commenced after the date of publication in this part of any standard (or, if earlier, the date of publication of any proposed standard) applicable to that facility.",
+        "(b) Any new or revised standard of performance promulgated pursuant to section 111(b) of the Act shall apply to the owner or operator of any stationary source which contains an affected facility, the construction or modification of which is commenced after the date of publication in this part of such new or revised standard (or, if earlier, the date of publication of any proposed standard) applicable to that facility.",
+        "(c) In addition to complying with the provisions of this part, the owner or operator of an affected facility may be required to obtain an operating permit issued to stationary sources by an authorized State air pollution control agency or by the Administrator of the U.S. Environmental Protection Agency (EPA) pursuant to Title V of the Clean Air Act (Act) as amended November 15, 1990 (42 U.S.C. 7661). For more information about obtaining an operating permit see part 70 of this chapter.",
+        "(d) Site-specific standard for Merck & Co., Inc.'s Stonewall Plant in Elkton, Virginia. (1) This paragraph applies only to the pharmaceutical manufacturing facility, commonly referred to as the Stonewall Plant, located at Route 340 South, in Elkton, Virginia (“site”).",
+        "(2) Except for compliance with 40 CFR 60.49b(u), the site shall have the option of either complying directly with the requirements of this part, or reducing the site-wide emissions caps in accordance with the procedures set forth in a permit issued pursuant to 40 CFR 52.2454. If the site chooses the option of reducing the site-wide emissions caps in accordance with the procedures set forth in such permit, the requirements of such permit shall apply in lieu of the otherwise applicable requirements of this part.",
+        "(3) Notwithstanding the provisions of paragraph (d)(2) of this section, for any provisions of this part except for Subpart Kb, the owner/operator of the site shall comply with the applicable provisions of this part if the Administrator determines that compliance with the provisions of this part is necessary for achieving the objectives of the regulation and the Administrator notifies the site in accordance with the provisions of the permit issued pursuant to 40 CFR 52.2454."
+      ],
+      "cita": "[40 FR 53346, Nov. 17, 1975, as amended at 55 FR 51382, Dec. 13, 1990; 59 FR 12427, Mar. 16, 1994; 62 FR 52641, Oct. 8, 1997; 88 FR 80542, Nov. 17, 2023]"
+    }
+  ],
+  "amendmentDates": [
+    "2026-09-17",
+    "2026-06-08",
+    "2026-05-11",
+    "2026-04-09",
+    "2026-03-10",
+    "2026-01-21",
+    "2026-01-20",
+    "2026-01-15",
+    "2025-12-18",
+    "2025-08-29",
+    "2025-06-30",
+    "2024-10-31",
+    "2024-10-15",
+    "2024-07-15",
+    "2024-07-08",
+    "2024-07-05",
+    "2024-05-16",
+    "2024-05-09",
+    "2024-05-07",
+    "2024-03-08",
+    "2023-12-18",
+    "2023-12-12",
+    "2023-11-20",
+    "2023-11-17",
+    "2023-08-25",
+    "2023-05-30",
+    "2023-05-09",
+    "2023-03-29",
+    "2023-03-27",
+    "2023-03-20",
+    "2023-02-23",
+    "2022-12-09",
+    "2022-11-09",
+    "2022-07-18",
+    "2022-05-27",
+    "2022-05-18",
+    "2022-03-31",
+    "2021-09-17",
+    "2020-12-15",
+    "2020-12-07",
+    "2020-10-07",
+    "2020-09-16",
+    "2020-04-20",
+    "2020-02-18",
+    "2019-08-23",
+    "2019-08-16",
+    "2019-07-17",
+    "2019-07-08",
+    "2019-04-30",
+    "2019-04-16",
+    "2019-03-07",
+    "2019-02-11",
+    "2019-01-14",
+    "2018-11-26",
+    "2018-11-14",
+    "2018-10-12",
+    "2018-09-12",
+    "2018-06-05",
+    "2018-04-13",
+    "2017-07-17",
+    "2017-07-10",
+    "2017-06-23",
+    "2017-05-11",
+    "2016-10-31"
+  ]
+}

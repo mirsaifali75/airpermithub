@@ -1,0 +1,254 @@
+{
+  "title": 40,
+  "part": 63,
+  "subpart": "JJJJJJ",
+  "url": "https://www.ecfr.gov/current/title-40/part-63/subpart-JJJJJJ",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2018-07-02",
+  "hash": "2c6d25c8464cebf40be346ff64801c894bfef80de7815e941c1a249223130470",
+  "heading": "National Emission Standards for Hazardous Air Pollutants for Industrial, Commercial, and Institutional Boilers Area Sources",
+  "fullHeading": "Subpart JJJJJJ—National Emission Standards for Hazardous Air Pollutants for Industrial, Commercial, and Institutional Boilers Area Sources",
+  "source": "76 FR 15591, Mar. 21, 2011, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "63.11193",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11194",
+      "heading": "What is the affected source of this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11195",
+      "heading": "Are any boilers not subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11196",
+      "heading": "What are my compliance dates?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11200",
+      "heading": "What are the subcategories of boilers?",
+      "group": "Emission Limits, Work Practice Standards, Emission Reduction Measures, and Management Practices",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11201",
+      "heading": "What standards must I meet?",
+      "group": "Emission Limits, Work Practice Standards, Emission Reduction Measures, and Management Practices",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11205",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11210",
+      "heading": "What are my initial compliance requirements and by what date must I conduct them?",
+      "group": "Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11211",
+      "heading": "How do I demonstrate initial compliance with the emission limits?",
+      "group": "Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11212",
+      "heading": "What stack tests and procedures must I use for the performance tests?",
+      "group": "Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11213",
+      "heading": "What fuel analyses and procedures must I use for the performance tests?",
+      "group": "Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11214",
+      "heading": "How do I demonstrate initial compliance with the work practice standard, emission reduction measures, and management practice?",
+      "group": "Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11220",
+      "heading": "When must I conduct subsequent performance tests or fuel analyses?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11221",
+      "heading": "Is there a minimum amount of monitoring data I must obtain?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11222",
+      "heading": "How do I demonstrate continuous compliance with the emission limits?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11223",
+      "heading": "How do I demonstrate continuous compliance with the work practice and management practice standards?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11224",
+      "heading": "What are my monitoring, installation, operation, and maintenance requirements?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11225",
+      "heading": "What are my notification, reporting, and recordkeeping requirements?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11226",
+      "heading": "[Reserved]",
+      "group": "Continuous Compliance Requirements",
+      "kind": "reserved",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11235",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11236",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-12-22"
+    },
+    {
+      "id": "63.11237",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2018-07-02"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart JJJJJJ of Part 63—Emission Limits",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart JJJJJJ of Part 63—Work Practice Standards, Emission Reduction Measures, and Management Practices",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart JJJJJJ of Part 63—Operating Limits for Boilers With Emission Limits",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart JJJJJJ of Part 63—Performance (Stack) Testing Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart JJJJJJ of Part 63—Fuel Analysis Requirements",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart JJJJJJ of Part 63—Establishing Operating Limits",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart JJJJJJ of Part 63—Demonstrating Continuous Compliance",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 8 to Subpart JJJJJJ of Part 63—Applicability of General Provisions to Subpart JJJJJJ",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "63.11193",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "You are subject to this subpart if you own or operate an industrial, commercial, or institutional boiler as defined in § 63.11237 that is located at, or is part of, an area source of hazardous air pollutants (HAP), as defined in § 63.2, except as specified in § 63.11195."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.11194",
+      "heading": "What is the affected source of this subpart?",
+      "paragraphs": [
+        "(a) This subpart applies to each new, reconstructed, or existing affected source as defined in paragraphs (a)(1) and (2) of this section.",
+        "(1) The affected source of this subpart is the collection of all existing industrial, commercial, and institutional boilers within a subcategory, as listed in § 63.11200 and defined in § 63.11237, located at an area source.",
+        "(2) The affected source of this subpart is each new or reconstructed industrial, commercial, or institutional boiler within a subcategory, as listed in § 63.11200 and as defined in § 63.11237, located at an area source.",
+        "(b) An affected source is an existing source if you commenced construction or reconstruction of the affected source on or before June 4, 2010.",
+        "(c) An affected source is a new source if you commenced construction of the affected source after June 4, 2010, and the boiler meets the applicability criteria at the time you commence construction.",
+        "(d) An affected source is a reconstructed source if the boiler meets the reconstruction criteria as defined in § 63.2, you commenced reconstruction after June 4, 2010, and the boiler meets the applicability criteria at the time you commence reconstruction.",
+        "(e) An existing dual-fuel fired boiler meeting the definition of gas-fired boiler, as defined in § 63.11237, that meets the applicability requirements of this subpart after June 4, 2010 due to a fuel switch from gaseous fuel to solid fossil fuel, biomass, or liquid fuel is considered to be an existing source under this subpart as long as the boiler was designed to accommodate the alternate fuel.",
+        "(f) If you are an owner or operator of an area source subject to this subpart, you are exempt from the obligation to obtain a permit under 40 CFR part 70 or part 71 as a result of this subpart. You may, however, be required to obtain a title V permit due to another reason or reasons. See 40 CFR 70.3(a) and (b) or 71.3(a) and (b). Notwithstanding the exemption from title V permitting for area sources under this subpart, you must continue to comply with the provisions of this subpart."
+      ],
+      "cita": "[76 FR 15591, Mar. 21, 2011, as amended at 78 FR 7506, Feb. 1, 2013]"
+    }
+  ],
+  "amendmentDates": [
+    "2018-07-02",
+    "2016-12-22"
+  ]
+}

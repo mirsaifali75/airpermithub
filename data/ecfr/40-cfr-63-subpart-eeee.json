@@ -1,0 +1,323 @@
+{
+  "title": 40,
+  "part": 63,
+  "subpart": "EEEE",
+  "url": "https://www.ecfr.gov/current/title-40/part-63/subpart-EEEE",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2024-04-04",
+  "hash": "9bc4023ae1284c8d6390e7a842bc416803327b4f34b268283d93e91a53f98a2e",
+  "heading": "National Emission Standards for Hazardous Air Pollutants: Organic Liquids Distribution (Non-Gasoline)",
+  "fullHeading": "Subpart EEEE—National Emission Standards for Hazardous Air Pollutants: Organic Liquids Distribution (Non-Gasoline)",
+  "source": "69 FR 5063, Feb. 3, 2004, unless otherwise noted.",
+  "sections": [
+    {
+      "id": "63.2330",
+      "heading": "What is the purpose of this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.2334",
+      "heading": "Am I subject to this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.2338",
+      "heading": "What parts of my plant does this subpart cover?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2342",
+      "heading": "When do I have to comply with this subpart?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2343",
+      "heading": "What are my requirements for emission sources not requiring control?",
+      "group": "What This Subpart Covers",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2346",
+      "heading": "What emission limitations, operating limits, and work practice standards must I meet?",
+      "group": "Emission Limitations, Operating Limits, and Work Practice Standards",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2350",
+      "heading": "What are my general requirements for complying with this subpart?",
+      "group": "General Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2354",
+      "heading": "What performance tests, design evaluations, and performance evaluations must I conduct?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2358",
+      "heading": "By what date must I conduct performance tests and other initial compliance demonstrations?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2362",
+      "heading": "When must I conduct subsequent performance tests?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2366",
+      "heading": "What are my monitoring installation, operation, and maintenance requirements?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2370",
+      "heading": "How do I demonstrate initial compliance with the emission limitations, operating limits, and work practice standards?",
+      "group": "Testing and Initial Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2374",
+      "heading": "When do I monitor and collect data to demonstrate continuous compliance and how do I use the collected data?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2378",
+      "heading": "How do I demonstrate continuous compliance with the emission limitations, operating limits, and work practice standards?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2380",
+      "heading": "What are my requirements for certain flares?",
+      "group": "Continuous Compliance Requirements",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2382",
+      "heading": "What notifications must I submit and when and what information should be submitted?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2386",
+      "heading": "What reports must I submit and when and what information is to be submitted in each?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": "63.2390",
+      "heading": "What records must I keep?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2394",
+      "heading": "In what form and how long must I keep my records?",
+      "group": "Notifications, Reports, and Records",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.2396",
+      "heading": "What compliance options do I have if part of my plant is subject to both this subpart and another subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2398",
+      "heading": "What parts of the General Provisions apply to me?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2016-09-12"
+    },
+    {
+      "id": "63.2402",
+      "heading": "Who implements and enforces this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2020-07-07"
+    },
+    {
+      "id": "63.2406",
+      "heading": "What definitions apply to this subpart?",
+      "group": "Other Requirements and Information",
+      "kind": "section",
+      "lastAmended": "2024-04-04"
+    },
+    {
+      "id": null,
+      "heading": "Table 1 to Subpart EEEE of Part 63—Organic Hazardous Air Pollutants",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2 to Subpart EEEE of Part 63—Emission Limits",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 2b to Subpart EEEE of Part 63—Emission Limits For Storage Tanks At Certain Existing Affected Sources",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 3 to Subpart EEEE of Part 63—Operating Limits—High Throughput Transfer Racks",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 4 to Subpart EEEE of Part 63—Work Practice Standards",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 5 to Subpart EEEE of Part 63—Requirements for Performance Tests and Design Evaluations",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 6 to Subpart EEEE of Part 63—Initial Compliance with Emission Limits",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 7 to Subpart EEEE of Part 63—Initial Compliance with Work Practice Standards",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 8 to Subpart EEEE of Part 63—Continuous Compliance with Emission Limits",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 9 to Subpart EEEE of Part 63—Continuous Compliance with Operating Limits—High Throughput Transfer Racks",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 10 to Subpart EEEE of Part 63—Continuous Compliance with Work Practice Standards",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 11 to Subpart EEEE of Part 63—Requirements for Reports",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table 12 to Subpart EEEE of Part 63—Applicability of General Provisions to Subpart EEEE",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "63.2330",
+      "heading": "What is the purpose of this subpart?",
+      "paragraphs": [
+        "This subpart establishes national emission limitations, operating limits, and work practice standards for organic hazardous air pollutants (HAP) emitted from organic liquids distribution (OLD) (non-gasoline) operations at major sources of HAP emissions. This subpart also establishes requirements to demonstrate initial and continuous compliance with the emission limitations, operating limits, and work practice standards."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.2334",
+      "heading": "Am I subject to this subpart?",
+      "paragraphs": [
+        "(a) Except as provided for in paragraphs (b) and (c) of this section, you are subject to this subpart if you own or operate an OLD operation that is located at, or is part of, a major source of HAP emissions. An OLD operation may occupy an entire plant site or be collocated with other industrial (e.g., manufacturing) operations at the same plant site.",
+        "(b) Organic liquid distribution operations located at research and development facilities, consistent with section 112(c)(7) of the Clean Air Act (CAA), are not subject to this subpart.",
+        "(c) Organic liquid distribution operations do not include the activities and equipment, including product loading racks, used to process, store, or transfer organic liquids at facilities listed in paragraph (c) (1) and (2) of this section.",
+        "(1) Oil and natural gas production field facilities, as the term “facility” is defined in § 63.761 of subpart HH.",
+        "(2) Natural gas transmission and storage facilities, as the term “facility” is defined in § 63.1271 of subpart HHH."
+      ],
+      "cita": null
+    },
+    {
+      "id": "63.2338",
+      "heading": "What parts of my plant does this subpart cover?",
+      "paragraphs": [
+        "(a) This subpart applies to each new, reconstructed, or existing OLD operation affected source.",
+        "(b) Except as provided in paragraph (c) of this section, the affected source is the collection of activities and equipment used to distribute organic liquids into, out of, or within a facility that is a major source of HAP. The affected source is composed of:",
+        "(1) All storage tanks storing organic liquids.",
+        "(2) All transfer racks at which organic liquids are loaded into or unloaded out of transport vehicles and/or containers.",
+        "(3) All equipment leak components in organic liquids service that are associated with:",
+        "(i) Storage tanks storing organic liquids;",
+        "(ii) Transfer racks loading or unloading organic liquids;",
+        "(iii) Pipelines that transfer organic liquids directly between two storage tanks that are subject to this subpart;",
+        "(iv) Pipelines that transfer organic liquids directly between a storage tank subject to this subpart and a transfer rack subject to this subpart; and",
+        "(v) Pipelines that transfer organic liquids directly between two transfer racks that are subject to this subpart.",
+        "(4) All transport vehicles while they are loading or unloading organic liquids at transfer racks subject to this subpart.",
+        "(5) All containers while they are loading or unloading organic liquids at transfer racks subject to this subpart.",
+        "(c) The equipment listed in paragraphs (c)(1) through (3) of this section and used in the identified operations is excluded from the affected source.",
+        "(1) Storage tanks, transfer racks, transport vehicles, containers, and equipment leak components that are part of an affected source under another 40 CFR part 63 national emission standards for hazardous air pollutants (NESHAP).",
+        "(2) Non-permanent storage tanks, transfer racks, transport vehicles, containers, and equipment leak components when used in special situation distribution loading and unloading operations (such as maintenance or upset liquids management).",
+        "(3) Storage tanks, transfer racks, transport vehicles, containers, and equipment leak components when used to conduct maintenance activities, such as stormwater management, liquid removal from tanks for inspections and maintenance, or changeovers to a different liquid stored in a storage tank.",
+        "(d) An affected source is a new affected source if you commenced construction of the affected source after April 2, 2002, and you meet the applicability criteria in § 63.2334 at the time you commenced operation.",
+        "(e) An affected source is reconstructed if you meet the criteria for reconstruction as defined in § 63.2.",
+        "(f) An affected source is existing if it is not new or reconstructed."
+      ],
+      "cita": "[69 FR 5063, Feb. 3, 2004, as amended at 71 FR 42904, July 28, 2006; 85 FR 40761, July 7, 2020]"
+    }
+  ],
+  "amendmentDates": [
+    "2024-04-04",
+    "2021-01-19",
+    "2020-11-19",
+    "2020-07-22",
+    "2020-07-07",
+    "2016-09-12"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "title": 40,
+  "part": 98,
+  "subpart": "C",
+  "url": "https://www.ecfr.gov/current/title-40/part-98/subpart-C",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2025-09-29",
+  "hash": "770089816914621fc4196575e0764099e68b11142a2dec65dcc679c2cc159470",
+  "heading": "General Stationary Fuel Combustion Sources",
+  "fullHeading": "Subpart C—General Stationary Fuel Combustion Sources",
+  "source": null,
+  "sections": [
+    {
+      "id": "98.30",
+      "heading": "Definition of the source category.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.31",
+      "heading": "Reporting threshold.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.32",
+      "heading": "GHGs to report.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.33",
+      "heading": "Calculating GHG emissions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.34",
+      "heading": "Monitoring and QA/QC requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.35",
+      "heading": "Procedures for estimating missing data.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": "98.36",
+      "heading": "Data reporting requirements.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.37",
+      "heading": "Records that must be retained.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2025-01-01"
+    },
+    {
+      "id": "98.38",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2017-01-01"
+    },
+    {
+      "id": null,
+      "heading": "Table C-1 to Subpart C of Part 98—Default CO2 Emission Factors and High Heat Values for Various Types of Fuel",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    },
+    {
+      "id": null,
+      "heading": "Table C-2 to Subpart C of Part 98—Default CH4 and N2O Emission Factors for Various Types of Fuel",
+      "group": "Tables and appendices",
+      "kind": "table",
+      "lastAmended": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": "98.30",
+      "heading": "Definition of the source category.",
+      "paragraphs": [
+        "(a) Stationary fuel combustion sources are devices that combust solid, liquid, or gaseous fuel, generally for the purposes of producing electricity, generating steam, or providing useful heat or energy for industrial, commercial, or institutional use, or reducing the volume of waste by removing combustible matter. Stationary fuel combustion sources include, but are not limited to, boilers, simple and combined-cycle combustion turbines, engines, incinerators, and process heaters.",
+        "(b) This source category does not include:",
+        "(1) Portable equipment, as defined in § 98.6.",
+        "(2) Emergency generators and emergency equipment, as defined in § 98.6.",
+        "(3) Irrigation pumps at agricultural operations.",
+        "(4) Flares, unless otherwise required by provisions of another subpart of this part to use methodologies in this subpart.",
+        "(5) Electricity generating units that are subject to subpart D of this part.",
+        "(c) For a unit that combusts hazardous waste (as defined in § 261.3 of this chapter), reporting of GHG emissions is not required unless either of the following conditions apply:",
+        "(1) Continuous emission monitors (CEMS) are used to quantify CO2 mass emissions.",
+        "(2) Any fuel listed in Table C-1 of this subpart is also combusted in the unit. In this case, report GHG emissions from combustion of all fuels listed in Table C-1 of this subpart.",
+        "(d) You are not required to report GHG emissions from pilot lights. A pilot light is a small auxiliary flame that ignites the burner of a combustion device when the control valve opens."
+      ],
+      "cita": "[74 FR 56374, Oct. 30, 2009, as amended at 75 FR 79140, Dec. 17, 2010]"
+    },
+    {
+      "id": "98.31",
+      "heading": "Reporting threshold.",
+      "paragraphs": [
+        "You must report GHG emissions under this subpart if your facility contains one or more stationary fuel combustion sources and the facility meets the applicability requirements of either §§ 98.2(a)(1), 98.2(a)(2), or 98.2(a)(3)."
+      ],
+      "cita": null
+    }
+  ],
+  "amendmentDates": [
+    "2025-09-29",
+    "2025-01-01",
+    "2024-05-14",
+    "2024-04-25",
+    "2018-09-21",
+    "2018-01-01",
+    "2017-08-31",
+    "2017-03-06",
+    "2017-01-01"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "title": 40,
+  "part": 60,
+  "subpart": "GG",
+  "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-GG",
+  "ecfrDate": "2026-10-28",
+  "retrievedOn": "2026-10-30",
+  "latestAmendment": "2026-08-17",
+  "hash": "6a479461900be47942eb1e7091876edae84bbc823b3c62b9a76f3e15c714dc44",
+  "heading": "Standards of Performance for Stationary Gas Turbines",
+  "fullHeading": "Subpart GG—Standards of Performance for Stationary Gas Turbines",
+  "source": null,
+  "sections": [
+    {
+      "id": "60.330",
+      "heading": "Applicability and designation of affected facility.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2026-08-17"
+    },
+    {
+      "id": "60.331",
+      "heading": "Definitions.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2026-01-21"
+    },
+    {
+      "id": "60.332",
+      "heading": "Standard for nitrogen oxides.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2026-01-21"
+    },
+    {
+      "id": "60.333",
+      "heading": "Standard for sulfur dioxide.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2026-01-21"
+    },
+    {
+      "id": "60.334",
+      "heading": "Monitoring of operations.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2026-01-21"
+    },
+    {
+      "id": "60.335",
+      "heading": "Test methods and procedures.",
+      "group": null,
+      "kind": "section",
+      "lastAmended": "2026-03-12"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "60.330",
+      "heading": "Applicability and designation of affected facility.",
+      "paragraphs": [
+        "(a) Except as provided for in paragraphs (c) through (e) of this section, the provisions of this subpart are applicable to the following affected facilities: All stationary gas turbines with a heat input at peak load equal to or greater than 10.7 gigajoules (10 million Btu) per hour, based on the lower heating value of the fuel fired.",
+        "(b) Any facility under paragraph (a) of this section which commences construction, modification, or reconstruction after October 3, 1977, is subject to the requirements of this part except as provided in paragraphs (e) and (j) of § 60.332.",
+        "(c) As an alternative to being subject to this subpart, the owner or operator of a stationary combustion turbine meeting the applicability of this subpart may petition the Administrator (in writing) to become subject to the requirements for modified units in subpart KKKKa of this part. If the Administrator grants the petition, the affected facility is no longer subject to this subpart and is subject to (unless the unit is modified or reconstructed in the future) the requirements for modified units in subpart KKKKa of this part. The Administrator can only grant the petition if it is determined that compliance with subpart KKKKa of this part would be equivalent to, or more stringent than, compliance with this subpart.",
+        "(d) Stationary gas turbines subject to subpart Da, KKKK, or KKKKa of this part are not subject to this subpart.",
+        "(e) A gas turbine that is subject to this subpart and is not a “major source” or located at a “major source” (as that term is defined at 42 U.S.C. 7661 (2)) is exempt from the requirements of 42 U.S.C. 7661a(a)."
+      ],
+      "cita": "[44 FR 52798, Sept. 10, 1979, as amended at 52 FR 42434, Nov. 5, 1987; 65 FR 61759, Oct. 17, 2000; 91 FR 1975, Jan. 15, 2026; 91 FR 43564, July 16, 2026]"
+    }
+  ],
+  "amendmentDates": [
+    "2026-08-17",
+    "2026-07-16",
+    "2026-03-12",
+    "2026-01-21",
+    "2026-01-20",
+    "2026-01-15",
+    "2016-10-31"
+  ]
+}
