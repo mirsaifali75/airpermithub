@@ -1,0 +1,256 @@
+Stationary Reciprocating Internal Combustion Engines | Department of Environmental Conservation 
+Skip to main content
+An Official Vermont Government
+Website
+Agency of Natural Resources 
+Department of Environmental Conservation
+Menu 
+Air and Climate 
+Land 
+Waste 
+Water 
+Learn More, Do More 
+Languages 
+Search 
+Home 
+About DEC 
+Contact Us 
+Administration and Innovation 
+Air Quality and Climate 
+Air Pollutants and Health 
+Air Quality Data (Real-Time) 
+Air Quality Forecasts 
+Air Quality Compliance 
+Funding Opportunities 
+Laws and Regulations 
+Mobile Sources 
+Monitoring 
+News 
+Permits 
+Source Categories 
+Anaerobic Digesters 
+Boilers 
+Brewery/Winery/Distillery 
+Bulk Gasoline and Dispensing Facilities 
+Cannabis Cultivation and Processing 
+Coffee Roasters 
+Crematories 
+Evaporators 
+Gravel Pits, Quarries, and Aggregate Crushing and Screening Plants 
+Hot Mix Asphalt Plants 
+Media Blasting, Abrasives Blasting and Sandblasting 
+Metal Welding and Cutting 
+Plastic Extrusion and Molding 
+Spray Coating Operations 
+Stationary Reciprocating Internal Combustion Engines 
+Wood Drying and Heat Treating 
+Construction Permits 
+Operating Permits 
+Open Burning Permits 
+Wood Stoves and Central Heater Certification 
+Transfer of Permit Ownership 
+Permit Fees 
+Air Permits Search 
+Air Consultants Directory 
+Frequently Asked Questions 
+Planning 
+Point Source Registration 
+Publications and Resources 
+Vermont’s Emissions 
+What You Can Do 
+Contacts 
+Regional Greenhouse Gas Initiative 
+VW Environmental Mitigation Funds 
+Drinking Water and Groundwater 
+Environmental Assistance 
+Environmental Enforcement 
+Geological Survey 
+Waste Management and Prevention 
+Water Investment 
+Watershed Management 
+Commissioner’s Office 
+Permits and Certifications 
+Funding Opportunities 
+Maps and GIS 
+Laws and Regulations 
+Village Wastewater Solutions Initiative 
+Vermont PFAS 
+VAEL Laboratory 
+VTWARN 
+Agency of Natural Resources 
+Lake Carmi 
+Search 
+Submit 
+Home 
+About DEC 
+Contact Us 
+Administration and Innovation 
+Air Quality and Climate 
+Air Pollutants and Health 
+Air Quality Data (Real-Time) 
+Air Quality Forecasts 
+Air Quality Compliance 
+Funding Opportunities 
+Laws and Regulations 
+Mobile Sources 
+Monitoring 
+News 
+Permits 
+Source Categories 
+Anaerobic Digesters 
+Boilers 
+Brewery/Winery/Distillery 
+Bulk Gasoline and Dispensing Facilities 
+Cannabis Cultivation and Processing 
+Coffee Roasters 
+Crematories 
+Evaporators 
+Gravel Pits, Quarries, and Aggregate Crushing and Screening Plants 
+Hot Mix Asphalt Plants 
+Media Blasting, Abrasives Blasting and Sandblasting 
+Metal Welding and Cutting 
+Plastic Extrusion and Molding 
+Spray Coating Operations 
+Stationary Reciprocating Internal Combustion Engines 
+Wood Drying and Heat Treating 
+Construction Permits 
+Operating Permits 
+Open Burning Permits 
+Wood Stoves and Central Heater Certification 
+Transfer of Permit Ownership 
+Permit Fees 
+Air Permits Search 
+Air Consultants Directory 
+Frequently Asked Questions 
+Planning 
+Point Source Registration 
+Publications and Resources 
+Vermont’s Emissions 
+What You Can Do 
+Contacts 
+Regional Greenhouse Gas Initiative 
+VW Environmental Mitigation Funds 
+Drinking Water and Groundwater 
+Environmental Assistance 
+Environmental Enforcement 
+Geological Survey 
+Waste Management and Prevention 
+Water Investment 
+Watershed Management 
+Commissioner’s Office 
+Permits and Certifications 
+Funding Opportunities 
+Maps and GIS 
+Laws and Regulations 
+Village Wastewater Solutions Initiative 
+Vermont PFAS 
+VAEL Laboratory 
+VTWARN 
+Agency of Natural Resources 
+Lake Carmi 
+Stationary Reciprocating Internal Combustion Engines
+Do I Need a Permit to Install a Diesel Engine such as a Generator? 
+Permit applicability will depend primarily on the horsepower rating of the engine, and the intended use of the generator. To install a non-emergency generator greater than 300 brake horsepower, you will need to obtain an air permit, or amend an existing permit prior to any contractural obligation entered into by the Facility. Emergency-only generators typically will not need a permit or permit amendment to install; however, peak shaving programs are not considered emergency and there are still several provisions that may apply whether or not a permit is required. These provisions, and the factors used to determine applicability are discussed in further detail below.
+What is a Stationary Reciprocating Internal Combustion Engine? 
+Stationary Reciprocating Internal Combustion Engines (RICE) are engines that utilize the expansion of gases and the resultant increased pressure from the combustion of fuel inside a confined cylinder(s) to move one or more pistons back and forth in order to rotate a shaft and produce mechanical power. The mechanical power can be used directly for equipment like pumps or compressors, or it could be used to power an electric generator and to produce electricity.
+Stationary reciprocating internal combustion engines use either compression ignition (CI) or spark ignition (SI) in order to induce combustion within the cylinders. CI RICE typically run on diesel fuel, while SI RICE typically operate on lighter fuels (e.g. gasoline, propane, natural gas, biogas, etc). RICE generate air pollution from the combustion of fuels, typically generating higher levels of pollution than other combustion sources, such as boilers, due to the higher pressures inside RICE and the repeated “batch” combustion that occurs with each combustion cycle that moves the piston(s).
+To meet the definition of a Stationary RICE under Vermont regulations, the engine must remain at a stationary source for a consecutive 12 months, or for a full operating season at seasonal sources. Federal regulations differ, in that if the engine is mounted to a chassis designed to be moved, either under its own power or with external power, it is not considered a stationary RICE, but rather a non-road engine.
+What About Highway Vehicle Engines and Non-Road Engines at My Facility? 
+Highway vehicles (e.g. trucks, buses, passenger cars and motorcycles) registered for use on public roadways are subject to separate motor vehicle emissions standards and are not subject to or included in any air permit for a stationary source issued by the Vermont AQCD. Non-road engines (e.g. locomotives, marine vessels, off-road recreational vehicles, lawn & garden equipment, and non-road construction equipment including haul trucks, bulldozers and portable generators) are also subject to separate emission standards but their regulation is more complicated. For any stationary source in Vermont required to obtain an air permit for other air pollution emissions (see VAPCRs 5-401 for a listing of air contaminant sources requiring air permits), the air pollution emissions and fuel usage for any non-road engines will be included in the air permit. The primary reason for their inclusion in the air permit is due to the emissions from these engines likely occurring entirely at the stationary source, unlike highway vehicles that release emissions over many miles of highways. 
+However, the Federal definition for non-road engines includes provisions that state these engines will become stationary sources depending on how they are used. If a non-road engine remains unmoved at the same, single, fixed location for a consecutive 12 months, or for a full operating season at seasonal sources it will be considered a stationary engine. Compressors and generators are often used in this fashion. 
+Non-road engine emissions and fuel usage at the Facility will be included as part of the registration for the Facility, and regulated in the Facility’s air permit However, unless the non-road engine becomes reclassified as a stationary engine, the permit cannot impose any new emission standards on the engine as non-road engines are already subject to Federal emissions standards. 
+How are Stationary RICE Regulated? 
+There are several factors that may impact what regulations apply to a Stationary RICE, such as:
+the brake horsepower rating of the engine,
+when the engine was manufactured or installed,
+whether the engine is located at a major source or area source, 
+the intended use of the engine, including when/where the engine is moved (if applicable),
+and whether the engine is a compression ignition or spark ignition engine. Spark ignition engines are further subdivided by power cycle (i.e. two vs. four stroke and "rich burn" vs "lean burn")
+Thus prior to installation of the Stationary RICE, you must notify the AQCD Permits & Engineering Section to ensure you are fully aware of your compliance obligations. The notification must include the following information: the make, model, engine hp rating, generator kW rating (if applicable), the year of engine manufacture, and the emission certification for the engine. This information is available on the engine nameplate(s) attached to the engine, as opposed to the generator nameplate which is attached to the generator component. A photograph of the engine nameplate(s) should be included with the notification to ensure all the information is accurately captured and submitted. If the intended use is as an emergency generator, the notification must also state that the emergency generator is to be used for emergency use only and that you are familiar with the state and federal definitions restricting what operations are allowed for emergency generators. Generators to be used for non-emergency purposes , including most peak-shaving programs, will generally require a permit or permit amendment before installation. 
+What Do I Need to do to Obtain an Air Permit? 
+A Permit to Construct application must be submitted with the appropriate application fee to the AQCD. The Permit must be issued before the applicant can commence construction of the project. This would be required before installing or operating a non-emergency stationary RICE at the site. Please refer to our Permit to Construct Application Guidance webpage for more information. In addition to the information required to be submitted for a Permit to Construct Application, please also submit the following equipment specifications and designs.
+Equipment Specifications & Designs 
+Please submit the following information to the Permitting and Engineering Section when applying for a permit.
+Engine Manufacturer, Model No., Serial No. (if available), Date of Manufacture
+Date of Installation:
+Engine Use (emergency backup, primary power , peaking power, nongenerator use (explain)):
+Engine Rating (Horsepower):
+Engine Rating (Continuous/Prime/Standby):
+Generator Rating (kW):
+Engine Operating Speed (rpm):
+Fuel Type(on-highway diesel [clear, no tint]/standard diesel [red tint]/natural gas/propane/gasoline/other):
+Maximum Fuel Firing Rate@100% load ( liquid fuel [gals/hr]/gaseous fuel [cubic feet/hr]):
+Engine Design: number of cylinders
+displacement per cylinder (cubic inches)
+two-cycle or four-cycle
+turbocharged, supercharged or naturally aspirated?
+intercooled or aftercooled?
+method of ignition [spark or compression (diesel cycle)]:
+Is the engine certified to meet the federal nonroad engine emission limits of 40 CFR Part 89 or Part 1039?
+If so, state engine's tier certification and certification year (ie. the year of the standards to which it is certified):
+Will stratified charge or engine retard be utilized?
+Will the engine utilize a catalyst for air pollution control?
+Will the engine be equipped with a smoke particle trap to reduce emissions of particulate matter?
+Generator Manufacturer, Model No., Serial No. (if available)
+Generator Rating (KW): Prime power and/or Stand-by power
+Exhaust Chemistry (if available)
+State Regulations for Generators 
+The state permitting exemption for emergency generators applies only to emergency use only generators and only if the aggregate capacity of those engine generators at the entire facility are less than 2,000 bhp. The Vermont definition of emergency use only allows unlimited operation during emergency events outside the control of the facility as well as up to 100 hours per year of routine testing and maintenance. Under the Vermont definition only, emergency events also include operation as part of the ISO New England or local power company emergency demand response programs. These programs are used to ensure reliability of the electric grid during extreme high demand electric use times and are only implemented after brown-outs have also been implemented. These programs are very limited and do not include most peaking or load shedding programs used to reduce electric usage when power costs are high but grid reliability is not threatened. If in doubt, you should contact your power company and the AQCD Permits & Engineering Section to confirm if the program is eligible. Even if your emergency generator qualifies for the permit exemption, it may not be exempt from meeting minimum emission standards. If the engine is 450 bhp or greater and installed after July 1, 2007 it must at a minimum meet the federal EPA Tier 2 non-road engine emission standards of 40 CFR Part 89 or the equivalent. This includes engines to be used for emergency backup. The effect of this regulation is that many older non-compliant engines cannot be installed in Vermont. Most existing emergency generators installed prior to that date were allowed to remain for emergency use only. If your engine is 450 bhp or greater you will need to provide documentation to the AQCD Permits & Engineering Section that the proposed engine is in compliance before you install the engine. 
+Federal Regulations for Generators 
+The federal US EPA has two air pollution related regulations that may apply to your generator. One applies to new engines and one applies to existing engines. Both allow emergency generators to operate for unlimited hours for emergency situations and up to 100 hours per year for maintenance checks and readiness testing but both have more restrictive requirements for operation as part of emergency demand response programs. 
+The exact applicability of these regulations is very complicated for engines installed in the 2005-2007 transition period. One regulation applies to new engines of model year 2007 and newer, as well as those ordered after July 11, 2005 that were manufactured (not installed) after April 1, 2006 and one applies to existing engines installed prior to June 12, 2006. Applicability to these regulations in the transition period is not seamless and it is possible to have an engine subject to one, both or neither of the regulations. 
+A summary of these regulations is provided below. Since Vermont has not taken delegation of these regulations the US EPA is the implementing authority and is responsible for determining applicability and implementation of these regulations. You should consult the US EPA and their website directly for more information. 
+Part 60 Subpart IIII 
+This regulation applies to newer engines, including emergency generators, of approximately 2007 model year and newer. With limited exceptions, this regulation for stationary engines essentially points to the emission standards for non-road engines found in 40 CFR Part 89 and 1039. Its requirements fall primarily on the engine manufacturer to manufacture compliant engines meeting progressively more stringent emission standards for newer model years. The emission standards vary based on year of manufacture, size of the engine and in some cases the intended use of the engine. While most engines manufactured after 2014 must meet the Tier 4 emission standards which require advanced nitrogen oxide emission controls consisting of a selective catalytic reduction (SCR) catalyst and the injection of diesel exhaust fluid (DEF) 1 , some engines are still manufactured today to less stringent emission standards if they are for emergency use only or large (>750 bhp) non-genset applications. If the engine is certified for emergency use only the operator must restrict its operation to emergency use only. The engine emission certification label will state if the engine is so restricted. Before purchasing any engine, be sure to verify if it is restricted to emergency use only. Such engines may never be used for, or converted, to non-emergency operation at any point in the future. Regardless of the engine emission certification level, the operator of the engine must use only ULSD fuel and must maintain the engine in accordance with manufacturer recommendations and in a manner consistent with good air pollution control practices for minimizing emissions.
+If you are considering using biodiesel fuel, please note that all of the following conditions must be met:
+The biodiesel meets the fuel requirements of 40 CFR 60.4207(b),
+The engine manufacturer's warranty for the engine (including emission control systems) includes the use of biodiesel (or biodiesel blend) being used in the engine, and
+The biodiesel meets ASTM D6751.
+1 For stationary engines manufactured and labeled emergency use only , Subpart IIII does not require them to meet the latest (Tier 4) emission standards as established for non-road engines in 40 CFR Part 89 and 1039. Such stationary emergency use only labeled engines are allowed to meet Tier 3 for engines less than 750 bhp and Tier 2 for engines greater than 750 bhp. In addition, non-road engines greater than 750 bhp (560 kW) that are not a component of a genset, the Tier 4 emission standards may likely be met without the need for a selective catalytic reduction (SCR) catalyst and the injection of diesel exhaust fluid (DEF).
+Part 63 Subpart ZZZZ 
+This regulation applies to existing engines installed prior to ~June 12, 2006 and its requirements fall primarily on the facility operating the engine. The requirement vary depending on the size and use of the engine. Emergency generators at residential/commercial/institutional facilities, but not industrial facilities, are exempt. The federal definition of emergency operation is not consistent with the state definition and is the subject of ongoing litigation. Currently emergency use only engines may not be operated as part of the ISO New England emergency demand response program. Some non-emergency operation is allowed but such operation cannot be used for peak shaving or non-emergency demand response or to generate income for a facility, except as currently allowed in (f)(4)(ii) that does still allow up to 50 hours of “local” demand response. You should consult the regulation and EPA directly to ensure you remain in compliance with these provisions if you intend to operate the engine for any non-emergency or demand response programs.
+Emergency generators at industrial facilities and non-emergency engines less than 300 bhp must install an elapsed hour meter (emergency units), change the oil and filter every 500 hours (emergency units) or 1,000 hours (non-emergency units) of operation but not less than annually, inspect the engine air filter every 1,000 hours of operation but not less than annually, inspect the engine hoses and belts every 500 hours but not less than annually, and maintain records of such. Non-emergency engines 300 bhp and greater must install an oxidation catalyst to reduce carbon monoxide emissions, must use only ULSD fuel and must maintain the engine in accordance with manufacturer recommendations and in a manner consistent with good air pollution control practices for minimizing emissions, including limiting operating time at idle. 
+What other permits or requirements may be applicable to my project? 
+The Department of Environmental Conservation Environmental Assistance Office provides permit assistance through the Permit Navigator tool. The Permit Navigator can help you identify what environmental permits you may need for a project on a single parcel. If you have a linear, polygon, or multi-parcel project, contact a Community Assistance Specialist to get started.
+Contact Information
+Department of Environmental Conservation 
+Air Quality & Climate Division 
+1 National Life Drive, Davis 4
+Montpelier, VT 05620-3802
+(802) 828-1288 
+Air Quality and Climate Contact Information 
+Send a Request
+Report website accessibility feedback or request content in another format.
+Request a reasonable accommodation or free language access .
+Request public information 
+Search the Agency of Administration's Public Records Database 
+Department of Environmental Conservation Records Liaisons 
+Notice of Nondiscrimination 
+Connect With Us
+Facebook 
+Instagram 
+Topics
+Air and Climate Topics 
+Land Topics 
+Waste Topics 
+Water Topics 
+Learn More, Do More 
+Quick Links
+ANR Permit Navigator 
+DEC Calendar 
+DEC News 
+Press Releases 
+About DEC 
+DEC Topics A-Z 
+Search DEC 
+Key Contacts
+Emergency Numbers 
+Environmental Assistance 
+Community Assistance Specialists 
+Regional Offices 
+Staff Directory 
+Return to top 
+Copyright © 2026 State of Vermont All rights reserved. | 
+Web Policies 
+Accessibility 
+Privacy

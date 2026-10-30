@@ -1,0 +1,739 @@
+MATERIAL INCORPORATED BY REFERENCE IN
+401 KAR 52:020, TITLE V PERMITS
+
+Natural Resources and Environmental Protection Cabinet
+Department for Environmental Protection
+Division for Air Quality
+
+Cabinet Provisions and
+Procedures for Issuing
+Title V Permits
+
+1
+
+TABLE OF CONTENTS
+BACKGROUND.........................................................................
+
+3
+
+1a. GENERAL PROVISIONS ....................................................
+
+4-5
+
+1b. STANDARD REQUIREMENTS ...........................................
+
+6-10
+
+I.
+
+Emission Limitation and Standards ................
+
+6
+
+II.
+
+Duration and Renewal .................................
+
+6
+
+III.
+
+Monitoring Requirements .............................
+
+7
+
+IV. Recordkeeping Requirements .......................
+
+7
+
+V.
+
+Reporting Requirements...............................
+
+8
+
+VI. Affected Sources in the Acid Rain Program .....
+
+8
+
+VII. Alternate Operating Scenarios .......................
+
+9
+
+VIII. Emissions Trading for Federally-Enforceable
+Emissions Caps...........................................
+
+9
+
+1c. COMPLIANCE REQUREMENTS .........................................
+I.
+
+2.
+
+11-13
+
+Compliance Schedule ...................................
+
+11
+
+II. Compliance Certification ................................
+
+11
+
+III. Compliance Demonstration ............................
+
+12
+
+IV. Inspection and Entry Requirements.................
+
+13
+
+V. Other Provisions ...........................................
+
+13
+
+CABINET PROCEDURES FOR PERMIT ISSUANCE ..............
+I.
+
+14-21
+
+Completeness Review and Determination ........
+
+14
+
+II. Permit Review and Issuance Procedures for Initial
+Title V Permits for New or Existing Sources,
+PSD/NSR Permits, Significant Permit Revisions for
+Title V Permits after the Initial Draft Permit Has Been
+Issued, and Title V Permit Renewals ...............
+
+15
+
+III. Interim Review and Issuance Procedures.........
+
+16
+
+IV. Permit Issuance Procedures for Administrative Permit
+Amendments Under 401 KAR 52:020, Section 13
+
+17
+
+V. Permit Issuance Procedures for Administrative Permit
+Amendments Under 401 KAR 52:020, Section 13(3)
+(Change of Ownership or Name of Permittee)....
+
+18
+
+VI. Minor Permit Revisions Under 401 KAR 52:020,
+Section 14...................................................
+
+18
+
+VII. Group Processing of Minor Permit Revisions Under
+Under 401 KAR 52:020, Section 15 ................
+
+19
+
+VIII.Off-Permit & 502(b)(10) Changes Under 401 KAR
+52:020, Section 17 .......................................
+
+20
+
+IX. Reopening for Cause Under 401 KAR 52:020,
+Section 19...................................................
+
+20
+
+2
+
+BACKGROUND
+This document contains procedures and timelines which the cabinet shall use
+when issuing Title V permits. It also contains the terms and conditions which are
+required to be written in all Title V permits, including:
+•
+
+Initial Title V permits issued to new and existing sources that are major for
+Title V;
+
+•
+
+Title V permits issued to new and existing sources that are major under Title I
+and subject to review under the PSD or NSR in Non-attainment rules;
+
+•
+
+Affected sources under the Acid Rain Program; and
+
+•
+
+Minor, synthetic minor, and conditional major sources that become major
+following a change, or that become subject to a MACT or other federal
+standard that requires them to obtain a Title V permit.
+
+Sources that are subject to PSD review under 401 KAR 52:017 or NSR review under
+401 KAR 52:052 are, by definition, major sources for Title V, since the major source thresholds
+for Title I (which contains the PSD/NSR rules) are equal to or greater than those for Title V.
+This document specifies the terms and conditions which will be included in all Title V
+permits issued by the cabinet under 401 KAR 52:020.
+
+3
+
+Section
+
+1a
+b
+
+GENERAL PROVISIONS
+Title V permits issued by the Division for Air Quality shall contain terms and
+conditions consistent with the following general provisions:
+
+1) The permit shall contain all applicable requirements for emission units.
+2) Fugitive emissions shall be included in the permit even if the source is not on
+the list of 26 categories in the definition for "major source."
+3) The permit shall provide that the permittee shall comply with all conditions of
+the permit and that noncompliance shall be a violation of 401 KAR 52:020
+and the Act and shall be grounds for enforcement action, including
+termination, revocation and reissuance, revision, or denial of a permit.
+4) The permit shall provide that it shall not be a defense in an enforcement
+action that it would have been necessary to halt or reduce the permitted
+activity in order to maintain compliance.
+5) The permit shall provide that the permit may be revised, revoked and
+reissued, reopened and reissued, or terminated for cause, pursuant to 401
+KAR 52:020, Section 18.
+6) The permit shall provide that the filing of a request by the permittee for a
+permit revision, revocation and reissuance, or termination, or of a notification
+of planned changes or anticipated noncompliance shall not stay a permit
+condition.
+7) The permit shall provide that the permittee shall furnish information requested
+by the cabinet to determine:
+a) If cause exists for modifying, revoking and reissuing, or terminating
+the permit; or
+b) Compliance with the permit.
+8) The permit shall provide that, upon request, the permittee shall furnish the
+cabinet with copies of records required by the permit.
+
+4
+
+9) The permit shall not convey property rights or exclusive privileges.
+10) The permit shall contain a provision to ensure payment of emission fees by
+the source pursuant to 401 KAR 50:038.
+11) The permit shall include all insignificant activities and their applicable
+requirements that are required to be included in the permit application
+pursuant to 401 KAR 52:020, Section 6.
+12) The permit shall contain a provision that requires the source to submit an
+annual emissions certification pursuant to 401 KAR 52:020, Section 22.
+13) The permit shall contain a provision stating that a permit revision shall not be
+required in approved economic incentives, marketable permits, emissions
+trading, and other similar programs or processes for changes that are
+provided in the permit.
+14) The permit shall contain a severability clause to ensure the continued validity
+of the various permit requirements in the event of a challenge to portions of
+the permit.
+15) The permit shall contain a provision stating that all emission limitations and
+standards contained in a permit or a compliance plan issued by the cabinet:
+a) Shall be enforceable as a practical matter; and
+b) Except for those specifically identified as state-origin requirements, shall
+be enforceable by the U. S. EPA and citizens.
+
+5
+
+Section
+
+1b
+STANDARD REQUIREMENTS
+Title V permits issued by the Division for Air Quality shall contain the following
+standard provisions and requirements:
+
+I.
+
+Emission Limitations and Standards
+
+Permits shall contain emission limitations and standards, including operational
+requirements and limitations that assure compliance with all applicable
+requirements at the time of permit issuance, including:
+1) The origin of and authority for each term or condition, and any variation from the
+applicable requirement on which the term or condition is based.
+2) If an applicable requirement of the Act is more stringent than an applicable
+requirement promulgated under 42 U.S.C. 7651 to 7651o (Title IV of the Act),
+both provisions shall be incorporated into the permit and shall be federally
+enforceable.
+3) If a permit contains a determination that an alternative emission limit is equivalent
+to a limit contained in the SIP, the permit shall contain conditions to ensure that
+the resulting emissions limit is permanent, quantifiable, accountable, enforceable,
+and based on replicable procedures.
+4) The permit shall not contain provisions that waive, or make less stringent, any
+limitation or requirement contained in the SIP or that is otherwise federally
+enforceable.
+
+II.
+
+Duration and Renewal
+
+The permit shall include a statement which provides that the permit shall expire
+and be renewed pursuant to 401 KAR 52:020, Section 12.
+
+6
+
+III. Monitoring Requirements
+1) The permit shall contain all emissions monitoring and analysis procedures and
+test methods that are specified in the applicable requirements, including those in
+42 U.S.C. 7414(a)(3) or 42 U.S.C. 7661c(b).
+2) If the applicable requirement does not require periodic testing or monitoring, the
+permit shall contain periodic monitoring sufficient to yield reliable data from the
+relevant time period representative of the source's compliance with the permit.
+3) Monitoring requirements shall be specified in the permit, which assure the use of
+terms, test methods, units, averaging periods, and other statistical conventions
+consistent with the applicable requirement. Recordkeeping provisions may be
+sufficient to meet this requirement.
+4) The permit shall contain requirements covering the use, maintenance, and
+installation of monitoring equipment or methods.
+
+IV. Recordkeeping Requirements
+The permit shall incorporate all applicable recordkeeping requirements and shall
+include requirements for the following:
+1) Records of Required Monitoring Information that Include:
+a) The date, place, and time of sampling or measurements;
+b) The dates analyses were performed;
+c) The company or entity that performed the analyses;
+d) The analytical techniques or methods used;
+e) The results of analyses; and
+f) The operating conditions at the time of sampling or measurement.
+2) Records Retention
+a) Retention of records of all required monitoring data for a period of
+at least five (5) years from the date of the monitoring sample,
+measurement, report, or application; and
+7
+
+b) Retention of support information for a period of at least five (5)
+years from the date of the monitoring sample, measurement, report,
+or application. Support information shall include all calibration and
+maintenance records and all original strip-chart recordings for
+continuous monitoring instrumentation, and copies of all reports
+required by the permit.
+
+V.
+
+Reporting Requirements
+
+1) The permit shall require the submittal of monitoring reports at least every six
+(6) months.
+2) The permit shall require that all deviations from permit requirements shall be
+clearly identified in the reports, and all reports shall be certified by a
+responsible official pursuant to 401 KAR 52:020, Section 23.
+3) The permit shall require the prompt reporting of deviations from permit
+requirements, including those attributed to upset conditions, the probable
+cause of the deviations, and corrective or preventive measures taken.
+4) The cabinet shall define prompt reporting in the permit in relation to the
+applicable requirement and the degree and type of deviation likely to occur.
+
+VI. Affected Sources in the Acid Rain Program
+The permit shall contain the following conditions for affected sources under the
+Acid Rain Program:
+1) Emissions shall not exceed allowances that the source lawfully holds under
+the Acid Rain Program.
+2) Permit revisions shall not be required for increases in emissions authorized
+by allowances acquired under the Acid Rain Program if the increases do not
+require a permit revision in other applicable requirements.
+3) Except as provided in the Acid Rain Program, there shall be no limit on the
+number of allowances held by a source.
+4) A source shall not be allowed to use allowances in defense of noncompliance
+with an applicable requirement.
+8
+
+5) Allowances shall be accounted for pursuant to the procedures in 40 C.F.R.
+Part 73.
+
+VII. Alternate Operating Scenarios
+The permit shall contain terms and conditions for reasonably anticipated
+alternate operating scenarios identified by the source in its application and
+approved by the cabinet. The terms and conditions shall:
+1) Require the source, contemporaneously with making a change from one
+operating scenario to another, to record in a log at the permitted facility the
+scenario in which it is operating;
+2) Extend the permit shield to all terms and conditions in each operating
+scenario; and
+3) Ensure that the terms and conditions of each alternate operating scenario
+meet all applicable requirements and the requirements of 401 KAR 50:020.
+
+VIII. Emissions Trading for Federally-Enforceable Emissions Caps
+If requested by the applicant, the permit shall contain terms and conditions for
+trading emission increases and decreases in the permitted facility solely for the
+purpose of complying with a federally-enforceable emissions cap established in
+the permit independent of other requirements.
+1) The permit shall include replicable procedures and terms that ensure
+emission trades are measurable and enforceable.
+2) The cabinet shall not include in the trading provisions emissions that are not
+measurable, or for which there are no replicable procedures to enforce the
+trades.
+3) The terms and conditions shall:
+a) Include all terms required under Sections 1a to 1c of this document
+and 401 KAR 52:020, Sections 12 and 20, to determine
+compliance;
+
+9
+
+b) Extend the permit shield to all terms and conditions that allow
+changes in emissions;
+c) Meet all applicable requirements and the requirements of 401 KAR
+52:020; and
+d) Require written notice to the cabinet and the U.S. EPA seven (7)
+days prior to the change, and require that a copy of the notice be
+attached to the permit. The notice shall:
+i. State when the change will occur;
+ii. Describe any change in emissions that results; and
+iii. Describe how these changes will comply with the
+terms of the permit.
+
+10
+
+Section
+
+1c
+COMPLIANCE REQUIREMENTS
+Title V permits issued by the Division for Air Quality shall contain the elements for
+compliance, including but not limited to, compliance certification, testing,
+monitoring, reporting, and recordkeeping requirements sufficient to assure
+compliance with the terms and conditions of the permit.
+
+I.
+
+Compliance Schedule
+
+1) The permit shall contain a schedule of compliance as required in 401 KAR
+52:020, Section 5(8)(b).
+2) The permit shall contain a requirement for progress reports consistent with
+the compliance schedule, to be submitted semiannually or more frequently if
+specified in an applicable requirement or if deemed necessary to ensure
+compliance. Progress reports shall include:
+a) Dates for achieving the activities, milestones, or compliance
+required in the schedule, and dates when these activities,
+milestones, or compliance requirements were achieved; and
+b) An explanation of why dates in the compliance schedule were not
+or will not be met, and the preventive or corrective actions taken.
+
+II.
+
+Compliance Certification
+
+1) The permit shall require that a responsible official shall certify all submitted
+documents, pursuant to 401 KAR 52:020, Section 23.
+2) The permit shall contain requirements for compliance certification with terms
+and conditions contained in the permit, including emission limitations,
+standards, and work practices, as applicable, pursuant to 401 KAR 52:020,
+Section 21.
+3) The permit shall establish that compliance certifications shall be submitted
+annually or more frequently if specified in an applicable requirement or if deemed
+11
+
+necessary to ensure compliance.
+4) The permit shall establish a means for monitoring the compliance of the
+source with its emission limits, standards, and work practices.
+5) The permit shall establish that the compliance certification shall include:
+a) The identification of each term or condition that is the basis of the
+certification;
+b) The compliance status;
+c) Whether compliance was continuous or intermittent;
+d) The method used for determining the compliance status of the
+source, currently and over the reporting period; and
+e) Other facts the cabinet may require to determine the compliance
+status of the source.
+6) The permit shall include a requirement that all compliance certifications shall
+be submitted to the cabinet and the U.S. EPA.
+7) The permit shall include requirements for monitoring and compliance
+certification consistent with 42 U.S.C. 7414(a)(3) and 42 U.S.C. 7661c(b).
+
+III. Compliance Demonstration
+The permit shall contain a specific condition, for a source that is constructing,
+reconstructing, or modifying that the source shall:
+1) Demonstrate compliance with all requirements that become applicable as a
+result of the permit action, or which may be affected by the permit action
+pursuant to 401 KAR 50:055 and 401 KAR 52:020, Section 3(3), and
+2) If compliance is not demonstrated within the prescribed timeframe provided in
+401 KAR 50:055, the source shall operate thereafter only for the purpose of
+demonstrating compliance, unless otherwise authorized by a compliance plan
+or order of the cabinet.
+
+12
+
+IV. Inspection and Entry Requirements
+The permit shall contain a requirement that, upon presentation of credentials and
+other documents as may be required by law, the permittee shall allow the cabinet
+or an authorized representative of the cabinet to perform the following functions:
+1) To enter upon the premises where a source is located or emissions-related
+activity is conducted, or where records are kept, during reasonable times:
+a) To access and copy any records required by the permit;
+b) To inspect any facility, equipment (including monitoring and air
+pollution control equipment), practice, or operation required by the
+permit; and
+c) To sample or monitor substances or parameters to determine
+compliance with the permit and all applicable requirements.
+2) Reasonable times shall include:
+a) During all hours of operation;
+b) During normal office hours; and
+c) During an emergency.
+
+V.
+
+Other Provisions
+
+The permit may contain other provisions, which the cabinet deems necessary to
+ensure compliance with applicable requirements.
+
+13
+
+Section
+
+2
+
+CABINET PROCEDURES FOR PERMIT ISSUANCE
+
+I.
+
+Completeness Review and Determination
+
+1) The Cabinet shall log-in and review for completeness the following
+applications pursuant to 401 KAR 52:020, Section 9:
+a) Initial permits for new sources;
+b) The first Title V permit for existing sources;
+c) Significant permit revisions; and
+d) Renewal permits.
+2) A complete application shall:
+a) Include the information required in 401 KAR 52:020, Section 5; and
+b) Be sufficient to evaluate the source and its application and to
+determine all applicable requirements.
+3) The cabinet may request additional information at any time prior to the
+issuance of the permit.
+4) The cabinet shall promptly provide notice to the applicant if the application is
+complete. Unless the cabinet provides a written notice of incompleteness to
+the applicant within sixty (60) days after the application is submitted, the
+application shall be deemed complete.
+
+14
+
+II.
+
+Permit Review and Issuance Procedures for Initial Title V Permits for
+New or Existing Sources, PSD/NSR Permits, Significant Permit
+Revisions for Title V Permits after the Initial Draft Permit Has Been
+Issued, and Title V Permit Renewals
+
+1) The cabinet shall use the following provisions for the issuance of:
+a) Initial Title V permits to new or existing sources;
+b) Significant revisions to Title V permits after the initial draft permit
+has been issued; and
+c) Renewal of Title V permits.
+2) The cabinet shall issue a draft permit within sixty (60) days after the
+application is deemed complete.
+3) For permit applications that are subject to PSD review pursuant to 401 KAR
+51:017 or NSR in Non-attainment Area review pursuant to 401 KAR 51:052,
+the draft permit shall be the preliminary determination.
+4) The cabinet shall provide notice of the draft permit for public and affected
+state review as provided in 401 KAR 52:100.
+5) The cabinet shall submit the draft permit to the U.S. EPA if it is:
+a) A preliminary determination for a permit subject to PSD/NSR
+review; or
+b) A "draft/proposed" permit which the U.S. EPA has agreed to
+"parallel review" under the Title V Implementation Protocol.
+6) If a draft/proposed permit is submitted to the U.S. EPA under parallel review
+and no substantial change is made to the permit as a result of comments
+received, it shall be issued as the final permit with no further review required.
+7) The cabinet shall issue or deny a proposed permit within sixty (60) days after
+the public and affected state review is complete, and shall respond to
+comments received during the comment period.
+8) For permit applications that are subject to PSD/NSR review:
+
+15
+
+a) The proposed permit shall be the final determination;
+b) The cabinet shall notify the applicant in writing of the final
+determination; and
+c) The cabinet shall make the notice and public comments available
+for inspection at the same locations where the draft permit was
+available.
+9) The cabinet shall submit the proposed permit to the U.S. EPA for its forty-five
+(45) day review. This review shall not amend or affect a final determination
+made for permits that are also subject to review under 401 KAR 51:017 or
+401 KAR 51:052.
+10) The cabinet shall issue or deny a final permit within eighteen (18) months
+after submittal of a complete application.
+11)
+
+a) A source shall be allowed to construct when the proposed
+permit is issued and must demonstrate compliance pursuant
+to 401 KAR 50:055 before the final permit is issued.
+b) For sources that are subject to 401 KAR 51:017 or 51:052, the final
+determination under PSD/NSR procedures shall be the proposed
+permit for Title V purposes.
+c) Existing sources getting their first Title V permit, renewal permit, or
+making a significant permit revision, shall operate in compliance
+with the existing permit, compliance plan, or order of the cabinet
+until the final permit is issued.
+
+12) The cabinet shall not issue a permit, permit revision, or permit renewal until
+the affected states and the U.S. EPA have had an opportunity to review the
+proposed permit action pursuant to this section and 401 KAR 52:100.
+
+III. Interim Review and Issuance Procedures
+The cabinet shall use the following procedures for changes at sources that are
+required to obtain Title V permits, but whose applications are scheduled for
+review and processing at a later date.
+1) Changes that qualify as major modifications or synthetic minor revisions
+under PSD/NSR rules shall be processed pursuant to Section 2-II of this
+document, except that the draft, proposed, and final permit shall cover only
+16
+
+the change.
+2) Changes that require a case-by-case MACT determination pursuant to 42
+U.S.C. 7412(g) shall be processed pursuant to Section 2-II, except that the
+draft, proposed, and final permit shall cover only the change.
+3) Changes that qualify as administrative permit amendments shall be
+processed according to Sections 2-IV or V of this document, as applicable.
+4) Changes that qualify as minor permit revisions shall be processed according
+to Sections 2-VI or VII of this document, as applicable.
+5) Changes that qualify as off-permit or 502(b)(10) changes shall be processed
+according to Section 2-VIII of this document.
+6) Changes that are not described in Section 2-III-1) to 5) but that cause an
+increase in potential to emit of five (5) or more tpy of a HAP, twenty-five (25)
+or more tpy of combined HAPs, or 100 or more tpy of another regulated air
+pollutant shall be processed as follows:
+a) A draft permit covering only the change shall be issued within sixty
+(60) days after receipt of a complete application;
+b) The draft permit shall be submitted for public review pursuant to
+401 KAR 52:100, but not for U.S. EPA or affected state review;
+c) The source may construct and operate in compliance with the draft
+permit until the final permit is issued; and
+d) The cabinet shall issue or deny a final permit within sixty (60) days
+after the public review is complete, and shall respond to comments
+received during the comment period.
+7) Changes involving construction or modification that are not described in
+Section 2-III.1) to 6) above shall be processed as follows:
+a) The cabinet shall issue or deny a final permit covering only the
+change within sixty (60) days after receipt of a complete
+application; and
+b) The source shall be allowed to construct and operate in compliance
+with the final permit.
+
+17
+
+IV.
+
+Permit Issuance Procedures for Administrative Permit Amendments
+Under 401 KAR 52:020, Section 13
+
+1) The cabinet shall approve or deny the requested change within sixty (60)
+days after receiving an application for an administrative amendment.
+2) If the requested change is denied, the cabinet shall notify the source, in
+writing, of the reason for denial and any action the source is required to take.
+3) The cabinet may incorporate an administrative permit amendment into the
+permit without providing notice to the public or affected states.
+4) The cabinet shall submit a copy of the revised permit to the U.S. EPA.
+5) The cabinet shall notify the U. S. EPA of actions proposed under 401 KAR
+52:020, Section 13(4) and, if requested, shall submit a copy of the
+preconstruction review permit and the application for an administrative permit
+amendment to the U.S. EPA for review.
+
+V.
+
+Permit Issuance Procedure for Administrative Permit Amendments
+Under 401 KAR 52:020, Section 13(3) (Change of Ownership or Name of
+Permittee)
+
+If no other change is made at the source, within sixty (60) days after receiving the
+required information for a change of source ownership, or name of permittee, the
+cabinet shall:
+1) Reissue the permit to the new owner or permittee as an administrative
+amendment; or
+2) Deny the permit. If the permit is denied, the cabinet shall specify the reason
+for denial and the action the source is required to take.
+
+VI.
+
+Minor Permit Revisions Under 401 KAR 52:020, Section 14
+
+The cabinet shall process minor permit revisions pursuant to the following:
+1) The cabinet shall notify the U.S. EPA and affected states of the requested
+revision within five (5) workdays after receiving a complete application.
+18
+
+2) The cabinet shall not issue the final permit revision until after the U.S. EPA's
+forty-five (45) day review, unless the U.S. EPA notifies the cabinet that it will
+not object to issuing the permit revision.
+3) Within ninety (90) days after receiving a complete application, or fifteen (15)
+days after the end of the U.S. EPA's forty-five (45) day review, whichever is
+later, the cabinet shall:
+a) Issue the permit revision as proposed;
+b) Deny the permit revision;
+c) Determine that the proposed change does not meet the criteria for
+minor revisions and should be processed as a significant revision;
+or
+d) Revise the draft permit to meet the minor revision criteria and
+transmit a new proposed permit to the U.S. EPA.
+
+VII. Group Processing of Minor Permit Revisions Under 401 KAR 52:020,
+Section 15.
+The cabinet shall use the following procedures for requested group processing of
+minor permit revisions:
+1) The cabinet shall notify the U.S. EPA and affected states of the requested
+permit revisions on a quarterly basis, or within five (5) work days after receipt
+of an application demonstrating that the aggregate of a source's pending
+applications do not equal or exceed the threshold specified in 401 KAR
+52:020, Section 15(1)(b), whichever date is sooner.
+2) Within 180 days after receiving a complete application, or fifteen (15) days
+after the end of the U.S. EPA's forty-five (45) day review, whichever is later,
+the cabinet shall:
+a) Issue the permit revisions as proposed;
+b) Deny the permit revisions;
+c) Determine that one or more of the proposed changes do not meet
+the criteria for group processing of minor revisions and should be
+processed as a significant revision; or
+19
+
+d) Revise the draft permit to meet the minor revision criteria and
+transmit a new proposed permit to the U.S. EPA.
+
+VIII. Off-Permit & 502(b)(10) Changes Under 401 KAR 52:020, Section 17
+For off-permit and 502(b)(10) changes, the cabinet shall:
+1) Retain a copy of the notice submitted by the source with the source's permit;
+and
+2) Incorporate the changes into the permit upon renewal.
+
+IX.
+
+Reopening for Cause Under 401 KAR 52:020, Section 19
+
+1) Reopening a permit shall follow the same procedures, including the
+provisions for review by the public, U.S. EPA, and affected states, as initial
+permit issuance and shall affect only those parts of the permit for which cause
+to reopen exists.
+2) The cabinet shall notify the source of its intent to reopen the permit at least
+thirty (30) days prior to the reopening, unless shorter notice is warranted by
+an emergency.
+3) If the U.S. EPA finds cause to terminate, modify, or revoke and reissue a
+permit, it shall notify the source and the cabinet in writing. If this occurs:
+a) The cabinet shall submit to the U.S. EPA a proposal to terminate,
+revise, or revoke and reissue the permit within ninety (90) days
+after receipt of notice.
+b) The U.S. EPA may extend this ninety (90) day period for an
+additional ninety (90) days if it determines that:
+i. A new or revised permit application is needed; or
+ii. The cabinet has requested additional information from
+the source.
+
+20
+
+c) The U.S. EPA shall review the cabinet's proposed determination
+within ninety (90) days of receipt.
+d) If the U.S. EPA objects to any part of the cabinet's proposed
+determination, the cabinet shall have ninety (90) days from receipt
+of objection to terminate, modify, or revoke and reissue the permit
+in accordance with the objection.
+e) If the cabinet fails to submit a proposed determination or fails to
+resolve an objection made by the U.S. EPA:
+i. The U.S. EPA shall notify the source of its intent to
+terminate, modify, or revoke and reissue the permit; and
+ii. The source shall have thirty (30) days from receipt of
+notice to comment and to request a hearing.
+
+21
+
+

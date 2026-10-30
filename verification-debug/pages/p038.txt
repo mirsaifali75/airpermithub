@@ -1,0 +1,447 @@
+www.pca.state.mn.us
+
+Comparison of air permit flexibility options
+(Acronyms are listed at the end of the table)
+
+Individual State
+Permit
+
+Individual Pt. 70
+Permit
+
+Feature
+
+Registration Permit
+Option D
+
+Capped Emission
+Permit
+
+(Limits to be minor
+for NSR & Pt. 70)
+
+(Limits to be Minor
+for NSR)
+
+Individual permit with precap limits
+
+Type
+
+State (rule-based)
+
+State (rule-based)
+
+State
+
+Part 70
+
+State or Part 70
+
+Thresholds/
+Applicability
+Limits
+
+Using actual emissions:
+
+Using actual emissions:
+
+< 50 tpy PM, PM10, VOC,
+SO2, NOx, CO
+
+Option 1:
+
+< 100 tpy each of PM,
+PM10, PM2.5, VOC,
+NOX, CO, SO2 (limited
+at 90 tpy or lower)
+
+< 100/250 tpy each of
+PM10, PM2.5, VOC, NOX,
+CO, SO2 (limited at
+90/225 tpy or lower)
+depending on NSR
+threshold.
+
+Cap facility-wide emissions of key (or all)
+pollutants to avoid Pt. 70 or to avoid NSR
+major source threshold if Pt. 70 – See
+individual state and pt. 70 columns for
+specific values.
+
+< 5 tpy single HAP
+
+< 90 tpy PM, PM10, VOC,
+SO2, NOx, CO
+
+< 12.5 tpy all HAP
+
+< 9 tpy one HAP
+
+< 0.5 tpy lead
+
+< 20 tpy all HAP
+
+< 50,000 tpy CO2e
+
+< 0.5 tpy lead
+< 90,000 tpy CO2e
+Includes IAs
+Option 2:
+< 90 tpy for SO2
+< 85 tpy for VOC, NOx,
+and CO
+< 75 tpy for PM10, PM
+< 8 tpy one HAP
+< 20 tpy all HAP
+
+< 100,000 tpy CO2e
+< 10 tpy one HAP
+(limited at 9 tpy or
+lower)
+< 25 tpy all HAP
+(limited at 22.5 tpy or
+lower)
+Limits lowered to
+leave room for IAs
+and compliance
+method issues
+(adjusted for
+individual facility).
+
+< 100,000 tpy CO2e
+May also include HAP
+limits if source wants
+to avoid major source
+NESHAP requirements.
+Limits lowered to
+leave room for IAs and
+compliance method
+issues (adjusted for
+individual facility).
+
+< 0.5 tpy lead
+< 85,000 tpy CO2e
+Does not include IAs
+
+Minnesota Pollution Control Agency
+651-296-6300 | 800-657-3864 or use your preferred relay service | Info.pca@state.mn.us
+
+April 2021 | aq2-29
+Available in alternative formats
+
+Individual Pt. 70 Permit
+(Limits to be Minor for
+NSR)
+
+Feature
+
+Registration Permit Option D
+
+Capped Emission Permit
+
+Individual State Permit
+
+Eigibility
+
+Not eligible if:
+
+Same as Option D plus:
+
+Issuance criteria listed in Minn. R. 7007.1000, subp. 1
+
+• Acid Rain source
+
+• No ethanol plants
+
+• Waste combustor
+
+• Must pass ambient air
+assessment without
+restrictions
+
+• SIP requirements
+• Assumed things in an
+EIS,EAW, MAAQS
+compliance, or NAAQS
+compliance that must be
+made enforceable
+
+Precap Individual Permit
+
+• NSPS applies other than
+those listed in the rule
+• Eligible for sector-based
+state general permit
+Application
+Process –
+Applicant
+
+Permit Document
+
+Very short application packet.
+Must identify applicable NSPS
+and area source NESHAPs,
+need not identify other
+applicable requirements or
+specific equipment, just
+eligibility.
+One page permit
+
+Shortened application
+packet, but must provide
+information on all
+equipment/ materials
+
+Full application packet.
+
+One page permit
+
+Full permit document.
+
+Must determine all applicable requirements and propose compliance methods for
+all equipment.
+
+Requirements are specific to equipment and operations.
+
+Page 2 of 5
+
+April 2021 | aq2-29
+
+Individual Pt. 70 Permit
+Feature
+
+Registration Permit Option D
+
+Capped Emission Permit
+
+Individual State Permit
+
+Making Changes
+
+Can make changes without
+receiving permit amendment
+as long as remain below
+thresholds and continue to
+qualify.
+
+Can make changes without
+amendment as long as
+remain below thresholds
+and meet other eligibility
+requirements.
+
+No pre-authorized changes.
+
+(Limits to be Minor for
+NSR)
+
+Precap Individual Permit
+
+Must apply for appropriate permit amendment (minor, moderate, major, or
+administrative) for each change at facility that triggers need for amendment.
+Emissions cap written to “prelimit” (precap) annual
+emission increases of new or
+modified equipment.
+
+Must do pre-change analysis
+when increasing emissions
+to show will meet eligibility
+requirements (including
+ambient air standards).
+
+Record-keeping,
+Monitoring &
+Reporting
+
+Monthly records and
+calculations
+Annual calculations if
+emissions are
+< 25 percent of Pt. 70
+thresholds
+
+Follow Control Equipment
+Rule.
+
+Follow Control Equipment
+Rule
+
+Compliance requirements in
+rule but must create tailored
+compliance plan.
+
+Shutdown/ breakdown
+notification
+
+Daily records and monthly calculations.
+Tailored control equipment requirements.
+Compliance requirements in permit.
+
+Must calculate all HAP
+emissions.
+
+Do not have to calculate HAPs
+if VOCs < 5tpy
+
+Compliance requirements in
+rule
+Submittals
+
+Daily production/ usage
+records and monthly
+calculations of actual
+emissions.
+
+Amendments still apply if
+changes under the pre-cap
+result in a potential increase in
+hourly emissions.
+
+Additional recordkeeping for
+changes made under the
+precap when no amendment
+was needed.
+
+Shutdown/ breakdown
+notification.
+
+Shutdown/ breakdown notification.
+
+Report deviations semiannually only if a deviation.
+
+Annual compliance certification.
+
+Annual compliance
+certification.
+
+Deviations reporting every six months.
+Submittals associated with applicable requirements, e.g. NSPS.
+Any case specific submittals (e.g., equipment inventory).
+
+Submittals associated with
+applicable requirements, e.g.
+NSPS.
+Page 3 of 5
+
+April 2021 | aq2-29
+
+Individual Pt. 70 Permit
+(Limits to be Minor for
+NSR)
+
+Feature
+
+Registration Permit Option D
+
+Capped Emission Permit
+
+Individual State Permit
+
+Duration
+
+Non-expiring
+
+Non-expiring with certain
+exceptions
+
+Non-expiring with certain
+exceptions
+
+Five year term
+
+Non-expiring with certain
+exceptions (state) or five-year
+term (Pt. 70)
+
+Issuance Time
+(Generally)
+
+Within 60 days of receiving
+complete application
+
+Within 60-90 days of
+receiving complete
+application.
+
+Within six to twelve
+months of starting work
+
+Within six to twelve
+months of starting work
+
+Within six to twelve months of
+starting work
+
+Public
+Participation
+
+No public notice of individual
+permits issued.
+
+List of facilities on agency
+website that have applied
+for Capped permit.
+
+Standard 30-day public
+notice of draft permit
+
+Standard 30-day public
+notice of draft permit;
+EPA 45-day review
+
+Standard 30-day public notice
+of draft permit; EPA 45-day
+review (Pt. 70 only)
+
+Public can request a list of
+facilities with Option D
+Permit.
+
+Precap Individual Permit
+
+30 day comment period on
+eligibility.
+Persons can elect to receive
+electronic notification of
+capped applications
+received.
+
+Emissions
+Inventory
+
+Page 4 of 5
+
+Annual submittal of total
+facility emissions (not by unit
+or process)
+
+Annual submittal of emissions by unit/process
+
+April 2021 | aq2-29
+
+List of acronyms used in table
+CO - Carbon Monoxide
+CO2e - Carbon Dioxide Equivalent
+EAW – Environmental Assessment Worksheet
+EI- Emissions Inventory
+EIS – Environmental Impact Statement
+HAP - Hazardous Air Pollutant
+IA -Insignificant Activities
+NESHAP – National Emission Standards for Hazardous Air Pollutants
+NOX - Nitrogen Oxides
+NSR – New Source Review
+NSPS – New Source Performance Standard
+PM - Particulate Matter
+PM10 – PM Smaller than 10 Microns in Diameter
+SIP- State Implementation Plan
+SO2 - Sulfur Dioxide
+tpy – Tons Per Year
+VOC - Volatile Organic Compounds
+*Go to https://www.revisor.mn.gov/rules/?id=7007 to view the rule-based permits or to http://www.pca.state.mn.us/air/permits/issued/index.html
+view a specific permit.
+
+Page 5 of 5
+
+April 2021 | aq2-29
+
+

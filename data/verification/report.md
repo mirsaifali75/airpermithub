@@ -1,0 +1,518 @@
+# Source verification
+
+Checked 2026-10-30 against live pages and eCFR (current through 2026-10-28). 2243 claims, 889 pages, 32 eCFR sections.
+
+| Kind | Results |
+|---|---|
+| name | verified: 50, unreachable: 2, not-found: 25, blocked: 20, broken: 2, unreadable: 1 |
+| link | ok: 1142, blocked: 172, broken: 22, unreachable: 3 |
+| citation | verified: 292, blocked: 65, skipped: 24, not-found: 74, unreadable: 19, broken: 3, unreachable: 2 |
+| threshold | blocked: 29, numbers-found: 69, numbers-missing: 22, unreadable: 1, unreachable: 1, broken: 1 |
+| cfr | not-found: 2, verified: 83 |
+| quote | not-found: 11, verified: 26, blocked: 3, broken: 2 |
+| cfr-term | verified: 47, not-found: 12, other-paragraph: 2 |
+| cfr-quote | verified: 9, other-paragraph: 5 |
+
+## Needs attention
+
+- **unreachable** name · state:AL:local · Jefferson County Department of Health, Air & Radiation Protection · CERT_HAS_EXPIRED · https://www.jcdh.org/SitePages/Programs-Services/EnvironmentalHealth/Air-RadiationProtectionDivision/RegAirFac.aspx
+- **not-found** name · state:AL:local · City of Huntsville Natural Resources & Environmental Management · page title: Air Quality Permits - City of Huntsville · https://www.huntsvilleal.gov/environment/air-quality/air-quality-permits/
+- **blocked** name · state:AK:agency · Alaska Department of Environmental Conservation (DEC) · HTTP 403 · https://dec.alaska.gov/air/air-permit/
+- **blocked** link · state:AK:agency-permits · Alaska Department of Environmental Conservation (DEC) permits page · HTTP 403 · https://dec.alaska.gov/air/air-permit/guidance/
+- **broken** name · state:AK:local · Municipality of Anchorage · HTTP 404 · https://www.muni.org/Departments/Fire/Wildfire/Pages/BurnPermits.aspx
+- **blocked** link · state:AK:program:Construction Permits · Construction Permits · HTTP 403 · https://dec.alaska.gov/air/air-permit/construction-minor-applications/
+- **blocked** threshold · state:AK:program:Construction Permits · Per DEC: 100 tpy of any regulated pollutant for the 28 facility types listed at 40 CFR 52.21(b)(1)(i)(a); 250 tpy for ot · HTTP 403 · https://dec.alaska.gov/air/air-permit/construction-minor-applications/
+- **blocked** citation · state:AK:program:Construction Permits · 18 AAC 50; thresholds tied to 40 CFR 52.21(b)(1)(i)(a) · HTTP 403 · https://dec.alaska.gov/air/air-permit/construction-minor-applications/
+- **not-found** cfr · state:AK:program:Construction Permits · 40 CFR 52.21(b)(1)(i)(a) · § 52.21 exists but paragraph (b)(1)(i)(a) not found
+- **blocked** link · state:AK:program:Minor Source Specific (MSS) Permits · Minor Source Specific (MSS) Permits · HTTP 403 · https://dec.alaska.gov/air/air-permit/construction-minor-applications/
+- **blocked** citation · state:AK:program:Minor Source Specific (MSS) Permits · 18 AAC 50 · HTTP 403 · https://dec.alaska.gov/air/air-permit/construction-minor-applications/
+- **blocked** link · state:AK:program:General Permits · General Permits · HTTP 403 · https://dec.alaska.gov/air/air-permit/general-permits/
+- **blocked** threshold · state:AK:program:General Permits · MG3 and MG9: under 100 tpy; GP3: over 100 tpy (restated from ADEC). · HTTP 403 · https://dec.alaska.gov/air/air-permit/general-permits/
+- **blocked** citation · state:AK:program:General Permits · 18 AAC 50 · HTTP 403 · https://dec.alaska.gov/air/air-permit/general-permits/
+- **blocked** link · state:AK:program:Owner Requested Limit (ORL) · Owner Requested Limit (ORL) · HTTP 403 · https://dec.alaska.gov/air/air-permit/orl-pael-application/
+- **blocked** citation · state:AK:program:Owner Requested Limit (ORL) · 18 AAC 50.225 · HTTP 403 · https://dec.alaska.gov/air/air-permit/orl-pael-application/
+- **blocked** link · state:AK:program:Pre-Approved Emission Limits (PAEL) · Pre-Approved Emission Limits (PAEL) · HTTP 403 · https://dec.alaska.gov/air/air-permit/orl-pael-application/pael-notice-guidance/
+- **blocked** citation · state:AK:program:Pre-Approved Emission Limits (PAEL) · 18 AAC 50 · HTTP 403 · https://dec.alaska.gov/air/air-permit/orl-pael-application/pael-notice-guidance/
+- **blocked** link · state:AK:program:Operating Permits (Title V) · Operating Permits (Title V) · HTTP 403 · https://dec.alaska.gov/air/air-permit/operating-application/
+- **blocked** threshold · state:AK:program:Operating Permits (Title V) · Per DEC: potential to emit 10 tpy or more of any single HAP, 25 tpy or more of combined HAPs, or more than 100 tpy of ot · HTTP 403 · https://dec.alaska.gov/air/air-permit/operating-application/
+- **blocked** citation · state:AK:program:Operating Permits (Title V) · 18 AAC 50 · HTTP 403 · https://dec.alaska.gov/air/air-permit/operating-application/
+- **blocked** link · state:AK:program:Open Burn Approval · Open Burn Approval · HTTP 403 · https://dec.alaska.gov/air/air-permit/open-burn-application/
+- **blocked** link · state:AK:oil-gas:MG1: Oil and Gas Drill Rigs General Permit · MG1: Oil and Gas Drill Rigs General Permit · HTTP 403 · https://dec.alaska.gov/air/air-permit/general-permits/
+- **blocked** link · state:AK:oil-gas:Minor Source Specific permit (drilling rigs) · Minor Source Specific permit (drilling rigs) · HTTP 403 · https://dec.alaska.gov/air/air-permit/construction-minor-applications/
+- **blocked** link · state:AK:regulation · Air Quality Control (effective December 14, 2024) · HTTP 403 · https://dec.alaska.gov/media/b1kj1lr4/18-aac-50.pdf
+- **blocked** citation · state:AK:regulation · 18 AAC 50 · HTTP 403 · https://dec.alaska.gov/media/b1kj1lr4/18-aac-50.pdf
+- **blocked** link · state:AK:regulation · State Air Quality Control Plan · HTTP 403 · https://dec.alaska.gov/air/anpms/sip/
+- **blocked** citation · state:AK:regulation · Alaska SIP · HTTP 403 · https://dec.alaska.gov/air/anpms/sip/
+- **broken** link · state:AK:form · Transfer of Ownership · HTTP 404 · https://dec.alaska.gov/media/11441/transfer-ownership-2018.pdf
+- **broken** link · state:AK:form · Source Test Plan Summary · HTTP 404 · https://dec.alaska.gov/media/6689/stp-form.pdf
+- **broken** link · state:AK:form · Title V Minor Revision Checklist · HTTP 404 · https://dec.alaska.gov/media/7327/titlev-minor-revision-checklist.pdf
+- **blocked** link · state:AK:guidance · Permit Application Guidance: Where to Start · HTTP 403 · https://dec.alaska.gov/air/air-permit/guidance/
+- **blocked** link · state:AK:guidance · Air Permit Policies · HTTP 403 · https://dec.alaska.gov/air/air-permit/policies
+- **blocked** link · state:AK:guidance · Standard Permit Conditions · HTTP 403 · https://dec.alaska.gov/air/air-permit/standard-conditions/
+- **blocked** link · state:AK:source · DEC Permit Application Guidance · HTTP 403 · https://dec.alaska.gov/air/air-permit/guidance/
+- **blocked** link · state:AK:source · DEC Air Permit Regulations · HTTP 403 · https://dec.alaska.gov/air/air-permit/permit-regulations/
+- **blocked** link · state:AK:epermitting · Air Online Services · HTTP 403 · https://dec.alaska.gov/applications/air/airtoolsweb/
+- **blocked** link · state:AK:fees · DEC Online Payment Center · HTTP 403 · https://dec.alaska.gov/applications/DAS/OPC/
+- **blocked** name · state:AZ:agency · Arizona Department of Environmental Quality (ADEQ) · HTTP 403 · https://azdeq.gov/air-permits-comp
+- **blocked** link · state:AZ:agency-permits · Arizona Department of Environmental Quality (ADEQ) permits page · HTTP 403 · https://www.azdeq.gov/node/6372
+- **broken** name · state:AZ:local · Pima County Department of Environmental Quality · HTTP 404 · https://webcms.pima.gov/government/environmental_quality/air/
+- **blocked** name · state:AZ:local · Pinal County Air Quality Control District · HTTP 403 · http://www.pinalcountyaz.gov/AirQuality/Pages/home.aspx
+- **not-found** name · state:AZ:local · U.S. EPA Region 9 · page title: Tribal Air and Climate Resources | US EPA · https://www.epa.gov/tribal-air
+- **blocked** link · state:AZ:program:Air Quality Registration · Air Quality Registration · HTTP 403 · https://azdeq.gov/node/3446
+- **blocked** link · state:AZ:program:General Permits · General Permits · HTTP 403 · https://www.azdeq.gov/node/6372
+- **blocked** link · state:AZ:program:Class II Individual Permit · Class II Individual Permit · HTTP 403 · https://azdeq.gov/node/446
+- **blocked** citation · state:AZ:program:Class II Individual Permit · A.A.C. Title 18, Ch. 2, R18-2-302(B)(2) · HTTP 403 · https://azdeq.gov/node/446
+- **blocked** link · state:AZ:program:Class I Individual Permit (Title V) · Class I Individual Permit (Title V) · HTTP 403 · https://azdeq.gov/air-permit-classifications-defined
+- **blocked** threshold · state:AZ:program:Class I Individual Permit (Title V) · Per ADEQ: 100 tons/year or more of any criteria pollutant, 10 tons/year or more of any single HAP, or 25 tons/year or mo · HTTP 403 · https://azdeq.gov/air-permit-classifications-defined
+- **blocked** citation · state:AZ:program:Class I Individual Permit (Title V) · A.A.C. R18-2-302(B)(1); major source definition R18-2-101 · HTTP 403 · https://azdeq.gov/air-permit-classifications-defined
+- **blocked** link · state:AZ:program:PSD permit · PSD permit · HTTP 403 · https://azdeq.gov/air-permit-classifications-defined
+- **blocked** link · state:AZ:program:Nonattainment NSR permit · Nonattainment NSR permit · HTTP 403 · https://azdeq.gov/air-permit-classifications-defined
+- **blocked** link · state:AZ:regulation · Air Pollution Control (R18-2-101 definitions; R18-2-302 permit classes) · HTTP 403 · https://azdeq.gov/LawsAndRules
+- **blocked** citation · state:AZ:regulation · A.A.C. Title 18, Chapter 2 · HTTP 403 · https://azdeq.gov/LawsAndRules
+- **blocked** link · state:AZ:form · Class I Individual Permit Application · HTTP 403 · https://static.azdeq.gov/forms/classI_app.pdf
+- **blocked** link · state:AZ:form · Class II Individual Permit Application · HTTP 403 · https://static.azdeq.gov/forms/classII_app.pdf
+- **blocked** link · state:AZ:form · Air Quality Permit Determination Request · HTTP 403 · http://static.azdeq.gov/forms/aq_determination.pdf
+- **blocked** link · state:AZ:form · Air Quality Registration Application · HTTP 403 · https://legacy.azdeq.gov/environ/air/permits/download/reg_app.pdf
+- **blocked** link · state:AZ:form · Emissions Calculations Template · HTTP 403 · https://legacy.azdeq.gov/environ/air/permits/download/ect.xls
+- **blocked** link · state:AZ:form · ADEQ forms · HTTP 403 · https://azdeq.gov/forms
+- **blocked** link · state:AZ:guidance · Minor NSR Guidance · HTTP 403 · https://static.azdeq.gov/aqd/minor_nsr_guid.pdf
+- **blocked** link · state:AZ:guidance · Air Dispersion Modeling Guidelines · HTTP 403 · https://static.azdeq.gov/aqd/modeling_guidance.pdf
+- **blocked** link · state:AZ:guidance · Top 10 Tips for a Complete Air Permit Application · HTTP 403 · https://static.azdeq.gov/aqd/aqpermit_top10_pres.pdf
+- **blocked** link · state:AZ:guidance · Air Permit Classifications Defined · HTTP 403 · https://azdeq.gov/air-permit-classifications-defined
+- **blocked** link · state:AZ:source · ADEQ Air Quality Permitting (Compliance Assistance) · HTTP 403 · https://www.azdeq.gov/node/6372
+- **blocked** link · state:AZ:source · ADEQ Air Permit Classifications Defined · HTTP 403 · https://azdeq.gov/air-permit-classifications-defined
+- **blocked** link · state:AZ:source · ADEQ Individual Permits · HTTP 403 · https://azdeq.gov/node/446
+- **blocked** link · state:AZ:fees · Class I & II Schedule of Fees Summary · HTTP 403 · http://static.azdeq.gov/aqd/aqd_class_fees.pdf
+- **not-found** name · state:AR:agency · Arkansas Department of Energy and Environment, Division of Environmental Quality (DEQ) · page title: Office of Air Quality | DEQ · https://adeq.state.ar.us/air/
+- **blocked** name · state:CA:agency · California Air Resources Board (CARB) with 35 local air districts · HTTP 403 · https://ww2.arb.ca.gov/
+- **blocked** link · state:CA:agency-permits · California Air Resources Board (CARB) with 35 local air districts permits page · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **blocked** name · state:CA:local · 35 local air pollution control / air quality management districts · HTTP 403 · https://ww2.arb.ca.gov/california-map-local-air-district-websites
+- **blocked** link · state:CA:program:Authority to Construct (ATC) · Authority to Construct (ATC) · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **blocked** citation · state:CA:program:Authority to Construct (ATC) · District NSR rules (SIP-approved) · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **blocked** link · state:CA:program:Permit to Operate (PTO) · Permit to Operate (PTO) · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **blocked** citation · state:CA:program:Permit to Operate (PTO) · Cal. Health & Safety Code § 42301 · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **blocked** link · state:CA:program:District permit exemptions · District permit exemptions · HTTP 403 · https://ww2.arb.ca.gov/current-air-district-rules
+- **blocked** link · state:CA:program:Nonattainment NSR · Nonattainment NSR · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **blocked** citation · state:CA:program:Nonattainment NSR · District NSR rules (SIP-approved) · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **blocked** link · state:CA:regulation · Current Air District Rules (CARB index) · HTTP 403 · https://ww2.arb.ca.gov/current-air-district-rules
+- **blocked** citation · state:CA:regulation · Local district rules · HTTP 403 · https://ww2.arb.ca.gov/current-air-district-rules
+- **blocked** link · state:CA:form · Permit forms are issued by each district; start from CARB's district map · HTTP 403 · https://ww2.arb.ca.gov/california-map-local-air-district-websites
+- **blocked** link · state:CA:guidance · CARB Stationary Source Permitting: Community Questions · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **blocked** link · state:CA:source · CARB Stationary Source Permitting Q&A · HTTP 403 · https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions
+- **not-found** quote · state:CO:program:Title V Operating Permit · 10 tons per year or more of any single hazardous air pollutant; 25 tons per year or more of any combination of hazardous · 58% of the quote's wording found · https://cdphe.colorado.gov/apcd/titlev
+- **not-found** name · state:CT:agency · Connecticut Department of Energy and Environmental Protection (DEEP) · page title: Air Permitting & Inventory · https://portal.ct.gov/deep/air/permits/air-permits
+- **numbers-missing** threshold · state:CT:program:New Source Review (NSR) permit · Per DEEP FAQ: a new individual piece of equipment with potential emissions greater than 15 tpy of any individual air pol · not on page: 15, 10, 22, 174, 3 · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3a/
+- **not-found** citation · state:CT:program:New Source Review (NSR) permit · RCSA § 22a-174-3a · "22a-174-3" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3a/
+- **not-found** citation · state:CT:program:Permit-by-rule (equipment-specific) · RCSA § 22a-174-3b · "22a-174-3" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3b/
+- **numbers-missing** threshold · state:CT:program:Permit-by-rule (premises-wide limits) · Per DEEP FAQ: premises-wide VOC coating limit of 1,500 gallons per calendar year (§ 22a-174-3c(b)(10)). · not on page: 1500, 22, 174, 3, 10 · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3c/
+- **not-found** citation · state:CT:program:Permit-by-rule (premises-wide limits) · RCSA § 22a-174-3c · "22a-174-3" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3c/
+- **not-found** citation · state:CT:program:Permit-by-rule: Combined Heat and Power · RCSA § 22a-174-3d · "22a-174-3" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3d/
+- **numbers-missing** threshold · state:CT:program:Title V alternatives (emissions caps) · Per DEEP FAQ: actual emissions below 80% of Title V thresholds (below 100% for greenhouse gases). · not on page: 80, 100 · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33a/
+- **not-found** citation · state:CT:program:Title V alternatives (emissions caps) · RCSA §§ 22a-174-33a, 22a-174-33b · "22a-174-33" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33a/
+- **not-found** citation · state:CT:program:Nonattainment review (major NSR) · RCSA § 22a-174-3a · "22a-174-3" not on page · https://portal.ct.gov/DEEP/Air/Planning/Ozone/2008-Ozone-NAAQS-Reclassification
+- **not-found** citation · state:CT:regulation · RCSA § 22a-174-1 · "22a-174-1" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-1/
+- **not-found** citation · state:CT:regulation · RCSA § 22a-174-3a · "22a-174-3" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3a/
+- **not-found** citation · state:CT:regulation · RCSA §§ 22a-174-3b to 3d · "22a-174-3" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-3b/
+- **not-found** citation · state:CT:regulation · RCSA § 22a-174-33 · "22a-174-33" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33/
+- **not-found** citation · state:CT:regulation · RCSA §§ 22a-174-33a, 33b · "33" not on page · https://eregulations.ct.gov/eRegsPortal/Browse/RCSA/Title_22aSubtitle_22a-174Section_22a-174-33b/
+- **not-found** name · state:DE:agency · Delaware Department of Natural Resources and Environmental Control (DNREC) · page title: Division of Air Quality - DNREC · https://dnrec.delaware.gov/air/
+- **unreadable** citation · state:DE:program:Natural Minor Permit (Regulation 1102) · 7 DE Admin. Code 1102 · page text not readable (likely needs JavaScript) · https://regulations.delaware.gov/AdminCode/title7/1102
+- **unreadable** citation · state:DE:program:New Source Review / PSD (Regulation 1125) · 7 DE Admin. Code 1125 · page text not readable (likely needs JavaScript) · https://regulations.delaware.gov/AdminCode/title7/1125
+- **unreadable** citation · state:DE:program:Nonattainment NSR (Regulation 1125) · 7 DE Admin. Code 1125 · page text not readable (likely needs JavaScript) · https://regulations.delaware.gov/AdminCode/title7/1125
+- **unreadable** citation · state:DE:regulation · 7 DE Admin. Code 1101 · page text not readable (likely needs JavaScript) · https://regulations.delaware.gov/AdminCode/title7/1101
+- **unreadable** citation · state:DE:regulation · 7 DE Admin. Code 1102 · page text not readable (likely needs JavaScript) · https://regulations.delaware.gov/AdminCode/title7/1102
+- **unreadable** citation · state:DE:regulation · 7 DE Admin. Code 1125 · page text not readable (likely needs JavaScript) · https://regulations.delaware.gov/AdminCode/title7/1125
+- **unreadable** citation · state:DE:regulation · 7 DE Admin. Code 1130 · page text not readable (likely needs JavaScript) · https://regulations.delaware.gov/AdminCode/title7/1130
+- **unreadable** citation · state:DE:regulation · Title 7 Air Quality Regulations index · page text not readable (likely needs JavaScript) · https://regulations.delaware.gov/AdminCode/title7/
+- **not-found** name · state:DC:agency · DC Department of Energy and Environment (DOEE) · page title: Apply for an Air Pollutant Permit | doee · https://doee.dc.gov/service/airpermits
+- **not-found** citation · state:DC:program:New Source Review (20 DCMR § 204) · 20 DCMR § 204 · "204" not on page · https://doee.dc.gov/node/7722
+- **numbers-missing** threshold · state:FL:program:PSD Permit · Per DEP: new major source with potential emissions of a PSD pollutant at or above 100 tpy (including fugitives) in one o · not on page: 210.200 · https://floridadep.gov/sites/default/files/Air-Construction-Permits.pdf
+- **not-found** name · state:HI:agency · Hawaii State Department of Health (DOH) · page title: Clean Air Branch – State of Hawaii, Department of Health · https://health.hawaii.gov/cab/
+- **not-found** citation · state:ID:program:Exemptions · IDAPA 58.01.01 · "58.01.01" not on page · https://www.deq.idaho.gov/permits/air-quality-permitting/
+- **not-found** citation · state:ID:program:Permit by Rule (PBR) · IDAPA 58.01.01 · "58.01.01" not on page · https://www.deq.idaho.gov/permits/air-quality-permitting/
+- **not-found** citation · state:ID:program:General Permits · IDAPA 58.01.01 · "58.01.01" not on page · https://www.deq.idaho.gov/permits/air-quality-permitting/
+- **not-found** citation · state:ID:program:Permit to Construct (PTC) · IDAPA 58.01.01 · "58.01.01" not on page · https://www.deq.idaho.gov/permits/air-quality-permitting/
+- **not-found** citation · state:ID:program:Tier II Operating Permit · IDAPA 58.01.01 · "58.01.01" not on page · https://www.deq.idaho.gov/permits/air-quality-permitting/
+- **broken** link · state:ID:program:Tier I Operating Permit (Title V) · Tier I Operating Permit (Title V) · HTTP 404 · https://www.deq.idaho.gov/permitting/air-quality-permitting/tier-i/
+- **broken** citation · state:ID:program:Tier I Operating Permit (Title V) · IDAPA 58.01.01 · HTTP 404 · https://www.deq.idaho.gov/permitting/air-quality-permitting/tier-i/
+- **not-found** name · state:IL:agency · Illinois Environmental Protection Agency (Illinois EPA) · page title: Air Permits · https://epa.illinois.gov/topics/forms/air-permits.html
+- **blocked** name · state:IL:local · City of Chicago Department of Public Health · HTTP 403 · https://www.chicago.gov/city/en/depts/cdph/provdrs/healthy_communities/svcs/environmental-permits---regulation.html
+- **numbers-missing** threshold · state:IL:program:Registration of Smaller Sources (ROSS) · Per Illinois EPA guide: up to 5.0 tons/yr combined PM, CO, NOx, SO2, and VOM; 0.50 tons/yr combined HAPs; 0.05 tons/yr l · not on page: 5.0, 0.50, 0.05 · https://epa.illinois.gov/topics/forms/air-forms/lifetime.html
+- **not-found** citation · state:IL:program:Registration of Smaller Sources (ROSS) · 35 Ill. Adm. Code 201.175 · "201.175" not on page · https://epa.illinois.gov/topics/forms/air-forms/lifetime.html
+- **not-found** citation · state:IL:program:Construction Permit · 35 Ill. Adm. Code 201.142-201.144 · "201.142-201.144" not on page · https://epa.illinois.gov/topics/forms/air-forms/state.html
+- **not-found** citation · state:IL:program:Lifetime State Operating Permit · Ill. Environmental Protection Act; 35 Ill. Adm. Code 201 · "201" not on page · https://epa.illinois.gov/topics/forms/air-forms/lifetime.html
+- **numbers-missing** threshold · state:IL:program:Clean Air Act Permit Program (CAAPP) · Per Illinois EPA guide: 100 tons/yr of any criteria pollutant; 10 tons/yr of any single HAP; 25 tons/yr of combined HAPs · not on page: 10, 25, 8760 · https://epa.illinois.gov/topics/forms/air-forms/caapp.html
+- **not-found** citation · state:IL:program:Clean Air Act Permit Program (CAAPP) · Ill. Environmental Protection Act § 39.5 · "39.5" not on page · https://epa.illinois.gov/topics/forms/air-forms/caapp.html
+- **not-found** citation · state:IN:program:Exemptions · 326 IAC 2 · "326" not on page · https://www.in.gov/idem/airpermit/information-about/exemptions
+- **numbers-missing** threshold · state:IN:program:Registration · Per IDEM table (PTE, tpy, min to <max): VOC 10-25 (5-25 if VOC rules require controls); NOx 10-25; CO 25-100; SO2 10-25; · not on page: 25, 5, 100, 0.2 · https://www.in.gov/idem/airpermit/information-about/alternate-approvals
+- **not-found** citation · state:IN:program:Minor Source Operating Permit (MSOP) · 326 IAC 2-6.1 · "2-6.1" not on page · https://www.in.gov/idem/airpermit/information-about/operating-permits/
+- **numbers-missing** threshold · state:IN:program:Part 70 Operating Permit (Title V) · Per IDEM table (PTE, tpy): VOC and NOx 100 (attainment/marginal/moderate), 50 serious, 25 severe, 10 extreme; SO2, CO, P · not on page: 100, 50, 25, 10 · https://www.in.gov/idem/airpermit/information-about/operating-permits/
+- **not-found** citation · state:IN:program:Part 70 Operating Permit (Title V) · 326 IAC 2-7 · "2-7" not on page · https://www.in.gov/idem/airpermit/information-about/operating-permits/
+- **unreadable** citation · state:IN:regulation · 326 IAC 2 · page text not readable (likely needs JavaScript) · http://www.in.gov/legislative/iac/T03260/A00020.PDF
+- **blocked** name · state:IA:local · Linn County Health Department, Air Quality Division · HTTP 403 · https://www.linncountyiowa.gov/1429/Air-Quality
+- **blocked** name · state:IA:local · Polk County Public Works, Air Quality Division · HTTP 403 · https://www.polkcountyiowa.gov/public-works/air-quality/
+- **not-found** citation · state:IA:regulation · 567 IAC Chapters 21-33 · "21-33" not on page · http://www.legis.iowa.gov/law/administrativeRules/agencies
+- **blocked** name · state:KS:agency · Kansas Department of Health and Environment (KDHE) · HTTP 403 · https://www.kdhe.ks.gov/166/Air
+- **blocked** link · state:KS:agency-permits · Kansas Department of Health and Environment (KDHE) permits page · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** link · state:KS:program:Construction Approval · Construction Approval · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** threshold · state:KS:program:Construction Approval · Per KDHE overview (2016): PM 5 lb/hr; agricultural PM10 5 lb/hr; other PM10 2 lb/hr; SO2/SO3 2 lb/hr; CO 50 lb/24-hr; VO · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** citation · state:KS:program:Construction Approval · K.A.R. 28-19-300(b) · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** link · state:KS:program:State Construction Permit · State Construction Permit · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** threshold · state:KS:program:State Construction Permit · Per KDHE overview (PTE, tons/yr): PM 25; PM10 15; agricultural PM/PM10 100; SO2/SO3 40; CO 100; VOC 40; NOx 40; lead 0.6 · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** citation · state:KS:program:State Construction Permit · K.A.R. 28-19-300(a) · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** link · state:KS:program:Class II Permits-by-Rule · Class II Permits-by-Rule · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** threshold · state:KS:program:Class II Permits-by-Rule · Low-emitting sources: actual emissions below 50% of major source thresholds (restated from KDHE). · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** citation · state:KS:program:Class II Permits-by-Rule · K.A.R. 28-19-500(b) series · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** link · state:KS:program:Class II Operating Permit (FESOP) · Class II Operating Permit (FESOP) · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** citation · state:KS:program:Class II Operating Permit (FESOP) · K.A.R. 28-19-500(b) · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** link · state:KS:program:Prevention of Significant Deterioration · Prevention of Significant Deterioration · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** threshold · state:KS:program:Prevention of Significant Deterioration · Per KDHE overview: major source 100 tons/yr PTE for listed categories, 250 tons/yr otherwise. Significance levels includ · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** citation · state:KS:program:Prevention of Significant Deterioration · K.A.R. 28-19-350 · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** link · state:KS:program:Class I Operating Permit (Title V) · Class I Operating Permit (Title V) · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** threshold · state:KS:program:Class I Operating Permit (Title V) · Per KDHE overview: individual HAP 10 tons/yr or more; combined HAPs 25 tons/yr or more; any other regulated pollutant 10 · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** citation · state:KS:program:Class I Operating Permit (Title V) · K.A.R. 28-19-500(a) · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** link · state:KS:oil-gas:Gas Well Notification · Gas Well Notification · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** citation · state:KS:oil-gas:Gas Well Notification · 40 CFR 60.5375(a) · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** link · state:KS:oil-gas:Class II permit-by-rule: reciprocating engines · Class II permit-by-rule: reciprocating engines · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** link · state:KS:form · Process/Equipment Description Forms · HTTP 403 · https://www.kdhe.ks.gov/339/Process-Equipment-Description-Forms
+- **blocked** link · state:KS:form · Permit and Approvals Information Sheet · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/21165
+- **blocked** link · state:KS:form · Gasoline Dispensing Standard Construction Permit/Approval · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/1223/Standard-Construction-Permit--Approval-for-Gasoline-Dispensing-Facilities-PDF
+- **blocked** link · state:KS:guidance · Overview of Kansas Air Quality Program (Rev. 8, 2016) · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** link · state:KS:guidance · Air Construction Permit FAQs · HTTP 403 · https://www.kdhe.ks.gov/Faq.aspx?TID=22
+- **blocked** link · state:KS:guidance · Air Operating Permit FAQs · HTTP 403 · https://www.kdhe.ks.gov/Faq.aspx?TID=20
+- **blocked** link · state:KS:guidance · Air Permit Modeling · HTTP 403 · https://www.kdhe.ks.gov/333/Air-Permit-Modeling
+- **blocked** link · state:KS:guidance · Permit Technical Guidance · HTTP 403 · https://www.kdhe.ks.gov/335/Permit-Technical-Guidance-Information
+- **blocked** link · state:KS:source · KDHE Bureau of Air Permitting · HTTP 403 · https://www.kdhe.ks.gov/313/Permitting
+- **blocked** link · state:KS:source · KDHE Overview of Kansas Air Quality Program · HTTP 403 · https://www.kdhe.ks.gov/DocumentCenter/View/532/Overview-of-Kansas-Air-Quality-Program-PDF
+- **blocked** link · state:KS:epermitting · KEIMS (Kansas Environmental Information Management System) · HTTP 403 · https://www.kdhe.ks.gov/249/KS-Environmental-Information-Management-
+- **blocked** name · state:KY:local · Louisville Metro Air Pollution Control District · HTTP 403 · https://louisvilleky.gov/government/air-pollution-control-district/air-pollution-permits-and-compliance
+- **numbers-missing** threshold · state:KY:program:Minor / State-Origin Permit · Per DAQ: above registration levels but below 100 TPY of a non-hazardous pollutant, and below 10 TPY of any single HAP or · not on page: 100 · https://eec.ky.gov/Environmental-Protection/Air/Documents/52-040%20IBR%20Final.pdf
+- **unreadable** citation · state:ME:regulation · 06-096 CMR Chapter 115 · page text not readable (likely needs JavaScript) · https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/096c115.doc
+- **numbers-missing** threshold · state:MD:program:Part 70 (Title V) Operating Permit · Per MDE: potential to emit 100 tpy or more of any regulated pollutant; 10 tpy single HAP or 25 tpy combined HAPs; or mor · not on page: 26.11 · https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.06.pdf
+- **not-found** citation · state:MD:program:Part 70 (Title V) Operating Permit · COMAR 26.11.03 · "26.11.03" not on page · https://mde.maryland.gov/programs/permits/documents/2008permitguide/arma/1.06.pdf
+- **blocked** name · state:MA:agency · Massachusetts Department of Environmental Protection (MassDEP) · HTTP 403 · https://www.mass.gov/info-details/how-to-participate-in-massdep-air-quality-permitting-decisions
+- **blocked** link · state:MA:agency-permits · Massachusetts Department of Environmental Protection (MassDEP) permits page · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:program:Plan Approval exemptions · Plan Approval exemptions · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** citation · state:MA:program:Plan Approval exemptions · 310 CMR 7.02(2) · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:program:Permit-by-Rule · Permit-by-Rule · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** citation · state:MA:program:Permit-by-Rule · 310 CMR 7.03 · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:program:Environmental Results Program (ERP) · Environmental Results Program (ERP) · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** citation · state:MA:program:Environmental Results Program (ERP) · 310 CMR 7.26 · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:program:Plan Approval: Limited Plan Application (LPA) / Comprehensive Plan Application (CPA) · Plan Approval: Limited Plan Application (LPA) / Comprehensive Plan Application (CPA) · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** threshold · state:MA:program:Plan Approval: Limited Plan Application (LPA) / Comprehensive Plan Application (CPA) · Per MassDEP 2011 overview (examples): non-combustion process >1 to <10 tons/12 months: LPA; >10 tons/12 months: CPA. Nat · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** citation · state:MA:program:Plan Approval: Limited Plan Application (LPA) / Comprehensive Plan Application (CPA) · 310 CMR 7.02(4) (LPA), 7.02(5) (CPA) · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:program:PSD · PSD · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** citation · state:MA:program:PSD · 40 CFR 52.21 · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:program:Nonattainment NSR · Nonattainment NSR · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** citation · state:MA:program:Nonattainment NSR · 310 CMR 7.00 Appendix A · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:program:Title V Operating Permit · Title V Operating Permit · HTTP 403 · https://www.mass.gov/doc/general-instructions-operating-permits/download
+- **blocked** citation · state:MA:program:Title V Operating Permit · 310 CMR 7.00 Appendix C · HTTP 403 · https://www.mass.gov/doc/general-instructions-operating-permits/download
+- **blocked** link · state:MA:regulation · Air Pollution Control · HTTP 403 · https://www.mass.gov/doc/310-cmr-7-air-pollution-control/download
+- **blocked** citation · state:MA:regulation · 310 CMR 7.00 · HTTP 403 · https://www.mass.gov/doc/310-cmr-7-air-pollution-control/download
+- **blocked** link · state:MA:form · Operating Permit general instructions · HTTP 403 · https://www.mass.gov/doc/general-instructions-operating-permits/download
+- **blocked** link · state:MA:guidance · Plan Approval Overview & Applicability Tables (2011) · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:guidance · How to Participate in MassDEP Air Quality Permitting Decisions · HTTP 403 · https://www.mass.gov/info-details/how-to-participate-in-massdep-air-quality-permitting-decisions
+- **blocked** link · state:MA:guidance · Source Registration & Greenhouse Gas Reporting · HTTP 403 · https://www.mass.gov/guides/massdep-source-registration-greenhouse-gas-reporting
+- **blocked** link · state:MA:source · MassDEP Plan Approval Overview · HTTP 403 · https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf
+- **blocked** link · state:MA:source · 310 CMR 7.00 · HTTP 403 · https://www.mass.gov/doc/310-cmr-7-air-pollution-control/download
+- **blocked** name · state:MI:agency · Michigan Department of Environment, Great Lakes, and Energy (EGLE) · HTTP 403 · https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review
+- **blocked** link · state:MI:agency-permits · Michigan Department of Environment, Great Lakes, and Energy (EGLE) permits page · HTTP 403 · https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review
+- **blocked** link · state:MI:program:PTI exemptions · PTI exemptions · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/Guidance/pti-exemption-booklet.pdf
+- **blocked** citation · state:MI:program:PTI exemptions · Mich. Admin. Code R 336.1280-336.1291 (Part 2) · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/Guidance/pti-exemption-booklet.pdf
+- **blocked** link · state:MI:program:General Permits to Install · General Permits to Install · HTTP 403 · https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review/general-permits
+- **blocked** link · state:MI:program:Permit to Install (PTI) · Permit to Install (PTI) · HTTP 403 · https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review
+- **blocked** citation · state:MI:program:Permit to Install (PTI) · Mich. Admin. Code R 336.1201 · HTTP 403 · https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review
+- **blocked** link · state:MI:program:PSD (Part 18) · PSD (Part 18) · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** threshold · state:MI:program:PSD (Part 18) · Per EGLE guide: major stationary source is 100 tpy or more of an NSR pollutant for listed categories, or 250 tpy or more · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** citation · state:MI:program:PSD (Part 18) · Mich. Admin. Code Part 18 · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** link · state:MI:program:Nonattainment NSR (Part 19) · Nonattainment NSR (Part 19) · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** threshold · state:MI:program:Nonattainment NSR (Part 19) · Per EGLE guide (tpy): VOC and NOx 100 marginal/moderate, 50 serious, 25 severe, 10 extreme; PM10 100 moderate, 70 seriou · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** citation · state:MI:program:Nonattainment NSR (Part 19) · Mich. Admin. Code Part 19 · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** link · state:MI:program:Renewable Operating Permit (ROP) · Renewable Operating Permit (ROP) · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** threshold · state:MI:program:Renewable Operating Permit (ROP) · Per EGLE guide: 100 tpy of any regulated air contaminant; 10 tpy single HAP; 25 tpy combined HAPs. · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** citation · state:MI:program:Renewable Operating Permit (ROP) · Mich. Admin. Code R 336.1210-336.1218 · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** link · state:MI:oil-gas:NESHAP initial notification: Oil and Natural Gas Production Facilities · NESHAP initial notification: Oil and Natural Gas Production Facilities · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Forms/AQD/NESHAP/EQP3570-Initial-Notification-Report-NESHAP-Oil-and-Natural-Gas-Production-Facilities.pdf
+- **blocked** citation · state:MI:oil-gas:NESHAP initial notification: Oil and Natural Gas Production Facilities · 40 CFR 63 Subpart HH · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Forms/AQD/NESHAP/EQP3570-Initial-Notification-Report-NESHAP-Oil-and-Natural-Gas-Production-Facilities.pdf
+- **blocked** link · state:MI:form · Permit Information Checklist (EQP3580) · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Forms/ESD/EQP3580-Permit-Information-Checklist.pdf
+- **blocked** link · state:MI:form · General PTI description · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/General-PTIs/general-permits-description.pdf
+- **blocked** link · state:MI:guidance · Michigan Guide to Environmental Regulations, Ch. 1 Air · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **blocked** link · state:MI:guidance · Permit to Install Exemption Handbook · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Permits/AQD/PTI/Guidance/pti-exemption-booklet.pdf
+- **blocked** link · state:MI:guidance · Air quality facility-specific information · HTTP 403 · https://www.michigan.gov/egle/about/organization/air-quality/facility-specific-info
+- **blocked** link · state:MI:source · EGLE PTI / NSR · HTTP 403 · https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review
+- **blocked** link · state:MI:source · EGLE General PTIs · HTTP 403 · https://www.michigan.gov/egle/about/organization/air-quality/air-permits/new-source-review/general-permits
+- **blocked** link · state:MI:source · EGLE Michigan Guide to Environmental Regulations (2024), Ch. 1 · HTTP 403 · https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Regulatory-Assistance/Guidebooks/MI-Guide-to-Environmental-Regulations/MI-Guide-Environmental-Regulations-Ch1-Air.pdf
+- **unreadable** name · state:MN:agency · Minnesota Pollution Control Agency (MPCA) · page text not readable (likely needs JavaScript) · https://www.pca.state.mn.us/business-with-us/air-permits
+- **unreadable** citation · state:MN:program:Insignificant facilities and conditionally exempt sources · Minn. R. ch. 7008 · page text not readable (likely needs JavaScript) · https://www.pca.state.mn.us/business-with-us/conditionally-exempt-sources
+- **unreadable** threshold · state:MN:program:Registration Permits (incl. Option D) · Per MPCA (Option D, actual emissions): under 50 tpy each of PM, PM10, VOC, SO2, NOx, CO; under 5 tpy single HAP; under 1 · page text not readable (likely needs JavaScript) · https://www.pca.state.mn.us/business-with-us/air-registration-permits
+- **unreadable** citation · state:MN:program:Registration Permits (incl. Option D) · Minn. R. ch. 7007 · page text not readable (likely needs JavaScript) · https://www.pca.state.mn.us/business-with-us/air-registration-permits
+- **unreachable** link · state:MN:program:Capped Emission Permit · Capped Emission Permit · ERR_TLS_CERT_ALTNAME_INVALID · https://pca.state.mn.us/air/capped-air-emission-state-permit
+- **unreachable** threshold · state:MN:program:Capped Emission Permit · Per MPCA: actual emissions under 75%-90% of federal thresholds (e.g., Option 1 under 90 tpy listed pollutants including  · ERR_TLS_CERT_ALTNAME_INVALID · https://pca.state.mn.us/air/capped-air-emission-state-permit
+- **unreachable** citation · state:MN:program:Capped Emission Permit · Minn. R. ch. 7007 · ERR_TLS_CERT_ALTNAME_INVALID · https://pca.state.mn.us/air/capped-air-emission-state-permit
+- **unreadable** citation · state:MN:program:Individual State Total Facility Permit · Minn. R. 7007.1000 · page text not readable (likely needs JavaScript) · https://www.pca.state.mn.us/business-with-us/air-permit-types
+- **blocked** link · state:MO:program:Permits-by-Rule · Permits-by-Rule · HTTP 403 · https://dnr.mo.gov/air/business-industry/permits/by-rule-construction
+- **not-found** citation · state:MO:program:General construction permits · 10 CSR 10-6.060 · "10-6.060" not on page · https://dnr.mo.gov/air/business-industry/permits/construction
+- **not-found** citation · state:MO:program:De minimis and minor construction permits · 10 CSR 10-6.060 · "10-6.060" not on page · https://dnr.mo.gov/air/business-industry/permits/construction
+- **not-found** citation · state:MO:program:Major NSR (nonattainment) · 10 CSR 10-6.060 · "10-6.060" not on page · https://dnr.mo.gov/document-search/air-permitting-impacts-st-louis-ozone-reclassification-serious-nonattainment
+- **not-found** citation · state:MO:program:PSD · 10 CSR 10-6.060 · "10-6.060" not on page · https://dnr.mo.gov/air/business-industry/permits/construction
+- **not-found** citation · state:MT:program:Montana Air Quality Permit (MAQP) · ARM 17.8 Subchapter 7 (ARM 17.8.743) · "17.8.743" not on page · https://deq.mt.gov/air/assistance
+- **numbers-missing** threshold · state:MT:program:Registration: Oil and gas well facilities · Oil and gas well registration: for well facilities with potential emissions above 25 tons per year, constructed after No · not on page: 1968 · https://deq.mt.gov/air/assistance
+- **not-found** citation · state:MT:program:Registration: Oil and gas well facilities · ARM 17.8 Subchapter 17 (ARM 17.8.1701-17.8.1713) · "17.8.1701-17.8.1713" not on page · https://deq.mt.gov/air/assistance
+- **numbers-missing** threshold · state:MT:oil-gas:Oil and Gas Well Facility Registration · Register within 60 days of initial well completion; DEQ lists a $500 registration fee and $850 annual fee (restated; con · not on page: 1968 · https://deq.mt.gov/air/assistance
+- **not-found** citation · state:MT:oil-gas:Oil and Gas Well Facility Registration · ARM 17.8.1701, 17.8.1703, 17.8.1704 · "17.8.1704" not on page · https://deq.mt.gov/air/assistance
+- **broken** link · state:MT:form · Oil and Gas Registration Instructions · HTTP 404 · https://deq.mt.gov/files/Air/AirQuality/Documents/forms/InstructionsMTOGRegistration-01.pdf
+- **blocked** name · state:NE:local · Omaha Public Works Department, Air Quality Control Division · HTTP 403 · https://publicworks.cityofomaha.org/oaqc-omaha-air-quality-control/
+- **not-found** citation · state:NE:program:Air General Permits (construction and operating) · Title 129, Chapter 7 · "129" not on page · https://dwee.nebraska.gov/air-general-permit
+- **broken** link · state:NE:guidance · Pre-Application Meetings Fact Sheet · HTTP 404 · https://dwee.nebraska.gov/sites/default/files/publications/05-168%20Pre-Application%20Meetings.pdf
+- **broken** link · state:NE:fees · Construction Permit Application Fees · HTTP 404 · https://dwee.nebraska.gov/sites/default/files/publications/05-159%20Construction%20Permit%20Application%20Fees_0.pdf
+- **not-found** name · state:NV:agency · Nevada Division of Environmental Protection (NDEP) · page title: Air | NDEP · https://ndep.nv.gov/air
+- **not-found** name · state:NV:local · Clark County Department of Environment and Sustainability, Division of Air Quality · page title: Welcome to Clark County, NV · https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/division_of_air_quality/permitting/index.php
+- **unreachable** name · state:NV:local · Northern Nevada Public Health, Air Quality Management Division · UNABLE_TO_VERIFY_LEAF_SIGNATURE · https://www.nnph.org/programs-and-services/air-quality/index.php
+- **blocked** name · state:NH:agency · New Hampshire Department of Environmental Services (NHDES) · HTTP 403 · https://www.des.nh.gov/air/industrial-sources
+- **blocked** link · state:NH:agency-permits · New Hampshire Department of Environmental Services (NHDES) permits page · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** link · state:NH:program:Temporary Permit (construction) · Temporary Permit (construction) · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf
+- **blocked** threshold · state:NH:program:Temporary Permit (construction) · Table I examples from ARD-17: fuel-burning devices at or above 10 MMBtu/hr (gas or distillate oil), 4 MMBtu/hr (#4 oil), · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf
+- **blocked** citation · state:NH:program:Temporary Permit (construction) · Env-A 600 · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf
+- **blocked** link · state:NH:program:State Permit to Operate · State Permit to Operate · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** citation · state:NH:program:State Permit to Operate · Env-A 600 · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** link · state:NH:program:General State Permit (GSP): emergency engines · General State Permit (GSP): emergency engines · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** citation · state:NH:program:General State Permit (GSP): emergency engines · Env-A 600 · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** link · state:NH:program:Permit-by-Notification (PBN): nonmetallic mineral processing · Permit-by-Notification (PBN): nonmetallic mineral processing · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** citation · state:NH:program:Permit-by-Notification (PBN): nonmetallic mineral processing · Env-A 600 · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** link · state:NH:program:Nonattainment NSR (Ozone Transport Region) · Nonattainment NSR (Ozone Transport Region) · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf
+- **blocked** quote · state:NH:program:Nonattainment NSR (Ozone Transport Region) · VOCs – 50 tons per consecutive 12-month period (tpy). NOx – 100 tpy. · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf
+- **blocked** citation · state:NH:program:Nonattainment NSR (Ozone Transport Region) · Env-A 618 · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf
+- **blocked** link · state:NH:program:Prevention of Significant Deterioration (PSD) · Prevention of Significant Deterioration (PSD) · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf
+- **blocked** threshold · state:NH:program:Prevention of Significant Deterioration (PSD) · 100 tpy for listed source categories and 250 tpy for other sources (NO2, CO, SO2, PM); greenhouse gases 100,000 tpy CO2e · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf
+- **blocked** citation · state:NH:program:Prevention of Significant Deterioration (PSD) · Env-A 619 · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf
+- **blocked** link · state:NH:program:Title V Operating Permit · Title V Operating Permit · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** threshold · state:NH:program:Title V Operating Permit · 10 tpy of any one HAP or 25 tpy combined HAPs; 50 tpy VOC; 100 tpy of any criteria pollutant; NOx at 100 tpy in Belknap, · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** citation · state:NH:program:Title V Operating Permit · Env-A 600 · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** link · state:NH:form · All NHDES Forms · HTTP 403 · https://www.des.nh.gov/document/all-nhdes-forms
+- **blocked** link · state:NH:form · OneStop (Air E-Permitting access) · HTTP 403 · https://www.des.nh.gov/onestop-navigation
+- **blocked** link · state:NH:guidance · ARD-17: New Hampshire's Air Permit Program (2020) · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf
+- **blocked** link · state:NH:guidance · Permit Guidance · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** link · state:NH:guidance · Temporary Permit Guidance (March 2020) · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/temporary-permit-guidance.pdf
+- **blocked** link · state:NH:guidance · Nonattainment NSR and PSD Guidance (March 2020) · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf
+- **blocked** link · state:NH:source · NHDES Industrial Sources · HTTP 403 · https://www.des.nh.gov/air/industrial-sources
+- **blocked** link · state:NH:source · NHDES Permit Guidance · HTTP 403 · https://www.des.nh.gov/air/industrial-sources/permit-guidance
+- **blocked** link · state:NH:source · NHDES ARD-17 · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/ard-17.pdf
+- **blocked** link · state:NH:source · NHDES NSR/PSD Guidance · HTTP 403 · https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/nsr-psd-guidance.pdf
+- **blocked** link · state:NH:epermitting · OneStop / Air E-Permitting · HTTP 403 · https://www.des.nh.gov/onestop-navigation
+- **not-found** citation · state:NJ:program:General Permits (minor facilities) · N.J.A.C. 7:27-8.8 · "7:27-8.8" not on page · https://www.nj.gov/dep/enforcement/aceacademy/GP-update-Ketting-Adhanom.pdf
+- **broken** link · state:NJ:program:Prevention of Significant Deterioration (PSD) · Prevention of Significant Deterioration (PSD) · HTTP 404 · https://www.epa.gov/caa-permitting/caa-permitting-new-jersey
+- **broken** link · state:NJ:program:Nonattainment NSR (Emission Offsets) · Nonattainment NSR (Emission Offsets) · HTTP 404 · https://www.epa.gov/caa-permitting/caa-permitting-new-jersey
+- **broken** quote · state:NJ:program:Nonattainment NSR (Emission Offsets) · major source threshold for Potential to Emit (PTE) of 25 tons/year NOx · HTTP 404 · https://www.epa.gov/caa-permitting/caa-permitting-new-jersey
+- **broken** citation · state:NJ:program:Nonattainment NSR (Emission Offsets) · N.J.A.C. 7:27-18 · HTTP 404 · https://www.epa.gov/caa-permitting/caa-permitting-new-jersey
+- **broken** link · state:NJ:source · EPA CAA Permitting in New Jersey · HTTP 404 · https://www.epa.gov/caa-permitting/caa-permitting-new-jersey
+- **not-found** name · state:NM:local · City of Albuquerque Environmental Health Department, Air Quality Program · page title: Air Quality Permits — City of Albuquerque · https://www.cabq.gov/airquality/air-quality-permits
+- **not-found** quote · state:NM:program:Notice of Intent (NOI) · More than 10 tons per year for any regulated air contaminant (including VOCs). · 0% of the quote's wording found · https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-noi-application-form/
+- **not-found** citation · state:NM:program:Notice of Intent (NOI) · 20.2.73 NMAC · "20.2.73" not on page · https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-noi-application-form/
+- **not-found** quote · state:NM:program:Minor Source Construction Permit (Part 72) · More than 10 pounds per hour of criteria pollutants (does not include VOCs), More than 25 tons per year of criteria poll · 0% of the quote's wording found · https://www.srca.nm.gov/parts/title20/20.002.0072.html
+- **not-found** quote · state:NM:program:Prevention of Significant Deterioration (PSD) Construction Permit · A stationary source is listed in Table 1 (20.2.74.501 NMAC) which emits, or has the potential to emit, 100 tons per year · 71% of the quote's wording found · http://www.srca.nm.gov/parts/title20/20.002.0074.html
+- **not-found** citation · state:NM:program:Nonattainment Construction Permit · 20.2.79 NMAC · "20.2.79" not on page · https://www.env.nm.gov/air-quality/nonattainment-areas/
+- **not-found** quote · state:NM:program:Title V Operating Permit · Facilities with the potential to emit more than 100 tons per year for any pollutant subject to regulation (includes VOCs · 29% of the quote's wording found · https://www.env.nm.gov/air-quality/air-quality-title-v-operating-permits-guidance-page/
+- **not-found** citation · state:NM:oil-gas:Oil and Gas Notice of Intent · 20.2.73 NMAC · "20.2.73" not on page · https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-noi-application-form/
+- **not-found** citation · state:NM:oil-gas:GCP-Oil and Gas · 20.2.72.220 NMAC · "20.2.72.220" not on page · https://www.env.nm.gov/air-quality/air-quality-oil-and-gas-gcp-application-forms/
+- **not-found** citation · state:NM:oil-gas:GCP-6: Oil and Gas Storage Vessels · 20.2.72.220 NMAC · "20.2.72.220" not on page · https://www.env.nm.gov/air-quality/gcp-6-oil-gas-storage-vessels
+- **not-found** citation · state:NM:oil-gas:GCP-TC: Temporary Control Facilities · 20.2.72.220 NMAC · "20.2.72.220" not on page · https://www.env.nm.gov/air-quality/gcp-temporary-control-gcp-tc/
+- **unreachable** link · state:NM:regulation · Permits: Nonattainment Areas · UND_ERR_CONNECT_TIMEOUT · http://164.64.110.134/parts/title20/20.002.0079.html
+- **unreachable** citation · state:NM:regulation · 20.2.79 NMAC · UND_ERR_CONNECT_TIMEOUT · http://164.64.110.134/parts/title20/20.002.0079.html
+- **blocked** name · state:NY:agency · New York State Department of Environmental Conservation (NYSDEC) · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** link · state:NY:agency-permits · New York State Department of Environmental Conservation (NYSDEC) permits page · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program
+- **not-found** name · state:NY:local · New York City Department of Environmental Protection (DEP) · page title: Clean Air Tracking System - DEP · https://www.nyc.gov/site/dep/environment/clean-air-tracking-system.page
+- **blocked** link · state:NY:program:Air Facility Registration · Air Facility Registration · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** quote · state:NY:program:Air Facility Registration · Their annual emissions are less than half of the level that would make them a major source. Their annual emissions of hi · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** citation · state:NY:program:Air Facility Registration · 6 NYCRR Subpart 201-4 · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** link · state:NY:program:State Facility Permit · State Facility Permit · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** quote · state:NY:program:State Facility Permit · Their annual emissions exceed 50 percent of the level that would make them a major source. Their annual emissions of hig · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** citation · state:NY:program:State Facility Permit · 6 NYCRR Subpart 201-5 · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** link · state:NY:program:Nonattainment New Source Review · Nonattainment New Source Review · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project
+- **blocked** threshold · state:NY:program:Nonattainment New Source Review · Major source thresholds (tpy) per NYSDEC: NOx 25 and VOC 25 in the severe ozone nonattainment area (Bronx, Kings, Lower  · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project
+- **blocked** citation · state:NY:program:Nonattainment New Source Review · 6 NYCRR Part 231 · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project
+- **blocked** link · state:NY:program:Prevention of Significant Deterioration (PSD) · Prevention of Significant Deterioration (PSD) · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project
+- **blocked** citation · state:NY:program:Prevention of Significant Deterioration (PSD) · 40 CFR 52.21 · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project
+- **blocked** link · state:NY:program:Title V Facility Permit · Title V Facility Permit · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** threshold · state:NY:program:Title V Facility Permit · Fee cap: up to 7,000 tons per contaminant (restated from DEC). · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** citation · state:NY:program:Title V Facility Permit · 6 NYCRR Subpart 201-6 · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** link · state:NY:form · Air Program Forms and Instructions · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/air-program-forms-and-instructions
+- **blocked** link · state:NY:form · Air Facility Registration form and instructions · HTTP 403 · https://dec.ny.gov/sites/default/files/2024-03/regisfrm.pdf
+- **blocked** link · state:NY:guidance · Is This Project Major or Minor (thresholds by area) · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project
+- **blocked** link · state:NY:guidance · Air Compliance and Emissions (ACE) Reporting · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/air-compliance-emissions-reporting
+- **blocked** link · state:NY:source · NYSDEC Air Facility Permits, Registrations, and Fees · HTTP 403 · https://dec.ny.gov/environmental-protection/air-quality/controlling-pollution-from-facilities/permits-registrations-fees
+- **blocked** link · state:NY:source · NYSDEC Air Pollution Control Permit Program · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program
+- **blocked** link · state:NY:source · NYSDEC Major or Minor Project · HTTP 403 · https://dec.ny.gov/regulatory/permits-licenses/air/air-pollution-control-permit-program/major-or-minor-project
+- **blocked** link · state:NY:fees · 2026 Title V Fees Fact Sheet · HTTP 403 · https://dec.ny.gov/sites/default/files/2026-08/482factsheet.pdf
+- **not-found** name · state:NC:local · Forsyth County Office of Environmental Assistance and Protection · page title: Environmental Assistance & Protection, North Carolina · http://www.co.forsyth.nc.us/EAP/default.aspx
+- **blocked** name · state:NC:local · Asheville-Buncombe Air Quality Agency · HTTP 403 · https://www.buncombenc.gov/168/Asheville-Buncombe-Air-Quality-Agency
+- **not-found** citation · state:NC:program:Non-Title V construction and operation permit (Small permit) · 15A NCAC 02Q .0300 · "0300" not on page · https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-construct-operate/download
+- **not-found** citation · state:NC:program:Synthetic Minor permit · 15A NCAC 02Q .0315 · "0315" not on page · https://www.deq.nc.gov/environmental-assistance-and-customer-service/permit-handbook-documents/2016-revisions/daq-construct-operate/download
+- **not-found** citation · state:NC:program:Prevention of Significant Deterioration (PSD) · 15A NCAC 02D .0530 · "0530" not on page · https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/nsr-permitting
+- **not-found** citation · state:NC:program:Nonattainment NSR · 15A NCAC 02D .0531 · "0531" not on page · https://www.deq.nc.gov/about/divisions/air-quality/air-quality-permitting/nsr-permitting
+- **not-found** citation · state:ND:program:Exempt sources · NDAC 33.1-15-14-02.13 · "33.1-15-14-02.13" not on page · https://deq.nd.gov/aq/permitting/construction.aspx
+- **not-found** quote · state:ND:program:Minor Source Permit to Construct and Permit to Operate · less than 100 ton/yr of a criteria pollutant, less than 10 ton/yr of any single hazardous air pollutant, less than 25 to · 54% of the quote's wording found · https://deq.nd.gov/aq/permitting/construction.aspx
+- **not-found** citation · state:ND:program:Title V Permit to Operate · NDAC 33.1-15-14-06 · "33.1-15-14-06" not on page · https://deq.nd.gov/AQ/permitting/Operating.aspx
+- **not-found** name · state:OH:local · Cleveland Department of Public Health, Division of Air Quality · page title: Air Quality Monitoring | City of Cleveland Ohio · https://www.clevelandhealth.org/programs/air/monitoring/
+- **not-found** name · state:OH:local · Lake County General Health District Air Pollution Control · page title: Air Pollution Control | Lake County General Health · https://www.lcghd.org/air-pollution-control/
+- **not-found** name · state:OH:local · Toledo Division of Environmental Services · page title: City of Toledo | Air Quality · https://toledo.oh.gov/business/environment/air-quality
+- **not-found** citation · state:OH:oil-gas:Well-site production GP 12.1 / 12.2 (legacy) · OAC 3745-31-29 · "3745-31-29" not on page · https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/general-permits-oil-and-gas-well-site-production-operations
+- **not-found** citation · state:OH:oil-gas:Well-site production GP 12.3.1 (small flare) / 12.3.2 (large flare) · OAC 3745-31-29 · "3745-31-29" not on page · https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/general-permits-oil-and-gas-well-site-production-operations
+- **not-found** citation · state:OH:oil-gas:Natural gas compressor station GPs · OAC 3745-31-29 · "3745-31-29" not on page · https://epa.ohio.gov/wps/portal/gov/epa/divisions-and-offices/air-pollution-control/permitting/general-permits-natural-gas-compressor-stations-and-similar-facilities
+- **not-found** name · state:OK:agency · Oklahoma Department of Environmental Quality (DEQ) · page title: Environmental Quality Department (292) · https://oklahoma.gov/deq.html
+- **numbers-missing** threshold · state:OK:program:Minor Source Construction and Operating Permits (Tier I) · A modification increasing emissions by 5 tpy or more of a regulated pollutant triggers a construction permit (restated f · not on page: 2024 · https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf
+- **not-found** citation · state:OK:program:PSD-Major Source Permit (Tier III) · OAC 252:100-8 Part 7; OAC 252:100-8-31 · "252:100-8-31" not on page · https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf
+- **numbers-missing** threshold · state:OK:program:Major Source / Part 70 Permit (Tier II) · Major source at 100 tpy (Part 70), 10 tpy single HAP, 25 tpy combined HAPs (restated from DEQ's Permit Assistance Guide  · not on page: 2024 · https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf
+- **not-found** citation · state:OK:program:Major Source / Part 70 Permit (Tier II) · OAC 252:100-8; OAC 252:100-8-2 · "252:100-8-2" not on page · https://oklahoma.gov/content/dam/ok/en/deq/documents/executive-offices/Environmental%20Permit%20Assistance%20Guide.pdf
+- **not-found** citation · state:OR:program:Oregon Title V Operating Permit · OAR 340 Division 218 · "218" not on page · https://www.oregon.gov/deq/aq/aqPermits/Pages/TVrule.aspx
+- **not-found** name · state:PA:agency · Pennsylvania Department of Environmental Protection (DEP) · page title: Bureau of Air Quality | Department of Environmental Protection | Commonwealth of Pennsylvania · https://www.pa.gov/agencies/dep/programs-and-services/air/bureau-of-air-quality
+- **not-found** name · state:PA:local · Allegheny County Health Department (ACHD), Air Quality Program · page title: Air Quality Permitting - Allegheny County, PA · https://www.alleghenycounty.us/Services/Health-Department/Air-Quality/Air-Quality-Permitting
+- **not-found** name · state:PA:local · Philadelphia Air Management Services (AMS), Department of Public Health · page title: Air and dust | Department of Public Health | City of Philadelphia · https://www.phila.gov/departments/department-of-public-health/for-business-owners/air-and-dust/
+- **not-found** citation · state:PA:program:Request for Determination (RFD) · 25 Pa. Code 127.14(c) · "127.14" not on page · https://www.pa.gov/services/dep/request-for-determination-rfd-for-online-rfd-users
+- **not-found** citation · state:PA:program:Plan Approval · 25 Pa. Code Chapter 127, Subchapter B · "127" not on page · https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits/plan-apps
+- **numbers-missing** threshold · state:PA:program:State-Only Operating Permit (natural minor and synthetic minor) · State-Only operating permit thresholds (PTE / actual, tpy) per DEP 275-2101-003: CO 100/20; NOx 100/10 (25 PTE in Bucks, · not on page: 100, 20, 10, 25, 8, 3, 50, 1, 2.5 · https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit
+- **not-found** citation · state:PA:program:State-Only Operating Permit (natural minor and synthetic minor) · 25 Pa. Code Chapter 127, Subchapter F · "127" not on page · https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit
+- **unreadable** citation · state:PA:program:Prevention of Significant Deterioration (PSD) · 25 Pa. Code Chapter 127, Subchapter D · PDF has no extractable text · http://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/FLM_MOU_signed.pdf
+- **not-found** citation · state:PA:program:Title V Operating Permit · 25 Pa. Code Chapter 127, Subchapters F and G · "127" not on page · https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit
+- **not-found** citation · state:PA:oil-gas:GP-5: Natural Gas Compression and/or Processing Facilities · 2700-PM-BAQ0267 · "2700-PM-BAQ0267" not on page · http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=8904
+- **not-found** citation · state:PA:regulation · 25 Pa. Code 127.701-127.710 · "127.701-127.710" not on page · https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/subchapItoc.html&d=reduce
+- **blocked** name · state:RI:agency · Rhode Island Department of Environmental Management (DEM) · HTTP 403 · https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permitting
+- **not-found** quote · state:RI:program:Minor Source Permit (preconstruction) · Residual oil or solid fossil fuels: having a heat input capacity of one million Btu or more per hour; other liquid fuels · 71% of the quote's wording found · https://rules.sos.ri.gov/regulations/Part/250-120-05-9
+- **not-found** citation · state:RI:program:General Permit for an Emergency Generator · 250-RICR-120-05-9, §9.7.5-9.7.6 · "9.7.5-9.7.6" not on page · https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/air/documents/gpegapp.pdf
+- **not-found** citation · state:RI:program:Major Source Permits in Nonattainment Areas · 250-RICR-120-05-9, §9.8 · "9.8" not on page · https://dem.ri.gov/environmental-protection-bureau/air-resources/air-permits/preconstruction-permits
+- **not-found** citation · state:SC:program:Construction permit exemptions · S.C. Regulation 61-62.1, Section II(B) · "61-62.1" not on page · https://des.sc.gov/sites/des/files/Library/CR-010877.pdf
+- **blocked** link · state:SC:program:Registration Permits (e.g., fuel combustion) · Registration Permits (e.g., fuel combustion) · HTTP 403 · https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations
+- **blocked** threshold · state:SC:program:Registration Permits (e.g., fuel combustion) · Non-fuel-gas boilers: 30 MMBtu/hr each and 100 MMBtu/hr total; generators limited to 500 hr/yr (restated from SCDES). · HTTP 403 · https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations
+- **blocked** citation · state:SC:program:Registration Permits (e.g., fuel combustion) · S.C. Regulation 61-62.1, Section II · HTTP 403 · https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations
+- **not-found** citation · state:SC:program:Construction Permit (state and synthetic minor) · S.C. Regulation 61-62.1, Section II · "61-62.1" not on page · https://des.sc.gov/programs/bureau-air-quality/air-permitting/construction-permits-air
+- **not-found** citation · state:SC:program:Conditional Major Operating Permit · S.C. Regulation 61-62.1, Section II.E and II.G · "61-62.1" not on page · https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air
+- **not-found** citation · state:SC:program:Prevention of Significant Deterioration (PSD) · S.C. Regulation 61-62.5, Standard No. 7 · "61-62.5" not on page · https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina
+- **not-found** citation · state:SC:program:Nonattainment NSR · S.C. Regulation 61-62.5, Standard No. 7.1 · "7.1" not on page · https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina
+- **blocked** link · state:SC:guidance · Fuel Combustion Operations · HTTP 403 · https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations
+- **blocked** link · state:SC:guidance · Concrete Plants · HTTP 403 · https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/concrete-plants
+- **blocked** link · state:SC:source · SCDES Fuel Combustion Operations · HTTP 403 · https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations
+- **blocked** link · state:SC:source · SCDES Concrete Plants · HTTP 403 · https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/concrete-plants
+- **not-found** name · state:SD:agency · South Dakota Department of Agriculture and Natural Resources (DANR) · page title: South Dakota Air Quality Program · https://danr.sd.gov/Environment/AirQuality/default.aspx
+- **not-found** citation · state:SD:program:Minor Source Operating Permit · ARSD 74:36:04 · "74:36:04" not on page · https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx
+- **not-found** citation · state:SD:program:Title V (Part 70) Operating Permit · ARSD 74:36:05 · "74:36:05" not on page · https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx
+- **unreadable** citation · state:SD:regulation · ARSD Article 74:36 · page text not readable (likely needs JavaScript) · https://sdlegislature.gov/Rules/Administrative/28180
+- **unreadable** citation · state:SD:regulation · ARSD 74:37 · page text not readable (likely needs JavaScript) · https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37
+- **blocked** name · state:TN:agency · Tennessee Department of Environment and Conservation (TDEC) · HTTP 403 · https://www.tn.gov/environment/air.html
+- **blocked** link · state:TN:agency-permits · Tennessee Department of Environment and Conservation (TDEC) permits page · HTTP 403 · https://www.tn.gov/environment/permits/air.html
+- **not-found** name · state:TN:local · Knox County Department of Air Quality Management · page title: Air Quality Management - Knox County Tennessee Government · https://www.knoxcounty.org/airquality/
+- **not-found** name · state:TN:local · Memphis-Shelby County Health Department, Pollution Control Section · page title: Air Planning | Shelby County Health Dept., TN · https://www.shelbytnhealth.com/168/Air-Planning
+- **not-found** name · state:TN:local · Metro Public Health Department, Division of Air Pollution Control · page title: Air Pollution Control | Nashville.gov · https://www.nashville.gov/departments/health/environmental-health/air-pollution-control
+- **blocked** link · state:TN:program:Exempt and insignificant activities · Exempt and insignificant activities · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** threshold · state:TN:program:Exempt and insignificant activities · Insignificant status (PBR-listed federal rule sources): uncontrolled PTE below 5 TPY per criteria pollutant and below 1, · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** citation · state:TN:program:Exempt and insignificant activities · Rule 1200-03-09-.04 · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** link · state:TN:program:Permit by Rule (PBR) · Permit by Rule (PBR) · HTTP 403 · https://www.tn.gov/environment/permits/air/permit-by-rule.html
+- **blocked** citation · state:TN:program:Permit by Rule (PBR) · Rule 1200-03-09-.07 · HTTP 403 · https://www.tn.gov/environment/permits/air/permit-by-rule.html
+- **blocked** link · state:TN:program:General Permits · General Permits · HTTP 403 · https://www.tn.gov/environment/permits/air/general.html
+- **blocked** threshold · state:TN:program:General Permits · G00003: concrete batch plants with emissions under 10 tons/year (restated from TDEC). · HTTP 403 · https://www.tn.gov/environment/permits/air/general.html
+- **blocked** link · state:TN:program:Construction Permit (minor NSR) · Construction Permit (minor NSR) · HTTP 403 · https://www.tn.gov/environment/permits/air/construction.html
+- **blocked** citation · state:TN:program:Construction Permit (minor NSR) · Rule 1200-03-09-.01(1) · HTTP 403 · https://www.tn.gov/environment/permits/air/construction.html
+- **blocked** link · state:TN:program:Non-Title V Operating Permit (true minor or conditional major) · Non-Title V Operating Permit (true minor or conditional major) · HTTP 403 · https://www.tn.gov/environment/permits/air/operating.html
+- **blocked** citation · state:TN:program:Non-Title V Operating Permit (true minor or conditional major) · Rule 1200-03-09 · HTTP 403 · https://www.tn.gov/environment/permits/air/operating.html
+- **blocked** link · state:TN:program:Prevention of Significant Deterioration (PSD) · Prevention of Significant Deterioration (PSD) · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** threshold · state:TN:program:Prevention of Significant Deterioration (PSD) · 100 TPY for listed industrial categories or 250 TPY for all other categories (restated from TDEC's August 2025 workshop) · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** citation · state:TN:program:Prevention of Significant Deterioration (PSD) · Rule 1200-03-09 · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** link · state:TN:program:Nonattainment NSR · Nonattainment NSR · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** threshold · state:TN:program:Nonattainment NSR · Generally 100 TPY of the nonattainment pollutant or its designated precursors (restated). · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** citation · state:TN:program:Nonattainment NSR · Rule 1200-03-09 · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** link · state:TN:program:Title V Operating Permit · Title V Operating Permit · HTTP 403 · https://www.tn.gov/content/tn/environment/permits/air/operating/title5.html
+- **blocked** threshold · state:TN:program:Title V Operating Permit · 10 tpy of any HAP, 25 tpy of combined HAPs, or 100 tpy of any regulated air pollutant (restated from TDEC's Air Permits  · HTTP 403 · https://www.tn.gov/content/tn/environment/permits/air/operating/title5.html
+- **blocked** citation · state:TN:program:Title V Operating Permit · Rule 1200-03-09 · HTTP 403 · https://www.tn.gov/content/tn/environment/permits/air/operating/title5.html
+- **blocked** link · state:TN:regulation · Fees (non-Title V fee rulemaking) · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/publicnotices/apc_ppo-chapter-1200-03-26-non-title-v-fees-signature-copy.pdf
+- **blocked** citation · state:TN:regulation · Rule 1200-03-26 · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/publicnotices/apc_ppo-chapter-1200-03-26-non-title-v-fees-signature-copy.pdf
+- **blocked** link · state:TN:form · Construction Permit page (application checklists) · HTTP 403 · https://www.tn.gov/environment/permits/air/construction.html
+- **blocked** link · state:TN:form · General Permits (NOI forms) · HTTP 403 · https://www.tn.gov/environment/permits/air/general.html
+- **blocked** link · state:TN:form · HAP list · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apcmoved/permit_air_hap-list.pdf
+- **blocked** link · state:TN:guidance · Air Pollution Permitting Workshop: General Permitting Information (August 2025) · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **blocked** link · state:TN:guidance · Air Permits in Tennessee · HTTP 403 · https://www.tn.gov/environment/permits/air.html
+- **blocked** link · state:TN:guidance · Air Notices and Hearings · HTTP 403 · https://www.tn.gov/environment/ppo/air.html
+- **blocked** link · state:TN:source · TDEC Air Permits in Tennessee · HTTP 403 · https://www.tn.gov/environment/permits/air.html
+- **blocked** link · state:TN:source · TDEC Construction Permits · HTTP 403 · https://www.tn.gov/environment/permits/air/construction.html
+- **blocked** link · state:TN:source · TDEC General Permits · HTTP 403 · https://www.tn.gov/environment/permits/air/general.html
+- **blocked** link · state:TN:source · TDEC Permitting Workshop (August 2025) · HTTP 403 · https://www.tn.gov/content/dam/tn/environment/air/documents/apc_general-permitting-information.pdf
+- **numbers-missing** threshold · state:TX:program:De minimis facilities · Materials and Usage List examples: 50 gal/yr cleaning and stripping solvents, 100 gal/yr coatings, 1,000 lb/yr dyes, 2,5 · not on page: 50, 100, 1000, 2500, 404, 2011 · https://www.tceq.texas.gov/permitting/air/newsourcereview/de_minimis.html
+- **not-found** quote · state:TX:program:Permits by Rule (PBR) · An operation may qualify for a permit by rule (PBR) authorization if it emits less than: 250 tons per year (tpy) of carb · 0% of the quote's wording found · https://www.tceq.texas.gov/permitting/air/permitbyrule/air_pbr_index.html
+- **numbers-missing** threshold · state:TX:program:Permits by Rule (PBR) · Per facility, under 30 TAC 106.4(a)(1): 250 tpy or less of NOx and CO; 25 tpy or less of VOC, PM, SO2, and any other con · not on page: 106.4, 1, 250, 6244, 2014 · https://www.tceq.texas.gov/permitting/air/permitbyrule/air_pbr_index.html
+- **not-found** citation · state:TX:program:Case-by-case NSR permit · 30 TAC Chapter 116, Subchapter B · "116" not on page · https://www.tceq.texas.gov/permitting/air/newsourcereview/air_nsrpermits.html
+- **not-found** quote · state:TX:program:Prevention of Significant Deterioration (PSD) · potential to emit (PTE) 100 tons per year (tpy) or more of a regulated pollutant · 0% of the quote's wording found · https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/ghg/ghg-permitting.html
+- **numbers-missing** threshold · state:TX:program:Prevention of Significant Deterioration (PSD) · Named (listed) source categories: PTE of 100 tpy or more. Other sources: PTE of 250 tpy or more. Significant emission ra · not on page: 100, 250, 40, 15, 0.6, 7, 75000, 636, 2024, 635 · https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/ghg/ghg-permitting.html
+- **numbers-missing** threshold · state:TX:program:Nonattainment review · Ozone (VOC/NOx) major source thresholds: Marginal/Moderate 100 tpy; Serious 50 tpy; Severe 25 tpy. Minimum offset ratios · not on page: 2008, 2015, 1987, 2010 · https://www.tceq.texas.gov/downloads/permitting/air/publications/nsr/factsheets/rg-636-factsheet-psd-na.pdf/@@download/file/rg-636-factsheet-psd-na.pdf
+- **numbers-missing** threshold · state:TX:program:Federal Operating Permits (Title V): SOP and GOP · 10 tpy of a single HAP or 25 tpy of combined HAPs; 100 tpy or more of any other contaminant in attainment counties. Nona · not on page: 10, 25, 100, 122.10, 404, 2011 · https://www.tceq.texas.gov/permitting/air/titlev/air_oppermits_v.html
+- **not-found** citation · state:UT:program:Approval Order (New Source Review) · R307-401 · "307-401" not on page · https://deq.utah.gov/air-quality/general-permitting-information-air-quality
+- **not-found** citation · state:UT:program:Operating Permit (Title V) · R307-415 · "307-415" not on page · https://deq.utah.gov/air-quality/general-permitting-information-air-quality
+- **unreadable** citation · state:UT:regulation · R307-401 · page text not readable (likely needs JavaScript) · https://rules.utah.gov/publicat/code/r307/r307-401.htm
+- **unreadable** citation · state:UT:regulation · R307-505 · page text not readable (likely needs JavaScript) · https://rules.utah.gov/publicat/code/r307/r307-505.htm
+- **unreadable** citation · state:UT:regulation · R307-509 · page text not readable (likely needs JavaScript) · https://rules.utah.gov/publicat/code/r307/r307-509.htm
+- **not-found** name · state:VT:agency · Vermont Agency of Natural Resources, Department of Environmental Conservation (DEC) · page title: Construction Permits | Department of Environmental Conservation · https://dec.vermont.gov/air-quality/permits/construction
+- **numbers-missing** threshold · state:VT:program:Permit to Construct (minor source / minor modification) · Example trigger: non-emergency engines over 300 bhp (restated from DEC RICE guidance). · not on page: 300 · https://dec.vermont.gov/sites/dec/files/permit-handbook/sheet14.pdf
+- **blocked** name · state:VA:agency · Virginia Department of Environmental Quality (DEQ) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:agency-permits · Virginia Department of Environmental Quality (DEQ) permits page · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:program:General Permits · General Permits · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** citation · state:VA:program:General Permits · 9VAC5-510 and related general permit chapters · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:program:Minor New Source Review Permit · Minor New Source Review Permit · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** threshold · state:VA:program:Minor New Source Review Permit · Facilities under 100 tpy of any criteria pollutant (restated from DEQ). · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** citation · state:VA:program:Minor New Source Review Permit · 9VAC5-80 Article 6 (9VAC5-80-1100 et seq.) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:program:State Major Permit · State Major Permit · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** threshold · state:VA:program:State Major Permit · More than 100 tpy but less than 250 tpy of a criteria pollutant and not in the 28 listed categories (restated from DEQ). · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** citation · state:VA:program:State Major Permit · 9VAC5-80 Article 6 · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:program:State Operating Permit (SOP) · State Operating Permit (SOP) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** citation · state:VA:program:State Operating Permit (SOP) · 9VAC5-80 Article 5 (9VAC5-80-840, -1020) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:program:Prevention of Significant Deterioration (PSD) · Prevention of Significant Deterioration (PSD) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** threshold · state:VA:program:Prevention of Significant Deterioration (PSD) · 250 tpy of any regulated pollutant, or 100 tpy for the 28 listed categories, or 100,000 tpy CO2e (restated from DEQ's Ai · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** citation · state:VA:program:Prevention of Significant Deterioration (PSD) · 9VAC5-80 Article 8; 9VAC5-85 Part III · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:program:Nonattainment NSR · Nonattainment NSR · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** threshold · state:VA:program:Nonattainment NSR · Northern Virginia Ozone Nonattainment Area (Ozone Transport Region): 100 tpy NOx and/or 50 tpy VOC (restated). · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** citation · state:VA:program:Nonattainment NSR · 9VAC5-80 Article 9 (9VAC5-80-2010) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:program:Case-by-case MACT (Article 7) · Case-by-case MACT (Article 7) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** threshold · state:VA:program:Case-by-case MACT (Article 7) · Controlled emissions of 10 tpy of any single HAP or 25 tpy combined (restated from DEQ). · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** citation · state:VA:program:Case-by-case MACT (Article 7) · 9VAC5-80 Article 7 (9VAC5-80-1440, -1460) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:program:Title V Operating Permit · Title V Operating Permit · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** citation · state:VA:program:Title V Operating Permit · 9VAC5-80 Article 1 (9VAC5-80-50 et seq.) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:form · DEQ Air Permit Forms (Form 7, Form 805, general permit forms, fee form) · HTTP 403 · https://www.deq.virginia.gov/permits/air/forms
+- **blocked** link · state:VA:guidance · Air Permits (overview and processing times) · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **blocked** link · state:VA:source · Virginia DEQ Air Permits · HTTP 403 · https://www.deq.virginia.gov/news-info/shortcuts/permits/air
+- **unreachable** link · state:VA:epermitting · Virginia Permit Transparency (DEQ) · UNABLE_TO_VERIFY_LEAF_SIGNATURE · https://permits.virginia.gov/Agency/Deq
+- **blocked** name · state:WA:local · Yakima Regional Clean Air Agency · HTTP 403 · https://www.yakimacleanair.org/
+- **not-found** citation · state:WA:program:Notice of Construction (NOC) Order of Approval · WAC 173-400-110; WAC 173-460 · "173-460" not on page · https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/notice-of-construction-permit
+- **not-found** quote · state:WA:program:Air Operating Permit (AOP) · More than 100 tons per year of any air pollutant. More than 10 tons per year of any hazardous air pollutant. More than 2 · 52% of the quote's wording found · https://ecology.wa.gov/regulations-permits/permits-certifications/air-quality-permits/air-operating-permit
+- **numbers-missing** threshold · state:WV:oil-gas:G70-E: Natural Gas Production Facilities at the Well Site · DAQ guidance: a permit is generally required if condensate production exceeds 0.5 barrels (21 gallons) per day, or facil · not on page: 0.5, 144 · https://apps.dep.wv.gov/Documents/DAQ/GeneralPermit/G70-E/General%20Permit%20G70-E.pdf
+- **not-found** citation · state:WI:program:Operation Permit (non-Part 70 minor and synthetic minor) · NR 407 · "407" not on page · https://dnr.wisconsin.gov/topic/SmallBusiness/PermitTypes.html
+- **not-found** citation · state:WI:program:Title V (Part 70) Operation Permit · NR 407 · "407" not on page · https://dnr.wisconsin.gov/topic/SmallBusiness/PermitTypes.html
+- **not-found** quote · state:WY:program:Chapter 6, Section 2(k) activities not requiring approval · The permitting rules contained in Chapter 6 of the WAQSR do not include de minimis emission levels · 0% of the quote's wording found · https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf
+- **broken** link · state:WY:oil-gas:Oil and Gas Production Facilities Permitting Guidance (BACT) · Oil and Gas Production Facilities Permitting Guidance (BACT) · HTTP 500 · https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/
+- **broken** quote · state:WY:oil-gas:Oil and Gas Production Facilities Permitting Guidance (BACT) · 6 tons per year or more · HTTP 500 · https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/
+- **broken** threshold · state:WY:oil-gas:Oil and Gas Production Facilities Permitting Guidance (BACT) · Controls for single-well tanks and dehydration units at VOC/HAP emissions of 6 tpy or more; truck loading controls state · HTTP 500 · https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/
+- **broken** citation · state:WY:oil-gas:Oil and Gas Production Facilities Permitting Guidance (BACT) · W.S. 35-11-801(e); WAQSR Ch. 6, Sec. 2 · HTTP 500 · https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/
+- **broken** link · state:WY:oil-gas:UGRB ozone requirements and redesignation · UGRB ozone requirements and redesignation · HTTP 500 · https://deq.wyoming.gov/2024/12/the-wyoming-department-of-environmental-quality-begins-redesignation-process/
+- **broken** link · state:WY:oil-gas:NSPS OOOOb emergency rule (2024) · NSPS OOOOb emergency rule (2024) · HTTP 500 · https://deq.wyoming.gov/2024/05/the-wyoming-department-of-environmental-quality-air-quality-division-issues-oil-and-gas-emergency-rulemaking/
+- **broken** link · state:WY:guidance · Oil and Gas Production Facilities Permitting Guidance (2016 update announcement) · HTTP 500 · https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/
+- **broken** link · state:WY:source · Wyoming DEQ Oil and Gas Guidance release (May 2016) · HTTP 500 · https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/
+- **not-found** cfr-term · glossary:annual-compliance-certification · Annual compliance certification · 0% of wording found in § 70.6 · https://www.ecfr.gov/current/title-40/section-70.6#p-70.6(c)(5)
+- **broken** link · glossary:area-source · Clean Air Act §112(a) · HTTP 404 · https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7412&num=0&edition=prelim
+- **broken** link · glossary:attainment-area · Clean Air Act §107(d) · HTTP 404 · https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7407&num=0&edition=prelim
+- **other-paragraph** cfr-term · glossary:commence-construction · Commence construction · found in § 52.21(r)(2), cited (b)(9) · https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(9)
+- **not-found** cfr-term · glossary:commence-construction · Commence construction · 0% of wording found in § 60.2 · https://www.ecfr.gov/current/title-40/section-60.2
+- **not-found** cfr-term · glossary:deviation · Deviation · 0% of wording found in § 63.2 · https://www.ecfr.gov/current/title-40/section-63.2
+- **broken** link · glossary:gact · Clean Air Act §112(d)(5) · HTTP 404 · https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7412&num=0&edition=prelim
+- **broken** link · glossary:hap · Clean Air Act §112(b) · HTTP 404 · https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7412&num=0&edition=prelim
+- **broken** link · glossary:mact · Clean Air Act §112(d) · HTTP 404 · https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7412&num=0&edition=prelim
+- **broken** link · glossary:major-source-hap · Clean Air Act §112(a)(1) · HTTP 404 · https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7412&num=0&edition=prelim
+- **not-found** cfr-term · glossary:nnsr · Nonattainment New Source Review · 0% of wording found in § 51.165 · https://www.ecfr.gov/current/title-40/section-51.165
+- **not-found** cfr-term · glossary:offsets · Emission offsets · 0% of wording found in § 51.165 · https://www.ecfr.gov/current/title-40/section-51.165#p-51.165(a)(3)
+- **not-found** cfr-term · glossary:minor-nsr · Minor New Source Review · 0% of wording found in § 51.160 · https://www.ecfr.gov/current/title-40/section-51.160
+- **not-found** cfr-term · glossary:minor-nsr · Minor New Source Review · 0% of wording found in § 51.164 · https://www.ecfr.gov/current/title-40/section-51.164
+- **not-found** cfr-term · glossary:semiannual-monitoring-report · Semiannual monitoring report · 0% of wording found in § 70.6 · https://www.ecfr.gov/current/title-40/section-70.6#p-70.6(a)(3)(iii)(A)
+- **broken** link · glossary:sip · Clean Air Act §110 · HTTP 404 · https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7410&num=0&edition=prelim
+- **not-found** cfr-term · glossary:startup-shutdown · Startup and shutdown · 0% of wording found in § 60.2 · https://www.ecfr.gov/current/title-40/section-60.2
+- **not-found** cfr-term · glossary:startup-shutdown · Startup and shutdown · 0% of wording found in § 63.2 · https://www.ecfr.gov/current/title-40/section-63.2
+- **other-paragraph** cfr-term · glossary:stationary-source · Stationary source · found in § 52.21(a)(2)(i), cited (b)(6) · https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(6)
+- **not-found** cfr-term · glossary:synthetic-minor · Synthetic minor · 0% of wording found in § 52.21 · https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(4)
+- **not-found** cfr-term · glossary:synthetic-minor · Synthetic minor · 0% of wording found in § 70.2 · https://www.ecfr.gov/current/title-40/section-70.2
+- **other-paragraph** cfr-quote · tool:nsr-baseline · only one consecutive 24-month period must be used to determine the baseline actual emissions for · found in § 52.21(b)(48)(i)(C), cited (b)(48)(ii)(d) · https://www.ecfr.gov/current/title-40/section-52.21
+- **other-paragraph** cfr-quote · tool:nsr-baseline · A different consecutive 24-month period can be used · found in § 52.21(b)(48)(i)(C), cited (b)(48)(ii)(d) · https://www.ecfr.gov/current/title-40/section-52.21
+- **other-paragraph** cfr-quote · tool:nsr-baseline · The average rate shall not be based on any consecutive 24-month period for which there is inadequate information · found in § 52.21(b)(48)(i)(D), cited (b)(48)(ii)(e) · https://www.ecfr.gov/current/title-40/section-52.21
+- **other-paragraph** cfr-quote · tool:nsr-baseline · the unit's emissions following the project that an existing unit could have accommodated · found in § 52.21(b)(41)(ii)(C), cited (b)(41)(ii)(c) · https://www.ecfr.gov/current/title-40/section-52.21
+- **other-paragraph** cfr-quote · tool:nsr-baseline · A significant emissions increase of a regulated NSR pollutant is projected to occur if the sum of the difference · found in § 52.21(a)(2)(iv)(C), cited (a)(2)(iv)(c) · https://www.ecfr.gov/current/title-40/section-52.21
+- **not-found** cfr · guide:choosing-an-nsr-baseline-period · 40 CFR 52.21(b)(41)(ii)(c) · § 52.21 exists but paragraph (b)(41)(ii)(c) not found

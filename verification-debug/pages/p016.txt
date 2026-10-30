@@ -1,0 +1,242 @@
+Air Operation Permits
+Commercial and industrial facilities that are subject to specific air quality regulations or that emit air
+pollutants in sufficient qualities are required to obtain air operation permits. The air operation permit
+identifies the applicable conditions established in underlying air construction permits and applicable
+requirements from the state air regulations identified in the Florida Administrative Code (F.A.C.):
+•
+•
+•
+•
+•
+
+Chapter 62-204 - General Provisions;
+Chapter 62-210 - General Requirements;
+Chapter 62-213 - Major Source Operation Permits;
+Chapter 62-214 - Federal Acid Rain Program; and
+Chapter 62-296 - State Emission Standards.
+
+The air operation permit will also specify all applicable federal air quality requirements from Title 40 of
+the Code of Federal Regulations (CFR), including:
+•
+•
+•
+•
+
+Part 60, New Source Performance Standards (NSPS);
+Part 61, National Emissions Standards for Hazardous Air Pollutants (NESHAP) (regulated by
+pollutant);
+Part 63, NESHAP (regulated by industrial category); and
+Part 75, Acid Rain Monitoring Provisions.
+
+Applications
+After obtaining the appropriate air construction permit and completing construction and initial testing,
+the air operation permit process begins with timely submittal of the appropriate:
+•
+
+Application form or electronic form, and
+
+•
+
+Fee for minor facility (Rule 62-4.050, F.A.C.)
+
+Except for applications to renew a permit for a minor source of air pollution, applications must be sealed
+by a professional engineer registered in Florida. The application must identify: general facility
+information; contact information; process equipment; air pollution control equipment; fuels; materials
+processed; operational restrictions; applicable federal, state and local regulations; emissions standards;
+work practices; testing and monitoring; records and reports; and other methods of compliance. Air
+operation permits are valid for terms of no more than five years. An application must be submitted at
+least 60 days before expiration to renew a minor source permit and at least 225 days before expiration
+to renew a Title V permit.
+Applications must be submitted to the appropriate permitting authority. The Department of
+Environmental Protection’s (DEP) Division of Air Resource Management (Division) processes applications
+for all major source operation permits for utility power plants, facilities subject to the acid rain program,
+waste-to-energy facilities, landfills, and other select special projects. The Department’s District offices
+process applications for all air operation permits within the District (including pulp and paper mills,
+chemical manufacturing plants, sugar mills and county-owned or operated facilities), except for those
+projects processed by the Division or for which an approved local air program has jurisdiction.
+See following webpages for contact information:
+•
+
+Division of Air
+
+•
+
+District Offices
+
+•
+
+Local Programs
+Page 1 of 4
+
+State-Only Air Operation Permits
+The state-only air operation permit is the simplest and most common site-specific operation permit for
+minor sources of air pollution. It can be used for both “natural minor sources” as well as “synthetic
+minor sources.” A natural minor source is a facility with potential emissions below all major source
+thresholds when operating at full capacity year-round. A synthetic minor source is a facility that has
+accepted operational or emissions limitations that keep potential emissions below all major source
+thresholds. To obtain a state-only air operation permit as a synthetic minor source, the applicant must
+have accepted operational or emissions limitations in a previous air construction permit, which are then
+incorporated into the state-only air operation permit. There is no specific requirement to publish a
+public notice of intent to issue a permit for state-only air operation permits.
+Federally Enforceable State Operation Permits
+Federally Enforceable State Operation Permits (FESOP) are facility-wide permits that incorporate all
+applicable air quality requirements. The primary purpose of a FESOP is to establish the facility as a
+“synthetic minor” source of air pollution to avoid regulation as a major HAP source and/or a Title V
+source. Like an air construction permit, a FESOP can establish restrictions to limit potential emissions
+below major source thresholds. A state-only air operation permit can only identify such restrictions
+from previous air construction permits; it cannot establish new federally enforceable restrictions since
+there is no requirement for a public notice. Examples include emissions limits, emissions caps, and
+operational limitations on production, raw material usage or hours of operation. The FESOP is similar to
+a minor source air construction permit in that the permit process requires publication of a public notice
+and provides for a 14-day comment period (unless all other previous minor permits have been publicly
+noticed).
+Title V Major Source Air Operation Permits
+The 1990 amendments to the Clean Air Act established a federal operation permit program under Title V
+of the Act. Florida operates a Title V air operation permit program which is approved by the U.S.
+Environmental Protection Agency (EPA). These are comprehensive permits that incorporate all
+applicable air quality requirements including federal, state and local regulations. An applicant must
+obtain a Title V permit if the facility:
+•
+
+Is a major stationary source subject to the Prevention of Significant Deterioration (PSD) of air quality
+program;
+
+•
+
+Emits or has the potential to emit 100 tons per year or more of any regulated air pollutant;
+
+•
+
+Emits or has the potential to emit 25 tons per year or more of any combination of HAP;
+
+•
+
+Emits or has the potential to emit 10 tons per year or more of any single HAP;
+
+•
+
+Emits or has the potential to emit 5 tons per year or more of lead;
+
+•
+
+Belongs to an industrial category that is required to obtain a Title V permit pursuant to a federal
+NSPS or NESHAP; or
+
+•
+
+Is located in a non-attainment area and designated as a major source based on lower thresholds.
+
+Note that there are no fees for processing Title V major source air operation permits. Title V sources are
+required to pay annual operating fees based on the facility’s actual emissions of regulated pollutants.
+•
+
+Title V fee webpage
+
+Page 2 of 4
+
+The administrative and public notice requirements for Title V permits are slightly different than those
+that apply to other permit processes. The flowchart on the following page provides a simplified view of
+these requirements from receipt of a Title V application through issuance of a final Title V air operation
+permit.
+(1) The permitting authority must determine whether the application is complete within 60 days of
+receipt of an initial Title V application, and within 30 days of receipt of the last item of information
+submitted to complete application.
+(2) If the application is deemed incomplete, the applicant has 90 days to submit the requested
+additional information and may request additional time to respond.
+(3) The permitting authority must make a written permitting decision (issue or deny) within 90 days of
+receipt of a complete application or from receipt of the last item required to complete the
+application.
+(4) Affected parties may petition for an administrative hearing within 14 days from the date of “actual
+notice” or from publication of the Notice of Intent, whichever occurs first.
+(5) Affected parties, federal agencies and the public may provide comments on the draft permit for 30
+days after publication. If the draft permit is substantially revised due to public comment, the
+permitting authority will issue a revised draft permit and require another public notice.
+(6) Hearings are conducted by the Florida Division of Administrative Hearings. The permitting authority
+cannot issue a final permit until the Administrative Law Judge issues a Recommended Order.
+(7) If the Title V draft permit is not substantially revised and no hearing is requested, a “proposed
+permit” is sent to EPA Region 4 for review. EPA has 45 days to provide comments or object to the
+proposed permit.
+(8) If EPA’s comments do not result in substantial changes and EPA does not object to the proposed
+permit, a final permit is issued. On the rare occasion when EPA objects, the permitting authority
+facilitates communications between EPA and the applicant to resolve the issue.
+(9) The final permit decision may be appealed to a Florida First District Court of Appeal. A Notice of
+Appeal must be filed within 30 days of the final permitting decision.
+For questions regarding air operation permits, please contact the appropriate permitting authority
+(Division, District or local air program) for your project.
+
+Page 3 of 4
+
+Simplified Title V Air Operation Permitting Flow Chart
+Timeline
+Day
+
+Application (or Additional
+Information) Received1
+
+0
+Completeness
+Review
+
+Applicant Submits
+Additional Information2
+
+Applicant Publishes
+Notice of Application
+in Newspaper of
+General Circulation
+(Upon Request by
+DEP)
+
+60/30
+
+Application
+Complete?1
+
+No
+
+DEP Requests Additional
+Information (RAI)
+
+Yes
+
+Administrative Hearing
+
+Yes
+DEP Processes
+Application
+
+Draft Permit Decision3
+
+90
+
+Applicant Publishes
+Notice of Intent in
+Newspaper of
+General Circulation
+
+30 Days for
+Comments
+
+Petition and Public
+Comment Period4, 5
+
+Administrative
+Hearing Requested?
+
+No
+
+45 Days for EPA
+Review
+
+Proposed Permit for
+EPA Review7
+
+Final Permit Decision8,9
+
+Page 4 of 4
+
+Administrative Law
+Judge Issues
+Recommended Order 6
+
+

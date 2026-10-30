@@ -1,0 +1,2547 @@
+20.2.74 NMAC 
+TITLE 20 ������������ ENVIRONMENTAL 
+PROTECTION 
+CHAPTER 2 ������� AIR QUALITY (STATEWIDE) 
+PART 74 �������������� PERMITS 
+- PREVENTION OF SIGNIFICANT DETERIORATION (PSD) 
+20.2.74.1 �������������� ISSUING AGENCY: � New Mexico Environmental Improvement Board 
+[07/20/95; 20.2.74.1 NMAC - Rn, 20 NMAC 
+2.74.100, 10/31/02] 
+20.2.74.2 �������������� SCOPE: � Any person constructing any new major 
+stationary source or major modification as defined in this Part, that emits or 
+will emit regulated pollutants in an attainment or unclassified area. 
+[07/20/95; 20.2.74.2 NMAC - Rn, 20 NMAC 2.74.101, 
+10/31/02] 
+20.2.74.3 �������������� STATUTORY AUTHORITY: � The Environmental Improvement Board 
+"shall promulgate regulations and standards in...air quality 
+management" (NMSA 1978, section 74-1-8.A) and "the environmental 
+improvement board...shall adopt...regulations to attain and maintain national 
+ambient air quality standards and prevent or abate air pollution..." (NMSA 
+1978, section 74-2-5.B). 
+[07/20/95; 20.2.74.3 NMAC - Rn, 20 NMAC 
+2.74.102, 10/31/02] 
+20.2.74.4 �������������� DURATION: � Permanent. 
+[07/20/95; 20.2.74.4 NMAC - Rn, 20 NMAC 
+2.74.103, 10/31/02] 
+20.2.74.5 �������������� EFFECTIVE DATE: � July 20, 1995, except where a later date is 
+cited at the end of a section or paragraph. 
+[07/20/95; 01/01/00; 20.2.74.5 NMAC - Rn, 
+20 NMAC 2.74.104, 10/31/02] 
+[The latest effective date of any section 
+in this Part is 8/18/14.] 
+20.2.74.6 �������������� OBJECTIVE: � The purpose of this Part is to require any 
+person constructing any new major stationary source or major modification as 
+defined in this Part, that emits or will emit regulated pollutants in an 
+attainment or unclassified area, to obtain a permit from the Department in 
+accordance with the requirements of this Part prior to the construction or 
+modification. 
+[07/20/95; 20.2.74.6 NMAC - Rn, 20 NMAC 
+2.74.105, 10/31/02] 
+20.2.74.7 �������������� DEFINITIONS: � Terms used but not defined in this part shall 
+have the meaning given them by 20.2.2 NMAC (Definitions) (formerly AQCR 
+100). � As used in this part the following 
+definitions shall apply. 
+��������������� A. ����������� "Act" means the 
+Federal Clean Air Act, as amended, 42 U. S. C. Sections 7401 et seq. 
+��������������� B. ����������� "Actual emissions" 
+means the actual rate of emissions of a regulated new source review pollutant 
+from an emissions unit, as determined in accordance with Paragraphs (2) through 
+(4) of this subsection. 
+������������������� (1) ���� This definition shall not apply for 
+calculating whether a significant emissions increase has occurred, or for 
+establishing a PAL under 20.2.74.320 NMAC. Instead, Subsections G and AR of 
+this section shall apply for those purposes. 
+������������������� (2) ���� In general, actual emissions as of a 
+particular date shall equal the average rate, in tons per year, at which the 
+unit actually emitted the pollutant during a consecutive 24-month period which 
+precedes the particular date and which is representative of normal source 
+operation. The department shall allow the use of a different time period upon a 
+determination that it is more representative of normal source operation. Actual 
+emissions shall be calculated using the unit's actual operating hours, 
+production rates, and types of materials processed, stored, or combusted during 
+the selected time period. 
+������������������� (3) ���� The department may presume that 
+source-specific allowable emissions for the unit are equivalent to the actual 
+emissions of the unit. 
+������������������� (4) ���� For any emissions unit that has not begun 
+normal operations on the particular date, actual emissions shall equal the 
+potential to emit of the unit on that date. 
+��������������� C. ����������� "Administrator" means 
+the administrator of the U.S. environmental protection agency (EPA) or an 
+authorized representative. 
+��������������� D. ����������� "Adverse impact on 
+visibility" means visibility impairment which interferes with the 
+management, protection, preservation, or enjoyment of the visitor's visual 
+experience of the class I federal area. � 
+This determination must be made on a case-by-case basis taking into 
+account the geographic extent, intensity, duration, frequency, and time of the 
+visibility impairments and how these factors correlate with the following: � 1) times of visitor use of the class I 
+federal area; and 2) the frequency and timing of natural conditions that reduce 
+visibility. � This term does not include 
+effects on integral vistas as defined in 40 CFR 51.301 Definitions. 
+��������������� E. ����������� "Allowable emissions" 
+means the emissions rate of a stationary source calculated using the maximum 
+rated capacity of the source (unless the source is subject to federally 
+enforceable limits which restrict the operating rate, or hours of operation, or 
+both) and the most stringent of the following: 
+������������������� (1) ���� the applicable standards as set forth in 
+40 CFR Parts 60 and 61; 
+������������������� (2) ���� the applicable state implementation plan 
+emissions limitation, including those with a future compliance date; or 
+������������������� (3) ���� the emissions rate specified as a 
+federally enforceable permit condition, including those with a future 
+compliance date. 
+��������������� F. ����������� "Attainment area" 
+means, for any air pollutant, an area which is shown by monitored data or which 
+is calculated by air quality modeling not to exceed any national ambient air 
+quality standard for such pollutant, and is so designated under Section 107 (d) 
+(1) (D) or (E) of the act. 
+��������������� G. ����������� "Baseline actual 
+emissions" means the rate of emissions, in tons per year, of a 
+regulated new source review pollutant, as determined in accordance with the 
+following. 
+������������������� (1) ���� For any existing electric utility steam 
+generating unit, baseline actual emissions means the average rate, in tons per 
+year, at which the unit actually emitted the pollutant during any consecutive 
+24-month period selected by the owner or operator within the 5-year period 
+immediately preceding when the owner or operator begins actual construction of 
+the project. The department shall allow the use of a different time period upon 
+a determination that it is more representative of normal source operation. 
+����������������������������� (a) ���� The average rate shall include fugitive 
+emissions to the extent quantifiable, and emissions associated with startups, 
+shutdowns, and malfunctions. 
+������ 
+����������������������� (b) ���� The average rate shall be adjusted 
+downward to exclude any non-compliant emissions that occurred while the source 
+was operating above an emission limitation that was legally enforceable during 
+the consecutive 24-month period. 
+����������������������������� (c) ���� For a regulated new source review 
+pollutant, when a project involves multiple emissions units, only one 
+consecutive 24-month period must be used to determine the baseline actual 
+emissions for the emissions units being changed. A different consecutive 
+24-month period can be used for each regulated new source review pollutant. 
+����������������������������� (d) ���� The average rate shall not be based on any 
+consecutive 24-month period for which there is inadequate information for 
+determining annual emissions, in tons per year, and for adjusting this amount 
+if required by Subparagraph (b) of this paragraph. 
+������������������� (2) ���� For an existing emissions unit (other than 
+an electric utility steam generating unit), baseline actual emissions means the 
+average rate, in tons per year, at which the emissions unit actually emitted 
+the pollutant during any consecutive 24-month period selected by the owner or 
+operator within the 10-year period immediately preceding either the date the 
+owner or operator begins actual construction of the project, or the date a 
+complete permit application is received by the department for a permit required 
+either under this part or under a plan approved by the administrator, whichever 
+is earlier, except that the 10-year period shall not include any period earlier 
+than November 15, 1990. 
+����������������������������� (a) ���� The average rate shall include fugitive 
+emissions to the extent quantifiable, and emissions associated with startups, 
+shutdowns, and malfunctions. 
+����������������������������� (b) ���� The average rate shall be adjusted 
+downward to exclude any non-compliant emissions that occurred while the source 
+was operating above an emission limitation that was legally enforceable during 
+the consecutive 24-month period. 
+����������������������������� (c) ���� The average rate shall be adjusted 
+downward to exclude any emissions that would have exceeded an emission 
+limitation with which the major stationary source must currently comply, had 
+such major stationary source been required to comply with such limitations 
+during the consecutive 24-month period. However, if an emission limitation is 
+part of a maximum achievable control technology standard that the administrator 
+proposed or promulgated under 40 CFR Part 63, the baseline actual emissions 
+need only be adjusted if the state has taken credit for such emissions 
+reductions in an attainment demonstration or maintenance plan consistent with 
+the requirements of 40 CFR 51.165(a)(3)(ii)(G). 
+����������� 
+������������������ (d) ���� For a regulated new source review 
+pollutant, when a project involves multiple emissions units, only one 
+consecutive 24-month period must be used to determine the baseline actual 
+emissions for the emissions units being changed. A different consecutive 
+24-month period can be used for each regulated new source review pollutant. 
+����������������������������� (e) ���� The average rate shall not be based on any 
+consecutive 24-month period for which there is inadequate information for determining 
+annual emissions, in tons per year, and for adjusting this amount if required 
+by Subparagraphs (b) and (c) of this paragraph. 
+������������������� (3) ���� For a new emissions unit, the baseline 
+actual emissions for purposes of determining the emissions increase that will 
+result from the initial construction and operation of such unit shall equal 
+zero; and thereafter, for all other purposes, shall equal the unit's potential 
+to emit. 
+������������������� (4) ���� For a PAL for a stationary source, the baseline 
+actual emissions shall be calculated for existing electric utility steam 
+generating units in accordance with the procedures contained in Paragraph (1) 
+of this subsection, for other existing emissions units in accordance with the 
+procedures contained in Paragraph (2) of this subsection, and for a new 
+emissions unit in accordance with the procedures contained in Paragraph (3) of 
+this subsection. 
+��������������� H. ����������� "Baseline area" means 
+all lands designated as attainment or unclassifiable in which the major source 
+or major modification establishing the minor source baseline date would 
+construct or would have an air quality impact for the pollutant for which the 
+baseline date is established, as follows: equal to or greater than one 
+microgram per cubic meter (annual average) for sulfur dioxide, nitrogen 
+dioxide, or PM 10 ; or equal or greater than 0.3 microgram per cubic 
+meter (annual average) for PM 2.5 . The major source or major 
+modification establishes the minor source baseline date (see the definition 
+"minor source baseline date" in this part). � Lands are designated as attainment or 
+unclassifiable under Section 107(d)(1) (A)(ii) or (iii) of the act within each 
+federal air quality control region in the state of New Mexico. � Any baseline area established originally for 
+TSP (total suspended particulates) increments shall remain in effect and shall 
+apply for purposes of determining the amount of available PM 10 
+increments. � A TSP baseline area shall 
+not remain in effect if the department rescinds the corresponding minor source baseline 
+date (see "minor source baseline date" in this part). 
+��������������� I. ������������ "Baseline concentration" 
+means that ambient concentration level that exists in the baseline area at the 
+time of the applicable minor source baseline date. 
+������������������� (1) ���� A baseline concentration is determined for 
+each pollutant for which a minor source baseline date is established and shall 
+include: 
+����������������������������� (a) ���� the actual emissions, as defined in this 
+section, representative of sources in existence on the applicable minor source 
+baseline date, except as provided in Paragraph (2) of this subsection; 
+����������������������������� (b) ���� the allowable emissions of major 
+stationary sources that commenced construction before the major source baseline 
+date, but were not in operation by the applicable minor source baseline date. 
+������������������� (2) ���� The following will not be included in the 
+baseline concentration and will affect the applicable maximum allowable 
+increase(s): 
+����������������������������� (a) ���� actual emissions, as defined in this 
+section, from any major stationary source on which construction commenced after 
+the major source baseline date; and 
+����������������������������� (b) ���� actual emissions increases and decreases, 
+as defined in Subsection B of this section, at any stationary source occurring 
+after the minor source baseline date. 
+��������������� J. ������������ "Begin actual 
+construction" means, in general, initiation of physical onsite 
+construction activities on an emissions unit which are of a permanent nature. � Such activities include, but are not limited 
+to, installation of building supports and foundations, laying underground 
+pipework and construction of permanent storage structures. � With respect to a change in method of 
+operations, this term refers to those on-site activities other than preparatory 
+activities which mark the initiation of the change. 
+��������������� K. ����������� "Best available control 
+technology (BACT)" means an emissions limitation (including a visible 
+emission standard) based on the maximum degree of reduction for each regulated 
+pollutant which would be emitted from any proposed major stationary source or 
+major modification, which the secretary determines is achievable on a 
+case-by-case basis. � This determination 
+will take into account energy, environmental, and economic impacts and other 
+costs. � The determination must be 
+achievable for such source or modification through application of production 
+processes or available methods, systems, and techniques, including fuel cleaning, 
+clean fuels, or treatment or innovative fuel combustion techniques for control 
+of such pollutants. � In no event shall 
+application of best available control technology result in emissions of any 
+pollutant which would exceed the emissions allowed by any applicable standard 
+under 40 CFR Parts 60 and 61. � If the 
+department determines that technological or economic limitations on the 
+application of measurement methodology to a particular emissions unit would 
+make the imposition of an emissions standard infeasible, a design, equipment, 
+work practice, operational standard, or combination thereof, may be prescribed 
+instead to satisfy the requirement for the application of best available 
+control technology. � Such standard shall, 
+to the degree possible, set forth the emissions reduction achievable by implementation 
+of such design, equipment, work practice, or operation, and shall provide for 
+compliance by means which achieve equivalent results. 
+��������������� L. ����������� "Building, structure, facility, 
+or installation" means all of the pollutant emitting activities which 
+belong to the same industrial grouping, are located on one or more contiguous 
+or adjacent properties, and are under the control of the same person (or 
+persons under common control). � 
+Pollutant-emitting activities shall be considered as part of the same 
+industrial grouping if they belong to the same "major group" (i.e., 
+which have the same first two digit code) as described in the standard 
+industrial classification (SIC) manual, 1972, as amended by the 1977 supplement 
+(U. S. government printing office stock numbers 4101-0066 and 003-005-00176-0, 
+respectively) or any superseding SIC manual. 
+��������������� M. ���������� "Class I federal area" 
+means any federal land that is classified or reclassified as "class 
+I" as described in 20.2.74.108 NMAC. 
+��������������� N. ����������� "Commence" means, as 
+applied to construction of a major stationary source or major modification, 
+that the owner or operator has all necessary preconstruction approvals or 
+permits and has: 
+������������������� (1) ���� begun, or caused to begin, a continuous 
+program of actual on-site construction of the source, to be completed within a 
+reasonable time; or 
+������������������� (2) ���� entered into binding agreements or 
+contractual obligations, which cannot be cancelled or modified without 
+substantial loss to the owner or operator, to undertake and complete, within a 
+reasonable time, a program of actual construction. 
+��������������� O. ����������� "Construction" means 
+any physical change or change in the method of operation (including 
+fabrication, erection, installation, demolition, or modification of an 
+emissions unit) that would result in a change in emissions. 
+��������������� P. ����������� "Continuous emissions 
+monitoring system (CEMS)" means all of the equipment that may be 
+required to meet the data acquisition and availability requirements of this 
+section, to sample, condition (if applicable), analyze, and provide a record of 
+emissions on a continuous basis. 
+��������������� Q. ����������� "Continuous emissions rate 
+monitoring system (CERMS)" means the total equipment required for the 
+determination and recording of the pollutant mass emissions rate (in terms of 
+mass per unit of time). 
+��������������� R. ����������� "Continuous parameter 
+monitoring system (CPMS)" means all of the equipment necessary to meet 
+the data acquisition and availability requirements of this section, to monitor 
+process and control device operational parameters (for example, control device 
+secondary voltages and electric currents) and other information (for example, 
+gas flow rate, O2 or CO2 concentrations), and to record average operational 
+parameter value(s) on a continuous basis. 
+��������������� S. ������������ "Department" means 
+the New Mexico environment department. 
+��������������� T. ����������� "Electric utility steam 
+generating unit" means any steam electric generating unit that is 
+constructed for the purpose of supplying more than one-third of its potential 
+electric output capacity and more than 25 megawatts electrical output to any 
+utility power distribution system for sale. Any steam supplied to a steam 
+distribution system for the purpose of providing steam to a steam-electric 
+generator that would produce electrical energy for sale is also considered in 
+determining the electrical energy output capacity of the affected facility. 
+��������������� U. ����������� "Emissions unit" means 
+any part of a stationary source that emits or would have the potential to emit 
+any regulated new source review pollutant and includes an electric utility 
+steam generating unit as defined in this section. For purposes of this section, 
+there are two types of emissions units as described in the following. 
+������������������� (1) ���� A new emissions unit is any emissions unit 
+that is (or will be) newly constructed and that has existed for less than 2 
+years from the date such emissions unit first operated. 
+������������������� (2) ���� An existing emissions unit is any 
+emissions unit that does not meet the requirements in Paragraph (1) of this 
+subsection. � A replacement unit, as 
+defined in this section, is an existing unit. 
+��������������� V. ����������� "Federal land manager" 
+means, with respect to any lands in the United States, a federal level cabinet 
+secretary of a federal level department (e.g. interior dept.) with authority 
+over such lands. 
+��������������� W. ���������� "Federally enforceable" 
+means all limitations and conditions which are enforceable by the 
+administrator, including: 
+������������������� (1) ���� those requirements developed pursuant to 
+40 CFR Parts 60 and 61; 
+������������������� (2) ���� requirements within any applicable state 
+implementation plan; 
+������������������� (3) ���� any permit requirements established 
+pursuant to 40 CFR 52.21; or 
+������������������� (4) ���� under regulations approved pursuant to 40 
+CFR Part 51, Subpart I including 40 CFR 51.165 and 40 CFR 51.166. 
+��������������� X. ����������� "Fugitive emissions" 
+means those emissions which could not reasonably pass through a stack, chimney, 
+vent, or other functionally equivalent opening. 
+��������������� Y. ����������� "Greenhouse gas" for the purpose of this part is defined as 
+the aggregate group of the following six gases: carbon dioxide, nitrous oxide, 
+methane, hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride. 
+��������������� Z. ����������� "High terrain" means any area having an elevation nine hundred (900) feet or more 
+above the base of a source's stack. 
+��������������� AA. �������� "Indian governing body" 
+means the governing body of any tribe, band, or group of Indians subject to the 
+jurisdiction of the United States and recognized by the United States as 
+possessing power of self-government. 
+��������������� AB. �������� "Innovative control 
+technology" means any system of air pollution control that has not 
+been adequately demonstrated in practice. � 
+But such system would have a substantial likelihood of achieving greater 
+continuous emissions reduction than any control system in current practice or 
+achieving at least comparable reductions at lower cost in terms of energy, 
+economics, or non-air quality environmental impacts. 
+��������������� AC. �������� "Low terrain" means any 
+area other than high terrain. 
+��������������� AD. �������� "Lowest achievable emission 
+rate" means, for any source, the more stringent rate of emissions based 
+on the following: 
+������������������� (1) ���� the most stringent emissions limitation 
+which is contained in the implementation plan of any state for such class or 
+category of stationary source, unless the owner or operator of the proposed 
+stationary source demonstrates that such limitations are not achievable; or 
+������������������� (2) ���� the most stringent emissions limitation 
+which is achieved in practice by such class or category of stationary source; 
+this limitation, when applied to a modification, means the lowest achievable 
+emissions rate for the new or modified emissions units within the stationary 
+source. � In no event shall the 
+application of this term permit a proposed new or modified stationary source to 
+emit any pollutant in excess of the amount allowable under an applicable new 
+source standard of performance. 
+��������������� AE. �������� "Major modification" means any physical change in or change in the method of operation 
+of a major stationary source that would result in: a significant emissions 
+increase (as defined in this section) of a regulated new source review 
+pollutant (as defined in this section); and a significant net emissions 
+increase of that pollutant from the major stationary source. Any significant 
+emissions increase (as defined in this section) from any emissions units or net 
+emissions increase (as defined in this section) at a major stationary source 
+that is significant for volatile organic compounds or nitrogen oxides shall be 
+considered significant for ozone. 
+������������������� (1) ���� A physical change or change in the method 
+of operation shall not include: 
+����������������������������� (a) ���� routine maintenance, repair, and 
+replacement; 
+����������������������������� (b) ���� use of an alternative fuel or raw material 
+by reason of an order under Section 2 (a) and (b) of the Energy Supply and 
+Environmental Coordination Act of 1974 (or any superseding legislation) or by 
+reason of a natural gas curtailment plan pursuant to the Federal Power Act; 
+����������������������������� (c) ���� use of an alternative fuel by reason of an 
+order or rule under Section 125 of the act; 
+����������������������������� (d) ���� use of an alternative fuel at a steam 
+generating unit to the extent that the fuel is generated from municipal solid 
+waste; 
+������������������������ ����� (e) ���� use of an alternative fuel or raw material 
+by a stationary source which: 
+��������������������������������������� (i) ���� the source was capable of accommodating 
+before January 6, 1975, unless such change would be prohibited under any 
+federally enforceable permit condition which was established after January 6, 
+1975 pursuant to 40 CFR 52.21 or under regulations approved pursuant to 40 CFR 
+51.165 or 40 CFR 51.166; or 
+��������������������������������������� (ii) ���� the source is approved to use under any 
+permit issued under 40 CFR 52.21 or under regulations approved pursuant to 40 
+CFR 51.166; 
+����������������������������� (f) ���� an increase in the hours of operation or 
+in the production rate, unless such change would be prohibited under any federally 
+enforceable permit which was established after January 6, 1975, pursuant to 40 
+CFR 52.21 or under regulations approved pursuant to 40 CFR 51.165 or 40 CFR 
+51.166; 
+����������������������������� (g) ���� any change in ownership at a stationary 
+source; 
+� ���������������������������� (h) ���� the installation, operation, cessation, or 
+removal of a temporary clean coal technology demonstration project, provided 
+that the project complies with: 
+��������������������������������������� (i) ���� the state implementation plan for the 
+state in which the project is located; and 
+��������������������������������������� (ii) ���� other requirements necessary to attain and 
+maintain the national ambient air quality standards during the project and 
+after it is terminated; 
+��� �������������������������� (i) ���� the installation or operation of a 
+permanent clean coal technology demonstration project that constitutes 
+repowering, provided that the project does not result in an increase in the 
+potential to emit of any regulated pollutant emitted by the unit; this 
+exemption shall apply on a pollutant-by-pollutant basis; 
+����������������������������� (j) ���� the reactivation of a very clean 
+coal-fired electric utility steam generating unit. 
+������������������� (2) ���� This definition shall not apply with 
+respect to a particular regulated new source review pollutant when the major 
+stationary source is complying with the requirements under 20.2.74.320 NMAC for 
+a PAL for that pollutant. Instead, the definition at Paragraph (8) of Subsection 
+B of 20.2.74.320 NMAC shall apply. 
+��������������� AF. �������� "Major source baseline date" 
+means: 
+������������������� (1) ���� in the case of PM 10 and sulfur 
+dioxide, January 6, 1975; 
+������������������� (2) ���� in the case of nitrogen dioxide, February 
+8, 1988; and 
+���������� 
+��������� (3) ���� in the case of PM 2.5 , 
+October 20, 2010. 
+��������������� AG. �������� "Major stationary source" 
+means the following. 
+������������������� (1) ���� Any stationary source listed in table 1 
+(20.2.74.501 NMAC) which emits, or has the potential to emit, emissions equal to 
+or greater than one hundred (100) tons per year of any regulated new source 
+review pollutant. 
+������������������� (2) ���� Any stationary source not listed in table 
+1 (20.2.74.501 NMAC) and which emits or has the potential to emit two hundred 
+fifty (250) tons per year or more of any regulated new source review pollutant. 
+������������������� (3) ���� Any physical change that would occur at a 
+stationary source not otherwise qualifying under Paragraphs (1) or (2) of this 
+subsection if the change would constitute a major stationary source by itself. 
+������������������� (4) ���� A major source that is major for volatile 
+organic compounds or nitrogen oxides shall be considered major for ozone. 
+������������������� (5) ���� The fugitive emissions of a stationary 
+source shall not be included in determining for any of the purposes of this 
+section whether it is a major stationary source, unless the source belongs to 
+one of the stationary source categories found in Table 1 (20.2.74.501 NMAC) or 
+any other stationary source category which, as of August 7, 1980, is being 
+regulated under Section 111 or 112 of the act. 
+��������������� AH. �������� "Mandatory class I federal 
+area" means any area identified in the Code of Federal Regulations 
+(CFR), 40 CFR Part 81, Subpart D. � See 
+20.2.74.108 NMAC for a list of these areas in New Mexico. 
+��������������� AI. ��������� "Minor source baseline date" 
+means the earliest date after the trigger date on which the owner or operator 
+of a major stationary source or major modification subject to 40 CFR 52.21 or 
+to this part submits a complete application under the relevant regulations. 
+������������������� (1) ���� The trigger date is: 
+����������������������������� (a) ���� in the case of PM 10 and sulfur 
+dioxide, August 7, 1977; 
+����������������������������� (b) ���� in the case of nitrogen dioxide, February 
+8, 1988; and 
+����������������������������� (c) ���� 
+in the case of PM 2.5 , October 20, 2011. 
+������������������� (2) ���� Any minor source baseline date established 
+originally for the TSP (total suspended particulates) increments shall remain 
+in effect and shall apply for purposes of determining the amount of available 
+PM-10 increments. � The department may 
+rescind any TSP minor source baseline date where it can be shown, to the 
+department 's satisfaction, that the emissions increase from the major stationary 
+source, or the net emissions increase from the major modification, responsible 
+for triggering that date, did not result in a significant amount of PM-10 
+emissions. 
+��������������� AJ. ��������� "Natural conditions" 
+includes naturally occurring phenomena that reduce visibility as measured in 
+terms of visual range, contrast or coloration. 
+��������������� AK. �������� "Necessary preconstruction 
+approvals or permits" means those permits or approvals required under 
+federal air quality control laws and regulations and those air quality control 
+laws and regulations which are part of the New Mexico state implementation 
+plan. 
+��������������� AL. �������� "Net emissions increase" 
+means, with respect to any regulated new source review pollutant emitted by a 
+major stationary source, the following. 
+������������������� (1) ���� The amount by which the sum of the 
+following exceeds zero. 
+����������������������������� (a) ���� The increase in emissions from a 
+particular physical change or change in the method of operation at a stationary 
+source as calculated pursuant to Subsection D of 20.2.74.200 NMAC. 
+����������������������������� (b) ���� Any other increases and decreases in 
+actual emissions at the major stationary source that are contemporaneous with 
+the particular change and are otherwise creditable. Baseline actual emissions 
+for calculating increases and decreases under this paragraph shall be 
+determined as provided in Subsection G, except that Subparagraph (c) of 
+Paragraph (1) and Subparagraph (d) of Paragraph (2) of Subsection G of this 
+section shall not apply. 
+������������������� (2) ���� An increase or decrease in actual 
+emissions is contemporaneous with the increase from the particular change only 
+if it occurs within the time period five years prior to the commencement of 
+construction on the particular change and the date that the increase from the 
+particular change occurs. 
+������������������� (3) ���� An increase or decrease in actual 
+emissions is creditable only if: 
+����������������������������� (a) ���� it occurs within the time period five 
+years prior to the commencement of construction on the particular change and 
+the date that the increase from the particular change occurs; and 
+����������������������������� (b) ���� the department has not relied on it in 
+issuing a permit for the source under regulations approved pursuant to this section, 
+which permit is in effect when the increase in actual emissions from the 
+particular change occurs. 
+������������������� (4) ���� An increase or decrease in actual 
+emissions of sulfur dioxide, particulate matter, or nitrogen oxides that occurs 
+before the applicable minor source baseline date is creditable only if it is 
+required to be considered in calculating the amount of maximum allowable 
+increases remaining available. 
+������������������� (5) ���� An increase in actual emissions is 
+creditable only to the extent that the new level of actual emissions exceeds 
+the old level. 
+������������������� (6) ���� A decrease in actual emissions is 
+creditable only to the extent that: 
+����������������������������� (a) ���� the old level of actual emissions or the 
+old level of allowable emissions, whichever is lower, exceeds the new level of 
+actual emissions; 
+����������������������������� (b) ���� it is enforceable as a practical matter at 
+and after the time that actual construction on the particular change begins; 
+and 
+���� ������������������������� (c) ���� it has approximately the same qualitative 
+significance for public health and welfare as that attributed to the increase 
+from the particular change. 
+������������������� (7) ���� An increase that results from a physical 
+change at a source occurs when the emissions unit on which construction 
+occurred becomes operational and begins to emit a particular pollutant. Any 
+replacement unit that requires shakedown becomes operational only after a 
+reasonable shakedown period, not to exceed 180 days. 
+������������������� (8) ���� Paragraph (2) of Subsection B of this 
+section shall not apply for determining creditable increases and decreases. 
+��������������� AM. ������� "Nonattainment area" means 
+an area which has been designated under Section 107 of the federal Clean Air 
+Act as nonattainment for one or more of the national ambient air quality 
+standards by EPA. 
+��������������� AN. �������� "Portable stationary source" 
+means a source which can be relocated to another operating site with limited 
+dismantling and reassembly. 
+��������������� AO. �������� "Potential to emit" means 
+the maximum capacity of a stationary source to emit a pollutant under its 
+physical and operational design. � Any 
+physical or operational limitation on the capacity of the source to emit a 
+pollutant, including air pollutant control equipment and restrictions on hours 
+of operation or on the type or amount of material combusted, stored, or 
+processed, shall be treated as part of its design if the limitations or the 
+effect it would have on emissions is federally enforceable. � Secondary emissions do not count in 
+determining the potential to emit of a stationary source. 
+��������������� AP. �������� "Predictive emissions monitoring 
+system (PEMS)" means all of the equipment necessary to monitor process 
+and control device operational parameters (for example, control device secondary 
+voltages and electric currents) and other information (for example, gas flow 
+rate, O2 or CO2 concentrations), and calculate and record the mass emissions 
+rate (for example, lb/hr) on a continuous basis. 
+��������������� AQ. �������� "Project" means a 
+physical change in, or change in method of operation of, an existing major 
+stationary source. 
+��������������� AR. �������� "Projected actual emissions" 
+means the maximum annual rate, in tons per year, at which an existing emissions 
+unit is projected to emit a regulated new source review pollutant in any one of 
+the 5 years (12-month period) following the date the unit resumes regular 
+operation after the project, or in any one of the 10 years following that date, 
+if the project involves increasing the emissions unit's design capacity or its 
+potential to emit that regulated new source review pollutant, and full 
+utilization of the unit would result in a significant emissions increase, or a 
+significant net emissions increase at the major stationary source. In 
+determining the projected actual emissions (before beginning actual 
+construction), the owner or operator of the major stationary source: 
+������������������� (1) ���� shall consider all relevant information, 
+including but not limited to, historical operational data, the company's own 
+representations, the company's expected business activity and the company's 
+highest projections of business activity, the company's filings with the state 
+or federal regulatory authorities, and compliance plans under the approved 
+plan; and 
+������������������� (2) ���� shall include fugitive emissions to the 
+extent quantifiable and emissions associated with startups, shutdowns, and 
+malfunctions; and 
+������������������� (3) ���� shall exclude, in calculating any increase 
+in emissions that results from the particular project, that portion of the 
+unit's emissions following the project that an existing unit could have 
+accommodated during the consecutive 24-month period used to establish the 
+baseline actual emissions under Subsection G of this section and that are also 
+unrelated to the particular project, including any increased utilization due to 
+product demand growth; or, 
+������������������� (4) ���� in lieu of using the method set out in 
+Paragraphs (1) through (3) of this subsection, may elect to use the emissions 
+unit's potential to emit, in tons per year, as defined in Subsection AR of this 
+section. 
+��������������� AS. ��������� "Regulated new source review 
+pollutant" , for purposes of this part, means the following: 
+������������������� (1) ���� any pollutant for which a national ambient 
+air quality standard has been promulgated and any pollutant identified under 
+this paragraph (Paragraph (1) of Subsection AS of 20.2.74.7 NMAC) as a 
+constituent or precursor to such pollutant; precursors identified by the 
+administrator for purposes of NSR are the following: 
+��������� ������������������� (a) ���� volatile organic 
+compounds and nitrogen oxides are precursors to ozone in all attainment and 
+unclassifiable areas; 
+���������������������������� (b) ���� 
+sulfur dioxide is a precursor to PM 2.5 in all attainment and 
+unclassifiable areas; 
+���������������������������� (c) ���� 
+nitrogen oxides are presumed to be precursors to PM 2.5 in all 
+attainment and unclassifiable areas, unless the state demonstrates to the 
+administrator�s satisfaction or EPA demonstrates that emissions of nitrogen oxides 
+from sources in a specific area are not a � 
+significant contributor to that area�s ambient PM 2.5 concentrations; 
+���������������������������� (d) ���� 
+volatile organic compounds are presumed not to be precursors to PM 2.5 
+in any attainment or unclassifiable area, unless the state demonstrates 
+to the administrator�s satisfaction or EPA demonstrates that emissions of 
+volatile organic compounds from sources in a specific area are a significant 
+contributor to that area�s ambient PM 2.5 concentrations; 
+������ 
+������������� (2) ���� any pollutant that is subject to any 
+standard promulgated under Section 111 of the act; 
+������������������� (3) ���� any class I or II substance subject to a 
+standard promulgated under or established by title VI of the act; or 
+�������� 
+����������� (4) ���� any pollutant that otherwise is subject to 
+regulation under the act as defined in Subsection AZ of this section; 
+������������������� (5) ���� notwithstanding 
+Paragraphs (1) through (4) of Subsection AS of this section, the term 
+"regulated NSR pollutant" shall not include any or all hazardous air 
+pollutants either listed in Section 112 of the act, or added to the list 
+pursuant to Section 112(b)(2) of the act, and which have not been delisted 
+pursuant to Section 112(b)(3) of the act, unless the listed hazardous air 
+pollutant is also regulated as a constituent or precursor of a general 
+pollutant listed under Section 108 of the act; 
+������������������� (6) ���� particulate matter 
+(PM) emissions, PM 2.5 emissions, and PM 10 emissions shall 
+include gaseous emissions from a source or activity which condense to form 
+particulate matter at ambient temperatures; on or after January 1, 2011, such 
+condensable particulate matter shall be accounted for in applicability 
+determinations and in establishing emissions limitations for PM, PM2.5 and PM10 
+in PSD permits; compliance with emissions limitations for PM, PM2.5 and PM10 
+issued prior to this date shall not be based on condensable particular matter 
+unless required by the terms and conditions of the permit or the applicable 
+implementation plan; applicability determinations made prior to this date 
+without accounting for condensable particular matter shall not be considered in 
+violation of this section unless the applicable implementation plan required 
+condensable particular matter to be included. 
+��������������� AT. �������� "Replacement unit" means 
+an emission unit for which all of the following criteria are met. � No creditable emission reductions shall be 
+generated from shutting down the existing emissions unit that is replaced. 
+���� ��������������� (1) ���� The emissions unit is a reconstructed unit 
+within the meaning of 40 CFR 60.15(b)(1), or the emissions unit completely 
+takes the place of an existing emissions unit. 
+������������������� (2) ���� The emissions unit is identical to or functionally 
+equivalent to the replaced emissions unit. 
+������������������� (3) ���� The replacement unit does not change the 
+basic design parameter(s) of the process unit. 
+������������������� (4) ���� The replaced emissions unit is permanently 
+removed from the major stationary source, otherwise permanently disabled, or 
+permanently barred from operation by a permit that is enforceable as a 
+practical matter. � If the replaced 
+emissions unit is brought back into operation, it shall constitute a new 
+emissions unit. 
+��������������� AU. �������� "Secondary emissions" 
+means emissions which occur as a result of the construction or operation of a 
+major stationary source or major modification, but do not come from the major 
+stationary source or major modification itself. � 
+For the purpose of this section, secondary emissions must be specific, 
+well defined, quantifiable, and impact the same general areas as the stationary 
+source or modification which causes the secondary emissions. � Secondary emissions include emissions from 
+any offsite support facility which would not be constructed or increase its 
+emissions except as a result of the construction or operation of the major 
+stationary source or major modification. � 
+Secondary emissions do not include any emissions which come directly 
+from a mobile source, such as emissions from the tailpipe of a motor vehicle, 
+from a train, or from a vessel. 
+��������������� AV. �������� "Secretary" means the 
+cabinet level secretary of the New Mexico environment department or his or her 
+successor. 
+��������������� AW. ������� "Significant" means in 
+reference to a net emissions increase or the potential of a source to emit air 
+pollutants, a rate of emission that would equal or exceed any of the rates 
+listed in table 2 (20.2.74.502 NMAC). 
+��������������� AX. �������� "Significant emissions 
+increase" means, for a regulated new source review pollutant, an 
+increase in emissions that is significant (as defined in Subsection AW of this 
+section) for that pollutant. 
+��������������� AY. �������� "Stationary source" means 
+any building, structure, facility, or installation which emits, or may emit, 
+any regulated new source review pollutant. 
+��������������� AZ. �������� "Subject to regulation" means, 
+for any air pollutant, that the pollutant is subject to either a provision in 
+the act, or a nationally-applicable regulation codified by the administrator in 
+subchapter C of 40 CFR Chapter I, that requires actual control of the quantity 
+of emissions of that pollutant, and that such a control requirement has taken 
+effect and is operative to control, limit or restrict the quantity of emissions 
+of that pollutant released from the regulated activity. � Except that: 
+������������������� (1) ���� "greenhouse 
+gases (GHGs)" shall not be subject to regulation except as provided in 
+paragraphs AZ(4) and (5) of this section and shall not be subject to regulation 
+if the stationary source maintains its total source-wide emissions below the 
+GHG PAL level, meets the requirements in 20.2.74.320 NMAC, and complies with 
+the PAL permit containing the GHG PAL; 
+������������������� (2) ���� for purposes of 
+Paragraphs (3) through (5) of Subsection AZ of this section, the term 
+"tons per year CO 2 equivalent emissions (CO 2 e)� 
+shall represent an amount of GHGs emitted, and shall be computed as follows: 
+����������������������������� (a) ���� 
+multiplying the mass amount of emissions (tons per year), for each of 
+the six greenhouse gases in the pollutant GHGs, by the gas's associated global 
+warming potential published at table A-1 to subpart A of 40 CFR part 98 - 
+Global Warming Potentials; for purposes of this subparagraph, prior to July 21, 
+2014, the mass of the greenhouse gas carbon dioxide shall not include carbon 
+dioxide emissions resulting from the combustion or decomposition of 
+non-fossilized and biodegradable organic material originating from plants, 
+animals or micro-organisms (including products, by-products, residues and waste 
+from agriculture, forestry and related industries as well as the non-fossilized 
+and biodegradable organic fractions of industrial and municipal wastes, 
+including gases and liquids recovered from the decomposition of non-fossilized 
+and biodegradable organic material); 
+� ���������������������������� (b) ���� 
+sum the resultant value from Subparagraph (a) of Paragraph (2) of 
+Subsection AZ of this section for each gas to compute a tons per year CO 2 e; 
+������������������� (3) ���� the term 
+"emissions increase" as used in Paragraphs (4) and (5) of Subsection 
+AZ of this section shall mean that both a significant emissions increase (as 
+calculated using the procedures in Subsection D of 20.2.74.200 NMAC) and a 
+significant net emissions increase (as defined in Subsections AL, AW and AX of 
+20.2.74.7 NMAC) occur; for the pollutant GHGs, an emissions increase shall be 
+based on tons per year CO 2 e , and shall be calculated assuming the 
+pollutant GHGs is a regulated NSR pollutant, and "significant" is 
+defined as 75,000 tons per year CO 2 e instead of applying the value 
+in table 2 of 20.2.74 NMAC; 
+������������������� (4) ���� beginning January 2, 
+2011, the pollutant GHGs is subject to regulation if: 
+����������������������������� (a) ���� 
+the stationary source is a new major stationary source for a regulated 
+NSR pollutant that is not GHGs, and also will emit or will have the potential 
+to emit 75,000 tons per year CO 2 e or more; or 
+����������������������������� (b) ���� 
+the stationary source is an existing major stationary source for a 
+regulated NSR pollutant that is not GHGs, and also will have an emissions 
+increase of a regulated NSR pollutant that is not GHGs, and also will have an 
+emissions increase of 75,000 tons per year CO 2 e or more; and 
+������������������� (5) ���� beginning July 1, 
+2011, in addition to the provisions in Paragraph (4) of this subsection, the 
+pollutant GHGs shall also be subject to regulation: 
+����������������������������� (a) ���� 
+at a new stationary source that will emit or have the potential to emit 
+100,000 tons per year CO 2 e ; or 
+����������������������������� (b) ���� 
+at an existing stationary source that emits of has the potential to emit 
+100,000 tons per year CO 2 e , when such stationary source undertakes 
+a physical change or change in the method of operation that will result in an 
+emissions increase of 75,000 tons per year CO 2 e or more; 
+������������������� (6) ���� if a federal court 
+stays, invalidates or otherwise renders unenforceable by the US EPA, in whole 
+or in part, the prevention of significant deterioration and Title V greenhouse 
+gas tailoring rule (75 FR 31514, June 3, 2010), the definition "subject to 
+regulation" shall be enforceable by the department only to the extent that 
+it is enforceable by US EPA. 
+��������������� BA. �������� "Temporary source" means 
+a stationary source which changes its location or ceases to exist within two 
+years from the date of initial start of operations. 
+��������������� BB. �������� "Visibility impairment" 
+means any humanly perceptible change in visibility (visual range, contrast, 
+coloration) from that which would have existed under natural conditions. 
+��������������� BC. �������� "Volatile organic compound 
+(VOC)" means any organic compound which participates in atmospheric 
+photochemical reactions; that is, any organic compound other than those which 
+the administrator designates as having negligible photochemical reactivity. 
+[07/20/95; 01/01/00; 20.2.74.7 NMAC - Rn, 
+20 NMAC 2.74.107, 10/31/02; A, 1/22/06; A, 8/31/09; A, 1/1/11; A, 6/3/11; A, 
+2/6/13] 
+20.2.74.8 �������������� AMENDMENT AND SUPERSESSION OF PRIOR REGULATIONS: � This Part amends and 
+supersedes Air Quality Control Regulation (AQCR) 707, which was originally 
+filed on February 14, 1984, and subsequently refiled on July 15, 1986; August 
+1, 1988; and May 29, 1990. � All 
+references to AQCR 707 in any other rule shall be understood as a reference to 
+this Part. 
+[07/20/95; 20.2.74.8 NMAC - Rn, 20 NMAC 
+2.74.106, 10/31/02] 
+20.2.74.9 �������������� DOCUMENTS: � Documents cited in this Part may be viewed at 
+the New Mexico Environment Department, Air Quality Bureau, Harold Runnels 
+Building, 1190 St. Francis Drive, Santa Fe, NM 87503 [1301 Siler Rd., Bldg. B, 
+Santa Fe, NM 87507]. 
+[07/20/95; 20.2.74.9 NMAC - Rn, 20 NMAC 
+2.74.109, 10/31/02; A, 01/01/11] 
+20.2.74.10 ������������ SEVERABILITY. � If any provision of this part, or the 
+application of such provision to any person or circumstance, is held invalid, 
+the remainder of this part, or the application of such provision to persons or 
+circumstances other than those as to which it is held invalid, shall not be 
+affected thereby. 
+[20.2.74.10 NMAC - N, 1/22/06] 
+20.2.74.11 ������������ CONSTRUCTION. � This part shall be liberally construed to 
+carry out its purpose. 
+[20.2.74.11 NMAC - N, 1/22/06] 
+20.2.74.12 ������������ SAVINGS CLAUSE. � Repeal or supersession of prior versions of 
+this part shall not affect any administrative or judicial action initiated 
+under those prior versions. 
+[20.2.74.12 NMAC - N, 1/22/06] 
+20.2.74.13 ������������ COMPLIANCE WITH OTHER REGULATIONS. � Compliance with this part 
+does not relieve a person from the responsibility to comply with any other 
+applicable federal, state, or local regulations. 
+[20.2.74.13 NMAC - N, 1/22/06] 
+20.2.74.14 ������������ LIMITATION OF DEFENSE. � The existence of a valid permit under this 
+part shall not constitute a defense to a violation of any section of this part, 
+except the requirement for obtaining a permit. 
+[20.2.74.14 NMAC - N, 1/22/06] 
+20.2.74.15 to 20.2.74.107 [RESERVED] 
+20.2.74.108 ��������� RESTRICTIONS ON AREA CLASSIFICATIONS: 
+��������������� A. ����������� Mandatory Class I Federal areas: 
+������������������� (1) ���� The following areas which were in 
+existence on August 7, 1977, shall be mandatory Class I Federal areas and may 
+not be redesignated: 
+���� ������������������������� (a) ���� International parks (all of them); 
+����������������������������� (b) ���� National wilderness areas which exceed 
+5,000 acres in size; 
+����������������������������� (c) ���� National memorial parks which exceed 5,000 
+acres in size; and 
+����������������������������� (d) ���� National parks which exceed 6,000 acres in 
+size. 
+������������������� (2) ���� Specifically for New Mexico, these areas 
+are: 
+����������������������������� (a) ���� Bandelier Wilderness, administered by NPS; 
+��� �������������������������� (b) ���� Bosque del Apache Wilderness, administered 
+by NFWS; 
+����������������������������� (c) ���� Carlsbad Caverns National Park, 
+administered by NPS; 
+����������������������������� (d) ���� Gila Wilderness, administered by NFS; 
+�� ��������������������������� (e) ���� Pecos Wilderness, administered by NFS; 
+����������������������������� (f) ���� Salt Creek Wilderness, administered by 
+NFWS; 
+����������������������������� (g) ���� San Pedro Parks Wilderness, administered 
+by NFS; 
+����������� 
+������������������ (h) ���� Wheeler Peak Wilderness, administered by 
+NFS; and 
+����������������������������� (i) ���� White Mountain Wilderness, administered by 
+NFS; � where: � NPS = National Park Service, NFWS = National 
+Fish and Wildlife Service, NFS = National Forest Service. 
+��������������� B. ����������� Areas which may be redesignated only 
+as Class I or Class II: 
+������������������� (1) ���� The following areas may be redesignated 
+only as Class I or II: 
+����������������������������� (a) ���� an area, as of August 7, 1977, which 
+exceeds 10,000 acres in size and is a national monument, national primitive 
+area, national preserve, national recreational area, national wild and scenic 
+river, national wildlife refuge; or 
+����������������������������� (b) ���� a national park or national wilderness 
+area established after August 7, 1977 which exceeds 10,000 acres in size. 
+������������������� (2) ���� Specifically for New Mexico, these areas 
+include (but are not necessarily limited to): 
+����������������������������� (a) ���� Apache Kid Wilderness, administered by 
+NFS; 
+����������������������������� (b) ���� Bandelier National Monument, administered 
+by NPS; 
+����������������������������� (c) ���� Bitter Lake National Wildlife Refuge, 
+administered by NFWS; 
+����������������������������� (d) ���� Blue Range Wilderness, administered by 
+NFS; 
+����������������������������� (e) ���� Bosque del Apache National Wildlife 
+Refuge, administered by NFWS; 
+����������������������������� (f) ���� Capitan Mountains Wilderness, administered 
+by NFS; 
+����������������������������� (g) ����� Cebolla Wilderness, administered by BLM; 
+����������������������������� (h) ����� Chama River Canyon Wilderness, 
+administered by NFS; 
+����������������������������� (i) ����� Cruces Basin Wilderness, administered by 
+NFS; 
+����������������������������� (j) ���� De-na-zin Wilderness, administered by BLM; 
+����������������������������� (k) ���� El Malpais National Monument, administered 
+by NPS; 
+����������������������������� (l) ���� Latir Peak Wilderness, administered by 
+NFS; 
+����������������������������� (m) �� �� Manzano Mountain Wilderness, administered by 
+NFS; 
+����������������������������� (n) ���� San Andres National Wildlife Refuge, 
+administered by NFWS; 
+����������������������������� (o) ���� Sandia Mountain Wilderness, administered 
+by NFS; 
+������������������� ���������� (p) ���� Sevilleta National Wildlife Refuge, 
+administered by NFWS; 
+����������������������������� (q) ���� West Malpais Wilderness, administered by 
+BLM; 
+����������������������������� (r) ���� White Sands National Monument, 
+administered by NPS; and 
+� ���������������������������� (s) ���� Withington Wilderness, administered by 
+NFS; where: � NFS = National Forest 
+Service, NPS = National Park Service, NFWS = National Fish and Wildlife 
+Service, BLM = Bureau of Land Management. 
+[07/20/95; 20.2.74.108 NMAC - Rn, 20 NMAC 
+2.74.108, 10/31/02] 
+20.2.74.109 to 20.2.74.199 �������������� [RESERVED] 
+20.2.74.200 ��������� APPLICABILITY. 
+��������������� A. ����������� The requirements of this part apply 
+to the construction of any new major stationary source (as defined in 20.2.74.7 
+NMAC) or any project at an existing major stationary source in an area 
+designated as attainment or unclassifiable. 
+��������������� B. ����������� The requirements of Sections 300 
+through 306, 400 and 403 of this part apply to the construction of any new 
+major stationary source or the major modification of any existing major 
+stationary source, except as this part otherwise provides. 
+��������������� C. ����������� No new major stationary source or 
+major modification to which the requirements of Subsections A, B, C and D of 
+20.2.74.300 NMAC, and Sections 301, 302, 303, 304, 305, 306, 400 and 403 of this 
+part apply shall begin actual construction without a permit that states that 
+the major stationary source or major modification will meet those requirements. 
+��������������� D. ����������� Applicability procedures. 
+������������������� (1) ���� Except as otherwise provided in Subsections 
+E and F of this section, and consistent with the definition of major 
+modification contained in 20.2.74.7 NMAC, a project is a major modification for 
+a regulated new source review pollutant if it causes two types of emissions 
+increases - a significant emissions increase (as defined in 20.2.74.7 NMAC), 
+and a significant net emissions increase (as defined in Subsections AL and AX 
+of 20.2.74.7 NMAC). The project is not a major modification if it does not 
+cause a significant emissions increase. If the project causes a significant 
+emissions increase, then the project is a major modification only if it also 
+results in a significant net emissions increase. 
+������������������� (2) ���� The procedure for calculating (before 
+beginning actual construction) whether a significant emissions increase (i.e., 
+the first step of the process) will occur depends upon the type of emissions 
+units being modified, according to Paragraphs (3) through (4) of this 
+subsection. The procedure for calculating (before beginning actual construction) 
+whether a significant net emissions increase will occur at the major stationary 
+source (i.e., the second step of the process) is contained in the definition in 
+20.2.74.7 NMAC. Regardless of any such preconstruction projections, a major 
+modification results if the project causes a significant emissions increase and 
+a significant net emissions increase. 
+������������������� (3) ���� Actual-to-projected-actual applicability 
+test for projects that involve existing emissions units. A significant emissions 
+increase of a regulated new source review pollutant is projected to occur if 
+the sum of the difference between the projected actual emissions (as defined in 
+20.2.74.7 NMAC) and the baseline actual emissions (as defined in Paragraphs (1) 
+and (2) of Subsection G of 20.2.74.7 NMAC) for each existing emissions unit, 
+equals or exceeds the significant amount for that pollutant (as defined in 
+20.2.74.7 NMAC). 
+������������������� (4) ���� Actual-to-potential test for projects that 
+involve construction of a new emissions unit(s). A significant emissions 
+increase of a regulated new source review pollutant is projected to occur if 
+the sum of the difference between the potential to emit (as defined in 
+20.2.74.7 NMAC) from each new emissions unit following completion of the 
+project and the baseline actual emissions (as defined in Paragraph (3) of 
+Subsection G of 20.2.74.7 NMAC) of these units before the project equals or 
+exceeds the significant amount for that pollutant (as defined in 20.2.74.7 
+NMAC). 
+���������������� ��� (5) ���� Hybrid test for projects that involve 
+multiple types of emissions units. A significant emissions increase of a 
+regulated NSR pollutant is projected to occur if the sum of the emissions 
+increases for each emissions unit, using the method specified in Paragraphs (3) 
+and (4) of this subsection as applicable with respect to each emissions unit, 
+for each type of emissions unit equals or exceeds the significant amount for 
+that pollutant. For example, if a project involves both an existing emissions unit 
+and a new emissions unit, the projected increase is determined by summing the 
+values determined using the method specified in Paragraph (3) of this 
+subsection for the existing unit and determined using the method specified in 
+Paragraph (4) of this subsection for the new unit. 
+��������������� E. ����������� For any major stationary source for 
+a PAL for a regulated new source review pollutant, the major stationary source 
+shall comply with requirements under 20.2.74.320 NMAC. 
+[07/20/95; 20.2.74.200 NMAC - Rn, 20 NMAC 
+2.74.200, 10/31/02; A, 1/22/06; A, 01/01/11] 
+20.2.74.201 ��������� EXEMPTIONS: � This Part shall not apply to: 
+��������������� A. ����������� Each regulated pollutant emitted for 
+which the area the source proposes to locate in is designated as nonattainment; 
+��������������� B. ����������� Sources or modifications that are 
+part of a nonprofit health or nonprofit educational institution and are 
+approved by the Secretary; 
+��������������� C. ����������� A portable stationary source which 
+has previously received a permit pursuant to this Part; and 
+������������������� (1) ���� The owner or operator proposes to relocate 
+the source, and emissions from the source at the new location will be 
+temporary; and 
+������������������� (2) ����� The emissions from the source would not 
+exceed its allowable emission rate; and 
+������������������� (3) ���� The emissions from the source would not 
+impact any Class I Federal area nor any area where an applicable increment is 
+known to be violated; and 
+������������������� (4) ���� Reasonable notice is given to the 
+Department prior to the relocation identifying the proposed new location and 
+probable duration of operation at the new location. � Such notice shall be given to the Department 
+not less than ten (10) days in advance of the proposed relocation unless a 
+different time interval is previously approved by the Department; 
+��������������� D. ����������� A source or modification that would 
+be major only if fugitive emissions, to the extent they are quantifiable, are 
+considered in calculating the potential to emit or net emissions increase, and 
+the source does not belong to: 
+������������������� (1) ���� Any category in Table 1 of this Part 
+(20.2.74.501 NMAC); or 
+������������������� (2) ���� Any other stationary source category which 
+as of August 7, 1980 is being regulated under section 111 or 112 of the Act. 
+[07/20/95; 20.2.74.201 NMAC - Rn, 20 NMAC 
+2.74.201, 10/31/02] 
+20.2.74.202 to 20.2.74.299 �������������� [RESERVED] 
+20.2.74.300 ��������� OBLIGATIONS OF OWNERS OR OPERATORS OF SOURCES : 
+��������������� A. ����������� Any owner or operator who begins 
+actual construction or operates a source or modification without, or not in 
+accordance with, a permit issued under the requirements of this part shall be 
+subject to enforcement action. 
+��������������� B. ����������� The issuance of a permit does not 
+relieve any person from the responsibility of complying with the provisions of 
+the Air Quality Control Act, sections 74-2-1 to 74-2-17, NMSA 1978; any 
+applicable regulations of the board; and any other requirements under local, 
+state, or federal law. 
+��������������� C. ����������� Approval to 
+construct shall become invalid if: � 1) 
+construction is not commenced within eighteen (18) months after receipt of such 
+approval; � 2) if construction is discontinued 
+for a period of eighteen (18) months or more; or 3) if construction is not 
+completed within a reasonable time. � For 
+a phased construction project, each phase must commence construction within 
+eighteen (18) months of the projected and approved commencement date. � The secretary may extend the eighteen (18) 
+month period upon a satisfactory showing that an extension is justified. 
+��������������� D. ����������� If a source or modification becomes 
+a major stationary source or major modification solely due to a relaxation in 
+any enforceable limitation (which limitation was established after August 7, 
+1980), on the capacity of the source or modification otherwise to emit a 
+pollutant, such as a restriction on hours of operation, then this part shall 
+apply to the source or modification as though construction had not yet 
+commenced. 
+��������������� E. ����������� Except as otherwise 
+provided in Paragraph (6) under this subsection (Subsection E of 20.2.74.300 
+NMAC), the following specific provisions apply with 
+respect to any regulated NSR pollutant emitted from projects 
+at existing emissions units at a major stationary source (other than projects 
+at a source with a PAL) in circumstances where there 
+is a reasonable possibility , within the meaning of Paragraph 
+(6) under this subsection (Subsection E of 20.2.74.300 NMAC) , that a project that is not a part of a major modification may 
+result in a significant emissions increase of such pollutant, and the owner or operator elects to use the method specified in 
+Paragraphs (1) through (3) of Subsection AR of 20.2.74.7 NMAC for calculating 
+projected actual emissions. 
+������������������� (1) ���� Before beginning actual construction of 
+the project, the owner or operator shall document and maintain a record of the 
+following information: 
+����������������������������� (a) ���� a description of the project; 
+����������������������������� (b) ���� identification of the emissions unit(s) 
+whose emissions of a regulated new source review pollutant could be affected by 
+the project; and 
+����������������������������� (c) ���� a description of the applicability test 
+used to determine that the project is not a major modification for any 
+regulated new source review pollutant, including the baseline actual emissions, 
+the projected actual emissions, the amount of emissions excluded under Paragraph 
+(3) of Subsection AR of 20.2.74.7 NMAC and an explanation for why such amount 
+was excluded, and any netting calculations, if applicable. 
+������������������� (2) ���� If the emissions unit is an existing 
+electric utility steam generating unit, before beginning actual construction, 
+the owner or operator shall provide a copy of the information set out in 
+Paragraph (1) of this subsection to the department. Nothing in this paragraph 
+shall be construed to require the owner or operator of such a unit to obtain any 
+determination from the department; however, necessary preconstruction approvals 
+and/or permits must be obtained before beginning actual construction. 
+������������������� (3) ���� The owner or operator shall monitor the 
+emissions of any regulated new source review pollutant that could increase as a 
+result of the project and that is emitted by any emissions unit identified in 
+Subparagraph (b) of Paragraph (1) of this subsection; and calculate and 
+maintain a record of the annual emissions, in tons per year on a calendar year 
+basis, for a period of 5 years following resumption of regular operations after 
+the change, or for a period of 10 years following resumption of regular 
+operations after the change if the project increases the design capacity or 
+potential to emit of that regulated new source review pollutant at such 
+emissions unit. 
+������������������� (4) ���� If the unit is an existing electric 
+utility steam generating unit, the owner or operator shall submit a report to 
+the department within 60 days after the end of each year during which records 
+must be generated under Subparagraph (c) of Paragraph (1) of this subsection 
+setting out the unit's annual emissions during the calendar year that preceded 
+submission of the report. 
+������������������� (5) ���� If the unit is an existing unit other than 
+an electric utility steam generating unit, the owner or operator shall submit a 
+report to the department if the annual emissions, in tons per year, from the 
+project identified in Paragraph (1) of this subsection, exceed the baseline 
+actual emissions (as documented and maintained pursuant to Subparagraph (c) of 
+Paragraph (1) of this subsection) by a significant amount (as defined in 
+20.2.74.7 NMAC) for that regulated new source review pollutant, and if such 
+emissions differ from the preconstruction projection as documented and 
+maintained pursuant to Subparagraph (c) of Paragraph (1) of this subsection. 
+Such report shall be submitted to the department within 60 days after the end 
+of such year. The report shall contain the following: 
+����������������������������� (a) ���� the name, address and telephone number of 
+the major stationary source; 
+����������������������������� (b) ���� the annual emissions as calculated 
+pursuant to Paragraph (3) of this subsection; and 
+�������������� ��������������� (c) ���� any other information that the owner or 
+operator wishes to include in the report (e.g., an explanation as to why the 
+emissions differ from the preconstruction projection); 
+������������������� (6) ���� a ��reasonable 
+possibility�� under this subsection (Subsection E of 20.2.74.300 NMAC) occurs 
+when the owner or operator calculates the project to result in either: 
+����������������������������� (a) ���� 
+a projected actual emissions increase of at least 50 percent of the 
+amount that is a ��significant emissions increase,�� as defined under 
+Subsection AX of 20.2.74.7 NMAC (without reference to the amount that is a 
+significant net emissions increase), for the regulated NSR pollutant; or 
+����������������������������� (b) ���� 
+a projected actual emissions increase that, added to the amount of 
+emissions excluded under Paragraph (3) of Subsection AR of 20.2.74.7 NMAC, sums 
+to at least 50 percent of the amount that is a ��significant emissions 
+increase,�� as defined under Subsection AX of 20.2.74.7 NMAC (without reference 
+to the amount that is a significant net emissions increase), for the regulated 
+NSR pollutant; for a project for which a reasonable possibility occurs only 
+within the meaning under this subparagraph (Subparagraph (b) of Paragraph (6) 
+of Subsection E of 20.2.74.300 NMAC), and not also within the meaning of 
+Subparagraph (a) under this paragraph (Paragraph (6) of Subsection E of 
+20.2.74.300 NMAC), then the provisions in Paragraphs (2) through (5) under this 
+subsection (Subsection E of 20.2.74.300 NMAC) do not apply to the project. 
+��������������� F. ����������� The owner or operator of the source 
+shall make the information required to be documented and maintained pursuant to 
+Subsection E of this section available for review upon request for inspection 
+by the department or the general public pursuant to the requirements contained 
+in 40 CFR 70.4(b)(3)(viii). 
+[07/20/95; 20.2.74.300 NMAC - Rn, 20 NMAC 
+2.74.300, 10/31/02; A, 1/22/06; A, 1/1/11; A, 6/3/11] 
+20.2.74.301 ��������� SOURCE INFORMATION: � The owner or operator of a proposed source or 
+modification shall submit all information necessary to perform any analysis or 
+make any determination required under this Part. 
+��������������� A. ����������� Information shall include, but 
+is not limited to: 
+������������������� (1) ���� A description of the nature, location, 
+design capacity, and typical operating schedule of the source or modification, 
+including specifications and drawings showing the design and plant layout; and 
+������������������� (2) ���� A detailed schedule of construction of the 
+source or modification; and 
+������������������� (3) ���� A detailed description of the planned 
+system of continuous emission reduction for the source or modification, 
+emission estimates, and other information necessary to determine that Best 
+Available Control Technology will be applied. 
+��������������� B. ����������� Upon request by the Department, the 
+owner or operator shall also provide information on: 
+������������������� (1) ���� The air quality impact of the source or 
+modification, including meteorologic and topographic data necessary to estimate 
+such impact; and 
+������������������� (2) ���� The air quality impacts, and the nature 
+and extent of any or all general commercial, residential, industrial, and other 
+growth which has occurred since August 7, 1977 in the area the source or 
+modification would affect. 
+[07/20/95; 20.2.74.301 NMAC - Rn, 20 NMAC 
+2.74.301, 10/31/02] 
+20.2.74.302 ��������� CONTROL TECHNOLOGY REQUIREMENTS: 
+��������������� A. ����������� A new major stationary source 
+shall apply Best Available Control Technology for each regulated pollutant that 
+it would have the potential to emit in amounts equal to or greater than the 
+significance levels as listed in Table 2 of this Part (20.2.74.502 NMAC). � This requirement applies to each proposed 
+emissions unit or operation that will emit such pollutant. 
+��������������� B. ����������� A major modification shall apply 
+Best Available Control Technology for each regulated pollutant at the source 
+when a significant net emissions increase occurs as defined in this Part. � This requirement applies to each proposed 
+emissions unit or operation where a net emissions increase in the pollutant 
+would occur as a result of a physical change or change in the method of 
+operation in the unit. 
+��������������� C. ����������� For phased construction projects, 
+the determination of Best Available Control Technology shall be reviewed and 
+modified as appropriate at the latest reasonable time but no later than 
+eighteen (18) months prior to commencement of construction of each independent 
+phase of the project. � At such time, the 
+owner or operator of the applicable stationary source may be required to 
+demonstrate the adequacy of any previous determination of Best Available 
+Control Technology for the source. 
+��������������� D. ����������� The Department may approve a system 
+of innovative control technology for the major stationary source or major 
+modification if: 
+������������������� (1) ���� The proposed control system would not 
+cause or contribute to an unreasonable risk to public health, welfare, or 
+safety in its operation or function; and 
+������������������� (2) ���� The owner or operator agrees to achieve a 
+level of continuous emissions reduction equivalent to that which would have 
+been required under Best Available Control Technology by a date specified by 
+the Department. � Such date shall not be 
+later than four (4) years from the time of startup or seven (7) years from 
+permit issuance; and 
+������� 
+������������ (3) ���� The source or modification would meet the 
+requirements of 20.2.74.302 NMAC and 20.2.74.303 NMAC based on the emission 
+rate that the system of innovative control technology would be required to meet 
+on the date specified by the Department; and 
+������������������� (4) ���� During the interim period of achieving the 
+permitted emission level, the source or modification would not: 
+����������������������������� (a) ���� Cause or contribute to a violation of an 
+applicable national ambient air quality standard; nor 
+����������������������������� (b) ���� Impact any Class I Federal area; nor 
+����������������������������� (c) ���� Impact any area where an applicable 
+increment is known to be violated; and 
+������������������� (5) ���� All other applicable requirements 
+including those for public participation have been met. 
+��������������� E. ����������� The Department shall withdraw any 
+approval to employ a system of innovative control technology if: 
+������������������� (1) ���� The proposed system fails by the specified 
+date to achieve the required continuous emissions reduction rate; or 
+������������������� (2) ���� The proposed system fails before the 
+specified date so as to contribute to an unreasonable risk to public health, 
+welfare, or safety; or 
+������������������� (3) ���� The Department decides at any time that 
+the proposed system is unlikely to achieve the required level of control or to 
+protect the public health, welfare, or safety. 
+��������������� F. ����������� If a source or modification fails to 
+meet the required level of continuous emission reduction within the specified 
+time period or the approval is withdrawn in accordance with subsection E of 
+20.2.74.302 NMAC, the Department may allow the source or modification up to an 
+additional three (3) years to meet the requirement for the application of Best Available 
+Control Technology. � This shall be 
+accomplished through use of a demonstrated system of control. 
+��������������� G. ����������� If the owner or operator of a major 
+stationary source or major modification previously issued a permit under this 
+Part applies for an extension (as provided for under subsection C of 
+20.2.74.300 NMAC), and the new proposed date of construction is greater than 
+eighteen (18) months from the date the permit would become invalid, the 
+determination of Best Available Control Technology shall be reviewed and 
+modified as appropriate before such an extension is granted. � At such time, the owner or operator of the 
+applicable stationary source may be required to demonstrate the adequacy of any 
+previous determination of Best Available Control Technology for the source. 
+��������������� H. ����������� With respect to PM 10 , for 
+the case where PM 10 emissions cannot be quantified, the Best 
+Available Control Technology limitation may be defined in terms of particulate 
+matter emissions. 
+[07/20/95; 20.2.74.302 NMAC - Rn, 20 NMAC 
+2.74.302, 10/31/02] 
+20.2.74.303 ��������� AMBIENT IMPACT REQUIREMENTS: 
+��������������� A. ����������� The requirements of this section 
+shall apply to each pollutant emitted by a new major stationary source or major 
+modification in amounts equal to or greater than those in Table 2 of this Part 
+(20.2.74.502 NMAC). � For PM 10 , 
+the source will only be required to perform ambient impact analysis for PM 10 
+when the source has the potential to emit significant amounts of PM 10 
+(Table 2, 20.2.74.502 NMAC). 
+��������������� B. ����������� The allowable emission increases 
+from the proposed source or modification, including secondary emissions, in 
+conjunction with all other applicable emissions increases or reductions, 
+including secondary emissions, shall not cause or contribute to air pollution 
+in violation of: 
+������������������� (1) ���� any national ambient air quality standard 
+in any location; or 
+������������������� (2) ���� any applicable maximum allowable increase 
+as shown in Table 4 of this Part (20.2.74.504 NMAC) over the baseline 
+concentrations in any area; 
+������������������� (3) ���� the owner or operator of the proposed 
+major stationary source or major modification shall demonstrate that neither 
+Paragraph (1) nor Paragraph (2) of 20.2.74.303 NMAC will occur. 
+[07/20/95; 20.2.74.303 NMAC - Rn, 20 NMAC 
+2.74.303, 10/31/02; A, 6/3/11; A, 8/18/14] 
+20.2.74.304 ��������� ADDITIONAL IMPACT REQUIREMENTS: 
+��������������� A. ����������� The owner or operator of the 
+proposed major stationary source or major modification shall provide an 
+analysis of the impairment to visibility, soils, and vegetation that would 
+occur as a result of the source or modification and general commercial, 
+residential, industrial, and other growth associated with the source or 
+modification. � The owner or operator need 
+not provide an analysis of the impact on vegetation having no significant 
+commercial or recreational value. � The 
+analysis can use data or information available from the Department. 
+��������������� B. ����������� The owner or operator shall also 
+provide an analysis of the air quality impact projected for the area as a 
+result of general commercial, residential, industrial, and other growth 
+associated with the source or modification. 
+[07/20/95; 20.2.74.304 NMAC - Rn, 20 NMAC 
+2.74.304, 10/31/02] 
+20.2.74.305 ��������� AMBIENT AIR QUALITY MODELING: � All estimates of ambient concentrations 
+required by this Part shall be based on applicable air quality models, data 
+bases, and other requirements as specified in EPA's Guideline on Air Quality 
+Models (EPA-450/2-78-027R, July, 1986), its revisions, or any superseding EPA 
+document, and approved by the Department. � 
+Where an air quality impact model specified in the Guideline on Air 
+Quality Models is inappropriate, the model may be modified or another model 
+substituted. � Any substitution or 
+modification of a model must be approved by the Department. � Notification shall be given by the Department 
+of such a substitution or modification and the opportunity for public comment 
+provided for in fulfilling the public notice requirements in subsection B of 
+20.2.74.400 NMAC. � The Department will 
+seek EPA approval of such substitutions or modifications. 
+[07/20/95; 20.2.74.305 NMAC - Rn, 20 NMAC 
+2.74.305, 10/31/02] 
+20.2.74.306 ��������� MONITORING REQUIREMENTS: 
+��������������� A. ����������� Any application for a permit under 
+this part shall contain an analysis of ambient air quality. � Air quality data can be that measured by the 
+applicant or that available from a government agency in the area affected by 
+the major stationary source or major modification. � The analysis shall contain the following: 
+������������������� (1) ���� for a major stationary source, each 
+pollutant for which the potential to emit is equal to or greater than the 
+significant emission rates as listed in Table 2 of this part (20.2.74.502 
+NMAC); or 
+������������������� (2) ���� for a major modification, each pollutant 
+that would result in a significant net emission increase. 
+��������������� B. ����������� If no national ambient air quality 
+standard (NAAQS) for a pollutant exists, and there is an acceptable method for 
+monitoring that pollutant, the analysis shall contain such air quality 
+monitoring data as the department determines is necessary to assess ambient air 
+quality for that pollutant. 
+��������������� C. ����������� Continuous air quality monitoring 
+data shall be required for all pollutants for which a national ambient air 
+quality standard exists. � Such data shall 
+be submitted to the department for at least the one (1) year period prior to receipt 
+of the permit application. � The 
+department has the discretion to: 
+������������������� (1) ���� determine that a complete and adequate 
+analysis can be accomplished with monitoring data gathered over a period 
+shorter than one year but not less than four months; or 
+������������������� (2) ���� determine that existing air quality 
+monitoring data is representative of air quality in the affected area and 
+accept such data in lieu of additional monitoring by the applicant. 
+��������������� D. ����������� Ozone monitoring shall be performed 
+if monitoring data is required for volatile organic compounds. � Post construction ozone monitoring data may 
+be submitted in lieu of providing preconstruction data as required under 
+Subsection C of 20.2.74.306 NMAC if the owner or operator of the proposed major 
+source or major modification satisfies all the provisions of 40 CFR Part 51, 
+Appendix S, Section IV. 
+��������������� E. ����������� The department may require 
+monitoring of visibility in any Class I federal area where the department 
+determines that an adverse impact on visibility may occur due primarily to the 
+operations of the proposed new source or modification. � Such monitoring shall be conducted following 
+procedures approved by the department and subject to the following: 
+������������������� (1) ���� visibility monitoring methods specified by 
+the department shall be reasonably available and not require any research and 
+development; and 
+������������������� (2) ���� the cost of visibility monitoring required 
+by the department shall not exceed fifty percent (50%) of the cost of ambient 
+monitoring required by this part; � if 
+ambient monitoring is not required, the cost shall be estimated as if it were 
+required for each pollutant to which this part applies; 
+������������������� (3) ���� both preconstruction and post construction 
+visibility monitoring may be required; � 
+in each case, the duration of such monitoring shall not exceed one (1) 
+year. 
+��������������� F. ����������� The owner or operator of a major 
+stationary source or major modification shall conduct post construction ambient 
+monitoring as the department determines is necessary to validate attainment of 
+ambient air quality standards and to assure that increments are not exceeded. 
+��������������� G. ����������� The owner or operator of a major 
+stationary source or major modification shall meet the requirements of 40 CFR 
+58, Appendix B during the operation of monitoring stations for purposes of 
+satisfying the requirements of this section. 
+��������������� H. ����������� The department has the discretion to 
+exempt a stationary source or modification from the requirements of this 
+section with respect to monitoring for a particular pollutant if the emissions 
+of the pollutant from the new source or the net emissions increase of the 
+pollutant from the modification would cause, in any area, increases in ambient 
+concentrations less than the levels listed in Table 3 of this part (20.2.74.503 
+NMAC). 
+��������������� I. ������������ The department shall exempt a 
+stationary source or modification from the requirements of this section with 
+respect to preconstruction monitoring for a particular pollutant if: 
+������������������� (1) ���� for ozone, volatile organic compound 
+emissions are less than one hundred (100) tons per year; or 
+������������������� (2) ���� the air pollutant is not a regulated 
+pollutant; or 
+������������������� (3) ���� the existing ambient concentrations of the 
+pollutant in the area that the source or modification would affect are less 
+than the concentrations listed in Table 3 of this part (20.2.74.503 NMAC); or 
+������������������� (4) ���� the pollutant is not 
+listed in Table 3 of this part (20.2.74.503 NMAC). 
+[07/20/95; 20.2.74.306 NMAC - Rn, 20 NMAC 
+2.74.306, 10/31/02; A, 6/3/11] 
+20.2.74.307 ��������� TEMPORARY SOURCE EXEMPTIONS: � The requirements of 20.2.74.304 NMAC and 
+20.2.74.306 NMAC shall not apply to a temporary source subject to this Part for 
+a given pollutant if the allowable emissions of such pollutant would not impact 
+any Class I Federal area or any areas where an applicable increment is violated 
+and would be temporary. 
+[07/20/95; 20.2.74.307 NMAC - Rn, 20 NMAC 
+2.74.307, 10/31/02] 
+20.2.74.308 to 20.2.74.319 �������������� [RESERVED] 
+20.2.74.320 ��������� ACTUALS PLANTWIDE 
+APPLICABILITY LIMITS (PALs) 
+��������������� A. ����������� Applicability. 
+������������������� (1) ���� The department may approve the use of an 
+actuals PAL, including for GHGs on either a mass basis or a CO 2 e 
+basis, for any existing major stationary source or any other existing GHG-only 
+source if the PAL meets the requirements in this section. The term 
+"PAL" shall mean "actuals PAL" throughout this section. 
+������������������� (2) ���� Any physical change in or change in the 
+method of operation of a major stationary source or a GHG-only source that 
+maintains its total source-wide emissions below the PAL level, meets the 
+requirements of this section, and complies with the PAL permit: 
+����������������������������� (a) ���� is not a major modification for the PAL 
+pollutant; 
+��� �������������������������� (b) ���� does not have to be approved through the 
+requirements of this part; and 
+����������������������������� (c) ���� is not subject to the provisions in 
+Subsection D of 20.2.74.300 NMAC (restrictions on relaxing enforceable emission 
+limitations that the major stationary source used to avoid applicability of the 
+major new source review program); and 
+����������������������������� (d) ���� 
+does not make GHGs subject to regulation as defined by Subsection AZ of 
+20.2.74.7 NMAC. 
+������� 
+������������ (3) ���� Except as provided under Subparagraph (c) 
+of Paragraph (2) of this subsection, a major stationary source or GHG-only 
+source shall continue to comply with all applicable federal or state 
+requirements, emission limitations, and work practice requirements that were 
+established prior to the effective date of the PAL. 
+��������������� B. ����������� Definitions applicable to this 
+section. 
+������������������� (1) ���� Actuals PAL for a major stationary source 
+means a PAL based on the baseline actual emissions (as defined in 20.2.74.7 
+NMAC) of all emissions units (as defined in 20.2.74.7 NMAC) at the source, that 
+emit or have the potential to emit the PAL pollutant. For a GHG-only source, 
+�actuals PAL� means a PAL based on the baseline actual emissions (as defined in 
+Paragraph (13) of this subsection) of all emissions units (as defined in 
+Paragraph (14) of this subsection) at the source, that emit or have the 
+potential to emit GHGs. 
+������������������� (2) ���� Allowable emissions means "allowable 
+emissions" as defined in 20.2.74.7 NMAC, except as this definition is 
+modified in accordance with the following. 
+����������������������������� (a) ���� The allowable emissions for any emissions 
+unit shall be calculated considering any emission limitations that are 
+enforceable as a practical matter on the emissions unit's potential to emit. 
+����������������������������� (b) ���� An emissions unit's potential to emit 
+shall be determined using the definition in 20.2.74.7 NMAC, except that the 
+words "or enforceable as a practical matter" should be added after 
+"federally enforceable". 
+������������������� (3) ���� Small emissions unit means an emissions 
+unit that emits or has the potential to emit the PAL pollutant in an amount 
+less than the significant level for that PAL pollutant, as defined in 
+Subsection AW of 20.2.74.7 NMAC or in the act, whichever is lower. For a GHG 
+PAL issued on a CO 2 e basis, �small emissions unit� means an 
+emissions unit that emits or has the potential to emit less than the amount of 
+GHGs on a CO 2 e basis defined as �significant� for the purposes of 
+Paragraph (3) of Subsection AZ of 20.2.74.7 NMAC at the time the PAL permit is 
+being issued. 
+������������������� (4) ���� Major emissions unit means: 
+����������������������������� (a) ���� any emissions unit that emits or has the 
+potential to emit 100 tons per year or more of the PAL pollutant in an 
+attainment area; or 
+����������������������������� (b) ���� any emissions unit that emits or has the 
+potential to emit the PAL pollutant in an amount that is equal to or greater 
+than the major source threshold for the PAL pollutant as defined by the act for 
+nonattainment areas; for example, in accordance with the definition of major 
+stationary source in Section 182(c) of the act, an emissions unit would be a 
+major emissions unit for VOC if the emissions unit is located in a serious 
+ozone nonattainment area and it emits or has the potential to emit 50 or more 
+tons of VOC per year; or 
+����������������������������� (c) ���� 
+for a GHG PAL issued on a CO 2 e basis, any emissions unit that 
+emits or has potential to emit equal to or greater than the amount of GHGs on a 
+CO 2 e basis that would be sufficient for a new source to trigger 
+permitting requirements under Subsection AZ of 20.2.74.7 NMAC at the time the 
+PAL permit is being issued. 
+������������� ������ (5) ���� Plantwide applicability limitation (PAL) 
+means an emission limitation expressed on a mass basis in tons per year, or 
+expressed in tons per year CO 2 e for a CO 2 e-based GHG 
+emission limitation, for a pollutant at a major stationary source or GHG-only 
+source, that is enforceable as a practical matter and established source-wide 
+in accordance with this section. 
+������������������� (6) ���� PAL effective date generally means the 
+date of issuance of the PAL permit. However, the PAL effective date for an 
+increased PAL is the date any emissions unit that is part of the PAL major 
+modification becomes operational and begins to emit the PAL pollutant. 
+������������������� (7) ���� PAL effective period means the period 
+beginning with the PAL effective date and ending 10 years later. 
+������������������� (8) ���� PAL major modification means, 
+notwithstanding the definitions for major modification, net emissions increase, 
+and subject to regulation in 20.2.74.7 NMAC, any physical change in or change 
+in the method of operation of the PAL source that causes it to emit the PAL 
+pollutant at a level equal to or greater than the PAL. 
+������������������� (9) ���� PAL permit means the major new source 
+review permit, the minor new source review permit, or the state operating permit 
+under a program that is approved into the plan, or the title V permit issued by 
+the department that establishes a PAL for a major stationary source or a 
+GHG-only source. 
+������������������� (10) ���� PAL pollutant means the pollutant for 
+which a PAL is established at a major stationary source or a GHG-only source. 
+For a GHG-only source, the only available PAL pollutant is greenhouse gases. 
+������������������� (11) ���� Significant emissions unit means an 
+emissions unit that emits or has the potential to emit a PAL pollutant in an 
+amount that is equal to or greater than the significant level (as defined in 
+Subsection AW of 20.2.74.7 NMAC or in the act, whichever is lower) for that PAL 
+pollutant, but less than the amount that would qualify the unit as a major 
+emissions unit as defined in Paragraph (4) of this subsection. For a GHG PAL 
+issued on a CO 2 e basis, �significant emissions unit� means any 
+emissions unit that emits or has the potential to emit GHGs on a CO 2 e 
+basis in amounts equal to or greater than the amount that would qualify the 
+unit as a small emissions unit as defined in Paragraph (3) of this subsection, 
+but less than the amount that would qualify the unit as a major emissions unit 
+as defined in Subparagraph (c) of Paragraph (4) of this subsection. 
+������������������� (12) ���� GHG-only source 
+means any existing station source that emits or has the potential to emit GHGs 
+in the amount equal to or greater than the amount of GHGs on a mass basis that 
+would be sufficient for a new source to trigger permitting requirements for 
+GHGs under Subsection AG of 20.2.74.7 NMAC and the amount of GHGs on a CO 2 e 
+basis that would be sufficient for a new source to trigger permitting 
+requirements for GHGs under Subsection AZ of 20.2.74.7 NMAC at the time the PAL 
+permit is being issued, but does not emit or have the potential to emit any 
+other � non-GHG regulated new source 
+review pollutant at or above the applicable major source threshold. A GHG-only 
+source may only obtain a PAL for GHG emissions under 20.2.74.320 NMAC. 
+������������������� (13) ���� Baseline actual 
+emissions for a GHG PAL means the average rate, in tons per year CO 2 e 
+or tons per year GHG, as applicable, at which the emissions unit actually 
+emitted GHGs during any consecutive 24-month period selected by the owner or 
+operator within the 10-year period immediately preceding either the date the 
+owner or operator begins actual construction of the project, or the date a 
+complete permit application is received by the department for a permit required 
+under this section or by the department for a permit required by a plan, 
+whichever is earlier. For any existing electric utility steam generating unit, 
+�baseline actual emissions� for a GHG PAL means the average rate, in tons per 
+year CO 2 e or tons per year GHG, as applicable, at which the 
+emissions unit actually emitted the GHGs during any consecutive 24-month period 
+selected by the owner or operator within the 5-year period immediately 
+preceding either the date the owner or operator begins actual construction of 
+the project, except that the department shall allow the use of a different time 
+period upon a determination that it is more representative of normal source 
+operation. 
+����������������������������� (a) ���� 
+The average rate shall include fugitive emissions to the extent 
+quantifiable, and emissions associated with startups, shutdowns, and 
+malfunctions. 
+����������������������������� (b) ���� 
+The average rate shall be adjusted downward to exclude any non-compliant 
+emissions that occurred while the source was operating above an emission 
+limitation that was legally enforceable during the consecutive 24-month period. 
+����������������������������� (c) ���� 
+The average rate shall be adjusted downward to exclude any emissions 
+that would have exceeded an emission limitation with which the stationary 
+source must currently comply, had such stationary source been required to 
+comply with such limitations during the consecutive 24-month period. 
+����������������������������� (d) ���� 
+The average rate shall not be based on any consecutive 24-month period 
+for which there is inadequate information for determining annual GHG emissions 
+and for adjusting this amount if required by Subparagraphs (b) and (c) of 
+Paragraph (13) of this subsection. 
+������������������� (14) ���� Emissions unit with 
+respect to GHGs means any part of a stationary source that emits or has the 
+potential to emit GHGs. For purposes of this section, there are two types of 
+emissions units as described in the following: 
+����������������������������� (a) ���� 
+A new emissions unit is any emissions unit that is (or will be) newly 
+constructed and that has existed for less than 2 years from the date such 
+emissions unit first operated. 
+����������������������������� (b) ���� 
+An existing emissions unit is any emissions unit that does not meet the 
+requirements in subparagraph (a) of this paragraph. 
+������������������� (15) ���� Minor source means 
+any stationary source that does not meet the definition of major stationary 
+source in Subsection AG of 20.2.74.7 NMAC for any pollutant at the time the PAL 
+is issued. 
+��������������� C. ����������� Permit application requirements. 
+As part of a permit application requesting a PAL, the owner or operator of a 
+major stationary source or a GHG-only source shall submit the following 
+information to the department for approval. 
+� ������������������ (1) ���� A list of all emissions units at the 
+source designated as small, significant or major based on their potential to 
+emit. In addition, the owner or operator of the source shall indicate which, if 
+any, federal or state applicable requirements, emission limitations, or work 
+practices apply to each unit. 
+������������������� (2) ���� Calculations of the baseline actual 
+emissions (with supporting documentation). Baseline actual emissions are to 
+include emissions associated not only with operation of the unit, but also 
+emissions associated with startup, shutdown, and malfunction. 
+������������������� (3) ���� The calculation procedures that the major 
+stationary source owner or operator proposes to use to convert the monitoring 
+system data to monthly emissions and annual emissions based on a 12-month 
+rolling total for each month as required by Subsection M of this section. 
+������������������� (4) ���� As part of a permit 
+application requesting a GHG PAL, the owner or operator of a major stationary 
+source or a GHG-only source shall submit a statement by the source owner or 
+operator that clarifies whether the source is an existing major source as 
+defined in Paragraphs (1) and (2) of Subsection AG of 20.2.74.7 NMAC or a 
+GHG-only source as defined in Paragraph (12) of Subsection B of this 
+subsection. 
+��������������� D. ����������� General requirements for 
+establishing PALs. 
+������������������� (1) ���� The department may establish a PAL at a 
+major stationary source or a GHG-only source, provided that at a minimum, the 
+following requirements are met. 
+����������������������������� (a) ���� The PAL shall impose an annual emission 
+limitation expressed on a mass basis in tons per year, or expressed in tons per 
+year CO 2 e, that is enforceable as a practical matter, for the entire 
+major stationary source or GHG-only source. For each month during the PAL 
+effective period after the first 12 months of establishing a PAL, the major 
+stationary source or GHG-only source owner or operator shall show that the sum 
+of the monthly emissions from each emissions unit under the PAL for the 
+previous 12 consecutive months is less than the PAL (a 12-month average, rolled 
+monthly). For each month during the first 11 months from the PAL effective 
+date, the major stationary source or GHG-only source owner or operator shall 
+show that the sum of the preceding monthly emissions from the PAL effective 
+date for each emissions unit under the PAL is less than the PAL. 
+����������������������������� (b) ���� The PAL shall be established in a PAL 
+permit that meets the public participation requirements in Subsection E of this 
+section. 
+����������������������������� (c) ���� The PAL permit shall contain all the 
+requirements of Subsection G of this section. 
+����������������������������� (d) ���� The PAL shall include fugitive emissions, 
+to the extent quantifiable, from all emissions units that emit or have the 
+potential to emit the PAL pollutant at the major stationary source or GHG-only 
+source. 
+����������������������������� (e) ���� Each PAL shall regulate emissions of only 
+one pollutant. 
+����������������������������� (f) ���� Each PAL shall have a PAL effective period 
+of 10 years. 
+����������������������������� (g) ���� The owner or operator of the major 
+stationary source or GHG-only source with a PAL shall comply with the 
+monitoring, recordkeeping, and reporting requirements provided in Subsections L 
+through N of this section for each emissions unit under the PAL through the PAL 
+effective period. 
+������������������� (2) ���� At no time (during or after the PAL 
+effective period) are emissions reductions of a PAL pollutant that occur during 
+the PAL effective period creditable as decreases for purposes of offsets under 
+40 CFR 51.165(a)(3)(ii) unless the level of the PAL is reduced by the amount of 
+such emissions reductions and such reductions would be creditable in the 
+absence of the PAL. 
+��������������� E. ����������� Public participation requirements 
+for PALs. PALs for existing major stationary sources or GHG-only sources 
+shall be established, renewed, or increased, through a procedure that is 
+consistent with 40 CFR 51.160 and 161. This includes the requirement that the 
+department provide the public with notice of the proposed approval of a PAL 
+permit and at least a 30-day period for submittal of public comment. The 
+department must address all material comments before taking final action on the 
+permit. 
+��������������� F. ����������� Setting the 10-year actuals PAL 
+level. 
+������������������� (1) ���� Except as provided in 
+Paragraph (2) of this subsection, the actuals PAL level for a major stationary 
+source or GHG-only source shall be established as the sum of the baseline 
+actual emissions (as defined in 20.2.74.7 NMAC or, for GHGs, Paragraph (13) of 
+Subsection B of 20.2.74.320 NMAC) of the PAL pollutant for each emissions unit 
+at the source; plus an amount equal to the applicable significant level for the 
+PAL pollutant under Subsection AW of 20.2.74.7 NMAC or under the act, whichever 
+is lower. When establishing the actuals PAL level, for a PAL pollutant, only 
+one consecutive 24-month period must be used to determine the baseline actual 
+emissions for all existing emissions units. However, a different consecutive 
+24-month period may be used for each different PAL pollutant. Emissions 
+associated with units that were permanently shutdown after this 24-month period 
+must be subtracted from the PAL level. The department shall specify a reduced 
+PAL level(s) (in tons/yr) in the PAL permit to become effective on the future 
+compliance date(s) of any applicable federal or state regulatory requirement(s) 
+that the department is aware of prior to issuance of the PAL permit. For 
+instance, if the source owner or operator will be required to reduce emissions 
+from industrial boilers in half from baseline emissions of 60 ppm NOx to a new 
+rule limit of 30 ppm, then the permit shall contain a future effective PAL 
+level that is equal to the current PAL level reduced by half of the original 
+baseline emissions of such unit(s). 
+������������������� (2) ���� For newly constructed 
+units (which do not include modifications to existing units) on which actual 
+construction began after the 24-month period, in lieu of adding the baseline 
+actual emissions as specified in Paragraph (1) of this subsection, the 
+emissions must be added to the PAL level in an amount equal to the potential to 
+emit of the units. 
+������������������� (3) ���� For CO 2 e 
+based GHG PAL, the actuals PAL level shall be established as the sum of the 
+GHGs baseline actual emissions (as defined in Paragraph (13) of Subsection B of 
+20.2.74.320 NMAC) of GHGs for each emissions unit at the source, plus an amount 
+equal to the amount defined as �significant� on a CO 2 e basis for the 
+purposes of Subsection AZ of 20.2.74.7 NMAC at the time the PAL permit is being 
+issued. When establishing the actuals PAL level for a CO 2 e-based 
+PAL, only one consecutive 24-month period must be used to determine the 
+baseline actual emissions for all existing emissions units. Emissions 
+associated with units that were permanently shut down after this 24-month 
+period must be subtracted from the PAL level. The department shall specify a 
+reduced PAL level (in tons per year CO 2 e) in the PAL permit to 
+become effective on the future compliance date(s) of any applicable federal or 
+New Mexico regulatory requirement(s) that the department is aware of prior to 
+issuance of the PAL permit. 
+��������������� G. ����������� Contents of the PAL permit. � The PAL permit shall contain, at a minimum, 
+the following information. 
+������������������� (1) ���� The PAL pollutant and the applicable 
+source-wide emission limitation in tons per year or tons per year CO 2 e. 
+������������������� (2) ���� The PAL permit effective date and the 
+expiration date of the PAL (PAL effective period). 
+������������������� (3) ���� Specification in the PAL permit that if a 
+major stationary source or GHG-only source owner or operator applies to renew a 
+PAL in accordance with Subsection J of this section before the end of the PAL 
+effective period, then the PAL shall not expire at the end of the PAL effective 
+period. It shall remain in effect until a revised PAL permit is issued by the 
+department. 
+������������������� (4) ���� A requirement that emission calculations 
+for compliance purposes include emissions from startups, shutdowns and 
+malfunctions. 
+������������������� (5) ���� A requirement that, once the PAL expires, 
+the major stationary source or GHG-only source is subject to the requirements 
+of Subsection I of this section. 
+������������������� (6) ���� The calculation procedures that the major 
+stationary source or GHG-only source owner or operator shall use to convert the 
+monitoring system data to monthly emissions and annual emissions based on a 
+12-month rolling total for each month as required by Paragraph (1) of 
+Subsection C of this section. 
+������������������� (7) ���� A requirement that the major stationary 
+source or GHG-only source owner or operator monitor all emissions units in accordance 
+with the provisions under Subsection M of this section. 
+������������������� (8) ���� A requirement to retain the records 
+required under Subsection M of this section on site. Such records may be 
+retained in an electronic format. 
+������������������� (9) ���� A requirement to submit the reports 
+required under Subsection N of this section by the required deadlines. 
+������������������� (10) ���� Any other requirements that the department 
+deems necessary to implement and enforce the PAL. 
+������������������� (11) ���� A permit for a GHG 
+PAL issued to a GHG-only source shall also include a statement denoting that 
+GHG emissions at the source will not be subject to regulation under Subsection 
+AZ of 20.2.74.7 NMAC as long as the source complies with the PAL. 
+��������������� H. ����������� PAL effective period and 
+reopening of the PAL permit. 
+������������������� (1) ���� PAL effective period. The PAL effective 
+period shall be 10 years. 
+������������������� (2) ���� Reopening of the PAL permit. 
+����������������������������� (a) ���� During the PAL effective period, the 
+department shall reopen the PAL permit to: 
+��������������������������������������� (i) ���� correct typographical/calculation errors 
+made in setting the PAL or reflect a more accurate determination of emissions 
+used to establish the PAL; 
+��������������������������������������� (ii) ���� reduce the PAL if the owner or operator of 
+the major stationary source creates creditable emissions reductions for use as 
+offsets under 40 CFR 51.165(a)(3)(ii); and 
+��������������������������������������� (iii) ���� revise the PAL to reflect an increase in 
+the PAL as provided under Subsection K of this section. 
+����������������������������� (b) ���� The department may reopen the PAL permit 
+for the following: 
+��������������������������������������� (i) ���� to reduce the PAL to reflect newly 
+applicable federal requirements (for example, NSPS) with compliance dates after 
+the PAL effective date; 
+��������������������������������������� (ii) ���� to reduce the PAL consistent with any 
+other requirement, that is enforceable as a practical matter, and that the 
+department may impose on the major stationary source or GHG-only source under 
+the plan; and 
+��������������������������������������� (iii) ���� to reduce the PAL if the department 
+determines that a reduction is necessary to avoid causing or contributing to a 
+NAAQS or PSD increment violation, or to an adverse impact on an AQRV that has 
+been identified for a federal class I area by a federal land manager and for 
+which information is available to the general public. 
+��� �������������������������� (c) ���� Except for the permit reopening in Item 
+(i) of Subparagraph (a) of Paragraph (2) of this subsection for the correction 
+of typographical/calculation errors that do not increase the PAL level, all 
+reopenings shall be carried out in accordance with the public participation 
+requirements of Subsection E of this section. 
+��������������� I. ������������ Expiration of a PAL. � Any PAL that is not renewed in accordance 
+with the procedures in Subsection J of this section shall expire at the end of 
+the PAL effective period, and the following requirements shall apply. 
+������������������� (1) ���� Each emissions unit (or each group of 
+emissions units) that existed under the PAL shall comply with an allowable 
+emission limitation under a revised permit established according to the 
+following procedures. 
+����������������������������� (a) ���� Within the time frame specified for PAL 
+renewals in Paragraph (2) of Subsection J of this section, the major stationary 
+source or GHG-only source shall submit a proposed allowable emission limitation 
+for each emissions unit (or each group of emissions units, if such a 
+distribution is more appropriate as decided by the department) by distributing 
+the PAL allowable emissions for the major stationary source among each of the 
+emissions units that existed under the PAL. If the PAL had not yet been 
+adjusted for an applicable requirement that became effective during the PAL 
+effective period, as required under Paragraph (5) of Subsection J of this 
+section, such distribution shall be made as if the PAL had been adjusted. 
+����������������������������� (b) ���� The department shall decide whether and 
+how the PAL allowable emissions will be distributed and issue a revised permit 
+incorporating allowable limits for each emissions unit, or each group of 
+emissions units, as the department determines is appropriate. 
+������������������� (2) ���� Each emissions unit(s) shall comply with 
+the allowable emission limitation on a 12-month rolling basis. The department 
+may approve the use of monitoring systems (source testing, emission factors, 
+etc.) other than CEMS, CERMS, PEMS or CPMS to demonstrate compliance with the 
+allowable emission limitation. 
+������������������� (3) ���� Until the department issues the revised 
+permit incorporating allowable limits for each emissions unit, or each group of 
+emissions units, as required under Subparagraph (b) of Paragraph (1) of 
+Subsection I of this section, the source shall continue to comply with a 
+source-wide, multi-unit emissions cap equivalent to the level of the PAL emission 
+limitation. 
+������������������� (4) ���� Any physical change or change in the 
+method of operation at the major stationary source or GHG-only source will be 
+subject to major new source review requirements if such change meets the 
+definition of major modification in 20.2.74.7 NMAC. 
+������������������� (5) ���� The major stationary source or GHG-only 
+source owner or operator shall continue to comply with any New Mexico or 
+federal applicable requirements (BACT, RACT, NSPS, etc.) that may have applied 
+either during the PAL effective period or prior to the PAL effective period 
+except for those emission limitations that had been established pursuant to 
+Subsection D of 20.2.74.300 NMAC, but were eliminated by the PAL in accordance 
+with the provisions in Subparagraph (c) of Paragraph (2) of Subsection A of 
+this section. 
+��������������� J. ������������ Renewal of a PAL. 
+������������������� (1) ���� The department shall follow the procedures 
+specified in Subsection E of this section in approving any request to renew a 
+PAL for a major stationary source or GHG-only source, and shall provide both 
+the proposed PAL level and a written rationale for the proposed PAL level to 
+the public for review and comment. During such public review, any person may 
+propose a PAL level for the source for consideration by the department. 
+������������������� (2) ���� Application deadline. A major stationary 
+source or GHG-only source owner or operator shall submit a timely application 
+to the department to request renewal of a PAL. A timely application is one that 
+is submitted at least 6 months prior to, but not earlier than 18 months from, 
+the date of permit expiration. This deadline for application submittal is to 
+ensure that the permit will not expire before the permit is renewed. If the 
+owner or operator of a major stationary source or GHG-only source submits a 
+complete application to renew the PAL within this time period, then the PAL 
+shall continue to be effective until the revised permit with the renewed PAL is 
+issued. 
+������������������� (3) ���� Application requirements. The application 
+to renew a PAL permit shall contain the following information. 
+����������������������������� (a) ���� The information required in Subsection C 
+of this section. 
+����������������������������� (b) ���� A proposed PAL level. 
+������������������ ����������� (c) ���� The sum of the potential to emit of all 
+emissions units under the PAL (with supporting documentation). 
+����������������������������� (d) ���� Any other information the owner or 
+operator wishes the department to consider in determining the appropriate level 
+for renewing the PAL. 
+������������������� (4) ���� PAL adjustment. In determining whether and 
+how to adjust the PAL, the department shall consider the options outlined in 
+Subparagraphs (a) and (b) of this paragraph. However, in no case may any such 
+adjustment fail to comply with Subparagraph (c) of this paragraph. 
+����������������������������� (a) ���� If the emissions level calculated in 
+accordance with Subsection F of this section is equal to or greater than 80 
+percent of the PAL level, the department may renew the PAL at the same level 
+without considering the factors set forth in Subparagraph (b) of this 
+paragraph. 
+����������������������������� (b) ���� The department may set the PAL at a level 
+that it determines to be more representative of the source's baseline actual 
+emissions, or that it determines to be appropriate considering air quality 
+needs, advances in control technology, anticipated economic growth in the area, 
+desire to reward or encourage the source's voluntary emissions reductions, or 
+other factors as specifically identified by the department in its written 
+rationale. 
+����������������������������� (c) ���� Notwithstanding Subparagraphs (a) and (b) 
+of this paragraph: 
+��������������������������������������� (i) ���� if the potential to emit of the major 
+stationary source or GHG-only source is less than the PAL, the department shall 
+adjust the PAL to a level no greater than the potential to emit of the source; 
+and 
+��������������������������������������� (ii) ���� the department shall not approve a renewed 
+PAL level higher than the current PAL, unless the major stationary source or 
+GHG-only source has complied with the provisions of Subsection K of this 
+section (increasing a PAL). 
+������������������� (5) ���� If the compliance date for a state or 
+federal requirement that applies to the PAL source occurs during the PAL 
+effective period, and if the department has not already adjusted for such 
+requirement, the PAL shall be adjusted at the time of PAL permit renewal or 
+title V permit renewal, whichever occurs first. 
+��������������� K. ����������� Increasing a PAL during the PAL 
+effective period. 
+������������������� (1) ���� The department may increase a PAL emission 
+limitation only if the major stationary source or GHG-only source complies with 
+the following provisions. 
+����������������������������� (a) ���� The owner or operator of the major 
+stationary source or GHG-only source shall submit a complete application to 
+request an increase in the PAL limit for a PAL major modification. Such 
+application shall identify the emissions unit(s) contributing to the increase 
+in emissions so as to cause the major stationary or GHG-only source's emissions 
+to equal or exceed its PAL. 
+����������������������������� (b) ���� As part of this application, the major 
+stationary source or GHG-only source owner or operator shall demonstrate that 
+the sum of the baseline actual emissions of the small emissions units, plus the 
+sum of the baseline actual emissions of the significant and major emissions 
+units assuming application of BACT equivalent controls, plus the sum of the 
+allowable emissions of the new or modified emissions unit(s), exceeds the PAL. 
+The level of control that would result from BACT equivalent controls on each 
+significant or major emissions unit shall be determined by conducting a new 
+BACT analysis at the time the application is submitted, unless the emissions 
+unit is currently required to comply with a BACT or LAER requirement that was 
+established within the preceding 10 years. In such a case, the assumed control 
+level for that emissions unit shall be equal to the level of BACT or LAER with 
+which that emissions unit must currently comply. 
+����������������������������� (c) ���� The owner or operator obtains a major new 
+source review permit for all emissions unit(s) identified in Subparagraph (a) 
+of this paragraph, regardless of the magnitude of the emissions increase 
+resulting from them (that is, no significant levels apply). These emissions 
+unit(s) shall comply with any emissions requirements resulting from the major 
+new source review process (for example, BACT), even though they have also 
+become subject to the PAL or continue to be subject to the PAL. 
+����������������������������� (d) ���� The PAL permit shall require that the 
+increased PAL level shall be effective on the day any emissions unit that is 
+part of the PAL major modification becomes operational and begins to emit the 
+PAL pollutant. 
+������������������� (2) ���� The department shall calculate the new PAL 
+as the sum of the allowable emissions for each modified or new emissions unit, 
+plus the sum of the baseline actual emissions of the significant and major 
+emissions units (assuming application of BACT equivalent controls as determined 
+in accordance with Subparagraph (b) of Paragraph (1) of this subsection), plus 
+the sum of the baseline actual emissions of the small emissions units. 
+������������������� (3) ���� The PAL permit shall be revised to reflect 
+the increased PAL level pursuant to the public notice requirements of 
+Subsection E of this section. 
+��������������� L. ����������� Monitoring requirements for PALs. 
+������������������� (1) ���� General requirements. 
+����������������������������� (a) ���� Each PAL permit must contain enforceable 
+requirements for the monitoring system that accurately determines plantwide 
+emissions of the PAL pollutant in terms of mass per unit of time or CO 2 e 
+per unit of time. Any monitoring system authorized for use in the PAL permit 
+must be based on sound science and meet generally acceptable scientific 
+procedures for data quality and manipulation. Additionally, the information 
+generated by such system must meet minimum legal requirements for admissibility 
+in a judicial proceeding to enforce the PAL permit. 
+����������������������������� (b) ���� The PAL monitoring system must employ one 
+or more of the four general monitoring approaches meeting the minimum 
+requirements set forth in Paragraph (2) of this subsection and must be approved 
+by the department. 
+����������������������������� (c) ���� Notwithstanding Subparagraph (b) of this 
+paragraph, you may also employ an alternative monitoring approach that meets 
+Subparagraph (a) of this paragraph if approved by the department. 
+����������������������������� (d) ���� Failure to use a monitoring system that 
+meets the requirements of this section renders the PAL invalid. 
+������������������� (2) ��� �� The 
+following are acceptable general monitoring approaches when conducted in 
+accordance with the minimum requirements in Paragraphs (3) through (9) of this 
+subsection: 
+����������������������������� (a) ���� mass balance calculations for activities 
+using coatings or solvents; 
+����������������������������� (b) ���� CEMS; 
+����������������������������� (c) ���� CPMS or PEMS; and 
+����������������������������� (d) ���� emission factors. 
+������������������� (3) ���� Mass balance calculations. An owner or 
+operator using mass balance calculations to monitor PAL pollutant emissions 
+from activities using coating or solvents shall meet the following 
+requirements: 
+����������������������������� (a) ���� provide a demonstrated means of validating 
+the published content of the PAL pollutant that is contained in or created by 
+all materials used in or at the emissions unit; 
+����������������������������� (b) ���� assume that the emissions unit emits all 
+of the PAL pollutant that is contained in or created by any raw material or 
+fuel used in or at the emissions unit, if it cannot otherwise be accounted for 
+in the process; and 
+����������������������������� (c) ���� where the vendor of a material or fuel, 
+which is used in or at the emissions unit, publishes a range of pollutant 
+content from such material, the owner or operator must use the highest value of 
+the range to calculate the PAL pollutant emissions unless the department 
+determines there is site-specific data or a site-specific monitoring program to 
+support another content within the range. 
+������������������� (4) ���� CEMS. An owner or operator using CEMS to 
+monitor PAL pollutant emissions shall meet the following requirements: 
+����������������������������� (a) ���� CEMS must comply with applicable 
+performance specifications found in 40 CFR Part 60, Appendix B; and 
+����������������������������� (b) ���� CEMS must sample, analyze, and record data 
+at least every 15 minutes while the emissions unit is operating. 
+������������������� (5) ���� CPMS or PEMS. An owner or operator using 
+CPMS or PEMS to monitor PAL pollutant emissions shall meet the following 
+requirements: 
+����������������������������� (a) ���� the CPMS or the PEMS must be based on 
+current site-specific data demonstrating a correlation between the monitored 
+parameter(s) and the PAL pollutant emissions across the range of operation of 
+the emissions unit; and 
+����������������������������� (b) ���� each CPMS or PEMS must sample, analyze, 
+and record data at least every 15 minutes, or at another less frequent interval 
+approved by the department, while the emissions unit is operating. 
+������������������� (6) ���� Emission factors. An owner or operator 
+using emission factors to monitor PAL pollutant emissions shall meet the 
+following requirements: 
+����������������������������� (a) ���� all emission factors shall be adjusted, if 
+appropriate, to account for the degree of uncertainty or limitations in the 
+factors' development; 
+����������������������������� (b) ���� the emissions unit shall operate within 
+the designated range of use for the emission factor, if applicable; and 
+����������������������������� (c) ���� if technically practicable, the owner or 
+operator of a significant emissions unit that relies on an emission factor to 
+calculate PAL pollutant emissions shall conduct validation testing to determine 
+a site-specific emission factor within 6 months of PAL permit issuance, unless 
+the department determines that testing is not required. 
+������������������� (7) ���� A source owner or operator must record and 
+report maximum potential emissions without considering enforceable emission 
+limitations or operational restrictions for an emissions unit during any period 
+of time that there is no monitoring data, unless another method for determining 
+emissions during such periods is specified in the PAL permit. 
+������������������� (8) ���� Notwithstanding the requirements in 
+Paragraphs (3) through (7) of this subsection, where an owner or operator of an 
+emissions unit cannot demonstrate a correlation between the monitored 
+parameter(s) and the PAL pollutant emissions rate at all operating points of 
+the emissions unit, the department shall, at the time of permit issuance: 
+����������������������������� (a) ���� establish default value(s) for determining 
+compliance with the PAL based on the highest potential emissions reasonably 
+estimated at such operating point(s); or 
+����������������������������� (b) ���� determine that operation of the emissions 
+unit during operating conditions when there is no correlation between monitored 
+parameter(s) and the PAL pollutant emissions is a violation of the PAL. 
+������������������� (9) ���� Revalidation. All data used to establish 
+the PAL pollutant must be revalidated through performance testing or other 
+scientifically valid means approved by the department. Such testing must occur 
+at least once every 5 years after issuance of the PAL. 
+��������������� M. ���������� Recordkeeping requirements. 
+������������������� (1) ���� The PAL permit shall require an owner or 
+operator to retain a copy of all records necessary to determine compliance with 
+any requirement of this section and of the PAL, including a determination of 
+each emissions unit's 12-month rolling total emissions, for 5 years from the 
+date of such record. 
+������������������� (2) ���� The PAL permit shall require an owner or 
+operator to retain a copy of the following records, for the duration of the PAL 
+effective period plus 5 years: 
+����������������������������� (a) ���� a copy of the PAL permit application and 
+any applications for revisions to the PAL; and 
+����������������������������� (b) ���� each annual certification of compliance 
+pursuant to title V and the data relied on in certifying the compliance. 
+��������������� N. ����������� Reporting and notification 
+requirements. The owner or operator shall submit semi-annual monitoring 
+reports and prompt deviation reports to the department in accordance with the 
+applicable title V operating permit program. The reports shall meet the 
+following requirements. 
+������������������� (1) ���� Semi-annual report. The semi-annual report 
+shall be submitted to the department within 30 days of the end of each 
+reporting period. This report shall contain the following information: 
+����������������������������� (a) ���� the identification of owner and operator 
+and the permit number; 
+����������������������������� (b) ���� total annual emissions (expressed on a 
+mass-basis in tons per year, or expressed in tons per year CO 2 e) 
+based on a 12-month rolling total for each month in the reporting period 
+recorded pursuant to Paragraph (1) of Subsection M of this section; 
+����������������������������� (c) ���� all data relied upon, including, but not 
+limited to, any quality assurance or quality control data, in calculating the 
+monthly and annual PAL pollutant emissions; 
+����������������������������� (d) ���� a list of any emissions units modified or 
+added to the major stationary source or GHG-only source during the preceding 
+6-month period; 
+����������������������������� (e) ���� the number, duration, and cause of any 
+deviations or monitoring malfunctions (other than the time associated with zero 
+and span calibration checks), and any corrective action taken; 
+����������������������������� (f) ���� a notification of a shutdown of any 
+monitoring system, whether the shutdown was permanent or temporary, the reason 
+for the shutdown, the anticipated date that the monitoring system will be fully 
+operational or replaced with another monitoring system, and whether the 
+emissions unit monitored by the monitoring system continued to operate, and the 
+calculation of the emissions of the pollutant or the number determined by 
+method included in the permit, as provided by Paragraph (7) of Subsection L of 
+this section; and 
+����������������������������� (g) ���� a signed statement by the responsible 
+official (as defined by the applicable title V operating permit program) 
+certifying the truth, accuracy, and completeness of the information provided in 
+the report. 
+������������������� (2) ���� Deviation report. The major stationary 
+source or GHG-only source owner or operator shall promptly submit reports of 
+any deviations or exceedance of the PAL requirements, including periods where 
+no monitoring is available. A report submitted pursuant to Paragraph (2) of 
+Subsection E of 20.2.70.302 NMAC shall satisfy this reporting requirement. The 
+deviation reports shall be submitted within the time limits prescribed by the applicable 
+program implementing Paragraph (2) of Subsection E of 20.2.70.302 NMAC. The 
+reports shall contain the following information: 
+����������������������������� (a) ���� the identification of owner and operator 
+and the permit number; 
+������������������ ����������� (b) ���� the PAL requirement that experienced the 
+deviation or that was exceeded; 
+����������������������������� (c) ���� emissions resulting from the deviation or 
+the exceedance; and 
+����������������������������� (d) ���� a signed statement by the responsible 
+official (as defined by the applicable title V operating permit program) 
+certifying the truth, accuracy, and completeness of the information provided in 
+the report. 
+������������������� (3) ���� Revalidation results. The owner or 
+operator shall submit to the department the results of any revalidation test or 
+method within three months after completion of such test or method. 
+��������������� O. ����������� Transition requirements. 
+������������������� (1) ���� The department may not issue a PAL that 
+does not comply with the requirements in this section after the administrator 
+has approved regulations incorporating these requirements into a plan. 
+������������������� (2) ���� The department may supersede any PAL which 
+was established prior to the date of approval of the plan by the administrator 
+with a PAL that complies with the requirements of this section. 
+[20.2.74.320 NMAC - N, 1/22/06; A, 1/1/11; 
+A, 2/6/13] 
+20.2.74.321 to 20.2.74.399 �������������� [RESERVED] 
+20.2.74.400 ��������� PUBLIC PARTICIPATION AND NOTIFICATION: 
+��������������� A. ����������� The Department shall, within thirty 
+(30) days after receipt of an application, review such application and 
+determine whether it is administratively complete or there is any deficiency in 
+the application or information submitted. � 
+To be deemed administratively complete, the application must meet the 
+requirements of 20.2.74.301 NMAC in addition to the requirements of 20.2.72 
+NMAC. � If the application is deemed: 
+������������������� (1) ���� administratively complete, a letter to 
+that effect shall be sent by certified mail to the applicant. 
+������������������� (2) ���� administratively incomplete, a letter 
+shall be sent by certified mail to the applicant stating what additional 
+information or points of clarification are necessary to deem the application 
+administratively complete. � Upon receipt 
+of the additional information or clarification, the Department shall promptly 
+review such information and determine whether the application is 
+administratively complete. 
+������������������� (3) ���� administratively complete but no permit is 
+required, a letter shall be sent by certified mail to the applicant informing 
+the applicant of the determination. 
+��������������� B. ����������� For purposes of determining minor 
+source baseline date pursuant to 40 CFR 51: 
+������������������� (1) ���� An application is complete when it 
+contains all the information necessary for processing the application. � Designating an application complete for 
+purposes of 40 CFR 51 does not preclude the Department from requesting or 
+accepting any additional information; and 
+������������������� (2) ���� In the event that additional information 
+is submitted to remedy any deficiency in the application or information 
+submitted, the date of receipt of the application shall be the date on which 
+the Department received all required information. 
+��������������� C. ����������� The Department shall: 
+������������������� (1) ���� Make a preliminary determination whether 
+construction should be approved, approved with conditions, or disapproved. 
+������������������� (2) ���� Make available at the Department district 
+and local office nearest to the proposed source a copy of all materials the 
+applicant submitted, a copy of the preliminary determination, and a copy or 
+summary of other materials, if any, considered in making the preliminary 
+determination. 
+������������������� (3) ���� Notify the public by advertisement in a 
+newspaper of general circulation in the area in which the proposed source would 
+be constructed: 
+����������������������������� (a) ���� Of the application, 
+����������������������������� (b) ���� The preliminary determination, 
+�������������������� ��������� (c) ���� The degree of increment consumption that 
+is expected from the source or modification, and 
+����������������������������� (d) ���� Of the opportunity for comment at a public 
+hearing as well as written public comment. � 
+The public comment period shall be for thirty (30) days from the date of 
+such advertisement. 
+������������������� (4) ���� Send a copy of the notice of public 
+comment to: 
+����������������������������� (a) ���� The applicant, 
+����������������������������� (b) ���� The Administrator, and 
+����������������������������� (c) ���� Officials and agencies having jurisdiction 
+over the location where the proposed construction would occur as follows: 
+��������������������������������������� (i) ���� Any other state or local air pollution 
+control agencies; 
+��������������������������������������� (ii) ���� The chief executives of the city and 
+county where the source would be located; 
+��������������������������������������� (iii) ���� Any comprehensive regional land use 
+planning agency; and 
+������������� �������������������������� (iv) ���� Any state, Federal Land Manager, or Indian 
+governing body whose lands may be affected by emissions from the source or 
+modification. 
+������������������� (5) ���� Provide opportunity for a public hearing 
+for interested persons to appear and submit written or oral comments on the air 
+quality impact of the source and other appropriate considerations. 
+������������������� (6) ���� Consider all written comments submitted 
+within a time specified in the notice of public comment and all comments 
+received at any public hearing(s) in making a final decision on the 
+approvability of the application. � The 
+Department shall make all comments available for public inspection in the same 
+locations where the Department made available preconstruction information 
+relating to the source. 
+������������������� (7) ���� Within one hundred eighty (180) days after 
+an application is deemed administratively complete, unless the Secretary, as 
+specified in 20.2.72.207 NMAC, grants an extension not to exceed ninety (90) 
+days for good cause: 
+����������������������������� (a) ���� make a final determination of whether 
+construction should be approved, approved with conditions, or disapproved; and 
+����������������������������� (b) ���� notify the applicant in writing of the 
+final determination and make such notification available for public inspection 
+at the same location where the Department made available preconstruction 
+information and public comments relating to the source. 
+[07/20/95; 01/01/00; 20.2.74.400 NMAC - Rn, 
+20 NMAC 2.74.400, 10/31/02] 
+20.2.74.401 ��������� STACK HEIGHT CREDIT: � The Department shall review 
+all applications in accordance with the provisions of 20.2.80 NMAC (Stack 
+Heights) (formerly Air Quality Control Regulation 710 -- Stack Height 
+Requirements). 
+[07/20/95; 20.2.74.401 NMAC - Rn, 20 NMAC 
+2.74.401, 10/31/02] 
+20.2.74.402 ��������� EXCLUSIONS FROM INCREMENT CONSUMPTION: � Following a public hearing, 
+the Secretary may exclude the following concentrations in determining 
+compliance with a maximum allowable increase: 
+��������������� A. ����������� Concentrations due to the increase 
+in emissions from stationary sources, over the emissions from such sources 
+before the effective date of an order under sections 2(a) and (b) of the Energy 
+Supply and Environmental Coordination Act of 1974 (or any superseding 
+legislation). � Sources must have 
+converted from the use of petroleum products, natural gas, or both by reason of 
+such order. � This exclusion shall not 
+apply more than five (5) years after the effective date of such an order; or 
+��������������� B. ����������� Concentrations due to the increase 
+in emissions from sources, over the emissions from such sources before the 
+effective date of a plan in effect pursuant to the Federal Power Act. � Sources must have converted from using 
+natural gas by reason of a natural gas curtailment plan. � This exclusion shall not apply more than five 
+(5) years after the effective date of such a plan; or 
+��������������� C. ����������� Concentrations of particulate matter 
+due to the increase in emissions from construction or other temporary 
+emission-related activities of new or modified sources; or 
+��������������� D. ����������� The increase in concentrations due 
+to new sources outside the United States over the concentrations attributed to 
+existing sources which are included in the baseline concentrations. 
+[07/20/95; 20.2.74.402 NMAC - Rn, 20 NMAC 
+2.74.402, 10/31/02] 
+20.2.74.403 ��������� ADDITIONAL REQUIREMENTS FOR SOURCES 
+IMPACTING CLASS I FEDERAL AREAS: 
+��������������� A. ����������� The department shall transmit to the 
+administrator and the federal land manager a copy of each permit application 
+relating to a major stationary source or major modification proposing to locate 
+within one hundred (100) kilometers of any Class I federal area. � The complete permit application shall be 
+transmitted within thirty (30) days of receipt and sixty (60) days prior to any 
+public hearing on the application. � The 
+department shall include all relevant information in the permit 
+application. � Relevant information shall 
+include an analysis of the proposed source's anticipated impacts on visibility 
+in the Class I federal area. � The 
+department shall consult with all affected federal land managers as to the 
+completeness of the permit application and shall consider any analysis 
+performed by the federal land manager concerning the impact of the proposed 
+major stationary source or major modification on air quality related 
+values. � This consideration shall include 
+visibility, if such analysis is received within thirty (30) days after the 
+federal land manager receives a copy of the complete application. � Additionally, the department shall notify any 
+affected federal land manager within thirty days (30) from the date the 
+department receives a request for a pre-application meeting from a proposed 
+source subject to this part. � Notice 
+shall be provided to the administrator and federal land manager of every action 
+related to the consideration of such permit. � 
+The department shall also provide the federal land manager and the 
+administrator with a copy of the preliminary determination required under 
+20.2.74.400 NMAC and shall make available to them any materials used in making 
+that determination. � In any case where 
+the department disagrees with the federal land manager's analysis of source 
+impact on air quality related values, the department shall, either explain its 
+decision or give notice to the federal land manager as to where the explanation 
+can be obtained. � In the case where the 
+department disagrees with the federal land managers' analysis, the department 
+will also explain its decision or give notice to the public by advertisement in 
+a newspaper of general circulation in the area in which the proposed source 
+would be constructed, as to where the decision can be obtained. 
+��������������� B. ����������� The department shall transmit to air 
+quality control agencies of neighboring states and Indian governing bodies a 
+copy of each permit application having the potential to affect Class I federal 
+areas or increment consumption in areas under their jurisdiction. � The department shall also provide the 
+affected air quality control agencies and Indian governing bodies with a copy 
+of the preliminary determination required under 20.2.74.400 NMAC and shall make 
+available to them any materials used in making that determination. � The department shall include a provision for 
+a sixty (60) day comment period for the federal land managers before any public 
+hearing on a permit application is held. 
+��������������� C. ����������� Federal land managers may 
+demonstrate to the department that emissions from a proposed source or 
+modification would have an adverse impact on air quality related values, 
+including visibility, of any Class I federal lands under their 
+jurisdiction. � This may be done even 
+though the change in air quality resulting from emissions from the proposed 
+source or modification would not cause or contribute to concentrations which 
+would exceed the maximum allowable increases for a Class I federal area. � If the department concurs with this 
+demonstration, then the source shall not be issued a permit. 
+��������������� D. ����������� Class I waivers: � The owner or operator of a proposed source or 
+modification may demonstrate to the federal land manager that the emissions 
+from a proposed source or modification would have no adverse impact on air 
+quality related values, including visibility, of Class I federal lands under 
+his or her jurisdiction. � This may be 
+done even though the change in air quality resulting from emissions from such 
+source or modification would cause or contribute to concentrations which would 
+exceed the maximum allowable increases for a Class I federal area. � If the federal land manager concurs with such 
+demonstration and so certifies to the department, the department may grant a 
+waiver from such maximum allowable increases. � 
+Emission limitations must be included in the permit as necessary to 
+assure that emissions of sulfur dioxide, PM 10 , PM 2.5 , 
+and nitrogen oxides would not exceed the maximum allowable increases over minor 
+source baseline concentrations shown in Table 5 of this part (20.2.74.505 
+NMAC). 
+��������������� E. ����������� For the case where the federal land 
+manager does not perform an impact analysis with respect to visibility 
+impairment in a Class I federal area, the department may perform such an 
+analysis. � The department shall not issue 
+the source a permit if the department determines that an adverse impact on 
+visibility would occur. � The adverse 
+impact must be due, primarily, to the operation of the proposed source or modification. 
+��������������� F. ����������� Sulfur dioxide waiver by 
+governor: � The owner or operator of a 
+proposed major stationary source or major modification, which cannot be 
+approved under Subsection D of 20.2.74.403 NMAC, may demonstrate to the 
+governor that the source cannot be constructed by reason of an exceedance of a 
+maximum allowable increase for a Class I federal area for sulfur dioxide for a 
+period of twenty-four (24) hours or less. � 
+The owner or operator may also demonstrate that a waiver from this 
+requirement would not adversely affect the air quality related values of the 
+Class I federal area. � The governor, 
+after consideration of the federal land manager's recommendation and subject to 
+his concurrence, may, after notice and public hearing, grant a waiver from such 
+maximum allowable increase. � If the 
+waiver is granted, the department shall issue a permit to the owner or operator 
+of the source or modification. � Any owner 
+or operator of a source or modification who obtains a permit under this section 
+shall comply with sulfur dioxide emissions limitations. � These limitations do not allow increases of 
+ambient concentrations, above the baseline concentration, to exceed the levels 
+found in Table 6 of this part (20.2.74.506 NMAC) for periods of twenty-four 
+(24) hours or less for more than eighteen (18) days, not necessarily 
+consecutive, in any annual period. 
+��������������� G. ����������� Sulfur dioxide waiver by governor 
+with the president's concurrence. � In any 
+case where the governor recommends a waiver in which the federal land manager 
+does not concur, the recommendations of the governor and the federal land 
+manager shall be transmitted to the president through the office of the 
+governor. � If the president so directs, 
+the department shall issue the permit. � 
+Any source or modification that obtains a permit under this section 
+shall comply with sulfur dioxide emissions limitations. � These limitations do not allow increases in 
+ambient concentrations, above the baseline concentration, to exceed the levels 
+found in Table 6 of this part (20.2.74.506 NMAC) for periods of twenty-four 
+(24) hours or less for more than eighteen (18) days, not necessarily 
+consecutive, in any annual period. 
+[07/20/95; 20.2.74.403 NMAC - Rn, 20 NMAC 
+2.74.403, 10/31/02; A, 6/3/11] 
+20.2.74.404 to 20.2.74.500 �������������� [RESERVED] 
+20.2.74.501 ��������� TABLE 1 - PSD SOURCE CATEGORIES. 
+��������������� A. ����������� Carbon black plants (furnace 
+process) 
+��������������� B. ����������� Charcoal production plants 
+��������������� C. ����������� Chemical process plants 
+��������������� D. ����������� Coal cleaning plants (with 
+thermal dryers) 
+��������������� E. ����������� Coke oven batteries 
+��������������� F. ����������� Fossil fuel boilers (or 
+combinations thereof) totaling more than 250 million BTU/hr heat input 
+��������������� G. ����������� Fossil fuel-fired steam electric 
+plants of more than 250 million BTU/hr heat input 
+��������������� H. ����������� Fuel conversion plants 
+��������������� I. ������������ Glass fiber processing plants 
+��������������� J. ������������ Hydrofluoric acid plants 
+��������������� K. ����������� Iron and steel mills 
+��������������� L. ����������� Kraft pulp mills 
+��������������� M. ���������� Lime plants 
+��������������� N. ����������� Municipal incinerators capable 
+of charging more than 50 tons of refuse per day 
+��������������� O. ����������� Nitric acid plants 
+��������������� P. ����������� Petroleum refineries 
+��������������� Q. ����������� Petroleum storage and transfer 
+units with a total storage capacity exceeding 300,000 barrels 
+��������������� R. ����������� Phosphate rock processing plants 
+��������������� S. ������������ Portland cement plants 
+��������������� T. ����������� Primary aluminum ore reduction 
+plants 
+��������������� U. ����������� Primary copper smelters 
+��������������� V. ����������� Primary lead smelters 
+��������������� W. ���������� Primary zinc smelters 
+��������������� X. ����������� Secondary metal production 
+plants 
+��������������� Y. ����������� Sintering plants 
+��������������� Z. ����������� Sulfur recovery plants 
+��������������� AA. �������� Sulfuric acid plants 
+��������������� AB. �������� Taconite ore processing plants 
+[07/20/95; 20.2.74.501 NMAC - Rn, 20 NMAC 
+2.74 Table 1, 10/31/02; A, 1/22/06] 
+20.2.74.502 ��������� TABLE 2 - 
+SIGNIFICANT EMISSION RATES: 
+POLLUTANT 
+EMISSION RATE (TONS/YR) 
+Carbon monoxide 
+100 
+Fluorides 
+3 
+Lead 
+0.6 
+Municipal waste combustor 
+Acid gases (measured as sulfur dioxide 
+and hydrogen chloride) 
+40 
+(36 megagrams/year) 
+Metals (measured as particulate matter 
+15 
+(14 megagrams/year) 
+Organics (measured as total tetra- 
+through octa-chlorinated dibenzo-p-dioxins and dibenzofurans) 
+0.0000035 
+(0.0000032 megagrams/yr) 
+Nitrogen oxides 
+40 
+Ozone (Volatile Organic Compounds or 
+nitrogen oxides) 
+40 
+Particulate Matter 
+Particulate matter emissions 
+25 
+PM 10 emissions 
+15 
+Particulate Matter 2.5 
+Direct PM 2.5 emissions 
+10 
+Sulfur dioxide emissions 
+40 
+Nitrogen oxide emissions (unless 
+demonstrated not to be a PM 2.5 precursor under Subsection AS 
+of � 20.2.74.7 NMAC) 
+40 
+Sulfur compounds 
+Hydrogen sulfide (H2S) 
+10 
+Reduced sulfur compounds (incl. H2S) 
+10 
+Sulfur dioxide 
+40 
+Sulfuric acid mist 
+7 
+Total reduced sulfur (incl. H2S) 
+10 
+Any other pollutant regulated under the 
+act that is not listed in this table 
+Any 
+emission rate 
+Each regulated pollutant 
+Emission 
+rate or net emissions increase associated with a major stationary source or 
+major modification that causes an air quality impact of one microgram per 
+cubic meter or greater (24-hr average) in any class I federal area located 
+within 10 km of the source. 
+[07/20/95; 20.2.74.502 NMAC - Rn, 20 NMAC 
+2.74 Table 2, 10/31/02; A, 1/22/06; A, 8/31/09; A, 6/3/11] 
+20.2.74.503 ��������� TABLE 3 - 
+SIGNIFICANT MONITORING CONCENTRATIONS. 
+POLLUTANT 
+AIR 
+QUALITY CONCENTRATION 
+micrograms 
+per cubic meter 
+AVERAGING 
+TIME 
+Carbon monoxide 
+575 
+8 
+hours 
+Fluorides 
+0.25 
+24 
+hours 
+Lead 
+0.1 
+3 
+months 
+Nitrogen dioxide 
+14 
+Annual 
+Ozone 
+b 
+PM 10 
+10 
+24 
+hours 
+PM 2.5 
+0 c 
+Sulfur compounds 
+Hydrogen sulfide (H2S) 
+0.20 
+1 
+hour 
+Reduced sulfur compounds (incl. H2S) 
+10 
+1 
+hour 
+Sulfur dioxide 
+13 
+24 
+hours 
+Sulfuric acid mist 
+a 
+Total reduced sulfur (incl. H2S) 
+10 
+1 
+hour 
+a - No acceptable monitoring techniques 
+available at this time. � Therefore, 
+monitoring is not required until acceptable techniques are available. 
+b - No de minimis air quality level is 
+provided for ozone. However, any net increase of 100 tons per year or more of 
+volatile organic compounds or nitrogen oxides subject to PSD would be 
+required to perform an ambient impact analysis, including the gathering of 
+ambient air quality data. 
+c - In accordance with Sierra Club v. EPA, 
+706 F.3d 428 (DC Cir. 2013), no exemption is available with regard to PM 2.5 . 
+[07/20/95; 20.2.74.503 NMAC - Rn, 20 NMAC 
+2.74 Table 3, 10/31/02; A, 1/22/06; A, 8/31/09; A, 6/3/11; 8/18/14] 
+20.2.74.504 ��������� TABLE 4 - ALLOWABLE PSD INCREMENTS: 
+Micrograms 
+per cubic meter (μg/m 3 ) 
+Class 
+I 
+Class 
+II 
+Class 
+III 
+Nitrogen Dioxide 
+annual arithmetic mean 
+2.5 
+25 
+50 
+Particulate Matter 
+PM 10 , annual arithmetic mean 
+4 
+17 
+34 
+PM 10 , 24-hour maximum 
+8 a 
+30 a 
+60 a 
+PM 2.5 annual arithmetic mean 
+1 
+4 
+8 
+PM 2.5 24-hour maximum 
+� 2 a 
+� 9 a 
+� 18 a 
+Sulfur Dioxide 
+annual arithmetic mean 
+2 
+20 
+40 
+24-hour maximum 
+5 a 
+91 a 
+182 a 
+3-hour maximum 
+25 a 
+512 a 
+700 a 
+a - Not to be exceeded more than once a 
+year. 
+[07/20/95; 20.2.74.504 NMAC - Rn, 20 NMAC 
+2.74 Table 4, 10/31/02; A, 6/3/11] 
+20.2.74.505 ��������� TABLE 5 - MAXIMUM ALLOWABLE INCREASES FOR CLASS I WAIVERS: 
+Micrograms 
+per cubic meter (μg/m 3 ) 
+Nitrogen Dioxide 
+annual arithmetic mean 
+25 
+Particulate Matter 
+PM 10 , annual arithmetic mean 
+17 
+PM 10 , 24-hour maximum 
+30 
+PM 2.5 , annual arithmetic mean 
+4 
+PM 2.5 , 24-hour maximum 
+9 
+Sulfur Dioxide 
+annual arithmetic mean 
+20 
+24-hour maximum 
+91 
+3-hour maximum 
+325 
+[07/20/95; 20.2.74.505 NMAC - Rn, 20 NMAC 
+2.74 Table 5, 10/31/02; A, 6/3/11] 
+20.2.74.506 ��������� TABLE 6 - MAXIMUM ALLOWABLE INCREASE FOR SULFUR DIOXIDE WAIVER BY 
+GOVERNOR: 
+Micrograms 
+per cubic meter (μg/m 3 ) 
+Terrain 
+Areas 
+Period of Exposure 
+Low 
+High 
+24-hr. maximum 
+36 
+62 
+3-hr. maximum 
+130 
+221 
+[07/20/95; 20.2.74.506 NMAC - Rn, 20 NMAC 
+2.74 Table 6, 10/31/02] 
+HISTORY OF 20.2.74 NMAC: 
+Pre NMAC History: � The material in 
+this part was derived from that previously filed with the commission of public 
+records - state records center and archives. 
+EIB/AQCR 707, Air Quality Control 
+Regulation 707 - Permits, Prevention Of Significant Deterioration (PSD), 
+02/14/84; 
+EIB/AQCR 707, Air Quality Control Regulation 
+707 - Permits, Prevention Of Significant Deterioration (PSD), 07/15/86; 
+EIB/AQCR 707, Air Quality Control 
+Regulation 707 - Permits, Prevention Of Significant Deterioration (PSD), 
+08/01/88; 
+EIB/AQCR 707, Air Quality Control 
+Regulation 707 - Permits, Prevention Of Significant Deterioration (PSD), 
+05/29/90. 
+History of Repealed Material: � [RESERVED] 
+Other History: 
+EIB/AQCR 707, Air Quality Control Regulation 707 - Permits, 
+Prevention Of Significant Deterioration (PSD), filed 05/29/90 was renumbered into first version of the 
+New Mexico Administrative Code as 20 NMAC 2.74, Permits -- Prevention Of 
+Significant Deterioration (PSD), filed 06/20/95. 
+20 NMAC 2.74, Permits -- Prevention Of 
+Significant Deterioration (PSD), filed 06/20/95 was renumbered, reformatted 
+and replaced by 20.2.74 NMAC, 
+Permits -- Prevention Of Significant Deterioration (PSD), effective 10/31/02.
