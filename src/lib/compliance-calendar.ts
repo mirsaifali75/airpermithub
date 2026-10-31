@@ -1,4 +1,5 @@
 import { complianceCategories } from "./data/compliance";
+import { csvLines } from "./csv";
 import type { ComplianceStatus } from "./data/types";
 
 /**
@@ -202,12 +203,10 @@ export function toIcs(tasks: StoredTask[], now: Date) {
   return lines.map(foldLine).join("\r\n") + "\r\n";
 }
 
-const cell = (v: unknown) => `"${String(v ?? "").replace(/"/g, '""')}"`;
-
 export function tasksCsv(tasks: StoredTask[]) {
   const rows = [
     ["Task", "Facility", "Category", "First due", "Repeats", "Reminder (days before)", "Basis (permit condition or rule)", "Notes", "Dates marked done"],
     ...tasks.map((t) => [t.title, t.facility, t.category, t.date, repeatLabels[t.repeat ?? "none"], t.remindDays ?? "", t.basis ?? "", t.notes ?? "", (t.done ?? []).join(" ")]),
   ];
-  return rows.map((r) => r.map(cell).join(",")).join("\n");
+  return csvLines(rows);
 }

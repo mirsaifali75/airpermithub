@@ -94,7 +94,7 @@ describe(".ics export", () => {
 });
 
 it("exports the task list as CSV", () => {
-  const csv = tasksCsv([task({ repeat: "annual", basis: 'Rule "A"' })]).split("\n");
+  const csv = tasksCsv([task({ repeat: "annual", basis: 'Rule "A"' })]).split("\r\n");
   expect(csv[0]).toContain("Basis (permit condition or rule)");
   expect(csv[1]).toContain('"Rule ""A"""');
   expect(csv[1]).toContain("Annually");

@@ -5,7 +5,7 @@ import { useId, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 import { deviationsCsv, groupByPeriod, type Deviation } from "@/lib/tools/deviations";
-import { NumberField, downloadText, field, labelCls, useStoredState } from "./shared";
+import { NumberField, csvFileName, downloadText, field, labelCls, useStoredState } from "./shared";
 
 interface LogState { cycle: 3 | 6 | 12; startMonth: number; items: Deviation[] }
 
@@ -43,7 +43,7 @@ export function DeviationLog() {
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 id={`${uid}-a`} className="text-lg font-bold text-ink">Reporting periods</h2>
           <div className="flex flex-wrap gap-2">
-            <Button size="sm" variant="subtle" disabled={!s.items.length} onClick={() => downloadText("deviation-log.csv", deviationsCsv(s.items, s.startMonth, s.cycle))}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
+            <Button size="sm" variant="subtle" disabled={!s.items.length} onClick={() => downloadText(csvFileName("deviation-log"), deviationsCsv(s.items, s.startMonth, s.cycle))}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
             <Button size="sm" variant="subtle" disabled={!s.items.length} onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print</Button>
           </div>
         </div>

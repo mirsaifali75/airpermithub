@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 import { addMonths, isMonth, monthFromIndex, monthIndex, monthName, parsePastedTable, thisMonth } from "@/lib/tools/months";
 import { baselineWindows, bestBaseline, projectIncrease, type ProjectUnit } from "@/lib/tools/nsr";
-import { NumberField, downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
+import { NumberField, csvFileName, downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
 
 type Lookback = "other" | "egu" | "custom";
 interface DataUnit { name: string; monthly: (number | null)[] }
@@ -110,7 +110,7 @@ export function NsrBaseline() {
     const data = [["Month", ...s.units.map((u) => `${u.name} (tons)`)], ...Array.from({ length: s.months }, (_, i) => [monthFromIndex(startIdx + i), ...s.units.map((u) => u.monthly[i] ?? "")]), []];
     const base = best ? [["Highest eligible window", `${monthFromIndex(best.start)} to ${monthFromIndex(best.start + win - 1)}`], ...s.units.map((u, i) => [`${u.name} baseline (tpy)`, best.perUnit[i]]), ["Total (tpy)", best.total], []] : [["No eligible window"], []];
     const proj = [["Unit", "Type", "Baseline (tpy)", "Projected or PTE (tpy)", "Uses PTE", "Excluded (tpy)", "Increase (tpy)"], ...s.project.map((p, i) => [p.name, p.kind, p.kind === "new" ? 0 : p.baseline, p.projected, p.usesPte ? "yes" : "", p.excluded, result.perUnit[i].increase]), ["Sum", "", "", "", "", "", result.total], ["Significance value entered (tpy)", s.significance ?? ""], ["Decreases counted", s.countDecreases ? "yes" : "no"]];
-    downloadText(`nsr-baseline-${(s.pollutant || "pollutant").toLowerCase().replace(/[^a-z0-9]+/g, "-")}.csv`, toCsv("NSR Baseline and Project Emissions Worksheet", [...meta, ...data, ...base, ...proj]));
+    downloadText(csvFileName("nsr-baseline", s.pollutant), toCsv("NSR Baseline and Project Emissions Worksheet", [...meta, ...data, ...base, ...proj]));
   };
 
   return (

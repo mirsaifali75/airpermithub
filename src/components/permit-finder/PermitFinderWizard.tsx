@@ -6,12 +6,13 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useId, useMemo, useState } from "react";
-import { downloadText, useStoredState } from "@/components/tools/shared";
+import { csvFileName, downloadText, useStoredState } from "@/components/tools/shared";
 import { ApplicabilityBadge, CitationBadge, VerificationBadge } from "@/components/ui/Badge";
 import type { ApplicabilityStatus } from "@/lib/data/types";
 import { Button, buttonClass } from "@/components/ui/Button";
 import { Disclaimer } from "@/components/ui/Notices";
 import { cn } from "@/lib/cn";
+import { localDate } from "@/lib/csv";
 import { equipmentOptions, facilityTypesByIndustry, permitFinderIndustries, pollutants as pollutantOptions } from "@/lib/data/equipment";
 import type { StateProfileSummary } from "@/lib/data/state-profiles";
 import { stateTiles } from "@/lib/data/states";
@@ -151,9 +152,7 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
   ];
   const exportCsv = () => {
     if (!result) return;
-    const today = new Date().toISOString().slice(0, 10);
-    const name = (form.facilityName || "permit-path").replace(/[^a-z0-9]+/gi, "-").toLowerCase();
-    downloadText(`${name}-screening-${today}.csv`, permitFinderCsv(entries.map((e) => [e.k, e.v || "Not entered"]), result, today));
+    downloadText(csvFileName("permit-finder", form.facilityName), permitFinderCsv(entries.map((e) => [e.k, e.v || "Not entered"]), result, localDate()));
   };
 
   return (

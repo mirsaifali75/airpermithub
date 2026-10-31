@@ -11,7 +11,7 @@ import {
   calendarTask, classify, conditionTitle, conditionTypes, frequencies, matrixTaskId, parsePermitText, recurrence,
   type ConditionType, type Frequency, type ParsedCondition,
 } from "@/lib/tools/matrix";
-import { downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
+import { csvFileName, downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
 
 interface MatrixRow extends ParsedCondition {
   id: string;
@@ -97,7 +97,7 @@ export function MatrixBuilder() {
   const exportCsv = () => {
     const head = ["Condition", "Requirement text", "Type", "All suggested types", "Frequency", "Citations", "Deadline phrases", "Owner", "Evidence / record", "Next due"];
     const body = s.rows.map((r) => (r.heading ? [r.ref, r.text.toUpperCase()] : [r.ref, r.text, r.type, r.types.join("; "), r.frequency, r.citations.join("; "), r.deadlines.join("; "), r.owner, r.evidence, r.due]));
-    downloadText(`compliance-matrix${s.facility ? `-${s.facility.toLowerCase().replace(/[^a-z0-9]+/g, "-")}` : ""}.csv`, toCsv("Compliance Matrix", [["Facility", s.facility], ...(s.sample ? [["DEMO DATA: sample permit text written by AirPermitHub, not a real permit"]] : []), ["Suggested types and frequencies are keyword-based. Confirm each against the permit."], [], head, ...body]));
+    downloadText(csvFileName("compliance-matrix", s.facility), toCsv("Compliance Matrix", [["Facility", s.facility], ...(s.sample ? [["DEMO DATA: sample permit text written by AirPermitHub, not a real permit"]] : []), ["Suggested types and frequencies are keyword-based. Confirm each against the permit."], [], head, ...body]));
   };
 
   const toCalendar = () => {

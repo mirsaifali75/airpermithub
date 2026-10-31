@@ -9,6 +9,8 @@
  * browser as "My factors", in the same shape so they carry over to accounts.
  */
 
+import { csvLines } from "../csv";
+
 export interface FactorVersion {
   version: number;
   date: string;
@@ -66,8 +68,6 @@ export const sameFactor = (a: EmissionFactorRecord, b: EmissionFactorRecord) =>
   a.method === b.method && a.factorKey === b.factorKey && a.value === b.value && a.units === b.units && a.pollutant === b.pollutant
   && a.referenceDocument.trim() === b.referenceDocument.trim() && a.sectionTable.trim() === b.sectionTable.trim();
 
-const cell = (v: unknown) => `"${String(v ?? "").replace(/"/g, '""')}"`;
-
 export function factorsCsv(records: EmissionFactorRecord[]) {
   const head = ["Calculator", ...factorRecordFields.map((f) => f.label), "Origin"];
   const rows = records.map((r) => [
@@ -75,5 +75,5 @@ export function factorsCsv(records: EmissionFactorRecord[]) {
     ...factorRecordFields.map((f) => (f.key === "versions" ? r.versions.map((v) => `v${v.version} ${v.date}: ${v.change}`).join("; ") : r[f.key])),
     r.origin === "library" ? "AirPermitHub library" : "Saved by you",
   ]);
-  return [head, ...rows].map((r) => r.map(cell).join(",")).join("\n");
+  return csvLines([head, ...rows]);
 }

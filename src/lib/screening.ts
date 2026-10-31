@@ -1,5 +1,6 @@
 import type { ApplicabilityStatus } from "./data/types";
 import type { StateProfileSummary } from "./data/state-profiles";
+import { csvLines } from "./csv";
 import { RT, type RuleQuote } from "./tools/rule-text";
 
 /**
@@ -424,8 +425,6 @@ const statusText: Record<ApplicabilityStatus, string> = {
   "likely-not-applicable": "Likely not applicable",
 };
 
-const cell = (v: string | number | undefined) => `"${String(v ?? "").replace(/"/g, '""')}"`;
-
 /** CSV of the answers and every result, with the rule text and links behind each. */
 export function permitFinderCsv(entries: [string, string][], result: ScreeningResult, today: string) {
   const rows: (string | number | undefined)[][] = [
@@ -446,5 +445,5 @@ export function permitFinderCsv(entries: [string, string][], result: ScreeningRe
     ["Information needed before conclusions"],
     ...result.dataGaps.map((g) => [g]),
   ];
-  return rows.map((r) => r.map(cell).join(",")).join("\n");
+  return csvLines(rows);
 }

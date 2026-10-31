@@ -2,7 +2,7 @@
 
 import { BookMarked, Download, ExternalLink, Trash2 } from "lucide-react";
 import Link from "next/link";
-import { downloadText, useStoredState } from "@/components/tools/shared";
+import { csvFileName, downloadText, useStoredState } from "@/components/tools/shared";
 import { Button } from "@/components/ui/Button";
 import { factorsCsv, MY_FACTORS_STORE, type EmissionFactorRecord } from "@/lib/calc/factors";
 
@@ -19,7 +19,7 @@ export function MyFactors({ methodNames }: { methodNames: Record<string, string>
             Factors you save from a calculator, each with the reference you cited. Pick them from the list under any factor field. Kept in this browser until accounts launch.
           </p>
         </div>
-        <Button size="sm" variant="subtle" onClick={() => downloadText("airpermithub-my-factors.csv", factorsCsv(factors))} disabled={!factors.length}>
+        <Button size="sm" variant="subtle" onClick={() => downloadText(csvFileName("my-factors"), factorsCsv(factors))} disabled={!factors.length}>
           <Download className="h-4 w-4" aria-hidden="true" /> Export CSV
         </Button>
       </div>

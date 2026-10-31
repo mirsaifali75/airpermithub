@@ -6,13 +6,14 @@ import { useEffect, useId, useMemo, useState } from "react";
 import { ApplicabilityBadge, Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
+import { localDate } from "@/lib/csv";
 import { checkerUnitFor } from "@/lib/screening";
 import {
   applicabilityCsv, equipmentLabel, equipmentTypes, hapStatus, oilGasTypes, ptePollutants, screenAll, siteLabels,
   type EquipmentInput, type EquipmentType, type FacilityInput, type Finding, type HapStatus, type ScreenStatus, type Site,
 } from "@/lib/tools/applicability";
 import { quoteHref } from "@/lib/tools/rule-text";
-import { NumberField, downloadText, field, labelCls, useStoredState } from "./shared";
+import { NumberField, csvFileName, downloadText, field, labelCls, useStoredState } from "./shared";
 
 interface ScreenState { facility: FacilityInput; equipment: EquipmentInput[]; demo: boolean }
 
@@ -120,7 +121,7 @@ export function ApplicabilityScreener({ states }: { states: { slug: string; name
   const hasEntries = s.equipment.length > 0 && !s.demo;
 
   const add = () => setS((p) => ({ ...p, demo: false, equipment: [...p.equipment, { id: newId(), type: addType, name: "", date: "", dateKind: "construction", ...(oilGasTypes.includes(addType) ? { site: p.facility.oilGas ? undefined : "other" } : {}) }] }));
-  const exportCsv = () => downloadText("applicability-screen.csv", applicabilityCsv(f, s.equipment, new Date().toISOString().slice(0, 10)));
+  const exportCsv = () => downloadText(csvFileName("applicability-screen", f.name), applicabilityCsv(f, s.equipment, localDate()));
 
   return (
     <div className="space-y-6">

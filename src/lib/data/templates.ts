@@ -5,6 +5,8 @@
  * permits, rules, and calculations.
  */
 
+import { csvLines } from "../csv";
+
 export interface AphTemplate {
   slug: string;
   title: string;
@@ -165,8 +167,6 @@ export function getTemplate(slug: string) {
   return aphTemplates.find((t) => t.slug === slug);
 }
 
-const cell = (v: string) => (/[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v);
-
 export function templateCsv(t: AphTemplate) {
   const lines = [
     [`${t.title} (AirPermitHub Template, not a government form)`],
@@ -174,5 +174,5 @@ export function templateCsv(t: AphTemplate) {
     t.columns,
     ...(t.rows ?? [t.columns.map(() => "")]),
   ];
-  return lines.map((r) => r.map(cell).join(",")).join("\r\n") + "\r\n";
+  return csvLines(lines);
 }

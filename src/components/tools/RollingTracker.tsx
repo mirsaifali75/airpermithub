@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 import { addMonths, isMonth, monthName, parsePastedColumn, thisMonth } from "@/lib/tools/months";
 import { computeRolling, firstForecastExceedance, nextMonthHeadroom, type RollingMode, type RollingRow } from "@/lib/tools/rolling";
-import { NumberField, downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
+import { NumberField, csvFileName, downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
 
 interface TrackerState {
   param: string;
@@ -81,7 +81,7 @@ export function RollingTracker() {
       ["Recordkeeping aid. The limit, window, and sum or average come from your permit condition; check every value against your records."],
       ["Parameter", s.param], ["Limit", s.limit ?? "", u], ["Alert at % of limit", opts.alertPct], ["Next-month headroom", headroom ?? "", u], [],
     ];
-    downloadText(`rolling-${opts.period}-month-${(s.param || "tracker").toLowerCase().replace(/[^a-z0-9]+/g, "-")}.csv`, toCsv("Rolling Limit Tracker", [...meta, head, ...body]));
+    downloadText(csvFileName(`rolling-${opts.period}-month`, s.param), toCsv("Rolling Limit Tracker", [...meta, head, ...body]));
   };
 
   return (

@@ -181,7 +181,7 @@ describe("factor records", () => {
   });
 
   it("exports every record field", () => {
-    const csv = factorsCsv([rec()]).split("\n");
+    const csv = factorsCsv([rec()]).split("\r\n");
     expect(csv[0].split(",")).toHaveLength(factorRecordFields.length + 2);
     expect(csv[1]).toContain("Manufacturer guarantee");
   });

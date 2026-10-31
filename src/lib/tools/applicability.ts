@@ -1,4 +1,5 @@
 import { RT, type RuleQuote } from "./rule-text";
+import { csvLines } from "../csv";
 
 /**
  * Applicability screening for common equipment and facility-wide programs.
@@ -631,10 +632,5 @@ export function applicabilityCsv(f: FacilityInput, equipment: EquipmentInput[], 
     const name = `${r.equipment.name || "(unnamed)"} (${equipmentLabel(r.equipment.type)})`;
     for (const x of r.findings) rows.push(["Equipment", name, x.rule, x.citation, statusLabel[x.status], x.why, quoteCell(x), x.needed.join("; "), x.href]);
   }
-  return ["AirPermitHub Template: Applicability Screening (not an agency form)", ...rows.map((r) => r.map(csvCell).join(","))].join("\r\n");
+  return csvLines([["AirPermitHub Template: Applicability Screening (not an agency form)"], ...rows]);
 }
-
-const csvCell = (v: unknown) => {
-  const s = v === null || v === undefined ? "" : String(v);
-  return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
-};

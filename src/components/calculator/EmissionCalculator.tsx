@@ -5,11 +5,12 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
-import { useStoredState } from "@/components/tools/shared";
+import { downloadText, useStoredState } from "@/components/tools/shared";
 import { DemoBadge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Tabs } from "@/components/ui/Tabs";
 import { cn } from "@/lib/cn";
+import { csvFileName, csvLines } from "@/lib/csv";
 import { factorLibrary, factorsFor, MY_FACTORS_STORE, sameFactor, type EmissionFactorRecord } from "@/lib/calc/factors";
 import { annualize, getMethod, type AnnualizedResult, type CalcStep } from "@/lib/calc/methods";
 import { quoteHref } from "@/lib/tools/rule-text";
@@ -218,12 +219,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
     setNotice(`Added ${ready.length} pollutant${ready.length > 1 ? "s" : ""} to the calculation set below.`);
   };
 
-  const download = (name: string, rowsOut: (string | number)[][]) => {
-    const csv = rowsOut.map((r) => r.map((v) => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\n");
-    const url = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
-    Object.assign(document.createElement("a"), { href: url, download: name }).click();
-    URL.revokeObjectURL(url);
-  };
+  const download = (name: string, rowsOut: (string | number)[][]) => downloadText(name, csvLines(rowsOut));
 
   /** One file with everything needed to reproduce this calculation. */
   const exportThis = () => {
@@ -251,11 +247,11 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
       ...ready.flatMap(({ row, result }) => result!.steps.map((s) => [row.pollutant, s.label, s.expression, s.value, s.unit])),
       ...(method.basis?.length ? [[], ["Method basis (verbatim)", "Source", "URL"], ...method.basis.map((q) => [q.text, q.cite, quoteHref(q) ?? ""])] : []),
     ];
-    download(`airpermithub-${method.slug}${sourceName ? `-${sourceName.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}` : ""}.csv`, out);
+    download(csvFileName(method.slug, sourceName), out);
   };
 
   const exportSet = () =>
-    download("airpermithub-calculation-set.csv", [
+    download(csvFileName("calculation-set"), [
       ["Source", "Method", "Pollutant", "lb/hr", "lb/day", "tons/yr", "CO2e tons/yr", "Factor reference", "Demo values", "Saved"],
       ...saved.map((c) => [c.sourceName, c.method, c.pollutant, c.lbPerHr, c.lbPerDay, c.tpy, c.co2eTpy ?? "", c.factorRef, c.usedDemo ? "YES - not for regulatory use" : "no", c.savedAt ?? ""]),
     ]);

@@ -5,7 +5,7 @@ import { useId, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 import { converterDefaults, fmt, getConverter } from "@/lib/tools/converters";
-import { NumberField, downloadText, field, labelCls, toCsv } from "./shared";
+import { NumberField, csvFileName, downloadText, field, labelCls, toCsv } from "./shared";
 
 /** Renders one converter by slug (definitions hold functions, so they load on the client). */
 export function ConverterTool({ slug }: { slug: string }) {
@@ -30,7 +30,7 @@ export function ConverterTool({ slug }: { slug: string }) {
     try { await navigator.clipboard.writeText(record()); setCopied(true); setTimeout(() => setCopied(false), 2000); } catch {}
   };
   const exportCsv = () =>
-    downloadText(`${c.slug}-${mode}.csv`, toCsv(`${c.name} Calculation Record`, [
+    downloadText(csvFileName(c.slug, c.modes && mode), toCsv(`${c.name} Calculation Record`, [
       ["Engineering arithmetic only. Reference O2, F-factors, standard conditions, and limits come from your permit or rule."],
       ...(modeLabel ? [["Direction", modeLabel]] : []),
       [],

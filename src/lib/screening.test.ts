@@ -177,9 +177,9 @@ describe("screening", () => {
   it("exports a labeled CSV with every result and its rule text", () => {
     const r = screen({ ...base, equipment: ["Storage Tanks"] }, profiles);
     const csv = permitFinderCsv([["Facility", "Tank Battery"]], r, "2026-10-31");
-    const lines = csv.split("\n");
-    expect(lines[0]).toBe('"AirPermitHub Template: Permit Path Screening (not an agency form)"');
-    expect(lines[1]).toMatch(/^"Screening only\. Not a permit determination\./);
+    const lines = csv.split("\r\n");
+    expect(lines[0]).toBe("AirPermitHub Template: Permit Path Screening (not an agency form)");
+    expect(lines[1]).toMatch(/^Screening only\. Not a permit determination\./);
     for (const x of [...r.pathways, ...r.federalRules]) expect(csv).toContain(x.title.replace(/"/g, '""'));
     expect(csv).toContain(RT.kb.text);
     expect(csv).not.toMatch(/permit is required/i);

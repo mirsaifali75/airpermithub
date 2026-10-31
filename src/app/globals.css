@@ -134,8 +134,18 @@
 }
 
 @media print {
+  @page { margin: 12mm 12mm 14mm; }
   header, footer, .no-print { display: none !important; }
-  body { background: #fff; }
+  /* Selected chips, result cards, and badges carry white text on color: print the colors so they stay readable. */
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { background: #fff; padding-bottom: 0 !important; }
+  .shadow-card, .shadow-lift { box-shadow: none !important; }
+  ::placeholder { color: transparent !important; }
+  /* Action buttons do nothing on paper. Buttons that show a choice (selected tab, chip, direction) stay; unchosen options go. */
+  button:not([aria-pressed], [aria-checked], [aria-selected], [aria-current], [aria-expanded], [aria-haspopup], [data-print]),
+  button[aria-pressed="false"], [role="radio"][aria-checked="false"], [role="tab"][aria-selected="false"] { display: none !important; }
+  tr, li, figure, blockquote, pre, dl > div { break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; }
 }
 
 /* Hero scene micro-animations (disabled by reduced-motion rule above) */

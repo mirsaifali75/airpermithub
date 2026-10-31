@@ -4,6 +4,8 @@
  * start month to match the permit, and these helpers group entries by it.
  */
 
+import { csvLines } from "../csv";
+
 export interface Deviation {
   id: string;
   /** YYYY-MM-DD the deviation began. */
@@ -83,15 +85,9 @@ export function groupByPeriod(devs: Deviation[], startMonth: number, months: num
   return [...groups.values()].sort((a, b) => b.period.from.localeCompare(a.period.from));
 }
 
-const csvCell = (v: unknown) => {
-  const s = v === null || v === undefined ? "" : String(v);
-  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
-};
-
 export function deviationsCsv(devs: Deviation[], startMonth: number, months: number): string {
   const head = ["Reporting period", ...deviationColumns.map((c) => c.label)];
   const rows = devs.map((d) => [d.start ? periodFor(d.start, startMonth, months).label : "", ...deviationColumns.map((c) => d[c.key])]);
-  return ["AirPermitHub Template: Deviation Log (not an agency form)", head.map(csvCell).join(","), ...rows.map((r) => r.map(csvCell).join(","))].join("\r\n");
+  return csvLines([["AirPermitHub Template: Deviation Log (not an agency form)"], head, ...rows]);
 }
 
-export { csvCell };
