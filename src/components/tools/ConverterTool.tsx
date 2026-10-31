@@ -1,10 +1,11 @@
 "use client";
 
-import { Calculator } from "lucide-react";
+import { Calculator, Check, Copy, Download, Printer } from "lucide-react";
 import { useId, useState } from "react";
+import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 import { converterDefaults, fmt, getConverter } from "@/lib/tools/converters";
-import { NumberField, field, labelCls } from "./shared";
+import { NumberField, downloadText, field, labelCls, toCsv } from "./shared";
 
 /** Renders one converter by slug (definitions hold functions, so they load on the client). */
 export function ConverterTool({ slug }: { slug: string }) {
@@ -14,6 +15,35 @@ export function ConverterTool({ slug }: { slug: string }) {
   const [v, setV] = useState<Record<string, number | null>>(() => converterDefaults(c));
   const out = c.compute(v, mode);
   const fields = c.fields.filter((f) => !f.modes || f.modes.includes(mode));
+  const [copied, setCopied] = useState(false);
+  const modeLabel = c.modes?.find((m) => m.key === mode)?.label;
+
+  /** Inputs, results, and steps as plain lines, for a calculation record or an email. */
+  const record = () => [
+    `${c.name}${modeLabel ? ` (${modeLabel})` : ""}`,
+    ...fields.map((f) => `${f.label}: ${v[f.key] ?? "(blank)"}${f.unit ? ` ${f.unit}` : ""}`),
+    ...out.results.map((r) => `${r.label}: ${fmt(r.value)} ${r.unit}`),
+    ...out.steps,
+    "Calculated with AirPermitHub. Reference values (O2, F-factors, standard conditions, limits) come from your permit or rule.",
+  ].join("\n");
+  const copy = async () => {
+    try { await navigator.clipboard.writeText(record()); setCopied(true); setTimeout(() => setCopied(false), 2000); } catch {}
+  };
+  const exportCsv = () =>
+    downloadText(`${c.slug}-${mode}.csv`, toCsv(`${c.name} Calculation Record`, [
+      ["Engineering arithmetic only. Reference O2, F-factors, standard conditions, and limits come from your permit or rule."],
+      ...(modeLabel ? [["Direction", modeLabel]] : []),
+      [],
+      ["Input", "Value", "Unit"], ...fields.map((f) => [f.label, v[f.key] ?? "", f.unit ?? ""]),
+      [],
+      ["Result", "Value", "Unit"], ...out.results.map((r) => [r.label, r.value, r.unit]),
+      [],
+      ["Steps"], ...out.steps.map((st) => [st]),
+      [],
+      ["Formula"], ...c.formula.map((f) => [f]),
+      [],
+      ["Source", "URL"], ...c.sources.map((src) => [src.title, src.url]),
+    ]));
 
   return (
     <section className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-h`}>
@@ -68,6 +98,13 @@ export function ConverterTool({ slug }: { slug: string }) {
               <ol className="mt-2 space-y-1.5">
                 {out.steps.map((st) => <li key={st} className="font-mono text-xs leading-relaxed break-words text-slate-700">{st}</li>)}
               </ol>
+            </div>
+          )}
+          {!out.error && (
+            <div className="no-print flex flex-wrap gap-2">
+              <Button size="sm" variant="subtle" onClick={copy}>{copied ? <Check className="h-4 w-4" aria-hidden="true" /> : <Copy className="h-4 w-4" aria-hidden="true" />} {copied ? "Copied" : "Copy result and steps"}</Button>
+              <Button size="sm" variant="subtle" onClick={exportCsv}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
+              <Button size="sm" variant="subtle" onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print / PDF</Button>
             </div>
           )}
         </div>

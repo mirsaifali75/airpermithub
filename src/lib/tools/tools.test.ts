@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { converterDefaults, converters, getConverter, molarVolumeScf } from "./converters";
 import { deviationsCsv, groupByPeriod, periodFor, type Deviation } from "./deviations";
-import { addMonthsToDate, calendarCategory, conditionTitle, parsePermitText } from "./matrix";
+import { addMonthsToDate, calendarCategory, calendarTask, conditionTitle, parsePermitText } from "./matrix";
+import { dueDates, parseYmd } from "../compliance-calendar";
 import { addMonths, monthIndex, parsePastedColumn, parsePastedTable } from "./months";
 import { baselineWindows, bestBaseline, projectIncrease } from "./nsr";
 import { computeRolling, firstForecastExceedance, nextMonthHeadroom } from "./rolling";
@@ -202,6 +203,14 @@ describe("permit text parser", () => {
     expect(conditionTitle({ ref: "3", text: "Submit the report. Then more." })).toBe("3: Submit the report.");
     expect(addMonthsToDate("2026-01-31", 1)).toBe("2026-02-28");
     expect(addMonthsToDate("2026-11-15", 3)).toBe("2027-02-15");
+  });
+  it("makes one repeating calendar task per dated condition, with the condition as its basis", () => {
+    const base = { ref: "2.3", text: "Conduct a visible emissions observation each calendar quarter.", types: ["Monitoring" as const], citations: ["40 CFR 60.18"], type: "" as const, due: "2026-12-31" };
+    const q = calendarTask({ ...base, frequency: "Quarterly" }, "North Pad", "2026-10-31");
+    expect(q).toMatchObject({ id: "mx-2.3", facility: "North Pad", category: "Monitoring", date: "2026-12-31", repeat: "quarterly", basis: "Permit condition 2.3; 40 CFR 60.18", created: "2026-10-31" });
+    expect(dueDates(q, parseYmd("2026-10-31"), parseYmd("2027-12-31")).length).toBe(5);
+    expect(calendarTask({ ...base, frequency: "12-month rolling" }, "", "2026-10-31")).toMatchObject({ repeat: "monthly", facility: "My facility" });
+    expect(calendarTask({ ...base, frequency: "One-time" }, "", "2026-10-31").repeat).toBe("none");
   });
 });
 

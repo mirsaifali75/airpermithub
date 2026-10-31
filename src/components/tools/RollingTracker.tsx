@@ -1,7 +1,8 @@
 "use client";
 
-import { AlertTriangle, CheckCircle2, ClipboardPaste, Download, FlaskConical, Plus, RotateCcw, Trash2, TrendingUp } from "lucide-react";
+import { AlertTriangle, CheckCircle2, ClipboardPaste, Download, FlaskConical, Plus, Printer, RotateCcw, Trash2, TrendingUp } from "lucide-react";
 import { useEffect, useId, useMemo, useState } from "react";
+import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 import { addMonths, isMonth, monthName, parsePastedColumn, thisMonth } from "@/lib/tools/months";
@@ -18,6 +19,8 @@ interface TrackerState {
   start: string;
   values: (number | null)[];
   forecast: (number | null)[];
+  /** The example is loaded; cleared by Clear or a paste. */
+  demo?: boolean;
 }
 
 const blank = (start = ""): TrackerState => ({ param: "", units: "tons", mode: "sum", period: 12, limit: null, alertPct: 90, start, values: Array(12).fill(null), forecast: [] });
@@ -27,6 +30,7 @@ const example = (): TrackerState => ({
   param: "Example: facility NOx", units: "tons", mode: "sum", period: 12, limit: 41, alertPct: 90, start: addMonths(thisMonth(), -18),
   values: [2.6, 2.4, 2.9, 3.1, 3.4, 3.6, 3.2, 2.8, 2.7, 3.0, 3.3, 3.5, 3.4, 3.1, 3.6, 3.8, 3.7, 3.4],
   forecast: [3.6, 3.7, 3.9],
+  demo: true,
 });
 
 const n2 = (v: number | null | undefined, d = 2) => (v === null || v === undefined || !Number.isFinite(v) ? "—" : v.toLocaleString("en-US", { maximumFractionDigits: d }));
@@ -64,7 +68,7 @@ export function RollingTracker() {
   const usePaste = () => {
     const vals = parsePastedColumn(paste);
     if (!vals.length) { setPasteMsg("No numbers found. Paste one value per line."); return; }
-    set({ values: vals });
+    set({ values: vals, demo: false });
     setPasteMsg(`Loaded ${vals.length} months starting ${isMonth(s.start) ? monthName(s.start) : "the first month"}.`);
     setPaste("");
   };
@@ -72,7 +76,11 @@ export function RollingTracker() {
   const exportCsv = () => {
     const head = ["Month", `Value (${u})`, "Forecast", `Rolling ${opts.period}-month ${opts.mode} (${u})`, "Months in window", "% of limit", "Status"];
     const body = rows.map((r) => [isMonth(s.start) ? addMonths(s.start, r.index) : r.index + 1, r.value ?? "", r.forecast ? "yes" : "", r.total ?? "", r.count, r.pct === null ? "" : r.pct.toFixed(1), statusMeta[r.status].label]);
-    const meta = [["Parameter", s.param], ["Limit", s.limit ?? "", u], ["Alert at % of limit", opts.alertPct], ["Next-month headroom", headroom ?? "", u], []];
+    const meta = [
+      ...(s.demo ? [["DEMO DATA: illustrative numbers, not a real facility"]] : []),
+      ["Recordkeeping aid. The limit, window, and sum or average come from your permit condition; check every value against your records."],
+      ["Parameter", s.param], ["Limit", s.limit ?? "", u], ["Alert at % of limit", opts.alertPct], ["Next-month headroom", headroom ?? "", u], [],
+    ];
     downloadText(`rolling-${opts.period}-month-${(s.param || "tracker").toLowerCase().replace(/[^a-z0-9]+/g, "-")}.csv`, toCsv("Rolling Limit Tracker", [...meta, head, ...body]));
   };
 
@@ -119,6 +127,7 @@ export function RollingTracker() {
             <input id={`${uid}-s`} type="month" className={field} value={s.start} onChange={(e) => set({ start: e.target.value })} />
           </div>
         </div>
+        {s.demo && <p className="mt-3"><Badge tone="amber">Demo data: illustrative numbers, not a real facility</Badge></p>}
         <p className="mt-3 text-xs text-muted">Your permit condition defines the limit, the window, and whether it is a sum or an average. Enter them exactly as written. Data stays in this browser.</p>
       </section>
 
@@ -178,9 +187,13 @@ export function RollingTracker() {
 
       <section className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-res`}>
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 id={`${uid}-res`} className="text-lg font-bold text-ink">3. Results</h2>
-          <Button variant="subtle" size="sm" onClick={exportCsv}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
+          <h2 id={`${uid}-res`} className="text-lg font-bold text-ink">3. Results{s.param ? `: ${s.param}` : ""}</h2>
+          <div className="no-print flex flex-wrap gap-2">
+            <Button variant="subtle" size="sm" onClick={exportCsv}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
+            <Button variant="subtle" size="sm" onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print / PDF</Button>
+          </div>
         </div>
+        {s.demo && <p className="mt-2"><Badge tone="amber">Demo data: illustrative numbers, not a real facility</Badge></p>}
         <dl className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <Stat label={latest ? `Rolling ${opts.mode === "sum" ? "total" : "average"}, ${label(latest.index)}` : "Rolling value"} value={latest ? `${n2(latest.total)} ${u}` : "Need a full window"} sub={latest && latest.pct !== null ? `${n2(latest.pct, 1)}% of limit` : s.limit === null ? "Enter a limit to compare" : undefined} tone={latest?.status} />
           <Stat label={`Headroom for ${label(s.values.length)}`} value={headroom === null ? "—" : `${n2(headroom)} ${u}`} sub={headroom === null ? (s.limit === null ? "Enter a limit" : `Needs the last ${opts.period - 1} months`) : headroom < 0 ? "Over even at zero next month" : "Most next month can be and stay at or under the limit"} tone={headroom !== null && headroom < 0 ? "over" : undefined} />

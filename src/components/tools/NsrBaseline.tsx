@@ -1,7 +1,8 @@
 "use client";
 
-import { ArrowDown, ClipboardPaste, Download, FlaskConical, Plus, RotateCcw, Trash2 } from "lucide-react";
+import { ArrowDown, ClipboardPaste, Download, FlaskConical, Plus, Printer, RotateCcw, Trash2 } from "lucide-react";
 import { useEffect, useId, useMemo, useState } from "react";
+import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 import { addMonths, isMonth, monthFromIndex, monthIndex, monthName, parsePastedTable, thisMonth } from "@/lib/tools/months";
@@ -22,6 +23,8 @@ interface NsrState {
   project: ProjectUnit[];
   significance: number | null;
   countDecreases: boolean;
+  /** The example is loaded; cleared by Clear or a paste. */
+  demo?: boolean;
 }
 
 const blank = (dataStart = ""): NsrState => ({
@@ -44,7 +47,7 @@ const example = (): NsrState => {
       { name: "Turbine T-3", kind: "existing", baseline: 0, projected: 36, usesPte: false, excluded: 0 },
       { name: "New heater H-4", kind: "new", baseline: 0, projected: 6, usesPte: false, excluded: 0 },
     ],
-    significance: null, countDecreases: false,
+    significance: null, countDecreases: false, demo: true,
   };
 };
 
@@ -86,7 +89,7 @@ export function NsrBaseline() {
     if (!rows.length) { setMsg("No numbers found. Paste rows of months with one column per unit."); return; }
     const cols = Math.max(...rows.map((r) => r.length));
     const units = Array.from({ length: Math.min(8, cols) }, (_, c) => ({ name: s.units[c]?.name ?? `EU-${c + 1}`, monthly: rows.map((r) => r[c] ?? null) }));
-    set({ units, months: rows.length });
+    set({ units, months: rows.length, demo: false });
     setMsg(`Loaded ${rows.length} months for ${units.length} unit${units.length > 1 ? "s" : ""}. Rename the units below if needed.`);
     setPaste("");
   };
@@ -100,7 +103,10 @@ export function NsrBaseline() {
     set({ project: [...existing, ...extra] });
   };
   const exportCsv = () => {
-    const meta = [["Pollutant", s.pollutant], ["Project date (earlier of construction or complete application)", s.projectMonth], ["Lookback (years)", years], ["Averaging window (months)", win], []];
+    const meta = [
+      ...(s.demo ? [["DEMO DATA: illustrative numbers, not a real facility"]] : []),
+      ["Worksheet only. Not an applicability determination; the reviewing agency decides what counts toward baseline and projected emissions."],
+      ["Pollutant", s.pollutant], ["Project date (earlier of construction or complete application)", s.projectMonth], ["Lookback (years)", years], ["Averaging window (months)", win], []];
     const data = [["Month", ...s.units.map((u) => `${u.name} (tons)`)], ...Array.from({ length: s.months }, (_, i) => [monthFromIndex(startIdx + i), ...s.units.map((u) => u.monthly[i] ?? "")]), []];
     const base = best ? [["Highest eligible window", `${monthFromIndex(best.start)} to ${monthFromIndex(best.start + win - 1)}`], ...s.units.map((u, i) => [`${u.name} baseline (tpy)`, best.perUnit[i]]), ["Total (tpy)", best.total], []] : [["No eligible window"], []];
     const proj = [["Unit", "Type", "Baseline (tpy)", "Projected or PTE (tpy)", "Uses PTE", "Excluded (tpy)", "Increase (tpy)"], ...s.project.map((p, i) => [p.name, p.kind, p.kind === "new" ? 0 : p.baseline, p.projected, p.usesPte ? "yes" : "", p.excluded, result.perUnit[i].increase]), ["Sum", "", "", "", "", "", result.total], ["Significance value entered (tpy)", s.significance ?? ""], ["Decreases counted", s.countDecreases ? "yes" : "no"]];
@@ -117,6 +123,7 @@ export function NsrBaseline() {
             <Button variant="subtle" size="sm" onClick={() => setS(blank(addMonths(thisMonth(), -37)))}><RotateCcw className="h-4 w-4" aria-hidden="true" /> Clear</Button>
           </div>
         </div>
+        {s.demo && <p className="mt-3"><Badge tone="amber">Demo data: illustrative numbers, not a real facility</Badge></p>}
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <label htmlFor={`${uid}-pol`} className={labelCls}>Regulated NSR pollutant</label>
@@ -223,8 +230,12 @@ export function NsrBaseline() {
       <section className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-c`}>
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 id={`${uid}-c`} className="text-lg font-bold text-ink">3. Baseline actual emissions</h2>
-          <Button variant="subtle" size="sm" onClick={exportCsv}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
+          <div className="no-print flex flex-wrap gap-2">
+            <Button variant="subtle" size="sm" onClick={exportCsv}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
+            <Button variant="subtle" size="sm" onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print / PDF</Button>
+          </div>
         </div>
+        {s.demo && <p className="mt-2"><Badge tone="amber">Demo data: illustrative numbers, not a real facility</Badge></p>}
         {best ? (
           <>
             <div className="mt-4 rounded-xl border border-eco-500/30 bg-eco-50 p-4">

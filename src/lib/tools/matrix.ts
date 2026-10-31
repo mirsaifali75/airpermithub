@@ -5,6 +5,8 @@
  * condition requires.
  */
 
+import type { StoredTask } from "@/lib/compliance-calendar";
+
 export const conditionTypes = ["Limit", "Monitoring", "Testing", "Recordkeeping", "Reporting", "Certification", "LDAR", "Inspection", "Work practice"] as const;
 export type ConditionType = (typeof conditionTypes)[number];
 
@@ -136,6 +138,35 @@ export function recurrence(f: Frequency): { count: number; stepMonths: number } 
     default:
       return null; // continuous, daily, weekly: too frequent for calendar entries
   }
+}
+
+const repeatFor: Partial<Record<Frequency, NonNullable<StoredTask["repeat"]>>> = {
+  Monthly: "monthly", "12-month rolling": "monthly", Quarterly: "quarterly", Semiannual: "semiannual", Annual: "annual",
+};
+
+/** Calendar id for a condition; older versions wrote one entry per month as `${id}-${k}`. */
+export const matrixTaskId = (ref: string) => `mx-${ref}`.replace(/\s+/g, "_");
+
+/**
+ * One Compliance Calendar task for a dated condition, repeating as its
+ * frequency says, with the condition number (and any citations) as its basis.
+ */
+export function calendarTask(
+  r: Pick<ParsedCondition, "ref" | "text" | "types" | "citations"> & { type: ConditionType | ""; frequency: Frequency; due: string },
+  facility: string,
+  today: string,
+): StoredTask {
+  return {
+    id: matrixTaskId(r.ref),
+    title: conditionTitle(r),
+    facility: facility || "My facility",
+    category: calendarCategory(r.type && r.type !== "Limit" && r.type !== "Work practice" ? [r.type] : r.types),
+    date: r.due,
+    repeat: repeatFor[r.frequency] ?? "none",
+    remindDays: 7,
+    basis: [`Permit condition ${r.ref}`, ...r.citations].join("; "),
+    created: today,
+  };
 }
 
 /** Adds whole months to a YYYY-MM-DD date, clamping to the last day of the month. */

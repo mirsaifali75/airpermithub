@@ -1,12 +1,14 @@
 "use client";
 
-import { CalendarPlus, ChevronDown, ChevronUp, Download, FileText, Merge, RotateCcw, Trash2, Wand2 } from "lucide-react";
+import { CalendarPlus, ChevronDown, ChevronUp, Download, FileText, Merge, Printer, RotateCcw, Trash2, Wand2 } from "lucide-react";
 import Link from "next/link";
 import { useId, useMemo, useState } from "react";
+import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { STORE as CAL_STORE, ymd, type StoredTask } from "@/lib/compliance-calendar";
 import { cn } from "@/lib/cn";
 import {
-  addMonthsToDate, calendarCategory, classify, conditionTitle, conditionTypes, frequencies, parsePermitText, recurrence,
+  calendarTask, classify, conditionTitle, conditionTypes, frequencies, matrixTaskId, parsePermitText, recurrence,
   type ConditionType, type Frequency, type ParsedCondition,
 } from "@/lib/tools/matrix";
 import { downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
@@ -20,9 +22,8 @@ interface MatrixRow extends ParsedCondition {
   evidence: string;
   due: string;
 }
-interface MatrixState { facility: string; split: boolean; rows: MatrixRow[] }
+interface MatrixState { facility: string; split: boolean; rows: MatrixRow[]; /** Rows came from the sample text. */ sample?: boolean }
 
-const CAL_STORE = "aph.compliance.tasks.v1";
 
 const sample = `SAMPLE PERMIT TEXT (written by AirPermitHub to show the tool; not from a real permit)
 1. Emission Limits
@@ -77,9 +78,9 @@ export function MatrixBuilder() {
   const shown = s.rows.filter((r) => !typeFilter || r.heading || r.type === typeFilter || r.types.includes(typeFilter));
   const dated = reqs.filter((r) => r.due && recurrence(r.frequency));
 
-  const build = (src: string) => {
+  const build = (src: string, isSample = false) => {
     const parsed = parsePermitText(src, { splitSubitems: s.split });
-    set({ rows: parsed.map(toRow) });
+    set({ rows: parsed.map(toRow), sample: isSample });
     setMsg(`Found ${parsed.filter((c) => !isHeading(c.text)).length} conditions. Review each suggested type and frequency.`);
   };
 
@@ -96,25 +97,22 @@ export function MatrixBuilder() {
   const exportCsv = () => {
     const head = ["Condition", "Requirement text", "Type", "All suggested types", "Frequency", "Citations", "Deadline phrases", "Owner", "Evidence / record", "Next due"];
     const body = s.rows.map((r) => (r.heading ? [r.ref, r.text.toUpperCase()] : [r.ref, r.text, r.type, r.types.join("; "), r.frequency, r.citations.join("; "), r.deadlines.join("; "), r.owner, r.evidence, r.due]));
-    downloadText(`compliance-matrix${s.facility ? `-${s.facility.toLowerCase().replace(/[^a-z0-9]+/g, "-")}` : ""}.csv`, toCsv("Compliance Matrix", [["Facility", s.facility], [], head, ...body]));
+    downloadText(`compliance-matrix${s.facility ? `-${s.facility.toLowerCase().replace(/[^a-z0-9]+/g, "-")}` : ""}.csv`, toCsv("Compliance Matrix", [["Facility", s.facility], ...(s.sample ? [["DEMO DATA: sample permit text written by AirPermitHub, not a real permit"]] : []), ["Suggested types and frequencies are keyword-based. Confirm each against the permit."], [], head, ...body]));
   };
 
   const toCalendar = () => {
-    let existing: { id: string }[] = [];
+    if (s.sample) return;
+    let existing: StoredTask[] = [];
     try { existing = JSON.parse(localStorage.getItem(CAL_STORE) ?? "[]"); } catch {}
-    const tasks = dated.flatMap((r) => {
-      const rec = recurrence(r.frequency)!;
-      return Array.from({ length: rec.count }, (_, k) => ({
-        id: `mx-${r.ref}-${k}`.replace(/\s+/g, "_"),
-        title: conditionTitle(r),
-        facility: s.facility || "My facility",
-        category: calendarCategory(r.type && r.type !== "Limit" && r.type !== "Work practice" ? [r.type] : r.types),
-        date: addMonthsToDate(r.due, k * rec.stepMonths),
-      }));
-    });
+    const tasks = dated.map((r) => calendarTask(r, s.facility, ymd(new Date())));
     const ids = new Set(tasks.map((t) => t.id));
-    try { localStorage.setItem(CAL_STORE, JSON.stringify([...existing.filter((t) => !ids.has(t.id)), ...tasks])); } catch {}
-    setMsg(`Added ${tasks.length} calendar ${tasks.length === 1 ? "entry" : "entries"} for the next 12 months.`);
+    // Replace this condition's earlier entries, including the one-per-month entries older versions wrote.
+    const stale = (id: string) => ids.has(id) || dated.some((r) => id.startsWith(`${matrixTaskId(r.ref)}-`));
+    const kept = existing.filter((t) => !stale(t.id));
+    const merged = tasks.map((t) => ({ ...t, done: existing.find((e) => e.id === t.id)?.done }));
+    try { localStorage.setItem(CAL_STORE, JSON.stringify([...kept, ...merged])); } catch {}
+    const repeating = tasks.filter((t) => t.repeat !== "none").length;
+    setMsg(`Added ${tasks.length} calendar task${tasks.length === 1 ? "" : "s"}${repeating ? `, ${repeating} repeating` : ""}, each with its condition number as the basis.`);
   };
 
   return (
@@ -135,8 +133,8 @@ export function MatrixBuilder() {
         <textarea id={`${uid}-t`} value={text} onChange={(e) => setText(e.target.value)} rows={9} placeholder="Paste permit conditions here" className="mt-3 w-full rounded-xl border border-line bg-white p-3 font-mono text-xs leading-relaxed focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none" />
         <div className="mt-3 flex flex-wrap gap-2">
           <Button size="sm" disabled={!text.trim()} onClick={() => build(text)}><Wand2 className="h-4 w-4" aria-hidden="true" /> Build matrix</Button>
-          <Button size="sm" variant="subtle" onClick={() => { setText(sample); build(sample); }}><FileText className="h-4 w-4" aria-hidden="true" /> Try sample text</Button>
-          {s.rows.length > 0 && <Button size="sm" variant="subtle" onClick={() => { set({ rows: [] }); setMsg(""); }}><RotateCcw className="h-4 w-4" aria-hidden="true" /> Clear matrix</Button>}
+          <Button size="sm" variant="subtle" onClick={() => { setText(sample); build(sample, true); }}><FileText className="h-4 w-4" aria-hidden="true" /> Try sample text</Button>
+          {s.rows.length > 0 && <Button size="sm" variant="subtle" onClick={() => { set({ rows: [], sample: false }); setMsg(""); }}><RotateCcw className="h-4 w-4" aria-hidden="true" /> Clear matrix</Button>}
         </div>
         {msg && <p role="status" className="mt-3 text-sm text-slate-700">{msg}{msg.startsWith("Added") && <> <Link href="/compliance?view=list" className="font-semibold text-brand-700 hover:underline">Open the Compliance Calendar</Link></>}</p>}
       </section>
@@ -147,9 +145,14 @@ export function MatrixBuilder() {
             <h2 id={`${uid}-b`} className="text-lg font-bold text-ink">2. Review the matrix <span className="text-sm font-normal text-muted">({reqs.length} conditions)</span></h2>
             <div className="flex flex-wrap gap-2">
               <Button variant="subtle" size="sm" onClick={exportCsv}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
-              <Button variant="secondary" size="sm" disabled={dated.length === 0} onClick={toCalendar} title={dated.length ? undefined : "Set a next due date on at least one row"}><CalendarPlus className="h-4 w-4" aria-hidden="true" /> Add {dated.length || ""} dated to calendar</Button>
+              <Button variant="subtle" size="sm" onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print / PDF</Button>
+              <Button variant="secondary" size="sm" disabled={dated.length === 0 || !!s.sample} onClick={toCalendar}
+                title={s.sample ? "Sample text is never added to your calendar" : dated.length ? undefined : "Set a next due date on at least one row"}>
+                <CalendarPlus className="h-4 w-4" aria-hidden="true" /> Add {dated.length || ""} dated to calendar
+              </Button>
             </div>
           </div>
+          {s.sample && <p className="mt-3"><Badge tone="amber">Demo data: sample permit text written by AirPermitHub, not a real permit. Not added to your calendar.</Badge></p>}
           <div className="mt-4 flex flex-wrap gap-2" role="group" aria-label="Filter by type">
             <button type="button" aria-pressed={!typeFilter} onClick={() => setTypeFilter("")} className={cn("rounded-full px-3 py-1 text-xs font-semibold ring-1 ring-inset", !typeFilter ? "bg-navy-900 text-white ring-navy-900" : "bg-white text-slate-700 ring-line")}>All</button>
             {counts.map(([t, c]) => (
