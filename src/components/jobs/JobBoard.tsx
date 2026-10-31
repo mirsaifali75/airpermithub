@@ -31,6 +31,7 @@ export function JobBoard({ jobs: source = demoJobs, compact = false }: { jobs?: 
   };
 
   const states = uniq(source, "state");
+  const allDemo = source.every((j) => j.isDemo);
   const jobs = useMemo(() => {
     const t = q.trim().toLowerCase();
     const g = roleGroups.find((r) => r.label === group);
@@ -77,12 +78,14 @@ export function JobBoard({ jobs: source = demoJobs, compact = false }: { jobs?: 
             {["All Roles", ...roleGroups.map((r) => r.label)].map((g) => (
               <button key={g} onClick={() => setGroup(g)} aria-pressed={group === g} className={cn("rounded-full border px-3.5 py-1.5 text-sm font-semibold", group === g ? "border-brand-500 bg-brand-600 text-white" : "border-line text-slate-600 hover:border-brand-200")}>{g}</button>
             ))}
-            <button onClick={() => setShowMore((s) => !s)} aria-expanded={showMore} className="ml-auto inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold text-brand-600 hover:bg-brand-50">
-              <SlidersHorizontal className="h-4 w-4" aria-hidden="true" /> More filters
-            </button>
-            <button onClick={() => setSavedOnly((s) => !s)} aria-pressed={savedOnly} className={cn("inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold", savedOnly ? "bg-navy-900 text-white" : "text-slate-600 hover:bg-canvas")}>
-              <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> Saved ({saved.length})
-            </button>
+            <span className="ml-auto flex items-center gap-1">
+              <button onClick={() => setShowMore((s) => !s)} aria-expanded={showMore} className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold text-brand-600 hover:bg-brand-50">
+                <SlidersHorizontal className="h-4 w-4" aria-hidden="true" /> More filters
+              </button>
+              <button onClick={() => setSavedOnly((s) => !s)} aria-pressed={savedOnly} className={cn("inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold", savedOnly ? "bg-navy-900 text-white" : "text-slate-600 hover:bg-canvas")}>
+                <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> Saved ({saved.length})
+              </button>
+            </span>
           </div>
           {showMore && (
             <div className="mt-4 grid gap-3 rounded-xl bg-canvas p-3 sm:grid-cols-2 lg:grid-cols-5">
@@ -102,9 +105,9 @@ export function JobBoard({ jobs: source = demoJobs, compact = false }: { jobs?: 
           )}
         </div>
       )}
-      <p className="flex items-center justify-between px-5 pt-4 text-sm text-muted">
-        <span>{jobs.length} {jobs.length === 1 ? "job" : "jobs"}</span>
-        <DemoBadge>Sample listings</DemoBadge>
+      <p className="flex flex-wrap items-center justify-between gap-2 px-5 pt-4 text-sm text-muted">
+        <span className="shrink-0">{jobs.length} {allDemo ? "sample" : ""} {jobs.length === 1 ? "listing" : "listings"}</span>
+        {allDemo && <DemoBadge>Fictional samples, not real openings</DemoBadge>}
       </p>
       {jobs.length === 0 ? (
         <div className="p-5"><EmptyState title="No jobs match">Try clearing a filter or searching a broader title.</EmptyState></div>
@@ -113,8 +116,8 @@ export function JobBoard({ jobs: source = demoJobs, compact = false }: { jobs?: 
           {jobs.map((j) => {
             const c = companyFor(j.company);
             return (
-              <li key={j.id} className="flex items-center gap-4 px-4 py-4 sm:px-5">
-                <CompanyLogo company={j.company} />
+              <li key={j.id} className="flex items-start gap-3 px-4 py-4 sm:items-center sm:gap-4 sm:px-5">
+                <CompanyLogo company={j.company} size="sm" />
                 <div className="min-w-0 flex-1">
                   <p className="font-semibold text-navy-900">{j.title}</p>
                   <p className="text-sm text-muted">
@@ -127,10 +130,8 @@ export function JobBoard({ jobs: source = demoJobs, compact = false }: { jobs?: 
                     <span className="text-xs text-muted">{j.industry}</span>
                   </div>
                 </div>
-                <div className="flex flex-col items-end gap-2">
-                  {j.postedDaysAgo <= 2 && <span className="rounded-md bg-eco-50 px-2 py-0.5 text-xs font-bold text-eco-700">New</span>}
-                  <span className="hidden text-xs text-muted sm:block">{j.postedDaysAgo === 1 ? "1 day ago" : `${j.postedDaysAgo} days ago`}</span>
-                </div>
+                {/* Sample listings show no posting date: a date would suggest a real, recent opening */}
+                {j.isDemo ? <span className="hidden shrink-0 rounded-md bg-amber-50 px-2 py-0.5 text-xs font-semibold text-amber-800 sm:block">Sample</span> : <span className="hidden text-xs text-muted sm:block">{j.postedDaysAgo === 1 ? "1 day ago" : `${j.postedDaysAgo} days ago`}</span>}
                 <button onClick={() => toggleSave(j.id)} aria-pressed={saved.includes(j.id)} aria-label={saved.includes(j.id) ? `Remove ${j.title} from saved` : `Save ${j.title}`} className="rounded-lg p-2 text-slate-400 hover:bg-canvas hover:text-brand-600">
                   {saved.includes(j.id) ? <BookmarkCheck className="h-5 w-5 text-brand-600" /> : <Bookmark className="h-5 w-5" />}
                 </button>

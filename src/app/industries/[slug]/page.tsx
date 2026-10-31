@@ -133,12 +133,12 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
             <Link href="/resources" className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Compliance resources <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
           </div>
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
-            <h2 className="flex items-center gap-2 text-lg font-bold text-ink"><Briefcase className="h-5 w-5 text-brand-500" aria-hidden="true" /> Relevant jobs</h2>
+            <h2 className="flex items-center gap-2 text-lg font-bold text-ink"><Briefcase className="h-5 w-5 text-brand-500" aria-hidden="true" /> Sample job listings</h2>
             <div className="mt-1"><DemoBadge>Demo listings</DemoBadge></div>
             <ul className="mt-3 space-y-2.5">
               {(jobs.length ? jobs : demoJobs.slice(0, 2)).map((j) => <li key={j.id} className="text-sm"><span className="font-medium text-ink">{j.title}</span><span className="block text-muted">{j.company} · {j.city}, {j.state}</span></li>)}
             </ul>
-            <Link href="/jobs" className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Browse jobs <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+            <Link href="/jobs" className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">Job board preview and real job sites <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
           </div>
         </section>
         <Disclaimer />

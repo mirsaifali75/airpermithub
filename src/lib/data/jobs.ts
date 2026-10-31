@@ -54,6 +54,19 @@ export const demoCompanies: DemoCompany[] = [
   { slug: "sample-chemical", name: "Sample Chemical (Demo)", initials: "SC", color: "bg-teal-700", kind: "Chemical · Fictional", hq: "Baton Rouge, LA", locations: ["Baton Rouge, LA"], about: "A fictional chemical manufacturer used to preview the job board.", isDemo: true },
 ];
 
+/**
+ * Real places to look for openings while the board shows samples: official
+ * public employer sites only, each checked to load. Not an endorsement.
+ */
+export const publicJobBoards: { name: string; note: string; url: string }[] = [
+  { name: "USAJOBS: air quality search", note: "Federal openings, including EPA", url: "https://www.usajobs.gov/search/results/?k=air%20quality" },
+  { name: "EPA Careers", note: "Hiring paths and how to apply", url: "https://www.epa.gov/careers" },
+  { name: "TCEQ Jobs", note: "Texas Commission on Environmental Quality", url: "https://www.tceq.texas.gov/jobs" },
+  { name: "LDEQ Careers", note: "Louisiana Department of Environmental Quality", url: "https://www.deq.louisiana.gov/page/careers" },
+  { name: "CDPHE Careers", note: "Colorado Department of Public Health and Environment", url: "https://cdphe.colorado.gov/careers" },
+  { name: "CalCareers", note: "California state government jobs", url: "https://www.calcareers.ca.gov/" },
+];
+
 export const companyFor = (name: string) => demoCompanies.find((c) => c.name === name);
 export const getCompany = (slug: string) => demoCompanies.find((c) => c.slug === slug);
 
@@ -74,7 +87,7 @@ export interface Job {
 }
 
 export const demoJobs: Job[] = [
-  { id: "demo-1", title: "Air Permitting Engineer", category: "Air Quality Engineer", company: "Sample Energy Co. (Demo)", city: "Midland", state: "TX", remote: false, type: "Full-time", experience: "Mid", industry: "Oil & Gas", salary: "Salary shown when provided", postedDaysAgo: 1, isDemo: true },
+  { id: "demo-1", title: "Air Permitting Engineer", category: "Air Quality Engineer", company: "Sample Energy Co. (Demo)", city: "Midland", state: "TX", remote: false, type: "Full-time", experience: "Mid", industry: "Oil & Gas", postedDaysAgo: 1, isDemo: true },
   { id: "demo-2", title: "EHS Specialist – Midstream", category: "EHS Specialist", company: "Example Midstream LLC (Demo)", city: "Carlsbad", state: "NM", remote: false, type: "Full-time", experience: "Mid", industry: "Midstream", postedDaysAgo: 2, isDemo: true },
   { id: "demo-3", title: "Air Quality Consultant", category: "Air Quality Consultant", company: "Placeholder Environmental (Demo)", city: "Houston", state: "TX", remote: true, type: "Full-time", experience: "Senior", industry: "Consulting", postedDaysAgo: 3, isDemo: true },
   { id: "demo-4", title: "LDAR Technician", category: "LDAR", company: "Demo Field Services", city: "Odessa", state: "TX", remote: false, type: "Contract", experience: "Entry", industry: "Oil & Gas", postedDaysAgo: 4, isDemo: true },

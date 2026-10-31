@@ -69,7 +69,7 @@ export function LatestJobs() {
   return (
     <section className="bg-canvas py-16 sm:py-20" aria-labelledby="jobs-heading">
       <div className="container-page">
-        <SectionHeading id="jobs-heading" eyebrow="Careers" title="Air Quality Jobs" action={{ label: "Browse all jobs", href: "/jobs" }} description={<>Sample listings preview the job board. <DemoBadge>Demo listings</DemoBadge></>} />
+        <SectionHeading id="jobs-heading" eyebrow="Careers" title="Air Quality Jobs" action={{ label: "Preview the job board", href: "/jobs" }} description={<>Sample listings preview the job board. <DemoBadge>Demo listings</DemoBadge></>} />
         <ul className="grid gap-3 md:grid-cols-2">
           {demoJobs.slice(0, 4).map((j) => (
             <li key={j.id} className="min-w-0">

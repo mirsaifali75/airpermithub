@@ -44,7 +44,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
             <DemoBadge>Fictional company</DemoBadge>
           </div>
           <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-white/10 sm:max-w-md">
-            <div className="glass-dark px-5 py-3"><dt className="text-xs text-white/60">Open jobs</dt><dd className="font-display text-2xl font-extrabold">{jobs.length}</dd></div>
+            <div className="glass-dark px-5 py-3"><dt className="text-xs text-white/60">Sample listings</dt><dd className="font-display text-2xl font-extrabold">{jobs.length}</dd></div>
             <div className="glass-dark px-5 py-3"><dt className="text-xs text-white/60">Locations</dt><dd className="font-display text-2xl font-extrabold">{c.locations.length}</dd></div>
           </dl>
         </div>
@@ -58,7 +58,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
               content: (
                 <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
                   <div className="space-y-4">
-                    <h2 className="text-xl font-bold text-ink">Current openings ({jobs.length})</h2>
+                    <h2 className="text-xl font-bold text-ink">Sample listings ({jobs.length})</h2>
                     <JobBoard jobs={jobs} compact />
                   </div>
                   <div className="rounded-2xl border border-line bg-white p-5 shadow-card">
@@ -68,7 +68,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
                 </div>
               ),
             },
-            { label: "Jobs", count: jobs.length, content: <JobBoard jobs={jobs} /> },
+            { label: "Listings", count: jobs.length, content: <JobBoard jobs={jobs} /> },
             {
               label: "Locations",
               count: c.locations.length,
