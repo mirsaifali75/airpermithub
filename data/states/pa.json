@@ -28,7 +28,7 @@
     {
       "type": "exemption",
       "name": "Plan approval exemptions and trivial activities",
-      "description": "Eight broad categories under 127.14(a) and roughly 49 numbered categories under 127.14(a)(8) (categories 45-49 require an RFD). Trivial activities need no notice, RFD, plan approval, or listing in a permit application. Examples include small combustion units, small engines, small uncontrolled VOC projects (with 15-day notice), and de minimis increases under 127.449. Records supporting threshold exemptions must be kept 5 years.",
+      "description": "25 Pa. Code 127.14(a) lists the sources that do not need plan approval, including (a)(8) sources DEP has determined to be of minor significance; DEP's exemption list (275-2101-003) sets out about 49 numbered categories (categories 45-49 require an RFD). Trivial activities need no notice, RFD, plan approval, or listing in a permit application. Examples include small combustion units, small engines, small uncontrolled VOC projects (with 15-day notice), and de minimis increases under 127.449. Records supporting threshold exemptions must be kept 5 years.",
       "citation": "25 Pa. Code 127.14; DEP 275-2101-003 (July 1, 2021)",
       "url": "https://greenport.pa.gov/elibrary//PDFProvider.ashx?action=PDFStream&docID=3791499&revision=0&docName=01+AIR+QUALITY+PERMIT+EXEMPTIONS&nativeExt=pdf&PromptToSave=False&Size=251545&ViewerMode=2&overlay=0",
       "quote": "Combustion units with a rated capacity of less than 10 million Btus per hour of heat input",
@@ -45,7 +45,8 @@
       "type": "general",
       "name": "General Plan Approvals and General Operating Permits (GP-1 to GP-24)",
       "description": "GP-1 small gas/No. 2 oil combustion units; GP-2 VOL storage tanks; GP-3 portable nonmetallic mineral processing; GP-4 burn-off ovens; GP-5/5A natural gas compression, processing, and well pads; GP-6 petroleum dry cleaning; GP-7 and GP-10 lithographic printing; GP-8 powder metal sintering; GP-9 diesel/No. 2 engines; GP-11 nonroad engines; GP-12 coal prep plant fugitives and engines; GP-13 hot mix asphalt; GP-14 crematories; GP-15 feed mills; GP-16 gaseous fuel spark ignition engines; GP-19 dry abrasive blasting; GP-20 natural gas CHP; GP-21 coal mine methane flares; GP-22 landfill gas turbines; GP-24 pharmaceutical/specialty chemical. ePermitting through GreenPort is encouraged.",
-      "url": "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit"
+      "url": "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit",
+      "citation": "25 Pa. Code Chapter 127, Subchapter H"
     },
     {
       "type": "minor-nsr",
@@ -77,15 +78,25 @@
       "type": "psd",
       "name": "Prevention of Significant Deterioration (PSD)",
       "description": "Major source review in attainment areas. DEP, EPA Region 3, and Federal Land Managers coordinate under an MOU.",
-      "citation": "25 Pa. Code Chapter 127, Subchapter D",
-      "url": "http://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/FLM_MOU_signed.pdf"
+      "citation": "25 Pa. Code Chapter 127, Subchapter D (127.81-127.83)",
+      "url": "http://files.dep.state.pa.us/Air/AirQuality/AQPortalFiles/Permits/docs/FLM_MOU_signed.pdf",
+      "quote": "The Prevention of Significant Deterioration requirements promulgated in 40 CFR 52 by the Administrator of the EPA under section 161 of the Clean Air Act (42 U.S.C.A. § 7471) are adopted in their entirety by the Department and incorporated herein by reference.",
+      "quoteSource": {
+        "name": "25 Pa. Code Chapter 127 (Pennsylvania Code)",
+        "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/chap127toc.html"
+      }
     },
     {
       "type": "title-v",
       "name": "Title V Operating Permit",
       "description": "Required for facilities with potential emissions above Title V thresholds. EPA approved Pennsylvania's operating permit program in 1996. Annual maintenance fee plus annual Title V emission fees (due September 1).",
       "citation": "25 Pa. Code Chapter 127, Subchapters F and G",
-      "url": "https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit"
+      "url": "https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit",
+      "quote": "This subchapter describes the additional operating permit program requirements applicable to Title V facilities which are in addition to the requirements in Subchapter F (relating to operating permit requirements).",
+      "quoteSource": {
+        "name": "25 Pa. Code Chapter 127 (Pennsylvania Code)",
+        "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/chap127toc.html"
+      }
     }
   ],
   "oilAndGas": {
@@ -118,7 +129,32 @@
   "regulations": [
     {
       "citation": "25 Pa. Code Chapter 127",
-      "title": "Construction, Modification, Reactivation and Operation of Sources"
+      "title": "Construction, Modification, Reactivation and Operation of Sources",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/chap127toc.html"
+    },
+    {
+      "citation": "25 Pa. Code Chapter 127, Subchapter B",
+      "title": "Plan Approval Requirements"
+    },
+    {
+      "citation": "25 Pa. Code Chapter 127, Subchapter D",
+      "title": "Prevention of Significant Deterioration of Air Quality"
+    },
+    {
+      "citation": "25 Pa. Code Chapter 127, Subchapter E",
+      "title": "New Source Review"
+    },
+    {
+      "citation": "25 Pa. Code Chapter 127, Subchapter F",
+      "title": "Operating Permit Requirements"
+    },
+    {
+      "citation": "25 Pa. Code Chapter 127, Subchapter G",
+      "title": "Title V Operating Permits"
+    },
+    {
+      "citation": "25 Pa. Code Chapter 127, Subchapter H",
+      "title": "General Plan Approvals and Operating Permits"
     },
     {
       "citation": "25 Pa. Code 127.14",
@@ -130,12 +166,12 @@
     },
     {
       "citation": "25 Pa. Code 127.701-127.710",
-      "title": "Air quality fees",
+      "title": "Plan approval and operating permit fees (Subchapter I)",
       "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/subchapItoc.html&d=reduce"
     },
     {
       "citation": "25 Pa. Code 129.111-129.115",
-      "title": "RACT III (major NOx/VOC sources)"
+      "title": "Additional RACT requirements for major sources of NOx and VOCs for the 2015 ozone NAAQS (RACT III)"
     },
     {
       "citation": "25 Pa. Code 121.1",
@@ -143,7 +179,7 @@
     },
     {
       "citation": "25 Pa. Code 135.3",
-      "title": "Annual source reporting"
+      "title": "Reporting (annual source reporting)"
     }
   ],
   "forms": [
@@ -238,9 +274,13 @@
     {
       "name": "EPA CAA Permitting in Pennsylvania",
       "url": "https://www.epa.gov/caa-permitting/caa-permitting-pennsylvania"
+    },
+    {
+      "name": "25 Pa. Code Chapter 127 (Pennsylvania Code)",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/chap127toc.html"
     }
   ],
-  "lastReviewed": "2026-10-25",
-  "verification": "partial",
-  "notes": "Chapter 127 Subchapter letters for PSD (D), NSR (E), and Title V (G) are from general knowledge of 25 Pa. Code and could not be confirmed (the PA Code site blocks automated access); Subchapters B and F are confirmed in DEP's GP-5 FAQ. The GP-5A full category title is unverified. Air quality fees increased January 1, 2026. Central Office: 717-783-9476."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Chapter 127 subchapters (B, D, E, F, G, H, I) and the 127.14 and 127.83 text confirmed in the Pennsylvania Code; the GP-5A title confirmed in DEP's eLibrary; the general permit list confirmed on DEP's general permit page (2026-10-31). Air quality fees increased January 1, 2026. Central Office: 717-783-9476."
 }

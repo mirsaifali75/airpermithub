@@ -17,7 +17,8 @@
       "description": "Preconstruction permit required before constructing, installing, or altering a facility above the MAQP threshold. DEQ states MAQPs do not expire. DEQ lists typical processing of roughly 75 to 90 days for a complete application.",
       "citation": "ARM 17.8 Subchapter 7 (ARM 17.8.743)",
       "url": "https://deq.mt.gov/air/assistance",
-      "thresholds": "Facilities with the potential to emit more than 5 tons per year of lead or more than 25 tons per year of any other airborne pollutant, and any incinerator, need an MAQP unless exempt (restated from DEQ's air permitting assistance page)."
+      "thresholds": "Facilities with the potential to emit more than 5 tons per year of lead or more than 25 tons per year of any other airborne pollutant, and any incinerator, need an MAQP unless exempt (DEQ's air permitting assistance page).",
+      "quote": "Any source emitting more than 5 ton/year of lead (Pb) or 25 tons/year of any other pollutant; OR An incinerator of any kind"
     },
     {
       "type": "exemption",
@@ -56,7 +57,7 @@
     {
       "type": "psd",
       "name": "Prevention of Significant Deterioration (PSD)",
-      "description": "Major source preconstruction review in attainment areas. DEQ's PSD web section was marked 'under construction' on the review date; consult the rule text.",
+      "description": "Major source preconstruction review in attainment areas under ARM 17.8 Subchapter 8, Prevention of Significant Deterioration of Air Quality (as listed in EPA's approved Montana SIP). DEQ's PSD web section was marked under construction on 2026-10-31; consult the rule text or call DEQ.",
       "citation": "ARM 17.8 Subchapter 8",
       "url": "https://deq.mt.gov/air/assistance"
     },
@@ -66,7 +67,8 @@
       "description": "Operating permit for major sources. Permits have a 5-year term; renewal applications are due at least 6 months before expiration.",
       "citation": "ARM 17.8 Subchapter 12",
       "url": "https://deq.mt.gov/air/assistance",
-      "thresholds": "Potential to emit more than 100 tons per year of any criteria pollutant, more than 10 tons per year of any single hazardous air pollutant, or more than 25 tons per year of combined hazardous air pollutants (restated from DEQ's page)."
+      "thresholds": "Potential to emit more than 100 tons per year of any criteria pollutant, more than 10 tons per year of any single hazardous air pollutant, or more than 25 tons per year of combined hazardous air pollutants (DEQ's air permitting assistance page).",
+      "quote": "Emits over 100 tons per year of any criteria pollutant; Emits over 10 tons per year of a single HAP; or Emits over 25 tons per year of any combination of HAPs."
     }
   ],
   "oilAndGas": {
@@ -93,7 +95,7 @@
     },
     {
       "citation": "ARM 17.8 Subchapter 7",
-      "title": "Permit, Construction, and Operation of Air Contaminant Sources (MAQP)"
+      "title": "Permit, Construction and Operation of Air Contaminant Sources (MAQP)"
     },
     {
       "citation": "ARM 17.8 Subchapter 8",
@@ -104,12 +106,16 @@
       "title": "Operating Permit Program (Title V)"
     },
     {
+      "citation": "ARM 17.8 Subchapter 16",
+      "title": "Emission Control Requirements for Oil and Gas Well Facilities Prior to Issuance of a MAQP"
+    },
+    {
       "citation": "ARM 17.8 Subchapter 17",
-      "title": "Registration of Air Contaminant Sources: Oil and Gas Well Facilities"
+      "title": "Registration of Air Contaminant Sources (oil and gas well facilities)"
     },
     {
       "citation": "ARM 17.8 Subchapter 18",
-      "title": "Registration of Air Contaminant Sources: Nonmetallic Mineral Processing and other portable sources"
+      "title": "Standards and Requirements for Sand and Gravel, Concrete, and Asphalt (registration)"
     },
     {
       "citation": "Title 75, Chapter 2, MCA",
@@ -148,9 +154,13 @@
     {
       "name": "EPA CAA Permitting in Montana",
       "url": "https://www.epa.gov/caa-permitting/caa-permitting-montana"
+    },
+    {
+      "name": "40 CFR 52.1370(c): EPA-approved Montana regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-40/section-52.1370"
     }
   ],
-  "lastReviewed": "2026-10-25",
-  "verification": "partial",
-  "notes": "Thresholds restated from DEQ's permitting assistance page (not verbatim); confirm against current ARM text. DEQ's PSD page was under construction on the review date. Reservations and Indian country in Montana are generally under EPA Region 8 jurisdiction. DEQ air permitting phone: 406-444-3490."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Thresholds quoted from DEQ's permitting and operator assistance page; subchapter titles confirmed on that page and in EPA's approved Montana SIP table, 40 CFR 52.1370(c) (2026-10-31). DEQ's PSD web section was still under construction. Reservations and Indian country in Montana are generally under EPA Region 8 jurisdiction. DEQ air permitting phone: 406-444-3490."
 }

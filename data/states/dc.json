@@ -34,8 +34,8 @@
     },
     {
       "type": "nnsr",
-      "name": "New Source Review (20 DCMR § 204)",
-      "description": "For new major sources or modifications that increase emissions at existing major sources. The District is in the Washington ozone nonattainment area, so nonattainment NSR applies to major ozone precursor sources.",
+      "name": "New Source Review for sources affecting nonattainment areas (20 DCMR § 204)",
+      "description": "For new major sources, or modifications that increase emissions at existing major sources, under 20 DCMR § 204, Permit Requirements for Sources Affecting Non-attainment Areas. Check EPA's Green Book for the District's current nonattainment designations.",
       "citation": "20 DCMR § 204",
       "url": "https://doee.dc.gov/node/7722"
     },
@@ -60,13 +60,18 @@
   "regulations": [
     {
       "citation": "20 DCMR Chapter 2",
-      "title": "General and Non-Attainment Area Permits",
+      "title": "General and Non-attainment Area Permits",
       "url": "http://www.dcregs.dc.gov/Gateway/ChapterHome.aspx?ChapterNumber=20-2"
     },
     {
       "citation": "20 DCMR Chapter 3",
-      "title": "Operating Permits and Acid Rain Programs (Title V)",
+      "title": "Operating Permits (Title V)",
       "url": "http://www.dcregs.dc.gov/Gateway/ChapterHome.aspx?ChapterNumber=20-3"
+    },
+    {
+      "citation": "20 DCMR § 204",
+      "title": "Permit Requirements for Sources Affecting Non-attainment Areas",
+      "url": "https://www.ecfr.gov/current/title-40/section-52.470"
     },
     {
       "citation": "20 DCMR Chapter 2 (DOEE PDF)",
@@ -104,6 +109,10 @@
     {
       "name": "Air Quality Requirements 101 (workshop)",
       "url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/publication/attachments/Building%2C%20Air%20Quality%20Permitting.pdf"
+    },
+    {
+      "name": "EPA Green Book: nonattainment areas",
+      "url": "https://www.epa.gov/green-book"
     }
   ],
   "sources": [
@@ -114,9 +123,13 @@
     {
       "name": "DOEE Air Quality Requirements 101",
       "url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/publication/attachments/Building%2C%20Air%20Quality%20Permitting.pdf"
+    },
+    {
+      "name": "40 CFR 52.470(c): EPA-approved District of Columbia regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-40/section-52.470"
     }
   ],
-  "lastReviewed": "2026-10-25",
-  "verification": "partial",
-  "notes": "Chapter titles for 20 DCMR Chapters 2 and 3 are summarized; confirm on DC Regulations. Statement about ozone nonattainment is general background, not taken from the DOEE permit page."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Chapter 2 and Chapter 3 titles and the § 204 title confirmed in EPA's approved District of Columbia SIP table, 40 CFR 52.470(c) (2026-10-31). Program details come from DOEE's permit pages and workshop materials."
 }

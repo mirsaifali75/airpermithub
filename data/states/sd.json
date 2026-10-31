@@ -26,8 +26,9 @@
     {
       "type": "minor-nsr",
       "name": "Construction Permit",
-      "description": "DANR provides a general construction permit application form. DANR's permitting page describes pre-construction permits mainly in the PSD context.",
-      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Construction%2021.docx"
+      "description": "DANR provides a general construction permit application form. Construction permits for new sources or modifications are in ARSD chapter 74:36:20; DANR's permitting page describes pre-construction permits mainly in the PSD context.",
+      "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Construction%2021.docx",
+      "citation": "ARSD 74:36:20"
     },
     {
       "type": "state-operating",
@@ -54,10 +55,15 @@
     {
       "type": "title-v",
       "name": "Title V (Part 70) Operating Permit",
-      "description": "For major sources, and sources that fall under NSPS or MACT applicability requirements. Fees under ARSD 74:37 (administrative fee by emission tier plus a per-ton emission fee).",
+      "description": "For major sources, and sources that fall under NSPS or MACT applicability requirements (ARSD 74:36:05:03 lists the sources required to obtain a Part 70 permit). Fees under ARSD 74:37 (administrative fee by emission tier plus a per-ton emission fee).",
       "citation": "ARSD 74:36:05",
       "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx",
-      "thresholds": "Potential to emit greater than 100 tons per year of a regulated pollutant, more than 10 tons per year of one HAP, or more than 25 tons per year of combined HAPs (DANR quotes 'greater than 100 tons per year')."
+      "thresholds": "Potential to emit greater than 100 tons per year of a regulated pollutant, more than 10 tons per year of one HAP, or more than 25 tons per year of combined HAPs (DANR quotes 'greater than 100 tons per year').",
+      "quote": "Sources required to obtain a Part 70 operating permit include the following:",
+      "quoteSource": {
+        "name": "ARSD 74:36:05:03, Sources required to obtain a Part 70 operating permit",
+        "url": "https://sdlegislature.gov/api/Rules/74:36:05:03.html"
+      }
     }
   ],
   "oilAndGas": {
@@ -68,36 +74,40 @@
     {
       "citation": "ARSD Article 74:36",
       "title": "Air Pollution Control Program",
-      "url": "https://sdlegislature.gov/Rules/Administrative/28180"
+      "url": "https://sdlegislature.gov/api/Rules/74:36.html"
     },
     {
       "citation": "ARSD 74:36:04",
-      "title": "Operating Permits for Minor Sources"
+      "title": "Operating permits for minor sources"
     },
     {
       "citation": "ARSD 74:36:05",
-      "title": "Operating Permits for Part 70 Sources"
+      "title": "Operating permits for Part 70 sources"
     },
     {
       "citation": "ARSD 74:36:07",
-      "title": "New Source Performance Standards (adopts 40 CFR 60)"
+      "title": "New source performance standards (adopts 40 CFR 60)"
     },
     {
       "citation": "ARSD 74:36:08",
-      "title": "MACT/NESHAP (adopts 40 CFR 63)"
+      "title": "National emission standards for hazardous air pollutants (adopts 40 CFR 63)"
     },
     {
       "citation": "ARSD 74:36:09",
-      "title": "Prevention of Significant Deterioration (adopts 40 CFR 52.21)"
+      "title": "Prevention of significant deterioration (adopts 40 CFR 52.21)"
     },
     {
       "citation": "ARSD 74:36:10",
-      "title": "New Source Review (nonattainment)"
+      "title": "New source review (nonattainment)"
+    },
+    {
+      "citation": "ARSD 74:36:20",
+      "title": "Construction permits for new sources or modifications"
     },
     {
       "citation": "ARSD 74:37",
-      "title": "Air Emission Fees",
-      "url": "https://sdlegislature.gov/Rules/DisplayRule.aspx?Rule=74:37"
+      "title": "Air Pollution Control Program Fees (chapter 74:37:01, Air emission fees)",
+      "url": "https://sdlegislature.gov/api/Rules/74:37.html"
     }
   ],
   "forms": [
@@ -168,9 +178,17 @@
     {
       "name": "EPA CAA Permitting in South Dakota",
       "url": "https://www.epa.gov/caa-permitting/caa-permitting-south-dakota"
+    },
+    {
+      "name": "ARSD Article 74:36, Air Pollution Control Program (South Dakota Legislature)",
+      "url": "https://sdlegislature.gov/api/Rules/74:36.html"
+    },
+    {
+      "name": "ARSD 74:36:05:03, Sources required to obtain a Part 70 operating permit",
+      "url": "https://sdlegislature.gov/api/Rules/74:36:05:03.html"
     }
   ],
-  "lastReviewed": "2026-10-25",
-  "verification": "partial",
-  "notes": "ARSD 74:36:05 as the Part 70 chapter is from general knowledge; DANR's page did not cite it and the SD Legislature rules site requires JavaScript. 74:36:04, :09, and :10 are confirmed in DANR's concrete GP statement of basis. Fees (as listed by DANR): administrative fee $1,383 / $666 / $138 by emission tier plus $8.30 per ton; check ARSD 74:37 for current amounts. No online permit application; fees can be paid online."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Chapter titles in ARSD Articles 74:36 and 74:37 and the Part 70 applicability rule (74:36:05:03) confirmed on the South Dakota Legislature's rules site (2026-10-31). Fees (as listed by DANR): administrative fee $1,383 / $666 / $138 by emission tier plus $8.30 per ton; check ARSD 74:37 for current amounts. No online permit application; fees can be paid online."
 }

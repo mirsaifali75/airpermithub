@@ -94,7 +94,7 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
           </div>
           <ul className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs text-muted">
             <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-[#cddcf7]" />Verified against agency pages ({verifiedCount})</li>
-            <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-[#e3e8f0] ring-1 ring-line" />Partially verified ({profiles.length - verifiedCount})</li>
+            {verifiedCount < profiles.length && <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-[#e3e8f0] ring-1 ring-line" />Partially verified ({profiles.length - verifiedCount})</li>}
             <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-brand-500" />Selected</li>
           </ul>
         </div>

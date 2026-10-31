@@ -24,7 +24,7 @@
       "type": "registration",
       "name": "Registration Permits (e.g., fuel combustion)",
       "description": "For true minor facilities with listed equipment. Fuel combustion registration covers boilers on natural gas, propane, virgin No. 2 oil, diesel, or biodiesel, with size limits for non-fuel-gas boilers, and non-emergency generators certified to EPA nonroad tiers with an hours limit for the modeling exemption.",
-      "citation": "S.C. Regulation 61-62.1, Section II",
+      "citation": "S.C. Regulation 61-62.1, Section II(I)",
       "url": "https://des.sc.gov/programs/bureau-air-quality/air-quality-permits/fuel-combustion-operations",
       "thresholds": "Boilers burning fuels other than natural gas or propane: 30 million Btu/hr heat input capacity for a single boiler and 100 million Btu/hr for all boilers on site combined. Non-emergency generators: no more than 500 hours per year, a condition of the exemption from modeling (restated from SCDES)."
     },
@@ -32,7 +32,7 @@
       "type": "general",
       "name": "General Construction and General Operating Permits",
       "description": "General construction permits and general state or general conditional major operating permits for concrete plants (batch, block, pug mills), asphalt plants (general conditional major and general synthetic minor construction), nonmetallic mineral processing (general conditional major), and fuel combustion (general conditional major).",
-      "citation": "S.C. Regulation 61-62.1, Section II",
+      "citation": "S.C. Regulation 61-62.1, Section II(D) (general construction permits)",
       "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/general-and-registration-permits-air-quality",
       "thresholds": "Concrete plant fuel-burning devices under 30 MMBtu/hr (restated from SCDES)."
     },
@@ -40,28 +40,33 @@
       "type": "minor-nsr",
       "name": "Construction Permit (state and synthetic minor)",
       "description": "Required before construction, alteration, or addition of a stationary air pollution source; construction may not begin until it is issued. Synthetic minor construction permits set enforceable limits to avoid PSD and Title V.",
-      "citation": "S.C. Regulation 61-62.1, Section II",
+      "citation": "S.C. Regulation 61-62.1, Section II(A) and II(E) (synthetic minor)",
       "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/construction-permits-air"
     },
     {
       "type": "state-operating",
       "name": "Conditional Major Operating Permit",
       "description": "Operating permit with federally enforceable limits keeping the facility below PSD and Title V thresholds. Renewal under 61-62.1 Section II.H.",
-      "citation": "S.C. Regulation 61-62.1, Section II.E and II.G",
+      "citation": "S.C. Regulation 61-62.1, Section II(E) and II(G); renewals under II(H)",
       "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air",
-      "thresholds": "General conditional major (fuel combustion): each criteria pollutant under 100 tpy, single HAP under 10 tpy, combined HAPs under 25 tpy (restated from SCDES)."
+      "thresholds": "General conditional major (fuel combustion): each criteria pollutant under 100 tpy, single HAP under 10 tpy, combined HAPs under 25 tpy (restated from SCDES).",
+      "quote": "Any stationary source that satisfies the definition of a major source may request a federally enforceable conditional major operating permit to limit the source’s potential to emit and become a conditional major source.",
+      "quoteSource": {
+        "name": "S.C. Regulation 61-62.1, Definitions and General Requirements (SCDES)",
+        "url": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.1.pdf"
+      }
     },
     {
       "type": "psd",
       "name": "Prevention of Significant Deterioration (PSD)",
-      "description": "Major source construction permits in attainment areas, issued by SCDES. Conditional major permits cite 61-62.1 Section II.E for PSD avoidance; the PSD standard is in Regulation 61-62.5.",
+      "description": "Major source construction permits in attainment areas, issued by SCDES. Standard No. 7 of Regulation 61-62.5 is listed in EPA's approved South Carolina SIP as Prevention of Significant Deterioration; conditional major permits cite 61-62.1 Section II(E) for PSD avoidance.",
       "citation": "S.C. Regulation 61-62.5, Standard No. 7",
       "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina"
     },
     {
       "type": "nnsr",
       "name": "Nonattainment NSR",
-      "description": "Major source nonattainment permits, issued by SCDES (per EPA).",
+      "description": "Major source nonattainment permits, issued by SCDES (per EPA). Standard No. 7.1 of Regulation 61-62.5 is listed in EPA's approved South Carolina SIP as Nonattainment New Source Review.",
       "citation": "S.C. Regulation 61-62.5, Standard No. 7.1",
       "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina"
     },
@@ -70,7 +75,8 @@
       "name": "Title V Operating Permit",
       "description": "Operating permit for major sources under South Carolina's Part 70 program.",
       "citation": "S.C. Regulation 61-62.70",
-      "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air"
+      "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air",
+      "quote": "A major source facility potentially emits 100 tons per year (TPY) or more of any criteria pollutant (CO, PM10, PM2.5, NOX, SO2, Pb, VOCs) and/or 10 TPY or more of any single hazardous air pollutant (HAP) or 25 TPY of combined HAPs."
     }
   ],
   "oilAndGas": {
@@ -84,7 +90,8 @@
     },
     {
       "citation": "S.C. Regulation 61-62.1",
-      "title": "Definitions and General Requirements (Section II: Permit Requirements)"
+      "title": "Definitions and General Requirements (Section II: Permit Requirements)",
+      "url": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.1.pdf"
     },
     {
       "citation": "S.C. Regulation 61-62.5",
@@ -92,7 +99,8 @@
     },
     {
       "citation": "S.C. Regulation 61-62.70",
-      "title": "Title V Operating Permit Program"
+      "title": "Title V Operating Permit Program",
+      "url": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.70.pdf"
     }
   ],
   "forms": [
@@ -167,9 +175,21 @@
     {
       "name": "EPA Clean Air Act Permitting in South Carolina",
       "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina"
+    },
+    {
+      "name": "S.C. Regulation 61-62.1, Definitions and General Requirements (SCDES)",
+      "url": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.1.pdf"
+    },
+    {
+      "name": "S.C. Regulation 61-62.70, Title V Operating Permit Program (SCDES)",
+      "url": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.70.pdf"
+    },
+    {
+      "name": "40 CFR 52.2120(c): EPA-approved South Carolina regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-40/section-52.2120"
     }
   ],
-  "lastReviewed": "2026-10-25",
-  "verification": "partial",
-  "notes": "SCDES's main construction and operating permit pages could not be read in full (body text did not load), so Title V thresholds and PSD/NNSR details rely on EPA's page and permit documents. Standard No. 7 / 7.1 numbering for PSD/NNSR is from general knowledge and should be confirmed. Bracketed pollutant labels in the exemption quote were added for context. Coastal counties may need a coastal zone consistency certification. BAQ Air Permitting: (803) 898-4123."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Section II subsections confirmed in SCDES's Regulation 61-62.1; Standard No. 7 and 7.1 confirmed in EPA's approved South Carolina SIP table (40 CFR 52.2120(c)); Title V threshold quoted from SCDES's operating permits page (2026-10-31). Bracketed pollutant labels in the exemption quote were added for context. Coastal counties may need a coastal zone consistency certification. BAQ Air Permitting: (803) 898-4123."
 }

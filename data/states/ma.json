@@ -1,36 +1,153 @@
 {
-  "code": "MA", "name": "Massachusetts", "slug": "massachusetts", "epaRegion": 1,
-  "agency": { "name": "Massachusetts Department of Environmental Protection (MassDEP)", "division": "Bureau of Air and Waste; MassDEP regional offices", "url": "https://www.mass.gov/info-details/how-to-participate-in-massdep-air-quality-permitting-decisions", "permitsUrl": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf" },
+  "code": "MA",
+  "name": "Massachusetts",
+  "slug": "massachusetts",
+  "epaRegion": 1,
+  "agency": {
+    "name": "Massachusetts Department of Environmental Protection (MassDEP)",
+    "division": "Bureau of Air and Waste; MassDEP regional offices",
+    "url": "https://www.mass.gov/info-details/how-to-participate-in-massdep-air-quality-permitting-decisions",
+    "permitsUrl": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf"
+  },
   "overview": "MassDEP requires a Plan Approval before constructing or modifying facilities that emit air contaminants (310 CMR 7.02), as a Limited Plan Application (LPA) or Comprehensive Plan Application (CPA) depending on size, unless exempt. Alternatives include Permit-by-Rule (310 CMR 7.03) and the mandatory Environmental Results Program (ERP, 310 CMR 7.26) for certain sectors. All new units must meet BACT (or LAER where nonattainment NSR applies). Major sources need a Title V Operating Permit under 310 CMR 7.00 Appendix C. MassDEP administers PSD by EPA delegation under 40 CFR 52.21.",
   "permitTypes": [
-    { "type": "exemption", "name": "Plan Approval exemptions", "description": "Listed exemptions from Plan Approval.", "citation": "310 CMR 7.02(2)", "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf" },
-    { "type": "pbr", "name": "Permit-by-Rule", "description": "Performance standards, recordkeeping, and caps as an alternative to Plan Approval for degreasers, wave solder, lead melt pots, paint spray booths, fuel cells, welding, and others; report installations in the next Source Registration.", "citation": "310 CMR 7.03", "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf" },
-    { "type": "registration", "name": "Environmental Results Program (ERP)", "description": "Mandatory sector-wide performance standards and compliance certifications replacing Plan Approvals for covered categories, such as certain new gas/ULSD boilers, emergency and non-emergency engines, printing, perc dry cleaning, outdoor wood-fired hydronic heaters, and small turbines. Not available for boilers at Title V facilities.", "citation": "310 CMR 7.26", "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf" },
-    { "type": "minor-nsr", "name": "Plan Approval: Limited Plan Application (LPA) / Comprehensive Plan Application (CPA)", "description": "Preconstruction approval requiring BACT, compliance with all 310 CMR 7.00 standards and NAAQS. Valid for the life of the unit; may be revoked if construction doesn't begin within two years.", "citation": "310 CMR 7.02(4) (LPA), 7.02(5) (CPA)", "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf", "thresholds": "Per MassDEP 2011 overview (examples): non-combustion process >1 to <10 tons/12 months: LPA; >10 tons/12 months: CPA. Natural gas/propane boiler ≥40 MMBtu/hr: CPA. Crematories and incinerators: CPA." },
-    { "type": "psd", "name": "PSD", "description": "Administered by MassDEP under EPA delegation.", "citation": "40 CFR 52.21", "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf" },
-    { "type": "nnsr", "name": "Nonattainment NSR", "description": "Major emissions in nonattainment areas; LAER and offsets.", "citation": "310 CMR 7.00 Appendix A", "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf" },
-    { "type": "title-v", "name": "Title V Operating Permit", "description": "For listed source categories or facilities above thresholds; apply within one year of starting operations (MassDEP recommends filing with the Plan Application).", "citation": "310 CMR 7.00 Appendix C", "url": "https://www.mass.gov/doc/general-instructions-operating-permits/download" }
+    {
+      "type": "exemption",
+      "name": "Plan Approval exemptions",
+      "description": "Listed exemptions from Plan Approval.",
+      "citation": "310 CMR 7.02(2)",
+      "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf"
+    },
+    {
+      "type": "pbr",
+      "name": "Permit-by-Rule",
+      "description": "Performance standards, recordkeeping, and caps as an alternative to Plan Approval for degreasers, wave solder, lead melt pots, paint spray booths, fuel cells, welding, and others; report installations in the next Source Registration.",
+      "citation": "310 CMR 7.03",
+      "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf"
+    },
+    {
+      "type": "registration",
+      "name": "Environmental Results Program (ERP)",
+      "description": "Mandatory sector-wide performance standards and compliance certifications replacing Plan Approvals for covered categories, such as certain new gas/ULSD boilers, emergency and non-emergency engines, printing, perc dry cleaning, outdoor wood-fired hydronic heaters, and small turbines. If installing a boiler would make a facility subject to Title V (310 CMR 7.00 Appendix C), nonattainment review, or PSD, 310 CMR 7.26(30)(b) sets out the owner's options.",
+      "citation": "310 CMR 7.26",
+      "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf"
+    },
+    {
+      "type": "minor-nsr",
+      "name": "Plan Approval: Limited Plan Application (LPA) / Comprehensive Plan Application (CPA)",
+      "description": "Preconstruction approval requiring BACT for all LPA and CPA approvals, and compliance with 310 CMR 7.00 standards and NAAQS. 310 CMR 7.02(4) and (5) also set fuel utilization unit capacity triggers. Plan approvals are valid for the life of the emission unit, and MassDEP may revoke one if construction has not commenced within two years (310 CMR 7.02(3)(k) and (l)).",
+      "citation": "310 CMR 7.02(4) (LPA), 7.02(5) (CPA)",
+      "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf",
+      "quote": "An LPA is required from any person prior to constructing, substantially reconstructing, altering, or subsequently operating any facility or emission unit described as follows: ... Any facility where the construction, substantial reconstruction, alteration or subsequent operation would result in an increase in potential emissions of a single air contaminant equal to or greater than one ton per year and less than ten tons per year, calculated over any consecutive 12-month time period. ... A CPA is required from any person prior to constructing, substantially reconstructing, altering or subsequently operating any facility or emission unit as follows: ... Any facility where the construction, substantial reconstruction, alteration or subsequent operation would result in an increase in potential emissions of a single air contaminant equal to or greater than ten tons per year, calculated over any consecutive 12-month time period.",
+      "quoteSource": {
+        "name": "310 CMR 7.00 (official text, Secretary of the Commonwealth), part 1",
+        "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007a.pdf"
+      }
+    },
+    {
+      "type": "psd",
+      "name": "PSD",
+      "description": "Administered by MassDEP under a PSD delegation agreement with EPA Region 1, implementing 40 CFR 52.21.",
+      "citation": "40 CFR 52.21",
+      "url": "https://www.epa.gov/sites/default/files/2015-08/documents/epa-massdep-psd-delegation-agreement.pdf"
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment NSR",
+      "description": "Major emissions in nonattainment areas; LAER and offsets under 310 CMR 7.00 Appendix A, Emission Offsets and Nonattainment Review.",
+      "citation": "310 CMR 7.00 Appendix A",
+      "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf"
+    },
+    {
+      "type": "title-v",
+      "name": "Title V Operating Permit",
+      "description": "For listed source categories or facilities above thresholds; apply within one year of starting operations (MassDEP recommends filing with the Plan Application).",
+      "citation": "310 CMR 7.00 Appendix C",
+      "url": "https://www.mass.gov/doc/general-instructions-operating-permits/download"
+    }
   ],
-  "oilAndGas": { "summary": "Massachusetts has no oil and gas production. MassDEP's permitting guidance lists no oil-and-gas-specific air program.", "programs": [] },
+  "oilAndGas": {
+    "summary": "Massachusetts has no oil and gas production. MassDEP's permitting guidance lists no oil-and-gas-specific air program.",
+    "programs": []
+  },
   "regulations": [
-    { "citation": "310 CMR 7.00", "title": "Air Pollution Control", "url": "https://www.mass.gov/doc/310-cmr-7-air-pollution-control/download" },
-    { "citation": "310 CMR 7.02", "title": "Plan Approval and Emission Limitations" },
-    { "citation": "310 CMR 7.03", "title": "Plan Approval Exemptions: Construction Requirements (permit-by-rule)" },
-    { "citation": "310 CMR 7.12", "title": "Source Registration" },
-    { "citation": "310 CMR 7.26", "title": "Industry Performance Standards (ERP)" }
+    {
+      "citation": "310 CMR 7.00",
+      "title": "Air Pollution Control",
+      "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007a.pdf"
+    },
+    {
+      "citation": "310 CMR 7.02",
+      "title": "Plan Approval and Emission Limitations"
+    },
+    {
+      "citation": "310 CMR 7.03",
+      "title": "Plan Approval Exemption: Construction Requirements (permit-by-rule)"
+    },
+    {
+      "citation": "310 CMR 7.12",
+      "title": "Source Registration"
+    },
+    {
+      "citation": "310 CMR 7.26",
+      "title": "Industry Performance Standards (ERP)"
+    },
+    {
+      "citation": "310 CMR 7.00 Appendix A",
+      "title": "Emission Offsets and Nonattainment Review"
+    },
+    {
+      "citation": "310 CMR 7.00 Appendix C",
+      "title": "Operating Permit Program (Title V)"
+    }
   ],
   "forms": [
-    { "name": "Operating Permit general instructions", "url": "https://www.mass.gov/doc/general-instructions-operating-permits/download" }
+    {
+      "name": "Operating Permit general instructions",
+      "url": "https://www.mass.gov/doc/general-instructions-operating-permits/download"
+    }
   ],
   "guidance": [
-    { "name": "Plan Approval Overview & Applicability Tables (2011)", "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf" },
-    { "name": "How to Participate in MassDEP Air Quality Permitting Decisions", "url": "https://www.mass.gov/info-details/how-to-participate-in-massdep-air-quality-permitting-decisions" },
-    { "name": "Source Registration & Greenhouse Gas Reporting", "url": "https://www.mass.gov/guides/massdep-source-registration-greenhouse-gas-reporting" }
+    {
+      "name": "Plan Approval Overview & Applicability Tables (2011)",
+      "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf"
+    },
+    {
+      "name": "How to Participate in MassDEP Air Quality Permitting Decisions",
+      "url": "https://www.mass.gov/info-details/how-to-participate-in-massdep-air-quality-permitting-decisions"
+    },
+    {
+      "name": "Source Registration & Greenhouse Gas Reporting",
+      "url": "https://www.mass.gov/guides/massdep-source-registration-greenhouse-gas-reporting"
+    }
   ],
   "sources": [
-    { "name": "MassDEP Plan Approval Overview", "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf" },
-    { "name": "310 CMR 7.00", "url": "https://www.mass.gov/doc/310-cmr-7-air-pollution-control/download" }
+    {
+      "name": "MassDEP Plan Approval Overview",
+      "url": "https://www.mass.gov/files/documents/2016/08/ow/aqpaguid.pdf"
+    },
+    {
+      "name": "310 CMR 7.00 (official text, Secretary of the Commonwealth), part 1",
+      "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007a.pdf"
+    },
+    {
+      "name": "310 CMR 7.00, part 2",
+      "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007b.pdf"
+    },
+    {
+      "name": "310 CMR 7.00, part 3",
+      "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007c.pdf"
+    },
+    {
+      "name": "310 CMR 7.00, part 4 (Appendices A to C)",
+      "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007d.pdf"
+    },
+    {
+      "name": "EPA Region 1 and MassDEP PSD delegation agreement",
+      "url": "https://www.epa.gov/sites/default/files/2015-08/documents/epa-massdep-psd-delegation-agreement.pdf"
+    }
   ],
-  "lastReviewed": "2026-10-25", "verification": "partial",
-  "notes": "The main applicability source is MassDEP's June 2011 overview; 310 CMR 7.00 has since been amended (including 'Air Repair' amendments), so confirm current thresholds in the regulation. Title V thresholds were not reviewed. Section titles are summarized."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Plan Approval applicability quoted from the current 310 CMR 7.02 published by the Secretary of the Commonwealth; permit-by-rule, ERP, and Appendix A and C titles confirmed in the same text; PSD delegation confirmed in EPA Region 1's agreement (2026-10-31). Program descriptions also draw on MassDEP's Plan Approval overview. Title V thresholds are in 310 CMR 7.00 Appendix C and are not restated here."
 }

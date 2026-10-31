@@ -16,15 +16,29 @@
       "name": "No permit required (Act 547 / R.S. 30:2054(B)(2)(b)(ix))",
       "description": "Facilities with facility-wide potential emissions below the limits generally need no permit; before exceeding them, apply for a permit or small source exemption. Portable source emissions count totals from all sites.",
       "url": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit",
-      "thresholds": "Per LDEQ: below 5 TPY of each regulated pollutant, below 15 TPY combined, and below the minimum emission rate (MER) for each toxic air pollutant."
+      "thresholds": "Per LDEQ: below 5 TPY of each regulated pollutant, below 15 TPY combined, and below the minimum emission rate (MER) for each toxic air pollutant.",
+      "quote": "facility-wide potential emissions are less than five tons per year for each of any regulated air pollutant as defined by the Clean Air Act, 42 U.S.C. 7401 et seq., less than fifteen tons per year emitted of all such defined pollutants combined",
+      "quoteSource": {
+        "name": "LDEQ: Do I Need an Air Permit? (Act 547 text)",
+        "url": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit"
+      }
     },
     {
       "type": "exemption",
       "name": "Small Source Exemption",
-      "description": "For non-major sources with low emissions of regulated pollutants and toxic air pollutants below the MER (LAC 33:III.5112, Table 51.1), needing no enforceable permit conditions and no public notice.",
+      "description": "For sources that are not major sources, with low criteria pollutant emissions, toxic air pollutants below the minimum emission rate (MER) in LAC 33:III.5112, Table 51.1, no need for enforceable permit conditions, and no public notice required. The source must operate under the terms of the exemption.",
       "citation": "LAC 33:III.501.B.4",
       "url": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit",
-      "thresholds": "No more than 5 TPY of any regulated pollutant and less than the MER for each toxic air pollutant (restated from LDEQ)."
+      "thresholds": "No more than 5 tons per year of any criteria pollutant, and less than the MER in LAC 33:III.5112, Table 51.1, for each Louisiana toxic air pollutant (LAC 33:III.501.B.4.a). LDEQ's web page words the first test as any regulated pollutant.",
+      "quote": "the source emits and has the potential to emit no more than 5 tons per year of any criteria pollutant",
+      "quoteSource": {
+        "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+        "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
+      },
+      "thresholdsSource": {
+        "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+        "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
+      }
     },
     {
       "type": "exemption",
@@ -34,39 +48,76 @@
       "url": "https://www.deq.louisiana.gov/page/casebycase-insignificant-activities"
     },
     {
+      "type": "pbr",
+      "name": "Regulatory permits (LAC 33:III Chapter 3)",
+      "description": "Notification-based permits for listed sources and activities, including oil and gas well testing, release of natural gas from pipelines, stationary internal combustion engines, storage vessels, boilers and process heaters, and stationary combustion turbines. Sources not covered by a regulatory permit are permitted under Chapter 5.",
+      "citation": "LAC 33:III Chapter 3 (301-327)",
+      "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx",
+      "quote": "Regulatory permits may be used to authorize emissions of air contaminants as defined in LAC 33:III.111 from the sources and activities identified in this Chapter by notifying the department of the planned activity using the appropriate form provided by the department.",
+      "quoteSource": {
+        "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+        "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
+      }
+    },
+    {
       "type": "general",
       "name": "Minor Source General Permits",
       "description": "General permits for numerous similar sources, including crude oil and natural gas production facilities.",
       "citation": "LAC 33:III.513.A",
-      "url": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf"
+      "url": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf",
+      "quote": "The permitting authority may issue a general permit intended to cover numerous similar sources or activities.",
+      "quoteSource": {
+        "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+        "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
+      }
     },
     {
       "type": "minor-nsr",
       "name": "State (Minor Source) Permit",
-      "description": "For facilities not exempt and not Part 70 sources. Synthetic minor sources accept federally enforceable limits with public notice under LAC 33:III.531.A.1. Fees under LAC 33:III Chapter 2.",
+      "description": "For facilities that are not Part 70 sources. LAC 33:III.503.B lists three routes: an exemption under 501.B.4, a small source permit, or coverage under a general permit issued under 513.A. Minor source permits have a ten-year term, and renewal applications are due at least 6 months before expiration (503.C). Fees are under LAC 33:III Chapter 2.",
       "citation": "LAC 33:III.503",
-      "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits"
+      "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits",
+      "thresholds": "Small source permit: less than 25 tons per year of any criteria pollutant and 10 tons per year of any toxic air pollutant (LAC 33:III.503.B.2).",
+      "quote": "Small Source Permit. The owner or operator of a stationary source which is not a part 70 source may apply for a small source permit provided the source emits and has the potential to emit less than 25 tons per year of any criteria pollutant and 10 tons per year of any toxic air pollutant.",
+      "quoteSource": {
+        "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+        "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
+      },
+      "thresholdsSource": {
+        "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+        "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
+      }
     },
     {
       "type": "psd",
       "name": "PSD",
       "description": "Major source review in attainment areas under LAC 33:III Chapter 5.",
-      "citation": "LAC 33:III Chapter 5",
-      "url": "https://www.deq.louisiana.gov/assets/docs/Air/Air_Permit_Applications/r06_LouisianaGuidanceforAirPermittingActions.pdf"
+      "citation": "LAC 33:III.509",
+      "url": "https://www.deq.louisiana.gov/assets/docs/Air/Air_Permit_Applications/r06_LouisianaGuidanceforAirPermittingActions.pdf",
+      "quote": "The requirements of this Section apply to the construction of any new major stationary source, as defined in Subsection B of this Section, or any project at an existing major stationary source in an area designated as attainment or unclassifiable under Sections 107(d)(1)(A)(ii) or (iii) of the Clean Air Act.",
+      "quoteSource": {
+        "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+        "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
+      }
     },
     {
       "type": "nnsr",
       "name": "Nonattainment New Source Review",
-      "description": "Major source review in nonattainment areas under LAC 33:III Chapter 5.",
-      "citation": "LAC 33:III Chapter 5",
+      "description": "Major source review in nonattainment areas under LAC 33:III Chapter 5. Section 504 is titled Nonattainment New Source Review (NNSR) Procedures and Offset Requirements in Specified Parishes.",
+      "citation": "LAC 33:III.504",
       "url": "https://www.deq.louisiana.gov/assets/docs/Air/Air_Permit_Applications/r06_LouisianaGuidanceforAirPermittingActions.pdf"
     },
     {
       "type": "title-v",
       "name": "Part 70 (Title V) Operating Permit",
       "description": "For major sources; Title V general permits also exist.",
-      "citation": "LAC 33:III.507; 40 CFR Part 70",
-      "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits"
+      "citation": "LAC 33:III.507; major source defined in LAC 33:III.502",
+      "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits",
+      "quote": "Major Source— for the purposes of determining the applicability of 40 CFR part 70 or of LAC 33:III.507, any stationary source or any group of stationary sources that are located on one or more contiguous or adjacent properties, that are under common control of the same person (or persons under common control) that belong to a single major industrial grouping",
+      "quoteSource": {
+        "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+        "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
+      }
     }
   ],
   "oilAndGas": {
@@ -91,20 +142,36 @@
   "regulations": [
     {
       "citation": "LAC 33:III (Part III, Air)",
-      "title": "Louisiana Environmental Regulatory Code, Air",
-      "url": "https://www.deq.louisiana.gov/assets/docs/Legal_Affairs/ERC/33v03Air.pdf"
+      "title": "Louisiana Administrative Code, Title 33, Part III. Air",
+      "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
     },
     {
       "citation": "LAC 33:III Chapter 5",
-      "title": "Permit Procedures (501 exemptions, 503 minor source, 507 Part 70, 513 general permits)"
+      "title": "Permit Procedures (501 Scope and Applicability, 503 Minor Source Permit Requirements, 507 Part 70 Operating Permits Program, 513 General Permits, Temporary Sources, and Relocation of Portable Facilities)"
     },
     {
       "citation": "LAC 33:III Chapter 2",
-      "title": "Emission Inventory and permit fees"
+      "title": "Rules and Regulations for the Fee System of the Air Quality Control Programs"
+    },
+    {
+      "citation": "LAC 33:III Chapter 3",
+      "title": "Regulatory Permits"
+    },
+    {
+      "citation": "LAC 33:III.504",
+      "title": "Nonattainment New Source Review (NNSR) Procedures and Offset Requirements in Specified Parishes"
+    },
+    {
+      "citation": "LAC 33:III.507",
+      "title": "Part 70 Operating Permits Program"
+    },
+    {
+      "citation": "LAC 33:III.509",
+      "title": "Prevention of Significant Deterioration"
     },
     {
       "citation": "LAC 33:III Chapter 51",
-      "title": "Comprehensive Toxic Air Pollutant Emission Control Program (MER Table 51.1)"
+      "title": "Comprehensive Toxic Air Pollutant Emission Control Program"
     }
   ],
   "forms": [
@@ -143,9 +210,13 @@
     {
       "name": "LDEQ Oil and Gas Minor Source General Permit (2016)",
       "url": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf"
+    },
+    {
+      "name": "Louisiana Administrative Code, Title 33, Part III (Office of the State Register)",
+      "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx"
     }
   ],
-  "lastReviewed": "2026-10-25",
-  "verification": "partial",
-  "notes": "Specific PSD and nonattainment section numbers and Title V thresholds were not stated on the LDEQ pages reviewed. The LAC 33:III Part III PDF is the copy posted on LDEQ's site; check for later amendments. Chapter 2 and 51 titles are summarized."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Section numbers, titles, and the quoted rule text were checked against the official Louisiana Administrative Code, Title 33, Part III compilation from the Office of the State Register. Exemption thresholds under Act 547 are quoted from LDEQ's Do I Need an Air Permit? page. Oil and gas general permit limits are from LDEQ's 2016 general permit."
 }

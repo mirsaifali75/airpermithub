@@ -9,76 +9,102 @@
     "url": "https://dep.nj.gov/boss/",
     "permitsUrl": "https://dep.nj.gov/boss/general-permits/"
   },
-  "overview": "NJDEP issues all air permits in New Jersey: preconstruction permits, PSD, nonattainment NSR, and Title V. Minor facilities need a preconstruction permit and operating certificate under N.J.A.C. 7:27-8 for any 'significant source', as listed in 7:27-8.2(c). A facility gets this either by registering online for a general permit, with immediate authorization to construct, or through case-by-case review using the RADIUS application software. Major facilities need a Title V operating permit under N.J.A.C. 7:27-22, either as a General Operating Permit (GOP) or case by case. New Jersey is in the Ozone Transport Region, which lowers major source thresholds (see the Nonattainment NSR entry). There are no local air permitting agencies.",
+  "overview": "NJDEP issues all air permits in New Jersey: minor NSR, nonattainment NSR, PSD, and Title V (EPA lists NJDEP as responsible statewide). Minor facilities need a preconstruction permit and operating certificate under N.J.A.C. 7:27-8 for any 'significant source' listed in 7:27-8.2(c). A facility gets this either by registering for a general permit, mostly through the NJDEP Online portal, or through case-by-case review with applications filed electronically through RADIUS. Major facilities need a Title V operating permit under N.J.A.C. 7:27-22, either as a General Operating Permit (GOP) or case by case. New Jersey's major facility thresholds for NOx and VOC are 25 tons per year (see the Title V entry).",
   "permitTypes": [
     {
       "type": "exemption",
       "name": "Below 'significant source' thresholds / 7:27-8.2(d) exemptions",
       "description": "Equipment that is not a significant source under 7:27-8.2(c) needs no permit. Subsection 8.2(d) lists 21 exemptions, such as pressurized storage tanks, POTW aeration basins and lagoons, construction/repair/maintenance (CRM) equipment, and portable equipment. Many carry conditions.",
       "citation": "N.J.A.C. 7:27-8.2(c), (d)",
-      "url": "https://www.epa.gov/system/files/documents/2025-07/ibr-nj-subchapter-8-eff-jan-16-2018.pdf",
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub8.pdf",
       "quote": "Any equipment or source operation that may emit one or more air contaminants, except carbon dioxide (CO2),",
-      "thresholds": "Selected significant-source triggers, quoted from 7:27-8.2(c) as of Jan 16, 2018: commercial fuel burning equipment with a maximum rated heat input of 1,000,000 BTU per hour or greater (c)1; potential to emit Group 1 or 2 TXS at a rate greater than 0.1 pounds per hour (c)2; tanks over 10,000 gallons (c)8; tanks of 2,000 gallons or greater holding VOC at 0.02 psia or greater (c)9; raw materials exceeding 50 lb in any one hour (c)19; non-emergency stationary engines of 37 kW or greater (c)21."
+      "thresholds": "Selected significant-source triggers in 7:27-8.2(c): commercial fuel burning equipment with a maximum rated heat input of 1,000,000 BTU per hour or greater (c)1; potential to emit any Group I or II TXS at a rate greater than 0.1 pounds per hour (c)2; stationary storage tanks over 10,000 gallons (c)8; tanks of 2,000 gallons or greater storing VOC with a vapor pressure of 0.02 psia or greater (c)9; equipment using more than 50 pounds of raw materials in any one hour (c)19; stationary reciprocating engines of 37 kW or greater used for generating electricity, not including emergency generators (c)21."
     },
     {
       "type": "general",
       "name": "General Permits (minor facilities)",
-      "description": "Registered online through NJDEP's online business portal, with immediate authorization to construct. Examples: GP-005A (distillate emergency generators), GP-005B (gaseous-fuel emergency generators), GP-016A Small Emitter General Air Permit (SEGAP), GP-017A and GP-018A (boilers/heaters), GP-021 (CHP combustion turbines), and GP-022 (CHP spark-ignition engines). The registration fee for multiple pieces of equipment is $820. Generators used for demand response cannot use a general permit.",
+      "description": "A general permit is a pre-approved permit and certificate for a specific class of significant sources. Most are registered through the NJDEP Online portal, and NJDEP won't accept paper for general permits that are available online. Current general permits include GP-001A (solid material storage), GP-004A and GP-004B (fuel dispensing), GP-005A and GP-005B (emergency generators burning distillate or gaseous fuels), GP-007 (non-floating-roof VOC storage tanks), GP-009B (boilers 10 to under 50 MMBTU/hr), GP-016A (manufacturing and materials handling), GP-017A and GP-018A (boilers and heaters under 5, and 5 to under 10, MMBTU/hr), GP-019A (temporary equipment), GP-020A (research and development), and GP-021A and GP-021B (fumigation). A general permit can't cover a source subject to PSD or emission offsets (7:27-8.8(b)).",
       "citation": "N.J.A.C. 7:27-8.8",
-      "url": "https://www.nj.gov/dep/enforcement/aceacademy/GP-update-Ketting-Adhanom.pdf",
-      "thresholds": "Size limits (restated from NJDEP training slides): GP-005A under 100 MMBtu/hr; GP-005B under 70 MMBtu/hr; GP-017A under 5 MMBtu/hr; GP-018A 5 to under 10 MMBtu/hr; GP-021/GP-022 65 MMBtu/hr or less at 65% or greater efficiency."
+      "url": "https://dep.nj.gov/boss/general-permits/gp-minor/",
+      "thresholds": "Registration fee: $1,090 per registration, January 1, 2025 through December 31, 2029 (7:27-8.6, Table A-1).",
+      "quote": "A general permit is a pre-approved permit and certificate which applies to a specific class of significant sources.",
+      "quoteSource": {
+        "name": "N.J.A.C. 7:27-8 (NJDEP courtesy copy)",
+        "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub8.pdf"
+      },
+      "thresholdsSource": {
+        "name": "N.J.A.C. 7:27-8 (NJDEP courtesy copy)",
+        "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub8.pdf"
+      }
     },
     {
       "type": "minor-nsr",
       "name": "Preconstruction Permit and Operating Certificate (case-by-case)",
-      "description": "Applications are submitted through the RADIUS program, online or by mail. NJDEP reports average processing of 30 to 60 days for minor sources. The fee is $2,527 plus $590 for each additional piece of equipment. Review typically includes State of the Art (SOTA), NOx RACT where applicable, and risk screening for air toxics.",
+      "description": "Case-by-case applications for a preconstruction permit and operating certificate are filed electronically through RADIUS (7:27-8.4). To get a permit, the applicant must show that each significant source meets the RACT, NSPS, PSD, and other standards that apply, and must document state of the art (SOTA) control for new or modified sources at or above the SOTA thresholds (7:27-8.11, 8.12). An air quality impact analysis is required in some cases (7:27-8.5).",
       "citation": "N.J.A.C. 7:27-8",
-      "url": "https://www.nj.gov/dep/enforcement/aceacademy/GP-update-Ketting-Adhanom.pdf"
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub8.pdf",
+      "quote": "Each significant source incorporates advances in the art of air pollution control (also called “state of the art” or “SOTA”), developed for the kind and amount of air contaminant emitted by the equipment and control apparatus",
+      "thresholds": "Permit fees, January 1, 2025 through December 31, 2029: $3,350 for the first piece of equipment and $790.00 for each additional piece of equipment per initial permit application (7:27-8.6, Table A-2)."
     },
     {
       "type": "psd",
       "name": "Prevention of Significant Deterioration (PSD)",
-      "description": "NJDEP issues PSD permits (per EPA's Clean Air Permitting in New Jersey page and EPA's 2011 PSD delegation to New Jersey). The pages reviewed do not restate numeric thresholds.",
-      "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey"
+      "description": "NJDEP issues PSD permits (per EPA). New Jersey applies the federal PSD rule at 40 CFR 52.21: each significant source must meet PSD requirements under 40 CFR 52.21 to get a permit (7:27-8.11(a)1iii), and a general permit can't cover a source subject to PSD (7:27-8.8(b)). Numeric PSD thresholds are in 40 CFR 52.21.",
+      "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey",
+      "citation": "40 CFR 52.21; N.J.A.C. 7:27-8.11",
+      "quote": "Clean Air Act permitting in New Jersey (minor New Source Review (NSR), non-attainment NSR, PSD, and Part 70 Operating permits) is the responsibility of the New Jersey Air Quality Permitting Program of the New Jersey Department of Environmental Protection."
     },
     {
       "type": "nnsr",
       "name": "Nonattainment NSR (Emission Offsets)",
-      "description": "NJDEP issues nonattainment NSR permits (per EPA's Clean Air Permitting in New Jersey page). Emission offset requirements are in N.J.A.C. 7:27-18. New Jersey is in the Ozone Transport Region. Numeric thresholds are not restated here because the current rule text could not be read.",
+      "description": "The Emission Offset Rule (Subchapter 18) applies to applications under 7:27-8 or 22 to construct, reconstruct, or modify equipment at a facility whose potential to emit meets the 7:27-18.2(a) thresholds, or where the proposed increase alone meets them, if the proposed allowable emissions would cause a significant net emission increase (7:27-18.2(b)).",
       "citation": "N.J.A.C. 7:27-18",
-      "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey"
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub18.pdf",
+      "quote": "This subchapter applies to certain applications, submitted to the Department pursuant to N.J.A.C. 7:27-8 or 22 for authorization to construct, reconstruct, or modify control apparatus or equipment at a facility",
+      "thresholds": "Facility potential to emit at or above: NOx 25 tons per year; VOC 25 tons per year; CO, PM10, PM2.5, TSP, and SO2 100 tons per year; lead 10 tons per year (7:27-18.2(a)1)."
     },
     {
       "type": "title-v",
       "name": "Title V Operating Permit (case-by-case or General Operating Permit)",
-      "description": "Required for major facilities. These are issued either as a GOP, for example GOP-003 (a single 2007-or-later distillate emergency generator) or GOP-004 (a single gaseous-fuel emergency generator), or case by case. EPA's SIP listing shows Subchapter 22 effective November 2, 2020.",
+      "description": "Required for major facilities. Permits are issued case by case or as a General Operating Permit (GOP) under 7:27-22.14, which lets a major facility register a qualifying source instead of modifying its operating permit. Current GOPs cover manufacturing and materials handling equipment (GOP-002A), emergency generators (GOP-003 and GOP-004), and boilers and heaters (GOP-007, GOP-008, and GOP-009). NJDEP lists each GOP at $1,090.",
       "citation": "N.J.A.C. 7:27-22",
-      "url": "https://www.nj.gov/dep/enforcement/aceacademy/GP-update-Ketting-Adhanom.pdf",
-      "thresholds": "GOP-003: 30 MMBtu/hr or less (restated from NJDEP training slides)."
+      "url": "https://dep.nj.gov/boss/general-permits/general-operating-permits/",
+      "thresholds": "Major facility thresholds (potential to emit): NOx 25 tons per year; VOC 25 tons per year; CO, PM10, PM2.5, TSP, and SO2 100 tons per year; lead 10 tons per year; any HAP 10 tons per year; all HAPs collectively 25 tons per year; any other air contaminant except CO2 100 tons per year (7:27-22.1).",
+      "quote": "Major facility” means a facility that constitutes a major source, as defined by EPA at 40 CFR 70.2 or any subsequent amendments thereto, and that has the potential to emit any of the air contaminants listed below in an amount that is equal to or exceeds the applicable major facility threshold level.",
+      "quoteSource": {
+        "name": "N.J.A.C. 7:27-22 (NJDEP courtesy copy)",
+        "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub22.pdf"
+      },
+      "thresholdsSource": {
+        "name": "N.J.A.C. 7:27-22 (NJDEP courtesy copy)",
+        "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub22.pdf"
+      }
     }
   ],
   "oilAndGas": {
-    "summary": "New Jersey has no oil and gas production. Natural gas compressor stations, refineries, and terminals use the preconstruction and Title V framework, and storage tanks are significant sources under 7:27-8.2(c)8-9.",
+    "summary": "NJDEP's general permit lists include no oil and gas production permits. Facilities such as natural gas compressor stations, refineries, and terminals follow the same preconstruction and Title V rules as other facilities, and storage tanks are significant sources under 7:27-8.2(c)8 and 9.",
     "programs": []
   },
   "regulations": [
     {
       "citation": "N.J.A.C. 7:27-8",
-      "title": "Permits and Certificates for Minor Facilities (and Major Facilities without an Operating Permit)",
-      "url": "https://www.epa.gov/system/files/documents/2025-07/ibr-nj-subchapter-8-eff-jan-16-2018.pdf"
+      "title": "Permits and Certificates for Minor Facilities (And Major Facilities Without an Operating Permit)",
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub8.pdf"
     },
     {
       "citation": "N.J.A.C. 7:27-18",
-      "title": "Control and Prohibition of Air Pollution from New or Altered Sources Affecting Ambient Air Quality (Emission Offset Rules)"
+      "title": "Control and Prohibition of Air Pollution from New or Altered Sources Affecting Ambient Air Quality (Emission Offset Rule)",
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub18.pdf"
     },
     {
       "citation": "N.J.A.C. 7:27-21",
-      "title": "Emission Statements"
+      "title": "Emission Statements",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-FF/section-52.1570"
     },
     {
       "citation": "N.J.A.C. 7:27-22",
       "title": "Operating Permits",
-      "url": "https://www.govinfo.gov/content/pkg/FR-2021-11-23/pdf/2021-25004.pdf"
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub22.pdf"
     }
   ],
   "forms": [
@@ -93,8 +119,16 @@
   ],
   "guidance": [
     {
-      "name": "NJDEP Air Permitting General Permit Updates (training slides)",
-      "url": "https://www.nj.gov/dep/enforcement/aceacademy/GP-update-Ketting-Adhanom.pdf"
+      "name": "General Permits for Minor Source Facilities",
+      "url": "https://dep.nj.gov/boss/general-permits/gp-minor/"
+    },
+    {
+      "name": "General Operating Permits (Title V major facilities)",
+      "url": "https://dep.nj.gov/boss/general-permits/general-operating-permits/"
+    },
+    {
+      "name": "N.J.A.C. 7:27 rules (NJDEP courtesy copies)",
+      "url": "https://dep.nj.gov/aqm/rules/rules27/"
     },
     {
       "name": "BOSS Program Updates",
@@ -103,23 +137,35 @@
   ],
   "sources": [
     {
-      "name": "N.J.A.C. 7:27-8 (EPA IBR copy, eff. Jan 16, 2018)",
-      "url": "https://www.epa.gov/system/files/documents/2025-07/ibr-nj-subchapter-8-eff-jan-16-2018.pdf"
+      "name": "N.J.A.C. 7:27-8 (NJDEP courtesy copy)",
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub8.pdf"
     },
     {
-      "name": "NJDEP General Permit Updates slides",
-      "url": "https://www.nj.gov/dep/enforcement/aceacademy/GP-update-Ketting-Adhanom.pdf"
+      "name": "N.J.A.C. 7:27-18 (NJDEP courtesy copy)",
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub18.pdf"
+    },
+    {
+      "name": "N.J.A.C. 7:27-22 (NJDEP courtesy copy)",
+      "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub22.pdf"
+    },
+    {
+      "name": "NJDEP General Permits for Minor Source Facilities",
+      "url": "https://dep.nj.gov/boss/general-permits/gp-minor/"
+    },
+    {
+      "name": "NJDEP General Operating Permits",
+      "url": "https://dep.nj.gov/boss/general-permits/general-operating-permits/"
     },
     {
       "name": "EPA: Clean Air Permitting in New Jersey",
       "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey"
     },
     {
-      "name": "Federal Register 2021-25004 (NJ Subchapter 22 listing)",
-      "url": "https://www.govinfo.gov/content/pkg/FR-2021-11-23/pdf/2021-25004.pdf"
+      "name": "40 CFR 52.1570 (New Jersey SIP, subchapter titles)",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-FF/section-52.1570"
     }
   ],
-  "lastReviewed": "2026-10-25",
-  "verification": "partial",
-  "notes": "NJDEP's own website (dep.nj.gov) refused automated access throughout this review, so its current pages, the full general permit list, and the current rule text could not be read. Thresholds come from EPA's 2018 incorporation-by-reference copy of Subchapter 8 and may have been amended since. The general permit list, fees, and processing times come from an undated NJDEP training deck and should be checked against the current BOSS general permits page. The Subchapter 18 title is the standard rule title and was not seen in text. A nonattainment NSR threshold quote was removed on 2026-10-30 because the EPA page it came from no longer exists."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Checked against NJDEP's courtesy copies of N.J.A.C. 7:27-8, -18, and -22 and its current general permit pages. Fees and the general permit list were updated from older figures. PSD thresholds are not restated because New Jersey applies 40 CFR 52.21 directly."
 }

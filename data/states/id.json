@@ -15,14 +15,14 @@
       "type": "exemption",
       "name": "Exemptions",
       "description": "Self-exemption and exemption forms exist (general Exemptions Form, 6H Notification and Petition, automotive coating and cabinet making self-exemptions). One-time occurrences, such as painting a vehicle in a shop, do not require a permit.",
-      "citation": "IDAPA 58.01.01",
+      "citation": "IDAPA 58.01.01, Sections 220-223",
       "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/"
     },
     {
       "type": "pbr",
       "name": "Permit by Rule (PBR)",
       "description": "Registration in place of a PTC; available only to rock crushers and certain dairies.",
-      "citation": "IDAPA 58.01.01",
+      "citation": "IDAPA 58.01.01, Sections 762-763 (dairy farms) and 795-797 (nonmetallic mineral processing plants)",
       "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/"
     },
     {
@@ -37,29 +37,47 @@
       "type": "minor-nsr",
       "name": "Permit to Construct (PTC)",
       "description": "Required before constructing or modifying sources that emit or may emit air pollutants; typically requires an air quality modeling demonstration.",
-      "citation": "IDAPA 58.01.01",
-      "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/"
+      "citation": "IDAPA 58.01.01, Sections 200-228 (Section 201)",
+      "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+      "quote": "No owner or operator may commence construction or modification of any stationary source, facility, major facility, or major modification without first obtaining a permit to construct from the Department that satisfies the requirements of Sections 200 through 227 unless the source is exempted in any of Sections 220 through 223",
+      "quoteSource": {
+        "name": "IDAPA 58.01.01, Rules for the Control of Air Pollution in Idaho (adminrules.idaho.gov)",
+        "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf"
+      }
     },
     {
       "type": "state-operating",
       "name": "Tier II Operating Permit",
       "description": "Authorizes facility emission caps, mercury BACT limits, or synthetic minor limits; may be required for Regional Haze BART.",
-      "citation": "IDAPA 58.01.01",
+      "citation": "IDAPA 58.01.01, Sections 400-409",
       "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/"
     },
     {
       "type": "psd",
       "name": "PSD",
-      "description": "Major source preconstruction review is part of Idaho's PTC rules in IDAPA 58.01.01. DEQ's permitting page does not describe PSD separately.",
-      "citation": "IDAPA 58.01.01",
+      "description": "Section 205 covers new major facilities and major modifications in attainment or unclassifiable areas and incorporates the federal PSD requirements of 40 CFR 52.21 by reference. Applications follow Section 202 and processing follows Section 209.",
+      "citation": "IDAPA 58.01.01, Section 205",
+      "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf",
+      "quote": "The intent of Section 205 is to incorporate the federal PSD rule requirements."
+    },
+    {
+      "type": "nnsr",
+      "name": "Nonattainment major NSR",
+      "description": "Section 204 sets permit requirements for new major facilities or major modifications in nonattainment areas, as part of the Permit to Construct rules.",
+      "citation": "IDAPA 58.01.01, Section 204",
       "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf"
     },
     {
       "type": "title-v",
       "name": "Tier I Operating Permit (Title V)",
       "description": "Consolidates applicable federal, state, and local requirements for major stationary sources into one federally enforceable permit.",
-      "citation": "IDAPA 58.01.01",
-      "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/"
+      "citation": "IDAPA 58.01.01, Sections 300-386",
+      "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+      "quote": "No owner or operator may operate any Tier I source without an effective Tier I operating permit.",
+      "quoteSource": {
+        "name": "IDAPA 58.01.01, Rules for the Control of Air Pollution in Idaho (adminrules.idaho.gov)",
+        "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf"
+      }
     }
   ],
   "oilAndGas": {
@@ -71,6 +89,26 @@
       "citation": "IDAPA 58.01.01",
       "title": "Rules for the Control of Air Pollution in Idaho",
       "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf"
+    },
+    {
+      "citation": "IDAPA 58.01.01, Sections 200-228",
+      "title": "Procedures and requirements for permits to construct (exemptions in Sections 220-223)"
+    },
+    {
+      "citation": "IDAPA 58.01.01, Section 204",
+      "title": "Permit requirements for new major facilities or major modifications in nonattainment areas"
+    },
+    {
+      "citation": "IDAPA 58.01.01, Section 205",
+      "title": "Permit requirements for new major facilities or major modifications in attainment or unclassifiable areas (PSD)"
+    },
+    {
+      "citation": "IDAPA 58.01.01, Sections 300-386",
+      "title": "Procedures and requirements for Tier I operating permits"
+    },
+    {
+      "citation": "IDAPA 58.01.01, Sections 400-409",
+      "title": "Procedures and requirements for Tier II operating permits"
     }
   ],
   "forms": [
@@ -117,9 +155,13 @@
     {
       "name": "Idaho DEQ Administrative Rules",
       "url": "https://www.deq.idaho.gov/rules-and-guidance/administrative-rules/"
+    },
+    {
+      "name": "IDAPA 58.01.01, Rules for the Control of Air Pollution in Idaho (adminrules.idaho.gov)",
+      "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf"
     }
   ],
-  "lastReviewed": "2026-10-25",
-  "verification": "partial",
-  "notes": "Specific IDAPA 58.01.01 section numbers and numeric thresholds were not stated on DEQ's permitting page and are omitted. The Tier I page could not be loaded during review. Air permitting hotline: 1-877-573-7648."
+  "lastReviewed": "2026-10-31",
+  "verification": "verified",
+  "notes": "Section numbers and quotes confirmed in the current IDAPA 58.01.01 text on adminrules.idaho.gov and on DEQ's air quality permitting page (2026-10-31). Numeric applicability thresholds live in the rule's definitions and are not restated here. Air permitting hotline: 1-877-573-7648."
 }
