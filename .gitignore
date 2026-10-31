@@ -7,3 +7,6 @@ out
 next-env.d.ts
 link-report.md
 link-urls.json
+
+# Database export written by scripts/db-build.ts
+/.content/

@@ -57,6 +57,9 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // Routes that render on request (the screening API, search) read the content
+  // database export when the build wrote one; see src/lib/content/config.ts.
+  outputFileTracingIncludes: { "/**": ["./.content/**/*.json"] },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
