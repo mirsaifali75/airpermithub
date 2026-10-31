@@ -1,0 +1,42 @@
+{
+ "f001.txt": {
+  "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub8.pdf",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/wp-content/uploads/aqm/sub8.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 195749
+ },
+ "f002.txt": {
+  "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub18.pdf",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/wp-content/uploads/aqm/sub18.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 60229
+ },
+ "f003.txt": {
+  "url": "https://dep.nj.gov/wp-content/uploads/aqm/sub22.pdf",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/wp-content/uploads/aqm/sub22.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 323767
+ },
+ "f004.txt": {
+  "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
+  "status": 500,
+  "finalUrl": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
+  "type": "text/html",
+  "title": "DEQ continues to be Air Quality Leader with release of Oil and Gas Guidance Document - Wyoming Department of Environmental Quality",
+  "length": 8883
+ },
+ "f005.txt": {
+  "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey",
+  "type": "text/html",
+  "title": "Clean Air Permitting in New Jersey | US EPA",
+  "length": 4239
+ }
+}

@@ -1,0 +1,1599 @@
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+NEW JERSEY STATE DEPARTMENT OF ENVIRONMENTAL PROTECTION
+NEW JERSEY ADMINISTRATIVE CODE
+TITLE 7
+CHAPTER 27
+SUBCHAPTER 18
+Control and Prohibition of Air Pollution from New or Altered Sources Affecting Ambient
+Air Quality
+(Emission Offset Rule)
+TABLE OF CONTENTS
+Section
+Page
+REGULATORY HISTORY ........................................................................................................... 2
+7:27-18.1
+Definitions................................................................................................................. 4
+7:27-18.2
+Facilities subject to this subchapter ........................................................................ 13
+7:27-18.2A (Reserved) ............................................................................................................... 15
+7:27-18.3
+Standards for issuance of permits ........................................................................... 15
+7:27-18.4
+Air quality impact analysis ..................................................................................... 17
+7:27-18.5
+Standards for use of emission reductions as emission offsets ................................ 18
+7:27-18.6
+Emission offset postponement ................................................................................ 21
+7:27-18.7
+Determination of a net emission increase or a significant net emission increase ... 22
+7:27-18.8
+Banking of emission reductions .............................................................................. 23
+7:27-18.9
+Secondary emissions ............................................................................................... 25
+7:27-18.10 Exemptions ............................................................................................................. 25
+7:27-18.11 (Reserved)................................................................................................................ 26
+7:27-18.12 Civil or criminal penalties for failure to comply .................................................... 26
+
+Please note: The Department has made every effort to ensure that this text is identical to the official,
+legally effective version of this rule, set forth in the New Jersey Register. However, should there be any
+discrepancies between this text and the official version of the rule, the official version will prevail.
+
+1
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+Regulatory
+Action
+Original
+Emergency
+Adoption and
+Concurrent
+Proposal
+
+REGULATORY HISTORY
+Proposal Date &
+Effective Date &
+NJR Citation
+Date Adopted
+NJR Citation
+June 14, 1979
+July 5, 1979
+11 N.J.R. 327(a)
+
+Amendment
+
+July 5, 1979
+11 N.J.R. 327(a)
+
+Amendment
+
+July 2, 1984
+January 10, 1985
+16 N.J.R. 1679(a)
+
+March 11, 1985
+17 N.J.R. 277(a)
+
+Amendment
+
+October 5, 1992 February 19, 1993
+24 N.J.R. 3459(a)
+
+March 15, 1993
+25 N.J.R. 1231(b)
+
+April 20, 1993
+
+Amendment
+
+February 20, 1996 June 3, 1996
+28 N.J.R. 1147(b)
+
+July 1, 1996
+28 N.J.R. 3414(a)
+
+August 2, 1996
+
+Amendment
+
+February 5, 1996 September 24, 1996 November 4, 1996 November 23, 1996
+28 N.J.R. 748(a)
+28 N.J.R. 4784(a)
+August 18, 1997 April 13, 1998
+May 4, 1998
+June 12, 1998
+29 N.J.R. 3521(a)
+30 NJR 1563(b)
+
+Amendment
+
+Amendment
+
+July 3, 1980
+
+August 2, 1980
+12 N.J.R. 462(c)
+
+Operative Date
+June 30, 1979
+
+July 6, 1999
+April 7, 2000
+31 N.J.R. 1671(a)
+
+Administrative
+Change
+
+May 15, 2000
+32 N.J.R. 1808(a)
+
+September 8, 1980
+
+June 6, 2000
+
+August 21, 2000
+32 N.J.R. 3117(a)
+
+Amendment
+
+August 4, 2003
+February 25, 2004
+35 N.J.R. 3486(a)
+
+April 5, 2004
+36 N.J.R. 1791(a)
+
+April 25, 2004
+
+Amendment
+
+August 4, 2003
+February 25, 2004
+35 N.J.R. 3486(a)
+
+April 5, 2004
+36 N.J.R. 1791(a)
+
+April 25, 2004
+
+Amendment
+
+November 5, 2007 October 30, 2008
+39 N.J.R. 4492(a)
+
+December 1, 2008 December 29, 2008
+40 N.J.R. 6769(a)
+
+Administrative
+Change
+
+September 6, 2011
+43 N.J.R. 2328(a)
+
+2
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+Amendment
+
+March 20, 2017
+49 N.J.R. 515(a)
+
+October 10, 2017
+
+3
+
+November 6, 2017 December 9, 2017
+(49 N.J.R. 3511(a))
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+7:27-18.1
+
+Definitions
+
+The following words and terms, when used in this subchapter, shall have the following
+meanings, unless the context clearly indicates otherwise.
+“Actual emissions” means the actual rate of emissions of an air contaminant from a
+source operation, equipment, or control apparatus. The actual rate of emissions, as of a particular
+date, shall equal the average rate at which the air contaminant was actually emitted during the
+two calendar years that are immediately preceding the particular date provided these are
+representative of normal source operation. The Department may allow the use of a time period
+different from this two year period only upon a determination that the different time period is
+more representative of normal operation. Actual emissions shall be calculated using the actual
+operating hours, production rates, and types of materials used, processed, stored, or combusted
+during the selected time period. Generally, the particular date is the permit application date, but
+may be another date specified by the Department. For any equipment, source operation, or
+control apparatus which has not begun normal operations as of the particular date, the
+Department shall assume that its actual emissions equal its allowable emissions. Actual
+emissions shall, for the purposes of this subchapter, be expressed in tons per year.
+“Aerodynamic diameter” means the theoretical diameter of a nonspherical particle
+having the same terminal settling velocity as an equally dense, spherical particle of such
+diameter.
+“Air contaminant” means any substance, other than water or distillates of air, present in
+the atmosphere as solid particles, liquid particles, vapors or gases.
+“Air quality impact analysis” means a procedure, entailing the use of an air quality
+simulation model, for determining whether air contaminant emissions will result in an ambient
+air concentration that exceeds a standard established for the protection of human health and
+welfare and the environment.
+“Air quality simulation model” means a procedure, taking into account the dispersive
+capacity of the atmosphere, meteorological data, topography, and other relevant factors, to
+predict the concentration of an air contaminant in the ambient air. Such procedure may entail use
+of a mathematical model or a physical model.
+“Allowable emission” means the rate at which an air contaminant may be emitted into
+the outdoor atmosphere. This rate shall be based on the maximum rated capacity of the
+equipment, unless the equipment is subject to Federally enforceable limits which restrict the
+operating rate, hours of operations, or both. In such cases this rate is based on the most stringent
+of the following:
+1.
+
+Applicable standards of performance for new stationary sources (NSPS) as set
+forth in 40 CFR 60;
+
+4
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+2.
+
+Applicable national emission standards for hazardous air pollutants (NESHAP) as
+set forth in 40 CFR 61;
+
+3.
+
+Applicable emission, equipment, and operating standards as set forth in this
+chapter, including those with a future compliance date;
+
+4.
+
+Applicable emission limitations specified in a Federally enforceable permit,
+including limitations with a future compliance date; and
+
+5.
+
+Any emission limitation in an applicable State Implementation Plan (SIP).
+
+“Alteration” means one of the following changes to equipment or control apparatus, or
+to a source operation, for which a permit has been issued:
+1.
+
+If the equipment, control apparatus, or source operation is subject to
+preconstruction permit requirements, a change which requires a permit revision
+under N.J.A.C. 7:27-8.18; or
+
+2.
+
+If the equipment, control apparatus, or source operation is at a facility for which
+an operating permit has been issued, a change which requires a minor
+modification or a significant modification of the permit under N.J.A.C. 7:2722.23 or 24.
+
+“Alternative fuel” means, with respect to any source operation, any fuel whose use is
+not authorized by any permit or, for a source operation without a permit, this term means any
+fuel not used in the source operation since December 21, 1976.
+“Ambient air quality standard” means a limit on the concentration of an air
+contaminant in the general outdoor atmosphere as set forth in N.J.A.C. 7:27-13 or in 40 CFR 50.
+“Attainment area” means any area of the State which is not a nonattainment area.
+“Banking” means the reservation of creditable emission reductions, pursuant to N.J.A.C.
+7:27-18.8, for future use as emission offsets.
+“Carbon monoxide” or "CO” means a gas having a molecular composition of one
+carbon atom and one oxygen atom.
+“CAA” means the Clean Air Act as amended November 1990 (42 USC 7401 et seq., as
+amended by Pub. L. 101-549).
+“Commence construction” or “commencement of construction” means, with respect
+to construction, reconstruction, or modification of equipment or control apparatus at a facility,
+the beginning of initiation of physical on-site construction. For the purpose of this subchapter,
+this term shall include installation activities on any source operation, equipment, or control
+apparatus, which are of a permanent nature. Such activities shall include, but are not limited to,
+
+5
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+establishment of building supports and foundations, laying of underground pipework, and
+construction of permanent storage structures. With respect to a change in method of operation at
+a facility, this term refers to the beginning of those on-site activities which mark the initiation of
+the change in method of operation.
+“Complete” means, in reference to an application for a permit, that the application
+contains all of the information necessary, as determined by the Department, for commencing
+technical review of the application. Designating an application complete for purposes of
+commencing technical review does not preclude the Department from requesting or accepting
+any additional information.
+“Construct” or “construction” means to fabricate or erect equipment or control
+apparatus at a facility where it is intended to be used, but shall not include the dismantling of
+existing equipment or control apparatus, site preparation, or the ordering, receiving, or temporary
+storage of equipment or control apparatus. Unless otherwise prohibited by Federal law,
+“construct” or “construction” shall also not include the pouring of footings or placement of a
+foundation where equipment or control apparatus is intended to be used. This term shall include
+installation of equipment or control apparatus.
+“Consumer Price Index” or “CPI” means the annual Consumer Price Index for a
+calendar year as determined year to year using the decimal increase in the September through
+August, 12-month average for the previous year of the Consumer Price Index for All Urban
+Consumers (CPI-U), as published by the United States Department of Labor.
+“Contemporaneous” means, in respect to newly constructed, reconstructed, or modified
+equipment, or a change in method of operation, occurring within a time period which includes:
+1.
+
+The five years prior to the commencement of construction; and
+
+2.
+
+The period between the commencement of the construction and the initiation of
+operation of the newly constructed, reconstructed, or modified equipment.
+
+“Control apparatus” means any device that prevents or controls the emission of any air
+contaminant.
+“Creditable emission reduction” means a decrease in actual emissions which meets the
+conditions listed in 1 through 5 below. A decrease is a creditable emission reduction only to the
+extent that the pre-decrease level of actual emissions or the pre-decrease level of allowable
+emissions, whichever is lower, exceeds the new level of allowable emissions. Decreases in
+allowable emissions attributable to equipment or control apparatus that was permitted, but never
+operated, shall not be considered a creditable emission reduction. In order to be a creditable
+emission reduction, the decrease must be:
+1.
+
+Quantifiable;
+
+2.
+
+Federally enforceable;
+
+6
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+3.
+
+Not required pursuant to any Federal or State law, rule, permit, order, or other
+legal document;
+
+4.
+
+Not relied on by the Department in the SIP or any revision thereto, adopted by the
+Department, to demonstrate attainment or maintenance of a NAAQS or to
+demonstrate reasonable further progress toward attainment of a NAAQS; and
+
+5.
+
+Verifiable, to the satisfaction of the Department, to have in fact occurred.
+
+“Criteria pollutant” means any air contaminant for which a NAAQS has been
+promulgated under 40 CFR 50 or for which a NJAAQS has been promulgated in N.J.A.C. 7:2713.
+“Emission offset” means a creditable emission reduction approved by the Department
+for use to offset an increase in allowable emissions of an air contaminant from a facility.
+“EPA” means the United States Environmental Protection Agency.
+“Equipment” means any device capable of causing the emission of an air contaminant
+either directly or indirectly into the outdoor atmosphere, and any stack or chimney, conduit, flue,
+duct, vent or similar device connected or attached to, or serving the equipment. This term
+includes, but is not limited to, equipment in which the preponderance of the air contaminants
+emitted is caused by a manufacturing process.
+“Facility” means the combination of all structures, buildings, equipment, control
+apparatus, storage tanks, source operations, and other operations that are located on a single site
+or on contiguous or adjacent sites and that are under common control of the same person or
+persons.
+“Facility-wide permit” means a single permit issued by the Department to the owner or
+operator of a priority industrial facility incorporating the permits, certificates, registrations, or
+any other relevant Department approvals previously issued to the owner or operator of the
+priority industrial facility pursuant to the Solid Waste Management Act, N.J.S.A. 13:1E-1 et seq.,
+the Water Pollution Control Act, N.J.S.A. 58:10A-1 et seq., the Air Pollution Control Act,
+N.J.S.A. 26:2C-1 et seq., and the appropriate provisions of the Pollution Prevention Plan
+prepared by the owner or operator of the priority industrial facility pursuant to N.J.S.A. 13:1D-41
+and 42. This term shall have the same meaning as defined for the term “facility-wide permit” at
+N.J.A.C. 7:1K-1.5; if there is any conflict between the definition at N.J.A.C. 7:1K-1.5 and this
+one, the definition at N.J.A.C. 7:1K-1.5 shall control.
+“Federally enforceable” means all limitations and conditions on operation, production,
+or emissions which can be enforced by the EPA pursuant to authorities which include, but are
+not limited to, those established in:
+
+7
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+1.
+
+Any standards of performance for new stationary sources (NSPS) promulgated at
+40 CFR 60;
+
+2.
+
+Any national emission standard for hazardous air pollutants (NESHAP)
+promulgated at 40 CFR 61;
+
+3.
+
+Any provision of an applicable SIP; or
+
+4.
+
+Any permit issued pursuant to requirements established at 40 CFR 51, Subpart I;
+40 CFR 52.21; 40 CFR 70; 40 CFR 71; or this chapter.
+
+“Fugitive emissions” means any emissions of an air contaminant released directly or
+indirectly into the outdoor atmosphere which do not pass through any stack or chimney.
+“Initiation of operation” means, in respect to the operation of newly constructed,
+reconstructed, or modified equipment or a change in method of operation, the date on which any
+air contaminant is first emitted from the newly constructed, reconstructed, or modified
+equipment, or from the equipment affected by the change in method of operation.
+“Install” or “installation” means to carry out final setup activities necessary to provide
+equipment or control apparatus with a capacity for use or service, and shall include, but need not
+be limited to, connection of equipment or control apparatus, associated utilities, piping, duct
+work, or conveyor systems, but shall not include construction or reconfiguration of equipment or
+control apparatus to an alternative configuration specified in a permit application and approved
+by the Department.
+“Lead” or “Pb” means elemental lead or any compound containing lead.
+“Lowest achievable emission rate” or “LAER” means a limitation on the rate of
+emission from any source operation, equipment, or control apparatus which is consistent with the
+most stringent of the following:
+1.
+
+The most stringent emission limitation which is contained in the SIP of any state
+for such class or category of source operation, equipment, or control apparatus,
+unless the owner or operator of the proposed new or altered equipment or control
+apparatus demonstrates to the satisfaction of the Department that such a limitation
+is not achievable by that equipment or control apparatus;
+
+2.
+
+The most stringent emission limitation which is achieved in practice by such class
+or category of source operation, equipment, or control apparatus; or
+
+3.
+
+The most stringent emission limitation established in any NSPS or NESHAP
+applicable to such class or category of equipment or control apparatus.
+
+“Minimum offset ratio” means the minimum acceptable ratio of emission offsets to
+increases in the allowable emissions for a facility.
+
+8
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+“Modify” or “modification” means any physical change in, or change in the method of
+operation of, existing equipment or control apparatus that increases the amount of any air
+contaminant emitted by that equipment or control apparatus or that results in the emission of any
+air contaminant not previously emitted. This term shall not include normal repair and
+maintenance.
+“Motor vehicle” means a vehicle propelled otherwise than by muscular power, excepting
+motorized bicycles and such vehicles as run only upon rails or tracks.
+“National ambient air quality standard” or “NAAQS” means an ambient air quality
+standard promulgated at 40 CFR 50.
+“NESHAP” means National Emission Standards for Hazardous Air Pollutants as
+promulgated under 40 CFR 61.
+“Net air quality benefit” means, in the area affected by a proposed emission increase of
+an air contaminant, a net decrease in the ambient concentration of the respective criteria pollutant
+for the air contaminant.
+“Net emission increase” means, in respect to any air contaminant emitted at a facility, an
+increase calculated in accordance with the procedures set forth at N.J.A.C. 7:27-18.7(a).
+“New Jersey ambient air quality standard” or “NJAAQS” means an ambient air
+quality standard promulgated at N.J.A.C. 7:27-13.
+“Nitrogen dioxide” or “NO2” means a gas that has a molecular composition of one
+nitrogen atom and two oxygen atoms.
+“Nonattainment area” means any area of the State:
+1.
+
+Identified by the Department as one in which the ambient air concentration of a
+criteria pollutant exceeds an ambient air quality standard; or
+
+2.
+
+Designated by the EPA at 40 CFR 81.331 as an area in which the ambient air
+concentration of a criteria pollutant exceeds the applicable NAAQS.
+
+“NOx” or “oxides of nitrogen” means all the oxides of nitrogen including, but not
+limited to, nitric oxide and nitrogen dioxide, except nitrous oxide.
+“NSPS” means Standards of Performance for New Stationary Sources as promulgated
+under 40 CFR 60, commonly referred to as New Source Performance Standards.
+“Operating certificate” means a “Certificate to Operate Control Apparatus or
+Equipment” issued by the Department pursuant to the Air Pollution Control Act of 1954, and in
+
+9
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+particular N.J.S.A. 26:2C-9.2, which is valid for a period of five years from the date of issuance,
+unless sooner revoked by the Department.
+“Operating permit” means the permit described in Title V of the Federal Clean Air Act,
+42 U.S.C. §§ 7661 et seq., and in N.J.A.C. 7:27-22. This term shall include a general operating
+permit which is applicable facility wide, but does not include a general operating permit which
+applies only to a part of a facility. Where a general operating permit applies only to a part of a
+facility, the general operating permit shall be incorporated into the operating permit. This term
+also includes an operating permit issued for a temporary facility; for a facility subject to a MACT
+or GACT standard pursuant to N.J.A.C. 7:27-22.26; or for a component of a facility pursuant to
+N.J.A.C. 7:27-22.5(j).
+“Ozone” or “O3” means a gas having a molecular composition of three oxygen atoms.
+“Permit” means preconstruction permit, operating permit, or facility-wide permit.
+“Person” means an individual, public or private corporation, company, international
+entity, institution, county, municipality, state, interstate body, the United States of America, or
+any agency, board, commission, employee, agent, officer, or political subdivision of a state, an
+interstate body, or the United States of America.
+“Plume rise” means the vertical distance from the point at which an effluent stream is
+discharged into the outdoor atmosphere to the highest point attained by the center line of the
+effluent stream.
+“PM10” means a class of air contaminants that includes all particulate matter having an
+aerodynamic diameter less than or equal to a nominal 10 microns.
+“PM2.5” means a class of air contaminants that includes all particulate matter having an
+aerodynamic diameter less than or equal to a nominal 2.5 microns.
+“PM2.5 inter-pollutant offset” means a creditable emission reduction of PM2.5, or of a
+PM2.5 precursor, used in a PM2.5 nonattainment area to offset an emission increase of PM2.5, or of
+a PM2.5 precursor, to provide a net air quality benefit.
+“Potential to emit” means the same as that term is defined by the EPA at 40 C.F.R. 70.2
+or any subsequent amendments thereto. In general, the potential to emit is the maximum
+aggregate capacity of a source operation or of a facility to emit an air contaminant under its
+physical and operational design. Any physical or operational limitation on the capacity of a
+source operation or a facility to emit an air contaminant, including any limitation on fugitive
+emissions as a result of any applicable requirement, control apparatus, and restrictions on hours
+of operation or on the type or amount of material combusted, stored or processed, shall be treated
+as part of its design, if the limitation is Federally enforceable. Unless otherwise indicated,
+fugitive emissions shall be included in the determination of potential to emit. However, the
+determination shall not include any banked emission reductions that are held by the owner or
+operator.
+
+10
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+“Preconstruction permit” means a legally valid permit, authorizing construction,
+installation, reconstruction, or modification of a significant source, issued by the Department
+under N.J.A.C. 7:27-8 pursuant to the New Jersey Air Pollution Control Act and in particular
+N.J.S.A. 26:2C-9.2.
+“Process unit” means equipment assembled to produce intermediate or final products. A
+process unit can operate independently if supplied with sufficient feed or raw materials and
+sufficient storage facilities for the product. The storage and transfer of product or raw materials
+to and from the process unit shall be considered separate from the process unit for the purposes
+of making reconstruction determinations. Product recovery equipment shall be considered to be
+part of the process unit, not part of the control apparatus.
+“Reasonable further progress” or “RFP” means such annual incremental reductions in
+emissions to the outdoor atmosphere of an air contaminant as are required by the CAA for the
+purpose of ensuring attainment of the NAAQS for the respective criteria pollutant by the
+applicable statutory deadline.
+“Reconstruct” or “reconstruction” means the replacement of part(s) of equipment
+included in the process unit, or the replacement of part(s) of control apparatus, if the fixed capital
+cost of replacing the part(s) exceeds both of the following amounts:
+1.
+
+Fifty percent of the fixed capital cost that would be required to construct a
+comparable new process unit; or, if it is part(s) of control apparatus that is being
+replaced, 50 percent of the fixed capital cost that would be required to construct
+comparable new control apparatus; and
+
+2.
+
+$ 80,000, in 1995 dollars, adjusted by the Consumer Price Index (CPI).
+
+“Resource recovery source” means any equipment used for processing solid waste
+(including refuse derived fuel and sewage sludge) for the purpose of extracting, converting to
+energy, or otherwise separating and preparing solid waste for reuse. For the purpose of this
+subchapter energy conversion equipment must use solid waste to provide more than 50 percent
+of the heat input to be considered a resource recovery source.
+“Respective criteria pollutant” means the corresponding criteria pollutant for each air
+contaminant listed in Table 3 of N.J.A.C. 7:27-18.7. The following are the air contaminants
+listed in Table 3, and their respective criteria pollutants:
+
+11
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+Category of
+Air Contaminants
+TSP
+PM10
+PM2.5
+SO2
+CO
+NOx
+VOC
+Pb
+
+Respective
+Criteria Pollutant
+TSP
+PM10
+PM2.5
+SO2 and PM2.5
+CO
+NO2, O3, and PM2.5
+O3
+Pb
+
+“Secondary emissions” means emissions to the outdoor atmosphere which occur as an
+indirect result of the construction or operation of new or altered source operations, equipment or
+control apparatus at a facility and which affect the air quality of the same general area as
+emissions occurring as a direct result of the new or altered source operation, equipment or
+control apparatus. This term includes, but is not limited to:
+1.
+
+Emissions from marine vessels or from vehicles running upon rails or tracks
+where such vessels or vehicles are associated with the construction or operation of
+the new or altered source operation, equipment or control apparatus. The term
+does not, however, include emissions resulting from motor vehicle or aircraft
+traffic; and
+
+2.
+
+Emissions from off-site support facilities which would be constructed or whose
+rate of emissions would otherwise increase as a result of the construction or
+operation of the new or altered source operation, equipment, or control apparatus.
+
+“Significant air quality impact level” means an increase, greater than or equal to that
+specified in Table 1 at N.J.A.C. 7:27-18.4, in the ambient air concentration of a criteria pollutant.
+“Significant net emission increase” means an emission increase of any air contaminant
+determined pursuant to the procedures set forth in N.J.A.C. 7:27-18.7 to be a significant net
+emission increase.
+“SO2” or “Sulfur dioxide” means a gas that has a molecular composition of one sulfur
+atom and two oxygen atoms.
+“Source operation” means any process or any identifiable part thereof that emits or can
+reasonably be anticipated to emit any air contaminant either directly or indirectly into the
+outdoor atmosphere.
+“Stack or chimney” means a flue, conduit or opening designed, constructed, or used for
+the purpose of emitting any air contaminant into the outdoor atmosphere.
+
+12
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+“State Implementation Plan” or “SIP” means a plan for the attainment of NAAQS,
+prepared by a state and approved by the EPA pursuant to Section 110 of the Clean Air Act (42
+USC 1857 et seq.).
+“Total suspended particulate matter” or “TSP” means any air contaminant dispersed
+in the outdoor atmosphere which exists as solid particles or liquid particles at standard conditions
+and is measured in accordance with a test method at N.J.A.C. 7:27B-1; 40 CFR 60, Appendix A,
+Methods 5 through 5H; or another test method approved by the Department and EPA.
+“Transportation control measure” or “TCM” means a measure directed toward
+reducing air contaminant emissions from motor vehicles. Such measures include those identified
+in Section 108(f)(1)(A), including the removal from use and the marketplace of pre-1980 model
+year light duty vehicles and pre-1980 model year light duty trucks.
+“Volatile organic compound” or “VOC” means a volatile organic compound as that
+term is defined by the EPA at 40 CFR 51.100(s), as supplemented or amended, which is
+incorporated by reference herein.
+7:27-18.2
+(a)
+
+Facilities subject to this subchapter
+
+This subchapter applies to certain applications, submitted to the Department pursuant to
+N.J.A.C. 7:27-8 or 22 for authorization to construct, reconstruct, or modify control
+apparatus or equipment at a facility, if the requirements at (b) or (c) below apply and:
+1.
+
+The facility has the potential to emit any of the air contaminants listed below in an
+amount that is equal to or exceeds the following threshold levels:
+Air contaminant
+CO
+PM10
+PM2.5
+TSP
+SO2
+SO2 (as a PM2.5 precursor)
+NOx
+NOx (as a PM2.5 precursor)
+VOC
+Lead
+
+2.
+
+Threshold level
+100 tons per year
+100 tons per year
+100 tons per year
+100 tons per year
+100 tons per year
+100 tons per year
+25 tons per year
+100 tons per year
+25 tons per year
+10 tons per year; or
+
+The emission increase of an air contaminant, proposed in the application, by itself
+equals or exceeds the threshold level for that air contaminant set forth in (a)1
+above.
+
+13
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+(b)
+
+For a facility which meets the criteria at (a)1 or 2 above, an application is subject to this
+subchapter if any allowable emissions proposed in the application would result in a
+significant net emission increase of any air contaminant listed in Table 3 of N.J.A.C.
+7:27-18.7, and if the facility for which the construction, reconstruction, or modification is
+proposed is located at an area which is any of the following:
+1.
+
+Nonattainment for the respective criteria pollutant corresponding to that air
+contaminant. The respective criteria pollutant for each air contaminant is listed in
+the definition of the term "respective criteria pollutant" at N.J.A.C. 7:27-18.1;
+
+2.
+
+Attainment for the respective criteria pollutant, and both (b)1i and ii below are
+true:
+
+3.
+
+(c)
+
+i.
+
+The proposed significant net emission increase would result in an increase
+in the ambient concentration of the respective criteria pollutant in an area
+that is nonattainment for the respective criteria pollutant, as determined by
+an air quality impact analysis required under N.J.A.C. 7:27-8.5; and
+
+ii.
+
+The increase in the ambient concentration of the respective criteria
+pollutant equals or exceeds the significant air quality impact level
+specified in Table 1 in N.J.A.C. 7:27-18.4, in the nonattainment area for
+the respective criteria pollutant; or
+
+Attainment for the respective criteria pollutant, and the proposed significant net
+emission increase would result in an increase in the ambient concentration of the
+respective criteria pollutant that would:
+i.
+
+Equal or exceed the significant air quality impact level; and
+
+ii.
+
+Result in a violation of an applicable NAAQS or NJAAQS, as determined
+by an air quality impact analysis required under N.J.A.C. 7:27-8.5.
+
+For a facility which meets the criteria at (a)1 above, an application is subject to N.J.A.C.
+7:27-18.3(b)1 (LAER) and 2 (compliance certification), if:
+1.
+
+Emission offsets for an air contaminant have been previously required at the
+facility for which the permit is sought;
+
+2.
+
+The construction, reconstruction, or modification proposed in the application
+would, within the contemporaneous period, result in a net emission increase,
+which is not a significant net emission increase, of the same air contaminant for
+which offsets were required. A net emission increase shall be calculated pursuant
+to N.J.A.C. 7:27-18.7; and
+
+3.
+
+The nonattainment area in which the facility is located (or, in the case of a facility
+located in an attainment area, the nonattainment area whose air quality would
+
+14
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+have been impacted by emissions from the facility had emission offsets not been
+secured) has not been redesignated as being in attainment for the respective
+criteria pollutant as of the date the permit application is submitted to the
+Department.
+(d)
+
+This subchapter shall not apply to any person applying for a permit, if the allowable
+emissions proposed in the application would result in no net emission increase, as
+calculated pursuant to N.J.A.C. 7:27-18.7(a).
+
+7:27-18.2A (Reserved)
+7:27-18.3
+
+Standards for issuance of permits
+
+(a)
+
+The Department shall not authorize the construction, reconstruction, or modification of
+any equipment or control apparatus which is subject to this subchapter unless the owner
+or operator of the facility has demonstrated that the facility will be in compliance with all
+of the applicable requirements of this subchapter at that time of initiation of operation of
+the newly constructed, reconstructed, or modified equipment.
+
+(b)
+
+Any person subject to this subchapter pursuant to N.J.A.C. 7:27-18.2(a) and 18.2(b)1,
+(b)2, or (c), shall:
+
+(c)
+
+1.
+
+Demonstrate that air contaminant emissions from the equipment proposed to be
+constructed, reconstructed, or modified will be controlled to the degree which
+represents the lowest achievable emissions rate (LAER); and
+
+2.
+
+Certify, in accordance with N.J.A.C. 7:27-1.39, that all existing facilities in New
+Jersey, which are owned or operated by the person applying for the permit, or by
+any entity controlling, controlled by, or under common control with such person,
+are operating:
+i.
+
+In compliance with the provisions of this chapter and with all applicable
+emission limitations and standards promulgated pursuant to the Federal
+Clean Air Act; or
+
+ii.
+
+In conformance with an enforceable compliance schedule approved by the
+Department.
+
+Any person subject to this subchapter pursuant to N.J.A.C. 7:27-18.2(a) and 18.2(b)1 or 2
+shall:
+1.
+
+Secure emission offsets, in accordance with N.J.A.C. 7:27-18.5, for each air
+contaminant having a significant net emission increase at the facility; and
+
+2.
+
+Submit to the Department an analysis of alternative sites within New Jersey, and
+of alternative sizes, production processes, including pollution prevention
+
+15
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+measures, and environmental control techniques, demonstrating that the benefits
+of the newly constructed, reconstructed, or modified equipment significantly
+outweigh the environmental and social costs imposed as a result of the location,
+construction, reconstruction or modification and operation of such equipment.
+(d)
+
+Any person subject to this subchapter pursuant to N.J.A.C. 7:27-18.2(a) and 18.2(b)3
+shall secure emission offsets, sufficient to eliminate the proposed significant net emission
+increase that has been predicted to result in a violation of the NAAQS or NJAAQS.
+
+(e)
+
+Any applicant required to secure emission offsets pursuant to (c)1 or (d) above shall
+submit to the Department, as a part of the application, an emission offset demonstration
+that specifies:
+1.
+
+The sources of the air contaminant emission reductions to be applied as emission
+offsets;
+
+2.
+
+How the emission reductions shall be effected;
+
+3.
+
+How the owner or operator of the facility generating the emissions offsets will
+make the permanent reduction of the emissions to be used as emission offsets
+Federally enforceable on or before the date that the Department will issue to the
+applicant the authorization required under N.J.A.C. 7:27-8 or 22;
+
+4.
+
+How the applicant shall ensure that the permanent reduction of emissions shall be
+in effect on or before the initiation of operation of the newly constructed,
+reconstructed, or modified equipment or control apparatus; and
+
+5.
+
+How the emission offsets to be secured will comply with N.J.A.C. 7:27-18.5.
+
+(f)
+
+Emission offsets required pursuant to (c)1 or (d) above shall be secured and the
+permanent reduction of emissions represented by the emission offsets shall have
+occurred, prior to initiation of operation of any newly constructed, reconstructed, or
+modified equipment or control apparatus.
+
+(g)
+
+A person who, prior to November 15, 1992, has submitted a complete application to the
+Department for a permit which is subject to this subchapter may elect, under the
+conditions given below, to have the provisions of this subchapter which were in effect
+prior to April 20, 1993, rather than the provisions of the subchapter which are in effect on
+or after April 20, 1993, apply to the application. The emission offset postponement
+provisions, set forth at N.J.A.C. 7:27-18.6, shall apply to all permits issued on or after
+November 15, 1992, regardless of the date on which the permit application was
+submitted. To elect to have the provisions which were in effect prior to April 20, 1993
+apply, a person shall:
+1.
+
+Have received from the Department in writing, prior to November 15, 1992, a
+determination that the application is complete;
+
+16
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+(h)
+
+2.
+
+Commence the new construction, reconstruction, or modification as proposed in
+the application no later than 18 months from the date the permit is issued by the
+Department;
+
+3.
+
+Not discontinue the new construction, reconstruction, or modification for a period
+of 18 months or more; and
+
+4.
+
+Pursue the new construction, reconstruction, or modification with due diligence
+and complete the new construction or alteration within a reasonable time.
+
+Notwithstanding the provisions of (c) or (d) above, no person is required to secure
+emission offsets for temporary emission increases that occur during and result directly
+from the construction, reconstruction, or modification of the newly constructed,
+reconstructed, or modified equipment or control apparatus.
+
+7:27-18.4
+(a)
+
+Air quality impact analysis
+
+Any person, subject to this subchapter pursuant to N.J.A.C. 7:27-18.2(a) and (b), who
+proposes to cause a significant net emission increase of an air contaminant listed in Table
+3 of N.J.A.C. 7:27-18.7, not including VOC, shall conduct an air quality impact analysis
+to determine whether the proposed net emission increase would result in an increase in
+the ambient concentration of the respective criteria pollutant, not including ozone, and
+shall determine whether the increase in ambient concentration would:
+1.
+
+Equal or exceed the significant air quality impact level for the respective criteria
+pollutant as set forth in Table 1; or
+
+2.
+
+Taken together with the existing concentration of the criteria pollutant in the
+ambient air, cause a violation of a NAAQS or a NJAAQS.
+
+TABLE 1
+SIGNIFICANT AIR QUALITY IMPACT LEVELS FOR INCREASES IN AMBIENT AIR
+CONCENTRATIONS IN NONATTAINMENT AREAS
+Pollutant
+SO2
+TSP
+NO2
+CO
+Pb
+PM10
+PM2.5
+
+Annual
+1.0 µ/m3*
+1.0 µ/m3
+1.0 µ/m3
+
+1.0 µ/m3
+0.3 µ/m3
+
+24-Hour
+5.0 µ/m3
+5.0 µ/m3
+
+0.1 µ/m3
+5 µ/m3
+1.2 µ/m3
+
+17
+
+Averaging Time
+8-Hour
+3-Hour
+25 µ/m3
+
+1-Hour
+
+500 µ/m3
+
+2000 µ/m3
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+* µ/m3 = micrograms per cubic meter
+(b)
+
+Any person conducting an air quality impact analysis pursuant to (a) above is subject to
+the air quality impact analysis service fees set forth in the Supplementary Fee Schedule at
+N.J.A.C. 7:27-8.11 or 22.31, whichever is applicable.
+
+(c)
+
+An air quality impact analysis shall be performed in accordance with a protocol approved
+by the Department. The protocol shall be prepared in accordance with the Department's
+technical manuals on Air Quality Modeling (Technical Manual 1002) and Risk
+Assessment (Technical Manual 1003). These manuals are available on the Department's
+website at http://www.nj.gov/dep/aqpp/techman.html, or by mail at the following
+address:
+Department of Environmental Protection
+Air Quality Permitting Program
+Bureau of Technical Services
+Air Quality Evaluation Section
+401 East State Street, 2nd Floor
+Mail Code 401-02
+PO Box 420
+Trenton, New Jersey 08625-0420
+Telephone: (609) 633-1110
+
+7:27-18.5
+(a)
+
+(b)
+
+Standards for use of emission reductions as emission offsets
+
+Only a creditable emissions reduction, as defined at N.J.A.C. 7:27-18.1, may be used to
+offset an emission increase. Such emission reductions shall be:
+i.
+
+Contemporaneous; or
+
+ii.
+
+Banked in accordance with N.J.A.C. 7:27-18.8.
+
+Creditable emission reductions may result from:
+1.
+
+Installing control apparatus to decrease the actual emissions from existing
+equipment or source operations;
+
+2.
+
+Applying fugitive emissions control measures which reduce the rate of actual
+emissions to less than the allowable emissions;
+
+3.
+
+Obtaining emission reductions banked pursuant to N.J.A.C. 7:27-18.8;
+
+4.
+
+Permanently curtailing the actual production rate or operating hours of an existing
+source operation;
+
+5.
+
+Implementing one or more transportation control measures (TCM);
+
+18
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+(c)
+
+6.
+
+Shutting down an existing source operation; or
+
+7.
+
+Adopting any other measure approved by the Department, including, but not
+limited to, pollution prevention measures, that reduces the rate of actual emissions
+or allowable emissions, whichever is lesser.
+
+Any use of emission reductions to offset an emission increase shall result in a net air
+quality benefit. Except as provided in (e), (f), (g), or (l) below, such net air quality benefit
+shall be demonstrated by showing that the ratio of emission offsets to the proposed net
+increase in allowable emissions equals or exceeds the minimum offset ratio, specified in
+Table 2 below, that is applicable based on the distance between the facility and the
+location of the emission reductions being proposed as emission offsets.
+TABLE 2
+MINIMUM OFFSET RATIO
+Air Contaminant
+Distance Minimum Offset Ratio
+(miles)
+(Reductions: Increase)
+VOC
+0-100
+1.3:1.0
+100-250
+2.6:1.0
+250-500
+5.2:1.0
+NOx
+
+NOx (as a PM2.5 precursor)
+SO2
+
+SO2 (as a PM2.5 precursor)
+TSP
+
+PM10
+
+PM2.5
+CO
+
+(d)
+
+0-100
+100-250
+250-500
+Any
+0-0.5
+0.5-1.0
+1.0-2.0
+Any
+0-0.5
+0.5-1.0
+1.0-2.0
+0-0.5
+0.5-1.0
+1.0-2.0
+Any
+0-0.5
+0.5-1.0
+1.0-2.0
+
+The minimum offset ratio for lead is 1.00:1.00.
+
+19
+
+1.3:1.0
+2.6:1.0
+5.2:1.0
+1.0:1.0
+1.0:1.0
+1.5:1.0
+2.0:1.0
+1.0:1.0
+1.0:1.0
+1.5:1.0
+2.0:1.0
+1.0:1.0
+1.5:1.0
+2.0:1.0
+1.0:1.0
+1.0:1.0
+1.5:1.0
+2.0:1.0
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+(e)
+
+If an applicant proposes to use, as emission offsets, emission reductions that do not
+satisfy the distance and ratio requirements in Table 2 in (c) above, an air quality
+simulation model shall be used to demonstrate a net air quality benefit. Such emission
+reductions shall not be used as emission offsets unless the air quality simulation model
+shows that the combined effects of the proposed emission reductions, and of meeting the
+LAER requirements at N.J.A.C. 7:27-18.3(b), will result in a net air quality benefit. An
+air quality simulation model shall be performed in accordance with a protocol approved
+by the Department. The protocol shall be prepared in accordance with the Department's
+technical manual on Air Quality Modeling (Technical Manual 1002), available as stated
+in N.J.A.C. 7:27-18.4(c).
+
+(f)
+
+Notwithstanding (e) above, in no case shall the minimum offset ratio be less than:
+
+(g)
+
+1.
+
+For CO, NOx (as a PM2.5 precursor), and SO2 (as a PM2.5 precursor), 1.00:1.00;
+and
+
+2.
+
+For VOC and NOx, 1.30:1.00.
+
+Creditable emission reductions may be used as emission offsets only:
+1.
+
+If they are qualitatively equivalent in their effects on public health and welfare to
+the effects attributable to the proposed increase; and
+
+2.
+
+If they are emission reductions of the same category of air contaminant, except as
+provided at (l) below.
+
+(h)
+
+Reductions in emissions of VOC or NOx between October 1 and April 30 inclusive, may
+not be used to offset increased emissions of VOC or NOx emitted between May 1 and
+September 30 inclusive.
+
+(i)
+
+Emission reductions used previously as emission offsets, or used in calculating the
+proposed net emission increase, in accordance with N.J.A.C. 7:27-18.7(a)1, may not be
+used again as emission offsets.
+
+(j)
+
+Except as provided in (k) below, the emission reductions used to offset emission
+increases shall, unless the facility for which the emissions increase is proposed is located
+in an attainment area, be secured from the applicant's facility or from another facility
+located in the same nonattainment area as the applicant's facility. In a case where the
+facility at which the emissions increase is to occur is located in an attainment area, the
+emission reductions shall be secured from a facility in the nonattainment area whose air
+quality could be adversely affected by the proposed construction or alteration. In both
+cases, if the area has been designated a nonattainment area by EPA pursuant to 40 CFR
+81.331, the emission reductions shall be secured from the same Federally-designated
+nonattainment area.
+
+(k)
+
+Any emission offsets for lead shall be obtained from:
+
+20
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+(l)
+
+1.
+
+The facility to which the application for a permit pertains; or
+
+2.
+
+Another facility which significantly contributes to the same violation of the
+NAAQS or NJAAQS for lead in the same nonattainment area as the facility for
+which an application for a permit has been made.
+
+An applicant that provides for the use of PM2.5 inter-pollutant offsets shall demonstrate
+the net air quality benefit required at (c) above by showing that the ratio of emission
+offsets to the proposed net increase in allowable emissions equals or exceeds one of the
+following minimum offset ratios:
+1.
+
+A PM2.5 inter-pollutant offset ratio established by the Department, approved by
+EPA, and published by the Department in Technical Manual 1002, “Guidance on
+Preparing an Air Quality Modeling Protocol”;
+
+2.
+
+A PM2.5 inter-pollutant offset ratio established by EPA and approved by the
+Department; or
+
+3.
+
+A regional PM2.5 inter-pollutant offset ratio developed by the applicant or by a
+regional air pollution control organization that includes a technical demonstration
+showing a net air quality benefit, and is approved by the Department and EPA.
+
+(m)
+
+When a NOx offset is required pursuant to N.J.A.C. 7:27-18.3(c) or (d), the NOx offset
+shall be secured based on the more stringent of the two applicable NOx offset ratios.
+
+(n)
+
+PM2.5 inter-pollutant offsets cannot be used to determine significant net emission increase
+levels pursuant to N.J.A.C. 7:27-18.7.
+
+7:27-18.6
+
+Emission offset postponement
+
+(a)
+
+If the Department has authorized a postponement before April 20, 1993 of these
+amendments, for complying with N.J.A.C. 7:27-18.3(c)1 or (d), to any person, the
+postponement will continue in effect until one year after the emission offsets become
+available, provided that the person complies with (b) below.
+
+(b)
+
+Until emission offsets become available, any person who has received a postponement
+described in (a) above shall demonstrate to the Department annually that emission offsets
+are unavailable and shall certify that demonstration in accordance with N.J.A.C. 7:271.39.
+
+(c)
+
+Any person who has received a postponement described in (a) above shall obtain
+emission offsets within one year after they become available.
+
+(d)
+
+A postponement shall terminate if a person fails to comply with (b) or (c) above.
+
+21
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+7:27-18.7
+
+(a)
+
+Determination of a net emission increase or a significant net emission
+increase
+
+Any calculation to determine whether the maximum allowable emissions proposed in an
+application for a permit would result in a net emission increase or significant net emission
+increase at the facility of any air contaminant listed in Table 3 below shall be conducted
+in accordance with the following:
+1.
+
+Determine the net emission increase of each air contaminant listed in Table 3
+using the following formula:
+NI = IP + INP + IF + IA - DO – DC
+
+Where:
+NI = The net emission increase at a facility
+IP = Any increase(s) in the allowable emissions of the air contaminant which
+occurred during the contemporaneous period and which were authorized by
+permits issued by the Department;
+INP = Any increase(s) in the allowable emissions of the air contaminant which
+occurred during the contemporaneous period and which came from any
+equipment or control apparatus for which no permit was in effect at the time of
+the increase;
+IF = Any increase in fugitive emissions of the air contaminant from the facility during
+the contemporaneous period;
+IA = Any proposed increase in allowable emissions of the air contaminant from the
+newly constructed, reconstructed, or modified equipment or control apparatus
+which is the subject of the permit application;
+DO = Any increase(s) in the allowable emissions of the air contaminant which
+occurred during the contemporaneous period, if emission offsets were secured for
+these increases from the facility or from another facility; and
+DC = The sum of all creditable emissions reductions at the facility during the
+contemporaneous period, not including any creditable emissions reductions
+previously used as emission offsets at the facility or any other facility.
+2.
+
+Compare the net emission increase of each air contaminant, derived pursuant to
+(a)1 above, to the significant net emission increase level for that air contaminant
+set forth in Table 3 below. If the net emission increase is equal to or greater than
+the applicable significant net emission increase level, it is a significant net
+emission increase.
+
+22
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+TABLE 3
+SIGNIFICANT NET EMISSION INCREASES
+Air Contaminant
+Significant Net Emission
+Increase Levels
+(tons per year)
+SO2
+40
+SO2 (as a PM2.5 precursor)
+40
+TSP
+25
+PM10
+15
+PM2.5
+10
+NOx
+25
+NOx (as a PM2.5 precursor)
+40
+CO
+100
+Pb
+0.6
+VOC
+25
+7:27-18.8
+(a)
+
+Banking of emission reductions
+
+Any person may apply to the Department for the banking of emission reductions to be
+applied in the future as emission offsets. The applicant shall make the application in
+writing, submitted on a form obtained from the Department, containing the following
+information: name and address of person making the application; chemical name of air
+contaminant; quality of emission reductions with supporting calculations and
+documentation; reason for the emission reduction; specification of the equipment or
+source operations related to the emission reductions; and any additional information
+reasonably necessary to enable the Department to determine that a creditable emission
+reduction has been achieved. Such a form may be requested from:
+Department of Environmental Protection
+Division of Air Quality
+Air Quality Permitting Program
+Bureau of Air Permits
+Mail Code 401-02
+PO Box 420
+Trenton, New Jersey 08625-0420
+
+(b)
+
+Any application for the banking of emission reductions shall be certified in accordance
+with N.J.A.C. 7:27-1.39.
+
+(c)
+
+An application to bank emission reductions shall be made no later than 12 months after
+the emission reduction occurs. No emission reductions due to the shutdown of any
+equipment or source operation shall be eligible for banking, unless the applicant notifies
+the Department at least 60 days prior to removal of the equipment and provides the
+
+23
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+Department with the opportunity to inspect the equipment or source operation at least 30
+days before it is dismantled.
+(d)
+
+Any emission reductions submitted to the Department for banking shall, upon their
+approval by the Department for banking, be an enforceable operating restriction for the
+facility.
+
+(e)
+
+If a State or Federal statute, rule, or regulation decreases an allowable emission limit for
+an air contaminant, the value of any banked emission reductions of that air contaminant
+shall be reduced, before discounting pursuant to (f) or (g) below, to equal the allowable
+emission limits in effect at the time the banked emission reductions are used to offset
+emission increases. The following example illustrates this reduction:
+1.
+
+Assume that a CO reduction of 10 tons per year is approved for banking, and that
+seven years after that approval, the CO limit applicable to the equipment is
+reduced to four tons per year;
+
+2.
+
+If the banked emission reduction is used five years after it was approved for
+banking, under (f) below its value is discounted by 50 percent, to five tons per
+year; and
+
+3.
+
+If the banked emission reduction is used eight years after it was approved for
+banking (which is after the date of the change in the applicable CO limit), its
+value is reduced to two tons per year, as follows: first, from 10 tons per year to
+four tons per year, to reflect the reduction in the applicable CO limit; and second,
+from four tons per year to two tons per year, to reflect the 50 percent discount
+under (f) below.
+
+(f)
+
+The value of banked emission reductions obtained from the shutdown or curtailment of
+operation of any equipment or source operation which remain unused as emission offsets
+for more than five years after the date the emission reduction is submitted for banking
+shall be discounted by 50 percent. As of the date five years after the date of submittal for
+banking, the discounted portion of the banked emission reductions may no longer be used
+as an emission offset by the applicant or by any person to whom the banked emission
+reductions may have transferred by the applicant, but shall revert to the State.
+
+(g)
+
+Any banked emission reductions obtained from the shutdown or curtailment of operation
+of any equipment or source operation which remain unused as emission offsets for 10
+years after the date they have been submitted for banking, shall revert to the State. As of
+the date 10 years after the date of submittal for banking, these emission reductions may
+no longer be used as emission offsets by the applicant or by any person to whom the
+banked emission reductions may have transferred by the applicant.
+
+(h)
+
+Any discount of or reduction in the value of banked emission reductions pursuant to (e),
+(f) or (g) above shall take effect without further action by the Department.
+
+24
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+(i)
+
+For the purposes of the discounting provisions set forth in (f) and (g) above, the
+Department shall treat any emission reductions which have been submitted for banking
+prior to April 20, 1993, as if they were submitted for banking on April 20, 1993.
+
+(j)
+
+Any person applying for banking of emission reductions pursuant to this section is
+subject to the following service fees for banking:
+Banking fees
+Activity
+Basis
+a. Base Application Review
+Per Source Operation
+b. Verification
+Per Source Operation
+c. Transfer of Facility Ownership Per Source Operation
+d. Withdrawal of Credits
+Per Source Operation
+e. Donation of Credits to the State Per Source Operation
+of New Jersey
+
+7:27-18.9
+
+Amount
+$ 200.00
+$ 200.00
+$ 50.00
+$ 200.00
+00.00
+
+Secondary emissions
+
+(a)
+
+Any person subject to this subchapter pursuant to N.J.A.C. 7:27-18.2(a) and 18.2(b)1,
+(b)2, or (c) shall certify that any increases in secondary emissions under the person's
+control will meet all requirements of N.J.A.C. 7:27-18.3.
+
+(b)
+
+Any person subject to this subchapter pursuant to N.J.A.C. 7:27-18.2(a) and 18.2(b)1,
+(b)2, or (c) shall certify that any increases in secondary emissions not under the person's
+control will meet the requirements of only N.J.A.C. 7:27-18.3(c)1.
+
+(c)
+
+The certifications required under (a) and (b) above shall be submitted with the application
+and shall be made in accordance with N.J.A.C. 7:27-1.39.
+
+7:27-18.10
+(a)
+
+Exemptions
+
+If a person demonstrates that a proposed significant net emission increase of an air
+contaminant which results from the use of alternative fuels in existing fuel burning
+equipment will not cause an exceedance of the significance level for the respective
+criteria pollutant in a nonattainment area for that pollutant, and will not prevent
+reasonable further progress toward attaining any NAAQS, the Department may, in its
+discretion, exempt the person from compliance with the provisions of this subchapter. No
+exemption shall be granted unless the person demonstrates, at a minimum, that:
+1.
+
+The equipment was capable of burning the alternative fuel before December 21,
+1976; or
+
+2.
+
+The equipment must use such fuel by reason of an order in effect under Section
+2(a) and (b) of the Energy Supply and Environmental Coordination Act of 1974
+
+25
+
+This is a courtesy copy of this rule. All of the Department’s rules are compiled in Title 7 of the New Jersey Administrative Code.
+
+(15 U.S.C. 792 et seq.) or under any superseding legislation, or by reason of a
+natural gas curtailment plan in effect pursuant to the Federal Power Act of 1978
+(16 U.S.C. 791a et seq.); or
+
+(b)
+
+(c)
+
+3.
+
+The alternative fuel is derived from municipal solid waste; or
+
+4.
+
+The alternative fuel is to be used by reason of an order or rule issued under
+Section 125 of the Clean Air Act.
+
+N.J.A.C. 7:27-18.3(c)1 does not apply to any person submitting an application for:
+1.
+
+Portable facilities which will be relocated outside of a nonattainment area within
+six months of initiation of operation; or
+
+2.
+
+Temporary source operations which produce an experimental product, and which
+cease operation within six months of initiation of operation.
+
+The exemption in (b) above may not be applied to the same portable facility or temporary
+source operation more than once within the lifetime of the portable facility or temporary
+source operation.
+
+7:27-18.11
+
+(Reserved)
+
+7:27-18.12
+
+Civil or criminal penalties for failure to comply
+
+The owner or operator of any facility subject to this subchapter shall be responsible for
+ensuring compliance with all requirements of this subchapter. Failure to comply with any
+provision of this subchapter may subject the owner or operator to civil penalties in accordance
+with N.J.A.C. 7:27A-3 and applicable criminal penalties, including, but not limited to, those set
+forth at N.J.S.A. 26:2C-19(f)1 and 2. If there is more than one owner or operator of a facility, all
+owners and operators are jointly and severally liable for such civil penalties.
+
+26
+
+
