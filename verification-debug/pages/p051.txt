@@ -1,0 +1,155 @@
+Non-Attainment New Source Review
+and Prevention of
+Significant Deterioration
+March 2020
+
+New Source Review (NSR) is a federal preconstruction permitting program serving to establish air
+pollution emission limitations from large, or “major,” sources of air pollution. NSR includes two primary
+permitting programs: Nonattainment NSR (NA-NSR) and Prevention of Significant Deterioration (PSD).
+NA-NSR applies in nonattainment areas, which are areas where the air quality is classified as not
+meeting the National Ambient Air Quality Standards (NAAQS) for one or more criteria pollutants
+regulated under the Clean Air Act. NA-NSR review and permitting is intended to allow construction of
+new or modified sources of air pollution in these areas while still making progress toward attaining the
+NAAQS.
+The Clean Air Act designates New Hampshire as an “Ozone Transport Region” (OTR) state. While New
+Hampshire is currently classified as being in attainment for ozone, the Clean Air Act still requires OTR
+states to implement certain minimum NA-NSR requirements for ozone. Since ozone is not emitted
+directly from stationary sources and is instead formed by the precursor pollutants nitrogen oxides (NOx)
+and volatile organic compounds (VOC), NA-NSR is required for new major sources of NOx or VOC and for
+existing major sources of NOx or VOC making major modifications for those pollutants.
+PSD applies in attainment areas, which are areas where the air quality is classified as meeting the
+NAAQS. PSD review and permitting is intended to allow construction of new or modified sources of air
+pollution in these areas while protecting (i.e., not significantly degrading) air quality.
+Applicability
+The NA-NSR and/or PSD permit applies to new major sources of air pollution and existing major sources
+that are making a significant modification. Sources are considered “major” for NA-NSR if they have the
+potential to emit the following pollutants at or above any of the levels specified:
+
+
+VOCs – 50 tons per consecutive 12-month period (tpy).
+ NOx – 100 tpy.
+Sources are considered major for PSD if they have the potential to emit the following pollutants at or
+above any of the levels specified:
+
+
+
+NO2, CO, SO2, PM – 100 tpy of any individual pollutant for any source listed in 40 CFR
+52.21(b)(1)(i).
+NO2, CO, SO2, PM - 250 tpy of any individual pollutant for all source types not listed at 40 CFR
+52.21(b)(1)(i).
+1
+
+
+
+Greenhouse Gases– 100,000 tpy CO2 equivalent and major for at least one other pollutant.
+
+While many sources have the physical potential to emit air pollutants over the above thresholds, most
+sources accept federally enforceable permit limits (via Temporary Permits, State Permits to Operate and
+Title V Operating Permits) to opt-out of NA-NSR and PSD permitting.
+NA-NSR and/or PSD permits also apply to existing major sources proposing modifications that will result
+in an increase in a pollutant at or above any of the levels specified:
+NA-NSR
+
+
+NOx or VOCs – 40 tpy
+
+
+
+SO2– 40 tpy
+TSP – 25 tpy
+PM10 – 15 tpy
+PM2.5 – 10 tpy of direct PM2.5 emissions, 40 tpy of SO2 emissions or 40 tpy of NOx emissions
+unless demonstrated not be a PM2.5 precursor under 50 CFR 52(b)(50)
+CO – 100 tpy
+Lead – 0.6 tpy
+Fluorides – 3 tpy
+Sulfuric acid mist – 7 tpy
+Hydrogen sulfide – 10 tpy
+Total reduced sulfur (including hydrogen sulfide) – 10 tpy
+Greenhouse Gases– 75,000 tpy CO2 equivalent
+
+PSD
+
+
+
+
+
+
+
+
+
+
+
+Statute and Administrative Rules
+RSA 125-C:11 Air Pollution Control/Permit Required
+RSA 125-C:12 Air Pollution Control/Administrative Requirements
+RSA 125-C:13 Air Pollution Control/Criteria for Denial; Suspension or Revocation; Modification
+Env-A 618 Additional Requirements in Non-Attainment Areas and the New Hampshire Portion of the
+Northeast Ozone Transport Region and Env-A 619 Prevention of Significant Deterioration (PSD) of Air
+Quality Permit Requirements (Env-A 600 Statewide Permit System)
+Application
+The owner or operator seeking an NSR Permit shall submit an application package containing the
+following data:
+1) Form ARD-1 General Information for All Permit Applications.
+2) Complete application form(s) for each significant source or device.
+3) Where air pollution dispersion modeling is required for a source or device pursuant to Env-A
+
+606.02 Applicability or Env-A 1405.02 Air Dispersion Modeling Analysis, a request that NHDES
+perform the modeling and the information required pursuant to Env-A 606.03 Responsibility for
+Conducting Air Pollution Dispersion Modeling Impact Analysis, and/or if the source elects to
+perform the modeling, a modeling protocol and subsequent modeling.
+
+2
+
+4) For a source with air pollution control equipment as defined in Env-A 101.17, an Air Pollution
+
+Control Equipment Monitoring Plan or Catalyst Management Plan pursuant to Env-A 810.01
+Monitoring Plans for Air Pollution Control Equipment, (Env-A 800 Testing and Monitoring
+Procedures).
+5) If a plan is not required pursuant to Env-A 810.01, a description of the monitoring the source
+intends to conduct to demonstrate compliance with all applicable state and federal statutes,
+rules, and permits, as specified in Env-A 810.02.
+6) A Lowest Achievable Emission Rate (LAER) analysis for applicable NA-NSR pollutants and a Best
+Achievable Control Technology (BACT) analysis for applicable PSS-NSR pollutants.
+7) Other project-specific analyses that depend upon the size, type, emission profile and location of
+the project, e.g., visibility analyses, site-specific baseline air quality monitoring, soil deposition
+analyses, etc.
+Fee
+The application review fee is based upon the time required for NHDES staff to review the application
+according to Env-A 703, Permit Review Fees. Sources are also subject to emission-based fees and
+applicable testing and monitoring fees.
+Processing Time
+NSR applications are typically processed within six to nine months of receiving a complete application.
+Term/Renewal
+An NSR Permit is valid for 18 months. The source must submit an application to NHDES Air Resources
+Division for an operating permit (if construction & testing is complete) or a request for reissuance 90
+days prior to permit expiration.
+Modification/Amendments
+The applicant must provide NHDES Air Resources Division a written request to modify an existing permit
+as described in Env-A 612.01 Administrative Permit Amendments and Env-A 612.05 Minor Modifications:
+Title V Operating Permits, or Env-A 612.06 Significant Permit Modifications: Title V Operating Permits
+and the definitions in Env-A 101.08 Administrative permit amendment and 101.118 Minor permit
+modification.
+Transferability
+Thirty days after any change of the owner or operator, the new owner or operator must provide NHDES
+Air Resources Division with the following:
+1) An ARD-1 Form with the following sections completed: Section 1 through 13 and sections 17 and
+
+18.
+2) A written agreement pursuant to Env-A 101.08 Administrative Permit Amendment containing a
+specific date for transfer of permit responsibility, coverage and liability, including report
+submittal and payment of annual emission fees.
+
+3
+
+Once these submittals are received, NHDES Air Resources Division will process an Administrative
+Amendment according to Env-A 612.01 Administrative Permit Amendments and issue the amended
+permit in the new owner’s name.
+
+Appeals
+Any person aggrieved by the final decision may file an appeal to Air Resources Council within 30 days of
+the final decision in accordance with Env-AC 200 Procedural Rules.
+
+4
+
+

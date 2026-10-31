@@ -1,0 +1,154 @@
+Permitting Requirements for Nonattainment Areas in Wisconsin | | Wisconsin DNR 
+Skip to main content
+Facebook 
+YouTube 
+Instagram 
+LinkedIn 
+Search 
+Main navigation 
+Hunting 
+Fishing 
+Parks 
+Climate 
+Environment 
+Forestry 
+Licenses 
+News 
+About 
+Contact 
+Air Permits_Content Page_Permitting Requirements for Nonattainment Areas in Wisconsin 
+Breadcrumb
+Home 
+&raquo; 
+Topic 
+&raquo; 
+Air Permits 
+Permitting Requirements for Nonattainment Areas in Wisconsin
+Areas that currently are or have been designated as being in "nonattainment" of a national ambient air quality standard (NAAQS) have more restrictive permitting requirements, and sources in those areas may be subject to more stringent regulations known as Reasonably Available Control Technology (RACT) standards. This page shows current Wisconsin nonattainment areas and summarizes the applicable permitting requirements for major sources of emissions within these areas. It also contains information about nonattainment area history to assist in determining RACT applicability for specified sources of nitrogen oxides (NO x ) and select source categories of volatile organic compounds (VOC). The contents of this page are intended to provide a general overview of the applicable requirements. For more detailed information about RACT applicability, state permitting regulations or for questions related to a specific permit, contact the Air Management Program .
+For information about the EPA's reclassification of the nonattainment areas to Serious, see the “2015 ozone standard reclassification” near the bottom of this page.
+Note that the reclassification of the nonattainment areas to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on Sept. 5, 2025. Therefore, the Moderate nonattainment area requirements continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of the judicial review or the stay is lifted by the court. For questions about the impact of the stay, contact the DNR Air Management Program at DNRAMNonAttainment@wisconsin.gov 
+Interactive Map
+Click on a county below for a summary of applicable permitting requirements based on nonattainment area designations. The map also provides relevant information for determining NO x RACT applicability for all sources and VOC RACT applicability for the following source categories: miscellaneous industrial adhesives ( s. NR 422.128 ), plastic parts coatings ( s. NR 422.084 ) and metal parts coatings ( s. NR 422.151 ).
+Note: Graphical representations of attainment/nonattainment areas are approximate. For the most precise rule applicability information, type a specific address into the search bar on the map and then click on the map.
+Explanation Of Information Provided in the Map Legend
+Nonattainment New Source Review
+Major emission sources for construction permitting purposes in areas that meet or attain the NAAQS are covered by the prevention of significant deterioration (PSD) permitting program. In contrast, major emission sources in nonattainment areas are covered by the nonattainment new source review (NNSR) permitting program.
+In general, the NNSR program is more stringent than the PSD program because the goal of NNSR is to accommodate business expansion without exacerbating nonattainment of the NAAQS. The emissions threshold for determining whether a source is subject to major source permitting is usually lower for NNSR than PSD. Projects covered by PSD are required to control emissions to a level defined as the best available control technology (BACT), which allows consideration of the economic feasibility of the controls. However, projects covered by NNSR are required to control emissions to the level defined as the lowest achievable emission rate (LAER), which does not consider economic feasibility.
+Major construction covered by NNSR also requires the permit applicant to offset the project's emissions according to a ratio that depends on the severity of nonattainment. Permit applicants can use internal offsets by establishing emission reductions from their own operations, or an applicant can use  emission reduction credits . The offsets must represent surplus, permanent, quantifiable and federally enforceable emissions reductions.
+The map above shows, based on nonattainment status, which permitting program currently applies in each area in Wisconsin, along with the associated major source threshold and offset ratio (as applicable).
+NO x RACT
+Nitrogen oxides (NO x ) RACT requirements apply to specified categories of equipment at facilities located in certain areas that are or have been classified as Moderate, Serious, Severe or Extreme nonattainment and emit NO x above an applicability threshold. The level of nonattainment classification determines the applicability threshold. More information on emission regulations and applicability is available on the NO x RACT page .
+VOC RACT for Industrial Adhesives and Plastic and Metal Parts Coatings
+Some VOC RACT requirements apply to specific facility types located in areas that are currently or were previously classified as Moderate or higher nonattainment for ozone and emit VOCs above an applicability threshold. The facilities subject to these requirements conduct operations using adhesives ( s. NR 422.128 ), plastic parts coatings ( s. NR 422.084 ) or metal parts coatings ( s. NR 422.151 ). Additional VOC RACT rules covering other source categories also apply throughout the state. More information on regulations and applicability can be found on the VOC RACT page .
+2015 Ozone Standard Reclassification
+Effective Jan. 16, 2025, the EPA reclassified the areas in Wisconsin that remain in nonattainment of the 2015 ozone NAAQS. These areas, which include all of Milwaukee and Ozaukee counties and parts of Washington, Waukesha, Racine, Sheboygan and Kenosha counties were re-classified from moderate to serious nonattainment. The DNR is required by the Clean Air Act to implement more stringent controls on nitrogen oxides (NO x ) and volatile organic compound (VOC) emissions until the affected areas attain the NAAQS.
+The reclassification affects the stringency of the more restrictive permitting requirements that apply in the areas. It may also affect the applicability of NO x RACT to certain facilities as well as operation permit requirements.
+Note that the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on Sept. 5, 2025. Therefore, the Moderate nonattainment area requirements continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+FAQs
+The Air Management Program is proactively working with facilities, the EPA and neighboring states on strategies to protect the air quality and reduce the impact on businesses. For more information on the stayed 2015 ozone standard reclassification, view the list of frequently asked questions below.
+What is ground-level ozone?
+Ozone in the upper atmosphere filters out harmful ultraviolet rays from the sun. However, elevated concentrations of ozone at ground level can have an adverse impact on health. Ground-level ozone is not directly emitted into the air; it is created by photochemical reactions between heat and sunlight and ozone precursors such as volatile organic compounds (VOCs) and oxides of nitrogen (NO x ). To learn more about ozone, visit the ozone page .
+What is the 2015 ozone standard?
+The Clean Air Act requires the EPA to set national ambient air quality standards (NAAQS) for ozone and five other pollutants considered harmful to public health and the environment. The law also requires the EPA to periodically review the standards to ensure that they provide adequate health and environmental protection and to update those standards as necessary.
+The EPA last revised the ozone NAAQS in 2015, setting the standard at a level of 70 ppb.
+What does it mean to be in “nonattainment?”
+The Clean Air Act requires areas of the country that do not meet a NAAQS to be designated as nonattainment. The law requires certain regulatory programs to be implemented in nonattainment areas to reduce emissions and facilitate future attainment of the NAAQS by specified dates.
+What parts of Wisconsin are currently in nonattainment of the 2015 ozone standard?
+Wisconsin has three areas that remain in nonattainment of the 2015 ozone NAAQS: the Milwaukee area (which includes all of Milwaukee and Ozaukee counties and parts of Washington, Waukesha and Racine counties) and parts of Sheboygan and Kenosha counties.
+What happens when an ozone nonattainment area is reclassified or “bumped up?”
+Ozone nonattainment areas are subject to a five-step classification process (Marginal, Moderate, Serious, Severe and Extreme). The classification of an area depends on its ozone concentrations and how long it has remained in nonattainment. The Clean Air Act specifies regulatory requirements for each classification. The higher the classification, the more stringent the requirements. If an area fails to attain the attainment date associated with its current classification, the area is then reclassified or “bumped up” to the next classification.
+Why were Wisconsin’s ozone nonattainment areas reclassified?
+Prior to the effective date of the most recent reclassification, all of Wisconsin’s 2015 ozone NAAQS nonattainment areas were classified as Moderate and had an attainment date of August 3, 2024. Because none of these areas attained the standard by that date, the Clean Air Act required the EPA to reclassify them to the next classification (Serious). Reclassification of areas that fail to meet an attainment date is a requirement of federal law; neither states nor the EPA have the option to defer this action. There are many other states with ozone nonattainment areas that have been or will be, similarly reclassified.
+Note that the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on Sept. 5, 2025. Therefore, the Moderate nonattainment area requirements continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+What is the effective date of reclassification?
+The EPA reclassified Wisconsin’s nonattainment areas from Moderate to Serious on Dec. 17, 2024, this action took effect Jan. 16, 2025. However, the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on Sept. 5, 2025. While the rule is stayed, the Serious nonattainment area permitting requirements are no longer in effect in Wisconsin’s nonattainment areas; instead, the Moderate nonattainment area requirements shall apply. The Serious permitting requirements will not again go in effect unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+What is the impact of the reclassification on stationary sources?
+The reclassification to Serious affected the stringency of permitting requirements in the 2015 ozone NAAQS nonattainment areas. The major source threshold for NO x and VOC emissions was lowered to 50 tons per year (from 100 tons per year) for both construction and operation permitting. There are also more stringent requirements for major new sources or major modifications of existing sources. The lower thresholds and more stringent requirements are required by the Clean Air Act.
+Note that the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on Sept. 5, 2025. Therefore, the Moderate nonattainment area thresholds of 100 tons per year continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+Why are there more stringent permitting requirements for NO x and VOC emissions in nonattainment areas?
+Ground-level ozone is formed when NO x and VOCs react in the atmosphere in the presence of sunlight. Therefore, limiting emissions of these ozone-causing pollutants helps decrease ozone levels.
+What are the new major source thresholds, and how will they affect current sources?
+The reclassification to Serious may affect the source status of facilities located in the nonattainment areas under Wisconsin’s air pollution control permitting programs. This is because the reclassification lowered the major source threshold to 50 tons per year of each NO x and VOC (down from 100 tons per year).
+Any facility with a potential to emit (PTE) above the major source threshold for NO x or VOC must have or apply for a Title V operation permit or apply for a synthetic minor operation permit to reduce PTE to below the major source threshold.
+Some sources that were synthetic minor sources or natural minor sources may have become major sources when reclassification occurred and potentially are subject to additional requirements when constructing new emissions units or modifying existing ones that emit these air pollutants.
+Note that the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on Sept. 5, 2025. Therefore, the Moderate nonattainment area thresholds of 100 tons per year continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+What are the registration permit thresholds for facilities located in a Serious nonattainment area?
+Registration Operation Permits (ROPs) are general permits available for facilities willing and able to limit their emissions below established thresholds in order to benefit from the ROP’s streamlined permitting and compliance demonstration processes. The ROP thresholds are based on a percentage of the major source thresholds. When the new major source thresholds took effect, the ROP thresholds on facility emissions of NO x and VOC decreased as follows:
+Registration Permit
+NO x (TPY)
+VOC (TPY)
+Type A
+12.5
+12.5
+Type B
+25
+25
+Type C
+12.5
+12.5
+Type G
+40
+40
+Note that the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on September 5, 2025. Therefore, the Moderate nonattainment area thresholds continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+What are the impacts of reclassification on operation permitting?
+Facilities located in a nonattainment area that are classified as a non-major source prior to the Serious “bump up” should review their actual and potential emissions of NO x and VOC to determine whether a permitting action is required to address the change in major source thresholds for NO x and VOC.
+Any source with a PTE above major source thresholds must submit a Title V permit application or an application to obtain a permit that reduces the facility PTE below the major source thresholds.
+Visit the How to Apply for Air Permits webpage for additional information on permit applications or permit revisions.
+Note that the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on Sept. 5, 2025. Therefore, the Moderate nonattainment area thresholds continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+What are the impacts of reclassification on construction permitting?
+In addition to lowering the major source threshold for NO x and VOC for nonattainment new source review (NNSR) to 50 tons per year (from 100 tons per year), reclassification also increased the NNSR offset ratio to 1:2:1 (from 1.15:1). In addition, the reclassification impacted the emissions increase threshold and methodology used to determine if NNSR applies to a project.
+For an existing major source of NO x and/or VOC, a project which increases emission of NO x and/or VOC is subject to NNSR for that pollutant if the increase of the pollutant from the project exceeds 25 tons per year, when aggregated with all creditable increases and decreases in emissions of that pollutant from the facility over the previous 5-year period.
+For a new facility, or a facility that is an existing minor source of NO x and/or VOC, a project is subject to NNSR for that pollutant if the potential to emit of the pollutant is greater than the NNSR major source threshold of 50 tons per year.
+Note that the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on September 5, 2025. Therefore, the Moderate nonattainment area requirements continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+For an existing major source of NOx and/or VOC in a Moderate nonattainment area, a project which increases emission of NOx and/or VOC is subject to NNSR for that pollutant if the increase of the pollutant from the project exceeds 40 tons per year.
+For a new facility in a Moderate nonattainment area, or a facility that is an existing minor source of NOx and/or VOC, a project is subject to NNSR if the potential to emit of the pollutant is greater than the NNSR major source threshold of 100 tons per year.
+Besides reduced major source thresholds, what other rule changes could affect facilities due to reclassification?
+Emissions of NO x and emissions of VOC in ozone nonattainment areas that are classified as “moderate” or higher must be controlled through the implementation of Reasonably Available Control Technology Regulations (RACT).
+The reclassification to Serious may affect the applicability of NO x RACT. Facilities operating any fuel combustion equipment listed in s. NR 428.22 are required to maintain NO x emissions below the levels specified in the rule if the MTE from the affected units is over the major source threshold, which is now 50 ton per year. More information on NO x RACT is available on the NO x RACT page .
+The reclassification to Serious does not affect VOC RACT applicability. Additional information on VOC RACT is available on the VOC RACT page .
+Note that the reclassification to Serious was stayed by the U.S. Court of Appeals for the Seventh Circuit on September 5, 2025. Therefore, the Moderate nonattainment area requirements continue to apply unless the areas are reclassified to Serious nonattainment at the conclusion of judicial review or the stay is lifted by the court.
+What is the DNR doing to address ozone nonattainment?
+The DNR has been, and will continue to be, very engaged on this issue. Much of the ozone measured in Wisconsin’s nonattainment areas originates from outside of the state, or from sources beyond state authority to regulate (like transportation). The DNR is actively working with the EPA and neighboring states on strategies to address these emissions. In addition, the Air Management Program works to ensure the required regulatory programs are being implemented in the most efficient and cost-effective way to minimize the impact on sources and the public.
+How can a facility contribute to the reduction of NO x and VOC emissions?
+NO x emissions can be reduced by improving the fuel combustion process, the incorporation of NO x control equipment and/or transitioning to renewable sources of energy.
+VOCs are emitted from a variety of processes, including biogenic and anthropogenic. Facilities can reduce VOC emissions by using materials with low or no VOC content (i.e. water-based paints), reducing material usage, improving application processes, collecting used solvents, and applying non-destructive VOC control techniques such as adsorbents and scrubbers.
+Facilities in the nonattainment area that make permanent and quantifiable VOC or NO x emission reductions may be eligible to create emission reduction credits (ERCs). ERCs can be banked and sold to facilities looking to expand or start up operations within the nonattainment area. More information is available on the ERC page .
+More information
+Refer to air permit options for more information about construction permits.
+Prevention of Significant Deterioration requirements: ch. NR 405, Wis. Adm. Code 
+Nonattainment NSR requirements: ch. NR 408, Wis. Adm. Code 
+Construction permit requirements (apply to projects in all areas): ch. NR 406, Wis. Adm. Code 
+Contact Information
+Questions regarding permitting requirements for nonattainment areas in Wisconsin and state implementation plans (SIPs) should be sent by email to: DNRAMNonattainment@wisconsin.gov 
+Air Permits and Regulations
+Air Permits 
+Air Permit Options 
+How to Apply 
+Air Permit Forms 
+Air Permit Search 
+Compliance with Air Regulations 
+Permitting Requirements for Nonattainment Areas 
+Related Links
+Hearings and Meetings Calendar 
+Air Management Data Viewer (AMDV) 
+Air Emissions Inventory and Reporting 
+Air Quality 
+Small Business Environmental Assistance Program 
+Compliance Forms 
+Wisconsin Department of Natural Resources
+4822 Madison Yards Way PO Box 7921
+Madison, WI 53707-7921 
+Call 1-888-936-7463 (TTY Access via relay - 711) from 7 a.m. to 10 p.m.
+Facebook 
+YouTube 
+Instagram 
+LinkedIn 
+Secretary's Office 
+Contact Us 
+Office Locations 
+Hotlines 
+For Media 
+Careers 
+Notice of Nondiscrimination 
+Subscribe for DNR Email Updates 
+© Wisconsin Department of Natural Resources | Site requirements | Accessibility | Legal | Privacy | Employee resources

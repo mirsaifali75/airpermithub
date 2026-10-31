@@ -1,0 +1,1648 @@
+Oregon Department of Environmental Quality
+
+Instructions for Using Air Contaminant
+Discharge Permit Application Forms
+
+Table of contents
+Purpose ................................................................................................................................ 2
+Permit types .......................................................................................................................... 2
+Cleaner Air Oregon ............................................................................................................... 9
+ACDP application forms .......................................................................................................10
+Simple and Standard permit renewals..................................................................................15
+Non-technical permit modifications ......................................................................................16
+Simple and Standard technical permit modifications ............................................................16
+New Source Review.............................................................................................................16
+Notice of Intent to Construct.................................................................................................18
+Glossary of terms .................................................................................................................20
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+Purpose
+These instructions are provided to the owner/operator of a facility seeking an initial Air Contaminant
+Discharge Permit, renewal of existing ACDP, or modification to an existing ACDP. These instructions
+identify the application forms and describe how the forms are to be used to prepare an application.
+Specific instructions for completing the forms are included with each of the individual forms.
+
+Permit types
+Decide which type of ACDP is the right permit for the facility. Provided below is a list of the types of
+permits that may be required for a facility. In some cases, more than one type of permit may be
+acceptable so the applicant will have to decide which type is the right type of permit for the facility. A
+description of each of the permit types is provided after the table.
+Permit Type
+
+Short Term
+Activity
+Basic
+
+General
+
+Source
+Categories
+
+Permit
+Term
+
+Any short
+60 days, 1
+term activity
+extension
+in OAR 340216-0054
+OAR 340-216Up to 10
+8010, Table
+years
+1, Part A
+OAR 340-2168010, Table 1,
+Part B (where Up to 10
+DEQ has issued years
+a permit for the
+category)
+
+OAR 340-2168010, Table 1,
+Part B (where
+General
+DEQ has issued Up to 10
+Attachment
+years
+an attachment
+for the
+category)
+OAR 340-216Up to 10
+8010, Table
+Simple
+years
+1, Part B
+
+Typical
+Plant Site
+Netting
+Actual
+Emission
+basis Emissions
+Limits (PSEL)
+(tons/yr)
+
+Initial
+Annual
+Permitting
+Fees 1
+Fees
+
+No
+
+No
+
+NA 2
+
+$4,500
+
+NA
+
+No
+
+No
+
+<10
+
+$180
+
+$648,
+$1,469
+
+PSEL
+
+No
+
+<SER 3
+
+$1,800 4
+
+$245,
+$490,
+$734,
+$1,469,
+$2,644,
+$3,818
+
+PSEL
+
+No
+
+<SER
+
+$0
+
+$2455
+
+PSEL
+
+No
+
+<SER
+
+$9,000
+
+$3,917,
+$7,834
+
+1OAR 340-216-0020, Table 2, Part 2, adopted 09/21/2020.
+2 NA stands for "not applicable".
+
+3 SER stands for "significant emission rate" as described in the Glossary of Terms section of these
+instructions.
+4 DEQ may waive the assignment fee for an existing source requesting to be assigned to a General
+ACDP because the source is subject to a newly adopted area source NESHAP as long as the existing
+source requests assignment within
+90 days of notification by DEQ.
+5 General ACDP attachments are subject to annual Fee Class 5 pursuant to OAR 340-216-0062(3)(b).
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+Permit Type
+
+Source
+Categories
+
+OAR 340-2168010, Table
+Standard
+1, Part B or
+C
+OAR 340-2168010, Table
+Construction
+1, Part B or
+C
+
+Permit
+Term
+
+Typical
+Plant Site
+Netting
+Actual
+Emission
+basis Emissions
+Limits (PSEL)
+(tons/yr)
+
+Initial
+Annual
+Permitting
+Fees 1
+Fees
+
+Up to 5
+years
+
+Source
+Specific PSEL
+
+Yes
+
+<100
+
+$18,000,
+$15,759
+$63,000
+(NSR/PSD)
+
+Up to 5
+years
+
+Source
+Specific PSEL
+
+Yes
+
+NA
+
+$14,400
+
+NA
+
+All applicants for a new source Simple or Standard Air Contaminant Discharge Permit must submit a toxic
+air contaminant emissions inventory to determine if the source is subject to Cleaner Air Oregon.
+Applicants for Basic and General Air Contaminant Discharge Permits will be notified by DEQ if they are
+subject to Cleaner Air Oregon. More details about Cleaner Air Oregon are included below.
+New sources applying for a Simple or Standard Air Contaminant Discharge Permit must also submit a
+short-term National Ambient Air Quality Standards analysis. See the Short-Term 1-Hour and 24-Hour
+NAAQS Requirements website for more details on requirements.
+
+Short Term Activity ACDP
+A Short Term Activity ACDP is a letter permit that authorizes the activity and includes any conditions
+placed upon the method or methods of operation of the activity. A Short Term Activity ACDP automatically
+terminates 60 days from the date of issuance but may be renewed for an additional 60 days one time
+upon request. DEQ may issue a Short Term Activity ACDP for:
+• Activities that do not require a Title V permit under OAR chapter 340, division 218;
+• Unexpected or emergency activities; or
+• Operation of a pilot or an exploratory emissions unit.
+
+Basic ACDP
+A Basic ACDP is a permit that authorizes the operation of sources and activities listed below. A Basic
+ACDP is the minimum permit required for these sources and activities, but the applicant may obtain a
+Simple or Standard ACDP in place of the Basic ACDP. A Basic ACDP contains only the most significant
+and relevant rules applicable to the source and it does not contain Plant Site Emission Limits. A Basic
+ACDP may be issued for a period not to exceed ten years.
+1. Autobody repair or painting shops painting more than 25 automobiles in a year and that are
+located inside the Portland AQMA.
+2. Concrete manufacturing including redimix and CTB, both stationary and portable, more than
+5,000 but less than 25,000 cubic yards per year output.
+3. Crematory incinerators with less than 20 tons/year material input.
+4. Individual natural gas or propane-fired boilers with heat input rating between 9.9 and 29.9
+MMBTU/hour, constructed after June 9, 1989, that do not use more than 9,999 gallons per year
+of #2 diesel oil as a backup fuel.
+5. Prepared feeds for animals and fowl and associated grain elevators more than 1,000 tons/year
+but less than 10,000 tons per year throughput.
+6. Rock, concrete or asphalt crushing, both stationary and portable, more than 5,000 tons/year but
+less than 25,000 tons/year crushed.
+7. Surface coating operations whose actual or expected usage of coating materials is greater than
+250 gallons per month but does not exceed 3,500 gallons per year, excluding sources that
+exclusively use non-VOC and non-HAP containing coatings, e.g., powder coating operations.
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+8. Sources subject to permitting under Part B of this table, number 85 if all of the following criteria
+are met:
+a) The source is not subject to any category listed on this table other than Part B number 85;
+b) The source has requested an enforceable limit on their actual emissions, if the source were to
+operate uncontrolled, to below Part B number 85 of this table as applicable depending on the
+source’s location through one or both of the following:
+i) A limit on hours of operation;
+ii) A limit on production;
+c) Control devices are not required to be used or otherwise accounted for to maintain emissions
+levels compliant with 8.b above;
+d) The source is not subject to and does not have any affected emissions units subject to a 40
+C.F.R. part 60, part 61, or part 63 standard (NSPS or NESHAP);
+e) The source is not subject to any specific industry or operation standard in OAR chapter 340
+divisions 232, 234, or 236.
+f) DEQ has determined that the source is not required to conduct source testing and source
+testing for emission factor verification will not be required.
+
+General ACDP
+A General ACDP is a permit that authorizes operation of the sources and activities listed below. General
+ACDPs are issued by order for a period of up to ten years and then individual sources are assigned to the
+General ACDP if they meet the qualifications. One significant qualification is that the actual emissions
+from the source must be less than the PSELs contained in the General ACDP. Generic PSELs in General
+ACDPS will be replaced with source specific PSELs. PSELs for General ACDPs will be set at the potential
+to emit for the largest emitting source in the general permit source category in the state for all regulated
+pollutants emitted at more than the de minimis emission level according to OAR chapter 340, division
+222. Any source that does not meet the qualifications would have to obtain either a Simple or Standard
+ACDP.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Hard chrome platers, AQGP-001;
+Decorative chrome platers, AQGP-002;
+Halogenated solvent degreasers - batch cold, batch vapor, and in-line, AQGP-005;
+Dry cleaners, AQGP-006;
+Asphalt plants, AQGP-007
+Rock crushers (>25,000 tons of rock crushed per year), AQGP-008;
+Ready-mix concrete (>25,000 yards of concrete produced per year), AQGP-009;
+Sawmills, planing mills, millwork, plywood manufacturing and veneer drying (>25,000 board feet per
+8-hour shift), AQGP-010;
+9. Boilers (>10 million Btu/hour heat input for oil fuels and >30 million Btu/hour heat input for natural
+gas and propane fuels), AQGP-011;
+10. Crematories (>20 tons of material incinerator per year), AQGP-012;
+11. Grain elevators (>10,000 tons of material throughput per year), AQGP-013;
+12. Prepared feeds, flour, and cereal (>10,000 tons of material throughput per year), AQGP-014;
+13. Seed cleaning (>5,000 tons of material throughput per year), AQGP-015;
+14. Coffee roasters (>30 tons of coffee roasted per year), AQGP-016;
+15. Bulk gasoline plants, AQGP-017;
+16. Electric power generators, AQGP-018;
+17. Clay manufacturing > 50 tpy, AQGP-019;
+18. Hospital ethylene oxide sterilizers, AQGP-020;
+19. Gasoline dispensing facilities - Stage I, AQGP-022;
+20. Gasoline dispensing facilities - Stage II, AQGP-023;
+21. Wood preserving, AQGP-024;
+22. Large metal fabrication and finishing operations, AQGP-025;
+23. Plating and polishing, AQGP-026;
+24. Surface coating, AQGP-027;
+25. Small metal fabrication operations, AQGP-029;
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+26. Paint and allied product manufacturing, AQGP-030; and
+27. Air Curtain Incinerators, AQGP-031.
+Air Curtain Incinerators can be permitted under the AQGP-031 for one year before applying for the ACI Title V
+General Permit.
+
+General ACDP Attachments
+If required to obtain more than one General ACDP, an owner or operator may be assigned to one General
+ACDP and one or more General ACDP Attachments, as long as the General ACDP and General ACDP
+Attachment(s) contain all requirements applicable to the source. This would allow a source to avoid
+having to obtain a more costly Simple or Standard ACDP if there are no General ACDPs that contain all
+requirements applicable to the source. If all activities at a source cannot be addressed by a General
+ACDP and General ACDP Attachments, the owner or operator of the source must apply for a Simple or
+Standards ACDP.
+A source may not be assigned to a General ACDP Attachment for a source category in a higher annual
+fee class than the General ACDP the source is currently assigned to. Instead, a source must be
+reassigned to the General ACDP for the source category in the higher annual fee class and may be
+assigned to one or more General ACDP Attachments associated with source categories in an equal or
+lower annual fee class.
+A General ACDP Attachment authorizes operation of the sources and activities listed below.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+
+Electric Power Generators, AQGP-018a;
+Hospital ethylene oxide sterilizers, AQGP-020a;
+Gasoline dispensing facilities - stage I, AQGP-022a;
+Gasoline dispensing facilities - stage II, AQGP-023a;
+Large metal fabrication and finishing operations, AQGP-025a;
+Plating and polishing, AQGP-026a;
+Surface coating, AQGP-027a;
+Small metal fabrication operations, AQGP-029a;
+Paint and allied product manufacturing, AQGP-030a.
+
+Simple ACDP
+A Simple ACDP authorizes operation of the sources and activities listed below. A Simple ACDP is required
+for these sources and activities, unless there is a General ACDP available for the source and the source
+meets the General ACDP qualifications. In addition, the applicant may request a Standard ACDP in place
+of the Simple ACDP if the annual emissions are greater than the Significant Emission Rate or the
+applicant wants to maintain a netting basis. A Simple ACDP contains all relevant applicable requirements,
+source specific PSELs that are less than the SERs, and testing, monitoring, recordkeeping and reporting
+requirements sufficient to determine compliance with the emissions limits and standards. The Simple
+ACDP is issued for a period of up to 10 years.
+1.
+
+Aerospace or aerospace parts manufacturing subject to RACT under OAR chapter 340,
+division 232.
+2. Aluminum, copper, and other nonferrous foundries subject to an area source NESHAP under
+OAR chapter 340, division 244.
+3. Aluminum production – primary.
+4. Ammonia manufacturing.
+5. Animal rendering and animal reduction facilities.
+6. Asphalt blowing plants.
+7. Asphalt felts or coating manufacturing.
+8. Asphaltic concrete paving plants, both stationary and portable.
+9. Bakeries, commercial over 10 tons of VOC emissions per year.
+10. Battery separator manufacturing.
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+11. Lead-acid battery manufacturing and re-manufacturing.
+12. Beet sugar manufacturing.
+13. Oil-fired boilers and other fuel burning equipment whose total heat input rating at the source
+is over 10 MMBTU/hour; or individual natural gas, propane, or butane-fired boilers and other
+fuel burning equipment 30 MMBTU/hour or greater heat input rating.
+14. Building paper and building board mills.
+15. Calcium carbide manufacturing.
+16. Can or drum coating subject to RACT under OAR chapter 340, division 232.2
+17. Cement manufacturing.
+18. Cereal preparations and associated grain elevators 10,000 or more tons/year throughput.1
+19. Charcoal manufacturing.
+20. Chlorine and alkali manufacturing.
+21. Chrome plating and anodizing subject to a NESHAP under OAR chapter 340, division 244.
+22. Clay ceramics manufacturing subject to an area source NESHAP under OAR chapter 340,
+division 244.
+23. Coffee roasting, roasting 30 or more green tons per year.
+24. Concrete manufacturing including redi-mix and CTB, both stationary and portable, 25,000 or
+more cubic yards per year output.
+25. Crematory incinerators 20 or more tons/year material input.
+26. Degreasing operations, halogenated solvent cleanings subject to a NESHAP under OAR
+chapter 340, division 244.
+27. Electrical power generation from combustion, excluding units used exclusively as
+emergency generators and units less than 500 kW.
+28. Commercial ethylene oxide sterilization, excluding facilities using less than 1 ton of ethylene
+oxide within all consecutive 12-month periods after December 6, 1996.
+29. Ferroalloy production facilities subject to an area source NESHAP under OAR chapter 340,
+division 244.
+30. Flatwood coating subject to RACT under OAR chapter 340, division 232.2
+31. Flexographic or rotogravure printing subject to RACT under OAR chapter 340, division 232.2
+32. Flour, blended and/or prepared and associated grain elevators 10,000 or more
+tons/year throughput.1
+33. Galvanizing and pipe coating, except galvanizing operations that use less than 100
+tons of zinc/year.
+34. Bulk gasoline plants, bulk gasoline terminals, and pipeline facilities.
+35. Gasoline dispensing facilities, excluding gasoline dispensing facilities with monthly throughput
+of less than 10,000 gallons of gasoline per month3.
+36. Glass and glass container manufacturing subject to a NSPS under OAR chapter 340,
+division 238 or a NESHAP under OAR chapter 340, division 244.
+37. Grain elevators used for intermediate storage 10,000 or more tons/year throughput.1
+38. Reserved.
+39. Gray iron and steel foundries, malleable iron foundries, steel investment foundries, steel
+foundries 100 or more tons/year metal charged, not elsewhere identified.
+40. Gypsum products manufacturing.
+41. Hardboard manufacturing, including fiberboard.
+42. Hospital sterilization operations subject to an area source NESHAP under OAR chapter 340,
+division 244.
+43. Incinerators with two or more tons per day capacity.
+44. Lime manufacturing.
+45. Liquid storage tanks subject to RACT under OAR chapter 340, division 232.2
+46. Magnetic tape manufacturing.
+47. Manufactured home, mobile home and recreational vehicle manufacturing.
+48. Marine vessel petroleum loading and unloading subject to RACT under OAR chapter 340,
+division 232.
+49. Metal fabrication and finishing operations subject to an area source NESHAP under OAR
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+chapter 340, division 244, excluding facilities that meet all the following:
+a. Do not perform any of the operations listed in OAR 340-216-0060(3)(b)(V)(i) through (iii);
+b. Do not perform shielded metal arc welding (SMAW) using metal fabrication and
+finishing hazardous air pollutant (MFHAP) containing wire or rod; and
+c. Use less than 100 pounds of MFHAP containing welding wire and rod per year.
+50. Millwork manufacturing, including kitchen cabinets and structural wood members, 25,000 or
+more board feet/maximum 8 hour input.
+51. Molded plastic container manufacturing, using extrusion, molding, lamination, and foam
+processing and molded fiberglass container manufacturing, excluding injection molding.
+52. Motor coach, travel trailer, and camper manufacturing.
+53. Motor vehicle and mobile equipment surface coating operations subject to an area source
+NESHAP under OAR chapter 340, division 244, excluding motor vehicle surface coating
+operations painting less than 10 vehicles per year or using less than 20 gallons of coating and
+20 gallons of methylene chloride containing paint stripper per year, mobile equipment surface
+coating operations using less than 20 gallons of coating and 20 gallons of methylene chloride
+containing paint stripper per year, and motor vehicle surface coating operations registered
+pursuant to OAR 340-210-0100(2).
+54. Natural gas and oil production and processing and associated fuel burning equipment.
+55. Nitric acid manufacturing.
+56. Nonferrous metal foundries 100 or more tons/year of metal charged.
+57. Organic or inorganic chemical manufacturing and distribution with ½ or more tons per year
+emissions of any one criteria pollutant, sources in this category with less than ½ ton/year of
+each criteria pollutant are not required to have an ACDP.
+58. Paint and allied products manufacturing subject to an area source NESHAP under OAR
+chapter 340, division 244.
+59. Paint stripping and miscellaneous surface coating operations subject to an area source
+NESHAP under OAR chapter 340, division 244, excluding paint stripping and miscellaneous
+surface coating operations using less than 20 gallons of coating and also using less than 20
+gallons of methylene chloride containing paint stripper per year.
+60. Paper or other substrate coating subject to RACT under OAR chapter 340, division 232.2
+61. Particleboard manufacturing, including strandboard, flakeboard, and waferboard.
+62. Perchloroethylene dry cleaning operations subject to an area source NESHAP under OAR
+chapter 340, division 244, excluding perchloroethylene dry cleaning operations registered
+pursuant to OAR 340-210-0100(2).
+63. Pesticide manufacturing 5,000 or more tons/year annual production.
+64. Petroleum refining and re-refining of lubricating oils and greases including asphalt production
+by distillation and the reprocessing of oils and/or solvents for fuels.
+65. Plating and polishing operations subject to an area source NESHAP under OAR chapter 340,
+division 244.
+66. Plywood manufacturing and/or veneer drying.
+67. Prepared feeds manufacturing for animals and fowl and associated grain elevators 10,000 or
+more tons per year throughput.
+68. Primary smelting and/or refining of ferrous and non-ferrous metals.
+69. Pulp, paper and paperboard mills.
+70. Rock, concrete or asphalt crushing, both stationary and portable, 25,000 or more tons/year
+crushed.
+71. Sawmills and/or planing mills 25,000 or more board feet/maximum 8 hour finished product.
+72. Secondary nonferrous metals processing subject to an Area Source NESHAP under OAR
+chapter 340, division 244.
+73. Secondary smelting and/or refining of ferrous and nonferrous metals.
+74. Seed cleaning and associated grain elevators 5,000 or more tons/year throughput.1
+75. Sewage treatment facilities employing internal combustion engines for digester gasses.
+76. Soil remediation facilities, both stationary and portable.
+77. Steel works, rolling and finishing mills.
+78. Surface coating in manufacturing subject to RACT under OAR chapter 340, division 232.2
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+79. Surface coating operations with actual emissions of VOCs, if the source were to operate
+uncontrolled, of 10 or more tons/year.
+80. Synthetic resin manufacturing.
+81. Tire manufacturing.
+82. Wood furniture and fixtures 25,000 or more board feet/maximum 8 hour input.
+83. Wood preserving (excluding waterborne).
+84. All other sources, both stationary and portable, not listed herein that DEQ determines an air
+quality concern exists or one which would emit significant malodorous emissions.
+85. All other sources, both stationary and portable, not listed herein which would have the capacity
+of 5 or more tons per year of direct PM2.5 or PM10 if located in a PM2.5 or PM10
+nonattainment or maintenance area, or 10 or more tons per year of any single criteria pollutant.4
+86. Chemical manufacturing facilities subject to 40 C.F.R. part 63 subpart VVVVVV.
+87. Stationary internal combustion engines if:
+a.
+For emergency generators and firewater pumps, the aggregate engine
+horsepower rating is greater than 30,000 horsepower; or
+b.
+For any individual non-emergency or non-fire pump engine, the engine is subject to 40
+CFR part 63, subpart ZZZZ and is rated at 500 horsepower or more, excluding two
+stroke lean burn engines, engines burning exclusively landfill or digester gas, and four
+stroke engines located in remote areas; or
+c.
+For any individual non-emergency engine, the engine is subject to 40 CFR part 60,
+subpart IIII and:
+A.
+The engine has a displacement of 30 liters or more per cylinder; or
+B.
+The engine has a displacement of less than 30 liters per cylinder and is
+rated at 500 horsepower or more and the engine and control device are
+either not certified by the manufacturer to meet the NSPS or not operated
+and maintained according to the manufacturer’s emission-related
+instructions; or
+d.
+For any individual non-emergency engine, the engine is subject to 40 CFR part 60,
+subpart JJJJ and is rated at 500 horsepower or more and the engine and control device
+are either not certified by the manufacturer to meet the NSPS or not operated and
+maintained according to the manufacturer’s emission-related instructions.
+88. All sources subject to RACT under OAR chapter 340, division 232, BACT or LAER under
+OAR chapter 340, division 224, a NESHAP under OAR chapter 340, division 244, a NSPS
+under OAR chapter 340, division 238, or State MACT under OAR 340-244-0200(2), except
+sources:
+a.
+Exempted in any of the categories above;
+b.
+For which a Basic ACDP is available; or
+c.
+Registered pursuant to OAR 340-210-0100(2).
+89. Pathological waste incinerators.
+90. Landfills with more than 200,000 tons of waste in place and calculated methane generation rate
+is less than 664 metric tons per year which are subject to the requirements in OAR 340
+division 239.
+1 Applies only to Special Control Areas
+
+2 Portland AQMA, Medford-Ashland AQMA or Salem-Keizer in the SKATS only
+
+3 “monthly throughput” means the total volume of gasoline that is loaded into, or dispensed from, all
+
+gasoline storage tanks at the gasoline dispensing facility during a month. Monthly throughput is
+calculated by summing the volume of gasoline loaded into, or dispensed from, all gasoline storage
+tanks at the gasoline dispensing facility during the month, plus the total volume of gasoline loaded
+into, or dispensed from, all gasoline storage tanks at the gasoline dispensing facility during the
+previous 11 months, and then dividing that sum by 12.
+4 A source subject to permitting from this category may be able to obtain a Basic ACDP under Part A
+number 8 of this table. For sources that meet the criteria of Part A number 8 of this table, the
+enforceable production or hours limitation in an issued ACDP may be used to demonstrate a permit is
+not required by Part B number 85 of this table irrespective of the term ‘uncontrolled’.
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+Standard ACDP
+A Standard ACDP authorizes operation of the sources and activities listed below. The applicant may also
+request a Standard ACDP for any source listed above. Standard ACDPs are issued for up to 5 years. The
+Standard ACDP includes all relevant requirements, including source specific PSELs, along with
+requirements for determining compliance with the emissions limits and standards.
+1.
+2.
+3.
+4.
+5.
+
+Incinerators for PCBs, other hazardous wastes, or both.
+All sources that DEQ determines have emissions that constitute a nuisance.
+All sources electing to maintain the source’s netting basis.
+All sources that request a PSEL equal to or greater than the SER for a regulated pollutant.
+All sources having the potential to emit 100 tons or more of any regulated pollutant, except GHG,
+in a year.
+6. All sources having the potential to emit 10 tons or more of a single hazardous air pollutant in a
+year.
+7. All sources having the potential to emit 25 tons or more of all hazardous air pollutants combined
+in a year.
+8. Landfills with more than 200,000 tons of waste in place and calculated methane generation rate is
+greater than or equal to 664 metric tons per year which are subject to the requirements in OAR
+340 division 239.
+
+Construction ACDP
+A Construction ACDP is a permit for approval of Type 3 of Type 4 construction or modification changes
+specified in OAR 340-210-0225. The Construction ACDP includes requirements for the construction or
+modification of stationary sources or air pollution control equipment at sources that are required to obtain
+a Standard ACDP or Oregon Title V Operating Permit. The Construction ACDP does not provide
+authorization to operate the new construction or modification. A new or modified Standard ACDP or Title V
+Permit is required before operation of the new construction or modification. The Construction ACDP is
+optional for ACDP sources but is required for any source that has a Title V Permit.
+
+Cleaner Air Oregon
+The owner or operator of a new source applying for a Simple or Standard ACDP must submit a Cleaner
+Air Oregon Pre-Application Fee form (AQ500) and a toxic air contaminant emissions inventory form
+(AQ520). The New Source Consulting Fee in OAR 340-216-8030 should also be submitted with these
+forms. DEQ will notify owners or operators of a new source applying for a General or Basic Air
+Contaminant Discharge Permit if they are subject to Cleaner Air Oregon. Currently, the only types of
+general permit applications that would trigger Cleaner Air Oregon requirements are Hard Chrome
+Electroplating (AQGP-001), Decorative Chrome Electroplating (AQGP-002), Plating and Polishing
+(AQGP-026). The owner or operator of an existing source will be notified by DEQ when they are required
+to submit an application for a Toxics Air Contaminant Permit Addendum or a modified operating permit.
+After the emissions inventory for the new source is approved by DEQ, the owner or operator of the new
+source must calculate risk from the toxic air contaminants emitted and submit a risk assessment.
+Depending on the level of risk assessment performed, a modeling protocol and a risk assessment work
+plan must also be submitted and approved before submitting the risk assessment. The same modeling
+protocol can also be used if criteria pollutant modeling is required. Once the risk assessment is approved,
+the applicant must fill out the appropriate ACDP application forms and a Cleaner Air Oregon Permit
+Application form (AQ501). The owner or operator must submit the ACDP application fee and the Cleaner
+Air Oregon specific activity fees along with the first year’s ACDP annual fee and the Cleaner Air Oregon
+annual fee with the application. DEQ will add permit conditions to the Air Contaminant Discharge Permit
+based on cancer and noncancer risk.
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+If risk is less than the Source Permit Levels in OAR 340-245-8010, the source is considered a de minimis
+source and a memorandum to the file will be written and the review report of the operating permit will be
+modified to include the risk assessment verifying risk. If an operating permit is not required, the de
+minimis source will be tracked in a database for the emissions inventory and future communication if
+RBCs change or other information about risk is received such that toxic air contaminant emissions must
+be reevaluated.
+All permitted sources are required to pay the Cleaner Air Oregon annual fee in addition to applicable
+specific activity fees. After the owner or operator of a new source has been permitted, the Cleaner Air
+Oregon annual fee will be invoiced with the existing operating permit annual fees.
+For more information about the Cleaner Air Oregon application process, please visit:
+https://www.oregon.gov/deq/aq/aqPermits/Pages/CAO-reg.aspx
+
+ACDP application forms
+Once you have determined the type of permit for the facility, complete the necessary application forms as
+follows:
+
+Short Term Activity ACDP
+Form AQ108 is used to apply for a Short Term Activity ACDP. Instructions are provided with the form.
+Fees are required for Short Term Activity ACDPs in accordance with OAR 340-216-8020,
+Table 2, Part 1.
+
+Basic ACDP
+The application packet for a new Basic ACDP or renewal of an existing Basic ACDP consists of one of the
+following forms and a Land Use Compatibility Statement for new sources. The forms are self-explanatory
+so there are no additional instructions. Fees are required for new Basic ACDPs, but are not required for
+permit renewals. The fees are specified in OAR 340-216-8020, Table 2, Part 1.
+Table 1, Part
+A Category
+
+Source Category
+
+Form
+Number
+
+Table 1, Part
+A Category
+
+Source Category
+
+Form
+Number
+
+1
+
+Autobody repair
+
+AQB-001
+
+5
+
+Prepared Feeds
+
+AQB-005
+
+4
+
+Boilers
+
+AQB-002
+
+6
+
+Rock Crushers
+
+AQB-006
+
+2
+
+Concrete Manufacturing
+
+AQB-003
+
+7
+
+Surface Coating
+
+AQB-007
+
+3
+
+Crematories
+
+AQB-004
+
+8
+
+Other sources requesting
+AQB-008
+enforceable limits
+
+General ACDP
+The application packet for assignment or re-assignment to a General ACDP consists of form AQGP- 100 5
+and one of the following forms, along with a Land Use Compatibility Statement for new sources. Use the
+application package for assignment or re-assignment to a General ACDP to apply for assignment or
+reassignment to the corresponding General ACDP Attachment. Additional information, as identified by
+OAR 340-216-0040(1), may be requested for a new source. Fees are required for initial assignment to a
+5 Dry cleaners are not required to submit form AQGP-100.
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+General ACDP 6, but are not required for reassignment. The fees are specified in OAR 340-216-8020,
+Table 2 and fee classifications can be found in OAR 340-216-0060(2)(b).
+General
+ACDP #
+
+Source Category
+
+Form
+Number
+
+General
+ACDP #
+
+Source Category
+
+Form
+Number
+
+All
+
+Required for all permits
+
+AQGP-100
+
+AQGP-015
+
+Seed Cleaning
+
+AQGP-115
+
+All
+
+Required for all permit
+reassignments
+
+AQGP-100R AQGP-016
+
+Coffee Roasters
+
+AQGP-116
+
+AQGP-001
+
+Hard Chrome Platers
+
+AQGP-101
+
+AQGP-017
+
+Bulk Gasoline Plants
+
+AQGP-117
+
+AQGP-002
+
+Decorative Chrome
+Platers
+
+AQGP-102
+
+AQGP-018
+AQGP-018a
+
+Electric Power
+Generators
+
+AQGP-118
+
+AQGP-005
+
+Degreasers - all
+
+AQGP 105
+
+AQGP-019
+
+Clay Manufacturing
+
+AQGP-119
+
+AQGP-006
+
+Dry Cleaners
+
+AQGP 106
+
+AQGP-007
+
+Asphalt Plants
+
+AQGP-008
+
+Rock Crushers
+
+AQGP-009
+
+Concrete Manufacturers
+
+AQGP-010
+
+AQGP-020
+AQGP-020a
+AQGP-022
+AQGP 107
+AQGP-022a
+
+Hospital Sterilizers
+
+AQGP-120
+
+Gasoline Dispensing
+Facilities - Stage I
+
+AQGP-122
+
+AQGP 108
+
+AQGP-023
+AQGP-023a
+
+Gasoline Dispensing
+Facilities - Stage II
+
+AQGP-122
+
+AQGP 109
+
+AQGP-024
+
+Wood Preserving
+
+AQGP-124
+
+Wood Products Facilities AQGP-110
+
+AQGP-025
+AQGP-025a
+
+Metal Fabrication and
+Finishing
+
+AQGP-125
+
+AQGP-011
+
+Boilers
+
+AQGP 111
+
+AQGP-026
+AQGP-026a
+
+Plating and Polishing
+
+AQGP-126
+
+AQGP-012
+
+Crematories
+
+AQGP-112
+
+AQGP-027
+AQGP-027a
+
+Surface Coating
+
+AQGP-127
+
+AQGP-013
+
+Grain Elevators
+
+AQGP-113
+
+AQGP-029
+AQGP-029a
+
+Metal Fabrication
+
+AQGP-129
+
+AQGP-014
+
+Cereal, Flour, and
+Prepared Feeds
+
+AQGP-114
+
+AQGP-031
+
+Air Curtain Incinerator
+
+AQGP-131
+
+Simple and Standard ACDP
+The application forms for Simple and Standard ACDPs have been organized into four "series" based on
+the types of information collected. These series are:
+
+Form Series AQ100, administrative Information and non-technical permit
+modifications
+The forms in this series collect general information about the facility, such as the type of activity, the
+location, the name of a contact person, etc. These forms help DEQ understand what the facility is, the
+6 DEQ may waive the assignment fee for an existing source requesting to be assigned to a General
+
+ACDP because the source is subject to a newly adopted area source NESHAP as long as the existing
+source requests assignment within 90 days of notification by DEQ.
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+industrial activities conducted at the facility, and the regulatory requirements that apply to the facility.
+Form Number
+
+AQ101
+AQ102
+AQ103
+AQ105
+AQ107
+AQ108
+AQ109
+AQ110
+
+Description
+Administrative Information
+Facility Description
+Transfer Application or Name Change
+Non-technical permit modifications
+Relocation Notice Form
+Short Term Activity Permit Application
+Relocation Notice for Air Curtain Incinerators
+Emissions Release Parameter Details Sheet
+
+Form Series AQ200, (Pollutant-Emitting) Device/Process Forms
+Each form in this series is intended to collect descriptive information about the pollutant-emitting devices
+(equipment) and processes at the facility. For example, one form should be used to describe a boiler and
+another form should be used to describe a seed handling operation. A "Miscellaneous" form is more
+general in nature for use in describing devices or processes not otherwise addressed by a specific form.
+
+Form Number
+AQ201
+AQ202
+AQ203
+AQ204
+AQ205
+AQ206
+AQ207
+AQ208
+AQ209
+AQ210
+AQ211
+AQ212
+AQ213
+AQ214
+AQ216
+AQ220
+AQ221
+AQ222
+AQ223
+AQ224
+AQ225
+AQ226
+AQ227
+AQ230
+AQ231
+
+Translation or other formats
+
+Description
+<Reserved>
+Asphalt Plants
+Rock Crusher
+Ready-mix Concrete Plant
+Volatile Organic Liquid Storage Tanks
+Material Dryers/Ovens (For facilities other than wood products facilities)
+Coffee Roasters
+Boilers (other than hogged fuel boilers)
+Crematory Incinerator
+Internal Combustion Engines and Gas Turbines
+Surface Coating Operations
+Grain/Seed/Animal Feed
+Power Generators
+Solvent Usage
+Bakeries
+Wood Products Facility Data
+Veneer Dryers
+Wood Particle Dryers
+Wood Panel Presses
+Hogged Fuel Boilers
+Wood Drying Kilns
+Wood Product Process Cyclone
+Air Curtain Incinerator
+Miscellaneous Device or Process
+Operation and Maintenance
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+Form Series AQ300, Pollution Management Forms
+These forms are used to describe efforts to control and reduce air pollution by either pollution prevention
+measures or add-on control equipment.
+
+Form Number
+AQ301
+AQ302
+AQ303
+AQ304
+AQ305
+AQ306
+AQ307
+
+Description
+Pollution Prevention
+Electrostatic Precipitator (ESP)
+Wet Scrubber
+Baghouse
+Cyclones/Multiclones
+Fume Incinerator
+Miscellaneous Control Device
+
+Form Series AQ400, Emissions Data Forms
+These forms collect information about the types and quantities of regulated air pollutants emitted by the
+different devices and processes at the facility.
+
+Form Number
+
+Description
+
+AQ401
+
+Plant Site Emissions Detail (Baseline year)
+
+AQ402
+
+Plant Site Emissions Detail (Current/Future Operations)
+
+AQ403
+
+Hazardous Air Pollutant Emissions Detail
+
+AQ404
+
+Categorically Insignificant Activities
+
+DEQ needs to understand the types of activities conducted at the facility, the efforts to control emissions
+from the activities, and the quantities of emissions that result from the activities. The applicant will be
+asked to complete a number of different forms to provide adequate information such that DEQ can issue
+an ACDP. The applicant must submit fees with the application for new permits as required by OAR 340216-8020, Table 2, Parts 1, 2, and 3.
+Certain ACDP forms will need to be completed for all types of facilities. Other forms are specific to the
+types of activities conducted at the individual facility. The applicant should talk to a permit writer or permit
+coordinator at one of the regional offices listed below. Through this discussion, the permit writer or
+coordinator will identify which forms the applicant needs to complete. The permit writer or coordinator will
+also determine which fees are required to be submitted with the application. The permit coordinator will
+provide the applicant with a comprehensive package of forms, appropriate to the activities at the facility.
+The applicant needs to complete the materials and submit the application, with any required fees, to
+DEQ. When fees are required, submit the application to the DEQ Business Office. When fees are not
+required, submit the application to the appropriate regional office.
+
+Form Series AQ500, Cleaner Air Oregon Forms
+The forms in this series are used for all sources subject to Cleaner Air Oregon and include both
+administrative and technical documents required by the Program. Cleaner Air Oregon forms indicate
+where to submit technical documents. When fees are required, submit the application to the DEQ
+Financial Services Department – Revenue Section.
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+Form Number
+AQ500
+AQ501
+AQ502
+AQ520
+AQ521
+AQ522
+AQ523
+AQ540
+
+Description
+Pre-Application Fee Form
+Cleaner Air Oregon Permit Application
+Permit Modification Form
+Cleaner Air Oregon Emissions Inventory
+Exposure Location Change Request Form
+Exposure Location Change Request Table
+Categorically Exempt Toxics Emissions Units
+Annual Zoning and Exposure Location Verification
+
+DEQ offices
+Financial Services - Revenue Section
+700 NE Multnomah Street, Suite 600
+Portland, OR 97232-4100
+
+Eastern Region
+
+475 NE Bellevue Dr., Suite 110
+Bend, OR 97701
+541-388-6146
+
+Western Region
+
+4026 Fairview Industrial Drive SE
+Salem, OR 97302-1142
+503-378-5305
+
+Northwest Region
+
+700 NE Multnomah Street, Suite 600
+Portland, OR 97232-4100
+503-229-5554
+
+The application package for a new ACDP will include forms from each of the four form series described
+above. If the applicant has not spoken to a permit writer about applying for an ACDP, the applicant should
+review the list of forms to get a sense of the types of information that they collect, relative to the type of
+facility to be permitted. This will help the applicant in discussing with the permit writer the application
+process and the forms needed. If the applicant has already spoken with a permit writer and received
+ACDP application forms, the applicant should review the forms received relative to the list of all ACDP
+forms to determine whether the applicant received all the appropriate forms for the facility. If additional
+forms are necessary, the applicant should contact the permit coordinator in the regional office to obtain
+the forms.
+DEQ recommends the following process for preparing the ACDP application:
+
+1. Catalog the usage of raw materials and fuels, production outputs, devices/processes, control
+
+devices, and monitoring systems associated with air pollutant emissions at the facility. Focus on
+those activities that relate to production at the facility, rather than activities relating to
+maintenance (e.g., paint booth at a manufacturing facility is production-oriented and must be
+permitted; whereas, doing touch-up painting of railings is maintenance-related and does not need
+to be permitted).
+
+Gain a comprehensive understanding of the full range of activities at the facility by undertaking an
+inventory to identify:
+
+
+
+
+
+
+
+the raw materials used at the facility;
+the fuels used at the facility (not including fuel used for motor vehicles);the products produced at
+the facility;
+all regulated air pollutant-emitting devices and processes;
+the rates at which the devices and processes operate;
+all regulated air pollutants emitted by the devices and processes;
+all existing control devices and emissions control work practices (e.g., wet scrubbers, watering
+unpaved roads); and
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+•
+
+all existing monitoring systems (e.g., stack monitors, flow monitors, etc.)
+
+By identifying all of the above initially, the applicant will obtain most of the information necessary to
+complete the ACDP application forms.
+
+2. Prepare the forms from Form Series AQ100 and Cleaner Air Oregon Pre-Application Form
+(AQ500)
+
+Form AQ101, Administrative Information, in addition to collecting name, address, location, and
+site contact information, also collects the owner/operator's signature certifying the information
+included in the application. This form will serve as the cover sheet for the permit application. The
+applicant must attach all other required forms to Form AQ101. Two copies of the completed
+application must be submitted to DEQ.
+Form AQ102, Facility Description, collects general information about the facility, including a
+process flow diagram.
+Form AQ501, Cleaner Air Oregon Permit Application, collects information on the permit
+application requirements for Cleaner Air Oregon.
+
+3. Prepare the appropriate forms from Form Series AQ200, Device/Process Forms, based on the
+types of regulated air pollutant-emitting devices and processes at the facility.
+
+4. Prepare Form Series AQ300, Pollution Management Forms.
+Applicants seeking to take credit for pollution prevention measures should complete the optional
+Form AQ301, Pollution Prevention. Forms AQ302 through AQ307 should be used to describe any
+control devices at the facility.
+
+5. Prepare Form Series AQ400 and AQ520, Emissions Data Forms, to describe the emissions from
+
+each device and process identified in Form Series AQ200. AQ520 is required for all new sources
+applying for a Simple or Standard ACDP and also a Basic or General ACDP if required by DEQ.
+Base the annual emissions on the maximum projected operating rate during the permit term
+instead of the maximum capacity of the facility or the typical operating rate. The daily emission
+rate of toxic air contaminants should be based on the maximum daily production.
+
+Simple and Standard permit renewals
+Permit renewal applications are due 120 days prior to the expiration date of the permit for a Simple ACDP
+and 180 days prior to the expiration date of the permit for a Standard ACDP. The forms included in the
+renewal application will depend on whether there are any changes at the facility. At a minimum, the
+renewal application must include:
+
+A complete list of all devices or activities, or any combination of devices or activities including any
+air pollution control devices and any categorically insignificant activities;
+• An estimate of the amount and type of each air contaminant emitted by the source in terms of
+hourly, daily, or monthly and yearly rates, showing calculation procedures;
+• Any changes to the source since the last permit issuance and any new requirements applicable to
+those changes; and
+• An air quality analysis, conducted in accordance with the procedures in OAR chapter 340,
+division 225, demonstrating that the source’s emissions will not cause or contribute to an
+exceedance or violation of an ambient air quality standard adopted under OAR chapter 340,
+division 202, when required by DEQ.
+If there are proposed changes, then Form AQ102 will be required to describe the changes. If the changes
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+include new or modified equipment, then the appropriate form(s) from series AQ200, Device/Process
+Forms will need to be included in the application. If the changes include new or modified control
+equipment or pollution prevention measures, then the appropriate form(s) from series AQ300, Pollution
+Management Forms, will need to be included in the application. If the changes will result in a change in
+pollutant emissions from individual devices or processes or from the facility as a whole, then Form AQ402
+will have to be included in the application. In most cases, Form AQ401 will not be required because the
+baseline emissions should not change. In some cases, there may be new emissions information available
+and the baseline emission rate needs to be corrected. In those cases, form AQ401 would have to be
+included in the application. There are no fees for permit renewals, so the application should be sent
+directly to the regional office.
+
+Non-technical permit modifications
+Non-technical permit modifications include, but are not limited to name changes, change of ownership
+and similar administrative changes. Form AQ103 is used for name changes and change of ownership.
+Form AQ105 is used for all other non-technical permit modifications, such as changing a stationary
+source that is assigned to a General ACDP to a portable source.
+
+Simple and Standard technical permit modifications
+An application for a permit modification is required if the permittee proposes to make changes to the
+facility that would result in an increase in the facility wide emissions or be subject to new requirements
+that are not included in the existing permit. Some changes do not require permit modifications and may
+be approved by the Notice of Construction (NC) procedures described later in this document. It is
+recommended that the permittee contact the permit writer to determine if a permit modification is required.
+An application for a permit modification must be submitted to DEQ at least 60 days prior to making the
+proposed change. It is recommended that the application be submitted far enough in advance to allow
+DEQ adequate time to process the application and issue the permit modification before making the
+proposed change(s).
+At a minimum, the application for a permit modification will include forms AQ101 and AQ102 to describe
+the permit modification. If the modification includes new or modified devices, processes, or control
+equipment, the appropriate form(s) from series AQ200 and AQ300 will have to be included in the
+application. Most permit modifications will involve a change in pollutant emissions, so form AQ402 will
+also need to be included in the application. The applicant must submit fees with the application as
+required by OAR 340-216-8020, Table 2, Part 4 and OAR 340-216-8030, Table 3.
+
+New Source Review
+These instructions are provided to the owner/operator proposing to construct a major source or to
+undertake a major modification as defined in OAR 340-200-0020. If the construction/modification takes
+place in a nonattainment area or maintenance area, then the New Source Review (NSR) rules in OAR
+340-224-0050 or OAR 340-224-0060 are applicable. If the construction/modification takes place in an
+attainment area, then the Prevention of Significant Deterioration (PSD) rules in OAR 340-224-0070 are
+applicable. These instructions identify the types of information required for NSR/PSD and explain how the
+information may be provided to DEQ using the ACDP application forms. The applicant must submit fees
+with the application as required by OAR 340-216-0020. The owner/operator proposing to construct a
+major source or to undertake a major modification must also simultaneously submit a Toxic Air
+Contaminant emissions inventory. The Cleaner Air Oregon team will determine if a risk assessment and a
+Toxic Air Contaminant Permit are required at that time.
+New Source Review permits are complicated and may take up to a year to process. It is important that the
+correct information be provided in a timely manner. It is highly recommended that the applicant contact
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+DEQ to discuss the permit process as early as possible. In accordance with OAR 340-224-0030, the
+following information is required in an NSR application:
+
+Information
+
+Submittal format
+
+A description of the nature, location, design capacity, and typical operating
+schedule of the source/modification, including specifications and drawings
+
+Forms AQ101, AQ102,
+AQ501, and AQ200 series
+
+An estimate of the maximum amount and type of regulated air pollutant
+emitted on a short-term basis (e.g., hourly or daily) and yearly, with
+calculations
+
+Form AQ402
+
+Stack parameter data (height above ground, exit diameter, exit velocity, and
+exit temperature) for all existing and proposed emission points from the
+source or modification
+
+Form AQ110
+
+A detailed schedule for the construction/modification
+
+Supplemental information
+
+A description of control devices and emissions reduction processes, and
+other information necessary to determine Best Available Control Technology
+Form AQ300 plus
+(BACT) or Lowest Achievable Emissions Rate (LAER), technological and
+performance standards that apply to sources depending on whether they are supporting documentation
+located in attainment or non-attainment areas. [BACT is described in OAR
+340-224-0070(1); LAER is described in OAR 340-224-0050(1).]
+An analysis of air quality and visibility impact of the source or modification,
+including meteorological and topographical data, specific details of the
+models used, and other information necessary to estimate air quality
+impacts
+
+Supplemental Report
+
+An analysis of air quality and visibility impacts, and the nature and extent of
+all commercial, residential, industrial, and other source emissions growth,
+that has occurred since January 1, 1978 in the area of the source or
+modification would significantly impact
+
+Supplemental Report
+
+An indication of whether the owner/operator is requesting an enhanced
+permitting process
+
+Statement in cover letter
+
+A discussion of any cross-media impacts (i.e., the transfer of air pollutants to
+another environmental medium, such as waste) that DEQ should take into
+Supplemental information
+consideration in determining appropriate control requirements at the facility
+The applicant must also submit the application and any additional information requested by DEQ to the
+Environmental Protection Agency. An electronic copy must be emailed to
+R10AIRPERMITREPORTS@EPA.GOV and a hard copy mailed to:
+Mr. Pat Nair
+NSR Permits Team Lead
+Office of Air, Waste and Toxics Idaho Operations Office
+950 W. Bannock Street Boise, Idaho 83702
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+Notice of Intent to Construct
+Some changes at a facility do not require a permit modification, but the permittee must still notify DEQ of
+the changes. Form AQ104 is used for Type 1 and Type 2 changes. Form AQ104A is used for equipment
+that is on the “notice and go” list in OAR 340-210-0225(1)(b). If the If the PSEL will increase as a result of
+the proposed changes or new permit conditions are required as a result of the proposed change, the
+permittee must submit an application for a Construction ACDP or an application to modify or obtain a
+Standard ACDP instead of using the NC form. It is recommended that the permittee contact the permit
+writer to determine if a NC or permit modification is required.
+There is no fee for Type 1 changes for criteria pollutants. There is a $720 fee for Type 2 changes. If
+approval of a TEU under Cleaner Air Oregon is required, the owner or operator must pay the applicable
+TEU Risk Assessment fee in OAR 340-216-8030 Table 3.
+1. Type 1 changes include construction or modification for which the owner or operator is not
+required to obtain a permit or permit modification under OAR chapter 340, division 216, and
+where the changes meet the criteria in either subsection (a) or (b):
+a. The construction or modification would:
+A. Have emissions from any new, modified, or replaced device or activity, or any
+combination of devices or activities, of less than or equal to the de minimis levels defined
+in OAR 340-200-0020;
+B. Not result in an increase of emissions from the source above any PSEL;
+C. Not result in an increase of emissions from the source above the netting basis by more
+than or equal to the SER;
+D. Not be used to establish a federally enforceable limit on the potential to emit; and
+E. Not require a TACT determination under OAR 340-226-0130 or a MACT determination
+under OAR 340-244-0200; or
+b. The construction or modification is one of the following:
+A. Stationary internal combustion engines having a rated capacity <60 horsepower output;
+B. Emergency stationary internal combustion Tier 4 engines having a rated capacity <670
+horsepower (500 kilowatts) output;
+C. Hand-held sanding equipment;
+D. Portable vacuum blasting equipment using steel shot and vented to a fabric filter;
+E. Shot peening operations, provided that no surface material is removed;
+F. Replacement of equipment that is used to control processes, such as temperature, air
+pressure, water pressure, electrical current, flow rate, etc.;
+G. Equipment and instrumentation used for quality control/assurance or inspection
+purposes;
+H. Vacuum pumps;
+I. Equipment used for extrusion, compression molding, and injection molding of plastics,
+provided that the VOC content of all mold release products or lubricants is <1% by
+weight;
+J. Injection or blow-molding equipment for rubber or plastics, provided that no blowing agent
+other than compressed air, water, or carbon dioxide is used;
+K. Presses or molds used for curing, post-curing, or forming composite products and plastic
+products, provided that the blowing agent contains no VOC or chlorinated compounds;
+L. Equipment used exclusively for the mixing and blending of materials at ambient
+temperature to make water-based adhesives;
+M. Dredging wet spoils handling and placement;
+N. Graphic label and/or box labeling operations where the inks are applied by hand
+stamping or hand rolling;
+O. Ultraviolet disinfection processes;
+P. The cleaning and/or deburring of metal products where all tumblers are used without
+abrasive blasting;
+Q. Ozone generators and ozonation equipment;
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+R. Emissions from the storage and application of road salt (calcium chloride or sodium
+chloride);
+S. Process emissions from sources which are located at private, public, or vocational
+education institutions, where the emissions are primarily the result of teaching and
+training exercises, and the institution is not engaged in the manufacture of products for
+commercial sale;
+T. Degreasing units which exclusively use caustics (e.g., potassium hydroxide and sodium
+hydroxide);
+U. Equipment used for hydraulic or hydrostatic testing with water-based hydraulic fluids;
+V. Storage tanks, reservoirs, pumping and handling equipment, and control equipment used
+to exclusively vent such equipment of any size, limited to soaps, lubricants, hydraulic
+fluid, vegetable oil, grease, animal fat, aqueous salt solutions or other materials and
+processes using appropriate lids and covers where there is no generation of
+objectionable odor or airborne particulate matter or toxic air pollutants listed in OAR
+chapter 340, division 247;
+W. Operation, loading and unloading storage of butane, propane, or liquefied petroleum gas
+with a vessel capacity less than 40,000 gallons where annual emissions are less than or
+equal to the de minimis levels;
+X. Tanks, vessels and pumping equipment, with lids or other appropriate closure for storage
+or dispensing of aqueous solutions of inorganic salts, bases and acids;
+Y. Ultraviolet curing processes, to the extent that toxic air contaminants as defined in OAR
+chapter 340, division 247 are not emitted;
+Z. Contaminant detectors, sampling devices and recorders;
+AA. Environmental chambers and humidity chambers using only gases that are not toxic air
+contaminants listed in OAR chapter 340, division 247;
+BB. Lithographic printing equipment which uses laser printing;
+CC. Equipment used exclusively for conveying and storage of plastic pellets that don’t break
+down or degrade and are only used for indoor manufacturing;
+DD. Gas cabinets using only gasses that are not regulated air pollutants;
+EE. Salt baths using nonvolatile salts and not used in operations which result in air emissions;
+FF. Paper shredding and carpet and paper shearing, fabric brushing and sueding as well as
+associated conveying systems, baling equipment, and control equipment venting such
+equipment. This exemption does not include carpet and fabric recycling operations;
+GG.Hammermills used exclusively to process aluminum and/or tin cans, and control
+equipment exclusively venting such equipment;
+HH. Drop hammers or hydraulic presses for forging or metal working; or
+II. Concrete application, and installation.
+2. Type 2 changes include construction or modification for which the owner or operator is not
+required to obtain a permit or permit modification under OAR chapter 340, division 216, and
+where the construction or modification would:
+a. Have emissions from any new, modified, or replaced device or activity, or any combination of
+devices or activities, of less than the SER defined in OAR 340-200-0020;
+b. Not result in an increase of emissions from the source above any PSEL;
+c. Not result in an increase of emissions from the source above the netting basis by more than
+or equal to the SER;
+d. Not be used to establish a federally enforceable limit on the potential to emit;
+e. Be used to establish a state-only enforceable limit on the potential to emit;
+f. Not require a TACT determination under OAR 340-226-0130 or a MACT determination under
+OAR 340-244-0200; and
+g. Not cause or contribute to a new exceedance of a National Ambient Air Quality Standard
+adopted under OAR chapter 340, division 202 for a new or replaced device or activity.
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+Glossary of terms7
+Carbon dioxide equivalent or CO2e
+
+An amount of a greenhouse gas or gases expressed as the equivalent amount of carbon dioxide, and
+shall be computed by multiplying the mass of each of the greenhouse gases by the global warming
+potential published for each gas at 40 CFR Part 98, subpart A, Table A–1—Global Warming Potentials,
+and adding the resulting value for each greenhouse gas to compute the total equivalent amount of carbon
+dioxide.
+
+Baseline emission rate
+
+The average actual emission rate during the baseline period. Baseline emission rate does not include
+increases due to voluntary fuel switches or increased hours of operation that have occurred after the
+baseline period.
+
+Baseline period
+
+Any consecutive 12 calendar month period during the calendar years 1977 or 1978 except for
+greenhouse gases. The baseline period for greenhouse gases is any consecutive 12 calendar month
+period during the calendar years 2000 through 2010. DEQ may allow the use of a prior time period upon
+a determination that it is more representative of normal source operation except for greenhouse gases.
+
+De minimis emission level
+Pollutant (refer to OAR 340-200-0020 for other pollutants)
+
+De minimis
+(tons/year, except
+as noted)
+
+Greenhouse Gases (GHG)
+
+2,756 CO2e
+
+Carbon monoxide (CO)
+
+1
+
+Nitrogen oxides (NOx)
+
+1
+
+Sulfur dioxide (SO2)
+
+1
+
+Volatile organic compounds (VOC)
+
+1
+
+Particulate matter (PM)
+
+1
+
+Particulate matter with an aerodynamic diameter less than or equal to a nominal 10
+micrometers (PM10) - except Medford AQMA
+
+1
+
+PM10 (Medford AQMA)
+
+0.5 (5.0 pounds/day)
+
+Particulate matter with an aerodynamic diameter less than or equal to a nominal
+2.5 micrometers (PM2.5)
+
+1
+
+Netting basis
+
+The baseline emission rate MINUS any emission reductions required by rule, orders, or permit conditions
+required by the State Implementation Plan or used to avoid SIP requirements, MINUS any unassigned
+emissions that are reduced from allowable under OAR 340-222-0045, MINUS any emission reduction
+credits transferred off site, PLUS any emission increases approved through the New Source Review
+regulations in OAR 340 division 224 MINUS any emissions reductions required for sources whose permits
+7 See OAR 340-200-0020 for the General Air Quality Definitions.
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+are issued after May 1, 2011 under New Source Review regulations in OAR 340 division 224, and where
+the netting basis initially equaled the potential to emit for a new or modified source, the netting basis will
+be reduced in accordance with the definition of actual emissions.
+
+Significant Emission Rate
+Pollutant (refer to OAR 340-200-0020 for other pollutants)
+
+SER (tons/year)
+
+Greenhouse Gases (GHG)
+
+75,000 CO2e
+
+Carbon monoxide (CO)
+
+100
+
+Nitrogen oxides (NOx)
+
+40
+
+Sulfur dioxide (SO2)
+
+40
+
+Volatile organic compounds (VOC)
+
+40
+
+Particulate matter (PM)
+
+25
+
+Particulate matter with an aerodynamic diameter less than or equal to a nominal
+10 micrometers (PM10) - except Medford AQMA
+
+15
+
+PM10 (Medford AQMA)
+
+5 (50 pounds/day)
+
+PM2.5
+
+10
+
+Unassigned emissions
+
+The amount of emissions that are in excess of the PSEL but less than the Netting Basis.
+Non-discrimination statement
+DEQ does not discriminate on the basis of race, color, national origin, disability, age or sex in
+administration of its programs or activities. Visit DEQ’s Civil Rights and Environmental Justice page.
+
+Translation or other formats
+
+Español | 한국어 | 繁體中文 | Pусский | Tiếng Việt | ‫اﻟﻌﺮﺑﯿﺔ‬
+800-452-4011 | TTY: 711 | deqinfo@deq.oregon.gov
+
+

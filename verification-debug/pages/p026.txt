@@ -1,0 +1,274 @@
+AIR CONSTRUCTION PERMITTING EXEMPTION for SMALL UNITS
+[567 IAC 22.1(2)”w”]
+Statements in this publication are intended solely as guidance. They cannot be used to bind the Department
+and are not a substitute for reading the applicable statutes and rules.
+
+Unless covered by this exemption or another exemption specified in 567 Iowa Administrative Code (IAC) 22.1(2),
+stationary air pollutant emitting equipment constructed, installed, reconstructed, or altered after September 23, 1970
+(April 22, 1987 for volatile organic compound (VOC) only emitting equipment), are required to obtain an air construction
+permit prior to construction or modification. This is true for all stationary equipment with air pollutant emissions that
+could be reasonably captured and vented to the atmosphere through a stack, chimney, vent, or other functionally
+equivalent opening. EPA has not defined what is considered “reasonable” regarding the capturing and venting of
+emissions. Through application, however, the definition of “reasonable” is usually based on whether emissions from
+similar equipment at other facilities are being captured and vented through a stack or vent.
+If you are uncertain about the permitting requirements for stationary equipment located at your facility, please contact
+1-877-AIR-IOWA (1-877-247-4692) for assistance.
+
+1. How was the exemption developed?
+This exemption was developed jointly by the DNR, the U.S. Environmental Protection Agency (EPA) and representatives
+of the Iowa Association of Business and Industry (ABI). The goal of all parties was to reduce the regulatory burden on
+industry while at the same time ensuring that human health and welfare are still protected. The emission units that
+could be subject to the exemptions are likely to have little or no environmental or human health consequences.
+
+2. What is an emission unit?
+An emission unit means any activity or part of an activity at a facility that emits or has the potential to emit any pollutant
+subject to regulation under the Clean Air Act.
+
+3. What does the Small Unit Exemption cover?
+The Small Unit Exemption may be used for emission units and associated control equipment (if applicable) that emit less
+than the small unit thresholds [specified in 567 IAC 22.1(2)”w”(1)] on a 12-month rolling total basis.
+The small unit thresholds are:
+ 2 pounds per year of lead and lead compounds expressed as lead;
+ 40 pounds per year of lead or lead compounds for equipment for which initiation of construction, installation,
+reconstruction, or alteration occurred on or before October 23, 2013;
+ 5 tons per year of sulfur dioxide;
+ 5 tons per year of nitrogen oxides;
+ 5 tons per year of volatile organic compounds;
+ 5 tons per year of carbon monoxide;
+ 5 tons per year of particulate matter;
+ 2.5 tons per year of PM10;
+ 0.52 tons per year of PM2.5 (does not apply to equipment for which initiation of construction, installation,
+reconstruction, or alteration occurred on or before October 23, 2013; or
+ 5 tons per year of hazardous air pollutants.
+An emission unit that emits air pollutants that are not regulated air pollutants as defined in 567 IAC 24.100 shall not be
+eligible to use this exemption.
+
+4. Can I use this exemption for existing emission units?
+Yes, the Small Unit Exemption can be used for existing, non-permitted emission units that emit less than the small unit
+emissions thresholds specified in the exemption.
+
+Air Construction Permitting Exemption for Small Units
+
+5. Can I use this exemption for emission units that have emissions that vent through a permitted emission
+point?
+No. If the emissions from a small unit vent to the atmosphere through an emission point that is permitted, then the
+small unit emissions have to be included with the permitted emissions from the emission point.
+
+6. What if I have an existing permit for an emission unit that now qualifies for the exemption?
+The existing permit will remain in effect. The Iowa DNR will not nullify an existing permit for the purpose of allowing the
+emission unit to be covered by the Small Unit Exemption [or any other exemption in 567 IAC 22.1(2)].
+
+7. If I use the Small Unit Exemption now, can I still get a construction permit in the future?
+Yes. The Iowa DNR will issue a construction permit for the emission point associated with the emission unit if the owner
+or operator of the emission unit submits an air construction permit application to the Department.
+
+8. Do I have to complete any paperwork to use the small unit exemption?
+Yes. The owner or operator must maintain an Exemption Justification Document on site for each emission unit or group
+of similar emission units to which the Small Unit Exemption is being applied. The Exemption Justification Document
+contains the information that specifies how the emission units are operated so that the emission thresholds that define
+a small unit are not exceeded.
+
+9. What is the point of having an Exemption Justification Document?
+The Exemption Justification Document acts as a construction permit. It is written by the owner or operator for the
+facility to indicate how the emission unit or group of similar emission units will be maintained and operated to remain
+below the small unit emissions thresholds. The controls and resulting emission rates specified in the Exemption
+Justification Document establish a limit on the potential emissions for that emission unit or group of similar emission
+units. This allows the controls and limits specified in the exemption justification document to be federally enforceable,
+which means that credit could be taken for use of the controls or limits in applicability determinations for programs such
+as Title V or Prevention of Significant Deterioration.
+
+10. Is there a specific format that the Exemption Justification Document has to follow?
+No, there is not a specific format that has to be used for an Exemption Justification Document. This is to give facilities
+flexibility to create exemption justification documents that best suit their needs and capabilities. The only requirement is
+that the Exemption Justification Document contains the minimum amount of information specified in the exemption.
+The Department has developed a template for the Exemption Justification Document that may be used by facilities as a
+model to develop their own exemption justification documents.
+
+11. What information do I have to include in the Exemption Justification Document?
+567 IAC 22.1(2)”w”(3) states that the Exemption Justification Document shall include the following for each applicable
+emission unit or group of similar emission units to which the Small Unit Exemption is being applied:
+i. A description of the emission unit or group of emission units;
+ii. If applicable, a description of the air pollution control equipment used on the emission unit or group of similar
+emission units;
+iii. If air pollution control equipment is used, a statement that the emission unit or group of similar emission units
+will not be operated without the air pollution control equipment;
+iv. If available, attach a report of the manufacturer’s emission test results or any other emissions testing;
+v. A description of how the emissions from the emission unit or group of similar emission units were determined
+and maintained below the annual small unit exemption levels;
+vi. A description of all production limits required for the emission unit or group of similar emission units to comply
+with the exemption levels;
+vii. Detailed calculations of emissions reflecting the use of any air pollution control devices or production or
+throughput limitations, or both;
+viii. A description of the records that will be maintained to demonstrate that the annual emissions were kept below
+the exemption levels; and
+6/2024 NLT
+
+Page 2
+
+Air Construction Permitting Exemption for Small Units
+
+ix. A certification from the responsible official that the emission unit or group of similar emission units have
+complied with the small unit exemption levels.
+Facilities designated as major sources or subject to any applicable federal requirements shall retain all records
+demonstrating compliance with the Exemption Justification Document for five years.
+
+12. Does the Iowa DNR have to review the Exemption Justification Document before it can be used?
+No. However, exemption justification documents must be submitted to the Iowa DNR upon request. In addition,
+exemption justification documents must be made available to state or EPA inspectors upon request during on-site
+inspections.
+
+13. What if I have unpermitted emission units that meet the small unit thresholds, but I do not complete the
+exemption justification documents for them?
+If the owner or operator claims that an emission unit is subject to the Small Unit Exemption, but does not complete the
+Exemption Justification Document for the emission unit, then the applicability of the Small Unit Exemption is voided for
+that particular emission unit. An air construction permit application will then have to be submitted for the emission unit
+in question.
+
+14. What if I claim a Small Unit Exemption for an emission unit and it is later discovered that the emission
+unit is exceeding the small unit thresholds?
+If the Iowa DNR believes that the emission unit is exceeding the small unit emission thresholds, then the Department
+will notify the owner or operator of the emission unit in writing and will provide supporting documentation. The owner
+or operator will have up to 60 days to respond to the Iowa DNR with information to substantiate a claim of applicability
+to the Small Unit Exemption. If the owner or operator is unable to substantiate the claim the Department’s satisfaction,
+then the owner or operator will have to apply for an air construction permit of the emission unit or cease using the
+emission unit in question within 90 days of notification by the Iowa DNR. The emission unit and any applicable control
+equipment may continue operation during this period and the associated initial application review period.
+
+15. Are any notifications to the Iowa DNR required before I start using the Small Unit Exemption?
+No notification of use of the Small Unit Exemption is required unless the emission from an emission unit will exceed the
+substantial small unit thresholds specified in the exemption. A Substantial Small Unit is a small unit which emits more
+than the following amounts, as documented in the Exemption Justification Document:
+ 2 pounds per year of lead and lead compounds expressed as lead;
+ 30 pounds per year of lead or lead compounds for equipment for which initiation of construction, installation,
+reconstruction, or alteration occurred on or before October 23, 2013;
+ 3.75 tons per year of sulfur dioxide;
+ 3.75 tons per year of nitrogen oxides;
+ 3.75 tons per year of volatile organic compounds;
+ 3.75 tons per year of carbon monoxide;
+ 3.75 tons per year of particulate matter;
+ 1.875 tons per year of PM10;
+ 0.4 tons per year of PM2.5 (does not apply to equipment for which initiation of construction, installation,
+reconstruction, or alteration occurred on or before October 23, 2013;
+ 3.75 tons per year of any hazardous air pollutant; or
+ 3.75 tons per year of any combination of hazardous air pollutants.
+The owner or operator shall notify the Department in writing at least 10 days prior to commencing construction of any
+new or modified Substantial Small Unit and within 30 days after determining that an existing small unit meets the
+criteria of the Substantial Small Unit.
+
+16. Are any notifications to the Iowa DNR required after I start using the Small Unit Exemption?
+The owner or operator is required to notify the Department within 90 days of the end of the calendar year if the
+6/2024 NLT
+
+Page 3
+
+Air Construction Permitting Exemption for Small Units
+
+combined emissions of one or more pollutants from all substantial small units at the facility will meet or exceed any of
+the following cumulative notice thresholds.
+ 0.6 tons per year of lead and lead compounds expressed as lead;
+ 40 tons per year of sulfur dioxide;
+ 40 tons per year of nitrogen oxides;
+ 40 tons per year of volatile organic compounds;
+ 100 tons per year of carbon monoxide;
+ 25 tons per year of particulate matter;
+ 15 tons per year of PM10;
+ 10 tons per year of PM2.5 (does not apply to equipment for which initiation of construction, installation,
+reconstruction, or alteration occurred on or before October 23, 2013;
+ 10 tons per year of any hazardous air pollutant; or
+ 25 tons per year of any combination of hazardous air pollutants.
+It is possible that emissions from several substantial small units could interact at one or more off property locations and
+result in exceedances of an ambient air quality standard. To minimize this possibility, the owner or operator must apply
+for air construction permits for all substantial small units for which the cumulative notice threshold for the pollutant(s)
+in question has been reached. This will allow the Department to perform engineering evaluations of the emissions and
+controls (if applicable) and evaluate the possible air quality impacts. 90 days from the date it was determined that the
+cumulative notice threshold has been reached, the owner or operator shall apply for construction permit(s).
+In addition, within five days of making this determination, the owner or operator shall submit a letter to the Department
+establishing the date that it was determined that the cumulative notice threshold had been reached.
+
+17. Is the use of the Small Unit Exemption voided for future substantial small units once a cumulative notice
+threshold has been reached?
+No. Once the substantial small units that in combination are meeting or exceeding one or more cumulative notice
+thresholds are permitted, the Substantial Small Unit “slate” is wiped clean. New or modified substantial small units could
+then be added to the facility until the cumulative notice threshold is again reached. The steps described above would
+then be followed regarding Department notification and permitting. If emissions from the previously permitted
+substantial small units were determined to result in predicted impacts that threaten the applicable national ambient air
+quality standards, then the facility will coordinate with the Iowa DNR to ensure that the addition of future substantial
+small units will not result in predicted ambient air quality exceedances before the cumulative notice threshold is
+reached.
+
+18. Does the Small Unit Exemption apply to other air permitting requirements?
+No. Owners and operators are still obligated to determine whether other air permitting requirements still apply to the
+small units and to meet these obligations as applicable. For example, if a facility has two small units that each emits 4.5
+tons of xylene (a hazardous air pollutant) and plans on adding another small unit that would emit two tons of xylene,
+then a hazardous air pollutant standard may be triggered.
+
+19. What does “required to be reviewed for compliance” with a NESHAP mean?
+A. Required to be reviewed:
+If an emission unit is subject to specific NESHAP requirements, the unit is “required to be reviewed for
+compliance” with the NESHAP. These NESHAP requirements can include maintenance or work practice
+standards, recordkeeping or reporting requirements, or operational or emission limitations, among others. An
+emission unit with these types of requirements is not eligible for the Small Unit Exemption.
+B. Not required to be reviewed:
+i. If an emission unit is subject to a NESHAP, but has no substantive NESHAP requirements, then the
+equipment is not “required to be reviewed for compliance” with the NESHAP. In these instances, the Small
+Unit Exemption may be used.
+6/2024 NLT
+
+Page 4
+
+Air Construction Permitting Exemption for Small Units
+
+Examples:
+ The equipment is subject to a NESHAP, but has no requirements.
+o Several types of engines meet this description.
+ The equipment is subject to a NESHAP, but the only requirement is an initial notification.
+ The equipment is subject to a NESHAP, but has no requirements as long as usage/throughput
+remains below specified thresholds. Recordkeeping may be associated with these thresholds.
+o An example of this is the 50 ton per day threshold in Part 63, Subpart DDDDDDD – National
+Emission Standards for Hazardous Air Pollutants for Area Sources: Prepared Feeds
+Manufacturing.
+ii. If an emission unit does not meet the applicability criteria of a NESHAP or is specifically exempted by a
+NESHAP, then the equipment is not “required to be reviewed for compliance” with the NESHAP. In these
+instances, the Small Unit Exemption may be used.
+
+20. If a unit was installed under the Small Unit Exemption prior to the promulgation of a new NESHAP, can
+the unit continue to be covered under the Small Unit Exemption? If not, what is the deadline for
+submitting a construction permit application?
+If equipment that is currently exempted through the Small Unit Exemption becomes subject to a NESHAP that requires
+review for compliance (see Question 5), the Small Unit Exemption cannot be used anymore. No later than the NESHAP
+compliance date, the facility would need to either submit a permit application for the equipment or ensure that the
+equipment is covered under a different exemption.
+
+21. Does the eligibility for the Small Unit Exemption depend on whether Iowa has adopted the specific
+NESHAP?
+No. Since Iowa may become the delegated authority for any given NESHAP in the future, it would be unnecessarily
+confusing to have different Small Unit Exemption eligibility for any NESHAP that Iowa has not yet adopted.
+
+22. Who can use this exemption? Can Title V sources use it?
+Any facility, including Title V sources, may use this exemption provided that the affected emission units are not required
+to be reviewed for compliance with any National Emission Standards for Hazardous Air Pollutants (NESHAP). For help
+with a determination, please call the Construction Permitting Assistance Line at 1-877- 247-4692.
+
+23. Are emission units covered under the Small Unit Exemption considered “insignificant activities for Title V
+purposes?
+Yes, if they meet the criteria listed in 567 IAC 24.103. The small unit thresholds and the Title V “insignificant activity”
+thresholds are the same, with the exception of the thresholds for hazardous air pollutants (HAPs) (see 567 IAC
+24.103(2)”a”). Also, note that since the Exemption Justification Document is an enforceable document, emission
+units covered under the Small Unit Exemption will need to be identified by the facility and will be noted in the Title V
+operating permit.
+
+24. Do emissions from the emission units covered under the Small Unit Exemption have to be included on
+the Form EI (Plant Emissions Inventory)?
+Like other exemptions, emissions from all emission units that utilize the Small Unit Exemption must be included on the
+Form EI when completing a construction permit application for emission units that will be permitted at the facility.
+
+25. Where can I find a list of all exemptions?
+Exemptions are listed in subrule 22.1(2) of 567 Iowa Administrative Code. The administrative rules are easily accessed
+on-line (https://www.legis.iowa.gov/law/administrativeRules/agencies). Go to 567 (Environmental Protection
+Commission) and to Chapter 22. The exemptions are listed close to the beginning of the chapter.
+The administrative rules may also be obtained at the Records Center of the Iowa DNR.
+6/2024 NLT
+
+Page 5
+
+

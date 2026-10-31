@@ -1,0 +1,220 @@
+SIP Permit Exemptions | Environmental Protection Division 
+Skip to main content
+An official website of the State of Georgia. 
+How you know
+English 
+Organizations
+The .gov means it’s official.
+Local, state, and federal government websites often end in .gov. State of Georgia government websites and email systems use “georgia.gov” or “ga.gov” at the end of the address. Before sharing sensitive or personal information, make sure you’re on an official state website.
+Still not sure?
+Call 1-800-GEORGIA to verify that a website is an official website of the State of Georgia.
+Environmental Protection
+Division
+Search 
+Close 
+Menu 
+Main navigation
+About EPD 
+Subnavigation toggle for About EPD 
+Contact Us 
+Air Protection 
+Land Protection 
+Watershed Protection 
+District Offices 
+EPD Laboratory Operations 
+Forms & Permits 
+Subnavigation toggle for Forms & Permits 
+eServices 
+Air Forms & Permits 
+Land Forms & Permits 
+Watershed Forms & Permits 
+Rules, Laws & Enforcement 
+Subnavigation toggle for Rules, Laws & Enforcement 
+Existing Rules & Laws 
+Enforcement 
+Complaint Tracking System 
+Public Announcements 
+Subnavigation toggle for Public Announcements 
+Outreach 
+News Releases 
+Proposed Rules 
+Air Announcements 
+Land Announcements 
+Watershed Announcements 
+Coal Ash Information 
+Emergency Response 
+Header Utility Narrow
+Search this site
+Enter your keywords 
+Popular searches
+Mission Statement 
+Organization of the office 
+History 
+Meeting Requests 
+Key Staff 
+Duties of the Office 
+Event Requests 
+Contact 
+Breadcrumb
+Home 
+<?xml version="1.0" encoding="UTF-8"?>
+SIP Permit Exemptions
+SIP Permit Exemptions
+Georgia Air Quality Rule 391-3-1-.03(6)(i)3
+Georgia Air Quality Rule 391-3-1-.03(6)(i)3 provides an exemption from permitting for a modification or modifications that meet the requirements of the rule. If a modification or a consecutive set of unpermitted modifications have cumulative potential emission increases less than the thresholds indicated in the rule, permitting action can be deferred under Rule 391-3-1-.03(6)(i)3.
+When the cumulative potential emission increases for a pollutant reaches the threshold for that pollutant, permitting action must occur for the modification(s).
+The forms available on this page are to be completed when a facility is making a modification and claiming an exemption under Georgia Air Quality Rule 391-3-1-.03(6)(i)3. The form consists of two Microsoft Word™ documents in a Zip file. Both forms must be submitted to the Air Protection Branch for a " No Permit Required " determination to be made.
+Unless otherwise required by the Director, SIP permits shall not be required for the following source activities. These exemptions may not be used to avoid any emission limitations or standards of the Rules for Air Quality Control Chapter 391-3-1-.02, lower the potential to emit below “major source” thresholds or to avoid any “applicable requirement” (i.e., NSPS, NESHAP, etc.) as defined in 40 CFR Part 70.2
+(a) Mobile Sources
+Mobile sources, such as automobiles, trucks, buses, locomotives, airplanes, boats and ships, whether or not designated as subject to mandatory inspection, maintenance, or emission requirements pursuant O.C.G.A. Section 12-9-40, et seq., as amended, the Georgia Motor Vehicle Emission Inspection and Maintenance Act. This exemption relates only to the requirement for a permit issued under the Act, not to any other requirement under the Act, and in no way affects any requirement for a permit, license, or a certificate under any other law. This limited exemption from the permit requirements of the Act shall in no way affect the applicability of any other requirement related to mobile sources, or any other requirement or limitation which may affect mobile sources.
+(b) Combustion Equipment
+Fuel-burning equipment having a total heat input capacity of less than 10 million BTUs per hour burning only natural gas, LPG and/or distillate fuel oil containing 0.50% sulfur by weight or less.
+Fuel-burning equipment rated at less than 5 million BTUs per hour burning a wood or fossil fuel.
+Any fuel-burning equipment with a rated input capacity of 2.5 million BTUs per hour or less.
+Equipment used for cooking food for immediate human consumption.
+Blacksmith forges.
+Clean steam condensate and steam relief vents.
+Funeral homes and crematories of any size.
+Air curtain destructor used for land clearing at a construction site.
+Open burning.
+Small incinerators operating as follows: (i) less than 8 million BTUs per hour input, firing types 0, 1, 2 and/or 3 waste; or
+(ii) less than 8 million BTUs per hour input with no more than 10% pathological (type 4) waste by weight combined with types 0, 1, 2 and/or 3 waste; or
+(iii) less than 4 million BTUs per hour heat input firing Type 4 waste.
+Stationary engines (i) Burning natural gas, LPG, gasoline, dual fuel, or diesel fuel which are used exclusively as emergency generators;
+(ii) Burning natural gas, LPG, and/or diesel fuel and used for peaking power (including emergency generators used for peaking power) where the peaking power use does not exceed 200 hours-per-year except in the counties of Banks, Barrow, Bartow, Butts, Carroll, Chattooga, Cherokee, Clarke, Clayton, Cobb, Coweta, Dawson, DeKalb, Douglas, Fayette, Floyd, Forsyth, Fulton, Gordon, Gwinnett, Hall, Haralson, Heard, Henry, Jackson, Jasper, Jones, Lamar, Lumpkin, Madison, Meriwether, Monroe, Morgan, Newton, Oconee, Paulding, Pickens, Pike, Polk, Putnam, Rockdale, Spalding, Troup, Upson, and Walton where such engines with a rated capacity equal to or greater than 100 kilowatts are not exempt; or
+(iii) Used for other purposes provided that the total horsepower of all non-gasoline burning engines combined are less than 1500 engine horsepower and no individual engine operates for more than 1000 hours-per-year; or
+(iv) Used for other purposes provided that the total horsepower of all gasoline burning engines combined are less than 225 horsepower and no individual engine operates for more than 1000 hours-per-year.
+(v) For the purpose of this subsection, the following definitions shall apply:
+(I) An “emergency generator” means a generator whose function is to provide back-up power when electric power from the local utility is interrupted and which operates for less than 500 hours-per-year, except in the counties of Banks, Barrow, Bartow, Butts, Carroll, Chattooga, Cherokee, Clarke, Clayton, Cobb, Coweta, Dawson, DeKalb, Douglas, Fayette, Floyd, Forsyth, Fulton, Gordon, Gwinnett, Hall, Haralson, Heard, Henry, Jackson, Jasper, Jones, Lamar, Lumpkin, Madison, Meriwether, Monroe, Morgan, Newton, Oconee, Paulding, Pickens, Pike, Polk, Putnam, Rockdale, Spalding, Troup, Upson, and Walton where such generator operates less than 200 hours-per-year.
+(II) “Used for peaking power” means used to reduce the electrical power requirements on the local utility grid. This could be for supplying power during the local utility’s peak demand periods, or for peak shaving by the facility.
+Boiler water treatment operations.
+Fire fighting equipment including fire pumps or other emergency/safety equipment used to train fire fighters.
+Temporary stationary engines used to generate electricity that are used to replace main stationary engines during periods of maintenance or repair (provided the actual and potential emissions of the temporary sources do not exceed that of the main sources).
+Temporary fuel-burning equipment (i.e., boilers) that are used to replace main fuel-burning equipment during periods of maintenance or repair (provided the actual and potential emissions of the temporary sources do not exceed that of the main sources.) Temporary fuel-burning equipment that remains at a location for more than 180 consecutive days is no longer considered to be a temporary boiler. Temporary fuel-burning equipment that replaces temporary fuel-burning equipment at a location and is intended to perform the same or similar function will be included in calculating the consecutive time period.
+Onsite air curtain incinerators with mist controls used for the purpose of decontamination and disposal of livestock and materials contaminated with the avian flu virus where on-site composting and burial are not viable methods of disposal.
+(c) Storage Tanks
+All petroleum liquid storage tanks storing a liquid with a true vapor pressure of equal to or less than 0.50 psia as stored.
+All petroleum liquid storage tanks with a capacity of less than 40,000 gallons storing a liquid with a true vapor pressure of equal to or less than 2.0 psia as stored.
+All petroleum liquid storage tanks with a capacity of less than 10,000 gallons storing a petroleum liquid.
+Pressurized vessels designed to operate in excess of 30 psig storing a petroleum fuel.
+Gasoline storage and handling equipment at loading facilities handling less than 20,000 gallons per day or at vehicle dispensing facilities.
+Portable drums and barrels provided that the volume of each container does not exceed 550 gal.
+All chemical storage tanks used to store a chemical with a true vapor pressure of less than or equal to 10 millimeters of mercury.
+(d) Agricultural Operations
+Farm equipment used for soil preparation, livestock handling, crop tending and harvesting and for other farm related activities.
+Herbicide and pesticide mixing and application activities for on site use.
+(e) Maintenance, Cleaning & Housekeeping
+Heating, air conditioning and ventilation systems not designed to remove air contaminants generated by or released from process or fuel-burning equipment.
+Routine housekeeping activities such as painting buildings, roofing or paving parking lots, all clerical activities and all janitorial activities.
+Maintenance activities such as: vehicle repair shops, brazing, soldering and welding equipment, carpenter shops, electrical charging stations, grinding and polishing operations maintenance shop vents, miscellaneous non-production surface cleaning, preparation and painting operations.
+Miscellaneous activities such as: aerosol spray cans; air compressors; cafeteria vents; copying, photographic and blueprint machines; decommissioned equipment; dumpsters; fire training activities; fork lifts; railroad flares; refrigerators; space heaters.
+Cold storage refrigeration equipment.
+Vacuum-cleaning systems used exclusively for industrial, commercial, or residential housekeeping purposes.
+Equipment used for portable steam cleaning.
+Blast-cleaning equipment using a suspension of abrasive in water and any exhaust system or collector serving them exclusively.
+Portable blast-cleaning equipment.
+Laundry dryers, extractors, or tumblers for fabric cleaned with only water solutions of bleach or detergents.
+Non-Perchloroethylene Dry-cleaning equipment with a capacity of 100 pounds per hour or less of clothes.
+Cold cleaners having an air/vapor interface of not more than 10 square feet and that do not use a halogenated solvent.
+Steam sterilizers.
+Portable equipment used for the on site painting of buildings, towers, bridges and roads.
+Non-routine clean out of tanks and equipment for the purposes of worker entry or in preparation for maintenance or decommissioning.
+Equipment used for the washing or drying of fabricated products provided that no VOCs are used in the process and that no oil or solid fuels are burned.
+Devices used exclusively for cleaning metal parts or surfaces by burning off residual amounts of paint, varnish, or other foreign material, provided that such devices are equipped with afterburners.
+Fresh water cooling towers provided that the total potential emissions from the entire source remain below 10 tons per year of any single hazardous air pollutant and below 25 tons per year of any combination of hazardous air pollutants.
+(f) Laboratories and Testing
+Laboratory equipment used exclusively for chemical or physical analyses;
+Sampling connections used exclusively to withdraw materials for testing and analysis, including air contaminant detectors and vent lines;
+Vacuum producing devices;
+Research and development facilities, quality control testing facilities and/or small pilot projects, where combined daily emissions from all operations are below all of the following thresholds: (i) Less than 125 pounds per day of carbon monoxide;
+(ii) Less than 0.8 pounds per day of lead;
+(iii) Less than 50 pounds per day of particulate matter, PM10, or sulfur dioxide;
+(iv) Less than 50 pounds per day of nitrogen oxides or VOCs except in the Counties of Cherokee, Clayton, Cobb, Coweta, DeKalb, Douglas, Fayette, Forsyth, Fulton, Gwinnett, Henry, Paulding, or Rockdale, where less than 15 pounds per day of nitrogen oxides; or VOCs; and
+(v) Less than 5 pounds per day of any single hazardous air pollutant and less than 12.5 pounds per day of any combination of hazardous air pollutants.
+(g) Pollution Control
+Sanitary wastewater collection and treatment systems, except incineration equipment, that are not subject to any standard, limitation or other requirement under section 111 or section 112 (excluding section 112(r)) of the federal Clean Air Act.
+On site soil or groundwater decontamination units that are not subject to any standard, limitation or other requirement under Section 111 or 112 [excluding 112(r)] of the Federal Act.
+Bioremediation operations.
+Garbage compactors and garbage handling equipment.
+Municipal Solid Waste Landfills which meet the following criteria: (i) The total design capacity of the landfill is less than or equal to 2.756 million tons (2.5 million megagrams) or 3.27 million cubic yards (2.5 million cubic meters) of solid waste; and
+(ii) The emissions of VOC are less than 25 tons per year for landfills located within Cherokee, Clayton, Cobb, Coweta, DeKalb, Douglas, Fayette, Forsyth, Fulton, Gwinnett, Henry, Paulding, or Rockdale counties; and
+(iii) The emissions of nitrogen oxides (NOX) from operations other than the final control device are less than 25 tons per year for landfills located within Cherokee, Clayton, Cobb, Coweta, DeKalb, Douglas, Fayette, Forsyth, Fulton, Gwinnett, Henry, Paulding, or Rockdale counties.
+(h) Industrial Operations
+Concrete block, brick plants, concrete products plants, and ready mix concrete plants producing less than 125,000 tons per year of product.
+Small aluminum scrap metal reclaimers (non-smelters).
+Any of the following processes or process equipment which are electrically heated or which fire natural gas, LPG or distillate (#2) fuel oil at a maximum total heat input rate of not more than 10 million BTUs per hour. (i) Furnaces for heat treating glass or metals, the use of which does not involve molten materials, oil-coated parts, or oil quenching.
+(ii) Porcelain enameling furnaces or porcelain enameling drying ovens.
+(iii) Kilns for firing ceramic ware.
+(iv) Crucible furnaces, pot furnaces, or induction melting and holding furnaces with a capacity of 1,000 pounds or less each, in which sweating or distilling is not conducted and in which fluxing is not conducted utilizing free chlorine, chloride or fluoride derivatives, or ammonium compounds.
+(v) Bakery ovens and confection cookers.
+(vi) Feed mill or grain mill ovens.
+(vii) Surface coating drying ovens.
+Grain, metal, or mineral extrusion process.
+Equipment used exclusively for rolling, forging, pressing, stamping, spinning, or extruding either hot or cold metals or plastic such as drop hammers or hydraulic presses for forging or metalworking.
+Die casting machines.
+Equipment used exclusively for sintering of glass or metals, but not exempting equipment used for sintering metal-bearing ores, metal scale, clay, fly ash, or metal compounds.
+Equipment for the mining and screening of uncrushed native sand and gravel.
+Ozonization process or process equipment.
+Electrostatic powder coating booths with an appropriately designed and operated particulate control system.
+Equipment used for the application of a hot melt adhesive.
+Equipment used exclusively for mixing and blending water-based adhesives and coating at ambient temperatures.
+Equipment used for compression, molding and injection of plastics.
+Wood products operations in the following SIC categories (combustion equipment and coatings operations are not included in this exemption): (i) 2426 Dimensional Hardwood Lumber Mills
+(ii) 2431 Lumber Millwork
+(iii) 2434 Wood Kitchen Cabinets
+(iv) 2439 Structural Wood Trusses
+(v) 2441 Wood Boxes
+(vi) 2448 Wood Pallets
+(vii) 2449 Wood Containers
+(viii) 2499 Miscellaneous Wood Products
+Industrial process equipment used exclusively for educational purposes at educational institutions.
+(i) Other
+Facilities where the combined emissions from all non-exempt source activities [i.e., not listed in 391-3-1-.03(6)(a)-(h)] are below the following for all pollutants: (i) 50 tons per year of carbon monoxide;
+(ii) 300 pounds per year of lead total; with a 3.0 pound per day maximum emission;
+(iii) 20 tons per year of particulate matter, PM10, or sulfur dioxide;
+(iv) 20 tons per year of nitrogen oxides or VOCs except in the counties of Cherokee, Clayton, Cobb, Coweta, DeKalb, Douglas, Fayette, Forsyth, Fulton, Gwinnett, Henry, Paulding, or Rockdale, where less than 5 tons per year of nitrogen oxides or VOCs is exempted; and
+(v) 2 tons per year total with a 15 pound per day maximum emission of any single hazardous air pollutant and less than 5 tons per year of any combination of hazardous air pollutants.
+Facilities where the combined emissions from all source activities are below the thresholds in “1” above for one or more pollutants, are not required to list those pollutants in the permit application.
+Cumulative modifications not covered in an existing permit to an existing permitted facility where the combined emission increases (excluding any contemporaneous emission decreases, i.e., “netting” is not allowed) from all nonexempt modified activities are below the following thresholds for all pollutants: (i) 25 tons per year of carbon monoxide;
+(ii) 150 pounds-per-year total with a 1.5 pound-per-day maximum emission of lead;
+(iii) 10 tons per year of particulate matter, PM10 or sulfur dioxide;
+(iv) 10 tons per year of nitrogen oxides or VOCs except in the counties of Cherokee, Clayton, Cobb, Coweta, DeKalb, Douglas, Fayette, Forsyth, Fulton, Gwinnett, Henry, Paulding, or Rockdale, where less than 2.5 tons per year of nitrogen oxides or VOCs is exempted; and
+(v) 2 tons per year total with a 15 pound per day maximum emission of any single hazardous air pollutant and less than 5 tons per year of any combination of hazardous air pollutants.
+As an alternative to subparagraph 3, cumulative modifications not covered in an existing permit to an existing permitted facility where the combined emissions increases, including any contemporaneous emission decreases (i.e., “netting is allowed”) from all nonexempt modified activities are less than 10 tons per year of particulate matter and PM10. For the purpose of this subparagraph, “contemporaneous” means within that period beginning on the date of issuance of the most recent permit through the date of reissuance of such permit. This shall exclude any amendment to such permit unless such amendment incorporates the previously exempted modification(s) in which case the amendment shall be considered a reissuance of such permit for the purpose of this subparagraph. Facilities using this exemption shall maintain records of all emissions increases and decreases and shall notify the Division, in writing, within 7 days after making any modification covered by this subparagraph. The Division may require the use of a Division approved form for tracking the emissions increases and decreases. If a facility elects to use this subparagraph in lieu of subparagraph 3, it shall not use subparagraph 3 with respect to particulate matter and PM10 until such time that all modifications exempted from SIP permitting under subparagraph 4 have been incorporated into the permit. A facility may use subparagraph 3 with respect to any pollutant other than particulate matter and PM10 while using this subparagraph. Only the following facilities are eligible for this exemption: (i) Facilities with an SIC code of 1422 or 1423 that are not a major source subject to the provisions of 391-3-1-.03(10) (i.e., a minor or synthetic minor source).
+Changes in a process or process equipment which do not involve installing, constructing, or reconstructing an emission unit or the primary air cleaning device of an air pollution control system provided that such changes do not result in the increase of emissions from any emission unit or the emissions of a pollutant not previously emitted. Examples of such changes in a process or process equipment include the following: (i) Change in the supplier or formulation of similar raw materials, fuels, or paints and other coatings;
+(ii) Changes in product formulations;
+(iii) Change in the sequence of the process;
+(iv) Change in the method of raw material addition;
+(v) Change in the method of product packaging;
+(vi) Change in process operating parameters;
+(vii) Replacement of a fuel burner in a boiler with a more efficient burner; or
+(viii) Lengthening a paint drying oven to provide additional curing time.
+Sources of minor significance as specified by the Director.
+Sources for which there is no applicable emission limit, standard or other emission requirement established under, by, or pursuant to the Act.
+(j) Construction Permit Exemption for Pollution Control Projects
+Projects listed in subparagraph 391-3-1-.01(qqqq)1. through 8. of these rules are exempt from the requirement to obtain a construction (SIP) permit as specified in paragraph 391-3-1-.03(1) of this rule provided that the project is not subject to the provisions of paragraph 391-3-1-.02(7), Prevention of Significant Deterioration of Air Quality, or the non-attainment new source review permitting requirements of subparagraph 391-3-1-.03(8)(c). The Director has the authority to rebut the presumption that projects listed in subparagraphs (qqqq)1. through 8. are environmentally beneficial in accordance with the criteria specified in subparagraph (qqqq) and thus exempt from the requirement to obtain a construction (SIP) permit. Owners and operators of projects exempt from the requirement to obtain a construction (SIP) permit under this subparagraph (6)(j) shall obtain an operating permit or amendment under either paragraph 391-3-1-.03(2) or 391-3-1-.03(10) of this rule, whichever is applicable, prior to commencement of operation of the project.
+Environmental Protection
+Division 
+How can we help?
+Call Us
+Air Branch Phone/Fax: (404) 363-7000 
+Land Branch Phone/Fax: (404) 657-8600 
+Watershed Branch Phone/Fax: (404) 463-1511 
+Email Us
+[email protected] 
+Visit
+2 Martin Luther King Jr. Drive SE Suite 1456, East Tower 
+Atlanta, GA 30334 US
+Hours
+Monday to Friday, 
+08:00 a.m. - 04:30 p.m.
+Eastern Time Zone
+Related Links
+Careers
+Georgia Department of Natural Resources
+© Georgia.gov 
+Accessibility 
+Privacy/Security 
+Website powered by GovHub 
+Human Trafficking Notice 
+Georgia Web Analytics
