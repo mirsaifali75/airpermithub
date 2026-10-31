@@ -1,0 +1,26 @@
+{
+ "f001.txt": {
+  "url": "https://dep.nj.gov/aqm/rules/rules27/",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/aqm/rules/rules27/",
+  "type": "text/html",
+  "title": "NJDEP| Air Quality Regulation | Chapter 27",
+  "length": 9018
+ },
+ "f002.txt": {
+  "url": "https://deq.wyoming.gov/?s=oil+and+gas+guidance",
+  "status": 500,
+  "finalUrl": "https://deq.wyoming.gov/?s=oil+and+gas+guidance",
+  "type": "text/html",
+  "title": "You searched for oil and gas guidance - Wyoming Department of Environmental Quality",
+  "length": 11208
+ },
+ "f003.txt": {
+  "url": "https://deq.wyoming.gov/aqd/oil-and-gas-methane-rule/",
+  "status": 200,
+  "finalUrl": "https://deq.wyoming.gov/aqd/oil-and-gas-methane-rule/",
+  "type": "text/html",
+  "title": "Oil and Gas Methane Rule - Wyoming Department of Environmental Quality",
+  "length": 8399
+ }
+}
