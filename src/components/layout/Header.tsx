@@ -5,10 +5,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Logo } from "@/components/brand/Logo";
-import { SearchDialog } from "@/components/search/SearchDialog";
+import { SearchDialog, preloadSearchIndex } from "@/components/search/SearchDialog";
 import { buttonClass } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
-import type { SearchDoc } from "@/lib/search";
 import { primaryNav, resourcesMenu } from "@/lib/site";
 
 const mobilePriority = [
@@ -20,7 +19,7 @@ const mobilePriority = [
   { label: "Permit Library", href: "/permits", icon: FileSearch },
 ];
 
-export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
+export function Header() {
   const pathname = usePathname();
   const isHome = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
@@ -128,6 +127,8 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
           <div className="ml-auto flex items-center gap-2">
             <button
               onClick={() => setSearchOpen(true)}
+              onPointerEnter={preloadSearchIndex}
+              onFocus={preloadSearchIndex}
               className="inline-flex h-10 w-10 items-center justify-center rounded-xl text-white/85 hover:bg-white/10 hover:text-white"
               aria-label="Search (Ctrl+K)"
             >
@@ -183,7 +184,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
           </div>
         )}
       </header>
-      <SearchDialog index={searchIndex} open={searchOpen} onClose={closeSearch} />
+      <SearchDialog open={searchOpen} onClose={closeSearch} />
     </>
   );
 }

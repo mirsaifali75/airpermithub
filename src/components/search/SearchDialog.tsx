@@ -3,16 +3,38 @@
 import { ArrowRight, CornerDownLeft, Search, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
-import { exampleQueries, search, type SearchDoc } from "@/lib/search";
+import { exampleQueries, quickLinks, search, type SearchDoc } from "@/lib/search";
+
+let indexRequest: Promise<SearchDoc[]> | null = null;
+/** The index is a static file fetched once, when search is first used, so pages don't carry it. */
+export function preloadSearchIndex() {
+  indexRequest ??= fetch("/search-index.json")
+    .then((r) => (r.ok ? (r.json() as Promise<SearchDoc[]>) : Promise.reject(new Error(`HTTP ${r.status}`))))
+    .catch((e) => {
+      indexRequest = null;
+      throw e;
+    });
+  return indexRequest;
+}
 
 /** Command-palette style global search. Opens with the header button or Ctrl/⌘ + K. */
-export function SearchDialog({ index, open, onClose }: { index: SearchDoc[]; open: boolean; onClose: () => void }) {
+export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [q, setQ] = useState("");
   const [active, setActive] = useState(0);
+  const [index, setIndex] = useState<SearchDoc[] | null>(null);
+  const [failed, setFailed] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
   const listId = useId();
-  const results = useMemo(() => search(index, q).slice(0, 8), [index, q]);
+  const results = useMemo(() => (index ? search(index, q).slice(0, 8) : []), [index, q]);
+
+  useEffect(() => {
+    if (!open || index) return;
+    let live = true;
+    setFailed(false);
+    preloadSearchIndex().then((i) => live && setIndex(i), () => live && setFailed(true));
+    return () => { live = false; };
+  }, [open, index]);
 
   useEffect(() => {
     if (!open) return;
@@ -77,7 +99,18 @@ export function SearchDialog({ index, open, onClose }: { index: SearchDoc[]; ope
         </div>
 
         {q.trim() === "" ? (
-          <div className="p-4">
+          <div className="space-y-4 p-4">
+            <div>
+              <p className="mb-2 text-xs font-semibold tracking-wider text-muted uppercase">Go to</p>
+              <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
+                {quickLinks.map((l) => (
+                  <button key={l.href} onClick={() => go(l.href)} className="flex items-center justify-between rounded-xl border border-line px-3 py-2 text-left text-sm font-semibold text-ink hover:border-brand-200 hover:bg-brand-50 hover:text-brand-700">
+                    {l.label} <ArrowRight className="h-3.5 w-3.5 text-slate-400" aria-hidden="true" />
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div>
             <p className="mb-3 text-xs font-semibold tracking-wider text-muted uppercase">Try searching</p>
             <div className="flex flex-wrap gap-2">
               {exampleQueries.map((ex) => (
@@ -90,12 +123,13 @@ export function SearchDialog({ index, open, onClose }: { index: SearchDoc[]; ope
                 </button>
               ))}
             </div>
+            </div>
           </div>
         ) : (
           <ul id={listId} role="listbox" className="max-h-[50vh] overflow-y-auto p-2">
             {results.length === 0 && (
               <li className="px-3 py-6 text-center text-sm text-muted">
-                No matches yet. Press Enter to see all results for “{q}”.
+                {index ? <>No matches. Try a state, a rule such as “OOOOb” or “60.5365b”, or a piece of equipment.</> : failed ? <>Search didn&apos;t load. Press Enter to search on the results page.</> : "Loading search…"}
               </li>
             )}
             {results.map((r, idx) => (

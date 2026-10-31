@@ -32,8 +32,15 @@ export function getRule(program: string, slug: string) {
   return listRules().find((r) => programForPart[r.part] === program && ruleSlug(r.subpart) === slug);
 }
 
+/** First and last numbered section of a subpart (e.g. 60.5360b, 60.5439b), for citation lookups. */
+function sectionRange(ids: (string | null | undefined)[]): [string, string] | null {
+  const num = (id: string) => Number(id.split(".")[1]?.replace(/[a-z]+$/i, ""));
+  const ok = ids.filter((id): id is string => !!id && /^\d+\.\d+[a-z]*$/i.test(id)).sort((a, b) => num(a) - num(b));
+  return ok.length ? [ok[0], ok[ok.length - 1]] : null;
+}
+
 /** Small summary for search and listings, safe to send to the browser. */
 export function ruleSummaries() {
-  return listRules().map((r) => ({ part: r.part, subpart: r.subpart, heading: r.heading, shortHeading: r.shortHeading, aka: r.meta.aka ?? [], category: r.meta.category, also: r.meta.also ?? [], latestAmendment: r.latestAmendment }));
+  return listRules().map((r) => ({ part: r.part, subpart: r.subpart, heading: r.heading, shortHeading: r.shortHeading, aka: r.meta.aka ?? [], category: r.meta.category, also: r.meta.also ?? [], latestAmendment: r.latestAmendment, sectionRange: sectionRange(r.sections.map((x) => x.id)) }));
 }
 export type RuleSummary = ReturnType<typeof ruleSummaries>[number];
