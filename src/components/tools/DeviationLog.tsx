@@ -4,13 +4,23 @@ import { CheckCircle2, CircleDot, Download, Pencil, Plus, Printer, Trash2, X } f
 import { useId, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
-import { deviationsCsv, groupByPeriod, type Deviation } from "@/lib/tools/deviations";
+import { localDate } from "@/lib/csv";
+import { deviationsCsv, groupByPeriod, promptDeadline, promptLabels, type Deviation, type PromptRule, type PromptStatus } from "@/lib/tools/deviations";
 import { NumberField, csvFileName, downloadText, field, labelCls, useStoredState } from "./shared";
 
-interface LogState { cycle: 3 | 6 | 12; startMonth: number; items: Deviation[] }
+interface LogState { cycle: 3 | 6 | 12; startMonth: number; items: Deviation[]; rules?: PromptRule[] }
+
+const promptTone: Record<PromptStatus, string> = {
+  "no-rule": "bg-canvas text-slate-600",
+  incomplete: "bg-amber-50 text-amber-800",
+  "on-time": "bg-eco-50 text-eco-700",
+  late: "bg-red-50 text-red-700",
+  due: "bg-brand-50 text-brand-700",
+  overdue: "bg-red-50 text-red-700",
+};
 
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-const empty = (): Omit<Deviation, "id"> => ({ start: "", end: "", unit: "", requirement: "", description: "", cause: "", corrective: "", durationHours: null, pollutants: "", excessEstimate: "", reportedOn: "", status: "open" });
+const empty = (): Omit<Deviation, "id"> => ({ start: "", end: "", unit: "", requirement: "", description: "", cause: "", corrective: "", durationHours: null, pollutants: "", excessEstimate: "", reportedOn: "", status: "open", discovered: "", ruleId: "" });
 
 /** Deviation log grouped by the permit's reporting periods. Entries stay in this browser. */
 export function DeviationLog() {
@@ -20,6 +30,11 @@ export function DeviationLog() {
   const [editing, setEditing] = useState<string | null>(null);
   const [formOpen, setFormOpen] = useState(false);
   const groups = groupByPeriod(s.items, s.startMonth, s.cycle);
+  const rules = s.rules ?? [];
+  const today = localDate();
+  const setRules = (next: PromptRule[]) => setS((p) => ({ ...p, rules: next }));
+  const setRule = (id: string, patch: Partial<PromptRule>) => setRules(rules.map((r) => (r.id === id ? { ...r, ...patch } : r)));
+  const attention = s.items.map((x) => ({ x, p: promptDeadline(x, rules, today) })).filter((y) => y.p.status === "due" || y.p.status === "overdue").sort((a, b) => (a.p.due ?? "").localeCompare(b.p.due ?? ""));
   const d = (patch: Partial<Deviation>) => setDraft((p) => ({ ...p, ...patch }));
 
   const save = (e: React.FormEvent) => {
@@ -43,7 +58,7 @@ export function DeviationLog() {
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 id={`${uid}-a`} className="text-lg font-bold text-ink">Reporting periods</h2>
           <div className="flex flex-wrap gap-2">
-            <Button size="sm" variant="subtle" disabled={!s.items.length} onClick={() => downloadText(csvFileName("deviation-log"), deviationsCsv(s.items, s.startMonth, s.cycle))}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
+            <Button size="sm" variant="subtle" disabled={!s.items.length} onClick={() => downloadText(csvFileName("deviation-log"), deviationsCsv(s.items, s.startMonth, s.cycle, rules, today))}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
             <Button size="sm" variant="subtle" disabled={!s.items.length} onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print</Button>
           </div>
         </div>
@@ -64,6 +79,37 @@ export function DeviationLog() {
           </div>
         </div>
         <p className="mt-3 text-xs text-muted">Set these to match the reporting periods in your permit. The permit defines what counts as a deviation and which ones need prompt reporting.</p>
+      </section>
+
+      <section className="no-print rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-pr`}>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 id={`${uid}-pr`} className="text-lg font-bold text-ink">Prompt reporting deadlines</h2>
+          <Button size="sm" variant="subtle" disabled={rules.length >= 20} onClick={() => setRules([...rules, { id: `pr-${Date.now().toString(36)}`, name: "", amount: null, unit: "days", from: "discovery", source: "" }])}><Plus className="h-4 w-4" aria-hidden="true" /> Add a deadline</Button>
+        </div>
+        <p className="mt-1 text-sm text-muted">Part 70 requires prompt reporting but leaves the period to the permitting authority, so nothing is prefilled. Enter each deadline as your permit or state rule states it, with where it is written. Then pick one when you log a deviation.</p>
+        {rules.length === 0 ? <p className="mt-3 text-sm text-slate-700">No deadlines entered yet.</p> : (
+          <ul className="mt-4 space-y-3">
+            {rules.map((r, i) => (
+              <li key={r.id} className="grid gap-3 rounded-xl bg-canvas p-3 sm:grid-cols-2 lg:grid-cols-[2fr_6rem_7rem_9rem_2fr_auto]">
+                <div><label htmlFor={`${uid}-rn${i}`} className={labelCls}>Name</label><input id={`${uid}-rn${i}`} className={field} value={r.name} placeholder="e.g., Condition 3.4 deviation report" onChange={(e) => setRule(r.id, { name: e.target.value })} /></div>
+                <div><label htmlFor={`${uid}-ra${i}`} className={labelCls}>Within</label><NumberField id={`${uid}-ra${i}`} value={r.amount} onChange={(v) => setRule(r.id, { amount: v })} /></div>
+                <div><label htmlFor={`${uid}-ru${i}`} className={labelCls}>Unit</label><select id={`${uid}-ru${i}`} className={field} value={r.unit} onChange={(e) => setRule(r.id, { unit: e.target.value as PromptRule["unit"] })}><option value="days">calendar days</option><option value="hours">hours</option></select></div>
+                <div><label htmlFor={`${uid}-rf${i}`} className={labelCls}>Counted from</label><select id={`${uid}-rf${i}`} className={field} value={r.from} onChange={(e) => setRule(r.id, { from: e.target.value as PromptRule["from"] })}><option value="discovery">discovery</option><option value="start">start of deviation</option></select></div>
+                <div><label htmlFor={`${uid}-rs${i}`} className={labelCls}>Where it is written</label><input id={`${uid}-rs${i}`} className={field} value={r.source} placeholder="Permit condition or rule citation" onChange={(e) => setRule(r.id, { source: e.target.value })} /></div>
+                <button type="button" aria-label={`Remove deadline ${r.name || i + 1}`} onClick={() => setRules(rules.filter((y) => y.id !== r.id))} className="self-end rounded p-2 text-muted hover:bg-red-50 hover:text-red-700"><Trash2 className="h-4 w-4" aria-hidden="true" /></button>
+              </li>
+            ))}
+          </ul>
+        )}
+        <p className="mt-3 text-xs text-muted">Days are calendar days added to the date. Hours need a time and are added to it. If your rule counts business days, ends at a set hour, or has other conditions, check the date yourself; the tool shows its arithmetic beside each entry.</p>
+        {attention.length > 0 && (
+          <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-4" role="status">
+            <p className="text-sm font-semibold text-amber-900">{attention.length} prompt report{attention.length > 1 ? "s" : ""} not yet recorded as sent</p>
+            <ul className="mt-2 space-y-1 text-sm text-amber-900">
+              {attention.map(({ x, p }) => <li key={x.id}>{p.status === "overdue" ? "Overdue" : "Due"} {p.due}: {x.unit}, {x.requirement}</li>)}
+            </ul>
+          </div>
+        )}
       </section>
 
       <section className="no-print rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-b`}>
@@ -112,6 +158,17 @@ export function DeviationLog() {
             <div>
               <label htmlFor={`${uid}-x`} className={labelCls}>Excess emissions estimate</label>
               <input id={`${uid}-x`} className={field} value={draft.excessEstimate} onChange={(e) => d({ excessEstimate: e.target.value })} placeholder="Amount and basis" />
+            </div>
+            <div>
+              <label htmlFor={`${uid}-dc`} className={labelCls}>Discovered (date and time)</label>
+              <input id={`${uid}-dc`} type="datetime-local" className={field} value={draft.discovered ?? ""} onChange={(e) => d({ discovered: e.target.value })} />
+            </div>
+            <div>
+              <label htmlFor={`${uid}-pr2`} className={labelCls}>Prompt reporting deadline</label>
+              <select id={`${uid}-pr2`} className={field} value={draft.ruleId ?? ""} onChange={(e) => d({ ruleId: e.target.value })}>
+                <option value="">None or not yet known</option>
+                {rules.map((r) => <option key={r.id} value={r.id}>{r.name || "Unnamed"}{r.amount !== null ? ` (${r.amount} ${r.unit})` : ""}</option>)}
+              </select>
             </div>
             <div>
               <label htmlFor={`${uid}-rp`} className={labelCls}>Prompt report submitted</label>
@@ -168,7 +225,18 @@ export function DeviationLog() {
                       {x.pollutants && <div><dt className="inline font-semibold">Pollutants: </dt><dd className="inline">{x.pollutants}</dd></div>}
                       {x.excessEstimate && <div><dt className="inline font-semibold">Excess estimate: </dt><dd className="inline">{x.excessEstimate}</dd></div>}
                       <div><dt className="inline font-semibold">Prompt report: </dt><dd className="inline">{x.reportedOn || "Not recorded"}</dd></div>
+                      {x.discovered && <div><dt className="inline font-semibold">Discovered: </dt><dd className="inline">{x.discovered.replace("T", " ")}</dd></div>}
                     </dl>
+                    {(() => {
+                      const p = promptDeadline(x, rules, today);
+                      if (p.status === "no-rule") return null;
+                      return (
+                        <p className="mt-2 flex flex-wrap items-center gap-2 text-xs text-slate-700">
+                          <span className={cn("rounded-full px-2 py-0.5 font-semibold", promptTone[p.status])}>{promptLabels[p.status]}{p.due ? `: ${p.due}` : ""}</span>
+                          <span className="font-mono">{p.steps}</span>
+                        </p>
+                      );
+                    })()}
                   </li>
                 ))}
               </ul>

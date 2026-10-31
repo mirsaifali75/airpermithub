@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { converterDefaults, converters, getConverter, molarVolumeScf } from "./converters";
-import { deviationsCsv, groupByPeriod, periodFor, type Deviation } from "./deviations";
+import { deviationsCsv, groupByPeriod, periodFor, promptDeadline, type Deviation, type PromptRule } from "./deviations";
 import { addMonthsToDate, calendarCategory, calendarTask, conditionTitle, parsePermitText } from "./matrix";
 import { dueDates, parseYmd } from "../compliance-calendar";
 import { addMonths, monthIndex, parsePastedColumn, parsePastedTable } from "./months";
@@ -230,5 +230,30 @@ describe("deviation reporting periods", () => {
     const csv = deviationsCsv(devs, 1, 6);
     expect(csv.split("\r\n")[0]).toContain("AirPermitHub Template");
     expect(csv).toContain('"Flare ""pilot"" out, briefly"');
+  });
+});
+
+describe("prompt reporting deadlines", () => {
+  const base: Deviation = { id: "d", start: "2026-03-01", end: "", unit: "FLR-1", requirement: "Cond 4", description: "", cause: "", corrective: "", durationHours: null, pollutants: "", excessEstimate: "", reportedOn: "", status: "open", discovered: "2026-03-02T09:30", ruleId: "r" };
+  const rule = (p: Partial<PromptRule>): PromptRule => ({ id: "r", name: "Cond 3.4", amount: 2, unit: "days", from: "discovery", source: "Condition 3.4", ...p });
+  it("adds calendar days to the discovery date", () => {
+    expect(promptDeadline(base, [rule({})], "2026-03-03")).toMatchObject({ status: "due", due: "2026-03-04" });
+    expect(promptDeadline(base, [rule({})], "2026-03-05").status).toBe("overdue");
+  });
+  it("adds hours to the discovery time, across midnight", () => {
+    expect(promptDeadline(base, [rule({ amount: 24, unit: "hours" })], "2026-03-02").due).toBe("2026-03-03 09:30");
+  });
+  it("counts from the start date when the rule says so", () => {
+    expect(promptDeadline(base, [rule({ from: "start", amount: 7 })], "2026-03-01").due).toBe("2026-03-08");
+  });
+  it("asks for a time before computing an hours deadline", () => {
+    expect(promptDeadline({ ...base, discovered: "2026-03-02" }, [rule({ unit: "hours", amount: 24 })], "2026-03-02").status).toBe("incomplete");
+  });
+  it("grades a report as on time or late", () => {
+    expect(promptDeadline({ ...base, reportedOn: "2026-03-04" }, [rule({})], "2026-04-01").status).toBe("on-time");
+    expect(promptDeadline({ ...base, reportedOn: "2026-03-05" }, [rule({})], "2026-04-01").status).toBe("late");
+  });
+  it("has no deadline without a rule and prefills none", () => {
+    expect(promptDeadline({ ...base, ruleId: "" }, [], "2026-03-02").status).toBe("no-rule");
   });
 });

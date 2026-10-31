@@ -5,7 +5,7 @@ import { converters } from "./converters";
  * the tools hub, the home page, search, and the sitemap.
  */
 
-export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability";
+export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap";
 
 export interface ToolEntry {
   slug: string;
@@ -28,6 +28,24 @@ export const coreTools: ToolEntry[] = [
     description: "Screen a facility and its equipment against NSPS, NESHAP, Title V, PSD, and GHG reporting thresholds. Each result shows the reason, the rule text it rests on, and what to confirm.",
     icon: "applicability",
     keywords: "applicability screening threshold title v threshold nsps neshap iiii jjjj zzzz db dc ddddd jjjjjj kb kc kkkk oooo oooob ooooc engine boiler tank turbine major source area source psd ghg reporting",
+  },
+  {
+    slug: "synthetic-minor-limit-designer",
+    href: "/tools/synthetic-minor-limit-designer",
+    name: "Synthetic Minor Limit Designer",
+    problem: "Which limits keep us under Title V, PSD, and HAP major source thresholds, and will they hold up?",
+    description: "Enter each unit's uncontrolled PTE and the hours, throughput, control, or cap you propose. See limited PTE with the arithmetic, facility totals against the quoted federal thresholds, and an enforceability record.",
+    icon: "synthetic",
+    keywords: "synthetic minor limit designer potential to emit pte limit title v avoidance psd avoidance hap area source enforceable limit hours limit throughput limit fesop",
+  },
+  {
+    slug: "hap-major-source-tracker",
+    href: "/tools/hap-major-source-tracker",
+    name: "HAP Major Source Tracker",
+    problem: "Are we a major or area source of HAP, and which HAP is closest to 10 tpy?",
+    description: "List HAP by unit with enforceable controls. Each HAP is summed across the site and compared with 10 tpy; all HAP together with 25 tpy, with the 40 CFR 63.2 text quoted.",
+    icon: "hap",
+    keywords: "hap major source tracker area source hazardous air pollutants 10 tpy 25 tpy single hap combined hap formaldehyde benzene neshap mact gact potential to emit",
   },
   {
     slug: "rolling-12-month-tracker",
@@ -59,11 +77,11 @@ export const coreTools: ToolEntry[] = [
   {
     slug: "deviation-log",
     href: "/tools/deviation-log",
-    name: "Title V Deviation Log",
-    problem: "What deviated this reporting period, why, and did we report it?",
-    description: "Log deviations as they happen with cause, corrective action, and prompt-report dates. Entries group by your permit's reporting periods and export for the semiannual report.",
+    name: "Deviation & Prompt Reporting Tracker",
+    problem: "What deviated this reporting period, when is the prompt report due, and did we send it on time?",
+    description: "Log deviations with cause and corrective action, compute each prompt report deadline from the period your permit states, and see what is due or overdue. Entries group by reporting period and export for the semiannual report.",
     icon: "deviation",
-    keywords: "deviation log title v deviation report semiannual monitoring report excess emissions corrective action annual compliance certification",
+    keywords: "deviation log prompt reporting deadline tracker excess emission report 24 hour 2 day title v deviation report semiannual monitoring report excess emissions corrective action annual compliance certification",
   },
   {
     slug: "converters",
