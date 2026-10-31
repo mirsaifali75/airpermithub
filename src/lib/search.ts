@@ -29,7 +29,6 @@ export interface SearchDoc {
 const tools: SearchDoc[] = [
   { title: "Permit Finder", href: "/permit-finder", kind: "Tool", snippet: "Screen likely permitting paths by state, industry, facility type, and equipment.", keywords: "permit path authorization screening wizard compressor station tank battery" },
   { title: "Emission Calculator", href: "/calculators", kind: "Tool", snippet: "Transparent equipment-based emission calculations.", keywords: "emissions calculator pte potential to emit nox voc co tons per year" },
-  { title: "Applicability Checker", href: "/applicability", kind: "Tool", snippet: "Screen NSPS, NESHAP, Title V, NSR, PSD, and state requirements.", keywords: "applicability screening threshold title v threshold" },
   { title: "Permit Library", href: "/permits", kind: "Tool", snippet: "Search permits, facilities, and regulatory documents.", keywords: "permit search facility permit number company county" },
   { title: "Compliance Calendar", href: "/compliance", kind: "Tool", snippet: "Track testing, reporting, inspections, and renewals; export to your calendar.", keywords: "compliance calendar deadlines reporting testing ldar inspection" },
   { title: "Air Quality Jobs", href: "/jobs", kind: "Tool", snippet: "Air permitting, EHS, and environmental engineering jobs.", keywords: "jobs careers air quality engineer ehs environmental" },

@@ -1,4 +1,4 @@
-import { ArrowLeftRight, BookA, Calculator, ClipboardList, ListChecks, Newspaper, Route, Scale, TrendingUp, type LucideIcon } from "lucide-react";
+import { ArrowLeftRight, BookA, Calculator, ClipboardCheck, ClipboardList, ListChecks, Newspaper, Route, Scale, TrendingUp, type LucideIcon } from "lucide-react";
 import type { ToolIcon as IconKey } from "@/lib/tools/catalog";
 
 export const toolIcons: Record<IconKey, LucideIcon> = {
@@ -11,4 +11,5 @@ export const toolIcons: Record<IconKey, LucideIcon> = {
   glossary: BookA,
   finder: Route,
   calc: Calculator,
+  applicability: ClipboardCheck,
 };

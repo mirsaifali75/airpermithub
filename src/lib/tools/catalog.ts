@@ -5,7 +5,7 @@ import { converters } from "./converters";
  * the tools hub, the home page, search, and the sitemap.
  */
 
-export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc";
+export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability";
 
 export interface ToolEntry {
   slug: string;
@@ -20,6 +20,15 @@ export interface ToolEntry {
 }
 
 export const coreTools: ToolEntry[] = [
+  {
+    slug: "applicability-checker",
+    href: "/applicability",
+    name: "Applicability Checker",
+    problem: "Which NSPS, NESHAP, and permit thresholds could apply to this engine, tank, or site, and why?",
+    description: "Screen a facility and its equipment against NSPS, NESHAP, Title V, PSD, and GHG reporting thresholds. Each result shows the reason, the rule text it rests on, and what to confirm.",
+    icon: "applicability",
+    keywords: "applicability screening threshold title v threshold nsps neshap iiii jjjj zzzz db dc ddddd jjjjjj kb kc kkkk oooo oooob ooooc engine boiler tank turbine major source area source psd ghg reporting",
+  },
   {
     slug: "rolling-12-month-tracker",
     href: "/tools/rolling-12-month-tracker",

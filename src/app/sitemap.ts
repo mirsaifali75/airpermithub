@@ -22,5 +22,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...industries.map((i) => `/industries/${i.slug}`),
     ...guides.map((g) => `/resources/${g.slug}`),
   ];
-  return paths.map((p) => ({ url: `${site.url}${p}`, changeFrequency: "weekly", priority: p === "/" ? 1 : 0.7 }));
+  return [...new Set(paths)].map((p) => ({ url: `${site.url}${p}`, changeFrequency: "weekly", priority: p === "/" ? 1 : 0.7 }));
 }

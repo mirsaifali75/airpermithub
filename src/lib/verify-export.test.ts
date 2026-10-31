@@ -6,6 +6,7 @@ import { federalRegulations } from "./data/regulations";
 import { listStateProfiles } from "./data/state-profiles";
 import { converters } from "./tools/converters";
 import { nsrRuleText } from "./tools/nsr";
+import { RT, ecfrHref, psdSignificance } from "./tools/rule-text";
 
 /**
  * Every checkable claim the site publishes, for scripts/verify-sources.mjs.
@@ -84,6 +85,15 @@ export function collectClaims(): Claim[] {
     const m = x.cite.match(/40 CFR (\d+\.\d+)((?:\([0-9a-zA-Z]+\))*)/);
     if (m) push({ kind: "cfr-quote", where: "tool:nsr-baseline", url: nsrRuleText.current.url, text: x.text, cite: `${m[1]}${m[2]}` });
   }
+
+  // Rule text the screening and design tools quote (src/lib/tools/rule-text.ts)
+  for (const [key, x] of Object.entries(RT)) {
+    const w = `tool-rule-text:${key}`;
+    if (x.url) { push({ kind: "quote", where: w, url: x.url, text: x.text }); continue; }
+    const m = x.cite.match(/40 CFR (\d+\.\d+[a-zA-Z]*)((?:\([0-9a-zA-Z]+\))*)/);
+    if (m) push({ kind: "cfr-quote", where: w, url: ecfrHref(x.cite) ?? undefined, text: x.text, cite: `${m[1]}${m[2]}` });
+  }
+  for (const r of psdSignificance) push({ kind: "cfr-quote", where: "tool-rule-text:psd-significance", url: ecfrHref("40 CFR 52.21(b)(23)(i)") ?? undefined, text: r.row, cite: "52.21(b)(23)(i)" });
 
   for (const g of guides) {
     const w = `guide:${g.slug}`;

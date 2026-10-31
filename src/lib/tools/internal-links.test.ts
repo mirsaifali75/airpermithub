@@ -7,6 +7,7 @@ import { federalRegulations } from "../data/regulations";
 import { listRules } from "../data/ecfr";
 import { ruleHref } from "../rules";
 import { allToolPages, coreTools } from "./catalog";
+import { equipmentTypes, screenAll, type FacilityInput } from "./applicability";
 import { converters } from "./converters";
 
 const appDir = join(__dirname, "..", "..", "app");
@@ -55,6 +56,17 @@ describe("internal links from tools, guides, and the glossary", () => {
       const text = readFileSync(join(appDir, "tools", f), "utf8");
       for (const m of text.matchAll(/href: "(\/[^"]*)"/g)) check(m[1], `src/app/tools/${f}`);
     }
+  });
+  it("from the applicability screener point to pages that exist", () => {
+    const base: FacilityInput = { name: "", state: "", hap: "major", hapSingle: null, hapTotal: null, pte: { NOx: 1, CO: 1, VOC: 1, SO2: 1, PM10: 1, "PM2.5": 1, PM: 1 }, listedCategory: "no", ozone: "none", oilGas: true, ghgListed: "no", ghgCo2e: 1, combustionMmbtu: 1 };
+    for (const f of [base, { ...base, hap: "area" as const }]) {
+      for (const date of ["1990-01-01", "2013-01-01", "2018-01-01", "2024-01-01"]) {
+        const r = screenAll(f, equipmentTypes.map((t, i) => ({ id: String(i), type: t.value, name: "", date, dateKind: "construction" as const, site: "gas-plant" as const })));
+        for (const x of [...r.facility, ...r.equipment.flatMap((e) => e.findings)]) if (x.library) check(x.library, `applicability ${x.key}`);
+      }
+    }
+    const page = readFileSync(join(appDir, "applicability", "page.tsx"), "utf8");
+    for (const m of page.matchAll(/href: "(\/[^"]*)"/g)) check(m[1], "src/app/applicability/page.tsx");
   });
   it("glossary entries are unique, cited, and cross-referenced correctly", () => {
     expect(terms.size).toBe(glossary.length);
