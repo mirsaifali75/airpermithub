@@ -72,13 +72,6 @@
  },
  {
   "kind": "threshold",
-  "where": "state:MA:program:Plan Approval: Limited Plan Application (LPA) / Comprehensive Plan Application (CPA)",
-  "result": "numbers-found",
-  "checkedOn": "2026-10-30",
-  "note": "The agency's server refused the automated checker (HTTP 403). Read with a separate web reader: the June 2011 MassDEP guide lists LPA-PROCESS (more than 1 but less than 10 tons per 12 months), CPA-PROCESS (more than 10), CPA-FUEL2 (natural gas or propane boilers of 40 MMBtu/hr or more), and CPA for crematories and incinerators."
- },
- {
-  "kind": "threshold",
   "where": "state:MI:program:PSD (Part 18)",
   "result": "numbers-found",
   "checkedOn": "2026-10-30",
@@ -175,5 +168,189 @@
   "result": "verified",
   "checkedOn": "2026-10-30",
   "note": "The full name appears only as the alt text of the agency logo (\"Illinois Environmental Protection Agency\"), which the automated checker does not read; the page text uses \"Illinois EPA\" and \"IEPA\"."
+ },
+ {
+  "kind": "citation",
+  "where": "state:DC:program:New Source Review for sources affecting nonattainment areas (20 DCMR § 204)",
+  "url": "https://doee.dc.gov/node/7722",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The agency page doesn't print the section number. 40 CFR 52.470 (eCFR) lists 20 DCMR Section 204, \"Permit Requirements for Sources Affecting Non-attainment Areas.\""
+ },
+ {
+  "kind": "citation",
+  "where": "state:ID:program:Exemptions",
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The agency page doesn't print section numbers. Each cited section appears in IDAPA 58.01.01 (adminrules.idaho.gov/rules/current/58/580101.pdf); Section 400 states \"Sections 400 through 409\" for Tier II."
+ },
+ {
+  "kind": "citation",
+  "where": "state:ID:program:Permit by Rule (PBR)",
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The agency page doesn't print section numbers. Each cited section appears in IDAPA 58.01.01 (adminrules.idaho.gov/rules/current/58/580101.pdf); Section 400 states \"Sections 400 through 409\" for Tier II."
+ },
+ {
+  "kind": "citation",
+  "where": "state:ID:program:General Permits",
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The agency page doesn't print section numbers. Each cited section appears in IDAPA 58.01.01 (adminrules.idaho.gov/rules/current/58/580101.pdf); Section 400 states \"Sections 400 through 409\" for Tier II."
+ },
+ {
+  "kind": "citation",
+  "where": "state:ID:program:Permit to Construct (PTC)",
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The agency page doesn't print section numbers. Each cited section appears in IDAPA 58.01.01 (adminrules.idaho.gov/rules/current/58/580101.pdf); Section 400 states \"Sections 400 through 409\" for Tier II."
+ },
+ {
+  "kind": "citation",
+  "where": "state:ID:program:Tier II Operating Permit",
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The agency page doesn't print section numbers. Each cited section appears in IDAPA 58.01.01 (adminrules.idaho.gov/rules/current/58/580101.pdf); Section 400 states \"Sections 400 through 409\" for Tier II."
+ },
+ {
+  "kind": "citation",
+  "where": "state:ID:program:Tier I Operating Permit (Title V)",
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The agency page doesn't print section numbers. Each cited section appears in IDAPA 58.01.01 (adminrules.idaho.gov/rules/current/58/580101.pdf); Section 400 states \"Sections 400 through 409\" for Tier II."
+ },
+ {
+  "kind": "citation",
+  "where": "state:LA:program:Regulatory permits (LAC 33:III Chapter 3)",
+  "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The LAC Part III compilation from the Office of the State Register lists Chapter 3 sections §301 through §327 (Regulatory Permit for Stationary Combustion Turbines)."
+ },
+ {
+  "kind": "citation",
+  "where": "state:LA:program:Part 70 (Title V) Operating Permit",
+  "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The agency page doesn't print section numbers. The LAC Part III compilation (doa.la.gov) has §507 Part 70 Operating Permits Program and the Major Source definition in §502."
+ },
+ {
+  "kind": "citation",
+  "where": "state:NJ:program:Prevention of Significant Deterioration (PSD)",
+  "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "EPA's page doesn't print the state section. N.J.A.C. 7:27-8.11(a)1iii (NJDEP courtesy copy, dep.nj.gov/wp-content/uploads/aqm/sub8.pdf) requires each significant source to meet \"PSD requirements under 40 CFR 52.21.\""
+ },
+ {
+  "kind": "citation",
+  "where": "state:PA:program:Request for Determination (RFD)",
+  "url": "https://www.pa.gov/services/dep/request-for-determination-rfd-for-online-rfd-users",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The DEP page doesn't print the section. 25 Pa. Code 127.14(c) on pacodeandbulletin.gov reads: \"For physical changes requested under subsection (a)(9), the Department will process requests for determinations as follows\"."
+ },
+ {
+  "kind": "citation",
+  "where": "state:PA:program:Plan Approval",
+  "url": "https://www.pa.gov/agencies/dep/programs-and-services/business/air-quality-permits/plan-apps",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The DEP page doesn't print the chapter. The 25 Pa. Code Chapter 127 table of contents (pacodeandbulletin.gov) lists Subchapter B, Plan Approval Requirements."
+ },
+ {
+  "kind": "citation",
+  "where": "state:PA:program:State-Only Operating Permit (natural minor and synthetic minor)",
+  "url": "https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The DEP page doesn't print the chapter. The 25 Pa. Code Chapter 127 table of contents (pacodeandbulletin.gov) lists Subchapter F, Operating Permit Requirements."
+ },
+ {
+  "kind": "citation",
+  "where": "state:PA:program:Title V Operating Permit",
+  "url": "https://www.pa.gov/services/dep/air/apply-for-an-air-quality-operator-permit",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The DEP page doesn't print the chapter. The 25 Pa. Code Chapter 127 table of contents (pacodeandbulletin.gov) lists Subchapters F and G."
+ },
+ {
+  "kind": "citation",
+  "where": "state:SC:program:Construction permit exemptions",
+  "url": "https://des.sc.gov/sites/des/files/Library/CR-010877.pdf",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The cited page doesn't print the regulation number. R.61-62.1 (des.sc.gov/sites/des/files/Library/Regulations/R.61-62.1.pdf) Section II(B) is \"Exemptions from the Requirement to Obtain a Construction Permit.\""
+ },
+ {
+  "kind": "citation",
+  "where": "state:SC:program:Construction Permit (state and synthetic minor)",
+  "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/construction-permits-air",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The cited page doesn't print the regulation number. R.61-62.1 Section II(A) is Construction Permits and II(E) Synthetic Minor Construction Permits (des.sc.gov R.61-62.1.pdf)."
+ },
+ {
+  "kind": "citation",
+  "where": "state:SC:program:Conditional Major Operating Permit",
+  "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The cited page doesn't print the regulation number. R.61-62.1 Section II(E), II(G) Conditional Major Operating Permits, and II(H) Operating Permit Renewal Requests (des.sc.gov R.61-62.1.pdf)."
+ },
+ {
+  "kind": "citation",
+  "where": "state:SC:program:Prevention of Significant Deterioration (PSD)",
+  "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "EPA's page doesn't print the state rule. 40 CFR 52.2120 lists Regulation No. 62.5, Standard No. 7, Prevention of Significant Deterioration."
+ },
+ {
+  "kind": "citation",
+  "where": "state:SC:program:Nonattainment NSR",
+  "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "EPA's page doesn't print the state rule. 40 CFR 52.2120 lists Regulation No. 62.5, Standard No. 7.1, Nonattainment New Source Review."
+ },
+ {
+  "kind": "citation",
+  "where": "state:SD:program:Construction Permit",
+  "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/Forms/Construction%2021.docx",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The DANR page doesn't print chapter numbers. The ARSD Article 74:36 table of contents (sdlegislature.gov/api/Rules/74:36.html) lists chapters 74:36:04, 74:36:05, and 74:36:20."
+ },
+ {
+  "kind": "citation",
+  "where": "state:SD:program:Minor Source Operating Permit",
+  "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The DANR page doesn't print chapter numbers. The ARSD Article 74:36 table of contents (sdlegislature.gov/api/Rules/74:36.html) lists chapters 74:36:04, 74:36:05, and 74:36:20."
+ },
+ {
+  "kind": "citation",
+  "where": "state:SD:program:Title V (Part 70) Operating Permit",
+  "url": "https://danr.sd.gov/Environment/AirQuality/PermitForms/default.aspx",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The DANR page doesn't print chapter numbers. The ARSD Article 74:36 table of contents (sdlegislature.gov/api/Rules/74:36.html) lists chapters 74:36:04, 74:36:05, and 74:36:20."
+ },
+ {
+  "kind": "citation",
+  "where": "state:WY:oil-gas:Oil and Gas Production Facilities Permitting Guidance (BACT)",
+  "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
+  "result": "verified",
+  "checkedOn": "2026-10-31",
+  "note": "The 2016 release doesn't print the statute. DEQ's New Source Review page says oil and gas production sites that comply with BACT may construct without prior authorization \"in accordance with Wyoming Statute 35-11-801(e).\""
  }
 ]
