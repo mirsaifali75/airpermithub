@@ -1,0 +1,168 @@
+{
+ "f001.txt": {
+  "url": "https://adminrules.idaho.gov/rules/current/58/580101.pdf",
+  "status": 200,
+  "finalUrl": "https://files.dfm.idaho.gov/dfm-admin-website/rules/current/58/580101.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 483317
+ },
+ "f002.txt": {
+  "url": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "status": 200,
+  "finalUrl": "https://www.deq.idaho.gov/permits/air-quality-permitting/",
+  "type": "text/html",
+  "title": "Air Quality Permitting - Idaho Department of Environmental Quality",
+  "length": 13807
+ },
+ "f003.txt": {
+  "url": "https://sdlegislature.gov/api/Rules/74:36:05.html",
+  "status": 200,
+  "finalUrl": "https://sdlegislature.gov/api/Rules/74:36:05.html",
+  "type": "text/html",
+  "title": "",
+  "length": 36564
+ },
+ "f004.txt": {
+  "url": "https://sdlegislature.gov/api/Rules/74:36:05:03.html",
+  "status": 200,
+  "finalUrl": "https://sdlegislature.gov/api/Rules/74:36:05:03.html",
+  "type": "text/html",
+  "title": "",
+  "length": 20214
+ },
+ "f005.txt": {
+  "url": "https://sdlegislature.gov/api/Rules/74:36:04.html",
+  "status": 200,
+  "finalUrl": "https://sdlegislature.gov/api/Rules/74:36:04.html",
+  "type": "text/html",
+  "title": "",
+  "length": 37648
+ },
+ "f006.txt": {
+  "url": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61_62.pdf",
+  "status": 404,
+  "finalUrl": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61_62.pdf",
+  "type": "text/html",
+  "title": "Page not found | South Carolina Department of Environmental Services",
+  "length": 34297
+ },
+ "f007.txt": {
+  "url": "https://scdhec.gov/sites/default/files/docs/Agency/docs/air-regs/R61-62_5S7.PDF",
+  "status": 0,
+  "error": "ERR_TLS_CERT_ALTNAME_INVALID",
+  "length": 0
+ },
+ "f008.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=52&section=52.2120",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?chapter=I&subchapter=C&part=52&subpart=PP&section=52.2120",
+  "type": "text/html",
+  "title": "",
+  "length": 19558
+ },
+ "f009.txt": {
+  "url": "https://www.deq.louisiana.gov/assets/docs/Legal_Affairs/ERC/33v03Air.pdf",
+  "status": 200,
+  "finalUrl": "https://www.deq.louisiana.gov/assets/docs/Legal_Affairs/ERC/33v03Air.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 1948895
+ },
+ "f010.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=52&section=52.2020",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?chapter=I&subchapter=C&part=52&subpart=NN&section=52.2020",
+  "type": "text/html",
+  "title": "",
+  "length": 211375
+ },
+ "f011.txt": {
+  "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/chap127toc.html",
+  "status": 200,
+  "finalUrl": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter127/chap127toc.html",
+  "type": "text/html",
+  "title": "25 Pa. Code Chapter 127. Construction, Modification, Reactivation And Operation Of Sources",
+  "length": 309441
+ },
+ "f012.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=52&section=52.470",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?chapter=I&subchapter=C&part=52&subpart=J&section=52.470",
+  "type": "text/html",
+  "title": "",
+  "length": 34182
+ },
+ "f013.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=52&section=52.1370",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?chapter=I&subchapter=C&part=52&subpart=BB&section=52.1370",
+  "type": "text/html",
+  "title": "",
+  "length": 57096
+ },
+ "f014.txt": {
+  "url": "https://www.deq.mt.gov/air/assistance",
+  "status": 200,
+  "finalUrl": "https://www.deq.mt.gov/air/assistance",
+  "type": "text/html",
+  "title": "Air Permitting and Operator Assistance | Montana DEQ",
+  "length": 89327
+ },
+ "f015.txt": {
+  "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007a.pdf",
+  "status": 200,
+  "finalUrl": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007a.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 225014
+ },
+ "f016.txt": {
+  "url": "https://www.mass.gov/doc/310-cmr-7-air-pollution-control/download",
+  "status": 403,
+  "finalUrl": "https://www.mass.gov/doc/310-cmr-7-air-pollution-control/download",
+  "type": "text/html",
+  "title": "Not allowed | Mass Gov",
+  "length": 175
+ },
+ "f017.txt": {
+  "url": "https://www.nj.gov/dep/aqm/rules27/sub8.pdf",
+  "status": 404,
+  "finalUrl": "https://www.nj.gov/dep/aqm/rules27/sub8.pdf",
+  "type": "text/html",
+  "title": "404 - Page Not Found | The Official Web Site for The State of New Jersey",
+  "length": 1033
+ },
+ "f018.txt": {
+  "url": "https://www.nj.gov/dep/aqm/rules27/sub22.pdf",
+  "status": 404,
+  "finalUrl": "https://www.nj.gov/dep/aqm/rules27/sub22.pdf",
+  "type": "text/html",
+  "title": "404 - Page Not Found | The Official Web Site for The State of New Jersey",
+  "length": 1033
+ },
+ "f019.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=52&section=52.2620",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?chapter=I&subchapter=C&part=52&subpart=ZZ&section=52.2620",
+  "type": "text/html",
+  "title": "",
+  "length": 14616
+ },
+ "f020.txt": {
+  "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air",
+  "status": 200,
+  "finalUrl": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/operating-permits-air",
+  "type": "text/html",
+  "title": "Operating Permits (Air) | South Carolina Department of Environmental Services",
+  "length": 38498
+ },
+ "f021.txt": {
+  "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-south-carolina",
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in South Carolina | US EPA",
+  "length": 4656
+ }
+}
