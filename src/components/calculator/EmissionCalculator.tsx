@@ -1,21 +1,26 @@
 "use client";
 
 import {
-  ArrowRight, BookMarked, Copy, CopyPlus, Download, ExternalLink, FlaskConical, FolderPlus, Info, Plus, Printer, RotateCcw, Sigma, Trash2, TriangleAlert,
+  ArrowRight, BookMarked, BookmarkPlus, Copy, CopyPlus, Download, ExternalLink, FlaskConical, FolderPlus, Info, Plus, Printer, RotateCcw, Sigma, Trash2, TriangleAlert,
 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { useStoredState } from "@/components/tools/shared";
 import { DemoBadge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Tabs } from "@/components/ui/Tabs";
 import { cn } from "@/lib/cn";
+import { factorLibrary, factorsFor, MY_FACTORS_STORE, sameFactor, type EmissionFactorRecord } from "@/lib/calc/factors";
 import { annualize, getMethod, type AnnualizedResult, type CalcStep } from "@/lib/calc/methods";
+import { quoteHref } from "@/lib/tools/rule-text";
 import { pollutants, type Pollutant } from "@/lib/data/equipment";
 
 interface FactorSource {
   reference: string;
+  section?: string;
   url: string;
   revision: string;
+  rating?: string;
 }
 
 /** One pollutant in the calculation: its factors, per-pollutant inputs, control, and citation. */
@@ -58,8 +63,17 @@ const fmt = (n: number) =>
 const GHG = new Set<Pollutant>(["CO2", "CH4", "N2O"]);
 const pollutantChoices = pollutants.filter((p) => p !== "CO2e");
 const num = (v: string | undefined) => (v === undefined || v.trim() === "" ? NaN : Number(v));
-const blankSource: FactorSource = { reference: "", url: "", revision: "" };
+const blankSource: FactorSource = { reference: "", section: "", url: "", revision: "", rating: "" };
 const tabLabels = ["Inputs", "Method & Factors", "Results", "References"] as const;
+
+/** In-progress inputs for one calculator, kept in this browser so a reload doesn't lose them. */
+interface Draft {
+  sourceName: string;
+  inputs: Record<string, string>;
+  hours: string;
+  rows: PollutantRow[];
+  usedDemo: boolean;
+}
 
 interface RowResult {
   row: PollutantRow;
@@ -75,16 +89,26 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
 
   const sharedInputs = useMemo(() => method.inputs.filter((i) => !i.perPollutant), [method]);
   const rowFields = useMemo(() => [...method.inputs.filter((i) => i.perPollutant), ...method.factors], [method]);
+  const initialValue = (f: object) => ("initial" in f && typeof f.initial === "number" ? String(f.initial) : "");
   const newRow = (pollutant: Pollutant): PollutantRow => ({
-    id: crypto.randomUUID(), pollutant, values: Object.fromEntries(rowFields.map((f) => [f.key, ""])), control: "0", gwp: "", source: { ...blankSource },
+    id: crypto.randomUUID(), pollutant, values: Object.fromEntries(rowFields.map((f) => [f.key, initialValue(f)])), control: "0", gwp: "", source: { ...blankSource },
   });
+  const blankInputs = () => Object.fromEntries(sharedInputs.map((i) => [i.key, initialValue(i)]));
+  const blankDraft = (): Draft => ({ sourceName: "", inputs: blankInputs(), hours: "8760", rows: [newRow(method.slug === "tank-losses" ? "VOC" : "NOx")], usedDemo: false });
 
   const [tab, setTab] = useState(0);
-  const [sourceName, setSourceName] = useState("");
-  const [inputs, setInputs] = useState<Record<string, string>>(() => Object.fromEntries(sharedInputs.map((i) => [i.key, ""])));
-  const [hours, setHours] = useState("8760");
-  const [rows, setRows] = useState<PollutantRow[]>(() => [newRow("NOx")]);
-  const [usedDemo, setUsedDemo] = useState(false);
+  const [draft, setDraft] = useStoredState<Draft>(`aph.calc.draft.${method.slug}.v1`, blankDraft());
+  const { sourceName, hours, rows, usedDemo } = draft;
+  const inputs = useMemo(() => ({ ...blankInputs(), ...draft.inputs }), [draft.inputs]); // eslint-disable-line react-hooks/exhaustive-deps
+  const setter = <K extends keyof Draft>(k: K) => (v: Draft[K] | ((prev: Draft[K]) => Draft[K])) =>
+    setDraft((d) => ({ ...d, [k]: typeof v === "function" ? (v as (prev: Draft[K]) => Draft[K])(d[k]) : v }));
+  const setSourceName = setter("sourceName");
+  const setInputs = setter("inputs");
+  const setHours = setter("hours");
+  const setRows = setter("rows");
+  const setUsedDemo = setter("usedDemo");
+  const [myFactors, setMyFactors] = useStoredState<EmissionFactorRecord[]>(MY_FACTORS_STORE, []);
+  const knownFactors = useMemo(() => [...factorLibrary, ...myFactors], [myFactors]);
   const [saved, setSaved] = useState<SavedCalc[]>([]);
   const [notice, setNotice] = useState<string | null>(null);
   const loaded = useRef(false);
@@ -104,15 +128,16 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
     const missing = [...sharedInputs.filter((x) => !Number.isFinite(values[x.key])).map((x) => x.label), ...(!Number.isFinite(h) ? ["Operating hours"] : [])];
     const negative = Object.values(values).some((v) => v < 0);
     const hoursValid = h > 0 && h <= 8784;
-    return { values, h, missing, negative, hoursValid };
-  }, [inputs, hours, sharedInputs]);
+    const invalid = missing.length === 0 && !negative ? method.validate?.(values) ?? null : null;
+    return { values, h, missing, negative, hoursValid, invalid };
+  }, [inputs, hours, sharedInputs, method]);
 
   const results: RowResult[] = useMemo(() => rows.map((row) => {
     const vals = Object.fromEntries(rowFields.map((f) => [f.key, num(row.values[f.key])]));
     const missing = rowFields.filter((f) => !Number.isFinite(vals[f.key])).map((f) => f.label);
     const ce = row.control.trim() === "" ? 0 : Number(row.control);
     const gwp = row.pollutant === "CO2" ? 1 : num(row.gwp);
-    const blocked = shared.missing.length > 0 || shared.negative || !shared.hoursValid || missing.length > 0
+    const blocked = shared.missing.length > 0 || shared.negative || !shared.hoursValid || !!shared.invalid || missing.length > 0
       || Object.values(vals).some((v) => v < 0) || !(ce >= 0 && ce <= 100);
     if (blocked) return { row, result: null, missing, co2eTpy: null, gwp };
     const perPollutant = Object.fromEntries(method.inputs.filter((i) => i.perPollutant).map((i) => [i.key, vals[i.key]]));
@@ -138,20 +163,37 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
   const fillDemo = () => {
     setInputs(Object.fromEntries(sharedInputs.map((i) => [i.key, String(i.demo)])));
     setRows((rs) => rs.map((r, idx) => idx === 0
-      ? { ...r, values: Object.fromEntries(rowFields.map((f) => [f.key, String(f.demo)])), source: { reference: "DEMO VALUE: illustrative only, no source", url: "", revision: "" } }
+      ? { ...r, values: Object.fromEntries(rowFields.map((f) => [f.key, String(f.demo)])), source: { ...blankSource, reference: method.demoNote ?? "DEMO VALUE: illustrative only, no source" } }
       : r));
     setSourceName((n) => n || `Demo ${method.name.toLowerCase()} unit`);
     setUsedDemo(true);
   };
 
   const reset = () => {
-    setInputs(Object.fromEntries(sharedInputs.map((i) => [i.key, ""])));
-    setHours("8760");
-    setRows([newRow("NOx")]);
-    setUsedDemo(false);
+    setDraft(blankDraft());
     setNotice(null);
     setTab(0);
   };
+
+  /** Keeps this row's factors, with their citation, for reuse in any calculator. */
+  const saveFactors = (row: PollutantRow) => {
+    const records: EmissionFactorRecord[] = method.factors
+      .filter((f) => Number.isFinite(num(row.values[f.key])))
+      .map((f) => ({
+        id: crypto.randomUUID(), origin: "user", method: method.slug, factorKey: f.key, sourceCategory: `${method.equipmentCategory}: ${f.label}`,
+        pollutant: row.pollutant, value: num(row.values[f.key]), units: f.unit, referenceDocument: row.source.reference.trim(),
+        sectionTable: (row.source.section ?? "").trim(), revisionDate: row.source.revision.trim(), url: row.source.url.trim(),
+        rating: (row.source.rating ?? "").trim(), notes: "", versions: [],
+      }));
+    const fresh = records.filter((r) => !knownFactors.some((k) => sameFactor(k, r)));
+    setMyFactors((m) => [...m, ...fresh]);
+    setNotice(fresh.length ? `Saved ${fresh.length} factor${fresh.length > 1 ? "s" : ""} to My factors. Pick ${fresh.length > 1 ? "them" : "it"} from the list next time.` : "Those factors are already in My factors.");
+  };
+  const applyFactor = (row: PollutantRow, key: string, rec: EmissionFactorRecord) =>
+    updateRow(row.id, {
+      values: { ...row.values, [key]: String(rec.value) },
+      source: { reference: rec.referenceDocument, section: rec.sectionTable, url: rec.url, revision: rec.revisionDate, rating: rec.rating },
+    });
 
   const addToSet = () => {
     if (ready.length === 0) return;
@@ -187,8 +229,10 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
   const exportThis = () => {
     const out: (string | number)[][] = [
       ["AirPermitHub calculation", method.title],
+      ["Screening estimate. Check every input and factor against its source before using the result in a permit application or report."],
       ["Source", sourceName || "Not named"],
       ["Formula", method.formula],
+      ...method.variables.map((v) => [`  ${v.symbol}`, v.meaning, v.unit]),
       ["Exported", new Date().toISOString()],
       ["Demo values", usedDemo ? "YES - not for regulatory use" : "no"],
       [],
@@ -196,15 +240,16 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
       ...sharedInputs.map((i) => [i.label, inputs[i.key], i.unit]),
       ["Operating hours", hours, "hr/yr"],
       [],
-      ["Pollutant", ...rowFields.map((f) => `${f.label} (${f.unit})`), "Control efficiency (%)", "GWP", "Uncontrolled lb/hr", "Controlled lb/hr", "lb/day", "tons/yr", "CO2e tons/yr", "Factor reference", "Revision", "Source URL"],
+      ["Pollutant", ...rowFields.map((f) => `${f.label} (${f.unit})`), "Control efficiency (%)", "GWP", "Uncontrolled lb/hr", "Controlled lb/hr", "lb/day", "tons/yr", "CO2e tons/yr", "Factor reference", "Section / table", "Revision", "Source URL", "Rating"],
       ...results.map(({ row, result, co2eTpy, gwp }) => [
         row.pollutant, ...rowFields.map((f) => row.values[f.key]), row.control, GHG.has(row.pollutant) && gwp > 0 ? gwp : "",
         result?.lbPerHr ?? "", result?.controlledLbPerHr ?? "", result?.lbPerDay ?? "", result?.tpy ?? "", co2eTpy ?? "",
-        row.source.reference, row.source.revision, row.source.url,
+        row.source.reference, row.source.section ?? "", row.source.revision, row.source.url, row.source.rating ?? "",
       ]),
       [],
       ["Pollutant", "Step", "Expression", "Value", "Unit"],
       ...ready.flatMap(({ row, result }) => result!.steps.map((s) => [row.pollutant, s.label, s.expression, s.value, s.unit])),
+      ...(method.basis?.length ? [[], ["Method basis (verbatim)", "Source", "URL"], ...method.basis.map((q) => [q.text, q.cite, quoteHref(q) ?? ""])] : []),
     ];
     download(`airpermithub-${method.slug}${sourceName ? `-${sourceName.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}` : ""}.csv`, out);
   };
@@ -224,7 +269,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
   const field = "h-11 w-full rounded-xl border border-line bg-white px-3 text-ink focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none";
   const blocker = shared.missing.length
     ? `Enter ${shared.missing.slice(0, 3).join(", ").toLowerCase()}${shared.missing.length > 3 ? ", …" : ""} on the Inputs tab.`
-    : shared.negative ? "Inputs cannot be negative." : !shared.hoursValid ? "Operating hours must be between 0 and 8,784." : null;
+    : shared.negative ? "Inputs cannot be negative." : !shared.hoursValid ? "Operating hours must be between 0 and 8,784." : shared.invalid;
 
   const actions = (
     <div className="no-print mt-5 flex flex-wrap gap-2 border-t border-line pt-4">
@@ -327,9 +372,35 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
         <h2 className="flex items-center gap-2 text-lg font-bold text-ink"><Sigma className="h-5 w-5 text-brand-500" aria-hidden="true" /> Method</h2>
         <p className="mt-2 text-sm text-slate-700">{method.methodology}</p>
         <div className="mt-3 overflow-x-auto rounded-xl bg-navy-950 px-4 py-3 font-mono text-sm text-cyan-300">{method.formula}</div>
+        <div className="mt-3 overflow-x-auto rounded-xl border border-line">
+          <table className="w-full text-sm">
+            <caption className="sr-only">Symbols in the formula</caption>
+            <thead className="bg-canvas text-left text-xs text-muted uppercase"><tr><th scope="col" className="px-3 py-2">Symbol</th><th scope="col" className="px-3 py-2">Meaning</th><th scope="col" className="px-3 py-2">Unit</th></tr></thead>
+            <tbody className="divide-y divide-line">
+              {method.variables.map((v) => (
+                <tr key={v.symbol}><th scope="row" className="px-3 py-1.5 text-left font-mono font-semibold whitespace-nowrap text-ink">{v.symbol}</th><td className="px-3 py-1.5 text-slate-700">{v.meaning}</td><td className="px-3 py-1.5 whitespace-nowrap text-muted">{v.unit}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {method.basis && method.basis.length > 0 && (
+          <details className="mt-3 rounded-xl border border-line bg-canvas px-4 py-3 text-sm" open={method.basis.length <= 3}>
+            <summary className="cursor-pointer font-semibold text-ink">Official basis: the procedure&apos;s own words ({method.basis.length} {method.basis.length === 1 ? "quote" : "quotes"})</summary>
+            <ul className="mt-2 space-y-2">
+              {method.basis.map((q) => (
+                <li key={q.text}>
+                  <blockquote className="border-l-2 border-brand-200 pl-3 text-slate-700">&ldquo;{q.text}&rdquo;</blockquote>
+                  <a href={quoteHref(q) ?? undefined} target="_blank" rel="noopener noreferrer" className="mt-0.5 inline-flex items-center gap-1 pl-3 text-xs font-semibold text-brand-600 hover:text-brand-700">
+                    {q.cite} <ExternalLink className="h-3 w-3" aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
         <p className="mt-3 flex gap-2 rounded-xl bg-amber-50 px-4 py-3 text-sm text-amber-900">
           <Info className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
-          <span>AirPermitHub does not supply emission factors. {method.factorGuidance}</span>
+          <span>{method.factors.length ? "AirPermitHub does not supply emission factors. " : ""}{method.factorGuidance}</span>
         </p>
       </section>
 
@@ -359,10 +430,22 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
                   </div>
                   {rowFields.length === 0 && <p className="text-sm text-muted">This method uses measured or engineered inputs only; no emission factor is needed.</p>}
                   <div className="grid gap-4 sm:grid-cols-2">
-                    {rowFields.map((f) => (
-                      <NumberField key={f.key} id={`${rid}-${f.key}`} label={f.label} unit={f.unit} min={0} step="any"
-                        value={row.values[f.key] ?? ""} onChange={(v) => updateRow(row.id, { values: { ...row.values, [f.key]: v } })} />
-                    ))}
+                    {rowFields.map((f) => {
+                      const options = factorsFor(knownFactors, method.slug, f.key, f.unit).filter((r) => r.pollutant === row.pollutant);
+                      return (
+                        <div key={f.key}>
+                          <NumberField id={`${rid}-${f.key}`} label={f.label} unit={f.unit} min={0} step="any"
+                            value={row.values[f.key] ?? ""} onChange={(v) => updateRow(row.id, { values: { ...row.values, [f.key]: v } })} />
+                          {options.length > 0 && (
+                            <select aria-label={`Use a saved ${f.label.toLowerCase()} for ${row.pollutant}`} className="mt-1.5 h-9 w-full rounded-lg border border-line bg-white px-2 text-xs text-ink" value=""
+                              onChange={(e) => { const rec = options.find((o) => o.id === e.target.value); if (rec) applyFactor(row, f.key, rec); }}>
+                              <option value="">Use a saved factor ({options.length})</option>
+                              {options.map((o) => <option key={o.id} value={o.id}>{o.value} {o.units}: {o.referenceDocument || "no reference"}{o.sectionTable ? `, ${o.sectionTable}` : ""}{o.origin === "library" ? " (library)" : ""}</option>)}
+                            </select>
+                          )}
+                        </div>
+                      );
+                    })}
                     <NumberField id={`${rid}-ce`} label="Control efficiency" unit="%" help="Only claim control you can document and enforce." min={0} max={100} step={0.1}
                       value={row.control} onChange={(v) => updateRow(row.id, { control: v })} />
                     {GHG.has(row.pollutant) && row.pollutant !== "CO2" && (
@@ -371,9 +454,13 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
                     )}
                   </div>
                   <div className="grid gap-4 sm:grid-cols-3">
-                    <div className="sm:col-span-3">
-                      <label htmlFor={`${rid}-ref`} className="mb-1.5 block text-sm font-semibold text-ink">Factor source / reference</label>
-                      <input id={`${rid}-ref`} className={field} value={row.source.reference} onChange={(e) => updateRow(row.id, { source: { ...row.source, reference: e.target.value } })} placeholder="Document, section, table" />
+                    <div className="sm:col-span-2">
+                      <label htmlFor={`${rid}-ref`} className="mb-1.5 block text-sm font-semibold text-ink">{method.factors.length ? "Factor source / reference" : "Input source / reference"}</label>
+                      <input id={`${rid}-ref`} className={field} value={row.source.reference} onChange={(e) => updateRow(row.id, { source: { ...row.source, reference: e.target.value } })} placeholder="Document name" />
+                    </div>
+                    <div>
+                      <label htmlFor={`${rid}-sec`} className="mb-1.5 block text-sm font-semibold text-ink">Section / table</label>
+                      <input id={`${rid}-sec`} className={field} value={row.source.section ?? ""} onChange={(e) => updateRow(row.id, { source: { ...row.source, section: e.target.value } })} placeholder="e.g. Table 3.2-2" />
                     </div>
                     <div className="sm:col-span-2">
                       <label htmlFor={`${rid}-url`} className="mb-1.5 block text-sm font-semibold text-ink">Source URL</label>
@@ -383,6 +470,21 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
                       <label htmlFor={`${rid}-rev`} className="mb-1.5 block text-sm font-semibold text-ink">Revision date</label>
                       <input id={`${rid}-rev`} className={field} value={row.source.revision} onChange={(e) => updateRow(row.id, { source: { ...row.source, revision: e.target.value } })} placeholder="YYYY-MM" />
                     </div>
+                    {method.factors.length > 0 && (
+                      <>
+                        <div>
+                          <label htmlFor={`${rid}-rat`} className="mb-1.5 block text-sm font-semibold text-ink">Rating / quality <span className="font-normal text-muted">(optional)</span></label>
+                          <input id={`${rid}-rat`} className={field} value={row.source.rating ?? ""} onChange={(e) => updateRow(row.id, { source: { ...row.source, rating: e.target.value } })} placeholder="e.g. A" />
+                        </div>
+                        <div className="flex items-end sm:col-span-2">
+                          <Button type="button" variant="subtle" size="sm" onClick={() => saveFactors(row)}
+                            disabled={!row.source.reference.trim() || !method.factors.some((f) => Number.isFinite(num(row.values[f.key]))) || row.source.reference.startsWith("DEMO")}
+                            title="Needs a factor value and a reference">
+                            <BookmarkPlus className="h-4 w-4" aria-hidden="true" /> Save to My factors
+                          </Button>
+                        </div>
+                      </>
+                    )}
                   </div>
                 </fieldset>
               </li>
@@ -434,7 +536,9 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
               {row.source.reference ? (
                 <span className="min-w-0 text-slate-700">
                   {row.source.reference}
+                  {row.source.section && <span className="text-muted"> · {row.source.section}</span>}
                   {row.source.revision && <span className="text-muted"> · Revision {row.source.revision}</span>}
+                  {row.source.rating && <span className="text-muted"> · Rating {row.source.rating}</span>}
                   {row.source.url && (
                     <a href={row.source.url} target="_blank" rel="noopener noreferrer" className="mt-0.5 flex items-center gap-1 truncate text-xs text-brand-600 hover:underline">
                       <ExternalLink className="h-3 w-3 shrink-0" aria-hidden="true" />{row.source.url}

@@ -1,4 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { RT } from "@/lib/tools/rule-text";
+import { factorLibrary, factorRecordFields, factorsCsv, factorsFor, sameFactor, type EmissionFactorRecord } from "./factors";
 import { annualize, calculatorMethods, G_PER_LB, getMethod, LB_PER_KG } from "./methods";
 
 /** Runs a method with explicit inputs and factors. */
@@ -66,6 +68,43 @@ describe("calculator methods: hand-checked math", () => {
     expect(r.lbPerHr).toBeCloseTo((scf / 379.3) * 20 * 0.1, 12);
   });
 
+  it("tank-losses: reproduces AP-42 Section 7.1's fixed roof worked example", () => {
+    const ex = { vv: 169.6, wv: 0.0143, ke: 0.108, ks: 0.888, q: 201.2, d: 6, hlx: 11.5, hln: 4.5, kp: 1, kb: 1, flash: 0, wt: 100, __hours: 8760 };
+    const r = run("tank-losses", ex);
+    const step = (label: string) => r.steps.find((s) => s.label.startsWith(label))!.value;
+    const ls = 365 * 169.6 * 0.0143 * 0.108 * 0.888;
+    expect(step("Standing loss")).toBeCloseTo(ls, 2);
+    expect(step("ΣHQI")).toBeCloseTo(39.9, 1); // "ΣHQI =(5.614) (201.2) / ((π/4) 62) = 39.9 ft"
+    expect(step("Turnovers")).toBeCloseTo(5.7, 1); // "N =39.9 / (11.5 – 4.5) = 5.7"
+    expect(step("Turnover factor")).toBe(1);
+    expect(Math.abs(step("Working loss") - 16.1)).toBeLessThan(0.1); // "LW = ... = 16.1 lb/yr"
+    expect(r.lbPerHr * 8760).toBeCloseTo(ls + 5.614 * 201.2 * 0.0143, 6);
+    for (const x of [RT.ap42HqiExample, RT.ap42NExample, RT.ap42LwExample, RT.ap42LsExample]) expect(getMethod("tank-losses")!.basis).toContain(x);
+  });
+
+  it("tank-losses: KN above 36 turnovers, KN = 1 with flashing, and KP for crude", () => {
+    const base = { vv: 100, wv: 0.02, ke: 0.1, ks: 0.9, q: 50000, d: 10, hlx: 20, hln: 2, kp: 1, kb: 1, flash: 0, wt: 50, __hours: 8760 };
+    const n = (5.614 * 50000) / ((Math.PI / 4) * 100) / 18;
+    expect(n).toBeGreaterThan(36);
+    const kn = (180 + n) / (6 * n);
+    const step = (r: ReturnType<typeof run>, label: string) => r.steps.find((s) => s.label.startsWith(label))!.value;
+    const r = run("tank-losses", base);
+    expect(step(r, "Turnover factor")).toBeCloseTo(kn, 4);
+    const crude = run("tank-losses", { ...base, kp: 0.75 });
+    expect(step(crude, "Working loss") / step(r, "Working loss")).toBeCloseTo(0.75, 4);
+    const flashed = run("tank-losses", { ...base, flash: 1000 });
+    expect(step(flashed, "Turnover factor")).toBe(1);
+    expect(flashed.steps.some((s) => s.label === "Add flashing")).toBe(true);
+    expect(getMethod("tank-losses")!.validate!({ ...base, hlx: 2 })).toMatch(/Maximum liquid height/);
+    expect(getMethod("tank-losses")!.validate!({ ...base, d: 0 })).toMatch(/diameter/);
+    expect(getMethod("tank-losses")!.validate!(base)).toBeNull();
+  });
+
+  it("tank-losses: every constant in the math is stated in a quoted AP-42 line", () => {
+    const quoted = getMethod("tank-losses")!.basis!.map((q) => q.text).join(" ");
+    for (const c of ["365", "5.614", "180", "36", "0.75", "KB = 1", "KN = 1"]) expect(quoted, c).toContain(c);
+  });
+
   it("ghg: heat input × kg/MMBtu × lb/kg (CO2e is applied in the calculator from the GWP the user enters)", () => {
     expect(run("ghg", { q: 10 }, { ef: 50 }).lbPerHr).toBeCloseTo(500 * LB_PER_KG, 9);
   });
@@ -89,6 +128,9 @@ describe("calculator methods: structure", () => {
   it.each(calculatorMethods.map((m) => [m.slug]))("%s shows its formula and methodology", (slug) => {
     const m = getMethod(slug)!;
     expect(m.formula.length).toBeGreaterThan(5);
+    expect(m.variables.length).toBeGreaterThan(1);
+    for (const v of m.variables) expect(v.meaning.length, `${slug} ${v.symbol}`).toBeGreaterThan(3);
+    for (const q of m.basis ?? []) expect(Object.values(RT), `${slug}: ${q.text}`).toContain(q);
     expect(m.methodology.length).toBeGreaterThan(20);
     expect(m.factorGuidance.length).toBeGreaterThan(20);
   });
@@ -113,5 +155,34 @@ describe("annualize", () => {
   it("adds a control step only when control is applied", () => {
     expect(annualize(base, 0, 8760).steps.some((s) => s.label === "Apply control")).toBe(false);
     expect(annualize(base, 50, 8760).steps.some((s) => s.label === "Apply control")).toBe(true);
+  });
+});
+
+describe("factor records", () => {
+  const rec = (patch: Partial<EmissionFactorRecord> = {}): EmissionFactorRecord => ({
+    id: "1", origin: "user", method: "engines", factorKey: "ef", sourceCategory: "Engines", pollutant: "NOx", value: 1, units: "g/hp-hr",
+    referenceDocument: "Manufacturer guarantee", sectionTable: "Sheet 2", revisionDate: "2026-01", url: "", rating: "", notes: "", versions: [], ...patch,
+  });
+
+  it("ships no library factors until they pass review", () => {
+    expect(factorLibrary).toEqual([]);
+  });
+
+  it("matches saved factors to the calculator field and unit", () => {
+    const list = [rec(), rec({ id: "2", units: "lb/MMBtu" }), rec({ id: "3", method: "heaters" })];
+    expect(factorsFor(list, "engines", "ef", "g/hp-hr").map((r) => r.id)).toEqual(["1"]);
+    for (const m of calculatorMethods) for (const f of m.factors) expect(factorsFor([rec({ method: m.slug, factorKey: f.key, units: f.unit })], m.slug, f.key, f.unit)).toHaveLength(1);
+  });
+
+  it("treats the same value and citation as one factor", () => {
+    expect(sameFactor(rec(), rec({ id: "9" }))).toBe(true);
+    expect(sameFactor(rec(), rec({ value: 2 }))).toBe(false);
+    expect(sameFactor(rec(), rec({ sectionTable: "Sheet 3" }))).toBe(false);
+  });
+
+  it("exports every record field", () => {
+    const csv = factorsCsv([rec()]).split("\n");
+    expect(csv[0].split(",")).toHaveLength(factorRecordFields.length + 2);
+    expect(csv[1]).toContain("Manufacturer guarantee");
   });
 });

@@ -68,7 +68,7 @@ export const federalRegulations: Regulation[] = [
       { agency: EPA, title: "40 CFR Part 60 (eCFR)", url: ecfr(60), citation: "40 CFR Part 60", lastReviewed: null },
     ],
     relatedRules: ["neshap", "title-v"],
-    relatedCalculators: ["engines", "tanks", "fugitives"],
+    relatedCalculators: ["engines", "tanks", "tank-losses", "fugitives"],
   },
   {
     slug: "neshap",
@@ -173,7 +173,7 @@ export const federalRegulations: Regulation[] = [
       { agency: EPA, title: "40 CFR Part 71 (eCFR)", url: ecfr(71), citation: "40 CFR Part 71", lastReviewed: null },
     ],
     relatedRules: ["nsr", "psd", "nsps", "neshap"],
-    relatedCalculators: ["engines", "heaters", "flares", "tanks", "fugitives"],
+    relatedCalculators: ["engines", "heaters", "flares", "tanks", "tank-losses", "fugitives"],
   },
   {
     slug: "nsr",
@@ -207,7 +207,7 @@ export const federalRegulations: Regulation[] = [
       { agency: EPA, title: "40 CFR Part 52 (eCFR)", url: "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52", citation: "40 CFR Part 52", lastReviewed: null },
     ],
     relatedRules: ["psd", "nonattainment-nsr", "title-v"],
-    relatedCalculators: ["engines", "heaters", "flares", "tanks"],
+    relatedCalculators: ["engines", "heaters", "flares", "tanks", "tank-losses"],
   },
   {
     slug: "psd",
@@ -297,7 +297,7 @@ export const federalRegulations: Regulation[] = [
       },
     ],
     relatedRules: ["nsps", "title-v"],
-    relatedCalculators: ["engines", "heaters", "flares", "tanks", "fugitives"],
+    relatedCalculators: ["engines", "heaters", "flares", "tanks", "tank-losses", "fugitives"],
   },
   {
     slug: "ghg-reporting",

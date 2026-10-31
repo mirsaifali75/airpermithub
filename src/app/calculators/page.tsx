@@ -5,6 +5,8 @@ import { Badge } from "@/components/ui/Badge";
 import { Disclaimer } from "@/components/ui/Notices";
 import { calcCategories, calculatorMethods } from "@/lib/calc/methods";
 import { CalculatorGrid } from "@/components/calculator/CalculatorGrid";
+import { MyFactors } from "@/components/calculator/MyFactors";
+import { factorRecordFields } from "@/lib/calc/factors";
 import { pollutants } from "@/lib/data/equipment";
 
 export const metadata: Metadata = {
@@ -13,8 +15,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "/calculators" },
 };
 
-
-const factorFields = ["Source category", "Pollutant", "Factor value", "Units", "Reference document", "Section / table", "Publication or revision date", "Official URL", "Rating / quality", "Notes", "Version history"];
 
 export default function CalculatorsPage() {
   return (
@@ -36,7 +36,7 @@ export default function CalculatorsPage() {
           {[
             { icon: Eye, title: "Transparent by design", body: "Every result shows its formula, inputs, emission factor, and each intermediate step, so a reviewer can reproduce it by hand." },
             { icon: FileCheck2, title: "You cite the factor", body: "AirPermitHub does not ship unverified emission factors. Enter the factor and its reference; results without a cited source are flagged." },
-            { icon: History, title: "Versioned factor library", body: "Coming soon: a factor database where every value carries its publication, revision date, URL, and version history." },
+            { icon: History, title: "Versioned factor library", body: "Coming soon: reviewed factors with publication, revision date, URL, and version history. Today you can save the factors you cite as My factors, in the same record format." },
           ].map(({ icon: Icon, title, body }) => (
             <div key={title} className="rounded-2xl border border-line bg-white p-6 shadow-card">
               <Icon className="h-6 w-6 text-brand-500" aria-hidden="true" />
@@ -51,7 +51,7 @@ export default function CalculatorsPage() {
             <h2 className="flex items-center gap-2 text-lg font-bold text-ink"><Database className="h-5 w-5 text-brand-500" aria-hidden="true" /> Emission factor record</h2>
             <p className="mt-1 text-sm text-muted">Every factor in the upcoming library will store:</p>
             <ul className="mt-4 flex flex-wrap gap-2">
-              {factorFields.map((f) => <li key={f}><Badge tone="blue">{f}</Badge></li>)}
+              {factorRecordFields.map((f) => <li key={f.key}><Badge tone="blue">{f.label}</Badge></li>)}
             </ul>
           </div>
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
@@ -62,6 +62,8 @@ export default function CalculatorsPage() {
             </ul>
           </div>
         </section>
+
+        <MyFactors methodNames={Object.fromEntries(calculatorMethods.map((m) => [m.slug, m.title]))} />
 
         <Disclaimer />
       </div>

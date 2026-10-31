@@ -7,7 +7,13 @@
  *
  * "Demo values" exist only so the interface can be explored. They are
  * illustrative numbers with no source and are flagged everywhere they appear.
+ *
+ * Where a method follows a published EPA procedure, `basis` carries the
+ * procedure's own words (verified quotes from src/lib/tools/rule-text.ts),
+ * and the constants in `compute` are the ones those quotes state.
  */
+
+import { RT, type RuleQuote } from "@/lib/tools/rule-text";
 
 export const G_PER_LB = 453.592;
 export const LB_PER_KG = 2.20462;
@@ -19,10 +25,19 @@ export interface NumberInput {
   help?: string;
   min?: number;
   max?: number;
-  step?: number;
+  step?: number | "any";
   demo: number;
+  /** Prefilled value, for inputs with a usual setting the user can change (e.g. KB = 1). */
+  initial?: number;
   /** Varies by pollutant (e.g. weight fraction), so each pollutant row carries its own value. */
   perPollutant?: boolean;
+}
+
+/** One symbol in a method's formula. */
+export interface Variable {
+  symbol: string;
+  meaning: string;
+  unit: string;
 }
 
 export interface FactorInput {
@@ -62,7 +77,15 @@ export interface CalculatorMethod {
   description: string;
   keywords: string;
   formula: string;
+  /** Every symbol in the formula, in order. */
+  variables: Variable[];
   methodology: string;
+  /** Verbatim text of the published procedure the method follows, each linked to its source. */
+  basis?: RuleQuote[];
+  /** Replaces the generic demo label when the demo values have a source (e.g. a worked example). */
+  demoNote?: string;
+  /** Input combinations the math can't use, beyond blank or negative values. */
+  validate?(inputs: Record<string, number>): string | null;
   /** Where users typically find factors for this method. Guidance, not a factor. */
   factorGuidance: string;
   inputs: NumberInput[];
@@ -108,6 +131,13 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Stationary reciprocating engines driving compressors, pumps, or generators.",
     keywords: "engine rice compressor generator nox co voc hcho g/hp-hr horsepower",
     formula: "E (lb/hr) = EF (g/hp-hr) × P (hp) × L ÷ 453.592 (g/lb)",
+    variables: [
+      { symbol: "E", meaning: "Emission rate", unit: "lb/hr" },
+      { symbol: "EF", meaning: "Brake-specific emission factor", unit: "g/hp-hr" },
+      { symbol: "P", meaning: "Rated power", unit: "hp" },
+      { symbol: "L", meaning: "Load fraction (load % ÷ 100)", unit: "—" },
+      { symbol: "453.592", meaning: "Grams per pound", unit: "g/lb" },
+    ],
     methodology:
       "Power-based method. Multiplies a brake-specific emission factor by rated horsepower and load fraction, then converts grams to pounds.",
     factorGuidance:
@@ -142,6 +172,12 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Gas-fired heaters, heater treaters, reboilers, and other external combustion units.",
     keywords: "heater heater treater reboiler boiler combustion mmbtu natural gas lb/mmscf",
     formula: "E (lb/hr) = EF (lb/MMscf) × Q (MMBtu/hr) ÷ HHV (Btu/scf)",
+    variables: [
+      { symbol: "E", meaning: "Emission rate", unit: "lb/hr" },
+      { symbol: "EF", meaning: "Emission factor per volume of fuel", unit: "lb/MMscf" },
+      { symbol: "Q", meaning: "Heat input", unit: "MMBtu/hr" },
+      { symbol: "HHV", meaning: "Fuel higher heating value (Btu/scf = MMBtu/MMscf)", unit: "Btu/scf" },
+    ],
     methodology:
       "Heat-input method. Converts firing rate to fuel volume using the fuel's higher heating value, then applies a volume-based factor. (Btu/scf is numerically equal to MMBtu/MMscf.)",
     factorGuidance:
@@ -174,8 +210,14 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Combustion products from flares and enclosed combustors based on heat release.",
     keywords: "flare combustor enclosed combustion device heat release nox co",
     formula: "E (lb/hr) = EF (lb/MMBtu) × H (MMBtu/hr)",
+    variables: [
+      { symbol: "E", meaning: "Emission rate", unit: "lb/hr" },
+      { symbol: "EF", meaning: "Emission factor per heat release", unit: "lb/MMBtu" },
+      { symbol: "H", meaning: "Heat release = flow (Mscf/hr) × 1,000 × heating value (Btu/scf) ÷ 10⁶", unit: "MMBtu/hr" },
+    ],
     methodology:
-      "Heat-release method for combustion products. Heat release is the waste-gas flow multiplied by its heating value. Uncombusted VOC from the controlled stream should be calculated separately from the stream's composition and the destruction efficiency you can support.",
+      "Heat-release method for combustion products. Heat release is the waste-gas flow multiplied by its heating value. Uncombusted VOC is a separate calculation: find the VOC routed to the flare with the Venting calculator, then enter the destruction efficiency your permit or applicable rule allows as its control efficiency. AP-42's description of flare destruction efficiency is quoted below.",
+    basis: [RT.ap42Flare98, RT.ap42FlareDre],
     factorGuidance:
       "Use factors expressed per unit of heat release and document which fuel/flare type and revision they represent.",
     inputs: [
@@ -206,8 +248,14 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Throughput-based estimate using a site-specific or published loss factor.",
     keywords: "tank storage vessel voc flash working breathing throughput bbl loading",
     formula: "E (tpy) = EF (lb/bbl) × T (bbl/yr) ÷ 2,000 (lb/ton)",
+    variables: [
+      { symbol: "E", meaning: "Annual emissions", unit: "tons/yr" },
+      { symbol: "EF", meaning: "Loss factor per barrel", unit: "lb/bbl" },
+      { symbol: "T", meaning: "Annual throughput", unit: "bbl/yr" },
+      { symbol: "2,000", meaning: "Pounds per ton", unit: "lb/ton" },
+    ],
     methodology:
-      "Throughput method. Applies a per-barrel loss factor to annual throughput. Detailed tank calculations (working, breathing, and flash losses) depend on tank geometry, liquid properties, and process conditions; use this method only when you have a defensible per-barrel factor, such as one derived from a site-specific sample.",
+      "Throughput method. Applies a per-barrel loss factor to annual throughput. Detailed tank calculations (working, breathing, and flash losses) depend on tank geometry, liquid properties, and process conditions; use this method only when you have a defensible per-barrel factor, such as one derived from a site-specific sample. For standing and working losses from tank data, use the Fixed-Roof Tank Losses calculator (AP-42 Section 7.1).",
     factorGuidance:
       "Per-barrel factors usually come from a site-specific flash analysis or an approved calculation for the same liquid and conditions. Note sample date and lab report.",
     inputs: [{ key: "throughput", label: "Annual throughput", unit: "bbl/yr", min: 0, step: 100, demo: 365000 }],
@@ -226,6 +274,95 @@ export const calculatorMethods: CalculatorMethod[] = [
     },
   },
   {
+    slug: "tank-losses",
+    title: "Fixed-Roof Tank Losses (AP-42 7.1)",
+    short: "Standing plus working losses from tank and liquid data.",
+    categories: ["Storage Tanks", "EPA Methods", "Oil & Gas"],
+    icon: "tank",
+    name: "Fixed-Roof Tanks (AP-42)",
+    equipmentCategory: "Storage Tanks",
+    description: "Routine standing and working losses from a vertical fixed-roof tank, following EPA AP-42 Section 7.1.",
+    keywords: "tank fixed roof ap-42 7.1 standing loss working loss breathing turnovers vapor density voc",
+    formula: "LT (lb/yr) = LS + LW;  LS = 365 × VV × WV × KE × KS;  LW = VQ × KN × KP × WV × KB;  VQ = 5.614 × Q",
+    variables: [
+      { symbol: "LT", meaning: "Total routine losses", unit: "lb/yr" },
+      { symbol: "LS", meaning: "Standing loss", unit: "lb/yr" },
+      { symbol: "LW", meaning: "Working loss", unit: "lb/yr" },
+      { symbol: "VV", meaning: "Vapor space volume", unit: "ft³" },
+      { symbol: "WV", meaning: "Stock vapor density (AP-42 Equation 1-24)", unit: "lb/ft³" },
+      { symbol: "KE", meaning: "Vapor space expansion factor", unit: "per day" },
+      { symbol: "KS", meaning: "Vented vapor saturation factor (AP-42 Equation 1-23)", unit: "—" },
+      { symbol: "VQ", meaning: "Net working loss throughput = 5.614 × Q", unit: "ft³/yr" },
+      { symbol: "Q", meaning: "Annual net throughput", unit: "bbl/yr" },
+      { symbol: "N", meaning: "Turnovers per year = ΣHQI ÷ (HLX − HLN), with ΣHQI = 5.614 × Q ÷ ((π/4) × D²)", unit: "—" },
+      { symbol: "D, HLX, HLN", meaning: "Tank diameter, maximum and minimum liquid height", unit: "ft" },
+      { symbol: "KN", meaning: "Turnover factor: (180 + N) ÷ 6N when N > 36, otherwise 1; 1 when flashing occurs", unit: "—" },
+      { symbol: "KP", meaning: "Working loss product factor: 0.75 for crude oils, 1 for other organic liquids", unit: "—" },
+      { symbol: "KB", meaning: "Vent setting correction factor", unit: "—" },
+      { symbol: "w", meaning: "Pollutant weight fraction of the vapor (wt % ÷ 100)", unit: "—" },
+    ],
+    methodology:
+      "AP-42 Section 7.1 method for routine losses from a vertical fixed-roof tank. Standing loss comes from the vapor space and daily expansion; working loss from throughput, turnovers, and the product. Flashing losses are not part of LT: estimate them with a site-specific method and enter the result, and if vapors go to a control device, apply its efficiency to all three. WV, KE, and KS come from AP-42's own equations for the liquid and site; enter the values you calculated and keep that work on file.",
+    basis: [
+      RT.ap42Total, RT.ap42LtSum, RT.ap42LtDef, RT.ap42Standing, RT.ap42Days, RT.ap42VvDef, RT.ap42WvDef, RT.ap42KeDef, RT.ap42KsDef,
+      RT.ap42LwDef, RT.ap42VqQ, RT.ap42Vq, RT.ap42QDef, RT.ap42NDef, RT.ap42HqiExample, RT.ap42NExample, RT.ap42Kn, RT.ap42KnLow, RT.ap42KnFlash,
+      RT.ap42Kp, RT.ap42KpOther, RT.ap42Kb, RT.ap42LsExample, RT.ap42LwExample, RT.ap42Flash, RT.ap42FlashWhere, RT.ap42FlashControl,
+    ],
+    demoNote: "DEMO VALUES: inputs from AP-42 Section 7.1's fixed roof tank worked example, not a real tank",
+    factorGuidance:
+      "This method needs no emission factor. WV, KE, and KS come from AP-42 Section 7.1's equations for your liquid and site; the vapor weight fraction comes from a vapor analysis or speciation. Cite each.",
+    inputs: [
+      { key: "vv", label: "Vapor space volume (VV)", unit: "ft³", min: 0, step: "any", demo: 169.6 },
+      { key: "wv", label: "Stock vapor density (WV)", unit: "lb/ft³", min: 0, step: "any", demo: 0.0143, help: "AP-42 Equation 1-24." },
+      { key: "ke", label: "Vapor space expansion factor (KE)", unit: "per day", min: 0, step: "any", demo: 0.108 },
+      { key: "ks", label: "Vented vapor saturation factor (KS)", unit: "—", min: 0, max: 1, step: "any", demo: 0.888, help: "AP-42 Equation 1-23." },
+      { key: "q", label: "Annual net throughput (Q)", unit: "bbl/yr", min: 0, step: 1, demo: 201.2 },
+      { key: "d", label: "Tank diameter (D)", unit: "ft", min: 0, step: "any", demo: 6 },
+      { key: "hlx", label: "Maximum liquid height (HLX)", unit: "ft", min: 0, step: "any", demo: 11.5 },
+      { key: "hln", label: "Minimum liquid height (HLN)", unit: "ft", min: 0, step: "any", demo: 4.5 },
+      { key: "kp", label: "Working loss product factor (KP)", unit: "—", min: 0, step: "any", demo: 1, initial: 1, help: "AP-42: 0.75 for crude oils; 1 for all other organic liquids." },
+      { key: "kb", label: "Vent setting correction factor (KB)", unit: "—", min: 0, step: "any", demo: 1, initial: 1, help: "AP-42: KB = 1 for a vent setting range up to ± 0.03 psig." },
+      { key: "flash", label: "Flashing loss (site-specific)", unit: "lb/yr", min: 0, step: "any", demo: 0, initial: 0, help: "0 unless flashing occurs. When it does, KN = 1." },
+      { key: "wt", label: "Pollutant weight fraction of the vapor", unit: "%", min: 0, max: 100, step: 0.1, demo: 100, perPollutant: true, help: "e.g. VOC weight percent of the tank vapor." },
+    ],
+    factors: [],
+    validate(i) {
+      if (!(i.d > 0)) return "Tank diameter must be greater than 0.";
+      if (!(i.hlx > i.hln)) return "Maximum liquid height must be greater than minimum liquid height.";
+      return null;
+    },
+    compute(i) {
+      const ls = 365 * i.vv * i.wv * i.ke * i.ks;
+      const vq = 5.614 * i.q;
+      const hqi = vq / ((Math.PI / 4) * i.d * i.d);
+      const n = hqi / (i.hlx - i.hln);
+      const flashing = i.flash > 0;
+      const kn = flashing ? 1 : n > 36 ? (180 + n) / (6 * n) : 1;
+      const lw = vq * kn * i.kp * i.wv * i.kb;
+      const lt = ls + lw;
+      const total = lt + i.flash;
+      const w = i.wt / 100;
+      const lbPerYr = total * w;
+      const hours = i.__hours || 8760;
+      const lbPerHr = lbPerYr / hours;
+      return {
+        lbPerHr,
+        steps: [
+          { label: "Standing loss LS", expression: `365 × ${i.vv} × ${i.wv} × ${i.ke} × ${i.ks}`, value: round(ls), unit: "lb/yr" },
+          { label: "VQ", expression: `5.614 × ${i.q} bbl/yr`, value: round(vq), unit: "ft³/yr" },
+          { label: "ΣHQI", expression: `${round(vq)} ÷ ((π/4) × ${i.d}²)`, value: round(hqi), unit: "ft" },
+          { label: "Turnovers N", expression: `${round(hqi)} ÷ (${i.hlx} − ${i.hln})`, value: round(n), unit: "per yr" },
+          { label: "Turnover factor KN", expression: flashing ? "1 (flashing occurs)" : n > 36 ? `(180 + ${round(n)}) ÷ (6 × ${round(n)})` : `1 (N = ${round(n)}, 36 or fewer)`, value: round(kn), unit: "—" },
+          { label: "Working loss LW", expression: `${round(vq)} × ${round(kn)} × ${i.kp} × ${i.wv} × ${i.kb}`, value: round(lw), unit: "lb/yr" },
+          { label: "Routine losses LT", expression: `${round(ls)} + ${round(lw)}`, value: round(lt), unit: "lb/yr" },
+          ...(flashing ? [{ label: "Add flashing", expression: `${round(lt)} + ${i.flash}`, value: round(total), unit: "lb/yr" }] : []),
+          { label: "Pollutant share", expression: `${round(total)} lb/yr × ${w}`, value: round(lbPerYr), unit: "lb/yr" },
+          { label: "Average hourly rate", expression: `${round(lbPerYr)} lb/yr ÷ ${hours} hr/yr`, value: round(lbPerHr), unit: "lb/hr" },
+        ],
+      };
+    },
+  },
+  {
     slug: "fugitives",
     title: "Fugitive Emissions Calculator",
     short: "Component counts and average emission factors (LDAR).",
@@ -236,8 +373,16 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Component-count method for equipment leaks.",
     keywords: "fugitive leaks ldar components valves connectors flanges seals voc methane",
     formula: "E (lb/hr) = Σ [ Nᵢ × EFᵢ (kg/hr/component) ] × 2.20462 (lb/kg) × W",
+    variables: [
+      { symbol: "E", meaning: "Emission rate of the pollutant", unit: "lb/hr" },
+      { symbol: "Nᵢ", meaning: "Number of components of type i", unit: "count" },
+      { symbol: "EFᵢ", meaning: "Average emission factor for type i (total organic compounds)", unit: "kg/hr/component" },
+      { symbol: "2.20462", meaning: "Pounds per kilogram", unit: "lb/kg" },
+      { symbol: "W", meaning: "Weight fraction of the pollutant in the stream (wt % ÷ 100)", unit: "—" },
+    ],
     methodology:
-      "Average emission factor approach. Sums component counts multiplied by per-component factors for total hydrocarbon, converts to pounds, then applies the weight fraction of the pollutant in the stream.",
+      "Average emission factor approach from EPA's 1995 equipment leak protocol (quoted below). The protocol computes total organic compounds as FA × WFTOC × N for each equipment type, then speciates with WPx/WPTOC. Multiplying by WFTOC and then by WPx/WPTOC is the same as multiplying by the pollutant's weight fraction in the stream, so this calculator asks for that one fraction.",
+    basis: [RT.leakEquation, RT.leakEtocDef, RT.leakFaDef, RT.leakWfDef, RT.leakNDef, RT.leakSpeciate, RT.leakPopulation],
     factorGuidance:
       "Per-component factors depend on service type (gas, light liquid, heavy liquid) and industry segment. Cite the protocol and table used.",
     inputs: [
@@ -285,6 +430,11 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "General activity-based calculation for any source category with a published per-unit emission factor.",
     keywords: "ap-42 ap42 emission factor activity rate generic lb/unit epa",
     formula: "E (lb/hr) = A (units/hr) × EF (lb/unit)",
+    variables: [
+      { symbol: "E", meaning: "Emission rate", unit: "lb/hr" },
+      { symbol: "A", meaning: "Activity rate, in the factor's denominator unit", unit: "units/hr" },
+      { symbol: "EF", meaning: "Emission factor", unit: "lb/unit" },
+    ],
     methodology:
       "Activity-based method. Multiplies an hourly activity rate (fuel burned, material processed, product made) by an emission factor expressed per unit of that activity. Units must match: the factor's denominator must be the activity unit.",
     factorGuidance:
@@ -307,6 +457,13 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Converts a measured or engineered vented gas volume to pollutant mass using gas composition.",
     keywords: "venting vent blowdown relief pressure gas volume scf composition voc methane",
     formula: "E (lb/hr) = V (scf/hr) ÷ MV (scf/lb-mol) × MW (lb/lb-mol) × w",
+    variables: [
+      { symbol: "E", meaning: "Emission rate of the pollutant", unit: "lb/hr" },
+      { symbol: "V", meaning: "Vented gas volume at standard conditions", unit: "scf/hr" },
+      { symbol: "MV", meaning: "Molar volume at the same standard conditions", unit: "scf/lb-mol" },
+      { symbol: "MW", meaning: "Gas molecular weight", unit: "lb/lb-mol" },
+      { symbol: "w", meaning: "Pollutant weight fraction (wt % ÷ 100)", unit: "—" },
+    ],
     methodology:
       "Ideal-gas mass balance. Converts vented volume at standard conditions to moles with the molar volume, to mass with the gas molecular weight, then applies the pollutant's weight fraction from a gas analysis.",
     factorGuidance:
@@ -328,6 +485,14 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Per-compressor vent or leak rate from rod packing or seals, converted to pollutant mass.",
     keywords: "compressor reciprocating centrifugal rod packing wet seal vent leak scf methane voc",
     formula: "E (lb/hr) = N × R (scf/hr/unit) ÷ MV × MW × w",
+    variables: [
+      { symbol: "E", meaning: "Emission rate of the pollutant", unit: "lb/hr" },
+      { symbol: "N", meaning: "Number of units (compressors, cylinders, or seals, matching R)", unit: "count" },
+      { symbol: "R", meaning: "Vent or leak rate per unit", unit: "scf/hr/unit" },
+      { symbol: "MV", meaning: "Molar volume at standard conditions", unit: "scf/lb-mol" },
+      { symbol: "MW", meaning: "Gas molecular weight", unit: "lb/lb-mol" },
+      { symbol: "w", meaning: "Pollutant weight fraction (wt % ÷ 100)", unit: "—" },
+    ],
     methodology:
       "Count-times-rate method. Multiplies the number of compressors (or packing cylinders / seals, matching your rate basis) by a per-unit vent rate, then converts the gas volume to pollutant mass.",
     factorGuidance:
@@ -350,6 +515,14 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Device count and bleed rate by type, converted from natural gas volume to pollutant mass.",
     keywords: "pneumatic controller pump high bleed low bleed intermittent natural gas methane voc",
     formula: "E (lb/hr) = Σ [Nᵢ × Bᵢ (scf/hr/device)] ÷ MV × MW × w",
+    variables: [
+      { symbol: "E", meaning: "Emission rate of the pollutant", unit: "lb/hr" },
+      { symbol: "Nᵢ", meaning: "Number of devices of type i", unit: "count" },
+      { symbol: "Bᵢ", meaning: "Bleed rate for type i", unit: "scf/hr/device" },
+      { symbol: "MV", meaning: "Molar volume at standard conditions", unit: "scf/lb-mol" },
+      { symbol: "MW", meaning: "Gas molecular weight", unit: "lb/lb-mol" },
+      { symbol: "w", meaning: "Pollutant weight fraction (wt % ÷ 100)", unit: "—" },
+    ],
     methodology:
       "Count-times-bleed-rate method by device type, summed, then converted from gas volume to pollutant mass with the gas composition.",
     factorGuidance:
@@ -385,6 +558,13 @@ export const calculatorMethods: CalculatorMethod[] = [
     description: "Fuel heat input times a per-MMBtu greenhouse gas factor, with CO₂e from the GWP you enter.",
     keywords: "ghg greenhouse gas co2 ch4 n2o co2e gwp combustion kg/mmbtu part 98",
     formula: "E (lb/hr) = Q (MMBtu/hr) × EF (kg/MMBtu) × 2.20462 (lb/kg)",
+    variables: [
+      { symbol: "E", meaning: "Emission rate of the gas", unit: "lb/hr" },
+      { symbol: "Q", meaning: "Heat input", unit: "MMBtu/hr" },
+      { symbol: "EF", meaning: "Emission factor for the gas", unit: "kg/MMBtu" },
+      { symbol: "2.20462", meaning: "Pounds per kilogram", unit: "lb/kg" },
+      { symbol: "GWP", meaning: "Global warming potential you enter, for CO2e", unit: "×" },
+    ],
     methodology:
       "Heat-input method for combustion greenhouse gases. Multiplies heat input by a per-MMBtu factor for the selected gas, converts kilograms to pounds, then (for CH4 and N2O) multiplies by the global warming potential you enter to report CO2e.",
     factorGuidance:
