@@ -1,0 +1,170 @@
+{
+ "f001.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=70&section=70.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=70&section=70.2",
+  "type": "text/xml",
+  "title": "",
+  "length": 21301
+ },
+ "f002.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=70&section=70.6",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=70&section=70.6",
+  "type": "text/xml",
+  "title": "",
+  "length": 21366
+ },
+ "f003.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=52&section=52.21",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=52&section=52.21",
+  "type": "text/xml",
+  "title": "",
+  "length": 140274
+ },
+ "f004.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.2",
+  "type": "text/xml",
+  "title": "",
+  "length": 28246
+ },
+ "f005.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.9",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.9",
+  "type": "text/xml",
+  "title": "",
+  "length": 22774
+ },
+ "f006.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.10",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.10",
+  "type": "text/xml",
+  "title": "",
+  "length": 34532
+ },
+ "f007.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.2",
+  "type": "text/xml",
+  "title": "",
+  "length": 11319
+ },
+ "f008.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.7",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.7",
+  "type": "text/xml",
+  "title": "",
+  "length": 13199
+ },
+ "f009.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.8",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.8",
+  "type": "text/xml",
+  "title": "",
+  "length": 20333
+ },
+ "f010.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.14",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.14",
+  "type": "text/xml",
+  "title": "",
+  "length": 6853
+ },
+ "f011.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.15",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.15",
+  "type": "text/xml",
+  "title": "",
+  "length": 2842
+ },
+ "f012.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.18",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.18",
+  "type": "text/xml",
+  "title": "",
+  "length": 18306
+ },
+ "f013.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.19",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.19",
+  "type": "text/xml",
+  "title": "",
+  "length": 5484
+ },
+ "f014.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2015-08/documents/lmitpotl.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2015-08/documents/lmitpotl.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 34279
+ },
+ "f015.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2015-07/documents/ptememo.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2015-07/documents/ptememo.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 113399
+ },
+ "f016.txt": {
+  "url": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-7-liquid-storage-0",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-7-liquid-storage-0",
+  "type": "text/html",
+  "title": "AP 42, Fifth Edition, Volume I Chapter 7: Liquid Storage Tanks | US EPA",
+  "length": 2334
+ },
+ "f017.txt": {
+  "url": "https://www.epa.gov/system/files/documents/2026-08/c7s1_2026.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/system/files/documents/2026-08/c7s1_2026.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 441310
+ },
+ "f018.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2020-09/documents/protocol_for_equipment_leak_emission_estimates.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2020-09/documents/protocol_for_equipment_leak_emission_estimates.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 516130
+ },
+ "f019.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 35928
+ },
+ "f020.txt": {
+  "url": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-13-miscellaneous-1",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-13-miscellaneous-1",
+  "type": "text/html",
+  "title": "AP 42, Fifth Edition, Volume I Chapter 13: Miscellaneous Sources - Documents | US EPA",
+  "length": 4090
+ },
+ "f021.txt": {
+  "url": "https://www.epa.gov/enforcement/guidance-limiting-potential-emit-new-source-permitting-june-13-1989",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/enforcement/guidance-limiting-potential-emit-new-source-permitting-june-13-1989",
+  "type": "text/html",
+  "title": "Guidance on Limiting Potential to Emit in New Source Permitting, June 13, 1989 | US EPA",
+  "length": 3040
+ }
+}
