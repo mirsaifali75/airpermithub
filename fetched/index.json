@@ -1,0 +1,34 @@
+{
+ "f001.txt": {
+  "url": "https://deq.wyoming.gov/aqd/new-source-review/resources/guidance-documents/",
+  "status": 404,
+  "finalUrl": "https://deq.wyoming.gov/aqd/new-source-review/resources/guidance-documents/",
+  "type": "text/html",
+  "title": "Page not found - Wyoming Department of Environmental Quality",
+  "length": 4250
+ },
+ "f002.txt": {
+  "url": "https://deq.wyoming.gov/2024/12/the-wyoming-department-of-environmental-quality-begins-redesignation-process/",
+  "status": 500,
+  "finalUrl": "https://deq.wyoming.gov/2024/12/the-wyoming-department-of-environmental-quality-begins-redesignation-process/",
+  "type": "text/html",
+  "title": "The Wyoming Department of Environmental Quality Begins Redesignation Process - Wyoming Department of Environmental Quality",
+  "length": 8965
+ },
+ "f003.txt": {
+  "url": "https://deq.wyoming.gov/2024/05/the-wyoming-department-of-environmental-quality-air-quality-division-issues-oil-and-gas-emergency-rulemaking/",
+  "status": 500,
+  "finalUrl": "https://deq.wyoming.gov/2024/05/the-wyoming-department-of-environmental-quality-air-quality-division-issues-oil-and-gas-emergency-rulemaking/",
+  "type": "text/html",
+  "title": "The Wyoming Department of Environmental Quality – Air Quality Division issues Oil and Gas Emergency Rulemaking. - Wyoming Department of Environmental Quality",
+  "length": 8841
+ },
+ "f004.txt": {
+  "url": "https://www.federalregister.gov/documents/2016/06/02/2016-12725/approval-and-promulgation-of-air-quality-implementation-plans-wyoming-revisions-to-wyoming-air",
+  "status": 200,
+  "finalUrl": "https://www.federalregister.gov/documents/2016/06/02/2016-12725/approval-and-promulgation-of-air-quality-implementation-plans-wyoming-revisions-to-wyoming-air",
+  "type": "text/html",
+  "title": "Federal Register :: Approval and Promulgation of Air Quality Implementation Plans; Wyoming; Revisions to Wyoming Air Quality Standards and Regulations",
+  "length": 27698
+ }
+}
