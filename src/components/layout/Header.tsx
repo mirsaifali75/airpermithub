@@ -80,9 +80,9 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
           solid ? "bg-navy-900/92 shadow-[0_1px_0_rgb(255_255_255/0.08)] backdrop-blur-md" : "bg-transparent",
         )}
       >
-        <div className={cn("container-page flex items-center gap-4 transition-[height] duration-300", compact ? "h-16 lg:h-20" : "h-[5.5rem] lg:h-28")}>
+        <div className={cn("container-page flex items-center gap-4 transition-[height] duration-300", compact ? "h-[4.5rem] lg:h-[5.5rem]" : "h-32 lg:h-40")}>
           <Link href="/" aria-label="AirPermitHub home" className="shrink-0">
-            <Logo tone="dark" priority className={cn("p-1 transition-[height] duration-300", compact ? "h-[3.25rem] lg:h-16" : "h-20 lg:h-24")} />
+            <Logo tone="dark" priority className={cn("p-1 transition-[height] duration-300", compact ? "h-16 lg:h-[4.5rem]" : "h-28 lg:h-36")} />
           </Link>
 
           <nav aria-label="Primary" className="ml-2 hidden flex-1 items-center gap-0 xl:flex">
@@ -150,7 +150,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
         </div>
 
         {mobileOpen && (
-          <div id="mobile-nav" className="max-h-[calc(100dvh-5.5rem)] overflow-y-auto border-t border-white/10 bg-navy-900 xl:hidden">
+          <div id="mobile-nav" className="max-h-[calc(100dvh-8rem)] overflow-y-auto border-t border-white/10 bg-navy-900 xl:hidden">
             <div className="container-page py-4">
               <button
                 onClick={() => {

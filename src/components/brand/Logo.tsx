@@ -25,7 +25,7 @@ export function Logo({
       src={logo}
       alt="AirPermitHub: Nationwide Air Permitting Excellence"
       priority={priority}
-      sizes="170px"
+      sizes="220px"
       className={tone === "light" ? cn("w-auto", className) : "h-full w-auto object-contain"}
     />
   );

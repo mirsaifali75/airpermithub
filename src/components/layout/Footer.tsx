@@ -11,7 +11,7 @@ export function Footer() {
       <div className="container-page py-14">
         <div className="grid gap-12 lg:grid-cols-[1.15fr_2.6fr]">
           <div>
-            <Logo tone="dark" className="h-32 p-2" />
+            <Logo tone="dark" className="h-44 p-2" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">{site.description}</p>
             <div className="mt-8 max-w-sm">
               <h2 className="text-sm font-semibold">Stay Updated</h2>
