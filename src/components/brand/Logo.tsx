@@ -1,13 +1,13 @@
 import Image from "next/image";
-import logo from "@/assets/brand/airpermithub-logo.png";
+import logo from "@/assets/brand/airpermithub-mark.png";
 import { cn } from "@/lib/cn";
 
 /**
- * The official AirPermitHub logo, shown exactly as supplied (no redraw or
- * recolor). The asset is the transparent PNG with only its empty outer margin
- * trimmed, so the artwork fills more of the space. The artwork has a navy
- * wordmark and navy eagle, so on dark backgrounds it sits on a white tile.
- * Source files: public/brand (original PNG, transparent PNG, SVG wrapper).
+ * The AirPermitHub logo (eagle mark with wordmark), shown exactly as supplied
+ * (no redraw or recolor). The asset is the original with only its empty white
+ * margin trimmed. On dark backgrounds it sits on a white tile.
+ * Source: public/brand/airpermithub-mark.png. The detailed eagle-and-map logo
+ * (public/brand/airpermithub-logo.png) is shown large on the home page.
  */
 export function Logo({
   tone = "dark",
@@ -23,7 +23,7 @@ export function Logo({
   const img = (
     <Image
       src={logo}
-      alt="AirPermitHub: Nationwide Air Permitting Excellence"
+      alt="AirPermitHub"
       priority={priority}
       sizes="220px"
       className={tone === "light" ? cn("w-auto", className) : "h-full w-auto object-contain"}
