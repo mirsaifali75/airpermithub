@@ -9,6 +9,10 @@ import { ruleHref } from "../rules";
 import { allToolPages, coreTools } from "./catalog";
 import { equipmentTypes, screenAll, type FacilityInput } from "./applicability";
 import { converters } from "./converters";
+import { applicabilityHandoff, calculatorsFor, screen } from "../screening";
+import { equipmentOptions, permitFinderIndustries } from "../data/equipment";
+import { stateProfileSummaries } from "../data/state-profiles";
+import { calculatorMethods } from "../calc/methods";
 
 const appDir = join(__dirname, "..", "..", "app");
 
@@ -33,7 +37,8 @@ const known = new Set([
   ...converters.map((c) => `/tools/${c.slug}`),
   ...federalRegulations.map((r) => `/regulations/${r.slug}`),
   ...listRules().map(ruleHref),
-  "/states/texas",
+  ...calculatorMethods.map((m) => `/calculators/${m.slug}`),
+  ...stateProfileSummaries().map((s) => `/states/${s.slug}`),
 ]);
 const terms = new Set(glossary.map((g) => g.slug));
 
@@ -67,6 +72,21 @@ describe("internal links from tools, guides, and the glossary", () => {
     }
     const page = readFileSync(join(appDir, "applicability", "page.tsx"), "utf8");
     for (const m of page.matchAll(/href: "(\/[^"]*)"/g)) check(m[1], "src/app/applicability/page.tsx");
+  });
+  it("from the Permit Finder point to pages that exist", () => {
+    const profiles = stateProfileSummaries();
+    for (const industry of permitFinderIndustries) {
+      for (const state of ["texas", "wyoming"]) {
+        const input = { state, industry, facilityType: "Compressor Station", equipment: [...equipmentOptions], facilityName: "X" };
+        const r = screen(input, profiles);
+        for (const x of [...r.pathways, ...r.federalRules]) {
+          if (x.href) check(x.href, `permit finder ${x.title}`);
+          for (const l of x.library ?? []) check(l.href, `permit finder ${x.title}`);
+        }
+        for (const c of calculatorsFor(input.equipment)) check(c.href, "permit finder calculators");
+        check(applicabilityHandoff(input), "permit finder hand-off");
+      }
+    }
   });
   it("glossary entries are unique, cited, and cross-referenced correctly", () => {
     expect(terms.size).toBe(glossary.length);

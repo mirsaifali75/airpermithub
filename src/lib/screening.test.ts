@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { equipmentOptions } from "./data/equipment";
 import { stateProfileSummaries } from "./data/state-profiles";
-import { screen, type ScreeningInput } from "./screening";
+import { applicabilityHandoff, checkerUnitFor, permitFinderCsv, screen, type ScreeningInput } from "./screening";
+import { RT } from "./tools/rule-text";
 
 const profiles = stateProfileSummaries();
 const allowed = new Set(["potentially-applicable", "likely-not-applicable", "more-info-needed", "insufficient-info"]);
@@ -128,5 +129,59 @@ describe("screening", () => {
       expect(r).toMatch(/40 CFR Part 81/);
       expect(r).toMatch(/major or area source of hazardous air pollutants/);
     });
+  });
+
+  describe("official text", () => {
+    const all = { ...base, equipment: [...equipmentOptions] };
+    const verified = new Set(Object.values(RT));
+
+    it("gives every federal pointer an eCFR link and verified rule text", () => {
+      const r = screen(all, profiles);
+      expect(r.federalRules.length).toBeGreaterThan(5);
+      for (const f of r.federalRules) {
+        expect(f.sourceUrl, f.title).toMatch(/^https:\/\/www\.ecfr\.gov\/current\/title-40\//);
+        expect(f.quotes?.length, f.title).toBeGreaterThan(0);
+        for (const q of f.quotes ?? []) expect(verified.has(q), `${f.title}: ${q.cite}`).toBe(true);
+      }
+    });
+
+    it("quotes the state hub's own text for a program, word for word, with its source", () => {
+      const tx = profiles.find((p) => p.slug === "texas")!;
+      const withQuote = [...tx.permitTypes, ...tx.oilAndGasPrograms].filter((p) => p.quote);
+      expect(withQuote.length).toBeGreaterThan(0);
+      const r = screen(all, profiles);
+      for (const p of withQuote) {
+        const item = r.pathways.find((x) => x.title === p.name)!;
+        expect(item.quotes?.[0], p.name).toEqual({ cite: p.citation ?? tx.agency, text: p.quote, url: p.quoteUrl });
+        expect(item.quotes?.[0].url, p.name).toMatch(/^https:\/\//);
+      }
+    });
+
+    it("labels federal thresholds shown under a state program", () => {
+      const r = screen(all, profiles);
+      for (const x of r.pathways) if (x.quotes?.some((q) => q.cite.startsWith("40 CFR"))) expect(x.quoteNote, x.title).toMatch(/federal definition/);
+    });
+  });
+
+  it("hands equipment it can map to the Applicability Checker and lists the rest", () => {
+    const url = new URL(applicabilityHandoff({ ...base, facilityName: "Site A", equipment: ["Storage Tanks", "Engines", "Flares", "Separators"], hapStatus: "area" }), "https://x.test");
+    expect(url.pathname).toBe("/applicability");
+    expect(url.searchParams.get("units")).toBe("Storage Tanks|Flares");
+    expect(url.searchParams.get("choose")).toBe("Engines");
+    expect(url.searchParams.get("hap")).toBe("area");
+    expect(url.searchParams.get("og")).toBe("1");
+    expect(url.searchParams.get("name")).toBe("Site A");
+    for (const t of Object.values(checkerUnitFor)) expect(["tank", "process-heater", "flare", "pneumatic-controller", "pneumatic-pump", "fugitives"]).toContain(t);
+  });
+
+  it("exports a labeled CSV with every result and its rule text", () => {
+    const r = screen({ ...base, equipment: ["Storage Tanks"] }, profiles);
+    const csv = permitFinderCsv([["Facility", "Tank Battery"]], r, "2026-10-31");
+    const lines = csv.split("\n");
+    expect(lines[0]).toBe('"AirPermitHub Template: Permit Path Screening (not an agency form)"');
+    expect(lines[1]).toMatch(/^"Screening only\. Not a permit determination\./);
+    for (const x of [...r.pathways, ...r.federalRules]) expect(csv).toContain(x.title.replace(/"/g, '""'));
+    expect(csv).toContain(RT.kb.text);
+    expect(csv).not.toMatch(/permit is required/i);
   });
 });

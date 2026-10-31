@@ -41,9 +41,24 @@ export interface StateProfileSummary {
   agency: string;
   verification: StateAirPermitProfile["verification"];
   lastReviewed: string;
-  permitTypes: { type: string; name: string; description: string; citation?: string }[];
-  oilAndGasPrograms: { type: string; name: string; description: string; citation?: string }[];
+  permitTypes: ProgramSummary[];
+  oilAndGasPrograms: ProgramSummary[];
 }
+
+/** A permit program as the Permit Finder shows it, with its official source and any verbatim quote. */
+export interface ProgramSummary {
+  type: string;
+  name: string;
+  description: string;
+  citation?: string;
+  url?: string;
+  quote?: string;
+  quoteUrl?: string;
+}
+
+const programSummary = ({ type, name, description, citation, url, quote, quoteSource }: StateAirPermitProfile["permitTypes"][number]): ProgramSummary => ({
+  type, name, description, citation, url, ...(quote ? { quote, quoteUrl: quoteSource?.url ?? url } : {}),
+});
 
 export function stateProfileSummaries(): StateProfileSummary[] {
   return listStateProfiles().map((p) => ({
@@ -52,8 +67,8 @@ export function stateProfileSummaries(): StateProfileSummary[] {
     agency: p.agency.name,
     verification: p.verification,
     lastReviewed: p.lastReviewed,
-    permitTypes: p.permitTypes.map(({ type, name, description, citation }) => ({ type, name, description, citation })),
-    oilAndGasPrograms: (p.oilAndGas?.programs ?? []).map(({ type, name, description, citation }) => ({ type, name, description, citation })),
+    permitTypes: p.permitTypes.map(programSummary),
+    oilAndGasPrograms: (p.oilAndGas?.programs ?? []).map(programSummary),
   }));
 }
 

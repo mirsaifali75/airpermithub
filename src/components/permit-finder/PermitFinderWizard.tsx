@@ -1,11 +1,12 @@
 "use client";
 
 import {
-  ArrowLeft, ArrowRight, Building2, Calculator, Check, CircleHelp, Cog, Container, Droplets, Factory, Flame, FlaskConical, Fuel,
-  Gauge, Lightbulb, MapPin, Mountain, Printer, Recycle, RotateCcw, Wind, Zap, type LucideIcon,
+  ArrowLeft, ArrowRight, Building2, Calculator, Check, CircleHelp, ClipboardCheck, Cog, Container, Download, Droplets, ExternalLink, Factory, Flame,
+  FlaskConical, Fuel, Gauge, Lightbulb, MapPin, Mountain, Printer, Recycle, RotateCcw, Wind, Zap, type LucideIcon,
 } from "lucide-react";
 import Link from "next/link";
-import { useId, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useState } from "react";
+import { downloadText, useStoredState } from "@/components/tools/shared";
 import { ApplicabilityBadge, CitationBadge, VerificationBadge } from "@/components/ui/Badge";
 import type { ApplicabilityStatus } from "@/lib/data/types";
 import { Button, buttonClass } from "@/components/ui/Button";
@@ -14,7 +15,8 @@ import { cn } from "@/lib/cn";
 import { equipmentOptions, facilityTypesByIndustry, permitFinderIndustries, pollutants as pollutantOptions } from "@/lib/data/equipment";
 import type { StateProfileSummary } from "@/lib/data/state-profiles";
 import { stateTiles } from "@/lib/data/states";
-import { screen, type ScreeningInput, type ScreeningItem } from "@/lib/screening";
+import { applicabilityHandoff, calculatorsFor, permitFinderCsv, screen, type ScreeningInput, type ScreeningItem } from "@/lib/screening";
+import { quoteHref } from "@/lib/tools/rule-text";
 
 const steps = ["Facility", "Location", "Equipment", "Emissions", "Operations", "Applicability", "Results"] as const;
 const RESULTS = steps.length - 1;
@@ -78,10 +80,18 @@ const outcomes: { status: ApplicabilityStatus; label: string; color: string; not
 const field = "h-12 w-full rounded-xl border border-line bg-white px-3 text-ink focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none";
 
 export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary[] }) {
-  const [step, setStep] = useState(0);
-  const [form, setForm] = useState<FormState>(initial);
+  // Answers stay in this browser so a reload or a detour to the calculators doesn't lose them.
+  const [{ step, form }, setSaved] = useStoredState<{ step: number; form: FormState }>("aph.tools.permit-finder.v1", { step: 0, form: initial });
+  const setStep = (to: number) => setSaved((s) => ({ ...s, step: to }));
+  const setForm = (fn: (f: FormState) => FormState) => setSaved((s) => ({ ...s, form: fn(s.form) }));
   const [error, setError] = useState<string | null>(null);
   const ids = useId();
+  // Printed results include every rule quote, not just the ones expanded on screen.
+  useEffect(() => {
+    const openAll = () => document.querySelectorAll<HTMLDetailsElement>("#finder-top details").forEach((d) => { d.open = true; });
+    window.addEventListener("beforeprint", openAll);
+    return () => window.removeEventListener("beforeprint", openAll);
+  }, []);
   const sortedStates = useMemo(() => [...stateTiles].sort((a, b) => a.name.localeCompare(b.name)), []);
   const liveSlugs = new Set(profiles.map((p) => p.slug));
 
@@ -130,6 +140,21 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
   const result = step === RESULTS ? screen(input, profiles) : null;
   const profile = profiles.find((p) => p.slug === form.state);
   const stateName = stateTiles.find((s) => s.slug === form.state)?.name;
+  const industryLabel = industryIcon[form.industry as keyof typeof industryIcon]?.label;
+  const entries = [
+    { k: "Facility", v: [form.facilityName, form.facilityType, industryLabel].filter(Boolean).join(" · "), to: 0 },
+    { k: "Location", v: [form.county, stateName].filter(Boolean).join(", "), to: 1 },
+    { k: "Equipment", v: form.equipment.join(", "), to: 2 },
+    { k: "Emissions", v: [form.pteKnown === "yes" ? "PTE estimated" : form.pteKnown === "no" ? "PTE not yet calculated" : "", form.pollutants.join(", "), form.controls.length ? `Controls: ${form.controls.join(", ")}` : ""].filter(Boolean).join(" · "), to: 3 },
+    { k: "Operations", v: [form.project && { new: "New facility", modification: "Modification", existing: "Existing facility" }[form.project], form.existingAuthorization && { yes: "Has an air authorization", no: "No air authorization", unsure: "Authorization not sure" }[form.existingAuthorization], form.schedule && { continuous: "Continuous", limited: "Limited hours" }[form.schedule]].filter(Boolean).join(" · "), to: 4 },
+    { k: "Applicability", v: [form.datesKnown && { yes: "Unit dates known", no: "Unit dates not known" }[form.datesKnown], form.attainment && { "all-attainment": "Attainment for all pollutants", "some-nonattainment": "Nonattainment for one or more", unsure: "Attainment not sure" }[form.attainment], form.hapStatus && { major: "HAP major source", area: "HAP area source", unsure: "HAP status not sure" }[form.hapStatus]].filter(Boolean).join(" · "), to: 5 },
+  ];
+  const exportCsv = () => {
+    if (!result) return;
+    const today = new Date().toISOString().slice(0, 10);
+    const name = (form.facilityName || "permit-path").replace(/[^a-z0-9]+/gi, "-").toLowerCase();
+    downloadText(`${name}-screening-${today}.csv`, permitFinderCsv(entries.map((e) => [e.k, e.v || "Not entered"]), result, today));
+  };
 
   return (
     <div id="finder-top" className="scroll-mt-24 rounded-2xl border border-line bg-white shadow-card">
@@ -348,13 +373,7 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
             <section className="rounded-2xl border border-line bg-canvas p-5">
               <h3 className="font-semibold text-ink">Your entries</h3>
               <dl className="mt-3 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2">
-                {[
-                  { k: "Facility", v: [form.facilityName, form.facilityType, industryIcon[form.industry as keyof typeof industryIcon]?.label].filter(Boolean).join(" · "), to: 0 },
-                  { k: "Location", v: [form.county, stateName].filter(Boolean).join(", "), to: 1 },
-                  { k: "Equipment", v: form.equipment.join(", "), to: 2 },
-                  { k: "Emissions", v: [form.pteKnown === "yes" ? "PTE estimated" : form.pteKnown === "no" ? "PTE not yet calculated" : "", form.pollutants.join(", ")].filter(Boolean).join(" · "), to: 3 },
-                  { k: "Operations", v: [form.project && { new: "New facility", modification: "Modification", existing: "Existing facility" }[form.project], form.schedule && { continuous: "Continuous", limited: "Limited hours" }[form.schedule]].filter(Boolean).join(" · "), to: 4 },
-                ].map((r) => (
+                {entries.slice(0, 5).map((r) => (
                   <div key={r.k} className="flex min-w-0 items-baseline justify-between gap-3 border-b border-line/70 py-1.5">
                     <dt className="shrink-0 font-medium text-muted">{r.k}</dt>
                     <dd className="flex min-w-0 items-baseline gap-2 text-right text-ink">
@@ -378,11 +397,27 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
                   {form.facilityType} · {industryIcon[form.industry as keyof typeof industryIcon]?.label} · {stateName}{form.county ? `, ${form.county}` : ""} · {form.equipment.length} source types
                 </p>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 {profile && <VerificationBadge level={profile.verification} />}
-                <Button variant="subtle" size="sm" onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print</Button>
+                <Button variant="subtle" size="sm" className="no-print" onClick={exportCsv}><Download className="h-4 w-4" aria-hidden="true" /> Export CSV</Button>
+                <Button variant="subtle" size="sm" className="no-print" onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print / PDF</Button>
               </div>
             </div>
+
+            <details className="group mt-5 rounded-xl border border-line bg-canvas px-4 py-3 text-sm" open>
+              <summary className="cursor-pointer font-semibold text-ink">Your answers</summary>
+              <dl className="mt-2 grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
+                {entries.map((r) => (
+                  <div key={r.k} className="flex min-w-0 items-baseline gap-3 border-b border-line/70 py-1">
+                    <dt className="w-24 shrink-0 font-medium text-muted">{r.k}</dt>
+                    <dd className="flex min-w-0 flex-1 items-baseline justify-between gap-2 text-ink">
+                      <span className="break-words">{r.v || "Not entered"}</span>
+                      <button type="button" onClick={() => go(r.to)} className="no-print shrink-0 text-xs font-semibold text-brand-600 hover:text-brand-700">Edit<span className="sr-only"> {r.k}</span></button>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </details>
 
             <dl className="mt-5 grid grid-cols-2 gap-3 lg:grid-cols-4">
               {outcomes.map(({ status, label, color, note }) => (
@@ -423,10 +458,31 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
                   <li key={g} className="flex gap-2"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500" aria-hidden="true" />{g}</li>
                 ))}
               </ul>
-              <div className="no-print mt-5 flex flex-wrap gap-3">
-                <Link href="/calculators" className={buttonClass("primary", "md")}><Calculator className="h-4 w-4" aria-hidden="true" /> Calculate potential emissions</Link>
-                {profile && <Link href={`/states/${profile.slug}`} className={buttonClass("subtle", "md")}>Open {stateName} hub</Link>}
-              </div>
+            </section>
+
+            <section className="no-print mt-8">
+              <h3 className="text-lg font-semibold text-ink">Next steps</h3>
+              <ol className="mt-3 grid gap-3 md:grid-cols-3">
+                <li className="flex flex-col rounded-xl border border-line p-4">
+                  <p className="flex items-center gap-2 font-semibold text-ink"><Calculator className="h-4 w-4 text-brand-500" aria-hidden="true" /> 1. Estimate potential to emit</p>
+                  <p className="mt-1 text-sm text-muted">Most programs above turn on PTE. Each calculator shows the formula and every step.</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {(calculatorsFor(form.equipment).length ? calculatorsFor(form.equipment) : [{ href: "/calculators", name: "All calculators" }]).map((c) => (
+                      <Link key={c.href} href={c.href} className="rounded-lg border border-line px-2.5 py-1 text-sm font-medium text-brand-700 hover:border-brand-200 hover:bg-brand-50">{c.name}</Link>
+                    ))}
+                  </div>
+                </li>
+                <li className="flex flex-col rounded-xl border border-line p-4">
+                  <p className="flex items-center gap-2 font-semibold text-ink"><ClipboardCheck className="h-4 w-4 text-brand-500" aria-hidden="true" /> 2. Check each unit</p>
+                  <p className="mt-1 text-sm text-muted">The Applicability Checker compares each unit&apos;s dates and size with the federal rule text.</p>
+                  <Link href={applicabilityHandoff(input)} className={cn(buttonClass("subtle", "sm"), "mt-3 self-start")}>Continue with these units <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+                </li>
+                <li className="flex flex-col rounded-xl border border-line p-4">
+                  <p className="flex items-center gap-2 font-semibold text-ink"><MapPin className="h-4 w-4 text-brand-500" aria-hidden="true" /> 3. Read the state rules</p>
+                  <p className="mt-1 text-sm text-muted">{profile ? `Programs, forms, and quoted thresholds from ${profile.agency}.` : "Find the agency with jurisdiction and its permit programs."}</p>
+                  <Link href={profile ? `/states/${profile.slug}` : "/states"} className={cn(buttonClass("subtle", "sm"), "mt-3 self-start")}>{profile ? `Open ${stateName} hub` : "Browse state hubs"} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+                </li>
+              </ol>
             </section>
           </div>
         )}
@@ -440,7 +496,7 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
           {step < RESULTS ? (
             <Button onClick={next}>{step === RESULTS - 1 ? "See results" : "Next Step"} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Button>
           ) : (
-            <Button variant="subtle" onClick={() => { setForm(initial); go(0); }}><RotateCcw className="h-4 w-4" aria-hidden="true" /> Start over</Button>
+            <Button variant="subtle" onClick={() => { setSaved({ step: 0, form: initial }); setError(null); }}><RotateCcw className="h-4 w-4" aria-hidden="true" /> Start over</Button>
           )}
         </div>
       </div>
@@ -505,17 +561,45 @@ function ResultGroup({ title, items, empty }: { title: string; items: ScreeningI
                   <p className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted">
                     {it.program}
                     {it.citation && <CitationBadge>{it.citation}</CitationBadge>}
+                    {it.sourceUrl && (
+                      <a href={it.sourceUrl} target="_blank" rel="noopener noreferrer" className="no-print inline-flex items-center gap-1 font-semibold text-brand-600 hover:text-brand-700">
+                        Official text <ExternalLink className="h-3 w-3" aria-hidden="true" />
+                      </a>
+                    )}
                   </p>
                 </div>
                 <ApplicabilityBadge status={it.status} />
               </div>
               <p className="mt-2.5 text-sm text-slate-700"><span className="font-medium text-ink">{it.status === "likely-not-applicable" ? "Why it likely doesn’t: " : "Why it’s listed: "}</span>{it.why}</p>
               <p className="mt-1.5 text-sm text-slate-700"><span className="font-medium text-ink">Further review: </span>{it.nextStep}</p>
-              {it.href && (
-                <Link href={it.href} className="no-print mt-2 inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:text-brand-700">
-                  Read more <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
-                </Link>
+              {it.quotes && it.quotes.length > 0 && (
+                <details className="mt-3 rounded-lg bg-canvas px-3 py-2 text-sm" open={it.quotes.length === 1}>
+                  <summary className="cursor-pointer font-semibold text-ink">What the rule says ({it.quotes.length} {it.quotes.length === 1 ? "quote" : "quotes"})</summary>
+                  {it.quoteNote && <p className="mt-2 text-xs text-muted">{it.quoteNote}</p>}
+                  <ul className="mt-2 space-y-2">
+                    {it.quotes.map((q) => (
+                      <li key={q.cite + q.text.slice(0, 24)}>
+                        <blockquote className="border-l-2 border-brand-200 pl-3 text-slate-700">&ldquo;{q.text}&rdquo;</blockquote>
+                        <a href={quoteHref(q) ?? undefined} target="_blank" rel="noopener noreferrer" className="mt-0.5 inline-flex items-center gap-1 pl-3 text-xs font-semibold text-brand-600 hover:text-brand-700">
+                          {q.cite} <ExternalLink className="h-3 w-3" aria-hidden="true" />
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
               )}
+              <div className="no-print mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+                {it.library?.map((l) => (
+                  <Link key={l.href} href={l.href} className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:text-brand-700">
+                    {l.label} in the Rule Library <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                ))}
+                {it.href && !it.library && (
+                  <Link href={it.href} className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:text-brand-700">
+                    Read more <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                )}
+              </div>
             </li>
           ))}
         </ul>

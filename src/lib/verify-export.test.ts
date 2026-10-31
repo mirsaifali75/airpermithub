@@ -5,6 +5,8 @@ import { guides } from "./data/guides";
 import { federalRegulations } from "./data/regulations";
 import { listStateProfiles } from "./data/state-profiles";
 import { converters } from "./tools/converters";
+import { equipmentOptions } from "./data/equipment";
+import { screen } from "./screening";
 import { nsrRuleText } from "./tools/nsr";
 import { RT, ecfrHref, psdSignificance } from "./tools/rule-text";
 
@@ -120,6 +122,10 @@ export function collectClaims(): Claim[] {
   }
 
   for (const c of converters) for (const s of c.sources) push({ kind: "link", where: `converter:${c.slug}`, url: s.url, text: s.title });
+
+  // Permit Finder "Official text" links to eCFR subparts and sections.
+  const pf = screen({ state: "", industry: "Oil & Gas", facilityType: "", equipment: [...equipmentOptions] }, []);
+  for (const x of [...pf.pathways, ...pf.federalRules]) if (x.sourceUrl) push({ kind: "link", where: "tool:permit-finder", url: x.sourceUrl, text: x.citation ?? x.title });
   return out;
 }
 

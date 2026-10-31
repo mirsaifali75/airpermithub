@@ -2,13 +2,14 @@
 
 import { ChevronDown, Download, ExternalLink, FlaskConical, MapPinned, Plus, Printer, RotateCcw, Trash2 } from "lucide-react";
 import Link from "next/link";
-import { useId, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useState } from "react";
 import { ApplicabilityBadge, Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
+import { checkerUnitFor } from "@/lib/screening";
 import {
   applicabilityCsv, equipmentLabel, equipmentTypes, hapStatus, oilGasTypes, ptePollutants, screenAll, siteLabels,
-  type EquipmentInput, type EquipmentType, type FacilityInput, type Finding, type ScreenStatus, type Site,
+  type EquipmentInput, type EquipmentType, type FacilityInput, type Finding, type HapStatus, type ScreenStatus, type Site,
 } from "@/lib/tools/applicability";
 import { quoteHref } from "@/lib/tools/rule-text";
 import { NumberField, downloadText, field, labelCls, useStoredState } from "./shared";
@@ -39,6 +40,33 @@ const demo = (): ScreenState => ({
   ],
 });
 
+/** What the Permit Finder passes in its "Continue with these units" link. */
+interface Handoff { name?: string; state?: string; hap?: HapStatus; oilGas: boolean; site?: Site; units: { type: EquipmentType; name: string; from: string }[]; choose: string[] }
+const handoffNames: Record<string, string> = {
+  "Storage Tanks": "Storage tanks", Heaters: "Heater", "Heater Treaters": "Heater treater", Flares: "Flare",
+  "Pneumatic Controllers": "Pneumatic controllers", "Pneumatic Pumps": "Pneumatic pumps", Fugitives: "Site fugitive components",
+};
+
+/** "a, b, and c" */
+const listText = (xs: string[]) => (xs.length < 3 ? xs.join(" and ") : `${xs.slice(0, -1).join(", ")}, and ${xs[xs.length - 1]}`);
+
+function readHandoff(): Handoff | null {
+  const p = new URLSearchParams(window.location.search);
+  if (p.get("from") !== "permit-finder") return null;
+  const list = (k: string) => (p.get(k) ?? "").split("|").filter(Boolean);
+  const hap = p.get("hap");
+  const site = p.get("site");
+  return {
+    name: p.get("name") ?? undefined,
+    state: p.get("state") ?? undefined,
+    hap: hap === "major" || hap === "area" ? hap : undefined,
+    oilGas: p.get("og") === "1",
+    site: site && site in siteLabels ? (site as Site) : undefined,
+    units: list("units").filter((u) => checkerUnitFor[u]).map((u) => ({ type: checkerUnitFor[u] as EquipmentType, name: handoffNames[u] ?? u, from: u })),
+    choose: list("choose"),
+  };
+}
+
 const tri = (v: boolean | undefined) => (v === undefined ? "" : v ? "yes" : "no");
 const fromTri = (s: string) => (s === "" ? undefined : s === "yes");
 
@@ -59,6 +87,38 @@ export function ApplicabilityScreener({ states }: { states: { slug: string; name
   const state = states.find((x) => x.slug === f.state);
   const hap = hapStatus(f);
 
+  const [handoff, setHandoff] = useState<Handoff | null>(null);
+  useEffect(() => setHandoff(readHandoff()), []);
+  const closeHandoff = () => {
+    setHandoff(null);
+    window.history.replaceState(null, "", window.location.pathname);
+  };
+  const applyHandoff = (replace: boolean) => {
+    if (!handoff) return;
+    setS((p) => {
+      const keep = replace || p.demo ? { facility: blankFacility(), equipment: [] as EquipmentInput[] } : p;
+      return {
+        demo: false,
+        facility: {
+          ...keep.facility,
+          ...(handoff.name ? { name: handoff.name } : {}),
+          ...(handoff.state ? { state: handoff.state } : {}),
+          ...(handoff.hap ? { hap: handoff.hap } : {}),
+          oilGas: keep.facility.oilGas || handoff.oilGas,
+        },
+        equipment: [
+          ...keep.equipment,
+          ...handoff.units.map((u): EquipmentInput => ({
+            id: newId(), type: u.type, name: u.name, date: "", dateKind: "construction",
+            ...(oilGasTypes.includes(u.type) ? { site: handoff.site ?? (handoff.oilGas ? undefined : "other") } : {}),
+          })),
+        ],
+      };
+    });
+    closeHandoff();
+  };
+  const hasEntries = s.equipment.length > 0 && !s.demo;
+
   const add = () => setS((p) => ({ ...p, demo: false, equipment: [...p.equipment, { id: newId(), type: addType, name: "", date: "", dateKind: "construction", ...(oilGasTypes.includes(addType) ? { site: p.facility.oilGas ? undefined : "other" } : {}) }] }));
   const exportCsv = () => downloadText("applicability-screen.csv", applicabilityCsv(f, s.equipment, new Date().toISOString().slice(0, 10)));
 
@@ -68,6 +128,28 @@ export function ApplicabilityScreener({ states }: { states: { slug: string; name
         <p className="font-semibold">Screening only. Not an applicability determination.</p>
         <p className="mt-1">Each result compares what you enter with the dates and sizes in the rule text quoted under it. Confirm against the current eCFR, your permit, and your state&apos;s rules before relying on it. Entries stay in this browser.</p>
       </div>
+
+      {handoff && (
+        <div className="no-print rounded-2xl border border-brand-200 bg-brand-50 px-5 py-4 text-sm" role="region" aria-label="Continue from the Permit Finder">
+          <p className="font-semibold text-ink">Continue from the Permit Finder</p>
+          <p className="mt-1 text-slate-700">
+            {handoff.units.length > 0
+              ? `Add ${handoff.units.length === 1 ? "an entry" : "one entry each"} for ${listText(handoff.units.map((u) => u.from.toLowerCase()))} to the equipment list, with the facility details you entered there.`
+              : "Fill in the facility details you entered there."}{" "}
+            Each unit still needs its date and size before it can be screened.
+          </p>
+          {handoff.choose.length > 0 && (
+            <p className="mt-1 text-slate-700">
+              {listText(handoff.choose)} need a type the Permit Finder didn&apos;t ask for (diesel or spark ignition; centrifugal or reciprocating). Add each one with <strong>Add equipment</strong> below.
+            </p>
+          )}
+          <div className="mt-3 flex flex-wrap gap-2">
+            <Button size="sm" onClick={() => applyHandoff(false)}>{hasEntries ? "Add to my current list" : "Add these"}</Button>
+            {hasEntries && <Button size="sm" variant="subtle" onClick={() => applyHandoff(true)}>Replace my current list</Button>}
+            <Button size="sm" variant="ghost" onClick={closeHandoff}>Dismiss</Button>
+          </div>
+        </div>
+      )}
 
       {/* Facility */}
       <section className="no-print rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-fac`}>
