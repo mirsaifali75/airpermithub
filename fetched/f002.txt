@@ -1,0 +1,1436 @@
+61-62.70
+Title V Operating Permit Program
+Regulation History as Published in State Register
+Date
+Document Number
+Volume
+September 24, 1993
+1664
+17
+May 27, 1994
+1706
+18
+February 24, 1995
+1800
+19
+August 28, 1998
+2329
+22
+October 26, 2001
+2648
+25
+August 23, 2002
+2736
+26
+June 27, 2003
+2840
+27
+September 24, 2004
+2913
+28
+October 24, 2008
+3224
+32
+March 23, 2012 (Errata)
+3224
+36
+September 28, 2012 (Errata)
+3224
+36
+April 26, 2013
+4330
+37
+December 27, 2013
+4387
+37
+June 26, 2015
+4481
+39
+November 27, 2015
+4577
+39
+June 24, 2016
+4590
+40
+August 25, 2017
+4750
+41
+January 25, 2019
+4870
+43
+April 24, 2020
+4873
+44
+November 26, 2021
+5056
+45
+December 23, 2022
+5139
+46
+May 23, 2025
+5325
+49
+
+Issue
+9
+5
+2
+8
+10
+8
+6
+9
+10
+3
+9
+4
+12
+6
+11
+6
+8
+1
+4
+11
+12
+5
+
+Table of Contents
+70.1. Program overview. ..............................................................................................................519
+70.2. Definitions. ...........................................................................................................................519
+70.3. Applicability. .........................................................................................................................525
+70.4. State program submittals and transition. ........................................................................527
+70.5. Permit applications. ............................................................................................................527
+
+517 | Regulation 61-62.70
+
+70.6. Permit content. ....................................................................................................................531
+70.7. Permit issuance, renewal, reopenings, and revisions.....................................................538
+70.8. Permit review by EPA and affected States. ......................................................................547
+70.9. Fee determination and certification. ................................................................................549
+
+518 | Regulation 61-62.70
+
+70.1. Program overview.
+(a) The regulations in this part provide for the establishment of comprehensive State air quality permitting
+systems consistent with the requirements of Title V of the Clean Air Act (Act) (42 U.S.C. 7401, et seq.).
+These regulations define the minimum elements required for South Carolina’s Part 70 operating permit
+program and the corresponding standards.
+(b) All sources subject to these regulations shall have a permit to operate that assures compliance by the
+source with all applicable requirements. While Title V of the Clean Air Act does not impose substantive
+new requirements, it does require that fees be imposed on sources and that certain procedural measures be
+adopted especially with respect to compliance.
+(c) Nothing in this part shall prevent the Department from establishing additional or more stringent
+requirements not inconsistent with this Act. The U.S. Environmental Protection Agency will approve South
+Carolina’s program submittal to the extent that it is not inconsistent with the Act and the federal Part 70
+regulations. No permit, however, can be less stringent than necessary to meet all applicable requirements.
+In the case of federal intervention in the permit process, the Administrator reserves the right to implement
+the State operating permit program, in whole or in part, or the federal program contained in regulations
+promulgated under Title V of the Act.
+(d) The requirements of Part 70, including provisions regarding schedules for submission and approval
+or disapproval of permit applications, shall apply to the permitting of affected sources under the acid rain
+program, except as provided herein or modified in regulations promulgated under Title IV of the Act (acid
+rain program).
+(e) Issuance of state permits under this part may be coordinated with issuance of permits under other
+applicable laws, whether issued by state or federal agencies.
+(f) RESERVED
+(g) Severability. If any section, subsection, phrase, clause, or portion of this regulation, or the applicability
+to any person, is adjudged to be unconstitutional or invalid for any reason by a court of competent
+jurisdiction, the remaining portions of this regulation shall not be affected.
+70.2. Definitions.
+(a) “Act” means the Clean Air Act, as amended, 42 U.S.C. 7401, et seq.
+(b) “Administrator” means the Administrator of the United States Environmental Protection Agency
+(EPA) or his designee.
+(c) “Affected source” means a source that includes one or more affected units that are subject to the acid
+rain provisions under Title IV of the Act.
+(d) “Affected States” are:
+(1) The States of Georgia and/or North Carolina if, as determined by the Department, their air quality
+may be directly affected by emissions from the facility seeking a Part 70 permit, permit modification or
+permit renewal being proposed; or
+(2) That are within 50 miles of the permitted source.
+519 | Regulation 61-62.70
+
+(e) “Affected unit” means a unit that is subject to the acid rain emission reduction requirements or
+limitations and regulations promulgated under Title IV of the Act.
+(f) “Applicable requirement” means all of the following as they apply to emissions units in a Part 70
+source subject to these regulations (including requirements that have been promulgated or approved by
+EPA through rulemaking at the time of issuance but have future-effective compliance dates):
+(1) Any standard or other requirement provided for in the South Carolina State Implementation Plan
+approved or promulgated by EPA through rulemaking under Title I of the Act that implements the pertinent
+requirements of the Act, including any revisions to that plan promulgated in 40 Code of Federal Regulations
+(CFR) 52;
+(2) Any term or condition of any preconstruction permits issued pursuant to regulations approved or
+promulgated through rulemaking under Title I, including Parts C or D, of the Act;
+(3) Any standard or other requirement under Section 111 of the Act, including Section 111(d);
+(4) Any standard or other requirement under Section 112 of the Act, including any requirement
+concerning accident prevention under Section 112(r)(7) of the Act;
+(5) Any standard or other requirement of the acid rain program under Title IV of the Act or the
+regulations promulgated thereunder;
+(6) Any requirements established pursuant to Section 504(b) or Section 114(a)(3) of the Act;
+(7) Any standard or other requirement governing solid waste incineration, under Section 129 of the
+Act;
+(8) Any standard or other requirement for consumer and commercial products, under Section 183(e)
+of the Act;
+(9) Any standard or other requirement for tank vessels, under Section 183(f) of the Act;
+(10) Any standard or other requirement of the program to control air pollution from outer continental
+shelf sources, under Section 328 of the Act;
+(11) Any standard or other requirement of the regulations promulgated to protect stratospheric ozone
+under Title VI of the Act, unless the Administrator has determined that such requirements need not be
+contained in a Title V permit; and
+(12) Any national ambient air quality standard or increment or visibility requirement under Part C of
+Title I of the Act, but only as it would apply to temporary sources permitted pursuant to Section 504(e) of
+the Act.
+(g) “Area source” means any stationary source of hazardous air pollutants that is not a major source.
+(h) “Department” means the Department of Environmental Services.
+(i) “Designated representative” means a responsible person or official authorized by the owner or operator
+of a unit to represent the owner or operator in matters pertaining to the holding, transfer, or disposition of
+520 | Regulation 61-62.70
+
+allowances allocated to a unit, and the submission of and compliance with permits, permit applications, and
+compliance plans for the unit under acid rain requirements of Title IV of the Act and regulations
+promulgated thereunder.
+(j) “Draft permit” means the version of a permit for which the Department offers public participation
+under Section 70.7(h) or affected State review under Section 70.8.
+(k) “Effective date” of this Part 70 regulation, including any partial or interim program approved under
+this Part, shall be the effective date of approval by the Administrator as published in the Federal Register.
+(l) “Emissions allowable under the permit” means a federally enforceable permit term or condition
+determined at issuance to be required by an applicable requirement that establishes an emissions limit
+(including a work practice standard) or a federally enforceable emissions cap that the source has assumed
+to avoid an applicable requirement to which the source would otherwise be subject.
+(m) “Emissions unit” means any part or activity of a stationary source that emits or has the potential to
+emit any regulated air pollutant or any pollutant listed under Section 112(b) of the Act. This term is not
+meant to alter or affect the definition of the term “unit” for purposes of the Title IV acid rain requirements
+of the Act.
+(n) The “EPA” means the Administrator of the U.S. Environmental Protection Agency or his designee.
+(o) “Final permit” means the version of a Part 70 permit issued by the Department that has completed all
+review procedures required by Sections 70.7 and 70.8.
+(p) “Fugitive emissions” are those emissions which could not reasonably pass through a stack, chimney,
+vent, or other functionally-equivalent opening.
+(q) “General permit” means a Part 70 permit that meets the requirements of Sections 70.6(d).
+(r) “Major source” means any stationary source (or any group of stationary sources that are located on
+one or more contiguous or adjacent properties, and are under common control of the same person (or
+persons under common control)) belonging to a single major industrial grouping and that are described in
+paragraphs (1), (2), or (3) of this definition. For the purposes of defining “major source,” a stationary source
+or group of stationary sources shall be considered part of a single industrial grouping if all of the pollutant
+emitting activities at such source or group of sources on contiguous or adjacent properties belong to the
+same Major Group (that is, all have the same two-digit code) as described in the Standard Industrial
+Classification Manual, latest revision.
+(1) A major source under Section 112 of the Act, which is defined as:
+(i) For pollutants other than radionuclides, any stationary source or group of stationary sources
+located within a contiguous area and under common control that emits or has the potential to emit, in the
+aggregate, 10 tons per year (tpy) or more of any hazardous air pollutant which has been listed pursuant to
+Section 112(b) of the Act, 25 tpy or more of any combination of such hazardous air pollutants, or such
+lesser quantity as the Administrator may establish by rule. Notwithstanding the preceding sentence,
+emissions from any oil or gas exploration or production well (with its associated equipment) and emissions
+from any pipeline compressor or pump station shall not be aggregated with emissions from other similar
+units, whether or not such units are in a contiguous area or under common control, to determine whether
+such units or stations are major sources; or
+
+521 | Regulation 61-62.70
+
+(ii) For radionuclides, “major source” shall have the meaning specified by the Administrator by rule.
+(2) A major stationary source of air pollutants, as defined in Section 302 of the Act, that directly emits
+or has the potential to emit, 100 tpy or more of any air pollutant (including any major source of fugitive
+emissions of any such pollutant, as determined by rule by the Administrator). The fugitive emissions of a
+stationary source shall not be considered in determining whether it is a major stationary source for the
+purposes of Section 302(j) of the Act, unless the source belongs to one of the following categories of
+stationary source:
+(i)
+
+Coal cleaning plants (with thermal dryers);
+
+(ii) Kraft pulp mills;
+(iii) Portland cement plants;
+(iv) Primary zinc smelters;
+(v) Iron and steel mills;
+(vi) Primary aluminum ore reduction plants;
+(vii) Primary copper smelters;
+(viii) Municipal incinerators capable of charging more than 250 tons of refuse per day;
+(ix) Hydrofluoric, sulfuric, or nitric acid plants;
+(x) Petroleum refineries;
+(xi) Lime plants;
+(xii) Phosphate rock processing plants; (xiii)Coke oven batteries;
+(xiv) Sulfur recovery plants;
+(xv)
+
+Carbon black plants (furnace process);
+
+(xvi)
+
+Primary lead smelters;
+
+(xvii) Fuel conversion plant;
+(xviii) Sintering plants;
+(xix)
+
+Secondary metal production plants;
+
+(xx) Chemical process plants - The term chemical processing plant shall not include ethanol
+production facilities that produce ethanol by natural fermentation included in North American Industrial
+Classification System (NAICS) codes 325193 or 312140;
+(xxi) Fossil-fuel boilers (or combination thereof) totaling more than 250 million British thermal units
+per hour heat input;
+
+522 | Regulation 61-62.70
+
+(xxii) Petroleum storage and transfer units with a total storage capacity exceeding 300,000
+barrels;
+(xxiii) Taconite ore processing plants;
+(xxiv) Glass fiber processing plants;
+(xxv) Charcoal production plants;
+(xxvi) Fossil-fuel-fired steam electric plants of more than 250 million British thermal units per hour
+heat input; or
+(xxvii) Any other stationary source category, which as of August 7, 1980, is being regulated under
+Section 111 or 112 of the Act;
+(3) A major stationary source as defined in Part D of Title I of the Act, including:
+(i) For ozone nonattainment areas, sources with the potential to emit 100 tpy or more of volatile
+organic compounds or oxides of nitrogen in areas classified as “marginal” or “moderate,” 50 tpy or more
+in areas classified as “serious,” 25 tpy or more in areas classified as “severe,” and 10 tpy or more in areas
+classified as “extreme”; except that the references in this paragraph to 100, 50, 25, and 10 tpy of nitrogen
+oxides shall not apply with respect to any source for which the Administrator has made a finding, under
+Section 182(f)(1) or (2) of the Act, that requirements under Section 182(f) of the Act do not apply;
+(ii) For ozone transport regions established pursuant to Section 184 of the Act, sources with the
+potential to emit 50 tpy or more of volatile organic compounds;
+(iii) For carbon monoxide nonattainment areas (1) that are classified as “serious,” and (2) in which
+stationary sources contribute significantly to carbon monoxide levels as determined under rules issued by
+the Administrator, sources with the potential to emit 50 tpy or more of carbon monoxide; and
+(iv) For particulate matter (PM10) nonattainment areas classified as “serious,” sources with the
+potential to emit 70 tpy or more of PM10.
+(s) “Non-major source” means a source that is not major under this Part.
+(t) “Part 70 permit” or “permit” (unless the context suggests otherwise) means any permit or group of
+permits covering a Part 70 source that is issued, renewed, amended, or revised pursuant to this Part.
+(u) “Part 70 program” or “State program” means a program approved by the Administrator under this Part.
+(v) “Part 70 source” means any source subject to the permitting requirements of this Part, as provided in
+Sections 70.3(a) and 70.3(b).
+(w) “Permit modification” means a revision to a Part 70 permit that meets the requirements of Section
+70.7(e).
+(x) “Permit revision” means any permit modification or administrative permit amendment.
+(y) “Potential to emit” means the maximum capacity of a stationary source to emit any air pollutant under
+its physical and operational design. Any physical or operational limitation on the capacity of a source to
+523 | Regulation 61-62.70
+
+emit an air pollutant, including air pollution control equipment and restrictions on hours of operation or on
+the type or amount of material combusted, stored, or processed, shall be treated as part of its design if the
+limitation is federally enforceable by the Administrator. This term does not alter or affect the use of this
+term for any other purposes under the Act, or the term “capacity factor” as used in the Title IV acid rain
+requirements of the Act or the regulations promulgated thereunder.
+(z) “Proposed permit” means the version of a permit that the Department proposes to issue and forwards
+to the Administrator for review in compliance with Section 70.8.
+(aa) “Regulated air pollutant” means the following:
+(1) Nitrogen oxides or any volatile organic compounds;
+(2) Any pollutant for which a national ambient air quality standard has been promulgated;
+(3) Any pollutant that is subject to any standard promulgated under Section 111 of the Act;
+(4) Any Class I or II substance subject to a standard promulgated under or established by Title VI of
+the Act; or
+(5) Any pollutant subject to a standard promulgated under Section 112 or other requirements established
+under Section 112 of the Act, including Sections 112(g), (j), and (r) of the Act, including the following:
+(i) Any pollutant subject to requirements under Section 112(j) of the Act. If the Administrator fails
+to promulgate a standard by the date established pursuant to Section 112(e) of the Act, any pollutant for
+which a subject source would be major shall be considered to be regulated on the date 18 months after the
+applicable date established pursuant to Section 112(e) of the Act; and
+(ii) Any pollutant for which the requirements of Section 112(g)(2) of the Act have been met, but only
+with respect to the individual source subject to Section 112(g)(2) requirement.
+(bb) “Renewal” means the process by which a permit is reissued at the end of its term.
+(cc) “Responsible official” means one of the following:
+(1) For a corporation: a president, secretary, treasurer, or vice-president of the corporation in charge of
+a principal business function, or any other person who performs similar policy or decision-making functions
+for the corporation; or a duly authorized representative of such person if the representative is responsible
+for the overall operation of one or more manufacturing, production, or operating facilities applying for or
+subject to a permit and either:
+(i) The facilities employ more than 250 persons or have gross annual sales or expenditures exceeding
+$25 million (in second quarter l980 dollars); or
+(ii) The delegation of authority to such representative is approved in advance by the Department;
+(2) For a partnership or sole proprietorship: a general partner or the proprietor, respectively;
+(3) For a municipality, state, federal, or other public agency: either a principal executive officer or
+ranking elected official. For the purposes of this Part, a principal executive officer of a federal agency
+
+524 | Regulation 61-62.70
+
+includes the chief executive officer having responsibility for the overall operations of a principal geographic
+unit of the agency (for example, a Regional Administrator of EPA); or
+(4) For affected sources:
+(i) The designated representative in so far as actions, standards, requirements, or prohibitions under
+the Title IV acid rain requirements of the Act or the regulations promulgated thereunder are concerned; and
+(ii) The designated representative for any other purposes under Part 70.
+(dd) “Section 111” means that portion of the Clean Air Act that addresses New Source Performance
+Standards (NSPS).
+(ee) “Section 112” means that portion of the Clean Air Act that addresses standards for hazardous air
+pollutants.
+(ff) “Section 502(b)(10) changes” are changes that contravene an express permit term. Such changes do not
+include changes that would violate applicable requirements or contravene federally enforceable permit
+terms and conditions that are monitoring (including test methods), recordkeeping, reporting, or compliance
+certification requirements.
+(gg) “Stationary source” means any building, structure, facility, or installation that emits or may emit any
+regulated air pollutant or any pollutant listed under Section 112(b) of the Act.
+(hh) “Title I modification or modification under any provision of Title I of the Act” means any modification
+under Sections 111 or 112 of the Act and any physical change or change in method of operations that is
+subject to the preconstruction regulations promulgated under Part C and D of the Act.
+(ii) “Title III” means that portion of the Clean Air Act that addresses requirements for the administration
+and control of emissions of toxic air pollutants.
+(jj) “Title IV” means that portion of the Clean Air Act that addresses requirements for the administration
+and control of air emissions contributing to acid deposition (acid rain).
+(kk) “Title V” means that portion of the Clean Air Act that established the requirements for federal
+operating permits, permit fees, and approval of comparable State programs.
+(ll) “Title VI” means that portion of the Clean Air Act that provides for Stratospheric Ozone and Global
+Climate Protection, primarily through the control and reduction of emissions of chlorofluorocarbons
+(CFCs) and hydrochlorofluorocarbons (HCFCs).
+(mm) “Title VII” means that portion of the Clean Air Act that addresses enforcement of the Act, including
+the provisions for civil, administrative, and criminal penalties (as codified in Section 113 of the Act).
+70.3. Applicability.
+(a) Part 70 sources. The following sources are subject to the permitting requirements of this Part:
+(1) Any major source;
+
+525 | Regulation 61-62.70
+
+(2) Any source, including an area source, subject to a standard, limitation, or other requirement under
+Section 111 of the Act;
+(3) Any source, including an area source, subject to a standard or other requirement under Section 112
+of the Act, except that a source is not required to obtain a permit solely because it is subject to regulations
+or requirements under Section 112(r) of this Act;
+(4) Any affected source under the Title IV Acid Rain Program; and
+(5) Any source in a source category designated by the Administrator pursuant to this Section.
+(b) Source category exemptions.
+(1) All sources listed in Section 70.3(a) that are not major sources, affected sources, or solid waste
+incineration units required to obtain a permit pursuant to Section 129(e) of the Act, shall be exempted by
+the State from the obligation to obtain a Part 70 permit for 4 years after the effective date of the program or
+until such time as the Administrator completes a rulemaking to determine how the program should be
+structured for non-major sources and the appropriateness of any permanent exemptions in addition to those
+provided for in Section 70.3(b)(4).
+(2) In the case of non-major sources subject to a standard or other requirement under either Section 111
+or Section 112 of the Act after July 21, 1992, publication, the Administrator will determine whether to
+exempt any or all such applicable sources from the requirement to obtain a Part 70 permit at the time that
+the new standard is promulgated.
+(3) RESERVED.
+(4) The following source categories are exempted from the obligation to obtain a Part 70 permit, but
+are not exempted from other Department and EPA requirements:
+(i) All sources and source categories that would be required to obtain a permit solely because they
+are subject to Part 60, Subpart AAA - Standards of Performance for New Residential Wood Heaters; and
+(ii) All sources and source categories that would be required to obtain a permit solely because they
+are subject to Part 61, Subpart M - National Emission Standard for Hazardous Air Pollutants for Asbestos,
+Section 61.145, Standard for Demolition and Renovation.
+(c) Emissions units and Part 70 sources.
+(1) For major sources, the permitting authority shall include in the permit all applicable requirements
+for all relevant emissions units in the major source.
+(2) For any non-major source subject to the Part 70 program under Sections 70.3(a) or (b), the
+Department shall include in the permit all applicable requirements that apply to emissions units that cause
+the source to be subject to the Part 70 program.
+(d) Fugitive emissions. Fugitive emissions from a Part 70 source shall be included in the permit application
+and the Part 70 permit in the same manner as stack emissions, regardless of whether the source category
+in question is included in the list of sources contained in the definition of major source.
+
+526 | Regulation 61-62.70
+
+(e) Applicability Determinations. Any person that operates or proposes to operate a particular source or
+installation may submit a request in writing that the Department make a determination as to whether a
+particular source or installation is subject to the permit requirements of this regulation. The request must
+contain such information as is believed sufficient for the Department to make the requested determination.
+The Department may request any additional information that it needs for purposes of making the
+determination.
+70.4. State program submittals and transition.
+[Reserved]
+70.5. Permit applications.
+(a) Duty to apply. For each Part 70 source, the owner or operator shall submit a timely and complete
+permit application in accordance with this Section.
+(1) Timely application.
+(i) A timely application for a source applying for a Part 70 permit for the first time is one that is
+submitted within 12 months after the source becomes subject to the permit program or on or before such
+earlier date as the Department may establish.
+(ii) Part 70 sources required to meet the requirements under Section 112(g) of the Act, or to have a
+permit under the preconstruction review program approved into the South Carolina Implementation Plan
+under Part C or D of Title I of the Act, shall file a complete application to obtain the Part 70 permit or
+permit revision within 12 months after commencing operation or on or before such earlier date as the
+permitting authority may establish. Where an existing Part 70 permit would prohibit such construction or
+change in operation, the source must obtain a permit revision before commencing operation.
+(iii) For purposes of permit renewal, a timely application is one that is submitted at least 6 months
+prior to the date of permit expiration.
+(iv) Applications for initial phase II acid rain permits shall be submitted to the Department by January
+1, 1996, for sulfur dioxide, and by January 1, 1998, for nitrogen oxides.
+(v) The applicant is encouraged to consult with Department personnel before submitting an
+application or, at any other time, concerning the operation, construction, expansion, or modification of any
+installation, or concerning the required pollution control devices or systems, the efficiency of such devices
+or systems, or the level of emissions related to the installation. In addition, a source that is required to obtain
+a preconstruction permit may submit an application for an operating permit or permit modification for
+concurrent processing. An operating permit application submitted for concurrent processing shall be
+submitted with the source’s preconstruction review application or at such later time as the Department may
+allow.
+(2) Complete application. To be deemed complete, an application must provide all information required
+pursuant to Section 70.5(c), except that applications for permit revision need supply such information only
+if it is related to the proposed change. Information required under Section 70.5(c) must be sufficient to
+evaluate the subject source and its application and to determine all applicable requirements. A responsible
+official shall certify that the submitted information is consistent with Section 70.5(d).
+
+527 | Regulation 61-62.70
+
+(i) Unless the Department determines that an application is not complete within 60 days of receipt
+of the application, such application shall be deemed to be complete, except as otherwise provided in Section
+70.7(a)(4).
+(ii) If, while processing an application that has been determined or deemed to be complete, the
+Department determines that additional information is necessary to evaluate or take final action on that
+application, it may request such information in writing and set a reasonable deadline for a response.
+(iii) The source’s ability to operate without a permit, as set forth in Section 70.7(b), shall be in effect
+from the date the application is determined or deemed to be complete until the final permit is issued,
+provided that the applicant submits any requested additional information by the deadline specified by the
+Department.
+(iv) In submitting an application for renewal of an operating permit issued under these regulations, a
+source may identify terms and conditions in its previous permit that should remain unchanged and
+incorporate by reference those portions of its existing permit and previous permit application(s) and any
+subsequently issued permit amendment(s) or modification(s) that describe products, processes, operations,
+and emissions to which those terms and conditions apply. The source must identify specifically and list
+which portions of its previous permit and/or applications are incorporated by reference. In addition, a
+renewal application must contain:
+(A) Information specified in Section 70.5(c) for those products, processes, operations, and
+emissions that
+(1) Are not addressed in the existing permit;
+(2) Are subject to applicable requirements that are not addressed in the existing
+permit; or
+(3) As to which the source seeks permit terms and conditions that differ from those in the
+existing permit; and
+(B) A compliance plan and certification as required in Section70.5(c)(8).
+(3) Confidential information. Where a source has submitted information to the Department under a
+claim of confidentiality, the Department may also require the source to submit a copy of such information
+directly to the Administrator.
+(b) Duty to supplement or correct application. Any applicant who fails to submit any relevant facts or who
+has submitted incorrect information in a permit application shall, upon becoming aware of such failure or
+incorrect submittal, promptly submit such supplementary facts or corrected information. In addition, an
+applicant shall provide additional information as necessary to address any requirements that become
+applicable to the source after the date it filed a complete application but prior to release of a draft permit.
+(c) Standard application form and required information. Information as described below for each emissions
+unit at a Part 70 source shall be included in a Department approved application. Air emissions or air
+emission units that are insignificant are exempted. However, for these emission units which are exempted,
+a list of the emission units must be included in the application. “Insignificant Activity” generally means
+any air emissions or air emissions unit at a plant that has the potential to emit less than five tons per year (5
+tpy) of any criteria pollutant or less than one thousand pounds (1000 lbs) per year of any hazardous air
+pollutant or any compound listed in Regulation 61-62.5, Standard No. 8, Toxic Air Pollutants. The
+528 | Regulation 61-62.70
+
+Department may determine that certain types or classes of units may be considered insignificant at higher
+emission levels, or that, due to the nature of the pollutant(s) emitted, a unit may be considered significant
+at a lower emission rate. The Department shall maintain a list subject to EPA approval of air emissions or
+air emission units which are considered to be insignificant. No emission or activity can be excluded from a
+Title V operating permit to the extent it is needed to determine compliance with an applicable requirement,
+as defined under Section 70.2(f). An application may not omit information needed to determine the
+applicability of, or to impose, any applicable requirement, or to evaluate the fee amount required under the
+schedule approved pursuant to Section 70.9. The Department approved forms and attachments shall include
+the elements specified below:
+(1) Identifying information, including company name and address (or plant name and address if
+different from the company name), owner’s name and agent, and telephone number and names of plant site
+manager/contact.
+(2) A description of the source’s processes and products (by Standard Industrial Classification Code)
+including any associated with each alternate scenario identified by the source.
+(3) The following emissions-related information:
+(i) A permit application shall describe all emissions of regulated air pollutants emitted from any
+emissions unit, except where such units are exempted under Section 70.5(c). The Department shall require
+additional information related to the emissions of air pollutants sufficient to verify which requirements are
+applicable to the source, and other information necessary to collect any permit fees owed under the fee
+schedule approved pursuant to Section 70.9(b).
+(ii) Identification and description of all points of emissions described in Section 70.5(c)(3)(i) in
+sufficient detail to establish the basis for fees and applicability of requirements of the Act.
+(iii) Emissions rates in tons per year (tpy) and in such terms as are necessary to establish compliance
+consistent with the applicable standard reference test method(s).
+(iv) The following information to the extent it is needed to determine or regulate emissions: fuels, fuel
+use, raw materials, production rates, and operating schedules.
+(v) Identification and description of air pollution control equipment and compliance monitoring
+devices or activities.
+(vi) Limitations on source operation affecting emissions or any work practice standards, where
+applicable, for all regulated pollutants at the Part 70 source.
+(vii) Other information required by any applicable requirement (including information related to stack
+height limitations in Regulation 61-62.7).
+(viii) Calculations on which the information in items (i) through (vii) above is based.
+(4) The following air pollution control requirements:
+(i)
+
+Citation and description of all applicable requirements, and
+
+(ii) Description of or reference to any applicable test method for determining compliance with each
+applicable requirement.
+529 | Regulation 61-62.70
+
+(5) Other specific information that may be necessary for proper evaluation of the source as determined
+by the Department.
+(6) An explanation of any proposed exemptions from otherwise applicable requirements.
+(7) Additional information as determined to be necessary by the Department to define alternative
+operating scenarios identified by the source pursuant to Section 70.6(a)(9) or to define permit terms and
+conditions implementing Section 70.7(e)(5) or Section 70.6(a)(10).
+(8) A compliance plan for all Part 70 sources that contains all the following:
+(i) A description of the source’s compliance status and where appropriate a compliance schedule
+with respect to all applicable requirements as follows:
+(A) For applicable requirements with which the source is in compliance, a statement that during
+the permit term the source will continue to comply with such requirements.
+(B) For applicable requirements that will become effective during the permit term, a statement that
+the source will meet such requirements on a timely basis, unless a more detailed schedule is expressly
+required by the applicable requirement.
+(C) A schedule of compliance for sources that are not in compliance with all applicable
+requirements at the time of permit issuance. Such a schedule shall include a narrative description of how
+the source will achieve compliance with such requirements, a schedule of remedial measures, including an
+enforceable sequence of actions with milestones, leading to compliance with any applicable requirements
+for which the source will be in noncompliance at the time of permit issuance. This compliance schedule
+shall be at least as stringent as that contained in any judicial consent decree or administrative order to which
+the source is subject. Any such schedule of compliance shall be supplemental to, and shall not sanction
+noncompliance with, the applicable requirements on which it is based.
+(ii) RESERVED.
+(iii) RESERVED.
+(iv) A schedule for submission of certified progress reports no less frequently than every 6 months
+for sources required to have a schedule of compliance to remedy a violation.
+(v) The compliance plan content requirements specified in this paragraph shall apply and be included
+in the acid rain portion of a compliance plan for an affected source, except as specifically superseded by
+regulations promulgated under Title IV of the Act with regard to the schedule and method(s) the source
+will use to achieve compliance with the acid rain emissions limitations.
+(9) Compliance certification requirements as follows:
+(i) A certification of compliance with all applicable requirements by a responsible official consistent
+with Section 70.5(d) and Section 114(a)(3) of the Act;
+(ii) A statement of methods used for determining compliance, including a description of monitoring,
+recordkeeping, and reporting requirements and test methods;
+
+530 | Regulation 61-62.70
+
+(iii) A schedule for annual submission of compliance certifications during the permit term, unless a
+more frequent schedule is specified by the underlying applicable requirement or by the Department; and
+(iv) A statement indicating the source’s compliance status with any applicable enhanced monitoring
+and compliance certification requirements of the Act.
+(10) The use of nationally-standardized forms for acid rain portions of permit applications and
+compliance plans, as required by regulations promulgated under Title IV of the Act.
+(d) Any application form, report, or compliance certification submitted pursuant to these regulations shall
+contain certification by a responsible official of truth, accuracy, and completeness. This certification and
+any other certification required under this part shall state that, based on information and belief formed after
+reasonable inquiry, the statements and information in the document are true, accurate, and complete.
+70.6. Permit content.
+(a) Standard permit requirements. Each permit issued under this Part shall include the following elements:
+(1) Emission limitations and standards, including those operational requirements and limitations that
+assure compliance with all applicable requirements at the time of permit issuance.
+(i) The permit shall specify and reference the origin of and authority for each term or condition, and
+identify any difference in form as compared to the applicable requirement upon which the term or condition
+is based.
+(ii) The permit shall state that, where an applicable requirement of the Act is more stringent than an
+applicable requirement of regulations promulgated under Title IV of the Act, both provisions shall be
+incorporated into the permit and shall be enforceable by the Administrator.
+(iii) If the Department allows the use of alternative emission limit(s) at a Part 70 source in the South
+Carolina State Implementation Plan, alternative emission limit(s), that are made in the permit issuance,
+renewal, or significant modification process, shall contain provisions to ensure that any resulting emissions
+limit has been demonstrated to be quantifiable, accountable, enforceable, and based on replicable
+procedures.
+(2) The Department shall issue permits for a fixed term not to exceed 5 years. Sources subject to Title
+IV of the Act shall be issued permits with a fixed term of 5 years. Notwithstanding this requirement, the
+Department shall issue permits for solid waste incineration units combusting municipal waste subject to
+standards under Section 129(e) of the Act for a period not to exceed 12 years and shall review such permits
+at least every 5 years.
+(3) Monitoring and related recordkeeping and reporting requirements.
+(i)
+
+Each permit shall contain the following requirements with respect to monitoring:
+
+(A) All monitoring and analysis procedures or test methods required under applicable monitoring
+and testing requirements, including 40 CFR 64, Compliance Assurance Monitoring (October 22, 1997, [64
+FR 54900]), and any other procedures and methods that may be promulgated pursuant to Sections 114(a)(3)
+or 504(b) of the Clean Air Act Amendments of 1990. If more than one monitoring or testing requirement
+applies, the permit may specify a streamlined set of monitoring or testing provisions provided the specified
+
+531 | Regulation 61-62.70
+
+monitoring or testing is adequate to assure compliance at least to the same extent as the monitoring or
+testing applicable requirements that are not included in the permit as a result of such streamlining;
+(B) Where the applicable requirement does not require periodic testing or instrumental or
+noninstrumental monitoring (which may consist of recordkeeping designed to serve as monitoring),
+periodic monitoring sufficient to yield reliable data from the relevant time period that are representative of
+the source’s compliance with the permit, as reported pursuant to Section 70.6(a)(3)(iii) below. Such
+monitoring requirements shall assure use of terms, test methods, units, averaging periods, and other
+statistical conventions consistent with the applicable requirement. Recordkeeping provisions may be
+sufficient to meet the requirements of Section 70.6(a)(3)(i)(B); and
+(C) As necessary, requirements concerning the use, maintenance, and, where appropriate,
+installation of monitoring equipment or methods.
+(ii) With respect to recordkeeping, the permit shall incorporate all applicable recordkeeping
+requirements and require, where applicable, the following:
+(A) Records of required monitoring information that include the following:
+(1) The date, place as defined in the permit, and time of sampling or measurements;
+(2) The date(s) analyses were performed;
+(3) The company or entity that performed the analyses;
+(4) The analytical techniques or methods used;
+(5) The results of such analyses; and
+(6) The operating conditions as existing at the time of sampling or measurement;
+(B) Retention of records of all required monitoring data and support information for a period of at
+least 5 years from the date of the monitoring sample, measurement, report, or application. Support
+information includes all calibration and maintenance records and all original strip-chart recordings for
+continuous monitoring instrumentation, and copies of all reports required by the permit.
+(iii) With respect to reporting, the permit shall incorporate all applicable reporting requirements and
+require the following:
+(A) Submittal of reports of any required monitoring at least every 6 months. All instances of
+deviations from permit requirements must be clearly identified in such reports. All required reports must
+be certified by a responsible official consistent with Section 70.5(d).
+(B) Prompt reporting of deviations from permit requirements, including those attributable to upset
+conditions as defined in the permit, the probable cause of such deviations, and any corrective actions or
+preventive measures taken. The Department shall define “prompt” in relation to the degree and type of
+deviation likely to occur and the applicable requirements.
+(4) A permit condition prohibiting emissions exceeding any allowances that the source lawfully holds
+under Title IV of the Act or the regulations promulgated thereunder.
+
+532 | Regulation 61-62.70
+
+(i) No permit revision shall be required for increases in emissions that are authorized by allowances
+acquired pursuant to the acid rain program, provided that such increases do not require a permit revision
+under any other applicable requirement.
+(ii) No limit shall be placed on the number of allowances held by the source. The source may not,
+however, use allowances as a defense to noncompliance with any other applicable requirement.
+(iii) Any such allowance shall be accounted for according to the procedures established in regulations
+promulgated under Title IV of the Act.
+(5) A severability clause to ensure the continued validity of the various permit requirements in the event
+of a challenge to any portions of the permit.
+(6) Provisions stating the following:
+(i) The permittee must comply with all conditions of the Part 70 permit. Any permit noncompliance
+constitutes a violation of the South Carolina Pollution Control Act and/or the Clean Air Act and is grounds
+for enforcement action; for permit termination, revocation and reissuance, or modification; or for denial of
+a permit renewal application.
+(ii) It shall not be a defense for a permittee in an enforcement action that it would have been necessary
+to halt or reduce the permitted activity in order to maintain compliance with the conditions of this permit.
+(iii) The permit may be modified, revoked, reopened and reissued, or terminated for cause. The filing
+of a request by the permittee for a permit modification, revocation and reissuance, or termination, or of a
+notification of planned changes or anticipated noncompliance does not stay any permit condition.
+(iv) The permit does not convey any property rights of any sort, or any exclusive privilege.
+(v) The permittee shall furnish to the Department, within a reasonable time, any information that the
+Department may request in writing to determine whether cause exists for modifying, revoking and
+reissuing, or terminating the permit or to determine compliance with the permit. Upon request, the permittee
+shall also furnish to the Department copies of records required to be kept by the permit or, for information
+claimed to be confidential, the permittee may furnish such records directly to the Administrator along with
+a claim of confidentiality. The Department may also request that the permittee furnish such records directly
+to the Administrator along with a claim of confidentiality.
+(7) A provision to ensure that a Part 70 source pays fees to the Department consistent with the fee
+schedule approved pursuant to Section 70.9. Failure to pay applicable fee can be considered grounds for
+permit revocation.
+(8) A provision stating that no permit revision shall be required, under any approved economic
+incentives, marketable permits, emissions trading and other similar programs or processes for changes that
+are provided for in the permit.
+(9) Terms and conditions for reasonably anticipated operating scenarios identified by the source in its
+application as approved by the Department. Such terms and conditions:
+(i) Shall require the source, contemporaneously with making a change from one operating scenario
+to another, to record in a log at the permitted facility a record of the scenario under which it is operating;
+
+533 | Regulation 61-62.70
+
+(ii) May extend the permit shield described in Section 70.6(f) to all terms and conditions under each
+such operating scenario; and
+(iii) Must ensure that the terms and conditions of each such alternative scenario meet all applicable
+requirements and the requirements of this Part.
+(10) Terms and conditions, if requested by the permit applicant and approved by the Department, for the
+trading of emissions increases and decreases in the permitted facility, to the extent that the applicable
+requirements provide for trading such increases and decreases without a case-by-case approval of each
+emissions trade. Such terms and conditions:
+(i)
+
+Shall include all terms required under Sections 70.6(a) and (c) to determine compliance;
+
+(ii) May extend the permit shield described in Section 70.6(f) to all terms and conditions that allow
+such increases and decreases in emissions; and
+(iii) Must meet all applicable requirements and requirements of this Part.
+(11) Risk Management Plans. If the source is required to develop and register a risk management plan
+pursuant to Section 112(r) of the Act, the permit need only specify that it will comply with the requirement
+to register such a plan. The content of the risk management plan need not itself be incorporated as a permit
+term.
+(b) Federally-enforceable requirements.
+(1) All terms and conditions in a Part 70 permit, including any provisions designed to limit a source’s
+potential to emit, are enforceable by the Administrator and citizens under the Act.
+(2) Notwithstanding Section 70.6(b)(1), the Department shall specifically designate as not being
+federally enforceable under the Act any terms and conditions included in the permit that are not required
+under the Act or under any of its applicable requirements. Terms and conditions so designated are not
+subject to the requirements of Section 70.7, 70.8, or of this Section, other than those contained in Section
+70.6(b).
+(c) Compliance requirements. All Part 70 permits shall contain the following elements with respect to
+compliance:
+(1) Consistent with Section 70.6(a)(3), compliance certification, testing, monitoring, reporting, and
+recordkeeping requirements sufficient to assure compliance with the terms and conditions of the permit.
+Any document (including reports) required by a Part 70 permit shall contain a certification by a responsible
+official that meets the requirements of Section 70.5(d).
+(2) Inspection and entry requirements that require that, upon presentation of credentials and other
+documents as may be required by law, the permittee shall allow the Department or an authorized
+representative to perform the following:
+(i) Enter upon the permittee’s premises where a Part 70 source is located or emissions-related activity
+is conducted, or where records must be kept under the conditions of the permit;
+(ii) Have access to and copy, at reasonable times, any records that must be kept under the conditions
+of the permit;
+534 | Regulation 61-62.70
+
+(iii) Inspect any facilities, equipment (including monitoring and air pollution control equipment),
+practices, or operations regulated or required under the permit; and
+(iv) As authorized by the Clean Air Act and/or the South Carolina Pollution Control Act, sample or
+monitor at reasonable times substances or parameters for the purpose of assuring compliance with the
+permit or applicable requirements.
+(3) A schedule of compliance consistent with Section 70.5(c)(8).
+(4) Progress reports consistent with an applicable schedule of compliance and Section 70.5(c)(8) to be
+submitted at least semi-annually, or at a more frequent period if specified in the applicable requirement or
+by the Department. Such progress reports shall contain the following:
+(i) Dates for achieving the activities, milestones, or compliance required in the schedule of
+compliance, and dates when such activities, milestones or compliance were achieved; and
+(ii) An explanation of why any dates in the schedule of compliance were not or will not be met, and
+any preventive or corrective measures adopted.
+(5) Requirements for compliance certification with terms and conditions contained in the permit,
+including emission limitations, standards, or work practices. Permits shall include each of the following:
+(i) A schedule for annual submission of compliance certifications during the permit term, unless a
+more frequent schedule is specified in the applicable requirement or by the Department;
+(ii) In accordance with Section 70.6(a)(3), a means for monitoring the compliance of the source with
+its emissions limitations, standards, and work practices;
+(iii) A requirement that the compliance certification include all of the following (provided that the
+identification of applicable information may cross-reference the permit or previous reports, as applicable):
+(A) The identification of each term or condition of the permit that is the basis of the certification;
+(B) The identification of the method(s) or other means used by the owner or operator for
+determining the compliance status with each term and condition during the certification period. Such
+methods and other means shall include, at a minimum, the methods and means required under paragraph
+(a)(3) of this section. If necessary, the owner or operator also shall identify any other material information
+that must be included in the certification to comply with section 113(c)(2) of the Act, which prohibits
+knowingly making a false certification or omitting material information;
+(C) The status of compliance with the terms and conditions of the permit for the period covered by
+the certification, including whether compliance during the period was continuous or intermittent. The
+certification shall be based on the method or means designated in paragraph (c)(5)(iii)(B) of this section.
+The certification shall identify each deviation and take it into account in the compliance certification. The
+certification shall also identify as possible exceptions to compliance any periods during which compliance
+is required and in which an excursion or exceedance as defined under Part 64 of this chapter occurred; and
+(D) Such other facts as the permitting authority may require to determine the compliance status of
+the source.
+
+535 | Regulation 61-62.70
+
+(iv) A requirement that all compliance certifications be submitted to the Administrator as well as to
+the permitting authority.
+(6) Such other provisions as the Department may require.
+(d) General permits.
+(1) The Department may, after notice and opportunity for public participation provided under Section
+70.7(h), issue a general permit covering numerous similar sources. Any general permit shall comply with
+all requirements applicable to other Part 70 permits and shall identify criteria by which sources may qualify
+for the general permit. To sources that qualify, the Department shall grant the conditions and terms of the
+general permit. Notwithstanding the shield provisions of Section 70.6(f), the source shall be subject to
+enforcement action for operation without a Part 70 permit if the source is later determined not to qualify
+for the conditions and terms of the general permit. General permits shall not be authorized for affected
+sources under the acid rain program unless otherwise provided in regulations promulgated under Title IV
+of the Act.
+(2) Part 70 sources that would qualify for a general permit must apply to the Department for coverage
+under the terms of the general permit or must apply for a Part 70 permit consistent with Section 70.5. The
+Department may, in the general permit, provide for applications which deviate from the requirements of
+Section 70.5, provided that such applications meet the requirements of Title V of the Act, and include all
+information necessary to determine qualification for, and to assure compliance with, the general permit.
+Without repeating the public participation procedures required under Section 70.7(h), the Department may
+grant a source’s request for authorization to operate under a general permit, but such a grant shall not be a
+final permit action for purposes of judicial review.
+(e) Temporary sources. The Department may issue a single permit authorizing emissions from similar
+operations by the same source owner or operator at multiple temporary locations. The operation must be
+temporary and involve at least one change of location during the term of the permit. No sources subject to
+Title IV of the Clean Air Act shall be permitted as a temporary source. Permits for temporary sources shall
+include the following:
+(1) Conditions that will assure compliance with all applicable requirements at all authorized locations;
+(2) Requirements that the owner or operator notify the Department at least 10 days in advance of each
+change in location;
+(3) Conditions that assure compliance with all other provisions of this Section; and
+(4) Such other conditions as the Department may require.
+(f) Permit shield.
+(1) The Department may expressly include in a Part 70 permit a provision stating that compliance with
+the conditions of the permit shall be deemed compliance with any applicable requirements as of the date of
+permit issuance, provided that:
+(i)
+
+Such applicable requirements are included and are specifically identified in the permit; or
+
+(ii) The Department, in acting on the permit application or revision, determines in writing that other
+requirements specifically identified are not applicable to the source, and the permit includes the
+determination or a concise summary thereof.
+536 | Regulation 61-62.70
+
+(2) A Part 70 permit that does not expressly state that a permit shield exists shall be presumed not to
+provide such a shield.
+(3) Nothing in Section 70.6(f) or in any Part 70 permit shall alter or affect the following:
+(i) The provisions of Section 303 of the Act (emergency orders), including the authority of the
+Administrator under that Section;
+(ii) The liability of an owner or operator of a source for any violation of applicable requirements prior
+to or at the time of permit issuance;
+(iii) The applicable requirements of the acid rain program, consistent with Section 408(a) of the Act;
+or
+(iv) The ability of EPA to obtain information from a source pursuant to Section 114 of the Act.
+(4) The permit shield shall not apply to sources subject to Sections 70.7(e)(5) and 70.7(e)(2) and (3).
+(g) Emergency provision.
+(1) Definition. An “emergency” means any situation arising from sudden and reasonably
+unforeseeable events beyond the control of the source, including acts of God, which situation requires
+immediate corrective action to restore normal operation, and that causes the source to exceed a technologybased emission limitation under the permit, due to unavoidable increases in emissions attributable to the
+emergency. An emergency shall not include noncompliance to the extent caused by improperly designed
+equipment, lack of preventative maintenance, careless or improper operation, or operator error.
+(2) Effect of an emergency. An emergency constitutes an affirmative defense to an action brought for
+noncompliance with such technology-based emission limitations if the conditions of Section70.6(g)(3) are
+met.
+(3) The affirmative defense of emergency shall be demonstrated through properly signed,
+contemporaneous operating logs, or other relevant evidence that:
+(i)
+
+An emergency occurred and that the permittee can identify the cause(s) of the emergency;
+
+(ii) The permitted facility was at the time being properly operated;
+(iii) During the period of the emergency the permittee took all reasonable steps to minimize levels of
+emissions that exceeded the emission standards, or other requirements in the permit; and
+(iv) The permittee shall submit verbal notification of the emergency to the Department within 24
+hours of the time when emission limitations were exceeded, followed by written notification within 30 days.
+This notice fulfills the requirement of Section 70.6(a)(3)(iii)(B). This notice must contain a description of
+the emergency, any steps taken to mitigate emissions, and corrective actions taken.
+(4) In any enforcement proceeding, the permittee seeking to establish the occurrence of an emergency
+has the burden of proof.
+
+537 | Regulation 61-62.70
+
+(5) This provision is in addition to any emergency or upset provision contained in any applicable
+requirement.
+70.7. Permit issuance, renewal, reopenings, and revisions.
+(a) Action on application.
+(1) A permit, permit modification, or renewal may be issued only if all of the following conditions have
+been met:
+(i) The Department has received a complete application for a permit, permit modification, or permit
+renewal, except that a complete application need not be received before issuance of a general permit under
+Section70.6(d);
+(ii) Except for modifications qualifying for minor permit modification procedures under Sections
+70.7(e)(2) and (3), the Department has complied with the requirements for public participation under
+Section 70.7(h);
+(iii) The Department has complied with the requirements for notifying and responding to affected
+States under Section 70.8(b);
+(iv) The conditions of the permit provide for compliance with all applicable requirements and the
+requirements of Part 70; and
+(v) The Administrator has received a copy of the proposed permit and any notices required under
+Sections 70.8(a) and 70.8(b), and has not objected to issuance of the permit under Section 70.8(c) within
+the time period specified therein.
+(2) The Department shall take final action on each permit application (including a request for permit
+modification or renewal) within 18 months, after receiving a complete application. Exceptions to this
+schedule are provided in the initial transition plan required under 40 CFR 70.4(b)(11) or under regulations
+promulgated under Title IV or Title V of the Clean Air Act for the permitting of affected sources under the
+acid rain program.
+(3) RESERVED.
+(4) The Department shall promptly provide notice to the applicant of whether the application is
+complete. Unless the Department requests additional information or otherwise notifies the applicant of
+incompleteness within 60 days of receipt of an application, the application shall be deemed complete. For
+modifications processed through minor permit modification procedures, such as those in Section 70.7(e)(2)
+and (3), the Department will not require a completeness determination.
+(5) The Department shall provide a statement that sets forth the legal and factual basis for the draft
+permit conditions (including references to the applicable statutory or regulatory provisions). The
+Department shall send this statement to EPA and to any other person who requests it.
+(6) The submittal of a complete application shall not affect the requirement that any source have a
+preconstruction permit under Title I of the Act.
+(b) Requirement for a permit. No Part 70 source may operate after the time that it is required to submit a
+timely and complete application, except in compliance with a permit issued under a Part 70 program. If a
+538 | Regulation 61-62.70
+
+Part 70 source submits a timely and complete application for permit issuance (including for renewal), the
+source’s failure to have a Part 70 permit is not a violation of this Part until the Department takes final action
+on the permit application, except as noted in this section. This protection shall cease to apply if, subsequent
+to the completeness determination made pursuant to paragraph Section 70.7(a)(4), and as required by
+Section 70.5(a)(2), the applicant fails to submit by the deadline specified in writing by the Department any
+additional information identified as being needed to process the application. Exceptions to this section are
+provided in Section 70.7(e)(5)(i) and Section 70.7(e)(2)(v) and (3)(v).
+(c) Permit renewal and expiration.
+(1) Renewal and expiration of permits
+(i) Permits being renewed are subject to the same procedural requirements, including those for public
+participation, affected State and EPA review, that apply to initial permit issuance; and
+(ii) Permit expiration terminates the source’s right to operate unless a timely and complete renewal
+application has been submitted consistent with Section 70.5(a)(1)(iii), Section 70.5(a)(2)(iv), and Section
+70.7(b). In this case, the permit shall not expire until the renewal permit has been issued or denied. All the
+terms and conditions of the permit including any permit shield that may be granted pursuant to Section
+70.6(f) shall remain in effect until the renewal permit has been issued or denied.
+(2) RESERVED.
+(d) Administrative permit amendments.
+(1) An “administrative permit amendment” is a permit revision that:
+(i)
+
+Corrects typographical errors;
+
+(ii) Identifies a change in the name, address, or phone number of any person identified in the permit,
+or provides a similar minor administrative change at the source;
+(iii) Requires more frequent monitoring or reporting by the permittee;
+(iv) Allows for a change in ownership or operational control of a source where the Department
+determines that no other change in the permit is necessary, provided that a written agreement containing a
+specific date for transfer of permit responsibility, coverage, and liability between the current and new
+permittee has been submitted to the Department;
+(v) Incorporates into the Part 70 permit the requirements from preconstruction review permits
+authorized under an EPA-approved program, provided that such a program meets procedural requirements
+substantially equivalent to the requirements of Sections 70.7 and 70.8 that would be applicable to the change
+if it were subject to review as a permit modification, and compliance requirements substantially equivalent
+to those contained in Section 70.6; or
+(vi) Incorporates any other type of change which the Administrator has determined as part of the
+approved Part 70 program to be similar to those in Section 70.7(d)(1)(i) through (iv).
+(2) Administrative permit amendments for purposes of the acid rain portion of the permit shall be
+governed by regulations promulgated under Title IV of the Act.
+
+539 | Regulation 61-62.70
+
+(3) An administrative permit amendment may be made by the Department consistent with the following:
+(i) The Department shall take no more than 60 days from receipt of a request for an administrative
+permit amendment to take final action on such request, and may incorporate such changes without providing
+notice to the public or affected States provided that it designates any such permit revisions as having been
+made pursuant to this paragraph.
+(ii) The Department shall submit a copy of the revised permit to the Administrator.
+(iii) The source may implement the changes addressed in the request for an administrative amendment
+immediately upon submittal of the request, except transfer/ownership which must comply with Regulation
+61-62.1 Section II.M.
+(4) The Department may, upon taking final action granting a request for an administrative permit
+amendment, allow coverage by the permit shield in Section 70.6(f) for administrative permit amendments
+made pursuant to Section 70.7(d)(1)(v) which meet the relevant requirements of Sections 70.6, 70.7, and
+70.8 for significant permit modifications.
+(e) Permit modification. A permit modification is any revision to a Part 70 permit that cannot be
+accomplished under the program’s provisions for administrative permit amendments under Section 70.7(d).
+A permit modification for purposes of the acid rain portion of the permit shall be governed by regulations
+promulgated under Title IV of the Act.
+(1) Program description. RESERVED.
+(2) Minor permit modification procedures.
+(i)
+
+Criteria.
+(A) Minor permit modification procedures may be used only for those permit modifications that:
+(1) Do not violate any applicable requirement;
+
+(2) Do not involve significant changes to existing monitoring, reporting, or recordkeeping
+requirements in the permit;
+(3) Do not require or change a case-by-case determination of an emission limitation or other
+standard, or a source-specific determination for temporary sources of ambient impacts, or a visibility or
+increment analysis;
+(4) Do not seek to establish or change a permit term or condition for which there is no
+corresponding underlying applicable requirement and that the source has assumed to avoid an applicable
+requirement to which the source would otherwise be subject. Such terms and conditions include:
+(A) A federally enforceable emissions cap assumed to avoid classification as a modification
+under any provision of Title I of the Act; and
+(B) An alternative emissions limit approved pursuant to regulations promulgated under
+Section 112(i)(5) of the Act;
+(5) Are not modifications under any provision of Title I of the Act; and
+540 | Regulation 61-62.70
+
+(6) Are not required by the Department to be processed as a significant modification.
+(B) Notwithstanding Sections 70.7(e)(2)(i)(A) and (e)(3)(i), minor permit modification procedures
+may be used for permit modifications involving the use of economic incentives, marketable permits,
+emissions trading, and other similar approaches, to the extent that such minor permit modification
+procedures are explicitly provided for in the South Carolina State Implementation Plan or in applicable
+requirements promulgated by EPA.
+(ii) Application. An application requesting the use of minor permit modification procedures shall
+meet the requirements of Section 70.5(c) and shall include the following:
+(A) A description of the change, the emissions resulting from the change, and any new applicable
+requirements that will apply if the change occurs;
+(B) The source’s suggested draft permit;
+(C) Certification by a responsible official, consistent with Section 70.5(d), that the proposed
+modification meets the criteria for use of minor permit modification procedures and a request that such
+procedures be used; and
+(D) Completed forms for the Department to use to notify the Administrator and affected States as
+required under Section 70.8.
+(iii) Within five working days of receipt of a complete permit modification application, the
+Department shall meet its obligation under Sections 70.8(a)(1) and (b)(1) to notify the Administrator and
+affected States of the requested permit modification. The Department promptly shall send any notice
+required under Section 70.8(b)(2) to the Administrator.
+(iv) Within 90 days of the Department’s receipt of an application under minor permit modification
+procedures or 15 days after the end of the Administrator’s 45-day review period under Section 70.8(c),
+whichever is later, the Department shall:
+(A) Issue the permit modification as proposed;
+(B) Deny the permit modification application;
+(C) Determine that the requested modification does not meet the minor permit modification criteria
+and should be reviewed under the significant modification procedures; or
+(D) Revise the draft permit modification and transmit to the Administrator the new proposed permit
+modification as required by Section 70.8(a).
+(v) The Department may allow the source to make the change proposed in its minor permit
+modification application immediately after it files such application. After the source makes the change
+allowed by the preceding sentence, and until the Department takes any of the actions specified in Section
+70.7(e)(2)(iv) (A) through (C) above, the source must comply with both the applicable requirements
+governing the change and the proposed permit terms and conditions. During this time period, the source
+need not comply with the existing permit terms and conditions it seeks to modify. However, if the source
+fails to comply with its proposed permit terms and conditions during this time period, the existing permit
+terms and conditions it seeks to modify may be enforced against it.
+541 | Regulation 61-62.70
+
+(vi) The permit shield under Section 70.6(f) may not extend to minor permit modifications.
+(3) Group processing of minor permit modifications. Consistent with this paragraph, the Department
+may modify the procedure outlined in Section 70.7(e)(2) to process groups of a source’s applications for
+certain modifications eligible for minor permit modification processing.
+(i)
+
+Criteria. Group processing of modifications may be used only for those permit modifications:
+(A) That meet the criteria for minor permit modification procedures under Section 70.7(e)(2)(i)(A);
+
+and
+(B) That collectively are below the threshold level approved by the Administrator as part of the
+Department’s approved program. This threshold shall be 10 percent of the emissions allowed by the permit
+for the emissions unit for which the change is requested, 20 percent of the applicable definition of major
+source in Section 70.2, or 5 tpy, whichever is least.
+(ii) Application. An application requesting the use of group processing procedures shall meet the
+requirements of Section 70.5(c) and shall include the following:
+(A) A description of the change, the emissions resulting from the change, and any new applicable
+requirements that will apply if the change occurs.
+(B) The source’s suggested draft permit.
+(C) Certification by a responsible official, consistent with Section 70.5(d), that the proposed
+modification meets the criteria for use of group processing procedures and a request that such procedures
+be used.
+(D) A list of the source’s other pending applications awaiting group processing, and a determination
+of whether the requested modification, aggregated with these other applications, equals or exceeds the
+threshold set under Section 70.7(e)(3)(i)(B).
+(E) Certification, consistent with Section 70.5(d), that the source has notified EPA of the proposed
+modification. Such notification need only contain a brief description of the requested modification.
+(F) Completed forms for the Department to use to notify the Administrator and affected States as
+required under Section 70.8.
+(iii) On a quarterly basis or within 5 business days of receipt of an application demonstrating that the
+aggregate of a source’s pending applications equals or exceeds the threshold level set under Section
+70.7(e)(3)(i)(B) of this Section, whichever is earlier, the Department promptly shall meet its obligation
+under paragraphs (a)(1) and (b)(1) of Section 70.8 to notify the Administrator and affected States of the
+requested permit modifications. The Department shall send any notice required under Section 70.8(b)(2)
+to the Administrator.
+(iv) The provisions of Section 70.7(e)(2)(iv) shall apply to modifications eligible for group
+processing, except that the Department shall take one of the actions specified in Section 70.7(e)(2)(iv)(A)
+through (D) within 180 days of receipt of the application or 15 days after the end of the Administrator’s 45day review period under Section 70.8(c), whichever is later.
+
+542 | Regulation 61-62.70
+
+(v) The Department may allow the source to make the changes proposed for group processing in its
+minor permit modification application immediately after it files such application. After the source makes
+the changes allowed by the preceding sentence, and until the Department takes any of the actions specified
+in Section 70.7(e)(2)(iv)(A) through (C), the source must comply with both the applicable requirements
+governing the changes and the proposed permit terms and conditions. During this time period, the source
+need not comply with the existing permit terms and conditions it seeks to modify. However, if the source
+fails to comply with its proposed permit terms and conditions during this time period, the existing permit
+terms and conditions it seeks to modify may be enforced against it.
+(vi) The permit shield under Section 70.6(f) may not extend to minor permit modifications eligible
+for group processing.
+(4) Significant modification procedures.
+(i) Criteria. Significant modification procedures shall be used for applications requesting permit
+modifications that:
+(A) Involve a significant change in existing monitoring permit terms or conditions, or constitute a
+relaxation of reporting or recordkeeping permit terms or conditions.
+(B) Require or change a case-by-case determination of an emission limitation or other standard, or
+a source-specific determination for temporary sources of ambient impacts, or visibility or increment
+analysis;
+(C) Seek to establish or change a permit term or condition for which there is no corresponding
+underlying applicable requirement and that the source has assumed to avoid an applicable requirement to
+which the source would otherwise be subject. Such terms and conditions include:
+(1) A Federally enforceable emissions cap assumed to avoid classification as a modification
+under any provision of Title I;
+(2) An alternative emissions limit approved pursuant to regulations promulgated under Section
+112(i)(5) of the Act; and
+(D) Are modifications under any provision of Title I of the Act, except those that qualify for
+processing as administrative permit amendments under Section 70.7(d).
+Nothing herein shall be construed to preclude the permittee, upon appropriate approval by the Department,
+from making changes consistent with this part that would render existing permit compliance terms and
+conditions irrelevant.
+(ii) Significant permit modifications shall meet all requirements of this part, including those for
+applications, public participation, review by affected States, and review by EPA, as they apply to permit
+issuance and permit renewal. The Department shall complete review on the majority of significant permit
+modifications within 9 months after receipt of a complete application.
+(5) Operational Flexibility. A permitted facility is authorized to make changes within their facility
+without requiring a permit revision, if the changes are not modifications under any provision of Title I of
+the Act and the changes do not exceed the emissions allowable under the permit (whether expressed therein
+as a rate of emissions or in terms of total emissions): Provided that the facility provides the Administrator
+and the Department with written notification as required below in advance of the proposed changes, which
+543 | Regulation 61-62.70
+
+shall be a minimum of 7 days, unless the Department provides in its regulations a different time frame for
+emergencies. The source, Department, and EPA shall attach each such notice to their copy of the relevant
+permit. The following provisions implement this authorization:
+(i) The permitted sources are allowed to make Section 502(b)(10) changes without requiring a permit
+revision, if the changes are not modifications under any provision of Title I of the Act and the changes do
+not exceed the emissions allowable under the permit (whether expressed therein as a rate of emissions or
+in terms of total emissions).
+(A) For each such change, the written notification required above shall include a brief description
+of the change within the permitted facility, the date on which the change will occur, any change in
+emissions, and any permit term or condition that is no longer applicable as a result of the change.
+(B) The permit shield described in Section 70.6(f) of this part shall not apply to any change made
+pursuant to Section 70.7(e)(5)(i).
+(ii) The Department may provide for permitted sources to trade increases and decreases in emissions
+in the permitted facility, where the South Carolina State Implementation Plan provides for such emissions
+trades without requiring a permit revision and based on the 7-day notice prescribed in Section 70.7(e)(5).
+This provision is available in those cases where the permit does not already provide for such emissions
+trading.
+(A) Under Section 70.7(e)(5)(ii), the written notification required above shall include such
+information as may be required by the provision in the South Carolina State Implementation Plan
+authorizing the emissions trade, including at a minimum, when the proposed change will occur, a
+description of each such change, any change in emissions, the permit requirements with which the source
+will comply using the emissions trading provisions of the South Carolina State Implementation Plan, and
+the pollutants emitted subject to the emissions trade. The notice shall also refer to the provisions with which
+the source will comply in the South Carolina State Implementation Plan and that provide for the emissions
+trade.
+(B) The permit shield described in Section 70.6(f) of this part shall not extend to any change made
+under Section 70.7(e)(5)(ii). Compliance with the permit requirements that the source will meet using the
+emissions trade shall be determined according to requirements of the South Carolina State Implementation
+Plan authorizing the emissions trade.
+(iii) The Department shall, if a permit applicant requests it, issue permits that contain terms and
+conditions, including all terms required under Sections 70.6(a) and (c) to determine compliance, allowing
+for the trading of emissions increases and decreases in the permitted facility solely for the purpose of
+complying with a federally-enforceable emissions cap that is established in the permit independent of
+otherwise applicable requirements. The permit applicant shall include in its application proposed replicable
+procedures and permit terms that ensure the emissions trades are quantifiable and enforceable. The
+Department shall not be required to include in the emissions trading provisions any emissions units for
+which emissions are not quantifiable or for which there are no replicable procedures to enforce the
+emissions trades. The permit shall also require compliance with all applicable requirements.
+(A) Under Section 70.7(e)(5)(iii), the written notification required above shall state when the
+change will occur and shall describe the changes in emissions that will result and how these increases and
+decreases in emissions will comply with the terms and conditions of the permit.
+
+544 | Regulation 61-62.70
+
+(B) The permit shield described in Section 70.6(f) of this part may extend to terms and conditions
+that allow such increases and decreases in emissions.
+(6) Off-Permit Changes. Except as provided in Section 70.7(e)(6)(v) below, a facility is allowed to
+make changes that are not addressed or prohibited by the permit without a permit revision. The provisions
+under this Section do not excuse any facility from the preconstruction permitting requirements under South
+Carolina Regulation No. 61-62.1. Any such change shall be subject to the following requirements and
+restrictions:
+(i) Each such change shall meet all applicable requirements and shall not violate any existing permit
+term or condition.
+(ii) Sources must provide contemporaneous written notice to the Department and EPA of each such
+change, except for changes that qualify as insignificant under Section 70.5(c). Such written notice shall
+describe each such change, including the date, any change in emissions, pollutants emitted, and any
+applicable requirement that would apply as a result of the change.
+(iii) The change shall not qualify for the shield under Section 70.6(f).
+(iv) The permittee shall keep a record describing changes made at the source that result in emissions
+of a regulated air pollutant subject to an applicable requirement, but not otherwise regulated under the
+permit, and the emissions resulting from those changes.
+(v) No permittee shall make, without a permit revision, a change that is not addressed or prohibited
+by the facility’s Part 70 permit, if such a change is subject to any requirements under Title IV of the Act or
+is a modification under any provision of Title I of the Act.
+(f) Reopening for cause.
+(1) Each issued permit shall include provisions specifying the conditions under which the permit will
+be reopened prior to the expiration of the permit. A permit shall be reopened and revised under any of the
+following circumstances:
+(i) Additional applicable requirements under the Act become applicable to a major Part 70 source
+with a remaining permit term of 3 or more years. Such a reopening shall be completed not later than 18
+months after promulgation of the applicable requirement. No such reopening is required if the effective date
+of the requirement is later than the date on which the permit is due to expire, unless the original permit or
+any of its terms and conditions has been extended pursuant to Section 70.7(c)(1)(ii).
+(ii) Additional requirements (including excess emissions requirements) become applicable to an
+affected source under the acid rain program. Upon approval by the Administrator, excess emissions offset
+plans shall be deemed to be incorporated into the permit.
+(iii) The Department or EPA determines that the permit contains a material mistake or that inaccurate
+statements were made in establishing the emissions standards or other terms or conditions of the permit.
+(iv) The Administrator or the Department determines that the permit must be revised or revoked to
+assure compliance with the applicable requirements.
+
+545 | Regulation 61-62.70
+
+(2) Proceedings to reopen and issue a permit shall follow the same procedures as apply to initial permit
+issuance and shall affect only those parts of the permit for which cause to reopen exists. Such reopening
+shall be made as expeditiously as practicable.
+(3) Reopenings under Section 70.7(f)(1) shall not be initiated before a notice of such intent is provided
+to the Part 70 source by the Department at least 30 days in advance of the date that the permit is to be
+reopened, except that the Department may provide a shorter time period in the case of an emergency.
+(g) Reopenings for cause by EPA.
+(1) If the Administrator finds that cause exists to terminate, modify, or revoke and reissue a permit
+pursuant to Section 70.7(f), the Administrator will notify the Department and the permittee of such finding
+in writing.
+(2) The Department shall, within 90 days after receipt of such notification, forward to EPA a proposed
+determination of termination, modification, or revocation and reissuance, as appropriate. The Administrator
+may extend this 90-day period for an additional 90 days if he finds that a new or revised permit application
+is necessary or that the Department must require the permittee to submit additional information.
+(3) The Administrator will review the proposed determination from the Department within 90 days of
+receipt.
+(4) The Department shall have 90 days from receipt of an EPA objection to resolve any objection that
+EPA makes and to terminate, modify, or revoke and reissue the permit in accordance with the
+Administrator’s objection.
+(5) If the Department fails to submit a proposed determination pursuant to Section 70.7(g)(2) or fails to
+resolve any objection pursuant to Section 70.7(g)(4), the Administrator will terminate, modify, or revoke
+and reissue the permit after taking the following actions:
+(i) Providing at least 30 days’ notice to the permittee in writing of the reasons for any such action.
+This notice may be given during the procedures in Section 70.7(g)(1) through (4).
+(ii) Providing the permittee an opportunity for comment on the Administrator’s proposed action and
+an opportunity for a hearing.
+(h) Public participation. Except for modifications qualifying for minor permit modification procedures,
+all permit proceedings, including initial permit issuance, significant modifications, and renewals, shall
+provide adequate procedures for public notice including offering an opportunity for public comment and a
+hearing on the draft permit. These procedures shall include the following:
+(1) Notice shall be given by posting the notice and the draft permit, for the duration of the public comment
+period, on a public website identified by the Department, as the consistent noticing method. This consistent
+noticing method shall be used for all draft permits subject to notice under this paragraph. In addition, notice
+shall be given to persons on a mailing list developed by the Department using generally accepted methods
+(e.g., hyperlink sign-up function or radio button on an agency website, sign-up sheet at a public hearing,
+etc.) that enable interested parties to subscribe to the mailing list. The Department may update the mailing
+list from time to time by requesting written indication of continued interest from those listed. The
+Department may delete from the list the name of any person who fails to respond to such a request within
+a reasonable timeframe. The Department may use additional means to provide adequate notice to the
+
+546 | Regulation 61-62.70
+
+affected public, including by publishing the notice in a newspaper of general circulation in the area where
+the source is located (or in a State publication designed to give general public notice);
+(2) The notice shall identify the affected facility; the name and address of the permittee; the name and
+address of the Department; the activity or activities involved in the permit action; the emissions change
+involved in any permit modification; the name, address, and telephone number of a person (or an email or
+website address) from whom interested persons may obtain additional information, including copies of the
+permit draft, the statement required by Section 70.7(a)(5) (sometimes referred to as the ‘statement of basis’),
+the application, all relevant supporting materials, including any permit application, statement of basis,
+compliance plan, permit, and monitoring and compliance certification report pursuant to Section 503(e) of
+the Act, except for information entitled to confidential treatment pursuant to Section 114(c) of the Act (the
+contents of a Part 70 permit shall not be entitled to protection under Section 114(c) of the Act), and all other
+materials available to the Department (except for publicly-available materials and publications) that are
+relevant to the permit decision; a brief description of the comment procedures required by this part; and the
+time and place of any hearing that may be held, including a statement of procedures to request a hearing
+(unless a hearing has already been scheduled);
+(3) The Department shall provide such notice and opportunity for participation by affected States as is
+provided for by Section 70.8;
+(4) The Department shall provide at least 30 days for public comment and shall give notice of any public
+hearing at least 30 days in advance of the hearing.
+(5) The Department shall keep a record of the commenters and also of the issues raised during the public
+participation process as well as records of the written comments submitted during that process, so that the
+Administrator may fulfill his obligation under Section 505(b)(2) of the Act to determine whether a citizen
+petition may be granted, and such records shall be available to the public.
+(6) The Department must respond in writing to all significant comments raised during the public
+participation process, including any such written comments submitted during the public comment period
+and any such comments raised during any public hearing on the permit.
+70.8. Permit review by EPA and affected States.
+(a) Transmission of information to the Administrator.
+(1) Unless otherwise agreed to between the Department and the Administrator, the Department shall
+provide to the Administrator a copy of each permit application (including any application for significant or
+minor permit modification), the statement required by Section 70.7(a)(5) (sometimes referred to as the
+‘statement of basis’), each proposed permit, each final Part 70 permit, and, if significant comment is
+received during the public participation process, the written response to comments (which must include a
+written response to all significant comments raised during the public participation process on the draft
+permit and recorded under Section 70.7(h)(5)), and an explanation of how those public comments and the
+Department’s responses are available to the public. The applicant may be required by the Department to
+provide a copy of the permit application (including the compliance plan) directly to the Administrator.
+Upon agreement with the Administrator, the Department may submit to the Administrator a permit
+application summary form and any relevant portion of the permit application and compliance plan, in place
+of the complete permit application and compliance plan. To the extent practicable, the preceding
+information shall be provided in a computer-readable format compatible with EPA’s national database
+management system.
+
+547 | Regulation 61-62.70
+
+(i) Where the public participation process for a draft permit concludes before the proposed permit is
+submitted to the Administrator, the statement required by Section 70.7(a)(5) (sometimes referred to as the
+‘statement of basis’) and the written response to comments, if significant comment was received during the
+public participation process, must be submitted with the proposed permit along with other supporting
+materials required in Section 70.8(a)(1), excepting the final permit. The Administrator’s forty-five (45) day
+review period for this proposed permit will not begin until such materials have been received by the EPA.
+(ii) In instances where the Administrator has received a proposed permit from the Department before
+the public participation process on the draft permit has been completed, the statement required by Section
+70.7(a)(5) (sometimes referred to as the ‘statement of basis’) must be submitted with the proposed permit
+along with other supporting materials, required in Section 70.8(a)(1), excepting the final permit and the
+written response to comments. If the Department receives significant comment on the draft permit during
+the public participation process, but after the submission of the proposed permit to the Administrator, the
+Administrator will no longer consider the submitted proposed permit as a permit proposed to be issued
+under section 505 of the Act. In such instances, the Department must make any revisions to the permit and
+permit record necessary to address such public comments, including preparation of a written response to
+comments (which must include a written response to all significant comments raised during the public
+participation process on the draft permit and recorded under Section 70.7(h)(5)), and must submit the
+proposed permit and the supporting material required under Section 70.8(a)(1)(i), excepting the final
+permit, to the Administrator after the public comment period has closed. This later-submitted permit will
+then be considered as a permit proposed to be issued under section 505 of the Act, and the Administrator’s
+review period for the proposed permit will not begin until all required materials have been received by the
+EPA.
+(2) RESERVED.
+(3) The Department shall keep for at least 5 years such records and submit to the Administrator such
+information as the Administrator may reasonably require to ascertain whether the Department complies
+with the requirements of the Act or of this Part.
+(b) Review by affected States.
+(1) Unless otherwise agreed to between the Department and the Administrator, the Department shall
+give notice of each draft permit to any affected State on or before the time that the Department provides
+this notice to the public under Section 70.7(h), except to the extent Section 70.7(e)(2) or (3) requires the
+timing of the notice to be different.
+(2) The Department, as part of the submittal of the proposed permit to the Administrator (or as soon as
+possible after the submittal for minor permit modification procedures allowed under Section 70.7(e)(2) or
+(3)), shall notify the Administrator and any affected State in writing of any refusal by the Department to
+accept all recommendations for the proposed permit that any affected State submitted during the public or
+affected State review period. The notice shall include the Department’s reasons for not accepting any such
+recommendation. The Department is not required to accept recommendations that are not based on
+applicable requirements or the requirements of this Part.
+(c) EPA objection.
+(1) No permit for which an application must be transmitted to the Administrator under Section 70.8(a)
+shall be issued if the Administrator objects to its issuance in writing within 45 days of receipt of the
+proposed permit and all necessary supporting information required under Section 70.8(a)(1), including
+under Section 70.8(a)(1)(i) or (ii) where applicable.
+548 | Regulation 61-62.70
+
+(2) RESERVED.
+(3) Failure of the Department to do any of the following shall constitute grounds for an EPA objection:
+(i)
+
+Failure to comply with Sections 70.8(a) or (b);
+
+(ii) Failure to submit any information necessary to review adequately the proposed permit;
+(iii) Failure to process any permit under the procedures approved to meet Section 70.7(h) except for
+minor permit modifications; or
+(iv) Failure of any proposed permit to be in compliance with applicable requirements or requirements
+under this part.
+(4) If the Department fails, within 90 days after the date of an EPA objection under Section 70.8(c)(1),
+to revise and submit a proposed permit in response to the objection, the Administrator will issue or deny
+the permit in accordance with the requirements of the Federal program promulgated under Title V of this
+Act.
+(d) Public petitions to the Administrator. If the Administrator does not object in writing under Section
+70.8(c), any person may petition the Administrator within 60 days after the expiration of the Administrator’s
+45-day review period to make such objection. The petitioner shall provide a copy of such petition to the
+Department and the applicant. Any such petition shall be based only on objections to the permit that were
+raised with reasonable specificity during the public comment period provided for in Section 70.7(h), unless
+the petitioner demonstrates that it was impracticable to raise such objections within such period, or unless
+the grounds for such objection arose after such period. If the Administrator objects to the permit as a result
+of a petition filed under this paragraph, the Department shall not issue the permit until EPA’s objection has
+been resolved, except that a petition for review does not stay the effectiveness of a permit or its requirements
+if the permit was issued after the end of the 45-day review period and prior to an EPA objection. If the
+Department has issued a permit prior to receipt of an EPA objection under this paragraph, the Administrator
+will modify, terminate, or revoke such permit, and shall do so consistent with the procedures in Sections
+70.7(g)(4) or (5)(i) and (ii) except in unusual circumstances, and the Department may thereafter issue only
+a revised permit that satisfies EPA’s objection. In any case, the source will not be in violation of the
+requirement to have submitted a timely and complete application.
+(e) Prohibition on default issuance. RESERVED.
+70.9. Fee determination and certification.
+(a) The Department shall require that the owners or operators of Part 70 sources pay annual fees, or the
+equivalent over some other period, that are sufficient to cover the permit program costs and shall ensure
+that any fee required by this Section will be used solely for permit program costs. “Permit program costs”
+means all reasonable (direct and indirect) costs required to develop and administer a permit program, as set
+forth in Section 70.9(b).
+(b) Fee schedule adequacy.
+(1) The Department shall establish a fee schedule that results in the collection and retention of revenues
+sufficient to cover the permit program costs. These costs include, but are not limited to, the costs of the
+following activities as they relate to the operating permit program for stationary sources:
+549 | Regulation 61-62.70
+
+(i) Preparing generally applicable regulations or guidance regarding the permit program or its
+implementation or enforcement;
+(ii) Reviewing and acting on any application for a permit, permit revision, or permit renewal,
+including the development of an applicable requirement as part of the processing of a permit, or permit
+revision or renewal;
+(iii) General administrative costs of running the permit program, including the supporting and tracking
+of permit applications, compliance certification, and related data entry;
+(iv) Implementing and enforcing the terms of any Part 70 permit (not including any court costs or
+other costs associated with an enforcement action), including adequate resources to determine which
+sources are subject to the program;
+(v) Emissions and ambient monitoring;
+(vi) Modeling, analyses, or demonstrations;
+(vii) Preparing inventories and tracking emissions; and
+(viii) Providing direct and indirect support to sources under the Small Business Stationary Source
+Technical and Environmental Compliance Assistance Program contained in Section 507 of the Act in
+determining and meeting their obligations under this part.
+(2)(i) RESERVED.
+(ii) The Department may exclude from such calculation:
+(A) The actual emissions of sources for which no fee is required under Section 70.9(b)(4);
+(B) The amount of a Part 70 source’s actual emissions of each regulated pollutant that the source
+emits in excess of four thousand (4,000) tpy;
+(C) A Part 70 source’s actual emissions of any regulated pollutant, the emissions of which are
+already included in the minimum fees calculation; or
+(D) The insignificant quantities of actual emissions not required in a permit application pursuant to
+Section 70.5(c).
+(iii) “Actual emissions” means the actual rate of emissions in tons per year of any regulated pollutant
+emitted from a Part 70 source over the preceding calendar year or any other period determined by the
+Department to be representative of normal source operation and consistent with the fee schedule approved
+pursuant to this section. Actual emissions shall be calculated using the unit’s actual operating hours,
+production rates, and in-place control equipment, types of materials processed, stored, or combusted during
+the preceding calendar year or such other time period established by the Department pursuant to the
+preceding sentence.
+(iv) The program shall provide that the $25 per ton per year to be collected by the fee schedule shall
+be increased each year by the percentage, if any, by which the Consumer Price Index for the most recent
+
+550 | Regulation 61-62.70
+
+calendar year ending before the beginning of such year exceeds the Consumer Price Index for the calendar
+year 1989.
+(A) The Consumer Price Index for any calendar year is the average of the Consumer Price Index
+for all-urban consumers published by the Department of Labor, as of the close of the 12-month period
+ending on August 31 of each calendar year.
+(B) The revision of the Consumer Price Index which is most consistent with the Consumer Price
+Index for the calendar year 1989 shall be used.
+(v) “Regulated pollutant,” which is used only for purposes of Section 70.9(b)(2), means any
+“regulated air pollutant” except the following:
+(A) Carbon monoxide;
+(B) Any pollutant that is a regulated air pollutant solely because it is a Class I or II substance subject
+to a standard promulgated under or established by Title VI of the Act; or
+(C) Any pollutant that is a regulated air pollutant solely because it is subject to a standard or
+regulation under section 112(r) of the Act.
+(3) The Department’s fee schedule may include emissions fees, application fees, service-based fees or
+other types of fees, or any combination thereof, to meet the requirements of Section 70.9(b)(1) or (b)(2).
+Nothing in the provisions of this section shall require a Department to calculate fees on any particular basis
+or in the same manner for all Part 70 sources, all classes or categories of Part 70 sources, or all regulated
+air pollutants, provided that the Department collects a total amount of fees sufficient to meet the program
+support requirements of Section 70.9(b)(1).
+(4) Notwithstanding any other provision of this Section, during the years 1995 through 1999 inclusive,
+no fee for purposes of Title V shall be required to be paid with respect to emissions from any affected unit
+under Section 404 of the Act.
+(5) RESERVED.
+(c) RESERVED.
+(d) RESERVED.
+
+551 | Regulation 61-62.70
+
+

@@ -1,0 +1,122 @@
+{
+ "f001.txt": {
+  "url": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.1.pdf",
+  "status": 200,
+  "finalUrl": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.1.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 141730
+ },
+ "f002.txt": {
+  "url": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.70.pdf",
+  "status": 200,
+  "finalUrl": "https://des.sc.gov/sites/des/files/Library/Regulations/R.61-62.70.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 103103
+ },
+ "f003.txt": {
+  "url": "https://sdlegislature.gov/api/Rules/74:37.html",
+  "status": 200,
+  "finalUrl": "https://sdlegislature.gov/api/Rules/74:37.html",
+  "type": "text/html",
+  "title": "",
+  "length": 1656
+ },
+ "f004.txt": {
+  "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter121/chap121toc.html",
+  "status": 200,
+  "finalUrl": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter121/chap121toc.html",
+  "type": "text/html",
+  "title": "25 Pa. Code Chapter 121. General Provisions",
+  "length": 211311
+ },
+ "f005.txt": {
+  "url": "https://www.doa.la.gov/media/q4eanemv/33v03.docx",
+  "status": 200,
+  "finalUrl": "https://www.doa.la.gov/media/q4eanemv/33v03.docx",
+  "type": "docx",
+  "title": "",
+  "length": 1877928
+ },
+ "f006.txt": {
+  "url": "https://dep.nj.gov/aqm/",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/aqm/",
+  "type": "text/html",
+  "title": "NJDEP| Air Quality Regulation | Home",
+  "length": 6262
+ },
+ "f007.txt": {
+  "url": "https://dep.nj.gov/boss/general-permits/gp-minor/",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/boss/general-permits/gp-minor/",
+  "type": "text/html",
+  "title": "NJDEP| Bureau of Stationary Sources | General Permits for Minor Source Facilities",
+  "length": 12217
+ },
+ "f008.txt": {
+  "url": "https://dep.nj.gov/boss/general-permits/general-operating-permits/",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/boss/general-permits/general-operating-permits/",
+  "type": "text/html",
+  "title": "NJDEP| Bureau of Stationary Sources | General Operating Permits",
+  "length": 10378
+ },
+ "f009.txt": {
+  "url": "https://deq.wyoming.gov/aqd/new-source-review/",
+  "status": 200,
+  "finalUrl": "https://deq.wyoming.gov/aqd/new-source-review/",
+  "type": "text/html",
+  "title": "New Source Review - Wyoming Department of Environmental Quality",
+  "length": 15089
+ },
+ "f010.txt": {
+  "url": "https://deq.wyoming.gov/aqd/oil-and-gas/",
+  "status": 200,
+  "finalUrl": "https://deq.wyoming.gov/aqd/oil-and-gas-methane-rule/",
+  "type": "text/html",
+  "title": "Oil and Gas Methane Rule - Wyoming Department of Environmental Quality",
+  "length": 8399
+ },
+ "f011.txt": {
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=39620",
+  "status": 403,
+  "finalUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=39620",
+  "type": "text/html",
+  "title": "Just a moment...",
+  "length": 16
+ },
+ "f012.txt": {
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=41500",
+  "status": 403,
+  "finalUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=41500",
+  "type": "text/html",
+  "title": "Just a moment...",
+  "length": 16
+ },
+ "f013.txt": {
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=42301",
+  "status": 403,
+  "finalUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=42301",
+  "type": "text/html",
+  "title": "Just a moment...",
+  "length": 16
+ },
+ "f014.txt": {
+  "url": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-california",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/clean-air-act-permitting-california",
+  "type": "text/html",
+  "title": "Clean Air Act Permitting in California | US EPA",
+  "length": 8824
+ },
+ "f015.txt": {
+  "url": "https://www.epa.gov/caa-permitting/r9-delegation-and-psd-sip-approval-status",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/r9-delegation-and-psd-sip-approval-status",
+  "type": "text/html",
+  "title": "Air Permit Delegation and PSD SIP Approval Status in EPA's Pacific Southwest (Region 9) | US EPA",
+  "length": 11226
+ }
+}
