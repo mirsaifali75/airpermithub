@@ -1,5 +1,7 @@
 import { BookOpenCheck, Calculator, Link2, MapPinned, Search } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
+import logo from "@/assets/brand/airpermithub-logo.png";
 import { IndustrialScene } from "@/components/illustrations/IndustrialScene";
 
 const features = [
@@ -36,6 +38,11 @@ export function Hero({ stateCount }: { stateCount: number }) {
       <IndustrialScene className="absolute inset-0 -z-10 h-full w-full" />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/85 via-navy-950/35 to-transparent" />
       <div className="container-page pt-40 pb-24 sm:pt-44 sm:pb-28 lg:pt-52 lg:pb-32">
+        <div className="flex flex-col gap-8 xl:flex-row-reverse xl:items-center xl:justify-between">
+        {/* The official logo at a size where the wordmark and tagline can be read. */}
+        <div className="w-full max-w-md shrink-0 animate-fade-up rounded-3xl bg-white p-3 shadow-lift ring-1 ring-black/5 sm:p-4 xl:w-[27.5rem] xl:max-w-none 2xl:w-[31rem]">
+          <Image src={logo} alt="AirPermitHub: Nationwide Air Permitting Excellence" priority sizes="(min-width: 1536px) 496px, (min-width: 1280px) 440px, 448px" className="h-auto w-full" />
+        </div>
         <div className="max-w-2xl animate-fade-up">
           <p className="text-xs font-bold tracking-[0.28em] text-cyan-400 sm:text-sm">FROM REGULATIONS TO OPERATIONS</p>
           <h1 className="mt-4 text-[2.75rem] leading-[1.02] font-extrabold sm:text-6xl lg:text-7xl">
@@ -46,6 +53,7 @@ export function Hero({ stateCount }: { stateCount: number }) {
           <p className="mt-5 max-w-xl text-lg text-white/80 sm:text-xl">
             Tools, guidance and resources for environmental professionals to navigate air permitting and compliance with confidence.
           </p>
+        </div>
         </div>
 
         <form action="/search" role="search" className="mt-8 flex animate-fade-up [animation-delay:120ms] max-w-4xl flex-col gap-2 rounded-2xl bg-white p-2 shadow-lift sm:flex-row sm:items-center">
