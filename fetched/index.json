@@ -1,0 +1,66 @@
+{
+ "f001.txt": {
+  "url": "https://dep.nj.gov/aqm/rules/",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/aqm/rules/",
+  "type": "text/html",
+  "title": "NJDEP| Air Quality Regulation | Rules Currently in Effect",
+  "length": 5074
+ },
+ "f002.txt": {
+  "url": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf",
+  "status": 200,
+  "finalUrl": "https://www.deq.louisiana.gov/assets/docs/Air/MinorSourceGeneralPermits/MinorSourceGeneralPermit_10-28-16.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 232612
+ },
+ "f003.txt": {
+  "url": "https://www.deq.louisiana.gov/page/state-minor-source-permits",
+  "status": 200,
+  "finalUrl": "https://www.deq.louisiana.gov/page/state-minor-source-permits",
+  "type": "text/html",
+  "title": "State (Minor Source) Permits | Louisiana Department of Environmental Quality",
+  "length": 6181
+ },
+ "f004.txt": {
+  "url": "https://deq.wyoming.gov/wp-json/wp/v2/media?search=oil%20and%20gas&per_page=50",
+  "status": 200,
+  "finalUrl": "https://deq.wyoming.gov/wp-json/wp/v2/media?search=oil%20and%20gas&per_page=50",
+  "type": "application/json",
+  "title": "",
+  "length": 0
+ },
+ "f005.txt": {
+  "url": "https://deq.wyoming.gov/wp-json/wp/v2/media?search=guidance&per_page=50",
+  "status": 200,
+  "finalUrl": "https://deq.wyoming.gov/wp-json/wp/v2/media?search=guidance&per_page=50",
+  "type": "application/json",
+  "title": "",
+  "length": 0
+ },
+ "f006.txt": {
+  "url": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
+  "status": 500,
+  "finalUrl": "https://deq.wyoming.gov/2016/05/deq-continues-to-be-air-quality-leader-with-release-of-oil-and-gas-guidance-document/",
+  "type": "text/html",
+  "title": "DEQ continues to be Air Quality Leader with release of Oil and Gas Guidance Document - Wyoming Department of Environmental Quality",
+  "length": 8883
+ },
+ "f007.txt": {
+  "url": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/system/files/documents/2025-11/wy-table-c.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 500635
+ },
+ "f008.txt": {
+  "url": "https://www.epa.gov/caa-permitting/caa-permitting-wyoming",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/caa-permitting-wyoming",
+  "type": "text/html",
+  "title": "CAA Permitting in Wyoming | US EPA",
+  "length": 4542
+ }
+}
