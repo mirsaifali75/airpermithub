@@ -19,3 +19,34 @@ jobs:
       - run: npm run lint
       - run: npm test
       - run: npm run build
+
+  database:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: aph
+          POSTGRES_PASSWORD: aph
+          POSTGRES_DB: aph_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      TEST_DATABASE_URL: postgresql://aph:aph@localhost:5432/aph_test
+      DATABASE_URL: postgresql://aph:aph@localhost:5432/aph_test
+      DATABASE_URL_UNPOOLED: postgresql://aph:aph@localhost:5432/aph_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Migrations match prisma/schema.prisma
+        run: |
+          PGPASSWORD=aph psql -h localhost -U aph -d aph_test -c 'CREATE DATABASE aph_shadow'
+          npx prisma migrate diff --from-migrations prisma/migrations --to-schema-datamodel prisma/schema.prisma \
+            --shadow-database-url postgresql://aph:aph@localhost:5432/aph_shadow --exit-code
+      - name: Import, parity with data/, and the database rules
+        run: npx vitest run src/lib/content/db.test.ts

@@ -27,6 +27,7 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
   const resourcesRef = useRef<HTMLDivElement>(null);
+  const signedIn = useSignedIn(pathname);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -135,8 +136,8 @@ export function Header() {
               <Search className="h-5 w-5" />
             </button>
             <div className="hidden items-center gap-2 sm:flex">
-              <Link href="/sign-in" className={buttonClass("outline-light", "sm", "xl:hidden 2xl:inline-flex")}>Sign In</Link>
-              <Link href="/sign-up" className={buttonClass("primary", "sm")}>Get Started</Link>
+              <Link href={signedIn ? "/account" : "/sign-in"} className={buttonClass("outline-light", "sm", "xl:hidden 2xl:inline-flex")}>{signedIn ? "My Account" : "Sign In"}</Link>
+              <Link href={signedIn ? "/dashboard" : "/sign-up"} className={buttonClass("primary", "sm")}>{signedIn ? "Dashboard" : "Get Started"}</Link>
             </div>
             <button
               onClick={() => setMobileOpen((o) => !o)}
@@ -177,8 +178,8 @@ export function Header() {
                 ))}
               </nav>
               <div className="mt-4 grid grid-cols-2 gap-2 border-t border-white/10 pt-4">
-                <Link href="/sign-in" className={buttonClass("outline-light", "md")}>Sign In</Link>
-                <Link href="/sign-up" className={buttonClass("primary", "md")}>Get Started</Link>
+                <Link href={signedIn ? "/account" : "/sign-in"} className={buttonClass("outline-light", "md")}>{signedIn ? "My Account" : "Sign In"}</Link>
+                <Link href={signedIn ? "/dashboard" : "/sign-up"} className={buttonClass("primary", "md")}>{signedIn ? "Dashboard" : "Get Started"}</Link>
               </div>
             </div>
           </div>
@@ -187,4 +188,24 @@ export function Header() {
       <SearchDialog open={searchOpen} onClose={closeSearch} />
     </>
   );
+}
+
+/**
+ * Whether a visitor is signed in, checked after each navigation so pages stay
+ * statically generated. Always false until accounts are open.
+ */
+function useSignedIn(pathname: string) {
+  const [signedIn, setSignedIn] = useState(false);
+  useEffect(() => {
+    if (process.env.NEXT_PUBLIC_ACCOUNTS !== "1") return;
+    let live = true;
+    fetch("/api/auth/session", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((s) => live && setSignedIn(Boolean(s?.user)))
+      .catch(() => {});
+    return () => {
+      live = false;
+    };
+  }, [pathname]);
+  return signedIn;
 }

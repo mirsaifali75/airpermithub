@@ -1,18 +1,16 @@
 /**
- * Provider-agnostic auth contract. Phase 2 plugs in a provider (e.g. Auth.js
- * with the Prisma adapter) behind `getSession()`; pages and API routes depend
- * only on these types and helpers.
+ * Auth contract for pages and API routes. Auth.js (src/auth.ts) sits behind
+ * `getSession()`; pages depend only on these types and helpers.
  */
 
-export type AccountType = "INDIVIDUAL" | "CONSULTANT" | "COMPANY" | "ADMIN";
+export type AccountType = "INDIVIDUAL" | "CONSULTANT" | "COMPANY";
+export type PlatformRole = "USER" | "EDITOR" | "REVIEWER" | "ADMIN";
 export type PlanTier = "FREE" | "PROFESSIONAL" | "TEAM" | "ENTERPRISE";
-export type OrgRole = "OWNER" | "ADMIN" | "EDITOR" | "VIEWER";
 
 export const accountTypes: { value: AccountType; label: string }[] = [
   { value: "INDIVIDUAL", label: "Individual" },
   { value: "CONSULTANT", label: "Consultant" },
   { value: "COMPANY", label: "Company" },
-  { value: "ADMIN", label: "Admin" },
 ];
 
 export interface SessionUser {
@@ -20,9 +18,8 @@ export interface SessionUser {
   email: string;
   name: string | null;
   accountType: AccountType;
+  platformRole: PlatformRole;
   plan: PlanTier;
-  organizationId: string | null;
-  orgRole: OrgRole | null;
 }
 
 export interface Session {
@@ -37,9 +34,3 @@ export const entitlements: Record<PlanTier, string[]> = {
   TEAM: ["multiple-facilities", "multiple-users", "role-permissions", "company-dashboard", "task-assignment", "audit-history"],
   ENTERPRISE: ["sso", "api-access", "custom-integrations"],
 };
-
-const tierOrder: PlanTier[] = ["FREE", "PROFESSIONAL", "TEAM", "ENTERPRISE"];
-
-export function can(plan: PlanTier, feature: string): boolean {
-  return tierOrder.slice(0, tierOrder.indexOf(plan) + 1).some((t) => entitlements[t].includes(feature));
-}
