@@ -3,10 +3,13 @@ import Link from "next/link";
 import { DashboardHome } from "@/components/dashboard/DashboardHome";
 import { dashboardNav } from "@/components/dashboard/nav";
 import { buttonClass } from "@/components/ui/Button";
+import { accountsEnabled } from "@/lib/auth/config";
+import { getSession } from "@/lib/auth/session";
 
 export const metadata: Metadata = { title: "My Dashboard", robots: { index: false } };
 
-export default function DashboardPage() {
+export default async function DashboardPage() {
+  const session = await getSession();
   return (
     <div className="bg-canvas pt-32 lg:pt-40">
       <div className="container-page grid grid-cols-[minmax(0,1fr)] gap-6 py-8 lg:grid-cols-[15rem_1fr]">
@@ -23,9 +26,20 @@ export default function DashboardPage() {
             </ul>
           </nav>
           <div className="mt-4 hidden rounded-2xl bg-navy-900 p-4 text-white lg:block">
-            <p className="text-sm font-semibold">Accounts are coming</p>
-            <p className="mt-1 text-xs text-white/70">Sync projects, calculations and deadlines across devices and your team.</p>
-            <Link href="/sign-up" className={buttonClass("primary", "sm", "mt-3 w-full")}>Get Started</Link>
+            {session ? (
+              <>
+                <p className="text-sm font-semibold">Signed in{session.user.name ? ` as ${session.user.name}` : ""}</p>
+                <p className="mt-1 text-xs break-all text-white/70">{session.user.email}</p>
+                <p className="mt-2 text-xs text-white/70">Work saved in the tools still lives in this browser. Syncing it to your account comes next.</p>
+                <Link href="/account" className={buttonClass("primary", "sm", "mt-3 w-full")}>My Account</Link>
+              </>
+            ) : (
+              <>
+                <p className="text-sm font-semibold">{accountsEnabled ? "Sign in to your account" : "Accounts are coming"}</p>
+                <p className="mt-1 text-xs text-white/70">Sync projects, calculations and deadlines across devices and your team.</p>
+                <Link href={accountsEnabled ? "/sign-in?callbackUrl=/dashboard" : "/sign-up"} className={buttonClass("primary", "sm", "mt-3 w-full")}>{accountsEnabled ? "Sign In" : "Get Started"}</Link>
+              </>
+            )}
           </div>
         </aside>
         <DashboardHome />

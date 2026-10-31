@@ -40,7 +40,7 @@ export function createRateLimiter({ limit, windowMs, maxKeys = 5000 }: { limit: 
 }
 
 /** Best-effort client key from the proxy headers Vercel sets. */
-export function clientKey(req: Request): string {
+export function clientKey(req: { headers: Pick<Headers, "get"> }): string {
   const forwarded = req.headers.get("x-forwarded-for");
   return forwarded?.split(",")[0]?.trim() || req.headers.get("x-real-ip") || "unknown";
 }

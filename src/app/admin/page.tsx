@@ -24,7 +24,7 @@ export default async function AdminPage() {
       <PageHeader crumbs={[{ label: "Admin" }]} eyebrow="Internal" title="Admin Console" icon={<ShieldCheck className="h-7 w-7" />} description="Editorial and data-management tools. Every change to regulatory content is versioned and attributed." />
       <div className="container-page space-y-6 py-10">
         {!admin && (
-          <p className="flex items-center gap-2 rounded-xl border border-line bg-white px-4 py-3 text-sm text-muted"><Lock className="h-4 w-4" aria-hidden="true" /> Admin access requires an ADMIN account. This page shows the planned module map.</p>
+          <p className="flex items-center gap-2 rounded-xl border border-line bg-white px-4 py-3 text-sm text-muted"><Lock className="h-4 w-4" aria-hidden="true" /> Admin access requires a signed-in admin account. This page shows the planned module map.</p>
         )}
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {modules.map((m) => (
