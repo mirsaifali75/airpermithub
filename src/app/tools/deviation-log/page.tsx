@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { DeviationLog } from "@/components/tools/DeviationLog";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { coreTools } from "@/lib/tools/catalog";
+import { RT } from "@/lib/tools/rule-text";
 
 const tool = coreTools.find((t) => t.slug === "deviation-log")!;
 
 export const metadata: Metadata = {
-  title: "Title V Deviation Log and Semiannual Report Tracker",
+  title: "Deviation & Prompt Reporting Tracker (Title V Deviation Log)",
   description: tool.description,
   alternates: { canonical: tool.href },
 };
@@ -31,12 +32,16 @@ export default function DeviationLogPage() {
           heading: "Using the log",
           points: [
             "Set the report cycle and the month a period starts so entries group the way your permit's reports do.",
+            "Enter each prompt reporting deadline as your permit or state rule states it (hours or calendar days, from discovery or from the start), with where it is written. Nothing is prefilled.",
+            "Pick the deadline when you log a deviation. The tool shows the due date with its arithmetic, lists reports due or overdue, and grades each sent report as on time or late.",
             "Record the prompt report date when one is sent, so the periodic report can reference it.",
             "Export the CSV or print a period when drafting the report. The log is an AirPermitHub template, not an agency form; use your agency's report forms where required.",
             "Entries stay in this browser. Export regularly and keep the file with your compliance records.",
           ],
         },
       ]}
+      quotes={[RT.tvPrompt, RT.tvSemiannual, RT.tvCertDeviations]}
+      quoteSource={{ title: "40 CFR 70.6 (current eCFR)", url: "https://www.ecfr.gov/current/title-40/section-70.6" }}
       sources={[
         { title: "40 CFR 70.6: Title V permit content (monitoring, reporting, certification)", url: "https://www.ecfr.gov/current/title-40/section-70.6" },
         { title: "EPA: Title V Operating Permits", url: "https://www.epa.gov/title-v-operating-permits" },
