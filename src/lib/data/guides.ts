@@ -1,5 +1,7 @@
 import type { SceneKind } from "@/components/illustrations/Scene";
+import type { RuleQuote } from "@/lib/tools/rule-text";
 import { practitionerGuides } from "./practitioner-guides";
+import { ruleGuides } from "./rule-guides";
 
 /**
  * Published AirPermitHub guides.
@@ -13,6 +15,8 @@ export interface GuideSection {
   heading: string;
   paragraphs: string[];
   list?: string[];
+  /** Rule or guidance text quoted word for word, shown under the section with its citation. */
+  quotes?: RuleQuote[];
 }
 
 export interface Guide {
@@ -285,8 +289,8 @@ const foundationGuides: Guide[] = [
   },
 ];
 
-/** Newest first: practitioner guides, then the foundation guides. */
-export const guides: Guide[] = [...practitionerGuides, ...foundationGuides];
+/** Newest first: rule guides, practitioner guides, then the foundation guides. */
+export const guides: Guide[] = [...ruleGuides, ...practitionerGuides, ...foundationGuides];
 
 export function getGuide(slug: string) {
   return guides.find((g) => g.slug === slug);

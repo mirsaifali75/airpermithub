@@ -1,6 +1,8 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import { guides } from "../data/guides";
+import { ruleGuides } from "../data/rule-guides";
 import { RT, ecfrHref, psdSignificance, quoteHref } from "./rule-text";
 
 const alnum = (s: string) => s.normalize("NFKD").toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -45,5 +47,27 @@ describe("tool rule text", () => {
 
   it("states each PSD significance rate in its own row of the quote", () => {
     for (const r of psdSignificance) expect(r.row, r.pollutant).toContain(String(r.tpy));
+  });
+});
+
+describe("guide quotes", () => {
+  it("come from this file, so the snapshot test and the monthly source check cover them", () => {
+    const known = new Set(Object.values(RT).map((x) => `${x.cite}|${x.text}`));
+    let n = 0;
+    for (const g of guides) for (const s of g.sections) for (const x of s.quotes ?? []) {
+      n++;
+      expect(known.has(`${x.cite}|${x.text}`), `${g.slug}: ${x.cite}`).toBe(true);
+    }
+    expect(n).toBeGreaterThan(40);
+  });
+
+  it("leave numbers to the quotes: the rule guides' own words state no thresholds, dates, or limits", () => {
+    const allowed = [/40 CFR \d+\.\d+[a-zA-Z]*(\([0-9a-zA-Z]+\))*/g, /AP-42( Section \d+\.\d+)?/g, /Section \d+\.\d+/g, /EPA's (1989|1995)/g, /Rolling 12-Month Limit Tracker/g, /Part \d+/g];
+    for (const g of ruleGuides) {
+      for (const t of [g.summary, ...g.sections.flatMap((s) => [s.heading, ...s.paragraphs, ...(s.list ?? [])])]) {
+        const rest = allowed.reduce((acc, re) => acc.replace(re, ""), t);
+        expect(rest, `${g.slug}: ${t.slice(0, 60)}`).not.toMatch(/\d/);
+      }
+    }
   });
 });

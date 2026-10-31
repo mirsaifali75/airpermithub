@@ -6,8 +6,9 @@ import { Scene } from "@/components/illustrations/Scene";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { Disclaimer } from "@/components/ui/Notices";
-import { getGuide, guides } from "@/lib/data/guides";
+import { getGuide, guides, type Guide } from "@/lib/data/guides";
 import { site } from "@/lib/site";
+import { quoteHref } from "@/lib/tools/rule-text";
 
 export function generateStaticParams() {
   return guides.map((g) => ({ slug: g.slug }));
@@ -18,6 +19,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!g) return {};
   return { title: g.title, description: g.summary, alternates: { canonical: `/resources/${g.slug}` }, openGraph: { type: "article", title: g.title, description: g.summary } };
 }
+
+/** Up to six other guides: same category first, then the newest. */
+const moreGuides = (g: Guide) =>
+  guides.filter((x) => x.slug !== g.slug).sort((a, b) => Number(b.category === g.category) - Number(a.category === g.category)).slice(0, 6);
 
 const anchor = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
@@ -62,6 +67,21 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                   {s.list.map((li) => <li key={li} className="flex gap-2.5 text-[1.05rem] text-slate-700"><span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-500" aria-hidden="true" />{li}</li>)}
                 </ul>
               )}
+              {s.quotes && (
+                <figure className="mt-4 rounded-xl border border-line bg-canvas p-4">
+                  <figcaption className="text-xs font-bold tracking-wider text-muted uppercase">{s.quotes.length === 1 ? "What the text says" : "What the text says, word for word"}</figcaption>
+                  <ul className="mt-2 space-y-3">
+                    {s.quotes.map((q) => (
+                      <li key={q.cite + q.text.slice(0, 32)}>
+                        <blockquote className="border-l-2 border-brand-300 pl-3 text-[0.95rem] leading-relaxed text-slate-700">&ldquo;{q.text}&rdquo;</blockquote>
+                        <a href={quoteHref(q) ?? undefined} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-1 pl-3 text-xs font-semibold text-brand-600 hover:text-brand-700">
+                          {q.cite} <ExternalLink className="h-3 w-3" aria-hidden="true" />
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </figure>
+              )}
             </section>
           ))}
           <section className="mt-6 rounded-2xl border border-line bg-white p-6 shadow-card">
@@ -71,7 +91,11 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                 <li key={s.url}><a href={s.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-start gap-2 text-sm font-medium text-brand-700 hover:underline"><ExternalLink className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />{s.title}</a></li>
               ))}
             </ul>
-            <p className="mt-4 text-xs text-muted">This guide explains how programs fit together. It does not restate thresholds, limits, or deadlines; read those in the cited text or on the state hub.</p>
+            <p className="mt-4 text-xs text-muted">
+              {g.sections.some((s) => s.quotes)
+                ? "This guide explains how programs fit together. Thresholds, limits, and dates appear only in the quoted text, linked to its source; read the full provision before relying on it."
+                : "This guide explains how programs fit together. It does not restate thresholds, limits, or deadlines; read those in the cited text or on the state hub."}
+            </p>
           </section>
           <Disclaimer className="mt-6" />
         </article>
@@ -92,8 +116,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             <BookOpen className="h-5 w-5 text-cyan-400" aria-hidden="true" />
             <p className="mt-2 text-sm font-semibold">More guides</p>
             <ul className="mt-2 space-y-1.5 text-sm">
-              {guides.filter((x) => x.slug !== g.slug).map((x) => <li key={x.slug}><Link href={`/resources/${x.slug}`} className="text-white/80 hover:text-white">{x.title}</Link></li>)}
+              {moreGuides(g).map((x) => <li key={x.slug}><Link href={`/resources/${x.slug}`} className="text-white/80 hover:text-white">{x.title}</Link></li>)}
             </ul>
+            <Link href="/resources?tab=guides" className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-cyan-300 hover:text-cyan-200">All guides <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" /></Link>
           </div>
         </aside>
       </div>
