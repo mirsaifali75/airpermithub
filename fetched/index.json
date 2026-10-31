@@ -1,0 +1,74 @@
+{
+ "f001.txt": {
+  "url": "https://www.usajobs.gov/search/results/?k=air%20quality",
+  "status": 200,
+  "finalUrl": "https://www.usajobs.gov/search/results/?k=air%20quality",
+  "type": "text/html",
+  "title": "USAJOBS - Search",
+  "length": 6648
+ },
+ "f002.txt": {
+  "url": "https://www.epa.gov/careers",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/careers",
+  "type": "text/html",
+  "title": "Careers | US EPA",
+  "length": 3352
+ },
+ "f003.txt": {
+  "url": "https://www.tceq.texas.gov/jobs",
+  "status": 200,
+  "finalUrl": "https://www.tceq.texas.gov/jobs",
+  "type": "text/html",
+  "title": "Job Opportunities at the TCEQ - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "length": 2737
+ },
+ "f004.txt": {
+  "url": "https://www.env.nm.gov/human-resources/",
+  "status": 404,
+  "finalUrl": "https://www.env.nm.gov/human-resources/",
+  "type": "text/html",
+  "title": "",
+  "length": 2147
+ },
+ "f005.txt": {
+  "url": "https://ww2.arb.ca.gov/about/careers",
+  "status": 404,
+  "finalUrl": "https://ww2.arb.ca.gov/about/careers",
+  "type": "text/html",
+  "title": "Page not found | California Air Resources Board",
+  "length": 1377
+ },
+ "f006.txt": {
+  "url": "https://cdphe.colorado.gov/careers",
+  "status": 200,
+  "finalUrl": "https://cdphe.colorado.gov/careers",
+  "type": "text/html",
+  "title": "Careers | Colorado Department of Public Health and Environment",
+  "length": 5380
+ },
+ "f007.txt": {
+  "url": "https://www.deq.louisiana.gov/page/careers",
+  "status": 200,
+  "finalUrl": "https://www.deq.louisiana.gov/page/careers",
+  "type": "text/html",
+  "title": "Careers | Louisiana Department of Environmental Quality",
+  "length": 8197
+ },
+ "f008.txt": {
+  "url": "https://www.calcareers.ca.gov/",
+  "status": 200,
+  "finalUrl": "https://calcareers.ca.gov/",
+  "type": "text/html",
+  "title": "CalCareers",
+  "length": 4558
+ },
+ "f009.txt": {
+  "url": "https://www.usajobs.gov/",
+  "status": 200,
+  "finalUrl": "https://www.usajobs.gov/",
+  "type": "text/html",
+  "title": "USAJOBS - The Federal Government's official employment site",
+  "length": 7499
+ }
+}
