@@ -1,0 +1,42 @@
+{
+ "f001.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=64",
+  "status": 404,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=64",
+  "type": "text/html",
+  "title": "The page you were looking for doesn't exist (404)",
+  "length": 227
+ },
+ "f002.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=70&section=70.6",
+  "status": 404,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=70&section=70.6",
+  "type": "text/html",
+  "title": "The page you were looking for doesn't exist (404)",
+  "length": 227
+ },
+ "f003.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=70&section=70.2",
+  "status": 404,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=70&section=70.2",
+  "type": "text/html",
+  "title": "The page you were looking for doesn't exist (404)",
+  "length": 227
+ },
+ "f004.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=63&section=63.2",
+  "status": 404,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=63&section=63.2",
+  "type": "text/html",
+  "title": "The page you were looking for doesn't exist (404)",
+  "length": 227
+ },
+ "f005.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=63&section=63.761",
+  "status": 404,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enforced/current/title-40?part=63&section=63.761",
+  "type": "text/html",
+  "title": "The page you were looking for doesn't exist (404)",
+  "length": 227
+ }
+}
