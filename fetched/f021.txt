@@ -1,0 +1,1126 @@
+Stationary Source Permitting - Community Questions | California Air Resources Board 
+Skip to main content 
+&times; Display Settings 
+Default 
+High Contrast 
+Reset 
+Increase Font Size Font 
+Decrease Font Size Font 
+twitter 
+facebook 
+youtube 
+linkedin 
+email 
+Search
+Calendar 
+FAQs 
+Contact 
+Careers 
+Subscribe 
+Display Settings 
+English 
+Español 
+California Air Resources Board
+Main navigation
+About 
+Our Work 
+Resources 
+Services 
+Rulemaking 
+Newsroom 
+Equity 
+Stationary Source Permitting - Community Questions 
+Technology Clearinghouse About 
+Community Air Protection 
+Community Support Tools 
+User Guide 
+Clearinghouse Tools 
+Community Questions Air Toxics Tool 
+Toxics Tool 
+Stationary Source Permitting 
+Subscribe 
+Contact
+Email
+[email protected] 
+The purpose of this webpage is to help the public understand how stationary source air quality permitting is conducted in California relevant to the jurisdiction of the 35 local air districts and the California Air Resources Board (CARB). In September 2021, Environmental Justice representatives from across the state met with CARB to share questions related to the stationary source permitting process. This effort resulted in over 160 unique questions that ranged from requests to provide clear definitions of commonly used terms to clarifying the original intent of complex regulatory programs. In response, CARB and the California Air Pollution Control Officers Association (CAPCOA), which is an association that represents the air districts throughout California, formed a temporary subgroup to develop responses to each question.
+We intend to provide answers to the remaining questions provided by community members and will continually add new responses as they are developed. Therefore, this draft webpage will be updated by CARB and CAPCOA over time. This webpage does not, and is not intended to, describe all aspects of air quality regulations and law related to stationary source permitting. This webpage is informational only and does not, and is not intended to, describe interpretations of regulations or law by air districts or CARB that apply to stationary sources.
+For more information on this effort, or to submit additional questions, please use our webform .
+Filter Q & A Results
+Filter By Keyword (filter questions and/or answers that contain your keyword)
+Search Clear Keyword 
+Filter By Category (filter questions based on category)
+All Categories General Air Toxics BACT Data Transparency Environmental Justice Emissions Inventory Enforcement Expedited BARCT New Source Review (NSR) Permitting Offsets Government Roles Rules Land Use BARCT Economics 
+Released 11/15/21 Released 5/18/22 Released 6/28/24 
+Clear & Expand 
+Clear Keyword and Categories 
+Displaying results. 
+What are the common acronyms associated with stationary source permitting? (N1) 
+AB 617 – Assembly Bill 617 (C. Garcia, 2017) 
+AC/ATC/PC– Authority to Construct 
+APCD – Air Pollution Control District 
+AQIA – Air Quality Impact Assessment 
+AQMD – Air Quality Management District 
+ATCM – Airborne Toxic Control Measure 
+BACT – Best Available Control Technology 
+BARCT – Best Available Retrofit Control Technology 
+CAPCOA – California Air Pollution Control Officers Association 
+CARB – California Air Resources Board 
+CEQA – California Environmental Quality Act 
+DAC – Disadvantaged Community 
+ERC – Emission Reduction Credit 
+HRA – Health Risk Assessment 
+LAER – Lowest Achievable Emissions Rate 
+NESHAP – National Emissions Standards for Hazardous Air Pollutants 
+NSPS – New Source Performance Standards 
+NSR – New Source Review 
+PO/PTO – Permit to Operate 
+PRA – Public Records Act 
+PSD – Prevention of Significant Deterioration 
+RACT – Reasonably Available Control Technology 
+SIP – State Implementation Plan 
+TAC – Toxic Air Contaminant 
+T-BACT – Best Available Control Technology for Toxics 
+U.S. EPA – United States Environmental Protection Agency 
+Back to Top 
+What are the different types of permits? (G2) 
+The common types of air quality permits issued for stationary source operations can be issued at the facility or equipment level and include the following:
+Authority to Construct (ATC) - These are permits that are issued by air districts to project applicants that allow a permit holder (owner/operator) to build, construct, modify, or relocate equipment. An ATC permit can authorize on-going operations until a permit to operate is issued. (Also referred to as: Pre-construction Permit, Permit to Construct (PC), Authority to Construct (AC))
+Permit to Operate (PTO) - These permits are issued by air districts to operators once all ATC permitting requirements are met. (Also referred to as: Permit to Operate (PO), Operational Permit)
+Pre-Existing Permits - Some air districts issue special permits to older sources that existed before rules were adopted (Also referred to as: Grandfathered permits, In-house permits, Loss of exemption permits)
+Title V Permits - These permits are issued by the air district or U.S. EPA to major source facilities and other federally defined operations 1 . They are enforceable by the air district, U.S. EPA, and the public via citizen suits and contain conditions to ensure compliance with federal air quality requirements which includes requirements for recordkeeping, monitoring, and reporting. (Also referred to as: Part 70 permits for those Title V permits issued by an air district or Part 71 permits for those Title V permits issued by U.S. EPA).
+Legal Citation: 1 Title 40 of the Code of Federal Regulations, Chapter 1, Part 70 (Part 70) 
+Related questions include G6 and D1 . 
+Back to Top 
+What are the roles of different agencies in the air quality permitting process? (A15) 
+As a summary, the air quality agencies identified below are involved in permitting processes related to criteria pollutant control in California:
+Thirty-five local air districts are the primary regulators of stationary sources of criteria air pollutants. The air districts are the primary agencies that review and issue air quality permits for stationary sources of air pollution.
+The United States Environmental Protection Agency (U.S. EPA) and California Air Resources Board (CARB) are oversight agencies that may be involved in the permitting process related to criteria pollutant control in California.
+The United States Environmental Protection Agency (U.S. EPA) sets national ambient air quality standards for mobile and stationary sources of criteria pollutants and oversees state and local air quality efforts to meet those standards. U.S. EPA also reviews and enforces Title V permits, which are operating permits for major sources of a criteria pollutant.
+The California Air Resources Board (CARB) is the lead air quality regulatory agency for California. It sets state ambient air quality standards and coordinates and provides oversight for meeting federal ambient air quality standards, including by working closely with air districts to develop State Implementation Plans.
+However, state environmental air quality laws are not applicable on tribal fee land. Tribal Governments regulate emissions sources on tribal fee land and depending on their specific situation, will implement Clean Air Act programs or partner with US EPA to enforce the Clean Air Act.
+In addition to the agencies listed above, many federal, state, and local government agencies have some level of involvement in the air quality permitting process in California, either directly or during the California Environmental Quality Act (CEQA) process, including, but not limited to: City or county land use agencies, California Energy Commission, California Department of Toxic Substances Control, State Lands Commission, State and Regional Water Quality Boards, and the California Coastal Commission.
+Related questions include A1 and A13 . 
+Back to Top 
+What information is available on CARB's website on permitting? (D1) 
+CARB has developed webpages intended to provide important information to the public on the permitting process. The Stationary Source Permitting webpage contains important links to pages that cover permitting topics such as NSR , BACT Program , Title V , and air district rules .
+Related questions include A5 and D2 . 
+Back to Top 
+Where can I find permits online? (D2) 
+There is no centralized database that contains all the air permits across the State. Instead, individual air districts have determined how to display permits on their individual webpages. Some air districts post permits online during the public comment period as part of their public notification process. Other air districts, including South Coast AQMD, Santa Barbara County APCD, and Mojave Desert AQMD have online tools that contain facility operating permits. Some of these tools also provide additional information such as engineering evaluations, compliance history, and emissions data.
+Mojave Desert AQMD Permit Tool 
+South Coast AQMD Facility INformation Detail 
+Santa Barbara County APCD Permitted Facilities Map 
+Additionally, U.S. EPA launched two public dashboards that contain electronic permits received from air districts in Region 9 to enhance data transparency, which is aligned with some of California’s obligations under AB 617:
+U.S. EPA NSR Permit Dashboard 
+U.S. EPA Title V Permit Dashboard 
+In September 2022, the Governor signed AB 1749 which will require air districts with a population of more than 1 million residents to post their air permits online. 
+Related questions include A5 . 
+Back to Top 
+What are the different sections of an air permit and how do you read it? (G15) 
+Air districts may issue several different types of air permits. The organization of these permits may differ by permit type and often look different across the air districts.
+In general, all permits may contain the following:
+Facility Name
+Facility Location
+Facility ID
+Permit Number
+Permit Type (Facility or Equipment)
+Equipment Description (e.g., Emissions Unit and Controls)
+Permit Conditions (e.g., Emissions Limits, Monitoring Requirements, Recordkeeping Requirements, Source Testing Requirements, etc.)
+Applicable Rules
+Additional information may be included in individual air permits, including a staff evaluation report that describes the staff analyses and bases for the permit action. For more information, contact your local air district .
+Related questions include G2 , G6 and D2 . 
+Back to Top 
+What is the stepwise process for issuing a permit? (G6) 
+The graphic below provides a general overview of the permitting process statewide. For more specific information on the permitting process in your area, please contact your air district .
+Related questions include G2 . 
+Back to Top 
+When do other Agencies review permits? (A14) 
+Permits issued in accordance with Title V of the Clean Air Act are submitted to U.S. EPA for review prior to issuance 1 . Other types of permits and associated technical support documentation are occasionally sent to CARB, U.S. EPA, or other air districts to review based on individual air district rules and policies. Any comments provided are considered by the permitting agencies.
+Legal Citation: 1 40 Code of Federal Regulations §70.8 
+Related questions include D2 . 
+Back to Top 
+What does it mean if a permit is expired? (G3) 
+Air district permits for a facility or its equipment generally are valid for a period of time and “expire” after that period ends. Some permits are only needed for a short time, such as ATC permits, and do not require renewal or reissuance once they expire. Other PTO and Title V permits are required for operation and thus need to be renewed, reissued, or extended consistent with an air district’s processes before the permits expire in order for the facility or equipment to operate lawfully. If equipment that requires a permit is built or operated without a valid permit, the owner or operator is subject to air district compliance and enforcement action, which may include penalties for each day of operation 1 .
+Legal Citation: 1 California Health & Safety Code Division 26, Part 4, Chapter 4 .
+Related questions include G4 . 
+Back to Top 
+What is the process/timeline for a permit renewal? (G4) 
+The timelines for permit renewals vary between air districts and may be required annually or up to every 5 years.
+When a permit is considered expired varies by permit type:
+ATC permits are valid for a specific length of time and may expire unless a facility has commenced construction prior to the date listed or obtained an extension from the air district. In some cases, an ATC permit may be extended if the operator meets additional requirements as specified in the regulations.
+PTO permits may have an expiration date listed and renewals are issued if permit conditions are met, and renewal fees are paid. 1,2 
+Title V permits have an expiration date listed and are required to be renewed at least once every five (5) years. The operator must apply for a permit renewal at least six (6) months (but no sooner than 18 months) prior to expiration. If an operator submits a timely and complete application and the expiration date passes, the existing permit is considered an "extended permit" and the existing permit remains enforceable until the permitting agency issues the renewal. In most cases when these permits appear to be expired, they are actually extended. The requirements associated with Title V permit renewals, including the application period and public process, are defined by federal law. Categories: General
+Legal Citation: 1 California Health & Safety Code § 42301(e) ; 2 California Health and Safety Code section 42301, subdivision (b) 
+Related questions include G3 . 
+Back to Top 
+How can stationary sources continue to operate without permits? (G9) 
+Individual air district permitting rules specify criteria, including emissions thresholds and/or equipment capacity, for when air permits are required for stationary sources to operate. All stationary sources that trigger air permitting are required to apply for and obtain a valid permit to operate. Facilities that are found to be operating without permits must apply for the required permits, install control equipment (if required), and pay fines and/or permit fees prior to receiving a permit to operate. When a stationary source fails to comply with air district rules or operates without a permit when one is required, enforcement action is taken. If the facility disregards the enforcement action and continues to operate out of compliance, an air district may seek an order of abatement or court injunction to force the facility to shut-down operations until compliance is achieved.
+Related questions include G3 , G4 and D17 . 
+Back to Top 
+How are emissions increases considered when permitting? (G1) 
+Emissions increases associated with new facilities, modified facilities and relocations are subject to local, state, and federal requirements (implemented largely by air districts). For air district requirements, potential emissions increases are calculated, and each air district has different thresholds, based on attainment status and state and federal NSR requirements, for applying new or modified requirements for these sources including allowable offsets, stringency of emission control technologies (e.g., BACT), modeling (e.g., HRA, AQIA), and public notification.
+Related questions include G6 . 
+Back to Top 
+How are emissions offset from new/modified stationary sources? (O1) 
+For all New Source Review (NSR) permitting actions, increases in emissions are calculated and if those projected emissions increases exceed specified thresholds, then the offset process works as described below:
+I 
+Related questions include G1 and O2 . 
+Back to Top 
+When are permitting projects required to offset emissions? (O2) 
+Offsets are required when there is an emission increase at a facility that exceeds thresholds identified in individual air district rules and regulations. These thresholds vary depending on the level of nonattainment with ambient air quality standards for regional criteria pollutants. This ensures that regions with greater air quality challenges are required to offset emissions from projects at lower thresholds.
+Related questions include O1 , G2 and R5 . 
+Back to Top 
+When is mitigation considered instead of direct control? (G5) 
+For sources that trigger New Source Review (NSR) (new, modified with increase, relocated): The air district requires the installation of the appropriate level of control technology, which is often Best Available Control Technology (BACT) or Lowest Achievable Emissions Rate (LAER). Under this scenario, there are no alternatives to direct control, though, if certain thresholds are exceeded, offsets may also be required to mitigate impacts above and beyond the installation of controls.
+For existing sources (that do not trigger NSR): Existing sources are subject to District prohibitory rules (e.g., air district internal combustion engine rules) that can require retrofit and control of existing equipment. In some situations, rules that require the retrofit of existing equipment may not be cost-effective for all facilities to install additional controls. In these situations, some air districts have rules that allow for alternative compliance pathways including mitigation.
+Related questions include R4 and R5 . 
+Back to Top 
+When/how is the public notified of proposed permitting actions? (A4) 
+The federal Title V permitting program has requirements for enhanced public participation including permit public noticing and public hearings in some cases. For other types of permits, public notice requirements are set by individual air district rules and policies. For proposed permitting actions that trigger notice requirements, air districts post in local newspapers, online, or have other public notification systems. For example, many of the air districts have email notification systems that will notify you of proposed permitting actions at a specific facility, in a region, or across the entire air district.
+Related questions include A5 , D2 and N3 . 
+Back to Top 
+When/how is the public notified of proposed permitting actions near schools? (N3) 
+For new or modified projects proposed near schools, State law 1 requires notification of the parents of children at the school, as well as other nearby schools, and all addresses within 1,000 feet of the source. There is a 30-day public comment period that follows the distribution of the public notice , and the air districts are required to respond to all written comments prior to taking final action on the permit. Air districts may, at their discretion, hold public meeting to inform the public of the permitting project.
+Legal Citation: 1 The federal Title V permitting program has requirements for enhanced public participation including permit public noticing and public hearings in some cases. For other types of permits, public notice requirements are set by individual air district rules and policies. For proposed permitting actions that trigger notice requirements, air districts post in local newspapers, online, or have other public notification systems. For example, many of the air districts have email notification systems that will notify you of proposed permitting actions at a specific facility, in a region, or across the entire air district. CaliforniaHealth & Safety Code § 42301.6 
+Related questions include A4 , A5 and D2 . 
+Back to Top 
+How can community members be involved in the air quality permitting process? (A3) 
+Community members can be involved in the permitting process by providing public comments to air districts on proposed permitting actions or through the California Environmental Quality Act (CEQA) process. In recent years, improvements have been made to local, state, and federal legislation to ensure that public comments are addressed prior to issuing an operational permit. For example, in January 2020 U.S. EPA amended their Title V Petition Provisions rule to require permitting authorities to respond in writing to significant comments received during the public comment period and to provide that response to U.S. EPA. Additionally, over the past several years, CARB and the air districts have created additional opportunities to engage, listen, and respond to public needs, including through the Community Air Protection Program ( Assembly Bill 617, C. Garcia, 2017 ).
+Related questions include A4 , A5 and D2 . 
+Back to Top 
+How can the public comment on proposed permitting actions? (A5) 
+Whenever a proposed permitting action triggers public notice , air districts will provide instructions on how to submit public comment. Generally, these instructions include the time period when comments are accepted, physical mailing address, email address, and contact information for a staff member that can assist the public with any questions. The public can submit a request to the air district for the permit application documents to learn more about proposed project and the air district’s review. Outside of the public comment period the public can also to share their feedback multiple ways. For example, the public can send letters or emails to air district staff or share their feedback at public meetings held by the air district such as workshops or at the air district’s Governing Board meetings.
+Related questions include A4 and D2 . 
+Back to Top 
+How are AB 617 emissions reduction plans related to the permitting process? (J2) 
+In communities selected by the CARB Board to develop Community Emissions Reduction Programs, air districts develop the programs that contain strategies that have been developed or informed by community steering committees. The AB 617 statute requires that Community Emissions Reduction Programs cause emissions reductions in the selected community. If the emissions reduction plans include strategies to reduce emissions from stationary sources by requiring add-on controls or process changes, those sources would have to go through the permitting process prior to implementing changes to ensure their effectiveness and enforceability. If the strategy is not associated with permitted stationary sources, such as grants for mobile source emissions, it would be implemented through other air district or CARB programs, not through the permitting process.
+Related questions include D8 . 
+Back to Top 
+How are districts modifying their permitting programs to address concerns in disadvantaged communities (DACs)? (J1) 
+In response to community advocates and Assembly Bill (AB) 617 , many air districts have expanded their community outreach and engagement efforts to enhance public transparency and improve programs to address public concerns. The intent of statute is clear – to reduce emissions of toxic air contaminants and criteria air pollutants in communities affected by cumulative exposure burdens. Yet, AB 617 does not explicitly require air districts to make specific changes to their existing permitting programs. To further reduce emissions from stationary sources, air districts are evaluating opportunities to enhance existing programs in response to public feedback. One example is that the Bay Area Air Quality Management District amended its permitting rules on December 15, 2021, to address localized health impacts in overburdened communities.
+Related questions include J2 and J3 . 
+Back to Top 
+Are there any additional air quality permitting restrictions in Assembly Bill (AB) 617 selected communities? (J3) 
+To date, none of the approved community emissions reduction programs have contained additional permitting restrictions.
+Assembly Bill (AB) 617 does not explicitly require additional permitting restrictions in disadvantaged communities. Permitting is determined based on current air district rules and regulations. However, air districts and the community emission reduction program steering committees consider all potential strategies (including those related to permitting) for potential emissions and exposure reductions. Changes to the air permitting requirements would require amendments to an air district’s permitting rules. The rule amendment process is subject to state and federal laws and it involves many steps which can take multiple years to complete. Additionally, changes in permitting typically would only affect new permits or modified permits with emissions increases.
+Related questions include J1 , J2 and J4 . 
+Back to Top 
+Why is permitting still allowed in disadvantaged communities (DACs)? (J4) 
+Existing air district, state, and federal law define permitting requirements for stationary sources are based on regional attainment status with ambient air quality standards, not localized impacts. Air districts issue pre-construction and operational permits if the project meets the requirements in all local, state, and federal air quality laws and regulations.
+Related questions include J1 , J3 and A1 . 
+Back to Top 
+How do community members determine which pollutants impact a specific community? (J7) 
+A number of air pollutants, emitted from a variety of sources, impact the health of Californians everyday. Ground level ozone, particulate matter, and air toxic emissions adversely affect the health and welfare of many California communities, especially children, elderly, people with compromised health, and minority and socio-economically disadvantaged populations. The severity of air pollution in a community is influenced by a variety of factors, including direct emissions from sources in the community, and indirect impacts of emissions transported from outside the community. Air districts and CARB have several technical resources and tools that community members can use to confirm known issues, identify new ones, and prioritize pollutants of concern for emission reduction strategies. Some of these resources include measured air pollutant concentrations from air quality monitors, reported emissions of criteria air pollutants and air toxics from permitted facilities, regional or local-scale emission inventories of criteria air pollutants and air toxics, regional air quality plans, and air quality and health risk assessments. CARB and air districts want to work with community members and local community-based organizations to better understand and characterize air pollution concerns in their community and identify and prioritize solutions.
+Technical Resources 
+Note: Air district websites also provide valuable information on permitted facilities, emissions, monitoring, rules and regulations, planning documents and technical reports. Please visit your air district’s website for more information.
+Basic Information on Air Pollutants: 
+Common Air Pollutants 
+Research on Health Effects of Air Pollution: CARB's Health Effects Webpage and U.S. EPA's Health Effects Webpage 
+Office of Environmental Health Hazard Assessment (OEHHA) CalEnviroScreen is a screening tool to help identify communities disproportionately burdened by multiple sources of pollution and with population characteristics that make them more sensitive to pollution.
+CARB's Ambient Air Quality Standards Designation Tool provides information on state and federal ambient air quality standards for criteria pollutants.
+Emission Inventory Tools and Methods: 
+Facility Search Tool allows querying of air district reported facility level criteria pollutant and air toxic emissions at the county, city, or ZIP code level. 
+CARB’s Air Pollution Mapping Tool presents facility-specific emissions of criteria, air toxics and greenhouse gas emissions for large facilities subject to CARB’s Cap and Trade Greenhouse Gas Emissions Mandatory Reporting Regulation. The beta version 3.0 of the tool incorporates a new mobile emissions tab that maps emissions from on-road vehicles such as cars, trucks and buses, and additional capabilities that allow users to view and compare the emission summaries and trends for mobile and stationary sources inside a user-defined geographical area anywhere in the state. 
+Emission Inventory webpage provides information and data on regional inventories used in State Implementation Plans (SIP), including historical as well as projections of anticipated future year emissions ( CEPAM2019v1.03 ), and descriptions of stationary, area and mobile source categories and the types of sources that are included in them.
+Area Source Methodologies webpage provides the most recent versions of District and/or CARB methodologies for estimating area source emissions.
+Mobile source emission inventory webpage provides tools and methodologies used to estimate on-road and off-road emissions. 
+OEHHA/CARB approved heath values for health risk assessments.
+Speciation profiles webpage provides current particulate matter (PM) and total organic gas (TOG) speciation profiles. Speciation profiles provide estimates of the chemical composition of emissions and are used in the emissions inventory and air quality models. CARB maintains and updates estimates of the chemical composition and size fractions of PM, and the chemical composition and reactive fractions of TOG for a variety of emission source categories. 
+Air Monitoring Data and Tools: 
+Community members can use air monitoring data collected from CARB, air district, community efforts to determine what pollutants are measured in and around their area, and understand which pollutants are of concern. Regulatory data are collected at several locations across the State, following specific siting criteria, to determine attainment of federal air quality standards. 
+Air Quality and Meteorological Information System (AQMIS) provides access to preliminary real-time monitoring data and official historical data.
+Aerometric Data Analysis and Management (ADAM) tool provides official regulatory data and statistics for many criteria air pollutants and air toxics by individual monitoring location as well as at different geographic scales (statewide, air basin, county).
+AQView tool provides access to community air monitoring data from AB 617 air monitoring sites. The tool is currently under development and will have visualization capabilities.
+Relevant Plans and Reports: 
+CARB’s AB 617 Community Recommendation Staff Reports : Every year as part of CARB’s recommendation for the next set of AB 617 community selection, CARB publishes a staff report that includes an air quality burden assessment for each of the recommended communities. The assessment includes an initial assessment of air monitoring data in and around the community as well as a preliminary community-scale emission inventory. 
+State Implementation Plan webpage links to air district and CARB documents on the regional air quality plans. These documents provide a comprehensive look at the regional emission issues and present emission inventory and air quality modeling results. 
+Air District AB 2588 Annual Reports : Under state law, air districts prepare and publish the AB 2588 annual report that describes ongoing efforts to regulate and reduce air toxic emissions in their jurisdiction.
+Related questions include D2 and D4 . 
+Back to Top 
+How can the public identify where facilities are located, what they are doing, and what equipment is at the facility, and what they are emitting? (D4) 
+CARB’s air pollution mapping tool can be used to identify facility locations, industry type, and pollutants emitted. However, copies of the permits are needed to determine equipment-level information including the types of equipment used, pollutants emitted, and the emission control technology installed. Some air districts post operating permits online; however, any permit can be obtained from an air district by contacting them and requesting copies. Additionally, some air districts include various tools on their websites that provide access facility permit, location, and compliance information. For example South Coast AQMD’s Facility INformation Detail (FIND) tool provides such information, including a filterable, interactive map of facilities.
+Related questions include J7 and D2 . 
+Back to Top 
+Can community members request information on permitted facilities of concern from air districts? (E5) 
+Yes. Both ATC and PTO permits are public documents. To request these documents, you should contact the air district where the project is to be located for instructions. You may be required to submit a Public Records Act (PRA) request for such documents. Other associated technical support documents, including engineering evaluations, are used by air districts to evaluate the impacts of facilities. It is important to note that some of the permitting documents may contain confidential business information (i.e., “Trade Secrets”), which is not considered a public record under state law and therefore must be redacted prior to making the documents available to the public.
+Related questions include E1 , E3 and D2 . 
+Back to Top 
+How can the public identify which rules apply at a facility? (R4) 
+Facilities may be subject to certain rules depending on the type of equipment installed and/or processes occurring at a stationary source. Air districts issue facility-level or equipment-level permits. Both types of permits contain conditions, including emissions limits, that the operator is required to comply with for each piece of equipment. The conditions are developed based on federal, state, and local rules which are cited in each permit. Some air district permits contain a list of local, state, and federal rules and regulations that apply to the equipment subject to the permit. The best way to determine which rules apply to a specific facility is to contact the air district and request their assistance in identifying applicable rules and regulations that reduce harmful emissions from the permitted equipment at a facility. If the facility has a Title V permit, the permit will contain a list of all the applicable air quality rules and regulations.
+If a permit is not yet issued, the Air District Rules Tool can be used to identify NSR rules (use the rule type filter and select NSR). NSR rules apply to all new and modified sources based on their emission increases, in addition to industry specific control rules, and general control requirements, such as visible emissions.
+Related questions include D2 . 
+Back to Top 
+Where do I find online information on pollution controls installed on specific equipment at facilities? (D5) 
+Air district permits should be referenced to determine the pollution controls installed on a specific piece of equipment. Contact the air district to obtain a copy of the current permit(s) that list out the specific equipment and associated control technology required at that facility. CARB’s Technology Clearinghouse summarizes the types of technology that can be used to control emissions from specific class or categories of sources.
+Related questions include D2 and D4 . 
+Back to Top 
+Is there a tool to look at emissions changes over time at stationary source facilities? (I1) 
+Yes. CARB’s air pollution mapping tool contains filters that allow users to download emissions summaries for stationary source facilities in California.
+Use the filters on the left-hand side of the tool (below) to select specific facilities of interest, industry types or region then refine your selection by adding emissions years and pollutants (filter shown in blue circle on the left). Once you have filtered your data, select the “data” tab at the top of the screen, followed by “get data” to download the data to a csv. file (as shown in red circles).
+It is important to note that emissions calculation methodologies used to estimate the emissions summaries can change over time. Year-to-year changes in emissions at stationary sources may not necessarily reflect actual increases or decreases in emissions . 
+Related questions include D4 and J7 . 
+Back to Top 
+How are cumulative air pollution impacts of new facilities or emissions increases considered when permitting? (J5) 
+Permitting and permit evaluations are performed on an equipment-by-equipment basis. When evaluating air quality permits for modifications to an existing facility the cumulative emissions from all equipment and criteria pollutant emission sources that already exist at that facility are considered along with the newly permitted equipment. Previously permitted toxic emission sources that are related to the permit project may be considered in the health risk assessments as well.
+Related questions include G6 , G10 and G11 . 
+Back to Top 
+How are cumulative air quality impacts from criteria pollutants evaluated for projects within the same community? (G10) 
+The US EPA and California set Ambient Air Quality Standard (AAQS) for criteria pollutants. If a permit application has emissions that exceed air district thresholds, the district requires air dispersion modeling to determine the impacts and add those impacts to measured background concentrations to ensure that the permit application will not cause or contribute to an exceedance of a standard.
+Related questions include G11 , J1 and J4 . 
+Back to Top 
+How are cumulative air pollution impacts from toxic air contaminants evaluated for projects within the same community during the air quality permitting process? (G11) 
+For air quality permits issued by the air districts, health risk impacts are calculated for each permitted unit at the time of permitting and the cumulative impacts of all emission sources at a single facility are assessed every four years through the AB 2588 Toxic Hot Spots Program. The cumulative air pollution impacts of air toxic emissions from multiple facilities are not evaluated and there are currently no guidelines for conducting that type of cumulative air pollution impacts analysis.
+With the passage of Assembly Bill (AB) 617 , new focus has been placed on cumulative impacts analysis as a method to increase understanding of how multiple air pollution sources impact a particular community. CARB and the air districts are working to determine how to evaluate cumulative air pollution impacts.
+Related questions include G10 , J1 , N8 and T2 . 
+Back to Top 
+How is the California Environmental Quality Act (CEQA) review related to air quality permitting? (N8) 
+The California Environmental Quality Act (CEQA) may be triggered when there is a discretionary action being undertaken by a lead agency (e.g., city, county, etc.). CEQA requires state and local government agencies to inform decision makers and the public about the potential environmental impacts of proposed projects, and to reduce those environmental impacts to the extent feasible. The lead agency is responsible for identifying a project’s significant effects on the environment, including effects on air quality, and identifying mitigation measures to avoid or reduce the severity of identified significant impacts. The CEQA review is also a public review and engagement process and typically begins before an application for an air permit is submitted to the air district. The CEQA and permitting processes may occur concurrently, but in many cases air districts cannot issue an authority to construct permit until the CEQA review process has been completed by the lead agency.
+The CEQA process can substantially influence the features of the final project, as there is a lot of discretion in the types of mitigation measures that can be required, including, but not limited to, requirements for the use of zero emissions technologies in disadvantaged communities. Once the CEQA document is certified and/or adopted and the project is approved by the lead agency, the air district may proceed with issuance of a permit if the permit meets all federal, state, and local air quality requirements and if there is no basis for the denial of the permit. Any permit issued by the air district must conform with a CEQA document adopted by a lead agency.
+Related questions include G6 , N9 and A15 . 
+Back to Top 
+How are regulatory agencies involved in the California Environmental Quality Act (CEQA)? (N9) 
+Air quality agencies (i.e., local air districts, CARB, and U.S. EPA) often provide information and comments regarding air quality impacts to local lead agencies that are considering proposed land use projects and analyzing their potential significant environmental impacts under the California Environmental Quality Act (CEQA). The lead agency responsible for overseeing the preparation of the required CEQA analysis is commonly the city or county where the proposed project is located.
+Air quality agencies may occasionally take on the lead agency role, but they are typically responsible or commenting agencies as specified by statute and in the state CEQA Guidelines adopted by the Governor’s Office of Planning and Research (OPR). An air quality agency serves as a responsible agency when it has discretionary approval power over a portion of a project such as a permit but does not have the principal discretionary authority to approve the entire project. A responsible agency provides comments on the aspects of a project that falls within its jurisdiction to approve or are within the agency’s area of expertise; for example, an air district would be a responsible agency for a project where an air permit is required. An air quality agency serves as a commenting agency when it does not serve as a lead nor responsible agency and has concerns about potential air quality impacts from a project. Air quality agencies can provide input regarding air quality impacts of a project and can recommend mitigation measures to reduce air quality impacts.
+Similarly, local and regional plans and individual project decisions can impact community-scale exposure. CARB may review and provide comments on proposed CEQA plans and projects to give input to other government agencies in an effort to improve air quality and public health. Ultimately, the land use agencies make the final decision about whether to approve a project at its particular location. If the project triggers the need for air quality permits, air districts do not issue those permits until after the lead agency has made a final land use decision and completed their CEQA review.
+Air quality agencies can, but do not typically challenge the land use agency’s decision in court. However, the Attorney General has the authority to enforce CEQA compliance where necessary. In some cases, the Attorney General has submitted comments as part of the CEQA process or filed litigation. Settlement agreements can result in a variety of actions, such as additional mitigation measures or local land use ordinances.
+Here are a few resources to provide more information on the CEQA process:
+Office of Planning and Research’s CEQA Webpage 
+Bay Area Air Quality Management District’s CEQA Guidelines 
+San Joaquin Valley Air Pollution Control District’s CEQA Webpage 
+Santa Barbara County Air Pollution Control District’s CEQA Webpage 
+South Coast Air Quality Management Districts’ CEQA Webpage 
+Attorney General CEQA Settlements 
+Related questions include A15 , A1 and N8 . 
+Back to Top 
+How can air quality agencies influence land use decisions? How are these decisions monitored by agencies? (A1) 
+Land use decisions and approvals are made by the city or county where the project is located. Air quality agencies (i.e., local air districts, CARB, and U.S. EPA) can potentially influence land use decisions through the California Environmental Quality Act (CEQA) process. Air quality agencies are typically considered responsible agencies or commenting agencies under CEQA and provide review and recommendations to lead agencies on issues within the air quality agency’s area of expertise (i.e., air quality) or permitting authority. If a city or county is the lead agency, it may contact an air quality agency district, as CEQA requires lead agencies to consult with responsible agencies when preparing CEQA analysis for the purpose of soliciting comments on the project’s potential CEQA impacts. Some air quality agencies monitor OPR’s online CEQA State Clearinghouse to identify projects that may warrant review and comments based on a variety of factors, such as proximity to disadvantaged communities, sensitive receptors, or other local emissions sources. Local air districts may also publish CEQA guidelines, thresholds of significance, tools, and methodologies to help guide lead agencies prepare air quality and greenhouse gas emissions CEQA analyses within the local air district jurisdiction.
+Related questions include J4 , N8 and N9 . 
+Back to Top 
+How do air districts work with city planners to ensure that low-income housing projects are not built next to emissions sources? (A19) 
+There is no specific requirement for land use agencies to evaluate potential emissions impacts of existing emissions sources to future residents of new housing projects; however, air districts will provide feedback to land use planning agencies when requested to do so. Air districts may also provide comments on the environmental analysis of low-income housing projects. Similarly, the California Environmental Quality Act (CEQA) typically requires an evaluation of the environmental impacts of a project on the environment (e.g., impact of project emissions on surrounding sensitive receptors) and not necessarily the impacts of the environment on the project.
+Per the requirements of Senate Bill 1000 , the air district is also providing information, recommendations, and technical tools to assist cities and counties in incorporating “best practices” for environmental justice policies into their General Planning processes around air quality and related community health impact considerations. For example, Bay Area Air Quality Management District has created the Planning Healthy Places guidance document for local governments and developers to address and minimize local air pollution issues during the development process. CARB also has a resource that contains strategies to reduce air pollution exposure near high volume roadways . For more information on potential emissions impacts on proposed housing projects, contact your local air district .
+Related questions include N9 , A20 and D15 . 
+Back to Top 
+What warning is given to residents or potential homeowners if they live near air pollution emissions sources, especially sources that emit toxic air contaminants? (D15) 
+For potential homeowners: 
+When purchasing a home, the previous homeowner is required to disclose any known substances, material or products that may be an environmental hazard such as, but not limited to, asbestos, formaldehyde, radon gas, lead-based paint, fuel or contaminated soil or water on the subject property.
+If the property owner is unaware of any environmental hazards, then the potential homeowner can use existing resources (listed below) to evaluate potential risks, including requesting information on nearby sources of air pollution from the local air district through the public records request process.
+For existing homeowners: 
+Assembly Bill (AB) 2588 (Connelly), the Air Toxics "Hot Spots" Information and Assessment Act, requires facilities found to have a significant risk from their emissions to notify all exposed persons. Once risk assessments (see Risk Assessment ) are reviewed by the Office of Environmental Health Hazard Assessment (OEHHA) and approved by the air district, all exposed persons must be notified of the risk assessment results if the district determines that there is a potentially significant health risk associated with emissions from the facility. Each air district is responsible for establishing the notification threshold at which facilities are required to notify all exposed persons with either a letter to individual neighbors, or with a newspaper notification. Some air districts also require the facility to post information about the facility risk at the local library .
+The California Environmental Quality Act (CEQA) generally does not require a lead agency to provide notice to residents or property owners if a project will potentially emit toxic air contaminants. Generally, notice is provided to all those who requested notice and posted in certain places, including on the agency’s website, in a local newspaper of general circulation, and direct mail to those property owners and residents of contiguous property. In limited circumstances, such as where a new facility will be constructed, property owners within ¼ of a mile of the project will receive a direct mailing notice that an environmental analysis will be performed.
+Resources: 
+To learn more about potential exposure risks in your neighborhood the following resources are available:
+CARB’s Facility Search Tool provides emissions, prioritization scores, and health risk assessment information for all permitted facilities which are reported to CARB by air districts as part of the AB 2588 Air Toxics Hot Spots program.
+CARB’s Air Pollution Mapping Tool can be used to identify locations and emissions releases of the largest stationary sources, including air toxics, using an interactive map.
+Bay Area Air Quality Management District’s Permitted Sources Risk and Hazards Map is a tool that can be used to identify estimated risk and hazard impacts from stationary sources.
+Santa Barbara County Air Pollution Control District’s Permitted Facilities Map contains a radius tool where users can identify sources nearby.
+Physicians for Social Responsibility – Los Angeles (PSR-LA) has developed a 500-foot tool to help residents identify hazards within 500 feet of South and Southeast LA communities.
+Additionally, you can Contact your local air district for more information on a specific area or concerns.
+Related questions include R5 , B5 and N13 . 
+Back to Top 
+What are air toxics? How do air toxics affect me? (N10) 
+Air toxics are compounds in the air that have the potential to harm our health. “Air toxics” is the generic term for these substances, but some agencies have formal definitions of what is considered an air toxic for regulatory purposes. At the federal level, the U.S. EPA identifies specific toxic substances known to cause cancer and other serious impacts as Hazardous Air Pollutants (HAP ). In California, CARB has formally identified over 200 Toxic Air Contaminants (TAC) which include all federal HAPs and additional toxic air contaminants. In addition to these, a list of additional air toxics can be found here .
+People exposed to air toxics at higher concentrations and over time may have an increased chance of developing cancer or experiencing other serious health effects, such as neurological effects or birth defects. Even at extremely low levels, some chemicals may accumulate in the body causing health conditions long after exposure. Examples of air toxics include hexavalent chromium from metal processing operation, benzene from gas stations, and diesel particulate matter from engines. Your individual risk is determined by several factors, which are described in detail in this Air Toxic Risks Infographic. 
+Related questions include N2 , J7 and T2 . 
+Back to Top 
+How are toxic air contaminants dealt with in air quality permitting actions? (T2) 
+As part of the engineering evaluation that is performed when reviewing an air district permit application, district staff evaluate the emissions of air toxics. If the permit application includes a new source or modified source with an increase of air toxics emissions, the evaluation may include a health risk assessment , if triggered, to determine whether the permit application would comply with health risk thresholds. If the health risk exceeds district specified thresholds, the operator must propose project modifications to reduce the health risk, which may include: control equipment, limited operation, increased stack height, etc. If the applicant cannot reduce the health risk below the required threshold risk levels, the air district may deny the application.
+Related questions include T1 , R1 and J5 . 
+Back to Top 
+What is health risk? (N2) 
+Related questions include G6 . 
+Back to Top 
+How are health impacts considered during the permitting process? (G7) 
+For criteria air pollutants, State and National Ambient Air Quality Standards are established to protect public health. Based on the regional attainment status , the air districts adopt New Source Review (NSR) and prohibitory plans, rules, and regulations that require the appropriate level of emissions controls to ensure maintenance and/or future attainment of Ambient Air Quality Standards. Air districts develop thresholds of significance for regional criteria air pollutants as to not exceed applicable Ambient Air Quality Standards or exposure levels at either the local or regional level. In the California Environmental Quality Act (CEQA) process, the environmental analysis analyzes a project’s criteria pollutant emissions and connects those air quality impacts with likely health consequences in a way that the public can understand. If such an explanation in detail is not feasible, the analysis explains why.
+For air toxics, health impacts are directly considered when health risk assessments are performed. Health risk assessments are based on the maximum emissions of toxic air contaminants from a piece of equipment or facility and are based on procedures established by the State’s Office of Environmental Health Hazard Assessment (OEHHA ).
+Related questions include N5 , T2 , N4 and J7 . 
+Back to Top 
+What is a health risk assessment (HRA)? (N11) 
+A health risk assessment (HRA) is a technical study that evaluates how toxic emissions are released from a facility, how they disperse throughout the community, and the potential for those toxic pollutants to impact human health. A HRA estimates the increase in health risks for people living or working near a facility that may result from exposure to a facility’s emissions of toxic air pollutants. HRAs use a computer program called an air dispersion model to predict how facility emissions move into the surrounding community. For each potential community location, health impacts are calculated using health protective standardized information about breathing rates, daily activities, and pollutant toxicity, which are published by the California Office of Environmental Health Hazard Assessment (OEHHA) . The risk assessments are computer calculations that are a tool to identify and reduce possible negative health effects. It’s important to note that numbers provided by HRAs do not refer to actual cases of health problems that will occur from exposure to air toxics. Scientific methods used in HRAs cannot be used to link individual illnesses to chemical exposures.
+Related questions include N2 , N4 , N6 and N7 . 
+Back to Top 
+Which agencies conduct health risk assessments (HRA)? (N4) 
+Health Risk Assessments , or HRAs, are conducted by different agencies to satisfy different requirements.
+Air Districts 
+There are three types of HRAs – 1) New Source Review (NSR) HRAs, 2) AB 2588 HRAs, and 3) California Environmental Quality Act (CEQA) HRAs. In many cases, the air district will perform the HRA in-house, but in some cases the HRA will be performed by the applicant, or a consultant hired by the applicant. In the cases where the HRAs are performed by the applicant or consultant, the air district is responsible for reviewing the HRAs.
+NSR HRAs: HRAs are conducted as part of new source review for a new permitted source or a modified source with an increase of air toxic emissions.
+AB 2588 HRAs : These HRAs are conducted to satisfy the requirements of the Air Toxics “Hot Spots” Program, which is often referred to by the number of the assembly bill that created it, or AB2588. If a facility’s annual emissions exceed the district’s prioritization threshold for AB2588, then that facility must perform an HRA. This type of HRA is conducted on a facility-wide basis. After air district review, this type of HRA is sent to the California Office of Environmental Health Hazard Assessment (OEHHA).
+CEQA HRAs : As commenting or responsible agencies, air districts will review HRAs developed for land use projects. The CEQA HRA can also include other non-stationary sources of air pollution, such as mobile sources and construction activities.
+CARB 
+CARB staff conduct HRA’s in support of the rule making process to help quantify the reduction in health risk that would result from enacting the proposed regulation.
+CARB staff review the HRA submitted by the applicant, for certain types of projects, to ensure that it is correct and complete. CARB staff may also review a CEQA HRA for certain types of projects.
+Land Use Agencies 
+A lead agency is a public agency with the principal responsibility for carrying out or approving a project subject to CEQA. This role is typically taken on by local land use agencies with general governmental jurisdiction. As the lead agency under CEQA, the land use agency is required to oversee the preparation of the CEQA documents analyzing the environmental impacts of a project. This includes an HRA, if it is required. However, most land use agencies do not have expertise in air quality, so the lead agency and project applicant will often contract with an environmental consulting company to prepare the HRA. Through the CEQA review process, the HRA may be reviewed for accuracy and completeness by other local or state agencies with expertise in air quality, such as air districts and CARB.
+Related questions include T2 , N5 , N6 and N7 . 
+Back to Top 
+How do you determine when a health risk assessment (HRA) is needed? (N6) 
+There are a number of reasons why a health risk assessment (HRA) may be required.
+NSR HRAs: District may require an HRA for some projects during the New Source Review (NSR) permitting process. Each District sets its own policies and thresholds for when an HRA is required for permitting actions. In general, they will consider the magnitude and type of emissions from the proposed project, the duration of the project, and the proximity to the public including sensitive receptors.
+AB 2588 HRAs : The Air Toxics "Hot Spots" Information and Assessment Act, or AB 2588, requires air districts to prioritize facilities to determine which facilities must perform a health risk assessment. These facilities, for purposes of risk assessment, are ranked into high, intermediate, and low priority categories. Each district is responsible for establishing the prioritization score threshold at which facilities are required to prepare a health risk assessment. In establishing priorities, the districts are to consider the potency, toxicity, quantity, and volume of hazardous materials released from the facility, the proximity of the facility to potential receptors, and any other factors that the district determines may indicate that the facility may pose a significant risk.
+In order to assist the districts with this requirement, the California Air Pollution Control Officers Association (CAPCOA) Toxics Committee, in cooperation with the Office of Environmental Health Hazard Assessment (OEHHA) and the California Air Resources Board (CARB), developed the Air Toxics "Hot Spots" Program, Facility Prioritization Guidelines which were originally adopted in July 1990 and amended in 2016 to incorporate the changes made to the OEHHA risk assessment methodology . The purpose of the guideline is to provide districts with suggested procedures for prioritizing facilities. However, districts may develop and use prioritization methods which differ from the CAPCOA guidelines.
+CEQA HRAs: HRAs are performed for projects subject to the California Environmental Quality Act (CEQA) when a lead agency determines that an HRA is necessary. Generally, if an air district determines that they will be requiring an HRA for permitting, or if a project is located near schools or other sensitive receptors, air districts can recommend to the lead agency that an HRA be performed for a proposed project.
+Related questions include T2 , N4 , N5 and N7 . 
+Back to Top 
+What are the steps to performing a health risk assessment (HRA)? (N7) 
+A health risk assessment (HRA) must be performed using the methodology developed by the Office of Health Hazard Assessment or OEHHA. Click here for a link to the Air Toxics “Hot Spots” Program Risk Assessment Guidelines.
+A high-level overview of the steps used to perform an HRA are as follows:
+Step 1: 
+Calculate the toxic air contaminant emissions from the proposed project.
+Step 2: 
+Conduct air dispersion modeling using the information about the emissions sources to determine the area impacted by the emissions and the concentration of the emissions within that impacted area at receptor locations modeled. The air dispersion model typically used is AERMOD, which is the US EPA’s preferred air dispersion model.
+Step 3: 
+Combine the total concentration information from step 2 with information about the toxicity of each air toxic to determine the total cancer, non-cancer chronic, and non-cancer acute health risks at each receptor point. CARB’s HARP2 software can be used to perform this step.
+Step 4: 
+Health risk values are then compared to thresholds set by each air district to determine if the project causes a significant health risk.
+Related questions include T2 , N4 , N5 and N6 . 
+Back to Top 
+What happens when an Agency determines there are no significant health impacts? (N5) 
+When an Agency determines there are no significant health impacts this means that the calculated risk is below health protective thresholds or that nearby receptors (e.g., residences, businesses, workers, structures, etc.) are not impacted.
+Emissions of the air toxics are evaluated, and health risks are estimated in a health risk assessment, and if the estimated health risks are above health protective thresholds, the air district will not issue the permit unless modifications are made to lower the health risks below the threshold. If the health risks are below all applicable health protective thresholds, the permit can be issued.
+Related questions include T2 , N4 , N6 and N7 . 
+Back to Top 
+When are controls required for facilities that emit air toxics? (R1) 
+There are many different federal, state, and air district rules and regulations that specify when facilities must use air pollution controls to reduce emissions of air toxics. U.S. EPA’s air toxics regulations are outlined in federal NESHAPS which can either be regulated as major or area sources. In most cases, air districts implement and enforce these federal regulations. CARB develops statewide ATCMs that require best available control technology for air toxics and must also consider cost and health risk in developing and adopting these ATCMs. Air districts can implement the ATCM or adopt a more stringent rule. Air districts also implement California’s AB 2588 Air Toxics “Hot Spots” Program , which requires facilities to report their air toxics emissions, quantify health risk to the public from those emissions, and reduce their health risk below the air district’s risk reduction thresholds . Exceeding these thresholds can result in the need for additional controls. Facilities may also be subject to air district air toxics rules which may have further emission limitations for air toxics and air toxics controls specifications.
+Related questions include T1 , T2 and J5 . 
+Back to Top 
+What is best available control technology for toxics (T-BACT)? (T1) 
+Similar in concept to best available control technology (BACT), T-BACT (or Toxics BACT) requirements ensure that new or modified sources that emit air toxics are well controlled. The T-BACT requirements for each air district’s program are defined in air district rules based on local health risk assessment thresholds. 
+For example, in South Coast Air Quality Management District (SCAQMD) Rule 1401(d) , T-BACT must be applied on a permit to construct a new, relocated, or modified permit unit if the emissions of any toxic air contaminant listed in Table I of Rule 1401 will result in a cumulative increase in maximum individual cancer risk (MICR) greater than one in a million.
+Related questions include R1 , T2 , B2 and A6 . 
+Back to Top 
+What is the intent of the best available control technology (BACT) program? (B1) 
+Prior to issuing a permit for construction, federal and state law requires air districts to conduct new source review (NSR). The specific NSR requirements for each air district vary based on the area’s ambient air quality attainment status. One of the elements of every NSR program is BACT. The intent of BACT is to ensure the cleanest technology available is installed for new, modified, or relocated sources that exceed certain emissions thresholds. The BACT control level is defined based on regional ambient air quality attainment status and specific additional requirements outlined in air district rules and policies.
+For more information on the BACT please visit CARB’s BACT program page .
+Related questions include B2 , B5 , R5 and D6 . 
+Back to Top 
+How does best available control technology (BACT) fit into the permitting process? (B2) 
+Related questions include B1 , B5 , R5 and D6 . 
+Back to Top 
+What is the difference between a best available control technology (BACT) guideline and a determination? (B3) 
+Air districts generally use two types of documents to assist in the identification of BACT - determinations and guidelines. It is important to note that not all air districts have BACT determinations or guidelines. Unless an air district has a unique source, many smaller air districts rely upon the BACT determinations and guidelines from other air districts and the BACT clearinghouse of other agencies such as CARB or U.S. EPA to ensure their permits comply with air district BACT requirements .
+BACT determinations contain emissions limits that a specific piece of equipment (or process) has been required to meet within the air district. Typically, air districts develop BACT determinations to document the installation of technology cleaner than previously permitted that has achieved its required effectiveness. This information allows permit engineers to confirm that an emissions limit has been achieved in practice, which is a critical step for ensuring that the most stringent emissions controls are required (and sets a new floor for required emissions limits for sources that trigger Lowest Achievable Emissions Rate, or LAER). For this reason, CARB's BACT database only contains determinations that have been verified by operational or pre-construction permits.
+BACT guidelines provide an overview of the limits that may be required when a source type is permitted. Guidelines are helpful for assisting permit engineers and source engineers initially determine the limits and associated technologies that may constitute BACT. The information contained in guidelines may come from multiple sources including permits from within and outside of the air district or state, regulations, or as a result of a literary review. Guidelines may also contain information on conventional and alternative equipment that has been determined to be technologically feasible but is not yet required as BACT. Air districts in California commonly use guidelines when determining emissions limits for minor sources.
+Related questions include B4 , B5 , N12 and D6 . 
+Back to Top 
+What is the process for determining what technology is considered best available control technology (BACT)? (B4) 
+When air districts issue permits for new, modified or relocated emissions sources they must first determine if BACT is triggered, and if so, the level of control required. Air districts’ individual New Source Review (NSR) permitting rules and policies define their process for identifying BACT. The most common process air districts use to identify BACT includes the following steps:
+Step 1: Identify all potential control technologies
+Step 2: Eliminate technically infeasible options
+Step 3: Rank remaining control technologies by control effectiveness
+Step 4: If most effective controls are not achieved in practice, perform cost-effectiveness analysis and document results
+Step 5: Select BACT
+To support this process, CARB is required to maintain a Technology Clearinghouse that contains BACT and T-BACT determinations. These determinations are used by air districts when writing or updating NSR permits. This system also helps air districts determine which technologies have been achieved in practice for a class and category of source, which is the minimum level of control required when a source triggers BACT.
+Related questions include B3 , B5 , D6 and A6 . 
+Back to Top 
+What are the different stringencies associated with best available control technology (BACT)? (B5) 
+There are three levels of control that may apply to new and modified sources with an emissions increase in California:
+Federal BACT: Required on major new or modified sources in areas that are meeting national ambient air quality standards (i.e., attainment areas).
+Federal Lowest Achievable Emissions Rate (LAER): Required on major new or modified sources in areas that are not meeting national ambient air quality standards (i.e., non-attainment areas). 
+California BACT: Allows air districts to require more stringent controls beyond LAER on sources if technologically feasible and cost effective.
+The stringency of each level of control required varies, based on a region's air pollution challenges. 
+Further information on how each level of control is defined and determined in California can be found on the BACT definitions page.
+Related questions include R5 , B5 and N13 . 
+Back to Top 
+How is cost-effectiveness considered for different levels of best available control technology (BACT) stringency? (N13) 
+Cost thresholds are used differently based on the level of BACT stringency triggered.
+Federal BACT is an emission limitation (including opacity limits) based on the maximum degree of reduction which is achievable for each pollutant, taking into account energy, environmental, and economic impacts, and other costs 1 . Many air districts have established BACT cost-effectiveness thresholds in their rules or policies that determine when the cost of controls are considered economically infeasible.
+Federal Lowest Achievable Emissions Rate (LAER) is defined as the most stringent emissions limitation contained in the SIP for any State, or the most stringent emissions limitation achieved in practice by a class or category of source, whichever is most stringent 2 . In 1989 U.S. EPA provided guidance on the economic feasibility of LAER stating that costs should not be considered unless a given control strategy is so great that a new major source could not be built or operated. The guidance also clarifies that “if some other plant in the same (or comparable) industry uses that control technology, then such use constitutes de facto evidence that the economic cost to the industry of that technology control is not prohibitive.”
+CA BACT allows air districts to require more stringent controls beyond LAER on sources if technologically feasible and cost effective. This level of BACT allows air districts to require new technologies that are technically feasible but not yet determined to be achieved in practice.
+Legal Citations: 1 Title 42 Code of Federal Regulations § 7479(3) , 2 Title 42 Code of Federal Regulations § 7501(a)(3) 
+Related questions include C1 , G5 and A8 . 
+Back to Top 
+Where do I find information on which technologies are being used statewide? (D10) 
+The Technology Clearinghouse is an online database that contains current regulatory emissions limits and associated control technologies in the form of rules, regulations, and BACT determinations for sources statewide. Additionally, U.S. EPA maintains a federal RACT, BACT, LAER Clearinghouse ( RBLC ) that contains emissions limits and associated control technologies for emissions sources across the country. While these systems can help users understand the types of technologies available and potentially required today, they do not provide information on the actual technologies installed on equipment statewide. Air district permits contain information on the equipment installed at each facility, permitted emissions limits, and required control technology. The stringency of control required in individual permits may vary statewide based on considerations such as air district attainment status, cost-effectiveness, and timing.
+Related questions include D2 , A16 and D9 . 
+Back to Top 
+What is CARB's role in ensuring that best available control technology (BACT) decisions are more consistent statewide? (A6) 
+Historically, CARB has developed guidance for consideration throughout the State such as suggested control measures for existing sources and permitting guidance for new sources. More recently, Assembly Bill (AB) 617 requires CARB to establish and maintain a statewide clearinghouse that identifies the best technologies for reducing emissions, namely BACT, best available retrofit control technologies (BARCT), and best available control technologies for toxics (T-BACT) 1 . The statute also requires that air districts use this statewide clearinghouse, also referred to as the Technology Clearinghouse, when making BACT determinations and updating BACT guidelines.
+Air district determinations of what is considered BACT are not consistent across the state. While the Technology Clearinghouse can help users identify the cleanest technologies available for a particular class or category of source, state and federal law contains requirements for specific levels of control based on regional attainment status. Because of this, a small source in an extreme non-attainment area may be required to install more stringent controls than a larger source in an attainment area. Additionally, the air districts have further defined emissions trigger levels and cost-effectiveness thresholds in their individual BACT policies, which help to determine the technologies that are ultimately required. To provide more transparency on this process, CARB and air districts have been working together to try and further explain air district BACT programs and are evaluating opportunities to enhance consistency when possible.
+Legal Citation: 1 California Health & Safety Code § 40920.8 
+Related questions include A7 , A8 , A16 and D7 . 
+Back to Top 
+What is CARB's role in establishing statewide definitions related to permitting, including Best Available Control Technology (BACT)? (A7) 
+Although BACT and LAER programs are defined by state and federal law many of the underlying terms associated with these programs are not formally defined and are instead defined by air districts in their individual rules and policies. To implement Assembly Bill (AB) 617 , CARB and air districts have been working closely together to enhance the transparency of the permitting process, including the creation of new CARB webpages to explain the BACT program and associated definitions .
+Related questions include A7 , A13 , N13 and D1 . 
+Back to Top 
+Does the Technology Clearinghouse establish a statewide standard? (D7) 
+The Technology Clearinghouse contains emissions limits and associated control technologies identified by air districts as best available control technology (BACT) and best available retrofit control technology (BARCT). It is up to the individual air districts to review this information and determine the appropriate BACT and BARCT standards for their individual circumstances. Historically CARB has developed recommendations for statewide standards for existing sources via suggested control measures, which air districts can voluntarily adopt. Additionally, CARB is working with air districts to determine ways to clearly identify technologies that have been achieved in practice for new, modified, or relocated sources that trigger BACT.
+Related questions include A6 , A7 , A8 and A16 . 
+Back to Top 
+What is required to be submitted to the Technology Clearinghouse? (N12) 
+Air districts have historically submitted BACT determinations to CARB, which is subsequently provided to U.S. EPA to satisfy federal requirements to add this information to U.S. EPA’s RACT BACT LAER Clearinghouse (RBLC) .
+In addition to federal requirements, Assembly Bill (AB) 617 requires 1 CARB to “establish and maintain a statewide clearinghouse that identifies the best available control technology and best available retrofit control technology for criteria air pollutants, and related technologies for the control of toxic air contaminants.”
+Air districts are subsequently required to “use the information in the statewide clearinghouse established and maintained by the state board [CARB]” when “updating best available control technology [BACT] determinations.” CARB has interpreted this requirement to mean that the air districts must submit BACT determinations and/or any additional information that supports the use of technology that results in emissions limits lower than previously required. 
+Legal Citation: 1 California Health & Safety Code § 40920.8 
+Related questions include B3 , B4 , B5 and D6 . 
+Back to Top 
+How are air districts required to use the Technology Clearinghouse? (D6) 
+When air districts receive a permit application from an operator, they typically begin evaluating potential emissions control options by reviewing technology commercially available today. To support this process, AB 617 requires air districts to consider and use the information in the Technology Clearinghouse established and maintained by CARB when updating BACT determinations 1 . These BACT determinations help to establish the minimum level of control required for new or modified sources.
+Legal Citation: 1 California Health & Safety Code § 40920.8(b) 
+Back to Top 
+What is CARB's role in identifying available technologies including zero emissions technologies? (A16) 
+CARB is required by statute 1 to develop and maintain a Technology Clearinghouse that identifies BACT, T-BACT, and BARCT. This system contains information on existing limits required by air districts and a Next Generation Technology module where CARB and air districts work together to identify promising technologies that reduce emissions beyond existing regulatory requirements.
+Legal Citation: 1 California Health & Safety Code § 40920.8 
+Related questions include D2 , D8 , D9 and D10 . 
+Back to Top 
+How can the public use the Technology Clearinghouse to advocate for cleaner technology? (D8) 
+To support continued advancement of technology, CARB and air districts are working together to build out the Next Generation Technology module of the Technology Clearinghouse which contains alternative technology options that are cleaner than currently required. This module of the system is required by Appendix F of the AB 617 Blueprint and is intended to highlight available and installed technology. The public can use this information to support future state and local regulatory actions or to identify opportunities to utilize available incentive funds.
+Related questions include D2 , A16 , D9 and D10 . 
+Back to Top 
+How can the public identify zero emissions technology options that are available for stationary sources? (D9) 
+CARB and air districts will continue to work together to expand the Next Generation Technology module of the Technology Clearinghouse to include alternative and zero emissions technologies for prioritized equipment types. Prior to publishing a new Next Generation Technology tool to identify alternative technologies for a specific type of equipment, CARB and air districts conduct extensive outreach with technology manufacturers, facility operators, and local permitting authorities, to ensure the technologies identified are technically feasible. If the public has an interest in technology available for a source not yet covered in the Technology Clearinghouse that you would like us to prioritize, please email us at [email protected] .
+Related questions include D2 , D8 , A16 and D10 . 
+Back to Top 
+What is CARB's role in providing guidance to air districts on permitting including cost-effectiveness evaluations? (A8) 
+State law 1 directs the CARB to implement a program to assist districts to improve the efficiencies in the issuance of permits. Additionally, CARB has broad oversight authority 2 over air district permitting and enforcement programs.
+Historically CARB and the California Air Pollution Control Officers Association (CAPCOA) have worked together to develop guidance documents to help enhance consistency between air district programs, including the 2001 CAPCOA Best Available Control Technology (BACT) Guidance and the 1990 CARB Cost-Effectiveness Guidance. CARB has also developed suggested control measures, that air districts can electively adopt to control specific equipment addressed in each of these model rules.
+Legal Citations: 1 California Health & Safety Code § 39620 , 2 California Health & Safety Code § 41500 
+Related questions include A7 , A13 and N13 . 
+Back to Top 
+What are the statutory requirements for economic analyses and cost-effectiveness related to permitting? (C1) 
+There are various statutory requirements and exemptions depending on the process. Permitting, best available control technology (BACT) determinations, rulemaking, best available retrofit control technology (BARCT) rulemaking, and State Implementation Plan (SIP) attainment may have different requirements. The California Health & Safety Code Division 26 contains these requirements for air districts.
+State law 1 provides the following guidance surrounding application of cost-effectiveness: "Districts shall also consider the cost-effectiveness of their air quality programs, rules, regulations, and enforcement practices in addition to other relevant factors, and shall strive to achieve the most efficient methods of air pollution control. However, priority shall be placed upon expeditious progress toward the goal of healthful air."
+For rulemaking, state law contains the requirements for air district rulemaking cost-effectiveness 2,3 , and socioeconomic analysis 4,5 .
+Minor Source BACT in South Coast Air Quality Management District (SCAQMD) is required to analyze cost effectiveness 6 to ensure minor source BACT determinations are cost effective. It is the only air district in the state that is required by state statute to analyze cost effectiveness for minor source BACT.
+Legal Citations: 1 California Health & Safety Code § 40910 , 2 California Health & Safety Code § 40703 , 3 California Health & Safety Code § 40920.6 , 4 California Health & Safety Code § 40728.5 , 5 California Health & Safety Code § 40440.8 , and 6 California Health & Safety Code § 40440.11 
+Related questions include N13 , G5 and A8 . 
+Back to Top 
+How is cost-effectiveness defined? (C2) 
+Cost-effectiveness is the calculated cost to control emissions, this is often done in dollars per ton or dollars per pound. Cost-effectiveness weighs the costs of an option versus the anticipated emission reductions to provide a relative measure of efficiency. Though cost-effectiveness can be used to rank various options, it is only valid to compare results derived from the same methodology and scope. Cost-effectiveness plays a role in both regulatory development and stationary source permitting. 
+Related questions include C13 , A8 , C1 and C3 . 
+Back to Top 
+What variables are considered in economic and cost-effectiveness evaluations? (C13) 
+Cost-effectiveness 
+Cost-effectiveness is used in many local air district permitting and rulemaking activities. The main variables evaluated in cost-effectiveness calculations include initial (capital) and ongoing (operational) costs, ongoing savings, interest rate, equipment lifetime, and anticipated emission reductions. 
+Initial (capital) costs can include the up-front purchase price and installation labor. Ongoing (operational) costs can include ongoing maintenance and energy costs. Ongoing savings could occur if, for example, the new technology was more efficient and used less fuel than the current equipment. Most air districts define a default interest rate (4-10%) and equipment lifetime (10-25 years), but more specific data is used if available. 
+Cost information can be obtained from a number of data sources, including technology vendors, installers/contractors, permitting evaluations, demonstration project reports, actual installations from facilities, and the U.S. EPA Air Pollution Control Cost Manual . There are two general components for costs: Total Installed Costs (Capital Costs) and Annual Costs. Total Installed Costs include, but are not limited to, engineering and design; project management, labor, and supervision; capital equipment costs (e.g., equipment replacement, pollution control equipment, catalyst initial charge, controls, monitors, ductwork, etc.); infrastructure for fuel/energy switching (natural gas to electric) freight; permitting; and taxes. Annual Costs include, but are not limited to, consumables as a result of operation (e.g., periodic catalyst replacements, sorbent usage, reducing agent usage, water usage, etc.); power consumption; and periodic maintenance costs. 
+Economic Evaluations (Socioeconomic Analysis) 
+Economic evaluations are required for certain rulemaking activities depending on legal requirements. These go beyond a simple cost-effectiveness calculation. Requirements for air districts vary by law. A common example of an economic evaluation is a socioeconomic analysis which can include detailed cost, impacts to affected business types, and economy-wide considerations. 
+For example, the South Coast Air Quality Management District (South Coast AQMD) Governing Board is required to consider the socioeconomic impacts for rulemakings based on California Health and Safety Code section 40440.8 and 40728.5, for any proposed rulemaking which "will significantly affect air quality or emissions limitations." The socioeconomic analysis includes type of affected industries, employment and regional economy, costs, availability and cost-effectiveness of alternatives, emission reduction potential, and necessity of rulemaking to attain ambient air quality standards. 
+Related questions include C1 , C2 , C9 and A8 . 
+Back to Top 
+Are cost-effectiveness thresholds applied to rulemaking? If so, when and where are these thresholds determined? (C3) 
+Rulemaking often includes multiple considerations, including cost-effectiveness, socioeconomic impacts, and feasibility. When cost-effectiveness is considered during rulemaking, a threshold is not generally defined. Determining if a rule is cost-effective is made on a pollutant-by-pollutant and case-by-case basis. The cost-effectiveness value for a proposed rule may be compared to other similar rules (which use the same method and scope) to show it is within reasonable past values. 
+One exception is for South Coast Air Quality Management District (South Coast AQMD), which uses NOx and VOC cost-effectiveness thresholds as a guide for establishing BARCT emission limits. However, these are not limiting, and proposed rules above these thresholds employ additional public process and supporting analysis. 
+Cost-effectiveness as described here for rulemaking is distinct from technologically feasible and cost-effectiveness thresholds set for BACT, for which many air districts have established cost-effectiveness thresholds in their rules or policies. 
+Related questions include C1 , C6 , C13 and G5 . 
+Back to Top 
+How often are cost-effectiveness thresholds updated? (C5) 
+For BACT, update schedules for cost-effectiveness thresholds vary by air district. Some air districts revisit these values infrequently, some annually, and some quarterly. Annual and quarterly updates are made to reflect the current state of the economy, specifically, current inflation and interest rates. 
+Rulemaking typically does not consider a threshold, with the exception of South Coast AQMD which develops thresholds for NOx and VOC in each Air Quality Management Plan. 
+Related questions include C6 and C10 . 
+Back to Top 
+How are cost-effectiveness thresholds applied to best available control technology (BACT)? (C4) 
+Cost-effectiveness thresholds are applied to determine if a technologically feasible option is cost-effective to require as the most stringent technology. There are different considerations by BACT type: 
+Federal BACT 
+Federal BACT typically applies to new and major modifications of major sources and air districts in attainment. Federal BACT can consider on a case-by-case basis, energy, environmental, and economic impacts and other costs. This can include a cost-effectiveness threshold. Even if a technology is achieved in practice, it may not be cost-effective and thus not required according to Federal BACT. 
+Federal Lowest Achievable Emissions Rate (LAER) 
+Federal LAER typically applies to new and major modifications of major sources in nonattainment areas during the stationary source permitting process. Federal LAER considers technologies that are achieved in practice. Federal LAER does not consider costs, or cost-effectiveness. 
+California BACT (CA BACT) 
+California BACT considers technologies that are achieved in practice, included in the State Implementation Plan (SIP) of any state, and which are technologically feasible. Cost is not considered during permitting for technologies that are achieved in practice or already required by applicable regulations. Cost and cost-effectiveness thresholds are considered for technologically feasible determinations. 
+The Health and Safety Code 1 requires South Coast AQMD to consider cost-effectiveness for all minor sources. 
+Legal Citation: 1 California Health & Safety Code § 40440.11 
+Related questions include C6 , C9 and N13 . 
+Back to Top 
+What are the different cost-effectiveness thresholds across the state? (C6) 
+Best Available Control Technology (BACT) 
+Cost-effectiveness thresholds are used for specific BACT cases, but not all cases, as defined in each BACT Policy (for example, many districts can set BACT based on “ technologically feasible and cost effective”). A summary of a subset of air district BACT thresholds and underlying assumptions for cost-effectiveness calculations is included below. Thresholds are updated regularly, and these values are as of March 2024. Please visit the air district webpages and review their BACT policies to verify that these values are still current. 
+Air District 
+South Coast (a) 
+San Joaquin 
+Bay Area 
+San Diego 
+Santa Barbara 
+Sacramento 
+Default Interest Rate 
+4% 
+4% 
+6% 
+10% 
+Bench-mark US Treasury + 2% 
+Benchmark US Treasury + 2% 
+Default Lifetime 
+10 
+10 
+10 
+10 
+10 
+10 
+BACT Cost-Effective-ness Threshold ($/ton) 
+VOC, ROC, ROG, POC (b) 
+40,730 
+23,600 
+17,500 
+13,200 if <15 tpy
+18,000 if >= 15 tpy 
+37,390 
+25,300 
+Oxides of Nitrogen (NOx) 
+38,512 
+32,900 
+17,500 
+13,200 if <15 tpy
+18,000 if >= 15 tpy 
+37,390 
+35,300 
+Sulfur Oxides (SOx) (c ) 
+20,365 
+19,000 
+18,300 
+13,200 if <15 tpy
+18,000 if >= 15 tpy 
+37,390 
+18,300 
+PM10 
+9,074 
+11,900 
+5,300 
+7,326 if <15 tpy
+9,990 if >= 15 tpy 
+37,390 
+11,400 
+Carbon Monoxide 
+807 
+400 
+-- 
+-- 
+936 
+300 
+South Coast AQMD values as of 2023 Quarter 4; thresholds are updated quarterly and can be found online . 
+VOC: Volatile Organic Compounds, ROC: Reactive Organic Compounds, ROG: Reactive Organic Gases, POC: Precursor Organic Compounds 
+Bay Area value is based on SO2. 
+Rulemaking 
+Rulemaking can include multiple considerations, including cost-effectiveness, socioeconomic impacts, and feasibility. When cost-effectiveness is considered during rulemaking, a threshold is not generally defined. Determining if a rule is cost-effective is made on a pollutant-by-pollutant and case-by-case basis. The cost-effectiveness value for a proposed rule may be compared to other similar rules (which use the same method and scope) to show it is within reasonable past values. 
+One exception is for South Coast AQMD, which defines rulemaking threshold cost-effectiveness targets in their Air Quality Management Plan (AQMP). However, these are not limiting, and rules above these thresholds employ additional public process and supporting analysis. 
+In addition to cost effectiveness, the Health and Safety Code requires the calculation of incremental cost effectiveness for the potential control options by calculating the difference in dollar costs divided by the difference in emission reduction potentials between each progressively more stringent potential control option as compared to the next less expensive control option. 1 
+Legal Citation: 1 California Health & Safety Code § 40920.6 
+Related questions include C3 , C4 , C5 and C10 . 
+Back to Top 
+How are cost-effectiveness thresholds determined? (C10) 
+Best available control technology (BACT) thresholds were originally adopted by air districts as part of their BACT guidelines policies/procedures using multiple considerations. These thresholds may be adjusted over time to consider current inflation and interest rates. 
+Rulemaking typically does not consider a threshold, with the exception of South Coast AQMD which develops thresholds for NOx and VOC in each Air Quality Management Plan. 
+Related questions include C3 , C4 , C5 and C6 . 
+Back to Top 
+Do air districts use consistent methodologies to calculate cost-effectiveness? (C9) 
+The overall methodology used to calculate cost-effectiveness is similar among air districts. The California Air Pollution Control Officers Association (CAPCOA) last provided guidance on cost-effectiveness calculations in 1998, and in general air districts continue to follow that guidance. Most air districts use the levelized cash flow (LCF) or “annualized” method, while others use the discounted cash flow (DCF) or “present value” method. Assumptions for key variables and the scope of the assumed costs and savings vary by air district. Site-specific data from regulated entities or equipment manufacturers is used when possible, and the U.S. EPA Air Pollution Control Cost Manual can be used for other assumptions. 
+Related questions include C1 , C6 , C13 and A8 . 
+Back to Top 
+Is cost-effectiveness evaluated differently for criteria pollutants and air toxics? (C8) 
+In general, air toxics permitting decisions are based on evaluating the health risk of a project, and cost-effectiveness is not typically considered. Equipment generating criteria pollutants are permitted under the New Source Review (NSR) regulations, including best available control technology (BACT), which is sometimes required to consider cost-effectiveness for direct control.
+Rulemaking cost-effectiveness analysis done by the air districts and CARB varies. Cost-effectiveness analysis is conducted for all criteria pollutant rulemakings where there are costs associated with the proposed or proposed amended rule. A cost-effectiveness analysis is not performed for air district rules that are regulating toxic air contaminants, but is required for CARB rules regulating toxic air contaminants with estimated business impacts above $10 million. 1 When emissions reductions are expected, a socioeconomic analysis that evaluates regional economic impacts of a proposed or proposed amended rule is conducted for rules regulating criteria pollutants and toxic air contaminants.
+Legal Citations: 1 California Health & Safety Code § HSC 43018 
+Related questions include C1 , C11 and C13 . 
+Back to Top 
+How are health impacts included in economic evaluations at air districts and at CARB? (C11) 
+Air Districts 
+Local air districts are tasked with meeting health-protective pollution limits in the most cost-effective manner. There are few legal requirements to include health impacts in economic evaluations for rulemaking. Air districts are required to evaluate cost-effectiveness and socioeconomic impacts of certain rulemaking and planning activities. As defined in the California Health and Safety Code, these evaluations do not require inclusion of health impacts; however, air districts can provide additional information on health impacts and benefits beyond these required evaluations. 
+CARB 
+CARB regulations and large planning efforts often include comprehensive health modeling. CARB recently released new methods to include additional health endpoints as documented on CARB’s website . Health benefits are monetized which estimates the future value of reducing pollution. For example, fewer lost days of work from lower air pollution is a financial benefit to individuals, businesses, and the health care system. Monetization of health benefits allows for comparison between costs of implementation and the health benefits of a regulation or plan. CARB analyses for major regulations can be found on the DOF webpage , or as part of the rulemaking archive . 
+New health endpoints included in the CARB analysis (as of 2023): 
+Cardiovascular emergency department visits 
+Acute myocardial infarction (nonfatal) 
+Asthma onset 
+Asthma symptoms/exacerbation 
+Work loss days 
+Lung cancer incidence 
+Alzheimer’s disease 
+Parkinson’s disease 
+Respiratory emergency department visits (all types) 
+Existing health endpoints included in CARB analysis (pre- and post-2023): 
+Cardiovascular hospital admissions 
+Respiratory hospital admissions 
+Asthma emergency department visits 
+Premature mortality 
+Related questions include C1 , C8 and C13 . 
+Back to Top 
+Is cost-effectiveness of direct control through rules and air permitting looked at differently than other reduction measures (e.g., incentives, vegetative barriers, etc.)? (C7) 
+Yes, cost-effectiveness is considered differently for direct control through rules and air permitting than it is for other reduction measures. Cost-effectiveness is required by law for specific rulemaking and air permitting activities and is typically required to be calculated as dollars per ton of emissions reduced. Other types of reduction measures often have more flexibility in considering cost, benefits, and cost-effectiveness, though many incentive and related programs prescribe specific cost effectiveness thresholds that must be met for a project to receive funding. Cost-effectiveness has its limitations; it may not consider non-economic benefits of a given action (equity, technology development, etc.) and is not always the most complete measure of efficiency. Reduction measures may have different focuses or goals which are not easy to quantify using cost-effectiveness alone. All programs strive to use funds efficiently and develop the most beneficial approaches that meet program requirements. 
+Legal Citations: California Health & Safety Code § HSC 40703 , California Health & Safety Code § 40920.6 , California Health & Safety Code § 40922 
+Related questions include C1 , C2 and C12 . 
+Back to Top 
+How do air districts decide when they are going to revise rules? (R10) 
+Air districts continually review and revise rules as needed or required. Due to resource constraints, regulatory requirements, Board direction, compliance issues, public comments, and other various reasons, rules or sources are prioritized for rulemaking. Other drivers could include control measures in an attainment plan, commitments in an AB 617 Community Emission Reduction Plan, and to address an air quality-related public health issue that was identified through monitoring or other means. Some air districts are working on processes to allow public participation in this prioritization process.
+Air districts in nonattainment areas are required to regularly review and revise their Air Quality Attainment or Management Plans to achieve State and federal air quality standards. Rules may be added or amended to achieve these limits. Rules may also be updated to improve clarity, incorporate the latest technological developments, increase enforceability, or in response to public requests. In addition, statutory or regulatory requirements may change requiring an update to air district rules.
+Air districts are required to publish an annual calendar of rules that may be adopted or amended in the next year. Rules must be on this list for the agency to move forward with rulemaking. These lists can be found on the air district’s website, typically as part of their board hearing process.
+Related questions include R11 , R9 and R7 . 
+Back to Top 
+What are the different levels of rule stringency? When are they triggered? (R5) 
+Air districts are responsible for developing rules for stationary and area-wide sources that emit criteria pollutants or toxic air contaminants. The air districts’ rule books contain a variety of rule types which can be accessed using the CARB’s Technology Clearinghouse , including the following: Air district administrative rules, general rules, New Source Review (NSR) rules, incentive rules, prohibitory rules, federal rules, state airborne toxic control measures (ATCMs), and transportation control measures.
+The air district’s prohibitory rules contain emissions limits that meet a specific stringency level at the time the rule is adopted, that is required based on state, local, and federal rules, and statutes. The following webpages contain more information on rule stringency levels for criteria air pollutants:
+Best Available Control Technology (BACT) 
+Best Available Retrofit Control Technology (BARCT) 
+Reasonably Achievable Control Technology (RACT) 
+Related questions include G5 , B1 , O1 and R7 . 
+Back to Top 
+How often do air districts review rule stringency? (R11) 
+Rule stringency is set at the time the rule is amended or adopted. Rule stringencies are periodically re-evaluated as part of Clean Air Act or Attainment Plan processes.
+Related questions include R10 , R9 and R7 . 
+Back to Top 
+How are exemptions determined in rules? (R12) 
+Exemptions may be included in rules due to technical feasibility, cost effectiveness, and other considerations.
+Related questions include G18 , C12 and C3 . 
+Back to Top 
+When are alternatives to direct control considered? (C12) 
+There are a few situations where alternatives to direct control are considered which depend on the process:
+Air Permitting 
+Air permitting is performed on a single specific facility or source where the configuration is known. Direct control is generally required in the air permitting process, with few exceptions.
+Rulemaking 
+Rules and regulations generally consider multiple compliance options to achieve emissions reduction goals. In limited situations, alternative compliance options may be considered to achieve cost-effectiveness and technical feasibility.
+Related questions include C1 , C2 , C7 and G5 . 
+Back to Top 
+What is best available retrofit control technology (BARCT)? (R2) 
+BARCT is an emissions limit stringency level that is typically required through the rulemaking process. State law 1 defines BARCT as “an emissions limitation that is based on the maximum degree of reduction achievable, taking into account environmental, energy, and economic impacts by each class or category of source.”
+Legal Citation: 1 California Health & Safety Code § 40406 
+Related questions include R3 , R7 and X10 . 
+Back to Top 
+Is best available retrofit control technology (BARCT) technology forcing? (R3) 
+According to the California Supreme Court 1 , BARCT is technology forcing. The court has held that BARCT is especially rigorous and has a “technology-forcing character” that is “designed to compel the development of new technologies to meet public health goals.”
+Legal Citation: 1 American Coatings Ass’n v. South Coast Air Quality Dist. (2012) 54 Cal. 4 th 446, 465, 466 
+Related questions include R2 , R7 and X10 . 
+Back to Top 
+How can the public determine what best available retrofit control technology (BARCT)-level limits are currently in place? (R7) 
+The Technology Clearinghouse contains an air district rules tool that includes a filter labeled "rule stringency" that can be used to identify the rules air districts have determined to be at BARCT stringency level at the time the rule was adopted.
+Related questions include R2 , R3 and X10 . 
+Back to Top 
+What is the difference between traditional best available retrofit control technology (BARCT) and expedited BARCT? (X10) 
+Related questions include R2 , X3 and X6 . 
+Back to Top 
+What is the intent of Expedited best available retrofit control technology (BARCT)? (X3) 
+The bill analysis and other documents associated with legislative proposals often contain descriptions that convey the intent of proposed bills and can help agencies and courts interpret legislation, though these background materials do not create binding interpretations or requirements. The Assembly Bill (AB) 617 Assembly Floor Analysis states the following: “Section 2, working in conjunction with Section 3, which requires ARB to update BARCT standards to guide air districts’ determinations, will result in the installation of available emissions control technologies and equipment upgrades, so that real emissions reductions in nonattainment pollutants will be achieved from the dirtiest units located at industrial sources. These being the same industrial sources that will continue to receive free GHG emissions allowances under the cap-and-trade regulation. The provision is not intended to permit the use of emission reduction credits in lieu of installation of BARCT, including marketable emission reduction credits issued under RECLAIM, which is being phased out by [South Coast Air Quality Management District] SCAQMD.”
+Related questions include R2 , X8 and X10 . 
+Back to Top 
+What is the definition of source in the Assembly Bill (AB) 617 Expedited best available retrofit control technology (BARCT) language? (X6) 
+Although the term “source” is not explicitly defined in the statute, the term source is often generically used to describe the collective emissions from an individual facility or is used interchangeably with the terms device or unit to describe equipment level emissions. In AB 617 the bill requires consideration of both the broader facility-level emissions with the use of the term “industrial source 1 ” and equipment-level sources with the term “permitted units 2 .”
+Legal Citations: 1 California Health & Safety Code § 40920.6 (c)(2), 2 California Health & Safety Code § 40920.6 (c)(3) 
+Related questions include X1 , X2 and X3 . 
+Back to Top 
+Which facilities are subject to Expedited BARCT requirements? (X1) 
+Industrial sources are defined as sources (e.g., facilities) subject to the Cap-and-Trade Program as of January 1, 2017 1 , that are eligible for free allowance allocation (i.e., excludes energy generating facilities and opt-in covered facilities). Industrial sources subject to the Expedited BARCT statutory requirements are further defined as sources that emit a nonattainment pollutant and that are located in an air districts in nonattainment for one or more air pollutants 2 . Individual emissions units operating at industrial sources are not subject to Expedited BARCT requirements if they have “implemented BARCTdue to a permit revision or a new permit issuance since 2007.” 3 
+For more information, please visit CARB’s air pollution mapping tool and select "yes" under the AB 617 Expedited BARCT Facilities filter (shown circled in red below). 
+Legal Citations: 1 California Health & Safety Code § 40920.6 (c)(2); 2 California Health & Safety Code § 40920.6 (c)(1); 3 California Health & Safety Code § 40920.6 (c)(3). 
+Back to Top 
+Which pollutants are required to be controlled in the Expedited best available retrofit control technology (BARCT) requirements? (X2) 
+Assembly Bill (AB) 617’s Expedited BARCT requirements refer to “nonattainment” generally; CARB therefore understands them to apply to air districts in nonattainment with either state or federal ambient air quality standards for criteria pollutants 1 . AB 617 BARCT requirements are triggered when an air district is in nonattainment “for one or more air pollutants” (id.), and CARB therefore understands the statute to require BARCT specifically for those “one or more [criteria] air pollutants” for which the air district is in nonattainment.
+Legal Citation: 1 California Health & Safety Code § 40920.6(c) 
+Related questions include X1 , X3 and X4 . 
+Back to Top 
+Are air toxics included in Expedited best available retrofit control technology (BARCT)? (X9) 
+Assembly Bill (AB) 617 Expedited BARCT requirements only apply to “nonattainment” pollutants, which are criteria air pollutants designated by CARB or U.S. EPA under state or federal law 1 . The direct control of non-attainment pollutants, including VOCs and PM-2.5, may result in co-benefits, including a reduction in toxic air contaminants.
+Legal Citation: 1 California Health & Safety Code § 40920.6(c) 
+Related questions include X1 , X2 and X4 . 
+Back to Top 
+What are the exemptions to Expedited best available retrofit control technology (BARCT)? (X4) 
+Assembly Bill (AB) 617 Expedited BARCT requirements contain only one exemption for individual “emissions unit[s]” that have “implemented BARCT in response to a permit revision or new permit issuance since 2007 1 .” Thus, for an entire Cap-and-Trade industrial source to be exempt from the BARCT schedule, all of its emissions units would need to have implemented BARCT due to a new permit or permit revision since 2007 for each non-attainment pollutant. Although this exemption does not explicitly include emissions units that have implemented best available control technology (BACT) since 2007, some districts have determined that their BACT limits are equivalent to BARCT.
+Legal Citation: 1 California Health & Safety Code § 40920.6(c)(2) 
+Related questions include X1 , X7 and X8 . 
+Back to Top 
+What does the Assembly Bill (AB) 617 “implemented by 2023” Expedited best available retrofit control technology (BARCT) requirement mean? Fully implemented? Adopted? (X5) 
+AB 617 is focused on securing “expedited” emission reductions from certain Cap-and-Trade industrial sources and requires the implementation of BARCT at those sources “by the earliest feasible date, but in any event not later than December 31, 2023.” 1 . Given the purposes of AB 617, its directive language, and legislative history, CARB understands this requirement to mean the full installation of required BARCT controls by December 31, 2023. However, it should be acknowledged that the timelines established in the bill were extremely ambitious and that the expectation to evaluate, propose and adopt rule amendments as appropriate, and install BARCT-level controls on nearly 10,000 emissions units subject to these requirements is a significant undertaking, especially for complex sources.
+Legal Citation: 1 California Health & Safety Code § 40920.6 
+Related questions include X1 and X11 . 
+Back to Top 
+What is an expedited schedule for best available retrofit control technology (BARCT) implementation? (X11) 
+The statute does not explicitly define the term “schedule”, but the term generally means a “procedural plan that indicates the time and sequence of each operation.” State law 1 already requires air districts to develop “a list of regulatory measures scheduled or tentatively scheduled for consideration during the following year.” Assembly Bill (AB) 617 can be read in concert with this existing requirement to additionally require air districts to outline when BARCT measures, including rules or individual permitting actions, will be considered and/or implemented on an expedited schedule.
+Legal Citation: 1 California Health & Safety Code § 40923(a) 
+Related questions include X1 , X6 and X10 . 
+Back to Top 
+Do air districts have the authority to limit the proximity where offsets are generated/used for Expedited best available retrofit control technology (BARCT)? (X7) 
+Generally, air districts have the authority to adopt rules to implement state laws for the use of emission credits, which includes the authority to limit or proscribe uses. However, for Expedited BARCT specifically, CARB views the use of regional offsets to comply with BARCT rules adopted to implement AB 617 as inconsistent with the requirements and intent of AB 617.
+Related questions include X1 , X4 and X8 . 
+Back to Top 
+How is Expedited best available retrofit control technology (BARCT) addressing legacy issues (e.g., historically exempted, or legacy sources)? (X8) 
+Statute requires BARCT-level controls to be installed on permitted units at certain Cap-and-Trade industrial sources that have not “implemented BARCT due to a permit revision or a new permit issuance since 2007 1 .” Emissions units that have not been modified with an increase of emissions for decades thus have not triggered best available control technology (BACT) or New Source Review (NSR) over that same time period, and in some cases, rules may not have been recently amended or adopted addressing these sources. AB 617 requires current BARCT-level controls to be installed on these units if BARCT-level controls are not already permitted and installed.
+Legal Citation: 1 California Health & Safety Code § 40920.6(c)(2) 
+Related questions include X1 , X4 , X6 and X8 . 
+Back to Top 
+What is CARB's role in the implementation of Expedited best available retrofit control technology (BARCT)? (A11) 
+Assembly Bill (AB) 617 does not define a specific role for CARB in the implementation of Expedited BARCT beyond the agency’s general oversight powers. CARB has broad, ongoing oversight authority for air district implementation of state air quality laws. To summarize the status of Expedited BARCT implementation, CARB and the air districts maintain an Expedited BARCT webpage that contains air district commitments and anticipated rule adoption dates.
+Related questions include X1 , A8 , A9 and A13 . 
+Back to Top 
+What is the communities' role in helping to guide Expedited BARCT implementation? (A12) 
+Individuals and communities can participate through public participation and comment during development of air district rules and any permitting activities that are noticed for public comment that relate to Expedited BARCT implementation. Most air districts offer list serve notifications where the public can sign up to be notified about any permitting or rulemaking activities.
+In the early stage of Expedited BARCT, each air district implementing the law also held a public meeting prior to adopting their Expedited BARCT schedules before January 1, 2019, to “take into account the local public health and clean air benefits to the surrounding community, the cost-effectiveness of each control option", and the "air quality and attainment benefits of each control option” as required by the statute 1 . The schedules developed through this public process are available on CARB’s Expedited BARCT webpage , which includes links to each air district’s Expedited BARCT staff reports (click the district name for more information).
+Legal Citation: 1 California Health & Safety Code §40920.6(d) 
+Related questions include X1 . 
+Back to Top 
+Why did some air districts focus entirely on a single pollutant for expedited best available retrofit control technology (BARCT)? (X24) 
+BARCT has been historically only applied to certain pollutants: carbon monoxide (CO), sulfur dioxide (SOx) and ozone precursors - oxides of nitrogen (NOx) and volatile organic carbon (VOC). 1 Assembly Bill (AB) 617 expanded this list to include all federal nonattainment pollutants, including, for example, particulate matter (PM). Air districts are only required to address pollutants or precursors for which they are out of attainment and which are not already meeting BARCT standards. This may limit the number of pollutants an air district determines are required to be addressed by Expedited BARCT. Air districts that have previously focused heavily on developing BARCT rules for specific pollutants often found that their rules were already at BARCT stringency during their evaluation process.
+Legal Citation: 1 California Health & Safety Code § 40910 
+Related questions include X10 , X2 , X4 and X11 . 
+Back to Top 
+What is the process for identifying best available retrofit control technologies (BARCT) level controls? (R13) 
+Best Available Retrofit Control Technology (BARCT) is defined as: “an emission limitation that is based on the maximum degree of reduction achievable, taking into account environmental, energy, and economic impacts by each class or category of source.” 1 BARCT limits apply to existing sources, while New Source Review (NSR) and BACT apply to new, modified, or relocated stationary sources.
+BARCT is often identified during the air district rulemaking process but can also be identified on a case-by-case basis during permitting. According to the definition above, this analysis must consider the environmental, energy, and economic impacts for the class and category of source. For rulemaking, the BARCT analysis and determination is typically presented in the staff report. BARCT rulemaking must perform specific analyses and disclose these to the public, including: 2 
+Identifying one or more control options and determining the effectiveness of each,
+Calculating the cost-effectiveness of each, and
+Calculating the incremental cost-effectiveness of progressively more stringent control options.
+The air district can allow retirement of emission reduction credits in lieu of requiring BARCT if those credits are permanent, enforceable, quantifiable, and surplus (but not necessarily for Expedited BARCT). The air district can also allow alternative compliance options if a stationary source demonstrates that compliance costs exceed certain cost limits.
+In the past, CARB has worked with air districts to make BARCT determinations for sources that were of high interest across the state.
+Legal Citations: 1 California Health & Safety Code § 40406 , 2 California Health & Safety Code § 40920.6 
+Related questions include R3 , R7 and D13 . 
+Back to Top 
+What are the best available retrofit control technology (BARCT) trigger levels statewide? (R8) 
+BARCT requirements are unique to California and are triggered for existing stationary sources depending on an area’s nonattainment status for State ambient air quality standards. Areas in serious, severe, or extreme nonattainment require BARCT for all existing stationary sources that emit the applicable nonattainment pollutant. Areas in moderate nonattainment require BARCT for sources that emit 5 tons or more per day or 250 tons or more per year of the applicable nonattainment pollutant. Otherwise, sources are required to use reasonably available control technology (RACT).
+Legal Citations: California Health & Safety Code § HSC 40406 , California Health & Safety Code § 40918 , California Health & Safety Code § 40919 , California Health & Safety Code § 40920 , California Health & Safety Code § 40920.5 
+Related questions include R2 , R5 , X10 and D10 . 
+Back to Top 
+How is cost-effectiveness evaluated for expedited best available retrofit control technology (BARCT)? (X12) 
+Assembly Bill (AB) 617 required air districts to adopt an expedited schedule to implement BARCT limits for select sources. Air districts were required to hold a public meeting to “take into account” the cost-effectiveness of each control option before adopting this schedule. 1 Some air districts estimated the cost-effectiveness as part of their schedule, and some planned to calculate this upon implementation. A summary of schedules and cost analyses can be found on the CARB Expedited BARCT webpage .
+AB 617 does not change the process to implement BARCT limits. Most air districts implement BARCT limits through rulemaking. During BARCT rulemaking, air districts must consider the cost-effectiveness and incremental cost-effectiveness of the potential control options. 2 Each BARCT rulemaking contains a cost analysis, which is typically found in the staff report. Current air district rules and supporting documents, including BARCT rules, can be found in the CARB Technology Clearinghouse Current Air District Rules tool .
+However, rulemaking is not the only way to implement BARCT limits. For example, Santa Barbara Air Pollution Control District has few expedited BARCT sources and worked with an individual source to set BARCT limits in their permit rather than writing or amending a rule. The air district prepared a BARCT analysis, including considering costs, as part of this process.
+Legal Citations: 1 California Health & Safety Code § 40920.6 (d) ( AB 617 Ch ) , 2 California Health & Safety Code § 40920.6 
+Related questions include R13 , C3 , X19 and N16 . 
+Back to Top 
+Why are best available retrofit control technology (BARCT) limits not set statewide? (X13) 
+Air districts have primary authority to control criteria air pollutants from stationary sources, and therefore are responsible for determining BARCT as applicable in their region. BARCT level controls for stationary sources are required by California law based on ambient air quality nonattainment status. This level of control is only required for nonattainment areas and trigger levels vary based on nonattainment designation, but not for the entire state. Historically, CARB developed RACT / BARCT determinations to aid air districts in developing regulations. The determinations also helped promote consistency of controls for similar emission sources among air districts with the same air quality nonattainment designations.
+Legal Citations: California Health & Safety Code § HSC 40406, California Health & Safety Code § 40918 , California Health & Safety Code § 40919 , California Health & Safety Code § 40920 , California Health & Safety Code § 40920.5 
+Related questions include A11 , D10 , A6 and D7 . 
+Back to Top 
+Do air districts have discretion when making a best available retrofit control technology (BARCT) determination? (X15) 
+Air districts have discretion when making BARCT determinations, and each air district makes this determination separately. There are multiple considerations an air district is required to consider when setting BARCT, for example, the pollutant, the attainment status, feasibility, and the specific source. 
+BARCT is typically applied through air district rules that set limits for specific source categories. BARCT limits become more stringent over time and as technology evolves and becomes more cost-effective.
+In some cases, CARB has identified limits that may help air districts establish BARCT. For example, CARB has worked with air districts to make BARCT determinations for sources that were of high interest across the state (diesel engines, dry cleaning, automotive and architectural coatings). CARB has also adopted BARCT-level regulations such as the Greenhouse Gas Emission Standards for Crude Oil and Natural Gas Facilities . Though the regulation was adopted to reduce greenhouse gases, volatile organic compound (VOC) co-benefits were determined to meet BARCT levels. The air districts implement and enforce this regulation through a memorandum of agreement with CARB.
+Related questions include A11 , X13 , R13 and N16 . 
+Back to Top 
+How do air districts push technology through best available retrofit control technology (BARCT)? (R16) 
+When determining best available control technology (BACT), technologies considered are limited to those that are commercially available. Unlike BACT, BARCT limits can apply in the future, and can therefore require technologies that are not yet commercially available but are available at the time the emission standard is implemented. According to the California Supreme Court, 1 BARCT is technology forcing. The Court has held that BARCT is especially rigorous and has a “technology-forcing character” that is “designed to compel the development of new technologies to meet public health goals.”
+Legal Citation: 1 American Coatings Ass’n v. South Coast Air Quality Dist. (2012) 54 Cal. 4 th 446, 465, 466 
+Related questions include R3 , X15 , R6 and D13 . 
+Back to Top 
+How does the stringency of best available retrofit control technology (BARCT) compare to best available control technology (BACT)? (R6) 
+According to the California Supreme Court, BARCT can be more stringent than the California BACT requirements applicable in new source permitting processes because the definition of BACT includes that the technology must be available at the time a specific new source is built, while BARCT standards “are generally applicable rules that require compliance at some future date, usually several years after a rule is adopted.” For this reason, BARCT may properly include requirements that drive technological developments and phase them in over time, known as “technology-forcing” standards. 1 
+Legal Citation: 1 American Coatings Ass’n v. South Coast Air Quality Dist. (2012) 54 Cal.4th 446, 465, 466 
+Related questions include R3 , R7 , R16 and A18 . 
+Back to Top 
+Does expedited best available retrofit control technology (BARCT) require direct control of sources? (X14) 
+Assembly Bill (AB) 617 expressly requires air districts to implement BARCT-level controls for emissions units at sources subject to the Cap-and-Trade Regulation and that are in nonattainment areas, no later than December 31, 2023. 1 This requirement is commonly referred to as “Expedited BARCT.” The Expedited BARCT requirement was intended to directly address criteria pollutant emissions at the largest emissions units, while the Cap-and-Trade Regulation directly addressed facilities’ greenhouse gas emissions.
+Legislative bill analyses confirm this view, and specifically note that direct emissions control was anticipated and use of emission credits or allocations (such as RECLAIM Trading Credits for South Coast AQMD) could not be used in lieu of meeting the BARCT emission standard. For instance, the Assembly Floor Analysis states that Expedited BARCT “will result in installation of available emissions control technologies and equipment upgrades, so that real emissions reductions in nonattainment pollutants will be achieved from the dirtiest units located at industrial sources.”
+When implementing the bill, some air districts found that some sources would not be cost-effective to retrofit unless additional flexibility was provided. For example, South Coast AQMD Rule 1109.1 provides alternative compliance options for petroleum refineries to achieve BARCT equivalency in aggregate due to the complex nature of their operation. Petroleum refineries can potentially have space limitations around certain units, so installing direct control may not be a feasible option. Operators have the option to either directly comply with the BARCT emission standard or meet the BARCT emission standard in aggregate. This allows the operator to over control one source and meet a lesser emission limit for another unit.
+Legal Citation: 1 Health & Saf. Code section 40920.6.
+Related questions include C12 , G5 , X4 and N16 . 
+Back to Top 
+What is the best available retrofit control technology (BARCT) evaluation process? (X19) 
+Under state law, 1 BARCT is defined as: “an emission limitation that is based on the maximum degree of reduction achievable by each class or category of source, taking into account environmental, energy, and economic impacts.”
+One of the first steps in the BARCT assessment is to establish the class or category of equipment which can include the type of equipment, size, fuel type, or other unique operational features of the units. The BARCT evaluation process for each class or category is an iterative process that consists of the following:
+Determining current air district regulatory requirements
+Identifying emission limits of existing units
+Evaluating regulatory requirements of other air districts which can include national and international regulations
+Evaluating air pollution controls and alternative technologies to determine their technical feasibility
+Conducting a cost-effectiveness and incremental cost-effectiveness analysis for each technology identified
+The air district obtains feedback through a public participation process which may include public workshops, working groups, and community advisory groups.
+Once the BARCT limit is finalized, it is brought to the air district board for final approval. This approval includes additional public processes.
+Legal Citation: 1 California Health & Safety Code § 40406 
+Related questions include R9 , X15 , X12 and R13 . 
+Back to Top 
+How is CARB defining which technologies should be considered best available retrofit control technology (BARCT)? (X20) 
+Districts are primarily responsible for defining BARCT. CARB can work with air districts to establish BARCT limits but does not frequently do so. In the past, CARB has made BARCT determinations for sources that were of high interest across the state (diesel engines, dry cleaning, automotive and architectural coatings). 
+CARB has also adopted BARCT-level regulations such as the Greenhouse Gas Emission Standards for Crude Oil and Natural Gas Facilities . Though the regulation was adopted to reduce greenhouse gases, volatile organic compound (VOC) co-benefits were determined to meet BARCT levels. The air districts implement and enforce this regulation through a memorandum of agreement with CARB.
+CARB is in the process of developing a Technology Clearinghouse that contains information on air district rules. The air district rules tool contains a filter that allows users to identify the rules that air districts have determined contain BARCT-level limits at the time of adoption.
+Related questions include R9 , X15 , X13 and A11 . 
+Back to Top 
+What are some strategies that air districts have used to implement expedited best available retrofit control technology (BARCT)? (N16) 
+Most air districts implement Expedited BARCT through rulemaking. Some air districts have used innovative strategies to reduce emissions from Expedited BARCT facilities. For example:
+Santa Barbara County Air Pollution Control District worked directly with a facility subject to Expedited BARCT requirements to implement BARCT-level emissions limits and monitoring requirements directly into the permit. To ensure public transparency the air district brought the draft BARCT requirements to their Community Advisory Committee and shared their approach at a Board Hearing. This action allowed the air district to address emissions from 50-year-old baghouses without a full rulemaking process.
+Rather than developing a regional rule, the Mojave Desert Air Quality Management District adopted a more targeted rule, Rule 1157.1 , applying only to boilers and process heaters subject to Expedited BARCT requirements and requiring BARCT-level controls.
+Related questions include X12 , X14 and X15 . 
+Back to Top 
+Where can community members report complaints? (E1) 
+Due to the transient nature of many air pollution complaints, complaints related to stationary sources should be promptly filed with the air district to facilitate the investigation of the matter. Air pollution complaints related to stationary sources should be filed with the air district online or by calling the air district’s compliant line. For more information, please visit the air district’s website. CARB also receives complaints related to stationary sources of air pollution. When CARB receives a complaint, staff forward that complaint to the air district for investigation and requests a summary of that investigation. Complaints can be submitted to CARB online or by calling (800) 952-5588.
+Related questions include E3 and E5 . 
+Back to Top 
+Where can the public find online information on compliance history, including facility violations, from different stationary sources? (E3) 
+There is no centralized database that contains all the statewide air district compliance data. For Title V facilities, the U.S. EPA maintains their Enforcement and Compliance History Online tool that provides information on violations related to air, water, biosolids, industrial stormwater, hazardous waste, and drinking water. Stationary source inspections conducted by CARB will be included in CARB’s Enforcement Data Visualization System . For information on inspections conducted and violations identified by the air district, please contact the air districts directly .
+You may contact the air district to request such documents. Please note that for active investigations, some information cannot legally be shared. In South Coast AQMD, enforcement history for each facility can be accessed through the South Coast AQMD Facility INformation Detail (FIND) web application.
+Related questions include E1 , E5 and D2 . 
+Back to Top 
+How can the public identify stationary sources that are not compliant with air district permit conditions? (D17) 
+Stationary sources’ compliance with permit conditions are continually assessed by air district inspectors. To request compliance history on a specific facility of interest, contact your local air district . Some air districts maintain lists of stationary sources that have recently been out of compliance and publish this information online. For example, South Coast Air Quality Management District (SCAQMD) makes all compliance information for a facility in its jurisdiction available on its Facility Information Detail web application .
+Related questions include G3 , G4 and G9 . 
+Back to Top 
+How often are inspections performed? (E2) 
+Air districts determine the inspection frequency based on several criteria, including the facility’s compliance history and relative risk that a facility may cause if it is found operating out of compliance. Inspections can also result from air quality complaints. In most cases, air districts seek to inspect all permitted equipment at facilities annually. For larger sources, this may mean that an air district inspector is at the facility multiple times per year. For example, Bay Area AQMD has compliance and enforcement staff that are dedicated to performing inspections fulltime at the Bay Area refineries. In some cases, sources may be inspected less frequently than once per year. Sources that might be inspected less than once per year include, but are not limited to remote unmanned back-up generators, such as those found at remotely located cellular towers or smaller sources with low emission potential.
+Related questions include E3 and E5 . 
+Back to Top 
+Are stationary sources noticed prior to inspections? (E7) 
+Air districts aim to perform unannounced inspections in the vast majority of cases. Although rare, in some situations, facilities may receive notice before inspections are performed. For example, remote or unmanned facilities might require coordination in advance so that access to equipment or process areas can be granted, such as a backup generator serving a cellular telephone tower. In these instances, the inspector may still make initial contact through an unannounced inspection, perform as much as the inspection as possible, and schedule the remainder of the inspection for such areas. Should an inspection need to be scheduled, it is scheduled as soon as possible following the initial outreach, often within a few hours of being notified.
+Related questions include E2 , E8 and E9 . 
+Back to Top 
+Where can I learn about the outcomes of inspections? (E8) 
+The outcomes of inspections are documented in inspection reports. If any compliance issues are identified, the inspector’s observations are documented in a notice to comply or a notice of violation. Inspection reports can be obtained through a Public Records Request. For more information on a specific facility of interest, contact your local air district .
+Related questions include E2 , E3 and E9 . 
+Back to Top 
+What is the district’s responsibility for making information available after inspections? (E9) 
+In general, inspection reports, notices to comply, and notices of violation are a public record but may contain some confidential (redacted) information or may not be available while an active investigation is ongoing. If a member of the public is interested in viewing these documents, you can submit a public records request to your local air district . In many cases, air districts may also include a monthly notice of violation report to their Board of Directors.
+South Coast Air Quality Management District (SCAQMD) makes all records of Notices to Comply an Notices of Violation for a facility available to the public and they can be accessed through their Facility Information Detail , or FIND, web application.
+Related questions include E2 , E3 and E8 . 
+Back to Top 
+What is CARB's role in the stationary source inspection process? U.S. EPA's role? (A2) 
+State law vests air districts with the primary authority to regulate stationary sources of air pollution. Air districts may also implement federal Clean Air Act requirements, if they are delegated to do so by the U.S. EPA. As such, air districts regularly inspect stationary sources to ensure that the sources are operating in compliance with air pollution control rules, regulations, and permit conditions. CARB has broad air district oversight 1 to ensure that air district programs are implemented effectively. In exercising this oversight, CARB may participate in inspections with air districts to ensure facilities are operating in compliance and that air district enforcement programs effectively support California’s clean air goals. Similarly, U.S. EPA has authority to inspect stationary sources subject to federal requirements, including facilities with Title V permits, for compliance and to address violations directly. U.S. EPA maintains a public tool, ICIS-AIR , which contains compliance and inspection data on major stationary sources of air pollution.
+Legal Citation: 1 California Health & Safety Code § 41500 
+Related questions include A9 , A10 and A13 . 
+Back to Top 
+Can CARB periodically review stationary sources of public interest? Conduct inspections? (A10) 
+CARB staff prioritizes its stationary source activities in a number of ways. During air district program audits, CARB staff inspects a variety of industry types to evaluate how effective the air district programs are in ensuring compliance with local, state, and federal rules and regulations. CARB staff also conducts inspections of facilities in disadvantaged communities that bear the disproportionate burden from environmental pollution. Additionally, CARB and air district staff may conduct inspections of facilities emitting air toxics and facilities that are of interest to the public in coordination with other local, state, and federal agencies. These stationary source inspections include evaluating compliance at facilities that have been the subject of local air pollution complaints and reviewing corrective actions taken to ensure those facilities return and remain in compliance. When conducting stationary source inspections, CARB staff works closely with air district enforcement staff, since air districts have primary authority over stationary sources of air pollution.
+Related questions include A2 and A10 . 
+Back to Top 
+What is CARB's role in stationary source enforcement? (A9) 
+State law vests air districts with the primary authority to regulate stationary sources of air pollution. However, CARB has broad oversight authority 1 over air district permitting and enforcement programs. CARB is responsible to ensure that air district programs are implemented effectively. CARB performs audits of air district programs at the direction of the Board or when legislation specifically requires CARB to conduct such an audit. To support the effectiveness of stationary source enforcement programs at the state and local levels, CARB also provides online training to air districts and responds to air district support requests.
+Legal Citation: 1 California Health & Safety Code § 41500 
+Related questions include A2 , A8 and A10 . 
+Back to Top 
+How does air quality regulatory agency oversight work? What is involved? How is feedback communicated? (A13) 
+State law vests air districts with the primary authority to regulate stationary sources of air pollution. CARB has broad oversight authority over air districts to ensure that air district programs are developed and implemented effectively to achieve state ambient air quality standards 1 . To that end, CARB is charged with reviewing air districts’ attainment plans, rules and regulations, and enforcement practices. Comprehensive air district program audits are also a way that CARB exercises this authority. Other ways include targeted joint inspections with air district staff and records evaluations – including records maintained by regulated facilities and records maintained by air districts documenting their activities. When concerns are identified, CARB works with the air district to develop a plan to address those concerns. In the case of comprehensive program audits, this work may involve public meetings during both the planning stages and as a report-back to the community. For Title V and Major New Source Review (NSR) permit actions, U.S. EPA is involved in the oversight and review as required in the air district’s regulations.
+Legal Citation: 1 California Health & Safety Code § 41500 
+Related questions include A13 , A14 and A15 . 
+Back to Top 
+How are zero emissions technologies considered when determining rule limits? (R9) 
+When developing rules, air districts identify all feasible technologies, including alternative technologies when applicable, and conduct a cost analysis to determine cost-effectiveness, or incremental cost-effectiveness. If zero emissions technologies are cost-effective and feasible, and will be commercially available, then zero-emission limits may be required as part of the rule. Similar to other rulemakings, rulemakings with a zero-emission limit along with the cost-effectiveness information are presented to the air district’s Governing Board for their approval.
+Related questions include X19 , X21 , C3 and A18 . 
+Back to Top 
+How can the public determine how existing permitted limits compare to best available retrofit control technology (BARCT) level limits? (D13) 
+In some districts, when issuing an air permit, the air district engineer reviews rules and regulations, including BACT and BARCT limits, that apply to the facility or equipment, and will list these in the permit document. Air permit limits are determined at the time the permit is evaluated, thus may not match current BARCT level limits. 
+To compare permitted limits with current BARCT level limits, review the emissions factor or emissions limit within the permit. Identify current BARCT level limits for your air district using the Technology Clearinghouse Current Air District Rules tool. The tool allows you to filter for the air district of interest, as well as identifying rules the air district deemed BARCT at the time the rule was amended. 
+If the air permit was issued before the last rule update, then different requirements may have been in place at the time. You can research historical rule amendments using the Technology Clearinghouse Air District Rule History tool. This can help identify what rules were in place at the time the air permit was issued. 
+Related questions include D2 , D5 , G15 and R7 . 
+Back to Top 
+What are the exemptions that result in the most stringent technologies not being required during permitting decisions or rules? (G18) 
+There are two overarching types of exemptions – 1) exemptions from the permitting process, and 2) exemption from rule applicability.
+For the first type of exemption, air districts identify all sources that are not required to receive an air permit. This would not trigger permitting program requirements including new source review standards of best available control technology (BACT). Permit requirement exemptions generally include small sources of air pollution and alternative control technology such as fuel cells. Sources exempted from a permit are not necessarily exempted from rules or regulations. For some districts, sources that are exempt from permitting may be required to register the unit and to maintain records to demonstrate that the emissions remain under one pound per day.
+The second type of exemption is an exemption from rule applicability. For rulemaking, air districts generally evaluate exemptions on a case-by-case basis. When an exemption is needed, the rule will outline all sources that are not subject to the rulemaking. This may include sources that are already controlled by different rules. Exemptions may be included in rules due to technical feasibility, cost effectiveness, and other considerations. All air district rules can be found in the CARB Technology Clearinghouse .
+Related questions include X4 , X8 , C12 and C3 . 
+Back to Top 
+For Expedited BARCT, how are air districts providing information to show that they are requiring the most stringent controls feasible? (X21) 
+Best available retrofit control technology (BARCT) is typically implemented through the rulemaking process. In many cases, when air districts consider updating a rule, they begin with early stakeholder engagement, such as working group meetings. During these working group meetings, the air districts share information on the technologies being considered and cost-effectiveness of each control option. In some cases, air districts may also hire external consultants to validate their findings. All this information is shared publicly during working group meetings and may also be available on air district websites . Prior to proposing the rule to the Governing Board, most air districts post their draft rule and staff reports online.
+Related questions include R9 , R13 , D3 and A4 . 
+Back to Top 
+Why do some facilities that trigger best available control technology (BACT) not meet the BACT limits I see online? (B17) 
+As control technologies improve, BACT limits become progressively more stringent over time. Facilities are required to meet BACT limits at the time the air permit was issued. Permitted BACT limits for an existing facility would be re-evaluated if a facility undergoes a modification which triggers requirements for a new air permit as specified in each district’s rules or policies. Therefore, an existing facility that triggered BACT requirements years or decades ago may not meet the most current BACT limits found in CARB’s BACT clearinghouse.
+Related questions include D5 , B4 , N13 and D10 . 
+Back to Top 
+When evaluating technology options for best available control technology (BACT), do air districts evaluate technologies installed worldwide or only within the United States? (B6) 
+Technologies are evaluated worldwide. If a technology has only been used outside of the United States, there are additional considerations necessary to determine if the technology is feasible for use in California, for instance, to assure at least one vendor offers this equipment for regular or full-scale operation in the United States. In addition, if the technology’s emissions were measured using methodologies not approved in California, the results must be evaluated for consistency before determining a technology as BACT.
+Related questions include B4 and B14 . 
+Back to Top 
+What is the definition of achieved-in-practice? (B14) 
+Achieved-in-practice is a term commonly associated with establishing best available control technology (BACT) program limits . For sources that trigger lowest achievable emissions rate (LAER), achieved-in-practice technology is often considered the minimum level of control required. The term is not defined in state or federal law, and because of this, each air district has defined the term individually. In general, the term is used to identify control technologies that are commercially available, reliable, and effective. CARB and CAPCOA have guidance on determining which technologies have been achieved-in-practice .
+Related questions include B4 , B6 and A7 . 
+Back to Top 
+How often are air district best available control technology (BACT) policies updated? (B8) 
+A BACT policy is meant to provide a consistent and transparent BACT evaluation process. Many requirements are set in law and depend on district attainment status. BACT policy updates are sometimes needed, but the schedules to make updates vary based on specific needs.
+Related questions include C4 and A6 . 
+Back to Top 
+How often are best available control technology (BACT) decisions made? (B9) 
+An air district evaluates if BACT is triggered as part of New Source Review (NSR) for each air permit application. BACT trigger levels are defined by air district rules or policies and vary by air district and attainment status. If BACT is triggered, a BACT evaluation is made using the top down BACT analysis. Resources such as the CARB Technology Clearinghouse or EPA RACT BACT LAER Clearinghouse (RBLC) are used to identify the most effective control technology applicable to the air permit application. In addition, California law requires air districts to use information in the CARB Technology Clearinghouse when updating BACT determinations. 1 The frequency of BACT decisions depends on the types of sources submitting air permits, the source size, air district local rules and policies, and air district attainment status. This causes some air districts to consider BACT levels frequently, while others do not often receive air permits that trigger BACT review.
+Legal Citation: 1 Health & Saf. Code § 40920.8
+Related questions include B4 , R5 and B11 . 
+Back to Top 
+When do facilities trigger best available control technology (BACT)? (B11) 
+New, modified, or relocated (in some cases) sources trigger BACT when they exceed emissions thresholds set by federal New Source Review (NSR) or more stringent rules and policies set by each air district. For most air districts, BACT is triggered for new sources or major modification of existing sources . Once a source has a permit, the emission limit generally does not change unless a rule is developed for that source type (e.g. best available retrofit control technology or air toxics), or if there is a modification that triggers BACT.
+Related questions include B4 , B5 and B9 . 
+Back to Top 
+How can the public determine which stationary sources have had to meet best available control technology (BACT)? (B10) 
+The most accurate way to determine if BACT was required at a specific facility is to review the permit or permit evaluation, or contact your local air district . In general, new, modified, or relocated (in some cases) sources that trigger emissions thresholds are required to install BACT level controls that apply at that time. Limits and controls are determined on a case-by-case basis after the operator submits a permit application to the air district.
+Related questions include B17 , A6 , B11 and D5 . 
+Back to Top 
+How are regulatory agencies ensuring that air permitting processes encourage the transition to zero emissions technology? (A18) 
+When permitting sources, air districts generally aim to promote the use of the lowest emitting technologies, including zero emissions options, during the early planning stages of the project including during California Environmental Quality Act (CEQA) review, which may require zero emissions as a mitigation measure. The air permitting process is designed to evaluate compliance with existing federal, State, and local rules and regulations at the time of application; it is not designed to encourage the transition to any specific type of technology, including zero emissions technology. The air permitting process may require the use of zero emissions technologies if they are required by applicable rules, regulations, and laws. Zero emissions stationary sources do not require a permit to operate since there are no emissions, which is an inherent additional incentive for operators to transition to zero emissions technologies.
+Outside of CEQA, requirements for sources to transition to zero emissions have occurred through rulemaking.
+Related questions include A16 , D9 , C14 and R9 . 
+Back to Top 
+How do air districts determine how to group technology considered by equipment size and category when evaluating the feasibility of potential technology options? (B12) 
+Air districts implement best available control technology (BACT) limits for similar source categories based on similar equipment characteristics such as equipment size, use, and fuel. These groups are known as the “class or category” of a source and are often similar across air districts but may not be identical depending on an air district’s New Source Review (NSR) rules/policy and engineering evaluation of sources. Generally, when a new BACT limit is set for a class and category of source, that new limit applies to new permit applications for all new or modified sources from that time forward.
+A given BACT control is not limited to one class or category. Technology transfer may occur between sources with similar characteristics. This is when one control can be applied to multiple source types, even if they have been defined as a different class and category. For example, a filtration technology such as a HEPA filter may be appropriate particulate matter control for multiple classes and categories of sources, but not all. Air district BACT documents will define which class and category and control method combinations are considered BACT.
+Related questions include B4 , N13 and A6 . 
+Back to Top 
+What are the best available control technology for toxics (T-BACT) trigger levels in each air district? (T3) 
+T-BACT is triggered when a new or modified facility’s health risk crosses a certain threshold established by each air district. Health risk is generally estimated using methodology outlined in Health Risk Assessment Guidelines, such as the 2015 CARB and CAPCOA Risk Management Guidance for Stationary Sources of Air Toxics . Analyses include acute hazard index, chronic hazard index, and cancer risk. These trigger levels are typically maintained in air district rules. Most air districts use the 1 per million cancer risk as a trigger, while some air districts define other thresholds. A summary of the T-BACT trigger levels and other information for each air district can be found in Appendix F of the Risk Management Guidance linked above. Review the air district rules or contact your local air district to confirm current levels.
+Related questions include T1 , T2 , G7 and N11 . 
+Back to Top 
+Can I compare best available control technology (BACT) limits between air districts and sources in other states? (N14) 
+There are multiple variables to consider in comparing BACT limits such as BACT trigger levels, attainment status, BACT stringency level required, cost-effectiveness thresholds, the date the BACT limit was determined, and differences in individual permitting authority rules and policies.
+Facilities trigger different BACT stringency levels based on federal, state, and local requirements. For major sources, BACT thresholds are defined in federal statute. The stringency of BACT for major sources differs based on federal ambient air quality attainment status for individual pollutants. To learn more about federal BACT requirements, visit the BACT Definitions Webpage .
+Local air districts may impose more stringent BACT requirements. For example, minor sources are not subject to federal BACT, but may trigger state or local BACT requirements. Major and minor sources may trigger different BACT stringency levels. Contact your local air district for more information.
+Related questions include B5 , B11 , B17 and C4 . 
+Back to Top 
+What are the air districts doing to lessen disparities of emissions impacts (distributional effects) on overburdened communities? What is CARB doing? (J10) 
+Air districts use multiple tools to lessen disparities of emissions impacts on overburdened communities. Local air district oversight responsibilities include addressing criteria pollutants and toxic air contaminants from industrial and commercial stationary sources and sources of residential air pollution through permits and local rules.
+Further, air districts that implement programs as part of CARB’s Community Air Protection Program (known generally by the law enacting the program: AB 617 (C. Garcia, Chapter 136, Statutes of 2017)) have extensive community-based efforts in place that focus on improving air quality and public health in overburdened communities. AB 617 requires local air districts to prepare community-led emissions reduction plans or air monitoring plans focused on reducing emissions and exposure to air pollution. These plans may recommend amending rules and regulations in a way that directly benefits overburdened communities and other communities that have facilities that are regulated by the rules or regulations. Other types of AB 617 actions that have directly focused on overburdened communities include implementing incentives, enforcement, outreach and education, and new policy and planning efforts. AB 617 also provides Community Air Protection Incentives , awarding over $400 million in incentives since 2017. The funds are spent on projects that reduce criteria air pollutants and toxic air contaminants from mobile and stationary sources consistent with community emissions reduction programs. Over 80 percent of these funds will be used in areas with priority populations (AB 1550), and nearly 40 percent have been spent in AB 617 communities.
+Examples of specific actions taken by local air districts include:
+The Bay Area Air Quality Management District adopted amendments to the New Source Review permitting rules (Regulation 2-1 and 2-5) to take into account overburdened communities. The December 2021 amendments set more stringent health risk limits and public noticing requirements for projects located in overburdened communities. In this case, overburdened communities are defined as census tracts that score at or above the 70th percentile in CalEnviroScreen 4.0, as well as areas that are within 1,000 feet of the boundaries of those census tracts.
+Multiple local air districts planning efforts have incorporated a specific focus on overburdened communities. For example, the 2022 South Coast Air Quality Management Plan includes both regulatory and incentive programs to seek zero emissions options, such as residential space and water heating appliances, and to focus efforts on disadvantaged communities.
+Several air districts have distributed air purifiers within overburdened communities for residential use, and to other sensitive receptors such as schools and daycares.
+CARB and some air districts have developed Supplemental Environmental Project (SEP) programs that solicit projects that will benefit communities. For example, in the Sac Metro Air District, SEPs used as part of resolving a violation must be from a list of projects proposed by community-based, nonprofit, or tribal organizations; public agencies; or academic institutions and the projects must be implemented within disadvantaged and low-income areas.
+Air districts have prioritized incentive dollars to overburdened communities. These incentives have been used for many pollution source categories including replacement of heavy-duty trucks and buses, construction equipment, agricultural equipment, cargo handling equipment, marine vessels and infrastructure needed to support zero- and near-zero-emission vehicles and equipment. 
+South Coast AQMD is currently developing new air quality analysis guidance when evaluating cumulative air quality impacts from increased concentrations of air toxics in CEQA projects. The guidance would establish different thresholds based on the project’s background Multiple Air Toxics Exposure Study (MATES) cancer risk, overburdened community status (as determined by AB 617 or CalEnviroScreen status), and proximity to other high volume diesel sources. The process would require some CEQA projects to more fully analyze cumulative impacts and aid land-use decision makers as to whether the proposed project has significant cumulative impacts.
+NOx, VOC, PM, and toxic air contaminant reductions will be achieved from adoption and implementation of rules and regulations that were identified in AB 617 Community Emission Reduction Plans, expedited BARCT, and sources identified through air monitoring efforts.
+CARB has many efforts aimed to lessen disparities of emissions impacts in overburdened communities.
+CARB statewide regulations are transitioning many mobile-source sectors to zero emissions. Full implementation of these regulations will result in significant air pollution reductions from transportation industries located near cumulative emissions burdened communities, such as rail yards, ports, and major highways.
+CARB implements many large incentive programs that invest in zero emissions options that result in emissions benefits to disadvantaged communities, many of which experience cumulative emissions burdens.
+The agency also implements the Community Air Protection Program, referenced above, to support community-led efforts to identify priority issues and to provide incentives to address air quality concerns at the local level in high cumulative emissions burdened communities. More information about this program can be found on CARB’s website: Community Air Protection Program | California Air Resources Board 
+CARB also considers and responds to equity issues in its rulemaking and incentives programs. For example, CARB developed a zero emission hexavalent chrome regulation which will significantly reduce toxic chrome emissions in overburdened communities. The regulation analyzed the location of chrome plants relative to these communities in the Standardized Regulatory Impact Analysis . Other examples of consideration of overburdened communities include the Advanced Clean Cars II Rulemaking and CARB’s 2022-23 Funding Plan for Clean Transportation Incentives.
+Additionally, CARB is developing a Racial Equity Lens that is intended to serve as a tool for CARB staff to consider equity in planning and rulemaking efforts. The tool includes a series of questions which create a mechanism to conduct meaningful racial equity conversations early in these processes, including consideration of emissions-related disparities and effective outreach.
+Finally, as part of the AB 2588 Hot Spots program , community level exposure is modeled and sometimes health risk assessments are performed for toxic emissions sources.
+Related questions include J1 , J4 , G11 and N15 . 
+Back to Top 
+How is community level exposure vs. regional exposure considered? (R15) 
+With the adoption of Assembly Bill (AB) 617, some air districts are identifying new ways to quantify local benefits of rulemaking efforts on the community level. Historically, for permitting and air toxic programs such as the AB 2588 Hot Spots program , community-level exposure is modeled and sometimes health risk assessments are performed. For criteria air pollutants, emissions impacts were previously assessed across a region to try to attain ambient air quality standards , as part of the rulemaking process. Some air districts are now including evaluations of the local benefits of rules within their rulemaking documents. 
+Related questions include J1 , G7 , N11 and J5 . 
+Back to Top 
+How should environmental justice and civil rights be considered in permitting? (N15) 
+In August 2022, U.S. EPA published an interim document titled “ Environmental Justice and Civil Rights in Permitting: Frequently Asked Questions .” This document explains how these two issues can be considered in air quality permitting. More recently, U.S. EPA has started meeting with permitting authorities across the nation to begin to discuss the implications of Title VI of the Civil Rights Act of 1964 and environmental justice on permitting programs. CARB and the air districts intend to work closely with U.S. EPA to ensure any recommendations are reflected in California’s air quality permitting programs.
+Related questions include J1 , J8 , G10 and G11 . 
+Back to Top 
+Do air districts have the authority to set different thresholds (e.g., trigger levels, cost thresholds) in disadvantaged communities (DAC) or near sensitive receptors? For criteria pollutants? Air toxics? (J9) 
+Air districts have the authority to set different thresholds consistent with applicable state and federal laws based on the facts relevant to the source. To further reduce emissions of air toxics and criteria air pollutants from stationary sources in communities affected by cumulative exposure burdens, air districts are evaluating opportunities to enhance existing programs in response to public feedback. In one example, the Bay Area Air Quality Management District amended their permitting rules on December 15, 2021, to set more stringent health risk limits and public noticing requirements for projects located in overburdened communities. 
+Related questions include J1 , J3 , J6 and J10 . 
+Back to Top 
+Are more stringent controls required in disadvantaged communities (DAC) or near sensitive receptors? (R14) 
+Control level varies based on regional attainment status . Additionally, the California Environmental Quality Act (CEQA) typically requires an evaluation of the environmental impacts of a project on the environment, such as the impact of project emissions on surrounding sensitive receptors, which could impact approval for projects in DACs.
+More recently, Assembly Bill (AB) 617 provides a framework to support additional emissions reductions in DACs. Air districts can consider more stringent control requirements through rulemaking.
+In one example, the Bay Area Air Quality Management District recently adopted amendments to the New Source Review permitting rules (Regulation 2-1 and 2-5) to take into account overburdened communities. The amendments set more stringent cancer risk limits and public noticing requirements for projects located in overburdened communities.
+In another example, related to toxic air contaminants, South Coast AQMD has a number of rules that have specific requirements when there is a sensitive receptor or specifically a school that is located within a specified distance from the source, such as maintaining openings for a building enclosure, and hours of testing for emergency standby engines. In addition, there are specific notification requirements for permitting for units that are within 1000 feet of a school.
+Related questions include J3 , A19 , A6 and J9 . 
+Back to Top 
+How are the use of Emissions Reduction Credits (ERCs) being tracked in disadvantaged communities (DAC)? (O4) 
+Emission Reduction Credits (ERC) are used to satisfy offset requirements when offsets are triggered during New Source Review (NSR). ERCs must be surrendered prior to issuance of the permit.
+CARB has historically published reports regarding offset transactions (when ERCs are used) to summarize the emissions reduction offset transactions in California, by air district, but these reports do not identify specific facilities or proximity to DACs. Additionally, many air districts may publish information on their webpages on ERCs available, sometimes referred to as “ERC banks.” For example, South Coast Air Quality Management District , Bay Area Air Quality Management District, Monterey Bay Air Resources District , San Joaquin Valley Air Pollution Control District , and Santa Barbara Air Pollution Control District webpages that list ERCs available by facility and location.
+Related questions include O1 , O2 and X7 . 
+Back to Top 
+What are the timing requirements for responding to public information requests? (G12) 
+Requirements for responding to public records requests are defined in California Law . 1 The law provides some flexibility in agency response time. In general, the agency is required to acknowledge the request within 10 days and respond within a reasonable period of time. Some documents are protected from disclosure by law and cannot be released.
+Please review the agency webpage for the appropriate contact, provide your request in writing, and provide sufficient detail and specificity to help the agency identify the records of interest.
+Legal Citation: 1 California Government Code 7920.000 – 7931.000 
+Related questions include A17 and G13 . 
+Back to Top 
+What is CARB and U.S. EPA's role in ensuring that public record requests are met by air districts? (A17) 
+The California Public Records Act (CPRA) guarantees the public access to public records of governmental bodies such as the air districts. The air districts generally handle public requests directly. CARB and U.S. EPA do not have a role in responding to or reviewing public record requests made directly to the air districts.
+For further information on submitting a public request to an air district, please visit the air district’s website. For information on submitting a public record request to CARB, please visit CARB’s Guidelines for Accessing Public Records . 
+Related questions include A13 , G12 and G13 . 
+Back to Top 
+What information is considered confidential and cannot be released by air districts? (G13) 
+Confidential information can include, but is not limited to, confidential business information or trade secrets, attorney –client-privileged information, and draft or deliberative information, subject to state law. If information is requested which potentially contains non-disclosable information, the agency generally assesses whether the information requested is exempt from disclosure and cannot be released. Contact your local air district for more information.
+Legal Citation: Title 17 California Code of Regulations §§ 91000 – 91022, California Government Code Section 7924.510 , California Health and Safety Code Section 44346 
+Related questions include G12 and A17 . 
+Back to Top 
+Why do industry's facility reports differ from the emissions inventory? (I2) 
+Industry facility reports should match the emissions inventory. In rare cases there may be a discrepancy for various reasons, including errors or omissions, corrections made at a later date, and a report with a different scope or timeframe. Air districts review and compile facility report data before entering it into the emissions inventory.
+If you see inconsistencies in reports that should match, the best option is to provide the specific example to your local air district for review.
+Related questions include I1 , I3 , I4 and I5 . 
+Back to Top 
+Are unanticipated emissions accounted for in the inventory? (I3) 
+Emissions inventories are used by air quality agencies (i.e., local air districts, CARB, and U.S. EPA) for air quality attainment planning and management purposes. Because of this, the emissions reported are generally routine emissions where the air districts can estimate annual growth for planning purposes. Unanticipated emissions at a facility may include unplanned events such as power outages, emergency flaring, fires, variances, breakdowns, etc. These unanticipated emissions may be included in the inventory. Unanticipated emissions do not include scheduled events such as maintenance operations or regular (planned) flaring operations which may be subject to conditions outlined in air permits.
+Some unanticipated emissions can be quantified, especially if continuous emissions monitoring (CEM) is required. Other unanticipated emissions such as fires, are difficult to quantify. If comparing emissions between facilities, it is important to look at several years in case exceptional events are reported or if inventory reporting requirements have changed. For large unanticipated events, studies are sometimes conducted by air districts to understand the magnitude.
+In 2023, some air districts will begin reporting additional emissions in response to CARB’s Criteria and Air Toxics Reporting Regulation (CTR) . This regulation requires “actual” calendar year-based criteria and air toxic emissions to be reported annually using the best available data and methods for nearly 65,000 sources statewide. For the CTR regulation, “’Actual emissions’ means the mass of a criteria air pollutant or toxic air contaminant measured, observed, or estimated to have been actually released by a process into the atmosphere during an associated data year…” 1 
+Legal Citation: 1 Title 17, Cal. Code of Regs., section 93402. 
+Related questions include I1 , I2 , I4 and I5 . 
+Back to Top 
+When are facilities required to have continuous emissions monitoring? (I4) 
+Each facility's operating permit specifies whether and how the permitting agency requires the facility to implement any Continuous Emissions Monitoring System (CEMS). CEMS are generally required on units with higher emissions of criteria pollutants or significant emissions of particular air toxics. These requirements may be promulgated through federal New Source Performance Standard (NSPS), National Emissions Standards for Hazardous Air Pollutants (NESHAP), regulations, or local rules. 
+Related questions include I1 , I2 , I3 and I5 . 
+Back to Top 
+How often is monitoring (source testing) done to validate the emissions from facilities? (I5) 
+Many facilities validate emissions through emissions measurement methods such as Continuous Emissions Monitoring Systems (CEMS), periodic source testing, or portable analyzers. Requirements to measure emissions vary widely based on facility type, pollutant, and location. CEMS sample on a continuous basis, while source tests are performed using U.S. EPA, CARB, or air district approved methods and represent a snapshot in time of emissions. For some sources, a portable analyzer may be used to verify compliance between source tests.
+Source testing requirements are determined by the permitting authority each time a facility receives or renews an operating permit, based on all applicable laws, regulations, and policies. In the case of a particularly small or low-emitting facility, there may be no source testing requirement, for example, a small print shop using compliant materials. Intermediate sources are required to do an initial startup source test and then measure emissions periodically thereafter (e.g., semi-annually, annually, biennially, etc.). The largest emitters of criteria pollutants and air toxics, or those most likely to impact sensitive workers or community members, may be required to install CEMS or source test more frequently.
+Related questions include I1 , I2 , I3 and I4 . 
+Back to Top 
+How can I determine which air toxics might be emitted by industry type? (N17) 
+There are multiple tools developed by government agencies to help address this concern: 
+CARB’s air pollution mapping tool can be used to identify facility locations, industry type, and pollutants emitted. For basic information on what a toxic air pollutant is and what to consider when determining associated health risks, please see the Air Toxics Infographic . 
+Additionally, CARB and the air districts developed an Air Toxics Tool to help users understand which air toxics may be released by different industries . The tool also provides information on the processes that commonly occur at these industries, and the air toxics that may be released. This tool is derived from the AB 2588 Hot Spots Inventory Guidelines Appendix C , which lists substances that may be expected to be emitted by a particular process or industry. 
+The Bay Area Air Quality Management District’s CEQA website contains several tools and resources to assist in analyzing air quality impacts by industry, including the Stationary Source Screening Map and guidance on quantifying local emissions and exposure impacts. The Air District’s Permitted Stationary Source Risks and Hazards Screening Tool provides information including estimates of cancer risks, fine particulate matter (PM 2.5 ) concentrations, and chronic hazards from all facilities that emit one or more toxic air contaminants (TACs) in the Bay Area where an air district permit has been issued. 
+Another useful source of information includes air toxic emission factors. There are multiple locations to obtain emission factors by source type from federal, state, and local resources. Air districts typically use their own emissions factors, which best represent the source, unless these are not available, then state or federal sources are used. 
+Air districts often develop emissions factors specific to sources in their region. Air districts are currently working to compile air-toxic emissions factors in a centralized location. 
+CARB provides air toxics emissions factors through the California Air Toxics Emission Factor (CATEF) database . 
+Federal emissions factors provided by U.S. EPA are housed in the following two systems: Webfire 
+AP-42 
+South Coast AQMD has developed simple pamphlets on key toxic air contaminant rules that provide an overview of the rule, general requirements, and contact information. These pamphlets were developed based on actions identified in Community Emission Reduction Plans to provide better communication with the public regarding certain toxic air contaminant rules. 
+Related questions include J7 , D4 and N10 . 
+Back to Top 
+How are air permit fees being used (e.g., increased) to encourage the transition to zero emissions technology? (C14) 
+Air districts are authorized to assess fees to regulated entities for the purpose of recovering the reasonable costs of regulatory program activities. State law prohibits air districts from increasing permit fees beyond costs of implementing the program. Although permit fees cannot be used for this purpose, other air district funding options are used to encourage the transition to zero emissions, such as incentives.
+Legal Citation: 1 California Health & Safety Code § 42311 , California Health & Safety Code § 42364 , California Health & Safety Code § 44380 , and California Health and Safety Code Section 41512.7 
+Related questions include C12 and R9 . 
+Back to Top 
+Can the air districts show air permit status online (e.g. expired, application received, no permit, etc.)? (D16) 
+Air districts with a population of more than 1 million residents must post their stationary source air permits online pursuant to state law 1 but are not required to include a status. If they do contain a status, it will be listed within the permit document or the permit search. 
+Air districts with less than 1 million residents can show air permits and permit status online if they choose, and some do so. If you have questions, contact your local air district . 
+Online permit search links: 
+South Coast AQMD 
+San Joaquin Valley 
+Santa Barbara 
+Bay Area Title V Permits and Permit Applications Received 
+Mojave AQMD 
+Monterey Bay 
+San Diego APCD 
+Sacramento AQMD (map of permits)
+US EPA, Region 9, Title V Permits 
+US EPA, Region 9, New Source Review Permits 
+Legal Citation: 1 Health & Safety Code section 44391.5 .
+Related questions include D2 , G3 and G9 . 
+Back to Top 
+What is the public process for review on permitting decisions? Where is information published? How is public notified? (D3) 
+The permitting public process varies depending on the laws that apply to the source. Title V sources, major New Source Review (NSR) sources, and some sources within 1,000 feet of a school are required to go through a public notification and review process. These generally include a 30-day public comment period. Notice requirements vary by law and may include listserv notification, publication online, newspaper publication, or notice to individuals affected. For more information, visit CARB’s air district webpage that contains links to each air districts public notice webpages. 
+Related questions include A14 , A5 , N8 and N9 . 
+Back to Top 
+Why does each air district use different terminology for equipment? How can this become more consistent? (G16) 
+Each of the 35 air district programs have developed programs over many years based on the sources present in their region. Equipment terminology relevant to different sources may be set in air district rules or may be based on regional preference. The air districts and CARB are working together to develop terminology, tags, and keywords to improve comparability and searchability in the CARB Technology Clearinghouse . 
+Related questions include D5 and D10 . 
+Back to Top 
+What requirements do facilities have to notify employees of potential health impacts from working at emitting facilities? (D14) 
+The California Department of Industrial Relations, Division of Occupational Safety and Health (Cal/OSHA) administers health and safety requirements for workers in California. Other noticing requirements for chemicals, products, and places that can cause cancer, birth defects, or other reproductive harm under the Safe Drinking Water and Toxic Enforcement Act of 1986, enacted by ballot initiative Proposition 65 (known as Prop-65), are administered by the California Office of Environmental Health Hazard Assessment (OEHHA).
+Related questions include A19 , N10 , D4 and D15 . 
+Back to Top 
+What documents do air districts submit to CARB? U.S. EPA? (D12) 
+Air districts submit documents to CARB and the U.S. EPA based on state, federal, or local requirements or by request. These documents are related to air district rules, SIP submissions, BACT, Title V and major NSR permits, and enforcement. Air districts also submit various data, such as emissions inventories, to CARB. State and federal law define the types of data and documents that must be submitted for specific actions. Many of the documents received by CARB will be published in the final version of the Technology Clearinghouse . Additionally, U.S. EPA Region 9 publishes and maintains a New Source Review (NSR) and a Title V dashboard that contain the permitting documents they receive. Regulations.gov is another resource for federal rulemaking documents.
+Related questions include A13 and A14 . 
+Back to Top 
+How can the public view information on any newly proposed facilities? (D11) 
+The local land use agencies (cities and counties) normally have information online on any proposed projects in their jurisdiction. Some air districts have online databases that show any applications received and the status of the project. Additionally, air districts may have list serves to notify interested parties of any new applications received. For projects that trigger public notice, air districts publish these notices on their news and notice webpages . Any member of the public can submit a public records request to an air district for public records about a newly proposed facility.
+Related questions include D2 , D3 , D16 and A4 . 
+Back to Top 
+What is the permit review process? What are the different levels of review? (G14) 
+Prior to issuing a preconstruction permit, air districts check for application completeness. During completeness review, the air districts determine if the project complies with federal, state, and local air quality rules and regulations. If the air district finds that the project does not comply, more work is done with the applicant to ensure compliance, or the permit may be denied.
+After the air district issues a preconstruction permit, the facility may construct or modify equipment, perform necessary testing, and start up the equipment. If all preconstruction permit requirements are met, the project applicant will apply for the air district to issue a permit to operate. When emissions are above a specific threshold, the facility may need a federally enforceable Title V operating permit . This process involves additional requirements that are implemented by the air district, including providing U.S. EPA the permit for review. Some air districts also require that preconstruction permits are sent to CARB.
+Related questions include G6 , D3 , D12 and A14 . 
+Back to Top 
+Where do I find online information on the compliance history from different stationary sources? (E4) 
+California’s 35 air districts have primary authority over stationary source enforcement programs for criteria pollutants, and for enforcing Air Toxic Control Measures for toxic air contaminants. Each air district manages stationary source compliance information in their own way. There is no centralized online database with compliance information for all stationary sources across California. Some air districts may report their enforcement cases and settlements to their Board, and this information is often available in the meeting agendas, which can be found online. Some air districts may also issue media releases for settlements that exceed a certain monetary threshold. For information on stationary source compliance, please contact the air districts directly .
+The U.S. EPA maintains an Enforcement and Compliance History Online (ECHO) tool that provides information on violations related to air, water, biosolids, industrial stormwater, hazardous waste, and drinking water.
+In addition, stationary source inspections conducted by CARB will be included in CARB’s Enforcement Data Visualization System (EDVS) .
+As an example of information provided by air districts, South Coast AQMD has information on its website for a program called Facility Information Detail (FIND) where the public view permitted equipment, permits, and compliance history of a facility.
+Related questions include E1 , E3 and E5 . 
+Back to Top 
+Where can community members report expired air permits? (E6) 
+Air districts track the status of permits under their authority, and will follow up with cancellations, renewals, inspections, or other activity to ensure compliance. If a facility is out of compliance, they are subject to various penalties under federal and local laws. 
+If community members have concerns about the operational status of a facility, they can report their concerns to the air district for investigation. Concerns can be completed online or by phone through the air district’s complaint program. For more information, please visit the air district’s website. 
+Alternatively, community members can report concerns to CARB through CalEPA’s complaint system . When CARB receives a complaint, staff will forward the concern to the appropriate air district and request a summary of the investigation. The findings of the investigation are also made available to the reporting party.
+Related questions include G3 , G4 , G9 and D17 . 
+Back to Top 
+Contact Us
+(800) 242-4450 | [email protected] 
+1001 I Street, Sacramento, CA 95814
+P.O. Box 2815, Sacramento, CA 95812
+twitter 
+facebook 
+youtube 
+linkedin 
+email 
+Accessibility 
+Privacy Policy 
+Conditions of Use 
+Air Districts 
+Register to Vote 
+California Governor
+Gavin Newsom Opens a New Window. 
+Secretary for Environmental Protection
+Yana Garcia Opens a New Window. 
+Chair, California Air Resources Board
+Lauren Sanchez Opens a New Window. 
+The California Air Resources Board is one of six boards, departments, and offices under the umbrella of the California Environmental Protection Agency.
+CalEPA 
+CalRecycle 
+DPR 
+DTSC 
+OEHHA 
+SWRCB 
+Copyright © 2026 State of California

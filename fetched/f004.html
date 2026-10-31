@@ -1,0 +1,260 @@
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>
+	 - DEP eLibrary
+</title><script src="/eLibrary/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+<script src="/eLibrary/bundles/jquery?v=0hvvzuLnWKwCJyqJmRCj3kEhU0r0q7ikV--_IgDy-Ow1"></script>
+<link href="/eLibrary/Content/css?v=WIldFXE9UQr-9kxdq33I59e_QQia07FKyTYlUg2w0Ok1" rel="stylesheet"/>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /><link rel="Stylesheet" type="text/css" href="Resources/ControlTemplate.css" /><link rel="Stylesheet" type="text/css" href="Resources/Default_Theme_ControlTemplate.css" /><link rel="Stylesheet" type="text/css" href="Content/font-awesome.min.css" />
+
+    <!-- Prevent iPad from hyperlinking digits it thinks might be phone numbers -->
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+        .loader {
+            border: 16px solid #f3f3f3; /* Light grey */
+            border-top: 16px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+            margin-left:50%;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .fa-file-pdf-o {
+            color: red;
+            zoom:175%;
+            display: inline-block;
+        }
+
+        .fa-file-word-o {
+            color:blue;
+            zoom:175%;
+            display: inline-block;
+        }
+
+        .fa-file-excel-o {
+            color: green;
+            zoom:175%;
+            display: inline-block;
+        }
+
+        td i {
+            text-align:center;
+        }
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            .fa {
+                margin-right: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./GetFolder?FolderID=36120" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script src="/eLibrary/bundles/MsAjaxJs?v=c42ygB2U07n37m_Sfa8ZbLGVu4Rr2gsBo7MvUEnJeZ81" type="text/javascript"></script>
+<script src="/eLibrary/bundles/WebFormsJs?v=AAyiAYwMfvmwjNSBfIMrBAqfU5exDukMVhrRuZ-PDU01" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="86966106" />
+</div>
+        <div style="height: 50px; width: inherit; background-repeat: no-repeat; background-color: #084484;) repeat-x">
+    <a title="PA.gov home page" target="_blank" href="https://pa.gov/">
+        <img src="http://www.ahs.dep.pa.gov/DEPWrapper/images/pagovofficial.png" style="height: 28px; width: 189px; left: 9px; top: 11px; position: relative; display: block; text-decoration: none;" alt="The Official Website for the Commonwealth of Pennsylvania.">
+    </a>
+    <div style="float: right; height: 0px;">
+        <a href="https://www.governor.pa.gov/" target="_blank" title="Governor of the Commonwealth of Pennsylvania"
+           style="line-height: 45px; width: 210px; right: 400px; top: -26px; position: relative; display: block; text-align: center; text-decoration: none; color: white; display: block; font-weight: normal; cursor: pointer; text-decoration: none; ">
+            Josh Shapiro, Governor
+        </a>
+        <a href="https://www.dep.pa.gov/About/Pages/OfficeoftheSecretary.aspx" target="_blank" title="Secretary of the PA Department of Environmental Protection"
+           style="line-height: 45px; width: 290px; right: 180px; top: -71px; position: relative; display: block; text-align: center; text-decoration: none; color: white; display: block; font-weight: normal; cursor: pointer; text-decoration: none; ">
+            Jessica Shirley, Secretary
+        </a>
+        <a href="https://www.dep.pa.gov/" target="_blank" title="PA Department of Environmental Protection home page"
+           style="line-height: 45px; width: 80px; right: -119px; top: -116px; position: relative; display: block; text-align: center; text-decoration: none; color: white; display: block; font-weight: normal; cursor: pointer; text-decoration: none; ">
+            DEP Home
+        </a>
+    </div>
+</div>
+
+<div class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://greenport.pa.gov/eLibrary" class="navbar-brand">eLibrary</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="https://greenport.pa.gov/eLibrary/Search">Search</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26275664-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26275664-1');
+</script>
+
+<noscript>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-danger">
+                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>  This website requires Javascript.  Please enable Javascript to use the eLibrary.
+            </div>
+        </div>
+    </div>
+    </div>
+</noscript>
+
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl13', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+        
+
+
+        <div class="container-full">
+            
+
+    <script src="/eLibrary/bundles/Includes?v=ax85ncJGgLtYdbYwl1Fh5sMYaFI1N2oVyo-zX8KyrQs1"></script>
+<script src="/eLibrary/bundles/GetFolder?v=X1cHb0uQHI_kCVVqgiy3YEm_lFctpuoUn4dQ_aE2bZA1"></script>
+
+
+    <div class="hidden" id="getDocUrl">https://greenport.pa.gov/elibrary/GetDocument?docId=</div>
+
+    <div class="container" style="zoom:90%;">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="loader"></div>
+                </div>
+            </div>
+
+            <div id="docContainer" class="row hidden">
+
+                
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Location: <a href='https://greenport.pa.gov/elibrary/GetFolder.aspx?FolderID=106'>eLibrary - FOLDERS</a> / <a href='https://greenport.pa.gov/elibrary/GetFolder.aspx?FolderID=3622'>PERMIT AND AUTHORIZATION PACKAGES</a> / <a href='https://greenport.pa.gov/elibrary/GetFolder.aspx?FolderID=3623'>AIR QUALITY</a> / <a href='https://greenport.pa.gov/elibrary/GetFolder.aspx?FolderID=36120'>GP-05A, UNCONVENTIONAL NATURAL GAS WELL SITE OPERATIONS AND REMOTE PIGGING STATIONS <strong>2700-PM-BAQ0268</strong></a> / </p>
+                    </div>
+                </div>
+               
+                <div class="row">
+                    <div class="panel panel-primary documentsPanel">
+                        <div class="panel-heading">
+                            <h3>GP-05A, UNCONVENTIONAL NATURAL GAS WELL SITE OPERATIONS AND REMOTE PIGGING STATIONS <strong>2700-PM-BAQ0268</strong></h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-sm-12">
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th class="hidden"></th>
+                                                    <th>Name</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="docTableBody">
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <iframe onload="iframeLoad(this);" 
+                                        id="docIframe"
+                                        src="ViewFolderDocuments?FolderID=36120"
+                                        style="width: 100%; 
+                                        border: none">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <hr />
+
+        </div>
+
+        <div id="footerPanel">
+	
+    <div style="margin: 0 auto; background: url(http://www.ahs.dep.pa.gov/DEPWrapper/images/bg_footer.png);">
+    <div style="padding-top: 2px; padding-bottom: 2px; color: black;">
+        <i>Need help? <a href="https://greenport.pa.gov/gpl/GpLogin/ContactUs" target="_blank">Contact Us</a></i>
+    </div>
+    <div style="font-family: Helvetica Neue, Helvetica, Helvetica, Arial, sans-serif; font-weight: 300; font-style: normal; font-size: 1.43em; color: #222222; text-rendering: optimizeLegibility;">
+        Pennsylvania Department of Environmental Protection
+    </div>        
+    <div style="padding: 2px 0 2px 0; color: #1c3f63; font-size: 14px; margin: 0; font-family: Helvetica Neue, Helvetica, Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: default; ">
+        Rachel Carson Building | 400 Market Street | Harrisburg, PA 17101
+    </div>
+</div>
+
+
+</div>
+
+
+    </form>
+</body>
+</html>

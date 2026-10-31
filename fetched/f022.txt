@@ -1,0 +1,117 @@
+Current Air District Rules | California Air Resources Board 
+Skip to main content 
+&times; Display Settings 
+Default 
+High Contrast 
+Reset 
+Increase Font Size Font 
+Decrease Font Size Font 
+twitter 
+facebook 
+youtube 
+linkedin 
+email 
+Search
+Calendar 
+FAQs 
+Contact 
+Careers 
+Subscribe 
+Display Settings 
+English 
+Español 
+California Air Resources Board
+Main navigation
+About 
+Our Work 
+Resources 
+Services 
+Rulemaking 
+Newsroom 
+Equity 
+Current Air District Rules 
+Technology Clearinghouse About 
+Community Air Protection 
+Community Support Tools 
+User Guide 
+Clearinghouse Tools Tool: Current Air District Rules 
+Tool: Air District Rule History 
+Tool: CARB Regulations 
+Tool: BACT Determinations 
+Tool: BACT Guidelines 
+Tool: Residential Appliances 
+Tool: Residential Backup Power 
+Tool: Commercial Emergency Backup Power 
+Tool: Underfired Charbroiling 
+Tool: Attainment Status Lookup 
+Request: Next Gen Evaluation 
+Standard Categorization Lists 
+Training Videos 
+Community Questions 
+Stationary Source Permitting 
+Subscribe 
+Contact
+Office of Community Air Protection Technology Clearinghouse
+Email
+[email protected] 
+California's 35 local Air Pollution Control Districts (APCD) or Air Quality Management Districts (AQMD) are responsible for addressing emissions from stationary sources through permits and local rules. Additional information about district rules can be found on the main Air Districts Rules page . 
+This tool allows users to search, view and download information related to current air district rules. Additional information about the tool including background information , definitions , and training materials are available at the bottom of this page. Download the complete dataset below: 
+Download Complete Dataset (csv file) 
+Find your air district by zip code 
+Air district contact 
+Training Video 
+Air District Rule History Tool - View historical amendments
+Background
+This data represents a summary of current air district rules and uses filter fields developed for this tool. Because this data is at a summary level, many rule details are not captured. For specific questions please refer to the rule text or contact the Air District which promulgated the rule. For superseded or rescinded rules (older versions of rules which are no longer in effect), please contact us . For information regarding inclusion of Air District rules in the State Implementation Plan (SIP), please see the CARB Rules Log Database . 
+Prohibitory rule stringency level may vary by district based on the severity of the air quality problem, local permitting program requirements, and the feasibility of emissions controls (including energy, economic, and environmental impacts).
+Filter Definitions
+The tool provides several filters to help users quickly navigate through the district rules data, including:
+Rule Type: This filter captures the general type of rule including:
+ATCM: Air Toxic Control Measures
+Federal: Rules developed at the federal level.
+General: Procedural rules or rules that do not fit in other categories.
+Incentives: Rules that define incentives or credit programs.
+NSR: New Source Review rules
+Prohibitory: Rules with an emission limit meant to reduce air pollution.
+Transportation Control Measures: Rules for transportation sources.
+Rule Stringency: The California stringency of the rule, as determined by the air district, at the time of adoption.
+BARCT: Best Available Retrofit Control Technology
+T-BARCT: Best Available Retrofit Control Technology for toxic pollutants
+RACT: Reasonably Available Control Technology
+Unknown: The stringency is unknown.
+Not Determined: An analysis to determine the stringency of the rule has not yet been performed.
+Emitting Unit and Emitting Process: The emitting unit(s) and/or emitting process(es) associated with a rule. Only prohibitory rules are assigned at this time.
+An emitting unit is a well-defined, distinct, source of air pollution.
+An emitting process is a group of sources that may vary from location to location and are often regulated or limited as a group.
+CARB developed high-level emitting unit and emitting process lists to categorize data and improve consistency in terminology. These lists are meant to assist with search and filter, but do not constitute a legal interpretation of these rules. Emitting unit and process assignments may not be comprehensive. Please help us improve by reporting errors or omissions in this data . 
+Training Materials
+Training Video 
+For assistance with web accessibility, please email [email protected] .
+Contact Us
+(800) 242-4450 | [email protected] 
+1001 I Street, Sacramento, CA 95814
+P.O. Box 2815, Sacramento, CA 95812
+twitter 
+facebook 
+youtube 
+linkedin 
+email 
+Accessibility 
+Privacy Policy 
+Conditions of Use 
+Air Districts 
+Register to Vote 
+California Governor
+Gavin Newsom Opens a New Window. 
+Secretary for Environmental Protection
+Yana Garcia Opens a New Window. 
+Chair, California Air Resources Board
+Lauren Sanchez Opens a New Window. 
+The California Air Resources Board is one of six boards, departments, and offices under the umbrella of the California Environmental Protection Agency.
+CalEPA 
+CalRecycle 
+DPR 
+DTSC 
+OEHHA 
+SWRCB 
+Copyright © 2026 State of California

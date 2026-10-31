@@ -1,0 +1,178 @@
+{
+ "f001.txt": {
+  "url": "https://sdlegislature.gov/api/Rules/74:36.html",
+  "status": 200,
+  "finalUrl": "https://sdlegislature.gov/api/Rules/74:36.html",
+  "type": "text/html",
+  "title": "",
+  "length": 8446
+ },
+ "f002.txt": {
+  "url": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/construction-permits-air",
+  "status": 200,
+  "finalUrl": "https://des.sc.gov/programs/bureau-air-quality/air-permitting/construction-permits-air",
+  "type": "text/html",
+  "title": "Construction Permits (Air) | South Carolina Department of Environmental Services",
+  "length": 37855
+ },
+ "f003.txt": {
+  "url": "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit",
+  "status": 200,
+  "finalUrl": "https://www.pa.gov/services/dep/apply-for-an-air-quality-general-permit",
+  "type": "text/html",
+  "title": "Apply for an Air Quality General Permit | Commonwealth of Pennsylvania",
+  "length": 6262
+ },
+ "f004.txt": {
+  "url": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=36120",
+  "status": 200,
+  "finalUrl": "http://www.depgreenport.state.pa.us/elibrary/GetFolder?FolderID=36120",
+  "type": "text/html",
+  "title": "- DEP eLibrary",
+  "length": 580
+ },
+ "f005.txt": {
+  "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter129/chap129toc.html",
+  "status": 200,
+  "finalUrl": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter129/chap129toc.html",
+  "type": "text/html",
+  "title": "25 Pa. Code Chapter 129. Standards For Sources",
+  "length": 927344
+ },
+ "f006.txt": {
+  "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter135/chap135toc.html",
+  "status": 200,
+  "finalUrl": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/025/chapter135/chap135toc.html",
+  "type": "text/html",
+  "title": "25 Pa. Code Chapter 135. Reporting Of Sources",
+  "length": 8091
+ },
+ "f007.txt": {
+  "url": "https://www.doa.la.gov/pages/osr/lac/books.aspx",
+  "status": 200,
+  "finalUrl": "https://www.doa.la.gov/doa/osr/louisiana-administrative-code/",
+  "type": "text/html",
+  "title": "Louisiana Administrative Code - Louisiana Division of Administration",
+  "length": 23948
+ },
+ "f008.txt": {
+  "url": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit",
+  "status": 200,
+  "finalUrl": "https://www.deq.louisiana.gov/page/do-i-need-an-air-permit",
+  "type": "text/html",
+  "title": "Do I Need an Air Permit? | Louisiana Department of Environmental Quality",
+  "length": 10468
+ },
+ "f009.txt": {
+  "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007b.pdf",
+  "status": 200,
+  "finalUrl": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007b.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 609110
+ },
+ "f010.txt": {
+  "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007c.pdf",
+  "status": 200,
+  "finalUrl": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007c.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 1030381
+ },
+ "f011.txt": {
+  "url": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007d.pdf",
+  "status": 200,
+  "finalUrl": "https://www.sec.state.ma.us/reg_pub/pdf/300/310007d.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 235643
+ },
+ "f012.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2015-08/documents/epa-massdep-psd-delegation-agreement.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2015-08/documents/epa-massdep-psd-delegation-agreement.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 25079
+ },
+ "f013.txt": {
+  "url": "https://wyoleg.gov/ARules/2012/Rules/ARR15-016.pdf",
+  "status": 200,
+  "finalUrl": "https://wyoleg.gov/AgencyRules/ARR15-016.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 459549
+ },
+ "f014.txt": {
+  "url": "https://www.wyoleg.gov/ARules/2012/Rules/ARR14-042P.pdf",
+  "status": 200,
+  "finalUrl": "https://www.wyoleg.gov/AgencyRules/ARR14-042P.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 1109310
+ },
+ "f015.txt": {
+  "url": "https://deq.wyoming.gov/aqd/title-v-permitting/",
+  "status": 200,
+  "finalUrl": "https://deq.wyoming.gov/aqd/title-v-permitting/",
+  "type": "text/html",
+  "title": "Title V Permitting - Wyoming Department of Environmental Quality",
+  "length": 13214
+ },
+ "f016.txt": {
+  "url": "https://19january2017snapshot.epa.gov/sites/production/files/2016-09/documents/2011_wy_3rd_title_v_final_program_review_report_10-21-2011.pdf",
+  "status": 200,
+  "finalUrl": "https://19january2017snapshot.epa.gov/sites/production/files/2016-09/documents/2011_wy_3rd_title_v_final_program_review_report_10-21-2011.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 56342
+ },
+ "f017.txt": {
+  "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=52&section=52.1570",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?chapter=I&subchapter=C&part=52&subpart=FF&section=52.1570",
+  "type": "text/html",
+  "title": "",
+  "length": 40213
+ },
+ "f018.txt": {
+  "url": "https://dep.nj.gov/boss/general-permits/",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/boss/general-permits/",
+  "type": "text/html",
+  "title": "NJDEP| Bureau of Stationary Sources | General Permits",
+  "length": 7476
+ },
+ "f019.txt": {
+  "url": "https://dep.nj.gov/boss/",
+  "status": 200,
+  "finalUrl": "https://dep.nj.gov/boss/",
+  "type": "text/html",
+  "title": "NJDEP| Bureau of Stationary Sources | Bureau of Stationary Sources",
+  "length": 7538
+ },
+ "f020.txt": {
+  "url": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/caa-permitting/clean-air-permitting-new-jersey",
+  "type": "text/html",
+  "title": "Clean Air Permitting in New Jersey | US EPA",
+  "length": 4239
+ },
+ "f021.txt": {
+  "url": "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions",
+  "status": 200,
+  "finalUrl": "https://ww2.arb.ca.gov/capp/cst/tch/stationary-source-permitting-community-questions",
+  "type": "text/html",
+  "title": "Stationary Source Permitting - Community Questions | California Air Resources Board",
+  "length": 187012
+ },
+ "f022.txt": {
+  "url": "https://ww2.arb.ca.gov/current-air-district-rules",
+  "status": 200,
+  "finalUrl": "https://ww2.arb.ca.gov/capp/cst/tch/current-air-district-rules",
+  "type": "text/html",
+  "title": "Current Air District Rules | California Air Resources Board",
+  "length": 5205
+ }
+}

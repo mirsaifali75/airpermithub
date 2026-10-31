@@ -1,0 +1,979 @@
+Final Report:
+Wyoming Division of Air Quality
+Title V Program Evaluation
+
+United States Environmental Protection Agency
+Region 8
+September 2011
+
+Table of Contents
+
+Executive Summary…………………………………..………………………………………..
+
+1
+
+Introduction…………………………………………………………………………………….
+
+3
+
+Objective of Program Evaluation……………………………………………………....……..
+
+3
+
+Program Evaluation Process..…………………………………………………………………
+
+3
+
+Third Round Evaluation Findings…………………………………………………………….
+
+5
+
+Summary of Good Practices Identified During the Third Review…….…………….
+
+5
+
+Summary of Good Practices Identified During the Second Review
+that are Still in Effect……………………………………...……………………………
+
+6
+
+Fee Audit……………….……………………………………………………………….
+
+6
+
+File Review……...………………………………………………………………………
+
+8
+
+Areas for Improvement Identified by EPA………………………………………….
+
+9
+
+Concerns Identified by WAQD………………………………………………………
+
+11
+
+Conclusion……………………………………………………………………………………...
+
+11
+
+Summary of Wyoming’s Responses to Title V Second Round
+State Program Review Questionnaire…………………………………………………………
+I. General Questions and Responses to First Round Program Reviews………………
+II. Permit Issuance…………………………………………………………………………
+III. Public Participation…………………………………………………………………….
+IV. Petitions…………………………………………………………………………………
+V. EPA Relationship………………………………………………………………………
+
+11
+11
+14
+16
+16
+17
+
+Attachments:
+1. WAQD Responses to EPA’s Title V Third Round State Program Review
+Questionnaire
+2. WAQD Responses to EPA’s Title V Fee Audit Questionnaire
+3. File Review Checklist
+4. May 26, 2011 Letter from Carl Daly, Air Program Director, US EPA Region 8 to
+Steven A. Dietrich, AQD Administrator, WDEQ
+Re: EPA Information Concerning Source Determinations for Oil and Gas Sources
+
+ii
+
+Executive Summary
+The Environmental Protection Agency Region 8 (EPA) conducted the third round evaluation
+of the Wyoming Department of Environmental Quality Air Quality Division’s (WAQD) title V
+Operating Permit Program in June 2011. The first round evaluation was conducted in May 2004,
+with a report dated September 2005. The second round evaluation was conducted in April 2008
+with a report dated August 2008. The third round evaluation (like the previous evaluations)
+consisted of a discussion of WAQD’s responses to the program evaluation questionnaire, which was
+developed during the second review and revised slightly for the third round (the first round
+questionnaire was more expansive than the second and subsequent third round evaluation
+questionnaires). The evaluation also consisted of a title V program fee audit questionnaire and a
+review of three title V permit files. The goal of the third round evaluation was to review any
+concerns raised by WAQD or EPA in the prior evaluation (second round), to determine how any
+unaddressed concerns might be addressed, to identify any good practices developed by WAQD that
+may benefit other permitting authorities and EPA, document any areas needing improvement, and
+learn what assistance EPA can provide.
+EPA Concerns from the Second Round Evaluation:
+At the time of the second round evaluation WAQD had not yet submitted the unavoidable
+equipment malfunction rule (Wyoming Air Quality Standards and Regulation (WAQSR) Chapter 1,
+Section 5) to EPA for review. The title V petition in which this issue arose could not be considered
+to be completely addressed until the Administrator’s Order has been carried out, which required the
+inclusion of the unavoidable equipment malfunction rule in WAQD’s State Implementation Plan
+(SIP) as a federally enforceable requirement. Since the completion of the second program review,
+WAQD has submitted, and EPA has approved, the unavoidable equipment malfunction rule into the
+Wyoming SIP. The proposed SIP action was submitted to EPA on September 11, 2008, for review
+and approval by EPA. EPA took final action to approve this rule in the Federal Register on
+April 16, 2010 (the direct final rule, see Fed. Reg. 19886 - 19891 and the proposed rule, see 19920 19921).
+Summary of Good Practices:
+Good practices EPA identified during the third round program evaluation include:
+
+
+
+
+
+
+
+
+
+
+WAQD is in the process of developing protocols to allow for the acceptance of title V
+applications electronically;
+Making reevaluation of Compliance Assurance Monitoring (CAM) indicators during
+ongoing stack testing a standard condition for sources where appropriate;
+Development and use of templates (updated on an ongoing basis) for New Source
+Performance Standards (NSPS) as well as National Emission Standards for Hazardous Air
+Pollutants (NESHAP) requirements;
+Following the finalization of title V administrative orders to citizen petitions, WAQD works
+with EPA to revises language as necessary for permits that contain similar issues to those
+raised in the petition and order;
+Use of a standard operating procedure (SOP) to create an engineer’s file for each facility that
+includes all the information that was used to create each permit related to that facility in an
+easy to follow format; and
+Transmittal of the draft permit to the permittee for review prior to the public comment
+period.
+
+1
+
+Good practices EPA identified during the second round program evaluation that are still
+relevant to the third round review include:
+
+
+
+
+
+
+
+
+
+
+Posting of title V permit actions on the WAQD webpage;
+Inclusion of CAM plans as an attachment to permits, rather than just the minimal permit
+language required by the CAM rule at 40 CFR 64.6(c);
+Inclusion of the full text of CAM recordkeeping and reporting requirements from 40
+CFR 64.9 as permit language, rather than just referencing the regulation;
+Inclusion in the Compliance Certification section of permits of not only the minimal
+language required by 40 CFR 70.6(c)(5);
+Structuring permits with logical divisions (i.e. separate sections for state only enforceable
+provisions, NSPS and/or NESHAP requirements, CAM) and effective use of tables (for
+emission unit identification, source potential to emit (PTE), emission limitations, and
+emission unit requirement summaries);
+Requiring renewal applications to include all information that would be required for an
+initial permit application rather than allowing permittees to submit only portions of the
+application that have changed since the last permit was issued; and
+Utilizing email (or verbal means of communication) to alert EPA staff of incoming proposed
+permits, highlighting possible controversial issues, and identifying WAQD’s needs of EPA.
+
+EPA Concerns from the Third Round Evaluation:
+No issues of concern were identified during the third review of the WAQD program.
+WAQD’s title V program has been successful at addressing EPA concerns as they have been
+identified through discussions on individual title V permit reviews.
+Areas for Improvement:
+Although no issues have been identified as a concern during this review, several aspects
+could be improved with minimal impact to WAQD’s workload and program. These areas include:
+
+
+
+
+
+
+
+Statement of Basis (SOB) - identification of Prevention of Significant Deterioration (PSD)
+requirements/permits versus non PSD New Source Review (NSR) requirements/permits
+Source determination analysis
+Periodic monitoring rationales
+Environmental Justice (EJ)
+CAM correlations for sources that show no correlation for the parameters analyzed
+Send a final copy of SOBs to EPA with the final permit
+
+Concerns Identified by WAQD:
+WAQD identified one major concern regarding the format of NESHAPs and their
+interrelation to Subpart A, NESHAP General Provisions. WAQD believes that EPA could provide
+useful training to all Region 8 States regarding the interrelation of these provisions.
+
+2
+
+Introduction
+EPA conducted this program evaluation as part of its obligation to oversee and review state
+programs that have been approved by EPA, and in response to recommendations from an audit
+conducted in July 2002 by the Office of Inspector General.
+The state of Wyoming operates a fully EPA approved program that allows it to implement
+the requirements of title V of the Clean Air Act (CAA), including the issuance of operating permits.
+EPA has a statutory responsibility to oversee the programs it approved by performing oversight
+duties, including occasional program reviews. Such responsibilities include overseeing the
+activities of the State program to ensure that local, regional, and national environmental goals and
+objectives meet minimum requirements outlined by the federal regulation.
+Objective of Program Evaluation
+Following the second and first round of state program evaluations, EPA nationally
+committed to a third round of title V program evaluations, with the same objectives of the second
+program review. Those objectives are to: (1) conduct a follow-up to the second round evaluations
+by ensuring that any EPA or state concerns identified during the second round evaluations have
+been addressed or are being addressed satisfactorily; (2) identify new good practices that other
+permitting authorities can learn from; (3) document areas needing improvement; and (4) learn how
+EPA can help state and local title V programs improve the permitting process. The program
+evaluation was conducted for Wyoming in fiscal year (FY) 2011. One program review will be
+completed each FY for the remaining five Region 8 states (Colorado, Montana, North and South
+Dakota, and Utah), which will result in the completion of the third round review for all Region 8
+states by FY 2016.
+Program Evaluation Process
+The first WAQD program evaluation was conducted in May 2004. EPA sent a nationally
+standardized Title V Program Evaluation Questionnaire and State/Local Title V Program Fiscal
+Tracking Evaluation Document to WAQD to be completed and returned to EPA. This was
+followed by an EPA review of the questionnaire responses, and an on-site interview with the
+WAQD. The questionnaire responses were used as the basis for discussions during the on-site visit.
+The questionnaire focused on general program information and specific areas relating to permit
+development, public participation, compliance, resource management, and title V benefits. In
+addition, a review of the title V fee procedures and a review of six title V files were completed.
+The second WAQD program evaluation was conducted in April 2008. Region 8 developed
+a revised Title V Second Round State Program Review Questionnaire. Once a draft questionnaire
+was prepared Region 8 gave the states the opportunity to submit comments during a three week
+comment period from January 22, 2008 - February 12, 2008. WAQD submitted five comments to
+EPA which were received on February 7, 2008. Pursuant to WAQD’s comments, EPA revised the
+questionnaire and transmitted the final version to WAQD on February 20, 2008, requesting that the
+completed questionnaire be returned to EPA by March 21, 2008. In addition to the Program Review
+Questionnaire EPA transmitted the State/Local Title V Program Fiscal Tracking Evaluation
+Document to assess the fee portion of WAQD’s program.
+The third WAQD program evaluation was conducted in June 2011. Region 8 made minor
+revisions to the Title V Second Round State Program Review Questionnaire and sent the document,
+Title V Third Round State Program Review Questionnaire, to WAQD following the same
+3
+
+procedures outlined for the second program review (which included transmittal of the State/local
+Title V Program Fiscal Tracking Evaluation Document used in the last evaluations for the fee audit
+portion of the review). The questionnaire and fiscal tracking document were transmitted to WAQD
+by letter dated March 23, 2011. WAQD’s responses were received by EPA on April 18, 2011, with
+a cover letter dated April 13, 2011. WAQD’s submittal included responses to the questionnaire
+(with the title V public notice mailing list attached) and responses to the fiscal tracking document
+(with attachments that included a billing documentation example, timesheet instructions, a monthly
+budget report example, and a travel request form).
+Similar to the program evaluations conducted previously, this evaluation incorporates the
+Region’s review of three selected title V files, as well as a review of WAQD’s title V fee
+management system. As mentioned above, a separate questionnaire was provided by EPA to
+WAQD for the title V fee audit (State/local Title V Program Fiscal Tracking Evaluation Document).
+The purpose of the fee audit is to determine whether the following are satisfied:
+● Sources are being billed in accordance with fee requirements and are paying the
+required fees;
+● Division of expenses is identified by WAQD between title V and non-title V programs;
+● Features are integrated into WAQD’s accounting/financial management system which will
+identify title V revenue and expenditures separate from other funding, and which certify the
+disposition of title V funds;
+● Title V fees collected from sources are used by WAQD to pay for the entire title V program;
+and
+• No such fees are used as CAA Section 105 grant matching.
+Following the review of WAQD’s submission, EPA conducted an on-site visit. The on-site
+visit was conducted on June 23, 2011. Christopher Razzazian conducted the on-site visit with Eric
+Wortman and Katie Romero (all from Region 8), and the entire WAQD title V program staff
+including Lori Bocchino (Operating Permit Program Manager), William Tillman (Operating Permit
+Program Supervisor), Maggie Endres (Senior Operating Permit Program Engineer), Janet Stephens
+(Title V Program Administrative Assistant), Jamie O’Dell (Permit Engineer), Melissa Meares
+(Permit Engineer), Despina Nikolova (Permit Engineer), and Brianna Chambers (Permit Engineer).
+During the on-site visit, EPA and WAQD discussed EPA’s follow-up questions and remarks
+regarding WAQD’s responses to the program questionnaire and the fee questionnaire. Additionally,
+EPA conducted reviews of three title V source files: P4 Production - Coal Calcining Plant (permit
+number 3-2-135, proposed second renewal), Simplot Phosphates - Rock Springs Fertilizer Complex
+(permit number 3-1-125, final renewal), and General Chemical Partners - Green River Works Trona
+Processing Facility (permit number 3-1-123-1, final modified renewal). These files were selected to
+depict the similarities and differences between the most current proposed permit and earlier permits
+that had been renewed at least once. These sources were 123rd, 125th, and 135th sources to submit
+initial applications to WAQD (as indicated by their permit numbers).
+
+4
+
+Third Round Evaluation Findings
+Summary of Good Practices
+During the third round evaluation five good practices have been identified that were not
+previously, and those practices are summarized below. In addition to identifying new practices
+there are good practices that were previously identified during the second round evaluation, but that
+are still relevant to the third round evaluation. Since these practices are still relevant they have been
+listed in this report, but for a more detailed summary please refer to the second round evaluation
+report.
+The following have been identified as good practices during the third round evaluation:
+
+
+
+
+
+
+
+
+
+
+
+
+WAQD is in the process of developing protocols to allow for the acceptance of title V
+applications electronically. This will allow the application to be posted online with the SOB
+and draft permit during the public comment period. This practice allows a larger audience to
+have all the relevant information necessary to review the action without the need for travel
+to the location of the application (WAQD in Cheyenne as well as the WAQD office nearest
+to the applicant). This practice enhances the ability of communities to participate in the
+permitting process. In addition, electronic applications may ease the paperwork burden for
+administrative and recordkeeping purposes.
+WAQD includes permit conditions related to CAM which require, if appropriate, the
+permittee to reevaluate existing CAM parameters as a part of any stack testing conducted
+during the permit term. If this reevaluation indicates a change to CAM indicators or
+indicator ranges is needed, the permittee is required to revise and resubmit their CAM plan.
+The development and use of permit condition templates (updated on an ongoing basis) for
+NSPS as well as NESHAP requirements. This promotes a thorough examination of the
+subparts so that permit language contains sufficient detail to determine the applicable
+requirements for each emitting unit within the template. For each subpart, it is necessary to
+determine what information is needed in the permit to be able to determine the applicability
+of each provision (or non-applicability) for each emitting unit. The templates allow the
+permitting process to move quickly once they are developed and fine-tuned.
+Following the finalization of title V administrative orders to citizen petitions (both within
+Region 8 and nationally), WAQD works with EPA to revise language as necessary for their
+permits that contain similar issues to those that were raised in the petition and order. This
+prevents similar petitions from being filed in Wyoming to ones that have been filed in other
+states within the Region and nationally. By preventing known issues from persisting,
+WAQD and EPA save resources that would otherwise be expended during the petition
+response process.
+WAQD uses a SOP to create an engineer’s file for each facility that includes all of the
+information that was used to create each permit related to that facility in an easy to follow
+format. This practice enhances the ability of new engineers to understand the permit history
+and source history, making for better permitting decisions with clear intent. By formalizing
+a SOP all employees understand how to create the files so that anyone familiar with the SOP
+can quickly and efficiently use the information. These files contain detailed information and
+are in the form of a binder that covers all the title V permits for a source from initial permit
+issuance through each permit that followed.
+WAQD transmits the draft permit to the permittee for review prior to the public comment
+period. This reduces the amount of comments received from the permittee, which shortens
+the time period needed to address any comments received during the public comment period.
+5
+
+Good practices EPA identified during the second round program evaluation that are still relevant to
+the third round review include:
+
+
+
+
+
+
+
+
+
+
+Posting of title V permit actions on the WAQD webpage;
+Inclusion of CAM plans as an attachment to permits, rather than just the minimal permit
+language required by the CAM rule at 40 CFR 64.6(c);
+Inclusion of the full text of CAM recordkeeping and reporting requirements from
+40 CFR 64.9 as permit language, rather than just referencing the regulation;
+Inclusion in the Compliance Certification section of permits of more detailed information
+than the minimal language required by 40 CFR 70.6(c)(5);
+Structuring permits with logical divisions (i.e. separate sections for state only enforceable
+provisions, NSPS and/or NESHAP requirements, CAM) and effective use of tables (for
+emission unit identification, source PTE, emission limitations, and emission unit
+requirement summaries);
+Requiring renewal applications to include all information that would be required for an
+initial permit application rather than allowing permittees to submit only portions of the
+application that have changed since the last permit was issued; and
+Utilizing email (or verbal means of communication) to alert EPA staff of incoming proposed
+permits, highlighting possible controversial issues, and identifying WAQD’s needs of EPA.
+
+Fee Audit
+As part of this review EPA requested that WAQD fill out the nationally standardized fee
+audit questionnaire (which was also used during the previous two program evaluations). WAQD
+completed the questionnaire, which is included in this report as Attachment 2
+During the on-site review EPA discussed fee protocol with WAQD. WAQD provided the
+following documents as attachments to their response to the fee audit questionnaire to outline the
+mechanisms used to track time and costs associated with title V activities:
+1. Billing documentation example - The billing documentation example was submitted by WAQD
+to the respective source and provides an invoice for the title V fee owed based on the emissions
+inventory submitted by the source. Since WAQD calculates the fee amount due, errors and
+miscalculations are avoided for the sources’ annual fee payments. Appropriate supporting
+documentation for fee calculation purposes is also provided with the billing invoice.
+2. Timesheet instructions - The timesheet instructions document instructs WAQD employees for
+entering time based on five different “function codes” that apply to work done in the Division. The
+function code “OPP” is used for work related to the Operating Permit Program (OPP).
+3. Monthly budget report - The monthly budget report document allows WAQD to assess budget
+expenses and surpluses for the current biennium. In addition to listing separate totals for the
+Operating Permit Program, the report distinguishes among varying cost types such as personnel,
+equipment, travel, communications and office space.
+4. Travel request form - Information on the travel request form is used to track any travel cost
+associated with WAQD. Codes entered on the form are used to record any cost associated with the
+Operating Permit Program.
+Additionally, the information provided in the second program evaluation fee audit with
+regard to the tools and procedures WAQD uses and follows remains relevant (and to a degree,
+6
+
+duplicative) to this review (for further detail refer to the fee audit section of the second round report
+with attachments). The information provided with the second round fee questionnaire included:
+1. Weekly time sheet - Includes function codes tracking leave and holidays, work for 103 Grants,
+105 Grants, Southwest Wyoming (SWW) 105 Grant oil and gas work, and title V operating
+permit work. Time is tracked in half hour increments.
+2. Air Quality Division coding - Correlates activities to the Wyoming On-Line Financial System
+(WOLFS) Code, time code, copy code and mail code. All copies and mailing associated with
+title V are paid for with title V money.
+3. Accounting codes - Lists WAQD’s accounting codes.
+4. Monthly report - Lists costs associated with accounting codes. The second page of the report
+lists total available funds, total estimated expenditures, as well as the total surplus or deficit.
+It is clear that Wyoming is able to account for all title V activity. As with the past fee audits,
+nothing was uncovered during the discussion of the fee questionnaire that warrants concern.
+WAQD tracks work at the function level (i.e., NSR vs. OPP) and at the activity level (i.e., mailing,
+copying, personnel costs). These practices continue to assure that fees are used solely for the title V
+program fulfilling part of the requirements in §70.9. Title V emission inventories for fee
+assessments are verified by WAQD District Engineers who perform site inspections. The
+verifications are submitted to WAQD’s emission inventory group to determine annual emission fees
+for the permitted sources. The corresponding invoices are prepared and sent to the sources. The
+fees received are recorded and categorized into monthly revenue.
+The following is a summary of WAQD’s fee rates:
+July 2002 – June 2006 – $17 per ton
+July 2006 – June 2008 - $25 per ton
+July 2008 – June 2010 - $28.16 per ton
+July 2010 - current - $31 per ton
+These rates have increased substantially from the first program review, at which time the
+rate was $17 per ton. Prior to that time, the fee rate was $10 per ton. In order to set the fee rate,
+WAQD must estimate the cost of the title V program and use the estimated billable tonnage to
+calculate a dollar per ton fee rate that will adequately cover the title V program. Under no
+circumstance can WAQD spend more than this budget estimate would allow, which makes it very
+important to estimate as accurately as possible. Once the Administrator of WAQD has a fee rate
+that will be sufficient, the rate must be approved by the governor and the state legislature.
+Therefore, the fee schedule continues to meet the requirements of §70.9(b) and the required
+minimum fee rate of $25 per ton. WAQD continues to demonstrate the ability to generate a table to
+outline on-going monthly revenues and expenses, fulfilling the recommendation from EPA’s
+original evaluation and assuring that the elements of §70.9 are met. At the time the report was
+generated the Operating Permit Program had a projected deficit of $50,645. The reason for this
+deficit is that WAQD makes estimates for projected spending (including costs associated with
+ambient monitoring contracts, which receive funding from the 105 grant and/or the state general
+fund as well) that are conservative. At the time that WAQD responded to the fee audit, WAQD was
+nine months into their 24-month budget period. At the time of the drafting of this report, WAQD
+
+7
+
+was 13 months into the 24-month budget period and projects a surplus of over $500,000.
+Additionally, WAQD has always maintained Operating Permit Program expenditures below budget
+and has collected adequate fees to cover those expenditures. For these reasons, EPA continues to
+believe that WAQD’s fee structure meets the regulatory requirements of §70.9 for fee determination
+and certification.
+File Review
+Three files were reviewed, which were:
+
+
+
+
+P4 Production - Coal Calcining Plant (permit 3-2-135, proposed second renewal),
+Simplot Phosphates - Rock Springs Fertilizer Complex (permit 3-1-125,
+final first renewal), and
+General Chemical Partners - Green River Works Trona Processing Facility (permit 3-1-1231, final modified renewal).
+
+P4 Production - Coal Calcining Plant: This permit is the second renewal for the facility.
+Everything that should be in a permit file that was listed in the standard checklist for file reviews
+was present or not applicable. CAM requirements continue to be found in the permit itself, rather
+than simply referencing Part 64, which greatly simplifies compliance for the permittee by reducing
+confusion. Also, CAM plans are attached to WAQD permits which helps clarify requirements and
+allows the public the opportunity for review during public comment proceedings.
+The general permit language is the updated language (which is similar to the updated
+language referenced in the last program review), but now also includes greenhouse gas (GHG)
+reporting requirements. Although this is not an applicable requirement, WAQD has chosen to
+require sources to submit to them the same information being submitted to EPA for informational
+purposes. No concerns were identified in the review of this file. As with the previous program
+evaluation, permits were chosen for review that would highlight changes (improvements made) in
+newer permits. The continuous improvements are still evident as shown by the differences between
+this permit and the Simplot and General Chemical permits.
+Simplot Phosphates - Rock Springs Fertilizer Complex: This permit is at the end of the period of its
+first renewal and has not been significantly modified since the issuance of the renewal permit.
+Everything that should be in a permit file that was listed in the standard checklist for file reviews
+was present or not applicable. The CAM plan was attached as Appendix J to the permit and CAM
+requirements were found directly in the permit language, which is good. However, the CAM
+requirements did not include the means by which an exceedance or excursion is defined. It was
+noted that this was an older permit and WAQD stated that this has since been corrected in the CAM
+language in recent permits, such as in the P4 Production permit.
+NESHAP language was generally sufficient to identify applicable and non-applicable units
+at the source, and the regulatory requirements for applicable sources. However, the permit
+requirements for NESHAP Subpart ZZZZ were very broad and could use more detail. The
+applicability statement for Subpart ZZZZ did not specify which, if any, emission units located at the
+facility are subject to the rule. The permit should specify which units are affected units if the rule
+requirements are put into the permit. Additionally, no specific requirements are in the permit for
+Subpart ZZZZ. Incorporation by reference is not sufficient for ensuring adequate compliance with
+the regulations and the requirements for Subpart ZZZZ should be explained more thoroughly in the
+permit. Since this permit was drafted, WAQD has revised their templates for Subpart ZZZZ
+addressing the issues mentioned above in recently issued permits. The latest templates include
+8
+
+much of the regulatory language and specify which units at the source are affected units and
+whether the source is a major or area source. In some cases, the date of manufacture or the date of
+order of the engine are included in the SOB. However in many cases, WAQD is hesitant to include
+this date information since changing engines often can create a burden in updating the information.
+No significant issues of concern arose from the review of this file.
+General Chemical Partners - Green River Works: This permit is for a minor modification to the
+first renewal permit. Everything that should be in a permit file that was listed in the standard
+checklist for file reviews was present or not applicable. The CAM plan was attached and CAM
+requirements were found directly in the permit language, which is good. However, the CAM
+indicator does not show a correlation between electrostatic precipitator (ESP) power, opacity and
+mass PM emissions. It is believed that for certain trona processing facilities that use ESPs for PM
+control that the oil shale that may be mined with the trona can affect opacity and PM emissions.
+Since dry mined trona is most often calcined, if there is oil shale present, the shale will volatilize
+and partially oxidize to form a blue smoke that seems to have an effect on the CAM correlation.
+Although these trona sources were once thought to emit HAPs below major source thresholds,
+permits have now been updated (following comments from citizens that worked in the trona
+industry and WAQD investigation) to reflect much larger amount of HAPs (approximately 20 tpy
+previously versus 200 tpy currently), which are emitted during this process if oil shale is present,
+signified in some cases by a blue plume. To understand the correlation, EPA reviewed the testing
+data and it was clear that higher ESP voltage/current does not necessarily yield lower mass PM
+emissions. In this unique case, it may be appropriate to generate a more robust method for testing to
+discern if there may be a correlation when more factors are considered. Maximum Achievable
+Control Technology (MACT) and NSPS language was sufficient to identify applicable and nonapplicable units at the source and the regulatory requirements for applicable sources. No issues of
+concern arose from the review of this file.
+Areas for Improvement Identified by EPA
+
+
+Statement of Basis - SOBs should identify PSD requirements/permits versus non PSD NSR
+requirements/permits, as well as identify any limits on PTE to avoid major source status for
+PSD or HAP major source status. WAQD prepares a SOB for each permit that includes an
+introduction of the source, permit history, applicable requirements, and proposed periodic
+monitoring. One aspect of the permit history section that would be helpful for EPA and
+other reviewers would be to document if a NSR permit is major for PSD. EPA recognizes
+that NSR permits do not stipulate whether the permit was issued under, not only Chapter 6,
+Section 2, but in addition Chapter 6, Section 4 (for PSD). Since it is not possible to discern
+whether a permit (included in a title V application) is a PSD permit it is appropriate to
+include that information in the SOB. In addition, it is not clear whether a NSR permit
+includes a limit on PTE unless the technical analysis for the NSR permit is provided (which
+it is not through the title V process), or the SOB specifies if any synthetic minor limits were
+created in the NSR permit. In both cases, there may be reason to impose different
+compliance provisions than for permits that do not include limits on PTE or have PSD
+requirements. For more information, you may wish to refer to a December 20, 2001, letter
+from Stephen Rothblatt to Robert Hodanbosi (available on the EPA Region 7 policy and
+guidance database) that states, “the [SOB] should discuss the purpose of any limits on
+potential to emit…”. You may also wish to review the Order for the title V petition for
+Onyx Environmental Services (petition number V-2005-1, February 1, 2006), which states
+that the SOB, “should highlight elements that U.S. EPA and the public would find important
+to review” (Onyx, page 13). PSD permit requirements are just one example of elements that
+EPA and the public would find important for the review process.
+9
+
+•
+
+
+
+
+
+
+
+
+
+Source Determination Analysis - Source determinations, particularly for the oil and gas
+industry, are becoming more and more common across the country. EPA has stated that
+source determinations for oil and gas facilities should be made on a case-by-case basis (see,
+Attachment 4, May 26, 2011 Letter from Carl Daly, Air Program Director, US EPA Region
+8 to Steven A. Dietrich, AQD Administrator, WDEQ; Re: EPA Information Concerning
+Source Determinations for Oil and Gas Sources). This is apparent by the determinations
+made in the recent permits issued by Region 8 (BP – Florida River) and Region 5 (Summit
+Petroleum - Mount Pleasant Operations). Source determinations have become increasingly
+scrutinized by the public and WAQD should consider developing a protocol to screen
+applications that may require a source determination analysis.
+Periodic monitoring rationales - In situations where no further testing (or once in five year
+testing) are proposed as periodic monitoring the SOB should explain why that level of
+monitoring is appropriate. Information could include the margin of compliance during any
+past testing, how long ago the last test was conducted, historically how much variation
+existed from test to test, how much a source operates throughout the year, the level of
+emissions from the unit (with respect to the source as a whole), and whether the
+uncontrolled emissions have the potential to be above any emission limit, or not (as is the
+case with small fuel burning equipment that have a potential to emit that in many cases is
+less than 50% of the NOx emission limit in Wyoming regulation). We wish to commend
+WAQD for presenting a logical rationale for fuel burning equipment that makes clear why
+no further testing is economical for these small sources.
+Environmental Justice - We encourage WAQD to develop a standard operating procedure
+for addressing EJ in its permit program. EPA is available to provide assistance with these
+efforts. Where appropriate, we encourage WAQD to consider means, both voluntary and
+regulatory, to reduce disproportionate impacts to communities.
+CAM correlations - Trona ore is unique to Wyoming geology and as such seems to have
+created a unique issue for the creation of CAM indicators that are indicative of compliance
+with mass PM emissions. It seems that oil shale found with trona ore is sometimes calcined
+with the ore. Since the oil shale is volatile, it produces a variety of emissions in addition to
+what was assumed to be emitted from the process and may have the potential to affect the
+ability of a CAM indicator to be indicative of compliance with a mass PM limit. As
+discussed in the review of the General Chemical permit, a review of stack test results and
+ESP power settings shows that higher power settings do not necessarily result in lower
+opacity or PM emissions. For sources like this that show no real correlation between the
+CAM indicator and emissions, we suggest WAQD continue to encourage companies to
+examine alternative metrics that may allow for a more complete understanding of the
+combustion characteristics.
+Transmittal of final SOBs with the final permits - We suggest sending a final copy of the
+SOB to the EPA permitting oversight contact along with final permit. This will provide
+EPA the opportunity to review all changes that were made as a result of discussions with
+WAQD during the 45-day EPA review period for proposed permits. When discussions are
+held between EPA and WAQD regarding proposed permits, an addendum to the SOB is
+often drafted to document the issues and resolutions, which is helpful documentation for
+future reference. If the SOB is not sent out with the final permit, that record remains at a
+state level only.
+
+10
+
+Concerns identified by WAQD
+WAQD identified one major concern regarding the format of NESHAPs and their
+interrelation to Subpart A, NESHAP General Provisions. WAQD emphasized the difficulty to
+merge the overlapping requirements for monitoring, recordkeeping, and reporting from Subpart A
+with the corresponding requirements in the various NESHAP subparts as new rules are
+promulgated. To help address the concern regarding applicability of the general provisions, above,
+WAQD requested region-wide training from EPA staff on the recently promulgated Boiler MACT.
+Conclusion
+In conclusion, WAQD implements an effective title V program that continues to evolve as
+challenges arise. During the permit file reviews all the standard language contained in the
+nationally developed checklist (Attachment 3) were found in each permit. Additionally, WAQD
+permits show continuous improvements across all aspects of the permit language and issuance
+process. WAQD has greatly improved the level of communication with EPA staff to address issues
+in proposed permits. The title V fee review demonstrates WAQD’s ability to continue to operate a
+program that meets the fee requirements of Part 70. WAQD’s title V program continues to meet the
+requirements of Part 70 regulation and no deficiencies were discovered during this review.
+However, EPA has provided the suggestions in this report for possible areas that could continue to
+be improved.
+Summary of the Title V Third Round State Program Review Questionnaire
+I.
+
+General Questions and Responses to First and Second Round Reviews
+
+A.
+
+Resolution of Second Round Review
+Unavoidable Equipment Malfunction Rule: On November 1, 2002 the EPA Administrator
+ordered the State to make changes to Section 19 of Wyoming Air Quality Standards and
+Regulations (WAQSR) [now Chapter 1, Section 5 of WAQSR]. WAQD replaced the
+“malfunction exemption rule” referred to here with an “unavoidable equipment
+malfunction” regulation. The new regulation was adopted by the State on January 30, 2006.
+WAQD submitted the rule as a part of Chapter 1, Section 5 of the WAQSR to EPA and
+EPA approved the SIP revision on April 16, 2010, in the Federal Register. The SIP revision
+became effective on June 15, 2010. EPA would like to thank WAQD for resolving this
+issue.
+
+B.
+
+What key EPA comments on individual title V permits remain unresolved? (EPA to
+determine this) What is the State’s position on these unresolved comments?
+WAQD responded that they were not aware of any unresolved comments. During the onsite portion of the evaluation EPA raised a broad issue regarding the rationale presented in
+WAQD’s SOBs for situations when assumptions are used to reduce the need for actual
+measurements (or for situations that do not permit actual monitoring, i.e. for open flares
+with destruction efficiency requirements). It is important for the permit record to document
+why WAQD feels that its monitoring meets the requirements of §70.6(c) and/or
+§70.6(a)(3)(i)(B). By fully explaining WAQD’s rationale many questions that could arise
+for sources with minimal testing requirements (or no further testing) may be averted.
+
+11
+
+C.
+
+Have any procedures in title V changed since the second round program review?
+The WAQD mentioned that most draft permits are now transmitted informally to the
+permittee for their review prior to final internal review within the program. WAQD has
+found that this minimizes comments from the permittee during the formal public comment
+period. EPA believes this is a useful practice and has included it in the Summary of Good
+Practices section above.
+
+D.
+
+What does the state think it’s doing especially well in the title V program?
+WAQD responded that they feel they prepare permits that are effective tools to assist
+permittees in meeting all their compliance obligations by being clear and well organized.
+EPA applauds WAQD for preparing clear and usable permits and for delving into NSPS and
+NESHAP subparts to help remove ambiguity surrounding the regulatory language.
+
+E.
+
+Important current issues affecting the title V program
+1.
+
+Top issue: WAQD identified inclusion of new and revised NESHAPs in title V
+permits as a difficulty affecting the program. During the period when WAQD was
+answering the questionnaire for this report they were revising language for
+Subpart ZZZZ to be followed by updates to their NESHAP templates for DDDDD
+and JJJJJJ for boilers (which will affect nearly all title V facilities in the state).
+Other issues: Determinations of how new NESHAP standards apply are usually
+laborious and time consuming. WAQD mentions that the complicated flow
+charts/tables used to navigate new NESHAPs (specifically Subpart ZZZZ) are a
+testament to their overly complex language.
+WAQD is uncertain how GHG permitting will be performed within the state.
+WAQD does not have the authority to regulate GHGs and will not gain that authority
+until (at the earliest) the next legislative session in spring 2012. WAQD wishes to be
+able to give permittees and permit applicants accurate and complete information so
+that they can plan for their businesses’ futures. EPA will continue to give guidance
+on how to proceed as a national process is developed to address states that are not
+positioned to regulate GHGs in title V.
+WAQD listed monitoring for insignificant sources as an issue. WAQD believes that
+the NSR program is very rigorous in setting limits and that state regulations cover
+very small sources resulting in situations where units have limits that will likely not
+ever be exceeded. In these instances, WAQD has not typically required monitoring
+due to the relatively high cost of monitoring a source that they believe will not likely
+exceed an applicable limitation, or create an impact on the environment. WAQD
+believes that monitoring for sources like these is an inefficient use of resources as
+well as an unnecessary source of contention between the permit program and permit
+applicants/permittees. EPA wishes to reiterate that §70.6(c) requires provisions exist
+that assure compliance with all limits. EPA has strived to ask WAQD to explain
+why the proposed testing schedule meets the requirements of §70.6(a)(3)(i)(B) and
+§70.6(c), and by and large WAQD has had rationales that are appropriate, but until
+being engaged on the subject the permit record did not include that relevant
+information. Often inclusion of the full rationale has been sufficient to justify the
+proposed testing/monitoring. However, in certain instances the information
+12
+
+presented seems to suggest a level of trust that the source fits into assumptions
+provided without justifications for the validity of such assumptions. In these cases
+further information is needed, and may warrant more testing/monitoring than was
+originally required. EPA wishes to thank WAQD for working collaboratively to
+assure that all permit terms have sufficient compliance assurance provisions. Also,
+in the event that limits are discovered to be extraneous, or unneeded/unwarranted,
+EPA encourages WAQD to amend the underlying applicable NSR permit through
+the appropriate permitting action to remove limits that were never intended to be a
+limit.
+2.
+
+EPA policy or regulation causing concern: WAQD listed the same issue as was
+listed during the second round evaluation, that being the new and revised NESHAPs,
+and their related lawsuits, which create a great deal of uncertainty and burden on
+WAQD’s program. Often it is not clear to WAQD which parts of which standards
+are or are not in effect due to all the litigation surrounding these regulations. WAQD
+feels that NESHAPs, as currently written, are difficult to address in an operating
+permit, and are even more difficult for sources to understand. It is impossible to read
+a MACT standard without having a number of different documents available and
+open at the same time. The cross references within and out of the subpart, in
+addition to definitions and terminology that are subpart specific seems unnecessarily
+confusing. Creating a “road map” for permittees with the permit is becoming
+increasingly difficult, if not impossible. WAQD remarks, if professional permit
+writers cannot navigate the standards, how can permittees or compliance inspectors
+do so? EPA applauds WAQD’s efforts to make the permit a useful document that
+provides clear information for both the permittee and any WAQD compliance staff.
+WAQD also listed aggregation of oil and gas sources (source determinations) as an
+area of concern. We are attaching the recent letter (Attachment 4) sent to the state on
+this topic and will work with the state as source determinations are made.
+
+3.
+
+How can EPA help: WAQD requests timely guidance and direction for permit
+writing whenever there is a stay or vacatur of standards.
+WAQD also mentions that preparing flowcharts and spreadsheets for NESHAPs is
+very useful. Subparts could be made even clearer by breaking the standards into
+sections for each type of affected unit (e.g. Subpart ZZZZa for compression ignition
+engines, ZZZZb for 4-stroke rich burn engines, etc.).
+WAQD strongly recommends that more thought and care be put into clarifying how
+the NESHAP General Provisions apply in each subpart. While the applicability
+tables used to be adequate, now each standard has so much information on
+monitoring, notification, recordkeeping, and reporting in the subpart as to make it
+impossible to discern how those requirements mesh with the General Provisions.
+WAQD believes it would be much better to not use the General Provisions at all,
+unless there is little or no language in the specific subpart regarding a particular
+aspect within the General Provisions (such as notifications of compliance).
+Otherwise, it is better to include all requirements within the specific subpart.
+
+13
+
+II.
+
+Permit Issuance
+
+A.
+
+Since the second round program review, what percent of title V initial permits have
+you issued within the regulatory timeframe specified in 40 CFR 70.7(a)(2)?
+WAQD continues to issue a vast majority (94%) of initial permits within the regulatory
+timeframe.
+
+B.
+
+Since the second round program review, what percent of title V significant permit
+modifications have you issued within the regulatory timeframe specified in
+40 CFR 70.7(a)(2) and (e)(4)(ii)?
+As with initial permits WAQD issues a vast majority of significant permit modifications
+within the regulatory timeframe (79% within 18 months, 50% within nine months).
+
+C.
+
+What percent of title V permits expire before they can be renewed (since the second
+program review)?
+WAQD stated that between April 1, 2008, and March 31, 2011, that 37 renewed permits
+were issued. Thirty three of these permits expired before they could be renewed. The
+WAQD gave two reasons for the difficulty related to the issuance of permit renewals, which
+have not changed since the second review:
+
+
+Wyoming regulation requires submittal of the title V application between six and
+eighteen months before the initial permit will expire. In general, applicants submit
+their applications six months in advance. Accounting for the public participation
+requirements, coordination with EPA, and several weeks for preparation and mailing
+of draft and proposed permits, the renewed permit must be written within 90 days of
+application submittal (including the inclusion of a CAM plan, for the first renewal of
+applicable sources, and a response to comments if necessary).
+
+
+
+Each renewal must address the inclusion of new MACT requirements, inclusion of
+new permits or waivers issued recently, and any updates to incorporate the latest
+general permit language.
+
+So it is not surprising to EPA that 89% of renewal permits issued since the second program
+review were not issued before the previous permit expired. Furthermore, in discussion EPA
+confirmed that even though the permit expires, the requirement to comply with all
+applicable requirements does not expire with the permit.
+Compliance is not a concern because in most cases the applicant would have submitted a
+timely application, therefore receiving an application shield. EPA continues to believe that
+WAQD is doing everything within its power to issue permits as quickly as possible while
+maintaining a high level of quality.
+The long term solution to this still seems to be a change to Wyoming rules that would
+require submission at least 12 months in advance, which EPA agrees, should address the
+issue of not having enough time to draft the permit language.
+
+14
+
+D.
+
+Unresolved violations – delay of permit renewal issuance
+Previously standardized WAQD procedure stipulates that any unresolved issues/violations
+will be resolved before any permitting action can move forward. Additionally, in the past
+WAQD has delayed the issuance of renewals if compliance plans in the previous operating
+permit have not been resolved. The resolution generally has involved the issuance of a
+Chapter 6, Section 2 (NSR) permit or modification. WAQD has also delayed renewals
+when violations result in significant changes to emission control systems and associated
+NSR permits or modifications are in process.
+
+E.
+
+Have permittees requested a hold in renewal for any reason?
+WAQD has delayed work on permits when a source is in the process of gaining synthetic
+minor or true minor status, or when NSR permitting will result in significant changes to
+applicable requirements.
+
+F.
+
+CAM
+1. – 3. Are CAM plans slowing renewals; if so why? What main types of inadequacies
+have caused difficulties or delays? What difficulties are experienced in getting
+better submissions.
+WAQD has shown improvement in developing CAM plans that meet the
+requirements of Part 64. However, there are some sources that do not fit well into
+the CAM correlation approach (ESP controlled sources that processes materials that
+vary in composition, i.e. trona calciners).
+4.
+
+Have you had to supplement the CAM technical guidance document (TGD)
+with state-issued guidance?
+Yes - this response has remained the same since the second round evaluation.
+
+5.
+
+Is CAM training adequate?
+Since WAQD has already developed most of the CAM plans that will be necessary
+in their source universe, they feel that further federal training would not be of much
+use. WAQD’s difficult CAM sources typically show no correlation between the
+indicator, opacity, and mass PM emissions, necessitating very specific
+training/analysis of specific sources within WAQD’s permit universe.
+
+6.
+
+Are CAM applicability determinations resource-intensive or difficult?
+Not since the initial determinations.
+
+G.
+
+What improvements does the state believe it has made to the management of the title V
+permit program, since the first round program review, that could be described as best
+practices and could be of interest to other states?
+WAQD stated that they continue to refine their permitting process to make it as
+straightforward as possible for permit applicants. WAQD continuously reviews their permit
+organization and writing standards. In the future, WAQD hopes to allow for electronic
+15
+
+submissions, but are currently in the preliminary stages. Improvements identified by EPA
+include periodic monitoring rationales and frequency for sources that previously did not
+present a full rationale or have sufficient frequency.
+H.
+
+Improvements planned for the management of the title V program within the
+next five years
+WAQD plans on developing mechanisms for the submission of reports, emission
+inventories, and permit applications electronically. EPA feels this is a good use of
+technological resources reducing paper consumption and the carbon cost associated with the
+transport of large applications. While still in the development phase, EPA suggests that
+mechanisms for submission not only via electronic format on CD or DVD, but rather by
+fully electronic means. Thereby completely eliminating the need for transportation of
+anything physical from the applicant to WAQD. Additionally, WAQD reports that they
+normally do not have a set period of time for planning cycles. However, if there is a budget
+impact, WAQD would follow the biennium budget cycle from July to June for their
+planning purposes.
+
+III.
+
+Public Participation
+
+A.
+
+What forms of news media do you use to fulfill public participation - 40 CFR 70.7(h)?
+WAQD continues to use the county or local newspaper(s) to reach the largest audience in the
+location of the source. The website still posts the permit information, as was highlighted by
+the second evaluation report. A state-wide publication is not used due to cost constraints.
+
+B.
+
+Mailing list for title V public participation – 40 CFR 70.7(h)(1)
+WAQD still maintains a title V mailing list, which was provided as an attachment to their
+response to the third round questionnaire and is included with this report as part of
+Attachment 1.
+
+C.
+
+Policy outlining the response to comments procedure or process
+WAQD’s response did not differ from the second round evaluation. WAQD does not have a
+written policy, but summarized their policy in the questionnaire. All parties are
+appropriately responded to within a reasonable amount of time.
+
+IV.
+
+Petitions
+WAQD states that there have been no changes in the way permits are written and no reopenings as the result of a petition. The only title V petition since the second round program
+review was withdrawn (for the Pavillion Compressor Station). However, following the
+submission of WAQD’s responses to this questionnaire, a petition has been submitted to
+EPA for the WYGEN II power plant in Gillette, WY. Since WildEarth Guardians submitted
+their comments to WAQD outside of the comment period, WAQD has not responded to
+those comments or included the comments in the record for the permit. EPA wishes to note
+that although no petitions have been filed for any WAQD permits since the last review, there
+have been conversations between EPA and WAQD that have resulted in changes to both
+SOBs and permits that were actually relevant to petitions EPA has responded to elsewhere in
+16
+
+the country. EPA thanks WAQD for working through these issues to prevent them from
+appearing in future petitions within WAQD’s permit universe.
+V.
+
+EPA Relationship
+
+A.
+
+EPA title V policy that is causing problems or confusion?
+WAQD did not identify any problems with EPA’s title V policies.
+
+B.
+
+Has the state developed any tools, strategies, or best practices that have assisted in the
+inclusion of MACT subparts in title V permits?
+WAQD prepares MACT condition templates for every MACT that affects multiple sources
+within the state and updates these as needed when a template is being used for inclusion into
+a specific permit.
+
+C.
+
+Is the issue of startup-shutdown-malfunction (SSM) emissions causing problems or
+confusion in title V permit writing?
+WAQD responded that this is rarely a problem.
+
+D.
+
+Do you have any unaddressed training needs? What can EPA do to help?
+WAQD listed two possibly useful topics for training: (1) preparing enforceable permit
+language (both for NSR and title V); and (2) navigation of new NESHAP/MACT standards
+and applicability of the General Provisions to those subparts.
+
+17
+
+Attachment 1:
+WAQD Responses to EPA’s Title V Third Round State Program Review Questionnaire
+
+Attachment 2:
+WAQD Responses to EPA’s Title V Fee Audit Questionnaire
+
+Attachment 3:
+File Review Checklist
+
+Attachment 4:
+May 26, 2011 Letter from Carl Daly, Air Program Director, US EPA Region 8 to
+Steven A. Dietrich, AQD Administrator, WDEQ
+Re: EPA Information Concerning Source Determinations for Oil and Gas Sources
+
+
