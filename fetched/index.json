@@ -1,0 +1,26 @@
+{
+ "f001.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml?part=64",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml?part=64",
+  "type": "application/xml",
+  "title": "",
+  "length": 46299
+ },
+ "f002.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml?part=70&section=70.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml?part=70&section=70.2",
+  "type": "text/xml",
+  "title": "",
+  "length": 21301
+ },
+ "f003.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml?part=70&section=70.6",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml?part=70&section=70.6",
+  "type": "text/xml",
+  "title": "",
+  "length": 21366
+ }
+}
