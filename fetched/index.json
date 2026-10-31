@@ -1,0 +1,42 @@
+{
+ "f001.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&subpart=KKKKa",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&subpart=KKKKa",
+  "type": "application/xml",
+  "title": "",
+  "length": 129634
+ },
+ "f002.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.11195",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.11195",
+  "type": "text/xml",
+  "title": "",
+  "length": 1906
+ },
+ "f003.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.7491",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.7491",
+  "type": "text/xml",
+  "title": "",
+  "length": 2348
+ },
+ "f004.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.5430b",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.5430b",
+  "type": "text/xml",
+  "title": "",
+  "length": 41324
+ },
+ "f005.txt": {
+  "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=3&conditions%5Bagencies%5D%5B%5D=environmental-protection-agency&conditions%5Bcfr%5D%5Btitle%5D=40&conditions%5Bcfr%5D%5Bpart%5D=60&fields%5B%5D=cfr_references&fields%5B%5D=title&fields%5B%5D=document_number&fields%5B%5D=type&fields%5B%5D=publication_date&fields%5B%5D=html_url",
+  "status": 200,
+  "finalUrl": "https://www.federalregister.gov/api/v1/documents.json?per_page=3&conditions%5Bagencies%5D%5B%5D=environmental-protection-agency&conditions%5Bcfr%5D%5Btitle%5D=40&conditions%5Bcfr%5D%5Bpart%5D=60&fields%5B%5D=cfr_references&fields%5B%5D=title&fields%5B%5D=document_number&fields%5B%5D=type&fields%5B%5D=publication_date&fields%5B%5D=html_url",
+  "type": "application/json",
+  "title": "",
+  "length": 0
+ }
+}

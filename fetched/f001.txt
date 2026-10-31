@@ -1,0 +1,675 @@
+<?xml version="1.0"?>
+Subpart KKKKa—Standards of Performance for Stationary Combustion Turbines 
+Source: 91 FR 1985, Jan. 15, 2026, unless otherwise noted.
+Introduction 
+§ 60.4300a What is the purpose of this subpart? 
+This subpart establishes emission standards and compliance schedules for the control of emissions from stationary combustion turbines that commenced construction, modification, or reconstruction after December 13, 2024.
+Applicability 
+§ 60.4305a Does this subpart apply to my stationary combustion turbine? 
+(a) Except as provided for in § 60.4310a, you are subject to this subpart if you own or operate a stationary combustion turbine that commenced construction, modification, or reconstruction after December 13, 2024, and that has a base load rating equal to or greater than 10.7 gigajoules per hour (GJ/h) (10 million British thermal units per hour (MMBtu/h)). Any additional heat input from duct burners used with heat recovery steam generating (HRSG) units or fuel preheaters is not included in the heat input value used to determine the applicability of this subpart to a given stationary combustion turbine. However, this subpart does apply to emissions from any associated HRSG and duct burner(s) that are associated with a combustion turbine subject to this subpart.
+(b) A stationary combustion turbine subject to this subpart is not subject to subpart GG or KKKK of this part.
+(c) Duct burners are not subject to subpart D, Da, Db, or Dc of this part (as applicable) if the duct burner is used with a HRSG unit that is part of a combustion turbine that is subject to this subpart.
+(d) If you own or operate a stationary combustion turbine (including a combined cycle combustion turbine or a CHP combustion turbine) that commenced construction, modification, or reconstruction on or before December 13, 2024, you may submit a written petition to the Administrator requesting that the stationary combustion turbine comply with the applicable requirements for modified units under this subpart as an alternative to complying with subpart GG or KKKK of this part, and with subparts D, Da, Db, and Dc of this part, as applicable. If the Administrator or delegated authority approves the petitioner's request, the affected facility must comply with the requirements for modified units under this subpart unless the stationary combustion turbine is reconstructed or replaced with a new facility in the future.
+(e) If you own or operate a combined cycle combustion turbine or combined heat and power combustion turbine, and changes are made after December 13, 2024, to allow the existing combustion turbine to also operate in simple cycle mode and those changes are determined a modification for NSPS purposes, this subpart shall apply to the combustion turbine only as it operates in simple cycle mode, and not to its existing configuration in combined cycle mode.
+§ 60.4310a What stationary combustion turbines are not subject to this subpart? 
+(a) An integrated gasification combined cycle electric utility steam generating unit subject to subpart Da of this part is not subject to this subpart.
+(b) A stationary combustion turbine used in a combustion turbine test cell/stand, as defined in § 60.4420a, is not subject to this subpart.
+(c) If any solid fuel is combusted in the HRSG, the HRSG is not subject to this subpart.
+(d) Combustion turbines subject to title II of the Clean Air Act are not subject to this subpart.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43566, July 16, 2026]
+Emission Standards 
+§ 60.4315a What pollutants are regulated by this subpart? 
+The pollutants regulated by this subpart are nitrogen oxide (NO X ) and sulfur dioxide (SO 2 ).
+§ 60.4320a What NO X emissions standard must I meet? 
+(a) Except as provided for in paragraph (c) of this section, for each stationary combustion turbine you must not discharge into the atmosphere from the affected facility any gases that contain an amount of NO X that exceeds the applicable emissions standard and be in accordance with the requirements specified in paragraph (b) of this section. If you choose to use NO X CEMS, input-based emission rates and standards are determined on a 4-operating-hour rolling basis and output-based emission rates and standards are determined on a 30-operating-day rolling basis. Mass-based emission rates are determined on both a 4-operating-hour and 12-calendar-month rolling basis.
+(b) For the purpose of determining compliance with the applicable emissions standard, you must also meet the requirements specified in paragraphs (b)(1) through (4) of this section, as applicable to your affected facility.
+(1) The NO X emission standard that is applicable to your affected facility shall be determined on an operating-hour basis, unless you elect to use the alternative provided for in paragraph (b)(2) of this section. Determining the hourly NO X emission standards for your affected facility requires recording hourly data and maintaining records according to the requirements in § 60.4390a. For hours with multiple emission standards, the applicable standard for that hour is determined based on the condition, excluding periods of monitor downtime, that corresponds to the highest emissions standard. For example, if your affected facility operates at 70 percent or less of its base load rating for any portion of the hour, the emission limit(s) in table 1 to this subpart for combustion turbines operating at 70 percent or less of base load rating shall apply for that hour.
+(2) As an alternative to the requirements specified in paragraph (b)(1) of this section, you may elect to use the lowest NO X emission standard that is applicable to your affected facility, as determined using table 1 to this subpart, for the entire required compliance period.
+(3) During each operating hour when only natural gas is combusted, you must meet the NO X emission standard as determined by the applicable size category in table 1 or 2 to this subpart, as applicable, which corresponds to a stationary combustion turbine firing natural gas for that operating hour. During each operating hour when the heat input (based on the HHV of the fuels) of the combustion turbine engine is less than 50 percent natural gas ( i.e., 50 percent or greater non-natural gas), as defined in § 60.4420a, at any point during an operating hour, you must meet the NO X emission standard as determined by the applicable size category in table 1 or 2 to this subpart, as applicable, which corresponds to a stationary combustion turbine firing fuels other than natural gas for that operating hour. During each operating hour when the heat input to the combustion turbine engine is greater than 50 percent natural gas, as defined in § 60.4420a, during an entire operating hour while combusting some portion of non-natural gas fuels, you must meet the NO X emission standard as determined by prorating the applicable NO X standards, based on the applicable size category in table 1 or 2 to this subpart, as applicable, by the heat input from each fuel type.
+(4) If you have two or more combustion turbine engines share a common stack, are connected to a single electric generator, or share a steam turbine, except as provided for in paragraph (b)(4)(i) of this section, you must monitor the hourly NO X emissions at the common stack in lieu of monitoring each combustion turbine separately. If you choose to comply with the output-based emissions standard, the hourly gross or net energy output (electric, thermal, or mechanical, as applicable) must be the sum of the hourly loads for the individual affected combustion turbines, and you must express the operating time as “stack operating hours” (as defined in 40 CFR 72.2). If you attain compliance with the most stringent applicable emission standard in table 1 or 2 to this subpart, as applicable, at the common stack, each affected combustion turbine sharing the stack is in compliance.
+(i) As an alternative to the requirements in this paragraph (b)(4), you may either:
+(A) Monitor each combustion turbine separately by measuring the NO X emissions prior to mixing in the common stack; or
+(B) Apportion the NO X emissions based on the unit's heat input contribution to the total heat input associated with the common stack and the appropriate F-factors. If you chose to comply with the output-based standard, output from a common steam turbine shall be apportioned based on the heat input to each combustion turbine. You may also elect to develop, demonstrate, and provide information satisfactory to the Administrator on alternate methods to apportion the NO X emissions. The Administrator may approve such alternate methods for apportioning the NO X emissions whenever the demonstration ensures accurate estimation of emissions regulated under this part.
+(ii) [Reserved]
+(c) Stationary combustion turbines that meet at least one of the specifications described in paragraphs (c)(1) through (4) of this section are exempt from the applicable NO X emission standard in paragraphs (a) and (b) of this section.
+(1) An emergency combustion turbine, as defined in § 60.4420a;
+(2) A stationary combustion turbine that, as determined by the Administrator or delegated authority, is used for the research and development of control techniques and/or efficiency improvements relevant to stationary combustion turbine emissions; or
+(3) A stationary combustion turbine that combusts byproduct fuels for which a facility-specific NO X emissions standard has been established by the Administrator or delegated authority according to the requirements of paragraphs (c)(3)(i) and (ii) of this section is exempt from the emission limits specified in tables 1 and 2 to this subpart.
+(i) You may request a facility-specific NO X emission standard by submitting a written request to the Administrator or delegated authority explaining why your affected facility, when combusting the byproduct fuel, is unable to comply with the applicable NO X emission standard determined using table 1 or 2 to this subpart.
+(ii) If the Administrator or delegated authority approves the request, a facility-specific NO X emissions standard will be established in a manner that the Administrator or delegated authority determines to be consistent with minimizing NO X emissions.
+(4) Military combustion turbines for use in other than a garrison facility and military combustion turbines installed for use as military training facilities.
+(d) You must meet the applicable NO X emissions standard to your affected facility during all times that the affected facility is operating (including periods of startup, shutdown, and malfunction).
+§ 60.4325a What emission limit must I meet for NO X if my turbine burns both natural gas and distillate oil (or some other combination of fuels)? 
+You must meet the emission limits specified in table 1 or 2 to this subpart. If your turbine operates below 70 percent of the base load rating at any point during an operating hour, the part load standard is applicable during the entire operating hour. For non-part load operating hours, if your stationary combustion turbine's heat input is greater than or equal to 50 percent fuels other than natural gas at any point during an operating hour, your combustion turbine must meet the corresponding limit for non-natural gas. For non-part load operating hours when your total heat input is greater than 50 percent natural gas while combusting some portion of non-natural gas fuels, you must meet the corresponding emissions standard as determined by prorating the applicable NO X standards, based on the applicable size category in table 1 or 2 to this subpart, as applicable, by the heat input from each fuel type.
+§ 60.4330a What SO 2 emissions standard must I meet? 
+(a) Except as provided for in paragraphs (b) through (e) of this section, for each new, modified, or reconstructed stationary combustion turbine you must not cause to be discharged from the affected facility and into the atmosphere any gases that contain an amount of SO 2 exceeding either:
+(1) 110 nanograms per Joule (ng/J) (0.90 pounds per megawatt-hour (lb/MWh)) gross energy output; or
+(2) 26 ng SO 2 /J (0.060 lb SO 2 /MMBtu) heat input.
+(b) For each new, modified, or reconstructed stationary combustion turbine combusting 50 percent or more low-Btu gas per calendar month based on total heat input (using the HHV of the fuel), you must not cause to be discharged from the affected facility and into the atmosphere any gases that contain an amount of SO 2 exceeding either:
+(1) 650 milligrams of sulfur per standard cubic meter (mg/scm) (28 grains (gr) of sulfur per 100 standard cubic feet (scf)); or
+(2) 65 ng SO 2 /J (0.15 lb SO 2 /MMBtu) heat input.
+(c) For each new, modified, or reconstructed stationary combustion turbine located in a noncontinental area, you must not cause to be discharged from the affected facility and into the atmosphere any gases that contain an amount of SO 2 exceeding either:
+(1) 780 ng/J (6.2 lb/MWh) gross energy output; or
+(2) 180 ng SO 2 /J (0.42 lb SO 2 /MMBtu) heat input.
+(d) For each new, modified, or reconstructed stationary combustion turbine for which the Administrator determines that the affected facility does not have access to natural gas and that the removal of sulfur compounds from the fuel would cause more environmental harm than benefit, you must not cause to be discharged from the affected facility and into the atmosphere any gases that contain an amount of SO 2 exceeding either:
+(1) 780 ng/J (6.2 lb/MWh) gross energy output; or
+(2) 180 ng SO 2 /J (0.42 lb SO 2 /MMBtu) heat input.
+(e) A stationary combustion turbine subject to either subpart J or Ja of this part is not subject to the SO 2 performance standards in this subpart.
+§ 60.4331a What are the requirements for operating a stationary temporary combustion turbine? 
+(a) Notwithstanding any other provision of this subpart, owners or operators of a small- or medium-size stationary combustion turbine ( i.e., a combustion turbine with a base load rating less than or equal to 850 MMBtu/h) at a single location for up to 24 consecutive months, may elect to be a temporary combustion turbine and comply with the requirements in paragraphs (b) through (e) of this section as an alternative to the otherwise applicable emission standards and monitoring, recordkeeping, and reporting requirements of this subpart.
+(b) You must meet the NO X emissions standard for stationary temporary combustion turbines in table 1 to this subpart and the applicable SO 2 emissions standard in § 60.4330a.
+(c) Compliance with the NO X emissions standard must be demonstrated through maintaining the documentation in paragraphs (c)(1) and (2) of this section on-site:
+(1) Each stationary temporary combustion turbine in use at the location has a manufacturer's emissions guarantee at or below the full load NO X emissions standard in table 1 to this subpart; and
+(2) Each such turbine has been performance tested at least once in the prior 5 years as meeting the NO X emissions standard in table 1 to this subpart.
+(d) Compliance with the SO 2 emissions standard must be demonstrated through complying with the provisions in § 60.4372a.
+(e) The conditions in paragraphs (e)(1) through (3) of this section apply in determining whether your stationary combustion turbine qualifies as a stationary temporary combustion turbine.
+(1) The combustion turbine may only be located at the same stationary source (or group of stationary sources located within a contiguous area and under common control) for a total period of 24 consecutive months. This is the total period of residence time allowed after the turbine commences operation at the location, regardless of whether the turbine is in operation for the entire 24-consecutive-month period.
+(2) Any temporary combustion turbine that replaces a temporary combustion turbine at a location and performs the same or similar function will be included in calculating the consecutive time period.
+(3) The relocation of a stationary temporary combustion turbine within a single stationary source (or group of stationary sources located within a contiguous area and under common control) while performing the same or similar function ( i.e., serving the same electric, mechanical, or thermal load) does not restart the 24-calendar month residence time period.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43566, July 16, 2026]
+General Compliance Requirements 
+§ 60.4333a What are my general requirements for complying with this subpart? 
+(a) You must operate and maintain your stationary combustion turbine, air pollution control equipment, and monitoring equipment in a manner consistent with good air pollution control practices for minimizing emissions at all times, including during startup, shutdown, and malfunction.
+(b) If you own or operate a stationary combustion turbine subject to a NO X emissions standard in § 60.4320a, you must conduct an initial performance test according to § 60.8 using the applicable methods in § 60.4400a or § 60.4405a. Thereafter, unless you perform continuous monitoring consistent with § 60.4335a, § 60.4340a, or § 60.4345a, you must conduct subsequent performance tests according to the applicable requirements in paragraphs (b)(1) through (6) of this section.
+(1) Except as provided for in paragraphs (b)(2) through (5) of this section, you must conduct subsequent performance tests within 14 calendar months of the date that the previous performance test was conducted.
+(2) If the NO X emission result from the most recent performance test is less than or equal to 75 percent of the NO X emissions standard for the stationary combustion turbine, you may reduce the frequency of subsequent performance tests to 26 calendar months following the date the previous performance test was conducted. If the results of any subsequent performance test exceed 75 percent of the NO X emissions standard for the stationary combustion turbine, you must resume 14-calendar-month performance testing.
+(3) An affected facility that has not operated for the 60 calendar days prior to the due date of a performance test is not required to perform the subsequent performance test until 45 calendar days or 10 operating days, whichever is longer, after the next operating day. The Administrator or delegated authority must be notified of recommencement of operation consistent with § 60.4375a(d).
+(4) If you own or operate an affected facility that has operated 168 operating hours or less, either in total or using a particular fuel, since the date on which the previous performance test was conducted, you may request that the otherwise required performance test be postponed until the affected facility has operated more than 168 operating hours, either in total or using a particular fuel, since the date on which the previous performance test was conducted. A request for an extension under this paragraph (b)(4) must be addressed to the relevant air division or office director of the appropriate Regional Office of the U.S. EPA as identified in § 60.4(a) for his or her approval at least 30 calendar days prior to the date on which the performance test is required to be conducted. If a postponement is approved, a performance test must be conducted within 45 calendar days after the day that the facility reaches 168 hours of operation since the date on which the previous performance test was conducted. When the facility has operated more than 168 operating hours since the date on which the previous performance test was conducted, the Administrator or delegated authority must be notified consistent with § 60.4375a(e).
+(5) For a facility at which a group consisting of no more than five similar stationary combustion turbines ( i.e., same manufacturer and model number) is operated, you may request the use of a custom testing schedule by submitting a written request to the Administrator or delegated authority. The minimum requirements of the custom schedule include the conditions specified in paragraphs (b)(5)(i) through (v) of this section.
+(i) Emissions from the most recent performance test for each individual affected facility are 75 percent or less of the applicable standard;
+(ii) Each stationary combustion turbine uses the same emissions control technology;
+(iii) Each stationary combustion turbine is operated in a similar manner;
+(iv) Each stationary combustion turbine and its emissions control equipment are maintained according to the manufacturer's recommended maintenance procedures; and
+(v) A performance test is conducted on each affected facility at least once every 5 calendar years.
+(6) A stationary combustion turbine subject to a NO X emissions standard in § 60.4320a that exchanges the combustion turbine engine for an overhauled combustion turbine engine as part of an exchange program, must conduct an initial performance test according to § 60.8 using the applicable methods in § 60.4400a or § 60.4405a. (as applicable).
+(c) Except as provided for in paragraph (c)(1) or (2) of this section, for each stationary combustion turbine subject to a NO X emissions standard in § 60.4320a, you must demonstrate continuous compliance using a continuous emissions monitoring system (CEMS) for measuring NO X emissions according to the provisions in § 60.4345a. If your stationary combustion turbine is equipped with a NO X CEMS, those measurements must be used to determine excess emissions.
+(1) If your stationary combustion turbine uses water or steam injection but not post-combustion controls to meet the applicable NO X emissions standard in § 60.4320a, you may elect to demonstrate continuous compliance using the pounds per million British thermal units (lb/MMBtu) or parts per million (ppm) input-based standard according to the provisions in § 60.4335a.
+(2) If your stationary combustion turbine does not use water injection, steam injection, or post-combustion controls to meet the applicable NO X emissions standard in § 60.4320a, you may elect to demonstrate continuous compliance with an input-based standard according to the provisions in § 60.4340a.
+(d) An owner or operator of a stationary combustion turbine subject to an SO 2 emissions standard in § 60.4330a must demonstrate compliance using one of the methods specified in paragraphs (d)(1) through (4) of this section.
+(1) Conduct an initial performance test according to § 60.8 and use the applicable methods in § 60.4415a. Thereafter, you must conduct subsequent performance tests within 12 calendar months following the date the previous performance test was conducted. An affected facility that has not operated for the 60 calendar days prior to the due date of a performance test is not required to perform the subsequent performance test until 45 calendar days after the next operating day;
+(2) Conduct an initial performance test according to § 60.8 and use the applicable methods in § 60.4415a. Thereafter, conduct subsequent fuel sulfur analyses using the applicable methods specified in § 60.4360a and at the frequency specified in § 60.4370a;
+(3) Conduct an initial performance test according to § 60.8 and use the applicable methods in § 60.4415a. Thereafter, maintain records (such as a current, valid purchase contract, tariff sheet, or transportation contract) documenting that total sulfur content for the initial and subsequent fuel combusted in your stationary combustion turbine at all times does not exceed applicable conditions specified in § 60.4370a or § 60.4372a; or
+(4) Conduct an initial performance test according to § 60.8 using the applicable methods in § 60.4415a. Thereafter, continue to monitor SO 2 emissions using a CEMS according to the requirements specified in § 60.4374a.
+(e) If you elect to comply with an input-based standard (lb/MMBtu or ppm) and your affected facility includes use of one or more heat recovery steam generating units, then you must determine compliance with the applicable NO X and SO 2 emission standards according to the procedures specified in paragraph (e)(1) or (2) of this section as applicable to the heat recovery steam generating unit configuration used for your affected facility.
+(1) For a configuration where a single combustion turbine engine is exhausted through the heat recovery steam generating unit, you must measure both the emissions at the exhaust stack for the heat recovery steam generating unit and the fuel flow to the combustion turbine engine and any associated duct burners.
+(2) For a configuration where two or more combustion turbine engines are exhausted through a single heat recovery steam generating unit, you must measure both the total emissions at the exhaust stack for the heat recovery steam generating unit and the total fuel flow to each combustion turbine engine and any associated duct burners. The applicable emissions standard for the affected facility is equal to the prorated (by heat input) emissions standards of each of the individual combustion turbine engines that are exhausted through the single heat recovery steam generating unit.
+(f) If you elect to comply with an output-based standard (lb/MWh) and your affected facility includes use of one or more heat recovery steam generating units, then you must determine compliance with the applicable NO X and SO 2 emission standards according to the procedures in paragraph (f)(1), (2), or (3) of this section as applicable to the heat recovery steam generating unit configuration used for your affected facility.
+(1) For a configuration where a single combustion turbine engine is exhausted through the heat recovery steam generating unit, you must measure both the emissions at the exhaust stack for the heat recovery steam generating unit and the total electrical, mechanical energy, and useful thermal output of the stationary combustion turbine (as applicable).
+(2) For a configuration where two or more combustion turbine engines are exhausted through a single heat recovery steam generating unit, you must measure both the total emissions at the exhaust stack for the heat recovery steam generating unit, and the total electrical, mechanical energy, and useful thermal output of the heat recovery steam generating unit and each combustion turbine engine (as applicable). The applicable emissions standard for the affected facility is equal to the most stringent emissions standard for any individual combustion turbine engines.
+(3) For a configuration where your combustion turbine engines are exhausted through two or more heat recovery steam generating units which serve a common steam turbine or steam header, you must measure both the emissions at the exhaust stack for each heat recovery steam generating unit and the total electrical or mechanical energy output of each combustion turbine engine (as applicable). To determine the net or gross energy output of the steam produced by the heat recovery steam generating unit, you must develop a custom method and provide information, satisfactory to the Administrator or delegated authority, apportioning the net or gross energy output of the steam produced by the heat recovery steam generating units to each of the affected stationary combustion turbines.
+(g) If you elect to comply with the mass-based standard, you must demonstrate continuous compliance using either a CEMS for measuring NO X emissions according to the provisions in § 60.4345a or using the methodology in appendix E to part 75 of this chapter.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43566, July 16, 2026]
+Monitoring 
+§ 60.4335a How do I demonstrate compliance with my NO X emissions standard without using a NO X CEMS if I use water or steam injection? 
+If you qualify and elect to demonstrate continuous compliance according to the provisions of § 60.4333a(c)(1), you must install, calibrate, maintain, and operate a continuous monitoring system to monitor and record the fuel consumption and the water or steam to fuel ratio fired in the combustion turbine engine consistent with the requirements in § 60.4342a. Water or steam only needs to be injected when a fuel is being combusted that requires water or steam injection for compliance with the applicable NO X emissions standard.
+§ 60.4340a How do I demonstrate compliance with my NO X emissions standard without using a NO X CEMS if I do not use water or steam injection? 
+(a) If you qualify and elect to demonstrate continuous compliance according to the provisions of § 60.4333a(c)(2), you must demonstrate compliance with the NO X emissions standard using one of the methods specified in paragraphs (a)(1) through (3) of this section.
+(1) Conduct performance tests according to requirements in § 60.4400a;
+(2) Monitor the NO X emissions rate using the methodology in appendix E to part 75 of this chapter, or the low mass emissions methodology in § 75.19 of this chapter; or
+(3) Install, calibrate, maintain, and operate an operating parameter continuous monitoring system according to the requirements specified in paragraph (b) of this section and consistent with the requirements specified in § 60.4342a.
+(b) If you opt to demonstrate compliance according to the procedures described in paragraph (a)(3) of this section, continuous operating parameter monitoring must be performed using the methods specified in paragraphs (b)(1) through (4) of this section as applicable to the stationary combustion turbine.
+(1) Selection of the operating parameters used to comply with this paragraph (b) must be identified in the performance test report. The selection of operating parameters is subject to the review and approval of the Administrator or delegated authority.
+(2) For a lean premix stationary combustion turbine, you must continuously monitor the appropriate parameters to determine whether the unit is operating in low-NO X mode during periods when low-NO X operation is required to comply with the applicable emission NO X standard.
+(3) For a stationary combustion turbine other than a lean premix stationary combustion turbine, you must define parameters indicative of the unit's NO X formation characteristics and monitor these parameters continuously.
+(4) You must perform the parametric monitoring described in section 2.3 in appendix E to part 75 of this chapter or in § 75.19(c)(1)(iv)(H) of this chapter.
+§ 60.4342a How do I monitor NO X control operating parameters? 
+(a) If you monitor steam or water to fuel ratio according to § 60.4335a or other parameters according to § 60.4340a, the applicable parameters must be continuously monitored and recorded during the performance test, to establish acceptable values and ranges. You may supplement the performance test data with engineering analyses, design specifications, manufacturer's recommendations, and other relevant information to define the acceptable parametric ranges more precisely. You must develop and keep on-site a parameter monitoring plan which explains the procedures used to document proper operation of the NO X emission controls. The plan must include the information specified in paragraphs (a)(1) through (6) of this section:
+(1) Identification of the parameters to be monitored and show there is a significant relationship to emissions and proper operation of the NO X emission controls;
+(2) Selected parameter ranges (or designated conditions) indicative of proper operation of the stationary combustion turbine NO X emission controls, or describe the process by which such range (or designated condition) will be established;
+(3) Explanation of the process you will use to make certain that you obtain data that are representative of the emissions or parameters being monitored (such as detector location, installation specification if applicable);
+(4) Description of quality assurance and control practices used to ensure the continuing validity of the data;
+(5) Description of the frequency of monitoring and the data collection procedures which you will use ( e.g., you are using a computerized data acquisition over a number of discrete data points with the average (or maximum value) being used for purposes of determining whether an exceedance has occurred); and
+(6) Justification for the proposed elements of the monitoring. If a proposed performance specification differs from manufacturer recommendation, you must explain the reasons for the differences. You must submit the data supporting the justification, but you may refer to generally available sources of information used to support the justification. You may rely on engineering assessments and other data, provided you demonstrate factors which assure compliance or explain why performance testing is unnecessary to establish indicator ranges.
+(b) The water or steam to fuel ratio and parameter continuous monitoring system ranges must be confirmed or reestablished at least once every 60 calendar months following the previous calibration and each time the combustion turbine engine is replaced with an overhauled turbine engine as part of an exchange program. An affected facility that has not operated for 60 calendar days prior to the due date of a recalibration or has had the combustion turbine replaced with an overhauled turbine engine as part of an exchange program is not required to perform the subsequent recalibration until 45 calendar days after the next operating day.
+§ 60.4345a How do I demonstrate compliance with my NO X emissions standard using a NO X CEMS? 
+(a) Each CEMS measuring NO X emissions used to meet the requirements of this subpart, must meet the requirements in paragraphs (a)(1) through (6) of this section.
+(1) You must install, certify, maintain, and operate a NO X monitor to determine the hourly average NO X emissions in the units of the standard with which you are complying.
+(2) If you elect to comply with an input-based or mass-based emissions standard, you must install, calibrate, maintain, and operate either a fuel flow meter (or flow meters) or an O 2 or CO 2 CEMS and a stack flow monitor to continuously measure the heat input to the affected facility.
+(3) If you elect to comply with an output-based emissions standard, you must also install, calibrate, maintain, and operate both a watt meter (or meters) to continuously measure the gross electrical output from the affected facility and either a fuel flow meter (or flow meters) or an O 2 or CO 2 CEMS and a stack flow monitor. If you have a CHP combustion turbine and elect to comply with an output-based emissions standard, you must also install, calibrate, maintain, and operate meters to continuously determine the total useful recovered thermal energy. For steam this includes flow rate, temperature, and pressure. If you have a direct mechanical drive application and elect to comply with the output-based emissions standard you must submit a plan to the Administrator or delegated authority for approval of how energy output will be determined.
+(4) If you elect to comply with the part-load NO X emissions standard, you must install, calibrate, maintain, and operate either a fuel flow meter (or flow meters) or an O 2 or CO 2 CEMS and a stack flow monitor to continuously measure the heat input to the affected facility.
+(5) If you elect to comply with the temperature dependent NO X emissions standard, you must install, calibrate, maintain, and operate a thermometer to continuously monitor the ambient temperature.
+(6) If you combust natural gas with fuels other than natural gas and elect to comply with the fuels other than natural gas NO X emissions standard, you must install, calibrate, maintain, and operate a device to continuously monitor when a fuel other than natural gas fuel is combusted in the combustion turbine engine.
+(b) Each NO X CEMS must be installed and certified according to Performance Specification 2 (PS 2) in appendix B to this part. The span value must be 125 percent of the highest applicable standard or highest anticipated hourly NO X emissions rate. Alternatively, span values determined according to section 2.1.2 in appendix A to part 75 may be used. For stationary combustion turbines that do not use post-combustion technology to reduce emissions of NO X to comply with the requirements of this subpart, you may use NO X and diluent CEMS that are installed and certified according to appendix A to part 75 in lieu of Procedure 1 in appendix F to this part and the requirements of § 60.13, except that the relative accuracy test audit (RATA) of the CEMS must be performed on a lb/MMBtu basis. For stationary combustion turbines that use post-combustion technology to reduce emissions of NO X to comply with the requirements of this subpart, you may use NO X and diluent CEMS that are installed and certified according to appendix A to part 75 in lieu of Procedure 1 in appendix F to this part and the requirements of § 60.13 with approval from the Administrator or delegated authority, except that the relative accuracy test audit (RATA) of the CEMS must be performed on a lb/MMBtu basis.
+(c) During each full operating hour, both the NO X monitor and the diluent monitor must complete a minimum of one cycle of operation (sampling, analyzing, and data recording) for each 15-minute quadrant of the hour. For partial operating hours, at least one data point must be obtained with each monitor for each quadrant of the hour in which the unit operates. For operating hours in which required quality assurance and maintenance activities are performed on the CEMS, a minimum of two data points (one in each of two quadrants) are required for each monitor.
+(d) Each fuel flow meter must be installed, calibrated, maintained, and operated according to the manufacturer's instructions. Alternatively, fuel flow meters that meet the installation, certification, and quality assurance requirements in appendix D to part 75 of this chapter are acceptable for use under this subpart.
+(e) Each watt meter, steam flow meter, and each pressure or temperature measurement device must be installed, calibrated, maintained, and operated according to manufacturer's instructions.
+(f) You must develop, submit to the Administrator or delegated authority for approval, maintain, and adhere to an on-site quality assurance (QA) plan for all of the continuous monitoring equipment you use to comply with this subpart. At a minimum, such a QA plan must address the requirements of § 60.13(d), (e), and (h). For the CEMS and fuel flow meters, the owner or operator of a stationary combustion turbine that does not use post-combustion technology to reduce emissions of NO X to comply with the requirements of this subpart may, with approval of the Administrator or delegated authority, satisfy the requirements of this paragraph (f) by implementing the QA program and plan described in section 1 in appendix B to part 75 of this chapter in lieu of the requirements in § 60.13(d)(1).
+(g) At a minimum, non-out-of-control CEMS hourly averages shall be obtained for 90 percent of all operating hours on a 30-operating-day rolling average basis.
+§ 60.4350a How do I use the NO X CEMS data to determine excess emissions? 
+(a) If you demonstrate continuous compliance using a CEMS for measuring NO X emissions, excess emissions are defined as the applicable compliance period for the stationary combustion turbine (either 4-operating-hours, 30-operating-days, or 12-calendar-month), during which the average NO X emissions from your affected facility measured by the CEMS is greater than the applicable maximum allowable NO X emissions standard specified in § 60.4320a as determined using the procedures specified in this section that apply to your stationary combustion turbine.
+(b) The NO X CEMS data for each operating hour as measured according to the requirements in § 60.4345a must be used to determine the hourly average NO X emissions. The hourly average for a given operating hour is the average of all data points for the operating hour. However, for any periods during which the NO X , diluent, flow, watt, steam pressure, or steam temperature monitors (as applicable) are out-of-control, the data points are not used in determining the hourly average NO X emissions. All data points that are not collected during out-of-control periods must be used to determine the hourly average NO X emissions.
+(c) For each operating hour in which an hourly average is obtained, the data acquisition and handling system must calculate and record the hourly average NO X emissions in units of lb/MMBtu or lbs, as applicable, using the appropriate equation from EPA Method 19 in appendix A-7 to this part. For any hour in which the hourly average O 2 concentration exceeds 19.0 percent O 2 (or the hourly average CO 2 concentration is less than 1.0 percent CO 2 ), a diluent cap value of 19.0 percent O 2 or 1.0 percent CO 2 (as applicable) may be used in the emission calculations.
+(d) Data used to meet the requirements of this subpart shall not include substitute data values derived from the missing data procedures of part 75 of this chapter, nor shall the data be bias adjusted according to the procedures of part 75 of this chapter. For units complying with the 12-calendar-month mass-based standard, emissions for hours of missing data shall be estimated by using the average emissions rate of non-out-of-control hours within ±10 percent of the hourly load value of missing data within the 12-calendar-month period. If non-out-of-control data is not available, the maximum hourly emissions rate during the 12-calendar-month period shall be used.
+(e) All required fuel flow rate, steam flow rate, temperature, pressure, and megawatt data must be reduced to hourly averages. However, for any periods during which the flow, watt, steam pressure, or steam temperature monitors (as applicable) are out-of-control, the data points are not used in determining the appropriate hourly average value.
+(f) Calculate the hourly average NO X emissions rate, in units of the emissions standard under § 60.4320a, using lb/MMBtu or ppm for units complying with the input-based standard, using lbs for units complying with the mass-based standard, or lb/MWh or kg/MWh for units complying with the output-based standard:
+(1) The gross or net energy output is calculated as the sum of the total electrical and mechanical energy generated by the combustion turbine engine; the additional electrical or mechanical energy (if any) generated by the steam turbine following the heat recovery steam generating unit; the total useful thermal energy output that is not used to generate additional electricity or mechanical output, expressed in equivalent MWh, minus the auxiliary load as calculated using equations 1 and 2 to this paragraph (f)(1):
+Equation 1 to Paragraph (f)(1)
+Where:
+P = Gross or net energy output of the stationary combustion turbine system in MWh;
+(Pe) t = Electrical or mechanical energy output of the combustion turbine engine in MWh;
+(Pe) c = Electrical or mechanical energy output (if any) of the steam turbine in MWh;
+Pe A = Electric energy used for any auxiliary loads in MWh (only applicable to owners/operators electing to demonstrate compliance on a net output basis);
+P s = Useful thermal energy of the steam, measured relative to ISO conditions, not used to generate additional electric or mechanical output, in MWh;
+P o = Other useful heat recovery, measured relative to ISO conditions, not used for steam generation or performance enhancement of the stationary combustion turbine; and
+T = Electric Transmission and Distribution Factor. Equal to 0.95 for CHP combustion turbine where at least 20.0 percent of the total gross useful energy output consists of electric or direct mechanical output and 20.0 percent of the total gross useful energy output consists of useful thermal output on a 12-calendar-month basis. Equal to 1.0 for all other combustion turbines. 
+Equation 2 to Paragraph (f)(1)
+Where:
+P s = Useful thermal energy of the steam, measured relative to ISO conditions, not used to generate additional electric or mechanical output, in MWh;
+Q m = Measured steam flow in lb;
+H = Enthalpy of the steam at measured temperature and pressure relative to ISO conditions, in Btu/lb; and
+3.413 × 10
+6 = Conversion factor from Btu to MWh. 
+(2) For mechanical drive applications complying with the output-based standard, use equation 3 to this paragraph (f)(2):
+Equation 3 to Paragraph (f)(2)
+Where:
+E = NO X emissions rate in lb/MWh;
+(NO X ) m = NO X emissions rate in lb/h;
+BL = Manufacturer's base load rating of turbine, in MW; and
+AL = Actual load as a percentage of the base load rating. 
+(g) For each stationary combustion turbine demonstrating compliance on a heat input-based emissions standard, excess NO X emissions are determined on a 4-operating-hour averaging period basis using the NO X CEMS data and procedures specified in paragraphs (g)(1) and (2) of this section as applicable to the NO X emissions standard in table 1 to this subpart.
+(1) For each 4-operating-hour period, compute the 4-operating-hour rolling average NO X emissions as the heat input weighted average of the hourly average of NO X emissions for a given operating hour and the 3 operating hours preceding that operating hour using the applicable equation in paragraph (g)(2) of this section. Calculate a 4-operating-hour rolling average NO X emissions rate for any 4-operating-hour period when you have valid CEMS data for at least 3 of those hours ( e.g., a valid 4-operating-hour rolling average NO X emissions rate cannot be calculated if 1 or more continuous monitors was out-of-control for the entire hour for more than 1 hour during the 4-operating-hour period).
+(2) If you elect to comply with the applicable heat input-based emissions rate standard, calculate both the 4-operating-hour rolling average NO X emissions rate and the applicable 4-operating-hour rolling average NO X emissions standard, calculated using hourly values in table 1 to this subpart, using equation 4 to this paragraph (g)(2).
+Equation 4 to Paragraph (g)(2)
+Where:
+E = 4-operating-hour rolling average NO X emissions (lb/MMBtu or ng/J);
+E i = Hourly average NO X emissions rate or emissions standard for operating hour “i” (lb/MMBtu or ng/J); and
+Q i = Total heat input to stationary combustion turbine for operating hour “i” (MMBtu or J as appropriate). 
+(h)(1) For each combustion turbine demonstrating compliance on an output-based standard, you must determine excess emissions on a 30-operating-day rolling average basis. The measured emissions rate is the NO X emissions measured by the CEMS for a given operating day and the 29 operating days preceding that day. Once each day, calculate a new 30-operating-day average measured emissions rate using all hourly average values based on non-out-of-control NO X emission data for all operating hours during the previous 30-operating-day operating period. Report any 30-operating-day periods for which you have less than 90 percent data availability as monitor downtime. If you elect to comply with the applicable output-based emissions rate standard, calculate the measured emissions rate using equation 5 to this paragraph (h)(1) and calculate the applicable emissions standard using equation 6 to this paragraph (h)(1). If you elect to comply with the applicable output-based emissions rate standard and determine the heat input on an hourly basis, calculate the 30-operating-day rolling average NO X emissions rate using equation 5, and determine the applicable 30-operating-day rolling average NO X emissions standard, calculated using values in table 1 to this subpart, using equation 6. Hours are not subcategorized by load for the purposes of determining the applicable output-based standard. The emissions standard for all hours, regardless of load, is the otherwise applicable full load emissions standard.
+Equation 5 to Paragraph (h)(1)
+Where:
+E = 30-operating-day average NO X measured emissions rate combustion turbines (lb/MWh or ng/J);
+E i = Hourly average NO X emissions rate or emissions standard for non-out-of-control operating hour “i” (lb/MMBtu or ng/J);
+Q i = Total heat input to stationary combustion turbine for non-out-of-control operating hour “i” (MMBtu or J as appropriate);
+P i = Total gross or net energy output from stationary combustion turbine for non-out-of-control operating hour “i” (MWh or J); and
+n = Total number of operating non-out-of-control hours in the 30-operating-day period. 
+Equation 6 to Paragraph (h)(1)
+E = 30-operating-day rolling NO X emissions standard (lb/MWh or kg/MWh);
+E NG = 30-operating-day emissions standard for natural gas-fired combustion turbines (lb/MWh or kg/MWh);
+E non-NG = 30-operating-day emissions standard for non-natural gas-fired combustion turbines (lb/MWh or kg/MWh);
+H NG = Hours of operation combusting natural gas during the 30-operating-day period;
+H non-NG = Hours of operation combusting non-natural gas fuels during the 30-operating-day period; and
+H T = Total hours of operation during the 30-operating-day period. 
+(2) If you elect to comply with the applicable output-based emissions rate standard and elect to not determine the heat input on an hourly basis, the applicable 30-operating-day emissions rolling NO X standard is the most stringent standard applicable to the combustion turbine. The 30-operating-day rolling NO X emissions rate is determined as the sum of the hourly emissions divided by the sum of the gross or net output over the 30-operating-day period.
+(i) For each combustion turbine demonstrating compliance on a mass-based standard, you must determine excess NO X emissions on both a rolling 4-operating-hour and rolling 12-calendar-month basis using the NO X CEMS data and procedures specified in paragraphs (i)(1) through (4) of this section as applicable to the NO X emissions standard in table 2 to this subpart. In addition, during system emergencies each combustion turbine must determine excess NO X emissions using the procedures specified in paragraph (i)(5) of this section.
+(1) For each 4-operating-hour period, compute the 4-operating-hour rolling NO X emissions as the sum of the hourly NO X emissions for a given operating hour and the 3 operating hours preceding that operating hour. Calculate a 4-operating-hour NO X emissions rate for any 4-operating-hour period when you have valid CEMS data for at least 3 of those hours ( e.g., a valid 4-operating-hour rolling NO X emissions rate cannot be calculated if 1 or more continuous monitors was out-of-control for the entire hour for more than 1 hour during the 4-operating-hour period).
+(2) Calculate the applicable 4-operating-hour rolling NO X emissions standard, calculated using hourly values in table 2 to this subpart, using equation 7 to this paragraph (i)(2).
+Equation 7 to Paragraph (i)(2)
+Where:
+E = 4-operating-hour rolling NO X emissions (kg or lbs); and
+E i = Hourly NO X emissions rate or emissions standard for operating hour “i” (kg or lbs). 
+(3) For each 12-calendar-month period, compute the 12-calendar-month rolling NO X emissions as the sum of the hourly NO X emissions for a given month and the 11 calendar months preceding the calendar month. Emissions during system emergencies are not included when calculating the 12-calendar-month emissions rate.
+(4) Calculate the applicable 12-calendar-month rolling NO X emissions standard, calculated using hourly values in table 2 to this subpart, using equation 8 to this paragraph (i)(4). Heat input during system emergencies is not included when calculating the 12-calendar-month emissions standard.
+Equation 8 to Paragraph (i)(4)
+Where:
+E = 12-calendar-month rolling NO X emissions (tonnes or tons);
+E NG = 12-calendar-month emissions standard for natural gas-fired combustion turbines (tonnes or tons);
+E non-NG = 12-calendar-month emissions standard for non-natural gas-fired combustion turbines (tonnes or tons);
+H NG = Hours of operation combusting natural gas during the 12-calendar-month period;
+H non-NG = Hours of operation combusting non-natural gas fuels during the 12-calendar-month period; and
+H T = Total hours of operation during the 12-calendar-month period. 
+(5) During system emergencies during which the owner or operator elects to not include emissions or heat input in the 12-calendar month calculations, the applicable average natural gas-fired emissions standard is 0.83 lb NO X /MW-rated output (1.8 lb NO X /MW-rated output when firing non-natural gas) or the current emissions rate necessary to comply with the 12-calendar month natural gas-fired emissions standard of 0.48 tons NO X /MW-rated output (0.81 tons NO X /MW-rated output when firing non-natural gas) whichever is more stringent. For example, if a combustion turbine operated for 4,000 hours during the current 12-calendar month period the applicable average natural gas-fired emissions standard during the system emergency would be 0.24 lb NO X /MW-rated output and the applicable average non-natural gas-fired emissions standard during the system emergency would be 0.41 lb NO X /MW-rated output.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43566, July 16, 2026]
+§ 60.4360a How do I use fuel sulfur analysis to determine the total sulfur content of the fuel combusted in my stationary combustion turbine? 
+(a) If you elect to demonstrate compliance with a SO 2 emissions standard according to § 60.4333a(d)(2), the fuel analyses may be performed either by you, a service contractor retained by you, the fuel vendor, or any other qualified agency as determined by the Administrator or delegated authority using the sampling frequency specified in § 60.4370a.
+(b) Representative fuel analysis samples may be collected either by an automatic sampling system or manually. For automatic sampling, follow ASTM D5287-97 (Reapproved 2002) (incorporated by reference, see § 60.17) for gaseous fuels or ASTM D4177-95 (Reapproved 2000) (incorporated by reference, see § 60.17) for liquid fuels. For reference purposes when manually collecting gaseous samples, see Gas Processors Association Standard 2166-17 (incorporated by reference, see § 60.17). For reference purposes when manually collecting liquid samples, see either Gas Processors Association Standard 2174-14 or the procedures for manual pipeline sampling in section 14 of ASTM D4057-95 (Reapproved 2000) (both of which are incorporated by reference, see § 60.17).
+(c) Each collected fuel analysis sample must be analyzed for the total sulfur content of the fuel and heating value using the methods specified in paragraph (c)(1) or (2) of this section, as applicable to the fuel type.
+(1) For the sulfur content of liquid fuels, ASTM D129-00 (Reapproved 2005), or alternatively D1266-98 (Reapproved 2003), D1552-03, D2622-05, D4294-03, D5453-05, D5623-24, or D7039-24 (all of which are incorporated by reference, see § 60.17). For the heating value of liquid fuels, ASTM D240-19 or D4809-18 (both of which are incorporated by reference, see § 60.17); or
+(2) For the sulfur content of gaseous fuels, ASTM D1072-90 (Reapproved 1999), or alternatively D3246-05, D4468-85 (Reapproved 2000), D6667-04, or D5504-20 (all of which are incorporated by reference, see § 60.17). If the total sulfur content of the gaseous fuel during the most recent compliance demonstration was less than half the applicable standard, ASTM D4084-05, D4810-88 (Reapproved 1999), D5504-20, or D6228-98 (Reapproved 2003), or Gas Processors Association Standard 2140-17 or 2377-86 (all of which are incorporated by reference, see § 60.17), which measure the major sulfur compounds, may be used. For the heating value of gaseous fuels, ASTM D1826-94 (Reapproved 2003), or alternatively D3588-98 (Reapproved 2003), D4891-89 (Reapproved 2006), or Gas Processors Association Standard 2172-09 (all of which are incorporated by reference, see § 60.17).
+§ 60.4370a How frequently must I determine the fuel sulfur content? 
+(a) If you are complying with requirements in § 60.4360a, the total sulfur content of all fuels combusted in each stationary combustion turbine subject to an SO 2 emissions standard in § 60.4330a must be determined according to the schedule specified in paragraph (a)(1) or (2) of this section, as applicable to the fuel type, unless you determine a custom schedule for the stationary combustion turbine according to paragraph (b) of this section.
+(1) Use one of the total sulfur sampling options and the associated sampling frequency described in sections 2.2.3, 2.2.4.1, 2.2.4.2, and 2.2.4.3 in appendix D to part 75 of this chapter ( i.e., flow proportional sampling, daily sampling, sampling from the unit's storage tank after each addition of fuel to the tank or sampling each delivery prior to combining it with liquid fuel already in the intended storage tank).
+(2) If the fuel is supplied without intermediate bulk storage, the sulfur content value of the gaseous fuel must be determined and recorded once per operating day.
+(b) As an alternative to the requirements of paragraph (a) of this section, you may implement custom schedules for determination of the total sulfur content of gaseous fuels, based on the design and operation of the affected facility and the characteristics of the fuel supply using the procedures provided in either paragraph (b)(1) or (2) of this section. Either you or the fuel vendor may perform the sampling. As an alternative to using one of these procedures, you may use a custom schedule that has been substantiated with data and approved by the Administrator or delegated authority as a change in monitoring prior to being used to comply with the applicable standard in § 60.4330a.
+(1) You may determine and implement a custom sulfur sampling schedule for your stationary combustion turbine using the procedure specified in paragraphs (b)(1)(i) through (iv) of this section.
+(i) Obtain daily total sulfur content measurements for 30 consecutive operating days, using the applicable methods specified in this subpart. Based on the results of the 30 daily samples, the required frequency for subsequent monitoring of the fuel's total sulfur content must be as specified in paragraph (b)(1)(ii), (iii), or (iv) of this section, as applicable.
+(ii) If none of the 30 daily measurements of the fuel's total sulfur content exceeds half the applicable standard, subsequent sulfur content monitoring may be performed at 12-month intervals provided the fuel source or supplier does not change. If any of the samples taken at 12-month intervals has a total sulfur content greater than half but less than the applicable standard, follow the procedures in paragraph (b)(1)(iii) of this section. If any measurement exceeds the applicable standard, follow the procedures in paragraph (b)(1)(iv) of this section.
+(iii) If at least one of the 30 daily measurements of the fuel's total sulfur content is greater than half but less than the applicable standard, but none exceeds the applicable standard, then:
+(A) Collect and analyze a sample every 30 days for 3 months. If any sulfur content measurement exceeds the applicable standard, follow the procedures in paragraph (b)(1)(iv) of this section. Otherwise, follow the procedures in paragraph (b)(1)(iii)(B) of this section.
+(B) Begin monitoring at 6-month intervals for 12 months. If any sulfur content measurement exceeds the applicable standard, follow the procedures in paragraph (b)(1)(iv) of this section. Otherwise, follow the procedures in paragraph (b)(1)(iii)(C) of this section.
+(C) Begin monitoring at 12-month intervals. If any sulfur content measurement exceeds the applicable standard, follow the procedures in paragraph (b)(1)(iv) of this section. Otherwise, continue to monitor at this frequency.
+(iv) If a sulfur content measurement exceeds the applicable standard, immediately begin daily monitoring according to paragraph (b)(1)(i) of this section. Daily monitoring must continue until 30 consecutive daily samples, each having a sulfur content no greater than the applicable standard, are obtained. At that point, the applicable procedures of paragraph (b)(1)(ii) or (iii) of this section must be followed.
+(2) You may use the data collected from the 720-hour sulfur sampling demonstration described in section 2.3.6 in appendix D to part 75 of this chapter to determine and implement a sulfur sampling schedule for your stationary combustion turbine using the procedure specified in paragraphs (b)(2)(i) through (iii) of this section.
+(i) If the maximum fuel sulfur content obtained from any of the 720 hourly samples does not exceed half the applicable standard, then the minimum required sampling frequency must be one sample at 12-month intervals.
+(ii) If any sample result exceeds half the applicable standard, but none exceeds the applicable standard, follow the provisions of paragraph (b)(1)(iii) of this section.
+(iii) If the sulfur content of any of the 720 hourly samples exceeds the applicable standard, follow the provisions of paragraph (b)(1)(iv) of this section.
+§ 60.4372a How can I demonstrate compliance with my SO 2 emissions standard using records of the fuel sulfur content? 
+(a) If you elect to demonstrate compliance with a SO 2 emissions standard according to § 60.4333a(d)(3), you must maintain on-site records (such as a current, valid purchase contract, tariff sheet, or transportation contract) documenting that total sulfur content for the fuel combusted in your stationary combustion turbine at all times does not exceed the conditions specified in paragraph (b) through (e) of this section, as applicable to your stationary combustion turbine.
+(b) If your stationary combustion turbine is subject to the SO 2 emissions standard in § 60.4330a(a), then the fuel combusted must have a potential SO 2 emissions rate of 26 ng/J (0.060 lb/MMBtu) heat input or less.
+(c) If your stationary combustion turbine is subject to the SO 2 emissions standard in § 60.4330a(b), then the total sulfur content of the gaseous fuel combusted must be 650 (mg/scm) (28 gr/100 scf).
+(d) If your stationary combustion turbine is subject to the SO 2 emissions standard in § 60.4330a(c) or (d), the total sulfur content of the fuel combusted must be:
+(1) For natural gas, 140 gr/100 scf or less.
+(2) For fuel oil, 0.40 weight percent (4,000 ppmw) or less.
+(3) For other fuels, potential SO 2 emissions of 180 ng/J (0.42 lb/MMBtu) heat input or less.
+(e) Representative fuel sampling data following the procedures specified in section 2.3.1.4 or 2.3.2.4 in appendix D to part 75 of this chapter documenting that the fuel meets the part 75 requirements to be considered either pipeline natural gas or natural gas. Your stationary combustion turbine may not cause to be discharged into the atmosphere any gases that contain SO 2 in excess of:
+(1) 110 ng SO 2 /J (0.90 lb SO 2 /MWh) gross energy output or 26 ng SO 2 /J (0.060 lb SO 2 /MMBtu) heat input; or
+(2) 780 ng SO 2 /J (6.2 lb SO 2 /MWh) gross energy output or 180 ng SO 2 /J (0.42 lb SO 2 /MMBtu) heat input if your combustion turbine is in a noncontinental area.
+§ 60.4374a How do I demonstrate compliance with my SO 2 emissions standard and determine excess emissions using a SO 2 CEMS? 
+(a) If you demonstrate continuous compliance using a CEMS for measuring SO 2 emissions, excess emissions are defined as the applicable averaging period, either 4-operating-hour or 30-operating-day, during which the average SO 2 emissions from your stationary combustion turbine measured by the CEMS exceeds the applicable SO 2 emissions standard specified in § 60.4330a as determined using the procedures specified in this section that apply to your stationary combustion turbine.
+(b) You must install, calibrate, maintain, and operate a CEMS for measuring SO 2 concentrations and either O 2 or CO 2 concentrations at the outlet of your stationary combustion turbine, and record the output of the system.
+(c) The 1-hour average SO 2 emissions rate measured by a CEMS must be expressed in ng/J or lb/MMBtu heat input and must be used to calculate the average emissions rate under § 60.4330a.
+(d) You must use the procedures for installation, evaluation, and operation of the CEMS as specified in § 60.13 and paragraphs (d)(1) through (3) of this section.
+(1) Each CEMS must be operated according to the applicable procedures under Performance Specifications 1, 2, and 3 in appendix B to this part;
+(2) Quarterly accuracy determinations and daily calibration drift tests must be performed according to Procedure 1 in appendix F to this part; and
+(3) The span value of the SO 2 CEMS at the outlet from the SO 2 control device (or outlet of the stationary combustion turbine if no SO 2 control device is used) must be 125 percent of either the highest applicable standard or highest potential SO 2 emissions rate of the fuel combusted. Alternatively, SO 2 span values determined according to section 2.1.1 in appendix A to part 75 of this chapter may be used.
+(e) If you have installed and certified a SO 2 CEMS that meets the requirements of part 75 of this chapter, the Administrator or delegated authority can approve that only quality assured data from the CEMS must be used to identify excess emissions under this subpart. You must report periods where the missing data substitution procedures in subpart D of part 75 are applied as monitoring system downtime in the excess emissions and monitoring performance report required under § 60.7(c).
+(f) All required fuel flow rate, steam flow rate, temperature, pressure, and megawatt data must be reduced to hourly averages.
+(g) Calculate the hourly average SO 2 emissions rate, in units of the emissions standard under § 60.4330a, using lb/MMBtu for units complying with the input-based standard or using equation 1 to paragraph (g)(1) of this section for units complying with the output-based standard:
+(1) For simple cycle operation:
+Equation 1 to Paragraph (g)(1)
+Where:
+E = Hourly SO 2 emissions rate, in lb/MWh;
+(SO 2 ) h = Average hourly SO 2 emissions rate, in lb/MMBtu;
+Q = Hourly heat input rate to the stationary combustion turbine, in MMBtu, measured using the fuel flow meter(s), e.g., calculated using Equation D-15a in appendix D to part 75 of this chapter, an O 2 or CO 2 CEMS and a stack flow monitor, or the methodologies in appendix F to part 75 of this chapter; and
+P = Gross or net energy output of the stationary combustion turbine in MWh. 
+(2) The gross or net energy output is calculated as the sum of the total electrical and mechanical energy generated by the stationary combustion turbine; the additional electrical or mechanical energy (if any) generated by the steam turbine following the heat recovery steam generating unit; the total useful thermal energy output that is not used to generate additional electricity or mechanical output, expressed in equivalent MWh, minus the auxiliary load as calculated using equations 2 and 3 to this paragraph (g)(2); and any auxiliary load.
+Equation 2 to Paragraph (g)(2)
+Where:
+P = Gross energy output of the stationary combustion turbine system in MWh;
+(Pe) t = Electrical or mechanical energy output of the stationary combustion turbine in MWh;
+(Pe) c = Electrical or mechanical energy output (if any) of the steam turbine in MWh;
+Pe A = Electric energy used for any auxiliary loads in MWh;
+P s = Useful thermal energy of the steam, measured relative to ISO conditions, not used to generate additional electric or mechanical output, in MWh;
+P o = Other useful heat recovery, measured relative to ISO conditions, not used for steam generation or performance enhancement of the stationary combustion turbine; and
+T = Electric Transmission and Distribution Factor. Equal to 0.95 for CHP combustion turbine where at least 20.0 percent of the total gross useful energy output consists of electric or direct mechanical output and 20.0 percent of the total gross useful energy output consists of useful thermal output on a 12-calendar-month basis. Equal to 1.0 for all other combustion turbines. 
+Equation 3 to Paragraph (g)(2)
+Where:
+P s = Useful thermal energy of the steam, measured relative to ISO conditions, not used to generate additional electric or mechanical output, in MWh;
+Q m = Measured steam flow rate in lb;
+H = Enthalpy of the steam at measured temperature and pressure relative to ISO conditions, in Btu/lb; and
+3.413 × 10
+6 = Conversion factor from Btu to MWh. 
+(3) For mechanical drive applications complying with the output-based standard, use equation 4 to this paragraph (g)(3):
+Equation 4 to Paragraph (g)(3)
+Where:
+E = SO 2 emissions rate in lb/MWh;
+(SO 2 ) m = SO 2 emissions rate in lb/h;
+BL = Manufacturer's base load rating of turbine, in MW; and
+AL = Actual load as a percentage of the base load rating. 
+(h) For each stationary combustion turbine demonstrating compliance on a heat input-based emissions standard, excess SO 2 emissions are determined on a 4-operating-hour averaging period basis using the SO 2 CEMS data and procedures specified in paragraphs (i)(1) and (2) of this section and as applicable to the SO 2 emission standard.
+(1) For each 4-operating-hour period, compute the 4-operating-hour rolling average SO 2 emissions as the heat input weighted average of the hourly average of SO 2 emissions for a given operating hour and the 3 operating hours preceding that operating hour using the applicable equation in paragraph (i)(2) of this section. Calculate a 4-operating-hour rolling average SO 2 emissions rate for any 4-operating-hour period when you have valid CEMS data for at least 3 of those hours ( e.g., a valid 4-operating-hour rolling average SO 2 emissions rate cannot be calculated if 1 or more continuous monitors was out-of-control for the entire hour for more than 1 hour during the 4-operating-hour period).
+(2) If you elect to comply with the applicable heat input-based emissions rate standard, calculate both the 4-operating-hour rolling average SO 2 emissions rate and the applicable 4-operating-hour rolling average SO 2 emission standard using equation 5 to this paragraph (h)(2).
+Equation 5 to Paragraph (h)(2)
+Where:
+E = 4-operating-hour rolling average SO 2 emissions (lb/MMBtu or ng/J);
+E i = Hourly average SO 2 emissions rate or emissions standard for operating hour “i” (lb/MMBtu or ng/J); and
+Q i = Total heat input to stationary combustion turbine for operating hour “i” (MMBtu or J as appropriate). 
+(i) For each combustion turbine demonstrating compliance on an output-based standard, you must determine excess emissions on a 30-operating-day rolling average basis. The measured emissions rate is the SO 2 emissions measured by the CEMS for a given operating day and the 29 operating days preceding that day. Once each operating day, calculate a new 30-operating-day average measured emissions rate using all hourly average values based on non-out-of-control SO 2 emission data for all operating hours during the previous 30-operating-day operating period. Report any 30-operating-day periods for which you have less than 90 percent data availability as monitor downtime. Calculate both the 30-operating-day rolling average SO 2 emissions rate and the applicable 30-operating-day rolling average SO 2 emissions standard using equation 6 to this paragraph (i).
+Equation 6 to Paragraph (i)
+Where:
+E = 30-operating-day average SO 2 measured emissions rate (lb/MWh or ng/J);
+E i = Hourly average SO 2 measured emissions rate for non-out-of-control operating hour “i” (lb/MMBtu or ng/J);
+Q i = Total heat input to stationary combustion turbine for non-out-of-control operating hour “i” (MMBtu or J as appropriate);
+P i = Total gross energy output from stationary combustion turbine for non-out-of-control operating hour “i” (MWh or J); and
+n = Total number of non-out-of-control operating hours in the 30-operating-day period. 
+(j) At a minimum, non-out-of-control CEMS hourly averages shall be obtained for 90 percent of all operating hours on a 30-operating-day rolling average basis.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43567, July 16, 2026]
+Recordkeeping and Reporting 
+§ 60.4375a What reports must I submit? 
+(a) An owner or operator of a stationary combustion turbine that elects to continuously monitor parameters or emissions, or to periodically determine the fuel sulfur content under this subpart, must submit reports of excess emissions and monitor downtime, according to § 60.7(c). Excess emissions must be reported for all periods of unit operation, including startup, shutdown, and malfunction.
+(b) The notification requirements of § 60.8 apply to the initial and subsequent performance tests.
+(c) An owner or operator of an affected facility complying with § 60.4333a(b)(3) must notify the Administrator or delegated authority within 15 calendar days after the facility recommences operation.
+(d) An owner or operator of an affected facility complying with § 60.4333a(b)(4) must notify the Administrator or delegated authority within 15 calendar days after the facility has operated more than 168 operating hours since the date the previous performance test was required to be conducted.
+(e) Within 60 days after the date of completing each performance test or continuous emissions monitoring systems (CEMS) performance evaluation that includes a relative accuracy test audit (RATA), you must submit the results following the procedures specified in paragraph (g) of this section. You must submit the report in a file format generated using the EPA's Electronic Reporting Tool (ERT). Alternatively, you may submit an electronic file consistent with the extensible markup language (XML) schema listed on the EPA's ERT website ( https://www.epa.gov/electronic-reporting-air-emissions/electronic-reporting-tool-ert ) accompanied by the other information required by § 60.8(f)(2) in PDF format.
+(f) You must submit to the Administrator semiannual reports of the following recorded information. Beginning on January 15, 2027, or once the report template for this subpart has been available on the Compliance and Emissions Data Reporting Interface (CEDRI) website ( https://www.epa.gov/electronic-reporting-air-emissions/cedri ) for one year, whichever date is later, submit all subsequent reports using the appropriate electronic report template on the CEDRI website for this subpart and following the procedure specified in paragraph (g) of this section. The date report templates become available will be listed on the CEDRI website. Unless the Administrator or delegated State agency or other authority has approved a different schedule for submission of reports, the report must be submitted by the deadline specified in this subpart, regardless of the method in which the report is submitted.
+(g) If you are required to submit notifications or reports following the procedure specified in this paragraph (g), you must submit notifications or reports to the EPA via the Compliance and Emissions Data Reporting Interface (CEDRI), which can be accessed through the EPA's Central Data Exchange (CDX) ( https://cdx.epa.gov/ ). The EPA will make all the information submitted through CEDRI available to the public without further notice to you. Do not use CEDRI to submit information you claim as CBI. Although we do not expect persons to assert a claim of CBI, if you wish to assert a CBI claim for some of the information in the report or notification, you must submit a complete file in the format specified in this subpart, including information claimed to be CBI, to the EPA following the procedures in paragraphs (g)(1) and (2) of this section. Clearly mark the part or all of the information that you claim to be CBI. Information not marked as CBI may be authorized for public release without prior notice. Information marked as CBI will not be disclosed except in accordance with procedures set forth in 40 CFR part 2. All CBI claims must be asserted at the time of submission. Anything submitted using CEDRI cannot later be claimed CBI. Furthermore, under CAA section 114(c), emissions data is not entitled to confidential treatment, and the EPA is required to make emissions data available to the public. Thus, emissions data will not be protected as CBI and will be made publicly available. You must submit the same file submitted to the CBI office with the CBI omitted to the EPA via the EPA's CDX as described earlier in this paragraph (g).
+(1) The preferred method to receive CBI is for it to be transmitted electronically using email attachments, File Transfer Protocol, or other online file sharing services. Electronic submissions must be transmitted directly to the OAQPS CBI Office at the email address oaqps_cbi@epa.gov, and as described above, should include clear CBI markings. ERT files should be flagged to the attention of the Group Leader, Measurement Policy Group; all other files should be flagged to the attention of the Stationary Combustion Turbine Sector Lead. If assistance is needed with submitting large electronic files that exceed the file size limit for email attachments, and if you do not have your own file sharing service, please email oaqps_cbi@epa.gov to request a file transfer link.
+(2) If you cannot transmit the file electronically, you may send CBI information through the postal service to the following address: U.S. EPA, Attn: OAQPS Document Control Officer, Mail Drop: C404-02, 109 T.W. Alexander Drive, P.O. Box 12055, RTP, NC 27711. In addition to the OAQPS Document Control Officer, ERT files should also be sent to the attention of the Group Leader, Measurement Policy Group, and all other files should also be sent to the attention of the Stationary Combustion Turbine Sector Lead. The mailed CBI material should be double wrapped and clearly marked. Any CBI markings should not show through the outer envelope.
+(h) If you are required to electronically submit a report through CEDRI in the EPA's CDX, you may assert a claim of EPA system outage for failure to timely comply with that reporting requirement. To assert a claim of EPA system outage, you must meet the requirements outlined in paragraphs (h)(1) through (7) of this section.
+(1) You must have been or will be precluded from accessing CEDRI and submitting a required report within the time prescribed due to an outage of either the EPA's CEDRI or CDX systems.
+(2) The outage must have occurred within the period of time beginning 5 business days prior to the date that the submission is due.
+(3) The outage may be planned or unplanned.
+(4) You must submit notification to the Administrator in writing as soon as possible following the date you first knew, or through due diligence should have known, that the event may cause or has caused a delay in reporting.
+(5) You must provide to the Administrator a written description identifying:
+(i) The date(s) and time(s) when CDX or CEDRI was accessed and the system was unavailable;
+(ii) A rationale for attributing the delay in reporting beyond the regulatory deadline to EPA system outage;
+(iii) A description of measures taken or to be taken to minimize the delay in reporting; and
+(iv) The date by which you propose to report, or if you have already met the reporting requirement at the time of the notification, the date you reported.
+(6) The decision to accept the claim of EPA system outage and allow an extension to the reporting deadline is solely within the discretion of the Administrator.
+(7) In any circumstance, the report must be submitted electronically as soon as possible after the outage is resolved.
+(i) If you are required to electronically submit a report through CEDRI in the EPA's CDX, you may assert a claim of force majeure for failure to timely comply with that reporting requirement. To assert a claim of force majeure, you must meet the requirements outlined in paragraphs (i)(1) through (5) of this section.
+(1) You may submit a claim if a force majeure event is about to occur, occurs, or has occurred or there are lingering effects from such an event within the period of time beginning 5 business days prior to the date the submission is due. For the purposes of this section, a force majeure event is defined as an event that will be or has been caused by circumstances beyond the control of the affected facility, its contractors, or any entity controlled by the affected facility that prevents you from complying with the requirement to submit a report electronically within the time period prescribed. Examples of such events are acts of nature ( e.g., hurricanes, earthquakes, or floods), acts of war or terrorism, or equipment failure or safety hazard beyond the control of the affected facility ( e.g., large scale power outage).
+(2) You must submit notification to the Administrator in writing as soon as possible following the date you first knew, or through due diligence should have known, that the event may cause or has caused a delay in reporting.
+(3) You must provide to the Administrator:
+(i) A written description of the force majeure event;
+(ii) A rationale for attributing the delay in reporting beyond the regulatory deadline to the force majeure event;
+(iii) A description of measures taken or to be taken to minimize the delay in reporting; and
+(iv) The date by which you propose to report, or if you have already met the reporting requirement at the time of the notification, the date you reported.
+(4) The decision to accept the claim of force majeure and allow an extension to the reporting deadline is solely within the discretion of the Administrator.
+(5) In any circumstance, the reporting must occur as soon as possible after the force majeure event occurs.
+(j) Any records required to be maintained by this subpart that are submitted electronically via the EPA's CEDRI may be maintained in electronic format. This ability to maintain electronic copies does not affect the requirement for facilities to make records, data, and reports available upon request to a delegated air agency or the EPA as part of an on-site compliance evaluation.
+§ 60.4380a How are NO X excess emissions and monitor downtime reported? 
+(a) For a stationary combustion turbine that uses water or steam to fuel ratio monitoring and is subject to the reporting requirements under § 60.4375a(a), periods of excess emissions and monitor downtime must be reported as specified in paragraphs (a)(1) through (3) of this section.
+(1) An excess emission that must be reported is any operating hour for which the 4-operating-hour rolling average steam or water to fuel ratio, as measured by the continuous monitoring system, is less than the acceptable steam or water to fuel ratio needed to demonstrate compliance with § 60.4320a, as established during the most recent performance test. Any operating hour during which no water or steam is injected into the turbine when the specific conditions require water or steam injection for NO X control will also be considered an excess emission.
+(2) A period of monitor downtime that must be reported is any operating hour in which water or steam is injected into the turbine, but the parametric data needed to determine the steam or water to fuel ratio are unavailable or out-of-control.
+(3) Each report must include the average steam or water to fuel ratio, average fuel consumption, and the stationary combustion turbine load during each excess emission.
+(b) For reports required under § 60.4375a(a), periods of excess emissions and monitor downtime for stationary combustion turbines using a CEMS, excess emissions are reported as specified in paragraphs (b)(1) and (2) of this section.
+(1) An excess emission that must be reported is any unit operating period in which the 4-operating-hour average NO X emissions rate, 30-operating-day rolling average NO X emissions rate, 4-hour mass-based emissions rate, or the 12-calendar-month mass-based emissions rate exceeds the applicable emissions standard in § 60.4320a as determined in § 60.4350a.
+(2) A period of monitor downtime that must be reported is any operating hour in which the data for any of the following parameters that you use to calculate the emission rate, as applicable, used to determine compliance, are either missing or out-of-control: NO X concentration, CO 2 or O 2 concentration, stack flow rate, heat input rate, steam flow rate, steam temperature, steam pressure, or megawatts. You are only required to monitor parameters used for compliance purposes.
+(c) For reports required under § 60.4375a(a), periods of excess emissions and monitor downtime for stationary combustion turbines using combustion parameters or parameters that document proper operation of the NO X emission controls excess emissions and monitor downtime are reported as specified in paragraphs (c)(1) and (2) of this section.
+(1) Excess emissions that must be reported are each 4-operating-hour rolling average in which any monitored parameter (as averaged over the 4-operating-hour period) does not achieve the target value or is outside the acceptable range defined in the parameter monitoring plan for the unit.
+(2) Periods of monitor downtime that must be reported are each operating hour in which any of the required parametric data that are used to calculate the emission rate, as applicable, used to determine compliance, are either not recorded or are out-of-control.
+§ 60.4385a How are SO 2 excess emissions and monitor downtime reported? 
+(a) If you choose the option to monitor the sulfur content of the fuel, excess emissions and monitor downtime are defined as follows:
+(1) For samples obtained using daily sampling, flow proportional sampling, or sampling from the unit's storage tank, excess emissions occur each operating hour included in the period beginning on the date and hour of any sample for which the sulfur content of the fuel being fired in the stationary combustion turbine exceeds the applicable standard and ending on the date and hour that a subsequent sample is taken that demonstrates compliance with the sulfur standard.
+(2) If the option to sample each delivery of fuel oil has been selected, you must immediately switch to one of the other oil sampling options ( i.e., daily sampling, flow proportional sampling, or sampling from the unit's storage tank) if the sulfur content of a delivery exceeds 0.05 weight percent, 0.15 weight percent, or 0.40 weight percent as applicable. You must continue to use one of the other sampling options until all of the oil from the delivery has been combusted, and you must evaluate excess emissions according to paragraph (a) of this section. When all of the fuel from the delivery has been combusted, you may resume using the as-delivered sampling option.
+(3) A period of monitor downtime begins when a required sample is not taken by its due date. A period of monitor downtime also begins on the date and hour of a required sample, if invalid results are obtained. The period of monitor downtime ends on the date and hour of the next valid sample.
+(b) If you choose the option to maintain records of the fuel sulfur content, excess emissions are defined as any period during which you combust a fuel that you do not have appropriate fuel records or that fuel contains sulfur greater than the applicable standard.
+(c) For reports required under § 60.4375a(a), periods of excess emissions and monitor downtime for stationary combustion turbines using a CEMS, excess emissions are reported as specified in paragraphs (c)(1) and (2) of this section.
+(1) An excess emission that must be reported is any unit operating period in which the 4-operating-hour or 30-operating-day rolling average SO 2 emissions rate exceeds the applicable emissions standard in § 60.4330a as determined in § 60.4374a.
+(2) A period of monitor downtime that must be reported is any operating hour in which the data for any of the following parameters that you use to calculate the emission rate, as applicable, used to determine compliance, are either missing or out-of-control: SO 2 concentration, CO 2 or O 2 concentration, stack flow rate, heat input rate, steam flow rate, steam temperature, steam pressure, or megawatts. You are only required to monitor parameters used for compliance purposes.
+§ 60.4390a What records must I maintain? 
+(a) You must maintain records of your information used to demonstrate compliance with this subpart as specified in § 60.7.
+(b) An owner or operator of a stationary combustion turbine that uses the other fuels, part-load, or low temperature NO X standards in the compliance demonstration must maintain concurrent records of the hourly heat input, percent load, ambient temperature, and emissions data as applicable.
+(c) An owner or operator of a stationary combustion turbine that uses the tuning NO X standard in the compliance demonstration must identify the hours on which the maintenance was performed and a description of the maintenance.
+(d) An owner or operator of a stationary combustion turbine that demonstrates compliance using the output-based standard must maintain concurrent records of the total gross or net energy output and emissions data.
+(e) An owner or operator of a stationary combustion turbine that demonstrates compliance using the water or steam to fuel ratio or a parameter continuous monitoring system must maintain continuous records of the appropriate parameters.
+(f) An owner or operator of a stationary combustion turbine complying with the fuel-based SO 2 standard must maintain records of the results of all fuel analyses or a current, valid purchase contract, tariff sheet, or transportation contract.
+§ 60.4395a When must I submit my reports? 
+Consistent with § 60.7(c), all reports required under § 60.7(c) must be electronically submitted via CEDRI by the 30th day following the end of each 6-month period.
+Performance Tests 
+§ 60.4400a How do I conduct performance tests to demonstrate compliance with my NO X emissions standard if I do not have a NO X CEMS? 
+(a) You must conduct the performance test according to the requirements in § 60.8 and paragraphs (b) through (d) of this section.
+(b) You must use the methods in either paragraph (b)(1) or (2) of this section to measure the NO X concentration for each test run.
+(1) Measure the NO X concentration using EPA Method 7E in appendix A-4 to this part, EPA Method 20 in appendix A-7 to this part, EPA Method 320 in appendix A to part 63 of this chapter, or ASTM D6348-12 (Reapproved 2020) (incorporated by reference, see § 60.17). For units complying with the output-based standard, concurrently measure the stack gas flow rate, using EPA Methods 1 and 2 in appendix A-1 to this part, and measure and record the electrical and thermal output from the unit. Then, use equation 1 to this paragraph (b)(1) to calculate the NO X emissions rate:
+Equation 1 to Paragraph (b)(1)
+Where:
+E = NO X emissions rate, in lb/MWh;
+1.194×10 −7 = Conversion constant, in lb/dscf-ppm;
+(NO X ) c = Average NO X concentration for the run, in ppm;
+Q std = Average stack gas volumetric flow rate, in dscf/h; and
+P = Average gross or net electrical and mechanical energy output of the stationary combustion turbine, in MW (for simple cycle operation), for combined cycle operation, the sum of all electrical and mechanical output from the combustion and steam turbines, or, for CHP operation, the sum of all electrical and mechanical output from the combustion and steam turbines plus all useful recovered thermal output not used for additional electric or mechanical generation or to enhance the performance of the stationary combustion turbine, in MW, calculated according to § 60.4350a. 
+(2) Measure the NO X and diluent gas concentrations using either EPA Method 7E in appendix A-4 to this part and EPA Method 3A in appendix A-2 to this part, or EPA Method 20 in appendix A-7 to this part. In addition, when only natural gas is being combusted ASTM D6522-20 (incorporated by reference, see § 60.17) can be used instead of EPA Method 3A in appendix A-2 to this part or EPA Method 20 in appendix A-7 to this part to determine the oxygen content in the exhaust gas. Concurrently measure the heat input to the unit, using a fuel flowmeter (or flowmeters), an O 2 or CO 2 CEMS along with a stack flow monitor, or the methodologies in appendix F to part 75 of this chapter, and for units complying with the output-based standard measure the electrical, mechanical, and thermal output of the unit. Use EPA Method 19 in appendix A-7 to this part to calculate the NO X emissions rate in lb/MMBtu. Then, use equations 1 and, if necessary, 2 and 3 in § 60.4350a(f) to calculate the NO X emissions rate in lb/MWh.
+(c) You must use the methods in either paragraph (c)(1) or (2) of this section to select the sampling traverse points for NO X and (if applicable) diluent gas.
+(1) You must select the sampling traverse points for NO X and (if applicable) diluent gas according to EPA Method 20 in appendix A-7 to this part or EPA Method 1 in appendix A-1 to this part (non-particulate procedures) and sampled for equal time intervals. The sampling must be performed with a traversing single-hole probe, or, if feasible, with a stationary multi-hole probe that samples each of the points sequentially. Alternatively, a multi-hole probe designed and documented to sample equal volumes from each hole may be used to sample simultaneously at the required points.
+(2) As an alternative to paragraph (c)(1) of this section, you may select the sampling traverse points for NO X and (if applicable) diluent gas according to requirements in paragraphs (c)(2)(i) and (ii) of this section.
+(i) You perform a stratification test for NO X and diluent pursuant to the procedures specified in section 6.5.6.1(a) through (e) in appendix A to part 75 of this chapter.
+(ii) Once the stratification sampling is completed, you use the following alternative sample point selection criteria for the performance test specified in paragraphs (c)(2)(ii)(A) through (C) of this section.
+(A) If each of the individual traverse point NO X concentrations is within ±10 percent of the mean concentration for all traverse points, or the individual traverse point diluent concentrations differs by no more than ±0.5 percent CO 2 (or O 2 ) from the mean for all traverse points, then you may use three points (located either 16.7, 50.0 and 83.3 percent of the way across the stack or duct, or, for circular stacks or ducts greater than 2.4 meters (7.8 feet) in diameter, at 0.4, 1.2, and 2.0 meters from the wall). The three points must be located along the measurement line that exhibited the highest average NO X concentration during the stratification test; or
+(B) For a stationary combustion turbine subject to a NO X emissions standard greater than 15 ppm at 15 percent O 2 , you may sample at a single point, located at least 1 meter from the stack wall or at the stack centroid if each of the individual traverse point NO X concentrations is within ±5 percent of the mean concentration for all traverse points, or the individual traverse point diluent concentrations differs by no more than ±0.3 percent CO 2 (or O 2 ) from the mean for all traverse points; or
+(C) For a stationary combustion turbine subject to a NO X emissions standard less than or equal to 15 ppm at 15 percent O 2 , you may sample at a single point, located at least 1 meter from the stack wall or at the stack centroid if each of the individual traverse point NO X concentrations is within ±2.5 percent of the mean concentration for all traverse points, or the individual traverse point diluent concentrations differs by no more than ±0.15 percent CO 2 (or O 2 ) from the mean for all traverse points.
+(d) The performance test must be done at any load condition within ±30 percent of 100 percent of the base load rating. You may perform testing at the highest achievable load point, if at least 70 percent of the base load rating cannot be achieved in practice. You must conduct three separate test runs for each performance test. The minimum time per run is 20 minutes.
+(1) If the stationary combustion turbine combusts both natural gas and fuels other than natural gas as primary or backup fuels, separate performance testing is required for each fuel.
+(2) For a combined cycle or CHP combustion turbine with supplemental heat (duct burner), you must measure the total NO X emissions downstream of the duct burner. The duct burner must be in operation within ±30 percent of 100 percent of the base load rating of the duct burners or the highest achievable load if at least 70 percent of the base load rating of the duct burners cannot be achieved during the performance test.
+(3) If water or steam injection is used to control NO X with no additional post-combustion NO X control and you choose to monitor the steam or water to fuel ratio in accordance with § 60.4335a, then that monitoring system must be operated concurrently with each EPA Method 20 in appendix A-7 to this part or EPA Method 7E in appendix A-4 to this part run and must be used to determine the fuel consumption and the steam or water to fuel ratio necessary to comply with the applicable § 60.4320a NO X emissions standard.
+(4) If you elect to install a CEMS, the performance evaluation of the CEMS may either be conducted separately or (as described in § 60.4405a) as part of the initial performance test of the affected unit.
+(5) The ambient temperature must be greater than 0 °F during the performance test. The Administrator or delegated authority may approve performance testing below 0 °F if the timing of the required performance test and environmental conditions make it impractical to test at ambient conditions greater than 0 °F.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43567, July 16, 2026]
+§ 60.4405a How do I conduct a performance test if I use a NO X CEMS? 
+(a) If you use a CEMS the performance test must be performed according to the procedures specified in paragraph (b) of this section.
+(b) The initial performance test must use the procedure specified in paragraphs (b)(1) through (4) of this section.
+(1) Perform a minimum of nine RATA reference method runs, with a minimum time per run of 21 minutes, at a single load level, within ±30 percent of 100 percent of the base load rating while the source is combusting the fuel that is a normal primary fuel for that source. You may perform testing at the highest achievable load point, if at least 70 percent of the base load rating cannot be achieved in practice. The ambient temperature must be greater than 0 °F during the RATA runs. The Administrator or delegated authority may approve performance testing below 0 °F if the timing of the required performance test and environmental conditions make it impractical to test at ambient conditions greater than 0 °F.
+(2) For each RATA run, concurrently measure the heat input to the unit using a fuel flow meter (or flow meters) or the methodologies in appendix F to part 75 of this chapter, and for units complying with the output-based standard, measure the electrical and thermal output from the unit.
+(3) Use the test data both to demonstrate compliance with the applicable NO X emissions standard under § 60.4320a and to provide the required reference method data for the RATA of the CEMS described under § 60.4342a.
+(4) Compliance with the applicable emissions standard in § 60.4320a is achieved if the sum of the NO X emissions divided by the heat input (or gross or net energy output) for all the RATA runs, expressed in units of lb/MMBtu, ppm, lb/MWh, or kgs, does not exceed the emissions standard.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43567, July 16, 2026]
+§ 60.4415a How do I conduct performance tests to demonstrate compliance with my SO 2 emissions standard? 
+(a) If you are an owner or operator of an affected facility complying with the fuel-based standard, you may submit fuel records (such as a current, valid purchase contract, tariff sheet, transportation contract, or results of a fuel analysis) to satisfy the requirements of § 60.8.
+(b) If you are an owner or operator of an affected facility complying with the SO 2 emissions standard and are not using fuel records, you must conduct the performance test by measuring the SO 2 emissions in the stationary combustion turbine exhaust gases using the methods in either paragraph (b)(1) or (2) of this section.
+(1) Measure the SO 2 concentration using EPA Method 6, 6C, or 8 in appendix A-4 to this part or EPA Method 20 in appendix A-7 to this part. For units complying with the output-based standard, concurrently measure the stack gas flow rate, using EPA Methods 1 and 2 in appendix A-1 to this part, and measure and record the electrical and thermal output from the unit. Then use equation 1 to this paragraph (b)(1) to calculate the SO 2 emissions rate:
+Equation 1 to Paragraph (b)(1)
+Where:
+E = SO 2 emissions rate, in lb/MWh;
+1.664 × 10 −7 = Conversion constant, in lb/dscf-ppm;
+(SO 2 ) c = Average SO 2 concentration for the run, in ppm;
+Q std = Average stack gas volumetric flow rate, in dscf/h; and
+P = Average gross electrical and mechanical energy output of the stationary combustion turbine, in MW (for simple cycle operation), for combined cycle operation, the sum of all electrical and mechanical output from the combustion and steam turbines, or, for CHP operation, the sum of all electrical and mechanical output from the combustion and steam turbines plus all useful recovered thermal output not used for additional electric or mechanical generation or to enhance the performance of the stationary combustion turbine, in MW, calculated according to § 60.4350a(f)(2). 
+(2) Measure the SO 2 and diluent gas concentrations, using either EPA Method 6, 6C, or 8 in appendix A-4 to this part and EPA Method 3A in appendix A-2 to this part, or EPA Method 20 in appendix A-7 to this part. Concurrently measure the heat input to the unit, using a fuel flowmeter (or flowmeters), an O 2 or CO 2 CEMS along with a stack flow monitor, or the methodologies in appendix F to part 75 of this chapter, and for units complying with the output based standard measure the electrical and thermal output of the unit. Use EPA Method 19 in appendix A-7 to this part to calculate the SO 2 emissions rate in lb/MMBtu. Then, use equations 1 and, if necessary, 2, 3, and 4 in § 60.4374a to calculate the SO 2 emissions rate in lb/MWh.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43567, July 16, 2026]
+Other Requirements and Information 
+§ 60.4416a What parts of the general provisions apply to my affected EGU? 
+(a) Notwithstanding any other provision of this chapter, certain parts of the general provisions in §§ 60.1 through 60.19, listed in table 2 to this subpart, do not apply to your affected combustion turbine.
+(b) Small, medium, and low utilization large combustion turbines that are subject to this subpart and are not a “major source” or located at a “major source” (as that term is defined at 42 U.S.C. 7661(2)) are exempt from the requirements of 42 U.S.C. 7661a(a).
+§ 60.4417a Who implements and enforces this subpart? 
+(a) This subpart can be implemented and enforced by the EPA, or a delegated authority such as your State, local, or Tribal agency. If the Administrator has delegated authority to your State, local, or Tribal agency, then that agency, (as well as the EPA) has the authority to implement and enforce this subpart. You should contact your EPA Regional Office to find out if this subpart is delegated to your State, local, or Tribal agency.
+(b) In delegating implementation and enforcement authority of this subpart to a State, local, or Tribal agency, the Administrator retains the authorities listed in paragraphs (b)(1) through (6) of this section and does not transfer them to the State, local, or Tribal agency. In addition, the EPA retains oversight of this subpart and can take enforcement actions, as appropriate.
+(1) Approval of alternatives to the emissions standards.
+(2) Approval of major alternatives to test methods.
+(3) Approval of major alternatives to monitoring.
+(4) Approval of major alternatives to recordkeeping and reporting.
+(5) Performance test and data reduction waivers under § 60.8(b).
+(6) Approval of an alternative to any electronic reporting to the EPA required by this subpart.
+§ 60.4420a What definitions apply to this subpart? 
+As used in this subpart, all terms not defined in this section will have the meaning given them in the Clean Air Act and in subpart A of this part.
+Base load rating means 100 percent of the manufacturer's design heat input capacity of the combustion turbine engine at ISO conditions using the higher heating value of the fuel. The base load rating does not include any potential heat input to an HRSG.
+Biogas means gas produced by the anaerobic digestion or fermentation of organic matter including manure, sewage sludge, municipal solid waste, biodegradable waste, or any other biodegradable feedstock, under anaerobic conditions. Biogas is comprised primarily of methane and CO 2. 
+Byproduct means any liquid or gaseous substance produced at chemical manufacturing plants, petroleum refineries, pulp and paper mills, or other industrial facilities (except natural gas and fuel oil).
+Combined cycle combustion turbine means any stationary combustion turbine which recovers heat from the combustion turbine engine exhaust gases to generate steam that is used to create additional electric power output in a steam turbine.
+Combined heat and power (CHP) combustion turbine means any stationary combustion turbine which recovers heat from the combustion turbine engine exhaust gases to heat water or another medium, generate steam for useful purposes other than exclusively for additional electric generation, or directly uses the heat in the exhaust gases for a useful purpose.
+Combustion turbine engine means the air compressor, combustor, and turbine sections of a stationary combustion turbine.
+Combustion turbine test cell/stand means any apparatus used for testing uninstalled stationary or uninstalled mobile (motive) combustion turbines.
+Diffusion flame stationary combustion turbine means any stationary combustion turbine where fuel and air are injected at the combustor and are mixed only by diffusion prior to ignition.
+Distillate oil means fuel oils that comply with the specifications for fuel oil numbers 1 or 2, as defined in ASTM D396-98 (incorporated by reference, see § 60.17), diesel fuel oil numbers 1 or 2, as defined in ASTM D975-08a (incorporated by reference, see § 60.17), kerosene, as defined in ASTM D3699-08 (incorporated by reference, see § 60.17), biodiesel as defined in ASTM D6751-11b (incorporated by reference, see § 60.17), or biodiesel blends as defined in ASTM D7467-10 (incorporated by reference, see § 60.17).
+District energy system means a central plant producing hot water, steam, and/or chilled water, which then flows through a network of insulated pipes to provide hot water, space heating, and/or air conditioning for commercial, institutional, or residential buildings.
+Dry standard cubic foot (dscf) means the quantity of gas, free of uncombined water, that would occupy a volume of 1 cubic foot at 293 Kelvin (20 °C, 68 °F) and 101.325 kPa (14.69 psi, 1 atm) of pressure.
+Duct burner means a device that combusts fuel and that is placed in the exhaust duct from another source, such as a stationary combustion turbine, internal combustion engine, kiln, etc., to allow the firing of additional fuel to heat the exhaust gases.
+Emergency combustion turbine means any stationary combustion turbine which operates in an emergency situation. Examples include stationary combustion turbines used to produce power for critical networks or equipment, including power supplied to portions of a facility, when electric power from the local utility is interrupted, or stationary combustion turbines used to pump water in the case of fire ( e.g., firefighting turbine) or flood, etc. Emergency combustion turbines may be operated for maintenance checks and readiness testing to retain their status as emergency combustion turbines, provided that the tests are recommended by Federal, State, or local government, agencies, or departments, voluntary consensus standards, the manufacturer, the vendor, the regional transmission organization or equivalent balancing authority and transmission operator, or the insurance company associated with the combustion turbine. Required testing of such units should be minimized, but there is no time limit on the use of emergency combustion turbines. Emergency combustion turbines do not include combustion turbines used as peaking units at electric utilities or combustion turbines at industrial facilities that typically operate at low capacity factors.
+Excess emissions means a specified averaging period over which either:
+(1) The NO X or SO 2 emissions rate are higher than the applicable emissions standard in § 60.4320a or § 60.4330a;
+(2) The total sulfur content of the fuel being combusted in the affected facility or the SO 2 emissions exceeds the standard specified in § 60.4330a; or
+(3) The recorded value of a particular monitored parameter, including the water or steam to fuel ratio, is outside the acceptable range specified in the parameter monitoring plan for the affected unit.
+Federally enforceable means all limitations and conditions that are enforceable by the Administrator or delegated authority, including the requirements of this part and part 61 of this chapter, requirements within any applicable State Implementation Plan, and any permit requirements established under § 52.21 or §§ CFR 51.18 and 51.24 of this chapter.
+Firefighting combustion turbine means any stationary combustion turbine that is used solely to pump water for extinguishing fires.
+Fuel oil means a fluid mixture of hydrocarbons that maintains a liquid state at ISO conditions. Additionally, fuel oil must meet the definition of either distillate oil (as defined in this subpart) or liquefied petroleum (LP) gas as defined in ASTM D1835-03a (incorporated by reference, see § 60.17).
+Garrison facility means any permanent military installation.
+Gross energy output means:
+(1) For simple cycle and combined cycle combustion turbines, the gross useful work performed is the gross electrical or direct mechanical output from both the combustion turbine engine and any associated steam turbine(s).
+(2) For a CHP combustion turbine, the gross useful work performed is the gross electrical or direct mechanical output from both the combustion turbine engine and any associated steam turbine(s) plus any useful thermal output measured relative to ISO conditions that is not used to generate additional electrical or mechanical output or to enhance the performance of the unit ( i.e., steam delivered to an industrial process).
+(3) For a CHP combustion turbine where at least 20.0 percent of the total gross useful energy output consists of useful thermal output on a 12-calendar-month basis, the gross useful work performed is the gross electrical or direct mechanical output from both the combustion turbine engine and any associated steam turbine(s) divided by 0.95 plus any useful thermal output measured relative to ISO conditions that is not used to generate additional electrical or mechanical output or to enhance the performance of the unit ( i.e., steam delivered to an industrial process).
+(4) For a district energy CHP combustion turbine where at least 20.0 percent of the total gross useful energy output consists of useful thermal output on a 12-calendar-month basis, the gross useful work performed is the gross electrical or direct mechanical output from both the combustion turbine engine and any associated steam turbine(s) divided by 0.95 plus any useful thermal output measured relative to ISO conditions that is not used to generate additional electrical or mechanical output or to enhance the performance of the unit ( e.g., steam delivered to an industrial process) divided by 0.95.
+Heat recovery steam generating unit (HRSG) means a unit where the hot exhaust gases from the combustion turbine engine are routed in order to extract heat from the gases and generate useful output. Heat recovery steam generating units can be used with or without duct burners. A heat recovery steam generating unit operating independent of the combustion turbine engine may operate burners using ambient air.
+Integrated gasification combined cycle electric utility steam generating unit (IGCC) means an electric utility steam generating unit that combusts solid-derived fuels in a combined cycle combustion turbine. No solid fuel is directly combusted in the unit during operation.
+ISO conditions mean 288 Kelvin (15 °C, 59 °F), 60 percent relative humidity, and 101.325 kilopascals (14.69 psi, 1 atm) pressure.
+Large combustion turbine means a stationary combustion turbine with a base load rating greater than 850 MMBtu/h of heat input.
+Lean premix stationary combustion turbine means any stationary combustion turbine where the air and fuel are thoroughly mixed to form a lean mixture before delivery to the combustor. Mixing may occur before or in the combustion chamber. A lean premixed turbine may operate in diffusion flame mode during operating conditions such as startup and shutdown, extreme ambient temperature, or low or transient load.
+Low-Btu gas means biogas or any gas with a heating value of less than 26 megajoules per standard cubic meter (MJ/scm) (700 Btu/scf).
+Medium combustion turbine means a stationary combustion turbine with a base load rating greater than 50 MMBtu/h and less than or equal to 850 MMBtu/h of heat input.
+Natural gas means a fluid mixture of hydrocarbons, composed of at least 70 percent methane by volume, that has a gross calorific value between 35 and 41 MJ/scm (950 and 1,100 Btu/scf), and that maintains a gaseous state under ISO conditions. Unless processed to meet this definition of natural gas, natural gas does not include the following gaseous fuels: Landfill gas, digester gas, refinery gas, sour gas, blast furnace gas, coal-derived gas, producer gas, coke oven gas, or any gaseous fuel produced in a process which might result in highly variable CO 2 content or heating value.
+Net-electric output means the amount of gross generation the generator(s) produces (including, but not limited to, output from steam turbine(s), combustion turbine(s), and gas expander(s)), as measured at the generator terminals, less the electricity used to operate the plant ( i.e., auxiliary loads); such uses include fuel handling equipment, pumps, fans, pollution control equipment, other electricity needs, and transformer losses as measured at the transmission side of the step up transformer ( e.g., the point of sale).
+Net energy output means:
+(1) The net electric or mechanical output from the affected facility plus 100 percent of the useful thermal output; or
+(2) For CHP facilities, where at least 20.0 percent of the total gross or net energy output consists of useful thermal output on a 12-calendar-month rolling average basis, the net electric or mechanical output from the affected turbine divided by 0.95, plus 100 percent of the useful thermal output.
+(3) For district energy CHP facilities, where at least 20.0 percent of the total gross or net energy output consists of useful thermal output on a 12-calendar-month rolling average basis, the net electric or mechanical output from the affected turbine divided by 0.95, plus 100 percent of the useful thermal output divided by 0.95.
+Noncontinental area means the State of Hawaii, the Virgin Islands, Guam, American Samoa, the Commonwealth of Puerto Rico, the Northern Mariana Islands, or offshore turbines.
+Offshore turbine means a stationary combustion turbine located on a platform or facility in an ocean, territorial sea, the outer continental shelf, or the Great Lakes of North America and stationary combustion turbines located in a coastal management zone and elevated on a platform.
+Operating day means a 24-hour period between midnight and the following midnight during which any fuel is combusted at any time in the unit. It is not necessary for fuel to be combusted continuously for the entire 24-hour period.
+Operating hour means a clock hour during which any fuel is combusted in the affected unit. If the unit combusts fuel for the entire clock hour, the operating hour is a full operating hour. If the unit combusts fuel for only part of the clock hour, the operating hour is a partial operating hour.
+Out-of-control period means any period beginning with the hour corresponding to the completion of a daily calibration error, linearity check, or quality assurance audit that indicates that the instrument is not measuring and recording within the applicable performance specifications and ending with the hour corresponding to the completion of an additional calibration error, linearity check, or quality assurance audit following corrective action that demonstrates that the instrument is measuring and recording within the applicable performance specifications.
+Simple cycle combustion turbine means any stationary combustion turbine which does not recover heat from the combustion turbine engine exhaust gases for purposes other than enhancing the performance of the stationary combustion turbine itself.
+Small combustion turbine means a stationary combustion turbine with a base load rating less than or equal to 50 MMBtu/h of heat input.
+Solid fuel means any fuel that has a definite shape and volume, has no tendency to flow or disperse under moderate stress, and is not liquid or gaseous at ISO conditions. This includes, but is not limited to, coal, biomass, and pulverized solid fuels.
+Standard cubic foot (scf) means the quantity of gas that would occupy a volume of 1 cubic foot at 293 Kelvin (20.0 °C, 68 °F) and 101.325 kPa (14.69 psi, 1 atm) of pressure.
+Standard cubic meter (scm) means the quantity of gas that would occupy a volume of 1 cubic meter at 293 Kelvin (20.0 °C, 68 °F) and 101.325 kPa (14.69 psi, 1 atm) of pressure.
+Stationary combustion turbine means all equipment including, but not limited to, the combustion turbine engine, the fuel, air, lubrication and exhaust gas systems, control systems (except post combustion emissions control equipment), heat recovery system (including heat recovery steam generators and duct burners); steam turbine; fuel compressor and/or pump, any ancillary components and sub-components comprising any simple cycle stationary combustion turbine, any combined cycle combustion turbine, and any combined heat and power combustion turbine based system; plus any integrated equipment that provides electricity or useful thermal output to the combustion turbine engine ( e.g., onsite photovoltaics), heat recovery system, or auxiliary equipment. Stationary means that the combustion turbine is not self-propelled or intended to be propelled while performing its function. It may, however, be mounted on a vehicle for portability. Portable combustion turbines are excluded from the definition of “stationary combustion turbine,” and not regulated under this part, if the combustion turbine meets the definition of “nonroad engine” under title II of the Clean Air Act and applicable regulations and is certified to meet emissions standards and all related requirements promulgated pursuant to title II of the Clean Air Act.
+Temporary combustion turbine means a combustion turbine that is intended to and remains at a single stationary source (or group of stationary sources located within a contiguous area and under common control) for 24 consecutive months or less.
+Turbine tuning means planned maintenance or parameter performance testing of a combustion turbine engine involving adjustment of the operating configuration to maintain proper combustion dynamics or testing machine operating performance. Turbine tuning is limited to 30 hours per 12-calendar-month period.
+Useful thermal output means the thermal energy made available for use in any heating application ( e.g., steam delivered to an industrial process for a heating application, including thermal cooling applications) that is not used for electric generation or mechanical output at the affected facility to directly enhance the performance of the affected facility ( e.g., economizer output is not useful thermal output, but thermal energy used to reduce fuel moisture is considered useful thermal output) or to supply energy to a pollution control device at the affected facility ( e.g., steam provided to a carbon capture system would not be considered useful thermal output). Useful thermal output for affected facilities with no condensate return (or other thermal energy input to affected facilities) or where measuring the energy in the condensate (or other thermal energy input to the affected facilities) would not meaningfully impact the emission rate calculation is measured against the energy in the thermal output at SATP conditions ( e.g. liquid water). Affected facilities with meaningful energy in the condensate return (or other thermal energy input to the affected facility) must measure the energy in the condensate and subtract that energy relative to SATP conditions from the measured thermal output.
+Utilization means the ratio between the actual heat input to a combustion turbine engine (not including any heat input to an HRSG) during a 12-calendar-month period and the potential heat input to the combustion turbine engine had it operated at the base load rating for every hour during the 12-calendar-month period. Heat input during a system emergency as defined in this section is excluded when determining the utilization rate. Actual and potential heat input derived from non-combustion sources ( e.g., solar thermal) are not included when calculating the utilization.
+Valid data means quality-assured data generated by continuous monitoring systems that are installed, operated, and maintained according to this part or part 75 of this chapter as applicable. For CEMS maintained according to part 75, the initial certification requirements in § 75.20 and appendix A to part 75 must be met before quality-assured data are reported under this subpart; for on-going quality assurance, the daily, quarterly, and semiannual/annual test requirements in sections 2.1, 2.2, and 2.3 of appendix B to part 75 must be met and the data validation criteria in sections 2.1.5, 2.2.3, and 2.3.2 of appendix B to part 75 must be met. For fuel flow meters maintained according to part 75, the initial certification requirements in section 2.1.5 of appendix D to part 75 must be met before quality-assured data are reported under this subpart (except for qualifying commercial billing meters under section 2.1.4.2 of appendix D to part 75), and for on-going quality assurance, the provisions in section 2.1.6 of appendix D to part 75 apply (except for qualifying commercial billing meters). Any out-of-control data is not considered valid data.
+[91 FR 1985, Jan. 15, 2026, as amended at 91 FR 43567, July 16, 2026]
+Table 1 to Subpart KKKK a of Part 60—Nitrogen Oxide Emission Standards for Stationary Combustion Turbines
+Combustion turbine type
+Combustion turbine base load rated heat input
+(HHV)
+Input-based NO X 
+emission standard 1 
+Optional output-based NO X standard 2 
+New, firing natural gas with utilization rate >45 percent
+>850 MMBtu/h
+5 ppm at 15 percent O 2 or 7.9 ng/J (0.018 lb/MMBtu)
+0.054 kg/MWh-gross (0.12 lb/MWh-gross) 0.055 kg/MWh-net (0.12 lb/MWh-net).
+New, firing natural gas with utilization rate ≤45 percent and with design efficiency ≥38 percent
+>850 MMBtu/h
+25 ppm at 15 percent O 2 or 40 ng/J (0.092 lb/MMBtu)
+0.38 kg/MWh-gross (0.83 lb/MWh-gross) 0.39 kg/MWh-net (0.85 lb/MWh-net).
+New, firing natural gas with utilization rate ≤45 percent and with design efficiency <38 percent
+>850 MMBtu/h
+9 ppm at 15 percent O 2 or 14 ng/J (0.033 lb/MMBtu)
+0.17 kg/MWh-gross (0.37 lb/MWh-gross) 0.17 kg/MWh-net (0.38 lb/MWh-net).
+New, modified, or reconstructed, firing non-natural gas
+>850 MMBtu/h
+42 ppm at 15 percent O 2 or 70 ng/J (0.16 lb/MMBtu)
+0.45 kg/MWh-gross (1.0 lb/MWh-gross) 0.46 kg/MWh-net (1.0 lb/MWh-net).
+Modified or reconstructed, firing natural gas, at all utilization rates, with design efficiency ≥38 percent
+>850 MMBtu/h
+25 ppm at 15 percent O 2 or 40 ng/J (0.092 lb/MMBtu)
+0.38 kg/MWh-gross (0.83 lb/MWh-gross) 0.39 kg/MWh-net (0.85 lb/MWh-net).
+Modified or reconstructed, firing natural gas, at all utilization rates, with design efficiency <38 percent
+>850 MMBtu/h
+15 ppm at 15 percent O 2 or 24 ng/J (0.055 lb/MMBtu)
+0.28 kg/MWh-gross (0.62 lb/MWh-gross) 0.29 kg/MWh-net (0.30 lb/MWh-net).
+New, firing natural gas, at utilization rate >45 percent
+>50 MMBtu/h and ≤850 MMBtu/h
+15 ppm at 15 percent O 2 or 24 ng/J (0.055 lb/MMBtu)
+0.20 kg/MWh-gross (0.43 lb/MWh-gross) 0.20 kg/MWh-net (0.44 lb/MWh-net).
+New, firing natural gas, at utilization rate ≤45 percent
+>50 MMBtu/h and ≤850 MMBtu/h
+25 ppm at 15 percent O 2 or 40 ng/J (0.092 lb/MMBtu)
+0.54 kg/MWh-gross (1.2 lb/MWh-gross) 0.56 kg/MWh-net (1.2 lb/MWh-net).
+Modified or reconstructed, firing natural gas
+>20 MMBtu/h and ≤850 MMBtu/h
+42 ppm at 15 percent O 2 or 67 ng/J (0.15 lb/MMBtu)
+0.91 kg/MWh-gross (2.0 lb/MWh-gross) 0.92 kg/MWh-net (2.0 lb/MWh-net).
+New, firing non-natural gas
+>50 MMBtu/h and ≤850 MMBtu/h
+74 ppm at 15 percent O 2 or 120 ng/J (0.29 lb/MMBtu)
+1.6 kg/MWh-gross (3.6 lb/MWh-gross) 1.6 kg/MWh-net (3.7 lb/MWh-net).
+Modified or reconstructed, firing non-natural gas
+>20 MMBtu/h and ≤850 MMBtu/h
+96 ppm at 15 percent O 2 or 160 ng/J (0.37 lb/MMBtu)
+2.1 kg/MWh-gross (4.7 lb/MWh-gross) 2.2 kg/MWh-net (4.8 lb/MWh-net).
+New, firing natural gas
+≤50 MMBtu/h
+25 ppm at 15 percent O 2 or 40 ng/J (0.092 lb/MMBtu)
+0.64 kg/MWh-gross (1.4 lb/MWh-gross) 0.65 kg/MWh-net (1.4 lb/MWh-net).
+New, firing non-natural gas
+≤50 MMBtu/h
+96 ppm at 15 percent O 2 or 160 ng/J (0.37 lb/MMBtu)
+2.4 kg/MWh-gross (5.3 lb/MWh-gross) 2.5 kg/MWh-net (5.4 lb/MWh-net).
+Modified or reconstructed, all fuels
+≤20 MMBtu/h
+150 ppm at 15 percent O 2 or 240 ng/J (0.55 lb/MMBtu)
+3.9 kg/MWh-gross (8.7 lb/MWh-gross) 4.0 kg/MWh-net (8.9 lb/MWh-net).
+New, firing natural gas, either offshore turbines and/or turbines bypassing the heat recovery unit
+>50 MMBtu/h
+25 ppm at 15 percent O 2 or 40 ng/J (0.092 lb/MMBtu)
+N/A.
+Located north of the Arctic Circle (latitude 66.5 degrees north), operating at ambient temperatures less than 0 °F (−18 °C), modified or reconstructed offshore turbines, operated during periods of turbine tuning, byproduct-fired turbines, and/or operating at less than 70 percent of the base load rating
+≤30 MW output
+150 ppm at 15 percent O 2 or 240 ng/J (0.55 lb/MMBtu)
+N/A.
+Located north of the Arctic Circle (latitude 66.5 degrees north), operating at ambient temperatures less than 0 °F (−18 °C), modified or reconstructed offshore turbines, operated during periods of turbine tuning, byproduct-fired turbines, and/or operating at less than 70 percent of the base load rating
+> 30 MW output
+96 ppm at 15 percent O 2 or 150 ng/J (0.35 lb/MMBtu)
+N/A.
+Heat recovery units operating independent of the combustion turbine
+All sizes
+54 ppm at 15 percent O 2 or 86 ng/J (0.20 lb/MMBtu)
+N/A.
+Temporary turbines firing natural gas
+≤850 MMBtu/h
+25 ppm at 15 percent O 2 or 40 ng/J (0.092 lb/MMBtu)
+N/A.
+Temporary turbines firing non-natural gas
+≤850 MMBtu/h
+74 ppm at 15 percent O 2 or 120 ng/J (0.29 lb/MMBtu)
+N/A.
+1 Input-based standards are determined on a 4-operating-hour rolling average basis.
+2 Output-based standards are determined on a 30-operating-day average basis.
+[91 FR 43568, July 16, 2026]
+Table 2 to Subpart KKKK a of Part 60—Alternative Mass-Based NO X Emission Standards for Stationary Combustion Turbines
+Combustion turbine type
+4-Hour emissions rate
+(lb NO X /MW-rated output)
+12-Calendar-month emissions rate
+(ton NO X /MW-rated output)
+Natural Gas
+0.38 kg NO X /MW-rated output (0.83 lb NO X /MW-rated output)
+0.44 tonne NO X /MW-rated output (0.48 ton NO X /MW-rated output).
+Non-Natural Gas
+0.82 kg NO X /MW-rated output (1.8 lb NO X /MW-rated output)
+0.74 tonne NO X /MW-rated output (0.81 ton NO X /MW-rated output).
+Table 3 to Subpart KKKK a of Part 60—Applicability of Subpart A of This Part to This Subpart
+General
+provisions
+citation
+Subject of citation
+Applies to
+subpart
+KKKKa
+Explanation
+§ 60.1
+Applicability
+Yes
+§ 60.2
+Definitions
+Yes
+Additional terms defined in § 60.4420a.
+§ 60.3
+Units and Abbreviations
+Yes
+§ 60.4
+Address
+Yes
+Does not apply to information reported electronically through ECMPS. Duplicate submittals are not required.
+§ 60.5
+Determination of construction or modification
+Yes
+§ 60.6
+Review of plans
+Yes
+§ 60.7
+Notification and Recordkeeping
+Yes
+Only the requirements to submit the notifications in § 60.7(a)(1) and (3) and to keep records of malfunctions in § 60.7(b), if applicable.
+§ 60.8(a)
+Performance tests
+Yes
+§ 60.8(b)
+Performance test method alternatives
+Yes
+Administrator can approve alternate methods.
+§ 60.8(c)
+Conducting performance tests
+No
+Overridden by § 60.4320a(d).
+§ 60.8(d)-(f)
+Conducting performance tests
+Yes
+§ 60.9
+Availability of Information
+Yes
+§ 60.10
+State authority
+Yes
+§ 60.11
+Compliance with standards and maintenance requirements
+No
+§ 60.12
+Circumvention
+Yes
+§ 60.13(a)-(h), (j)
+Monitoring requirements
+Yes
+§ 60.13(i)
+Monitoring requirements
+Yes
+Administrator can approve alternative monitoring procedures or requirements.
+§ 60.14
+Modification
+Yes
+§ 60.15
+Reconstruction
+Yes
+§ 60.16
+Priority list
+No
+§ 60.17
+Incorporations by reference
+Yes
+§ 60.18
+General control device requirements
+Yes
+§ 60.19
+General notification and reporting requirements
+Yes
+Does not apply to notifications under § 75.61 of this chapter or to information reported through ECMPS.
