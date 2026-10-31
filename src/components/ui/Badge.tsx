@@ -16,11 +16,13 @@ const tones: Record<Tone, string> = {
   cyan: "bg-cyan-500/10 text-sky-800 ring-cyan-500/30",
 };
 
-export function Badge({ tone = "gray", icon, children, className }: { tone?: Tone; icon?: ReactNode; children: ReactNode; className?: string }) {
+/** `wrap` lets a long label break onto two lines on narrow screens instead of overflowing. */
+export function Badge({ tone = "gray", icon, children, className, wrap = false }: { tone?: Tone; icon?: ReactNode; children: ReactNode; className?: string; wrap?: boolean }) {
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ring-1 ring-inset whitespace-nowrap",
+        "inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ring-1 ring-inset",
+        wrap ? "whitespace-normal" : "whitespace-nowrap",
         tones[tone],
         className,
       )}
@@ -53,9 +55,9 @@ const applicabilityMap: Record<ApplicabilityStatus, { tone: Tone; label: string;
   "insufficient-info": { tone: "red", label: "Insufficient Information", icon: <CircleHelp className={i} /> },
 };
 
-export function ApplicabilityBadge({ status }: { status: ApplicabilityStatus }) {
+export function ApplicabilityBadge({ status, wrap }: { status: ApplicabilityStatus; wrap?: boolean }) {
   const m = applicabilityMap[status];
-  return <Badge tone={m.tone} icon={m.icon}>{m.label}</Badge>;
+  return <Badge tone={m.tone} icon={m.icon} wrap={wrap}>{m.label}</Badge>;
 }
 
 const complianceMap: Record<ComplianceStatus, { tone: Tone; label: string }> = {

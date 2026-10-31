@@ -260,9 +260,9 @@ export function ComplianceCalendar() {
               const isToday = valid && +date === +today;
               const dayTasks = valid ? onDay(date) : [];
               return (
-                <div key={i} className={cn("min-h-16 border-b border-line p-1 text-left sm:min-h-24 [&:not(:nth-child(7n))]:border-r", !valid && "bg-canvas/50")}>
+                <div key={i} className={cn("relative min-h-16 border-b border-line p-1 text-left sm:min-h-24 [&:not(:nth-child(7n))]:border-r", !valid && "bg-canvas/50")}>
                   {valid && (
-                    <button onClick={() => openDay(date)} aria-label={`${date.toLocaleDateString(undefined, { month: "long", day: "numeric" })}: ${dayTasks.length} task${dayTasks.length === 1 ? "" : "s"}`} className={cn("inline-flex h-6 w-6 items-center justify-center rounded-full text-xs font-semibold hover:ring-2 hover:ring-brand-200", isToday ? "bg-brand-600 text-white" : "text-slate-600")}>{d}</button>
+                    <button onClick={() => openDay(date)} aria-label={`${date.toLocaleDateString(undefined, { month: "long", day: "numeric" })}: ${dayTasks.length} task${dayTasks.length === 1 ? "" : "s"}`} className={cn("inline-flex h-6 w-6 items-center justify-center rounded-full text-xs font-semibold after:absolute after:inset-0 hover:ring-2 hover:ring-brand-200", isToday ? "bg-brand-600 text-white" : "text-slate-600")}>{d}</button>
                   )}
                   <div className="mt-0.5 space-y-0.5">
                     {dayTasks.slice(0, 3).map((t) => (

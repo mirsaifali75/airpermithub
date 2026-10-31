@@ -279,7 +279,7 @@ export function ApplicabilityScreener({ states }: { states: { slug: string; name
         </div>
         {s.demo && <p className="mt-2"><Badge tone="amber">Demo data</Badge></p>}
         <div className="mt-3 flex flex-wrap items-center gap-2">
-          {counts.map(([st, n]) => <span key={st} className="inline-flex items-center gap-1.5 text-sm"><ApplicabilityBadge status={st} /> <span className="font-semibold text-ink">{n}</span></span>)}
+          {counts.map(([st, n]) => <span key={st} className="inline-flex max-w-full items-center gap-1.5 text-sm"><ApplicabilityBadge status={st} wrap /> <span className="font-semibold text-ink">{n}</span></span>)}
         </div>
         <label className="no-print mt-3 flex items-center gap-2 text-sm text-slate-700">
           <input type="checkbox" className="h-4 w-4 accent-brand-600" checked={hideUnlikely} onChange={(e) => setHideUnlikely(e.target.checked)} />

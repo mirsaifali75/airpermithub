@@ -349,7 +349,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
         <p className="text-sm text-muted">Activity data shared by every pollutant. Factors and control efficiency are on <button type="button" className="font-semibold text-brand-600 hover:text-brand-700" onClick={() => setTab(1)}>Method & Factors</button>.</p>
         <Button type="button" variant="subtle" size="sm" onClick={fillDemo}><FlaskConical className="h-4 w-4" aria-hidden="true" /> Fill demo values</Button>
       </div>
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div>
           <label htmlFor={`${uid}-name`} className="mb-1.5 block text-sm font-semibold text-ink">Source name / ID</label>
           <input id={`${uid}-name`} className={field} value={sourceName} onChange={(e) => setSourceName(e.target.value)} placeholder="e.g., ENG-1" />
@@ -429,7 +429,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
                     </div>
                   </div>
                   {rowFields.length === 0 && <p className="text-sm text-muted">This method uses measured or engineered inputs only; no emission factor is needed.</p>}
-                  <div className="grid gap-4 sm:grid-cols-2">
+                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     {rowFields.map((f) => {
                       const options = factorsFor(knownFactors, method.slug, f.key, f.unit).filter((r) => r.pollutant === row.pollutant);
                       return (

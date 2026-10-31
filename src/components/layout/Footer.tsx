@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="bg-navy-950 text-white">
       <div className="h-1 bg-gradient-brand" aria-hidden="true" />
       <div className="container-page py-14">
-        <div className="grid gap-12 lg:grid-cols-[1.15fr_2.6fr]">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.15fr_2.6fr]">
           <div>
             <Logo tone="dark" className="h-44 p-2" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">{site.description}</p>

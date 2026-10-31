@@ -20,7 +20,7 @@ export default function CompliancePage() {
         <ComplianceCalendar />
         <DemoNotice>Example tasks are fictional and labeled Demo. They show only until you add your own, are never counted in your totals, and are never exported. Tasks you add stay in your browser.</DemoNotice>
 
-        <section className="grid gap-6 lg:grid-cols-2">
+        <section className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
             <h2 className="text-lg font-bold text-ink">Task categories</h2>
             <ul className="mt-4 flex flex-wrap gap-2">{complianceCategories.map((c) => <li key={c}><Badge tone="blue">{c}</Badge></li>)}</ul>
