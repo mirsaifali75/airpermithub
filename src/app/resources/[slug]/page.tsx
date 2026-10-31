@@ -32,7 +32,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     datePublished: g.published,
     dateModified: g.published,
     author: { "@type": "Organization", name: site.name },
-    publisher: { "@type": "Organization", name: site.name, logo: { "@type": "ImageObject", url: `${site.url}/icon.svg` } },
+    publisher: { "@type": "Organization", name: site.name, logo: { "@type": "ImageObject", url: `${site.url}/brand/airpermithub-logo.png` } },
     mainEntityOfPage: `${site.url}/resources/${g.slug}`,
   };
   return (

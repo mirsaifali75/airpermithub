@@ -18,7 +18,7 @@ export function AuthForm({ mode }: { mode: "sign-in" | "sign-up" }) {
 
   return (
     <div className="mx-auto w-full max-w-md">
-      <Logo tone="light" />
+      <Logo tone="light" className="h-28" />
       <h1 className="mt-8 text-3xl font-extrabold text-navy-900">{mode === "sign-in" ? "Welcome Back" : "Create your free account"}</h1>
       <p className="mt-1 text-sm text-muted">{mode === "sign-in" ? "Sign in to your account." : "Free accounts include regulation search, calculators, and resources."}</p>
       <p role="note" className="mt-5 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">

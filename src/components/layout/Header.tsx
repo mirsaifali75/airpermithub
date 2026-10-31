@@ -80,7 +80,7 @@ export function Header({ searchIndex }: { searchIndex: SearchDoc[] }) {
       >
         <div className="container-page flex h-16 items-center gap-4 lg:h-[4.5rem]">
           <Link href="/" aria-label="AirPermitHub home" className="shrink-0">
-            <Logo tone="dark" />
+            <Logo tone="dark" priority className="h-12 p-1 lg:h-14" />
           </Link>
 
           <nav aria-label="Primary" className="ml-2 hidden flex-1 items-center gap-0 xl:flex">

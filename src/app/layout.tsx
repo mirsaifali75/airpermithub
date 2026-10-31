@@ -29,7 +29,7 @@ export const viewport: Viewport = { themeColor: "#0B2942", width: "device-width"
 const orgJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Organization", name: site.name, url: site.url, logo: `${site.url}/icon.svg`, slogan: site.tagline },
+    { "@type": "Organization", name: site.name, url: site.url, logo: `${site.url}/brand/airpermithub-logo.png`, slogan: site.tagline },
     {
       "@type": "WebSite",
       name: site.name,
