@@ -29,7 +29,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
   const jobs = demoJobs.filter((j) => j.company === c.name);
   return (
     <>
-      <section className="relative isolate overflow-hidden bg-navy-950 pt-24 text-white sm:pt-28">
+      <section className="relative isolate overflow-hidden bg-navy-950 pt-28 text-white sm:pt-32 lg:pt-36">
         <Scene kind={sceneFor(c.kind)} className="absolute inset-0 -z-10 h-full w-full" />
         <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/90 via-navy-950/60 to-transparent" />
         <div className="container-page pb-6">

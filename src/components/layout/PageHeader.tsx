@@ -25,7 +25,7 @@ export function PageHeader({
   scene?: SceneKind;
 }) {
   return (
-    <section className="relative overflow-hidden border-b border-line bg-white pt-24 pb-8 sm:pt-28 sm:pb-10">
+    <section className="relative overflow-hidden border-b border-line bg-white pt-28 pb-8 sm:pt-32 sm:pb-10 lg:pt-36">
       <div
         aria-hidden="true"
         className="absolute inset-0 opacity-60 [background-image:linear-gradient(rgb(226_232_240/0.6)_1px,transparent_1px),linear-gradient(90deg,rgb(226_232_240/0.6)_1px,transparent_1px)] [background-size:40px_40px] [mask-image:linear-gradient(to_bottom,black,transparent_85%)]"

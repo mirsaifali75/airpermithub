@@ -37,7 +37,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
 
   return (
     <>
-      <section className="relative isolate overflow-hidden bg-navy-950 pt-24 pb-14 text-white sm:pt-28">
+      <section className="relative isolate overflow-hidden bg-navy-950 pt-28 pb-14 text-white sm:pt-32 lg:pt-36">
         <Scene kind={industryScene[ind.slug]} className="absolute inset-0 -z-10 h-full w-full" />
         <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950 via-navy-950/80 to-navy-950/10" />
         <div className="container-page">

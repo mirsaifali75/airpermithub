@@ -37,7 +37,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   };
   return (
     <>
-      <section className="relative isolate overflow-hidden bg-navy-950 pt-24 pb-12 text-white sm:pt-28">
+      <section className="relative isolate overflow-hidden bg-navy-950 pt-28 pb-12 text-white sm:pt-32 lg:pt-36">
         <Scene kind={g.scene} className="absolute inset-0 -z-10 h-full w-full opacity-80" />
         <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950 via-navy-950/85 to-navy-950/40" />
         <div className="container-page">

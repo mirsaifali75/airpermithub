@@ -7,7 +7,7 @@ const points = ["Permit screening for all 50 states + DC", "Transparent, cited e
 /** Split sign-in layout: industrial scene on the left, form on the right. */
 export function AuthLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="grid min-h-[calc(100vh-4rem)] pt-16 lg:grid-cols-2 lg:pt-[4.5rem]">
+    <div className="grid min-h-[calc(100vh-4rem)] pt-[5.5rem] lg:grid-cols-2 lg:pt-28">
       <div className="relative hidden overflow-hidden bg-navy-950 lg:block">
         <Scene kind="refinery" className="absolute inset-0 h-full w-full" />
         <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/30 to-navy-950/20" />

@@ -35,7 +35,7 @@ export function Hero({ stateCount }: { stateCount: number }) {
     <section className="relative isolate overflow-hidden bg-navy-950 text-white">
       <IndustrialScene className="absolute inset-0 -z-10 h-full w-full" />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/85 via-navy-950/35 to-transparent" />
-      <div className="container-page pt-28 pb-24 sm:pt-36 sm:pb-28 lg:pt-40 lg:pb-32">
+      <div className="container-page pt-32 pb-24 sm:pt-36 sm:pb-28 lg:pt-40 lg:pb-32">
         <div className="max-w-2xl animate-fade-up">
           <p className="text-xs font-bold tracking-[0.28em] text-cyan-400 sm:text-sm">FROM REGULATIONS TO OPERATIONS</p>
           <h1 className="mt-4 text-[2.75rem] leading-[1.02] font-extrabold sm:text-6xl lg:text-7xl">

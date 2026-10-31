@@ -1,7 +1,8 @@
 import { ArrowRight, BarChart3, FileCog, FileText, Gavel, LayoutGrid, MapPinned, Scale } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { Scene } from "@/components/illustrations/Scene";
-import { industryScene, orderedIndustries } from "@/lib/data/industries";
+import { industryPhoto, industryScene, orderedIndustries } from "@/lib/data/industries";
 
 const regCards = [
   { title: "NSPS", body: "New Source Performance Standards", href: "/regulations/nsps", icon: FileText },
@@ -27,7 +28,19 @@ export function IndustriesAndRegulations() {
             {orderedIndustries().slice(0, 8).map((i) => (
               <li key={i.slug}>
                 <Link href={`/industries/${i.slug}`} className="group relative block overflow-hidden rounded-xl ring-1 ring-line transition-all hover:-translate-y-0.5 hover:ring-2 hover:ring-brand-500">
-                  <Scene kind={industryScene[i.slug]} grain={false} className="aspect-[4/3] h-full w-full transition-transform duration-500 group-hover:scale-105" />
+                  {industryPhoto[i.slug] ? (
+                    <div className="relative aspect-[4/3] w-full">
+                      <Image
+                        src={industryPhoto[i.slug]}
+                        alt=""
+                        fill
+                        sizes="(min-width: 1536px) 220px, (min-width: 1024px) 18vw, (min-width: 640px) 24vw, 48vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  ) : (
+                    <Scene kind={industryScene[i.slug]} grain={false} className="aspect-[4/3] h-full w-full transition-transform duration-500 group-hover:scale-105" />
+                  )}
                   <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950/95 to-transparent px-2 pt-8 pb-2.5 text-center text-sm font-semibold text-white">
                     {i.name}
                   </span>

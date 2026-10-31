@@ -3,9 +3,10 @@ import logo from "@/assets/brand/airpermithub-logo.png";
 import { cn } from "@/lib/cn";
 
 /**
- * The official AirPermitHub logo, shown exactly as supplied (no redraw,
- * recolor, or crop). The artwork has a navy wordmark and navy eagle, so on
- * dark backgrounds it sits on a white tile rather than being altered.
+ * The official AirPermitHub logo, shown exactly as supplied (no redraw or
+ * recolor). The asset is the transparent PNG with only its empty outer margin
+ * trimmed, so the artwork fills more of the space. The artwork has a navy
+ * wordmark and navy eagle, so on dark backgrounds it sits on a white tile.
  * Source files: public/brand (original PNG, transparent PNG, SVG wrapper).
  */
 export function Logo({
@@ -24,8 +25,8 @@ export function Logo({
       src={logo}
       alt="AirPermitHub: Nationwide Air Permitting Excellence"
       priority={priority}
-      sizes="(min-width: 1024px) 240px, 180px"
-      className={tone === "light" ? cn("w-auto", className) : "h-full w-auto"}
+      sizes="170px"
+      className={tone === "light" ? cn("w-auto", className) : "h-full w-auto object-contain"}
     />
   );
   if (tone === "light") return img;
