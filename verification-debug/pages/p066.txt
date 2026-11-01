@@ -1,0 +1,1595 @@
+North Dakota Air Pollution Control
+General Permit Application Guidance
+for Oil and Gas Production Facilities
+North Dakota Department of Environmental Quality
+Division of Air Quality
+Effective Date: July 1, 2025
+
+Disclaimer: The North Dakota Department of Environmental Quality (Department) is issuing this
+guidance to assist owners and operators of oil and gas production facilities with the application
+and compliance requirements as described in the Air Pollution Control General Permit for Oil and
+Gas Production Facilities (GP-OG). This document is not intended to supersede any regulatory
+requirements, or the permit conditions as described in the GP-OG. The Department does not
+assume liability for any omissions or errors regarding the information provided within this
+guidance.
+Through the guidance, several third-party resources are provided to help strengthen the readers
+understanding of regulatory text. These resources incorporate artificial intelligence (AI) tools and
+may contain errors or omissions. Anything noted to be generated through AI will be marked as
+such in this guidance. These resources are not legal advice. Additionally, the Department does not
+guarantee the accuracy or endorse the reliability or completeness of third-party material(s).
+
+Table of Contents
+Division of Air Quality ............................................................................................................................. 1
+Effective Date: July 1, 2025 ...................................................................................................................... 1
+
+1.
+
+Introduction ......................................................................................................................... 6
+
+2.
+
+Eligibility ............................................................................................................................ 6
+
+3.
+
+GP-OG - Standard Processes .............................................................................................. 7
+3.1
+
+New or Existing Facilities with New Well Completion(s) / Recompletion(s) ............................ 7
+
+3.2
+
+Existing Facilities Previously Registered in CERIS-ND............................................................. 9
+
+3.3
+
+Existing Facilities Not Previously Registered in CERIS-ND.................................................... 10
+
+4.
+
+Air Oil and Gas General Permit Application / Well Registration .................................... 11
+
+5.
+
+Standard Compliance Notifications / Reports................................................................... 12
+5.1
+
+Startup of Production ................................................................................................................. 12
+
+5.2
+
+Oil and Gas Facility Potential to Emit (PTE) Report ................................................................ 12
+
+5.3
+
+Annual Emission Inventory Report ........................................................................................... 14
+
+6.
+
+7.
+
+Exceptional Compliance Notifications / Reports .............................................................. 15
+6.1
+
+Title V Emission Threshold Exceedance................................................................................... 15
+
+6.2
+
+Title V Source Status Rescindment ........................................................................................... 15
+
+6.3
+
+PSD Exceedance ........................................................................................................................ 15
+
+6.4
+
+Notification of Malfunction ....................................................................................................... 16
+
+6.5
+
+Change of Ownership Notification ............................................................................................ 16
+
+6.6
+
+Stack Test Notifications & Reporting ....................................................................................... 16
+
+6.7
+
+Change of Facility or Well Status (i.e., shut in, plugged / abandoned, etc ................................ 16
+
+Effective Date ................................................................................................................... 17
+
+Appendix A .................................................................................................................................. 18
+Oil & Gas General Permit Application / Well Registration ................................................... 18
+Section A - Company Information ...................................................................................................... 19
+Section B - Facility Information .......................................................................................................... 22
+Section C – Well Information .............................................................................................................. 24
+Section D – Facility-Wide Applicable Regulations ............................................................................ 26
+Federal Air Programs............................................................................................................................ 26
+North Dakota Air Pollution Control Rules.......................................................................................... 28
+
+Section E – Facility-Wide Permit Conditions ..................................................................................... 29
+
+Appendix B .................................................................................................................................. 30
+Startup of Production Notification ............................................................................................ 30
+Section A – Facility Information.......................................................................................................... 31
+Section B – Well Information............................................................................................................... 32
+Section C – Additional Information .................................................................................................... 33
+
+Appendix C .................................................................................................................................. 34
+Facility Potential to Emit (PTE) Report ................................................................................... 34
+Section A – Facility Information.......................................................................................................... 35
+Section B – Well Information............................................................................................................... 36
+Section C – Sitewide Potential to Emit (PTE) .................................................................................... 37
+Section D – Process Equipment Information ..................................................................................... 38
+Oil ............................................................................................................................................................ 38
+Produced Water ..................................................................................................................................... 39
+Associated Gas ....................................................................................................................................... 40
+Section E – Gas Analysis – High Pressure Gas .................................................................................. 42
+Sample Collection Information ............................................................................................................ 42
+Lab Analysis Information ..................................................................................................................... 42
+Gas Component Results ........................................................................................................................ 44
+Section F – Gas Analysis – Low Pressure / Flash Gas ....................................................................... 45
+Sample Collection Information ............................................................................................................ 46
+Lab Analysis Information ..................................................................................................................... 47
+Section G – Oil Properties .................................................................................................................... 49
+
+Appendix D .................................................................................................................................. 50
+Annual Emissions Inventory Report ......................................................................................... 50
+Section A – Company Information ...................................................................................................... 51
+Section B – Contact Information ......................................................................................................... 52
+Section C – Attached Documentation.................................................................................................. 53
+
+Appendix E .................................................................................................................................. 54
+Title V Emission Threshold Exceedance Notification ............................................................. 54
+Section A – Facility Information.......................................................................................................... 55
+Section B – Notification Information .................................................................................................. 56
+
+Appendix F .................................................................................................................................. 59
+
+Title V Permit to Operate Application Submittal .................................................................... 59
+Section A – Facility Information.......................................................................................................... 60
+Section B – Notification Information .................................................................................................. 61
+
+Appendix G .................................................................................................................................. 63
+Title V Source Status Rescindment for Previously-Submitted Applications ........................ 63
+Section A – Facility Information.......................................................................................................... 64
+Section B – Notification Information .................................................................................................. 65
+
+Appendix H .................................................................................................................................. 66
+Title V Source Status Rescindment of Obligation to Submit Application ............................. 66
+Section A – Facility Information.......................................................................................................... 67
+Section B - Notification Information .................................................................................................. 68
+
+Appendix I ................................................................................................................................... 70
+Prevention of Significant Deterioration (PSD) Threshold Exceedance Notification ............ 70
+Section A – General Information......................................................................................................... 71
+Section B – Contact Information ......................................................................................................... 72
+Section C – Attached Documentation.................................................................................................. 73
+
+Appendix J ................................................................................................................................... 74
+Unavoidable Malfunction Notification ...................................................................................... 74
+Section A – Contact Information ......................................................................................................... 75
+Section B – Malfunction Description................................................................................................... 76
+Section C – Unavoidable Malfunction Determination ....................................................................... 77
+Section D – Attached Documents......................................................................................................... 79
+
+Appendix K .................................................................................................................................. 80
+Oil & Gas Change of Ownership Notification .......................................................................... 80
+Section A – Buyer / Transferee Information ...................................................................................... 81
+Section B (1) – Seller / Transferor Information ................................................................................. 82
+Section C – Attached Documentation.................................................................................................. 83
+
+Appendix L .................................................................................................................................. 84
+Stack Test Protocol Submission ................................................................................................. 84
+Section A – Contact Information ......................................................................................................... 85
+Section B – Testing Company .............................................................................................................. 86
+Section C – Test Units and Dates ......................................................................................................... 87
+Section D – Test Protocol Upload ........................................................................................................ 88
+
+Appendix M ................................................................................................................................. 89
+Air Stack Test Reports ............................................................................................................... 89
+Section A – General Information......................................................................................................... 90
+Section B – Report Information........................................................................................................... 91
+Section C – Test Information ............................................................................................................... 92
+Section D – Test Results ....................................................................................................................... 93
+Section E – Attach Test Report(s) ....................................................................................................... 94
+
+Appendix N .................................................................................................................................. 95
+Control of Storage Tanks at Shut-In Upstream Production Facilities .................................. 95
+
+1. Introduction
+This guidance document identifies eligible air pollution stationary sources which may be granted
+coverage under the North Dakota Air Pollution Control General Permit for Oil and Gas Production
+Facilities (GP-OG). In addition, this document outlines: the appropriate methodology for
+submitting a complete permit application to the North Dakota Department of Environmental
+Quality (Department), summarizes information regarding all necessary GP-OG recordkeeping and
+reporting, and discusses topics that may assist owners / operators in ensuring they maintain
+compliance with state rules and federal regulations. Applicants are strongly encouraged to read the
+GP-OG and this document prior to completing any permitting and / or compliance actions. If any
+discrepancies are noted between this guidance, the Department’s online database system’s
+(CERIS-ND) submission forms, and the GP-OG; the GP-OG prevails.
+
+2. Eligibility
+The GP-OG has been developed for North Dakota oil and gas production facilities in non-Indian
+Country. An oil and gas production facility is defined as “all equipment, wells, flow lines,
+separators, treaters, tanks, flares, gathering lines, and auxiliary non transportation-related
+equipment used in the exploration, development, or subsequent production or handling of oil and
+gas from an oil or gas well or wells which are located on one or more contiguous or adjacent
+surface properties, and are under the control of the same person (or persons under common
+control).” Oil and gas production facilities that are in the process of completing a new well or
+recompleting an existing well will become eligible for the GP-OG upon submission of a complete
+and satisfactory Air Oil and Gas General Permit Application / Well Registration. Upon verification
+of a complete and satisfactory submission, the Department will issue the GP-OG via the facility’s
+CERIS-ND site page.
+Existing oil and gas production facilities that have previously registered a well(s) or modified a
+facility’s registration, through CERIS-ND, will be eligible for the GP-OG after administrative
+review by the Department. Upon verification that the information submitted in the most recent
+registration / registration modification satisfactorily meets all permit conditions, the Department
+will issue the GP-OG via the facility’s CERIS-ND site page. This issuance will not require any
+action on behalf of the owner / operator of the facility unless otherwise stated by the Department.
+Existing oil and gas production facilities that have not previously submitted a registration or
+registration modification to the Department, through CERIS-ND, will become eligible for the GPOG upon successful completion of the Air Oil and Gas Facility Potential to Emit (PTE) Report as
+subscribed by the Department. The Department reserves the right to issue the GP-OG to existing
+oil and gas production facilities through alternative means.
+Facilities owned or operated by applicants that have not paid all fees owed to the Department or
+that are not in substantial compliance with the North Dakota Administrative Code (NDAC), state
+rules, federal regulations, and / or the terms of any existing Department permits and orders, are not
+eligible for this permit.
+
+3. GP-OG - Standard Processes
+3.1
+
+New or Existing Facilities with New Well Completion(s) / Recompletion(s)
+
+No later than two days prior to any planned well completion activities, the owner / operator will
+submit an “Air Oil & Gas General Permit Application / Well Registration” (GP-OG Application,
+Appendix A) through CERIS-ND. Upon receiving the application, the Department will review the
+information for completeness and accuracy. If deemed acceptable, a GP-OG will be issued to the
+owner / operator of the corresponding facility. By submitting a complete GP-OG Application, an
+owner / operator fulfills the registration and reporting requirements of NDAC 33.1-15-20-02(1) as
+well as the Well Completion Notification requirement of 40 CFR 60.5420b(a)(2).
+Once the GP-OG is obtained, the owner / operator must notify the Department within 30 days
+following the startup of production of the facility by completing and submitting the “Air Oil &
+Gas Startup of Production Notification” (startup notification, Appendix B) in CERIS-ND. This
+startup notification prompts Department staff to assign an Air Oil & Gas Facility Potential to Emit
+(PTE) Report form (PTE Report, Appendix C). For additional information regarding startup
+notification, please refer to the Startup of Production in the Compliance Notification section below.
+To fulfill the final requirement of the application process (Figure 1), the permittee shall submit the
+PTE Report to the Department within 90 days following startup of production of the facility. The
+PTE Report should be used to submit initial PTE data for the permitted facility. The submittal of
+this form satisfies Condition 4.A.5 of the General Permit for Oil and Gas Production Facilities
+(GP-OG v1.0). This form also supplements the previously submitted GP-OG Application to
+satisfy Section 33.1-15-20-02.1. of the ND Air Pollution Control Rules.
+
+Submit Air Oil & Gas General Permit
+Application / Well Registration
+(minimum of 2 days prior to well
+completion)
+
+Department
+Review for
+Completeness
+
+Department
+Review for
+Completeness
+
+Submit Air Oil & Gas Facility
+Potential to Emit Report
+
+Submit Startup
+of Production
+Notification
+
+Submit Annual
+Emission Inventory
+Report
+
+Department
+Review for
+Completeness
+
+Submit Minor Source
+Annual Fee
+
+Permit Issuance
+
+Figure 1: GP-OG Obtainment Process Flowchart for New or Existing Facilities with New Well
+Completion(s) / Recompletion(s)
+
+3.2
+
+Existing Facilities Previously Registered in CERIS-ND
+
+The Department has reviewed all registrations and registration modifications for existing facilities
+submitted into CERIS-ND to ensure the affected facilities (equipment) at the existing oil and gas
+production facilities meet all applicable regulatory requirements. In addition, the Department has
+reviewed facility emissions on an initial and continuous basis to ensure all existing facilities
+registered through CERIS-ND do not exceed the prevention of significant deterioration (PSD)
+major source thresholds. Taking this into consideration, it is the Department’s expectation that all
+facilities in this category will meet the permit conditions as described in the GP-OG. Therefore,
+the Department will conduct an administrative review of all facilities in this category and issue the
+GP-OG upon verification that the information submitted in the most recent registration /
+registration modification satisfactorily meets all permit conditions. This issuance will not require
+an application submittal on behalf of the owner / operator of the facility unless otherwise stated by
+the Department (Figure 2).
+
+Department Review for
+Completeness
+
+Submit Annual
+Emission Inventory
+Report
+
+Permit Issuance
+
+Submit Minor Source
+Annual Fee
+
+Department
+Review for
+Completeness
+
+Figure 2: GP-OG Obtainment Process Flowchart for Existing Facilities Previously Registered in CERISND
+
+3.3
+
+Existing Facilities Not Previously Registered in CERIS-ND
+
+Prior to the implementation of CERIS-ND, the Department did not have a formal review process
+for registration submittals. In addition, due to industry volatility and significant changes in the
+regulatory climate, it is the Department’s expectation that many of the registrations submitted prior
+to the implementation of CERIS-ND deviate significantly from the current status of the represented
+facility. As a result of this uncertainty, a determination on GP-OG compliance cannot be made for
+facilities in this category without additional information. To obtain the necessary information, the
+Department will be issuing “Air Oil & Gas Facility Potential to Emit (PTE) Report” forms
+(Appendix C) on a case-by-case basis to facilities in this category. Successful completion of this
+form will result in the Department issuance of the GP-OG (Figure 3).
+The Department is aware of the large number of sources that exist in this category and the extent
+of the work necessary to achieve eligibility for all facilities through this mechanism. Therefore,
+the Department reserves the right to issue the GP-OG to existing oil and gas production facilities
+through alternative means as new methods of review are developed.
+
+Submit Air Oil & Gas
+Facility Potential to Emit
+Report
+
+Department
+Review for
+Completeness
+
+Submit Minor Source
+Annual Fee
+
+Department
+Review for
+Completeness
+
+Permit Issuance
+
+Submit Annual
+Emission Inventory
+Report
+
+Figure 3: GP-OG Obtainment Process Flowchart for Existing Facilities Not Previously Registered in
+CERIS-ND
+
+4. Air Oil and Gas General Permit Application / Well Registration
+The Department has developed the “Air Oil & Gas General Permit Application / Well
+Registration” form (GP-OG Application, Appendix A) as the preliminary mechanism for
+obtainment of the GP-OG. This form shall be submitted by all new oil and gas production facilities
+or any existing oil and gas production facility with a new well(s) or recompleted well(s) through
+CERIS-ND at the facility site level on or after July 1, 2025. As stated previously, this submission
+also fulfills the registration and reporting requirements of NDAC 33.1-15-20-02(1) as well as the
+Well Completion Notification requirement of 40 CFR 60.5420b(a)(2). Within this submission, the
+applicant is expected to supply the Department with the following elements regarding the facility:
+1. Company Information
+a. Owner / Operator Name
+b. Company Address
+c. Responsible Official
+d. Contact Person for Air Pollution Matters
+2. Facility Information
+a. Facility Name
+b. Facility County Location
+c. Facility GPS Coordinates
+d. Facility PLSS Location
+3. Well(s) Information
+a. NDIC Well File Number(s)
+b. Well API Number(s)
+c. Well Name(s)
+d. Well Status(es)
+e. Anticipated Well Completion Dates(s)
+f. Anticipated Well Flowback Date(s)
+g. Anticipated Start-up of Production Date(s)
+h. Well(s) GPS Coordinates
+i. Well PLSS Locations
+4. Applicable Air Programs
+a. Federal Air Programs
+i. New Source Performance Standards Applicability
+ii. National Emissions Standards for Hazardous
+Applicability
+b. North Dakota State Rules
+5. Acceptance of GP-OG Specific Conditions
+
+Air
+
+Pollutants
+
+The GP-OG Application should be submitted two days prior to well completion / recompletion at
+the applicable facility to ensure regulatory compliance with 40 CFR 60.5420b(a)(2).
+
+5. Standard Compliance Notifications / Reports
+It is the Department’s expectation that all new and existing facilities with new or recompleted
+wells will submit the compliance notifications / reports included in this section through CERISND. Existing facilities who are issued the GP-OG will be assigned the necessary compliance
+notifications / reports in this section through CERIS-ND on a case-by-case basis, as determined
+by the Department.
+
+5.1
+
+Startup of Production
+
+As defined in 40 CFR 60, Subpart OOOOb, startup of production means the beginning of initial
+flow following the end of flowback when there is continuous recovery of salable quality gas and
+separation and recovery of any crude oil, condensate, or produced water, except as otherwise
+provided in this definition. For the purposes of the fugitive monitoring requirements of § 60.5397b,
+startup of production means the beginning of the continuous recovery of salable quality gas and
+separation and recovery of any crude oil, condensate, or produced water.
+Owners / operators must notify the Department within 30 days following the startup of production
+of the facility or well(s). If more than one well has been completed / recompleted, notification
+must be provided within 30 days following the startup of production of the final well. Notification
+must be provided via CERIS-ND by completing the “Air Oil & Gas Startup of Production
+Notification” form (Appendix B) at the facility site level.
+
+5.2
+
+Oil and Gas Facility Potential to Emit (PTE) Report
+
+Permit Condition 4.A.2 of the GP-OG states the permittee shall determine the sitewide potential
+to emit projection for the facility. In accordance with Condition 4.A.5, this emission data must be
+submitted to the Department within 90 days following the startup of production of the facility.
+These Conditions have been put in place to ensure permitted facilities achieve compliance with
+NDAC 33.1-15-20-02(1). If more than one well at a facility has achieved startup of production
+within a two-month time period, the emissions data should be supplied to the Department within
+90 days of the startup of production of the final well.
+To ensure the emissions data contains sufficient information to determine facility compliance with
+the GP-OG and regulatory requirements, the Department has developed the “Air Oil & Gas
+Facility Potential to Emit (PTE) Report” form (Appendix C). The permittee must submit the
+following information for the Department to make a completeness and accuracy determination and
+to satisfy NDAC 33.1-15-20-02(1):
+1. Facility Information
+a. Facility Name
+b. Contact Person for Air Pollution Matters
+2. Well Information
+a. Well NDIC File Number(s)
+b. Well Startup of Production Date(s)
+
+3. Facility Potential to Emit Estimate
+a. Tons per Year Without Fugitive Emissions for the Following Pollutants:
+i. NOx, CO, VOCs, SO2, PMtot, PM10, PM2.5, Total HAPs
+b. Tons per Year with Fugitive Emissions for the Following Pollutants:
+i. NOx, CO, VOCs, SO2, PMtot, PM10, PM2.5, Total HAPs
+c. Supporting Calculations
+4. Facility Process Equipment Information and Production Information
+a. Oil Production
+b. Produced Water Production
+c. Gas Production
+d. Anticipated Produced Gas Volume(s) Sent to Flare
+e. Control Device Type / Efficiency
+f. Facility Equipment Counts
+5. High Pressure Gas Specifications
+a. Permit Number
+b. Gas Sample ID Number
+c. Sample Methodology
+d. Sample Date
+e. Laboratory Analysis Methodology
+f. Analysis Date
+g. Gas Molecular Weight
+h. Gas Higher Heating Value
+i. Gas Lower Heating Value
+j. Percent Weight Composition of VOCs in Gas Sample
+k. Percent Weight Composition of HAPs in Gas Sample
+l. Percent Weight Composition of the Following Individual Components:
+i. Methane
+ii. Ethane
+iii. Propane
+iv. Butane (s) (Combined)
+v. Pentane Plus Hydrocarbons
+m. Supporting Laboratory Analysis
+6. Low Pressure / Flash Gas Specifications
+a. Process Simulation Specifications
+i. Tank Vapor Emission Factor
+ii. Percent Weight Composition of the Following Individual Components:
+iii. Methane
+iv. Ethane
+v. Propane
+vi. Butane (s) (Combined)
+vii. Pentane Plus Hydrocarbons
+OR
+
+b. Laboratory Analysis
+i. Tank Vapor Emission Factor
+ii. Permit Number
+iii. Gas Sample ID Number
+iv. Sample Methodology
+v. Sample Date
+vi. Laboratory Analysis Methodology
+vii. Analysis Date
+viii. Gas Molecular Weight
+ix. Gas Higher Heating Value
+x. Gas Lower Heating Value
+xi. Percent Weight Composition of VOCs in Gas Sample
+xii. Percent Weight Composition of HAPs in Gas Sample
+xiii. Percent Weight Composition of the Following Individual Components:
+1. Methane
+2. Ethane
+3. Propane
+4. Butane (s) (Combined)
+5. Pentane Plus Hydrocarbons
+xiv. Supporting Laboratory Analysis
+OR
+c. Bakken Default Emission Factor Verification / Agreement.
+
+5.3
+
+Annual Emission Inventory Report
+
+Permit Condition 4.B of the GP-OG states the permittee shall submit an annual emission inventory
+report (AEIR) for all onsite equipment. Furthermore, this AEIR must be submitted on a
+Department approved form. To accomplish this, the Department has developed an AEIR template
+which shall be used by all oil and gas production facilities permitted under the GP-OG. This
+document should be submitted as supporting documentation within the “Air Oil & Gas Bulk
+Annual Emissions Inventory Report” form (Appendix D) at the company’s general file via CERISND.
+
+6. Exceptional Compliance Notifications / Reports
+The compliance notifications / reports included in this section shall be submitted, or will be
+assigned, on a case-by-case basis to address exceptional compliance requirements that are outside
+of the standard compliance requirements.
+
+6.1
+
+Title V Emission Threshold Exceedance
+
+If an oil and gas production facility exceeds the Title V emissions threshold (≥100 TPY of any
+criteria pollutant, ≥25 TPY of combined HAPs or ≥10 TPY of a single HAP), the permittee must
+notify the Department within 60 days of the date the exceedance occurred. Notification must be
+provided via CERIS-ND by completing the “Air Oil & Gas Title V PTO Program: Notification,
+Application, or Rescindment” form (Appendix E) at the facility site level. A complete Title V
+application (Permit Application Form) must be submitted within 12 months of the date the
+exceedance occurred unless the Title V Source status has been successfully rescinded. A Title V
+application can be submitted via CERIS-ND by completing the “Air Oil & Gas Title V PTO
+Program: Notification, Application, or Rescindment” form (Appendix F), if not submitted with
+the initial notification of exceedance.
+While operating as a Title V major source, the permittee must meet the monthly emissions tracking
+requirements as detailed in Condition 4.B.1 of the GP-OG.
+
+6.2
+
+Title V Source Status Rescindment
+
+If an oil and gas production facility, that has previously submitted a Title V application, falls below
+the Title V emissions threshold (≤100 TPY of any criteria pollutant, ≤25 TPY of combined HAPs
+or ≤10 TPY of a single HAP), notification must be provided via CERIS-ND by completing the
+“Air Oil & Gas Title V PTO Program: Notification, Application, or Rescindment” form (Appendix
+G) at the facility site level. Documentation in support of the rescindment request, including
+emissions data, must be attached to the form.
+If an oil and gas production facility, that has not previously submitted a Title V application, falls
+below the Title V emission threshold, notification must be provided via CERIS-ND by completing
+the “Air Oil & Gas Title V PTO Program: Notification, Application, or Rescindment” form
+(Appendix H) at the facility site level. The rescindment request must be submitted within 12
+months of the date the Title V threshold exceedance occurred. Documentation in support of the
+rescindment request, including emissions data, must be attached to the form.
+
+6.3
+
+PSD Exceedance
+
+If an oil and gas production facility exceeds the PSD thresholds (≥250 TPY of any air contaminant
+regulated under North Dakota Century Code Chapter 23-25 or ≥100,000 TPY of greenhouse
+gases), then the permittee must notify the Department the first business day following the date the
+exceedance was determined using the “Air General Compliance Submittal” form (Appendix I) at
+the facility site level in CERIS-ND.
+Immediate action must be taken at the facility to reduce emissions and shut in the facility until
+necessary preconstruction approvals or permits are received by the permittee from the Department.
+
+6.4
+
+Notification of Malfunction
+
+Per NDAC 33.1-15-01-13(2)(a), the permittee must notify the Department as soon as possible
+when a malfunction of any equipment (i.e., control device, storage vessel, auxiliary equipment,
+etc.) occurs that is expected to last longer than twenty-four hours and may cause excess emissions
+in violation of any applicable rule or regulation. Notification shall be provided via CERIS-ND by
+completing the “Air General Compliance Submittal” form (Appendix I) at the facility site level.
+Per NDAC 33.1-15-01-13(2)(b), the permittee must immediately notify the Department of any
+malfunction that would threaten health or welfare or pose imminent danger. During normal
+working hours the Department can be contacted at 701-328-5188. After hours the Department can
+be contacted through the twenty-four-hour state radio emergency number 1-800-472-2121. If
+calling from out of state, the twenty-four-hour number is 701-328-9921.
+In the event of an unavoidable malfunction resulting in excess emissions, the permittee shall
+submit a written report as outlined in NDAC 33.1-15-01-13(2)(c) to the Department within 30
+days of the end of the calendar quarter in which the malfunction occurred or within 30 days of
+request by the Department. The Department will use the information provided, and any supporting
+documentation supplied by the owner / operator, to make a determination on a case-by-case basis
+regarding the validity of the unavoidable equipment malfunction and the potential pursuit of
+further enforcement action. Notification shall be provided via CERIS-ND by completing the “Air
+Unavoidable Malfunction Notification” form (Appendix J) at the facility site level.
+
+6.5
+
+Change of Ownership Notification
+
+The Department shall be notified within 30 days following any change of ownership. Notification
+must be provided by the NEW owner via CERIS-ND by completing the “Air Oil & Gas Change
+of Ownership Notification” form (Appendix K) under the company’s general file. The notification
+must include the buyer / transferee company information, seller / transferor company information,
+effective date of transfer of permit responsibility, coverage, and liability, and a complete list of
+assets changing ownership. Upon review of the notification, the Department will determine
+whether to approve the transfer of the GP-OG to the new owner.
+
+6.6
+
+Stack Test Notifications & Reporting
+
+The Department shall be notified, and a test protocol must be submitted at least 30 days prior to
+engine stack testing to allow sufficient time for the Department to review the test protocol,
+schedule a pre-test meeting (if necessary), and arrange for a Department representative to observe
+the test. Both the notification and protocol must be provided via CERIS-ND by completing the
+“Air Stack / RATA Test Protocol Submission” form (Appendix L) at the facility site level.
+The final test report must be submitted within 60 days of test completion through CERIS-ND by
+completing the “Air Stack Test Report Submittal” form (Appendix M), at the facility site level.
+
+6.7
+
+Change of Facility or Well Status (i.e., shut in, plugged / abandoned, etc.)
+
+The Department has issued a Control of Storage Tanks at Shut-In Upstream Production Facilities
+memo (Appendix N) dated August 23, 2021, which exempts oil and gas production facilities from
+
+the control requirements of NDAC 33.1-15-07-02.1 if the conditions of the memo are achieved.
+To apply for this exemption, the permittee shall submit a notification to the Department by
+completing the “Air General Compliance Submittal” form (Appendix I) at the facility site level in
+CERIS-ND. This notification shall be submitted within 15 calendar days after control of storage
+tank emissions has ceased. Subsequently, the permittee shall notify the Department within 15
+calendars days of the return to service of the storage tanks and therefore the return to service of
+the emission control device(s) using the “Air General Compliance Submittal” form (Appendix I)
+at the facility site level in CERIS-ND.
+
+7. Effective Date
+This guidance is effective as of July 1, 2025. This guidance does not supersede any applicable state
+or federal rule, regulation or law.
+Any questions about this document should be addressed to:
+North Dakota Department of Environmental Quality (NDDEQ)
+Division of Air Quality
+4201 Normandy Street, 2nd Floor
+Bismarck, ND 58503-1324
+Phone: (701) 328-5188
+
+Approval:
+
+Date:
+Matthew Bingert
+Manager, Oil & Gas Program
+Division of Air Quality
+North Dakota Department of Environmental Quality
+
+Appendix A
+Oil & Gas General Permit Application / Well
+Registration
+Instructions:
+Use this form to:
+
+
+
+
+
+Register a new Oil and Gas Production Facility and its associated new well(s), in
+accordance with NDAC 33.1-15-20-02.1; or
+Register new or recompleted well(s) at an existing Oil and Gas Production Facility, in
+accordance with NDAC 33.1-15-20-02.1; and
+Submit Notification of Well Completion no later than 2 days prior to commencement of
+well completion operation, in accordance with 40 CFR 60.5420b(2)
+Additionally, this form is the application for a General Permit for Oil and Gas Production
+Facilities (GP-OG v1.0)
+
+❖ The Department has enabled a feature in CERIS-ND which allows for some autopopulation capabilities within the application form(s). If a facility has previously submitted
+a general permit application, the reference number can be entered into the submission to
+make use of this feature.
+
+Section A - Company Information
+Company Name: Provide the owner / operator name of the facility as described in the Department
+of Mineral Resources - Oil and Gas Division Well Index
+Example
+Company:
+
+North Dakota Department of Environmental Quality
+
+CERIS-ND Input:
+
+Company Mailing Address: This address should be representative of the primary office to which
+the company / operator would like regulatory correspondence addressed and mailed.
+Example
+Address:
+
+4201 Normandy Street
+Bismarck, ND 58503-1324
+United States
+
+CERIS-ND Input:
+
+Responsible Official Information: As part of the application process, the company / operator
+must provide information regarding the chosen responsible official for air pollution compliance.
+The individual in this role should be able to document and verify the compliance of all information
+submitted to both obtain and maintain the general permit.
+Example
+Contact:
+
+Matthew Bingert
+Manager, Oil & Gas Program
+North Dakota Department of Environmental Quality
+(701) 328-5192, mbingert@nd.gov
+4201 Normandy Street, Bismarck, ND 58503-1324
+
+CERIS-ND Input:
+
+Contact Person for Air Pollution Matters: In addition to the responsible official described
+above, the applicant must provide a contact person for air pollution matters. This individual will
+be considered the point of contact for all application correction requests, compliance reports,
+inspection findings, and general correspondence. Note: The responsible official and the contact
+person for air pollution matters can be the same individual.
+Example
+Contact:
+
+Wyatt Peterson
+Environmental Engineer
+North Dakota Department of Environmental Quality
+(701) 328-5184
+wyatt.peterson@nd.gov
+
+CERIS-ND Input:
+
+Section B - Facility Information
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+Example
+Company Name:
+Facility Name:
+
+North Dakota Department of Environmental Quality
+Great Air 1-3H
+
+CERIS-ND Input:
+
+Facility County: Provide the name of the county in which the facility is located. In the rare
+circumstance where the facility is composed of several well pads that exist in separate counties,
+please provide the county in which the majority of the process equipment is located.
+Example
+County:
+CERIS-ND Input:
+
+Burleigh
+
+Facility Location (GPS Coordinates): Provide the GPS Coordinates of the facility. If the facility
+is composed of several well pads, please provide the location in which the majority of the process
+equipment is located.
+Example
+Latitude:
+Longitude:
+
+46.85206
+-100.78450
+
+CERIS-ND Input:
+
+Public Land Survey System (PLSS) Location: Please provide the location of the facility as
+described in the PLSS. Please note, the location specific to the quarter is not a requirement.
+Example
+Location:
+
+Township: 139N
+Range: 80W
+Section: 21
+Quarter: NW
+Quarter Quarter: NE
+
+CERIS-ND Input:
+
+Section C – Well Information
+DMR Well File Number: Each new or recompleted well must be included in the registration. The
+information required for this section includes the following:
+1. DMR Well File Number
+2. API Number – please list the full number, including the trailing zeroes to allow for data
+integrity in the CERIS-ND database.
+3. Well Name (as listed in the Department of Mineral Resources- Oil and Gas Division Well
+Index)
+4. Well Status
+5. Anticipated Well Completion Date
+6. Anticipated Well Flowback Date
+7. Anticipated Start-up of Production Date
+8. GPS Location / Coordinates
+9. Well Public Land Survey System (PLSS) Location
+Example
+Well File: 99,001
+API Number: 33-015-98765-00-00 (33015987650000)
+Well Name: EZ Money 56H
+Well Status: New
+Anticipated Well Completion Date: 07/04/2050
+Anticipated Well Flowback Date: 07/08/2050
+Anticipated Start-up of Production Date: 07/12/2050
+GPS Coordinates: (46.85206, -100.78450)
+PLSS Location: NENW 21-139-80
+
+CERIS-ND Input:
+
+Section D – Facility-Wide Applicable Regulations
+Several regulations applicable to affected facilities at upstream oil and gas production are
+specifically referenced in the GP-OG. However, due to various construction dates and on-site
+equipment the full scale of regulatory applicability for each facility applying for the GP-OG is
+expected to vary. To account for this, all applicants are expected to do a regulatory review prior to
+registration and note all applicable regulations for the facility. The form has presented all
+regulations in a “Yes or No” format. Please complete the form to accurately represent each
+individual facility. Information is provided below for each applicable New Source Performance
+Standard (NSPS) and National Emission Standards for Hazardous Air Pollutants (NESHAP)
+subpart, along with the applicable North Dakota regulations.
+
+Federal Air Programs
+NSPS Air Program Subparts
+
+
+40 CFR 60, Subpart A (General Provisions)
+o Google AI Summary (Disclaimer)
+
+
+
+40 CFR 60, NSPS Subpart IIII (Standards for Stationary Compression Ignition Internal
+Combustion Engines)
+o Google AI Summary (Disclaimer)
+
+
+
+40 CFR 60, NSPS Subpart JJJJ (Standards for Stationary Spark Ignition Internal
+Combustion Engines)
+o Google AI Summary (Disclaimer)
+
+
+
+40 CFR 60, NSPS Subpart OOOO (Standards of Performance for Crude Oil and Natural
+Gas Facilities for Which Construction, Modification, or Reconstruction Commenced After
+August 23, 2011, and on or Before September 18, 2015)
+o Google AI Summary (Disclaimer)
+
+
+
+40 CFR 60, NSPS Subpart OOOOa (Standards of Performance for Crude Oil and Natural
+Gas Facilities for Which Construction, Modification or Reconstruction Commenced After
+September 18, 2015, and On or Before December 6, 2022)
+o Google AI Summary (Disclaimer)
+
+
+
+40 CFR 60, NSPS Subpart OOOOb (Standards of Performance for Crude Oil and Natural
+Gas Facilities for Which Construction, Modification, or Reconstruction Commenced After
+December 6, 2022)
+o Google AI Summary (Disclaimer)
+
+o A facility may elect to take legally and practically enforceable limits (LAPEL) for
+storage vessels as part of the 40 CFR 60, NSPS Subpart OOOOb regulation under
+the GP-OG. For facilities that elect to take the LAPEL, several additional
+requirements / equipment limits will be necessary. All elements of the LAPEL must
+be accepted in order to successfully submit the application. An example of the
+successful completion of this section is presented below.
+
+o LAPEL Google AI Summary (Disclaimer)
+
+
+40 CFR 60, NSPS Subpart OOOOc (Emissions Guidelines for Greenhouse Gas Emissions
+from Existing Crude Oil and Natural Gas Facilities)
+o Google AI Summary (Disclaimer)
+
+NESHAP Air Program Subparts
+
+
+40 CFR 63, Subpart A (General Provisions)
+o Google AI Summary (Disclaimer)
+
+
+
+40 CFR 63, Subpart HH (National Emission Standards for Hazardous Air Pollutants From
+Oil and Natural Gas Production Facilities)
+o Google AI Summary (Disclaimer)
+
+
+
+40 CFR 63, Subpart ZZZZ (National Emissions Standards for Hazardous Air Pollutants for
+Stationary Reciprocating Internal Combustion Engines)
+o Google AI Summary (Disclaimer)
+
+North Dakota Air Pollution Control Rules
+33.1-15-01.
+
+General Provisions
+o Google AI Summary (Disclaimer)
+
+33.1-15-02-04.
+
+Ambient Air Quality Standards
+o Google AI Summary (Disclaimer)
+
+33.1-15-03-03.1.
+
+Visible Emissions. Restrictions applicable to flares.
+o Google AI Summary (Disclaimer)
+
+33.1-15-07-01.3.
+
+Requirements for construction of organic compounds facilities. Submerged
+fill pipes required.
+o Google AI Summary (Disclaimer)
+
+33.1-15-07-02.
+
+Requirements for organic compounds gas disposal.
+o Google AI Summary (Disclaimer)
+
+33.1-15-16-02.
+
+Emissions of Odorous Substances Restricted.
+o Google AI Summary (Disclaimer)
+
+33.1-15-17-04.
+
+Restriction of Fugitive Gaseous Emissions.
+o Google AI Summary (Disclaimer)
+
+33.1-15-20-02.
+
+Control of Emissions from Oil and Gas Well Production Facilities.
+Registration and Reporting Requirements.
+o Google AI Summary (Disclaimer)
+
+33.1-15-20-03.
+
+Control of Emissions from Oil and Gas Well Production Facilities.
+Prevention of significant deterioration applicability and source information
+requirements.
+o Google AI Summary (Disclaimer)
+
+33.1-15-20-04.
+
+Requirements for control of production facility emissions.
+o Google AI Summary (Disclaimer)
+
+33.1-15-23.
+
+Fees.
+o Google AI Summary (Disclaimer)
+
+Section E – Facility-Wide Permit Conditions
+Prior to issuance of the GP-OG, each facility is required to ensure compliance can be achieved
+with several permit conditions. This section of the registration is also presented in a “Yes or No”
+format. Any “No” responses will require further permit review and may prevent the issuance of
+the GP-OG. The list below summarizes all permit conditions agreements found in the registration
+form and is meant to accurately reflect the GP-OG. This list is subject to change upon revision of
+the GP-OG and may be expanded upon to account for changes in future regulatory requirements.
+
+
+
+Gas fired process heaters, engines, and control device pilots will combust only gaseous fuel
+containing no more than 500 ppmv of H2S (~31.3 grains per standard cubic foot).
+o Summary: This permit condition has been included to ensure compliance with
+sulfur restrictions as described in NDAC 33.1-15-06
+
+
+
+Diesel fired engines will combust only distillate oil containing no more than 0.0015 percent
+sulfur by weight.
+o Summary: This permit condition has been included to ensure compliance with
+sulfur restrictions as described in NDAC 33.1-15-06
+
+
+
+All facility control devices subject to a New Source Performance Standard (NSPS) will
+meet the requirements specified in 40 CFR 60.18(b) and the requirements for control of
+production facility emissions as described in NDAC 33.1-15-20-04.
+o Summary: As part of both NSPS Subpart OOOO/a/b/c series and the North Dakota
+Administrative Code, upstream oil and gas facilities must implement and maintain
+various levels of emission control from their affected facilities. These regulations
+are in place to prevent significant contribution to air pollution from upstream
+production facilities.
+
+
+
+Facility wide potential to emit for new source review pollutants (criteria pollutants) will be
+below 250 tons per year
+o Summary: The GP-OG has been created as a synthetic minor permit under the
+Prevent of Significant Deterioration of air quality program, via federally
+enforceable restrictions of regulated new sources review pollutants to below 250
+tons per year (excluding fugitives). Any facility with potential emissions in
+exceedance of 250 TPY is not eligible for the GP-OG and is subject to site specific
+pre-construction permitting review as a major source of air pollutants.
+
+
+
+Will this facility operate any sweetening units?
+o Summary: Though sweetening units are an affected facility under the NSPS Subpart
+OOOO/a/b/c series, they are not covered under the GP-OG and will require site
+specific permitting.
+
+Appendix B
+Startup of Production Notification
+Instructions:
+Use this form to:
+
+
+Submit a startup of production notification for permitted wells in accordance with Permit
+Condition 4.A.1 of the GP-OG.
+
+Section A – Facility Information
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+CERIS-ND Input:
+
+Contact Person for Air Pollution Matters: Provide a contact person for air pollution matters.
+This individual will be considered the point of contact for correction requests associated with this
+form.
+CERIS-ND Input:
+
+Section B – Well Information
+Wells included in Startup of Production Notification: Provide the well information for each
+new or recompleted well reported in the General Permit Application / Well Registration.
+CERIS-ND Input:
+
+Section C – Additional Information
+File Attachment(s): Provide any additional pertinent information as a file attachment (optional).
+CERIS-ND Input:
+
+Appendix C
+Facility Potential to Emit (PTE) Report
+
+Instructions:
+Use this form to:
+
+
+
+Submit the initial Potential to Emit (PTE) data for new well completions / recompletions
+in accordance with NDAC 33.1-15-20-02.1 and GP-OG Permit Condition 4.A.5.
+Supply a facility PTE in response to a Department information request.
+
+Section A – Facility Information
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+CERIS-ND Input:
+
+Contact Person for Air Pollution Matters: Provide a contact person for air pollution matters.
+This individual will be considered the point of contact for correction requests associated with this
+form.
+CERIS-ND Input:
+
+Section B – Well Information
+Wells included in Facility PTE Calculation: Provide the well information for each new or
+recompleted well reported in the General Permit Application / Well Registration.
+CERIS-ND Input:
+
+Section C – Sitewide Potential to Emit (PTE)
+Potential to Emit (PTE): Provide the potential emissions in tons per year, including and excluding
+fugitive emissions, for all applicable pollutants.
+CERIS-ND Input:
+
+PTE Supporting Documentation: Provide supporting PTE calculations by uploading a file
+attachment or typing in calculations.
+CERIS-ND Input:
+
+Section D – Process Equipment Information
+Oil
+Production Rate – Oil: Provide the predicted production rate of oil.
+Units (barrels per unit of time): Select the units for the predicted production rate of oil from the
+dropdown menu.
+Is more than 90% of crude oil sent through sales pipeline: Select “Yes” or “No”. Note: If “No”
+is selected, Section G – Oil Properties (API Gravity, True Vapor Pressure, and Reid Vapor
+Pressure) must be filled out.
+CERIS-ND Input:
+
+Produced Water
+Production Rate – Produced Water: Provide the predicted production rate of produced water.
+Units (barrels per unit of time): Select the units for the predicted production rate of produced
+water from the dropdown menu.
+Does this facility have pipeline produced water disposal: Select “Yes” or “No”.
+CERIS-ND Input:
+
+Associated Gas
+Production Rate – Gas: Provide the predicted production rate of gas.
+Production Rate Units (thousand standard cubic feet per unit of time): Select the units for the
+predicted production rate of gas from the dropdown menu.
+Anticipated Flare Rate – Gas: Provide the predicted flare rate of gas.
+Anticipated Flare Rate Units (thousand standard cubic feet per unit of time): Select the units
+for the predicted flare rate of gas from the dropdown menu.
+Does this facility have pipeline gas sales: Select “Yes” or “No”.
+CERIS-ND Input:
+
+What type of control device does this facility have: Select the control device from the dropdown
+menu.
+CERIS-ND Input:
+
+Table 1-1: Potential Onsite Emission Units and Typical Control Equipment: Enter the number
+of emission units for each emission unit type.
+CERIS-ND Input:
+
+Section E – Gas Analysis – High Pressure Gas
+Sample Collection Information
+Sample Site OGR Number of NDIC Number: Provide the facility’s OGR-GP number or well’s
+NDIC number in which the gas sample was collected.
+Sample ID Number: Provide the Sample ID Number as indicated in the lab report.
+Sample Method: Select the sample collection method from the dropdown menu.
+Sample Date: Provide the sample date as indicated in the lab report.
+CERIS-ND Input:
+
+Lab Analysis Information
+Analysis Method: Select the lab analysis method from the dropdown menu.
+Analysis Date: Provide the analysis date as indicated in the lab report.
+Average Gas Molecular Weight: Provide the average gas molecular weight as indicated in the
+lab report.
+Higher Heating Value (HHV) (Btu/scf @ 14.73 PSIA): Provide the HHV as indicated in the lab
+report.
+Lower Heating Value (LHV) (Btu/scf @ 14.73 PSIA): Provide the LHV as indicated in the lab
+report.
+
+% Weight Total VOC (non-methane, non-ethane): Provide the % weight VOC total as indicated
+in the lab report.
+% Weight Total HAPs: Provide the % weight HAPs total as indicated in the lab report.
+Is this a dry gas analysis: Select “Yes” or “No”.
+CERIS-ND Input:
+
+Gas Component Results
+High Pressure Gas Analysis Results: Provide the % weight for each applicable gas component
+and attach the lab analysis results.
+CERIS-ND Input:
+
+Section F – Gas Analysis – Low Pressure / Flash Gas
+What method was used to determine flash gas: Select “Process Simulation”, “Lab Analysis /
+Flash Liberation”, or “Bakken Default”.
+If “Process Simulation” is selected, provide the tank vapor emission factor (scf/bbl) and upload
+the process simulation report.
+If “Lab Analysis / Flash Liberation” is selected, provide the sample collection and lab analysis
+information as directed in Section E, and the flash gas to oil ratio (scf/bbl). CERIS-ND input
+example is shown below.
+If “Bakken Default” is selected, no further information will be required within this section.
+Flash Gas to Oil Ratio (FGOR): Provide the flash gas to oil ratio as determined in the laboratory
+analysis. Note: Do not include working and breathing factors or safety factors as part of this input.
+CERIS-ND Input:
+
+Sample Collection Information
+Sample Site OGR Number of NDIC Number: Provide the facility’s OGR-GP number or well’s
+NDIC number in which the gas sample was collected.
+Sample ID Number: Provide the Sample ID Number as indicated in the lab report.
+Sample Method: Select the sample collection method from the dropdown menu.
+Sample Date: Provide the sample date as indicated in the lab report.
+CERIS-ND Input:
+
+Lab Analysis Information
+Analysis Method: Select the lab analysis method from the dropdown menu.
+Analysis Date: Provide the analysis date as indicated in the lab report.
+Average Gas Molecular Weight: Provide the average gas molecular weight as indicated in the
+lab report.
+Higher Heating Value (HHV) (Btu/scf @ 14.73 PSIA): Provide the HHV as indicated in the lab
+report.
+Lower Heating Value (LHV) (Btu/scf @ 14.73 PSIA): Provide the LHV as indicated in the lab
+report.
+% Weight Total VOC (non-methane, non-ethane): Provide the % weight VOC total as indicated
+in the lab report.
+% Weight Total HAPs: Provide the % weight HAPs total as indicated in the lab report.
+Is this a dry gas analysis: Select “Yes” or “No”.
+CERIS-ND Input:
+
+Gas Component Results
+Low Pressure / Flash Gas Analysis Results: Provide the % weight for each applicable gas
+component.
+Certified Lab Analysis / FGOR Documentation Upload: Attach lab results. Note: Only required
+if “Lab Analysis / Flash Liberation” is selected as the method used to determine flash gas.
+CERIS-ND Input:
+
+Section G – Oil Properties
+API Gravity @ 60F: Provide the API Gravity value of the oil at 60 degrees Fahrenheit.
+True Vapor Pressure @ 100F, PSIA: Provide the stock true vapor pressure of the oil extrapolated
+to 100 degrees Fahrenheit in pounds per square inch absolute.
+Reid Vapor Pressure (RVP): Provide the Reid vapor pressure of the oil.
+Note: All oil properties should be supported by laboratory analysis within the submission. This
+section is only required if 10 percent or more of the facility oil is transported via truck.
+CERIS Input:
+
+Appendix D
+Annual Emissions Inventory Report
+Instructions:
+Use this form to submit the Annual Emissions Inventory Report (AEIR) for all oil and gas
+production facilities operated by your company. Submit the form under the company’s General
+File.
+
+Section A – Company Information
+Owner / Permittee: Provide the owner / operator name of the facility as described in the
+Department of Mineral Resources- Oil and Gas Division Well Index and the owner / operator’s
+address. This address should be representative of the primary office in which the owner / operator
+would like regulatory correspondence addressed and mailed.
+CERIS-ND Input:
+
+Section B – Contact Information
+Person to contact regarding this report: Provide a contact person for air pollution matters. This
+individual will be considered the point of contact for correction requests associated with this form.
+CERIS-ND Input:
+
+Section C – Attached Documentation
+AEIR File Attachment(s): Upload AEIR and any supporting documentation. The excel template
+is available on NDDEQ’s Oil & Gas website.
+CERIS-ND Input:
+
+Appendix E
+Title V Emission Threshold Exceedance Notification
+Instructions:
+This form has been developed as a multipurpose tool for submitting Title V notifications,
+applications, and application rescindment requests. The instructions in this appendix pertain to the
+following:
+
+• Submit a notification of Title V applicability due to major source threshold exceedance.
+
+Section A – Facility Information
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+CERIS-ND Input:
+
+Contact Person for Air Pollution Matters: Provide a contact person for air pollution matters.
+This individual will be considered the point of contact for correction requests associated with this
+form.
+CERIS-ND Input:
+
+Section B – Notification Information
+Please select the option that applies: Select “Notification of Title V Applicability” to provide
+notification of Title V emission threshold exceedance.
+Title V Applicability Date: Provide the date on which the exceedance occurred.
+Would you like to submit a Title V Permit to Operate Application at this time: Select “Yes”
+or “No”. If “Yes” is selected, then an application must be uploaded to this form.
+CERIS-ND Input:
+Example: Title V Applicability Date: 05/01/2025 (<60 days)
+
+❖ The Department has enabled a feature in this form which tracks the number of days since
+the facility exceeded Title V thresholds, based upon the date entered. When the number of
+days exceeds 60, an automatic notification will appear on the form, denoting a failure to
+notify the Department within the time specified in 4.B.2 of GP-OG v1.0. The form will
+still be able to be completed and submitted if this note is present.
+
+Example: Title V Applicability Date: 05/01/2024 (>60 days)
+
+Example: (“Yes” Selection)
+
+Example: (“No” Selection)
+Note: The application must be submitted by the calculated due date.
+
+Appendix F
+Title V Permit to Operate Application Submittal
+Instructions:
+This form has been developed as a multipurpose tool for submitting Title V notifications,
+applications, and application rescindment requests. The instructions in this appendix pertain to the
+following:
+
+
+Submit a Title V major source application.
+
+Section A – Facility Information
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+CERIS-ND Input:
+
+Contact Person for Air Pollution Matters: Provide a contact person for air pollution matters.
+This individual will be considered the point of contact for correction requests associated with this
+form.
+CERIS-ND Input:
+
+Section B – Notification Information
+Please select the option that applies: Select “Application for Title V Permit to Operate”.
+Title V Applicability Date: Provide the date on which the exceedance occurred.
+File Attachment(s): Upload Title V Application and any supporting information.
+CERIS-ND Input:
+Example: Title V Applicability Date: 05/01/2025 (<12 months)
+
+❖ The Department has enabled a feature in this form which tracks the number of months since
+the facility exceeded Title V thresholds, based upon the date entered. When the number of
+months exceeds 12 (1 year), an automatic notification will appear on the form, denoting a
+failure to submit a Title V application to the Department within the time specified in 4.B.2
+of GP-OG v1.0, NDAC Subsection 33.1-15-14-06.4, and 40 CFR 70.5(a)1(i). The form
+will still be able to be completed and submitted if this note is present.
+
+Example: Title V Applicability Date: 05/01/2024 (> 12 months)
+
+Appendix G
+Title V Source Status Rescindment for PreviouslySubmitted Applications
+
+Instructions:
+This form has been developed as a multipurpose tool for submitting Title V notifications,
+applications, and application rescindment requests. The instructions in this appendix pertain to the
+following:
+
+
+Request a rescindment of a previously-submitted application.
+
+Section A – Facility Information
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+CERIS-ND Input:
+
+Contact Person for Air Pollution Matters: Provide a contact person for air pollution matters.
+This individual will be considered the point of contact for correction requests associated with this
+form.
+CERIS-ND Input:
+
+Section B – Notification Information
+Please select the option that applies: Select “Request to rescind previously-submitted Title V
+Permit to Operate Application”.
+Title V Applicability Date: Provide the date on which the exceedance occurred.
+File Attachment(s): Upload supporting documentation indicating that emissions have gone below
+Title V thresholds.
+CERIS-ND Input:
+
+Appendix H
+Title V Source Status Rescindment of Obligation to
+Submit Application
+
+Instructions:
+This form has been developed as a multipurpose tool for submitting Title V notifications,
+applications, and application rescindment requests. The instructions in this appendix pertain to the
+following:
+
+
+Request a rescindment of the obligation to submit an application due to emissions falling
+below major source thresholds prior to an application being due.
+
+Section A – Facility Information
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+CERIS-ND Input:
+
+Contact Person for Air Pollution Matters: Provide a contact person for air pollution matters.
+This individual will be considered the point of contact for correction requests associated with this
+form.
+CERIS-ND Input:
+
+Section B - Notification Information
+Please select the option that applies: Select “Request to rescind the obligation to submit an
+application within 12 months of the date the facility became subject to the Title V Permit to
+Operate program”.
+Title V Applicability Date: Provide the date on which the exceedance occurred.
+File Attachment(s): Upload supporting documentation indicating that emissions have gone below
+Title V thresholds.
+CERIS-ND Input:
+Example: Title V Applicability Date: 05/01/2025 (< 12 months)
+
+❖ The Department has enabled a feature in this form which tracks the number of months since
+the facility exceeded Title V thresholds, based upon the date entered. When the number of
+months exceeds 12 (1 year), an automatic warning will appear on the form, denoting a
+failure to submit a Title V application to the Department within the time specified in 4.B.2
+of GP-OG v1.0, NDAC Subsection 33.1-15-14-06.4, and 40 CFR 70.5(a)1(i). The form
+will not be able to be completed and submitted if this note is present, as the time allowed
+to request rescindment has been exceeded.
+
+Example: Title V Applicability Date: 05/01/2024 (> 12 months)
+
+Appendix I
+Prevention of Significant Deterioration (PSD)
+Threshold Exceedance Notification
+
+Instructions:
+
+
+
+
+This notification should be submitted using the “Air General Compliance Submittal” form.
+This method of notification can be used to fulfill Condition 4.C of GP-OG.
+NOTE: To maintain compliance with Permit Condition 4.C.1 of the GP-OG, notification
+of the PSD exceedance must be submitted to the Department within one business day of
+discovery.
+
+Section A – General Information
+Owner / Permittee: Provide the owner / operator name of the facility as described in the
+Department of Mineral Resources- Oil and Gas Division Well Index and the owner / operator’s
+address. This address should be representative of the primary office in which the owner / operator
+would like regulatory correspondence addressed and mailed.
+CERIS-ND Input:
+
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+Facility Location (GPS Coordinates): Provide the GPS Coordinates of the facility. If the facility
+is composed of several well pads, provide the location in which the majority of the process
+equipment is located.
+CERIS-ND Input:
+
+Subject: Provide a brief description of the cause of the PSD exceedance.
+CERIS-ND Input:
+
+Section B – Contact Information
+Person to contact regarding this report: Provide a contact person for air pollution matters. This
+individual will be considered the point of contact for correction requests associated with this form.
+CERIS-ND Input:
+
+Section C – Attached Documentation
+File Attachment(s): Upload a file attachment including an in-depth description of the cause of the
+PSD exceedance, date the exceedance occurred, duration of the exceedance, emissions
+calculations, and corrective actions.
+CERIS-ND Input:
+
+Appendix J
+Unavoidable Malfunction Notification
+
+Instructions:
+This form has been developed to provide a template for upstream oil & gas production facilities to
+submit the necessary follow-up information as described in NDAC 33.1-15-01-13 (2)(c). The
+Department will use the information provided, and any supporting documentation supplied by the
+owner or operator, to make a determination on a case-by-case basis regarding the validity of the
+unavoidable equipment malfunction and the potential pursuit of further enforcement action.
+Though this form does cover all necessary requirements as detailed in NDAC 33.1-15-01-13 (2)(c),
+please be aware that the burden of proof relies on the owner or operator of the source. This may
+result in the Department requesting further information to ensure there is sufficient demonstration
+that the equipment malfunction was unavoidable.
+
+Section A – Contact Information
+Contact Information: Provide a contact person for air pollution matters. This individual will be
+considered the point of contact for correction requests associated with this form.
+CERIS-ND Input:
+
+Section B – Malfunction Description
+Subject: Select the subject(s) of the malfunction from the dropdown menu.
+Comment: Provide a description of the malfunction.
+Estimated Duration: Provide the estimated duration of the malfunction as described in the initial
+notification submitted per NDAC 33.1-15-01-13(2)(a).
+CERIS-ND Input:
+
+Section C – Unavoidable Malfunction Determination
+The excess emissions were caused by a sudden, unavoidable breakdown of technology that
+was beyond the reasonable control of the owner or operator: Comment is required. N/A is not
+an acceptable comment, unless uploading comment as a file attachment.
+The excess emissions could not have been avoided by better operation and maintenance, did
+not stem from an activity or event that could have been foreseen and avoided or planned for:
+Comment is required. N/A is not an acceptable comment, unless uploading comment as a file
+attachment.
+To the extent practicable, the source maintained and operated the air pollution control
+equipment and process equipment in a manner consistent with good practice for minimizing
+emissions, including minimizing any bypass emissions: Comment is required. N/A is not an
+acceptable comment, unless uploading comment as a file attachment.
+Any necessary repairs were made as quickly as practicable, using off-shift labor and
+overtime as needed and possible: Comment is required. N/A is not an acceptable comment,
+unless uploading comment as a file attachment.
+All practicable steps were taken to minimize the potential impact of the excess emissions on
+ambient air quality: Comment is required. N/A is not an acceptable comment, unless uploading
+comment as a file attachment.
+The excess emissions are not part of a recurring pattern that may have been caused by
+inadequate operation or maintenance or inadequate design of the malfunctioning equipment:
+Comment is required. N/A is not an acceptable comment, unless uploading comment as a file
+attachment.
+
+CERIS-ND Input:
+
+Section D – Attached Documents
+File Attachment(s): Provide any additional pertinent information (optional).
+CERIS-ND Input:
+
+Appendix K
+Oil & Gas Change of Ownership Notification
+Instructions:
+Per GP-OG Condition 7.G., the Department must be notified within 30 days
+following any change of ownership. Notification must be provided by the NEW owner via
+CERIS-ND by completing this form under the company’s general file. The notification must
+include the buyer / transferee company information, seller / transferor company
+information, effective date of transfer of permit responsibility, coverage, and liability, and a
+complete list of assets changing ownership.
+Upon review, the Department will determine whether to approve the transfer of the general
+permit(s) to the new owner.
+
+Section A – Buyer / Transferee Information
+Person to contact regarding this notification: Provide a contact person for air pollution matters.
+This individual will be considered the point of contact for correction requests associated with this
+form.
+Buyer / Transferee: Provide the company information for the new owner of the assets changing
+ownership.
+CERIS-ND Input:
+
+Section B (1) – Seller / Transferor Information
+Seller / Transferor: Provide the company information for the previous owner of the assets
+changing ownership.
+Change of Ownership Effective Date: Provide the date of transfer of permit responsibility,
+coverage, and liability.
+Are you acquiring assets from an additional seller / transferor: If acquiring assets from
+additional companies, select “Yes” and complete Sections B(2) and B(3) if applicable.
+CERIS-ND Input:
+
+Section C – Attached Documentation
+File Attachment(s): Upload a complete list of assets changing ownership.
+CERIS-ND Input:
+
+Appendix L
+Stack Test Protocol Submission
+Instructions:
+This form should be used for attaching and submitting documents for an Emissions Test Protocol
+Submission as required by GP-OG Condition 5.A.
+Tests are normally performed by independent testing companies with expertise in the applicable
+test method(s) being conducted. The Department must be notified at least 30 days prior to testing
+to allow sufficient time for:
+
+
+
+
+A Department review of the proposed test procedures and, if necessary, a test site
+inspection
+A pre-test meeting with Department staff, (if necessary).
+Scheduling a Department representative to observe the performance test.
+
+Section A – Contact Information
+Person to contact regarding this report: Provide a contact person for air pollution matters. This
+individual will be considered the point of contact for correction requests associated with this form.
+CERIS-ND Input:
+
+Section B – Testing Company
+Testing Company’s Information: Provide a point of contact from the testing company for
+correction requests associated with this form.
+CERIS-ND Input:
+
+Section C – Test Units and Dates
+Testing Reason: Select which option applies from the dropdown menu.
+Planned Testing Start and End Dates: Provide the scheduled start and end dates of the testing.
+Test Unit(s): Enter all emission units and associated emission points for each unit to be tested.
+Reference Method(s): Select all applicable reference methods planned for the testing.
+Pollutant(s): Select all pollutants to be tested.
+CERIS-ND Input:
+
+Section D – Test Protocol Upload
+File Attachment(s): Upload the test protocol provided by the testing company.
+CERIS-ND Input:
+
+Appendix M
+Air Stack Test Reports
+Instructions:
+This form should be used to report information about a stack test conducted as required by GPOG Condition 5, and as required under applicable state and federal regulations.
+
+Section A – General Information
+Owner / Permittee: Provide the owner / operator name of the facility as described in the
+Department of Mineral Resources- Oil and Gas Division Well Index and the owner / operator’s
+address. This address should be representative of the primary office in which the owner / operator
+would like regulatory correspondence addressed and mailed.
+CERIS-ND Input:
+
+Facility Name: Provide the formal name of the facility as determined by the company / owner /
+operator.
+Facility Location (GPS Coordinates): Provide the GPS Coordinates of the facility. If the facility
+is composed of several well pads, provide the location in which the majority of the process
+equipment is located.
+CERIS-ND Input:
+
+Section B – Report Information
+Person to contact regarding this report: Provide a contact person for air pollution matters. This
+individual will be considered the point of contact for correction requests associated with this form.
+CERIS-ND Input:
+
+Section C – Test Information
+Reason for Testing: Select which option applies from the dropdown menu.
+Test Start and End Date: Provide the actual start and end dates of the test.
+Testing Company Name and Address: Provide the name and address of the company that
+conducted the testing.
+Testing Company Representative: Provide a point of contact from the testing company for
+correction requests associated with this form.
+CERIS-ND Input:
+
+Section D – Test Results
+Emission Unit: Provide the emission unit name, as listed in the GP-OG.
+SN: Provide the serial number of the emission unit.
+Manufactured Date: Provide the manufacture date of the emission unit.
+Rating: Provide the rating of the emission unit.
+Rating Units: Provide the rating units of the emission unit.
+Test Date: Provide the date that the emission unit was tested.
+Reference Method(s): Select all applicable reference methods utilized during the testing.
+Pollutant(s) Tested: Enter all pollutants tested for, as well as the test results, as indicated in the
+test report.
+CERIS-ND Input:
+
+Section E – Attach Test Report(s)
+File Attachment(s): Upload the test report provided by the testing company.
+CERIS-ND Input:
+
+Appendix N
+Control of Storage Tanks at Shut-In Upstream
+Production Facilities
+
+

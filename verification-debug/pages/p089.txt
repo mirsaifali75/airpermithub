@@ -1,0 +1,2066 @@
+61-62.1
+Definitions and General Requirements
+Regulation History as Published in State Register
+Date
+Document Number
+Volume
+February 25, 1983
+June 24, 1983
+314
+7
+May 24, 1985
+457
+9
+May 23, 1986
+715
+10
+February 26, 1988
+769
+12
+April 22, 1988
+970
+12
+February 24, 1989
+868
+13
+March 24, 1989
+1053
+13
+May 25, 1990
+1067
+14
+August 24, 1990
+1267
+14
+August 24, 1990
+1310
+14
+June 26, 1992
+1507
+16
+June 23, 1995
+1798
+19
+January 26, 1996
+1913
+20
+June 26, 1998
+2244
+22
+August 28, 1998
+2328
+22
+June 25, 1999
+2352
+23
+May 26, 2000
+2444
+24
+July 27, 2001
+2622
+25
+October 26, 2001
+2648
+25
+August 23, 2002
+2736
+26
+June 27, 2003
+2840
+27
+February 25, 2005
+2873
+29
+June 24, 2005
+2943
+29
+August 26, 2005
+2980
+29
+May 25, 2007
+3069
+31
+October 24, 2008
+3224
+32
+May 28, 2010
+4085
+34
+November 26, 2010
+4131
+34
+
+3 | Regulation 61-62.1
+
+Issue
+6
+5
+5
+2
+4
+2
+3
+6
+9
+9
+6
+6
+1
+6
+8
+6
+5
+7
+10
+8
+6
+2
+6
+8
+5
+10
+5
+11
+
+May 27, 2011
+November 25, 2011 (Errata)
+January 27, 2012 (Errata)
+September 28, 2012 (Errata)
+April 26, 2013
+December 27, 2013
+June 27, 2014
+November 27, 2015
+June 24, 2016
+September 23, 2016
+August 25, 2017
+April 24, 2020
+May 23, 2025
+
+4130
+4130
+4130
+4130
+4330
+4387
+4388
+4577
+4590
+4650
+4750
+4873
+5325
+
+35
+35
+36
+36
+37
+37
+38
+39
+40
+40
+41
+44
+49
+
+5
+11
+1
+9
+4
+12
+6
+11
+6
+9
+8
+4
+5
+
+Table of Contents
+SECTION I – DEFINITIONS ........................................................................................................6
+SECTION II – PERMIT REQUIREMENTS ..................................................................................18
+(A) Construction Permits ......................................................................................................... 18
+(B) Exemptions from the Requirement to Obtain a Construction Permit ........................... 20
+(C) Construction Permit Applications ..................................................................................... 22
+(D) General Construction Permits .......................................................................................... 24
+(E) Synthetic Minor Construction Permits .............................................................................. 24
+(F) Operating Permits............................................................................................................... 27
+(G) Conditional Major Operating Permits .............................................................................. 28
+(H) Operating Permit Renewal Requests ............................................................................... 31
+(I) Registration Permits ............................................................................................................ 32
+(J) Permit Conditions ................................................................................................................ 33
+(K) Exceptions ........................................................................................................................... 35
+(L) Emergency Provisions ........................................................................................................ 36
+(M) Transfer of Ownership/Operation ................................................................................... 36
+(N) Public Participation Procedures........................................................................................ 37
+(O) Inspection and Entry .......................................................................................................... 38
+SECTION III – EMISSIONS INVENTORY AND EMISSIONS STATEMENTS .............................38
+(A) General ................................................................................................................................ 38
+(B) Emissions Inventory Reporting Requirements ................................................................ 38
+(C) Emissions Statement Requirements ................................................................................. 42
+
+4 | Regulation 61-62.1
+
+SECTION IV – SOURCE TESTS .................................................................................................42
+(A) Applicability ......................................................................................................................... 42
+(B) Submission and Approval of a Site-Specific Test Plan ..................................................... 42
+(C) Requirements for a Site-Specific Test Plan ....................................................................... 43
+(D) Notification and Conduct of Source Tests ....................................................................... 46
+(E) Source Test Method Performance Audit Program .......................................................... 47
+(F) Final Source Test Report .................................................................................................... 49
+(G) Noncompliant Results........................................................................................................ 50
+(H) Analytical Observation ....................................................................................................... 50
+(I) Site Inspection ...................................................................................................................... 50
+(J) Modifications........................................................................................................................ 50
+SECTION V – CREDIBLE EVIDENCE .........................................................................................50
+
+5 | Regulation 61-62.1
+
+SECTION I – DEFINITIONS
+The following words and phrases when used in the Regulations and Standards shall, for the purpose of
+these regulations, have the meanings respectively ascribed to them in this section, unless a different
+meaning is clearly indicated. This section augments the South Carolina Pollution Control Act.
+(1) Acid Mist – Means mist or droplets of sulfuric or other acids. Sulfuric acid mist includes sulfur
+trioxide (SO3) and sulfuric acid vapor as well as liquid mist.
+(2) Add – Means additions to a process which will increase size, scope, or emissions from such process.
+(3) Administrator – Means the Administrator of the United States Environmental Protection Agency
+(EPA) or his/her designee.
+(4) Afterburner – Means an auxiliary burner for destroying unburned or partially burned combustion
+gases after they have passed from the combustion chamber.
+(5) Air Curtain Incinerator – Means an incinerator that operates by forcefully projecting a curtain of air
+across an open chamber or pit in which burning occurs. Incinerators of this type can be constructed above
+or below ground and require a refractory lined chamber or pit.
+(6) Alter – Means modification or change in a process or processes which would affect emissions to the
+atmosphere.
+(7) Ambient Air Quality Standards – Means the standard for the quality of ambient air at or beyond a
+property line on which a source of pollution is emitting.
+(8) Application – Means a form provided by the Department which is prescribed to provide the
+information required to grant approval to construct and operate a source or an incinerator; or to report an
+existing incinerator.
+(9) Biologicals – Means preparations made from living organisms and their products, including vaccines,
+cultures, etc., intended for use in diagnosing, immunizing, or treating humans or animals or in research
+pertaining thereto.
+(10) Blood Products – Means any product derived from human blood, including but not limited to blood
+plasma, platelets, red or white blood corpuscles, and other derived licensed products, such as interferon,
+etc.
+(11) Reserved.
+(12) Body Fluids – Means liquid emanating or derived from humans and limited to blood; dialysate;
+amniotic, cerebrospinal, synovial, pleural, peritoneal, and pericardial fluids; and semen and vaginal
+secretions.
+(13) Boiler – Means an enclosed device using controlled flame combustion and having specific
+characteristics including the following:
+(a) The combustion chamber and primary energy recovery section shall be of integral design (for
+example, waste heat recovery boilers attached to incinerators are not boilers). To be of integral design, the
+combustion chamber and the primary energy recovery sections (such as water walls and super heaters) shall
+
+6 | Regulation 61-62.1
+
+be physically formed into one (1) manufactured or assembled unit. A unit in which the combustion chamber
+and the primary energy recovery sections are joined only by ducts or connections carrying flue gas is not
+integrally designed; however, secondary energy recovery equipment (such as economizers or air preheaters)
+need not physically be formed into the same unit as the combustion chamber and the primary energy
+recovery section. The following units are not precluded from boilers solely because they are not of integral
+design: process heaters (units that transfer energy directly to a process stream) and fluidized bed combustion
+units; and
+(b) At least seventy-five (75) percent of recovered energy shall be “exported,” for example, not used
+for internal uses like preheating of combustion air or fuel, or driving combustion air fans or feedwater
+pumps.
+(14) Bypass Stack – Means a device used for discharging combustion gases to avoid severe damage to
+the air pollution control device or other equipment.
+(15) CAA – Means the Clean Air Act, as amended, 42 U.S.C. 7401, et seq. Also referred to as “the Act.”
+(16) Chemotherapeutic Waste – Means all waste resulting from the production or use of antineoplastic
+agents used for the purpose of stopping or reversing the growth of malignant cells. Chemotherapeutic waste
+shall not include any waste containing antineoplastic agents that are listed as hazardous waste under Section
+261 of Regulation 61-79, Hazardous Waste Management.
+(17) Clean Wood – Means untreated wood or untreated wood products including clean untreated lumber,
+tree stumps (whole or chipped), and tree limbs (whole or chipped). Clean wood does not include yard waste,
+which is defined elsewhere in this section, or construction, renovation, and demolition waste (including but
+not limited to railroad ties and telephone poles).
+(18) Code of Federal Regulations (CFR) – Means the general and permanent rules codified and published
+in the Federal Register by the departments and agencies of the federal government.
+(19) Commercial Incinerator – Means an incinerator that burns non-hazardous waste from commercial
+activities with a design capacity of no more than 1250 pounds per hour (lb/hr) and which burns no more
+than six (6) tons per day (tons/day). Incinerators of this type not meeting these limits are considered
+municipal waste combustors. This definition does not include retail and industrial incinerators nor does it
+include waste from maintenance activities at commercial establishments.
+(20) Reserved.
+(21) Conditional Major Source – Means a stationary source that obtains a federally enforceable physical
+or operational limitation from the Department to limit or cap the stationary source’s potential to emit to
+avoid being defined as a major source as defined by applicable federal and state regulations.
+(22) Continuous Emission Monitoring System or CEMS – Means a monitoring system for continuously
+measuring and recording the emissions of a pollutant from an affected facility.
+(23) Continuous Program of Physical On-site Construction – Means significant and continuous site
+preparation work such as major clearing or excavation followed by placement of footings, pilings, and other
+materials of construction, assembly, or installation of unique facilities or equipment at the site of the source.
+With respect to a change in the method of operating, this term refers to those on-site activities, other than
+preparatory activities, which mark the initiation of the change.
+
+7 | Regulation 61-62.1
+
+(24) Crematory Incinerator – Means any incinerator designed and used solely for the burning of human
+remains or animal remains.
+(25) Department – Means the South Carolina Department of Environmental Services.
+(26) Dioxins/Furans – Means the combined emissions of tetra- through octa-chlorinated
+dibenzo-paradioxins and dibenzofurans, as measured by EPA Reference Method 23 (40 CFR Part 60,
+Appendix A).
+(27) Emission – Means a release or discharge to the outdoor (ambient) atmosphere of air contaminants,
+including fugitive emissions.
+(28) Emission Data – Means the definition contained in 40 CFR 2.301(a)(2), July 1, 1986, is incorporated
+by reference.
+(29) Emission Limitation (and Emission Standard) – Means a requirement established by the state or by
+the Administrator which limits the quantity, rate, or concentration of emissions of air pollutants on a
+continuous basis, including any requirements which limit the level of opacity, prescribe equipment, set fuel
+specifications, or prescribe operation or maintenance procedures for a source to assure continuous emission
+reduction.
+(30) Federally Enforceable – Means all limitations and conditions which are enforceable by the
+Administrator and citizens under the Act, including those requirements developed pursuant to 40 CFR Parts
+60, 61, 63, and 70; requirements within the South Carolina State Implementation Plan (SIP); and any permit
+requirements established pursuant to 40 CFR 52.21 or under regulations approved pursuant to 40 CFR Part
+51 Subpart I, including operating permits issued under an EPA-approved program that is incorporated into
+the SIP and expressly requires adherence to any permit issued under such program.
+(31) Fuel Burning Operation – Means use of a furnace, boiler, device, or mechanism used principally,
+but not exclusively, to burn any fuel for the purpose of indirect heating in which the material being heated
+is not contacted by and adds no substance to the products of combustion.
+(32) Fugitive Dust – Means a type of particulate emission that becomes airborne by forces of wind, man’s
+activity, or both, including, but not limited to, construction sites, tilled land, materials storage piles, and
+materials handling.
+(33) Fugitive Emissions – Means emissions which could not reasonably pass through a stack, chimney,
+vent, or other functionally equivalent opening.
+(34) Garbage – Means animal and vegetable waste resulting from the handling, preparation, cooking, and
+serving of foods.
+(35) Hazardous Air Pollutant (HAP) – Means a pollutant which is the subject of National Emission
+Standards for Hazardous Air Pollutants (NESHAP) promulgated by the EPA by publication in the Federal
+Register.
+(36) Hazardous Waste – Means any waste identified as such by Regulation 61-79.
+(37) Hazardous Waste Fuel – Means hazardous waste that has a heat value greater than 5000 British
+thermal unit per pound (Btu/lb) and is burned in an industrial or utility boiler or industrial furnace for energy
+recovery, except for hazardous wastes exempted by Section 266.30(b) of Regulation 61-79.
+
+8 | Regulation 61-62.1
+
+(38) Hazardous Waste Incinerator – Means an incinerator whose primary function is to combust
+hazardous waste, except for devices which have qualified for exemption as provided in Sections 264.340(b)
+or 265.340(b) of Regulation 61-79.
+(39) Hospital – Means any facility which has an organized medical staff, maintains at least six (6)
+inpatient beds, and where the primary function of the institution is to provide diagnostic and therapeutic
+patient services and continuous nursing care primarily to human inpatients who are not related and who
+stay on average in excess of twenty-four (24) hours per admission. This definition does not include facilities
+maintained for the sole purpose of providing nursing or convalescent care to human patients who generally
+are not acutely ill but who require continuing medical supervision.
+(40) Hospital/Medical/Infectious Waste Incinerator or HMIWI or HMIWI Unit – Means any device that
+combusts any amount of hospital waste and/or medical/infectious waste.
+(41) Hospital Waste – Means discards generated at a hospital, except unused items returned to the
+manufacturer. The definition of hospital waste does not include human corpses, remains, and anatomical
+parts that are intended for interment or cremation.
+(42) Incinerator – Means any engineered device used in the process of controlled combustion of waste
+for the purpose of reducing the volume; removing the contamination and/or reducing or removing the
+hazardous potential of the waste charged by destroying combustible matter leaving the noncombustible
+ashes, material, and/or residue; and which does not meet the criteria nor classification as a boiler nor is
+listed as an industrial furnace.
+(43) Industrial Boiler – Means a boiler that produces steam, heated air, or other heated fluids for use in a
+manufacturing process.
+(44) Industrial Furnace – Means any of the following enclosed devices that are integral components of
+manufacturing processes and that use controlled flame devices to accomplish recovery of materials or
+energy:
+(a) Cement kilns
+(b) Lime kilns
+(c) Aggregate kilns
+(d) Phosphate kilns
+(e) Coke ovens
+(f) Blast furnaces
+(g) Smelting, melting, and refining furnaces (including pyrometallurgical devices such as tray
+furnaces, cupolas, reverberator furnaces, sintering machines, roasters, and foundry furnaces)
+(h) Titanium dioxide chloride process oxidation reactors
+(i) Methane reforming furnaces
+
+9 | Regulation 61-62.1
+
+(j) Pulping liquor recovery furnaces
+(k) Combustion devices used in the recovery of sulfur values from spent sulfuric acid
+(l) Such other devices as the Department may determine on a case-by-case basis using one (1) or more
+of the following factors:
+(i) The design and use of the device primarily to accomplish recovery of material products;
+(ii) The use of the device to burn or reduce raw materials to make a material product;
+(iii) The use of the device to burn or reduce secondary materials as effective substitutes for raw
+materials in processes using raw materials as principal feedstocks;
+(iv) The use of the device to burn or reduce secondary materials as ingredients in an industrial
+process to make a material product;
+(v) The use of the device in common industrial practice to produce a material product; and
+(vi) Other factors as appropriate.
+(45) Industrial Incinerator – Means any incinerator utilized in an industrial plant that does not meet the
+definition for any other type of incinerator or an incinerator used to combust Type 5 or 6 waste at any site.
+(46) In Existence – Means that the owner or operator has obtained all necessary construction permits
+required by this Department and either has:
+(a) Begun, or caused to begin, a continuous program of physical on-site construction of the source; or
+(b) Entered into binding agreements or contractual obligations, which cannot be canceled or modified
+without substantial loss to the owner or operator, to undertake a program of construction of the source to
+be completed in a reasonable time, or that the owner or operator possesses a valid operating permit for the
+source prior to the effective date of a regulation or standard.
+(47) Kraft Pulp Mill – Means any stationary source which produces pulp from wood by cooking
+(digesting) wood chips in a water solution of sodium hydroxide and sodium sulfide (white liquor) at a high
+temperature and pressure. Regeneration of the cooking chemicals through a recovery process is also
+considered part of the kraft pulp mill.
+(48) Major Source – Means, except as otherwise provided, any source which directly emits, or has the
+potential to emit, greater than or equal to the major source threshold as defined by applicable federal and
+state regulations.
+(49) Malfunction – Means any sudden, infrequent, and not reasonably preventable failure of air pollution
+control equipment, process equipment, or a process to operate in a normal or usual manner. Failures that
+are caused, in part, by poor maintenance or careless operation are not malfunctions. During periods of
+malfunction, the operator shall operate within established parameters as much as possible, and monitoring
+of all applicable operating parameters shall continue until all waste has been combusted or until the
+malfunction ceases, whichever comes first.
+(50) Mass Emission Rate – Means the weight discharged per unit of time.
+
+10 | Regulation 61-62.1
+
+(51) Medical/Infectious Waste – Means any waste generated in the diagnosis, treatment, or immunization
+of human beings or animals, in research pertaining thereto, or in the production or testing of biologicals
+listed below; and any waste defined as infectious waste in Regulation 61-105, Infectious Waste
+Management. The definition of medical/infectious waste does not include hazardous waste identified or
+listed in Regulation 61-79.261; household waste, as defined in Regulation 61-79.261.4(b)(1); ash from
+incineration of medical/infectious waste, once the incineration process has been completed; human corpses,
+remains, and anatomical parts that are intended for interment or cremation; and domestic sewage materials
+identified in Regulation 61-79.261.4(a)(1).
+(a) Cultures and stocks of infectious agents and associated biologicals, including: cultures from
+medical and pathological laboratories; cultures and stocks of infectious agents from research and industrial
+laboratories; wastes from the production of biologicals; discarded live and attenuated vaccines; and culture
+dishes and devices used to transfer, inoculate, and mix cultures.
+(b) Human pathological waste – tissues, organs, body parts, and body fluids that are removed during
+surgery or autopsy or other medical procedures, and specimens of body fluids and their containers.
+(c) Human blood and blood products including:
+(i) Liquid waste human blood;
+(ii) Products of blood;
+(iii) Items saturated and/or dripping with human blood; or
+(iv) Items that were saturated and/or dripping with human blood that are now caked with dried
+human blood; including serum, plasma, and other blood components, and their containers which were used
+or intended for use in either patient care, testing and laboratory analysis, or the development of
+pharmaceuticals. Intravenous bags are also included in this category.
+(d) Sharps – instruments used in animal or human patient care or treatment or in medical, research, or
+industrial laboratories, including hypodermic needles, syringes (with or without the attached needle),
+pasteur pipettes, scalpel blades, blood vials, needles with attached tubing, and culture dishes (regardless of
+presence of infectious agents). Also included are other types of broken or unbroken glassware that were in
+contact with infectious agents, such as used slides and cover slips.
+(e) Animal waste including contaminated animal carcasses, body parts, and bedding of animals that
+were known to have been exposed to infectious agents during research (including research in veterinary
+hospitals), production of biologicals, or testing of pharmaceuticals.
+(f) Isolation wastes – biological waste and discarded materials contaminated with blood, excretions,
+exudates, or secretions from humans who are isolated to protect others from highly communicable diseases
+or isolated animals known to be infected with highly communicable diseases.
+(g) Unused sharps including the following unused, discarded sharps: hypodermic needles, suture
+needles, syringes, and scalpel blades.
+(52) Multiple-Chamber Incinerator – Means an incinerator consisting of at least two (2) refractory lined
+combustion chambers (primary and secondary) in series, physically separated by refractory walls,
+interconnected by gas passage ports or ducts.
+
+11 | Regulation 61-62.1
+
+(53) Municipal Solid Waste, MSW, or Municipal-type Solid Waste – (a) Means household,
+commercial/retail, and/or institutional waste. Household waste includes material discarded by single and
+multiple residential dwellings, hotels, motels, and other similar permanent or temporary housing
+establishments or facilities. Commercial/retail waste includes material discarded by stores, offices,
+restaurants, warehouses, nonmanufacturing activities at industrial facilities, and other similar
+establishments or facilities. Institutional waste includes material discarded by schools, nonmedical waste
+discarded by hospitals, material discarded by nonmanufacturing activities at prisons and government
+facilities, and material discarded by other similar establishments or facilities. Household, commercial/retail,
+and institutional wastes include:
+(i) Yard waste;
+(ii) Refuse-derived fuel; and
+(iii) Motor vehicle maintenance materials limited to vehicle batteries and tires.
+(b) Household, commercial/retail, and institutional waste (MSW) does not include used oil; sewage
+sludge; wood pallets; construction, renovation, and demolition wastes (which includes, but is not limited
+to, railroad ties and telephone poles); clean wood; industrial process or manufacturing wastes (including
+Type 5 or 6 waste); medical waste; radioactive contaminated waste; hazardous waste; or motor vehicles
+(including motor vehicle parts or vehicle fluff).
+(54) Municipal Waste Combustor, MWC, or Municipal Waste Combustor Unit – Means any setting or
+equipment that combusts solid, liquid, or gasified municipal solid waste including, but not limited to,
+field-erected incinerators (with or without heat recovery), modular incinerators (starved-air or excess-air),
+boilers (for example, steam generating units) and furnaces (whether suspension-fired, grate-fired,
+mass-fired, or fluidized bed-fired, etc.), air curtain incinerators, and pyrolysis/combustion units. Municipal
+waste combustors do not include pyrolysis/combustion units located at plastics/rubber recycling units.
+Municipal waste combustors do not include internal combustion engines, gas turbines, or other combustion
+devices that combust landfill gases collected by landfill gas collection systems. For the purpose of
+determining reconstruction or modification, as defined in 40 CFR Part 60 Subpart A, or Regulation 62.5,
+Standard No. 3, to a municipal waste combustor, the following applies:
+(a) The boundaries of a municipal solid waste combustor are defined as follows. The municipal waste
+combustor unit includes, but is not limited to, the municipal solid waste fuel feed system, grate system, flue
+gas system, bottom ash system, and the combustor water system. The municipal waste combustor boundary
+starts at the municipal solid waste pit or hopper and extends through:
+(i) The combustor flue gas system, which ends immediately following the heat recovery equipment
+or, if there is no heat recovery equipment, immediately following the combustion chamber;
+(ii) The combustor bottom ash system, which ends at the truck loading station or similar ash handling
+equipment that transfers the ash to final disposal, including all ash handling systems that are connected to
+the bottom ash handling system; and
+(iii) The combustor water system, which starts at the feed water pump and ends at the piping exiting
+the steam drum or superheater.
+(b) The municipal waste combustor unit does not include air pollution control equipment, the stack,
+water treatment equipment, or the turbine-generator set.
+
+12 | Regulation 61-62.1
+
+(55) NAICS Code – Means North American Industry Classification System (NAICS) Code, a six (6)
+digit coding system, which attempts to classify all business establishments by the types of products or
+services they provide.
+(56) Non-Industrial Boiler – Means any boiler not classified as an industrial boiler.
+(57) Non-Industrial Furnace – Means any furnace not classified as an industrial furnace.
+(58) Non-Spec. Oil (Off-Spec. Oil) – See definition of used oil.
+(59) Opacity – Means the degree to which emissions reduce the transmission of light and obscure the
+view of an object in the background.
+(60) Open Burning – Means any fire or smoke-producing process which is not conducted in any boiler
+plant, furnace, high temperature processing unit, incinerator or flare, or in any other such equipment
+primarily designed for the combustion of fuel or waste material.
+(61) Part 70 Permit – Means any permit or group of permits covering a source subject to the permitting
+requirements of Regulation 61-62.70. The use of the term “Title V Permit” shall be construed to mean “Part
+70 Permit.”
+(62) Particulate Matter – Means any material, except uncombined water, that exists in a finely divided
+form as a liquid or solid at standard conditions.
+(63) Particulate Matter Emissions – Means all finely divided solid or liquid material, other than
+uncombined water, emitted to the ambient air as measured by an applicable reference method described in
+40 CFR Part 60, July 1, 1987, or an equivalent or alternative method approved by the Department, with the
+concurrence of the EPA.
+(64) Pathological Waste – Means waste material consisting of only human or animal remains, anatomical
+parts, and/or tissue; the bags/containers used to collect and transport the waste material; and animal bedding
+(if applicable).
+(65) Plant – Means, except as otherwise provided, any stationary source or combination of stationary
+sources, which is located on one (1) or more contiguous or adjacent properties and owned or operated by
+the same person(s) under common control.
+(66) Plastics/Rubber Recycling Unit – Means an integrated processing unit where plastics, rubber, and/or
+rubber tires are the only feed materials (incidental contaminants may be included in the feed materials) and
+they are processed into a chemical plant feedstock or petroleum refinery feedstock where the feedstock is
+marketed to and used by a chemical plant or petroleum refinery as input feedstock. The combined weight
+of the chemical plant feedstock and petroleum refinery feedstock produced by the plastics/rubber recycling
+unit on a calendar quarter basis shall be more than seventy (70) percent of the combined weight of the
+plastics, rubber, and rubber tires processed by the plastics/rubber recycling unit on a calendar quarter basis.
+The plastics, rubber, and/or rubber tire feed materials to the plastics/rubber recycling unit may originate
+from the separation or diversion of plastics, rubber, or rubber tires from MSW or industrial solid waste; and
+may include manufacturing scraps, trimmings, off-specification plastics, rubber, and rubber tire discards.
+The plastics, rubber, and rubber tire feed materials to the plastics/rubber recycling unit may contain
+incidental contaminants (for example, paper labels on plastic bottles, metal rings on plastic bottle caps,
+etc.).
+
+13 | Regulation 61-62.1
+
+(67) PM2.5 – Means particulate matter with an aerodynamic diameter less than or equal to a nominal 2.5
+micrometers emitted to the ambient air as measured by a reference method based on Appendix L of 40 CFR
+Part 50 and designated in accordance with 40 CFR Part 53 or by an equivalent method designated in
+accordance with 40 CFR Part 53.
+(68) PM2.5 Emissions – Means finely divided solid or liquid material with an aerodynamic diameter less
+than or equal to a nominal 2.5 micrometers emitted to the ambient air as measured by a reference method
+approved by the Department with concurrence of the EPA.
+(69) PM10 – Means particulate matter with an aerodynamic diameter less than or equal to a nominal 10
+micrometers as measured by a reference method based on Appendix J of 40 CFR Part 50 and designated in
+accordance with 40 CFR Part 53 or by an equivalent method designated in accordance with 40 CFR Part
+53.
+(70) PM10 Emissions – Means finely divided solid or liquid material with an aerodynamic diameter less
+than or equal to a nominal 10 micrometers emitted to the ambient air as measured by a reference method
+approved by the Department with concurrence of the EPA.
+(71) Potential to Emit – Means the maximum capacity of a source to emit a regulated pollutant under its
+physical and operational design. Any physical or operational limitation on the capacity of the source to emit
+a regulated pollutant, including air pollution control equipment and restrictions on hours of operation or on
+the type or amount of material combusted, stored, or processed, shall be treated as part of its design only if
+the limitation or the effect it would have on emissions is federally enforceable. Secondary emissions do not
+count in determining the potential to emit of a source.
+(72) Process Industry – Means any source engaged in the manufacture, processing, handling, treatment,
+forming, storing, or any other action upon materials except fuel-burning operations.
+(73) Process Weight – Means the total weight of all materials introduced into a source operation,
+including air and water where these materials become an integral part of the product and solids used as
+fuels, but excluding liquids and gases used solely as fuels.
+(74) Process Weight Rate – (a) Means a rate established as follows:
+(i) For continuous or long-run steady-state source operations, the total process weight for the entire
+period of continuous operation or for a typical portion thereof, divided by the number of hours of such
+period or portion thereof.
+(ii) For cyclical or batch unit operations or unit processes, the total process weight for a period that
+covers a complete operation or an integral number of cycles, divided by the hours of actual process
+operation during such a period.
+(b) Where the nature of any process or operation or the design of any equipment is such as to permit
+more than one interpretation of this definition, the interpretation that results in the minimum value for
+allowable emission shall apply.
+(75) Pyrolysis/Combustion Unit – Means a unit that produces gases, liquids, or solids through the heating
+of waste; and the gases, liquids, or solids produced are combusted and emissions vented to the atmosphere.
+(76) Refuse – Means garbage, rubbish, and/or trade waste.
+
+14 | Regulation 61-62.1
+
+(77) Refuse-derived Fuel – Means a type of municipal solid waste produced by processing municipal
+solid waste through shredding and size classification. This includes all classes of refuse-derived fuel
+including low-density fluff refuse-derived fuel through densified refuse-derived fuel and pelletized
+refuse-derived fuel.
+(78) Retail Business Type Incinerator – Means an incinerator that combusts waste typical of a retail
+business rather than domestic, commercial, or industrial activities.
+(79) Rubbish – Means solid wastes from residences and dwellings, commercial establishments, and
+institutions.
+(80) Salvage Operations – Means any operation of a business, trade, or industry engaged in whole or in
+part in salvaging or reclaiming any product or material including, but not limited to, metals, chemicals,
+shipping containers, drums, or automobiles.
+(81) Secondary Emissions – Means emissions which would occur as a result of the construction or
+operation of a major source or major modification but do not come from the major source or major
+modification itself. Secondary emissions shall be specific, well defined, quantifiable, and shall impact the
+same general area as the source or modification which causes the secondary emissions. Secondary
+emissions may include, but are not limited to:
+(a) Emissions from ships or trains moving to or from the new or modified source.
+(b) Emissions from any offsite support operation which would not otherwise be constructed or increase
+its emissions as a result of the construction or operation of the major source or major modification.
+(82) SIC Code – Means Standard Industrial Classification Codes which are four digit numerical codes
+designed by the U.S. Department of Labor in order to create uniform descriptions of business
+establishments.
+(83) Sludge Incinerator – Means an incinerator that combusts wastes containing more than ten (10)
+percent (dry weight basis) sludge produced by municipal or industrial wastewater treatment plants or each
+incinerator that charges more than 2205 pounds per day (lb/day) (dry weight basis) of sludge produced by
+municipal or industrial wastewater treatment plants.
+(84) Smoke – Means small gasborne and airborne particles arising from a process of combustion in
+sufficient number to be observable by a person of normal vision under normal conditions.
+(85) Solid Fuel – Means a fuel which is fired as a solid such as coal, lignite, and wood.
+(86) Spec. Oil – See definition of used oil.
+(87) Stack – Means any flue, conduit, chimney, or opening arranged to conduct an effluent into the open
+air.
+(88) Stack Height – Means the vertical distance measured in feet between the point of discharge from the
+stack or chimney into the outdoor atmosphere and the elevation of the land thereunder.
+(89) Standard Conditions – Means 760 millimeters of mercury (mmHg) at twenty-five (25) degrees
+Centigrade (C).
+
+15 | Regulation 61-62.1
+
+(90) Stationary Source – Means any building, structure, installation, or process which emits or may emit
+an air pollutant subject to regulation by any national or state standard. Use of the term “source” is to be
+construed to mean “stationary source.”
+(91) Substantial Loss – Means, generally, a loss which would equal or exceed ten (10) percent of the total
+initial project cost.
+(92) Synthetic Minor Source – Means a stationary source that obtains a federally enforceable physical or
+operational limitation from the Department to limit or cap the stationary source’s potential to emit to avoid
+being defined as a major source or major modification, as defined by applicable federal and state
+regulations.
+(93) Total Reduced Sulfur (TRS) – Means the sum of the sulfur compounds hydrogen sulfide, methyl
+mercaptan, dimethyl sulfide, and dimethyl disulfide that are released during the kraft pulping operation.
+(94) Total Suspended Particulate (TSP) – Means particulate matter as measured by the method described
+in Appendix B, 40 CFR Part 50, July 1, 1987.
+(95) Trade Waste – Means all solid, liquid, or gaseous material or rubbish resulting from construction,
+building operations, or the prosecution of any business, trade, or industry including, but not limited to,
+plastic products, cartons, paint, grease, oil and other petroleum products, chemicals, and cinders.
+(96) Untreated Lumber – Means wood or wood products that have been cut or shaped and include wet,
+air-dried, and kiln-dried wood products. Untreated lumber does not include wood products that have been
+painted, pigment-stained, or “pressure-treated.” Pressure-treating compounds include, but are not limited
+to, chromate copper arsenate, pentachlorophenol, and creosote.
+(97) Used Oil – Means any oil that has been refined from crude or synthetic oil and as a result of use,
+storage, or handling, has become unsuitable for its original purpose due to the presence of impurities or loss
+of original properties, but which may be suitable for further use and may be economically recyclable. This
+also includes absorbent material contaminated with used oil such as oily rags or absorbent blankets. Two
+(2) types of used oil are defined as follows:
+(a) Spec. Oil (Specification Oil) – Used oil that meets the following specifications: *
+(i) Arsenic – 5 parts per million (ppm) maximum;
+(ii) Cadmium – 2 ppm maximum;
+(iii) Chromium – 10 ppm maximum;
+(iv) Lead – 100 ppm maximum;
+(v) Total halogens – 4000 ppm maximum; and**
+(vi) Flash Point – 100 degrees Fahrenheit (F) (37.8 degrees C) minimum.
+(b) Non-Spec. Oil (Off-Spec. Oil) – Used oil that does not meet the specification above.
+
+16 | Regulation 61-62.1
+
+(98) Utility Boiler – Means a boiler that produces steam, heated air, or other heated fluids for sale or for
+use in producing electric power for sale.
+(99) Virgin Fuel – Means unused solid, liquid, or gaseous commercial fuel, and clean wood or bark that
+has not been processed other than for size reduction excluding clean wood or bark burned in an air curtain
+incinerator.
+(100) Volatile Organic Compound (VOC) – (a) Means any organic compound which participates in
+atmospheric photochemical reactions; or which is measured by a reference method (as specified in 40 CFR
+Part 60, as of July 1, 1990), an equivalent method, an alternative method, or which is determined by
+procedures specified under any subpart of 40 CFR Part 60. This definition does not include compounds that
+have negligible photochemical reactivity according to the methods employed by the EPA to determine
+compounds listed in 40 CFR 51.100(s).
+(b) For purposes of determining compliance with emission limits, VOCs will be measured by the
+approved test methods. Where such a method also inadvertently measures compounds with negligible
+photochemical reactivity, an owner or operator may exclude these negligibly reactive compounds when
+determining compliance with an emissions standard.
+(101) Waste – Means any discarded material including, but not limited to, used oil, hazardous waste fuel,
+hazardous waste, medical waste, municipal solid waste (MSW), sludge, waste fuel, and waste classification
+Types 0 through 6 or any material which as a result of use, storage, or handling has become unsuitable for
+its original purpose due to the presence of impurities or loss of original properties.
+(a) Type 0 – Trash, a mixture of highly combustible waste such as paper, cardboard, wood boxes, and
+combustible floor sweepings from commercial and industrial activities. The mixture contains up to ten (10)
+percent by weight of plastic bags, coated paper, laminated paper, treated corrugated cardboard, oily rags,
+and plastic or rubber scraps.
+Typical composition: ten (10) percent moisture, five (5) percent incombustible solids, and has a heating
+value of approximately 8500 Btu/lb as fired.
+(b) Type 1 – Rubbish, a mixture of combustible waste such as paper, cardboard cartons, wood scrap,
+foliage, and combustible floor sweepings from domestic, commercial, and industrial activities. The mixture
+contains up to twenty (20) percent by weight of restaurant or cafeteria waste, but contains little or no treated
+paper, plastic, or rubber wastes.
+Typical composition: twenty-five (25) percent moisture, ten (10) percent incombustible solids, and has
+a heating value of approximately 6500 Btu/lb as fired.
+(c) Type 2 – Refuse, consisting of an approximately even mixture of rubbish and garbage by weight.
+This type of waste is common to apartment and residential occupancy.
+Typical composition: up to fifty (50) percent moisture, seven (7) percent incombustible solids, and has
+a heating value of approximately 4300 Btu/lb as fired.
+(d) Type 3 – Garbage, consisting of animal and vegetable wastes from restaurants, cafeterias, hotels,
+hospitals, markets, and like installations.
+Typical composition: up to seventy (70) percent moisture, up to five (5) percent incombustible solids,
+and has a heating value of approximately 2500 Btu/lb as fired.
+
+17 | Regulation 61-62.1
+
+(e) Type 4 – Human and animal remains, consisting of carcasses, organs, and solid organic wastes
+from hospitals, laboratories, abattoirs, animal pounds, and similar sources.
+Typical composition: up to eighty-five (85) percent moisture, five (5) percent incombustible solids,
+and having a heating value of approximately 1000 Btu/lb as fired.
+(f) Type 5 – By-product waste, gaseous, liquid, or semi-liquid, such as tar, paints, solvents, sludge,
+fumes, etc., from industrial operations. Btu values shall be determined by the individual materials to be
+destroyed.
+(g) Type 6 – Solid by-product waste, such as rubber, plastics, wood waste, etc., from industrial
+operations. Btu values shall be determined by the individual materials to be destroyed.
+(102) Waste Fuel – Means waste that does not meet hazardous waste criteria but has a heat value greater
+than 5000 Btu /lb.
+(103) Yard Waste – Means grass, grass clippings, bushes, shrubs, and clippings from bushes and shrubs
+that are generated by residential, commercial/retail, institutional, and/or industrial sources as part of
+maintenance activities associated with yards or other private or public lands. Yard waste does not include
+construction, renovation, and demolition wastes, which are exempt from the definition of MSW in this
+section. Yard waste does not include clean wood, which is also exempt from the definition of MSW in this
+section.
+* This specification does not apply to used oil fuel mixed with a hazardous waste.
+** Used oil containing more than 1000 ppm total halogens is presumed to be a hazardous waste.
+The burden of proof that this is not true rests with the user.
+SECTION II – PERMIT REQUIREMENTS
+The following regulation will not supersede any state or federal requirements nor special permit
+conditions, unless this regulation would impose a more restrictive emission limit. The owner or operator
+shall comply with all terms, conditions, and limitations of any Department-issued permit for sources or
+activities at the owner or operator’s facility. A source’s permit status may change upon promulgation of
+new regulatory requirements.
+(A) Construction Permits
+(1) Applicability
+(a) Except as allowed under Section II(A)(1)(b) and (A)(1)(c) below, any person who plans to
+construct, alter, or add to a source of air contaminants, including installation of any device for the control
+of air contaminant discharges, shall first obtain a construction permit from the Department prior to
+commencement of construction.
+(b) The Department may grant permission to proceed with minor alterations or additions without
+issuance of a construction permit when the Department determines that the alteration or addition will not
+increase the quantity and will not alter the character of the source’s emissions.
+
+18 | Regulation 61-62.1
+
+(c) The owners or operators of sources not requesting to use federally enforceable construction permit
+conditions to limit potential to emit, sources not subject to regulations with more stringent start of
+construction limitations, or sources not otherwise exempt from permit requirements, may undertake the
+following on-site activities prior to obtaining a construction permit:
+(i) Planning;
+(ii) Engineering and design;
+(iii) Geotechnical investigation;
+(iv) Site land clearing and grading;
+(v) Setting up temporary trailers to house construction staff and contractor personnel;
+(vi) Ordering of equipment and materials;
+(vii) Receipt and storing of equipment;
+(viii) Pouring of the foundation up to and including the mounting pads and slab on grade;
+(ix) Relocation of utilities;
+(x) For existing sources, relocation/installation of piping, electrical service, and instrumentation;
+(xi) Temporary power for the site (such as power lines);
+(xii) Site drainage including ditches and culverts;
+(xiii) Temporary dewatering activities associated with the excavations;
+(xiv) Temporary gravel (Right Out of Crusher (ROC)) road beds for the site;
+(xv) Soil only excavations;
+(xvi) Temporary telecommunications for the site (such as telephone and internet); and
+(xvii) Security fencing related to the storage of equipment and materials.
+(d) In the event that the source does not qualify for issuance of a construction permit, the owners or
+operators accept the financial risk of commencing the activities listed in Section II(A)(1)(c)(i) through
+(A)(1)(c)(xvii) above.
+(2) No permit to construct or modify a source will be issued if emissions interfere with attainment or
+maintenance of any state or federal standard.
+(3) The owner or operator shall submit written notification to the Department of the date construction is
+commenced, postmarked within thirty (30) days after such date, and written notification of the actual date
+of initial startup of each new or altered source, postmarked within fifteen (15) days after such date.
+(4) Approval to construct shall become invalid if construction:
+
+19 | Regulation 61-62.1
+
+(a) Is not commenced within eighteen (18) months after receipt of such approval;
+(b) Is discontinued for a period of eighteen (18) months or more; or
+(c) Is not completed within a reasonable time as deemed by the Department.
+(5) The Department may extend the construction permit for an additional 18-month period upon a
+satisfactory showing that an extension is justified. This provision does not apply to the time period between
+construction of the approved phases of a phased construction project; each phase must commence
+construction within eighteen (18) months of the projected and approved commencement date.
+(B) Exemptions from the Requirement to Obtain a Construction Permit
+(1) No construction permits shall be required for the sources listed in Section II(B)(1)(a) through
+(B)(1)(c) below, which burn virgin fuel and which were constructed prior to February 11, 1971, and which
+are not located at a facility that meets the definition of a major source as defined in Regulation 61-62.70.2(r);
+however, modifications at these facilities may trigger the requirement to obtain a construction permit.
+(a) Natural gas boilers.
+(b) Oil-fired boilers of 50 million British thermal unit per hour (Btu/hr) rated input capacity or smaller.
+(c) Coal-fired boilers of 20 million Btu/hr rated input capacity or smaller.
+(2) No construction permits shall be required for the sources listed in Section II(B)(2)(a) through
+(B)(2)(h) below, unless otherwise specified by Regulation 61-62.70 or any other state or federal
+requirement. A source’s exemption status may change upon the promulgation of new regulatory
+requirements applicable to any of the sources listed in Section II(B)(2)(a) through (B)(2)(g), or to any other
+sources that have been determined to have total uncontrolled emissions less than the thresholds in Section
+II(B)(2)(h), or to any similar sources that have been granted an exemption by the Department.
+(a) Boilers and space heaters of less than 1.5 million Btu/hr rated input capacity which burn only virgin
+liquid fuels or virgin solid fuels.
+(b) Boilers and space heaters of less than 10 million Btu/hr rated input capacity which burn only virgin
+gas fuels.
+(c) Comfort air-conditioning or ventilation systems.
+(d) Motor vehicles.
+(e) Laboratory hoods.
+(f) Emergency power generators as described below:
+(i) Generators of less than or equal to 150 kilowatt (kW) rated capacity.
+(ii) Generators of greater than 150 kW rated capacity designated for emergency use only and are
+operated a total of 500 hours per year or less for testing and maintenance and have a method to record the
+actual hours of use such as an hour meter.
+
+20 | Regulation 61-62.1
+
+(g) Sources emitting only steam, air, nitrogen, oxygen, carbon dioxide, or any physical combination
+of these.
+(h) Sources with a total uncontrolled potential to emit (PTE) of less than five (5) tons per year each of
+particulates, sulfur dioxide, nitrogen oxides, and carbon monoxide; and a total uncontrolled PTE of less
+than 1000 pounds per month (lbs/month) of VOCs will not require construction permits. Unless otherwise
+exempt, sources may be exempted under this section at higher emission levels if there is a demonstration
+that there are no applicable limits or requirements. These applicable requirements include federally
+applicable limits or requirements. However, these sources may be required to be included in any subsequent
+construction or operating permit review to ensure that there is no cause or contribution to an exceedance of
+any ambient air quality standard or limit. For toxic air pollutant exemptions, refer to Regulation 61-62.5,
+Standard No. 8. Emissions calculations and any other information necessary to document qualification for
+this exemption must be maintained onsite and provided to the Department upon request.
+(3) The Department will place the exempt sources listed in Section II(B)(2)(a) through (B)(2)(g) above,
+and other sources that have been determined will not interfere with the attainment or maintenance of any
+state or federal standard, on a list of sources to be exempted without further review. The Department may
+develop emission thresholds for exemption that have been determined will not interfere with the attainment
+or maintenance of any state or federal standard, to be maintained with the list of sources to be exempted
+without further review. This list of sources and source emission thresholds that are exempt without further
+review from the requirement to obtain a construction permit will be maintained by the Department and
+periodically published in the South Carolina State Register for use by the public and the regulated
+community. Requests to the Department may be made to add sources to the list.
+(4) Sources with only fugitive emissions must submit source information, and the need for permit(s) will
+be made by the Department on a case-by-case basis. This determination will take into consideration, but
+will not be limited to, the nature and amount of the pollutants, location, proximity to residences and
+commercial establishments, etc.
+(5) Sources of VOCs greater than 1000 lbs/month may not require a permit. This determination will take
+into consideration, but will not be limited to, applicability to state and federal requirements. No waiver will
+be permissible if federal requirements apply unless otherwise exempt. Emissions calculations and any other
+information necessary to document qualification for this exemption and the need for permit(s) will be made
+by the Department on a case-by-case basis. Exempt sources of VOCs may be required to be included in any
+subsequent construction or operating permit review to ensure that there is no cause or contribution to an
+exceedance of any ambient air quality standard or limit.
+(6) Requests for exemption from the requirement to obtain a construction permit, for new sources similar
+to sources already on the Department maintained list established in Section II(B)(3) above, or for
+modifications to existing equipment, including the reconstruction, relocation, and replacement of existing
+equipment, which may qualify for exemption as per Section II(B)(2)(h) and Section II(B)(4) above, shall
+include the following information:
+(a) A complete description of the existing equipment and proposed modification;
+(b) The pollutant(s) being emitted and any deviation from the parameters provided in earlier permit
+applications, permit exemptions, and issued permits;
+(c) Any ambient air quality demonstrations needed for Regulation 61-62.5, Standards No. 2, No. 7,
+and No. 8; and
+
+21 | Regulation 61-62.1
+
+(d) A regulatory review to demonstrate the project is not a CAA Title I modification nor subject to
+Regulation 61-62.5, Standards No. 7 and No. 7.1.
+(7) The construction permitting exemptions in Section II(B) do not relieve the owner or operator of any
+source from any obligation to comply with any other applicable requirements. The Department reserves the
+right to require a construction permit, and the need for permit(s) will be made by the Department on a
+case-by-case basis. This determination will take into consideration, but will not be limited to, the nature
+and amount of the pollutants, location, proximity to residences and commercial establishments, etc.
+(C) Construction Permit Applications
+(1) Construction permit applications shall be reviewed, signed, and sealed by a professional engineer
+registered to practice in the State of South Carolina (except professional engineers employed by the federal
+government preparing applications for the federal government or other professional engineers exempted
+from the state registration requirements).
+(2) The following are exempt from the requirement that the construction permit applications be reviewed,
+signed, and sealed by a registered professional engineer provided the proposed unit is identical to a
+prototype model which has been previously designed or otherwise certified by a professional engineer:
+(a) Package-type incinerators of 750 lb/hr rated capacity or smaller which burn Types 0 and 1 wastes
+as defined by the Incinerator Institute of America;
+(b) Package-type incinerators of 500 lb/hr rated capacity or smaller which burn animal remains
+excluding those remains that are considered infectious waste;
+(c) Package-type boilers of 100 million Btu/hr input capacity or smaller which burn natural gas or
+virgin oil as fuel; and
+(d) Package-type concrete batch plants that are designed to be hauled to a site, set up, and broken down
+quickly, with little to no additional equipment needed to manufacture product.
+(3) Construction permit applications shall provide the information described in Section II(C)(3)(a)
+through (C)(3)(r). This information should be submitted on Department forms, but project specific
+information may need to be provided in addition to that requested in applicable forms.
+(a) The facility name (the name used to identify the facility at the location requesting the permit);
+(b) The location of the facility including its street address;
+(c) The name, mailing address, e-mail address, and telephone number of the owner or operator for the
+facility;
+(d) The name, mailing address, e-mail address, and telephone number of the facility’s air permit
+contact person;
+(e) The facility’s Federal Employer Identification Number or Federal Tax ID Number;
+
+22 | Regulation 61-62.1
+
+(f) A description and the U. S. Standard Industrial Classification (SIC) Code and North American
+Industry Classification System (NAICS) Code of the products or product lines to be produced by the
+proposed sources covered by this application;
+(g) The facility’s planned operating schedules;
+(h) A description of the facility’s proposed new or altered processes, including the physical and
+chemical properties and feed rate of the materials used and produced (in pounds per hour), from which the
+facility determined potential emissions;
+(i) A process flow diagram/production process layout of all new or altered sources showing the flow
+of materials and intermediate and final products. The process flow diagram/production process layout must
+identify all equipment, machines, and process steps or product lines within the production process; all
+product streams; all exhaust streams (emission points) including fugitive within the production process; all
+waste streams; and all control devices including inherent process control devices used within the production
+process;
+(j) A detailed description of each proposed or existing source that is being altered, including the size
+and type along with the make and model of the source and any associated air pollution control equipment;
+(k) A description, including physical and chemical properties and the Chemical Abstract Service
+(CAS) number (if applicable), of all emissions from each proposed source or existing source that is being
+altered. Mass emission data and emission calculations, including the potential uncontrolled and controlled
+mass emission rate of each criteria pollutant and other air contaminants such as VOCs, toxic air pollutants
+(TAPs), and HAPs, that will be emitted from each source covered by the application. Emission calculations
+must be based on proper documentation that supports the basis of the emission rates such as stack test data,
+AP-42 emission factors, material balance, and/or engineering estimates. All assumptions used in the
+emission calculations must be provided. Fugitive emissions (for example, emissions from filling operations,
+pumps, valves, flanges, etc.) must be included in the emission calculations;
+(l) A description of all air pollution control devices or systems on the new or altered sources, whether
+inherent or add-on. The description shall include, but not be limited to, the manufacturer specifications and
+ratings, the engineering design and operating characteristics, the projected capture and destruction, the
+control or removal efficiencies at expected contaminant loading levels, and the monitoring data collection
+and recordkeeping necessary to ensure proper operation of the air pollution control devices;
+(m) Source information and calculations to demonstrate compliance with “Good Engineering Practice
+Stack Height” rules;
+(n) A description of each stack or vent related to the proposed and/or existing source(s), including the
+minimum anticipated height above ground, maximum anticipated internal dimensions, discharge
+orientation, exhaust volume flow rate, exhaust gas temperature, and rain protection device, if any;
+(o) Scale drawings showing a plan view of the property lines, the location of the source, all stacks, and
+other emission points related to the source, as well as buildings that might affect dispersion of any
+emissions;
+(p) An air dispersion modeling analysis or other information demonstrating that emissions from the
+facility, including those in the application, will not interfere with the attainment or maintenance of any
+ambient air quality standard;
+
+23 | Regulation 61-62.1
+
+(q) A summary of facility-wide potential uncontrolled and controlled emissions with a regulatory
+applicability determination; and
+(r) Other information as may be necessary for proper evaluation of the source as determined by the
+Department.
+(D) General Construction Permits
+(1) The Department may develop and issue general construction permits applicable to similar sources for
+new construction projects or minor modifications to existing sources.
+(2) Any general construction permit shall incorporate all requirements applicable to the construction of
+similar sources and shall identify criteria by which sources may qualify for coverage under a general
+construction permit.
+(3) Coverage under a General Construction Permit
+(a) Sources may submit a construction permit application to the Department with a request for coverage
+under the conditions and terms of a general construction permit for similar sources. The Department shall
+grant a general construction permit to sources certifying qualification for and agreeing to the conditions and
+terms of a general construction permit for similar sources.
+(b) A source that has submitted an individual construction permit application to the Department and
+has not requested coverage under the conditions and terms of a general construction permit for similar
+sources, but which is determined to qualify for coverage under a general construction permit, may be
+granted coverage under the general construction permit at the sole discretion of the Department.
+(4) A source shall be subject to enforcement action for operation without a valid permit if the source is
+later determined not to qualify for coverage under a general construction permit.
+(5) The Department may grant a source authorization to operate under a general construction permit, but
+such a grant shall be a final permit action for purposes of judicial review.
+(6) The permit application for general construction permits may deviate from the requirements of Section
+II(C) above, provided that such application includes all information necessary to determine qualification
+for, and to assure compliance with, the general permit.
+(7) A source that qualifies for coverage under a Department issued general construction permit may
+submit a construction permit application to the Department and request an individual construction permit
+in lieu of coverage under a general construction permit.
+(E) Synthetic Minor Construction Permits
+(1) General Provisions
+(a) Any stationary source may request to use federally enforceable permit conditions to limit the
+source’s potential to emit and become a synthetic minor source.
+(b) Stationary sources requesting a synthetic minor construction permit shall submit a complete permit
+application package to the Department as prescribed by Section II(E)(5) below.
+
+24 | Regulation 61-62.1
+
+(c) Stationary sources requesting a synthetic minor construction permit shall undergo the public
+participation procedures of Section II(N) below.
+(d) The Department shall act, within a reasonable time, on an application for a synthetic minor
+construction permit and shall notify the applicant in writing of its approval, conditional approval, or denial.
+(e) In the event of a denial of a synthetic minor construction permit application, the Department shall
+notify the applicant in writing of the reasons for the denial. The Department shall not accept a subsequent
+synthetic minor construction permit application until the applicant has addressed the concerns specified by
+the Department which caused the denial. The source shall correct all deficiencies noted by the Department
+within sixty (60) calendar days of receiving notice of the denial, or submit a complete major source
+construction permit application, as prescribed by Section II(C) above, if the source desires to proceed with
+the project.
+(2) New Sources and Modifications
+(a) A stationary source desiring to restrict its potential to emit shall submit a written request to the
+Department for a federally enforceable construction permit conditioned to constrain the operation of the
+source, along with a completed construction permit application package as prescribed by Section II(E)(5)
+below. The construction of the new or modified source shall not commence until the source has received
+an effective permit to construct.
+(b) The owner or operator shall submit written notification to the Department of the date construction
+is commenced, postmarked within thirty (30) days after such date, and written notification of the actual date
+of initial startup of each new or altered source, postmarked within fifteen (15) days after such date. A written
+request to obtain an operating permit shall be submitted to the Department within fifteen (15) days after the
+actual date of initial startup of each new or altered source in accordance with Section II(F) below. A
+satisfactory compliance inspection by a Department representative may precede the issuance of an operating
+permit for any newly constructed or modified source.
+(3) Synthetic Minor Construction Permit Conditions
+(a) Synthetic minor construction permits shall contain the standard permit conditions listed in Section
+II(J)(1) below and any special permit conditions required to verify a source’s compliance with the emissions
+limitations and operational requirements.
+(b) The limitations and requirements listed as permit conditions shall be permanent, quantifiable, or
+otherwise enforceable as a practical matter.
+(c) All synthetic minor construction permit conditions that constrain the operation of a source in an
+effort to limit potential to emit below major source threshold levels shall be federally enforceable. Unless
+otherwise agreed by the Department and EPA, the Department shall provide to EPA on a timely basis a
+copy of each proposed (or draft) and final permit intended to be federally enforceable.
+(4) General Synthetic Minor Construction Permits
+(a) The Department may, after notice and opportunity for public participation provided under Section
+II(N) below, issue a general synthetic minor construction permit applicable to similar sources.
+
+25 | Regulation 61-62.1
+
+(b) Any general synthetic minor construction permit shall incorporate all requirements applicable to
+the construction of similar synthetic minor sources and shall identify criteria by which sources may qualify
+for coverage under a general synthetic minor construction permit.
+(c) Coverage under a General Synthetic Minor Construction Permit
+(i) Sources may submit a synthetic minor construction permit application to the Department with a
+request for coverage under the conditions and terms of a general synthetic minor construction permit for
+similar sources. The Department shall grant a general synthetic minor construction permit to sources
+certifying qualification for and agreeing to the conditions and terms of a general synthetic minor
+construction permit for similar sources.
+(ii) A source that has submitted an individual synthetic minor construction permit application and
+has not requested coverage under the conditions and terms of a general synthetic minor construction permit
+for similar sources, but which is determined to qualify for coverage under a general synthetic minor
+construction permit, may be granted coverage under the general synthetic minor construction permit at the
+sole discretion of the Department.
+(d) The source shall be subject to enforcement action for operation without a valid permit if the source
+is later determined not to qualify for coverage under a general synthetic minor construction permit.
+(e) The Department may grant a source authorization to operate under a general synthetic minor
+construction permit without further public notice, but such a grant shall be a final permit action for purposes
+of judicial review.
+(f) The Department shall provide timely notice to the public of any authorization given to a facility to
+operate under the terms of a general synthetic minor construction permit. Such notice may be made on a
+periodic, summarized basis covering all facilities receiving authorization since the last notice.
+(g) A source that qualifies for coverage under a Department issued general synthetic minor
+construction permit may submit a construction permit application to the Department and request an
+individual synthetic minor construction permit in lieu of coverage under a general synthetic minor
+construction permit.
+(5) Requirements for Synthetic Minor Construction Permit Applications
+(a) In addition to the minimum information required by Section II(C)(3) above, any facility applying
+for a synthetic minor construction permit must also provide the following:
+(i) Potential emission calculations and proposed federally enforceable emission limitations for each
+emission unit at the facility verifying that the total emissions at the facility will be below the major source
+(or facility) thresholds;
+(ii) All proposed production and/or operational limitations that will constrain the operation of each
+emission unit that are to be identified as federally enforceable; and
+(iii) All proposed monitoring parameters, recordkeeping, and reporting requirements the applicant
+will use to determine and verify compliance with the requested federally enforceable limitations on a
+continuous basis. The applicant shall also provide the compliance status of these proposed parameters and
+requirements at the time of the application submittal.
+
+26 | Regulation 61-62.1
+
+(b) The permit application for general synthetic minor construction permits may deviate from the
+requirements of Section II(E)(5)(a) provided that such application includes all information necessary to
+determine qualification for, and to assure compliance with, the general permit.
+(F) Operating Permits
+(1) The owner or operator shall submit written notification to the Department of the actual date of initial
+startup of each new or altered source, postmarked within fifteen (15) days after such date. Any source that
+is required to obtain an air quality construction permit issued by the Department must obtain an operating
+permit when the new or altered source is placed into operation and shall comply with the requirements of
+this section.
+(2) When a Department issued construction permit includes only emission limits, monitoring, reporting,
+and/or other requirements that do not establish engineering or construction specifications for the project,
+the owner or operator may operate the source in compliance with the terms and conditions of the
+construction permit until the operating permit is issued by the Department.
+(3) When a Department issued construction permit includes engineering and/or construction
+specifications, the owner/operator or professional engineer in charge of the project shall certify that, to the
+best of his/her knowledge and belief and as a result of periodic observation during construction, the
+construction under application has been completed in accordance with the specifications agreed upon in the
+construction permit issued by the Department. If construction is certified as provided above, the owner or
+operator may operate the source in compliance with the terms and conditions of the construction permit
+until the operating permit is issued by the Department. If construction is not built as specified in the permit
+application and associated construction permit(s), the owner/operator must submit to the Department a
+complete description of modifications that are at variance with the documentation of the construction
+permitting determination prior to commencing operation. Construction variances that would trigger
+additional requirements that have not been addressed prior to start of operation shall be considered
+construction without a permit.
+(4) Request for a New or Revised Operating Permit
+(a) For sources covered by an effective Title V operating permit, the modification request required by
+Regulation 61-62.70 shall serve as the request to operate for the purposes of this regulation.
+(b) For sources not subject to Regulation 61-62.70, or not yet covered by an effective Title V operating
+permit, the owner or operator shall submit a written request for a new or revised operating permit to cover
+any new, or altered source, postmarked within fifteen (15) days after the actual date of initial startup of each
+new or altered source.
+(c) The written request for a new or revised operating permit must include, at a minimum, the following
+information:
+(i) A list of sources that were placed into operation; and
+(ii) The actual date of initial startup of each new or altered source.
+(5) General Operating Permits
+(a) The Department may develop and issue a general operating permit applicable to similar sources.
+
+27 | Regulation 61-62.1
+
+(b) Any general operating permit shall incorporate all requirements applicable to the operation of
+similar sources and shall identify criteria by which sources may qualify for coverage under a general
+operating permit.
+(c) Coverage under a General Operating Permit
+(i) Sources may submit a permit application to the Department with a request for coverage under
+the conditions and terms of a general operating permit for similar sources. The Department shall grant a
+general operating permit to a source certifying qualification for and agreeing to the conditions and terms of
+a general operating permit for similar sources.
+(ii) A source that has submitted an individual permit application to the Department and has not
+requested coverage under the conditions and terms of a general operating permit for similar sources, but
+which is determined to qualify for coverage under a general operating permit, may be granted coverage
+under the general operating permit at the sole discretion of the Department.
+(d) The source shall be subject to enforcement action for operation without a valid permit if the source
+is later determined not to qualify for coverage under a general operating permit.
+(e) The Department may grant a source authorization to operate under a general operating permit, but
+such a grant shall be a final permit action for purposes of judicial review.
+(f) A source that qualifies for coverage under a Department issued general operating permit may submit
+an operating permit application to the Department and request an individual operating permit in lieu of
+coverage under a general operating permit.
+(G) Conditional Major Operating Permits
+(1) The requirements of Section II(G) shall apply to those sources that request a federally enforceable
+permit to limit their potential to emit to less than major source thresholds.
+(2) General Provisions
+(a) Any stationary source that satisfies the definition of a major source may request a federally
+enforceable conditional major operating permit to limit the source’s potential to emit and become a
+conditional major source. Any stationary source that has received a synthetic minor construction permit to
+limit the source’s potential to emit below major source threshold levels, that is not required to obtain a Title
+V operating permit, shall be issued a conditional major operating permit to consolidate the source’s
+limitations on potential to emit and shall be considered a conditional major source.
+(b) Stationary sources requesting a conditional major operating permit shall submit a complete request
+for a new or revised operating permit to the Department as required by Section II(G)(6) below.
+(c) Stationary sources requesting an original conditional major operating permit shall undergo the
+public participation procedures of Section II(N) below.
+(d) The Department shall act on a request for a conditional major operating permit and shall notify the
+source in writing of its approval, conditional approval, or denial.
+(e) In the event of a denial of a conditional major operating permit request, the Department shall notify
+the source in writing of the reasons for the denial. The Department shall not accept a subsequent conditional
+
+28 | Regulation 61-62.1
+
+major operating permit request until the source has addressed the concerns specified by the Department
+which caused the original denial. The source shall correct all deficiencies noted by the Department or submit
+a complete permit application in accordance with Regulation 61-62.70 in order to receive a Title V
+operating permit.
+(3) Existing Sources
+(a) Any owner or operator desiring to be permitted as a conditional major source shall submit an
+operating permit request containing the information identified in Section II(G)(6) below. A federally
+enforceable conditional major operating permit shall constrain the operations of the source such that
+potential emissions fall below applicable regulatory levels and therefore exclude the source from the
+requirements to have a Title V operating permit.
+(b) A request for a conditional major operating permit shall not relieve a source from the requirement
+to meet the deadline for submittal of a Title V operating permit application.
+(4) New or Modified Sources
+(a) Any owner or operator who plans to construct, alter, or add to a source of air contaminants,
+including the installation of any device for the control of air contaminant discharges, and desires a
+conditional major operating permit shall provide a written request to the Department for a federally
+enforceable synthetic minor construction permit conditioned to constrain the operation of the source, along
+with a complete construction permit application package containing the information identified in Section
+II(G)(6) below. The construction of the new or modified source shall not commence until the source has
+received an effective permit to construct from the Department.
+(b) A written request to obtain a conditional major operating permit shall be submitted to the
+Department, postmarked within fifteen (15) days after the actual date of initial startup of each new or altered
+source. This request shall include any additional information required in Section II(G)(6) below. These
+facilities will be issued conditional major operating permits without further public notice if no substantive
+changes to limitations are required. A satisfactory compliance inspection by a Department representative
+may precede the issuance of an operating permit for any newly constructed or modified source.
+(5) Conditional Major Operating Permit Conditions
+(a) Conditional major operating permits shall contain the standard permit conditions listed in Section
+II(J)(1) below, and any special permit conditions required to verify a source’s compliance with the
+emissions limitations and operational requirements.
+(b) The limitations and requirements listed as permit conditions shall be permanent, quantifiable, or
+otherwise enforceable as a practical matter.
+(c) All conditional major operating permit conditions that constrain the operation of a source in an
+effort to limit potential to emit below major source threshold levels as defined in Regulation 61-62.70 shall
+be federally enforceable. Unless otherwise agreed by the Department and EPA, the Department shall
+provide to EPA on a timely basis a copy of each proposed (or draft) and final permit intended to be federally
+enforceable.
+(6) Additional Requirements for Conditional Major Operating Permit Requests
+
+29 | Regulation 61-62.1
+
+(a) In addition to the minimum information required by Section II(C)(3) above, any facility requesting
+a conditional major operating permit must also provide the following:
+(i) Potential emission calculations and proposed federally enforceable emission limitations for each
+emission unit at the facility verifying that the total emissions at the facility will be below the major source
+(or facility) thresholds;
+(ii) All proposed production and/or operational limitations that will constrain the operation of each
+emission unit that are to be identified as federally enforceable; and
+(iii) All proposed monitoring parameters, recordkeeping, and reporting requirements the source will
+use to determine and verify compliance with the requested federally enforceable limitations on a continuous
+basis. The source shall also provide the compliance status of these proposed parameters and requirements
+at the time of the request submittal.
+(b) The request for general conditional major operating permits may deviate from the requirements of
+Section II(G)(6) provided that such request includes all information necessary to determine qualification
+for, and to assure compliance with, the general permit.
+(7) General Conditional Major Operating Permits
+(a) The Department may, after notice and opportunity for public participation provided under Section
+II(N) below, issue a general conditional major operating permit applicable to similar sources.
+(b) Any general conditional major operating permit shall incorporate all requirements applicable to the
+operation of similar conditional major sources and shall identify criteria by which sources may qualify for
+a general permit.
+(c) Coverage under a General Conditional Major Operating Permit
+(i) Sources may submit a permit application to the Department with a request for coverage under
+the conditions and terms of a general conditional major operating permit for similar sources. The
+Department shall grant a general conditional major operating permit to sources certifying qualification for
+and agreeing to the conditions and terms of a general conditional major operating permit for similar sources.
+(ii) A source that has submitted an individual permit application to the Department and has not
+requested coverage under the conditions and terms of a general conditional major operating permit for
+similar sources, but which is determined to qualify for coverage under a general conditional major operating
+permit, may be granted coverage under the general conditional major operating permit at the sole discretion
+of the Department.
+(d) The source shall be subject to enforcement action for operation without a valid permit if the source
+is later determined not to qualify for coverage under a general conditional major operating permit.
+(e) The Department may grant a source authorization to operate under a general conditional major
+operating permit without further public notice, but such a grant shall be a final permit action for purposes
+of judicial review.
+(f) The Department shall provide timely notice to the public of any authorization given to a facility to
+operate under the terms of a general conditional major operating permit. Such notice may be made on a
+periodic, summarized basis covering all facilities receiving authorization since the last notice.
+
+30 | Regulation 61-62.1
+
+(g) A source that qualifies for coverage under a Department issued general conditional major operating
+permit may submit a permit application to the Department and request an individual conditional major
+operating permit in lieu of coverage under a general conditional major operating permit.
+(H) Operating Permit Renewal Requests
+(1) Submission of a request for renewal meeting the requirements in Section II(H)(2)-(5) below, shall
+allow the owner or operator to continue operating pursuant to the most recent operating permit until such
+time as the Department has taken final action on the request for renewal.
+(2) Any source that wishes to have its operating permit renewed must submit a written request to the
+Department.
+(3) The provisions of Section II(H) shall apply only to those sources not subject to Regulation 61-62.70.
+For sources covered by an effective Title V operating permit, the operating permit renewal request required
+by Regulation 61-62.70 shall serve as the request to operate for the purposes of this regulation.
+(4) For sources not subject to Regulation 61-62.70, the owner or operator shall submit an operating permit
+renewal request to the Department within ninety (90) days prior to the operating permit expiration date.
+The source may be inspected by the Department in order to decide whether to renew the permit. Past records
+of compliance and future probability of compliance will be considered in making the decision regarding
+renewal.
+(5) Operating permit renewal requests shall include a description of any changes at the facility that have
+occurred since issuance of the last operating permit that may affect the operating permit or operating permit
+review. In general, the description shall include any addition, alteration, or removal of sources, including
+sources exempt from construction permit requirements; addition, alteration, or removal of emission
+limitations; any changes to monitoring, recordkeeping, or reporting requirements; and any changes or
+additions to special permit conditions. The following items should be addressed as part of the operating
+permit renewal request:
+(a) The facility name (the name used to identify the facility at the location requesting the permit);
+(b) The location of the facility including its street address;
+(c) The name, mailing address, e-mail address, and telephone number of the owner or operator for the
+facility;
+(d) The name, mailing address, e-mail address, and telephone number of the facility’s air permit
+contact person;
+(e) The facility’s Federal Employer Identification Number or Federal Tax ID Number;
+(f) Any change to the SIC Code or NAICS Codes of the products or product lines;
+(g) Any construction permits to be incorporated into the operating permit, either whole or in part, any
+listed information descriptions that have been removed or decommissioned, and any changes to exempted
+sources listed in the current operating permit;
+
+31 | Regulation 61-62.1
+
+(h) Any change to the facility’s planned operating schedules or description of the facility’s current
+and/or proposed processes, including the physical and chemical properties and feed rate of the materials
+used and produced (in lb/hr) from which the facility determined actual and potential emissions;
+(i) Any changes to current process flow diagram or production process layout shall be addressed,
+showing the flow of materials and intermediate and final products. Updated process flow diagram or
+production process layout must identify major equipment, machines, and process steps or product lines
+within the production process; all product streams; all exhaust streams (emission points) including fugitive
+within the production process; all waste streams; and all control devices including inherent process control
+devices used within the production process;
+(j) A description, including the CAS number (if applicable), of all emissions from each source. Mass
+emission data and emission calculations, including the potential uncontrolled and controlled mass emission
+rate of each criteria pollutant and other air contaminants such as VOCs, TAPs, and HAPs emitted from each
+source. Emission calculations must be based on proper documentation that supports the basis of the
+emission rates such as stack test data, AP-42 emission factors, material balance, and/or engineering
+estimates. All assumptions used in the emission calculations must be provided. Fugitive emissions (for
+example, emissions from filling operations, pumps, valves, flanges, etc.) must be included in the emission
+calculations. A summary of facility-wide potential uncontrolled and controlled emissions with a regulatory
+applicability determination must be provided. If existing data supplied to the Department remains correct,
+identify documents referenced to comply with this requirement;
+(k) A description of stack, vent, or fugitive emission parameters associated with each non-exempt
+emission source. For each emission point/source, this information should include, as appropriate, Universal
+Transverse Mercator or latitude and longitude coordinates of the emission location, the minimum height
+above ground, maximum internal dimensions of the emission point/vent, discharge orientation, emission
+exit velocity, emission exit temperature, dimensions describing the volume or area of fugitive emissions,
+existence of any rain protection device or other impediment to vertical dispersion, etc. If existing data
+supplied to the Department remains correct, identify the document(s) submitted to comply with this
+requirement; and
+(l) Other information as may be necessary for proper evaluation of the operating permit request.
+(I) Registration Permits
+(1) Development of Registration Permits
+(a) The Department may develop and issue a registration permit applicable to similar sources.
+(b) Any registration permit developed shall incorporate all requirements applicable to the construction
+and operation of similar sources and shall identify criteria by which sources may qualify for coverage under
+a registration permit.
+(c) Registration permits will be developed only for specific stationary source groups with uncontrolled
+potential to emit less than the threshold for major source groups, in accordance with Regulation 61-62.70,
+Title V Operating Permit Program; Regulation 61-62.5, Standard No. 7, Prevention of Significant
+Deterioration; Regulation 61-62.5, Standard No. 7.1, Nonattainment New Source Review; and where
+equipment similarities and simplicity remove the need for in depth site-specific review.
+(2) Application for Coverage Under a Registration Permit
+
+32 | Regulation 61-62.1
+
+(a) Coverage under a Registration Permit
+(i) Sources may submit a permit application to the Department with a request for coverage under
+the conditions and terms of a registration permit for similar sources in lieu of a construction and operating
+permit as provided in Section II(A) and (F) above. The Department shall grant a registration permit to
+sources certifying qualification for and agreeing to the conditions and terms of the registration permit
+applicable to similar sources.
+(ii) A source that has submitted an individual permit application to the Department and has not
+requested coverage under the conditions and terms of a registration permit for similar sources, but which is
+determined to qualify for a registration permit, may be granted coverage under the registration permit at the
+sole discretion of the Department.
+(b) The source shall be subject to enforcement action for operation without a valid permit if the source
+is later determined not to qualify for coverage under a registration permit.
+(c) The Department reserves the right to require a construction and/or operating permit; the
+requirement for a permit(s) will be made by the Department on a case-by-case basis. This determination
+will take into consideration, but may not be limited to, the nature and amount of the pollutants, location,
+and proximity to residences and commercial establishments.
+(d) The Department may grant a source authorization to operate under a registration permit, but such
+a grant shall be a final permit action for purposes of judicial review.
+(e) A source that qualifies for coverage under a Department issued registration permit may submit a
+permit application to the Department and request an individual permit in lieu of coverage under a general
+registration permit.
+(3) Registration Permit Conditions
+(a) Registration permits shall contain any applicable permit conditions listed in Section II(J) below as
+the Department finds appropriate.
+(b) Registration permits shall contain any applicable special permit conditions required to verify a
+source’s compliance with any emissions limitations and operational requirements.
+(4) Any registration permit may be reopened by the Department for cause or to include any new standard
+or regulation which becomes applicable to a source during the life of the permit.
+(J) Permit Conditions
+(1) Standard Permit Conditions
+All construction and operating permits shall contain the following standard permit conditions.
+(a) No applicable law, regulation, or standard will be contravened.
+(b) All official correspondence, plans, permit applications, and written statements are an integral part
+of the permit. Any false information or misrepresentation in the application for a construction or operating
+permit may be grounds for permit revocation.
+
+33 | Regulation 61-62.1
+
+(c) For sources not required to have continuous emission monitors, any malfunction of air pollution
+control equipment or system, process upset, or other equipment failure which results in discharges of air
+contaminants lasting for one (1) hour or more and which are greater than those discharges described for
+normal operation in the permit application, shall be reported to the Department within twenty-four (24)
+hours after the beginning of the occurrence and a written report shall be submitted to the Department within
+thirty (30) days. The written report shall include, at a minimum, the following:
+(i) The identity of the stack and/or emission point where the excess emissions occurred;
+(ii) The magnitude of the excess emissions expressed in the units of the applicable emission
+limitation and the operating data and calculations used in determining the excess emissions;
+(iii) The time and duration of the excess emissions;
+(iv) The identity of the equipment causing the excess emissions;
+(v) The nature and cause of such excess emissions;
+(vi) The steps taken to remedy the malfunction and the steps taken or planned to prevent the
+recurrence of such malfunction;
+(vii) The steps taken to limit the excess emissions; and
+(viii) Documentation that the air pollution control equipment, process equipment, or processes were
+at all times maintained and operated, to the maximum extent practicable, in a manner consistent with good
+practice for minimizing emissions.
+(d) Sources required to have continuous emission monitors shall submit reports as specified in
+applicable parts of the permit, law, regulations, or standards.
+(e) Any owner or operator who constructs or operates a source or modification not in accordance with
+the application submitted pursuant to this regulation or with the terms of any approval to construct, or who
+commences construction after the effective date of these regulations without applying for and receiving
+approval hereunder, shall be subject to enforcement action.
+(f) Approval to construct shall become invalid if construction is not commenced within eighteen (18)
+months after receipt of such approval, if construction is discontinued for a period of eighteen (18) months
+or more, or if construction is not completed within a reasonable time. The Department may extend the
+eighteen (18)-month period upon a satisfactory showing that an extension is justified. This provision does
+not apply to the time period between construction of the approved phases of a phased construction project;
+each phase must commence construction within eighteen (18) months of the projected and approved
+commencement date.
+(g) A copy of the Department issued construction and/or operating permit must be kept readily
+available at the facility at all times. The owner or operator shall maintain such operational records; make
+reports; install, use, and maintain monitoring equipment or methods; sample and analyze emissions or
+discharges in accordance with prescribed methods at locations, intervals, and procedures as the Department
+shall prescribe; and provide such other information as the Department reasonably may require. All records
+required to demonstrate compliance with the limits established under a permit shall be maintained on site
+for a period of at least five (5) years from the date the record was generated.
+
+34 | Regulation 61-62.1
+
+(2) Special Permit Conditions
+As the Department finds appropriate, permits shall include special permit conditions such as, but not
+limited to, production limits, operational limits, source performance testing, operation and maintenance
+requirements, notification requirements, recordkeeping requirements, reporting requirements, and other
+monitoring as required.
+(a) When special permit conditions contain production or operational limits, the permit shall have
+monitoring and/or recordkeeping requirements to verify a source’s compliance with the limitations.
+(b) When special permit conditions require an add-on air pollution control device to be operated at a
+specified destruction and removal efficiency level, the permit shall have monitoring and recordkeeping
+requirements to determine the add-on air pollution control device’s performance on a short-term basis.
+(c) The time period over which a permit limitation on production or operation extends will be as short
+as possible. For the purpose of determining compliance, permit limitations will, in general, not exceed one
+(1) month and shall not exceed an annual limit with a rolling monthly average or sum.
+(d) An owner or operator of stationary sources that desires or is required to conduct performance tests
+to verify emissions limitations shall ensure that source tests are conducted in accordance with the provisions
+of Regulation 61-62.1, Section IV, Source Tests.
+(e) An hourly emission limit shall be sufficient only if the permit condition(s) require the installation,
+calibration, maintenance, and operation of a CEMS or any other monitoring approved by the Department.
+All monitoring data shall be defined and recorded for showing compliance with the emission limit(s).
+(f) The limitations and requirements listed in the permit conditions shall be permanent, quantifiable,
+or otherwise enforceable as a practical matter.
+(K) Exceptions
+(1) Upon request, the Department may alter operating permits, compliance schedules, or other restrictions
+on operation of a source provided that resulting ambient air concentration levels will not exceed any national
+or state ambient air quality standard. Factors to be considered by the Department may include, but are not
+limited to, technology, economics, national energy policy, and existing air quality. The request by the
+source must also show the following:
+(a) Good faith efforts have been made to comply with the state requirements;
+(b) The source is unable to comply with the state requirements because the necessary technology or
+other alternative methods of control are not reasonably available or have not been available for a sufficient
+period of time;
+(c) Any available operating procedures or control measures reducing the impact of the source on
+ambient air concentrations have been implemented; and
+(d) The request is submitted in a timely manner.
+(2) The provisions of this paragraph shall not apply to mass emission limits which are imposed upon any
+source by the following requirements:
+
+35 | Regulation 61-62.1
+
+(a) Federal New Source Performance Standards (NSPS);
+(b) National Emission Standards for Hazardous Air Pollutants (NESHAP);
+(c) Federal or State Prevention of Significant Deterioration (PSD) Regulations; or
+(d) Nonattainment requirements.
+(3) Where a permanent increase in the visible emission limitation for a source is requested, the source
+must demonstrate that it will remain in compliance with the applicable particulate emission standard.
+(4) Any alternative compliance schedule shall provide for compliance with the applicable regulations as
+expeditiously as practicable based on a plan submitted with the request for the alternative compliance
+schedule.
+(5) Any request under this section will be subjected to public notice and opportunity for a public hearing.
+The recommendations of the Department shall be sent to the Administrator, or his designated representative,
+for approval or disapproval.
+(6) Where alternative compliance schedule provisions are contained elsewhere in the air pollution control
+regulations, those provisions shall supersede the requirements in this section.
+(L) Emergency Provisions
+(1) An "emergency" means any situation arising from sudden and reasonably unforeseeable events
+beyond the control of the source, including acts of God, in which a situation requires immediate corrective
+action to restore normal operation, and that causes the source to exceed a technology-based emission
+limitation under the permit due to unavoidable increases in emissions attributable to the emergency. An
+emergency shall not include noncompliance to the extent caused by improperly designed equipment, lack
+of preventative maintenance, careless or improper operation, or operator error.
+(2) An emergency may be documented through properly signed, contemporaneous operating logs and
+other relevant evidence that verify:
+(a) An emergency occurred and the owner or operator can identify the cause(s) of the emergency;
+(b) The permitted source was, at the time the emergency occurred, being properly operated;
+(c) During the period of the emergency, the owner or operator took all reasonable steps to minimize
+levels of emissions that exceeded the emission standards or other requirements in the permit; and
+(d) The owner or operator gave a verbal notification of the emergency to the Department within
+twenty-four (24) hours of the time when emission limitations were exceeded, followed by a written report
+within thirty (30) days. The written report shall include, at a minimum, the information required by Section
+II(J)(1)(c)(i) through (J)(1)(c)(viii) above. The written report shall contain a description of the emergency,
+any steps taken to mitigate emissions, and corrective actions taken.
+(3) This provision is in addition to any emergency or upset provision contained in any applicable
+requirement.
+(M) Transfer of Ownership/Operation
+
+36 | Regulation 61-62.1
+
+Within thirty (30) days of the transfer of ownership/operation of a facility, the current permit holder and
+prospective new owner/operator shall submit to the Department a written request for transfer of the source
+operating or construction permit(s). The written request for transfer of the source operating or construction
+permit(s) shall include any changes pertaining to the facility name; the name, mailing address, and
+telephone number of the owner or operator for the facility; and any proposed changes to the permitted
+activities of the source. Transfer of the operating or construction permit(s) will be effective upon written
+approval by the Department.
+(N) Public Participation Procedures
+(1) When determined to be appropriate by the Department (or specified by regulation), notice of
+permitting activity shall be provided to the public and other entities for their review and comment. Public
+notice shall be given by publication in a newspaper of general circulation in the area where the source is
+located, or by posting to a public website identified by the Department, or by publication in the South
+Carolina State Register, and to persons on a mailing list developed by the Department, including those who
+request in writing to be on the list. The Department may use additional means of public notice, including,
+but not limited to public meetings.
+(2) The notice shall include the following:
+(a) The name and physical address of the facility;
+(b) The name and address of the Department;
+(c) Applicable activities involved in the permit action;
+(d) Applicable emission change involved in any permit modification;
+(e) The name, address, and telephone number of a person from whom interested persons may obtain
+additional information, including copies of the permit draft, the application, and all other materials available
+to the Department that are relevant to the permit decision, except for information entitled to confidential
+treatment (the contents of any proposed or draft permit shall not be treated as confidential information);
+(f) A brief description of the comment procedures; and
+(g) The time and place of any public hearing that may be held, including a statement of procedures to
+request a hearing (unless a hearing has already been scheduled).
+(3) The Department shall provide at least thirty (30) days for public and EPA comment and shall give
+notice of any public hearing at least thirty (30) days in advance of the hearing.
+(a) The Department shall keep a record of the commenters and the comments made during the public
+comment period.
+(b) The Department shall consider all written comments submitted within a time specified in the notice
+of public comment and all comments received at any public hearing(s) in making a final decision on the
+approvability of the application.
+(4) A newly constructed or modified source issued a federally enforceable final construction permit will
+not require an additional public comment period and/or hearing to obtain an operating permit, unless the
+
+37 | Regulation 61-62.1
+
+source proposes a change in the original construction and/or operational plan, prior to commencing
+construction, which the Department determines would require an additional public comment period and/or
+hearing.
+(5) Any proposed new or modified stationary source required to undergo a public comment period shall
+not commence any construction until all public participation procedures of this section are completed, and
+the source has received an effective construction permit from the Department.
+(6) Maintenance activities, repairs, and replacements which the Department determines to be routine for
+that source category shall not, by themselves, be required to undergo the public participation procedures of
+Section II(N).
+(O) Inspection and Entry
+Upon presentation of credentials and other documents as may be required by law, the owner or operator
+shall allow the Department or an authorized representative to perform the following:
+(1) Enter the facility where emissions-related activity is conducted, or where records must be kept under
+the conditions of the permit;
+(2) Have access to and copy, at reasonable times, any records that must be kept under the conditions of
+the permit;
+(3) Inspect any facilities, equipment (including monitoring and air pollution control equipment),
+practices, or operations regulated or required under this permit; and
+(4) As authorized by the Clean Air Act and/or the South Carolina Pollution Control Act, sample or
+monitor, at reasonable times, substances or parameters for the purpose of assuring compliance with the
+permit or applicable requirements.
+SECTION III – EMISSIONS INVENTORY AND EMISSIONS STATEMENTS
+(A) General
+(1) An emissions inventory is a study or compilation of pollutant emissions. The purposes of emissions
+inventories are to locate air pollution sources, to define the type and size of sources, to define the type and
+amount of emissions from each source, to determine pollutant frequency and duration, to determine the
+relative contributions to air pollution from classes of sources and of individual sources, to provide a basis
+for air permit fees, and to determine the adequacy of regulations and standards. The requirements of this
+section notwithstanding, an emissions inventory may be required from any source at any time.
+(2) An emissions statement is a less detailed statement which focuses on emissions estimates for
+pollutants associated with a nonattainment designation.
+
+(B) Emissions Inventory Reporting Requirements
+(1) Beginning with the effective date of this regulation, sources must submit an emissions inventory for
+the previous calendar year by March 31 at a frequency as outlined below:
+
+38 | Regulation 61-62.1
+
+(a) Type A Sources are Title V Sources with annual emissions greater than or equal to any of the
+emission thresholds listed for Type A Sources in Table 1 below. Type A Sources must submit an emissions
+inventory every year.
+Table 1 - Minimum Point Source Reporting
+Thresholds by Pollutant (tons per year)
+Type A Sources:
+Pollutants
+Potential1 or Actual2
+Annual Cycle
+SOX
+Potential
+2500
+VOC
+Potential
+250
+NOX
+Potential
+2500
+CO
+Potential
+2500
+2
+Pb
+Actual
+0.50
+PM10
+Potential
+250
+PM2.5
+Potential
+250
+NH3
+Potential
+250
+1
+
+Tons per year (tpy) potential to emit means the maximum capacity of a stationary source to emit any air
+pollutant under its physical and operational design. Any physical or operational limitation on the capacity
+of a source to emit an air pollutant, including air pollution control equipment and restrictions on hours of
+operation or on the type or amount of material combusted, stored, or processed, will be treated as part of its
+design if the limitation is enforceable by the Administrator and included in the source’s permit prior to the
+end of the reporting year.
+2
+
+The EPA considers that the ambient monitoring rule threshold is 0.5 tons of actual emissions; therefore,
+this criterion is based on actual emissions rather than the potential-to-emit approach taken for other criteria
+pollutant and precursor thresholds.
+(b) All other Title V Sources with annual emissions less than the emission thresholds listed for Type
+A Sources in Table 1 above must submit emissions inventories every three (3) years beginning with calendar
+year 2014 data.
+(c) Nonattainment area (NAA) Sources are sources located in a NAA with annual emissions during
+any year of the three (3) year cycle greater than or equal to any of the emission thresholds listed for NAA
+Sources in Table 2 below. These sources that are not also Type A Sources must submit emissions
+inventories every three (3) years beginning with calendar year 2014 data.
+Table 2 - Minimum Point Source Reporting
+Thresholds by Pollutant (tons per year)
+NAA3 Sources:
+Pollutant
+Potential1 or Actual2
+Three-year Cycle
+SOX
+Potential
+100
+100 (moderate O3 NAA )
+50 (serious O3 NAA)
+VOC
+Potential
+25 (severe O3 NAA)
+10 (extreme O3 NAA)
+NOX
+Potential
+100 (all O3 NAA)
+CO
+Potential
+100 (all O3 NAA)
+
+39 | Regulation 61-62.1
+
+Table 2 - Minimum Point Source Reporting
+Thresholds by Pollutant (tons per year)
+NAA3 Sources:
+Pollutant
+Potential1 or Actual2
+Three-year Cycle
+100 (all CO NAA)
+Pb
+Actual
+0.50
+100 (moderate PM10 NAA)
+PM10
+Potential
+70 (serious PM10 NAA)
+PM2.5
+Potential
+100
+NH3
+Potential
+100
+1
+
+Tons per year (tpy) potential to emit means the maximum capacity of a stationary source to emit any air
+pollutant under its physical and operational design. Any physical or operational limitation on the capacity
+of a source to emit an air pollutant, including air pollution control equipment and restrictions on hours of
+operation or on the type or amount of material combusted, stored, or processed, will be treated as part of its
+design if the limitation is enforceable by the Administrator and included in the source’s permit prior to the
+end of the reporting year.
+2
+
+The EPA considers that the ambient monitoring rule threshold is 0.5 tons of actual emissions; therefore,
+this criterion is based on actual emissions rather than the potential-to-emit approach taken for other criteria
+pollutant and precursor thresholds.
+3
+
+Special point source reporting thresholds apply for certain pollutants by type of NAA. The pollutants by
+nonattainment area are:
+Ozone: VOC, NOX, and CO;
+Carbon Monoxide: CO; and
+Particulate matter less than 10 microns: PM10.
+(2) Other Requirements
+(a) Unless otherwise indicated, all emissions inventories must be submitted to the Department by
+March 31 following the year of inventory. All applicable information must be recorded in the current format
+for reporting emissions data provided by the Department.
+(b) All newly permitted and constructed Title V Sources which have obtained or are in the process of
+obtaining a Title V permit and all newly permitted and constructed NAA Sources must complete and submit
+to the Department an initial emissions inventory for the source’s first partial calendar year of operation and
+an emissions inventory for the source’s first full calendar year of operation.
+(i) The partial year emissions inventory must be submitted to the Department no later than March
+31 of the year following the source’s partial year of operation and must include an emissions inventory
+from the source’s operation start date through December 31 of the same year.
+(ii) The first full calendar year emissions inventory must be submitted to the Department by March
+31 of the year following the source’s first calendar year of operation.
+(iii) Sources must submit future emissions inventories on the schedule as described in paragraph
+(B)(1)(a), paragraph (B)(1)(b), and paragraph (B)(1)(c) of this section.
+
+40 | Regulation 61-62.1
+
+(c) Any existing sources that are determined by the Department to be subject to Regulation 61-62.70,
+Title V Operating Permit Program, and/or NAA Sources must complete and submit to the Department an
+emissions inventory for the previous calendar year within ninety (90) days. These sources must then submit
+future emissions inventories on the schedule as described in paragraph (B)(1)(a), paragraph (B)(1)(b), and
+paragraph (B)(1)(c) of this section.
+(d) Submittal of emissions inventories outside of the schedules in this section will be accepted and
+reviewed only if a modification has occurred that required issuance of an air quality permit since the last
+emissions inventory submittal by the source. This modification must alter the quantity or character of the
+source’s emissions. These sources may submit a new emissions inventory following the first full calendar
+year of operation after the modification. These sources must then submit future emissions inventories on
+the schedule described in paragraph (B)(1)(a), paragraph (B)(1)(b), and paragraph (B)(1)(c) of this section.
+(e) Information required in an emissions inventory submittal to the Department must include the
+following:
+(i) Information on fuel burning equipment;
+(ii) Types and quantities of fuel used;
+(iii) Fuel analysis;
+(iv) Exhaust parameters;
+(v) Control equipment information;
+(vi) Raw process materials and quantities used;
+(vii) Design, normal, and actual process rates;
+(viii) Hours of operation;
+(ix) Significant emission generating points or processes as discussed in the current format for
+reporting emissions data provided by the Department;
+(x) Any desired information listed in 40 CFR Part 51 Subpart A (December 17, 2008) that is
+requested by the Department;
+(xi) Emissions data from all regulated pollutants; and
+(xii) Any additional information reasonably related to determining if emissions from an air source
+are causing standards of air quality to be exceeded.
+(f) A source may submit a written request to the Department for approval of an alternate method for
+estimating emissions outside of those methods prescribed by the Department. Such requests will be
+reviewed by the Department’s emissions inventory staff on a case-by-case basis to determine if the alternate
+method better characterizes actual emissions for the reporting period than the Department’s prescribed
+methods.
+(g) Emission estimates from insignificant activities listed on a source’s permit are required only in the
+initial emissions inventory submitted by the source. If emissions from these insignificant activities have not
+
+41 | Regulation 61-62.1
+
+been included in a past emissions inventory submitted to the Department, the source must include these
+emissions in their next required emissions inventory submittal.
+(h) Copies of all records and reports relating to emissions inventories as required in this section must
+be retained by the owner/operator at the source for a minimum of five (5) years.
+(C) Emissions Statement Requirements
+(1) Sources in areas designated nonattainment for an ozone National Ambient Air Quality Standard
+(NAAQS) must submit to the Department by March 31 for the previous calendar year an emissions
+statement which includes emissions estimates for both VOCs and nitrogen oxides (NOX) beginning with
+the effective date of this regulation.
+(2) The statement must contain a certification that the information contained in the statement is accurate
+to the best knowledge of the individual certifying the statement.
+(3) All applicable information must be recorded in the current format for reporting emissions data
+provided by the Department.
+(4) Copies of all records and reports relating to emissions statements as required in this section must be
+retained by the owner or operator at the source for a minimum of five (5) years.
+SECTION IV – SOURCE TESTS
+(A) Applicability
+(1) This section shall apply to the owner, operator, or representative of any source which conducts:
+(a) A source test required under an applicable standard or permit condition; or pursuant to a judicial
+or administrative order, consent agreement, or any other such binding requirement entered into after the
+effective date of this standard; or
+(b) Any other source test from which data will be submitted to the Department for any purpose
+including but not limited to: determination of applicability of regulatory requirements, development of
+emission factors, establishment of parameters for compliance assurance monitoring, continuous emission
+monitor performance specification testing, and Relative Accuracy Test Audits (RATA).
+(2) The Department may, on a case-by-case basis, exempt from the requirements of this section source
+tests which are performed for development of emission factors or for determination of applicability of
+regulations.
+(B) Submission and Approval of a Site-Specific Test Plan
+(1) Prior to conducting a source test subject to this section, the owner, operator, or representative shall
+ensure that:
+(a) A written site-specific test plan, including all of the information required in Section IV(C) below,
+has been developed and submitted to the Department. If the Department has previously approved a
+site-specific test plan, the owner, operator, or representative may submit a letter which references the
+approved plan and which includes a thorough description of amendments to the plan; and
+
+42 | Regulation 61-62.1
+
+(b) Written Department approval of the site-specific test plan or amended test plan, methods, and
+procedures has been received.
+(2) All test methods included in the site-specific test plan must be either EPA Reference Methods
+described in 40 CFR Part 51, Appendix M; or 40 CFR Part 60, Appendix A; or 40 CFR Part 61, Appendix
+B; or 40 CFR Part 63, Appendix A. If an applicable air regulation or permit provides for a choice of test
+methods, the selected method must be approved by the Department. If an applicable air regulation or permit
+does not specify use of an EPA standard reference method, the alternative test method to be used must be
+approved by the Department.
+(3)(a) The owner, operator, or representative of a source proposing to use alternative source test methods
+shall ensure that the alternative source test method is either validated according to EPA Reference Method
+301 (40 CFR Part 63, Appendix A, December 29, 1992) and any subsequent amendments or editions, or
+approved by the Department.
+(b) The owner, operator, or representative shall ensure that requests for approval of alternative source
+test methods are submitted to the Department along with the site-specific test plan, and that the submission
+contains all of the information required by Section IV(C) below.
+(4) The Department shall determine whether any source test method proposed in the site-specific test
+plan is appropriate for use.
+(5)(a) The owner, operator, or representative shall submit site-specific test plans or a letter which amends
+a previously approved test plan at least forty-five (45) days prior to the proposed test date or as otherwise
+specified by a relevant federal or state requirement. Sources conducting tests for substances listed in
+Regulation 61-62.5, Standard No. 8, shall submit site-specific test plans or a letter which amends a
+previously approved test plan at least sixty (60) days prior to the proposed test date.
+(b) If the only amendments to a previously approved test plan are to facility information included in
+Section IV(C)(1)(a) and (C)(1)(b) below, the requirement in Section IV(B)(5)(a) above will not apply. The
+owner, operator, or representative however, shall submit the amendments at least two (2) weeks prior to the
+proposed test date.
+(6) Within thirty (30) days of site-specific test plan receipt, the Department will notify the owner,
+operator, or representative of site-specific test plan approval or denial or will request additional information.
+(7) The owner, operator, or representative shall submit any additional information requested by the
+Department necessary to facilitate the review of the site-specific test plan.
+(8) Approval of a site-specific test plan for which an owner, operator, or representative fails to submit
+any additional requested information will be denied.
+(9) Neither the submission of a site-specific test plan, nor the Department’s approval or disapproval of a
+plan, nor the Department’s failure to approve or disapprove a plan in a timely manner shall relieve an owner,
+operator, or representative of legal responsibility to comply with any applicable provisions of this section
+or with any other applicable federal, state, or local requirement or prevent the Department from enforcing
+this section.
+(C) Requirements for a Site-Specific Test Plan
+A site-specific test plan shall include, at a minimum, the following Section IV(C)(1) through (C)(8):
+
+43 | Regulation 61-62.1
+
+(1) General Information:
+(a) Facility name, address, telephone number, and name of facility contact;
+(b) Facility permit number and source identification number;
+(c) Name, address, and telephone number of the company contracted to perform the source test; and
+(d) Name, address, and telephone number of the laboratory contracted to perform the analytical
+analysis of the source test samples.
+(2) Test Objectives:
+(a) Description and overall purpose of the tests (for example, to demonstrate compliance, to establish
+emission factors, etc.); and
+(b) Citation of any applicable state or federal regulation or permit condition requiring the tests.
+(3) Process Descriptions:
+(a) Description of the process including a description of each phase of batch or cyclic processes and
+the time required to complete each phase;
+(b) Process design rates, normal operating rates, and operating rates specified by applicable regulation;
+(c) Proposed operating rate and conditions for the source test;
+(d) Methods including proposed calculations, equations, and other related information that will be used
+to demonstrate and verify the operating rate during the source test;
+(e) Description of any air pollution control equipment;
+(f) Description of any stack gas or opacity monitoring systems;
+(g) Description of all air pollution control monitors (for example, pressure gauges, flow indicators,
+cleaning cycle timers, electrostatic precipitator voltage meters, etc.) when applicable; and
+(h) A list of process and air pollution control operating parameters that will be recorded during the
+tests, the responsible party who will record these readings, and the frequency at which readings will be
+recorded.
+(4) Safety Considerations:
+(a) Identification of any risks associated with sampling location and accessibility, toxic releases,
+electrical hazards, or any other unsafe conditions; and a plan of action to correct or abate these hazards; and
+(b) List of all necessary or required safety equipment including respirators, safety glasses, hard hats,
+safety shoes, hearing protection, and other protective equipment.
+(5) Sampling and Analytical Procedures:
+
+44 | Regulation 61-62.1
+
+(a) Description of sampling methods to be used;
+(b) Description of analytical methods to be used;
+(c) Number of tests to be conducted;
+(d) Number of runs comprising a test;
+(e) Duration of each test run;
+(f) Description of minimum sampling volumes for each test run;
+(g) Location where samples will be recovered;
+(h) Explanation of how blank and recovery check results and analytical non-detects will be used in
+final emission calculations;
+(i) Maximum amount of time a sample will be held after collection prior to analysis; and
+(j) Method of storing and transporting samples.
+(6) Sampling Locations and Documentation:
+(a) Schematics of sampling sites (include stack dimensions and distances upstream and downstream
+from disturbances);
+(b) A description of all emission points, including fugitive emissions, associated with the process to
+be tested, and when applicable, the method that will be used to measure or include these emissions during
+the source test; and
+(c) Procedure for verifying absence of cyclonic or non-parallel stack gas flow.
+(7) Internal Quality Assurance/Quality Control (QA/QC) Measures - for each proposed test method when
+applicable:
+(a) Citation of the QA/QC procedures specified in the EPA Reference Methods and the EPA Quality
+Assurance Handbook for Air Pollution Measurement Systems, Volume III;
+(b) Chain-of-custody procedures and copies of chain-of-custody forms;
+(c) Procedure for conditioning particulate matter filters (before and after source testing);
+(d) Procedure for conducting leak checks on vacuum lines, pitot tubes, flexible bags, orsats, etc.;
+(e) Equipment calibration frequencies, ranges, and acceptable limits;
+(f) Minimum detection limits of analytical instrumentation;
+(g) Names, addresses, and responsible persons of all sub-contracting laboratories and a description of
+analytical methods to be used, chain-of-custody procedures, and QA/QC measures;
+
+45 | Regulation 61-62.1
+
+(h) QA/QC measures associated with the collection and analysis of process or raw material samples
+and the frequency at which these samples will be collected;
+(i) Methods for interference and matrix effects checks, and number of replicate analyses;
+(j) Methods and concentrations for internal standards (standards additions prior to extraction);
+(k) Methods and concentrations for surrogate standards (standards additions to collection media prior
+to sampling);
+(l) Methods for recovery checks, field blanks, lab blanks, reagent blanks, proof rinse blanks, and
+analytical blanks;
+(m) Proposed range of recoveries for data acceptability and method of data interpretation if sample
+recovery is not within the proposed range; and
+(n) Procedure for obtaining, analyzing, and reporting source test method performance audit samples
+and results.
+(8) Final Test Report Content:
+(a) Final report outline;
+(b) Example calculations when using alternative test methods or for calculation of process operating
+rates; and
+(c) Proposed report submission date if more than thirty (30) days after the source test will be needed
+to complete the report.
+(D) Notification and Conduct of Source Tests
+(1) Prior to conducting a source test subject to this section, the owner, operator, or representative shall
+ensure that a complete written notification is submitted to the Department at least two (2) weeks prior to
+the test date or as otherwise specified by a relevant federal or state requirement. Submission of a
+site-specific test plan or amendments to a previously approved test plan does not constitute notification.
+Requirements for a complete notification include the following:
+(a) Facility name, permit number, mailing address, physical address, and contact name and phone
+number;
+(b) Source(s) being tested, source identification number(s), and pollutant(s) being tested;
+(c) Proposed test date and start time for each source being tested; and
+(d) Approved test plan being used to conduct the test identified by Department approval date.
+(2) In the event the owner, operator, or representative is unable to conduct the source test on the date
+specified in the notification, the owner, operator, or representative shall notify the Department as soon as
+practical by telephone and follow up in writing within thirty (30) days. Telephone notification shall include
+a description of the circumstance(s) causing the cancellation of the test, and a projected retest date. The
+
+46 | Regulation 61-62.1
+
+written follow-up report shall include a description of the condition(s) which prevented the source test from
+being conducted, and when applicable, what corrective action was performed, or what equipment repairs
+were required.
+(3) Rescheduling of canceled source tests must meet the two-week notice requirement. However, shorter
+notification periods may be allowed subject to Department approval.
+(4) All tests shall be conducted by or under the direction of a person qualified by training and/or
+experience in the field of air pollution testing or, where required by federal regulation, meeting the
+minimum competency requirements for air emissions testing as specified in ASTM D7036-04, Standard
+Practice for Competence of Air Emission Testing Bodies.
+(5) Unless approved otherwise by the Department, the owner, operator, or representative shall ensure
+that source tests are conducted while the source is operating at the maximum expected production rate or
+other production rate or operating parameter which would result in the highest emissions for the pollutants
+being tested or as otherwise specified in a relevant federal or state requirement. Examples of the operating
+parameters that may affect emission rates are: type and composition of raw materials and fuels, isolation of
+control equipment modules, product types and dimensions, thermal oxidizer combustion temperature,
+atypical control equipment settings, etc. Some sources may have to spike fuels or raw materials to avoid
+being permitted at a more restrictive feed or process rate. Any source test performed at a production rate
+less than the rated capacity may result in permit limits on emission rates, including limits on production if
+necessary.
+(6) When conducting a source test subject to this section, the owner, operator, or representative of a
+source shall provide the following:
+(a) Department access to the facility to observe source tests;
+(b) Sampling ports adequate for test methods;
+(c) Safe sampling site(s);
+(d) Safe access to sampling site(s);
+(e) Utilities for sampling and testing equipment; and
+(f) Equipment and supplies necessary for safe testing of a source.
+(E) Source Test Method Performance Audit Program
+(1) The Department may request that samples collected during any source tests be split with the
+Department for analysis by an independent or Department laboratory. Any request for split samples will be
+made in advance of the source test.
+(2) Performance testing shall include a test method performance audit (PA) during the performance test
+if a PA sample is commercially available.
+(a) PAs consist of blind audit samples supplied by an accredited audit sample provider (AASP) and
+analyzed during the performance test in order to provide a measure of test data bias.
+
+47 | Regulation 61-62.1
+
+(b) An “accredited audit sample provider (AASP)” is an organization that has been accredited to
+prepare audit samples by an independent, third party accrediting body.
+(3) The source owner, operator, or representative of the tested facility shall obtain an audit sample, if
+commercially available, from an AASP for each test method used for regulatory compliance purposes.
+(a) No audit samples are required for the following test methods: Methods 3A and 3C of Appendix
+A-2 of 40 CFR Part 60; Methods 6C, 7E, 9, and 10 of Appendix A-4 of 40 CFR Part 60; Method 18 of
+Appendix A-6 of 40 CFR Part 60; Methods 20, 22, and 25A of Appendix A-7 of 40 CFR Part 60; and
+Methods 303, 318, 320, and 321 of Appendix A of 40 CFR Part 63.
+(b) If multiple sources at a single facility are tested during a compliance test event, only one audit
+sample is required for each method used during a compliance test.
+(c) Upon request, the Department may waive the requirement to include an audit sample if the
+Department determines that an audit sample is not necessary. A waiver of the performance audit
+requirements to conduct a PA for a particular source does not constitute a waiver of performance audit
+requirements for future source tests.
+(d) “Commercially available” means that two or more independent AASPs have blind audit samples
+available for purchase. If the source owner, operator, or representative cannot find an audit sample for a
+specific method, the owner, operator, or representative shall consult the EPA Web site at the following
+URL, http://www.epa.gov/ttn/emc, to confirm whether there is an AASP that can supply an audit sample
+for that method.
+(e) If the EPA Web site does not list an available audit sample at least 60 days prior to the beginning
+of the compliance test, the source owner, operator, or representative shall not be required to include an audit
+sample as part of the quality assurance program for the compliance test.
+(f) When ordering an audit sample, the source, operator, or representative shall give the AASP an
+estimate for the concentration of each pollutant that is emitted by the source or the estimated concentration
+of each pollutant based on the permitted level and the name, address, and phone number of the Department.
+(g) The source owner, operator, or representative shall report the results for the audit sample along
+with a summary of the emission test results for the audited pollutant to the Department and shall report the
+results of the audit sample to the AASP. The source owner, operator, or representative shall make both
+reports at the same time and in the same manner or shall report to the Department first and then report to
+the AASP.
+(h) If the method being audited is a method that allows the samples to be analyzed in the field and the
+tester plans to analyze the samples in the field, the tester may analyze the audit samples prior to collecting
+the emission samples provided a representative of the Department is present at the testing site. The source
+owner, operator, or representative may request in the test protocol a waiver to the requirement that a
+representative of the Department must be present at the testing site during the field analysis of an audit
+sample.
+(i) The final test report shall document any attempt to obtain an audit sample and, if an audit sample
+was ordered and utilized, the pass/fail results as applicable.
+(4) The Department shall have discretion to require any subsequent remedial actions of the owner,
+operator, or representative based on the split samples and/or performance audit results.
+
+48 | Regulation 61-62.1
+
+(F) Final Source Test Report
+(1) The owner, operator, or representative of a source subject to this section shall submit a written report
+of the final source test results to the Department by the close of business on the thirtieth (30th) day following
+the completion of the test, unless an alternative date has been requested in and approved with the
+site-specific test plan prior to testing or is otherwise specified in a relevant federal or state requirement.
+(2) The final test report for each site-specific test plan shall contain, at a minimum, the following
+supporting information when applicable:
+(a) Summary of the results;
+(b) Emission calculations and emission rates in units of the applicable standard, permit limit, etc.;
+(c) Allowable emission rates in units of the applicable standard, permit limit, etc.;
+(d) Source compliance status;
+(e) Process operating rates;
+(f) Methods including actual calculations, equations, and other related information that were used to
+demonstrate and verify the operating rate during the source test;
+(g) Chain of custody records;
+(h) Certification of all reference standards used;
+(i) Signature of a responsible facility representative who can verify process operating rates and
+parameters;
+(j) Legible copies of all raw laboratory data (for example, filter tare and final weights, titrations,
+chromatograms, spectrograms, analyzer measurements, etc.);
+(k) Legible copies of all raw field data (for example, strip charts, field data forms, field calibration
+forms, etc.);
+(l) Legible copies of applicable stack gas or opacity monitoring system readings identified in the
+approved site-specific test plan;
+(m) Legible copies of all applicable process and air pollution control operating parameter readings
+identified in the approved site-specific test plan;
+(n) Results of all calibrations and QA/QC measures and checks identified in the approved site-specific
+test plan;
+(o) Results of performance audits pursuant to Section IV(E) above or documentation that no audit
+sample was commercially available sixty (60) days prior to the beginning of the compliance test;
+(p) Description of any deviations from the proposed process operations as approved in the site-specific
+test plan during testing;
+
+49 | Regulation 61-62.1
+
+(q) Description of any deviations from approved sampling methods/procedures;
+(r) Description of any deviations from approved analytical procedures;
+(s) Description of any problems encountered during sampling and analysis, and explanation of how
+each was resolved; and
+(t) Legible copies of any applicable or required certifications (for example, Visible Emission Observer,
+Qualified Source Testing Individual (QSTI), etc.).
+(G) Noncompliant Results
+Within fifteen (15) days of submission of a test report indicating noncompliance, the owner, operator, or
+representative shall submit to the Department a written plan which includes at a minimum:
+(1) Interim actions being taken to minimize emissions pending demonstration of compliance;
+(2) Corrective actions that have been taken or that are proposed to return the source to compliance;
+(3) Method that will be used to demonstrate the source has returned to compliance (for example, retest
+and proposed date); and
+(4) Any changes necessary to update the site-specific test plan prior to a retest.
+(H) Analytical Observation
+Upon request by the Department, the owner, operator, representative, or the source test consultant shall
+ensure that Department representatives are provided access to the analytical laboratory for observation of
+instrument calibrations and analysis of field and audit samples.
+(I) Site Inspection
+Upon request by the Department and prior to approval of the site-specific test plan, the owner, operator,
+or representative shall ensure Department representatives are provided access to the site for inspection of
+the source(s) to be tested.
+(J) Modifications
+Modifications to the approved site-specific test plan must have prior Department approval. Approval
+shall be considered on a case-by-case basis. Failure to obtain prior Department approval may cause final
+test results to be unacceptable.
+
+SECTION V – CREDIBLE EVIDENCE
+(A) The Department promulgated Regulation 61-62, Air Pollution Control Regulations and Standards, and
+developed the South Carolina Air Quality Implementation Plan to provide enforceable emission limitations;
+to establish an adequate enforcement program; to require owners or operators of stationary sources to
+monitor emissions, submit periodic reports of such emissions, and maintain records as specified by various
+
+50 | Regulation 61-62.1
+
+regulations and permits; and to evaluate reports and records for consistency with the applicable emission
+limitation or standard on a continuing basis over time. The monitoring data collected and records of
+operations would serve as the basis for a source to certify compliance, and could be used by the Department
+as direct evidence of an enforceable violation of the underlying emission limitation or standard.
+(B) The purpose of this section is:
+(1) To clarify the statutory authority of Regulation 61-62, Air Pollution Control Regulations and
+Standards, and the South Carolina Air Quality Implementation Plan, whereby non-reference test data and
+various kinds of information already available and utilized for other purposes may be used to demonstrate
+compliance or noncompliance with emission standards;
+(2) To eliminate any potential ambiguity regarding language that has been interpreted to provide for
+exclusive reliance on reference test methods as the means of certifying compliance with various emission
+limits; and
+(3) To curtail language that limits the types of testing or monitoring data that may be used for determining
+compliance and for establishing violations.
+(C) The following are applicable in the determination of noncompliance by the Department or for
+compliance certification by the owners or operators of stationary sources:
+(1) Enforcement - Consistent with South Carolina’s Environmental Audit Privilege and Voluntary
+Disclosure Act, codified as S.C. Code Ann. Sections 48-57-10 et seq., and notwithstanding any other
+provision in the South Carolina Air Quality Implementation Plan, any credible evidence or information
+relevant to whether a source would have been in compliance with applicable requirements if the appropriate
+performance or compliance test had been performed, can be used to establish whether or not a person has
+violated or is in violation of any standard in the plan; and
+(2) Compliance Certifications - Consistent with South Carolina’s Environmental Audit Privilege and
+Voluntary Disclosure Act, codified as S.C. Code Ann. Sections 48-57-10 et seq., and notwithstanding any
+other provision in the South Carolina Air Quality Implementation Plan, the owner or operator may use any
+credible evidence or information relevant to whether a source would have been in compliance with
+applicable requirements if the appropriate performance or compliance test had been performed for the
+purpose of submitting compliance certifications.
+
+51 | Regulation 61-62.1
+
+

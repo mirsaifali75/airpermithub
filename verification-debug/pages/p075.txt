@@ -1,0 +1,279 @@
+Unofficial Copy
+
+Note: The O&NG PBR, as promulgated under emergency rulemaking effective July 25, 2024.
+
+TITLE 252. DEPARTMENT OF ENVIRONMENTAL
+QUALITY CHAPTER 100. AIR POLLUTION CONTROL
+SUBCHAPTER 7. PERMITS FOR MINOR FACILITIES
+PART 9. PERMITS BY RULE
+252:100-7-60.5. Oil and natural gas sector
+(a) Applicability. This PBR is issued for minor facilities and area sources in the oil and natural
+gas (O&NG) sector. This includes but is not limited to facilities subject to federal standards,
+primarily Subparts IIII, JJJJ, OOOO, and OOOOa, and OOOOb of the federal NSPS, 40 CFR Part
+60, and Subparts HH and ZZZZ of the federal NESHAP, 40 CFR Part 63, as cited in this PBR and
+incorporated by reference in OAC 252:100-2 and Appendix Q to Chapter 100. Specifically, this
+PBR applies to the following:
+(1) Eligible minor facilities and area sources. New and existing minor facilities and area
+sources in the O&NG sector are eligible for this PBR, provided they comply with the
+conditions in (A) through (G) of this paragraph.
+(A) The facility has actual emissions of 40 TPY or less of each regulated air pollutant,
+except HAPs and GHGs.
+(B) The facility has potential emissions of each regulated air pollutant, except HAPs, that
+are less than the emission levels that require prevention of significant deterioration (PSD),
+nonattainment new source review (NNSR), and Part 70 permits.
+(C) The facility does not emit or have potential emissions of 10 TPY or more of any single
+HAP or 25 TPY or more of any combination of HAPs.
+(D) For the purpose of determining if a facility is eligible for registration under this PBR,
+the calculation of actual emissions may include emission reductions that will be made
+enforceable by registration under this PBR.
+(E) Only for the purpose of determining if a facility is eligible for registration under this
+PBR, the calculation of potential emissions shall not include emission reductions resulting
+from any physical or operational limitation (including capacity limitations, use of air
+pollution control equipment, and/or restrictions on hours of operation or on the type or
+amount of material combusted, stored, or processed). Affected However, affected sources
+or potentially affected sources subject to a federal standard (NSPS or NESHAP) may
+include enforceable limitations imposed by the federal standards in the calculation of
+potential emissions.
+(F) The facility must meet the criteria in 252:100-7-15(b)(1)(C) through (E).
+(G) The facility is not otherwise a Part 70 source.
+(2) Equipment and processes. This PBR covers equipment and processes located at minor
+facilities and area sources in the O&NG sector that meet the criteria contained in 252:100-760.5(a)(1). Covered equipment and processes under this PBR include, but are not limited to:
+(A) The affected facilities listed in 40 CFR Section 60.5365 of NSPS Subpart OOOO, and
+40 CFR Section 60.5365a of NSPS Subpart OOOOa, and 40 CFR Section 60.5365b of
+NSPS Subpart OOOOb.
+(B) Stationary compression ignition internal combustion engines, as specified in 40 CFR
+Section 60.4200 of NSPS Subpart IIII, which are located at minor facilities in the O&NG
+sector.
+
+1
+
+(C) Stationary spark ignition internal combustion engines, as specified in 40 CFR Section
+60.4230 of NSPS Subpart JJJJ, which are located at minor facilities in the O&NG sector.
+(D) The affected sources listed in 40 CFR Section 63.760(a) and (b)(2) of NESHAP
+Subpart HH, which are located at area sources.
+(E) Stationary reciprocating internal combustion engines (RICE), as specified in 40 CFR
+Section 63.6585 of NESHAP Subpart ZZZZ, which are located at area sources in the
+O&NG sector.
+(b) Standards and requirements.
+(1) NSPS and NESHAP requirements. The owner or operator shall meet the applicable
+requirements of the following NSPS and NESHAP subparts for equipment and processes
+located at minor facilities or area sources in the O&NG sector.
+(A) General provisions. The owner or operator of minor affected facilities covered by the
+O&NG PBR shall comply with applicable requirements of 40 CFR 60, Subpart A.
+(B) Crude oil and natural gas production, transmission, and distribution. The owner
+or operator of each minor affected facility shall comply with the applicable standards and
+requirements of 40 CFR Part 60, Subparts OOOO, and/or OOOOa, and/or OOOOb.
+(C) Stationary compression ignition internal combustion engines. The owner or
+operator of a stationary compression ignition internal combustion engine shall comply with
+the applicable emission, equipment, and work practice standards and testing, reporting
+monitoring, and recordkeeping requirements of 40 CFR Part 60, Subpart IIII.
+(D) Stationary spark ignition internal combustion engine. The owner or operator of a
+stationary spark ignition internal combustion engine shall comply with the applicable
+emission, equipment, and work practice standards and testing, reporting, monitoring, and
+recordkeeping requirements of 40 CFR Part 60, Subpart JJJJ.
+(E) General provisions. The owner or operator of an area source covered by the O&NG
+PBR shall comply with applicable requirements of 40 CFR Part 63, Subpart A.
+(F) Oil and natural gas production facilities. The owner or operator of an affected source
+listed in 40 CFR Section 63.760(a) and (b) and located at an area source shall comply with
+the applicable emission, equipment, and work practice standards and testing, reporting,
+monitoring, and recordkeeping requirements of 40 CFR Part 63, Subpart HH.
+(G) Stationary reciprocating internal combustion engines. The owner or operator of a
+stationary RICE located at an area source shall comply with the applicable emission,
+equipment, and work practice standards and testing, reporting, monitoring, and
+recordkeeping requirements of 40 CFR Part 63, Subpart ZZZZ.
+(H) Equipment subject to any other NSPS or NESHAP. The owner or operator of the
+facility shall comply with the applicable emission, equipment, and work practice standards
+and testing, reporting, monitoring, and recordkeeping requirements of any other applicable
+NSPS or NESHAP, including any modification to requirements of an existing applicable
+NSPS or NESHAP.
+(2) DEQ Air Pollution Control Rules, standards, and requirements. The owner or operator
+of an O&NG facility covered by this PBR shall comply with applicable portions of the:
+(A) emission inventory requirements and annual fee requirements contained in 252:100- 5;
+(B) excess emission reporting requirements contained in 252:100-9;
+(C) particulate matter emission rates contained in 252:100-19 for fuel-burning equipment;
+(D) visible emissions (opacity) limits contained in 252:100-25 for subject emission units;
+(E) fugitive dust standards contained in 252:100-29;
+
+2
+
+(F) standards and requirements for the control of the emission of sulfur compounds
+contained in 252:100-31 for subject emission units;
+(G) standards and requirements for the control of the emission of nitrogen oxides contained
+in 252:100-33 for subject fuel-burning equipment;
+(H) standards and requirements for the control of the emission of VOCs contained in
+252:100-37 and 252:100-39 for subject emission units; and
+(I) testing, monitoring, and recordkeeping requirements contained in 252:100-43.
+(c) Requested process-specific limitations - storage vessel affected facilities. An owner or
+operator shall designate on the PBR registration form(s) that either of the following federally
+enforceable limits are applicable to a specified storage vessel affected facility. The permittee shall
+submit a notice of enforceability on forms provided by the DEQ to add or remove the applicability
+of federally enforceable limits to or from any specific emission unit.
+(1) The storage vessel affected facility shall be limited to less than 6 TPY of VOC emissions,
+12-month rolling total, unless another time measurement is specified under 40 CFR Part 60,
+Subpart OOOO or OOOOa. Demonstration of compliance with the VOC emission limit shall
+be based on records of VOC stored and monthly throughputs. Emissions shall be calculated
+using current EPA AP-42 methodology for working and breathing emissions or other
+methodology acceptable to the DEQ, and using available AQD guidance for flash emissions.
+(A) In the demonstration of compliance with the VOC emission limit, a properly installed
+and operated vapor recovery unit (VRU) is considered to recover 100% of the VOC during
+the time the VRU is in use.
+(B) The permittee shall maintain, for a period of five (5) years, records of VOC stored,
+monthly throughputs, and emissions calculations used to demonstrate compliance,
+including records of all periods of uncontrolled venting.
+(2) The VOC storage vessel shall be limited to less than 6 TPY of VOC emissions, 12-month
+rolling total, unless another time measurement is specified under 40 CFR Part 60, Subpart
+OOOO or OOOOa. For any VOCs not routed through a VRU, the storage vessel affected
+facility shall be controlled utilizing a flare or enclosed combustion device.
+(A) For each flare or enclosed combustion device, the presence of a pilot flame shall be
+monitored using a thermocouple or any other equivalent device, and records of pilot
+flame(s) outages and/or flare downtime shall be maintained.
+(B) The flare or enclosed combustion device shall be operated according to the
+manufacturer's specifications.
+(C) Demonstration of compliance with the VOC emission limit shall be based on emissions
+calculated from records of VOC stored and monthly throughputs using current EPA AP42
+methodology for working and breathing emissions or other methodology acceptable to the
+DEQ, AQD guidance for flash emissions, and a VOC control efficiency as specified.
+(i) During periods when records document that the flare or enclosed combustion device
+was operational, the VOC emissions estimates may be calculated using a VOC
+destruction efficiency of 95%.
+(ii) If the manufacturer of the flare or enclosed combustion device guarantees a VOC
+destruction efficiency greater than 95%, the VOC emissions estimates may be
+calculated using the VOC destruction efficiency guaranteed by the manufacturer, up to
+but not to exceed 99.5% during periods when records document that the control device
+was operational.
+
+3
+
+(iii) A properly installed and operated VRU is considered to recover 100% of the VOC
+during the time the VRU is in use.
+(iv) The permittee shall maintain, for a period of five (5) years, records of VOC stored,
+monthly throughputs, and emissions calculations used to demonstrate compliance,
+including records of all periods of uncontrolled venting.
+(d) Requested process-specific legally and practicably enforceable limitations - storage vessel
+affected facilities (tank batteries). An owner or operator shall designate on the PBR registration
+form(s) that the following legally and practicably enforceable (LPE) limits are applicable to a
+specified storage vessel affected facility under 40 CFR Part 60, Subpart OOOOb. The permittee
+shall submit a notice of enforceability on forms provided by the DEQ to add or remove the
+applicability of LPE limits to or from any tank battery, whether the tank battery consists of a single
+storage vessel or multiple storage vessels that are manifolded together for liquid transfer.
+(1) The storage vessel affected facility shall be limited to less than 6 TPY of VOC emissions
+and less than 20 TPY of methane emissions, calculated as cumulative emissions from all
+storage vessels within the tank battery, with both limits based on a 12-month rolling total.
+(A) Demonstration of compliance with the VOC and methane emission limits shall include
+the following:
+(i) A monthly quantitative throughput volume.
+(ii) The composition of tank contents and any process stream (actual or representative
+consistent with DEQ policy as established by the Director) necessary to perform the
+calculations below.
+(iii) Emission calculation methods for working, breathing, and flashing emissions
+approved by the Director.
+(iv) Process operating parameters, including temperatures and pressures relied on in
+the compliance calculations.
+(v) The method, if any, used to capture emissions, and divert emissions to a process
+and/or route emissions to a control device.
+(vi) Calculations showing that, given the tank contents, throughput, and process
+operating parameters (including downtime), the emissions from the tank battery will
+not exceed the LPE limits for VOC or methane.
+(B) Applicants that elect to comply with the LPE limits through one or more of the
+following options shall meet these operational and parametric limits:
+(i) If using a nonassisted flare:
+(I) a closed vent system that routes emissions from the storage vessel affected
+facility to the flare.
+(II) a combustion destruction efficiency of at least 95%.
+(III) the flare shall meet the following applicable requirements of 40 CFR § 60.18:
+visible emissions requirements in § 60.18(c)(1); the pilot flame requirements in §
+60.18(c)(2); the heating value requirements in § 60.18(c)(3)(ii); exit velocity
+requirements in § 60.18(c)(4); and the operational requirements in § 60.18(e).
+(ii) If using a nonassisted enclosed combustion device:
+(I) a closed vent system that routes emissions from the storage vessel affected
+facility to the combustor.
+(II) a combustion destruction efficiency of at least 95%.
+(III) the combustor shall meet the following applicable requirements for flares in
+40 CFR § 60.18: visible emissions requirements in § 60.18(c)(1); the pilot flame
+
+4
+
+requirements in § 60.18(c)(2); the heating value requirements in § 60.18(c)(3)(ii);
+and the operational requirements in § 60.18(e).
+(IV) the maximum design capacity (MMBTU/hr) of the gases combusted as
+established by the manufacturer or operator during a performance test.
+(iii) If using a VRU:
+(I) a closed vent system that captures all emissions from the storage vessel affected
+facility and routes all emissions to a process.
+(II) the openings of the storage vessels shall be closed and sealed (e.g., covered by
+a gasketed lid, cap, or other appropriate methods) during normal operation.
+(C) The emission reductions associated with the option(s) selected under (B) shall only be
+included in emissions calculations to show compliance with limits in (1) above when the
+following initial and periodic and/or continuous monitoring requirements are met:
+(i) If using a nonassisted flare or enclosed combustion device:
+(I) perform an initial visible emission observation of the flare or enclosed
+combustion device using Method 22 in Appendix A of 40 CFR Part 60, with a
+minimum observation time of six (6) minutes, within 60 days of initial operation.
+(II) continuously monitor at least once every five minutes for the presence of a
+pilot flame or combustion flame using a device (including, but not limited to, a
+thermocouple, ultraviolet beam sensor, or infrared sensor) capable of detecting that
+the pilot or combustion flame is present at all times. An alert must be sent whenever
+the pilot or combustion flame is unlit.
+(III) perform an initial, and semi-annually thereafter, determination of the net
+heating value of the gasses combusted using the equation in 40 CFR § 60.18(f)(3),
+GPA Method 2261, or other approved method.
+(IV) for a flare, perform an initial, and semi-annually thereafter, determination of
+the exit velocity of the gasses combusted, calculated by dividing the volumetric
+flowrate by the unobstructed (free) cross sectional area of the flare tip. Volumetric
+flowrate shall be determined by Method 2 in Appendix A of 40 CFR Part 60, or a
+generally accepted model or calculation methodology.
+(V) for an enclosed combustion device, perform an initial, and semi-annually
+thereafter, demonstration that the actual heat content (MMBTU/hr) of the gases
+combusted are within the design values established by the manufacturer or operator
+during a performance test. The heat content of the combusted gases shall be
+determined by a generally accepted model or calculation methodology.
+(VI) whenever the closed vent system, flare, or enclosed combustion device
+experiences outages and/or downtime, maintain calculations of associated
+emissions for the purpose of determining compliance with the limits in paragraph
+(1).
+(ii) If using a VRU, whenever the closed vent system and/or VRU experiences outages
+and/or downtime, maintain calculations of associated emissions for the purpose of
+determining compliance with the limits in paragraph (1).
+(D) Reporting of any exceedances of these limits in accordance with DEQ guidance.
+(E) Recordkeeping updated monthly and maintained for a period of five (5) years,
+including:
+(i) Records of contents stored,
+(ii) Monthly and 12-month rolling total throughputs,
+
+5
+
+(iii) Records of parameters monitored as required in subparagraphs (A) and (B) above,
+(iv) Monthly and 12-month rolling total emissions calculations used to demonstrate
+compliance,
+(v) Times and emissions when the system used to comply with the LPE limits is not
+operating in accordance with the requirements established in this subsection,
+(vi) Records of all periods of uncontrolled venting, and
+(vii) Equipment specifications, manuals, and/or maintenance records, as appropriate.
+(2) [RESERVED]
+(e) Exceptions to Otherwise Applicable State-Only Requirements. When an owner or operator
+elects to obtain coverage under the oil and natural gas PBR (OAC 252:100-7-60.5) the following
+exceptions to otherwise applicable state requirements shall govern the equipment and operations
+covered by the PBR:
+(1) GHG emissions, as an aggregate, or as individual components (e.g., methane) may be
+included in the facility’s PBR notwithstanding the provisions of OAC 252:100-7-2.1, Minor
+permits for greenhouse gas (GHG) emitting facilities.
+(2) Regardless of any limits on methane included in the PBR or inclusion of any reporting
+requirements or other provisions in the permit that may affect methane or GHG emissions,
+neither methane nor GHG (as an aggregate) will be considered to be regulated air pollutants
+for the purposes of the following:
+(A) The determination of "actual emissions" from a given facility as defined in 252:100-51.1.
+(B) The emissions inventory requirements of OAC 252:100-5-2.1.
+(C) "Regulated pollutant (for fee calculation)," as defined in 252:100-5-1.1, subject to
+annual operating fees under OAC 252:100-5-2.2.
+(D) The determination whether a facility is a "major source" as defined in OAC 252:1008-2.
+(E) The determination whether a facility is a "major stationary source" as defined in OAC
+252:100-8-31 for facilities in attainment areas or in OAC 252:100-8-51 for facilities in
+nonattainment areas.
+(F) The determination whether a facility's project is a "major modification" as defined in
+OAC 252:100-8-31 for facilities in attainment areas or in OAC 252:100-8-51 for facilities
+in nonattainment areas.
+(3) These exceptions may be set aside at the discretion of the Director.
+
+6
+
+

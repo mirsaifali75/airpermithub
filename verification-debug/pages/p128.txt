@@ -1,0 +1,643 @@
+UNITED STATES ENVIRONMENTAL PROTECTION AGENCY
+Washington, D.C. 20460
+JUN 13 1989
+MEMORANDUM
+
+SUBJECT:
+
+Guidance on Limiting Potential to Emit in New Source Permitting
+
+FROM:
+
+Terrell E. Hunt
+Associate Enforcement Counsel
+Air Enforcement Division
+Office of Enforcement and Compliance Monitoring
+John S. Seitz, Director
+Stationary Source Compliance Division
+Office of Air Quality Planning and Standards
+
+TO:
+
+Addressees
+This memorandum transmits the final guidance on conditions in construction permits
+
+which can legally limit a source's potential to emit to minor or de minimis levels. We received
+many helpful comments on the January 24, 1989 draft of this guidance, and have incorporated the
+comments into the final document wherever possible. A summary of the major changes which
+have been made to the guidance in response to these comments is provided below.
+
+Several commenters noted that the draft guidance used the term "federally enforceable" to
+mean both federally enforceable as defined in the new source regulations (40 C.F.R. Sections
+52.21(b) (17), 51.165(a) (1) (xiv), 51.166(b) (17)), and enforceable as a practical matter. We
+have tried to distinguish the places where each term should be used, explained the relationship
+between the two terms, and indicated that in order to properly restrict potential to emit,
+limitations must be both federally enforceable as defined in the regulations and practically
+enforceable.
+
+-2Some commenters requested that the section on averaging times for production limits be
+more specific as to when it is appropriate to use limitations which exceed a one month time basis.
+We have tried to explain why it is not possible to develop generic criteria for making this
+distinction, and to indicate situations where exceptions to the policy that production and operation
+limitations not exceed one month may be warranted.
+There were some requests for a section on enforcement. We have included a new Section
+VI which addresses this topic. We also received many good suggestions on the example permit
+limitations. The section on examples has been substantially reworked to reflect your comments.
+Finally, we learned through the comments that in two specific circumstances, short term
+emission limits are the most useful and reasonable way to restrict and verify limits on potential to
+emit. These circumstances are: 1) when control equipment is installed but control equipment
+operating parameters are difficult to measure during enforcement inspections; and 2) in surface
+coating operations with numerous and unpredictable use of coatings containing varying VOC
+content, where add-on control equipment is not employed. Therefore, we have made a narrow
+exception to the flat prohibition on use of emission limits to restrict potential to emit for these
+specific circumstances, and only when certain additional conditions have been met.
+Again, we appreciate the thoughtful comments we have received on this guidance. Please
+insert this document into your Clean Air Act Compliance/Enforcement Policy Compendium as
+Item Number H.3. If you have any questions, please contact Judith Katz in the Air Enforcement
+Division at FTS 382-2843, or Sally Farrell in the Stationary Source Compliance Division at FTS
+382-2875.
+Addressees:
+Regional Counsels
+Regions I-X
+Regional Counsel Air Branch Chiefs
+Regions I-X
+Air Management Division Directors
+Regions I, III, and IX
+Air and Waste Management Division Director
+Region II
+
+-3Air, Pesticides, and Toxics Management Division Directors
+Regions IV and VI
+Air and Radiation Division Director
+Region V
+Air and Toxics Division Directors
+Regions VII, VIII and X
+Air Compliance Branch Chiefs
+Regions I-X
+New Source Review Contacts
+Regions I-X
+Alan Eckert
+Associate General Counsel
+Greg Foote, OGC
+Gary McCutchen, NSRS, AQMD
+David Solomon, NSRS, AQMD
+Sally Farrell, SSCD
+Judy Katz, AED
+
+David Buente, Chief
+Environmental Enforcement Section
+DOJ
+
+LIMITING POTENTIAL TO EMIT IN NEW SOURCE PERMITTING
+
+JUNE 13, 1989
+
+AIR ENFORCEMENT DIVISION
+OFFICE OF ENFORCEMENT AND COMPLIANCE MONITORING
+STATIONARY SOURCE COMPLIANCE DIVISION
+OFFICE OF AIR QUALITY PLANNING AND STANDARDS
+
+Limiting Potential to Emit in New Source Permitting
+
+I.
+
+Introduction
+
+II.
+
+The Louisiana-Pacific Case
+
+III.
+
+Types of Limitations that will Limit Potential to Emit
+
+IV.
+
+Time Periods for Limiting Production and Operation
+
+V.
+
+Sham Operational Limits
+A.
+
+B.
+
+Permits with conditions that do not reflect a source's planned mode of operation
+are void ab initio and cannot act to shield the source from the requirement to
+undergo preconstruction review.
+1.
+
+Sham permits are not allowed by 40 CFR 52.21(r) (4)
+
+2.
+
+Sham permits are not allowed by the definition of potential to emit:
+40 CFR 52.21(b) (4), 51.165(a) (1) (iii), 51.166(b) (4)
+
+3.
+
+Sham permits are not allowed by the Clean Air Act
+
+Guidelines for determining when minor source construction permits are
+shams.
+1.
+
+Filing a PSD or nonattainment NSR application
+
+2.
+
+Applications for funding
+
+3.
+
+Reports on consumer demand and projected productions levels
+
+4.
+
+Statements of authorized representatives of the source regarding plans
+for operation
+
+VI.
+
+Enforcement Procedures
+
+VII.
+
+Examples
+
+VIII.
+
+Conclusion
+
+Limiting Potential to Emit in New Source Permitting
+
+I. Introduction
+Whether a new source or modification is major and subject to new source review under
+Parts C and D of the Clean Air Act is dependent on whether that source or modification has or
+will have the potential to emit major or significant amounts of a regulated pollutant. Therefore,
+the definition of "potential to emit" under the new source regulations is extremely important
+in determining the applicability of new source review to a particular source. The federal
+regulations define "potential to emit" as:
+
+the maximum capacity of a stationary source to emit a pollutant under its physical and
+operational design. Any physical or operational limitation on the capacity of the source to
+emit a pollutant, including air pollution control equipment and restrictions on hours of
+operation or on the type or amount of fuel combusted, stored or processed, shall be
+treated as part of its design if the limitation or the effect it would have on emissions is
+federally enforceable.
+
+40 C.F.R Sections 52.21(b) (4), 51.165(a) (1) (iii), 51.166(b) (4).
+
+Permit limitations are very significant in determining whether a source is subject
+to major new source review. This is because they are the easiest and most common way
+for a source to obtain restrictions on its potential to emit. A permit does not
+
+2
+
+have to be a major source permit to legally restrict potential emissions. A minor source
+construction permit issued pursuant to a state program approved by EPA as meeting the
+requirements of 40 C.F.R. Section 51.160 is federally enforceable. In fact, any permit limitation
+can legally restrict potential to emit if it meets two criteria: 1) it is federally enforceable as defined
+by 40 C.F.R. Sections 52.21(b) (17), 51.165(a) (1) (xiv), 51.166(b) (17), i.e., contained in a
+permit issued pursuant to an EPA-approved permitting program or a permit directly issued by
+EPA, or has been submitted to EPA as a revision to a State Implementation Plan and
+approved as such by EPA; and 2) it is enforceable as a practical matter. The second criterion is an
+implied requirement of the first criterion. A permit requirement may purport to be federally
+enforceable, but, in reality cannot be federally enforceable if it cannot be enforced as a practical
+matter.
+
+Non-permit limitations can also legally restrict potential to emit. These limitations include
+New Source Performance Standards codified at 40 C.F.R. Part 60 and National Emission
+Standards for Hazardous Air Pollutants codified at 40 C.F.R. Part 61.
+
+The appropriate means of restricting potential to emit through permit conditions has
+been an issue in recent enforcement cases. Through these cases and through guidance
+issued by EPA, the Agency has addressed three questions: what types of permit
+
+3
+
+limitations can legally limit potential to emit; whether long averaging times for production
+limitations are enforceable as a practical matter; and whether sources may limit potential to emit
+to minor source levels as a means of circumventing the preconstruction review requirements of
+major source review.
+
+II. The Louisiana-Pacific Case
+
+In United States v. Louisiana-Pacific Corporation, 682 F. Supp. 1122 (D. Colo. Oct. 30,
+1987) and 682 F. Supp. 1141 (D. Colo. March 22, 1988), Judge Alfred Arraj discussed the type
+of permit restrictions which can be used to limit a source's potential to emit. The Judge concluded
+that:
+... not all federally enforceable restrictions are properly considered in the calculation of a
+source's potential to emit. While restrictions on hours of operation and on the amount of
+materials combusted or produced are properly included, blanket restrictions on actual
+emissions are not.
+
+682 F. Supp. at 1133.
+The Court held that Louisiana-Pacific's permit conditions which limited carbon monoxide
+emissions to 78 tons per year and volatile organic compounds to 101.5 tons per year should not
+be considered in determining "potential to emit" because these blanket emission limits did not
+reflect the type of permit conditions which restricted operations or production such as limits on
+hours of operation, fuel consumption, or final product.
+
+4
+
+The Louisiana-Pacific court was guided in its reasoning by the D.C. Circuit's holding in
+Alabama Power v. Costle, 636 F. 2d 323 (D.C. Circuit 1979). Before Alabama Power, EPA
+regulations required potential to emit to be calculated according to a source's maximum
+uncontrolled emissions. In Alabama Power, the D. C. Circuit remanded those regulations to EPA
+with instructions that the Agency include the effect of in-place control equipment in defining
+potential to emit. EPA went beyond the minimum dictates of the D.C. Circuit in promulgating
+revised regulations in 1980 to include, in addition to control equipment, any federally enforceable
+physical or operational limitation. The Louisiana-Pacific court found that blanket limits on
+emissions did not fit within the concept of proper restrictions on potential to emit as set forth by
+Alabama Power.
+
+Moreover, Judge Arraj found that:
+
+...a fundamental distinction can be drawn between the federally enforceable limitations
+which are expressly included in the definition of potential to emit and (emission)
+limitations.... Restrictions on hours of operation or on the amount of material which may
+be combusted or produced ... are, relatively speaking, much easier to "federally enforce."
+Compliance with such conditions could be easily verified through the testimony of officers,
+all manner of internal correspondence and accounting, purchasing and production records.
+In contrast, compliance with blanket restrictions on actual emissions would be virtually
+impossible to verify or enforce.
+
+Id. Thus, Judge Arraj found that blanket emission limits were not enforceable as a practical
+matter.
+
+5
+
+Finally, the Court reasoned that allowing blanket emission limitation to restrict potential to
+emit would violate the intent of Congress in establishing the Prevention of Significant
+Deterioration (PSD) program.
+
+III. Types of Limitations that will Restrict Potential to Emit
+
+As an initial matter in this discussion, a few important terms should be defined. Emission
+limits are restrictions over a given period of time on the amount of a pollutant which may be
+emitted from a source into the outside air. Production limits are restrictions on the amount of final
+product which can be manufactured or otherwise produced at a source. Operational limits are all
+other restrictions on the manner in which a source is run, including hours of operation, amount of
+raw material consumed, fuel combusted, or conditions which specify that the source must
+install and maintain add-on controls that operate at a specified emission rate or efficiency. All
+production and operational limits except for hours of operation are limits on a source's capacity
+utilization. Potential emissions are defined as the product of a source's emission rate at maximum
+operating capacity, capacity utilization, and hours of operation.
+
+To appropriately limit potential to emit consistent with the opinion in Louisiana-Pacific, all
+permits issued pursuant to 40 C.F.R. Sections 51.160, 51.166, 52.21 and 51.165 must contain a
+
+6
+
+production or operational limitation in addition to the emission limitation in cases where the
+emission limitation does not reflect the maximum emissions of the source operating at full design
+capacity without pollution control equipment. Restrictions on production or operation that will
+limit potential to emit include limitations on quantities of raw materials consumed, fuel
+combusted, hours of operation, or conditions which specify that the source must install and
+maintain controls that reduce emissions to a specified emission rate or to a specified efficiency
+level. Production and operational limits must be stated as conditions that can be enforced
+independently of one another. For example, restrictions on fuel which relates to both type and
+amount of fuel combusted should state each as an independent condition in the permit. This is
+necessary for purposes of practical enforcement so that, if one of the conditions is found to be
+difficult to monitor for any reason, the other may still be enforced.
+
+When permits contain production or operational limits, they should also have
+recordkeeping requirements that allow a permitting agency to verify a source's compliance with its
+limits. For example, permits with limits on hours of operation or amount of final product should
+require an operating log to be kept in which the hours of operation and the amount of final
+product produced are recorded. These logs should be available
+
+7
+
+for inspection should staff of a permitting agency wish to check a source's compliance with the
+terms of its permit.
+
+When permits require add-on controls operated at a specified efficiency level, permit
+writers should include, so that the operating efficiency condition is enforceable as a practical
+matter, those operating parameters and assumptions which the permitting agency depended upon
+to determine that the control equipment would have a given efficiency.
+
+An emission limitation alone would limit potential to emit only when it reflects the
+absolute maximum that the source could emit without controls or other operational restrictions.
+When a permit contains no limits on capacity utilization or hours of operation, the potential to
+emit calculation should assume operation at maximum design or achievable capacity (whichever is
+higher) and continuous operation (8760 hours per year).
+
+The particular circumstances of some individual sources make it difficult to state operating
+parameters for control equipment limits in a manner that is easily enforceable as a practical matter.
+Therefore, there are two exceptions to the absolute prohibition on using blanket emission limits to
+restrict potential to emit. If the permitting agency determines that setting operating parameters for
+control equipment is infeasible in a particular situation, a federally enforceable permit
+
+8
+
+containing short term emission limits (e.g. lbs per hour) would be sufficient to limit potential to
+emit, provided that such limits reflect the operation of the control equipment, and the permit
+includes requirements to install, maintain, and operate a continuous emission monitoring (CEM)
+system and to retain CEM data, and specifies that CEM data may be used to determine
+compliance with the emission limit.
+
+Likewise, for volatile organic compound (VOC) surface coating operations where no
+add-on control is employed but emissions are restricted through limiting VOC contents and
+quantities of coatings used, emission limits may be used to restrict potential to emit under the
+following limited circumstances. If the permitting agency determines for a particular surface
+coating operation that operating and production parameters (e.g. gallons of coating, quantities
+produced) are not readily limited due to the wide variety of coatings and products and due to the
+unpredictable nature of the operation, emission limits coupled with a requirement to calculate
+daily emissions may be used to restrict potential to emit. The source must be required to keep the
+records necessary for this calculation, including daily quantities and the VOC content of each
+coating used. Emission limits may be used in this limited circumstance to restrict potential to emit
+since, in this case, emission limits are more easily enforceable than operating or production limits.
+
+9
+
+IV. Time Periods For Limiting Production and Operation
+
+As discussed above, a limitation specifically recognized by the regulations as reducing
+potential to emit is a limitation on production or operation. However, for these limitations to be
+enforceable as a practical matter, the time over which they extend should be as short term as
+possible and should generally not exceed one month. This policy was explained in a March 13,
+1987 memorandum from John Seitz to Bruce Miller, Region IV. The requirement for a monthly
+limit prevents the enforcing agency from having to wait for long periods of time to establish a
+continuing violation before initiating an enforcement action.
+
+EPA recognizes that in some rare situations, it is not reasonable to hold a source to a one
+month limit. In these cases, a limit spanning a longer time is appropriate if it is a rolling limit.
+However, the limit should not exceed an annual limit rolled on a monthly basis. EPA cannot now set
+out all inclusive categories of sources where a production limit longer than a month will be
+acceptable because every situation that may arise in the future cannot now be anticipated. However,
+permits where longer rolling limits are used to restrict production should be issued only to sources
+with substantial and unpredictable annual variation in production, such as emergency
+
+10
+
+boilers. Rolling limits could be used as well for sources which shut down or curtail operation
+during part of a year on a regular seasonal cycle, but the permitting authority should first explore
+the possibility of imposing a month-by-month limit. For example, if a pulp drier is periodically
+shut down from December to April, the permit could contain a zero hours of operation limit for
+each of those months, and then the appropriate hourly operation limit for each of the remaining
+months. Under no circumstances would a production or operation limit expressed on a calendar
+year annual basis be considered capable of legally restricting potential to emit.
+
+V. Sham Operational Limits
+
+In the past year, several sources have obtained purportedly federally enforceable permits
+with operating restrictions limiting their potential to emit to minor or de minimis levels for the
+purpose of allowing them to commence construction prior to receipt of a major source permit. In
+such cases where EPA can demonstrate an intent to operate the source at major source levels, EPA
+considers the minor source construction permit void ab initio and will take appropriate enforcement
+action to prevent the source from constructing or operating without a major source permit.
+
+11
+
+The following example illustrates the kind of situation addressed in this section: An
+existing major stationary source proposes to add a 12.5 megawatt electric utility steam generating
+unit, and applies for a federally enforceable minor source permit which restricts operation at the
+unit to 240 hours per year. Because the project is designed as a baseload facility, EPA does not
+believe that the source intends to operate the facility for only 240 hours a year. Further
+investigation would probably uncover documentation of the source's intent to operate at higher
+levels than those for which it is permitted.
+
+This situation raises the question of whether a source can lawfully bypass the
+preconstruction or premodification review requirements of Prevention of Significant Deterioration
+(PSD) and nonattainment New Source Review by committing to permit conditions which restrict
+production to a level at which the source does not intend to operate for any extensive time. If,
+after constructing and commencing operation, the source obtains a relaxation of its original permit
+conditions prior to exceeding them, does this constitute a violation of the preconstruction review
+requirements? This section discusses why it is improper to construct a source with a minor
+source permit when there is intent to operate as a major source, and provides guidelines for
+identifying these "sham" permits.
+
+12
+
+A. Permits with conditions that do not reflect a source's planned mode of operation are
+void ab initio and cannot act to shield the source from the requirement to undergo preconstruction
+review.
+
+1. Sham permits are not allowed by 40 CFR Section 52.21(r) (4) Section
+52.21(r) (4) states:
+At such time that a particular source or modification becomes a major stationary source or
+major modification solely by virtue of a relaxation in any enforceable limitation which was
+established after August 7, 1980 on the capacity of the source or modification otherwise
+to emit a pollutant, such as a restriction on hours of operation, then (PSD) shall apply to
+the source or modification as though construction had not yet commenced on the source
+or modification.
+
+When a source that is minor because of operating restrictions in a construction permit later
+applies for a relaxation of that construction permit which would make the source major, Section
+52.21(r) (4) prescribes the methodology for determining best available control technology
+(BACT). However, it does not foreclose EPA's ability, in addition to the retroactive application of
+BACT and other requirements of the PSD program, to pursue enforcement where the Agency
+believes that the initial minor source permit was a sham. EPA will limit its activity to requiring
+application of 40 CFR 52.21(r) (4) only for the cases where a source legitimately changes a
+project after finding that the operating restrictions which were taken in good faith cannot be
+complied with. Whether a source has acted in good faith is a factual question which is answered
+by available evidence in the particular case.
+
+13
+
+2. Sham permits are not allowed by the definition of potential to emit:
+40 C.F.R. Sections 52.21(b) (4), 51.165(a) (1) (iii), 51.166(b) (4).
+
+The definition of potential to emit enables sources to obtain federally enforceable permits
+with operational restrictions as a means of limiting emissions to minor source levels. However,
+implicit in the application of these limitations is the understanding that they comport with the true
+design and intended operation of the project.
+
+3. Sham permits are not allowed by the Clean Air Act
+
+Parts C and D of the Clean Air Act exhibit Congress's clear intent that new major sources
+of air pollution be subject to preconstruction review. The purposes for these programs cannot be
+served without this essential element. Therefore, attempts to expedite construction by securing
+minor source status through the receipt of operational restrictions from which the source intends
+to free itself shortly after operation are to be treated as circumvention of the preconstruction
+review requirements.
+
+14
+
+B. Guidelines for determining when minor source construction permits are shams.
+
+EPA's determination that a purportedly federally enforceable construction permit is a sham
+is made based on an evaluation of specific facts and evidence in each individual case. The
+following are criteria which should be scrutinized when making such a determination:
+
+1. Filing a PSD or nonattainment NSR permit application
+
+If a major source or major modification permit application is filed simultaneously with or
+at approximately the same time as the minor source construction permit, this is strong evidence of
+an intent to circumvent the requirements of preconstruction review. Even a major source
+application filed after the minor source application, but either before operation has commenced or
+after less than a year of operation should be looked at closely.
+
+2. Applications for funding
+
+Applications for commercial loans or, for public utilities, bond issues, should be
+scrutinized to see if the source has guaranteed a c ertain level of operation which is
+higher than that in its construction permit. If the project would not be funded or if it
+would not be economically viable if operated on an extended basis
+
+15
+
+(at least a year) at the permitted level of production, this should be considered as evidence of
+circumvention.
+
+3. Reports on consumer demand and projected production levels.
+
+Stockholder reports, reports to the Securities and Exchange Commission, utility board
+reports, or business permit applications should be reviewed for projected operation or production
+levels. Ifreported levels are necessary to meet projected consumer demand but are higher than
+permitted levels, this is additional evidence of circumvention.
+
+4. Statements of authorized representatives of the source regarding plans
+for operation.
+
+Statements by representatives of the source to EPA or to state or local permitting agencies
+about the source's plans for operation can be evidence to show intent to circumvent
+preconstruction review requirements.
+
+Note that if a determination is made that a permit is a "sham" for one pollutant and,
+therefore, the source is a major source or major modification, the permit may possibly still contain
+valid limits on potential to emit for other pollutants.
+
+16
+
+In such cases, the entire source must still go through new source review, during which, for
+PSD review, all pollutants for which there is a net significant increase must be analyzed for
+BACT. In nonattainment new source review, new sources must have LAER determinations only
+for pollutants for which they are major. Major modifications, however, must have LAER
+determinations for all nonattainment pollutants emitted in significant amounts. If the valid
+limits in a partially void minor source construction permit keep certain pollutants below
+significance levels, then those pollutants would not have to be analyzed for BACT or LAER.
+However, if a source or modification is determined to be major for PSD or NSR because part
+of its minor permit is deemed void, it would have to undergo BACT or LAER analysis for all
+significant pollutants.
+
+VI. Enforcement Procedures
+
+This guidance has discussed permit conditions which will legally restrict potential to emit,
+shielding a source from the requirement to comply with major new source permitting regulation.
+Failure by a permitting agency to adhere to these guidelines may result in a permit that does
+not legally restrict potential to emit, thereby subjecting a source to major new source
+review. If that source has not gone through preconstruction review, it is a significant
+violator of the Clean Air Act and is subject to enforcement for constructing or
+
+17
+
+modifying without a major new source permit.
+
+The enforcement options available to EPA in these situations include administrative action
+under Sections 167 or 113 (a) (5) of the Act or federal judicial action under Sections 113 (b) (2),
+113 (b) (5), 113(c), or 167. Which enforcement option is selected depends on the facts of the
+particular situation. (See July 15, 1988 guidance on EPA Procedures for Addressing Deficient
+New Source Permits.)
+
+VII. Examples
+
+The following examples are provided to illustrate the type of permit restrictions which
+would and would not legally limit potential to emit to less than major source thresholds. These
+examples are provided for purposes of clarifying the potential to emit and averaging time
+guidance only. They are not intended to reflect all the permit conditions necessary for a valid
+permit. Specific test methods, compliance monitoring and recordkeeping and reporting
+requirements are necessary to make permit limitations enforceable as a practical matter. The use
+of examples where averaging times are the longest times allowed under EPA policies is not
+intended to necessarily condone the selection of the longest averaging times; averaging times
+should in practice be as short as possible.
+
+18
+
+1. The minor source construction permit for a boiler contains the following restrictions:
+250,000 gal fuel/month; 0.8% S fuel; 8000 hours/year.
+
+These conditions are federally enforceable production and operation limits, but do not
+limit potential to emit because one of them does not meet EPA policies on enforceability as a
+practical matter. The averaging time for hours of operation, one of the operational limits
+necessary to restrict emissions to less than 250 tpy, exceeds a monthly or rolling yearly limit. If,
+instead of 8000 hours/year, the hourly restriction were stated as 666 hours/month, the permit
+would serve to keep the source a minor source, assuming the permit contains appropriate
+recordkeeping provisions.
+
+2. A waferboard plant which has the physical capacity to emit over 300 tpy of carbon
+monoxide in the absence of using specific combustion techniques has the following permit
+restriction as the sole emission limitation: 249 tpy.
+
+This does not limit potential to emit since an operational or production restriction is
+necessary for the source to be restricted to 249 tpy. The permit must contain a restriction on
+hours of operation or capacity utilization which, when multiplied by the maximum emission rate
+for the CO sources at the plant, results in emissions of 249 tpy. Additionally, while the
+
+19
+
+emission limit alone cannot restrict potential to emit, the emission limit is unenforceable as a
+practical matter since it is limited on an annual basis. The permit should contain a short term
+emission limit (in addition to the annual emission limit), consistent with the compliance period or
+parameter in the applicable test method for determining compliance.
+
+3. A small scale rock crushing plant that cannot emit more than 240 tpy under maximum
+operation without controls (including plant-wide particulate emissions from transfer and storage
+operations) has the following permit restriction as the sole emission limitation: 240 tpy
+particulate matter.
+
+Since no operational limitations are necessary for the source to emit below 250 tpy, no
+operational restrictions need be in the permit to limit potential to emit. However, although this is
+not a major source, the state agency should express the emission limit in this permit as a lb/hour
+measure or gr/dscf so that it will be enforceable as a practical matter.
+
+4. A plant consisting solely of a small rock crusher has the following permit restrictions:
+0.05 lb gr PM/dscf; fabric filter must be employed and maintained at 99% efficiency.
+
+Assuming that maintaining the fabric filter at 99% efficiency will result in
+emissions of less than 250 tpy, this permit would limit
+
+20
+
+potential to emit if it also contained either 1) parameters that allowed the permitting agency to
+verify the fabric filter's operating efficiency or 2) a requirement to install and operate continuous
+opacity monitors (COMs) and a specification that COM data may be used to verify compliance
+with emission limits. Note that if this second alternative were adopted, it would not be necessary
+to require that the fabric filter be maintained at 99% efficiency.
+
+To determine potential to emit, the efficiency rate of the fabric filter would be multiplied
+by the maximum uncontrolled emission rate, the maximum number of operating hours and
+maximum throughput capacity since there are no other operating or production limits. However,
+the efficiency rate of the fabric filter would not be enforceable as a practical matter unless there
+were an enforceable means to monitor ESP performance on a short term basis. The two
+alternatives mentioned above would satisfy this requirement.
+
+5. A surface coating operation has the capability of utilizing 15,000 gal coating/month,
+with the following permit restrictions: 3.0 lb VOC/gal coating minus water; 20.5 tons
+VOC/month; monthly VOC emissions to be determined from records of the daily volumes of
+coatings used times the manufacturers specified VOC content.
+
+21
+
+This does not limit potential to emit since the source has the physical capacity to exceed
+250 tpy of VOC, and the permit does not contain a production or an operational limitation. A
+monthly limit on gallons of coating used which when multiplied by 3.0 lb/gal equates to less than
+the 250 tpy threshold 13,500 gallons/month), with appropriate recordkeeping, would generally be
+necessary to limit potential to emit. If, however, the permitting agency determines, due to the
+wide variety of coatings employed and products produced, that restrictions on operation or
+production are not practically enforceable, then the above emission limits could restrict potential
+to emit if there are requirements that the source calculate emissions daily, and keep the
+appropriate records.
+
+If the source was alternatively to meet the 20.5 ton/month limit by employing add-on
+controls, the permit would need to contain an operational limit, such as the requirement to install
+and operate an incinerator at 99% efficiency. A requirement to monitor incinerator efficiency
+(either directly or indirectly via temperature monitoring for example), and appropriate
+recordkeeping retirements to verify compliance with each of the permit conditions would also be
+necessary to make the permit conditions enforceable as a practical matter. Note, however, that in
+the case where add-on controls are employed, the source may be able to meet a shorter term
+emission limit than the ton per month figure.
+
+22
+
+VIII. Conclusion
+
+We hope this guidance will help EPA Regions identify sources which have the potential to
+emit major amounts of an air pollutant which will subject those sources to the requirements of
+preconstruction new source review. Every source which is subject to these requirements but has
+not obtained a major new source permit should be seriously considered for enforcement
+action.
+
+

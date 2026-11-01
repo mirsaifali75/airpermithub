@@ -1,0 +1,1715 @@
+Air Pollution Control Permits (250-RICR-120-05-9) - Rhode Island Department of State 
+An Official Rhode Island State Website. 
+Rhode Island Department of State 
+Gregg M. Amore 
+Secretary of State 
+Menu
+Business Services 
+Elections 
+Civics and Education 
+Open Government 
+You are here:
+Home 
+Open Government 
+Rules and Regulations 
+Code of Regulations 
+Air Pollution Control Permits (250-RICR-120-05-9)
+250-RICR-120-05-9 
+ACTIVE RULE 
+Regulation Text 
+Overview 
+Regulation 
+History 
+Rulemaking Documents 
+To view the official Final Regulation for accessibility and readability, click Download Regulation: 
+Download Regulation 
+My Page Title 9.1 Purpose 
+The purpose of this regulation is to establish a preconstruction permitting program for stationary source of air pollution and air pollution control systems. 
+9.2 Authority 
+These regulations are authorized pursuant to R.I. Gen. Laws § 42-17.1-2(19) and R.I. Gen. Laws Chapter 23-23, and have been promulgated pursuant to the procedures set forth in the Rhode Island Administrative Procedures Act, R.I. Gen. Laws Chapter 42-35. 
+9.3 Application 
+The terms and provisions of this regulation shall be liberally construed to permit the Department to effectuate the purposes of state laws, goals and policies. 
+9.4 Severability 
+If any provision of this regulation or the application thereof to any person or circumstance, is held invalid by a court of competent jurisdiction, the validity of the remainder of the regulation shall not be affected thereby. 
+9.5 Definitions 
+A. Unless otherwise expressly defined in this section, the terms used in this regulation shall be defined by reference to Part 0 of this Subchapter (General Definitions). As used in this regulation, the following terms shall, where the context permits, be construed as follows: 
+1. "Actual emissions" means the actual rate of emissions of a pollutant from an emissions unit, as determined in accordance with §§ 9.5(A)(1)(a) through (c) of this Part below: 
+a. In general, actual emissions as of a particular date shall equal the average rate, in tons per year, at which the unit actually emitted the pollutant during a two-year period which precedes the particular date and which is representative of normal source operation. The Director shall allow the use of a different time period upon a determination that it is more representative of normal source operation. Actual emissions shall be calculated using the unit's actual operating hours, production rates, and types of materials processed, stored, or combusted during the selected time period. 
+b. The Director may presume that source specific allowable emissions for the unit are equivalent to actual emissions of the unit. 
+c. For any emissions unit which has not begun normal operations on the particular date, actual emissions shall equal the potential to emit of the unit on that date. 
+2. "Allowable emissions" means the emission rate of a stationary source calculated using the maximum rated capacity of the source unless the source is subject to federally enforceable limits which restrict the operating rate or hours of operation, or both and the most stringent of the following: 
+a. Applicable standards as set forth in New Source Performance Standards, 40 C.F.R. § 60 (2018) and National Emission Standards for Hazardous Air Pollutants, 40 C.F.R. § 61 (2018); or 
+b. Any applicable State Implementation Plan emission limitations, including those with a future compliance date; or 
+c. The emissions rate specified as a federally enforceable permit condition, including those with a future compliance date. 
+3. "Attainment area” or “Unclassifiable area" means for any air pollutant, an area which is not designated as a nonattainment area. 
+4. "Baseline actual emissions" means the rate of emissions, in tons per year, of a regulated New Source Review (NSR) pollutant, as determined in accordance with this definition. 
+a. For any existing emissions unit, baseline actual emissions means the average rate, in tons per year, at which the unit actually emitted the pollutant during the two consecutive calendar years immediately prior to the year a complete permit application is received by the Department. The Department may allow the use of a different 24-month period within the last five (5) years upon a determination that it is more representative of normal source operation. 
+(1) The average rate shall include fugitive emissions to the extent quantifiable and any authorized emissions associated with startup and shutdown. The average rate shall not include excess emissions or emissions associated with upsets or malfunctions. 
+(2) The average rate shall be adjusted downward to exclude any non-compliant emissions that occurred while the source was operating above an emission limitation that was legally enforceable during the consecutive 24-month period. 
+(3) The average rate shall be adjusted downward to exclude any emissions that would have exceeded an emission limitation with which the major stationary source must currently comply, had such major stationary source been required to comply with such limitations during the consecutive 24-month period. 
+(4) When a project involves multiple emissions units or multiple regulated NSR pollutants, or both, only one consecutive 24-month period must be used to determine the baseline actual emissions for all pollutants and all emission units affected by the project. 
+(5) The average rate shall not be based on any consecutive 24-month period for which there is inadequate information for determining annual emissions, in tons per year, and for adjusting this amount if required by §§ 9.5(A)(4)(a)((2)) and ((3)) of this Part, in this definition. 
+b. For a new emissions unit, the baseline actual emissions for purposes of determining the emissions increase that will result from the initial construction and operation of such unit shall equal zero. 
+5. "Begin actual construction" means, in general, initiation of physical onsite construction activities on an emissions unit which are of a permanent nature. Such activities include, but are not limited to, installing building supports and foundations, laying underground pipework, and constructing permanent storage structures. With respect to a change in the method of operation, this term refers to those on-site activities, other than preparatory activities, which mark the initiation of the change. 
+6. "Calculated acceptable ambient level" means the maximum allowable air concentration of an air contaminant, excluding listed toxic air contaminants and national ambient air quality standards, contributed by a stationary source, at or beyond the facility's property line calculated by the method in the Rhode Island Air Toxics Guideline. 
+7. "Commence" means as applied to construction of a stationary source or modification means that the owner or operator has all the necessary preconstruction approvals or permits and either has: 
+a. Begun or caused to begin, a continuous program of actual on-site construction of the source, to be completed within a reasonable time; or 
+b. Entered into binding agreements or contractual obligations, which cannot be canceled or modified without substantial loss to the owner or operator, to undertake a program of actual construction of the source to be completed within a reasonable time. 
+8. "Complete" means in reference to an application for a permit, that the application contains all the information necessary for processing the application. Designating an application complete for purposes of permit processing does not preclude the Director from requesting or accepting any additional information. 
+9. "Construct a 42 U.S.C. § 7412(g), (CAA § 112(g)) source" means: 
+a. To fabricate, erect, or install at any greenfield site an emissions unit or group of emissions units which is located within a contiguous area and under common control and which emits or has the potential to emit ten (10) tons per year of any Hazardous Air Pollutant (HAP) or twenty-five (25) tons per year of any combination of HAP, or 
+b. To fabricate, erect, or install at any developed site an emissions unit which in and of itself emits or has the potential to emit ten (10) tons per year of any HAP or twenty-five (25) tons per year of any combination of HAP, unless the emissions unit satisfies criteria in §§ 9.5(A)(9)(b)((1)) through ((6)) of this Part, in this definition. 
+(1) All HAP emitted by the emissions unit that would otherwise be controlled under the requirements of this subpart will be controlled by emission control equipment which was previously installed at the same site as the emissions unit; 
+(2) The Office of Air Resources has determined within a period of 5 years prior to the fabrication, erection, or installation of the emissions unit that the existing emission control equipment represented best available control technology (BACT) or lowest achievable emission rate (LAER); or the Office of Air Resources determines that the control of HAP emissions provided by the existing equipment will be equivalent to that level of control currently achieved by other well - controlled similar sources (i.e., equivalent to the level of control that would be provided by a current BACT or LAER; 
+(3) The Office of Air Resources determines that the percent control efficiency for emissions of HAP from all sources to be controlled by the existing control equipment will be equivalent to the percent control efficiency provided by the control equipment prior to the inclusion of the new emissions unit; 
+(4) The Office of Air Resources has provided notice and an opportunity for public comment concerning its determination that criteria in paragraphs §§ 9.5(A)(9)(b)((1)) through ((3)) of this Part, in this definition apply and concerning the continued adequacy of any prior BACT or LAER determination; 
+(5) If any commenter has asserted that a prior BACT or LAER determination is no longer adequate, the Office of Air Resources has determined that the level of control required by that prior determination remains adequate; and 
+(6) Any emission limitations, work practice requirements, or other terms and conditions upon which the above determinations by the Office of Air Resources were made, are applicable requirements under "Air Pollution Control Regulation No. 29 - Operating Permits" and either have been incorporated into any existing operating permit for the affected facility or will be incorporated into such permit upon issuance. 
+10. "Construction" means any physical change or change in the method of operation (including fabricating, erecting, locating, modification or demolition of an emissions unit) which would result in a change in actual emissions. 
+11. "Control technology" means measures, processes, methods, systems, or techniques to limit the emission of hazardous air pollutants through process changes, substitution of materials or other modifications that; 
+a. Reduce the quantity of, or eliminate emissions of, such pollutants through process changes, substitution of materials or other modifications; 
+b. Enclose systems or processes to eliminate emissions; 
+c. Collect, capture or treat such pollutants when released from a process, stack, storage or fugitive emissions point; 
+d. Are design, equipment, work practice, or operational standards (including requirements for operator training or certification) as provided in 42 U.S.C. § 7412(h) (2018), (CAA § 112(h)); or 
+e. Are a combination of §§ 9.5(A)(11)(a) through (d) of this Part, in this definition. 
+12. “Distributed generator” means any generator that is not defined herein as an emergency generator. 
+13. “Emergency” means an electric power outage due to a failure of the electrical grid, on-site disaster, local equipment failure, or public service emergencies such as flood, fire or natural disaster. Emergency shall also mean periods during which ISO New England, or any successor Regional Transmission Organization, directs the implementation of operating procedures for voltage reductions, voluntary load curtailments by customers or automatic or manual load shedding within Rhode Island in response to unusually low frequency, equipment overload, capacity or energy deficiency, unacceptable voltage levels or other such emergency conditions. 
+14. “Emergency generator” means any generator used only during emergencies or for maintenance or testing purposes. 
+15. "Fixed capital cost" means the capital needed to provide all the depreciable components. 
+16. “Generator” means any equipment that converts primary fuel (including fossil fuels and renewable fuels) into electricity or electricity and thermal energy. In addition to fuel-burning and power generating equipment this includes heat recovery, emission controls and any associated systems. 
+17. "Greenfield site" means a contiguous area under common control that is an undeveloped site. 
+18. "Indian governing body" means the governing body of any tribe, band or group of Indians subject to the jurisdiction of the United States and recognized by the United States as possessing power of self-government. 
+19. "Major modification" means any physical change or change in the method of operation of a major stationary source that would result in: a significant emissions increase of a regulated NSR pollutant and a significant net emission increase of that pollutant from the major stationary source. Any emissions increase or net emission increase that is considered significant for volatile organic compounds or nitrogen oxides shall be considered significant for ozone. A physical change or change in the method of operation shall not include: 
+a. Routine maintenance, repair and replacement. 
+b. An increase in the hours of operation or in the production rate, unless such change is prohibited by conditions of any federally enforceable permit issued after December 21, 1976, pursuant to 40 C.F.R. § 52.21 (2018) (PSD) or under Part 9 of this Subchapter (Air Pollution Control Permits) or under operating permits issued pursuant to 40 C.F.R. § 71 (2018) or under regulations approved pursuant to 40 C.F.R. § 70 (2018). 
+c. Any change in ownership at a stationary source. 
+d. Use of an alternative fuel or raw material by reason of an order under the Energy Supply and Environmental Coordination Act of 1974, 15 U.S.C. §§ 792(a) and (b) (2018) or by reason of a natural gas curtailment plan pursuant to the Federal Power Act, 16 U.S.C. § 791a (2018). 
+e. Use of an alternative fuel at a steam generating unit to the extent that the fuel is generated from municipal solid waste. 
+f. Use of an alternative fuel or raw material by a stationary source which: 
+(1) The source was capable of accommodating before January 6, 1975 unless such change would be prohibited under any federally enforceable permit condition which was established after January 6, 1975 pursuant to 40 C.F.R. § 52.21 (2018) or under this Part (Air Pollution Control Permits) or under operating permits issued pursuant to 40 C.F.R. § 71 (2018) or under regulations approved pursuant to 40 C.F.R. § 70 (2018); or 
+(2) The source is approved to use under any permit issued under 40 C.F.R. § 52.21 (2018) or under this Part (Air Pollution Control Permits). 
+20. "Major source permit" means an approval or permit issued by the Office of Air Resources for the construction or installation of a major stationary source or major modification. 
+21. "Maximum achievable control technology emission limitation for new sources" means the emission limitation which is not less stringent than the emission limitation achieved in practice by the best controlled similar source, and which reflects the maximum degree of reduction in emissions that the Office of Air Resources, taking into consideration the cost of achieving such emission reduction, and any non - air quality health and environmental impacts and energy requirements, determines is achievable by the constructed or reconstructed 42 U.S.C. § 7412(g), (CAA § 112(g)) source. 
+22. "Minor source permit" means an approval or permit issued by the Office of Air Resources for the construction, installation or modification of a stationary source that is neither a major stationary source nor a major modification. Any general permit issued pursuant to the requirements of this regulation shall be considered a minor source permit. 
+23. "Modification" means any physical or operational change to any machine, equipment, device, article or facility which may result in an increased emission rate to the atmosphere of any air contaminant. The following shall not be considered a modification: 
+a. Routine maintenance, repair, and replacement of any machine, equipment, device, article or facility or parts thereof as defined in § 9.7.1 of this Part. 
+b. Increase in production rate of any machine, equipment, device, article or facility as defined in § 9.7.1 of this Part based solely upon the capabilities of existing process equipment. 
+c. Increase in hours of operation up to the maximum hours allowed in any federally enforceable permit. 
+d. Use of an alternative fuel or raw material if the machine, equipment, device, article or facility was designed and approved to accommodate that alternative use. 
+24. "Necessary preconstruction approval or permits" means those permits or approvals required under state and federal air quality control laws and regulations and those air quality control laws and regulations which are part of the RI State Implementation Plan. 
+25. "Net emissions increase" means, with respect to any regulated NSR pollutant emitted by a stationary source, the amount by which the sum of the following exceeds zero: 
+a. Any increase in actual emissions from a particular physical change or change in the method of operation at a stationary source; and 
+b. All other increases and decreases in actual emissions at the source that are contemporaneous with the particular change and are otherwise creditable. Creditable increases or decreases are subject to the following; 
+(1) An increase or decrease in actual emissions is contemporaneous with the particular change only if it occurs over any period of five consecutive calendar years which includes the calendar year in which such increase occurred. 
+(2) An increase or decrease in actual emissions is creditable only if: 
+(AA) The Director has not relied on the increase or decrease in actual emissions in issuing a permit for any stationary source under these regulations and the permit is in effect when the increase in actual emissions from the particular change occurs; or, 
+(BB) The Director has not relied on the increase or decrease in actual emissions for netting or offset credit in a previous permit issued under these regulations; or, 
+(CC) The Director has not relied on the increase or decrease in actual emissions in demonstrating attainment or reasonable further progress. 
+(3) An increase or decrease in actual emissions of sulfur dioxide, nitrogen oxides or particulate matter which occurs before the applicable baseline date is creditable only if it is required to be considered in calculating the available remaining increment. With respect to particulate matter, only PM-10 emissions can be used to evaluate the net emissions increase for PM-10. 
+(4) An increase in actual emissions is creditable only to the extent that the new level of actual emissions exceeds the old level. 
+(5) A decrease in actual emissions is creditable only to the extent that: 
+(AA) The old level of actual emissions or the old level of allowable emissions, whichever is lower, exceeds the new level of actual emissions. 
+(BB) It is federally enforceable at and after the time that actual construction on the particular change begins. 
+(CC) It has approximately the same qualitative significance for public health and welfare that attributed to the increase from the particular change. 
+(6) An increase that results from a physical change at a stationary source occurs when the emissions unit on which construction occurred becomes operational and begins to emit a particular pollutant. Any replacement unit that requires shakedown becomes operational only after a reasonable shakedown period, not to exceed one hundred eighty (180) days. 
+26. "Nonattainment area" means for any air pollutant, an area which is shown by monitored data or is calculated by air quality modeling based on monitored data, to exceed any national ambient air quality standard for such pollutant and has been designated as such in the Federal Register. 
+27. "Particulate matter" means any airborne finely divided solid or liquid material with an aerodynamic diameter smaller than one hundred (100) micrometers. 
+28. "Particulate matter emissions" means all finely divided solid or liquid material, other than uncombined water, emitted to the ambient air as measured by applicable reference methods, or an equivalent or alternative method, as specified in 40 C.F.R. § 53 (2018). 
+29. “Perchloroethylene dry cleaning equipment” means equipment, devices and apparatus used to remove unwanted substances from clothing, garments, textiles, fabrics, leather goods, and similar materials by means of one or more washes in Perchloroethylene, extraction of excess Perchloroethylene by spinning, and drying by tumbling in an airstream. 
+30. "PM-2.5" means particulate matter with an aerodynamic diameter less than or equal to a nominal 2.5 micrometers as measured by a reference method based on 40 C.F.R. § 50 Appendix N (2018) and designated in accordance with 40 C.F.R. § 53 (2018) or by an equivalent method designated in accordance with 40 C.F.R. § 53 (2018). 
+31. "PM-10" means particulate matter with an aerodynamic diameter less than or equal to a nominal ten (10) micrometers as measured by a reference method based on 40 C.F.R. § 50 Appendix J (2018) and designated in accordance with 40 C.F.R. § 53 (2018) or by an equivalent method designated in accordance with 40 C.F.R. § 53 (2018). 
+32. "PM-10 emissions" means finely divided solid or liquid material, with an aerodynamic diameter less than or equal to a nominal ten (10) micrometers emitted to the ambient air as measured by an applicable reference method, or an equivalent or alternative method as specified in 40 C.F.R. § 53 (2018). 
+33. "Reasonable further progress" means such annual incremental reductions in emissions of the relevant air pollutant as are required by 42 U.S.C. §§ 7501 through 7505 (2018), or may reasonably be required by the Director for the purpose of ensuring attainment of the applicable national ambient air quality standards in an area. 
+34. "Reconstruct a 42 U.S.C.§ 7412(g), (CAA § 112(g)) source" means the replacement of components at an existing emissions unit that in and of itself emits or has that potential to emit ten (10) tons per year of any HAP or twenty-five (25) tons per year of any combination of HAP, whenever: 
+a. The fixed capital cost of the new components exceeds 50 percent (50%) of the fixed capital cost that would be required to construct a comparable emissions unit; and 
+b. It is technically and economically feasible for the reconstructed 42 U.S.C. § 7412(g), (CAA § 112(g)) source to meet the applicable maximum achievable control technology emission limitation for new sources established under this subpart. 
+35. "Reconstruction" means to be presumed to have taken place where the fixed capital cost of the new components exceeds fifty percent (50%) of the fixed capital cost of a comparable entirely new stationary source. Any final decision as to whether reconstruction has occurred shall be made in accordance with the provisions of 40 C.F.R. §§ 60.15(f)(1) through (3) (2018). A reconstructed stationary source will be treated as a new stationary source for purposes of this regulation. In determining lowest achievable emission rate for a reconstructed stationary source, the provisions of 40 C.F.R. § 60.15(f)(4) (2018) shall be taken into account in assessing whether a new source performance standard is applicable to such stationary source. 
+36. "Regulated NSR pollutant" means the following: 
+a. Any pollutant for which a national ambient air quality standard has been promulgated. This includes, but is not limited to, the following: 
+(1) PM-2.5 emissions and PM-10 emissions shall include gaseous emissions from a source or activity which condense to form particulate matter at ambient temperatures. On or after January 1, 2011, such condensable particulate matter shall be accounted for in applicability determinations and in establishing emission limitations for PM-2.5 and PM-10 in PSD permits. Compliance with emission limitations for PM-2.5 and PM-10 issued prior to this date shall not be based on condensable particulate matter unless required by the terms and conditions of the permit or the Rhode Island State Implementation Plan. Applicability determinations made prior to this date without accounting for condensable particulate matter shall not be considered in violation of this regulation unless the Rhode Island State Implementation Plan required condensable particulate matter to be included; 
+(2) Any pollutant identified under this paragraph as a constituent or precursor to a pollutant for which a national ambient air quality standard has been promulgated. Precursors identified by the Administrator for purposes of NSR are the following: 
+(AA) Volatile organic compounds and nitrogen oxides are precursors to ozone in all attainment and unclassifiable areas. 
+(BB) Sulfur dioxide is a precursor to PM-2.5 in all attainment and unclassifiable areas. 
+(CC) Nitrogen oxides are presumed to be precursors to PM-2.5 in all attainment and unclassifiable areas, unless the State demonstrates to the Administrator's satisfaction or EPA demonstrates that emissions of nitrogen oxides from sources in a specific area are not a significant contributor to that area's ambient PM-2.5 concentrations. 
+(DD) Volatile organic compounds are presumed not to be precursors to PM-2.5 in any attainment or unclassifiable area, unless the State demonstrates to the Administrator's satisfaction or EPA demonstrates that emissions of volatile organic compounds from sources in a specific area are a significant contributor to that area's ambient PM-2.5 concentrations. 
+b. Any pollutant that is subject to any standard promulgated under 42 U.S.C. § 7411, (CAA § 111); 
+c. Any Class I or II substance subject to a standard promulgated under or established by 42 U.S.C. §§ 7671 through 7671q (2018), (CAA §§ 101 through 618); 
+d. Any pollutant that otherwise is subject to regulation under the Clean Air Act as defined in § 9.5 of this Part. 
+e. Notwithstanding §§ 9.5(A)(36)(a) through (d) of this Part, in this definition, the term “regulated NSR pollutant” shall not include any or all hazardous air pollutants either listed in 42 U.S.C. § 7412 (2018), (CAA § 112) or added to the list pursuant to 42 U.S.C. § 7412(b)(2) (2018), (CAA § 112(b)(2)), and which have not been delisted pursuant to 42 U.S.C. § 7412(b)(3) (2018) , (CAA § 112(b)(3)), unless the listed hazardous air pollutant is also regulated as a constituent or precursor of a general pollutant listed under 42 U.S.C. § 7408 (2018), (CAA § 108). 
+37. "Significant" means in reference to a net emissions increase or the potential of a source to emit a rate of emissions that would equal or exceed any of the following rates: 
+Pollutant 
+Emissions Rate (tpy) 
+Carbon monoxide 
+100 
+Nitrogen oxides 
+25 
+Sulfur dioxide 
+40 
+Particulate matter 
+25 
+Particulate matter less than 10 microns in diameter 
+15 
+Particulate matter less than 2.5 microns in diameter 
+10 of direct PM-2.5 emissions; 40 of sulfur dioxide emissions; 40 of nitrogen oxide emissions. 
+Ozone 
+25 of volatile organic compounds or nitrogen oxides 
+Lead 
+0.6 
+Fluorides 
+3 
+Sulfuric acid mist 
+7 
+Hydrogen sulfide (H2S) 
+10 
+Total reduced sulfur (including H2S) 
+10 
+Reduced sulfur comp. (including H2S) 
+10 
+Municipal waste combustor organics (measured as total tetra- through octa- chlorinated dibenzo-p-dioxins and dibenzofurans) 
+3.5 x 10 -6 
+Municipal waste combustor metals (measured as particulate matter) 
+15 
+Municipal waste combustor acid gases (measured as SO2 and HCl) 
+40 
+Municipal solid waste landfill emissions (measured as nonmethane organic compounds) 
+50 
+Any other regulated NSR pollutant, excluding greenhouse gases 
+Any emission 
+38. "Significant emissions increase" means, for a regulated NSR pollutant, an increase in emissions that is significant (as defined in § 9.5(A)(37) “Significant” of this Part) for that pollutant. 
+a. An emissions increase from a project is determined by taking the sum of the emission increase from each emissions unit affected by the project. An emissions unit is considered to be affected by the project if an emissions increase from the unit would occur as a result of the project, regardless of whether a physical change or change in the method of operation will occur at the particular unit. 
+b. For each emissions unit affected by the project, the emissions increase is determined by taking the difference between the potential to emit, following completion of the project and the baseline actual emissions 
+39. "Similar source" means a stationary source or process that has comparable emissions and is structurally similar in design and capacity to a constructed or reconstructed 42 U.S.C § 7412(g), (2018) (CAA § 112(g)) source such that the source could be controlled using the same control technology. 
+40. “Site remediation” means one or more activities or processes used to remove, destroy, degrade, transform, immobilize or otherwise manage contaminants in either soil or groundwater. 
+41. "Subject to regulation" means, for any air pollutant, that the pollutant is subject to either a provision in the Clean Air Act, or a nationally-applicable regulation codified by the EPA in 40 C.F.R. §§ 50 through 99 (2018), that requires actual control of the quantity of emissions of that pollutant, and that such a control requirement has taken effect and is operative to control, limit or restrict the quantity of emissions of that pollutant released from the regulated activity. Except that: 
+a. Greenhouse gases (GHGs), the air pollutant defined in 40 C.F.R. § 86.1818–12(a) (2018) as the aggregate group of six (6) greenhouse gases: Carbon dioxide, nitrous oxide, methane, hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride, shall not be subject to regulation except as provided in § 9.5(A)(41)(d) of this Part. 
+b. For purposes of §§ 9.5(A)(41)(c) through (d) of this Part, in this definition, the term tpy CO 2 equivalent emissions (CO 2 e) shall represent an amount of GHGs emitted, and shall be computed as follows: 
+(1) Multiplying the mass amount of emissions (tpy), for each of the six (6) greenhouse gases in the pollutant GHGs, by the gas's associated global warming potential published at 40 C.F.R. § 98. Table A-1 to Subpart A (2018), . 
+(2) Sum the resultant value from § 9.5(A)(41)(b)((1)) of this Part, in this definition for each gas to compute a tpy CO 2 e. 
+c. The term emissions increase as used in § 9.5(A)(41)(d) of this Part, in this definition means that both a significant emissions increase and a significant net emissions increase occur. For the pollutant GHGs, an emissions increase shall be based on tpy CO 2 e, and shall be calculated assuming the pollutant GHGs is a regulated NSR pollutant, and “significant” is defined as 75,000 tpy CO 2 e. 
+d. Beginning January 2, 2011, the pollutant GHGs is subject to regulation if: 
+(1) The stationary source is a new major stationary source for a regulated NSR pollutant that is not GHGs, and also will emit or will have the potential to emit 75,000 tpy CO 2 e or more; or 
+(2) The stationary source is an existing major stationary source for a regulated NSR pollutant that is not GHGs, and also will have an emissions increase of a regulated NSR pollutant, and an emissions increase of 75,000 tpy CO 2 e or more. 
+B. As used in § 9.8 of this Part the following term shall, where the context permits, be construed as follows: 
+1. "Major stationary source" means: 
+a. Any stationary source of air pollutants which emits or has the potential to emit fifty (50) tons per year or more of volatile organic compounds or nitrogen oxides or one hundred (100) tons per year of any other regulated air pollutant; or 
+b. Any physical change that would occur at a stationary source not qualifying under § 9.5.1(B)(1)(a) of this Part if the change would constitute a major stationary source by itself; or 
+c. A major stationary source that is major for volatile organic compounds or nitrogen oxides shall be considered major for ozone. 
+C. As used in § 9.9 of this Part, the following terms shall, where the context permits, be construed as follows: 
+1. "Baseline area" means the State of Rhode Island. 
+2. "Baseline concentration" means that ambient concentration level which exists in the baseline area at the time of the applicable minor source baseline date. A baseline concentration is determined for each pollutant for which a minor source baseline date is established and shall include: 
+a. The actual emissions, as defined in this part, representative of sources in existence on the applicable minor source baseline date, except as provided in § 9.5.1(C)(2)(c) of this Part; 
+b. The allowable emissions of major stationary sources that commenced construction before the major source baseline date, but were not in operation by the applicable minor source baseline date; 
+c. The following will not be included in the baseline concentration and will affect increment consumption: 
+(1) Actual emissions, as defined in this part, from any major stationary source on which construction commenced after the major source baseline date; and 
+(2) Actual emissions increases and decreases at any stationary source occurring after the minor source baseline date. 
+3. "Increment" means the maximum allowable increase in pollutant concentration over the baseline concentration as set forth below: 
+Particulate Matter: 
+PM-2.5, Annual arithmetic mean: 
+4 µg/m 3 
+PM-2.5, 24-hour maximum: 
+9 µg/m 3 
+PM-10, Annual arithmetic mean: 
+17 µg/m 3 
+PM-10, 24-hour maximum: 
+30 µg/m 3 
+Sulfur Dioxide: 
+Annual arithmetic mean: 
+20 µg/m 3 
+24-hour maximum: 
+91 µg/m 3 
+3-hour maximum: 
+512 µg/m 3 
+Nitrogen Dioxide: 
+Annual arithmetic mean: 
+25 µg/m 3 
+a. For any period other than an annual period, the applicable maximum allowable increase may be exceeded during one such period per year at any one location. 
+4. "Major source baseline date" means: 
+a. In the case of PM-10 and sulfur dioxide, January 6, 1975; and, 
+b. In the case of nitrogen dioxide, February 8, 1988; and 
+c. In the case of PM-2.5, October 20, 2010. 
+d. The baseline date is established for each pollutant for which increments or other equivalent measures have been established if: 
+(1) The area in which the proposed source or modification would be constructed is designated as attainment or unclassifiable under 42 U.S.C. §§ 7407(d)(1)(A)(ii) or (iii) (2018), (CAA §§ 107(d)(1)(A)(ii) or (iii)) for the pollutant on the date of its complete application under this part; and 
+(2) In the case of a major stationary source, the pollutant would be emitted in significant amounts, or, in the case of a major modification, there would be a significant net emissions increase of the pollutant. 
+5. "Minor source baseline date" means: 
+a. In the case of PM-10 and sulfur dioxide, December 3, 1982; and, 
+b. In the case of nitrogen dioxide, August 5, 1988. 
+c. In the case of PM-2.5, March 29, 2016. 
+d. The Office of Air Resources may revise the minor source baseline date for particulate matter where it can be shown, to the satisfaction of the Director, that the emissions increase from the major stationary source or the net emissions increase from the major modification, responsible for triggering that date did not result in a significant amount of PM-10 emissions. 
+e Any minor source baseline date established originally for the TSP increments shall remain in effect and shall apply for purposes of determining the amount of available PM-10 increments, except that the Office of Air Resources may rescind any such minor source baseline date where it can be shown, to the satisfaction of the Office of the Air Resources, that the emissions increase from the major stationary source, or the net emissions increase from the major modification, responsible for triggering that date did not result in a significant amount of PM-10 emissions. 
+6. "Major stationary source" means: 
+a. Any of the following stationary sources of air pollutants which emit, or have the potential to emit, one hundred (100) tons per year or more of any regulated NSR pollutant: fossil fuel fired steam electric plants of more than two hundred fifty (250) million Btu's (British thermal units) per hour heat input capacity; coal cleaning plants (with thermal dryers); kraft pulp mills; portland cement plants; primary zinc smelters; iron and steel mill plants; primary aluminum ore reduction plants; primary copper smelters; municipal incinerators capable of charging more than fifty (50) tons of refuse per day; hydrofluoric, sulfuric and nitric acid plants; petroleum refineries; lime plants; phosphate rock processing plants; coke oven batteries; sulfur recovery plants; carbon black plants (furnace process); primary lead smelters; fuel conversion plants; sintering plants; secondary metal production plants; chemical process plants; fossil fuel boilers (or combinations thereof) totaling more than two hundred fifty (250) million Btu's per hour heat input capacity; petroleum storage and transfer units with the total storage capacity exceeding 300,000 barrels; taconite ore processing plants; glass fiber processing plants; and charcoal production plants; or 
+b. Notwithstanding the stationary source size specified above, any stationary source which emits or has the potential to emit two hundred fifty (250) tons per year or more of any regulated NSR pollutant; or 
+c. Any physical change that would occur at a stationary source not otherwise qualifying as a major stationary source if the change would constitute a major stationary source by itself. 
+d. A major stationary source that is major for volatile organic compounds or nitrogen oxides shall be considered major for ozone. 
+9.6 General Requirements 
+A. No person shall construct, install or modify or cause the construction, installation or modification of any stationary source subject to the provisions of this regulation without obtaining: 
+1. A minor source permit from the Director for each proposed installation or modification described in § 9.7.1 of this Part; or, 
+2. A major source permit from the Director for the proposed major stationary source or major modification. 
+B. No person that is required to obtain a minor source permit or a major source permit under this regulation shall operate the emission units for which the minor source permit or major source permit is required, without obtaining the required permit. 
+9.7 Minor Source Permits: Applicability, Exemptions, Requirements for Approval and Applications 
+9.7.1 Applicability 
+A. A minor source permit is required for the construction, installation or modification of the following: 
+1. Any fuel burning device designed to burn: 
+a. Residual oil or solid fossil fuels having a heat input capacity of one million Btu or more per hour; 
+b. All other liquid fuels having a heat input capacity of five (5) million Btu or more per hour; 
+c. Gaseous fuel having a heat input capacity of ten (10) million Btu or more per hour; or 
+d. Alternative fuels, including but not limited to, wood chips, hazardous wastes or waste oil having a heat input capacity of one (1) million Btu or more per hour. 
+2. Notwithstanding § 9.7.1(A)(1) of this Part, 
+a. any emergency generator or distributed generator with a heat input capacity of 350,000 BTUs or more per hour or, in the case of internal combustion engines, is 50 HP or larger; and, 
+b. the date of initial startup is on or after November 15, 2007. Initial startup shall mean the setting in operation of the emergency generator or distributed generator for the first time for any purpose. 
+3. Liquid petroleum storage tanks, reservoirs and containers with a capacity of forty thousand gallons or more used for the storage of petroleum liquids having a true vapor pressure greater than 1.52 psia at 69 o F; 
+4. Any incinerator, except as exempted in § 9.7.2(B) of this Part; 
+5. Any stationary source that emits or has the potential to emit, in the aggregate, twenty-five (25) tons per year or more of any combination of hazardous air pollutants. 
+6. Any stationary source which has the potential to increase emissions of a listed toxic air contaminant by greater than the minimum quantity for that contaminant, as specified in § 9.17 of this Part. 
+7. Any other stationary source or process except for those outlined in §§ 9.7.1(A)(1), (2) or (4) of this Part having the potential to emit one hundred (100) pounds or more per day, or ten (10) pounds or more per hour of any air contaminant or combination of air contaminants into the atmosphere, including but not limited to the following categories: 
+a. Surface coating, spray and dip painting, roller coating, knife coating and electrostatic depositing; 
+b. Metal cleaning or surface preparation, bright dipping, stripping, galvanizing and chrome plating; 
+c. Textile dyeing and finishing, including tenter frames, dryers, printers and solvent dyers; 
+d. Glass or fiberglass manufacturing, including melting furnaces, forming lines, curing ovens and product cooling lines; 
+e. The production of asphalt concrete, including rotary dryers, screening and conveying systems and mixers; 
+f. The production of metal castings, including cupolas, reverberatory furnaces, electric furnaces, crucible furnaces and sand handling systems; and 
+g. The transfer of petroleum products having a true vapor pressure greater than 1.52 psia at 69 o F from the storage facility to or from a mobile vessel. 
+8. Any air pollution control system and appurtenances. 
+9.7.2 Exemptions 
+A. The provisions of § 9.7.1(A)(8) of this Part shall not apply to the construction, installation or modification of any air pollution control system and appurtenances where: 
+1. Emission of air contaminants in the absence of the air pollution control system would comply with all applicable state and federal air pollution control rules and regulations. 
+2. Emission of air contaminants in the absence of the air pollution control system would not exceed any of the thresholds in §§ 9.7.1(A)(5) through (7) of this Part. 
+3. The air pollution control system is used to treat emission of air contaminants generated from a site remediation operation and the air pollution control system will reduce emissions of VOC by at least ninety-five percent (95%). 
+4. Any air pollution control system and appurtenances exempted from the requirement to obtain a permit must file a registration form with the Office of Air Resources prior to the construction, installation or modification of the system. 
+B. The provisions of this regulation shall not apply to incinerators constructed, installed, modified or used in owner-occupied dwellings having less than three units. 
+C. The provisions of § 9.7 of this Part shall not apply to the construction, installation or modification of Perchloroethylene dry cleaning equipment. The owner or operator of that equipment shall comply with the compliance certification requirements in § 23.3 of "Air Pollution Control Regulation No. 23 - Control of Perchloroethylene Emissions from Dry Cleaning Operations" prior to construction, installation or modification of that equipment. 
+D. The provisions of § 9.7 of this Part shall not apply to the construction, installation or modification of an organic solvent cleaning machine (degreaser), provided that the machine meets the applicable requirements of "Air Pollution Control Regulation No. 36 - Control of Emissions from Organic Solvent Cleaning." The owner or operator of that machine shall submit a Compliance Notification Report that contains the information in § 36.11.2(b) of "Air Pollution Control Regulation No. 36 - Control of Emissions from Organic Solvent Cleaning" prior to construction, installation or modification of that machine. 
+9.7.3 Requirements for Approval 
+A. No person shall construct, install or modify or cause the construction, installation or modification of any minor stationary source described in § 9.7.1 of this Part unless the following conditions are met: 
+1. A stationary source shall apply BACT for each pollutant it would have the potential to emit. A modification shall apply BACT for each pollutant for which there would be a net emissions increase at the stationary source. In no event shall BACT be less stringent than any applicable emission rate contained in the Department's Air Pollution Control Regulations. 
+2. Emissions from the stationary source will not cause an impact on the ground level ambient concentration at or beyond the property line in excess of that allowed by "Air Pollution Control Regulation No. 22 - Air Toxics" and any Calculated Acceptable Ambient Levels. 
+3. A new stationary source or a modification of an existing stationary source must conduct any studies required by the Guidelines for Assessing Health Risks from Proposed Air Pollution Sources and meet the criteria therein. 
+4. Emissions from the stationary source shall not cause or contribute to air pollution in violation of any applicable state or national ambient air quality standard. 
+5. The stationary source will be in compliance with all applicable state or federal air pollution control rules or regulations at the time the stationary source or modification commences operation. 
+B. In addition to the conditions in § 9.7.3(A) of this Part, no person shall construct or reconstruct a 42 U.S.C. § 7412(g) (2018), (CAA § 112(g)) source unless: 
+1. The source in question has been specifically regulated or exempted from regulation under a standard in 40 C.F.R. § 63 (2018), issued pursuant to 42 U.S.C. §§ 7412(d) (2018), (CAA § 112(d)), 42 U.S.C. § 7412(h) (2018), (CAA § 112(h)) or U.S.C. § 7412(j) (2018), (CAA § 112 (j)) and the owner and operator has fully complied with all procedures and requirements for preconstruction review established by that standard, including any applicable requirements set forth in 40 C.F.R. § 63, Subpart A (2018); or 
+2. The Office of Air Resources has made a final and effective case-by-case determination pursuant to the provisions of 40 C.F.R § 63.43 such that emissions from the constructed or reconstructed 42 U.S.C. § 7412(g) (2018) , (CAA § 112(g)) source will be controlled to a level no less stringent than the maximum achievable control technology emission limitation for new sources. 
+9.7.4 Minor Source Permit Applications 
+A. Application for approval of plans to construct, install or modify a minor source shall be made in duplicate by the owner or operator of any source described in § 9.7.1 of this Part on forms furnished by the Director and shall be signed by: 
+1. For a corporation or limited liability company (LLC): a president, secretary, treasurer or vice-president of the corporation or member of the LLC in charge of a principal business function, or any other person who performs similar policy or decision-making functions for the corporation, or a duly authorized representative of such person if the representative is responsible for the overall operation of one or more manufacturing, production, or operating facilities applying for the permit; 
+2. For a partnership or sole proprietorship: a general partner or the proprietor, respectively; 
+3. For a municipality, State, Federal or other public agency: either a principal executive officer or ranking elected official. For the purposes of this regulation, a principal executive officer of a Federal agency includes the chief executive officer having responsibility for the overall operations of a principal geographic unit of the agency. 
+B. A separate application, in duplicate, is required for each installation and air pollution control system described in § 9.7.1 of this Part. 
+C. Each application shall be accompanied by one set of plans, specifications and all other relative data that may be required by the Director to show: 
+1. How the source is designed and in what manner it will be operated and controlled; and 
+2. That issuance of a construction permit will not prevent the maintenance or attainment of any applicable ambient air quality standard or prevent the achievement of other air quality goals. 
+9.7.5 General Permits 
+A. A stationary source that is required to obtain a minor source permit under § 9.7.1 of this Part may apply for a general permit provided that the stationary source meets the eligibility requirements of the general permit. A general permit is a pre-approved minor source permit. By issuing a general permit, the Department indicates that it approves the installation of the emission unit(s) authorized by the general permit. 
+B. The owner or operator shall ensure any application for a general permit is correct and that the permit conditions and emission limitations of the general permit are complied with. 
+C. A general permit will be issued if the following conditions are met: 
+1. The owner or operator has submitted a complete application that provides all of the information requested on the form; and, 
+2. The owner or operator has provided the Department sufficient information to demonstrate that the stationary source meets the eligibility requirements of the general permit. 
+D. Application for a general permit shall be made by the owner of the stationary source on forms furnished by the Director and shall be signed by: 
+1. For a corporation or limited liability company (LLC): a president, secretary, treasurer or vice-president of the corporation or member of the LLC in charge of a principal business function, or any other person who performs similar policy or decision-making functions for the corporation, or a duly authorized representative of such person if the representative is responsible for the overall operation of one or more manufacturing, production, or operating facilities applying for the permit; 
+2. For a partnership or sole proprietorship: a general partner or the proprietor, respectively; 
+3. For a municipality, State, Federal or other public agency: either a principal executive officer or ranking elected official. For the purposes of this Part, a principal executive officer of a Federal agency includes the chief executive officer having responsibility for the overall operations of a principal geographic unit of the agency. 
+E. A separate application is required for each emission unit eligible for the general permit. 
+9.7.6 General Permits: Availability 
+A. A general permit is available for the following types of stationary sources: 
+1. An emergency generator that meets the requirements of "Air Pollution Control Regulation No. 43 - General Permits for Smaller-Scale Electric Generation Facilities." 
+2. A distributed generator that meets the requirements of "Air Pollution Control Regulation No. 43 - General Permits for Smaller-Scale Electric Generation Facilities." 
+9.7.7 Temporary Permits 
+A. A stationary source that is required to obtain a minor source permit under § 9.7.1 of this Part may apply for a temporary permit provided that the following requirements are met: 
+1. The stationary source is a portable engine or boiler that temporarily replaces an existing engine or boiler and the replacement units have a combined heat input capacity equal to or less than the existing units; or 
+2. The stationary source is an emergency generator that is to temporarily provide electrical power when the primary power source is disrupted or discontinued during an emergency due to circumstances beyond the control of the owner or operator of the facility; and, 
+3. The duration of operation will not exceed 180 days. 
+B. Application for a temporary permit shall be made by the owner or operator on forms furnished by the Director and shall be signed by: 
+1. For a corporation: a president, secretary, treasurer or vice-president of the corporation in charge of a principal business function, or any other person who performs similar policy or decision-making functions for the corporation, or a duly authorized representative of such person if the representative is responsible for the overall operation of one or more manufacturing, production, or operating facilities applying for the permit; 
+2. For a partnership or sole proprietorship: a general partner or the proprietor, respectively; 
+3. For a municipality, State, Federal or other public agency: either a principal executive officer or ranking elected official. For the purposes of this Part, a principal executive officer of a Federal agency includes the chief executive officer having responsibility for the overall operations of a principal geographic unit of the agency. 
+C. A separate application is required for each emission unit. 
+D. A temporary permit will be issued if the following conditions are met: 
+1. The owner or operator has submitted a complete application that provides all of the information requested on the form; and, 
+2. The owner or operator has provided the Department sufficient information to demonstrate that the requirements of § 9.7.7(A) of this Part are met. 
+9.7.8 Expedited Processing of Minor Source Permit Applications 
+A. Any applicant for a minor source permit may request expedited processing of their permit application. In order to be eligible for expedited processing, the minor source permit application must contain all of the elements described in § 9.7.9 of this Part. 
+B. Prior to the submission of a minor source permit application for which expedited processing is requested, the applicant must request and, if required by staff of the Office of Air Resources, must attend a pre-application meeting with staff of the Office of Air Resources. 
+C. A minor source permit application for which expedited processing is requested that contains all of the elements described in § 9.7.9 of this Part shall be given priority in the handling and processing of the application. 
+9.7.9 Applications and Required Information 
+A. Each minor source permit application, for which expedited processing is requested, must contain the following elements: 
+1. A completed application form for each installation and air pollution control system described in § 9.7.1 of this Part. 
+2. A detailed description of the proposed project and, if the project is to take place at an existing source, a description of the operations that take place at the existing source. 
+3. A calculation of the "potential to emit" of the proposed project and the “potential to emit” of any existing stationary source. Supporting calculations shall be included with the application. 
+4. A demonstration that: 
+a. The proposed new source is not a “major stationary source”; or, 
+b. The proposed modification to an existing stationary source is not a “major modification”. 
+c. Calculations supporting the demonstration shall be included. 
+5. Identification of the applicable state and federal air pollution control regulations the proposed project is subject to. For each regulation that is identified as applicable, the applicant must demonstrate how the proposed project is capable of complying with all applicable aspects of that regulation. 
+6. A demonstration that the stationary source will be in compliance with all applicable state or federal air pollution control rules or regulations at the time the stationary source or modification commences operation. 
+7. A Best Available Control Technology ("BACT") analysis. The applicant must perform an analysis, using the “top-down” method to ensure compliance with § 9.7.3(A)(1) of this Part. The applicant shall use a number of information sources to conduct this evaluation, including where applicable: 
+a. Published BACT determinations or guidelines of various state and local air pollution control agencies. 
+b. EPA's RACT/BACT/LAER Clearinghouse that contains information on BACT determinations made for mostly major projects. 
+c. Information obtained from other permitting authorities including those in the Connecticut, Maine, Massachusetts, Vermont, New Hampshire, New Jersey and New York. 
+8. An Air Quality Impact Analysis that demonstrates that: 
+a. Emissions from the stationary source will not cause or contribute to air pollution in violation of any applicable state or national ambient air quality standard; and, 
+b. Emissions from the stationary source will not cause an increase in the ground level ambient concentration at or beyond the property line in excess of that allowed by "Air Pollution Control Regulation No. 22 - Air Toxics" and any Calculated Acceptable Ambient Levels. 
+9. A new stationary source or a modification of an existing stationary source must conduct any studies required by the Guidelines for Assessing Health Risks from Proposed Air Pollution Sources. 
+10. A proposed draft permit. The proposed draft permit shall contain terms and conditions in the following areas: Emission Limitations, Operating Requirements, Monitoring Requirements, Testing Requirements and Recordkeeping and Reporting Requirements. An electronic version of the draft permit shall be included with the application. 
+B. The applicant shall provide electronic versions of any spreadsheets that are a part of the application. 
+9.8 Major Source Permits: Requirements for Major Stationary Sources or Major Modifications in Nonattainment Areas 
+9.8.1 General Requirements 
+A. New major stationary sources or major modifications of volatile organic compounds or nitrogen oxides, proposed in areas designated as either nonattainment for ozone pursuant to 42 U.S.C. § 7407 (d) (2018), (CAA § 107) or as part of an ozone transport region pursuant to 42 U.S.C. § 7511c(a) (2018), (CAA § 184(a)); or, 
+B. New major stationary sources or major modifications of sulfur dioxide, nitrogen dioxide, carbon monoxide or PM-10, proposed in areas designated as nonattainment pursuant to 42 U.S.C. § 7407 (2018), (CAA § 107(d)) for the pollutant for which the source or modification is major, must obtain a major source permit. The following conditions must be met for the issuance of a major source permit: 
+1. Except as provided in §§ 9.8.1(B)(1)(c) through (d) of this Part, the source must meet an emission limitation that is considered the lowest achievable emission rate. This lowest achievable emission rate will be based on technological factors and can be in the form of a numerical emission standard or a design, operational or equipment standard. 
+a. A new major stationary source shall apply the lowest achievable emission rate for each pollutant subject to the provisions of § 9.8.1 of this Part that it would have the potential to emit in major amounts. This provision applies to each new emissions unit at which emissions would occur. 
+b. The owner or operator of a source proposing a major modification shall apply the lowest achievable emission rate for each pollutant subject to the provisions of § 9.8.1 of this Part for which it would result in a significant net emissions increase at the source. This requirement applies to each proposed emissions unit at which a net emissions increase in the pollutant would occur as a result of a physical change or change in the method of operation of the unit. 
+c. For applications for major modifications to a stationary source which has potential emissions equal to or greater than fifty (50) tons per year but less than one hundred (100) tons per year of volatile organic compounds or nitrogen oxides the source must apply BACT instead of LAER. 
+d. For applications for major modifications to a stationary source which has potential emissions greater than one hundred (100) tons per year of volatile organic compounds or nitrogen oxides the source must meet an emission limitation considered the lowest achievable emission rate unless internal offsets of such volatile organic compounds or nitrogen oxides are obtained at a ratio of at least 1.3 to 1, the source must then apply BACT instead of LAER. 
+2. The applicant must certify that all existing major stationary sources owned or operated by the applicant (or any entity controlling, controlled by, or under common control with the applicant) located within the state are in compliance with all applicable state and federal air pollution rules and regulations under the Clean Air Act and federally enforceable compliance schedules. 
+3. The applicant must provide evidence in accordance with § 9.8.2 of this Part that the total tonnage of emissions of the applicable nonattainment air pollutant allowed from the proposed new source or net emissions increase from the modification, shall be offset by a greater reduction in the actual emissions of such air pollutant from the same or other sources. 
+4. The emission offsets must: 
+a. Be approved by the Director, and be part of a federally enforceable permit, or part of an operating permit issued pursuant to 40 C.F.R. § 71 (2018) or under regulations approved pursuant to 40 C.F.R. § 70 (2018), or otherwise made part of the federally approved State Implementation Plan. 
+b. Be federally enforceable prior to the issuance of the major source permit. 
+c. Actually occur at the source of the offsets prior to the start-up date of the new source or modification. 
+d. Be at an offset ratio of at least 1.2 to 1 for VOCs and nitrogen oxides and at least 1.1 to 1 for all other nonattainment air pollutants. 
+e. Be obtained from the same stationary source or other sources in the same nonattainment area or in another nonattainment area provided that: 
+(1) the other nonattainment area has an equal or higher nonattainment classification than the area in which the source is located; and 
+(2) emissions from such other area contribute to a violation of the national ambient air quality standard in the nonattainment area in which the source is located. 
+f. When considered in conjunction with the proposed emissions increase, have a net air quality benefit in the area. 
+5. The applicant must submit an analysis of alternative sites, sizes, production processes, and environmental control techniques that demonstrate the benefits of the proposed source or modification significantly outweigh the environmental and social cost imposed as a result of its location, construction or modification. 
+6. New major stationary sources or major modifications for nitrogen oxides must demonstrate the conditions in §§ 9.9.1(A)(2) through (4) and §§ 9.9.2(A)(1) through (2) of this Part will be met. 
+7. The applicant must demonstrate that emissions from the stationary source will not cause an impact on the ground level ambient concentration at or beyond the property line in excess of that allowed by “Air Pollution Control Regulation No. 22 - Air Toxics" and any Calculated Acceptable Ambient Levels. 
+8. The applicant must conduct any studies required by the Guidelines for Assessing Health Risks from Proposed Air Pollution Sources and meet the criteria therein. 
+9. The applicant must demonstrate that the stationary source will be in compliance with all applicable state or federal air pollution control rules or regulations at the time the stationary source or modification commences operation. 
+9.8.2 Emission Offset Demonstration 
+A. Credit for an emissions reduction may be claimed to the extent that such reduction has not been relied on in any permit already issued under 40 C.F.R. §§ 52 or 71 (2018) or regulations approved pursuant to 40 C.F.R. §§ 51 or 70 (2018) or the state has not relied on it in demonstrating attainment or reasonable further progress. Incidental emissions reductions which are not otherwise required under the Clean Air Act may be creditable as emissions reductions for such purposes if such emissions reductions meet the applicable requirements for emission offsets. Emission offsets can be achieved by reducing current actual emissions of a source to a point below the applicable emission limitations in effect at the time of submission of the application by: 
+1. Installing additional air pollution control equipment on an existing source currently operating but considered in compliance with regulations. 
+2. Initiating a process change that will result in a reduction of emissions. 
+3. Applying fugitive emission control measures that reduce actual emissions to less than is allowed by the applicable emission limitations in effect at the time of application. 
+4. Switching to a different type of fuel that will result in lowering the emission rate below the emission rate in effect at the time of application, if the applicant can demonstrate that: 
+a. an adequate long-term supply of the new fuel is available; and 
+b. the use of a specified alternative air pollution control measure would achieve the same degree of emission control in the event the source should switch back to the original fuel at a later date. 
+5. Permanently curtailing production or operating hours below levels that are specified in a federally enforceable document issued by the Department, subject to the restrictions provided in § 9.8.2(C) of this Part. 
+6. Permanently shutting down a facility, process or a source of emissions, subject to the restrictions provided in § 9.8.2(C) of this Part. 
+7. Establishing and supporting employer business travel control measures or employee commuter travel control measures that have quantifiable emission reductions that must be enforceable, permanent and surplus. 
+8. Adopting any other measures that can be used for emission offsets that have been approved by the Director. 
+B. Offset credit will not be given for the following: 
+1. Emission reductions that result from complying with existing or new rules and regulations, New Source Performance Standards, and National Emission Standards for Hazardous Air Pollutants or emission reductions otherwise required by, 42 U.S.C. § 7401, et seq. (2018). 
+2. Increasing the stack height of a stationary source beyond good engineering practice as defined by the U.S. Environmental Protection Agency. 
+3. The reduction of different pollutants, e.g. an increase in NO 2 emissions cannot be offset by a reduction of SO 2 emissions. 
+4. With respect to a proposed increase in VOC emissions, no offset credit shall be allowed for reductions in any organic compound specifically excluded from the definition of "VOC" in Part 0 of this Subchapter (General Definitions). 
+5. Reductions of volatile organic compound emissions from November 1 to March 31 of any year to substitute for emission increases that occur during the rest of the year. 
+6. Emission reductions that occurred prior to January 1, 1990. 
+C. Emissions reductions achieved by shutting down an existing source or curtailing production or operating hours below baseline levels may be credited provided that: 
+1. Such reductions are surplus, permanent, quantifiable and federally enforceable; and, 
+2. The state has an EPA approved attainment plan for the area. The emissions reductions achieved from a shutdown or curtailment may be credited in the absence of an approved attainment plan only if the shutdown or curtailment occurred on or after the date the new source permit application is filed or if the proposed new source is a replacement for the shutdown or curtailed source and if the shutdown or curtailment and if the shutdown or curtailment occurred after January 1, 1990, or the date of the most recent emissions inventory used in the plan's demonstration of attainment, whichever is later. 
+3. The shutdown or curtailment occurred after January 1, 1990, or the date of the most recent emissions inventory used in the State's attainment plan, whichever is later. The Director may choose to consider a prior shutdown or curtailment to have occurred after the applicable date, if the most recent emissions inventory explicitly includes as current existing emissions, the emissions from such previously shutdown or curtailed sources. 
+9.8.3 Reasonable Further Progress 
+A. By the time the proposed major stationary source or major modification is to commence operation, sufficient offsetting emissions shall be in effect such that the total emissions from existing sources in the area, from new or modified sources which are not major stationary sources and from the proposed source will be sufficiently less than total emissions from existing sources prior to the application for the major source permit so as to represent (when considered together with the plan provisions required under U.S.C § 7502 (2018), (CAA § 172) reasonable further progress. 
+B. For the purposes of satisfying the requirements of this paragraph, the determination of total emissions at both the time prior to the application for a major source permit and the time the such permitted source or modification would commence operation, shall be made in a manner consistent with the assumptions in the RI State Implementation Plan approved by the EPA concerning baseline emissions for the demonstration of reasonable further progress and the attainment of the national ambient air quality standard for the particular pollutant subject to review under § 9.8.1 of this Part. 
+9.8.4 General Prohibition 
+The Director shall not issue a major source permit pursuant to the provisions of § 9.8 of this Part if the Administrator of the Environmental Protection Agency has determined that the State Implementation Plan is not being adequately implemented for the nonattainment area in which the proposed source or modification is to be constructed. 
+9.9 Major Source Permits: Requirements for Major Stationary Sources or Major Modifications in Attainment or Unclassifiable Areas (PSD) 
+9.9.1 General Requirements 
+A. Major stationary sources or major modifications proposed in areas designated as attainment or unclassifiable for any pollutant for which there is a significant net emissions increase at the source or modification must obtain a major source permit. The following conditions must be met for the issuance of a major source permit: 
+1. Best Available Control Technology 
+a. A new major stationary source shall apply BACT for each pollutant it would have the potential to emit. 
+b. A major modification shall apply BACT for each pollutant for which there would be a net emissions increase at the source. 
+2. Air Quality Impact Analysis 
+a. The owner or operator of the proposed stationary source or modification shall demonstrate, by means of air quality modeling based on the applicable air quality models, data bases and other requirements specified in the EPA Guideline on Air Quality Models, that allowable emission increases from the proposed source or modification, in conjunction with all other applicable emission increases or decreases (including secondary emissions), would not cause or contribute to: 
+(1) Air pollution in violation of any national ambient air quality standard; or 
+(2) Any increase in ambient concentrations exceeding the remaining available increment for the specified air contaminant. 
+b. The air quality impact analysis shall include the following: 
+(1) An analysis of ambient air quality in the area that the major stationary source or major modification would affect for each of the following pollutants: 
+(AA) For the source, each pollutant that it would have the potential to emit in a significant amount; 
+(BB) For the modification, each pollutant for which it would result in a significant net emissions increase. 
+(2) The analysis shall include ambient air monitoring data that has been gathered over a period of one year and shall represent the year preceding submission of the application. Ambient air monitoring data collected for a time period of less than one (1) year (but not less than four (4) months) or for a time period other than the year immediately preceding submission of the application may be acceptable if such data is adequate for determining whether the source or modification will cause or contribute to a violation of any applicable national ambient air quality standard or consume more than the remaining available increment. 
+(3) For any pollutant for which no National Ambient Air Quality Standard exists, the analysis shall contain such air quality monitoring data as the Director determines is necessary to assess ambient air quality for that pollutant in any area that the emissions of that pollutant would affect. 
+(4) Ambient air monitoring data will not be required if: 
+(AA) The emissions increase of the pollutant from a new stationary source or the net emissions increase of the pollutant from a modification would cause air quality impacts less than the following amounts: 
+Carbon monoxide 
+575 µg/m 3 , 8-hr avg. 
+Nitrogen dioxide 
+14 µg/m 3 , ann. avg. 
+PM-10 
+10 µg/m 3 , 24-hr avg. 
+Sulfur dioxide 
+13 µg/m 3 , 24-hr avg. 
+Lead 
+0.1 µg/m 3 , 3-month avg. 
+Mercury 
+0.25 µg/m 3 , 24-hr avg. 
+Beryllium 
+0.001 µg/m 3 , 24-hr avg. 
+Fluorides 
+0.25 µg/m 3 , 24-hr avg. 
+Vinyl chloride 
+15 µg/m 3 , 24-hr avg. 
+Total reduced sulfur 
+10 µg/m 3 , 1-hr avg. 
+Hydrogen sulfide 
+0.2 µg/m 3 , 1-hr avg. 
+Reduced sulfur compounds 
+10 µg/m 3 , 1-hr avg. 
+(BB) The concentrations of the pollutant in the area that the source or modification would affect are less than the concentrations listed above. 
+(5) Upon request, the owner or operator shall provide information on: 
+(AA) The air quality impact of the source or modification including meteorological and topographical data necessary to estimate such impact; and 
+(BB) The air quality impacts and the nature and extent of any or all general commercial, residential, industrial and other growth which has occurred since August 7, 1977, in the area the source or modification would affect. 
+3. Additional Impact Analysis 
+a. The owner or operator shall provide an analysis of the impairment to visibility, soils, and vegetation that would occur as a result of the source or modification and general commercial, residential, industrial and other growth associated with the source or modification. The sole criterion for determining if an application is approvable with regard to impairment to visibility and soils shall be compliance with applicable provisions of § 9.9.1(A)(4) of this Part. The sole criteria for determining if an application is approvable with regard to impairment to vegetation shall be compliance with all secondary national ambient air quality standards under § 9.9.1(A)(2)(a)((1)) of this Part and compliance with the applicable provisions of § 9.9.1(A)(4) of this Part. 
+b. The owner or operator shall provide an analysis of the air quality impact projected for the area as a result of general commercial, residential, industrial and other growth associated with the source or modification. 
+4. The owner or operator shall apply the applicable procedures of the Guidelines for Assessing the Welfare Impacts of Proposed Air Pollution Sources and meet the criteria therein. 
+5. The applicant must demonstrate that emissions from the stationary source will not cause an impact on the ground level ambient concentration at or beyond the property line in excess of that allowed by “Air Pollution Control Regulation No. 22 – Air Toxics” and any Calculated Acceptable Ambient Levels. 
+6. The applicant must conduct any studies required by the Guidelines for Assessing Health Risks from Proposed Air Pollution Sources and meet the criteria therein. 
+7. The applicant must demonstrate that the stationary source will be in compliance with all applicable state or federal air pollution control rules or regulations at the time the stationary source or modification commences operation. 
+9.9.2 Increment Consumption 
+A. Increment consumption shall be governed by the following conditions: 
+1. All State Implementation Plan revisions or relaxations that consume increment must begin actual construction or begin operation at the increased emission rate, if no construction is necessary, within eighteen (18) months of final approval of the State Implementation Plan revision or relaxation. 
+2. If actual construction or operation has not begun within eighteen (18) months, a revised air quality impact analysis meeting the requirements of § 9.9.1(B) of this Part shall be submitted prior to actual construction or operation. 
+3. This revised air quality impact analysis shall take into account actual emission increases and decreases at any stationary source that occurred after the original air quality impact analysis had been submitted. 
+4. The Director may revoke the State Implementation Plan revision or relaxation, following the procedure in §§ 9.10(E) and (F) of this Part, if the revised air quality impact analysis shows that allowable emission increases from the State Implementation Plan revision or relaxation, in conjunction with all other applicable emission increases or decreases, would cause or contribute to: 
+a. air pollution in violation of any national ambient air quality standard; or 
+b. any increase in ambient concentrations exceeding the remaining available increment for the specified air contaminant. 
+5. The following concentrations shall be excluded in determining increment consumption: 
+a. Concentrations attributable to the increase in emissions from stationary sources which have converted from the use of petroleum products, natural gas, or both by reason of an order in effect under the Energy Supply and Environmental Coordination Act of 1974, 15 U.S.C. § 792 (a) and (b) (2018) over the emissions from such sources before the effective date of such an order: 
+b. Concentrations attributable to the increase in emissions from sources which have converted from using natural gas by reason of natural gas curtailment plan in effect pursuant to the Federal Power Act over the emissions from such sources before the effective date of such plan; 
+c. No exclusion of concentrations referred to in §§ 9.9.2(A)(2)(a) through (b) of this Part shall apply more than five (5) years after the effective date of the conversion; 
+d. Concentrations of total suspended particulate attributable to the increase in emissions from construction or other temporary emission-related activities of new or modified sources; 
+e. Concentrations attributable to the temporary increase in emissions of sulfur dioxide, nitrogen oxides or particulate matter from stationary sources which are affected by State Implementation Plan revisions meeting the following criteria: 
+(1) The duration of the State Implementation Plan revision shall not exceed thirty (30) months; and 
+(2) The duration of the exclusion is not renewable; and 
+(3) The emissions increase from the source would not cause or contribute to the violation of a national ambient air quality standard, impact a Class I area or impact an area where an applicable increment is known to be violated; and 
+(4) At the end of the State Implementation Plan revision, the emission levels from the source shall not exceed those levels occurring before the State Implementation Plan revision was approved. 
+9.9.3 Applicability Exemptions 
+A. The requirements of § 9.9 of this Part shall not apply to a major stationary source or major modification if: 
+1. The source or modification would be a major stationary source or major modification only if fugitive emissions, to the extent quantifiable, are considered in calculating the potential to emit of the stationary source or modification and such source is not one of the twenty-eight (28) named source categories identified in the definition "major stationary source" for attainment or unclassifiable areas; or 
+2. The source or modification is a portable stationary source which has previously received a permit under the requirements of § 9.9 of this Part; and if 
+a. the source proposes to relocate and the emissions from the source at the new location would be temporary; and 
+b. the emissions from the source would not exceed its allowable emissions; and 
+c. the emissions from the source would impact no area where an applicable increment is known to be violated; and 
+d. reasonable notice is given to the Director prior to the proposed relocation identifying the proposed new location and the probable duration of operation at the new location. Such notice shall be given to the Director not less than thirty (30) days in advance of the proposed relocation. 
+3. The requirements of §§ 9.9.1(A)(2) through (3) of this Part shall not apply to a major stationary source or major modification if, with respect to a particular pollutant, the allowable emissions of that pollutant from a new source, or the net emissions increase of that pollutant from a modification would be temporary and impact no area where an applicable increment is known to be violated. 
+9.9.4 Impact on Nonattainment Areas 
+A. Any major stationary source or major modification, proposed to be located in an area designated as attainment or unclassifiable for the pollutant for which the source or modification is major, must comply with the provisions of § 9.8.1 of this Part if the proposed emission increase from the source or modification would result in an increase in the ambient concentration that would equal or exceed the following significance levels in an area that does not or would not meet the applicable national ambient air quality standard. 
+Averaging Time 
+Pollutant 
+Annual 
+24-Hr 
+8-Hr 
+3-Hr 
+1-Hr 
+SO 2 (µg/m 3 ) 
+1.0 
+5 
+- 
+25 
+- 
+PM-2.5 (µg/m 3 ) 
+0.3 
+1.2 
+- 
+- 
+- 
+PM-10 (µg/m 3 ) 
+1.0 
+5 
+- 
+- 
+- 
+NO2 (µg/m 3 ) 
+1.0 
+- 
+- 
+- 
+- 
+CO (mg/m 3 ) 
+- 
+- 
+0.5 
+- 
+2 
+9.10 Administrative Actions 
+A. The Director shall act on a completed application for any permit required in this regulation and shall notify the applicant in writing of any action taken, including: 
+1. For minor source permits, except the construction or reconstruction of a 42 U.S.C. § 7412 (g) (2018), (CAA §112(g)) source: 
+a. Issuing the permit and notifying the applicant of the applicable sections of this regulation and any permit conditions with which the applicant must comply; or 
+b. Denying the application and notifying the applicant as to why the application has been denied. 
+2. For major source permits and the construction or reconstruction of a 42 U.S.C. § 7412 (g) (2018), (CAA § 112(g)) source: 
+a. Notifying the applicant that the application is complete. 
+b. Issuing a draft permit subject to the public participation procedures in § 9.16 of this Part. 
+c. Issuing a final permit after public participation procedures are completed and notifying the applicant of any subsequent changes to the permit. 
+d. Denying the application and notifying the applicant as to why a draft permit or a final permit will not be issued. 
+B. Any permit issued pursuant to this regulation shall allow the Director to: 
+1. Inspect the stationary source or air pollution control system to ensure that: 
+a. It is located as shown on the equipment location drawing; and 
+b. It is constructed and being operated as indicated on the application and as required by regulation or permit conditions. 
+2. Require the applicant to conduct emission tests to the specifications of the Director within sixty (60) days after the stationary source or air pollution control system achieves its maximum or normal operating rate, but not later than one hundred eighty (180) days after initial startup; 
+3. Require the applicant to install sampling ports; 
+4. Require the applicant to assure that emission testing can be conducted in a safe manner; 
+5. Require the applicant to install a sampling valve for boilers burning oil to facilitate sample collection; and 
+6. Impose conditions on the design, construction or operation of the source, including but not limited to: 
+a. Limitations on the hours of operation; 
+b. Limitations on allowable emissions from the stationary source; 
+c. Operation and maintenance criteria that are necessary to ensure that the maximum allowable emissions from the stationary source are not exceeded; 
+d. Require the use of instrumentation to monitor and record emission data; 
+e. Conditions to ensure the attainment or maintenance of applicable state or national ambient air quality standards; 
+f. Conditions to ensure that compliance with all applicable state and federal air pollution control rules and regulations is attained and maintained. 
+C. The Director shall cancel or revoke a permit under the following conditions: 
+1. Minor source permits shall be canceled if construction, installation or modification has not commenced within one (1) year from its date of issuance with the exception of those permits related to the development of property that were in effect on November 9, 2009, at the time of passage of R.I. Pub. Laws No. 2009-198 and 2009-199 in which case said permits shall expire on June 30, 2011. 
+2. Major source permits shall be canceled if construction, installation or modification has not commenced within eighteen (18) months from its date of issuance. For any person who, prior to March 24, 1993, was issued a permit for a major stationary source or major modification, the permit shall be canceled if construction, installation or modification has not commenced by September 24, 1994. 
+3. If the work involved in the construction, installation or modification has been suspended for one (1) year or more. 
+4. If results of an emission test would indicate that emission limitations cannot be achieved. 
+5. If the applicant has violated any of the conditions of the permit that would cause the source or air pollution control system to operate in such a manner that emission limitations could not be achieved. 
+6. If the emission offsets required under § 9.8.1(B)(3) of this Part have not actually occurred at the source of the offsets prior to the start-up date of the new source or modification. 
+D. An applicant may apply for an extension of the time limits in § 9.10(C) of this Part by filing a written request to the Director stating the reasons for the request. An extension may be granted for a period of not more than six (6) months for a minor source permit or eighteen (18) months for a major source permit. 
+E. If any application is denied, the applicant may appeal the decision to the Administrative Adjudication Division for Environmental Matters (AAD). Appeals must be filed with the AAD within thirty (30) days of the issuance of the Office of Air Resource's final decision. 
+F. All hearings shall be pursuant to the rules and regulations established by the Director and the rules and regulations established by the Administrative Adjudication Division for Environmental Matters. All hearings shall be heard before administrative adjudication hearing officers. All hearings shall be evidentiary hearings. All witnesses shall testify under oath and shall be subject to cross-examination. 
+G. Any conditions included with a permit shall have the full force and effect of rules and regulations. 
+H. Any person who receives a permit shall comply with all conditions included with the permit. 
+I. Failure to comply with all conditions included with a permit shall be considered failure to comply with this regulation. 
+J. The holder of an approved permit may not transfer it without prior written notification to the Director. Each new owner or operator or holder of the permit shall be responsible for complying with all applicable regulations and any permit conditions. 
+K. Issuance of a permit pursuant to the provisions of this regulation does not relieve the owner or operator from the responsibility to comply fully with any applicable state or federal air pollution control rules or regulations and any other requirements under local, state or federal law. 
+9.11 Phased Construction Projects 
+For phased construction projects, the determination of best available control technology shall be reviewed and modified as appropriate at the least reasonable time which occurs no later than eighteen (18) months prior to commencement of construction of each independent phase of the project. At such time, the owner or operator of the applicable stationary source may be required to demonstrate the adequacy of any previous determination of best available control technology for the source. 
+9.12 Stack Heights 
+A. The degree of emission limitation required for control of any air pollutant under these regulations shall not be affected in any manner by: 
+1. So much of a stack height, not in existence before December 31, 1970, as exceeds good engineering practice; or 
+2. Any other dispersion technique not implemented before then. 
+9.13 Post Construction Monitoring 
+A. The owner or operator of a major stationary source or modification shall, after construction of the source or modification, conduct such ambient monitoring as the Director determines is necessary to determine the effect emissions from the source or modification may have or are having on air quality. 
+B. Monitoring conducted for the purposes of satisfying §§ 9.9.1(A)(2)(b)((2)) and 9.13(A) of this Part shall meet the requirements of Appendix B of 40 C.F.R. § 58 (2018). 
+9.14 Relaxations 
+At such time that a particular source or modification becomes a major stationary source or major modification solely by virtue of a relaxation in any enforceable limitation which was established after August 7, 1980, on the capacity of the source or modification otherwise to emit a pollutant, such as a restriction on hours of operation, then the applicable requirements of §§ 9.8 or 9.9 of this Part shall apply to the source or modification as though construction had not yet commenced on the source or modification. 
+9.15 Banking of Emissions 
+A. The Director may credit a source with emission reductions that may be used at a later date for the purposes of meeting the emission offset provisions of § 9.8.1(B)(3) of this Part. 
+B. Emission reductions may not be banked by a source without prior approval of the Director and will be subject to the following conditions: 
+1. A request for banking emission reductions must provide information that demonstrates the nature of these reductions. 
+2. Emission reductions achieved prior to January 1, 1990, will not be subject to banking. 
+3. Emission reductions achieved during the time period between January 1, 1990, and March 24, 1993, may be banked providing the source can present to the Director an adequate demonstration of emission reductions. 
+4. Emission reductions achieved after March 24, 1993, may be banked if a request is submitted to the Director within six (6) months of the emission reduction. 
+5. Emission reductions shall be included as a condition of a federally enforceable permit. 
+6. Emission reductions must be achieved by a manner outlined in § 9.8.2(A) of this Part. 
+C. The Director shall notify the source of the approved emission reductions that are banked. 
+D. The Director shall maintain a file of approved banked emissions. The file shall be available for inspection during normal office hours given adequate notice. 
+E. Emission reductions may not be transferred unless approved in writing in advance by the Director. 
+9.16 Public Participation 
+A. The following procedures shall be applicable to major source permit applications. 
+1. The Office of Air Resources shall review each application and shall give public notice of its intention to either issue a permit or deny the application. The draft permit or tentative denial, including all supporting documentation, shall be made available for public comment. Public notice shall be published in a newspaper of general circulation in the area in which the proposed source would be located. The Office of Air Resources shall make available for public inspection, in at least one location in the city or town where the source would be located, the information submitted by the owner or operator, the Office of Air Resources' analysis of the application and the draft permit or tentative denial. 
+2. A public hearing for interested persons to appear and submit written or oral comments on the draft permit or tentative denial shall be held if requested by any person, governmental subdivision or agency or by an association. The Director may also hold a hearing at his or her discretion, whenever he or she believes there is a significant degree of public interest in the proposed action. If held, a hearing shall take place no earlier than thirty (30) days nor later than sixty (60) days following initial public notice. Comments from the applicant and/or any interested persons shall be recorded at the public hearing. Written comments, to be considered part of the record, must be submitted during the public comment period. The public comment period shall commence on the date of initial public notice. The public comment period shall close thirty (30) days later, if no hearing is held. If a public hearing is held, the public comment period shall close at the close of the public comment hearing or on a date set by the Office of Air Resources. 
+3. Following the close of the public comment period, the Office of Air Resources shall issue or deny the permit in writing. The Office of Air Resources shall provide a written response to each substantive public comment. 
+4. The applicant and/or any person who provided substantive comment at any time during the public comment period may appeal the decision of the Office of Air Resources to the Administrative Adjudication Division for Environmental Matters provided, however, any person who shall demonstrate good cause for failure to participate and demonstrate that his/her interests shall be substantially impacted if prohibited from appearance in the appeal, may in the discretion of the AAD hearing officer be permitted to participate in the appeal process. Appeals must be filed with the AAD within thirty (30) days of the issuance of the Office of Air Resources' final decision. 
+5. The appeal shall be limited to those issues raised by the parties, provided, however, that upon good cause shown, the AAD hearing officer shall allow additional issues to be raised. 
+6. All appeals shall be pursuant to the rules and regulations established by the Director and the rules and regulations established by the Administrative Adjudication Division for Environmental Matters, provided, however, that all appeals shall contain precise statements of the issues presented on appeal and the specific part or parts of the decision of the Office of Air Resources which are challenged. 
+7. All appeals shall be heard before administrative adjudication hearing officers. All hearings shall be evidentiary hearings. All witnesses shall testify under oath and shall be subject to cross-examination. 
+B. All public notices shall contain the following minimum information: 
+1. Name and address of the permit applicant and if different, of the facility regulated by the proposed action. 
+2. A brief description of the activity described in the permit application. 
+3. Name, address, and telephone number of a person from whom interested persons may obtain further information, including copies of the draft permit, a fact sheet and the application. 
+4. A brief description of the procedures for public comment, a statement of the procedures for requesting a hearing and the time and place of any hearing that has already been scheduled. 
+5. The location and the times at which the application and all supporting documentation, including draft permit or notice of intent to deny the application and a fact sheet, will be available for public inspection. 
+6. The quantity and location of offsets, degree of increment consumption, and the determination of LAER. 
+C. At a minimum, a copy of the public notice shall be sent to: 
+1. The permit applicant; 
+2. The Regional Administrator of the EPA; 
+3. The chief executives of the city or town where the source would be located; 
+4. Any comprehensive regional land use planning agency; 
+5. Any State, Federal Land Manager or Indian Governing Body whose lands may be affected by emissions from the proposed source. 
+D. A fact sheet shall be prepared for each draft permit. The fact sheet shall include the following information, where applicable: 
+1. A brief description of the type of facility or activity which is the subject of the draft permit. 
+2. The type and quantity of pollutants which are proposed to be emitted from the facility or activity. 
+3. The degree of increment consumption expected to result from operation of the facility or activity. 
+4. The quantity and location of any offsets obtained by the facility or activity. 
+5. A brief summary of any permit conditions contained in the draft permit. 
+6. The beginning and ending dates of the public comment period and the address where comments will be received. 
+7. Procedures for requesting a hearing and the nature of that hearing. 
+8. The name and telephone number of a person to contact for additional information. 
+9.17 Appendix A: Minimum Quantities (pounds per year) and List of Federal Hazardous Air Pollutants (HAPs) 
+CHEMICAL NAME 
+CAS # 
+Federal 
+HAP? i 
+Minimum Quantity 
+Acetaldehyde 
+75070 
+Y 
+50 
+Acetamide 
+60355 
+Y 
+5 
+Acetone 
+67641 
+N 
+20,000 
+Acetonitrile 
+75058 
+Y 
+200 
+Acetophenone 
+98862 
+Y 
+900 
+2-Acetylaminofluorene 
+53963 
+Y 
+0.09 
+Acrolein 
+107028 
+Y 
+0.07 
+Acrylamide 
+79061 
+Y 
+0.09 
+Acrylic acid 
+79107 
+Y 
+3 
+Acrylonitrile 
+107131 
+Y 
+1 
+Aldrin 
+309002 
+N 
+0.002 
+Allyl chloride 
+107051 
+Y 
+3 
+2-Aminoanthraquinone 
+117793 
+N 
+10 
+4-Aminobiphenyl 
+92671 
+Y 
+0.02 
+Ammonia 
+7664417 
+N 
+300 
+Aniline 
+62533 
+Y 
+3 
+o-Anisidine 
+90040 
+Y 
+2 
+Antimony & compounds a , including antimony trioxide 
+Y 
+0.6 
+Aramite 
+140578 
+N 
+10 
+Arsenic & compounds a (inorganic) 
+Y 
+0.02 
+Arsine 
+7784421 
+Y 
+0.2 
+Asbestos 
+1332214 
+Y 
+400 b 
+Azobenzene 
+103333 
+N 
+3 
+Barium 
+7440393 
+N 
+2000 
+Benzene 
+71432 
+Y 
+10 
+Benzidine 
+92875 
+Y 
+0.002 
+Benzoic acid 
+65850 
+N 
+30,000 
+Benzotrichloride 
+98077 
+Y 
+0.03 
+Benzyl chloride 
+100447 
+Y 
+2 
+Beryllium & compounds a 
+Y 
+0.04 
+Biphenyl 
+92524 
+Y 
+600 
+Bis (chloromethyl) ether 
+542881 
+Y 
+0.002 
+Bis (2-ethylhexyl) phthalate (DEHP) 
+117817 
+Y 
+40 
+Boron and borates 
+N 
+4 
+Bromates (including Potassium bromate) 
+N 
+0.8 
+Bromine and compounds m (except Hydrogen bromide & Bromates) 
+N 
+200 
+Bromodichloromethane 
+75274 
+N 
+3 
+Bromoform 
+75252 
+Y 
+100 
+1,3-Butadiene 
+106990 
+Y 
+3 
+Butyl benzyl phthalate 
+85687 
+N 
+2,000 
+Cadmium & compounds a 
+Y 
+0.07 
+Calcium cyanamide 
+156627 
+Y 
+100 
+Captan 
+133062 
+Y 
+100 
+Carbaryl 
+63252 
+Y 
+900 
+Carbon disulfide 
+75150 
+Y 
+2,000 
+Carbon tetrachloride 
+56235 
+Y 
+8 
+Carbonyl sulfide 
+463581 
+Y 
+70 
+Catechol 
+120809 
+Y 
+500 
+Chloramben 
+133904 
+Y 
+200 
+Chlordane 
+57749 
+Y 
+0.1 
+Chlorinated paraffins (avg length C12- C13, 60% chlorine) 
+108171262 
+N 
+4 
+Chlorine 
+7782505 
+Y 
+10 
+Chlorine dioxide 
+10049044 
+N 
+9 
+Chloroacetic acid 
+79118 
+Y 
+10 
+2-Chloroacetophenone 
+532274 
+Y 
+0.09 
+4-Chloroaniline 
+106478 
+N 
+30 
+Chlorobenzene 
+108907 
+Y 
+20,000 
+Chlorobenzilate 
+510156 
+Y 
+80 
+1-Chloro-1,1-difluoroethane (CFC 142B) 
+75683 
+N 
+36,500 
+Chlorodifluoromethane (HCFC-22) 
+75456 
+N 
+36,500 
+Chloroform 
+67663 
+Y 
+20 
+Chloromethyl methyl ether 
+107302 
+Y 
+0.1 
+2-Chlorophenol 
+95578 
+N 
+60 
+4-Chloro-o-phenylenediamine 
+95830 
+N 
+20 
+Chloropicrin 
+76062 
+N 
+10 
+Chloroprene 
+126998 
+Y 
+100 
+p-chloro-o-toluidine 
+95692 
+N 
+1 
+Chromium III & compounds a , insoluble salts 
+Y 
+20,000 
+Chromium VI & compounds a 
+Y 
+0.009 
+Cobalt & compounds a 
+Y 
+0.1 
+Coke oven emissions 
+8007452 
+Y 
+0.2 
+Copper & compounds a , except Copper cyanide 
+N 
+40 
+p-Cresidine 
+120718 
+N 
+2 
+Cresols/Cresylic acid isomers and mixtures (Methylphenols) 
+1319773 
+Y 
+20,000 
+Cumene 
+98828 
+Y 
+1,000 
+Cupferron 
+135206 
+N 
+2 
+Cyanide & compounds (inorganic) j m , except Hydrogen cyanide 
+Y 
+100 
+Cyclohexane 
+110827 
+N 
+20,000 
+2,4-Diaminoanisole 
+615054 
+N 
+20 
+2,4-Diaminotoluene 
+95807 
+N 
+0.1 
+Diazomethane 
+334883 
+Y 
+90 
+Dibromochloromethane 
+124481 
+N 
+100 
+1,2-Dibromo-3-chloropropane 
+96128 
+Y 
+0.05 
+Dibutylphthalate 
+84742 
+Y 
+700 
+1,2-Dichlorobenzene 
+95501 
+N 
+700 
+1,4-Dichlorobenzene (p-Dichlorobenzene) 
+106467 
+Y 
+10 
+3,3’-Dichlorobenzidene 
+91941 
+Y 
+0.3 
+Dichloro diphenyl dichloroethylene (DDE) 
+3547044 
+Y 
+1 
+cis- 1,2-Dichloroethene 
+156592 
+N 
+1,000 
+trans- 1,2-Dichloroethene 
+156605 
+N 
+300 
+Dichloroethyl ether (Bis (chloroethyl) ether) 
+111444 
+Y 
+0.3 
+2,4-Dichlorophenoxyacetic acid, salts & esters (2,4-D) 
+94757 
+Y 
+90 
+1,3-Dichloropropene 
+542756 
+Y 
+20 
+Dichlorvos 
+62737 
+Y 
+1 
+Dieldrin 
+60571 
+N 
+0.02 
+Diethanolamine 
+111422 
+Y 
+300 
+Diethyl sulfate 
+64675 
+Y 
+0.3 
+1,1-Difluoroethane (HCFC 152a) 
+75376 
+N 
+36,500 
+3,3’-Dimethoxybenzidine 
+119904 
+Y 
+0.09 
+p-Dimethyl aminoazobenzene 
+60177 
+Y 
+0.09 
+n,n-Dimethyl aniline 
+121697 
+Y 
+20 
+3,3’-Dimethyl benzidine 
+119937 
+Y 
+0.002 
+Dimethyl carbamoyl chloride 
+79447 
+Y 
+0.03 
+Dimethyl formamide 
+68122 
+Y 
+3,000 
+1,1-Dimethyl hydrazine 
+57147 
+Y 
+0.1 
+1,2-Dimethyl hydrazine 
+540738 
+N 
+0.0007 
+2,4-Dimethylphenol 
+105679 
+N 
+200 
+Dimethyl phthalate 
+131113 
+Y 
+1,000 
+Dimethyl sulfate 
+77781 
+Y 
+0.02 
+4,6-Dinitro-o-cresol 
+534521 
+Y 
+4 
+2,4-Dinitrophenol 
+51285 
+Y 
+10 
+2,4-Dinitrotoluene 
+121142 
+Y 
+1 
+1,4-Dioxane (1,4-Diethyleneoxide) 
+123911 
+Y 
+10 
+1,2-Diphenylhydrazine (Hydrazobenzene) 
+122667 
+Y 
+0.5 
+Epichlorohydrin 
+106898 
+Y 
+90 
+1,2-Epoxybutane 
+106887 
+Y 
+200 
+Ethyl acrylate 
+140885 
+Y 
+50 
+Ethyl benzene 
+100414 
+Y 
+9,000 
+Ethyl carbamate (Urethane) 
+51796 
+Y 
+0.3 
+Ethyl chloride (Chloroethane) 
+75003 
+Y 
+10,000 
+Ethylene dibromide (Dibromoethane) 
+106934 
+Y 
+0.2 
+Ethylene dichloride (1,2-Dichloroethane) 
+107062 
+Y 
+4 
+Ethylene glycol 
+107211 
+Y 
+700 
+Ethylene glycol monobutyl ether 
+111762 
+N 
+4,000 
+Ethylene glycol monoethyl ether 
+110805 
+Y 
+100 
+Ethylene glycol monoethyl ether acetate 
+111159 
+Y 
+40 
+Ethylene glycol monomethyl ether 
+109864 
+Y 
+30 
+Ethylene glycol monomethyl ether acetate 
+110496 
+Y 
+10,000 
+Ethylene imine (Aziridine) 
+151564 
+Y 
+0.005 
+Ethylene oxide 
+75218 
+Y 
+1 
+Ethylene thiourea 
+96457 
+Y 
+9 
+Ethylidene dichloride (1,1-Dichloroethane) 
+75343 
+Y 
+70 
+Fluorides & compounds m , including Hydrogen fluoride 
+Y 
+7 
+Formaldehyde 
+50000 
+Y 
+9 
+Glutaraldehyde 
+111308 
+N 
+9 
+Glycol ethers, total k (see also Minimum Quantities for individual glycol ethers) 
+Y 
+20,000 
+Heptachlor 
+76448 
+Y 
+0.009 
+Hexachlorobenzene 
+118741 
+Y 
+0.02 
+Hexachlorobutadiene 
+87683 
+Y 
+2 
+Hexachlorocyclohexanes, technical grade & mixed isomers 
+608731 
+Y 
+0.2 
+alpha-Hexachlorocyclohexane 
+319846 
+Y 
+0.07 
+beta-Hexachlorocyclohexane 
+319857 
+Y 
+0.2 
+gamma-Hexachlorocyclohexane (Lindane) 
+58899 
+Y 
+0.1 
+Hexachlorocyclopentadiene 
+77474 
+Y 
+20 
+Hexachloroethane 
+67721 
+Y 
+30 
+Hexamethylene-1,6-diisocyanate 
+822060 
+Y 
+0.6 
+Hexamethylphosphoramide 
+680319 
+Y 
+0.005 
+Hexane 
+110543 
+Y 
+20,000 
+Hydrazine 
+302012 
+Y 
+0.02 
+Hydrochloric acid (Hydrogen chloride) 
+7647010 
+Y 
+700 
+Hydrogen bromide 
+10035106 
+N 
+2,000 
+Hydrogen cyanide 
+74908 
+Y 
+100 
+Hydrogen sulfide 
+7783064 
+N 
+10 
+Hydroquinone 
+123319 
+Y 
+500 
+Isophorone 
+78591 
+Y 
+2,000 
+Isopropanol 
+67630 
+N 
+1,000 
+Lead & compounds a , inorganic 
+Y 
+0.9 
+Lead – tetraethyl lead 
+78002 
+Y 
+9.E- 04 
+Maleic anhydride 
+108316 
+Y 
+4 
+Manganese & compounds a 
+Y 
+0.2 
+Mercury & compounds a – elemental & inorganic 
+Y 
+0.7 
+Mercury – Methyl mercury 
+22967926 
+Y 
+0. 3 
+Methanol 
+67561 
+Y 
+10,000 
+Methoxychlor 
+72435 
+Y 
+60 
+Methyl bromide (Bromomethane) 
+74839 
+Y 
+70 
+Methyl chloride (Chloromethane) 
+74873 
+Y 
+400 
+Methyl chloroform (1,1,1-Trichloroethane) 
+71556 
+Y 
+3,000 
+4,4-Methylene bis (2-chloroaniline) 
+101144 
+Y 
+0.2 
+Methylene chloride (Dichloromethane) 
+75092 
+Y 
+200 
+4,4-Methylenedianiline 
+101779 
+Y 
+0.2 
+Methylene diphenyl diisocyanate 
+101688 
+Y 
+70 
+Methyl ethyl ketone (2-Butanone) 
+78933 
+N 
+4,000 
+Methyl hydrazine 
+60344 
+Y 
+0.04 
+Methyl iodide (Iodomethane) 
+74884 
+Y 
+3,000 
+Methyl isobutyl ketone (Hexanone) 
+108101 
+Y 
+9,000 
+Methyl isocyanate 
+624839 
+Y 
+100 
+Methyl methacrylate 
+80626 
+Y 
+2,000 
+Methyl tert butyl ether (MTBE) 
+1634044 
+Y 
+3,000 
+Michler’s ketone (4,4’-Bis (dimethylamino) benzophenone) 
+90948 
+N 
+0.4 
+Fine mineral fibers c 
+Y 
+2,000 
+Molybdenum and compounds a 
+N 
+60 
+Naphthalene 
+91203 
+Y 
+3 
+Nickel and compounds a , except Nickel subsulfide 
+Y 
+0.4 
+Nickel subsulfide 
+12035722 
+Y 
+0.2 
+Nitric acid 
+7697372 
+N 
+30 
+Nitrobenzene 
+98953 
+Y 
+200 
+4-Nitrobiphenyl 
+92933 
+Y 
+0.002 
+4-Nitrophenol 
+100027 
+Y 
+10 
+2-Nitropropane 
+79469 
+Y 
+10 
+N-Nitrosodi-n-butylamine 
+924163 
+N 
+0.07 
+N-Nitrosodiethylamine 
+55185 
+N 
+0.002 
+N-Nitrosodimethylamine 
+62759 
+Y 
+0.008 
+N-Nitrosodiphenylamine 
+86306 
+N 
+40 
+N-Nitrosdi-n-propylamine 
+621647 
+N 
+0.05 
+N-Nitroso-n-methylethylamine 
+10595956 
+N 
+0.02 
+N-Nitroso-n-methylurea 
+684935 
+Y 
+0.003 
+N-Nitrosomorpholine 
+59892 
+Y 
+0.05 
+N-Nitrosopiperidine 
+100754 
+N 
+0.04 
+N-Nitrosopyrrolidine 
+930552 
+N 
+0.2 
+Parathion 
+56382 
+Y 
+10 
+Pentachloronitrobenzene (Quintozene) 
+82688 
+Y 
+30 
+Pentachlorophenol 
+87865 
+Y 
+7 
+Phenol 
+108952 
+Y 
+30 
+p-Phenylenediamine 
+106503 
+Y 
+20 
+Phosgene 
+75445 
+Y 
+0.9 
+Phosphine 
+7803512 
+Y 
+30 
+Phosphoric acid 
+7664382 
+N 
+800 
+Phosphorus, white 
+7723140 
+Y 
+0.2 
+Phthalic anhydride 
+85449 
+Y 
+2,000 
+Polychlorinated biphenyls (PCBs), except Aroclor 1254 
+1336363 
+Y 
+0.1 
+PCBs- Aroclor 1254 
+11097691 
+Y 
+0. 2 
+Polychlorinated dibenzo dioxins (PCDDs), polychlorinated dibenzo furans (PCDFs) and dioxin-like polychlorinated biphenyls (PCBs) 
+Y 
+3 X 10 -7d 
+Polycyclic Organic Matter 
+Y 
+0.01 e 
+1,3-Propane sultone 
+1120714 
+Y 
+0.1 
+beta-Propiolactone 
+57578 
+Y 
+0.02 
+Propionaldehyde 
+123386 
+Y 
+20 
+Propoxur (Baygon) 
+114261 
+Y 
+10 
+n-Propyl bromide (1-Bromopropane) 
+106945 
+N 
+10,000 
+Propylene 
+115071 
+N 
+36,500 
+Propylene dichloride (1,2-Dichloropropane) 
+78875 
+Y 
+10 
+Propylene glycol monomethyl ether (PGME) 
+107982 
+N 
+36,500 
+Propylene oxide 
+75569 
+Y 
+30 
+1,2-Propylenimine (2-Methyl aziridine) 
+75558 
+Y 
+0.01 
+Quinoline 
+91225 
+Y 
+0.1 
+Quinone 
+106514 
+Y 
+100 
+Radionuclides l 
+Y 
+20,000 
+Selenium & compounds a except Hydrogen selenide and Selenium sulfide 
+Y 
+2,000 
+Selenium – Hydrogen selenide 
+7783075 
+Y 
+2 
+Selenium sulfide 
+7446346 
+Y 
+20 
+Sodium hydroxide 
+1310732 
+N 
+3 
+Styrene 
+100425 
+Y 
+3,000 
+Styrene oxide 
+96093 
+Y 
+2 
+Sulfates f 
+N 
+40 
+Sulfuric acid and Oleum g 
+N 
+40 
+1,1,1,2-Tetrachloroethane 
+630206 
+N 
+300 
+1,1,2,2-Tetrachloroethane 
+79345 
+Y 
+6,000 
+Tetrachloroethylene (Perchloroethylene) 
+127184 
+Y 
+20 
+Tetrachlorophenols 
+25167833 
+N 
+10,000 
+1,1,1,2-Tetrafluoroethane 
+811972 
+N 
+36,500 
+Thioacetamide 
+62555 
+N 
+0.07 
+Titanium tetrachloride 
+7550450 
+Y 
+10 
+Toluene 
+108883 
+Y 
+1,000 
+2,4-Toluene diamine (2,4-Diaminotoluene) 
+95807 
+Y 
+0.1 
+2,4-and 2,6-Toluene diisocyanate h 
+26471625 
+Y 
+8 
+o-Toluidine 
+95534 
+Y 
+2 
+Toxaphene (Chlorinated camphene) 
+8001352 
+Y 
+0.03 
+1,2,4-Trichlorobenzene 
+120821 
+Y 
+90 
+1,1,2-Trichloroethane 
+79005 
+Y 
+30 
+Trichloroethylene 
+79016 
+Y 
+50 
+Trichlorofluoromethane 
+75694 
+N 
+3,000 
+2,4,5-Trichlorophenol 
+95954 
+Y 
+900 
+2,4,6-Trichlorophenol 
+88062 
+Y 
+30 
+Triethylamine 
+121448 
+Y 
+800 
+Trifluralin 
+1582098 
+Y 
+90 
+2,2,4-Trimethylpentane 
+540841 
+Y 
+20,000 
+Vanadium and compounds a 
+N 
+0.07 
+Vinyl acetate 
+108054 
+Y 
+600 
+Vinyl bromide 
+593602 
+Y 
+0.5 
+Vinyl chloride 
+75014 
+Y 
+20 
+Vinylidene chloride (1,1-Dichloroethylene) 
+75354 
+Y 
+600 
+Xylenes, isomers and mixtures 
+1330207 
+Y 
+3,000 
+Zinc and compounds a 
+N 
+3,000 
+a For metal compounds, Minimum Quantities apply to the metal portion of the compound. 
+b Asbestos units are fibers/year. 
+c Fine mineral fibers are mineral fiber emissions from facilities manufacturing or processing glass, rock, or slag fibers or other mineral derived fibers of average diameter 1 micrometer (µm) or less. 
+d PCDD Minimum Quantity is in terms of 2,3,7,8-tetrachlorodibenzodioxin equivalents, calculated as specified in the Rhode Island Air Toxics Guideline. 
+e Polycyclic Organic Matter Minimum Quantity is in terms of benzo(a)pyrene equivalents, calculated as specified in the Rhode Island Air Toxics Guideline. 
+f Sulfates MQ applies to ammonium bisulfate [(NH 4 )HSO 4 , CAS 7803-63-6], ammonium sulfate [(NH 4 ) 2 SO 4 , CAS 7783-20-2], ferric sulfate [Fe(SO 4 ) 3 , CAS 10028-22-5] and sodium sulfate [Na 2 SO 4 , CAS 7757-82-6] 
+g Sulfuric acid and oleum MQ applies to sulfuric acid (H 2 SO 4 , CAS 7664-03-9), sulfur trioxide (SO 3 , CAS 7446-71-9) and oleum (H 2 SO 4 + SO 3 , CAS 8014-95-7) 
+h Includes 2,4-TDI (CAS 584849), 2,6-TDI (CAS 91087) and 2,4/2,6 mixtures (CAS 26471625) 
+i A “Y” in this column indicates that the substance is a Federal Hazardous Air Pollutant (HAP). Substances marked “N” are not Federal HAPs. 
+j XCN where X equals any group other than H where a formal dissociation may occur, such as KCN or Ca(Cn) 2 . 
+k Includes mono - and di - ethers of ethylene glycol, diethylene glycol, and triethylene glycol R-(OCH2CH2)n-OR' where 
+n = 1, 2, or 3 
+R = alkyl or aryl groups 
+R' = R, H, or groups which, when removed, yield glycol ethers with the structure: R-(OCH2CH)n-OH. Polymers are excluded from the glycol category. 
+l A type of atom which spontaneously undergoes radioactive decay. 
+m For bromine, cyanide and fluoride compounds, MQs apply to the bromine, cyanide or fluoride portion of the compound 
+Note: For all listings in the above table which contain the word "compounds" and for glycol ethers, the following applies: Unless otherwise specified, these listings are defined as including any unique chemical substance that contains the named chemical (i.e., antimony, arsenic, etc.) as part of that chemical's infrastructure. 
+Title 
+250
+Department of Environmental Management
+Chapter 
+120
+Air Resources
+Subchapter 
+05
+Air Pollution Control
+Part 
+9
+Air Pollution Control Permits (250-RICR-120-05-9)
+Type of Filing 
+Periodic Refile 
+Regulation Status 
+Active 
+Effective 
+01/04/2022
+Additional Information 
+https://www.dem.ri.gov/ 
+Regulation Authority: 
+R.I. Gen. Laws § 42-17.1-2(19) and R.I. Gen. Laws Chapter 23-23
+Purpose and Reason: 
+This rule is being refiled by the agency pursuant to R.I. Gen. Laws § 42-35-4.1. No changes were made to the text of this rule. 
+To view the official Final Regulation for accessibility and readability, click Download Regulation: 
+Download Regulation 
+ACTIVE RULE 
+Periodic Refile 
+- effective from 01/04/2022 
+to Current 
+INACTIVE RULE 
+Technical Revision 
+- effective from 04/05/2018 
+to 01/04/2022 
+Click 
+here 
+to view previous versions of this Part. 
+Rulemaking Documents are organized by document type and are part of this rule’s rulemaking record (R.I. Gen. Laws § 42-35-2.3). If multiple documents of the same type are listed below, each is a unique document. 
+If there are multiple Public Notice of Proposed Rulemaking documents, view each document to identify the most recently amended version, as it may be amended at any point during the Public Comment Period. 
+There are no rulemaking documents associated with this filing. 
+2002-Current Regulations 
+1950-2001 Regulations 
+FAQs 
+Subscribe to Notifications 
+Return to top 
+About 
+Contact 
+News 
+Notary Public 
+Rhode Island Department of State 
+Facebook 
+LinkedIn 
+Twitter

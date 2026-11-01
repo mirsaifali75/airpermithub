@@ -1,0 +1,2375 @@
+TCEQ REGULATORY GUIDANCE
+Small Business and Environmental Assistance Division
+RG-404 ● February 2011
+
+Surface Coating Facilities
+A Guide for Obtaining Air Authorization in Texas
+
+Contents
+Introduction ...................................................................................................................................................... 2
+
+Which Air Authorization Applies to You? ............................................................................................... 2
+De Minimis ......................................................................................................................................................... 2
+Permit by Rule .................................................................................................................................................... 3
+New Source Review Permit................................................................................................................................. 7
+Title V Federal Operating Permit....................................................................................................................... 7
+
+Other Requirements ....................................................................................................................................... 8
+General Air Quality Rules (30 TAC 101) ........................................................................................................... 8
+Nonattainment and Near-Nonattainment Areas (30 TAC 115) .......................................................................... 9
+New Source Performance Standards (40 CFR, Part 60) .................................................................................. 10
+National Emission Standards for Hazardous Air Pollutants (40 CFR, Part 63) .............................................. 10
+
+Common Air Violations for Surface Coaters ........................................................................................11
+For More Information ..................................................................................................................................11
+Appendix A: Common Permits by Rule for Surface Coating Facilities........................................12
+Appendix B: Surface Coating Permit by Rule (30 TAC 106.433)..................................................13
+
+Appendix C: Volatile Organic Compound (VOC) and Exempt Solvent Content per Gallon of
+Coating ..............................................................................................................................................................16
+Appendix D: Calculating Maximum Hourly and Annual Emission Rates ...................................20
+Appendix E: Emission Rate Averaged Over a Five-Hour Period...................................................24
+
+Appendix F: Potential to Emit ...................................................................................................................25
+Appendix G: Calculation of Booth or Work-Area and Filter and Face Velocities ....................26
+
+Appendix H: VOC Content Minus Water and Exempt Solvents .....................................................30
+
+Appendix I: Calculations for Emissions of Products of Combustion from Heaters and Ovens
+..............................................................................................................................................................................33
+Appendix J: Examples of Acceptable Stack Designs ..........................................................................35
+Appendix K: Compliance Worksheet ......................................................................................................36
+
+TEXAS COMMISSION ON ENVIRONMENTAL QUALITY • PO BOX 13087 • AUSTIN, TX 78711-3087
+T he T CEQ i s an equal opport unit y em pl oyer. T he agency does not all ow di scriminat i on on t he basi s of race, col or, reli gi on, nat i onal ori gi n, sex, di sabi lit y, age,
+s e x u a l o r i e n t a t i o n , o r v e t e r a n s t a t u s . I n c o m p l i a n c e w i t h t h e A m e r i c a n s w i t h D i s a b i l i t i e s A c t , t h i s d o c u m e n t m a y b e r e q u e st e d i n a l t e r n a t e f o r m a t s b y c o n t a c t i n g
+t he T CEQ at 512- 239- 0028, f ax 512- 239-4488, or 1- 800-RELAY-T X (T DD), or by wr i ti ng PO Box 13087, Aust i n T X 78711- 3087. W e aut horiz e y ou t o use or
+reproduce any ori gi nal mat eri al cont ai ned i n t hi s publ icati on — t hat i s, any m at eri al we di d not obt ai n f rom ot her sources. Please acknowl edge t he T CEQ as your
+source. Pri nted on recycl ed paper.
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Introduction
+This document is tailored to the surface coating industry, excluding auto body shops,
+and contains general information about air regulations. Surface coaters prepare and
+coat (paint) items that may be made out of metal, wood, plastic, porcelain, or any of
+several other materials. Processes associated with cleaning and coating emit air
+contaminants. As part of its role in protecting public health and the environment, the
+Texas Commission on Environmental Quality (TCEQ) requires you to get proper air
+authorization for these emissions. Under the law, you are required to obtain
+authorization before you build, modify, or begin operations at your facility.
+
+Even if your site is already in operation, you still need an air authorization. You should
+begin steps to obtain authorization as soon as you become aware that this regulation
+applies to you. For more information on how to proceed if you find yourself in this
+situation, call the Small Business and Local Government Assistance (SBLGA) program
+at 800-447-2827 for confidential assistance. You can also contact the Air Permits
+Division at 512-239-1250 for technical assistance.
+
+Which Air Authorization Applies to You?
+
+The type of authorization you qualify for will depend on the materials and chemicals
+you use, the processes that you conduct, and the amount of air contaminants your
+facility creates. In Texas, you have three options for obtaining authorization to emit air
+contaminants from your surface coating facility. You must either
+qualify for de minimis status, or
+• obtain authorization through a
+
+
+
+
+
+permit by rule (PBR), or
+New Source Review (NSR) permit.
+
+In addition, you may be required to obtain coverage under a Title V Federal Operating
+Permit if your emissions exceed certain levels. Ultimately, you must decide which type
+of authorization applies to your business and if it needs to meet any other
+requirements to comply with state and federal laws.
+
+De Minimis
+
+De minimis sites emit very small amounts of air contaminants. If your site qualifies as
+de minimis, you do not need to register with the TCEQ. However, you do need to keep
+records to prove that you meet the de minimis requirements. Even if your site is de
+minimis, you may have to comply with other state and federal regulations—see “Other
+Requirements,” on page 8. The rules that explain the de minimis criteria appear at 30
+Texas Administrative Code (TAC) Chapter 116, Subchapter B, Division 1, Section
+116.119.
+
+There are several ways that you can meet the de minimis criteria. To find out whether
+you can claim de minimis status:
+
+
+2
+
+Check the De Minimis Facilities or Sources List [30 TAC 116.119(a)(1)].
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Any facility on the De Minimis Facilities or Sources List is considered de minimis by
+the TCEQ. This list is available online at <www.tceq.texas.gov/goto/de_minimis>.
+
+Check the Materials and Usage List [30 TAC 116.119(a)(2)(A–F)].
+If the total, site-wide use per year of the following materials is below the thresholds
+listed, the site is considered de minimis:
+• cleaning and stripping solvents, 50 gallons per year
+coatings (excluding plating materials), 100 gallons per year
+• dyes, 1,000 pounds per year
+
+
+bleaches, 1,000 gallons per year
+• fragrances (excluding odorants), 250 gallons per year
+
+
+
+
+
+water-based surfactants and detergents, 2,500 gallons per year.
+
+Review Your Emission Rates and Check the Effects Screening level (ESL) List or Ask
+for a Case-by-Case Review.
+There are two additional ways that you can claim de minimis status. You can
+review the ESL list and emission rate caps [30 TAC 116.119(a)(3)] or ask for a
+case-by-case review [30 TAC 116.119(a)(4)]. For more information on these
+options, contact the Air Permits Division at 512-239-1250.
+
+De minimis sites cannot be in violation of any TCEQ rule, permit, order, or statute. If a
+business is found to be in violation, it will no longer be considered de minimis and
+must obtain authorization through a PBR or an NSR permit.
+
+Permit by Rule
+
+Many surface coaters obtain authorization by qualifying for a PBR. PBRs have specific,
+non-negotiable conditions that your business must meet. PBRs are approved more
+quickly than NSR permits and less documentation is required for approval. It is
+important that you keep accurate records and documents to verify that you continually
+meet the conditions of your PBR.
+In addition, more than one PBR may apply to your site. For example, you
+might sandblast an object and then paint it. You would need to obtain authorization
+under the PBRs both for dry abrasive cleaning and for surface coating. You can find
+more on surface preparation at the SBLGA’s website, <www.TexasEnviroHelp.org>.
+Review 30 TAC Chapter 106 to find all appropriate PBRs that may be applicable to
+your site. The most common PBRs for surface coating facilities are listed in
+Appendix A.
+Who Can Register Under a PBR?
+
+General Requirements (30 TAC 106.4)
+Facilities that are sources of air contaminants may claim a PBR as long as they can
+meet the general requirements and emission limits in 30 TAC Chapter 106, Subchapter
+A, Section 106.4 and meet the specific requirements for the PBR that they are claiming.
+You will need to calculate your air emissions to determine if you meet the conditions
+
+Revised March 2011
+
+3
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+of a PBR. If you need help with these calculations, review Appendixes C through E. If
+you use heaters or ovens at your facility, you can reference Appendix I for help
+determining the emissions from those activities. You can also use the compliance
+worksheet in Appendix K to help you gather all of the information you will need to get
+started.
+The general air emission limits, explained in 30 TAC Chapter 106, Subchapter A,
+Section 106.4, are:
+
+
+No more than 25 tons per year (sitewide) of:
+volatile organic compounds (VOCs),
+• sulfur dioxide (SO2),
+
+
+
+particulate matter (PM10) that is small enough to be inhaled, or
+
+any other air contaminant (including exempt solvents)—except carbon
+dioxide, water, nitrogen, methane, ethane, hydrogen, and oxygen.
+• No more than 250 tons per year (sitewide) of:
+
+
+
+
+
+carbon monoxide (CO), or
+nitrogen oxides (NOx).
+
+Overview of Requirements for Surface Coating Facilities (30 TAC 106.433)
+The PBR for surface coating facilities, found in 30 TAC Chapter 106, Subchapter S,
+Section 106.433, has more stringent emission limits and requirements than the
+general requirements in 30 TAC Chapter 106, Subchapter A, Section 106.4. It is
+important to note that this PBR covers the use of coatings that contain metal pigments,
+but does not cover the application of molten metals.
+The facility must maintain good housekeeping practices, clean up spills promptly, use
+exhaust fans when in operation, and properly store and dispose of new and used
+coatings and solvents. If you use ovens to dry or cure paint at your facility, you must
+either use an electric oven or ensure that the maximum heat input does not exceed 40
+million British thermal units per hour. The rule also specifies the appropriate type of
+fuel that may be used for these ovens.
+
+The specific air emission limits for surface coating operations performed indoors, in a
+booth, or in an enclosed work area, as explained in 30 TAC 106.433(6), are no more
+than:
+• 6 pounds of VOCs per hour, averaged over a five-hour period (see Appendix E for
+help with this calculation), and
+• 500 pounds of VOCs per week per booth or enclosed work area.
+
+• You must ensure that your VOC emissions do not exceed 13 tons of VOCs per
+year per booth or enclosed work area. This value comes from the following
+equation:
+500 𝑙𝑏 𝑉𝑂𝐶 52 𝑤𝑒𝑒𝑘𝑠
+1 𝑡𝑜𝑛
+13 𝑡𝑜𝑛𝑠 𝑉𝑂𝐶
+×
+×
+=
+𝑤𝑒𝑒𝑘
+2,000 𝑙𝑏
+𝑦𝑒𝑎𝑟
+𝑦𝑒𝑎𝑟
+
+4
+
+In addition to the emission limits, enclosed operations must ensure that:
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+
+
+
+
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+all exhaust stacks extend at least 1.5 times the building height above the ground.
+(See Appendix J for more on stack design.)
+there is a minimum face velocity of 100 feet per minute (ft/min) at the intake
+opening of each booth or work area,
+
+the filter velocity does not exceed 250 ft/min. (See Appendix G for face velocity
+and filter velocity calculation.)
+the emissions of particulate matter from spraying operations are controlled by
+either a wash-water system or a dry filter system with a 95 percent removal
+efficiency.
+
+Surface coating operations performed outdoors or in a non-enclosed work area must
+comply with the same VOC emission limits as enclosed operations (6 lb/hr and 500
+lb/week). The VOC limits may be more stringent if the operation sprays coatings with
+metallic pigments containing chromates, lead, cadmium, selenium, strontium, or
+cobalt. Review 30 TAC 106.433(7)(B) if this applies to your business. Outdoor spray
+operations must also ensure that:
+
+
+
+
+all coating operations are conducted at least 50 feet from the property line and
+250 feet from the nearest off-property structure, and that
+the TCEQ has given written site approval before construction.
+
+The site-wide limits from coating and cleanup solvents, explained in 30 TAC
+106.433(4), apply to both indoor and outdoor operations. All facilities must ensure
+that their site-wide emissions are no more than:
+
+
+
+
+25 tons per year of VOC and 10 tons per year of exempt solvents, and
+
+30 pounds per hour of VOC and 5.0 pounds per hour of exempt solvents.
+
+Exempt solvents, such as acetone and methylene chloride, are defined as those carbon
+compounds or mixtures of carbon compounds used as solvents that have been
+excluded from the definition of VOC. The definition of VOC can be found in 40 CFR, Part
+51.100.
+
+This is an overview of the rule requirements. You must thoroughly review the PBR, 30
+TAC 106.433, to make certain that you understand and comply with all of the emission
+limits, record-keeping responsibilities, and notification requirements. We have included
+a copy of the rule in Appendix B for your convenience. If you begin approaching the
+limits in the PBR, contact the Air Permits Division at 512-239-1250 to discuss your
+permitting options.
+How Do I Obtain Coverage Under a PBR?
+
+Some of the PBRs, including 30 TAC 106.433, require you to register with the TCEQ,
+while others require no registration. Registration requirements are specified in the
+rule. If any PBR requires registration, follow these general procedures:
+
+1. Make sure your facility meets the general requirements for claiming the PBRs
+found in 30 TAC Chapter 106, Subchapter A, Section 106.4. You can complete the
+PBR Applicability Quick Checklist, Form TCEQ-10150 to help you determine if you
+
+Revised March 2011
+
+5
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+meet the requirements. The appendixes to this publication will help you with the
+calculations you will need to complete in order to determine compliance.
+
+2. Make sure your facility meets the conditions of any PBR you intend to claim. Be
+sure to read the PBR(s) in 30 TAC Chapter 106 before you make this
+determination. If registration checklists are available for the PBRs you are
+claiming, it is recommended that you use the checklists to demonstrate compliance
+with the rule. See Appendix A for registration checklist form numbers.
+3. Complete Form TCEQ-10228, “Registration for Permits by Rule (PI-7),” or Form
+TCEQ-20182, “Certification and Registration for Permits by Rule (PI-7-CERT).”
+Should I use a PI-7 or a PI-7-CERT?
+
+The PI-7 and PI-7-CERT forms request administrative and technical information
+needed by the Air Permits Division to evaluate PBR claims. The PI-7-CERT form
+also establishes federally enforceable emission limits for individual pollutants. Use
+caution when setting the emission limit, as the facility may not exceed that limit. If
+changes occur at a site and the emission limit needs to be updated, you must
+submit Form TCEQ-10489 (APD-CERT).
+An example of a beneficial use of the PI-7-CERT form would be when the potential
+to emit (PTE) at a facility exceeds major-source thresholds, but the actual
+emissions from the facility are below the major-source thresholds. The emission
+limit established under a PI-7-CERT form would allow the site to be considered a
+“synthetic minor” and would not require a Title V federal operating permit. You
+can find additional information regarding PTE in Appendix F.
+
+4. Submit the following items for review with your registration form:
+
+
+
+
+
+
+
+
+
+Distance information. Include the distance from the facility’s emission release
+point to the nearest property line and off-property structure.
+
+A process flow diagram or process description. Include a step-by-step description
+of what you do with each material that comes into your business and how the final
+product moves out the door.
+Emissions data and calculations. Include emission rates for each air contaminant
+and supporting calculations.
+Equipment specifications. Filter efficiencies, spray-gun specifications and
+literature, and gun-washer and booth specifications.
+
+Usage rates of coatings and solvents in gallons per hour and gallons per year.
+Operation schedules. Hours of operation.
+
+Material Safety Data Sheets. Identify the chemicals used specifically at your site and
+supply MSDS, technical data sheets, environmental sheets, air quality data sheets,
+or equivalent supporting documents for all mixtures that contain potential air
+contaminants.
+
+This information will help permit reviewers understand how your business operates
+and will help them verify that the emission calculations are correct and that the
+applicable rules are met.
+6
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+5. Pay a registration fee and submit your proof of payment with your registration form.
+See Form TCEQ-10228 (PI-7) or TCEQ-20182 (PI-7-CERT) to determine the specific
+fee amount.
+
+Note: You do not need to submit a separate form or pay a separate fee for each PBR.
+You can apply for multiple PBRs using only one form and paying one fee.
+
+6. Complete Form TCEQ-10400, the TCEQ Core Data Form. If you are a new customer of
+the TCEQ and have not been issued a regulated-entity number (RN) and customer
+reference number (CN), you will need to complete this form. If you are an existing
+customer and have made changes to your customer or site information, you will
+need to submit an updated form.
+Check all applicable PBRs to determine if site approval is required before you begin
+construction. If no PBR requires site approval from the TCEQ, you may begin
+construction (or the activity) once the TCEQ has received your application and
+supporting documentation. However, if any PBR requires written site approval from
+the TCEQ, do not begin construction until you receive approval in writing. The PBR
+specific to surface coating, 30 TAC 106.433, requires written site approval from the
+TCEQ.
+
+New Source Review Permit
+
+If your business cannot qualify for de minimis or a PBR you must obtain an NSR
+permit. An NSR permit has a more complex application process that is beyond the
+scope of this document. It is best to contact the Air Permits Division at 512-239-1250
+and ask to speak to a coating-permit engineer who can help you determine how to
+proceed with obtaining proper authorization. Generally, in order to obtain an NSR
+permit, you will be required to:
+submit the most current version of Form TCEQ-10252 (PI-1),
+• pay a fee of at least $900 fee, and
+
+
+submit additional information about your specific facility.
+You will also have to publish two public notices in a prominent newspaper and post
+signs (often in more than one language). A public hearing may also be required in
+order to determine whether you should receive a permit.
+
+
+Once your application is approved and you have received your permit, you may begin
+to modify or construct your facility. If you have questions about permitting, or have
+already started construction without authorization, please call SBLGA at 800-4472827.
+
+Title V Federal Operating Permit
+
+Any business classified as a “major source” of air contaminants must obtain a Title V
+federal operating permit, in addition to a PBR or NSR permit, and comply with
+additional regulations. A site can be considered major because of the amount of
+different types of emissions, such as VOCs, NOx, or hazardous air pollutants (HAPs).
+In general, sites are considered to be major sources of air contaminants if they have
+the potential to emit 10 tons per year of a single HAP or 25 tons per year of any
+
+Revised March 2011
+
+7
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+combination of HAPs. EPA maintains an up-to-date list of HAPs at
+<www.epa.gov/ttn/atw/orig189.html>.
+
+Additionally, facilities that are located in attainment counties and have the potential to
+emit 100 tons per year or more of any other contaminant (including VOCs) are
+considered “major sources.”
+Facilities that are located in near-nonattainment and nonattainment counties have
+lower thresholds for certain air contaminants. This information can be found in 30
+TAC Chapter 122, Subchapter A, Section 122.10. To determine the attainment status
+for the county in which you operate, visit <www.tceq.texas.gov/goto/attainment>.
+
+You can find additional information on potential to emit in Appendix F. If you believe
+that your facility is a major source of air contaminants, you should contact the Air
+Permits Division at 512-239-1250 to set up a meeting to discuss your permitting
+options.
+
+Other Requirements
+
+General Air Quality Rules (30 TAC 101)
+Nuisance Emissions
+No facility in Texas may create “nuisance” emissions “that adversely affect human
+health or welfare, animal life, vegetation, or the normal use and enjoyment of
+property” (30 TAC Chapter 101, Subchapter A, Section 101.4). Nuisance conditions
+often associated with surface coating include odor and paint overspray.
+Emissions Inventory
+
+You may have to send the TCEQ an annual air emissions report, called an “emissions
+inventory,” detailing the actual annual emissions of air pollutants released at your site
+if:
+your business is a “major source” of air emissions or
+• it is located in a nonattainment area and emits 10 tons per year or more of VOCs.
+
+
+These reports help track and plan the state’s progress in reducing air pollution.
+Emissions Inventory reporting requirements appear in 30 TAC Chapter 101,
+Subchapter A, Section 101.10. For more information, visit
+<www.tceq.texas.gov/goto/air_pollution_sources>.
+
+Fees
+
+Certain facilities in Texas will be required to pay an inspection fee or an emissions fee
+each year—see 30 TAC Chapter 101, Subchapter A, Sections 101.24 (Inspection Fees)
+and 101.27 (Emission Fees).
+8
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Emissions Banking and Trading Program
+The Emissions Banking and Trading Team administers several programs, including the
+Mass Emissions Cap and Trade (MECT) program. If your facility is located in the
+Houston-Galveston-Brazoria eight-hour ozone nonattainment area, you will need to
+evaluate whether the facility is subject to MECT. For additional information regarding
+MECT, see 30 TAC Chapter 101, Subchapter H, Division 3 or visit
+<www.tceq.texas.gov/goto/ebt>.
+
+Nonattainment and Near-Nonattainment Areas (30 TAC 115)
+
+If your coating operation is located in a nonattainment or near-nonattainment county,
+as defined at 30 TAC 115.10, there are limits on the VOC content of the paints and
+coatings you may use. These requirements appear in 30 TAC Chapter 115, Subchapter
+E, Division 2, Sections 115.420–29.
+
+You have several options for complying with the special requirements for
+nonattainment and near-nonattainment areas. You can use compliant coatings that are
+below the required VOC content limits, use coatings that are compliant under a daily
+weighted average, or qualify for an exemption.
+
+VOC Content Limits (30 TAC 115.421)
+
+The following limits are given in pounds of VOC per gallon of coating, minus water and
+exempt solvent. See Appendix H for help with these calculations. These VOC limits
+must be followed by all sources in nonattainment or near-nonattainment areas that do
+not meet one of the exemptions listed in the rule (30 TAC 115.427).
+There are specific VOC-content limits for coating various materials including large
+appliances, metal furniture, coils, paper, fabric, vinyl, cans, vehicles, aerospace
+coatings, mirror backing, wood parts and products, wood furniture, and marine
+coatings. For more information on VOC-content limits for surface coating these
+materials, see 30 TAC 115.421.
+
+Surface coaters often apply coatings to metal. Therefore, we have outlined the VOC
+content limits for miscellaneous metal parts and products below.
+Coating limits for miscellaneous metal parts and products [30 TAC
+115.421(a)(9)]:
+
+4.3 pounds per gallon for clear coats and interior protective coating for
+pails and drums,
+• 3.5 pounds per gallon for low-bake coatings that utilize air or forced air
+driers,
+• 3.5 pounds per gallon for extreme performance coating, including
+chemical milling maskants,
+• 3.0 pounds per gallon for all other coating applications that pertain to
+miscellaneous metal parts and products, including high-bake coatings.
+Refer to 30 TAC 115.420 for the definition of each coating type.
+
+
+Revised March 2011
+
+9
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Can I Use a Coating Above the VOC Content Limits?
+Yes; instead of providing the VOC content of each of your coatings, you may
+demonstrate that the daily weighted average of the content for each coating type, line,
+or operation does not exceed the VOC content limit indicated in 30 TAC Chapter 115,
+Subchapter E, Division 2, Section 115.421. In addition, your coating operation could
+meet one of the exemptions at 30 TAC Chapter 115, Subchapter E, Division 2, Section
+115.427. If you need help in calculating the daily weighted average, review Appendix
+H.
+
+In order to demonstrate compliance with emission limits in the rule, maintain records
+such as MSDS. The MSDS or product label for each coating should indicate the VOC
+content expressed in units of mass/volume, normally pounds per gallon (lb/gal) or
+grams per liter (g/liter).
+Exemptions (30 TAC 115.427)
+
+Exemptions depend on where your facility is located and the type of facility you
+operate.
+
+
+
+For the Beaumont–Port Arthur, Dallas–Fort Worth, El Paso, and HoustonGalveston-Brazoria areas, a facility can be exempt because:
+
+
+its VOC emissions are less than 3 pounds per hour and 15 pounds in any
+consecutive 24-hour period or
+
+its total coating and solvent usage is less than 150 gallons per year.
+• For Gregg, Nueces, and Victoria counties, a facility can be exempt because:
+
+
+
+its VOC emissions are less than 550 pounds in any continuous 24-hour
+period.
+
+Additional exemptions exist for various business types. For example, aerosol coatings
+(spray paint) are exempt from this requirement. Please review 30 TAC 115.427 for a
+complete list of exemptions in your area.
+
+New Source Performance Standards (40 CFR, Part 60)
+
+New Source Performance Standards (NSPS) dictate the amount of air contaminants
+that a new stationary source may produce. Several NSPS regulations apply to specific
+surface coating facilities. For a link to these rules, visit the TCEQ's Web page at
+<www.tceq.texas.gov/goto/40_cfr_60>.
+
+National Emission Standards for Hazardous Air Pollutants (40 CFR,
+Part 63)
+
+10
+
+National Emission Standards for Hazardous Air Pollutants (NESHAPs), also known as
+Maximum Achievable Control Technology (MACT) standards, set limits on emissions
+of hazardous air pollutants. There are NESHAPs for both major sources and area (or
+minor) sources. The rules for NESHAPs that affect surface coaters can be found in 40
+CFR, Part 63 and include specific requirements that surface coating industries must
+follow to reduce emissions of these pollutants.
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Common NESHAPs for surface coating operations include:
+
+
+
+Surface Coating of Miscellaneous Metal Parts and Products, 40 CFR, Part 63, Subpart
+MMMM
+Paint Stripping and Miscellaneous Surface Coating Operations at Area Sources, 40
+CFR, Part 63, Subpart HHHHHH
+
+To locate additional information on NESHAPs that affect surface coaters, and to review
+other subparts that may apply to your facility, visit the EPA’s Web page
+<www.epa.gov/ttn/atw/mactfnlalph.html>, visit the SBLGA’s website at
+<www.TexasEnviroHelp.org> and click “NESHAP Assistance Tools,” or call 800-4472827.
+
+Common Air Violations for Surface Coaters
+
+Investigations by the TCEQ find that the most common air violations include the
+following:
+
+The business is creating a nuisance condition.
+• The business has no air authorization but should have a PBR or an NSR permit.
+
+
+
+The business is using coatings that exceed VOC-content limits for nonattainment or
+near-nonattainment areas.
+
+The business is not following the conditions of its permit or PBR.
+• The facility has not been constructed to comply with the PBR as required.
+
+
+The business has failed to maintain paint-booth filters.
+• The business has inadequate records and therefore cannot prove that the site meets
+the conditions of its air authorization.
+
+
+For More Information
+
+This guide discusses air regulations. There are water and waste regulations that may
+also apply to your facility. Visit <www.TexasEnviroHelp.org> and click on “Surface
+Coating” for additional tools and information to assist you.
+
+To download forms from the TCEQ website <www.tceq.texas.gov>, click on “Forms,”
+and search by keyword or by the form number.
+
+To get a copy of a TCEQ publication: go to the TCEQ’s website, at
+<www.tceq.texas.gov/goto/publications>; fax orders to the TCEQ’s Publications Unit
+at 512-239-4488, or order by telephone at 512-239-0028; or write to TCEQ
+Publications, MC 195, PO Box 13087, Austin, TX 78711-3087.
+
+This document does not take the place of the full, official TCEQ rules. It is intended
+only as a general explanation about selected parts of the rules. You can find TCEQ rules
+in the Texas Administrative Code at the Secretary of State’s website,
+<http://www.sos.state.tx.us/tac/index.shtml>. To access the Code of Federal
+Regulations, visit <www.gpoaccess.gov/cfr/>. For additional assistance, contact the
+Small Business and Local Government Assistance section of the TCEQ at 800447-2827.
+
+Revised March 2011
+
+11
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix A: Common Permits by Rule for Surface
+Coating Facilities
+General Topic
+
+Number
+
+Relevant Equipment and Processes
+
+Paperwork Required
+
+Soldering, Brazing, Welding
+
+106.227
+
+“Brazing, soldering, or welding equipment, except those
+which emit 0.6 ton per year or more of lead, are permitted by
+rule.”
+
+No registration
+required
+
+Manufacturing, Refinishing,
+and Restoring Wood
+Products
+
+106.231
+
+“Facilities, including drying or curing ovens, and hand-held or
+manually operated equipment, used for manufacturing,
+refinishing, and/or restoring wood products” must meet
+certain control and material usage limits.
+
+Purchase receipts for
+coatings, solvents,
+and stripping agents
+must be available
+
+Hand-held and Manually
+Operated Machines
+
+106.265
+
+“Hand-held or manually operated equipment used for buffing,
+polishing, carving, cutting, drilling, machining, routing,
+sanding, sawing, surface grinding, or turning of ceramic art
+work, ceramic precision parts, leather, metals, plastics, fiber
+board, masonry, carbon, glass, graphite, or wood is permitted
+by rule.”
+
+No registration
+required
+
+Milling and Grinding of
+Coatings and Moldings
+Compounds
+
+106.431
+
+“Equipment used exclusively to mill or grind coatings and
+molding compounds where all materials charged are in a
+paste form is permitted by rule.”
+
+No registration
+required
+
+Dipping Tanks and
+Containers
+
+106.432
+
+“Containers, reservoirs, or tanks used exclusively for dipping
+operations for coating objects with oils, waxes, or greases
+where no organic solvents, diluents, or thinners are used; or
+dipping operations for applying coatings of natural or
+synthetic resins which contain no organic solvents are
+permitted by rule.”
+
+No registration
+required
+
+Surface Coating
+
+106.433
+
+Though there is a site-wide limit of 25 tpy VOC, this PBR
+limits hourly and annual VOC emissions depending on
+certain aspects of your business. Specific design
+requirements are required. Metal spraying or metalizing
+operations may not use this PBR.
+
+PI-7 or PI-7-CERT
+Surface Coating
+Facility PBR Checklist
+(TCEQ-10137)
+
+Outdoor facilities or booths that do not meet the definition of
+being fully enclosed require site approval before construction.
+See the rule for additional information.
+Powder Coating
+
+106.434
+
+“Surface coating operations utilizing powder coating
+materials with the powder applied by an electrostatic powder
+spray gun or an electrostatic fluidized bed are permitted by
+rule.”
+
+No registration
+required
+
+Wet Blast Cleaning
+
+106.451
+
+“Blast cleaning equipment using a suspension of abrasives in
+water is permitted by rule.”
+
+No registration
+required
+
+Dry Abrasive Cleaning
+
+106.452
+
+Sandblasting and other dry-abrasive cleaning processes
+performed indoors that meet certain restrictions are permitted
+by rule.
+
+Outdoor Blasting: PI-7
+or PI-7-CERT
+
+Outdoor sandblasting requires site approval before
+construction begins.
+
+Dry Abrasive
+Cleaning: PBR
+Checklist (TCEQ10139)
+
+Washing and Drying of Glass
+and Metal
+
+106.453
+
+“Equipment used for washing or drying products fabricated
+from metal or glass is permitted by rule, provided no volatile
+organic materials are used in the process and no oil or solid
+fuel is burned.”
+
+No registration
+required
+
+Degreasing Units
+
+106.454
+
+Surface coaters that use degreasing units may use this PBR
+if they meet specific requirements about equipment
+dimensions and location, operating procedures, solvent use
+and storage, ventilation, and record keeping. They must use
+less than 660 gallons per year of chlorinated solvents and
+their use of all other solvents cannot exceed 1,500 gallons
+per year.
+
+Certain Units: PI-7 or
+PI-7-CERT
+
+12
+
+Degreasing Units:
+PBR Checklist
+(TCEQ-10140)
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix B: Surface Coating Permit by Rule (30 TAC 106.433)
+Surface coating or stripping facilities, excluding vehicle repair and refinishing shops, shall
+meet the following conditions of this section to be permitted by rule.
+
+(1) This section does not cover metalizing (spraying molten metal onto a surface to
+form a coating). However, this section does cover the use of coatings which contain
+metallic pigments.
+
+(2) All facilities covered by this section at a site shall implement good housekeeping
+procedures to minimize fugitive emissions, including the following.
+(A) All spills shall be cleaned up immediately.
+
+(B) The booth or work area exhaust fans shall be operating when cleaning
+spray guns and other equipment.
+
+(C) All new and used coatings and solvents shall be stored in closed
+containers. All waste coatings and solvents shall be removed from the site by
+an authorized disposal service or disposed of at a permitted on-site waste
+management facility.
+
+(3) Drying or curing ovens shall either be electric or meet the following conditions:
+
+(A) The maximum heat input to any oven must not exceed 40 million British
+thermal units per hour (Btu/hr).
+
+(B) Heat shall be provided by the combustion of one of the following: sweet
+natural gas; liquid petroleum gas; fuel gas containing no more than 5.0 grains
+of total sulfur compounds (calculated as sulfur) per 100 dry standard cubic
+foot; or Number 2 fuel oil with not more than 0.3 percent sulfur by weight.
+
+(4) No add-on control equipment shall be used to meet the emissions limits of this
+section. The total uncontrolled emissions from the coating materials (as applied) and
+cleanup solvents shall not exceed the following for all operations:
+(A) 25 tons per year (tpy) of volatile organic compounds (VOC) and ten tpy of
+exempt solvents for all surface coating and stripping operations covered by
+section at a site;
+
+(B) 30 pounds per hour (lb/hr) of VOC and 5.0 lb/hr of exempt solvents for all
+surface coating and stripping operations covered by this section at a site;
+(C) if emissions are less than 0.25 lb/hr of VOC and/or exempt solvents, a
+facility is exempt from the remaining requirements of this section, including
+paragraphs (5)–(9) of this section.
+
+(5) Opacity of visible emissions shall not exceed 5.0 percent. Compliance shall be
+determined by the United States Environmental Protection Agency Method 9
+averaged over a six-minute period.
+
+(6) The following conditions apply to surface coating operations performed indoors,
+in a booth, or in an enclosed work area:
+
+Revised March 2011
+
+13
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+(A) no more than six lb/hr of VOC emissions, averaged over any five-hour
+period, and 500 pounds per week per booth or enclosed work area;
+
+(B) minimum face velocity at the intake opening of each booth or work area is
+100 feet per minute (ft/min). Emissions shall be exhausted through elevated
+stacks that extend at least 1.5 times the building height above ground level. All
+stacks shall discharge vertically; rain protection shall not restrict or obstruct
+vertical flow;
+(C) for spraying operations, emissions of particulate matter must be
+controlled using either a water wash system or a dry filter system with a 95
+percent removal efficiency as documented by the manufacturer. The face
+velocity at the filter shall not exceed 250 ft/min or that specified by the filter
+manufacturer, whichever is less. Filters shall be replaced whenever the
+pressure drop across the filter no longer meets the manufacturer’s
+recommendation.
+
+(7) For surface coating operations that are performed outdoors or in a non-enclosed
+work area, or for indoor operations that do not meet the conditions of paragraph (6)
+of this section, the following conditions apply.
+(A) No more than six lb/hr of VOC emissions, averaged over any five-hour
+period, and 500 pounds per week shall be emitted at any time for all
+operations authorized by this paragraph.
+
+(B) If coatings applied with spray equipment contain more than 0.1 percent
+by weight of chromates, lead, cadmium, selenium, strontium, or cobalt, then
+total VOC emissions shall be further limited to 240 pounds per week and
+2,000 pounds per year. If coatings are applied with non-spray equipment
+(such as brushes, rollers, dipping or flow coating), the additional restrictions
+in this paragraph do not apply.
+(C) Coating operations shall be conducted at least 50 feet from the property
+line and at least 250 feet from any recreational area, residence, or other
+structure not occupied or used solely by the owner or operator of the facility
+or the owner of the property upon which the facility is located.
+
+(D) Before construction of the facility begins, written site approval shall be
+received from the appropriate regional office of the commission or any local
+program having jurisdiction.
+
+(8) The following records shall be maintained at the plant site for the most recent 24
+months and be made immediately available to the commission or any pollution
+control agency with jurisdiction:
+(A) Material Safety Data Sheets for all coating materials and solvents;
+
+(B) data of daily coatings and solvent use and the actual hours of operation of
+each coating or stripping operation;
+14
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+(C) a monthly report that represents actual hours of operation each day, and
+emissions from each operation in the following categories:
+(i) pounds per hour;
+(ii) pounds per day;
+
+(iii) pounds per week; and
+
+(iv) tons emitted from the site during the previous 12 months;
+
+(D) examples of the method of data reduction including units, conversion
+factors, assumptions, and the basis of the assumptions.
+
+(9) Before construction begins, the facility shall be registered with the commission
+using Form PI-7.
+
+Effective September 4, 2000
+
+Revised March 2011
+
+15
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix C: Volatile Organic Compound (VOC) and
+Exempt-Solvent Content per Gallon of Coating
+In order to determine compliance with surface coating rules and regulations, including
+Title 30 Texas Administrative Code, Chapter 106, you will need to calculate the
+amount of volatile organic compounds (VOCs) and exempt solvents that are emitted
+from your operation. The first step is to determine how much of these contaminants
+are in 1 gallon of each coating that you will apply.
+If your coating is ready to apply, and is not mixed, you can determine the coating VOCs
+and exempt-solvent contents from the technical data sheets, paint supplier, or MSDS.
+However, if you mix or thin your coatings, you will need to calculate the VOC and
+exempt-solvent content in your mixed (combined or “as applied”) coating. You will
+need to determine the VOC and exempt-solvent content for each component in your
+coating and determine the appropriate mixing and thinning ratios. In some cases the
+material-safety or technical data sheets include the “as mixed” VOC and exemptsolvent contents. Those values can be used if the mixing instructions are followed
+exactly. Note that 1 gallon = 4 quarts = 8 pints = 128 fluid ounces.
+In the following examples, we will mix three different coatings. Coating A is a singlecomponent coating with thinner. Coating B is a multiple-component coating, and
+Coating C is a multiple-component coating with thinner. The data shown below will be
+used for each example.
+
+Example Data:
+
+Component A VOC content
+Component A exempt-solvent content
+Component B VOC content
+Component B exempt-solvent content
+Thinner VOC content
+Thinner exempt-solvent content
+Mixing ratio
+Thinning ratio
+
+2.8 pounds per gallon
+0.5 pounds per gallon
+1.2 pounds per gallon
+0.8 pounds per gallon
+7.3 pounds per gallon
+0.0 pounds per gallon
+2 parts Component A to one part Component
+B
+10 parts of coating to 1 part thinner
+
+Example: Coating A—Single Component Coating with Thinner
+
+You check your MSDS and determine that the VOC content for Component A is 2.8
+pounds of VOC per gallon, and the VOC content for your thinner is 7.3 pounds of VOC
+per gallon. The exempt solvent content for Component A is 0.5 pounds per gallon. You
+also learn from the paint supplier that, in order to get the right blend, you will need to
+use 10 parts of coating to 1 part of thinner (10:1 ratio). In this example, you will use
+5 gallons of Component A and 0.5 gallons of thinner, for a total of 5.5 gallons of mixed
+coating.
+VOC Calculations
+
+Now you need to determine how many pounds of VOC are in the mixed coating and
+thinner.
+16
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Multiply 2.8 pounds of VOC per gallon by 5 gallons to get 14 pounds of VOC for
+Component A.
+2.8 𝑙𝑏 𝑉𝑂𝐶
+× 5𝑔𝑎𝑙 = 𝟏𝟒 𝒍𝒃 𝑽𝑶𝑪
+𝑔𝑎𝑙
+
+Then multiply 7.3 pounds of VOC per gallon by 0.5 gallon to get 3.65 pounds of VOC for
+the thinner.
+7.3 𝑙𝑏 𝑉𝑂𝐶
+× 0.5 𝑔𝑎𝑙 = 𝟑. 𝟔𝟓 𝒍𝒃 𝑽𝑶𝑪
+𝑔𝑎𝑙
+
+Add the two amounts together to get the pounds of VOC in the mixed coating.
+14 𝑙𝑏 𝑉𝑂𝐶 + 3.65 𝑙𝑏 𝑉𝑂𝐶 = 𝟏𝟕. 𝟔𝟓 𝒍𝒃 𝑽𝑶𝑪
+
+Then divide the total pounds of VOC by the total gallons of mixed coating and thinner
+to get the pounds of VOC per gallon.
+Exempt-Solvent Calculations
+
+17.65 𝑙𝑏 𝑉𝑂𝐶 𝟑. 𝟐𝟏 𝒍𝒃 𝑽𝑶𝑪
+=
+5.5 𝑔𝑎𝑙
+𝒈𝒂𝒍
+
+Now you need to determine how many pounds of exempt solvent are in the mixed
+coating and thinner. Multiply 0.5 pounds per gallon of exempt solvent by 5 gallons to
+get 2.5 pounds of exempt solvents for Component A.
+0.5 𝑙𝑏 𝐸𝑆
+× 5 𝑔𝑎𝑙 = 𝟐. 𝟓 𝒍𝒃 𝑬𝑺
+𝑔𝑎𝑙
+
+The ES content in the thinner is 0.0 lb. You add the two amounts together to get the
+pounds of exempt solvents in the mixed coating.
+2.5 𝑙𝑏 𝐸𝑆 + 0.0 𝑙𝑏 𝐸𝑆 = 𝟐. 𝟓 𝒍𝒃 𝑬𝑺
+
+You then divide the total pounds of exempt solvents by the total gallons of mixed
+coating and thinner to get the pounds of ES per gallon.
+2.5 𝑙𝑏 𝐸𝑆 𝟎. 𝟒𝟓 𝒍𝒃 𝑬𝑺
+=
+5.5 𝑔𝑎𝑙
+𝒈𝒂𝒍
+
+Example: Coating B—Multiple-Component Coating
+
+In this example, the paint supplier has recommended a mixing ratio of 2 parts of
+Component A to 1 part of Component B (2:1 ratio). In this case, you will mix 1 gallon of
+Component A and 0.5 gallons of Component B for a total of 1.5 gallons of mixed
+coating.
+VOC Calculations
+
+To determine the pounds of VOC in Component A, multiply 2.8 pounds of VOC per
+gallon (from the MSDS) by 1.0 gallons.
+2.8 𝑙𝑏 𝑉𝑂𝐶
+× 1.0 𝑔𝑎𝑙 = 𝟐. 𝟖 𝒍𝒃 𝑽𝑶𝑪
+𝑔𝑎𝑙
+
+Revised March 2011
+
+17
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+To determine the pounds of VOC in Component B, multiply 1.2 pounds of VOC per
+gallon (from the MSDS) by 0.5 gallons.
+1.2 𝑙𝑏 𝑉𝑂𝐶
+× 0.5 𝑔𝑎𝑙 = 𝟎. 𝟔 𝒍𝒃 𝑽𝑶𝑪
+𝑔𝑎𝑙
+
+Add the two amounts together to get the pounds of VOC in the multiple component
+coating.
+2.8 𝑙𝑏 𝑉𝑂𝐶 + 0.6 𝑙𝑏 𝑉𝑂𝐶 = 𝟑. 𝟒 𝒍𝒃 𝑽𝑶𝑪
+
+Then divide the total pounds of VOC by the total gallons of mixed coating to get the
+pounds of VOC per gallon.
+3.4 𝑙𝑏 𝑉𝑂𝐶 𝟐. 𝟐𝟕 𝒍𝒃 𝑽𝑶𝑪
+=
+𝒈𝒂𝒍
+1.5 𝑔𝑎𝑙
+
+Exempt -Solvent Calculations
+
+Now you need to determine how many pounds of exempt solvent are in the mixed
+coating. Multiply 0.5 pounds per gallon of exempt solvent by 1 gallon to get 0.5 pounds
+of exempt solvents for Component A.
+0.5 𝑙𝑏 𝐸𝑆
+× 1 𝑔𝑎𝑙 = 𝟎. 𝟓 𝒍𝒃 𝑬𝑺
+𝑔𝑎𝑙
+
+To determine the pounds of exempt solvent in Component B, multiply 0.8 pounds of
+exempt solvent per gallon (from the MSDS) by 0.5 gallons to get 0.4 pounds of exempt
+solvent.
+0.8 𝑙𝑏 𝐸𝑆
+× 0.5 𝑔𝑎𝑙 = 𝟎. 𝟒 𝒍𝒃 𝑬𝑺
+𝑔𝑎𝑙
+
+Add the two amounts together to get the pounds of exempt solvent in the multiplecomponent coating.
+0.5 𝑙𝑏 𝐸𝑆 + 0.4 𝑙𝑏 𝐸𝑆 = 𝟎. 𝟗 𝒍𝒃 𝑬𝑺
+
+Then divide the total pounds of exempt solvent by the total gallons of mixed coating to
+get the pounds of ES per gallon.
+0.9 𝑙𝑏 𝐸𝑆 𝟎. 𝟔 𝒍𝒃 𝑬𝑺
+=
+1.5 𝑔𝑎𝑙
+𝒈𝒂𝒍
+
+Example: Coating C—Multiple-Component Coating with Thinner
+In this example, the paint supplier has recommended a mixing ratio of 2 parts of
+Component A to 1 part of Component B (2:1 ratio). In this case, you will mix 1 gallon of
+Component A and 0.5 gallons of Component B for a total of 1.5 gallons of coating.
+
+The recommended thinning ratio is 10 parts of coating with 1 part thinner (10:1
+ratio). In this example, 1.5 gallons of coating will be mixed with 0.15 gallons of thinner
+for a total of 1.65 gallons of mixed coating.
+VOC Calculations
+
+18
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+You know from the previous example, that there are 2.8 lb VOC in 1 gallon of
+Component A and 0.6 lb VOC in 0.5 gallon of Component B.
+
+We determine the VOC content for the thinner by multiplying 7.3 pounds of VOC per
+gallon by 0.15 gallon.
+7.3 𝑙𝑏 𝑉𝑂𝐶
+× 0.15 𝑔𝑎𝑙 = 𝟏. 𝟎𝟗 𝒍𝒃 𝑽𝑶𝑪
+𝑔𝑎𝑙
+
+Add the VOC content from Component A, Component B, and the thinner together to get
+the pounds of VOC in the multiple component coating and thinner.
+2.8 𝑙𝑏 𝑉𝑂𝐶 + 0.6 𝑙𝑏 𝑉𝑂𝐶 + 1.09 𝑙𝑏 𝑉𝑂𝐶 = 𝟒. 𝟒𝟗 𝒍𝒃 𝑽𝑶𝑪
+
+Then divide the total pounds of VOC by the total gallons of mixed coating to get the
+pounds of VOC per gallon.
+4.49 𝑙𝑏 𝑉𝑂𝐶 𝟐. 𝟕𝟐 𝒍𝒃 𝑽𝑶𝑪
+=
+1.65 𝑔𝑎𝑙
+𝒈𝒂𝒍
+
+Exempt-Solvent Calculations
+
+You know from the previous example that there is 0.5 lb ES in 1 gallon of Component A
+and 0.4 lb ES in 0.5 gallon of Component B. The ES solvent content in the thinner is 0.0
+lb ES.
+You add the ES content from Component A, Component B, and the thinner together to
+get the pounds of exempt solvents in the mixed coating.
+0.5 𝑙𝑏 𝐸𝑆 + 0.4 𝑙𝑏 𝐸𝑆 + 0.0 𝑙𝑏 𝐸𝑆 = 𝟎. 𝟗 𝒍𝒃 𝑬𝑺
+
+Then divide the total pounds of exempt solvent by the total gallons of mixed coating to
+get the pounds of ES per gallon.
+0.9 𝑙𝑏 𝐸𝑆 𝟎. 𝟓𝟓 𝒍𝒃 𝑬𝑺
+=
+1.65 𝑔𝑎𝑙
+𝒈𝒂𝒍
+
+Revised March 2011
+
+19
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix D: Calculating Maximum Hourly and Annual
+Emission Rates
+Now that you know how much VOC each of your coatings contain, you can determine
+the maximum hourly and annual emission rates. These rates need to be calculated for
+each coating used at your site to determine if the limits of a PBR can be met, to set the
+maximum yearly allowable emission rate in a permit, or to determine if federal rules,
+such as 40 CFR Part 63 (NESHAP), apply to your site.
+
+The maximum hourly and annual emission rates need to be calculated independently.
+Dividing a maximum yearly emission rate by the yearly operating schedule will result
+in an average hourly emission rate, not a maximum emission rate. Multiplying a
+maximum hourly emission rate by the yearly operating schedule will likely result in an
+emission rate that is too large. This may result in your site being subject to a number
+of rules that it should not.
+
+Maximum Hourly and Annual Emission Rate Calculations—Coatings
+
+To calculate the maximum hourly and annual emission rates, you will need to
+determine the maximum practical hourly application rate based on company records
+or company employees. If you are spraying, this is always less than the maximum
+hourly spray rate provided by the spray-equipment supplier. The employees cannot
+keep the trigger pulled for an hour since they need to mix paint, move parts and—if
+their technique is good—release the trigger at the end of each pass over the part. In
+addition, you will need to determine the maximum amount of each coating that you
+intend to use in a year. This can be based on company records for a very busy year or
+on projected sales volumes.
+We determine that the coating from Appendix C with the highest VOC content is
+Coating A, and that Coating B contains the highest amount of exempt solvents.
+Example Data:
+
+Coating A VOC content
+Coating B exempt-solvent content
+Maximum hourly coating usage
+Maximum yearly coating usage
+
+3.21 pounds per gallon
+0.6 pounds per gallon
+6.0 gallons
+4,750 gallons
+
+Based on this information, you will need to calculate the maximum VOC emission rate
+and the maximum exempt solvent emission rate in pounds per hour and tons per year.
+Maximum Hourly VOC Emission Rate
+
+To calculate the maximum hourly VOC emission rate, you multiply the highest VOC
+coating content (3.21 pounds per gallon for Coating A) by the maximum number of
+gallons used in one hour (6.0 gallons per hour).
+3.21 𝑙𝑏 𝑉𝑂𝐶 6.0 𝑔𝑎𝑙 𝟏𝟗. 𝟐𝟔 𝒍𝒃 𝑽𝑶𝑪
+×
+=
+𝑔𝑎𝑙
+ℎ𝑟
+𝒉𝒓
+
+20
+
+See Appendix E to learn how to average over any five-hour period if your maximum
+hourly VOC emission rate is greater than 6 pounds of VOC per hour.
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Maximum Hourly Exempt-Solvent Emission Rate
+To calculate the maximum hourly exempt solvent emission rate, you multiply the
+highest exempt solvent coating content (0.6 pounds per gallon for Coating B) by the
+maximum number of gallons used in one hour (6.0 gallons per hour).
+0.6 𝑙𝑏 𝐸𝑆 6.0 𝑔𝑎𝑙 𝟑. 𝟔 𝒍𝒃 𝑬𝑺
+×
+=
+𝑔𝑎𝑙
+ℎ𝑟
+𝒉𝒓
+
+Maximum Yearly VOC Emission Rate
+
+In order to calculate the maximum yearly VOC emission rate, you will need to multiply
+the highest VOC coating content (3.21 pounds per gallon for Coating A) by the
+maximum yearly coating usage (4,750 gallons per year).
+3.21 𝑙𝑏 𝑉𝑂𝐶 4,750 𝑔𝑎𝑙 𝟏𝟓, 𝟐𝟒𝟖 𝒍𝒃 𝑽𝑶𝑪
+×
+=
+𝑔𝑎𝑙
+𝒚𝒓
+𝑦𝑟
+
+You will then need to convert it into tons of VOC per year by multiplying by 1 ton per
+2,000 pounds.
+15,248 𝑙𝑏 𝑉𝑂𝐶
+1 𝑡𝑜𝑛
+𝟕. 𝟔𝟐 𝒕𝒐𝒏𝒔 𝑽𝑶𝑪
+×
+=
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+
+Maximum Yearly Exempt-Solvent Emission Rate
+
+To calculate the maximum yearly exempt-solvent emission rate, you will multiply the
+highest exempt-solvent content (0.6 pounds per gallon for Coating B) by the maximum
+yearly coating usage (4,750 gallons per year).
+0.6 𝑙𝑏 4,750 𝑔𝑎𝑙 𝟐, 𝟖𝟓𝟎 𝒍𝒃
+×
+=
+𝑔𝑎𝑙
+𝑦𝑟
+𝒚𝒓
+
+You will then need to convert it into tons of exempt solvent per year by multiplying by
+1 ton per 2,000 pounds.
+1 𝑡𝑜𝑛
+𝟏. 𝟒𝟑 𝒕𝒐𝒏𝒔 𝑬𝑺
+2,850 𝑙𝑏
+×
+=
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+
+Maximum Hourly and Annual Emission Rate Calculations—Cleanup
+At the end of each coating operation, the application equipment such as brushes, spray
+guns, and paint pots must be cleaned up so that it may be used for the next job. This is
+often carried out by circulating solvent through the equipment until clean or by
+placing the spray gun in an enclosed gun washer. Both the maximum hourly and
+annual emission rates must be calculated for cleanup operations.
+
+Air emissions are best estimated from cleanup by determining the amount of solvent
+that evaporates during cleaning. Using company records of solvent purchased will
+overestimate the rates, since a great deal of the solvent will end up in the waste drum
+for off-site disposal. Purchase records and waste-disposal records will usually give you
+a reasonably accurate yearly emission rate.
+To calculate the emission rates from your cleanup activities, you will need to
+determine the VOC content of your thinner or cleaning solvent by referring to your
+
+Revised March 2011
+
+21
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+MSDS or technical data sheets, or by contacting your coating supplier. You will also
+need to determine the maximum hourly and yearly thinner or cleaning-solvent usage
+from company records, the gun-washer service company, or company employees.
+Example Data:
+
+Solvent VOC content
+7.3 pounds per gallon
+Solvent exempt solvent content
+0.0 pounds per gallon
+Maximum hourly solvent usage
+2.0 gallons
+Maximum hourly solvent waste
+1.5 gallons
+Maximum yearly solvent usage
+500 gallons
+Maximum yearly solvent waste
+375 gallons
+Clean up time
+1 hour
+
+Based on this information, you will need to calculate the maximum VOC emission rate
+for the cleanup activity in pounds per hour and tons per year.
+Maximum Hourly VOC Emission Rate
+
+In order to calculate your maximum hourly VOC emission rate for cleanup activities,
+you need to determine how much of your solvent evaporates each time you clean your
+equipment. You first subtract the number of gallons of dirty solvent from the number
+of gallons of clean solvent used each time you clean your equipment.
+2.0 𝑔𝑎𝑙 1.5 𝑔𝑎𝑙 𝟎. 𝟓 𝒈𝒂𝒍
+−
+=
+ℎ𝑜𝑢𝑟
+ℎ𝑜𝑢𝑟
+𝒉𝒐𝒖𝒓
+
+In this case, you know that 0.5 gallons of solvent have evaporated every time you clean
+your equipment. Now you can determine how much VOC emissions result from each
+cleanup event by multiplying the number of evaporated gallons by the VOC content in
+1 gallon of solvent.
+0.5 𝑔𝑎𝑙 7.3 𝑙𝑏 𝑉𝑂𝐶 𝟑. 𝟔𝟓 𝒍𝒃 𝑽𝑶𝑪
+×
+=
+ℎ𝑜𝑢𝑟
+𝑔𝑎𝑙
+𝒉𝒐𝒖𝒓
+
+Since cleanup is completed in an hour, the maximum VOC emission rate from cleanup
+is 3.65 pounds of VOC per hour.
+Maximum Yearly VOC Emission Rate
+
+In order to determine the maximum yearly VOC emission rate for cleanup activities,
+you need to determine how much solvent evaporates in a year by subtracting the
+amount of solvent wasted per year from the total amount purchased.
+500 𝑔𝑎𝑙 375 𝑔𝑎𝑙 𝟏𝟐𝟓 𝒈𝒂𝒍
+−
+=
+𝑦𝑟
+𝑦𝑟
+𝒚𝒓
+
+In this case, you know that 125 gallons of solvent evaporated in a year. To determine
+how many pounds of VOCs were emitted in that year multiply 125 gallons per year by
+the VOC content of the solvent (7.3 pounds per gallon).
+22
+
+125 𝑔𝑎𝑙 7.3 𝑙𝑏 𝑉𝑂𝐶 𝟗𝟏𝟐. 𝟓 𝒍𝒃 𝑽𝑶𝑪
+×
+=
+𝑦𝑟
+𝑔𝑎𝑙
+𝒚𝒓
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+You will then need to convert it into tons of VOC per year by multiplying by 1 ton per
+2,000 pounds.
+912.5 𝑙𝑏 𝑉𝑂𝐶
+1 𝑡𝑜𝑛
+𝟎. 𝟒𝟔 𝒕𝒐𝒏𝒔 𝑽𝑶𝑪
+×
+=
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+
+Maximum Hourly and Total Annual Emission Rates for VOC and
+Exempt Solvent
+As a final step, the maximum hourly emission rates need to be determined as well as
+the total annual VOC and exempt-solvent emission rates. You will need to gather all of
+the hourly and annual emission rates for VOC and exempt solvents for each coating
+line. The maximum hourly emission rate will be the largest of all the painting rates.
+The total annual emission rate can be found by adding up all of the yearly painting
+emissions and the yearly cleanup emissions.
+Example:
+
+You compare all of the hourly emission rates in the summary chart below and
+determine that Coating A has the maximum hourly VOC emission rate (19.26 pounds
+VOC per hour) and Coating B has the maximum exempt-solvent emission rate (3.6
+pounds ES per hour).
+
+You then add the annual VOC emissions rates from Coating A, Coating B, Coating C, and
+the cleanup solvent to determine the total annual VOC emission rate.
+
+7.62 𝑡𝑜𝑛𝑠 𝑉𝑂𝐶 5.39 𝑡𝑜𝑛𝑠 𝑉𝑂𝐶 6.46 𝑡𝑜𝑛𝑠 𝑉𝑂𝐶 0.46 𝑡𝑜𝑛𝑠 𝑉𝑂𝐶 𝟏𝟗. 𝟗𝟑 𝒕𝒐𝒏𝒔 𝑽𝑶𝑪
++
++
++
+=
+𝑦𝑟
+𝑦𝑟
+𝑦𝑟
+𝑦𝑟
+𝒚𝒓
+
+Next, add all of the annual exempt-solvent emission rates to determine the total annual
+ES emission rate.
+1.07 𝑡𝑜𝑛𝑠 𝐸𝑆 1.43 𝑡𝑜𝑛𝑠 𝐸𝑆 1.31 𝑡𝑜𝑛𝑠 𝐸𝑆 0.00 𝑡𝑜𝑛𝑠 𝐸𝑆 𝟑. 𝟖𝟏 𝒕𝒐𝒏𝒔 𝑬𝑺
++
++
++
+=
+𝑦𝑟
+𝑦𝑟
+𝑦𝑟
+𝑦𝑟
+𝒚𝒓
+
+Example Summary Chart
+
+Hourly VOC
+Emission Rate
+pounds per
+hour
+
+Annual VOC
+Emission Rate
+tons per year
+
+Hourly ES
+Emission Rate
+pounds per hour
+
+Annual ES
+Emission Rate
+tons per year
+
+Coating A
+
+19.26 lb
+VOC/hr
+
+7.62 tons VOC/yr
+
+2.7 lb ES/hr
+
+1.07 tons ES/yr
+
+Coating B
+
+13.62 lb
+VOC/hr
+
+5.39 tons VOC/yr
+
+3.6 lb ES/hr
+
+1.43 tons ES/yr
+
+Coating C
+
+16.32 lb
+VOC/hr
+
+6.46 tons VOC/yr
+
+3.3 lb ES/hr
+
+1.31 tons ES/yr
+
+Cleanup
+Solvent
+
+3.65 lb VOC/hr
+
+0.46 ton VOC/yr
+
+0.0 lb ES/hr
+
+0.00 ton ES/yr
+
+Emission
+Rates
+
+Max = 19.26 lb
+VOC/hr
+
+Total = 19.93
+tons VOC/yr
+
+Max = 3.6 lb ES/hr
+
+Total = 3.81 tons
+ES/yr
+
+Revised March 2011
+
+23
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix E: Emission Rate Averaged Over a 5-Hour Period
+The surface coating PBR, 30 TAC 106.433(6)(A), states that a facility is limited to no
+more than 6 pounds of VOC emissions, averaged over any 5-hour period, and 500
+pounds per week per booth or enclosed work area. That means the rule allows the
+emissions from batch painting to be averaged over a 5-hour period. As long as the total
+emissions over a 5-hour period average less than 6 pounds per hour, the facility meets
+the emission limit of the PBR.
+Many surface coaters do not apply coatings continuously and often coat one large
+piece of equipment or a limited number of parts over a short time period. This often
+results in an emission rate exceeding the limit specified in the rule.
+Example:
+
+You decide to paint a large part in one hour and allow it to dry in the paint booth.
+During that hour, you use 6 gallons of Coating A with a VOC emission rate of 19.26
+pounds per hour (from our example in Appendix D). For the remaining four hours, you
+do not conduct any additional surface coating activities.
+To calculate the pounds per hour over a 5-hour averaging period, you divide the
+pounds of VOC emitted by the total number of hours passed (not to exceed 5 hours)
+from the beginning of painting until painting is to take place again.
+19.26 𝑙𝑏 𝑉𝑂𝐶
+= 𝟑. 𝟖𝟓 𝐥𝐛 𝐕𝐎𝐂 𝐩𝐞𝐫 𝐡𝐨𝐮𝐫 (𝐚𝐯𝐞𝐫𝐚𝐠𝐞𝐝 𝐨𝐯𝐞𝐫 𝐚 𝟓- 𝐡𝐨𝐮𝐫 𝐩𝐞𝐫𝐢𝐨𝐝)
+5 ℎ𝑟𝑠
+
+The average emission rate is less than the limit specified in the rule.
+
+Note: Averaging cannot be used in case-by-case NSR permit applications.
+
+24
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix F: Potential to Emit
+Potential to emit is defined at Title 30 Texas Administrative Code, Chapter 122,
+
+Subchapter A, Section 122.10 as the maximum capacity of a stationary source to emit
+any air pollutant under its physical and operational design or configuration.
+
+Essentially, this means you need to determine the maximum amount of air pollutants
+that can be generated at your facility. PTE will be used to determine whether you need
+to obtain a Title V Operating permit, or comply with certain federal rules.
+There are two methods that a facility can use to determine PTE:
+
+1. Calculate the maximum emissions of each pollutant assuming that the facility
+operates continuously, at its maximum rate, for an entire year (8,760 hours per year);
+or
+2. Use the usage rates of coatings and solvents from the facility’s busiest year to
+calculate the maximum emissions of each pollutant.
+
+Method 1 Example:
+
+According to the manufacturer, your spray gun is capable of spraying a maximum of 15
+gallons per hour. You check your records and determine that the coating with the
+highest VOC content that may be used at the facility has a VOC content of 3.2 pounds
+per gallon. The PTE would be calculated as follows:
+1 𝑡𝑜𝑛
+𝟐𝟏𝟎. 𝟐𝟒 𝒕𝒐𝒏𝒔 𝑽𝑶𝑪
+15 𝑔𝑎𝑙 3.2 𝑙𝑏 𝑉𝑂𝐶 8,760 ℎ𝑟
+×
+×
+×
+=
+ℎ𝑟
+𝑔𝑎𝑙
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+In this example, the facility would be considered a major source, since the PTE is over
+100 tons of VOCs per year. This facility would need to obtain a Title V operating
+permit. It would also be subject to additional federal regulations that apply to major
+sources.
+
+Method 2 Example (Recommended Method):
+
+You review your purchase records and have never used, or expect to use, more than
+8,000 gallons of coatings in a year. The PTE would be calculated as follows:
+3.2 𝑙𝑏 𝑉𝑂𝐶 8,000 𝑔𝑎𝑙
+1 𝑡𝑜𝑛
+𝟏𝟐. 𝟖 𝒕𝒐𝒏𝒔 𝑽𝑶𝑪
+×
+×
+=
+𝑔𝑎𝑙
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+
+In this example, the facility can make this PTE a federally enforceable limit on a PBR
+application by using the PI-7-CERT form, and the site would be considered a
+“synthetic” minor source because its PTE is below the major-source thresholds.
+
+Revised March 2011
+
+25
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix G: Calculation of Booth or Work-Area and Filter and
+Face Velocities
+Face velocities and filter velocities are specified at 30 TAC 106.433(6) as well as a
+number of rules in 40 CFR Part 63.
+
+Face-velocity requirements ensure that enough air is moving at a sufficient speed to
+capture both particulate matter and solvent emissions and direct them through the
+filters and out the exhaust stack.
+• Filter-velocity requirements ensure that air is moving slowly enough through the
+filters that they can capture the particulate matter as well as maintain an acceptable
+pressure drop across the filters.
+
+
+Before attempting any face- or filter-velocity calculations, we need to clearly define
+“face.” The face is the area through which the intake air flows. The face is in different
+locations for different types of booths, as shown in each of the drawings below.
+
+For an open-face booth, the face to be used in calculating the velocity is simply the
+open side of the booth. Air flows into this opening past the painter and the part and
+into the filters.
+
+For a cross- or end-draft booth the face is the entry-door openings.
+
+26
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+For a downdraft booth the face is the intake of the air-makeup unit which is usually
+mounted on the top of the booth.
+
+A semi-downdraft paint booth has a similar arrangement to a downdraft booth in that
+the face is the air-intake plenum, which is usually mounted on the top of the booth.
+
+Revised March 2011
+
+27
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+A side downdraft booth has the same face as the downdraft booth, which is the intake
+of the air-makeup unit that is usually mounted at the top of the booth.
+
+Calculating Face Velocity
+
+The TCEQ face-velocity requirement in 30 TAC 106.433(6) is 100 feet per minute, at a
+minimum. However, some federal rules, such as 40 CFR, Part 63, Subpart MMMM,
+require a face velocity of 200 feet per minute. Your facility must meet the most
+stringent regulations that apply.
+In order to calculate face velocity, three pieces of information are required:
+1. the flow rate of the exhaust fan in cubic feet per minute (cfm or ft3/min)
+
+2. the flow rate of the air makeup unit fan in cubic feet per minute
+3. the area of all the booth openings that are normally open when the booth is in
+operation
+
+The flow rates for the fans may be printed on their rating plates or available in the
+manuals that came with the booth or from the booth vendor. As a last resort, you can
+estimate the flow rate using a similar fan (diameter, number of blades, and
+horsepower). This information is often available in industrial supply catalogs.
+
+The area of the face may be determined from the manuals that came with the booth or
+by measuring the openings.
+The area of a square or rectangular opening may be determined as follows:
+𝐿𝑒𝑛𝑔𝑡ℎ (𝑓𝑡) × 𝑊𝑖𝑑𝑡ℎ (𝑓𝑡) = 𝐴𝑟𝑒𝑎 (𝑓𝑡 2 )
+
+The area of a circular opening may be determined as follows:
+𝜋 × 𝑟 2 = 𝐴𝑟𝑒𝑎
+
+(π = 3.14 and r = radius of air intake opening)
+3.14 × 𝑟 (𝑓𝑡) × 𝑟 (𝑓𝑡) = 𝐴𝑟𝑒𝑎 (𝑓𝑡 2 )
+
+28
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+If the booth has more than one opening, then the areas of each opening need to be
+added together.
+
+𝐼𝑛𝑡𝑎𝑘𝑒 𝐴𝑟𝑒𝑎 1(𝑓𝑡 2 ) + 𝐼𝑛𝑡𝑎𝑘𝑒 𝐴𝑟𝑒𝑎 2(𝑓𝑡 2 ) + 𝐼𝑛𝑡𝑎𝑘𝑒 𝐴𝑟𝑒𝑎 3(𝑓𝑡 2 ) = 𝑇𝑜𝑡𝑎𝑙 𝐼𝑛𝑡𝑎𝑘𝑒 𝐴𝑟𝑒𝑎(𝑓𝑡 2 )
+If the booth has an exhaust fan and an air-makeup unit, the flow rate from the airmakeup unit will need to be subtracted from the exhaust-fan flow rate.
+𝐸𝑥ℎ𝑎𝑢𝑠𝑡- 𝐹𝑎𝑛 𝐹𝑙𝑜𝑤 𝑅𝑎𝑡𝑒 (𝑓𝑡 3 /𝑚𝑖𝑛) − 𝐴𝑖𝑟- 𝑀𝑎𝑘𝑒𝑢𝑝- 𝑈𝑛𝑖𝑡 𝐹𝑙𝑜𝑤 𝑅𝑎𝑡𝑒 (𝑓𝑡 3 /𝑚𝑖𝑛)
+= 𝐹𝑙𝑜𝑤 𝑅𝑎𝑡𝑒 (𝑓𝑡 3 /𝑚𝑖𝑛)
+
+Face velocity can be calculated by dividing the flow rate by the intake area as follows:
+𝐹𝑙𝑜𝑤 𝑅𝑎𝑡𝑒 (𝑓𝑡 3 /𝑚𝑖𝑛)
+= 𝑭𝒂𝒄𝒆 𝑽𝒆𝒍𝒐𝒄𝒊𝒕𝒚 (𝒇𝒕/𝒎𝒊𝒏)
+𝑇𝑜𝑡𝑎𝑙 𝐼𝑛𝑡𝑎𝑘𝑒 𝐴𝑟𝑒𝑎 (𝑓𝑡 2 )
+
+Even if you do not have a booth, the face-velocity requirements may still apply to your
+work areas to meet the requirements in 30 TAC 106.433(6). The calculation is the
+same as for a booth except the room or work-area fan flow rates and intake areas are
+used in the calculation.
+
+Calculating Filter Velocity
+
+The TCEQ filter velocity requirement in 30 TAC 106.433(6) is 250 feet per minute, at a
+maximum. In order to calculate filter velocity, two pieces of information are required:
+
+1. the flow rate of the exhaust fan in cubic feet per minute (cfm or ft3/min)
+2. the area of all the booth filters
+
+If the booth has more than one filter opening, then the area of each filter opening
+needs to be added together.
+𝐹𝑖𝑙𝑡𝑒𝑟 𝐴𝑟𝑒𝑎 1 (𝑓𝑡 2 ) + 𝐹𝑖𝑙𝑡𝑒𝑟 𝐴𝑟𝑒𝑎 2 (𝑓𝑡 2 ) + 𝐹𝑖𝑙𝑡𝑒𝑟 𝐴𝑟𝑒𝑎 3 (𝑓𝑡 2 )
+= 𝑻𝒐𝒕𝒂𝒍 𝑭𝒊𝒍𝒕𝒆𝒓 𝑨𝒓𝒆𝒂 (𝒇𝒕𝟐 )
+
+If the booth has an exhaust fan and an air makeup unit, the flow rate from the exhaust
+fan will be used since all the air that enters the booth will pass through the exhaust
+fan.
+𝐸𝑥𝑎𝑢𝑠𝑡𝐹𝑎𝑛 𝐹𝑙𝑜𝑤 𝑅𝑎𝑡𝑒 (𝑓𝑡 3 /𝑚𝑖𝑛) = 𝑭𝒍𝒐𝒘 𝑹𝒂𝒕𝒆 (𝒇𝒕𝟑 /𝒎𝒊𝒏)
+
+Filter velocity can be calculated by dividing the flow rate by the filter area as follows:
+𝐹𝑙𝑜𝑤 𝑅𝑎𝑡𝑒 (𝑓𝑡 3 /𝑚𝑖𝑛)
+= 𝑭𝒊𝒍𝒕𝒆𝒓 𝑽𝒆𝒍𝒐𝒄𝒊𝒕𝒚 (𝒇𝒕/𝒎𝒊𝒏)
+𝑇𝑜𝑡𝑎𝑙 𝐹𝑖𝑙𝑡𝑒𝑟 𝐴𝑟𝑒𝑎 (𝑓𝑡 2 )
+
+Revised March 2011
+
+29
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix H: VOC Content Minus Water and Exempt Solvents
+If your facility is located in one of the ozone nonattainment or near-nonattainment
+counties in Texas, you may be subject to rules found in 30 Texas Administrative Code
+(TAC), Chapter 115, Subchapter E. These rules include stringent VOC-content limits
+that apply to businesses that apply coatings. Your business may be exempt from the
+rule, so review 30 TAC 115.427 to determine if your operation is subject to these
+regulations.
+
+If you are subject to the regulations, you will need to calculate the VOC content of each
+of your coatings minus water and exempt solvent (ES) in order to determine if your
+business is in compliance. This information may be available from your supplier, so
+check before you perform the calculations.
+
+Example: Coating D—Single-Component Coating Minus Water and Exempt Solvent
+
+Pounds of VOC per gallon of coating (minus water and exempt solvent)
+
+Where:
+
+=
+
+𝑊𝑣
+𝑉𝑚 − 𝑉𝑤 − 𝑉𝑒𝑠
+
+Wv = weight of VOC, in pounds, contained in Vm gallons of coating
+Vm = volume of coating, generally assumed to be 1 gallon
+Vw = volume of water, in gallons, contained in Vm gallons of coating
+Ves = volume of exempt solvents, in gallons, contained in Vm gallons of coating
+
+This calculation requires some data that may not be readily available on the MSDS.
+You may need to contact your paint supplier in order to obtain some of this
+information.
+Example:
+
+In this example, you contact your paint supplier and determine that the VOC content
+(Wv) is 2.8 pounds of VOC per gallon, the water content is 1.0 pound per gallon, the
+exempt solvent content is 0.5 pounds per gallon.
+
+You know that one gallon of water weighs 8.34 pounds and one gallon of exempt
+solvent weighs 6.64 pounds. You will need to calculate the volume of water (Vw) and
+volume of exempt solvents (Ves).
+Data for 1 Gallon of Coating
+VOC content (Wv)
+Coating volume (Vm)
+Water content
+Water density
+Water volume (Vw)
+Exempt-solvent content
+Exempt-solvent density
+Exempt-solvent volume (Ves)
+
+30
+
+2.8 lb VOC per gal coating
+1.0 gal
+1.0 lb water per gal coating
+8.34 lb water per gal water
+Calculate
+0.5 lb exempt-solvent per gal coating
+6.64 lb exempt-solvent per gal exempt solvent
+Calculate
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+First, you need to determine the volume of water in 1 gallon of coating. You know
+that there is 1.0 pound of water per gallon of coating. You also know that 1 gallon of
+water weighs 8.34 pounds. If you multiply them, the pounds cancel out and leave you
+with the gallons of water in one gallon of coating.
+𝑉𝑤 =
+
+1.0 𝑙𝑏 𝑤𝑎𝑡𝑒𝑟
+𝑔𝑎𝑙 𝑤𝑎𝑡𝑒𝑟
+𝟎. 𝟏𝟐 𝒈𝒂𝒍 𝒘𝒂𝒕𝒆𝒓
+×
+=
+𝒈𝒂𝒍 𝒄𝒐𝒂𝒕𝒊𝒏𝒈
+𝑔𝑎𝑙 𝑐𝑜𝑎𝑡𝑖𝑛𝑔 8.34 𝑙𝑏 𝑤𝑎𝑡𝑒𝑟
+
+So now that you know how much of your coating is water, you need to determine the
+volume of exempt solvent (Ves) in 1 gallon of coating. You know that there is 0.5
+pounds of exempt solvent per gallon of coating. You also know that 1 gallon of
+exempt solvent weighs 6.64 pounds. If you multiply them, the pounds cancel out and
+leave you with the gallons of exempt solvent in one gallon of coating.
+𝑉𝑒𝑠 =
+
+0.5 𝑙𝑏 𝐸𝑆
+𝑔𝑎𝑙 𝐸𝑆
+𝟎. 𝟎𝟕𝟓 𝒈𝒂𝒍 𝑬𝑺
+×
+=
+𝑔𝑎𝑙 𝑐𝑜𝑎𝑡𝑖𝑛𝑔 6.64 𝑙𝑏 𝐸𝑆
+𝒈𝒂𝒍 𝒄𝒐𝒂𝒕𝒊𝒏𝒈
+
+We can now complete the calculation to determine the pounds of VOC per gallon of
+coating (minus water and exempt solvent):
+
+𝑊𝑣
+2.8 𝑙𝑏 𝑉𝑂𝐶
+𝟑. 𝟒𝟕 𝒍𝒃 𝑽𝑶𝑪
+=
+=
+𝑉𝑚 − 𝑉𝑤 − 𝑉𝑒𝑠 1 𝑔𝑎𝑙 − 0.12 𝑔𝑎𝑙 − 0.075 𝑔𝑎𝑙 𝒈𝒂𝒍𝒍𝒐𝒏(𝒎𝒊𝒏𝒖𝒔 𝒘𝒂𝒕𝒆𝒓 𝒂𝒏𝒅 𝑬𝑺)
+
+Daily Weighted Average—Determining Compliance with 30 TAC 115
+
+If you determine that your coatings do not meet the VOC content limits established at
+30 TAC, Chapter 115, Subchapter E, you can either replace them with compliant
+coatings or calculate the daily weighted average for all coatings combined in each
+individual coating line. A coating line consists of a series of applications that include
+coating, drying, and curing.
+The daily weighted average option is defined at 30 TAC 115.420(6) as:
+
+The total weight of VOC emissions from all coatings subject to the same emission
+standard in Section 115.421 of this title (relating to Emission Specifications), divided
+by the total volume of those coatings (minus water and exempt solvent) delivered to
+the application system each day. Coatings subject to different emission standards in 30
+TAC 115.421 may not be combined for calculating the daily weighted average.
+If the daily weighted average still does not demonstrate compliance with the rule, then
+you will have to change coatings. Just adding more water and exempt solvent to the
+coating will not fix the problem. In fact, it will just make the problem worse, and
+increase the VOC content.
+Example Data:
+
+Coating D VOC content
+Coating E VOC content
+Coating F VOC content
+
+3.47 lb VOC/gal (minus water and exempt solvent)
+4.00 lb VOC/gal (minus water and exempt solvent)
+2.52 lb VOC/gal (minus water and exempt solvent)
+
+You check your MSDS and determine that the VOC content is 3.47 pounds of VOC per
+gallon for Coating D, 4.00 pounds of VOC per gallon for Coating E, and 2.52 pounds of
+VOC per gallon for Coating F. You review your records and determine that you use 22
+
+Revised March 2011
+
+31
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+gallons per day of Coating D, 6.0 gallons per day of Coating E, and 5.0 gallons per day of
+Coating F, for a total of 33 gallons per day.
+One out of the three coatings listed above is not compliant with the coating VOCcontent limit of 3.5 pounds per gallon (minus water and exempt solvent). Therefore,
+you will need to calculate the daily weighted average in order to determine if you can
+continue to use this coating.
+
+First, you need to determine how many pounds of VOC are emitted from all of the
+coatings combined each day. Multiply 3.47 pounds of VOC per gallon by 22 gallons per
+day to get 76.34 pounds of VOC per day for Coating D.
+3.47 lb VOC 22 gal 76.34 lb VOC
+×
+=
+gal
+day
+day
+
+Next, multiply 4.00 pounds of VOC per gallon by 6.0 gallons per day to get 24.00
+pounds of VOC per day for Coating E.
+4.00 lb VOC 6.0 gal 24.00 lb VOC
+×
+=
+gal
+day
+day
+
+Then multiply 2.52 pounds of VOC per gallon by 5.0 gallons per day to get 12.6 pounds
+of VOC per day for Coating F.
+2.52 lb VOC 5.0 gal 12.6 lb VOC
+×
+=
+day
+day
+gal
+
+You then add these values together to determine the total VOC emissions in pounds
+per day.
+76.34 lb VOC 24.00 lb VOC 12.6 lb VOC 112.94 lb VOC
++
++
+=
+day
+day
+day
+day
+
+Then divide the pounds per day by the total number of gallons used in a day to
+determine the pounds of VOC in 1 gallon of coating.
+112.94 lb
+day
+3.42 lb VOC
+×
+=
+day
+33.0 gal
+gal
+
+The daily weighted average VOC content is 3.42 pounds of VOC per gallon (minus
+water and exempt solvent) for the day. As a result, the facility has achieved compliance
+with the limit of 3.5 pounds per gallon of VOC.
+
+32
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix I: Calculations for Emissions of Products of
+Combustion from Heaters and Ovens
+Some facilities will use heaters or ovens to speed up the drying of the coatings. If the
+unit is electrically powered, there will be no emissions from producing the heat itself.
+If the source of the heat is one of the fuels allowed in 30 TAC 106.433(3), products of
+combustion such as nitrogen oxides (NOX), carbon monoxide (CO), particulate matter
+(PM), sulfur dioxide (SO2), and volatile organic compounds will be emitted.
+Emissions of products of combustion are easily estimated by using the burner rating
+on the heater or oven name plate or by contacting the oven or heater supplier. The
+ratings will typically appear as one of the following:
+MMBtu/hr—million British thermal units per hour
+MBtu/hr—thousand British thermal units per hour
+SCF/hr—standard cubic feet per hour
+
+In order to estimate emissions, you will need the heating value of the fuel in British
+thermal units per standard cubic foot (Btu/scf). This may be obtained from your
+supplier. For this example, a typical value of 1,020 Btu/scf for natural gas may be used
+in calculating emissions.
+Finally, you will need to estimate how many hours per year that you will use the oven
+or heater.
+The information that you have collected so far will be used along with the emission
+factors from the EPA Compilation of Air Pollutant Emission Factors (AP-42), Section
+1.4. This portion of the document is available on the EPA’s website at
+<http://www.epa.gov/ttnchie1/ap42/>.
+The emission factors for natural gas units are as follows:
+Air
+Contaminant
+
+Firing Rate Less Than
+6
+0.3 MMBtu/hr (lb/10 scf)
+
+Firing Rate Between 0.3 MMBtu/hr
+6
+6
+(lb/10 scf) and 100 MMBtu/hr (lb/10 scf)
+
+NO x
+
+94
+
+100
+
+CO
+
+40
+
+84
+
+PM
+
+7.6
+
+7.6
+
+VOC
+
+5.5
+
+5.5
+
+SO 2
+
+0.6
+
+0.6
+
+As you can see, the emission factor units are in lb/106 scf, which can be rewritten as
+lb/million scf or lb/MMscf.
+Example:
+
+You have a natural gas–fired drying oven with a firing rate of 2.1 MMBtu/hr that you
+use to dry parts at your shop. You’ve determined that the oven has been used a
+maximum of 2,500 hours in a year. You find your emission factors at the EPA’s
+website. Now you are ready to calculate your hourly (short-term) emissions as well as
+your annual (long-term) emissions.
+Revised March 2011
+33
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Multiply the emission factor of the contaminant (lb/MMscf) by 1/heating value of fuel
+(Btu/scf) by the firing rate (from the name or rating plate) in MMBtu/hr to get the
+hourly (short-term) emissions. Multiply the hourly (short-term) emission (lb/hr) by
+the yearly hour of operation (hr/yr), then divide by 2,000 lb to convert to tons to get
+the annual (long-term) emissions.
+Hourly (Short-term) Emissions in Pounds per Hour
+
+Nitrogen Oxides
+100 𝑙𝑏 𝑁𝑂𝑥
+𝑠𝑐𝑓
+2.1 𝑀𝑀𝐵𝑡𝑢 𝟎. 𝟐𝟎𝟔 𝒍𝒃 𝑵𝑶𝒙
+×
+×
+=
+𝑀𝑀𝑠𝑐𝑓
+1,020 𝐵𝑡𝑢
+ℎ𝑟
+𝒉𝒓
+Carbon Monoxide
+84 𝑙𝑏 𝐶𝑂
+𝑠𝑐𝑓
+2.1 𝑀𝑀𝐵𝑡𝑢 𝟎. 𝟏𝟕𝟑 𝒍𝒃 𝑪𝑶
+×
+×
+=
+𝑀𝑀𝑠𝑐𝑓 1,020 𝐵𝑡𝑢
+𝒉𝒓
+ℎ𝑟
+
+Particulate Matter
+𝑠𝑐𝑓
+2.1 𝑀𝑀𝐵𝑡𝑢 𝟎. 𝟎𝟏𝟔 𝒍𝒃 𝑷𝑴
+7.6 𝑙𝑏 𝑃𝑀
+×
+×
+=
+𝒉𝒓
+𝑀𝑀𝑠𝑐𝑓
+1,020 𝐵𝑡𝑢
+ℎ𝑟
+
+Volatile Organic Compounds
+5.5 𝑙𝑏 𝑉𝑂𝐶
+𝑠𝑐𝑓
+2.1 𝑀𝑀𝐵𝑡𝑢 𝟎. 𝟎𝟏𝟏 𝒍𝒃 𝑽𝑶𝑪
+×
+×
+=
+1,020 𝐵𝑡𝑢
+ℎ𝑟
+𝑀𝑀𝑠𝑐𝑓
+𝒉𝒓
+Sulfur Dioxide
+
+𝑠𝑐𝑓
+2.1 𝑀𝑀𝐵𝑡𝑢 𝟎. 𝟎𝟎𝟏 𝒍𝒃 𝑺𝑶𝟐
+0.6 𝑙𝑏 𝑆𝑂2
+×
+×
+=
+𝑀𝑀𝑠𝑐𝑓
+1,020 𝐵𝑡𝑢
+ℎ𝑟
+𝒉𝒓
+
+Annual (Long-term) Emissions in Tons per Year
+
+Nitrogen Oxides
+0.206 𝑙𝑏 𝑁𝑂𝑥 2,500 ℎ𝑟
+1 𝑡𝑜𝑛
+𝟎. 𝟐𝟓𝟕 𝒕𝒐𝒏 𝑵𝑶𝒙
+×
+×
+=
+ℎ𝑟
+𝑦𝑟
+𝒚𝒓
+2,000 𝑙𝑏
+Carbon Monoxide
+1 𝑡𝑜𝑛
+𝟎. 𝟐𝟏𝟔 𝒕𝒐𝒏 𝐂𝐎
+0.173 𝑙𝑏 CO 2,500 ℎ𝑟
+×
+×
+=
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+ℎ𝑟
+
+Particulate Matter
+0.016 𝑙𝑏 PM 2,500 ℎ𝑟
+1 𝑡𝑜𝑛
+𝟎. 𝟎𝟐𝟎 𝒕𝒐𝒏 𝐏𝐌
+×
+×
+=
+ℎ𝑟
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+
+Volatile Organic Compounds
+0.011 𝑙𝑏 VOC 2,500 ℎ𝑟
+1 𝑡𝑜𝑛
+𝟎. 𝟎𝟏𝟒 𝒕𝒐𝒏 𝐕𝐎𝐂
+×
+×
+=
+ℎ𝑟
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+Sulfur Dioxide
+
+0.001 𝑙𝑏 SO2 2,500 ℎ𝑟
+1 𝑡𝑜𝑛
+𝟎. 𝟎𝟎𝟏𝟑 𝒕𝒐𝒏 𝐒𝐎𝟐
+×
+×
+=
+ℎ𝑟
+𝑦𝑟
+2,000 𝑙𝑏
+𝒚𝒓
+
+If you need help completing these calculations, feel free to contact the Air Permits
+Division at 512-239-1250.
+34
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix J: Examples of Acceptable Stack Designs
+
+Revised March 2011
+
+35
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Appendix K: Compliance Worksheet
+You will need to gather information about your business from your records, your paint
+supplier, Material Safety Data Sheets (MSDS), or technical data sheets in order to
+complete calculations and determine compliance with various regulations. Answering
+the following questions will help you get started.
+
+Materials Usage
+
+How many gallons of cleaning and stripping solvents do you use per year?
+___________ gallons
+
+How many gallons of coatings, excluding plating materials, do you use per year?
+___________ gallons
+
+How many pounds of dye do you use per year?
+___________ pounds
+
+How many gallons of bleach do you use per year?
+___________ gallons
+
+How many gallons of fragrance, excluding odorants, do you use per year?
+___________ gallons
+
+How many gallons of detergents (water-based surfactants) do you use per year?
+
+___________ gallons
+
+VOC and Exempt-Solvent Content per Gallon of Coating
+If you mix your coatings, what is the VOC and exempt-solvent content in each
+component of your mixed coating?
+
+Component A:
+Component B:
+Thinner:
+
+______ pounds VOC per gallon
+______ pounds VOC per gallon
+
+______ pounds VOC per gallon
+
+_____ pounds ES per gallon
+_____ pounds ES per gallon
+_____ pounds ES per gallon
+
+If you mix your coatings, what is the mixing ratio for your mixed coating?
+_____:_____ ratio
+
+If you thin your coatings, what is the thinning ratio for your mixed coating?
+_____:_____ ratio
+
+Coating Activities
+
+36
+
+What is the VOC and exempt solvent content in each mixed coating and thinner?
+
+Revised March 2011
+
+TCEQ publication RG-404
+
+Surface Coating Facilities: A Guide for Obtaining Air Authorization in Texas
+
+Coating A: ______ pounds VOC per gallon
+
+______ pounds ES per gallon
+
+Thinner:
+
+______ pounds ES per gallon
+
+Coating B: ______ pounds VOC per gallon
+Coating C: ______ pounds VOC per gallon
+______ pounds VOC per gallon
+
+______ pounds ES per gallon
+______ pounds ES per gallon
+
+What is the maximum amount of coating you apply hourly and annually?
+___________ gallons per hour
+
+Cleanup Activities
+
+___________ gallons per year
+
+What is the VOC content in your cleanup solvent?
+___________ pounds VOC per gallon
+
+What is the maximum amount of cleanup solvent you use hourly and annually?
+___________ gallons per hour
+
+___________ gallons per year
+
+How much of the used solvent is discarded after the cleanup is complete?
+___________ gallons
+
+Booth Specifications
+What is the flow rate of your exhaust fan in cubic feet per minute?
+___________ cubic feet per minute
+
+What is the flow rate of the air makeup unit fan in cubic feet per minute?
+___________ cubic feet per minute
+
+What is the area of all the booth openings that are normally open when the booth is in
+operation?
+___________ square feet
+
+Revised March 2011
+
+37
+
+

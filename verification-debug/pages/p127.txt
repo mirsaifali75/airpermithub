@@ -1,0 +1,2555 @@
+1/25/95
+
+MEMORANDUM
+SUBJECT:
+
+Options for Limiting the Potential to Emit (PTE) of a
+Stationary Source Under Section 112 and Title V of the
+Clean Air Act (Act)
+
+FROM:
+
+John S. Seitz, Director
+Office of Air Quality Planning and Standards (MD-10)
+Robert I. Van Heuvelen, Director
+Office of Regulatory Enforcement (2241)
+
+TO:
+
+Director, Air, Pesticides and Toxics
+Management Division, Regions I and IV
+Director, Air and Waste Management Division,
+Region II
+Director, Air, Radiation and Toxics Division,
+Region III
+Director, Air and Radiation Division,
+Region V
+Director, Air, Pesticides and Toxics Division,
+Region VI
+Director, Air and Toxics Division,
+Regions VII, VIII, IX, and X
+
+Many stationary source requirements of the Act apply only to
+"major" sources. Major sources are those sources whose emissions
+of air pollutants exceed threshold emissions levels specified in
+the Act. For instance, section 112 requirements such as MACT and
+section 112(g) and title V operating permit requirements largely
+apply only to sources with emissions that exceed specified levels
+and are thus major. To determine whether a source is major, the
+Act focuses not only on a source's actual emissions, but also on
+its potential emissions. Thus, a source that has maintained
+actual emissions at levels below the major source threshold could
+still be subject to major source requirements if it has the
+potential to emit major amounts of air pollutants. However, in
+situations where unrestricted operation of a source would result
+in a potential to emit above major-source levels, such sources
+may legally avoid program requirements by taking federally-
+
+2
+enforceable permit conditions which limit emissions to levels
+below the applicable major source threshold. Federallyenforceable permit conditions, if violated, are subject to
+enforcement by the Environmental Protection Agency (EPA) or by
+citizens in addition to the State or Local agency.
+As the deadlines for complying with MACT standards and
+title V operating permits approach, industry and State and local
+air pollution agencies have become increasingly focused on the
+need to adopt and implement federally-enforceable mechanisms to
+limit emissions from sources that desire to limit potential
+emissions to below major source levels. In fact, there are
+numerous options available which can be tailored by the States to
+provide such sources with simple and effective ways to qualify as
+minor sources. Because there appears to be some confusion and
+questions regarding how potential to emit limits may be
+established, EPA has decided to: (1) outline the available
+approaches to establishing potential to emit limitations,
+(2) describe developments related to the implementation of these
+various approaches, and (3) implement a transition policy that
+will allow certain sources to be treated as minor for a period of
+time sufficient for these sources to obtain a federallyenforceable limit.
+Federal enforceability is an essential element of
+establishing limitations on a source's potential to emit.
+Federal enforceability ensures the conditions placed on emissions
+to limit a source's potential to emit are enforceable by EPA and
+citizens as a legal and practical matter, thereby providing the
+public with credible assurances that otherwise major sources are
+not avoiding applicable requirements of the Act. In order to
+ensure compliance with the Act, any approaches developed to allow
+sources to avoid the major source requirements must be supported
+by the Federal authorities granted to citizens and EPA. In
+addition, Federal enforceability provides source owners and
+operators with assurances that limitations they have obtained
+from a State or local agency will be recognized by EPA.
+The concept of federal enforceability incorporates two
+separate fundamental elements that must be present in all
+limitations on a source's potential to emit. First, EPA must
+have a direct right to enforce restrictions and limitations
+imposed on a source to limit its exposure to Act programs. This
+requirement is based both on EPA's general interest in having the
+power to enforce "all relevant features of SIP's that are
+necessary for attainment and maintenance of NAAQS and PSD
+increments" (see 54 FR 27275, citing 48 FR 38748, August 25,
+1983) as well as the specific goal of using national enforcement
+to ensure that the requirements of the Act are uniformly
+
+3
+implemented throughout the nation (see 54 FR 27277). Second,
+limitations must be enforceable as a practical matter.
+It is important to recognize that there are shared
+responsibilities on the part of EPA, State, and local agencies,
+and on source owners to create and implement approaches to
+creating acceptable limitations on potential emissions. The lead
+responsibility for developing limitations on potential emissions
+rests primarily with source owners and State and local agencies.
+At the same time, EPA must work together with interested parties,
+including industry and States to ensure that clear guidance is
+established and that timely Federal input, including Federal
+approval actions, is provided where appropriate. The guidance in
+this memorandum is aimed towards continuing and improving this
+partnership.
+Available Approaches for Creating Federally-enforceable
+Limitations on the Potential to Emit
+There is no single "one size fits all" mechanism that would
+be appropriate for creating federally-enforceable limitations on
+potential emissions for all sources in all situations. The
+spectrum of available mechanisms should, however, ensure that
+State and local agencies can create federally-enforceable
+limitations without undue administrative burden to sources or the
+agency. With this in mind, EPA views the following types of
+programs, if submitted to and approved by EPA, as available to
+agencies seeking to establish federally-enforceable potential to
+emit limits:1
+1. Federally-enforceable State operating permit programs
+(FESOPs) (non-title V). For complex sources with numerous and
+varying emission points, case-by-case permitting is generally
+needed for the establishment of limitations on the source's
+potential to emit. Such case-by-case permitting is often
+accomplished through a non-title V federally-enforceable State
+operating permit program. This type of permit program, and its
+basic elements, are described in guidance published in the
+Federal Register on June 28, 1989 (54 FR 27274). In short, the
+program must: (a) be approved into the SIP, (b) impose legal
+obligations to conform to the permit limitations, (c) provide for
+limits that are enforceable as a practical matter, (d) be issued
+in a process that provides for review and an opportunity for
+1
+
+This is not an exhaustive list of considerations affecting
+potential to emit. Other federally-enforceable limits can be
+used, for example, source-specific SIP revisions. For brevity,
+we have included those which have the widest applicability.
+
+4
+comment by the public and by EPA, and (e) ensure that there is no
+relaxation of otherwise applicable Federal requirements. The EPA
+believes that these type of programs can be used for both
+criteria pollutants and hazardous air pollutants, as described in
+the memorandum, "Approaches to Creating Federally-Enforceable
+Emissions Limits," November 3, 1993. This memorandum (referred
+to below as the November 1993 memorandum) is included for your
+information as Attachment 1. There are a number of important
+clarifications with respect to hazardous air pollutants
+subsequent to the November 1993 memorandum which are discussed
+below (see section entitled "Limitations on Hazardous Air
+Pollutants").
+2. Limitations established by rules. For less complex
+plant sites, and for source categories involving relatively few
+operations that are relatively similar in nature, case-by-case
+permitting may not be the most administratively efficient
+approach to establishing federally-enforceable restrictions. One
+approach that has been used is to establish a general rule which
+creates federally-enforceable restrictions at one time for many
+sources (these rules have been referred to as "exclusionary"
+rules and by some permitting agencies as "prohibitory" rules). A
+specific suggested approach for volatile organic compounds (VOC)
+limits by rule was described in EPA's memorandum dated October
+15, 1993 entitled "Guidance for State Rules for Optional
+Federally-Enforceable Emissions Limits Based Upon Volatile
+Organic Compound (VOC) Use." An example of such an exclusionary
+rule is a model rule developed for use in California. (The
+California model rule is attached, along with a discussion of its
+applicability to other situations--see Attachment 2).
+Exclusionary rules are included in a State's SIP and generally
+become effective upon approval by EPA.
+3. General permits. A concept similar to the exclusionary
+rule is the establishment of a general permit for a given source
+type. A general permit is a single permit that establishes terms
+and conditions that must be complied with by all sources subject
+to that permit. The establishment of a general permit provides
+for conditions limiting potential to emit in a one-time
+permitting process, and thus avoids the need to issue separate
+permits for each source within the covered source type or
+category. Although this concept is generally thought of as an
+element of a title V permit program, there is no reason that a
+State or local agency could not submit a general permit program
+as a SIP submittal aimed at creating potential to emit limits for
+groups of sources. Additionally, general permits can be issued
+under the auspices of a SIP-approved FESOP. The advantage of a
+general permit, when compared to an exclusionary rule, is that
+upon approval by EPA of the State's permit program, a
+
+5
+general permit could be written for one or more additional source
+types without triggering the need for the formal SIP revision
+process.
+4. Construction permits. Another type of case-by-case
+permit is a construction permit. These permits generally cover
+new and modified sources, and States have developed such permit
+programs as an element of their SIP's. As described in the
+November 1993 memorandum, these State major and minor new source
+review (NSR) construction permits can provide for federallyenforceable limitations on a source's potential to emit. Further
+discussion of the use of minor source NSR programs is contained
+in EPA's letter to Jason Grumet, NESCAUM, dated November 2, 1994,
+which is contained in Attachment 3. As noted in this letter, the
+usefulness of minor NSR programs for the creation of potential to
+emit limitations can vary from State to State, and is somewhat
+dependent on the scope of a State's program.
+5. Title V permits. Operating permits issued under the
+Federal title V operating permits program can, in some cases,
+provide a convenient and readily available mechanism to create
+federally-enforceable limits. Although the applicability date
+for part 70 permit programs is generally the driving force for
+most of the current concerns with respect to potential to emit,
+there are other programs, such as the section 112 air toxics
+program, for which title V permits may themselves be a useful
+mechanism for creating potential to emit limits. For example,
+many sources will be considered to be major by virtue of
+combustion emissions of nitrogen oxides or sulfur dioxide, and
+will be required to obtain part 70 permits. Such permits could
+be used to establish federally-enforceable limitations that could
+ensure that the source is not considered a major source of
+hazardous air pollutants.
+Practicable Enforceability
+If limitations--whether imposed by SIP rules or through
+individual or general permits--are incomplete or vague or
+unsupported by appropriate compliance records, enforcement by the
+States, citizens and EPA would not be effective. Consequently,
+in all cases, limitations and restrictions must be of sufficient
+quality and quantity to ensure accountability (see 54 FR 27283).
+The EPA has issued several guidance documents explaining the
+requirements of practicable enforceability (e.g., "Guidance on
+Limiting Potential to Emit in New Source Permitting," June 13,
+1989; memorandum from John Rasnic entitled "Policy Determination
+on Limiting Potential to Emit for Koch Refining Company's Clean
+Fuels Project," March 13, 1992). In general, practicable
+
+6
+enforceability for a source-specific permit means that the
+permit's provisions must specify: (1) A technically-accurate
+limitation and the portions of the source subject to the
+limitation; (2) the time period for the limitation (hourly,
+daily, monthly, and annual limits such as rolling annual limits);
+and (3) the method to determine compliance including appropriate
+monitoring, recordkeeping, and reporting. For rules and general
+permits that apply to categories of sources, practicable
+enforceability additionally requires that the provisions:
+(1) identify the types or categories of sources that are covered
+by the rule; (2) where coverage is optional, provide for notice
+to the permitting authority of the source's election to be
+covered by the rule; and (3) specify the enforcement consequences
+relevant to the rule. More specific guidance on these
+enforceability principles as they apply to rules and general
+permits is provided in Attachment 4.
+Limitations on Hazardous Air Pollutants (HAP)
+There are a number of important points to recognize with
+respect to the ability of existing State and local programs to
+create limitations for the 189 HAP listed in (or pursuant to)
+section 112(b) of the Act, consistent with the definitions of
+"potential to emit" and "federally-enforceable" in 40 CFR 63.2
+(promulgated March 16, 1994, 59 FR 12408 in the part 63 General
+Provisions). The EPA believes that most State and local programs
+should have broad capabilities to handle the great majority of
+situations for which a potential to emit limitation on HAP is
+needed.
+First, it is useful to note that the definition of potential
+to emit for the Federal air toxics program (see the subpart A
+"general provisions," section 63.2) considers, for purposes of
+controlling HAP emissions, federally-enforceable limitations on
+criteria pollutant emissions if "the effect such limitations
+would have on "[hazardous air pollutant] . . . emissions" is
+federally-enforceable (emphasis added). There are many examples
+of such criteria pollutant emission limits that are present in
+federally-enforceable State and local permits and rules.
+Examples would include a limitation constraining an operation to
+one (time limit specified) shift per day or limitations that
+effectively limit operations to 2000 hours per year. Other
+examples would include limitations on the amount of material
+used, for example a permit limitation constraining an operation
+to using no more than 100 gallons of paint per month.
+Additionally, federally-enforceable permit terms that, for
+example, required an incinerator to be operated and maintained at
+no less than 1600 degrees would have an obvious "effect" on the
+HAP present in the inlet stream.
+
+7
+Another federally-enforceable way criteria pollutant
+limitations affect HAP can be described as a "nested" HAP limit
+within a permit containing conditions limiting criteria
+pollutants. For example, the particular VOC's within a given
+operation may include toluene and xylene, which are also HAP. If
+the VOC-limiting permit has established limitations on the amount
+of toluene and xylene used as the means to reduce VOC, those
+limitations would have an obvious "effect" on HAP as well.
+In cases as described above, the "effect" of criteria
+pollutant limits will be straightforward. In other cases,
+information may be needed on the nature of the HAP stream
+present. For example, a limit on VOC that ensured total VOC's of
+20 tons per year may not ensure that each HAP present is less
+than 10 tons per year without further investigation. While the
+EPA intends to develop further technical guidance on situations
+for which additional permit terms and conditions may be needed to
+ensure that the "effect" is enforceable as a practical matter,
+the EPA intends to rely on State and local agencies to employ
+care in drafting enforceable requirements which recognize obvious
+environmental and health concerns.
+There are, of course, a few important pollutants which are
+HAP but are not criteria pollutants. Example of these would
+include methylene chloride and other pollutants which are
+considered nonreactive and therefore exempt from coverage as
+VOC's. Especially in cases where such pollutants are the only
+pollutants present, criteria pollutant emission limitations may
+not be sufficient to limit HAP. For such cases, the State or
+local agency will need to seek program approval under section
+112(l) of the Act.
+Section 112(l) provides a clear mechanism for approval of
+State and local air toxics programs for purposes of establishing
+HAP-specific PTE limits. The EPA intends, where appropriate,
+that in approving permitting programs into the SIP, to add
+appropriate language citing approval pursuant to section 112(l)
+as well. An example illustrating section 112(l) approval is the
+approval of the State of Ohio's program for limiting potential to
+emit (see 59 FR 53587, October 25, 1994). In this notice, EPA
+granted approval under section 112(l) for hazardous air
+pollutants aspects of a State program for limiting potential to
+emit. Such language can be added to any federally-enforceable
+State operating permit program, exclusionary rule, or NSR program
+update SIP approval notice so long as the State or local program
+has the authority to regulate HAP and meets other section 112(l)
+approval criteria. Transition issues related to such
+section 112(l) approvals are discussed below.
+
+8
+Determination of Maximum Capacity
+While EPA and States have been calculating potential to emit
+for a number of years, EPA believes that it is important at this
+time to provide some clarification on what is meant in the
+definition of potential to emit by the "maximum capacity of a
+stationary source to emit under its physical and operational
+design." Clearly, there are sources for which inherent physical
+limitations for the operation restrict the potential emissions of
+individual emission units. Where such inherent limitations can
+be documented by a source and confirmed by the permitting agency,
+EPA believes that States have the authority to make such
+judgements and factor them into estimates of a stationary
+source's potential to emit.
+The EPA believes that the most straightforward examples of
+such inherent limitations is for single-emission unit type
+operations. For example, EPA does not believe that the "maximum
+capacity" language requires that owner of a paint spray booth at
+a small auto body shop must assume that (even if the source could
+be in operation year-round) spray equipment is operated 8760
+hours per year in cases where there are inherent physical
+limitations on the number of cars that can be painted within any
+given period of time. For larger sources involving multiple
+emissions units and complex operations, EPA believes it can be
+more problematic to identify the inherent limitations that may
+exist.
+The EPA intends, within its resource constraints, to issue
+technical assistance in this area by providing information on the
+type of operational limits that may be considered acceptable to
+limit the potential to emit for certain individual small source
+categories.
+Transition Guidance for Section 112 and Title V Applicability
+Most, if not all, States have recognized the need to develop
+options for limiting the potential emissions of sources and are
+moving forward with one or more of the strategies described in
+the preceding sections in conjunction with the submission and
+implementation of their part 70 permit programs. However, EPA is
+aware of the concern of States and sources that title V or
+section 112 implementation will move ahead of the development and
+implementation of these options, leaving sources with actual
+emissions clearly below the major source thresholds potentially
+subject to part 70 and other major source requirements. Gaps
+could theoretically occur during the time period it takes for a
+State program to be designed and administratively adopted by the
+State, approved into the SIP by EPA, and implemented as needed to
+
+9
+cover individual sources.
+The EPA is committed to aiding all States in developing and
+implementing adequate, streamlined, and cost-effective vehicles
+for creating federally-enforceable limits on a source's potential
+emissions by the time that section 112 or title V requirements
+become effective. To help bridge any gaps, EPA will expedite its
+reviews of State exclusionary rules and operating permit rules
+by, among other things, coordinating the approval of these rules
+with the approval of the State's part 70 program and by using
+expeditious approval approaches such as "direct final" Federal
+Register notices to ensure that approval of these programs does
+not lag behind approval of the part 70 program.
+In addition, in such approval notices EPA will affirm any
+limits established under the State's program since its adoption
+by the State but prior to Federal approval if such limits were
+established in accordance with the procedures and requirements of
+the approved program. An example of language affirming such
+limits was recently used in approving an Illinois SIP revision
+(see 57 FR 59931, included as Attachment 5).
+The EPA remains concerned that even with expedited approvals
+and other strategies, sources may face gaps in the ability to
+acquire federally-enforceable potential to emit limits due to
+delays in State adoption or EPA approval of programs or in their
+implementation. In order to ensure that such gaps do not create
+adverse consequences for States or for sources, EPA is announcing
+a transition policy for a period up to two years from the date of
+this memorandum. The EPA intends to make this transition policy
+available at the discretion of the State or local agency to the
+extent there are sources which the State believes can benefit
+from such a transition policy. The transition period will extend
+from now until the gaps in program implementation are filled, but
+no later than January 1997. Today's guidance, which EPA intends
+to codify through a notice and comment rulemaking, provides
+States discretion to use the following options for satisfying
+potential to emit requirements during this transition period.
+1. Sources maintaining emissions below 50 percent of all
+applicable major source requirements. For sources that typically
+and consistently maintain emissions significantly below major
+source levels, relatively few benefits would be gained by making
+such sources subject to major source requirements under the Act.
+For this reason, many States are developing exclusionary rules
+and general permits to create simple, streamlined means to ensure
+that these sources are not considered major sources. To ease the
+burden on States' implementation of title V, and to ensure that
+delays in EPA's approval of these types of programs will not
+
+10
+cause an administrative burden on the States, EPA is providing a
+2-year transition period for sources that maintain their actual
+emissions, for every consecutive 12-month period (beginning with
+the 12 months immediately preceding the date of this memorandum),
+at levels that do not exceed 50 percent of any and all of the
+major stationary source thresholds applicable to that source. A
+source that exceeds the 50 percent threshold, without complying
+with major source requirements of the Act (or without otherwise
+limiting its potential to emit), could be subject to enforcement.
+For this 2-year period, such sources would not be treated as
+major sources and would not be required to obtain a permit that
+limits their potential to emit. To qualify under this transition
+policy, sources must maintain adequate records on site to
+demonstrate that emissions are maintained below these thresholds
+for the entire as major sources and would not be required to
+obtain a permit that limits their potential to emit that would be
+considered to be adequate during this transition period.
+Consistent with the California approach, EPA believes it is
+appropriate for the amount of recordkeeping to vary according to
+the level of emissions (see paragraphs 1.2 and 4.2 of the
+attached rule).
+2. Larger sources with State limits. For the 2-year
+transition period, restrictions contained in State permits issued
+to sources above the 50 percent threshold would be treated by EPA
+as acceptable limits on potential to emit, provided: (a) the
+permit is enforceable as a practical matter; (b) the source owner
+submits a written certification to EPA that it will comply with
+the limits as a restriction on its potential to emit; and (c) the
+source owner, in the certification, accepts Federal and citizen
+enforcement of the limits (this is appropriate given that the
+limits are being taken to avoid otherwise applicable Federal
+requirements). Such limits will be valid for purposes of
+limiting potential to emit from the date the certification is
+received by EPA until the end of the transition period. States
+interested in making use of this portion of the transition policy
+should work with their Regional Office to develop an appropriate
+certification process.
+3. Limits for noncriteria HAP. For noncriteria HAP for
+which no existing federally-approved program is available for the
+creation of federally-enforceable limits, the 2-year transition
+period provides for sufficient time to gain approval pursuant to
+section 112(l). For the 2-year transition period, State
+restrictions on such noncriteria pollutants issued to sources
+with emissions above the 50 percent threshold would be treated by
+EPA as limiting a source's potential to emit, provided that:
+(a) the restrictions are enforceable as a practical matter;
+(b) the source owner submits a written certification to EPA that
+
+11
+it will comply with the limits as a restriction on its potential
+to emit; and (c) the source owner, in the certification, accepts
+Federal and citizen enforcement of the limits. Such limits will
+be valid for purposes of limiting potential to emit from the date
+the certification is received by EPA until the end of the
+transition period.
+The Regional Offices should send this memorandum, including
+the attachments, to States within their jurisdiction. Questions
+concerning specific issues and cases should be directed to the
+appropriate Regional Office. Regional Office staff may contact
+Timothy Smith of the Integrated Implementation Group at
+919-541-4718, or Clara Poffenberger with the Air Enforcement
+Division at 202-564-8709.
+Attachments
+cc:
+
+Air Branch Chief, Region I-X
+Regional Counsels
+
+Attachment 1
+November 3, 1993 memorandum
+November 3, 1993
+
+MEMORANDUM
+SUBJECT:
+
+Approaches to Creating Federally-Enforceable
+Emissions Limits
+
+FROM:
+
+John S. Seitz, Director
+Office of Air Quality Planning and Standards (MD-10)
+
+TO:
+
+Director, Air, Pesticides and Toxics
+Management Division, Regions I and IV
+Director, Air and Waste Management Division,
+Region II
+Director, Air, Radiation and Toxics Division,
+Region III
+Director, Air and Radiation Division,
+Region V
+Director, Air, Pesticides and Toxics Division,
+Region VI
+Director, Air and Toxics Division,
+Regions VII, VIII, IX, and X
+
+The new operating permits program under title V of the Clean
+Air Act (Act), combined with the additional and lower thresholds
+for "major" sources also provided by the 1990 Amendments to the
+Act, has led to greatly increased interest by State and local air
+pollution control agencies, as well as sources, in obtaining
+federally-enforceable limits on source potential to emit air
+pollutants. Such limits entitle sources to be considered "minor"
+for the purposes of title V permitting and various other
+requirements of the Act. Numerous parties have identified this
+as a high priority concern potentially involving thousands of
+sources in each of the larger States.
+The issue of creating federally-enforceable emissions limits
+has broad implications throughout air programs. Although many of
+the issues mentioned above have arisen in the context of the
+title V permits program, the same issues exist for other
+programs, including those under section 112 of the Act. As
+discussed below, traditional approaches to creating federallyenforceable emissions limits may be unnecessarily burdensome and
+time-consuming for certain types and sizes of sources. In
+
+addition, they have been of limited usefulness with respect to
+creating such limits for emissions of hazardous air pollutants
+(HAP's).
+The purpose of this memorandum is to respond to these needs
+by announcing the availability of two further approaches to
+creating federally-enforceable emissions limits: the extension
+of existing criteria pollutant program mechanisms for HAP program
+purposes, and the creation of certain classes of standardized
+emissions limits by rule. We believe that these options are
+responsive to emerging air program implementation issues and
+provide a reasonable balance between the need for administrative
+streamlining and the need for emissions limits that are
+technically sound and enforceable.
+Background
+Various regulatory options already exist for the creation of
+federally-enforceable limits on potential to emit. These were
+summarized in a September 18, 1992 memorandum from John Calcagni,
+Director, Air Quality Management Division. That memorandum
+identified the five regulatory mechanisms generally seen as
+available. These are: State major and minor new source review
+(NSR) permits [if the NSR program has been approved into the
+State implementation plan (SIP) and meets certain procedural
+requirements]; operating permits based on programs approved into
+the SIP pursuant to the criteria in the June 28, 1989 Federal
+Register (54 FR 27274); and title V permits (including general
+permits). Also available are SIP limits for individual sources
+and limits for HAP's created through a State program approved
+pursuant to section 112(l) of the Act.
+Regional Office and State air program officials realize that
+these five options are generally workable, but feel that the
+programs emerging from the 1990 Amendments present certain
+further needs that are not well met. They note that NSR is not
+always available, title V permitting can be more rigorous than
+appropriate for those sources that are in fact quite small, and
+that general permits have limitations in their usefulness. The
+use of State operating permits approved into the SIP pursuant to
+the June 28, 1989 Federal Register is generally considered to be
+a promising option for some of these transactions; however, these
+programs do not regulate toxics directly.
+State Operating Permits for Both Criteria Pollutants
+and HAP's
+As indicated above, State operating permits issued by
+programs approved into the SIP pursuant to the process provided
+in the June 28, 1989 Federal Register are recognized as federally
+
+enforceable. This is a useful option, but has historically been
+viewed as limited in its ability to directly create emissions
+limits for HAP's because of the SIP focus on criteria pollutants.
+Since that option was created, however, section 112 of the
+Act has been rewritten, creating significant new regulatory
+requirements and conferring additional responsibilities and
+authorities upon the Environmental Protection Agency (EPA) and
+the States. Section 112 now mandates a wide range of activities:
+source-specific preconstruction reviews, areawide approaches to
+controlling risk, provisions for permitting pursuant to the
+title V permitting program, and State program provisions in
+section 112(l) that are similar to aspects of the SIP program. A
+result of these changes is that implementation of toxics programs
+will entail the use of many of the same administrative mechanisms
+as have been in use for the criteria pollutant programs.
+Upon further analysis of these new program mandates and
+corresponding authorities, EPA concludes that section 112 of the
+Act, including section 112(l), authorizes it to recognize these
+same State operating permits programs for the creation of
+federally-enforceable emissions limits in support of the
+implementation of section 112. Congress recognized, and
+longstanding State practice confirms, that operating permits
+are core-implementing mechanisms for air quality program
+requirements. This was EPA's basis for concluding that
+section 110 of the Act authorizes the recognition and approval
+into the SIP of operating permits pursuant to the June 28, 1989
+promulgation, even though section 110 did not expressly provide
+for such a program. Similarly, broad provision of section 112(l)
+for "a program for the implementation and enforcement . . . of
+emission standards and other requirements for air pollutants
+subject to this section" provides a sound basis for EPA
+recognition of State operating permits for implementation and
+enforcement of section 112 requirements in the same manner
+as these permitting processes were recognized pursuant to
+section 110.
+In implementing this authority to approve State operating
+permits programs pursuant to section 112, it should be noted that
+the specific criteria for what constitutes a federallyenforceable permit are also the same as for the existing SIP
+programs. The June 28, 1989 Federal Register essentially
+addressed in a generic sense the core criteria for creating
+federally-enforceable emissions limits in operating permits:
+appropriate procedural mechanisms, including public notice and
+opportunity for comment, statutory authority for EPA approval of
+the State program, and enforceability as a practical matter. The
+EPA did this in the context of SIP development, not because these
+criteria are specific to the SIP, but because section 110 of the
+
+Act was seen as our only certain statutory basis for this prior
+to the 1990 Amendments. Based on the discussion above, States
+can extend or develop State operating permits programs for toxics
+pursuant to the criteria set forth in the June 28, 1989 Federal
+Register. The EPA is also evaluating analogous opportunities to
+enhance State NSR programs to address toxics and will address
+this in future guidance.
+This is a significant opportunity to limit directly the
+emissions of HAP's. It also offers the advantage of the
+administrative efficiencies that arise from using existing
+administrative mechanisms, as opposed to creating additional
+ones.
+States are encouraged to consult with EPA Regional Offices
+to discuss the details of adapting their current programs to
+carry out these additional functions. The EPA will consider
+State permitting programs meeting the criteria in the June 28,
+1989 Federal Register as being approvable for HAP program
+functions as well. States may submit their programs for
+implementing this process with their part 70 program submittals,
+or at such other time as they choose. The EPA has various
+options for administratively recognizing these State program
+submittals. The EPA plans initially to review these State
+programs as SIP review actions, but with official recognition
+pursuant to authorities in both sections 110 and 112. Once
+rulemaking pursuant to section 112(l) of the Act is completed,
+EPA expects to use the process developed in that rule for
+approving State programs for HAP's. The section 112(l) process
+may be especially useful prior to EPA approval and implementation
+of the State title V programs. The reader may wish to refer to
+the process for certain section 112(l) approvals proposed on May
+19, 1993 (58 FR 29296) (see section 63.91).
+The General Provisions (40 CFR part 63) establish the
+applicability framework for the implementation of section 112.
+In the final rule, EPA will indicate that State operating permits
+programs which meet the procedural requirements of the June 28,
+1989 Federal Register can be used to develop federallyenforceable emissions limits for HAP's, thereby limiting a
+source's potential to emit. In addition, after we gain
+implementation experience, EPA will be evaluating the usefulness
+of further rulemaking to define more specific criteria by which
+this process may be used in the implementation of programs under
+section 112 of the Act. Any such rulemaking could similarly be
+incorporated into the General Provisions in part 63.
+State-Standardized Processes Created by Rule to Establish
+Source-Specific, Federally-Enforceable Emissions Limits
+
+State air program officials have highlighted specific types
+of sources that are of particular administrative concern because
+of their nature and number. These include sources whose
+emissions are primarily volatile organic compounds (VOC) arising
+from use of solvents or coatings, such as automobile body shops.
+Another example is fuel-burning sources that have low actual
+emissions because of limited hours of operation, but with the
+potential to emit sulfur dioxide in amounts sufficient to cause
+them to be classified as major sources.
+The EPA recognizes that emissions limitations for some
+processes can be created through standardized protocols. For
+example, limitations on potential to emit could be established
+for certain VOC sources on the basis of limits on solvent use,
+backed up by recordkeeping and by periodic reporting. Similarly,
+limitations on sulfur dioxide emissions could be based on
+specified sulfur content of fuel and the source's obligation to
+limit usage to certain maximum amounts. Limits on hours of
+operation may be acceptable for certain others sources, such as
+standby boilers. In all cases, of course, the technical
+requirements would need to be supported by sufficient compliance
+procedures, especially monitoring and reporting, to be considered
+enforceable.
+The EPA concludes that such protocols could be relied on to
+create federally-enforceable limitations on potential to emit if
+adopted through rulemaking and approved by EPA. Although such an
+approach is appropriate for only a limited number of source
+categories, these categories include large numbers of sources,
+such as dry cleaners, auto body shops, gas stations, printers,
+and surface coaters. If such standardized control protocols are
+sufficiently reliable and replicable, EPA and the public need not
+be involved in their application to individual sources, as long
+as the protocols themselves have been subject to notice and
+opportunity to comment and have been approved by EPA into the
+SIP.
+To further illustrate this concept and to provide
+implementation support to the States, EPA has recently released
+guidance on one important way of using this process. This
+document, entitled "Guidance for State Rules for Optional
+Federally-Enforceable Emissions Limits Based on Volatile Organic
+Compound Use," was issued by D. Kent Berry, Acting Director, Air
+Quality Management Division, on October 15, 1993. It describes
+approvable processes by which States can create federallyenforceable emissions limits for VOC for large numbers of sources
+in a variety of source categories.
+States have flexibility in their choice of administrative
+process for implementation. In some cases, it may be adequate
+
+for a State to apply these limits to individual sources through a
+registration process rather than a permit. A source could simply
+submit a certification to the State committing to comply with the
+terms of an approved protocol. Violations of these
+certifications would constitute SIP violations, in the case of
+protocols approved into the SIP, and be subject to the same
+enforcement mechanisms as apply in the case of any other SIP
+violation. Such violations would, of course, also subject the
+source to enforcement for failure to comply with the requirements
+that apply to major sources, such as the requirement to obtain a
+title V permit or comply with various requirements of section 112
+of the Act.
+Some States have also indicated an interest in more
+expansive approaches to implementing this concept, such as making
+presumptive determinations of control equipment efficiency with
+respect to particular types of sources and pollutants. While
+such approaches are more complicated and present greater numbers
+of concerns in the EPA review process, they offer real potential
+if properly crafted. The EPA will evaluate State proposals and
+approve them if they are technically sound and enforceable as a
+practical matter.
+States may elect to use this approach to create federallyenforceable emissions limits for sources of HAP's as well. Based
+on the same authorities in section 112 of the Act, as cited above
+in the case of operating permits, EPA can officially recognize
+such State program submittals. As with the operating permits
+option discussed in the preceding section, EPA plans initially to
+review these activities as SIP revisions, but with approval
+pursuant to both sections 110 and 112 of the Act, and approve
+them through the section 112(l) process when that rule is final.
+Implementation Guidance
+As indicated above, the creation of federally-enforceable
+limits on a source's potential to emit involves the
+identification of the procedural mechanisms for these efforts,
+including the statutory basis for their approval by EPA, and the
+technical criteria necessary for their implementation. Today's
+guidance primarily addresses the procedural mechanisms available
+and the statutory basis for EPA approval.
+The EPA will be providing further information with respect
+to the implementation of these concepts. As described above, the
+first portion of this guidance, addressing limits on VOC
+emissions, was issued on October 15, 1993. My office is
+currently working with Regional Offices and certain States in
+order to assist in the development of program options under
+consideration by those States. We will provide technical and
+
+regulatory support to other State programs and will make the
+results of these efforts publicly available through the Office of
+Air Quality Planning and Standards (OAQPS) Technology Transfer
+Network bulletin board.
+We will provide further support through the release of a
+document entitled "Enforceability Requirements for Limiting
+Potential to Emit Through SIP Rules and General Permits," which
+is currently undergoing final review within EPA. In addition,
+EPA will be highlighting options for use of existing technical
+guidance with respect to creating sound and enforceable emissions
+limits. An important example of such guidance is the EPA "Blue
+Book," which has been in use by States for the past 5 years as
+part of their VOC control programs.
+States are encouraged to discuss program needs with their
+EPA Regional Offices. The OAQPS will work with them in
+addressing approvals. As indicated, additional technical
+guidance for implementing these approaches is underway and will
+be made publicly available soon. For further information, please
+call Kirt Cox at (919) 541-5399.
+cc:
+
+Air Branch Chief, Regions I-X
+Regional Counsel, Regions I-X
+OAQPS Division Directors
+A. Eckert
+M. Winer
+A. Schwartz
+E. Hoerath
+
+Attachment 2
+California Example Rule
+Background
+State agencies and local agencies (such as the Air Pollution
+Control Districts in California) can adopt rules which place
+emissions limitations on a category of sources through a
+combination of limitations and compliance requirements. These
+rules, if practicably enforceable, adopted with adequate public
+process and approved into the SIP, can validly limit potential to
+emit. Moreover, because State or local rules can cover many
+sources with a single regulatory action, they are well-suited to
+cover large populations of smaller sources. Many States are
+finding that a combination of SIP rules or general permits for
+smaller sources combined with individual permits for larger
+sources provides the simplest means of ensuring that minor source
+emissions are adequately limited.
+Discussion of California Rule
+The EPA, the California Air Pollution Control Officers
+Association and the California Air Resources Board recently
+completed development of a model rule for use by the California
+Air Pollution Control Districts. Because the rule contains
+several innovations, including covering all source categories,
+and should prove to be an inexpensive and efficient means of
+limiting the potential emissions of thousands of sources in
+California, the EPA believes that parts of the rule may be
+helpful for other States to review and consider.
+The proposed rule is designed to place smaller sources under
+annual emissions limits which restrict their "potential to emit"
+and thus their exposure to "major source" requirements of the
+Clean Air Act. The rule ensures compliance with the annual limit
+through a series of recordkeeping and reporting requirements.
+These requirements are tapered to reduce burdens as source size
+decreases. The rule creates three levels of responsibility. The
+first tier requires both recordkeeping and reporting. The second
+tier requires only recordkeeping with no reporting. For
+instance, sources that emit only attainment pollutants which
+limit their emissions to below 25 tons per year have no reporting
+requirement. For sources under 5 tons per year (or 2 tons per
+year for a single hazardous air pollutant), there is no specified
+recordkeeping or reporting requirements although these sources
+must still maintain sufficient records to demonstrate their
+compliance with the rule.
+To the extent possible, the recordkeeping requirements are
+itemized by source category and are designed to take advantage of
+
+records that sources are already likely to maintain. Through
+these measures, the rule should assure the public that the
+sources subject to the rule are properly maintaining their
+emissions below major source levels, while maximizing source
+flexibility and minimizing paperwork.
+There are other safeguards built into the rule and in
+California's overall regulatory scheme which add to the EPA's
+confidence that the proposal can work. The rule applies only to
+sources that agree to limit their emissions to 50 percent or less
+of the major source threshold. Sources with emissions above this
+level must either comply with all applicable "major source"
+requirements or secure a source-specific, federally-enforceable
+Air Pollution Control District permit that properly limits
+emissions to levels below major source thresholds. Some sources
+may be able to qualify for an "alternative operation limit" which
+places simple operating limits on a source's combustion of fuel,
+sale of gasoline or use of a solvent. Because of the ease with
+which compliance can be tracked with operational limits, the rule
+allows sources using these limits to go up to 80 percent of the
+major source threshold. Either way, EPA believes that the rule
+creates a sufficient compliance buffer.
+Moreover, California has an extensive permit and inspection
+infrastructure that increases EPA's confidence that the rule will
+prove adequate for limiting emissions. California law requires
+that, upon annual renewal, each permit be reviewed to determine
+that the permit conditions are adequate to assure compliance with
+district rules and other applicable requirements. In addition,
+most California Air Pollution Control Districts have an extensive
+inspection program which means that compliance with the rule will
+be spot checked by inspectors visiting the source.
+Finally, the rule is designed to provide smaller sources
+with a federally-enforceable means of limiting their potential
+emissions. The rule excludes sources that already have a
+federally enforceable operating permit, and it cannot be used to
+avoid complying with an permit required by the Air Pollution
+Control Districts.
+Aside from these general observations, EPA did have a number
+of comments regarding specific language included in the rule.
+The three most significant comments are set forth below.
+However, States interested in using this rule as a model should
+be aware that it was specifically designed to fit with California
+State law and existing SIP provisions and that States may wish to
+consider making other changes to reflect their individual needs
+and requirements.
+
+Section 2.7: In a PM-10 nonattainment area, PM-10
+precursors may need to be included when determining whether
+a source is major as required by section 189(e) of the Clean
+Air Act. Districts adopting this model rule should consider
+whether the definition of "Major Source" in section 2.7
+should be augmented to include sources of PM-10 precursors.
+Section 4.2(D):
+The rule allows sources using air
+pollution control equipment to demonstrate compliance
+through the maintenance of general records on the unit and
+its operations. EPA has always been concerned with this
+provision since many pollution control units are only
+effective if specific operating procedures are followed.
+These specifics are best set and tracked in a sourcespecific, federally enforceable permit. For this reason,
+section 1.3 sunsets the applicability of the draft rule,
+after January 1, 1999, to pollution control equipment. For
+the coverage to continue beyond that date, a district must
+extend the provision. The EPA will disapprove the extension
+if the experience with the rule demonstrates that more
+specific conditions are needed to ensure that pollution
+control devices are being used properly and continuously.
+Section 4.2(E): In general, EPA does not favor the use of
+generic or catch-all recordkeeping requirements for
+compliance purposes. There is a fear that the records
+necessary to show compliance for individual source
+categories will not be specified by the generic provision
+and thus will not be maintained. For this reason, EPA urges
+the Board and the Districts to evaluate regularly whether
+specific recordkeeping requirements should be developed for
+additional categories. As we noted during our negotiations,
+EPA will evaluate this question after the rule is in effect
+for three years and the EPA may seek -- through a SIP call
+or through other mechanisms -- to require additional
+recordkeeping requirements if there are implementation
+problems with this generic category. The districts may wish
+to add to the rule a provision which would authorize them to
+add recordkeeping requirements for additional source
+categories without a further SIP revision.
+
+State of California
+Proposed Rule to Limit
+Potential to Emit
+January 11, 1995
+1.0
+
+APPLICABILITY
+
+1.1
+
+General Applicability: This rule shall apply to any
+stationary source which would, if it did not comply with the
+limitations set forth in this rule, have the potential to
+emit air contaminants equal to or in excess of the threshold
+for a major source of regulated air pollutants or a major
+source of hazardous air pollutants (HAPs) and which meets
+one of the following conditions:
+
+1.2
+
+A.
+
+In every 12-month period, the actual emissions of the
+stationary source are less than or equal to the
+emission limitations specified in section 3.1 below; or
+
+B.
+
+In every 12-month period, at least 90 percent of the
+emissions from the stationary source are associated
+with an operation limited by any one of the alternative
+operational limits specified in section 6.1 below.
+
+Stationary Source with De Minimis Emissions: The
+recordkeeping and reporting provisions in sections 4.0, 5.0
+and 6.0 below shall not apply to a stationary source with de
+minimis emissions or operations as specified in either
+subsection A or B below:
+A.
+
+B.
+
+In every 12-month period, the stationary source emits
+less than or equal to the following quantities of
+emissions:
+1.
+
+5 tons per year of a regulated air pollutant
+(excluding HAPs),
+
+2.
+
+2 tons per year of a single HAP,
+
+3.
+
+5 tons per year of any combination of HAPs, and
+
+4.
+
+20 percent of any lesser threshold for a single
+HAP that the United States Environmental
+Protection Agency (U.S. EPA) may establish by
+rule.
+
+In every 12-month period, at least 90 percent of the
+stationary source's emissions are associated with an
+operation for which the throughput is less than or
+
+equal to one of the quantities specified in subsections
+1 through 9 below:
+1.
+
+1,400 gallons of any combination of solventcontaining materials but no more than 550 gallons
+of any one solvent-containing material, provided
+that the materials do not contain the following:
+methyl chloroform (1,1,1-trichloroethane),
+methylene chloride (dichloromethane),
+tetrachloroethylene (perchloroethylene), or
+trichloroethylene;
+
+2.
+
+750 gallons of any combination of solventcontaining materials where the materials contain
+the following: methyl chloroform (1,1,1trichloroethane), methylene chloride
+(dichloromethane), tetrachloroethylene
+(perchloroethylene), or trichloroethylene, but not
+more than 300 gallons of any one solventcontaining material;
+
+3.
+
+____ gallons of solvent-containing (or volatile
+organic compound containing) material used at a
+paint spray unit(s);2
+
+4.
+
+4,400,000 gallons of gasoline dispensed from
+equipment with Phase I and II vapor recovery
+systems;
+
+5.
+
+470,000 gallons of gasoline dispensed from
+equipment without Phase I and II vapor recovery
+systems;
+
+6.
+
+1,400 gallons of gasoline combusted;
+
+7.
+
+16,600 gallons of diesel fuel combusted;
+
+8.
+
+500,000 gallons of distillate oil combusted, or
+
+9.
+
+71,400,000 cubic feet of natural gas combusted.
+
+Within 30 days of a written request by the District or the
+U.S. EPA, the owner or operator of a stationary source not
+maintaining records pursuant to sections 4.0 or 6.0 shall
+demonstrate that the stationary source's emissions or
+throughput are not in excess of the applicable quantities
+set forth in subsection A or B above.
+
+2
+
+To be determined based on district SIP rules
+
+1.3
+
+Provision for Air Pollution Control Equipment: The owner or
+operator of a stationary source may take into account the
+operation of air pollution control equipment on the capacity
+of the source to emit an air contaminant if the equipment is
+required by Federal, State, or District rules and
+regulations or permit terms and conditions. The owner or
+operator of the stationary source shall maintain and operate
+such air pollution control equipment in a manner consistent
+with good air pollution control practice for minimizing
+emissions. This provision shall not apply after January 1,
+1999 unless such operational limitation is federally
+enforceable or unless the District Board specifically
+extends this provision and it is submitted to the U.S. EPA.
+Such extension shall be valid unless, and until, the U.S.
+EPA disapproves the extension of this provision.
+
+1.4
+
+Exemption, Stationary Source Subject to Rule ____ (District
+Title V rule): This rule shall not apply to the following
+stationary sources:
+A.
+
+Any stationary source whose actual emissions,
+throughput, or operation, at any time after the
+effective of this rule, is greater than the quantities
+specified in sections 3.1 or 6.1 below and which meets
+both of the following conditions:
+1.
+
+The owner or operator has notified the District at
+least 30 days prior to any exceedance that s/he
+will submit an application for a Part 70 permit,
+or otherwise obtain federally-enforceable permit
+limits, and
+
+2.
+
+A complete Part 70 permit application is received
+by the District, or the permit action to otherwise
+obtain federally-enforceable limits is completed,
+within 12 months of the date of notification.
+
+However, the stationary source may be immediately
+subject to applicable federal requirements, including
+but not limited to, a maximum achievable control
+technology (MACT) standard.
+B.
+
+Any stationary source that has applied for a Part 70
+permit in a timely manner and in conformance with Rule
+____ (the District's Title V rule), and is awaiting
+final action by the District and U.S. EPA.
+
+C.
+
+Any stationary source required to obtain an operating
+permit under Rule ____ (the District's Title V rule)
+for any reason other than being a major source.
+
+D.
+
+Any stationary source with a valid Part 70 permit.
+
+Notwithstanding subsections B and D above, nothing in this
+section shall prevent any stationary source which has had a
+Part 70 permit from qualifying to comply with this rule in
+the future in lieu of maintaining an application for a Part
+70 permit or upon rescission of a Part 70 permit if the
+owner or operator demonstrates that the stationary source is
+in compliance with the emissions limitations in section 3.1
+below or an applicable alternative operational limit in
+section 6.1 below.
+1.5
+
+Exemption, Stationary Source with a Limitation on Potential
+to Emit: this rule shall not apply to any stationary source
+which has a valid operating permit with federallyenforceable conditions or other federally-enforceable limits
+limiting its potential to emit to below the applicable
+threshold(s) for a major source as defined in sections 2.7
+and 2.8 below.
+
+1.6
+
+Within three years of the effective date of Rule ____
+(District Title V rule), the District shall maintain and
+make available to the public upon request, for each
+stationary source subject to this rule, information
+identifying the provisions of this rule applicable to the
+source.
+
+1.7
+
+This rule shall not relieve any stationary source from
+complying with requirements pertaining to any otherwise
+applicable preconstruction permit, or to replace a condition
+or term of any preconstruction permit, or any provision of a
+preconstruction permitting program.3 This does not preclude
+issuance of any preconstruction permit with conditions or
+terms necessary to ensure compliance with this rule.
+
+3
+
+For example, PSD, NSR, and ATC
+
+2.0
+
+DEFINITIONS
+All terms shall retain the definitions provided under 40 CFR
+Part 70.2 [alternatively, the District Title V rule] unless
+otherwise defined herein.
+
+2.1
+
+12-month period: A period of twelve consecutive months
+determined on a rolling basis with a new 12-month period
+beginning on the first day of each calendar month.
+
+2.2
+
+Actual Emissions: The emissions of a regulated air
+pollutant from a stationary source for every 12-month
+period. Valid continuous emission monitoring data or source
+test data shall be preferentially used to determine actual
+emissions. In the absence of valid continuous emissions
+monitoring data or source test data, the basis for
+determining actual emissions shall be: throughputs of
+process materials; throughputs of materials stored; usage of
+materials; data provided in manufacturer's product
+specifications, material volatile organic compound (VOC)
+content reports or laboratory analyses; other information
+required by this rule and applicable District, State and
+Federal regulations; or information requested in writing by
+the District. All calculations of actual emissions shall
+use U.S. EPA, California Air Resources Board (CARB) or
+District approved methods, including emission factors and
+assumptions.
+
+2.3
+
+Alternative Operational Limit: A limit on a measurable
+parameter, such as hours of operation, throughput of
+materials, use of materials, or quantity of product, as
+specified in Section 6.0, Alternative Operational Limit and
+Requirements.
+
+2.4
+
+Emission Unit: Any article, machine, equipment, operation,
+contrivance or related groupings of such that may produce
+and/or emit any regulated air pollutant or hazardous air
+pollutant.
+
+2.5
+
+Federal Clean Air Act: The federal Clean Air Act (CAA) as
+amended in 1990 (42 U.S.C. section 7401 et seq.) and its
+implementing regulations.
+
+2.6
+
+Hazardous Air Pollutant: Any air pollutant listed pursuant
+to section 112(b) of the federal Clean Air Act.
+
+2.7
+
+Major Source of Regulated Air Pollutants (excluding HAPs): A
+stationary source that emits or has the potential to emit a
+regulated air pollutant (excluding HAPs) in quantities equal
+
+to or exceeding the lesser of any of the following
+thresholds:
+A.
+
+100 tons per year (tpy) of any regulated air pollutant;
+
+B.
+
+50 tpy of volatile organic compounds or oxides of
+nitrogen for a federal ozone nonattainment area
+classified as serious, 25 tpy for an area classified as
+severe, or 10 tpy for an area classified as extreme;
+and
+
+C.
+
+70 tpy of PM10 for a federal PM10 nonattainment area
+classified as serious.
+
+Fugitive emissions of these pollutants shall be considered
+in calculating total emissions for stationary sources in
+accordance with 40 CFR Part 70.2 "Definitions- Major
+source(2)."
+2.8
+
+Major Source of Hazardous Air Pollutants: A stationary
+source that emits or has the potential to emit 10 tons per
+year or more of a single HAP listed in section 112(b) of the
+CAA, 25 tons per year or more of any combination of HAPs, or
+such lesser quantity as the U.S. EPA may establish by rule.
+Fugitive emissions of HAPs shall be considered in
+calculating emissions for all stationary sources. The
+definition of a major source of radionuclides shall be
+specified by rule by the U.S. EPA .
+
+2.9
+
+Part 70 Permit: An operating permit issued to a stationary
+source pursuant to an interim, partial or final Title V
+program approved by the U.S. EPA.
+
+2.10 Potential to Emit: The maximum capacity of a stationary
+source to emit a regulated air pollutant based on its
+physical and operational design. Any physical or
+operational limitation on the capacity of the stationary
+source to emit a pollutant, including air pollution control
+equipment and restrictions on hours of operation or on the
+type or amount of material combusted, stored, or processed,
+shall be treated as part of its design only if the
+limitation is federally enforceable.
+2.11 Process Statement: An annual report on permitted emission
+units from an owner or operator of a stationary source
+certifying under penalty of perjury the following:
+throughputs of process materials; throughputs of materials
+stored; usage of materials; fuel usage; any available
+continuous emissions monitoring data; hours of operation;
+
+and any other information required by this rule or requested
+in writing by the District.
+2.12 Regulated Air Pollutant: The following air pollutants are
+regulated:
+A.
+
+Oxides of nitrogen and volatile organic compounds;
+
+B.
+
+Any pollutant for which a national ambient air quality
+standard has been promulgated;
+
+C.
+
+Any Class I or Class II ozone depleting substance
+subject to a standard promulgated under Title VI of the
+federal Clean Air Act;
+
+D.
+
+Any pollutant that is subject to any standard
+promulgated under section 111 of the federal Clean Air
+Act; and
+
+E.
+
+Any pollutant subject to a standard or requirement
+promulgated pursuant to section 112 of the federal
+Clean Air Act, including:
+1.
+
+Any pollutant listed pursuant to section 112(r)
+(Prevention of Accidental Releases) shall be
+considered a regulated air pollutant upon
+promulgation of the list.
+
+2.
+
+Any HAP subject to a standard or other requirement
+promulgated by the U.S. EPA pursuant to section
+112(d) or adopted by the District pursuant to
+112(g) and (j) shall be considered a regulated air
+pollutant for all sources or categories of
+sources: 1) upon promulgation of the standard or
+requirement, or 2) 18 months after the standard or
+requirement was scheduled to be promulgated
+pursuant to section 112(e)(3).
+
+3.
+
+Any HAP subject to a District case-by-case
+emissions limitation determination for a new or
+modified source, prior to the U.S. EPA
+promulgation or scheduled promulgation of an
+emissions limitation shall be considered a
+regulated air pollutant when the determination is
+made pursuant to section 112(g)(2). In case-bycase emissions limitation determinations, the HAP
+shall be considered a regulated air pollutant only
+for the individual source for which the emissions
+limitation determination was made.
+
+3.0
+
+EMISSION LIMITATIONS
+
+3.1
+
+Unless the owner or operator has chosen to operate the
+stationary source under an alternative operational limit
+specified in section 6.1 below, no stationary source
+subject to this rule shall emit in every 12-month period
+more than the following quantities of emissions:
+A.
+
+50 percent of the major source thresholds for regulated
+air pollutants (excluding HAPs),
+
+B.
+
+5 tons per year of a single HAP,
+
+C.
+
+12.5 tons per year of any combination of HAPs, and
+
+D.
+
+50 percent of any lesser threshold for a single HAP as
+the U.S. EPA may establish by rule.
+
+3.2
+
+The APCO shall evaluate a stationary source's compliance
+with the emission limitations in section 3.1 above as part
+of the District's annual permit renewal process required by
+Health & Safety Code section 42301(e). In performing the
+evaluation, the APCO shall consider any annual process
+statement submitted pursuant to Section 5.0, Reporting
+Requirements. In the absence of valid continuous emission
+monitoring data or source test data, actual emissions shall
+be calculated using emissions factors approved by the U.S.
+EPA , CARB, or the APCO.
+
+3.3
+
+Unless the owner or operator has chosen to operate the
+stationary source under an alternative operational limit
+specified in section 6.1 below, the owner or operator of a
+stationary source subject to this rule shall obtain any
+necessary permits prior to commencing any physical or
+operational change or activity which will result in actual
+emissions that exceed the limits specified in section 3.1
+above.
+
+4.0
+
+RECORDKEEPING REQUIREMENTS
+Immediately after adoption of this rule, the owner or
+operator of a stationary source subject to this rule shall
+comply with any applicable recordkeeping requirements in
+this section. However, for a stationary source operating
+under an alternative operational limit, the owner or
+operator shall instead comply with the applicable
+recordkeeping and reporting requirements specified in
+Section 6.0, Alternative Operational Limit and Requirements.
+The recordkeeping requirements of this rule shall not
+
+replace any recordkeeping requirement contained in an
+operating permit or in a District, State, or Federal rule or
+regulation.
+4.1. A stationary source previously covered by the provisions in
+section 1.2 above shall comply with the applicable
+provisions of section 4.0 above and sections 5.0 and 6.0
+below if the stationary source exceeds the quantities
+specified in section 1.2.A above.
+4.2
+
+The owner or operator of a stationary source subject to this
+rule shall keep and maintain records for each permitted
+emission unit or groups of permitted emission units4
+sufficient to determine actual emissions. Such information
+shall be summarized in a monthly log, maintained on site for
+five years, and be made available to District, CARB, or U.S.
+EPA staff upon request.
+A.
+
+Coating/Solvent Emission Unit
+The owner or operator of a stationary source subject to
+this rule that contains a coating/solvent emission
+unit or uses a coating, solvent, ink or adhesive shall
+keep and maintain the following records:
+
+4
+
+1.
+
+A current list of all coatings, solvents, inks and
+adhesives in use. This list shall include:
+information on the manufacturer, brand, product
+name or code, VOC content in grams per liter or
+pounds per gallon, HAPS content in grams per liter
+or pounds per gallon, or manufacturer's product
+specifications, material VOC content reports or
+laboratory analyses providing this information;
+
+2.
+
+A description of any equipment used during and
+after coating/solvent application, including type,
+make and model; maximum design process rate or
+throughput; control device(s) type and description
+(if any); and a description of the coating/solvent
+application/drying method(s) employed;
+
+3.
+
+A monthly log of the consumption of each solvent
+(including solvents used in clean-up and surface
+preparation), coating, ink and adhesive used; and
+
+In some cases it may be appropriate to keep records on groups of emission units which are
+connected in series. Examples are internal combustion engines in the oil fields with a common
+fuel line, or a series of paint spray booths with a common feed.
+
+4.
+B.
+
+All purchase orders, invoices, and other documents
+to support information in the monthly log.
+
+Organic Liquid Storage Unit
+The owner or operator of a stationary source subject to
+this rule that contains a permitted organic liquid
+storage unit shall keep and maintain the following
+records:
+
+C.
+
+1.
+
+A monthly log identifying the liquid stored and
+monthly throughput; and
+
+2.
+
+Information on the tank design and specifications
+including control equipment.
+
+Combustion Emission Unit
+The owner or operator of a stationary source subject to
+this rule that contains a combustion emission unit
+shall keep and maintain the following records:
+
+D.
+
+1.
+
+Information on equipment type, make and model,
+maximum design process rate or maximum power
+input/output, minimum operating temperature (for
+thermal oxidizers) and capacity, control device(s)
+type and description (if any) and all source test
+information; and
+
+2.
+
+A monthly log of hours of operation, fuel type,
+fuel usage, fuel heating value (for non-fossil
+fuels; in terms of BTU/lb or BTU/gal), percent
+sulfur for fuel oil and coal, and percent nitrogen
+for coal.
+
+Emission Control Unit
+The owner or operator of a stationary source subject to
+this rule that contains an emission control unit shall
+keep and maintain the following records:
+1.
+
+Information on equipment type and description,
+make and model, and emission units served by the
+control unit;
+
+2.
+
+Information on equipment design including where
+applicable: pollutant(s) controlled; control
+effectiveness; maximum design or rated capacity;
+inlet and outlet temperatures, and concentrations
+for each pollutant controlled; catalyst data
+
+(type, material, life, volume, space velocity,
+ammonia injection rate and temperature); baghouse
+data (design, cleaning method, fabric material,
+flow rate, air/cloth ratio); electrostatic
+precipitator data (number of fields, cleaning
+method, and power input); scrubber data (type,
+design, sorbent type, pressure drop); other design
+data as appropriate; all source test information;
+and
+3.
+
+E.
+
+A monthly log of hours of operation including
+notation of any control equipment breakdowns,
+upsets, repairs, maintenance and any other
+deviations from design parameters.
+
+General Emission Unit
+The owner or operator of a stationary source
+subject to this rule that contains an emission
+unit not included in subsections A, B or C above
+shall keep and maintain the following records:
+1.
+
+Information on the process and equipment
+including the following: equipment type,
+description, make and model; maximum design
+process rate or throughput; control device(s)
+type and description (if any);
+
+2.
+
+Any additional information requested in
+writing by the APCO;
+
+3.
+
+A monthly log of operating hours, each raw
+material used and its amount, each product
+produced and its production rate; and
+
+4.
+
+Purchase orders, invoices, and other
+documents to support information in the
+monthly log.
+
+5.0
+
+REPORTING REQUIREMENTS
+
+5.1
+
+At the time of annual renewal of a permit to operate under
+Rule _____ (the District's general permitting rule), each
+owner or operator of a stationary source subject to this
+rule shall submit to the District a process statement. The
+statement shall be signed by the owner or operator and
+certify that the information provided is accurate and true.
+
+5.2
+
+For the purpose of determining compliance with this rule,
+this requirement shall not apply to stationary sources which
+emit in every 12-month period less than or equal to the
+following quantities:
+A.
+
+For any regulated air pollutant (excluding HAPs),
+1.
+
+25 tons per year including a regulated air
+pollutant for which the District has a federal
+area designation of attainment, unclassified,
+transitional, or moderate nonattainment,
+
+2.
+
+15 tons per year for a regulated air pollutant for
+which the District has a federal area designation
+of serious nonattainment,
+
+3.
+
+6.25 tons per year for a regulated air pollutant
+for which the District has a federal area
+designation of severe nonattainment,
+
+B.
+
+2.5 tons per year of a single HAP,
+
+C.
+
+6.25 tons per year of any combination of HAPs, and
+
+D.
+
+25 percent of any lesser threshold for a single HAP as
+the U.S. EPA may establish by rule.
+
+5.3
+
+A stationary source previously covered by provisions in
+section 5.2 above shall comply with the provisions of
+section 5.1 above if the stationary source exceeds the
+quantities specified in section 5.2.
+
+5.4
+
+Any additional information requested by the APCO under
+section 5.1 above shall be submitted to the APCO within 30
+days of the date of request.
+
+6.0
+
+ALTERNATIVE OPERATIONAL LIMIT AND REQUIREMENTS
+[The District may propose additional alternative operational
+limits]
+The owner or operator may operate the permitted emission
+units at a stationary source subject to this rule under any
+one alternative operational limit, provided that at least 90
+percent of the stationary source's emissions in every 12month period are associated with the operation(s) limited by
+the alternative operational limit.
+
+6.1 Upon choosing to operate a stationary source subject to this
+rule under any one alternative operational limit, the owner
+or operator shall operate the stationary source in
+compliance with the alternative operational limit and comply
+with the specified recordkeeping and reporting requirements.
+A.
+
+The owner or operator shall report within 24 hours to
+the APCO any exceedance of the alternative operational
+limit.
+
+B.
+
+The owner or operator shall maintain all purchase
+orders, invoices, and other documents to support
+information required to be maintained in a monthly log.
+Records required under this section shall be maintained
+on site for five years and be made available to
+District or U.S. EPA staff upon request.
+
+C.
+
+Gasoline Dispensing Facility Equipment with Phase I and
+II Vapor Recovery Systems
+The owner or operator shall operate the gasoline
+dispensing equipment in compliance with the following
+requirements:
+
+D.
+
+1.
+
+No more than 7,000,000 gallons of gasoline shall
+be dispensed in every 12-month period.
+
+2.
+
+A monthly log of gallons of gasoline dispensed in
+the preceding month with a monthly calculation of
+the total gallons dispensed in the previous 12
+months shall be kept on site.
+
+3.
+
+A copy of the monthly log shall be submitted to
+the APCO at the time of annual permit renewal.
+The owner or operator shall certify that the log
+is accurate and true.
+
+Degreasing or Solvent-Using Unit
+
+The owner or operator shall operate the degreasing or
+solvent-using unit(s) in compliance with the following
+requirements:
+1.
+
+E.
+
+a.
+
+If the solvents do not include methyl
+chloroform (1,1,1-trichloroethane), methylene
+chloride (dichloromethane),
+tetrachloroethylene (perchloroethylene), or
+trichloroethylene, no more than 5,400 gallons
+of any combination of solvent-containing
+materials and no more than 2,200 gallons of
+any one solvent-containing material shall be
+used in every 12-month period,.
+
+b.
+
+If the solvents include methyl chloroform
+(1,1,1-trichloroethane), methylene chloride
+(dichloromethane), tetrachloroethylene
+(perchloroethylene), or trichloroethylene, no
+more than 2,900 gallons of any combination of
+solvent-containing materials and no more than
+1,200 gallons of any one solvent-containing
+material shall be used in every 12-month
+period.
+
+2.
+
+A monthly log of amount and type of solvent used
+in the preceding month with a monthly calculation
+of the total gallons used in the previous 12
+months shall be kept on site.
+
+3.
+
+A copy of the monthly log shall be submitted to
+the APCO at the time of annual permit renewal.
+The owner or operator shall certify that the log
+is accurate and true.
+
+Paint Spraying Unit5
+The owner or operator shall operate the paint spraying
+unit(s) in compliance with the following requirements:
+
+5
+
+1.
+
+The total usage rate of all VOC-containing
+materials, including but not limited to, coatings,
+thinners, reducers, and cleanup solution shall not
+exceed _____ gallons in every 12-month period.
+
+2.
+
+A monthly log of the gallons of VOC-containing
+materials used in the preceding month with a
+
+To be determined based on District SIP rules
+
+monthly calculation of the total gallons used in
+the previous 12 months shall be kept on site.
+3.
+
+F.
+
+A copy of the monthly log shall be submitted to
+the APCO at the time of annual permit renewal.
+The owner or operator shall certify that the log
+is accurate and true.
+
+Diesel-Fueled Emergency Standby Engine(s) with Output
+Less Than 1,000 Brake Horsepower
+[Depending on the District's federal ozone attainment
+status, the District will adopt either subsection 1.a,
+1.b, or 1.c below.]
+The owner or operator shall operate the emergency
+standby engine(s) in compliance with the following
+requirements:
+1.
+
+a.
+
+For a federal ozone area designation of
+attainment, unclassified, transitional, or
+moderate nonattainment, the emergency standby
+engine(s) shall not operate more than 5,200
+hours in every 12-month period and shall not
+use more than 265,000 gallons of diesel fuel
+in every 12-month period.
+
+b.
+
+For a federal ozone nonattainment area
+classified as serious, the emergency standby
+engine(s) shall not operate more than 2,600
+hours in every 12-month period and shall not
+use more than 133,000 gallons of diesel fuel
+in every 12-month period.
+
+c.
+
+For a federal ozone nonattainment area
+classified as severe, the emergency standby
+engine(s) shall not operate more than 1,300
+hours in 12-month period and shall not use
+more than 66,000 gallons of diesel fuel in
+every 12-month period.
+
+2.
+
+A monthly log of hours of operation, gallons of
+fuel used, and a monthly calculation of the total
+hours operated and gallons of fuel used in the
+previous 12 months shall be kept on site.
+
+3.
+
+A copy of the monthly log shall be submitted to
+the APCO at the time of annual permit renewal.
+The owner or operator shall certify that the log
+is accurate and true.
+
+6.2
+
+The owner or operator of a stationary source subject to this
+rule shall obtain any necessary permits prior to commencing
+any physical or operational change or activity which will
+result in an exceedance of an applicable operational limit
+specified in section 6.1 above.
+
+7.0
+
+VIOLATIONS
+
+7.1
+
+Failure to comply with any of the applicable provisions of
+this rule shall constitute a violation of this rule. Each
+day during which a violation of this rule occurs is a
+separate offense.
+
+7.2
+
+A stationary source subject to this rule shall be subject to
+applicable federal requirements for a major source,
+including Rule ____ (District Title V rule) when the
+conditions specified in either subsections A or B below,
+occur:
+A.
+
+Commencing on the first day following every 12-month
+period in which the stationary source exceeds a limit
+specified in section 3.1 above and any applicable
+alternative operational limit specified in section 6.1,
+above, or
+
+B.
+
+Commencing on the first day following every 12-month
+period in which the owner or operator can not
+demonstrate that the stationary source is in compliance
+with the limits in section 3.1 above or any applicable
+alternative operational limit specified in section 6.1
+above.
+
+Attachment 3
+November 2, 1994 Letter Describing Use of Minor NSR Programs
+
+Mr. Jason Grumet
+Executive Director, Northeast States
+for Coordinated Air Use Management
+129 Portland Street
+Boston, Massachusetts 02114
+Dear Mr. Grumet:
+This is in response to Mr. Michael Bradley's March 22, 1994
+letter to Mary Nichols seeking clarification of the Federal
+enforceability of State's existing minor new source review (NSR)
+programs. It is my understanding that some of the NESCAUM States
+are interested in using their existing minor NSR programs to
+limit a source's potential to emit so as to allow sources to
+legally avoid being considered a major source for title V
+purposes.
+In my November 3, 1993 memorandum entitled "Approaches to
+Creating Federally-Enforceable Emission Limits," I described
+approaches that States could use to limit a source's potential to
+emit for title V purposes.
+While a number of approaches are
+acceptable, the Environmental Protection Agency (EPA) has
+promoted the use of State operating permits programs approved
+under sections 110 and 112(l), pursuant to the criteria set forth
+in the June 28, 1989 Federal Register. Among other things, these
+criteria include an opportunity for public and EPA review and
+require that permit conditions be practically enforceable.
+Several States have followed EPA's recommendation and have either
+adopted these requirements or are in the process of doing so.
+The Agency recognizes the use of other approaches as well.
+In response to your question, EPA's position is that minor NSR
+permits issued under programs that have already been approved
+into the State implementation plan (SIP) are federally
+enforceable. Thus, EPA allows the use of federally-enforceable
+minor NSR permits to limit a source's potential to emit provided
+that the scope of a State's program allows for this and that the
+minor NSR permits are in fact enforceable as a practical matter.
+Because minor NSR programs are essentially preconstruction
+review programs for new sources and modifications to existing
+sources, minor NSR programs can generally be used to limit a
+
+2
+source's potential emissions when such limits are taken in
+conjunction with a preconstruction permit action. In addition,
+please note that the term "modification" generally encompasses
+both physical changes and changes in the method of operation at
+an existing source (see Clean Air Act section 111(a)(4)). Thus,
+the scope of some, though not all, minor NSR programs is broad
+enough to be used to also limit a source's potential to emit for
+nonconstruction-related events. This occurs where the
+modification component of State programs extends to both physical
+changes and changes in the method of operation. In these cases,
+where a voluntary reduction in the method of operation (e.g.,
+limit in hours of operation or production rate) by itself is
+considered a modification for minor NSR permitting, a source may
+reduce its hours of operation or production rate and make such a
+change federally enforceable through limits in its minor NSR
+permit.
+Some States' minor NSR programs are written so as to
+preclude a source from limiting its potential to emit absent an
+increase in emissions. There may be other limitations on the
+scope of these programs as well. Since there is considerable
+variation among State minor NSR programs, a review of any
+individual State program would be necessary to determine its
+ability to limit a source's potential to emit. It may be
+beneficial for States to contact the appropriate EPA Regional
+Office if there are questions about the scope of the SIP-approved
+minor NSR program.
+Minor NSR programs have generally been used in the past to
+limit a source's potential to emit for criteria pollutants.
+There is a growing need for sources to limit their potential to
+emit for toxic pollutants as well. The EPA is currently
+considering ways in which a State may limit the potential to emit
+of toxic pollutants, including possible uses of existing minor
+NSR programs. I plan to keep you and others aware of our efforts
+in this regard.
+You should also be aware that a recent court ruling has
+called into question the Federal enforceability of a State minor
+NSR permit that does not meet the public participation
+requirements of current EPA regulations despite SIP approval of
+the State's program [see United States v. Marine Shale
+Processors, No. 90-1240 (E.D. La.) (bench ruling), June 15,
+1994]. In that case involving extensive alleged violations of
+the permit terms, the court held that EPA could not enforce the
+terms of the minor NSR permit. The court subsequently ruled that
+the company could not rely on the permit to limit its potential
+to emit, and thus was liable for having failed to obtain a major
+
+3
+NSR permit. The outcome of this case suggests that States should
+proceed cautiously in relying on minor NSR programs to limit
+potential to emit where the program does not actually provide
+public participation.
+In summary, EPA has provided guidance on approaches that are
+available to limit a source's potential to emit. The Agency
+recommends approaches that meet the criteria set forth in the
+June 28, 1989 Federal Register. Many States are taking action to
+adopt such programs. With respect to minor NSR permits, EPA
+believes that permits conditions issued in accordance with
+existing State minor NSR programs that have been approved into
+the SIP, and which are enforceable as a practical matter, are
+federally enforceable and can be used to limit potential to emit.
+Caution is advised, however, with respect to permits that do not
+meet procedural requirements. These programs are primarily
+preconstruction review programs although in many cases they can
+also limit a source's potential to emit in conjunction with
+operational changes.
+As you have noted, title V issues are complicated and
+resource intensive. In order for the title V program to be
+successfully implemented, it is important that States and EPA
+work cooperatively in developing operating permits programs.
+Your comments and recommendations on program development issues
+are welcome.
+We appreciate this opportunity to be of service and trust
+that this information will be helpful to you.
+Sincerely,
+
+John S. Seitz
+Director
+Office of Air Quality Planning
+and Standards
+cc:
+
+Air Division Director, Regions I-X
+
+Attachment 4
+January 25, 1995 Guidance on Practicable Enforceability
+
+SUBJECT:
+
+Guidance on Enforceability Requirements for Limiting
+Potential to Emit through SIP and §112 Rules and
+General Permits
+
+FROM:
+
+Kathie A. Stein, Director
+Air Enforcement Division
+
+TO:
+
+Director, Air, Pesticides and Toxics
+Management Division, Regions I and IV
+Director, Air and Waste Management Division,
+Region II
+Director, Air, Radiation and Toxics Division,
+Region III
+Director, Air and Radiation Division,
+Region V
+Director, Air, Pesticides and Toxics Division,
+Region VI
+Director, Air and Toxics Division,
+Regions VII, VIII, IX, and X
+
+Attached is a guidance document developed over the past year
+by the former Stationary Source Compliance Division in
+coordination with the Air Enforcement Division, Office of Air
+Quality Planning and Standards, OAR's Office of Policy Analysis
+and Review, and the Office of General Counsel, as well as with
+significant input from several Regions.
+A number of permitting authorities have begun discussions
+with or have submitted programs for review by EPA that would
+provide alternative mechanisms for limiting potential to emit.
+Several authorities have submitted SIP rules and at least one
+State has been developing a State general permit approach. We
+believe that this guidance is important to assist the EPA Regions
+as well as States in approving and developing such approaches.
+For additional information regarding this guidance, please
+contact me or Clara Poffenberger of my staff at (202) 564-8709.
+cc:
+
+John Rasnic, Director
+Manufacturing, Energy, and Transportation Division
+Office of Compliance
+Air Branch Chiefs, Regions I - X
+
+Enforceability Requirements for Limiting Potential to Emit
+Through SIP and §112 Rules and General Permits
+Introduction
+As several EPA guidances describe, there are several
+mechanisms available for sources to limit potential to emit. EPA
+guidances have also described the importance of practical
+enforceability of the means used to limit potential to emit.
+This guidance is intended to provide additional guidance on
+practical enforceability for such limits. We provide references
+for guidances on practical enforceability for permits and rules
+in general and provide guidance in this document for application
+of the same principles to "limitations established by rule or
+general permit," as described in the guidance document issued
+January 25, 1995, entitled "Options for Limiting Potential to
+Emit (PTE) of a Stationary Source under section 112 and Title V
+of the Clean Air Act (Act)." The description is as follows:
+
+Limitations established by rules. For less complex
+plant sites, and for source categories involving
+relatively few operations that are similar in nature,
+case-by-case permitting may not be the most
+administratively efficient approach to establishing
+federally enforceable restrictions. One approach that
+has been used is to establish a general rule which
+creates federally enforceable restrictions at one time
+for many sources (these rules have been referred to as
+"prohibitory" or "exclusionary" rules1). The concept
+of exclusionary rules is described in detail in the
+November 3, 1993 memorandum ["Approaches to Creating
+Federally Enforceable Emissions Limits," from John S.
+Seitz]. A specific suggested approach for VOC limits
+by rule was described in EPA's memorandum dated October
+15, 1993 entitled "Guidance for State Rules for
+Optional Federally-Enforceable Emissions Limits Based
+Upon Volatile Organic Compound (VOC) Use." An example
+of such an exclusionary rule is a model rule developed
+for use in California. (The California model rule is
+attached, along with a discussion of its applicability
+to other situations--see Attachment 2). Exclusionary
+rules are included in a State's SIP or 112 program and
+generally become effective upon approval by the EPA.
+General permits. A concept similar to the exclusionary
+rule is the establishment of a general permit for a
+given source type. A general permit is a single permit
+that establishes terms and conditions that must be
+complied with by all sources subject to that permit.
+The establishment of a general permit could provide for
+emission limitations in a one-time permitting process,
+and thus avoid the need to issue separate permits for
+each source. Although this concept is generally
+thought of as an element of Title V permit programs,
+there is no reason that a State or local agency could
+not submit a general permit program as a SIP submittal
+aimed at creating synthetic minor sources.
+Additionally, FESOP [Federally Enforceable State
+Operating Permit, usually referring to Title I State
+Operating Permit Programs approved under the criteria
+established by EPA in the June 28, 1989 Federal
+Register notice, 54 FR 27274] programs can include
+general permits as an element of the FESOP program
+being approved into the SIP. The advantage of a SIP
+general permit, when compared to an exclusionary rule,
+1
+
+The EPA prefers the term "exclusionary rule" in that this
+phrase is a less ambiguous description of the overall purpose of
+these rules.
+
+is that upon approval by the EPA of the State's general
+permit program, a general permit could be written for
+an additional source type without triggering the need
+for the formal SIP revision process. (January 25, 1995,
+Seitz and Van Heuvelen memorandum, page 4.)
+SIP or § 112 Rules
+Source-category standards approved in the SIP or under 112,
+if enforceable as a practical matter, can be used as federally
+enforceable limits on potential to emit. Such provisions require
+public participation and EPA review. Once a specific source
+qualifies under the applicability requirements of the sourcecategory rule, additional public participation is not required to
+make the limits federally enforceable as a matter of legal
+sufficiency since the rule itself underwent public participation
+and EPA review. The rule must still be enforceable as a
+practical matter in order to be considered federally enforceable.
+A source that violates this type of rule limiting potential to
+emit below major source thresholds or is later determined not to
+qualify for coverage under the rule, could be subject to
+enforcement action for violation of the rule and for constructing
+or operating without a proper permit (a part 70 permit, a New
+Source Review permit, or operating without meeting §112
+requirements, or any combination thereof).
+General Permits
+The Title V regulations set out provisions for general
+permits covering numerous similar sources. The primary purpose
+of general permits is to provide a permitting alternative where
+the normal permitting process would be overly burdensome, such as
+for area sources under section 112. General permits may be
+issued to cover any category of numerous similar sources,
+including major sources, provided that such sources meet certain
+criteria laid out in 40 CFR part 70. Sources may be issued
+general permits strictly for the purpose of avoiding
+classification as a major source. In other words, general
+permits may be used to limit the potential to emit for numerous
+similar sources. However, general permits must also meet both
+legal and practical federal enforceability requirements.
+With respect to legal sufficiency, the operating permit
+regulations provide that once the general permit has been issued
+after opportunity for public participation and EPA and affected
+State review, the permitting authority may grant or deny a
+source’s request to be covered by a general permit without
+further public participation or EPA or affected State review.
+The action of granting or denying the source’s request is not
+subject to judicial review. A general permit does not carry a
+
+permit shield. A source may be subject to enforcement action for
+operating without a part 70 permit if the source is later
+determined not to qualify for coverage under the general permit.
+Sources covered by general permits must comply with all part 70
+requirements.
+State SIP or 112(l) General Permits
+Another mechanism available to limit potential to emit is a
+general permit program approved into the SIP or under section
+112(l), the hazardous air pollutant program authority. This
+mechanism allows permitting authorities to issue and revise
+general permits consistent with SIP or 112(l) program
+requirements without going through the SIP or 112(l) approval
+process for each general permit or revision of a general permit.
+The program is also separate from title V, like title I state
+operating permits, and issuance and revisions of the permits are
+not required to comply with title V procedures.
+Once a program is approved, issuing and revising general
+permits should be significantly less burdensome and timeconsuming for State legislative and rulemaking authorities. The
+EPA review should also be less burdensome and time-consuming.
+After a program is approved, permitting authorities have the
+flexibility to submit and issue general permits as needed rather
+than submitting them all at once as part of a SIP submittal.
+Given the reduced procedural burden, permitting authorities
+should be able to issue general permits to small groups or
+categories or sources rather than attempt to cover broad
+categories with a generic rule. We anticipate that specific
+permit requirements for general permits may be readily developed
+with the assistance of interested industry groups.
+The State general permit approach may allow sources to meet
+the federal enforceability requirements more easily than other
+approaches. However, to use this approach, States must have a
+federally enforceable program that provides the State the
+authority to issue such permits; to accomplish this, EPA must
+approve the program into the SIP or pursuant to section 112(l) of
+the Clean Air Act.
+Enforceability Principles
+In 1989, in response to challenges from the Chemical
+Manufacturers Association and other industry groups, EPA
+reiterated its position that controls and limitations used to
+limit a source's potential to emit must be federally enforceable.
+See 54 FR 27274 (June 28, 1989). Federally enforceable limits
+can be established by Clean Air Act programs such as NSPS,
+NESHAPs, MACTs, and SIP requirements. However, source-specific
+
+limits are generally set forth in permits. Generally, to be
+considered federally enforceable, the permitting program must be
+approved by EPA into the SIP and include provisions for public
+participation. In addition, permit terms and conditions must be
+practicably enforceable to be considered federally enforceable.
+EPA provided specific guidance on federally enforceable permit
+conditions in a June 13, 1989 policy memo ?Limiting Potential to
+Emit in New Source Permitting” from John Seitz and in the June
+28, 1989 Federal Register notice (54 FR 27274). Additional
+guidance can also be found in United States v. Louisiana Pacific,
+682 F. Supp. 1122 (D. Colo. 1987), 682 F. Supp 1141 (D. Colo.
+1988), which led to these guidance statements and a number of
+other memoranda covering practicable enforceability as it relates
+to rolling averages, short-term averages, and emission caps. See
+?Use of Long Term Rolling Averages to Limit Potential to Emit,”
+from John B. Rasnic to David Kee, February 24, 1992; ?Limiting
+Potential to Emit” from Mamie Miller to George Czerniak, August
+5, 1992; ?Policy Determination on Limiting Potential to Emit for
+Koch Refining Company’s Clean Fuels Project”, from John B. Rasnic
+to David Kee, March 13, 1992; and ?3M Tape Manufacturing Division
+Plant, St. Paul, Minnesota” from John B. Rasnic to David Kee,
+July 14, 1992.
+In 1987, EPA laid out enforceability criteria that SIP rules
+must meet. See ?Review of State Implementation Plans and
+Revisions for Enforceability and Legal Sufficiency” from Michael
+Alushin, Alan Eckert, and John Seitz, September 3, 1987 (1987 SIP
+memo). The criteria include clear statements as to
+applicability, specificity as to the standard that must be met,
+explicit statements of the compliance time frames (e.g. hourly,
+daily, monthly, or 12-month averages, etc.), that the time frame
+and method of compliance employed must be sufficient to protect
+the standard involved, recordkeeping requirements must be
+specified, and equivalency provisions must meet certain
+requirements.
+Based on these precedents, this guidance describes six
+enforceability criteria which a rule or a general permit must
+meet to make limits enforceable as a practical matter. In
+general, practical enforceability for a source-specific permit
+term means that the provision must specify (1) a technically
+accurate limitation and the portions of the source subject to the
+limitation; (2) the time period for the limitation (hourly,
+daily, monthly, annually); and (3) the method to determine
+compliance including appropriate monitoring, recordkeeping and
+reporting. For rules and general permits that apply to
+categories of sources, practical enforceability additionally
+requires that the provision (4) identify the categories of
+sources that are covered by the rule; (5) where coverage is
+optional, provide for notice to the permitting authority of the
+
+source's election to be covered by the rule; and (6) recognize
+the enforcement consequences relevant to the rule.
+This guidance will address requirements (4) and (5) first as
+they are concepts that are unique to rules and general permits.
+A.
+
+Specific Applicability
+
+Rules and general permits designed to limit potential to
+emit must be specific as to the emission units or sources covered
+by the rule or permit. In other words, the rule or permit must
+clearly identify the category(ies) of sources that qualify for
+the rule’s coverage. The rule must apply to categories of
+sources that are defined specifically or narrowly enough so that
+specific limits and compliance monitoring techniques can be
+identified and achieved by all sources in the categories defined.
+A rule or general permit that covers a homogeneous group of
+sources should allow standards to be set that limit potential to
+emit and provide the specific monitoring requirements.
+(Monitoring is more fully addressed in section D.) The State can
+allow for generic control efficiencies where technically sound
+and appropriate, depending on the extent of the application and
+ability to monitor compliance with resultant emission limits.
+Similarly, specific and narrow applicability may allow generic
+limits on material usage or limits on hours of operation to be
+sufficient. For example, a rule or general permit that applies
+to fossil-fuel fired boilers of a certain size may allow for
+limits on material usage, such as fuel-type and quantity. A rule
+or general permit that applies only to standby diesel generators
+or emergency generators may allow restrictions on hours of
+operation to limit potential to emit. The necessary compliance
+terms (i.e., monitoring or recordkeeping) associated with any of
+these limits, such as with hours of operation, can readily be
+specified in the rule or the general permit itself.
+General permits under Title V are assumed to include this
+enforceability principle because the Part 70 regulations set out
+specific criteria that States should consider in developing their
+general permit provisions (See 57 FR 32278). These factors
+include requirements that
+?categories of sources covered by general permits
+should be generally homogenous in terms of operations,
+processes, and emissions. All sources in the category
+should have essentially similar operations or processes
+and emit pollutants with similar characteristics.”
+Another factor stated is ?sources should be subject to the same
+or substantially similar requirements governing operation,
+emissions, monitoring, reporting, or recordkeeping.” Examples of
+
+source categories appropriate for general permits include:
+degreasers, dry cleaners, small heating systems, sheet fed
+printers, and VOC storage tanks (see 57 FR 32278).
+B.
+
+Reporting or Notice to Permitting Authority
+
+The rule or general permit should provide specific reporting
+requirements as part of the compliance method. Although the
+compliance method for all sources must include recordkeeping
+requirements, the permitting authority may make a determination
+that reporting requirements for small sources would provide
+minimal additional compliance assurance. Where ongoing reporting
+requirements are determined not to be reasonable for a category
+of sources, the rule or general permit should still provide that
+the source notify the permitting authority of its coverage by the
+rule or the permit. In the limited situation where all the
+sources described in a source category are required to comply
+with the all of the provisions of a rule or general permit,
+notice is not needed. However, where there are no reporting
+requirements and no opt-in provisions, the permitting authority
+must provide the public with the names and locations of sources
+subject to the rule or permit.
+For Title V general permits, Part 70 requires sources to
+submit an application for a general permit which must be approved
+or disapproved by the permitting authority. For SIP or §112
+rules and SIP or §112 general permits, in response to receiving
+the notice or application, the permitting authority may issue an
+individual permit, or alternatively, a letter or certification.
+The permitting authority may also determine initially whether it
+will issue a response for each individual application or notice,
+and may initially specify a reasonable time period after which a
+source that has submitted an application or notice will be deemed
+to be authorized to operate under the general permit or SIP or
+§112 rule.
+
+C.
+
+Specific Technically Accurate Limits
+
+The rule or general permit issued pursuant to the SIP or
+§112 must specify technically accurate limits on the potential to
+emit. The rule or general permit must clearly specify the limits
+that apply, and include the specific associated compliance
+monitoring. (The compliance monitoring requirements are
+discussed further in the next section.) The standards or limits
+must be technically specific and accurate to limit potential to
+emit, identifying any allowed deviations.
+The 1987 policy on SIP enforceability states that
+limitations ?must be sufficiently specific so that a source is
+fairly on notice as to the standard it must meet.” For example,
+?alternative equivalent technique” provisions should not be
+approved without clarification concerning the time period over
+which equivalency is measured as well as whether the equivalency
+applies on a per source or per line basis or is facility-wide.
+Further, for potential to emit limitations, the standards
+set must be technically sufficient to provide assurance to EPA
+and the public that they actually represent a limitation on the
+potential to emit for the category of sources identified. Any
+presumption for control efficiency must be technically accurate
+and the rule must provide the specific parameters as enforceable
+limits to assure that the control efficiency will be met. For
+example, rules setting presumptive efficiencies for incineration
+controls applied to a specific or broad category must state the
+operating temperature limits or range, the air flow, or any other
+parameters that may affect the efficiency on which the
+presumptive efficiency is based. Similarly, material usage
+limits such as fuel limits, as stated above, require specifying
+the type of fuel and may require specifying other operating
+parameters.
+A rule that allows sources to submit the specific parameters
+and associated limits to be monitored may not be enforceable
+because the rule itself does not set specific technical limits.
+The submission of these voluntarily accepted limits on parameters
+or monitoring requirements would need to be federally
+enforceable. Absent a source-specific permit and appropriate
+review and public participation of the limits, such a rule is not
+consistent with the EPA’s enforceability principles.
+D.
+
+Specific Compliance Monitoring
+
+The rule must specify the methods to determine compliance.
+Specifically, the rule must state the monitoring requirements,
+recordkeeping requirements, reporting requirements, and test
+methods as appropriate for each potential to emit limitation; and
+
+clarify which methods are used for making a direct determination
+of compliance with the potential to emit limitations.
+?Monitoring” refers to many different types of data collection,
+including continuous emission or opacity monitoring, and
+measurements of various parameters of process or control devices
+(e.g. temperature, pressure drop, fuel usage) and recordkeeping
+of parameters that have been limited, such as hours of operation,
+production levels, or raw material usage. Without a verifiable
+plantwide emission limit, verifiable emission limits must be
+assigned to each unit or group of units subject to the rule or
+general permit. Where monitoring cannot be used to determine
+emissions directly, limits on appropriate operating parameters
+must be established for the units or source, and monitoring must
+verify compliance with those limits. The monitoring must be
+sufficient to yield data from the relevant time period that is
+representative of the source’s compliance with the standard or
+limit. Continuous emissions monitoring, especially in the case
+of smaller sources, is not required.
+E.
+
+Practicably Enforceable Averaging Times
+
+The averaging time for all limits must be practicably
+enforceable. In other words, the averaging time period must
+readily allow for determination of compliance. EPA policy
+expresses a preference toward short term limits, generally daily
+but not to exceed one month. However, EPA policy allows for
+rolling limits not to exceed 12 months or 365 days where the
+permitting authority finds that the limit provides an assurance
+that compliance can be readily determined and verified. See June
+13, 1989 ?Guidance on Limiting Potential to Emit,” February 24,
+1992 Memorandum ?Use of Long Term Rolling Averages to Limit
+Potential to Emit” from John Rasnic to David Kee, and March 13,
+1992 ?Policy Determination on Limiting Potential to Emit for Koch
+Refining Company’s Clean Fuels Project” from John B. Rasnic to
+David Kee, stating that determinations to allow an annual rolling
+average versus a shorter term limit must be made on a case by
+case basis. Various factors weigh in favor of allowing a long
+term rolling average, such as historically unpredictable
+variations in emissions. Other factors may weigh in favor of a
+shorter term limit, such as the inability to set interim limits
+during the first year. The permitting agency must make a
+determination as to what monitoring and averaging period is
+warranted for the particular source-category in light of how
+close the allowable emissions would be to the applicability
+threshold.
+F.
+
+Clearly Recognized Enforcement
+
+Violations of limits imposed by the rule or general permit
+that limit potential to emit constitute violations of major
+
+source requirements. In other words, the source would be
+violating a ?synthetic minor” requirement which may result in the
+source being treated as a major source under Titles I and V. The
+1989 Federal Register Notice provides for separate enforcement
+and permitting treatment depending on whether the source
+subsequently chooses to become major or remain minor. Thus,
+violations of the rule or general permit or violation of the
+specific conditions of the rule or general permit subjects the
+source to potential enforcement under the Clean Air Act and state
+law. The operating permit rule states that notwithstanding the
+shield provisions of part 70, the source subject to a general
+permit may be subject to enforcement action for operating without
+a part 70 permit if the source is later determined not to qualify
+for the conditions and terms of the general permit. Moreover,
+violation of any of the conditions of the rule or general permit
+may result in a different determination of the source’s potential
+to emit and thus may subject the source to major source
+requirements and to enforcement action for failure to comply with
+major source requirements from the initial determination.
+Rule Requirements for State General Permit Programs
+As discussed above, general permit programs must be
+submitted to EPA for approval under SIP authority or under
+section 112(l), or both, depending on its particular pollutant
+application. SIP and 112(l) approval and rulemaking procedures
+must be met, including public notice and comment. The specific
+application of the enforceability principles for establishing
+State SIP or §112(l) general permit programs require that the
+rule establishing the program set out these principles as rule
+requirements. In other words, these principles must be specific
+rule requirements to be met by each general permit.
+The rule establishing the program must require that (1)
+general permits apply to a specific and narrow category of
+sources; (2) sources electing coverage under general permits,
+where coverage is not mandatory, provide notice or reporting to
+the permitting authority; (3) general permits provide specific
+and technically accurate (verifiable) limits that restrict the
+potential to emit; (4) general permits contain specific
+compliance monitoring requirements; (5) limits in general permits
+are established based on practicably enforceable averaging times;
+and (6) violations of the permit are considered violations of the
+State and federal requirements and may result in the source being
+subject to major source requirements.
+In addition, since the rule establishing the program does
+not provide the specific standards to be met by the source, each
+general permit, but not each application under each general
+permit, must be issued pursuant to public and EPA notice and
+
+comment. The 1989 Federal Register notice covering
+enforceability of operating permits requires that SIP operating
+permit programs issue permits pursuant to public and EPA notice
+and comment. Title V requires that permits, including general
+permits, be issued subject to EPA objection.
+Finally, sources remain liable for compliance with major
+source requirements if the specific application of a general
+permit to the source does not limit the source’s potential to
+emit below major source or major modification thresholds. (The
+limits provided in these mechanisms may actually limit the
+potential to emit of sources but may not limit the potential to
+emit for some sources to below the threshold necessary to avoid
+major source requirements. For example, a general permit for
+industrial boilers may in fact provide limits that are sufficient
+to bring a source with only two or three boilers to below the
+subject thresholds, but a source with more than three boilers may
+have a limited PTE but not limited below the major source
+threshold.) Also, where the source is required to use another
+mechanism to limit potential to emit, i.e., a construction
+permit, the general permit may not be relied upon by the source
+or the State to limit potential to emit.
+Permits issued pursuant to the approved program, meeting the
+above requirements, are adequate to provide federally enforceable
+limits on potential to emit for New Source Review, title V, and
+section 112 programs as long as they are approved pursuant to SIP
+(section 110) and section 112(l) authorities.
+
+Attachment 5
+Example Language for Affirming Limits
+[Note: the following language is taken from the Thursday
+December 17, 1992 Federal Register, page 59931. To place this
+excerpt into context, readers are encouraged to obtain the entire
+Federal Register notice]
+"The USEPA today finds the existing Illinois SIP regulations
+to be consistent with federal requirements. If the State
+followed its own procedures, each permit issued under this
+regulation was subject to public notice and prior USEPA
+review. Therefore, USEPA will consider all operating
+permits issued which were processed in a manner consistent
+with both the State regulations and the five criteria to be
+federally enforceable with the promulgation of this rule
+provided that any permits that the State wishes to make
+federally enforceable are submitted to USEPA and accompanied
+by documentation that the procedures approved today have
+been followed. USEPA will expeditiously review any
+individual permits so submitted to ensure their conformity
+to the program requirements."
+
+

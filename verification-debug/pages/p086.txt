@@ -1,0 +1,730 @@
+Simplifying
+the Air Permitting
+Process
+Exemptions
+
+BUREAU OF AIR QUALITY
+Air Permitting Division
+
+Contents
+Introduction............................................................................................1
+What is an Air Permit?...........................................................................................1
+What is a Construction Permit?...........................................................................1
+What are the Regulated Air Pollutants?.............................................................1
+
+Do I Need a Construction Permit?.......................................................3
+Step 1: Air Source(s)...............................................................................................3
+Step 2: Do I Qualify for a Source-Specific Exemption?....................................4
+Step 3: Calculate Air Emissions............................................................................5
+How do I calculate emissions from my planned air source(s)?...................................... 5
+What is the significance of potential to emit?................................................................... 5
+How do I calculate potential to emit?................................................................................. 6
+
+Step 4: Do I Qualify for an Emission-Level Exemption?...................................6
+
+Fugitive Emissions..................................................................................8
+Other Exemptions..................................................................................8
+How to Apply for an Exemption...........................................................8
+Appendix A – Source-Specific Exemption Example ..........................9
+Appendix B – Emission-Level Exemption Example .........................12
+Appendix C – Useful Links...................................................................16
+
+Disclaimer
+This booklet is produced by the
+South Carolina Department of
+Environmental Services (SCDES) Bureau of Air Quality. The intent
+of this booklet is to provide a
+basic overview of the process to
+determine if a source is eligible for
+a construction permit exemption.
+This booklet is not a substitute
+for applicable Federal and South
+Carolina laws and regulations.
+South Carolina Air Pollution
+Control Requirements and
+Standards are contained in SC
+Regulation 61-62.
+
+Introduction
+Common questions asked by businesses in the state of South Carolina is,
+“Do I need an air construction permit and what is involved in the process?”
+The purpose of this Exemptions Booklet is to provide you with basic
+information on how to determine if your process qualifies for an exemption
+from the requirement to obtain a construction permit.
+You may find you need additional technical assistance to identify pollutant
+emitting equipment or calculate emissions. Hiring a consultant experienced
+in handling air permit applications can further help you with the process.
+
+What is an Air Permit?
+An air permit is a legal document that details how a facility complies
+with state and federal air pollution regulations. Air permits may contain
+emission limitations, work practice standards and monitoring, record
+keeping, and reporting requirements.
+The Bureau of Air Quality (BAQ) issues construction permits, operating
+permits and registration permits. This booklet focuses on exemptions to
+construction permits.
+
+What is a Construction Permit?
+A construction permit is an air permit required for any person who
+plans to construct, alter, or add to a source of air pollution, including the
+installation of any air pollution control device. Any building, structure,
+installation, or process which emits or may emit an air pollutant subject
+to regulation by any national or state standard is considered a stationary
+source. Use of the term “source” is to be construed to mean “stationary
+source”. The construction permit must be issued before any constructionrelated activities occur at the facility site. These activities include, but
+are not limited to, an increase in production, change in raw materials, or
+modification to existing equipment. The construction permit allows for
+construction and start of operation of equipment.
+
+What are the Regulated Air Pollutants?
+Criteria pollutants: The U.S. Clean Air Act requires EPA to set National
+Ambient Air Quality Standards for six common air pollutants. These
+pollutants (known as “criteria pollutants”) are found all over the United
+States. The Environmental Protection Agency (EPA) uses these pollutants as
+indicators of air quality.
+
+1
+
+• Particulate Matter (PM), PM10 (PM less than 10 micrometers in
+diameter), PM2.5 (PM less than 2.5 micrometers in diameter)
+• Nitrogen Oxides (NOx)
+• Sulfur Dioxides (SO2)
+• Carbon Monoxide (CO)
+• Ozone (as Volatile Organic Compounds (VOC) and NOx)
+• Lead (Pb)
+Hazardous Air Pollutants (HAP): Federal list of 188 pollutants that cause or
+may cause cancer or other serious health effects, such as reproductive
+effects or birth defects, or adverse environmental and ecological effects.
+(EPA HAP List)
+Toxic Air Pollutants (TAP): SC’s list of pollutants that readily cause or may
+cause reversible or irreversible changes or permanent injury or death.
+(R.61-62.5)
+
+2
+
+Do I Need a Construction Permit?
+Step 1: Air Source(s)
+Prior to any on-site construction, list all equipment to be used at the
+facility site, and draw a map of your facility indicating the location of
+equipment. This includes storage areas and generators. Identify the source
+that can potentially emit air pollution. A source of air pollution can be a
+single piece of equipment, such as a boiler, or a process line that contains
+multiple pieces of equipment. Consult with the technical adviser/engineer
+in charge of the planned operation, the equipment manufacturer and
+the raw material supplier to determine if air pollutants can potentially be
+released. Review the Safety Data Sheet (SDS). Another good reference is
+the Environmental Protection Agency’s (EPA) AP-42 - Compilation of Air
+Pollutant Emission Factors clearinghouse. This clearinghouse identifies
+common industrial operations that emit air pollutants. Below are some
+examples of air pollution emitting activities.
+Common operations involving any of the following:
+
+
+
+
+
+Using paints, coatings, resins, solvents, adhesives or inks
+Burning fuel oil, diesel, natural gas, propane, wood, coal or other fuel
+Mixing, reacting, or packaging chemicals
+Grinding, screening, cutting, blasting, heating, burning, drying,
+melting, plating or otherwise processing wood, metal, rock, rubber,
+fabric or other material
+• Transferring dry, liquid or gaseous materials
+• Activities producing dust, smoke, odors or fugitives. Fugitive
+emissions are those emissions that often do not pass through a stack
+or duct before being discharged to the atmosphere
+Common installed equipment:
+
+
+
+
+
+
+
+A stack or vent
+Paint booth, bake and burn off oven
+Printing press, storage tank or silo
+Boiler, furnace, process heater
+Reactors, condensers, mixing tanks
+Pollution control device (filter, baghouse, cyclone, scrubber,
+electrostatic precipitator, condenser, thermal oxidizer, etc.
+
+3
+
+Step 2: Do I Qualify for a Source-Specific Exemption?
+There are several kinds of construction permit exemptions available. In this
+step, you will compare your identified source(s) against the BAQ’s sourcespecific exemption list to determine if the source(s) can be exempt.
+Source-Specific Exemptions
+Unless otherwise specified by Regulation 61-62.70 or any other state or
+federal requirement, a source’s exemption status may change upon the
+promulgation of new regulatory requirements.
+Source Description
+
+Exemption Criteria
+
+Boilers and Space Heaters
+
+< 1.5 million Btu/hr rated input capacity which burn
+only virgin liquid fuels or virgin solid fuels
+< 10 million Btu/hr rated input capacity which burn
+only virgin* gas fuels
+
+Comfort Air-Conditioning
+or Ventilation Systems
+
+All
+
+Motor Vehicles
+
+All
+
+Laboratory Hoods
+
+All
+
+Emergency Generators
+
+≤ 150 kilowatt (kW) rated capacity
+> 150 kW rated capacity designated for emergency
+use only and are operated a total of 500 hours per
+year or less for testing and maintenance and have a
+method to record the actual hours of use such as an
+hour meter
+
+Any Source
+
+Emitting only the following or any physical
+combination of these: Steam, Air, Nitrogen, Oxygen,
+or Carbon Dioxide
+
+Other Sources
+
+Air Permitting Exemptions List
+
+* Virgin Fuel means unused solid, liquid, or gaseous commercial fuel. Also, clean wood or bark that
+has not been processed other than for size reduction excluding clean wood or bark burned in an
+air curtain incinerator.
+
+If your source(s) meets the source specific exemption and the facility-wide
+potential to emit do not trigger a need for a permit, no construction permit
+is needed. Please see step 3.4 to calculate potential to emit. Document
+the work used in making the exemption determination. This information
+should be kept at your facility site and readily available for review by SCDES
+personnel.
+
+4
+
+Please be aware that some exempt emergency generators, may also be
+subject to federal air rules. You must comply with the requirements in
+these rules even if no construction permit is needed.
+For the federal regulations related to emergency generators visit:
+• 40 CFR 60 Subpart IIII—Standards of Performance for Stationary
+Compression Ignition Internal Combustion Engines
+• 40 CFR 60 Subpart JJJJ—Standards of Performance for Stationary Spark
+Ignition Internal Combustion Engines
+• 40 CFR 63 Subpart ZZZZ—National Emissions Standards for Hazardous
+Air Pollutants for Stationary Reciprocating Internal Combustion Engines
+For assistance with the above regulations, you may find contact
+information by visiting Bureau MACT/Area Source Category Assignments or
+contact Air Toxics at 803-898-4123.
+See Appendix A – Source-Specific Exemption Example
+If your source does not meet the source-specific exemption, move on to
+the next step.
+
+Step 3: Calculate Air Emissions
+How do I calculate emissions from my planned air source(s)?
+Potential to Emit (PTE) is defined by regulation as the maximum capacity of
+a source to emit a regulated air pollutant under its physical and operational
+design. When a source’s operation is not restricted by existing permit
+conditions, the PTE is the highest amount of regulated pollutants your
+business could release into the air when operating at full capacity for 8,760
+hours a year. The PTE calculation does not take into account air pollution
+control devices (that comes later). Don’t be alarmed if the PTE calculation
+shows much higher emissions than your source will emit - this is not
+unusual.
+What is the significance of potential to emit?
+Potential to emit will determine whether a facility is a “major” or a “minor”
+source of air pollution. Because they emit more air pollution, major source
+facilities are often subject to more stringent emission limits and control
+requirements. More complex permits may be required. Major facilities
+can request permit restrictions, such as the use of control devices, to
+reduce emissions to minor source levels. Facilities which are minor sources
+emit less air pollution and are thus subject to fewer air quality regulatory
+requirements and typically have a less complex permit than major source
+facilities.
+5
+
+How do I calculate potential to emit?
+Step 3.1 - Identify all your emission sources, including exempt source(s) .
+Step 3.2 - Identify all air pollutants emitted by each source.
+Step 3.3 - Determine the maximum amount of each pollutant emitted from
+each source. Assume that the source(s) operates at maximum capacity
+every hour of the year (8,760 hours per year) with no controls.
+Choose your method of emissions calculations keeping in mind that
+different methods are available for different types of emissions and
+processes. Some methods of determining emissions may be more concise
+or more appropriate than other methods for that particular source. It is
+important to use reliable and accurate data supported by documented
+calculations and emission factors. Common estimation methods include
+stack test data, manufacture/vendor data, AP-42 emission factors, mass
+balance, engineering judgment, etc.
+Examples of how to calculate PTE can be found in Appendix B – Emission
+Level Exemption Example. In addition, the EPA’s “Potential to Emit – A Guide
+for Small Businesses” provides more detailed explanations of all the steps
+necessary to calculate PTE.
+Once you have calculated the PTE for each pollutant for each source or
+single process, determine if you qualify for an emission-level exemption.
+Go to Step 4: Do I Qualify for an Emission-Level Exemption?
+FACILITY-WIDE PTE
+Step 3.4 - For each pollutant, add the maximum emissions from all sources
+at the facility. Each HAP and/or TAP should be calculated separately
+then summed in total. Include fugitive emissions if required. This is your
+facility-wide PTE. If the facility-wide PTE is at or above the tons per year
+(TPY) thresholds listed in the Exemption-Level Exemption table below, a
+construction permit may be needed. This PTE will be used to determine
+what type of construction permit is needed if you do not qualify for an
+exemption.
+
+Step 4: Do I Qualify for an Emission-Level Exemption?
+The emission-level exemption applies to each stand-alone emission source
+(such as a boiler) or stand-alone process (such as a paint booth with bake
+off oven). In Step 2, you made an exemption determination based on the
+type of source. In this step, you determine if you are exempt based on the
+PTE of the source.
+
+6
+
+Emission-Level Exemptions
+Unless otherwise specified by Regulation 61-62.70 or any other state or
+federal requirement, a source’s exemption status may change upon the
+promulgation of new regulatory requirements.
+Pollutant
+
+Exemption Criteria
+
+Particulates (PM, PM10, and PM2.5)
+
+PTE less than 5 tons per year
+
+Sulfur Dioxide (SO2)
+
+PTE less than 5 tons per year
+
+Nitrogen Oxides (NOx)
+
+PTE less than 5 tons per year
+
+Carbon Monoxide (CO)
+
+PTE less than 5 tons per year
+
+Volatile Organic Compounds (VOC)
+
+PTE less than 1000 pounds per month*
+
+Fugitive Emissions
+
+Case by Case approval from BAQ
+
+* Sources of VOCs greater than 1000lb/month may be exempt on a case by case basis.
+
+If your source’s PTE is below the exemption levels and the source is not
+subject to a federal air regulation (emergency generators subject to federal
+air regulations may still be exempted), then a construction permit may
+be needed. For emission-level exemptions, you are required to document
+the work used in making the exemption determination. This includes the
+emission calculations and all the assumptions made in that calculation. It is
+important to document emissions from all exempt sources and keep track
+of the facility-wide PTE. This information should be kept at your facility site
+and readily available for review by SCDES personnel.
+Some exempt sources, such as boilers and emergency generators, may also
+be subject to federal air rules. You must comply with the requirements in
+these rules even if no construction permit is needed.
+For additional information, see EPA’s Area Source Rule Implementation
+Guidance. You may also contact the BAQ’s Air Toxics section at (803) 8984123.
+See Appendix B – Emission Level Exemption Example
+
+7
+
+Fugitive Emissions
+Fugitive emissions are emissions that can’t reasonably pass through a
+stack, chimney, vent, or other functionally equivalent opening. Examples of
+fugitive emissions are material storage piles and material handling. Fugitive
+emission may qualify for an exemption. A request must be made to the
+BAQ and the need for a permit will be made on a case-by-case basis. This
+determination will take into consideration, but will not be limited to, the
+nature and amount of the pollutants, location, proximity to residences and
+commercial establishments, etc.
+
+Other Exemptions
+Other exemptions may be allowed for non-PSD like for like replacement,
+minor alteration, replacement or reconstruction activities when the
+Department determines that the alteration or addition will not increase the
+quantity or alter the character of the source’s emissions. These exemptions
+are granted on a case-by-case basis.
+If your source does not meet any of the exemption criteria outlined in this
+booklet, you are likely to need a construction permit. Please contact the
+Bureau of Air Quality, Engineering Services Division at (803) 898-4123.
+
+How to Apply for an Exemption
+The request for an exemption from a construction permit, should
+be submitted through ePermitting at Login - ePermitting. If you have
+not received access to your air facility site in ePermitting or are a new
+facility, contact the Bureau of Air Quality, Air Permitting Division at baq_
+epermitting@des.sc.gov or call (803)-898-4123.
+
+8
+
+Appendix A – Source-Specific Exemption
+Example
+Business XYZ assembles widgets. The process consists of punching holes
+into prefabricated material to create widgets then powder coating the
+widgets before shipping them out. A small boiler will be used to create
+steam to drive the hole puncher, pretreat the widget prior to powder
+coating and to heat the building. Business XYZ also plans to install an
+emergency generator.
+
+Step #1 - Identify sources of air emissions
+Boiler: TThe boiler’s maximum input capacity is 2.5 Million BTU per hour
+(boiler plate); it will burn natural gas
+Emergency generator: The emergency generator is a stationary compression
+ignition internal combustion engine, rated at 75 kW and manufactured in
+January 2000; it will burn low sulfur diesel and will emit air pollutants.
+Powder coating operation: The powder coating operation consists of a steam
+pretreatment wand, powder coating booth with a high efficiency cartridge
+(based on manufacture’s guarantee) and an electric drying oven. The
+process will use less than 20 tons of powder coating per year. The 20 tons
+of coating usage is based on the maximum number of widgets that can be
+produced through the hole puncher. The powder coating material contains
+no hazardous air pollutants per the manufacture and the SDS. The steam
+pre-treatment emits no air pollutants.
+Hole punching: Based on conversations with the facility engineer and
+material fabricator, you determined no emissions would be generated
+during the hole punching process.
+
+Step #2 - Review the construction permit source
+exempt list
+Go to Air Permitting Exemptions List and obtain the latest air permitting
+exemptions list. This list is periodically updated so it is important to use the
+latest version.
+Boiler: Boilers less than 10 Million BTU per hour rated input capacity and
+burn only virgin gas fuels are exempt. Since your boiler is 2.5 Million and
+burns only natural gas, it is exempt.
+Emergency generator: Emergency generators rated at 150 kW or less are
+exempt. Since your emergency generator is rated at 75 kW, it is exempt.
+Note that the emergency generator is exempt from getting an air
+9
+
+construction permit, but it is subject to the National Emission Standards for
+Hazardous Air Pollutants for Reciprocating Internal Combustion Engines
+(subpart ZZZZ). You must comply with all applicable requirements of that
+federal rule.
+Powder coating operation: Stand-alone powder coating operations equipped
+with high efficiency cartridge, cyclone or combination cartridge-cyclone
+collection systems to separate powder from air, or other type of process
+equipment designed to effectively control particulate matter and use
+electric heated ovens and applies less than 100 tons per year of powder
+coatings are exempt. The proposed powder coating operation fits this
+exemption since it equipped with the appropriate cartridge, has an electric
+heated oven and uses less than 100 tons of powder coatings each year.
+After careful review of all facility operations, consultation with facility
+engineer and parts manufacturers, review of vendor information and SDS,
+and reviewing the exempt list, the facility determined an air construction
+permit was not needed. This information should be kept at your facility site
+and readily available for review by SCDES personnel.
+Emissions From Boiler (Reference: AP-42 Fifth Edition, Tables 1.4-1,-2, 7/98
+Update):
+
+PM, PM10, PM2.5 = 0.08 TPY
+SO2 = 0.01 TPY
+NOx = 1.07 TPY
+CO = 0.9 TPY
+VOC = 0.06 TPY
+Pb = 5.37E-06TPY
+
+10
+
+Emissions from Emergency Generator (Reference: AP-42 Fifth Edition,
+Tables 3.3-1, 10/96 Update):
+PM, PM10, PM2.5 = 0.06 TPY
+SO2 = 0.05 TPY
+NOx = 0.78 TPY
+CO = 0.17 TPY
+VOC = 0.06 TPY
+
+Emissions from Powder Coating Operations:
+Emissions from the powder coating process consist of only PM emissions. It
+was assumed that all PM would always be captured by the powder recovery
+system and so there will be no process PM emissions and the filters are
+considered inherent to the process. Since the cure oven is heated by
+electricity, there will be no other emissions.
+Facility Wide Emissions
+Uncontrolled Emissions
+
+Controlled/Limited
+Emissions
+
+TPY
+
+TPY
+
+PM
+
+0.08 + 0.06 = 0.14
+
+---
+
+Pollutant
+
+PM10
+
+0.08 + 0.06 = 0.14
+
+---
+
+PM2.5
+
+0.08 + 0.06 = 0.14
+
+---
+
+SO2
+
+0.01 + 0.05 = 0.06
+
+---
+
+NOx
+
+1.07 + 0.78 = 1.85
+
+---
+
+CO
+
+0.90 + 0.17 = 1.07
+
+---
+
+VOC
+
+0.06 + 0.06 = 0.12
+
+---
+
+Pb
+
+5.37E
+
+---
+
+-06
+
+11
+
+Appendix B – Emission-Level Exemption
+Example
+Business 123 assembles and stains wood cabinets outdoors. The process
+consists of assembling the cabinets with nails and adhesives. The adhesive
+is applied manually with a brush. If sanding or cutting of the cabinet is
+required, it is conducted with hand tools only. After the cabinets are
+assembled, they may be finished with a stain. The stain is applied outdoors
+with a high-volume low-pressure spray gun.
+
+Step #1 - Identify sources of air emissions
+Adhesive: Based on the SDS; Adhesive Density = 11.43 pounds per gallon (lb/
+gal), VOC content = 20 (wt%)
+Stain: Based on the SDS; Stain Density = 7.56 lb/gal, VOC content = 7.07 lb/
+gal, Solids content = 1.95 wt%
+Hand saws and sanders
+
+Step #2 - Review the construction permit source
+exempt list
+Go to Air Permitting Exemptions List and obtain the latest air permitting
+exemptions list. This list is periodically updated so it is important to use the
+latest version.
+Adhesive: The application of adhesives is not a source specific exemption.
+Therefore, proceed to the emission-level based exemption.
+Stain: The staining is not conducted within a building. Therefore, it does not
+qualify for the surface finishing source-specific exemption. Proceed to the
+emission level based exemption.
+Hand Saws and Sanders: The following wood shop equipment is exempt:
+hand sanders, hand saws (chain saw, hand drills, etc.), hand distressing
+tools (chisel, etc.) and equipment used for boring, notching, etc. Since
+the facility only uses hand saws and sanders, this potential source of air
+emissions is exempt.
+
+Step #3 - Calculate the potential to emit
+In order to use the emission-level exemption, the potential to emit must
+be calculated. A material balance will be used to calculate the potential
+emissions from the adhesive and the stain.
+12
+
+ADHESIVE CALCULATIONS:
+SDS Information: Adhesive Density = 11.43 lb/gal, VOC content = 20 wt%; no
+hazardous or toxic air pollutants.
+Maximum Potential Adhesive Usage rate based on the maximum number
+of wood cabinets that can be assembled at this facility = 600 gallons per
+year (gal/year). The actual number of assembled cabinets is expected to
+be much lower for at least three years. Use the maximum usage rate in
+calculations to determine PTE.
+Assumptions: Since the adhesive is applied manually with a brush, the
+transfer efficiency is 100% (from technical document). Therefore, no PM,
+PM10, or PM2.5 pollutants are emitted.
+Since the SDS provides the density of the adhesive and the VOC content
+is provided in wt% and the emission level exemption for VOC is in pounds
+per month (lbs/month), calculate the VOC emissions using the following
+equation:
+
+STAIN CALCULATIONS:
+SDS Information: Stain Density = 7.56 lb/gal, VOC content = 7.07 lb/gal, Solids
+content = 1.95 wt%; no hazardous or toxic air pollutants.
+Maximum Potential Stain Usage rate based on the maximum number of
+wood cabinets that can be assembled at this facility = 1400 gallons per
+year (gal/year). The actual number of assembled cabinets is expected to
+be much lower for at least three years. Use the maximum usage rate in
+calculations to determine PTE.
+Assumptions: Since the stain is applied with a high-pressure, low volume
+spray gun, the transfer efficiency for PM, PM10, or PM2.5 is 65% (obtained
+from manufacturer’s data).
+
+13
+
+The PM, PM10, or PM2.5 emissions are assumed to be equal.
+Since the SDS provides VOC content in lb/gal, calculate the VOC emissions
+using the following equation:
+
+To find the total VOC emissions from the process, the VOC emissions from
+the adhesive and the stain must be summed.
+
+Since the SDS provides the stain density, the solids content in wt%, and the
+PM emission level exemption is in tons per year, calculate the PM emissions
+using the following equation:
+
+Step #4: Exemption Determination
+The emission-level exemption for VOC is less than 1000 per month and
+the PM emission-level exemption is less than 5 tons per year. Since the
+potential to emit for VOC from the stain and adhesive is 939.1 pounds per
+month and 0.0359 tons per year for PM, the source is exempt.
+After careful review of all facility operations, consultation with facility
+engineer and parts manufacturers, review of vendor information and SDS,
+14
+
+and reviewing the exempt list, the facility determined an air construction
+permit was not needed. It is important to document
+emissions, assumptions, and calculations from all exempt sources and
+keep track of the facility-wide PTE. This information should be kept at your
+facility site and readily available for review by SCDES personnel.
+Facility Wide Emissions
+Pollutant
+
+Uncontrolled Emissions
+
+Controlled/Limited
+Emissions
+
+PM
+
+0.0359 TPY
+
+---
+
+PM10
+
+0.0359 TPY
+
+---
+
+PM2.5
+
+0.0359 TPY
+
+---
+
+VOC
+
+939.1 lbs/month
+
+---
+
+15
+
+Appendix C – Useful Links
+S.C. Department of Environmental Services
+
+
+South Carolina Department of Environmental Services
+
+
+
+Bureau of Air Quality
+
+
+
+SCDES’s Regions
+
+
+
+Create an ePermitting Account
+
+
+
+Non-PSD Like for Like Guidance
+
+
+
+Air Quality Modeling Guidelines
+
+External Links
+
+16
+
+
+
+SIC and NAICS Codes
+
+
+
+Federal Employer Identification Number
+
+
+
+EPA Quality Planning and Standards
+
+
+
+EPA Technology Transfer Network Clearinghouse for Inventories & Emission
+Factors
+
+
+
+EPA Technology Transfer Network AP-42 Emission Factors
+
+
+
+EPA National Air Toxics Assessment
+
+
+
+EPA Tanks Emission Estimation Software
+
+
+
+EPA Applicability Determination Index•
+
+
+
+EPA Federal Register
+
+17
+
+Scan the QR Code for additional
+training information regarding
+Air Quality Permit Applicants.
+
+des.sc.gov
+CR-010877
+
+04/25
+
+

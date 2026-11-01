@@ -1,0 +1,784 @@
+FREQUENTLY ASKED QUESTIONS
+General Permit-5 (GP-5) and Exemption Category No. 38
+GP- 5 is a General Plan Approval and/or General Operating Permit for Natural Gas Compression
+and/or Processing Facilities. This GP applies to mid-stream natural gas gathering, compression
+and/or processing facilities that are minor air contamination sources or facilities. Exemption
+Category No. 38 of the Air Quality Permit Exemption List applies to sources located at a well pad.
+GP-5 Applicability:
+1. Question: If a compressor engine(s) (located at a well pad) is compressing/conveying gas from
+multiple well pads, would the engine(s) and well pad facility be considered a compressor station and
+potentially be authorized via a GP-5?
+2. Question: Please explain the circumstances under which it would be appropriate to apply for a GP-5
+at a well site.
+Response: GP-5 may be authorized by the Department of Environmental Protection (DEP or
+Department) for engines located at a well pad provided the well pad is aggregated as a single facility
+with mid-stream natural gas compression sources. The gases must be collected and compressed from
+multiple well pads by the engine(s) located at a well pad.
+GP-5 is applicable only to natural gas compression and/or processing facilities that are not major
+sources. GP-5 requirements, including quarterly leak detection and repair (LDAR), will be applicable to
+the entire facility, including sources located at the well pad. In such cases, Exemption Category No. 38
+criteria will not be applicable to sources located at the well pad because they are covered by GP-5. All
+emissions, including leaks from the facility, must be summed on a monthly basis to document that the
+facility continues to be a minor facility on a 12-month rolling basis.
+GP-5 LDAR Requirements:
+3. Question: What is the definition of a leak?
+4. Question: What alternatives are allowed to the camera?
+Response: DEP considers a “leak” as any release of gaseous hydrocarbons that is determined by
+Audible, Visual, and Olfactory (“AVO”) inspection, which is required to be performed on a monthly
+basis by GP-5. DEP also considers a “leak” as any release of gaseous hydrocarbons that will be detected
+
+1
+
+June 1, 2015
+
+by a Forward looking infrared (FLIR) camera or any gas leak detection device, which is required to be
+used on a quarterly basis under GP-5.
+However, any equipment or component that is designed to protect the equipment or safety of
+personnel is not considered a “leak.” A release from any equipment or component designed by the
+manufacturer to protect the equipment, controller, personnel, to prevent ground water
+contamination, gas migration, or an emergency situation is also not considered a leak.
+
+The owner or operator may use any gas detection device approved by the Department to detect leaks.
+At this time, the Department is not aware of any alternative device that can replace a FLIR camera.
+However, condition H.2 in GP-5 would authorize the use of any technology for leak detection as an
+alternate to FLIR provided it is approved by DEP following a case-by-case evaluation of the device or
+technology.
+5. Question: Will the leaks need to be included in any annual emissions reporting?
+
+Response: As required by 25 Pa. Code § 135.3, an owner or operator is required to report emissions
+from leaks in the annual source report. The annual source report must be submitted to DEP by March
+1st each calendar year for emissions during the previous calendar year. All emissions, including leaks
+from the facility, must be summed on a monthly basis to document that the facility continues to be a
+minor facility on a 12-month rolling basis.
+6. Question: What is the definition of the term “repair?”
+7. Question: Will the same device that detected the leak be needed to confirm the repair (e.g., If a
+
+camera IDs the leak, will a camera be required to confirm the repair?)?
+Response: The term “repair” means that equipment is adjusted or otherwise altered to eliminate a
+leak so that the leak can no longer be detected.
+If the leak is detected during an AVO inspection, which is required under GP-5 to be performed on a
+monthly basis,, the leak will be considered repaired when the leak can no longer be detected during
+an AVO inspection after the leak has been repaired.
+If the leak is detected using a FLIR camera, which is required to be used on a quarterly basis by GP-5,
+the leak will be considered repaired when the leak can no longer be detected by a FLIR camera after
+the leak has been repaired.
+The same device that detected the leak must be used to confirm that the detected leak is repaired.
+
+2
+
+June 1, 2015
+
+8. Question: Is leak repair required within 15 calendar days or 15 business days?
+
+Response: As required by GP-5, if any leak is detected, the owner or operator of the facility must repair
+the leak as expeditiously as practicable but no later than 15 calendar days after the leak is detected
+except as provided by 40 CFR § 60.482-9.
+Turbines:
+9. Question: Is the GP-5 applicable to the installation and operation of a natural gas-fired turbine used
+
+in conjunction with a waste heat recovery system?
+Response: Any turbine with heat recovery can be authorized by DEP under GP-5 if the turbine meets
+the conditions/requirements specified in Section C (Requirements for Natural Gas-fired Simple Cycle
+Gas Turbines) of GP-5.
+Engines:
+10. Question: Is GP-5 applicable to natural gas-fired emergency engines?
+
+Response: As indicated in the Applicability/Scope Section (Section A, Condition 2) of GP-5, the
+conditions in GP-5 are applicable to any natural gas-fired spark ignition internal combustion engine
+installed at a natural gas compression and/or processing minor facility. The exceptions to this condition
+are engines used as a “peak shaving engine generator,” a source participating in an Emergency and
+Economic Load Response Program, and engines installed at natural gas transmission stations. The
+engines used as a “peak shaving engine generator” or a source participating in an Emergency and
+Economic Load Response Program, and engines installed at natural gas transmission stations need a
+plan approval (See Section A, Condition 4: Prohibited Use of GP-5) unless exempted under Air Quality
+Permit Exemption List (Document No. 275-2101-003), Section 127.14(a)(8) Exemptions, Category No. 6.
+All emissions including leaks from the facility must be summed on a monthly basis to document that
+the facility continues to be a minor facility on a 12-month rolling basis.
+11. Question: Does the company need a certification from the engine manufacturer?
+
+Response: GP-5 does not require an owner or operator to obtain a certification from the engine
+manufacturer. However, the owner or operator must demonstrate compliance with applicable
+requirements within 180 days after initial startup of the engine as required under Section A, Condition
+22 of GP-5. In addition to GP-5 requirements, the company is required to meet all applicable federal
+requirements for the engine pursuant to Section A, Condition 23 of the General Permit. All emissions,
+including leaks from the facility, must be summed on a monthly basis to document that the facility
+continues to be a minor facility on a 12-month rolling basis.
+
+3
+
+June 1, 2015
+
+12. Question: Is periodic monitoring using a portable gas analyzer required if the engine is operated
+
+less than 2500 hours?
+Response: Section B, Condition 4 of GP-5 delineates the performance testing requirements for engines.
+If the engine is rated less than or equal to 500 brake horsepower (bhp) (Condition 4.a), vendor
+guarantees or data from Department-approved testing conducted within 12 months on an identical
+engine for Oxides of Nitrogen (NOX), Carbon Monoxide (CO), and Non-Methane Hydrocarbon (NMHC)
+or Non-Methane, Non-Ethane Hydrocarbon (NMNEHC) shall be sufficient to verify emissions rates.
+However, the Department may require additional information to verify emission rates. If the engine is
+rated greater than 500 bhp, then initial testing is required within 180 days after initial startup (Section
+4.b) and subsequent testing is required after every 2500 hours of operation (Condition 4.c), not 2500
+hours of operation per year. Therefore, the engine is not required to be tested for NOX and CO
+emissions using a portable gas analyzer if it operates less than 2500 hours. Periodic monitoring using a
+portable gas analyzer is required after the engine has operated for 2500 hours cumulatively.
+13. Question: If a compressor station is previously authorized under an earlier versions of the GP-5 and
+
+is located at a well pad, can the renewal application be authorized under the February 2013 GP-5
+(current GP-5)? If the renewal cannot be authorized under the new GP-5, would a plan approval be
+required if the engine and other sources do not meet the Exemption 38 criteria?
+Response: An engine or a dehydrator that is located at a well pad and authorized under a previous GP5 is not eligible to be re-authorized under the current GP-5 if it is not used for mid-stream natural gas
+operations. Such sources may either be exempt under the Category No. 38 exemption criteria or the
+owner or operator of the source may need to apply to the appropriate DEP Regional Office for a Stateonly Operating Permit. In either case, a Plan Approval is not needed.
+GP-5 may be authorized by DEP provided the well pad is aggregated as a single facility with mid-stream
+natural gas compression sources. The gases must be collected and compressed from multiple well pads
+by the engine located at a well pad.
+GP-5 is applicable only to natural gas compression and/or processing facilities that are not major
+sources.
+GP-5 requirements, including quarterly leak detection and repair (LDAR), will be applicable to the
+entire facility including sources located at the well pad. In such cases, the Category No. 38 exemption
+criteria will not be applicable to sources located at the well pad because they are covered by GP-5. All
+emissions, including leaks from the facility, must be summed, on a monthly basis, to document that the
+facility continues to be a minor facility on a 12-month rolling basis.
+
+4
+
+June 1, 2015
+
+14. Question: A facility’s ultimate build out of the compressor station will have about a dozen
+
+engines. Can construction continue during the entire 5 year period if there is not an 18-month lapse
+in construction?
+Response: An owner or operator has a 5-year authorization under GP-5 to install all engines. All
+engines must be identified in the Application for Authorization to Use the General Plan Approval and
+General Operating Permit for GP-5. Therefore, the owner or operator must install all engines within the
+term of the GP-5 authorization. The uninstalled engines will require a new authorization issued by the
+Department. Each engine after start-up must comply with the performance testing requirements and
+other applicable requirements specified in the General Permit.
+15. Question: If the company installs a non-emergency natural gas fired generator at the facility and
+
+sells any excess electricity back to the grid, can the generator be authorized under GP-5?
+Response: A natural gas-fired engine generator located at natural gas compression or natural gas
+processing facility that is used to produce electricity and sell to the grid may not be authorized under
+GP-5, unless the engine is used to generate power solely to the facility for which the General Permit is
+authorized.
+16. Question: Can the portable analyzer testing data obtained under Section B, 4 (c) for NOx and CO be
+
+used for the Annual Reporting Requirements under Section A Condition 15?
+Response: In accordance with 25 Pa. Code § 135.5, if direct recordkeeping is not possible or practical,
+sufficient records shall be kept to provide the needed information by indirect means. Since engines or
+turbines authorized to operate under GP-5 are required to perform reference method tests for NOx
+and CO emissions, the periodic monitoring test results for NOx and CO emissions using a portable gas
+analyzer cannot be used for the Annual Reporting Requirements under Section A, Condition 15 of GP-5.
+The owner or operator may submit the NOx and CO emissions data obtained using portable gas
+analyzer only if the reference method test data are not available. The owner or operator must comply
+with the periodic monitoring requirements for each engine at every 2,500 hours of operation as
+established in Section B, 4, (c) of the GP-5.
+17. Question: Does Section B, 5 (b) require fuel metering for each engine?
+
+Response: As stated in Section B, 5 (b) of GP-5, the owner or operator is required to maintain
+comprehensive accurate records of the amount of each fuel type that is used per month in each
+engine. Though it is preferable to have independent fuel meter for each engine, the Department may
+accept the alternative calculations methodology to determine accurately fuel consumption for each
+engine.
+
+5
+
+June 1, 2015
+
+18. Question: If we have an engine permitted under the GP-5, would we be able to swap that engine
+
+out for another GP-5 compliant engine without repermitting? Is there just a change of serial
+number notification for that situation, or would we have to submit a whole new permit?
+Response: A replacement engine is considered by DEP as a “new source” which requires a new GP-5
+authorization issued by the Department. If the owner or operator has identified the backup engines in
+the application, then new authorization is not required to swap an engine that is permitted and
+operating under GP-5 or to install any of these backup engines. However, the same backup engines
+must be covered only in one General Permit application. After the backup engine has been installed,
+the owner or operator must comply with all applicable requirements established for engines in GP-5.
+Process Heaters:
+19. Question: Are natural gas-fired process heaters less than 10 mm BTU/hour eligible for authorization
+
+under the GP-5?
+Response: Yes. Process heaters that are an integral part of the natural gas fractionation and separation
+process units can be authorized by DEP under GP-5. As specified in Section G of GP-5, the owner or
+operator of a fractionation unit located at natural gas processing plant shall comply with 40 CFR Part
+60, Subpart KKKK – Standards of Performance for Equipment Leaks of VOCs from onshore natural gas
+processing plants requirements. The emissions from all sources including process heaters at the facility
+must be summed on a monthly basis to document that the facility continues to be a minor facility on a
+12-month rolling basis.
+Tanks:
+20. Question: Are tanks with Volatile Organic Compounds (VOC) emissions greater than 3 tpy but less
+
+than 6 tpy without a flare/combustor as a control eligible for authorization under the GP-5?
+Response: Yes. The tanks are authorized under GP-5 so long as the tanks meet the control
+requirements of 40 CFR Part 60, Subpart OOOO and the requirements of 25 Pa. Code §§ 127.56 and
+127.57.
+Plan Approval and Best Available Technology (BAT):
+21. Question: Would the GP-5 limits for the proposed turbines represent BAT or would the plan
+
+approval potentially contain limits more stringent than the GP-5 limits?
+22. Question: If the GP-5 limits could conceptually be accepted as BAT, would the BAT analysis required
+
+for the plan approval be a full top down analysis or a simpler analysis proposing the GP-5 limits as
+BAT?
+23. Question: Would the tanks included in Plan Approval application be subject to a full top down BAT
+
+analysis and potentially require controls such as a flare/combustor?
+
+6
+
+June 1, 2015
+
+Response: The BAT requirements for the air contamination sources included in a Plan Approval
+Application are determined on a case-by-case basis, which may include a top-down analysis. The
+analysis would include turbines, tanks, or any other emission source if the Department determined
+that they were subject to the plan approval requirements. The BAT requirements included in GP-5
+generally serve as a “floor” for subsequent case-by-case BAT determinations. Consequently, BAT
+established through the plan approval process could be more stringent than emission limits specified in
+GP-5.
+Exemption Category No. 38:
+24. Question: The Department seems to use the terms “well head” and “well pad” interchangeably. Are
+
+these terms the same or are they different?
+Response: The terms “well head” and “well pad” are different terms and are not used interchangeably
+by DEP. The “well head” refers exclusively to the structural and pressure-containing interface for the
+drilling and production equipment. It is the “Christmas tree” or assembly of valves, spools and fittings
+used for a gas well. The “well pad” area not only includes the well head, but also any well pad-specific
+associated equipment such as dehydration units, storage tanks and booster stations.
+25. Question: The PADEP does not define “well completion”; however the EPA under Subpart OOOO
+
+defines well completion as follows:
+Well completion means the process that allows for the flowback of petroleum or natural gas from
+newly drilled wells to expel drilling and reservoir fluids and tests the reservoir flow characteristics,
+which may vent produced hydrocarbons to the atmosphere via an open pit or tank.
+When does the 180- day clock start with regards to well completion? For example, a well completion
+may require weeks to complete and a well may not be completed to flow back. Therefore, does the
+180- day clock start with the initial submission of the Subpart OOOO completion notification, the act of
+well completion, or once the well is completed. Also, if the well is shut–in and there is no flowback, is
+that considered a completion?
+Response: The 180- day clock will start after the “well completion” as defined by the EPA in 40 CFR
+§ 60.5430. In other words, the 180-day clock for compliance demonstration purposes begins once
+flowback starts.
+26. Question: What is the definition of a site: a single well or a well pad?
+
+Response: For purposes of the Category No. 38 Exemption, DEP doesn’t use the term “site,” but uses
+the term “facility.” As defined in 25 Pa. Code § 121.1, the term facility means “an air contamination
+source or a combination of air contamination sources located on one or more contiguous or adjacent
+properties and which is owned or operated by the same person under common control.” For GP-5
+
+7
+
+June 1, 2015
+
+purposes, a facility may be a single well and associated equipment or multiple wells and associated
+equipment located at a single well pad or multiple well pads and the associated equipment. Single
+facility (source) determinations are made on a case-by-case basis using the Department’s “Guidance
+for Performing Single Stationary Source Determination for Oil and Gas Industries (Document No. 2700810-006, October 12, 2012).” Emission thresholds included in the Exemption Category No. 38 are
+applicable to the facility.
+27. Question: What is the definition of a leak?
+
+Response: For purposes of the Category No. 38 Exemption, a leak is any gaseous hydrocarbons that
+can be detected by an optical gas imaging camera such as a FLIR camera or any other approved gas
+leak detection device.
+However, any equipment or component that is designed to protect the equipment or safety of
+personnel is not considered a “leak.” A release from any equipment or component designed by the
+manufacturer to protect the equipment, controller, personnel, to prevent ground water
+contamination, gas migration, or an emergency situation is also not considered a leak.
+28. Question: Is leak repair required within 15 calendar days or 15 business days?
+
+Response: As required by Air Quality Exemption Category No. 38, leaks are to be repaired no later
+than 15 calendar days after detection unless facility shutdowns or ordering of replacement parts are
+necessary for repair of the leaks.
+29. Question: If the wet gas wells do not meet the Exemption Category No. 38, 2.7 tpy VOC emission
+
+limit, would a Plan Approval prior to drilling and completing wells be required or will the plan
+approval be only required for our production equipment, such as tanks, engines, heaters, etc.?
+Response: If the VOC emissions from other sources at the facility such as heaters, dehydrators and
+engines will exceed the exemption threshold of 2.7 tpy (or any other exemption criteria are not
+achieved), a Plan Approval must be obtained from DEP prior to the commencement of construction of
+any production equipment.
+No DEP authorization is needed for well drilling, completion and work-over activities. No DEP
+authorization is required if a storage tank or other equipment at the well pad is equipped with VOC
+emissions controls achieving 95 percent or greater reduction.
+In accordance with Exemption Category No. 38 (b) on the Air Quality Permit Exemption List, well
+drilling, completion and work-over activities are exempted from permitting requirements. VOC
+exemption criteria do not include emissions from sources that are approved by the Department in Plan
+Approvals, or the General Plan Approvals/General Operating Permits at the facility and the emissions
+from sources meeting the exemption criteria in Subparagraphs i, ii, and iv.
+
+8
+
+June 1, 2015
+
+30. Question: Are the emissions from pneumatic devices and venting from annular spaces included in
+
+the 2.7 tons of VOCs/yr?
+Response: A release from any equipment or component designed by the manufacturer to protect the
+equipment, controller, or personnel or to prevent ground water contamination, gas migration, or an
+emergency situation is not required to be included for the 2.7 tpy VOC emissions threshold. However,
+these VOC emissions must be included in the annual source report required under 25 Pa. Code § 135.3.
+The annual source report must be submitted to DEP by March 1st each calendar year for emissions
+during the previous calendar year.
+31. Question: If the applicant demonstrates that engines located at the well pad meet the criteria
+
+under Exemption Category No. 38, are they exempt from plan approval and permitting
+requirements?
+Response: Sources meeting the Category No. 38 exemption criteria are exempted from both Plan
+Approval and Operating Permit requirements. Although a source may be exempt from the Plan
+Approval and Operating Permit requirements of 25 Pa. Code Chapter 127, the source is still subject to
+all other applicable federal and state air quality regulations including New Source Performance
+Standards (NSPS) and National Emission Standards for Hazardous Air Pollutants (NESHAPs). The federal
+NSPS and NESHAP requirements are adopted and incorporated by reference in their entirety in 25 Pa.
+Code § 127.35 and 25 Pa. Code Chapters 122 and 124, as applicable.
+32. Question: If the applicant cannot demonstrate that engines located at the well pad meet the
+
+exemption criteria under Exemption Category No. 38 or prefer authorization for engines at a well
+pad under GP-5, can authorization be granted under the GP-5?
+Response: If the applicant cannot demonstrate that engines located at the well pad meet the criteria
+specified in the Category No. 38 Exemption, the applicant must comply with the Plan Approval and
+Operating Permit requirements under 25 Pa. Code Chapter 127 Subchapter B (relating to plan
+approval requirements) and/or Subchapter F (relating to operating permit requirements). GP-5 may be
+authorized by DEP for affected engines located on a well pad if the well pad is aggregated as a single
+facility with a natural gas compression and/or processing facility. GP-5 is applicable only to natural gas
+compression and/or processing facilities that are not major sources. In order to use GP-5, the engine
+must collect and compress natural gas from multiple well pads.
+33. Question: Under the current Exemption Category No. 38, is there any limit/threshold for emissions
+
+from sources at the well pad that are not engines?
+Response: Under the previous Exemption Category No. 38, there was no limit/threshold for emissions
+for sources at the well pad (excluding engines) in order to qualify for exemption. All sources and
+operations including wells and associated equipment and processes that were located at oil and gas
+exploration and production facilities, regardless of emissions, were exempted. However, the revised
+
+9
+
+June 1, 2015
+
+Exemption Category No. 38 specifies criteria and limits the amount of emissions of certain air
+contaminants.
+For example, combined VOC emissions from all sources at the facility must be less than 2.7 tons on a
+12-month rolling basis. Further, combined NOX emissions from the stationary internal combustion
+engines at wells and wellheads must be less than 100 lbs/hr, 1000 lbs./day, 2.75 tons per ozone season
+(the period beginning May 1 of each year and ending on Sept. 30 the same year), and 6.6 tpy on a 12month rolling basis. And, combined hazardous air pollutant (HAP) emissions at the facility must be less
+than 1,000 lbs of a single HAP or one ton of a combination of HAPs in any consecutive 12-month
+period.
+The exemption emission thresholds do not include emissions from sources that are approved by the
+Department in Plan Approvals or General Plan Approvals/General Operating Permits at the facility, nor
+do they include emissions from sources meeting the criteria specified in Subparagraphs i, ii and iv in
+Exemption Category No. 38.
+As required by 25 Pa. Code § 135.3, an owner or operator is required to annually report emissions to
+DEP from all sources, including exempt sources, located at the facility. The annual source report must
+be submitted to DEP by March 1st each calendar year for emissions during the preceding calendar
+year.
+34. Question: If you have an engine that meets the NOX requirements under exemption #38, but has
+
+CO emissions above 20 tpy, is this engine still exempt from plan approval? Is this engine exempt
+from operating permits?
+35. Question: Please confirm that a facility that qualifies for the exemption is not required to apply for
+and obtain an operating permit if emissions exceed the thresholds (in particular CO) on page 16 of
+the guidance concerning state only operating permits.
+Response: Sources meeting the established permit Exemption Category No. 38 emission thresholds
+are exempted from Plan Approval and Operating Permit requirements. This exemption would include
+CO emissions above 20 tpy so long as the established thresholds for NOx emissions are not exceeded.
+Although a source may be exempt from the Plan Approval and Operating Permit requirements of
+Chapter 127, the source is subject to all other applicable air quality regulations, including federal and
+state requirements such as NSPS and NESHAPs, which are incorporated by reference in the
+Pennsylvania Code. .
+36. Question: Will the Bureau of Air Quality inspectors handle field enforcement of the exemption or
+
+will it be handled by oil and gas inspectors?
+Response: Regional air program staff will handle field enforcement of exemption criteria. However, oil
+and gas inspectors may gather information for air program staff, which may prompt an investigation by
+Air Program staff.
+
+10
+2015
+
+June 1,
+
+37. Question: Should fugitive emissions be included as part of the 2.7 tpy of VOC if the facility is in an
+
+LDAR program?
+Response: Fugitive emissions are not required to be included as part of 2.7 tpy of VOC emissions
+threshold so long as the facility meets the specified LDAR exemption criteria.
+38. Question: What activity triggers a site to be in the Exemption 38 bucket – wells drilled after
+
+Aug. 10, 2013, or “well TIL’ed” after Aug.10, 2013?
+Response: The Air Quality Permit Exemption List revisions are applicable prospectively. The Category
+No. 38 exemption was revised on Aug. 10, 2013. The revised criteria for Exemption Category No. 38 are
+applicable for wells that are spudded or drilled after August 10, 2013 or any sources that commenced
+construction on or after Aug. 10, 2013.
+39. Question: Please clarify the following reference to 60.18: “Enclosed combustion device including
+
+enclosed flare will be used for all permanent flaring operations at a wellhead or facility. These
+flaring operations will be designed and operated in accordance with the requirements of 40 CFR §
+60.18.”
+Response: As per Exemption Category No. 38, iv. D., only “flaring operations” are required to be
+designed and operated in accordance with the requirements of 40 CFR § 60.18. Other enclosed devices
+such as thermal oxidizer are not required to comply with the requirements of § 60.18.
+40. Question: Within 60 days after the well is put into production, and annually thereafter, the
+
+owner/operator is required to perform a leak detection and repair (LDAR) program that includes
+either the use of an optical gas imaging camera such as a FLIR camera or a gas leak detector
+capable of reading methane concentrations in air of 0% to 5% with an accuracy of +/- 0.2% or other
+leak detection monitoring devices approved by the Department. What is the Department’s
+interpretation for “well put into production”?
+Response: The term “into production” is not defined in 40 CFR Subpart Part 60, Subpart
+OOOO. However, according to the definition of flowback, “…. [t]he flowback period ends with either
+well shut in or when the well is producing continuously to the flow line or to a storage vessel for
+collection, whichever occurs first”.
+The Department’s interpretation of “well put into production” means that the well is producing
+continuously to the flow line or to a storage vessel. Therefore, within 60 calendar days after the well
+begins producing continuously to the flow line or to a storage vessel for collection, whichever occurs
+first, and annually thereafter, the owner or operator will be required to perform a leak detection and
+11
+2015
+
+June 1,
+
+repair (LDAR) program. No well will be considered to be put “into production” unless gas is flowing into
+a sales line. For any well owner or operator that is selling gas through temporary equipment designed
+for flowback, the well shall not be considered to be placed “into production” until the earlier of: (1) 30
+days after first gas sales through temporary flowback separator(s), if sales through such temporary
+equipment continue for more than 30 days; or (2) commencement of gas sales through permanent
+production separators.
+The owners or operators of temporarily shut-in wells are not required to perform a leak detection and
+repair (LDAR) program until within 60 calendar days after the well is put into production and gas is
+flowing into a sales line. However, the owner or operator is required to repair the leak as expeditiously
+as practicable but no later than 15 calendar days after it is detected for temporarily shut-in well.
+41. Question: Where the term "completion" is used, we understand its meaning to be as defined
+
+exclusively as in the Definitions section of 40 CFR Part 60, Subpart OOOO.
+Response: Your understanding of the definition of the term, “completion” is correct. Well completion
+means the process that allows for the flowback of petroleum or natural gas from newly drilled wells to
+expel drilling and reservoir fluids and tests the reservoir flow characteristics, which may vent produced
+hydrocarbons to the atmosphere via an open pit or tank.
+42. Question: A drilled, but not fractured well, even though capped, is not considered shut in. If a well
+
+is drilled, but is not hydraulically fractured until weeks or months later (very typical, we're told), the
+well will not be considered as "shut in" for purposes of starting the 180- day CDR period, until after
+hydraulically fracturing and subsequent flowback. Our rationale is based on the idea that a drilled
+well, even if capped or blocked off after drilling (the industry does call it shut in, even though
+temporary), is not going to be a source of fugitives because there is virtually no pressure in the well
+hole, therefore, there is virtually no potential for leakage. It follows that LDAR would be a waste of
+time because leaks are not physically possible at that point. The fact is the hydraulically fractured
+well will have flowback, after which the well is completed.
+Response: The owner or operator is required to demonstrate compliance with the Exemption
+Category No. 38 criteria using any generally accepted model or calculation methodology within 180
+calendar days after the well completion as defined in 40 CFR Part 60, Subpart OOOO or installation of a
+source. Well completion means the process that allows for the flowback of petroleum or natural gas
+from newly drilled wells to expel drilling and reservoir fluids and tests the reservoir flow
+characteristics, which may vent produced hydrocarbons to the atmosphere via an open pit or tank. The
+180 calendar day clock for compliance demonstration begins once flowback starts.
+
+12
+2015
+
+June 1,
+
+Within 60 calendar days after the well begins producing continuously to the flow line or to a storage
+vessel for collection, whichever occurs first, and annually thereafter, the owner/operator will be
+required to perform a leak detection and repair (LDAR) program. No well will be considered to be put
+“into production” unless gas is flowing into a sales line. For any well which is selling gas through
+temporary equipment designed for flowback, the well shall not be considered to be placed “into
+production” until the earlier of: (1) 30 days after first gas sales through temporary flowback
+separator(s), if sales through such temporary equipment continue for more than 30 days; or (2)
+commencement of gas sales through permanent production separators.
+The owners or operators of temporarily shut-in wells are not required to perform a leak detection and
+repair (LDAR) program until within 60 calendar days after the well is put into production and gas is
+flowing into a sales line. However, the owner or operator is required to repair the leak as expeditiously
+as practicable but no later than 15 calendar days after it is detected for temporarily shut-in well.
+43. Question: Exploratory wells, wildcat wells, or delineation wells will still be subject to LDAR even if
+
+those wells are shut in and never deliver gas to gathering. The rationale is that the wells will be
+pressurized and therefore the equipment/valves that prevent the gas or liquids flow can potentially
+leak and therefore the well should still be subject to 60 day LDAR, the 180 day CDR and annual LDAR
+until the well is officially plugged per Oil & Gas standards. Is this correct?
+Response: The owners or operators of Exploratory wells, wildcat wells, or delineation wells as defined
+in 40 CFR Part 60, Subpart OOOO are not required to submit any compliance demonstration to the
+Department. However, the owner or operator must comply with all applicable requirements including
+40 CFR Part 60, Subpart OOOO requirements.
+44. Question: Even though 38 (b) sources are exempt, do they still have any compliance requirements?
+
+Response: Yes. The Exemption Category No. 38 (b) criteria are implemented through No. 38(d). This
+exemption allows owners or operators to commence the activities related to well drilling, completion,
+and other activities without any Air Quality permitting requirements as long as they comply with all of
+the Category No. 38 permit exemption criteria. It should be noted that completion activities are
+subject to 40 CFR Part 60, Subpart OOOO.
+45. Question: 40 CFR 89.2 non-road engines CDR's are only required for engines that arrive once the
+
+Subpart OOOO well completion is achieved. We do not interpret the CDR reporting to encompass
+any engines on site pre-completion. We also think there really is no bang for the buck on requiring
+the registration/listing of these engines. Use of these engines is normally intermittent, short-term
+and infrequent on well pads. We would be happy to see CDR requirements go away for these
+engines. It is assumed that non-road engines exempt from 40 CFR 89 will have no compliance
+
+13
+2015
+
+June 1,
+
+reporting requirements under Exemption 38 (even if they are subject to another standard
+somehow).
+Response: The owner or operator of a non-road engine as defined in 40 CFR § 89.2 is not required to
+submit a compliance demonstration to the Department for these engines. However, as required by 25
+Pa. Code § 135.3, the owner or operator is required to annual report emissions to the DEP for all
+sources, including exempted sources such as non-road engines, located at the facility. The annual
+source report must be submitted to DEP by March 1st each calendar year for emissions during the
+preceding calendar year. The natural gas emissions inventory and instructions are available at the
+following web site:
+http://www.portal.state.pa.us/portal/server.pt/community/emission_inventory/21810.
+46. Question: For satisfying CDR, instead of operators submitting FLIR videos of before and after of
+
+leak repairs, we prefer that they have the option of retaining the videos in their files and then just
+produce the videos on request from the Department. The operators have stated they will provide
+written and appropriately descriptive documentation, and even still images, of the repair but the
+videos are unusually large files and sometimes will not even fit on a CD unless they take the time to
+tediously edit the clip and extract pertinent sections to a separate video file. We believe letting
+them retain the videos for inspection upon request is reasonable as we don't care to clutter up
+facility files with CD's, only to have file reviewers ask if they can view the video or copy the CD,
+etc. This could become cumbersome.
+Response: There is no need for an owner or operator to submit video footage from an imaging
+camera. The owner or operator must maintain the record for leaks, repair methods and repair delays
+for five years and make the records available to the Department upon request.
+47. Question: The CDR Guidance directs the O/O to send Air Quality the 24 hour notice required by Act
+
+13 along with the Subpart OOOO Advance Notice on Flowback. Since the O/O already sends the
+well completion advance flowback notification required by 40 CFR 60 Subpart OOOO to the regional
+Air Program, it seems redundant to require the Act 13 notice be also sent. Since the Act 13 Notice is
+an O&G requirement, it doesn't get sent to the Air Program initially anyway, so we think it should be
+omitted from our CDR.
+Response: The owner and operator must send a copy of the 24-hour advance notice to the DEP prior
+to the commencement of each well completion as required under Pennsylvania’s Oil and Gas Law (Act
+13 of 2012). In accordance with 40 CFR § 60.5420 (a) (2) (ii), notification to the DEP under Act 13
+satisfies the notification requirement to EPA established in 40 CFR § 60.5420 (a) (2) (i).
+48. Question: The CDR Guidance directs the O/O to send Air Quality certain reports as part of the
+
+CDR. Since these reports will be included with the annual OOOO reporting, we think these
+
+14
+2015
+
+June 1,
+
+particular reports can wait until they are sent in the annual OOOO report. Sending these reports
+two times seems unnecessary and will ultimately take up precious file space in the file rooms.
+Response: Compliance with Category No. 38 exemption requirements is an applicable State
+requirement. Therefore, compliance must be demonstrated to DEP within 180 days after the well
+completion or installation of a source, in addition to the EPA’s Annual Reporting requirements.
+49. Question: As I understand from the 40 CFR Subpart OOOO regulations, Notification and Reporting
+
+are required to be submitted to the Administrator (PA DEP), except the performance test data that
+must be reported to EPA’s webFIRE database. Please let me know whether any additional
+notifications or reporting are required to be submitted to the EPA.
+Response: As required by the Exemption Category No. 38, the owner or operator will demonstrate
+compliance with the exemption criteria using any generally accepted model or calculation
+methodology within 180 days after the well completion or installation of a source. The owner or
+operator is also required to comply with all applicable state and federal requirements including
+notification, recordkeeping, and reporting requirements as specified in 40 CFR Part 60, Subpart OOOO.
+As stated in the Internal Implementation Instructions for Exemption Category No. 38, this initial
+compliance demonstration to the Department may be submitted electronically or via regular mail to
+the appropriate Regional Air Program Manager.
+In accordance with 40 CFR § 60.5420, the owner or operator is required to submit all reports required
+by Subpart OOOO to the DEP. The owner or operator is required to submit results of the performance
+tests to the EPA by generating the submission package of the test data using the latest version of EPA’s
+Electronic Reporting Tool (ERT) and submitting the package through Compliance and Emissions Data
+Reporting Interface (CEDRI). The owner or operator is also required to submit test results to the
+Department.
+50. Question: Is Exemption Category No. 38 applicable to any equipment such as a storage vessel or
+
+engine installed at a well pad after the effective date where the well is spud prior to the effective
+date of Exemption Category No. 38?
+Response: The Exemption Category No.38 criteria for unconventional well, wellhead, or associated
+equipment, and other sources, were finalized on August 10, 2013 (43 Pa. B. 4661). As a result, any
+unconventional well, wellhead, or associated equipment constructed after August 10, 2013 is subject
+to all of the Exemption Category No.38 criteria, including demonstration of compliance. Failure to
+demonstrate compliance with these criteria may require an owner or operator to apply for and receive
+a plan approval and operating permit before construction or operation may resume.
+As provided in the Exemption Category No. 38, “[t]he owner or operator will also demonstrate
+compliance with the exemption criteria using any generally accepted model or calculation
+methodology within 180 days after the well completion or installation of a source.”
+
+15
+2015
+
+June 1,
+
+The applicability date under the exemption criteria applies to the construction of each individual air
+contamination source, like a well, engine, or dehydration unit, and not to the entire facility, like the
+well pad. For example, if the owner or operator began actual construction of a well, well head or
+associated equipment on a well pad prior to August 10, 2013, that well, well head or associated
+equipment is not subject to the Exemption Category No.38 requirements. However, any well, well
+head or associated equipment constructed on that well pad after August 10, 2013 is subject to the
+Exemption Category No.38 criteria.
+51. Question: PADEP’s May 8, 2014 letter clearly states that applicability applies to the construction of
+
+each individual air contamination source, not the facility. What is commenced construction for a
+well? Spud Date?
+Response: Commenced construction for a well is the date of commencement of well drilling.
+52. Question: What happens when a new heater, or generator, dehy, is installed at an existing well site
+
+not subject to revised Exemption 38. Does that addition trigger applicability to revised Exemption
+38? If yes, is it only the new emission source that is required to meet the various conditions of
+revised Exemption 38?
+Response: The construction or reconstruction of each individual air contamination source, like a well,
+engine, heater, or dehydration that begins on the existing well pad after August 10, 2013, is subject to
+all of the criteria specified Exemption Category No. 38 including the compliance demonstration
+requirement.
+Exemption Category No. 38 criteria apply only to the new, reconstructed, or modified air
+contamination source and not to the entire existing well pad equipment or source that was
+constructed prior to August 10, 2013.
+53. Question: What if modifications to existing equipment (change a reboiler, change out a burner,
+
+etc.) for maintenance and repair purposes are made at an existing well site? Does the modification
+trigger applicability to revised Exemption 38?
+Response: Exemption Category No. 38 criteria apply to the new, reconstructed, or modified air
+contamination source and not to the entire existing well pad that was constructed prior to August 10,
+2013. The modification of the air contamination source that was constructed prior to August 10, 2013
+will be evaluated on a case-by-case basis.
+54. Question: For applicability to revised Exemption 38, instead of using the date that the source
+
+commenced construction (was installed), can we use the date that the well/source was “put into
+production”, or startup date since this date in some cases is easier to track? The “put into
+production” date is the “startup” date, and would be more conservative for determining
+applicability to new Exemption 38 than the date the well was constructed (completed/drilled) or
+
+16
+2015
+
+June 1,
+
+production equipment set on pad. Can we also use this date to determine when the initial
+compliance report is due?
+Response: For purposes of determining the applicability of the revised Exemption Category No. 38
+(August 2013), the owner or operator must use the date when the well drilling commenced, and not
+the date when well was “put into production” or startup date.
+The date when “well put into production” applies for the LDAR requirements established in Exemption
+Category No. 38 d. i.
+55. Question: Was the Department’s intent to conduct an aggregation analysis to apply to the 2.7 tpy,
+
+or to apply the 2.7 tpy threshold to each well site?
+Response: If two well sites are determined to be a single source then 2.7 tons VOC per year limit will
+be applicable to the combined VOC emissions from sources located at both well sites.
+56. Question: If aggregation analysis is required, what sources? Just well sites, or well sites,
+
+compressor stations, tank batteries, processing plants, etc.?
+Response: If two well sites or well site and compressor station, processing plant are determined to be
+a single source then the Aggregation Analysis is required for all sources located at both well sites or all
+sources at the well site and compressor station and processing plant.
+57. Question: Instead of 12-month rolling average emissions, can we use potential emissions and prove
+
+that potential emissions are not exceeded based on the annual actual air emission standards?
+Response: Any requests for alternative way of demonstrating compliance with 12-month rolling
+average emissions will be evaluated by DEP on a case-by-case basis.
+58. Question: Do maintenance activities, such as liquids unloading and miscellaneous blowdowns,
+
+need to be counted toward the 2.7 tpy limit? It is clear that fugitive emissions including pneumatic
+controllers and annulus venting are not included, per the FAQ document.
+Response: Liquid load out activities are not considered as maintenance activities. VOC emissions from
+truck load outs are required to comply with 95% VOC control requirement stated in condition d. ii of
+Exemption Category No. 38. Emissions from truck load outs are not accounted toward 2.7 tons per
+year VOC emissions threshold.
+
+59. Question: Temporary activities are unconditionally exempt for drilling and completions (and
+
+completions include well flowback). However, exploratory well tests are not explicitly
+
+17
+2015
+
+June 1,
+
+addressed. Well tests could occur as part of flowback, or the well could be shut-in, and the well test
+could occur at a later date. Do well test emissions need to be part of the 2.7 tpy threshold?
+Response: Temporary exploratory well tests are not required to comply with the exemption criteria
+established in Category No. 38. The owner or operator of Exploratory wells, wildcat wells, or
+delineation wells as defined in 40 CFR Part 60, Subpart OOOO are not required to submit any
+compliance demonstration to the Department. However, the owner or operator must comply with all
+applicable requirements including 40 CFR Part 60, Subpart OOOO requirements.
+Emissions from temporary exploratory test wells are not required to be accounted for 2.7 VOC
+emissions threshold.
+60. Question: What if the tank at a well site is not subject to Subpart OOOO, but is being controlled in
+
+order to claim Exemption 38. Do we still have to meet the AVO and Method 21 inspections required
+by Subpart OOOO for the non-Subpart OOOO storage tank?
+Response: As stated in Exemption Category No. 38 d. i, the owner or operator of a storage tank on a
+well pad is required to comply with the LDAR requirements using FLIR camera or other leak detection
+monitoring devices approved by the Department. Any leak detection and repair is required to be
+performed in accordance with 40 CFR Part 60, Subpart OOOO.
+Therefore, even though the storage tank at well site that is not subject to Subpart OOOO, the owner or
+operator must perform LDAR in accordance with 40 CFR Part 60, Subpart OOOO including annual visual
+inspections and all other applicable requirements established in Exemption Category No. 38 d. i.
+61. Question: Instead of submitting initial compliance reports sporadically throughout the year, can we
+
+request the submission of one annual report or semi-annual reports, for all new well sites or sources
+claiming Exemption #38?
+Response: The owner or operator must demonstrate compliance with the exemption criteria using any
+generally accepted model or calculation methodology within 180 days after the well completion or
+installation of a source. The owner or operator may submit the initial compliance report semi-annually
+if all sources covered in report satisfy 180 days compliance demonstration requirement.
+Miscellaneous Questions:
+62. Question: Please provide some guidance on the following circumstance: An existing, single gas
+
+compressor, located on a separate pad (i.e., not on a well pad), requiring renewal of GP-5.
+Response: An engine that is located at a separate pad and is authorized under a previous GP-5 is not
+eligible to be re-authorized under the current GP-5 if it is not used for mid-stream natural gas
+operations. Such an engine may either be exempted under Exemption Category No. 38 or the owner or
+
+18
+2015
+
+June 1,
+
+operator may apply for a State-only Operating Permit. In any event, a Plan Approval is not needed. Any
+engine associated with a conventional well is exempted from permitting requirements.
+GP-5 may be authorized by DEP for engines located at a well pad provided the well pad is aggregated
+as a single facility with a mid-stream natural gas compression source. The gases must be collected and
+compressed from multiple well pads by the engine located at a well pad.
+As indicated in the response to Questions 1 and 2 of this FAQ, GP-5 is applicable only to natural gas
+compression and/or processing facilities that are not major sources. GP-5 requirements, including
+quarterly leak detection and repair (LDAR), will be applicable to the entire facility, including sources
+located at the well pad. Exemption Category No. 38 criteria will not be applicable to sources located at
+the well pad because the sources are covered by GP-5. All emissions including leaks from the facility
+must be summed on a monthly basis to document that the facility continues to be a minor facility on a
+12-month rolling basis.
+63. Question: What are the permitting requirements for NOX emissions from a compressor located at a
+
+well pad that exceeds 6.6 TPY?
+Response: If NOX emissions from a compressor located at a well pad exceed the threshold for
+Exemption Category No. 38 and the application of the subject compressor is for compression of gases
+from various well sites, the applicant may apply for authorization to use GP-5. If it is not eligible for a
+GP-5 authorization, the applicant should apply for a plan approval and a State-only Operating Permit.
+GP-5 may be authorized by DEP for affected sources located on a well site if the well pad is aggregated
+as a single facility with a natural gas compression and/or processing facility. GP-5 is applicable only to
+natural gas compression and/or processing facilities that are not major sources. All the actual
+emissions from the facility must be summed to document that the facility continues to be a minor
+facility on a 12-month rolling basis.
+64. Question: Please provide some guidance on the following circumstances:
+
+A compressor, wells and gathering lines are all owned and operated by the same company. Gas is
+being compressed from 100+ conventional gas wells in the area, ranging in distance from 500 feet
+to
+2 miles from compressor.
+Is this a correct interpretation of the Department’s policy that Department would aggregate
+emissions from the compressor with any wells located within ¼ mile of the compressor for purposes
+of a GP-5 permit?
+Response: Single facility (source) determinations are made on a case-by-case basis using DEP’s
+“Guidance for Performing Single Stationary Source Determination for Oil and Gas Industries.” As per
+the guidance, properties located ¼ mile or less apart are considered contiguous or adjacent properties
+
+19
+2015
+
+June 1,
+
+for applicability determinations. Properties located beyond a ¼-mile range may only be considered
+contiguous or adjacent on a case-by-case basis.
+
+20
+2015
+
+June 1,
+
+

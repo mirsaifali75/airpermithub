@@ -1,0 +1,380 @@
+Permitting - Air Quality - North Dakota DEQ 
+Skip to main content 
+Website Accessibility Statement 
+We are committed to ensuring our website and web content complies with the Americans 
+with Disabilities Act (ADA) and applicable web accessibility standards. 
+If you have difficulty using our site or need an accommodation, please 
+contact us at deq@nd.gov . To learn more, visit our Accessibility page . 
+Air Quality
+Air Quality
+Search: 
+Toggle left popout navigation 
+Toggle top navigation 
+DEQ Home 
+Air Quality 
+Chemistry 
+Municipal Facilities 
+Waste Management 
+Water Quality 
+Office of Director 
+DEQ Home 
+AQ 
+Permitting
+DEQ Resources 
+Electronic Reporting & Permit Systems 
+Report a Spill 
+Environmental Topics A-Z 
+Risk Based Corrective Action 
+Public Comments, Meetings &amp Notices 
+Calendar and Events 
+Rules and Regulations 
+Forms 
+Publications 
+Press Releases 
+Open Records 
+Legislative Testimony 
+Employment Opportunities 
+Nondiscrimination Program 
+Environmental Audits 
+Environmental Review Advisory Council 
+Search EHS for 
+Go! 
+Division of Air Quality Resources
+Air Quality Home 
+CERIS-ND 
+Permit Portal 
+Fees 
+Forms 
+Rules, Regulations & Policies 
+Public Comments & Notices 
+Data & Maps 
+Training 
+AQ Publications 
+About DoAQ 
+Notice: Many Air Quality forms are fillable PDF forms. For the best experience, ensure your browser is up to date. If you have trouble filling out a form within your browser, we recommend downloading the file and opening it with Adobe Acrobat Reader 
+Permitting
+To control emissions and protect the air quality of North Dakota, the Department utilizes a permit program to evaluate new construction projects for their impact on air quality. Once a permit to construct is issued, the facility may be built and once it is completed the Permit to Operate program ensures that the facility stays in compliance with air rules.
+Air Permitting Program Process 
+Construction Permitting 
+A facility must first submit an application for a construction permit (PTC) for any source required under NDAC 33.1-15-14 . When the permit application is received by the department it will be reviewed for completeness. Once a completed application is received, staff review the equipment and operation processes to verify that the facility will be constructed per applicable State and Federal regulations. If it is expected that the facility will adhere to all applicable rules then a Permit to Construct (PTC) is issued.
+Operating Permits 
+Once a facility has been constructed, the Department will inspect it to verify that the facility was constructed per the issued PTC. If the facility is in compliance with the PTC an operating permit (PTO) may be issued to the permittee. The PTO states reporting, testing, and record-keeping requirements that apply to the facility to assist the facility in operating in compliance and help identify any non-compliance issues. 
+Help with the Permitting Process
+Clean Air Act Rules and Regulations are numerous and often complex. If your company does not have in-house Clean Air Act expertise, we suggest you consider obtaining the services of an environmental consultant before starting the permitting process. A list of consultants who have asked to be listed with us is located below. The Department makes no recommendation on any individual or firm. The list is provided for informational purposes only. Consultants interested in being placed on the list should contact the North Dakota Department of Environmental Quality at 701-328-5188 or email Air Quality ( AirQuality@nd.gov ). 
+List of Consultants 
+Permitting Topics 
+Air Toxics (HAPs) 
+Construction Permitting (PTC) 
+Modeling 
+Operating Permits (PTO) 
+Aerial Spraying 
+Open Burning 
+View Issued Permits (PTCs & PTOs)
+View Construction Permits Under Review 
+Permit Limits 
+What type of permit a facility falls under is determined in part by the facility's potential to emit for the seven criteria pollutants and amount of hazardous air pollutant (HAPs). Permits fall into two groups: Permit to Construct (PTC) and Permit to Operate (PTO). Under a Permit to Construct there are two types of facilities with regards to the PSD program: minor sources and major sources (PSD). Under a Permit to Operate there are two types of facilities: minor source and major source (Title V). Within minor sources are true minor sources with no federally enforceable limits and synthetic minor sources where a source accepts a federally enforceable operating limit to stay under major source limits. 
+It should be noted that although PTCs and PTOs have very similar permit conditions and both programs use the terms Minor and Major, that they are two different programs with different requirements. 
+Permit Type
+Criteria Air 
+Pollutant 
+Limit 1 
+Combined
+Hazardous 
+Air Pollutant 
+(HAP) Limit 2 
+Single 
+HAP Limit
+Federally 
+Enforceable 
+Limits (Y/N)
+Minor Source [PTC & PTO]
+<100 tons/yr
+< 25 tons/yr
+< 10 tons/yr
+No
+Synthetic Minor Source 3 [PTC & PTO]
+<100 tons/yr
+< 25 tons/yr
+< 10 tons/yr
+Yes
+Title V 4 Source [PTO] 
+≥100 tons/yr
+≥ 25 tons/yr
+≥ 10 tons/yr
+Yes
+PSD Source [PTC]
+≥100 or 250 tons/yr 5 
+≥ N/A tons/yr 6 
+≥ N/A tons/yr 6 
+Yes
+1 Criteria Pollutant - Criteria Air Pollutant limit applies to each individual pollutant and is not a combined total amount. 
+2 List of Hazardous Air Pollutants 
+3 Sources that have the potential to emit 100 ton/yr or greater of a criteria pollutant, 10 ton/yr or greater of any hazardous air pollutant, or 25 ton/yr or greater of any combination of hazardous air pollutants, and the permittee accepts a federally enforceable limit in the Permit to Operate that limits the potential to emit to the same criteria specified for a minor source.
+4 In addition, some sources will require a Title V permit because of applicability under the Prevention of Significant Deterioration (PSD) program; PSD levels apply to construction permits not to operating permits. Sources (electric generating units) that require a Title IV Acid Rain Permit as part of their Title V Permit to Operate.
+5 The PSD program has listed 28 source categories where the threshold is at 100 tons per year including fugitives, all other sources are 250 tons per year of criteria pollutants without fugitive emissions—for this list see 40 CFR 52.21(b) .
+6 Note: PSD only applies to criteria pollutants.
+Public Comment, EPA Review, & Affected State Requirements 
+Permits to Construct and Permits to Operate may require public comment periods, EPA review, and/or affected state review prior to issuance. These requirements depend on the type of permit to be issued. For any permit that requires publication in a newspaper, the newspaper refers to the newspaper of record of the county in which the facility is located. All permits subject to public comment period will be posted on the North Dakota Department of Environmental Quality website under Public Comments & Notices . 
+Note that on November 17, 2106 EPA removed the public notice through newspaper posting if notice and documents were posted as an e-notice see 81 FR 71613 . 
+Public Comment for Permits to Construct 
+Permit Type
+30-Day Public Comment Required
+Major Source (PSD)
+Initial Issue 
+Yes (newspaper & website)
+Major Source (Title V)
+Initial Issue 
+Yes (website)
+Synthetic Minor
+Initial Issue 
+Yes (website)
+True Minor or Minor by Rule 1 
+Initial Issue 
+No
+Modification of Issued PTC 1 
+See NDAC 33.1-15-14-02.6 for public comment modification rules.
+1 A public comment period may be required if there is a significant level of public interest or if a public comment period has been requested by the permittee or the public. 
+A 30-day public comment period is required for PTCs which are:
+Affected facilities under 
+Chapter 33.1-15-13 — Emission Standards for Hazardous Air Pollutants. 
+New sources that will be required to obtain a Permit to Operate under the Title V Permit Program . 
+Modifications to an existing facility that will increase the potential to emit from the facility by the following amounts:
+One hundred tons [90.72 metric tons] per year or more of particulate matter (PM, PM 10 PM 2.5 ), sulfur dioxide (SO 2 ), nitrogen oxides (NO x ), hydrogen sulfide (H 2 S), carbon monoxide (CO) or volatile organic compounds (VOCs); or
+Ten tons [9.07 metric tons] per year or more of any contaminant listed under section 112(b) of the Federal Clean Air Act; or
+Twenty-five tons [22.68 metric tons] per year or more of any combination of contaminants listed under section 112(b) of the Federal Clean Air Act; or
+Sources that the Department has determined to have a major impact on air quality, sources that have received a request for a public comment period from the public, a source with a significant degree of public interest, or those sources that request a federally enforceable permit which limits their potential to emit (i.e. synthetic minor permits).
+Permit to Operate— Title V and Title IV (Acid Rain) 
+Permit Type
+30-Day Public Comment Required
+45-Day EPA Review 1 
+(Subsequent to Public Comment) 
+30-Day EPA Review 1 
+(Concurrent with Public Comment) 
+30-Day Affected State Review 
+(if ≤ 50 miles) 
+Initial Issue
+Yes (newspaper & website)
+Yes
+No
+Yes
+Renewal
+Yes (newspaper & website)
+Yes
+No
+Yes
+Administrative Amendment
+No
+No
+No
+No
+Minor Modification 3 
+No 2 
+Yes
+No
+No
+Significant Modification
+Yes (newspaper & website)
+Yes
+No
+Yes
+1 The Department shall send a copy of the permit application with the draft permit for all EPA reviews, with the exception of Title V renewals, where the permittee is responsible for submitting a copy of the application to the EPA.
+2 A public comment period may be required if there is a significant level of public interest or if a public comment period has been requested by the permittee or the public. 
+3 Within five working days of receipt of a complete minor permit modification application, the Department shall notify the EPA and affected states of the requested permit modification per NDAC 33.1-15-14-0.6e(1)(c) . 
+Permit to Operate—Synthetic Minor 
+Permit Type
+30-Day Public Comment Required
+45-Day EPA Review 1 
+(Subsequent to Public Comment) 
+30-Day EPA Review 1 
+(Concurrent with Public Comment) 
+30-Day Affected State Review 
+(if ≤ 50 miles) 
+Initial Issue
+No 2 
+No
+No 2 
+No
+Renewal
+No 2 
+No
+No 2 
+No
+Revision
+No 2 
+No
+No 2 
+No
+1 The Department shall send a copy of the permit application with the draft permit for all EPA reviews, with the exception of Title V renewals, where the permittee is responsible for submitting a copy of the application to the EPA.
+2 Public comment and EPA review will be required for any synthetic minor source that was not issued a permit to construct (PTC) which underwent public participation for the synthetic minor limit(s). Examples of such facilities would be asphalt plants, which are issued a PTO without a PTC. Public comment will be posted through the Department's website on the public comments and notices page.
+Permit to Operate—True Minor or Minor by Rule 
+Permit Type
+30-Day Public Comment Required 1 
+45-Day EPA Review 
+(Subsequent to Public Comment) 
+30-Day EPA Review 
+(Concurrent with Public Comment) 
+30-Day Affected State Review 
+(if ≤ 50 miles) 
+Initial Issue
+No
+No
+No
+No
+Renewal
+No
+No
+No
+No
+Revision
+No
+No
+No
+No
+1 A public comment period may be required if there is a significant level of public interest or if a public comment period has been requested by the permittee or the public. 
+Permitting Forms 
+Permit Application Forms 
+Title V Operating Permit Instructions 
+For information on completing the forms and fees:
+Instructions for Completing Permit Application Forms 
+Instructions for Completing Title V Permit to Operate Application Forms 
+CERIS-ND is a one-stop place to submit reports, notifications, and permit applications electronically. 
+Access CERIS-ND 
+Subscriber Agreement Required for Title V Submission 
+Form Name 
+SFN 
+Rev. Date
+Form Type
+Submit Electronically?
+Air Contaminant Sources (Required for all minor/synthetic minor permit application packages.) 
+8516 
+09-21
+Permit Application
+CERIS-ND 
+Air Pollution Control Equipment
+8532 
+09-21
+Permit Application
+CERIS-ND 
+Asphalt Concrete Plants
+8526 
+09-21
+Permit Application
+CERIS-ND 
+Contaminated Soil Treatment Facilities
+52724 
+09-21
+Permit Application
+CERIS-ND 
+Flares
+59652 
+09-21
+Permit Application
+CERIS-ND 
+Fuel Burning Equipment for Indirect Heating
+8518 
+09-21
+Permit Application
+CERIS-ND 
+Glycol Dehydration Units
+58923 
+09-21
+Permit Application
+CERIS-ND 
+Grain, Feed, and Fertilizer Operations
+8524 
+09-21
+Permit Application
+CERIS-ND 
+Hazardous Air Pollutant (HAP) Sources
+8329 
+09-21
+Permit Application
+CERIS-ND 
+Incinerators/Crematories
+8522 
+09-21
+Permit Application
+CERIS-ND 
+Internal Combustion Engines and Turbines
+8891 
+09-21
+Permit Application
+CERIS-ND 
+Manufacturing or Processing Equipment
+8520 
+09-21
+Permit Application
+CERIS-ND 
+Natural Gas Processing Plants
+11408 
+09-21
+Permit Application
+CERIS-ND 
+Oil/Gas Production Facility Registration (Replaced by General Permit Application)
+14334 
+07-25
+General Permit Application
+CERIS-ND 
+Permit Renewal/Registration Application (minor/synthetic minor)
+60242 
+09-21
+Permit Application
+CERIS-ND 
+Rock, Sand and Gravel Plants
+8530 
+09-21
+Permit Application
+CERIS-ND 
+Volatile Organic Compounds Storage Tank
+8535 
+09-21
+Permit Application
+CERIS-ND 
+Permit Application for Perchloroethylene Dry Cleaning Facilities
+60923 
+09-21
+Permit Application
+CERIS-ND 
+Title V Permit to Operate Application (Required for all Title V application packages.) 
+52858 
+09-21
+Title V Program
+CERIS-ND 
+Emission Unit for Title V Permit to Operate (One for each EU.) 
+61006 
+03-19
+Title V Program
+CERIS-ND 
+Title V Permit to Operate Renewal Application
+52824 
+09-21
+Title V Program
+CERIS-ND 
+E-Permitting 
+The Division of Air Quality has developed electronic permitting for Pre-Construction (NSR/PSD) permitting, Minor/Synthetic Minor Operating Permits and Title V operating permits.
+Access CERIS-ND 
+Subscriber Agreement Required for Title V Submission 
+&larr; AQ Home 
+Construction Permits &rarr; 
+Last Updated: 2/4/2026 
+This web page may contain legacy documents — materials published prior to April 24, 2026 — available here for reference and research. These older documents may not be fully accessible for all users or compatible with assistive technologies. We are committed to providing equal access — if you encounter any barriers opening, reading, or using any document on this page, please contact us at deq@nd.gov and we will provide the information in an alternative format.
+Department of Environmental Quality 
+4201 Normandy Street
+Bismarck, ND 58503-1324
+P: 
+701-328-5150
+F: 
+701-328-5200
+E: deq@nd.gov 
+Contact Us 
+About Us 
+Accessibility 
+Jobs 
+FAQs 
+Local Public Health Units 
+Intranet 
+Copyright © 2026 
+Icon fonts generated by flaticon.com under Creative Commons BY . The authors are: Freepik , OCHA , Icomoon , Stephen Hutchings, Rami McMin, Yannick , SimpleIcon , TutsPlus , Vaadin , GraphBerry , Daniel Bruce , Vectorgraphit, Ema Dimitrova , Amit Jakhu, Tintins, and Plainicon. 
+Older documents are available here for reference and recordkeeping. They may not meet current ADA accessibility standards. 
+To request an accessible version, please email 
+deq@nd.gov .
