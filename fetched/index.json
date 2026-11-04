@@ -1,0 +1,35 @@
+{
+ "f001.txt": {
+  "url": "https://www.muni.org/",
+  "status": 200,
+  "finalUrl": "https://www.muni.org/",
+  "type": "text/html",
+  "title": "Anchorage, AK",
+  "length": 11016
+ },
+ "f002.txt": {
+  "url": "https://www.muni.org/Departments/Fire/Pages/default.aspx",
+  "status": 200,
+  "finalUrl": "https://www.muni.org/departments/fire/",
+  "type": "text/html",
+  "title": "Fire",
+  "length": 11602
+ },
+ "f003.txt": {
+  "url": "https://www.muni.org/Departments/Fire/Wildfire/Pages/default.aspx",
+  "status": 404,
+  "finalUrl": "https://www.muni.org/Departments/Fire/Wildfire/Pages/default.aspx",
+  "type": "text/html",
+  "title": "404",
+  "length": 9131,
+  "gone": "404"
+ },
+ "f004.txt": {
+  "url": "https://www.muni.org/Departments/health/Admin/environment/AirQ/Pages/default.aspx",
+  "status": 200,
+  "finalUrl": "https://www.muni.org/departments/health_department/administration/environment/air_quality/",
+  "type": "text/html",
+  "title": "Air Quality",
+  "length": 14766
+ }
+}
