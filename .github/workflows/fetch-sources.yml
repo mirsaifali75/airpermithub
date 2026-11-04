@@ -9,6 +9,10 @@ on:
       urls:
         description: Space-separated page or PDF URLs
         required: true
+      index_only:
+        description: Save only index.json (status, final URL, title per link). Use for link checks; raw agency HTML can trip GitHub push protection.
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -25,11 +29,13 @@ jobs:
           URLS: ${{ inputs.urls }}
       - run: node scripts/verify-sources.mjs --fetch fetch-urls.txt --out fetched
       - name: Save the pages on a branch
+        env:
+          INDEX_ONLY: ${{ inputs.index_only }}
         run: |
           branch="fetch/${GITHUB_RUN_ID}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add fetched
+          if [ "$INDEX_ONLY" = "true" ]; then git add fetched/index.json; else git add fetched; fi
           git commit -m "Fetched source pages"
           git push -u origin "$branch"
