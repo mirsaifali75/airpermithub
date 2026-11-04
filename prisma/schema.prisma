@@ -591,6 +591,9 @@ model ReviewTask {
   decidedById  String?
   decidedAt    DateTime?
   decisionNote String?
+  /// For proposed changes: a hash of the proposed record, so a change that was
+  /// rejected or sent back is not proposed again unchanged.
+  contentHash  String?
   createdAt    DateTime      @default(now())
 
   assignee    User?        @relation("ReviewAssignee", fields: [assigneeId], references: [id])
@@ -599,6 +602,7 @@ model ReviewTask {
 
   @@index([status, kind])
   @@index([entityType, entityId])
+  @@index([entityType, entityId, contentHash])
 }
 
 /// Append-only: a trigger rejects UPDATE and DELETE.
