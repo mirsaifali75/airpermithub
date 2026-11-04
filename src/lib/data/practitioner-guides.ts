@@ -247,7 +247,7 @@ export const practitionerGuides: Guide[] = [
       { title: "40 CFR 63.2: definitions (eCFR)", url: ecfr("63.2") },
     ],
     related: [
-      { label: "Title V Deviation Log", href: "/tools/deviation-log" },
+      { label: "Deviation & Prompt Reporting Tracker", href: "/tools/deviation-log" },
       { label: "Building a Title V compliance matrix", href: "/resources/building-a-title-v-compliance-matrix" },
       { label: "Glossary: deviation", href: "/glossary#deviation" },
     ],

@@ -28,7 +28,7 @@ export default function CompliancePage() {
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
             <h2 className="text-lg font-bold text-ink">Reminders</h2>
             <ul className="mt-4 flex flex-wrap gap-2">
-              {[{ t: "Calendar export (.ics) with repeats and reminders: live", tone: "green" as const }, { t: "Task list export (CSV): live", tone: "green" as const }, { t: "Email reminders: coming soon", tone: "gray" as const }].map((c) => <li key={c.t}><Badge tone={c.tone}>{c.t}</Badge></li>)}
+              {[{ t: "Calendar export (.ics) with repeats and reminders: live", tone: "green" as const }, { t: "Task list export (CSV): live", tone: "green" as const }, { t: "Email reminders: coming soon", tone: "gray" as const }].map((c) => <li key={c.t}><Badge tone={c.tone} wrap>{c.t}</Badge></li>)}
             </ul>
             <p className="mt-3 text-sm text-muted">Deadlines always come from your permit conditions or the cited rule, never from AirPermitHub assumptions. Record the basis on each task so the calendar entry carries it.</p>
           </div>

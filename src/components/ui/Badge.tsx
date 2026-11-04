@@ -22,7 +22,7 @@ export function Badge({ tone = "gray", icon, children, className, wrap = false }
     <span
       className={cn(
         "inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ring-1 ring-inset",
-        wrap ? "whitespace-normal" : "whitespace-nowrap",
+        wrap ? "whitespace-normal" : "max-w-full whitespace-normal sm:whitespace-nowrap",
         tones[tone],
         className,
       )}

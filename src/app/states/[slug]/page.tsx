@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge, CitationBadge, VerificationBadge } from "@/components/ui/Badge";
-import { buttonClass } from "@/components/ui/Button";
+import { buttonClass, wrappingButtonClass } from "@/components/ui/Button";
 import { Disclaimer, EmptyState, VerifyNotice } from "@/components/ui/Notices";
 import { Tabs } from "@/components/ui/Tabs";
 import { agencyShortName, getStateProfile } from "@/lib/data/state-profiles";
@@ -363,7 +363,7 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
         </div>
       </PageHeader>
 
-      <div className="container-page grid gap-8 py-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
+      <div className="container-page grid grid-cols-[minmax(0,1fr)] gap-8 py-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <div className="min-w-0 space-y-6">
           {p.verification !== "verified" && (
             <VerifyNotice>
@@ -383,8 +383,8 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
             {p.agency.division && <p className="text-sm text-muted">{p.agency.division}</p>}
             <div className="mt-4 space-y-2">
               {p.agency.permitsUrl && <a href={p.agency.permitsUrl} target="_blank" rel="noopener noreferrer" className={buttonClass("primary", "sm", "w-full")}>Agency air permits page <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" /></a>}
-              {p.ePermitting && <a href={p.ePermitting.url} target="_blank" rel="noopener noreferrer" className={buttonClass("subtle", "sm", "w-full")}>{p.ePermitting.name}</a>}
-              {p.fees && <a href={p.fees.url} target="_blank" rel="noopener noreferrer" className={buttonClass("subtle", "sm", "w-full")}>{p.fees.name}</a>}
+              {p.ePermitting && <a href={p.ePermitting.url} target="_blank" rel="noopener noreferrer" className={wrappingButtonClass("subtle", "sm", "w-full")}>{p.ePermitting.name}</a>}
+              {p.fees && <a href={p.fees.url} target="_blank" rel="noopener noreferrer" className={wrappingButtonClass("subtle", "sm", "w-full")}>{p.fees.name}</a>}
             </div>
           </div>
           {p.localAgencies && p.localAgencies.length > 0 && (

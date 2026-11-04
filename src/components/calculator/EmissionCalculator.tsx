@@ -80,6 +80,8 @@ interface RowResult {
   row: PollutantRow;
   result: AnnualizedResult | null;
   missing: string[];
+  /** Why this row has no result when nothing is missing, such as a control efficiency above 100%. */
+  problem?: string;
   co2eTpy: number | null;
   gwp: number;
 }
@@ -140,7 +142,9 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
     const gwp = row.pollutant === "CO2" ? 1 : num(row.gwp);
     const blocked = shared.missing.length > 0 || shared.negative || !shared.hoursValid || !!shared.invalid || missing.length > 0
       || Object.values(vals).some((v) => v < 0) || !(ce >= 0 && ce <= 100);
-    if (blocked) return { row, result: null, missing, co2eTpy: null, gwp };
+    const problem = !(ce >= 0 && ce <= 100) ? "Control efficiency must be between 0 and 100%."
+      : Object.values(vals).some((v) => v < 0) ? "Factors cannot be negative." : undefined;
+    if (blocked) return { row, result: null, missing, problem, co2eTpy: null, gwp };
     const perPollutant = Object.fromEntries(method.inputs.filter((i) => i.perPollutant).map((i) => [i.key, vals[i.key]]));
     const factors = Object.fromEntries(method.factors.map((f) => [f.key, vals[f.key]]));
     const base = method.compute({ ...shared.values, ...perPollutant, __hours: shared.h }, factors);
@@ -265,7 +269,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
   const field = "h-11 w-full rounded-xl border border-line bg-white px-3 text-ink focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none";
   const blocker = shared.missing.length
     ? `Enter ${shared.missing.slice(0, 3).join(", ").toLowerCase()}${shared.missing.length > 3 ? ", …" : ""} on the Inputs tab.`
-    : shared.negative ? "Inputs cannot be negative." : !shared.hoursValid ? "Operating hours must be between 0 and 8,784." : shared.invalid;
+    : shared.negative ? "Inputs cannot be negative." : !shared.hoursValid ? "Operating hours must be more than 0 and no more than 8,784 (a leap year; 8,760 for a normal year)." : shared.invalid;
 
   const actions = (
     <div className="no-print mt-5 flex flex-wrap gap-2 border-t border-line pt-4">
@@ -286,7 +290,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
       {blocker && <p className="mt-3 rounded-xl bg-canvas px-4 py-3 text-sm text-muted">{blocker}</p>}
       {/* Cards on mobile, table on larger screens */}
       <ul className="mt-3 space-y-2 sm:hidden">
-        {results.map(({ row, result, missing, co2eTpy }) => (
+        {results.map(({ row, result, missing, problem, co2eTpy }) => (
           <li key={row.id} className="rounded-xl border border-line p-3 text-sm">
             <p className="font-semibold text-ink">{row.pollutant}</p>
             {result ? (
@@ -296,7 +300,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
                 <dt className="text-muted">Annual</dt><dd className="text-right font-semibold">{fmt(result.tpy)} tons/yr</dd>
                 {co2eTpy !== null && <><dt className="text-muted">CO2e</dt><dd className="text-right">{fmt(co2eTpy)} tons/yr</dd></>}
               </dl>
-            ) : <p className="mt-1 text-xs text-muted">{missing.length ? `Needs ${missing.join(", ").toLowerCase()}` : "Waiting for inputs"}</p>}
+            ) : <p className="mt-1 text-xs text-muted">{missing.length ? `Needs ${missing.join(", ").toLowerCase()}` : problem ?? "Waiting for inputs"}</p>}
           </li>
         ))}
       </ul>
@@ -313,7 +317,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
             </tr>
           </thead>
           <tbody className="divide-y divide-line">
-            {results.map(({ row, result, missing, co2eTpy, gwp }) => (
+            {results.map(({ row, result, missing, problem, co2eTpy, gwp }) => (
               <tr key={row.id}>
                 <th scope="row" className="px-4 py-2.5 text-left font-semibold text-ink">{row.pollutant}</th>
                 {result ? (
@@ -327,7 +331,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
                     </td>
                   </>
                 ) : (
-                  <td colSpan={4} className="px-4 py-2.5 text-xs text-muted">{missing.length ? `Needs ${missing.join(", ").toLowerCase()} (Method & Factors tab)` : "Waiting for inputs"}</td>
+                  <td colSpan={4} className="px-4 py-2.5 text-xs text-muted">{missing.length ? `Needs ${missing.join(", ").toLowerCase()} (Method & Factors tab)` : problem ? `${problem} (Method & Factors tab)` : "Waiting for inputs"}</td>
                 )}
               </tr>
             ))}

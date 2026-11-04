@@ -7,8 +7,12 @@ on:
   workflow_dispatch:
     inputs:
       urls:
-        description: Space-separated page or PDF URLs
+        description: Space-separated page or PDF URLs, or "state-links" for every link in the state profiles
         required: true
+      index_only:
+        description: Save only index.json (status, final URL, title per link). Use for link checks; raw agency HTML can trip GitHub push protection.
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -20,16 +24,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
-      - run: printf '%s\n' "$URLS" > fetch-urls.txt
+      # "state-links" fetches every link in the state profiles (data/states/*.json).
+      - run: |
+          if [ "$URLS" = "state-links" ]; then
+            node -e 'const fs=require("fs");const out=new Set();const walk=(v)=>{if(typeof v==="string"){if(/^https?:\/\//.test(v))out.add(v);}else if(Array.isArray(v))v.forEach(walk);else if(v&&typeof v==="object")Object.values(v).forEach(walk);};for(const f of fs.readdirSync("data/states").filter((f)=>f.endsWith(".json")))walk(JSON.parse(fs.readFileSync("data/states/"+f,"utf8")));console.log([...out].join("\n"));' > fetch-urls.txt
+          else
+            printf '%s\n' "$URLS" > fetch-urls.txt
+          fi
+          wc -l fetch-urls.txt
         env:
           URLS: ${{ inputs.urls }}
       - run: node scripts/verify-sources.mjs --fetch fetch-urls.txt --out fetched
       - name: Save the pages on a branch
+        env:
+          INDEX_ONLY: ${{ inputs.index_only }}
         run: |
           branch="fetch/${GITHUB_RUN_ID}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add fetched
+          if [ "$INDEX_ONLY" = "true" ]; then git add fetched/index.json; else git add fetched; fi
           git commit -m "Fetched source pages"
           git push -u origin "$branch"

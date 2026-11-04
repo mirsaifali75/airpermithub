@@ -78,7 +78,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">
             <h2 className="flex items-center gap-2 text-xl font-bold text-ink"><Cog className="h-5 w-5 text-brand-500" aria-hidden="true" /> {isOG ? "Common equipment" : "Typical equipment"}</h2>
             <ul className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
-              {ind.equipment.map((e) => <li key={e} className="rounded-xl bg-canvas px-3 py-2.5 text-sm font-medium text-ink">{e}</li>)}
+              {ind.equipment.map((e) => <li key={e} className="min-w-0 break-words rounded-xl bg-canvas px-3 py-2.5 text-sm font-medium text-ink">{e}</li>)}
             </ul>
           </div>
         </section>

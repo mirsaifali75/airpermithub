@@ -373,7 +373,9 @@ async function fetchOnly(listFile, outDir) {
   for (const [n, u] of urls.entries()) {
     const page = await fetchPage(u);
     const name = `f${String(n + 1).padStart(3, "0")}.txt`;
-    index[name] = { url: u, status: page.status, finalUrl: page.finalUrl, type: page.type, title: page.title, error: page.error, length: page.text?.length ?? 0 };
+    index[name] = { url: u, status: page.status, finalUrl: page.finalUrl, type: page.type, title: page.title, error: page.error, length: page.text?.length ?? 0,
+      // Pages that answer 200 but say the content is gone ("soft 404"), for a link check to flag.
+      gone: /\b(page|file|document)\s+(was\s+|is\s+)?not\s+found\b|\b404\b|no longer (available|exists)|has (been )?(moved|removed)|cannot be found|could not be found/i.exec(`${page.title ?? ""} ${(page.text ?? "").slice(0, 1500)}`)?.[0] };
     writeFileSync(join(outDir, name), page.text ?? "");
     if (page.raw) writeFileSync(join(outDir, name.replace(/\.txt$/, ".html")), page.raw);
   }

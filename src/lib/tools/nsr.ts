@@ -117,6 +117,7 @@ export function projectIncrease(units: ProjectUnit[], significance: number | nul
     const steps = `${f(u.projected)} − ${f(base)}${excl ? ` − ${f(excl)}` : ""} = ${f(raw)} tpy${!countDecreases && raw < 0 ? " (counted as 0)" : ""}`;
     return { name: u.name, increase, steps };
   });
-  const total = perUnit.reduce((a, u) => a + u.increase, 0);
+  // Rounded so a hand total of exactly the significance level (for example 0.1 + 39.9 = 40) compares as equal.
+  const total = Math.round(perUnit.reduce((a, u) => a + u.increase, 0) * 1e9) / 1e9;
   return { perUnit, total, significant: significance === null ? null : total >= significance };
 }
