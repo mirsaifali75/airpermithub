@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { useId, type ReactNode } from "react";
+import { cn } from "@/lib/cn";
 
 /**
  * Photo-style industrial scenes at dusk, drawn as vector art.
@@ -349,7 +351,50 @@ const palettes: Record<SceneTone, { sky: [number, string][]; sun: string; far: s
   },
 };
 
+/**
+ * Real photographs (supplied by MIR, public/images/industries) for each scene.
+ * Where one exists the photo is shown instead of the drawn skyline, which
+ * read as a cartoon next to the photos on the home page.
+ */
+export const scenePhoto: Record<SceneKind, string> = {
+  refinery: "/images/industries/refining.jpg",
+  "oil-gas": "/images/industries/oil-and-gas.jpg",
+  midstream: "/images/industries/midstream.jpg",
+  power: "/images/industries/power-generation.jpg",
+  chemical: "/images/industries/chemical.jpg",
+  manufacturing: "/images/industries/manufacturing.jpg",
+  mining: "/images/industries/mining-aggregates.jpg",
+  waste: "/images/industries/waste-landfills.jpg",
+  "tank-farm": "/images/industries/midstream.jpg",
+  industrial: "/images/industries/manufacturing.jpg",
+};
+
 export function Scene({
+  kind,
+  className,
+  sizes = "(min-width: 1024px) 50vw, 100vw",
+  priority,
+}: {
+  kind: SceneKind;
+  /** Kept for callers; photos have no tone. */
+  tone?: SceneTone;
+  className?: string;
+  /** Kept for callers; photos have no grain layer. */
+  grain?: boolean;
+  sizes?: string;
+  priority?: boolean;
+}) {
+  // An absolutely positioned wrapper is already a containing block for the fill image.
+  const wrap = className?.includes("absolute") ? cn("overflow-hidden", className) : cn("relative overflow-hidden", className);
+  return (
+    <div className={wrap} aria-hidden="true">
+      <Image src={scenePhoto[kind]} alt="" fill sizes={sizes} priority={priority} className="object-cover" />
+    </div>
+  );
+}
+
+/** The original drawn scene, kept for reference and possible print use. */
+export function DrawnScene({
   kind,
   tone = "dusk",
   className,

@@ -107,7 +107,9 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
               <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Find a state or agency" className="h-9 w-full rounded-lg border border-line pr-3 pl-9 text-sm focus:border-brand-500 focus:outline-none" />
             </label>
           </div>
-          <ul className="max-h-64 overflow-y-auto p-1.5 lg:max-h-[24rem]" aria-label="States">
+          {/* On desktop the list fills the panel to the map's height (no blank space under it) and scrolls inside. */}
+          <div className="relative lg:min-h-[16rem] lg:flex-1">
+          <ul className="max-h-64 overflow-y-auto p-1.5 lg:absolute lg:inset-0 lg:max-h-none" aria-label="States">
             {list.map((s) => (
               <li key={s.slug}>
                 <button
@@ -125,6 +127,7 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
             ))}
             {list.length === 0 && <li className="px-3 py-6 text-center text-sm text-muted">No match.</li>}
           </ul>
+          </div>
           <Link href="/states" className="border-t border-line px-4 py-3 text-sm font-semibold text-brand-600 hover:text-brand-700">All states &amp; agencies →</Link>
         </div>
       </div>

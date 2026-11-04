@@ -46,8 +46,8 @@ export default function ToolsPage() {
               return (
                 <li key={t.slug}>
                   <Link href={t.href} className="group flex h-full flex-col rounded-2xl border border-line bg-white p-6 shadow-card transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-lift">
-                    <p className="flex gap-2 text-sm font-medium text-slate-600 italic"><Quote className="h-4 w-4 shrink-0 text-brand-500" aria-hidden="true" />{t.problem}</p>
-                    <span className="mt-5 flex items-center gap-3">
+                    <p className="flex gap-2 text-sm font-medium text-slate-600 italic md:min-h-[3.75rem]"><Quote className="h-4 w-4 shrink-0 text-brand-500" aria-hidden="true" />{t.problem}</p>
+                    <span className="mt-5 flex items-center gap-3 md:min-h-[3.5rem]">
                       <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-500 text-white shadow-[0_8px_18px_-8px_rgb(20_125_255/0.8)]"><Icon className="h-5 w-5" aria-hidden="true" /></span>
                       <span className="text-lg font-bold text-navy-900 group-hover:text-brand-700">{t.name}</span>
                     </span>

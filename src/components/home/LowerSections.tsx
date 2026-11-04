@@ -76,14 +76,15 @@ export function LatestJobs() {
               <Link href="/jobs" className="flex items-center gap-4 rounded-2xl border border-line bg-white p-4 shadow-card transition-colors hover:border-brand-200">
                 <CompanyLogo company={j.company} />
                 <span className="min-w-0 flex-1">
-                  <span className="block truncate font-semibold text-ink">{j.title}</span>
+                  <span className="block font-semibold text-ink sm:truncate">{j.title}</span>
                   <span className="flex flex-wrap items-center gap-x-3 text-sm text-muted">
                     
                     <span>{j.company}</span>
                     <span className="inline-flex items-center gap-1"><MapPin className="h-3.5 w-3.5" aria-hidden="true" />{j.city}, {j.state}</span>
+                    <span className="sm:hidden">{j.remote ? "Remote" : j.type}</span>
                   </span>
                 </span>
-                <Badge tone={j.remote ? "green" : "gray"}>{j.remote ? "Remote" : j.type}</Badge>
+                <span className="hidden shrink-0 sm:block"><Badge tone={j.remote ? "green" : "gray"}>{j.remote ? "Remote" : j.type}</Badge></span>
               </Link>
             </li>
           ))}
@@ -99,7 +100,7 @@ export function FinalCta() {
       <div aria-hidden="true" className="absolute -top-24 left-1/4 h-72 w-72 rounded-full bg-brand-500/30 blur-3xl" />
       <div aria-hidden="true" className="absolute -bottom-24 right-1/4 h-72 w-72 rounded-full bg-eco-500/20 blur-3xl" />
       <div className="container-page relative text-center">
-        <h2 className="mx-auto max-w-3xl text-3xl font-extrabold sm:text-5xl">Stop Searching Across Dozens of Websites.</h2>
+        <h2 className="mx-auto max-w-3xl text-3xl font-extrabold text-balance sm:text-5xl">Stop Searching Across Dozens of Websites.</h2>
         <p className="mx-auto mt-4 max-w-xl text-lg text-white/75">Find the air permitting information and tools you need in one place.</p>
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
           <Link href="/sign-up" className={buttonClass("primary", "lg")}>Get Started Free <ArrowRight className="h-5 w-5" aria-hidden="true" /></Link>

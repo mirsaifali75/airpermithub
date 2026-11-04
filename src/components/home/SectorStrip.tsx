@@ -26,9 +26,9 @@ export function SectorStrip() {
         <ul className="mt-6 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-4 lg:grid-cols-8">
           {sectors.map(({ icon: Icon, name, href }) => (
             <li key={name}>
-              <Link href={href} className="group flex h-full items-center justify-center gap-2 rounded-xl px-2 py-2 text-slate-500 transition-colors hover:bg-white hover:text-brand-700 hover:shadow-card lg:flex-col lg:gap-1.5">
+              <Link href={href} className="group flex h-full items-center gap-2 rounded-xl px-2 py-2 text-slate-500 transition-colors hover:bg-white hover:text-brand-700 hover:shadow-card lg:flex-col lg:justify-start lg:gap-1.5">
                 <Icon className="h-6 w-6 shrink-0 text-navy-700 transition-colors group-hover:text-brand-600" aria-hidden="true" />
-                <span className="text-sm leading-tight font-semibold">{name}</span>
+                <span className="text-sm leading-tight font-semibold lg:text-center">{name}</span>
               </Link>
             </li>
           ))}

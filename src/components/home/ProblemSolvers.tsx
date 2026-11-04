@@ -34,6 +34,18 @@ export function ProblemSolvers() {
               </li>
             );
           })}
+          {/* Closes the grid with no empty slot on two- and three-column layouts. */}
+          {(tools.length + 1) % 6 === 0 && (
+            <li>
+              <Link href="/tools" className="group flex h-full flex-col justify-between rounded-2xl border border-cyan-400/30 bg-gradient-to-br from-brand-600/30 to-cyan-500/10 p-5 transition-colors hover:border-cyan-300/60">
+                <p className="text-[0.95rem] text-white/85">Converters, glossary, and every tool in one place, each with its formula and citation.</p>
+                <span className="mt-4 flex items-center gap-2.5 border-t border-white/10 pt-4 font-semibold text-white">
+                  Browse all tools
+                  <ArrowRight className="ml-auto h-4 w-4 text-cyan-400 transition-transform group-hover:translate-x-1" aria-hidden="true" />
+                </span>
+              </Link>
+            </li>
+          )}
         </ul>
       </div>
     </section>

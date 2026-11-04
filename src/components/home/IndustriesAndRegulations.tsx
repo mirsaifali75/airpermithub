@@ -18,9 +18,9 @@ export function IndustriesAndRegulations() {
     <section className="bg-canvas pt-12 pb-6">
       <div className="container-page grid gap-4 lg:grid-cols-[1.9fr_1fr]">
         <div className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6">
-          <div className="mb-5 flex items-center justify-between">
+          <div className="mb-5 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
             <h2 className="flex items-center gap-2.5 text-xl font-bold"><LayoutGrid className="h-5 w-5 text-navy-800" aria-hidden="true" /> Explore by Industry</h2>
-            <Link href="/industries" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:text-brand-700">
+            <Link href="/industries" className="inline-flex items-center gap-1 text-sm font-semibold whitespace-nowrap text-brand-600 hover:text-brand-700">
               View All Industries <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>
@@ -51,9 +51,9 @@ export function IndustriesAndRegulations() {
         </div>
 
         <div className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6">
-          <div className="mb-5 flex items-center justify-between">
+          <div className="mb-5 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
             <h2 className="flex items-center gap-2.5 text-xl font-bold"><Gavel className="h-5 w-5 text-navy-800" aria-hidden="true" /> Regulations &amp; Guidance</h2>
-            <Link href="/regulations" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:text-brand-700">
+            <Link href="/regulations" className="inline-flex items-center gap-1 text-sm font-semibold whitespace-nowrap text-brand-600 hover:text-brand-700">
               Browse All <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>

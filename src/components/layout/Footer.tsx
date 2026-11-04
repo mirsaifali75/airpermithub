@@ -9,17 +9,20 @@ export function Footer() {
     <footer className="bg-navy-950 text-white">
       <div className="h-1 bg-gradient-brand" aria-hidden="true" />
       <div className="container-page py-14">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.15fr_2.6fr]">
-          <div>
-            <Logo tone="dark" className="h-44 p-2" />
-            <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">{site.description}</p>
-            <div className="mt-8 max-w-sm">
+        <div className="grid grid-cols-1 gap-12">
+          {/* Brand and newsletter run across the top so the five link columns below get the full width and their labels stay on one line. */}
+          <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+            <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:gap-8">
+              <Logo tone="dark" className="h-44 w-fit p-2" />
+              <p className="max-w-sm text-sm leading-relaxed text-white/60">{site.description}</p>
+            </div>
+            <div className="w-full max-w-sm">
               <h2 className="text-sm font-semibold">Stay Updated</h2>
               <p className="mt-1 mb-3 text-sm text-white/70">Get the latest air permitting news and resources.</p>
               <NewsletterForm />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
+          <div className="grid grid-cols-2 gap-8 border-t border-white/10 pt-10 sm:grid-cols-3 lg:grid-cols-5">
             {footerNav.map((col) => (
               <nav key={col.title} aria-label={col.title}>
                 <h2 className="mb-3 text-sm font-semibold text-white">{col.title}</h2>

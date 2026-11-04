@@ -2,7 +2,7 @@ import { BookOpenCheck, Calculator, Link2, MapPinned, Search } from "lucide-reac
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/brand/airpermithub-logo.png";
-import { IndustrialScene } from "@/components/illustrations/IndustrialScene";
+import heroPhoto from "../../../public/images/industries/oil-and-gas.jpg";
 
 const features = [
   { icon: Link2, title: "Official Source Links", sub: "EPA, eCFR, and state agencies", href: "/regulations" },
@@ -35,8 +35,10 @@ const popular = [
 export function Hero({ stateCount }: { stateCount: number }) {
   return (
     <section className="relative isolate overflow-hidden bg-navy-950 text-white">
-      <IndustrialScene className="absolute inset-0 -z-10 h-full w-full" />
-      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/85 via-navy-950/35 to-transparent" />
+      {/* MIR's oil and gas photo, darkened so the headline and search stay readable. */}
+      <Image src={heroPhoto} alt="" priority placeholder="blur" sizes="100vw" className="absolute inset-0 -z-10 h-full w-full object-cover object-[70%_center]" />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/95 via-navy-950/65 to-navy-950/20" />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/50" />
       <div className="container-page pt-40 pb-24 sm:pt-44 sm:pb-28 lg:pt-52 lg:pb-32">
         <div className="flex flex-col gap-8 xl:flex-row-reverse xl:items-center xl:justify-between">
         {/* The official logo at a size where the wordmark and tagline can be read. */}
