@@ -26,6 +26,16 @@ export function buttonClass(variant: Variant = "primary", size: Size = "md", cla
   return cn(base, variants[variant], sizes[size], className);
 }
 
+/**
+ * Same look as buttonClass, but for labels that come from data and can be long
+ * (agency portal and fee-schedule names): the text wraps inside the button
+ * instead of running past its edge.
+ */
+export function wrappingButtonClass(variant: Variant = "primary", size: Size = "md", className?: string) {
+  const fixedHeight = sizes[size].replace(/\bh-(\d+)\b/, "min-h-$1 py-2");
+  return cn(base.replace("whitespace-nowrap", "text-center break-words"), variants[variant], fixedHeight, className);
+}
+
 export function Button({
   variant = "primary",
   size = "md",
