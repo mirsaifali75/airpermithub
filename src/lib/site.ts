@@ -30,7 +30,7 @@ export const primaryNav: NavItem[] = [
 export const resourcesMenu: NavItem[] = [
   { label: "Resource Center", href: "/resources", description: "Guides, checklists, FAQs, and references" },
   { label: "State Explorer", href: "/states", description: "All 50 states + DC: agencies, programs, forms" },
-  { label: "Templates", href: "/templates", description: "AirPermitHub engineering templates" },
+  { label: "Templates & Workbooks", href: "/templates", description: "Excel workbooks, templates, and checklists" },
   { label: "Applicability Checker", href: "/applicability", description: "Screen federal programs by equipment" },
   { label: "Federal Air Rule Tracker", href: "/regulatory-updates", description: "New EPA rules and comment deadlines" },
   { label: "Glossary", href: "/glossary", description: "Air permitting terms with CFR citations" },
@@ -57,7 +57,7 @@ export const footerNav: { title: string; links: NavItem[] }[] = [
       { label: "Federal Air Rule Tracker", href: "/regulatory-updates" },
       { label: "Compliance Calendar", href: "/compliance" },
       { label: "Permit Library", href: "/permits" },
-      { label: "Templates & Forms", href: "/templates" },
+      { label: "Templates & Workbooks", href: "/templates" },
       { label: "Job Board", href: "/jobs" },
     ],
   },
