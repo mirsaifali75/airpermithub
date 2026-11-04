@@ -1,0 +1,1692 @@
+SECTION .0500 - TITLE V PROCEDURES
+15A NCAC 02Q .0501 PURPOSE OF SECTION AND REQUIREMENT FOR A PERMIT
+(a) The purpose of this Section is to establish an air quality permitting program as required pursuant to Title V of
+the Clean Air Act and 40 CFR Part 70.
+(b) With the exception in Paragraph (c) of this Rule, the owner or operator of an existing facility, new facility, or
+modification of an existing facility (except for minor modifications pursuant to 15A NCAC 02Q .0515), including
+significant modifications that would not contravene or conflict with a condition in the existing permit, shall not
+begin construction without first obtaining:
+(1)
+a construction and operation permit following the procedures set forth in this Section (except for
+15A NCAC 02Q .0504), or
+(2)
+a construction and operation permit following the procedures set forth in 15A NCAC 02Q .0504
+and filing a complete application within 12 months after commencing operation to modify the
+construction and operation permit to meet the requirements of this Section.
+(c) If the owner or operator proposes to make a significant modification pursuant to 15A NCAC 02Q .0516 that
+would contravene or conflict with a condition in the existing permit, the owner or operator shall not begin
+construction or make the modification until the owner or operator has obtained:
+(1)
+a construction and operation permit following the procedures set forth in this Section (except for
+15A NCAC 02Q .0504); or
+(2)
+a construction and operation permit following the procedures set forth in 15A NCAC 02Q .0504
+and, before beginning operation, files an application and obtains a permit modifying the
+construction and operation permit to meet the requirements of this Section (except for 15A NCAC
+02Q .0504).
+(d) All facilities subject to this Section shall have a permit to operate that assures compliance with 40 CFR Part 70
+and all applicable federal and State requirements.
+(e) Except as allowed pursuant to 15A NCAC 02Q .0515(f) (minor modifications), no facility subject to the
+requirements of this Section may operate after the time that it is required to submit a timely and complete
+application pursuant to this Section except in compliance with a permit issued pursuant to this Section. This
+Paragraph does not apply to to permit renewals pursuant to 15A NCAC 02Q .0513.
+(f) If the conditions of 15A NCAC 02Q .0512(b) (application shield) are met, the facility's failure to have a permit
+pursuant to this Section shall not be a violation of operating without a permit.
+(g) If the owner or operator of a facility subject to the requirements of this Section submits an application for a
+revision to his permit before receiving the initial permit pursuant to this Section, the application for the revision shall
+be processed pursuant to 15A NCAC 02Q .0300.
+(h) The owner or operator of a facility or source subject to the requirements of this Section may also be subject to
+the toxic air pollutant procedures set forth in 15A NCAC 2Q .0700.
+(i) The owner or operator of an affected unit subject to the acid rain program requirements of Title IV is also subject
+to the procedures pursuant to 15A NCAC 02Q .0400.
+(j) The owner or operator of a facility subject to the requirements of this Section shall pay permit fees in accordance
+with the requirements of 15A NCAC 02Q .0200.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1998; July 1, 1996;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0502 APPLICABILITY
+(a) Except as provided in Paragraph (b) or (c) of this Rule, the following facilities are required to obtain a permit
+pursuant to this Section:
+(1)
+major facilities;
+(2)
+facilities with a source subject to 15A NCAC 02D .0524 or 40 CFR Part 60, except new
+residential wood heaters;
+(3)
+facilities with a source subject to 15A NCAC 02D .1110 or 40 CFR Part 61, except asbestos
+demolition and renovation activities;
+(4)
+facilities with a source subject to 15A NCAC 02D .1111 or 40 CFR Part 63 or any other standard
+or other requirement set forth in Section 112 of the federal Clean Air Act, except that a source is
+not required to obtain a permit solely because it is subject to rules or requirements set forth in
+Section 112(r) of the federal Clean Air Act;
+(5)
+facilities to which 15A NCAC 02D .0517(2), .0528, .0529, .0534, or .1700 applies;
+(6)
+facilities with a source subject to Title IV or 40 CFR Part 72; or
+(7)
+facilities in a source category designated by EPA as subject to the requirements of 40 CFR Part
+70.
+(b) This Section does not apply to minor facilities with sources subject to requirements of 15A NCAC 2D .0524,
+.1110, or .1111 or 40 CFR Part 60, 61, or 63 unless these facilities are required to have a permit pursuant to 40 CFR
+Part 70.
+(c) A facility shall not be required to obtain a permit pursuant to this Section solely on the basis of its greenhouse
+gas emissions.
+(d) If a facility is subject to this Section because of emissions of one pollutant, the owner or operator of that facility
+shall submit an application that includes all sources of all regulated air pollutants located at the facility except for
+insignificant activities because of category as defined in 15A NCAC 02Q .0503(7).
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1996;
+Temporary Amendment Eff. December 1, 1999;
+Amended Eff. July 1, 2000;
+Temporary Amendment Eff. December 2, 2014;
+Amended Eff. September 1, 2015;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0503 DEFINITIONS
+For the purposes of this Section, the definitions in G.S. 143-212, G.S. 143-213, 15A NCAC 02Q .0103, and the
+following definitions apply:
+(1)
+"Affected States" means all states or local air pollution control agencies whose areas of
+jurisdiction are:
+(a)
+contiguous to North Carolina and located less than D=Q/12.5 from the facility, where:
+(i)
+Q = emissions of the pollutant emitted at the highest permitted rate in tons per
+year, and
+(ii)
+D = distance from the facility to the contiguous state or local air pollution
+control agency in miles unless the applicant can demonstrate that the ambient
+impact in the contiguous states or local air pollution control agencies is less than
+the incremental ambient levels in 15A NCAC 02D .0532(c)(5); or
+(b)
+within 50 miles of the permitted facility.
+(2)
+"Complete application" means an application that provides all information described in 40 CFR
+70.5(c) and such other information that is necessary to determine compliance with all applicable
+federal and State requirements.
+(3)
+"Draft permit" means the version of a permit that the Division offers for public participation
+pursuant to 15A NCAC 02Q .0521 or affected State review pursuant to 15A NCAC 02Q .0522.
+(4)
+"Emissions allowable under the permit" means an emissions limit (including a work practice
+standard) established by a federally enforceable permit term or condition, or a federally
+enforceable emissions cap that the facility has assumed to avoid an applicable requirement to
+which the facility would otherwise be subject.
+(5)
+"Final permit" means the version of a permit that the Director issues that has completed all review
+procedures required pursuant to this Section if the permittee does not file a petition pursuant to
+Article 3 of G.S. that is related to the permit.
+(6)
+"Fugitive emissions" means those emissions which could not reasonably pass through a stack,
+chimney, vent, or other functionally-equivalent opening.
+(7)
+"Insignificant activities because of category" means:
+(a)
+mobile sources;
+(b)
+air-conditioning units used for human comfort that are not subject to applicable
+requirements pursuant to Title VI of the federal Clean Air Act and do not exhaust air
+pollutants into the ambient air from any manufacturing or other industrial process;
+(c)
+ventilating units used for human comfort that do not exhaust air pollutants into the
+ambient air from any manufacturing or other industrial process;
+(d)
+heating units used for human comfort that have a heat input of less than 10,000,000 Btu
+per hour and that do not provide heat for any manufacturing or other industrial process;
+(e)
+noncommercial food preparation;
+(f)
+consumer use of office equipment and products;
+(g)
+janitorial services and consumer use of janitorial products;
+(h)
+internal combustion engines used for landscaping purposes;
+(i)
+new residential wood heaters subject to 40 CFR Part 60, Subpart AAA; and
+(j)
+demolition and renovation activities covered solely pursuant to 40 CFR Part 61, Subpart
+M.
+(8)
+"Insignificant activities because of size or production rate" means any activity whose emissions
+would not violate any applicable emissions standard and whose potential emission of particulate,
+sulfur dioxide, nitrogen oxides, volatile organic compounds, and carbon monoxide before air
+pollution control devices, are each no more than five tons per year and whose potential emissions
+of hazardous air pollutants before air pollution control devices, are each below 1000 pounds per
+year.
+(9)
+"Minor facility" means any facility that is not a major facility.
+(10)
+"Operation" means the use of equipment that emits regulated pollutants.
+(11)
+"Permit renewal" means the process by which a permit is reissued at the end of its term.
+(12)
+"Permit revision" means any permit modification pursuant to 15A NCAC 02Q .0515, .0516, or
+.0517 or any administrative permit amendment pursuant to 15A NCAC 02Q .0514.
+(13)
+"Proposed permit" means the version of a permit that the Director proposes to issue and forwards
+to EPA for review pursuant to 15A NCAC 02Q .0522.
+
+(14)
+(15)
+(16)
+
+(17)
+
+(18)
+
+History Note:
+
+"Relevant source" means only those sources that are subject to applicable requirements.
+"Responsible official" means a responsible official as defined in 40 CFR 70.2.
+"Section 502(b)(10) changes" means changes that contravene an express permit term or condition.
+Such changes shall not include changes that would violate applicable requirements or contravene
+federally enforceable permit terms and conditions that are monitoring (including test methods),
+recordkeeping, reporting, or compliance certification requirements.
+"Synthetic minor facility" means a facility that would otherwise be required to follow the
+procedures of this Section except that the potential to emit is restricted by one or more federally
+enforceable physical or operational limitations, including air pollution control equipment and
+restrictions on hours or operation, the type or amount of material combusted, stored, or processed,
+or similar parameters.
+"Timely" means:
+(a)
+for a new facility, one year after commencing operation;
+(b)
+for renewal of a permit previously issued pursuant to this Section, six months before the
+expiration of that permit;
+(c)
+for a minor modification pursuant to 15A NCAC 02Q .0515, before commencing the
+modification;
+(d)
+for a significant modification pursuant to 15A NCAC 02Q .0516 where the change would
+not contravene or conflict with a condition in the existing permit, 12 months after
+commencing operation;
+(e)
+for reopening for cause pursuant to 15A NCAC 02Q .0517, as specified by the Director
+in a request for additional information by the Director;
+(f)
+for requests for additional information, as specified by the Director in a request for
+additional information by the Director; or
+(g)
+for modifications made pursuant to Section 112(j) of the federal Clean Air Act, 18
+months after EPA fails to promulgate a standard for that category of source pursuant to
+Section 112 of the federal Clean Air Act by the date established pursuant to Section
+112(e)(1) or (3) of the federal Clean Air Act.
+Authority G.S. 143-215.3(a)(1); 143-212; 143-213;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1996;
+Temporary Amendment Eff. December 1, 1999;
+Amended Eff. January 1, 2007; July 1, 2000;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0504 OPTION FOR OBTAINING CONSTRUCTION AND OPERATION PERMIT
+(a) Pursuant to 15A NCAC 02Q .0501(c)(2) or (d)(2), the owner or operator of a new or modified facility subject to
+the requirements of this Section that chooses to obtain a construction and operation permit before the facility must
+obtain a permit pursuant to this Section may file an application pursuant to 15A NCAC 02Q .0300.
+(b) The applicant shall state in his permit application that he or she wishes to follow the procedures in this Rule.
+(c) If the option allowed pursuant to 15A NCAC 02Q .0501(b)(1) is used, then the application processing
+procedures for prevention of significant deterioration in 15A NCAC 02D .0530 and new source review for
+nonattainment areas in 15A NCAC 02D .0531 do not apply. If the option allowed pursuant to 15A NCAC 02Q
+.0501(b)(2) is used, then the application processing procedures in this Section and in either of the following rules
+shall apply:
+(1)
+15A NCAC 02D .0530 for prevention of significant deterioration; or
+(2)
+15A NCAC 02D .0531 for new source review for nonattainment areas.
+(d) If the procedures in 15A NCAC 02Q .0300 are followed, the permittee shall have one year from the date of
+beginning operation of the facility or source to file an amended application following the procedures in this Section.
+The Director shall place a condition in the construction and operation permit stating this requirement.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0505 APPLICATION SUBMITTAL CONTENT
+If an applicant does not submit, the following information with its application package, the application package shall
+be returned:
+(1)
+for new facilities and modified facilities:
+(a)
+an application fee as required pursuant to 15A NCAC 02Q .0200;
+(b)
+a consistency determination as required pursuant to 15A NCAC 02Q .0507(d)(1);
+(c)
+the documentation required pursuant to 15A NCAC 02Q .0507(d)(2);
+(d)
+a financial qualification or substantial compliance statement if required; and
+(e)
+applications as required pursuant to 15A NCAC 02Q .0507(a) and (e) and signed as
+required by 15A NCAC 02Q .0520;
+(2)
+for renewals: applications as required pursuant to 15A NCAC 02Q .0507(a) and (e) and signed as
+required by 15A NCAC 02Q .0520;
+(3)
+for a name change: three copies of a letter signed by a responsible official in accordance with 15A
+NCAC 02Q .0520 indicating the current facility name, the date on which the name change will
+occur, and the new facility name;
+(4)
+for an ownership change: an application fee as required pursuant to 15A NCAC 02Q .0200; and:
+(a)
+three copies of a letters signed by the seller and the buyer indicating the change; or
+(b)
+three copies of a letter bearing the signature of both the seller and buyer and containing a
+written agreement with a specific date for the transfer of permit responsibility, coverage,
+and liability between the current and new permittee; and
+(5)
+for corrections of typographical errors; changes of the name, address, or telephone number of any
+individual identified in the permit; changes in test dates or construction dates; or similar minor
+changes: three copies of a letter signed by a responsible official in accordance with 15A NCAC
+02Q .0520 describing the proposed change and explaining the need for the proposed change.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. April 1, 2004;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0506
+History Note:
+
+INITIAL PERMIT APPLICATION SUBMITTAL
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent
+rule becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Repealed Eff. July 1, 2007.
+
+15A NCAC 02Q .0507 APPLICATION
+(a) Except for:
+(1)
+minor permit modifications covered pursuant to 15A NCAC 02Q .0515;
+(2)
+significant modifications covered pursuant to 15A NCAC 02Q .0516(c); or
+(3)
+renewals submitted pursuant to 15A NCAC 02Q .0513;
+the owner or operator of a source shall have one year from the date of beginning of operation of a source to file a
+complete application for a permit or permit revision. However, the owner or operator of a source shall not begin
+construction or operation of a source until he or she has obtained a construction and operation permit pursuant to
+15A NCAC 02Q .0501(c) or (d) and 15A NCAC 02Q .0504.
+(b) An application shall include all the information described in 40 CFR 70.3(d) and 70.5(c), including a list of
+insignificant activities because of size or production rate but not including insignificant activities because of
+category. An application shall be certified by a responsible official for truth, accuracy, and completeness. In an
+application submitted pursuant to this Rule, the applicant may attach copies of applications submitted pursuant to
+15A NCAC 02Q .0400 or 15A NCAC 02D .0530 or .0531 if the information in those applications contains
+information required in this Section and is current, accurate, and complete.
+(c) Application for a permit, permit revision, or permit renewal shall be made in accordance with 15A NCAC 02Q
+.0104 on forms of the Division and shall include plans and specifications giving all necessary data and information
+as required by this Rule. If the information provided on these forms does not describe the source or its air pollution
+abatement equipment to the extent necessary to evaluate the application, the Director shall request that the applicant
+provide any other information necessary to evaluate the source and its air pollution abatement equipment.
+(d) Along with filing a complete application, the applicant shall also file the following:
+(1)
+for a new facility or an expansion of existing facility, a consistency determination in accordance
+with G.S. 143-215.108(f) that:
+(A)
+bears the date of receipt entered by the clerk of the local government; or
+(B)
+consists of a letter from the local government indicating that all zoning or subdivision
+ordinances are met by the facility;
+(2)
+for a new facility or an expansion of an existing facility in an area without zoning, an affidavit and
+proof of publication of a legal notice as required pursuant to 15A NCAC 02Q .0113; and
+(3)
+if required by the Director, information showing that:
+(A)
+the applicant is financially qualified to carry out the permitted activities; or
+(B)
+the applicant has substantially complied with the air quality and emissions standards
+applicable to any activity in which the applicant has previously been engaged and has
+been in substantial compliance with federal and state environmental laws and rules.
+(e) The applicant shall submit copies of the application package as follows:
+(1)
+for sources subject to the requirements of 15A NCAC 02D .0530, .0531, or .1200, five copies plus
+one additional copy for each affected state that the Director has to notify pursuant to 15A NCAC
+02Q .0521 and 15A NCAC 02Q .0522;
+(2)
+for sources not subject to the requirements of 15A NCAC 02D .0530, .0531, or .1200, three copies
+plus one additional copy for each affected state that the Director has to notify pursuant to 15A
+NCAC 02Q .0521 and 15A NCAC 02Q .0522.
+(f) Any applicant who fails to submit any relevant facts or who has submitted incorrect information in a permit
+application shall, upon becoming aware of such failure or incorrect submittal, submit such supplementary facts or
+corrected information. In addition, an applicant shall provide additional information as necessary to address any
+requirements that become applicable to the source after the date he filed a complete application but prior to release
+of a draft permit.
+(g) The applicant shall submit the same number of copies of additional information as required for the application
+package.
+(h) The submittal of a complete permit application shall not affect the requirement that any facility have a permit
+pursuant to 15A NCAC 02D .0530, .0531, or .0532 or pursuant to 15A NCAC 02Q .0400.
+(i) The Director shall give priority to permit applications containing early reduction demonstrations pursuant to
+Section 112(i)(5) of the federal Clean Air Act. The Director shall take final action on such permit applications after
+receipt of the complete permit application.
+(j) Except as specified in 15A NCAC 02Q .0203(i), a non-refundable permit application processing defined in 15A
+NCAC 02Q .0200, shall accompany each application. Each permit application shall be deemed incomplete until the
+permit application processing fee is received.
+
+(k) The applicant shall retain for the duration of the permit term one complete copy of the application package and
+all information submitted in support of the application package.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1997; July 1, 1996; February 1, 1995;
+Temporary Amendment Eff. December 1, 1999;
+Amended Eff. September 1, 2015; April 1, 2004; July 1, 2000;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0508 PERMIT CONTENT
+(a) A permit shall specify and reference the origin and authority for each term or condition and shall identify any
+differences compared to the applicable requirement on which the term or condition is based.
+(b) A permit shall specify emission limitations and standards, including operational requirements and limitations,
+that assure compliance with all applicable requirements at the time of permit issuance.
+(c) Where an applicable requirement of the federal Clean Air Act is more stringent than an applicable requirement
+of rules promulgated pursuant to Title IV, both provisions shall be placed in a permit. A permit shall state that both
+provisions are enforceable by EPA.
+(d) A permit for sources using an alternative emission limit established in 15A NCAC 02D .0501 (d) or 15A NCAC
+02D .0952 shall contain provisions to ensure that any resulting emissions limit has been demonstrated to be
+quantifiable, accountable, enforceable, and based on replicable procedures.
+(e) The expiration date of a permit shall be for a fixed term of five years for sources covered by Title IV and for a
+term of no more than five years from the date of issuance for all other sources including solid waste incineration
+units combusting municipal waste subject to standards in Section 129(e) of the federal Clean Air Act.
+(f) A permit shall contain monitoring and related recordkeeping and reporting requirements as specified in 40 CFR
+70.6(a)(3) and 70.6(c)(1), including conditions requiring:
+(1)
+the permittee to submit reports of required monitoring at least every six months. The permittee
+shall submit reports:
+(A)
+on forms obtained from the Division at the address in 15A NCAC 02Q .0104;
+(B)
+in a manner as specified by a permit condition; or
+(C)
+on other forms that contain the information required by this Subchapter or as specified by
+a permit condition;
+(2)
+the permittee to report:
+(A)
+malfunctions, emergencies, and other upset conditions as prescribed in 15A NCAC 02D
+.0524, .0535, .1110, or .1111; and
+(B)
+deviations quarterly from permit requirements not covered by 15A NCAC 02D .0524,
+.0535, .1110, or .1111. The permittee shall include the probable cause of such deviations
+and any corrective actions or preventive measures taken; and
+(3)
+the responsible official to certify all deviations from permit requirements.
+(g) At the request of a permittee, the Director may allow records to be maintained in electronic form in lieu of
+maintaining paper records. The Director shall make this decision based on factors such as whether the electronic
+records contain the same information as the paper records and the availability of the electronic records for inspection
+to demonstrate compliance.
+(h) A permit for facilities covered by 15A NCAC 02D .2100, Risk Management Program, shall contain:
+(1)
+a statement listing 15A NCAC 02D .2100 as an applicable requirement; and
+(2)
+conditions that require the owner or operator of the facility to submit:
+(A)
+a compliance schedule for meeting the requirements of 15A NCAC 02D .2100 by the
+dates provided in 15A NCAC 02D .2101(a); or
+(B)
+as part of the compliance certification required by Paragraph (n) of this Rule, a
+certification statement that the source is in compliance with all requirements of 15A
+NCAC 02D .2100, including the registration and submission of the risk management
+plan.
+The content of the risk management plan need not be incorporated as a permit term or condition.
+(i) A permit shall:
+(1)
+contain a condition prohibiting emissions exceeding any allowances that a facility lawfully holds
+pursuant to Title IV but shall not limit the number of allowances held by a permittee. A permittee
+shall not use allowances as a defense to noncompliance with any other applicable requirement;
+(2)
+contain a severability clause so that various permit requirements will continue to be valid in the
+event of a challenge to any other portion of the permit;
+(3)
+state that noncompliance with any condition of the permit is grounds for enforcement action; for
+permit termination, revocation and reissuance, or modification; or for denial of a permit renewal
+application;
+(4)
+state that the permittee may not use as a defense in an enforcement action that it would have been
+necessary to halt or reduce the permitted activity in order to maintain compliance with the
+conditions of the permit;
+
+(5)
+
+state that the Director may reopen, modify, revoke and reissue, or terminate the permit for reasons
+specified in 15A NCAC 02Q .0517 or .0519
+(6)
+state that the filing of a request by the permittee for a permit revision, revocation and reissuance,
+termination, notification of planned changes, or anticipated noncompliance does not stay any
+permit condition;
+(7)
+specify the conditions in which the permit will be reopened before the expiration of the permit;
+(8)
+state that the permit does not convey any property rights of any sort, or any exclusive privileges;
+(9)
+state that the permittee will furnish to the Division, in a timely manner:
+(A)
+any information that the Director may request in writing to determine whether cause
+exists for modifying, revoking and reissuing, or terminating the permit or to determine
+compliance with the permit, and
+(B)
+copies of records required to be kept by the permit when such copies are requested by the
+Director.
+(The permit shall also state that for information claimed to be confidential, the permittee
+may furnish such records directly to EPA along with a claim of confidentiality.)
+(10)
+contain a provision to ensure that the permittee pays fees required by 15A NCAC 02Q .0200;
+(11)
+contain a condition that authorizes the permittee to make Section 502(b)(10) changes, off-permit
+changes, or emission trades in accordance with 15A NCAC 02Q .0523;
+(12)
+include all applicable requirements for all sources covered by the permit;
+(13)
+include fugitive emissions, if regulated, in the same manner as stack emissions;
+(14)
+contain a condition requiring annual reporting of actual emissions as required by 15A NCAC 02Q
+0207;
+(15)
+include all sources including insignificant activities; and
+(16)
+contain other provisions the Director considers appropriate.
+(j) A permit shall state the terms and conditions for reasonably anticipated operating scenarios identified by the
+applicant in the application. These terms and conditions shall:
+(1)
+require the permittee, contemporaneously with making a change from one operating scenario to
+another, to record in a log at the permitted facility a record of the operating scenario in which it is
+operating;
+(2)
+extend the permit shield described in 15A NCAC 02Q .0512 to all terms and conditions in each
+such operating scenario; and
+(3)
+ensure that each operating scenario meets all applicable requirements of Subchapter 02D of this
+Chapter and of this Section.
+(k) A permit shall identify which terms and conditions are enforceable by:
+(1)
+both EPA and the Division;
+(2)
+the Division only;
+(3)
+EPA only; and
+(4)
+citizens pursuant to the federal Clean Air Act.
+(l) A permit shall state that the permittee will allow personnel of the Division to:
+(1)
+enter the permittee's premises where the permitted facility is located or emissions-related activity
+is conducted, or where records are kept by the conditions of the permit;
+(2)
+have access to and copy any records that are required to be kept by the conditions of the permit;
+(3)
+inspect any source, equipment (including monitoring and air pollution control equipment),
+practices, or operations regulated or required by the permit; and
+(4)
+sample or monitor substances or parameters, for the purpose of assuring compliance with the
+permit or applicable requirements.
+(m) When a compliance schedule is required by 40 CFR 70.5(c)(8) or by a rule contained in Subchapter 02D of this
+Chapter, the permit shall contain the compliance schedule and shall state that the permittee shall submit at least
+semiannually, or more frequently if specified in the applicable requirement, a progress report. The progress report
+shall contain:
+(1)
+dates for achieving the activities, milestones, or compliance required in the compliance schedule
+and dates when such activities, milestones, or compliance were achieved; and
+(2)
+an explanation of why any dates in the compliance schedule were not or will not be met and any
+preventive or corrective measures adopted.
+
+(n) The permit shall contain requirements for compliance certification with the terms and conditions in the permit
+that are enforceable by EPA pursuant to Title V of the federal Clean Air Act, including emissions limitations,
+standards, and work practices. The permit shall specify:
+(1)
+the frequency (not less than annually or more frequently as specified in the applicable
+requirements) of submissions of compliance certifications;
+(2)
+a means for monitoring the compliance of the source with its emissions limitations, standards, and
+work practices; and
+(3)
+a requirement that the compliance certification include:
+(A)
+the identification of each term or condition of the permit that is the basis of the
+certification;
+(B)
+the status of compliance with the terms and conditions of the permit for the period
+covered by the certification, based on the methods or means designated in 40 CFR
+70.6(c)(5)(iii)(B). The certification shall identify each deviation and take it into account
+in the compliance certification. The certification shall also identify as possible exceptions
+to compliance any periods during which compliance was required and in which an
+excursion or exceedance as defined in 40 CFR 64 occurred;
+(C)
+whether compliance was continuous or intermittent;
+(D)
+the identification of the methods or other means used by the owner and operator for
+determining the compliance status with each term and condition during the certification
+period; these methods shall include the methods and means required in 40 CFR Part
+70.6(a)(3); and
+(E)
+such other facts as the Director may require to determine the compliance status of the
+source; and
+(4)
+that all compliance certifications be submitted to EPA as well as to the Division.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.65; 143-215.66; 143-215.107(a)(10); 143-215.108;
+Temporary Rule Eff. March 8, 1994 for a period of 180 days or until the permanent rule is
+effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1996;
+Temporary Amendment Eff. December 1, 1999;
+Amended Eff. August 1, 2008; June 1, 2008; January 1, 2007; December 1, 2005; April 1, 2001;
+July 1, 2000;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0509 PERMITTING OF NUMEROUS SIMILAR FACILITIES
+(a) The Director shall not issue a single permit to cover numerous similar facilities or sources unless a notice and
+opportunity for public participation has been provided as required by 15A NCAC 02Q .0521.
+(b) The Director shall not issue a single permit for numerous similar facilities and sources pursuant to this Rule
+unless:
+(1)
+there is no difference between the facilities or sources that would require special permit conditions
+for any individual facility or source; and
+(2)
+no unique analysis is required for any facility or source covered by the permit.
+(c) A permit issued pursuant to this Rule shall comply with all the requirements of this Section.
+(d) A permit issued pursuant to this Rule shall identify criteria by which facilities or sources may qualify for the
+permit. To facilities or sources that qualify, the Director shall grant the terms and conditions of the permit.
+(e) The facility or source shall be subject to enforcement action for operating without a permit if the facility or
+source is later determined not to qualify for the terms and conditions of the permit issued pursuant to this Rule.
+(f) Sources subject to Title IV shall not be eligible for a permit issued pursuant to this Rule.
+(g) The owner or operator of a facility or source that qualifies for a permit issued pursuant to this Rule shall apply
+for coverage by the terms of the permit issued pursuant to this Rule or shall apply for a standard permit for each
+facility or source pursuant to this Section.
+(h) The Division need not repeat the public participation procedures pursuant to 15A NCAC 02Q .0521 if it grants a
+request by a permit applicant to operate by a permit issued pursuant to this Rule.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0510 PERMITTING OF FACILITIES AT MULTIPLE TEMPORARY SITES
+(a) The Director may, issue a single permit authorizing emissions from similar operations by the same facility
+owner or operator at multiple temporary sites, based on factors such as those set forth in this Rule.
+(b) No facility shall qualify for a permit for multiple temporary sites pursuant to this Rule unless the operation
+involves at least one change of site during the term of the permit.
+(c) Sources subject to Title IV shall not be eligible for a permit pursuant to this Section.
+(d) Permits for facilities at multiple temporary sites shall include:
+(1)
+identification of each site;
+(2)
+conditions that will assure compliance with all applicable requirements at all authorized locations;
+(3)
+requirements that the permittee notify the Division at least 10 days in advance of each change of
+location; and
+(4)
+conditions that assure compliance with all other provisions of this Section.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0511
+History Note:
+
+SYNTHETIC MINOR FACILITIES
+
+Filed as a Temporary Rule Eff. March 8, 1994 for a period of 180 days or until the permanent rule is
+effective, whichever is sooner;
+Authority G.S. 143-215.3(a)(1); 143-215.65; 143-215.66; 143-215.107(a)(10); 143-215.108;
+Eff. July 1, 1994;
+Repealed Eff. July 1, 1999.
+
+15A NCAC 02Q .0512 PERMIT SHIELD AND APPLICATION SHIELD
+(a) Permit Shield:
+(1)
+The Director shall place in a permit issued pursuant to this Section a permit term or condition (a
+permit shield) stating that compliance with the conditions of the permit shall be deemed
+compliance with applicable requirements specifically identified in the permit in effect as of the
+date of permit issuance, provided that:
+(A)
+such applicable requirements are included and are specifically identified in the permit; or
+(B)
+the Director, in acting on the permit application or revision, determines in writing that
+other requirements specifically identified are not applicable to the source and the permit
+includes that determination or a concise summary thereof.
+(2)
+A permit that does not expressly state that a permit shield exists shall be presumed not to provide
+such a shield.
+(3)
+A permit shield shall state that it does not alter or affect:
+(A)
+the power of the Commission, Secretary of the Department, or Governor under G.S.
+143-215.3(a)(12) or EPA under Section 303 of the federal Clean Air Act;
+(B)
+the liability of an owner or operator of a facility for any violation of applicable
+requirements prior to the effective date of the permit or at the time of permit issuance;
+(C)
+the applicable requirements under Title IV; or
+(D)
+the ability of the Director (or EPA pursuant to Section 114 of the federal Clean Air Act)
+to obtain information to determine compliance of the facility with its permit, this Section,
+or Subchapter 02D of this Chapter.
+(4)
+A permit shield shall not apply to any change made at a facility that does not require a permit
+revision.
+(5)
+A permit shield shall not extend to minor permit modifications made pursuant to 15A NCAC 02Q
+.0515.
+(b) Application Shield.
+(1)
+Except as provided in Subparagraph (b)(2) of this Rule, if the applicant submits a timely and
+complete application for permit issuance (including for renewal), the facility's failure to have a
+permit pursuant to this Section shall not be a violation:
+(A)
+unless the delay in final action is due to the failure of the applicant to timely submit
+information as required or requested by the Director, or
+(B)
+until the Director takes final action on the permit application.
+(2)
+Subparagraph (b)(1) of this Rule shall cease to apply if, subsequent to the completeness
+determination made pursuant to 15A NCAC 02Q .0507, the applicant fails to submit by the
+deadline specified in writing by the Director, any additional information identified as being needed
+to process the application.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1997;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0513 PERMIT RENEWAL AND EXPIRATION
+(a) Permits being renewed shall be subject to the procedural requirements of this Section, including those for public
+participation and affected state and EPA review.
+(b) Permit expiration shall terminate the facility's right to operate unless a complete renewal application has been
+submitted at least six months before the date of permit expiration.
+(c) If the permittee or applicant has complied with 15A NCAC 02Q .0512(b)(1), the existing permit shall not expire
+until the renewal permit has been issued or denied. All terms and conditions of the existing permit shall remain in
+effect until the renewal permit has been issued or denied.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0514 ADMINISTRATIVE PERMIT AMENDMENTS
+(a) An "administrative permit amendment" means a permit revision that:
+(1)
+corrects typographical errors;
+(2)
+identifies a change in the name, address, or telephone number of any individual identified in the
+permit or provides a similar minor administrative change at the facility;
+(3)
+requires more frequent monitoring or reporting by the permittee;
+(4)
+changes test dates or construction dates provided that no applicable requirements are violated by
+the change in test dates or construction dates;
+(5)
+moves terms and conditions from the State-enforceable only portion of a permit to the State- and
+federal-enforceable portion of the permit provided that terms and conditions being moved have
+become federally enforceable through Section 110, 111, or 112 or other parts of the federal Clean
+Air Act;
+(6)
+moves terms and conditions from the federal-enforceable only portion of a permit to the State- and
+federal-enforceable portion of the permit;
+(7)
+changes the permit number without changing any portion of the permit that is federally
+enforceable that would not otherwise qualify as an administrative amendment;
+(8)
+removes non-applicable permit conditions; or
+(9)
+removes references to equipment that has been permanently removed from service.
+(b) In making administrative permit amendments, the Director:
+(1)
+shall take final action on a request for an administrative permit amendment within 60 days after
+receiving such request;
+(2)
+may make administrative amendments without providing notice to the public or any affected states
+pursuant to 15A NCAC 02Q .0521(a), provided he or she designates any such permit revision as
+having been made pursuant to this Rule; and
+(3)
+shall submit a copy of the revised permit to EPA.
+(c) The permittee may implement the changes addressed in the request for an administrative amendment
+immediately upon submittal of the request.
+(d) Upon taking final action granting a request for an administrative permit amendment, the Director shall allow
+coverage by the permit shield pursuant to 15A NCAC 02Q .0512 for the administrative permit amendments made.
+(e) Administrative amendments for sources covered pursuant to Title IV shall be governed by rules in 15A NCAC
+02Q .0400.
+(f) This Rule shall not apply to the state-enforceable only part of a Title V permit. For the state-enforceable only
+part of a Title V permit, 15A NCAC 02Q .0316 shall govern administrative permit amendments.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. January 1, 2007; July 1, 1997;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0515 MINOR PERMIT MODIFICATIONS
+(a) The procedures set out in this Rule shall apply to permit modifications if the modifications:
+(1)
+do not violate any applicable requirement;
+(2)
+do not involve significant changes to existing monitoring, reporting, or recordkeeping
+requirements in the permit;
+(3)
+do not require or change a case-by-case determination of an emission limitation or other standard,
+a source-specific determination for temporary sources of ambient impacts, or a visibility or
+increment analysis;
+(4)
+do not seek to establish or change a permit term or condition for which there is no corresponding
+underlying applicable requirement and that the facility has assumed to avoid an applicable
+requirement to which the facility would otherwise be subject. Such terms and conditions include:
+(A)
+a federally enforceable emissions cap assumed to avoid an applicable requirement
+pursuant to any provision of Title I of the federal Clean Air Act; or
+(B)
+an alternative emissions limit approved as part of an early reduction plan submitted
+pursuant to Section 112(i)(5) of the federal Clean Air Act;
+(5)
+are not modifications pursuant to any provision of Title I of the federal Clean Air Act; and
+(6)
+are not required to be processed as a significant modification pursuant to 15A NCAC 02Q .0516.
+(b) In addition to the items required pursuant to 15A NCAC 02Q .0505, an application requesting the use of the
+procedures set out in this Rule shall include:
+(1)
+an application form including:
+(A)
+a description of the change;
+(B)
+the emissions resulting from the change; and
+(C)
+identification of any new applicable requirements that will apply if the change occurs;
+(2)
+a list of the facility's other pending applications awaiting group processing and a determination of
+whether the requested modification, aggregated with these other applications, equals or exceeds
+the thresholds set out in Subparagraphs (c)(1) through (3) of this Rule;
+(3)
+the applicant's suggested draft permit;
+(4)
+certification by a responsible official that the proposed modification meets the criteria for using
+the procedures set out in this Rule and a request that these procedures be used; and
+(5)
+complete information for the Director to use to notify EPA and affected states.
+(c) The Director shall use group processing for minor permit modifications processed pursuant to this Rule. The
+Director shall notify EPA and affected states of the requested permit revisions pursuant to this Rule and shall
+provide the information specified in 15A NCAC 02Q .0522 on a quarterly basis. If the aggregated emissions from
+all pending minor permit modifications equal or exceed:
+(1)
+10 percent of the emissions allowed for the source for which the change is requested;
+(2)
+20 percent of the applicable definition of major facility; or
+(3)
+five tons per year,
+then the Director shall notify EPA and affected states within five business days of the requested permit revision
+pursuant to this Rule and provide the information specified in 15A NCAC 02Q .0522.
+(d) Within 90 days after receiving a complete application that exceeds the thresholds in Subparagraphs (c)(1), (2),
+or (3) of this Rule or 15 days after the end of EPA's 45-day review period, whichever is later, the Director shall:
+(1)
+issue the permit modification as proposed;
+(2)
+deny the permit modification application;
+(3)
+determine that the requested modification does not qualify for the procedures set out in this Rule
+and should be processed pursuant to 15A NCAC 02Q .0516; or
+(4)
+revise the draft permit modification and transmit the proposed permit to EPA.
+(e) If the thresholds in Subparagraphs (c)(1), (2), and (3) of this Rule are not exceeded, the Director shall, within
+180 days after receiving a completed application for a permit modification or 15 days after the end of EPA's 45-day
+review period, whichever is later:
+(1)
+issue the permit modification as proposed;
+(2)
+deny the permit modification application;
+(3)
+determine that the requested modification does not qualify for the procedures set out in this Rule
+and should be processed pursuant to 15A NCAC 02Q .0516; or
+(4)
+revise the draft permit modification and transmit the proposed permit to EPA.
+(f) The permit applicant may make the change proposed in his minor permit modification application immediately
+after filing the completed application with the Division. After the applicant makes the change, the facility shall
+
+comply with both the applicable requirements governing the change and the proposed permit terms and conditions
+until the Director takes one of the final actions specified in Paragraph (d) of this Rule. Between the filing of the
+permit modification application and the Director's final action, the facility need not comply with the existing permit
+terms and conditions it seeks to modify. However, if the facility fails to comply with its proposed permit terms and
+conditions during this time period, the Director may enforce the terms and conditions of the existing permit that the
+applicant seeks to modify, as necessary to ensure protection of air quality.
+(g) The permit shield allowed pursuant to 15A NCAC 02Q .0512 shall not extend to minor permit modifications.
+(h) If the State-enforceable only portion of the permit is revised, the procedures in 15A NCAC 02Q. 0300 shall be
+followed.
+(i) The proceedings shall affect only those parts of the permit related to the modification.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1997;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0516 SIGNIFICANT PERMIT MODIFICATION
+(a) The procedures set out in this Rule shall apply to applications requesting permit modifications pursuant to this
+Rule or permit modifications that are not governed by 15A NCAC 02Q .0514, .0515, .0523, or .0524.
+(b) An application for a significant permit modification that would contravene or conflict with an existing permit
+shall be processed following the procedure set out in 15A NCAC 02Q .0501(c).
+(c) An application for a significant permit modification that does not contravene or conflict with an existing permit
+shall be processed following the procedure set out in 15A NCAC 02Q .0501(b).
+(d) This Rule shall not preclude the permittee from making changes consistent with this Section that would render
+existing permit compliance terms and conditions irrelevant.
+(e) Except for the State-enforceable only portion of the permit, the procedures set out in 15A NCAC 02Q .0507,
+.0521, or .0522 shall be followed to revise a permit pursuant to this Rule. If the State-enforceable only portion of the
+permit is revised, the procedures in 15A NCAC 02Q .0300 shall be followed. The proceedings shall affect only
+those parts of the permit related to the significant modification.
+(f) Significant permit modifications shall be covered by the permit shield in accordance with 15A NCAC 02Q
+.0512.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0517 REOPENING FOR CAUSE
+(a) A permit shall be reopened and revised under the following circumstances:
+(1)
+additional applicable requirements become applicable to a facility with a remaining permit term of
+three or more years;
+(2)
+additional requirements (including excess emissions requirements) become applicable to a source
+covered by Title IV (upon approval by EPA, excess emissions offset plans shall be deemed to be
+incorporated into the permit);
+(3)
+the Director or EPA finds that the permit contains a material mistake or that inaccurate statements
+were made in establishing the emissions standards or other terms or conditions of the permit; or
+(4)
+the Director or EPA determines that the permit must be revised or revoked to assure compliance
+with the applicable requirements.
+(b) Any permit reopening pursuant to Subparagraph (a)(1) of this Rule shall be completed or a revised permit issued
+within 18 months after the applicable requirement is promulgated. No reopening is required if the effective date of
+the requirement is after the expiration of the permit term unless the term of the permit was extended pursuant to 15A
+NCAC 02Q .0513(c).
+(c) Except for the State-enforceable only portion of the permit, the procedures set out in 15A NCAC 02Q .0507,
+.0521 or .0522 shall be followed to reissue a permit that has been reopened pursuant to this Rule. If the
+State-enforceable only portion of the permit is reopened, the procedures in 15A NCAC 02Q .0300 shall be followed.
+The proceedings shall affect only those parts of the permit for which cause to reopen exists.
+(d) The Director shall notify the permittee at least 60 days in advance of the date that the permit is to be reopened,
+except in cases of imminent threat to public health or safety the Director may notify the permittee less than 60 days
+before reopening the permit. The notice shall explain why the permit is being reopened.
+(e) Within 90 days, or 180 days if EPA extends the response period, after receiving notification from EPA that it
+finds that a permit should be terminated, modified, or revoked and reissued, the Director shall send to EPA a
+proposed determination of termination, modification, or revocation and reissuance, as appropriate.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1997;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0518 FINAL ACTION
+(a) The Director may:
+(1)
+issue a permit, permit revision, or renewal containing the conditions necessary to carry out the
+purposes of G.S. 143, Article 21B and the federal Clean Air Act;
+(2)
+rescind a permit upon request by the permittee; or
+(3)
+deny a permit application when necessary to carry out the purposes of G.S. 143, Article 21B and
+the federal Clean Air Act.
+(b) The Director may not issue a final permit or permit revision, except administrative permit amendments pursuant
+to 15A NCAC 02Q .0514, until EPA's 45-day review period has expired or until EPA has notified the Director that
+EPA will not object to issuance of the permit or permit revision, whichever occurs first. The Director shall issue the
+permit or permit revision within five days of receipt of notification from EPA that it will not object to issuance or of
+the expiration of EPA's 45-day review period, whichever occurs first.
+(c) If EPA objects to a proposed permit, the Director shall respond to EPA's objection within 90 days after receipt
+of EPA's objection. The Director shall not issue a permit pursuant to this Section over EPA's objection.
+(d) If EPA does not object in writing to the issuance of a permit, any person may petition EPA to make such
+objections by following the procedures and meeting the requirements of 40 CFR 70.8(d).
+(e) No permit shall be issued, revised, or renewed pursuant to this Section unless all the procedures set out in this
+Section have been followed and all the requirements of this Section have been met. The Director shall not issue any
+permit, permit revision, or permit renewal pursuant to this Section by default.
+(f) Thirty days after issuing a permit, including a permit issued pursuant to 15A NCAC 02Q .0509, that is not
+challenged by the applicant, the Director shall notice the issuance of the final permit. The notice shall be issued on
+the North Carolina Division of Air Quality web site at http://deq.nc.gov/about/divisions/air-quality. The notice shall
+include the name and address of the facility and the permit number.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. January 1, 2010; February 1, 1995;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0519 TERMINATION, MODIFICATION, REVOCATION OF PERMITS
+(a) The Director may terminate, modify, or revoke and reissue a permit issued pursuant to this Section if:
+(1)
+the information contained in the application or presented in support thereof is determined to be
+incorrect;
+(2)
+the conditions by which the permit or permit renewal was granted have changed;
+(3)
+permit conditions have been violated;
+(4)
+the permit holder fails to pay fees required pursuant to 15A NCAC 02Q .0200 within 30 days after
+being billed;
+(5)
+the permittee refuses to allow the Director or his authorized representative, upon presentation of
+credentials:
+(A)
+to enter the permittee's premises in which a source of emissions is located or in which
+any records are required to be kept by the terms and conditions of the permit;
+(B)
+to have access to any copy or records required to be kept by the terms and conditions of
+the permit;
+(C)
+to inspect any source of emissions, control equipment, and any monitoring equipment or
+method required in the permit; or
+(D)
+to sample any emission source at the facility;
+(6)
+the EPA requests that the permit be revoked pursuant to 40 CFR 70.7(g) or 70.8(d); or
+(7)
+the Director finds that termination, modification or revocation and reissuance of a permit is
+necessary to carry out the purpose of G.S. 143, Article 21B.
+(b) To operate a facility or source after its permit has been revoked shall be a violation of this Section.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(1a),(1b); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0520 CERTIFICATION BY RESPONSIBLE OFFICIAL
+(a) A responsible official shall certify the truth, accuracy, and completeness of any application form, report, or
+compliance certification required by this Section or by a term or condition in a permit issued pursuant to this
+Section.
+(b) This certification shall state that, based on information and belief formed after reasonable inquiry, the statements
+and information in the document are true, accurate, and complete.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(2); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0521 PUBLIC PARTICIPATION
+(a) The Director shall give public notice with an opportunity for comments and a hearing on all draft permits and
+permit revisions except permit revisions issued pursuant to 15A NCAC 02Q .0514, .0515, and .0524. The Director
+shall give public notice with an opportunity for comments and a hearing on draft permit revisions issued pursuant to
+15A NCAC 02Q .0514, .0515, and .0524 if the Director finds it is in the best interest of the public.
+(b) Notice of any draft permit for an existing facility for which a public hearing is scheduled or for a new facility
+shall be given by publication in a newspaper of general circulation in the area where the facility is located, posted on
+the North Carolina Division of Air Quality web site at http://deq.nc.gov/about/divisions/air-quality, and emailed to
+persons who are on the Division's emailing list for air quality permits.
+(c) Notice for existing facilities for which a public hearing is not scheduled shall be given by posting the draft
+permit on the North Carolina Division of Air Quality web site at http://deq.nc.gov/about/divisions/air-quality and
+shall be emailed to persons who are on the Division's emailing list for air quality permit notices.
+(d) The notice shall identify:
+(1)
+the affected facility;
+(2)
+the name and address of the permittee;
+(3)
+the name and address of the person to whom to send comments and requests for public hearing;
+(4)
+the name, address, and telephone number of Divisional staff from whom interested persons may
+obtain additional information, including copies of the permit draft, the application, compliance
+plan, monitoring and compliance reports, all other relevant supporting materials, and all other
+materials available to Division that are relevant to the permit decision;
+(5)
+the activity or activities involved in the permitted action;
+(6)
+any emissions change involved in any permit modification;
+(7)
+a brief description of the comment procedures;
+(8)
+the procedures to follow to request a hearing unless a hearing has already been scheduled; and
+(9)
+the time and place of all hearing that have already been scheduled.
+(e) The Director shall send a copy of the notice to affected states and EPA.
+(f) The notice shall allow 30 days for public comments.
+(g) If the Director finds that a public hearing is in the best interest of the public, the Director shall require a public
+hearing to be held on a draft permit. Notice of a public hearing shall be given at least 30 days before the hearing.
+(h) If EPA requests a record of the comments and of the issues raised during the public participation process, the
+Director shall provide EPA this record.
+(i) Persons who desire to be placed on the Division's email notification list for air quality permit notices shall
+subscribe to the permits email list serve at http://deq.nc.gov/about/divisions/air-quality.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(3); 143-215.107(a)(10); 143-215.108; 143-215.111(4);
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. January 1, 2010; July 1, 1998;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0522 REVIEW BY EPA AND AFFECTED STATES
+(a) The Director shall provide EPA with a copy of each permit application, including any application for permit
+revision, each proposed permit, and each final permit issued pursuant to this Section. If EPA has informed the
+Director that a permit application summary and relevant portion of the permit application and compliance plan are
+sufficient, the Director may provide these documents instead of the complete application.
+(b) The Division shall retain for five years a copy of all permit applications, permits, and other related material
+submitted to or issued by the Division pursuant to this Section.
+(c) The Director shall provide notice to each affected state of each draft permit at or before the time notice is
+provided to the public pursuant to 15A NCAC 02Q .0521.
+(d) The Director, in writing, shall notify EPA and any affected state of any refusal by the Division to accept all
+recommendations for the proposed permit that the affected state submitted during the public or affected state review
+period and shall state the reasons for not accepting any such recommendations.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108; 143-215.111(5);
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0523 CHANGES NOT REQUIRING PERMIT REVISIONS
+(a) Section 502(b)(10) changes:
+(1)
+A permittee may make Section 502(b)(10) changes without having his or her permit revised if:
+(A)
+the changes are not a modification pursuant to 15A NCAC 02D or Title I of the federal
+Clean Air Act;
+(B)
+the changes do not cause the emissions allowed in the permit to be exceeded;
+(C)
+the permittee notifies the Director and EPA in writing at least seven days before the
+change is made; and
+(D)
+the permittee attaches the notice to the relevant permit.
+(2)
+The written notification required by Part (a)(1)(C) of this Rule shall include:
+(A)
+a description of the change;
+(B)
+the date on which the change will occur;
+(C)
+all changes in emissions; and
+(D)
+all permit term or conditions that are no longer applicable as a result of the change.
+(3)
+Section 502(b)(10) changes shall be made in the permit the next time that the permit is revised or
+renewed, whichever comes first.
+(b) Off-permit changes. A permittee may make changes in his or her operation or emissions without revising his or
+her permit if:
+(1)
+the change affects only insignificant activities and the activities remain insignificant after the
+change;
+(2)
+the change is not covered by any applicable requirement; and
+(3)
+the changes are consistent with this Section and would not render existing permit compliance
+terms and conditions irrelevant.
+(c) Emissions trading.
+(1)
+To the extent that emissions trading is allowed pursuant to 15A NCAC 02D, including
+subsequently adopted maximum achievable control technology standards, emissions trading shall
+be allowed without permit revisions provided that:
+(A)
+all applicable requirements are met;
+(B)
+the permittee complies with all terms and conditions of the permit in making the
+emissions trade; and
+(C)
+the permittee notifies the Director and EPA in writing at least seven days before the trade
+is made.
+(2)
+If an emissions cap has been established by a permit condition for the purposes of limiting
+emissions below that allowed by an otherwise applicable requirement, emissions trading shall be
+allowed to the extent allowed by the permit if:
+(A)
+an emissions cap is established in the permit to limit emissions;
+(B)
+the permit specifies the emissions limits with which each source shall comply with any
+applicable requirement;
+(C)
+the permittee complies with all permit terms that ensure the emissions trades are
+enforceable, accountable, and quantifiable;
+(D)
+the permittee complies with all applicable requirements;
+(E)
+the permittee complies with the emissions trading procedures in the permit; and
+(F)
+the permittee notifies the Director and EPA in writing at least seven days before the trade
+is made.
+(3)
+The written notification required in Subparagraph (1) of this Paragraph shall include:
+(A)
+a description of the change;
+(B)
+the date on when the change will occur;
+(C)
+the change in emissions;
+(D)
+the permit requirement with which the facility or source will comply using the emissions
+trading provision of the applicable provision of 15A NCAC 02D; and
+(E)
+the pollutants emitted subject to the emissions trade.
+(4)
+The written notification required in Subparagraph (2) of this Paragraph shall include:
+(A)
+a description of the change;
+(B)
+the date on when the change will occur;
+(C)
+the changes in emissions that will result and how the increases and decrease in emissions
+will comply with the terms and conditions of the permit.
+
+(d) The permit shield allowed pursuant to 15A NCAC 02Q .0512 shall not apply to changes made pursuant to
+Paragraphs (a), (b), or (c) of this Rule.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. June 1, 2008; December 1, 2005;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0524 OWNERSHIP CHANGE
+(a) Applications for ownership changes shall:
+(1)
+contain the information required by 15A NCAC 02Q .0505(4); and
+(2)
+follow the procedures set forth in 15A NCAC 02Q .0300.
+(b) If the Director permits an ownership change, he or she shall submit a copy of the permit to EPA as an
+administrative amendment.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0525 APPLICATION PROCESSING SCHEDULE
+The Division shall adhere to the following schedule in processing permit applications:
+(1)
+The Division shall send written acknowledgment of receipt of an application to the applicant
+within 10 days of receipt of the application.
+(2)
+The Division shall review all permit applications within 60 days of receipt of the application to
+determine whether the application is complete or incomplete. The Division shall notify the
+applicant by letter:
+(a)
+stating that the application as submitted is complete and specifying the completeness
+date;
+(b)
+stating that the application is incomplete, requesting additional information, and
+specifying the date by which the requested information is required to be received by the
+Division; or
+(c)
+stating that the application is incomplete and requesting that the applicant rewrite and
+resubmit the application.
+If the Division does not notify the applicant by letter dated within 60 days of receipt of the
+application that the application is incomplete, the application shall be deemed complete. A
+completeness determination shall not prevent the Director from requesting additional information
+at a later date if such information is necessary to properly evaluate the source, its air pollution
+abatement equipment, or the facility. If the applicant has not provided the requested additional
+information by the date specified in the letter requesting additional information, the Director shall
+cease processing the application until additional information is provided. The applicant may
+request a time extension for submittal of the requested additional information. A completeness
+determination shall not be necessary for minor modifications pursuant to 15A NCAC 02Q .0515.
+(3)
+The Division shall determine within 60 days of receipt of a complete application if any additional
+information is needed to conduct the technical review of the application. A technical completeness
+determination shall not prevent the Director from requesting additional information at a later date
+when such information is necessary to properly evaluate the source, its air pollution abatement
+equipment or the facility. The Division shall complete the technical review within 270 days of
+receipt of a complete application or 10 days after receipt of requested additional information,
+whichever is later.
+(4)
+The Director shall send the public notice for public comment on the draft permit to affected states,
+to EPA, and to persons on the mailing list within 270 days after receipt of a complete application
+or 10 days after receipt of requested additional information, whichever is later.
+(5)
+If a public hearing is requested and approved by the Director for a draft permit, it shall be held
+within 45 days of the Director's decision to hold a public hearing.
+(6)
+The Director shall complete the review of the record and send the proposed permit to EPA:
+(a)
+within 30 days after the close of the public comment period if there is no public hearing
+on the draft permit; or
+(b)
+within 45 days after the close of the public hearing if there is a public hearing on the draft
+permit.
+(7)
+If EPA does not object to the proposed permit, the Director shall issue the permit within five days
+after:
+(a)
+expiration of EPA 45-day review period; or
+(b)
+receipt of notice from EPA that it will not object to issuance, whichever comes first.
+(8)
+If EPA objects to the proposed permit, the Director shall respond to EPA's objection within 90
+days after receipt of EPA's objections.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Eff. February 1, 1995;
+Amended Eff. July 1, 1998;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0526 112(J) CASE-BY-CASE MACT PROCEDURES
+(a) An owner or operator of a source required to apply maximum achievable control technology (MACT) pursuant
+to 15A NCAC 02D .1109 shall follow the permit procedures set out in this Rule.
+(b) For the purposes of this Rule, the definitions in 15A NCAC 02D .1109, 40 CFR 63.51, 40 CFR 63.2, and the
+following definitions apply:
+(1)
+"Equivalent emission limitation" means an emission limitation, established pursuant to Section
+112(j) of the federal Clean Air Act, that is equivalent to the MACT standard that EPA would have
+promulgated pursuant to Section 112(d) or (h) of the federal Clean Air Act.
+(2)
+"Source category schedule for standards" means the schedule for promulgating MACT standards
+issued pursuant to Section 112(e) of the federal Clean Air Act.
+(3)
+"Title V permit" means a permit issued pursuant to this Section.
+(c) Except as provided for in Paragraph (d) or (e) of this Rule, the owner or operator of a source required to apply
+MACT pursuant to 15A NCAC 02D .1109 shall submit an application for a permit or for a significant permit
+revision, as applicable pursuant to this Section.
+(d) Approval process for new and existing affected sources that are subject to Section 112(j) as of the Section 112(j)
+deadline. The requirements of Subparagraphs (d)(1) and (2) of this Paragraph shall apply to major sources that
+include, as of the Section 112(j) deadline, one or more sources in a category or subcategory for which the EPA has
+failed to promulgate an emission standard pursuant to 40 CFR Part 63 on or before an applicable Section 112(j)
+deadline. Existing source MACT requirements (including relevant compliance deadlines), as specified in a Title V
+permit issued to the facility pursuant to the requirements of 40 CFR Part 63, Subpart B, shall apply to such sources.
+(1)
+The owner or operator shall submit an application for a permit or for a revision to an existing Title
+V permit issued or a pending Title V permit that meets the requirements of Subparagraph (m)(1)
+of this Rule by the Section 112(j) deadline if the owner or operator can reasonably determine that
+one or more sources at the facility belong in a category or subcategory subject to Section 112(j) of
+the federal Clean Air Act.
+(2)
+The owner or operator of a source that does not submit an application pursuant to Subparagraph
+(d)(1)(A) of this Rule and is notified in writing by the Division that one or more sources at the
+facility belong to a category or subcategory subject to Section 112(j) of the federal Clean Air Act
+shall submit an application for a Title V permit or for a revision to an existing Title V permit that
+meets the requirements of Paragraph (m)(1) of this Rule within 30 days after being notified in
+writing by the Division. The Division shall not be required to make this notification.
+(3)
+The requirements in Parts (A) and (B) of this Subparagraph shall apply if the owner or operator
+has obtained a Title V permit that incorporates a Section 112(g) case-by-case MACT
+determination by the Division pursuant to 15A NCAC 02D .1112, but has not submitted an
+application for a Title V permit revision that addresses the emission limitation requirements of
+Section 112(j) of the federal Clean Air Act.
+(A)
+If the owner or operator has a Title V permit that incorporates a Section 112(g) case-bycase MACT determination pursuant to 15A NCAC 02D .1112, the owner or operator
+shall submit an application that meets the requirements of Paragraph (m)(1) of this Rule
+for a Title V permit revision within 30 days of the Section 112(j) deadline or within 30
+days of being notified in writing by the Division that one or more sources at the major
+facility belong in such category or subcategory. The Division shall use the procedures in
+40 CFR 63.52(e) to determine whether the emission limitations adopted pursuant to the
+prior 112(g) case-by-case MACT determination are substantially as effective as the
+emission limitations that Division would otherwise adopt pursuant to Section 112(j) of
+the federal Clean Air Act for the source in question. If the Division determines the
+previously adopted 112(g) emission limitations are substantially as effective, then the
+Division shall retain the existing limitations in the permit to effectuate Section 112(j) of
+the federal Clean Air Act. If the Division does not retain the previously adopted 112(g)
+emission limitations, the MACT requirements of this Rule shall be satisfied upon
+issuance of a revised Title V permit incorporating any additional Section 112(j)
+requirements.
+(B)
+If the owner or operator that has submitted a Title V permit application that incorporates
+a Section 112(g) case-by-case MACT determination by the Division pursuant to 15A
+NCAC 02D .1112, but has not received the permit incorporating the Section 112(g)
+requirements, the owner or operator shall continue to apply for a Title V permit that
+
+addresses the requirements of Section 112(g) of the federal Clean Air Act. The owner or
+operator shall submit a permit application meeting the requirements of Paragraph (m)(1)
+of this Rule within 30 days of issuance of that Title V permit. The Division shall use the
+procedures in 40 CFR 63.52(e) to determine whether the emissions limitations adopted
+pursuant to the prior 112(g) case-by-case MACT determination are substantially as
+effective as the emission limitations that the Division would otherwise adopt pursuant to
+Section 112(j) of the federal Clean Air Act for the source in question. If the Division
+determines that the previously adopted 112(g) emission limitations are substantially as
+effective, then the Director shall retain the existing emission limitations to effectuate
+Section 112(j) of the federal Clean Air Act and revise the permit accordingly. If the
+Division does not retain the previously adopted 112(g) emission limitations, the MACT
+requirements of this Rule shall be satisfied upon issuance of a revised Title V permit
+incorporating any additional Section 112(j) requirements.
+(e) Sources that become subject to Section 112(j) of the federal Clean Air Act after the Section 112(j) deadline and
+that do not have a Title V permit addressing Section 112(j) requirements. The requirements of this Paragraph shall
+apply to sources that do not meet the criteria in Paragraph (d) of this Rule on the Section 112(j) deadline and are not
+subject to Section 112(j) of the federal Clean Air Act on that date, but subsequent to the Section 112 (j) deadline the
+source becomes subject to the requirements of this Rule and the source does not have a Title V permit that addresses
+the requirements of Section 112(j) of the federal Clean Air Act.
+(1)
+If one or more sources in a category or subcategory subject to the requirements of this Rule are
+installed at a major source or result in the source becoming a major source due to the installation,
+and the installation does not invoke Section 112(g) requirements in 15A NCAC 02D .1112, the
+owner or operator shall submit an application meeting the requirements of Paragraph (m)(1) of this
+Rule within 30 days of startup of the source. Existing source MACT requirements (including
+relevant compliance deadlines), as specified in a Title V permit issued pursuant to the
+requirements of this Rule, shall apply to such sources. The Division shall use the procedures in 40
+CFR 63.52(e) to determine whether the emissions limitations adopted pursuant to the prior 112(g)
+case-by-case MACT determination are substantially as effective as the emission limitations that
+the Division would otherwise adopt pursuant to Section 112(j) of the federal Clean Air Act for the
+source in question. If the Division determines the previously adopted 112(g) emission limitations
+are substantially as effective, then the Division shall retain the existing emission limitations to
+effectuate Section 112(j) of the federal Clean Air Act and revise the permit accordingly. If the
+Division does not retain the previously adopted 112(g) emission limitations, the MACT
+requirements of this Rule shall be satisfied upon issuance of a revised Title V permit incorporating
+any additional Section 112(j) requirements.
+(2)
+If one or more sources in a category or subcategory subject to 112(j) requirements are installed at
+a major source or result in the source becoming a major source due to the installation, and the
+installation requires 112(g) emission limitations to be established and permitted pursuant to 15A
+NCAC 02Q .0528 and the owner or operator has not submitted an application for a Title V permit
+revision that addresses the emission limitation requirements of Section 112(j) of the federal Clean
+Air Act, the owner or operator shall apply for and obtain a Title V permit that addresses the
+emission limitation requirements of Section 112(g) of the federal Clean Air Act. Within 30 days of
+issuance of that Title V permit, the owner or operator shall submit an application that meets the
+requirements of Paragraph (m)(1) of this Rule for a revision to the existing Title V permit. The
+Division shall determine whether the emissions limitations adopted pursuant to the prior 112(g)
+case-by-case MACT determination are substantially as effective as the emission limitations that
+the Division would otherwise adopt pursuant to Section 112(j) of the federal Clean Air Act for the
+source in question. If the Division determines the previously adopted 112(g) emission limitations
+are substantially as effective, then the Division shall retain the existing emission limitations to
+effectuate Section 112(j) of the federal Clean Air Act and revise the permit accordingly. If the
+Division does not retain the previously adopted 112(g) emission limitations, the permit shall be
+revised to incorporate any additional Section 112(j) requirements.
+(3)
+The owner or operator of an area source that, due to a relaxation in any federally enforceable
+emission limitation (such as a restriction on hours of operation) increases its potential to emit
+hazardous air pollutants such that the source becomes a major source that is subject to this Rule,
+shall submit an application meeting the requirements of Paragraph (m)(1) of this Rule within 30
+
+days after the date that such source becomes a major source. The Director shall use the procedures
+in Paragraph (n) of this Rule in reviewing the application. The existing source MACT
+requirements (including relevant compliance deadlines) shall apply to such sources.
+(4)
+If EPA establishes a lesser quantity emission rate pursuant to Section 112(a)(1) of the Federal
+Clean Air Act that results in an area source becoming a major source that is subject to this Rule,
+then the owner or operator of such a major source shall submit an application that meets the
+requirements of Paragraph (m)(1) of this Rule on or before the date six months after the date that
+such source becomes a major source. Existing source MACT requirements (including relevant
+compliance deadlines), as specified in a Title V permit issued pursuant to the requirements of this
+Rule, shall apply to such sources.
+(f) Sources that have a Title V permit addressing Section 112(j) requirements. The requirements of this Paragraph
+apply to major sources that include one or more sources in a category or subcategory for which EPA fails to
+promulgate an emission standard on or before the Section 112(j) deadline, the owner or operator has a permit
+meeting the Section 112(j) requirements, and if changes occur at the major source to equipment, activities, or both
+subsequent to the Section 112(j) deadline.
+(1)
+If the Title V permit already provides the requirements that address the events described in this
+Paragraph subsequent to the Section 112(j) deadline, then the source shall comply with the
+applicable new source MACT or existing source MACT requirements as specified in the permit,
+and the Section 112(j) requirements shall be deemed satisfied.
+(2)
+If the Title V permit does not contain the requirements that address the events described in this
+Paragraph subsequent to the Section 112(j) deadline, then the owner operator shall submit an
+application for a revision of the existing Title V permit that meets the requirements of Paragraph
+(m)(1) of this Rule within 30 days of beginning construction. Existing source MACT requirements
+(including relevant compliance deadlines), as specified in a Title V permit issued pursuant to the
+requirements of this Rule, shall apply to such sources.
+(g) Requests for applicability determination. An owner or operator who is unsure of whether one or more sources at
+a major source belong in a category or subcategory for which EPA has failed to promulgate an emission standard
+pursuant to 40 CFR Part 63 may, on or before an applicable Section 112(j) deadline, request an applicability
+determination from the Division by submitting an application that meets the requirements of Paragraph (m)(1) of
+this Rule by the applicable deadlines specified in Paragraphs (d), (e), or (f) of this Rule.
+(h) An owner or operator who submits a Part 1 MACT application that meets the requirements of Paragraph (m)(1)
+of this Rule shall submit a Part 2 MACT application that meets the requirements of Paragraph (m)(2) of this Rule no
+later than the applicable date specified in 40 CFR 63 Subpart B Table 1. The submission date specified in 40 CFR
+63 Subpart B Table 1 for Miscellaneous Organic Chemical Manufacturing shall apply to sources in each of the
+source categories listed in 40 CFR 63 Subpart B Table 2. If an owner or operator is required by 15A NCAC 02D
+.1109 and this Rule to submit an application meeting the requirements of Paragraph (m)(1) of this Rule by a date
+that is after the date for a Part 2 MACT application for sources in the category or subcategory in question
+established by 40 CFR 63 Subpart B Table 1, the owner or operator shall submit a Part 2 MACT application meeting
+the requirements of Paragraph (m)(2) of this Rule within 60 additional days after the applicable deadline for
+submission of the Part 1 MACT application. The Part 2 applications shall be reviewed by the Division according to
+the procedures established in 40 CFR 63.55.
+(1)
+Any owner or operator who submitted a request for an applicability determination on or before
+May 15, 2002, that remained pending as of May 30, 2003, and who still wishes to obtain such a
+determination shall resubmit that request by the date that is 60 days after the Administrator
+publishes in the Federal Register a proposed standard pursuant to Section 112(d) or 112(h) of the
+Clean Air Act for the category or subcategory in question. Such a resubmitted request shall be
+supplemented to discuss the relation between the sources in question and the applicability
+provision in the proposed standard for the category or subcategory in question, and to explain why
+there may still be uncertainties that require a determination of applicability. The Director shall
+take action on each supplemented and resubmitted request within an additional 60 days after the
+applicable deadline for the resubmitted request. If more than three years remain on the current
+Title V permit, the owner or operator shall submit an application for a Title V permit revision to
+make any conforming changes in the permit required to adopt the existing emission limitations as
+the Section 112(j) MACT emission limitations. If less than three years remain on the current Title
+V permit, any required conforming changes shall be made when the permit is renewed. If the
+applicability determination is positive, the owner or operator shall submit a Part 2 MACT
+
+application meeting the requirements of Paragraph (m)(2) of this Rule by the date specified for the
+category or subcategory in question in 40 CFR 63 Subpart B Table 1. If the applicability
+determination is negative, no further action by the owner or operator shall be necessary.
+(2)
+An owner or operator who has submitted an application that meets the requirements of Paragraph
+(m)(1) of this Rule may request a determination of whether emission limitations adopted pursuant
+to a prior case-by-case MACT determination pursuant to Section 112(g) that apply to one or more
+sources in a relevant category or subcategory are substantially as effective as the emission
+limitations that the Division would otherwise adopt pursuant to this Rule for the source in
+question. Such a request must be submitted by the date for the category or subcategory in question
+specified in 40 CFR 63 Subpart B Table 1. Each request for a determination pursuant to this
+Paragraph shall be construed as a complete application for an equivalent emission limitation
+pursuant to this Rule. If the Director determines that the emission limitations in the prior case-bycase MACT determination are substantially as effective as the emission limitations the Director
+would otherwise adopt pursuant to this Rule, then the Director shall adopt the existing emission
+limitations in the permit as the emission limitations to effectuate Section 112(j) for the source in
+question. If the Director determines that the emission limitations in the prior case-by-case MACT
+determination pursuant to Section 112(g) are not substantially as effective as the emission
+limitations that the Director would otherwise adopt for the source in question pursuant to this
+Rule, the Director shall make a new MACT determination and adopt a Title V permit
+incorporating an appropriate equivalent emission limitation pursuant to this Rule. The Division
+shall use the procedures in 40 CFR 63.52(e) to determine whether the emission limitations adopted
+pursuant to the prior 112(g) case-by-case MACT determination are substantially as effective as the
+emission limitations which Division would otherwise adopt pursuant to Section 112(j) of the
+federal Clean Air Act for the source in question.
+(i) If the Director disapproves a permit application submitted pursuant to this Rule or determines that the
+application is incomplete, the owner or operator shall revise and resubmit the application to meet the Director's
+objections not later than six months after first receiving notification that the application has been disapproved or is
+incomplete.
+(j) If the owner or operator of a source subject to this Rule has submitted a timely and complete application for a
+permit, significant permit revision, or administrative amendment required by this Rule, any failure to have this
+permit shall not be a violation of the requirements of this Rule unless the delay in final action is due to the failure of
+the applicant to submit, in a timely manner, information required or requested to process the application.
+(k) The permit shall contain the items specified in 40 CFR 63.52 including:
+(1)
+specification of the affected source and the new affected source;
+(2)
+emission limitations or emission standards equivalent to existing source MACT and emission
+limitations equivalent to new source MACT for control of emissions of hazardous air pollutants
+for that category or subcategory determined according to 40 CFR 63.55(a) on a case-by-case basis;
+(3)
+emission limits, production limits, operational limits, or other terms and conditions necessary to
+ensure practicable enforceability of the MACT emission limitation;
+(4)
+notification, operation and maintenance, performance testing, monitoring, reporting, and
+recordkeeping requirements; and
+(5)
+compliance dates by which the owner or operator of an existing source is required to be in
+compliance with the MACT emission limitation and all other applicable terms and conditions of
+the permit, not to exceed three years from the date of issuance of the permit. The owner or
+operator of a new affected source shall comply with a new source MACT level of control
+immediately upon startup.
+(l) Early reductions made pursuant to Section 112(i)(5)(A) of the federal Clean Air Act shall be achieved not later
+than the date on which the relevant standard should have been promulgated according to the source category
+schedule for standards.
+(m) A permit application for a MACT determination shall consist of two parts.
+(1)
+The Part 1 application shall contain the information required by 40 CFR 63.53(a) and shall be
+submitted by the applicable deadline specified in Paragraph (d), (e), or (f) of this Rule.
+(2)
+The Part 2 application shall contain the information required by 40 CFR 63.53(b) and shall be
+submitted no later than the deadline in 40 CFR 63 Subpart B Table 1.
+(n) Permit application review. The Director shall follow 40 CFR 63.55(a) in reviewing permit applications for
+MACT. The resulting MACT determination shall be incorporated into the facility's Title V permit according to the
+
+procedures established in this Section. Following submittal of a Part 1 or Part 2 MACT application, the Director
+may request, pursuant to 15A NCAC 02Q .0507(c) and .0525(a), additional information from the owner or operator;
+and the owner or operator shall submit the requested information within 30 days. A Part 2 MACT application shall
+be deemed complete if it is sufficient to begin processing the application for a Title V permit addressing Section
+112(j) requirements. If the Division disapproves a permit application or determines that the application is
+incomplete, the owner or operator shall revise and resubmit the application to meet the objections of the Division
+within the time period specified by the Division, which shall not exceed six months from the date that the owner or
+operator is first notified that the application has been disapproved or is incomplete. After receipt of a complete Part
+2 MACT application that is subsequently approved by the Division, the Director shall issue a Title V permit that
+meets Section 112(j) requirements, following the schedule in 15A NCAC 02Q .0525.
+(o) The following requirements shall apply to case-by-case determinations of equivalent emission limitations when
+a MACT standard is subsequently promulgated:
+(1)
+If EPA promulgates an emission standard that is applicable to one or more sources within a major
+facility before the date a proposed permit pursuant to this Rule is approved, the permit shall
+contain the promulgated standard rather than the emission limitation determined pursuant to 15A
+NCAC 02D .1109, and the owner or operator of the source shall comply with the promulgated
+standard by the compliance date in the promulgated standard.
+(2)
+If EPA promulgates an emission standard that is applicable to a source after the date that a permit
+is issued pursuant to this Rule, the Director shall revise the permit on its next renewal to reflect the
+promulgated standard. Subparagraph (a)(1) of 15A NCAC 02Q .0517 shall not apply to
+requirements established pursuant to this Rule. The Director shall establish a compliance date in
+the revised permit that assures that the owner or operator complies with the promulgated standard
+within a reasonable time, but no longer than eight years after such standard is promulgated or eight
+years after the date by which the owner or operator was first required to comply with the emission
+limitation established by permit, whichever is earlier. The period for compliance for existing
+sources shall not be shorter than that provided for existing sources in the promulgated standard.
+(3)
+Notwithstanding the requirements of Subparagraphs (1) or (2) of this Paragraph, if EPA
+promulgates an emission standard that is applicable to a source after the date a proposed permit is
+approved, the Director shall not be required to change the emission limitation in the permit to
+reflect the promulgated standard if the level of control required by the emission limitation in the
+permit is as effective as that required by the promulgated standard. If EPA promulgates an
+emission standard that is applicable to an affected source after the date a permit application is
+approved and the level of control required by the promulgated standard is less stringent than the
+level of control required by an emission limitation in the prior MACT determination, the Division
+shall not be required to incorporate a less stringent emission limitation of the promulgated
+standards after considering the effects on air quality. The Division may consider any more
+stringent provision of the MACT determination to be applicable legal requirements, as necessary
+to protect air quality, when issuing or revising such a Title V permit.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(10); 143-215.108;
+Eff. July 1, 1996;
+Amended Eff. February 1, 2004;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0527 EXPEDITED APPLICATION PROCESSING SCHEDULE
+(a) Using the procedures contained in this Rule may result in a permit that EPA does not recognize as a valid
+permit.
+(b) An applicant may file an application to follow the expedited review for application certified by a professional
+engineer as set out in G.S. 143-215.108(h) if:
+(1)
+the applicant specifically requests that the permit application be processed pursuant to the
+procedures in G.S. 143-215.108(h); and
+(2)
+the applicant submits:
+(A)
+applications as required by 15A NCAC 02Q .0507;
+(B)
+a completeness check list showing that the permit application is complete;
+(C)
+a draft permit;
+(D)
+any required dispersion modeling;
+(E)
+a certification signed by a professional engineer registered in North Carolina certifying
+the accuracy and completeness of draft permit and the application, including emissions
+estimates, applicable standards and requirements, and process specifications;
+(F)
+a consistency determination as required pursuant to 15A NCAC 02Q .0507(d)(1);
+(G)
+a written description of current and projected plans to reduce the emissions of air
+contaminants as required pursuant to 15A NCAC 02Q .0507(d)(2);
+(H)
+a financial qualification if required;
+(I)
+substantial compliance statement if required; and
+(J)
+the application fee as required pursuant to 15A NCAC 02Q .0200.
+(c) The applicant shall use the official application forms provided by the Division or a facsimile thereof.
+(d) The Division shall provide the applicant a checklist of all items of information required to prepare a complete
+permit application. This checklist shall be used by the Division to determine if the application is complete.
+(e) The Division shall provide the applicant a list of permit conditions and terms to include in the draft permit.
+(f) Before filing a permit application that includes dispersion modeling analysis submitted in support of the
+application, the applicant shall submit a modeling protocol and receive approval for the dispersion modeling
+protocol.
+(g) The Division shall follow the procedures set out in G.S. 143-215.108(h) when processing applications filed in
+accordance with this Rule.
+(h) In implementing this Rule, the Director shall either deny the permit or submit a proposed permit to EPA.
+(i) If EPA does not object to the proposed permit, the Director shall issue the permit within five days after:
+(1)
+expiration of EPA 45-day review period; or
+(2)
+receipt of notice from EPA that it will not object to issuance, whichever comes first.
+(j) If EPA objects to the proposed permit, the Director shall respond to EPA's objection within 90 days after receipt
+of EPA's objections.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.108;
+Eff. July 1, 1998;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0528 112(G) CASE-BY-CASE MACT PROCEDURES
+(a) Applicability. An owner or operator of a source required to apply maximum achievable control technology
+(MACT) pursuant to 15A NCAC 02D .1112 shall follow the permit procedures set out in this Rule.
+(b) Construction prohibition. A person shall not begin construction or reconstruction of a major source of hazardous
+air pollutants unless:
+(1)
+the major source has been specifically regulated or exempted from regulation by:
+(A)
+15A NCAC 02D .1109 or .1111; or
+(B)
+a standard issued pursuant to Section 112(d), 112(h), or 112(j) of the federal Clean Air
+Act pursuent to 40 CFR Part 63 and the owner and operator has fully complied with all
+procedures and requirements for preconstruction review established by that standard,
+including any applicable requirements set forth in 40 CFR Part 63, Subpart A; or
+(2)
+the Division has made a final and effective case-by-case determination pursuant to 15A NCAC
+02D .1112 such that emissions from the constructed or reconstructed major source will be
+controlled to a level no less stringent than the maximum achievable control technology emission
+limitation for new sources.
+(c) Requirements for constructed and reconstructed major sources. If a case-by-case determination of MACT is
+required by 15A NCAC 02D .1112, the owner or operator shall submit a permit application to the Division and the
+Division shall process the application following the procedures of 15A NCAC 02Q .0501(c).
+(d) Alternative operating scenarios. When applying for a permit, the owner or operator may request approval of
+case-by-case MACT determinations for alternative operating scenarios. Approval of such determinations shall
+satisfy the requirements of Section 112(g) of the federal Clean Air Act for each such scenario.
+(e) Application requirements for a case-by-case MACT determination. The owner or operator of a source required
+to apply MACT pursuant to 15A NCAC 02D .1112 shall submit a permit application that contains all the
+information required by 40 CFR 63.43(e).
+(f) Reporting to the EPA. Within 60 days of the issuance of a permit pursuant to this Section or 15A NCAC 02Q
+.0300 that incorporates a MACT determination, the Director shall provide a copy of the permit to the EPA and shall
+provide a summary in electronic format for inclusion in the MACT database.
+History Note:
+
+Authority G.S. 143-215.3(a)(1); 143-215.107(a)(5),(10);
+Eff. July 1, 1998;
+Readopted Eff. April 1, 2018.
+
+

@@ -1,0 +1,252 @@
+INSTRUCTIONS FOR
+CHAPTER 115
+AIR EMISSION LICENSE APPLICATION
+
+State of Maine
+Department of Environmental Protection
+Bureau of Air Quality
+
+Fill out all applicable sections of the forms. Some applications will need to include information in addition to the forms. Attach additional pages as necessary. Attachments should be listed in Section I of the application form. 
+
+Please Note: The purpose of the application form is to ensure the Bureau of Air Quality receives all of the information necessary to draft an accurate and complete air emission license for your facility. Please fill in information as accurately and thoroughly as possible. 
+
+INSTRUCTIONS for SECTION A: FACILITY INFORMATION
+ 
+ Owner or Operator: The legal name of the person or company who owns, leases, operates, controls, or supervises the facility applying for the license as registered with the Secretary of State.
+ 
+ Facility Site Address: The physical site address of the equipment to be covered by the air emission license. Do not list a post office box here.
+ 
+ Facility Description: A brief description of the facility operations.
+ 
+ Facility Type and Application Description: A brief description of the type of facility and purpose for this application.
+ 
+ Current License Number: (if an existing facility): The number of the air emission license the facility is currently operating under.
+ 
+ Checklist: These requirements are necessary for the Department to accept the application for processing and should be completed then checked off prior to submitting the application.
+ 
+ All applications must complete the following requirements:
+ 
+ Application completed - the applicable portions of the application forms must be filled out.
+ Copy sent to town and date sent - a copy of the air emission license application must be filed for public inspection with the town or city clerk of the local municipality.
+ Public notice published - a public notice of intent to file must be published in a newspaper of general circulation in the region in which the source would be located (see Public Notice of Intent to File form).
+ Enclose public notice tear sheet - a clipping or photocopy of the notice from the paper must be submitted with the application. 
+ Signed signatory form - the Responsible Official must sign the application form (see Section K).
+ 
+ The following items are required for new sources only, i.e. facilities that do not currently have an air emissions license:
+ 
+ Schedule for construction or installation of equipment – include a basic construction schedule either for the facility or the installation of the new emissions equipment.
+ Title, Right, or Interest – include documentation of the applicant’s legal interest in the property as described in Chapter 115. This usually consists of either a copy of the deed or lease showing the applicant’s ownership or interest in the property.
+ Check for Fee – enclose a check, made out to “Treasurer, State of Maine” to cover the first year’s license fee. Contact the Bureau of Air Quality Licensing Section for the exact amount of the fee that should be submitted.
+ 
+ The following items are required for New Major Sources and Major Modifications only:
+ 
+ Notify Abutting Landowners – provide a copy of the public notice to all abutting landowners.
+ 
+ Facility Contact: The person responsible for any future questions regarding this facility including scheduling appointments or inspections. This person must be an employee of the organization applying for the license.
+ 
+ Application Contact: Primary contact for questions about this specific application. May be the same as the Facility Contact or a third party consultant.
+ 
+ Billing Contact: The person who is responsible for receiving and paying air emission license invoices (accounts payable).
+ 
+ 
+ 
+INSTRUCTIONS for SECTION B1: STATIONARY FUEL BURNING EQUIPMENT
+ 
+ Emissions Unit Table: - Fill out the table for fuel burning equipment, not including insignificant activities, engines, or incinerators. See Appendix B of Chapter 115 for a list of insignificant activities. For engines, see Section B2 of the application form. For incinerators, see Section C of the application form. Attach additional tables as necessary.
+ 
+ List:
+ Emission Unit ID - designation to identify emission unit. You may use in-house identification labels. Do not repeat emission unit IDs.
+ Type of equipment - boiler, water heater, space heater, etc.
+ Maximum design capacity - maximum design capacity in millions of British thermal units per hour (MMBtu/hr).
+ Maximum firing rate - gal/hr, scf/hr, tons wood/hr, etc. (include units in table).
+ Fuel type - type of fuel burned. List all fuels if more than one type of fuel is burned.
+ % Sulfur – If known, the maximum sulfur content of the fuel burned.
+ Date of manufacture - date when the equipment was manufactured.
+ Date of installation - date when the equipment was installed.
+ Stack # - the number (or other identifying label) of the stack which vents the emission unit.
+ 
+ In general, list emission units separately. Do not combine units in one entry. One boiler may have different rated capacities for different fuels and each fuel may be listed separately in the table. 
+ 
+INSTRUCTIONS for SECTION B2: PORTABLE & STATIONARY INTERNAL COMBUSTION ENGINES
+ 
+ Emissions Unit Table: - Fill out the table for any stationary or portable internal combustion engines (generators, fire pumps, diesel drives, etc), not including insignificant activities. Engines which power the movement of mobile equipment (e.g. backhoes, loaders, trucks, forklifts, graders, etc.) should not be included. See Appendix B of Chapter 115 for a list of insignificant activities. Attach additional tables as necessary.
+ 
+ List:
+ Emission Unit ID - designation to identify emission unit. You may use in-house identification labels. Do not repeat emission unit IDs.
+ Maximum design heat input capacity - maximum design capacity in MMBtu/hr.
+ Maximum output capacity – maximum power output of the engine, not the generator, in either kilowatts (kW) or horsepower (Hp). Include units in table.
+ Maximum firing rate – Gallons per hour (gal/hr), standard cubic feet per hour (scf/hr), etc. Include units in table.
+ Fuel type - type of fuel burned. 
+ % Sulfur – If known, the maximum sulfur content of the fuel burned.
+ Date of manufacture - date when the equipment was manufactured.
+ Date of installation - date when the equipment was installed.
+ Portable or Stationary –Whether the engine is Nonroad or Stationary. To be considered Nonroad, the engine must either be self-propelled, e.g., run tracked equipment or portable, e.g., not attached or clamped via cable, chain, turnbuckle, bolt, or other means, except electrical connections, to any anchor, slab, or structure, including bedrock
+ 
+ In general, list emission units separately. Do not combine units in one entry.
+ 
+ Demand Response: - Indicate whether your facility participates in a Demand Response Program in which any engine may be operated for more than 15 hours per calendar year. List any units affected. A Demand Response Program is any agreement where the facility voluntarily agrees to temporarily reduce their electricity use (from the grid) in response to power grid needs, changes in price of electricity, or incentive payments. 
+ 
+ Control Equipment for Fuel Burning Equipment: Fill out the table for any fuel burning equipment which has add-on pollution control equipment. 
+ 
+ List:
+ Emission Unit – Identifier used in Table B1 or B2. 
+ Type of Control – Baghouse, cyclone, multiclone, electrostatic precipitator, etc.
+ Pollutant Controlled – What pollutant(s) is (are) controlled by the control equipment (PM, SO2, NOx, etc.)
+ Control Efficiency – What percentage of the pollutant is controlled by the device. The control efficiency is most frequently documented in information from the control device manufacturer.
+ 
+ Monitors for Fuel Burning Equipment: Fill out the table for any fuel burning equipment which has emission monitors. 
+ 
+ List:
+ Emission Unit - Identifier used in Table B1 or B2.
+ Type of Monitor – Continuous Emissions Monitor (CEM), Continuous Opacity Monitor (COM), parameter monitor, etc.
+ Data Measured – The information being collected by the monitor. (NOx emissions, opacity, temperature, O2 concentration, etc.)
+ 
+ 
+ 
+INSTRUCTIONS for SECTION C: INCINERATORS
+ 
+ Incinerator Table: 
+ 
+ List:
+ Incinerator type - describe the type of incinerator (i.e. veterinary, medical waste, municipal solid waste, sewage sludge, etc.).
+ Waste type - the type of waste burned in unit. Identify any specific chemicals/materials and generic description such as pathological, infectious, municipal solid waste, sewage sludge, etc. List waste type category according to the definition in Maine Air Regulations Chapter 100 (i.e. Type I, Type II, Type III, etc.).
+ Make – list the manufacturer of the incinerator (Shenandoah, Crawford, etc.).
+ Model – list the model number of the incinerator.
+ Date of Manufacture - date when the incinerator was manufactured. Include month and year, if known.
+ Date of Installation - date when the incinerator was installed. Include month and year, if known.
+ Number of Chambers - the number of chambers in the unit.
+ Max. Initial Charge - the maximum weight of the waste charged per load, in pounds. 
+ Max. Design Combustion Rate - the rate at which the unit combusts waste as specified by the manufacturer in pounds per hour.
+ Heat Recovery - indicate if the incinerator is equipped with a heat recovery unit of any type, internal or external.
+ Retention Time of Exhaust Gases - provide the retention time of the exhaust gases as specified by the manufacturer.
+ Automatic Feeder - indicate if the unit has an automatic or manual feed system.
+ Temperature Range - the temperature operating range for the primary and secondary chambers in SYMBOL 176 \f "Symbol"F.
+ Auxiliary Burners, Primary and Secondary - for any auxiliary burners in the primary or secondary (afterburner) chamber, provide the maximum rating of each burner in MMBtu per hour and the fuel type and maximum sulfur content, if any (natural gas, #2 fuel at 0.35% S, etc.).
+ Annual Waste Combusted - Include annual waste combusted for the preceding year. Indicate the year and the units (ie. tons).
+ Pollution Control Equipment - type of air pollution control equipment, i.e. electrostatic precipitator, baghouse, cyclone, scrubber, afterburner, adsorber, etc.
+ Stack Number - the identifier for the stack which vents the incinerator (e.g. Stack #1).
+ Monitors - list any operational monitors on the unit such as temperature recorder, oxygen monitor, etc.
+ 
+ 
+ 
+INSTRUCTIONS for SECTION D: PROCESS EQUIPMENT
+ 
+ Process Equipment Table: Fill out the table for process equipment, not including insignificant activities (see Appendix B of Chapter 115 for a list of insignificant activities). Attach additional tables as necessary.
+ 
+ List:
+ Emission Unit ID - number to identify the emission unit. You may use in-house identification labels.
+ Type of equipment – saws, kilns, spray booth, finishing line, etc.
+ Maximum raw material process rate - name the raw material and the maximum design rate of processing , ie. 1.2 gallons per hour of coating, 1,000 feet per minute of paper, etc.(include units in table).
+ Maximum finished material process rate - name the finished material and the maximum design rate of processing, ie. 1,000 feet per minute of printed paper, 100 lbs per hour of chemical xyz, etc. (include units in table).
+ Date of Manufacture - date when the equipment was manufactured. Include month and year, if known.
+ Date of Installation - date when the equipment was installed. Include month and year, if known.
+ Stack # - the number of the stack which vents the emission unit. Indicate “fugitive” if there is no stack.
+ Control device - type of air pollution control device, i.e. water sprays, scrubber, multicyclone, etc.
+ 
+ Use sequential numbering, do not repeat emission unit IDs. In general, list emission units
+ separately; do not combine units in one entry.
+
+ Solvent Cleaners Table: Fill in this table for any parts washers or solvent degreasers used at the facility.
+ 
+ List:
+ Emission Unit ID - Number to identify unit.
+ Capacity – The maximum amount of liquid capable of being stored in the unit in gallons.
+ Solvent Used – The specific type of materials used for cleaning (SafetyKleen, kerosene, etc.).
+ Solvent % VOC – The percentage of VOC in the solvent used (from MSDS sheet).
+ 
+ Chemical Usage Table: Fill out this table for the substances used in the process that contribute to air emissions. Attach additional tables as necessary.
+ 
+ List:
+ Process - describe the process in which the chemical is used.
+ Chemical substance used in process - list the chemical used by name (trade name if appropriate).
+ Actual usage - note the current average annual usage in gallons or pounds (include units in table).
+ Hazardous chemical(s) in substance - list any hazardous chemicals present in the chemical compound used in the process (see Appendix B of Chapter 115 of the Department's regulations for a list of Hazardous Air Pollutants).
+ Percentage VOC - percentage of Volatile Organic Compounds (VOC) present in the chemical compound. Specify units: by weight or volume (see Volatile Organic Compound definition in Chapter 100 of the Department's regulations).
+ Percentage of HAP - percentage of any Hazardous Air Pollutants (HAP) present in the chemical compound used in the process. Specify units: by weight or volume.
+ Total VOC Emitted - the total amount of VOC emitted by this chemical based on current average annual usage (lb/year).
+ Total HAP Emitted - the total amount of HAP emitted by this chemical based on current average annual usage (lb/year).
+ 
+ Describe the method of recordkeeping used for HAPs and VOCs. Examples include monthly mass balances from purchase records, monitor data, etc.
+ 
+ Describe methods used to calculated VOC/HAP emitted This could include assuming 100% volatility, test results, control equipment, etc.
+ 
+
+INSTRUCTIONS for SECTION E: STACK DATA
+ 
+ Stack Data Table: Provide information on stacks at the facility associated with emission units described in the application.
+ 
+ List:
+ Stack # - stack identification number or label.
+ Height Above Ground – height of the stack. 
+ Inside Diameter – inside diameter of the stack. 
+ Exit Temperature – temperature of the exhaust as it exits the stack.
+ Exhaust Flow Rate – flow rate of the stack at the point of exhaust, if known. Denote whether the flow rate is under actual or standard conditions.
+ 
+ 
+INSTRUCTIONS for SECTION F: ANNUAL FACILITY FUEL USE
+ 
+ For each fuel used by the facility, provide the average annual amount fired. For oils and coal, provide the sulfur content of the fuel. For biomass fuels, provide the moisture content of the fuel. If a fuel limit is requested to restrict licensed emissions, provide a proposed fuel limit.
+ 
+INSTRUCTIONS for SECTION G: LIQUID ORGANIC MATERIAL STORAGE
+ 
+ Liquid Organic Material Storage Table: Fill in this table for liquid organic material storage tanks. One tank may be listed more than once if various materials with different characteristics are stored.
+ 
+ List:
+ Tank # - number to identify the unit. You may use in-house identification labels.
+ Capacity - the maximum amount of liquid capable of being stored in the tank in gallons.
+ Materials stored - the specific type of organic material being stored, (i.e., alcohol is not a sufficient description - methanol, isopropanol, ethanol, etc. is required). If the material is a combination of organics, identify components as much as possible; for example, fuels can be specified by type and grade.
+ Ried Vapor Pressure (RVP) - for gasoline only, specify the RVP of the material. If more than one, specify each.
+ Annual Throughput - the maximum yearly throughput, in gallons, for the material stored in the tank.
+ Tank Type - identify the type of tank design and type of roof (e.g., fixed, internal floating roof, external floating roof, etc.).
+ Year Installed - number of years the tank has existed.
+ Color - color of the tank and its condition, (i.e. white with light rust).
+ Fully Insulated – Whether or not the tank is fully insulated including the roof.
+ Dimensions - height - the height of the tank in feet.
+ Dimensions - diameter - the diameter of the tank in feet. 
+ Construction Material - construction material of the tank (steel, fiberglass, etc.).
+ Control Device - type of air pollution control device, if any, ie. floating roof, carbon adsorption, thermal oxidizer, etc.
+ 
+ 
+INSTRUCTIONS for SECTION H: MISCELLANEOUS
+ 
+ Describe any other equipment, activities, or other emission sources at the facility that did not fit into any of the above categories. Indicate the pollutant emitted and a description of any air pollution control devices. You may attach additional sheets if necessary.
+ 
+ 
+ 
+INSTRUCTIONS for SECTION I: BPT/BACT AND OTHER ATTACHMENTS
+ 
+ BPT/BACT: Section I describes the requirements for a Best Practical Treatment (BPT) analysis and a Best Available Control Technology (BACT) analysis. If the control equipment, fuel limitations, and process constraints listed in the application are sufficient to describe BPT (or BACT, as appropriate) for the facility, check the first box.
+ 
+ If a more in-depth analysis is required, check the second box and attach a separate BPT or BACT analysis.
+ 
+ Attachments: List any attachments that are included in this submittal. These attachments should be clearly labeled and the label noted on this page for reference.
+ 
+ 
+INSTRUCTIONS for SECTION J: APPLICABLE RULES
+ 
+ Indicate which, if any, state or federal air emission rules may be applicable to the facility by checking the appropriate boxes. For New Source Performance Standards (NSPS) or National Emission Standards for Hazardous Air Pollutants (NESHAP), please list the applicable subpart(s).
+ 
+ 
+INSTRUCTIONS for SECTION K: SIGNATORY REQUIREMENTS
+ 
+ The application must be signed by a designated Responsible Official. At this time, Digital Signatures cannot be accepted.
+ 
+ "Responsible official" means one of the following:
+ 
+ For a corporation: a president, secretary, treasurer, or vice-president of the corporation in charge of a principal business function, or any other person who performs similar policy or decision-making functions for the corporation, or a duly authorized representative of such person if the representative is responsible for the overall operation of one or more manufacturing, production, or operating facilities applying for or subject to a permit and either:
+ 
+ (1) The facilities employ more than 250 persons or have gross annual sales or expenditures exceeding $25 million (in second quarter 1980 dollars); or
+ (2) The delegation of authority to such representatives is approved in advance by the permitting authority;
+ 
+ B. For a partnership or sole proprietorship: a general partner or the proprietor, respectively;
+ 
+ C. For a municipality, State, Federal, or other public agency: Either a principal executive officer or ranking elected official. For the purposes of this part, a principal executive officer of a Federal agency includes the chief executive officer having responsibility for the overall operations of a principal geographic unit of the agency (e.g., a Regional Administrator of EPA).
+ 
+ 
+Additional Questions?
+ 
+ If you have any questions regarding filling out your air emission license application form, please contact a member of the Bureau of Air Quality Licensing Section at (207) 287-7688.
+ 
+ Additional forms and guidance can be found online at:
+ 
+ http://www.maine.gov/dep/air/licensing/index.htm

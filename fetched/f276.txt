@@ -1,0 +1,193 @@
+Title V Permitting Program 
+IBM WebSphere Portal 
+An official State of Ohio site. 
+Here’s how you know 
+Official websites use Ohio.gov
+An Ohio.gov website belongs to an official government organization in the State of Ohio.
+Secure .gov websites use HTTPS
+A lock or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Trusted applications are secured by OHID
+When you log in with OHID, your privacy, data, and personal information are protected by federal and state digital security standards.
+Close 
+learn-more 
+Skip to Navigation
+Skip to Main Content
+Ohio Department 
+Menu 
+Home 
+Stay Compliant 
+Get Involved 
+Monitor Pollution 
+Get Funding 
+Find Regulations 
+Divisions & Offices 
+Help Center 
+About Us 
+Search 
+top-help 
+odx-helplink-label 
+top-search 
+odx-searchbox-label 
+Type in your search keywords and hit enter to submit or escape to close 
+top-search 
+top-close 
+Title V Permitting Program
+{}
+Web Content Viewer 
+Actions 
+Ohio EPA 
+Divisions & Offices 
+Air Pollution Control 
+Permitting Resources 
+Welcome
+Announcements
+Contacts
+About DAPC
+Programs
+Asbestos Abatement & Demolition
+Guides & Manuals
+E-Check
+Open Burning
+Permitting Resources
+Reports & Data
+Regulations
+State Emergency Response Commission
+State Implementation Plans
+Educational and How-to Resources
+Long Text Translations
+Ads
+Videos
+Title V Permitting Program
+October 09, 2021 
+| 
+Agency 
+Title V of the federal Clean Air Act reauthorization (1990) requires each state to develop a permit-to-operate system and emission fee program for major sources of air pollution. Major sources must certify compliance with the terms of their permits annually.
+The Title V permit for major sources is enforceable by Ohio EPA and U.S. EPA.
+What is a major air pollution source?
+Under Title V, major sources are those with a potential to emit (PDF) :
+100 tons per year or more of any one regulated pollutant [particulate matter less than 10 microns in diameter (PM10); nitrogen oxides (NOx); sulfur dioxide (SO2); carbon monoxide (CO); volatile organic compounds (VOCs); and lead (Pb)]
+10 tons per year or more of any one hazardous air pollutant (HAP)
+25 tons per year or more of any two or more HAPs — U.S. EPA currently lists 188 HAPs in Section 112 of the 1990 Clean Air Act
+What are the monitoring, reporting, compliance, and certification requirements?
+A Title V permit includes emission limits and standards, as well as monitoring, record keeping, reporting, and testing requirements. Records of required monitoring must be maintained for five years. All Title V permit holders must certify annually whether they have complied with the terms of their Title V permit.
+Title V facility responsible officials must submit quarterly and semi-annual deviations of all applicable requirements, unless otherwise required by regulation or law.
+What are the fees?
+The fee for the reporting year 2025 is $65.38/ton in addition to the $5,000 base fee.
+Fees are assessed on the actual amount of emissions of particulate matter (PM), sulfur dioxide, nitrogen oxides, organic compounds, and lead. Fees are calculated based on a base fee of $25/ton in 1989 dollars. This fee is subject to annual increases as measured against the 1989 Consumer Price Index.
+Emissions Fee Reporting
+Title V Fee Report Submission 
+Engineering Guide 71 (PDF) on emissions reporting requirements for the fee emission report Ohio Administrative Code (OAC) Chapter 3745-78) for small (<1.0 TPY) and "de minimis" emission units
+The emissions fee rules are contained in OAC chapter 3745-78 and Division 3745.11 of the Ohio Revised Code. Learn more about Title V fees on the U.S. EPA website .
+By April 15 each year, the facility must submit a fee emission report through Air Services . The report must contain the facility's actual emissions of each regulated pollutant for the previous calendar year.
+I'm a small business — is help available?
+Ohio EPA offers technical assistance, an ombudsman to represent business concerns, and a clearinghouse of information regarding compliance methods and technologies. For more information, please call 614-387-2234 or email Bradley.Hauser@epa.ohio.gov .
+How do I apply?
+Title V and Synthetic Minor Title V facilities must use the eBusiness Center's Air Services . Permit renewals must be filed between six and 18 months prior to expiration of the current permit. For details about information used when reviewing Title V renewal applications visit the Resource Hub .
+Guidance
+Maximum Achievable Control Technology (MACT) Standards 
+Guidance on the Major Source Determination for Certain Hazardous Air Pollutants — clarifies how to apply the major source threshold for HAPs that are listed as compounds, salts and esters, and/or as "plurals"
+Exemption of Certain Area Sources (PDF) 
+Properly Characterize Insignificant Activities (PDF) 
+R&D Facility Applicability (PDF) Under Title V permitting notification (Feb. 16, 1996)
+Ohio EPA Engineering Guides 
+Title V Permit Rules 
+Title V Permit General Terms and Conditions and Log of Prior Changes (PDF) 
+Guidance for Incorporating Facility Changes into a Title V Permit (PDF) (March 9, 2005)
+Decision Tree "A" (PDF) for Incorporating Facility Changes into a Title V Permit
+Decision Tree "B" (PDF) for Incorporating Facility Changes into a Title V Permit
+Decision Tree "C" (PDF) for Incorporating Facility Changes into a Title V Permit
+Guidance on the Criteria for Granting One-Year Extensions under the Utility MATS Rule (PDF) 
+Guidance Concerning Title V and Greenhouse Gasses (GHGs) - Engineering Guide #85 (PDF) 
+Memo from U.S. EPA (PDF) regarding extension of deadline for two-year transition facilities, as specified in Engineering Guide #61 (Sept. 5, 1996) (PDF) 
+Letter from Bob Hodanbosi, Chief, Ohio EPA Division of Air Pollution Control, to Cheryl Newton, Acting Director, U.S. EPA Region V Air and Radiation Branch, regarding Inclusion of Clean Air Act Section 112(r) Requirements in Title V Permits (PDF) (April 28, 2003)
+Reporting
+Annual Compliance Certification
+Note: Air Services is the required mechanism for submitting the certifications to Ohio EPA.
+U.S. EPA only requires a hard-copy of the Compliance Certification to be sent to U.S. EPA Region V if the submitted Compliance Certification includes confidential or trade secret claimed information. If no confidential or trade secret information is included in the submission, electronic submission via Air Services also meets the federal submission requirement to U.S. EPA pursuant to agreement (PDF) between Ohio EPA and U.S. EPA, Region V. This agreement applies to any outstanding Compliance Certification or revision to a previously submitted Compliance Certification. Please also note that this agreement only covers submission of the Title V Compliance Certification.
+If confidential or trade secret information is included in a submission, a copy of the Title V Compliance Certification still must also be submitted (i.e., post marked by the filing date indicated in your Title V permit) to:
+Administrator of the U.S. EPA c/o Director
+Air and Radiation Division
+U.S. EPA Region 5
+77 W. Jackson Blvd., AE-17J
+Chicago, IL 60604
+Sample cover sheet that can accompany the hard copy you send to U.S. EPA (Word) 
+Sample cover sheet that can accompany the hard copy you send to U.S. EPA (PDF) 
+As an Air Services user, you can either take advantage of the online Air Services form or complete the Microsoft Word version provided below and electronically attach it to the Air Services Compliance Certification submission.
+Note: The responsible official does not need to sign the MS Word version, PINing the submission constitutes their signature/certification). You also have the option to have the RO sign a downloadable attestation document that can be signed, scanned, and uploaded as part of submitting the Compliance Certification via Air Services.
+Please direct any permit-specific questions to your district office or local air agency representative.
+Title V Compliance Certification Form and Instructions (Word) 
+Title V Compliance Certification Form and Instructions (PDF) 
+Title V Compliance Certification Form Example 1 (PDF) 
+Deviation Reporting
+Title V Deviation Reporting Form and Instructions (Word) 
+Title V Deviation Reporting Form and Instructions (PDF) 
+Historical
+Final Approval of Ohio EPA's Title V program — Aug. 15, 1995, Federal Register 
+Title V permits identify all "applicable requirements" that are established through facility compliance with requirements based on the approved Ohio State Implementation Plan 
+Ohio's Title V rules can be found in the Ohio Administrative Code (OAC) 3745-77 
+Original Title V Application Deadlines 
+To phase in the new Title V permitting program, application deadlines were staggered depending on a facility's location. Ohio Administrative Code (OAC) Chapter 3745-77-04 contains the deadlines for each county or ZIP code location. The deadlines were:
+Appendix A (with 90-day extension) - Feb. 27, 1996
+Appendix B - March 28, 1996
+Appendix B (with 90-day extension) - June 26, 1996
+Appendix C - Sept. 30, 1996. This deadline was extended from the original deadline of Sept. 29, 1996
+Facilities that meet the major source threshold after the initial appellation deadline are required to file an initial Title V application within the 12 months after the source becomes subject to the Title V permit program.
+Share this
+odx-more-information 
+Learn more about the Title V Permitting Process 
+Many topics are cross-referenced and searchable via the Resource Hub 
+Questions? 
+Emissions Reports: 
+Email El-Oraby, Safaa 
+Phone 614.644.3571 
+Invoices: 
+Email Lazich, Linda 
+Phone 614.644.3626 
+Expand All Sections 
+Web Content Viewer 
+Actions 
+Get help with permitting and environmental requirements
+Visit the Resource Hub - FAQs, Ask an Expert, and more.
+Go Now 
+Who We Are
+About Ohio EPA
+Divisions & Offices
+Administrative Leadership
+Districts
+What We Do
+Compliance
+Permits, Licenses & Certification
+Maps & Advisories
+Education and How-to
+What's New
+Current Topics
+Proposed Rules Hub
+Events
+News
+Connect With Us
+Media Resources
+Public Records
+Employment
+Contact Information
+Public Notices and Weekly Review
+Ohio Environmental Protection Agency | 50 W. Town St., Suite 700 Columbus, OH 43215 | Call: 614-644-3020 
+Powered by 
+Privacy Notice and Policies
+Checkbook
+Accessibility
+instagram icon 
+x icon 
+youtube icon 
+linkedin icon 
+facebook icon 
+Subscribe to Updates icon 
+top-menu 
+top-close 
+top-help 
+top-search 
+odx-searchbox-label 
+Submit your search 
+Close 
+Complementary Content 
+${title} ${badge}
+${loading}

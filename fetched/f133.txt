@@ -1,0 +1,127 @@
+PERMIT APPLICATION FOR GLYCOL DEHYDRATION UNITS
+NORTH DAKOTA DEPARTMENT OF ENVIRONMENTAL QUALITY
+DIVISION OF AIR QUALITY
+SFN 58923 (9-2021)
+
+NOTE: READ INSTRUCTIONS BEFORE COMPLETING THIS FORM.
+- Must include SFN 8516 or SFN 52858
+
+SECTION A – GENERAL INFORMATION
+Name of Firm or Organization
+
+Facility Name
+
+SECTION B - 40 CFR 63, SUBPART HH APPLICABILITY DETERMINATION
+The facility is a (check one):
+major, or
+area source of hazardous air pollutants (HAP) as defined in §63.761. Attach
+calculations showing expected HAP emissions in accordance with §63.760(a)(1).
+The facility (check all that apply):
+Processes, upgrades or stores hydrocarbon liquids prior to the point of custody transfer.
+Processes, upgrades or stores natural gas prior to the point at which natural gas enters the transmission and
+storage source category or is delivered to a final end user.
+Identify the 40 CFR 63 Subpart HH (MACT HH) affected source:
+Glycol (ethylene, diethylene, or triethylene) dehydration unit & associated equipment (located at a major
+source), or
+Tryiethylene glycol (TEG) dehydration unit (located at an area source)
+The facility is exempt from MACT HH because it:
+Is a qualifying black oil facility, or
+Is a major source facility, prior to the point of custody transfer, with a facility-wide actual annual average
+natural gas throughout less than 18.4 thousand standard cubic meters per day and a facility-wide actual annual
+average hydrocarbon liquid throughput less than 39,700 liters per day.
+The facility is not exempt from MACT HH.
+
+SECTION C – EMISSION UNIT INFORMATION
+Emission Unit
+Description
+
+Emission
+Unit
+Identifier
+
+Emission
+Point
+Number
+
+(EU)
+
+(EP)
+
+Pollutant*
+
+* Includes an estimate of greenhouse gas emissions (CO2e).
+
+Emission
+Rate
+lb/hr
+
+ton/yr
+
+Air Pollution Control Equipment
+
+SFN 58923 (9-2021) Page 2
+
+EU
+
+Complete the following for each glycol and triethylene glycol dehydration unit.
+Water Content
+Glycol
+Design
+Actual
+Gas
+Gas
+(lb/MMSCF)
+Recirc.
+Rate
+Capacity
+Throughput
+Pressure
+Temp
+(MMSCFD) (MMSCFD)
+(psig)
+(°F)
+Wet Gas
+Dry Gas
+(gal/min)
+
+SECTION D – STACK DATA
+Inside Diameter (ft)
+
+Height Above Grade (ft)
+
+Gas Temperature at Exit (°F)
+
+Gas Velocity at Exit (ft/sec)
+
+Are Emission Control Devices in Place? If YES – Complete SFN 8532
+
+Gas Volume (scfm)
+
+Yes
+
+Nearest Residence or Building
+
+Distance (ft)
+
+Direction
+
+Nearest Property Line
+
+Distance (ft)
+
+Direction
+
+SEND COMPLETED APPLICATION AND ALL ATTACHMENTS TO:
+North Dakota Department of Environmental Quality
+Division of Air Quality
+4201 Normandy Street, 2nd Floor
+Bismarck, ND 58503-1324
+(701)328-5188
+
+VOC
+Emissions
+(ton/yr)
+
+No
+
+

@@ -1,0 +1,997 @@
+INSTRUCTIONS FOR PERMIT TO INSTALL (PTI) AND
+PERMIT TO INSTALL/OPERATE (PTIO) APPLICATIONS
+Lazarus Government Center
+50 West Town Street
+P.O. Box 1049
+Columbus, Ohio 43216-1049
+
+1. General Information
+The term "facility" specifically refers to the real estate that
+is the site of the actual, or potential, regulated activity. A
+facility contains one or more related manufacturing
+plants, disposal sites, transfer points, clean-up sites, well
+fields, treatment plants, etc.
+Legal Facility Name: Please state the complete official
+name of the facility. Do not use abbreviations. The legal
+names of organizations, not facilities, are on file at the
+Ohio Secretary of State.
+Alternate Name: Please state an alternate or secondary
+name for the facility, if one is commonly used. This may
+be a “d.b.a.” (doing business as) name to emphasize the
+ownership or location of the facility. The alternate name
+will be used to distinguish this facility from similar facilities
+and help Ohio EPA locate it. This name will be used on
+all correspondence and authorizing actions regarding the
+facility.
+For example, in the case of a dry-cleaning facility, the
+legal name could be “Rondinelli”. But the common name
+would be “Dutchess Dry Cleaners”. Any permits and/or
+correspondence would be issued to either “Dutchess Dry
+Cleaners” or “Rondinelli d.b.a. Dutchess Dry Cleaners”.
+Facility Physical Address: Please state the street address
+of the facility including the city, county or counties, and
+zip code. If the facility does not have a street address,
+please describe the physical location of the facility,
+including the city or township where it is located, as
+precisely as possible. P.O. Boxes are not physical
+addresses and not acceptable.
+Facility ID: Please state the 10-digit ID number that
+applies to the facility. If you do not know the appropriate
+number or the ID number has not yet been assigned,
+please leave blank.
+Facility Description: Please briefly describe the purpose
+of the facility, including primary products and/or services.
+
+(Revised 1/23)
+
+Primary NAICS Code: The North American Industrial
+Classification System (NAICS) Code is a standard
+identifier used to indicate the type of activity conducted at
+a facility. Please state the primary code that is most
+appropriate to the activity being conducted or proposed to
+be conducted at the facility.
+https://www.naics.com/search/
+Standard Industrial Classification (SIC) Code: A system
+for classifying industries by a four-digit. Replaced by the
+six-digit NAICS code,
+https://www.osha.gov/pls/imis/sicsearch.html
+Facility Latitude and Longitude: Please state the longitude
+and latitude of the facility or a point on the facility.
+Core Place ID: The Core Place ID number is assigned by
+Ohio EPA and acts as the unique agency-wide identifier
+for each physical facility or regulated activity. Please state
+the facility's Core Place ID, if it is known. If not known,
+please leave blank.
+SCSC ID: This is a U.S. EPA identifier for facilities
+categorized as "super facilities" and is used for National
+Emission Inventory (NEI) purposes only. If applicable,
+please state the facility's SCSC ID, if it is known. If not
+known, please leave blank.
+Portable: According to OAC rule 3745-31-01, a portable
+source means an air contaminant source that, in the
+Director’s judgment, is specifically designed to be
+transferred to a new site as needs warrant. Please
+indicate whether or not the air contaminant source is
+designed to be moved from one location to another. If so,
+please select the type(s) of portable operation(s) and the
+county in which it will be first located.
+2. Contact Information
+This section identifies the persons responsible for the
+various roles at this facility. Please identify a person for
+each listed role. If a person fills more than one role,
+multiple check boxes may be marked, and the contact
+information entered just once. If you have previously
+completed this table for another application (hard copy or
+online after July 1, 2008) and there have been no changes
+since that time, please check the box at the top of the
+table indicating that no changes are needed.
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 1 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+Billing: Please state the name of the organization or
+individual responsible for general billing activities at the
+facility. All invoices and other financial documents
+associated with the permitting of the facility will be sent to
+this contact.
+Owner: Please state the name of the organization or
+individual that owns the regulated activity at or associated
+with the facility. The owner of a facility is any person or
+organization who completely or partially owns a facility.
+You may enter more than one owner, if appropriate.
+Primary: Please state the name of the individual who
+should be the primary contact for air pollution control
+related activities at the facility. All correspondence and
+authorizing actions regarding the facility will be sent to this
+person.
+
+On-Site: Please state the name of the individual located
+at the facility physical address that will be available for
+contact by Ohio EPA.
+Responsible Official: Please provide the name of the
+individual who meets the requirements for a responsible
+official, as defined in OAC rule 3745-77-01, for a facility
+subject to OAC Chapter 3745-77, OR, the individual who
+meets the signatory requirements, as identified in OAC
+rule 3745-31-04, for a facility not subject to OAC Chapter
+3745-77. For example, in the case of a corporation, the
+official should be at least the level of vice president. In the
+case of a partnership, the official should be a general
+partner. In case of a sole proprietorship, the official should
+be a proprietor. (Refer to above rules for the complete list
+and for requirements for delegating responsibility if you
+are a corporation.)
+
+Operator: Please state the name of the organization or
+individual that is operating or will be operating the facility.
+The operator of a facility is any person or organization
+who is charged with the operation of a facility. You may
+enter more than one operator, if appropriate.
+General Instructions:
+This application form is needed to obtain a permit-to-install (PTI) or a permit-to-install and operate (PTIO) for an air
+contaminant source (emissions unit). A PTI is required for all emissions units installed or modified after January 1, 1974,
+that are subject to Ohio Administrative Code (OAC) Chapter 3745-77. A subsequent Title V operating permit per OAC
+Chapter 3745-77 will be needed for these types of facilities. Title V facilities are not eligible for PTIO. A PTIO is required
+for all emissions units that are not subject to OAC Chapter 3745-77. A PTIO is the only air pollution control permit needed
+for these facilities. Please note that all facilities must submit PTI applications via eBiz.
+Please note that submittal of an incomplete application will result in a delay in processing of the application and/or could
+result in return of the application as incomplete. At a minimum, all bolded items in this application must be completed,
+except when applying for a general permit PTIO (GPTIO). If you are applying for a general permit, follow the specific
+general permit application instructions available separate from this document for each general permit type. General permit
+information and application instructions can be obtained by visiting the Ohio EPA Division of Air Pollution Control’s (DAPC)
+general permit website at https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/general-permitprogram.
+"Air contaminant source" means each separate operation, or activity that results or may result in the emission of (1) an air
+contaminant or precursor of an air contaminant for which a national ambient air quality standard has been adopted under
+the Clean Air Act; (2) an air contaminant for which the source is regulated under the Clean Air Act; or (3) a toxic air
+contaminant as listed in OAC rule 3745-114-01. This definition applies to operations or activities that emit air contaminants
+whether they are regulated new source review (NSR) pollutants or regulated under Ohio law (“regulated NSR pollutant”
+is defined in OAC rule 3745-31-01). An "emissions unit", per OAC rule 3745-31-01, means any part of a stationary source
+that emits or would have the potential to emit any regulated NSR pollutant and includes an electric steam generating unit.
+This term regulated NSR pollutant does not include air contaminant sources that emit a pollutant regulated under State
+law.
+This application should be used for the following reasons:
+
+New installation of an air contaminant source (for which construction has not yet begun)
+
+Initial application for an air contaminant source already installed or under construction
+
+Modification to an existing air contaminant source/facility
+
+Reconstruction of an existing air contaminant source/facility
+
+Renewal of an existing permit-to-operate (PTO) or PTIO
+
+Transition from OAC Chapter 3745-77 (Title V) to OAC Chapter 3745-31 (State PTIO)
+
+(Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 2 of 12
+
+Commented [KL1]: Do we need to cite which part of the
+OAC the text comes from when quoting it like this? Also,
+should this then be in block quotes?
+Commented [HM2R1]: I don't think we need to cite the
+OAC. Block quotes would be fine.
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+Where to Get Help
+There are several options to obtain assistance for either filling out these forms or for general Ohio EPA related matters.
+District Office/Local Air Agency (DO/LAA) - The first of these is to simply contact your DO/LAA to ask questions.
+It is highly recommended that you discuss your plans with the appropriate DO/LAA representative very early in the
+process. They will be glad to help direct you to make sure the permitting proceeds as smoothly as possible.
+Remember that you may have several people to contact within Ohio EPA. For example, if your project involves air
+contaminant sources and wastewater discharges, then you will need to contact the air and wastewater sections in
+the appropriate local office (see the table at the end of these instructions).
+Office of Compliance Assistance and Pollution Prevention (OCAPP) – This non-regulatory office of Ohio EPA
+provides answers and information about environmental regulations, compliance concerns, and pollution prevention.
+Offered services include toll-free hotline, on-site compliance and pollution prevention assessments, assistance with
+permit application forms, quarterly newsletter, and compliance assistance publications. All services are free.
+Contact OCAPP at 1-800-329-7518 or (614) 644-3469. Also see Web site information below.
+Assistance on the Web
+Ohio EPA: https://epa.ohio.gov/home
+Division of Air Pollution Control (DAPC): https://epa.ohio.gov/divisions-and-offices/air-pollution-control
+Contents: DAPC program guidance documents; forms; modeling information, links to regulations (OAC),
+and other information.
+Office of Compliance Assistance and Pollution Prevention (OCAPP):
+https://epa.ohio.gov/divisions-and-offices/environmental-financial-assistance/about-defa/office-ofcompliance-assistance-and-pollution-prevention
+Contents: Compliance publications, guidance documents, pollution prevention studies, information on
+alternative materials and processes and more.
+Code of Federal Regulations (CFR): https://www.ecfr.gov/
+U.S. EPA Factor Information REtrieval (FIRE): https://cfpub.epa.gov/webfire/
+Contents: The Factor Information REtrieval (FIRE) Data System is a database containing EPA's emission
+estimation factors for criteria and hazardous air pollutants in an easy-to-use Windows program. Users can
+browse through records in the database or select specific emission factors by source category, source
+classification code (SCC), pollutant name, CAS number, or control device.
+Consultants - You can also contract with consultants for assistance. These are typically listed in the yellow pages
+under Consultants: Environmental. Ohio EPA cannot recommend any one consultant. It is highly recommended
+that you get references prior to hiring a consultant. Consultants have a wide range of experience and expertise, so
+it is important for you to find out if the consultant you plan to hire will be capable of doing the job you need done
+correctly.
+Section I – General Application Information
+The questions presented in the application are in bold and the question’s specific instructions are given below or next to it.
+1.
+
+Purpose of Application – Transition from OAC Chapter 3745-77 (Title V) to OAC Chapter 3745-31 (PTIO)
+Checking “Yes” indicates that the facility is currently subject to the Title V permitting program but will not be in the
+future and will be transitioning from the Title V permitting program to the PTIO permitting program based on this
+application and issuance of a final PTIO.
+
+2.
+
+Establish PER Due Date
+If a PTIO is issued as a result of this application, an annual Permit Evaluation Report (PER) will be due after the final
+permit is issued for the air contaminant source(s) regulated in the PTIO. Only one PER due date will be established
+for the entire facility. This date may be selected by the applicant only in the first application that results in the issuance
+of a PTIO. The PER will be due on the due date selected and will evaluation the permit requirements for the prior 12
+
+(Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 3 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+calendar months as indicated under the “For Time Period” heading. If the facility is subject to Title V or a PER due
+date was previously established for this facility, the “PER not applicable” box should be selected. An established PER
+due date may be changed by submitting a letter explaining why the change is needed, and the new date desired. The
+letter should be sent to the DO/LAA indicated in the permit.
+3.
+
+Federal Rules Applicability – Please check all of the appropriate boxes
+One box must be selected for each of the federal rules identified in the application. The descriptions for the selections
+are given below:
+• not affected – the given regulation does not apply
+• subject to Subpart – the given regulation does apply. Refer to the regulations referenced in the application,
+which may be found in the Code of Federal Regulations (CFR) Part 40 (Protection of the Environment) and identify
+which specific subpart the air contaminant source(s) are subject to. For example, a miscellaneous metal parts
+coating operation, may be subject to 40 CFR Part 63, Subpart MMMM. In the space provided, simply list “MMMM”.
+• unknown – it is unknown if the given regulation applies. Checking “unknown” is acceptable but does not relieve
+you of the responsibility of complying with any applicable requirements.
+• subject, but exempt – the air contaminant source(s) you are applying for are subject to the regulation but are
+exempted from the emission limitations and/or control requirements specified in the regulation. Explain your
+rationale in the space provided at the end of this question or attach the rationale separately.
+
+4.
+
+Express PTI/PTIO
+Express status provides that:
+Within 60 days of the receipt of a complete request, the director shall notify the applicant whether the air
+contaminant source will be accepted for express permit status. Installation or construction of the air contaminant
+source may commence upon the issuance of the express permit, or after 60 days if the applicant has not been
+notified or the express permit issued at an earlier date. The issuance of an express permit does not relieve the
+applicant from compliance with any applicable air pollution control requirement and is at the discretion of the
+director.
+This status may be of benefit to your facility if you meet all of the requirements listed below.
+In order to be considered for express PTI/PTIO status per OAC rule 3745-31-05, the air contaminant source owner
+or operator must:
+• Submit a complete permit application;
+• Demonstrate compliance with all applicable law;
+• Have “maximum uncontrolled emissions,” as defined in OAC rule 3745-31-01 of less than five tons per pollutant
+per each year for particulate matter, sulfur dioxide, nitrogen oxides, and organic compounds;
+• Not be subject to the U.S. EPA new source performance standards; and
+• Not be subject to the national emission standards for hazardous air pollutants or a U.S. EPA promulgated
+standard for hazardous air pollutants.
+If you are unsure of your eligibility, contact your DO/LAA representative or just check “No.”
+Note: An Express PTI/PTIO is not the same as a Rush PTI/PTIO. Information on how to put your permit on the “rush”
+list is available on the Ohio EPA DAPC website: https://epa.ohio.gov/divisions-and-offices/air-pollutioncontrol/permitting/getting-your-permit-on-the-rush-list.
+
+5. Air Contaminant Sources in this Application
+Emissions Unit ID – This ID would have been created by the DO/LAA when a previous air permit was issued. If
+no previous permits have been issued for this air contaminant source, leave this field blank. If this air contaminant
+source was previously identified in STARShip applications as a “Z” source (e.g. Z001) please indicate that
+identification and a new ID will be assigned when the PTI/PTIO is issued.
+Company Equipment ID – Provide your identification for each air contaminant source for which the application
+is submitted. We want to know what you call the air contaminant source at your facility (examples: spray booth
+#1, widget line #2, welding operation, sand handling system A).
+Equipment Description – Identify the process equipment associated with the air contaminant source (examples:
+(Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 4 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+for a chemical reactor system – 2 weigh tanks, reactor vessel and product drop tank; for roadways and parking
+areas – 2 miles of unpaved roadways and 10,000 square feet of unpaved parking areas).
+6.
+
+Trade Secret Information
+If you indicate “yes” claiming trade secret applicability, attach a separate piece of paper to this form and include the
+following information to justify the claim:
+
+
+Identification of the specific information (item # and description) submitted within this application that is being
+claimed as a trade secret;
+An explanation of why the information specified is indeed a trade secret under Ohio law;
+Confirmation the alleged trade secret is not revealed by inspection or analysis of any marketed product (example:
+"reverse chemistry"); and,
+Identification of security measures that have been adopted to ensure secrecy and that reasonable or enforceable
+agreements or other confidential relationships prohibiting use or disclosure of the secret existed with those to
+whom the secret was revealed (examples: employee secrecy agreements and/or contractor agreements).
+
+
+
+
+
+Finally, if a confidentiality claim is being submitted, two copies of the application must be submitted, one completed
+version with all the information requested and one "non-confidential" version containing all information requested
+except that information upon which a trade secret claim is being made. Note: A “non-confidential” version of this
+application must be submitted in order for this application to be deemed complete.
+7. Permit Application Contact
+The person designated as a contact should be someone knowledgeable about this permit application. This person
+may be a responsible official for the facility or may be a consultant or contractor.
+8. Authorized Signature
+No further instruction needed.
+Section II - Specific Air contaminant source Information
+1. Air Contaminant Source Installation or Modification Schedule
+At least one box must be selected. The descriptions for the selections are given below:
+
+
+
+
+
+
+
+(Revised 1/23)
+
+New installation: Identify the month and year that construction is scheduled to begin or check the box if you plan
+to begin construction as soon as the permit is issued. If construction of the air contaminant source already began
+prior to this application, do not select this box (you will select the next box).
+Initial application for an air contaminant source already installed or under construction: Identify the month
+and year that construction began. If operating, also identify the month and year that operation began.
+Modification to an existing air contaminant source/facility: Identify the number(s) of all previous permit(s) for
+the air contaminant source being modified. Identify the month and year that modification is scheduled to begin or
+check the box if you plan to begin modification as soon as the permit is issued. If modification of the air
+contaminant source already began prior to this application, do not select this box (you will select the next box).
+See OAC rule 3745-31-01 for the complete definition of a “modification”. The following are examples of
+descriptions of modifications:
+o A facility identifies a way to increase the production rate of an air contaminant source with a corresponding
+increase in the allowable emissions.
+o A facility identifies a way to increase process efficiency at an air contaminant source to decrease process
+cycle time by 20%. This will result in the exceedance of existing hourly emission limitation.
+Modification application for an air contaminant source which has been or is currently being modified:
+Identify the number(s) of all previous permit(s) for the air contaminant source being modified. Identify the month
+and year that construction began. If operating, also identify the month and year that operation began.
+Reconstruction of an existing air contaminant source/facility: Reconstruction is a modification of an existing
+air contaminant source as defined in 40 CFR 60.15.
+Renewal of an existing permit-to-operate (PTO) or PTIO: Identify the month and year that operation began
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 5 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+
+
+
+
+after installation of the air contaminant source or after the latest modification (as defined in OAC rule 3745-3101), whichever is later.
+General Permit: If you are requesting a general permit, check this box in addition to another box if appropriate.
+Identify the category and type of general permit you are applying for. Be sure to include the unique general permit
+identification number included in the full title of the type of general permit. Attach the appropriate completed and
+signed Qualifying Criteria Document. Be sure to follow the specific general permit application instructions
+available separate from this document for each general permit type. Further instructions, forms and other
+information are available at https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/generalpermit-program or by contacting your DO/LAA representative.
+Other: If there is a special situation not covered above, check this box and explain.
+
+2. SCC Codes
+Source Classification Codes (SCC) classify the processes performed by an air contaminant source. For example, if
+you have a boiler that burns both coal and natural gas for electric generation, you would list two SCC’s: (1) 1-01-00204 for coal burning and; (2) 1-01-006-02 for natural gas burning. If you are not certain what SCC would best represent
+the operations of this air contaminant source, you can use U.S. EPA’s FIRE database, available from the link in the
+“Where to Get Help” section above.
+3. Emissions Information
+The emissions information requested in this table must be determined before this application can be processed.
+Suggestions for how to estimate emissions may be found in the instructions to the Emissions Activity Category (EAC)
+form required with this application. If you need further assistance, contact your DO/LAA Representative to discuss
+your specific air contaminant source.
+Please show all calculations used in determining the information in this table. Describe how emission rates were
+estimated and what worst case conditions were assumed for potential to emit calculations (see question #8
+instructions for definition). Calculations provide us with a more complete understanding of your air contaminant source
+and also allow us to deal with special situations such as batch processes where emission rates are not uniform, or
+complex air contaminant sources such as production lines containing several emission points.
+For emission rates expressed in units other than those specified, identify units used and be sure to relate those units
+to time and/or production. Examples:
+
+
+
+A mass balance for a batch process determines lbs. emissions/batch. We may need to know batch length, batch
+cycle time, potential number of batches/yr, etc. in order to set short-term and annual emission limits.
+Baghouse outlet loadings are typically expressed in gr/dscf. Flow rate should be used to relate gr/dscf to lb/hr
+and ton/yr.
+
+Pollutant: If you are unable to distinguish PM2.5 and PM10, report it all as PE/PM. If data is available for PE/PM10 or
+PE/PM2.5, please provide that information.
+OC and VOC are defined in OAC rule 3745-21-01. Normally, OC emission rates are needed since the definition of
+VOC exempts certain compounds and only applies to specific types of air contaminant sources.
+"Hazardous air pollutant" (HAP) means any air pollutant listed in or pursuant to section 112(b) of the Clean Air Act.
+The list is available from USEPA at https://www.epa.gov/haps/what-are-hazardous-air-pollutants For Title V
+applicability, we need to know the total of all HAP emissions (Total HAPs) as well as the highest emission rate for
+any individual HAP (Highest single HAP), which should be identified in the table.
+Toxic Air Contaminants are any air pollutant listed in OAC rule 3745-114-01. Emissions of toxic air contaminants are
+evaluated in accordance with ORC 3704.03(F) and the Ohio EPA document entitled “Option A – Review of New
+Sources of Air Toxic Emissions” (issued May 1986). Any allowable emissions that include a toxic air contaminant at
+a rate greater than 1 ton/yr are modeled to determine the potential impact on adjacent property. If more than one toxic
+air contaminant is emitted at a rate greater than 1 ton/yr, only the one with the greatest potential impact is needed,
+i.e. the highest emission rate and lowest TLV combination, and should be identified in the table. Several toxics may
+need to be modeled in order to determine this. Any allowable emissions that include an air toxic at a rate greater than
+1 ton/yr are modeled to determine the potential impact on adjacent property. Modeling may be performed by either
+
+(Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 6 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+you or the DO/LAA, at their discretion.
+Emissions before controls – For the listed pollutant(s), enter the worst-case emissions (usually at maximum
+operation) or potential to emit for this air contaminant source prior to any add-on control equipment.
+Actual emissions – For the listed pollutant(s), enter the actual worst-case emissions or potential to emit for this air
+contaminant source, as determined in the previous column, taking into account any add-on control equipment. If
+emissions control equipment is not present, then “Actual Emission” is equivalent to “Emissions before controls”.
+Requested Allowable – For the listed pollutant(s), enter the allowable emission limit that you are requesting to be
+listed in your permit for this air contaminant source. This could be the same as the actual emissions, as determined
+in the previous column (using the worst-case uncontrolled emission rate and the lowest expected control efficiency)
+or could be determined by your potential to emit (see question #8 instructions for definition). The allowable emission
+rate you request should not be greater than any applicable emission limit from state or federal rules. Remember that
+you must be able to comply with this limit under all production levels and process conditions.
+Please note:
+1. “Actual emissions” and “Requested Allowable” should be based on operating 8,760 hours per year unless the
+facility is requesting federally enforceable operating restrictions to limit emissions and the facility’s potential
+to emit (PTE). If requesting federally enforceable limits, please calculate emissions based on the requested
+and identified operational restriction(s).
+2. “Requested Allowable” (ton(s)/yr is often equivalent to PTE as defined in OAC rule 3745-31-01 and OAC rule
+3745-77-01.
+3. Although not required by EAC form 3103 (Surface Coating Operations), the applicant may want to consider
+including any data sheets, coating product bulletins, coating supplier technical data sheets, MSDS, or other
+coating supplier-based information that was used to provide the basis for the emissions information required
+in section II.3. of the permit application form (i.e., OC, VOC, HAP, and Toxic Air Contaminant emissions).
+Submittal of this additional information may prevent future requests for such items.
+4. Best Available Technology (BAT)
+Best Available Technology is a combination of control techniques designed to reduce emissions. See
+https://epa.ohio.gov/static/Portals/27/regs/3745-31/3745-31-01_Final.pdf for the full definition. BAT must be
+employed if (a) the air contaminant source was installed or modified on or after January 1, 1974, but before August
+3, 2006, and (b) the air contaminant source was installed or modified on or after August 3, 2006, and the potential to
+emit of the air contaminant source is greater than or equal to 10 tons per year per pollutant. This applies to each
+pollutant for which emissions information is required to be entered into the table on the application (see No.3 above
+and additional instructions on the applicable form.) If applicable, identify each subject pollutant and describe the
+strategy for minimizing emissions of that pollutant.
+5. Control Equipment
+For each emissions control device to be used on the air contaminant source, if any, check the appropriate box and
+enter the information requested for that specific type of control device.
+• If multiple pollutants are controlled, specify control efficiencies for each (e.g., OC: 99%, CO: 95%) and the basis
+for each efficiency (e.g., stack test, design, engineering estimate).
+• For Thermal Incinerator/Thermal Oxidizer, Minimum operating temperature ( oF): Some rules specify a location
+where temperature must be determined. If your air contaminant source is subject to one of these rules, then the
+temperature must be determined at the location specified by the rule.
+6.
+
+Process Flow Diagram
+A process flow diagram is needed so that we can understand the air contaminant source’s operation and emissions.
+The diagram should include the following:
+
+
+
+
+
+(Revised 1/23)
+
+The emissions unit ID (if known) and company identification for the air contaminant source, see Section I (e.g.,
+Emissions Unit ID = P004, Company ID = Line #4);
+The entry and exit points of process inputs and outputs;
+Labeling of all materials (product, waste, and airborne pollutants); and
+Labeling of all process equipment, control equipment, and egress points (stack and fugitive).
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 7 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+If there is more than one piece of control equipment (parallel configuration), please show the following:
+
+Flow rate to each (percent or cfm); and
+
+Emissions vented to and controlled by each (percent or mass rate).
+EXAMPLE PROCESS FLOW DIAGRAM:
+
+7. Modeling Information - (see Engineering Guide #69)
+An egress point is a point at which emissions from an air contaminant source are released into the ambient (outside)
+air. There are two main classifications of egress points: stack or fugitive. A stack is any chimney, flue, conduit, or duct
+arranged to conduct emissions to the ambient air. Stack emissions are emissions that are released into the ambient
+air through a stack. Fugitive emissions are emissions that are released into the ambient air by means other than a
+stack. Fugitive emissions include emissions from air contaminant sources like roadways and storage piles (no stack
+involved, emissions are emitted directly into the ambient air) and emissions from air contaminant sources that are
+inside a building and the emissions escape into the ambient air through doors and windows (not a chimney, flue,
+conduit, or duct arranged to conduct emissions to the ambient air) in the building. Many air contaminant sources have
+multiple egress points, and some air contaminant sources have both stack and fugitive egress points.
+Table 7-A: Air quality models incorporate the downwash effect that buildings and structures can have on the
+dispersion of the plume from a Stack Egress Point. Therefore, information on the largest nearby building or
+structure is necessary to fully estimate the ambient impact of emissions from a Stack Egress Point.
+A building or structure may not be a simple cube. For example, a building could be mostly one story but have a
+segment that is five stories. Such a building would be viewed as two buildings. One would be a one-story structure
+that extends over the entire footprint of the building and the second would be a five-story building that only extends
+over that part of the footprint that is five stories. Non-square buildings (e.g., those with “L” or “U” shaped footprints)
+should be given a length and width that would contain the entire footprint. The height of a building with a pitched
+roof should be given a height equal to the height of the midpoint of the pitched roof. If you have a complex building
+shape with varying roof heights and you need assistance, contact your DO/LAA representative.
+A building is “nearby” to a Stack Egress Point if the stack is within five times the Building Height. For example, if
+a Stack Egress Point is 200 feet from a building segment that is 20' high, that building, or structure would not be
+a nearby structure. That building segment is too far away from the Stack Egress Point to cause building
+downwash.
+Table 7-B: There are two types of fugitive releases which can be modeled. Area sources are unenclosed and
+can generally be understood as horizontal and 2-dimensional. Examples are roadways and parking areas,
+landfills, and open crushing and screening operations. Volume sources are often enclosed, 3-dimensional
+sources. Although they may have well-defined points where emissions are released, those egress points are not
+primarily designed to vent emissions and are not powered. Examples are buildings containing sources which emit
+dust inside the building; the dust escapes through doors, windows and/or natural draft roof vents.
+Table 7-C: Enter the latitude and longitude for each egress point previously identified in Tables 7-A and 7-B.
+These would be the location of the particular egress point or the center point for a fugitive source.
+
+(Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 8 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+8. Request for Enforceable Restrictions
+It may be to your advantage to obtain additional restrictions, whether state and federally enforceable or state-only
+enforceable, on your operations in order to avoid the applicability of some rules. For instance, you may want to avoid
+the applicability of Title V permitting or the requirement to obtain a Major New Source Review permit. Please be
+informed that additional operational and/or production restrictions, record keeping, and reporting requirements may
+be included in your permit. If you think this might apply to you, you should discuss this issue with your DO/LAA
+Representative. If you decide to restrict your potential to emit (defined below), attach a separate piece of paper
+providing the following information:
+
+
+
+
+Identification of the proposed operational/production limitation(s) for the air contaminant source(s), (e.g.,
+hours/12-month period, days/year, gallons/12-month period, tons of production/12-month period, etc.);
+Proposed method(s), that will be utilized to demonstrate compliance with the state and/or federally enforceable
+limits, (e.g., reference test methods, record keeping, continuous emissions monitoring (CEM), etc.);
+For avoidance of Title V, MACT, or NSR major source designation, a summary of the total facility potential to emit
+(tons/year) for each pollutant (PE/PM, PE/PM10, PE/PM2.5, NOx, SO2, CO, VOC, Lead, HAPs) before and after
+implementation of the proposed federally enforceable limits (include supporting calculations); and
+
+OAC rule 3745-31-01 states that "Potential to emit" means the maximum capacity of an air contaminant source or
+stationary source to emit an air pollutant under its physical and operational design. Any physical or operational
+limitation on the capacity of the air contaminant source or stationary source to emit an air pollutant, including air
+pollution control equipment and restrictions on hours of operation or on the type or amount of material combusted,
+stored, or processed, shall be treated as part of its design if the limitation or the effect it would have on emissions is
+federally enforceable or legally and practicably enforceable by the state. Secondary emissions do not count in
+determining the potential to emit of a stationary source.
+9. Continuous Emissions Monitoring
+This applies only to those devices that actually measure emissions from a stack. This is defined by U.S. EPA as, "A
+continuous emission monitoring system (CEMS) is the total equipment necessary for the determination of a gas or
+particulate matter concentration or emission rate using pollutant analyzer measurements and a conversion equation,
+graph, or computer program to produce results in units of the applicable emission limitation or standard." Continuous
+parametric monitoring systems (e.g., a temperature monitor) should not be included in this table. Parametric
+monitoring systems are described in Engineering Guide #66 whereas criteria for requiring the use of CEMs are
+described in Engineering Guide #52, available from Ohio EPA at: https://epa.ohio.gov/divisions-and-offices/airpollution-control/guides-and-manuals/engineering-guides-notebook.
+10. EAC Forms
+An Emissions Activity Category (EAC) form is required for each air contaminant source included in this permit
+application. A list of available EAC forms is on the following page. Please choose the EAC form(s) that is (are) most
+applicable to the type(s) of air contaminant sources that are part of this application. If none of the forms are applicable,
+then choose the Process Operation form 3100.
+Form # Emissions Activity Category Form Description
+3100
+Process operations
+3101
+Fuel burning operations
+3102
+Incineration operations (except add-on emissions control devices)
+3103
+Coating operations
+3104
+Storage tanks
+3105
+Gasoline, diesel and/or kerosene dispensing facility
+3107
+Loading rack for liquid materials
+3108
+Printing operations
+3109
+Solvent metal cleaning
+3111
+Roadways and parking areas: fugitive dust emissions
+3112
+Storage piles: fugitive dust emissions
+3113
+Material handling: fugitive dust emissions
+3114
+Earth Moving/Mineral extraction
+3115
+Coke manufacturing
+
+(Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 9 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+3116
+3117
+3118
+3119
+3120
+3121
+3123
+3124
+3126
+3127
+3128
+3129
+3130
+3131
+3132
+3133
+3134
+3135
+3137
+3138
+3140
+3142
+3143
+3144
+3145
+3149
+3846
+3862
+3863
+
+(Revised 1/23)
+
+Iron production
+Steel manufacturing
+Lime Plant: fugitive dust emissions
+Fly/bottom ash disposal: fugitive dust emissions
+Grain terminals and elevators: fugitive dust emissions
+Asphalt Plants
+Gray iron or steel foundries: fugitive dust emissions
+Glass manufacturing processes
+Secondary aluminum processing
+Fertilizer mixing/blending operations
+Cement manufacturing and blending plants
+Ferroalloy production operations
+Metal salvage operations
+Pulp and paper mills
+Woodworking operations
+Aggregate processing plants: fugitive dust emissions
+Coal processing plants
+Brick and related clay product manufacturing
+Concrete batching plants
+Abrasive blasting operations
+Agricultural chemical manufacturing operations: fugitive dust emissions
+Carbon black manufacturing operations
+Municipal incineration operations: fugitive dust emissions
+Salt processing operations
+Galvanizing operations
+Landfill operations
+Dry cleaning facility
+Internal Combustion Engines
+Bakery operations
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 10 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+Ohio EPA District & Local Air Pollution Agencies
+Agency Number
+01
+
+02
+
+03
+
+06
+
+Agency Number
+04
+
+07
+
+08
+
+13
+
+14
+
+15
+
+16
+
+20
+
+(Revised 1/23)
+
+District Office
+Ohio EPA/DAPC
+Central District Office (CDO)
+PO Box 1049
+Columbus, OH 43216-1049
+Ohio EPA/DAPC
+Northeast District Office (NEDO)
+2110 E. Aurora Road
+Twinsburg, OH 44087
+Ohio EPA/DAPC
+Northwest District Office (NWDO)
+347 N. Dunbridge Road
+Bowling Green, OH 43402
+Ohio EPA/DAPC
+Southeast District Office (SEDO)
+2195 Front St.
+Logan, OH 43138
+Local Air Pollution Agencies
+City of Toledo (Toledo)
+Division of Environmental Services
+348 S. Erie St.
+Toledo, OH 43604
+Portsmouth City Health Department (Portsmouth)
+Air Division
+605 Washington St., 3rd Floor
+Portsmouth, OH 45662
+Regional Air Pollution Control Agency (RAPCA)
+Montgomery County Health Dept.
+117 S. Main St.
+Dayton, OH 45422
+Department of Public Health (Cleveland)
+Division of Air Quality
+75 Erieview Plaza, 2nd Floor
+Cleveland, OH 44114
+Southwest Ohio Air Quality Agency
+(Cincinnati/SOAQA)
+Air Quality Programs
+250 William Howard Taft Road
+Cincinnati, OH 45219
+Canton City Public Health (Canton)
+Air Pollution Control Division
+420 Market Ave., North
+Canton, OH 44702-1544
+Akron Regional Air Quality
+Management (Akron)
+1867 W. Market St.
+Akron, OH 44313
+Lake County General Health District
+Air Pollution Control
+5966 Heisley Road
+Mentor, OH 44060-1886
+
+Telephone
+(614) 728-3778
+
+(330) 963-1200
+
+(419) 352-8461
+
+(740) 385-8501
+
+Telephone
+(419) 936-3015
+
+(740) 353-5156
+
+(937) 225-4435
+
+(216) 664-2297
+
+(513) 946-7777
+
+(330) 489-3385
+
+(330) 375-2480
+
+(440) 350-2543
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 11 of 12
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO APPLICATION INSTRUCTIONS
+
+County vs. Agency Table
+County
+Adams (01)
+Allen (02)
+Ashland (03)
+Ashtabula (04)
+Athens (05)
+Auglaize (06)
+Belmont (07)
+Brown (08)
+Butler (09)
+Carroll (10)
+Champaign (11)
+Clark (12)
+Clermont (13)
+Clinton (14)
+Columbiana (15)
+Coshocton (16)
+Crawford (17)
+Cuyahoga (18)
+Darke (19)
+Defiance (20)
+Delaware (21)
+Erie (22)
+Fairfield (23)
+Fayette (24)
+Franklin (25)
+Fulton (26)
+Gallia (27)
+Geauga (28)
+Greene (29)
+Guernsey (30)
+Hamilton (31)
+Hancock (32)
+Hardin (33)
+Harrison (34)
+Henry (35)
+Highland (36)
+Hocking (37)
+Holmes (38)
+Huron (39)
+Jackson (40)
+Jefferson (41)
+Knox (42)
+Lake (43)
+Lawrence (44)
+
+(Revised 1/23)
+
+Agency #
+7
+3
+3
+2
+6
+3
+6
+7
+14
+2
+1
+8
+14
+14
+2
+6
+3
+13
+8
+3
+1
+3
+1
+1
+1
+3
+6
+2
+8
+6
+14
+3
+3
+6
+3
+7
+6
+2
+3
+6
+6
+1
+2
+7
+
+County
+Licking (45)
+Logan (46)
+Lorain (47)
+Lucas (48)
+Madison (49)
+Mahoning (50)
+Marion (51)
+Medina (52)
+Meigs (53)
+Mercer (54)
+Miami (55)
+Monroe (56)
+Montgomery (57)
+Morgan (58)
+Morrow (59)
+Muskingum (60)
+Noble (61)
+Ottawa (62)
+Paulding (63)
+Perry (64)
+Pickaway (65)
+Pike (66)
+Portage (67)
+Preble (68)
+Putnam (69)
+Richland (70)
+Ross (71)
+Sandusky (72)
+Scioto (73)
+Seneca (74)
+Shelby (75)
+Stark (76)
+Summit (77)
+Trumbull (78)
+Tuscarawas (79)
+Union (80)
+Van Wert (81)
+Vinton (82)
+Warren (83)
+Washington (84)
+Wayne (85)
+Williams (86)
+Wood (87)
+Wyandot (88)
+
+Agency #
+1
+1
+2
+4
+1
+2
+3
+16
+6
+3
+8
+6
+8
+6
+1
+6
+6
+3
+3
+6
+1
+6
+16
+8
+3
+3
+6
+3
+7
+3
+3
+15
+16
+2
+6
+1
+3
+6
+14
+6
+2
+3
+3
+3
+
+Ohio EPA, Division of Air Pollution Control – General Cover Sheet Instructions
+
+Page 12 of 12
+
+

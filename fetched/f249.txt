@@ -1,0 +1,1386 @@
+New York State Department of Environmental Conservation
+Air Permit Application
+DEC ID
+
+
+
+
+
+Application ID
+
+
+
+Application Type
+
+/
+Section I - Certification
+
+ State Facility  Title V
+
+Certification
+I certify under penalty of law that this document and all attachments were prepared under my direction or supervision in accordance with a system designed to
+assure that qualified personnel properly gather and evaluate the information submitted. Based on my inquiry of the person or persons directly responsible for
+gathering the information required to complete this application, I believe the information is true, accurate, and complete. I am aware that there are significant
+penalties for submitting false information, including the possibility of fines and imprisonment for knowing violations.
+
+Responsible Official
+
+Title
+
+Signature
+
+Date
+
+Professional Engineer Certification
+I certify under penalty of law that I have personally examined, and am familiar with, the statements and information submitted in this document and all its
+attachments as they pertain to the practice of engineering. I am aware that there are significant penalties for submitting false information, including the possibility
+of fines and imprisonment for knowing violations.
+
+Professional Engineer
+
+NYS License No.
+
+Signature
+
+Date
+
+Section II - Identification Information
+Type of Permit Action Requested
+
+ New  Renewal  Significant Modification  Administrative Amendment  Minor Modification
+ Application for the construction of a new facility
+ Application involves the construction of new emission unit(s)
+
+Facility Information
+Name
+Location Address
+ City /  Town /  Village
+
+Zip
+
+Owner/Firm Information
+
+Business Taxpayer ID
+
+Name
+Street Address
+City
+Owner Classification:  Federal
+
+State/Province
+ State
+
+ Municipal
+
+Country
+
+Zip
+
+ Corporation/Partnership
+
+ Individual
+
+Owner/Firm Contact Information
+Name
+
+Phone
+
+E-mail Address
+
+Fax
+
+Affiliation
+
+Title
+
+Street Address
+City
+
+State/Province
+
+Country
+
+Zip
+
+Facility Contact Information
+Name
+
+Phone
+
+E-mail Address
+
+Fax
+
+Affiliation
+
+Title
+
+Street Address
+City
+Version 4 - 1/11/2021
+
+State/Province
+
+Country
+
+Zip
+1
+
+New York State Department of Environmental Conservation
+Air Permit Application
+
+
+DEC ID
+
+
+
+Project Description
+
+ Continuation Sheet(s)
+
+Section III - Facility Information
+ Hospital
+
+Facility Classification
+
+ Residential
+
+ Educational/Institutional
+
+ Commercial
+
+ Industrial
+
+ Utility
+
+Affected States (Title V Applications Only)
+
+ Vermont  Massachusetts  Rhode Island  Pennsylvania Tribal Land: __________________
+ New Hampshire  Connecticut  New Jersey  Ohio Tribal Land: __________________
+
+SIC Code(s)
+
+NAICS Code(s)
+Facility Description
+
+ Continuation Sheet(s)
+
+Compliance Statements (Title V Applications Only)
+I certify that as of the date of this application the facility is in compliance with all applicable requirements.  Yes  No
+If one or more emission units at the facility are not in compliance with all applicable requirements at the time of signing this
+application (the 'NO' box must be checked), the noncomplying units must be identified in the "Compliance Plan" block on page
+8 of this form along with the compliance plan information required. For all emission units at the facility that are operating in
+compliance with all applicable requirements, complete the following:
+ This facility will continue to be operated and maintained in such a manner as to assure compliance for the duration of the
+permit, except those emission units referenced in the compliance plan portion of this application.
+ For all emission units subject to any applicable requirements that will become effective during the term of the permit, this
+facility will meet such requirements on a timely basis.
+ Compliance certification reports will be submitted at least once per year. Each report will certify compliance status with respect
+to each applicable requirement, and the method used to determine the status.
+
+Facility Applicable Federal Requirements
+Title
+
+Type
+
+Part
+
+Subpart
+
+Title
+
+Type
+
+Part
+
+Subpart
+
+Section
+
+Subdivision
+
+Paragraph
+
+Subparagraph
+
+ Continuation Sheet(s)
+Clause
+Subclause
+
+Subparagraph
+
+ Continuation Sheet(s)
+Clause
+Subclause
+
+Facility State Only Requirements
+
+Version 4 - 1/11/2021
+
+Section
+
+Subdivision
+
+Paragraph
+
+2
+
+New York State Department of Environmental Conservation
+Air Permit Application
+DEC ID
+
+
+
+
+
+Facility Compliance Certification
+Rule Citation
+Title
+
+Type
+
+Part
+
+Subpart
+
+ Applicable Federal Requirement
+ State Only Requirement
+
+Section
+
+Subdivision
+
+Paragraph
+
+CAS Number
+
+ Capping
+
+ Ambient Air Monitoring
+
+Compliance Activity Description
+
+Work Practice
+Type Code
+
+Monitored Parameter
+Description
+
+Code
+
+Upper
+
+Code
+
+Process Material
+Description
+
+Code
+
+Limit
+
+Lower
+
+Code
+
+Averaging Method
+Description
+
+Code
+
+Clause
+
+Subclause
+
+ Record Keeping/Maintenance Procedures
+
+Reference Test Method
+
+Manufacturer's Name/Model Number
+Limit Units
+Description
+Monitoring Frequency
+Description
+
+Facility Emissions Summary
+CAS Number
+
+Contaminant Name
+
+0NY075 - 00 - 5
+
+PM-10
+
+0NY750 - 02 - 5
+
+PM-2.5
+
+007446 - 09 - 5
+
+Sulfur Dioxide
+
+0NY210 - 00 - 0
+
+Oxides of Nitrogen
+
+000630 - 08 - 0
+
+Carbon Monoxide
+
+007439 - 92 - 1
+
+Lead (elemental)
+
+0NY998 - 00 - 0
+
+Total Volatile Organic Compounds
+
+0NY100 - 00 - 0
+
+Total Hazardous Air Pollutants
+
+0NY750 - 00 - 0
+
+Carbon Dioxide Equivalents
+
+Version 4 - 1/11/2021
+
+Subparagraph
+
+Contaminant Name
+
+Monitoring Information
+
+ Work Practice Involving Specific Operations
+
+ Continuation Sheet(s)
+
+Code
+
+Reporting Requirements
+Description
+
+ Continuation Sheet(s)
+Potential to Emit
+Actual Emissions
+(tons/yr)
+(pounds/yr)
+
+3
+
+New York State Department of Environmental Conservation
+Air Permit Application
+
+
+DEC ID
+
+
+
+Emission Unit
+
+Section IV - Emission Unit Information
+ Continuation Sheet(s)
+
+Building Information
+
+ Continuation Sheet(s)
+Width (ft)
+Orientation
+
+
+
+Building ID
+
+Building Name
+
+Emission Unit
+
+
+
+Emission Unit Description
+
+Emission Unit Emissions Summary
+
+CAS Number
+
+ERP (lbs/yr)
+
+Potential to Emit
+(lbs/hr)
+
+Actual Emissions
+(lbs/yr)
+
+Potential to Emit
+
+Version 4 - 1/11/2021
+
+(lbs/yr)
+
+(lbs/hr)
+
+Actual Emissions
+(lbs/yr)
+
+(lbs/hr)
+
+(lbs/yr)
+
+Contaminant Name
+Potential to Emit
+(lbs/hr)
+
+Actual Emissions
+(lbs/yr)
+
+CAS Number
+
+ERP (lbs/yr)
+
+(lbs/hr)
+Contaminant Name
+
+CAS Number
+
+ERP (lbs/yr)
+
+ Continuation Sheet(s)
+
+Contaminant Name
+
+CAS Number
+
+ERP (lbs/yr)
+
+Length (ft)
+
+(lbs/hr)
+
+(lbs/yr)
+
+Contaminant Name
+Potential to Emit
+(lbs/hr)
+
+Actual Emissions
+(lbs/yr)
+
+(lbs/hr)
+
+(lbs/yr)
+
+4
+
+New York State Department of Environmental Conservation
+Air Permit Application
+
+
+DEC ID
+
+
+
+Emission Point Information
+
+ Continuation Sheet(s)
+
+Emission Point
+Ground
+Elevation (ft)
+
+Height (ft)
+
+Height Above
+Structure (ft)
+
+Inside Diameter
+(in)
+
+Exit Temp. (oF)
+
+Exit Velocity
+(FPS)
+
+Exit Flow
+(ACFM)
+
+NYTM (E) (KM)
+
+NYTM (N) (KM)
+
+Building
+
+Ground
+Elevation (ft)
+
+Height (ft)
+
+Height Above
+Structure (ft)
+
+Inside Diameter
+(in)
+
+Exit Temp. (oF)
+
+Exit Velocity
+(FPS)
+
+Exit Flow
+(ACFM)
+
+NYTM (E) (KM)
+
+NYTM (N) (KM)
+
+Building
+
+Ground
+Elevation (ft)
+
+Height (ft)
+
+Height Above
+Structure (ft)
+
+Inside Diameter
+(in)
+
+Exit Temp. (oF)
+
+Exit Velocity
+(FPS)
+
+Exit Flow
+(ACFM)
+
+NYTM (E) (KM)
+
+NYTM (N) (KM)
+
+Building
+
+Cross Section
+Length (in)
+Width (in)
+Distance to Property
+Line (ft)
+
+Date of Removal
+
+Emission Point
+Cross Section
+Length (in)
+Width (in)
+Distance to Property
+Line (ft)
+
+Date of Removal
+
+Emission Point
+
+Emission Source
+ID
+Type
+Design
+Capacity
+
+Code
+
+Emission Source
+ID
+Type
+Design
+Capacity
+
+Code
+
+Emission Source
+ID
+Type
+Design
+Capacity
+
+Code
+
+Version 4 - 1/11/2021
+
+Date of
+Construction
+
+Date of
+Operation
+
+Date of
+Removal
+
+Date of
+Operation
+
+Date of
+Removal
+
+Design Capacity Units
+Description
+Date of
+Construction
+
+Distance to Property
+Line (ft)
+
+Emission Source/Control Information
+
+Design Capacity Units
+Description
+Date of
+Construction
+
+Cross Section
+Length (in)
+Width (in)
+
+Date of
+Operation
+
+Design Capacity Units
+Description
+
+Date of
+Removal
+
+Code
+
+Control Type
+Description
+
+Code
+
+Waste Feed
+Description
+
+Code
+
+Control Type
+Description
+
+Code
+
+Waste Feed
+Description
+
+Code
+
+Control Type
+Description
+
+Code
+
+Waste Feed
+Description
+
+Date of Removal
+
+ Continuation Sheet(s)
+Manufacturer's
+Name/Model Number
+
+Code
+
+Waste Type
+Description
+
+Manufacturer's
+Name/Model Number
+
+Code
+
+Waste Type
+Description
+
+Manufacturer's
+Name/Model Number
+
+Code
+
+Waste Type
+Description
+
+5
+
+New York State Department of Environmental Conservation
+Air Permit Application
+
+
+DEC ID
+
+
+
+Process Information
+Emission Unit
+
+
+
+Source Classification Code (SCC)
+
+ Confidential
+ Operating at Maximum Capacity
+
+ Continuation Sheet(s)
+Process
+
+Process Description
+
+Total Throughput
+Quantity/Hr
+Quantity/Yr
+
+Throughput Quantity Units
+Description
+
+Code
+
+Operating Schedule
+Hours/Day
+Days/Year
+
+Building
+
+Floor/Location
+
+Emission Point Identifier(s)
+Emission Source/Control Identifier(s)
+
+Emission Unit
+
+
+
+Source Classification Code (SCC)
+
+ Confidential
+ Operating at Maximum Capacity
+
+Process
+
+Process Description
+
+Total Throughput
+Quantity/Hr
+Quantity/Yr
+
+Throughput Quantity Units
+Description
+
+Code
+
+Operating Schedule
+Hours/Day
+Days/Year
+
+Building
+
+Floor/Location
+
+Emission Point Identifier(s)
+Emission Source/Control Identifier(s)
+
+Version 4 - 1/11/2021
+
+6
+
+New York State Department of Environmental Conservation
+Air Permit Application
+DEC ID
+
+
+
+
+
+Process Emissions Summary
+
+
+
+Emission Unit
+CAS Number
+
+(lbs/hr)
+
+
+
+CAS Number
+
+(lbs/hr)
+
+Contaminant Name
+
+
+
+CAS Number
+
+% Thruput % Capture % Control
+Standard
+Units
+
+Potential to Emit
+How Determined
+
+ERP (lbs/hr)
+
+ERP How Determined
+
+Actual Emissions
+(lbs/hr)
+(lbs/yr)
+Process
+
+Contaminant Name
+
+Potential to Emit
+(lbs/yr)
+(standard units)
+
+Emission Unit
+
+(lbs/hr)
+
+Process
+
+Potential to Emit
+(lbs/yr)
+(standard units)
+
+Emission Unit
+
+ Continuation Sheet(s)
+
+% Thruput % Capture % Control
+Standard
+Units
+
+Potential to Emit
+How Determined
+
+ERP (lbs/hr)
+
+ERP How Determined
+
+Actual Emissions
+(lbs/hr)
+(lbs/yr)
+Process
+
+Contaminant Name
+
+Potential to Emit
+(lbs/yr)
+(standard units)
+
+% Thruput % Capture % Control
+Standard
+Units
+
+Potential to Emit
+How Determined
+
+ERP (lbs/hr)
+
+ERP How Determined
+
+Actual Emissions
+(lbs/hr)
+(lbs/yr)
+
+Emission Source Emissions Summary
+
+ Continuation Sheet(s)
+
+Emission Source
+
+Process
+
+CAS Number
+
+Contaminant Name
+
+(lbs/hr)
+
+Potential to Emit
+(lbs/yr)
+(standard units)
+
+% Thruput % Capture % Control
+Standard
+Units
+
+Potential to Emit
+How Determined
+
+ERP (lbs/hr)
+
+ERP How Determined
+
+Actual Emissions
+(lbs/hr)
+(lbs/yr)
+
+Emission Source
+
+Process
+
+CAS Number
+
+Contaminant Name
+
+(lbs/hr)
+
+Potential to Emit
+(lbs/yr)
+(standard units)
+
+% Thruput % Capture % Control
+Standard
+Units
+
+Potential to Emit
+How Determined
+
+ERP (lbs/hr)
+
+ERP How Determined
+
+Actual Emissions
+(lbs/hr)
+(lbs/yr)
+
+Emission Source
+
+Process
+
+CAS Number
+
+Contaminant Name
+
+(lbs/hr)
+
+Potential to Emit
+(lbs/yr)
+(standard units)
+
+Version 4 - 1/11/2021
+
+% Thruput % Capture % Control
+Standard
+Units
+
+Potential to Emit
+How Determined
+
+ERP (lbs/hr)
+
+ERP How Determined
+
+Actual Emissions
+(lbs/hr)
+(lbs/yr)
+
+7
+
+New York State Department of Environmental Conservation
+Air Permit Application
+DEC ID
+
+
+
+
+
+Emission Unit
+
+Emission
+Emission
+Process
+Point
+Source
+
+Emission Unit
+
+Emission
+Emission
+Process
+Source
+Point
+
+Title
+
+Type
+
+Part
+
+Subpart
+
+Emission Unit Applicable Federal Requirements
+ Continuation Sheet(s)
+Title Type Part Subpart Section Subdiv. Parag. Subparag. Cl. Subcl.
+
+Emission Unit State Only Requirements
+Title Type Part
+
+Subpart
+
+Section Subdiv. Parag. Subparag.
+
+Emission Unit Compliance Certification
+Rule Citation
+Section
+
+Subdivision
+
+ Continuation Sheet(s)
+
+Paragraph
+
+Cl.
+
+ Continuation Sheet(s)
+Subparagraph
+
+Clause
+
+ Applicable Federal Requirement
+Emission
+Emission Unit
+Process
+Point
+
+ State Only Requirement
+Emission
+CAS Number
+Source
+
+ Continuous Emission Monitoring
+ Intermittent Emission Testing
+ Ambient Air Monitoring
+
+ Monitoring of a Process or Control Device Parameters as a Surrogate
+ Work Practice Involving Specific Operations
+ Record Keeping/Maintenance Procedures
+
+Work Practice
+Type Code
+
+Code
+
+Lower
+
+Averaging Method
+Description
+
+Version 4 - 1/11/2021
+
+Contaminant Name
+
+Limit Units
+Description
+
+Code
+
+Code
+
+Reference Test Method
+
+Manufacturer's Name/Model Number
+
+Limit
+Upper
+
+ Capping
+
+Compliance Activity Description
+
+Monitored Parameter
+Description
+
+Code
+
+Subclause
+
+Monitoring Information
+
+Process Material
+Description
+
+Code
+
+Subcl.
+
+Monitoring Frequency
+Description
+
+Reporting Requirements
+Code
+Description
+8
+
+New York State Department of Environmental Conservation
+Air Permit Application
+Title
+
+DEC ID
+
+
+
+Type
+
+Emission Unit
+
+Part
+
+Determination of Non-Applicability (Title V Applications Only)
+Rule Citation
+Subpart
+
+Emission Point
+
+Process
+
+Section
+
+Subdivision
+
+Emission Source
+
+Paragraph
+
+ Continuation Sheet(s)
+
+Subparagraph
+
+Clause
+
+Subclause
+
+Clause
+
+Subclause
+
+ Applicable Federal Requirement
+ State Only Requirement
+
+Non-Applicability Description
+
+Title
+
+Type
+
+Emission Unit
+
+Part
+
+Subpart
+
+Emission Point
+
+Process
+
+Section
+
+Rule Citation
+Subdivision
+
+Emission Source
+
+Paragraph
+
+Subparagraph
+
+ Applicable Federal Requirement
+ State Only Requirement
+
+Non- Applicability Description
+
+Compliance Plan
+
+ Continuation Sheet(s)
+
+For any emission units which are not in compliance at the time of permit application, the applicant shall complete the following:
+Consent Order
+Emission Unit
+
+Certified progress reports are to be submitted every 6 months beginning
+Process
+
+Emission
+Source
+
+Title Type Part
+
+/
+
+Applicable Federal Requirement
+Subpart
+Section Subdiv. Parag. Subparag. Clause
+
+Remedial Measures and Intermediate Milestones
+
+Version 4 - 1/11/2021
+
+/
+
+R/I
+
+Subcl.
+
+Date Scheduled
+
+9
+
+New York State Department of Environmental Conservation
+Air Permit Application
+
+
+DEC ID
+
+
+
+Request for Emission Reduction Credits
+
+ Continuation Sheet(s)
+
+Emission Source
+
+Emission Reduction Description
+
+Contaminant Emission Reduction Data
+Date
+
+Baseline Period ____ /____ /________ to ____ / ____ / ________
+CAS Number
+
+Reduction
+Method
+ERC (lbs/yr)
+
+Contaminant Name
+
+Netting
+
+Facility to Use Future Reduction
+
+
+
+Name
+
+Offset
+
+Application ID
+
+
+
+/
+
+Location Address
+ City/  Town /  Village
+
+State
+
+Zip
+
+Use of Emission Reduction Credits
+
+ Continuation Sheet(s)
+
+Emission Source
+
+Proposed Project Description
+
+Contaminant Emissions Increase Data
+
+CAS Number
+
+Contaminant Name
+
+Project Emission Potential (lbs/yr)
+
+Statement of Compliance
+
+ All facilities under the ownership of this "owner/firm" are operating in compliance with all applicable requirements and state
+regulations including any compliance certification requirements under Section 114(a)(3) of the Clean Air Act Amendments of 1990,
+or are meeting the schedule of a consent order.
+
+Source of Emission Reduction Credit - Facility
+
+
+
+Name
+
+Permit ID
+
+
+
+/
+
+Location Address
+ City/  Town /  Village
+Emission Source
+
+CAS Number
+
+Version 4 - 1/11/2021
+
+State
+Contaminant Name
+
+Netting
+
+Zip
+ERC (lbs/yr)
+
+Offset
+
+10
+
+New York State Department of Environmental Conservation
+Air Permit Application
+
+
+DEC ID
+
+
+
+Supporting Documentation and Attachments
+Required Supporting Documentation
+
+Date of Document
+
+ List of Exempt Activities (attach form)
+ Plot Plan
+ Process Flow Diagram
+ Methods Used to Determine Compliance (attach form)
+ Emissions Calculations
+Optional Supporting Documentation
+
+Date of Document
+
+ Air Quality Model
+ Confidentiality Justification
+ Ambient Air Quality Monitoring Plan or Reports
+ Stack Test Protocol
+ Stack Test Report
+ Continuous Emissions Monitoring Plan
+ Lowest Achievable Emission Rate (LAER) Demonstration
+ Best Available Control Technology (BACT) Demonstration
+ Reasonably Available Control Technology (RACT) Demonstration
+ Toxic Impact Assessment (TIA)
+ Environmental Rating Demonstration
+ Operational Flexibility Protocol/Description of Alternate Operating Scenarios
+ Title IV Permit Application
+ Emission Reduction Credit (ERC) Quantification (attach form)
+ Baseline Period Demonstration
+ Use of Emission Reduction Credits (attach form)
+ Analysis of Contemporaneous Emissions Increase/Decrease
+Other Supporting Documentation
+
+Version 4 - 1/11/2021
+
+Date of Document
+
+11
+
+

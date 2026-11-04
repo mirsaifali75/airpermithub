@@ -1,0 +1,474 @@
+OFFICE OF ENVIRONMENTAL SERVICES
+
+Statement of Basis
+Minor Source Air General Permit
+Crude Oil and Natural Gas Production
+PROPOSED MODIFICATION
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+
+PERMITTING AUTHORITY
+Louisiana Department of Environmental Quality
+Office of Environmental Services
+P.O. Box 4313
+Baton Rouge, Louisiana 70821-4313
+CONTACT INFORMATION
+Additional information about the master general permit may be obtained from:
+Bryan D. Johnston
+P.O. Box 4313
+Baton Rouge, Louisiana 70821-4313
+Phone: (225) 219-3450
+
+GALVEZ BUILDING  602 N. FIFTH STREET  P.O. BOX 4313  BATON ROUGE, LA 70821-4313  PHONE: (225) 219-3417
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+I.
+
+II.
+
+STATEMENT OF AUTHORITY – LAC 33:III.513.A
+1.
+
+The permitting authority may issue a general permit intended to cover numerous
+similar sources or activities. General permits shall be issued in accordance with
+LAC 33:III.519 and, prior to issuance, shall undergo public notice. Each general
+permit shall incorporate terms and conditions applicable to sources that would
+qualify for the general permit. Any general permit shall identify criteria by which
+sources may qualify for the general permit, and may provide for applications which
+deviate from the requirements of LAC 33:III.517.
+
+2.
+
+The owner or operator of any source that would qualify for the general permit may
+apply for authorization to operate under the general permit. The application must
+include all information necessary to determine qualification for and to assure
+compliance with the general permit.
+
+3.
+
+The permitting authority may approve an owner or operator’s application for
+authorization to operate under the general permit without repeating the public
+participation procedures. Such an approval shall not be a final permit action for
+purposes of judicial review regarding the terms and conditions of the general
+permit.
+
+4.
+
+Any source which is issued the general permit shall, notwithstanding a permit
+shield, be subject to enforcement action for operation without a permit if the source
+is later determined not to qualify for the general permit.
+
+DEFINITIONS
+Selected terms used in the Minor Source Air General Permit for Crude Oil and Natural Gas
+Production are defined below.
+Amine Sweetening Unit—a process device that separates the H2S and CO2 contents from
+the sour natural gas stream.
+Condensate—hydrocarbon liquid separated from natural gas that condenses due to
+changes in the temperature or pressure, or both, and remains liquid at standard conditions.
+Custody Transfer—the transfer of produced petroleum and/or condensate, after
+processing and/or treatment in the producing operations, from storage vessels or
+automatic transfer facilities to pipelines or any other forms of transportation.
+Flare Gas—a combination of fuel gas, used to operate any pilot for a flare, and one or
+more combined waste streams routed to the flare for control by combustion.
+Flash Gas—VOC emissions from depressurization of crude oil or condensate when it is
+transferred from a higher pressure to a lower pressure tank, reservoir, or other container.
+Flash gas may be emitted to the atmosphere from tanks, reservoirs, process vessels,
+1
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+separators, or other process equipment.
+activities are not included.
+
+Emissions from sampling and maintenance
+
+Gas-Condensate-Glycol (GCG) separator—a two- or three-phase separator through
+which the “rich” glycol stream of a glycol dehydration unit is passed to remove entrained
+gas and hydrocarbon liquid. The GCG separator is commonly referred to as a flash
+separator or flash tank.
+Gas-to-Oil Ratio (GOR)—the number of standard cubic meters of gas produced per liter
+of crude oil or other hydrocarbon liquid.
+Gasoline Dispensing Facility (GDF)—any stationary facility which dispenses gasoline
+into the fuel tank of a motor vehicle, motor vehicle engine, nonroad vehicle, or nonroad
+engine, including a nonroad vehicle or nonroad engine used solely for competition.
+These facilities include, but are not limited to, facilities that dispense gasoline into onand off-road, street, or highway motor vehicles, lawn equipment, boats, test engines,
+landscaping equipment, generators, pumps, and other gasoline-fueled engines and
+equipment.
+Glycol Dehydration Unit—a device in which a liquid glycol (including, but not limited to,
+ethylene glycol, diethylene glycol, or triethylene glycol) absorbent directly contacts a
+natural gas stream and absorbs water in a contact tower or absorption column (absorber).
+The glycol contacts and absorbs water vapor and other gas stream constituents from the
+natural gas and becomes “rich” glycol. This glycol is then regenerated in the glycol
+dehydration unit reboiler. The “lean” glycol is then recycled.
+Glycol Dehydration Unit Process Vent—the glycol dehydration unit reboiler vent and the
+vent from the GCG separator (flash tank), if present.
+Glycol Dehydration Unit Reboiler Vent—the vent through which exhaust from the
+reboiler of a glycol dehydration unit passes from the reboiler to the atmosphere or to a
+control device.
+Natural Gas Liquids—the hydrocarbons, such as ethane, propane, butane, and pentane,
+that are extracted from field gas.
+Natural Gas Processing Plant—any processing site engaged in the extraction of natural
+gas liquids from field gas, fractionation of mixed natural gas liquids to natural gas
+products, or both.
+Nonfractionating Plant—any gas plant that does not fractionate mixed natural gas liquids
+into natural gas products.
+
+2
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+Storage Vessel with the Potential for Flash Emissions—any storage vessel that contains a
+hydrocarbon liquid with a stock tank GOR equal to or greater than 0.31 cubic meters per
+liter and an API gravity equal to or greater than 40 degrees and an actual annual average
+hydrocarbon liquid throughput equal to or greater than 79,500 liters [500 barrels] per day.
+III.
+
+POTENTIALLY APPLICABLE REQUIREMENTS
+Potentially applicable regulations, as well as any additional monitoring, recordkeeping,
+and reporting requirements necessary to demonstrate compliance with both the federal
+and state terms and conditions of the general permit, are provided in the “Specific
+Requirements” section of the general permit. Associated with each Specific Requirement
+is a citation of the federal or state regulation upon which the authority to include that
+Specific Requirement is based.
+A.
+
+Federal Regulations
+
+40 CFR 60 – New Source Performance Standards (NSPS)
+Portions of the following subparts are potentially applicable to an eligible facility:
+
+
+Subpart KKK – Standards of Performance for Equipment Leaks of VOC From
+Onshore Natural Gas Processing Plants for Which Construction, Reconstruction, or
+Modification Commenced After January 20, 1984, and on or Before August 23, 2011
+In accordance with 40 CFR 60.633(d), pumps in light liquid service, valves in
+gas/vapor and light liquid service, and pressure relief devices in gas/vapor service
+that are located at a non-fractionating plant that does not have the design capacity to
+process 10 million standard cubic feet per day or more of field gas are exempt from
+the routine monitoring requirements of §60.482–2(a)(1), §60.482–7(a), and
+§60.633(b)(1).
+
+
+
+Subpart LLL – Standards of Performance for Onshore Natural Gas Processing: SO2
+Emissions for Which Construction, Reconstruction, or Modification Commenced
+After January 20, 1984, and on or Before August 23, 2011
+Amine sweetening units eligible to be covered under the general permit must have a
+design capacity less than 2 long tons per day (LT/D) of H2S expressed as sulfur.
+
+
+
+Subpart IIII – Standards of Performance for Stationary Compression Ignition
+Internal Combustion Engines
+
+
+
+Subpart JJJJ – Standards of Performance for Stationary Spark Ignition Internal
+Combustion Engines
+
+3
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+
+
+Subpart OOOO – Standards of Performance for Crude Oil and Natural Gas
+Production, Transmission and Distribution for which Construction, Modification or
+Reconstruction Commenced after August 23, 2011, and on or before September 18,
+2015
+Per 40 CFR 60.5365(b) and (c), centrifugal and reciprocating compressors located
+at a well site, or an adjacent well site and servicing more than one well site, are not
+affected facilities under Subpart OOOO.
+
+
+
+Subpart OOOOa – Standards of Performance for Crude Oil and Natural Gas
+Facilities for which Construction, Modification, or Reconstruction Commenced
+after September 18, 2015
+Per 40 CFR 60.5365a(b) and (c), centrifugal and reciprocating compressors located
+at a well site, or an adjacent well site and servicing more than one well site, are not
+affected facilities under Subpart OOOOa.
+
+Applicability of Subpart KKK to Joule-Thomson (J-T) Equipment
+Use of compressors associated with J-T equipment and intended to aid in the removal of
+condensates from a gas stream or to move the liquids or remaining gas from the process
+may constitute “extraction of natural gas liquids” and subject this portion of the process
+to the requirements of 40 CFR 60 Subpart KKK.1 Such facilities are eligible for coverage
+under the general permit, provided the following conditions are satisfied:
+1.
+
+The operation is a non-fractionating plant that does not have the design capacity to
+process 10 million standard cubic feet per day or more of field gas;
+
+2.
+
+If the facility commenced construction, reconstruction, or modification after January
+20, 1984, and on or before August 23, 2011, the owner or operator complies with all
+applicable requirements of 40 CFR 60 Subpart KKK; and
+
+3.
+
+The owner does not comply by routing emissions to a control device.
+
+Forced extraction processes include Cryogenic-Joule-Thomson, Refrigerated Absorption
+and Cryogenic-Joule-Thomson, Refrigeration and Cryogenic-Joule-Thomson, CryogenicJoule-Thomson and Expander, and similar processes.
+J-T equipment that relies on existing gas pressure and temperature and that does not require
+additional gas compression to remove condensates from the gas stream or to move
+hydrocarbon liquids or remaining gas from the process are also allowed. This process does
+not trigger the leak detection and repair program under 40 CFR 60 Subpart KKK.
+
+1
+
+See applicability determination from Jeff KenKnight of EPA to Randy Poteet of ConocoPhillips dated November
+11, 2004, concerning the Alpine Central Processing Facility.
+
+4
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+40 CFR 61 – National Emission Standards for Hazardous Air Pollutants (NESHAP)
+No NESHAP provisions are potentially applicable to an eligible facility.
+40 CFR 63 – Maximum Achievable Control Technology (MACT)
+Portions of the following subparts are potentially applicable to an eligible facility:
+
+
+Subpart HH – National Emission Standards for Hazardous Air Pollutants From Oil
+and Natural Gas Production Facilities
+Facilities with triethylene glycol (TEG) dehydration units must be exempt from the
+control requirements of Subpart HH in order to be eligible for coverage under the
+general permit.
+According to 40 CFR 63.764(e), the owner or operator is exempt from these
+requirements if:
+(i)
+
+The actual annual average flowrate of natural gas to the glycol dehydration
+unit is less than 85 thousand standard cubic meters per day as determined by
+the procedures specified in §63.772(b)(1); or
+
+(ii)
+
+The actual average emissions of benzene from the glycol dehydration unit
+process vent to the atmosphere are less than 0.90 megagram per year as
+determined by the procedures specified in §63.772(b)(2).
+
+
+
+Subpart ZZZZ – National Emissions Standards for Hazardous Air Pollutants for
+Stationary Reciprocating Internal Combustion Engines
+
+
+
+Subpart CCCCCC – National Emission Standards for Hazardous Air Pollutants for
+Source Category: Gasoline Dispensing Facilities
+
+New Source Review (NSR)
+Because potential facility-wide emissions must be less than the thresholds set forth in
+Section III of the general permit, eligible facilities are not classified as major stationary
+sources under the Prevention of Significant Deterioration (PSD) or Nonattainment New
+Source Review (NNSR) programs.
+
+5
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+B.
+
+State Regulations
+
+All or part of the following sections of LAC 33:III are potentially applicable to an eligible
+facility:
+
+501 – Scope and Applicability
+
+919 – Emissions Inventory
+
+1101 – Control of Air Pollution from Smoke
+
+1105 – Smoke from Flaring Shall Not Exceed 20 Percent Opacity
+
+1107 – Exemptions
+
+1305 – Control of Fugitive Emissions
+
+1311 – Emission Limits
+
+1313 – Emissions from Fuel Burning Equipment
+
+1513 – Recordkeeping and Reporting
+
+2103 – Storage of Volatile Organic Compounds
+
+2104 – Crude Oil and Condensate
+
+2111 – Pumps and Compressors
+
+2115 – Waste Gas Disposal
+
+2116 – Glycol Dehydrators
+
+2201 – Affected Facilities in the Baton Rouge Nonattainment Area and the Region
+of Influence
+LAC 33:III.2115
+LAC 33:III.2115 applies to waste gas streams located at facilities that have the potential
+to emit 25 TPY or more of VOC in the parishes of Ascension, East Baton Rouge,
+Iberville, Livingston, and West Baton Rouge; 50 TPY or more of VOC in the parishes of
+Calcasieu and Pointe Coupee; or 100 TPY or more of VOC in any other parish.
+Based on the maximum facility-wide emissions authorized by the general permit, only
+waste gas streams located at facilities in Calcasieu Parish and Pointe Coupee Parish could
+be subject to the rule.
+Eligible facilities located in these parishes and generating waste gas streams must not be
+subject to the control requirements of this rule. Records demonstrating that the criteria
+are being met for any exemption claimed must be maintained.
+LAC 33:III.Chapter 22
+ICEs subject to LAC 33:III.2201 are eligible for coverage under the permit provided that a
+chemical reagent (e.g., ammonia) is not used for the reduction of NOX and the facility does
+not comply with Chapter 22 by means of a ton per day or pound per hour cap as allowed by
+§2201.D.4 or a facility-wide averaging plan as described in §2201.E.1.
+Diesel-fired ICEs are exempt from the provisions of Chapter 22 per §2201.C.14.
+
+6
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+LAC 33:III.Chapter 51
+Eligible facilities must be minor sources of LAC 33:III.Chapter 51-regulated toxic air
+pollutants (TAP). Facilities which were a major source of TAP as of December 20, 1991,
+but which have subsequently achieved minor source status through reduction of emissions
+and potential to emit, are eligible for coverage under the general permit, but must comply
+with the provisions of LAC 33:III.5105.A.1, 3, and 4, and 5113 as outlined in the Specific
+Requirements. Pursuant to LAC 33:III.905, the owner or operator shall use and diligently
+maintain in proper working order the control equipment installed to reduce the facility’s
+potential to emit below the major source threshold whenever any emissions are being
+made which can be controlled by the facilities, even though the ambient air quality
+standards in affected areas are not exceeded.
+The following sections of LAC 33:III are applicable to all eligible facilities:
+
+1103 – Impairment of Visibility on Public Roads Prohibited
+
+1303 – Provisions Governing Specific Activities
+
+2113 – Housekeeping
+
+5611 – Standby Plans to be Submitted When Requested by the Administrative
+Authority
+The following sections of LAC 33:III are not applicable to all eligible facilities:
+
+
+
+2121 – Fugitive Emission Control
+2122 – Fugitive Emission Control for Ozone Nonattainment Areas and Specified
+Parishes
+
+As discussed above, facilities using J-T equipment as part of a “forced” process may be
+subject to 40 CFR 60 Subpart KKK. However, LAC 33:III.2121 and LAC 33:III.2122 are
+not applicable to facilities eligible for coverage under the permit, as LAC 33:III.2121.D.4.e
+and LAC 33:III.2122.D.4.d specify that monitoring is not required at natural gas processing
+plants with a capacity less than 40 million cubic feet per day that do not fractionate
+natural gas liquids.
+IV.
+
+IMPACTS ON AMBIENT AIR
+Emissions limitations associated with the general permit were reviewed by the
+department to ensure compliance with the National Ambient Air Quality Standards
+(NAAQS) for criteria pollutants and the Louisiana Ambient Air Standards (AAS) for
+toxic air pollutants. Modeling demonstrates that emissions from facilities authorized to
+operate under the general permit will not violate NAAQS and AAS. Therefore, such
+facilities will not cause air quality impacts which could adversely affect human health or the
+environment.
+
+7
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+V.
+
+COASTAL USE PERMITS
+Executive Order No. BJ 2008-7 directs all state agencies to administer their regulatory
+practices, programs, contracts, grants, and all other functions vested in them in a manner
+consistent with Louisiana’s Comprehensive Master Plan for a Sustainable Coast and
+public interest to the maximum extent possible. If a proposed facility is located in the
+Coastal Zone, LDEQ requires the applicant to document whether or not a Coastal Use
+Permit is required, and if so, whether it has been obtained. Coastal Use Permits are
+issued by the Coastal Management Division of the Louisiana Department of Natural
+Resources (LDNR).
+
+VI.
+
+PERMIT HISTORY
+Initial Issuance
+The Minor Source Air General Permit for Crude Oil and Natural Gas Production was first
+issued on August 29, 2010, with an effective date of September 15, 2010.
+Request for public comment on the proposed general permit was published in The
+Advocate, Baton Rouge; The Times-Picayune, New Orleans; The News Star, Monroe; the
+American Press, Lake Charles; The Times, Shreveport; The Advertiser, Lafayette; the
+Alexandria Daily Town Talk, Alexandria; and The Courier, Houma on November 25,
+2009. All comments received were considered prior to a final permit decision.
+First Modification
+The general permit was first modified on May 17, 2011, to incorporate the amendments to
+40 CFR 63 Subpart ZZZZ promulgated on August 20, 2010 (75 FR 51588), and March 9,
+2011 (76 FR 12863); and the revisions to LAC 33:III.Chapter 11 promulgated on April
+20, 2011 (AQ310).
+Request for public comment on the proposed modifications was published in The
+Advocate, Baton Rouge; The Times-Picayune, New Orleans; The News Star, Monroe; the
+American Press, Lake Charles; The Times, Shreveport; The Advertiser, Lafayette; The
+Town Talk, Alexandria; and The Courier, Houma on April 8, 2011. No comments were
+received.
+Second Modification
+The general permit was next modified on November 15, 2012, to incorporate the
+provisions of 40 CFR 60 Subpart OOOO promulgated on August 16, 2012; the
+amendments to 40 CFR 63 Subpart ZZZZ promulgated on March 9, 2011; the
+amendments to 40 CFR 60 Subparts IIII and JJJJ promulgated on June 28, 2011; and the
+amendments to 40 CFR 63 Subpart HH promulgated on August 16, 2012.
+
+8
+
+STATEMENT OF BASIS
+MINOR SOURCE AIR GENERAL PERMIT
+AGENCY INTEREST NO. 158873
+ACTIVITY NO. PER20160001
+CRUDE OIL AND NATURAL GAS PRODUCTION
+Section II was also revised to address federal and state regulations promulgated or modified
+after August 29, 2010, that are applicable to facilities eligible for coverage under the general
+permit; and Subsection VII.C (Special Provisions for Certain Equipment Types) was
+expanded to address additional components.
+Request for public comment on the proposed modifications was published in The
+Advocate, Baton Rouge; The Times-Picayune, New Orleans; The News Star, Monroe; the
+American Press, Lake Charles; The Times, Shreveport; The Advertiser, Lafayette; The
+Town Talk, Alexandria; and The Courier, Houma, on October 10, 2012. No comments
+were received.
+Third Modification
+The general permit was next modified on July 9, 2013, to add 40 CFR 63 Subpart
+CCCCCC (National Emission Standards for Hazardous Air Pollutants for Source Category:
+Gasoline Dispensing Facilities) as a potentially applicable regulation.
+Public notice of this action was not required, as modifications to the general permit made
+solely to reflect new or revised federal and/or state regulations do not require public
+notice.
+
+9
+
+

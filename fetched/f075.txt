@@ -1,0 +1,137 @@
+General Guidance for Air Construction Permits
+
+The Permitting Process
+The regulations governing construction permits, found in 10 CSR 10-6.060 Construction Permits
+Required, are partitioned into sections based on the potential to emit of the existing installation
+and the proposed project and the type of project being evaluated. The Air Pollution Control
+Program issues several types of construction permits: Major, Minor and De Minimis permits,
+portable relocation permits, temporary permits, and permits-by-rule.
+For the most part, determining the need for portable relocation permits, temporary permits, and
+permits-by-rule is based on the type of project the facility is considering. Portable relocation
+permits are issued to portable equipment to allow for the movement and operation of equipment
+previously permitted through the minor and de minimis permitting sections. Temporary permits
+are issued to temporary projects or pilot plants in place of a minor or de minimis permit if the
+installation qualifies for a temporary permit under state regulations. In addition, certain
+installations may qualify for a construction permit by rule as outlined in 10 CSR 10-6.062. These
+types of construction permits are established for qualifying installations through a notification
+requirement and standard review fee.
+Major, Minor and De Minimis permits are typically referred to by the section under which they
+are reviewed. Section (7), (8) and (9) refer to Major permits, Section (6) refers to Minor permits,
+and Section (5) refers to De Minimis permits. Although applicability is clearly defined,
+determining the need for Section (5), (6), and (7), (8) and (9) permits is not as simple. To help
+determine what kind of permit you are required to obtain for your particular project, you may use
+the flowcharts entitled Permit Applicability Determination for Criteria Air Pollutants. The most
+common regulated pollutants and their applicable emission levels referenced in the flowcharts are
+stated in 10 CSR 10-6.020 Definitions and Common Reference Tables (3)(A) Table 1 and detailed
+in Table 1.
+Table 1: Emission levels of Common Air Pollutants
+Pollutant
+(Note 1)
+
+Insignificant
+Levels
+(lbs/hour)
+(Note 2)
+
+Regulatory
+De Minimis Levels/
+Federal
+Significance Levels
+(tons per year)
+
+PM 10
+
+1.0
+
+15
+
+100
+
+250
+
+10
+
+100
+
+250
+
+PM 2.5
+
+Major Source
+Major Source
+Thresholds –
+Thresholds –
+Operating Permits and NSR Non-named sources
+NSR named sources
+(tons per year)
+(tons per year)
+
+SOx
+
+2.75
+
+40
+
+100
+
+250
+
+NOx
+
+2.75
+
+40
+
+100
+
+250
+
+VOC
+
+2.75
+
+40
+
+100
+
+250
+
+CO
+
+6.88
+
+100
+
+100
+
+250
+
+HAPs
+
+0.5 (Note 3)
+
+10/25
+
+10/25
+
+10/25
+
+Note1: PM 10 = particulate matter with diameter less than 10 microns; SOx = Sulfur Oxides; NOx =
+Nitrogen Oxides; VOC = Volatile Organic Compounds; CO= Carbon Monoxide; HAPs=
+Hazardous Air Pollutants.
+Note 2: Insigificance levels are defined in 10 CSR 10-6.061 Construction Permit Exemptions and are only
+applicable to previously permitted facilities.
+
+Page 1 of 2
+
+Date: 5/31/2000, Revision: 0
+
+Note 3: The insignificance level indicated is a general value. This exemption may not apply to a HAP with
+an annual emission rate that exceeds its screening model action level as established in subsection
+(12)(J) of 10 CSR 10-6.060.
+
+Page 2 of 2
+
+Date: 5/31/2000, Revision: 0
+
+

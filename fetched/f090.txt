@@ -1,0 +1,995 @@
+MONTANA AIR QUALITY REGISTRATION FORM FOR OIL AND GAS WELL FACILITIES
+DEQ Air Quality Bureau
+Field Services Section
+P.O. Box 200901
+Helena, MT 59620-0901
+
+Phone: (406) 444-3490 
+Email: DEQAir@mt.gov
+For State of Montana Use Only
+
+Registration Number:
+
+
+AFS Number:
+
+
+
+
+
+
+
+
+
+Submit one (1) signed copy (paper or electronic) to the above address. 
+A Department response will be provided to the facility within 30 days after receipt and review of the complete registration information. 
+Please contact us if you have any questions or need assistance. 
+
+ FORMCHECKBOX Update a Registered Facility? FORMCHECKBOX Deregister a Facility?
+
+COMPANY AND FACILITY NAME AND ADDRESS
+Company Name: 
+
+
+Facility Name:
+
+
+Mailing Address:
+
+
+
+
+
+
+Contact Information
+Owner’s Name:
+
+
+Telephone:
+
+
+
+
+
+
+Email:
+
+
+Contact Person:
+
+
+Telephone:
+
+
+
+
+
+
+Email:
+
+
+PHYSICAL LOCATION AND FACILITY INFORMATION
+QTR./QTR.:
+
+SEC:
+
+TWP:
+
+RNG:
+
+
+
+LAT:
+
+LONG:
+
+County:
+
+
+
+General Nature of Business:
+
+
+Standard Industrial Classification Codes(s):
+
+
+Standard Industrial Classification Description(s):
+
+
+
+Facility/Well Completion Date:
+
+
+
+
+
+
+
+Oil Production (bbl/day):
+
+Gas Production (Mscf/day):
+
+Water Production (bbl/day):
+
+
+ Does site sell gas to a sales pipeline (Y/N): _____ Gas Flared (Mscf/day): _________
+
+List API numbers for well(s) supplying facility: _______________________________________________________
+______________________________________________________________________________________________
+
+ 
+FACILITY PROCESS DESCRIPTION
+(Provide a brief written description of the site and facility. For example: list the primary operating equipment; describe the process flow; list the producing field(s) and formation(s); describe what is done with produced gas; list the pollution control equipment used; indicate if hydrogen sulfide (H2S) gas is present; specify how oil, gas, and water production rates were determined; and indicate what, if any, oil and/or gas analytical data are included.)
+
+Narrative Description of the Site and Facility:
+
+Site Maps: (Provide as an attachment to this form a topographical and facility site map.) 
+
+(Provide a written narrative summarizing purpose of completing this form. For example: indicate a new facility registration; indicate an update to a registered facility and describe the change(s) to the facility; or indicate a request to deregister a facility and include the reason for deregistering.) 
+
+Narrative Project Summary:
+
+
+ 
+EMISSIONS UNIT EQUIPMENT INFORMATION
+Where applicable, provide the following information for each facility emitting unit (including pollution control equipment) such as heater treatment units, dehydrators, tanks, internal combustion engines, wellhead assemblies, and smokeless combustion devices as well as fugitive equipment leaks. For additional emitting units, control equipment, or additional emissions information, provide as a separate attachment, as needed.
+Facility Equipment Emitting Unit(s) Specifications
+Emitting Unit 1:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+
+
+
+
+Date of Manufacture:
+
+
+
+
+
+
+
+
+Date of Installation:
+
+
+
+
+
+
+
+
+Max Rated Design Capacity/Throughput:
+
+
+
+
+
+
+
+Emitting Unit 2:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+
+
+
+
+Date of Manufacture:
+
+
+
+
+
+
+
+
+Date of Installation:
+
+
+
+
+
+
+
+
+Max Rated Design Capacity/Throughput:
+
+
+
+
+
+
+
+
+
+Emitting Unit 3:
+
+
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+
+
+
+
+Date of Manufacture:
+
+
+
+
+
+
+
+
+Date of Installation:
+
+
+
+
+
+
+
+
+Max Rated Design Capacity/Throughput:
+
+
+
+
+
+
+
+Emitting Unit 4:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+
+
+
+
+Date of Manufacture:
+
+
+
+
+
+
+
+
+Date of Installation:
+
+
+
+
+
+
+
+
+Max Rated Design Capacity/Throughput:
+
+
+
+
+
+
+
+Emitting Unit 5:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+
+
+
+
+Date of Manufacture:
+
+
+
+
+
+
+
+
+Date of Installation:
+
+
+
+
+
+
+
+
+Max Rated Design Capacity/Throughput:
+
+
+
+
+
+
+
+Emitting Unit 6:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+
+
+
+
+Date of Manufacture:
+
+
+
+
+
+
+
+
+Date of Installation:
+
+
+
+
+
+
+
+
+Max Rated Design Capacity/Throughput:
+
+
+
+
+
+
+
+Emitting Unit 7:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+
+
+
+
+Date of Manufacture:
+
+
+
+
+
+
+
+
+Date of Installation:
+
+
+
+
+
+
+
+
+Max Rated Design Capacity/Throughput:
+
+
+
+
+
+
+
+Facility Air Pollution Control Unit(s) Identification
+Air Pollution Control Unit 1:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+Date of Manufacture:
+
+
+Estimated Control Efficiency:
+
+
+
+Date of Installation:
+
+
+Emitting Unit Controlled:
+
+
+
+Estimated Cost of Control Equipment:
+
+
+
+
+
+
+
+Air Pollution Control Unit 2:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+Date of Manufacture:
+
+
+Estimated Control Efficiency:
+
+
+
+Date of Installation:
+
+
+Emitting Unit Controlled:
+
+
+
+Estimated Cost of Control Equipment:
+
+
+
+
+
+
+
+Air Pollution Control Unit 3:
+
+
+Model:
+
+
+
+Manufacturer’s Name:
+
+
+Size:
+
+
+
+Unit Type:
+
+
+
+Date of Manufacture:
+
+
+Estimated Control Efficiency:
+
+
+
+Date of Installation:
+
+
+Emitting Unit Controlled:
+
+
+
+Estimated Cost of Control Equipment:
+
+
+
+
+
+
+
+FACILITY EMISSIONS SUMMARY
+ The following tables must be completed for each emission source for total uncontrolled and controlled potential emissions from each source. Calculations must be provided as a separate attachment to this form. Potential emissions are to be calculated based on production at a maximum capacity for 8760 hours per year (hrs/yr). (Note: If the site is on a sales line, estimate produced gas flare emissions during periods of emergency, assume 500 to 2,000 hrs/yr of operation at maximum production capacity. 
+ 
+ 
+Uncontrolled Potential Emissions (Tons Per Year)
+EMISSION SOURCE
+(e.g., crude tanks, water tanks, heater treater, natural gas-fired heater, produced gas flare, flash separator, pneumatic pump, separator gas vent, truck loading, fugitive equipment leaks etc.)
+Uncontrolled Potential Emissions (Tons Per Year)
+
+ VOC
+ HAPs
+ NOx
+ CO
+ SO2
+ PM10
+ H2S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TOTAL
+
+
+
+
+
+
+
+Controlled Potential Emissions (Tons Per Year)
+For controlled potential emission calculations, include controlled emissions from each controlled source and uncontrolled emissions from each source which does not have control.
+
+
+EMISSION SOURCE
+
+
+Controlled Potential Emissions (Tons Per Year)
+
+ VOC
+ HAPs
+ NOx
+ CO
+ SO2
+ PM10
+ H2S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TOTAL
+
+
+
+
+
+
+
+
+Notes: 1.) Calculations for the uncontrolled and controlled potential emissions must be provided as a separate attachment to this form. Please make sure to include all applicable calculations, spreadsheets, emission factors, manufacturers’ data, field gas composition data, E&PTANKS program inputs and outputs, and/or any other appropriate model input and outputs.
+
+2.) For air emissions that are determined to be minimal or negligible, please provide a brief written statement or explanation justifying this designation. 
+ 
+CERTIFICATION OF ACCURACY AND COMPLETENESS
+
+I hereby certify that, to the best of my knowledge, information and belief, formed after reasonable inquiry, the information provided in this facility registration form is true, accurate, and complete.
+
+(Name, title, and signature of company representative)
+
+Name:
+
+
+
+
+
+(Print or Type)
+
+
+
+Title:
+
+Telephone:
+
+
+
+
+
+
+
+
+Signature:
+
+Date:
+
+
+
+(Original Signature Required)
+
+
+
+
+ Oil and Gas Well Facilities 
+Checklist for a Complete Registration
+ 
+
+
+INDUSTRY
+
+
+
+
+
+MDEQ
+
+
+ FORMCHECKBOX 
+Company Name/Contact Information
+ FORMCHECKBOX 
+
+
+
+
+
+
+
+
+
+
+
+ FORMCHECKBOX 
+Well/Facility Name 
+ FORMCHECKBOX 
+
+
+
+
+
+
+
+
+
+
+
+ FORMCHECKBOX 
+Legal Locations/Facility Information
+ FORMCHECKBOX 
+
+
+
+(e.g., Lat., Long., Sec., Twns., and Range)
+
+
+
+ FORMCHECKBOX 
+Current Facility Production Rates
+ FORMCHECKBOX 
+
+
+
+(Oil and gas production rates)
+
+
+
+ FORMCHECKBOX 
+Facility Process Description
+ FORMCHECKBOX 
+
+
+
+
+
+
+
+
+
+
+
+ FORMCHECKBOX 
+Facility Plot Plan/Maps
+ FORMCHECKBOX 
+
+
+
+
+
+
+
+
+
+
+
+ FORMCHECKBOX 
+List of Equipment Onsite 
+ FORMCHECKBOX 
+
+
+
+
+
+
+
+
+
+
+
+ FORMCHECKBOX 
+Facility Equipment Emission Calculations
+ FORMCHECKBOX 
+
+
+(e.g., heater treaters, oil tanks, water tanks, engines, flares, fugitive leaks etc.)
+
+
+ FORMCHECKBOX 
+All Pertinent Dates
+ FORMCHECKBOX 
+
+
+(e.g., well completion and control installation dates etc.)
+
+
+ FORMCHECKBOX 
+Gas Stream Composition Analyses
+ FORMCHECKBOX 
+
+
+(including H2S)
+
+
+ FORMCHECKBOX 
+Crude Oil Composition Analyses
+(if necessary) 
+ FORMCHECKBOX 
+
+
+(Note: sample must be taken from the upstream side of the storage tank)
+
+
+ FORMCHECKBOX 
+Emission Models (Inputs/Outputs)
+ FORMCHECKBOX 
+
+
+
+
+
+
+
+ FORMCHECKBOX 
+Other Calculations
+ FORMCHECKBOX 
+
+
+
+
+
+
+
+ FORMCHECKBOX 
+Signed Facility Registration Form
+ FORMCHECKBOX 
+
+
+
+
+
+
+
+
+
+
+ Note: In order for the Air Quality Oil and Gas Services Section to adequately review the application, make sure to include all applicable calculations, spreadsheets, emission factors, manufacturers’ data, field gas and/or crude oil composition data, raw laboratory data, E & P TANKS simulation program inputs and outputs, and/or any other appropriate model input and outputs. Contact us if you have any questions.

@@ -1,0 +1,861 @@
+Air Quality Bureau P.O. Box 200901 Helena MT 59620-0901 (406) 444-3490
+
+AIR QUALITY PERMIT APPLICATION FOR STATIONARY SOURCES
+Montana Department of Environmental Quality
+Air Quality Bureau
+Permitting Services Section 
+1520 E. Sixth Avenue
+P.O. Box 200901
+Helena, MT 59620-0901
+
+Phone: (406) 444-3490 
+Email: DEQAir@mt.gov 
+
+For State of Montana Use Only
+Permit Application #: FORMTEXT        AFS #: FORMTEXT       
+Application Fee Paid with Application?
+ FORMCHECKBOX Yes FORMCHECKBOX No
+Amount Paid: FORMTEXT        Date Rec’d: FORMTEXT       
+Check # or Transaction ID: ___________________
+
+A complete application, any associated fees, and the affidavit of publication of the required public notice must be electronically submitted via email to the address provided above or mailed to the physical address provided above. 
+
+The application will not be considered complete until the appropriate permit application fee, affidavit of publication, and certification of truth, accuracy, and completeness have been received by DEQ. Any checks, affidavits, and certifications submitted separately from the application should be clearly identified with company name, facility name, and facility ID (if applicable). Fees can be paid online at https://opp.mt.gov/doa/opp/ 
+
+The applicant is encouraged to contact DEQ, as listed above, with any questions related to this application form.
+
+Note: This application form should not be used for portable sources or oil and gas registrations. Permit application forms for portable sources and oil and gas registrations are available on DEQ’s website. Applications for Acid Rain permits must be made on nationally standardized forms available from the U.S. Environmental Protection Agency as well as through DEQ’s application for a Title V Operating Permit.
+
+§1.0 General Facility Information and Site Description
+ §1.1 FACILITY NAME AND ADDRESS (As registered with the Montana Secretary of State)
+
+Company Name FORMTEXT       
+
+Facility Name FORMTEXT       
+
+Mailing Address
+Physical Address (if different from mailing address)
+ FORMTEXT       
+Address
+
+ FORMTEXT        FORMTEXT        FORMTEXT       
+City State Zip
+
+ FORMTEXT       
+Address
+
+ FORMTEXT        FORMTEXT       FORMTEXT       
+City State Zip
+
+
+
+ 
+ §1.2 Contact Information
+ 
+ Name
+ Title
+ Telephone
+ Email
+ Owner
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ Facility Manager
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ Responsible Official
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ Alternate Responsible Official
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ Contact Person
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ Alternate Contact Person
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+[Note: If email address is provided, DEQ will send all permit notices (i.e. Preliminary Determination, Department Decision, and Final Permit) electronically.
+
+§1.3 PERMIT TYPE (Check all that apply)
+ FORMCHECKBOX Montana Air Quality Permit (MAQP) 
+MAQP Permit Action: FORMCHECKBOX New Facility FORMCHECKBOX Modification to Existing Permit # FORMTEXT        - FORMTEXT      
+ FORMCHECKBOX Synthetic Minor (major source using federally enforceable permit conditions to avoid MACT, NSR, or Title V Operating Permit requirements)
+ FORMCHECKBOX New Source Review 
+ FORMCHECKBOX Prevention of Significant Deterioration
+ FORMCHECKBOX Nonattainment Area 
+ FORMCHECKBOX Air Quality Operating Permit (Title V) 
+Title V Permit Action: FORMCHECKBOX Initial Air Quality Operating Permit 
+ FORMCHECKBOX Renewal of Air Quality Operating Permit #OP FORMTEXT        - FORMTEXT       
+ FORMCHECKBOX Modification of Air Quality Operating Permit #OP FORMTEXT        - FORMTEXT      
+ FORMCHECKBOX Minor Modification
+ FORMCHECKBOX Significant Modification 
+Note: The applicant must also send one copy of the Title V Operating Permit application to the EPA at the following address:
+Air and Radiation Division
+Permit and Monitoring Branch
+US EPA Region VIII, 8ARD-PM
+1595 Wynkoop Street
+Denver, CO 80202-1129
+
+A statement certifying that a copy of the Title V Operating Permit application has been mailed to EPA must accompany the Title V Operating Permit application.
+ 
+ 
+ 
+ §1.4 Physical Location and Facility Information
+ Qtr/Qtr Section
+ FORMTEXT       
+ Section
+ FORMTEXT       
+ Township
+ FORMTEXT       
+ Range
+ FORMTEXT       
+ Latitude (in decimal degrees) 
+ FORMTEXT       
+ Longitude (in decimal degrees)
+ FORMTEXT       
+ County
+ FORMTEXT       
+
+Will the facility be operating in (or impacting) a nonattainment area? FORMCHECKBOX Yes FORMCHECKBOX No
+
+(Note: Information on the state’s nonattainment areas can be found by contacting DEQ and at the following links http://deq.mt.gov/Air/airquality/planning/airnonattainmentstatus 
+http://deq.mt.gov/Air/2017Air/Standards/airnonattainment
+
+If yes, which pollutant(s) is the area nonattainment for? 
+ FORMTEXT       
+ 
+ Total Property Area (acres) FORMTEXT        Year Facility Began Operation at Site: FORMTEXT       
+ 
+ General Nature of Business: FORMTEXT       
+ 
+ 
+ North American Industry Classification Codes (NAICS): FORMTEXT       
+ NAICS Description(s): FORMTEXT       
+
+(Note: NAICS Codes can be found at the following website: https://www.naics.com/naics-search-results/
+ 
+ 
+ For MAQP only, a drawing, sketch, or topographic map of appropriate scale must be submitted (maximum scale 1”=500’, measurement to the nearest 20’), showing at least the following:
+ a. The property boundaries on which the source is located;
+ b. The outlines and dimensions of all existing and proposed buildings and stacks;
+c. The locations of existing and proposed emitting units, including lat/long coordinates (in NAD83) and elevation (in feet above mean sea level) for each emitting unit. The emissions units and points should be identified as existing or proposed;
+ d. Any nearby streets, highways, and waterbodies; 
+ e. Any nearby sensitive areas, such as schools, hospitals, parks, residential areas, etc.; 
+ f. A true north arrow; and
+ g. A graphically displayed scale.
+ 
+ 
+ 
+ §1.5 Project Summary (Not Required for Title V Operating Permit applications)
+ 
+ Overview of project, including any new or modified equipment (attach additional information as necessary): 
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT        
+ 
+ 
+ Include a process flow diagram showing material balances.
+ 
+ Construction/Installation Schedule:
+ Expected Construction Start Date: FORMTEXT        Expected Operation Start Date: FORMTEXT       
+ Duration (if a temporary source): FORMTEXT       
+ 
+ Optional Information:
+ Estimate of Capital Expenditure for Proposed Project: $ FORMTEXT       
+ Estimate of Cost of Air Pollution Control Equipment: $ FORMTEXT       
+ 
+ 
+§2.0 Emitting Unit Listing
+
+List all existing and proposed emitting units. 
+
+Each emitting unit must be named according to the naming convention that will be used by the affected entity for the purposes of reporting (e.g., emission inventory) and each emitting unit must be listed separately and distinctly, one emitting unit per line in the table below. Even if the affected facility has multiple identical emitting units, each must be named distinctly and included on a separate line below (e.g., EU1: Engine 1; EU2: Engine 2; EU3 Process Boiler 1; EU4: Process Boiler 2).
+ 
+For Title V Operating Permits only, note all insignificant emission units.
+
+Note: An insignificant emissions unit includes any activity or emissions unit that has the potential to emit less than 5 tons per year of any regulated pollutant, less than 500 pounds per year of lead, less than 500 pounds per year of a hazardous air pollutant, and is not regulated by an applicable requirement, such as a New Source Performance Standard (NSPS) or Maximum Achievable Control Technology (MACT) standard.
+
+EMITTING UNIT
+Pollution Control Device
+New Source
+Existing Source
+Insignificant
+ID
+Name
+
+
+
+Yes
+No
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+
+ FORMTEXT    
+
+ FORMTEXT       
+
+ FORMTEXT       
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ FORMCHECKBOX 
+ 
+
+§3.0 Emissions Inventory
+
+A separate Section 3.0 must be completed for each emitting unit listed in Section 2.0. 
+
+Emitting Unit ID: FORMTEXT        Emitting Unit Name: FORMTEXT       
+
+Attach calculations. 
+The source(s) of all emissions estimates must be indicated (e.g. manufacturer’s data, AP-42, source tests, etc.) 
+
+If possible, calculations should be submitted electronically using an Excel spreadsheet.
+
+Regulated Air Pollutant
+Allowable Emission Rate(s)
+Actual Emission Rate(s) 
+(if applicable)
+
+(Lb/Hour)
+(Tons/Year)
+(Lb/Hour)
+(Tons/Year)
+PM
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+PM10
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+PM2.5
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+SO2
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+NOx
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+CO
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+VOC
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+Pb
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+Other (specify): 
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+Other (specify): 
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+Other (specify): 
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+Other (specify): 
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+Other (specify): 
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+Other (specify): 
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+
+ FORMTEXT       
+ §4.0 Emitting Unit and Control Equipment Information
+A separate Section 4.0 must be completed for each emitting unit listed in Section 2.0. Applications for Title V Operating Permits must address significant emission units individually. Insignificant emission units may be addressed as a group. For information that has been previously submitted, the applicant may instead reference the previously submitted information, including the date the material was submitted and the source (i.e. permit application number, etc.)
+
+Emitting Unit ID: FORMTEXT        Emitting Unit Name: FORMTEXT       
+§4.1 Emitting Unit Overview:
+Narrative Process Equipment/Process Description (attach additional sheets as necessary) FORMTEXT        FORMTEXT       
+ FORMTEXT       
+Proposed Operational Limitations (if any) FORMTEXT        FORMTEXT       
+Source Classification Code (SCC)/ Description: FORMTEXT       
+(Note: SCC Codes can be found at the following website: http://cfpub.epa.gov/oarweb/download/WebFIRESCCs.csv)
+Regulatory Programs: Indicate all air pollution control programs applicable to this emitting unit:
+ FORMCHECKBOX NSPS: 40 CFR 60, Subpart(s): FORMTEXT       
+ FORMCHECKBOX NESHAPS: 40 CFR 61, Subpart(s): FORMTEXT       
+ FORMCHECKBOX MACT: 40 CFR 63, Subpart(s): FORMTEXT       
+ FORMCHECKBOX Title V Operating Permit – Significant Emitting Unit
+ FORMCHECKBOX Acid Rain (Title IV) 
+ FORMCHECKBOX Risk Management Plan 
+ FORMCHECKBOX CAM Plan
+ FORMCHECKBOX Other: FORMTEXT       
+
+§4.2 Process Information (include units):
+Type of Material Processed FORMTEXT       
+Average Process Rate (tons/hr, gal/hr, etc.) FORMTEXT       
+Maximum Rated Design Process Rate (tons/hr, gal/hr, etc.) FORMTEXT       
+
+
+
+§4.3 Process Identification
+Make FORMTEXT        Model FORMTEXT       
+Type FORMTEXT        Size FORMTEXT       
+Year of Manufacture/Reconstruction FORMTEXT        Year of Installation FORMTEXT       
+Power Source FORMTEXT        
+If applicable, provide the following generator information:
+Rated Output of the generator (kW) FORMTEXT        
+Rated Size of Engine powering the generator (hp) FORMTEXT       
+
+§4.4 Fuel/Combustion Information:
+(For variable parameters, indicate the maximum value or a range)
+Fuel Type(s) FORMTEXT       
+Average Fuel Combustion Rate: FORMTEXT       
+Maximum Rated Combustion Rate: FORMTEXT       
+Heat Content (Btu rating) FORMTEXT        Sulfur Content (%) FORMTEXT        Ash Content (%) FORMTEXT       
+
+§4.5 Emitting Unit Location 
+Latitude (in decimal degrees): FORMTEXT        Longitude (in decimal degrees): FORMTEXT       
+Datum (NAD27, NAD83, etc.): FORMTEXT       
+
+§4.6 Stack Information (if applicable):
+Height (feet) FORMTEXT        Inside Diameter (feet) FORMTEXT       
+Exit Gas Temperature (˚F) FORMTEXT        Exit Gas Flow Rate (ACFM) FORMTEXT        
+Exit Gas Velocity (ft/sec) FORMTEXT        Exit Gas Moisture Content (%) FORMTEXT       
+Stack Type (check one): FORMCHECKBOX Downward Exit FORMCHECKBOX Multiple Actual Stacks FORMCHECKBOX Fugitive Source
+ FORMCHECKBOX Horizontal Exit FORMCHECKBOX Building Roof Vent FORMCHECKBOX Process Vent
+ FORMCHECKBOX Vertical Exit FORMCHECKBOX Vertical Exit with Cap
+
+
+
+§4.7 Approximate Operating Schedule:
+Hours/Day FORMTEXT        Days/Week FORMTEXT       
+Hours/Year FORMTEXT        Weeks/Year FORMTEXT       
+
+§4.8 Air Pollution Control Equipment and Practices
+ Primary and Secondary Air Pollution Control Equipment and/or Procedure Description: 
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT        
+Primary Air Pollution Control Equipment Description:
+Make FORMTEXT        Model FORMTEXT       
+Type FORMTEXT        Size FORMTEXT       
+Year of Manufacture FORMTEXT        Year of Installation FORMTEXT       
+Fuel Type(s) FORMTEXT        Estimated Control Efficiency FORMTEXT        
+Estimated Capital Equipment Cost (not required for Title V Operating Permit applications) FORMTEXT       
+Secondary Air Pollution Control Equipment Description:
+Make FORMTEXT        Model FORMTEXT       
+Type FORMTEXT        Size FORMTEXT       
+Year of Manufacture FORMTEXT        Year of Installation FORMTEXT       
+Fuel Type(s) FORMTEXT        Estimated Control Efficiency FORMTEXT        
+Estimated Capital Equipment Cost (not required for Title V Operating Permit applications) FORMTEXT       
+
+§4.9 Shakedown Procedures (not required for Title V Operating Permit applications)
+Describe any shakedown procedures that are expected to affect emissions, including the duration of the shakedown period: 
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+§4.10 Continuous Emission Monitoring System (CEMS) – check all that apply:
+ FORMCHECKBOX Opacity – Make FORMTEXT        Model FORMTEXT        Year FORMTEXT        
+ Automatic Calibration Valve: Zero FORMTEXT        Span FORMTEXT       
+ FORMCHECKBOX TRS – Make FORMTEXT        Model FORMTEXT        Year FORMTEXT        
+ Automatic Calibration Valve: Zero FORMTEXT        Span FORMTEXT       
+ FORMCHECKBOX NOx - Make FORMTEXT        Model FORMTEXT        Year FORMTEXT        
+ Automatic Calibration Valve: Zero FORMTEXT        Span FORMTEXT       
+ FORMCHECKBOX CO – Make FORMTEXT        Model FORMTEXT        Year FORMTEXT        
+ Automatic Calibration Valve: Zero FORMTEXT        Span FORMTEXT       
+ FORMCHECKBOX O2 – Make FORMTEXT        Model FORMTEXT        Year FORMTEXT        
+ Automatic Calibration Valve: Zero FORMTEXT        Span FORMTEXT       
+ FORMCHECKBOX CO2 – Make FORMTEXT        Model FORMTEXT        Year FORMTEXT        
+ Automatic Calibration Valve: Zero FORMTEXT        Span FORMTEXT       
+ FORMCHECKBOX Other (specify): FORMTEXT       
+ Make FORMTEXT        Model FORMTEXT        Year FORMTEXT        
+ Automatic Calibration Valve: Zero FORMTEXT        Span FORMTEXT       
+
+§4.11 Emissions Control Analysis (not required for Title V Operating permit applications)
+Best Available Control Technology (BACT) is required for all sources obtaining a MAQP. The BACT analysis and determination process should be conducted separately for each pollutant emitted from each affected new or modified emitting unit. The control option that is selected should have controls or control costs like other recently permitted similar sources and should be capable of achieving appropriate emission standards. If necessary, separate pollutant-specific start-up/shut-down/malfunction (SSM) BACT analyses should be conducted. 
+The BACT analyses should use the following process, which is informed by, but not necessarily the same as, the BACT process outlined in EPA’s New Source Review Workshop Manual (Draft, 10/1990):
+
+STEP 1: IDENTIFY ALL CONTROL TECHNOLOGIES 
+List of available controls is comprehensive and presented top-down (most efficient to least efficient). 
+STEP 2: ELIMINATE TECHNICALLY INFEASIBLE OPTIONS
+A demonstration of technical infeasibility should be clearly documented and should show, based on physical, chemical, and engineering principles, that technical difficulties would preclude the successful use of the control option on the emissions unit under review. 
+STEP 3: RANK REMAINING CONTROL TECHNOLOGIES BY CONTROL EFFECTIVENESS
+Should include: 
+control effectiveness (percent pollutant removed); 
+expected emission rate (tons per year); 
+expected emission reduction (tons per year); 
+energy impacts (BTU, kWh); 
+environmental impacts (other media and the emissions of toxic and hazardous air emissions); and 
+economic impacts (total cost effectiveness, incremental cost effectiveness).
+
+
+STEP 4: EVALUATE MOST EFFECTIVE CONTROLS AND DOCUMENT RESULTS
+Case-by-case consideration of energy, environmental, and economic impacts.
+If top remaining option is not selected as BACT, evaluate next most effective control option.
+
+STEP 5: SELECT BACT 
+Most effective option not rejected is BACT.
+
+Lowest Achievable Emission Rate (LAER) 
+LAER is required for major stationary sources and major modifications located in an area designated nonattainment for one or more pollutants with an established National Ambient Air Quality Standard (NAAQS). LAER is also required for major stationary sources or major modifications located in an area designated as attainment or unclassified under 40 CFR 81.327 but would cause or contribute to a violation of the NAAQS in a nearby nonattainment area. The LAER analysis and determination shall demonstrate that the emission rate proposed is equivalent to the most stringent emission rate achievable or contained in any state implementation plan for a similar source.
+Attach BACT/LAER Analyses and Determination, as applicable. 
+Applicable Requirement (check all that apply): FORMCHECKBOX BACT FORMCHECKBOX LAER
+
+§4.12 Stack Height and Dispersion Technique Analysis (not required for Title V Operating Permit applications)
+If applicable, supply a stack height and dispersion technique analysis demonstrating compliance with the requirements of the Stack Heights and Dispersion Technique Rule (ARM 17.8, Subchapter 4)
+§ 5.0 Project and Site Information
+
+Note: This section is not required to be completed for Title V Operating Permit applications.
+
+Identify the landowner of the proposed project site and the current land use (industrial, agricultural, residential, etc.): 
+ FORMTEXT       
+
+Indicate the approximate distance to the nearest home and/or structure not associated with the proposed project site: 
+ FORMTEXT       
+
+Summarize the aesthetic character of the proposed project site and the surrounding community or neighborhood. Include a description of recreational opportunities and any unique cultures in the area that may be affected by the proposed project: 
+ FORMTEXT       
+ FORMTEXT       
+
+Describe the noise levels created by the proposed project: 
+ FORMTEXT       
+ FORMTEXT       
+
+Summarize other industrial activities at or near the site: 
+ FORMTEXT       
+ FORMTEXT       
+
+List other permits and/or approvals which have been obtained or will be obtained for this project (including MPDES permits, open cut permit, hazardous waste permit, etc.): 
+ FORMTEXT       
+ FORMTEXT       
+
+Indicate the number of employees currently employed and the increase or decrease in the number of people employed at this site as a result of the proposed project: 
+ FORMTEXT       
+Describe any upgrades of utilities that may be necessary to meet the power demands for this proposed project: 
+ FORMTEXT       
+ FORMTEXT       
+
+Identify the amount of land that will be disturbed, in acres, as a result of this proposed project: FORMTEXT       
+
+Identify any fish or wildlife habitat, animal or bird species, or any known migration or movement of animals at the project site: 
+ FORMTEXT       
+ FORMTEXT       
+
+Identify any plant species (including types of trees, shrubs, grasses, crops, and aquatic plants) at the proposed project site: 
+ FORMTEXT       
+ FORMTEXT       
+
+Describe any proposed discharges into surface water or onto the proposed project site: 
+ FORMTEXT       
+ FORMTEXT       
+
+Identify any potential impacts to wetlands and/or changes in the drainage patterns at the proposed project site: 
+ FORMTEXT       
+ FORMTEXT       
+
+Summarize the soils and geology of the project site. Include a description of any disruption, displacement, erosion, compaction, moisture loss, or over-covering of soil that would reduce the productivity or fertility of the soil at the site: 
+ FORMTEXT       
+ FORMTEXT       
+
+Summarize any access to recreational activities or wilderness areas near the proposed project site: 
+ FORMTEXT       
+ FORMTEXT       
+
+Describe any state, county, city, United States Forest Service (USFS), Bureau of Land Management (BLM), or tribal zoning or management plans and/or goals that might affect the site: 
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ § 6.0 Instructions on Public Notice For Montana Air Quality Permit
+
+This section is not required to be completed for Title V Operating Permit applications.
+
+The applicant shall publish the following notification no earlier than 10 days prior to the date the applicant's MAQP application will be submitted to DEQ, or no later than 10 days following the date of submittal. The notice shall be published once in the legal notice section of a newspaper of general circulation in the area affected. 
+
+Note: MAQP applications for solid waste incinerators, subject to 75-10-221, Montana Code Annotated (MCA), or hazardous waste incinerators or boilers or industrial furnaces, subject to 75-10-406, MCA, must publish three public notices, each on separate days, in the legal notice section of a newspaper in the county in which the source is proposed be located. 
+ Any fees associated with publication of this notice are the responsibility of the permit applicant. Questions regarding an appropriate newspaper should be addressed to DEQ. 
+
+An Affidavit of Publication of Public Notice must be submitted with the application, or the permit application will be deemed incomplete. This notice is required by the air quality rules. 
+
+The notice to be published must contain all text, excluding the text in italics, within the box below.
+
+Public Notice
+Notice of Application for a Montana Air Quality Permit (MAQP), pursuant to Sections 75-2-211 and 75-2-215, MCA, and the Air Quality Rules). FORMTEXT       , 
+ Name of Applicant(s)
+ FORMTEXT        on or about FORMTEXT        an application for a MAQP or a modification to an
+ has filed / will file Date
+existing MAQP from the Montana Department of Environmental Quality (DEQ). Applicant(s) seeks approval of its application for: 
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ FORMTEXT       
+ (Brief description of source for which permit is being applied, and a narrative description of the site location such as nearby towns, roads, landmarks, etc.)
+The legal description of the site is: Section FORMTEXT       , Township FORMTEXT       , Range FORMTEXT        in FORMTEXT        County, Montana.
+Within 40 days of the receipt of a completed application, DEQ will make a preliminary determination whether the permit should be issued, issued with conditions, or denied. Any member of the public with questions or who wishes to receive notice of the preliminary determination, and the location where a copy of the application and DEQ’s analysis of it can be reviewed, or to submit comments on the preliminary determination, must contact DEQ at Department of Environmental Quality, Air Quality Bureau, Permitting Services Section Supervisor at P.O. Box 200901, Helena, MT 59620-0901, telephone (406) 444-3490. Any comments on the preliminary determination must be submitted to DEQ within the specified timeframe (within15 or 30 days after the preliminary determination is issued).
+
+ § 7.0 Applicable Requirements
+§7.1 Applicable Requirements
+Attach a complete listing and description of all applicable air pollution control requirements, including rules and regulations which have been promulgated at the time of the submittal of the application, but which will become effective at a later date. Explain any proposed exemptions from otherwise applicable requirements. Describe or reference any applicable test methods for determining compliance with each applicable requirement.
+§7.2 Additional Requirements
+Additional requirements may apply. A description of the requirements listed below is included in the Section 7.2 Supplement included on page 18 of this application. Note which of the following requirements apply to this permit application (check each that applies):
+ FORMCHECKBOX Ambient Air Quality Impact Analysis 
+ FORMCHECKBOX Alternative Siting Analysis 
+ FORMCHECKBOX Alternative Operating Scenario 
+ FORMCHECKBOX Compliance Schedule/Plan 
+ FORMCHECKBOX Compliance Certification
+ FORMCHECKBOX Additional Requirements for solid or hazardous waste incinerators or BIFS subject to 75-10-406, MCA
+ FORMCHECKBOX Additional Requirements for Commercial Medical and Commercial Hazardous Waste Incinerators, including BIFS Subject to 75-10-406, MCA
+§ 8.0 Certification of Truth, Accuracy, and Completeness 
+
+ I hereby certify that, to the best of my knowledge, information and belief, formed after reasonable inquiry, the information provided in this permit application is true, accurate, and complete.
+ 
+ (Name, title and signature of corporate officer, responsible official, authorized representative, or designated representative under Title IV 1990 FCAA.)
+
+Name FORMTEXT       
+(Print or Type)
+Title FORMTEXT        Phone FORMTEXT        Email: FORMTEXT       
+Signature FORMTEXT        Date FORMTEXT       
+ (Original Signature Required)
+
+
+ Application Checklist
+
+The information contained in the checklist below must be submitted in order for the application to be considered complete. Additional information may be required by DEQ Please contact DEQ if there are any questions or if the applicant would like a pre-application meeting with DEQ personnel.
+
+ FORMTEXT        Completed Application Form
+ FORMTEXT        Application Fee
+ FORMTEXT        Site Map (Not required for Title V Operating Permit applications)
+ FORMTEXT        Process Flow Diagram (Not required for Title V Operating Permit applications)
+ FORMTEXT        Emission Inventory Calculations 
+ FORMTEXT        BACT/LAER Analysis (Not required for Title V Operating Permit applications)
+ FORMTEXT        Stack Height and Dispersion Techniques Analysis (if applicable, not required for Title V Operating Permit applications)
+ FORMTEXT        Modeling/Risk Assessment Analysis (if applicable, not required for Title V Operating Permit applications)
+ FORMTEXT        List of Applicable Requirements
+ FORMTEXT        Affidavit of Public Notice (Not required for Title V Operating permit applications)
+ FORMTEXT        Certification of Truth, Accuracy, and Completeness – Original Signature (if application form is submitted electronically)
+
+
+
+
+Supplement to Section 7.2 Additional Requirements
+Ambient Air Quality Impact Analysis (Not required for Title V Operating Permit applications)
+An ambient air quality impact analysis should include the following:
+Existing Air Quality Status – a narrative description of the existing air quality status and copies of any existing air monitoring data reports or dispersion modeling. 
+
+Ambient Air Quality Monitoring Requirements – a listing and description of all applicable state or federal ambient air quality monitoring requirements and a detailed description of any proposed ambient air monitoring.
+
+Ambient Air Quality Dispersion Modeling – a description and results of all required ambient air quality dispersion modeling.
+
+Air Quality Related Values Analysis – an analysis of the impairment to visibility, soils, and vegetation that would occur as a result of the source or modification and general commercial, residential, industrial, and other growth associated with the source or modification. (Only required for PSD permit applications.)
+
+Visibility Analysis – a demonstration that emissions from the source will not cause or contribute to an adverse impact on visibility within a federal Class 1 area and that the source is in compliance with the requirements of the Visibility Impact Assessment rules. (Only required for PSD permit applications.)
+
+PSD Increment Analysis – a demonstration of compliance with PSD ambient air increments. (Only required for PSD permit applications.)
+
+Alternative Siting Analysis (Not required for Title V Operating Permit applications.)
+An analysis of alternative sites, sizes, production processes, and environmental control techniques for the proposed source which demonstrates that benefits of the proposed source significantly outweigh the environmental and social costs imposed as a result of its location, construction or modification. This analysis is only required for major stationary sources and major modifications located in a nonattainment area, or for major stationary sources or major modifications located in an area designated as attainment or unclassified under 40 CFR 81.327, but would cause or contribute to a violations of NAAQS in a nearby nonattainment area (i.e., for those sources required to obtain an MAQP and comply with the requirements of subchapters 9 and 10 of the air quality rules). 
+
+ Alternative Operating Scenarios (Not required for MAQP applications)
+Sufficient information, as necessary, to define any reasonably anticipated alternative operating scenarios included in the Title V Operating Permit, including location, process, regulatory, and emission data.
+
+ Compliance Schedule/Plan (Not required for MAQP applications. Only required for Title V Operating Permit applications for sources already operating.)
+The Compliance Schedule/Plan must include, at a minimum, a description of the compliance status of the source with respect to all applicable requirements, as follows:
+ For applicable requirements that the source is currently in compliance with, a description of how compliance will be maintained, including a statement that the source will continue to comply with applicable requirements with which it is in compliance;
+ For applicable requirements that will become effective during the permit term, a statement that the source will (in a timely manner) comply with all applicable requirements that become effective during the permit term, including rules and regulations which have been promulgated at the time of the submittal of the application, but which will become effective at a later date, and a schedule for complying with the applicable requirements; and
+ For applicable requirements that the source is not currently in compliance with, a narrative description of how the source will (in a timely manner) achieve compliance with all applicable requirements with which the source is not currently in compliance. The compliance schedule shall also include a schedule of measures, including an enforceable sequence of actions with milestones, leading to compliance with all requirements. The compliance schedule shall resemble and be at least as stringent as that contained in any judicial consent decree or administrative order to which the source is subject. The schedule for submission of certified progress reports shall be no less frequent than once very six months.
+The Compliance Schedule content requirements apply to Title IV (acid rain) sources, except as specifically superseded by 40 CFR Part 72 with regard to the schedule and the methods the source will use to achieve compliance with the acid rain emission limitations.
+
+ Compliance Certification
+The following certifications must be submitted:
+ Certification of compliance with all applicable requirements signed by a responsible official; except, in the case of an affected source under the acid rain program, the designated representative of the source shall make this certification. (Not required for MAQP applications.)
+
+ A statement of methods used for determining compliance, including a description of the monitoring, recordkeeping, reporting requirements, and test methods. (Not required for MAQP applications. Only required for Title V Operating Permit applications for sources already operating).
+
+ A proposed schedule for submitting compliance certifications that is no less than annually during the permit term. (Not required for MAQP applications. Only required for Title V Operating Permit applications for sources already operating).
+
+ Certification that all sources owned by the applicant are in compliance with all applicable rules and regulations. (Not required for Title V Operating Permit applications. Only required for PSD permit applications).
+
+ Additional Requirements for Solid and Hazardous Waste Incinerators or BIFs Subject to 75-10-406, MCA (Not required for Title V Operating Permit applications. Only required for MAQP applications for Solid or Hazardous Waste Incinerators or Boilers and Industrial Furnaces (BIFs) subject to 75-10-406, MCA.)
+The following information must be submitted:
+ A health risk assessment showing that the projected emissions and ambient concentrations will constitute a negligible risk to the public health, safety, and welfare and to the environment. That health risk assessment will include evaluation of cumulative risk both to the human health and the environment through all known exposure pathways.
+
+ A BACT analysis for all air pollutants, including hazardous air pollutants (HAPs).
+
+ Three public notices, the form for which is included with the application form, must be published in a newspaper of general circulation in the county where the source is to be located (Section 6 of the permit applications).
+
+ Ambient air quality impact analysis that describes the ambient impact of all air pollutants including HAPs.
+
+ Additional requirements for Commercial Medial and Commercial Hazardous Waste Incinerators, Including BIFs Subject to 75-10-406 MCA (Not required for Title V Operating Permit applications.)
+The following information must be submitted:
+ A complete description of all the types, amounts, and sources of chlorinated plastics and other materials included in the waste stream that may be a source of, or lead to the creation of chlorinated dioxins, furans, heavy metals, or carcinogens.
+
+ A LAER analysis, unless BACT is adequate to prevent exceedance of the applicable federal standards.
+
+ A listing and demonstration of compliance with the applicable federal standards.
+
+ Compliance disclosure statement containing the following information:
+ The name, business address, and social security number of the applicant and each principal.
+ A description of any civil or administrative complaint filed within the five years prior to the submittal of the application against the applicant or any principal for violation of an environmental protection law in Montana and whether the complaint resulted in a civil or administrative penalty.
+ A description of all judgments of criminal conviction entered against the applicant, or any principal, for the violation of an environmental protection law in another state the five years prior to the submittal of the application that resulted from the operation of a BIF that, if located in Montana, would be subject to the requirements of 75-10-406, MCA.

@@ -1,0 +1,5195 @@
+Class II
+Air Quality Operating Permit
+
+Guidance Document
+Guide for completing the application for a
+Class II Air Quality Operating Permit
+
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control
+901 South Stewart Street, Suite 4001
+Carson City, NV 89701
+(775) 687-9349
+
+Our goal is to achieve and
+maintain levels of air quality
+that will protect human health,
+prevent injury to plant and
+animal life, prevent damage to
+property, and preserve the
+scenic, historical, and aesthetic
+treasures of the state
+
+Table of Contents
+ACRONYMS AND ABBREVIATIONS
+
+1
+
+INTRODUCTION
+
+2
+
+3 THINGS TO REMEMBER BEFORE STARTING
+
+2
+
+WHAT IS A CLASS II SOURCE?
+
+2
+
+APPLICATION SUBMITTAL AND PROCESSING TIMELINE
+
+4
+
+REGULATIONS AND STATUTES BEHIND THIS APPLICATION
+
+5
+
+1.
+
+COVER PAGE
+
+5
+
+2.
+
+IMPORTANT INFORMATION
+
+6
+
+3.
+
+GENERAL COMPANY INFORMATION FORM
+
+6
+
+4.
+
+EMISSION UNIT APPLICATION FORMS
+
+9
+
+GENERAL APPLICATION FORM INFORMATION
+
+5.
+
+10
+
+4.1
+
+Equipment Description
+
+11
+
+4.2
+
+For Reciprocating Internal Combustion Engines (RICE) Only
+
+14
+
+4.3
+
+Location of Emission Source
+
+14
+
+4.4
+
+Operating Parameters or Operating Parameters/Fuel Usage
+
+14
+
+4.5
+
+Control Equipment
+
+16
+
+4.6
+
+Stack Parameters
+
+16
+
+DETAILED EMISSION CALCULATIONS
+
+16
+
+5.1
+
+System Number and Name
+
+16
+
+5.2
+
+Emission Unit Description
+
+16
+
+5.3
+
+Operating Hours
+
+17
+
+5.4
+
+Throughput
+
+17
+
+5.5
+
+Control Equipment
+
+17
+
+5.6
+
+Regulated Air Pollutants
+
+18
+
+5.7
+
+Emission Factor
+
+19
+
+5.8
+
+Emission Factor Reference
+
+19
+
+5.9
+
+Emission Limits
+
+19
+
+5.10
+
+HAPs and Other Pollutant(s)
+
+20
+
+6.
+
+FACILITY-WIDE POTENTIAL TO EMIT TABLE
+
+20
+
+7.
+
+SURFACE AREA DISTURBANCE FORM
+
+20
+
+8.
+
+PLANT BOUNDARY COORDINATES FORM
+
+21
+
+9.
+
+PLANT BUILDING PARAMETERS FORM
+
+21
+
+10. ADDITIONAL REQUIRED ATTACHMENTS
+
+21
+
+PROCESS NARRATIVE
+
+22
+
+PROCESS FLOW DIAGRAM(S)
+
+22
+
+SITE PLANS
+
+23
+
+MAPS: FACILITY LOCATION AND AREA MAP OF THE FACILITY
+
+23
+
+ENVIRONMENTAL EVALUATION (AERMOD AIR DISPERSION MODELING REPORT AND ELECTRONIC INPUT
+FILES)
+23
+10.1
+
+Standards of Quality for Ambient Air
+
+24
+
+10.2
+
+Information Required by the BAPC for Modeling Purposes
+
+25
+
+10.3
+
+Air Dispersion Modeling Submitted by Applicant
+
+25
+
+MANUFACTURER’S GUARANTEE CERTIFICATIONS AND EQUIPMENT SPECIFICATION SHEETS
+
+26
+
+SOURCE (STACK) TESTING DATA
+
+26
+
+TANKS EMISSIONS ESTIMATES
+
+26
+
+11. APPLICATION CERTIFICATION DOCUMENT
+
+27
+
+12. MAINTENANCE/ANNUAL FEES
+
+27
+
+APPENDIX 1
+
+28
+
+APPENDIX 2
+
+30
+
+APPENDIX 3
+
+33
+
+APPENDIX 4
+
+35
+
+APPENDIX 5
+
+37
+
+APPENDIX 6
+
+39
+
+APPENDIX 7
+
+42
+
+APPENDIX 8
+
+46
+
+APPENDIX 9
+
+51
+
+ACRONYMS AND ABBREVIATIONS
+ACFM
+AQOP
+BAPC
+
+BPM
+
+Actual Cubic Feet per Minute
+Air Quality Operating Permit
+Bureau of Air Pollution
+Control
+Bureau of Air Quality
+Planning
+Best Practical Methods
+
+CAA
+
+Clean Air Act
+
+CFR
+CH4
+CO
+CO2
+CO2e
+
+Code of Federal Regulations
+Methane
+Carbon Monoxide
+Carbon Dioxide
+Greenhouse Gases
+(Carbon Dioxide Equivalent)
+Dry Standard Cubic Feet per
+Minute
+Emission Factor
+Environmental Protection
+Agency
+Facility Identification
+Number
+
+BAQP
+
+DSCFM
+EF
+EPA
+FIN
+GHG
+
+Greenhouse Gas
+
+HA
+HAP
+hp
+hr
+H2S
+H2SO4
+IA
+ID
+kW
+LxWxH
+lb
+MMBtu
+N/A
+NAC
+NAD 83
+
+Hydrographic Area (Basin)
+Hazardous Air Pollutant
+Horsepower
+Hour
+Hydrogen Sulfide
+Sulfuric Acid Mist
+Insignificant Activity
+Identification Number
+Kilowatt
+Length x Width x Height
+Pound
+Million British Thermal Units
+Not Applicable
+Nevada Administrative Code
+North American Datum of
+1983
+National Emission Standards
+for Hazardous Air Pollutants
+Nevada Division of
+Environmental Protection
+Nitrogen Dioxide
+
+NESHAP
+NDEP
+NO2
+
+N2O
+NOX
+NRS
+NSPS
+
+RO
+SCC
+SCF
+
+Nitrous Oxide
+Oxides of Nitrogen
+Nevada Revised Statutes
+New Source Performance
+Standards
+Official Date of Submittal
+Ozone
+Other Pollutant
+Lead
+Particulate Matter
+Particulate Matter with an
+Aerodynamic Diameter Less
+Than or Equal to 10
+Micrometers
+Particulate Matter with an
+Aerodynamic Diameter Less
+Than or Equal to 2.5
+Micrometers
+Pounds per Square Inch
+(Absolute)
+Potential to Emit
+Reciprocating Internal
+Combustion Engine
+Responsible Official
+Source Classification Code
+Standard Cubic Feet
+
+SIC
+
+Standard Industrial Classification
+
+SF6
+SO2
+TBD
+USC
+USGS
+
+Sulphur Hexafluoride
+Sulfur Dioxide
+To Be Determined
+United States Code
+United States Geological
+Survey
+Universal Transverse
+Mercator
+Volatile Organic Compounds
+
+ODS
+O3
+OP
+Pb
+PM
+PM10
+
+PM2.5
+
+PSI(A)
+PTE
+RICE
+
+UTM
+VOC
+
+1
+
+INTRODUCTION
+This document is a detailed guide for completing an application for a Class II Air Quality
+Operating Permit. Each major section (numbered) covers one of the multiple forms and
+supplemental documents will be submitted as part of the application. This application requires
+precise calculations and extensive details about the facility.
+For additional questions, call (775) 687-9349.
+This guide and its associated application forms can be found on the Nevada Division of
+Environmental Protection (NDEP) website.
+
+3 THINGS TO REMEMBER BEFORE STARTING
+1.
+
+When filling out the application, complete every blank or explain why no information
+is provided. Specify "N/A” (Not Applicable) if necessary. Any field left blank may
+cause the application to be deemed incomplete. If the application is deemed
+incomplete, the application fee will be returned to the facility along with a checklist
+that shows which items are missing.
+
+2.
+
+The Bureau of Air Pollution Control (BAPC) treats permit renewals just like new
+applications. Make sure to submit all pages of the application and all required
+attachments.
+
+3.
+
+If revising a permit, the facility must still submit all pages of the application and
+attachments. However, only include emission unit forms for new or revised units.
+
+WHAT IS A CLASS II SOURCE?
+On November 2, 2016, the definition of a Class II source of air pollutants changed under NAC
+445B.037. The new definition set thresholds based on a source’s potential to emit (PTE) — the
+maximum capacity of a facility to emit a regulated air pollutant under its physical and operational
+design.1
+The facility is a Class II source if its PTE is greater than or equal to the following thresholds, but
+less than the Class I source thresholds (greater than or equal to 100 tons per year of any regulated
+pollutant), for any regulated pollutant:
+
+1
+
+NAC 445B.138
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+2
+
+Table 1: Class II Thresholds
+Class II Threshold PTE
+(tons per year)
+
+Pollutant
+Particulate Matter with an
+Aerodynamic Diameter Less Than
+or Equal to 2.5 Micrometers
+Particulate Matter with an
+Aerodynamic Diameter Less Than
+or Equal to 10 Micrometers
+
+PM2.5
+
+5
+
+PM10
+
+5
+
+Carbon Monoxide
+
+CO
+
+50
+
+Volatile Organic Compounds
+
+VOC
+
+20
+
+Nitrogen Oxides
+
+NOx
+
+5
+
+Sulfur Dioxide
+
+SO2
+
+5
+
+Lead
+
+Pb
+
+0.3
+
+Hydrogen Sulfide
+
+H2S
+
+1
+
+When determining PTE, treat
+any physical or operational
+limitation on the capacity of
+the facility to emit a pollutant
+as part of its design. These
+limitations may include
+equipment that controls air
+pollution, restrictions on the
+hours of operation, or limits
+on the type or amount of
+material combusted, stored,
+or processed.
+
+Think the facility falls below Table 1
+thresholds?
+If the facility thinks the emissions of the facility are
+below the Table 1 thresholds, complete a Class II
+Air Quality Operating Permit Applicability
+Determination Form and submit it to the BAPC.
+This form will help determine if an air quality
+operating permit is needed.
+Find the form on the NDEP website
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+3
+
+APPLICATION SUBMITTAL AND PROCESSING TIMELINE
+In order to start processing the application, both the application packet and fee must be received
+in accordance with NAC 445B.327.
+Mail or hand deliver the application and fee(s), payable by check, to the following address:
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control, Class II Permitting Branch
+901 South Stewart Street, Suite 4001
+Carson City, Nevada 89701-5249
+Fees may also be submitted online.
+When submitting an electronic payment,
+include the facility’s name and, if
+applicable, its existing permit number and
+facility identification number.
+The application and fees are date stamped
+when received. The regulatory time frame
+allocates 10 working days to determine if
+the application is complete or incomplete.2
+The day the application is deemed complete
+is called the official date of submittal
+(ODS). After the ODS, it takes 60 calendar
+days to review and finally issue the Class II
+permit.3 If a public notice is required, it
+takes 90 calendar days after the ODS to
+issue the permit.
+
+Bind the physical copies of the
+application.
+Ensure the physical application contains
+the wet signature of the responsible
+official on the Certification Document page
+(See
+“Application
+Certification
+Document”).
+
+A 30 day public notice is required in the following situations:
+
+2
+3
+
+
+
+If the facility is a new Class II source;
+
+
+
+If the facility is within 1,000 feet of a school, hospital, or residential area;
+
+
+
+If revising a Class II permit and the new emission rates exceed the thresholds in Table 2: 4
+
+NAC 445B.3457
+NAC 445B.3457.3
+
+4
+
+NAC 445B.3457.5
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+4
+
+Table 2: Class II Public Notice Thresholds
+Class II Threshold PTE
+Pollutant
+(tons per year)
+Particulate Matter
+
+PM2.5
+
+10
+
+Particulate Matter
+
+PM10
+
+15
+
+Carbon Monoxide
+
+CO
+
+40
+
+Volatile Organic Compounds
+
+VOC
+
+40
+
+Nitrogen Oxides
+
+NOx
+
+40
+
+Sulfur Dioxide
+
+SO2
+
+40
+
+Lead
+
+Pb
+
+0.6
+
+REGULATIONS AND STATUTES BEHIND THIS APPLICATION
+There are a few important Nevada Administrative Code (NAC) and Nevada Revised Statute
+(NRS) chapters that need to be reviewed before beginning this application:
+
+
+Regulations on this application and processing fees — NAC 445B.3453 and NAC
+445B.327
+
+
+
+Statement of purpose — NRS 445B.100 through 445B.640, and NAC 445B.001
+through 445B.3689.
+
+
+
+Nevada Standards of Quality for Ambient Air and allowable emission
+concentrations — NAC 445B.22097
+
+1. COVER PAGE
+The cover page is the first page of the application, which includes the type of application and
+whether the facility is new or existing.
+Facility Name – A company may have several facilities. Provide the name of the facility. If
+there is no facility name available, write the company name here. The company name will also
+be requested on page 3 of the application.
+Existing Facility ID – A facility identification number (FIN) is only required if the facility
+already has a permit. On existing operating permits, the FIN is in the header section as Facility
+ID No. AXXXX (Example: A1234). If the facility currently does not have a permit, specify
+“N/A.”
+Existing Class II AQOP – This refers to the existing permit number located in the header section
+(Example: Permit No. AP1499-3576). If the facility does not currently have a Class II Air
+Quality Operating Permit, specify “N/A.”
+Type of Facility – Specify the general activity at this facility (e.g. Gold Mine).
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+5
+
+Number of Units (including IA’s) in Facility and Number of Units (including IA’s) Affected
+in Action – Specify how many emission units are in the application. This will also include
+insignificant activities.
+Application Type – The facility may submit an application for a new permit, to revise an
+existing permit, or to renew an existing permit. Check the box(s) for all that apply to the current
+application.
+
+2. IMPORTANT INFORMATION
+The application contains a section titled “Important Information.” Read this information
+carefully before completing the application. It contains a list of application forms, due dates,
+regulations, and fee(s) associated with a permit.
+
+3. GENERAL COMPANY INFORMATION FORM
+The General Company Information Form requests a brief description of the operations of the
+facility, the contact and mailing information of the company, the responsible official (RO) of the
+facility, the plant manager or other appropriate contact, and the location and driving directions
+to the facility.
+Section 1: Facility’s process — Provide an overview of the facility’s operations (Example:
+“The facility mines and processes iron ore”). This description should be brief. More detail will
+be given in the process narrative (see “Process Narrative”). A list of Standard Industrial
+Classification (SIC) numbers and a list of numbers from the North American Industry
+Classification System (NAICS) can be found online. Provide both SIC and NAICS.
+Section 2: Company name and address — Provide the company name and address as you want
+it to appear on the permit.
+Section 3: Owner’s name and address — Provide the name and address of the company owner.
+The owner is the person who owns, leases, operates, controls, or supervises the facility or a
+stationary source.
+Section 4: Facility name and address — Provide the facility name and address if it is different
+than the company name and address in Section 2, or write “same as above.”
+Section 5: Records location — Provide the location where all records required by the permit
+will be stored. If they will be on-site, rewrite the information from Section 4. If records will be
+stored at another location, insert the information for the location.
+Section 6: Responsible official — Provide
+the name, title, and mailing address for the
+responsible official (RO). If the facility
+already has an air permit, the RO should be
+the same as what the BAPC already has on
+file.
+
+Does the RO need to change?
+Attach the RO Request Form stating who
+the new RO will be. This should be signed
+by the appropriate individual.
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+6
+
+The RO can be:5
+1. For a corporation:
+(a) A president;
+(b) A vice president in charge of a principal business function;
+(c) A secretary;
+(d) A treasurer; or
+(e) An authorized representative of such a person who is responsible for the overall
+operation of the facility and who is designated in writing by an officer of the
+corporation and approved in advance by the director of the Nevada Department of
+Conservation and Natural Resources.
+2. For a partnership or sole proprietorship, a general partner or the proprietor, respectively.
+3. For a municipality or a state, federal, or other public agency, a ranking elected official or a
+principal executive officer, including, for a federal agency, a chief executive officer who
+has responsibility for the overall operations of a principal geographic unit of the agency.
+4. For an affected source, the designated representative or his or her alternate, as defined in
+42 U.S.C. § 7651a(26).
+Section 7: Plant manager or other appropriate contact — This is the person the BAPC will
+communicate with when on site if the RO is not available. Provide the name, title, and contact
+information for a plant manager or other appropriate contact from the facility if it will not be the
+RO. For example, if the company president is the RO but is not physically at the facility, provide
+an appropriate contact who works on-site.
+Section 8: Location and driving directions to the
+facility:
+
+
+Provide the hydrographic area (HA) number(s)
+and name(s), township(s), range(s), and
+section(s) of the facility;
+
+
+
+Provide the Universal Transverse Mercator
+(UTM) coordinates of the front gate of the
+facility. The UTM coordinates must be in
+metric units using North American Datum of
+1983 (NAD 83), Zone 11;
+
+
+
+5
+
+Describe the location of the facility with
+respect to the nearest road and city (such as 8th
+Street, Wells, Nevada) and the county the
+facility is located in;
+
+
+
+Provide driving directions from
+Carson City, Nevada to the
+facility.
+
+Find the right maps.
+The BAPC keeps online maps that
+can help determine HA basin
+number and names; township,
+section, and range; and UTM
+coordinates.
+Maps can be found online
+
+NAC 445B.156
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+7
+
+Section 9: Emissions cap — Check the appropriate box when requesting an emissions cap. A
+federally enforceable emissions cap is a voluntary condition of the air quality operating permit
+which limits how much the facility can emit. This request is independent of any applicable
+requirement(s).6 It is recommended that the facility contacts the BAPC before requesting an
+emissions cap. If the facility is requesting an emissions cap, at a minimum, cover these points in
+the process narrative (see “Process Narrative”):7
+1. State each applicable requirement which the facility seeks to avoid;
+2. Show that the facility will meet any applicable requirements not avoided by the cap;
+3. Explain proposed conditions of the permit which will ensure compliance with any
+applicable requirement, including monitoring and recordkeeping conditions for each
+proposed federally enforceable emissions cap;
+4. Give any additional information that NDEP or BAPC may determine necessary to
+process the application.
+Section 11: Location — If the facility is located within 1,000 feet of a school, hospital, or
+residential area, check the appropriate box. The 1,000 feet will begin at the fence line of the
+facility.
+Section 12: Controls and limit restrictions — Check the appropriate box if the facility requires
+controls or emission limit restrictions (Example: limits on hours of operation) to be considered
+a Class II facility (see “Is My Facility a Class II Source?”).8
+The EPA describes a “synthetic minor” source as a source that otherwise has the potential to
+emit regulated NSR pollutants in amounts that are at or above 250 tons per year or 100 tons per
+year for the 28 source categories, but has taken a restriction so that its potential to emit is less
+than such amounts for major sources (Pursuant to 40 CFR 49.167, 40 CFR 52.21 or 40 CFR
+71.2). Such restrictions must be enforceable as a practical matter.
+Section 13: Non-Combustion Baghouse Testing — The information provided will be used to
+determine testing frequencies of particulate matter emissions for non-combustion baghouses.
+Non-combustion baghouses that only control laboratories or silos that are not in constant use are
+exempt from this program. One of the main factors in determining testing frequency is the air
+dispersion model. The facility may choose to opt-in to a special program and model all applicable
+non-combustion baghouses as individual sources. This could potentially increase testing
+frequencies of applicable baghouses that contribute more emissions to the ambient air quality
+and potentially decrease frequencies of other applicable baghouses. A facility that wants to
+utilize this program must submit air dispersion modeling files for all applicable baghouses.
+Failing to provide all required documents may result in a delay in permit issuance or the
+application being deemed incomplete. A rolling 60-month period for compliance history will
+also be used to determine testing frequencies. Facilities that maintain good compliance status
+will have reduced testing requirements. Facilities that do not maintain compliance may have
+increased testing requirements. All testing requirement changes will occur through a Notice of
+Findings and Order. If additional information is desired, contact the permitting or compliance
+
+6
+
+NAC 445B.070
+NAC 445B.296(2)
+8
+NAC 445B.037
+7
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+8
+
+branch and see the Baghouse TDS guidance document located under Resources for All Sources
+of https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources.
+
+4. EMISSION UNIT APPLICATION FORMS
+An emission unit is part of a facility which emits or has the potential to emit any regulated air
+pollutant.9 There are four different emission unit forms:
+
+
+Industrial Process Application Form — used for equipment that emits PM, PM10,
+and PM2.5 like hoppers, crushers, screens, and conveyor drop points. The equipment
+may be controlled by baghouses, water sprays, enclosures, or other methods. See
+Appendix 1 for an example of a completed Industrial Process Application Form.
+
+
+
+Combustion Equipment Application Form — used for heaters, engines, generators,
+emergency generators, and different control equipment such as thermal oxidizers. The
+equipment can be fueled with diesel oil, natural gas, propane, etc. See Appendix 2 for
+an example of a Combustion Equipment Application Form.
+
+
+
+Storage Silo Application Form — used for storage silo loading and unloading. The
+emissions commonly exit through a silo stack, chimney, or vent during these processes.
+
+
+
+Liquid Storage Tank Application Form — used for tanks storing liquid materials
+such as fuel, asphalt, waste oil, etc. The facility is not required to complete this form if
+the tank is attached to a unit (Example: a belly tank).
+
+The facility must complete a form for every emission unit and transfer point. If the facility has
+more than one emission unit of a given type (Example: multiple liquid storage tanks), the facility
+must complete a separate form for each. Include as many additional forms as needed.
+The facility must also complete separate forms for every unit considered an insignificant activity
+(see page 10). Print out and attach additional forms as necessary. Any field left blank may cause
+the application to be deemed incomplete.
+In the detailed emission calculations, include the
+emission calculations for all emission units (see
+“Detailed Emission Calculations”).
+If the permit is being revised, only complete
+emission unit forms for the units that plan to be
+changed, upgraded, or revised. Detail these
+revisions in the process narrative (see “Process
+Narrative”).
+
+9
+
+Remember to fill out every
+field!
+Empty fields may make the
+application incomplete, resulting in
+delays and the return of the
+application.
+
+NAC 445B.059
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+9
+
+GENERAL APPLICATION FORM INFORMATION
+Each of the four emission unit application forms require the same information on the top of the
+page before the detailed table.
+System Number and Name — Give each system a number and name a group of one or more
+units. A system contains emission units that are part of the same process (Example: Secondary
+Crusher and Associated Transfers).
+Emission Unit Description — Give each emission unit a name and a system number for units
+in the same system. A system contains emission units that are part of the same process (Example:
+a screening process and associated conveyors) or are controlled by the same air pollution control
+equipment (Example: all stacks lead to one baghouse). Emission units can be grouped in systems
+(Example: System 1 – Conveyor 1; System 1 – Screen 1; etc.). If a system has multiple units,
+please provide an emission unit application form for each unit.
+Alternative Operating Scenario — Check “Yes” if the emission unit is part of an alternative
+process or can operate in multiple ways. “Yes” signifies that there is an alternative operating
+scenario, and the forms are filled out the same as for any other permitted unit. An example of an
+alternative operating scenario is a heater that can operate on natural gas or propane.
+Insignificant Activity — Check “Yes” or “No” to indicate if the emission unit is considered an
+insignificant activity (IA) pursuant to NAC 445B.288. Provide the appropriate emission unit
+form for all IA emission units.10 The BAPC use these forms for air dispersion modeling.
+Proposed insignificant activities not listed under NAC 445B.288(2) must be submitted, under
+separate cover pursuant to NAC 445B.288(4), to the BAPC for approval.
+In the proposal, include a clear description of the emission unit(s), all emissions calculations based
+on unlimited annual hours of operation (see “Detailed Emission Calculations”), and emission factor
+references pursuant to NAC 445B.288(4). If the IA has been previously approved by the BAPC,
+send us a copy of the original approval letter. Engines, generators, and gasoline tanks subject to
+federal regulations cannot be considered IAs.
+Subject to a Federal Regulation (40 CFR
+Part 60, 61, or 63) — Check the appropriate
+box to indicate if the emission unit is subject to
+any of these federal regulations:
+
+10
+
+
+
+40 CFR Part 60 — Standards for
+Performance for New Stationary Sources
+
+
+
+40 CFR Part 61 — National Emission
+Standards for Hazardous Air Pollutants
+
+
+
+40 CFR Part 63 — National Emission
+Standards for Hazardous Air Pollutants
+for Source Categories
+
+Include calculations for IA emission limits
+in the detailed emission calculations (see
+“Detailed Emission Calculations”).
+In addition, include the total IA emission
+limits in the Facility-Wide Potential to Emit
+Table (see, “Facility-Wide Potential to
+Emit”). Make sure to include the VOCs
+calculated from the tank emissions.
+
+NAC 445B.288(1) and NAC 445B.288(2)
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+10
+
+Each of the four emission unit application forms have a section titled “Equipment Description”.
+While much of this information is the same for all four forms, there is some unique information.
+We’ve indicated unique information in italics, below.
+BAPC Emission Unit ID and System Number — Write “N/A” if the emission unit is not currently
+in the permit or if this is an application for a new permit. If the facility has an existing permit,
+use the pre-existing emission unit IDs and system numbers. The facility may choose to change
+emission unit IDs and system numbering, but must still reference pre-existing emission unit IDs
+and system number. Emission unit IDs are assigned based on release type (Example: if the
+release type is a stack, the emission unit ID will be formatted as S2.XXX. Process fugitive release
+will be formatted as PF1.XXX. IA will be formatted as IA1.XXX).
+Source Classification Code (SCC) — The Environmental Protection Agency uses source
+classification codes to categorize sources of air pollution. The facility may find the appropriate
+SCC online.
+
+MORE ON SCCs
+There are four levels of source description, associated with the first 1, 3, 6, and 8 digits of
+the codes:
+The first level (and digit) describes the most general information on the category of the
+emissions.
+The second level (and first 3 digits) subdivides the five major categories into major
+industry groups (Example: 1-02 indicates external combustion in industrial boilers).
+The third level (and first 6 digits) specifies the industry or emission source category
+(Example: 1-02-010 indicates it is for electric generation and uses liquefied petroleum
+gas).
+The fourth level (all 8 digits) specifies the particular emitting process within the third-level
+source category (Example: 1-02-010-02 specifies it is propane).
+Manufacturer — Provide the name of the manufacturer of the equipment. Write “unknown” if
+the manufacturer of the equipment is unknown.
+Date Manufactured — Provide the year and, if possible, the month when the equipment was
+manufactured. Write “unknown” if the manufactured date of the equipment is unknown.
+Model Number (For Industrial Process, Storage Silo, and Liquid Storage Tank Only) —
+Provide the model number of the equipment. Write “unknown” if the model number of the
+equipment is unknown.
+Model and Serial Number (For Combustion Equipment Only) — Provide the model and the
+serial number of the equipment. Write “unknown” if the model or serial number of the equipment
+is unknown.
+Equipment Dimensions (For Industrial Process, Storage Silo, and Liquid Storage Tank Only)
+— Provide the length (L), width (W), and height (H) of the equipment in feet.
+Guidance Document for Class II Air Quality Operating Permit Application
+
+11
+
+Drop Dimensions (For Industrial Process and Storage Silo Only) — The drop length is the
+distance the material falls at a transfer point. The drop height indicates the distance relative to
+the ground. The drop height can be measured from the top of the drop length, the middle of the
+drop length, or the bottom of the drop length. The horizontal dimensions refers to the width of
+the transfer point. Refer to Figures 1 and 2:
+
+Figure 1: Drop Dimensions Diagram - Pile
+
+Figure 2: Drop Dimensions Diagram – Conveyor
+Guidance Document for Class II Air Quality Operating Permit Application
+
+12
+
+Emissions Released Inside Building? (For Industrial Process, Combustion Equipment, and
+Storage Silo Only) — Specify “Yes” if emissions are released inside a building. If not, specify
+“No.”
+Heated or Non-Heated Tank (For Liquid Storage Tank Only) — Specify if the emission unit
+is a heated or non-heated storage tank.
+Shell Height (For Liquid Storage Tank Only) — Provide the shell height of the storage tank in
+feet.
+Shell Diameter (For Liquid Storage Tank Only) — Provide the shell diameter of the storage
+tank in feet.
+Maximum Liquid Height (For Liquid Storage Tank Only) — Provide the maximum liquid
+height of the stored material in feet.
+Average Liquid Height (For Liquid Storage Tank Only) — Provide the average liquid height
+of the stored material in feet.
+Capacity of Tank (For Liquid Storage Tank Only) — Provide the capacity of the storage tank
+in gallons.
+Shell Color (For Liquid Storage Tank Only) — Provide the color of the shell (white, gray,
+aluminum, red primer, etc.).
+Roof Condition (For Liquid Storage Tank Only) — Provide a description of the condition of
+the roof (bad, good, excellent, etc.).
+Roof Type (For Liquid Storage Tank Only) — Indicate if the tank has a cone, dome, external,
+or internal floating roof.
+Roof Height (For Liquid Storage Tank Only) — For a cone or dome roof, specify the roof height
+in feet.
+Cone Roof Slope (For Liquid Storage Tank Only) — For a cone roof, specify the roof slope in
+feet per feet (ft/ft).
+Dome Roof Radius (For Liquid Storage Tank Only) — For a dome roof, specify the radius of
+the roof in feet.
+True Vapor Pressure of Liquid (For Liquid Storage Tank Only) — Provide the true vapor
+pressure of the liquid stored in pounds per square inch absolute (psia). The true vapor pressure
+is a measure of the volatility of petroleum distillate fuels.
+Reid Vapor Pressure Liquid (For Liquid Storage Tank Only) — Provide the Reid vapor
+pressure of the liquid stored in pounds per square inch (psi). The Reid vapor pressure is a measure
+of the volatility of gasoline. It it the absolute vapor pressure exerted by a liquid at 100 °F.
+Orientation of Tank (For Liquid Storage Tank Only) — Specify the orientation of the tank
+(horizontal or vertical).
+Submerged Fill (For Liquid Storage Tank Only) — Provide information on the method of filling
+the storage tank.11
+
+11
+
+NAC 445B.22093(3)
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+13
+
+This section is only relevant to internal combustion engines and only appears on the Combustion
+Equipment Application Form. Most of this information may be found within the engine
+specification sheets provided by the manufacturer or on the engine nameplate. For extra
+guidance, please see RICE Frequently Asked Questions for Stationary Internal Combustion
+Engines.
+Type of Engine Code — Provide the engine code (from the table below) that corresponds to the
+emission unit (Example: an emergency spark ignition 4-stroke rich burn engine would have the
+code E-SI4SRB).
+Table 3: Type of Engine Code
+Code
+
+Description
+
+Code
+
+Description
+
+LU
+
+Limited Use
+
+E-SI
+
+Emergency Spark Ignition
+
+LDG
+
+Landfill/Digester Gas
+
+SI4SRB
+
+Spark Ignition 4-Stroke Rich Burn
+
+NECI Non-Emergency Compression Ignition SI4SLB
+
+Spark Ignition 4-Stroke Lean Burn
+
+ECI
+
+Spark Ignition 2-Stroke Lean Burn
+
+Emergency Compression Ignition
+
+SI2SLB
+
+Date Constructed — Provide the date the unit was originally constructed.
+Cylinder Displacement — Provide the cylinder displacement of the RICE in liters per cylinder.
+EPA Tier # — The EPA Tier Number refers to applicable 40 CFR Subpart regulations. For
+example, Table 1 of 40 CFR Part 1039 has standards for oxides of nitrogen, carbon monoxide,
+hydrocarbon, and particulate matter exhaust. Typical subparts for RICEs include 40 CFR Part
+60 Subparts IIII and JJJJ and 40 CFR Part 63 Subpart ZZZZ.
+
+All four emission unit application forms — Industrial Process, Combustion Equipment, Storage
+Silo, and Liquid Storage Tank — require the exact Universal Transverse Mercator (UTM)
+coordinates for the emission unit. The northing and easting UTM coordinates must be in metric
+units NAD 83 / UTM Zone 11. The BAPC uses each emission unit’s unique UTM coordinates
+for air dispersion modeling (even when modeling is not required by the applicant).
+
+All four emission unit application forms have an “Operating Parameters” section or an
+“Operating Parameters/Fuel Usage” section. While much of this information is the same for all
+four forms, there is some unique information. Unique information has been indicated below in
+italics.
+Material Type Processed (For Industrial Process and Storage Silo Only) — Provide the type
+of material processed such as aggregate, gold ore, gypsum, limestone, lime, prill, etc.
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+14
+
+Batch Process (For Industrial Process and Storage Silo Only) — Batch processes measure
+material in batches instead of a continual hourly basis. Provide the amount of material used for
+each batch and the unit.
+Material Type (For Liquid Storage Tanks Only) — Provide the material type processed or
+stored in the storage tank such as asphalt, recycled fuel oil, etc. If the stored material is a
+combination of multiple materials, list each material and its percentage of the total mass.
+Fuel Type (For Combustion Equipment Only) — Provide the type of fuel the combustion unit
+will operate on. If more than one type of fuel is burned under the same operating scenario, specify
+the primary fuel and the percentage. If the primary fuel is a blend of multiple fuels, then identify
+the percentage of each fuel in the blend.
+Fuel Flow Meter Installed (For Combustion Equipment Only) — Indicate to the BAPC if the
+facility is using a fuel flow meter on the combustion unit to track fuel usage.
+Sulfur Content (For Combustion Equipment Only) — Provide the sulfur content, which can be
+obtained from the fuel supplier. This is the nominal percent, by weight, of sulfur in the fuel
+supply.
+Heat Content (For Combustion Equipment Only) — Provide the heat content of the fuel being
+used. This value should be listed in the amount of heat (BTU) per unit of fuel combusted (pound,
+gallon, scf). If the facility includes a heat content value other than a default value listed below,
+provide documentation from the fuel supplier that shows the nominal heat content of the fuel.
+The facility must also give supporting documents if the facility prefers coal with a different heat
+content. The default heat content values are listed below:12
+
+Table 4: Heat Content
+Coal
+
+Diesel #2
+
+Gasoline
+
+Natural Gas
+
+Propane
+
+(BTU/lb)
+
+(BTU/gal)
+
+(BTU/gal)
+
+(BTU/scf)
+
+(BTU/gallon)
+
+13,000
+
+140,000
+
+125,251
+
+1,020
+
+91,500
+
+Maximum Throughput (For Liquid Storage Tanks Only) — Provide the maximum throughput
+of the stored material in gallons per month and gallons per year.
+Start Time (For Industrial Process, Combustion Equipment, and Storage Silo Only) — Provide
+the start time in this section. Specify “N/A” for the facility to have the flexibility to operate the
+equipment at any time and not have the start and end times listed in the permit. If the facility
+does not request a piece of equipment to operate 24 hours per day, the facility must list the exact
+hours of operation that the equipment will operate, such as 6:00 AM – 10:00 PM or 0600 – 2200.
+End Time (For Industrial Process, Combustion Equipment, and Storage Silo Only) — Provide
+the end time in this section. Specify “N/A” if the facility would prefer to have the flexibility to
+operate the equipment at any time and not have the start and end times listed in the permit. If the
+facility does not request an emission unit to operate 24 hours per day, the facility must list the
+
+12
+
+AP-42:
+Appendix
+A
+Miscellaneous
+https://www3.epa.gov/ttn/chief/ap42/appendix/appa.pdf
+
+Data
+
+And
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+Conversion
+
+Factors,
+
+15
+
+exact hours of operation that the equipment will operate, such as 6:00 AM – 10:00 PM or 0600
+– 2200.
+
+Manufacturer — Provide the name of the company that manufactured the control equipment.
+Write “unknown” if the manufacturer of the equipment is unknown.
+Manufacturer’s Guarantee Included? — If the facility is using a control efficiency from a
+manufacturer’s guarantee, provide a copy of the guarantee. The BAPC will not accept a control
+efficiency from a manufacturer’s guarantee without a copy of this information. The guarantee
+should be provided immediately after the form.
+
+This section only appears on the Industrial Process, Combustion Equipment, and Storage Silo
+Process application forms.
+Stack Height — Provide the height of the stack in feet.
+Stack Inside Diameter — Provide the inside diameter of the stack in feet. If the diameter is
+non-cylindrical, provide the actual dimensions (LxW).
+Stack Temperature — Provide the temperature of the pollutant exiting the stack in degrees
+Fahrenheit. Write “ambient” if the stack temperature is the same as the ambient air temperature.
+Stack Exit Velocity — Provide the exit velocity of the pollutant exiting the stack in feet per
+second (ft/sec).
+Stack Release Type — A vertical stack release type is the most common release type and is the
+default value when the Bureau of Air Quality Planning (BAQP) completes modeling. If the stack
+is capped, indicate if it is fixed or a flapper type. Contact the BAQP Modeling Group with any
+questions.
+
+5. DETAILED EMISSION CALCULATIONS
+A table for detailed emission calculations has been provided to correspond with each type of
+emission unit application form. The submitted detailed emission calculations do not need to
+follow the same format as those provided by the BAPC, as long as all of the information is
+included.
+
+See description provided in Section 4.
+
+See description provided in Section 4.
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+16
+
+Daily – Provide how many hours a day the equipment will be operating.
+Annual – If the unit will operate 24 hours per day, 365 days per year, the Annual Operating
+Hours is 8,760 hours/year. If the unit will operate less, multiply the hours per day and the days
+per year of operation to obtain the Annual Operating Hours.
+
+Hourly – The Hourly Throughput Rate is the weight of material processed in one hour by the
+listed equipment.
+Annual – For the Annual Throughput Rate, multiply the Hourly Throughput Rate by the Annual
+Operating Hours and convert to tons per year.
+Units – The measurement of the throughput material (lbs, tons, gallons, scf, etc).
+
+Type of Control — Provide the type of control equipment used (baghouse, bin vent, enclosure,
+water spray, wet scrubber, thermal oxidizer, carbon vessel, etc.) and add a label and number
+(Baghouse BH-1). If an emission unit is not equipped with control equipment, write “no control”
+in this section.
+Control Efficiency — Control efficiencies may be utilized for various types of controls
+including water sprays, enclosures, bin vents, etc. For baghouses, a manufacturer’s guarantee or
+source test is required if using an efficiency better than the default control efficiency. The BAPC
+will accept the following default control efficiencies:
+Emission Control
+Technology
+
+Control Efficiency Rating
+
+Water Sprays
+
+75%
+
+Enclosure
+
+50%
+
+Baghouse
+
+0.02 grains/dscf
+
+Pollutant(s) Controlled — List the regulated air pollutants controlled by the control equipment.
+For example: PM, PM10 and PM2.5.
+Gas Volume Flow Rate — Provide the gas volume flow rate through the stack in actual cubic
+feet per minute (acfm) and in dry standard cubic feet per minute (dscfm).
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+17
+
+Emission factors are used to calculate the requested emission limits for regulated and nonregulated pollutants. The throughput rate or fuel usage rate combined with the emission factor
+gives the emission limit of a pollutant (see “Operating Parameters or Operating Parameters/Fuel
+Usage”).
+The facility may apply a safety factor to increase the emission limit. But make sure the emission
+limit doesn’t exceed any applicable standard (see “Standards of Quality for Ambient Air”).
+Emission limits of applicable regulated air pollutants are required for each emission unit. The
+facility may have to calculate limits for multiple pollutants:
+Particulate matter (PM): material, except uncombined water, that exists in a finely
+divided form as a liquid or solid (i.e. steam) at reference conditions (NAC 445B.129).
+PM10: particulate matter in the atmosphere with an aerodynamic diameter less than or
+equal to a nominal 10 micrometers as measured by an approved reference method or
+equivalent method based on 40 CFR Part 50, Appendix J and designated in accordance
+with 40 CFR Part 53 (NAC 445B.135).
+PM2.5: particulate matter in the atmosphere with an aerodynamic diameter less than or
+equal to a nominal 2.5 micrometers as measured by an approved reference method or
+equivalent method based on 40 CFR Part 50, Appendix L and designated in accordance
+with 40 CFR Part 53 (NAC 445B.1348).
+Nitrogen oxides: all oxides of nitrogen, except nitrous oxide, as measured by test
+methods approved by the EPA (NAC 445B.109).
+Volatile organic compounds (VOCs): any compound of carbon — excluding carbon
+monoxide, carbon dioxide, carbonic acid, metallic carbides or carbonates, and ammonium
+carbonate — which participates in atmospheric photochemical reactions (40 CFR §
+51.100(s)).
+Greenhouse gas: any of the following gases, either alone or in combination (NRS
+445B.137):
+• Carbon dioxide (CO2)
+• Hydrofluorocarbons
+• Methane (CH4)
+• Nitrous oxide (N2O)
+• Perfluorocarbons
+• Sulphur hexafluoride (SF6)
+Other pollutants: these may include carbon monoxide (CO), sulfur dioxide (SO2), lead
+(Pb), and hydrogen sulfide (H2S).
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+18
+
+Choose the appropriate emission factor for each emission unit and insignificant activity. Provide
+the calculations for the emission limits in both lb/hr and tons/year (See “Emission Factor”). The
+BAPC prefers these calculations in spreadsheet form and have provided a template with minimum
+requirements in the application. Example calculations have been provided in Appendices 3 through
+9.
+An emission factor is a measurement ratio that helps estimate how much of a pollutant is released
+over time. It links the quantity of a pollutant released to the atmosphere with an activity that
+generates the pollutant. The emission factor will help determine the emission rate. Emission factors
+are commonly expressed as a weight divided by a unit, volume, distance, or duration such as
+lb/MMBtu, lb/ton, or lb/1000 gallons.
+There is only one row for the emission factors associated with Carbon Dioxide Equivalent (CO2e)
+and there are multiple CO2e pollutants. Calculate each CO2e pollutant in the Greenhouse Gas
+(GHG) Detailed Calculations.
+There are a few ways the facility can find the appropriate emission factor for each pollutant:
+AP-42: Compilation of Air Emissions Factors
+Manufacturer’s specification sheets
+Source tests
+Guidance on Emission Factors for the Mining Industry
+
+Provide a reference to the source where the facility found the emission factor (Example: AP-42
+Ch. 11.19.2, Table 11.19.2-2). Emission factors should be chosen in accordance with NAC
+445B.239.
+For liquid storage tanks, use the EPA TANKs 4.09d (TANKs) software to calculate emission
+limits and determine emission factor back-calculations for volatile organic compounds (VOCs).
+The results from TANKs are reported in lb/year, and the facility must also convert the results to
+tons/year. Attach the TANKs report to the application.
+TANKs software is available from the EPA’s website.
+The facility may also use methods described in AP-42 Chapter 7 if the facility chooses not to use
+TANKS to estimate VOC emissions from the storage tank. Make sure to provide supporting
+documents for all parameters.
+
+The emission limit should be calculated in units of pounds per hour (lb/hr) and tons per year
+(tpy) for each air pollutant for the emission unit. Example calculations have been provided in
+Appendices 3 through 9.
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+19
+
+Combustion units typically emit more than one Hazardous Air Pollutant (HAP). Include each
+individual HAP in the HAPs Detailed Calculations.
+
+6. FACILITY-WIDE POTENTIAL TO EMIT TABLE
+The Facility-Wide Potential to Emit (PTE) Table should record the total emissions per pollutant.
+In this table, include the sum of the emissions from all units — both permitted and insignificant
+activities. If the facility has air pollutants other than those listed in the table, include them under
+“Other Regulated Pollutants.”
+If the facility is revising the permit, provide the PTE changes in the second table, titled “Revision
+Table.” In the “Change in Facility-Wide PTE” category, include the difference between the
+permitted PTE and the new, proposed PTE. For each pollutant, also write if these changes will
+increase or decrease the permitted PTE (+ / –). Add more columns for other regulated air
+pollutants, if needed.
+
+7. SURFACE AREA DISTURBANCE FORM
+By law, a facility may not cause or permit the handling, transporting or storing of any material
+in a manner which allows or may allow controllable particulate matter to become airborne.13
+There are multiple proven methods for reducing airborne dust:
+
+
+Water trucks or water spray systems to control wind-blown dust
+
+
+
+Soil binding agents or chemical surfactants to treat roadways and areas of disturbed
+soil
+
+
+
+Wind-breaks or wind-limiting fences that are designed to limit wind erosion of soils
+
+The Surface Area Disturbance Form requests the following information if the facility will
+produce dust:
+Total Acres of the Facility Site — Provide the total size of the site in acres. Specify the total
+acreage within the fence line of your facility, including undisturbed areas, the facility area, and
+any asphalted areas.
+Total Acres Disturbed — Provide the information of the total acres disturbed. When calculating
+the total acreage, all ground being disturbed, and all ground previously disturbed but not
+stabilized, must be measured.
+Surface Area Disturbance Location — Provide the surface area disturbance location as
+Township(s), Range(s), and Section(s). Fill this form out even if the surface area disturbance
+will be less than 5 acres.
+
+13
+
+NAC 445B.22037
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+20
+
+8. PLANT BOUNDARY COORDINATES FORM
+Provide the UTM coordinates of each corner of the plant boundary. UTM coordinates must be
+in the NAD 83 Zone 11 datum. Areas considered “ambient air” — as defined in 40 CFR Part
+50.1(e) and NAC 445B.018 — may not be included within the plant boundary. This is only
+required if an environmental analysis is not submitted.
+
+9. PLANT BUILDING PARAMETERS FORM
+Provide UTM coordinates for each building corner. This is only required if an environmental
+analysis is not submitted.
+Building Tier — Provide the building height and UTM coordinates for each tier separately.
+Roof Height — Provide the roof height measured from ground level.
+Building Diameter — Provide the building diameter. Only required for cylindrical buildings
+(i.e., silos).
+Building UTM Coordinates — UTM coordinates must be in the NAD 83 Zone 11 datum.
+Provide the UTM coordinates of the center of the building for cylindrical buildings/tiers. Provide
+sufficient UTM coordinates to define the footprint of the building/tier for all other buildings/tiers.
+
+10. ADDITIONAL REQUIRED ATTACHMENTS
+There are several other attachments that support
+and contextualize the information the facility
+provides elsewhere in the application. The BAPC
+uses these attachments to inform the public of
+facilities that need permits, prepare the technical
+review supporting the permit, verify data used in
+the application, and write permit conditions. Please
+draft the required attachments in a readable format,
+with both appropriate font and size.
+
+These attachments are an
+important part of the
+application.
+The BAPC may have to reject the
+application if the required
+attachments are illegible or
+incomplete.
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+21
+
+PROCESS NARRATIVE
+The process narrative should describe all processes in the application and any renewal or revision
+details. The goal is to give the BAPC a clear picture of the process of the facility so the BAPC
+can understand how the facility will monitor emissions and know what to write into the permit.
+Make sure the process narrative matches the process flow diagram.
+Here’s a basic outline to follow when drafting the process narrative:
+
+
+Specify the location of the facility and its parent company, if part of a larger business
+(Example: Arturo Mine is located 45 miles Northwest of Elko in Elko County, Nevada,
+Hydrographic Area 61 – Boulder Flat. The mine is part of the Nevada Gold, LLC.).
+
+
+
+Describe what the facility does (Example: mining gold ore, crushing and screening
+aggregates, etc).
+
+
+
+Describe the emission units (equipment) used at the facility. Make sure to discuss both
+permitted units and insignificant activity units. The description should outline how the
+emission units work together as part of a larger process. Include information that helps
+describe what the facility does and how it functions.
+
+
+
+Characterize all regulated air pollutants that may be emitted by each emission unit.
+
+
+
+Discuss the emissions cap, if applicable (See “Section 9: Emissions Cap” under
+“General Company Information Form”)
+
+
+
+If the facility is requesting a revision, explain what is going to change and why it is
+necessary.
+
+
+
+Outline how and where the facility will be monitoring throughputs to show compliance.
+
+PROCESS FLOW DIAGRAM(S)
+A process flow diagram is a drawing that illustrates how all processes are interconnected. The
+process flow diagram should include each emission unit(s), drop point(s), and minimum
+requirements as described in our Guidance Document for Process Flow Diagrams.
+Only include information that is relevant to air pollution control. The facility does not need to
+include the locations of valves and electrical and water plans.
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+22
+
+SITE PLANS
+Provide the site plan of the entire facility (drawn to scale). Include the dimensions scale and
+north arrow. The site plan should include the UTM coordinates (NAD 83 / UTM Zone 11) as
+well as the dimensions and heights of buildings, though this can be formatted as an excel table
+for UTM coordinates (NAD 83 / UTM Zone 11) and dimensions and heights of buildings. Make
+sure the facility site plan indicates and labels the locations of systems.
+
+MAPS: FACILITY LOCATION AND AREA MAP OF THE FACILITY
+Submit the following maps as visible, readable printouts (color optional):
+1. A vicinity map that shows the location of the facility with respect to the nearest
+recognizable city, town, and major road, all labeled. Outline the facility.
+2. An area map of the facility with a closer, aerial view that includes the fence line, all
+buildings, the location of the front gate, and emission unit locations (clearly labeled).
+
+ENVIRONMENTAL EVALUATION (AERMOD AIR DISPERSION
+MODELING REPORT AND ELECTRONIC INPUT FILES)
+Air dispersion modeling is part of routine environmental evaluations14 to make sure facilities in
+Nevada meet air quality standards (see “Standards of Quality for Ambient Air”). Such models
+give us a technical basis for issuing a Class II air permit. The facility must submit an
+environmental evaluation if: 15
+1. The facility is renewing a permit or seeking a new permit for a facility that emits, or has
+the potential to emit, greater than 25 tons of a regulated air pollutant per year; and
+2. The facility is revising a permit for a facility with a proposed emissions increase greater
+than 10 tons per year of a regulated air pollutant.
+While the BAPC uses the Environmental Protection Agency’s AERMOD modeling system to
+model the movement of regulated air pollutants, the facility may use other modeling platforms
+with approval from the EPA Model Clearinghouse. For questions regarding environmental
+evaluations and modeling, please contact the NDEP Bureau of Air Quality Planning at (775)
+687-9349 and ask for the modeling supervisor.
+
+14
+15
+
+NAC 445B.311(4).
+NAC 445B.310, NAC 445B.311
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+23
+
+NEVADA STANDARDSA
+
+NATIONAL STANDARDSB
+
+AVERAGING CONCENTRATION
+PRIMARY SECONDARYC,
+METHODD C, E
+C
+F
+TIME
+Chemilumines
+Ozone
+8 hours
+0.075 ppm
+0.070 ppm Same as primary
+cence
+Ozone-Lake
+0.10 ppm
+Ultraviolet
+1 hour
+--Tahoe Basin, #90
+(195 µg/m3)
+absorption
+Carbon monoxide
+less than 5,000′
+9 ppm
+above mean sea
+(10,500 µg/m3)
+9 ppm
+level
+8 hours
+Nondispersive (10 mg/m3)
+At or greater
+infrared
+None
+6 ppm
+than 5,000′ above
+photometry
+3
+(7,000 µg/m )
+mean sea level
+Carbon monoxide
+35 ppm
+35 ppm
+1 hour
+at any elevation
+(40,500 µg/m3)
+(40 mg/m3)
+Annual
+Gas phase
+0.053 ppm
+arithmetic
+chemilumines 53 ppbG
+Same as primary
+3
+(100 µg/m )
+mean
+cence
+Nitrogen dioxide
+POLLUTANT
+
+Sulfur dioxide
+
+1 hour
+
+100 ppb
+
+Annual
+arithmetic
+mean
+
+0.030 ppm
+(80 µg/m3)
+
+--
+
+Ultraviolet
+fluorescence
+
+100 ppb
+
+None
+
+0.03 ppmH
+(1971
+standard)
+0.14 ppmH
+(1971
+standard)
+
+None
+
+None
+
+0.5 ppm
+
+Chemiluminescence
+--
+
+Nondispersive
+infrared photometry
+
+Gas phase
+chemiluminescence
+
+Spectrophotometry
+(Pararosaniline
+method)
+
+24 hours
+
+0.14 ppm
+(365 µg/m3)
+
+3 hours
+
+0.5 ppm
+(1,300 µg/m3)
+
+1 hour
+
+75 ppb
+
+--
+
+75 ppb
+
+None
+
+None
+
+High volume
+PM10
+(sampling)
+
+None
+
+None
+
+150 µg/m3
+
+Same as primary
+
+Same as primary Low volume
+PM2.5sampling
+Same as primary
+
+Annual
+arithmetic
+Particulate matter mean
+as PM10
+24 hours
+Annual
+Particulate matter arithmetic
+mean
+as PM
+
+150 µg/m3
+12.0 µg/m3
+
+--
+
+12.0 µg/m3
+
+35 µg/m3
+
+--
+
+35 µg/m3
+
+2.5
+
+24 hours
+
+Lead (Pb)
+
+METHODD
+
+Rolling 3 mo.
+average
+
+Hydrogen sulfide 1 hour
+
+0.15 µg/m3
+
+0.08 ppm
+(112 µg/m3)I
+
+High volume
+sampling, acid
+extraction and
+0.15 µg/m3
+atomic
+absorption
+spectrometry
+Ultraviolet
+-fluorescence
+
+-High or low volume
+PM10 sampling
+
+High volume
+sampling, acid
+Same as primary extraction and
+atomic absorption
+spectrometry
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+--
+
+--
+
+24
+
+Provide the following information as an attachment for all permitted and IA emission units
+(unless the requested information is already given in another section of the application):
+
+
+Emission limit calculations, in spreadsheet form, of all regulated air pollutants (in
+pounds per hour (lb/hr)).
+
+
+
+UTM coordinates (in meters, NAD 83 / UTM Zone 11) of the locations of all the
+permitted and IA emission units.
+
+
+
+Stack parameters (height, diameter (or stack dimensions if non-circular), flow rate,
+temperature, location, etc.).
+
+
+
+Release dimensions for process fugitive emissions (transfer release height, drop
+distance, width of transfer).
+
+
+
+Tank dimensions and their UTM coordinates.
+
+
+
+Building height in feet and the NAD 83 UTM coordinates of each corner of each
+building.
+
+
+
+For tanks with a capacity greater than 10,000 gallons: tank height in feet and the NAD
+83 UTM coordinates of each corner of the tank if the tank is rectangular or the tank
+height and radius along with the UTM coordinates of the center if the tank is cylindrical.
+
+
+
+Facility plot plan with fence line boundary and UTM coordinates as requested in
+Chapter 8 Plant Boundary Coordinates Form and Chapter 9 Plant Building Parameters
+Form.
+
+
+
+Topographic Map (with scale and North arrow) as requested in Chapter 10.5 Maps.
+
+Provide all model input files required to perform the air dispersion modeling performed with the
+latest version of AERMOD. Provide a digital copy and a written report containing all the
+information above, as well as the meteorological data, terrain, receptors and grid spacing, the
+pollutants the model was run for, and the results table showing either passing or failing the
+Standards of Quality for Ambient Air in accordance with NAC 445B.22097.
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+25
+
+MANUFACTURER’S GUARANTEE
+EQUIPMENT SPECIFICATION SHEETS
+
+CERTIFICATIONS
+
+AND
+
+There are three instances when the facility should
+include a manufacturer’s guarantee:
+1. To show emission limits for all engines
+required to meet emission limits from a
+federal subpart.
+2. To show maximum fuel usage for
+engines without a fuel flow meter or a
+procedure to determine their fuel usage
+(see “Operating Parameters or Operating
+Parameters/Fuel Usage”).
+3. To support control efficiency or
+emissions calculations for all other
+emission units based on a manufacturer’s
+guarantee (see “Guidance on Emission
+Factors for the Mining Industry”).
+
+Manufacturer’s
+are important.
+
+guarantees
+
+The BAPC may be required to apply
+the uncontrolled emission factor to
+calculate the emission limit(s) if the
+facility does not attach these
+documents.
+
+Attach these documents after the corresponding
+application forms.
+
+SOURCE (STACK) TESTING DATA
+Attach any source testing data used to estimate emissions.
+
+TANKS EMISSIONS ESTIMATES
+Perform TANKs modeling in order to estimate emission limits from liquid storage tanks storing
+petroleum or VOCs. TANKs 4.0.9d modeling software can be found on EPA’s website. The
+TANKs report will show the VOC emission limit in pounds. Use this value to calculate the VOC
+emission limit in pounds per hour (lb/hr) and tons per year (tpy) and to back-calculate the
+emission factor for the storage tank.
+Include the TANKs report for all permitted and IA storage tanks within the application. If the
+facility does not want to use TANKS to estimate annual VOC emissions from the storage tank,
+the methodology outlined in AP-42 Chapter 7 can be used. (see “Detailed Emission
+Calculations”)
+
+Guidance Document for Class II Air Quality Operating Permit Application
+
+26
+
+11. APPLICATION CERTIFICATION DOCUMENT
+The last page of the Class II air permit application packet is the Application Certification
+Document — a short summary of the required documents in the application. It must be signed
+in ink by the responsible official (RO) of the company or facility.
+Check the boxes next to each submitted document, and make sure the Application Certification
+Document is signed by the RO listed in Section 6 of the General Company Information Form.
+Create a digital copy of the application, including all requested documents, and submit a digital
+and hard copy of the application with the application processing fee. The complete application
+package can be mailed or hand delivered to the BAPC office (see “Application Submittal and
+Processing Timeline”).
+
+12. MAINTENANCE/ANNUAL FEES
+See “How much does a permit cost?” online under the “Permit Guidance” page.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+27
+
+Appendix 1
+
+INDUSTRIAL PROCESS APPLICATION
+FORM EXAMPLE
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+28
+
+INDUSTRIAL PROCESS APPLICATION FORM
+CLASS II OPERATING PERMIT
+System Number and Name:
+
+System 1 – North Creek Crusher Circuit
+
+Emission Unit Description:
+
+Conveyor C-3 to Conveyor C-4
+
+Alternative Operating Scenario: ☐ Yes ☒ No
+Insignificant Activity: ☐ Yes ☒ No If yes, identify exemption regulation:
+Subject to a Federal Regulation (40 CFR Part 60, 61, or 63): ☐ Yes ☒ No If yes, identify in attached Process Narrative.
+Description
+Data
+BAPC
+
+Emission
+
+Unit
+
+ID
+
+Applicable for Renewal or Revision
+
+Source Classification Code (SCC)
+
+Equipment
+Description
+
+Manufacturer
+Date Manufactured
+Model Number
+Equipment Dimensions (LxWxH)
+Drop Length if applicable
+Drop Height if applicable
+
+eg. Unit ID:
+S2.001,
+PF1.001
+e.g. 3-03024-04 for
+Conveyors
+
+Feet
+Feet
+Feet
+
+S2.001
+3-05-002-17
+Industrial Products Inc.
+2006
+HF938271-d
+2’ x 2’ x 9’
+5’
+5’
+
+The drop height is measured from the ☐ top of the drop length ☐ middle of the drop length ☐ bottom of
+the drop length, in reference to the ground. Choose one, if applicable
+Drop Horizontal Dimension 1 if applicable
+Drop Horizontal Dimension 2 if applicable
+Emissions Released Inside building?
+Location of
+Emission
+Source
+Operating
+Parameters
+
+Control
+Equipment
+
+Stack
+Parameters
+
+Feet
+yes/no
+
+10’
+5’
+No
+
+UTM Northing (NAD 83, Zone 11)
+
+M
+
+4,410,203
+
+UTM Easting (NAD 83, Zone 11)
+Material Type Processed
+Batch Process if applicable
+Start Time if operating less than 24 hours/day
+End Time if operating less than 24 hours/day
+Manufacturer
+Manufacturer’s Guarantee Included?
+
+M
+
+331,732
+Aggregate
+N/A
+N/A
+N/A
+Water Co.
+
+If “yes”, attach manufacturer’s
+immediately after these forms.
+
+Stack Height
+Stack Inside Diameter
+Stack Temperature
+Stack Exit Velocity
+Actual Gas Volume Flow Rate
+Dry Gas Volume Flow Rate
+If not included in detailed calculations.
+
+Stack Release Type
+1.
+
+Feet
+
+sheets
+
+unit /batch
+hour:minute
+hour:minute
+
+yes/N/A
+
+N/A
+
+Feet
+
+Acfm
+
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Dscfm
+
+N/A
+
+Feet
+ºF
+feet/second
+
+☐ vertical
+
+☐ capped
+
+☐ horizontal
+
+How will throughput be monitored for this emission unit? Identify if the throughput will be monitored at this
+emission unit or at another emission unit and the method (e.g. weigh belt).
+A weigh belt on Conveyor C-4 will be installed.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+29
+
+Appendix 2
+COMBUSTION EQUIPMENT APPLICATION
+FORM EXAMPLE
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+30
+
+Combustion Equipment Application Form
+Page 1 of 2
+
+COMBUSTION EQUIPMENT APPLICATION FORM
+CLASS II OPERATING PERMIT
+System Number and Name:
+System 2 – Emergency Diesel Generator
+Emission Unit Description:
+Emergency Diesel Generator
+Alternative Operating Scenario: ☐ Yes ☒ No
+Insignificant Activity: ☐ Yes ☒ No If yes, identify exemption regulation:
+Subject to a Federal Regulation (40 CFR Part 60, 61, or 63): ☒ Yes ☐ No If yes, identify in process narrative.
+Description
+Data
+BAPC Emission Unit ID
+eg. Unit ID: S2.001
+S2.002
+Applicable for Renewal or Revision
+
+Equipment
+Description
+
+Source Classification Code (SCC)
+Manufacturer
+Date Manufactured
+Model and Serial Number
+Emissions Released Inside building?
+
+e.g. 3-03-024-04 for
+Conveyors
+
+2-01-001-02
+Cummins
+2007
+Model SD048, Serial 159df6
+No
+
+yes/no
+
+For
+Reciprocating
+Internal
+Combustion
+Engines
+(RICE) Only
+
+Type of Engine Code (See Notes*)
+
+Location of
+Emission
+Source
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+4,493,382
+
+UTM Easting (NAD 83, Zone 11)
+
+m
+
+588,574
+
+Operating
+Parameters
+/Fuel Usage
+
+Control
+Equipment
+
+Stack
+Parameters
+
+ECI
+
+Date Constructed
+
+month/day/yr
+
+8/26/2007
+
+Cylinder Displacement
+
+liter/cylinder
+
+< 10
+
+EPA Tier #
+
+2
+
+Fuel Type
+Fuel Flow Meter Installed?
+Sulfur Content
+Heat Content
+Start Time if operating less than 24 hours/day
+End Time if operating less than 24 hours/day
+
+yes/no/NA
+%
+Btu/gallons
+hour:minute
+hour:minute
+
+Manufacturer
+
+Cummins
+
+Manufacturer’s Guarantee Included?
+If “yes”, attach manufacturer’s
+immediately after these forms.
+
+sheets
+
+Stack Height
+Stack Inside Diameter
+Stack Temperature
+Stack Exit Velocity
+Actual Gas Volume Flow Rate
+Dry Gas Volume Flow Rate
+If not included in detailed calculations.
+
+yes/N/A
+
+N/A
+
+feet
+
+acfm
+
+7.1
+0.83
+893
+74
+14,920
+
+dscfm
+
+4,770
+
+feet
+ºF
+feet/second
+
+☒ vertical
+
+Stack Release Type
+Notes*
+Code
+LU
+LDG
+NECI
+ECI
+
+Fuel Oil #2 (Diesel)
+24
+100
+151.0
+N/A
+N/A
+
+Description
+Limited Use
+Landfill/Digester Gas
+Non-Emergency
+Compression
+Ignition
+Emergency Compression Ignition
+
+☐ capped
+
+Code
+E-SI
+SI4SRB
+
+Description
+Emergency Spark Ignition
+Spark Ignition 4-Stroke Rich Burn
+
+SI4SLB
+SI2SLB
+
+Spark Ignition 4-Stroke Lean Burn
+Spark Ignition 2-Stroke Lean Burn
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+☐ horizontal
+
+31
+
+COMBUSTION EQUIPMENT APPLICATION FORM
+CLASS II OPERATING PERMIT (continued)
+Emission Unit Description:
+
+Emergency Diesel Generator
+
+1.
+
+How will fuel consumption be monitored for this emission unit? (e.g. maximum fuel consumption rate supplied
+by manufacturer, fuel flow meter).
+Fuel Flow Meter
+
+2.
+
+Does this unit have the capability to bypass air pollution controls in an emergency situation as defined under NAC
+445B.056?:
+☐ Yes ☒ No
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+32
+
+Appendix 3
+EXAMPLE OF EMISSION LIMIT
+CALCULATIONS FOR CONVEYOR TRANSFER
+POINTS
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+33
+
+Operating Hours
+Unit No.
+
+Unit Description
+
+System No. & Name:
+
+Daily
+
+Annual
+
+Throughput
+
+Hourly
+
+Annual
+
+Controls
+
+Units
+
+Type
+
+Emissions
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+Hourly Rate Yearly Rate
+Pollutant
+
+Load Transfer to Feed Hopper
+
+System No. & Name:
+
+PF1.002
+
+Feed Hopper Transfer to Feed Hopper
+Conveyor
+System No. & Name:
+
+PF1.003
+
+Feed Hopper Conveyor and Transfer to
+Main Conveyor
+
+References
+
+Unit
+(lbs/hr)
+
+(tons/yr)
+
+System 01 - Conveyor Transfer and Loading
+PM
+
+PF1.001
+
+Factor
+
+10
+
+2,600
+
+350
+
+100,000
+
+Tons of
+Rock
+
+Water
+Sprays
+
+75%
+
+0.003
+
+lb/ton
+
+0.26
+
+0.038
+
+PM 10
+
+0.0011
+
+lb/ton
+
+0.096
+
+0.014
+
+PM 2.5
+
+0.00017
+
+lb/ton
+
+0.015
+
+0.002
+
+PM
+
+0.003
+
+lb/ton
+
+0.26
+
+0.038
+
+AP-42 Ch. 11.19.2-2 Conveyor Transfer Point (Uncontrolled) w/ 75%
+control reduction
+AP-42 Ch. 11.19.2-2 Conveyor Transfer Point (Uncontrolled) w/ 75%
+control reduction
+PM2.5=(PM10)*(0.53/0.035) w/ 75% control reduction
+
+System 01 - Conveyor Transfer and Loading
+
+10
+
+2,600
+
+350
+
+100,000
+
+Tons of
+Rock
+
+Water
+Sprays
+
+75%
+
+PM 10
+
+0.0011
+
+lb/ton
+
+0.096
+
+0.014
+
+PM 2.5
+
+0.00017
+
+lb/ton
+
+0.015
+
+0.002
+
+PM
+
+0.003
+
+lb/ton
+
+0.26
+
+0.038
+
+PM 10
+
+0.0011
+
+lb/ton
+
+0.096
+
+0.014
+
+PM 2.5
+
+0.00017
+
+lb/ton
+
+0.015
+
+0.002
+
+AP-42 Ch. 11.19.2-2 Conveyor Transfer Point (Uncontrolled) w/ 75%
+control reduction
+AP-42 Ch. 11.19.2-2 Conveyor Transfer Point (Uncontrolled) w/ 75%
+control reduction
+PM2.5=(PM10)*(0.53/0.035) w/ 75% control reduction
+
+System 01 - Conveyor Transfer and Loading
+
+10
+
+2,600
+
+350
+
+100,000
+
+Tons of
+Rock
+
+Water
+Sprays
+
+75%
+
+AP-42 Ch. 11.19.2-2 Conveyor Transfer Point (Uncontrolled) w/ 75%
+control reduction
+AP-42 Ch. 11.19.2-2 Conveyor Transfer Point (Uncontrolled) w/ 75%
+control reduction
+PM2.5=(PM10)*(0.53/0.035) w/ 75% control reduction
+
+Formulas Used for Calculating Emission Limits
+𝑬𝑳 𝒍𝒃 = (𝑻𝒉𝒉𝒐𝒖𝒓 ∗ 𝑬𝑭) ∗ (𝟏 − 𝑪𝒆𝒇𝒇 )
+𝒉𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 =
+𝒚𝒆𝒂𝒓
+
+(𝑻𝒉𝒚𝒆𝒂𝒓 ∗𝑬𝑭)∗(𝟏−𝑪𝒆𝒇𝒇 )
+𝟐,𝟎𝟎𝟎
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+Where:
+𝑪𝒆𝒇𝒇 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝐶𝑜𝑛𝑡𝑟𝑜𝑙 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑐𝑜𝑛𝑡𝑟𝑜𝑙 𝑎𝑛𝑑 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡.
+𝑬𝑭 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝑈𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡.
+𝑬𝑳 𝒍𝒃 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+
+Example Calculation:
+
+𝑬𝑳 𝒍𝒃 𝒐𝒇 𝑷𝑴 = ቀ𝟑𝟓𝟎
+𝒉𝒓
+
+𝟎. 𝟐𝟔𝟑
+
+𝒉𝒓
+
+𝑻𝒉𝒉𝒐𝒖𝒓 = 𝑇ℎ𝑒 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑀𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑠𝑦𝑠𝑡𝑒𝑚 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝑻𝒉𝒚𝒆𝒂𝒓 = 𝑇ℎ𝑒 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑀𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑠𝑦𝑠𝑡𝑒𝑚 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+
+∗ 𝟎. 𝟎𝟎𝟑𝟎
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+ቁ ∗ (𝟏 − 𝟎. 𝟕𝟓𝟎) =
+
+𝒍𝒃
+𝒉𝒐𝒖𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝒕𝒐𝒏𝒔
+𝒉𝒐𝒖𝒓
+
+𝒕𝒐𝒏𝒔
+
+𝑬𝑳 𝒕𝒐𝒏 𝒐𝒇 𝑷𝑴 =
+𝒚𝒆𝒂𝒓
+
+𝒍𝒃
+
+𝟏𝟎𝟎,𝟎𝟎𝟎 𝒚𝒆𝒂𝒓 ∗ 𝟎.𝟎𝟎𝟑𝟎 𝒕𝒐𝒏∗(𝟏−𝟎.𝟕𝟓𝟎)
+𝟐,𝟎𝟎𝟎
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+𝒕𝒐𝒏
+𝒚𝒆𝒂𝒓
+
+Notes: The end result emission limits were intentionally rounded
+up in the table so that all emissions were included, even when the
+answer is held to two significant figures.
+In this example 𝐶𝑒𝑓𝑓 = 75.0% = 0.750.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+= 𝟎. 𝟎𝟑𝟕𝟓
+
+34
+
+Appendix 4
+EXAMPLE OF EMISSION LIMIT
+CALCULATIONS FOR NON-METALLIC
+CRUSHING
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+35
+
+Operating Hours
+Unit No.
+
+Unit Description
+
+System No. & Name:
+
+PF1.004
+
+Daily
+
+Annual
+
+Throughput
+
+Hourly
+
+Annual
+
+Controls
+
+Units
+
+Type
+
+Emissions
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+Hourly Rate Yearly Rate
+Pollutant
+
+PM
+10
+
+2,600
+
+350
+
+100,000
+
+Tons of
+Aggregate
+
+Water
+Sprays
+
+75%
+
+Formulas for calculating Emission Limits
+𝒉𝒓
+
+References
+
+Unit
+(lbs/hr)
+
+(tons/yr)
+
+0.47
+
+0.068
+
+System 02 - Cone Crusher
+
+Cone Crusher Including Associated
+Transfers (in from Main Conveyor and
+Discharge to Conveyor C-1)
+
+𝑬𝑳 𝒍𝒃 = (𝑻𝒉𝒉𝒐𝒖𝒓 ∗ 𝑬𝑭) ∗ (𝟏 − 𝑪𝒆𝒇𝒇 )
+
+Factor
+
+𝑬𝑳 𝒕𝒐𝒏 =
+𝒚𝒆𝒂𝒓
+
+(𝑻𝒉𝒚𝒆𝒂𝒓 ∗𝑬𝑭)∗(𝟏−𝑪𝒆𝒇𝒇 )
+
+0.0054
+
+lb/ton
+
+PM 10
+
+0.0024
+
+lb/ton
+
+0.21
+
+0.030
+
+PM2.5
+
+0.00036
+
+lb/ton
+
+0.032
+
+0.0045
+
+AP-42 Ch. 11.19.2-2 Tertiary Crushing (Uncontrolled) w/ 75% control
+reduction
+AP-42 Ch. 11.19.2-2 Tertiary Crushing (Uncontrolled) w/ 75% control
+reduction
+PM2.5=(PM10)*(0.53/0.035) w/ 75% control reduction
+
+Example Calculation:
+
+𝒍𝒃
+𝟐,𝟎𝟎𝟎
+𝒕𝒐𝒏
+
+Where:
+𝑪𝒆𝒇𝒇 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝐶𝑜𝑛𝑡𝑟𝑜𝑙 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑐𝑜𝑛𝑡𝑟𝑜𝑙 𝑎𝑛𝑑 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡.
+𝑬𝑭 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝑈𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡.
+𝑬𝑳 𝒍𝒃 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝒉𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝑻𝒉𝒉𝒐𝒖𝒓 = 𝑇ℎ𝑒 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑀𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑐𝑟𝑢𝑠ℎ𝑒𝑟 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝑻𝒉𝒚𝒆𝒂𝒓 = 𝑇ℎ𝑒 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑀𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑐𝑟𝑢𝑠ℎ𝑒𝑟 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+
+𝑬𝑳 𝒍𝒃 𝒐𝒇 𝑷𝑴 = ቀ𝟑𝟓𝟎
+𝒉𝒓
+
+𝟎. 𝟒𝟕𝟑
+
+𝒕𝒐𝒏𝒔
+𝒉𝒐𝒖𝒓
+
+∗ 𝟎. 𝟎𝟎𝟓𝟒
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+𝒉𝒐𝒖𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 𝒐𝒇 𝑷𝑴 =
+𝒚𝒆𝒂𝒓
+
+𝟏𝟎𝟎,𝟎𝟎𝟎
+
+𝒕𝒐𝒏𝒔
+𝒍𝒃
+∗ 𝟎.𝟎𝟎𝟓𝟒
+∗(𝟏−𝟎.𝟕𝟓𝟎)
+𝒚𝒆𝒂𝒓
+𝒕𝒐𝒏
+𝒍𝒃
+𝟐,𝟎𝟎𝟎
+𝒕𝒐𝒏
+
+= 𝟎. 𝟎𝟔𝟖
+
+𝒕𝒐𝒏
+𝒚𝒆𝒂𝒓
+
+Notes: The end result emission limits were intentionally rounded
+up in the table so that all emissions were included, even when the
+answer is held to two significant figures.
+In this example 𝐶𝑒𝑓𝑓 = 75.0% = 0.750
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+ቁ ∗ (𝟏 − 𝟎. 𝟕𝟓𝟎) =
+
+𝒍𝒃
+
+36
+
+Appendix 5
+EXAMPLE OF EMISSION LIMIT
+CALCULATIONS FOR NON-METALLIC
+SCREENING
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+37
+
+Operating Hours
+Unit No.
+
+Unit Description
+
+System No. & Name:
+
+PF1.005
+
+Screen Including Associated Transfers (in
+from Conveyor C-1 and Discharge to
+Conveyor C-2 and Crusher Feed Conveyor
+C-3)
+
+Daily
+
+Annual
+
+Throughput
+
+Hourly
+
+Annual
+
+Controls
+
+Units
+
+Type
+
+Emissions
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+Hourly Rate Yearly Rate
+Pollutant
+
+𝒉𝒓
+
+References
+
+Unit
+(lbs/hr)
+
+(tons/yr)
+
+0.31
+
+System 03 - Screen
+PM
+10
+
+2,600
+
+350
+
+100,000
+
+Tons of
+Aggregate
+
+Water
+Sprays
+
+75%
+
+Formulas Used for Calculating Emission Limits
+𝑬𝑳 𝒍𝒃 = (𝑻𝒉𝒉𝒐𝒖𝒓 ∗ 𝑬𝑭) ∗ (𝟏 − 𝑪𝒆𝒇𝒇 )
+
+Factor
+
+𝑬𝑳 𝒕𝒐𝒏 =
+𝒚𝒆𝒂𝒓
+
+(𝑻𝒉𝒚𝒆𝒂𝒓 ∗𝑬𝑭)∗(𝟏−𝑪𝒆𝒇𝒇 )
+
+0.025
+
+lb/ton
+
+2.19
+
+PM 10
+
+0.0087
+
+lb/ton
+
+0.76
+
+0.11
+
+PM2.5
+
+0.00132
+
+lb/ton
+
+0.12
+
+0.017
+
+AP-42 Ch. 11.19.2 Crushed Stone and Pulverized Mineral Processing
+(Uncontrolled) w/ 75% control reduction
+AP-42 Ch. 11.19.2 Crushed Stone and Pulverized Mineral Processing
+(Uncontrolled) w/ 75% control reduction
+PM2.5=(PM10)*(0.53/0.035) w/ 75% control reduction
+
+Example Calculation:
+
+𝒍𝒃
+𝟐,𝟎𝟎𝟎
+𝒕𝒐𝒏
+
+Where:
+𝑪𝒆𝒇𝒇 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝐶𝑜𝑛𝑡𝑟𝑜𝑙 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑐𝑜𝑛𝑡𝑟𝑜𝑙 𝑎𝑛𝑑 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 .
+𝑬𝑭 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝑈𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡.
+𝑬𝑳 𝒍𝒃 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+
+𝑬𝑳 𝒍𝒃 𝒐𝒇 𝑷𝑴 = ቀ𝟑𝟓𝟎
+𝒉𝒓
+
+𝟐. 𝟏𝟖𝟖
+
+𝒕𝒐𝒏𝒔
+𝒉𝒐𝒖𝒓
+
+∗ 𝟎. 𝟎𝟐𝟓
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+ቁ ∗ (𝟏 − 𝟎. 𝟕𝟓𝟎) =
+
+𝒍𝒃
+𝒉𝒐𝒖𝒓
+
+𝒉𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝑻𝒉𝒉𝒐𝒖𝒓 = 𝑇ℎ𝑒 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑀𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑠𝑐𝑟𝑒𝑒𝑛 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝑻𝒉𝒚𝒆𝒂𝒓 = 𝑇ℎ𝑒 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑀𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑠𝑐𝑟𝑒𝑒𝑛 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+
+𝒕𝒐𝒏𝒔
+
+𝑬𝑳 𝒕𝒐𝒏 𝒐𝒇 𝑷𝑴 =
+𝒚𝒆𝒂𝒓
+
+𝒍𝒃
+
+𝟏𝟎𝟎,𝟎𝟎𝟎 𝒚𝒆𝒂𝒓 ∗ 𝟎.𝟎𝟐𝟓 𝒕𝒐𝒏∗(𝟏−𝟎.𝟕𝟓𝟎)
+𝟐,𝟎𝟎𝟎
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+= 𝟎. 𝟑𝟏𝟑
+
+𝒕𝒐𝒏
+𝒚𝒆𝒂𝒓
+
+Notes: The end result emission limits were intentionally rounded
+up in the table so that all emissions were included, even when the
+answer is held to two significant figures.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+38
+
+Appendix 6
+EXAMPLE OF EMISSION LIMIT
+CALCULATIONS FOR BAGHOUSE
+CONTROLLED SYSTEM
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+39
+
+Operating Hours
+Unit No.
+
+Unit Description
+
+Daily
+
+Annual
+
+Throughput
+
+Hourly
+
+System No. & Name:
+S2.001
+
+24
+
+System No. & Name:
+
+System No. & Name:
+
+8,400
+
+8,400
+
+0.02
+
+PM 2.5
+
+0.02
+
+References
+
+(lbs/hr)
+
+(tons/yr)
+
+40
+
+336,000
+
+Tons of
+Aggregate
+
+Baghouse
+BH-1
+
+2,500
+DSCFM
+
+gr/dscf
+
+0.43
+
+1.80
+
+BAPC Default Value: Baghouse Grain Loading
+
+gr/dscf
+
+0.43
+
+1.80
+
+BAPC Default Value: Baghouse Grain Loading
+
+gr/dscf
+
+0.43
+
+1.80
+
+BAPC Default Value: Baghouse Grain Loading
+
+40
+
+336,000
+
+Tons of
+Aggregate
+
+Baghouse
+BH-1
+
+2,500
+DSCFM
+
+PM 10
+
+All controlled emissions are combined (see S2.001 Emissions)
+
+PM 2.5
+
+8,400
+
+24
+
+8,400
+
+Formulas Used for Calculating Emission Limits
+𝑫𝑺𝑪𝑭
+𝒈𝒓
+𝒎𝒊𝒏
+𝟏 𝒍𝒃
+𝑬𝑳 𝒍𝒃 = ቀ𝑭𝑹
+∗ 𝑬𝑭
+ቁ ∗ 𝟔𝟎
+∗
+𝑫𝑺𝑪𝑭
+
+0.02
+
+Unit
+
+40
+
+336,000
+
+Tons of
+Aggregate
+
+Baghouse
+BH-1
+
+2,500
+DSCFM
+
+Tons of
+Aggregate
+
+Baghouse
+BH-1
+
+2,500
+DSCFM
+
+PM
+All controlled emissions are combined (see S2.001 Emissions)
+
+PM 10
+PM 2.5
+
+Included under System 03 - Screen
+
+Crusher Transfer Conveyor C-5 and
+Discharge to Kiln Hopper Feed Conveyor
+C-6
+
+𝒎𝒊𝒏
+
+PM
+PM 10
+
+Hourly Rate Yearly Rate
+Factor
+
+PM
+24
+
+24
+
+System No. & Name:
+
+𝒉𝒓
+
+Pollutant
+
+Included under System 03 - Screen
+
+Crusher Discharge Conveyor C-4 and
+Discharge to Crusher Transfer Conveyor
+C-5
+
+S2.004
+
+Type
+
+Included under System 03 - Screen
+
+Three Roll Crusher Including Transfer in
+from Crusher Feed Conveyor C-3 and
+Discharge to Crusher Discharge Conveyor
+C-4
+
+S2.003
+
+Units
+
+Emissions
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+System 03 - Screen
+
+Crusher Feed Conveyor C-3
+
+S2.002
+
+Annual
+
+Controls
+
+𝒉𝒐𝒖𝒓
+
+𝟕,𝟎𝟎𝟎 𝒈𝒓
+
+40
+
+336,000
+
+𝑬𝑳 𝒕𝒐𝒏 = ቀ𝑭𝑹
+𝒚𝒆𝒂𝒓
+
+𝑫𝑺𝑪𝑭
+𝒎𝒊𝒏
+
+∗ 𝑬𝑭
+
+𝒈𝒓
+𝑫𝑺𝑪𝑭
+
+PM
+All controlled emissions are combined (see S2.001 Emissions)
+
+PM 10
+PM 2.5
+
+ቁ ∗ 𝟔𝟎
+
+𝒎𝒊𝒏
+𝒉𝒐𝒖𝒓
+
+∗
+
+𝟏 𝒍𝒃
+𝟕,𝟎𝟎𝟎 𝒈𝒓
+
+Where:
+𝑬𝑭 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑔𝑟𝑎𝑖𝑛𝑠 𝑝𝑒𝑟 𝑑𝑟𝑦 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝑐𝑢𝑏𝑖𝑐 𝑓𝑒𝑒𝑡.
+𝑬𝑳 𝒍𝒃 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝒉𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝑭𝑹𝑫𝑺𝑪𝑭 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝐵𝑎𝑔ℎ𝑜𝑢𝑠𝑒 𝑆𝑡𝑎𝑐𝑘 𝐸𝑥𝑖𝑡 𝐹𝑙𝑜𝑤 𝑅𝑎𝑡𝑒 𝑖𝑛 𝑑𝑟𝑦 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝑐𝑢𝑏𝑖𝑐 𝑓𝑒𝑒𝑡 𝑝𝑒𝑟 𝑚𝑖𝑛𝑢𝑡𝑒.
+𝒎𝒊𝒏
+
+𝒕𝒚𝒆𝒂𝒓 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑜𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 ℎ𝑜𝑢𝑟𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+40
+
+∗ 𝒕𝒚𝒆𝒂𝒓 ∗
+
+𝟏 𝒕𝒐𝒏
+𝟐,𝟎𝟎𝟎 𝒍𝒃
+
+Example Calculation:
+𝑬𝑳 𝒍𝒃 = ൬𝟐, 𝟓𝟎𝟎
+𝒉𝒓
+
+𝑫𝑺𝑪𝑭
+𝒈𝒓
+𝒎𝒊𝒏
+𝟏 𝒍𝒃
+𝒍𝒃
+∗ 𝟎. 𝟎𝟐
+൰ ∗ 𝟔𝟎
+∗
+= 𝟎. 𝟒𝟐𝟗
+𝒎𝒊𝒏
+𝑫𝑺𝑪𝑭
+𝒉𝒐𝒖𝒓 𝟕, 𝟎𝟎𝟎 𝒈𝒓
+𝒉𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 = ൬𝟐, 𝟓𝟎𝟎
+𝒚𝒆𝒂𝒓
+
+𝑫𝑺𝑪𝑭
+𝒈𝒓
+𝒎𝒊𝒏
+𝟏 𝒍𝒃
+𝒉𝒓
+𝟏 𝒕𝒐𝒏
+𝒕𝒐𝒏
+∗ 𝟎. 𝟎𝟐
+൰ ∗ 𝟔𝟎
+∗
+∗ 𝟖, 𝟒𝟎𝟎
+∗
+= 𝟏. 𝟖𝟎
+𝒎𝒊𝒏
+𝑫𝑺𝑪𝑭
+𝒉𝒐𝒖𝒓 𝟕, 𝟎𝟎𝟎 𝒈𝒓
+𝒚𝒆𝒂𝒓 𝟐, 𝟎𝟎𝟎 𝒍𝒃
+𝒚𝒆𝒂𝒓
+
+Notes: The end result emission limits may be intentionally rounded up in the table so that all emissions were included, even when the answer is held to two
+significant figures.
+In this calculation, the ratio
+
+𝟏 𝒍𝒃
+𝟕,𝟎𝟎𝟎 𝒈𝒓
+
+is a conversion factor of 7,000 grains in one pound of material.
+
+gr = grain
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+41
+
+Appendix 7
+EXAMPLE OF EMISSION LIMIT
+CALCULATIONS FOR COOLING TOWERS
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+42
+
+Operating Hours
+Unit No.
+
+Unit Description
+
+System No. & Name:
+
+S2.005
+
+Cooling Tower #2
+
+Daily
+
+Annual
+
+Throughput
+
+Hourly
+
+Annual
+
+Controls
+
+Units
+
+Type
+
+Emissions
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+Hourly Rate Yearly Rate
+Pollutant
+
+Factor
+
+References
+
+Unit
+(lbs/hr)
+
+(tons/yr)
+
+System 05 - Cooling Tower
+24
+
+8,760
+
+Maximum
+Throughput
+Rate
+(gal/min)
+
+10,500
+
+630,000
+
+Drift Loss
+(%)
+
+0.005%
+
+Total
+Dissolved
+Solids
+(ppmv)
+
+2,750
+
+5,518,800
+
+Gallons of
+Water
+
+Drfit
+Eliminator
+
+PM
+
+0.00459
+
+lb/1000 gal
+
+0.73
+
+3.17
+
+AP-42 Table 13.4-1 Induced Draft (w/ 75% control reduction) see
+attached calculation
+
+PM 10
+
+0.00459
+
+lb/1000 gal
+
+0.73
+
+3.17
+
+AP-42 Table 13.4-1 Induced Draft (w/ 75% control reduction) see
+attached calculation
+
+PM 2.5
+
+0.00459
+
+lb/1000 gal
+
+0.73
+
+3.170
+
+AP-42 Table 13.4-1 Induced Draft (w/ 75% control reduction) see
+attached calculation
+
+75%
+
+Data given by Applicant for the Cooling Tower:
+Drift Loss = Dloss = 0.005% = 0.00005
+Maximum Water Throughput Rate (or Maximum Water recirculation Rate) = WTR = 10,500
+
+gal
+min
+
+= 630,000
+
+Total Dissolved Solids = TDS = 2,750 ppmw
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+43
+
+gal
+hour
+
+= 5,518,800,000
+
+gal
+year
+
+Formulas Used for Calculating Emission Limits
+𝑬𝑭𝑷𝑴𝟏𝟎 =
+
+𝑻𝑳𝑫𝑳
+𝒍𝒃 𝑻𝑫𝑺
+𝟖. 𝟑𝟒 𝒍𝒃 𝒘𝒂𝒕𝒆𝒓
+∗ 𝟔
+∗
+𝟏𝟎𝟎% 𝟏𝟎 𝒍𝒃 𝒅𝒓𝒊𝒇𝒕 𝒈𝒂𝒍𝒍𝒐𝒏 𝒘𝒂𝒕𝒆𝒓
+
+𝑫𝒖𝒏𝒄𝒐𝒏𝒕𝒓𝒐𝒍𝒍𝒆𝒅 =
+𝑬𝑳
+
+𝑷𝑴𝟏𝟎
+
+𝑫𝒍𝒐𝒔𝒔
+𝑻𝑳𝑫𝑳
+
+𝒍𝒃 = 𝑬𝑭𝑷𝑴𝟏𝟎 ∗ 𝑾𝑻𝑹 ∗
+𝒉𝒓
+
+𝑬𝑳
+𝑬𝑳𝑷𝑴𝟏𝟎 𝒕𝒐𝒏 =
+𝒚𝒆𝒂𝒓
+
+𝑬𝑳
+
+𝑷𝑴𝟏𝟎
+
+𝑷𝑴𝟏𝟎
+
+𝟔𝟎 𝒎𝒊𝒏
+∗ 𝑫𝒖𝒏𝒄𝒐𝒏𝒕𝒓𝒐𝒍𝒍𝒆𝒅
+𝒉𝒐𝒖𝒓
+
+𝒍𝒃 ∗ 𝒕𝒚𝒆𝒂𝒓
+𝒉𝒓
+
+𝟐, 𝟎𝟎𝟎
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+𝒍𝒃 = 𝑬𝑳
+𝒍𝒃 ∗ 𝒕𝒚𝒆𝒂𝒓
+𝑷𝑴𝟏𝟎
+𝒚𝒆𝒂𝒓
+𝒉𝒓
+
+Where:
+𝑫𝒖𝒏𝒄𝒐𝒏𝒕𝒓𝒐𝒍𝒍𝒆𝒅 = 𝑇𝑜𝑤𝑒𝑟 𝑈𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 𝐷𝑟𝑖𝑓𝑡.
+𝑫𝒍𝒐𝒔𝒔 = 𝐷𝑟𝑖𝑓𝑡 𝐿𝑜𝑠𝑠 𝑒𝑥𝑝𝑟𝑒𝑠𝑠𝑒𝑑 𝑎𝑠 𝑎 𝑝𝑒𝑟𝑐𝑒𝑛𝑡, 𝑖𝑠 𝑝𝑟𝑜𝑣𝑖𝑑𝑒𝑑 𝑏𝑦 𝑃𝑒𝑟𝑚𝑖𝑡𝑡𝑒𝑒.
+𝑬𝑭𝑷𝑴𝟏𝟎 = 𝑇ℎ𝑒 𝑇𝑜𝑡𝑎𝑙 𝑈𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟 𝑓𝑜𝑟 𝑃𝑀10 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 1,000 𝑔𝑎𝑙𝑙𝑜𝑛𝑠 𝑜𝑓 𝑤𝑎𝑡𝑒𝑟 𝑟𝑒𝑐𝑖𝑟𝑐𝑢𝑙𝑎𝑡𝑒𝑑.
+𝑬𝑳
+𝒍𝒃 = 𝑇ℎ𝑒 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑃𝑀10 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝑷𝑴𝟏𝟎
+
+𝑬𝑳
+
+𝑷𝑴𝟏𝟎
+
+𝒉𝒓
+
+𝒍𝒃 = 𝑇ℎ𝑒 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑃𝑀10 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝑬𝑳𝑷𝑴𝟏𝟎 𝒕𝒐𝒏 = 𝑇ℎ𝑒 𝑅𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑃𝑀10 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝒕𝒚𝒆𝒂𝒓 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑜𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 ℎ𝑜𝑢𝑟𝑠 𝑖𝑛 ℎ𝑜𝑢𝑟𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟 .
+𝑻𝑫𝑺 = 𝑇𝑜𝑡𝑎𝑙 𝐷𝑖𝑠𝑜𝑙𝑣𝑒𝑑 𝑆𝑜𝑙𝑖𝑑𝑠 𝑖𝑛 𝑝𝑎𝑟𝑡𝑠 𝑝𝑒𝑟 𝑚𝑖𝑙𝑙𝑖𝑜𝑛 𝑏𝑦 𝑤𝑒𝑖𝑔ℎ𝑡 .
+𝑻𝑳𝑫𝑳 = 𝑇ℎ𝑒 𝑇𝑜𝑡𝑎𝑙 𝐿𝑖𝑞𝑢𝑖𝑑 𝐷𝑟𝑖𝑓𝑡 𝐿𝑜𝑠𝑠 𝑒𝑥𝑝𝑟𝑒𝑠𝑠𝑒𝑑 𝑎𝑠 𝑎 𝑝𝑒𝑟𝑐𝑒𝑛𝑡 (𝑓𝑟𝑜𝑚 𝐴𝑃 42 𝐶ℎ. 13.4 𝑊𝑒𝑡 𝐶𝑜𝑜𝑙𝑖𝑛𝑔 𝑇𝑜𝑤𝑒𝑟𝑠, 𝑇𝑎𝑏𝑙𝑒 13.4 − 1).
+𝑾𝑻𝑹 = 𝑇ℎ𝑒 𝑀𝑎𝑥𝑖𝑚𝑢𝑚 𝑊𝑎𝑡𝑒𝑟 𝑇ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑅𝑎𝑡𝑒 𝑖𝑛 𝑔𝑎𝑙𝑙𝑜𝑛 𝑝𝑒𝑟 𝑚𝑖𝑛𝑢𝑡𝑒, 𝑔𝑎𝑙𝑙𝑜𝑛 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟, 𝑜𝑟 𝑔𝑎𝑙𝑙𝑜𝑛 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+44
+
+Example Calculation:
+𝑬𝑭𝑷𝑴𝟏𝟎 = 𝟎. 𝟎𝟎𝟎𝟐𝟎 ∗
+
+𝑫𝒖𝒏𝒄𝒐𝒏𝒕𝒓𝒐𝒍𝒍𝒆𝒅 =
+𝑬𝑳
+
+𝟐, 𝟕𝟓𝟎 𝒍𝒃 𝑻𝑫𝑺 𝟖. 𝟑𝟒 𝒍𝒃 𝒘𝒂𝒕𝒆𝒓
+𝒍𝒃 𝑻𝑫𝑺
+𝒍𝒃 𝑷𝑴𝟏𝟎
+∗
+= 𝟎. 𝟎𝟎𝟒𝟓𝟗
+= 𝟎. 𝟎𝟎𝟒𝟓𝟗
+𝟏𝟎𝟔 𝒍𝒃 𝒅𝒓𝒊𝒇𝒕
+𝒈𝒂𝒍 𝒘𝒂𝒕𝒆𝒓
+𝟏𝟎𝟎𝟎 𝒈𝒂𝒍
+𝟏𝟎𝟎𝟎 𝒈𝒂𝒍
+
+𝟎. 𝟎𝟎𝟓%
+= 𝟎. 𝟐𝟓
+𝟎. 𝟎𝟐𝟎%
+
+𝒍𝒃 𝑷𝑴𝟏𝟎
+𝒈𝒂𝒍 𝟔𝟎 𝒎𝒊𝒏
+𝒍𝒃
+∗ 𝟏𝟎, 𝟓𝟎𝟎
+∗
+∗ 𝟎. 𝟐𝟓 = 𝟎. 𝟕𝟐𝟑
+𝒍𝒃 = 𝟎. 𝟎𝟎𝟒𝟓𝟗
+𝑷𝑴𝟏𝟎
+𝟏𝟎𝟎𝟎 𝒈𝒂𝒍
+𝒎𝒊𝒏 𝒉𝒐𝒖𝒓
+𝒉𝒐𝒖𝒓
+𝒉𝒓
+
+𝑬𝑳𝑷𝑴𝟏𝟎 𝒕𝒐𝒏 =
+
+𝒍𝒃
+𝒉𝒐𝒖𝒓
+∗ 𝟖, 𝟕𝟔𝟎
+𝒕𝒐𝒏
+𝒉𝒐𝒖𝒓
+𝒚𝒆𝒂𝒓
+= 𝟑. 𝟏𝟔𝟕
+𝒍𝒃
+𝒚𝒆𝒂𝒓
+𝟐, 𝟎𝟎𝟎
+𝒕𝒐𝒏
+
+𝑬𝑳𝑷𝑴𝟏𝟎 𝒕𝒐𝒏 = 𝟎. 𝟕𝟐𝟒
+
+𝒍𝒃
+𝒉𝒐𝒖𝒓𝒔
+𝒍𝒃
+∗ 𝟖, 𝟕𝟔𝟎
+= 𝟔, 𝟑𝟒𝟎
+𝒉𝒐𝒖𝒓
+𝒚𝒆𝒂𝒓
+𝒚𝒆𝒂𝒓
+
+𝟎. 𝟕𝟐𝟑
+𝒚𝒆𝒂𝒓
+
+𝒚𝒆𝒂𝒓
+
+Notes: The end result emission limits may be intentionally rounded up in the table so that all emissions were included, even when the answer is held to two
+significant figures.
+In this calculation TLDL = 0.020% = 0.00020.
+With cooling towers, all particulate matter is assumed to be equal to PM10, thus PM = PM10 = PM2.5.
+0.020%
+If the Applicant does not provide the Drift Loss percentage (𝐷𝑙𝑜𝑠𝑠 ), then 𝐷𝑙𝑜𝑠𝑠 defaults to an assumed value of 0.020% and 𝐷𝑢𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 =
+= 1.
+If 𝐸𝐿𝑃𝑀10 𝑙𝑏 is less than4,000
+𝑦𝑒𝑎𝑟
+
+𝑦𝑒𝑎𝑟
+
+If 𝐸𝐿𝑃𝑀10 𝑙𝑏 is greater than4,000
+𝑦𝑒𝑎𝑟
+
+0.020%
+
+𝑙𝑏
+
+, then the Applicant may request a determination by the BAPC that the unit be considered an Insignificant Activity.
+𝑙𝑏
+
+𝑦𝑒𝑎𝑟
+
+, then the cooling tower may not be considered an Insignificant Activity and must be a permitted system.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+45
+
+Appendix 8
+EXAMPLE OF EMISSION LIMIT CALCULATIONS
+FOR DRYING OVEN COMBINED EMISSIONS
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+46
+
+Operating Hours
+Unit No.
+
+System No. & Name:
+1.5 MMBtu/hr Drying Oven and
+Discharge to Supersacks
+(Throughput of Metallic Ore)
+System No. & Name:
+
+S2.006b
+
+1.5 MMBtu/hr Drying Oven and
+Dsicharge to Supersacs
+(Combustion)
+
+Annual
+
+Hourly
+
+Power Output
+
+24
+
+Annual
+
+Hourly
+
+Annual
+
+Units
+
+Amount
+
+Units
+
+6,000
+
+N/A
+
+N/A
+
+5
+
+Tons of
+Metallic Ore
+
+30,000
+
+N/A
+
+N/A
+
+24
+
+6,000
+
+1.5
+
+8,996
+
+1,470
+
+8,820,000
+
+Heat Input
+
+Cubic Feet
+of Natural
+Gas
+
+N/A
+
+N/A
+
+N/A
+
+Fuel Usage
+
+(MMBtu)
+
+Pollutant
+
+PM
+
+0.12
+
+N/A
+
+PM 10
+
+0.06
+
+PM 2.5
+
+Factor
+
+Unit
+
+Hourly Rate Yearly Rate
+
+References
+
+(lbs/hr)
+
+(tons/yr)
+
+lb/ton
+
+0.6
+
+1.8
+
+AP-42 Ch. 11.24, Table 11.24-2 (Uncontrolled)
+
+lb/ton
+
+0.3
+
+0.9
+
+AP-42 Ch. 11.24, Table 11.24-2 (Uncontrolled)
+
+0.009
+
+lb/ton
+
+0.045
+
+0.135
+
+AP-42 Ch. 11.24, Table 11.24-2 (Uncontrolled)
+AP-42 Ch. 1.4 Table 1.4-2 (Uncontrolled)
+
+Annual
+
+Hourly
+
+Annual
+
+Hourly
+
+Annual
+
+N/A
+
+PM
+
+7.6
+
+lb/10^6 scf
+
+0.011
+
+0.034
+
+PM 10
+
+7.6
+
+lb/10^6 scf
+
+0.011
+
+0.034
+
+Assume PM=PM10
+
+PM 2.5
+
+7.6
+
+lb/10^6 scf
+
+0.011
+
+0.034
+
+Assume PM=PM2.5
+
+N/A
+
+SO2
+
+0.6
+
+lb/10^6 scf
+
+0.0009
+
+0.0026
+
+AP-42 Ch. 1.4 Table 1.4-2 (Uncontrolled)
+
+NOX
+
+10
+
+lb/10^6 scf
+
+0.015
+
+0.044
+
+AP-42 Ch. 1.4 Table 1.4-1 (Uncontrolled)
+
+CO
+
+84
+
+lb/10^6 scf
+
+0.12
+
+0.37
+
+AP-42 Ch. 1.4 Table 1.4-1 (Uncontrolled)
+
+VOC
+
+5.5
+
+lb/10^6 scf
+
+0.0081
+
+0.024
+
+AP-42 Ch. 1.4 Table 1.4-2 (Uncontrolled)
+
+Hourly Rate
+
+Yearly Rate
+
+(lbs/hr)
+
+(tons/yr)
+
+Controls
+
+Unit Description
+Units
+
+Type
+
+System No. & Name:
+1.5 MMBtu/hr Drying Oven and
+Discharge to Supersacks
+
+Type
+
+Emissions
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+System 06 - Industrial Dyring Oven
+
+Daily
+
+S2.006
+
+Controls
+
+System 06 - Industrial Dyring Oven
+
+Operating Hours
+Unit No.
+
+Material Throughput or Fuel Usage
+
+(MMBtu)
+
+Unit Description
+Daily
+
+S2.006a
+
+Heat Input
+
+Emissions
+
+Efficiency or
+Dry Volume
+Flow Rate
+
+Pollutant
+
+Factor
+
+Unit
+
+GWP
+Multiplier
+
+References
+
+System 06 - Industrial Drying Oven
+
+24
+
+6,000
+
+1.50
+
+8,996
+
+1,470
+
+8,820,000
+
+Cubic Feet of
+Natural Gas
+
+N/A
+
+N/A
+
+CO2
+
+120,000
+
+lb/10^6 scf
+
+1
+
+176.4
+
+529.2
+
+AP-42 Ch. 1.4, Table 1.4-2
+
+CH4
+
+2.30
+
+lb/10^6 scf
+
+25
+
+0.085
+
+0.25
+
+AP-42 Ch. 1.4, Table 1.4-2
+
+N2 O
+
+2.20
+
+lb/10^6 scf
+
+298
+
+0.96
+
+2.89
+
+AP-42 Ch. 1.4, Table 1.4-2
+
+177.4
+
+532.3
+
+AP-42 Ch. 1.4, Table 1.4-2
+
+Total CO2e
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+47
+
+Emissions
+Unit No.
+
+Unit Description
+
+References
+Pollutant
+
+System No. & Name:
+
+S2.006b
+
+Factor
+
+Unit
+
+Hourly Rate
+
+Yearly Rate
+
+(lbs/hr)
+
+(tons/yr)
+
+System 06 - Industrial Drying Oven
+
+1.5 MMBtu/hr Drying Oven and Discharge to
+Supersacs (Combustion)
+
+2-Methylnaphthalene
+
+2.35E-08
+
+lb/MMBtu
+
+3.53E-08
+
+1.06E-07
+
+AP42 Table 1.4-3
+
+3-Methylchloranthrene
+
+1.76E-09
+
+lb/MMBtu
+
+2.65E-09
+
+7.94E-09
+
+AP42 Table 1.4-3
+
+7,12-Dimethylbenz(a)anthracene
+
+1.57E-08
+
+lb/MMBtu
+
+2.35E-08
+
+7.06E-08
+
+AP42 Table 1.4-3
+
+Acenaphthene
+
+1.76E-09
+
+lb/MMBtu
+
+2.65E-09
+
+7.94E-09
+
+AP42 Table 1.4-3
+
+Acenaphthylene
+
+1.76E-09
+
+lb/MMBtu
+
+2.65E-09
+
+7.94E-09
+
+AP42 Table 1.4-3
+
+Anthracene
+
+2.35E-09
+
+lb/MMBtu
+
+3.53E-09
+
+1.06E-08
+
+AP42 Table 1.4-3
+
+Benz(a)anthracene
+
+1.76E-09
+
+lb/MMBtu
+
+2.65E-09
+
+7.94E-09
+
+AP42 Table 1.4-3
+
+Benzene
+
+2.06E-06
+
+lb/MMBtu
+
+3.09E-06
+
+9.26E-06
+
+AP42 Table 1.4-3
+
+Benzo(a)pyrene
+
+1.18E-09
+
+lb/MMBtu
+
+1.76E-09
+
+5.29E-09
+
+AP42 Table 1.4-3
+
+Benzo(b)fluoranthene
+
+1.76E-09
+
+lb/MMBtu
+
+2.65E-09
+
+7.94E-09
+
+AP42 Table 1.4-3
+
+Benzo(g,h,i)perylene
+
+1.76E-09
+
+lb/MMBtu
+
+2.65E-09
+
+7.94E-09
+
+AP42 Table 1.4-3
+
+Benzo(k)fluoranthene
+
+2.06E-06
+
+lb/MMBtu
+
+3.09E-06
+
+9.26E-06
+
+AP42 Table 1.4-3
+
+Chrysene
+
+1.76E-09
+
+lb/MMBtu
+
+2.65E-09
+
+7.94E-09
+
+AP42 Table 1.4-3
+
+Dibenzo(a,h)anthracene
+
+1.18E-09
+
+lb/MMBtu
+
+1.76E-09
+
+5.29E-09
+
+AP42 Table 1.4-3
+
+Dichlorobenzene
+
+1.18E-06
+
+lb/MMBtu
+
+1.76E-06
+
+5.29E-06
+
+AP42 Table 1.4-3
+
+Fluoranthene
+
+2.94E-09
+
+lb/MMBtu
+
+4.41E-09
+
+1.32E-08
+
+AP42 Table 1.4-3
+
+Fluorene
+
+2.75E-09
+
+lb/MMBtu
+
+4.12E-09
+
+1.23E-08
+
+AP42 Table 1.4-3
+
+Formaldehyde
+
+7.35E-05
+
+lb/MMBtu
+
+1.10E-04
+
+3.31E-04
+
+AP42 Table 1.4-3
+
+Hexane
+
+1.76E-03
+
+lb/MMBtu
+
+2.65E-03
+
+7.94E-03
+
+AP42 Table 1.4-3
+
+Indeno(1,2,3-cd)pyrene
+
+1.76E-09
+
+lb/MMBtu
+
+2.65E-09
+
+7.94E-09
+
+AP42 Table 1.4-3
+
+Napthalene
+
+5.98E-07
+
+lb/MMBtu
+
+8.97E-07
+
+2.69E-06
+
+AP42 Table 1.4-3
+
+Phenanathrene
+
+1.67E-08
+
+lb/MMBtu
+
+2.50E-08
+
+7.50E-08
+
+AP42 Table 1.4-3
+
+Pyrene
+
+4.90E-09
+
+lb/MMBtu
+
+7.35E-09
+
+2.21E-08
+
+AP42 Table 1.4-3
+
+Toluene
+
+3.33E-06
+
+lb/MMBtu
+
+5.00E-06
+
+1.50E-05
+
+AP42 Table 1.4-3
+
+Arsenic
+
+1.96E-07
+
+lb/MMBtu
+
+2.94E-07
+
+8.82E-07
+
+AP42 Table 1.4-4
+
+Beryllium
+
+1.18E-08
+
+lb/MMBtu
+
+1.76E-08
+
+5.29E-08
+
+AP42 Table 1.4-4
+
+Cadmium
+
+1.08E-06
+
+lb/MMBtu
+
+1.62E-06
+
+4.85E-06
+
+AP42 Table 1.4-4
+
+Chromium
+
+1.37E-06
+
+lb/MMBtu
+
+2.06E-06
+
+6.17E-06
+
+AP42 Table 1.4-4
+
+Cobalt
+
+8.24E-08
+
+lb/MMBtu
+
+1.23E-07
+
+3.70E-07
+
+AP42 Table 1.4-4
+
+Manganese
+
+3.73E-07
+
+lb/MMBtu
+
+5.59E-07
+
+1.68E-06
+
+AP42 Table 1.4-4
+
+Mercury
+
+2.55E-07
+
+lb/MMBtu
+
+3.82E-07
+
+1.15E-06
+
+AP42 Table 1.4-4
+
+Nickel
+
+2.06E-06
+
+lb/MMBtu
+
+3.09E-06
+
+9.26E-06
+
+AP42 Table 1.4-4
+
+Selenium
+
+2.35E-08
+
+lb/MMBtu
+
+3.53E-08
+
+1.06E-07
+
+AP42 Table 1.4-4
+
+2.78E-03
+
+8.34E-03
+
+AP42 Table 1.4-3
+
+Hazardous Air Pollutants (HAPs) Totals:
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+48
+
+Formulas Used for Calculating Emission Limits
+(𝑻𝒉𝒚𝒆𝒂𝒓 ∗𝑬𝑭𝑻𝒉 )∗(𝟏−𝑪𝒆𝒇𝒇 )
+
+𝑬𝑹𝑻𝒉 𝒍𝒃 = (𝑻𝒉𝒉𝒐𝒖𝒓 ∗ 𝑬𝑭𝑻𝒉 ) ∗ (𝟏 − 𝑪𝒆𝒇𝒇 )
+
+𝑬𝑹𝑻𝒉 𝒕𝒐𝒏 =
+
+𝑬𝑹𝑪 𝒍𝒃 = (𝑭𝑪𝑯𝒐𝒖𝒓 ∗ 𝑬𝑭𝑪 ) ∗ (𝟏 − 𝑪𝒆𝒇𝒇 )
+
+𝑬𝑹𝑪 𝒕𝒐𝒏 =
+
+𝑬𝑳 𝒍𝒃 = 𝑬𝑹𝑻𝒉 𝒍𝒃 + 𝑬𝑹𝑪 𝒍𝒃
+
+𝑬𝑳 𝒕𝒐𝒏 = 𝑬𝑹𝑻𝒉 𝒕𝒐𝒏 + 𝑬𝑹𝑪 𝒕𝒐𝒏
+
+𝒉𝒓
+
+𝒉𝒓
+
+𝒉𝒓
+
+𝒉𝒓
+
+𝒉𝒓
+
+𝒚𝒆𝒂𝒓
+
+𝒚𝒆𝒂𝒓
+
+𝒚𝒆𝒂𝒓
+
+𝟐,𝟎𝟎𝟎
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+(𝑭𝑪𝒚𝒆𝒂𝒓 ∗𝑬𝑭𝑪 )∗(𝟏−𝑪𝒆𝒇𝒇 )
+𝟐,𝟎𝟎𝟎
+
+𝒚𝒆𝒂𝒓
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+𝒚𝒆𝒂𝒓
+
+Where:
+𝑪𝒆𝒇𝒇 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝐶𝑜𝑛𝑡𝑟𝑜𝑙 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑐𝑜𝑛𝑡𝑟𝑜𝑙 𝑎𝑛𝑑 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡.
+𝑬𝑳 𝒍𝒃 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝒉𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝑬𝑭𝑻𝒉 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝑈𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑡ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝐷𝑟𝑦𝑖𝑛𝑔 𝑂𝑣𝑒𝑛.
+𝑬𝑭𝑪 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝑈𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛 𝑤𝑖𝑡ℎ𝑖𝑛 𝐷𝑟𝑦𝑖𝑛𝑔 𝑂𝑣𝑒𝑛.
+𝑬𝑹𝑻𝒉 𝒍𝒃 = 𝑇ℎ𝑒 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑅𝑎𝑡𝑒 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑡ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝐷𝑟𝑦𝑖𝑛𝑔 𝑂𝑣𝑒𝑛, 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝒉𝒓
+
+𝑬𝑹𝑻𝒉 𝒕𝒐𝒏
+
+𝒚𝒆𝒂𝒓
+
+= 𝑇ℎ𝑒 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑅𝑎𝑡𝑒 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑡ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝐷𝑟𝑦𝑖𝑛𝑔 𝑂𝑣𝑒𝑛, 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝑬𝑹𝑪 𝒍𝒃 = 𝑇ℎ𝑒 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑅𝑎𝑡𝑒 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑓𝑟𝑜𝑚 𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛 𝑤𝑖𝑡ℎ𝑖𝑛 𝐷𝑟𝑦𝑖𝑛𝑔 𝑂𝑣𝑒𝑛, 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝒉𝒓
+
+𝑬𝑹𝑪 𝒕𝒐𝒏 = 𝑇ℎ𝑒 𝑐𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑅𝑎𝑡𝑒 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑓𝑟𝑜𝑚 𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛 𝑤𝑖𝑡ℎ𝑖𝑛 𝐷𝑟𝑦𝑖𝑛𝑔 𝑂𝑣𝑒𝑛, 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝑭𝑪𝒉𝒐𝒖𝒓 = 𝑇ℎ𝑒 𝐹𝑢𝑒𝑙 𝐶𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛 𝑟𝑎𝑡𝑒 𝑖𝑛 𝑢𝑛𝑖𝑡𝑠 𝑜𝑓 𝑣𝑜𝑙𝑢𝑚𝑒 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟. 𝑇ℎ𝑒 𝑢𝑛𝑖𝑡𝑠 𝑓𝑜𝑟 𝐹𝐶 𝑤𝑖𝑙𝑙 𝑣𝑎𝑟𝑦 𝑑𝑒𝑝𝑒𝑛𝑑𝑖𝑛𝑔 𝑜𝑛 𝑡ℎ𝑒 𝑡𝑦𝑝𝑒 𝑜𝑓 𝑓𝑢𝑒𝑙 𝑏𝑒𝑖𝑛𝑔 𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑒𝑑.
+𝑭𝑪𝒚𝒆𝒂𝒓 = 𝑇ℎ𝑒 𝐹𝑢𝑒𝑙 𝐶𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑜𝑛 𝑟𝑎𝑡𝑒 𝑖𝑛 𝑢𝑛𝑖𝑡𝑠 𝑜𝑓 𝑣𝑜𝑙𝑢𝑚𝑒 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝑻𝒉𝒉𝒐𝒖𝒓 = 𝑇ℎ𝑒 𝑡ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑜𝑟𝑒 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑑𝑟𝑦𝑖𝑛𝑔 𝑜𝑣𝑒𝑛 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝑻𝒉𝒚𝒆𝒂𝒓 = 𝑇ℎ𝑒 𝑡ℎ𝑟𝑜𝑢𝑔ℎ𝑝𝑢𝑡 𝑜𝑓 𝑜𝑟𝑒 𝑡ℎ𝑟𝑜𝑢𝑔ℎ 𝑡ℎ𝑒 𝑑𝑟𝑦𝑖𝑛𝑔 𝑜𝑣𝑒𝑛 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+Multipliers Used for Calculating Greenhouse Gas (CO2e) Emissions
+When calculating Greenhouse Gas (otherwise known as CO 2e) emissions, the chemical-specific global warming potentials (GWP) of Carbon Dioxide
+(CO2), Methane (CH4), and Nitrous Oxide (N2O) are multiplied by their respective GWP factors (1, 25, and 298, respectively), as specified under Table
+A-1 to Subpart 98 Global Warming Potentials, and added together.
+Note: For default Heat Content Values see Chapter 5.1.3 For Reciprocating Internal Combustion Engines (RICE) Only.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+49
+
+Example Calculation:
+𝑬𝑹𝑻𝒉 𝒍𝒃 𝒇𝒐𝒓 𝑷𝑴 = ൬𝟓
+𝒉𝒓
+
+𝒕𝒐𝒏
+𝒍𝒃
+𝒍𝒃
+∗ 𝟎. 𝟏𝟐
+൰ ∗ (𝟏 − 𝟎) = 𝟎. 𝟔𝟎𝟎
+𝒉𝒐𝒖𝒓
+𝒕𝒐𝒏
+𝒉𝒐𝒖𝒓
+
+(𝟑𝟎, 𝟎𝟎𝟎
+𝑬𝑹𝑻𝒉 𝒕𝒐𝒏 𝒇𝒐𝒓 𝑷𝑴 =
+𝒚𝒆𝒂𝒓
+
+𝑬𝑹𝑪 𝒍𝒃 𝒇𝒐𝒓 𝑷𝑴 = (𝟏, 𝟒𝟕𝟎
+𝒉𝒓
+
+𝒕𝒐𝒏
+𝒍𝒃
+∗ 𝟎. 𝟏𝟐
+) ∗ (𝟏 − 𝟎)
+𝒕𝒐𝒏
+𝒚𝒆𝒂𝒓
+𝒕𝒐𝒏
+= 𝟏. 𝟖𝟎𝟎
+𝒍𝒃
+𝒚𝒆𝒂𝒓
+𝟐, 𝟎𝟎𝟎
+𝒕𝒐𝒏
+
+𝒄𝒖𝒃𝒊𝒄 𝒇𝒆𝒆𝒕
+𝟕. 𝟔 𝒍𝒃
+𝒍𝒃
+∗ 𝟔
+) ∗ (𝟏 − 𝟎) = 𝟎. 𝟎𝟏𝟏
+𝒉𝒐𝒖𝒓
+𝟏𝟎 𝒄𝒖𝒃𝒊𝒄 𝒇𝒆𝒆𝒕
+𝒉𝒐𝒖𝒓
+
+(𝟖, 𝟖𝟐𝟎, 𝟎𝟎𝟎
+𝑬𝑹𝑪 𝒕𝒐𝒏 𝒇𝒐𝒓 𝑷𝑴 =
+𝒚𝒆𝒂𝒓
+
+𝑬𝑳 𝒍𝒃 𝒇𝒐𝒓 𝑷𝑴 = 𝟎. 𝟎𝟏𝟏
+𝒉𝒓
+
+𝒍𝒃
+𝒍𝒃
+𝒍𝒃
++ 𝟎. 𝟔𝟎
+= 𝟎. 𝟔𝟏𝟏
+𝒉𝒐𝒖𝒓
+𝒉𝒐𝒖𝒓
+𝒉𝒐𝒖𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 𝒇𝒐𝒓 𝑷𝑴 = 𝟏. 𝟖𝟎𝟎
+𝒚𝒆𝒂𝒓
+
+𝒄𝒖𝒃𝒊𝒄 𝒇𝒆𝒆𝒕
+𝟕. 𝟔 𝒍𝒃
+∗ 𝟔
+) ∗ (𝟏 − 𝟎)
+𝒕𝒐𝒏
+𝒚𝒆𝒂𝒓
+𝟏𝟎 𝒄𝒖𝒃𝒊𝒄 𝒇𝒆𝒆𝒕
+= 𝟎. 𝟎𝟑𝟒
+𝒍𝒃
+𝒚𝒆𝒂𝒓
+𝟐, 𝟎𝟎𝟎
+𝒕𝒐𝒏
+
+𝒕𝒐𝒏
+𝒕𝒐𝒏
+𝒕𝒐𝒏
++ 𝟎. 𝟎𝟑𝟒
+= 𝟏. 𝟖𝟑𝟒
+𝒚𝒆𝒂𝒓
+𝒚𝒆𝒂𝒓
+𝒚𝒆𝒂𝒓
+
+Notes:
+The end result emission limits may be intentionally rounded up in the table so that all emissions were included, even when
+the answer is held to two significant figures.
+In this example the system is uncontrolled so 𝐶𝑒𝑓𝑓 = 0.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+50
+
+Appendix 9
+EXAMPLE OF EMISSION LIMIT
+CALCULATIONS FOR RECIPROCATING
+INTERNAL COMBUSTION ENGINES (RICE)
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+51
+
+Operating Hours
+Unit No.
+
+Material Throughput or Fuel Usage
+
+(MMBtu)
+
+Power Output
+
+Controls
+
+System No. & Name:
+
+Annual
+
+Hourly
+
+Hourly
+
+Annual
+
+Units
+
+Amount
+
+Units
+
+Type
+
+24
+
+8,760
+
+19.53
+
+171,083
+
+139.5
+
+Gallons of
+Diesel
+
+1,222,020
+
+Heat Input
+
+Operating Hours
+
+2,944
+
+HP
+
+Fuel Usage
+
+(MMBtu)
+
+N/A
+
+Factor
+
+Unit
+
+Hourly Rate Yearly Rate
+(lbs/hr)
+
+(tons/yr)
+
+Annual
+
+Hourly
+
+Annual
+
+Hourly
+
+Annual
+
+Units
+
+Type
+
+System No. & Name:
+
+N/A
+
+PM
+
+0.000027
+
+lb/hp-hr
+
+0.08
+
+0.35
+
+Manufacturer's Guarantee
+
+0.000027
+
+lb/hp-hr
+
+0.08
+
+0.35
+
+Manufacturer's Guarantee
+
+PM 2.5
+
+0.000027
+
+lb/hp-hr
+
+0.08
+
+0.35
+
+Assume PM10=PM2.5
+
+SO2
+
+0.000012
+
+lb/hp-hr
+
+0.036
+
+0.16
+
+AP-42 Table 3.4-1. Sulfur content 0.0015%
+
+NOX
+
+0.00086
+
+lb/hp-hr
+
+2.54
+
+11.13
+
+Manufacturer's Guarantee
+
+CO
+
+0.000054
+
+lb/hp-hr
+
+0.16
+
+0.07
+
+Manufacturer's Guarantee
+
+VOC
+
+0.000017
+
+lb/hp-hr
+
+0.05
+
+0.22
+
+Manufacturer's Guarantee
+
+Hourly Rate
+
+Yearly Rate
+
+(lbs/hr)
+
+(tons/yr)
+
+Emissions
+
+Efficiency or
+Dry Volume
+Flow Rate
+
+Pollutant
+
+Factor
+
+Unit
+
+GWP
+Multiplier
+
+24
+
+8,760
+
+19.53
+
+171,083
+
+139.5
+
+1,222,020
+
+Gallons of
+Diesel
+
+N/A
+
+N/A
+
+CO2
+
+163.05
+
+lb/MMBtu
+
+1
+
+3,184.4
+
+13,947.5
+
+AP-42 Table 3.3-1
+
+CH4
+
+0.0066
+
+lb/MMBtu
+
+25
+
+3.2
+
+14.1
+
+40 CFR Part 98 Table C-1
+
+N2 O
+
+0.0013
+
+lb/MMBtu
+
+298
+
+7.57
+
+33.14
+
+40 CFR Part 98 Table C-1
+
+3,195.2
+
+13,994.8
+
+AP-42 Table 3.3-1
+
+Total CO2e
+
+Emissions
+Unit Description
+
+References
+Pollutant
+
+System No. & Name:
+
+S2.007
+
+References
+
+System 07 - Diesel Generator
+
+2,944 HP Caterpillar Diesel Generator,
+Model #35516C, Mfd. In 2014
+
+Unit No.
+
+References
+
+PM 10
+
+Controls
+
+Unit Description
+Daily
+
+S2.007
+
+Pollutant
+
+System 07 - Diesel Generator
+
+2,944 HP Caterpillar Diesel Generator,
+Model #35516C, Mfd. In 2014
+
+Unit No.
+
+Annual
+
+Emissions
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+Unit Description
+Daily
+
+S2.007
+
+Heat Input
+
+Factor
+
+Unit
+
+Hourly Rate
+
+Yearly Rate
+
+(lbs/hr)
+
+(tons/yr)
+
+System 07 - Diesel Generator
+
+2,944 Caterpillar Diesel Generator, Model #35516C,
+Mfd. in 2014
+
+Benzene
+
+9.33E-04
+
+lb/MMBtu
+
+1.82E-02
+
+7.98E-02
+
+AP 42 Table 3.3-2
+
+Toluene
+
+4.09E-04
+
+lb/MMBtu
+
+7.99E-03
+
+3.50E-02
+
+AP 42 Table 3.3-2
+
+Xylenes
+
+2.85E-04
+
+lb/MMBtu
+
+5.57E-03
+
+2.44E-02
+
+AP 42 Table 3.3-2
+
+1,3-Butadiene
+
+3.91E-05
+
+lb/MMBtu
+
+7.64E-04
+
+3.34E-03
+
+AP 42 Table 3.3-2
+
+Formaldehyde
+
+1.18E-03
+
+lb/MMBtu
+
+2.30E-02
+
+1.01E-01
+
+AP 42 Table 3.3-2
+
+Acetaldehyde
+
+7.67E-04
+
+lb/MMBtu
+
+1.50E-02
+
+6.56E-02
+
+AP 42 Table 3.3-2
+
+Acrolein
+
+9.25E-05
+
+lb/MMBtu
+
+1.81E-03
+
+7.91E-03
+
+AP 42 Table 3.3-2
+
+Naphthalene
+
+8.48E-05
+
+lb/MMBtu
+
+1.66E-03
+
+7.25E-03
+
+AP 42 Table 3.3-2
+
+7.40E-02
+
+3.24E-01
+
+AP 42 Table 3.3-2
+
+Hazardous Air Pollutants (HAPs) Totals:
+
+Any referenced manufacturer’s guarantee must be included in application
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+52
+
+Formulas Used for Calculating Emission Limits
+𝑬𝑳 𝒍𝒃 = (𝑯𝑷 ∗ 𝑬𝑭) ∗ (𝟏 − 𝑪𝒆𝒇𝒇 )
+
+𝑬𝑳 𝒕𝒐𝒏 =
+
+(𝑯𝑷∗𝑬𝑭)∗(𝟏−𝑪𝒆𝒇𝒇 )∗𝒕𝒚𝒆𝒂𝒓
+
+𝒚𝒆𝒂𝒓
+
+𝒉𝒓
+
+𝟐,𝟎𝟎𝟎
+
+𝒍𝒃
+𝒕𝒐𝒏
+
+Where:
+𝑪𝒆𝒇𝒇 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝐶𝑜𝑛𝑡𝑟𝑜𝑙 𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑐𝑜𝑛𝑡𝑟𝑜𝑙 𝑎𝑛𝑑 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 .
+𝑬𝑭 = 𝑇ℎ𝑒 𝑙𝑖𝑠𝑡𝑒𝑑 𝑈𝑛𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑟𝑠𝑒𝑝𝑜𝑤𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝑬𝑳 𝒍𝒃 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐿𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑝𝑜𝑢𝑛𝑑𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟.
+𝒉𝒓
+
+𝑬𝑳 𝒕𝒐𝒏 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑃𝑒𝑟𝑚𝑖𝑡 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑙𝑖𝑚𝑖𝑡 𝑓𝑜𝑟 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑝𝑜𝑙𝑙𝑢𝑡𝑎𝑛𝑡 𝑖𝑛 𝑡𝑜𝑛𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+𝒚𝒆𝒂𝒓
+
+𝑯𝑷 = 𝑇ℎ𝑒 𝑝𝑜𝑤𝑒𝑟 𝑜𝑢𝑡𝑝𝑢𝑡 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑠𝑦𝑠𝑡𝑒𝑚 𝑖𝑛 ℎ𝑜𝑟𝑠𝑒𝑝𝑜𝑤𝑒𝑟.
+𝒕𝒚𝒆𝒂𝒓 = 𝑇ℎ𝑒 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑 𝑜𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 ℎ𝑜𝑢𝑟𝑠 𝑖𝑛 ℎ𝑜𝑢𝑟𝑠 𝑝𝑒𝑟 𝑦𝑒𝑎𝑟.
+Example Calculation:
+
+𝑬𝑳 𝒍𝒃 = ൬𝟐, 𝟗𝟒𝟒 𝒉𝒑 ∗ 𝟎. 𝟎𝟎𝟎𝟎𝟐𝟕𝟐
+𝒉𝒓
+
+𝒍𝒃
+𝒍𝒃
+൰ ∗ (𝟏 − 𝟎) = 𝟎. 𝟎𝟖𝟎
+𝒉𝒑 − 𝒉𝒓
+𝒉𝒓
+𝒍𝒃
+𝒉𝒓
+൰ ∗ (𝟏 − 𝟎) ∗ 𝟖, 𝟕𝟔𝟎
+𝒕𝒐𝒏
+𝒉𝒑 − 𝒉𝒓
+𝒚𝒆𝒂𝒓
+= 𝟎. 𝟑𝟓𝟎
+𝒍𝒃
+𝒚𝒆𝒂𝒓
+𝟐, 𝟎𝟎𝟎
+𝒕𝒐𝒏
+
+൬𝟐, 𝟗𝟒𝟒 𝒉𝒑 ∗ 𝟎. 𝟎𝟎𝟎𝟎𝟐𝟕𝟐
+𝑬𝑳 𝒕𝒐𝒏 =
+𝒚𝒆𝒂𝒓
+
+Notes:
+The end result emission limits may be intentionally rounded up in the table so that all emissions were
+included, even when the answer is held to two significant figures.
+
+In this example the system is uncontrolled so 𝐶𝑒𝑓𝑓 = 0.
+
+Guide for completing the application for a Class II Air Quality Operating Permit
+
+53
+
+

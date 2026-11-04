@@ -1,0 +1,232 @@
+PERMIT APPLICATION FOR NATURAL GAS PROCESSING PLANTS
+NORTH DAKOTA DEPARTMENT OF ENVIRONMENTAL QUALITY
+DIVISION OF AIR QUALITY
+SFN 11408 (9-2021)
+
+NOTE: READ INSTRUCTIONS BEFORE COMPLETING THIS FORM.
+- Must include SFN 8516 or SFN 52858
+
+SECTION A – GENERAL INFORMATION
+Name of Firm or Organization
+
+SECTION B - SWEETENING OPERATIONS
+
+Facility Name
+
+Chemical Process (Amine, Selexol, Stretford, Etc.)
+
+Inlet Gas Capacity (106 SCF/day)
+
+Inlet Gas Composition (Mol %)
+Hydrogen Sulfide, H2S
+
+Methane, C1
+
+Carbon Dioxide, CO2
+
+Ethane, C2
+
+Water, H2O
+
+Propane Plus, C3+
+
+Nitrogen, N2
+
+Greenhouse Gasses (as CO2e)
+
+Other – Specify:
+
+SECTION C – ACID GAS FLARE (STACK DATA)
+Height Above Grade (ft)
+
+Inside Diameter at Exit (ft)
+(SCFM)
+(ACFM)
+
+Average Acid Gas Flow Rate to Flare
+Maximum Acid Gas Flow Rate to Flare
+H2S Content (%)
+
+(SCFM)
+
+(ACFM)
+
+Heat Content of Gas (Btu/ACF)
+
+SECTION D – ACID GAS FLARE (AIR CONTAMINANTS EMITTED)
+Pollutant
+Particulate
+(PM, PM10, PM2.5)
+Sulfur Dioxide
+(SO2)
+Nitrogen Oxides
+(NOx)
+Carbon Monoxide
+(CO)
+Greenhouse Gases
+(as CO2e)
+HAPS
+Other – Specify:
+
+Maximum
+Pounds Per
+Hour
+
+Tons Per
+Year
+
+Basis and Calculations for Quantities:
+
+SFN 11408 (9-2021) Page 2
+
+SECTION E – SULFUR RECOVERY OPERATIONS
+Chemical Process (Klaus, Amoco, MRCR, etc.)
+Stack Diameter (feet at top)
+
+Acid Gas Flow Rate (106 SCF/day)
+
+Gas Discharged (SCFM)
+
+Exit Temp (°F)
+
+Acid Gas Composition (Mol %)
+Hydrogen Sulfide, H2S
+
+Methane, C1
+
+Carbon Dioxide, CO2
+
+Ethane, C2
+
+Water, H2O
+
+Propane Plus, C3+
+
+Gas Velocity (FPS)
+
+Greenhouse Gasses (as CO2e)
+Other – Specify:
+Is a tail gas cleanup process used for reducing
+SO2 emissions?
+□ Yes
+Overall Recovery Efficiency (%)
+
+
+
+No
+
+Tail Gas Cleanup Process (CBA, Dulfreen, SCOT, etc.)
+Elemental Sulfur Recovered (LT/Day)
+
+SECTION F – TAIL GAS INCINERATOR (OPERATIONS)
+Name of Incinerator Manufacturer
+Model Number
+
+Heat Release (Btu/hr)
+
+Inlet Gas Composition (Mol %)
+Hydrogen Sulfide, H2S
+
+Nitrogen, N
+
+Carbon Dioxide, CO2
+
+Water, H2O
+
+Other – Specify:
+
+SECTION G – TAIL GAS INCINERATOR (STACK DATA)
+Height Above Grade (ft)
+Gas Temperature at Exit (Average °F)
+Average Acid Gas Flow Rate to Flare
+Maximum Acid Gas Flow Rate to Flare
+
+Inside Diameter at Exit (ft)
+Gas Velocity at Exit (Average FPS)
+(SCFM)
+
+(ACFM)
+
+(SCFM)
+
+(ACFM)
+
+SFN 11408 (9-2021) Page 3
+
+SECTION H – TAIL GAS INCINERATOR (AIR CONTAMINANTS EMITTED)
+Pollutant
+Particulate
+(PM, PM10, PM2.5)
+Sulfur Dioxide
+(SO2)
+Nitrogen Dioxide
+(NO2)
+Carbon Monoxide
+(CO)
+Greenhouse Gases
+(as CO2e)
+HAPS
+
+Maximum
+Pounds Per
+Hour
+
+Tons Per
+Hour
+
+Basis and Calculations for Quantities:
+
+Other – Specify:
+
+SECTION I – EMERGENCY FLARE (STACK DATA)
+Height Above Grade (ft)
+
+Inside Diameter at Exit (ft)
+(SCFM)
+(ACFM)
+
+Average Acid Gas Flow Rate to Flare
+Maximum Acid Gas Flow Rate to Flare
+H2S Content (%)
+
+(SCFM)
+
+(ACFM)
+
+Heat Content of Gas (Btu/ACF)
+
+SECTION J – EMERGENCY FLARE (AIR CONTAMINANTS EMITTED)
+Pollutant
+Particulate
+(PM, PM10, PM2.5)
+Sulfur Dioxide
+(SO2)
+Nitrogen Oxides
+(NOx)
+Carbon Monoxide
+(CO)
+Greenhouse Gases
+(as CO2e)
+HAPS
+
+Maximum
+Pounds Per
+Hour
+
+Tons Per
+Hour
+
+Basis and Calculations for Quantities:
+
+Other – Specify:
+Attach and label separate sheet(s) if you need more space to explain any system or answers or to
+provide complete listings of Emissions, Contaminants, or other items.
+
+SEND COMPLETED APPLICATION AND ALL ATTACHMENTS TO:
+North Dakota Department of Environmental Quality
+Division of Air Quality
+4201 Normandy Street, 2nd Floor
+Bismarck, ND 58503-1324
+(701) 328-5188
+
+

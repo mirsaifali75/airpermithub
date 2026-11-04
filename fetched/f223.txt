@@ -1,0 +1,1445 @@
+Class II Air Quality Operating Permit
+Application Form
+Facility Name: Click or tap here to enter text.
+Existing Facility ID: AClick or tap here to enter text.
+Existing Class II AQOP: APClick or tap here to enter text.
+Type of Facility: Click or tap here to enter text.
+Number of Units (including IA’s) in Facility: Click or tap here to enter text.
+If a Revision, Number of Units (including IA’s) Affected in Action: Click or tap here
+to enter text.
+
+Application Type:
+☐ New AQOP
+☐ Revision of Existing AQOP
+☐ Renewal of Existing AQOP
+
+Please Submit Application to:
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control, Class II Permitting Branch
+901 South Stewart Street, Suite 4001
+Carson City, Nevada 89701-5249
+Phone (775) 687-9349
+August 2026
+(Ver. 7)
+
+(Ver. 7) Last Revised – 8/26
+
+Important Information
+
+IMPORTANT INFORMATION
+
+
+The Application packet contains:
+
+General Company Information Form
+
+Industrial Process Form
+
+Combustion Equipment Form
+
+Storage Silo Form
+
+Liquid Storage Tanks Form
+
+Insignificant Activities Form
+
+Facility-Wide Potential to Emit Table
+
+Surface Area Disturbance Form
+
+Plant Boundary Coordinates Form
+
+Plant Building Parameters Form
+
+Application Certification Document with Required Attachments
+
+
+
+
+Please see the Guidance Document for additional instructions on how to complete the application.
+A printed copy of the application must be submitted (mailed or hand delivered), along with an
+electronic version.
+The application filing fee required by Nevada Administrative Code (NAC) 445B.327 must be
+submitted with the completed application. Checks must be made payable to the “Nevada State
+Treasurer, Environmental Protection” with “BAPC” noted in the memo line. Fees may also be
+submitted electronically at https://epayments.ndep.nv.gov/.
+This application shall be used for new Class II sources, revisions to existing Class II Air Quality
+Operating Permits, and the renewal of Class II Air Quality Operating Permits. This application
+packet is not for use for an Administrative Renewal, Administrative Amendment, a general permit,
+a stand-alone Surface Area Disturbance (SAD) permit, nor for a Request for Change of Location
+Approval permit for a temporary source.
+An application for a Class II Air Quality Operating Permit must be signed by the Responsible
+Official, as defined in NAC 445B.156. The certification/signature page is the last page of the
+application and the original “wet” signature must be provided.
+All items in the application must be addressed. If an item does not apply “N/A” or similar notation
+must be entered in the appropriate blank. All other information must be provided. Incomplete
+applications will be returned to the Responsible Official within 10 working days of receipt of the
+application.
+For the renewal of a Class II Operating Permit, a complete application and corresponding
+processing fee must be submitted in accordance with NAC 445B.3473, prior to the expiration date
+of the current permit. The BAPC suggests that the application be submitted well in advance of the
+timeline outlined in NAC 445B.3473 to ensure the application is deemed complete.
+If the facility applies for a permit that has not previously held a Class I of Class II operating permit,
+is located within 1,000 feet of a school, hospital, or residential area, or the Director determines that
+the change to the stationary source results in an increase in allowable emissions that exceeds the
+thresholds in NAC 445B.3457, the BAPC shall establish a 30-day period for public participation.
+
+
+
+
+
+
+
+
+
+
+
+
+General Company Information Form
+Page 1 of 3
+
+GENERAL COMPANY INFORMATION FORM
+1.
+
+Briefly describe the permitted facility's process and include the Standard Industrial
+Classification (SIC) number and North American Industry Classification System
+(NAICS). Add details in the attached Process Narrative.
+
+2.
+
+Company Name and Address that are to appear on the operating permit
+[NAC 445B.295(1)]:
+Name:
+Address:
+City:
+State:
+
+3.
+
+Owner's Name and Address [NAC 445B.295(1)]:
+Name:
+Address:
+City:
+State:
+
+4.
+
+Zip Code:
+
+Facility Name and Address, if different from #2 [NAC 445B.295(1)]:
+Name:
+Address:
+City:
+State:
+
+5.
+
+Zip Code:
+
+Zip Code:
+
+If records are required under the operating permit will be kept at a location other
+than the facility, specify that location [NAC 445B.295(7)]:
+Name:
+Address:
+City:
+State:
+
+Zip Code:
+
+Page 3 of 21
+
+General Company Information Form
+Page 2 of 3
+
+GENERAL COMPANY INFORMATION FORM (continued)
+6.
+
+Responsible Official Name, Title and Mailing Address [NAC 445B.295(1)]:
+Name:
+Title:
+Address:
+City:
+State:
+Zip Code:
+Phone Number: (xxx) xxx-xxxx
+Fax Number:
+(xxx) xxx-xxxx
+E-mail Address:
+Is this a new Responsible Official? ☐ Yes ☐ No
+If yes, and the Responsible Official (RO) does not meet the definition under NAC 445B.156 then please
+fill out the “Responsible Official Identification/Designation/Change Request Form” and mail it in.
+(https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources)
+
+7.
+
+Plant Manager or other appropriate Contact Name, Title and Address [NAC
+445B.295(1)]:
+Name:
+Title:
+Address:
+City:
+State:
+Phone Number: (xxx) xxx-xxxx
+Fax Number:
+(xxx) xxx-xxxx
+E-mail Address:
+
+8.
+
+Zip Code:
+
+Location and Driving Directions to the Facility (For Example: From Elko, Nevada, 4
+miles south of I-80 at xx Interchange) [NAC 445B.295(8)]:
+Hydrographic Basin (HA) Number:
+HA Basin Name:
+Township(s):
+
+N; Range(s):
+
+E; Section(s):
+
+UTM Coordinates for the Front Gate of the Facility (NAD 83, Zone 11):
+m North;
+m East;
+Nearest City:
+County:
+Driving Directions from nearest city to the Facility:
+
+Page 4 of 21
+
+General Company Information Form
+Page 3 of 3
+
+GENERAL COMPANY INFORMATION FORM (continued)
+9.
+
+Emission Cap Requested [NAC 445B.070 and NAC 445B.296(2)]:
+☐ Yes ☐ No (If yes, provide details in the attached Process Narrative)
+
+10.
+
+Important note for completing the Industrial Process, Combustion Equipment, Storage Silo, and
+Liquid Storage Tank Application forms: forms need to be included for permitted emission units
+and insignificant activities. Provide additional forms as needed. All items in the application must
+be addressed. If an item does not apply then “N/A” or similar notation must be entered in the
+appropriate blank (TBD, unknown, etc.).
+
+11.
+
+Is the Facility located within 1,000 feet of a school, hospital, or residential area?
+☐ Yes ☐ No
+
+12.
+
+Does the Facility require controls or other limit restrictions to remain a Class II
+source?
+☐ Yes ☐ No
+
+13.
+
+Has the facility provided modeling for each non-combustion baghouse individually?
+(See Testing Determination System for Baghouses Guidance Document)
+☐ Yes ☐ No
+
+Page 5 of 21
+
+Industrial Process Application Form
+Page 1 of 1
+
+INDUSTRIAL PROCESS APPLICATION FORM
+CLASS II OPERATING PERMIT
+System Number and Name:
+Emission Unit Description:
+Alternative Operating Scenario: ☐ Yes ☐ No
+Insignificant Activity: ☐ Yes ☐ No If yes, identify exemption regulation:
+Subject to a Federal Regulation (40 CFR Part 60, 61, or 63): ☐ Yes ☐ No If yes, identify in attached Process Narrative.
+Description
+Data
+BAPC
+
+Emission
+
+Unit
+
+ID
+
+Applicable for Renewal or Revision
+
+Source Classification Code (SCC)
+
+Equipment
+Description
+
+Manufacturer
+Date Manufactured
+Model Number
+Equipment Dimensions (LxWxH)
+Drop Length if applicable
+Drop Height if applicable
+
+eg. Unit ID:
+S2.001,
+PF1.001
+e.g. 3-03024-04 for
+Conveyors
+
+feet
+feet
+feet
+
+The drop height is measured from the ☐ top of the drop length ☐ middle of the drop length ☐ bottom of
+the drop length, in reference to the ground. Choose one, if applicable
+Drop Horizontal Dimension 1 if applicable
+Drop Horizontal Dimension 2 if applicable
+Emissions Released Inside building?
+Location of
+Emission
+Source
+Operating
+Parameters
+
+Control
+Equipment
+
+Stack
+Parameters
+
+feet
+yes/no
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+UTM Easting (NAD 83, Zone 11)
+Material Type Processed
+Batch Process if applicable
+Start Time if operating less than 24 hours/day
+End Time if operating less than 24 hours/day
+Manufacturer
+Manufacturer’s Guarantee Included?
+
+m
+
+If “yes”, attach manufacturer’s
+immediately after these forms.
+
+Stack Height
+Stack Inside Diameter
+Stack Temperature
+Stack Exit Velocity
+Actual Gas Volume Flow Rate
+Dry Gas Volume Flow Rate
+If not included in detailed calculations.
+
+Stack Release Type
+1.
+
+feet
+
+sheets
+
+unit /batch
+hour:minute
+hour:minute
+
+yes/N/A
+feet
+feet
+ºF
+feet/second
+acfm
+dscfm
+
+☐ vertical
+
+☐ capped
+
+☐ horizontal
+
+How will throughput be monitored for this emission unit? Identify if the throughput will be monitored at this emission
+unit or at another emission unit and the method (e.g. weigh belt).
+
+Page 6 of 21
+
+Combustion Equipment Application Form
+Page 1 of 2
+
+COMBUSTION EQUIPMENT APPLICATION FORM
+CLASS II OPERATING PERMIT
+System Number and Name:
+Emission Unit Description:
+Alternative Operating Scenario: ☐ Yes ☐ No
+Insignificant Activity: ☐ Yes ☐ No If yes, identify exemption regulation:
+Subject to a Federal Regulation (40 CFR Part 60, 61, or 63): ☐ Yes ☐ No If yes, identify in process narrative.
+Description
+Data
+BAPC Emission Unit ID
+eg. Unit ID: S2.001
+
+Applicable for Renewal or Revision
+
+Equipment
+Description
+
+Source Classification Code (SCC)
+
+e.g. 3-03-024-04 for
+Conveyors
+
+Manufacturer
+Date Manufactured
+Model and Serial Number
+Emissions Released Inside building?
+
+yes/no
+
+For
+Reciprocating
+Internal
+Combustion
+Engines
+(RICE) Only
+
+Type of Engine Code (See Notes*)
+
+Location of
+Emission
+Source
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+UTM Easting (NAD 83, Zone 11)
+
+m
+
+Operating
+Parameters
+/Fuel Usage
+
+Control
+Equipment
+
+Stack
+Parameters
+
+Date Constructed
+
+month/day/yr
+
+Cylinder Displacement
+
+liter/cylinder
+
+EPA Tier #
+
+Fuel Type
+Fuel Flow Meter Installed?
+Sulfur Content
+Heat Content
+Start Time if operating less than 24 hours/day
+End Time if operating less than 24 hours/day
+
+yes/no/NA
+%
+Btu/unit
+hour:minute
+hour:minute
+
+Manufacturer
+Manufacturer’s Guarantee Included?
+If “yes”, attach manufacturer’s
+immediately after these forms.
+
+sheets
+
+Stack Height
+Stack Inside Diameter
+Stack Temperature
+Stack Exit Velocity
+Actual Gas Volume Flow Rate
+Dry Gas Volume Flow Rate
+If not included in detailed calculations.
+
+yes/N/A
+feet
+feet
+ºF
+feet/second
+acfm
+dscfm
+
+☐ vertical
+
+Stack Release Type
+Notes*
+Code
+LU
+LDG
+NECI
+ECI
+
+Description
+Limited Use
+Landfill/Digester Gas
+Non-Emergency
+Compression
+Ignition
+Emergency Compression Ignition
+
+☐ capped
+
+Code
+E-SI
+SI4SRB
+
+Description
+Emergency Spark Ignition
+Spark Ignition 4-Stroke Rich Burn
+
+SI4SLB
+SI2SLB
+
+Spark Ignition 4-Stroke Lean Burn
+Spark Ignition 2-Stroke Lean Burn
+
+☐ horizontal
+
+Page 7 of 21
+
+Combustion Equipment Application Form
+Page 2 of 2
+
+COMBUSTION EQUIPMENT APPLICATION FORM
+CLASS II OPERATING PERMIT (continued)
+Emission Unit Description:
+1.
+
+How will fuel consumption be monitored for this emission unit? (e.g. maximum fuel consumption rate supplied by
+manufacturer, fuel flow meter).
+
+2.
+
+Does this unit have the capability to bypass air pollution controls in an emergency situation as defined under NAC
+445B.056?:
+☐ Yes ☐ No
+
+Page 8 of 21
+
+Storage Silo Application Form
+Page 1 of 1
+
+STORAGE SILO APPLICATION FORM
+CLASS II OPERATING PERMIT
+System Number and Name:
+Emission Unit Description:
+Alternative Operating Scenario: ☐ Yes ☐ No
+Insignificant Activity: ☐ Yes ☐ No If yes, identify exemption regulation:
+Subject to a Federal Regulation (40 CFR Part 60, 61, or 63): ☐ Yes ☐ No If yes, identify in process narrative.
+Data
+Description
+Silo Loading
+Silo Unloading
+BAPC
+
+Emission
+
+Unit
+
+ID
+
+Applicable for Renewal or Revision
+
+Equipment
+Description
+
+Source Classification Code (SCC)
+
+e.g. 3-03-024-04
+for Conveyors
+
+Manufacturer
+Date Manufactured
+Model Number
+Equipment Dimensions (LxWxH)
+
+feet
+
+Drop Dimensions (LxWxH)
+if applicable
+
+Location of
+Emission
+Source
+
+Operating
+Parameters
+
+Control
+Equipment
+
+Stack
+Parameters
+
+eg. Unit ID:
+S2.001, PF1.001
+
+feet
+
+Emissions Released Inside building?
+
+yes/no
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+UTM Easting (NAD 83, Zone 11)
+
+m
+
+Material Type Processed
+Batch Process if applicable
+Start Time if operating less than 24 hours/day
+End Time if operating less than 24 hours/day
+Manufacturer
+Manufacturer’s Guarantee Included?
+If “yes”, attach manufacturer’s sheets
+immediately after these forms.
+
+Stack Height
+Stack Inside Diameter
+Stack Temperature
+Stack Exit Velocity
+Actual Gas Volume Flow Rate
+Dry Gas Volume Flow Rate
+If not included in detailed calculations.
+
+Stack Release Type
+
+unit/batch
+hour:minute
+hour:minute
+
+yes/N/A
+feet
+feet
+ºF
+feet/second
+acfm
+dscfm
+Vertical/Capped/
+Horizontal
+
+Page 9 of 21
+
+Liquid Storage Tank Application Form
+Page 1 of 2
+
+LIQUID STORAGE TANK APPLICATION FORM
+CLASS II OPERATING PERMIT
+System Number and Name:
+Emission Unit Description:
+Alternative Operating Scenario: ☐ Yes ☐ No
+Insignificant Activity: ☐ Yes ☐ No If yes, identify exemption regulation:
+Subject to a Federal Regulation (40 CFR Part 60, 61, or 63): ☐ Yes ☐ No If yes, identify in process narrative.
+Description
+Data
+BAPC Emission Unit ID and
+eg. Unit ID:
+S2.001, PF1.001
+System
+Number
+Applicable for Renewal or Revision
+
+Source Classification Code (SCC)
+
+Equipment
+Description
+
+Manufacturer
+Date Manufactured
+Model Number
+Heated Tank
+Shell Height
+Shell Diameter
+Maximum Liquid Height
+Average Liquid Height
+Capacity of Tank
+Shell Color
+Roof Condition
+
+System Number: 5
+e.g. 3-03-024-04
+for Conveyors
+
+yes/no
+feet
+feet
+feet
+feet
+gallons
+good/poor
+
+Roof
+Type
+(Cone, Dome, External, or Internal Floating Roof)
+Roof Height
+Cone Roof Slope
+Dome Roof Radius
+True Vapor Pressure of Liquid
+Reid Vapor Pressure of Liquid
+Orientation of Tank
+Submerged Fill
+[NAC 445B.22093(3)]
+Equipment Dimensions (LxWxH)
+Location of
+Emission
+Source
+
+feet
+feet
+psig
+psig
+Horizontal/Vertical
+yes/no
+feet
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+UTM Easting (NAD 83, Zone 11)
+
+m
+
+Page 10 of 21
+
+Liquid Storage Tank Application Form
+Page 2 of 2
+
+LIQUID STORAGE TANK APPLICATION FORM
+CLASS II OPERATING PERMIT (CONTINUED)
+Emission Unit Description:
+
+Operating
+Parameters
+
+Control
+Equipment
+
+Description
+Material Type
+Operating Time per Year
+Maximum Throughput
+Maximum Throughput
+Type of Control
+Control Efficiency
+Pollutant(s) Controlled
+Manufacturer
+Manufacturer’s Guarantee Included?
+
+Volatile
+Organic
+Compounds
+(VOC)
+Emissions
+
+Emission Limit
+
+Other
+Pollutants
+
+Emission Factor (with units)
+Emission Factor Reference
+Emission Limit
+Emission Limit
+
+Data
+hour/year
+gallon/month
+gallon/year
+%
+
+yes/N/A
+
+ton/year
+
+(insert unit)
+pound/hour
+ton/year
+
+Page 11 of 21
+
+INDUSTRIAL PROCESS AND STORAGE SILO DETAILED CALCULATIONS
+Operating Hours
+Unit
+No.
+
+Throughput
+
+Controls
+
+Unit
+Description
+Daily
+
+Annual
+
+Hourly
+
+Annual
+
+Units
+
+Type
+
+Efficiency or
+Dry Volume
+Flow Rate
+
+Emissions
+
+Pollutant
+
+Factor
+
+Unit
+
+Hourly
+Rate
+(lbs/hr)
+
+References
+Yearly Rate
+(tons/yr)
+
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+System No. & Name:
+PM
+PM10
+PM2.5
+*Exact format may be changed, but requested information is still required.
+
+Page 12 of 21
+
+COMBUSTION EQUIPMENT DETAILED CALCULATIONS
+Operating Hours
+Unit
+No.
+
+Heat Input
+(MMBtu)
+
+Fuel Usage
+
+Power Output
+
+Controls
+
+Unit
+Description
+Daily
+
+Annual
+
+Hourly
+
+Annual
+
+Hourly
+
+Annual
+
+Units
+
+Amount
+
+Units
+
+Type
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+Emissions
+
+Pollutant
+
+Factor
+
+Unit
+
+Hourly
+Rate
+(lbs/hr)
+
+Yearly
+Rate
+(tons/yr)
+
+References
+
+System No. & Name:
+PM
+PM10
+PM2.5
+SO2
+NOX
+CO
+VOC
+Pb
+Hg
+H2S
+System No. & Name:
+PM
+PM10
+PM2.5
+SO2
+NOX
+CO
+VOC
+Pb
+Hg
+H2S
+System No. & Name:
+PM
+PM10
+PM2.5
+SO2
+NOX
+CO
+VOC
+Pb
+Hg
+H2S
+*Exact format may be changed, but requested information is still required.
+
+Page 13 of 21
+
+GREENHOUSE GASES (GHG) DETAILED CALCULATIONS
+Operating Hours
+Unit
+No.
+
+Heat Input
+(MMBtu)
+
+Fuel Usage
+
+Controls
+
+Unit
+Description
+Daily
+
+Annual
+
+Hourly
+
+Annual
+
+Hourly
+
+Annual
+
+Units
+
+Type
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+Emissions
+
+Pollutant
+
+Factor
+
+GWP
+Multiplier
+
+Unit
+
+Hourly
+Rate
+(lbs/hr)
+
+Yearly
+Rate
+(tons/yr)
+
+References
+
+System No. & Name:
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+CO2
+CH4
+N 2O
+
+1
+25
+298
+
+System No. & Name:
+
+System No. & Name:
+
+System No. & Name:
+
+System No. & Name:
+
+System No. & Name:
+
+System No. & Name:
+
+System No. & Name:
+
+System No. & Name:
+
+System No. & Name:
+
+*Exact format may be changed, but requested information is still required.
+
+Page 14 of 21
+
+HAZARDOUS AIR POLLUTANTS (HAPS) DETAILED CALCULATIONS
+Operating Hours
+Unit
+No.
+
+Heat Input
+(MMBtu)
+
+Fuel Usage
+
+Controls
+
+Unit
+Description
+Daily
+
+Annual
+
+Hourly
+
+Annual
+
+Hourly
+
+Annual
+
+Units
+
+Type
+
+Efficiency
+or Dry
+Volume
+Flow Rate
+
+Emissions
+
+Pollutant
+
+Factor
+
+Unit
+
+Hourly
+Rate
+(lbs/hr)
+
+Yearly
+Rate
+(tons/yr)
+
+References
+
+System No. & Name:
+
+*Exact format may be changed, but requested information is still required.
+
+Page 15 of 21
+
+FACILITY-WIDE POTENTIAL TO EMIT TABLE
+(FOR ALL SOURCES INCLUDING INSIGNIFICANT ACTIVITIES)
+(POUND/HOUR AND TON/YEAR)
+Facility-Wide Potential to Emit
+(pound/hour)
+
+Pollutant
+
+Facility-Wide Potential to Emit
+(ton/year)
+
+Total Particulate Matter (PM)
+Total PM10
+Total PM2.5
+Total Sulfur Dioxide (SO2)
+Total Carbon Monoxide (CO)
+Total Oxides of Nitrogen (NOX)
+Total Volatile Organic Compounds (VOC)
+Total Lead (Pb)
+Total Hydrogen Sulfide (H2S)
+Total Sulfuric Acid Mist (H2SO4)
+Total Hazardous Air Pollutants (HAPs)
+Total Greenhouse Gases (CO2e)
+Other Regulated Pollutants (Specify)
+
+REVISION TABLE
+Please complete the table below if this application is for a Revision of an existing Class II Air Quality Operating Permit. Add
+more columns if needed for any other applicable regulated pollutants. All Potential To Emit (PTE) must be in tons per year
+(TPY) [NAC 445B.3457(5)(b)]
+Pollutants
+Description
+PM
+
+PM10
+
+PM2.5
+
+SO2
+
+NOx
+
+CO
+
+VOC
+
+HAPs
+
+CO2e
+
+Other
+
+Permitted
+Facility-Wide
+PTE (TPY)
+Proposed
+Facility-Wide
+PTE (TPY)
+Change in
+Facility-Wide
+PTE (TPY)
+
+Page 16 of 21
+
+SURFACE AREA DISTURBANCE FORM
+1.
+2.
+3.
+4.
+
+5.
+
+Total Acres of the Facility Site: Click or tap here to enter text.
+Total Acres Disturbed: Click or tap here to enter text.
+Add Surface Area Disturbance location as Township(s), Range(s) and Section
+Click or tap here to enter text.
+NAC 445B.22037 requires fugitive dust to be controlled (regardless of the size or amount of
+acreage disturbed), and requires an ongoing program, using best practical methods, to prevent
+particulate matter from becoming airborne. All activities which have the potential to adversely
+affect the local air quality must implement all appropriate measures to limit controllable emissions.
+Appropriate measures for dust control may consist of a phased approach to acreage disturbance
+rather than disturbing the entire area all at once; using wet suppression through such application
+methods as water trucks or water spray systems to control wind-blown dust; the application of soil
+binding agents or chemical surfactant to roadways and areas of disturbed soil; as well as the use
+of wind-break or wind limiting fencing designed to limit wind erosion soils.
+If the Surface Area Disturbance is greater than 5 acres, please check each box that applies for Best
+Management Practices (BMPs) used for controlling dust on project’s disturbed areas:
+☐
+Water trucks
+☐
+Graveling/paving of roadway storage areas and staging areas
+☐
+Dust palliatives
+☐
+Posting and limiting vehicle speeds to 10-15 miles per hour
+☐
+Ceasing operations during high wind events
+☐
+Fencing or berming to prevent unauthorized access to disturbed areas
+☐
+Application of water sprays on material storage piles on a regular basis
+☐
+Covering material storage piles with tarpaulin or geo-textiles; tenting
+☐
+Use of overhead water spray racks or water hoses
+☐
+Track-out controls (graveled entranced, exit area, and street sweeping)
+☐
+Landscape preservation and impact avoidance
+☐
+Wind fence
+☐
+Pre-watering of areas to be disturbed (including all unpaved onsite roads and staging
+areas)
+☐
+Inform all subcontractors (including truck drivers) of their responsibilities for the
+control of fugitive dust while they are on the project site
+☐
+Training of equipment operators to recognize fugitive dust generation and having the
+authority to shut down operations until water truck arrives and sprays water on the
+disturbed areas
+☐
+Other Applicable BMPs: Click or tap here to enter text.
+☐
+Other Applicable BMPs: Click or tap here to enter text.
+☐
+If using water trucks, list how many water trucks are used and their capacity in gallons:
+Click or tap here to enter text.
+
+Page 17 of 21
+
+PLANT BOUNDARY COORDINATES FORM if applicable
+Corner Number
+
+UTM Easting
+
+UTM Northing
+
+Page 18 of 21
+
+PLANT BUILDING PARAMETERS FORM if applicable
+Building Parameters
+Building Name:
+Roof Height (ft):
+Building UTM Coordinates
+UTM Easting
+
+Building Tier :
+Building Diameter (ft):
+
+UTM Northing
+
+Building Parameters
+Building Name:
+Roof Height (ft):
+Building UTM Coordinates
+UTM Easting
+
+UTM Easting
+
+UTM Northing
+
+Building Tier :
+Building Diameter4 (ft):
+
+UTM Northing
+
+UTM Easting
+
+UTM Northing
+
+Page 19 of 21
+
+Application Certification
+Page 1 of 2
+
+APPLICATION CERTIFICATION DOCUMENT
+(With Required Attachments)
+Please check all applicable boxes below to indicate the information provided in your application
+submittal:
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+
+General Company Information Form
+Industrial Process Application Form(s)
+Combustion Equipment Application Form(s)
+Storage Silos Application Form(s)
+Liquid Storage Tank Application Form(s)
+Manufacturer’s Guarantee
+Facility-Wide Potential to Emit Table
+Surface Area Disturbance Form
+Plant Boundary Coordinates Form if applicable
+Plant Building Parameters Form if applicable
+Detailed Emission Calculations (for all emission units including IA units)
+Source Testing Data (if referenced in calculations)
+Process Narrative
+Process Flow Diagram(s)
+Site Plan(s) showing the locations (UTM coordinates), dimensions, and heights of
+buildings on the site
+Maps:
+☐
+Vicinity Map of where the facility is located in the State
+☐
+Area Map of the Facility (including location of all emission units, building
+locations (with UTMs), location of front gate, and fence line/site boundary
+(with UTMs))
+Environmental Evaluation (AERMOD Air Dispersion Modeling) if applicable
+[NAC 445B.310]
+Manufacturer’s Guarantee if applicable
+Equipment Specifications if applicable
+TANKs Modeling Output if applicable
+Application Fee Attached or Electronically Submitted
+Digital Copy of Application on CD or Thumb Drive
+Application Certification Document with Original Responsible Official Signature
+
+Page 20 of 21
+
+Application Certification
+Page 2 of 2
+
+APPLICATION CERTIFICATION DOCUMENT (CONTINUED)
+(With Required Attachments)
+PLEASE NOTE THE FOLLOWING REQUIREMENTS WHICH APPLY TO PERMIT
+APPLICANTS DURING THE APPLICATION PROCESS:
+A.
+B.
+C.
+
+A permit applicant must submit supplementary facts or corrected information upon
+discovery [NAC 445B.297(1)(b)].
+A permit applicant is required to provide any additional information which the
+Director requests in writing within the time specified in the Director's request [NAC
+445B.297(1)(c)].
+Submission of fraudulent data or other information may result in prosecution for an
+alleged criminal offense [NRS 445B.470].
+
+CERTIFICATION:
+I certify that, based on information and belief formed after reasonable inquiry, the statements and
+information contained in this application are true, accurate and complete.
+
+Signature of Responsible Official
+Print or Type Name and Title
+Date
+
+Page 21 of 21
+
+

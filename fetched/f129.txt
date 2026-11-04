@@ -1,0 +1,4718 @@
+CHAPTER 33.1-15-14
+DESIGNATED AIR CONTAMINANT SOURCES, PERMIT TO CONSTRUCT, MINOR
+SOURCE PERMIT TO OPERATE, TITLE V PERMIT TO OPERATE
+Section
+33.1-15-14-01 Designated Air Contaminant Sources
+33.1-15-14-01.1 Definitions
+33.1-15-14-02 Permit to Construct
+33.1-15-14-03 Minor Source Permit to Operate
+33.1-15-14-04 [Reserved]
+33.1-15-14-05 [Reserved]
+33.1-15-14-06 Title V Permit to Operate
+33.1-15-14-07 Source Exclusions From Title V Permit to Operate Requirements
+33.1-15-14-01. Designated air contaminant sources.
+Pursuant to subsection 1 of North Dakota Century Code section 23.1-06-08, stationary sources
+within the following source categories are designated as air contaminant sources capable of causing or
+contributing to air pollution, either directly or indirectly.
+1.
+
+The following chemical process facilities:
+a.
+
+Adipic acid.
+
+b.
+
+Ammonia.
+
+c.
+
+Ammonium nitrate.
+
+d.
+
+Carbon black.
+
+e.
+
+Charcoal.
+
+f.
+
+Chlorine.
+
+g.
+
+Chlor-alkali manufacturing.
+
+h.
+
+Detergent and soap.
+
+i.
+
+Explosives (trinitrotoluene and nitrocellulose).
+
+j.
+
+Hydrochloric acid.
+
+k.
+
+Hydrofluoric acid.
+
+l.
+
+Nitric acid.
+
+m.
+
+Paint and varnish manufacturing.
+
+n.
+
+Phosphoric acid.
+
+o.
+
+Phthalic anhydride.
+
+p.
+
+Plastics manufacturing.
+
+q.
+
+Printing ink manufacturing.
+
+r.
+
+Sodium carbonate.
+
+s.
+
+Sulfur production and recovery.
+1
+
+2.
+
+3.
+
+t.
+
+Sulfuric acid.
+
+u.
+
+Synthetic fibers.
+
+v.
+
+Synthetic rubber.
+
+w.
+
+Terephthalic acid.
+
+x.
+
+Alcohol.
+
+y.
+
+Cresylic acids.
+
+z.
+
+Phenol.
+
+aa.
+
+Polymer manufacturing and coating operations.
+
+The following food and agricultural facilities:
+a.
+
+Agricultural drying and dehydrating operations.
+
+b.
+
+Ammonium nitrate.
+
+c.
+
+Cheese whey drying and processing.
+
+d.
+
+Coffee roasting.
+
+e.
+
+Cotton ginning.
+
+f.
+
+Feed, grain, and seed handling and processing.
+
+g.
+
+Fermentation processes.
+
+h.
+
+Fertilizers.
+
+i.
+
+Fishmeal processing.
+
+j.
+
+Meat smokehouses.
+
+k.
+
+Orchard heaters.
+
+l.
+
+Potato processing.
+
+m.
+
+Rendering plants.
+
+n.
+
+Starch manufacturing.
+
+o.
+
+Sugarbeet processing.
+
+The following metallurgical facilities:
+a.
+
+Primary metals facilities:
+(1)
+
+Aluminum ore reduction.
+
+(2)
+
+Copper smelters.
+
+(3)
+
+Ferroalloy production.
+
+(4)
+
+Iron and steel mills.
+
+(5)
+
+Lead smelters.
+2
+
+b.
+
+c.
+4.
+
+(6)
+
+Metallurgical coke manufacturing.
+
+(7)
+
+Zinc.
+
+Secondary metals facilities:
+(1)
+
+Aluminum operations.
+
+(2)
+
+Brass and bronze smelting.
+
+(3)
+
+Ferroalloys.
+
+(4)
+
+Ferrous foundries.
+
+(5)
+
+Gray iron foundries.
+
+(6)
+
+Lead smelting.
+
+(7)
+
+Magnesium smelting.
+
+(8)
+
+Nonferrous foundries.
+
+(9)
+
+Steel foundries.
+
+(10)
+
+Zinc processes.
+
+Electrolytic plating operations.
+
+The following mineral products facilities:
+a.
+
+Asphalt roofing.
+
+b.
+
+Asphaltic concrete plants.
+
+c.
+
+Bricks and related clay refractories.
+
+d.
+
+Calcium carbide.
+
+e.
+
+Ceramic and clay processes.
+
+f.
+
+Clay and fly ash sintering.
+
+g.
+
+Coal cleaning.
+
+h.
+
+Coal drying.
+
+i.
+
+Coal mining.
+
+j.
+
+Coal handling and processing.
+
+k.
+
+Concrete batching.
+
+l.
+
+Fiberglass manufacturing.
+
+m.
+
+Frit manufacturing.
+
+n.
+
+Glass manufacturing.
+
+o.
+
+Gypsum manufacturing.
+
+p.
+
+Leonardite mining, drying, and processing.
+3
+
+5.
+
+6.
+
+7.
+
+q.
+
+Lime manufacturing.
+
+r.
+
+Mineral wool manufacturing.
+
+s.
+
+Paperboard manufacturing.
+
+t.
+
+Perlite manufacturing.
+
+u.
+
+Phosphate rock preparation.
+
+v.
+
+Portland cement manufacturing, bulk handling, and storage.
+
+w.
+
+Rock, stone, gravel, and sand quarrying and processing.
+
+x.
+
+Uranium mining, milling, and enrichment.
+
+y.
+
+Calciners and dryers.
+
+The following energy and fuel facilities:
+a.
+
+Coal gasification.
+
+b.
+
+Coal liquefaction.
+
+c.
+
+Crude oil and natural gas production.
+
+d.
+
+Fossil fuel steam electric plants.
+
+e.
+
+Fuel conversion plants.
+
+f.
+
+Natural gas processing.
+
+g.
+
+Petroleum refining and petrochemical operations.
+
+h.
+
+Petroleum storage (storage tanks and bulk terminals).
+
+The following wood processing facilities:
+a.
+
+Plywood veneer and layout operations.
+
+b.
+
+Pulpboard manufacturing.
+
+c.
+
+Wood pulping.
+
+d.
+
+Sawmills.
+
+e.
+
+Wood products manufacturing.
+
+The following waste management units or facilities:
+a.
+
+Afterburners.
+
+b.
+
+Automobile body incinerators.
+
+c.
+
+Conical burners.
+
+d.
+
+Flares.
+
+e.
+
+Gaseous and liquid organic compounds incinerators.
+
+f.
+
+Industrial waste incinerators.
+4
+
+8.
+
+g.
+
+Open burning.
+
+h.
+
+Open pit incinerators.
+
+i.
+
+Infectious waste incinerators.
+
+j.
+
+Refuse incinerators.
+
+k.
+
+Salvage incinerators.
+
+l.
+
+Sewage sludge incinerators.
+
+m.
+
+Wood waste incinerators.
+
+n.
+
+Municipal waste combustors.
+
+The following miscellaneous facilities:
+a.
+
+Drycleaning and laundry operations.
+
+b.
+
+Fuel burning equipment.
+
+c.
+
+Internal combustion engines.
+
+d.
+
+Surface coating operations.
+
+e.
+
+Wastewater treatment plants.
+
+f.
+
+Water cooling towers and water cooling ponds.
+
+g.
+
+Stationary gas turbines.
+
+h.
+
+Lead acid battery manufacturing.
+
+i.
+
+Hydrocarbon contaminated soil remediation projects.
+
+9.
+
+Any source for which an applicable federal standard of performance [40 CFR 60] has been
+adopted in chapter 33.1-15-12.
+
+10.
+
+Any source for which an applicable national emission standard for hazardous air pollutants
+[40 CFR 61] has been adopted in chapter 33.1-15-13.
+
+11.
+
+Any source which is subject to review under federal prevention of significant deterioration of
+air quality regulations [40 CFR 51.166].
+
+12.
+
+Any source which is determined by the department to cause or contribute to a violation of any
+state ambient air quality standard or violates the other provisions of chapter 33.1-15-02.
+
+13.
+
+Any source subject to title V permitting requirements in section 33.1-15-14-06.
+
+14.
+
+Any major source to which a national emission standard for hazardous air pollutants for
+source categories [40 CFR 63] would apply.
+
+15.
+
+Other stationary sources subject to a standard or requirement under the federal Clean Air Act
+as amended.
+
+History: Effective January 1, 2019.
+General Authority: NDCC 23.1-06-04, 23.1-06-08, 23.1-06-09; S.L. 2017, ch. 199, § 1
+Law Implemented: NDCC 23.1-06-08; S.L. 2017, ch. 199, § 21
+
+5
+
+33.1-15-14-01.1. Definitions.
+For the purposes of this chapter:
+1.
+
+"Complete" means, in reference to an application for a permit, that the application contains all
+the information necessary for processing the application. Designating an application complete
+for purposes of permit processing does not preclude the department from requesting or
+accepting any additional information.
+
+2.
+
+"Construction, installation, or establishment" means:
+a.
+
+For sources subject to a standard or requirement under chapters 33.1-15-13, 33.1-15-15
+(excluding increment consumption by nonmajor sources), and 33.1-15-22, it shall have
+the meaning given for construction in each of the respective chapters.
+
+b.
+
+For all other sources it means the onsite placement or erection, including onsite
+fabrication, demolition, or modification, of an air contaminant emissions unit and any
+equipment, process, or structure that will be used to reduce, physically or chemically
+change, or transmit to the atmosphere any air contaminant. This does not include the
+building that houses the source, site work, foundations, or other equipment which does
+not affect the amount, ambient concentration, or type of air contaminants that are
+emitted. With respect to a physical change or a change in the method of operation it
+means those onsite activities which will affect an existing emissions unit or establishment
+of a new unit that emits to the atmosphere.
+
+3.
+
+"Emissions unit" has the meaning given to it in section 33.1-15-14-06.
+
+4.
+
+"Minor source" means any designated air contaminant source under section 33.1-15-14-01
+which is not required to obtain a title V permit to operate under section 33.1-15-14-06.
+
+5.
+
+"Potential to emit" has the meaning given to it in section 33.1-15-14-06.
+
+6.
+
+"Stationary source" has the meaning given to it in section 33.1-15-14-06.
+
+History: Effective January 1, 2019; amended effective July 1, 2020.
+General Authority: NDCC 23.1-06-04; S.L. 2017, ch. 199, § 1
+Law Implemented: NDCC 23.1-06-04; S.L. 2017, ch. 199, § 21
+33.1-15-14-02. Permit to construct.
+1.
+
+Permit to construct required.
+a.
+
+No construction, installation, or establishment of a new stationary source within a source
+category designated in section 33.1-15-14-01 may be commenced unless the owner or
+operator thereof shall file an application for, and receive, a permit to construct in
+accordance with this chapter.
+
+b.
+
+The initiation of activities that are exempt from the definition of construction, installation,
+or establishment in section 33.1-15-14-01.1, prior to obtaining a permit to construct, are
+at the owner's or operator's own risk. These activities have no impact on the
+department's decision to issue a permit to construct. The initiation or completion of such
+activities conveys no rights to a permit to construct under this section.
+
+c.
+
+General permits. The department may issue a general permit to construct covering
+numerous similar sources which are not subject to permitting requirements under chapter
+33.1-15-13 or 33.1-15-15 or subpart B of section 33.1-15-22-03. Any general permit shall
+comply with all requirements applicable to other permits to construct and shall identify
+6
+
+criteria by which sources may qualify for the general permit. A proposed general permit,
+any changes to a general permit, and any renewal of a general permit is subject to public
+comment. The public comment procedures under subdivision b of subsection 6 shall be
+used. To sources that qualify, the department shall grant the conditions and terms of the
+general permit. Sources that would qualify for a general permit must apply to the
+department for coverage under the terms of the general permit or apply for an individual
+permit to construct. Without repeating the public participation procedures under
+subdivision b of subsection 6, the department may grant a source's request for
+authorization to construct under the general permit.
+2.
+
+3.
+
+Application for permit to construct.
+a.
+
+Application for a permit to construct a new installation or source must be made by the
+owner or operator thereof on forms furnished by the department.
+
+b.
+
+A separate application is required for each new installation or source subject to this
+chapter.
+
+c.
+
+Each application must be signed by the applicant, which signature shall constitute an
+agreement that the applicant will assume responsibility for the construction or operation
+of the new installation or source in accordance with this article and will notify the
+department, in writing, of the startup of operation of such source.
+
+Alterations to source.
+a.
+
+The addition to or enlargement of or replacement of or alteration in any stationary source,
+already existing, which is undertaken pursuant to an approved compliance schedule for
+the reduction of emissions therefrom, shall be exempt from the requirements of this
+section.
+
+b.
+
+Any physical change in, or change in the method of operation of, a stationary source
+already existing which increases or may increase the emission rate or increase the
+ambient concentration by an amount greater than that specified in subdivision a of
+subsection 5 of any pollutant for which an ambient air quality standard has been
+promulgated under this article or which results in the emission of any such pollutant not
+previously emitted must be considered to be construction, installation, or establishment
+of a new source, except that:
+(1)
+
+Routine maintenance, repair, and replacement may not be considered a physical
+change.
+
+(2)
+
+The following may not be considered a change in the method of operation:
+(a)
+
+An increase in the production rate, if such increase does not exceed the
+operating design capacity of the source and it is not limited by a permit
+condition.
+
+(b)
+
+An increase in the hours of operation if it is not limited by a permit condition.
+
+(c)
+
+Changes from one operating scenario to another provided the alternative
+operating scenarios are identified and approved in a permit to operate.
+
+(d)
+
+Trading of emissions within a facility provided:
+[1]
+
+These trades have been identified and approved in a permit to operate;
+and
+
+7
+
+[2]
+(e)
+c.
+
+4.
+
+5.
+
+The total facility emissions do not exceed the facility emissions cap
+established in the permit to operate.
+
+Trading and utilizing acid rain allowances provided compliance is maintained
+with all other applicable requirements.
+
+Any owner or operator of a source who requests an increase in the allowable sulfur
+dioxide emission rate for the source pursuant to section 33.1-15-02-07 shall demonstrate
+through a dispersion modeling analysis that the revised allowable emissions will not
+cause or contribute to a violation of the national ambient air quality standards for sulfur
+oxides (sulfur dioxide) or the prevention of significant deterioration increments for sulfur
+dioxide. The owner or operator shall also demonstrate that the revised allowable
+emission rate will not violate any other requirement of this article or the Federal Clean Air
+Act. Requests for emission limit changes shall be subject to review by the public and the
+environmental protection agency in accordance with subsection 6.
+
+Submission of plans - Deficiencies in application. As part of an application for a permit to
+construct, the department may require the submission of plans, specifications, siting
+information, emission information, descriptions and drawings showing the design of the
+installation or source, the manner in which it will be operated and controlled, the emissions
+expected from it, and the effects on ambient air quality. Any additional information, plans,
+specifications, evidence, or documentation that the department may require must be furnished
+upon request. Within twenty days of the receipt of the application, the department shall advise
+the owner or operator of the proposed source of any deficiencies in the application. In the
+event of a deficiency, the date of receipt of the application is the date upon which all requested
+information is received.
+a.
+
+Determination of the effects on ambient air quality as may be required under this section
+must be based on the applicable requirements specified in the "Guideline on Air Quality
+Models (Revised)" (United States environmental protection agency, office of air quality
+planning and standards, Research Triangle Park, North Carolina 27711) as it exists on
+July 1, 2019.
+
+b.
+
+When an air quality impact model specified in the documents incorporated by reference
+in subdivision a is inappropriate, the model may be modified or another model substituted
+provided:
+(1)
+
+Any modified or nonguideline model must be subject to notice and opportunity for
+public comment under subsection 6.
+
+(2)
+
+The applicant must provide to the department adequate information to evaluate the
+applicability of the modified or nonguideline model. Such information must include,
+but is not limited to, methods like those outlined in the "Interim Procedures for
+Evaluating Air Quality Models (Revised)" (United States environmental protection
+agency, office of air quality planning and standards, Research Triangle Park, North
+Carolina 27709).
+
+(3)
+
+Written approval from the department must be obtained for any modification or
+substitution.
+
+(4)
+
+Written approval from the United States environmental protection agency must be
+obtained for any modification or substitution prior to the granting of a permit under
+this chapter.
+
+Review of application - Standard for granting permits to construct. The department shall
+review any plans, specifications, and other information submitted in an application for a permit
+8
+
+to construct and from such review shall, within ninety days of the receipt of the completed
+application, make the following preliminary determinations:
+a.
+
+Whether the proposed project will be in accord with this article, including whether the
+operation of any new stationary source at the proposed location will cause or contribute
+to a violation of any applicable ambient air quality standard. A new stationary source will
+be considered to cause or contribute to a violation of an ambient air quality standard
+when such source would, at a minimum, exceed the following significance levels at any
+locality that does not or would not meet the applicable ambient standard:
+Contaminant
+
+SO2
+
+Averaging Time (hours)
+Annual
+(μg/m3)
+
+24
+(μg/m3)
+
+1.0
+
+5
+
+PM10
+NO2
+
+1
+(μg/m3)
+
+25
+
+7.8
+
+1.0
+
+7.5
+500
+
+PM2.5
+
+0.2
+
+2000
+
+1.2
+
+Ozone
+
+6.
+
+3
+(μg/m3)
+
+5
+
+CO
+
+b.
+
+8
+(μg/m3)
+
+2.0
+
+Whether the proposed project will provide all necessary and reasonable methods of
+emission control. Whenever a standard of performance is applicable to the source,
+compliance with this criterion will require provision for emission control which will, at
+least, satisfy such standards.
+
+Public participation - Final action on application.
+a.
+
+The following source categories are subject to the public participation procedures under
+this subsection:
+(1)
+
+Those affected facilities designated under chapter 33.1-15-13.
+
+(2)
+
+New sources that will be required to obtain a permit to operate under section
+33.1-15-14-06.
+
+(3)
+
+Modifications to an existing facility which will increase the potential to emit from the
+facility by the following amounts:
+(a)
+
+One hundred tons [90.72 metric tons] per year or more of particulate matter,
+sulfur dioxide, nitrogen oxides, hydrogen sulfide, carbon monoxide, or volatile
+organic compounds;
+
+(b)
+
+Ten tons [9.07 metric tons] per year or more of any contaminant listed under
+section 112(b) of the federal Clean Air Act; or
+
+(c)
+
+Twenty-five tons [22.68 metric tons] per year or more of any combination of
+contaminants listed under section 112(b) of the federal Clean Air Act.
+
+(4)
+
+Sources which the department has determined to have a major impact on air quality.
+
+(5)
+
+Those for which a request for a public comment period has been received from the
+public.
+9
+
+b.
+
+c.
+7.
+
+(6)
+
+Sources for which a significant degree of public interest exists regarding air quality
+issues.
+
+(7)
+
+Those sources which request a federally enforceable permit which limits their
+potential to emit.
+
+With respect to the permit to construct application, the department shall:
+(1)
+
+Within ninety days of receipt of a complete application, make a preliminary
+determination concerning issuance of a permit to construct.
+
+(2)
+
+Within ninety days of the receipt of the complete application, make available in at
+least one location in the county or counties in which the proposed project is to be
+located or on the department's website, a copy of its preliminary determinations and
+copies of or a summary of the information considered in making such preliminary
+determinations.
+
+(3)
+
+Publish notice to the public by prominent advertisement, within ninety days of the
+receipt of the complete application, in the region affected, of the opportunity for
+written comment on the preliminary determinations. The public notice must include
+the proposed location of the source.
+
+(4)
+
+Within ninety days of the receipt of the complete application, deliver a copy of the
+notice to the applicant and to officials and agencies having cognizance over the
+locations where the source will be situated as follows: the chief executive of the city
+and county; any comprehensive regional land use planning agency; and any state,
+federal land manager, or Indian governing body whose lands will be significantly
+affected by the source's emissions.
+
+(5)
+
+Within ninety days of receipt of a complete application, provide a copy of the
+proposed permit and all information considered in the development of the permit
+and the public notice to the regional administrator of the United States
+environmental protection agency.
+
+(6)
+
+Allow thirty days for public comment.
+
+(7)
+
+Consider all public comments properly received, in making the final decision on the
+application.
+
+(8)
+
+Allow the applicant to submit written responses to public comments received by the
+department. The applicant's responses must be submitted to the department within
+twenty days of the close of the public comment period.
+
+(9)
+
+Take final action on the application within thirty days of the applicant's response to
+the public comments.
+
+(10)
+
+Provide a copy of the final permit, if issued, to the applicant, the regional
+administrator of the United States environmental protection agency, and anyone
+who requests a copy.
+
+For those sources subject to the requirements of chapter 33.1-15-15, the public
+participation procedures under section 33.1-15-15-01.2 shall be followed.
+
+Denial of permit to construct. If, after review of all information received, including public
+comment with respect to any proposed project, the department makes the determination of
+any one of subdivision a or b of subsection 5 in the negative, it shall deny the permit and notify
+the applicant, in writing, of the denial to issue a permit to construct.
+10
+
+If a permit to construct is denied, the construction, installation, or establishment of the new
+stationary source shall be unlawful. No permit to construct or modify may be granted if such
+construction, or modification, or installation, will result in a violation of this article.
+8.
+
+Issuance of permit to construct. If, after review of all information received, including public
+comment with respect to any proposed project, the department makes the determination of
+subdivision a and b of subsection 5 in the affirmative, the department shall issue a permit to
+construct. The permit may provide for conditions of operation as provided in subsection 9.
+
+9.
+
+Permit to construct - Conditions. The department may impose any reasonable conditions
+upon a permit to construct, including conditions concerning:
+a.
+
+Sampling, testing, and monitoring of the facilities or the ambient air or both.
+
+b.
+
+Trial operation and performance testing.
+
+c.
+
+Prevention and abatement of nuisance conditions caused by operation of the facility.
+
+d.
+
+Recordkeeping and reporting.
+
+e.
+
+Compliance with applicable rules and regulations in accordance with a compliance
+schedule.
+
+f.
+
+Limitation on hours of operation, production rate, processing rate, or fuel usage when
+necessary to assure compliance with this article.
+
+The violation of any conditions so imposed may result in revocation or suspension of the
+permit or other appropriate enforcement action.
+10.
+
+Scope.
+a.
+
+The issuance of a permit to construct for any source does not affect the responsibility of
+an owner or operator to comply with applicable portions of a control strategy affecting the
+source.
+
+b.
+
+A permit to construct shall become invalid if construction is not commenced within
+eighteen months after receipt of such permit, if construction is discontinued for a period
+of eighteen months or more; or if construction is not completed within a reasonable time.
+The department may extend the eighteen-month period upon a satisfactory showing that
+an extension is justified. This provision does not apply to the time period between
+construction of the approved phases of a phased construction project; each phase must
+commence construction within eighteen months of the projected and approved
+commencement date. In cases of major construction projects involving long lead times
+and substantial financial commitments, the department may provide by a condition to the
+permit a time period greater than eighteen months when such time extension is
+supported by sufficient documentation by the applicant.
+
+11.
+
+Transfer of permit to construct. To ensure the responsible owners or operators, or both, are
+identified, the holder of a permit to construct may not transfer such permit without prior
+approval of the department.
+
+12.
+
+[Reserved].
+
+13.
+
+Exemptions. A permit to construct is not required for the following stationary sources provided
+there is no federal requirement for a permit or approval for construction or operation.
+a.
+
+Maintenance, structural changes, or minor repair of process equipment, fuel burning
+equipment, control equipment, or incinerators which do not change capacity of such
+11
+
+process equipment, fuel burning equipment, control equipment, or incinerators and which
+do not involve any change in the quality, nature, or quantity of emissions therefrom.
+b.
+
+c.
+
+Fossil fuel burning equipment, other than smokehouse generators, which meet all of the
+following criteria:
+(1)
+
+The heat input per unit does not exceed ten million British thermal units per hour.
+
+(2)
+
+The total aggregate heat input from all equipment does not exceed ten million
+British thermal units per hour.
+
+(3)
+
+The actual emissions, as defined in chapter 33.1-15-15, from all equipment do not
+exceed twenty-five tons [22.67 metric tons] per year of any air contaminant and the
+potential to emit any air contaminant for which an ambient air quality standard has
+been promulgated in chapter 33.1-15-02 is less than one hundred tons [90.68 metric
+tons] per year.
+
+(1)
+
+Any single internal combustion engine with less than five hundred brake
+horsepower, or multiple engines with a combined brake horsepower rating less than
+five hundred brake horsepower.
+
+(2)
+
+Any single internal combustion engine with a maximum rating of less than one
+thousand brake horsepower, or multiple engines with a combined brake horsepower
+rating of less than one thousand brake horsepower, and which operates a total of
+five hundred hours or less in a rolling twelve-month period.
+
+(3)
+
+Any internal combustion engine, or multiple engines at the same facility, with a total
+combined actual emission rate of five tons [4.54 metric tons] per year or less of any
+air contaminant for which an ambient air quality standard has been promulgated in
+section 33.1-15-02-04.
+
+(4)
+
+The exemptions listed in paragraphs 1, 2, and 3 do not apply to engines that are a
+utility unit as defined in section 33.1-15-21-08.1.
+
+d.
+
+Bench scale laboratory equipment used exclusively for chemical or physical analysis or
+experimentation.
+
+e.
+
+Portable brazing, soldering, or welding equipment.
+
+f.
+
+The following equipment:
+(1)
+
+Comfort air-conditioners or comfort ventilating systems which are not designed and
+not intended to be used to remove emissions generated by or released from specific
+units or equipment.
+
+(2)
+
+Water cooling towers and water cooling ponds unless used for evaporative cooling
+of process water, or for evaporative cooling of water from barometric jets or
+barometric condensers or used in conjunction with an installation requiring a permit.
+
+(3)
+
+Equipment used exclusively for steam cleaning.
+
+(4)
+
+Porcelain enameling furnaces or porcelain enameling drying ovens.
+
+(5)
+
+Unheated solvent dispensing containers or unheated solvent rinsing containers of
+sixty gallons [227.12 liters] capacity or less.
+
+(6)
+
+Equipment used for hydraulic or hydrostatic testing.
+
+12
+
+g.
+
+The following equipment or any exhaust system or collector serving exclusively such
+equipment:
+(1)
+
+Blast cleaning equipment using a suspension of abrasive in water.
+
+(2)
+
+Bakery ovens if the products are edible and intended for human consumption.
+
+(3)
+
+Kilns for firing ceramic ware, heated exclusively by gaseous fuels, singly or in
+combinations, and electricity.
+
+(4)
+
+Confection cookers if the products are edible and intended for human consumption.
+
+(5)
+
+Drop hammers or hydraulic presses for forging or metalworking.
+
+(6)
+
+Diecasting machines.
+
+(7)
+
+Photographic process equipment through which an image is reproduced upon
+material through the use of sensitized radiant energy.
+
+(8)
+
+Equipment for drilling, carving, cutting, routing, turning, sawing, planing, spindle
+sanding, or disc sanding of wood or wood products, which is located within a facility
+that does not vent to the outside air.
+
+(9)
+
+Equipment for surface preparation of metals by use of aqueous solutions, except for
+acid solutions.
+
+(10)
+
+Equipment for washing or drying products fabricated from metal or glass; provided,
+that no volatile organic materials are used in the process and that no oil or solid fuel
+is burned.
+
+(11)
+
+Laundry dryers, extractors, or tumblers for fabrics cleaned with only water solutions
+of bleach or detergents.
+
+h.
+
+Natural draft hoods or natural draft ventilators.
+
+i.
+
+Containers, reservoirs, or tanks used exclusively for:
+(1)
+
+Dipping operations for coating objects with oils, waxes, or greases, if no organic
+solvents are used.
+
+(2)
+
+Dipping operations for applying coatings of natural or synthetic resins which contain
+no organic solvents.
+
+(3)
+
+Storage of butane, propane, or liquefied petroleum or natural gas.
+
+(4)
+
+Storage of lubricating oils.
+
+(5)
+
+Storage of petroleum liquids except those containers, reservoirs, or tanks subject to
+the requirements of chapter 33.1-15-12.
+
+j.
+
+Gaseous fuel-fired or electrically heated furnaces for heat treating glass or metals, the
+use of which does not involve molten materials.
+
+k.
+
+Crucible furnaces, pot furnaces, or induction furnaces, with a capacity of one thousand
+pounds [453.59 kilograms] or less each, unless otherwise noted, in which no sweating or
+distilling is conducted, nor any fluxing conducted utilizing chloride, fluoride, or ammonium
+compounds, and from which only the following metals are poured or in which only the
+following metals are held in a molten state:
+
+13
+
+14.
+
+15.
+
+(1)
+
+Aluminum or any alloy containing over fifty percent aluminum; provided, that no
+gaseous chlorine compounds, chlorine, aluminum chloride, or aluminum fluoride are
+used.
+
+(2)
+
+Magnesium or any alloy containing over fifty percent magnesium.
+
+(3)
+
+Lead or any alloy containing over fifty percent lead, in a furnace with a capacity of
+five hundred fifty pounds [249.48 kilograms] or less.
+
+(4)
+
+Tin or any alloy containing over fifty percent tin.
+
+(5)
+
+Zinc or any alloy containing over fifty percent zinc.
+
+(6)
+
+Copper.
+
+(7)
+
+Precious metals.
+
+l.
+
+Open burning activities within the scope of section 33.1-15-04-02.
+
+m.
+
+Flares used to indicate some danger to the public.
+
+n.
+
+Sources or alterations to a source which are of minor significance as determined by the
+department.
+
+o.
+
+Oil and gas production facilities as defined in chapter 33.1-15-20 which are not a major
+source as defined in section 33.1-15-14-06.
+
+Performance and emission testing.
+a.
+
+Emission tests or performance tests or both shall be conducted by the owner or operator
+of a facility and data reduced in accordance with the applicable procedure, limitations,
+standards, and test methods established by this article. Such tests must be conducted
+under the owner's or operator's permit to construct, and such permit is subject to the
+faithful completion of the test in accordance with this article.
+
+b.
+
+All dates and periods of trial operation for the purpose of performance or emission testing
+pursuant to a permit to construct must be approved in advance by the department. Trial
+operation shall cease if the department determines, on the basis of the test results, that
+continued operation will result in the violation of this article. Upon completion of any test
+conducted under a permit to construct, the department may order the cessation of the
+operation of the tested equipment or facility until such time as a permit to operate has
+been issued by the department.
+
+c.
+
+Upon review of the performance data resulting from any test, the department may require
+the installation of such additional control equipment as will bring the facility into
+compliance with this article.
+
+d.
+
+Nothing in this article may be construed to prevent the department from conducting any
+test upon its own initiative, or from requiring the owner or operator to conduct any test at
+such time as the department may determine.
+
+Responsibility to comply.
+a.
+
+Possession of a permit to construct does not relieve any person of the responsibility to
+comply with this article.
+
+14
+
+b.
+
+The exemption of any stationary source from the requirements of a permit to construct by
+reason of inclusion in subsection 13 does not relieve the owner or operator of such
+source of the responsibility to comply with any other applicable portions of this article.
+
+16.
+
+Portable sources. Sources which are designated to be portable and which are not subject to
+the requirements of chapter 33.1-15-15 are exempt from requirements to obtain a permit to
+construct. The owner or operator shall submit an application for a permit to operate prior to
+initiating operations.
+
+17.
+
+Registration of exempted stationary sources. The department may require that the owner
+or operator of any stationary source exempted under subsection 13 shall register the source
+with the department within such time limits and on such forms as the department may
+prescribe.
+
+18.
+
+Extensions of time. The department may extend any of the time periods specified in
+subsections 4, 5, and 6 upon notification of the applicant by the department.
+
+19.
+
+Amendment of permits. The department may, when the public interest requires or when
+necessary to ensure the accuracy of the permit, modify any condition or information contained
+in the permit to construct. Modification shall be made only upon the department's own motion
+and the procedure shall, at a minimum, conform to any requirements of federal and state law.
+In the event that the modification would be a major modification as defined in chapter
+33.1-15-15, the department shall follow the procedures established in chapter 33.1-15-15. For
+those of concern to the public, the department will provide:
+a.
+
+Reasonable notice to the public, in the area to be affected, of the opportunity for
+comment on the proposed modification, and the opportunity for a public hearing, upon
+request, as well as written public comment.
+
+b.
+
+A minimum of a thirty-day period for written public comment, with the opportunity for a
+public hearing during that thirty-day period, upon request.
+
+c.
+
+Consideration by the department of all comments received in its order for modification.
+
+The department may require the submission of such maps, plans, specifications, emission
+information, and compliance schedules as it deems necessary prior to the issuance of an
+amendment. It is the intention of the department that this subsection shall apply only in those
+instances allowed by federal rules and regulations and only in those instances in which the
+granting of a variance pursuant to section 33.1-15-01-06 and enforcement of existing permit
+conditions are manifestly inappropriate.
+History: Effective January 1, 2019; amended effective July 1, 2020.
+General Authority: NDCC 23.1-06-04, 23.1-06-08, 23.1-06-09; S.L. 2017, ch. 199, § 1
+Law Implemented: NDCC 23.1-06-08, 23.1-06-09; S.L. 2017, ch. 199, § 21
+33.1-15-14-03. Minor source permit to operate.
+1.
+
+Permit to operate required.
+a.
+
+Except as provided in subdivisions c and d, no person may operate or cause the routine
+operation of an installation or source designated in section 33.1-15-14-01 without
+applying for and obtaining, in accordance with this section, a permit to operate.
+Application for a permit to operate a new installation or source must be made at least
+thirty days prior to startup of routine operation. Those sources that received a permit to
+construct under section 33.1-15-14-02, need only submit a thirty-day prior notice of
+proposed startup to satisfy the requirement to apply for a permit to operate under this
+subdivision.
+15
+
+2.
+
+b.
+
+No person may operate or cause the operation of an installation or source in violation of
+any permit to operate or any condition imposed upon a permit to operate or in violation of
+this article.
+
+c.
+
+Sources that are subject to the title V permitting requirements of section 33.1-15-14-06
+are exempt from the requirements of this section.
+
+d.
+
+Sources that are exempt from the requirement to obtain a permit to construct under
+subsection 13 of section 33.1-15-14-02 are exempt from this section.
+
+e.
+
+Sources which are subject to the title V permitting requirements in section 33.1-15-14-06
+based solely on their potential to emit may apply for a federally enforceable minor source
+permit to operate which would limit their potential to emit to a level below the title V
+permit to operate applicability threshold.
+
+f.
+
+Permits which are issued under this section which do not conform to the requirements of
+this section, including public participation under subdivision a of subsection 5 of section
+33.1-15-14-03, and the requirements of any United States environmental protection
+agency regulations may be deemed not federally enforceable by the United States
+environmental protection agency.
+
+g.
+
+General permits. The department may issue a general permit covering numerous similar
+sources. Any general permit shall comply with all requirements applicable to other minor
+source permits to operate and shall identify criteria by which sources may qualify for the
+general permit. To sources that qualify, the department shall grant the conditions and
+terms of the general permit. Sources that would qualify for a general permit must apply to
+the department for coverage under the terms of the general permit or apply for an
+individual minor source permit to operate. Without repeating the public participation
+procedures under subsection 5 of section 33.1-15-14-03, the department may grant a
+source's request for authorization to operate under a general permit.
+
+Application for permit to operate.
+a.
+
+Application for a permit to operate must be made by the owner or operator thereof on
+forms furnished by the department.
+
+b.
+
+Each application for a permit to operate must be accompanied by such performance
+tests results, information, and records as may be required by the department to
+determine whether the requirements of this article will be met. Such information may also
+be required by the department at any time when the source is being operated to
+determine compliance with this article.
+
+c.
+
+Each application must be signed by the applicant, which signature shall constitute an
+agreement that the applicant will assume responsibility for the operation of the
+installation or source in accordance with this article.
+
+3.
+
+Standards for granting permits to operate. No permit to operate may be granted unless the
+applicant shows to the satisfaction of the department that the source is in compliance with this
+article.
+
+4.
+
+Performance testing.
+a.
+
+Before a permit to operate is granted, the applicant, if required by the department, shall
+conduct performance tests in accordance with methods and procedures required by this
+article or methods and procedures approved by the department. Such tests must be
+made at the expense of the applicant. The department may monitor such tests and may
+also conduct performance tests.
+16
+
+5.
+
+b.
+
+Emission tests or performance tests or both shall be conducted by the owner or operator
+of a facility and data reduced in accordance with the applicable procedure, limitations,
+standards, and test methods established by this article. Issuance of a minor source
+permit to operate is subject to the faithful completion of the test in accordance with this
+article.
+
+c.
+
+All dates and periods of trial operation for the purpose of performance or emission testing
+pursuant to a permit to operate must be approved in advance by the department. Trial
+operation shall cease if the department determines, on the basis of the test results, that
+continued operation will result in the violation of this article. Upon completion of any test
+conducted under a permit to construct, the department may order the cessation of the
+operation of the tested equipment or facility until such time as a permit to operate has
+been issued by the department.
+
+d.
+
+Upon review of the performance data resulting from any test, the department may require
+the installation of such additional control equipment as will bring the facility into
+compliance with this article.
+
+e.
+
+Nothing in this article may be construed to prevent the department from conducting any
+test upon its own initiative or from requiring the owner or operator to conduct any test at
+such time as the department may determine.
+
+Action on applications.
+a.
+
+Public participation. This subdivision is applicable to only those sources which apply for a
+federally enforceable minor source permit to operate which limits their potential to emit
+an air contaminant. The department shall:
+(1)
+
+Within ninety days of receipt of a complete application:
+(a)
+
+Make a preliminary determination concerning issuance of the permit to
+operate.
+
+(b)
+
+Make available in at least one location in the county or counties in which the
+source is located or on the department's website, a copy of the proposed
+permit and copies of or a summary of the information considered in developing
+the permit.
+
+(c)
+
+Publish notice to the public by prominent advertisement, in the region affected,
+of the opportunity for written comment on the proposed permit. The public
+notice must include the proposed location of the source.
+
+(d)
+
+Provide notice of the proposed permit and public notice to any state or federal
+land manager, or Indian governing body whose lands will be significantly
+affected by the source's emissions. For purposes of this subparagraph, lands
+will be considered to be significantly affected if the source is located within
+thirty-one and seven hundredths miles [50 kilometers] of such land.
+
+(e)
+
+Provide a copy of the proposed permit, all information considered in the
+development of the permit and the public notice to the regional administrator of
+the United States environmental protection agency.
+
+(2)
+
+Allow thirty days for public comment.
+
+(3)
+
+Consider all public comments properly received, in making the final decision on the
+application.
+
+17
+
+6.
+
+7.
+
+8.
+
+(4)
+
+Allow the applicant to submit written responses to public comments received by the
+department. The applicant's responses must be submitted to the department within
+twenty days of the close of the public comment period.
+
+(5)
+
+Take final action on the application within thirty days of the applicant's response to
+the public comments.
+
+(6)
+
+Provide a copy of the final permit, if issued, to the applicant, the regional
+administrator of the United States environmental protection agency, and anyone
+who requests a copy.
+
+b.
+
+For those sources not subject to public participation under subdivision a, the department
+shall act within thirty days after receipt of an application for a permit to operate a new
+installation or source, and within thirty days after receipt of an application to operate an
+existing installation or source, and shall notify the applicant, in writing, of the approval,
+conditional approval, or denial of the application.
+
+c.
+
+The department shall set forth in any notice of denial the reasons for denial. A denial
+must be without prejudice to the applicant's right to a hearing before the department or
+for filing a further application after revisions are made to meet objections specified as
+reasons for the denial.
+
+Permit to operate - Conditions. The department may impose any reasonable conditions
+upon a permit to operate. All emission limitations, controls, and other requirements imposed
+by conditions on the permit to operate must be at least as stringent as any applicable
+limitation or requirement contained in this article. Permit to operate conditions may include:
+a.
+
+Sampling, testing, and monitoring of the facilities or ambient air or both.
+
+b.
+
+Trial operation and performance testing.
+
+c.
+
+Prevention and abatement of nuisance conditions caused by operation of the facility.
+
+d.
+
+Recordkeeping and reporting.
+
+e.
+
+Compliance with applicable rules and regulations in accordance with a compliance
+schedule.
+
+f.
+
+Limits on the hours of operation of a source or its processing rate, fuel usage, or
+production rate when necessary to assure compliance with this article.
+
+Suspension or revocation of permit to operate.
+a.
+
+The department may suspend or revoke a permit to operate for violation of this article,
+violations of a permit condition, or failure to respond to a notice of violation or any order
+issued pursuant to this article.
+
+b.
+
+Suspension or revocation of a permit to operate shall become final ten days after serving
+notice on the holder of the permit.
+
+c.
+
+A permit to operate which has been revoked pursuant to this article must be surrendered
+forthwith to the department.
+
+d.
+
+No person may operate or cause the operation of an installation or source if the
+department denies or revokes a permit to operate.
+
+Transfer of permit to operate. The holder of a permit to operate may not transfer it without
+the prior approval of the department.
+18
+
+9.
+
+Renewal of permit to operate. Every permit to operate issued by the department after
+February 9, 1976, must have a maximum term of five years. Applications for renewal of such
+permits must be submitted ninety days prior to the expiration date stated in the permit. The
+department shall approve or disapprove such application within ninety days. If a source
+submits a complete application for a permit renewal at least ninety days prior to the expiration
+date, the source's failure to have a minor source permit to operate is not a violation of this
+section until the department takes final action on the renewal application.
+
+10.
+
+[Reserved].
+
+11.
+
+[Reserved].
+
+12.
+
+Responsibility to comply.
+a.
+
+Possession of a minor source permit to operate does not relieve any person of the
+responsibility to comply with this article.
+
+b.
+
+The exemption of any stationary source from the requirements to obtain a minor source
+permit to operate does not relieve the owner or operator of such source of the
+responsibility to comply with any other applicable portions of this article.
+
+13.
+
+Portable sources. Sources which are designed to be portable and which are operated at
+temporary jobsites across the state may not be considered a new source by virtue of location
+changes. One application for a permit to operate any portable source may be filed in
+accordance with this chapter, and subsequent applications are not required for each
+temporary jobsite. The permit to operate issued by the department shall be conditioned by
+such specific requirements as the department deems appropriate to carry out the provisions of
+sections 33.1-15-01-07 and 33.1-15-01-15.
+
+14.
+
+Registration of exempted stationary sources. The department may require that the owner
+or operator of any stationary source exempted from the requirement to obtain a minor source
+permit to operate to register the source with the department within such time limits and on
+such forms as the department may prescribe.
+
+15.
+
+Extensions of time. The department may extend any of the time periods specified in this
+section upon notification of the applicant by the department.
+
+16.
+
+Amendment of permits. When the public interest requires or when necessary to ensure the
+accuracy of the permit, the department may modify any condition or information contained in a
+minor source permit to operate. Modification shall be made only upon the department's own
+motion and the procedure shall, at a minimum, conform to any requirements of federal and
+state law. In the event that the modification would be a major modification as defined in
+chapter 33.1-15-15, the department shall follow the procedures established in chapter
+33.1-15-15. For those of concern to the public, or modify a condition which limits the potential
+to emit of a source which possesses a federally enforceable permit, the department will
+provide:
+a.
+
+Reasonable notice to the public, in the area to be affected, of the opportunity for
+comment on the proposed modification and the opportunity for a public hearing, upon
+request, as well as written public comment.
+
+b.
+
+A minimum of a thirty-day period for written public comment with the opportunity for a
+public hearing during that thirty-day period, upon request.
+
+c.
+
+Consideration by the department of all comments received.
+
+19
+
+The department may require the submission of such maps, plans, specifications, emission
+information, and compliance schedules as it deems necessary prior to the issuance of an
+amendment. It is the intention of the department that this subsection shall apply only in those
+instances allowed by federal rules and regulations and only in those instances in which the
+granting of a variance pursuant to section 33.1-15-01-06 and enforcement of existing permit
+conditions are manifestly inappropriate.
+History: Effective January 1, 2019.
+General Authority: NDCC 23.1-06-04, 23.1-06-09; S.L. 2017, ch. 199, § 1
+Law Implemented: NDCC 23.1-06-04, 23.1-06-09; S.L. 2017, ch. 199, § 21
+33.1-15-14-04. [Reserved].
+33.1-15-14-05. [Reserved].
+33.1-15-14-06. Title V permit to operate.
+1.
+
+Definitions. For purposes of this section:
+a.
+
+"Affected source" means any source that includes one or more affected units.
+
+b.
+
+"Affected state" means any state that is contiguous to North Dakota whose air quality
+may be affected by a source subject to a proposed title V permit, permit modification, or
+permit renewal or which is within fifty miles [80.47 kilometers] of the permitted source.
+
+c.
+
+"Affected unit" means a unit that is subject to any acid rain emissions reduction
+requirement or acid rain emissions limitation under title IV of the federal Clean Air Act.
+
+d.
+
+"Alternative operating scenario (AOS)" means a scenario authorized in a title V permit
+that involves a change at the title V source for a particular emissions unit, and that either
+results in the unit being subject to one or more applicable requirements which differ from
+those applicable to the emissions unit prior to implementation of the change or renders
+inapplicable one or more requirements previously applicable to the emissions unit prior to
+implementation of the change.
+
+e.
+
+"Applicable requirement" means all of the following as they apply to emissions units at a
+source that is subject to requirements of this section (including requirements that have
+been promulgated or approved by the United States environmental protection agency
+through rulemaking at the time of issuance but have future-effective compliance dates):
+(1)
+
+Any standard or other requirement provided for in the North Dakota state
+implementation plan approved or promulgated by the United States environmental
+protection agency through rulemaking under title I of the federal Clean Air Act that
+implements the relevant requirements of the federal Clean Air Act, including any
+revisions to that plan.
+
+(2)
+
+Any term or condition of any permit to construct issued pursuant to this chapter.
+
+(3)
+
+Any standard or other requirement under section 111 including section 111(d) of the
+federal Clean Air Act.
+
+(4)
+
+Any standard or other requirement under section 112 of the federal Clean Air Act
+including any requirement concerning accident prevention under section 112(r)(7) of
+the federal Clean Air Act.
+
+20
+
+f.
+
+(5)
+
+Any standard or other requirement of the acid rain program under title IV of the
+federal Clean Air Act.
+
+(6)
+
+Any requirements established pursuant to section 504(b) or section 114(a)(3) of the
+federal Clean Air Act.
+
+(7)
+
+Any standard or other requirement governing solid waste incineration, under
+section 129 of the federal Clean Air Act.
+
+(8)
+
+Any standard or other requirement for consumer and commercial products, under
+section 183(e) of the federal Clean Air Act.
+
+(9)
+
+Any standard or other requirement for tank vessels under section 183(f) of the
+federal Clean Air Act.
+
+(10)
+
+Any standard or other requirement of the program to control air pollution from outer
+continental shelf sources, under section 328 of the federal Clean Air Act.
+
+(11)
+
+Any standard or other requirement of the regulations promulgated to protect
+stratospheric ozone under title VI of the federal Clean Air Act, unless the
+administrator of the United States environmental protection agency has determined
+that such requirements need not be contained in a title V permit.
+
+(12)
+
+Any national ambient air quality standard or increment or visibility requirement under
+part C of title I of the federal Clean Air Act, but only as it would apply to temporary
+sources permitted pursuant to section 504(e) of the federal Clean Air Act.
+
+"Approved replicable methodology (ARM)" means title V permit terms that:
+(1)
+
+Specify a protocol which is consistent with and implements an applicable
+requirement, or requirement of this section, such that the protocol is based on
+sound scientific or mathematical principles, or both, and provides reproducible
+results using the same inputs; and
+
+(2)
+
+Require the results of that protocol to be recorded and used for assuring compliance
+with such applicable requirement, any other applicable requirement implicated by
+implementation of the approved replicable methodology, or requirement of this
+section, including where an approved replicable methodology is used for
+determining applicability of a specific requirement to a particular change.
+
+g.
+
+"Designated representative" means a responsible natural person authorized by the
+owners and operators of an affected source and of all affected units at the source, as
+evidenced by a certificate of representation submitted in accordance with subpart B of
+40 CFR 72, to represent and legally bind each owner and operator, as a matter of federal
+law, in matters pertaining to the acid rain program. Whenever the term "responsible
+official" is used in this section, or in any other regulations implementing title V of the
+federal Clean Air Act, it shall be deemed to refer to the "designated representative" with
+regard to all matters under the acid rain program.
+
+h.
+
+"Draft permit" means the version of a permit for which the department offers public
+participation or affected state review.
+
+i.
+
+"Emergency" means any situation arising from sudden and reasonably unforeseeable
+events beyond the control of the source, including acts of God, which situation requires
+immediate corrective action to restore normal operation, and that causes the source to
+exceed a technology-based emission limitation under the title V permit to operate, due to
+unavoidable increases in emissions attributable to the emergency. An emergency shall
+21
+
+not include noncompliance to the extent caused by improperly designed equipment, lack
+of preventive maintenance, careless or improper operation, or operator error.
+j.
+
+"Emissions allowable under the permit" means a federally enforceable permit term or
+condition determined at issuance to be required by an applicable requirement that
+establishes an emissions limit (including a work practice standard) or a federally
+enforceable emissions cap that the source has assumed to avoid an applicable
+requirement to which the source would otherwise be subject.
+
+k.
+
+"Emissions unit" means any part or activity of a stationary source that emits or has the
+potential to emit any regulated air contaminant or any contaminant listed under
+section 112(b) of the federal Clean Air Act. This term does not alter or affect the definition
+of unit for purposes of title IV of the federal Clean Air Act.
+
+l.
+
+"Environmental protection agency" or the "administrator" means the administrator of the
+United States environmental protection agency or the administrator's designee.
+
+m.
+
+"Federal Clean Air Act" means the federal Clean Air Act, as amended [42 U.S.C. 7401
+et seq.].
+
+n.
+
+"Final permit" means the version of a title V permit issued by the department that has
+completed all review procedures required in this section.
+
+o.
+
+"Fugitive emissions" are those emissions which could not reasonably pass through a
+stack, chimney, vent, or other functionally equivalent opening.
+
+p.
+
+"General permit" means a title V permit to operate that meets the requirements of
+subdivision d of subsection 5.
+
+q.
+
+"Major source" means any stationary source (or any group of stationary sources that are
+located on one or more contiguous or adjacent properties, and are under common
+control of the same person (or persons under common control)) belonging to a single
+major industrial grouping and that are described in paragraph 1 or 2. For the purposes of
+defining "major source", a stationary source or group of stationary sources shall be
+considered part of a single industrial grouping if all of the contaminant emitting activities
+at such source or group of sources on contiguous or adjacent properties belong to the
+same major group (i.e., all have the same two-digit code) as described in the standard
+industrial classification manual, 1987.
+(1)
+
+A major source under section 112 of the federal Clean Air Act, which is defined as:
+(a)
+
+For contaminants other than radionuclides, any stationary source or group of
+stationary sources located within a contiguous area and under common control
+that emits or has the potential to emit, in the aggregate, ten tons [9.07 metric
+tons] per year (tpy) or more of any hazardous air contaminant which has been
+listed pursuant to section 112(b) of the federal Clean Air Act, twenty-five tons
+[22.67 metric tons] per year or more of any combination of such hazardous air
+contaminants, or such lesser quantity as the administrator of the United States
+environmental protection agency may establish by rule. Notwithstanding the
+preceding sentence, emissions from any oil or gas exploration or production
+well (with its associated equipment) and emissions from any pipeline
+compressor pump station shall not be aggregated with emissions from other
+similar units, whether or not such units are in a contiguous area or under
+common control, to determine whether such units or stations are major
+sources.
+
+22
+
+(b)
+(2)
+
+For radionuclides, "major source" shall have the meaning specified by the
+administrator of the United States environmental protection agency by rule.
+
+A major stationary source of air contaminants, that directly emits or has the potential
+to emit, one hundred tons [90.68 metric tons] per year or more of any air
+contaminant subject to regulation (including any major source of fugitive emissions
+of any such contaminant, as determined by rule by the administrator of the United
+States environmental protection agency). For purposes of this definition, air
+contaminant subject to regulation does not include greenhouse gases as defined in
+title 40 Code of Federal Regulations 86.1818-12(a). The fugitive emissions of a
+stationary source shall not be considered in determining whether it is a major
+stationary source for the purposes of this section, unless the source belongs to one
+of the following categories of stationary source:
+(a)
+
+Coal cleaning plants (with thermal dryers).
+
+(b)
+
+Kraft pulp mills.
+
+(c)
+
+Portland cement plants.
+
+(d)
+
+Primary zinc smelters.
+
+(e)
+
+Iron and steel mills.
+
+(f)
+
+Primary aluminum ore reduction plants.
+
+(g)
+
+Primary copper smelters.
+
+(h)
+
+Municipal incinerators capable of charging more than two hundred fifty tons
+[226.80 metric tons] of refuse per day.
+
+(i)
+
+Hydrofluoric, sulfuric, or nitric acid plants.
+
+(j)
+
+Petroleum refineries.
+
+(k)
+
+Lime plants.
+
+(l)
+
+Phosphate rock processing plants.
+
+(m)
+
+Coke oven batteries.
+
+(n)
+
+Sulfur recovery plants.
+
+(o)
+
+Carbon black plants (furnace process).
+
+(p)
+
+Primary lead smelters.
+
+(q)
+
+Fuel conversion plants.
+
+(r)
+
+Sintering plants.
+
+(s)
+
+Secondary metal production plants.
+
+(t)
+
+Chemical process plants.
+
+(u)
+
+Fossil-fuel boilers (or combination thereof) totaling more than two hundred fifty
+million British thermal units per hour heat input.
+
+23
+
+(v)
+
+Petroleum storage and transfer units with a total storage capacity exceeding
+three hundred thousand barrels.
+
+(w)
+
+Taconite ore processing plants.
+
+(x)
+
+Glass fiber processing plants.
+
+(y)
+
+Charcoal production plants.
+
+(z)
+
+Fossil-fuel-fired steam electric plants of more than two hundred fifty million
+British thermal units per hour heat input.
+
+(aa)
+
+Any other stationary source category which as of August 7, 1980, is being
+regulated under section 111 or 112 of the federal Clean Air Act.
+
+r.
+
+"Permit modification" means a revision to a title V permit that meets the requirements of
+subdivision e of subsection 6.
+
+s.
+
+"Permit program costs" means all reasonable (direct and indirect) costs required to
+develop and administer a permit program, under this section (whether such costs are
+incurred by the department or other state or local agencies that do not issue permits
+directly, but that support permit issuance or administration).
+
+t.
+
+"Permit revision" means any permit modification or administrative permit amendment.
+
+u.
+
+"Potential to emit" means the maximum capacity of a stationary source to emit any air
+contaminant under its physical and operational design. Any physical or operational
+limitation on the capacity of a source to emit an air contaminant, including air pollution
+control equipment and restrictions on hours of operation or on the type or amount of
+material combusted, stored, or processed, shall be treated as part of its design if the
+limitation is enforceable by the administrator of the United States environmental
+protection agency and the department.
+
+v.
+
+"Proposed permit" means the version of a permit that the department proposes to issue
+and forwards to the administrator of the United States environmental protection agency
+for review.
+
+w.
+
+"Regulated air contaminant" means the following:
+(1)
+
+Nitrogen oxides or any volatile organic compounds.
+
+(2)
+
+Any contaminant for which a national ambient air quality standard has been
+promulgated.
+
+(3)
+
+Any contaminant that is subject to any standard promulgated under section 111 of
+the federal Clean Air Act.
+
+(4)
+
+Any class I or II substance subject to a standard promulgated under or established
+by title VI of the federal Clean Air Act.
+
+(5)
+
+Any contaminant subject to a standard promulgated under section 112 or other
+requirements established under section 112 of the federal Clean Air Act, including
+sections 112(g), (j), and (r) of the federal Clean Air Act, including the following:
+(a)
+
+Any contaminant subject to requirements under section 112(j) of the federal
+Clean Air Act. If the administrator fails to promulgate a standard by the date
+established pursuant to section 112(e) of the federal Clean Air Act, any
+contaminant for which a subject source would be major shall be considered to
+24
+
+be regulated on the date eighteen months after the applicable date established
+pursuant to section 112(e) of the federal Clean Air Act; and
+(b)
+
+x.
+
+Any contaminant for which the requirements of section 112(g)(2) of the federal
+Clean Air Act have been met, but only with respect to the individual source
+subject to section 112(g)(2) of the federal Clean Air Act requirement.
+
+"Regulated contaminant" for fee calculation, which is used only for chapter 33.1-15-23,
+means any "regulated air contaminant" except the following:
+(1)
+
+Carbon monoxide.
+
+(2)
+
+Any contaminant that is a regulated air contaminant solely because it is a class I
+or II substance subject to a standard promulgated under or established by title VI of
+the federal Clean Air Act.
+
+(3)
+
+Any contaminant that is a regulated air contaminant solely because it is subject to a
+standard or regulation under section 112(r) of the federal Clean Air Act.
+
+(4)
+
+Greenhouse gases.
+
+y.
+
+"Renewal" means the process by which a permit is reissued at the end of its term.
+
+z.
+
+"Responsible official" means one of the following:
+(1)
+
+For a corporation: a president, secretary, treasurer, or vice president of the
+corporation in charge of a principal business function, or any other person who
+performs similar policy or decisionmaking functions for the corporation, or a duly
+authorized representative of such person if the representative is responsible for the
+overall operation of one or more manufacturing, production, or operating facilities
+applying for or subject to a permit and either:
+(a)
+
+The facilities employ more than two hundred fifty persons or have gross annual
+sales or expenditures exceeding twenty-five million dollars (in second quarter
+1980 dollars).
+
+(b)
+
+The delegation of authority to such representatives is approved in advance by
+the department.
+
+(2)
+
+For a partnership or sole proprietorship: a general partner or the proprietor,
+respectively.
+
+(3)
+
+For a municipality, state, federal, or other public agency: either a principal executive
+officer or ranking elected official. For the purposes of this section, a principal
+executive officer of a federal agency includes the chief executive officer having
+responsibility for the overall operations of a principal geographic unit of the agency
+(e.g., a regional administrator of the United States environmental protection
+agency).
+
+(4)
+
+For affected sources:
+(a)
+
+The designated representative insofar as actions, standards, requirements, or
+prohibitions under title IV of the federal Clean Air Act or the regulations
+promulgated thereunder are concerned.
+
+(b)
+
+The designated representative for any other purposes under this section.
+
+25
+
+2.
+
+aa.
+
+"Section 502(b)(10) changes" are changes that contravene an express permit term. Such
+changes do not include changes that would violate applicable requirements or
+contravene federally enforceable permit terms and conditions that are monitoring
+(including test methods), recordkeeping, reporting, or compliance certification
+requirements.
+
+bb.
+
+"Stationary source" means any building, structure, facility, or installation that emits or may
+emit any regulated air contaminant or any contaminant listed under section 112(b) of the
+federal Clean Air Act.
+
+cc.
+
+"Subject to regulation" means, for any air contaminant, that the air contaminant is subject
+to either a provision in the federal Clean Air Act, or a nationally applicable regulation
+codified by the administrator of the United States environmental protection agency in
+title 40 Code of Federal Regulations chapter I, subchapter C, that requires actual control
+of the quantity of emissions of that air contaminant, and that such a control requirement
+has taken effect and is operative to control, limit, or restrict the quantity of emissions of
+that air contaminant release from the regulated activity.
+
+dd.
+
+"Title V permit to operate or permit" (unless the context suggests otherwise) means any
+permit or group of permits covering a source that is subject to this section that is issued,
+renewed, amended, or revised pursuant to this section.
+
+ee.
+
+"Title V source" means any source subject to the permitting requirements of this section,
+as provided in subsection 2.
+
+Applicability.
+a.
+
+b.
+
+This section is applicable to the following sources:
+(1)
+
+Any major source.
+
+(2)
+
+Any source, including an area source, subject to a standard, limitation, or other
+requirement under section 111 of the federal Clean Air Act.
+
+(3)
+
+Any source, including an area source, subject to a standard or other requirement
+under section 112 of the federal Clean Air Act, except that a source is not required
+to obtain a permit solely because it is subject to regulations or requirements under
+section 112(r) of the federal Clean Air Act.
+
+(4)
+
+Any affected source.
+
+(5)
+
+Any source in a source category designated by the administrator of the United
+States environmental protection agency.
+
+The following source categories are exempt from the requirements of this section:
+(1)
+
+All sources listed in subdivision a that are not major sources, affected sources, or
+solid waste incineration units required to obtain a permit pursuant to section 129(e)
+of the federal Clean Air Act, are exempt from the obligation to obtain a title V permit
+until such time as the administrator of the United States environmental protection
+agency completes a rulemaking to determine how the program should be structured
+for nonmajor sources and the appropriateness of any permanent exemptions.
+
+(2)
+
+In the case of nonmajor sources subject to a standard or other requirement under
+either section 111 or 112 of the federal Clean Air Act after July 21, 1992, those the
+administrator of the United States environmental protection agency determines to
+
+26
+
+be exempt from the requirement to obtain a title V source permit at the time that the
+new standard is promulgated.
+
+c.
+
+(3)
+
+Any source listed as exempt from the requirement to obtain a permit under this
+section may opt to apply for a title V permit. Sources that are exempted by
+paragraphs 1 and 2 and which do not opt to apply for a title V permit to operate are
+subject to the requirements of section 33.1-15-14-03.
+
+(4)
+
+The following source categories are exempted from the obligation to obtain a permit
+under this section.
+(a)
+
+All sources and source categories that would be required to obtain a permit
+solely because they are subject to 40 CFR 60, subpart AAA - standards of
+performance for new residential wood heaters.
+
+(b)
+
+All sources and source categories that would be required to obtain a permit
+solely because they are subject to 40 CFR 61, subpart M - national emission
+standard for hazardous air pollutants for asbestos, section 61.145, standard for
+demolition and renovation.
+
+For major sources, the department will include in the permit all applicable requirements
+for all relevant emissions units in the major source.
+For any nonmajor source subject to the requirements of this section, the department will
+include in the permit all applicable requirements applicable to the emissions units that
+cause the source to be subject to this section.
+
+d.
+
+Fugitive emissions from a source subject to the requirements of this section shall be
+included in the permit application and the permit in the same manner as stack emissions,
+regardless of whether the source category in question is included in the list of sources
+contained in the definition of major source.
+
+3.
+
+Scope. Nothing within this section shall relieve the owner or operator of a source of the
+requirement to obtain a permit to construct under section 33.1-15-14-02 or to comply with any
+other applicable standard or requirement of this article.
+
+4.
+
+Permit applications.
+a.
+
+Duty to apply. For each title V source, the owner or operator shall submit a timely and
+complete permit application in accordance with this subdivision.
+(1)
+
+Timely application.
+(a)
+
+A timely application for a source applying for a title V permit for the first time is
+one that is submitted within one year of the source becoming subject to this
+section.
+
+(b)
+
+Title V sources required to meet the requirements under section 112(g) of the
+federal Clean Air Act, or to have a permit to construct under section
+33.1-15-14-02, shall file a complete application to obtain the title V permit or
+permit revision within twelve months after commencing operation. Where an
+existing title V permit would prohibit such construction or change in operation,
+the source must obtain a permit revision before commencing operation.
+
+(c)
+
+For purposes of permit renewal, a timely application is one that is submitted at
+least six months, but not more than eighteen months, prior to the date of permit
+expiration.
+27
+
+(2)
+
+Complete application. To be deemed complete, an application must provide all
+information required pursuant to subdivision c, except that applications for a permit
+revision need supply such information only if it is related to the proposed change.
+Information required under subdivision c must be sufficient to evaluate the subject
+source and its application and to determine all applicable requirements. A
+responsible official must certify the submitted information consistent with
+subdivision d. Unless the department determines that an application is not complete
+within sixty days of receipt of the application, such application shall be deemed to
+be complete, except as otherwise provided in paragraph 3 of subdivision a of
+subsection 6. If, while processing an application that has been determined or
+deemed to be complete, the department determines that additional information is
+necessary to evaluate or take final action on that application, it may request such
+information in writing and set a reasonable deadline for a response. The source's
+ability to operate without a permit, as set forth in subdivision b of subsection 6, shall
+be in effect from the date the application is determined or deemed to be complete
+until the final permit is issued, provided that the applicant submits any requested
+additional information by the deadline specified by the department.
+
+(3)
+
+Confidential information. If a source has submitted information to the department
+under a claim of confidentiality, the source must also submit a copy of such
+information directly to the administrator of the United States environmental
+protection agency when directed to do so by the department.
+
+b.
+
+Duty to supplement or correct application. Any applicant who fails to submit any relevant
+facts or who has submitted incorrect information in a permit application shall, upon
+becoming aware of such failure or incorrect submittal, promptly submit such
+supplementary facts or corrected information. In addition, an applicant shall provide
+additional information as necessary to address any requirements that become applicable
+to the source after the date it filed a complete application but prior to release of a draft
+permit.
+
+c.
+
+Standard application form and required information. All applications for a title V permit to
+operate shall be made on forms supplied by the department. Information as described
+below for each emissions unit at a title V source shall be included in the application.
+Detailed information for emissions units or activities that have the potential to emit less
+than the following quantities of air contaminants (insignificant units or activities) need not
+be included in permit applications:
+Particulate: 2 tons [1.81 metric tons] per year.
+Inhalable particulate: 2 tons [1.81 metric tons] per year.
+Sulfur dioxide: 2 tons [1.81 metric tons] per year.
+Hydrogen sulfide: 2 tons [1.81 metric tons] per year.
+Carbon monoxide: 2 tons [1.81 metric tons] per year.
+Nitrogen oxides: 2 tons [1.81 metric tons] per year.
+Ozone: 2 tons [1.81 metric tons] per year.
+Reduced sulfur compounds: 2 tons [1.81 metric tons] per year.
+Volatile organic compounds: 2 tons [1.81 metric tons].
+
+28
+
+All other regulated contaminants including those in section 112(b) of the federal Clean Air
+Act: 0.5 tons [0.45 metric tons] per year.
+Where a contaminant could be placed in more than one category, the smallest emission
+level applies.
+However, for insignificant activities or emissions units, a list of such activities or units
+must be included in the application. An applicant may not omit information needed to
+determine the applicability of, or to impose, any applicable requirement, or to evaluate
+the fee amount required under section 33.1-15-23-04. The application, shall, as a
+minimum, include the elements specified below:
+(1)
+
+Identifying information, including company name and address (or plant name and
+address if different from the company name), owner's name and agent, and
+telephone number and names of plant site manager or contact.
+
+(2)
+
+A description of the source's processes and products (by Standard Industrial
+Classification Code) including those associated with any proposed alternative
+operating scenario identified by the source.
+
+(3)
+
+The following emissions-related information:
+
+(4)
+
+(a)
+
+All emissions of contaminants for which the source is major, and all emissions
+of regulated air contaminants. A permit application shall describe all emissions
+of regulated air contaminants emitted from any emissions unit, except when
+such units are exempted under this subdivision.
+
+(b)
+
+Identification and description of all points of emissions described in
+subparagraph a in sufficient detail to establish the basis for fees and
+applicability of requirements of the federal Clean Air Act and this article.
+
+(c)
+
+Emissions rates in tons per year and in such terms as are necessary to
+establish compliance consistent with the applicable standard reference test
+method. For emissions units subject to an annual emissions cap, tons per year
+can be reported as part of the aggregate emissions associated with the cap,
+except where more specific information is needed, including where necessary
+to determine or assure compliance with, or both, an applicable requirement.
+
+(d)
+
+Fuels, fuel use, raw materials, production rates, and operating schedules.
+
+(e)
+
+Identification and description of air pollution control equipment and compliance
+monitoring devices or activities.
+
+(f)
+
+Limitations on source operation affecting emissions or any work practice
+standards, when applicable, for all regulated contaminants.
+
+(g)
+
+Other information required by any applicable requirement including information
+related to stack height limitations developed pursuant to chapter 33.1-15-18.
+
+(h)
+
+Calculations on which the information in subparagraphs a through g is based.
+
+The following air pollution control requirements:
+(a)
+
+Citation and description of all applicable requirements; and
+
+(b)
+
+Description of or reference to any applicable test method for determining
+compliance with each applicable requirement.
+
+29
+
+(5)
+
+Other specific information that may be necessary to implement and enforce other
+applicable requirements of the federal Clean Air Act or of this article or to determine
+the applicability of such requirements.
+
+(6)
+
+An explanation
+requirements.
+
+(7)
+
+Additional information as determined to be necessary by the department to define
+proposed alternative operating scenarios identified by the source pursuant to
+paragraph 9 of subdivision a of subsection 5 or to define permit terms and
+conditions implementing any alternative operating scenario under paragraph 9 of
+subdivision a of subsection 5 or implementing paragraph 2 of subdivision b of
+subsection 6, paragraph 3 of subdivision b of subsection 6, paragraph 8 of
+subdivision a of subsection 5, or paragraph 10 of subdivision a of subsection 5. The
+permit application shall include documentation demonstrating that the source has
+obtained all authorizations required under the applicable requirements relevant to
+any proposed alternative operating scenarios, or a certification that the source has
+submitted all relevant materials to the department for obtaining such authorizations.
+
+(8)
+
+A compliance plan for all title V sources that contains all the following:
+
+of
+
+any
+
+proposed
+
+exemptions
+
+from
+
+otherwise
+
+applicable
+
+(a)
+
+A description of the compliance status of the source with respect to all
+applicable requirements.
+
+(b)
+
+A description as follows:
+
+(c)
+
+[1]
+
+For applicable requirements with which the source is in compliance, a
+statement that the source will continue to comply with such requirements.
+
+[2]
+
+For applicable requirements that will become effective during the permit
+term, a statement that the source will meet such requirements on a timely
+basis.
+
+[3]
+
+For requirements for which the source is not in compliance at the time of
+permit issuance, a narrative description of how the source will achieve
+compliance with such requirements.
+
+[4]
+
+For applicable requirements associated with a proposed alternative
+operating scenario, a statement that the source will meet such
+requirements upon implementation of the alternative operating scenario. If
+a proposed alternative operating scenario would implicate an applicable
+requirement that will become effective during the permit term, a statement
+that the source will meet such requirements on a timely basis.
+
+A compliance schedule as follows:
+[1]
+
+For applicable requirements with which the source is in compliance, a
+statement that the source will continue to comply with such requirements.
+
+[2]
+
+For applicable requirements that will become effective during the permit
+term, a statement that the source will meet such requirements on a timely
+basis. A statement that the source will meet in a timely manner applicable
+requirements that become effective during the permit term shall satisfy
+this provision, unless a more detailed schedule is expressly required by
+the applicable requirement.
+
+30
+
+(9)
+
+(10)
+
+[3]
+
+A schedule of compliance for sources that are not in compliance with all
+applicable requirements at the time of permit issuance. Such a schedule
+shall include a schedule of remedial measures, including an enforceable
+sequence of actions with milestones, leading to compliance with any
+applicable requirements for which the source will be in noncompliance at
+the time of permit issuance. This compliance schedule shall resemble and
+be at least as stringent as that contained in any judicial consent decree or
+administrative order to which the source is subject. Any such schedule of
+compliance shall be supplemental to, and shall not sanction
+noncompliance with, the applicable requirements on which it is based.
+
+[4]
+
+For applicable requirements associated with a proposed alternative
+operating scenario, a statement that the source will meet such
+requirements upon implementation of the alternative operating scenario. If
+a proposed alternative operating scenario would implicate an applicable
+requirement that will become effective during the permit term, a statement
+that the source will meet such requirements on a timely basis. A
+statement that the source will meet in a timely manner applicable
+requirements that become effective during the permit term will satisfy this
+provision, unless a more detailed schedule is expressly required by the
+applicable requirement.
+
+(d)
+
+A schedule for submission of certified progress reports no less frequently than
+every six months for sources required to have a schedule of compliance to
+remedy a violation.
+
+(e)
+
+The compliance plan content requirements specified in this paragraph shall
+apply and be included in the acid rain portion of a compliance plan for an
+affected source, except as specifically superseded by regulations promulgated
+under title IV of the federal Clean Air Act with regard to the schedule and
+method or methods the source will use to achieve compliance with the acid
+rain emissions limitations.
+
+Requirements for compliance certification, including the following:
+(a)
+
+A certification of compliance with all applicable requirements by a responsible
+official consistent with subdivision d and section 114(a)(3) of the federal Clean
+Air Act;
+
+(b)
+
+A statement of methods used for determining compliance, including a
+description of monitoring, recordkeeping, and reporting requirements and test
+methods;
+
+(c)
+
+A schedule for submission of compliance certifications during the permit term,
+to be submitted annually, or more frequently if specified by the underlying
+applicable requirement; and
+
+(d)
+
+A statement indicating the source's compliance status with any applicable
+enhanced monitoring and compliance certification requirements of the federal
+Clean Air Act.
+
+The use of nationally standardized forms for acid rain portions of permit applications
+and compliance plans, as required by regulations promulgated under title IV of the
+federal Clean Air Act.
+
+31
+
+d.
+
+5.
+
+Any application form, report, or compliance certification submitted pursuant to these rules
+shall contain certification by a responsible official of truth, accuracy, and completeness.
+This certification and any other certification required under this section shall state that,
+based on information and belief formed after reasonable inquiry, the statements and
+information in the document are true, accurate, and complete.
+
+Permit content.
+a.
+
+Standard permit requirements. Each permit issued under this section shall include, as a
+minimum, the following elements:
+(1)
+
+Emissions limitations and standards, including those operational requirements and
+limitations that assure compliance with all applicable requirements at the time of
+permit issuance. Such requirements and limitations may include approved replicable
+methodologies identified by the source in its title V permit application as approved
+by the department, provided that no approved replicable methodology shall
+contravene any terms needed to comply with any otherwise applicable requirement
+or requirement of this section or circumvent any applicable requirement that would
+apply as a result of implementing the approved replicable methodology.
+(a)
+
+The permit must specify and reference the origin of and authority for each term
+or condition, and identify any difference in form as compared to the applicable
+requirement upon which the term or condition is based.
+
+(b)
+
+The permit must state that, if an applicable requirement of the federal Clean Air
+Act is more stringent than an applicable requirement of regulations
+promulgated under title IV of the federal Clean Air Act, both provisions shall be
+incorporated into the permit and shall be enforceable by the administrator of
+the United States environmental protection agency and the department.
+
+(c)
+
+If the state implementation plan allows a determination of an alternative
+emissions limit at a title V source, equivalent to that contained in the plan, to be
+made in the permit issuance, renewal, or significant modification process, and
+the department elects to use such process, any permit containing such
+equivalency determination shall contain provisions to ensure that any resulting
+emissions limit has been demonstrated to be quantifiable, accountable,
+enforceable, and based on replicable procedures.
+
+(2)
+
+Permit duration. For all sources, the term of the permit may not exceed five years.
+The permit expires on the date listed on the permit.
+
+(3)
+
+Monitoring and related recordkeeping and reporting requirements.
+(a)
+
+Each permit shall contain the following requirements with respect to
+monitoring:
+[1]
+
+All monitoring and analysis procedures or test methods required under
+applicable monitoring and testing requirements, including subsection 10
+and any procedures and methods promulgated pursuant to sections
+504(b) or 114(a)(3) of the federal Clean Air Act. If more than one
+monitoring or testing requirement applies, the permit may specify a
+streamlined set of monitoring or testing provisions provided the specified
+monitoring or testing is adequate to assure compliance at least to the
+same extent as the monitoring or testing applicable requirements that are
+not included in the permit as a result of such streamlining;
+
+32
+
+(b)
+
+[2]
+
+If the applicable requirement does not require periodic testing or
+instrumental or noninstrumental monitoring (which may consist of
+recordkeeping designed to serve as monitoring), periodic monitoring
+sufficient to yield reliable data from the relevant time period that are
+representative of the source's compliance with the permit, as reported
+pursuant to subparagraph c. Such monitoring requirements shall assure
+use of terms, test methods, units, averaging periods, and other statistical
+conventions consistent with the applicable requirement. Recordkeeping
+provisions may be sufficient to meet the requirements of this item; and
+
+[3]
+
+As necessary, requirements concerning the use, maintenance, and, if
+appropriate, installation of monitoring equipment or methods.
+
+With respect to recordkeeping, the permit shall incorporate all applicable
+recordkeeping requirements and require, if applicable, the following:
+[1]
+
+[2]
+
+(c)
+
+(4)
+
+Records of required monitoring information that include the following:
+[a]
+
+The date, place as defined in the permit, and time of sampling or
+measurements;
+
+[b]
+
+The dates analyses were performed;
+
+[c]
+
+The company or entity that performed the analyses;
+
+[d]
+
+The analytical techniques or methods used;
+
+[e]
+
+The results of such analyses; and
+
+[f]
+
+The operating conditions as existing at the time of sampling or
+measurement;
+
+Retention of records of all required monitoring data and support
+information for a period of at least five years from the date of the
+monitoring sample, measurement, report, or application. Support
+information includes all calibration and maintenance records and all
+original strip-chart recordings for continuous monitoring instrumentation,
+and copies of all reports required by the permit.
+
+With respect to reporting, the permit shall incorporate all applicable reporting
+requirements and require the following:
+[1]
+
+Submittal of reports of any required monitoring at least every six months.
+All instances of deviations from permit requirements must be clearly
+identified in such reports. All required reports must be certified by a
+responsible official consistent with subdivision d of subsection 4.
+
+[2]
+
+Prompt reporting of deviations from permit requirements, including those
+attributable to upset conditions as defined in the permit, the probable
+cause of such deviations, and any corrective actions or preventive
+measures taken. The department shall define "prompt" in the permit
+consistent with chapter 33.1-15-01 and the applicable requirements.
+
+A permit condition prohibiting emissions exceeding any allowances that the source
+lawfully holds under title IV of the federal Clean Air Act or the regulations
+promulgated thereunder.
+
+33
+
+(a)
+
+No permit revision shall be required for increases in emissions that are
+authorized by allowances acquired pursuant to title IV of the federal Clean Air
+Act, or the regulations promulgated thereunder, provided that such increases
+do not require a permit revision under any other applicable requirement.
+
+(b)
+
+No limit shall be placed on the number of allowances held by the source. The
+source may not, however, use allowances as a defense to noncompliance with
+any other applicable requirement.
+
+(c)
+
+Any such allowance shall be accounted for according to the procedures
+established in regulations promulgated under title IV of the federal Clean Air
+Act.
+
+(5)
+
+A severability clause to ensure the continued validity of the various permit
+requirements in the event of a challenge to any portions of the permit.
+
+(6)
+
+Provisions stating the following:
+(a)
+
+The permittee must comply with all conditions of the title V permit. Any permit
+noncompliance constitutes a violation of the federal Clean Air Act and this
+article and is grounds for enforcement action; for permit termination, revocation
+and reissuance, or modification; or for denial of a permit renewal application.
+
+(b)
+
+It shall not be a defense for a permittee in an enforcement action that it would
+have been necessary to halt or reduce the permitted activity in order to
+maintain compliance with the conditions of this permit.
+
+(c)
+
+The permit may be modified, revoked, reopened, and reissued, or terminated
+for cause. The filing of a request by the permittee for a permit modification,
+revocation and reissuance, or termination, or of a notification of planned
+changes or anticipated noncompliance does not stay any permit condition.
+
+(d)
+
+The permit does not convey any property rights of any sort, or any exclusive
+privilege.
+
+(e)
+
+The permittee must furnish to the department, within a reasonable time, any
+information that the department may request in writing to determine whether
+cause exists for modifying, revoking and reissuing, or terminating the permit or
+to determine compliance with the permit. Upon request, the permittee must
+also furnish to the department copies of records required to be kept by the
+permit or, for information claimed to be confidential, the permittee must also
+furnish such records directly to the administrator of the United States
+environmental protection agency along with a claim of confidentiality.
+
+(7)
+
+A provision to ensure that the source pays fees to the department consistent with
+the fee schedule in chapter 33.1-15-23.
+
+(8)
+
+Emissions trading. No permit revision shall be required, under any approved
+economic incentives, marketable permits, emissions trading and other similar
+programs or processes for changes that are provided for in the permit and the state
+implementation plan.
+
+(9)
+
+Terms and conditions for reasonably anticipated alternative operating scenarios
+identified by the source in its application as approved by the department. Such
+terms and conditions:
+
+34
+
+(10)
+
+(11)
+
+b.
+
+(a)
+
+Shall require the source, contemporaneously with making a change from
+one operating scenario to another, to record in a log at the permitted facility a
+record of the alternative operating scenario under which it is operating;
+
+(b)
+
+Shall extend the permit shield described in subdivision f to all terms and
+conditions under each such alternative operating scenario; and
+
+(c)
+
+Must ensure that the terms and conditions of each such alternative scenario
+meet all applicable requirements and the requirements of this section. The
+department shall not approve a proposed alternative operating scenario into
+the title V permit until the source has obtained all authorizations required under
+any applicable requirement relevant to that alternative operating scenario.
+
+Terms and conditions, if the permit applicant requests them, for the trading of
+emissions increases and decreases in the permitted facility, to the extent that the
+applicable requirements, including the state implementation plan, provide for trading
+such increases and decreases without a case-by-case approval of each emissions
+trade. Such terms and conditions:
+(a)
+
+Shall include all terms required under subdivisions a and c to determine
+compliance;
+
+(b)
+
+Shall extend the permit shield described in subdivision f to all terms and
+conditions that allow such increases and decreases in emissions; and
+
+(c)
+
+Must meet all applicable requirements and requirements of this section.
+
+If a permit applicant requests it, the department shall issue permits that contain
+terms and conditions, including all terms required under subdivisions a and c to
+determine compliance, allowing for the trading of emissions increases and
+decreases in the permitted facility solely for the purpose of complying with a
+federally enforceable emissions cap that is established in the permit independent of
+otherwise applicable requirements provided the changes in emissions are not
+modifications under title I of the federal Clean Air Act and the changes do not
+exceed the emissions allowable under the permit. The permit applicant shall include
+in its application proposed replicable procedures and permit terms that ensure the
+emissions trades are quantifiable and enforceable. The department shall not be
+required to include in the emissions trading provisions any emissions units for which
+emissions are not quantifiable or for which there are no replicable procedures to
+enforce the emissions trades. The permit shall also require compliance with all
+applicable requirements. The permittee shall supply written notification at least
+seven days prior to the change to the department and the administrator of the
+United States environmental protection agency and shall state when the change will
+occur and shall describe the changes in emissions that will result and how these
+increases and decreases in emissions will comply with the terms and conditions of
+the permit. The permit shield described in subdivision f shall extend to terms and
+conditions that allow such increases and decreases in emissions.
+
+Federally enforceable requirements.
+(1)
+
+All terms and conditions in a title V permit, including any provisions designed to limit
+a source's potential to emit, are enforceable by the administrator of the United
+States environmental protection agency and citizens under the federal Clean Air Act.
+
+(2)
+
+Notwithstanding paragraph 1, the department shall specifically designate as not
+being federally enforceable under the federal Clean Air Act any terms and conditions
+35
+
+included in the permit that are not required under the federal Clean Air Act or under
+any of its applicable requirements. Terms and conditions so designated are not
+subject to the requirements of subsections 6 and 7, or of this subsection, other than
+those contained in this subdivision.
+c.
+
+Compliance requirements. All title V permits shall contain the following elements with
+respect to compliance:
+(1)
+
+Consistent with paragraph 3 of subdivision a, compliance certification, testing,
+monitoring, reporting, and recordkeeping requirements sufficient to assure
+compliance with the terms and conditions of the permit. Any document, including
+reports, required by a title V permit shall contain a certification by a responsible
+official that meets the requirements of subdivision d of subsection 4.
+
+(2)
+
+Inspection and entry requirements that require that, upon presentation of credentials
+and other documents as may be required by law, the permittee shall allow the
+department or an authorized representative to perform the following:
+(a)
+
+Enter upon the permittee's premises where a title V source is located or
+emissions-related activity is conducted, or where records must be kept under
+the conditions of the permit;
+
+(b)
+
+Have access to and copy, at reasonable times, any records that must be kept
+under the conditions of the permit;
+
+(c)
+
+Inspect at reasonable times any facilities, equipment (including monitoring and
+air pollution control equipment), practices, or operations regulated or required
+under the permit; and
+
+(d)
+
+As authorized by the federal Clean Air Act and this article, sample or monitor at
+reasonable times substances or parameters for the purpose of assuring
+compliance with the permit or applicable requirements.
+
+(3)
+
+A schedule of compliance consistent with paragraph 8 of subdivision c of
+subsection 4.
+
+(4)
+
+Progress reports consistent with an applicable schedule of compliance and
+paragraph 8 of subdivision c of subsection 4 to be submitted at least semiannually,
+or at a more frequent period if specified in the applicable requirement or by the
+department. Such progress reports shall contain the following:
+
+(5)
+
+(a)
+
+Dates for achieving the activities, milestones, or compliance required in the
+schedule of compliance, and dates when such activities, milestones, or
+compliance were achieved; and
+
+(b)
+
+An explanation of why any dates in the schedule of compliance were not or will
+not be met, and any preventive or corrective measures adopted.
+
+Requirements for compliance certification with terms and conditions contained in the
+permit, including emissions limitations, standards, or work practices. Permits shall
+include each of the following:
+(a)
+
+The frequency, which is annually or such more frequent periods as specified in
+the applicable requirement or by the department, of submissions of compliance
+certifications;
+
+36
+
+(6)
+d.
+
+(b)
+
+In accordance with paragraph 3 of subdivision a, a means for monitoring the
+compliance of the source with its emissions limitations, standards, and work
+practices. The means for monitoring shall be contained in applicable
+requirements or United States environmental protection agency guidance;
+
+(c)
+
+A requirement that the compliance certification include all of the following
+(provided that the identification of applicable information may cross-reference
+the permit or previous reports, as applicable):
+[1]
+
+The identification of each term or condition of the permit that is the basis
+of the certification;
+
+[2]
+
+The identification of the methods or other means used by the owner or
+operator for determining the compliance status with each term and
+condition during the certification period. Such methods and other means
+shall include, at a minimum, the methods and means required under
+paragraph 3 of subdivision a. If necessary, the owner or operator also
+shall identify any other material information that must be included in the
+certification to comply with section 113(c)(2) of the federal Clean Air Act,
+which prohibits knowingly making a false certification or omitting material
+information;
+
+[3]
+
+The status of compliance with the terms and conditions of the permit for
+the period covered by the certification, including whether compliance
+during the period was continuous or intermittent. The certification shall be
+based on the method or means designated in item 2. The certification
+shall identify each deviation and take it into account in the compliance
+certification. The certification shall also identify as possible exceptions to
+compliance any periods during which compliance is required and in which
+an excursion or exceedance as defined under subsection 10 occurred;
+and
+
+[4]
+
+Such other facts as the department may require to determine the
+compliance status of the source;
+
+(d)
+
+A requirement that all compliance certifications be submitted to the
+administrator of the United States environmental protection agency as well as
+to the department; and
+
+(e)
+
+Such additional requirements as may be specified pursuant to sections
+114(a)(3) and 504(b) of the federal Clean Air Act.
+
+Such other provisions as the department may require.
+
+General permits.
+(1)
+
+The department may, after notice and opportunity for public participation provided
+under subdivision h of subsection 6, issue a general permit covering numerous
+similar sources. Any general permit shall comply with all requirements applicable to
+other title V permits and shall identify criteria by which sources may qualify for the
+general permit. To sources that qualify, the department shall grant the conditions
+and terms of the general permit. Notwithstanding the shield provisions of
+subdivision f, the source shall be subject to enforcement action for operation without
+a title V permit to operate if the source is later determined not to qualify for the
+conditions and terms of the general permit. General permits shall not be authorized
+for affected sources under the acid rain program unless otherwise provided in
+37
+
+regulations promulgated under title IV of the federal Clean Air Act. The department
+is not required to issue a general permit in lieu of individual title V permits.
+(2)
+
+e.
+
+f.
+
+Title V sources that would qualify for a general permit must apply to the department
+for coverage under the terms of the general permit or must apply for a title V permit
+to operate consistent with subsection 4. The department may, in the general permit,
+provide for applications which deviate from the requirements of subsection 4,
+provided that such applications meet the requirements of title V of the federal Clean
+Air Act, and include all information necessary to determine qualification for, and to
+assure compliance with, the general permit. Without repeating the public
+participation procedures required under subdivision h of subsection 6, the
+department may grant a source's request for authorization to operate under a
+general permit, but such a grant shall not be a final permit action for purposes of
+judicial review.
+
+Temporary sources. The department may issue a single permit authorizing emissions
+from similar operations by the same source owner or operator at multiple temporary
+locations. The operation must be temporary and involve at least one change of location
+during the term of the permit. No affected source shall be permitted as a temporary
+source. Permits for temporary sources shall include the following:
+(1)
+
+Conditions that will assure compliance with all applicable requirements at all
+authorized locations;
+
+(2)
+
+Requirements that the owner or operator notify the department at least ten days in
+advance of each change in location; and
+
+(3)
+
+Conditions that assure compliance with all other provisions of this section.
+
+Permit shield.
+(1)
+
+Except as provided in this section, upon written request by the applicant, the
+department shall include in a title V permit to operate a provision stating that
+compliance with the conditions of the permit shall be deemed compliance with any
+applicable requirement as of the date of permit issuance, provided that:
+(a)
+
+Such applicable requirements are included and are specifically identified in the
+permit; or
+
+(b)
+
+The department, in acting on the permit application or revision, determines in
+writing that other requirements specifically identified are not applicable to the
+source, and the permit includes the determination or a concise summary
+thereof.
+
+(2)
+
+A title V permit that does not expressly state that a permit shield exists shall be
+presumed not to provide such a shield.
+
+(3)
+
+Nothing in this subdivision or in any title V permit shall alter or affect the following:
+(a)
+
+The provisions of section 303 of the federal Clean Air Act (emergency orders),
+including the authority of the administrator of the United States environmental
+protection agency under that section;
+
+(b)
+
+The liability of an owner or operator of a source for any violation of applicable
+requirements prior to or at the time of permit issuance;
+
+38
+
+g.
+
+6.
+
+(c)
+
+The applicable requirements of the acid rain program, consistent with section
+408(a) of the federal Clean Air Act; or
+
+(d)
+
+The ability of the United States environmental protection agency to obtain
+information from a source pursuant to section 114 of the federal Clean Air Act.
+
+Emergency provision.
+(1)
+
+An "emergency" means any situation arising from sudden and reasonably
+unforeseeable events beyond the control of the source, including acts of God, which
+situation requires immediate corrective action to restore normal operation, and that
+causes the source to exceed a technology-based emissions limitation under the
+title V permit to operate, due to unavoidable increases in emissions attributable to
+the emergency. An emergency shall not include noncompliance to the extent caused
+by improperly designed equipment, lack of preventive maintenance, careless or
+improper operation, or operator error.
+
+(2)
+
+Effect of an emergency. An emergency constitutes an affirmative defense to an
+action brought for noncompliance with such technology-based emissions limitations
+if the conditions of paragraph 3 are met.
+
+(3)
+
+The affirmative defense of emergency shall be demonstrated through properly
+signed, contemporaneous operating logs, or other relevant evidence that:
+(a)
+
+An emergency occurred and that the permittee can identify the causes of the
+emergency;
+
+(b)
+
+The permitted facility was at the time being properly operated;
+
+(c)
+
+During the period of the emergency the permittee took all reasonable steps to
+minimize levels of emissions that exceeded the emissions standards, or other
+requirements in the permit; and
+
+(d)
+
+The permittee submitted notice of the emergency to the department within
+one working day of the time when emissions limitations were exceeded due to
+the emergency. This notice fulfills the requirement of item 2 of subparagraph c
+of paragraph 3 of subdivision a. This notice must contain a description of the
+emergency, any steps taken to mitigate emissions, and corrective actions
+taken.
+
+(4)
+
+In any enforcement proceeding, the permittee seeking to establish the occurrence of
+an emergency has the burden of proof.
+
+(5)
+
+This provision is in addition to any emergency or upset provision contained in any
+applicable requirement and the malfunction notification required under subdivision b
+of subsection 2 of section 33.1-15-01-13 when a threat to health and welfare would
+exist.
+
+Permit issuance, renewal, reopenings, and revisions.
+a.
+
+Action on application.
+(1)
+
+A permit, permit modification, or permit renewal may be issued only if all of the
+following conditions have been met:
+(a)
+
+The department has received a complete application for a permit, permit
+modification, or permit renewal, except that a complete application need not be
+39
+
+received before issuance of a general permit under subdivision d of
+subsection 5;
+
+b.
+
+(b)
+
+Except for modifications qualifying for minor permit modification procedures
+under paragraphs 1 and 2 of subdivision e, the department has complied with
+the requirements for public participation under subdivision h;
+
+(c)
+
+The department has complied with the requirements for notifying and
+responding to affected states under subdivision b of subsection 7;
+
+(d)
+
+The conditions of the permit provide for compliance with all applicable
+requirements and the requirements of this section; and
+
+(e)
+
+The administrator of the United States environmental protection agency has
+received a copy of the proposed permit and any notices required under
+subdivisions a and b of subsection 7, and has not objected to issuance of the
+permit under subdivision c of subsection 7 within the time period specified
+therein.
+
+(2)
+
+Except for applications received during the initial transitional period described in
+40 CFR 70.4(b)(11) or under regulations promulgated under title IV or title V of the
+federal Clean Air Act for the permitting of affected sources under the acid rain
+program, the department shall take final action on each permit application, including
+a request for permit modification or renewal, within eighteen months after receiving
+a complete application.
+
+(3)
+
+The department shall provide notice to the applicant of whether the application is
+complete. Unless the department requests additional information or otherwise
+notifies the applicant of incompleteness within sixty days of receipt of an application,
+the application shall be deemed complete. For modifications processed through the
+minor permit modification procedures, in paragraphs 1 and 2 of subdivision e, a
+completeness determination is not required.
+
+(4)
+
+The department shall provide a statement that sets forth the legal and factual basis
+for the draft permit conditions, including references to the applicable statutory or
+regulatory provisions. The department shall send this statement to the United States
+environmental protection agency and to any other person who requests it.
+
+(5)
+
+The submittal of a complete application shall not affect the requirement that any
+source have a permit to construct under section 33.1-15-14-02.
+
+Requirement for a permit.
+(1)
+
+Except as provided in the following sentence, paragraphs 2 and 3, subparagraph e
+of paragraph 1 of subdivision e, and subparagraph e of paragraph 2 of
+subdivision e, no title V source may operate after the time that it is required to
+submit a timely and complete application under this section, except in compliance
+with a permit issued under this section. If a title V source submits a timely and
+complete application for permit issuance, including for renewal, the source's failure
+to have a title V permit is not a violation of this section until the department takes
+final action on the permit application, except as noted in this subsection. This
+protection shall cease to apply if, subsequent to the completeness determination
+made pursuant to paragraph 3 of subdivision a, and as required by paragraph 2 of
+subdivision a of subsection 4, the applicant fails to submit by the deadline specified
+in writing by the department any additional information identified as being needed to
+process the application. For timely and complete renewal applications for which the
+40
+
+department has failed to issue or deny the renewal permit before the expiration date
+of the previous permit, all the terms and conditions of the permit, including the
+permit shield that was granted pursuant to subdivision f of subsection 5 shall remain
+in effect until the renewal permit has been issued or denied.
+(2)
+
+A permit revision is not required for section 502(b)(10) changes provided:
+(a)
+
+The changes are not modifications under chapters 33.1-15-12, 33.1-15-13, and
+33.1-15-15 or title I of the federal Clean Air Act.
+
+(b)
+
+The changes do not exceed the emissions allowable under the title V permit
+whether expressed therein as a rate of emissions or in terms of total
+emissions.
+
+(c)
+
+A permit to construct under section 33.1-15-14-02 has been issued, if required.
+
+(d)
+
+The facility provides the department and the administrator of the United States
+environmental protection agency with written notification at least seven days in
+advance of the proposed change. The written notification shall include a
+description of each change within the permitted facility, the date on which the
+change will occur, any change in emissions, and any permit term or condition
+that is no longer applicable as a result of the change.
+
+The permit shield described in subdivision f of subsection 5 shall not apply to any
+change made pursuant to this paragraph.
+(3)
+
+A permit revision is not required for changes that are not addressed or prohibited by
+the permit provided:
+(a)
+
+Each such change shall meet all applicable requirements and shall not violate
+any existing permit term or condition.
+
+(b)
+
+The source must provide contemporaneous written notice to the department
+and the administrator of the United States environmental protection agency of
+each such change, except for changes that qualify as insignificant under the
+provisions of subdivision c of subsection 4. Such written notice shall describe
+each such change, including the date, any change in emissions, contaminants
+emitted, and any applicable requirement that would apply as a result of the
+change.
+
+(c)
+
+The permittee shall keep a record describing changes made at the source that
+result in emissions of a regulated air contaminant subject to an applicable
+requirement, but not otherwise regulated under the permit, and the emissions
+resulting from those changes.
+
+(d)
+
+The changes are not subject to any requirements under title IV of the federal
+Clean Air Act.
+
+(e)
+
+The changes are not modifications under chapters 33.1-15-12, 33.1-15-13, and
+33.1-15-15 or any provision of title I of the federal Clean Air Act.
+
+(f)
+
+A permit to construct under section 33.1-15-14-02 has been issued, if required.
+
+The permit shield described in subdivision f of subsection 5 shall not apply to any
+change made pursuant to this paragraph.
+c.
+
+Permit renewal and expiration.
+41
+
+d.
+
+(1)
+
+Permits being renewed are subject to the same procedural requirements, including
+those for public participation, affected state and the United States environmental
+protection agency review, that apply to initial permit issuance; and
+
+(2)
+
+Permit expiration terminates the source's right to operate unless a timely and
+complete renewal application has been submitted consistent with subdivision b of
+subsection 6 and subparagraph c of paragraph 1 of subdivision a of subsection 4.
+
+Administrative permit amendments.
+(1)
+
+An "administrative permit amendment" is a permit revision that:
+(a)
+
+Corrects typographical errors;
+
+(b)
+
+Identifies a change in the name, address, or telephone number of any person
+identified in the permit, or provides a similar minor administrative change at the
+source;
+
+(c)
+
+Requires more frequent monitoring or reporting by the permittee;
+
+(d)
+
+Allows for a change in ownership or operational control of a source if the
+department determines that no other change in the permit is necessary,
+provided that a written agreement containing a specific date for transfer of
+permit responsibility, coverage, and liability between the current and new
+permittee has been submitted to the department;
+
+(e)
+
+Incorporates into the title V permit the requirements from a permit to construct,
+provided that the permit to construct review procedure is substantially
+equivalent to the requirements of subsections 6 and 7 that would be applicable
+to the change if it were subject to review as a permit modification, and
+compliance requirements substantially equivalent to those contained in
+subsection 5; or
+
+(f)
+
+Incorporates any other type of change which the administrator of the United
+States environmental protection agency has approved as being an
+administrative permit amendment as part of the approved title V operating
+permit program.
+
+(2)
+
+Administrative permit amendments for purposes of the acid rain portion of the permit
+shall be governed by regulations promulgated under title IV of the federal Clean Air
+Act.
+
+(3)
+
+Administrative permit amendment procedures. An administrative permit amendment
+may be made by the department consistent with the following:
+(a)
+
+The department shall take no more than sixty days from receipt of a request for
+an administrative permit amendment to take final action on such request, and
+may incorporate such changes without providing notice to the public or affected
+states provided that it designates any such permit revisions as having been
+made pursuant to this subdivision.
+
+(b)
+
+The department shall submit a copy of the revised permit to the administrator
+of the United States environmental protection agency.
+
+(c)
+
+The source may implement the changes addressed in the request for an
+administrative amendment immediately upon submittal of the request provided
+a permit to construct under section 33.1-15-14-02 has been issued, if required.
+42
+
+(4)
+
+e.
+
+The department may, upon taking final action granting a request for an
+administrative permit amendment, allow coverage by the permit shield in
+subdivision f of subsection 5 for administrative permit amendments made pursuant
+to subparagraph e of paragraph 1 of subdivision d which meet the relevant
+requirements of subsections 5, 6, and 7 for significant permit modifications.
+
+Permit modification. A permit modification is any revision to a title V permit that cannot be
+accomplished under the provisions for administrative permit amendments under
+subdivision d. A permit modification for purposes of the acid rain portion of the permit
+shall be governed by regulations promulgated under title IV of the federal Clean Air Act.
+(1)
+
+Minor permit modification procedures.
+(a)
+
+Criteria.
+[1]
+
+[2]
+
+(b)
+
+Minor permit modification procedures may be used only for those permit
+modifications that:
+[a]
+
+Do not violate any applicable requirement;
+
+[b]
+
+Do not involve significant changes to existing monitoring, reporting,
+or recordkeeping requirements in the permit;
+
+[c]
+
+Do not require or change a case-by-case determination of an
+emissions limitation or other standard, or a source-specific
+determination for temporary sources of ambient impacts, or a
+visibility or increment analysis;
+
+[d]
+
+Do not seek to establish or change a permit term or condition for
+which there is no corresponding underlying applicable requirement
+and that the source has assumed to avoid an applicable requirement
+to which the source would otherwise be subject. Such terms and
+conditions include a federally enforceable emissions cap assumed to
+avoid classification as a modification under any provision of title I of
+the federal Clean Air Act; and an alternative emissions limit approved
+pursuant to regulations promulgated under section 112(i)(5) of the
+federal Clean Air Act;
+
+[e]
+
+Are not modifications under chapters 33.1-15-12, 33.1-15-13, and
+33.1-15-15 or any provision of title I of the federal Clean Air Act; and
+
+[f]
+
+Are not required to be processed as a significant modification.
+
+Notwithstanding item 1 and subparagraph a of paragraph 2 of
+subdivision e, minor permit modification procedures may be used for
+permit modifications involving the use of economic incentives, marketable
+permits, emissions trading, and other similar approaches, to the extent
+that such minor permit modification procedures are explicitly provided for
+in the state implementation plan, or in applicable requirements
+promulgated by the United States environmental protection agency.
+
+Application. An application requesting the use of minor permit modification
+procedures shall meet the requirements of subdivision c of subsection 4 and
+shall include the following:
+[1]
+
+A description of the change, the emissions resulting from the change, and
+any new applicable requirements that will apply if the change occurs;
+43
+
+[2]
+
+The source's suggested draft permit;
+
+[3]
+
+Certification by a responsible official, consistent with subdivision d of
+subsection 4, that the proposed modification meets the criteria for use of
+minor permit modification procedures and a request that such procedures
+be used; and
+
+[4]
+
+Completed forms for the department to use to notify the administrator of
+the United States environmental protection agency and affected states as
+required under subsection 7.
+
+(c)
+
+United States environmental protection agency and affected state notification.
+Within five working days of receipt of a complete permit modification
+application, the department shall notify the administrator of the United States
+environmental protection agency and affected states of the requested permit
+modification. The department shall promptly send any notice required under
+paragraph 2 of subdivision b of subsection 7 to the administrator of the United
+States environmental protection agency.
+
+(d)
+
+Timetable for issuance. The department may not issue a final permit
+modification until after the United States environmental protection agency
+forty-five-day review period or until the United States environmental protection
+agency has notified the department that the United States environmental
+protection agency will not object to issuance of the permit modification,
+whichever is first, although the department can approve the permit modification
+prior to that time. Within ninety days of the department's receipt of an
+application under minor permit modification procedures or fifteen days after the
+end of the administrator's forty-five-day review period under subdivision c of
+subsection 7, whichever is later, the department shall:
+[1]
+
+Issue the permit modification as proposed;
+
+[2]
+
+Deny the permit modification application;
+
+[3]
+
+Determine that the requested modification does not meet the minor permit
+modification criteria and should be reviewed under the significant
+modification procedures; or
+
+[4]
+
+Revise the draft permit modification and transmit to the administrator the
+new proposed permit modification as required by subdivision a of
+subsection 7.
+
+(e)
+
+Source's ability to make change. A source may make the change proposed in
+its minor permit modification application only after it files such application and
+the department approves the change in writing. If the department allows the
+source to make the proposed change prior to taking action specified in items 1,
+2, and 3 of subparagraph d, the source must comply with both the applicable
+requirements governing the change and the proposed permit terms and
+conditions. During this time period, the source need not comply with the
+existing permit terms and conditions it seeks to modify. However, if the source
+fails to comply with its proposed permit terms and conditions during this time
+period, the existing permit terms and conditions it seeks to modify may be
+enforced against it.
+
+(f)
+
+The permit shield under subdivision f of subsection 5 shall not extend to minor
+permit modifications.
+44
+
+(2)
+
+Group processing of minor permit modifications. Consistent with this paragraph, the
+department may modify the procedure outlined in paragraph 1 to process groups of
+a source's applications for certain modifications eligible for minor permit modification
+processing.
+(a)
+
+(b)
+
+(c)
+
+Criteria. Group processing of modifications may be used only for those permit
+modifications:
+[1]
+
+That meet the criteria for minor permit modification procedures under
+item 1 of subparagraph a of paragraph 1 of subdivision e; and
+
+[2]
+
+That collectively are below the threshold level which is ten percent of the
+emissions allowed by the permit for the emissions unit for which the
+change is requested, twenty percent of the applicable definition of major
+source in subsection 1, or five tons [4.54 metric tons] per year, whichever
+is least.
+
+Application. An application requesting the use of group processing procedures
+shall meet the requirements of subdivision c of subsection 4 and shall include
+the following:
+[1]
+
+A description of the change, the emissions resulting from the change, and
+any new applicable requirements that will apply if the change occurs.
+
+[2]
+
+The source's suggested draft permit.
+
+[3]
+
+Certification by a responsible official, consistent with subdivision d of
+subsection 4, that the proposed modification meets the criteria for use of
+group processing procedures and a request that such procedures be
+used.
+
+[4]
+
+A list of the source's other pending applications awaiting group
+processing, and a determination of whether the requested modification,
+aggregated with these other applications, equals or exceeds the threshold
+set under item 2 of subparagraph a of paragraph 2 of subdivision e.
+
+[5]
+
+Certification, consistent with subdivision d of subsection 4, that the source
+has notified the United States environmental protection agency of the
+proposed modification. Such notification need only contain a brief
+description of the requested modification.
+
+[6]
+
+Completed forms for the department to use to notify the administrator of
+the United States environmental protection agency and affected states as
+required under subsection 7.
+
+United States environmental protection agency and affected state notification.
+On a quarterly basis or within five business days of receipt of an application
+demonstrating that the aggregate of a source's pending applications equals or
+exceeds the threshold level set under item 2 of subparagraph a of paragraph 2
+of subdivision e, whichever is earlier, the department shall meet its obligation
+under paragraph 1 of subdivision a of subsection 7 and paragraph 1 of
+subdivision b of subsection 7 to notify the administrator of the United States
+environmental protection agency and affected states of the requested permit
+modifications. The department shall send any notice required under
+paragraph 2 of subdivision b of subsection 7 to the administrator of the United
+States environmental protection agency.
+
+45
+
+(3)
+
+f.
+
+(d)
+
+Timetable for issuance. The provisions of subparagraph d of paragraph 1 of
+subdivision e shall apply to modifications eligible for group processing, except
+that the department shall take one of the actions specified in items 1 through 4
+of subparagraph d of paragraph 1 of subdivision e within one hundred eighty
+days of receipt of the application or fifteen days after the end of the
+administrator's forty-five-day review period under subdivision c of subsection 7,
+whichever is later.
+
+(e)
+
+Source's ability to make change. The provisions of subparagraph e of
+paragraph 1 apply to modifications eligible for group processing.
+
+(f)
+
+The permit shield under subdivision f of subsection 5 shall not extend to group
+processing of minor permit modifications.
+
+Significant modification procedures.
+(a)
+
+Criteria. Significant modification procedures shall be used for applications
+requesting permit modifications that do not qualify as minor permit
+modifications or as administrative amendments. Every significant change in
+existing monitoring permit terms or conditions and every relaxation of reporting
+or recordkeeping permit terms or conditions shall be considered significant.
+Nothing herein shall be construed to preclude the permittee from making
+changes consistent with this subsection that would render existing permit
+compliance terms and conditions irrelevant.
+
+(b)
+
+Significant permit modifications shall meet all requirements of this section,
+including those for applications, public participation, review by affected states,
+and review by the United States environmental protection agency, as they
+apply to permit issuance and permit renewal. The department shall complete
+review of significant permit modifications within nine months after receipt of a
+complete application.
+
+Reopening for cause.
+(1)
+
+Each issued permit shall include provisions specifying the conditions under which
+the permit will be reopened prior to the expiration of the permit. A permit shall be
+reopened and revised under any of the following circumstances:
+(a)
+
+Additional applicable requirements under the federal Clean Air Act become
+applicable to a major title V source with a remaining permit term of three or
+more years. Such a reopening shall be completed not later than eighteen
+months after promulgation of the applicable requirement. No such reopening is
+required if the effective date of the requirement is later than the date on which
+the permit is due to expire, unless the original permit or any of its terms and
+conditions has been extended.
+
+(b)
+
+Additional requirements, including excess emissions requirements, become
+applicable to an affected source under title IV of the federal Clean Air Act or the
+regulations promulgated thereunder. Upon approval by the administrator of the
+United States environmental protection agency, excess emissions offset plans
+shall be deemed to be incorporated into the permit.
+
+(c)
+
+The department or the United States environmental protection agency
+determines that the permit contains a material mistake or that inaccurate
+statements were made in establishing the emissions standards or other terms
+or conditions of the permit.
+46
+
+(d)
+
+g.
+
+h.
+
+The administrator of the United States environmental protection agency or the
+department determines that the permit must be revised or revoked to assure
+compliance with the applicable requirements.
+
+(2)
+
+Proceedings to reopen and issue a permit shall follow the same procedures as
+apply to initial permit issuance and shall affect only those parts of the permit for
+which cause to reopen exists. Such reopening shall be made as expeditiously as
+practicable.
+
+(3)
+
+Reopenings under paragraph 1 shall not be initiated before a notice of such intent is
+provided to the title V source by the department at least thirty days in advance of the
+date that the permit is to be reopened, except that the department may provide a
+shorter time period in the case of an emergency.
+
+Reopenings for cause by the United States environmental protection agency.
+(1)
+
+If the administrator of the United States environmental protection agency finds that
+cause exists to terminate, modify, or revoke and reissue a permit pursuant to
+subdivision f, within ninety days after receipt of such notification, the department
+shall forward to the United States environmental protection agency a proposed
+determination of termination, modification, or revocation and reissuance, as
+appropriate.
+
+(2)
+
+The administrator of the United States environmental protection agency will review
+the proposed determination from the department within ninety days of receipt.
+
+(3)
+
+The department shall have ninety days from receipt of the United States
+environmental protection agency objection to resolve any objection that the United
+States environmental protection agency makes and to terminate, modify, or revoke
+and reissue the permit in accordance with the administrator's objection.
+
+(4)
+
+If the department fails to submit a proposed determination or fails to resolve any
+objection, the administrator of the United States environmental protection agency
+will terminate, modify, or revoke and reissue the permit after taking the following
+actions:
+(a)
+
+Providing at least thirty days' notice to the permittee in writing of the reasons
+for any such action.
+
+(b)
+
+Providing the permittee an opportunity for comment on the administrator's
+proposed action and an opportunity for a hearing.
+
+Public participation. Except for modifications qualifying for minor permit modification
+procedures, all permit proceedings, including initial permit issuance, significant
+modifications, and renewals, shall be subject to procedures for public notice including
+offering an opportunity for public comment and a hearing on the draft permit. These
+procedures shall include the following:
+(1)
+
+Notice shall be given by publication in a newspaper of general circulation in the area
+where the source is located or in a state publication designed to give general public
+notice; to persons on a mailing list developed by the department, including those
+who request in writing to be on the list; on the department's website; and by other
+means if necessary to assure adequate notice to the affected public;
+
+(2)
+
+The notice shall identify the affected facility; the name and address of the permittee;
+the name and address of the department; the activity or activities involved in the
+permit action; the emissions change involved in any permit modification; the name,
+47
+
+address, and telephone number of a person from whom interested persons may
+obtain additional information, including copies of the permit draft, the application, all
+relevant supporting materials, and all other materials available to the department
+that are relevant to the permit decision; a brief description of the comment
+procedures required by this subsection; and the time and place of any hearing that
+may be held, including a statement of procedures to request a hearing, unless a
+hearing has already been scheduled;
+
+7.
+
+(3)
+
+The department shall provide such notice and opportunity for participation by
+affected states as is provided for by subsection 7;
+
+(4)
+
+The department shall provide at least thirty days for public comment and shall give
+notice of any public hearing at least thirty days in advance of the hearing; and
+
+(5)
+
+The department shall keep a record of the commenters and also of the issues
+raised during the public participation process. These records shall be available to
+the public.
+
+Permit review by the United States environmental protection agency and affected
+states.
+a.
+
+b.
+
+Transmission of information to the administrator.
+(1)
+
+The department shall provide a copy of each permit application including any
+application for a permit modification (including the compliance plan), to the
+administrator of the United States environmental protection agency except that the
+applicant shall provide such information directly to the administrator of the United
+States environmental protection agency when directed to do so by the department.
+The department shall provide a copy of each proposed permit and each final title V
+permit to operate to the administrator of the United States environmental protection
+agency. To the extent practicable, the preceding information shall be provided in
+computer-readable format compatible with the United States environmental
+protection agency's national database management system.
+
+(2)
+
+The department may waive the requirements of paragraph 1 and paragraph 1 of
+subdivision b for any category of sources (including any class, type, or size within
+such category) other than major sources upon approval by the administrator of the
+United States environmental protection agency.
+
+(3)
+
+The department shall keep these records for at least five years.
+
+Review by affected states.
+(1)
+
+The department shall give notice of each draft permit to any affected state on or
+before the time that the notice to the public under subdivision h of subsection 6 is
+given, except to the extent paragraphs 1 and 2 of subdivision e of subsection 6
+require the timing of the notice to be different.
+
+(2)
+
+As part of the submittal of the proposed permit to the administrator of the United
+States environmental protection agency (or as soon as possible after the submittal
+for minor permit modification procedures allowed under paragraphs 1 and 2 of
+subdivision e of subsection 6) the department shall notify the administrator of the
+United States environmental protection agency and any affected state in writing of
+any refusal by the department to accept all recommendations for the proposed
+permit that the affected state submitted during the public or affected state review
+period. The notice shall include the department's reasons for not accepting any such
+
+48
+
+recommendation. The department is not required to accept recommendations that
+are not based on applicable requirements or the requirements of this section.
+
+8.
+
+c.
+
+United States environmental protection agency objection. No permit for which an
+application must be transmitted to the administrator of the United States environmental
+protection agency under subdivision a shall be issued if the administrator of the United
+States environmental protection agency objects to its issuance in writing within forty-five
+days of receipt of the proposed permit and all necessary supporting information.
+
+d.
+
+Public petitions to the administrator of the United States environmental protection
+agency. If the administrator of the United States environmental protection agency does
+not object in writing under subdivision c, any person may petition the administrator of the
+United States environmental protection agency within sixty days after the expiration of
+the administrator's forty-five-day review period to make such objection. Any such petition
+shall be based only on objections to the permit that were raised with reasonable
+specificity during the public comment period provided for in subdivision h of subsection 6,
+unless the petitioner demonstrates that it was impracticable to raise such objections
+within such period, or unless the grounds for such objection arose after such period. If
+the administrator of the United States environmental protection agency objects to the
+permit as a result of a petition filed under this subdivision, the department shall not issue
+the permit until the United States environmental protection agency's objection has been
+resolved, except that a petition for review does not stay the effectiveness of a permit or
+its requirements if the permit was issued after the end of the forty-five-day review period
+and prior to the United States environmental protection agency's objection. If the
+department has issued a permit prior to receipt of the United States environmental
+protection agency's objection under this subdivision, the department may thereafter issue
+only a revised permit that satisfies the United States environmental protection agency's
+objection. In any case, the source will not be in violation of the requirement to have
+submitted a timely and complete application.
+
+e.
+
+Prohibition on default issuance. The department shall issue no title V permit to operate,
+including a permit renewal or modification, until affected states and the United States
+environmental protection agency have had an opportunity to review the proposed permit
+as required under this subsection.
+
+Judicial review of title V permit to operate decisions.
+a.
+
+The applicant, any person who participated in the department's public participation
+process, and any other person who could obtain judicial review under North Dakota
+Century Code section 28-32-42 may obtain judicial review provided such appeal is filed
+in accordance with North Dakota Century Code section 28-32-42 within thirty days after
+notice of the final permit action.
+
+b.
+
+The department's failure to take final action on an application for a permit, permit
+renewal, or permit revision within the time frames referenced in this section shall be
+appealable in accordance with North Dakota Century Code section 28-32-42. A petition
+for judicial review may be filed any time before the department denies the permit or
+issues the final permit.
+
+c.
+
+In accordance with North Dakota Century Code chapter 28-32, the mechanisms outlined
+in this subsection shall be the exclusive means for judicial review of permit decisions
+referenced in this section.
+
+d.
+
+Solely for the purpose of obtaining judicial review in state court, final permit action shall
+include the failure of the department to take final action on an application for a permit,
+permit renewal, or permit revision within the time frames referenced in this section.
+49
+
+e.
+
+Failure to take final action within ninety days of receipt of an application requesting minor
+permit modification procedures (or one hundred eighty days for modifications subject to
+group processing requirements) shall be considered final action and subject to judicial
+review in state court.
+
+f.
+
+Petitions for judicial review of final permit actions may be filed after the deadline in North
+Dakota Century Code section 23.1-01-11, only if the petitions are based solely on
+grounds arising after the deadline for judicial review. Such petitions must be filed no later
+than thirty days after the new grounds for review arise.
+
+9.
+
+Enforcement. The department may suspend, revoke, or terminate a permit for violations of
+this article, violation of any permit condition or for failure to respond to a notice of violation or
+any order issued pursuant to this article. A permit to operate which has been revoked or
+terminated pursuant to this article must be surrendered forthwith to the department. No person
+may operate or cause the operation of a source if the department denies, terminates, revokes,
+or suspends a permit to operate.
+
+10.
+
+Compliance assurance monitoring. Except as noted below, title 40 Code of Federal
+Regulations part 64 compliance assurance monitoring, as it exists on July 2, 2010, is
+incorporated by reference.
+a.
+
+"Administrator" means the department except for those duties that cannot be delegated
+by the United States environmental protection agency. For those duties that cannot be
+delegated, administrator means the administrator of the United States environmental
+protection agency or the administrator's authorized representative.
+
+b.
+
+"Part 70 permit" means a title V permit to operate.
+
+c.
+
+"Permitting authority" means the department.
+
+History: Effective January 1, 2019; amended effective July 1, 2020.
+General Authority: NDCC 23.1-06-04, 23.1-06-08, 23.1-06-09, 23.1-06-10; S.L. 2017, ch. 199, § 1
+Law Implemented: NDCC 23.1-06-04, 23.1-06-08, 23.1-06-09, 23.1-06-10; S.L. 2017, ch. 199, § 21
+33.1-15-14-07. Source exclusions from title V permit to operate requirements.
+1.
+
+Purpose. The purpose of this section is to clarify which sources are minor sources with
+respect to section 33.1-15-14-06. The owner or operator of any source that would be classified
+as a major source under section 33.1-15-14-06 and which is not specifically excluded by this
+section shall comply with the requirements of section 33.1-15-14-06.
+
+2.
+
+Definitions. For purposes of this section:
+a.
+
+"Bulk gasoline plant" means any bulk gasoline distribution facility that has a gasoline
+throughput less than or equal to twenty thousand gallons [75,700 liters] per day and that
+receives gasoline by truck rather than by rail.
+
+b.
+
+"Coatings" means coatings plus diluents plus cleanup solvents.
+
+c.
+
+"Fountain solution additives" includes isopropyl alcohol, n-propyl alcohol, n-butanol, and
+alcohol substitutes.
+
+d.
+
+"Hazardous air contaminant" means any air contaminant listed pursuant to subsection
+112(b) of the federal Clean Air Act.
+
+e.
+
+"Refueling positions" means the number of vehicles that could be dispensing
+simultaneously at a gasoline service station.
+50
+
+3.
+
+Applicability.
+a.
+
+b.
+
+The owner or operator of the following stationary sources is not required to obtain a
+title V permit to operate under section 33.1-15-14-06 if the conditions of this section are
+met:
+(1)
+
+Gasoline service stations.
+
+(2)
+
+Gasoline bulk plants.
+
+(3)
+
+Coating sources.
+
+(4)
+
+Printing, publishing, and packaging operations.
+
+(5)
+
+Degreasers using volatile organic solvents.
+
+(6)
+
+Hot mix asphalt plants.
+
+Any facility obtaining coverage under this section must submit a notification in writing to
+the department within ninety days of publication of this section unless specifically
+exempted from this requirement in the applicable subdivision of this section. The
+notification must contain the following information:
+(1)
+
+Facility name, location, and nature of business.
+
+(2)
+
+A list of all the sources of air contaminants at the facility.
+
+(3)
+
+The condition of this section which is applicable to the facility.
+
+(4)
+
+Total material usage, source capacity, or throughput for the previous month or
+twelve months at the facility, in accordance with the subdivision that is applicable to
+the facility.
+
+(5)
+
+A signed statement accepting the throughput or usage limitation.
+
+c.
+
+Complying with the conditions of this section does not exempt the owner or operator of a
+facility from the obligation to apply for and obtain a permit to construct or a minor source
+permit to operate unless specifically exempted in section 33.1-15-14-02 or
+33.1-15-14-03.
+
+d.
+
+The owner or operator of any facility listed in subdivision a which has potential emissions
+that would classify it as a major source even after the conditions of this section are met,
+or are not able to comply with the applicable conditions, shall obtain a title V permit to
+operate or a minor source permit to operate which limits the potential to emit of the
+source to a level below the major source threshold.
+
+e.
+
+Complying with the conditions of this section does not relieve the owner or operator of a
+source of the responsibility to comply with any other applicable requirements of this
+article.
+
+f.
+
+If the facility deviates from any condition, limit, or requirement of this section, a report
+must be submitted to the department within thirty days of the deviation containing the
+following information:
+(1)
+
+The facility's name and location.
+
+(2)
+
+Applicable condition, limit, or requirement for the facility for which a deviation
+occurred.
+51
+
+g.
+
+4.
+
+(3)
+
+A summary of the records showing the deviation, accompanied by an explanation of
+the deviation.
+
+(4)
+
+A plan of action to prevent future occurrences of any deviation at the facility.
+
+All records required by this section must be maintained for a period of five years from the
+last date of entry. The records must be available for inspection or submittal to the
+department upon request. If a facility is limited by a material usage, capacity, or
+throughput based on a twelve-month rolling period, a log must be updated monthly to
+include the previous twelve months' total material usage, capacity, or throughput.
+
+Exclusion standards.
+a.
+
+Gasoline service stations. The owner or operator of sources where gasoline dispensing
+operations account for more than ninety percent of all emissions from the facility is not
+required to obtain a title V permit to operate if the following conditions are met:
+(1)
+
+(2)
+
+No vapor recovery is used:
+(a)
+
+The source's total sales of gasoline must not exceed three hundred eighty
+thousand gallons [1,438,300 liters] per month in any calendar month. To
+demonstrate compliance with this limit, monthly records of throughput must be
+maintained at the source.
+
+(b)
+
+If the number of refueling positions is no more than seventeen at the source,
+then the source is exempt from formal application to the department under
+subdivision b of subsection 3.
+
+Stage I vapor recovery is used:
+(a)
+
+The source's total sales of gasoline must not exceed six hundred thirty
+thousand gallons [2,384,800 liters] per month in any calendar year. To
+demonstrate compliance with this limit, monthly records of throughput must be
+maintained at the source.
+
+(b)
+
+If the number of refueling positions is no more than twenty-nine at the source,
+then the source is exempt from formal application to the department under
+subdivision b of subsection 3.
+
+b.
+
+Gasoline bulk plants. The owner or operator of gasoline bulk plants where gasoline
+loading and unloading operations account for more than ninety percent of all emissions
+from the source are covered by this subdivision. To demonstrate compliance with the
+twenty thousand gallons [75,700 liters] per day of gasoline definition of a bulk plant,
+monthly records of throughput must be maintained at the source.
+
+c.
+
+Coating sources.
+(1)
+
+The owner or operator of sources where surface coating operations account for
+more than ninety percent of all hazardous air contaminant emissions from the facility
+is not required to obtain a title V permit to operate if the conditions in
+subparagraph a or b are met.
+(a)
+
+The source's total usage of surface coatings must not exceed two hundred fifty
+gallons [946.25 liters] of coatings per month in any calendar month nor exceed
+three thousand gallons [11,355 liters] of coatings per twelve-month period. The
+coatings are limited to six pounds per gallon [719 grams per liter] of any
+individual hazardous air contaminant. To demonstrate compliance with the
+52
+
+usage limit, monthly records of material usage must be maintained at the
+facility.
+(b)
+
+(2)
+
+d.
+
+The source's total hazardous air contaminant emissions shall not exceed
+ten tons per twelve-month period. Hazardous air contaminant emissions must
+be calculated by multiplying the surface coating material usage in gallons by
+the individual hazardous air contaminant content in pounds per gallon. To
+demonstrate compliance with the emissions limitation, the emissions must be
+calculated on a monthly basis and recorded in a log. All records of material
+usage, hazardous air contaminant content, and emissions must be maintained
+at the facility.
+
+The owner or operator of an automobile refinishing shop where operations account
+for more than ninety percent of volatile organic compound emissions and hazardous
+air contaminant emissions is not required to obtain a title V permit to operate if the
+usage of coatings is less than two hundred fifty gallons [946.25 liters] per month or
+three thousand gallons [11,355 liters] of coatings per twelve-month period. This item
+does not apply to facilities capable of refinishing vehicles other than automobiles or
+trucks. Sources are exempt from the notification requirements under subdivision b
+of subsection 3 if:
+(a)
+
+The auto refinishing shop business is entirely, or almost entirely, for collision
+repairs and the business has two or fewer bays;
+
+(b)
+
+Substantial portions of the auto refinishing shop business are devoted to
+repainting entire vehicles and the business only has one bay devoted to
+painting; or
+
+(c)
+
+The auto refinishing shop business does not have the physical or operational
+capability to do more than fifty jobs per week.
+
+Printing, publishing, and packaging operations.
+(1)
+
+(2)
+
+The owner or operator of facilities where sheetfed (nonheatset) offset lithography or
+nonheatset web offset lithography printing operations are conducted is not required
+to obtain a title V permit to operate if the conditions in subparagraphs a, b, and c are
+met.
+(a)
+
+The facility must use less than fourteen thousand two hundred seventy-five
+gallons [54,030 liters] of cleaning solvent and fountain solution additives in any
+twelve-month rolling period. To demonstrate compliance with the usage limit,
+monthly records of material usage must be maintained at the facility.
+
+(b)
+
+The facility must use less than three thousand three hundred thirty-three
+gallons [12,615 liters] of materials containing multiple hazardous air
+contaminants in any twelve-month rolling period. To demonstrate compliance
+with the usage limit, monthly records of material usage must be maintained at
+the facility.
+
+(c)
+
+The facility must use less than one thousand three hundred thirty-three gallons
+[5,045 liters] of material containing any individual hazardous air contaminant in
+any twelve-month rolling period. To demonstrate compliance with the usage
+limit, monthly records of material usage must be maintained at the facility.
+
+The owner or operator of facilities where heatset web offset lithography printing
+operations are conducted is not required to obtain a title V permit to operate if the
+conditions in subparagraphs a, b, and c are met.
+53
+
+(3)
+
+(4)
+
+(a)
+
+The facility must use less than one hundred thousand pounds
+[45.36 megagrams] of ink, cleaning solvent, and fountain solution additives in
+any twelve-month rolling period. To demonstrate compliance with the usage
+limit, monthly records of material usage must be maintained at the facility.
+
+(b)
+
+The facility must use less than three thousand three hundred thirty-three
+gallons [12,615 liters] of materials containing multiple hazardous air
+contaminants in any twelve-month rolling period. To demonstrate compliance
+with the usage limit, monthly records of material usage must be maintained at
+the facility.
+
+(c)
+
+The facility must use less than one thousand three hundred thirty-three gallons
+[5,045 liters] of material containing any individual hazardous air contaminant in
+any twelve-month rolling period. To demonstrate compliance with the usage
+limit, monthly records of material usage must be maintained at the facility.
+
+The owner or operator of facilities where screen printing operations are conducted is
+not required to obtain a title V permit to operate if the conditions in subparagraphs a,
+b, and c are met.
+(a)
+
+The facility must use less than fourteen thousand two hundred seventy-five
+gallons [54,030 liters] of the sum of solvent-based inks, cleaning solvents,
+adhesives, and coatings in any twelve-month rolling period. To demonstrate
+compliance with the usage limit, monthly records of material usage must be
+maintained at the facility.
+
+(b)
+
+The facility must use less than three thousand three hundred thirty-three
+gallons [12,615 liters] of materials containing multiple hazardous air
+contaminants in any twelve-month rolling period. To demonstrate compliance
+with the usage limit, monthly records of material usage must be maintained at
+the facility.
+
+(c)
+
+The facility must use less than one thousand three hundred thirty-three gallons
+[5,045 liters] of material containing any individual hazardous air contaminant in
+any twelve-month rolling period. To demonstrate compliance with the usage
+limit, monthly records of material usage must be maintained at the facility.
+
+The owner or operator of facilities, where flexography, or rotogravure printing
+operations with water-based or ultraviolet-cured inks, coatings, and adhesives are
+conducted, is not required to obtain a title V permit to operate if the conditions in
+subparagraphs a, b, and c are met.
+(a)
+
+The facility must use less than four hundred thousand pounds
+[181 megagrams] of the sum of solvent-based inks, cleaning solvents, and
+adhesives in any twelve-month rolling period. To demonstrate compliance with
+the usage limit, monthly records of material usage must be maintained at the
+facility.
+
+(b)
+
+The facility must use less than three thousand three hundred thirty-three
+gallons [12,615 liters] of materials containing multiple hazardous air
+contaminants in any twelve-month rolling period. To demonstrate compliance
+with the usage limit, monthly records of material usage must be maintained at
+the facility.
+
+(c)
+
+The facility must use less than one thousand three hundred thirty-three gallons
+[5,045 liters] of material containing any individual hazardous air contaminant in
+54
+
+any twelve-month rolling period. To demonstrate compliance with the usage
+limit, monthly records of material usage must be maintained at the facility.
+(5)
+
+e.
+
+f.
+
+The owner or operator of facilities where flexography or rotogravure printing
+operations with solvent inks are conducted is not required to obtain a title V permit
+to operate if the conditions in subparagraphs a, b, and c are met.
+(a)
+
+The facility must use less than one hundred thousand pounds
+[45.36 megagrams] of the sum of ink, coatings, adhesives, dilution solvents,
+and cleaning solvents in any twelve-month rolling period. To demonstrate
+compliance with the usage limit, monthly records of material usage must be
+maintained at the facility.
+
+(b)
+
+The facility must use less than three thousand three hundred thirty-three
+gallons [12,615 liters] of materials containing multiple hazardous air
+contaminants in any twelve-month rolling period. To demonstrate compliance
+with the usage limit, monthly records of material usage must be maintained at
+the facility.
+
+(c)
+
+The facility must use less than one thousand three hundred thirty-three gallons
+[5,045 liters] of material containing any individual hazardous air contaminant in
+any twelve-month rolling period. To demonstrate compliance with the usage
+limit, monthly records of material usage must be maintained at the facility.
+
+Degreasers using volatile organic solvents. The owner or operator of facilities where
+degreasing operations account for more than ninety percent of all volatile organic
+compound emissions and hazardous air contaminant emissions from the facility is not
+required to obtain a title V permit to operate if the conditions in paragraph 1 or 2 are met.
+(1)
+
+If non-halogenated solvents are used, the usage is limited to two thousand
+two hundred gallons [8,327 liters] of any one solvent-containing material and five
+thousand four hundred gallons [20,439 liters] of any combination of solventcontaining materials in any twelve-month rolling period. To demonstrate compliance
+with the usage limit, monthly records of solvent usage must be maintained at the
+facility.
+
+(2)
+
+If halogenated solvents are used, including methyl chloroform, trichloroethane, and
+methylene chloride, the usage is limited to one thousand two hundred gallons
+[4,542 liters] of any one solvent-containing material and two thousand nine hundred
+gallons [10,976 liters] of any combination of solvent-containing materials in any
+twelve-month rolling period. To demonstrate compliance with the usage limit,
+monthly records of solvent usage must be maintained at the facility.
+
+Hot mix asphalt plants. The owner or operator of facilities where hot mix asphalt
+production operations account for more than ninety percent of all emissions from the
+facility is not required to obtain a title V permit to operate if the amount of hot mix asphalt
+produced does not exceed two hundred fifty thousand tons [226,757 metric tons] in any
+twelve-month rolling period. To demonstrate compliance with this limit, monthly records of
+hot mix asphalt produced must be maintained at the facility. Sources that are excluded
+under this subdivision must obtain a minor source permit to operate under section
+33.1-15-14-03.
+
+History: Effective January 1, 2019.
+General Authority: NDCC 23.1-06-04; S.L. 2017, ch. 199, § 1
+Law Implemented: NDCC 23.1-06-04, 23.1-06-08, 23.1-06-09; S.L. 2017, ch. 199, § 21
+
+55
+
+

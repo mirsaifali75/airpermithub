@@ -1,0 +1,125 @@
+GENERAL INSTRUCTIONS FOR COMPLETION OF
+TITLE V PERMIT TO OPERATE APPLICATION FORMS
+NORTH DAKOTA DEPARTMENT OF ENVIRONMENTAL QUALITY
+DIVISION OF AIR QUALITY
+(01-2022)
+
+The Title V permit application forms must be completed and submitted for each source
+required to obtain a Title V Permit to Operate under Section 33.1-15-14-06, "Title V Permit
+to Operate", of the North Dakota Air Pollution Control Rules. Instructions for completing
+each form are shown below.
+Note: For renewal applications, the current Title V permit will be the baseline reference
+document for streamlining and cross-referencing purposes. The requirements (40 CFR
+70.5(c) & NDAC 33.1-15-14-06.4.c) to include a citation and description of all applicable
+requirements and a description of or reference to any applicable test methods for
+determining compliance with each applicable requirement may be met for renewals by
+completing the Renewal Application Form (SFN 52824) and accomplishing either or
+both of the following: 1) enclose an annotated (red-lined) copy of the current permit
+indicating all permit changes needed to reflect the current facility configuration, applicable
+requirements and test methods; 2) enclose a narrative that conveys all changes needed
+to the current permit to reflect the current facility configuration, all applicable requirements
+and test methods.
+SFN 52858 – Permit Application Form for Title V Permit to Operate
+General information regarding the source must be included on this form. This must be
+completed once per application.
+If the application is for a minor permit modification, only SFN 52858, including Section D
+must be completed. If the application is for a significant modification or an initial permit,
+the entire application must be completed, including SFN 61006, SFN 61007 and SFN
+61008.
+This form must be completed once per application. This form includes statements
+regarding compliance with applicable requirements and must be signed by a responsible
+official. "Responsible official" means:
+1)
+
+For a corporation: a president, secretary, treasurer, or vice-president of the
+corporation in charge of a principal business function, any other person who
+performs similar policy or decision-making functions or a duly authorized
+representative of such person.
+
+2)
+
+For a partnership or sole proprietorship: a general partner or the proprietor.
+
+Title V Permit to Operate Instructions (01-2022) Page 2
+
+3)
+
+For a municipality, State, Federal or other public agency:
+executive officer or ranking elected official.
+
+either a principal
+
+4)
+
+For Title IV (acid rain) sources: The designated representative under Title IV of
+the Clean Air Act and the designated representative for Title V.
+
+SFN 61006 – Emission Unit for Title V Permit to Operate
+A separate SFN 61006 must be completed for each emissions unit at a facility. Each
+emission point at a unit must be assigned a unique identification number; alternative
+operating scenarios for an emission point must also be assigned a unique identifier (i.e.,
+emission points 1.a and 1.b). Limits on the operating schedule or production rate of the
+unit are included on this form. A description of the regulatory requirements applicable to
+the emissions unit, the air pollution control equipment and general stack data must also
+be included.
+Emissions of each air contaminant from each emissions point must be included in this
+section. A list of air contaminants must be provided in units of pounds per hour and
+tons per year and in units of an applicable standard. Calculations upon which the
+estimates were based must also be provided.
+Emissions of fugitive (nonpoint) emissions must be included in this section. A separate
+SFN 61006 must be submitted for each fugitive emission source. Fugitive emissions
+are emissions which are not vented through a well-defined stack. A description of the
+fugitive emissions source must be provided along with a list of air contaminants in units
+of pounds per hour and tons per year.
+Pursuant to 33.1-15-14-06.4, detailed information for insignificant units need not
+be included in permit applications; however, information regarding insignificant units must
+be sufficient to determine the applicable requirements. Insignificant units are those that
+have a potential to emit less than the amounts of air contaminants listed below:
+Particulate (Total PM, PM10, PM2.5):
+Sulfur Dioxide:
+Sulfide:
+Carbon Monoxide:
+Nitrogen Oxides:
+Ozone:
+Reduced Sulfur Compounds:
+Volatile Organic Compounds (VOCs):
+All other regulated contaminants:
+
+2 tons per year
+2 tons per year Hydrogen
+2 tons per year
+2 tons per year
+2 tons per year
+2 tons per year
+2 tons per year
+2 tons per year
+0.5 tons per year
+(including Section 112(b) contaminants)
+
+Title V Permit to Operate Instructions (01-2022) Page 3
+
+Note: Trivial Units/Activities: An emissions unit that has the potential to emit less than
+0.2 ton/yr (400 lb/yr) of a criteria pollutant or 0.05 ton/yr (100 lb/yr) of an air toxic pollutant
+is considered trivial and need not be addressed in the permit application. In addition, a
+list of activities considered trivial may be found at:
+www.deq.nd.gov/AQ/permitting/operating.aspx.
+SFN 61007 — Flexible Permits (General Information)
+Completion of this form is necessary only if application is being made for an alternative
+operating scenario for an emissions unit at the facility.
+SFN 61008 – Compliance Schedule and Plan
+Information regarding the compliance status of your facility must be provided on this form.
+If the facility is not in compliance with requirements effective at the time of permit issuance
+or requirements effective during the term of the permit, a compliance plan (indicating how
+and when the source will comply with an applicable requirement) must be submitted.
+Additional information may be attached as necessary.
+Complete this section to explain the methods to be used to certify compliance with an
+applicable standard. A separate SFN 61008 must be completed for each emissions unit
+at the source for which a standard applies.
+SEND COMPLETED APPLICATION AND ALL ATTACHMENTS TO:
+North Dakota Department of Environmental Quality
+Division of Air Quality
+4201 Normandy Street
+Bismarck, ND 58503-1324
+(701) 328-5188
+
+

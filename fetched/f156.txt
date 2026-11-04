@@ -1,0 +1,112 @@
+This guidance document is advisory in nature but is binding on an agency until amended by such agency. A guidance document does not
+include internal procedural documents that only affect the internal operations of the agency and does not impose additional requirements or
+penalties on regulated parties or include confidential information or rules and regulations made in accordance with the Administrative
+Procedure Act. If you believe that this guidance document imposes additional requirements or penalties on regulated parties, you may request
+a review of the document.
+
+09-001
+
+September 2022
+
+Air Quality Permit Application Tips and Other Tidbits
+Permit Application Tips
+Make sure the permit application is complete and accurate. Read and follow the directions that
+accompany each application form. Include the appropriate permit fee with your construction permit
+application. Type or complete the application in blue or black ink. Review the definition of responsible
+official and make sure a responsible official signs the application in ink. Provide a detailed description
+of your facility, processes, and emission points. The permit writer may not be familiar with your facility,
+so providing specifics will help facilitate the permitting process and result in a more accurate,
+representative permit.
+Identify your emission points consistently. Identify all your emission points by completing your
+process flow diagram and plant layout before you begin filling out specifics in your permit application.
+After you have identified all emission points, emission units, and control equipment, give each of them a
+number or other identifier, such as Emission Point 001. It is important that you use these numbers or
+identifiers consistently throughout the application. It is also important to use the identifiers consistently
+across all your permit applications and your emission inventories. If emission points and units are
+renamed or identified differently across permits or programs, it will cause confusion, especially if new
+units have been added or units removed.
+Include calculations and citations with your permit application. Including emission calculations
+and emission factor citations with the permit application helps the Department review your project. The
+permit writer must ensure that the facility will meet state and federal requirements. Without your
+citations and calculations, the permit writer has to reproduce work that you have already done, which
+will delay the issuance of the permit. Several potential emission calculation spreadsheets are available
+for your use from the NDEE website at http://dee.ne.gov/publica.nsf/pages/AIR068.
+Research. Your facility may be subject to federal air quality regulations such as New Source
+Performance Standards (NSPS) or National Emission Standards for Hazardous Air Pollutants
+(NESHAP). Each NSPS and NESHAP has testing, monitoring, record-keeping and reporting
+requirements. These requirements could influence your decisions regarding the equipment you install.
+For more information see the New Source Performance Standards Program and Air Toxics Program
+pages on the NDEE website.
+Get help. Facilities may wish to utilize the services of professional consultants who are familiar with
+Nebraska’s air quality regulations and air quality permits to assist in evaluating your facility’s processes
+and completing your permit application. A Directory of Environmental Consultants and Engineers is
+available on the NDEE web site.
+Page 1 of 3
+
+Read and make comments on the draft permit. When the permit application is deemed technically
+complete by the Department, the permit writer prepares a draft permit and fact sheet based on the
+application materials. The draft permit is typically sent to the designated facility representative for
+review prior to the public notice and comment period. Make sure that references to equipment are
+correct and that you will be able to operate under the required conditions. Make sure you understand
+and are prepared to comply with all the record-keeping, reporting and monitoring requirements in the
+permit as drafted.
+Understand the final permit. When the permit is finalized, the facility representatives are responsible
+for understanding and complying with the permit conditions. It may be helpful to have at least one fulltime person at the facility dedicated to maintaining compliance with the environmental regulations and
+permits.
+
+Construction Permit Application Tips
+Talk with NDEE early. Make an appointment to meet with the permitting staff of the Nebraska
+Department of Environment and Energy (NDEE) Air Quality Program during the early planning stages.
+Discussing your project with the construction permit staff early in the process can help you avoid some
+of the questions and problems that often arise with permit applications. Also, for large or complex
+projects it is advisable to set up a meeting with NDEE soon after you submit the permit application.
+This will help clear up any preliminary questions and give facility representatives a sense of what they
+should expect from NDEE in the following months. An air quality construction permit may take four to
+12 months or more to process depending on the quality of the application and complexity of the permit.
+Communication is a key element to a smooth permitting process.
+Avoid “as built” differences. Be sure to include information for all the equipment that you plan to
+install. It is very important that you install the equipment that you specified in your construction permit
+application. “As built” differences can result in permit violations and can require a new application for a
+permit revision. If your plans change after you have submitted an application, Chapter 3, Section
+002.02B of Nebraska Administrative Code Title 129 – Nebraska Air Quality Regulations requires that
+you submit updated information to NDEE. You may also be required to conduct a computer modeling
+analysis of the impacts your project will have on the ambient air.
+Complete the requested modeling information. The modeling information (e.g., stack parameters)
+requested in the application should be completed whether or not air quality dispersion modeling will be
+conducted for the proposed project, unless the source emits only volatile organic compounds or
+hazardous air pollutants. If dispersion modeling is not required at the time the project goes through the
+permitting process, the facility may be included in modeling conducted by a nearby facility. Having
+representative information from all facilities leads to more accurate modeling.
+
+Operating Permit Application Tips
+Submit your initial application on time. Operating permit applications need to be submitted within 12
+months of beginning operation, installation of equipment that requires a construction permit, or of
+becoming subject to the program. Read the “Operating Permit” guidance document on the NDEE
+website to determine if you need an operating permit.
+Submit your renewal application on time. Your renewal application is due six to 18 months prior to
+permit expiration (see Title 129, Chapter 6, Section 002.01C). A source’s failure to have an operating
+permit is not a violation provided that a complete renewal application has been submitted within the
+specified time frame and the failure is through no fault of the source.
+Page 2 of 3
+
+Identify your insignificant activities first. You may have several pieces of equipment that can be
+considered “insignificant” under the operating permit program, and which may be excluded from the
+permit application (see Title 129, Chapter 6, Section 002.05D). Because you do not have to list
+insignificant activities on the emission point forms, you should complete the insignificant activities
+portion of the application first.
+We need your help. The Air Quality Program now requests modeling information with your operating
+permit application. While modeling is not required for all operating permits, the modeling information
+requested will assist the program in the event that dispersion modeling is performed on another source
+in your area. Having representative information from all nearby sources will lead to more accurate
+modeling.
+If you have questions about air quality permit applications, contact the Air Quality Program at
+NDEE.AirQuality@nebraska.gov.
+
+Produced by: Nebraska Department of Environment and Energy, P.O. Box 98922, Lincoln, NE 68509-8922;
+phone (402) 471-2186. To view this, and other information related to our agency, visit our web site at
+http://dee.ne.gov
+.
+
+Page 3 of 3
+
+

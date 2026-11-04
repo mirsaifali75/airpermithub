@@ -1,0 +1,282 @@
+Permit-by-Rule Notification Form
+Gas-fired Boiler and Heater
+Division of Air Pollution Control
+
+Submission of this form constitutes notice that the party identified in Section I of this form intends to be authorized to install/operate a source of air
+pollution according to the permit-by-rule provisions of OAC 3745-31-03(C)(1) and (C)(2)(i). By submitting this form, the applicant agrees to operate and
+maintain the facility and equipment in accordance with the applicable permit-by-rule provisions. An original signature is needed and forms transmitted by
+fax will not be accepted. Complete all information as indicated by the instructions.
+
+I.
+
+Applicant Information / Mailing Address
+Company (Applicant) Name:______________________________________________________________________________
+Mailing (Applicant) Address:______________________________________________________________________________
+City:______________________________________ State:______________________ Zip Code:______________________
+Contact Person:______________________ Phone:______________ Fax:______________E-mail:_____________________
+
+II.
+
+Facility / Site Location Information
+Facility Name:_________________________________________________________________________________________
+Facility Address / Location____________________________________________________ County:____________________
+City:______________________________________ State:______________________ Zip Code:______________________
+Facility Contact:______________________ Phone:______________Fax:______________ E-mail:_____________________
+Ohio EPA Facility ID Number (10-digit) if known – See Instructions: ______________________________________________
+
+III.
+
+Reason for Submitting Notification:
+Initial request
+
+Equipment modification
+
+Ownership change
+
+Request for revocation of current permit - See Instructions and complete additional information below
+Permit to install (PTI) or Permit to operate (PTO) number
+_____________________________________________
+_____________________________________________
+IV.
+
+Emission Unit ID (4-digit)
+___________________
+___________________
+
+Type of Unit:
+Boiler
+
+Water heater
+
+Air/Make-up heater
+
+Other, describe _________________________
+
+Manufacturer____________________ Model No.________________ Maximum Heat Input Rating _______________Btu/hr
+V.
+
+Specific Unit Information – See Instructions
+Yes
+Yes
+Yes
+
+No
+No
+No
+
+Is the unit capable of burning only natural gas and no other fuels?
+Do the emissions from the unit consist entirely of the products of natural gas combustion?
+If the unit has a maximum heat input capacity greater than 50 million Btu/hr, is the unit equipped with lowNOx burners or other low-NOx emission control technology?
+
+I certify under penalty of law that all statements or assertions of fact made in this notification are true and complete, and shall subject the signatory to
+liability under state laws forbidding false or misleading statements.
+Applicant Name (Print):___________________________________________________ Title:_____________________________________________
+Applicant Signature:______________________________________________________ Date:____________________________________________
+
+RETAIN A COPY OF THIS FORM FOR YOUR RECORDS
+Mail the original, signed form to the appropriate Air Permit Review Agency (District Office/Local
+Air Agency) for your county. (Please refer to the Agency map in the attached instructions for
+mailing addresses).
+Rev 12/10
+
+For Ohio EPA Use Only:
+FAC ID:_____________________
+Date received ________________
+
+INSTRUCTIONS: Permit-by-Rule Supplemental Form
+Gas-fired Boiler and Heater
+GENERAL INSTRUCTIONS:
+Provide complete responses to all applicable questions. Submittal of an incomplete form will delay review and processing. If you need
+assistance, contact your Ohio EPA District Office or Local Air Agency for assistance. Contact the Ohio EPA, Division of Air Pollution
+Control at (614) 644-2270 for more information on contacting your local district office or go to https://epa.ohio.gov/divisions-andoffices/air-pollution-control/permitting/ohio-epa-district-offices-and-local-air-pollution-control-agencies and select the office that covers
+your facility’s location. For more information on the permit-by-rule process, including online tracking of your notification form, go to
+https://epa.ohio.gov/divisions-and-offices/air-pollution-control/permitting/permit-by-rule-pbr.
+This is a notification form for a natural gas-fired boiler, air/water heater, or heater for other heat exchange media which intends to install
+and/or operate according to the permit-by-rule provisions of OAC 3745-31-03(C)(1) and (C)(2)(i). This permit-by-rule provision is not
+meant to include a “process heater” as defined in 40 CFR 60, Subpart Dc. In this case, process heater means a device that is primarily
+used to heat a material to initiate or promote a chemical reaction in which the material participates as a reactant or catalyst. This
+permit-by-rule (PBR) provision is intended to cover an individual qualifying unit and does not cover other types of air pollution sources
+at the facility such as product reaction vessels, diesel electrical generators, or other fuel-fired equipment which may require air pollution
+permits. For copies of these regulations, contact your Ohio EPA District Office or Local Air Agency or go to
+https://epa.ohio.gov/divisions-and-offices/air-pollution-control/regulations.
+I.
+
+Check the appropriate box which describes the type of unit. Consult the manufacturer or installation contractor for the model
+number and maximum heat input rating. "Maximum Heat Input Rating" refers to the manufacturer’s maximum peak rating of
+the heat exchanger. Please note that answering “No” to any question disqualifies the unit from the PBR.
+
+II.
+
+Check the appropriate Yes/No boxes based on actual data or design specifications. To qualify for the permit-by-rule, the unit
+cannot be capable of burning fuels other than natural gas, and the emissions must consist entirely of the products of natural
+gas combustion. For units rated above 50 million Btu/hr, consult the manufacturer or installation contractor for applicable
+specifications on low-NOx burners or low-NOx technology. In this case, “low-NOx technology” means a low-NOx burner or
+integrated combustion controls designed to emit less than 0.050 pound of nitrogen oxides (NOx) per million Btu of heat input.
+Please note that answering “No” to any question disqualifies the unit from the PBR.
+
+Signature Requirements – This notification will be deemed incomplete if it is not signed by the appropriate signatory. Please see the
+following guidance at https://ohioepa.custhelp.com/app/answers/detail/a_id/1200 for more information on who is authorized to sign this
+form or contact your Ohio EPA District Office or Local Air Agency.
+
+Permit-by-Rule Requirements: Boiler and Heater
+Excerpts from applicable sections of OAC rules 3745-31-03(C)(1) and (C)(2)(i) are included with these Instructions for convenience.
+An owner or operator of a boiler or heater which intends to install and/or operate according to the permit-by-rule provisions must comply
+with all applicable requirements specified in paragraphs (C)(1) – General Provisions, and (C)(2)(i) - Source Specific Provisions for
+Boilers and heaters.
+(C) Permit-by-rule.
+The following air contaminant sources may elect to be permitted under this paragraph in lieu of the requirement to obtain a permit-toinstall or PTIO under rule 3745-31-02 of the Administrative Code. These permits-by-rule are valid only as long as the owner or operator
+complies with all of the permit-by-rule general provisions, meets the qualifying criteria defined in the applicable permit-by-rule and
+complies with all of the requirements under the applicable permit-by-rule specific provisions. Upon request by the director, the owner or
+operator of a facility that has exceeded the permit-by-rule thresholds or that the director finds is causing or may cause a public nuisance in
+violation of rule 3745-15-07 of the Administrative Code shall submit an application for a permit-to-install or PTIO.
+These permits-by-rule do not, however, exempt any air contaminant source from requirements of the Clean Air Act, including being
+considered for purposes of determining whether a facility constitutes a major source or is otherwise regulated under Chapter 3745-77 of
+the Administrative Code or any requirement to list significant or insignificant activities and emission levels in a Title V permit
+application. In addition, this rule does not relieve the owner or operator from the requirement of including the emissions associated with
+these sources into any major NSR permitting action.
+(1) General provisions.
+These general provisions apply to all owner or operators who are utilizing one or more of the permits-by-rule listed in paragraph (B)
+of this rule.
+(a) Recordkeeping requirements.
+
+The owner or operator shall collect and maintain the records described for each air contaminant source electing to be permitted
+under paragraph (B) of this rule and these records shall be retained in the owner or operator's files for a period of not less than
+five years, unless otherwise specified in each permit-by-rule. These records shall be made available to the director or any
+authorized representative of the director for review during normal business hours.
+(b) Notification requirements for new installations.
+For the purposes of this paragraph, a new permit-by-rule air contaminant source is an air contaminant source installed after the
+promulgation date of any new applicable permit-by-rule or July 29, 2005, whichever comes later. The owner or operator of a
+new permit-by-rule air contaminant source electing to use an applicable permit-by-rule shall submit a written notification in a
+form and manner prescribed by the director prior to installation of the air contaminant source. This notification, or form, shall
+be submitted to the appropriate Ohio environmental protection agency district office or local air agency, and shall contain the
+following information, at a minimum:
+(i) The owner or operator's and the facility contact's name.
+(ii) The facility mailing address and telephone number.
+(iii) The location of the air contaminant source.
+(iv) A description of the air contaminant source, including any pollution control.
+(v) A statement by the owner or operator that indicates which permit-by-rule applies to the air contaminant source.
+(c) Notification requirements for existing permitted sources.
+The owner or operator of an air contaminant source which is operating under an existing permit-to-install, PTIO or permit-tooperate may continue to operate in compliance with that permit or may submit a written request to the Ohio environmental
+protection agency to revoke any such individual permit or permits and to allow the air contaminant source to operate under the
+permit-by-rule provisions. The director may revoke a permit-to-install, PTIO or permit-to-operate if the permittee requests
+revocation, agrees to meet all permit-by-rule qualifying and operating conditions, and the director determines that the
+revocation will not result in the violation of any applicable laws. When a permittee requests a revocation pursuant to this
+paragraph, the director, without prior hearing, shall make a final determination on the request and inform the permittee in
+writing. If the director agrees with the request to operate under the permit-by-rule, then the permit-by-rule becomes applicable
+to the permittee on the date the existing permit-to-install, PTIO or permit-to-operate are revoked.
+(d) Notification requirements for existing permit-by-rule sources.
+The owner or operator of an air contaminant source that is operating under one of the permit-by-rules that existed prior to July
+29, 2005 (emergency electrical generators, injection and compression molding, crushing and screening plants, soil-vapor
+extraction and soil-liquid extraction) and desires to continue operating under the permit-by-rule shall submit a written
+notification which contains all of the elements required in paragraph (B)(1)(b) of this rule. This notification shall be submitted
+to the appropriate Ohio environmental protection agency district office or local air agency and shall be submitted by July 29,
+2006.
+(e) Records retention requirements.
+Each record of any monitoring data, testing data, and support information required pursuant to a specific permit-by-rule shall
+be retained for a period of five years from the date the record was created. Support information shall include, but not be limited
+to, all calibration and maintenance records and all original strip-chart recordings for continuous monitoring instrumentation,
+and copies of all reports required by the specific permit-by-rule. Such records may be maintained in computerized form.
+(f) Reporting requirements.
+The owner or operator shall submit required reports in the following manner:
+(i) Reports of any monitoring or recordkeeping information required by a specific permit-by-rule shall be submitted to the
+appropriate Ohio environmental protection agency district office or local air agency.
+(ii) Except as otherwise may be provided in a permit-by-rule specific reporting requirements paragraph of a specific permit-byrule, a written report of any deviations (excursions) from emission limitations, operational restrictions, qualifying criteria,
+and control equipment operating parameter limitations that have been detected by the testing, monitoring, and
+recordkeeping requirements specified in the permit-by-rule shall be submitted to the appropriate Ohio environmental
+protection agency district office or local air agency within thirty days of the date the deviation occurred. The report shall
+describe the specific limitation or operational restriction exceeded, the probable cause of such deviation, and any
+corrective actions of preventive measures that have been or will be taken.
+(g) Scheduled maintenance/malfunction reporting.
+
+Any scheduled maintenance of air pollution control equipment shall be performed in accordance with paragraph (A) of rule
+3745-15-06 of the Administrative Code. The malfunction of any air contaminant source or any associated air pollution control
+system shall be reported to the appropriate Ohio environmental protection agency district office or local air agency in
+accordance with paragraph (B) of rule 3745-15-06 of the Administrative Code. Except as provided in that rule, any scheduled
+maintenance or malfunction necessitating the shutdown or bypassing of any air pollution control system shall be accompanied
+by the shutdown of the air contaminant source that is served by such control system.
+
+(2) Source specific provisions.
+(i) Boiler and heater permit-by-rule.
+(i) Qualifications.
+Boilers, preheaters, air heaters, water heaters, or heaters used for other heat exchange media that meet all of the following
+qualifications are eligible to use this permit-by-rule:
+[Comment: Air contaminant sources which meet the definition of process heater as specified in 40 CFR part 60, subpart Dc
+are not eligible to use this permit-by-rule.]
+(a) The maximum rated heat input capacity of the air contaminant source is greater than or equal to ten million British
+thermal units per hour and less than or equal to one hundred million British thermal units per hour
+(b) The air contaminant source is capable of burning only natural gas.
+(c) The emissions from the air contaminant source consist entirely of the products of fuel combustion.
+(d) Air contaminant sources with a maximum rated heat input capacity of greater than fifty million British thermal units per
+hour shall be equipped with low-NOx burners or other combustion control techniques designed to meet an emission
+limitation of not greater than 0.050 pound of nitrogen oxides per million British thermal units of heat input.
+(ii) Applicable emissions limitations and/or control requirements.
+(a) The applicable rules, emissions limitations, and control requirements that apply to each air contaminant source subject to
+this permit-by-rule are defined in the following table:
+Applicable Rule(s)
+Paragraph (A) of rule 3745-17-07
+of the Administrative Code
+Paragraph (B) of rule 3745-17-10
+of the Administrative Code
+Paragraph (B) of rule 3745-23-06
+of the Administrative Code
+Paragraph (A) of rule 3745-18-06
+of the Administrative Code
+Paragraph (A)(3) of rule 3745-3105 of the Administrative Code
+
+40 CFR Part 60, Subpart Dc
+
+Applicable Emissions Limitations/Control Requirements
+The visible particulate matter emission limitations specified by this rule are less
+stringent than the visible particulate matter emission limitation established pursuant
+to paragraph (A)(3) of rule 3745-31-05 of the Administrative Code.
+Particulate matter emissions shall not exceed 0.020 pound per million British thermal
+unit of actual heat input.
+Units meeting the permit-by-rule qualification criteria satisfy the latest available
+control techniques and operating practices pursuant to the rule.
+Air contaminant sources are exempt from this rule when natural gas is the only fuel
+burned.
+Particulate matter emissions shall not exceed 8.76 tons per year. Nitrogen oxides
+emissions shall not exceed 5.0 pounds per hour and 21.90 tons per year. Carbon
+monoxide emissions shall not exceed 8.24 pounds per hour and 36.07 tons per year.
+Organic compound emissions shall not exceed 1.08 pounds per hour and 4.72 tons
+per year. Sulfur dioxide emissions shall not exceed 0.06 pound per hour and 0.26 ton
+per year. Visible particulate matter emissions shall not exceed five percent opacity,
+as a six-minute average. The requirements of this rule also include compliance with
+the requirements of rules 3745-18-06, 3745-23-06, and paragraph (B) of rule 374517-10 of the Administrative Code.
+This regulation does not specify emission limitations for air contaminant sources that
+only fire natural gas.
+
+(iii) Monitoring and/or recordkeeping requirements
+(a) The owner or operator shall maintain, at the location of the air contaminant source, documentation showing the maximum
+rated heat input capacity of the air contaminant source(s) and evidence that the air contaminant source(s) can only fire
+natural gas.
+(b) The owner or operator shall maintain monthly records of the total amount of natural gas fired for the air contaminant
+source(s).
+
+(iv) Permit-by-rule specific reporting requirements
+(a) For air contaminant sources installed after July 29, 2005, the owner or operator electing to use this permit-by-rule shall
+report the following, in accordance with 40 CFR 60, Subpart Dc, to the appropriate Ohio EPA district office or local air
+agency at the appropriate times:
+(i) Construction date (no later than thirty days after such date).
+(ii) Actual start-up date (within fifteen days after such date).
+(iii) Date of performance testing (if required, at least thirty days prior to testing).
+(iv) The maximum rated heat input capacity of the air contaminant source(s) and the type of fuel(s) fired (no later than
+thirty days after installation date).
+(v) Testing requirements
+(a) Compliance with the hourly emission limitations is based on multiplying the maximum hourly gas firing capacity of the
+air contaminant source (in million cubic feet per hour) by the emission factor specified by the United States
+environmental protection agency in Section 1.4 of the "Compilation of Air Pollutant Emission Factors (AP-42)", (in
+pound per million cubic feet fired) for each pollutant. Compliance with the pounds per million British thermal units
+particulate emission limitation is based on dividing the filterable particulate emission factor specified by the United
+States environmental protection agency in Section 1.4 of the "Compilation of Air Pollutant Emission Factors (AP-42)"
+by one thousand twenty. If required by the Ohio environmental protection agency, the owner or operator shall
+demonstrate compliance with the pounds per million British thermal units and hourly emission limitations of this
+permit-by-rule in accordance with the appropriate test methods specified in 40 CFR Part 60, Appendix A.
+(b) Compliance with the annual emission limitations shall be assumed as long as compliance with the pound per million
+British thermal units and hourly emission limitations are maintained. These annual emission limitations represent the
+emissions calculated at the maximum capacity of the equipment and eight thousand seven hundred sixty hours per year
+of operation.
+(c) If required by the Ohio environmental protection agency, compliance with the visible particulate emission limitations
+shall be demonstrated in accordance with USEPA Method 9 of 40 CFR Part 60, Appendix A.
+
+

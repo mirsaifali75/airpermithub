@@ -1,0 +1,333 @@
+SECTION .0200 - PERMIT FEES
+15A NCAC 02Q .0201 APPLICABILITY
+(a) This Section shall apply to all permitted facilities.
+(b) A general facility obtaining a permit pursuant to 15A NCAC 02Q .0509 shall comply with provisions of this
+Section that are applicable to a Title V facility except that the fees are different as stated in 15A NCAC 02Q .0203.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(1a),(1b),(1d); 143-215.106A; 150B-21.6;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule is
+effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1998; July 1, 1996;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0202 DEFINITIONS
+For the purposes of this Section, the following definitions apply:
+(1)
+"Actual emissions" means the actual rate of emissions in tons per year of any air pollutant emitted
+from the facility over the preceding calendar year. Actual emissions shall be calculated using the
+sources' actual operating hours, production rates, in-place control equipment, and types of
+materials processed, stored, or combusted during the preceding calendar year. Actual emissions
+shall include fugitive emissions as specified in the definition of major source in 40 CFR 70.2. For
+fee applicability and calculation purposes pursuant to 15A NCAC 02Q .0201 or .0203 and
+emissions reporting purposes pursuant to 15A NCAC 02Q .0207, actual emissions shall not
+include emissions beyond the normal emissions during violations, malfunctions, start-ups, and
+shut-downs; do not include a facility's secondary emissions such as those from motor vehicles
+associated with the facility; and do not include emissions from insignificant activities because of
+category as defined pursuant to 15A NCAC 02Q .0503.
+(2)
+"General facility" means a facility obtaining a permit pursuant to 15A NCAC 02Q .0310 or .0509.
+(3)
+"Minor modification" means a modification made pursuant to 15A NCAC 02Q .0515, Minor
+Permit Modifications.
+(4)
+"Significant modification" means a modification made pursuant to 15A NCAC 02Q .0516,
+Significant Permit Modification.
+(5)
+"Small facility" means a facility that is not a Title V facility, a synthetic minor facility, a general
+facility, nor solely a transportation facility.
+(6)
+"Synthetic minor facility" means a facility that would be a Title V facility except that the potential
+emissions are reduced below the thresholds in Item (7) of this Rule by one or more physical or
+operational limitations on the capacity of the facility to emit an air pollutant. Such limitations shall
+be enforceable by EPA and may include air pollution control equipment, restrictions on hours of
+operation, and the type or amount of material combusted, stored, or processed.
+(7)
+"Title V facility" means a facility that is required to have a permit pursuant to 15A NCAC 02Q
+.0500 except perchloroethylene dry cleaners whose potential emissions are less than:
+(a)
+10 tons per year of each hazardous air pollutant;
+(b)
+25 tons per year of all hazardous air pollutants combined; and
+(c)
+100 tons per year of each regulated air pollutant.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(1a),(1b),(1d); 150B-21.6;
+Temporary Rule Eff. March 8, 1994 for a period of 180 days or until the permanent rule is
+effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 1996;
+Temporary Amendment Eff. December 1, 1999;
+Amended Eff. April 1, 2004; August 1, 2002; July 1, 2000;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0203 PERMIT AND APPLICATION FEES
+(a) The owner or operator of any facility holding a permit shall pay the following permit fees:
+
+Facility Category
+
+Title V
+Synthetic Minor
+Small
+General
+
+ANNUAL PERMIT FEES
+(FEES FOR CALENDAR YEAR 2011)
+Tonnage Factor
+Basic Permit
+Fee
+
+Nonattainment Area
+Added Fee
+
+$30.00
+
+$6,500
+$1,500
+$250
+50% of the otherwise applicable fee
+
+$3,500
+
+A facility, other than a Title V facility, that has been in compliance is eligible for a 25 percent discount from the
+annual permit fees as described in Paragraph (a) of 15A NCAC 02Q .0205(a). Annual permit fees for Title V
+facilities shall be adjusted for inflation as described in 15A NCAC 02Q .0204. Annual permit fees for Title V
+facilities consist of the sum of the applicable fee elements. The current annual permit fees shall be found on the
+Division's website at https://deq.nc.gov/about/divisions/air-quality/air-quality-permits/modifying-applying-for-airquality-permit.
+(b) In addition to the annual permit fee, a permit applicant shall pay a non-refundable permit application fee as
+follows:
+
+Facility Category
+
+Title V
+Title V (PSD or
+NSR/NAA)
+Title V (PSD and
+NSR/NAA)
+Synthetic Minor
+Small
+General
+
+PERMIT APPLICATION FEES
+(FEES FOR CALENDAR YEAR 1994)
+New or
+New or
+Minor
+Modification
+Significant
+Modification
+Modification
+$7,200
+$700
+$10,900
+
+Ownership
+Change
+$50
+$50
+
+21,200
+
+$50
+
+$400
+$50
+50% of the otherwise applicable fee
+
+$50
+$50
+$25
+
+Permit application fees for Title V facilities shall be adjusted for inflation as described in 15A NCAC 02Q .0204.
+The current permit application fees shall be found on the Division's website at https://deq.nc.gov/about/divisions/airquality/air-quality-permits/modifying-applying-for-air-quality-permit.
+(c) If a facility, other than a general facility, belongs to more than one facility category, the fees shall be those of the
+applicable category with the highest fees. If a permit application belongs to more than one type of application, the
+fee shall be that of the applicable permit application type with the highest fee.
+(d) The tonnage factor fee shall be applicable only to Title V facilities. It shall be computed by multiplying the
+tonnage factor indicated in the table in Paragraph (a) of this Rule by the facility's combined total actual emissions of
+all regulated air pollutants, rounded to the nearest ton, contained in the latest emissions inventory that has been
+completed by the Division. The calculation shall not include:
+(1)
+carbon monoxide;
+(2)
+any pollutant that is regulated solely because it is a Class I or II substance listed pursuant to
+Section 602 of the federal Clean Air Act (ozone depletors);
+(3)
+any pollutant that is regulated solely because it is subject to a regulation or standard pursuant to
+Section 112(r) of the federal Clean Air Act (accidental releases); and
+(4)
+the amount of actual emissions of each pollutant that exceeds 4,000 tons per year.
+Even though a pollutant may be classified in more than one pollutant category, the amount of pollutant emitted shall
+be counted only once for tonnage factor fee purposes and in a pollutant category chosen by the permittee. If a
+
+facility has more than one permit, the tonnage factor fee for the facility's combined total actual emissions as
+described in this Paragraph shall be paid only on the permit whose anniversary date first occurs on or after July 1.
+(e) The nonattainment area added fee shall be applicable only to Title V facilities required to comply with 15A
+NCAC 02D .0531 (Sources in Nonattainment Areas), 15A NCAC 02D .0900 (Volatile Organic Compounds), or
+15A NCAC 02D .1400 (Nitrogen Oxides) and either:
+(1)
+are in an area designated in 40 CFR 81.334 as nonattainment, or
+(2)
+are covered by a nonattainment or maintenance State Implementation Plan submitted for approval
+or approved as part of 40 CFR Part 52, Subpart II.
+(f) The facility category, Title V (PSD or NSR/NAA), in the permit application fees table in Paragraph (b) of this
+Rule means a facility whose application shall be subject to review pursuant to 15A NCAC 02D .0530 (Prevention of
+Significant Deterioration) or 15A NCAC 02D .0531.
+(g) The facility category, Title V (PSD and NSR/NAA), in the permit application fees table in Paragraph (b) of this
+Rule means a facility whose application shall be subject to review pursuant to 15A NCAC 02D .0530 and .0531.
+(h) Minor modification permit applications that are group processed shall require the payment of only one permit
+application fee per facility included in the group.
+(i) No permit application fee shall be required for renewal of an existing permit, for changes to an unexpired permit
+when the only reason for the changes is initiated by the Director or the Commission, for a name change with no
+ownership change, for a change pursuant to 15A NCAC 02Q .0523 (Changes Not Requiring Permit Revisions), or
+for a construction date change, a test date change, a reporting procedure change, or a similar change.
+(j) The permit application fee paid for modifications pursuant to 15A NCAC 02Q .0400, Acid Rain Procedures,
+shall be the fee for the same modification if it were subject to 15A NCAC 02Q .0500, Title V Procedures.
+(k) An applicant who files permit applications pursuant to 15A NCAC 02Q .0504 shall pay an application fee equal
+to the application fee for the permit required pursuant to 15A NCAC 02Q .0500; this fee shall cover both
+applications, provided that the second application covers only what is covered under the first application. If permit
+terms or conditions in an existing or future permit issued pursuant to 15A NCAC 02Q .0500 are established or
+modified by an application for a modification and if these terms or conditions are enforceable by the Division only,
+then the applicant shall pay the fee under the column entitled "Minor Modification" in the table in Paragraph (b) of
+this Rule.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(1a),(1b),(1d);
+Temporary Rule Eff. March 8, 1994 for a period of 180 days or until the permanent rule is
+effective, whichever is sooner.
+Eff. July 1, 1994;
+Amended Eff. January 1, 2015; March 1, 2008; April 1, 2004; April 1, 2001; July 1, 1996;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0204 INFLATION ADJUSTMENT
+Beginning in 2012, the fees of 15A NCAC 02Q .0203 for Title V facilities shall be adjusted as of January 1 st of each
+year for inflation. The inflation adjustment shall be done by the method described in 40 CFR 70.9(b)(2)(iv). The
+tonnage factor shall be rounded to a whole cent and the other fees shall be rounded to a whole dollar, except that the
+ownership change application fee shall be rounded to the nearest ten-dollar ($10.00) increment.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(1a),(1b),(1d); 150B-21.6;
+Temporary Rule Eff. March 8, 1994 for a period of 180 days or until the permanent rule is
+effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. March 1, 2008; July 1, 1996;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0205 OTHER ADJUSTMENTS
+(a) If a facility other than a Title V facility has been in full compliance with all applicable administrative,
+regulatory, and self-monitoring reporting requirements and permit conditions during the previous calendar year, the
+annual permit fee shall be 25% less than that listed in 15A NCAC 02Q .0203. A facility shall be considered to have
+been in compliance during the previous calendar year if it has not been sent any Notices of Non-compliance or
+Notices of Violation during that calendar year.
+(b) If a facility changes so that its facility category changes, the annual fee changes with the next annual fee.
+(c) A facility that is moved to a new site may receive credit toward new permit fees for any unused portion of an
+annual fee if the permit for the old site is relinquished.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(1a),(1b),(1d); 150B-21.6;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0206 PAYMENT OF FEES
+(a) Payment of fees required pursuant to 15A NCAC 02Q .0200 may be by check or money order made payable to
+the N.C. Department of Environmental Quality. Annual permit fee payments shall refer to the permit number.
+(b) If, within 30 days after being billed, the permit holder fails to pay an annual fee required pursuant to 15A NCAC
+02Q .0200, the Director may initiate action to terminate the permit pursuant to 15A NCAC 02Q .0309 or .0519 as
+applicable.
+(c) A holder of multiple permits may arrange to consolidate the payment of annual fees into one annual payment.
+(d) The payment of the permit application fee required by 15A NCAC 02Q .0200 shall accompany the application
+and is non-refundable.
+(e) The Division shall annually prepare and make publicly available an accounting showing aggregate fee payments
+collected pursuant to 15A NCAC 02Q .0200 from facilities that have obtained or will obtain permits pursuant to
+15A NCAC 02Q .0500 except synthetic minor facilities, and showing a summary of reasonable direct and indirect
+expenditures required to develop and administer the Title V permit program.
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(1a),(1b),(1d);
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule
+becomes effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. September 1, 2015;
+Readopted Eff. April 1, 2018.
+
+15A NCAC 02Q .0207 ANNUAL EMISSIONS REPORTING
+(a) The owner or operator of a Title V facility shall report by June 30th of each year the actual emissions during the
+previous calendar year of:
+(1)
+volatile organic compounds;
+(2)
+nitrogen oxides;
+(3)
+total suspended particulates;
+(4)
+sulfur dioxide;
+(5)
+fluorine;
+(6)
+hydrogen chloride;
+(7)
+hydrogen fluoride;
+(8)
+hydrogen sulfide;
+(9)
+methyl chloroform;
+(10)
+methylene chloride;
+(11)
+ozone;
+(12)
+chlorine;
+(13)
+hydrazine;
+(14)
+phosphine;
+(15)
+particulate matter (PM10);
+(16)
+carbon monoxide;
+(17)
+lead; and
+(18)
+perchloroethylene.
+(b) The accuracy of the report required by Paragraph (a) of this Rule shall be certified by a responsible official of
+the facility as defined pursuant to 40 CFR 70.2.
+(c) The owner or operator of a facility not included in Paragraph (a) of this Rule, other than a transportation facility,
+that has actual emissions of 25 tons per year or more of nitrogen oxides or volatile organic compounds shall report
+by June 30th of each year the actual emissions of nitrogen oxides and volatile organic compounds during the
+previous calendar year, if the facility is in:
+(1)
+the townships of Central Cabarrus, Concord, Georgeville, Harrisburg, Kannapolis, Midland,
+Mount Pleasant, New Gilead, Odell, Poplar Tent, and Rimertown in Cabarrus County;
+(2)
+the townships of Crowders Mountain, Dallas, Gastonia, Riverbend, and South Point in Gaston
+County
+(3)
+the townships of Davidson and Coddle Creek in Iredell County;
+(4)
+the townships of Catawba Springs, Lincolnton, and Ironton in Lincoln County;
+(5)
+the townships in Mecklenburg County;
+(6)
+the townships of Atwell, China Grove, Franklin, Gold Hill, Litaker, Locke, Providence, Salisbury,
+Steele, and Unity in Rowan County; or
+(7)
+the townships of Goose Creek, Marshville, Monroe, Sandy Ridge, and Vance in Union County.
+(d) The annual reporting requirement pursuant to Paragraph (c) of this Rule shall begin with calendar year 2017
+emissions for facilities in the areas identified in Paragraph (c) of this Rule.
+(e) The report shall be in or on such form as may be established by the Director. Pursuant to G.S. 143215.107(a)(4), the Director may require reporting for sources within a facility, for other facilities, or for other
+pollutants, parameters, or information, by permit condition or pursuant to 15A NCAC 02D .0202 (Registration of
+Air Pollution Sources).
+History Note:
+
+Authority G.S. 143-215.3(a)(1),(1a),(1b),(1d); 143-215.65; 143-215.107; 143B-282; 150B-21.6;
+Temporary Adoption Eff. March 8, 1994 for a period of 180 days or until the permanent rule is
+effective, whichever is sooner;
+Eff. July 1, 1994;
+Amended Eff. July 1, 2007; July 1, 1998; July 1, 1996;
+Readopted Eff. April 1, 2018.
+
+

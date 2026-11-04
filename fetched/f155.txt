@@ -1,0 +1,172 @@
+This guidance document is advisory in nature but is binding on an agency until amended by such agency. A guidance document does
+not include internal procedural documents that only affect the internal operations of the agency and does not impose additional
+requirements or penalties on regulated parties or include confidential information or rules and regulations made in accordance with
+the Administrative Procedure Act. If you believe that this guidance document imposes additional requirements or penalties on
+regulated parties, you may request a review of the document.
+
+05-165
+
+August 2024
+
+Air Quality Construction Permits
+Introduction
+The NDEE has had a construction permit program for air contaminant sources since 1972. The
+program was modified in the early 1990’s to reflect changes brought about by the Clean Air Act
+Amendments of 1990. Facilities are required to obtain a construction permit before they construct,
+reconstruct or modify any air contaminant source or emission unit where there is a net increase in the
+potential to emit (PTE) pollutants (prior to taking credit for any air emissions control equipment or
+operational limitations) above the following thresholds found in Title 129, Chapter 3:
+
+
+
+
+
+
+
+
+
+15 tons per year (tpy) of PM10 (Particulate Matter 10 microns in diameter or smaller),
+10 tons tpy of PM2.5 (Particulate Matter 2.5 microns in diameter or smaller),
+40 tpy of SO2 (Sulfur dioxide) or SO3 (Sulfur trioxide) or any combination thereof,
+40 tpy of oxides of nitrogen (calculated as NO2),
+40 tpy VOC (Volatile Organic Compounds),
+50 tpy CO (Carbon Monoxide),
+0.6 tpy Lead, or
+2.5 tpy of any single HAP (Hazardous Air Pollutant) or 10 tpy of all HAPs combined.
+
+In addition, all incinerators, regardless of emissions, must have a construction permit.
+Beginning January 1, 2005, a permit application fee must accompany each construction permit
+application. The fee ranges from $250 to $3,000 depending on the potential emissions of the source
+(refer to Form 1.1 of the construction permit application and the “Air Construction Permit Fee” Fact
+Sheet found at http://dee.ne.gov under Publications).
+Purpose
+A construction permit allows the facility to construct the emission unit(s) while protecting the ambient air
+quality. In addition to allowing construction, the permit will also establish operating, monitoring, and
+record keeping requirements. These requirements are necessary to assure the emission units are in
+compliance with the applicable regulations. The requirements are also necessary in the event the
+source isn’t required to obtain an operating permit. A construction permit is issued for the life of the
+emission unit(s).
+Frequently Asked Questions
+The Air Quality Program receives many questions regarding construction permits for air contaminant
+sources. Many of these questions arise from the uncertainty about who exactly is required to obtain a
+Page 1 of 4
+
+permit. Some of the most frequently asked questions are listed below, along with answers to help you
+determine whether your source requires a construction permit and how to apply for one.
+Q. What is the difference between an operating permit and a construction permit?
+A. A construction permit must be obtained prior to constructing or modifying an air contaminant
+source and it does not expire. An operating permit must be applied for within 12 months after
+startup of an air contaminant source. Operating permits contain all applicable requirements for
+all emission points at the source. This includes incorporating conditions from the construction
+permits issued to that source.
+Q. How do I know if I need to obtain a construction permit?
+A. Generally, a construction permit is required for the construction of any new emission unit or the
+modification of an existing unit at a source that produces a net increase in potential emissions
+(referred to as PTE) equal to or exceeding the levels noted above. A construction permit is also
+required for all incinerators, regardless of size. If you are not sure you need to apply for a permit,
+please e-mail NDEE.AirQuality@Nebraska.gov or contact the Small Business and Public
+Assistance Coordinator at (402) 471-8697 to discuss your project.
+Q. How do I calculate my potential-to-emit (PTE)?
+A. PTE is the basis for determining if you need a permit. It is the maximum quantity of air
+pollutant(s) an emission unit or source can emit in a year given its physical and operational
+design. PTE is calculated with the assumption that the source is operated continuously for one
+year (24 hours a day, 365 days a year, or 8,760 hours a year). The PTE must be calculated
+separately for each pollutant.
+The PTE calculation also assumes the emission unit(s) is uncontrolled. However, the PTE can
+include reductions for control equipment or other process limitations if they are included in a
+federally enforceable permit. For instance, if a facility has an existing air quality construction
+permit that limits the amount of material you can process per hour, you can take that into
+consideration in your PTE calculation.
+Additionally, you can take into consideration certain process limitations or bottlenecks when
+calculating your PTE. A bottleneck is an activity or process that restricts the capacity of another
+operation. For example, a grain elevator dryer has a capacity of 45,000 bushels per hour (bu/hr).
+The facility has one conveyor leg that feeds grain to the dryer. The leg has a capacity of 30,000
+bu/hr. Since the leg physically limits the amount of grain that can be dried, it is a bottleneck and
+30,000 bu/hr can be used to calculate the PTE for the dryer.
+Potential-to-emit example:
+The emission unit is a 50 million Btu/hour natural gas fired boiler. Following is the PTE
+calculation for nitrogen oxides (NOx).
+Heating value of natural gas = 1,020 Btu/cubic foot
+Annual operating hours = (365 days/year) X (24 hours/day) = 8,760 hours/year
+Hourly maximum fuel use = (50 Million Btu/hr) ÷ (1,020 Btu/ft3) = 49,020 cubic feet/hour
+Annual fuel use = (8,760 hr/yr) X (49,020 ft3 natural gas/hr) = 429.41 million ft3 natural gas/year
+NOx emission factor from AP-42 = 100 pounds of NOx emitted per million ft3 of natural gas
+burned
+Page 2 of 4
+
+(429.41 million ft3 natural gas/yr) X (100 pounds NOx/yr) = 42,941 pounds of NOx per year
+PTE of NOx = (42,941 pounds/yr) ÷ (2,000 pounds/ton) = 21.47 tons/year
+Q. What is the difference between potential emissions and actual emissions?
+A. Generally, potential emissions are the maximum emissions that would result from operating the
+facility at full capacity 24 hours a day, seven days a week, 52 weeks a year taking into
+consideration federally enforceable requirements. Actual emissions are emissions produced by
+a facility, based on actual operating times and actual operating conditions.
+Q. What is an “emission unit”?
+A. An “emission unit” is any part or activity at a stationary source that emits or would have the
+potential to emit any regulated air pollutant. A source has one or more emission units that
+contribute to the PTE.
+Q. How do I determine if my emissions meet or exceed those requiring a construction permit?
+A. Generally, an estimation of emissions using emission factors will have to be done. However,
+emissions data, from testing on a similar unit, may be acceptable. For estimations, the
+Department generally uses emission factors from the Compilation of Air Pollutants Emission
+Factors (AP-42) or from Factor Information Retrieval Data System (FIRE). These and other
+emission factor resources may be found on the internet at https://www.epa.gov/chief. Most
+emission factors are based on fuel usage, throughput or other quantifiable process information.
+Q. How long before I intend to construct must I send in a construction permit application?
+A. Depending on the quality of the application and our workload, a construction permit can take four
+to 12 months to process a complete application, so an application should be submitted to the
+Department as soon as possible. For more complicated sources and for major New Source
+Review (NSR) projects, the permitting process may take longer. We strongly encourage facilities
+to meet with NDEE Air Quality staff prior to submitting the construction permit application. A preapplication meeting will ensure the facility is aware of NDEE’s expectations and will likely result
+in the facility submitting a complete application. For more information on pre-application
+meetings, see the “Pre-Application Meetings For Air Quality Construction Permits” guidance, and
+for more guidelines on submitting a complete construction permit application, see the “Air Quality
+Permit Application Tips and Other Tidbits” guidance. Both documents can be found on NDEE’s
+website at http://dee.ne.gov/ under the Air Quality publications and forms.
+Q. What if I determine I don’t need a permit?
+A. Many people believe they need confirmation (commonly referred to as a “No Permit Required
+Determination” or NPR) stating they do not need a permit. In fact, sources do not need a NPR
+determination from NDEE if they are able to document and provide information to a NDEE
+representative supporting their claim.
+To demonstrate you don’t need a permit, you should be able to provide the PTE calculation and
+any supporting documentation used in the calculation. Refer to the “Potential to Emit and No
+Permit Required” guidance on the NDEE’s website at http://dee.ne.gov/ under the Air Quality
+publications and forms.
+You must document what emission factors you used in your PTE calculation and the source of
+the emission factors. Emission factors may originate from continuous emissions monitor data,
+stack test data, material balance equations, industry/trade organizations, and Environmental
+Page 3 of 4
+
+Protection Agency (EPA) documents. You must use the emission factor that best represents
+your facility. For example, if you have stack-testing data for your emission unit, you would use
+that information to calculate your PTE because it is the most accurate information you have. If
+you don’t have source specific information such as stack test or continuous emission monitor
+data, you can typically find emission factors for your process in EPA’s “AP-42, Compilation of Air
+Pollutant Emission Factors.” You can find this document, as well as other emission factor
+resources, on EPA’s website at https://www.epa.gov/chief.
+You must also document the emission unit(s) design capacity. Manufacturer’s data can be used
+when the nameplate capacity is used in the PTE calculation. You must also provide
+documentation if you utilized any bottlenecks, permit limitations, or control equipment in your
+calculation and be able to explain how and why those were used in the PTE calculation. For
+instance, if a permit limitation was used, have a copy of the permit available.
+Be sure your calculation documentation includes the appropriate units (i.e. pounds/hour,
+Btu/hour, etc.). It is also beneficial to provide the date that the PTE was calculated.
+In addition to keeping this documentation on-site, we encourage you to submit a letter to the
+NDEE Air Quality Program explaining your project and providing your emission calculations that
+support your determination. This will provide our staff with the most current information about
+your facility and remain as documentation in our filing system. Also, in the event that a routine
+inspection is conducted at your facility, this information will help our staff be better prepared prior
+to conducting the inspection, which will most likely result in a more expedited and efficient visit.
+Q. How do I obtain a permit application?
+A. Application forms can be downloaded from the NDEE website at http://dee.ne.gov, select the
+Publications & Forms tab then the dropdown menu for the “Air Construction Permit Program”.
+You can also obtain forms by contacting the Air Program by emailing
+NDEE.Airquality@Nebraska.gov, or by writing to the Air Quality Program of the Nebraska
+Department of Environment and Energy, P.O. Box 98922, Lincoln, NE 68509-8922.
+Produced by: Nebraska Department of Environment and Energy, P.O. Box 98922, Lincoln, NE 68509-8922;
+phone (402) 471-2186. To view this, and other information related to our agency, visit our web site at
+http://dee.ne.gov
+
+Page 4 of 4
+
+

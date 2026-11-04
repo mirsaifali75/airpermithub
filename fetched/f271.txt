@@ -1,0 +1,265 @@
+Permit-by-Rule (PBR) 
+IBM WebSphere Portal 
+An official State of Ohio site. 
+Here’s how you know 
+Official websites use Ohio.gov
+An Ohio.gov website belongs to an official government organization in the State of Ohio.
+Secure .gov websites use HTTPS
+A lock or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Trusted applications are secured by OHID
+When you log in with OHID, your privacy, data, and personal information are protected by federal and state digital security standards.
+Close 
+learn-more 
+Skip to Navigation
+Skip to Main Content
+Ohio Department 
+Menu 
+Home 
+Stay Compliant 
+Get Involved 
+Monitor Pollution 
+Get Funding 
+Find Regulations 
+Divisions & Offices 
+Help Center 
+About Us 
+Search 
+top-help 
+odx-helplink-label 
+top-search 
+odx-searchbox-label 
+Type in your search keywords and hit enter to submit or escape to close 
+top-search 
+top-close 
+Permit-by-Rule (PBR)
+{}
+Web Content Viewer 
+Actions 
+Ohio EPA 
+Divisions & Offices 
+Air Pollution Control 
+Permitting Resources 
+Welcome
+Announcements
+Contacts
+About DAPC
+Programs
+Asbestos Abatement & Demolition
+Guides & Manuals
+E-Check
+Open Burning
+Permitting Resources
+Reports & Data
+Regulations
+State Emergency Response Commission
+State Implementation Plans
+Educational and How-to Resources
+Long Text Translations
+Ads
+Videos
+Permit-by-Rule (PBR)
+July 12, 2021 
+| 
+Agency 
+A permit-by-rule (PBR) is a specific permit provision in the Ohio Administrative Code (OAC) that applies to certain types of low-emitting air pollution sources. Companies may use the PBR as an option in place of the more formal air pollution permit.
+The PBR provisions contain qualifying criteria, emission limitations, and conditions for operation and requirements for record keeping and reporting. Many of these requirements are similar or identical to those found in permits-to-install and operate (PTIOs) issued by Ohio EPA for these types of sources. The air pollution source or facility must continually meet all the PBR criteria to legally operate under the PBR. Ohio EPA retains the authority to deny or revoke a company's ability to operate under the PBR provisions and to require the company to obtain a PTIO.
+Active List of Permit-by-Rule (Excel) 
+Frequently Asked Questions
+Who qualifies for a PBR?
+If you meet the qualifying criteria and can accept the terms and conditions, then you can apply for the PBR.
+How does a PBR differ from an ordinary permit?
+A PTIO is required before installing and operating the air pollution source, and the PTIO is renewable on a 5- or 10-year cycle. A PBR exempts the air pollution source from the PTIO process, functions as both the installation and operating permit for the source, and does not expire. The air pollution source must continually meet all the PBR criteria to remain eligible.
+If the air pollution source can no longer comply with the conditions of the PBR because of facility expansion or other reasons, the company must apply for a formal PTIO.
+Is a source or facility operating under a PBR exempt from other air pollution regulations?
+No. The PBR only exempts the air pollution source or facility from the procedural PTIO requirements (OAC 3745-31-02). The PBR specifies emission limits and operating requirements found in various sections of the OAC for that type of air pollution source. A source operating under a PBR is also subject to general air pollution provisions such as OAC 3745-15-06 (malfunction of equipment; scheduled maintenance; reporting) and OAC 3745-15-07 (air pollution nuisances prohibited). Emissions from PBR sources must also be considered when determining major source status under the Clean Air Act, Title V requirements and major new source review (NSR) permitting actions.
+How are PBR categories determined?
+Ohio EPA uses the following criteria when developing a PBR:
+there are more than 300 such sources in Ohio
+the sources are similar in design and operation
+the sources have relatively few applicable air pollution regulations
+the emissions from the sources are well understood and the sources do not have the potential to emit large quantities of air emissions
+the sources do not need to employ add-on pollution control devices
+the sources do not require emissions (stack) testing
+the sources employ a proven type of technology or clean design which is unlikely to change significantly in the near future.
+Must an air pollution source or facility operate under the applicable PBR?
+No. The PBR is an option. The company may elect to obtain a formal PTIO instead.
+What are the benefits?
+Sources electing to operate under the PBRs are exempt from obtaining PTIOs, saving permit fees, and processing time. Coverage under the PBR provision begins with a simple, one-page notification form. Because the PBR puts all air pollution requirements in one place, industry personnel have a defined set of requirements for PBR sources, saving time and energy in evaluating potential Ohio EPA requirements. The PBR qualifying criteria and operating conditions also encourage industries to consider cleaner designs and operating practices when planning new installations.
+Can a company operating under an existing PTI or PTIO switch to the PBR?
+Yes. The company must submit a written request to Ohio EPA to revoke the existing permit and must agree to meet all qualifying and operating conditions. Ohio EPA will then make a final written determination regarding the request.
+In some cases, the PBR conditions might impose more stringent limitations on the facility than those specified in their existing permits. It is important for a facility to carefully evaluate all qualifying criteria and operating conditions before submitting a request to revoke existing permits.
+What are the PBR requirements?
+PBR requirements include ongoing permit responsibilities, such as checking equipment and keeping records of operation or material usage. The requirements are legally enforceable and begin as soon as the company submits the PBR notification to Ohio EPA.
+PBR requirements will be incorporated into the appropriate operating permit if the operation is located at a Title V facility. PBR sources will need to be listed in Title V permit applications as insignificant emissions units.
+Notification form — The company must submit a notification form to Ohio EPA stating the source meets the qualifying criteria and will operate according to the conditions. For new installations, the notification form is required before installation and startup. For permitted sources wishing to switch to PBR, the company must request that existing permits be revoked as specified above and Ohio EPA must approve the request. Ohio EPA creates a unique 10-digit facility ID number for each facility covered by a PBR.
+Record keeping — Each PBR details operational records, such as amount of material used, type of fuel burned, test records, etc., that operators must maintain.
+Reporting — Facilities operating under PBR provisions must promptly report any exceedances of the conditions or emission limitations to Ohio EPA.
+What is the basis for material usage limits?
+Some PBRs include material usage limits to ensure the facility's potential emissions stay below major source levels under the Title V program. These usage limits are based, in part, on U.S. EPA's Potential to Emit (PTE) Guidance for Specific Source Categories, April 1998 (PDF) .
+Does a PBR have associated fees?
+There are no permit fees for PBRs. However, if a facility has some operations covered by traditional permits and some by PBR, all emissions must be accounted for in reporting actual emissions in air fee emissions reports. If the only operations at the facility are covered by PBR, no air fee emissions reports or emission fees are required..
+Do PBRs have a negative effect on air quality?
+No. Each PBR provision contains the same or similar requirements as traditional air permits and are designed to help control emissions and improve air quality.
+How does the PBR affect Ohio EPA's enforcement authority?
+Ohio EPA retains the authority to enforce all provisions of the OAC, including, but not limited to, revoking a company's option to operate under the PBR. Sources operating under a PBR can be inspected by Ohio EPA and are subject to the same enforcement actions as other permitted facilities.
+Available PBR Provisions
+OAC rule 3745-31-30 contains provisions for the following sources:
+Unpaved Roadways and Parking Areas
+Forms and Instructions (if submitting hard copy) 
+Unpaved Roadways and Parking Areas (PDF) 
+Forms and Instructions (if submitting via air services) 
+Unpaved Roadways and Parking Areas (Word) 
+Unpaved Roadways and Parking Areas - Instructions (Word) 
+Additional Guidance Materials 
+Under development
+Paved Roadways and Parking Areas
+Forms and Instructions (if submitting hard copy) 
+Paved Roadways and Parking Areas (PDF) 
+Forms and Instructions (if submitting via air services) 
+Paved Roadways and Parking Areas (Word) 
+Paved Roadways and Parking Areas - Instructions (Word) 
+Additional Guidance Materials 
+Under development
+Auto Body Refinishing Facility
+Forms and Instructions (if submitting hard copy) 
+Auto body shops (PDF) 
+Forms and Instructions (if submitting via air services) 
+Auto body refinishing (Word) 
+Auto body refinishing - Instructions (Word) 
+Additional Guidance Materials 
+Collision board registration guidance (PDF) 
+Auto body shop PBR user's guide (PDF) 
+Gasoline Dispensing Facility
+Forms and Instructions (if submitting hard copy) 
+Gasoline dispensing facilities (GDF) (PDF) 
+Forms and Instructions (if submitting via air services) 
+GDF supplemental form (PDF) 
+GDF supplemental form (Word) 
+GDF supplemental form instructions (PDF) 
+Additional Guidance Materials 
+GDF fact sheet (PDF) 
+GDF testing/training company list (PDF) 
+Gas-fired Boiler and Heater
+Forms and Instructions (if submitting hard copy) 
+Boilers/Heaters (PDF) 
+Forms and Instructions (if submitting via air services) 
+Gas-fired boiler and heater (Word) 
+Gas-fired boiler and heater - Instructions (Word) 
+Additional Guidance Materials 
+Under development
+Small / Midsize Printing Facility
+Forms and Instructions (if submitting hard copy) 
+Printing facilities (includes small and midsize) (PDF) 
+Forms and Instructions (if submitting via air services) 
+Midsize printing (Word) 
+Midsize printing - Instructions (Word) 
+Small printing (Word) 
+Small printing - Instructions (Word) 
+Additional Guidance Materials 
+Printing PBR user's guide (PDF) 
+Small and Midsize Printing Facility PBR Qualifications (PDF) 
+Emergency Generator/Pump/Compressor
+Forms and Instructions (if submitting hard copy) 
+Emergency generators/pumps/compressors (PDF) 
+Forms and Instructions (if submitting via air services) 
+Emergency generator/pump/compressor (Word) 
+Emergency generator/pump/compressor - Instructions (Word) 
+Additional Guidance Materials 
+Under development
+Resin Injection/Compression Molding
+Forms and Instructions (if submitting hard copy) 
+Resin injection/Compression molding (PDF) 
+Forms and Instructions (if submitting via air services) 
+Resin injection/Compression molding (Word) 
+Resin injection/Compression molding- Instructions (Word) 
+Additional Guidance Materials 
+Under development
+Crushing and Screening Plants
+Forms and Instructions (if submitting hard copy) 
+Crushing/Screening equipment (PDF) 
+Forms and Instructions (if submitting via air services) 
+Nonmetallic mineral processing plants (Word) 
+Nonmetallic mineral processing plants - Instructions (Word) 
+Additional Guidance Materials 
+Under development
+Soil Vapor/Liquid Remediation Activities
+Forms and Instructions (if submitting hard copy) 
+Soil remediation activities (PDF) 
+Forms and Instructions (if submitting via air services) 
+Soil liquid remediation activities (Word) 
+Soil liquid remediation activities - Instructions (Word) 
+Soil vapor remediation activities (Word) 
+Soil vapor remediation activities - Instructions (Word) 
+Additional Guidance Materials 
+Under development
+How to Apply
+In order to apply for a PBR, you must either: (1) provide written notification containing the minimum information outlined in the "General Provisions" section of OAC 3745-31-30(C) ; or (2) submit the appropriate Ohio EPA notification form.
+PBR Submittal Process (for new sources or existing sources not converting from a permit to PBR)
+Company downloads or uses eBusiness Center: Air Services to generate and submit proper PBR notification form.
+If completing a hard copy, company sends PBR notification form to appropriate district office or local air agency (DO/LAA). See PBR notification form instructions for submission addresses.
+DO/LAA receives PBR notification form; PBR coverage begins. (For eBusiness Center submissions, PBR coverage begins upon gateway submission).
+DO/LAA enters PBR notification form into STARS2. Application automatically posts to the active list of PBR sites .
+Company complies with PBR operating requirements.
+PBR Submittal/Approval Process (for existing sources converting from a permit to PBR)
+Company downloads or uses eBusiness Center: Air Services to generate and submit proper PBR notification form.
+If completing a hard copy, company sends PBR notification form to appropriate district office or local air agency (DO/LAA). See PBR notification form instructions for submission addresses.
+DO/LAA reviews PBR notification form and Permit Revocation Request is processed in STARS2.
+DO/LAA processes permit revocation in STARS2.
+Central Office sends permit revocation letter to applicant/company. Once processed, PBR is posted to the active list of PBR sites . PBR coverage begins on the effective date of permit revocation.
+Company complies with PBR operating requirements.
+Title V and SMTV facilities are required to use eBusiness Center: Air Services to submit applications.
+Forms and Instructions
+Although not required, we strongly recommend using Ohio EPA's forms to ensure consistent review and timely consideration.
+A company may only submit multiple PBR forms under one responsible official signature if all of the PBR sources are located within jurisdiction of the same Ohio EPA DO/LAA. The entity requesting exemption should attach a simple cover letter (PDF) listing all of the site numbers, 10-digit facility ID numbers, etc. in the request package and provide the signature at the bottom of the letter. For example, 100 gasoline dispensing facilities (GDFs) scattered among four districts would require four separate, original signature cover letters; one letter for each district which would then be attached to its corresponding PBR notification forms. The DO/LAA will retain all original forms.
+A separate PBR application form is required for each source as Ohio EPA needs source specific information in order to determine PBR eligibility. For more information, please contact your Ohio EPA district office or local air agency representative.
+Proposed Permit-by-Rule
+There are no proposed PBRs at this time.
+Share this
+Expand All Sections 
+Web Content Viewer 
+Actions 
+Get help with permitting and environmental requirements
+Visit the Resource Hub - FAQs, Ask an Expert, and more.
+Go Now 
+Who We Are
+About Ohio EPA
+Divisions & Offices
+Administrative Leadership
+Districts
+What We Do
+Compliance
+Permits, Licenses & Certification
+Maps & Advisories
+Education and How-to
+What's New
+Current Topics
+Proposed Rules Hub
+Events
+News
+Connect With Us
+Media Resources
+Public Records
+Employment
+Contact Information
+Public Notices and Weekly Review
+Ohio Environmental Protection Agency | 50 W. Town St., Suite 700 Columbus, OH 43215 | Call: 614-644-3020 
+Powered by 
+Privacy Notice and Policies
+Checkbook
+Accessibility
+instagram icon 
+x icon 
+youtube icon 
+linkedin icon 
+facebook icon 
+Subscribe to Updates icon 
+top-menu 
+top-close 
+top-help 
+top-search 
+odx-searchbox-label 
+Submit your search 
+Close 
+Complementary Content 
+${title} ${badge}
+${loading}

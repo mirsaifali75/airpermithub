@@ -1,0 +1,71 @@
+Montana Air Quality Permits (MAQP)
+Minor MAQP Sources 
+Sources subject solely to minor source MAQP program (ARM 17.8.7)
+New stationary facility
+$800
+ARM 17.8.504(1)(c)(i)
+Modified stationary facility
+$500
+ARM 17.8.504(1)(c)(ii)
+Portable facility (non-registered)
+$500
+ARM 17.8.504(1)(c)(iii)
+Synthetic Minor Sources
+Minor MAQP sources that are requesting an exemption from Title V (ARM 17.8.1204(3))
+New facility
+$1,000
+ARM 17.8.504(1)(b)(ii)
+Modified facility
+$500
+ARM 17.8.504(1)(b)(iii)
+Minor MAQP Sources with Title V Operating Permit
+Minor MAQP sources that currently hold or will require a Title V operating permit (ARM 17.8.12)
+New facility
+$2,000
+ARM 17.8.504(1)(b)(i)(A)
+Modified facility
+$1,500
+ARM 17.8.504(1)(b)(i)(B)
+Major MAQP Sources 
+Major MAQP sources subject to NSR-PSD/Nonattainment-NSR (ARM 17.8.7, 17.8.8 and 17.8.10, or 17.8.9)
+New major stationary source
+$15,000
+ARM 17.8.504(1)(a)(i)
+Major modification of major stationary source
+$3,500
+ARM 17.8.504(1)(a)(ii)
+Modification other than a major modification
+$500
+ARM 17.8.504(1)(a)(iii)
+Title V Operating Permits
+Sources required to obtain a Title V Operating Permit under 17.8.12
+New permit
+$6,500 
+ARM 17.8.504(2)(a)
+Permit renewal
+$2,000 
+ARM 17.8.504(2)(b)
+Significant modification
+$1,500 
+ARM 17.8.504(2)(c)
+Open Burn Permits
+Minor Open Burning
+Emergency, Trade Waste, Landfill, Christmas Tree, Commercial Film 
+$100
+ARM 17.8.515(a)-(d)
+Fire Fighter Training
+$25
+ARM 17.8.515(4)(f)
+Major Open Burning
+Major Burners
+Fee set by calculation
+ARM 17.8.514(5)(a) and (b)
+Registration Programs
+Oil & Gas Registration 
+Registration Fee
+$500 
+ARM 17.8.504(5)
+Portable Sand and Gravel, Concrete, and Asphalt Registration 
+Registration Fee
+$0
+N/A

@@ -1,0 +1,771 @@
+Application for Determination of
+Insignificant Activities
+as defined under NAC 445B.288(4)
+Facility Name: ___________________________________
+Permit Class: Class II
+Existing Facility ID: A______________________
+Existing Permit Number: AP_______________________
+
+Please Submit Application to:
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control, Permitting Branch
+901 South Stewart Street, Suite 4001
+Carson City, Nevada 89701-5249
+Phone (775) 687-9349
+September 2020
+(Ver. 2)
+
+Important Information
+
+IMPORTANT INFORMATION
+
+
+This application can only be used for the Determination of Insignificant Activities under Nevada
+Administrative Code (NAC) 445B.288(4) for either a Class I or a Class II Air Quality Operating
+Permit. The emission unit may be approved as an insignificant activity if the emission unit is not
+otherwise subject to another specific applicable requirement, including, without limitation, any
+requirement or standard set forth in 40 C.F.R. Part 60, 61 or 63. To be approved as an insignificant
+activity, an emission unit must meet the following criteria:
+(a) The operation of the emission unit, not considering controls or limits on production, type
+of materials processed, combusted or stored, or hours of operation, will not result in:
+(1) Emissions of a hazardous air pollutant that exceed 1 pound per hour or 1,000 pounds
+per year, as appropriate;
+(2) Emissions of regulated air pollutants that exceed 4,000 pounds per year;
+(3) Emissions of regulated air pollutants that exceed any other limitation on emissions
+pursuant to any other applicable requirement; or
+(4) Emissions of regulated air pollutants that adversely impact public health or safety, or
+exceed any ambient air quality standards; and
+(b) The emissions from the emission unit are not relied on to avoid any other applicable
+requirements.
+If there are multiple emission units, the Director may, after considering the impact of the combined
+emissions of multiple emission units, determine whether to approve one or more of the specific
+emission units as an insignificant activity.
+
+
+
+Do not submit this application for emission units that qualify as Insignificant Activities under
+NAC 445B.288(2). You may notify the BAPC of the addition of these units via a letter.
+
+
+
+A printed copy of the application must be submitted (mailed or hand delivered).
+
+
+
+The application filing fee of $1,000 required by NAC 445B.288(4) must be submitted with the
+completed application. Checks must be made payable to the “Nevada State Treasurer, Environmental
+Protection” with “BAPC” noted in the memo line. Fees may also be submitted electronically at
+https://epayments.ndep.nv.gov/.
+
+
+
+An Application for Determination of Insignificant Activities must be signed by the Responsible
+Official, as defined in NAC 445B.156. The certification/signature page is the last page of the
+application and the original “wet” signature must be provided.
+
+
+
+All items in the application must be addressed. If an item does not apply “N/A” or similar notation
+must be entered in the appropriate blank. All other information must be provided.
+
+
+
+The Application packet contains:
+o General Company Information Form
+o Industrial Process Form
+o Combustion Equipment Form
+o Storage Silo Form
+o Liquid Storage Tanks Form
+o Insignificant Activities Form
+o Application Certification Document with Required Attachments
+
+Industrial Process Application Form
+
+INDUSTRIAL PROCESS APPLICATION FORM
+CLASS I/II OPERATING PERMIT
+Emission Unit Description:
+Identify Utilized Portion of NAC 445B.288(4):
+Description
+Source Classification Code (SCC)
+
+Equipment
+Description
+
+Manufacturer
+Date Manufactured
+Model Number
+Equipment Dimensions (LxWxH)
+Drop Length if applicable
+Drop Height if applicable
+
+Data
+e.g. 3-03024-04 for
+Conveyors
+
+feet
+feet
+feet
+
+The drop height is measured from the ☐ top of the drop length ☐ middle of the drop length ☐ bottom of
+the drop length, in reference to the ground. Choose one, if applicable
+Drop Horizontal Dimension 1 if applicable
+Drop Horizontal Dimension 2 if applicable
+Emissions Released Inside building?
+Location of
+Emission
+Source
+Operating
+Parameters
+
+Stack
+Parameters
+
+feet
+feet
+yes/no
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+UTM Easting (NAD 83, Zone 11)
+Material Type Processed
+Batch Process if applicable
+Start Time if operating less than 24 hours/day
+End Time if operating less than 24 hours/day
+Stack Height
+Stack Inside Diameter
+Stack Temperature
+Stack Exit Velocity
+Actual Gas Volume Flow Rate
+Dry Gas Volume Flow Rate
+
+m
+
+If not included in detailed calculations.
+
+Stack Release Type
+
+unit /batch
+hour:minute
+hour:minute
+feet
+feet
+ºF
+feet/second
+acfm
+dscfm
+
+☐ vertical ☐ capped
+
+☐ horizontal
+
+Combustion Equipment Application Form
+
+COMBUSTION EQUIPMENT APPLICATION FORM
+CLASS I/II OPERATING PERMIT
+Emission Unit Description:
+Identify Utilized Portion of NAC 445B.288(4):
+Description
+Source Classification Code (SCC)
+Equipment
+Description
+
+Location of
+Emission
+Source
+Operating
+Parameters
+/Fuel Usage
+
+Stack
+Parameters
+
+Manufacturer
+Date Manufactured
+Model and Serial Number
+Emissions Released Inside building?
+
+Data
+e.g. 3-03-024-04 for
+Conveyors
+
+yes/no
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+UTM Easting (NAD 83, Zone 11)
+
+m
+
+Fuel Type
+Fuel Flow Meter Installed?
+Sulfur Content
+Heat Content
+Stack Height
+Stack Inside Diameter
+Stack Temperature
+Stack Exit Velocity
+Actual Gas Volume Flow Rate
+Dry Gas Volume Flow Rate
+
+If not included in detailed calculations.
+
+Stack Release Type
+
+yes/no/NA
+%
+Btu/unit
+feet
+feet
+ºF
+feet/second
+acfm
+dscfm
+
+☐ vertical ☐ capped
+
+☐ horizontal
+
+Storage Silo Application Form
+
+STORAGE SILO APPLICATION FORM
+CLASS I/II OPERATING PERMIT
+Emission Unit Description:
+Identify Utilized Portion of NAC 445B.288(4):
+Description
+Source Classification Code (SCC)
+
+Equipment
+Description
+
+Manufacturer
+Date Manufactured
+Model Number
+Equipment Dimensions (LxWxH)
+Drop Dimensions (LxWxH)
+if applicable
+
+Silo Loading
+e.g. 3-03-024-04
+for Conveyors
+
+feet
+feet
+
+Emissions Released Inside building?
+
+yes/no
+
+Location of
+Emission
+Source
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+UTM Easting (NAD 83, Zone 11)
+
+m
+
+Operating
+Parameters
+
+Material Type Processed
+Batch Process if applicable
+Stack Height
+Stack Inside Diameter
+Stack Temperature
+Stack Exit Velocity
+Actual Gas Volume Flow Rate
+Dry Gas Volume Flow Rate
+
+Stack
+Parameters
+
+If not included in detailed calculations.
+
+Stack Release Type
+
+unit/batch
+feet
+feet
+ºF
+feet/second
+acfm
+dscfm
+Vertical/Capped/
+Horizontal
+
+Data
+
+Silo Unloading
+
+Liquid Storage Tank Application Form
+
+LIQUID STORAGE TANK APPLICATION FORM
+CLASS I/II OPERATING PERMIT
+Emission Unit Description:
+Identify Utilized Portion of NAC 445B.288(4):
+Description
+Source Classification Code (SCC)
+
+Equipment
+Description
+
+Manufacturer
+Date Manufactured
+Model Number
+Heated Tank
+Shell Height
+Shell Diameter
+Maximum Liquid Height
+Average Liquid Height
+Capacity of Tank
+Shell Color
+Roof Condition
+
+Data
+e.g. 3-03-024-04
+for Conveyors
+
+yes/no
+feet
+feet
+feet
+feet
+gallons
+good/poor
+
+Roof Type
+(Cone, Dome, External, or Internal Floating Roof)
+Roof Height
+Cone Roof Slope
+Dome Roof Radius
+True Vapor Pressure of Liquid
+Reid Vapor Pressure of Liquid
+Orientation of Tank
+Submerged Fill
+[NAC 445B.22093(3)]
+Equipment Dimensions (LxWxH)
+Location of
+Emission
+Source
+
+feet
+feet
+psig
+psig
+Horizontal/Vertical
+yes/no
+feet
+
+UTM Northing (NAD 83, Zone 11)
+
+m
+
+UTM Easting (NAD 83, Zone 11)
+
+m
+
+Liquid Storage Tank Application Form
+
+LIQUID STORAGE TANK APPLICATION FORM
+CLASS I/II OPERATING PERMIT (CONTINUED)
+Emission Unit Description:
+Identify Utilized Portion of NAC 445B.288(4):
+
+Operating
+Parameters
+
+Control
+Equipment
+
+Description
+Material Type
+Maximum Throughput
+Maximum Throughput
+Type of Control
+Control Efficiency
+Pollutant(s) Controlled
+Manufacturer
+Manufacturer’s Guarantee Included?
+
+Volatile
+Organic
+Compounds
+(VOC)
+Emissions
+
+Emission Limit
+
+Other
+Pollutants
+
+Emission Factor (with units)
+Emission Factor Reference
+Emission Limit
+Emission Limit
+
+Data
+gallon/month
+gallon/year
+%
+
+yes/N/A
+
+ton/year
+
+(insert unit)
+pound/hour
+ton/year
+
+INDUSTRIAL PROCESS AND STORAGE SILO DETAILED CALCULATIONS
+
+Unit
+Description
+
+Operating Hours
+
+Daily
+
+Annual
+
+24
+
+8,760
+
+24
+
+8,760
+
+24
+
+8,760
+
+24
+
+8,760
+
+Throughput
+
+Hourly
+
+Annual
+
+*Exact format may be changed, but requested information is still required.
+
+Uncontrolled Emissions
+
+Units
+
+Pollutant
+PM
+PM10
+PM2.5
+PM
+PM10
+PM2.5
+PM
+PM10
+PM2.5
+PM
+PM10
+PM2.5
+
+Factor
+
+Unit
+
+Hourly
+Rate
+(lbs/hr)
+
+References
+Yearly Rate
+(tons/yr)
+
+COMBUSTION EQUIPMENT DETAILED CALCULATIONS
+
+Unit
+Description
+
+Operating Hours
+
+Daily
+
+Annual
+
+24
+
+8,760
+
+24
+
+8,760
+
+24
+
+8,760
+
+Heat Input
+(MMBtu)
+Hourly
+
+Annual
+
+Fuel Usage
+
+Hourly
+
+Annual
+
+*Exact format may be changed, but requested information is still required.
+
+Power Output
+
+Units
+
+Amount
+
+Units
+
+Uncontrolled Emissions
+
+Pollutant
+PM
+PM10
+PM2.5
+SO2
+NOX
+CO
+VOC
+Pb
+Hg
+H2S
+PM
+PM10
+PM2.5
+SO2
+NOX
+CO
+VOC
+Pb
+Hg
+H2S
+PM
+PM10
+PM2.5
+SO2
+NOX
+CO
+VOC
+Pb
+Hg
+H2S
+
+Factor
+
+Unit
+
+Hourly
+Rate
+(lbs/hr)
+
+Yearly
+Rate
+(tons/yr)
+
+References
+
+GREENHOUSE GASES (GHG) DETAILED CALCULATIONS
+
+Unit
+Description
+
+Operating Hours
+
+Daily
+
+Annual
+
+24
+
+8,760
+
+24
+
+8,760
+
+24
+
+8,760
+
+Heat Input
+(MMBtu)
+Hourly
+
+Annual
+
+Fuel Usage
+
+Hourly
+
+*Exact format may be changed, but requested information is still required.
+
+Annual
+
+Uncontrolled Emissions
+
+Units
+
+Pollutant
+CO2
+CH4
+N2O
+CO2
+CH4
+N2O
+CO2
+CH4
+N2O
+
+Factor
+
+GWP
+Multiplier
+1
+25
+298
+1
+25
+298
+1
+25
+298
+
+Unit
+
+Hourly
+Rate
+(lbs/hr)
+
+Yearly
+Rate
+(tons/yr)
+
+References
+
+HAZARDOUS AIR POLLUTANTS (HAPS) DETAILED CALCULATIONS
+
+Unit
+Description
+
+Operating Hours
+
+Daily
+
+Annual
+
+24
+24
+24
+
+8,760
+8,760
+8,760
+
+Heat Input
+(MMBtu)
+Hourly
+
+Annual
+
+*Exact format may be changed, but requested information is still required.
+
+Fuel Usage
+
+Hourly
+
+Annual
+
+Uncontrolled Emissions
+
+Units
+
+Pollutant
+
+Factor
+
+Unit
+
+Hourly
+Rate
+(lbs/hr)
+
+Yearly
+Rate
+(tons/yr)
+
+References
+
+Application Certification
+
+APPLICATION CERTIFICATION DOCUMENT
+(With Required Attachments)
+
+Please check all applicable boxes below to indicate the information provided in your application
+submittal:
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+
+General Company Information Form
+Industrial Process Application Form(s)
+Combustion Equipment Application Form(s)
+Storage Silos Application Form(s)
+Liquid Storage Tank Application Form(s)
+Detailed Emission Calculations for requested IA units
+Manufacturer’s Guarantee if applicable
+Equipment Specifications if applicable
+TANKs Modeling Output if applicable
+Application Fee Attached or Electronically Submitted
+Application Certification Document with Original Responsible Official Signature
+
+The Responsible Official must sign and date this application certification. If the application is signed by a person
+other than the Responsible Official, as defined in NAC 445B.156, the application will be returned as incomplete.
+
+PLEASE NOTE THE FOLLOWING REQUIREMENTS WHICH APPLY TO PERMIT
+APPLICANTS DURING THE APPLICATION PROCESS:
+A.
+B.
+C.
+
+A permit applicant must submit supplementary facts or corrected information upon
+discovery [NAC 445B.297(1)(b)].
+A permit applicant is required to provide any additional information which the
+Director requests in writing within the time specified in the Director's request [NAC
+445B.297(1)(c)].
+Submission of fraudulent data or other information may result in prosecution for an
+alleged criminal offense [NRS 445B.470].
+
+CERTIFICATION:
+I certify that, based on information and belief formed after reasonable inquiry, the statements and
+information contained in this application are true, accurate and complete.
+
+Signature of Responsible Official
+Print or Type Name and Title
+Date
+
+

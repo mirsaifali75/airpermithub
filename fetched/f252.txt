@@ -1,0 +1,182 @@
+New York State Department of Environmental Conservation
+Annual Capping Certification
+As required by 6 NYCRR Part 201-7.1(h), facilities that have been issued a federally enforceable emissions cap
+must certify compliance with that cap on an annual basis. The Department has developed the attached form
+which may be used to comply with this requirement. Completed forms must be submitted to the Regional Air
+Pollution Control Engineer for the DEC Region in which the facility is located. A list of DEC regional offices and
+their contact information is available on the Department’s website at:
+http://www.dec.ny.gov/about/76070.html. Please complete each section of the form as follows:
+I. Certification of Truth, Accuracy, and Completeness
+Facility Information:
+DEC ID: Enter the facility’s DEC ID (found on the facility’s air permit).
+Report Type: Enter the report type.
+Reporting Period: Enter the beginning and ending dates for the reporting period covered by this form.
+Facility Name: Enter the facility name as printed on the air permit. Do not use a colloquial or
+abbreviated name.
+Mailing Address: Enter the complete mailing address for the facility.
+Facility Contact: Enter the name, telephone number, and e-mail address for the facility contact person. The
+contact person entered in this section should be the person most familiar with the day-to-day operation of the
+facility and the details included in the submission (e.g. the plant manager) that is available to be contacted by
+the Department if necessary.
+Responsible Official: Enter the name, mailing address, telephone number, and e-mail address of the
+responsible official. A responsible official is defined in Paragraph 201-2.1(b)(28). The responsible official listed
+in this section must also sign and date the certification line. By signing the certification line, the responsible
+official is certifying that the information contained on the form and any attachments is true, accurate, and
+complete. Note: The responsible official must also sign and date each capping certification form submitted.
+II. Annual Capping Certification Form
+DEC ID: Enter the facility’s DEC ID (found on the facility’s air permit).
+Facility Name: Enter the facility name as printed on the air permit. Do not use a colloquial or
+abbreviated name.
+Reporting Period: Enter the beginning and ending dates for the reporting period covered by this form.
+Capped Regulation: Enter the regulation for which the facility has accepted an emissions cap. The
+regulation should be entered as stated in the facility’s permit.
+
+Contaminant Name: Enter the name of the contaminant that is being capped. A separate form must
+be filled out for each individual contaminant capped at the facility.
+CAS No.: Enter the Chemical Abstract Series (CAS) number for the capped contaminant. A separate
+form must be filled out for each individual contaminant capped at the facility.
+Capping Parameter/Limit: Enter the capping parameter and limit as stated in the permit. Include the
+units of measurement applicable to the limit (i.e. NOx emissions / 24 tons per year; Residual oil burned
+/ 1 million gallons per year; etc.).
+Permit Level: Enter the permit level where the cap applies (i.e. Facility, Emission Unit, Emission Source,
+Emission Point, Process, or combination). For a level other than facility, indicate the ID numbers
+involved as given in the permit.
+Method Used to Determine Emissions: Enter the method used to determine compliance with the cap
+(i.e. CEMS data, fuel analysis, coating VOC analysis etc.). For emission units where a CEMS is used to
+measure emissions, a secondary method must be used to estimate emissions during periods when the
+CEMS did not operate. Note: emissions from all periods of operation must be accounted for when
+determining compliance with an emissions cap.
+Emissions Data:
+Month and Year: Enter the month and year for the emissions described in this row.
+Monthly Total Emissions: Enter the monthly total emissions for the contaminant listed above during
+the month and year indicated. Include any formulas and/or calculations that were used to verify
+compliance with the emissions cap as an attachment to the capping certification form.
+12 Month Rolling Total Emissions: Enter the 12 month rolling total for the 12-month period that
+includes the listed Month and Year. The 12-month period is defined in Paragraph 201-2.1(b)(1). The
+12 month rolling total is not required for emissions caps that involve a monthly limit rather than an
+annual limit. Include any formulas and/or calculations that were used to verify compliance with the
+emissions cap as an attachment to the capping certification form.
+Note: For limits on a basis other than monthly or annual, contact the appropriate DEC Regional Office
+for instructions on what format is acceptable for reporting. A list of DEC regional offices and their
+contact information is available on the Department’s website at:
+http://www.dec.ny.gov/about/76070.html.
+The responsible official named in Section I of the form must also sign and date each capping form
+submitted.
+
+New York State Department of Environmental Conservation
+Annual Capping Certification
+
+
+DEC ID
+
+Sheet _____ of _____
+
+
+
+Report Type
+
+Reporting Period
+
+/
+
+/
+
+to
+
+/
+
+/
+
+Facility Information
+Facility Name
+Mailing Address
+City
+
+State/Province
+
+Country
+
+Zip
+
+Country
+
+Zip
+
+Facility Contact
+Contact Name
+Title
+Telephone (
+
+)
+
+E-mail Address
+
+Responsible Official
+Name
+Title
+Mailing Address
+City
+Telephone (
+
+State/Province
+)
+
+E-mail Address
+
+Certification
+I certify, under penalty of law, that based on information and belief formed after reasonable inquiry, the statements and
+information contained in these documents are true, accurate, and complete.
+Signature of Responsible Official
+Date
+
+Version 2 - 3/30/2015
+
+New York State Department of Environmental Conservation
+Annual Capping Certification
+
+
+DEC ID
+
+Sheet _____ of _____
+
+
+
+Facility Name
+
+Reporting Period
+
+/
+
+/
+
+to
+
+/
+
+/
+
+Capped Regulation
+Contaminant Name
+
+CAS No.
+
+Capping Parameter/Limit
+Permit Level
+Method Used to Determine Emissions
+
+Emissions Data
+Month and Year
+
+Monthly Total Emissions
+
+12 Month Rolling Total Emissions
+
+Certification
+I certify that the above mentioned facility was in compliance with the permitted limit on a twelve month rolling basis
+
+Signature of Responsible Official
+Date
+
+Version 2 - 3/30/2015
+
+

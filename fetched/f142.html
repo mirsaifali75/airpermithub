@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" class="no-js" ng-strict-di>
+<!-- Last Built: 9/23/2026 12:06:43 AM -->
+<head>
+    <base href="/ext/ncore/">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Combined Environmental Regulatory Information System - North Dakota" />
+    <meta name="keywords" content="permit, permits, permitting, environment, environmental, apply" />
+    <meta name="author" content="Windsor Solutions, Inc. http://www.windsorsolutions.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="NOFOLLOW" />
+    <meta name="robots" content="NOINDEX" ng-if="!appSettings.isProduction" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/ext/ncore/Content/org-specific/nddeq/apple-touch-icon-152x152-precomposed.png?v=6C2E6BB99835561D2">
+<link rel="icon" href="/ext/ncore/Content/org-specific/nddeq/favicon.png?v=6C2E6BB99835561D">
+    <title wnd-page-title ng-bind="document.title || (title ? title + ' - CERIS-ND' : 'CERIS-ND')"></title>
+    <link rel="stylesheet" href="/ext/ncore/Content/nddeq.css?v=2026.1.0&#x2B;aa68515656" type="text/css" />
+    <script src="/ext/ncore/Scripts/lib/modernizr/modernizr.custom.16606.js" type="text/javascript"></script>
+
+    <script>
+        var g_togeojsonKml;
+    </script>
+    <script type="module">
+        import { kml } from "./Scripts/lib/togeojson/togeojson.js";
+        g_togeojsonKml = kml;
+    </script>
+
+    <script>
+        if (window.location.hash === "#/") {
+            console.log("Stripped hash from URL...  redirecting.");
+            window.location.hash = '';
+            window.location.reload();
+        }
+
+        var ENV_SETTINGS = {};
+        // Slurp 'ENV_KEYS' settings from backend applicationconfiglookups into the global javascript variable 'ENV_SETTINGS'.
+        // This mirrors the MiWaters legacy behavior where ENV_KEYS.* values come from the service.
+                    ENV_SETTINGS['AGENCY_DISP_TEXT'] = '';
+                    ENV_SETTINGS['APP_LOGO_IMG_ALT_TEXT'] = '';
+                    ENV_SETTINGS['APP_LOGO_IMG_PATH'] = '';
+                    ENV_SETTINGS['INVALID_TEMPLOGIN_CNT'] = '';
+                    ENV_SETTINGS['INVALID_TEMPLOGIN_COOLDOWN_MINUTES'] = '';
+                    ENV_SETTINGS['INVALID_TEMPLOGIN_DURATION_MINUTES'] = '';
+                    ENV_SETTINGS['MAINTENANCE.CUSTOM_TEMPLATE'] = '';
+                    ENV_SETTINGS['MAINTENANCE.EXTERNAL_LINK.LABEL'] = '';
+                    ENV_SETTINGS['MAINTENANCE.EXTERNAL_LINK.URL'] = '';
+                    ENV_SETTINGS['MULTI_RECVBL_RCPT'] = 0;
+                    ENV_SETTINGS['RESET_PASSWORD_RECAPTCHA'] = 0;
+                    ENV_SETTINGS['EXT_USER.VRFN_CODE_ENABLED'] = 0;
+                    ENV_SETTINGS['EXTERNAL_CMPL_ACTN_NUMBER.ENABLED'] = 0;
+                    ENV_SETTINGS['IDLE_WARNING_SECONDS'] = 0;
+                    ENV_SETTINGS['APP_HELP.URL_2.SHOW_EXT'] = 0;
+                    ENV_SETTINGS['APP_HELP.URL_2.SHOW_INT'] = 0;
+                    ENV_SETTINGS['APP_HELP.URL.SHOW_EXT'] = 0;
+                    ENV_SETTINGS['APP_HELP.URL.SHOW_INT'] = 1;
+                    ENV_SETTINGS['EXT_USER.CLAIM_SITE_ENABLED'] = 1;
+                    ENV_SETTINGS['PAYABLE_ITM_OPEN_DELETE_SHOW'] = 1;
+                    ENV_SETTINGS['LONGITUDE'] = -101.0020;
+                    ENV_SETTINGS['LATITUDE'] = 47.5515;
+                    ENV_SETTINGS['ZOOM_EXTENT'] = 6;
+                    ENV_SETTINGS['APP_NAME'] = 'CERIS-ND';
+                    ENV_SETTINGS['APP_TITLE'] = 'Combined Environmental Regulatory Information System - North Dakota';
+                    ENV_SETTINGS['META_DESCR'] = 'Combined Environmental Regulatory Information System - North Dakota';
+                    ENV_SETTINGS['AGENCY_IMG_PATH'] = 'content/org-specific/nddeq/images/organization-logo.png';
+                    ENV_SETTINGS['HIDE_APP_HOME_LOGO'] = 'false';
+                    ENV_SETTINGS['APP_HELP.URL_2'] = 'http://windsorsolutions.com';
+                    ENV_SETTINGS['AGENCY_URL'] = 'https://deq.nd.gov/';
+                    ENV_SETTINGS['APP_LOGO_LINK_URL'] = 'https://deq.nd.gov/';
+                    ENV_SETTINGS['ABOUT_URL'] = 'https://deq.nd.gov/ceris-nd/default.aspx#About';
+                    ENV_SETTINGS['CONTACT_URL'] = 'https://deq.nd.gov/ceris-nd/default.aspx#Contacts';
+                    ENV_SETTINGS['APP_HELP.URL'] = 'https://windsorsolutions.atlassian.net/wiki/spaces/WindsorSupport/overview';
+                    ENV_SETTINGS['STATE_INITIALS'] = 'ND';
+                    ENV_SETTINGS['THEME_NAME'] = 'nddeq';
+                    ENV_SETTINGS['EMAIL_DFLT_FROM_ADDR'] = 'noreply@nd.gov';
+                    ENV_SETTINGS['AGENCY_HOVER_TEXT'] = 'North Dakota Department of Environmental Quality Homepage';
+                    ENV_SETTINGS['APP_HELP.URL_2.TITLE'] = 'Online Help Link #2';
+                    ENV_SETTINGS['META_KEYWORDS'] = 'permit, permits, permitting, environment, environmental, apply';
+                    ENV_SETTINGS['APP_HELP.URL.TITLE'] = 'Product Support Wiki';
+                    ENV_SETTINGS['SPATIAL_EDITOR_BASE_LAYER'] = 'Street';
+        ENV_SETTINGS['ncore.app.min.js.hash'] = '6C2E6BB99835561D';
+
+        var versionInfo = "2026.1.0+aa68515656";
+
+        if (!!ENV_SETTINGS['AssemblyVersion']) {
+            console.warn('Overwriting existing ENV_SETTINGS[AssemblyVersion] value "' + ENV_SETTINGS['AssemblyVersion'] + '" with a new value from the DLL derived build info.');
+        }
+
+        if (!versionInfo) {
+            console.warn('Missing DLL derived assembly version information.');
+        } else {
+            // Handle both old format "1.0.0 (changeset)" and new format "1.0.0+commitHash"
+            var buildNumber, changeset;
+            if (versionInfo.indexOf('+') > 0) {
+                // New format: "1.0.0+commitHash"
+                var plusIndex = versionInfo.indexOf('+');
+                buildNumber = versionInfo.substring(0, plusIndex);
+                changeset = versionInfo.substring(plusIndex + 1);
+            } else {
+                // Old format: "1.0.0 (changeset)"
+                var parts = versionInfo.split(' ');
+                buildNumber = parts[0];
+                changeset = parts[1] ? parts[1].replace('(', '').replace(')', '') : '';
+            }
+            ENV_SETTINGS['AssemblyBuildNumber'] = buildNumber;
+            ENV_SETTINGS['AssemblyChangeset'] = changeset;
+
+            if (!ENV_SETTINGS['AssemblyChangeset']) {
+                console.warn('Failed to derive changeset from DLL derived app version info: "' + versionInfo + '".');
+            } else {
+                console.log('nCORE cs#' + ENV_SETTINGS['AssemblyChangeset']);
+                console.log('AssemblyBuildNumber ' + ENV_SETTINGS['AssemblyBuildNumber']);
+                console.log('nviroVersion 2026.01.09');
+            }
+        }
+
+        var g_DefaultDocumentTemplateEditorType = 'aceOffix';
+        var g_IsActiveDirectoryEnabled = 'False' === 'True';
+        var g_IsOpenIdConnectEnabled = 'True' === 'True';
+        var g_IsChatEnabled = 'False' === 'True';
+        var g_IsAiSummarizeEnabled = 'False' === 'True';
+
+        var ACEOFFIX_DOCUMENT_TEMPLATE_EDITOR_TYPE = 'aceOffix';
+        var MIME_TYPE_DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+        var MIME_TYPE_DOC = 'application/msword';
+        function isEqualToIgnoreCase(str1, str2) {
+            if (!angular.isString(str1) || !angular.isString(str2)) return false;
+            return str1.toLowerCase() === str2.toLowerCase();
+        };
+        var g_IsAceoffixEditorAllowed = true;
+        var g_IsAceoffixEditorAvailable = g_IsAceoffixEditorAllowed;
+        var g_OpenAceoffixUsingIEWindow = true;
+        var g_IsRunningInsideAceoffixBrowser = false;
+        var is_wkhtmltopdf_context = navigator.userAgent && (navigator.userAgent.indexOf('wkhtmltopdf') > 0);
+        if (is_wkhtmltopdf_context) {
+            g_OpenAceoffixUsingIEWindow = false;
+            g_IsAceoffixEditorAvailable = false;
+        }
+        if (g_IsAceoffixEditorAvailable) {
+            if (!g_OpenAceoffixUsingIEWindow) {
+                if ((navigator.userAgent.indexOf('MSIE') > 0) || (navigator.userAgent.indexOf('Trident') > 0) ||
+                    (navigator.userAgent.indexOf('Firefox') > 0)) {
+                    g_IsAceoffixEditorAvailable = true;
+                } else {
+                    g_IsAceoffixEditorAvailable = false;
+                }
+            } else {
+                // If we are opening Aceoffix in a separate IE window, Aceoffix will work with all browsers, so do not need to do the above check.
+                // Aceoffix is supposed to give us an update soon that will provide a more reliable check than this:
+                g_IsRunningInsideAceoffixBrowser =
+                    (window.external && window.external.name && (window.external.name.toLowerCase().indexOf('acebrowser') >= 0)) ? true : false;
+            }
+        }
+        var g_RenderContentOnly = g_IsRunningInsideAceoffixBrowser;
+        if (!g_IsAceoffixEditorAvailable) {
+            g_OpenAceoffixUsingIEWindow = false;
+        }
+    </script>
+        <script type="text/javascript">
+            var g_RecaptchaIsLoaded = false;
+            var recaptchaOnloadCallback = function () {
+                g_RecaptchaIsLoaded = true;
+            };
+
+            if (!g_IsRunningInsideAceoffixBrowser) {
+                const newScript = document.createElement("script");
+                newScript.onerror = function loadError(oError) {
+                    throw new URIError("The script " + oError.target.src + " didn't load correctly.");
+                }
+                document.currentScript.parentNode.insertBefore(newScript, document.currentScript);
+                newScript.src = "https://www.google.com/recaptcha/api.js?onload=recaptchaOnloadCallback&render=explicit"
+            }
+        </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    </script>
+
+    
+</head>
+<body>
+    <div id="MainCtrl" ng-controller="MainCtrl" class="full-height" ng-class="{'print-view': printView.show, 'appEnvironment--special': (!appSettings.isProduction), 'hideMainNavbar': $state.current.data.hideMainNavbar}">
+
+        <!-- GLOBAL NAV BAR -->
+        <div id="AppGlobalNavBar" class="navbar-fixed-top hide-internal-links" ng-if="!doRenderContentOnly" ng-class="{'hide-internal-links': !allViewsLoaded}">
+            <div class="navbar-container" role="navigation" ng-cloak>
+
+    <a href="#ContentViewport" class="skip" onclick="event.preventDefault(); document.getElementById('ContentViewport').focus();">Skip to main content</a>
+    
+    <div class="left-block" ng-class="{'internal-user': user.isAuthenticated && !user.isExternal, 'external-user': user.isAuthenticated && user.isExternal}">
+        <div class="hamburger-menu">
+            <a id="hamburgerMenuPanelToggle" ng-click="togglePanel('hamburgerMenuPanel')" role="button">
+                <img src="Content/Images/SVG/fontawesome/regular/bars.svg" wnd-svg-injector />
+            </a>
+            <div class="panel-outer-container" ng-if="hamburgerMenuPanelOpen">
+                <div class="panel-container hamburger-menu-panel" id="hamburgerMenuPanel" role="menu">
+                    <navbar-primary-nav user="user" hamburger="true" close-panel="closePanel" ng-if="user.isAuthenticated"></navbar-primary-nav>
+                    <navbar-other-apps user="user" hamburger="true" close-panel="closePanel" ng-if="showOtherAppsPanel"></navbar-other-apps>
+                    <navbar-agency-links hamburger="true" close-panel="closePanel"></navbar-agency-links>
+                </div>
+            </div>
+        </div>
+        <navbar-action-icon-and-panel
+            ng-if="showOtherAppsPanel"
+            panel-name="'other-apps'"
+            icon="'Content/Images/SVG/fontawesome/solid/grid.svg'"
+            anchor-from-side="'left'"
+        >
+            <div class="panel-heading">
+                <span>
+                    Other Apps
+                </span>
+            </div>
+            <navbar-other-apps user="user"></navbar-other-apps>
+        </navbar-action-icon-and-panel>
+        <div role="menu" class="split-button">
+            <a title="{{appSettings.appLogoImgAltText}}" ui-sref="landing" role="menuitem">
+                <div class="logo-container" ng-class="{open: clientPanelOpen}">
+                    <!-- LOGO -->
+                    <img ng-src="{{appSettings.appLogoImgPath}}" alt="{{appSettings.appLogoImgAltText}}" ng-if="appSettings.appLogoImgPath.length" />
+                    <!-- NO LOGO -->
+                    <span ng-if="!appSettings.appLogoImgPath.length">
+                        {{appSettings.appName}}
+                    </span>
+                </div>
+            </a>
+            <div class="down-arrow-container" id="clientPanelToggle" ng-click="togglePanel('clientPanel')" ng-class="{open: clientPanelOpen}" role="button">
+                <img src="Content/Images/SVG/fontawesome/solid/chevron-down.svg" wnd-svg-injector />
+            </div>
+            <div class="panel-outer-container" ng-if="clientPanelOpen">
+                <div class="panel-container split-button-panel" id="clientPanel" role="menu">
+                    <navbar-agency-links></navbar-agency-links>
+                </div>
+            </div>
+        </div>
+        <navbar-primary-nav class="primary-nav-container" ng-if="user.isAuthenticated" user="user"></navbar-primary-nav>
+        <div class="env-indicator" ng-if="!appSettings.isProduction" title="{{appSettings.notificationEnvironmentName}}">
+            {{appSettings.notificationEnvironmentName}}
+        </div>
+    </div>
+    <div class="right-block">
+        <navbar-search user="user"></navbar-search>
+        <navbar-action-icons show-on-mobile="false" ai-chat-clicked="aiChatClicked" chat-enabled="chatEnabled" show-other-apps-panel="showOtherAppsPanel" user="user"></navbar-action-icons>
+        <div class="kebab-menu" id="kebabMenuToggle" ng-if="user.isAuthenticated">
+            <a ng-click="togglePanel('kebabMenu')" role="button">
+                <img src="Content/Images/SVG/fontawesome/regular/ellipsis-vertical.svg" wnd-svg-injector />
+            </a>
+            <div class="panel-outer-container" ng-if="kebabMenuOpen">
+                <div class="panel-container" id="kebabMenu">
+                    <navbar-action-icons show-on-mobile="true" ai-chat-clicked="aiChatClicked" chat-enabled="chatEnabled" show-other-apps-panel="showOtherAppsPanel" user="user"></navbar-action-icons>
+                </div>
+            </div>
+        </div>
+        <div class="signed-out-user" ng-if="!user.isAuthenticated">
+            <ul role="menu" class="menu-button-container">
+                <a ui-sref="signin"
+                    title="Sign in"
+                    role="menuitem"
+                    class="sign-in"
+                    ng-class="{'hide-while-active': $state.current.name === 'signin'}"
+                >
+                    <li class="menu-button-item">
+                        <span>
+                            Sign In
+                        </span>
+                    </li>
+                </a>
+                <a ui-sref="createAccount"
+                    ng-if="canCreateAccount"
+                    title="Create an account"
+                    role="menuitem"
+                    class="create-user"
+                    ng-class="{'hide-while-active': $state.current.name === 'createAccount'}"
+                >
+                    <li class="menu-button-item">
+                        <span>
+                            Create Account
+                        </span>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/ng-template" id="idle-monitor-warning-dialog.html">
+    <div wnd-modal-label="idleMonitorWarningDialogTitle" class="pseudo-modal pseudo-modal--animate">
+        <div class="main">
+            <div class="logo-center"></div>
+            <div class="message">
+                <h1 id="idleMonitorWarningDialogTitle" class="pseudo-modal-title">Inactive session warning!</h1>
+                <hr class="message-separator">
+            </div>
+            <div idle-countdown="countdown" ng-init="countdown=ENV_SETTINGS.IDLE_WARNING_SECONDS" class="modal-body">
+                <!-- note: bug in progressbar requires hard-coding the 'max' value, hence using appSettings instead of ENV_SETTINGS.IDLE_WARNING_SECONDS -->
+                <uib-progressbar max="appSettings.idleWarningSeconds" value="countdown" animate="true" class="progress-striped active" type="warning">You will be signed out in {{countdown}} second(s).</uib-progressbar>
+                <!--<uib-progressbar max="100" ng-if="ENV_SETTINGS['IDLE_WARNING_SECONDS']" value="countdown * 100 / parseInt(ENV_SETTINGS.IDLE_WARNING_SECONDS)" animate="true" class="progress-striped active" type="warning">{{ENV_SETTINGS['IDLE_WARNING_SECONDS']}} You will be logged out in {{countdown}} second(s).</uib-progressbar>-->
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/ng-template" id="idle-monitor-timed-out-dialog.html">
+    <div wnd-modal-label="idleMonitorTimedOutDialogTitle" class="modal-body">
+        <h3 id="idleMonitorTimedOutDialogTitle" class="sr-only">Session Timed Out</h3>
+        <p>
+            You have been signed out due to inactivity.
+        </p>
+    </div>
+</script>
+
+        </div>
+
+        <div class="banner-alert system-announcements" ng-if="(systemAnnouncementCount > 0)" ng-class="{'expanded': systemAnnouncementsExpanded, 'active': (systemAnnouncementCount > 0)}">
+            <ul>
+                <li ng-repeat="announcement in activeSystemAnnouncements" wnd-banner-alert-msg="{{announcement.announcementMessage}}" read-more="true" dismissable="true" ng-if="!announcement.dismissed"></li>
+            </ul>
+            <a tabindex="0" role="button" class="hide-announcements" ng-show="systemAnnouncementsExpanded" ng-click="toggleSystemAnnouncementsExpand()">(collapse)</a>
+        </div>
+
+        <loading-spinner container-classes="auth-spinner" is-active="spinnerActive"></loading-spinner>
+        <div id="AppMainViewport" class="main-viewport" ng-class="{'aceoffix-banner-spacing': doRenderContentOnly && systemAnnouncementCount > 0}">
+
+            <!-- MAIN SIDEBAR -->
+            <div class="full-height sidebar main-sidebar"
+                 role="complementary"
+                 id="Sidebar"
+                 ng-class="{collapsed: sidebar.isCollapsed}"
+                 ng-if="user.isAuthenticated && !renderContentOnly && ($state.includes('**.site.**') || $state.includes('**.beach.**') || $state.includes('**.admin.**') || $state.includes('**.adminx.**')) && !$state.includes('**.site.new')"
+                 wnd-main-sidebar></div>
+
+            <!-- MAIN CONTENT -->
+            <!--changed from div to main tag for ADA skip to main on every page-->
+            <main id="ContentViewport" tabindex="-1" class="content-viewport content-main" role="main">
+                <div class="content-viewport-ui-view content-viewport-ui-view--outer" ui-view>
+                    
+                </div>
+            </main>
+
+        </div>
+        <div class="full-overlay app-loader" ng-show="!allViewsLoaded">
+            <div class="loading-bar-container">
+                <span class="loading-message hide-opacity fade-in">Getting things ready...</span>
+            </div>
+        </div>
+        <div class="page-alerts">
+            <div class="wnd-page-notification"></div>
+            <wnd-chat ng-if="chatOpen && chatEnabled && security.getUser().isAuthenticated"></wnd-chat>
+        </div>
+    </div>
+    <script>
+        function browserRejectMsg() {
+            var body = document.getElementsByTagName("BODY")[0];
+            var mainCtrl = document.getElementById('MainCtrl');
+            var warningText = navigator.userAgent && navigator.userAgent +
+                "<div id=\"BrowserIncompatible\">" +
+                "    <h1 class=\"inline-error\">Sorry, your browser appears to be out of date.</h1>" +
+                "      <p>The following browsers are supported:</p>" +
+                "      <ul>" +
+                "          <li>IE11 or later</li>" +
+                "          <li>Chrome version 43.0.2357 or later</li>" +
+                "          <li>Firefox 38.0.5 or later</li>" +
+                "      </ul>" +
+                "  </div>"
+            var warningObj = document.createElement("div");
+            warningObj.innerHTML = warningText;
+            var newWarningObj = body.insertBefore(warningObj, mainCtrl);
+            body.removeChild(mainCtrl);
+        }
+        if (!Modernizr.flexbox || !Modernizr.inlinesvg || navigator.appVersion.indexOf("MSIE 10") !== -1) {
+            if (!is_wkhtmltopdf_context) {
+                browserRejectMsg();
+                document.execCommand("Stop");
+            }
+        }
+        if (g_RenderContentOnly) {
+            document.getElementById('AppGlobalNavBar').className += ' hide';
+            var el1 = document.getElementById('AppMainViewport');
+            el1.style.top = '0px';
+            el1.style.height = '100%';
+            el1.style.maxHeight = '100%';
+        }
+    </script>
+            <!-- Production mode - use both minified bundles -->
+            <script src="/ext/ncore/Scripts/ncore.lib.min.js?DF9A842D88B00C76" type="text/javascript"></script>
+            <script src="/ext/ncore/Scripts/ncore.app.min.js?6C2E6BB99835561D" type="text/javascript"></script>
+        <script type="module" src="/ext/ncore/Scripts/app/components/pdf-preview.component.js?v=6C2E6BB99835561D"></script>
+        <script type="module" src="/ext/ncore/Scripts/app/services/wnd-ol-loader-util.js?v=6C2E6BB99835561D"></script>
+    <script>
+        (function (angular) {
+            "use strict";
+
+            angular.module('app.constants').constant('vroot', '/ext/ncore/');
+            angular.module('app.constants').constant('helpMappings', [{"pageUrl":"\\/home\\/mytasks","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778769"},{"pageUrl":"\\/sitesearch\\/basic","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1020657665"},{"pageUrl":"\\/sitesearch\\/advanced","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1020657665"},{"pageUrl":"\\/site\\/edit\\/detail.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778784"},{"pageUrl":"\\/site\\/edit\\/contacts.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778784"},{"pageUrl":"\\/site\\/edit\\/documents.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778784"},{"pageUrl":"\\/site\\/edit\\/events.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778784"},{"pageUrl":"\\/site\\/edit\\/relatedSites\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=590053341"},{"pageUrl":"\\/site\\/edit\\/programcomponents","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778784"},{"pageUrl":"\\/site\\/edit\\/plan","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778719"},{"pageUrl":"\\/site\\/authorizedUsers.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=970588161"},{"pageUrl":"\\/site\\/documents","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=592249012"},{"pageUrl":"\\/site\\/dashboard","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=907837441"},{"pageUrl":"\\/submissions\\/inbox","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778771"},{"pageUrl":"\\/submissions\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1021968553"},{"pageUrl":"\\/site\\/submissions\\/list.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1021968553"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778775"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/scheduledetail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=911769601"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/dmrdetail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=579174183"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/workflow","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778775"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/documents.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778775"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/events","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778775"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/contacts.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778775"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/programcomponents","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778775"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/holds","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778775"},{"pageUrl":"\\/site\\/submissions\\/edit\\/[-0-9]\u002B\\/features","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778775"},{"pageUrl":"\\/site\\/submissions\\/publicNotice.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=564592956"},{"pageUrl":"\\/permits\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1022164993"},{"pageUrl":"\\/site\\/permits\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1022164993"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/contacts.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/documents.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/events","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/socs.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/features","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/events.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/limits","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=899121157"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/periodicinvoicing","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/programcomponents","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/relatedpermits","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/site\\/permits\\/edit\\/[-0-9]\u002B\\/financialassurance","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778780"},{"pageUrl":"\\/evaluation\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1034092545"},{"pageUrl":"\\/site\\/evaluation\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1034092545"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/contacts.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/documents.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/violations.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778252"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/workflow.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/events","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/programcomponents","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/related","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/results","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/evaluation\\/[-0-9]\u002B\\/samples","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778782"},{"pageUrl":"\\/site\\/compliance\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1034125313"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/workflow.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/documents.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/violations.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778252"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/socs.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/financialassurance","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/relatedactions.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/expenses.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/events","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/contacts.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/compliance\\/edit\\/[-0-9]\u002B\\/programcomponents","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778788"},{"pageUrl":"\\/site\\/violations.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778252"},{"pageUrl":"\\/project\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=564592623"},{"pageUrl":"\\/site\\/project\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=564592623"},{"pageUrl":"\\/site\\/project\\/edit.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=564592627"},{"pageUrl":"\\/financial\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1049788486"},{"pageUrl":"\\/site\\/financial\\/.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1049788486"},{"pageUrl":"\\/financialassurance.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1187020805"},{"pageUrl":"\\/site\\/financialassurance.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1187119109"},{"pageUrl":"\\/site\\/financialinstruments.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1187020805"},{"pageUrl":"\\/site\\/submissions\\/dmrList","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=579174183"},{"pageUrl":"\\/site\\/dmr\\/dmrList","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=579174183"},{"pageUrl":"\\/site\\/dmr\\/edit.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=579174183"},{"pageUrl":"\\/site\\/dmr\\/upload","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=566462166"},{"pageUrl":"\\/site\\/hazardouswastepermits\\/units\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/site\\/hazardouswastepermits\\/units\\/edit\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/site\\/hazardouswastepermits\\/units\\/edit\\/[-0-9]\u002B\\/events\\/linked","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/site\\/hazardouswastepermits\\/units\\/edit\\/[-0-9]\u002B\\/events\\/edit\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/site\\/hazardouswastepermits\\/events\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/site\\/hazardouswastepermits\\/events\\/edit\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/site\\/correctiveactions\\/areas.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/site\\/correctiveactions\\/events.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/site\\/correctiveactions\\/authorities.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/home\\/notifications","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=564592545"},{"pageUrl":"\\/site\\/home\\/notifications","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=564592545"},{"pageUrl":"\\/communicationlog\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/communicationlog\\/edit\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/hazardouswastepermits\\/units\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"site\\/hazardouswastepermits.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/evaluationplan.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1034125373"},{"pageUrl":"\\/securityquestions","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/admin","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=560693150"},{"pageUrl":"\\/admin\\/portfolio.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=566461046"},{"pageUrl":"\\/admin\\/docset.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=584646382"},{"pageUrl":"\\/admin\\/user\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=560693775"},{"pageUrl":"\\/admin\\/user\\/edit.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=560693775"},{"pageUrl":"\\/admin\\/usernotification\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=564592545"},{"pageUrl":"\\/admin\\/group.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=560693787"},{"pageUrl":"\\/adminx\\/templating.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778266"},{"pageUrl":"\\/admin\\/form\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746491"},{"pageUrl":"\\/admin\\/form\\/edit\\/[-0-9]\u002B\\/detail","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=919437400"},{"pageUrl":"\\/admin\\/form\\/edit\\/[-0-9]\u002B\\/deadlines","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1690271749"},{"pageUrl":"\\/admin\\/form\\/edit\\/[-0-9]\u002B\\/workflows","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1690238981"},{"pageUrl":"\\/admin\\/form\\/edit\\/[-0-9]\u002B\\/workgroups","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1690632204"},{"pageUrl":"\\/admin\\/form\\/edit\\/[-0-9]\u002B\\/formsets","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1690730499"},{"pageUrl":"\\/admin\\/form\\/edit\\/[-0-9]\u002B\\/tags","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1689944089"},{"pageUrl":"\\/admin\\/form\\/edit\\/[-0-9]\u002B\\/dependencies","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1689878559"},{"pageUrl":"\\/admin\\/formSets.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778753"},{"pageUrl":"\\/admin\\/icisnpdes.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=995360796"},{"pageUrl":"\\/admin\\/workflowtemplate.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746543"},{"pageUrl":"\\/admin\\/workgroup.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778274"},{"pageUrl":"\\/admin\\/limitset.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1208418305"},{"pageUrl":"\\/adminx\\/templating\\/notification.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=582713131"},{"pageUrl":"\\/admin\\/systemannouncement.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746360"},{"pageUrl":"\\/admin\\/invoices.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=584646373"},{"pageUrl":"\\/admin\\/systemaction.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=553746318"},{"pageUrl":"\\/admin\\/pendingRequest\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=560693150"},{"pageUrl":"\\/admin\\/joinRequest\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=584646386"},{"pageUrl":"\\/admin\\/servertask\\/task\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=560693150"},{"pageUrl":"\\/admin\\/servertask\\/activitylog\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=560693150"},{"pageUrl":"\\/admin\\/api","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1607827473"},{"pageUrl":"\\/admin\\/lookup\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/activity.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/affiliationtype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1892024344"},{"pageUrl":"\\/admin\\/lookup\\/AlertType.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=592248848"},{"pageUrl":"\\/admin\\/lookup\\/complianceactionstatustransitions.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=2409005057"},{"pageUrl":"\\/admin\\/lookup\\/ComplianceActionType.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778687"},{"pageUrl":"\\/admin\\/lookup\\/ComponentType.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=600932075"},{"pageUrl":"\\/admin\\/lookup\\/deploymentSettingList","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/districtOffices.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1549631490"},{"pageUrl":"\\/admin\\/lookup\\/DocumentCategories.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1219035137"},{"pageUrl":"\\/admin\\/lookup\\/evaluationTypes.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778684"},{"pageUrl":"\\/admin\\/lookup\\/eventtype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1275166769"},{"pageUrl":"\\/admin\\/lookup\\/expensetype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/featureType.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=876445699"},{"pageUrl":"\\/admin\\/lookup\\/feeCategory.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=566460562"},{"pageUrl":"\\/admin\\/lookup\\/feeType.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=566460566"},{"pageUrl":"\\/admin\\/lookup\\/holiday","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/holiday\\/list","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/lug.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/parameter.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/parameterContext.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/parameterRange.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/periodicInvoice.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/permitCategory.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778239"},{"pageUrl":"\\/admin\\/lookup\\/permitcondition.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=579174296"},{"pageUrl":"\\/admin\\/lookup\\/permittype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=564593011"},{"pageUrl":"\\/admin\\/lookup\\/projectCategory.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=590053179"},{"pageUrl":"\\/admin\\/lookup\\/projectType.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=590053225"},{"pageUrl":"\\/admin\\/lookup\\/receivingwaters.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/scheduletype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778882"},{"pageUrl":"\\/admin\\/lookup\\/sitetype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=587071334"},{"pageUrl":"\\/admin\\/lookup\\/refsitealternativename.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=587071334"},{"pageUrl":"\\/admin\\/lookup\\/spatiallayer.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=560693017"},{"pageUrl":"\\/admin\\/lookup\\/actiontype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/violationcategory.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778040"},{"pageUrl":"\\/admin\\/lookup\\/ViolationStatus.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/violationtype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778040"},{"pageUrl":"\\/admin\\/lookup\\/violationcategorytype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778040"},{"pageUrl":"\\/admin\\/lookup\\/waterbodies.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=555778674"},{"pageUrl":"\\/admin\\/lookup\\/roletype.\u002B","helpUrl":"https://windsorsolutions.atlassian.net/wiki/pages/viewpage.action?pageId=1259077633"}]);
+            angular.module('app.constants').constant('appSettings', {"appName":"CERIS-ND","themeName":"nddeq","metaDescription":"Combined Environmental Regulatory Information System - North Dakota","metaKeywords":"permit, permits, permitting, environment, environmental, apply","appDeployId":"NDDEQ","appServerTypeId":"EXTERNAL","authType":"AzureB2C","enableMetadataCache":true,"enableTemplateCache":true,"maxFileSize":4096000000,"docUploadChunkSize":500000,"idleWarningSeconds":0,"defaultEmailFromAddress":"noreply@nd.gov","docUploadSecurityTypeDefault":"PUBL","maxListRowsReturned":300,"nCoreBaseUrl":"https://ceris.deq.nd.gov/ext/ncore/","nFormBaseUrl":"https://ceris.deq.nd.gov/ext/nform/","nSiteBaseUrl":"https://ceris.deq.nd.gov/ext/nsite/","nSiteMode":"default","nVisageBaseUrl":"https://ceris.deq.nd.gov/ext/nvisage/","nSpectBaseUrl":"https://ceris.deq.nd.gov/ext/nspect/","sleisBaseUrl":null,"sessionIdName":"windsor-nsuite-prod-nddeq-external","wcsUrl":"https://ceris.deq.nd.gov/ext/windsorcomponentserver/","nviroVersion":"2026.01.09","appBaseUrl":"https://ceris.deq.nd.gov","servicesHostName":"NSuite Prod NDDEQ External App Server","aboutUrl":"https://deq.nd.gov/ceris-nd/default.aspx#About","contactUrl":"https://deq.nd.gov/ceris-nd/default.aspx#Contacts","emailSupportAddress":"CERIS-ND@nd.gov","notificationEnvironmentName":"Prod NDDEQ External","loginAgreementText":"\u003Cp\u003EUnauthorized use of this system is prohibited and violators may be subject to criminal or civil penalties, including dismissal for internal users and prosecution under the Computer Fraud and Abuse Act of 1986 for external users.\u003C/p\u003E\u003Cbr/\u003EThis application may be monitored and information examined, recorded, copied, and used for authorized purposes.  There is no presumption of privacy when using this application.\u003C/p\u003E","isProduction":true,"productName":"CERIS-ND","recaptchaSiteKey":"6LfTLkAUAAAAAOPyn0T50-zju2UDQuBf3yIiNrB_","signAgreementFormUrl":"https://deq.nd.gov/Forms/DEQ/SFN61882.pdf","passwordRegex":"(?=^.{8,})(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\\W_]).*$","helpUrl1":"https://windsorsolutions.atlassian.net/wiki/spaces/WindsorSupport/overview","helpUrl1Title":"Product Support Wiki","showHelpLink1External":false,"showHelpLink1Internal":true,"helpUrl2":"http://windsorsolutions.com","helpUrl2Title":"Online Help Link #2","showHelpLink2External":false,"showHelpLink2Internal":false,"violationLabelText":"Violation","showClaimSite":true,"showVerification":false,"appLogoLinkUrl":"https://deq.nd.gov/","hideAppHomeLogo":false,"appLogoImgAltText":"","appTitle":"Combined Environmental Regulatory Information System - North Dakota","appLogoImgPath":"","agencyHoverText":"North Dakota Department of Environmental Quality Homepage","agencyUrl":"https://deq.nd.gov/","agencyImgPath":"content/org-specific/nddeq/images/organization-logo.png","agencyDispText":"","modules":["USER_REASSIGN","CMPL_ACTN","DMR","DOC_SETS","EMAIL_WHITELIST","PROJ","EVAL","EXT_USER","FIN_ASSURNCE","RECVBL","INVOICE","LMT_SET","MON_DAT_UPL_ADM","NSITE","NSPECT","NVISAGE","PRMT","RECRDS_RETENT","SCHD","SUBM"],"routes":[],"navigationNames":[{"Id":"NAV.HOME.CHEM_CRIT","Value":null},{"Id":"NAV.HOME.CMPL_ACTN","Value":null},{"Id":"NAV.HOME.CONS_ESMNT","Value":null},{"Id":"NAV.HOME.CORR_ACTN","Value":null},{"Id":"NAV.HOME.EVAL","Value":null},{"Id":"NAV.HOME.EVAL_PLAN","Value":null},{"Id":"NAV.HOME.EVT","Value":null},{"Id":"NAV.HOME.HAZ_WASTE_PRMT","Value":null},{"Id":"NAV.HOME.INSP_DASH","Value":null},{"Id":"NAV.HOME.MYTASKS","Value":null},{"Id":"NAV.HOME.NOTIF","Value":null},{"Id":"NAV.HOME.PRMT","Value":null},{"Id":"NAV.HOME.PROJ","Value":null},{"Id":"NAV.HOME.RECVBL","Value":null},{"Id":"NAV.HOME.SUBM","Value":null},{"Id":"NAV.HOME.SUBM.RCVD","Value":null},{"Id":"NAV.SITE.CMPL_ACTN","Value":null},{"Id":"NAV.SITE.CONTCT","Value":null},{"Id":"NAV.SITE.CORR_ACTN_AREA","Value":null},{"Id":"NAV.SITE.CORR_ACTN_AUTH","Value":null},{"Id":"NAV.SITE.CORR_ACTN_EVT","Value":null},{"Id":"NAV.SITE.DETAIL","Value":null},{"Id":"NAV.SITE.DOC_MGMT","Value":null},{"Id":"NAV.SITE.EVAL","Value":null},{"Id":"NAV.SITE.FIN_ASSURNCE","Value":null},{"Id":"NAV.SITE.FORM.HOME","Value":null},{"Id":"NAV.SITE.HAZ_WASTE_PRMT_EVT","Value":null},{"Id":"NAV.SITE.HAZ_WASTE_PRMT_UNIT","Value":null},{"Id":"NAV.SITE.HOME","Value":null},{"Id":"NAV.SITE.MONITORING_DATA_LIST","Value":null},{"Id":"NAV.SITE.MONITORING_DATA_SUBMITTED_LIST","Value":null},{"Id":"NAV.SITE.NOTIF","Value":null},{"Id":"NAV.SITE.PRMT","Value":null},{"Id":"NAV.SITE.SUBM.HOME","Value":null},{"Id":"NAV.SITE.USER","Value":null},{"Id":"NAV.SITE.DMR","Value":"Discharge Monitoring Reports"},{"Id":"NAV.SITE.PROJ","Value":"Environmental Projects"},{"Id":"NAV.SITE.RECVBL","Value":"Financials"},{"Id":"NAV.ADMIN.INVOICE","Value":"Invoice Sets"},{"Id":"NAV.ADMIN.INVOICE_NAV","Value":"Invoices - Legacy"},{"Id":"NAV.ADMIN.RECORDS_RETENTION","Value":"Records Retention"},{"Id":"NAV.SITE.VIOL","Value":"Violations"}],"sessionTimeoutInSeconds":0});
+
+        }(this.angular));
+    </script>
+        <script type="text/javascript" src="Home/GetAngularTemplateBundle?v=6C2E6BB99835561D" defer></script>
+
+    <!--  http://schema.org/SoftwareApplication -->
+    <script type="application/ld&#x2B;json" id="versionData">
+        {
+        "@context": "http://schema.org",
+        "@type": "SoftwareApplication",
+        "@id": "",
+        "name": "nCore",
+        "softwareVersion": "2026.1.0+aa68515656"
+        }
+    </script>
+    <wnd-spinner name="('root')"></wnd-spinner>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+61531502476508058150111760Yes
+00Yes
+43332400You must retain your permit. No further action.
+00You must retain your permit. No further action.
+1114425180975The facility is not eligible for permit exemption or registration.
+00The facility is not eligible for permit exemption or registration.
+
+82867501143005229225152400 
+186690026670098679009525Submit registration application form and supporting production/emissions documentation to DAQ regional office.
+00Submit registration application form and supporting production/emissions documentation to DAQ regional office.
+498157592075No
+00No
+
+5210175114935
+7439025238760Does MACT or NSPS apply to any sources at your facility (except for sources exempt under 2Q.0102(g) and (h))? 
+00Does MACT or NSPS apply to any sources at your facility (except for sources exempt under 2Q.0102(g) and (h))? 
+162877510160Yes
+00Yes
+
+423862510160Are your facility’s actual aggregate criteria/HAPs/TAPs emissions ≤ 25 tpy? 
+00Are your facility’s actual aggregate criteria/HAPs/TAPs emissions ≤ 25 tpy? 
+1866900292106619875160020Yes
+00Yes
+
+10629900863607143750292106334125101601028700124460Does your facility have a
+Synthetic Minor permit?
+Title V Permit?
+00Does your facility have a
+Synthetic Minor permit?
+Title V Permit?
+-123825257810START HERE
+00START HERE
+
+52197001149358296275238760809625143510
+4981575179070No
+00No
+1010602510160Request registration
+00Request registration
+1866900267335
+52197002012951062990018224580581507620No
+00No
+
+82962753937016192508255No
+00No
+
+420052510795Does your facility emit <5 tpy of PM10, CO, NOx, SO2, VOC, HAPs, and TAPs each, individually?
+ AND
+Does your facility emit <10 tpy aggregate criteria/HAPs/TAPs? 
+00Does your facility emit <5 tpy of PM10, CO, NOx, SO2, VOC, HAPs, and TAPs each, individually?
+ AND
+Does your facility emit <10 tpy aggregate criteria/HAPs/TAPs? 
+18669003937098012256985Do you wish to register, or would you rather keep your permit?
+00Do you wish to register, or would you rather keep your permit?
+7639050125095Your facility is eligible for registration.
+00Your facility is eligible for registration.
+
+91154257747099060010795Does your facility permit have a 2D.1100 NC toxics permit condition? 
+00Does your facility permit have a 2D.1100 NC toxics permit condition? 
+3248025178435No
+00No
+
+ 52006501449070521017585852049434751159510Yes
+00Yes
+962977567754510629900125095937260020396207800975282067085248751906270be exempt
+00be exempt
+81819752039620724852523825206153150200152037623756794528003505842018573751010920185737539179510163175515620Keep permit
+00Keep permit
+8420100534670No further action
+00No further action
+43338751763395Your facility is eligible for permit exemption.
+00Your facility is eligible for permit exemption.
+4762501296670Facilities with 2D.1100 toxics limits based upon modeling are not eligible for permit exemption or registration, but some facilities’ toxics may be re-evaluated based upon revised 2Q.0711 TPERs or any changes in facility operation/production since the last permit modification/revision. Contact your DAQ regional office for further information and assistance.
+00Facilities with 2D.1100 toxics limits based upon modeling are not eligible for permit exemption or registration, but some facilities’ toxics may be re-evaluated based upon revised 2Q.0711 TPERs or any changes in facility operation/production since the last permit modification/revision. Contact your DAQ regional office for further information and assistance.
+1609725715645Yes
+00Yes
+98107501560195Submit a request letter and supporting production/ emissions documentation to DAQ regional office
+00Submit a request letter and supporting production/ emissions documentation to DAQ regional office
+82105502687320No further action
+00No further action
+67818002687320Keep permit
+00Keep permit
+63722251706245Do you wish to be exempt, or would you rather keep your permit?
+00Do you wish to be exempt, or would you rather keep your permit?

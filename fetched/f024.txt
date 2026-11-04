@@ -1,0 +1,1791 @@
+PART 70 PERMIT APPLICATION
+I.
+
+INTRODUCTION
+
+II.
+
+INSTRUCTIONS
+
+III.
+
+CHECKOFF LIST OF EMISSIONS UNITS AND ACTIVITIES
+EXEMPT FROM THE PART 70 PERMIT APPLICATION
+
+IV.
+
+APPLICATION FORMS
+
+V.
+
+APPLICATION FORMS FOR STATE-ONLY
+REQUIREMENTS
+
+VI.
+
+APPLICATION COMPLETENESS CHECKLIST
+
+PART 70 OPERATING PERMIT INITIAL APPLICATION
+TABLE OF CONTENTS
+I.
+
+Introduction
+A.
+B.
+C.
+D.
+E.
+
+II.
+
+Part 70 Permit
+Part 70 Facilities
+Emissions Units and Activities Exempt from the Permit Application
+Emissions Units Subject to CAM
+Facilities Subject to State Permits to Operate
+Instructions
+
+A.
+B.
+
+Overview
+Federally Enforceable Requirements
+� Cover Page
+� Section 1 Certification Statements
+� Section 2 Facility Description Summary
+� Section 3A- Emissions Unit Descriptions
+� Section 3B- Citation and Description of Applicable Federally
+Enforceable Requirements
+� Section 3C- Obsolete, Extraneous, or Insignificant Permit Conditions
+� Section 3D- Alternate Operating Scenarios
+� Section 3E- Citation to and Description of Applicable Federally
+Enforceable Requirements for an Alternate Operating
+Scenario
+� Section 4 Control Equipment
+� Section 5 Summary Sheet of Potential Emissions
+� Section 6 Explanation of Proposed Exemptions from Otherwise
+Applicable Federally Enforceable Requirements
+� Section 7 Compliance Schedule for Noncomplying Emissions Units
+
+C.
+
+CAM Plans
+
+D.
+
+State-Only Enforceable Requirements
+� Cover Page
+-Only Enforceable
+Requirements
+
+III.
+
+Checkoff List of Emissions Units and Activities Exempt from the Part 70
+Permit Application
+
+IV.
+
+Application Forms for Part 70 Permit
+
+V.
+
+Application Forms for State-Only Requirements
+
+VI.
+
+Application Completeness Checklist
+
+I.
+
+Introduction
+
+A.
+
+Part 70 Permit
+A Part 70 Permit is required by Title V of the 1990 Clean Air Act Amendments. Part
+70 is a federally enforceable permit program administered by the Maryland Department
+of the Environment (MDE) for certain stationary sources
+Facilities are encouraged to submit applications before the required date, as described
+in COMAR 26.11.03.02B, to allow ample time for MDE to act on all applications.
+A facility's Part 70 permit application must include specific emissions information, a
+description of a facility's processes and products, a description of all applicable
+regulations and requirements, a compliance plan for all emissions units which are out of
+compliance with any applicable regulation or requirement, and a compliance
+certification. All testing, monitoring, reporting, and record keeping requirements must
+also be identified in the application. For standards that have no specific periodic testing
+and monitoring requirements or guidance, the facility may submit a proposal for
+consideration by MDE.
+In addition, the permit applicant is required to submit information pertaining to
+requirements that are enforceable only by MDE. This information on State-only
+enforceable requirements is separate from the federally enforceable Part 70 permit
+application information. Examples of such State-only enforceable requirements include
+information necessary to determine compliance with State regulations on air toxics,
+nuisances, odors, and continuous emission monitoring telemetry.
+MDE will make a completeness determination within 60 days after receiving a Part 70
+permit application using the completeness checklist included in this application package.
+If a timely application is found to be complete, the facility receives an "application
+shield" as defined in COMAR 26.11.03.01D. If additional information is requested in
+order to process the application, MDE will establish reasonable deadlines for the facility
+to submit the required information. The facility will retain the "application shield"
+provided that it complies with these deadlines.
+
+B.
+
+Facilities Subject to the Part 70 Permit Requirements
+The following facilities are required, by federal regulation, to obtain a Part 70 permit:
+(1)
+
+A major source (as defined in COMAR 26.11.02.01C);
+
+(2)
+
+A facility subject to a standard, limitation, or other requirement under Section
+111 (New Source Performance Standards (NSPS) Requirements) of the Clean
+Air Act;
+
+(3)
+
+A facility, including an area source, subject to a standard or other requirement
+under Section 112 (Hazardous Air Pollutants (HAPS) Requirements) of the
+Clean Air Act, except that a source is not required to obtain a Part 70 permit
+solely because it is subject to regulations or requirements under Section 112(r)
+(Accidental Release Program Requirements) of the Clean Air Act;
+
+(4)
+
+An affected source as defined in Title IV (Acid Rain Program Requirements);
+and
+
+(5)
+
+A facility ni a source category designated by the EPA pursuant to 40 CFR
+Section 70.3. (Part 70 Permits Applicability Requirements).
+
+Please note that non-major facilities subject to either Section 111 or 112 of the Clean
+Air Act are deferred from applying for a Part 70 Permit at this time. Whenever the
+EPA takes action to end the deferral, affected facilities will be required to submit an
+application within twelve months after the deferral expiration.
+In order for a facility not to be considered a major source, it may choose to limit its
+potential-to-emit to below the thresholds that trigger the requirement to obtain a Part 70
+permit. This action would classify the facility as a "synthetic minor". A source may
+become a synthetic minor source by accepting a limitation in a permit to construct or
+State permit to operate that restricts potential emissions to below major source
+thresholds. The mechanism to obtain a synthetic minor status is subject to change. The
+EPA is considering adopting regulations that may affect how a facility can obtain a
+synthetic minor status. An applicant interested in becoming a synthetic minor source
+should contact the Department to learn about the current rules.
+C.
+
+Emissions Units and Activities Exempted from the Application
+COMAR 26.11.03.02G requires a facility to submit a list of emissions units and
+activities located at the facility that are exempt from the Part 70 permit application due
+to size, production rate, and/or emission rate. A checkoff list of such exempted
+emissions units and activities at the facility shall be submitted with the Part 70
+application. This list requires the applicant, for certain categories of activities (e.g.,
+unheated storage of VOC with an initial boiling point of 300°F (149°C) or greater), to
+indicate the number of such units located at the facility. The Department may request
+additional information regarding such activities. The List of Exempted Units will be
+attached to the application when the docket is prepared for the public participation
+process. The general public and interested groups have the opportunity to review the
+list and request additional information. The List of Exempted Units will be included in
+the Part 70 permit, along with any applicable Clean Air Act requirements.
+
+D.
+
+Emissions Units Subject to CAM
+“Compliance Assurance Monitoring” or CAM (40CFR part 64) is intended to provide
+a reasonable assurance of compliance with applicable requirements under the Clean Air
+Act (CAA) for large units that rely on pollution control device equipment to achieve
+compliance. For facilities subject to CAM requirements, the applicant must submit a
+CAM plan as an attachment to the Part 70 application.
+For an emissions unit to be subject to 40 CFR Part 64, the unit must: be located at a
+major source for which a Part 70 or 71 permit is required; be subject to an emission
+limitation or standard; use a control device to achieve compliance; have potential
+precontrol emissions of at least 100% of the major source amount, and must not
+otherwise be exempt from CAM. If a unit does not meet all of these requirements, the
+unit is not subject to CAM.
+For additional guidance on the requirements of CAM and what is required as part of the
+CAM plan, the EPA has prepared a technical support document. It can be accessed at
+the following website: www.epa.gov/ttn/emc/cam.html.
+
+E.
+
+Facilities Subject to State Permits to Operate
+
+For a facility for which a State permit to operate is required, as provided in COMAR
+26.11.02.13, a Part 70 permit for that facility also constitutes a State permit to operate
+for that source. A facility’s State permit to operate is superseded by the issuance of a
+Part 70 permit covering that facility.
+The applicant of a facility for which a Part 70 permit is required shall submit additional
+information based upon applicable requirements of the State air pollution control law in
+addition to the federally enforceable requirements in the Part 70 application form.
+Attached to the end of the Part 70 application are the forms to complete for state-only
+enforceable requirements.
+
+II.
+
+Instructions: Part 70 Operating Permit Application Form
+
+A.
+
+Overview
+These instructions are meant to assist facilities in completing the Part 70 Permit
+Applications.
+Note on General Organization of the Application Form
+The applicant may be required to replicate certain portions of this Part 70 form (e.g.
+Sections 3A, 3B, 4, etc.) in order, for example to describe each emissions unit or
+applicable requirement at the facility. Consequently, certain large or complex facilities
+may have an application with many pages. A numbering scheme for the completed
+application, especially multiple copies of sections of this form (e.g., 3A-1, 3A-2, etc.),
+is therefore requested. Pagination, even for smaller sources, will not only facilitate
+review and discussion of the application, but may prevent the inadvertent omission or
+loss of pages that could jeopardize a timely completeness determination.
+Number of Copies of the Application to Submit
+Submit three copies of the application along with each attachment. One copy remains
+with the public docket at the Department’s offices in Baltimore. A second copy is
+placed in a docket that is sent to the local public library near the facility during the public
+participation phase of the issuance process. A third copy is sent to the EPA upon
+request.
+If the application contains confidential informational, the applicant shall submit one
+application with the confidential information clearly marked. In addition, submit two
+copies of the application with the confidential information deleted. On the front of the
+application forms mark the copies as confidential or non-confidential.
+
+B.
+
+Federally-Enforceable Requirements
+Cover Page
+1.
+
+Include the name and address of the owner or operator, including a telephone
+number and fax number.
+
+2.
+
+Include the name and address of the facility, including the plant manager's name,
+telephone number, fax number, and an e-mail address.
+
+3.
+
+Include a 24-hour emergency telephone number for air pollution matters.
+
+4.
+
+If there is more than one owner, operator, facility manager, or contact, attach
+their name(s) and address(es) along with their telephone number(s) fax
+number(s), and e-mail address(es).
+
+Section 1. Certification Statements
+Please read this page carefully. A responsible official must sign to the truth and
+
+accuracy of the four statements. The application will be considered incomplete without
+the signature of a responsible official. A responsible official is defined in COMAR
+26.11.02.01B(47) and, in general, is:
+1.
+
+For a corporation, a partnership, or a sole proprietorship, a president,
+secretary, treasurer, or vice-president in charge of a principal business function,
+or another person who performs similar policy or decision-making functions for
+the corporation, partnership, or sole proprietorship or a duly authorized
+representative of that person if the representative is responsible for the overall
+operation of one or more manufacturing, production, or operating facilities
+applying for or subject to a permit; or
+
+2.
+
+For a municipal, State, federal, or other public agency, either a principal
+executive officer or ranking elected official.
+
+Section 2. Facility Description Summary
+1.
+
+Describe the major activities at the facility, including the applicable SIC code(s)
+and end product(s).
+
+2.
+
+Indicate whether the facility is a major source based on actual emissions of air
+pollutants, or major based on potential emissions, or whether the source is a
+solid waste incineration unit required to obtain a part 70 permit under§ 129(e)
+of the CAAA. (For example, a hospital, medical, infectious waste incinerator,
+HMIWI, is required to obtain a Part 70 permit.)
+
+3.
+
+Flow diagrams indicating all emissions units, emission points, and control
+device(s) must be submitted. An emissions unit is an incinerator, a piece of fuelburning equipment, or a process line. An emission point is an identifiable point
+or source within an emissions unit where a criteria pollutant or a hazardous air
+pollutant is discharged either from a stack or as fugitive emissions. The facility
+must assign a specific number to each emissions unit and each emissions point.
+These assigned numbers must be indicated on the flow diagrams.
+A plot plan of the entire facility must be submitted. The plot plan should show
+the entire property, the layout of the buildings on the property, and the location
+of the emissions units. This drawing does not have to be to scale.
+The applicant shall submit a copy of the most recent annual emissions
+certification report that was submitted to the Department. If the applicant has
+never filed an annual emissions certification report, the applicant should contact
+the Department to request a blank certification form. An annual emissions
+certification report must be submitted to the Department by April 1 of each
+calendar year by affected facilities.
+
+Section. 3A. Emissions Unit Descriptions
+This section must be completed for each non-exempt emissions unit within a
+facility including short-term activities. Make copies of the blank form as needed.
+The numbering of multiple copies (e.g., 3A-1, 3A-2, etc.) of this form as well as all
+
+pages of the completed application is strongly recommended not only to facilitate
+review and discussion of the application, but also to prevent the inadvertent
+omission or loss of pages that could jeopardize a timely completeness
+determination.1
+1.
+
+Indicate the emission unit number, assigned by the facility, that identifies this unit
+from all others within the facility. If there is more than one emissions unit at the
+facility, attach a separate form (Section 3A) for each emissions unit. Include the
+date (month/year) the installation of the emissions unit was completed.
+
+2.
+
+Include any registration number (if applicable), assigned by MDE, that is
+associated with this emissions unit.
+
+3.
+
+Provide a detailed description of the emissions unit, including the emissions
+point(s) and their assigned number(s), associated with the unit.
+
+4.
+
+Indicate any operating schedule limitations that are federally enforceable. Also,
+cite the references of the applicable federally enforceable requirements,
+(regulations, permit conditions, consent orders) which require the limitation.
+
+5.
+
+Where applicable, specify type(s) of fuel, percent sulfur, and the annual usage of
+fuel. Be sure to specify the unit(s) of measure for the annual fuel usage.
+
+6.
+
+Check off whether the emissions unit is an actual major or potential major
+source. Enter the actual emissions from the emissions unit.
+Note that emissions units that have actual or potential before control emissions
+above major source thresholds, that are subject to an emissions standard, and
+require the use of an air pollution control device to meet the emissions standard
+are subject to the requirement to submit a CAM plan. Review the discussion of
+CAM plans
+
+Section 3B.
+
+Citation and Description of Applicable Federally Enforceable
+Requirements
+
+This section must be completed for each applicable federally enforceable
+emissions standard/ limit or operational limitation for each emissions unit.2 Make
+1
+
+Where a facility has maintained a summary table, based upon an existing
+database report or spreadsheet, that contains the same information required by
+this section, the applicant may refer to that document in this section and include
+it as part of the application. Applicants choosing this option should, however,
+check with the Department to determine if proposed substitute format is
+acceptable.
+2
+
+Where a facility has maintained a summary table, based upon an existing
+database report or spreadsheet, that contains the same information required by
+this section, the applicant may refer to that document in this section and include
+it as part of the application. Applicants choosing this option should, however,
+
+copies of the blank form as needed. As with form 3A, the numbering of multiple
+pages (e.g., 3B-1, 3B-2, etc.) of this form is strongly recommended to facilitate
+review and the application completeness determination.
+For each emissions unit:
+1.
+
+Indicate the assigned emissions unit number. Where some or all of the emission
+units at a facility are subject to the same applicable emissions standard or
+operational limitation and will use the same methodology of compliance
+demonstration, the applicant may choose to group the emission unit numbers
+(e.g., "EU1 - EU4" or "Facility-wide"). The grouped emissions units must share
+the identical standards/limitations and the identical method of compliance
+demonstration. In addition, if an emissions unit consists of emissions points that
+have different applicable standards/limits or operational limitations, a separate
+Section 3B must be submitted for each emissions point for each different
+standard/limitation.
+
+2.
+
+In the "General Reference" space, cite the federally enforceable basis for the
+emissions standard/limit or operational limitation. This will be either a federal
+regulation, a state regulation that is included in Maryland’s approved State
+Implementation Plan (SIP), a condition based on a Clean Air Act requirement
+and is found in a permit to construct, or a condition from a consent order that is
+part of Maryland’s SIP.
+
+3.
+
+Briefly summarize the emissions standard/ limit or operational ilmitation.. If
+there is more than one standard/limitation associated with the emissions
+unit(s)/point(s), attach a separate form Section 3B for each standard/limitation.
+
+4.
+
+For each federally enforceable emissions standard/limit or operational limitation,
+describe how each emissions unit (emissions point) is monitored and/or tested
+to demonstrate compliance and indicate any record keeping or reporting
+activities. Indicate the reference (federally enforceable basis) for the monitoring,
+record keeping, reporting, and testing requirements. If the basis is not a federal
+regulation, a state regulation that is included in Maryland’s approved SIP, a
+federally enforceable permit to construct condition, or a condition in a consent
+order that is in Maryland’s approved SIP, indicate the reference as “COMAR
+26.11.03.06C, proposed periodic monitoring”.
+The applicant is required to propose periodic monitoring when the basis for a
+federally enforceable emissions standard/limit or operational limitation does not
+have associated testing, monitoring, record keeping or reporting requirements
+sufficient for the applicant to demonstrate compliance with the emissions
+standard/limit or operational limitation. Periodic monitoring is not required for
+emissions units subject to New Source Performance Standards under 40 CFR
+Part 60 that were promulgated after August 1990, or subject to any Maximum
+Achievable Control Technology (MACT) Standards promulgated under 40
+CFR Part 63.
+
+5.
+
+Indicate the frequency of submittal of the compliance certification. Check off
+the reports that are required to be submitted. Every facility is required to submit
+
+check with the Department to determine if proposed substitute format is
+acceptable.
+
+a semi-annual monitoring report and an annual compliance certification. See
+COMAR 26.11.03.06C(7) and G(6). Many sources that require the use of
+continuous emissions monitors (CEMs) to demonstrate compliance with an
+emissions standard/limit are required to submit quarterly reports.
+Section 3C.
+
+Obsolete, Extraneous, or Insignificant Permit Conditions
+
+This form is used to list permit to construct conditions which should be considered to be
+obsolete, extraneous, or environmentally insignificant. For example, conditions relating
+to the construction activity during the building or modification of the source should be
+listed here. State-only enforceable permit to construct conditions should be listed on
+the forms provided in Part V.
+Make copies of the blank form as needed.
+recommended.
+
+Pagination (e.g., 3C-1, 3C-2) is
+
+1.
+
+Indicate the emissions unit number.
+
+2.
+
+Indicate the permit to construct number.
+
+3.
+
+Indicate the emissions point number.
+
+4.
+
+Indicate the date the permit to construct was issued.
+
+5.
+
+Identify the condition number as indicated on the permit to construct.
+
+6.
+
+Briefly describe the permit condition and the reason why it is believed to be
+obsolete, extraneous, or insignificant.
+
+If the Department determines that any condition listed in this section should be
+retained as a federally enforceable requirement, the facility will be required to recertify its application with respect to those permit to construct conditions.
+Section 3D.
+
+Alternate Operating Scenarios
+
+Briefly describe any alternate operating scenarios that apply to an emissions unit and
+assign a number to each scenario for identification purposes. For each scenario,
+provide the following information:
+1.
+
+The emissions unit number; and
+
+2.
+
+The operating parameters for the emissions unit (i.e. operating hours, materials
+and fuels consumed, etc.) and other information which describes the how the
+operation of the unit will change under the scenario.
+
+Section 3E.
+
+Citation to and Description of Applicable Federally Enforceable
+Requirements for an Alternate Operating Scenario
+
+Make copies of the blank form as needed.
+recommended.
+
+Pagination (e.g., 3E-1, 3E-2) is
+
+This section must be completed for any applicable federally enforceable requirement
+that is triggered by an alternate operating scenario that has been described in Section
+3D. See the instructions for Section 3B for completing this form.
+Section 4.
+
+Control Equipment
+
+This form is to be used to describe, where applicable, each piece of control
+equipment associated with each emissions point. If more than one piece of
+equipment is used in series to control the emissions from an emissions point,
+complete a separate Section 4 form for each. Make copies of the blank form as
+needed. Pagination (e.g., 4-1, 4-2) is recommended.
+1.
+
+Describe the type of control equipment.
+
+2.
+
+Indicate the associated emissions unit number.
+
+3.
+
+Indicate the associated emissions point number.
+
+4.
+
+List the pollutant(s) that is (are) being controlled and the applicable control
+efficiency for each pollutant.
+
+5.
+
+Specify the capture efficiency of the equipment if it is less than 100%.
+
+Section 5.
+
+Summary Sheet of Potential Emissions
+
+This form should only be used by facilities in order to:
+1)
+
+claim an exemption based on an emissions level cutoff in a
+standard that has been issued for the category to which the
+emissions unit potentially belongs (i.e. MACT standard); and
+
+2)
+
+resolve a dispute over whether a particular requirement is
+applicable or whether a source is major for a particular pollutant
+(NOx RACT or VOC RACT).
+
+Make copies of the blank form as needed.
+recommended.
+
+Pagination (e.g. 5-1, 5-2) is
+
+1.
+
+List each emissions unit by its number corresponding to those identified in
+Section 3.
+
+2.
+
+For each emissions unit, quantify all applicable pollutants in tons per year.
+
+3.
+
+In the last row of the table, quantify the fugitive emissions of each pollutant
+emitted from the entire facility.
+
+4.
+
+Attach a copy of all calculations.
+
+Section 6.
+
+An Explanation of Proposed Exemptions from Otherwise
+Applicable Federally Enforceable Requirements.
+
+Complete this section as indicated to describe and justify the exemption of an
+emission unit from a federally enforceable requirement, e.g., an exemption under
+the Early Reductions Program established in Section 112(i) of the Clean Air Act.
+This section can also be used to clarify that a given emissions unit is not subject to
+a particular requirement (e.g., a unit that is grandfathered or that has potential
+emissions below a major source threshold).
+Make copies of the blank form as needed.
+recommended.
+
+Pagination (e.g., 6-1, 6-2) is
+
+1.
+
+Identify the applicable requirement.
+
+2.
+
+Briefly describe how the applicable requirement relates to the facility.
+
+3.
+
+Specify the reasons for the proposed exemption or claim of non-applicability. If
+relevant, include (or refer to previously submitted) emissions calculations that
+demonstrate non-applicability.
+
+Section 7.
+
+Compliance Schedule for Noncomplying Emissions Units
+
+If an approved MDE administrative order or judicial consent decree is in effect, attach a
+copy of it and complete only block #1. For any other plan for compliance, complete
+blocks 1 through 3 as follows:
+1.
+
+Identify each emissions unit, the requirement that is being violated, and the date
+on which the unit is expected to be in compliance;
+
+2.
+
+Describe in detail the proposed plan to be used to achieve compliance; and
+
+3. Indicate the schedule of remedial measures which includes an enforceable sequence
+of actions with milestone dates. Certified progress reports for noncomplying
+facilities shall be submitted at least quarterly.
+
+C. CAM Plan
+When applicable, the applicant must submit a CAM plan along with the Part 70
+permit application. The application will not be considered complete if a
+required CAM plan is not submitted.
+The monitoring design criteria for a CAM plan is spelled out in 40 CFR Part
+64.3. The CAM plan submittal requirements are specified in§64.4.
+The following outline summarizes the contents of a CAM plan.
+I.
+
+Background
+A. Emissions unit identification
+B. Applicable regulation, emissions limits, and monitoring requirements
+C. Control technology description
+
+II.
+
+Monitoring Approach
+A. General Criteria
+1.
+Performance indicator(s)
+
+2.
+
+B.
+
+Indicator range(s) or designated condition(s)
+For COMS, range(s) used to assure compliance with PM
+standards
+
+Performance Criteria
+1.
+Data representativeness
+2.
+Verification of operational status (new or modified equipment)
+3.
+QA/QC practices
+4.
+Monitoring frequency and data collection procedures
+For monitoring approaches using CEMS, COMS, and PEMS,
+performance criteria includes exceedance reporting required by
+regulation and exceedance period to be used for CAM
+
+III.
+
+Justification
+A.
+B.
+
+Monitoring approach and indicator
+Indicator range(s)
+1. Compliance test data and indicator data supporting range, or
+2. Compliance test plan and schedule, or
+3. Rationale and documentation for indicating that the ranges can
+be established without the need for compliance test data
+For CEMS and PEMS: reference the most recent certification
+test for the monitor.
+
+For guidance and examples of monitoring strategies, access EPA
+documents found at the following website:
+www.epa.gov/ttn/emc/cam.html
+D
+
+State-Only Enforceable Requirements
+Cover Page
+Provide the information as indicated.
+Section 1.
+
+Citation to and Description of Applicable State-Only Enforceable
+Requirements
+
+For each emissions unit which has State-only requirements, regulations, and/or permit
+conditions subject to the Maryland regulations:
+1.
+
+Indicate the assigned registration and emissions unit numbers.
+
+2.
+
+In the "General Reference" space, cite the basis for the State-only enforceable
+requirement: regulation, permit condition, or consent order. If there is more
+than one associated with the emissions unit, attach a separate form (Section 1)
+for each.
+
+3.
+
+Briefly summarize the requirement, including any emission limit.
+
+4.
+
+For each State-only enforceable requirement, describe how each emissions
+point within the emissions unit is monitored and/or tested to demonstrate
+compliance and indicate any record keeping or reporting activities.
+
+III.
+
+Check-off List of Emissions Units and Activities Exempt from the Part 70 Permit
+Application
+Insignificant Activities
+
+Place a check mark beside each type of emissions unit or activity that is located at the
+facility. Where noted, please indicate the number of that type of emissions unit or
+activity located at the facility.
+(1) No.
+
+Fuel burning equipment using gaseous fuels or no. 1 or no. 2 fuel oil, and
+having a heat input less than 1,000,000 Btu (1.06 gigajoules) per
+hour;
+
+(2) No.
+
+Fuel-burning equipment using solid fuel and having a heat input of less
+than 350,000 Btu (0.37 gigajoule) per hour;
+
+(3) No.
+
+Stationary internal combustion engines with less than 500 brake
+horsepower (373 kilowatts)of power output
+
+(4)
+
+Space heaters utilizing direct heat transfer and used solely for comfort heat;
+
+(5)
+
+Water cooling towers and water cooling ponds unless used for evaporative
+cooling of water from barometric jets or barometric condensers, or
+used in conjunction with an installation requiring a permit to
+operate;
+
+(6) No.
+
+(7)
+
+Unheated VOC dispensing containers or unheated VOC rinsing containers
+of 60 gallons (227 liters) capacity or less;
+_ Commercial bakery ovens with a rated heat input capacity of less than
+2,000,000 Btu per hour;
+
+(8)
+
+Kilns used for firing ceramic ware, heated exclusively by natural gas,
+liquefied petroleum gas, electricity, or any combination of these;
+
+(9)
+
+Confection cookers where the products are edible and intended for human
+consumption;
+
+(10)
+
+Die casting machines;
+
+(11)
+
+Photographic process equipment used to reproduce an image upon
+sensitized material through the use of radiant energy;
+
+(12)
+
+Equipment for drilling, carving, cutting, routing, turning, sawing, planing,
+spindle sanding, or disc sanding of wood or wood products;
+
+(13)
+
+Brazing, soldering, or welding equipment, and cutting torches related to
+manufacturing and construction activities that emit HAP metals and
+not directly related to plant maintenance, upkeep and repair or
+maintenance shop activities;
+
+(14)
+
+Equipment for washing or drying products fabricated from metal or glass,
+provided that no VOC is used in the process and that no oil or solid
+fuel is burned;
+
+(15)
+
+Containers, reservoirs, or tanks used exclusively for electrolytic plating
+work, or electrolytic polishing, or electrolytic stripping of brass,
+bronze, cadmium, copper, iron, lead, nickel, tin, zinc, and precious
+metals;
+
+(16) Containers, reservoirs, or tanks used exclusively for:
+
+(17)
+
+(a)
+
+Dipping operations for applying coatings of natural or synthetic
+resins that contain no VOC;
+
+(b)
+
+Dipping operations for coating objects with oils, waxes, or greases,
+and where no VOC is used;
+
+(c)
+
+Storage of butane, propane, or liquefied petroleum, or natural gas;
+
+(d) No.
+
+Storage of lubricating oils:
+
+(e) No.
+
+Unheated storage of VOC with an initial boiling point of 300 °F (
+
+(f) No.
+
+Storage of Numbers 1, 2, 4, 5, and 6 fuel oil and aviation jet
+engine fuel,
+
+(g) No.
+
+Storage of motor vehicle gasoline and having individual tank
+capacities of 2,000 gallons (7.6 cubic meters) or less;
+
+(h) No.
+
+The storage of VOC normally used as solvents, diluents,
+thinners, inks, colorants, paints, lacquers, enamels, varnishes,
+liquid resins, or other surface coatings and having individual
+capacities of 2,000 gallons (7.6 cubic meters) or less;
+
+Gaseous fuel-fired or electrically heated furnaces for heat treating glass
+or metals, the use of which does not involve molten materials;
+
+(18) Crucible furnaces, pot furnaces, or induction furnaces, with individual
+capacities of 1,000 pounds (454 kilograms) or less each, in which no sweating
+or distilling is conducted, or any fluxing is conducted using chloride, fluoride,
+
+or ammonium compounds, and from which only the following metals are
+poured or in which only the following metals are held in a molten state:
+(a)
+
+Aluminum or any alloy containing over 50 percent aluminum, if no
+gaseous chloride compounds, chlorine, aluminum chloride, or
+aluminum fluoride is used;
+
+(b)
+
+Magnesium or any alloy containing over 50 percent magnesium;
+
+(c)
+
+Lead or any alloy containing over 50 percent lead;
+
+(d)
+
+in or any alloy containing over 50 percent tin;
+
+(e)
+
+Zinc or any alloy containing over 50 percent zinc;
+
+(f)
+
+Copper;
+
+(g)
+
+Precious metals;
+
+(19)
+
+_ Charbroilers and pit barbecues as defined in COMAR 26.11.18.01 with a
+total cooking area of 5 square feet (0.46 square meter) or less;
+
+(20)
+
+First aid and emergency medical care provided at the facility, including
+related activities such as sterilization and medicine preparation used in
+support of a manufacturing or production process;
+
+(21) ____ Certain recreational equipment and activities, such as fireplaces, barbecue
+pits and cookers, fireworks displays, and kerosene fuel use;
+(22)
+
+Potable water treatment equipment, not including air stripping equipment;
+
+(23)
+
+Firing and testing of military weapons and explosives;
+
+(24)
+
+Emissions resulting from the use of explosives for blasting at quarrying
+operations and from the required disposal of boxes used to ship the
+explosive;
+
+(25)
+
+Comfort air conditioning subject to requirements of Title VI of the Clean
+Air Act;
+
+(26)
+
+_ Grain, metal, or mineral extrusion presses;
+
+(27)
+
+_ Breweries with an annual beer production less than 60,000 barrels;
+
+(28)
+
+(29)
+
+Natural draft hoods or natural draft ventilators that exhaust air pollutants
+into the ambient air from manufacturing/industrial or commercial
+processes;
+_ Laboratory fume hoods and vents;
+
+(30)No. ___ Sheet-fed letter or lithographic printing press(es) with a cylinder width
+of less than 18 inches;
+For the following, attach additional pages as necessary:
+(31) any other emissions unit, not listed in this section, with a potential to emit less
+than the “de minimus” levels listed in COMAR 26.11.02.10X (list and
+describe units):
+No.
+No.
+No.
+No.
+No.
+(32) any other emissions unit at the facility which is not subject to an applicable
+requirement of the Clean Air Act (list and describe):
+No.
+No.
+No.
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+1800 Washington Boulevard � Baltimore MD 21230
+(410) 537-3000 � 1-800-633-6101 � http://www.mde.state.md.us
+
+PART 70 PERMIT INITIAL APPLICATION
+AIR AND RADIATION MANAGEMENT ADMINISTRATION
+Facilities required to obtain a Part 70 permit under COMAR 26.11.03.01 must complete and
+return this form. Applications are incomplete unless all applicable information required by
+COMAR 26.11.03.03 is supplied. Failure to supply additional information required by the
+Department to enable it to act on the application may result in loss of the application shield
+and denial of this application.
+Owner and Operator:
+Name of Owner or Operator:
+Street Address:
+City:
+
+State:
+
+Telephone Number
+
+Zip Code:
+Fax Number
+
+Facility Information:
+Name of Facility:
+Street Address:
+City:
+
+State:
+
+Plant Manager:
+
+Telephone Number:
+
+Zip Code:
+Fax Number:
+
+24-Hour Emergency Telephone Number for Air Pollution Matters:
+E-mail Address:
+
+List, on a separate page, the names and telephone numbers of other facility owners
+and persons with titles.
+
+Form Number: MDE/ARMA/PER.019 Page 1 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 1. CERTIFICATION STATEMENTS
+1.
+
+Compliance Status with Applicable Enhanced Monitoring and Compliance
+Certification Requirements
+The emissions units identified in this application are in compliance with
+applicable enhanced monitoring and compliance certification requirements.
+
+2.
+
+Certification of Current Compliance with All Applicable Federally Enforceable
+Requirements
+Except for the requirements identified in Section 7 of this application, for
+which compliance is not achieved, I hereby certify, based on information and
+belief formed after reasonable inquiry, that the facility is currently in
+compliance with all applicable federally enforceable requirements and agree
+that the facility will continue to comply with those requirements during the
+permit term.
+You must complete a Section 7 form for each non-complying emissions unit.
+
+3.
+
+Statement of Compliance with Respect to All New Applicable
+Requirements Effective During the Permit Term
+I hereby state, based on information and belief formed after reasonable
+inquiry, that the facility agrees to meet, in a time ly manner, all applicable
+federally enforceable requirements that become effective during the permit
+term, unless a more detailed schedule is expressly required by the applicable
+requirement.
+
+4.
+
+Risk Management Plan Compliance
+I hereby certify that, based on information and belief formed after reasonable
+inquiry, that a Risk Management Plan as required under �112(r) of the Clean
+Air Act:
+[ ] has been submitted;
+[ ] will be submitted at a future date; or
+[ ] does not need to be submitted.
+
+Form Number: MDE/ARMA/PER.019 Page 2 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+5.
+
+Statement of Truth, Accuracy, and Completeness
+
+"I certify, under penalty of law, that this document and all attachments were prepared
+under my direction or supervision and in accordance with a system designed to assure
+that qualified personnel properly gather and evaluate the information submitted. Based
+on my inquiry of the person(s) who manage the system, or those persons directly
+responsible for gathering the information, the information submitted is, to the best of
+my knowledge and belief, true, accurate, and complete. I am aware that there are
+significant penalties for submitting false information, including the possibility of fine
+and imprisonment for knowing violations."
+
+RESPONSIBLE OFFICIAL:
+X_______________________________________________________________
+SIGNATURE
+
+DATE
+____________________________________________
+PRINTED NAME
+____________________________________________
+TITLE
+
+Form Number: MDE/ARMA/PER.019 Page 3 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 2. FACILITY DESCRIPTION SUMMARY
+1.
+
+Major Activities of Facility
+Briefly describe the major activities, including the applicable SIC Code(s) and
+end product(s).
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+2.
+
+Facility-Wide Emissions
+A.
+
+This facility is required to obtain a Part 70 Operating Permit because it is:
+Check appropriate box:
+
+Actual Major
+Potential Major·
+Solid Waste Incineration Unit Requiring Permit Under § 129(e) of CAA
+Other Reason: _____________________________________________
+B.
+
+List the actual facility-wide emissions below:
+PM10_______ NOx______ VOC_______ SOx______ CO______
+HAPs_______
+
+3.
+
+Include With the Application:
+A.
+
+Flow Diagrams showing all emissions units, emission points, and control
+devices;
+
+B.
+
+Plot plan of the entire facility;
+
+C.
+
+Emissions Certification Report (copy of the most recent submitted to the
+Department)
+
+Form Number: MDE/ARMA/PER.019 Page 4 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 3A.
+
+EMISSIONS UNIT DESCRIPTIONS
+
+1. Emissions Unit No.:
+
+2. MDE Registration No.:(if applicable)
+
+1a. Date of installation (month/year):
+3. Detailed description of the emissions unit, including all emission point(s) and the assigned number(s):
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+4. Federally Enforceable Limit on the Operating Schedule for this Emissions Unit:
+General Reference:_________________________________
+Continuous Processes:
+
+__________ hours/day
+
+__________ days/year
+
+Batch Processes:
+
+__________ hours/batch
+
+__________ batches/day
+
+_________ days/year
+5. Fuel Consumption:
+Type(s) of Fuel
+% Sulfur
+Annual Usage (specify units)
+1.____________________________________________________________________________________
+2.____________________________________________________________________________________
+3.____________________________________________________________________________________
+6. Emissions in Tons:
+A.
+
+Actual Major: __________
+
+B.
+
+Actual Emissions:
+
+Potential Major:____________ (note: before control device)
+
+NOx______ SOx_______ VOC_______
+PM10______ HAPs_______
+
+Form Number: MDE/ARMA/PER.019 Page 5 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 3B.
+
+CITATION TO AND DESCRIPTION OF APPLICABLE
+FEDERALLY ENFORCEABLE REQUIREMENTS
+
+Emissions Unit No.: ______________________General Reference: ______________________
+Briefly describe the Emission Standard/Limit or Operational Limitation:
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+Compliance Demonstration:
+Methods used to demonstrate compliance:
+Monitoring: Reference ______________ Describe: __________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+Testing: Reference __________________ Describe: _________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+Record Keeping: Reference _____________ Describe: _______________________________________
+______________________________________________________________________________________
+______________________________________________________________________________________
+______________________________________________________________________________________
+Reporting: Reference __________________ Describe: ________________________________________
+______________________________________________________________________________________
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+Frequency of submittal of the compliance demonstration:________________________________
+Check appropriate reports required to be submitted:
+Quarterly Monitoring Report:_____________
+Annual Compliance Certification:_________
+Semi- Annual Monitoring Report:__________
+Form Number: MDE/ARMA/PER.019 Page 6 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 3C.
+
+OBSOLETE, EXTRANEOUS, OR INSIGNIFICANT PERMIT
+CONDITIONS
+
+List permit to construct conditions which should be considered to be obsolete,
+extraneous, or environmentally insignificant.
+Emissions Unit No.: ___________________Permit to Construct No. _______________
+Emissions
+Point No.
+
+Date Permit
+Issued
+
+Condition
+No.
+
+Brief Description of Condition and Reason for Exclusion
+
+Form Number: MDE/ARMA/PER.019 Page 7 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 3D.
+
+ALTERNATE OPERATING SCENARIOS
+
+Emissions Unit No.:___________________________________
+Briefly describe any alternate operating scenarios. Assign a number to each scenario for identification
+purposes.
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+
+Form Number: MDE/ARMA/PER.019 Page 8 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 3E.
+
+CITATION TO AND DESCRIPTION OF APPLICABLE
+FEDERALLY ENFORCEABLE REQUIREMENTS FOR AN
+ALTERNATE OPERATING SCENARIO
+
+Scenario No.: _______________________
+Emissions Unit No.: __________________ General Reference: __________________
+Briefly describe any applicable Emissions Standard/Limits/Operational Limitations:
+______________________________________________________________________________________
+______________________________________________________________________________________
+______________________________________________________________________________________
+______________________________________________________________________________________
+Compliance Demonstration:
+Methods used to demonstrate compliance:
+Monitoring: Reference ______________ Describe: ___________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+Testing: Reference ________________ Describe: ___________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+Record Keeping: Reference ___________ Describe: _________________________________________
+___________________________________________________________________________________
+___________________________________________________________________________________
+___________________________________________________________________________________
+Reporting: Reference _______________ Describe: __________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+Frequency of submittal of the compliance demonstration:_______________________________
+Check appropriate reports required to be submitted:
+Quarterly Monitoring Report: ____________
+Annual Compliance Certification:_________
+Semi- Annual Monitoring Report:__________
+Form Number: MDE/ARMA/PER.019 Page 9 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 4. CONTROL EQUIPMENT
+
+1. Associated Emissions Units No. :
+
+2. Emissions Point No.:
+
+3. Type and Description of Control Equipment :
+
+4. Pollutants Controlled:
+
+Control Efficiency:
+
+5. Capture Efficiency:
+
+Form Number: MDE/ARMA/PER.019 Page 10 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 5. SUMMARY SHEET OF POTENTIAL EMISSIONS
+List all applicable pollutants in tons per year (tpy) pertaining to this facility. The
+Emissions Unit No. should be consistent with numbers used in Section 3. Attach a
+copy of all calculations.
+Pollutant
+CAS Number
+(If Applicable)
+
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Emissions Unit #
+Fugitive Emissions
+Total
+
+Form Number: MDE/ARMA/PER.019 Page 11 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 6.
+
+EXPLANATION OF PROPOSED EXEMPTIONS FROM
+OTHERWISE APPLICABLE FEDERALLY ENFORCEABLE
+REQUIREMENTS
+
+Describe and cite the applicable requirements to be exempted. Complete this Section
+only if the facility is claiming exemptions from or the non-applicability of any federally
+enforceable requirements.
+1. Applicable Requirement:
+
+2. Brief Description:
+__________________________________________________________________________________________
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+
+3. Reasons for Proposed Exemption or Justification of Non-applicability:
+__________________________________________________________________________________________
+__________________________________________________________________________________________
+_________________________________________________________________________________________
+__________________________________________________________________________________________
+_________________________________________________________________________________________
+
+Form Number: MDE/ARMA/PER.019 Page 12 of 16
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 7. COMPLIANCE SCHEDULE FOR NONCOMPLYING EMISSIONS
+UNITS
+
+1. Emissions Unit #
+
+Anticipated Compliance Date
+
+Applicable Federally Enforceable Requirement being Violated:
+
+2. Description of Plan to Achieve Compliance:
+________________________________________________________________________________________
+________________________________________________________________________________________
+________________________________________________________________________________________
+________________________________________________________________________________________
+________________________________________________________________________________________
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+Certified Progress Reports for sources in noncompliance shall be submitted at least quarterly
+to the Department.
+
+Form Number: MDE/ARMA/PER.019 Page 1 of 15
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+
+This page intentionally left blank.
+
+Form Number: MDE/ARMA/PER.019 Page 2 of 15
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+STATE-ONLY ENFORCEABLE REQUIREMENTS
+
+Facility Information:
+Name of Facility:
+
+County:
+
+Premises Number:
+Street Address:
+24-hour Emergency Telephone Number for Air Pollution Matters:
+Type of Equipment (List Significant Units):
+
+Form Number: MDE/ARMA/PER.019 Page 3 of 15
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+MARYLAND DEPARTMENT OF THE ENVIRONMENT
+SECTION 1. CITATION TO AND DESCRIPTION OF
+APPLICABLE STATE-ONLY ENFORCEABLE
+REQUIREMENTS
+Registration No.: ________________________________
+Emissions Unit No.: _________________________ General Reference:____________
+Briefly describe the requirement and the emissions limit (if applicable):
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+
+Methods used to demonstrate compliance:
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+
+Form Number: MDE/ARMA/PER.019 Page 4 of 15
+Revision Date 4/29/03
+TTY Users 1-800-735-2258
+
+____ of _____
+Recycled Paper
+
+VI .Application Completeness Checklist
+The purpose of this part is to list the information required to achieve a Part 70
+application shield.
+Cover Page
+( )
+
+Name and address of owner or operator, including telephone number.
+
+( )
+
+Name and address of facility, including the plant manager's name and
+telephone number.
+
+( )
+
+A 24-hour emergency telephone number for air pollution matters.
+
+Section 1
+( )
+
+CERTIFICATION STATEMENTS
+
+The certification statement completed and signed by a responsible official.
+
+Section 2
+
+FACILITY DESCRIPTION SUMMARY
+
+( )
+
+A brief description of each of the source's process(es), including all
+applicable SIC codes and end products.
+
+( )
+
+Flow diagrams indicating all emissions units, emission points, and control
+devices.
+
+( )
+
+A plot plan of the entire facility.
+
+( )
+
+Emission Certification Report.
+
+( )
+
+General Emissions Information.
+
+Section 3
+EMISSIONS UNIT DESCRIPTIONS –
+This section must be completed for each emissions unit.
+Part A
+( )
+
+Emissions unit number.
+
+( )
+
+Detailed description of unit, including all emission points.
+
+( )
+
+Federally enforceable limit(s) on the operating schedule.
+
+( )
+
+Fuel consumption information for any emissions unit that consumes
+fuel including the type of fuel, percent sulfur, and annual usage of
+fuel.
+
+( )
+
+A citation and description of each federally enforceable requirement,
+including all emission standards, for each emissions unit.
+
+( )
+
+A statement of compliance demonstration techniques for each
+requirement, including a description of monitoring, record keeping,
+reporting requirements, and test methods.
+
+( )
+
+The frequency of submittal of the compliance demonstration during
+the permit term.
+
+( )
+
+Emissions unit number.
+
+( )
+
+Permit to construct number.
+
+( )
+
+Emissions point number(s).
+
+( )
+
+Date(s) the permit to construct was issued.
+
+( )
+
+Condition number(s) as indicated on the permit to construct.
+
+( )
+
+Description of the permit condition(s) and the reason(s) why they are
+believed to be obsolete, extraneous, or insignificant.
+
+( )
+
+Description of all alternate operating scenarios that apply to an
+emissions unit.
+
+( )
+
+Number assigned to each scenario.
+
+( )
+
+Emissions unit number.
+
+( )
+
+Description of the operating parameters for the emissions unit and
+other information which describes the how the operation of the unit
+will change under the different scenario.
+
+Part B
+
+Part C
+
+Part D
+
+Part E
+( )
+
+A citation and description of each federally enforceable
+requirement triggered by an operating scenario, including all
+emission standards, for each emissions unit.
+
+( )
+
+As an attachment, the date and results of the most recent compliance
+demonstration for each emission standard and/or emissions
+certification report with relevant supporting documentation.
+
+( )
+
+A statement of compliance demonstration techniques for each
+requirement, including a description of monitoring, record keeping,
+reporting requirements, and test methods.
+
+( )
+
+The frequency of submittal of the compliance demonstration during
+the permit term.
+
+Section 4
+
+CONTROL EQUIPMENT
+
+( )
+
+The type of each piece of air pollution control equipment
+
+( )
+
+The capture and control efficiencies of the control equipment.
+
+Section 5
+
+SUMMARY SHEET OF POTENTIAL EMISSIONS
+
+( )
+
+Quantity of potential emissions for criteria pollutants and
+HAPs emitted in tons per year for each emissions unit.
+
+( )
+
+Fugitive emission estimations for the entire facility for criteria
+pollutants and HAPs emitted in tons per year.
+
+( )
+
+Basis for all emission calculations.
+
+Section 6
+
+( )
+
+AN EXPLANATION OF PROPOSED EXEMPTIONS
+FROM OTHERWISE APPLICABLE FEDERALLY
+ENFORCEABLE REQUIREMENTS
+
+An explanation of the proposed exemption.
+
+Section 7
+
+COMPLIANCE SCHEDULE FOR NONCOMPLYING
+EMISSIONS UNITS
+
+( )
+
+Identification of emissions unit(s) not in compliance, including the requirement
+being violated and the effective compliance date.
+( )
+
+Detailed description of methods to be used to achieve compliance.
+
+( )
+
+A schedule of remedial measures, including an enforceable sequence of
+actions with milestones.
+
+Attachment
+( )
+
+Checklist of Insignificant Activities
+
+( )
+
+CAM Plan (If Applicable )
+
+

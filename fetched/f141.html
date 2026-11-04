@@ -1,0 +1,1198 @@
+
+
+<!--Test-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head><title>
+	Modeling - Air Quality - North Dakota DEQ
+</title><meta id="_ctl0_viewport" name="viewport" content="width=device-width">
+    <!-- Dont set initial-scale! - rotation bug -->
+    <meta property="og:site_name" content="North Dakota Department of Environmental Quality"><meta property="og:type" content="website"><meta property="og:image" content="https://deq.nd.gov/images/deq-og-square.jpg"><meta property="og:image:width" content="800"><meta property="og:image:height" content="800"><meta property="og:image" content="https://deq.nd.gov/images/deq-og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><link rel="shortcut icon" href="/favicon.png" type="image/png" />
+	
+    <script src="/Includes/jquery-2.2.0.min.js"></script>    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,900,300" rel="stylesheet" type="text/css" /><link href="/Includes/bootstrap/bootstrap.css" rel="stylesheet" /><link href="/Includes/bootstrap/bootstrap-theme.min.css" rel="stylesheet" /> <!-- Optional - enhances look of buttons etc -->
+    <link href="/Includes/offcanvas.css" rel="stylesheet" /><link href="/Includes/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet" /><link href="/Includes/scrolltotop/css/style.css" rel="stylesheet" /><link href="/Includes/breadcrumbs.css" rel="stylesheet" /><link href="/Includes/Icons1/flaticon.css" rel="stylesheet" /><link href="/Includes/Icons2/more.css" rel="stylesheet" /><link href="/Includes/EHSStyleSheet.css" rel="stylesheet" />
+
+    <style>
+      code {
+        color: black;
+        background-color: #e4eef0; /*#ecf3f3 #d3e9e9 #cce0e0*/
+        }
+
+        a, a:link, a:visited { 
+        text-decoration: underline; /* Provides secondary visual identifier for links, and ADA acessibility. */
+        text-underline-offset: 3px; /* Adjusts the vertical gap */
+        text-decoration-color: #928d82; 
+        text-decoration-thickness: 1px;
+        text-decoration-skip-ink: auto;
+        }
+        a:hover{
+            text-decoration-color:#024057; 
+        }
+        a.btn:hover{
+            font-weight:500;
+        }
+          /* testing acessibility fixes vvvvvv  */
+        :where(li a:not(nav a, .breadcrumb a)) {
+            display: inline-flex;
+            align-items: center;
+            min-height: 25px;
+            min-width: 25px;
+            }
+        @media (pointer: coarse) {
+        /* 44px tap targets for links in lists (touch devices only) */
+        :where(li a:not(nav a, .breadcrumb a)) {
+            display: inline-flex;
+            align-items: center;
+            min-height: 44px;
+            min-width: 44px;
+            }
+
+        /* Move list spacing into the link so rows don't double up */
+        :where(li:has(> a):not(nav li, .breadcrumb li)) {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            }
+        }
+
+        /*Move this to the main css after testing vvvv  */
+        .skip-link {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateY(-100%);
+        padding: 1rem 1.5rem;
+        background: #1a1a1a;
+        font-size: 1.25rem;
+        font-weight: 600;
+        text-decoration: underline;
+        z-index: 1000;
+        }
+
+        .skip-link,
+        .skip-link:link,
+        .skip-link:visited,
+        .skip-link:hover,
+        .skip-link:focus {
+        color: #ffffff;          /* ~17:1 contrast */
+        }
+
+        .skip-link:focus {
+        transform: translateY(0);
+        outline: 3px solid #ffbf47;
+        outline-offset: 2px;
+        }
+
+        #main-content:focus {
+        outline: none;
+        }
+    </style>
+
+    <!--popover script-->
+    <script language="JavaScript" type="text/javascript">
+        $(function ()
+        {
+            $('[rel="popover"]').popover({
+                container: 'body',
+                html: true,
+                content: function ()
+                {
+                    var clone = $($(this).data('popover-content')).clone(true).removeClass('hide');
+                    return clone;
+                }
+            }).click(function (e)
+            {
+                e.preventDefault();
+            });
+        });
+    </script>
+
+    <!--back to top script-->
+    <script language="JavaScript" type="text/javascript">
+        jQuery(document).ready(function ()
+        {
+            var offset = 200;
+            var duration = 500;
+            jQuery(window).scroll(function ()
+            {
+                if (jQuery(this).scrollTop() > offset)
+                {
+                    jQuery('.scroll-to-top').fadeIn(duration);
+                } else
+                {
+                    jQuery('.scroll-to-top').fadeOut(duration);
+                }
+            });
+
+            jQuery('.scroll-to-top').click(function (event)
+            {
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+
+        });
+    </script>
+    
+    <!-- Custom toggle div visibility functionality-->
+    <script>
+        jQuery(document).ready(function () {
+            if (jQuery(".toggle .toggle-title").hasClass('active')) {
+                jQuery(".toggle .toggle-title.active").closest('.toggle').find('.toggle-inner:first').show();
+            }
+            jQuery(".toggle .toggle-title").click(function () {
+                if (jQuery(this).hasClass('active')) {
+                    jQuery(this).removeClass("active").closest('.toggle').find('.toggle-inner:first').slideUp(200);
+                } else {
+                    jQuery(this).addClass("active").closest('.toggle').find('.toggle-inner:first').slideDown(200);
+                }
+            });
+        });
+    </script>
+
+
+        
+</head>
+
+<body onload="SizePicture();" onresize="SizePicture();">                                    <!--<body>-->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- NEW PAGES WILL USE BANNER.ASP - OLD PAGES WILL STILL USE HEADER.ASP - keep both around for now for ease of migration -->
+
+<style>
+  /* â”€â”€ ADA Toggle Button â”€â”€ */
+  .nd-ada-toggle-btn {
+    background: #D9DE9A;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    padding: 4px 2% 3px 1%;
+    font-size: 0.95em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /*margin-top: -18px;*/
+    /*margin-bottom: 10px;*/
+    min-height:44px;
+  }
+  .nd-ada-toggle-btn.nd-ada-open {
+    background: #ffffff;
+  }
+.nd-ada-toggle-btn:focus {
+    outline: none;
+}
+.nd-ada-toggle-btn:focus-visible {
+    outline: 3px solid #005ea2;
+    outline-offset: 2px;
+}  
+  @media (min-width: 600px) {
+    .nd-ada-toggle-btn {
+      justify-content: flex-start;
+      text-align: left;
+    }
+  }
+  .nd-ada-btn-icon {
+    width: 2em;
+    height: 2em;
+    opacity: 0.8;
+    flex-shrink: 0;
+  }
+  .nd-ada-arrow {
+    font-size: 1em;
+  }
+
+  /* â”€â”€ ADA Box (hidden by default) â”€â”€ */
+  .nd-ada-box {
+    padding: 9px 3% 9px 2%;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    background-color: #D9DE9A;
+    display: none;
+  }
+  .nd-ada-box.nd-ada-open {
+    display: flex;
+    align-items: flex-start;
+  }
+  .nd-ada-img {
+    border: 0;
+    opacity: 0.8;
+  }
+
+  /* WIDE SCREEN: 600px and up */
+  @media (min-width: 600px) {
+    .nd-ada-img {
+      width: 2.2em;
+      height: 2.2em;
+      margin-right: 6px;
+      margin-bottom: 0;
+      flex-shrink: 0;
+      display: block;
+    }
+    .nd-ada-content {
+      display: block;
+    }
+  }
+
+  /* MOBILE: Under 600px wide */
+  @media (max-width: 599px) {
+    .nd-ada-box.nd-ada-open {
+      display: block;
+    }
+    .nd-ada-img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      min-width: 25px;
+      min-height: 25px;
+      margin-right: 6px;
+      margin-top: -6px;
+      margin-bottom: 0px;
+    }
+    .nd-ada-content {
+      display: inline;
+    }
+  }
+</style>
+
+<button
+  class="nd-ada-toggle-btn"
+  aria-expanded="false"
+  aria-controls="ndAdaStatement"
+  aria-label="Website Accessibility Statement"
+  onclick="ndAdaToggle(this)">
+  <img src="/accessibility-icon.png" alt="" aria-hidden="true" class="nd-ada-btn-icon">
+ Website Accessibility Statement
+  <i class="fa fa-chevron-down nd-ada-arrow" aria-hidden="true"></i>
+</button>
+
+<div class="nd-ada-box" id="ndAdaStatement">
+  <!--<img src="/accessibility-icon.png" alt="Accessibility Icon" class="nd-ada-img">-->
+  <span class="nd-ada-content">
+We are committed to ensuring our website and web content complies with the Americans
+    with Disabilities Act (ADA) and applicable web accessibility standards.
+    If you have difficulty using our site or need an accommodation, please
+    contact us at <a href="mailto:deq@nd.gov?subject=DEQ Website Accessibility Request">deq@nd.gov</a>. To learn more, visit our <a href="/Accessibility.aspx">Accessibility page</a>.
+  </span>
+</div>
+
+<script>
+  function ndAdaToggle(btn) {
+    var box = document.getElementById('ndAdaStatement');
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    box.classList.toggle('nd-ada-open');
+    btn.classList.toggle('nd-ada-open');
+    var arrow = btn.querySelector('.nd-ada-arrow');
+    arrow.classList.toggle('fa-chevron-down');
+    arrow.classList.toggle('fa-chevron-up');
+  }
+</script><!-- banner.asp will supercede header.asp for new style pages -->
+<a name="top"></a>
+<div id="banner"> 
+	<table width="100%" style="border-collapse: collapse; margin-bottom: 1px;">
+		<tr>
+			<td><a class="CSSMenu" href="http://www.nd.gov/">
+				<img src="/images/ndgov-banner.gif" border="0" width="451" height="25" alt="nd.gov - The Official Portal for North Dakota State Government"></a></td>
+			<td align="right"><!--<a class="CSSMenu" href="http://www.ndtourism.com/">
+				<img src="/images/tourism-banner-blue.gif" border="0" width="95" height="25" alt="North Dakota: Legendary. Follow the trail of legends"></a>--></td>
+			<td align="right">
+								<form style="display: inline; margin: 0;" name="f" action="https://www.nd.gov/gsearch" method="get">
+					<input value="all_state" name="client" type="hidden">
+					<input value="all_state" name="site" type="hidden">
+					<input value="xml_no_dtd" name="output" type="hidden">
+					<input value="all_state" name="proxystylesheet" type="hidden">
+					<input type="hidden" name="as_oq" 
+						value="site:www.ndhealth.gov site:www.ndflu.com site:www.diabetesnd.org site:www.ndhan.gov">
+					<input value="http://www.ndhealth.gov" name="returnSiteURL" type="hidden">
+					<input value="North_Dakota_Department_of_Health" name="returnSiteName" type="hidden">
+					<input name="num" value="25" type="hidden">
+					
+					<input style="height: 30px;" 
+						type="search" 
+						name="q" 
+						size="20" 
+						id="searchwords" 
+						value="" 
+						title="Search" 
+						aria-label="Search North Dakota Department of Environmental Quality">					
+					<input value="Search" name="btnG" type="submit" 
+						onclick="window.location.href = '/search/default.aspx?site_search=deq.nd.gov&title=Search&query=' + document.getElementById('searchwords').value; return (false);">
+				</form>
+
+
+
+			</td>
+		</tr>
+	</table>
+
+	<table width="100%" border="0" cellpadding="0" border-collapse: collapse">
+		<tr>
+
+			<td style="   border-left-width: 0px; border-right-width: 0px; border-bottom-style: solid; border-bottom-color: #9D040A; border-bottom-width: 0px; border-top-style: solid; border-top-color: #709749; border-top-width: 4px;" width="1%">
+					<!-- Start new banner title -->
+					<div style="position:relative;"><!-- Div needed for absolute positioning of banner-title -->
+						<a class="CSSMenu" title="Go to the Department of Environmental Quality Home Page" href="/">
+							<img src="/images/DEQ-Logo.png" style="border:none; height:102px;" hspace="0" vspace="0" alt="ND Department of Environmental Quality Logo">
+							<div id="banner-title">Air Quality</div>
+						</a>
+					</div>
+					<!-- End new banner title -->
+			</td>
+
+			<td width="99%" style="border-bottom-style: solid; border-bottom-color: #9D040A; border-bottom-width: 0px; border-top-style: solid; border-top-color: #709749; border-top-width: 4px;">
+				<div id="Picturebar" name="Picturebar" style='float: left; width: 500px; height: 102px; background-image: url("/aq/images/LogoPhotos.jpg")'></div>
+			</td>
+
+		</tr>
+	</table>
+</div>
+<!-- end banner -->
+
+<div id="banner-mobile">
+		<!-- Start new mobile banner title -->
+		<div style="position:relative;"><!-- Div needed for absolute positioning of banner-title-mobile -->
+			<a class="CSSMenu" title="Go to the DEQ Home Page" href="/">
+				<img src="/images/DEQ-Logo.png" style="border:none; width:300px;" hspace="5" vspace="5" alt="ND Department of Environmental Quality Logo">
+				<div id="banner-title-mobile">Air Quality</div>
+			</a>
+		</div>
+		<!-- End new mobile banner title -->
+	<form style="display: block; margin-left: 5px; margin-bottom: 5px;" name="f" action="http://www.nd.gov/gsearch" method="get">
+		<input value="all_state" name="client" type="hidden">
+		<input value="all_state" name="site" type="hidden">
+		<input value="xml_no_dtd" name="output" type="hidden">
+		<input value="all_state" name="proxystylesheet" type="hidden">
+		<input type="hidden" name="as_oq" value="site:www.ndhealth.gov site:www.ndflu.com site:www.diabetesnd.org site:www.ndhan.gov">
+		<input value="http://www.ndhealth.gov" name="returnSiteURL" type="hidden">
+		<input value="North_Dakota_Department_of_Health" name="returnSiteName" type="hidden">
+		<input name="num" value="25" type="hidden">
+		<label for="searchwordsmobile"><span style='display: none' class="medium">Search: </span></label>
+		<input style="height: 30px; font-size: 16px; padding-left: 5px;" type="search" name="q" size="20" id="searchwordsmobile" value="">
+		<input class="btn btn-sm" style="color: white; background-color: #709749; margin-bottom: 4px;" value="Search" name="btnG" type="submit" onclick="window.location.href = '/search/default.aspx?site_search=deq.nd.gov&title=Search&query=' + document.getElementById('searchwordsmobile').value; return (false);">
+		<!--<input class="btn btn-sm" style="color: white; background-color: #709749; margin-bottom: 4px;" value="Search" name="btnG" type="submit" onclick="window.location.href = 'http://www.ndhealth.gov/search.aspx?sites=site:www.ndhealth.gov/ehs&search=' + document.getElementById('searchwordsmobile').value; return (false);">-->
+	</form>
+</div>
+<!-- end banner-mobile -->
+
+
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse" role="navigation">
+	
+	<div>
+	<!--<div class="container-fluid"> container-fluid causes black background on nav bar -->
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+					
+			<button id="left-navbar-off-canvas" type="button" style="padding-top:5px; padding-bottom:2px; margin-left:15px;" class="navbar-toggle collapsed pull-left"  data-toggle="offcanvas">
+				<span class="sr-only">Toggle left popout navigation</span>
+				<span style="font-size:20px; color:white;" class="glyphicon glyphicon-resize-horizontal"></span>
+			</button>
+		
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-navbar-collapse">
+				<span class="sr-only">Toggle top navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				
+		</div>
+		
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<!-- position:relative; z-index:1; fixes old IPad dropdown transparency issue -->
+		<div style="position:relative; z-index:1;" class="collapse navbar-collapse" id="site-navbar-collapse">            
+		<!--<div style="margin-left: -20px; margin-right:-20px; position:relative; z-index:1;" class="collapse navbar-collapse" id="site-navbar-collapse"> -->
+				
+			<ul class="nav navbar-nav">
+
+			   <li><a href="/default.aspx">DEQ Home</a></li>
+			   <li><a href="/aq/">Air Quality</a></li>
+			   <li><a href="/chemistry/">Chemistry</a></li>
+			   <li><a href="/mf/">Municipal Facilities</a></li>
+			   <li><a href="/wm/">Waste Management</a></li>
+			   <li><a href="/wq/">Water Quality</a></li>
+			   <li><a href="/director/">Office of Director</a></li>
+               
+
+
+				<!-- single line entry along side of multi-line menu items - vertical centering
+					<li><a href="#">Link with long name</a></li>
+					<li><a style="line-height:250%" href="#">Link</a></li>
+				-->
+
+				<!-- regular dropdown - ie non mega-menu
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sections<span class="caret"></span></a>
+					<ul style="font-size:11.5px;" class="dropdown-menu" role="menu">
+						<li><a href="#"><span>Community Health</span></a></li>
+						<li><a href="#">Emergency Preparedness</a></li>
+						<li><a href="#">Medical Services</a></li>
+						<li><a href="#">Health Resources</a></li>
+						<li><a href="#">Environmental Health</a></li>
+						<li><a href="#">Administrative Support</a></li>
+						<li class="divider"></li>
+						<li><a href="#">This is a seperated link here that is very very long<br /> indeed very very long indeed very very long indeed</a></li>
+						<li><a href="#">Another link</a></li>
+						<li><a href="#">One more link</a></li>
+					</ul>
+				</li>
+				-->
+
+			</ul> <!-- END NAV NAV-BAR -->
+				
+
+
+		</div>
+		<!-- END .navbar-collapse -->
+	</div>
+	<!-- END container div -->
+
+    <!-- Office closing message start -->
+	<!--
+    <div style="margin-bottom:0px;" class="alert alert-danger" role="alert">
+        <h4>Alert: All department offices are temporarily closed to public access, but we continue to work to maintain our clean air, water and land. Please contact the applicable program by email or phone if you need assistance - <a href="/Covid19/">More Information</a></h4>
+    </div>
+	-->
+    <!-- Office closing message end -->
+	   
+</nav>
+
+	<!-- Breadcrumbs start -->
+	<div class="container-fluid">
+		<ol class="breadcrumb">
+			
+			<li><a href="/"><i class="flaticon-leaf93" aria-hidden="true"></i>&nbsp;Home</a></li>
+
+			<li><a href="/aq/">
+				<!--use program icons-->
+				<i class="flaticon-two394"></i>&nbsp;AQ</a></li>
+
+			<li class="active">Dispersion Modeling</li>
+		</ol>
+	</div>
+	<!-- Breadcrumbs end -->
+
+
+
+    <!-- Uses Bootstrap grid for column layout -->
+    <div class="container-fluid">
+        <div class="row row-offcanvas row-offcanvas-left">
+
+
+            <!-- LEFT NAVIGATION COLUMN -->
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" role="navigation">
+
+                <div class="redbox" style="margin-top: 0px;">
+                    <div class="redbox-header">
+                        &nbsp;&nbsp;&nbsp;
+                   DEQ Resources
+                    </div>
+                    <div class="redbox-body" style="padding: 0px;">
+                        <nav style="margin-bottom: 0px;" class="left-nav navbar navbar-default" role="navigation">
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <ul class="nav nav-tabs nav-stacked">
+                                
+<!--<li><p style="color:#999;font-size:medium; font-weight:bold;margin-top:0px; margin-bottom:0px; background-color:#e5e5e5; padding:5px; padding-left:10px;">DEQ Resources</p></li>-->
+<!--<li><a href="/default.aspx"><i class="flaticon-leaf93"></i>&nbsp;  DEQ Home</a></li>
+<li><a href="/ContactUs.aspx"><i class="glyphicon glyphicon-envelope"></i>&nbsp;  Contact Us</a></li>-->
+
+<li><a href="/ereporting.aspx"><i class="more-ecological31"></i>&nbsp;  Electronic Reporting &amp; Permit Systems</a></li>
+<li><a href="/wq/4_spill_investigations/incidentreporting.aspx"><i class="flaticon-dangerous1"></i>&nbsp;  Report a Spill</a></li>
+
+<!-- <li><a href="/sustainability/"><i class="flaticon-landscape23"></i>&nbsp;  Sustainability</a></li> -->
+
+<li><a href="/topicsatoz.aspx"><i class="more-dictionary"></i>&nbsp;  Environmental Topics <span style="white-space: nowrap;">A-Z</span></a></li>
+<!-- <li><a href="/enforcement/"><i class="fa fa-balance-scale"></i>&nbsp;  Inspections and Enforcements</a></li> -->
+<li><a href="/ndrbca/"><i class="flaticon-dangerous1"></i>&nbsp;  Risk Based Corrective Action</a></li>
+ 
+<li><a href="/publicnotice.aspx"><i class="glyphicon glyphicon-comment"></i>&nbsp;  Public Comments, Meetings &amp Notices</a></li>
+<li><a href="/calendar.aspx"  ><i class="glyphicon glyphicon-calendar"></i>&nbsp;  Calendar and Events</a></li>
+<li><a href="/ehsrulesregs.aspx"><i class="fa fa-gavel"></i>&nbsp;  Rules and Regulations</a></li>
+<li><a href="/forms.aspx"><i class="glyphicon glyphicon-file"></i>&nbsp;  Forms</a></li>
+<!--<li><a href="/Trainings.aspx"><i class="fa fa-graduation-cap"></i>&nbsp;  Training</a></li>-->
+<!--<li><a href="#"><i class="more-conversation6"></i>&nbsp;  Frequently Asked Questions</a></li>-->
+<li><a href="/publications.aspx"><i class="flaticon-books8"></i>&nbsp;  Publications</a></li>
+<!--<li><a href="/portal/DataMaps/default.aspx"><i class="flaticon-map82"></i>&nbsp;  Data &amp; Maps</a></li>-->
+<li><a href="/pressreleases.aspx"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;  Press Releases</a></li>
+
+<li><a href="/openrecords.aspx"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;  Open Records</a></li>
+<li><a href="/testimony"><i class="fa fa-balance-scale"></i>&nbsp;  Legislative Testimony</a></li>
+
+<li><a target="_blank" href="/jobs/"><i class="more-business64"></i>&nbsp;  Employment Opportunities</a></li>
+<li><a target="_blank" href="/non-discrimination.aspx"><i class="more-business64"></i>&nbsp;  Nondiscrimination Program</a></li>
+
+<li><a href="/director/environmentalaudits/"><i class="flaticon-landscape23"></i>&nbsp; Environmental Audits</a></li>
+<li><a href="/director/erac/"><i class="flaticon-landscape23"></i>&nbsp;  Environmental Review Advisory Council</a></li>
+
+
+
+<li>
+<div class="input-group">
+      <label for="search-input"><span style="display:none">Search EHS for</span></label>
+      <input id="search-input" type="text" class="form-control" placeholder="Search DEQ for..." title="Search DEQ for">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" onclick="window.location.href = '/search/default.aspx?site_search=deq.nd.gov&title=Search&query=' + document.getElementById('search-input').value; return (false);">Go! </button>
+      </span>
+    </div><!-- /input-group -->
+</li>    
+                            </ul>
+                        </nav>
+                        </div>
+                        <br />
+                    <div>
+                         <nav class="left-nav navbar navbar-default" role="navigation">
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <ul class="nav nav-tabs nav-stacked">
+                         
+<li><p style="color:#000000;font-size:medium; font-weight:bold;margin-top:0px; margin-bottom:0px; background-color:#e5e5e5; padding:5px; padding-left:10px;">Division of Air Quality Resources</p></li>
+<li><a href="/aq/"><i class="glyphicon glyphicon-home"></i>&nbsp;Air Quality Home</a></li>
+<li><a href="/ereporting.aspx"><i class="fa fa-database"></i>&nbsp;CERIS-ND</a></li>
+<li><a href="/aq/permitting/permitportal.aspx"><i class="fa fa-database"></i>&nbsp;Permit Portal</a></li>
+<li><a href="/aq/Fees.aspx"><i class="glyphicon glyphicon-usd"></i>&nbsp;Fees</a></li>
+<li><a href="/aq/Forms.aspx" aria-label="AQ Forms"><i class="flaticon-contract11"></i>&nbsp;Forms</a></li>
+<li><a href="/aq/RulesRegs.aspx"><i class="glyphicon glyphicon-book"></i>&nbsp;Rules, Regulations &amp; Policies</a></li>
+<li><a href="/aq/PublicCom.aspx"><i class="glyphicon glyphicon-comment"></i>&nbsp;Public Comments &amp; Notices</a></li>
+<!--<li><a href="/aq/permitting/PTCInProgress.aspx"><i class="fa fa-clock-o"></i>&nbsp;Construction Permits In Progress</a></li>-->
+<li><a href="/aq/aqdata.aspx"><i class="flaticon-map82"></i>&nbsp;Data &amp; Maps</a></li>
+<li><a href="/aq/Training.aspx"><i class="fa fa-graduation-cap"></i>&nbsp;Training</a></li>
+<!--<li><a href="/aq/News.aspx"><i class="glyphicon glyphicon-bullhorn"></i>&nbsp;News</a></li>-->
+<!--<li><a href="/aq/Calendar.aspx"  ><i class="glyphicon glyphicon-calendar"></i>&nbsp;Calendar &amp; Events</a></li>-->
+<li><a href="/aq/Publications.aspx"><span class="flaticon-books8"></span>&nbsp;AQ Publications</a></li>
+<li><a href="/aq/AboutAQ.aspx"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;About DoAQ</a></li>
+
+
+
+
+
+
+
+  
+                    </ul>
+
+                </nav>
+            </div></div>
+           
+            <!--/ END SIDEBAR-OFFCANVAS-->
+            <!-- LEFT NAVIGATION COLUMN -->
+            
+           
+        </div>
+            <!--/ END SIDEBAR-OFFCANVAS-->
+
+            <!-- MAIN CONTENT COLUMN -->
+            <div id="main-content" class="col-sm-9 " tabindex="-1">
+                <form name="aspnetForm" method="post" action="./" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA4MjE2MDQ4MGRkTCatibkc65rrUZ1KY+zPtPzrnCufkzmYTptpL1nIuP8=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A4C97860" />
+                    <div>
+
+                        
+	<script>
+		$("#Picturebar").css("background-image", "url('/aq/images/PC/modelingbanner1.JPG')");
+	</script>
+	<div class="col-md-12 col-lg-9 col-sm-10">
+		<div class="intro">
+			<h1><span class="glyphicon glyphicon-globe" style="margin-right:5px;"></span>Dispersion Modeling</h1>
+			<p>The North Dakota Department of Environmental Quality, Division of Air Quality has developed the following guidance and policy documents to assist permit applicants in the process of drafting complete permit applications.</p>
+			<p style="font-size: small;">For more information please direct questions or comments to Rhannon Thorton at 701-328-5271, or email <a href="mailto:rthorton@nd.gov">rthorton@nd.gov</a>. </p>
+			
+		</div>
+		<!--right-->
+
+		<hr class="bar">
+		<div class="page-header" style="padding-top:20px;">
+			<h2><strong>Dispersion Modeling</strong></h2>
+		</div>
+		<div class="row">
+			<div>
+				<p>
+					Dispersion modeling for criteria pollutants and air toxics may be required prior to issuance of a Permit to Construct in accordance with the
+							<a href="/publications/aq/policy/Modeling/Modeling_Memo.pdf" target="_blank">Criteria Pollutant Modeling Requirements for a Permit to Construct</a>.
+				</p>
+			</div>
+			
+
+		</div>
+		<hr class="bar">
+		
+		<div class="page-header" style="padding-top:20px;">
+			<h2><strong>Air Quality Analysis Guide</strong></h2>
+		</div>
+		<p class="Justified">The Department strongly encourages the development of a pre-application dispersion modeling protocol in consultation with the Department in order to expedite the project review process. To aid the applicant in this process, the following <a href="/publications/aq/policy/Modeling/ND_Air_Dispersion_Modeling_Guide.pdf" target="_blank">Air Quality Analysis Guide</a> has been provided.</p>
+		<hr class="bar">
+		<div class="page-header" style="padding-top:20px;">
+			<h2><strong>Related Links</strong></h2>
+		</div>
+		<p class="Justified">More information about air dispersion modeling can be found on EPA's <a href="https://www.epa.gov/scram" target="_blank">Support Center for Regulatory Atmospheric Modeling (SCRAM)</a> <i class="fa fa-external-link"></i>site or through their <a href="https://www.epa.gov/chief" target="_blank">Technology Transfer Network Clearinghouse for Inventories &amp; Emission Factors</a> <i class="fa fa-external-link"></i>site.</p>
+
+		<h4 style="font-weight: 100;" class="tab"><a href="/aq/monitoring/">Air Quality Monitoring</a></h4>
+		<h4 style="font-weight: 100;" class="tab"><a href="/aq/permitting/construction.aspx">Construction Permitting</a></h4>
+		
+
+<!--<hr class="bar">		
+		<div class="page-header" style="padding-top:20px;">
+			<h2><strong>Ambient Air Quality Standards (AAQS)</strong></h2>
+		</div>
+-->
+
+
+		<hr class="bar">
+		
+		<div class="page-header" style="padding-top:20px;">
+			<h2><strong>Modeling Input Data Files</strong></h2>
+		</div>
+
+		<div class="toggle">
+			<div class="toggle-title notop">
+				<h3>
+					<i></i>
+					<span class="title-name">Surface Air MET</span>
+				</h3>
+			</div>
+			<div class="toggle-inner">
+				
+ <script>
+        $(document).ready(function () {
+        
+            $("#tableSurfaceAirMET").tablesorter({
+                sortList: [[0, 0], [1, 0]]
+            });
+          
+        });
+    </script>
+
+
+
+<table id="tableSurfaceAirMET" class="table table-responsive table-striped " class="tablesorter">
+    <thead>
+        <tr>
+            <th>
+                <h4>Station<span class="small glyphicon glyphicon-sort"></span></h4>
+            </th>
+            <th>
+                <h4>Station ID<span class="small glyphicon glyphicon-sort"></span></h4>
+            </th>
+            <th>
+                <h4>Lat.</h4>
+            </th>
+            <th>
+                <h4>Long.</h4>
+            </th>
+            <th>
+                <h4>Elev. (m)</h4>
+            </th>
+            <th>
+                <h4>Upper-Air Site<span class="small glyphicon glyphicon-sort"></span></h4>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>CYEN&ndash;Estevan, Canada</td>
+            <td>94057</td>
+            <td>49.217 N</td>
+            <td>102.967 W</td>
+            <td>581.0</td>
+            <td>Glasgow, MT</td>
+        </tr>
+        <tr>
+            <td>KABR&ndash;Aberdeen, SD</td>
+            <td>14929</td>
+            <td>45.45 N</td>
+            <td>98.421 W</td>
+            <td>396.2</td>
+            <td>Aberdeen, SD</td>
+        </tr>
+        <tr>
+            <td>KBHK&ndash;Baker, MT</td>
+            <td>94055</td>
+            <td>46.333 N</td>
+            <td>104.25 W</td>
+            <td>902.0</td>
+            <td>Glasgow, MT</td>
+        </tr>
+        <tr>
+            <td>KBIS&ndash;Bismarck, ND</td>
+            <td>24011</td>
+            <td>46.774 N</td>
+            <td>100.748 W</td>
+            <td>506.0</td>
+            <td>Bismarck, ND</td>
+        </tr>
+        <tr>
+            <td>KDIK&ndash;Dickinson, ND</td>
+            <td>24012</td>
+            <td>46.797 N</td>
+            <td>102.802 W</td>
+            <td>787.3</td>
+            <td>Bismarck, ND</td>
+        </tr>
+        <tr>
+            <td>KDVL&ndash;Devils Lake, ND</td>
+            <td>24015</td>
+            <td>48.117 N</td>
+            <td>98.917 W</td>
+            <td>443.0</td>
+            <td>Bismarck, ND</td>
+        </tr>
+        <tr>
+            <td>KETH&ndash;Wheaton, MN</td>
+            <td>24017</td>
+            <td>45.78 N</td>
+            <td>96.534 W</td>
+            <td>313.0</td>
+            <td>Aberdeen, SD</td>
+        </tr>
+        <tr>
+            <td>KFAR&ndash;Fargo, ND</td>
+            <td>14914</td>
+            <td>46.925 N</td>
+            <td>96.811 W</td>
+            <td>274.0</td>
+            <td>Aberdeen, SD</td>
+        </tr>
+        <tr>
+            <td>KGFK&ndash;Grand Forks, ND</td>
+            <td>14916</td>
+            <td>47.949 N</td>
+            <td>97.176 W</td>
+            <td>253.6</td>
+            <td>International Falls, MN</td>
+        </tr>
+        <tr>
+            <td>KHCO&ndash;Hallock, MN</td>
+            <td>24018</td>
+            <td>48.783 N</td>
+            <td>96.95 W</td>
+            <td>250.0</td>
+            <td>International Falls, MN</td>
+        </tr>
+        <tr>
+            <td>KHEI&ndash;Hettinger, ND</td>
+            <td>94038</td>
+            <td>46.017 N</td>
+            <td>102.65 W</td>
+            <td>824.0</td>
+            <td>Bismarck, ND</td>
+        </tr>
+        <tr>
+            <td>KISN&ndash;Williston, ND</td>
+            <td>94014</td>
+            <td>48.195 N</td>
+            <td>103.642 W</td>
+            <td>580.6</td>
+            <td>Glasgow, MT</td>
+        </tr>
+        <tr>
+            <td>KJMS&ndash;Jamestown, ND</td>
+            <td>14919</td>
+            <td>46.93 N</td>
+            <td>98.678 W</td>
+            <td>455.4</td>
+            <td>Bismarck, ND</td>
+        </tr>
+        <tr>
+            <td>KMBG&ndash;Mobridge, SD</td>
+            <td>94052</td>
+            <td>45.533 N</td>
+            <td>100.433 W</td>
+            <td>508.0</td>
+            <td>Bismarck, ND</td>
+        </tr>
+        <tr>
+            <td>KMOT&ndash;Minot, ND</td>
+            <td>24013</td>
+            <td>48.259 N</td>
+            <td>101.281 W</td>
+            <td>522.4</td>
+            <td>Bismarck, ND</td>
+        </tr>
+        <tr>
+            <td>KSDY&ndash;Sidney, MT</td>
+            <td>24021</td>
+            <td>47.707 N</td>
+            <td>104.184 W</td>
+            <td>605.0</td>
+            <td>Glasgow, MT</td>
+        </tr>
+    </tbody>
+</table>
+<blockquote><strong>Notes:</strong>
+    <ul>
+        <li>Anemometer height for all stations is 10.0 meters. </li>
+        <li>Surface data is in the CD144 format.</li>
+        <li>Upper-air station data is in FSL format.</li>
+        <li>Station ID has been changed to WBAN code from abbreviated WMO code (ID is also changed in CD144 met files, 1/18/12), for compatibility with AERMET Version 11059 and newer. </li>
+    </ul>
+
+
+</blockquote>
+			</div>
+		</div>
+		<div class="toggle">
+			<div class="toggle-title ">
+				<h3>
+					<i></i>
+					<span class="title-name">Upper-Air MET</span>
+				</h3>
+			</div>
+			<div class="toggle-inner">
+
+				
+ <script>
+        $(document).ready(function () {
+        
+            $("#tableUpperAirMET").tablesorter({
+                sortList: [[0, 0], [1, 0]]
+            });
+          
+        });
+    </script>
+
+
+<table id="tableUpperAirMET" class="table table-responsive table-striped " class="tablesorter">
+
+    <thead>
+        <tr>
+            <th>
+                <h4>Station<span class="small glyphicon glyphicon-sort"></span></h4>
+            </th>
+            <th>
+                <h4>Station ID<span class="small glyphicon glyphicon-sort"></span></h4>
+            </th>
+                <th>
+                <h4>Lat.</h4>
+            </th>
+            <th>
+                <h4>Long.</h4>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>KABR0913&ndash;Aberdeen, SD</td>
+            <td>14929</td>
+            <td>45.45 N</td>
+            <td>98.421 W</td>
+        </tr>
+            <tr>
+            <td>KBIS0913&ndash;Bismarck, ND</td>
+            <td>24011</td>
+            <td>46.774 N</td>
+            <td>100.748 W</td>
+        </tr>
+            <tr>
+            <td>KGGW0913&ndash;Glasgow, MT</td>
+            <td>94008</td>
+            <td>48.214 N</td>
+            <td>106.621 W</td>
+        </tr>
+            <tr>
+            <td>KINL0913&ndash;International Falls, MN</td>
+            <td>14918</td>
+            <td>48.57 N</td>
+            <td>93.38 W</td>
+        </tr>
+    </tbody>
+</table>
+<blockquote><strong>Notes:</strong>
+    <ul>
+        <li>Upper-air station data is in FSL format.</li>
+        <li>Station ID has been changed to WBAN code from abbreviated WMO code (ID is also changed in CD144 met files, 1/18/12), for compatibility with AERMET Version 11059 and newer. </li>
+    </ul>
+
+
+</blockquote>
+			</div>
+		</div>
+
+		<hr class="bar" />
+		  
+		<ul class="pager">
+			<li class="previous"><a href="/aq/permitting/Construction.aspx"><span aria-hidden="true">&larr;</span> Construction Permits</a></li>
+			<li class="next"><a href="/aq/permitting/Operating.aspx">Operating Permits <span aria-hidden="true">&rarr;</span></a></li>
+		</ul>
+
+		<hr class="bar">
+		<p style="text-align:right;">Last Updated: 10/06/2026 </p>
+	</div>
+
+
+
+                    </div>
+
+                </form>
+
+                <div class="scroll-to-top" style="display: none;">
+                </div>
+                <!-- END MAIN CONTENT COLUMN -->
+
+            </div>
+            <!-- END ROW-->
+        </div>
+
+    </div>
+    <!-- END FLUID-CONTAINER -->
+
+    <style>
+  .nd-ada-box-2 {
+    padding: 12px 2% 12px 1%; 
+    font-size: 1.1em;
+    line-height: 1.5em;
+     background-color: #d3d0c7; 
+    color: #111111;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   }
+   .nd-ada-content p {
+  margin: 0 0 0.75em 0;
+  font-size: .9em;
+  line-height: 1.3em;
+  color: inherit;
+}
+
+ /* .nd-ada-img {
+    border: 0;
+    opacity: 0.8; 
+  }*/
+  #legacy-footer {
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+#legacy-footer:target {
+  border-color: #000000;
+  border-right: none;
+  border-left:none;
+  background-color: #fffbcc;
+}
+
+  /* WIDE SCREEN: 600px and up (Two-column layout, no wrapping under) 
+  @media (min-width: 600px) {
+    .nd-ada-box-2 {
+      display: flex;
+      align-items: flex-start;
+    }
+    .nd-ada-box-2 .nd-ada-img {
+      width: 2.2em;
+      height: 2.2em;
+      margin-right: 10px;
+      margin-top:-8px;
+      flex-shrink: 0;
+      display: block;
+    }
+    .nd-ada-content {
+      display: block; 
+    }
+  }
+
+  @media (max-width: 599px) {
+    .nd-ada-box-2 {
+      display: block; 
+    }
+    .nd-ada-box-2 .nd-ada-img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      min-width: 25px;
+      min-height: 25px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-top:-5px;
+    }
+    .nd-ada-content {
+      display: inline; 
+    }
+  }*/
+</style>
+
+<div class="nd-ada-box-2" id="legacy-footer">
+  <div style="max-width:1300px; margin:0 auto; display:flex; align-items:flex-start; gap:12px;">
+  <span class="ld-si" role="img" aria-label="Legacy document icon" style="font-size:3rem; flex-shrink:0; margin-top:2px;">
+    <span class="ld-b"></span>
+    <span class="ld-ln">
+      <span class="ld-l"></span>
+      <span class="ld-l"></span>
+      <span class="ld-l ld-ls"></span>
+    </span>
+    <span class="ld-rt"></span>
+    <span class="ld-rb"></span>
+  </span>
+  <div class="nd-ada-content">
+<p>This web page may contain legacy documents &#8212; materials published prior to April 24, 2026 &#8212; available here for reference and research.  These older documents may not be fully accessible for all users or compatible with assistive technologies. We are committed to providing equal access &#8212; if you encounter any barriers opening, reading, or using any document on this page, please contact us at <a href="mailto:deq@nd.gov?subject=Accessible Document Request">deq@nd.gov</a> and we will provide the information in an alternative format.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+    <div class="row">
+        <div class="col-xs-6">
+            <address>
+                <strong>Department of Environmental Quality</strong><br>
+                4201 Normandy Street<br>
+                Bismarck, ND 58503-1324<br>
+                <i class="fa fa-phone"></i>&nbsp;<abbr title="Phone">P:</abbr>
+                701-328-5150<br />
+                <i class="fa fa-fax"></i>&nbsp;<abbr title="Fax">F:</abbr>
+                701-328-5200<br />
+                <i class="fa fa-envelope"></i>&nbsp;<abbr title="Email">E:</abbr> <a href="mailto:deq@nd.gov">deq@nd.gov</a><br />
+
+                <a href="https://fb.me/nddeq" title="NDDEQ Facebook" target="_blank">
+                    <img src="/images/FacebookIcon.jpg" style="margin-top:5px; vertical-align: middle; border: 0;" alt="NDDEQ Facebook"></a>
+
+				<a href="https://twitter.com/NDenvironment" title="NDDEQ Twitter" target="_blank">
+                    <img src="/images/X-Icon.png" style="margin-top:5px; vertical-align: middle; border: 0;" alt="NDDEQ on X"></a>
+
+				<a href="https://www.linkedin.com/company/nddeq/" title="NDDEQ LinkedIn" target="_blank">
+                    <img src="/images/LinkedInIcon.png" style="margin-top:5px; vertical-align: middle; border: 0;" alt="NDDEQ LinkedIn"></a>
+
+                <a href="https://instagram.com/nd_environment" title="NDDEQ Instagram" target="_blank">
+                    <img src="/images/InstagramIcon.png" style="margin-top:5px; vertical-align: middle; border: 0;" alt="NDDEQ Instagram"></a>
+
+				<a href="/Subscriptions/" title="NDDEQ GovDelivery Subscriptions"> <img src="/images/GovDeliveryIcon.png" 
+                    alt="GovDelivery Subscriptions" style="margin-top:5px; vertical-align: middle; border: 0;"></a>
+
+                <a href="https://www.samhsa.gov/find-support/in-crisis" title="Suicide &amp; Crisis Lifeline">
+                    <img src="/images/988-Suicide-Prevention-Icon.png" alt="Suicide &amp; Crisis Lifeline" 
+                    style="margin-top:5px; vertical-align: middle; border: 0;"></a>
+
+            </address>
+        </div>
+
+        <div class="col-xs-5 col-xs-offset-1">
+            <h5 class="text-right"><a href="/Contactus.aspx"><i class="glyphicon glyphicon-envelope"></i>&nbsp;Contact Us</a></h5>
+            <h5 class="text-right"><a href="/About.aspx"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;About Us</a></h5>
+               <h5 class="text-right"><a href="/Accessibility.aspx"><i class="glyphicon glyphicon-ok-circle"></i>&nbsp;Accessibility</a></h5>
+ 	<h5 class="text-right"><a target="_blank" href="https://www.omb.nd.gov/team-nd-careers"><i class="glyphicon glyphicon-briefcase"></i>&nbsp;Jobs</a></h5>
+            <h5 class="text-right"><a target="_blank" href="https://www.nd.gov/faq/environmental-quality-faq"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;FAQs</a></h5>
+            <h5 class="text-right"><a href="https://www.hhs.nd.gov/local-public-healthsites/"><i class="glyphicon glyphicon-apple"></i>&nbsp;Local Public Health Units</a></h5>            
+			<h5 class="text-right"><a href="https://intranet.doh.nd.gov/"><i class="glyphicon glyphicon-apple"></i>&nbsp;Intranet</a></h5>
+            <p class="Copyright text-right">
+                Copyright &copy; 2026
+            </p>            
+
+            <!-- <p class="Copyright"><a href="https://www.ndhealth.gov/intranet/">Intranet</a></p>
+            <a href="https://webmail.state.nd.us/owa" style="font-size: 8pt">State Gov't Outlook Web Access</a>-->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 iconFontsAttributionDiv">
+            Icon fonts generated by <a href="https://www.flaticon.com">flaticon.com</a> under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons BY</a>. The authors are: <a href="https://www.freepik.com">Freepik</a>, <a href="https://www.unocha.org">OCHA</a>, <a href="https://www.icomoon.io">Icomoon</a>, Stephen Hutchings, Rami McMin, <a href="https://yanlu.de">Yannick</a>, <!--<a href="https://www.simpleicon.com">-->SimpleIcon<!--</a>-->, <a href="https://tutsplus.com">TutsPlus</a>,  <a href="https://vaadin.com/font-icons">Vaadin</a>, <a href="https://graphberry.com">GraphBerry</a>, <a href="https://www.danielbruce.se">Daniel Bruce</a>, Vectorgraphit, <a href="https://twitter.com/sesisesisesi">Ema Dimitrova</a>, Amit Jakhu, Tintins, and Plainicon.                
+        </div>
+    </div>
+
+</div>
+<div class="footer-panel"></div>
+
+<!--   #######################   ARCHIVE DOCUMENT TOOLTIP   ##############################-->
+
+<div id="archived-tooltip" role="tooltip" class="archived-tooltip">
+  Older documents are available here for reference and recordkeeping. They may not meet current ADA accessibility standards. 
+  To request an accessible version, please email
+  <a href="mailto:deq@nd.gov?subject=Accessible Document Request">deq@nd.gov</a>.
+</div>
+
+<script>
+const tooltip = document.getElementById('archived-tooltip');
+let hideTimer;
+
+document.querySelectorAll('.archived-label').forEach(el => {
+  el.setAttribute('aria-describedby', 'archived-tooltip');
+  el.addEventListener('mouseenter', () => { clearTimeout(hideTimer); positionTooltip(el); });
+  el.addEventListener('focus', () => positionTooltip(el));
+  el.addEventListener('mouseleave', () => { hideTimer = setTimeout(() => tooltip.style.display = 'none', 300); });
+  el.addEventListener('blur', () => tooltip.style.display = 'none');
+  el.addEventListener('keydown', e => { if (e.key === 'Escape') { tooltip.style.display = 'none'; el.blur(); }});
+});
+
+tooltip.addEventListener('mouseenter', () => clearTimeout(hideTimer));
+tooltip.addEventListener('mouseleave', () => { hideTimer = setTimeout(() => tooltip.style.display = 'none', 300); });
+
+function positionTooltip(el) {
+  tooltip.style.display = 'block';
+  setTimeout(() => {
+    const rect = el.getBoundingClientRect();
+    tooltip.style.top = (rect.top - tooltip.offsetHeight) + 'px';
+    tooltip.style.left = (rect.left - 4) + 'px';
+  }, 0);
+}
+</script>
+
+
+<!--   #######################   LEGACY DOCUMENT TOOLTIP   ##############################-->
+
+<script>
+class LegacyDocElement extends HTMLElement {
+  connectedCallback() {
+    this.style.position = 'relative';
+    this.style.display = 'inline-block';
+    this.innerHTML = `
+      <span class="ld-si"
+            tabindex="0"
+            role="img"
+            aria-label="Legacy document â€” may not meet ADA accessibility standards"
+            style="margin-left:0.25em;">
+        <span class="ld-b"></span>
+        <span class="ld-ln">
+          <span class="ld-l"></span>
+          <span class="ld-l"></span>
+          <span class="ld-l ld-ls"></span>
+        </span>
+        <span class="ld-rt"></span>
+        <span class="ld-rb"></span>
+      </span>
+      <span class="ld-tooltip" role="tooltip">
+        Some documents may predate current accessibility 
+        standards. <a href="#legacy-footer">Learn more about legacy documents</a>
+      </span>`;
+
+    const trigger = this.querySelector('.ld-si');
+    const tooltip = this.querySelector('.ld-tooltip');
+    let ldHideTimer;
+
+    trigger.addEventListener('mouseenter', () => { clearTimeout(ldHideTimer); tooltip.classList.add('ld-visible'); });
+    trigger.addEventListener('focus', () => tooltip.classList.add('ld-visible'));
+    trigger.addEventListener('mouseleave', () => { ldHideTimer = setTimeout(() => tooltip.classList.remove('ld-visible'), 300); });
+    trigger.addEventListener('blur', () => tooltip.classList.remove('ld-visible'));
+    trigger.addEventListener('keydown', e => { if (e.key === 'Escape') { tooltip.classList.remove('ld-visible'); trigger.blur(); }});
+    tooltip.addEventListener('mouseenter', () => clearTimeout(ldHideTimer));
+    tooltip.addEventListener('mouseleave', () => { ldHideTimer = setTimeout(() => tooltip.classList.remove('ld-visible'), 300); });
+  }
+}
+
+customElements.define('legacy-doc', LegacyDocElement);
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKPVDMPP18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKPVDMPP18');
+</script>
+
+ <div style="height:100px;">&nbsp;</div> <!-- Bottom space -->
+
+     <!--scripts-->
+    <script src="/Includes/bootstrap/js/bootstrap.js"></script>
+    <script src="/Includes/jquery.tablesorter.min.js"></script>
+    <script src="/Includes/breadcrumbs.js"></script>
+        
+    <script src="/Includes/offcanvas.js"></script>
+    <script src="/Includes/SizePicture.js"></script>
+    <script src="/Includes/viewport.js"></script>
+    <script src="/util/BrowserUtils.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+A Summary of EPA and Maine DEP BAQ Instructions for Conducting a BACT Analysis
+
+This document summarizes BACT analysis requirements based on Maine regulations and EPA’s DRAFT New Source Review Workshop Manual – Prevention of Significant Deterioration and Nonattainment Permitting, dated October 1990.
+Top-down BACT consists of the following five-step process: 
+Step 1 – Identify all control technologies. 
+Step 2 – Eliminate technically infeasible options. 
+Step 3 – Rank remaining control technologies by control effectiveness. 
+Step 4 – Evaluate the most effective controls and document results. 
+Step 5 – Select BACT. 
+ General Requirements
+Best Available Control Technology (BACT) means an emission limitation (including opacity limits) based on the maximum degree of reduction which is achievable for each pollutant taking into account energy, environmental, and economic impacts and other costs. 
+From 06-096 CMR 100, Definitions Regulation, "Best Available Control Technology" means an emission limitation (including a visible emissions standard) based on the maximum degree of reduction for each pollutant emitted from or which results from the new or modified emissions unit which the Department, on a casebycase basis and taking into account energy, environmental, and economic impacts and other costs, determines is achievable for such emissions unit through application of production processes or available methods, systems, and techniques, including fuel cleaning or treatment or innovative fuel combination techniques for control of each pollutant.
+In no event shall application of BACT result in emissions of any pollutant in excess of maximum emissions allowed by any applicable standard under 40 CFR Part 60, Part 61, or Part 63 or any applicable emission standard established by the Department. If the Department determines that technological or economic limitations on the application of measurement methodology to a particular emissions unit would make the imposition of an emission standard infeasible, a design, equipment, work practice, operational standard, or combination thereof may be prescribed instead to satisfy the requirement for the application of BACT. Such standard shall, to the degree possible, set forth the emission reduction achievable by implementation of such design, equipment, work practice, or operation, and shall provide for compliance by means which achieve equivalent results.
+The applicant must demonstrate that each emission unit to be constructed, reconstructed, or modified will receive BACT as defined above. BACT shall be applied to all regulated pollutants from such emission units, fugitive as well as stack emissions. The analysis must evaluate BACT for each pollutant from the emission unit. 
+Regulated pollutants include all pollutants regulated by National Ambient Air Quality Standards (NAAQS), New Source Performance Standards (NSPS), National Emission Standards for Hazardous Air Pollutants (NESHAPS), and state rules. 
+Evaluate the entire range of demonstrated options, including alternatives that may be transferable or innovative.
+The level of detail in the control options analysis should vary with the relative magnitude of emissions reduction achievable. The permitting agency should not develop the BACT analysis for the applicant. In selecting one of the alternatives in technology, the applicant should consider application of flue gas treatment, fuel treatment and processes, and/or other techniques which are inherently low polluting and are economically feasible. In cases where technological or economic limitations on the application of measurement techniques would make the imposition of an emission limitation infeasible, a design, operating, equipment, or work practice standard may be proposed by the source.
+Emission limits should be expressed in pounds/hour (based on maximum capacity) and in terms of process unit variables, such as quantity of material processed, fuel consumed, or pollutant concentrations (e.g., lb/MMBtu, lb/gal of solids applied, g/dscm).
+Emission limits and work practice standards must be enforceable. License conditions should specify appropriate stack testing, continuous emission monitoring, continuous process monitors, recordkeeping, etc. by which to demonstrate compliance.
+ 
+Procedure 
+ The BACT analysis shall include the following steps:
+Identify all potential control strategies.
+Identify all alternative control strategies affording greater control, including (a) transferable and innovative control technologies, (b) processes which inherently produce less pollution, and (c) various configurations of the same technology which achieve different control efficiencies (e.g., one-field and five-field electrostatic precipitators or 95% and 99% efficient scrubbers). All of the following sources of information would generally need to be investigated to ensure that all possible control strategies are identified:
+Literature
+Industrial surveys
+EPA’s RACT/BACT/LAER Clearinghouse (RBLC)
+Recent EPA/state/local air pollution control requirements
+Eliminate technically infeasible options. 
+The demonstration of technical infeasibility should be clearly documented and should show, based on physical, chemical, and engineering principles, that the technical difficulties would preclude the successful use of the control option on the emission unit under review.
+BACT is the most effective alternative which is not demonstrated to be infeasible. The following are examples when energy, economic, or environmental impacts may make an alternative not feasible.
+ Energy – Natural gas for operating an afterburner not available based on location.
+ Economic – The increased cost of the final product (e.g., automobile, cement, coke, etc.) would increase to a level that the project would no longer be feasible. 
+The increased cost is way out of proportion to the environmental benefit. (e.g., the increased cost of going from 93% to 94% control increases the capital cost from $2,000,000 to $4,000,000 and the operating costs from $500,000/year to $1,000,000/year and only reduces the emissions of nitrogen oxides by 50 tons per year.) 
+ Environmental – A wet scrubber may create a by-product which cannot be disposed of without creating a more detrimental impact.
+
+Rank remaining control technologies by control effectiveness. 
+The ranking should include relevant information including the following:
+control effectiveness
+expected emission rate
+expected emission reduction
+energy impacts
+environmental impacts
+economic impacts
+Evaluate the most effective controls and document results.
+ The evaluation should include case-by-case consideration of energy, environmental, and economic impacts. If the top option is not selected as BACT, the evaluation should consider the next most effective control option.
+ Select BACT.
+BACT is the most effective option not rejected in Step (D).
+Propose BACT License Requirements.
+ Based on the BACT analysis conducted for each pollutant, propose BACT license requirements to the Department, with justification, including the following, as appropriate:
+emission limits and averaging times (as applicable); 
+design, operating, equipment, and/or work practice standards; and
+emissions testing, continuous emission monitoring, recordkeeping and reporting requirements, and/or other means by which compliance with the BACT standards and requirements shall be demonstrated.

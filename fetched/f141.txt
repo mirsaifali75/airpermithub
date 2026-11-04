@@ -1,0 +1,222 @@
+Modeling - Air Quality - North Dakota DEQ 
+Skip to main content 
+Website Accessibility Statement 
+We are committed to ensuring our website and web content complies with the Americans 
+with Disabilities Act (ADA) and applicable web accessibility standards. 
+If you have difficulty using our site or need an accommodation, please 
+contact us at deq@nd.gov . To learn more, visit our Accessibility page . 
+Air Quality
+Air Quality
+Search: 
+Toggle left popout navigation 
+Toggle top navigation 
+DEQ Home 
+Air Quality 
+Chemistry 
+Municipal Facilities 
+Waste Management 
+Water Quality 
+Office of Director 
+Home 
+AQ 
+Dispersion Modeling
+DEQ Resources 
+Electronic Reporting & Permit Systems 
+Report a Spill 
+Environmental Topics A-Z 
+Risk Based Corrective Action 
+Public Comments, Meetings &amp Notices 
+Calendar and Events 
+Rules and Regulations 
+Forms 
+Publications 
+Press Releases 
+Open Records 
+Legislative Testimony 
+Employment Opportunities 
+Nondiscrimination Program 
+Environmental Audits 
+Environmental Review Advisory Council 
+Search EHS for 
+Go! 
+Division of Air Quality Resources
+Air Quality Home 
+CERIS-ND 
+Permit Portal 
+Fees 
+Forms 
+Rules, Regulations & Policies 
+Public Comments & Notices 
+Data & Maps 
+Training 
+AQ Publications 
+About DoAQ 
+Dispersion Modeling
+The North Dakota Department of Environmental Quality, Division of Air Quality has developed the following guidance and policy documents to assist permit applicants in the process of drafting complete permit applications.
+For more information please direct questions or comments to Rhannon Thorton at 701-328-5271, or email rthorton@nd.gov . 
+Dispersion Modeling 
+Dispersion modeling for criteria pollutants and air toxics may be required prior to issuance of a Permit to Construct in accordance with the 
+Criteria Pollutant Modeling Requirements for a Permit to Construct . 
+Air Quality Analysis Guide 
+The Department strongly encourages the development of a pre-application dispersion modeling protocol in consultation with the Department in order to expedite the project review process. To aid the applicant in this process, the following Air Quality Analysis Guide has been provided.
+Related Links 
+More information about air dispersion modeling can be found on EPA's Support Center for Regulatory Atmospheric Modeling (SCRAM) site or through their Technology Transfer Network Clearinghouse for Inventories & Emission Factors site.
+Air Quality Monitoring 
+Construction Permitting 
+Modeling Input Data Files 
+Surface Air MET 
+Station 
+Station ID 
+Lat.
+Long.
+Elev. (m)
+Upper-Air Site 
+CYEN–Estevan, Canada
+94057
+49.217 N
+102.967 W
+581.0
+Glasgow, MT
+KABR–Aberdeen, SD
+14929
+45.45 N
+98.421 W
+396.2
+Aberdeen, SD
+KBHK–Baker, MT
+94055
+46.333 N
+104.25 W
+902.0
+Glasgow, MT
+KBIS–Bismarck, ND
+24011
+46.774 N
+100.748 W
+506.0
+Bismarck, ND
+KDIK–Dickinson, ND
+24012
+46.797 N
+102.802 W
+787.3
+Bismarck, ND
+KDVL–Devils Lake, ND
+24015
+48.117 N
+98.917 W
+443.0
+Bismarck, ND
+KETH–Wheaton, MN
+24017
+45.78 N
+96.534 W
+313.0
+Aberdeen, SD
+KFAR–Fargo, ND
+14914
+46.925 N
+96.811 W
+274.0
+Aberdeen, SD
+KGFK–Grand Forks, ND
+14916
+47.949 N
+97.176 W
+253.6
+International Falls, MN
+KHCO–Hallock, MN
+24018
+48.783 N
+96.95 W
+250.0
+International Falls, MN
+KHEI–Hettinger, ND
+94038
+46.017 N
+102.65 W
+824.0
+Bismarck, ND
+KISN–Williston, ND
+94014
+48.195 N
+103.642 W
+580.6
+Glasgow, MT
+KJMS–Jamestown, ND
+14919
+46.93 N
+98.678 W
+455.4
+Bismarck, ND
+KMBG–Mobridge, SD
+94052
+45.533 N
+100.433 W
+508.0
+Bismarck, ND
+KMOT–Minot, ND
+24013
+48.259 N
+101.281 W
+522.4
+Bismarck, ND
+KSDY–Sidney, MT
+24021
+47.707 N
+104.184 W
+605.0
+Glasgow, MT
+Notes: 
+Anemometer height for all stations is 10.0 meters. 
+Surface data is in the CD144 format.
+Upper-air station data is in FSL format.
+Station ID has been changed to WBAN code from abbreviated WMO code (ID is also changed in CD144 met files, 1/18/12), for compatibility with AERMET Version 11059 and newer. 
+Upper-Air MET 
+Station 
+Station ID 
+Lat.
+Long.
+KABR0913–Aberdeen, SD
+14929
+45.45 N
+98.421 W
+KBIS0913–Bismarck, ND
+24011
+46.774 N
+100.748 W
+KGGW0913–Glasgow, MT
+94008
+48.214 N
+106.621 W
+KINL0913–International Falls, MN
+14918
+48.57 N
+93.38 W
+Notes: 
+Upper-air station data is in FSL format.
+Station ID has been changed to WBAN code from abbreviated WMO code (ID is also changed in CD144 met files, 1/18/12), for compatibility with AERMET Version 11059 and newer. 
+&larr; Construction Permits 
+Operating Permits &rarr; 
+Last Updated: 10/06/2026 
+This web page may contain legacy documents — materials published prior to April 24, 2026 — available here for reference and research. These older documents may not be fully accessible for all users or compatible with assistive technologies. We are committed to providing equal access — if you encounter any barriers opening, reading, or using any document on this page, please contact us at deq@nd.gov and we will provide the information in an alternative format.
+Department of Environmental Quality 
+4201 Normandy Street
+Bismarck, ND 58503-1324
+P: 
+701-328-5150
+F: 
+701-328-5200
+E: deq@nd.gov 
+Contact Us 
+About Us 
+Accessibility 
+Jobs 
+FAQs 
+Local Public Health Units 
+Intranet 
+Copyright © 2026 
+Icon fonts generated by flaticon.com under Creative Commons BY . The authors are: Freepik , OCHA , Icomoon , Stephen Hutchings, Rami McMin, Yannick , SimpleIcon , TutsPlus , Vaadin , GraphBerry , Daniel Bruce , Vectorgraphit, Ema Dimitrova , Amit Jakhu, Tintins, and Plainicon. 
+Older documents are available here for reference and recordkeeping. They may not meet current ADA accessibility standards. 
+To request an accessible version, please email 
+deq@nd.gov .

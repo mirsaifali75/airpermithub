@@ -1,0 +1,113 @@
+Title V Permit Application Checklist
+
+(Revision D; 02/20/2017)
+
+This checklist is provided to assist the regulated community in creating complete and thorough applications for Title V permits and
+permit modifications. Completion and submittal of this checklist is optional.
+
+Section A – Administrative Completeness.
+The following items must be included in the permit application to be deemed administratively complete.
+
+A.1
+A.2
+A.3
+A.4
+A.5
+A.6
+
+Application Forms for Title V & Non-Title V Facilities
+For information on required forms, consult the Application Matrix.
+
+Application Fees
+Visit the NC Division of Air Quality website for a Permit Fee Schedule.
+
+Responsible Official Certification (Forms A and E5)
+See 40 CFR 70.2 for a definition of “Responsible Official.”
+
+Zoning Consistency Determination (if required)
+Visit the NC DEQ website for Information on Zoning Consistency Determinations.
+
+P.E. Seal, Form D5 (if required)
+See 15A NCAC 02Q .0112 for information on P.E. Seals.
+
+Appropriate Number of Application Package Copies
+Include at least three copies, or at least six copies for PSD/Non-Attainment NSR permit applications.
+
+Section B – Technical Completeness.
+Title V permit applications generally include the following technical information, which is reviewed by the permit engineer. The engineer
+may request additional information from the Applicant if he/she finds the following technical information lacking.
+
+B.1
+
+Description of Project/Modification
+
+B.2
+
+Identify new/modified/removed emission sources and control devices, the nature and purpose of the project, and
+proposed modification timetables.
+Identify Modification Type (15A NCAC 02Q .0500)
+Types of modifications include Administrative Amendments, Name/Ownership Changes, 502(b)(10) Changes,
+Minor Modifications, 1-Part Significant Modifications, and 2-Part Significant Modifications.
+
+B.3
+
+Emissions Calculations (Criteria Pollutants, HAPs, and TAPs)
+
+B.4
+B.5a
+
+Check
+When
+Complete
+
+Check
+When
+Complete
+
+Include emissions increases associated with proposed modifications and facility-wide potentials-to-emit. Document
+emission factors, production rates, and other assumptions used to estimate emissions.
+Confidential Information (15A NCAC 02Q .0107)
+Requests for confidentiality should be consistent with 15A NCAC 2Q .0107. Include complete "public"
+applications AND at least one collection of redacted “confidential” pages for insertion where appropriate.
+Regulatory Analysis (Air Quality Rules)
+Identify each air quality regulation that applies to the proposed project/modification. Where multiple compliance options are
+available (esp. with NESHAP/MACT and NSPS), identify how the Facility intends to comply with the rule.
+It may be important to include a discussion of non-applicable regulations to identify why such regulations do not apply. Such
+discussion is recommended for NESHAP/MACT, NSPS, CAM, PSD, NA-NSR, and state-regulated TAP rules.
+NC DAQ recommends that the regulatory analysis be provided in a written narrative. Applications are often found to be
+technically incomplete due to insufficient application detail regarding the following rules:
+
+B.5.a
+
+NC SIP Standards (15A NCAC 02D .0500)
+
+B.5.b State-Enforceable TAP Standards (15A NCAC 02Q .0700, 15A NCAC 02D .1100)
+B.5.c
+
+Guidance on Air Dispersion Modeling
+RACT (15A NCAC 02D .0900, 15A NCAC 02D .1400)
+Applicability provided in 15A NCAC 02D .0902 and 15A NCAC 02D .1402.
+
+B.5.d Compliance Assurance Monitoring (15A NCAC 02D .0614)
+CAM Plan Only Required for Initial, Significant Modification, and Renewal Title V Applications (if applicable).
+
+B.5.e
+
+NSPS (15A NCAC 02D .0524, 40 CFR Part 60)
+
+B.5.f
+
+NESHAP/MACT (15A NCAC 02D .1110, 15A NCAC 02D .1111, 40 CFR Part 61 and Part 63)
+Review should include “Area Source Standards”
+
+B.5.g
+
+PSD & Non-Attainment NSR Applicability (15A NCAC 02D .0530, 15A NCAC 02D .0531)
+Include an estimate of emissions increases associated with the proposed project/modification, including
+increases resulting from debottlenecking (if applicable). Form D2 and/or Form D2A
+
+a
+
+NOTE: Section B.5 does not provide a complete list of potentially applicable regulations.
+
+

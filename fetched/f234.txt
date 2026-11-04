@@ -1,0 +1,1177 @@
+Class II
+General Air Quality Operating Permit for Concrete Batch Plants
+and Non-Metallic Minerals Crushing and Screening Plants
+Application Forms
+
+Guidance Document
+Guide for completing the applications for a General Air Quality
+Operating Permit for Concrete Batch Plants and General Air
+Quality Operating Permit for Non-Metallic Minerals Crushing
+and Screening Plants
+
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control
+901 South Stewart Street, Suite 4001
+Carson City, NV 89701
+(775) 687-9349
+
+Our goal is to achieve and
+maintain levels of air quality
+that will protect human health,
+prevent injury to plant and
+animal life, prevent damage to
+property, and preserve the
+scenic, historical, and aesthetic
+treasures of the state
+
+Table of Contents
+ACRONYMS AND ABBREVIATIONS
+
+1
+
+INTRODUCTION
+
+2
+
+2 THINGS TO REMEMBER BEFORE STARTING
+
+2
+
+APPLICATION SUBMITTAL AND PROCESSING TIMELINE
+
+2
+
+1.
+
+COVER PAGE
+
+3
+
+2.
+
+IMPORTANT INFORMATION
+
+3
+
+3.
+
+GENERAL COMPANY INFORMATION FORM
+
+3
+
+4.
+
+DETAILED EMISSION CALCULATIONS: FORMS 1A AND 1B
+
+5
+
+4.1
+
+Emission Unit Description
+
+5
+
+4.2
+
+Material Process Rate
+
+6
+
+4.3
+
+Operating Hours
+
+6
+
+4.4
+
+Emissions Control Technology
+
+6
+
+4.5
+
+Emission Factors
+
+6
+
+4.6
+
+Calculated Emissions
+
+6
+
+4.7
+
+Plant Wide Totals
+
+6
+
+5.
+
+SPECIAL USE AREA ADDITIONAL INFORMATION
+
+7
+
+6.
+
+ADDITIONAL REQUIRED ATTACHMENTS
+
+8
+
+7.
+
+PROCESS FLOW DIAGRAM(S)
+
+9
+
+PROCESS NARRATIVE
+
+9
+
+MAPS: FACILITY LOCATION AND AREA MAP OF THE FACILITY
+
+10
+
+APPLICATION CERTIFICATION DOCUMENT
+
+11
+
+APPENDIX 1
+
+12
+
+APPENDIX 2
+
+13
+
+APPENDIX 3
+
+14
+
+APPENDIX 4
+
+15
+
+ACRONYMS AND ABBREVIATIONS
+ACFM
+AQOP
+BAPC
+BAQP
+CFR
+CO
+HA
+hr
+lb
+N/A
+NAC
+NAD 83
+NDEP
+NOX
+NRS
+NSPS
+PM
+PM10
+
+PM2.5
+
+RO
+SO2
+U.S.C
+UTM
+VOC
+
+Actual Cubic Feet per Minute
+Air Quality Operating Permit
+Bureau of Air Pollution
+Control
+Bureau of Air Quality
+Planning
+Code of Federal Regulations
+Carbon Monoxide
+Hydrographic Area (Basin)
+Hour
+Pound
+Not Applicable
+Nevada Administrative Code
+North American Datum of
+1983
+Nevada Division of
+Environmental Protection
+Oxides of Nitrogen
+Nevada Revised Statutes
+New Source Performance
+Standards
+Particulate Matter
+Particulate Matter with an
+Aerodynamic Diameter Less
+Than or Equal to 10
+Micrometers
+Particulate Matter with an
+Aerodynamic Diameter Less
+Than or Equal to 2.5
+Micrometers
+Responsible Official
+Sulfur Dioxide
+United States Code
+Universal Transverse
+Mercator
+Volatile Organic Compounds
+
+1
+
+INTRODUCTION
+This document is a detailed guide for completing an application for a Class II General Air Quality
+Operating Permit for Concrete Batch Plants or an application for a Class II General Air Quality
+Operating Permit for Non Metallic Mineral Crushing and Screening Plants.
+For additional questions, call (775) 687-9349.
+This guide and its associated application forms can be found on the Nevada Division of
+Environmental Protection (NDEP) website:
+https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources
+
+2 THINGS TO REMEMBER BEFORE STARTING
+1.
+
+When filling out the application, complete every blank or explain why no information
+is provided. Specify "N/A” (Not Applicable) if necessary. Fields that are left blank
+may cause a delay in the processing time.
+
+2.
+
+If revising a permit, the facility must still submit all pages of the application and
+attachments.
+
+APPLICATION SUBMITTAL AND PROCESSING TIMELINE
+In order to start processing the application, both the application packet and fee must be received
+in accordance with NAC 445B.327.
+Mail or hand deliver the application and fee(s), payable by check, to the following address:
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control, Class II Permitting Branch
+901 South Stewart Street, Suite 4001
+Carson City, Nevada 89701-5249
+Fees may also be submitted online.
+When submitting an electronic payment,
+include the facility’s name and, if
+applicable, its existing permit number and
+facility identification number.
+The application and fees are date stamped
+when received. The regulatory time frame
+allocates 10 working days in accordance
+with NAC 445B.331.
+
+Bind the physical copies of the
+application.
+Ensure the physical application contains
+the wet signature of the responsible
+official on the Certification Document page
+(See
+“Application
+Certification
+Document”).
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+2
+
+1. COVER PAGE
+The cover page is the first page of the application, which includes the type of application and
+whether the facility is new or existing.
+Facility Name – A company may have several facilities. Provide the name of the facility. If
+there is no facility name available, write the company name here. The company name will also
+be requested on page 3 of the application.
+Existing Facility ID – A facility identification number (FIN) is only required if the facility
+already has a permit. On existing operating permits, the FIN is in the header section as Facility
+ID No. AXXXX (Example: A1234). If the facility currently does not have a permit, specify
+“N/A.”
+Existing Class II AQOP – This refers to the existing permit number located in the header section
+(Example: Permit No. AP1499-3576). If the facility does not currently have a Class II Air
+Quality Operating Permit, specify “N/A.”
+
+2. IMPORTANT INFORMATION
+The application contains a section titled “Important Information.” Read this information
+carefully before completing the application. It contains a list of application forms, due dates,
+regulations, and fee(s) associated with a permit.
+
+3. GENERAL COMPANY INFORMATION FORM
+The General Company Information Form requests a brief description of the operations of the
+facility, the contact and mailing information of the company, the responsible official (RO) of the
+facility, the plant manager or other appropriate contact, and the location and driving directions
+to the facility.
+Section 1: Company name and address — Provide the company name and address as you want
+it to appear on the permit.
+Section 2: Owner’s name and address — Provide the name and address of the company owner.
+The owner is the person who owns, leases, operates, controls, or supervises the facility or a
+stationary source.
+Section 3: Facility name and address — Provide the facility name and address if it is different
+than the company name and address in Section 2, or write “same as above.”
+Section 4: Records location — Provide the location where all records required by the permit
+will be stored. If they will be on-site, rewrite the information from Section 4. If records will be
+stored at another location, insert the information for the location.
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+3
+
+Section 5: Responsible official — Provide
+the name, title, and mailing address for the
+responsible official (RO). If the facility
+already has an air permit, the RO should be
+the same as what the BAPC already has on
+file.
+
+Does the RO need to change?
+Attach the RO Request Form stating who
+the new RO will be. This should be signed
+by the appropriate individual.
+
+The RO can be:1
+1. For a corporation:
+(a) A president;
+(b) A vice president in charge of a principal business function;
+(c) A secretary;
+(d) A treasurer; or
+(e) An authorized representative of such a person who is responsible for the overall
+operation of the facility and who is designated in writing by an officer of the
+corporation and approved in advance by the director of the Nevada Department of
+Conservation and Natural Resources.
+2. For a partnership or sole proprietorship, a general partner or the proprietor, respectively.
+3. For a municipality or a state, federal, or other public agency, a ranking elected official or a
+principal executive officer, including, for a federal agency, a chief executive officer who
+has responsibility for the overall operations of a principal geographic unit of the agency.
+4. For an affected source, the designated representative or his or her alternate, as defined in
+42 U.S.C. § 7651a(26).
+Section 6: Plant manager or other appropriate contact — This is the person the BAPC will
+communicate with when on site if the RO is not available. Provide the name, title, and contact
+information for a plant manager or other appropriate contact from the facility if it will not be the
+RO. For example, if the company president is the RO but is not physically at the facility, provide
+an appropriate contact who works on-site.
+
+1
+
+NAC 445B.156
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+4
+
+Section 7: Location and driving directions to the
+facility:
+
+
+Provide the hydrographic area (HA) number(s)
+and name(s), township(s), range(s), and
+section(s) of the facility;
+
+
+
+Provide the Universal Transverse Mercator
+(UTM) coordinates of the front gate of the
+facility. The UTM coordinates must be in
+metric units using North American Datum of
+1983 (NAD 83), Zone 11;
+
+
+
+
+
+Describe the location of the facility with
+respect to the nearest road and city (such as 8th
+Street, Wells, Nevada) and the county the
+facility is located in;
+
+Find the right maps.
+The BAPC keeps online maps that
+can help determine HA basin
+number and names; township,
+section, and range; and UTM
+coordinates.
+Maps can be found online
+
+Provide driving directions from nearest city to
+the facility.
+
+Section 8: What is the minimum setback of equipment from public access and maximum
+hours of operation? — When choosing a minimum setback please choose the option for where
+any piece of equipment will be the closest to the fence line or where the public has access. For
+the maximum hours of operation please choose the maximum hours your facility will operate.
+
+4. DETAILED EMISSION
+FORMS 1A AND 1B
+
+CALCULATIONS:
+
+Tables for detailed emission calculations has been provided in Form 1A and Form 1B, Form 1A
+is to be utilized for units that only have emissions from particulate matter such as crushers or
+conveyor transfers. Form 1B is to be utilized for units that emit gaseous emissions such as a
+heater in the case of concrete batch plant or a generator in the case of a non-metallic crushing
+and screening plan. The submitted detailed emission calculations do not need to follow the same
+format as those provided by the BAPC, as long as all of the information is included.
+
+Give each emission unit a name. Emission units can be grouped in systems (Example: System 1
+– Conveyor 1; System 1 – Screen 1; etc.). A system contains emission units that are part of the
+same process (Example: Crushing Plant- a screening process and associated conveyors) or are
+controlled by the same air pollution control equipment (Example: all stacks lead to one
+baghouse).
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+5
+
+Hourly – The Hourly Throughput Rate is the weight of material processed in one hour by the
+listed equipment, in tons.
+Project – For the Project Throughput Rate provide the total amount of material that is estimated
+to be processed by the job, in tons.
+
+Specify maximum daily hours you intend to operate- these calculations should match the
+operating hours you answered for Question 8 of the General Company Information section of
+the application.
+
+Provide the type of control equipment used (baghouse, bin vent, enclosure, water spray, wet
+scrubber, etc.) and add a label and number (Baghouse BH-1). If an emission unit is not equipped
+with control equipment, write “no control” in this section.
+
+Emission factors are used to calculate the requested emission limits for regulated pollutants and
+are pre-defined for either of the General Air Quality Operating Permits application types. The
+throughput rate with the emission factor gives the emission limit of a pollutant. The emission
+factors that are to be utilized are provided in appendixes 1 and 2.
+
+Calculate and enter the projected emissions in lbs/day for each emission unit. Below is an
+example of the emission calculations.
+𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑟𝑎𝑡𝑒
+
+𝑡𝑜𝑛𝑠
+ℎ𝑟𝑠
+𝑙𝑏𝑠
+𝑙𝑏𝑠
+𝑥 𝑂𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 𝐻𝑜𝑢𝑟𝑠
+𝑥 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟
+= 𝐶𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠
+ℎ𝑟
+𝑑𝑎𝑦
+𝑡𝑜𝑛
+𝑑𝑎𝑦
+
+500
+
+𝑡𝑜𝑛𝑠
+ℎ𝑟𝑠
+𝑙𝑏𝑠
+𝑙𝑏𝑠
+𝑥 16
+𝑥 0.00014
+= 1.12
+ℎ𝑟
+𝑑𝑎𝑦
+𝑡𝑜𝑛
+𝑑𝑎𝑦
+
+At the bottom of Form 1B there is table for the total emissions for the plant. Please fill in the
+totals from all units requested in the application. These totals will need to be under the total limits
+that are presented in the Applications for Concrete Batch Plants and Non-metallic minerals
+Crushing and Screening Plants. These plant wide limits are also presented in Appendixes 3 and
+4.
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+6
+
+5. SPECIAL
+USE
+INFORMATION
+
+AREA
+
+ADDITIONAL
+
+Forms 1C and 1D only need to be used if a request for a General Permit is being made in the
+areas of Hydrographic Basin (HA) 83 – Tracy Segment listed in the able below. These forms
+provide the additional information that the BAPC will need to conduct an environmental
+evaluation.
+Township
+
+Range
+
+Sections
+
+19 North
+
+21 East
+
+1, 2, 10 through 14, and 23 through 25
+
+19 North
+
+22 East
+
+All Sections
+
+19 North
+
+23 East
+
+3 through 10, 16 through 21, and 29 through 31
+
+20 North
+
+22 East
+
+24 through 26, 28, 29, and 31 through 36
+
+20 North
+
+23 East
+
+19 through 21, and 27 through 34
+
+Emission Unit Descriptions — These should match the descriptions listed in Forms 1A and 1B.
+UTM Coordinates — The specific UTM coordinates for each emission unit. The UTM
+coordinates must be in metric units using North American Datum of 1983 (NAD 83), Zone 11.
+Release Height — The release height is the distance from the top of the emission unit to ground
+level.
+Drop Length — The drop length is how far material falls from one emission unit to the next
+emission unit (i.e. such as from a conveyor to crusher or stockpile, or a screen to a conveyor).
+Emission Unit Dimensions — Provide the physical dimensions of the emission unit - length
+(L), width (W), and height (H) of the equipment in feet.. For example, a feed hopper would be
+8 feet long x 6 feed wide x 7 feet high (8x7x6) and a conveyor would be 3 feet wide x 4 feet high
+(3x4).
+Stack Height — Provide the height of the stack in feet (i.e. the height of the stack on the
+baghouse controlling the HMA Plant).
+Stack Inside Diameter — Provide the inside diameter of the stack in feet. If the diameter is
+non-cylindrical, provide the actual dimensions (LxW).
+Stack Flow Rate — Provide the gas volume flow rate through the stack measured in actual cubic
+feet per minute (acfm).
+Stack Exit Velocity — Provide the exit velocity of the of the exhaust gas from the stack
+measured in feet per second (ft/sec).
+Stack Temperature — Provide the temperature of the stack exhaust in degrees Fahrenheit.
+Start Time — You may request to operate certain hours of the day. If you choose to do so,
+provide your start time in this section. Conditions will be written into the permit accordingly.
+End Time — You may request to operate certain hours of the day. If you choose to do so,
+provide your start time in this section. Conditions will be written into the permit accordingly.
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+7
+
+Corner Number — Provide a map showing the fence line of the facility’s operations. Number
+each corner of the fence line and provide the UTM coordinates for each corner.
+
+6. ADDITIONAL REQUIRED ATTACHMENTS
+There are several other attachments that support
+and contextualize the information the facility
+provides elsewhere in the application. The BAPC
+uses these attachments to inform the public of
+facilities that need permits, prepare the technical
+review supporting the permit, verify data used in
+the application, and write permit conditions. Please
+draft the required attachments in a readable format,
+with both appropriate font and size.
+
+These attachments are an
+important part of the
+application.
+The BAPC may have to reject the
+application if the required
+attachments are illegible or
+incomplete.
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+8
+
+PROCESS FLOW DIAGRAM(S)
+A process flow diagram is a drawing that illustrates how all processes are interconnected. The
+process flow diagram should include each emission unit(s), drop point(s), and minimum
+requirements as described in our Guidance Document for Process Flow Diagrams.
+Only include information that is relevant to air pollution control. The facility does not need to
+include the locations of valves and electrical and water plans.
+
+PROCESS NARRATIVE
+The process narrative should describe all processes in the application and any renewal or revision
+details. The goal is to give the BAPC a clear picture of the process of the facility so the BAPC
+can understand how the facility will monitor emissions and know what to write into the permit.
+Make sure the process narrative matches the process flow diagram.
+Here’s a basic outline to follow when drafting the process narrative:
+
+
+Specify the location of the facility and its parent company, if part of a larger business
+(Example: Arturo Mine is located 45 miles Northwest of Elko in Elko County, Nevada,
+Hydrographic Area 61 – Boulder Flat. The mine is part of the Nevada Gold, LLC.).
+
+
+
+Describe what the facility does (Example: mining gold ore, crushing and screening
+aggregates, etc).
+
+
+
+Describe the emission units (equipment) used at the facility. Include information that
+helps describe what the facility does and how it functions.
+
+
+
+Characterize all regulated air pollutants that may be emitted by each emission unit.
+
+
+
+If the facility is requesting a revision, explain what is going to change and why it is
+necessary.
+
+
+
+Outline how and where the facility will be monitoring throughputs to show compliance.
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+9
+
+MAPS: FACILITY LOCATION AND AREA MAP OF THE FACILITY
+Submit the following maps as visible, readable printouts (color optional):
+1. A vicinity map that shows the location of the facility with respect to the nearest
+recognizable city, town, and major road, all labeled. Outline the facility.
+2. An area map of the facility with a closer, aerial view that includes the fence line, the
+location of the front gate, and emission unit locations (clearly labeled).
+3. For Plants located in the Special Area provide the site plan of the entire facility,
+preferably on an aerial or topographic map (drawn to scale). Include the dimensions
+scale and north arrow. The site plan should include the UTM coordinates (NAD 83 /
+UTM Zone 11), though this can be formatted as an excel table for UTM coordinates
+(NAD 83 / UTM Zone 11) and dimensions. Make sure the facility site plan indicates
+and labels the locations of systems.
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+10
+
+7. APPLICATION CERTIFICATION DOCUMENT
+The last page of the Class II air permit application packet is the Application Certification
+Document — a short summary of the required documents in the application. It must be signed
+in ink by the responsible official (RO) of the company or facility.
+Check the boxes next to each submitted document, and make sure the Application Certification
+Document is signed by the RO listed in Section 6 of the General Company Information Form.
+Create a digital copy of the application, including all requested documents, and submit a digital
+and hard copy of the application with the application processing fee. The complete application
+package can be mailed or hand delivered to the BAPC office (see “Application Submittal and
+Processing Timeline”).
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+11
+
+Appendix 1
+
+Concrete Batch Plant Emission Factors
+Concrete Batching
+Emission Factor (lb/ton)
+PM
+PM10
+PM2.5
+
+Emission Unit
+Loader to Feeder or Bin - Water Spray Controlled1
+
+0.00075
+
+0.00028
+
+0.00004
+
+Loader to Feeder or Bin - Uncontrolled
+Aggregate/Sand Conveyor Transfer Point - Water Spray Controlled1
+Aggregate/Sand Conveyor Transfer Point - Enclosure Controlled4
+Aggregate/Sand Conveyor Transfer Point - Uncontrolled
+Cement Silo Loading - Controlled2
+Cement Silo Unloading - Uncontrolled
+Cement Silo Unloading - Enclosure Controlled4
+Weigh Hopper Loading - Uncontrolled
+Weigh Hopper Loading - Enclosure Controlled4
+Cement Supplement Silo Loading - Controlled2
+Cement Supplement Silo Unloading - Uncontrolled
+Central Mixer Loading - Controlled3
+Central Mixer Loading - Uncontrolled
+Truck Mixer Loading - Controlled3
+Truck Mixer Loading - Uncontrolled
+Notes:
+
+0.003
+0.00075
+0.00150
+0.003
+0.00099
+0.0048
+0.0024
+0.0048
+0.0024
+0.0089
+0.0048
+0.0184
+0.572
+0.098
+1.118
+
+0.0011
+0.00028
+0.00055
+0.0011
+0.00034
+0.0028
+0.0014
+0.0028
+0.0014
+0.0049
+0.0028
+0.0055
+0.156
+0.0263
+0.31
+
+0.00017
+0.00004
+0.00009
+0.00017
+0.00005
+0.0004
+0.0002
+0.0004
+0.0002
+0.0007
+0.0004
+0.0008
+0.024
+0.004
+0.047
+
+(1) The emission factors listed for controlled emissions require wet dust suppression located at each emission unit and transfer point. Wet
+dust suppression consists of water sprays, fogging water sprays, fogging water sprays with chemical surfactant, or pneumatic fogging
+water sprays. Pre-wetting of material does not constitute wet dust suppression. Uncontrolled emission units are not permitted for
+nonmetallic mineral processing. No uncontrolled emission factors available.
+(2) Emissions during loading are controlled by a bin vent or baghouse
+(3) Installations that employ water sprays, enclosures, hoods, curtains, shrouds, moveable and telescoping chutes, and central duct
+collection systems.
+(4) The emission factors listed for controlled emissions require the use of an enclosure at the transfer point. An enclosure must have a
+solid cover surrounding the transfer point. This excludes entries and exits. Transfer points must not be clearly visible.
+
+Heater
+Emission Unit
+Natural Gas Heater Equal to or
+Less Than 3.98 MMBtu/hr
+Propane Heater Equal to or Less
+Than 3.98 MMBtu/hr
+
+PM
+
+PM10
+
+Emission Factor (lb/hr)
+PM2.5
+NOx
+SO2
+
+CO
+
+VOC
+
+0.030
+
+0.030
+
+0.030
+
+0.391
+
+0.0023
+
+0.328
+
+0.021
+
+0.031
+
+0.031
+
+0.031
+
+0.566
+
+0.065
+
+0.326
+
+0.044
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+12
+
+Appendix 2
+
+Non-Metallic Minerals Crushing and
+Screening Plants Emission Factors
+Nonmetallic Crushing and Screening
+Emission Factor (lb/ton)
+
+Emission Unit
+Truck Unloading to Hopper - Controlled1
+Truck Unloading to Hopper - Uncontrolled
+Primary Crusher - Water Spray Controlled1
+Primary Crusher - Enclosure Controlled2
+Primary Crusher - Uncontrolled
+Secondary Crusher - Water Spray Controlled1
+Secondary Crusher - Enclosure Controlled2
+Secondary Crusher - Uncontrolled
+Tertiary Crusher - Water Spray Controlled1
+Tertiary Crusher - Enclosure Controlled2
+Tertiary Crusher - Uncontrolled
+Primary Screen - Water Spray Controlled1
+Primary Screen - Enclosure Controlled2
+Primary Screen - Uncontrolled
+Secondary Screen - Water Spray Controlled1
+Secondary Screen - Enclosure Controlled2
+Secondary Screen - Uncontrolled
+Tertiary Screen - Water Spray Controlled1
+Tertiary Screen - Enclosure Controlled2
+Tertiary Screen - Uncontrolled
+Conveyor Transfer Point - Water Spray Controlled1
+Conveyor Transfer Point - Enclosure Controlled2
+Conveyor Transfer Point - Uncontrolled
+Notes:
+
+PM
+0.00075
+0.003
+0.0014
+0.0027
+0.0054
+0.0014
+0.0027
+0.0054
+0.0014
+0.0027
+0.0054
+0.0063
+0.0027
+
+PM10
+0.00028
+0.0011
+0.0006
+0.0012
+0.0024
+0.0006
+0.0012
+0.0024
+0.0006
+0.0012
+0.0024
+0.0022
+0.0012
+
+PM2.5
+0.00004
+0.00017
+0.0001
+0.0002
+0.0004
+0.0001
+0.0002
+0.0004
+0.0001
+0.0002
+0.0004
+0.00033
+0.0002
+
+0.025
+0.0063
+0.0013
+0.025
+0.0063
+0.0013
+0.025
+0.00075
+0.0015
+0.003
+
+0.0087
+0.0022
+0.0044
+0.0087
+0.0022
+0.0044
+0.0087
+0.00028
+0.00055
+0.0011
+
+0.0013
+0.00033
+0.0007
+0.0013
+0.00033
+0.0007
+0.0013
+0.00004
+0.00009
+0.00017
+
+(1) The emission factors listed for controlled emissions require wet dust suppression located at each
+emission unit and transfer point. Wet dust suppression consists of water sprays, fogging water sprays,
+fogging water sprays with chemical surfactant, or pneumatic fogging water sprays. Pre-wetting of
+material does not constitute wet dust suppression.
+(2) The emission factors listed for controlled emissions require the use of an enclosure at the transfer point.
+An enclosure must have a solid cover surrounding the transfer point. This excludes entries and exits.
+Transfer points must not be clearly visible.
+
+Emission Unit
+Diesel Engine Equal to or Less
+Than 299 Horsepower
+Combusting 15 Gallons Per
+Hour or Less of Diesel Fuel
+
+PM
+
+Diesel Engines
+Emission Factor (lb/hr)
+PM10
+PM2.5
+NOx
+SO2
+
+CO
+
+VOC
+
+0.651
+
+0.651
+
+1.995
+
+0.735
+
+0.651
+
+9.261
+
+0.609
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+13
+
+Appendix 3
+
+Concrete Batch Plant Emission Limits
+Operating Parameters
+Maximum
+Minimum
+Operating Scenario
+Daily
+Setback
+Hours of
+(meters)
+Operation
+8
+12
+5
+16
+24
+8
+Concrete batch
+12
+plants (may
+10
+16
+include
+24
+aggregate/sand
+hopper/bin
+8
+loading/unloading
+12
+25
+and associated
+16
+conveyor transfers,
+24
+cement/cement
+8
+supplement silo
+12
+loading/unloading,
+50
+16
+mixer loading,
+24
+including 2.75
+MMBtu propane
+8
+heater or a 3.98
+12
+75
+MMBtu natural
+16
+gas heater)
+24
+8
+12
+100
+16
+24
+
+Emission Limits (lb/day)
+PM10
+
+PM2.5
+
+8.96
+10.69
+12.00
+13.84
+9.96
+11.95
+13.31
+15.11
+11.69
+13.26
+14.93
+16.81
+17.80
+20.32
+22.61
+23.34
+25.38
+29.28
+31.40
+33.10
+32.33
+38.18
+41.62
+44.31
+
+1.57
+1.93
+2.24
+2.73
+1.72
+2.12
+2.44
+2.92
+1.98
+2.32
+2.68
+3.18
+2.90
+3.39
+3.84
+4.16
+4.05
+4.75
+5.17
+5.64
+5.10
+6.09
+6.72
+7.34
+
+Note: PM emissions should be calculated using the emission factors listed in appendix 1; however, since there
+are no Nevada Ambient Air Quality standards for PM, there will be no emission limits for PM emissions.
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+14
+
+Appendix 4
+
+Non-Metallic Minerals Crushing and
+Screening Plant Emission Limits
+Operating Parameters
+Operating Scenario
+
+Minimum
+Setback
+(meters)
+
+25
+
+Crushers, screens, and
+conveyors operated only for
+the processing of nonmetallic
+minerals, including diesel
+engines that are equal to or
+less than 299 horsepower,
+consuming 15 gallons per
+hour or less of diesel fuel.
+
+50
+
+75
+
+100
+
+Emission Limits (lb/day)
+
+Maximum
+Daily Hours
+of Operation
+
+PM10
+
+PM2.5
+
+8
+12
+16
+24
+8
+12
+16
+24
+8
+12
+16
+24
+8
+12
+16
+24
+
+14.54
+18.47
+21.85
+28.16
+16.81
+21.19
+24.85
+31.85
+19.17
+15.88
+27.86
+35.33
+21.42
+26.44
+30.78
+38.38
+
+6.53
+9.32
+12.03
+17.40
+6.85
+9.71
+12.46
+17.92
+7.18
+6.72
+12.88
+18.41
+7.50
+10.45
+13.30
+18.84
+
+Note: PM emissions should be calculated using the emission factors listed in appendix 2; however, since there are no
+Nevada Ambient Air Quality standards for PM, there will be no emission limits for PM emissions.
+
+Guidance Document for Class II Stationary General Air Quality Operating Permits
+
+15
+
+

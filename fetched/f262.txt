@@ -1,0 +1,192 @@
+Applying for an Air Pollution Control Permit 
+IBM WebSphere Portal 
+An official State of Ohio site. 
+Here’s how you know 
+Official websites use Ohio.gov
+An Ohio.gov website belongs to an official government organization in the State of Ohio.
+Secure .gov websites use HTTPS
+A lock or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Trusted applications are secured by OHID
+When you log in with OHID, your privacy, data, and personal information are protected by federal and state digital security standards.
+Close 
+learn-more 
+Skip to Navigation
+Skip to Main Content
+Ohio Department 
+Menu 
+Home 
+Stay Compliant 
+Get Involved 
+Monitor Pollution 
+Get Funding 
+Find Regulations 
+Divisions & Offices 
+Help Center 
+About Us 
+Search 
+top-help 
+odx-helplink-label 
+top-search 
+odx-searchbox-label 
+Type in your search keywords and hit enter to submit or escape to close 
+top-search 
+top-close 
+Applying for an Air Pollution Control Permit
+{}
+Web Content Viewer 
+Actions 
+Ohio EPA 
+Divisions & Offices 
+Air Pollution Control 
+Permitting Resources 
+Welcome
+Announcements
+Contacts
+About DAPC
+Programs
+Asbestos Abatement & Demolition
+Guides & Manuals
+E-Check
+Open Burning
+Permitting Resources
+Reports & Data
+Regulations
+State Emergency Response Commission
+State Implementation Plans
+Educational and How-to Resources
+Long Text Translations
+Ads
+Videos
+Applying for an Air Pollution Control Permit
+September 25, 2024 
+| 
+Agency 
+Prior to the installation of any new air contaminant emissions unit or modification of an existing unit, you must apply for and be issued a permit-to-install (PTI) or permit-to-install and operate (PTIO) as directed by Ohio Administrative Code (OAC) rule 3745-31-05 . PTIs are issued to Title V facilities while PTIOs are issued to non-Title V facilities. Only after the PTI or PTIO is issued may a facility begin installation and/or construction of the emissions unit. A period of 18 months from the date of issuance is allowed for commencing construction.
+Permit Applications
+Permit applications and supporting documentation can be found on our permit application page . For PTI or PTIO applications, please submit the information to the appropriate district office or local air agency .
+Application for PTI/PTIO Section I, EPA Form 3150a 
+Only one of these forms is needed regardless of the number of emissions units being installed/modified. If your facility has no previous air permits, an ID number will be assigned upon receipt — leave the 'Facility Information' question regarding the facility ID number blank.
+Application for PTI/PTIO Section II, EPA Form 3150a 
+Make copies of Section II for each emissions unit. Complete and submit the forms to the appropriate district office or local air agency . Additional information is needed in order to determine compliance with new regulations and/or policies.
+Emissions Activity Category (EAC) Form(s) 
+A list of all of the available EAC forms is included in the PTI/PTIO application instructions. Copies of the appropriate forms for your facility can be obtained from your district office or local air agency . Make enough copies for each emissions unit. In order to facilitate review you may wish to staple Section II of Form 3150a and the EAC form for the same emissions unit together. 
+Exemptions
+A common misconception is that every air emission source needs an air permit, however this is not always the case. Ohio EPA has over 60 air permit exemptions, 15 permit-by-rule (PBR) exemptions, and a de minimis exemption for air emission sources that are considered minor.
+Permanent Exemptions
+OAC rule 3745-31-03(B) includes types of equipment and industrial activities that are permanently exempt from air permitting. Discretionary exemptions under OAC rule 3745-31-03(B)(3) require a written request that Ohio EPA evaluates to determine whether the request meets the criteria in the rule and if so, issues a director’s letter to the company that authorizes the change.
+If you are claiming a permanent exemption under OAC rule 3745-31-03(B)(1) you are not required to provide notification to Ohio EPA. Commonly used permanent exemptions are shown below. Refer to the rule for the complete list of exempt sources and the specific criteria that applies to each (for example, horsepower, capacity, sizing).
+Boilers, heaters, furnaces and dryers rated less than 10 million Btu per hour that burn only natural gas, biodiesel, liquefied petroleum gas or distillate oil.
+Fossil fuel or wood-fired boilers and heaters rated less than one million Btu per hour.
+Heating units burning used oil, in which the manufacturer’s maximum heat input rating is less than 500,000 Btu/hr.
+Equipment used exclusively for the mixing and blending of materials at ambient temperature to make water-borne adhesives, coatings or binders.
+Bench scale laboratory equipment, fume hoods and paint sample preparation booths.
+Resin injection molding equipment using less than one million pounds of resin annually.
+Storage tanks for inorganic liquids or pressurized gases.
+Storage tanks for organic liquids of less than 19,815 gallons capacity and equipped with submerging filling.
+Storage tanks for low vapor pressure organic liquids.
+Acid storage tanks of 7,500 gallons capacity or less.
+Solvent recycling units (stills) less than 20 gallons capacity.
+Unheated solvent cleaning tanks with a surface area less than 10 square feet or a reservoir opening of less than six inches in diameter
+Grinding, machining, abrasive blasting, wood working and pneumatic conveying operations controlled by an internally vented dust collector under 4000 CFM.
+Aluminum die casting machines.
+Gas stations equipped with Stage I vapor controls (certain counties only).
+Maintenance welding.
+Refrigerant reclaiming and recycling machines.
+Small natural gas compressor engines used for maintenance activities.
+Emergency electrical generators, compressors and pumps rated at 50 horsepower or less.
+Mobile treatment units or vacuum trucks used to contain and/or prevent further migration of a hazardous material spill during an emergency response.
+Compost piles, windrows and associated activities including material receiving, storage, mixing, curing, turning and load-out at Class II, III and IV composting facilities, provided that the material is kept sufficiently wet for effective composting and dust control.
+Roadways and parking areas (either paved or unpaved) with less than 3,800 vehicle miles traveled per year, less than five tons particulate emissions and less than 1.45 tons PM10 per year.  
+Permit-by-Rule Provisions OAC Rule 3745-31-30(C)(2)
+A permit-by-rule (PBR) is a specific permit provision that applies to certain types of low-emitting air pollution sources. If your source qualifies, you may use it in place of a traditional permit. A PBR does not expire, it exempts your air pollution source from the administrative permitting process and functions as the permit for the source.
+OAC 3745-31-30(C)(2) contains these PBR provisions.
+Emergency electrical generators, pumps and compressors used less than 500 hours per year.
+Resin injection/compression molding equipment.
+Small crushing and screening plants.
+Remediation projects for soil-vapor extraction lasting less than 18 months.
+Remediation projects for soil-liquid extraction lasting less than 18 months.
+Auto body refinishing shops.
+Gas stations with Stage I vapor controls (certain counties).
+Gas stations with Stage I control, low permeation hoses and decommissioned (or never installed) Stage II vapor controls (certain counties).
+Natural gas-fired boilers and heaters rated at or between 10 and 100 million Btu per hour.
+Small printing facilities.
+Mid-size printing facilities.
+Unpaved roadways and parking areas where facility wide total unpaved roadways and parking areas are greater than 12,000 square feet but less than 30,000 square feet in size.
+Paved roadways and parking areas where facility wide total paved roadways and parking areas are greater than 45,000 square feet but less than 90,000 square feet in size.
+Portable bulk material railcar transloader.
+Petroleum solvent dry cleaners.
+Each provision contains qualifying criteria, emission limits, conditions for operation, and requirements for record keeping and reporting. To legally operate under the PBR, you must continually meet all the PBR criteria specific to the source or any additional record keeping identified. It is important that you maintain all inspection and other record keeping documentation required under the PBR and can produce it in the event of an inspection.
+If you wish to operate under any of the provisions, you must first submit a simple, one-page notification form to your Ohio EPA district office or local air agency . You must also comply with all the PBR conditions immediately upon installing and operating the source. Unless you wish to convert an existing air permit to a PBR, there is no waiting period or fee associated.
+If you can no longer comply with the conditions of the PBR, you must apply for an air pollution permit. Ohio EPA retains the authority to deny or revoke a company's ability to operate under a PBR provision and require the company to obtain a permit if conditions necessitate.
+PBR notification forms, instructions, guidance materials, and an online database of registered PBR sources are available on the PBR webpage .
+De minimis air contaminant source exemption Ohio Administrative Code (OAC) rule 3745-15-05
+The de minimis exemption excludes an air pollution source from requiring a permit if it emits less than 10 pounds per day of particulate matter, sulfur dioxide, nitrogen oxides, organic compounds, carbon monoxide, lead, or any other air contaminant. You cannot use the de minimis exemption if:
+a Clean Air Act requirement or specific Ohio emission standard limits the emissions of an air pollutant (or restricts the operation of a source) to less than 10 pounds per day
+the source is subject to an emission limit adopted by the director to achieve and maintain the national ambient air quality standards or a rule adopted by the director to protect public health and welfare limits the emissions from the source to less than ten pounds per day of an air pollutant or restricts the operation of the source in a manner equivalent to an emission limit of less than 10 pounds per day
+the source emits radionuclides
+the source alone or in combination with similar sources has potential emissions of any air pollutant more than 25 tons per year
+the source emits more than one ton per year of any hazardous air pollutant or combination of hazardous air pollutants
+OAC rule 3745-15-05 contains the complete de minimis rule language and specific requirements.
+If you are claiming a de minimis exemption, you are not required to notify Ohio EPA but you must maintain records demonstrating that the source meets the exemption and actual emissions do not exceed de minimis thresholds. Typically, the demonstration will include calculations that establish a usage or time limit and then documentation of staying under that use limit. Ohio EPA’s district office or LAA may ask to review your de minimis calculations and associated records during an inspection, so it is important to maintain these records at your facility. If you need assistance in establishing records to demonstrate a de minimis exemption, you can contact your LAA/Ohio EPA district office representative or Ohio EPA’s Compliance Assistance Unit at 800.329.7518 .
+Additional Information
+Best Available Technology 
+Where required, your application must demonstrate that the new emissions unit(s) will employ the best available technology (BAT) to minimize air contaminant emissions. BAT is defined as: the use of a control technology at least as effective as those used by other similar emissions units. It is determined on a case-by-case basis. You may have to complete a BAT Study to determine the appropriate control technology for the planned emissions unit(s). Refer to Engineering Guide #89: Determining When a Best Available Technology Cost-Effectiveness Study is Needed (PDF) for more details or contact your district office or local air agency .
+Toxic Air Contaminant Analysis 
+Any compound identified in OAC Rule 3745-114-01 (PDF) is a toxic air contaminant. If the allowable emissions of a toxic air contaminant from an emissions unit is expected to exceed 1.0 tons per year, then computer modeling must be performed to determine the maximum ambient ground-level concentration (MAGLC). The allowable MAGLC is the TLV value divided by 42.
+The required input data for each egress point should be included in the application forms. For simple emission scenarios at a limited number of emissions units, the district office or local air agency may perform the AERSCREEN analysis for you. Complex emission scenarios should be analyzed by a computer modeling expert. See Engineering Guide #69: Air Dispersion Modeling Guidance (PDF) .
+Title V Facilities 
+For facilities subject to the Title V permitting requirements, a revised Title V application will be required. In some cases, it may be required before you can begin operating a change authorized for installation through a PTI. You may also be required to obtain a final issued revised Title V permit before beginning operation. In other cases, you may be able to wait up to one year from the start-up date if you comply with all the requirements contained in the PTI and all applicable air pollution laws, regulations and policies. For information about Title V revisions please see the available guidance for incorporating facility changes into a Title V Permit:
+Guidance for Incorporating Facility Changes into a Title V Permit (PDF) (3/9/05)
+Decision Tree "A" (PDF) for Incorporating Facility Changes into a Title V Permit
+Decision Tree "B" (PDF) for Incorporating Facility Changes into a Title V Permit
+Decision Tree "C" (PDF) for Incorporating Facility Changes into a Title V Permit
+Send the completed forms to your district office or local air agency. 
+Share this
+Expand All Sections 
+Web Content Viewer 
+Actions 
+Get help with permitting and environmental requirements
+Visit the Resource Hub - FAQs, Ask an Expert, and more.
+Go Now 
+Who We Are
+About Ohio EPA
+Divisions & Offices
+Administrative Leadership
+Districts
+What We Do
+Compliance
+Permits, Licenses & Certification
+Maps & Advisories
+Education and How-to
+What's New
+Current Topics
+Proposed Rules Hub
+Events
+News
+Connect With Us
+Media Resources
+Public Records
+Employment
+Contact Information
+Public Notices and Weekly Review
+Ohio Environmental Protection Agency | 50 W. Town St., Suite 700 Columbus, OH 43215 | Call: 614-644-3020 
+Powered by 
+Privacy Notice and Policies
+Checkbook
+Accessibility
+instagram icon 
+x icon 
+youtube icon 
+linkedin icon 
+facebook icon 
+Subscribe to Updates icon 
+top-menu 
+top-close 
+top-help 
+top-search 
+odx-searchbox-label 
+Submit your search 
+Close 
+Complementary Content 
+${title} ${badge}
+${loading}

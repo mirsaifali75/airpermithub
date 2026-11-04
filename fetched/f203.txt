@@ -1,0 +1,71 @@
+New Mexico Environment Department (NMED) Air Quality Bureau (AQB)
+Operating Permit Program
+List of Insignificant Activities
+March 24, 2005
+Insignificant activities are those activities, which are listed herein by the Environment Department
+and approved by the Administrator of the US Environmental Protection Agency as insignificant on
+the basis of size, emissions or production rate. Any activity for which applicable requirements
+apply, is not insignificant, regardless of whether the activity meets the criteria listed below.
+Operating permit applications submitted under 20.2.70 NMAC for sources, which include any of the
+following emissions units, operations or activities must provide the information required for
+emissions units under Subsection D.6 of 20.2.70.300 NMAC:
+1.a. Any emissions unit, operation or activity that has the potential to emit no more than one (1)
+ton per year of any regulated air pollutant, excluding 112(b) hazardous air pollutants (see item
+1.b), but including 112(r) flammable and toxic regulated pollutants that are not listed in Sections
+500 – 502 of 20.2.72 NMAC. Regulated 112(r) pollutants that are listed in Sections 500 – 502 of
+20.2.72 NMAC are insignificant if they are emitted in quantities less than the threshold (pound
+per hour) of that regulation.
+1.b. Any emissions unit, operation or activity that has the potential to emit no more than the
+lesser of either one (1) ton per year or the de minimis level of any 112(b) hazardous air pollutants
+listed in the U.S. EPA document "Documentation of De Minimis Rates for Proposed 40 CFR part
+63 subpart B", EPA-453/R-93-035 or de minimis levels established under subsequent rulemaking
+for 112(g).
+2. Surface coating of equipment, including spray painting and roll coating, for sources with
+facility-wide total clean-up solvent and coating actual emissions of less than two (2) tons per
+year.
+3. Fuel burning equipment which uses gaseous fuel, has a design rate less than or equal to five
+(5) million BTU per hour, and is used solely for heating buildings for personal comfort or for
+producing hot water for personal use.
+4. Fuel burning equipment which uses distillate oil, has a design rate less than or equal to one (1)
+million BTU per hour, and is used solely for heating buildings for personal comfort or for
+producing hot water for personal use.
+5. Any emissions unit, operation, or activity that handles or stores a liquid with a vapor pressure
+less than 10 mm Hg or in quantities less than 500 gallons.
+
+NMED AQB List of Insignificant Activities
+
+Page 2 of 2
+
+6. Portable engines and portable turbines that have a design capacity (based on sea level
+specifications) or a physically derated capacity less than or equal to:
+200 HP engine if fueled by diesel or natural gas;
+500 HP engine if fueled by gasoline;
+650 HP engine if fueled by JP-4 or JP-8;
+1,500 HP turbine if fueled by natural gas.
+A certification of physical engine deration must accompany the portable source and be kept by
+the Operator or Owner. Physical deration is a result of equipment design, such as combining an
+engine with a compressor that has an rpm limit. Physical deration is not a result of environmental
+conditions such as altitude or temperature.
+OR
+Portable engines, portable turbines, or fixed and portable emergency generators for which the
+Operator or Owner can adequately demonstrate through actual test data (using EPA approved
+methods) or manufacturer emissions data that at maximum sea level horsepower the units produce
+no more that 25 tons per year nitrogen oxides (NOx). In such a case, the documentary
+information is to be kept with the portable engine, portable turbine, or fixed and portable
+emergency generator.
+To be classified as emergency, a generator's sole function is to provide electrical power when
+power from the local utilities is interrupted.
+OR
+Portable Aerospace Ground Equipment (such as power generators, compressors, heaters, air
+conditioners, lighting units) in direct support of aircraft operations on or in the immediate vicinity
+of an airfield.
+To be classified as portable, the engine must comply with the definition of portable source in
+20.2.70 NMAC.
+7. Emergency generators which on a temporary basis replaces equipment used in normal
+operation, and which either has an allowable emission rate or potential to emit for each fee
+pollutant that is equal to or less than the equipment replaced, or which does not operate for a
+period exceeding 500 hours per calendar year. (revised 3/4/05)
+8. Emissions from fuel storage and dispensing equipment operated solely for company-owned,
+company-leased or company-rented vehicles, which have a capacity of less than 25,000 gallons.
+
+

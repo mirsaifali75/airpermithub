@@ -1,0 +1,108 @@
+GUIDANCE DOCUMENT
+Division of Air Pollution Control
+November 12, 2014 (First Issuance)
+
+Engineering Guide #86:
+Guidance Concerning Appropriate 31-05 Rule Citations
+THIS GUIDE DOES NOT HAVE THE FORCE OF LAW
+
+Question:
+What are some of the common rule citations from Ohio Administrative Code (OAC) rule 3745-31-05 and
+how should they be used?
+Answer:
+Rule 31-05 contains a number of requirements that must be met in order for the Director to issue a
+permit-to-install (PTI) or a permit-to-install and operate (PTIO). When appropriate, the Director describes
+the applicable requirement and the associated rule citation within the permit.
+Some of the rule requirements are confusing and seem to overlap. In order to help consistency in permit
+writing, the following describes the use of many common rule citations1. Note that the entire 2008
+version of rule 31-05 (the current one) is SIP approved except for the paragraph that exempts <10 tons
+sources. Except where noted, the below cites are all based on the June 2, 2008 version of the rule.
+Best Available Technology Rule Citations
+
+
+3745-31-05(A)(3) – BAT
+o Use for establishing BAT.
+o Use for establishing a temporary BAT for <10 tons sources that applies until such time that
+U.S. EPA approves the <10 tons BAT exemption into the SIP.
+
+
+
+3745-31-05(A)(3)(a)(ii) - < 10 tons BAT exemption
+o Use this citation when the controlled/uncontrolled PTE of a pollutant is <10 tpy, therefore
+BAT exempt.
+
+Synthetic Minor Type Rule Citations
+
+
+3745-31-05(D) – Director May Impose Special Terms And Conditions
+
+1
+
+Please note that this guide does not include guidance on all rule cites within paragraph 31-05. Instead, it discusses only
+some of the commonly used rule cites.
+www.epa.ohio.gov • 50 W. Town St., Ste. 700 • P.O. Box 1049 • Columbus, OH 43216-1049 • (614) 644-3020 • (614) 644-2737 (fax)
+
+Engineering Guide 86
+This rule cite is most often used for PTI, PTIO, FEPTIO synthetic minor terms and conditions used to
+avoid federal rules or laws. It is best to cite 31-05(D) rather than the more explicit 31-05(D)(1)(a) or
+31-05(D)(1)(b) for installation permits or FEPTIOs, respectively. It can also be used for:
+o Establishing federally enforceable restrictions used to avoid various federal rule
+requirements (most commonly PSD, NNSR, Title V and MACTs)
+o Terms to ensure compliance with applicable laws (could be used for many laws)
+o Terms to ensure adequate protection of environmental quality (could be used for terms
+used to maintain the health, safety and welfare of the public)
+o Terms to ensure compliance with the CAA (could be used for many requirements found
+under the CAA)
+o Terms to establish an emissions cap for the purposes of tradable emissions
+o Terms from federal consent orders that are used to ensure compliance with applicable laws
+and to ensure adequate protection of environmental quality
+Note that the restrictions established under this rule must meet U.S. EPA’s requirements for
+federally enforceability.
+State-Only Rule Citations
+
+
+3745-31-05(E) – State-only Enforceable Limitations
+This rule cite should be used for limitations that are enforceable by the State, but not by U.S. EPA.
+Some examples include:
+o Restriction that allows a source to avoid BAT for <10 tons sources (Note, this cite can be
+used both before U.S. EPA approves the <10 tons exemption and after U.S. EPA approves
+the <10 tons exemption.)
+o Air toxics terms (the air toxic rule and the air toxic policy are not in the SIP)
+o Limitations used to avoid state modeling requirements
+o Limitations used to avoid tripping one part of the modify definition - 3745-3101(QQQ)(1)(b) concerning tripping the modify definition via changes that increase the
+ambient impact of the pollutant (this paragraph is not in the SIP)
+o Consent decree requirements that are State-only enforceable
+o Other restrictions or terms and conditions that are based on state rules that are not SIP
+approved
+
+Voluntary Limits Citations
+
+
+3745-31-05(F) – Voluntary Limits on Allowable Emissions
+This rule cite is designed to allow a company to submit a PTI or PTIO in order to add a restriction
+that is not required by any rule or law and is not being used to avoid any rule or law requirement.
+This should not be used if the modify definition is tripped. Some examples include:
+
+P a g e |2
+
+Engineering Guide 86
+o If a company decides to install an incinerator in order to control odors but the incinerator
+would not otherwise be required.
+o If a company asks us to put a restriction into the permit based on some agreement they
+have with an environmental group and the restriction is not otherwise required.
+o State or federal consent decree requirements where the decree requires something to be
+placed in a permit that is not otherwise required by an underlying law or rule.
+In that case, any restrictions/limits we establish would be voluntary. These kinds of
+restrictions/limits can be removed at any time upon request of the permittee. For this type of
+voluntary PTI/PTIO, a new BAT limit would not be established.
+Note that the above descriptions are not the only situations where the above rule cites might be used.
+Other requirements may apply where it is appropriate to use one or more of the above rule cites.
+Permit writers that are unsure which rule citation to use for a particular requirement should contact their
+central office permit contact for advice.
+Key Words: Citation, cite, BAT, Best Available Technology, Voluntary, State-only, Synthetic Minor, FEPTIO,
+PTI
+MH: 11/12/14
+
+P a g e |3
+
+

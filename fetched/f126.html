@@ -1,0 +1,1618 @@
+
+
+<!--Test-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head><title>
+	Operating Permits - Air Quality - North Dakota DEQ
+</title><meta id="_ctl0_viewport" name="viewport" content="width=device-width">
+    <!-- Dont set initial-scale! - rotation bug -->
+    <meta property="og:site_name" content="North Dakota Department of Environmental Quality"><meta property="og:type" content="website"><meta property="og:image" content="https://deq.nd.gov/images/deq-og-square.jpg"><meta property="og:image:width" content="800"><meta property="og:image:height" content="800"><meta property="og:image" content="https://deq.nd.gov/images/deq-og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><link rel="shortcut icon" href="/favicon.png" type="image/png" />
+	
+    <script src="/Includes/jquery-2.2.0.min.js"></script>    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,900,300" rel="stylesheet" type="text/css" /><link href="/Includes/bootstrap/bootstrap.css" rel="stylesheet" /><link href="/Includes/bootstrap/bootstrap-theme.min.css" rel="stylesheet" /> <!-- Optional - enhances look of buttons etc -->
+    <link href="/Includes/offcanvas.css" rel="stylesheet" /><link href="/Includes/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet" /><link href="/Includes/scrolltotop/css/style.css" rel="stylesheet" /><link href="/Includes/breadcrumbs.css" rel="stylesheet" /><link href="/Includes/Icons1/flaticon.css" rel="stylesheet" /><link href="/Includes/Icons2/more.css" rel="stylesheet" /><link href="/Includes/EHSStyleSheet.css" rel="stylesheet" />
+
+    <style>
+      code {
+        color: black;
+        background-color: #e4eef0; /*#ecf3f3 #d3e9e9 #cce0e0*/
+        }
+
+        a, a:link, a:visited { 
+        text-decoration: underline; /* Provides secondary visual identifier for links, and ADA acessibility. */
+        text-underline-offset: 3px; /* Adjusts the vertical gap */
+        text-decoration-color: #928d82; 
+        text-decoration-thickness: 1px;
+        text-decoration-skip-ink: auto;
+        }
+        a:hover{
+            text-decoration-color:#024057; 
+        }
+        a.btn:hover{
+            font-weight:500;
+        }
+          /* testing acessibility fixes vvvvvv  */
+        :where(li a:not(nav a, .breadcrumb a)) {
+            display: inline-flex;
+            align-items: center;
+            min-height: 25px;
+            min-width: 25px;
+            }
+        @media (pointer: coarse) {
+        /* 44px tap targets for links in lists (touch devices only) */
+        :where(li a:not(nav a, .breadcrumb a)) {
+            display: inline-flex;
+            align-items: center;
+            min-height: 44px;
+            min-width: 44px;
+            }
+
+        /* Move list spacing into the link so rows don't double up */
+        :where(li:has(> a):not(nav li, .breadcrumb li)) {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            }
+        }
+
+        /*Move this to the main css after testing vvvv  */
+        .skip-link {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateY(-100%);
+        padding: 1rem 1.5rem;
+        background: #1a1a1a;
+        font-size: 1.25rem;
+        font-weight: 600;
+        text-decoration: underline;
+        z-index: 1000;
+        }
+
+        .skip-link,
+        .skip-link:link,
+        .skip-link:visited,
+        .skip-link:hover,
+        .skip-link:focus {
+        color: #ffffff;          /* ~17:1 contrast */
+        }
+
+        .skip-link:focus {
+        transform: translateY(0);
+        outline: 3px solid #ffbf47;
+        outline-offset: 2px;
+        }
+
+        #main-content:focus {
+        outline: none;
+        }
+    </style>
+
+    <!--popover script-->
+    <script language="JavaScript" type="text/javascript">
+        $(function ()
+        {
+            $('[rel="popover"]').popover({
+                container: 'body',
+                html: true,
+                content: function ()
+                {
+                    var clone = $($(this).data('popover-content')).clone(true).removeClass('hide');
+                    return clone;
+                }
+            }).click(function (e)
+            {
+                e.preventDefault();
+            });
+        });
+    </script>
+
+    <!--back to top script-->
+    <script language="JavaScript" type="text/javascript">
+        jQuery(document).ready(function ()
+        {
+            var offset = 200;
+            var duration = 500;
+            jQuery(window).scroll(function ()
+            {
+                if (jQuery(this).scrollTop() > offset)
+                {
+                    jQuery('.scroll-to-top').fadeIn(duration);
+                } else
+                {
+                    jQuery('.scroll-to-top').fadeOut(duration);
+                }
+            });
+
+            jQuery('.scroll-to-top').click(function (event)
+            {
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+
+        });
+    </script>
+    
+    <!-- Custom toggle div visibility functionality-->
+    <script>
+        jQuery(document).ready(function () {
+            if (jQuery(".toggle .toggle-title").hasClass('active')) {
+                jQuery(".toggle .toggle-title.active").closest('.toggle').find('.toggle-inner:first').show();
+            }
+            jQuery(".toggle .toggle-title").click(function () {
+                if (jQuery(this).hasClass('active')) {
+                    jQuery(this).removeClass("active").closest('.toggle').find('.toggle-inner:first').slideUp(200);
+                } else {
+                    jQuery(this).addClass("active").closest('.toggle').find('.toggle-inner:first').slideDown(200);
+                }
+            });
+        });
+    </script>
+
+
+        
+    <link rel="canonical" href="https://deq.nd.gov/AQ/Permitting/Operating.aspx" />
+    <style>
+        .tab{
+            text-align:left;
+        }
+    </style>
+</head>
+
+<body onload="SizePicture();" onresize="SizePicture();">                                    <!--<body>-->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- NEW PAGES WILL USE BANNER.ASP - OLD PAGES WILL STILL USE HEADER.ASP - keep both around for now for ease of migration -->
+
+<style>
+  /* â”€â”€ ADA Toggle Button â”€â”€ */
+  .nd-ada-toggle-btn {
+    background: #D9DE9A;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    padding: 4px 2% 3px 1%;
+    font-size: 0.95em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /*margin-top: -18px;*/
+    /*margin-bottom: 10px;*/
+    min-height:44px;
+  }
+  .nd-ada-toggle-btn.nd-ada-open {
+    background: #ffffff;
+  }
+.nd-ada-toggle-btn:focus {
+    outline: none;
+}
+.nd-ada-toggle-btn:focus-visible {
+    outline: 3px solid #005ea2;
+    outline-offset: 2px;
+}  
+  @media (min-width: 600px) {
+    .nd-ada-toggle-btn {
+      justify-content: flex-start;
+      text-align: left;
+    }
+  }
+  .nd-ada-btn-icon {
+    width: 2em;
+    height: 2em;
+    opacity: 0.8;
+    flex-shrink: 0;
+  }
+  .nd-ada-arrow {
+    font-size: 1em;
+  }
+
+  /* â”€â”€ ADA Box (hidden by default) â”€â”€ */
+  .nd-ada-box {
+    padding: 9px 3% 9px 2%;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    background-color: #D9DE9A;
+    display: none;
+  }
+  .nd-ada-box.nd-ada-open {
+    display: flex;
+    align-items: flex-start;
+  }
+  .nd-ada-img {
+    border: 0;
+    opacity: 0.8;
+  }
+
+  /* WIDE SCREEN: 600px and up */
+  @media (min-width: 600px) {
+    .nd-ada-img {
+      width: 2.2em;
+      height: 2.2em;
+      margin-right: 6px;
+      margin-bottom: 0;
+      flex-shrink: 0;
+      display: block;
+    }
+    .nd-ada-content {
+      display: block;
+    }
+  }
+
+  /* MOBILE: Under 600px wide */
+  @media (max-width: 599px) {
+    .nd-ada-box.nd-ada-open {
+      display: block;
+    }
+    .nd-ada-img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      min-width: 25px;
+      min-height: 25px;
+      margin-right: 6px;
+      margin-top: -6px;
+      margin-bottom: 0px;
+    }
+    .nd-ada-content {
+      display: inline;
+    }
+  }
+</style>
+
+<button
+  class="nd-ada-toggle-btn"
+  aria-expanded="false"
+  aria-controls="ndAdaStatement"
+  aria-label="Website Accessibility Statement"
+  onclick="ndAdaToggle(this)">
+  <img src="/accessibility-icon.png" alt="" aria-hidden="true" class="nd-ada-btn-icon">
+ Website Accessibility Statement
+  <i class="fa fa-chevron-down nd-ada-arrow" aria-hidden="true"></i>
+</button>
+
+<div class="nd-ada-box" id="ndAdaStatement">
+  <!--<img src="/accessibility-icon.png" alt="Accessibility Icon" class="nd-ada-img">-->
+  <span class="nd-ada-content">
+We are committed to ensuring our website and web content complies with the Americans
+    with Disabilities Act (ADA) and applicable web accessibility standards.
+    If you have difficulty using our site or need an accommodation, please
+    contact us at <a href="mailto:deq@nd.gov?subject=DEQ Website Accessibility Request">deq@nd.gov</a>. To learn more, visit our <a href="/Accessibility.aspx">Accessibility page</a>.
+  </span>
+</div>
+
+<script>
+  function ndAdaToggle(btn) {
+    var box = document.getElementById('ndAdaStatement');
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    box.classList.toggle('nd-ada-open');
+    btn.classList.toggle('nd-ada-open');
+    var arrow = btn.querySelector('.nd-ada-arrow');
+    arrow.classList.toggle('fa-chevron-down');
+    arrow.classList.toggle('fa-chevron-up');
+  }
+</script><!-- banner.asp will supercede header.asp for new style pages -->
+<a name="top"></a>
+<div id="banner"> 
+	<table width="100%" style="border-collapse: collapse; margin-bottom: 1px;">
+		<tr>
+			<td><a class="CSSMenu" href="http://www.nd.gov/">
+				<img src="/images/ndgov-banner.gif" border="0" width="451" height="25" alt="nd.gov - The Official Portal for North Dakota State Government"></a></td>
+			<td align="right"><!--<a class="CSSMenu" href="http://www.ndtourism.com/">
+				<img src="/images/tourism-banner-blue.gif" border="0" width="95" height="25" alt="North Dakota: Legendary. Follow the trail of legends"></a>--></td>
+			<td align="right">
+								<form style="display: inline; margin: 0;" name="f" action="https://www.nd.gov/gsearch" method="get">
+					<input value="all_state" name="client" type="hidden">
+					<input value="all_state" name="site" type="hidden">
+					<input value="xml_no_dtd" name="output" type="hidden">
+					<input value="all_state" name="proxystylesheet" type="hidden">
+					<input type="hidden" name="as_oq" 
+						value="site:www.ndhealth.gov site:www.ndflu.com site:www.diabetesnd.org site:www.ndhan.gov">
+					<input value="http://www.ndhealth.gov" name="returnSiteURL" type="hidden">
+					<input value="North_Dakota_Department_of_Health" name="returnSiteName" type="hidden">
+					<input name="num" value="25" type="hidden">
+					
+					<input style="height: 30px;" 
+						type="search" 
+						name="q" 
+						size="20" 
+						id="searchwords" 
+						value="" 
+						title="Search" 
+						aria-label="Search North Dakota Department of Environmental Quality">					
+					<input value="Search" name="btnG" type="submit" 
+						onclick="window.location.href = '/search/default.aspx?site_search=deq.nd.gov&title=Search&query=' + document.getElementById('searchwords').value; return (false);">
+				</form>
+
+
+
+			</td>
+		</tr>
+	</table>
+
+	<table width="100%" border="0" cellpadding="0" border-collapse: collapse">
+		<tr>
+
+			<td style="   border-left-width: 0px; border-right-width: 0px; border-bottom-style: solid; border-bottom-color: #9D040A; border-bottom-width: 0px; border-top-style: solid; border-top-color: #709749; border-top-width: 4px;" width="1%">
+					<!-- Start new banner title -->
+					<div style="position:relative;"><!-- Div needed for absolute positioning of banner-title -->
+						<a class="CSSMenu" title="Go to the Department of Environmental Quality Home Page" href="/">
+							<img src="/images/DEQ-Logo.png" style="border:none; height:102px;" hspace="0" vspace="0" alt="ND Department of Environmental Quality Logo">
+							<div id="banner-title">Air Quality</div>
+						</a>
+					</div>
+					<!-- End new banner title -->
+			</td>
+
+			<td width="99%" style="border-bottom-style: solid; border-bottom-color: #9D040A; border-bottom-width: 0px; border-top-style: solid; border-top-color: #709749; border-top-width: 4px;">
+				<div id="Picturebar" name="Picturebar" style='float: left; width: 500px; height: 102px; background-image: url("/aq/images/LogoPhotos.jpg")'></div>
+			</td>
+
+		</tr>
+	</table>
+</div>
+<!-- end banner -->
+
+<div id="banner-mobile">
+		<!-- Start new mobile banner title -->
+		<div style="position:relative;"><!-- Div needed for absolute positioning of banner-title-mobile -->
+			<a class="CSSMenu" title="Go to the DEQ Home Page" href="/">
+				<img src="/images/DEQ-Logo.png" style="border:none; width:300px;" hspace="5" vspace="5" alt="ND Department of Environmental Quality Logo">
+				<div id="banner-title-mobile">Air Quality</div>
+			</a>
+		</div>
+		<!-- End new mobile banner title -->
+	<form style="display: block; margin-left: 5px; margin-bottom: 5px;" name="f" action="http://www.nd.gov/gsearch" method="get">
+		<input value="all_state" name="client" type="hidden">
+		<input value="all_state" name="site" type="hidden">
+		<input value="xml_no_dtd" name="output" type="hidden">
+		<input value="all_state" name="proxystylesheet" type="hidden">
+		<input type="hidden" name="as_oq" value="site:www.ndhealth.gov site:www.ndflu.com site:www.diabetesnd.org site:www.ndhan.gov">
+		<input value="http://www.ndhealth.gov" name="returnSiteURL" type="hidden">
+		<input value="North_Dakota_Department_of_Health" name="returnSiteName" type="hidden">
+		<input name="num" value="25" type="hidden">
+		<label for="searchwordsmobile"><span style='display: none' class="medium">Search: </span></label>
+		<input style="height: 30px; font-size: 16px; padding-left: 5px;" type="search" name="q" size="20" id="searchwordsmobile" value="">
+		<input class="btn btn-sm" style="color: white; background-color: #709749; margin-bottom: 4px;" value="Search" name="btnG" type="submit" onclick="window.location.href = '/search/default.aspx?site_search=deq.nd.gov&title=Search&query=' + document.getElementById('searchwordsmobile').value; return (false);">
+		<!--<input class="btn btn-sm" style="color: white; background-color: #709749; margin-bottom: 4px;" value="Search" name="btnG" type="submit" onclick="window.location.href = 'http://www.ndhealth.gov/search.aspx?sites=site:www.ndhealth.gov/ehs&search=' + document.getElementById('searchwordsmobile').value; return (false);">-->
+	</form>
+</div>
+<!-- end banner-mobile -->
+
+
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse" role="navigation">
+	
+	<div>
+	<!--<div class="container-fluid"> container-fluid causes black background on nav bar -->
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+					
+			<button id="left-navbar-off-canvas" type="button" style="padding-top:5px; padding-bottom:2px; margin-left:15px;" class="navbar-toggle collapsed pull-left"  data-toggle="offcanvas">
+				<span class="sr-only">Toggle left popout navigation</span>
+				<span style="font-size:20px; color:white;" class="glyphicon glyphicon-resize-horizontal"></span>
+			</button>
+		
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-navbar-collapse">
+				<span class="sr-only">Toggle top navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				
+		</div>
+		
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<!-- position:relative; z-index:1; fixes old IPad dropdown transparency issue -->
+		<div style="position:relative; z-index:1;" class="collapse navbar-collapse" id="site-navbar-collapse">            
+		<!--<div style="margin-left: -20px; margin-right:-20px; position:relative; z-index:1;" class="collapse navbar-collapse" id="site-navbar-collapse"> -->
+				
+			<ul class="nav navbar-nav">
+
+			   <li><a href="/default.aspx">DEQ Home</a></li>
+			   <li><a href="/aq/">Air Quality</a></li>
+			   <li><a href="/chemistry/">Chemistry</a></li>
+			   <li><a href="/mf/">Municipal Facilities</a></li>
+			   <li><a href="/wm/">Waste Management</a></li>
+			   <li><a href="/wq/">Water Quality</a></li>
+			   <li><a href="/director/">Office of Director</a></li>
+               
+
+
+				<!-- single line entry along side of multi-line menu items - vertical centering
+					<li><a href="#">Link with long name</a></li>
+					<li><a style="line-height:250%" href="#">Link</a></li>
+				-->
+
+				<!-- regular dropdown - ie non mega-menu
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sections<span class="caret"></span></a>
+					<ul style="font-size:11.5px;" class="dropdown-menu" role="menu">
+						<li><a href="#"><span>Community Health</span></a></li>
+						<li><a href="#">Emergency Preparedness</a></li>
+						<li><a href="#">Medical Services</a></li>
+						<li><a href="#">Health Resources</a></li>
+						<li><a href="#">Environmental Health</a></li>
+						<li><a href="#">Administrative Support</a></li>
+						<li class="divider"></li>
+						<li><a href="#">This is a seperated link here that is very very long<br /> indeed very very long indeed very very long indeed</a></li>
+						<li><a href="#">Another link</a></li>
+						<li><a href="#">One more link</a></li>
+					</ul>
+				</li>
+				-->
+
+			</ul> <!-- END NAV NAV-BAR -->
+				
+
+
+		</div>
+		<!-- END .navbar-collapse -->
+	</div>
+	<!-- END container div -->
+
+    <!-- Office closing message start -->
+	<!--
+    <div style="margin-bottom:0px;" class="alert alert-danger" role="alert">
+        <h4>Alert: All department offices are temporarily closed to public access, but we continue to work to maintain our clean air, water and land. Please contact the applicable program by email or phone if you need assistance - <a href="/Covid19/">More Information</a></h4>
+    </div>
+	-->
+    <!-- Office closing message end -->
+	   
+</nav>
+
+    <!-- Breadcrumbs start -->
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li><a href="/"><i class="flaticon-leaf93" aria-hidden="true"></i>&nbsp;Home</a></li>
+
+            <li><a href="/AQ/">
+                <!--use program icons-->
+                <i class="flaticon-two394"></i>&nbsp;AQ</a></li>
+            <li><a href="/AQ/permitting/">
+                <!--use program icons-->
+                &nbsp;Permitting</a></li>
+
+            <li class="active">
+                <!--use program icons-->
+                &nbsp;PTOs</li>
+        </ol>
+    </div>
+    <!-- Breadcrumbs end -->
+
+
+    <!-- Uses Bootstrap grid for column layout -->
+    <div class="container-fluid">
+        <div class="row row-offcanvas row-offcanvas-left">
+
+
+            <!-- LEFT NAVIGATION COLUMN -->
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" role="navigation">
+
+                <div class="redbox" style="margin-top: 0px;">
+                    <div class="redbox-header">
+                        &nbsp;&nbsp;&nbsp;
+                   DEQ Resources
+                    </div>
+                    <div class="redbox-body" style="padding: 0px;">
+                        <nav style="margin-bottom: 0px;" class="left-nav navbar navbar-default" role="navigation">
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <ul class="nav nav-tabs nav-stacked">
+                                
+<!--<li><p style="color:#999;font-size:medium; font-weight:bold;margin-top:0px; margin-bottom:0px; background-color:#e5e5e5; padding:5px; padding-left:10px;">DEQ Resources</p></li>-->
+<!--<li><a href="/default.aspx"><i class="flaticon-leaf93"></i>&nbsp;  DEQ Home</a></li>
+<li><a href="/ContactUs.aspx"><i class="glyphicon glyphicon-envelope"></i>&nbsp;  Contact Us</a></li>-->
+
+<li><a href="/ereporting.aspx"><i class="more-ecological31"></i>&nbsp;  Electronic Reporting &amp; Permit Systems</a></li>
+<li><a href="/wq/4_spill_investigations/incidentreporting.aspx"><i class="flaticon-dangerous1"></i>&nbsp;  Report a Spill</a></li>
+
+<!-- <li><a href="/sustainability/"><i class="flaticon-landscape23"></i>&nbsp;  Sustainability</a></li> -->
+
+<li><a href="/topicsatoz.aspx"><i class="more-dictionary"></i>&nbsp;  Environmental Topics <span style="white-space: nowrap;">A-Z</span></a></li>
+<!-- <li><a href="/enforcement/"><i class="fa fa-balance-scale"></i>&nbsp;  Inspections and Enforcements</a></li> -->
+<li><a href="/ndrbca/"><i class="flaticon-dangerous1"></i>&nbsp;  Risk Based Corrective Action</a></li>
+ 
+<li><a href="/publicnotice.aspx"><i class="glyphicon glyphicon-comment"></i>&nbsp;  Public Comments, Meetings &amp Notices</a></li>
+<li><a href="/calendar.aspx"  ><i class="glyphicon glyphicon-calendar"></i>&nbsp;  Calendar and Events</a></li>
+<li><a href="/ehsrulesregs.aspx"><i class="fa fa-gavel"></i>&nbsp;  Rules and Regulations</a></li>
+<li><a href="/forms.aspx"><i class="glyphicon glyphicon-file"></i>&nbsp;  Forms</a></li>
+<!--<li><a href="/Trainings.aspx"><i class="fa fa-graduation-cap"></i>&nbsp;  Training</a></li>-->
+<!--<li><a href="#"><i class="more-conversation6"></i>&nbsp;  Frequently Asked Questions</a></li>-->
+<li><a href="/publications.aspx"><i class="flaticon-books8"></i>&nbsp;  Publications</a></li>
+<!--<li><a href="/portal/DataMaps/default.aspx"><i class="flaticon-map82"></i>&nbsp;  Data &amp; Maps</a></li>-->
+<li><a href="/pressreleases.aspx"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;  Press Releases</a></li>
+
+<li><a href="/openrecords.aspx"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;  Open Records</a></li>
+<li><a href="/testimony"><i class="fa fa-balance-scale"></i>&nbsp;  Legislative Testimony</a></li>
+
+<li><a target="_blank" href="/jobs/"><i class="more-business64"></i>&nbsp;  Employment Opportunities</a></li>
+<li><a target="_blank" href="/non-discrimination.aspx"><i class="more-business64"></i>&nbsp;  Nondiscrimination Program</a></li>
+
+<li><a href="/director/environmentalaudits/"><i class="flaticon-landscape23"></i>&nbsp; Environmental Audits</a></li>
+<li><a href="/director/erac/"><i class="flaticon-landscape23"></i>&nbsp;  Environmental Review Advisory Council</a></li>
+
+
+
+<li>
+<div class="input-group">
+      <label for="search-input"><span style="display:none">Search EHS for</span></label>
+      <input id="search-input" type="text" class="form-control" placeholder="Search DEQ for..." title="Search DEQ for">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" onclick="window.location.href = '/search/default.aspx?site_search=deq.nd.gov&title=Search&query=' + document.getElementById('search-input').value; return (false);">Go! </button>
+      </span>
+    </div><!-- /input-group -->
+</li>    
+                            </ul>
+                        </nav>
+                        </div>
+                        <br />
+                    <div>
+                         <nav class="left-nav navbar navbar-default" role="navigation">
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <ul class="nav nav-tabs nav-stacked">
+                         
+<li><p style="color:#000000;font-size:medium; font-weight:bold;margin-top:0px; margin-bottom:0px; background-color:#e5e5e5; padding:5px; padding-left:10px;">Division of Air Quality Resources</p></li>
+<li><a href="/aq/"><i class="glyphicon glyphicon-home"></i>&nbsp;Air Quality Home</a></li>
+<li><a href="/ereporting.aspx"><i class="fa fa-database"></i>&nbsp;CERIS-ND</a></li>
+<li><a href="/aq/permitting/permitportal.aspx"><i class="fa fa-database"></i>&nbsp;Permit Portal</a></li>
+<li><a href="/aq/Fees.aspx"><i class="glyphicon glyphicon-usd"></i>&nbsp;Fees</a></li>
+<li><a href="/aq/Forms.aspx" aria-label="AQ Forms"><i class="flaticon-contract11"></i>&nbsp;Forms</a></li>
+<li><a href="/aq/RulesRegs.aspx"><i class="glyphicon glyphicon-book"></i>&nbsp;Rules, Regulations &amp; Policies</a></li>
+<li><a href="/aq/PublicCom.aspx"><i class="glyphicon glyphicon-comment"></i>&nbsp;Public Comments &amp; Notices</a></li>
+<!--<li><a href="/aq/permitting/PTCInProgress.aspx"><i class="fa fa-clock-o"></i>&nbsp;Construction Permits In Progress</a></li>-->
+<li><a href="/aq/aqdata.aspx"><i class="flaticon-map82"></i>&nbsp;Data &amp; Maps</a></li>
+<li><a href="/aq/Training.aspx"><i class="fa fa-graduation-cap"></i>&nbsp;Training</a></li>
+<!--<li><a href="/aq/News.aspx"><i class="glyphicon glyphicon-bullhorn"></i>&nbsp;News</a></li>-->
+<!--<li><a href="/aq/Calendar.aspx"  ><i class="glyphicon glyphicon-calendar"></i>&nbsp;Calendar &amp; Events</a></li>-->
+<li><a href="/aq/Publications.aspx"><span class="flaticon-books8"></span>&nbsp;AQ Publications</a></li>
+<li><a href="/aq/AboutAQ.aspx"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;About DoAQ</a></li>
+
+
+
+
+
+
+
+  
+                    </ul>
+
+                </nav>
+            </div></div>
+           
+            <!--/ END SIDEBAR-OFFCANVAS-->
+            <!-- LEFT NAVIGATION COLUMN -->
+            
+           
+        </div>
+            <!--/ END SIDEBAR-OFFCANVAS-->
+
+            <!-- MAIN CONTENT COLUMN -->
+            <div id="main-content" class="col-sm-9 " tabindex="-1">
+                <form name="aspnetForm" method="post" action="./Operating.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTcwNTc2NTMxN2Rkt9rGuWm2I/IfpBWP8p7mAU5Aanvnh/KBbICgtoxe1/0=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C44ABFA5" />
+                    <div>
+
+                        
+    <div class="col-md-12 col-lg-9 col-sm-10">
+         <!--Forms-->
+        <div class="alert alert-warning" role="alert">
+        <h4><span class="glyphicon glyphicon-file"></span> Notice: Many Air Quality forms are fillable PDF forms. For the best experience, ensure your browser is up to date. If you have trouble filling out a form within your browser, we recommend downloading the file and opening it with <a href="https://get.adobe.com/reader/" target="_blank">Adobe Acrobat Reader</a> <i class="fa fa-external-link" aria-hidden="true"></i></h4>
+        </div>
+        <!--end alert-->
+        
+        <div class="intro">
+            <h1><span class="glyphicon glyphicon-folder-close"></span>&nbsp;Operating Permits</h1>
+            <p>
+                The Operating Permits set operational and emission limits, monitoring, record-keeping, and reporting requirements for sources of air emissions.
+            </p>
+            <p style="font-size: small;">If you have an issued Permit to Construct or Permit to Operate, please address questions to your facility's state Permit Manager (see <a href="/AQ/permitting/PermitPortal.aspx">Permit Portal</a> for your state contact).</p>
+            <p style="font-size: small;">If you do not have an issued Permit to Operate questions may be addressed to the North Dakota Department of Environmental Quality at 701-328-5218, or email Kyla Schneider (<a href="mailto:KKSchneider@nd.gov">KKSchneider@nd.gov</a>).</p>
+
+        </div>
+
+        <hr class="bar">
+
+    <div class="page-header" style="padding-top:26px;"> 
+		<h2><strong>Operating Permit Required</strong></h2>
+
+        </div>
+
+        <p class="Justified">
+            An Operating Permit (Permit to Operate [PTO]) is required for the routine operation of an installation or source designated in NDAC <a href="http://www.legis.nd.gov/information/acdata/pdf/33.1-15-14.pdf" target="_blank">Section
+                        33.1-15-14-01</a>. Sources or alterations to a source which are determined by the Department to be of minor significance may not require an operating permit. Sources that received a construction permit (PTC) under
+                        <a href="http://www.legis.nd.gov/information/acdata/pdf/33.1-15-14.pdf" target="_blank">Section 33.1-15-14-02</a> must notify the Department within 15 days following initial startup to satisfy the requirement to apply for an operating permit.
+        </p>
+        <blockquote><b>Important Note:</b> Sources that have received a Permit to Construct and require a Title V Operating Permit or Title V permit revision must submit a complete Title V application within <b>12 months</b> after commencing operation.</blockquote>
+
+
+        <p class="Justified">
+            A PTO is then issued after the conditions of the construction permit have been verified by the Department with a facility inspection. For those sources that were not issued a PTC (i.e., portable sources), an application for a PTO must be made on forms supplied by the Department prior to initiating operations.
+        </p>
+
+
+        <hr class="bar">
+        <!--how to appy op-->
+
+    <div class="page-header" style="padding-top:26px;">
+		<h2><strong>How do I apply for an Operating Permit?</strong></h2>
+
+        </div>
+
+        <p class="Justified">The steps required for applying for a PTO depend on the type of permit that you are applying for: General, Portable, True Minor, Synthetic Minor, Major (Title V).</p>
+        <div class="toggle">
+            <div class="toggle-title">
+                <h3>
+                    <i></i>
+                    <span class="title-name">Minor Source Permitting</span>
+                </h3>
+            </div>
+            <div class="toggle-inner">
+
+                <h4>What is a Minor Source?</h4>
+                <p class=" tab Justified"><strong>True Minor&mdash;</strong> A true minor source Permit to Operate is issued to facilities  that have the potential to emit less than 100 ton/yr of a criteria pollutant, less than 10 ton/yr of any single hazardous air pollutant and less than 25 ton/yr of any combination of hazardous air pollutants.</p>
+
+                <p class=" tab Justified">
+
+                    <strong>General Permit&mdash;</strong> A general Permit to Operate may be issued for numerous, similar, true minor sources such as asphalt plants, dry cleaners and grain elevators.
+                </p>
+
+                <p>Examples of facilities that may apply for a general permit include:</p>
+                <ul>
+                    <li>Asphalt Plants</li>
+                    <li>Dry Cleaners</li>
+                    <li>Grain Elevators</li>
+                    <li>Incinerators &amp; Crematoriums</li>
+                    <li>Rock, Sand, &amp; Gravel Plants</li>
+                    <li>Portable Sources</li>
+                </ul>
+
+                <hr class="bar" />
+
+                <h4>How do I apply for a Minor Source Permit to Operate?</h4>
+                <p class="Justified">Obtaining a minor source permit usually begins with the permittee applying for and receiving a <a href="Construction.aspx">Construction Permit</a>.</p>
+
+                <p class="Justified">
+                    Sources that received a construction permit under
+                        <a href="http://www.legis.nd.gov/information/acdata/pdf/33.1-15-14.pdf" target="_blank">Section 33.1-15-14-02</a> must notify the Department within 15 days of initial startup to satisfy the requirement to apply for a PTO.
+                </p>
+
+                <p class="Justified">
+                    A PTO is then issued after the conditions of the construction permit (PTC) have been verified by the Department with a facility inspection. For those sources that were not issued a construction permit (i.e., portable sources), an application for a PTO must be made on forms supplied by the Department prior to initiating operations.
+                </p>
+                <hr class="bar" />
+                <h4>Is a public comment period required?</h4>
+
+                <p class="Justified">For True Minor and General Permits, a public comment period is not required.  <i>However</i>, public comment and EPA review are required for Synthetic Minor Operating Permits (see Synthetic Minor Source Permitting below for more information).</p>
+
+            </div>       
+
+
+        <!--Synthetic Minor-->
+        <div class="toggle">
+            <div class="toggle-title">
+                <h3>
+                    <i></i>
+                    <span class="title-name">Synthetic Minor Source Permitting</span>
+                </h3>
+            </div>
+            <div class="toggle-inner">
+
+
+                <h4>What is a Synthetic Minor Source?</h4>
+                <p class="Justified">Sources that have the potential to emit 100 ton/yr or greater of a criteria pollutant, 10 ton/yr or greater of any hazardous air pollutant, or 25 ton/yr or greater of any combination of hazardous air pollutants, and for which the permittee accepts a <strong>federally enforceable limit</strong> in the Permit to Operate that limits the potential to emit to the same criteria specified for a minor source.</p>
+
+                <hr class="bar" />
+
+                <h4>What are federally enforceable limits?</h4>
+                <p class="Justified">Typically, a federally-enforceable limit is a physical or operational limitation on the capacity of a source to emit an air pollutant that is capable of being enforced by the federal government and citizens in federal court.  A limitation has been considered federally enforceable if it is enforceable as a practical matter.</p>
+                <p class="Justified">Examples of federally enforceable limits include:</p>
+                <ul>
+                    <li>Throughput limits/production rate limits</li>
+                    <li>Operational limits</li>
+                    <li>Fuel type and/or usage amount limits</li>
+                    <li>Emission limits over a set period of time</li>
+                </ul>
+                <hr class="bar" />
+                <h4>How do I apply for a Synthetic Minor Source Permit to Operate?</h4>
+                <p class="Justified">Obtaining a minor source permit usually begins with the permittee applying for and receiving a <a href="/AQ/permitting/Construction.aspx">Construction Permit</a>.</p>
+
+                <p class="Justified">
+                    Sources that received a construction permit under
+                        <a href="http://www.legis.nd.gov/information/acdata/pdf/33.1-15-14.pdf" target="_blank">Section 33.1-15-14-02</a> must notify the Department within 15 days of initial startup to satisfy the requirement to apply for a PTO. Note: If there are as-built updates to sites that received a pre-construction permit, they should submit an initial PTO application to document those changes.
+                </p>
+
+                <p class="Justified">
+                    A PTO is then issued after the conditions of the construction permit (PTC) have been verified by the Department with a facility inspection. For those sources that were not issued a construction permit (i.e., portable sources), an application for a PTO must be made on forms supplied by the Department prior to initiating operations.
+                </p>
+                <hr class="bar" />
+
+                <h4>Is a public comment period required?</h4>
+                <p class="Justified">Yes.  Public participation concurrent with an EPA review period (30-day comment/review period) is required prior to issuing synthetic minor permits under the Minor Source Permit to Operate Program. </p>
+
+            </div>
+        </div>
+
+        <!--Major (Title V) Source Permitting-->
+
+        <div class="toggle">
+            <div class="toggle-title">
+                <h3>
+                    <i></i>
+                    <span class="title-name">Major (Title V) Source Permitting</span>
+                </h3>
+            </div>
+            <div class="toggle-inner">
+
+
+                <h4>What is a Major (Title V) Source?</h4>
+                <p class="Justified">Sources that have the potential to emit 100 ton/yr or greater of a criteria pollutant, 10 ton/yr or greater of any hazardous air pollutant, or 25 ton/yr or greater of any combination of hazardous air pollutants, and other facilities that the EPA rules have specifically determined require a Title V permit (e.g. municipal solid waste landfills [NSPS XXX] and air curtain incinerators [NSPS CCCC]).</p>
+                <hr class="bar" />
+
+
+                <h4>How do I apply for a Title V Permit to Operate?</h4>
+
+                <blockquote><b>Important Note:</b> Sources that have received a Permit to Construct and require a Title V Operating Permit or Title V permit revision must submit a complete <a href="../../Forms/AQ/Title-V/SFN52858.pdf" target="_blank">Title V application</a> within <b>12 months</b> after commencing operation.</blockquote>
+
+                <ol>
+                    <li>If your facility has a Construction Permit (PTC), notify the department within 15 days following start-up.  Air Quality personnel will inspect the facility to verify compliance with the conditions of the issued PTC.</li>
+                    <li>After a complete Title V application has been received, a draft Operating Permit will be sent to the permittee for review. Comments may be made at this time. Please alert the Department to any errors, omissions, or issues you see when reviewing the draft permit.</li>
+                    <li>After the draft has been reviewed by the permittee, and no further revisions or corrections are needed, a 30-day public comment period will be conducted.</li>
+                    <li>After the 30-day public comment period, there is a 45-day review period conducted by the EPA. The 30-day and 45-day review periods <i>are not concurrent</i>.</li>
+                    <li>Upon successful completion of the above listed steps, a Title V operating permit will be issued. </li>
+                </ol>
+                <blockquote>
+        
+			The Division of Air Quality has developed electronic permitting for Pre-Construction (NSR/PSD) permitting, Minor/Synthetic Minor Operating Permits and Title V operating permits.
+
+        <h3 class="lighten_text">&nbsp;<a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">Access CERIS-ND</a> <i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;<sup>&nbsp;<span class="label label-danger" style="font-weight: 100;"><a href="/Forms/DEQ/SFN61882.pdf" target="_blank" style="color: white">Subscriber Agreement Required for Submission</a></span></sup></h3>
+
+    </blockquote>
+
+                <h5 class="tab">A copy of your application for an initial Title V permit must be sent to the North Dakota Department of Environmental Quality at:</h5>
+                <ul>
+                    <ul>
+                        North Dakota Department of Environmental Quality
+                                                <br />
+                        Division of Air Quality
+                                                <br />
+                       4201 Normandy Street, 2nd Fl
+                                                <br />
+                        Bismarck, ND 58503-1324
+                    </ul>
+                </ul>
+
+                <h5 class="tab">Also, send a copy of the permit application to EPA Region 8 at:</h5>
+                <ul>
+                    <ul>
+                        Air Program (8P-AR)
+                                                <br />
+                        Office of Partnerships &amp; Regulatory Assistance
+                                                <br />
+                        U.S. EPA - Region 8
+                                                <br />
+                        1595 Wynkoop Street
+                                                <br />
+                        Denver, CO 80202-1129 
+                    </ul>
+                </ul>
+                <hr class="bar" />
+                <h4>Is a public comment period required?</h4>
+                <p class="Justified">Yes.  Public participation with a 30-day comment period followed by a 45-day EPA review period is required prior to issuing major (Title V) permits under the Major (Title V) Permit to Operate Program. The Department, not the permittee, will initiate the public comment and EPA review periods. </p>
+                <hr class="bar" />
+
+                <h4>Is a permit application fee required?</h4>
+                <p class="Justified">No. Initial Title V Permit to Operate application, administrative changes, revisions and renewals do not require a fee.  </p>
+
+            </div>
+        </div>
+
+        <!--once an operating permit has been issued-->
+        <hr class="bar" />
+
+    <div class="page-header" style="padding-top:26px;">
+		<h2><strong>Operating Permit Application Forms</strong></h2>
+
+        </div>
+        <div class="toggle">
+            <div class="toggle-title notop">
+                <h3>
+                    <i></i>
+                    <span class="title-name">Forms</span>
+                </h3>
+            </div>
+            <div class="toggle-inner">
+                <script>
+        $(document).ready(function () {
+            $("#tablePTOforms").tablesorter({
+                sortList: [[0, 0], [1, 0]]
+            });
+        });
+</script>
+<!--end table sort-->
+ 
+		<h3><i></i>
+		<span class="title-name">Title V Operating Permit Instructions</span>
+		</h3>
+
+     <ul>
+                <li><a href="/forms/AQ/Permitting/FormInstructions.pdf" target="_blank">Form Instructions</a></li>
+               <p></p>
+                <li><a href="/forms/AQ/Title-V/Title_V_Instructions.pdf" target="_blank">Title V Instructions</a></li>
+           <p></p>
+
+
+      </ul>
+
+
+<blockquote>
+        
+			The Division of Air Quality has developed electronic permitting for Pre-Construction (NSR/PSD) permitting, Minor/Synthetic Minor Operating Permits and Title V operating permits.
+            
+		<h3 class="lighten_text">&nbsp;<a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">Access CERIS-ND</a> <i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;<sup>&nbsp;<span class="label label-danger" style="font-weight: 100;"><a href="/Forms/DEQ/SFN61882.pdf" target="_blank" style="color: white">Subscriber Agreement Required for Submission</a></span></sup></h3>
+    </blockquote>
+		<hr class="bar" />
+
+
+           
+            <table id="tablePTOforms" class="table table-striped table-responsive tablesorter">
+                
+                <thead>
+                    <tr>
+                        <th>
+                            <h4>Form Name<span class="small glyphicon glyphicon-sort"></span></h4>
+                        </th>
+                        <th>
+                            <h4>SFN<span class="small glyphicon glyphicon-sort"></span></h4>
+                        </th>
+                        <th class="hidden-xs hidden-s">
+                            <h4>Rev. Date</h4>
+                        </th>
+                        <th class="hidden-xs hidden-s">
+                            <h4>Program<span class="small glyphicon glyphicon-sort"></span></h4>
+                        </th>
+                        <th class="hidden-xs hidden-s">
+                            <h4>Form Type<span class="small glyphicon glyphicon-sort"></span></h4>
+                        </th>
+                        <th>Submit Electronically?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                                        <td><b>Air Contaminant Sources</b> <i style="font-weight:100;">(Required for all permit application packages.)</i></td>
+                                        <td><a href="/forms/AQ/permitting/SFN8516.pdf" target="_blank">8516</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s">09-21</td>
+                                        <td>Construction/Minor Source Permitting</td>
+                                        <td>Permit Application</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                     <tr>
+                                        <td>Acid Rain Retired Unit Exemption</td>
+                                        <td><a href="https://www.epa.gov/power-sector/business-center-forms" target="_blank">EPA 2060-0258</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s"></td>
+                                        <td>Title IV Permitting</td>
+                                        <td>Acid Rain Program</td>
+                         <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Acid Rain Certificate of Representation</td>
+                                        <td><a href="https://www.epa.gov/power-sector/business-center-forms" target="_blank">EPA 2060-0258</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s"></td>
+                                        <td>Title IV Permitting</td>
+                                        <td>Acid Rain Program</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Acid Rain New Unit Exemption</td>
+                                        <td><a href="https://www.epa.gov/power-sector/business-center-forms" target="_blank">EPA 2060-0258</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s"></td>
+                                        <td>Title IV Permitting</td>
+                                        <td>Acid Rain Program</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Acid Rain Phase II NO<sub>x</sub> Averaging Plan</td>
+                                        <td><a href="https://www.epa.gov/power-sector/business-center-forms" target="_blank">EPA 2060-0258</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s"></td>
+                                        <td>Title IV Permitting</td>
+                                        <td>Acid Rain Program</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Acid Rain Phase II NO<sub>x</sub> Compliance Plan</td>
+                                        <td><a href="https://www.epa.gov/power-sector/business-center-forms"target="_blank">EPA 2060-0258</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s"></td>
+                                        <td>Title IV Permitting</td>
+                                        <td>Acid Rain Program</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Acid Rain Permit Application</td>
+                                        <td><a href="https://www.epa.gov/power-sector/business-center-forms"  target="_blank">EPA 2060-0258</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s"></td>
+                                        <td>Title IV Permitting</td>
+                                        <td>Acid Rain Program</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                     
+                         <tr>
+                                        <td>Title V Permit to Operate Renewal Application</td>
+                                        <td><a href="/forms/AQ/title-v/SFN52824.pdf" target="_blank">52824</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s">09-21</td>
+                                        <td>Title V Program</td>
+                                        <td>Permit Application</td>
+                             <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                    
+                    <tr>
+                                          <td>Title V Permit to Operate Application <i style="font-weight:100;">(Required for all Title V application packages.)</i></td>
+                                            <td><a href="/forms/AQ/title-v/SFN52858.pdf" target="_blank">52858</a>
+                                            </td>
+                                        <td class="hidden-xs hidden-s">09-21</td>
+                                        <td>Title V Program</td>
+                                        <td>Permit Application</td>
+                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Emission Unit for Title V Permit to Operate <i style="font-weight:100;">(One for each EU.)</i></td>
+                                        <td><a href="/forms/AQ/title-v/SFN61006.pdf" target="_blank">61006</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s">03-19</td>
+                                        <td>Title V Program</td>
+                                        <td>Permit Application</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+
+                                    
+                                     <tr>
+                                        <td>Certificate of Representation</td>
+                                        <td><a href="/Forms/AQ/Miscellaneous/SFN61205.pdf" target="_blank">61205</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s">09-21</td>
+                                         <td></td>
+                                        <td>Miscellaneous Forms</td>
+                                         <td> No</td>
+                                    </tr>  
+
+                </tbody>
+            </table>
+
+      
+            </div>
+       </div>
+ 
+          <div class="toggle">
+            <div class="toggle-title">
+                <h3>
+                    <i></i>
+                    <span class="title-name">Title V Oil Well</span>
+                </h3>
+            </div>
+            <div class="toggle-inner">
+                 <script>
+        $(document).ready(function () {
+            $("#tablePTOformsOG").tablesorter({
+                sortList: [[0, 0], [1, 0]]
+            });
+        });
+</script>
+<!--end table sort-->
+ <h4 style="font-weight: 100;"><ul>
+                <li><a href="/forms/aq/Permitting/FormInstructions.pdf" target="_blank">Form Instructions</a></li>
+               <p></p>
+                <li><a href="/forms/aq/Title-V/Title_V_Instructions.pdf" target="_blank">Title V Instructions</a></li>
+           <p></p>
+
+      </ul></h4>
+
+<blockquote>
+        
+			The Division of Air Quality has developed electronic permitting for Pre-Construction (NSR/PSD) permitting, Minor/Synthetic Minor Operating Permits and Title V operating permits.
+        <h3 class="lighten_text">&nbsp;<a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">Access CERIS-ND</a> <i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;<sup>&nbsp;<span class="label label-danger" style="font-weight: 100;"><a href="/Forms/DEQ/SFN61882.pdf" target="_blank" style="color: white">Subscriber Agreement Required for Submission</a></span></sup></h3>
+    </blockquote>
+		<hr class="bar" />
+
+            <table id="tablePTOformsOG" class="table table-striped table-responsive tablesorter">
+
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <h4>Form Name<span class="small glyphicon glyphicon-sort"></span></h4>
+                                        </th>
+                                        <th>
+                                            <h4>SFN<span class="small glyphicon glyphicon-sort"></span></h4>
+                                        </th>
+                                        <th class="hidden-xs hidden-s">
+                                            <h4>Rev. Date</h4>
+                                        </th>
+                                        <th class="hidden-xs hidden-s">
+                                            <h4>Program<span class="small glyphicon glyphicon-sort"></span></h4>
+                                        </th>
+                                        <th class="hidden-xs hidden-s">
+                                            <h4>Form Type<span class="small glyphicon glyphicon-sort"></span></h4>
+                                        </th>
+                                        <th>Submit Electronically?</th>
+                                    </tr>
+                                </thead>
+                <tbody>
+                    
+                  
+                                    <tr>
+                                          <td>Title V Permit to Operate Application <i style="font-weight:100;">(Required for all Title V application packages.)</i></td>
+                                            <td><a href="/forms/aq/title-v/SFN52858.pdf" target="_blank">52858</a>
+                                            </td>
+                                        <td class="hidden-xs hidden-s">09-21</td>
+                                        <td>Title V Program</td>
+                                        <td>Permit Application</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Emission Unit for Title V Permit to Operate <i style="font-weight:100;">(One for each EU.)</i></td>
+                                        <td><a href="/forms/aq/title-v/SFN61006.pdf" target="_blank">61006</a>
+                                        </td>
+                                        <td class="hidden-xs hidden-s">03-19</td>
+                                        <td>Title V Program</td>
+                                        <td>Permit Application</td>
+                                        <td> <a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">CERIS-ND</a></td>
+                                    </tr>
+
+
+                </tbody>
+            </table>
+
+         
+            </div>
+              </div>
+       
+        <hr class="bar" />
+
+        <blockquote>More forms can be found on our <a href="/AQ/Forms.aspx">Forms page</a>.</blockquote>
+        <p class="Justified"></p>
+        <hr class="bar" />
+
+    <div class="page-header" style="padding-top:26px;">
+		<h2><strong>Once an Operating Permit has been issued</strong></h2>
+
+        </div>
+
+        <p class="Justified">
+
+            Once an operating permit has been issued by the department, the holder of that permit must adhere to all regulations that apply to that facility and complete all record-keeping, reporting, and testing conditions specified in the permit.  Depending on the type of permit issued, there may be annual, biennial, or once per term facility inspections.
+        </p>
+
+        <h3 class="tab">Record Keeping, Reporting, &amp; Testing Requirements</h3>
+        <p class="Justified tab">
+            An Operating Permit will contain minimum record-keeping requirements, including, but not limited to, identifying records that must be maintained, the frequency that it must be documented, and how long the records must be retained. Some records must be reported to the Department on an Annual, Semi-Annual, Quarterly, or  as requested basis.
+        </p>
+
+        <p class="Justified tab">
+            More information related to compliance and enforcement can be found on our <a href="/AQ/compliance/">Compliance &amp; Enforcement</a> page; along with common forms used for reporting.
+
+        </p>
+
+        <!--Fees-->
+        <div class="toggle">
+            <div class="toggle-title">
+                <h3>
+                    <i></i>
+                    <span class="title-name">Annual Permit Fees</span>
+                </h3>
+            </div>
+            <div class="toggle-inner">
+
+
+                
+<h3>Annual Fee Schedule for Minor Sources </h3>
+    <h4 style="font-weight:400;">
+        (True Minor, Synthetic Minor, &amp; General)
+    </h4>
+<table id="tableFee1" class="table table-striped">
+
+                                                <thead>
+                                                    <tr>
+                                                        <th>
+                                                            <h4>Permit Type</h4>
+                                                        </th>
+                                                        <th>
+                                                            <h4>Amount</h4>
+                                                        </th>
+                                                       
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td>True Minor</td>
+                                                        <td>$300</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Synthetic Minor</td>
+                                                        <td>$300</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>General</td>
+                                                        <td>$300</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>State/Local Government fee for a Permit to Operate</td>
+                                                        <td>$0</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+<hr class="bar" />
+<h3>Annual Fee Schedule for Major Sources</h3>
+ <h4 style="font-weight:100">
+        (Title V - bills issued July 2025 &amp; scheduled to be issued July 2026)
+    </h4>
+<table id="tableFee2" class="table table-striped">
+
+                                                <thead>
+                                                    <tr>
+                                                        <th>
+                                                            <h4>Type</h4>
+                                                        </th>
+                                                        <th>
+                                                            <h4>Amount (2026)</h4>
+                                                        </th>
+                                                         <th>
+                                                            <h4>Amount (2027)</h4>
+                                                        </th>
+                                                       
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td>Minimum fee for a Permit to Operate</td>
+                                                        
+                                                        <td>$837.41</td>
+                                                        <td>$865.88</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fee for Criteria Pollutants (PM<sub>10</sub><sup>2</sup>, SO<sub>2</sub>, NO<sub>x</sub>, &amp; VOCs) Emitted</td>
+                                                        
+                                                        <td>$20.11/ton<sup>1</sup></td>
+                                                        <td>$20.79/ton<sup>1</sup></td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>Fee for Hazardous Air Pollutants (HAPs) Emitted</td>
+                                                        
+                                                         <td>$41.87/ton<sup>1</sup></td>
+                                                         <td>$43.29/ton<sup>1</sup></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+<hr class="bar" />
+<sup>1</sup> Emissions up to 4,000 tons per contaminant per source and boilers greater than 250 MMBtu/hr.<br />
+<sup>2</sup> PM<sub>2.5</sub> emissions are counted in PM<sub>10</sub>.
+<hr class="bar" />
+<p>Exemptions:</p> 
+
+           <ul>
+        <li>The rules exempt state and local government-owned facilities from fees.  </li>
+        <li>Small Businesses under the Clean Air Act may petition for exemption from annual fees. For more information about small businesses see the <a href="/aq/planning/SmallBus.aspx">Small Business Assistance Program</a>.  </li>
+
+        </ul>
+
+    <p>Each boiler with a heat input greater than 250 MMBtu/hr will be assessed fees on an individual basis and independent of the fees associated with the rest of the installation.</p>
+    <p>Major source fee rate/ton may be increased annually based on 12-month Consumer Price Index (CPI) ending August 31 each year.  Note: The August 2026 12-month CPI rate was +3.4%. 
+
+     <p>Fees for Construction Permits, Operating Permits, and Oil &amp; Gas Well Registrations are detailed in Chapter <a href="http://www.legis.nd.gov/information/acdata/pdf/33.1-15-23.pdf" target="_blank">33.1-15-23</a>.
+
+           
+        </div>
+            </div>
+
+        <hr class="bar" />
+
+        <!--Renewal process-->
+    <div class="page-header" style="padding-top:26px;">
+		<h2><strong>Renewal Process</strong></h2>
+
+        </div>
+
+        <p class="Justified">
+            An Operating Permit will have a set time frame for submitting a renewal application. Minor, Synthetic Minor, General, Title V requirements...
+        </p>
+
+             <blockquote>
+        
+			The Division of Air Quality has developed electronic permitting for Pre-Construction (NSR/PSD) permitting, Minor/Synthetic Minor Operating Permits and Title V operating permits.
+
+        <h3 class="lighten_text">&nbsp;<a href="https://ceris.deq.nd.gov/ext/ncore/" target="_blank">Access CERIS-ND</a> <i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;<sup>&nbsp;<span class="label label-danger" style="font-weight: 100;"><a href="/Forms/DEQ/SFN61882.pdf" target="_blank" style="color: white">Subscriber Agreement Required for Submission</a></span></sup></h3>
+        
+    </blockquote>
+        <!-- Minor Source-->
+        <div class="toggle">
+            <div class="toggle-title">
+                <h3>
+                    <i></i>
+                    <span class="title-name">Minor and Synthetic Minor Source</span>
+                </h3>
+            </div>
+            <div class="toggle-inner">
+
+                <p class="Justified">Minor source and synthetic minor source operating permits are effective from the date of issuance until the expiration date.  Initial permits are typically issued for 5 years unless the permit is suspended, revoked, or surrendered.  The expiration date for renewal permits will be at 5-year intervals following the expiration date of the initial permit.  Permits are renewed by the Department through an application process.  Existing permits contain a condition that requires that an application for renewal be submitted to the Department no later than ninety days prior to the expiration date.  As a courtesy, the Department typically sends the permittee a renewal reminder notice approximately 4 months prior to the permit expiration date. <strong>Non-receipt of this notice does not absolve a permittee of any renewal requirements</strong>.  Typically, the notice will include a copy of the renewal application form (<a href="/forms/AQ/permitting/SFN60242.pdf" target="_blank">SFN-60242</a>) and a copy of the existing permit. </p>
+
+                <h5>To complete a true minor or synthetic minor renewal application, a permittee must review the existing permit and accomplish the following: </h5>
+                <ol class="justified">
+                    <li>Verify all administrative entries in Items 1 through 4 of the existing permit and all source unit information in Item 6.  Line out incorrect entries on the copy of the permit provided (or a similar copy), and enter the correct information to include changes in address, location, items of equipment, processes, etc.  Use additional sheets as necessary.</li>
+                    <br />
+                    <li>Review the conditions of the permit listed in Item 7.  Any questions about the conditions should be noted directly on the permit or on additional sheets.</li>
+                    <br />
+                    <li>Complete and sign the "Permit Renewal Application" form and submit it to:</li>
+                    <ul>
+                        <br />
+                       North Dakota Department of Environmental Quality
+                <br />
+                        Division of Air Quality
+                <br />
+                        4201 Normandy Street, 2nd Fl
+                <br />
+                        Bismarck, ND 58503-1324
+
+                    </ul>
+                    <br />
+
+                    For synthetic minor sources only (not true minor sources), also send a copy of the permit renewal application to EPA Region 8 at:
+                <ul>
+                    <br />
+                    Air Program (8P-AR)
+                    <br />
+                    Office of Partnership &amp; Regulatory Assistance
+                    <br />
+                    U.S. EPA - Region 8
+                    <br />
+                    1595 Wynkoop Street
+                    <br />
+                    Denver, CO 80202-1129 
+
+                </ul>
+                </ol>
+
+                <hr class="bar" />
+            </div>
+        </div>
+        <!--Major Source-->
+        <div class="toggle">
+            <div class="toggle-title">
+                <h3>
+                    <i></i>
+                    <span class="title-name">Major (Title V) Source</span>
+                </h3>
+            </div>
+            <div class="toggle-inner">
+
+                <p>A permit renewal application for a Major (Title V) Source <strong>must be submitted at least six months, but no more than eighteen months prior to the expiration date for the permit</strong>. As a courtesy, the Department typically sends a renewal reminder notice approximately 1 year prior to the permit expiration date. <strong>Non-receipt of this notice does not absolve a permittee of any renewal requirements</strong>. The notice will include a copy of the renewal application form (<a href="/forms/AQ/Title-V/SFN52824.pdf" target="_blank">SFN-52824</a>) and a copy of the existing permit. </p>
+                <blockquote><strong>Important Note:</strong> The permittee's right to operate terminates with the expiration of the permit unless a permit renewal application is submitted at least six months prior to permit expiration. Operating without a permit is a violation of state and federal air pollution control rules. Instructions for completing a Title V application can be found in Operating Permit Application Forms located at the bottom of this page.</blockquote>
+                <br />
+
+                <hr class="bar" />
+
+            </div>
+        </div>
+
+        <hr class="bar" />
+
+    <div class="page-header" style="padding-top:26px;">
+		<h2><strong>How do I find out who my state permit contact is?</strong></h2>
+
+
+        </div>
+
+        <p class="Justified">Each facility is assigned a DoAQ staff member for handling permit questions, issuances, and renewals.  If you are a registered CERIS-ND Authorized User associated with a site or sites, your permit contact can be found through <a href="https://ceris.deq.nd.gov/ext/ncore">CERIS-ND</a>; login to CERIS-ND and then under <code>Permits></code> your operating permit will have a column called <code>Agency Contact</code>, this is the DoAQ permit contact for that permit. In this popup you can also download a copy of the permit from the Documents section. </p>
+             <p class="Justified">If you are not an Authorized User for a site (e.g. general public), you may contact the Department by calling <a href="tel:701-328-5188">(701) 328-5188</a> or emailing <a href="mailto:airquality@nd.gov">AirQuality@nd.gov</a>.  A list of Department staff and contact information can be found on the <a href="/AQ/#Contacts">Air Quality Division main page</a>. </p>
+         <hr class="bar" />
+    <div class="page-header" style="padding-top:26px;">
+		<h2><strong>I'm looking for an issued permit.</strong></h2>
+
+
+        </div>
+
+        <p class="Justified">
+            All issued Air Operating Permits (AOPs) can be found in <a href="https://ceris.deq.nd.gov/ext/nsite/map/help">CERIS-ND</a> by locating the facility of interest.
+        </p>
+           
+        <p class="Justified">Information contained in the database includes facility location information, and permittee contact information.</p>
+        <p class="Justified">Questions related to a specific Operating Permit should be directed to the State Air Quality Contact for a given facility. If you do not know who the state contact for a site is, you may contact the Department by calling <a href="tel:701-328-5188">(701) 328-5188</a> or emailing <a href="mailto:airquality@nd.gov">AirQuality@nd.gov</a>.  A list of Department staff and contact information can be found on the <a href="/AQ/#Contacts">Air Quality Division main page</a>. </p>
+
+              <hr class="bar" />
+
+        <nav>
+            <ul class="pager">
+                <li class="previous"><a href="/AQ/modeling/"><span aria-hidden="true">&larr;</span> Modeling</a></li>
+                <li class="next"><a href="/AQ/compliance/">Compliance <span aria-hidden="true">&rarr;</span></a></li>
+            </ul>
+        </nav>
+
+        <p style="text-align:right;">Last Updated: 01/10/2022 </p>
+    </div>
+
+
+                    </div>
+
+                </form>
+
+                <div class="scroll-to-top" style="display: none;">
+                </div>
+                <!-- END MAIN CONTENT COLUMN -->
+
+            </div>
+            <!-- END ROW-->
+        </div>
+
+    </div>
+    <!-- END FLUID-CONTAINER -->
+
+    <style>
+  .nd-ada-box-2 {
+    padding: 12px 2% 12px 1%; 
+    font-size: 1.1em;
+    line-height: 1.5em;
+     background-color: #d3d0c7; 
+    color: #111111;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   }
+   .nd-ada-content p {
+  margin: 0 0 0.75em 0;
+  font-size: .9em;
+  line-height: 1.3em;
+  color: inherit;
+}
+
+ /* .nd-ada-img {
+    border: 0;
+    opacity: 0.8; 
+  }*/
+  #legacy-footer {
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+#legacy-footer:target {
+  border-color: #000000;
+  border-right: none;
+  border-left:none;
+  background-color: #fffbcc;
+}
+
+  /* WIDE SCREEN: 600px and up (Two-column layout, no wrapping under) 
+  @media (min-width: 600px) {
+    .nd-ada-box-2 {
+      display: flex;
+      align-items: flex-start;
+    }
+    .nd-ada-box-2 .nd-ada-img {
+      width: 2.2em;
+      height: 2.2em;
+      margin-right: 10px;
+      margin-top:-8px;
+      flex-shrink: 0;
+      display: block;
+    }
+    .nd-ada-content {
+      display: block; 
+    }
+  }
+
+  @media (max-width: 599px) {
+    .nd-ada-box-2 {
+      display: block; 
+    }
+    .nd-ada-box-2 .nd-ada-img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      min-width: 25px;
+      min-height: 25px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-top:-5px;
+    }
+    .nd-ada-content {
+      display: inline; 
+    }
+  }*/
+</style>
+
+<div class="nd-ada-box-2" id="legacy-footer">
+  <div style="max-width:1300px; margin:0 auto; display:flex; align-items:flex-start; gap:12px;">
+  <span class="ld-si" role="img" aria-label="Legacy document icon" style="font-size:3rem; flex-shrink:0; margin-top:2px;">
+    <span class="ld-b"></span>
+    <span class="ld-ln">
+      <span class="ld-l"></span>
+      <span class="ld-l"></span>
+      <span class="ld-l ld-ls"></span>
+    </span>
+    <span class="ld-rt"></span>
+    <span class="ld-rb"></span>
+  </span>
+  <div class="nd-ada-content">
+<p>This web page may contain legacy documents &#8212; materials published prior to April 24, 2026 &#8212; available here for reference and research.  These older documents may not be fully accessible for all users or compatible with assistive technologies. We are committed to providing equal access &#8212; if you encounter any barriers opening, reading, or using any document on this page, please contact us at <a href="mailto:deq@nd.gov?subject=Accessible Document Request">deq@nd.gov</a> and we will provide the information in an alternative format.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+    <div class="row">
+        <div class="col-xs-6">
+            <address>
+                <strong>Department of Environmental Quality</strong><br>
+                4201 Normandy Street<br>
+                Bismarck, ND 58503-1324<br>
+                <i class="fa fa-phone"></i>&nbsp;<abbr title="Phone">P:</abbr>
+                701-328-5150<br />
+                <i class="fa fa-fax"></i>&nbsp;<abbr title="Fax">F:</abbr>
+                701-328-5200<br />
+                <i class="fa fa-envelope"></i>&nbsp;<abbr title="Email">E:</abbr> <a href="mailto:deq@nd.gov">deq@nd.gov</a><br />
+
+                <a href="https://fb.me/nddeq" title="NDDEQ Facebook" target="_blank">
+                    <img src="/images/FacebookIcon.jpg" style="margin-top:5px; vertical-align: middle; border: 0;" alt="NDDEQ Facebook"></a>
+
+				<a href="https://twitter.com/NDenvironment" title="NDDEQ Twitter" target="_blank">
+                    <img src="/images/X-Icon.png" style="margin-top:5px; vertical-align: middle; border: 0;" alt="NDDEQ on X"></a>
+
+				<a href="https://www.linkedin.com/company/nddeq/" title="NDDEQ LinkedIn" target="_blank">
+                    <img src="/images/LinkedInIcon.png" style="margin-top:5px; vertical-align: middle; border: 0;" alt="NDDEQ LinkedIn"></a>
+
+                <a href="https://instagram.com/nd_environment" title="NDDEQ Instagram" target="_blank">
+                    <img src="/images/InstagramIcon.png" style="margin-top:5px; vertical-align: middle; border: 0;" alt="NDDEQ Instagram"></a>
+
+				<a href="/Subscriptions/" title="NDDEQ GovDelivery Subscriptions"> <img src="/images/GovDeliveryIcon.png" 
+                    alt="GovDelivery Subscriptions" style="margin-top:5px; vertical-align: middle; border: 0;"></a>
+
+                <a href="https://www.samhsa.gov/find-support/in-crisis" title="Suicide &amp; Crisis Lifeline">
+                    <img src="/images/988-Suicide-Prevention-Icon.png" alt="Suicide &amp; Crisis Lifeline" 
+                    style="margin-top:5px; vertical-align: middle; border: 0;"></a>
+
+            </address>
+        </div>
+
+        <div class="col-xs-5 col-xs-offset-1">
+            <h5 class="text-right"><a href="/Contactus.aspx"><i class="glyphicon glyphicon-envelope"></i>&nbsp;Contact Us</a></h5>
+            <h5 class="text-right"><a href="/About.aspx"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;About Us</a></h5>
+               <h5 class="text-right"><a href="/Accessibility.aspx"><i class="glyphicon glyphicon-ok-circle"></i>&nbsp;Accessibility</a></h5>
+ 	<h5 class="text-right"><a target="_blank" href="https://www.omb.nd.gov/team-nd-careers"><i class="glyphicon glyphicon-briefcase"></i>&nbsp;Jobs</a></h5>
+            <h5 class="text-right"><a target="_blank" href="https://www.nd.gov/faq/environmental-quality-faq"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;FAQs</a></h5>
+            <h5 class="text-right"><a href="https://www.hhs.nd.gov/local-public-healthsites/"><i class="glyphicon glyphicon-apple"></i>&nbsp;Local Public Health Units</a></h5>            
+			<h5 class="text-right"><a href="https://intranet.doh.nd.gov/"><i class="glyphicon glyphicon-apple"></i>&nbsp;Intranet</a></h5>
+            <p class="Copyright text-right">
+                Copyright &copy; 2026
+            </p>            
+
+            <!-- <p class="Copyright"><a href="https://www.ndhealth.gov/intranet/">Intranet</a></p>
+            <a href="https://webmail.state.nd.us/owa" style="font-size: 8pt">State Gov't Outlook Web Access</a>-->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 iconFontsAttributionDiv">
+            Icon fonts generated by <a href="https://www.flaticon.com">flaticon.com</a> under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons BY</a>. The authors are: <a href="https://www.freepik.com">Freepik</a>, <a href="https://www.unocha.org">OCHA</a>, <a href="https://www.icomoon.io">Icomoon</a>, Stephen Hutchings, Rami McMin, <a href="https://yanlu.de">Yannick</a>, <!--<a href="https://www.simpleicon.com">-->SimpleIcon<!--</a>-->, <a href="https://tutsplus.com">TutsPlus</a>,  <a href="https://vaadin.com/font-icons">Vaadin</a>, <a href="https://graphberry.com">GraphBerry</a>, <a href="https://www.danielbruce.se">Daniel Bruce</a>, Vectorgraphit, <a href="https://twitter.com/sesisesisesi">Ema Dimitrova</a>, Amit Jakhu, Tintins, and Plainicon.                
+        </div>
+    </div>
+
+</div>
+<div class="footer-panel"></div>
+
+<!--   #######################   ARCHIVE DOCUMENT TOOLTIP   ##############################-->
+
+<div id="archived-tooltip" role="tooltip" class="archived-tooltip">
+  Older documents are available here for reference and recordkeeping. They may not meet current ADA accessibility standards. 
+  To request an accessible version, please email
+  <a href="mailto:deq@nd.gov?subject=Accessible Document Request">deq@nd.gov</a>.
+</div>
+
+<script>
+const tooltip = document.getElementById('archived-tooltip');
+let hideTimer;
+
+document.querySelectorAll('.archived-label').forEach(el => {
+  el.setAttribute('aria-describedby', 'archived-tooltip');
+  el.addEventListener('mouseenter', () => { clearTimeout(hideTimer); positionTooltip(el); });
+  el.addEventListener('focus', () => positionTooltip(el));
+  el.addEventListener('mouseleave', () => { hideTimer = setTimeout(() => tooltip.style.display = 'none', 300); });
+  el.addEventListener('blur', () => tooltip.style.display = 'none');
+  el.addEventListener('keydown', e => { if (e.key === 'Escape') { tooltip.style.display = 'none'; el.blur(); }});
+});
+
+tooltip.addEventListener('mouseenter', () => clearTimeout(hideTimer));
+tooltip.addEventListener('mouseleave', () => { hideTimer = setTimeout(() => tooltip.style.display = 'none', 300); });
+
+function positionTooltip(el) {
+  tooltip.style.display = 'block';
+  setTimeout(() => {
+    const rect = el.getBoundingClientRect();
+    tooltip.style.top = (rect.top - tooltip.offsetHeight) + 'px';
+    tooltip.style.left = (rect.left - 4) + 'px';
+  }, 0);
+}
+</script>
+
+
+<!--   #######################   LEGACY DOCUMENT TOOLTIP   ##############################-->
+
+<script>
+class LegacyDocElement extends HTMLElement {
+  connectedCallback() {
+    this.style.position = 'relative';
+    this.style.display = 'inline-block';
+    this.innerHTML = `
+      <span class="ld-si"
+            tabindex="0"
+            role="img"
+            aria-label="Legacy document â€” may not meet ADA accessibility standards"
+            style="margin-left:0.25em;">
+        <span class="ld-b"></span>
+        <span class="ld-ln">
+          <span class="ld-l"></span>
+          <span class="ld-l"></span>
+          <span class="ld-l ld-ls"></span>
+        </span>
+        <span class="ld-rt"></span>
+        <span class="ld-rb"></span>
+      </span>
+      <span class="ld-tooltip" role="tooltip">
+        Some documents may predate current accessibility 
+        standards. <a href="#legacy-footer">Learn more about legacy documents</a>
+      </span>`;
+
+    const trigger = this.querySelector('.ld-si');
+    const tooltip = this.querySelector('.ld-tooltip');
+    let ldHideTimer;
+
+    trigger.addEventListener('mouseenter', () => { clearTimeout(ldHideTimer); tooltip.classList.add('ld-visible'); });
+    trigger.addEventListener('focus', () => tooltip.classList.add('ld-visible'));
+    trigger.addEventListener('mouseleave', () => { ldHideTimer = setTimeout(() => tooltip.classList.remove('ld-visible'), 300); });
+    trigger.addEventListener('blur', () => tooltip.classList.remove('ld-visible'));
+    trigger.addEventListener('keydown', e => { if (e.key === 'Escape') { tooltip.classList.remove('ld-visible'); trigger.blur(); }});
+    tooltip.addEventListener('mouseenter', () => clearTimeout(ldHideTimer));
+    tooltip.addEventListener('mouseleave', () => { ldHideTimer = setTimeout(() => tooltip.classList.remove('ld-visible'), 300); });
+  }
+}
+
+customElements.define('legacy-doc', LegacyDocElement);
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKPVDMPP18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKPVDMPP18');
+</script>
+
+ <div style="height:100px;">&nbsp;</div> <!-- Bottom space -->
+
+     <!--scripts-->
+    <script src="/Includes/bootstrap/js/bootstrap.js"></script>
+    <script src="/Includes/jquery.tablesorter.min.js"></script>
+    <script src="/Includes/breadcrumbs.js"></script>
+        
+    <script src="/Includes/offcanvas.js"></script>
+    <script src="/Includes/SizePicture.js"></script>
+    <script src="/Includes/viewport.js"></script>
+    <script src="/util/BrowserUtils.js"></script>
+
+</body>
+</html>

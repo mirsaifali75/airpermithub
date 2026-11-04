@@ -1,0 +1,168 @@
+PERMIT APPLICATION FOR INTERNAL COMBUSTION ENGINES AND TURBINES
+NORTH DAKOTA DEPARTMENT OF ENVIRONMENTAL QUALITY
+DIVISION OF AIR QUALITY
+SFN 8891 (4-2026)
+
+NOTE: READ INSTRUCTIONS BEFORE COMPLETING THIS FORM.
+- Must include SFN 8516 or SFN 52858
+
+SECTION A – GENERAL INFORMATION
+Name of Firm or Organization
+
+Facility Name
+
+SECTION B – FACILITY AND UNIT INFORMATION
+Source ID Number (From form SFN 8516)
+Type of Unit
+(check all
+that apply)
+
+Stationary Natural Gas-Fired Engine
+Stationary Diesel and Dual Fuel Engine
+Stationary Gasoline Engine
+Stationary Natural Gas-Fired Turbine
+Other – Specify:
+
+Emergency Use Only
+Non-Emergency Use
+Peaking
+Demand Response
+
+SECTION C – MANUFACTURER DATA
+Make
+
+Model
+
+Reciprocating Internal Combustion Engine
+Spark Ignition
+Compression Ignition
+4 Stroke
+2 Stroke
+Maximum Rating (BHP @ rpm)
+
+Date of Manufacture
+Lean Burn
+Rich Burn
+Operating Capacity (BHP @ rpm)
+
+Engine Subject to:
+40 CFR 60, Subpart IIII
+40 CFR 60, Subpart JJJJ
+40 CFR 63, Subpart ZZZZ
+40 CFR 60, Subpart OOOO (for compressors)
+40 CFR 60, Subpart OOOOa (for compressors)
+Turbine
+Dry Low Emissions?
+Yes
+No
+Heat Input (MMBtu/hr)
+Maximum Rating (HP)
+75% Rating (HP)
+Turbine Subject to:
+40 CFR 60, Subpart GG
+
+Efficiency
+
+40 CFR 60, Subpart KKKK
+
+SECTION D – FUELS USED
+Natural Gas (106 cu ft/year)
+
+Percent Sulfur
+
+Percent H2S
+
+Oil (gal/year)
+
+Percent Sulfur
+
+Grade No.
+
+LP Gas (gal/year)
+
+Other – Specify:
+
+SECTION E – NORMAL OPERATING SCHEDULE
+Hours Per Day
+
+Days Per Week
+
+Weeks Per Year
+
+Hours Per Year
+
+SECTION F – STACK PARAMETERS
+Emission Point ID Number
+
+Stack Diameter (feet at top)
+
+Gas Discharged (SCFM)
+
+Peak Production Season
+(if any)
+
+Stack Height Above Ground Level (feet)
+Exit Temp (°F)
+
+Gas Velocity (FPS)
+
+SFN 8891 (4-2026) Page 2
+
+SECTION G – EMISSION CONTROL EQUIPMENT
+
+Is any emission control equipment installed on this unit?
+No
+Yes – Complete and attach form SFN 8532
+
+SECTION H – MAXIMUM AIR CONTAMINANTS EMITTED
+Pollutant
+
+Maximum
+Pounds Per
+Hour
+
+Amount
+(Tons Per
+Year)
+
+Basis of Estimate*
+
+NOx
+CO
+PM
+PM10
+(filterable and
+condensable)
+PM2.5
+(filterable and
+condensable)
+SO2
+VOC
+GHG (as CO2e)
+Largest Single HAP
+Total HAPS
+*
+If performance test results are available for the unit, submit a copy of test with this application, if
+manufacture data used, submit manufacturers specification sheets.
+
+IS THIS UNIT IN COMPLIANCE WITH ALL
+APPLICABLE AIR POLLUTION RULES AND
+REGULATIONS?
+YES
+
+If “NO” a Compliance Schedule (SFN 61008) must
+be completed and attached.
+
+NO
+
+Attach and label separate sheet(s) if you need more space to explain any system or answers or to
+provide complete listings of Emissions, Contaminants, or other items.
+
+SEND COMPLETED APPLICATION AND ALL ATTACHMENTS TO:
+North Dakota Department of Environmental Quality
+Division of Air Quality
+4201 Normandy Street, 2nd Floor
+Bismarck, ND 58503-1324
+(701) 328-5188
+
+

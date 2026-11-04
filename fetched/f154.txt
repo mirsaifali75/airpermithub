@@ -1,0 +1,586 @@
+Nebraska Department of Environment and Energy
+
+16-022
+
+This guidance document is advisory in nature but is binding on an agency until amended by such agency. A guidance
+document does not include internal procedural documents that only affect the internal operations of the agency and
+does not impose additional requirements or penalties on regulated parties or include confidential information or rules
+and regulations made in accordance with the Administrative Procedure Act. If you believe that this guidance document
+imposes additional requirements or penalties on regulated parties, you may request a review of the document.
+
+16-022
+
+February 2022
+
+Overview of NDEE Air, AFO,
+and Wastewater Permitting Programs
+Do you own a business or plan on starting a new business? Are you expanding, installing new
+equipment, or making changes to your existing business? If so, you may need to apply for
+environmental permits issued by the Nebraska Department of Environment and Energy (NDEE).
+Permits are often required for facility construction, as well as water discharges and air
+emissions that exceed regulatory thresholds. Some permits must be obtained before starting
+most construction activities. This document summarizes information about possible air,
+wastewater, and animal feeding operation (AFO) permits that may pertain to your facility.
+Permits Issued by the Air Quality Division
+NDEE's Air Quality Division issues two types of permits – air construction permits for new or
+modified construction of air contaminant sources or emission units and air operating permits
+for the operation of sources of certain air pollutants. Both permits are covered by Nebraska
+Title 129 – Air Quality Regulations.
+State air construction permits cover common process activities and units, which have the
+potential to generate emissions of regulated air pollutants above thresholds found in Chapter
+17 of Title 129. For most application submittals, expect permit issuance to take six to 15
+months. The application process includes a public comment period of 30 days. Federal air
+construction permits can take 15 to 18 months for issuance as an additional review by the U.S.
+Environmental Protection Agency is required.
+For most applications paper submittal is required. However, general air construction permitting
+for common activities or processes, such as emergency engines, incinerators, concrete batch
+plants, and crushers can now be done online. To minimize the time it takes for NDEE to prepare
+the construction permit, the Air Quality Division strongly recommends a project planning
+meeting and a pre- application meeting. The pre-application meeting should occur one to three
+months prior to submitting the application and the application should be near completion at
+the time of the meeting.
+Air construction permit applications range from:
+ $250 if less than 50 tons per year of any single regulated air pollutant (excluding HAPs);
+or less than
+ 2.5 tons per year of any single hazardous air pollutant (HAP); or less than 10 tons per
+year of any combination of HAPs.
+
+16-022 Overview NDEE Air, AFO, Wastewater Permitting Programs
+
+page 1 of 8
+
+Nebraska Department of Environment and Energy
+
+16-022
+
+ $1500 if 50 tons or more but less than 100 tons per year of any single regulated air
+pollutant (excluding HAPs); or 2.5 tons or more but less than 10 tons per year of any
+single HAP; or 10 tons or more but less than 25 tons per year of any combination of
+HAPs.
+ $3000 if 100 tons or more per year of any single regulated air pollutant (excluding
+HAPs); or 10 tons or more per year of any single HAP; or 25 tons or more per year of any
+combination of HAPs.
+A facility may need an air operating permit if their emissions exceed the thresholds below, or if
+they have an incinerator (all incinerators need to obtain an operating permit regardless of the
+quantity of their emissions).
+A Class I source or major source has the potential-to-emit (PTE) quantities greater than:
+ 100 tons per year (tpy) of certain criteria air pollutants (particulate matter less than 10
+microns, nitrogen oxides, sulfur oxides, carbon monoxides, volatile organic compounds);
+ 10 tpy of any single hazardous air pollutant (HAP) or 25 tpy of a combination of HAPs; or
+ 5 tpy of lead.
+The state minor source program (also known as Class II) regulates smaller sources of air
+pollution. There are two classifications for minor sources: synthetic minor and natural minor.
+Synthetic minor sources are those that have potential emissions above Class I emission levels
+(see above) but have taken federally enforceable limits to keep their emissions below those
+Class I emission levels. Natural minor sources have potential emissions below the Class I
+emission levels and have actual emissions above fifty percent of Class I emission levels:
+ 50 tpy of criteria pollutant except lead;
+ 5 tpy of any single hazardous air pollutant (HAP) or 12.5 tons per year of a combination
+of HAPs; or
+ 2.5 tpy of lead.
+Potential emissions are based on operating the unit or source of the air pollutants 24 hours per
+day at maximum capacity for twelve months or 8,760 hours per year. Most operating permits
+take 12 to 24 months for issuance after being assigned to an NDEE permit writer.
+If you need an air quality operating permit, you need to submit the appropriate application
+forms within 12 months after the emissions unit(s) begin operation or 12 months of
+becoming subject to the operating permit requirements, whichever is earlier.
+
+16-022 Overview NDEE Air, AFO, Wastewater Permitting Programs
+
+page 2 of 8
+
+Nebraska Department of Environment and Energy
+
+16-022
+
+Table 1: Air Permits Summary
+
+Permit Type
+
+Timeframe
+
+Application
+Process
+
+State Air Construction Source Specific
+
+6-15 months
+
+paper
+submittal
+
+Federal Air
+Construction - Source
+Specific
+
+15-18 months
+
+paper
+submittal
+
+Application
+Fees
+
+Public
+Comment
+Period
+yes
+
+$250, $1500, or
+$3000
+
+yes
+
+New Sources:
+$250
+
+Air Construction General
+
+5 days
+
+online
+
+Air Operating Permits Source Specific
+
+12 to 24
+months after
+assignment
+
+paper
+submittal
+
+Existing Sources:
+$250, $1,500, or
+$3,000
+
+no
+
+$0
+
+yes
+
+Permits Issued by the NPDES and State Permits Section
+If a facility discharges pollutants into any waters of the state, they are required to apply for and
+have a permit under the National Pollutant Discharge Elimination System (NPDES). This also
+includes discharges by significant industrial users to a publicly owned treatment works
+(POTW). The state regulation pertaining to these programs is Nebraska Title 119 - Rules and
+Regulations Pertaining to the Issuance of Permits under the National Pollutant Discharge
+Elimination System.
+An NPDES Construction Storm Water Notice-of-Intent is needed if construction disturbs more
+than one acre of land. The application process is done solely on-line, and typically is issued in
+one day unless a more detailed review by the Nebraska Game and Parks Commission is
+required, in which case it may take up to 30 days for issuance. Development of a storm water
+pollution prevention plan that addresses erosion and sediment control is a primary condition
+of this permit. There is no public comment period associated with this permit for individual
+applicants as the general permit has already gone through the public review process, and no
+application fees are associated with this permit.
+NPDES Industrial Storm Water General Permits cover industry-specific requirements for storm
+water exposed to specific conditions. If your facility stores materials outdoors or has trash
+canisters or other sources which can potentially create water pollution, should they be exposed
+to rain events, you may need to obtain an Industrial Storm Water Notice-of-Intent. The
+permitting process typically takes 30 days and is completed via the online portal. As with
+construction storm water permits, the development of a storm water pollution prevention plan
+addressing storm water runoff and exterior housekeeping is a primary condition of this permit.
+Again, there is no public comment period associated with this permit for individual applicants,
+and no application fees are associated with this permit.
+16-022 Overview NDEE Air, AFO, Wastewater Permitting Programs
+
+page 3 of 8
+
+Nebraska Department of Environment and Energy
+
+16-022
+
+Any direct discharges of process wastewater (includes any water that comes into contact with
+the product, co-products that can become a wastewater, and other wash and cleaning water)
+and non- contact process wastewater (includes cooling water, reverse osmosis or softener
+reject water, boiler blow down water, or cooling tower blowdown water) to surface waters of
+the state of Nebraska require an NPDES Direct Discharge permit. These permits can take up to
+180 days for issuance, and there are no fees associated with this permit.
+An NPDES Dewatering General Permit is required for groundwater dewatering on an industrial
+site during construction. There is no charge for these permits, which includes a paper
+application process with permits being issued within 30 days of application submittal.
+A General NPDES Permit Authorizing Hydrostatic Test Discharges from Pipelines and Storage
+Tanks. Again, there are no fees for this permit, and issuance is within 30 days of receiving an
+application.
+If your facility is classified as a Significant Industrial User, and you are discharging to municipal
+treatment works, you are required to have an NPDES Pretreatment Permit. Certain Standard
+Industrial Classification (SIC) and North America Industry Classification System (NAICS)
+sources are automatically classified as Significant Industrial Users.
+Additionally, if your facility supplies five percent of the daily load to a POTW or has a flow or
+25,000 gallons or more per day, you will need a pretreatment permit. The application review
+process can take up to 180 days and is done via paper submittal. Although there are no fees
+associated with this permit, the application process does include a public comment period.
+NPDES Discharge for Land Application permits are covered under Nebraska Title 119 - Rules
+and Regulations Pertaining to the Issuance of Permits under the National Pollutant Discharge
+Elimination System.
+The permit will be issued after construction of livestock. There is no application fee for this
+permit application (done via paper submittal); however, there is a public comment period as
+part of the 180-day permit issuance timeframe. The permit will require annual soil monitoring,
+agronomic rate application, site approval and wastewater testing. It will also require an annual
+report from a certified agronomist.
+
+16-022 Overview NDEE Air, AFO, Wastewater Permitting Programs
+
+page 4 of 8
+
+Nebraska Department of Environment and Energy
+
+16-022
+
+Table 2: NPDES Permits Summary
+
+Application Fees
+
+Public
+Comment
+Period
+
+Permit Type
+
+Timeframe
+
+Application
+Process
+
+NPDES Direct
+Discharge of
+Wastewater
+
+Up to 180 days
+
+paper
+submittal
+
+$0
+
+yes
+
+NPDES Construction
+Stormwater
+
+One day unless
+Game and
+Parks review
+required, then
+30 days
+
+online
+
+$0
+
+no
+
+NPDES Industrial
+Stormwater
+
+30 days
+
+online
+
+$0
+
+no
+
+NPDES Dewatering
+
+30 days
+
+paper
+submittal
+
+$0
+
+no
+
+NPDES Hydrostatic
+Testing
+
+30 days
+
+paper
+submittal
+
+$0
+
+no
+
+NPDES Pretreatment
+Program
+
+Up to 180 days
+
+paper
+submittal
+
+$0
+
+yes
+
+NPDES Discharge for
+Land Application –
+Domestic Wastewater
+
+Up to 180 days
+
+paper
+submittal
+
+$0
+
+yes
+
+NPDES Discharge for
+Land Application –
+Industrial Wastewater
+
+Up to 180 days
+
+paper
+submittal
+
+$0
+
+yes
+
+Permits Issued by the Water Quality Division Regarding Wastewater Treatment
+Construction and use of any on-site wastewater treatment systems, including septic tanks,
+holding tanks, small lagoons, and other decentralized wastewater treatment systems not
+typically connected to a municipal wastewater treatment system, require a permit issued under
+Nebraska Title 124 – Rules and Regulations for the Design, Operation and Maintenance of Onsite Wastewater Treatment Systems, under any of the following conditions:
+ the domestic wastewater design flow is greater than 1,000 gallons per day,
+ the design flow includes any wastewater other than domestic wastewater, and
+ the system does not meet all provisions for design, setback distances, and reserve
+area included in Title 124.
+
+16-022 Overview NDEE Air, AFO, Wastewater Permitting Programs
+
+page 5 of 8
+
+Nebraska Department of Environment and Energy
+
+16-022
+
+Proposed onsite wastewater treatment systems that are not subject to these conditions may
+be constructed under Authorization by Rule. The application process is done via paper and
+requires a $450 application fee. While there is not a public comment period with issuance of
+this permit, professional certification by the State of Nebraska for the system installer is
+required.
+Should your facility have an on-site wastewater system that is designed for 20 or more people
+or for a flow of more than 1,000 gallons per day, or receive any wastewater other than domestic
+wastewater, in addition to a Title 124 permit you will need to obtain an Underground Injection
+Class V Well Authorization, issued under Nebraska Title 122 – Rules and Regulations for
+Underground Injection and Mineral Production Wells. The review process takes 30 days, and
+the Department will determine if a Class V Injection Well Permit is required. A $500 fee applies
+if a permit is required. Otherwise, an Authorization has no fee.
+A Wastewater Construction Permit, required under Nebraska Title 123 – Rules And Regulations
+For The Design, Operation And Maintenance Of Wastewater Works, is required for construction
+of municipal, industrial, and commercial wastewater treatment facilities and sanitary sewer
+lines. Plans must be developed and submitted by a Professional Engineer registered in
+Nebraska. If direct discharging is occurring, the application must be submitted with an NPDES
+application. There are no fees associated with this permit, and permitting timeframe is 30 days.
+Table 3: Wastewater Treatment Permits Summary
+
+Application
+Fees
+
+Public
+Comment
+Period
+
+$450
+
+No
+
+Permit Type
+
+Timeframe
+
+Application
+Process
+
+On-site
+Wastewater
+(Septic)
+
+30 days
+comment or
+approve
+
+paper submittal
+
+Underground
+Injection Class V
+Well
+
+30 days
+comment or
+approve
+
+$500 if permit
+required,
+paper submittal
+otherwise
+Authorization has
+no fee ($0)
+
+No
+
+Wastewater
+Construction
+
+30 days
+comment or
+approve
+
+paper submittal
+
+No
+
+$0
+
+Permits Issued by the Water Quality Division Agriculture Section
+An initial inspection of any proposed medium or large animal feeding operation (AFO) is
+required under Nebraska Title 130 – Livestock Waste Control Regulations. Small AFOs are
+exempt from any inspection requirements, provided they do not discharge pollutants to waters
+of the State. The inspection application process is done via paper submittal, and every effort
+will be made to complete the inspection within a timeframe of approximately 30 days following
+receipt of the application.
+
+16-022 Overview NDEE Air, AFO, Wastewater Permitting Programs
+
+page 6 of 8
+
+Nebraska Department of Environment and Energy
+
+16-022
+
+The initial inspection determines whether or not livestock waste control facilities, a
+Construction and Operating Permit and/or NPDES Permit are required for the site.
+The application for inspection submittal requires a fee as follows:
+ $500 for large AFOs,
+ $200 for medium AFOs, and
+ $100 for small AFOs.
+Construction and Operating Permits for livestock waste control facilities at AFOs are covered
+under Nebraska Title 130 – Livestock Waste Control Regulations. These permits must be issued
+prior to an operation starting construction. In order to issue a permit, the Department must
+receive an application via paper submittal, along with a $200 application fee.
+There is a permit issuance timeframe of 110 days from the receipt of a complete application,
+and the application review process includes a public comment period. In certain instances, a
+permit may not be necessary, if special conditions are met. Regardless, the operation will need
+to send in a 'Request for Initial Inspection' and receive confirmation that a permit is required
+prior to submitting an application for a Construction and Operating Permit.
+NPDES permits for Concentrated Animal Feeding Operations (CAFOs) are covered under
+Nebraska Title 130 – Livestock Waste Control Regulations. An NPDES permit cannot be issued
+until the construction of livestock waste control facilities has been completed and verified by
+the Department. Coverage under NPDES general permits are available for CAFO operations
+confining cattle. For CAFO operations with animal species other than cattle, truck washes, or
+vegetative treatment areas, an NPDES individual permit will be required. An application via
+paper submittal, along with a $200 application fee, applies to either the general or individual
+permit. Typically, either permit will require 180 days for issuance.
+
+16-022 Overview NDEE Air, AFO, Wastewater Permitting Programs
+
+page 7 of 8
+
+Nebraska Department of Environment and Energy
+
+16-022
+
+Table 4: Livestock Waste Control Program Permits Summary
+
+Permit Type
+
+Initial Inspection of
+Animal Feeding
+Operation
+
+Application
+Process
+
+Timeframe
+
+Application
+Fees
+
+Public
+Comment
+Period
+
+$500 for large
+CAFOs,
+~ 30 days
+
+paper
+submittal
+
+Construction and
+Operating Permit for
+110 days
+Livestock Waste Control
+Facilities
+
+paper
+submittal
+
+$200
+
+Yes
+
+NPDES General Permit
+for Concentrated Animal
+180 days
+Feeding Operations
+Confining Cattle
+
+paper
+submittal
+
+$200
+
+Yes
+
+NPDES Individual Permit
+for Concentrated Animal 180 days
+Feeding Operations
+
+paper
+submittal
+
+$200
+
+Yes
+
+$200 for medium
+AFOs, and $100 for
+small AFOs.
+
+No
+
+Resources
+Contact:
+Useful Websites:
+NDEE Home Page – http://dee.ne.gov
+Contacts:
+NDEE Main Line
+NDEE Air Quality Permit Hotline
+NDEE Hazardous Waste Compliance Assistance
+NDEE Small Business and Public Assistance
+NDEE Agriculture Section
+
+(402) 471-2186
+(877) 834-0474
+(402) 471-8308
+(402) 471-8697
+(402) 471-4239
+
+To view this, and other information related to our agency, visit our website http://dee.ne.gov.
+This material is intended for guidance purposes only. It is not meant to substitute for the
+regulations specified in the document, or any other applicable Nebraska environmental
+regulations.
+
+16-022 Overview NDEE Air, AFO, Wastewater Permitting Programs
+
+page 8 of 8
+
+

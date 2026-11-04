@@ -1,0 +1,399 @@
+www.pca.state.mn.us
+
+Your Option D Registration Permit
+Now that you have your Option D Registration Permit, it is important for you to know how to comply with it.
+This fact sheet is a reference for you to use whenever you have questions about how to comply with your
+Option D Registration Permit. (Also, refer to Minn. R. 7007.1110 to 7007.1130.)
+
+What are you required to do?
+1. Each month, record actual emissions for the previous 12 months.
+To calculate your actual emissions, you will need to collect information on a monthly basis from your
+operations.
+Whatever data you used to apply for the permit must be used to demonstrate, monthly, that you qualify for
+your Option D registration permit.
+For example, if you used hours of operation to determine how much fuel was burned in your generator,
+each month you must record the hours of operation of the generator. If you used gallons of paint to
+determine Volatile Organic Compounds (VOC) emissions from a paint booth, each month you must keep
+records of the gallons of paint used, its density, and its VOC content.
+
+Remember, you do not need to calculate:
+
+
+
+Emissions from insignificant activities.
+Monthly hazardous air pollutant (HAP) emissions if:
+• the HAP emissions are VOC emissions and actual VOC emissions are less than five tons per year;
+and
+• the facility is not located in one of the seven metropolitan counties (Anoka, Carver, Dakota,
+Hennepin, Ramsey, Scott, or Washington).
+
+Information and records you may need to calculate monthly actual emissions include:
+The amount of each VOC- or HAP- containing material purchased or used each month. Use the
+method you indicated on Form RP-D1 in your permit application.
+• For each VOC- or HAP- containing material purchased or used at your facility, maintain a record of
+the safety data sheets or a signed certification from the supplier stating what the maximum VOC or
+HAP content is.
+• The total amount of each fuel purchased or used each month.
+• The hours each emission unit was operated each month.
+Use the collected data to calculate and record the actual emissions for the current month. You must also
+calculate a 12-month rolling sum (current month’s emissions plus the previous 11 months) each month. The
+calculations must be performed no later than the last day of the following month.
+
+
+Be sure to keep records of the calculations, including the date they were done. To remain eligible for an
+Option D Registration Permit, actual emissions during any 12-month rolling period may not exceed the
+Option D thresholds listed in Table 1.
+
+Minnesota Pollution Control Agency
+651-296-6300 | 800-657-3864 or use your preferred relay service | Info.pca@state.mn.us
+
+January 2026 | aq3-04
+Available in alternative formats
+
+You may find it easier to set up a spreadsheet to do the calculations on a monthly basis. The Small Business
+Environmental Assistance Program (SBEAP) has developed spreadsheets to help track emissions that can be
+accessed at https://www.pca.state.mn.us/business-with-us/small-business-environmental-assistance. If
+your business has fewer than 100 employees, call SBEAP at 651-282-6143 or 800-657-3938 for more
+information.
+2. Reduced record keeping option.
+If your actual emissions are below the reduced record keeping levels in Table 1, you will only have to
+calculate your actual emissions on an annual basis. The calculations must be performed no later than April 1
+of the following year. However, you will still need to track and document the data and material usage
+information that would be used to calculate your actual emissions. For example, you will need to track the
+volume of paints used, safety data sheets of materials used, fuel used or number of hours a unit is operated.
+If your actual emissions exceed the reduced record keeping levels, you must begin to calculate your
+emissions on a monthly basis again. Only if you can demonstrate for two consecutive calendar years that
+your emissions have returned and remained below the reduced record keeping levels, can you return to
+tracking emissions on an annual basis.
+Table 1: Permit Thresholds
+Pollutant
+
+Reduced Record Keeping
+(tons per year)
+
+Option D Limits
+(tons per year)
+
+Particulate Matter (PM)
+
+25
+
+50
+
+Fine Particulate Matter (PM10)
+
+25
+
+50
+
+Sulfur Dioxide (SO2)
+
+25
+
+50
+
+Nitrogen Oxides
+
+25
+
+50
+
+VOC
+
+25
+
+50
+
+Carbon Monoxide
+
+25
+
+50
+
+Lead
+
+0.05
+
+0.5
+
+Individual HAPs
+
+2.5
+
+5
+
+Combined HAPs
+
+6.25
+
+12.5
+
+Carbon Dioxide Equivalent (CO2e)
+
+25,000
+
+50,000
+
+3. Using control equipment to calculate actual emissions.
+If you consider pollution control equipment when calculating the actual emissions, you must follow the
+operation and maintenance requirements described at the end of this fact sheet. This information may serve
+as a guide to developing a record keeping form that is useful to you.
+See Minnesota Pollution Control Agency’s (MPCA) form RP-D2: Option D control equipment, available on the
+MPCA Air Permit Forms website, for a list of control equipment that you may consider. You may also receive
+credit for unlisted control equipment if an MPCA approved performance test is done and the verification or
+approval letter and required operating parameters are submitted with the application. Refer to Minn.
+R. 7007.1130, subp. 4.
+4. Making changes or modifications at your facility.
+You may add and remove any emission units at the facility as long as you stay below the Option D
+registration permit thresholds and comply with any additional rules that apply to you.
+For example, if you add a boiler that is subject to New Source Performance Standard (NSPS) subp. Dc, you
+must comply with the applicable subp. Dc requirements. Be sure to add in the actual emissions resulting
+from any additional emission unit when you do your calculations.
+Page 2 of 6
+
+January 2026 | aq3-04
+
+The MPCA requires no notice from you of the changes at your facility unless it is specifically required by a
+rule. It is your responsibility to keep the records and calculations on site and to follow any other rules that
+apply as a result of the changes. However, if you are installing a new non-emergency engine, you are
+required to complete modeling as described in form EC-03: IC engine screen modeling, to demonstrate that
+the new engine will not cause localized modeled exceedances of National or Minnesota Ambient Air Quality
+Standards (NAAQS and MAAQS). The form and all supporting information should be submitted to the MPCA
+as described in the form instructions.
+If you will be making a change to your facility, whereby your facility will no longer be eligible for your Option
+D Registration Permit, you may be required to obtain a new permit before beginning construction. See Minn.
+R. 7007.1110, subps. 10-13, for more information. For additional assistance, call the MPCA at 651-296-6300 or
+800-657-3864, or if your business has fewer than 100 employees, the SBEAP at 651-282-6143 or 800-657-3938.
+5. Keep records for five years.
+All records associated with your Option D Registration Permit must be kept for five years. You must keep all
+records on site for the current calendar year. For previous years, you have the option of keeping the records
+on site or at a different location.
+6. Submit an emission inventory and pay emission fees.
+Once per year, you will need to submit an Emission Inventory Report to the MPCA. This report will require
+you to report your actual emissions for the previous calendar year.
+If your facility is located in Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, or Washington County, you
+must also submit an Air Toxics Emission Inventory Report each year. This report will require you to report
+your actual emissions of air toxics for the previous calendar year.
+The MPCA will send you an Emission Inventory Report form in December. The Emission Inventory Report
+form is due electronically to the MPCA no later than April 1.
+You will also be assessed an annual air emissions fee for your Option D Registration Permit. This fee is based
+on tons of pollutants you report to the MPCA. An invoice will be mailed to you between February and April
+and must be paid within 30 days of the invoice date.
+
+The following requirements may or may not apply to you:
+7. If actual emissions of sulfur dioxide (SO2) or particulate matter smaller than 10 microns (PM10) are more
+than five tons per year, keep stack information on site.
+If actual emissions from the total facility exceed five tons per year of SO2 or PM10, you must keep records of
+the following information and must be prepared to submit these records within 45 days of a request by the
+agency:
+• The location of the emission points
+• The potential emissions in pounds per hour of SO2 and PM10
+• The height and diameter of the stack the emission units exhaust to
+• The exhaust gas flow rate and temperature
+8. If you use continuous emission monitoring system (CEMS) data to calculate actual emissions, keep
+records.
+If you use data from a CEMS data for the calculations, the following records must be kept:
+• The total operating hours of the CEMS and the monitored emission unit(s) for the previous 12
+months.
+• An explanation of how the emissions were calculated based on the CEMS data.
+• Calculations must be based on the rated capacity of the fan, unless the CEMS provides data on the
+actual air flow rate.
+
+Page 3 of 6
+
+January 2026 | aq3-04
+
+9. Comply with any applicable NSPS requirements.
+If your facility is subject to one of the allowed NSPS, you have to be sure that you follow all of the
+requirements of the applicable NSPS. The NSPS allowed with a registration permit are listed in Minn.
+R. 7007.1110, subp. 2(C) and found on MPCA’s RP-03: NSPS requirements form.
+If you add any equipment that is subject to one of the allowed NSPSs while you hold a registration permit,
+you must also follow all of the requirements, which may include notifications to the MPCA and performance
+testing.
+If a new NSPS becomes applicable, you must notify the MPCA using form CR-06: Registration and capped
+permits notification.
+10. Comply with any applicable National Emission Standards for Hazardous Air Pollutants standards.
+The U.S. Environmental Protection Agency (EPA) issues standards affecting certain industries or activities to
+help control emissions of hazardous air pollutants. These regulations, known as National Emission Standards
+for Hazardous Air Pollutants (NESHAP), may require a facility to obtain a Title V operating permit, even if
+they are not a major source of HAP emissions. If you are subject to a NESHAP that requires a Title V permit,
+you are no longer eligible for an Option D registration permit.
+There are also NESHAPs that do not require area sources to obtain the Title V permit. Some examples
+include spray coating of metal or plastics, adding a degreaser that uses halogenated solvents, or adding a
+chromium electroplating tank. These facilities can continue to operate with an Option D registration permit
+provided they do not need a Title V permit for other reasons. They must also comply with the provisions of
+the NESHAP, including any notifications and record keeping.
+A list of NESHAPs can be found on the EPA website: https://www.epa.gov/stationary-sources-airpollution/national-emission-standards-hazardous-air-pollutants-neshap-8
+If you have additional questions, you can contact the MPCA’s SBEAP at 800-657-3938 or 651-282-6143 for
+more information.
+
+Option D registration permit requirements for all facilities using control
+equipment to reduce reported actual emissions
+Daily requirements:
+1. Record each monitored parameter once every 24 hours when in operation, unless otherwise specified.
+2. Record any corrective actions taken as a result of daily checks.
+3. Keep all records for five years. Store these on-site for the current calendar year. You may store records from
+previous calendar years at an off-site location.
+Control Device
+
+Daily Requirements
+
+Centrifugal collectors:
+
+Record pressure drop
+
+Fabric filters (Baghouse):
+High temperature (T>250oF) and
+Medium temp. (180oF>T<250oF)
+
+Record pressure drop
+
+Fabric filters:
+Low temperature (T<180oF)
+
+Record pressure drop; or
+Record whether visible emissions are observed from filter outlet during the
+entire cleaning cycle (yes/no) and the time period of the observation
+You can choose, unless specified by the MPCA.
+
+Scrubbers, spray towers:
+
+Record pressure drop
+Record liquid flow rate
+
+Venturi or Impingement Plate
+Scrubber:
+
+Record pressure drop
+Record liquid flow rate
+
+Page 4 of 6
+
+January 2026 | aq3-04
+
+Condensation scrubber:
+
+Record pressure drop
+Record steam supply rate or blowdown rate
+
+Wet cyclone separators:
+
+Record pressure drop
+Record water pressure
+
+Mechanically aided separator:
+
+Record pressure drop
+
+Control Device (cont.)
+
+Daily Requirements
+
+Electrostatic precipitators:
+
+Record the continuous readout of voltage and secondary current
+If used, record the flow rate of conditioning agent
+
+HEPA and other wall filters:
+
+Record condition of the filters including, but not limited to, alignment;
+saturation; and tears/holes
+
+Thermal afterburner:
+
+Record combustion temperature or inlet and outlet temperatures at least once
+every 15 minutes
+
+Catalytic afterburner:
+
+Record inlet and outlet temperatures at least once every 15 minutes.
+Check catalyst bed reactivity as per manufacturer specification (not necessarily
+daily)
+
+Flares:
+
+Record temperature indicating presence of flame at least once every 15 minutes
+
+Monthly, quarterly, and annual requirements:
+1. Record the date and activities performed for the monthly, quarterly, and annual checks.
+2. Record any corrective actions taken as a result of the monthly, quarterly, or annual checks.
+3. Keep all records for five years. Store these at the plant site for the current calendar year. You may store
+records from previous years at an off-site office.
+Monthly (or as required by manufacturer’s
+specifications)
+
+
+
+Check components subject to wear/plugging such as bearings, belts,
+hoses, fans, nozzles, orifices, and ducts
+
+Quarterly (or as required by manufacturer’s
+specifications)
+
+
+
+Inspect components not subject to wear including structural
+components, housing, ducts, and hoods
+
+Annually (or as required by manufacturer’s
+specifications)
+
+
+
+Thoroughly inspect all control equipment and structural components
+
+
+
+Calibrate all instruments used to monitor control equipment
+
+
+
+For control devices with inlet emissions captured by hood(s), maintain
+a record of fan rotation speed, fan power draw or face velocity of each
+hood, or other comparable airflow indicator
+
+Requirements to be followed at all times
+1. Maintain an inventory of spare parts that are subject to frequent replacement, as recommended by
+manufacturer of control equipment.
+2. Train staff on how to operate/maintain control equipment and respond to indicators of malfunction.
+3. Maintain records of control equipment parts replaced, repaired, or modified for the previous five years.
+4. Operate the control equipment whenever the process equipment is operating.
+5. If there is a shutdown or breakdown of control equipment that results in any increase of emissions of any
+regulated air pollutant and lasts more than one hour, report it by calling 651-296-6300. (Refer to Minn. R.
+7019.1000 or the air quality fact sheet about shutdowns and breakdowns for more detail:
+https://www.pca.state.mn.us/sites/default/files/aq2-09.pdf)
+6. Submit semi-annual reports if a deviation occurred during the reporting period. Examples of deviations for a
+baghouse could be a reading of a monitored parameter (such as pressure drop) that is outside the range
+recommended by the manufacturer or observation of visible emissions. To propose an alternative pressure
+drop range for fabric filters, you need to submit two years of compliant monitoring data with your request
+to the MPCA. Call the MPCA at 651-296-6300 or 800-657-3864 for more information.
+7. For control devices where inlet emissions are captured by certified hoods, you must maintain at the facility
+the evaluation that shows the hood conforms to the design and operating practices recommended in
+Page 5 of 6
+
+January 2026 | aq3-04
+
+“Industrial Ventilation - a Manual of Recommended Practice” by the American Conference of Governmental
+Industrial Hygienists.
+
+Additional information
+MPCA air quality permit fact sheets:
+https://www.pca.state.mn.us/air/air-fact-sheets
+
+MPCA air quality permit forms:
+https://www.pca.state.mn.us/air/air-permit-forms-and-online-submittals
+
+MPCA air quality regulations:
+https://www.pca.state.mn.us/air/air-rules-and-rulemaking-business
+
+MPCA Small Business Environmental Assistance Program:
+https://www.pca.state.mn.us/quick-links/small-business-environmental-assistance-program
+
+MPCA Air Emission Inventory:
+https://www.pca.state.mn.us/business-with-us/air-emissions-inventory-reporting-and-fees
+
+Page 6 of 6
+
+January 2026 | aq3-04
+
+

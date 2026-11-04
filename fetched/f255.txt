@@ -1,0 +1,1832 @@
+1
+
+DAR-10:
+NYSDEC Guidelines on Dispersion Modeling Procedures for Air
+Quality Impact Analysis
+New York State Department of Environmental Conservation
+
+DEC Program Policy
+Issuing Authority: Steven Flint
+
+Title: Director, Division of Air Resources
+
+Signature:
+
+Date Issued:
+
+Latest Date Revised: 11/8/2019
+
+Unit: Bureau of Air Quality Analysis & Research
+
+DAR-10: NYSDEC Guidelines on Dispersion Modeling Procedures for Air
+Quality Impact Analysis
+I.
+
+SUMMARY:
+This guide sets forth the New York State Department of Environmental Conservation
+(Department) Division of Air Resources’ recommended air dispersion modeling
+procedures for conducting ambient air quality impact analyses. These procedures
+summarize significant aspects of the Environmental Protection Agency’s (EPA)
+approved methodologies, as referenced in 40 CFR Part 51, Appendix W, “Guideline
+on Air Quality Models”; hereinafter also referred to as “EPA’s Modeling Guidelines”.
+Additional specific recommendations are provided herein to augment EPA methods
+or interpret New York specific regulations. This document replaces the DAR -10
+guidance issued on May 9, 2006 and includes the latest regulatory guidance and
+compliance methodologies.
+
+II.
+
+POLICY: This policy outlines the Department’s recommended techniques and
+procedures to be used in dispersion modeling analyses submitted to support air
+permit applications and other air quality impact analyses required by the Department.
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+2
+
+Consultation with Department staff is necessary for any modeling techniques which
+vary from the guidance contained in this document. The Department’s approach
+specific to the evaluation of toxic air contaminants is contained in policy document
+DAR-1. A list of pertinent federal and New York State statutes and regulations which
+provide a basis for the Division of Air Resources’ (DAR) air quality impact analysis
+requirements is provided in Appendix A of this document.
+III.
+
+PURPOSE AND BACKGROUND: The Division of Air Resources’ Impact
+Assessment and Meteorology (IAM) section staff developed this guidance document
+to streamline the dispersion modeling procedures, minimize modeling efforts, and
+ensure compliance with both State and National Ambient Air Quality Standards
+(NAAQS) and regulations. It is intended for use by specialists in air dispersion
+modeling and assumes familiarity with EPA modeling procedures and guidance
+documents such as:
+• 40 CFR Part 51, Appendix W (“Guideline on Air Quality Models”), January 2017
+• AERMOD Implementation Guide, EPA-454/B-16-013, December 2018
+• AERMOD User’s Guide, EPA-454/B-16-011, December 2018
+• Guideline for Determination of Good Engineering Practice Stack Height (Technical
+Support Document for the Stack Height Regulations). EPA, 1985
+• Guidance and clarification memoranda issued by the EPA Office of Air Quality
+Planning and Standards (OAQPS). Guidance posted on EPA Support Center for
+Regulatory Atmospheric Modeling (SCRAM) at https://www.epa.gov/scram
+While EPA guidance documents address a broad range of modeling issues, this
+document focuses on modeling procedures that pertain to short-range (< 50
+kilometers) stationary source modeling in New York State.
+
+IV.
+
+RESPONSIBILITY: The responsibility for implementation, interpretation, and
+maintenance of this document rests with the IAM section of the Bureau of Air Quality
+Analysis and Research, Division of Air Resources (tel. 518-402-8402).
+Facility owners and their consultants are responsible for providing all the information
+necessary for Department staff to carry out a complete review of any submitted
+Dispersion Modeling Analysis and Permit Application. For facilities subject to 6
+NYCRR Section 212-1.5(e)(2) and 6 NYCRR Subpart 231-12, a modeling protocol
+must be submitted for review and approval prior to executing a full modeling analysis.
+In all other instances, submitting a modeling protocol is not mandatory but it is highly
+recommended. A modeling protocol check list is provided in Section 7 of this
+document.
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+3
+
+V.
+
+PROCEDURE: This section outlines specific recommendations and guidelines for
+performing dispersion modeling and air quality impact analysis for the purpose of
+demonstrating compliance with the NAAQS and Prevention of Significant
+Deterioration (PSD) increments. These modeling guidelines are also applicable for
+estimating impacts of toxic pollutants, locating air quality monitoring sites, and
+performing visibility analyses for facilities subject to 6 NYCRR Part 231. In some
+cases, proposed modeling procedures may need to address issues beyond the
+guidelines specified below and/or incorporate non-guideline aspects in order to meet
+applicable regulatory requirements. Thus, the Department highly recommends
+consulting with the staff of the IAM section and submitting a modeling protocol for
+review and concurrence prior to executing a modeling analysis. This step reduces the
+need for possible revisions to the modeling assessment and may provide applicants
+with certain assurances on the acceptable procedures to be followed when
+developing support documents for permit applications.
+The following sections provide details of Department-approved modeling procedures:
+1. Model Selection
+2. Modeling Analysis Features
+2.1 Emissions
+2.2 Building Downwash/Cavity Considerations and Good Engineering Practice
+(GEP) Stack Height
+2.3 Land Use Classification
+2.4 Receptor Data
+2.5 Meteorological Data
+3. Modeling Results and Facility Impact Analysis
+3.1 Significant Impact Area Determination and Cumulative Impact Analysis
+3.2 Modeled Design Concentrations
+3.3 Background Air Quality and Compliance Determination
+4. Special Modeling Issues
+4.1 Modeling 1-hour NO2 and 1-hour SO2
+4.1.1 Emission Rate
+4.1.2 Significant Impact Level
+4.1.3 Three-tiered Approach for 1-hour NO2 Modeling
+4.1.4 In-Stack NO2/NOx Ratio
+4.1.5 Background Concentration for 1-hour NO2 and 1-hour SO2
+Compliance Demonstrations
+4.1.6 Background Concentration for Ozone
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+4
+
+4.1.7 Treatment of Intermittent Emission Sources
+4.2 Modeling PM2.5
+5. Modeling Requirements for Facilities Subject to 6 NYCRR Part 231
+5.1 PSD Increment Analysis
+5.2 Additional Impact Analysis
+5.3 Secondary PM2.5 Impacts for NSR/PSD Facilities
+6. Presentation of Modeling Results / Modeling Report
+7. Modeling Protocol Checklist
+8. Tables and Figures
+
+1. Model Selection
+Dispersion modeling analyses typically begin with the use of a screening model. A
+screening model uses simplified inputs and assumptions to calculate conservative
+(worst case) estimates of air quality impacts near the facility. The screening or
+preliminary modeling only includes emissions from the proposed new facility or the
+proposed modification to an existing facility. If the predicted pollutant impacts are
+below the level of concern (such as PSD increment, Significant Impact Level (SIL),
+NAAQS, or a DAR-1 guideline concentration), refined modeling may not be
+necessary. The current recommended model for screening facilities in simple and
+complex terrain is the most recent version of EPA’s AERSCREEN model.
+(https://www.epa.gov/scram/air-quality-dispersion-modeling-screeningmodels#aerscreen).
+The Department provides access to AERSCREEN modelling software, including an
+operation manual, on its website: https://www.dec.ny.gov/chemical/8568.html
+Per EPA’s Modeling Guidelines, if the screening model predicts impacts exceeding
+the level(s) of concern, a second level of more sophisticated models should be
+applied unless appropriate controls or operational restrictions are implemented based
+on the screening modeling. The second level consists of refined models that provide
+more detailed treatment of physical and chemical atmospheric processes, require
+more detailed and precise input data, and provide more sophisticated, spatially and
+temporally resolved concentration estimates. The results of the refined modeling
+must demonstrate that impacts due to the proposed facility do not cause or contribute
+to exceedances of the NAAQS or guideline concentrations. In certain cases
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+5
+
+(described in Section 3), a cumulative analysis is required in which the refined
+modeling includes emissions from nearby facilities in addition to those from the
+facility for which a permit is sought.
+The preferred model used for refined single and multi-source modeling and predicting
+impacts in simple or complex terrain is the latest version of AERMOD.
+https://www.epa.gov/scram/air-quality-dispersion-modeling-preferred-andrecommended-models#aermod
+If these two recommended models are used in “regulatory default” mode, their
+predicted ambient air impacts are acceptable for purposes of demonstrating
+compliance with ambient air quality standards and guidelines. AERMOD also
+includes options that are not considered regulatory defaults but are appropriate to
+use in certain circumstances. Any use of the non-default options should be discussed
+with IAM section staff in advance and justified in the modeling protocol.
+
+2. Modeling Analysis Features
+2.1 Emissions
+Permit applicants are required to calculate emissions for the proposed project and
+compare these values to threshold values defined in 6 NYCRR Subpart 231-13. The
+calculations and rationale utilized in determining the modeled emission rates for each
+emission point at the facility should be clearly explained in the permit application and
+modeling report. In order to expedite the Department’s review, the facility’s emissions
+inventory should be organized in table(s) displaying potential emission rates in TPY,
+lb/hr, and g/s for all modeled averaging times. The emissions tables should also
+include any operational limits in hours per day (hr/day) or hours per year (hr/yr) and
+production material throughputs and/or unit ratings for each emission source.
+If equipment is to be operated under different conditions, such as reduced or altered
+operating hours, different load factors or fuel type, each emission scenario must be
+evaluated. For example, for dual-fuel combustion engines, the fuel type that would
+generate the highest emissions should be modeled. Another example is for gas-fired
+turbines which will have different emission rates and stack parameters (exit velocity
+and exit temperature) under different operating loads. A load analysis should be
+performed to determine the operating conditions that cause the worst-case modeled
+impacts. The highest impacts may not always correspond with the highest emission
+rate. The screening modeling for the compliance demonstration should be based on
+the stack parameters associated with the worst-case operating scenario.
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+6
+
+Section 8.2 and Tables 8.1 and 8.2 of EPA’s Modeling Guidelines describe the
+emission input requirements for facilities performing refined modeling. It also provides
+these requirements for the “nearby” and “other” point sources that are included in a
+cumulative analysis. Per Section 8.2.2 of EPA’s Modeling Guidelines, new or
+modifying stationary facilities are required to model with “allowable” emissions, while
+the “nearby” existing permitted facilities can be modeled using emissions from their
+actual operating conditions or representative design/capacity factors. The “other”
+existing point sources/facilities are best represented by air quality monitoring data.
+Additional guidance from EPA on the development of a facility’s emissions source
+inventory for a cumulative analysis is contained in Additional Clarification Regarding
+Applicability of Appendix W Modeling Guidance for the 1-hour NO2 National Ambient
+Air Quality Standards (March 1, 2011) (NO2 Clarification Memo).
+Emission sources defined as ‘exempt’ or ‘trivial activities’ per 6 NYCRR Subpart 2013 may need to be included in analyses for comparison to the NAAQS as determined
+by the Department. Emission sources or operating scenarios which can be justified
+as ‘intermittent’ may be excluded from 1-hour NO2 or SO2 modeling on a casespecific basis. Facility owners are strongly encouraged to consult with IAM staff to
+seek clarification and approval for 1-hour modeling exclusions prior to undertaking
+modeling analyses.
+2.2 Building Downwash/Cavity Considerations and GEP Stack Height
+The presence of structures in the vicinity of a stack can influence the behavior of the
+plume emitted from that stack. EPA’s Guideline for the Determination of Good
+Engineering Practice Stack Height (June1985) provides the recommended procedure
+to assess whether emissions from a stack will be influenced by the turbulent wake
+zones created by nearby buildings or terrain. If a stack height is less than its formuladerived Good Engineering Practice (GEP) height, then the stack is subject to building
+downwash. However, there can be some building downwash even for stacks above
+formula GEP height. According to EPA’s Modeling Guidelines Section 7.2.2.1: “… the
+potential air quality impacts associated with cavity and wake effects should also be
+considered for stacks that equal or exceed the EPA formula height for GEP.” The
+latest version of EPA’s Building Profile Input Program for PRIME (BPIPPRM)
+program must be used to generate wind direction-specific building dimensions for
+calculating downwash impacts in AERMOD from each emission point subject to
+building downwash.
+Proposals to construct or modify a facility must address the GEP height specifications
+of any associated stack. If a GEP stack height is not feasible, documented
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+7
+
+justification for the proposed stack height must be presented in the permit application.
+Such a justification may include aesthetic considerations, Federal Aviation
+Administration regulations, engineering, or local zoning restrictions, and should not
+be based solely on acceptable ambient impact determinations. Note that EPA
+regulations do not preclude the construction of stacks greater than GEP. However,
+stack heights greater than GEP must be modeled at GEP height.
+When documenting a GEP stack height analysis, a scaled plot plan of the facility that
+shows the location of each structure and stack with the facility layout must be
+included. Aerial photographs/orthoimages using GIS software or an online mapping
+application are useful resources, especially for existing facilities. The facility layout
+should also include: a North arrow, an accurate scale ruler, all structure dimensions,
+terrain on the facility property, and facility property boundaries, including any fenced
+areas in/around the facility. Great care must be taken with photocopied plot plans or
+maps created with an online mapping application to ensure that the scale is accurate
+and correct across the entire plot plan.
+2.3 Land Use Classification
+The selection of urban or rural land use is a critical step as it will determine which
+dispersion coefficients will be used in AERMOD calculations. Section 7.2.1.1 of
+EPA’s Modeling Guidelines describes methods to be used in determining urban/rural
+dispersion coefficients within 3 km of the facility. Note that most of the facilities in
+New York State are expected to be appropriately modeled using rural dispersion
+coefficients. Only facilities located in the New York City metro area may have
+sufficiently high population density and urban heat island effects to justify the use of
+urban dispersion coefficients. Selection of the appropriate population for these
+applications should be determined in consultation with IAM section and the latest
+version of the AERMOD Implementation Guide.
+2.4 Receptor Data
+The goal of designing a receptor network is to effectively capture the maximum air
+quality impacts over an area. The horizontal extent of receptor coverage surrounding
+a facility is usually handled on a case-by-case basis since the area’s dispersion
+characteristics, topography, and meteorological conditions differ from facility to
+facility. It is suggested that the initial receptor grid is centered on the facility and
+constructed with the following receptor spacing:
+70 m receptor spacing from the fence line out to a distance of 1 km,
+100 m spacing from 1 km to 2 km,
+250 m spacing from 2 km to 5 km,
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+8
+
+500 m spacing from 5 km to 10 km, and
+1000 m spacing out to 20 km if necessary.
+The Department recommends a maximum receptor spacing of 25 m for calculating
+impacts along the facility fence line, in cavity regions of structures, and within
+property boundaries (if these areas allow public access). If modeling results show
+significant impacts at the outer edge of the initial grid, then the grid should be
+extended accordingly to ensure that the area of maximum modeled impacts is
+captured. If necessary, nested receptor grid(s) with 100 m receptor spacing could be
+added to provide additional details for any area of maximum impacts beyond the
+inner receptor grid of 2 km. Additional discrete receptors may be required at sensitive
+locations such as schools, hospitals, or in Environmental Justice communities.
+Note that, for modeling purposes, the Department interprets the term “ambient air” as
+outdoor air in all locations except where public access is precluded by means of a
+fence or other physical barrier. In other words, modeling receptors should be placed
+in all areas except those portions of the facility property that are bounded by a fence
+or other physical barrier (solid wall, etc.). At the same time, however, the Department
+acknowledges that in certain limited circumstances, this interpretation may be overly
+restrictive or there may be measures other than physical barriers that are effective in
+precluding public access. These circumstances will be addressed on a case by case
+basis and they must be discussed with the Department (and EPA Region 2 for PSD
+projects) prior to starting any modeling.
+Once a receptor grid is created, AERMOD’s terrain pre-processor AERMAP is used
+to determine an elevation and height scale (the terrain height and location that has
+the greatest influence on dispersion) for each receptor. AERMAP is designed to
+process terrain data extracted from the National Elevation Dataset (NED). The
+Department recommends using the 1/3 arc-second (approximately 10-meter)
+resolution terrain data for AERMAP processing. Helpful instructions on obtaining and
+reformatting the terrain data into an AERMAP-friendly format can be found on EPA’s
+SCRAM page: https://www.epa.gov/scram/interim-access-and-process-use-1992nlcd-and-ned
+Note that any State Plane Coordinates must be converted to UTM/NAD83
+coordinates for use in modeling. The U.S. National Geodetic Survey provides a
+Coordinate Conversion and Transformation Tool (NCAT) on their website. New York
+State UTM values can be found at https://orthos.dhses.ny.gov/.
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+9
+
+2.5 Meteorological Data
+EPA guidance requires the use of at least one year of on-site (site-specific) data or
+five consecutive years of the most recent, readily available off-site data. On-site data
+are preferred, particularly in areas with complex terrain, provided that those data are
+acquired with appropriate instrumentation and that proper quality assurance
+procedures are followed in the collection of the data. EPA’s guidance on the proper
+acquisition of site-specific data is provided in Meteorological Monitoring Guidance for
+Regulatory Modeling Applications (EPA-454/R-99-005, revised February 2000).
+Additional guidance is provided in the Division of Air Resources’ policy guide DAR-2:
+Oversight of Private Air Monitoring Networks at
+http://www.dec.ny.gov/chemical/8533.html. If site-specific meteorological data are
+proposed for use in modeling, all raw data (AERMET and AERSURFACE input files,
+etc.) must be provided for the Department’s review and approval.
+If on-site data is unavailable, five years of recent meteorological data from a
+representative National Weather Service (NWS) site may be used. The modeling
+protocol should include a discussion of the representativeness of the chosen
+meteorological data site for the project being modeled. Note that the Department’s
+IAM section maintains and makes available upon request pre-processed five-year
+data sets for certain NWS sites in New York State. These have been processed
+using sub-hourly wind data and the latest versions of AERMET, AERMINUTE, and
+AERSURFACE. A map of available NWS sites in New York State is shown in Figure
+1.
+In unusual cases where neither on-site data nor representative NWS data are
+suitable, EPA guidance allows for the use of prognostic meteorological data in
+AERMOD. These data are to be developed using a prognostic meteorological model
+such as Weather Research and Forecasting model (WRF) or Mesoscale Model 5
+(MM5). The output from the prognostic model can be processed using EPA’s
+Mesoscale Model Interface Program (MMIF) to generate AERMET/AERMOD-ready
+data for the project location. Any proposed use of this technique must be discussed
+with Department staff and approved prior to conducting a modeling analysis. For a
+detailed discussion of meteorological input data options and requirements see
+Section 8.4 of EPA’s Modeling Guidelines.
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+10
+
+3. Modeling Results and Facility Impact Analysis
+Depending on the applicability of regulatory requirements for a particular facility
+(given project size, criteria pollutant emission levels, etc.), the modeled air quality
+impacts will be evaluated against the NAAQS, SILs and/or PSD increments shown in
+Table 1.
+3.1 Significant Impact Area Determination and Cumulative Impact Analysis
+The first step in refined modeling analysis is running AERMOD in a single source
+mode, including only emissions from the proposed project. If a significant impact is
+calculated (i.e. the maximum model-predicted concentration exceeds the SIL value in
+Table 1) for any pollutant or averaging time, the Significant Impact Area (SIA) should
+be determined for cumulative (multi-facility) modeling of that pollutant.
+SIA is defined as the circular area which extends from the facility to the farthest
+receptor distance at which the facility has a significant impact for a given pollutant, or
+a default 50 km distance, whichever is less. The SIA is used to determine which
+facilities should be included in a cumulative modeling analysis.
+Note that the Department’s staff will assist in the development of an emissions
+inventory for cumulative impact analysis, but it is ultimately the applicant's
+responsibility to assure the adequacy of this data.
+3.2 Modeled Design Concentrations
+In a NAAQS compliance demonstration, the applicable modeled design concentration
+must be calculated. The appropriate methodology for calculating the modeled design
+concentration will depend on the pollutant modeled and years of meteorological data
+used. Table 2 provides a summary of modeled design concentrations for individual
+criteria pollutants.
+3.3 Background Air Quality Data and Compliance Determination
+Background concentrations are essential in constructing the “design concentration”,
+or ambient air quality concentration that is used to determine compliance with
+NAAQS.
+Typically, background concentrations should be determined based on the air quality
+measurements collected in the vicinity of the proposed project site. Ideally, the
+background monitor should be upwind from the facility area so that double-counting
+of the facility’s impact is avoided. Additional considerations in selecting a background
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+11
+
+site should be data quality (completeness) and whether recent data is available. If a
+“regional monitor” (further away from the source) is used to determine background air
+quality, an explanation should be provided comparing the topography, climatology,
+and emissions sources in the area of the proposed project and the area where the
+“regional monitor” is located.
+Maps showing the Department’s current ambient air monitoring locations can be
+found at: https://www.dec.ny.gov/chemical/115828.html
+Tabulated data summaries for each measured pollutant/site can be obtained from Air
+Quality Reports at: https://www.dec.ny.gov/chemical/8536.html or by request from the
+Bureau of Air Quality Surveillance.
+The appropriate methodology for incorporating background concentrations in any air
+quality impact analysis will depend on the pollutant modeled, the averaging period
+and the form of the NAAQS for that pollutant (see Table 3). For a more refined
+temporal pairing of background and modeled data, which is sometimes desired for 1hour NO2 and SO2 modeling, background data can be averaged by season and hourof-day and incorporated in the AERMOD run via the SEASHR keyword. Details of
+this are described in Section 4.1.5 of this document.
+If a NAAQS exceedance is modeled in a cumulative impact analysis, a facility
+contribution analysis must be performed. The MAXDCONT option in AERMOD allows
+users to determine whether a facility or a group of facilities contributes significantly to
+a modeled exceedance of the NAAQS, paired in time and space. AERMOD has other
+output options (such as MxDyByYr) which may be useful for this analysis.
+
+4. Special Modeling Issues
+4.1 Modeling 1-hour NO2 and 1-hour SO2
+To assist facility owners and permitting authorities in carrying out the required air
+quality analysis for 1-hour NO2 and 1-hour SO2 compliance demonstrations, EPA has
+issued several guidance memorandums:
+
+
+
+
+Applicability of Appendix W Modeling Guidance for the 1-hour NO2 National
+Ambient Air Quality Standard, June 28, 2010;
+Applicability of Appendix W Modeling Guidance for the 1-hour SO2 National
+Ambient Air Quality Standard, August 23, 2010;
+Additional Clarification Regarding Application of Appendix W Modeling
+Guidance for the 1-hour NO2 National Ambient Air Quality Standard, March
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+12
+
+
+
+1, 2011;
+Clarification on the Use of AERMOD Dispersion Modeling for
+Demonstrating Compliance with the NO2 National Ambient Air Quality
+Standard, September 30, 2014.
+
+4.1.1 Emission Rate
+Emission rates for 1-hour NO2 and SO2 NAAQS modeling should be computed
+consistent with the recommendations of Section 8.1 of EPA’s Modeling Guidelines
+and the guidance memorandums referenced above. A load analysis is typically
+necessary to determine the load or operating condition that causes the maximum
+ground-level pollutant concentration. Operating scenarios of relatively short duration
+such as “startup” and “shutdown” should also be assessed since these conditions
+may result in maximum hourly ground-level concentrations. The control efficiency of
+emission control devices during these operating conditions may also need to be
+considered in the emission estimation.
+4.1.2 Significant Impact Level
+The EPA’s interim SIL levels (4 ppb or 7.5 μg/m3 for 1-hour NO2 and 3 ppb or 7.8
+μg/m3 for 1-hour SO2) should be used until EPA promulgates official 1-hour SIL
+values. To determine whether a cumulative impact assessment is needed for PSDapplicable sources, the interim SIL should be compared to the highest of the multiyear average of the maximum modeled 1-hour concentrations predicted at each
+receptor if multi-year meteorological data are used, or the highest modeled 1-hour
+concentration, if one year of on-site meteorological data are used.
+4.1.3 Three-tiered Approach for 1-hour NO2 Modeling
+The EPA guidance and memorandums recommend a three-tiered modeling
+approach. Each approach accounts for increasingly complex considerations of
+NO2/NOx chemistry as summarized below.
+
+
+Tier 1 is the most conservative approach - assumes full conversion of NOx
+emissions to NO2.
+
+
+
+Tier 2 is the Ambient Ratio Method 2 (ARM2) which assumes ambient
+equilibrium between NO and NO2. AERMOD multiplies Tier 1 impacts with
+default ambient ratios, or source-specific NO2/NOx in-stack ratio (ISR) data.
+The national default minimum and maximum ambient ratios for the primary
+facility are 0.5 and 0.9, respectively. In a cumulative modeling analysis, for
+any facilities located within the immediate vicinity (1-3 km) of the primary
+facility, the default ratio is 0.5. For any facilities beyond 1-3 km of the
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+13
+
+primary facility, the default ratio is 0.2. It is preferred that the source-specific
+(measured) NO2/NOx ISR data is used if all quality assurance requirements
+on this data have been satisfied. Alternatively, EPA’s NO2/NOx ISR
+database, manufacturer test data, and peer-reviewed literature can be used
+to justify an emission source’s NO2/NOx ISR.
+
+
+Tier 3 consists of two methods: Plume Volume Molar Ratio Method
+(PVMRM) or Ozone Limiting Method (OLM). Tier 3 analyses require default
+or source-specific ISRs of NO2/NOx emissions, and hourly ozone
+background data. Since the EPA’s memorandums do not indicate any
+preference between PVMRM and OLM, it is the facility’s responsibility to
+justify which method is more suitable and receive approval from IAM staff
+prior to conducting a full modeling analysis. Typically, PVMRM is preferred
+for tall stacks and OLM for short stacks. The background ozone data must
+be in units of μg/m3 and concurrent with the meteorological data. The
+default ISR and equilibrium ratios are 0.5 and 0.9 respectively.
+
+4.1.4 In-Stack NO2/NOX Ratio
+The in-stack ratio of NO2/NOx is a critical piece of data since it defines the portion of
+NOx emissions that will be converted to NO2 and used in modeling to predict ground
+level concentrations of NO2. The hierarchy below should be followed when choosing
+in-stack ratio data:
+1. Use equipment-specific testing data (emission measurements) reviewed
+and verified by a local authority, State, and/or EPA;
+2. If equipment-specific testing ratios are unavailable, find data for a similar
+emission point reported in the literature (peer-reviewed papers, vendor
+guarantee or EPA’s SCRAM page:
+https://www3.epa.gov/scram001/no2_isr_database.htm).
+The facility owner should provide detailed data analysis and literature
+review to justify the in-stack ratio selection;
+3. If neither option above is available, use a default in-stack ratio of 0.5
+without justifications as per EPA’s NO2 Clarification Memo.
+4.1.5 Background Concentration for 1-hour NO2 and 1-hour SO2 Compliance
+Demonstrations
+As previously mentioned, either a uniform monitored background concentration or
+temporally varying monitored background concentrations may be used in the
+modeling compliance demonstration for the 1-hour NAAQS. Monitored 1-hour NO2
+and SO2 data sets can be obtained from:
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+14
+
+
+
+
+
+EPA AirData: http://www.epa.gov/airdata/;
+EPA Air Quality System (AQS) raw data: EPA provides hourly data sets in
+raw format that can be downloaded at https://www.epa.gov/aqs;
+By request from the IAM section and from the Department’s air quality
+reports at:
+https://www.dec.ny.gov/chemical/8536.html.
+
+If a uniform monitored background concentration is used for 1-hour NO2, AERMOD is
+run by setting POLLUTID to NO2 and the RECTABLE to the 8th-highest value.
+AERMOD will provide a summary table with the maximum 8th-highest (98th percentile)
+maximum daily 1-hour results averaged over the years modeled. This value
+represents the modeled 1-hour NO2 design concentration (as in Table 2). This value
+is added to most recent monitored design concentration (per Table 3) and the sum is
+compared to the 1-hour NO2 NAAQS (in Table 1) to determine compliance. Similarly,
+in case of 1-hour SO2, AERMOD is run by setting POLLUTID to SO2 and the
+RECTABLE to the 4th-highest value. The modeled output design value is added to
+the monitored design concentration and the sum compared to the 1-hour SO2
+NAAQS (Table 1).
+If temporally varying (seasonal by hour-of-day) monitored background concentrations
+are used, the following steps should be followed to calculate a design value to
+compare against the standard:
+
+
+
+
+
+Use the BACKGRND keyword on the SO pathway to input temporally
+varying background concentrations. The total number of inputs for seasonal
+by hour-of-day monitored background concentrations is 96 (4 seasons × 24
+hours);
+Set the RECTABLE to the 8th-highest (4th-highest for SO2) value;
+Set POLLUTID to NO2 (or SO2).
+
+AERMOD will process each of the modeled years and determine the design value
+which includes the user specified background concentrations. This design value is
+then compared to the 1-hour NAAQS (Table 1).
+It should be noted that the Department’s IAM section has pre-processed seasonal
+hour-of-day background concentration tables for several locations and can provide
+them upon request. Alternatively, information on appropriate methodology for
+calculating temporally varying background concentration tables can be found in the
+EPA’s NO2 Clarification Memo. All data processing calculations and substitution
+methodology for missing data should be clearly described in the modeling protocol.
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+15
+
+Note that hour-by-hour pairing of monitored concentrations is not allowed because
+this approach would assume that the hourly monitored background concentration is
+spatially uniform for the hour and representative of the background levels at each
+receptor. Also, care should be taken that the background concentrations and the
+model-calculated impacts are in same units (µg/m3) when paired together.
+4.1.6 Background Concentration for Ozone
+Hourly measurements of ambient ozone concentrations over the modeled time period
+are required for the applications of the OLM and PVMRM options in AERMOD.
+Ozone concentrations can be entered into the model as a single (highest hourly)
+value or hourly datasets. AERMOD’s default value of 40 ppb or annual average
+ozone concentrations should not be used. The highest hourly ozone concentrations
+and 1-hour ozone data sets are available at:
+
+
+
+
+EPA AirData website: http://www.epa.gov/airdata/;
+By request from the Department’s IAM section;
+Department air quality reports at:
+https://www.dec.ny.gov/chemical/8536.html
+
+The modeling protocol should include a discussion on the representativeness and
+completeness of the selected background ozone data set. If the data set is
+incomplete, several options are available. For a single missing hour, use linear
+interpolations to fill in the missing concentrations based on the previous and
+subsequent hour concentrations or simply use the higher one. For multiple missing
+hours, the following approaches are acceptable:
+
+
+
+
+
+
+
+
+
+Substitute the highest hourly ozone concentration over the modeled period
+without any additional justifications;
+Determine the maximum hourly ozone concentration for each season and
+use the maximum seasonal concentration to substitute for any missing data
+within that season;
+Determine the maximum hourly ozone concentration for each month and
+use the maximum monthly concentration to substitute for any missing data
+within that month;
+For each month, calculate the maximum ozone concentration for each hourof-day and use these hourly maximum concentrations to fill in their
+corresponding missing hours;
+Fill in with missing data with corresponding (exact day and hour) data from
+another nearby monitoring site with similar land use characteristics.
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+16
+
+The approaches presented above may not be an exhaustive list of acceptable
+procedures, but whichever method is used should be clearly described and justified
+in the modeling protocol and discussed in advance with the Department’s IAM
+section.
+4.1.7 Treatment of Intermittent Emission Sources
+Intermittent emission sources may present challenges for demonstrating compliance
+with the 1-hour NO2 or SO2 NAAQS if their continuous operation is assumed. EPA’s
+NO2 Clarification Memo recommends that compliance demonstrations for 1-hour NO2
+NAAQS should be based on “emission scenarios that can logically be assumed to be
+relatively continuous or which occur frequently enough to contribute significantly to
+the annual distribution of daily maximum 1-hour concentrations.” In part, the guidance
+allows the reviewing agency, at their discretion, to exclude intermittent emission units
+from model requirements under appropriate circumstances. In New York State,
+emergency power generating stationary internal combustion engines meeting the
+definition in 6 NYCRR Section 200.1(cq) can be excluded from 1-hour NO2 modeling.
+Facility owners must consult with the Department to determine whether their
+proposed ‘intermittent’ emission sources can be excluded from 1-hour NO2 modeling.
+The following information should be provided: number and size of intermittent
+emission units, frequency and duration of operation, allowable fuels and their sulfur
+and nitrogen content, short-term peak emission rates vs. emission rates during
+steady-state operations (if applicable), operating hours concurrent with other
+intermittent equipment (if applicable) and the location of the intermittent source(s)
+with respect to the ambient air boundary of the facility. Permit conditions may be
+necessary to ensure the proposed source meets the requirements of intermittent
+operation.
+4.2 Modeling PM2.5
+To address the fact that compliance with PM2.5 NAAQS is based on a statistical form
+and that there are technical complications associated with estimating impacts of
+secondarily formed PM2.5, EPA issued the following guidance documents:
+
+
+
+
+
+Guidance for PM2.5 Permit Modeling (2014);
+Guidance on the Development of Modeling Emission Rates for Precursors
+(MERPs) as a Tier 1 Demonstration Tool for Ozone and PM2.5 under the PSD
+Permitting Program (2019) (MERPs Guidance); and
+Guidance on Significant Impact Levels for Ozone and Fine Particles in the
+Prevention of Significant Deterioration Permitting Program (2018).
+
+Per above guidance, any facility with primary PM2.5 emissions above the 10 tpy
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+17
+
+Significant Emission Rate, must model the offsite concentrations. Primary emissions
+are the sum of both filterable and condensable PM2.5 emissions. In addition, impacts
+of PM2.5 precursor emissions from a facility must be taken into account if the facility
+emits more than 40 tpy of SO2 and/or NOx. See Section 5.3 of this document for
+more on secondary PM2.5 impacts.
+
+5. Modeling Requirements for Facilities Subject to 6 NYCRR Part 231
+6 NYCRR Part 231 implements the Clean Air Act's New Source Review (NSR)
+permitting program. It provides for the review of the air pollution impacts of new major
+stationary sources and modifications to existing major stationary sources in air
+pollution attainment and non-attainment areas of New York State. The NSR
+permitting program requires owners and operators of an emission source to undergo
+a pre-construction review to determine the appropriate air pollution controls.
+Implementation guidance and applicability flow charts can be found on the
+Department’s website: https://www.dec.ny.gov/chemical/63377.html.
+NSR consists of two components: attainment NSR (a.k.a. Prevention of Significant
+Deterioration (PSD)) and non-attainment NSR. The PSD regulation is targeted for
+individual pollutants. If any of the pollutants emitted by a facility is above the
+Significant Project Threshold (SPT) or Significant Net Emission Increase Threshold
+(SNEIT), as applicable, the facility is subject to PSD requirements for that pollutant.
+Pollutants that are below their SPT or SNEIT levels are not subject to PSD
+requirements. Major facility thresholds and SNEIT levels are defined in 6 NYCRR
+Subpart 231-13: ‘Tables and Emission Thresholds’ at:
+https://www.dec.ny.gov/regs/2492.html.
+EPA’s guidance on the NSR/PSD permitting process can be found at:
+https://www.epa.gov/nsr/learn-about-new-source-review.
+A PSD modeling analysis follows the flowchart in Figure 2. It starts with a preliminary
+analysis (often referred to as a significant impact analysis), and if required, a full
+impact analysis. The preliminary analysis estimates ambient concentrations resulting
+from the proposed project for pollutants that trigger PSD requirements. As discussed
+earlier, the project’s emission load analysis should be performed to ensure that the
+modeled emissions are not underestimated.
+If the calculated ambient impacts from the preliminary modeling analysis exceed the
+PSD Significant Impact Levels (Table 1), the extent of the SIA of the proposed project
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+18
+
+must be determined. A separate SIA is determined for every relevant averaging time
+for each PSD-triggering pollutant and the largest SIA is used for further modeling
+analysis.
+Section 165 (e)(2) of the Clean Air Act requires the collection of ambient air quality
+data prior to submitting a PSD application. However, the preliminary modeling results
+are also used for comparison to Significant Monitoring Concentrations (SMC). If the
+facility impacts exceed the SMC levels specified in 6 NYCRR Section 231-12.4, then
+pre-application air quality monitoring may be required. The owner or operator of a
+new or modified facility must meet the requirements of 40 CFR Part 58, Appendix B
+(“Quality Assurance Requirements for PSD Air Monitoring”) and the Division of Air
+Resources’ policy DAR-2: Oversight of Private Air Monitoring Networks, during the
+operation of monitoring stations for purposes of satisfying applicable provisions of 6
+NYCRR Section 231-12.3. EPA’s guidance for collecting on-site (i.e. site-specific)
+monitoring data can be found in: Ambient Monitoring Guidelines for Prevention of
+Significant Deterioration (PSD), EPA-450/4-87-007, May 1987 and Technical Note –
+PSD Monitoring Quality Assurance Issues, (2016).
+Facilities may request a pre-construction monitoring waiver pursuant to 6 NYCRR
+Section 231-12.4. This determination will be made on a case-by-case basis in
+accordance with EPA’s Modeling Guidelines and monitoring guidance documents.
+However, it is recommended that all permit applications contain an evaluation of
+ambient concentrations in the area. Existing air quality data representative of the
+local environment may be used to fulfill this requirement.
+The full impact analysis expands the preliminary impact analysis by considering
+emissions from both the proposed project as well as other facilities within the SIA.
+The full impact analysis may also consider other facilities outside the SIA that could
+cause significant impacts in the SIA of the proposed facility. The results from the full
+impact analysis are used to demonstrate compliance with NAAQS and PSD
+increments (Table 1). The emissions inventory for the cumulative NAAQS analysis
+includes all nearby permitted facilities that have significant impacts within the
+proposed project's SIA, while the emissions inventory for the cumulative PSD
+increment analysis is limited to increment-affecting facilities (new facilities and
+changes to existing facilities that have occurred since the applicable increment
+baseline date). Note that the cumulative source analysis is a balance between
+sources that must be modeled and those whose impacts are captured by a monitor.
+For further guidance on this, see ‘Identifying Nearby Sources to Include in Modeled
+Inventory’ and ‘Significant Concentration Gradient Criterion’ sections of EPA’s NO2
+Clarification Memo.
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+19
+
+The full impact analysis is limited to receptor locations within the proposed project's
+SIA. The modeling results from the NAAQS cumulative impact analysis are added to
+representative ambient background concentrations and the total concentrations are
+compared to the NAAQS. Conversely, the modeled air quality impacts for all
+increment-consuming facilities are directly compared to the PSD increments (Table
+1) to determine compliance (without consideration of ambient background
+concentrations).
+Cumulative impact assessments based on the procedures above will generally be
+acceptable as the basis for permitting decisions. Facility owners must coordinate the
+emissions inventory development in consultation with the Department and, in the
+modeling protocol, provide justification and documentation for the final selection of
+background emissions inventory.
+New or modified facilities subject to 6 NYCRR Part 231 must demonstrate
+compliance with the NAAQS and PSD increment with an approved modeling
+analysis. In the event that a modeled exceedance is predicted, the modeling analysis
+is carried one step further. The additional step determines whether the emissions
+from the proposed source will have a significant ambient impact at the point of the
+modeled NAAQS or increment exceedance when the exceedance is predicted to
+occur. If it can be demonstrated that the proposed facility's impact is not "significant"
+in a spatial and temporal sense, then the facility may receive a PSD permit (See EPA
+policy memorandum: Air Quality Analysis for Prevention of Significant Deterioration
+(PSD), July 5, 1988).
+Emission offsets for ozone in a nonattainment area required by 6 NYCRR Part 231
+must include a contribution analysis acceptable to the Department. Permit applicants
+should contact the IAM section for the most current acceptable approach to the
+contribution analysis. One approach is the result of a study of ozone data in the
+Ozone Transport Region (OTR) by Rao, et.al, Determining Temporal and Spatial
+Variations in Ozone Air Quality, Journal of Air and Waste Management Association,
+1995, V45, pp 57-61. Specifically, the technical documentation included in Rao, et.
+al., demonstrated that the time scale of ozone transport in the Northeast is two to
+three days. The study identified that the spatial scale of the elliptical "ozone cloud" is
+at least 300 miles in the major axis orientation (SW to NE) and 250 miles in the minor
+axis orientation (SE to NW). In a June 3, 1996 letter EPA Region II acknowledged
+that the technical documentation satisfied the "contribution to a violation" test of
+Section 173(c)(1)(B) of the Act and, thus, any source outside the New York –
+Northern New Jersey – Long Island, NY-NJ-CT non-attainment area can obtain
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+20
+
+offsets from any part of the State, with a limitation on VOC offsets from the moderate
+area.
+5.1 PSD Increment Analysis
+To assist in a cumulative analysis of increment consumption, the Department
+maintains a database for the PSD permits. Permit applicants may contact the IAM
+section to obtain a list of baseline dates and increment-consuming sources. All PSD
+source analyses must consider the incremental SO2, NO2, PM2.5 and PM10 impacts of
+existing and other proposed PSD sources. Furthermore, these sources are to be
+included in the air quality standards compliance analysis. In addition, PSD
+increments and, where applicable, Federal Land Managers’ (FLM) defined Air Quality
+Related Values (AQRVs) must be analyzed for all Class I areas within 100 km of the
+source. On a case-by-case basis, a larger area for evaluating impacts may be
+required by the FLM, the Department or EPA Region 2 staff.
+5.2 Additional Impact Analysis
+Applications for facilities subject to 6 NYCRR Part 231 must include additional impact
+analyses for each PSD-triggering pollutant. Per EPA’s Modeling Guidance, these
+analyses must assess the impacts of air, ground, and water pollution on soils,
+vegetation, and visibility caused by any increase in emissions of any regulated
+pollutant from the facility or modification under review, and from associated growth.
+Visible emissions from the facility are typically minimized by controlling the emissions
+through the implementation of BACT (Best Available Control Technology) for new
+emission sources or modifications for existing facilities. Visibility analyses can be
+performed using VISCREEN or PLUVUE models. Further guidance relating to these
+analyses are provided in the EPA documents entitled: A Screening Procedure for the
+Impacts of Air Pollution Sources on Plants, Soils and Animals (1980) and Workbook
+for Plume Visual Impact Screening and Analysis (Revised) (October 1992).
+In the event that a proposed or modified major facility is located within 300 km of the
+Class I areas in the northeast (such as Lye Brook Wilderness, Vermont or Brigantine
+National Wildlife Refuge, New Jersey), the applicant must complete the Federal Land
+Manager’s Request for the Class I Area PSD Model Applicability Form, and send it to
+the regional FLM for the purpose of determining if a Class I area AQRV analysis is
+required. Consultation with Department staff is highly recommended. If an AQRV
+refined modeling analysis is required, the applicant, the Department, and the FLM will
+work together to formulate an appropriate modeling demonstration. For a general
+description of what is expected of an AQRV analysis, see “Resources for Permit
+Applicants” at: https://www.nps.gov/subjects/air/permitresources.htm#FLAG
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+21
+
+5.3 Secondary PM2.5 Impacts for NSR/PSD Facilities
+EPA suggests a two-tiered approach to address secondary PM2.5 impacts. Tier 1
+involves scenarios where available information can be deemed representative of the
+facility’s precursor emissions, meteorology, terrain, etc. to sufficiently evaluate the
+facility’s secondary PM2.5 impacts.
+The Tier 2 assessment involves the use of regional scale photochemical grid models
+or Chemical Transport Models (CTMs). EPA guidance on the use of CTMs is
+available in: Guidance on the use of models for assessing the impacts of emissions
+from single sources on the secondarily formed pollutants ozone and PM 2.5 (2016).
+It is anticipated that the Tier 1 approach will adequately assess the secondary impact
+of PM2.5 precursors in a vast majority of compliance demonstration cases. Options for
+Tier 1 secondary PM2.5 impact calculations are:
+
+
+
+
+a qualitative assessment
+a hybrid of qualitative and quantitative assessments utilizing existing
+technical work
+MERPs.
+
+To support a qualitative assessment of the impact from secondary PM2.5 formation, it
+is important to fully characterize the current PM2.5 concentrations in the region where
+the new or modifying facility is to be located. This characterization should take into
+account the most current 24-hour and annual PM2.5 design values, evaluation of the
+seasonality and speciated composition of the current PM2.5 concentrations and any
+long-term trends that may be occurring. Examining the monitored PM2.5 precursor
+concentrations (such as SOx and NOx) in the area and their relationship with PM2.5
+component species (sulfates, nitrates) can further that understanding and assess the
+PM2.5 formation potential in the area. It may also be important to describe the typical
+background concentrations of certain chemical species that participate in the
+photochemical reactions that form secondary PM2.5 such as ammonia, volatile
+organic compounds and ozone, as these can have mitigating effects on PM2.5
+formation. The qualitative assessment should include a narrative explaining how any
+identified significant precursor emissions and subsequent secondary PM2.5 formation
+contributes to the ambient PM2.5 concentration in the region.
+A qualitative assessment should also characterize the regional meteorological
+conditions which are associated with periods or seasons of higher and lower ambient
+24-hour PM2.5 concentrations. Any meteorological factors that could limit or enhance
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+22
+
+the formation of secondary PM2.5 from any significant precursor emissions should be
+identified.
+In addition to the above qualitative characterizations, the hybrid qualitative/
+quantitative approach should include an analysis of existing photochemical modeling
+developed for the area (regional haze, ozone, past or current SIP attainment
+demonstrations, published modeling studies and/or peer-reviewed literature). The
+existing modeling-based information would need to be appropriate and
+representative of the type of source, its precursor emissions and geographic location.
+The facility owner should describe how the existing modeling reflects the formation of
+PM2.5 from that facility and in that particular area. The information that can be used to
+describe the comparability of two different geographic areas includes average and
+peak temperatures, humidity, terrain, rural or urban nature of the area, nearby
+regional sources of pollutants and ambient concentrations of relevant pollutants
+where applicable. Examples of qualitative and hybrid qualitative/ quantitative
+approaches are provided in Appendices of EPA’s Guidance for PM2.5 Permit
+Modeling (2014).
+The facility may choose to use MERPs to estimate single-source impacts on
+secondarily formed pollutants under the Tier 1 approach. Section 4.1 of the EPA’s
+MERPs Guidance document provides examples and illustrates how to use MERPs
+for each precursor pollutant and how to combine them together.
+The combined contribution from both primary and secondary impacts should be
+compared to the PM2.5 SIL concentration (Table 1). If the impacts are above the SIL,
+then a cumulative modeling analysis will be required to determine compliance with
+the applicable PM2.5 NAAQS and PSD Increments. If there are exceedances of the
+PM2.5 NAAQS and PSD increments, additional analysis is required to show that the
+subject facility does not contribute significantly to any air quality standard
+exceedance. Consultation with the Department modeling staff is highly recommended
+before undertaking additional secondary PM2.5 assessments.
+
+6. Presentation of Modeling Results / Modeling Report
+It is highly recommended, and for facilities subject to 6 NYCRR Section 212-1.5(e)(2)
+and 6 NYCRR Subpart 231-12 mandatory, that the permit applicant submit a
+modeling protocol to the IAM section prior to commencing a refined modeling
+analysis. A list of typical protocol topics is provided in Section 7 of this document. In
+most cases, the approved modeling protocol may serve as the foundation of the
+modeling report. The modeling report should include a discussion of each relevant
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+23
+
+topic from the modeling protocol, as well as tables and figures which appropriately
+indicate facility impacts, display surrounding terrain, sensitive receptors, etc.
+Graphics showing facility building layouts, emission source locations, and facility
+property boundaries are also required in order to facilitate the modeling review. The
+approved modeling protocol does not necessarily limit the extent of the modeling that
+will be required. Additional modeling may be required as determined by Department
+staff on a case-by-case basis.
+The modeling reports submitted to the Department must provide a table listing
+emission parameters for all emission points. For point sources, this includes location,
+stack height above grade, stack base elevation, exit diameter, exit velocity, and exit
+temperature. For area sources, the size and location of the area and the release
+height of the emission source are needed. For volume sources, the location, release
+height, and initial horizontal and vertical dimensions are required. It is important that
+emissions data is provided for all applicable averaging times and all pollutants to be
+considered in the modeling analysis. An organized emissions inventory provides a
+crucial link between the emissions used to determine a facility’s regulatory
+applicability and the emissions used directly in the modeling analysis.
+Contour plots of modeled concentrations should be prepared and overlaid on a map
+of the area that identifies key geographical features that may influence the dispersion
+patterns. The concentration contour plots also serve to visually depict the
+concentration gradients associated with the facility’s impacts. As an aid to interpreting
+this information, it is desirable to include the location of the meteorological monitoring
+station used in the modeling analysis on the plot of source impacts, as well as a wind
+rose plot depicting general flow patterns.
+All electronic files needed to reproduce modeling results must be included with the
+report. This includes AERMOD input and output files, BPIPPRM building input and
+output files, and meteorological data files. Any additional emission calculations files
+or tables in Excel format should also be included. It is preferred that the electronic
+files are submitted in the general text file formats described in model user’s guides
+rather than the proprietary modeling software. When sending multiple electronic files,
+it is essential to include an index describing what files are included and how they are
+organized. Electronic files may be sent via email, Dropbox, on CD, DVD or USB
+electronic media.
+The modeling protocol and modeling report can be sent to the IAM section staff
+directly, but a copy must also be sent to the Department permit review staff in the
+regional office where the facility is located. The regional staff is ultimately responsible
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+24
+
+for the overall review of the permit conditions and the emissions data. Depending on
+the applicability of regulatory requirements for the proposed project, a copy of the
+modeling report may need to be sent to EPA Region 2 office and any affected federal
+land managers.
+7. Modeling Protocol Checklist
+The following is a list of suggested topics/items to be included in the modeling
+protocol for discussion and review:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Summary of applicable regulatory requirements;
+Facility/project description;
+Attainment status of the area surrounding the facility;
+Facility layout on a topographic map (include the nearest meteorological station and
+air monitoring location - if used);
+Facility blueprint/plot plan with clearly marked emission points;
+Proposed new or modified emissions inventory at the facility;
+Emissions inventory development;
+Good Engineering Practice (GEP) - stack height calculation/discussion;
+Buildings and structures within 5L of each stack. List the dimensions of each building;
+Property boundary and distance from stack(s) to nearest boundary;
+Signify if a physical fence/barrier exists along the property boundary;
+Proposed model(s) and non-regulatory options (if any);
+Urban/rural determination;
+Representativeness of meteorological data used;
+Proposed receptor network;
+Terrain features/surrounding land use;
+Pollutants / averaging periods / emission rates – if known;
+Preliminary impact analysis;
+NAAQS / PSD increment analysis;
+Proposed method for developing background concentrations;
+Preconstruction monitoring - if any;
+Significant impact area / offsite facility inventories (NAAQS, PSD increment);
+Additional impact analysis (growth, soils and vegetation, visibility impairment);
+Class I area impact analysis (areas evaluated, model(s), model input assumptions,
+class I increments, Air Quality Related Values (AQRVs));
+Potential Environmental Justice issues;
+Proposed methodology for demonstrating compliance with the NAAQS and PSD
+increments.
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+25
+
+Table 1. Ambient Air Quality Standards, PSD Increments, Significant Monitoring
+Concentrations and Significant Impact Levels (SILs)
+Ambient Air Quality Standards
+Pollutant
+Averaging Period
+
+Carbon Monoxide
+(CO)
+Lead
+Nitrogen Dioxide
+(NO₂)
+Ozone
+(O3)
+Particulate Matter
+(PM2.5)
+Particulate Matter
+(PM10)
+
+1-hour (1)
+8-hour
+
+Gaseous Fluorides
+(as F)
+
+(2)
+
+Primary and
+Secondary
+
+1-hour (3)
+Annual (4)
+8-hour (5)
+24-hour (6)
+Annual (7)
+24-hour (8)
+
+Primary
+
+3-hour (1)
+
+National
+AAQS
+
+New York
+AAQS
+
+Primary and
+Secondary
+Primary
+Secondary
+
+(µg/m3)
+
+(µg/m3)
+
+(µg/m3)
+
+—
+
+—
+
+—
+
+2,000
+
+10000 µg/m
+(9 ppm)
+
+—
+
+—
+
+575
+
+500
+
+3
+
+—
+
+—
+
+0.1
+
+—
+
+—
+
+—
+
+—
+
+7.5
+
+—
+
+25
+
+14
+
+1
+
+—
+
+—
+
+—
+
+2.0
+(1.0 ppb)
+
+—
+
+9
+
+0
+
+1.2
+
+—
+
+4
+
+0
+
+0.3
+
+—
+
+30
+
+10
+
+5
+
+—
+
+—
+
+—
+
+7.8
+
+512
+
+—
+
+25
+
+91
+
+13
+
+5
+
+20
+
+—
+
+1
+
+—
+
+—
+
+—
+
+—
+
+0.25
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+0.2
+
+—
+
+3
+
+0.15 µg/m
+
+3
+
+188 µg/m
+(0.100 ppm)
+
+150 µg/m3
+196 µg/m3
+(0.075 ppm)
+1300 µg/m3
+(0.50 ppm)
+
+—
+3
+
+—
+
+—
+
+1300 µg/m
+(0.50 ppm)
+
+24-hour (1)
+
+—
+
+—
+
+365 µg/m
+(0.14 ppm)
+
+Annual (4)
+
+—
+
+—
+
+12-hour (2)
+
+—
+
+—
+
+24-hour (2)
+
+—
+
+—
+
+1-week (2)
+
+—
+
+—
+
+(2)
+
+—
+
+—
+
+(2)
+
+—
+
+—
+
+1-hour
+
+Significant Significant
+Monitoring
+Impact
+Concentration
+Level
+
+40000 µg/m3
+(35 ppm)
+
+Primary and 100 µg/m3
+Secondary (0.053 ppm)
+Primary and 0.070 ppm
+Secondary (137 µg/m3)
+Primary and
+35 µg/m3
+Secondary
+Primary
+12 µg/m3
+3
+Secondary
+15 µg/m
+
+(9)
+
+1-month
+Hydrogen Sulfide
+(H2S)
+
+Primary
+
+(1)
+
+Rolling 3-month
+
+1-hour
+
+Sulfur Dioxide
+(SO2)
+
+Primary/
+Secondary
+
+PSD
+Increment
+Class II
+
+3
+
+80 µg/m3
+(0.03 ppm)
+3.7 µg/m3
+(4.5 ppb)
+
+3
+
+2.85 µg/m
+(3.5 ppb)
+1.65 µg/m3
+(2.0 ppb)
+0.8 µg/m3
+(1.0 ppb)
+14 µg/m3
+(0.010 ppm)
+
+Notes:
+(1)
+Not to be exceeded more than once per year
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+
+Not to be exceeded
+98th percentile of the daily maximum 1-hour concentration, averaged over 3 years
+Arithmetic mean; Not to be exceeded
+Annual fourth-highest daily maximum 8-hour concentration, averaged over 3 years
+98th percentile, averaged over 3 years
+Arithmetic mean, averaged over 3 years
+Not to be exceeded more than once per year on average over 3 years
+99th percentile of the daily maximum 1-hour concentration, averaged over 3 years
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+26
+
+Table 2. Modeled Design Concentrations
+Modeled Design Concentration
+
+NAAQS
+Averaging Time
+Pollutant
+Modeling with 5-years of meteorological Modeling with 1-year of onsite
+data
+meteorological data
+Highest of the second highest (H2H) 1-hour
+Second highest 1-hour concentration
+1-Hour
+concentration over the entire receptor
+Carbon
+over the entire receptor network
+network for each year modeled
+Monoxide
+Highest of the second highest (H2H) 8-hour
+(CO)
+Second highest 8-hour concentration
+8-Hour
+average concentration over the entire
+over the entire receptor network
+receptor network for each year modeled
+Highest modeled 3-month average
+Highest modeled 3-month average
+Rolling 3-Month
+Lead
+concentration over the entire receptor
+concentration over the entire receptor
+Average
+network
+network
+
+Nitrogen
+Dioxide
+(NO2)
+
+1-Hour
+
+Annual
+Particulate
+Matter
+(PM2.5)
+
+24-Hour
+
+Annual
+Particulate
+Matter
+(PM10)
+
+24-Hour
+
+Sulfur
+Dioxide
+(SO2)
+
+3-hour
+24-hour
+Annual
+
+40 CFR Part 51, App. W (9.1)(d)
+
+40 CFR Part 51, App. W (9.1)(d)
+
+EPA Memo: "Applicability of
+Appendix W Modeling Guidance for
+th
+th
+the 1-hour NO2 National Ambient Air
+Highest of multi-year averages of the 98
+Highest of the 98 percentile of the
+percentile (H8H) of the annual distribution of annual distribution of maximum daily Quality Standard" (June 28, 2010) and
+EPA Memo: "Additional Clarification
+maximum daily 1-hour concentrations
+1-hour concentrations predicted at
+Regarding Application of Appendix W
+predicted at each receptor
+each receptor
+Modeling Guidance for the 1-hour NO2
+NAAQS" (March 1, 2011)
+Highest modeled annual concentration
+predicted over the entire receptor network
+Multi-year average of the 98 th percentile
+(H8H) of the annual distribution of 24-hour
+concentrations predicted each year at each
+receptor
+Highest of the multi-year averages of annual
+concentrations at each receptor
+Highest of the sixth highest (H6H) 24-hour
+modeled concentration that occurred at
+each receptor over the 5 years
+th
+
+1-Hour
+
+Reference
+
+Highest of multi-year averages of the 99
+percentile (H4H) of the annual distribution of
+maximum daily 1-hour concentrations
+predicted at each receptor
+
+Highest annual concentration over
+the entire receptor network
+Highest of the 98th percentile of the
+annual distribution of 24-hour
+concentrations predicted at each
+receptor
+Highest annual concentration over
+the entire receptor network
+The second highest 24-hour modeled
+concentration that occurred at each
+receptor
+th
+
+Highest of the 99 percentile of the
+annual distribution of maximum daily
+1-hour concentrations predicted at
+each receptor
+
+Highest of the second highest (H2H) 3-hour
+Second highest concentration over
+concentration over the entire receptor
+the entire receptor network
+network for each year modeled
+Highest of the second highest (H2H) 24-hour
+Second highest concentration over
+concentration over the entire receptor
+the entire receptor network
+network for each year modeled
+Highest modeled annual concentration
+Highest annual concentration over
+predicted over the entire receptor network the entire receptor network
+
+40 CFR Part 51, App. W (9.1)(d)
+
+EPA Memo: "Guidance for PM2.5
+Permit Modeling" (May 20, 2014)
+
+40 CFR Part 51, App. W (9.1)(d)
+EPA Memo: "Guidance Concerning
+the Implementation of the 1-hour SO2
+NAAQS for the Prevention of
+Significant Deterioration Program"
+(August 23, 2010)
+40 CFR Part 51, App. W (9.1)(d)
+
+6 NYCRR Subpart 257-2
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+27
+
+Table 3. Determination of Background Concentrations
+
+AAQS
+Pollutant
+Carbon Monoxide
+(CO)
+Lead
+
+Nitrogen Dioxide
+(NO2)
+
+Ozone
+(O3)
+
+Averaging
+Period
+1-hour
+8-hour
+Rolling 3 Month
+
+Particulate Matter
+(PM10)
+
+Background Form
+
+40000 µg/m3
+(35 ppm)
+10000 µg/m3
+(9 ppm)
+
+Not to be exceeded more than
+once per year
+
+Highest of the 2nd highest concentration
+each year over the most recent 3 years
+
+0.15 μg/m3
+
+Not to be exceeded
+
+Highest concentration over the most
+recent 3 years
+
+3
+
+188 µg/m
+(0.100 ppm)
+
+Annual
+
+100 µg/m3
+(0.053 ppm)
+
+8-Hour
+
+0.070 ppm
+(137 µg/m3)
+
+(2)
+
+3
+
+35 μg/m
+
+3-year average of the 98 th
+3-year average of the 98 th percentile of
+percentile of the annual
+the annual distribution of the daily
+distribution of the daily maximum
+maximum 1-hour concentrations
+1-hour concentrations
+Highest annual concentration over the
+Annual Mean
+most recent 3 years
+Annual fourth-highest daily
+—
+maximum 8-hour concentration,
+averaged over 3 years
+Average of the 98th percentile 24-hour
+98th percentile, averaged over 3
+concentrations over the most recent 3
+years
+years
+Annual mean, averaged over 3
+Average of the annual concentrations
+years
+over the most recent 3 years
+
+Annual
+(Fed. primary)
+
+12 μg/m3
+
+Annual
+(Fed. Secondary)
+
+15 μg/m3
+
+Annual mean, averaged over 3
+years
+
+Average of the annual concentrations
+over the most recent 3 years
+
+24-Hour (2)
+
+150 μg/m3
+
+Not to be exceeded more than
+once per year on average over 3
+years
+
+Average of the highest 24-hour
+concentrations over the most recent 3
+years
+
+1-Hour (1)
+Sulfur Dioxide
+(SO2)
+
+AAQS Form
+
+1-Hour (1)
+
+24-Hour
+Particulate Matter
+(PM2.5)
+
+NAAQS or
+NYAAQS
+Level
+
+3-hour
+24-hour
+Annual
+
+3
+
+196 µg/m
+(0.075 ppm)
+1300 µg/m3
+(0.50 ppm)
+3
+365 µg/m
+(0.14 ppm)
+80 µg/m3
+(0.03 ppm)
+
+3-year average of the 99 th
+th
+3-year average of the 99 percentile of
+percentile of the annual
+the annual distribution of the daily
+distribution of the daily maximum
+maximum 1-hour concentrations
+1-hour concentrations
+Not to be exceeded more than
+once per year
+Not to be exceeded more than
+once per year
+Not to be exceeded
+
+Highest 3-hour concentration each year
+over the most recent 3 years
+Highest 24-hour concentration each
+year over the most recent 3 years
+Highest annual concentration over the
+most recent 3 years
+
+Notes:
+(1)
+Monthly/Seasonal/Annual hour-of-day monitored background concentrations may be used in some refined analyses
+(2)
+Seasonal background concentrations may be used in some refined analyses
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+28
+
+Figure 1. Locations with AERMOD-ready meteorological data
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+29
+
+Figure 2. PSD Modeling Analysis Flowchart
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+30
+VI.
+
+REFERENCES
+40 CFR Part 51, Appendix W (“Guideline on Air Quality Models”) (January 2017)
+AERMOD Implementation Guide, EPA-454/B-16-013 (December 2018)
+AERMOD User’s Guide, EPA-454/B-16-011 (December 2018)
+Guideline for Determination of Good Engineering Practice Stack Height (Technical
+Support Document for the Stack Height Regulations). (EPA, 1985)
+https://www.wbdg.org/FFC/EPA/EPACRIT/epa450_4_80_023.pdf
+Additional Clarification Regarding Application of Appendix W Modeling Guidance for
+the 1-hour NO2 National Ambient Air Quality Standard (EPA, 2011)
+https://www.epa.gov/sites/production/files/2015-07/documents/appwno2_2.pdf
+Meteorological Monitoring Guidance for Regulatory Modeling Applications, EPA454/R-99-005 (revised February 2000)
+https://www3.epa.gov/scram001/guidance/met/mmgrma.pdf
+The Division of Air Resources policy guide DAR-2: Oversight of Private Air Monitoring
+Networks. http://www.dec.ny.gov/chemical/8533.html
+Applicability of Appendix W Modeling Guidance for the 1-hour NO2 National Ambient
+Air Quality Standard (EPA, 2010)
+https://www3.epa.gov/ttn/scram/guidance/clarification/ClarificationMemo_AppendixW
+_Hourly-NO2-NAAQS_FINAL_06-28-2010.pdf
+Clarification on the Use of AERMOD Dispersion Modeling for Demonstrating
+Compliance with the NO2 National Ambient Air Quality Standard (EPA, 2014)
+https://www3.epa.gov/scram001/guidance/clarification/NO2_Clarification_Memo20140930.pdf
+Applicability of Appendix W Modeling Guidance for the 1-hour SO2 National Ambient
+Air Quality Standard (EPA, 2010)
+https://www3.epa.gov/scram001/guidance/clarification/ClarificationMemo_AppendixW
+_Hourly-SO2-NAAQS_FINAL_08-23-2010.pdf
+Guidance for PM2.5 Permit Modeling (EPA, 2014)
+https://www3.epa.gov/scram001/guidance/guide/Guidance_for_PM25_Permit_Modeli
+ng.pdf
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+31
+
+Guidance on the Development of Modeling Emission Rates for Precursors (MERPs)
+as a Tier 1 Demonstration Tool for Ozone and PM2.5 under the PSD Permitting
+Program (EPA, 2019). https://www.epa.gov/sites/production/files/201905/documents/merps2019.pdf
+Guidance on Significant Impact Levels for Ozone and Fine Particles in the Prevention
+of Significant Deterioration Permitting Program (EPA, 2018)
+https://www.epa.gov/sites/production/files/201804/documents/sils_policy_guidance_document_final_signed_4-17-18.pdf
+Ambient Monitoring Guidelines for Prevention of Significant Deterioration (PSD),
+EPA-450/4-87-00, (May 1987) https://www.epa.gov/sites/production/files/201507/documents/monguide.pdf
+Technical Note – PSD Monitoring Quality Assurance Issues (EPA, 2016)
+https://www3.epa.gov/ttn/amtic/files/policy/PSD_Q&A.pdf
+Air Quality Analysis for Prevention of Significant Deterioration (PSD) (EPA, 1988)
+https://www.epa.gov/sites/production/files/2015-07/documents/reaffirm.pdf
+A Screening Procedure for the Impacts of Air Pollution Sources on Plants, Soils and
+Animals (EPA,1980)
+Workbook for Plume Visual Impact Screening and Analysis (Revised) (EPA, October
+1992). https://www3.epa.gov/scram001/userg/screen/WB4PlumeVisualOCR.pdf
+Guidance on the use of models for assessing the impacts of emissions from single
+sources on the secondarily formed pollutants ozone and PM2.5 (EPA, 2016).
+https://www3.epa.gov/ttn/scram/appendix_w/2016/EPA-454_R-16-005.pdf
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+32
+
+APPENDIX A: Legislative Authority
+Federal:
+42 U.S.C. §7401 et seq. (The Clean Air Act (CAA))
+40 CFR Part 51, Appendix W (Guideline on Air Quality Models)
+40 CFR Part 50, National Primary and Secondary Ambient Air Quality Standards
+New York:
+NY Public Service Law, Article 10 (Siting of Major Electric Generating Facilities)
+NY Environmental Conservation Law, Article 19, Title 9 (State Acid Deposition
+Control Act (SADCA))
+6 NYCRR Part 201 (Permits and Registrations)
+6 NYCRR Part 212 (Process Operations)
+6 NYCRR Part 219 (Incinerators)
+6 NYCRR Part 225 (Fuel Composition and Use)
+6 NYCRR Part 231 (New Source Review for New and Modified Facilities)
+6 NYCRR Part 257 (Air Quality Standards)
+6 NYCRR Part 617 (State Environmental Quality Review)
+
+References and weblinks provided in this document are current at the time of publishing. For latest updates call the IAM section of
+NYSDEC’s Division of Air Resources at 518-402-8402.
+
+

@@ -1,0 +1,1441 @@
+New York State Department of Environmental Conservation
+Air Permit Application Instructions
+Stationary sources meeting the applicability requirements of 6 NYCRR Subparts 201-5 and 201-6 are required to obtain a
+facility permit from the Department. A facility permit is a single comprehensive document that describes the regulatory
+requirements that apply to a facility and the methods that the facility will use to demonstrate compliance with them.
+All permit applications are to be submitted to the appropriate NYSDEC Regional Office to the attention of the Regional
+Permit Administrator. A list of NYSDEC Regional Offices and Regional Permit Administrators is available on the
+Department’s website at http://www.dec.ny.gov/about/558.html. The application form and any required supporting
+documentation may be submitted electronically or as a paper copy at the applicant’s discretion. Please contact the
+appropriate DEC regional office if you are unsure how to complete any portion of the permit application form.
+For activities conducted at Title V facilities that are not in compliance with one or more applicable requirements at the
+time of application, the applicant must identify remedial measures for those activities and provide a schedule for their
+implementation. The applicant should define these measures at the facility, emission unit or process level, as appropriate.
+Note: Applications for permit modifications must contain a complete set of data at the facility level and for each emission
+unit affected by the modification. A complete set of facility level data includes all information listed in Section III, taking
+the modification into account. Emission unit information refers to all relevant data in Section IV pertaining to the affected
+emission unit(s), process(es), emission source(s), and emission point(s). If a second modification application is submitted
+while the initial application is under review, it should replace the first application and include the combined set of
+proposed changes.
+
+Detailed Instructions
+DEC ID: Enter the 10 digit DEC ID that corresponds to the facility described in this application. If this application is for a
+new facility, leave this box blank. If the facility’s DEC ID is known, it should be entered on each page of the application.
+Application ID: For facilities with multiple Title V permits, enter the 15 digit Application ID that corresponds to the
+portion of the facility described by this application, if known. If this application is for a new facility, leave this box
+blank.
+Application Type: Check the box that corresponds to the type of permit being applied for. Note that applications for
+Title V facility permits require additional information to be supplied as specified on the application form and in these
+instructions.
+NOTE: If more space is needed to enter information for any item on the application form, use the appropriate continuation
+sheet(s). If the facility’s DEC ID is known, it should be entered on each continuation sheet.
+
+Section I - Certification
+Certification: Enter the name, official title, signature, and date of signature of the responsible official accountable for the
+truth, accuracy, and completeness of the information contained in this permit application. Responsible official is defined
+as one of the following:
+1. For a corporation: a president, secretary, treasurer, or vice-president of the corporation in charge of a principal
+Version 3 – 11/21/16
+
+1
+
+business function, or any other person who performs similar policy or decision-making functions for the
+corporation, or a duly authorized representative of such person if the representative is responsible for the overall
+operation of one or more manufacturing, production, or operating facilities applying for or subject to a permit
+and either:
+a. The facilities employ more than 250 persons or have gross annual sales or expenditures exceeding $25
+million (in second quarter 1980 dollars); or
+b. The delegation of authority to such representatives is approved in advance by the permitting authority;
+2. For a partnership or sole proprietorship: a general partner or the proprietor, respectively;
+3. For a municipality, State, Federal, or other public agency: Either a principal executive officer or ranking elected
+official. For the purposes of this part, a principal executive officer of a Federal agency includes the chief executive
+officer having responsibility for the overall operations of a principal geographic unit of the agency (e.g. a Regional
+Administrator of EPA); or
+4. For (Title IV) affected sources:
+a. The designated representative in so far as actions, standards, requirements, or prohibitions under Title IV
+of the CAAA or the regulations promulgated thereunder are concerned; and
+b. The designated representative for any other purposes under Part 70.
+Note: Applications that are not signed by a responsible official will not be accepted.
+New York State Professional Engineer Certification: If preparing any part of the permit application involved the practice
+of engineering, provide the name, New York State P.E. license number, and signature of the professional engineer under
+whose auspices the practice of engineering was conducted while preparing this application.
+New York State professional licensing rules (Section 7200 of the State Education Law, et. seq.) require that the practice of
+engineering be conducted by, or under the direct supervision of, a professional engineer licensed in New York State. The
+practice of engineering is defined as the performance of a professional service such as consultation, investigation,
+evaluation, planning, design or supervision of construction or operation in connection with any utilities, structures,
+buildings, machines, equipment, processes, works, or projects wherein the safeguarding of life, health and property is
+concerned, when such service or work requires the application of engineering principles and data.
+
+Section II – Identification Information
+Type of Permit Action Requested: Check the box that best describes the type of permit action being applied for.
+Note: Minor modifications, significant modifications, and administrative amendments to Title V permits are described
+in 6 NYCRR Part 201-6.6(c). Modifications to state facility permits are described in 6 NYCRR Part 201-5.4.
+Facility Information: Enter the name and the correct physical location of the facility (e.g. Acme Rd. or Bldg. 3, XYZ
+Industrial Park). Check the appropriate box and enter the name of the City, Town or Village, and Zip Code for the primary
+jurisdiction of the facility. For instances where a facility is located in multiple jurisdictions (i.e., across city, town, village or
+county lines) list all jurisdictions with the primary jurisdiction listed first.
+
+Version 3 – 11/21/16
+
+2
+
+Owner/Firm Information:
+Name: Enter the name of the owner of the facility for which this application is being prepared. If the owner is an
+individual, list his or her full name. If the owner is not a partnership or corporation (i.e. a single taxpayer ID) provide
+the name of each individual owner. This includes situations where the ownership is listed in the name of multiple
+individuals but no legal business partnership exists. For corporations, include division or subsidiary name, if any.
+Business Taxpayer ID: Enter the business taxpayer ID associated with the owner(s) named above. Do not enter
+personal social security numbers.
+Street Address: Enter the mailing address of the facility owner(s). If the mailing address for each owner is different,
+list each address separately.
+City: List the city that corresponds to the mailing address listed above.
+State/Province: List the state or province for the mailing address specified above.
+Country: List the country of the mailing address specified above. If the address is in the U.S., leave blank.
+Zip: List the full zip or other applicable mail code. Add the necessary extensions to U.S. zip codes where applicable.
+Owner Classification: Check the box that most closely represents the facility owner’s classification.
+Owner/Firm Contact Information:
+Name: List the owner’s representative responsible for answering any air permit inquiries.
+Phone: Provide the telephone number for the individual listed above.
+E-mail Address: Provide the e-mail address for the listed individual.
+Fax: Provide the fax number, if available, for the listed individual.
+Affiliation: List the entity (e.g. company, corporation, consultant, law firm, business, etc.) that the above named
+contact is associated with if it is different from the owner/firm listed above.
+Title: List the title of the contact specified above (e.g. Vice President, Project Engineer, etc.)
+Street Address: List the mailing address of the contact named above. Do not provide personal addresses.
+City: List the city, town or village for the mailing address of the contact specified above.
+State/Province: List the state or province for the mailing address of the contact specified above.
+Country: List the country of the mailing address specified above. If the address is in the U.S., leave blank.
+Zip: List the full zip or other applicable mail code. Add the necessary extensions to U.S. zip codes where applicable.
+
+Version 3 – 11/21/16
+
+3
+
+Note: The final operating permit will be sent to the Owner/Firm contact listed above.
+Facility Contact Information:
+Name: List the facility’s representative responsible for answering any air permit inquiries.
+Phone: List the telephone number for the individual listed above.
+E-mail Address: Provide the e-mail address for the listed individual.
+Fax: List the fax number, if available, for the listed individual.
+Affiliation: List the entity (e.g. company, corporation, consultant, law firm, business, etc.) that the above named
+contact is associated with if it is different from the owner/firm listed above.
+Title: List the title of the contact specified above (e.g. Vice President, Project Engineer, etc.)
+Street Address: List the mailing address of the contact named above. Do not provide personal addresses.
+City: List the city, town or village for the mailing address of the contact specified above.
+State/Province: List the state or province for the mailing address of the contact specified above.
+Country: List the country of the mailing address specified above. If the address is in the U.S., leave this box blank.
+Zip: List the full zip or other applicable mail code. Add the necessary extensions to U.S. zip codes where applicable.
+Project Description: Describe the project being applied for in this submittal. Indicate if changes in facility operations have
+occurred or will occur as a result of this application or whether the application is representative of the status quo. For
+modifications to existing permits, provide a description of the proposed modifications to the permitted facility.
+If the applicant is seeking to cap the Potential to Emit (PTE) of the facility or an emission unit in order to avoid applicability
+to a regulatory requirement, this information should be included in the project description. The applicant should also
+specify whether any emission reduction credits (ERCs) are being requested or used as part of this project, including the
+amount, type, and origin of the credits.
+If the applicant is requesting a variance from one or more Reasonably Available Control Technology (RACT) requirements,
+a brief summary of the requested variance and the reason for requesting it (e.g. technical or economic infeasibility) should
+be provided with the project description.
+
+Section III – Facility Information
+Classification: Check the box that most closely corresponds to the primary classification of this facility.
+Affected States: For Title V permit applications only, check all states and identify any federally recognized Native American
+4
+Version 3 – 11/21/16
+
+Indian tribal lands that are located within 50 miles of the facility referenced in this application. If applicable, list the name
+of the tribal land on the line provided. For assistance in locating applicable federally recognized Tribal Lands, contact the
+appropriate DEC Regional Office.
+SIC and NAICS Codes: Enter all Standard Industrial Classification (SIC) and North American Industrial Classification System
+(NAICS) Codes that apply to the facility defined by this application. The primary SIC and NAICS code for the facility (or
+portion of the facility covered by this application) should be listed first.
+Facility Description: Provide an overview description of the facility referenced in this application in terms of its primary
+function or business activity, principal industrial or manufacturing processes (including the primary item(s) being
+manufactured), and any other information supporting the SIC and NAICS codes listed above. If more than one Title V
+Facility permit is anticipated, provide sufficient detail in this description to adequately define that portion of the facility
+associated with this application.
+Example Facility Descriptions
+1. This facility is a teaching hospital associated with NY State University. The hospital operates one crematory for
+human remains and three boilers. Two of the boilers burn natural gas and are both rated at 20 mmBtu/hr. The
+other boiler burns number 2 fuel oil and is rated at 25 mmBtu/hr.
+2. This is a leather finishing facility which treats and colors leather material for sale to apparel manufacturers. It has
+two leather coating lines each consisting of a dozen individual emission sources such as spray painting booths.
+Several other emission points are located throughout the facility involving such other activities as trimming and
+paint testing.
+Compliance Statements: Title V facility permit applicants must attest to the compliance status of the facility with respect
+to all applicable federal requirements. To fulfill this requirement, check the boxes to acknowledge that the compliance
+statements have been read and that their provisions regarding compliance within the facility have been agreed to. If the
+facility described in this application contains one or more emission units that are not in compliance with an applicable
+requirement as of the date of application, complete the compliance plan on page 8 of the application form for each of
+those emission units.
+Note: Title V facility permit applications without completed compliance statements will not be accepted.
+Facility Applicable Federal Requirements: Provide the rule citations of all applicable federal requirements that apply at
+the facility level. A facility level regulation is one that applies to more than one emission unit at the facility or to the facility
+as a whole (e.g. general requirements, emission caps etc.). Applicable federal requirements include the list of federal
+regulations defined as applicable requirements in 6 NYCRR Part 200.10 and those state regulations which have been
+approved or have been submitted for approval into the New York State Implementation Plan (SIP). Information regarding
+the SIP status of state regulations may be obtained by contacting the appropriate DEC regional office. All rule citations
+listed in this section should be as precise as necessary in order to define the applicable requirement. In some instances, a
+federal regulation may reference or overlap a corresponding state regulation (or vice-versa). All such regulations must be
+listed in the appropriate (i.e. applicable federal or state only requirements) sections even though they may have similar
+or identical requirements.
+Note: The applicant should be aware that federal applicable requirements include those regulations relating to
+Stratospheric Ozone Protection (Title VI of the Clean Air Act Amendments of 1990). To determine whether the facility
+is subject to Title VI requirements, the applicant should consider the following questions regarding operations at the
+5
+
+Version 3 – 11/21/16
+
+facility defined by this application:
+a. Does the facility have any air conditioners or refrigeration equipment that uses CFCs
+(chlorofluorocarbons), HCFCs (hydrochorofluorocarbons) or other ozone-depleting substances or
+regulated substitute substances?
+b. Do any air conditioners or any pieces of refrigeration equipment contain a refrigeration charge greater
+than 50 lbs?
+c. Do facility personnel maintain, service, repair or dispose of any motor vehicle air conditioners (MVACs)
+or appliances as defined by 40 CFR Part 82.115?
+If the answer to any of these questions is yes, the applicant must cite the appropriate Title VI requirement (i.e. 40 CFR
+Part 82 Subparts A through G) at the facility level.
+Facility State Only Requirements: Provide the rule citations of all applicable state only requirements that apply at the
+facility level. State-only regulations include all those New York State air emission regulations which are not in the SIP.
+Information regarding the SIP status of state air emission regulations may be obtained by contacting the appropriate DEC
+regional office. All citations listed in this section should be as precise as necessary in order to define the applicable
+requirement. In some instances, a state regulation may reference or overlap a corresponding federal regulation (or viceversa). All such regulations must be listed in the appropriate (i.e. applicable federal or state only requirements) sections
+even though similar or identical requirements may apply.
+Facility Compliance Certification: The facility owner or operator should complete a separate facility compliance
+certification for each facility level monitoring strategy that is being proposed:
+(a) to comply with a listed applicable federal or state only requirement that requires, but does not specify, a detailed
+method of compliance monitoring; or
+(b) as an alternative to the compliance monitoring method specified by an applicable requirement.
+Each compliance certification must contain a detailed description of the proposed method(s) for demonstrating
+compliance with the listed applicable requirement. Appropriate monitoring methodology may include parametric
+monitoring (e.g. temperature monitoring), fuel sampling, record keeping, work practices, or any other monitoring or
+testing methodology approved by the Department. Once a determination is made by the Department that the monitoring
+strategy and limits being proposed are sufficient to demonstrate compliance with the applicable requirement, these limits
+will be incorporated as enforceable permit conditions.
+Rule Citation: Specify the rule citation for the applicable requirement for which a facility compliance certification plan
+is being proposed. The citation should be as precise as necessary to define the applicable requirement. If the same
+compliance monitoring strategy is to be applied to several different regulations, separate compliance certification
+sections should be completed for each rule.
+Rule Type and Capping Check Boxes: Check the box indicating whether the rule cited above refers to an applicable
+federal or state only requirement. If the proposed limit and associated monitoring activity is being conducted for the
+express purpose of avoiding applicability to the rule cited above, check the box marked Capping.
+CAS Number: Enter the Chemical Abstract Series (CAS) number for the contaminant being monitored for compliance
+6
+
+Version 3 – 11/21/16
+
+with the applicable requirement cited above. This box should be completed regardless of whether the contaminant is
+being measured directly or through the use of surrogates. If the rule cited above contains a requirement that does not
+specify a contaminant, this box may be left blank (e.g. an applicable regulation containing a limit on opacity that does
+not reference a contaminant).
+Contaminant Name: Enter the name of the contaminant that corresponds to the listed CAS Number. Do not
+abbreviate or use chemical formulas. If the rule cited above contains a requirement that does not specify or reference
+a contaminant, this box may be left blank.
+Monitoring Information: This section provides a means for the applicant to detail the methods that are being proposed
+to demonstrate compliance. Describe the monitoring strategy that is being proposed to demonstrate compliance with
+each rule cited in the facility compliance certification section by completing the information below.
+Monitoring Type: Check one box that describes the general category of monitoring activity that is being proposed to
+meet the requirements of the rule cited above. The monitoring types are defined as follows:
+1. Ambient Air Monitoring: This type of monitoring involves the direct measurement of contaminant
+concentrations (including surrogate contaminants where applicable) in the ambient air via instrumentation
+or devices that are operated on a continuous or periodic basis. The monitors are typically sited either at the
+facility property line or some other predetermined receptor location and may be used to augment or
+confirm other monitoring activities or compliance demonstrations (e.g. dispersion modeling). When
+selecting this monitoring type, an ambient air monitoring plan must also be provided as described in the
+Supporting Documents and Attachments section of these instructions.
+2. Work Practices Involving Specific Operations: This type of monitoring involves activities where the duration
+of operation, throughput of product, throughput of raw material, or a parameter of a process material is
+being measured. This type of monitoring generally represents an operating limit.
+3. Record Keeping/Maintenance Procedures: This type of monitoring refers to activities involving the upkeep
+of records to demonstrate compliance with a requirement or the application of maintenance procedures
+which may be necessary to maintain acceptable operations.
+Description: Provide a brief description of the chosen monitoring activity. The description should include details
+regarding the specific item being monitored.
+Example Monitoring Descriptions
+1. Ambient Air Monitoring: Ambient air monitoring is to be conducted at the eastern end of the facility near the
+Main Gate. A hi-vol air filtration device is to be used for the sampling of particulates following the procedures
+described in the Ambient Air Monitoring Plan attached to this application.
+2. Work Practice Involving Specific Operations: The facility is restricted to burning 1,000,000 gallons of ultra-low
+sulfur #2 fuel oil or less as determined by summing the individual monthly fuel usage quantities during any
+consecutive 12 month period. Fuel usage quantities will be quantified via fuel purchase records. Such records will
+be maintained at the facility for a 5 year period.
+3. Record Keeping/Maintenance Procedures: The cement plant is required to have all haul roads watered twice per
+day. The length of time, date and time of day the water truck is used will be recorded in a written log kept on site
+7
+
+Version 3 – 11/21/16
+
+for a period of at least 5 years.
+Work Practice Type Code: If Work Practice Involving Specific Operations is chosen as the monitoring type, complete
+this box by entering the appropriate code (see Work Practice Type code table) corresponding to the item being
+monitored via the application of a work practice.
+Process Material Code: If either of the following Work Practice Type codes are entered above: 03 – Process Material
+Throughput or 04 – Parameter of Process Material, complete this box by providing the appropriate code from the
+Process Material code table.
+Process Material Description: If an appropriate process material code is not contained in the Process Material code
+table, provide a brief description of the process material being measured.
+Reference Test Method: Enter the reference test method or analytical procedure that will be used to conduct the
+monitoring activity being described. If a reference test method does not apply (i.e. for a record keeping requirement),
+leave this box blank.
+Monitored Parameter Code: Complete this box by entering the appropriate code (see Monitored Parameter code
+table) that best describes the parameter that is being monitored, if applicable, otherwise leave this box blank. If a
+Work Practice Type code is included above, complete this box only if code 04 - Parameter of Process Material is listed,
+otherwise leave this box blank. For instances where a specific contaminant is the parameter being measured, enter
+the CAS Number of the contaminant. This applies for contaminants that are being measured directly or as surrogates
+for other contaminants. The following are examples of process material parameters: sulfur or ash content of a fuel
+being combusted; pounds of VOC per gallon of coating as applied; moisture content of raw material etc.
+Monitored Parameter Description: If the appropriate parameter code is not contained in the Monitored Parameter
+code table, provide a brief description of the parameter being measured, otherwise leave this box blank. If a CAS
+Number is entered as a parameter code, provide the name of the contaminant in this box.
+Manufacturer Name/Model Number: Enter the manufacturer's name and model number of any instrumentation
+being used for the monitoring activity identified above or provide a brief description identifying the monitoring device.
+If no instrumentation is being used, leave this box blank.
+Limit: Enter the proposed upper and/or lower permit limit(s) (where applicable) which pertain to the monitoring
+activity.
+Limit Units Code: Enter the unit code that corresponds to the specified permit limit (see Units of Measurement code
+table).
+Limit Units Description: If an appropriate unit code is not contained in the Units of Measurement code table, provide
+a brief description of the limit units.
+Averaging Method Code: Enter the code (see Averaging Method code table) corresponding to the averaging method
+or statistical basis used to verify the results of the monitoring activity with the specified limit. Note: Limits placed on
+production and operation should not exceed an annual limit rolled on a monthly basis. Limits expressed on a calendar
+year basis are not considered to be federally enforceable restrictions and will not be accepted.
+Averaging Method Description: If the proposed averaging method is not contained in the Averaging Method code
+8
+
+Version 3 – 11/21/16
+
+table, provide a brief description of the averaging method being used for the listed monitoring activity.
+Monitoring Frequency Code: Enter the code (see Monitoring Frequency code table) that corresponds to the proposed
+monitoring frequency.
+Monitoring Frequency Description: If the proposed monitoring frequency is not contained in the Monitoring
+Frequency code table, provide a brief description of the monitoring frequency being proposed.
+Reporting Requirements Code: Enter the code (see Report Submittal code table) that corresponds to the appropriate
+report submittal requirement. Note: Title V facilities are required to submit monitoring reports on a semiannual basis
+at a minimum.
+Reporting Requirements Description: If the proposed reporting requirement code is not contained in the Report
+Submittal code table, provide a brief description of the proposed monitoring reporting requirement.
+Facility Emissions Summary: Provide a summary of emissions of all regulated air pollutants that are emitted from the
+facility by individual CAS Number. Regulated air pollutants include the criteria pollutants, individual Hazardous Air
+Pollutants (HAPs), high toxicity air contaminants (see 6 NYCRR Subpart 201-9 and 6 NYCRR Subpart 212-2.2), and any other
+contaminants being emitted from regulated processes.
+For purposes of determining applicability to Title V and New Source Review pursuant to 6 NYCRR Part 231, facility
+emissions listed in this section should also include contributions from any exempt and trivial activities. Exempt activities,
+as defined in 6 NYCRR Part 201-3.2, must be identified using the List of Exempt Activities form and attached as supporting
+documentation. Trivial activities, as defined in 6 NYCRR Part 201-3.3, do not need to be identified individually. Records
+verifying that each activity is trivial must be maintained on-site and be made available to the Department upon request.
+Annual actual emissions from both exempt and trivial activities should also be provided as part of the emissions
+calculations in the supporting documentation. The actual emissions can be quantified in the aggregate, that is, the
+applicant may provide an estimate of the total actual annual emissions of each regulated air pollutant (with the exception
+of speciated HAPs) from all exempt activities (e.g., if the total actual annual HAP emissions from all exempt activities are
+estimated to be 750 lbs/yr, the applicant could indicate that these do not exceed 800 lbs/yr). A separate but similar
+analysis would be completed for the aggregated trivial activities.
+CAS Number: Specify the Chemical Abstract Series number for each regulated air pollutant emitted from the facility
+(or portion of the facility defined by the application). The first 9 lines of CAS Numbers and contaminant names are
+prefilled and represent the following criteria pollutants:
+PM-10 – Particulate matter less than 10μm in diameter;
+PM-2.5 – Particulate matter less than 2.5μm in diameter;
+Sulfur Dioxide (SO2);
+Oxides of Nitrogen (NOx);
+Carbon Monoxide;
+Lead – elemental lead;
+Total Volatile Organic Compounds (VOC) – the total quantity of all volatile organic compounds (as defined in 6
+NYCRR Part 200.1) emitted in all forms;
+Total Hazardous Air Pollutants (HAP) – the total quantity of all hazardous air pollutants (as defined in Section
+112(b) of the Clean Air Act Amendments of 1990) emitted in all forms; and
+Carbon Dioxide Equivalents – the total quantity of CO2 equivalents (as defined in 6 NYCRR Part 231) emitted.
+
+Version 3 – 11/21/16
+
+9
+
+Note: Some emission totals may overlap. For example, Total HAPs may include lead; Total VOC may include some
+HAPs, etc.
+Contaminant Name: List the complete name of the regulated air pollutant that corresponds to the listed CAS Number.
+Do not abbreviate or use chemical formulas.
+Potential to Emit (tons/yr): Enter the facility wide total potential to emit (PTE) in tons per year for each regulated air
+pollutant that is listed. The PTE is defined as the maximum capacity of an air contamination source to emit any
+regulated air pollutant under its physical or operational design. Any physical or operational limitation on the capacity
+of the air contamination source to emit a regulated air pollutant, including air pollution control equipment and/or
+restrictions on the hours of operation, or on the type of material combusted, stored, or processed, shall be treated as
+part of the design only if the limitation is contained in federally enforceable permit conditions. The reported quantity
+should reflect the total of the maximum possible emissions from each individual emission unit.
+Actual (lbs/yr): Enter the actual emissions in pounds per year for all regulated air pollutants for any existing source
+which has not submitted an emission statement for the previous year, as per requirements set forth in 6 NYCRR Part
+202-2, and for all High Toxicity Air Contaminants as described in 6 NYCRR Part 212-2.4. Actual emissions represent
+those resulting from normal daily operations, verifiable by operating records or other compliance monitoring
+activities, averaged over the last two years or some other more representative time interval justified by the applicant
+(in the Calculations Attachment) to the Department's satisfaction.
+Note: All calculations performed when determining the PTE and/or actual emissions from the facility must be attached
+to the application as supporting documentation.
+
+Section IV – Emission Unit Information
+An emission unit is defined as any part or activity of a facility that emits or has the potential to emit any regulated air
+pollutant. An emission unit is represented as a grouping of processes (activities and emission sources) for any of the
+following:
+1. A single emission point; or
+2. A group of emission points provided that the appropriate compliance assurance methods can be demonstrated
+to the satisfaction of the Department; or
+3. A process that cannot be associated with one emission point or a group of emission points.
+In defining an emission unit, the following restrictions apply:
+1.
+2.
+3.
+4.
+
+A defined emission source can only be cited in one emission unit;
+A defined emission point can only be cited in one emission unit;
+A defined emission point can only be cited in one issued permit; and
+A defined emission unit can only be cited in one issued permit.
+
+Applicants are encouraged to configure emission units to simplify the compliance certification and monitoring activities
+needed to meet regulatory requirements. Emission sources within an emission unit which will not be in compliance with
+applicable federal requirements at the time of permit issuance must be included in the Compliance Plan portion of this
+section.
+
+Version 3 – 11/21/16
+
+10
+
+Emission Unit ID: Enter the 6 character emission unit identification number. For new emission units, applicants may
+assign this identifier. Note: The emission unit ID is unique, and cannot be duplicated within a facility.
+Emission Unit Description: Provide a description of the emission unit. At a minimum, the emission unit description
+should identify, in general terms, all emission points and processes that comprise the emission unit and their general
+function. If the emission unit constitutes a facility-wide activity not associated with any specific emission points, the
+applicant should state this in the description along with general descriptive information concerning the activity.
+Building Information: Applicants are required to provide location information regarding any structures associated with
+the emission unit identified above.
+Building ID: Using a designation not to exceed 10 characters, identify each building which contains the emission
+sources, emission points, and/or processes associated with the emission unit identified above.
+Building Name: For each building identified, provide the name of the building.
+Length: Enter the longest projected dimension of the listed building in feet.
+Width: Enter the greatest projected width of the listed building in feet. This is the greatest dimension perpendicular
+to the building length provided above.
+Orientation: Specify the orientation or alignment of the listed building along its length with respect to the north
+direction. The value should be within +/- 10 degrees. Assume north represents 0o and that the degrees increase
+moving in a clockwise direction (i.e., east is 90o, south is 180o and west is 270o).
+Emission Unit Emissions Summary: This section consists of optional information which should be completed only if the
+applicant intends to describe any regulated air pollutants being emitted at the emission unit level. Emissions at this level
+will need to be quantified if required by an applicable requirement, a proposed permit limitation references a specific
+emission limit at the emission unit level, or the Department determines that the information is necessary to evaluate a
+compliance strategy proposed by the applicant.
+Emission Unit: Enter the 6 character emission unit identification number.
+CAS Number: Specify the Chemical Abstract Series Number for each listed regulated air pollutant.
+Contaminant Name: Enter the name of the regulated air pollutant for each listed CAS Number. Do not abbreviate or
+use chemical formulas.
+ERP: Enter the total emission rate potential (ERP) of each listed contaminant in pounds per year for all processes
+emitting regulated air pollutants that comprise this emission unit. The ERP is defined as the maximum rate at which a
+specified air contaminant from an emission unit would be emitted to the outdoor atmosphere in the absence of any
+control equipment. The ERP of a specified air contaminant from an emission unit is calculated by dividing weight of
+the contaminant (expressed in pounds) that would be emitted to the outdoor atmosphere during maximum emission
+conditions in the absence of any control equipment, by the duration (expressed in hours) of the emissions. This value
+may not be a simple summation of all individual process ERPs since individual processes may not necessarily be able
+to operate simultaneously. If this is the case, the applicant should list the ERP representing the combination of
+individual process ERPs that result in the maximum ERP for the emission unit.
+
+Version 3 – 11/21/16
+
+11
+
+Potential to Emit: Enter the total PTE of each listed contaminant, in both pounds per hour and pounds per year, for
+all processes emitting regulated air pollutants that comprise this emission unit. The values should reflect the PTE from
+the combination of individual process PTEs that result in the maximum PTE values for the emission unit.
+Actual Emissions: Enter the actual emissions in pounds per hour and pounds per year for all regulated air pollutants
+emitted by the emission unit and for which an emission statement has not been submitted for the previous year, as
+per requirements set forth in 6 NYCRR Part 202-2, and for all High Toxicity Air Contaminants as described in 6 NYCRR
+Part 212-2.4. Actual emissions represent those resulting from normal daily operations, verifiable by operating records
+or other compliance monitoring activities, averaged over the last two years or some other more representative time
+interval justified by the applicant in the Calculations attachment to the Department's satisfaction.
+Emission Point Information: An emission point is defined as a stack, vent, chimney or other functionally equivalent
+opening that vents one or more air contaminants to the outdoor atmosphere. The information listed in this section is
+required for each emission point described in the application. Activities that are defined as exempt or trivial, pursuant to
+6 NYCRR Part 201-3, are excluded from the requirement to provide emission point data.
+Emission Point ID: Enter the 5 character emission point identification number for each emission point associated with
+the above listed emission unit. For new emission points, applicants may assign this identifier, however any existing
+emission point IDs should not be altered. Note: The emission point ID is unique and cannot be duplicated within a
+facility.
+Ground Elevation: Enter the elevation above mean sea level at the base of the emission point to the nearest foot
+(i.e., 120 rather than 119.6). This information is available from NYSDOT or USGS topographic maps.
+Height: Enter the height of the emission point measured from ground level to the top of the stack or vent to the
+nearest foot (i.e., 62 rather than 62.3).
+Height Above Structure: Enter the height of the emission point above the highest point of a building or structure to
+the nearest foot (39 rather than 38.7). If the top of the emission point is below the building height, this parameter
+should be expressed as a negative number.
+Inside Diameter: Enter the inside diameter at the exit of the emission point expressed to the nearest inch. If the
+emission point cross-section is not circular, leave blank and complete the cross-section box instead.
+Exit Temperature: Enter the stack gas exit temperature to the nearest degree Fahrenheit, if applicable, otherwise
+leave blank. If this parameter varies 30oF or more depending on the process, list the value that results in the greatest
+environmental impact using Department approved dispersion modeling.
+Cross Section: For each non-circular emission point, enter the internal length and width in the appropriate boxes to
+the nearest inch.
+Exit Velocity: Enter the stack gas exit velocity to the nearest foot per second. If this value varies by more than 10%
+depending on the process involved, list the value that results in the greatest environmental impact using Department
+approved dispersion modeling.
+Exit Flow: Enter the stack gas exit flow to the nearest cubic foot per minute at actual conditions. If this value varies
+by more than 10% depending on the process involved, list the value that results in the greatest environmental impact
+using Department approved dispersion modeling.
+12
+
+Version 3 – 11/21/16
+
+NYTM Coordinates: Enter the East and North New York Transverse Mercator (NYTM) coordinates of the emission
+point to the nearest three decimal places, unless a less precise degree of detail is approved by the Department. Gross
+values (to the nearest tenth) may be obtained from the most recent 7.5 Minute Series Planimetric Maps published by
+the New York State Department of Transportation.
+Building: Enter the ID of the building or structure where the emission point is physically located. If the emission point
+is not located within any building or structure leave this box blank.
+Distance to Property Line: Enter the straight line distance to the nearest foot from the emission point to the nearest
+point on the property line of the facility.
+Date of Removal: For an emission point cited in a prior application that is no longer in service, enter the month and
+year (mm/yr) when the emission point was permanently removed, otherwise leave this box blank.
+Emission Source/Control Information: An emission source is defined as any apparatus, contrivance or machine capable
+of causing emissions of any air contaminant to the outdoor atmosphere, including any appurtenant exhaust system or air
+cleaning device. This section should identify each emission source that directly results in the emission of regulated air
+pollutants from an activity and all equipment used to control emissions from the activity. For example, an incinerator
+would be considered as an emission source along with the afterburner that is used to control emissions. A surface coating
+line may be considered a single emission source or multiple emission sources (i.e., applicator, heating oven, curing oven)
+depending on whether the different portions of the coating line are identified as separate processes in the application and
+are vented through individual emission points. Emission sources associated with exempt and trivial activities as defined in
+6 NYCRR Subpart 201-3 need not be described.
+Emission Source ID: Enter the emission source ID. The emission source ID is unique, and cannot be duplicated within
+a facility.
+Emission Source Type: Enter the letter corresponding to the type of emission source being described as listed below:
+C – Combustion unit (boiler, gas turbine, diesel engine, etc.)
+R – Incinerator, crematory
+I – Process source (paint booth, rock crusher, degreaser, etc.)
+K – Air pollution control equipment
+Date of Construction: Enter the month and year (mm/yr) when construction of this emission source/control
+commenced.
+Date of Operation: Enter the month and year (mm/yr) when this emission source/control commenced operation.
+Date of Removal: For equipment cited in a prior application that is no longer in service, enter the month and year
+(mm/yr) when the emission source was permanently removed from operation.
+Control Type Code: If the specified emission source is an emission control device, enter the appropriate three digit
+code from the Control Equipment Type code table to designate the type of emission control equipment being used,
+otherwise leave this box blank.
+Control Type Description: If the appropriate code is not contained in the Control Equipment Type code table, provide
+13
+
+Version 3 – 11/21/16
+
+a brief description of the emission control equipment in this box, otherwise leave this box blank.
+Manufacturer’s Name/Model Number: Specify the name of the manufacturer and the model number of the listed
+emission source or provide a brief description identifying the emission source (e.g. spray booth #2 on coating line #1).
+Design Capacity: Enter the design or maximum capacity value (typically in terms of input or production rate) of the
+identified emission source. Note: For sources having several different design capacities depending on a specific input,
+the applicant should list that capacity in terms of the input that results in the greatest total emissions.
+Design Capacity Units: Enter the units of the listed design capacity using the Units (of measurement) code table. The
+listed design capacity should be in the same units referenced in regulation where appropriate.
+Design Capacity Description: If the appropriate code is not contained in the Units (of measurement) code table,
+provide a brief description of the design capacity units in this box, otherwise leave this box blank.
+Waste Feed Code: Enter the code that best describes the method by which waste is being fed into the incinerator
+unit using the codes listed in the Waste Feed (Incinerator) code table. If the facility does not operate an incinerator,
+leave this box blank.
+Waste Feed Description: If an appropriate waste feed code is not contained in the Waste Feed (Incinerator) code
+table, provide a brief description of the waste feed method to the specified incinerator. If the facility does not operate
+an incinerator, leave this box blank.
+Waste Type Code: Enter the value from the Waste Type (Incinerator) code table that best describes the type of waste
+being fed into each listed incinerator otherwise leave this box blank.
+Waste Type Description: If the appropriate waste type code is not contained in the Waste Type (Incinerator) code
+table, provide a brief description of the waste type being fed into the specified incinerator otherwise leave this box
+blank.
+Process Information: A process is defined as any activity involving one or more emission sources that emits or has the
+potential to emit any regulated air pollutant.
+Emission Unit ID: Enter the six character identification number for the emission unit associated with this process.
+Process ID: Enter the three character identification for the process. For a new process, applicants may assign this
+identifier. Note: The process ID is unique and cannot be duplicated within a facility.
+Process Description: Provide a description of the identified process. Note: The process description will not be
+considered confidential, consequently the applicant should avoid including any proprietary information.
+SCC Code: Specify the Source Classification Code (SCC) which best describes the process. The applicant should verify
+that the units of measurement associated with the selected SCC code match the units that will be used to report the
+facility’s emissions. Note: A SCC is required for each process described in the application.
+Total Throughput: Enter the total maximum throughput, input, production rate, etc. in terms of quantity per hour
+and quantity per year for the process.
+
+Version 3 – 11/21/16
+
+14
+
+Throughput Quantity Units Code: Enter the appropriate code (see Process Rate code table) specifying the units in
+which the throughput/input/production rate for the process is expressed, if necessary. The units must be consistent
+with the listed SCC.
+Throughput Quantity Units Description: If the appropriate throughput quantity units are not contained in the Process
+Rate code table, provide a brief description of the throughput quantity units for this process, otherwise leave blank.
+Confidential: If this box is checked, certain information for this specific process will be kept confidential with restricted
+access to the public (as described in 6 NYCRR Part 616) provided adequate justification is attached as supporting
+documentation to the application. Confidential process information includes:
+a.
+b.
+c.
+d.
+
+The design capacity and design capacity units of each emission source;
+The total throughput quantity per hour and per year and the throughput quantity units;
+The operating schedule in hours per day and days per year; and
+The emissions estimation methods used.
+
+Those items listed above that are determined to be eligible for confidential status will not be disclosed to any party
+outside the Department until and unless a formal determination pursuant to 6 NYCRR Part 616 is made that the
+information cited is not confidential. The USEPA has the authority to request information that is designated
+confidential by the Department directly from the applicant. The applicant should be aware that once this information
+is submitted, the USEPA may allow public access to it. In order to prevent this from occurring, Subpart 201-6.2(e)
+allows the applicant to submit information directly to the USEPA to determine whether it can be treated as a trade
+secret pursuant to 40 CFR Part 2. Information submitted as supporting documentation will be treated in the same
+manner (i.e. it will remain confidential, if so requested, until a formal determination is made that it is not confidential).
+Operating at Maximum Capacity: Check this box if the process is or may be operated at its maximum design or
+achievable capacity.
+Operating Schedule: Enter the maximum hours per day and days per year the process will be in operation.
+Building (ID): Enter the ID of the building or structure where the process identified above is physically located. If the
+process is not located within any building or structure, leave blank.
+Floor: Enter the floor name or number corresponding to the building or structure where the process identified above
+is physically located. If the process is not located within a building or structure, briefly describe the physical location
+of the process (e.g. Main Yard).
+Emission Point Identifier(s): Enter the ID of each emission point associated with the process being described. These
+identifiers should match some or all of those used in the Emission Point Information section previously completed for
+the emission unit.
+Emission Source/Control Identifier(s): Enter all the emission source identifiers associated with this process. These
+identifiers should match some or all of those listed in the Emission Source/Control Information section previously
+completed for the emission unit.
+Process Emissions Summary: This section should be completed if process level emissions information is needed because
+of a federal or state regulatory requirement, a proposed permit limitation or a compliance strategy. Since emissions from
+an individual process may vary depending on a variety of factors such as production or throughput, type of raw material,
+15
+
+Version 3 – 11/21/16
+
+capture efficiency, control efficiency, etc., the applicant should provide information relative to the operating scenario that
+results in the greatest flexibility in operations while maintaining emissions within regulatory requirements.
+Emission Unit: Enter the six character identification number for the emission unit associated with this process.
+Process: Enter the three character identification for the process.
+CAS Number: Specify the Chemical Abstract Series Number for each listed regulated air pollutant.
+Contaminant Name: List the complete name of the regulated air pollutant for each listed CAS Number. Do not
+abbreviate or use chemical formulas.
+% Throughput: Enter the percentage of throughput or input that consists of the listed contaminant. For example, half
+of a surface coating is comprised of solvents, of which 50% by weight is toluene. The percent of throughput for toluene
+would be 50% of 50% or 25%. If a specific contaminant is not part of an input, such as a product of incomplete
+combustion, leave this box blank.
+% Capture: Specify the percent capture efficiency of the stack or emission control device, if applicable. This is defined
+as the percentage of emissions from the process that go into the stack before being released into the atmosphere. If
+it is assumed that all emissions go into the stack to be emitted or captured by a control device, the % capture equals
+100%.
+% Control: Specify the percent control efficiency of each identified control device for each listed contaminant. If the
+process emissions of the contaminant are being controlled by more than one device, list the overall efficiency.
+Documentation of this value should be provided as supporting documentation. Enter 0 in this box if the contaminant
+emissions are not controlled by a control device.
+ERP: Specify the maximum rate, in pounds per hour, at which the listed contaminant would be emitted to the outdoor
+atmosphere in the absence of any control equipment. The emission rate potential (ERP) of a specified air contaminant
+is calculated by dividing the weight of the contaminant (expressed in pounds) that would be emitted to the outdoor
+atmosphere during maximum emission conditions in the absence of any control equipment, by the duration
+(expressed in hours) of such emissions. The ERP refers to all emissions of the contaminant from the process including
+both captured and uncaptured.
+ERP How Determined: Specify the code from the Emission Rate How Determined code table that best describes how
+the emission rate potential was determined.
+PTE: Enter the potential to emit (PTE) of the listed contaminant from the process in terms of pounds per hour, pounds
+per year and standard units. The PTE is defined as the maximum capacity of an air contamination source to emit any
+regulated air pollutant under its physical and operational design. Any physical or operational limitation on the capacity
+of the process contained in federally enforceable permit conditions is to be considered part of the design.
+Standard Units: Standard units are defined as any units specifically referenced in an applicable regulation. Specify the
+emissions unit value from the Units code table that corresponds to the quantity entered in the standard units box. If
+the standard units are expressed in terms of pounds per hour or pounds per year, leave this box and the standard
+units code box blank.
+PTE How Determined: Specify the code from the Emission Rate How Determined code table that best describes how
+16
+
+Version 3 – 11/21/16
+
+the potential to emit or PTE was determined.
+Actual Emissions: For an existing source which has not submitted an emission statement, as per 6 NYCRR Part 202-2
+for the previous year, and for all High Toxicity Air Contaminants as described in 6 NYCRR Part 212-2.4, enter the actual
+emissions in pounds per hour and pounds for year for all federal or state regulated air pollutants emitted by the
+process.
+Emission Source Emissions Summary: This section should be completed if emission source level emissions information is
+needed because of a federal or state regulatory requirement (e.g. 6 NYCRR Part 212), a proposed permit limitation or a
+compliance strategy. Since emissions from an individual emission source may vary depending on a variety of factors such
+as production or throughput, type of raw material, capture efficiency, control efficiency, etc., the applicant should provide
+information relative to the operating scenario that results in the greatest flexibility in operations while maintaining
+emissions within regulatory requirements.
+Emission Unit: Enter the six character identification number for the emission unit associated with this emission
+source.
+Process: Enter the three character identification for the process associated with this emission source.
+CAS Number: Specify the Chemical Abstract Series Number for each listed regulated air pollutant.
+Contaminant Name: List the complete name of the regulated air pollutant listed for each CAS Number. Do not
+abbreviate or use chemical formulas.
+% Throughput: Enter the percentage of throughput or input that consists of the listed contaminant. For example, half
+of a surface coating is comprised of solvents, of which 50% by weight is toluene. The percent of throughput for toluene
+would be 50% of 50% or 25%. If a specific contaminant is not part of an input, such as a product of incomplete
+combustion, leave this box blank.
+% Capture: Specify the percent capture efficiency of the stack or emission control device, if applicable. This is defined
+as the percentage of emissions from the emission source that go into the stack before being released into the
+atmosphere. If it is assumed that all emissions go into the stack to be emitted or captured by a control device, the %
+capture equals 100%.
+% Control: Specify the percent control efficiency of each identified control device for each listed contaminant. If the
+emission source emissions of the contaminant are being controlled by more than one device, list the overall efficiency.
+Documentation of this value should be provided in Calculations Attachment of the Supporting Documentation. If the
+contaminant emissions are not controlled by a control device enter 0 in this box.
+ERP: Specify the maximum rate, in pounds per hour, at which the listed contaminant would be emitted to the outdoor
+atmosphere in the absence of any control equipment. The emission rate potential (ERP) of a specified air contaminant
+is calculated by dividing the weight of the contaminant (expressed in pounds) that would be emitted to the outdoor
+atmosphere during maximum emission conditions in the absence of any control equipment, by the duration
+(expressed in hours) of such emissions. The ERP refers to all emissions of the contaminant from the emission source
+including both captured and uncaptured.
+ERP How Determined: Specify the code from the Emission Rate How Determined code table that best describes how
+the emission rate potential was determined.
+17
+
+Version 3 – 11/21/16
+
+PTE: Enter the potential to emit (PTE) of the listed contaminant from the emission source in terms of pounds per
+hour, pounds per year and standard units. The PTE is defined as the maximum capacity of an air contamination source
+to emit any regulated air pollutant under its physical and operational design. Any physical or operational limitation on
+the capacity of the process contained in federally enforceable permit conditions is to be considered part of the design.
+Standard Units: Standard units are defined as any units specifically referenced in an applicable regulation. Specify the
+emissions unit value from the Units code table that corresponds to the quantity entered in the standard units box. If
+the standard units are expressed in terms of pounds per hour or pounds per year, leave this box and the standard
+units code box blank.
+PTE How Determined: Specify the code from the Emission Rate How Determined code table that best describes how
+the potential to emit or PTE was determined.
+Actual Emissions: For an existing source which has not submitted an emission statement, as per 6 NYCRR Part 202-2
+for the previous year, and for all High Toxicity Air Contaminants as described in 6 NYCRR Part 212-2.4, enter the actual
+emissions in pounds per hour and pounds for year for all federal or state regulated air pollutants emitted by the
+emission source, otherwise leave this box blank.
+Emission Unit Applicable Federal Requirements: Provide the rule citations of all applicable federal requirements that
+apply at the emission unit level. An emission unit level regulation is one that applies to a specific emission unit, process,
+emission source, or emission point at the facility. Applicable federal requirements include the list of federal regulations
+defined as applicable requirements in 6 NYCRR Part 200.10 and those state regulations which have been approved or have
+been submitted for approval into the New York State Implementation Plan (SIP). Information regarding the SIP status of
+state regulations may be obtained by contacting the appropriate DEC regional office. All rule citations listed in this section
+should be as precise as necessary in order to define the applicable requirement. In some instances, a federal regulation
+may reference or overlap a corresponding state regulation (or vice-versa). All such regulations must be listed in the
+appropriate (i.e. applicable federal or state only requirements) sections even though they may have similar or identical
+requirements. The applicant must also specify the emission unit, emission source, emission point or process ID associated
+with each listed citation as follows:
+1. If the specified regulation applies to an emission unit as a whole, list only the emission unit ID.
+2. If the specified regulation applies to an emission source or process within an emission unit, provide both the
+emission source and process ID in addition to the emission unit ID.
+3. If the specified regulation applies to an emission point, provide the emission unit ID and the emission point ID.
+Note: The applicant must provide an emission unit ID at a minimum when completing this section.
+Note: The applicant should be aware that federal applicable requirements include those regulations relating to
+Stratospheric Ozone Protection (Title VI of the CAAA). To determine whether the facility is subject to Title VI
+requirements, the applicant should consider the following questions regarding operations at the facility defined by
+this application:
+a. Does the facility have any air conditioners or refrigeration equipment that uses CFCs (chlorofluorocarbons),
+HCFCs (hydrochorofluorocarbons) or other ozone-depleting substances or regulated substitute substances?
+
+Version 3 – 11/21/16
+
+18
+
+b. Do any air conditioner(s) or any piece(s) of refrigeration equipment contain a refrigeration charge greater
+than 50 lbs?
+c. Do facility personnel maintain, service, repair or dispose of any motor vehicle air conditioners (MVACs) or
+appliances as defined by 40 CFR Part 82.115?
+If the answer to any of these questions is yes, the applicant must cite the appropriate Title VI requirement (i.e. 40 CFR
+Part 82 Subparts A through G) at the facility level.
+Emission Unit State Only Requirements: Provide the rule citations of all applicable state only requirements that apply at
+the emission unit level. An emission unit level regulation is one that applies to a specific emission unit, emission source,
+emission point, or process at the facility. State only regulations include all those New York State air emission regulations
+which do not appear in the New York State SIP (or will not in the near future). Information regarding the SIP status of New
+York State air emission regulations may be obtained by contacting the appropriate DEC regional office. All citations listed
+in this section should be as precise as necessary in order to define the state only requirement. The applicant must also
+specify the emission unit, emission source, emission point or process ID associated with each listed citation as follows:
+1. If the specified regulation applies to an emission unit as a whole, list only the emission unit ID.
+2. If the specified regulation applies to an emission source or process within an emission unit, provide both the
+emission source and process ID in addition to the emission unit ID.
+3. If the specified regulation applies to an emission point, provide the emission unit ID and the emission point ID.
+Note: The applicant must provide an emission unit ID at a minimum when completing this section.
+Emission Unit Compliance Certification: The facility owner or operator should complete a separate emission unit
+compliance certification for each emission unit level monitoring strategy that is being proposed:
+(a) to comply with a listed applicable federal or state only requirement that requires, but does not specify, a detailed
+method of compliance monitoring; or
+(b) as an alternative to the compliance monitoring method specified by the regulation.
+Each compliance certification must contain a detailed description of the proposed method(s) for demonstrating
+compliance with the listed applicable requirement. Appropriate monitoring methodology may include parametric
+monitoring (e.g. temperature monitoring), fuel sampling, record keeping, work practices, or any other monitoring or
+testing methodology approved by the Department. Once a determination is made by the Department that the monitoring
+strategy and limits being proposed are sufficient to demonstrate compliance with the applicable requirement, they will
+be incorporated as enforceable permit conditions. The applicant must also specify the emission unit, emission source,
+emission point or process ID associated with each proposed compliance activity as follows:
+1. If the specified regulation applies to an emission unit as a whole, list only the emission unit ID.
+2. If the specified regulation applies to an emission source or process within an emission unit, provide both the
+emission source and process ID in addition to the emission unit ID.
+3. If the specified regulation applies to an emission point, provide the emission unit ID and the emission point ID.
+19
+
+Version 3 – 11/21/16
+
+Note: The applicant must provide an emission unit ID at a minimum when completing this section.
+Rule Citation: Provide the rule citation for the proposed compliance certification method. The citation should be as
+precise as necessary to define the applicable requirement.
+Note: If the same compliance monitoring strategy will be used for multiple regulations, a separate compliance
+certification section should be completed for each rule cited.
+Rule Type and Capping Check Boxes: Check the box indicating whether the rule cited above refers to an applicable
+federal or state only requirement. If the proposed limit and associated monitoring activity is being conducted for the
+express purpose of avoiding applicability to the rule cited above (see 6 NYCRR Part 201-7), check the box marked
+Capping.
+Emission Unit: Enter the 6 character emission unit identification.
+Emission Point: Enter the 5 character emission point identification, if applicable.
+Process: Enter the 3 character process identification, if applicable.
+Emission Source: Enter the 5 character emission source identification, if applicable.
+CAS Number: Enter the Chemical Abstract Series number for the air contaminant being monitored for compliance
+with the applicable requirement cited above. This box should be completed regardless of whether the contaminant is
+being measured directly or through the use of surrogates. If the rule cited above contains a requirement that does not
+specify a contaminant, the CAS Number may be omitted. An example of this would be an applicable regulation with a
+limit on opacity that does not reference any single contaminant.
+Contaminant Name: Enter the name of the contaminant being monitored which corresponds to the listed CAS
+Number. Do not abbreviate or use chemical formulas. If the rule cited above contains a requirement that does not
+specify or reference a contaminant, the contaminant name may be omitted.
+Monitoring Information: Each Emission Unit Compliance Certification must describe the monitoring strategy that is being
+proposed to satisfy the requirements of the rule. This section provides a means for the applicant to outline methods for
+parametric and continuous emission monitoring, record keeping and reporting to demonstrate compliance to the
+Department. If the proposed monitoring strategy is found acceptable to the Department, it will be incorporated as a
+permit condition.
+Monitoring Type: Check the box that best describes the general category of monitoring activity that is being proposed
+to meet the requirements of the rule cited above. The monitoring types are defined as follows:
+1. Continuous Emission Monitoring (CEM): This type of monitoring involves the direct measurement of
+contaminant (or surrogate contaminant) emissions from an emission point using instrumentation which
+operates on a continuous basis. If this option is selected, additional information regarding a CEM
+monitoring plan and quality assurance/quality control also needs to be provided as per the instructions
+for that supporting documentation attachment.
+2. Intermittent Emission Testing: This type of monitoring involves the direct measurement of contaminant
+20
+
+Version 3 – 11/21/16
+
+(or surrogate contaminant) emissions from an emission point on a periodic basis. If this option is selected,
+additional information regarding stack test protocols/reports also needs to be provided as per the
+instructions for the related supporting documentation attachment.
+3. Ambient Air Monitoring: This type of monitoring involves the direct measurement of contaminant
+concentrations (including surrogate contaminants, if applicable) in the ambient air via instrumentation or
+devices that are operated on a continuous or periodic basis. The monitors are typically sited either at the
+facility property line or some other predetermined receptor location and may be used to augment or
+confirm other monitoring activities or compliance demonstrations such as dispersion modeling. In
+selecting this monitoring type, information regarding an ambient air monitoring plan should also need to
+be provided as per the instructions for the related supporting documentation attachment.
+4. Monitoring of Process or Control Device Parameters as a Surrogate: This type of monitoring involves the
+indirect measurement of emissions via monitoring of process or control device parameters and
+performance on a continuous or periodic basis (e.g. opacity, flow rate, temperature, pressure drop, etc.).
+Instrumentation may be involved but is not required. Other contaminants may also be utilized as
+surrogates to measure certain air contaminants for which proven test methods are not available.
+5. Work Practice Involving Specific Operations: This type of monitoring involves activities where time of
+operation, throughput of product, throughput of raw material, or parameter of a process material
+throughput is being measured and represents an operating limit.
+6. Record Keeping/Maintenance Procedures: This type of monitoring refers to activities involving the
+upkeep of records to demonstrate compliance with a requirement or the application of maintenance
+procedures which may be necessary to maintain acceptable operations.
+Description: Provide a brief description of the specific monitoring activity related to the general category identified
+above. The description should include details regarding the specific item being measured.
+Example Monitoring Descriptions
+1. Continuous Emission Monitoring: In stack NOX monitor for boiler 2.
+2. Intermittent Emissions Testing: Annual stack test for SO2 is to be conducted while burning #6 fuel oil in
+boiler 2.
+3. Monitoring of Process or Control Device Parameters as a Surrogate: A pressure monitoring device will
+be used to measure the pressure drop across the fabric filter control device. The fabric filter is used to
+control emissions from the 40 CFR 61 Subpart M applicable asbestos brake lining cutting operations in
+Building BLC1 (process 001).
+4. Ambient Air Monitoring: A hi-vol air filtration device located near the Main Gate is to be used to sample
+particulates being emitted from Kiln 1. Sampling procedures are detailed in the Ambient Air Monitoring
+Plan attachment to the application.
+5. Work Practice Involving Specific Operations: The main boiler plant, consisting of two 50 mmBtu/hr #6 oil
+fired units (emission unit 0-00001), will be restricted to burning low sulfur (0.30% by weight) fuel oil in
+order to limit SO2 emissions.
+21
+
+Version 3 – 11/21/16
+
+6.
+
+Record Keeping/Maintenance Procedures: The time, date, wind speed and direction is to be monitored
+and recorded in a log whenever gypsum is being off-loaded. No off-loading is to occur if an easterly wind
+is blowing in excess of 20 mph.
+
+Work Practice Type Code: If Work Practice Involving Specific Operations is indicated as a Monitoring Type, complete
+this box by entering the appropriate code (see Work Practice Type code table) corresponding to the item being
+monitored via the application of a work practice, otherwise leave blank.
+Process Material Code: If the Work Practice Type codes 03 – Process Material Throughput or 04 – Parameter of
+Process Material are entered above, complete this box by providing the appropriate code from the Process Material
+code table, otherwise leave blank.
+Process Material Description: If an appropriate process material code is not contained in the Process Material code
+table, provide a brief description of the process material being measured, otherwise leave blank.
+Reference Test Method: Enter the reference test method or analytical procedure that will be used to conduct the
+monitoring activity indicated. If a reference test method does not apply such as for a simple production record keeping
+requirement, leave this box blank.
+Monitored Parameter Code: Complete this box by entering the appropriate code (see Monitored Parameter code
+table) that best describes the parameter that is being monitored, if applicable, otherwise leave blank. If a Work
+Practice Type code was entered above, complete this box only if code 04 – Parameter of Process Material is listed,
+otherwise leave this box blank. For instances where a specific contaminant contained in the throughput is the
+parameter being measured, enter the CAS Number of the contaminant. This applies for contaminants that are being
+measured directly or as surrogates for other contaminants.
+The following are examples of process material parameters: sulfur or ash content of a fuel being combusted;
+pounds of VOC per gallon of coating as applied; moisture content of raw material etc.
+Monitored Parameter Description: If the appropriate parameter code is not contained in the Monitored Parameter
+code table, provide a brief description of the parameter being measured, otherwise leave blank. If a CAS Number is
+entered as a parameter code, provide the name of the contaminant instead.
+Manufacturer’s Name/Model Number: Enter the manufacturer's name and model number of any instrumentation
+being used for the monitoring activity identified above or provide a brief description identifying the monitoring device.
+If no instrumentation is being used, leave this box blank. Note: The manufacturer’s name and model number must be
+provided for continuous emission monitoring instrumentation.
+Limit: Enter the proposed upper and/or lower permit limit(s) (where applicable) which pertain to the monitoring
+activity.
+Limit Units Code: Enter the unit code that corresponds to the specified permit limit (see Units (of measurement) code
+table).
+Limit Units Description: If an appropriate work practice and/or parameter limit unit code is not contained in the Units
+(of measurement) code table, provide a brief description of the limit units, otherwise leave this box blank.
+
+Version 3 – 11/21/16
+
+22
+
+Averaging Method Code: Enter the code (see Averaging Method code table) corresponding to the averaging method
+or statistical basis used to verify the results of the monitoring activity with the specified limit.
+Note: In order to be enforceable, limits placed on production and operation must be averaged over regular
+intervals. In general, the averaging period should not exceed an annual limit rolled on a monthly basis. Limits
+that are averaged on a calendar year basis are not considered to be legally enforceable, and should not be used.
+Averaging Method Description: If a proposed averaging method is not contained in the Averaging Method code table,
+provide a brief description of the averaging method being proposed for the listed monitoring activity.
+Monitoring Frequency Code: Enter the code (see Monitoring Frequency code table) that corresponds to the proposed
+frequency for the monitoring activity identified above.
+Monitoring Frequency Description: If the proposed monitoring frequency is not contained in the Monitoring
+Frequency code table, provide a brief description of the monitoring frequency being used for the listed monitoring
+activity.
+Reporting Requirements Code: Enter the code (see the Report Submittal Frequency code table) that corresponds to
+the appropriate report submittal requirement.
+Note: Monitoring reports for Title V facilities must be submitted on a semiannual basis unless more frequent
+reporting is required by the applicable requirement or the Department.
+Reporting Requirements Description: If the proposed reporting requirement code is not contained in the Report
+Submittal Frequency code table, provide a brief description of the monitoring reporting requirement for the listed
+contaminant.
+Determination of Non-applicability: This section is optional and should only be completed if the applicant is seeking to
+obtain formal confirmation that the specified activities are not subject to the listed requirement. A rule cited in this section
+is one that could apply to an emission unit (or emission point, or process, or emission source) but does not apply for the
+stated reasons. By citing a rule here, Departmental agreement is being sought with the non-applicability determination
+by the applicant. If agreement is secured, the non-applicability determination will be contained in the issued Title V permit
+which in turn provides a shield against any future enforcement action. Only those regulations for which there is a
+reasonable question regarding applicability will be listed in the permit.
+Rule Citation: Provide the rule citation of the applicable requirement for which a non-applicability determination is
+being sought. The listed citation should be as precise as necessary in order to define the requirement.
+Emission Unit: Enter the 6 character identification for each emission unit that the rule cited above does not apply to.
+Emission Point: Enter the 5 character emission point identification for the rule and emission unit cited above, if
+applicable.
+Process: Enter the process identification for the rule and emission unit cited above, if applicable.
+Emission Source: Enter the emission source identification for the rule and emission unit cited above, if applicable.
+Check Boxes: Indicate whether the rule cited above refers to an applicable federal or state only requirement.
+23
+
+Version 3 – 11/21/16
+
+Description: Provide the specific reason(s) for the determination of non-applicability. This description should
+reference any specific data that supports the applicant’s determination of non-applicability. Information must be
+provided in enough detail so that the Department can conduct an adequate review of the determination.
+Compliance Plan: Noncompliant emission sources operating at a facility are allowed to apply for, and be included in, a
+Title V facility permit provided that the applicant submits a plan for achieving compliance within a time frame acceptable
+to the Department. Part 201-6.4(d) and (e) require applicants to provide a description of the details of any compliance
+plan. The compliance plan may refer to activities at either the facility, emission unit or process level. If the compliance
+plan refers to facility level activities, the emission unit and process ID data items are left blank.
+Consent Order: Enter the number of the consent order under which any of the listed noncompliant emission units
+have been operating. If the facility is operating under more than one order, use continuation sheets and list each
+additional order on a separate page. If the noncompliant source is not under a consent order, leave this box blank.
+Certified Progress Reports: Specify the date when submittal of the certified progress reports regarding the actions
+listed in the compliance schedule are to commence.
+Emission Unit: Enter each 6 character emission unit ID pertaining to the emission unit described in the listed consent
+order, if applicable.
+Process: Enter the process ID number for each process pertaining to the listed consent order, if applicable.
+Applicable Federal Requirement: Enter the citation of each applicable federal requirement where the facility is in
+noncompliance. Citation of the noncompliance requirement should follow the format previously set forth for the
+applicable federal requirements for emission units previously listed in Section IV.
+Remedial Measures and Intermediate Milestones: Specify the remedial measure(s) to be taken in order for the
+noncompliant source to achieve compliance with the applicable requirement listed above. The applicant should also
+specify, in chronological order, the intermediate steps which may precede implementation of the remedial measure.
+R/I: Specify whether the compliance action listed above refers to a remedial measure (R) or an intermediate milestone
+(I) by entering the appropriate letter.
+Date Scheduled: Enter the date (mm/dd/yr) by which the listed remedial measure or intermediate milestone is to be
+completed.
+Request for Emission Reduction Credits: Emission Reduction Credits (ERCs) are required as emission offsets for new major
+facilities or major modifications at existing facilities subject to 6 NYCRR Part 231-5 or 231-6 and for netting out of Part
+231-6 or 231-8 applicability for major modifications. Emission reductions for ozone precursors (NOx and VOC) and PM-10
+resulting from facility shutdown, curtailment, source reduction and/or over control which occur on or after November 15,
+1990 are eligible to be certified as ERCs. Emission reductions for PM-2.5 and ozone precursors (NOx and SO2) resulting
+from facility shutdown, curtailment, source reduction and/or over control which occur on or after April 5, 2005 are eligible
+to be certified as ERCs. Generally, applicants can have their emission reductions certified by submitting an application for
+a permit modification including a completed ERC quantification form as an attachment with adequate supporting
+documentation. The application is reviewed by the appropriate DEC regional office and subject to a 30-day public notice
+period. After the public notice period, ERCs are issued as a permit modification for a facility that will continue to operate.
+This section should be completed only if the applicant is seeking to obtain new ERCs. Facilities having previously approved
+24
+Version 3 – 11/21/16
+
+ERCs are not required to complete this section.
+Emission Source ID: Enter the emission source identification number of the emission source creating the ERCs.
+Emission Reduction Description: Provide a description of the emission reduction. In the case of a past reduction, the
+description should identify how and when the reduction occurred. Part 231 prohibits certification of future reductions
+unless they are linked with a Proposed Major Modification (PMM) or Proposed Major Facility (PMF). For a future
+reduction, the description should identify how and when the reduction will occur and the PMM or PMF for which it
+will be used.
+Contaminant Emission Reduction Data:
+Baseline Period: Enter the appropriate baseline period for the reduction.
+For a past reduction, the baseline period is defined as any 24 consecutive months within the five years immediately
+preceding the reduction date.
+For a future reduction, the baseline period is defined as any 24 consecutive months within the five years
+immediately preceding the date the permit application for a PMM or PMF using the reduction is submitted.
+Reduction Date: Enter the date of the emission reduction:
+For a past reduction, the reduction date is the date the reduction physically occurred.
+For a future reduction, the reduction date is the date of submittal of a permit application for the PMM or PMF
+using the reduction.
+Method: Enter the code corresponding to the method used to reduce emissions:
+01 – Shutdown
+02 – Curtailment
+03 – Over control
+04 – Source reduction
+Shutdown, curtailment and source reduction are defined in Part 231. Over control is defined as controlling
+emissions beyond what is required by state or federal regulations.
+CAS Number: Enter the Chemical Abstract Series number for the regulated NSR contaminant for which ERCs are being
+requested. Note: Nonattainment (NA) contaminants are identified as VOC and NOx (statewide), PM-10 (Manhattan
+only) and PM-2.5 including precursors NOx and SO2 (New York City Metropolitan Area and Orange County). If the
+regulated NSR contaminant involved is VOC, use the CAS Number established for total VOCs (0NY998-00-0). VOC
+should not be speciated when calculating ERCs.
+Contaminant Name: Enter the name of the regulated NSR contaminant for which ERCs are being requested. Do not
+abbreviate or use chemical formulas.
+ERC (lbs/yr): Enter the amount of ERC, in pounds per year, which is to be used for netting or offset purposes. Netting
+and offsets are defined as follows:
+25
+
+Version 3 – 11/21/16
+
+Netting: A mechanism by which a PMM at an existing major facility can avoid applicability of Part 231-6 or 2318.
+Offsets: The prescribed ratios by which any PMM or PMF subject to Part 231-5 or 231-6 needs to apply Lowest
+Achievable Emission Rate (LAER), and obtain certified and registered ERCs.
+Facility to Use Future Reduction: Enter the name, address, and application ID of the facility using the future reduction. An
+application requesting ERCs for a future reduction will not be accepted by the Department unless this section of the form
+has been completed.
+Use of Emission Reduction Credits:
+Emission Source ID: Enter the emission source identification number of the emission source which is part of the
+Proposed Major Modification (PMM) or Proposed Major Facility (PMF) using the ERCs. For a new emission source,
+applicants may assign this identifier.
+Proposed Project Description: Provide a description of the PMM or PMF using the ERCs. Ensure that the ERCs are
+being obtained from the same NA area or from an area having an equal or more restrictive nonattainment designation
+and that the reduced emissions contribute to the NA status for the location of the PMM or PMF. Applicants are advised
+to contact the Bureau of Stationary Sources to determine the appropriate location of offsets.
+Contaminant Emissions Increase Data:
+CAS Number: Enter the Chemical Abstract Series Number for the NA contaminant for which ERCs are being used as
+offsets. Note: These are identified as VOC and NOx (statewide), PM-10 (Manhattan only) and PM-2.5 including
+precursors NOx and SO2 (New York City Metropolitan Area and Orange County). If the NA contaminant involved is
+VOC, use the CAS Number established for total VOCs (0NY998-00-0). VOC should not be speciated.
+Contaminant Name: Enter the name of the NA contaminant for which ERCs are being used. Do not abbreviate or use
+chemical formulas.
+Project Emission Potential (PEP): Enter the project emission potential in lbs/yr, for each contaminant which is
+applicable to 6 NYCRR Part 231. The PEP is determined as follows:
+1. for a new major facility - the PTE of all sources
+2. for a new emission source - the PTE of the source
+3. for a modification of an existing source. The PEP shall be quantified as the difference between baseline
+actual emissions and the subsequent projected actual emissions.
+Statement of Compliance: Part 231-5.2(a) and 231-6.3(a) requires an affirmation that all major facilities under the
+applicant’s ownership or control (or under the ownership or control of any entity which controls, is controlled by, or has
+common control with the applicant) are in operating compliance with all applicable state and federal requirements or are
+meeting the schedule of a consent order. To fulfill this requirement, check the box to acknowledge that the compliance
+statement has been read and that the applicant is in agreement with the provisions regarding compliance.
+Source of Emission Reduction Credit – Facility: Enter the name, address, and permit ID of the facility that has created or
+will be creating the ERC.
+26
+Version 3 – 11/21/16
+
+Emission Source ID: Enter the emission source identification number.
+CAS Number: Enter the Chemical Abstract Series Number of the regulated NSR contaminant for which ERCs have
+been or will be created. Note: NA contaminants are identified as VOC and NOx (statewide), PM-10 (Manhattan only)
+and PM-2.5 including precursors NOx and SO2 (New York City Metropolitan Area and Orange County). VOC should not
+be speciated.
+Contaminant Name: Enter the name of the regulated NSR contaminant for which ERCs have been or will be created.
+Do not abbreviate or use chemical formulas.
+ERC Netting/Offset: Enter the lbs/yr of ERCs being used, for netting out of applicability by the same facility proposing
+the project or, as offsets by the same or another facility. Netting and offsets are defined as follows:
+Netting: A mechanism by which a PMM at an existing major facility can avoid applicability of Part 231-6 or 2318.
+Offsets: The prescribed ratios by which any PMM or PMF subject to Part 231-5 or 231-6 needs to apply Lowest
+Achievable Emission Rate (LAER), and obtain certified and registered ERCs.
+
+Version 3 – 11/21/16
+
+27
+
+Supporting Documentation and Attachments
+This section describes the documentation which may need to be provided in support of data listed in the application.
+Supporting documentation may be submitted as either as a hard copy, electronically, or a combination of the two unless
+specified otherwise in the instructions for that documentation.
+Required Supporting Documentation: The following supporting documentation is required with each permit application
+unless otherwise specified.
+List of Exempt Activities: Each Title V permit application is required to include a list of all activities which are
+considered exempt from permitting as defined in 6 NYCRR Part 201-3.2. To assist the applicant in fulfilling this
+requirement, a separate form is available for use. The form includes prefilled rule citations defining the exemption
+and a description of each exempt activity. The applicant must provide the number of each exempt activity occurring
+at the facility and the general building location(s) of each group of activities which occur at the facility. For any listed
+activity that does not occur at the facility, leave the appropriate column blank.
+Plot Plan: All permit applications for new facilities require a plot plan, to scale, which includes the following
+information at a minimum:
+1. North orientation and property lines of the facility where the installation is located;
+2. NYTM coordinate location grid with the ability to estimate location down to the nearest two decimal
+places (i.e. 10 meters), unless a less precise degree of detail is approved by the Department;
+3. Location of all existing and proposed emission points. The plan should distinguish between existing and
+proposed emission points and assign an emission point identification number using the convention cited
+in the main instructions;
+4. Identification of significant land marks, such as highway intersections, roads, lakes and rivers in the vicinity
+of the facility. Note: This information may be provided using any one or combination of the following: to
+scale plot plan, aerial photo and/or satellite map.
+5. Identification of the nearest building at or beyond the property line. If applicable, a description of the
+normal use of such buildings; e.g. residence, retail store, school, etc., should be provided. Note: This
+information may be provided using any one or combination of the following: to scale plot plan, aerial
+photo and/or satellite map.
+The following information is optional in most cases but may be required on the plot plan depending on the specific
+application requirements:
+1. Elevation above mean sea level and the height above ground of all emission points (e.g., stacks or other
+points which emit regulated air pollutants to the outdoor atmosphere);
+2. Shortest straight line distance from each emission point to the property line of the facility where the
+installation is located;
+3. Direction of prevailing winds and other pertinent meteorological or topographical factors that would
+affect dispersion of air contaminants
+4. Plan and elevation drawings which show:
+Version 3 – 11/21/16
+
+28
+
+a. Design, dimensions and arrangement of all emission sources and stack sampling ports.
+b. Details and arrangements of related equipment which affect the performance of the installation.
+Process Flow Diagram: Applications for Title V permits must include a process flow diagram that illustrates process
+flow at the facility. The diagram should include each emission source and any associated controls, and also indicate
+how each emission point is connected to its associated emission source(s). Each piece of equipment and each
+emission point should be identified by the ID number used in the attached application, and each piece of equipment
+described in the application should be included on the diagram.
+It is not necessary to include a process flow diagram with applications for minor permit modifications. Applications
+for significant permit modifications should include a diagram that indicates any changes to the previously submitted
+diagram as a result of the proposed modification.
+Methods Used to Determine Compliance: Applications for Title V permits must provide descriptions of the methods
+used to determine the compliance status of the facility of each emission unit for each regulated pollutant and
+applicable requirement. A form for this submittal is available and must be provided with this application form. The
+statement of methods must include a description of all required monitoring, records or tests as well as any other
+information which the applicant uses to determine whether its facility is complying with the applicable requirements.
+Calculations: Sample or actual calculations used to determine input or production rate, emission rate potential (ERP),
+potential to emit (PTE) and actual emissions for regulated air pollutants emitted from a process on a short term or
+annual basis or to explain any emissions related information listed on the application forms must be provided. The
+calculation data and examples provided must be sufficiently detailed to allow Department staff to reproduce the
+results shown in the application. The Department reserves the right to request additional calculation data if necessary.
+The general format for providing calculations is listed as follows:
+1. At the top of each calculations page, enter the ID for the process and emission unit, if applicable.
+2. List the contaminant name and CAS No.
+3. Define and include all necessary operational parameters from the process such as pressure, temperature,
+moisture content, gas flow rate, etc., that are used in the calculations.
+4. Detail any additional engineering design parameters used in estimating emissions. This may include
+furnace/process/unit design capacity, maximum hourly/yearly design, fuel information (i.e. heat, sulfur
+and ash content), percent annual throughput (e.g. on a quarterly basis) and normal plant operating
+schedule (hours/day, days/week, weeks/year).
+5. Define and document any control efficiencies used in the calculations.
+6. Define all mathematical constants, unit conversions, formulas, physical and chemical properties of the
+contaminant and any other reference material used to determine emissions.
+7. Reference any emission estimation methods which are being utilized. This may include:
+a. stack tests of the emission source under review;
+b. stack tests of a furnace/process identical to the emission source under review;
+c. stack tests of a furnace/process geometrically similar to the source under review;
+29
+
+Version 3 – 11/21/16
+
+d.
+e.
+f.
+g.
+h.
+
+manufacturer's guarantee;
+published emission factors;
+mass balance calculations;
+continuous emissions monitoring data; and
+air dispersion modeling results.
+
+If a stack test, manufacturer's data or modeling report is used in the calculations, copies of the reports or
+written materials must be provided. Specific references should also be listed for any emission factors used
+in determining emissions.
+8. Calculate emission rates in the units listed and in such terms as to establish compliance consistent with
+the applicable standard.
+9. Describe in detail all operating scenarios and other assumptions used to calculate emissions. This would
+include the specific conditions under which the process is expected to operate both at normal and
+maximum rates.
+10. Include emission estimates, if necessary, for a worst-case malfunction episode scenario.
+Optional Supporting Documentation: The following supporting documentation is only required when necessary to
+support the methods of compliance proposed in the application.
+Air Quality Model: An air quality impact evaluation or dispersion model may be required for a variety of emission
+sources including: major sources, particularly those subject to Part 231, air toxic sources, and any sources that appear
+likely to contravene an applicable ambient air quality standard. The Department has developed the DAR-10: Impact
+Analysis Monitoring guidance document to describe the recommended procedures for conducting ambient impact
+analyses.
+Any facility that is required to conduct an ambient impact analysis by the Department must submit a modeling
+protocol to the Department for review prior to conducting that analysis. The protocol should describe the procedures
+that will be used to conduct the analysis, including specific information regarding the sources location and operating
+parameters, land use characteristics, and existing air quality and meteorological conditions consistent with the
+guidance provided in DAR-10. Once approved, the applicant should use the protocol to perform the modeling analysis
+and submit a report to the Department.
+Given the complexity and unique nature of air quality evaluations, the applicant is encouraged to contact the
+appropriate NYSDEC Regional Air Pollution Control Engineer for further guidance regarding protocol and modeling
+analysis requirements and emission inventory development for establishing background air quality.
+Note: The Department will provide the applicant with the appropriate processed meteorological data to be used when
+conducting the impact analysis.
+Confidentiality Justification: The applicant may request that certain information submitted as part of a permit
+application be kept confidential. Such requests must be made in accordance with requirements set forth in 6 NYCRR
+Part 616. Any requests for confidentiality must:
+1. Be made in writing and state the reasons for excepting the information from public disclosure;
+
+Version 3 – 11/21/16
+
+30
+
+2. Specifically identify which information is to be designated as proprietary; and
+3. Detail the reasons why the information should be considered proprietary or why its release would cause
+substantial injury to the competitive position of the business.
+If the request itself contains confidential information, it will also be considered confidential if requested. It should be
+noted that if information is submitted to the Department under a claim of confidentiality, particularly for a Title V
+facility permit, the Department may require the facility to submit this information to the USEPA directly. In addition,
+information that is deemed confidential by the Department may not be considered confidential by the USEPA unless
+a formal confidentiality request is also approved by that agency.
+Ambient Air Monitoring Plan or Reports: Facilities which use or propose to use either onsite or offsite ambient air
+monitoring of selected contaminants in order to verify compliance with applicable regulations must meet certain
+minimum requirements for acceptability by the Department. Most of the technical requirements are codified in the
+following federal regulations and references:
+1. National Primary and Secondary Ambient Air Quality Standards, 40 CFR 50;
+2. Requirements for the Preparation, Adoption, and Submittal of Implementation Plans, 40 CFR 51;
+3. Ambient Air Monitoring and Equivalent Methods, 40 CFR 53;
+4. Ambient Air Quality Surveillance, 40 CFR 58;
+5. List of Designated Reference and Equivalent Methods as periodically updated by the USEPA. EMSL, RTP,
+N.C. 27711
+6. Quality Assurance Handbook for Air Pollution Measurement Systems Vols. I, II, III, IV (as revised).
+Volume I, Principles, EPA 600/9-76-005
+Volume II, Ambient Air Specific Methods, EPA 600/4-77-027a
+Volume III, Stationary Source Specific Methods, EPA 600/4-77-027b
+Volume IV, Meteorological Measurements, EPA 600/4-82-060
+7. Ambient Monitoring Guidelines for Prevention of Significant Deterioration, EPA 450/4-80-012
+8. The Quality Assurance Bibliography EPA 600/4-80-009, February 1980
+The above regulations define USEPA acceptable measurement techniques and data handling procedures. In most
+cases the references will provide more detail and background, including discussions on properly siting air monitors for
+special purpose monitoring. The Department is available for limited consultation if a written monitoring plan is
+submitted as per this attachment.
+In general any monitoring plan should address items 1-7 including the following topics:
+1. Monitoring siting: the location of the monitor should meet federal requirements and/or be suited to the
+purpose for which the sampling is being conducted.
+2. Instrumentation: Use of USEPA designated reference or equivalent methods and instruments is
+31
+
+Version 3 – 11/21/16
+
+mandatory. These instruments must be operated in a manner consistent with the USEPA approved
+operator's manual.
+3. Data storage, retrieval and reporting: the data acquisition and reporting system must be suitable to the
+data being collected. Data retrieval should exceed 90% for short term and 75% for long term monitoring.
+4. Quality assurance: a written QA protocol must exist and must be followed. This document will detail all
+aspects of the data collection system (i.e. operation and control charts, maintenance, calibration, accuracy
+auditing, precision checks, data editing and reporting QA reports including data completeness, and data
+precision and accuracy).
+Stack Test Protocol: If the applicant intends to demonstrate compliance with one or more proposed emission
+standards via stack testing, attach a stack test protocol for review by the Department. Such a protocol should describe
+the reference test methods that will be used to conduct the test, the data collection and quality assurance procedures,
+and any other pertinent information. The protocol should be prepared in a manner that is consistent with the
+requirements of 6 NYCRR Part 202-1, and all other applicable test methods and requirements. Once the testing
+protocol is approved by the Department, the applicant may proceed with the stack test.
+Each stack test protocol should include the following information at a minimum:
+1. A brief facility description including:
+a. the DEC ID (if known);
+b. a process flow diagram; and
+c. a description of normal emission source operation.
+2. A summary of the applicable regulations and emission standards that the stack test will be used to
+demonstrate compliance with.
+3. A description of the stack test location including:
+a. a site description (with drawings);
+b. the number of duct diameters from flow disturbances; and
+c. the number and location of sampling points.
+4. A description of the reference test methods that will be used including:
+a. the make, model, size, etc. of testing equipment;
+b. equipment calibration data or provisions for calibration data acquisition at the test site;
+c. the proposed sampling procedures and a description of any differences from standard methods;
+d. the proposed laboratory analysis procedures and a description of any differences from standard
+methods;
+e. appropriate laboratory certifications; and
+f. calculations of expected emissions.
+5. The chain of custody procedures that the facility or testing contractor will follow for the collected samples
+6. Emission source operating conditions anticipated during the test, including any emissions control
+equipment operating data that will be monitored and recorded during the test.
+Note: Stack testing protocols must be submitted to the Department for approval at least 30 days prior to the
+32
+
+Version 3 – 11/21/16
+
+scheduled testing date.
+Stack Test Report: If any data in the application or supplemental calculations is based on the results of an approved
+stack test report, the applicant should attach a copy of that report to the application. The emission test report must
+be submitted to the Department within 60 days after the completion of the test. In the event such time is not
+sufficient, the facility owner may request an extension in writing. Because test reports may be used as legal evidence
+of compliance, all stack test reports must be certified by a Professional Engineer licensed in the State of New York.
+The emission test report should contain all of the pertinent data leading up to the test, a description of the process
+and the operating conditions under which tests were made, the results of the tests, and the test procedures that were
+used. The report should enable a technically trained person to understand what was done and what the results were.
+Summaries of field test data should be included in order to allow a knowledgeable person to check the results and
+obtain an idea of their accuracy.
+Note: Previously submitted stack test reports may not need to be attached. The applicant is encouraged to contact
+the appropriate NYSDEC Regional Office to determine if the referenced report is already on file.
+Continuous Emissions Monitoring Plan: If one or more applicable requirements or proposed compliance certification
+sections require the use of a continuous emissions monitoring (CEM) system, the applicant should develop and attach
+a continuous emissions monitoring plan. The monitoring plan should briefly describe the basic approach that will be
+used to comply with the applicable CEMs requirements. It should include:
+1. The identification, location, and description of the specific emission point(s) (e.g. emission unit ID,
+emission source ID, design capacity and units, general type of control system (if applicable), etc.);
+2. Identification of the applicable regulation(s) and CEM requirement(s) the CEM will be used to
+demonstrate compliance with (e.g. NSPS, NESHAP, state regulations etc.);
+3. Identification of the type of monitor (e.g., extractive, point in-situ, etc.), the CEM's manufacturer or
+vendor, and the model number or other identifying feature of the equipment to be installed;
+4. Identification of the analytical technique for each analyzer that will be used (e.g., NDIR, UV absorption,
+chemiluminescence, etc.);
+5. Identification and description of the proposed monitoring location(s) (i.e., position along the effluent
+path) and identification of the specific measurement point(s) at each monitoring location from which
+samples will be obtained;
+6. Discussion of plans for time-sharing of extractive monitoring systems between two or more monitoring
+locations either as a permanent installation or as a back-up provision when a particular monitor is
+inoperative;
+7. Identification of the procedures that will be used to convert measurement data to units of the standard,
+including specific conversion factors, assumptions, and equations as applicable;
+8. Description of any mathematical procedures that will be used to correct emission measurement data for
+calibration drift, interference of other constituents, quenching, or other measurement phenomena
+applicable to the proposed measurement system;
+33
+
+Version 3 – 11/21/16
+
+9. Brief description of the data acquisition system and data recording devices; and
+10. Identification of any exceptions to the performance specifications or other applicable monitoring
+requirements and any alternate procedures that may require the approval of the Department.
+Because specific monitoring conditions may vary considerably from location to location, further questions regarding
+quality control/quality assurance, operating and reporting requirements should be discussed with the Regional Air
+Pollution Control Engineer.
+Note: If an identical Continuous Emission Monitoring Plan/QA/QC was previously submitted to the Department,
+the applicant may avoid resubmitting the entire document by listing the date the specific Continuous Emission
+Monitoring Plan/QA/QC was originally submitted to the Department.
+LAER Demonstration: Lowest Achievable Emission Rate (LAER) refers to the most stringent emission limitation
+achieved in practice, or which can be reasonably be expected to occur in practice for a category of emission sources
+taking into consideration each air contaminant which must be controlled. A LAER demonstration must be prepared
+and submitted as part of any application for a new major facility or NSR major modification which is subject to the
+requirements of Subparts 231-5 and 231-6. Further questions regarding LAER requirements may be discussed with
+the Regional Air Pollution Control Engineer.
+Note: If an identical LAER Demonstration was previously submitted to the Department, the applicant may avoid
+resubmitting the entire document by listing the date the specific LAER Demonstration was originally submitted to
+the Department.
+BACT Demonstration: Best Available Control Technology (BACT) refers to an emissions limitation based on the
+maximum degree of reduction for each pollutant subject to regulation under the Clean Air Act which would be emitted
+from any proposed major facility or major modification. The maximum degree of reduction is determined by the
+Department on a case-by-case basis, taking into account energy, environmental, and economic impacts and other
+costs, that are judged to be achievable for such source or modification through application of production processes
+or available methods, systems, and techniques. A BACT demonstration must be prepared and submitted as part of
+any application for a new major facility or major modification which is subject to the requirements of 6 NYCRR
+Subparts 231-7 and 231-8. Questions regarding BACT requirements may be discussed with the Regional Air Pollution
+Control Engineer.
+Note: If an identical BACT Demonstration was previously submitted to the Department, the applicant may avoid
+resubmitting the entire document by simply listing the date the specific BACT Demonstration was originally
+submitted to the Department.
+RACT Demonstration: Reasonably Available Control Technology (RACT) refers to an emissions limitation based on the
+lowest emission limit that a particular source is capable of meeting by application of control technology that is
+reasonably available, considering technological and economic feasibility. The Department has developed the DAR-20:
+Economic and Technical Analysis for Reasonably Available Control Technology guidance document to assist facility
+owners in reviewing all possible control technologies and strategies to determine RACT. A RACT demonstration must
+be prepared and submitted as part of the permit application for all emission sources that are subject to one or more
+applicable RACT requirements. Questions regarding RACT requirements or determinations should be directed to the
+appropriate regional office.
+
+Version 3 – 11/21/16
+
+34
+
+Toxic Impact Assessment: The Toxic Impact Assessment (TIA) is an inhalation risk assessment that is used to
+demonstrate that a process emission source emitting one or more high toxicity air contaminants, as defined in 6
+NYCRR Part 212, that is subject to a federal National Emission Standard for Hazardous Air Pollutants (NESHAP) is in
+compliance with the requirements of Part 212. Such a risk assessment must be developed using the procedures
+specified in the following guidance documents: DAR-1: Guidelines for the Evaluation and Control of Ambient Air
+Contaminants Under Part 212 and DAR-10: Impact Analysis Monitoring. Additional information on the preparation of
+ambient air impact analyses can be found in the Air Quality Model section above.
+Environmental Rating Demonstration: An environmental rating must be assigned to each contaminant emitted from
+a process emission source that is subject to the requirements of 6 NYCRR Part 212. While the Department is the final
+arbiter of the assigned environmental rating, the applicant must propose a rating as described in the DAR-1: Guidelines
+for the Evaluation and Control of Ambient Air Contaminants Under Part 212 guidance document and 6 NYCRR Part
+212, and provide a demonstration supporting the chosen rating as part of the permit application. Such a
+demonstration should include all data, calculations, ambient impact analyses and other information used to develop
+the proposed environmental rating. The applicant is encouraged to contact the appropriate NYSDEC regional office
+with any questions on the development of environmental ratings.
+Operational Flexibility Protocol/Description of Alternative Operating Scenarios: The operational flexibility
+provisions in 6 NYCRR Part 201-6.4(f) allow Title V facilities to make certain physical and operational changes
+without the need for a permit modification. In order to qualify as operational flexibility, the proposed change must
+not exceed, or cause the facility to exceed, an emissions limitation or cap specified in the permit, and must not meet
+the definition of ‘modification’ at 6 NYCRR Part 200.1(aq).
+In order to account for possible future changes at the facility, the applicant may develop and propose a protocol that
+specifies the methods that will be used to evaluate proposed changes to the facility’s operations for conformance
+with applicable requirements. If approved, the operational flexibility protocol will be incorporated into the facility’s
+Title V permit.
+The owner or operator of a facility that is proposing to make a change under operational flexibility must notify the
+Department in writing at least fifteen days in advance of making any changes. Each notification must contain the
+following information:
+1. Identification of the emission units, processes, emission sources, and/or emission points that are
+affected by the proposed change, as well as any revisions to the existing emission unit structure within
+the permit;
+2. A description of the proposed change, including any operating parameters that are affected;
+3. Identification and description of any emission control device or technology that will be used;
+4. Documentation demonstrating the proposed change’s compliance with all applicable requirements,
+including calculations demonstrating the emission rate potential of the change and that the change is
+not subject to the requirements of 6 NYCRR Part 231;
+5. Identification and evaluation of all applicable state and federal regulations;
+
+Version 3 – 11/21/16
+
+35
+
+6. A description of any additional operating, record keeping, or reporting procedures necessary to
+demonstrate compliance with applicable requirements; and
+7. Any other relevant information used for the evaluation of the proposed change under the operational
+flexibility protocol in the facility’s permit.
+6 NCYRR Part 201-6.4(f) also provides for the specification of alternate operating scenarios at Title V facilities. An
+alternate operating scenario is a set of operating conditions and associated regulatory requirements that allow the
+facility the flexibility to operate in more than one way. The facility may switch between each alternate operating
+scenario without first obtaining a permit modification provided all necessary applicable requirements are included in
+the permit. The facility owner or operator must maintain appropriate records and submit reports for each operating
+scenario, and must maintain a log indicating the date and time of changes from one operating scenario to another.
+Each alternate operating scenario should be described using the process information section of the application. A
+separate process description should be provided for each operating scenario that includes all necessary data to
+describe the proposed operating conditions. The applicant should also include all applicable requirements that
+correspond to each operating scenario in the facility and/or emission unit compliance certification sections, and
+note which scenario those requirements apply to in the description field.
+Title IV Permit Application: The acid rain program established under Title IV of the 1990 Clean Air Act Amendments
+requires emissions reductions of Sulfur Dioxide and Oxides of Nitrogen from facilities in the power sector. Each
+affected source, as defined in 6 NYCRR Part 201-2.1(b)(3), that is subject to the provisions of Title IV and the
+corresponding regulations implementing these provisions (40 CFR Part 72 through 78) is required to apply for and
+obtain an Acid Rain Permit. The standard Title IV permit application form and instructions developed by the USEPA is
+to be used to obtain the Title IV permit. Each affected source should complete this form and submit it along with the
+Title V application. The acid rain requirements will be maintained as a discrete segment in the operating permit
+differing from other permit requirements.
+ERC Quantification Form: The ERC Quantification Forms are used to quantify the amount of an emission reduction
+resulting from facility shutdown, curtailment, source reduction or over control that can be approved as an ERC in
+accordance with the provisions of Subpart 231-10. This form must be completed and submitted as part of any
+application requesting approval of emission reduction credits. They are available from any DEC Regional office upon
+request and can be found on the Department’s website.
+Baseline Period Demonstration: Subparts 231-6 and 231-8 require that an applicant use an appropriate baseline
+period for determining the baseline actual emissions necessary for calculating ERCs or creditable emission increases.
+The baseline period consists of any 24 consecutive months within the five years immediately preceding either the date
+the Department receives an application calculating the modification’s project emission potential or the date the
+emission reduction or increase actually occurred for determining ERCs or creditable emission increases.
+Use of ERC(s) Form: Facilities intending to use ERCs must submit a Use of ERCs form complete with signatures from
+authorized representatives of both the owner of the ERCs and the facility using the ERCs. This form is to be provided
+as an attachment to the application submitted by the facility using the ERCs. It is available from any DEC Regional
+office upon request and can be found on the Department’s website.
+Analysis of Contemporaneous Emission Increase/Decrease: A net emission increase applicability determination
+under the provisions of Subparts 231-6 and 231-8 requires that an analysis of contemporaneous emission increases
+Version 3 – 11/21/16
+
+36
+
+and decreases (ERCs) be performed. Subpart 231-4 establishes the definition of contemporaneous period, which
+depends upon the nonattainment status of the facility’s location, within which emission increases and decreases must
+be analyzed.
+Other Documents: If any document(s) other than those listed above are to be submitted in support of the application
+form, check the Other Documents box and identify each individually. If an individual document has been previously
+submitted to the Department, the applicant may forego resubmitting the identical information by simply listing the
+document name and the date it was originally submitted to the Department.
+
+Version 3 – 11/21/16
+
+37
+
+

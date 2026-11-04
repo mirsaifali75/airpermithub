@@ -1,0 +1,377 @@
+INSTRUCTIONS FOR COMPLETION OF THE EMISSIONS ACTIVITY CATEGORY FORM
+FOR INTERNAL COMBUSTION ENGINES OR GAS/OIL TURBINES (Form 3862)
+GENERAL INSTRUCTIONS:
+Provide complete responses to all applicable questions. If an item does not apply to the emissions unit,
+write in “Not Applicable” or “NA.” If the answer is not known, write in “Not Known” or “NK.” Please note that
+it is important to provide as much information as possible to determine state and federal rule applicability
+and compliance requirements. If you need assistance in understanding a question after reading the
+instructions below, contact your Ohio EPA District Office or Local Air Agency for assistance. Submittal of an
+incomplete application will delay application review and processing. In addition, the application may be
+returned as incomplete if all applicable questions are not answered appropriately.
+APPLICABLE REGULATIONS
+The following State and Federal Regulations may be applicable to stationary internal combustion engines.
+Note that there may be other regulations which apply to this emissions unit which are not included in this
+list.
+Federal:
+
+40 CFR Part 60, (NSPS):
+Subpart A (General Provisions),
+Subparts GG and KKKK (Stationary Gas Turbines),
+Subparts Da, Db, and Dc (Steam Generating Units)
+Subparts IIII and JJJJ (Stationary Internal Combustion Engines)
+40 CFR Part 63, (NESHAP/MACT):
+Subpart A (General Provisions)
+Subpart YYYY (Combustion Turbines)
+Subpart DDDDD and JJJJJJ (Steam Generators)
+Subpart ZZZZ (Reciprocating Internal Combustion Engines).
+
+State:
+
+OAC rule 3745-31-02 (Permit to Install)
+OAC rule 3745-17-11(B)(4) and (5) - Particulate emission limits
+OAC rule 3745-18-06(F) - Sulfur dioxide emission limits
+OAC rule 3745-110- (NOx RACT)
+
+If you would like a copy of these regulations, contact your Ohio EPA District Office or Local Air Agency.
+State regulations may also be viewed and downloaded from the Ohio EPA website at:
+http://epa.ohio.gov/dapc/DAPCrules.aspx Federal regulations may be viewed and downloaded at
+http://www.ecfr.gov/cgi-bin/text-idx?&c=ecfr&tpl=/ecfrbrowse/Title40/40tab_02.tpl
+CALCULATING EMISSIONS:
+Manufacturers of some types of engines and most types of control equipment develop emissions estimates
+or have stack test data that you can request. Stack testing of the emissions may also be completed by the
+applicant. Emissions test data may either be for the specific unit or a similar unit located at the facility or
+elsewhere. You may develop your own emissions factors by mass balance or other knowledge of your
+process if you can quantify inputs and outputs accurately. You may be able to do this on a small scale or
+over a short period of time if it is not practical during regular production. If you have control equipment you
+may be able to quantify the amount of pollutants collected over a known time period or production amount.
+Any emissions factor calculation should include a reference to the origin of the emissions factor or control
+efficiency.
+EPA FORM 3862 - INSTRUCTIONS
+
+1 of 3
+
+U.S. EPA has developed emissions factors for many types of air pollution sources and published them in a
+document titled “Compilation of Air Pollutant Emission Factors, AP-42", available from the following website:
+http://www.epa.gov/ttn/chief/ap42/index.html See Sections 3.1 through 3.4 for information and data based
+on specific engine categories.
+Engine certification standards and manufacturer technical data sheets often list emissions rates in units of
+grams/brakehorsepower-hour (g/bhp-hr) or grams/kilowatt-hour (g/kW-hr). The following conversions can be
+used to provide the emissions in the pounds/hour and tons/year format required in Section II of the
+PTI/PTIO application:
+(g/bhp-hr)(hp)(1 lb/453.6 g) = lbs/hr
+(g/kW-hr)/1.341 = g/bhp-hr
+SPECIFIC INSTRUCTIONS:
+1.
+
+Provide the maximum number of hours per day and days per year the stationary internal combustion
+engine is expected to operate. The following are examples of why the maximum number of hours
+per day may be less than 24 or the maximum number of days per year may be less than 365 (this list
+is not all-inclusive):
+- The facility can only operate during daylight hours.
+- The process can only operate within a certain range of ambient temperatures.
+- The process is limited by another operation (i.e., a bottleneck).
+
+4.
+
+Emergency use engines normally operate less than 500 hours per year. “Non-emergency” denotes
+the engine can be used at any time. OAC rule 3745-31-03 contains permit exemption provisions for
+emergency use generators and other small internal combustion engines. Please note that certain
+federal regulations contain additional criteria for qualification as an emergency engine.
+
+5.
+
+Specify the name of the engine manufacturer, model number, model year, and engine serial number.
+The date of order from the manufacturer means the date that your facility entered into a binding
+contract for on-site installation.
+Specify the installation date of the engine. If the engine has been purchased used, the installation
+date listed should be the date the engine was first installed at any location by any owner or operator,
+if available.
+Certain engines comply with federal emissions standards via manufacturer’s certification. Please
+indicate if the engine is certified to meet federal emissions standards. If the answer is “Yes”, please
+specify the federal standard that is being met (e.g. Paragraph (d)(1) of 40 CFR Part 60.4205, Table 1
+of 40 CFR 1039.1, Tier 2 field testing standards in 40 CFR 1048.101(c).)
+
+7.
+
+For reciprocating engines only. Specify the volumetric displacement of the engine in units of liters
+per cylinder for compression ignition engines, or in units of cubic centimeters for spark ignition
+engines.
+
+8.
+
+For turbines only. Describe method for recovering exhaust heat, if applicable.
+
+EPA FORM 3862 - INSTRUCTIONS
+
+2 of 3
+
+9.
+
+Provide the manufacturer’s rated, maximum and normal heat input capacities in million BTU (British
+Thermal Unit) per hour. Also specify the input capacities of any supplemental (duct) burners
+according to the manufacturer’s specifications. For turbines, the maximum heat input capacity
+should be determined at an ambient temperature of no greater than zero degrees Fahrenheit.
+
+10.
+
+Provide the output capacities in units appropriate for the application, i.e., Horsepower for pumps and
+compressors, Kilowatts for generators, etc. Note steam output is required for turbine cogeneration or
+combined cycle units only.
+
+11.
+
+Check all types of fuel fired in the internal combustion engine and any supplemental (duct) burners.
+Be sure to indicate whether the unit is single or dual fuel.
+
+12.
+
+Specify the heat content in the appropriate unit, and ash and sulfur contents, in percent by weight (if )
+for all fuels used in the engine and supplemental (duct) burners. Provide estimated fuel consumption
+quantities based on normal and maximum operation.
+
+15.
+
+For any engine that has been modified or reconstructed, describe the extent of the modification or
+reconstruction and specify the total fixed capital cost of the new and refurbished components.
+
+EPA FORM 3862 - INSTRUCTIONS
+
+3 of 3
+
+FOR OHIO EPA USE
+FACILITY ID: _________________
+EU ID: _______ Application #:__________
+
+EMISSIONS ACTIVITY CATEGORY FORM
+INTERNAL COMBUSTION ENGINES OR TURBINES
+This form is to be completed for each reciprocating engines or turbines. State/Federal regulations which
+may apply to internal combustion engines are listed in the instructions. Note that there may be other
+regulations which apply to this emissions unit which are not included in this list.
+1.
+
+Maximum Operating Schedule: _________ hours per day; ________ days per year
+If the schedule is less than 24 hours/day or 365 days/year, what limits the schedule to less than maximum?
+See instructions for examples. ______________________________________________________
+
+2.
+
+Engine type:
+
+Turbine
+
+3.
+
+Purpose of engine:
+
+Driving pump or compressor
+
+4.
+
+Normal use of engine:
+
+Emergency only
+
+5.
+
+Engine Manufacturer: ____________________
+Model Year:
+
+Reciprocating
+Driving electrical generator
+Non-emergency
+Model No: ____________________
+
+Serial Number:
+
+Date engine was ordered from the manufacturer: _____________________________
+Date engine was first installed at any location by any operator/facility:
+Has the manufacturer certified the engine to meet any emissions standards?
+
+No
+
+Yes
+
+If yes, which Part and paragraph and/or Table and/or Tier has been met?
+Will the engine be operated under the conditions the manufacturer has identified as necessary to
+meet these standards?
+No
+Yes
+6.
+
+Type of ignition:
+
+compression (diesel)
+
+spark
+
+7.
+
+Displacement (for reciprocating engines only):
+________________________(Liters/cylinder, for compression ignition)
+________________________(cubic centimeters, for spark ignition)
+
+8.
+
+Engine exhaust configuration (for turbines only):
+simple cycle (no heat recovery)
+regenerative cycle (heat recovery to preheat combustion air)
+cogeneration cycle (heat recovered to produce steam)
+combined cycle (heat recovered to produce steam which drives generator)
+
+9.
+
+Input capacities (million BTU/hr): Rated: ________ Maximum ________ Normal ________
+Supplemental burner (duct burner) input capacity, if equipped (million BTU/hr):
+Rated:_________ Maximum ___________ Normal ___________
+
+10.
+
+Output capacities (Horsepower): Rated: _________ Maximum ___________Normal ___________
+(Kilowatts):
+
+Rated: _________ Maximum ___________ Normal ___________
+
+(lbs steam/hr)*:
+
+Rated: _________ Maximum ___________ Normal ___________
+*(for cogeneration or combined cycle units only)
+
+11.
+
+12.
+
+Type of fuel fired (check all that apply):
+single fuel
+No. 2 oil, low-sulfur
+dual fuel
+No. 2 oil, high-sulfur
+gasoline
+propane
+
+natural gas
+diesel
+other, explain
+
+landfill gas
+digester gas
+
+Complete the following table for all fuels identified in question 11 that are used for the engine and
+any supplemental (duct) burners, if equipped:
+
+Fuel
+
+Heat Content
+(BTU/unit)
+
+Nat. gas
+
+BTU/cu ft
+
+No. 2 oil
+
+wt.%
+Ash
+
+wt.%
+Sulfur
+gr/scf
+
+Fuel Usage
+Estimated Maximum
+Per Year
+Normal Per Hour
+
+Max. Per Hour
+
+cu ft
+
+cu ft
+
+cu ft
+
+BTU/gal
+
+gal
+
+gal
+
+gal
+
+Gasoline
+
+BTU/gal
+
+gal
+
+gal
+
+gal
+
+Diesel
+
+BTU/gal
+
+gal
+
+gal
+
+gal
+
+Landfill/digester gas
+
+BTU/cu ft
+
+cu ft
+
+cu ft
+
+cu ft
+
+ppm
+
+Other (show units)
+List supplemental (duct) burner fuel and information below (show units):
+
+13.
+
+Type of combustion cycle (check all that apply):
+2-stroke
+4-stroke
+carbureted
+rich-burn
+lean-burn
+fuel injected
+other, explain ________________________________________________
+
+14.
+
+Emissions control techniques (check all that apply):
+prestratified charge
+nonselective catalytic reduction (NSCR)
+water/steam injection
+air/fuel ratio
+selective catalytic reduction (SCR)
+injection timing retard
+catalytic oxidation
+2-stage rich/lean combustion
+2-stage lean/lean combustion
+preignition chamber combustion (PCC)
+diesel particulate filter
+other, explain________________________
+For each emissions control technique checked above, explain what pollutants are controlled by each
+technique:
+_
+____________________________________________________________________________
+____________________________________________________________________________
+
+15.
+
+Has the engine been modified or reconstructed since its manufacture date:
+No
+Yes
+If Yes, explain:
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+
+

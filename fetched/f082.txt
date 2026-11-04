@@ -1,0 +1,2174 @@
+MISSISSIPPI COMMISSION ON ENVIRONMENTAL QUALITY
+
+PERMIT REGULATIONS FOR THE CONSTRUCTION AND/OR OPERATION OF
+AIR EMISSIONS EQUIPMENT
+
+11 Mississippi Administrative Code, Part 2, Chapter 2
+
+Amended: February 22, 2024
+
+Title 11: Mississippi Department of Environmental Quality
+Part 2: Air Regulations
+Part 2, Chapter 2: Mississippi Commission on Environmental Quality, Permit Regulations
+for the Construction and/or Operation of Air Emissions Equipment (Adopted May 8, 1970.
+Amended: May 11, 1972; January 31, 1978; January 23, 1979; March 12, 1981; August 26,
+1981; November 12, 1981; May 9, 1984; March 23, 1988; April 25, 1988; August 23, 1989;
+April 25, 1991; December 9, 1993; June 24, 1999; October 28, 1999; July 28, 2005; and Last
+Amended February 22, 2024)
+TABLE OF CONTENTS
+Rule 2.1 General Requirements............................................................................................ Page 3
+A. Replacement of Previous Regulation ..................................................................... Page 3
+B. Definitions Incorporated by Reference .................................................................. Page 3
+C. Definitions .............................................................................................................. Page 3
+D. Permitting Requirements........................................................................................ Page 8
+Rule 2.2 General Standards Applicable To All Permits .................................................... Page 10
+A. Compliance with other state regulations .............................................................. Page 10
+B. General Provisions ............................................................................................... Page 10
+C. Permit Modification or Revocation ...................................................................... Page 13
+D. Modification of Permit without Modification of Facilities .................................. Page 14
+Rule 2.3 Application for Permit to Construct and State Permit to Operate New
+Stationary Source ................................................................................................. Page 14
+A. Registered Professional Engineer signature/seal ................................................. Page 14
+B. Information Required ........................................................................................... Page 14
+Rule 2.4 Public Participation and Public Availability of Information ............................. Page 14
+A. Prevention of Significant Deterioration Permit to Construct ............................... Page 14
+B. Title V Permit to Operate ..................................................................................... Page 15
+1
+
+C. Permit to Construct a New Moderate Stationary Source, a Moderate
+Modification, or a New Major Stationary Source Impacting a Nonattainment
+Area ...................................................................................................................... Page 15
+D. Additional Public Notice on any Application for a Permit to Construct or State
+Operating Permit .................................................................................................. Page 16
+Rule 2.5 Application Review ............................................................................................... Page 16
+A. Standards for Approving an Application for a Permit to Construct .................... Page 16
+B. Air Quality Models............................................................................................... Page 18
+C. Cancellation of Permit to Construct a New Stationary Source and Notification . Page 18
+D. Certification of Construction, Beginning Operation, and Application for Permit
+to Operate ............................................................................................................. Page 18
+E. Additional Requirements for a Permit to Construct or a State Operating Permit
+for a New Major Stationary Source or Major Modification Significantly
+Impacting an Area in which a NAAQS is being exceeded or will be exceeded .. Page 19
+Rule 2.6 Compliance Testing .............................................................................................. Page 22
+Rule 2.7 Emissions Evaluation Report .............................................................................. Page 23
+Rule 2.8 Procedures for Renewal of State Permit To Operate .......................................... Page 24
+Rule 2.9 Reporting & Recordkeeping ................................................................................ Page 25
+Rule 2.10 Emission Reduction Schedule ........................................................................... Page 25
+Rule 2.11 General Permits .................................................................................................. Page 26
+Rule 2.12 Multi-Media Permits .......................................................................................... Page 27
+Rule 2.13 Exclusions........................................................................................................... Page 27
+A. New Source Permit to Construct .......................................................................... Page 27
+B. Compliance with Other Applicable Requirements............................................... Page 28
+C. Maintenance of Emission Increase Records......................................................... Page 28
+D. Categorical Exclusions from Both Permit to Construct and Operate .................. Page 28
+2
+
+E. Emission-Based Exclusion from Permit to Construct .......................................... Page 29
+F. De minimis NSR Modification Exclusion from Permit to Construct ................... Page 31
+G. Exclusion from Permit to Operate ....................................................................... Page 31
+H. General Permit May Supersede Exclusions ......................................................... Page 31
+Rule 2.14 CAFOs. ............................................................................................................... Page 31
+Rule 2.15 Options ................................................................................................................ Page 32
+A. Plantwide Applicability Limitation (PAL) .......................................................... Page 32
+B. Optional Pre-Permit Construction ........................................................................ Page 32
+C. Optional Title V Permit Modification .................................................................. Page 34
+Rule 2.16 Permit Transfer .................................................................................................. Page 34
+Rule 2.17 Severability ......................................................................................................... Page 35
+Rule 2.1 General Requirements.
+A.
+
+Replacement of Previous Regulation.
+This regulation supersedes and replaces previously adopted “Permit Regulations for the
+Construction and/or Operation of Air Emissions Equipment,” 11 Miss. Admin. Code Pt. 2,
+Ch. 2.
+
+B.
+
+Definitions Incorporated by Reference.
+The definitions set forth in the most recent version of “Regulations for the Prevention of
+Significant Deterioration of Air Quality,” 11 Miss. Admin. Code Pt. 2, Ch. 5., are
+incorporated by reference and shall have the same definition in this Regulation, except for
+changes noted herein.
+
+C.
+
+Definitions.
+(1)
+
+“Applicable Rules and Regulations.” Any Commission regulation concerning
+and/or affecting air emissions and air quality established pursuant to State Law.
+
+(2)
+
+“CFR.” The Code of Federal Regulations.
+
+(3)
+
+“Commission.” The Mississippi Commission on Environmental Quality.
+
+3
+
+(4)
+
+“Concentrated animal feeding operation” (CAFO). Any facility included within
+the definition of that term found at 40 CFR 122.23(b)(2).
+
+(5)
+
+“De minimis NSR modification.” Any modification in which the emissions
+increase of each regulated NSR pollutant is less than three-fourths of the threshold
+for a major modification using the same procedures for calculating the emissions
+increase as the procedures of 40 CFR 52.21(a)(2)(iv)(a) through (f) for calculating
+a significant emissions increase; and which is not one of the following types of
+modifications:
+(a)
+
+a major modification;
+
+(b)
+
+a moderate modification;
+
+(c)
+
+a modification involving medical waste incineration or hazardous waste
+incineration;
+
+(d)
+
+a modification meeting the definition of “constructing or reconstructing a
+major source of hazardous air pollutants” in the “Air Toxics Regulations,”
+11 Miss. Admin. Code Pt. 2, Ch. 8. and 40 CFR Part 63, Subpart B, and
+thereby requiring a case-by-case Maximum Achievable Control
+Technology (MACT) determination.
+
+(6)
+
+“DEQ.” The Mississippi Department of Environmental Quality.
+
+(7)
+
+“EPA.” The U.S. Environmental Protection Agency.
+
+(8)
+
+“Federal Act.” The Federal Clean Air Act as amended in 1990, and any subsequent
+amendments.
+
+(9)
+
+“Hazardous air pollutant.” A hazardous air pollutant (HAP), as listed in Section
+112(b) of the Federal Act.
+
+(10)
+
+“Light commercial area.” An area zoned for commercial use, or, in the absence of
+any local zoning ordinances, an area predominantly used for wholesale and retail
+trade in goods and services.
+
+(11)
+
+“Major Title V source.” Any stationary source meeting the definition of a major
+source in the “Air Emissions Operating Permit Regulations for the Purposes of
+Title V of the Federal Clean Air Act,” 11 Miss. Admin. Code Pt. 2, Ch. 6.
+
+(12)
+
+“Minor stationary source.” Any stationary source that is neither a major stationary
+source nor a moderate stationary source.
+
+(13)
+
+“Moderate modification.” Any modification in which the source is making
+federally enforceable physical and/or operational limitations on the capacity of the
+4
+
+source in order to reduce the potential to emit and/or render one or more
+contemporaneous decreases federally enforceable to avoid major source
+requirements of 11 Miss. Admin. Code Pt. 2, Ch. 5. or Rule 2.5.E. of these
+regulations.
+(14)
+
+“Moderate stationary source.” Any new stationary source which makes federally
+enforceable physical and/or operational limitations on the capacity of the source in
+order to reduce the potential to emit to avoid major source requirements of 11 Miss.
+Admin. Code Pt. 2, Ch. 5. or Rule 2.5.E. of these regulations.
+
+(15)
+
+“Modification.” Any physical change in or change in the method of operation of a
+facility which increases the actual emissions or the potential uncontrolled emissions
+of any air pollutant subject to regulation under the Federal Act emitted into the
+atmosphere by that facility or which results in the emission of any air pollutant
+subject to regulation under the Federal Act into the atmosphere not previously
+emitted. A physical change or change in the method of operation shall not include:
+(a)
+
+routine maintenance, repair, and replacement;
+
+(b)
+
+use of an alternative fuel or raw material by reason of an order under
+Sections 2 (a) and (b) of the Federal Energy Supply and Environmental
+Coordination Act of 1974 (or any superseding legislation) or by reason of a
+natural gas curtailment plan pursuant to the Federal Power Act;
+
+(c)
+
+use of an alternative fuel by reason of an order or rule under Section 125 of
+the Federal Act;
+
+(d)
+
+use of an alternative fuel or raw material by a stationary source which:
+(1)
+
+the source was capable of accommodating before January 6, 1975,
+unless such change would be prohibited under any federally
+enforceable permit condition which was established after January 6,
+1975, pursuant to 11 Miss. Admin. Code Pt. 2, Ch. 2. and/or Ch. 5.;
+or
+
+(2)
+
+the source is approved to use under any permit issued under 11 Miss.
+Admin. Code Pt. 2, Ch. 2. and/or Ch. 5.;
+
+(e)
+
+an increase in the hours of operation or in the production rate unless such
+change would be prohibited under any federally enforceable permit
+condition which was established after January 6, 1975, pursuant to 11 Miss.
+Admin. Code Pt. 2, Ch. 2. or Ch. 5.; or
+
+(f)
+
+any change in ownership of the stationary source.
+
+5
+
+(16)
+
+“Modified Permit.” Any permit already effective which is altered substantively as
+a result of the Permit Board's determination of the need for such alteration.
+Alterations to correct typographical errors or to clarify requirements shall not be
+considered substantive changes and, therefore, are not modifications for the
+purposes of this definition.
+
+(17)
+
+“NSR.” New source review.
+
+(18)
+
+“Permit Board.” The Mississippi Environmental Quality Permit Board.
+
+(19)
+
+“PSD.” Prevention of Significant Deterioration.
+
+(20)
+
+“Recreational area.” Recreational area means:
+(a)
+
+a national, state, county, or city park; or
+
+(b)
+
+an outdoor recreational area, such as a golf course or swimming pool,
+owned by a city, county, state, or other public agency.
+
+(21)
+
+“Regulated air pollutant.” Any regulated NSR pollutant, any air pollutant subject
+to a standard promulgated under Section 112 or other requirements established
+under Section 112 of the Federal Act, and any other air pollutant for which there is
+a duly adopted state ambient air quality standard.
+
+(22)
+
+“Residential area.” Residential area means:
+
+(23)
+
+(a)
+
+a group of 20 or more single-family dwelling units on contiguous property
+and having an average density of two or more units per acre, or
+
+(b)
+
+a group of 40 or more single-family dwelling units on contiguous property
+and having an average density of one or more units per acre, or
+
+(c)
+
+a subdivision containing at least 20 constructed houses, in which the
+subdivision plat is recorded in the chancery clerk's office of the appropriate
+county.
+
+“Responsible Official.” Responsible Official means one of the following:
+(a)
+
+for a corporation: a president, secretary, treasurer, or vice-president of the
+company or corporation in charge of a principal business function, or any
+other person who performs similar policy- or decision-making functions for
+the company or corporation, or a duly authorized representative of such
+person if the representative is responsible for the overall operation of one or
+more manufacturing, production, or operating facilities applying for or
+subject to a permit and either:
+
+6
+
+(24)
+
+(25)
+
+(1)
+
+the facilities employ more than 250 persons or have gross annual
+sales or expenditures exceeding $25 million (in 1980 dollars); or
+
+(2)
+
+the delegation of authority to such representatives is approved in
+advance by the permitting authority.
+
+(b)
+
+for a partnership or sole proprietorship: a general partner or the proprietor,
+respectively; or
+
+(c)
+
+for a municipality, State, Federal, or other public agency: either a principal
+executive officer or ranking elected official. For the purposes of these
+regulations, a principal executive officer of a Federal agency includes the
+chief executive officer having responsibility for the overall operations of a
+principal geographic unit of the agency (e.g., a Regional Administrator of
+EPA). A principal executive officer of a military facility includes the facility
+commander, chief executive officer, or any other similar person who
+performs similar policy- or decision-making functions for the institution.
+
+“Significant minor source.” A stationary source that is not a synthetic minor
+source; is not a major Title V source or otherwise required to obtain a Title V
+permit; and is one of the following categories of sources:
+(a)
+
+hot-mix asphalt plants;
+
+(b)
+
+cotton gins;
+
+(c)
+
+medical waste incinerators, not subject to the requirements of Rule 1.12 of
+“Air Emission Regulations for the Prevention, Abatement, and Control of
+Air Pollutants,” 11 Miss. Admin. Code Pt. 2, Ch. 1.;
+
+(d)
+
+rendering plants; or
+
+(e)
+
+any other new stationary source deemed by the Permit Board to be a
+significant minor source due to (i) the source’s potential to require
+significant air pollution control operations in order to avoid a violation of
+the Mississippi Air and Water Pollution Control Law or any regulation
+promulgated thereunder, (ii) the source’s potential to require significant
+compliance demonstration or testing requirements, (iii) the source’s
+potential to cause a substantial threat to public health, welfare, or the
+environment, or (iv) the sources’ potential to cause or substantially
+contribute to a violation of any applicable ambient air quality standard.
+
+“State Law.” The Mississippi Air and Water Pollution Control Law, specifically,
+Miss. Code Ann. §§ 49-17-1 through 49-17-45, and any subsequent amendments.
+
+7
+
+D.
+
+(26)
+
+“State Permit to Operate or State Operating Permit.” A permit issued under State
+Law to operate air emissions equipment, exclusive of Title V permits.
+
+(27)
+
+“Stationary source.” For purposes of this regulation, any building, structure,
+facility, or installation which emits or may emit a regulated air pollutant.
+
+(28)
+
+“Synthetic minor source.” Any stationary source which would otherwise constitute
+a major source as defined by 11 Miss. Admin. Code Pt. 2, Ch. 6., except that the
+owner or operator of the stationary source elects for federally enforceable physical
+or operational limitations on the capacity of the source to reduce the potential to
+emit below the applicability thresholds for a Title V major source. Such limitations
+may include, but are not limited to, permit conditions restricting hours of operation
+or type or amount of material stored, combusted or processed, or permit conditions
+establishing more stringent air pollution control efficiency requirements.
+
+(29)
+
+“Title V.” The air operating permit program mandated in Title V of the 1990
+amendments to the Federal Clean Air Act, codified in 42 U.S.C. §7661.
+
+(30)
+
+“Title V permit.” Any permit or group of permits covering a Title V source that is
+issued, renewed, amended, or revised pursuant to 11 Miss. Admin. Code Pt. 2, Ch.
+6.
+
+(31)
+
+“Title V sources.” Title V sources include the following:
+(a)
+
+any major source;
+
+(b)
+
+any source, including an area source, subject to a standard, limitation or
+other requirement under Section 111 of the Federal Act;
+
+(c)
+
+any source, including an area source, subject to a standard or other
+requirement under Section 112 of the Federal Act, except that a source is
+not required to obtain a permit solely because it is subject to regulations or
+requirements under Section 112(r) of the Federal Act;
+
+(d)
+
+any affected source; and
+
+(e)
+
+any source in a source category designated by the Administrator of EPA.
+
+Permitting Requirements.
+(1)
+
+Permit Types. The Permit Board will issue two types of air pollution control
+permits, a permit to construct air emissions equipment and a State Permit to Operate
+such equipment. A State Permit to Operate is required for synthetic minor sources,
+major Title V sources, and significant minor sources, except as noted in Rule
+2.2.B(1). With exception of a Title V source required to obtain a Title V permit
+under 11 Miss. Admin. Code Pt. 2, Ch. 6, the Permit Board may elect to issue a
+8
+
+single permit addressing the requirements for both a permit to construct and State
+Permit to Operate air emissions equipment if the permit addresses all applicable
+requirements for both types of permits found herein.
+(2)
+
+Unless otherwise provided by Rule 2.13 and 2.15 or other provisions of these
+Regulations, any new stationary source or modification of a stationary source must
+have a permit to construct or multi-media permit incorporating such permit before
+beginning actual construction.
+
+(3)
+
+All applications must be submitted on the form supplied by the Permit Board and
+must be signed by a Responsible Official.
+
+(4)
+
+The Permit Board may require the applicant to submit any additional information
+which the Permit Board deems relevant to its decision on the permit application
+including, but not limited to, ambient air quality modeling. The Permit Board may
+require that all other media permits for a facility be issued simultaneously with any
+required air permit or may issue the air permit prior to or subsequent to other
+permits required by the facility.
+
+(5)
+
+A permit issued by the Permit Board will generally be for a specific site identified
+in the application. No permit application, except one for a portable facility which
+will be located only temporarily at a site or sites, will be processed unless the
+applicant controls the real property upon which the facility is located. The applicant
+may demonstrate control or the legal right to operate through ownership, lease,
+eminent domain, easement, license and/or contract. For portable facilities which
+will be located only temporarily at a site or sites, the Permit Board may issue a
+statewide permit or a permit for operation in multiple areas.
+
+(6)
+
+It is the responsibility of the applicant/permittee to obtain all other approvals,
+permits, clearances, easements, agreements, etc., which may be required including,
+but not limited to, all required local government zoning approvals or permits. DEQ
+may delay processing any permit application until the applicant provides to DEQ
+information or documentation sufficient to demonstrate any approval listed in this
+paragraph.
+
+(7)
+
+The provisions of a permit are severable. If any provision of a permit, or the
+application of any provision of a permit to any circumstances, is challenged or held
+invalid, the validity of the remaining permit provisions and/or portions thereof or
+their application to other persons or sets of circumstances, shall not be affected
+thereby.
+
+(8)
+
+In the event of a conflict between any of the requirements of these regulations
+and/or applicable requirements of any other regulation or law, the more stringent
+requirements shall be applied.
+
+9
+
+(9)
+
+A stationary source which emits or causes to be emitted matter other than through
+a stack or a defined outlet of an air cleaning device may be classified inadequate in
+regard to control equipment. Facilities which comply with emission standards
+which specifically address and include fugitive emissions shall be presumed
+adequate provided all other Applicable Rules and Regulations are complied with.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-2-1, et seq. and 4917-1, et seq.
+Rule 2.2 General Standards Applicable To All Permits.
+A.
+
+Except as provided for in 11 Miss Admin. Code Pt. 2, Ch. 6., no permit shall be issued
+unless the applicant has complied with applicable requirements of 11 Miss. Admin. Code
+Pt. 2, Ch. 1.; 11 Miss. Admin. Code Pt. 2, Ch. 2.; the “Regulations for the Prevention of
+Air Pollution Emergency Episodes,” 11 Miss. Admin. Code Pt. 2, Ch. 3.; the “Ambient Air
+Quality Standards,” 11 Miss. Admin. Code Pt. 2, Ch. 4., except as provided for in Rule
+2.5.E. herein; 11 Miss. Admin. Code Pt. 2, Ch. 5.; any amendments to these Applicable
+Rules and Regulations; and additional relevant Applicable Rules and Regulations
+promulgated by the Commission and/or Permit Board.
+
+B.
+
+General Provisions.
+(1)
+
+Any stationary source which holds a valid Title V permit shall be deemed to be in
+compliance with the requirements regarding a State Permit to Operate contained
+herein and State Law.
+
+(2)
+
+The Permit Board may require a permittee to submit an application for a Title V
+permit at any time the permittee becomes subject to Title V. The Permit Board may
+require a permittee to submit a Title V application even though the permittee has
+previously submitted an application for renewal of its State Operating Permit.
+
+(3)
+
+When requested by the Permit Board, an applicant shall submit information to
+demonstrate it has the financial resources to comply with the terms and conditions
+of the permit.
+
+(4)
+
+When requested by the Permit Board, an applicant shall submit information on the
+applicant's compliance history to provide reasonable assurance that it will comply
+with the terms and conditions of the permit.
+
+(5)
+
+The knowing submittal of a permit application with false information may serve as
+the basis for the Permit Board to void the permit issued pursuant thereto or subject
+the applicant to penalties for operating without a valid permit pursuant to State Law.
+
+(6)
+
+Acceptance by the Permit Board of a permit application does not constitute a waiver
+of the DEQ’s right to assess appropriate penalties against the applicant pursuant to
+State Law for constructing or operating without a valid permit.
+10
+
+(7)
+
+The issuance of a permit does not release the permittee from liability for
+constructing or operating air emissions equipment in violation of any applicable
+statute, rule, or regulation of state or federal environmental authorities.
+
+(8)
+
+Applicants for all permits to construct or operate, or to renew a State Permit to
+Operate, shall specify in their application the air emission rate for each air pollutant
+subject to regulation under the Federal Act that can be reasonably expected to be
+emitted into the air as a result of operations from the source.
+
+(9)
+
+Each application must be signed by the Responsible Official. The signature of the
+applicant shall constitute an agreement that the applicant assumes the responsibility
+for any alterations, additions or changes in operation that may be necessary to
+achieve and maintain compliance with all Applicable Rules and Regulations.
+
+(10)
+
+The Permit Board may, in any permit, establish limitations and requirements on the
+emission of air pollutants and on other parameters of a stationary source to assure
+that the requirements of Applicable Rules and Regulations are met subject to Miss.
+Code Ann. § 49-17-34(2) and (3). Where the Permit Board does not establish
+limitations and requirements in a permit, the permit shall provide that the rates of
+emissions and other operating conditions and parameters specified in the
+application shall be the applicable limitations and requirements.
+
+(11)
+
+The Permit Board may, in any permit, establish requirements for compliance testing
+by emissions sampling and analysis, for emissions and operation monitoring, and
+for reporting of the results from such testing and monitoring. The Permit Board
+shall consider factors in establishing such requirements as follows:
+
+(12)
+
+(a)
+
+Applicable Rules and Regulations which address testing, monitoring, and
+reporting;
+
+(b)
+
+prior results of testing and monitoring at the stationary source;
+
+(c)
+
+the applicant's compliance history;
+
+(d)
+
+the size of the stationary source;
+
+(e)
+
+the cost of the testing, monitoring, reporting; and
+
+(f)
+
+the potential environmental impact of the stationary source.
+
+The Permit Board may, in any permit, subdivide the permit requirements to
+facilitate their expression so as to adequately define, describe, and encompass
+emissions-producing units, processes, and other portions of a stationary source
+subject to the requirements.
+
+11
+
+(13)
+
+The Permit Board may, in any permit to construct, require the permittee to perform
+special environmental monitoring for the purpose of detecting, quantifying, and
+determining the impact of pollutants existing prior to the date the permittee begins
+to emit when, during the review of the application and the public participation
+process, questions arise, with regard to separate environmental impacts of pollution
+raised by the applicant or the Department and which cannot be determined by
+available scientific data and scientific methods. The Permit Board may, in any State
+Permit to Operate, require the permittee to perform special environmental
+monitoring for the purpose of detecting, quantifying, and determining the impact
+of pollutants emitted by the permittee when such monitoring is necessary because
+traditional air quality monitoring techniques will not measure the quality of the
+environment nor the impact of the pollutants emitted into the environment. Such
+special monitoring may include, but is not limited to, parameters such as ambient
+concentration, deposition, bio-accumulation in flora and fauna, etc.
+
+(14)
+
+No permit for the construction or relocation of equipment which will cause the
+issuance of air contaminants shall be issued when said equipment cannot comply
+with buffer zone requirements as follows:
+(a)
+
+All sources of air emissions must be at least 150 feet from the nearest
+residential or recreational area.
+
+(b)
+
+All sources of air emissions at asphalt plants utilizing conventional
+technology for the control of air contaminants must be at least 1500 feet
+from the nearest residential, recreational or light commercial area.
+
+(c)
+
+All sources of air emissions at asphalt plants utilizing best available
+technology for the control of air contaminants must be at least 600 feet from
+the nearest residential, recreational or light commercial area.
+
+(d)
+
+Rendering plants or other similar operations which may cause objectionable
+odors must be at least 1500 feet from the nearest residential, recreational or
+light commercial area and be located in compliance with Miss. Code Ann.
+§ 41-51-19.
+
+(e)
+
+Notwithstanding (a) above, incinerators must be at least 150 feet from any
+dwelling or from any light commercial building not owned by the applicant.
+
+(f)
+
+Where buffer zone requirements cannot be met, the Permit Board will
+consider requests for exceptions to, or variances from, these requirements
+upon the applicant's submittal of sufficient proof that affected property
+owners within the subject buffer zone have had timely and sufficient notice
+of the proposed stationary source. Any comments received as a result of
+such notice shall be considered prior to action upon any request for
+exceptions to, or variances from, the buffer zone requirements.
+
+12
+
+(g)
+
+(15)
+
+C.
+
+The Permit Board may establish buffer zone requirements for facilities not
+included in 15(a)-(f) considering factors including but not limited to, the
+type of emissions, the quantity of emissions, the physical characteristics of
+the stationary source (such as the location) and such other factors that the
+Permit Board deems appropriate to protect human health, welfare, or the
+environment.
+
+Each permit issued shall include the following:
+(a)
+
+It shall not be a defense for a permittee in an enforcement action that it
+would have been necessary to halt or reduce the permitted activity in order
+to maintain compliance with the conditions of the permit unless halting or
+reducing activity would create an imminent and substantial endangerment
+threatening the public health and safety of the lives and property of the
+people of this state.
+
+(b)
+
+The permit and/or any part thereof may be modified, revoked, reopened,
+and reissued, or terminated for cause. Sufficient cause for a permit to be
+reopened shall exist when an air emissions stationary source becomes
+subject to Title V. The filing of a request by the permittee for a permit
+modification, revocation and reissuance, or termination, or of a notification
+of planned changes or anticipated noncompliance does not stay any permit
+condition.
+
+(c)
+
+The permit does not convey any property rights of any sort, or any exclusive
+privilege.
+
+(d)
+
+The permittee shall furnish to the DEQ within a reasonable time any
+information the DEQ may request in writing to determine whether cause
+exists for modifying, revoking and reissuing, or terminating the permit or to
+determine compliance with the permit. Upon request, the permittee shall
+also furnish to the DEQ copies of records required to be kept by the permit
+or, for information claimed to be confidential, the permittee shall furnish
+such records to the DEQ along with a claim of confidentiality. The permittee
+may furnish such records directly to the Administrator of EPA along with a
+claim of confidentiality.
+
+Permit Modification or Revocation
+After notice and opportunity for hearing, the Permit Board may modify, or revoke in whole
+or in part any permit issued pursuant to these regulations for good cause shown including,
+but not limited to, the following:
+(1)
+
+persistent violation of any of the terms or conditions of the permit;
+
+13
+
+D.
+
+(2)
+
+obtaining the permit by misrepresentation or failure to disclose fully all relevant
+facts; or
+
+(3)
+
+a change in federal, state or local laws or regulations that require either a temporary
+or permanent reduction or elimination of previously authorized air emissions.
+
+Modification of Permits without Modification of Facilities
+The terms and conditions of a previously issued permit to construct or State Permit to
+Operate may, upon request of the permittee, be modified if the Permit Board finds that
+those terms and conditions are no longer necessary to ensure compliance with all
+Applicable Rules and Regulations or that the modifications sought by the permittee result
+in operating conditions that are protective of human health and the environment.
+
+Source: Miss. Code Ann. §§ 49-2-9(1)(b), 49-17-17, 49-17-28, 49-17-29, 49-2-1, et seq. and 4917-1, et seq.
+Rule 2.3 Application for Permit to Construct and State Permit to Operate New Stationary
+Source.
+A.
+
+All engineering plans and specifications required by DEQ must bear the signature,
+registration number, and seal of a professional engineer registered in the State of
+Mississippi.
+
+B.
+
+Information Required.
+(1)
+
+The Permit Board may require each application for a permit to construct a new
+stationary source be accompanied by two (2) complete sets of site drawings,
+construction drawings, design calculations and specifications.
+
+(2)
+
+Upon request by the Permit Board, the applicant shall furnish any additional
+information necessary to evaluate the design adequacy of the new stationary source.
+
+(3)
+
+The Permit Board may require the applicant to predict the impact of emissions on
+air quality using air quality models as referenced in Rule 2.5.B. herein.
+
+Source: Miss. Code Ann. §§ 49-2-9(1)(b), 49-17-17, 49-17-28, 49-17-29, 49-2-1, et seq. and 4917-1, et seq.
+Rule 2.4 Public Participation and Public Availability of Information.
+A.
+
+For any application for a Prevention of Significant Deterioration permit to construct, the
+DEQ will follow the public participation procedures specified in 11 Miss. Admin Code Pt.
+2, Ch. 5. in lieu of the requirements set forth herein.
+
+14
+
+B.
+
+For any application for a Title V permit, the DEQ will follow the public participation
+procedures specified in 11 Miss. Admin. Code Pt. 2, Ch. 6. in lieu of the requirements set
+forth herein.
+
+C.
+
+For any application for a permit to construct or State Permit to Operate that requests
+federally enforceable physical and/or operational limitations on the capacity of the source
+to limit the source’s potential to emit or that is subject to review and permitting under R.
+2.5.E., the DEQ will provide opportunity for public comment on information submitted by
+the owner and operator. These procedures shall include the following:
+(1)
+
+The DEQ shall publish the public notice and draft permit on the DEQ’s website.
+The public notice and draft permit will remain available on the website for the
+duration of the public comment period. The DEQ may supplement the website
+noticing method by other noticing methods on individual permits.
+
+(2)
+
+The public notice shall identify the following information:
+(a)
+
+the affected facility;
+
+(b)
+
+the name and address of the permittee;
+
+(c)
+
+the name and address of the Permit Board;
+
+(d)
+
+the activity or activities involved in the permit action;
+
+(e)
+
+the emissions change involved in any permit modification;
+
+(f)
+
+the name and contact information of a person from whom interested persons
+may obtain additional information, including the draft permit, the
+application, and all other materials relevant to the permit decision except
+for information entitled to confidential treatment;
+
+(g)
+
+a brief description of the comment procedures and deadline for receipt of
+comments; and
+
+(h)
+
+the time and place of any hearing that may be held or a statement of
+procedures to request a hearing.
+
+(3)
+
+The DEQ shall provide at least 30 days for public comment and shall give notice
+of any public hearing at least 30 days in advance of the hearing.
+
+(4)
+
+A copy of the notice will be sent to the Administrator of EPA through Region IV,
+and to all other State and local air pollution control agencies having jurisdiction in
+the region in which the source is currently located or is proposed to be located.
+
+(5)
+
+The DEQ shall make available for public inspection the DEQ’s analysis of the
+effect of construction or modification on ambient air quality, including the DEQ’s
+
+15
+
+proposed issuance or denial, and, upon request, the information submitted by the
+permit applicant.
+
+D.
+
+(6)
+
+The DEQ may hold a public hearing on any application for a permit to construct or
+State Permit to Operate if it determines that there is sufficient interest in the
+application.
+
+(7)
+
+A permit issued pursuant to these procedures is considered federally enforceable.
+
+In addition to A. through C. above, the Permit Board may provide notice to the public and
+provide opportunity for public comment on any application for a permit to construct or
+State Permit to Operate.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-2-1, et seq. and 4917-1, et seq.
+Rule 2.5 Application Review.
+A.
+
+Standards for Approving an Application for a Permit to Construct.
+(1)
+
+The stationary source shall be designed and constructed so as to operate without
+causing a violation of any Applicable Rules and Regulations.
+
+(2)
+
+The stationary source shall be designed and constructed so as to operate without
+interfering with the attainment and maintenance of State and National Ambient Air
+Quality Standards.
+
+(3)
+
+The stationary source shall be designed and constructed so as to operate such that
+the emission of air toxics does not result in an ambient concentration sufficient to
+adversely affect human health and well-being or unreasonably and adversely affect
+plant or animal life beyond the stationary source boundaries.
+(a)
+
+The Permit Board may require the applicant to provide data necessary to
+evaluate the impacts of air toxics, including the predicted emission rates and
+ambient concentrations, when it deems necessary, considering factors that
+follow:
+(1)
+
+the types of air toxics involved;
+
+(2)
+
+the quantity of emissions involved;
+
+(3)
+
+the physical characteristics of the stationary source (such as the
+location, size, etc.);
+
+(4)
+
+the anticipated human health effects;
+
+16
+
+(b)
+
+(c)
+
+(5)
+
+the weight of scientific data supporting the health effects associated
+with the air toxics;
+
+(6)
+
+the level of air pollution control equipment employed; and
+
+(7)
+
+such other factors as the Permit Board deems appropriate.
+
+When an air toxics evaluation is required by the Permit Board, the
+evaluation shall consider:
+(1)
+
+an analysis of the chronic human health risks associated with the air
+toxics including the lifetime excess cancer risks to the most exposed
+individual from air toxics which are known, probable, or possible
+human carcinogens calculated or determined using appropriate
+pathways of exposure;
+
+(2)
+
+an analysis of the acute human health effects associated with the air
+toxics utilizing the most current health-effects data published by
+EPA and/or recognized public health institutions or, in its absence,
+other extrapolative acute health-effects data; and
+
+(3)
+
+where applicable, an analysis of the impacts and effects of the air
+toxics on plant and/or animal life beyond the boundaries of the
+applicant's property.
+
+The carcinogenic risk analysis shall be considered to have satisfied
+applicable requirements of this regulation and 11 Miss. Admin. Code Pt. 2,
+Ch. 1. when the lifetime excess cancer risk to the most exposed individual
+outside the property boundary is determined to be less than 1  10-6. When
+the excess cancer risk is determined to be greater than 1  10-6 but less than
+1  10-4, the Permit Board may either:
+(1)
+
+require the applicant to demonstrate that, notwithstanding the
+calculated risks, public health is not threatened by the proposed
+emissions of air toxics; or
+
+(2)
+
+establish permit conditions to limit or prohibit the emissions of air
+toxics.
+
+When this excess cancer risk is calculated or determined to be greater than
+1  10-4, the applicant must demonstrate that, notwithstanding the calculated
+risks, public health is not threatened by the proposed emissions of air toxics.
+(4)
+
+The construction of the stationary source shall be performed in such a manner so as
+to reduce fugitive dust emission from construction activities to a minimum.
+
+17
+
+B.
+
+C.
+
+D.
+
+Air Quality Models.
+(1)
+
+All estimates of ambient concentrations of air pollutants shall be based on the
+applicable air quality models, databases, and other requirements specified in the
+version of the “Guideline on Air Quality Models,” 40 CFR Part 51, Appendix W,
+approved in 11 Miss. Admin. Code Pt. 2, Ch. 5.
+
+(2)
+
+Where an air quality impact model specified in the “Guideline on Air Quality
+Models,” 40 CFR Part 51, Appendix W, is inappropriate, the model may be
+modified or another model substituted. Such a modification or substitution of a
+model may be made on a case-by-case basis or, where appropriate, on a generic
+basis. Written approval of the DEQ and the Administrator of EPA must be obtained
+for any modification or substitution. In addition, use of a modified or substituted
+model shall be subject to public notice and opportunity for public comment.
+
+Cancellation of Permit to Construct a New Stationary Source and Notification.
+(1)
+
+The permit to construct will expire if construction does not begin within 18 months
+from the date of issuance or if construction is suspended for 18 months or more.
+
+(2)
+
+The permittee must notify DEQ in writing when construction begins within 15 days
+of beginning actual construction.
+
+(3)
+
+The permittee must notify DEQ in writing when construction does not begin within
+18 months of issuance or if construction is suspended for 18 months or more.
+
+(4)
+
+The Permit Board may extend the permit to construct for such additional time it
+deems appropriate if, at the time of the extension request, the applicant can
+demonstrate it meets all requirements necessary to issue a new permit to construct.
+
+Certification of Construction, Beginning Operation, and Application for Permit to Operate.
+(1)
+
+Upon the completion of construction or installation of an approved stationary
+source or modification, the applicant shall notify the Permit Board that construction
+or installation was performed in accordance with the approved plans and
+specifications on file with the Permit Board.
+
+(2)
+
+The Permit Board shall be promptly notified in writing of any change in
+construction from the previously approved plans and specifications or permit. If the
+Permit Board determines the changes are substantial, it may require the submission
+of a new application to construct with “as built” plans and specifications.
+Notwithstanding any provision herein to the contrary, the acceptance of an “as
+built” application shall not constitute a waiver of the right to seek compliance
+penalties pursuant to State Law.
+
+18
+
+E.
+
+(3)
+
+A new stationary source issued a permit to construct cannot begin operation until
+certification of construction by the permittee.
+
+(4)
+
+After certification of construction by the permittee, the permit to construct shall be
+deemed to satisfy the requirement for a permit to operate until the date the
+application for issuance or modification of the Title V permit or the application for
+issuance or modification of the State Permit to Operate, whichever is applicable, is
+due. This provision is not applicable to a source excluded from the requirement for
+a permit to operate as provided by Rule 2.13.G.
+
+(5)
+
+The application for issuance or modification of the State Permit to Operate or the
+application for issuance or modification of the Title V permit, whichever is
+applicable, is due 12 months after beginning operation or such earlier date or time
+as specified in the permit to construct. The Permit Board may specify an earlier
+date or time for submittal of the application. Beginning operation will be assumed
+to occur upon certification of construction, unless the permittee specifies differently
+in writing.
+
+(6)
+
+Upon submittal of a timely and complete application for issuance or modification
+of a State Permit to Operate or application for issuance or modification of a Title V
+permit, whichever is applicable, the applicant may continue to operate under the
+terms and conditions of the permit to construct and in compliance with the
+submitted application until the Permit Board issues, modifies, or denies the Permit
+to Operate.
+
+Additional Requirements for a permit to construct or a State Operating Permit for a New
+Major Stationary Source or Major Modification Significantly Impacting an Area in which
+a National Ambient Air Quality Standard is being exceeded or will be exceeded.
+(1)
+
+The Offset Policy is the Emission Offset Interpretive Ruling adopted by EPA in (or
+to be printed in) 40 CFR Part 51, Appendix S, and any subsequent amendments
+thereto as of April 25, 1988. A copy of such ruling is attached hereto and is
+incorporated herein and adopted by reference as Regulations of the Commission
+except as follows:
+(a)
+
+Notwithstanding Appendix S, the requirements for Offsets and Lowest
+Achievable Emission Rate will apply to all major stationary sources and
+major modifications which have a significant impact on nonattainment of
+the applicable ambient air quality standard.
+
+(b)
+
+The source types specified in Section IV.B. of Appendix S of 40 CFR Part
+51 will not be excluded from any conditions of the Offset Policy or any of
+the requirements contained herein.
+
+(c)
+
+All terms in Rule 2.5.E. shall have the same definitions as those contained
+in the Offset Policy including the term “major stationary source” which is
+19
+
+defined differently for purposes of this paragraph than throughout the
+remainder of 11 Miss. Admin. Code Pt. 2, Ch. 2.
+(2)
+
+Definitions
+(a)
+
+“Nonattainment area.” A geographical area of the state in which a violation
+of a National Ambient Air Quality Standard is occurring and which has been
+designated by the Commission or EPA as nonattainment with respect to that
+standard.
+
+(b)
+
+“Nonattainment Area Implementation Plan.” A revision to the
+Commission's Implementation Plan for the Control of Air Pollution, such
+revision having been adopted by the Commission and approved by the U.S.
+Environmental Protection Agency pursuant to the Federal Act, for the
+purpose of attainment and maintenance of the applicable National Ambient
+Air Quality Standard in a nonattainment area.
+
+(c)
+
+“Reasonable Further Progress Schedule.” An incremental reduction in total
+emissions of the applicable air pollutant allowed in order to provide for the
+attainment of the applicable National Ambient Air Quality Standard by the
+applicable statutory deadlines.
+
+(d)
+
+“Significance Levels.” Concentrations of pollutants against which air
+quality contributions of a stationary source are compared to determine
+whether the stationary source significantly impacts air quality in an area.
+The levels are as follows:
+SO2
+
+1.0 μg/m3, annual average; 5 μg/m3, 24-hour average; 25 μg/m3, 3hour average
+
+PM10 1.0 μg/m3, annual average; 5 μg/m3, 24-hour average
+
+(e)
+
+(3)
+
+NO2
+
+1.0 μg/m3, annual average
+
+CO
+
+0.5 mg/m3, 8-hour average; 2.0 mg/m3, 1-hour average
+
+“Significant impact.” Air quality impact which exceeds the significance
+level.
+
+A new stationary source which is a major stationary source or major modification
+for the pollutant which contributes to violations of the National Ambient Air
+Quality Standard for which the area is nonattainment and which locates in or
+significantly impacts a nonattainment area must also meet the following
+requirements before a permit to construct or a State Operating Permit is issued:
+
+20
+
+(4)
+
+(a)
+
+The stationary source must meet the lowest achievable emission rate for the
+applicable air pollutant.
+
+(b)
+
+When the applicable Nonattainment Area Implementation Plan contains a
+Reasonable Further Progress Schedule, the Permit Board must determine
+that, by the time the stationary source is to commence operation, total
+combined allowable emissions of the applicable air pollutant from existing
+sources in the area, the proposed new stationary source, and all other new
+facilities in the area shall be no greater than the total allowable emissions
+for the nonattainment area which represents reasonable further progress for
+attaining the standard as defined in the applicable Nonattainment Area
+Implementation Plan Reasonable Further Progress Schedule.
+
+(c)
+
+The owner or operator of the proposed new stationary source must
+demonstrate that all major stationary sources which are owned or operated
+by such person (or by any entity controlled by, or under common control
+with such person) in the state are subject to emission limitations and are in
+compliance, or on a schedule for compliance, with all applicable emission
+limitations contained in any Applicable Rules and Regulations.
+
+(d)
+
+Exceptions will be made to the inclusion of fugitive emissions in the
+determination of whether a new stationary source is a major stationary
+source or major modification to the extent that those exceptions are made
+in the Offset Policy.
+
+(e)
+
+At such time that a particular source or modification becomes a major
+stationary source or major modification solely by virtue of a relaxation in
+an enforceable limitation on the capacity of the source or modification
+otherwise to emit a pollutant, the requirements of these Regulations shall
+apply to the source or modification as though construction had not yet
+commenced.
+
+(f)
+
+When the Reasonable Further Progress Schedule in an applicable
+Nonattainment Area Implementation Plan is determined to have become
+inapplicable due to consumption of all available growth allowance under
+such Schedule, the stationary source must meet the conditions of Rule
+2.5.E(4). below.
+
+A new major stationary source which proposes to locate in or near an area where
+an air quality standard is being or will be exceeded but for which no nonattainment
+area implementation plan has been adopted shall be subject to the following:
+(a)
+
+The stationary source shall be subject to the Offset Policy if:
+
+21
+
+(b)
+
+(5)
+
+(1)
+
+the stationary source is a major stationary source or major
+modification for the pollutant for which the standard is or will be
+exceeded; and
+
+(2)
+
+the stationary source is within or has significant impact in the area
+where the standard is or will be exceeded.
+
+In addition to the requirements of the Offset Policy, the stationary source
+shall not be granted a permit to construct or a State Operating Permit unless
+the owner or operator demonstrates that:
+(1)
+
+emissions reductions to offset the new stationary source emissions
+will compensate for the adverse ambient impact caused by the new
+stationary source; and
+
+(2)
+
+the emissions reductions have been achieved.
+
+The granting of a Permit shall not relieve the source of the responsibility to comply
+with other applicable requirements of this Regulation or with any other applicable
+Regulation or Law.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et
+seq. and 49-17-1, et seq. (Rev. 2003).
+Rule 2.6 Compliance Testing.
+A.
+
+Where compliance testing is required in any permit, it shall be performed as provided
+herein. The Permit Board may require in any permit the installation of sampling ports with
+safe access and the installation, maintenance and use of monitoring equipment.
+
+B.
+
+Requirements.
+(1)
+
+The emissions sampling and analysis will be performed in accordance with EPA
+Test Methods and with any continuous emission monitoring requirements, if
+applicable, unless otherwise approved by the Permit Board and the EPA. The
+Permit Board may establish an appropriate method for deviation from a test method.
+
+(2)
+
+In the event there is no applicable EPA Test Method or method required by
+Applicable Rules and Regulations, the Permit Board may specify an appropriate
+test method, taking into consideration any test methodology proposed by the
+applicant.
+
+(3)
+
+The results of the emissions sampling and analysis shall be expressed both in units
+consistent with the emission standards as set forth in any Applicable Rules and
+Regulations and in units of mass per time.
+
+22
+
+(4)
+
+Compliance testing will be performed at the expense of the applicant.
+
+(5)
+
+The Permit Board may monitor compliance tests and perform compliance tests.
+Proper notification of compliance tests shall be provided to the Permit Board in
+accordance with Applicable Rules and Regulations or as specified in the applicable
+permit.
+
+(6)
+
+The emissions sampling and analysis report shall include but not be limited to the
+following:
+
+(7)
+
+C.
+
+(a)
+
+a detailed description of testing procedures;
+
+(b)
+
+sample calculations;
+
+(c)
+
+results; and
+
+(d)
+
+a comparison of results to all Applicable Rules and Regulations and to
+emission limitations in the permit.
+
+Unless otherwise specified in Applicable Rules and Regulations or by a condition
+of a permit issued by the Permit Board, compliance testing must be performed when
+the stationary source is operating at capacity and is otherwise operating normally.
+In the event that a demonstration of compliance by testing is performed at less than
+capacity, the Permit Board may modify the permit to limit capacity of the stationary
+source to the rate at which compliance was demonstrated if the Permit Board
+determines the rate was not representative of the normal operation of the stationary
+source or compliance with Applicable Rules and Regulations was not
+demonstrated. In the event that the stationary source is not operating or being
+operated normally during a demonstration of compliance by testing, the results of
+such testing will not be accepted by the Permit Board as representative of normal
+operation and will be considered inadequate.
+
+Compliance testing will be required of all facilities for which there is an applicable New
+Source Performance Standard or National Emission Standard for Hazardous Air Pollutants
+in accordance with the methods and time frames allowed by the applicable standard
+codified at 40 CFR Parts 60, 61, and 63 and the Federal Act.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et
+seq. and 49-17-1, et seq.
+Rule 2.7 Emissions Evaluation Report. Where emissions evaluation reporting is required in any
+permit, acceptable mathematical methods to demonstrate control adequacy shall include but not
+be limited to the following:
+A.
+
+An emission inventory including:
+
+23
+
+B.
+
+(1)
+
+location and description of control equipment at each point source;
+
+(2)
+
+determination of all possible pollutants at each point source (characteristics,
+conditions, particle size distribution, etc.);
+
+(3)
+
+listing of all stack parameters at each point of emission; and
+
+(4)
+
+detailed description of input material (e.g., percent sulfur content, percent moisture,
+average BTU heating value, input rate, etc.); and
+
+A detailed engineering report including:
+(1)
+
+sufficient calculations to demonstrate uncontrolled emissions;
+
+(2)
+
+sufficient calculations to support or show design efficiency of control equipment;
+
+(3)
+
+sufficient calculations to demonstrate controlled emissions; and
+
+(4)
+
+comparison of calculated controlled emissions with the applicable emission
+standards as set forth in 11 Miss. Admin. Code Pt. 2, Ch. 1.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.8 Procedures For Renewal Of State Permit To Operate.
+A.
+
+A State Permit to Operate shall expire five (5) years from the effective date of said permit
+or within any shorter period of time deemed appropriate by the Permit Board and stated in
+the State Permit to Operate when issued.
+
+B.
+
+Not less than one hundred and eighty (180) days prior to the expiration date of the State
+Permit to Operate, the applicant shall make application for renewal of a State Permit to
+Operate if the applicant desires to continue operation of that stationary source. If the
+applicant submits a timely and complete application pursuant to this paragraph and the
+Permit Board, through no fault of the applicant, fails to act on the application on or before
+the expiration date of the existing permit, the applicant shall continue to operate the
+stationary source under the terms and conditions of the expired permit which shall remain
+in effect until final action on the application is taken by the Permit Board.
+
+C.
+
+The application for renewal of a State Permit to Operate shall be substantiated with current
+emissions data, test results or reports, or other data as deemed necessary.
+
+D.
+
+Renewal of the State Permit to Operate shall comply with the public participation
+procedures of Rule 2.4.C., as applicable.
+
+24
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.9 Reporting & Recordkeeping. The Permit Board may require in any permit the
+maintenance of records relating to the operation of air contamination sources, and any authorized
+representatives of the Commission may examine and copy any such records pertaining to the
+operation of such air contaminant source. Copies of such records shall be submitted to the Permit
+Board as required by Applicable Rules and Regulations or the permit or upon request.
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.10 Emission Reduction Schedule.
+A.
+
+In accordance with 11 Miss. Admin. Code Pt. 2, Ch. 3., it is the responsibility of each and
+every stationary source with actual emissions in excess of 0.25 tons per day of total air
+contaminants, and other significant sources, to have a Commission-approved emissions
+reduction schedule which shall set forth preplanned abatement strategies in the event of an
+emergency episode.
+
+B.
+
+Required Information.
+(1)
+
+The emissions reduction schedule must have three stages of reduction procedures:
+(1) alert level reduction; (2) warning level reduction; and (3) emergency level
+reduction.
+
+(2)
+
+Each level of reduction procedures must show the type and source of air
+contaminants, the amount of reduction of contaminants, the time required to reduce
+contaminants, and the manner in which reduction will be achieved.
+
+C.
+
+The emissions reduction schedule shall be subject to review and approval by the
+Commission.
+
+D.
+
+An unacceptable emissions reduction schedule shall be returned to the applicant along with
+the Commission’s reasons for denial.
+
+E.
+
+The applicant shall have not more than 30 days to amend a disapproved emissions
+reduction schedule to conform with the emission reduction standards as set forth by the
+Commission.
+
+F.
+
+Any person aggrieved by the requirements to amend an emissions reduction schedule shall
+be entitled to a hearing.
+
+G.
+
+Should an applicant fail to submit an emissions reduction schedule within the allowable
+time period or fail to submit an amended preplanned strategy, the Commission will
+establish or revise said plan to cause it to meet the standards as set forth by the Commission.
+25
+
+H.
+
+Such established or revised preplanned strategies will thereafter be the preplanned
+strategies which the applicant will put into effect upon the issuance of an appropriate order
+by the Commission.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.11 General Permits. The Permit Board may issue general permits to construct and operate,
+as described below, classes of articles, machines, equipment, or other contrivances. Issuance of a
+general permit shall comply with the public participation procedures of Rule 2.4.C., as applicable.
+Issuance of a general permit allowing operation of a Title V source must comply with the
+requirements of 11 Miss. Admin. Code Pt. 2, R. 6.3.D. A general permit shall be issued for a period
+of time not to exceed five years. The Permit Board shall establish the schedule for submittal of the
+notice of intent (NOI) and the information that shall be required in the NOI. The Permit Board
+may choose, for certain types of operations, to confer automatic coverage under a general permit
+without requiring the submittal of an application or other request. General permits allowing
+construction of moderate stationary sources or moderate modifications and general permits
+allowing operation of synthetic minor sources or major Title V sources must require submittal of
+a NOI. For any request for coverage of a moderate stationary source, moderate modification,
+and/or synthetic minor source under a general permit, the DEQ will follow the public participation
+procedures required by Rule 2.4.C. of these regulations.
+A.
+
+The applicant shall apply for coverage under an issued general permit in accordance with
+the schedule and requirements established in that general permit.
+
+B.
+
+If the proposed determination is to grant coverage under an issued general permit, the
+Permit Board’s designee shall issue a certificate of coverage to the applicant
+
+C.
+
+Any stationary source covered or eligible to be covered under a general permit may be
+required to obtain an individual permit at the discretion of the Permit Board. Any interested
+person may petition the Permit Board to take action under this paragraph.
+
+D.
+
+The Permit Board may revoke and/or modify a general permit or coverage under a general
+permit.
+
+E.
+
+Any stationary source covered by a general permit may request to be excluded from such
+coverage by applying for an individual permit. Coverage under the general permit is
+automatically terminated upon issuance of an individual permit.
+
+F.
+
+Any stationary source excluded from coverage under a general permit solely because it is
+already covered under an individual permit may request that the individual permit be
+revoked and that it be covered by the general permit. Upon revocation of the individual
+permit by the Permit Board, coverage under the general permit may be granted to the
+stationary source if approved by the Permit Board.
+
+26
+
+G.
+
+A general permit shall remain in force until it is either reissued, modified, or revoked by
+the Permit Board. All coverages under the general permit continue until the general permit
+is reissued or as defined in the reissued general permit. A stationary source may apply for
+coverage under any general permit that is currently in force.
+
+H.
+
+The granting of coverage under a general permit does not imply or express exclusion from
+the requirements of any emission-limiting regulation.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.12 Multi-Media Permits.
+A.
+
+The Permit Board may issue a multi-media permit incorporating a permit to construct air
+emissions equipment and/or a State Permit to Operate such equipment. Issuance of a multimedia permit shall comply with the public participation procedures of Rule 2.4.C., as
+applicable.
+
+B.
+
+For purpose of these regulations, a multi-media permit incorporating a permit to construct
+shall be the same as a permit to construct. The procedures for applying for such a multimedia permit and the standards applicable to such a permit follow those for a permit to
+construct. These procedures and standards are found in Rules 2.1 through 2.10.
+
+C.
+
+For purpose of these regulations, a multi-media permit incorporating a State Permit to
+Operate shall be the same as a State Permit to Operate. The procedures for applying for
+such a multi-media permit and the standards applicable to such a permit follow those for a
+State Permit to Operate. These procedures and standards are found in Rule 2.1 through 2.4
+and 2.6.
+
+D.
+
+For purpose or these regulations, a multi-media general permit incorporating a permit to
+construct and/or a State Permit to Operate combined with certificate of coverage shall be
+the same as a permit to construct and/or a State Permit to Operate. The procedures for
+applying for coverage follow those for a general permit to construct and operate. These
+procedures are found in Rules 2.5 and 2.11 of these regulations.
+
+E.
+
+Any stationary source or facility obtaining a multi-media permit under these provisions is
+subject to the permitting requirements found in Rule 2.1.C. of these regulations.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.13 Exclusions.
+A.
+
+New Source Permit to Construct. Any new “Greenfield” stationary source must obtain a
+permit to construct except as excluded in D. or E.
+
+27
+
+B.
+
+Compliance with Other Applicable Requirements. Exclusions from permit requirements
+does not exclude anyone from complying with all other applicable requirements and
+regulations.
+
+C.
+
+Maintenance of Emissions Records. Stationary sources excluded from the requirement for
+a permit to construct and/or State Permit to Operate must maintain records of any emissions
+associated with any excluded activities and report that to DEQ upon request. Indirect
+measurements of emissions are allowable for these recordkeeping requirements.
+
+D.
+
+Categorical Exclusions from Both Permit to Construct and Operate. The following are
+excluded from the requirement for a permit to construct and a permit to operate:
+(1)
+
+Residential heating, cooking, or cleaning devices.
+
+(2)
+
+Residential yard and garden equipment.
+
+(3)
+
+Mobile sources.
+
+(4)
+
+Air conditioning, space heating, or ventilating systems not uniquely designed or
+operated in a manner to remove air contaminants generated by or released from
+equipment.
+
+(5)
+
+Stationary sources, other than incinerators or CAFOs, which have potential
+uncontrolled emissions less than 10 tons per year (TPY) of PM10, SO2, NOx, CO
+and VOC, as determined for each pollutant; less than 1.0 TPY of each hazardous
+air pollutant (HAP); and less than 2.5 TPY of all HAPs combined.
+
+(6)
+
+Feed milling facilities which mill, formulate, or otherwise prepare animal feed
+products for direct local retail sale solely in prepackaged form and are not
+associated with a grain elevator. Milling facilities engaged in preparing feed
+products for wholesale distribution and/or bulk sale are not included in this
+exclusion.
+
+(7)
+
+Sawmills/woodworking plants which do not have drying kilns onsite and process
+less than 25,000 board feet/day.
+
+(8)
+
+Any equipment used exclusively for preparation of food for direct retail sale at a
+restaurant, cafeteria, bakery, or food service.
+
+(9)
+
+Auto body shops with only one (1) paint spray booth and with substantial portions
+of business devoted to repainting entire vehicles or collision repairs.
+
+(10)
+
+Surface sand and/or gravel mining operations which do not utilize rock crushers,
+pneumatic conveyors, or dust collectors.
+
+(11)
+
+Recreational heaters.
+28
+
+E.
+
+(12)
+
+Gasoline service stations with no more than 17 refueling positions.
+
+(13)
+
+Retail propane filling operations.
+
+(14)
+
+Outdoor kerosene heaters.
+
+(15)
+
+Refrigeration systems.
+
+Emission-Based Exclusion from Permit to Construct. The following emissions units are
+excluded from the requirement for a permit to construct provided the unit is not a new
+major stationary source, major source of hazardous air pollutants, new moderate stationary
+source, major modification, or moderate modification nor a part of a new major stationary
+source, major source of hazardous air pollutants, new moderate stationary source, major
+modification, or moderate modification.
+(1)
+
+Coal or residual oil-fired combustion devices or groups of devices with a total rated
+input capacity of less than 2,000,000 BTU/hr, clean wood waste boilers or groups
+of boilers with a total rated input capacity of less than 10,000,000 BTU/hr, distillate
+oil or combination distillate and gas-fired units or groups of units with a total rated
+input capacity less than 10,000,000 BTU/hr and natural gas fired and/or LPG fired
+devices or groups of devices with all individual rated input capacities of less than
+10,000,000 BTU/hr and a total rated input capacity less than 25,000,000 BTU/hr.
+
+(2)
+
+Equipment used exclusively for oil and gas field production, gathering, storing, and
+transmission, including, but not limited to: gas/oil separators, emulsion treaters,
+free water knockouts, compressors or group of compressors with a total rated
+capacity less than 500 brake horsepower, segregation basins, API oil/water
+separators, tank facilities, and crude oil loading equipment used solely for crude oil
+collected from production wells onsite. Continuous flaring of sour gas and/or
+combustion devices firing sour gas are not excluded from permitting.
+
+(3)
+
+Emergency safety relief systems, including pilot lights.
+
+(4)
+
+Sand blasting operations which use no more than 83 tons of sand in any given 365day period.
+
+(5)
+
+Wood, plastic, and/or metal machining operations which are totally enclosed within
+a building, and which have no direct exhausts to the ambient air other than common
+building ventilation points.
+
+(6)
+
+Petroleum products storage facilities with no individual storage tank greater than
+19,800 gallons and total storage capacity less than 55,000 gallons.
+
+29
+
+(7)
+
+A compressor or groups of compressors firing either natural gas, gasoline, LPG
+and/or diesel fuel with a total rated capacity less than or equal to 500 brake
+horsepower.
+
+(8)
+
+Surface coating operations which utilize less than 50 pounds per day of all solvents
+and coatings.
+
+(9)
+
+Fire training exercises and equipment.
+
+(10)
+
+Groundwater recovery/treatment facilities used for the remediation of motor fuel
+contamination addressed under the Underground Storage Tank Program when the
+facilities are located on the site of the contamination.
+
+(11)
+
+Temporary storage/aeration of soils contaminated with motor fuel which are
+produced as a result of a remedial response to a release from an underground
+storage tank when the storage/operation is on the site of the tank.
+
+(12)
+
+CERCLA/Superfund remediation or removal projects on the site of the
+contamination.
+
+(13)
+
+Remediation of sites contaminated with hazardous constituents required under
+State authority on the site of the contamination.
+
+(14)
+
+Portable TSCA treatment facilities permitted by EPA.
+
+(15)
+
+Wastewater collection and treatment facilities, other than CAFOs or those listed in
+40 CFR 61, Subpart FF - National Emission Standard for Benzene Waste
+Operations and in 40 CFR 60, Subpart QQQ - Standards of Performance for VOC
+Emissions from Petroleum Refinery Wastewater Systems, which have the potential
+to emit no more than 5 TPY of Volatile Organic Compounds (VOC).
+
+(16)
+
+Surface coal mining operations for which a permit has been issued by the Permit
+Board pursuant to Miss. Code Ann. §53-9-1, et seq. or by the Federal Office of
+Surface Mining pursuant to the Federal Surface Mining Control and Reclamation
+Act, 30 U.S.C. §1201, et seq. However, any rock crushers, pneumatic conveyors,
+and dust collectors at such operations may require permitting if they meet the
+definition of “stationary source.”
+
+(17)
+
+Auto body shops.
+
+(18)
+
+Dedicated fuel stations with total storage capacity less than 55,000 gallons and no
+individual tank greater than 19,800 gallons.
+
+(19)
+
+Subject to Rule 2.14, any existing or new animal feeding operation that is not a
+concentrated animal feeding operation (CAFO) and that does not incinerate animal
+carcasses or waste. For the purpose of this paragraph, “animal feeding operation”
+30
+
+means any facility where animals have been, are, or will be stabled or confined, or
+allowed to roam or graze within a fenced or otherwise restricted area. This
+definition includes, but is not limited to, aquatic animal production facilities,
+kennels, swine growing operations, veal farms, chicken growing operations, cattle
+growing operations, and dairies.
+(20)
+
+Initial field testing of oil and gas wells, after proper notification to the Commission
+provided such tests will not produce 100 tons per year or more of any pollutant.
+
+F.
+
+De minimis NSR Modification Exclusion from Permit to Construct. A de minimis NSR
+modification is excluded from the requirements for a permit to construct. This does not
+eliminate any requirement for modification of the related Title V permit or State Permit to
+Operate to address a de minimis NSR modification. A modification other than a de minimis
+NSR modification is subject to the requirements for a permit to construct.
+
+G.
+
+Exclusion from Permit to Operate. Major Title V sources, other sources required to obtain
+a Title V permit, synthetic minor sources, and significant minor sources are subject to the
+requirements for a permit to operate. Any other source is excluded from the requirement to
+obtain a permit to operate. Exclusion from the requirement to obtain a permit to operate
+does not imply exclusion from any other requirements of these regulations, including the
+requirement to obtain a permit to construct before beginning actual construction and the
+certification of construction requirements specified in R. 2.5.D.
+
+H.
+
+General Permit May Supersede Exclusions. The Permit Board may issue a general permit
+which shall supersede the exclusions listed in D., E., F., and G. above.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.14 CAFOs. Concentrated animal feeding operations (CAFOs) are not excluded from the
+requirements for a permit or any other provisions of these regulations. CAFOs issued a National
+Pollutant Discharge Elimination System permit or a state water pollution control permit prior to
+January 18, 2000, are required to submit an application for a permit to construct and/or operate or
+a multimedia permit in compliance with the provisions of these regulations at least 180 days prior
+to the expiration of the facility's NPDES permit or state water pollution control permit that was
+issued prior to the effective date of these regulations. Multimedia permits may be issued by the
+Permit Board as new permits or as a modification of an existing National Pollutant Discharge
+Elimination System or state water pollution control permit but all provisions and procedures of
+these regulations are applicable. The Permit Board on its own initiative or at the request of DEQ,
+may require any existing or new animal feeding operation or concentrated animal feeding
+operation to obtain a multimedia permit, including provisions regarding air emissions and/or odor
+control.
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+
+31
+
+Rule 2.15 Options.
+A.
+
+Plantwide Applicability Limitation (PAL). In accordance with 40 CFR 52.21(aa), any
+major stationary source may establish a plantwide applicability limitation based on baseline
+actual emissions (actuals PAL) for use in future NSR actions. The actuals PAL can be
+established in a PSD Permit to Construct, a Title V permit, or a State Permit to Operate a
+synthetic minor source. The applicable permit to construct or permit to operate shall be
+referred to as a PAL permit and, in addition to the normal applicable procedures and
+requirements for the permit action, shall meet all the requirements for a PAL permit. The
+issuance shall follow all procedures for a PAL permit as specified in 40 CFR 52.21(aa),
+except that the term “Administrator” as it appears in 40 CFR 52.21(aa) shall mean the
+Permit Board and the phrase “§§ 51.160 and 51.161 of this chapter” as it appears in 40
+CFR 52.21(aa)(5) shall mean 11 Miss. Admin. Code. Pt. 2, R. 2.4.
+
+B.
+
+Optional Pre-Permit Construction. Pre-permit construction approval is available for new
+moderate stationary sources, new minor stationary sources, minor modifications, and
+moderate modifications except those sources and modifications excluded from this
+provision in paragraph (9) below. The applicant may request approval from the Permit
+Board to begin actual construction or modification of qualifying sources before receiving
+the required permit to construct. To obtain the Permit Board’s pre-permit construction
+approval, the applicant shall satisfy the following requirements:
+(1)
+
+The applicant shall apply for a permit to construct or Optional Operating Permit
+Modification in accordance with C. below.
+
+(2)
+
+The applicant shall submit a pre-permit construction approval application which
+must contain, but not be limited to the following:
+(a)
+
+a letter requesting approval to begin actual construction before obtaining
+the required permit to construct,
+
+(b)
+
+a copy of the notice referenced in paragraph (4) below,
+
+(c)
+
+demonstration that the applicant is not precluded from this provision per
+paragraph (9) below,
+
+(d)
+
+process description(s),
+
+(e)
+
+equipment list(s),
+
+(f)
+
+proposed emission limits,
+
+(g)
+
+proof that buffer zone requirements in Rule 2.2.B(14). are met,
+
+(h)
+
+certification that construction is at the applicant’s own risk, and
+
+32
+
+(i)
+
+certification that the applicant shall not contest the final decision to issue or
+deny the permit to construct, Title V permit modification, or State Operating
+Permit modification, as applicable, based on the fact that construction has
+already begun.
+
+(3)
+
+An applicant seeking enforceable limitations on a source’s potential to emit, such
+as to qualify as a moderate stationary source or a moderate modification, must
+describe in detail in the pre-permit construction application the proposed limitations
+and certify that the applicant will comply with the limitations, including any
+applicable monitoring and reporting requirements required by the permit.
+
+(4)
+
+The applicant shall provide notice to the DEQ of the application for pre-permit
+construction approval. The notice shall be in the format provided by DEQ and shall
+include the following:
+(a)
+
+a general description of the proposed source or modification,
+
+(b)
+
+a statement that pre-permit construction approval is being requested from
+the Permit Board,
+
+(c)
+
+the location and address where additional information about the proposed
+source or modification and application may be obtained,
+
+(d)
+
+a statement that comments may be made to DEQ, and
+
+(e)
+
+DEQ’s address where comments may be submitted.
+
+The DEQ shall provide at least ten (10) days for the public to comment to the Permit
+Board by posting the notice on the DEQ’s website for the duration of the comment
+period.
+(5)
+
+After determination that all requirements have been met and after sufficient time
+for receipt of all public comments submitted during the ten-day public notice, the
+Permit Board may grant pre-permit construction approval.
+
+(6)
+
+Upon receipt of the pre-permit construction approval letter issued by the Permit
+Board, the applicant may begin construction at their own risk. Upon issuance of the
+pre-permit construction approval letter, any and all potential to emit limitations
+addressed in the pre-permit construction application shall become enforceable. The
+applicant cannot operate the new source or emissions units included in the proposed
+modification until issued the final permit to construct, Title V permit modification,
+or State Operating Permit modification, as applicable, and until certification of
+construction in accordance with Rule 2.5.D., where applicable. This provision
+applies even if the source is excluded from the requirement to obtain a permit to
+operate.
+
+33
+
+C.
+
+(7)
+
+Issuance of the pre-permit construction approval letter shall have no bearing on the
+issuance or denial of the final permit to construct, Title V permit modification, or
+State Operating Permit modification, as applicable. If the final permit is denied, the
+applicant must cease construction and follow the procedures allowed by law and
+regulation for any appeal. The fact that construction has already begun and that
+approval was granted for pre-permit construction shall not be a basis for appeal of
+the Permit Board’s decision.
+
+(8)
+
+The Permit Board may deny the pre-permit construction approval application or
+revoke an existing pre-permit construction approval for any reason it deems valid
+including objection(s) from the public. Denial/revocation of the pre-permit
+construction approval application shall have no bearing on the issuance or denial of
+a final permit.
+
+(9)
+
+Pre-permit construction approval is not available for new major stationary sources,
+major modifications, medical waste incinerators or hazardous waste incinerators or
+any modification involving medical waste incineration or hazardous waste
+incineration, and new stationary sources or modifications meeting the definition of
+“constructing or reconstructing” a major source of hazardous air pollutants in 11
+Miss. Admin. Code Pt. 2, Ch. 8. and 40 CFR Part 63, Subpart B, and thereby
+requiring a case-by-case Maximum Achievable Control Technology (MACT)
+determination
+
+Optional Operating Permit Modification. For a modification of a source holding a valid
+Title V permit or State Operating Permit, a permit to construct may be issued as a
+modification of the Title V permit or State Operating Permit as an alternative to a new
+permit to construct. All requirements for a permit to construct are still applicable and the
+operating permit modification must occur prior to beginning actual construction unless prepermit construction approval is granted in accordance with B. above. If the applicant has
+been granted pre-permit construction approval, the operating permit must be modified
+before beginning operation.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.16 Permit Transfer.
+A.
+
+“Transfer” shall mean any sale, conveyance, or assignment of the rights held by the
+applicant in any permit issued pursuant to these Regulations which meets the conditions of
+both (1) and (2) below:
+(1)
+
+There is a change of more than 50 percent of the equity ownership of the permit
+holder over a sustained period which results in a new majority owner. A new
+majority owner for purposes of this provision shall be an individual, partnership,
+company, or group of affiliated companies.
+
+34
+
+(2)
+
+The change in the ultimate ownership of the permit holder involves the parent,
+grandparent, or great-grandparent company.
+
+B.
+
+A permit issued pursuant to these Regulations shall not be transferred except upon approval
+of the Permit Board.
+
+C.
+
+When requested by the Permit Board, an applicant for transfer approval shall submit
+information to demonstrate that it has the financial resources, operational expertise and
+environmental compliance history over the last five years to ensure compliance with the
+terms and conditions of the permit to be transferred except where this conflicts with State
+Law.
+
+D.
+
+The application for approval of the transfer may be combined with an early application for
+permit renewal.
+
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+Rule 2.17 Severability. If any provision, section, subsection, sentence, clause or phrase of any of
+these regulations, or the application of same to any person or set of circumstances is for any reason
+challenged or held to be invalid or void, the validity of the remaining regulations and/or portions
+thereof or their application to other persons or sets of circumstances shall not be affected thereby.
+Source: Miss. Code Ann. §§ 49-2-9 (1)(b), 49-17-17, 49-17-28, 49-17-29, 49-17-30, 49-2-1, et seq.
+and 49-17-1, et seq.
+
+35
+
+

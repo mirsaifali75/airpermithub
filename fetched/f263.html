@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["rum_v2"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"3810019666",applicationID:"103084907",browserID:"103084926"};;/*! For license information please see nr-loader-rum-1.324.1.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i=1e6,a={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,i,"KC",0,a,"qh",0,"SESSION_ERROR","zd",0,5e5])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.324.1"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.324.1.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.324.1.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-zuv39xzZ8AH/HwpVrtkixvcBuOFo2ydcFzMtXjx+3Iwr5g++inX+6YDH7J/8fOCAtBetz8aDyaYCRkGy2nnG/w=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.324.1.PROD"]=self["webpackChunk:NRBA-1.324.1.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+<link rel="shortcut icon" href="https://www.scph.org/sites/default/files/favicon.png" type="image/png" />
+<meta name="description" content="MISSION The mission of the Akron Regional Air Quality Management District (ARAQMD) is to protect the public from the adverse health impacts of air pollutants and to educate the public about air quality issues. HISTORY ARAQMD began as a division of the Akron Health Department (AHD) on January 1, 1965. In 1971, we became a multi-jurisdictional agency, by signing agreements with" />
+<meta name="keywords" content="health, healthcare, akron, ohio, summit county, disease prevention" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.scph.org/aboutaraqmd" />
+<link rel="shortlink" href="https://www.scph.org/node/605" />
+<meta property="og:title" content="ARAQMD" />
+<meta property="og:description" content="MISSION The mission of the Akron Regional Air Quality Management District (ARAQMD) is to protect the public from the adverse health impacts of air pollutants and to educate the public about air quality issues. HISTORY ARAQMD began as a division of the Akron Health Department (AHD) on January 1, 1965. In 1971, we became a multi-jurisdictional agency, by signing agreements with all the local health departments in Summit, Medina and Portage Counties." />
+<meta property="og:updated_time" content="2024-01-26T08:33:29-05:00" />
+<meta property="article:published_time" content="2019-09-24T09:07:15-04:00" />
+<meta property="article:modified_time" content="2024-01-26T08:33:29-05:00" />
+  <title>ARAQMD | Summit County Public Health</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link type="text/css" rel="stylesheet" href="https://www.scph.org/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.scph.org/sites/default/files/css/css_DOwpMLN5RsUy5KrDj4mbFqaqY1vKGtvQ-Jq5Z_YzoWc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.scph.org/sites/default/files/css/css_DFpy4IbPE_bJEEmy5Ynr8ppwHxqt_JT078n5loaAFs8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.scph.org/sites/default/files/css/css_TQGtz5OygDu9IvJjXzY9ZqYxSae75yj9JyXW0xf8aEc.css" media="all" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.12/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.scph.org/sites/default/files/js/js_akWr6b_viB-k2m8GX34W6B5hM5_Z5pft3CqXYN_NsRo.js"></script>
+<script src="https://www.scph.org/sites/default/files/js/js_bZrma6REH41F4Q9eZihxRjRy08aEerJCkYoX2VLlG9s.js"></script>
+<script src="https://www.scph.org/sites/default/files/js/js_e1CinDKe9AkarTdy2E-3fqsW5VW_FPfKJaeX2dqXLmo.js"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=G-326021961"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-326021961", {"groups":"default","anonymize_ip":true});</script>
+<script src="https://www.scph.org/sites/default/files/js/js_Rda8mdLeVRm_Vg8ybhksBb7jfI_zYouSt86h1n5U5qk.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"triadzen","theme_token":"r7vrwCF-LRWVp6gEMFtxUWPVwjhSAr_hEoiueopedRs","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.12.4\/jquery.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/entityreference\/js\/entityreference.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-326021961":1,"1":1,"sites\/all\/themes\/triadzen\/js\/mmenu\/dist\/jquery.mmenu.all.min.js":1,"sites\/all\/themes\/triadzen\/js\/slick-1.6.0\/slick\/slick.min.js":1,"sites\/all\/themes\/triadzen\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/triadzen\/system.menus.css":1,"sites\/all\/themes\/triadzen\/system.messages.css":1,"sites\/all\/themes\/triadzen\/system.theme.css":1,"sites\/all\/themes\/triadzen\/js\/mmenu\/dist\/jquery.mmenu.all.css":1,"sites\/all\/themes\/triadzen\/js\/slick-1.6.0\/slick\/slick.css":1,"sites\/all\/themes\/triadzen\/js\/slick-1.6.0\/slick\/slick-theme.css":1,"sites\/all\/themes\/triadzen\/css\/styles.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":1},"googleanalytics":{"account":["G-326021961"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WHRX7TL');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-605 node-type-program-sub-page section-aboutaraqmd" >
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHRX7TL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      
+<div id="page">
+	
+  <div class="header__region region region-header">
+    <div id="block-block-12" class="block block-block first last odd">
+
+      
+  <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.program-sub-menu > .menu-block-wrapper > .menu > li > span.nolink {
+  position: relative;
+    display: inline-block;
+    height: 85px;
+    line-height: 85px;
+    padding: 0 15px 0 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.program-sub-menu > .menu-block-wrapper > .menu > li > span.nolink:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 40px;
+    margin-top: -20px;
+    background-color: #575756;
+}
+
+.program-sub-menu > .menu-block-wrapper > .menu > li.first > span.nolink:before {
+display:none;
+}
+
+/*--><!]]>*/
+</style>
+</div>
+  </div>
+	
+
+<header id="header" role="banner">
+<div class="hdr-wrap">
+          <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img src="https://www.scph.org/sites/default/files/logo-1_0.png" alt="Home" class="header__logo-image" /></a>
+    
+        
+    <div id="navigation" class="clearfix">
+          <div class="region region-navigation">
+    <div id="block-menu-block-1" class="block block-menu-block nav-menu first last odd" role="navigation">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-expanded is-active-trail first expanded active-trail menu-mlid-1921"><a href="/programs" title="" class="menu__link is-active-trail active-trail">Programs</a><ul class="menu"><li class="menu__item is-expanded is-active-trail first expanded active-trail menu-mlid-2101"><a href="/air-quality" class="menu__link is-active-trail active-trail">Air Quality</a><ul class="menu"><li class="menu__item is-leaf is-active-trail is-active first leaf active-trail active menu-mlid-2618"><a href="/aboutaraqmd" class="menu__link is-active-trail active-trail active">ARAQMD</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2172"><a href="/air-quality/air-quality-index" title="Weekday Air Quality Index and seasonal pollen forecasts." class="menu__link">Air Quality Index</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2400"><a href="/air-quality/air-quality-topics" title="" class="menu__link">AQ Topics</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2173"><a href="/air-quality/ambient-air" class="menu__link">Ambient Air Monitoring</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2182"><a href="/air-quality/ambient-air-quality" class="menu__link">Ambient Air Quality</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2183"><a href="/air-quality/particulate-matter" class="menu__link">Particulate Matter</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2184"><a href="/air-quality/sulfur-dioxide" class="menu__link">Sulfur Dioxide</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2185"><a href="/air-quality/carbon-monoxide" class="menu__link">Carbon Monoxide</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2186"><a href="/air-quality/ozone" class="menu__link">Ozone</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2175"><a href="/air-quality/asbestos" class="menu__link">Asbestos</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2176"><a href="/air-quality/dust" class="menu__link">Dust</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2177"><a href="/air-quality/indoor-air" class="menu__link">Indoor Air</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2178"><a href="/air-quality/open-burning" class="menu__link">Open Burning</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2187"><a href="/air-quality/engineering" class="menu__link">Engineering</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2812"><a href="/air-quality/training" class="menu__link">Training</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2610"><a href="/air-quality/publications" class="menu__link">Publications</a><ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-2611"><a href="/air-quality/tip-sheets" class="menu__link">Tip Sheets</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2404"><a href="/air-quality/air-quality-complaints" title="How to submit an air quality complaint." class="menu__link">Complaints</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2798"><a href="/air-quality/complaints-0" class="menu__link">Click to Submit an Air Quality Complaint</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2797"><a href="/air-quality/special-sampling-projects" class="menu__link">Special Sampling Projects</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2180"><a href="/air-quality/contact" class="menu__link">Contact</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2819"><a href="/air-quality/lawnmower-exchange" class="menu__link">MowGREENER</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2105"><a href="/animal-and-pest-control" class="menu__link">Animal and Pest Control</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2204"><a href="/animal-and-pest-control/bed-bugs" class="menu__link">Bed Bugs</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2375"><a href="/pest-control/bed-bug-faqs" class="menu__link">FAQs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2376"><a href="/pest-control/bed-bug-resources" class="menu__link">Bed Bug Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2381"><a href="/pest-control/bed-bug-contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2205"><a href="/pest-control/mosquito-control" class="menu__link">Mosquito Control</a><ul class="menu"><li class="menu__item is-collapsed first collapsed menu-mlid-2371"><a href="/pest-control/mosquito-spray-schedule" class="menu__link">Mosquito Spray Schedule</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2372"><a href="/pest-control/mosquito-resources" class="menu__link">Mosquito Resources</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2374"><a href="/pest-control/mosquito-faqs" class="menu__link">FAQs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2373"><a href="/pest-control/mosquito-contact" class="menu__link">Contact</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2545"><a href="/nospray" class="menu__link">Do Not Spray Request Form</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2838"><a href="/animal-and-pest-control/petting-zoos" class="menu__link">Petting Zoos</a><ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-2839"><a href="/animal-and-pest-control/petting-zoo-operator-page" class="menu__link">Petting Zoo Operator Page</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2207"><a href="/animal-and-pest-control/rabies-prevention" class="menu__link">Rabies Prevention</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2377"><a href="/pest-control/rabies-faqs" class="menu__link">FAQs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2380"><a href="/pest-control/rabies-clinics" class="menu__link">Rabies Vaccination Clinics</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2378"><a href="/pest-control/rabies-report-bite" class="menu__link">Report a Bite</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2379"><a href="/pest-control/rabies-resources" class="menu__link">Rabies Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2386"><a href="/pest-control/rabies-contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2206"><a href="/animal-and-pest-control/rodent-control" class="menu__link">Rodents</a><ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-2383"><a href="/pest-control/rodent-contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2208"><a href="/animal-and-pest-control/tick-control" class="menu__link">Ticks</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2384"><a href="/pest-control/tick-resources" class="menu__link">Tick FAQs</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2385"><a href="/pest-control/tick-contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2414"><a href="/pest-control/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2106"><a href="/birth-death-records" class="menu__link">Birth &amp; Death Records</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2813"><a href="/birth-death-records/how-order" class="menu__link">How to Order</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2344"><a href="/birth-death-records/fees-forms" class="menu__link">Fees &amp; Forms</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2814"><a href="/birth-death-records/home-births" class="menu__link">For Home Births</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2346"><a href="/birth-death-records/funeral-homes" class="menu__link">Funeral Homes</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2345"><a href="/birth-death-records/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2090"><a href="/children-medical-handicaps" class="menu__link">Children with Medical Handicaps</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2331"><a href="/children-medical-handicaps/about" class="menu__link">About</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2332"><a href="/children-medical-handicaps/services" class="menu__link">Services</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2333"><a href="/children-medical-handicaps/providers" class="menu__link">Find a Provider</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2334"><a href="/children-medical-handicaps/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2240"><a href="/chronic-disease" class="menu__link">Chronic Disease</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2743"><a href="/chronic-disease/creating-healthy-communities" class="menu__link">Creating Healthy Communities</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2242"><a href="/chronic-disease/about" class="menu__link">About</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2243"><a href="/chronic-disease/healthy-eating" class="menu__link">Healthy Eating</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2250"><a href="/chronic-disease/client-choice" class="menu__link">Client Choice Food Pantries</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2253"><a href="/chronic-disease/community-gardens" class="menu__link">Community Gardens</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2254"><a href="/chronic-disease/farmers-markets" class="menu__link">Farmers Markets</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2251"><a href="/chronic-disease/good-food-here" class="menu__link">Good Food Here</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2842"><a href="/chronic-disease/good-food-here-0" class="menu__link">Good Food Here</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2252"><a href="/chronic-disease/summit-food-coalition" class="menu__link">Summit Food Coalition</a></li>
+</ul></li>
+<li class="menu__item is-expanded last expanded menu-mlid-2244"><a href="/chronic-disease/physical-activity" class="menu__link">Active Living</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2258"><a href="/chronic-disease/active-commuting" class="menu__link">Active Commuting</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2256"><a href="/chronic-disease/active-transportation" class="menu__link">Active Transportation Planning</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2796"><a href="/chronic-disease/barberton-safe-routes" class="menu__link">Barberton Safe Routes</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2255"><a href="/chronic-disease/complete-streets" class="menu__link">Complete Streets</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2754"><a href="/chronic-disease/inclusive-playgrounds" class="menu__link">Inclusive Playgrounds</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2257"><a href="/chronic-disease/safe-routes-to-school" class="menu__link">Safe Routes to School</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2259"><a href="/chronic-disease/summit-bike-share" class="menu__link">Summit Bike Share</a></li>
+</ul></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2245"><a href="/chronic-disease/tobacco" class="menu__link">Tobacco</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2746"><a href="/chronic-disease/about-0" class="menu__link">About</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2653"><a href="/chronic-disease/cessation" class="menu__link">Cessation</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2263"><a href="/chronic-disease/tobacco-policy" class="menu__link">Smoke/Tobacco-Free Policies</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="/T21" class="menu__link">Tobacco 21</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2262"><a href="/chronic-disease/tobacco-youth" class="menu__link">Vaping &amp; Youth</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2246"><a href="/chronic-disease/screening-treatment" class="menu__link">Screening &amp; Treatment</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2261"><a href="/chronic-disease/blood-pressure-education-management" class="menu__link">Blood Pressure Education &amp; Management</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2260"><a href="/diabetes" class="menu__link">Diabetes</a><ul class="menu"><li class="menu__item is-collapsed first collapsed menu-mlid-2750"><a href="/chronic-disease/diabetes-basics" class="menu__link">Diabetes Basics</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2749"><a href="/chronic-disease/diabetes-prevention-management-programs" class="menu__link">Diabetes Prevention Management Programs</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-2751"><a href="/chronic-disease/prediabetes" class="menu__link">Prediabetes</a></li>
+</ul></li>
+</ul></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2810"><a href="/chronic-disease/health-improvement-zones" class="menu__link">Health Improvement</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2097"><a href="/clinical-services" class="menu__link">Clinical Services</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2161"><a href="/clinical-services/sexually-transmitted-diseases" title="Partial listing of common STDs" class="menu__link">STD Prevention</a><ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-2534"><a href="/clinical-services/common-stds" class="menu__link">Common STDs</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2532"><a href="/clinical-services/std-hiv-testing" class="menu__link">HIV &amp; STD Testing</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2533"><a href="/std-hiv-clinics/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2098"><a href="/communicable-disease" class="menu__link">Communicable Disease</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2348"><a href="/communicable-disease/faqs" class="menu__link">FAQs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2349"><a href="/communicable-disease/report-a-disease" class="menu__link">Report a Communicable Disease</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2852"><a href="/communicable-disease/report-facility-outbreak-including-covid-19" class="menu__link">Report a Facility Outbreak</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2350"><a href="/communicable-disease/resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2347"><a href="/communicable-disease/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2084"><a href="/dental" class="menu__link">Dental Services</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2086"><a href="/dental/services" class="menu__link">Services We Offer</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2087"><a href="/dental-services/faqs" class="menu__link">FAQs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2085"><a href="/dental/fees" class="menu__link">Fees</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2351"><a href="/dental-services/forms" class="menu__link">Forms</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2089"><a href="/dental/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2100"><a href="/emergency-preparedness" class="menu__link">Emergency Preparedness</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2355"><a href="/emergency-preparedness/be-prepared" class="menu__link">How To Be Prepared &amp; Stay Safe</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2165"><a href="/emergency-preparedness/disaster-supply-kit" class="menu__link">Disaster Supply Kit</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2166"><a href="/emergency-preparedness/clean-after-disaster" class="menu__link">Clean Up After A Disaster</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2167"><a href="/emergency-preparedness/sanitation" class="menu__link">Sanitation</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2168"><a href="/emergency-preparedness/safe-water" class="menu__link">Safe Water</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2169"><a href="/emergency-preparedness/safe-food" class="menu__link">Safe Food</a></li>
+</ul></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2170"><a href="/emergency-preparedness/resources" class="menu__link">Resources</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2102"><a href="/food-safety" class="menu__link">Food Safety</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2189"><a href="/food-safety/food-safety-education-training" class="menu__link">Education &amp; Training</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2407"><a href="/food-safety/food-safety-training-courses" class="menu__link">Training Courses</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2192"><a href="/food-safety/food-safety-resources" class="menu__link">Food Safety Resources</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2406"><a href="/food-safety/foodborne-illness" class="menu__link">Foodborne Illness</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2799"><a href="/food-safety/food-safety-emergency" class="menu__link">Food Safety in an Emergency</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2405"><a href="/food-safety/food-safety-inspection-reports" class="menu__link">Inspection Reports</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2188"><a href="/food-safety/licensing" class="menu__link">Licensing</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2191"><a href="/food-safety/complaints" class="menu__link">Complaints</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2408"><a href="/food-safety/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-1965"><a href="/healthy-homes" class="menu__link">Healthy Homes</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-1964"><a href="/healthy-homes/lead-poisoning-prevention" class="menu__link">Lead Poisoning Prevention</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2691"><a href="/healthy-homes/lead-poisoning-prevention-information" class="menu__link">Lead Poisoning Prevention Information</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2442"><a href="/leadfree" title="" class="menu__link">Summit County Lead Hazard Reduction Program</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2082"><a href="/healthy-homes/radon" class="menu__link">Radon</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1966"><a href="/animal-and-pest-control/bed-bugs" class="menu__link">Bed Bugs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2418"><a href="/healthy-homes/complaints" class="menu__link">Complaints</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2413"><a href="/healthy-homes/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2096"><a href="/immunizations" class="menu__link">Immunizations</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2357"><a href="/immunizations/about" class="menu__link">SCPH Clinic</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2159"><a href="/immunizations/immunization-recommendations" class="menu__link">Immunization Recommendations</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2360"><a href="/immunizations/infants-children" class="menu__link">Infants &amp; Children</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2361"><a href="/immunizations/teens" class="menu__link">Teens</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2362"><a href="/immunizations/adults" class="menu__link">Adults</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2363"><a href="/immunizations/flu" class="menu__link">Flu Shots</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2364"><a href="/immunizations/travel" class="menu__link">International Travel</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2365"><a href="/immunizations/specific-groups" class="menu__link">Specific Groups</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2358"><a href="/immunizations/appointments" class="menu__link">Schedule an Appointment</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2359"><a href="/immunizations/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2091"><a href="/maternal-child-health" class="menu__link">Maternal &amp; Child Health</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2121"><a href="/maternal-child-health/about" class="menu__link">About</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2241"><a href="/maternal-child-health/community-partners" class="menu__link">Community Partners</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2861"><a href="/maternal-child-health/community-legal-aid" class="menu__link">Community Legal Aid</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2860"><a href="/maternal-child-health/help-me-grow-0" class="menu__link">Help Me Grow</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2840"><a href="/maternal-child-health/homeless-youth" class="menu__link">Homeless Youth</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2843"><a href="https://www.communitylegalaid.org/apply" title="" class="menu__link">Legal Aid</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2858"><a href="/maternal-child-health/project-mkc" class="menu__link">Project MKC</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2859"><a href="/maternal-child-health/well-cdc" class="menu__link">The Well CDC</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2122"><a href="/maternal-child-health/healthy-moms" class="menu__link">Healthy Moms</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2129"><a href="/maternal-child-health/maternal-depression" class="menu__link">Maternal Depression</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2133"><a href="/prenatal" class="menu__link">Prenatal Care</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2501"><a href="/wait" class="menu__link">Birth Spacing</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2832"><a href="/hfa" class="menu__link">Healthy Families America</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2834"><a href="/baby" class="menu__link">Neighborhood Navigators</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2849"><a href="/maternal-child-health/healthy-dads" class="menu__link">Healthy Dads</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2123"><a href="/maternal-child-health/healthy-babies" class="menu__link">Healthy Babies</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2140"><a href="/maternal-child-health/about-0" class="menu__link">About</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2137"><a href="/maternal-child-health/safe-sleep" class="menu__link">Safe Sleep</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2835"><a href="https://www.fulltermfirstbirthday.org/" title="" class="menu__link">Full Term First Birthday</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2857"><a href="https://projectmkc.org/our-programs/diaper-bank/" title="" class="menu__link">Project MKC</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2125"><a href="/maternal-child-health/data" class="menu__link">Data</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2126"><a href="/maternal-child-health/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2093"><a href="/medication-disposal" class="menu__link">Medication Disposal</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2352"><a href="/dump/about" class="menu__link">About</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2154"><a href="/medication-disposal/dump-box-locations" class="menu__link">D.U.M.P. Box Locations</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2353"><a href="/dump/officers" class="menu__link">For Officers</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2354"><a href="/dump/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2094"><a href="/bccp" class="menu__link">Ohio Breast &amp; Cervical Cancer Project</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2368"><a href="/bccp/about" class="menu__link">About</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2369"><a href="/bccp/faqs" class="menu__link">FAQs</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2370"><a href="/bccp/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2367"><a href="/pools-campgrounds-resident-camps" class="menu__link">Pools, Beaches, Campgrounds &amp; Resident Camps</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2388"><a href="/pools-campgrounds-resident-camps/pools-spas-beaches" class="menu__link">Pools &amp; Spas</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2394"><a href="/pools-campgrounds-resident-camps/pools-resources" class="menu__link">Safety Tips, Drowning Prevention &amp; Other Resources</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2395"><a href="/pools-campgrounds-resident-camps/pools-operators" class="menu__link">Information for Operators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2397"><a href="/pools-campgrounds-resident-camps/pools-inspection-reports" class="menu__link">Inspection Reports</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2575"><a href="/pools-campgrounds-resident-camps/beaches" class="menu__link">Beaches</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2387"><a href="/pools-campgrounds-resident-camps/camps-rvs" class="menu__link">Campgrounds, RVs, Resident Camps</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2389"><a href="/pools-campgrounds-resident-camps/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2095"><a href="/counseling" class="menu__link">Project DAWN/Summit Safe Syringe Exchange</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2155"><a href="/counseling/project-dawn-narcan" class="menu__link">Project Dawn (NARCAN)</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2156"><a href="/counseling/faq" class="menu__link">FAQ</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2157"><a href="/counseling/locations" class="menu__link">Locations</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2824"><a href="/counseling/mail-order" class="menu__link">Mail Order</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2403"><a href="/counseling/summit-safe-syringe-exchange" class="menu__link">Syringe Exchange</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2777"><a href="/counseling/test-strips" class="menu__link">Test Strips</a><ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-2807"><a href="/counseling/fact-sheets" class="menu__link">Fact Sheets</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2410"><a href="/counseling/contact" class="menu__link">Contact</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2866"><a href="/counseling/opioid-treatment" class="menu__link">Opioid Treatment</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2099"><a href="/quit" class="menu__link">Quit Tobacco</a><ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-2398"><a href="/quit-smoking/resources" class="menu__link">Quit Smoking Resources</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2828"><a href="/rfw" class="menu__link">Recovery Friendly Workplace</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2823"><a href="/rfw/contact" class="menu__link">Contact</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2827"><a href="/rfw/rfwsc-initiative" class="menu__link">RFWSC Initiative</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2826"><a href="/rfw/rfwsc-members" class="menu__link">RFWSC Members</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2821"><a href="/rfw/resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2825"><a href="/rfw/why-become-rfw" class="menu__link">Why Become a RFW?</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2724"><a href="/senior-and-adult-services" class="menu__link">Senior and Adult Services</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2725"><a href="/senior-and-adult-services/about-our-programs" class="menu__link">Our Programs</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2728"><a href="/senior-and-adult-services/care-compass-bri" class="menu__link">Care Compass / BRI</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2727"><a href="/senior-and-adult-services/gatekeeper-program" class="menu__link">Gatekeeper Program</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2850"><a href="/senior-and-adult-services/education" class="menu__link">Education</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2863"><a href="/senior-and-adult-services/bridges" class="menu__link">Bridges</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2862"><a href="/senior-and-adult-services/health-safety" class="menu__link">Health &amp; Safety</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2865"><a href="https://www.scph.org/brainhealth" title="" class="menu__link">Brain Health</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2730"><a href="/senior-and-adult-services/falls-prevention" class="menu__link">Falls</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2732"><a href="/senior-and-adult-services/prevention" class="menu__link">Prevention</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2733"><a href="/senior-and-adult-services/risk-assessment" class="menu__link">Risk Assessment</a></li>
+</ul></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2864"><a href="/senior-and-adult-services/hoarding" class="menu__link">Hoarding</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2731"><a href="/senior-and-adult-services/community-resources" class="menu__link">Community Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2811"><a href="/senior-and-adult-services/contact-us" class="menu__link">Make a Referral (Contact Us)</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2103"><a href="/solid-waste" class="menu__link">Solid Waste</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-2416"><a href="/solid-waste/inspections" class="menu__link">Solid &amp; Infectious Waste Inspections</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2194"><a href="/solid-waste/closed-solid-waste-landfills" class="menu__link">Closed Solid Waste Landfills</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2195"><a href="/solid-waste/compost-facilities" class="menu__link">Compost Facilities</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2202"><a href="/solid-waste/solid-waste-transfer-facilities" class="menu__link">Solid Waste Transfer Facilities</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2196"><a href="/CDD" class="menu__link">Construction &amp; Demolition Debris Landfills</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2198"><a href="/solid-waste/infectious-waste-facilities" class="menu__link">Infectious Waste Facilities</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2199"><a href="/solid-waste/mercury-spills" class="menu__link">Mercury Spills</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2200"><a href="/scraptires" class="menu__link">Scrap Tires</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2847"><a href="/solid-waste/clean-hard-fill" class="menu__link">Clean Hard Fill</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2201"><a href="/solid-waste/sharps-disposal" class="menu__link">Sharps Disposal</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2203"><a href="/solid-waste/resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2417"><a href="/solid-waste/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2104"><a href="/tattooing-body-piercing" class="menu__link">Tattooing &amp; Body Piercing</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2213"><a href="/water-quality" class="menu__link">Water Quality</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-1931"><a href="/wic" class="menu__link">WIC</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1968"><a href="/wic/about" class="menu__link">About</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-1972"><a href="/wic/services" class="menu__link">Services</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1974"><a href="/wic/pregnant-women" class="menu__link">Pregnant Women</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1973"><a href="/wic/postpartum-women" class="menu__link">Postpartum Women</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-1975"><a href="/wic/infants-children" class="menu__link">Infants &amp; Children</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-1969"><a href="/wic/eligibility" class="menu__link">Eligibility</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1970"><a href="/wic/apply" class="menu__link">How to Apply</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1976"><a href="/wic/resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2853"><a href="/wic/fmnp" title="Farmers&#039; Market Nutrition Program Information" class="menu__link">FMNP</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2634"><a href="/wic/wic-shopper-app" class="menu__link">WIC Shopper App</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-1977"><a href="/wic/contact" class="menu__link">Contact</a></li>
+</ul></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2115"><a href="/community-initiatives" class="menu__link">Community Initiatives</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-1926"><a href="/news" title="" class="menu__link">News</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-735"><a href="/news" title="" class="menu__link">Recent News</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-610"><a href="/events" title="" class="menu__link">Events</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-1925"><a href="/resources" class="menu__link">Data &amp; Resources</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2337"><a href="/assessments-reports" class="menu__link">Assessments &amp; Reports</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2107"><a href="/dashboards" class="menu__link">Data Dashboards</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2854"><a href="/epidemiology-biostats-0" class="menu__link">Epidemiology &amp; Biostats</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2338"><a href="/maps" class="menu__link">Maps</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2544"><a href="/media" class="menu__link">Media</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2569"><a href="/care-coordination/street-card" class="menu__link">Street Card</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-1927"><a href="/about" class="menu__link">About</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2110"><a href="/locations" class="menu__link">Locations</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2111"><a href="/our-leadership" class="menu__link">Our Leadership</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2424"><a href="/board-health" class="menu__link">Board of Health</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2112"><a href="/agency-plans-reports" class="menu__link">Agency Plans &amp; Reports</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2113"><a href="/grants" class="menu__link">Grants</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2856"><a href="/scph-policy-manual" class="menu__link">Policy Manual</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2114"><a href="https://www.applicantpro.com/openings/schd/jobs" title="" class="menu__link">Careers</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2855"><a href="/contact" class="menu__link">Contact</a><ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-2809"><a href="/bid" class="menu__link">Requests for Proposals</a></li>
+</ul></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2116"><a href="/search" title="" class="menu__link">Search</a></li>
+</ul></div>
+
+</div>
+  </div>
+    </div>
+    
+    <a href="#mobile-menu" id="mt-trigger"><span class="content"><span></span><span></span><span></span><span></span></span></a>
+    
+</div>
+</header>
+
+  <div class="region region-highlighted">
+    <div id="block-views-program-items-block-1" class="block block-views program-hdr-sub first odd">
+
+      
+  <div class="view view-program-items view-id-program_items view-display-id-block_1 view-dom-id-ce815ade976f7b0353d46b308a81dc02">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <h1><a href="/air-quality">Akron Regional Air Quality Management District</a></h1>
+<div class="program-hdr-data" data-color="#00BF8E" data-pattern="" data-image="/sites/default/files/assets/headers/Kids_Outside.png"><div class="info">Accent Color: #00BF8E<br />Accent Pattern URL: <br />Accent Image URL: /sites/default/files/assets/headers/Kids_Outside.png</div></div>
+
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+<div id="block-menu-block-3" class="block block-menu-block program-sub-menu last even" role="navigation">
+
+      
+  <div class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-0 menu-level-3">
+  <ul class="menu"><li class="menu__item is-leaf is-active-trail is-active first leaf active-trail active menu-mlid-2618"><a href="/aboutaraqmd" class="menu__link is-active-trail is-active-trail active-trail active-trail active">ARAQMD</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2172"><a href="/air-quality/air-quality-index" title="Weekday Air Quality Index and seasonal pollen forecasts." class="menu__link">Air Quality Index</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2400"><a href="/air-quality/air-quality-topics" title="" class="menu__link">AQ Topics</a><ul class="menu"><li class="menu__item is-leaf is-parent first leaf has-children menu-mlid-2173"><a href="/air-quality/ambient-air" class="menu__link">Ambient Air Monitoring</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2175"><a href="/air-quality/asbestos" class="menu__link">Asbestos</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2176"><a href="/air-quality/dust" class="menu__link">Dust</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2177"><a href="/air-quality/indoor-air" class="menu__link">Indoor Air</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2178"><a href="/air-quality/open-burning" class="menu__link">Open Burning</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2187"><a href="/air-quality/engineering" class="menu__link">Engineering</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2812"><a href="/air-quality/training" class="menu__link">Training</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2610"><a href="/air-quality/publications" class="menu__link">Publications</a><ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-2611"><a href="/air-quality/tip-sheets" class="menu__link">Tip Sheets</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2404"><a href="/air-quality/air-quality-complaints" title="How to submit an air quality complaint." class="menu__link">Complaints</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-2798"><a href="/air-quality/complaints-0" class="menu__link">Click to Submit an Air Quality Complaint</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2797"><a href="/air-quality/special-sampling-projects" class="menu__link">Special Sampling Projects</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2180"><a href="/air-quality/contact" class="menu__link">Contact</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2819"><a href="/air-quality/lawnmower-exchange" class="menu__link">MowGREENER</a></li>
+</ul></div>
+
+</div>
+  </div>
+
+<div id="main">
+<div class="main-wrap">
+
+    <div id="content" class="column" role="main">
+            <a id="main-content"></a>
+                    <h1 class="page__title title" id="page-title">ARAQMD</h1>
+                                          
+
+
+<article class="node-605 node node-program-sub-page view-mode-full clearfix" about="/aboutaraqmd" typeof="sioc:Item foaf:Document">
+
+      <header>
+                  <span property="dc:title" content="ARAQMD" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  
+  <div class="field-body">
+    <p><strong>MISSION</strong></p>
+<p>The mission of the Akron Regional Air Quality Management District (ARAQMD) is to protect the public from the adverse health impacts of air pollutants and to educate the public about air quality issues.</p>
+<p><strong>HISTORY</strong></p>
+<p>ARAQMD began as a division of the Akron Health Department (AHD) on January 1, 1965. In 1971, we became a multi-jurisdictional agency, by signing agreements with all the local health departments  in Summit, Medina and Portage Counties. Towards the end of 1971, ARAQMD became  a local affiliate of the Ohio Environmental Protection Agency (OEPA), charged with enforcing the state air pollution rules and regulations. ARAQMD continued as a part of the AHD until the city health department merged with Summit County Public Health (SCPH) on January 1, 2011. ARAQMD now operates as a service of Summit County Public Health enforcing OEPA’s rules and regulations in the tri-county region. We work toward protecting public health and the environment from hazards related to air pollution.</p>
+<p><strong>FOCUS</strong></p>
+<p>ARAQMD has three primary strategies that work together towards our goal of protecting public health and the environment: engineering, enforcement, and monitoring.</p>
+<p>The engineering staff regulates industrial and commercial air pollution sources by coordinating with the facilities to draft permit language which describes what types of pollution reducing technology they must use and necessary efficiency of that technology. The staff members inspect air pollution sources to evaluate the compliance of the facility. By drafting good permits plus documenting and pursuing violations if they occur, we can ensure that the pollutants being emitted by industry are limited and are kept below levels that harm public health and the environment, while making sure our local industry can operate and thrive.</p>
+<p>The enforcement staff of ARAQMD responds to complaints of odors, dust, asbestos and open burning activities. Any violations identified are documented and, if deemed significant enough, are forwarded  to Ohio EPA for enforcement. As we identify those who are breaking Ohio’s air pollution laws, and work with OEPA to help offenders return to compliance, we are helping to protect public health and the environment.</p>
+<p>Monitoring of air quality is the third major responsibility of ARAQMD. Our monitoring staff collects air pollutant levels across the three counties to determine how our air quality measures up to the NAAQS. We currently monitor for three of the six criteria air pollutants: ozone, sulfur dioxide and particulate matter. With these measurements, we generate an Air Quality Index (AQI) to help the public understand the quality of the air at that time. During the pollen season (March - September, weather depending), we sample pollen and report that number along with the AQI on the web, at our information line (330-375-2545) and on our Facebook page.  </p>
+  </div>
+
+  
+  
+</article>
+          </div>
+
+
+    
+          <aside class="sidebars">
+                  <section class="region region-sidebar-second column sidebar">
+    <div id="block-block-11" class="block block-block first odd">
+
+      
+  <p><a class="btn" href="/services">View all SCPH Services</a></p>
+
+</div>
+<div id="block-views-program-resource-links-block-1" class="block block-views program-links-sub accent-bg-color even">
+
+      
+  <div class="view view-program-resource-links view-id-program_resource_links view-display-id-block_1 view-dom-id-08b0ae92e496fb5b2ae91e22f4c703b4">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="https://www.scph.org/air-quality/lawnmower-exchange" target="_blank">MowGREENER</a>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="https://www.scph.org/sites/default/files/editor/EH_Codes/2026 APPROVED EH Fee Schedule..pdf" target="_blank">Download the 2026 Fee Schedule</a>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="https://echo.epa.gov/" target="_blank">EPA  Enforcement and Compliance History Online (ECHO)</a>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="https://epa.ohio.gov/divisions-and-offices/environmental-financial-assistance/compliance-assistance/compliance-assistance" target="_blank">Compliance Assistance</a>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="https://www.scph.org/air-quality/special-monitoring" target="_blank">Special Sampling Projects</a>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+<div id="block-views-program-resource-links-block-4" class="block block-views program-links-sub accent-bg-color last odd">
+
+      
+  <div class="view view-program-resource-links view-id-program_resource_links view-display-id-block_4 water-sample-sublinks view-dom-id-00c26c8bc85d2606631296ae936a201d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </section>
+      </aside>
+     
+  
+    <footer id="footer" class="region region-footer">
+    <div id="block-block-14" class="block block-block first last odd">
+
+      
+  <script src="https://cdn.userway.org/widget.js" data-account="K3GAVIdZCf"></script>
+</div>
+  </footer>
+
+</div> 
+</div>
+
+<div id="site-ftr" class="clearfix">
+  <div class="region region-bottom">
+    <div id="block-block-2" class="block block-block clearfix first last odd">
+
+      
+  <div class="col-left">
+<div class="org">Summit County Public Health</div>
+<ul class="navigation">
+<li><a href="/programs">Programs</a></li>
+<li><a href="/news">News</a></li>
+<li><a href="/resources">Resources</a></li>
+<li><a href="/privacy">Privacy</a></li>
+<li><a href="/contact">Contact</a></li>
+</ul>
+</div>
+<div class="col-right">
+<ul class="social-media">
+<li class="twitter"><a href="https://twitter.com/SCPHOH" target="_blank">Twitter</a></li>
+<li class="facebook"><a href="https://www.facebook.com/Summit-County-Public-Health-167170254111/" target="_blank">Facebook</a></li>
+<li class="youtube"><a href="https://www.youtube.com/channel/UCZOHRtcXQTiL97bidWwQU_Q" target="_blank">YouTube</a></li>
+</ul>
+<div class="copyright">© Summit County Public Health</div>
+</div>
+
+</div>
+  </div>
+</div>
+
+</div><!-- END OF PAGE WRAP -->  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3810019666","applicationID":"103084907","transactionName":"ZVNVbRZYXxdYBxYPDFwZYksNFh4NVwAHHk1CXkc=","queueTime":0,"applicationTime":190,"atts":"SRRWG15CTBk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

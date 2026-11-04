@@ -1,0 +1,823 @@
+FOR OHIO EPA USE
+FACILITY ID:
+
+EMISSIONS ACTIVITY CATEGORY FORM
+STORAGE TANK
+This form is to be completed for each storage tank for which a permit is required. State/Federal regulations
+which may apply to storage tanks are listed in the instructions. Note that there may be other regulations
+which apply to this emissions unit which are not included in this list.
+1.
+
+Reason this form is being submitted (Check one)
+
+” New Permit
+
+” Renewal or Modification of Air Permit Number(s) (e.g.
+
+T001)______________
+2.
+
+Type of tank: ” Fixed roof tank
+” External floating roof tank
+
+3.
+
+Location of tank:
+
+4.
+
+a) Tank capacity: ______________ gallons or ________________ barrels
+
+” Indoors
+
+” Variable vapor space tank
+” Internal floating roof tank
+
+” Outdoors
+
+” Pressure tank
+
+” Underground
+
+If capacity is provided in barrels, enter the number of gallons per barrel: _____________
+b) Working volume, if different from tank capacity: _________ gallons or _________ barrels
+5.
+
+Shape and dimensions:
+
+” Cylindrical
+
+” Spherical
+
+” Other, specify __________________________
+
+” Horizontal tanks:
+Tank shell length:
+Tank shell diameter or width
+
+__________ ft.
+__________ ft.
+
+” Vertical tanks:
+Tank shell height:
+Tank shell diameter or width:
+
+__________ ft.
+__________ ft.
+
+6.
+
+Tank shell material: ” Steel
+
+” Aluminum
+
+” Other, specify ____________________
+
+7.
+
+If this tank is located outdoors and above ground, provide the paint color of the tank's shell and roof
+and indicate the condition of the paint.
+Shell:
+” Aluminum (specular)
+” Aluminum (diffuse)
+
+” Gray (dark)
+” Gray (light)
+
+” White
+” Red (primer)
+” Other, specify ___________________
+
+Roof:
+” Aluminum (specular)
+
+” Gray (dark)
+
+” White
+
+EPA FORM 3104 - REV2002
+
+1 of 7
+
+” Red (primer)
+
+” Aluminum (diffuse)
+Condition of paint:
+8.
+
+” Gray (light)
+
+” Good
+
+” Other, specify ________________
+
+” Poor
+
+If this tank is a variable vapor space tank or is interconnected to a variable vapor space tank,
+complete the following:
+a)
+
+Capacity of vapor expansion system: _____________ gallons or _____________ barrels
+
+b)
+
+Identify all tanks and other vapor sources interconnected to the vapor expansion system:
+_______________________________________________________________________
+
+9.
+
+If this tank is subject to the following federal rules, complete the following:
+
+”
+
+New Source Performance Standards under 40 CFR 60, Subpart Ka, "Standards of
+Performance for Storage Vessels for Petroleum Liquids for Which Construction,
+Reconstruction, or Modification Commenced After May 18, 1978, and Prior to July 23, 1984"
+a)
+
+Date of initial fill with petroleum liquid________________________________________
+
+b)
+Was tank out of service for a period of a year or more? ” Yes ” No
+If yes, identify the date of subsequent refilling with petroleum liquid after the most recent outof-service period of a year or more. ____________________________
+
+”
+
+10.
+
+11.
+
+Maximum Achievable Control Technology (MACT) Standards under 40 CFR 63, Subpart G
+(HON Tanks)
+a)
+
+This tank is defined as a: ” Group 1 storage vessel ” Group 2 storage vessel
+
+b)
+
+At the storage temperature, maximum true vapor pressure of total HAPs:___________
+
+Supplemental data, check all that apply:
+
+”
+
+Tank was converted from an external floating roof tank or a fixed roof tank to an internal
+floating roof tank; provide type and date of conversion: _______________________________
+
+”
+
+Tank is used to store produced crude oil or condensate prior to custody transfer.
+
+”
+
+Tank is insulated; describe: _________________________________________
+
+”
+
+Tank is heated and indicate temperature (in degrees Fahrenheit): _______________
+
+Material stored ______________________ Trade Name ____________________________
+Density: _________ lbs/gal or _______________ oAPI Producer _____________________
+
+12.
+
+Temperature of stored material: Average _________oF and Maximum __________oF
+
+13.
+
+Vapor pressure of stored material:
+
+EPA FORM 3104 - REV2002
+
+2 of 7
+
+a)
+
+Actual vapor pressure:
+
+__________ psia at average storage temperature
+__________ psia at maximum storage temperature
+
+b)
+
+Reid vapor pressure, in psia:
+Average ________
+Minimum ________
+Maximum ________
+
+c)
+
+If material stored is a gas or liquified gas, provide the pressure at which it is stored:
+__________ psi gauge at __________oF
+
+14.
+
+The vapor molecular weight: ______________ lbs/lb-mole
+
+15.
+
+If the material is a liquid other than gasoline, fuel oil, kerosene, crude oil, lubricant or other petroleum
+liquid, answer the questions below:
+Is it a photochemically reactive material? ” Yes
+
+” No
+
+16.
+
+” Yes
+” No
+Is the material a hazardous waste?
+If yes, identify type (EPA hazardous waste number) ________________________________
+
+17.
+
+Type of filling:
+
+18.
+
+Indicate the year (or 12-month period) for which throughput is provided in items 19 and 20:________
+
+19.
+
+The maximum daily throughput of material stored: ________ gallons or ________ barrels.
+
+20.
+
+Maximum annual throughput of material stored: _________ gallons or _________ barrels.
+
+21.
+
+Identify the control equipment associated with this tank.
+
+22.
+
+” Splash
+
+” Submerged
+
+” Other, specify __________________
+
+a)
+
+Type of vapor control system __________________________________________________
+
+b)
+
+Date tank was equipped with or vented to vapor control system (month/year) __________
+
+Complete the table below for any pressure or vacuum relief vent valve.
+
+Type of Vent Valve
+
+Pressure Setting
+
+Vacuum Setting
+
+If pressure relief is discharged to a vapor control system,
+identify the vapor control system
+
+If this is a Fixed Roof, Variable Vapor Space or Pressure Tank, complete items 23 through 27:
+23.
+
+If the tank is vertical, what type of roof does it have?
+
+”
+24.
+
+Cone roof
+
+Height: _______ ft
+
+”
+
+Dome roof
+
+Height: _______ ft
+
+The average height of the liquid material stored within the tank during the year: _________ft.
+
+EPA FORM 3104 - REV2002
+
+3 of 7
+
+25.
+
+The maximum height of the liquid material stored within the tank during the year: ________ft.
+
+26.
+
+The average liquid surface temperature: __________________ oF
+
+27.
+
+Is this tank bolted or riveted construction?
+
+” Yes
+
+” No
+
+If this tank is an External Floating Roof Tank, complete items 28 through 34:
+
+” Yes
+
+” No
+
+28.
+
+Is the external floating roof domed?
+
+29.
+
+Type of floating roof:
+
+30.
+
+Type of shell construction:
+
+31.
+
+Are all openings in the external floating roof, except automatic bleeder vents, rim space vents, leg
+sleeves, main roof drain, emergency roof drains and slotted gauging/sampling wells, equipped with
+both a cover, seal or lid without visible gaps and a projection into the tank below the liquid surface?
+
+” Yes
+
+” Double Deck
+” Welded
+
+” Pontoon ”
+
+Other, specify ________________
+
+” Riveted or bolted
+
+” No
+
+If no, explain: ______________________________________________________________
+32.
+
+Is there a slotted gauging/sampling well?
+
+” Yes
+
+” No
+
+If yes, is it equipped with an object which floats on the liquid surface within the well and which covers
+at least 90 percent of the area of the well opening?
+
+” Yes
+33.
+
+” No
+
+On the blank lines to the left of the various types of roof fittings shown below, indicate the number, if
+any, of each fitting.
+Access hatch (24-inch diameter well)
+_____ Bolted cover, gasketed
+_____ Unbolted cover, ungasketed
+_____ Unbolted cover, gasketed
+
+Vacuum breaker (10-inch diameter well)
+_____ Weighted mechanical actuation, gasketed
+_____ Weighted mechanical actuation, ungasketed
+
+Unslotted guide-pole/sample well (8-inch diameter unslotted pole, 21-inch diameter well)
+” With sleeve
+_____ Ungasketed sliding cover
+_____ Gasketed sliding cover
+” With sleeve
+” With wiper
+Slotted guide-pole/sample well (8-inch diameter unslotted pole, 21-inch diameter well)
+_____ Ungasketed sliding cover, without float _____ Gasketed sliding cover, without float
+_____ Gasketed sliding cover, with float
+Gauge-float well (20-inch diameter)
+_____ Unbolted cover, ungasketed
+_____ Unbolted cover, gasketed
+_____ Bolted cover, gasketed
+EPA FORM 3104 - REV2002
+
+Gauge-hatch/sample well (8-inch diameter)
+_____ Weighted mechanical actuation, gasketed
+_____ Weighted mechanical actuation, ungasketed
+
+4 of 7
+
+Roof leg (3-inch diameter)
+_____ Adjustable, pontoon area
+_____ Adjustable, center area
+_____ Adjustable, double-deck roofs
+_____ Fixed
+Roof drain (3-inch diameter)
+_____ Open
+_____ 90% closed
+
+” Gasketed
+” Gasketed
+
+” Ungasketed
+” Ungasketed
+
+” Sock
+” Sock
+
+Roof leg (2-1/2-inch diameter)
+_____ Adjustable, pontoon area
+_____ Adjustable, center area
+_____ Adjustable, double-deck roofs
+_____ Fixed
+
+Rim vent (6-inch diameter)
+_____ Weighted mechanical actuation, gasketed
+_____ Weighted mechanical actuation, ungasketed
+34.
+
+The average wind speed at the tank site: ________________ mph.
+
+If this tank is an Internal Floating Roof Tank, complete items 35 through 41:
+35.
+
+Type of floating decks:
+
+” Contact deck
+
+” Noncontact deck
+” Column-supported
+
+36.
+
+Type of roof above floating decks:
+
+37.
+
+If roof is column-supported, identify the type of column construction:
+
+” 9-inch by 7-inch built-up columns
+” 8-inch diameter pipe columns
+38.
+
+” Other, specify ______________________________
+
+Floating deck seam construction:
+
+” Welded ” Bolted
+39.
+
+” Self-supporting
+
+” Other, specify ______________________________
+
+If deck seams are bolted, complete a) or b):
+a)
+
+” Continuous sheet construction; specify width of sheets (e.g., 5 ft, 6 ft, or 7 ft):__________
+” Panel construction; specify size of panels (e.g., 5 ft x 7.5 ft, or 5 ft x 12 ft):_____________
+
+b)
+
+Total length of bolted deck seams: ____________________________ ft
+Total area of floating deck: ___________________________________ sq ft
+
+40.
+
+On the blank lines to the left of the various types of floating deck fittings shown below, indicate the
+number, if any, of each fitting.
+Access hatch (usually one)
+_____ Bolted cover, gasketed
+_____ Unbolted cover, ungasketed
+_____ Unbolted cover, gasketed
+
+EPA FORM 3104 - REV2002
+
+Automatic gauge float well (usually one)
+_____ Bolted cover, gasketed
+_____ Unbolted cover, ungasketed
+_____ Unbolted cover, gasketed
+5 of 7
+
+Deck supports (roof legs or hanger well)
+Ladder well (usually one)
+_____ Adjustable
+_____ Sliding cover, gasketed
+_____ Fixed
+_____ Sliding cover, ungasketed
+_____ Stub drains (1-inch diameter; not used on welded contact deck)
+Column wells
+_____ Pipe column, flexible fabric sleeve seal _____ Built-up column, gasketed sliding cover
+_____ Pipe column, gasketed sliding cover
+_____ Built-up column, ungasketed sliding cover
+_____ Pipe column, ungasketed sliding cover
+Sample pipe or well (usually one)
+_____ Slotted pipe, gasketed sliding cover
+_____ Slotted pipe, ungasketed sliding cover
+
+_____ Sample well, slit fabric seal (10% open area)
+
+Vacuum breaker (10-inch diameter)
+_____ Weighted mechanical actuation, gasketed
+_____ Weighted mechanical actuation, ungasketed
+41.
+
+Are all openings on the floating deck, except stub drains, equipped with a cover, seal or lid which is to
+be in a closed position at all times except when in actual use for tank gauging or sampling?
+
+”
+
+Yes
+
+”
+
+No
+
+If no, explain:_______________________________________________________________
+If this tank is an Internal or External Floating Roof Tank, complete items 42 through 47:
+42.
+
+Type of seal between floating roof and tank well:
+
+”
+”
+43.
+
+Single seal (primary seal only)
+” Dual seals (primary seal with secondary shield
+Single seal with weather shield
+mounted above it)
+(primary seal with weather shield)
+
+Primary seal information:
+Manufacturer ______________________
+Make or model _____________________
+Date installed ______________________
+(month/year)
+
+Type: ” Liquid-mounted, liquid-filled
+” Liquid-mounted, resilient foam-filled
+” Vapor-mounted, resilient foam-filled
+” Mechanical shoe (complete item below)
+” Flexible wiper
+” Other, specify ___________________
+
+If the primary seal is a mechanical shoe, complete the following:
+Vertical length of shoe __________ inches
+Vertical length of shoe above stored liquid surface _________ inches
+
+EPA FORM 3104 - REV2002
+
+6 of 7
+
+44.
+
+Secondary seal information:
+Manufacturer ____________________ Type:
+Make or model ___________________
+Date installed ___________________
+(month/year)
+
+45.
+
+”
+”
+”
+”
+”
+
+Rim-mounted, flexible wiper
+Rim-mounted, resilient foam-filled
+Shoe-mounted
+Weather shield
+Other, specify __________________
+
+Most recent seal inspection for visible holes, tears or other openings in the seal or fabric:
+Seal(s) inspected ___________________________________________________________
+Date of inspection ___________________________________________________________
+Inspected by (person and company) ____________________________________________
+Condition of seal(s) ” Good condition
+” Needed repair or replacement, specify type and date of corrective action
+
+46.
+
+Most recent seal gap measurements:
+Primary Seal
+
+Secondary Seal
+
+Date of measurement
+By: (person)
+(company)
+
+______________________
+______________________
+______________________
+
+_________________________
+_________________________
+_________________________
+
+Width of maximum gap
+Total area of gaps
+
+___________ inch
+___________ inch
+___________ sq in
+___________ sq in
+___________ sq in/ft tank
+___________ sq in/ft tank
+diameter
+diameter
+
+47. Condition of the interior side of the tank shell:
+
+” Little or no rust
+
+EPA FORM 3104 - REV2002
+
+” Dense rust
+
+” Gunite-lining
+
+7 of 7
+
+INSTRUCTIONS FOR COMPLETION
+OF THE EMISSIONS ACTIVITY CATEGORY FORM
+FOR A STORAGE TANK
+GENERAL INSTRUCTIONS:
+This form applies to all storage tanks not exempted by OAC rule 3745-31-03(A)(1)(l) which exempts:
+(l)
+
+Storage tanks for:
+(i)
+
+Inorganic liquids including water (at standard temperature and pressure) except as
+described in paragraph (v) of this section;
+
+(ii)
+
+Pressurized storage for inorganic compounds or propane, butane, isobutane, and liquid
+petroleum gases;
+
+(iii)
+
+Liquids with a capacity of less than seven hundred gallons;
+
+(iv)
+
+Liquids with a capacity of less than or equal to ten thousand gallons equipped with
+submerged fill and which store organic liquids or mixtures containing organic liquids
+(excluding pesticides) with each organic liquid component's vapor pressure of less than
+or equal to 1.5 pounds per square inch absolute at seventy degrees Fahrenheit;
+
+(v)
+
+Acids (as defined in the most recent edition of the Chemical Rubber Company (CRC)
+Handbook of Chemistry and Physics) stored in tanks less than or equal to seven
+thousand five hundred gallons capacity.
+
+Provide complete responses to all applicable questions. If an item does not apply to the emissions unit,
+write in “Not Applicable” or “NA.” If the answer is not known, write in “Not Known” or “NK.” If you need
+assistance in understanding a question after reading the instructions below, contact your Ohio EPA District
+Office or Local Air Agency for assistance. Submittal of an incomplete application will delay application
+review and processing. In addition, the application may be returned as incomplete if all applicable questions
+are not answered appropriately.
+APPLICABLE REGULATIONS:
+The following State and Federal Regulations may be applicable to a storage tank. Note that there may be
+other regulations which apply to this emissions unit which are not included in this list.
+Federal:
+
+40 CFR Part 60 (NSPS), Subpart A (General Provisions)
+40 CFR Part 60, Subpart K (Standards of Performance for Storage Vessels for Petroleum
+Liquids for Which Construction, Reconstruction, or Modification Commenced After June 11,
+1973, and Prior to May 19, 1978.)
+40 CFR Part 60, Subpart Ka (Standards of Performance for Storage Vessels for Petroleum
+Liquids for Which Construction, Reconstruction, or Modification Commenced After May 18,
+1978, and Prior to July 23, 1984.)
+40 CFR Part 60, Subpart Kb (Standards of Performance for Volatile Organic Liquid Storage
+Vessels (Including Petroleum Liquid Storage Vessels) for Which Construction, Reconstruction,
+or Modification Commenced After July 23, 1984.)
+
+EPA FORM 3104 - INSTRUCTIONS
+
+1 of 3
+
+State:
+
+OAC rule 3745-31-02 (Permit to Install)
+OAC rule 3745-35-02 (Permit to Operate)
+OAC rule 3745-21-07 (D) (Storage of Volatile Photochemically Reactive Materials)
+OAC rule 3745-21-09 (L) (Storage of Petroleum Liquids in Fixed Roof Tanks)
+OAC rule 3745-21-09 (Z) (Storage of Petroleum Liquids in External Floating Roof Tanks)
+
+If you would like a copy of these regulations, contact your Ohio EPA District Office or Local Air Agency.
+State regulations may also be viewed and downloaded from the Ohio EPA website at
+http://www.epa.state.oh.us/dapc/regs/regs.html. Federal regulations may be viewed and downloaded at
+http://www.epa.gov/docs/epacfr40/chapt-I.info/subch-C.htm.
+CALCULATING EMISSIONS:
+Emissions may be calculated using the estimation software for storage tanks (TANKS), available from the
+following USEPA website: http://www.epa.gov/ttn/chief/software/tanks/index.html.
+SPECIFIC INSTRUCTIONS:
+1.
+
+Indicate whether this is an application for a new permit or an application for permit renewal. If
+applying for a permit renewal, provide the 4-character OEPA emissions unit identification number.
+
+4.
+
+Tank capacity represents the maximum amount of material which can be stored.
+
+9.
+
+The cited NSPS rule may be found on the web by clicking the links to 60.110a-60.115a at:
+http://www.access.gpo.gov/nara/cfr/cfrhtml_00/Title_40/40cfr60_00.html
+The cited MACT rule may be found on the web at: http://www.epa.gov/ttn/atw/hon/honpg.html
+
+10.
+
+"Custody transfer" means the transfer of produced crude oil and/or condensate, after processing
+and/or treating in the production operations, from storage tanks or automatic transfer facilities to
+pipelines or any other forms of transportation. "Condensate" means hydrocarbon liquid separated
+from natural gas which condenses due to changes in the temperature or pressures, or both, and
+remains liquid at standard conditions.
+
+15.
+
+"Photochemically reactive material" means any liquid organic material with an aggregate of more
+than 20 percent of its total volume composed of the chemical compounds classified below or which
+exceeds any of the following individual percentage composition limitations, referred to the total
+volume of liquid:
+(1)
+
+A combination of hydrocarbons, alcohols, aldehydes, esters, ethers or ketones having an
+olefinic or cyclo-olefinic type of unsaturation: 5 percent;
+
+(2)
+
+A combination of aromatic hydrocarbons with eight or more carbon atoms to the molecule
+except ethylbenzene: 8 percent;
+
+(3)
+
+A combination of ethylbenzene, ketones having branched hydrocarbon structures,
+trichloroethylene or toluene: 20 percent.
+
+EPA FORM 3104 - INSTRUCTIONS
+
+2 of 3
+
+16.
+
+If the material stored or to be stored is a waste material, complete the question on whether or not it is
+a hazardous waste. If additional information is needed regarding hazardous waste, please contact
+the office below:
+Ohio EPA - Division of Hazardous Waste Management
+P.O. Box 1049
+Columbus, Ohio 43216-1049
+(614) 644-2917
+
+17.
+
+Submerged filling means the storage tank is equipped with a submerged fill pipe as defined below:
+"Submerged fill pipe" means any fill pipe the discharge opening of which is entirely submerged when
+the liquid level is six inches above the bottom of the tank; or when applied to a tank which is loaded
+from the side, shall mean any fill pipe the discharge opening of which is entirely submerged when the
+liquid level is eighteen inches above the bottom of the tank.
+
+22.
+
+For type of vent valve, enter “pressure” for a valve designed to allow high pressure inside the tank to
+be relieved, “vacuum” for a valve designed to allow low pressure inside the tank to be relieved, or
+“combined” for a valve designed to do both.
+
+34.
+
+Enter the average wind speed for the last calendar year, in miles per hour, at the tank site. If actual
+data is not available, data may be available from a nearby airport or the National Weather Service. If
+that data is not available, data can be used from the following table:
+City
+Akron
+Cincinnati
+Cleveland
+Columbus
+Dayton
+Mansfield
+Toledo
+Youngstown
+
+46.
+
+Mean Wind Speed (miles per hour)
+9.9
+9.1
+10.8
+8.7
+10.2
+11.0
+9.5
+10.0
+
+The width of a seal gap is the distance between the seal and the tank wall. The total area of gaps is
+the accumulated area of all gaps which are greater than 0.125 inch in width.
+
+EPA FORM 3104 - INSTRUCTIONS
+
+3 of 3
+
+

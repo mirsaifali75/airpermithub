@@ -1,0 +1,555 @@
+20.2.73 NMAC 
+TITLE 20 ������������ ENVIRONMENTAL 
+PROTECTION 
+CHAPTER 2 ������� AIR 
+QUALITY (STATEWIDE) 
+PART 73 �������������� NOTICE 
+OF INTENT AND EMISSIONS INVENTORY REQUIREMENTS 
+20.2.73.1 �������������� ISSUING 
+AGENCY: � Environmental Improvement Board. 
+[11/30/95; 20.2.73.1 NMAC - Rn, 20 NMAC 
+2.73.100 02/18/02] 
+20.2.73.2 �������������� SCOPE: � All 
+persons who own or operate a source or who intend to construct or modify a 
+source. 
+[11/30/95; 20.2.73.2 NMAC - Rn, 20 NMAC 
+2.73.101 02/18/02] 
+20.2.73.3 �������������� STATUTORY 
+AUTHORITY: � Environmental Improvement Act, NMSA 1978, 
+Section 74-1-8(A)(4), and Air Quality Control Act, NMSA 1978, Sections 74-2-1 
+et seq., including specifically, Section 74-2-7(A)(1) and (B). 
+[11/30/95; 20.2.73.3 NMAC - Rn, 20 NMAC 
+2.73.102 02/18/02] 
+20.2.73.4 �������������� DURATION: � 
+Permanent. 
+[11/30/95; 20.2.73.4 NMAC - Rn, 20 NMAC 2.73.103 
+02/18/02] 
+20.2.73.5 �������������� EFFECTIVE 
+DATE: � November 30, 1995 except where a later date 
+is cited at the end of a section or paragraph. 
+[11/30/95, 10/01/97; 20.2.73.5 NMAC - Rn, 20 
+NMAC 2.73.104 02/18/02] 
+[The latest effective date of any section in 
+this Part is July 6, 2011.] 
+20.2.73.6 �������������� OBJECTIVE: � The 
+objective of this part is to establish requirements for the submission of 
+certain relevant information to ensure that the regulations and standards under 
+the Air Quality Control Act and the federal act will not be violated, and to 
+facilitate the quantification of greenhouse gas emissions in New Mexico. 
+[11/30/95; 20.2.73.6 NMAC - Rn, 20 NMAC 
+2.73.105 02/18/02; A, 01/01/08] 
+20.2.73.7 �������������� DEFINITIONS: � In 
+addition to the terms defined in 20.2.2 NMAC (Definitions), as used in this 
+part, the following apply. 
+��������������� A. ����������� "Air pollution control 
+equipment" means any device, equipment, process or combination thereof 
+the operation of which would limit, capture, reduce, confine, or otherwise 
+control air contaminants or convert for the purposes of control any air 
+contaminant to another form, another chemical or another physical state. 
+��������������� B. ����������� "California climate action 
+registry" means the 
+voluntary registry for greenhouse gas emissions established pursuant to 
+California Health & Safety Code D. 26, Pt. 4, Ch. 6 (West 2007). 
+��������������� C. ����������� "Commencement" means 
+that an owner or operator has undertaken a continuous program of construction 
+or modification. 
+��������������� D. ����������� "Construction" means 
+fabrication, erection, installation or relocation of a stationary source, including 
+but not limited to temporary installations and portable stationary sources. 
+��������������� E. ����������� �Emission report or inventory� 
+means a listing, by source, of the amount of air pollutants discharged into the 
+atmosphere of a community. 
+��������������� F. ����������� �Fuel carbon content� means 
+the mass of carbon per unit of heat content of a fuel. 
+��������������� G. ����������� "Fugitive emissions" 
+are those emissions which could not reasonably pass through a stack, chimney, 
+vent, or other functionally-equivalent opening. 
+��������������� H. ����������� "Greenhouse gas emissions 
+reporting year� means the calendar year in which greenhouse gas emissions 
+required to be reported under this part occurred. 
+��������������� I. ������������ "Modification" means 
+any physical change in, or change in the method of operation of, a stationary 
+source which results in an increase in the potential emission rate of any 
+regulated air contaminant emitted by the source or which results in the 
+emission of any regulated air contaminant not previously emitted, but does not 
+include: 
+������������������� (1) ���� a 
+change in ownership of the source; 
+��� ���������������� (2) ���� 
+routine maintenance, repair or replacement; 
+������������������� (3) ���� 
+installation of air pollution control equipment, and all related process 
+equipment and materials necessary for its operation, undertaken for the purpose 
+of complying with regulations adopted by the board or pursuant to the federal 
+Clean Air Act; or 
+������������������� (4) ���� 
+unless previously limited by enforceable permit conditions: 
+����������������������������� (a) ���� an 
+increase in the production rate, if such increase does not exceed the operating 
+design capacity of the source; 
+����������������������������� (b) ���� an 
+increase in the hours of operation; or 
+����������������������������� (c) ���� 
+use of an alternative fuel or raw material if, prior to January 6, 1975, 
+the source was capable of accommodating such fuel or raw material, or if use of 
+an alternate fuel or raw material is caused by any natural gas curtailment or 
+emergency allocation or any other lack of supply of natural gas. 
+��������������� J. ������������ "Nonattainment area" means, 
+for any air pollutant, an area which has been designated as a nonattainment 
+area under Section 107 of the federal act. 
+��������������� K. ����������� "Operator" means the 
+person or persons responsible for the overall operation of a facility. 
+��������������� L. ����������� "Owner" means the 
+person or persons who own a facility or part of a facility. 
+��������������� M. ���������� "Part" means an air 
+quality control regulation under Title 20, Chapter 2 of the New Mexico administrative 
+code, unless otherwise noted; as adopted or amended by the board. 
+��������������� N. ����������� "Portable stationary 
+source" means a source which can be relocated to another operating 
+site with limited dismantling and reassembly, including for example but not 
+limited to moveable sand and gravel processing operations and asphalt plants. 
+��������������� O. ����������� "Potential emission 
+rate" means the emission rate of a source at its maximum capacity to 
+emit a regulated air contaminant under its physical and operational design, 
+provided any physical or operational limitation on the capacity of the source 
+to emit a regulated air contaminant, including air pollution control equipment 
+and restrictions on hours of operation or on the type or amount of material 
+combusted, stored or processed, shall be treated as part of its physical and 
+operational design only if the limitation or the effect it would have on emissions 
+is enforceable by the department pursuant to the Air Quality Control Act or the 
+federal act. 
+��������������� P. ����������� "Potential to emit" 
+means the maximum capacity of a stationary source to emit any air pollutant 
+under its physical and operational design; any physical or operational 
+limitation on the capacity of a source to emit an air pollutant, including air 
+pollution control equipment and restrictions on hours of operation or on the 
+type or amount of material combusted, stored, or processed, shall be treated as 
+part of its design if the limitation is federally enforceable; the potential to 
+emit for nitrogen dioxide shall be based on total oxides of nitrogen. 
+��������������� Q. ����������� "Regulated air 
+contaminant" means any air contaminant, the emission or ambient 
+concentration of which is regulated pursuant to the New Mexico Air Quality 
+Control Act or the federal act. 
+��������������� R. ����������� "Shutdown" 
+means the cessation of operation of any air pollution control equipment, 
+process equipment or process for any purpose, except routine phasing out of 
+batch process units. 
+��������������� S. ������������ "Stationary source" 
+or "source" means any building, structure, equipment, facility, 
+installation (including temporary installations), operation or portable 
+stationary source which emits or may emit any air contaminant; any research 
+facility may group its sources for the purpose of this part at the discretion 
+of the secretary of the department. 
+��������������� T. ����������� �The climate registry� means the nonprofit corporation by that name 
+incorporated under the District of Columbia Nonprofit Corporation Act with a 
+purpose of creating and operating a multi-state greenhouse gas emissions 
+registry. 
+��������������� U. ����������� �WEB source� means a stationary source that meets 
+the applicability requirements of 20.2.81.101 NMAC. 
+��������������� V. ����������� �Western backstop sulfur dioxide 
+trading program� means 
+20.2.81 NMAC, triggered as a backstop in accordance with the provisions in the 
+sulfur dioxide milestones and backstop trading program implementation plan, if 
+necessary, to ensure that regional sulfur dioxide emissions are reduced. 
+[11/30/95, 10/01/97; 20.2.73.7 NMAC - Rn, 20 
+NMAC 2.73.107 & A, 02/18/02; A, 12/31/03; A, 01/01/08] 
+20.2.73.8 to 20.2.73.105 � [RESERVED] 
+20.2.73.106 ��������� AMENDMENT 
+AND SUPERSESSION OF PRIOR REGULATIONS: � This part amends and supersedes 
+Air Quality Control Regulation ("AQCR") 703.1 - Notice of Intent and 
+Emissions Inventory Requirements last filed May 29, 1990, as amended 
+("AQCR 703.1"). 
+��������������� A. ����������� All 
+references to AQCR 703.1 in any other rule shall be construed as a reference to 
+this part. 
+��������������� B. ����������� The 
+amendment and supersession of AQCR 703.1 shall not affect any administrative or 
+judicial enforcement action pending on the effective date of such amendment nor 
+the validity of any permit issued pursuant to AQCR 703.1. 
+[11/30/95; 20.2.73.106 NMAC - Rn, 20 NMAC 
+2.73.106 02/18/02] 
+20.2.73.107 to 20.2.73.199 � [RESERVED] 
+20.2.73.200 ��������� NOTICE 
+OF INTENT: 
+��������������� A. ����������� Applicability: 
+������������������� (1) ���� 
+Any owner or operator intending to construct a new stationary source 
+which has a potential emission rate greater than 10 tons per year of any 
+regulated air contaminant or 1 ton per year of lead shall file a notice of 
+intent with the department. 
+������������������� (2) ���� 
+Any owner or operator intending to modify a stationary source which 
+either prior to or following the modification has a potential emission rate 
+greater than 10 tons per year of any regulated air contaminant or 1 ton per 
+year of lead shall file a notice of intent with the department. 
+������������������� (3) ���� 
+The requirements of 20.2.73.200 NMAC do not apply to stationary sources 
+or modifications located in Bernalillo county. 
+������������������� (4) ���� 
+The notice of intent shall be filed prior to the commencement of 
+construction. Construction shall not begin prior to issuance of a written 
+determination by the department that a permit is not required, or if a permit 
+is required, prior to the issuance of the permit under 20.2.72 NMAC, 20.2.74 
+NMAC or 20.2.79 NMAC. 
+��������������� B. ����������� Contents of Notice: � 
+Notices of intent shall be filed on forms furnished by the department, 
+which shall be identical to the extent practicable, as those used for 20.2.72 
+NMAC (Construction Permits) and shall include: 
+������������������� (1) ���� 
+The applicant's name and address, the person to contact regarding the 
+application, and the name and address of the new source or modification. 
+�������� ����������� (2) ���� 
+The date of the application. 
+������������������� (3) ���� A 
+description of the new facility or modification including all operations 
+affecting air emissions. 
+������������������� (4) ���� 
+The anticipated operating schedule. 
+��������������� ���� (5) ���� A map such as a 7.5 minute 
+United States geological survey topographic quadrangle showing the location of 
+the stationary source. 
+������������������� (6) ���� 
+The nature and quantities of any regulated air contaminants the new 
+source or modification will emit, including all calculations utilized to 
+estimate emissions. 
+������������������� (7) ���� A 
+description of any air pollution control device or method to be utilized, 
+including the basis for the estimated control efficiency. 
+������������������� (8) ���� 
+The stack and exhaust gas parameters for all emission points. 
+������������������� (9) ���� 
+Any other relevant information as the department may reasonably require. 
+������������������� (10) ���� Be 
+signed under oath or affirmation by the operator, the owner, or an authorized 
+representative, certifying to the best of his or her knowledge the truth of all 
+information submitted. 
+��������������� C. ����������� Review of Notice: � 
+Within thirty days from the date a notice is received, the department 
+shall review its content and by certified letter indicate to the applicant: 
+������������������� (1) ���� 
+the notice is incomplete and indicate specific additional material or 
+clarification required; or 
+������������������� (2) ���� a 
+permit is not required and construction may commence; or 
+�� ����������������� (3) ���� a 
+permit is required before construction may commence. � For this case, the department will indicate 
+whether the application is complete with respect to the requirements of each 
+applicable permit regulation and specify additional material or clarification 
+required if it is not complete. 
+��������������� D. ����������� Verification: � In 
+verifying information submitted in response to the requirements of this part, 
+the department may: 
+������������������� (1) ���� 
+Enter at all reasonable times in or upon any private or public property, 
+except private residences, which the department has reasonable cause to believe 
+is or will become a source of air contaminants contributing to air pollution; 
+and 
+������������������� (2) ���� 
+Require the production of information relating to emissions which cause 
+or contribute to air pollution, including the sampling of emissions in 
+accordance with methods and at locations and intervals as may be prescribed by 
+the department. 
+��������������� E. ����������� Notification Requirements: 
+������������������� (1) ���� 
+The owner or operator of a portable stationary source shall notify the 
+department in writing of the date and site of any relocation at least fifteen 
+days prior to its occurrence. 
+������������������� (2) ���� 
+Any owner or operator of a stationary source which will be shut down for 
+a period of one year or more shall notify the department in writing of the 
+actual date of shut down within thirty days after the shut down occurs. 
+������������������� (3) ���� 
+Any new owner or operator of a stationary source shall notify the 
+department within thirty days of assuming ownership of his or her name and 
+address. 
+[11/30/95; 20.20.73.200 NMAC - Rn, 20 NMAC 
+2.73.200-204 02/18/02] 
+20.2.73.201 to 20.2.73.299 � [RESERVED] 
+20.2.73.300 ��������� EMISSION 
+INVENTORY REQUIREMENTS: 
+��������������� A. ����������� Applicability. � The 
+requirements of 20.2.73.300 NMAC apply to the owner or operator of any 
+stationary source located outside of Bernalillo county which: 
+������������������� (1) ���� 
+has been issued a permit under 20.2.72 NMAC (Construction Permits) 
+during any period of time, except for toxic air pollutant permits issued under 
+Sections 401 to 499 of 20.2.72 NMAC; 
+������������������� (2) ���� is 
+required to file a notice of intent under 20.2.73.200 NMAC; or 
+������������������� (3) ���� 
+emits in excess of 1 ton of lead or 10 tons of total suspended 
+particulate, PM10, PM2.5, sulfur dioxide, nitrogen oxides, carbon monoxide, or 
+volatile organic compounds in any calendar year including and subsequent to 
+1990. 
+��������������� B. ����������� Reporting requirements. 
+������������������� (1) ���� 
+Any source which emits, or has the potential to emit, 5 tons per year or 
+more of lead or lead compounds, or 100 tons per year or more of PM10, PM2.5, 
+sulfur oxides, nitrogen oxides, carbon monoxide, or volatile organic compounds 
+shall submit an emissions report annually. 
+������������������� (2) ���� 
+Any source defined as a major source of hazardous air pollutants under 
+20.2.70 NMAC (Operating Permits) shall submit an emissions report annually. 
+������������������� (3) ���� 
+Any source which is located in an ozone nonattainment area and which 
+emits, or has the potential to emit, 25 tons per year or more of nitrogen 
+oxides or volatile organic compounds shall submit an emissions report annually. 
+������������������� (4) ���� 
+Any source which is not required by Paragraph (1), (2), or (3) of 
+Subsection B of this section (20.2.73.300 NMAC) to submit an emission report 
+shall submit an emissions report under this part upon request by the 
+department, but no more frequently than annually. 
+������������������� (5) ���� 
+Except as provided in Paragraph (8) of Subsection B of this section 
+(20.2.73.300 NMAC), the department shall provide to the owner or operator 
+required by this section (20.2.73.300 NMAC) to submit an emissions report a 
+complete copy of the most current emissions report for their stationary source 
+which is on file with the department. The department shall provide this copy to 
+the owner or operator at least 90 days prior to the date when the source is 
+required to submit an emissions report. 
+������������������� (6) ���� 
+The owner or operator shall submit to the department a complete, correct 
+and current emissions report in the format specified by the department which 
+reflects emissions during the previous calendar year. 
+������������������� (7) ���� 
+Except as provided in Paragraph (8) of Subsection B of this section 
+(20.2.73.300 NMAC) the owner or operator shall submit the emission report by 
+April 1 of each year in which the source is required to submit an emission 
+report. 
+������������������� (8) ���� 
+Sources for which a date for submitting an annual emission report is 
+specified in a current operating permit issued under 20.2.70 NMAC (Operating 
+Permits) shall submit such report on that date. The department shall provide a 
+copy of the previous emissions report upon request by the owner or operator of 
+such source. 
+������������������� (9) ���� 
+Any source that is requested by the department to submit a report of 
+greenhouse gas emissions shall: 
+����������������������������� (a) ���� 
+submit such report on the schedule and according to the greenhouse gas 
+emissions reporting procedures established by the department, but not more 
+often than annually; or 
+����������������������������� (b) ���� 
+report greenhouse gas emissions from the source under 20.2.87 NMAC for 
+the greenhouse gas emissions reporting year and the two years following that 
+year; or 
+����������������������������� (c) ���� 
+provide the department access to the requested information for the 
+greenhouse gas emissions reporting year registered in either the climate 
+registry or the California climate action registry; and 
+����������������������������� (d) ���� 
+keep records in support of the report for a minimum of five years. 
+������������������� (10) ���� In determining the schedule of greenhouse 
+gas emissions reports and reporting procedures, the department, subject to 
+Paragraph (11) below, shall provide an opportunity for public comment, and 
+shall consider: 
+����������������������������� (a) ���� public comments regarding the schedule of 
+such reports and greenhouse gas emissions reporting procedures; 
+�� ��������������������������� (b) ���� 
+emissions quantification standards and best practices approved or 
+recommended by federal and state agencies, by greenhouse gas emissions 
+registries, and by non-governmental bodies having expertise in greenhouse gas 
+emissions quantification; 
+����������������������������� (c) ���� whether greenhouse gases emissions from a 
+particular source or source type, considering the amount and chemical 
+composition of the emissions, are expected to be minimal relative to emissions 
+from other sources or source types, and 
+����������������������������� (d) ���� whether emissions of a particular 
+greenhouse gas from a source or source type, considering the amount and 
+chemical composition of the emissions, are expected to be minimal relative to � the total greenhouse gas emissions from that 
+source or source type. 
+������������������� (11) ���� 
+The schedule for greenhouse gas emissions reports and reporting 
+procedures pursuant to Paragraphs (9) and (10) of Subsection B of 20.2.73.300 
+NMAC, shall: 
+��� �������������������������� (a) ���� subject to the department�s selection of 
+best available quantification methodologies, include a requirement that sources 
+within North American industry classification system codes 211111, 211112, 213111, 213112, 
+486210, 221210, 486110, and 486910 subject to this part and permit requirements 
+pursuant to 20.2.70 NMAC (Operating Permits) report at a minimum emissions of 
+carbon dioxide and methane beginning no later than reporting year 2009 and for 
+subsequent reporting years; and 
+����������������������������� (b) ���� subject to the department�s selection of 
+best available quantification methodologies, include a requirement that sources 
+within North American industry classification system codes 211111, 211112, 213111, 213112, 486210, 
+221210, 486110, and 486910 subject to this part pursuant to Paragraphs (1) and 
+(2) of Subsection A of 20.2.73.300 NMAC, and not otherwise covered by 
+Subparagraph (a), above, report at a minimum emissions of carbon dioxide and 
+methane no later than reporting year 2010 and for subsequent reporting years as 
+requested by the department. 
+��������������� C. ����������� Content of emissions reports. � 
+Emissions report contents for reports made under Paragraphs (1) through 
+(8) of Subsection B of 20.2.73.300 NMAC shall include: 
+��������� ���������� (1) ���� 
+the name, address, if any, and physical location of the stationary 
+source; 
+������������������� (2) ���� 
+the name and telephone number of the person to contact regarding the 
+emissions report; 
+������������������� (3) ���� a 
+certification signed by the owner, or operator, or a responsible official as 
+defined in 20.2.70 NMAC attesting that the statements and information contained 
+in the emissions report are true and accurate to the best knowledge and belief 
+of the certifying official, and including the full name, title, signature, date 
+of signature, and telephone number of the certifying official; for sources 
+subject to 20.2.70 NMAC, the certification shall be made as required under that 
+part; 
+������������������� (4) ���� 
+smelters shall submit an annual report of sulfur input, in tons/year; 
+������������������� (5) ���� 
+for each emission point, as required by the department: 
+����������������������������� (a) ���� 
+stack and exhaust gas parameters and location information; 
+����������������������������� (b) ���� 
+type of control equipment and estimated control efficiency; 
+����������������������������� (c) ���� 
+schedule of operation; 
+����������������������������� (d) ���� 
+estimated actual emissions, including fugitive emissions and emissions 
+occurring during maintenance, start-ups, shutdowns, upsets, and downtime of 
+total suspended particulate, PM10, PM2.5, ammonia, sulfur oxides, nitrogen 
+oxides, carbon monoxide, volatile organic compounds, and lead, and, if 
+requested by the department, speciated hazardous air pollutants, in tons per 
+year and a description of the methods utilized to make such estimates, 
+including calculations; 
+����������������������������� (e) ���� 
+the annual process or fuel combustion rates; and 
+����������������������������� (f) ���� 
+the fuel heat, sulfur, and ash content; and 
+������������������� (6) ���� 
+all information required under the federal act. 
+��������������� D. ����������� Additional content for emissions 
+reports from sources in ozone nonattainment areas. � 
+Emissions reports from sources located in ozone nonattainment areas 
+shall include, in addition to the contents specified by Subsection C of this 
+section (20.2.73.300 NMAC), the following information: 
+������������������� (1) ���� 
+typical daily process rate during the peak ozone season, where the peak 
+ozone season is specified by the department; and 
+������������������� (2) ���� 
+estimated actual emissions of nitrogen oxides and volatile organic 
+compounds, which shall be reported: 
+����������������������������� (a) ���� 
+for each emissions point; 
+������������������������� ���� (b) ���� for each process and fuel 
+type contributing to emissions from each point; 
+����������������������������� (c) ���� in 
+units of tons per year for annual emissions; and 
+����������������������������� (d) ���� in 
+units of pounds per day for a typical day during the peak ozone season. 
+��������������� E. ����������� Waiver of reporting requirements for 
+insignificant emissions. � The department may waive the requirements of 
+Paragraph (5) of Subsection C of this section (20.2.73.300 NMAC) for emissions 
+which the department determines to be insignificant under 20.2.70 NMAC, except 
+that: 
+������������������� (1) ���� 
+for sources in nonattainment areas, reporting of emissions of pollutants 
+for which the area is nonattainment shall not be waived; and 
+������������������� (2) ���� 
+reporting of emissions for which reporting is required under the federal 
+act shall not be waived. 
+��������������� F. ����������� Emission tracking requirements for 
+sulfur dioxide emission inventories. � All stationary sources with actual emissions 
+of one hundred (100) tons per year or more of sulfur dioxide in the year 2000, 
+or in any subsequent year, shall submit an annual inventory of sulfur dioxide 
+emissions, beginning with the 2003 emission inventory. � A source that meets these criteria that then 
+emits less than 100 tons per year in a later year shall submit a sulfur dioxide 
+inventory for tracking compliance with the regional sulfur dioxide milestones 
+until the western backstop sulfur dioxide trading program has been fully 
+implemented and emission tracking has occurred under 20.2.81.106 NMAC. 
+� ������������������ (1) ���� 
+All WEB sources will be subject to the following federally enforceable 
+provisions: 
+����������������������������� (a) ���� 
+submit an annual inventory of sulfur dioxide emissions; 
+����������������������������� (b) ���� 
+document the emissions monitoring/estimation methodology used, and 
+demonstrate that the selected methodology is acceptable under the inventory 
+program; 
+����������������������������� (c) ���� 
+include emissions from start up, shut down, and upset conditions in the 
+annual total inventory; 
+����������������������������� (d) ���� 
+use 40 CFR Part 75 methodology for reporting emissions for all sources 
+subject to the federal acid rain program; 
+����������������������������� (e) ���� 
+maintain all records used in the calculation of the emissions, including 
+but not limited to the following: 
+��������������������������������������� (i) ���� 
+amount of fuel consumed; 
+��������������������������������������� (ii) ���� 
+percent sulfur content of fuel and how the content was determined; 
+���������� ����������������������������� (iii) ���� 
+quantity of product monitoring data; 
+��������������������������������������� (iv) ���� 
+emissions monitoring data; 
+��������������������������������������� (v) ���� 
+operating data; and 
+����������������������������������� ���� (vi) ���� how the emissions are 
+calculated; 
+����������������������������� (f) ���� 
+maintain records of any physical changes to facility operations or 
+equipment, or any other changes that may affect the emissions projections; and 
+������������������������ ����� (g) ���� retain records for a minimum 
+of ten years from the date of establishment, or if the record was the basis for 
+an adjustment to the milestone, five years after the date of an implementation 
+plan revision, whichever is longer. 
+������������������ � (2) ���� 
+Changes in emission measurement techniques. Each source subject to this 
+subsection that uses a different emission monitoring or calculation method than 
+was used to report sulfur dioxide emissions in 2006 under this part or 40 CFR 
+Part 75 shall adjust their reported emissions to be comparable to the emission 
+monitoring or calculation method that was used in 2006. The calculations that 
+are used to make this adjustment shall be included with the annual emission 
+report. 
+������������������� (3) ���� 
+The department shall retain emission inventory records for non-utilities 
+for 2006 until the year 2018 to ensure that changes in emissions monitoring 
+techniques can be tracked. 
+��������������� G. ����������� Content of greenhouse gas emissions 
+reports. � Greenhouse gas emissions reports shall contain the following 
+information, as set out in the greenhouse gas emissions reporting procedures 
+established under Subparagraph (a) of Paragraph (9) of Subsection B of 
+20.2.73.300 NMAC: 
+������������������� (1) ���� 
+the name, location, and permit or notice of intent number of the 
+stationary source; 
+������������������� (2) ���� 
+the name and telephone number of the person to contact regarding the 
+greenhouse gas emissions report; 
+������������������� (3) ���� a 
+certification signed by the owner or operator attesting that the statements and 
+information contained in the emissions report are true and accurate to the best 
+knowledge and belief of the certifying official, and including the full name, 
+title, signature, date of signature, and telephone number of the certifying 
+official; 
+������������������� (4) ���� 
+for each emission point as required by the department under the 
+greenhouse gas emissions reporting procedures, the estimated actual emissions 
+of greenhouse gases, including fugitive emissions and emissions occurring 
+during maintenance, start-ups, shutdowns, upsets and downtime; and 
+������������������� (5) ���� if 
+requested by the department, the fuel type, fuel heat content, and fuel carbon 
+content. 
+[11/30/95, 10/01/97; 2.20.73.300 NMAC - Rn, 
+20 NMAC 2.73.300 - 304 02/18/02; A, 12/31/03; A, 12/31/04; A, 01/01/08; A, 
+07/06/11] 
+HISTORY OF 20.2.73 NMAC: 
+Pre-NMAC History: � The 
+material in this part was derived from that previously filed with the 
+commission of public records - state records center and archives. 
+EIB/AQCR 703.1, Air Quality Control 
+Regulation 703.1 - Notice of Intent and Emissions Inventory Requirements, 
+5/29/90. 
+History of Repealed Material: � 
+[RESERVED] 
+Other History: 
+EIB/AQCR 703.1, Air Quality Control 
+Regulation 703.1 - Notice of Intent and Emissions Inventory Requirements, filed 
+5/29/90, was renumbered into first version of the New Mexico 
+Administrative Code as 20 NMAC 2.73, Notice of Intent and Emissions Inventory 
+Requirements, filed 10/30/95. 
+20 NMAC 2.73, Notice of Intent and Emissions 
+Inventory Requirements, filed 10/30/95, was renumbered, reformatted, amended 
+and replaced by 20.2.73 NMAC, Notice of Intent and Emissions Inventory 
+Requirements, effective 02/18/02.

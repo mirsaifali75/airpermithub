@@ -1,0 +1,93 @@
+Non-Title V Permit Application Checklist
+
+(Revision C; 08/03/2017)
+
+This checklist is provided to assist the regulated community in creating complete and thorough applications for non-Title V permits and
+permit modifications. Completion and submittal of this checklist is optional.
+
+Section A – Administrative Completeness.
+The following items must be included in the permit application to be deemed administratively complete.
+
+A.1
+A.2
+A.3
+A.4
+A.5
+
+Check
+When
+Complete
+
+Application Forms for Title V & Non-Title V Facilities
+For information on required forms for Non-Title V Facilities, consult the Application Matrix.
+
+Application Fees
+Visit the NC Division of Air Quality website for a Permit Fee Schedule.
+
+Authorized Contact Certification (Form A)
+See 15A NCAC 2Q .0304(j) for a definition of the authorized contact.
+
+Zoning Consistency Determination (if required)
+Visit the NC DEQ website for Information on Zoning Consistency Determinations.
+
+P.E. Seal, Form D5 (if required)
+See 15A NCAC 02Q .0112 for information on P.E. Seals.
+
+Appropriate Number of Application Package Copies
+A.6
+
+One copy is generally sufficient, but provide two copies if modeling is included. Call the Regional Office
+with questions.
+
+Section B – Technical Completeness.
+Applications generally include the following technical information, which is reviewed by the permit engineer. The engineer may
+request additional information from the Applicant if he/she finds the following technical information lacking.
+
+B.1
+
+Check
+When
+Complete
+
+Description of Project/Modification
+Identify new/modified/removed emission sources and control devices, the nature and purpose of the project,
+and proposed modification timetables.
+
+B.2
+B.3
+B.4a
+
+Emissions Calculations (Criteria Pollutants, HAPs, and TAPs)
+Include emissions increases associated with proposed modifications and facility-wide potentials-to-emit.
+Document emission factors, production rates, and other assumptions used to estimate emissions.
+Confidential Information (15A NCAC 02Q .0107)
+Requests for confidentiality should be consistent with 15A NCAC 2Q .0107. Include complete "public"
+applications AND at least one collection of redacted “confidential” pages for insertion where appropriate.
+Regulatory Analysis (Air Quality Rules)
+Identify each air quality regulation that applies to the proposed project/modification. Where multiple compliance options
+are available (esp. with Area Source GACT and NSPS), identify how the Facility intends to comply with the rule.
+It may be important to include a discussion of non-applicable regulations to identify why such regulations do not apply.
+Such discussion is recommended for GACT, NSPS, and state-regulated TAP rules.
+NC DAQ recommends that the regulatory analysis be provided in a written narrative. Applications are often found to be
+technically incomplete due to insufficient application detail regarding the following rules:
+
+B.4.a
+B.4.b
+B.4.c
+B.4.d
+B.4.e
+a
+
+NC SIP Standards (15A NCAC 02D .0500)
+State-Enforceable TAP Standards (15A NCAC 02Q .0700, 15A NCAC 02D .1100)
+Guidance on Air Dispersion Modeling
+RACT (15A NCAC 02D .0900, 15A NCAC 02D .1400)
+Applicability provided in 15A NCAC 02D .0902 and 15A NCAC 02D .1402.
+NSPS (15A NCAC 02D .0524, 40 CFR Part 60)
+GACT (15A NCAC 02D .1111, 40 CFR Part 63)
+See EPA’s website: “Area Source Standards”
+See also NCDAQ Guidance
+
+Section B.4 above does not provide a complete list of potentially applicable regulations.
+
+

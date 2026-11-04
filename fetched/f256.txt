@@ -1,0 +1,260 @@
+DAR-17 / Federal Enforceability of Air Pollution Control Permits
+New York State Department of Environmental Conservation
+
+DEC Program Policy
+Issuing Authority: Steven Flint
+
+Title: Director, Division of Air Resources
+
+Signature:
+Date Issued: 3/30/17
+
+Latest Date Revised:
+Unit: Bureau of Stationary Sources
+
+I. Summary: This document describes the procedure and requirements for developing
+federally enforceable permit conditions that must be used by permit writers when implementing
+the New York State Department of Environmental Conservation’s (Department) operating permit
+program. This document updates the Department’s procedures to reflect more recent practices
+and requirements, as the Department previously issued guidance regarding federal
+enforceability in air permits in 1994.
+II. Policy: It is the policy of the Department that all air pollution control permits will be issued
+with federally enforceable terms and conditions where appropriate. Accordingly, permit writers
+should utilize the procedures described in this document when reviewing permit applications to
+ensure that each permit condition that is to be federally enforceable meets the necessary
+criteria. This policy supersedes Air Guide 10, Federal Enforceability of Information on Air
+Operating Permits, issued on October 5, 1994.
+III. Purpose and Background: Federally enforceable is defined in 6 NYCRR Part 200.1(ab)
+as ‘all limitations and conditions that are enforceable by the department and the administrator
+and citizens under the Clean Air Act (Act)’. Examples of limitations and conditions that should
+be federally enforceable include, but are not limited to:
+
+1. Emission standards, alternative emission standards, alternative emission limitations, and
+equivalent emission limitations established pursuant to Section 112 of the Act as
+amended in 1990. Section 112 of the Act addresses emissions of hazardous air
+pollutants. National Emission Standards for Hazardous Air Pollutants (NESHAPs)
+established after Section 112 was amended in 1990 are included in 40 CFR Part 63;
+2. New source performance standards established pursuant to Section 111 of the Act, and
+emission standards established pursuant to Section 112 of the Act before it was
+amended in 1990. Section 112 of the Act addresses emissions of hazardous air
+pollutants. NESHAPs established before Section 112 was amended in 1990 are included
+1
+
+in 40 CFR Part 61;
+3. All terms and conditions in a Title V facility permit, unless expressly designated as not
+federally enforceable;
+4. All limitations and requirements included as part of the State Implementation Plan (SIP);
+5. Limitations and conditions that are part of a New Source Review permit under 6 NYCRR
+Part 231 or federal construction permit issued under 40 CFR 52.21; and
+6. Limitations and conditions in a permit issued pursuant to Subpart 201-7 that are
+designed to limit a facility's or emission source’s potential to emit (PTE) for the purpose
+of avoiding an applicable requirement (defined at 6 NYCRR Part 201-2.1(b)(5)) to which
+the facility would otherwise be subject (i.e. an emissions cap).
+The PTE of a stationary source is a critical factor in establishing regulatory applicability.
+PTE is defined at 6 NYCRR Part 200.1(bl) as the maximum capacity of a stationary source to
+emit any air contaminant under its physical and operational design. A stationary source’s PTE
+is determined as follows:
+First, the stationary source’s potential emissions are calculated at its maximum operational
+capacity. Any physical or operational limitation on the capacity of a stationary source to emit
+any air contaminant will be treated as part of the stationary source’s design only if the limitation
+is federally enforceable. Limitations may include the installation of air pollution control
+equipment and/or restrictions on hours of operation, or on type or amount of material
+combusted, stored, or processed.
+The stationary sources’ PTE may be “capped” by any recognized practically and federally
+enforceable limits on the stationary source’s emissions, such as limits on emissions of a
+contaminant during any 12-month period (defined at 6 NYCRR Part 201-2.1(b)(1)). In cases
+where the emission limit does not reflect the worst case scenario (maximum emissions with the
+facility operating at its full design capacity without any pollution control equipment), additional
+limitations must be established on the facility’s production or operation. Production or operation
+limitations include restrictions on the rates of production, hours of operation, type and amount of
+fuel burned, or materials processed.
+Another key component of federal enforceability is the requirement that an opportunity for
+public notice and participation be provided prior to the issuance of any air permit imposing
+limitations on a facility’s or emission source's operation. This will allow interested parties the
+chance to review the record to determine whether a proposed limitation or reduction will
+produce the benefits claimed and whether practical means exist to monitor compliance with the
+limitation.
+In order to be considered “federally enforceable”, the terms and conditions in air pollution
+control permits must meet the following criteria:
+1. The state's operating permit program has been approved by EPA;
+2. The operating permits are legally binding on the facility under state law;
+2
+
+3. All emissions limitations, emission controls, and other requirements imposed by the
+operating permits are no less stringent than any of the corresponding federal regulations
+or SIP requirements;
+4. The limitations, controls and requirements in the operating permits are permanent,
+quantifiable, and otherwise enforceable as a practical matter; and
+5. The permits are issued subject to public participation, timely notice, and opportunity for
+public comment in accordance with 6 NYCRR 621.7.
+The first two criteria are met by the Department’s federally approved operating permit program
+and existing portions of the state’s environmental conservation law. Accordingly, each permit
+writer is responsible for developing permit terms and conditions that satisfy the remaining
+criteria.
+
+IV. Responsibility: The Division of Air Resources shall have primary responsibility for
+
+ensuring that this policy remains up-to-date and for providing any additional interpretation that
+may be needed. The Regional Air Pollution Control Engineers/Regional Office Staff, in
+consultation with the Bureau of Stationary Sources, will be responsible for implementing this
+policy when reviewing air pollution control permit applications received by the Department.
+
+V. Procedure: Permit limitations fall into the following general categories:
+A. Emission limits restrict the amount of a pollutant emitted from a stationary source
+over a set time period. For example, a facility may be required to demonstrate that the
+concentration of NOx in the stack gases is less than an acceptable level, or a facility
+may be required to demonstrate VOC emissions during any 12 month period are less
+than the major facility threshold. Emission limits are also accompanied by either a
+continuous monitoring system, intermittent stack testing requirement, or a method for
+calculating and tracking emission levels.
+B. Production or raw material usage limits restrict the amount of final product which
+can be manufactured or otherwise produced at a stationary source or limit the quantity
+of raw material used during a specified time period. For example, a facility may
+choose to limit (1) the amount of stone crushed per hour to limit emissions of
+particulate matter; (2) the sulfur content of the fuel burned to limit emissions of SO2; (3)
+the megawatt hours produced each month by its turbine to limit emissions of NOx; or
+(4) the amount of surface coating applied each month to limit emissions of VOC and/or
+HAP.
+C. Operational limits encompass all other restrictions on the manner in which an
+emission source functions. For example, a facility be required to monitor the
+temperature of a thermal oxidizer in order to demonstrate compliance with VOC RACT
+requirements, or a facility may be required to maintain the pressure drop across a
+baghouse within a certain range to demonstrate compliance with an NSPS particulate
+matter limit. Also a facility may be required to limit the monthly hours of operation of its
+boiler to limit emissions of SO2 and NOx.
+3
+
+Each limitation included in the permit must be stated as a separate condition that can be
+enforced independently from the other conditions in the permit. For example, a facility operating
+a baghouse may monitor both the pressure drop across the baghouse and the inlet temperature
+in order to demonstrate compliance with an applicable requirement. By including these
+limitations as separate conditions, the facility operator can easily determine which parameters
+need to be monitored, and what the applicable limitations are. Should enforcement action
+become necessary, the resulting notice of violation will clearly state which operating parameter
+was found to be out of compliance. If a permit requires the emissions from an emission source
+to be controlled by a control device (i.e. thermal oxidizer, baghouse, etc.), the control device
+must be operated at any time the emission source is in operation as required by a mandatory
+permit condition at 6 NYCRR Part 200.7.
+Another important component of a federally enforceable permit condition is the inclusion of
+an appropriate averaging time and monitoring frequency. In general, the time period over which
+production or operational restriction is verified should be as short as possible. The reason for
+this policy is that enforcement actions can be initiated for continuing violations without having to
+wait an excessive amount of time for data to be collected and a violation to be verified.
+A short term limit (e.g. pounds per hour) is appropriate for monitoring conditions that are
+associated with the operation of a continuous emission monitoring system. Such a system
+allows compliance data to be easily and reliably collected and reviewed by both the facility and
+the Department, resulting in a condition that is practically enforceable.
+A long term limit (e.g. tons per year) is more appropriate when developing an emissions cap
+at the facility level. Such a limit must be written on a rolling basis (i.e. 12-month total rolled
+monthly) so that the facility can easily demonstrate compliance with its emission cap during
+each 12-month period as required by Part 201. Long term emission limits that are not based on
+a rolling average (e.g. 12-month calendar basis) are not practically enforceable, and therefore
+must not be used to establish an emissions cap.
+Each limitation must also contain a record keeping requirement that will allow verification of
+a facility's compliance with its limits. For example, a facility monitoring the temperature of its
+thermal oxidizer on a continuous basis must be required to maintain a log of the recorded
+temperature data, and to make the log available to the Department upon request. Record
+keeping requirements must also state the time period that the facility is required to maintain
+such records (e.g. five years from the date of the record) on site.
+The final component of a federally enforceable permit condition is an appropriate reporting
+frequency. The facility owner or operator should be required to submit a monitoring report to the
+Department at a regular interval so that continuous compliance can be verified in between site
+visits. The Title V permitting program requires that monitoring reports be submitted at least
+semiannually, unless more frequent reporting is required by an applicable requirement or for
+some other reason (e.g. as a resolution to a previous violation). For state facility permits, the
+reporting frequency for periodic monitoring and recordkeeping conditions is at the discretion of
+the permit writer, and should be based on best engineering judgment. The owner or operator of
+a facility that contains one or more emission caps must submit an annual compliance
+certification at a minimum.
+In order to be practically enforceable, permits requiring installation of air pollution controls
+4
+
+must also have monitoring conditions for the operating parameters under which the control
+efficiency was achieved. For example, an asphalt plant may opt to install a baghouse by a
+manufacturer claiming 95% control efficiency for particulate matter. The applicant must provide
+sufficient documentation as part of the permit application that supports this claim. The resulting
+permit must include monitoring conditions that assure the specified control efficiency is being
+met continuously (e.g. pressure drop, inlet temperature, etc.). By noting continuous operation
+within the specified parameters, the field inspector can then assume that the control device is
+functioning properly and achieving the manufacturer’s rated efficiency.
+In addition, air pollution control devices controlling the main sources of emissions at a facility
+must be stack tested at a minimum of once per permit term in order to verify that they are still
+operating at the specified control efficiency. If the required control efficiency was achieved
+during the test using operating parameters other than those listed in the permit, the permit
+conditions must be modified accordingly.
+The final component of developing a federally enforceable permit limitation is an appropriate
+period of public notice and comment as specified by Part 621.
+
+Illustrative Examples of Federal Enforceability:
+Listed below are hypothetical situations to illustrate the proper development of federally
+enforceable permit restrictions.
+1. A proposed asphalt plant has the potential to emit 150 tons per year of PM-10. The
+applicant is proposing to install a baghouse with a manufacturer’s guaranteed control efficiency
+of 95% in order to limit emissions below the major facility threshold (100 tpy).
+There are several additional items that are needed before this proposed emissions cap can be
+considered to be an effective federally and practically enforceable limit. First, the facility must
+propose some form of parametric monitoring that indicates the design efficiency of the
+baghouse is being met (e.g. pressure drop). A separate monitoring condition must be
+developed for each parameter that is being monitored, and must also include an associated
+record keeping component. Second, the permit must contain a condition that requires the
+facility owner or operator to conduct a stack test in order to verify the control efficiency of the
+baghouse once during the term of the permit. Lastly, the permit must contain an emissions cap
+that restricts emissions of particulate matter to less than 100 tons per year. The cap should
+specify that PM-10 emissions must remain less than 100 tons during each 12-month period,
+calculated as a 12-month total rolled monthly. The permit must also specify the methodology for
+calculating monthly and 12-month total rolling emission totals. Additionally, the facility must be
+required to maintain all data and calculations used to determine compliance with the cap at the
+facility for a period of at least five years. The facility owner or operator must be required to
+submit an annual capping certification demonstrating that the facility has complied with its cap
+during each 12-month period of the preceding year. Finally, the resulting permit must be subject
+to public notice prior to issuance.
+2. A proposed wood finishing operation has the ability to apply up to 10,000 gallons of
+topcoat per month. The proposed coatings have a VOC content of 1.8 pounds per gallon.
+Accordingly, the PTE of the facility is 108 tons per year of VOC. In order to avoid Title V
+5
+
+applicability, the facility is proposing to maintain records of coating usage to demonstrate that
+VOC emissions remain below the major facility threshold (50 or 25 tpy).
+This limitation cannot be considered federally and practically enforceable as proposed because
+no restriction has been placed on the facility’s potential to emit VOCs. Accordingly, the permit
+must contain an emissions cap that restricts emissions of VOC to less than the applicable major
+facility threshold during each 12-month period. The facility must also be required to
+demonstrate compliance with this cap by tracking coating usage on a monthly basis. The
+monthly coating usage will be multiplied by the VOC content of the coatings used, to calculate
+the monthly VOC emissions from the facility. The VOC emissions for each month must be
+added to the previous 11 months to generate the VOC emissions for each 12-month period.
+Alternatively, the facility may choose to limit its PTE by purchasing and installing add-on
+controls (e.g. a thermal oxidizer). Such a device would need to have a destruction efficiency
+high enough to restrict emissions below the applicable major threshold. In addition, the permit
+would need to contain a parametric monitoring condition for at least one parameter that is
+representative of proper operation (e.g. operating temperature) and a once per permit term
+stack testing requirement.
+In either case, the permit must be subjected to public notice prior to issuance for the restriction
+to be federally enforceable.
+3. A landfill gas to energy facility proposes to construct five new identical engines with a
+potential to emit of 300 tpy of CO. The 300 tpy limit was estimated based on the CO emission
+factor (as lb/MW-hr) provided by the manufacturer and the engines’ design capacity (in
+megawatt hours). The proposed engines are the only source of CO emissions at the facility. In
+order to remain below the major source threshold for PSD (250 tpy), the facility proposes a limit
+of 220 tpy of CO as a 12-month rolling total emissions.
+There are several additional items that are needed before this proposed CO emissions cap can
+be considered to be a federally and practically enforceable limit. First, the permit should specify
+an emissions capping condition of 220 tpy of CO during each 12-month period. Second, the
+methodology for calculating the monthly and 12-month rolling emissions of CO must be clearly
+explained in the capping condition. Part of that methodology must be a requirement to track
+production (e.g., megawatt hours per month) so that it can be multiplied by the manufacturer’s
+emission factor to determine the monthly CO emissions from the facility. Third, the permit must
+contain a condition that requires the facility to conduct CO stack tests following commencement
+of operation and once during the permit term thereafter to verify that the actual CO emission
+rate does not exceed the manufacturer’s CO emission factor used in calculating the CO
+emission limit. Lastly, the facility must be required to maintain all data and calculations used in
+determining compliance with the cap at the facility for a period of at least five years. Additionally,
+the permit must be subjected to public notice prior to issuance for the limitations to be federally
+enforceable.
+
+VI. Related References:
+1. 6 NYCRR Part 201, Permits and Registrations
+2. 40 CFR Part 70, State Operating Permit Programs
+6
+
+

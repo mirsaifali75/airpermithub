@@ -1,0 +1,135 @@
+This guidance document is advisory in nature but is binding on an agency until amended by such agency. A guidance document does not
+include internal procedural documents that only affect the internal operations of the agency and does not impose additional requirements or
+penalties on regulated parties or include confidential information or rules and regulations made in accordance with the Administrative
+Procedure Act. If you believe that this guidance document imposes additional requirements or penalties on regulated parties, you may request
+a review of the document.
+
+00-008
+
+July 2025
+
+Operating Permits
+Introduction
+The Federal Clean Air Act Amendments of 1990 and the passage of LB1257 (1992) by the Nebraska
+Legislature required that the Nebraska Department of Water, Energy, and Environment establish and
+implement a comprehensive operating permit program for sources of certain air pollutants. The Federal
+operating permit program is referred to as the “Title V” operating permit program. The State of
+Nebraska’s Title V operating permit program is referred to as the Class I operating permit program.
+Although the Federal Title V program only regulates major sources of air pollution, the Nebraska
+program also regulates certain minor sources using Class II operating permits. The following is intended
+to provide a brief overview of air quality operating permits in Nebraska.
+
+Major vs Minor Source
+A source’s Major or Minor status is determined by its potential emissions, with the larger emitting
+sources being considered Major and the smaller emitting sources being considered Minor. These
+source types are defined in the Nebraska Administrative Code Title 129 – Nebraska Air Quality Regulations:
+• Major Source: as defined in Chapter 1 of Title 129, those sources that emit or have the potential to
+emit any air pollutant in quantities greater than 100 tons per year (tpy). Lower thresholds exist for
+lead (5 tpy) and for other hazardous air pollutants: 10 tpy of any single hazardous air pollutant
+(HAP) or 25 tpy of a combination of HAPs.
+• Minor Source: any source that is not defined as a major source in Chapter 1.
+
+Class I and Class II Permits
+A Class I permit is required to operate a major source. A Class I permit may also be required for any
+source subject to a standard or other requirement under Title 129, Chapters 12 or 13, if the subpart
+requires Clean Air Act - Title V permitting (Title 129, Chapter 6; 40 CFR 70.3(a) & (b)).
+A Class II permit is required for minor sources that have actual emissions more than 50 tpy of
+particulate matter greater than 10 microns (PM10), nitrogen oxides (NOx), sulfur oxides (SOx), volatile
+organic compounds (VOC), or carbon monoxide (CO); 5 tpy of any single hazardous air pollutant (HAP)
+or 12.5 tpy of a combination of HAPs; or 2.5 tpy of lead.
+
+Page 1 of 3
+
+Types of Operating Permits
+The Department provides sources with a choice of two types of operating permits: a general permit or
+an individual permit. A general permit has the same requirements for, and covers, all sources in that
+category, provided that the source meets the applicability criteria and applies for and obtains coverage.
+Once a general permit is issued, a source can be covered without going through the individual public
+notice process. General permits offer a streamlined process for eligible applicants and significant
+resource savings for the Department.
+An individual permit is issued to a specific source at a specific location and addresses the particular
+needs and issues at the source in question. Because it is “tailor made” for the source, developing an
+individual permit requires much more time and labor than for general permits. All individual permits
+also must go through a public notice (30-day comment period), which further increases the time
+required to issue the permit.
+
+Why Not Issue Only General Permits?
+You may be wondering why the Department doesn’t issue general permits for all sources, since it has
+advantages for both sources and the Department. Just like people, all sources are unique. Although
+certain types of sources can be grouped together for permitting purposes, most sources don’t fit a
+specific mold. For these sources, the Department issues individual permits.
+Because the Department establishes criteria for coverage under general permits and the requirements
+are uniform, an individual source doesn’t have very much flexibility in certain areas. Consequently,
+some sources prefer to have an individual permit instead of a general permit.
+In Nebraska permits-by-rule were previously available for asphalt plants and small animal incinerators.
+Any new businesses in these sectors can now apply for coverage under the appropriate general permit.
+Contact the Department for more information.
+
+Low Emitters
+Revisions to the operating permit regulations in September 1997 relieved a considerable number of
+sources from the permit requirements. This change shifted the focus of the permit program from
+Potential-to-Emit to actual emissions and created the Low Emitter Rule. In general, if a source can
+document actual emissions below the threshold levels established in the regulations, then it is not
+required to obtain an operating permit. The result has been a significant reduction in the number of
+sources that must be covered by a permit, with no identifiable degradation of air quality in Nebraska.
+See the Fact Sheet titled “Nebraska’s Low Emitter Rule,” document number 00-001, for more
+information.
+
+Frequently Asked Questions
+The Air Quality Program receives many questions regarding operating permits for air contaminant
+sources. Many of these questions arise from the uncertainty of who exactly is required to obtain one.
+Some of the most frequently asked questions are listed below, along with answers to help you
+determine if this applies to your source.
+Q. What is the difference between an operating permit and a construction permit?
+A. A construction permit must be obtained prior to constructing an air contaminant source and is
+valid for the life of the covered emission units. An operating permit must be applied for within 12
+months of startup of an air contaminant source, which is valid up to five (5) years for a Class I
+source and must be renewed. A Class II operating permit is valid for five (5) to ten (10) years and
+must be renewed or some Class II permits can be valid for the lifetime of the source. Operating
+
+Page 2 of 3
+
+permits contain all applicable requirements for all emission points at a facility. This includes
+incorporating conditions from any construction permits issued to that source.
+Q. How do I know if I need an operating permit?
+A. An operating permit is required for all sources that have actual emissions that are equal to or
+greater than the Class II thresholds defined in the “Major vs Minor Source” and “Class I and
+Class II Permits” sections above. The type of permit that is required is as follows:
+
+
+A Class I Operating Permit is required if actual emissions are at or above the Class I
+thresholds;
+• Either a Class I or Class II Permit is required if actual emissions are greater than the Class II
+thresholds, and potential emissions are greater than the Class I thresholds;
+• A Class II Operating Permit is required if potential and actual emissions are between the
+thresholds.
+A source has No Operating Permit Required Status if actual emissions are less than the Class II
+thresholds and potential emissions are less than the Class I thresholds.
+Q. What is an “emission unit”?
+A. An “emission unit” is any part or activity of a stationary source that emits or would have the
+potential to emit any regulated air pollutant.
+Q. What is the difference between potential emissions and actual emissions?
+A. Generally, potential emissions are the maximum emissions that would result from operating the
+facility at full capacity 24 hours a day, seven (7) days a week, 52 weeks a year taking into
+consideration federally enforceable requirements. Actual emissions are emissions produced by a
+facility as a result of actual operating times and actual operating conditions.
+Q. How do I determine if my facility’s emissions meet or exceed those requiring an operating
+permit?
+A. Generally, emissions need to be estimated using emission factors for the relevant equipment and
+pollutants. However, emissions data from testing on a similar unit may be acceptable. For
+estimations, the Department generally uses emission factors from EPA’s Compilation of Air
+Pollutants Emission Factors (AP-42) or from EPA’s Factor Information Retrieval Data System
+(FIRE). Most emission factors are based on fuel usage, throughput, or other quantifiable process
+information.
+Q. How do I obtain a permit application?
+A. An operating permit application can be obtained from the Department’s Air Operating Permit
+Program Publications webpage. You may also contact the Air Quality Program of the Nebraska
+Department of Water, Energy, and Environment by e-mail at DWEE.AirQuality@nebraska.gov,
+by calling (402) 471-2186, or by mail at 245 Fallbrook Blvd, Suite 100, Lincoln, NE 68521.
+Produced by: Nebraska Department of Water, Energy, and Environment, 245 Fallbrook, Suite 100, Lincoln, NE 68521;
+phone (402) 471-2186. To view this, and other information related to our agency, visit our web site at
+https://dwee.nebraska.gov
+
+Page 3 of 3
+
+

@@ -1,0 +1,153 @@
+Air Services 
+IBM WebSphere Portal 
+An official State of Ohio site. 
+Here’s how you know 
+Official websites use Ohio.gov
+An Ohio.gov website belongs to an official government organization in the State of Ohio.
+Secure .gov websites use HTTPS
+A lock or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Trusted applications are secured by OHID
+When you log in with OHID, your privacy, data, and personal information are protected by federal and state digital security standards.
+Close 
+learn-more 
+Skip to Navigation
+Skip to Main Content
+Ohio Department 
+Menu 
+Home 
+Stay Compliant 
+Get Involved 
+Monitor Pollution 
+Get Funding 
+Find Regulations 
+Divisions & Offices 
+Help Center 
+About Us 
+Search 
+top-help 
+odx-helplink-label 
+top-search 
+odx-searchbox-label 
+Type in your search keywords and hit enter to submit or escape to close 
+top-search 
+top-close 
+Air Services
+{}
+Web Content Viewer 
+Actions 
+Ohio EPA 
+Divisions & Offices 
+Air Pollution Control 
+About DAPC 
+Welcome
+Announcements
+Contacts
+About DAPC
+Programs
+Asbestos Abatement & Demolition
+Guides & Manuals
+E-Check
+Open Burning
+Permitting Resources
+Reports & Data
+Regulations
+State Emergency Response Commission
+State Implementation Plans
+Educational and How-to Resources
+Long Text Translations
+Ads
+Videos
+Air Services
+July 14, 2021 
+| 
+Agency 
+The Ohio EPA’s eBusiness Center is a secure portal for online business services. This portal is the entry point for the regulated community and consultants to electronically complete and file reports and permit applications. Authorized users are able to update their facility and contact information directly.
+eBusiness Center assistance - For questions about creating a user account or requesting your PIN, contact the Office of Information Technology Services Helpdesk by email ebizhelpdesk@epa.ohio.gov or phone at 877.372.2499 (1-877-EPA-BIZZ).
+For questions about Air Services (for instance, requesting access to factory data, Air Facility Profile, permit applications, etc.) please visit the Ohio EPA Resource Hub .
+Facts and Frequently Asked Questions
+What facilities are required to use this software?
+Title V and Synthetic Minor Title V facilities are required to use the eBusiness Center: Air Services for all emissions reporting, Title V Annual Compliance Certifications, all permit applications, and reports.
+What services are available in this software?
+Permit-to-Install (PTI) and Permit-to-Install and Operate (PTIO) applications
+Title V Annual Compliance Certifications
+Quarterly, Semi-Annual, Annual and other reporting requirements
+Emissions/Stack Testing
+CEMS/CERMS/COMs
+Scheduled Maintenance Bypass Request
+Title V Fee Emissions Reports (FER), Emissions Inventory Summary (EIS), and Emissions Statements (ES)
+Synthetic Minor Title V FER, EIS and ES
+Non-Title V FER and ES
+Title IV Acid Rain Applications
+Intent to Relocate forms for portable facilities
+Title V applications
+What kind of training is available?
+We want you to be able to use this software without needing in-depth training. We have developed a thorough online help resource. You can view videos of previous training sessions by reviewing Customer Support Center ID 1642 .
+Get Ready to Use Air Services
+Create Your User Account
+If you would like to use Air Services to view, prepare, or submit information for any facility, you must gain access to your facility data. In addition, if you are in a position where you have staff or a consultant you would like to delegate access in order for them to perform any of those functions; you must also set up your account and access privileges to do so. The first step is to go to https://ebiz.epa.ohio.gov and click the " OH|ID Step by Step Instructions (PDF) " link and set up and OH|ID account.
+Request Your PIN
+PIN stands for "Personal Identification Number" which is simply an electronic signature of the person who applied for the PIN; no one has it except you. You will need a Personal Identification Number (PIN) if you will be performing either of the following functions: (1) Submitting information to Ohio EPA; or (2) Managing access for the users that will need privileges to view, prepare or submit information for your facility. You can request and receive your PIN the same day via the eBusiness Center. This PIN will represent your legal signature and will not only be used for the Division of Air Pollution Control, but will be your PIN that you will use for any Division that you conducts business with via the eBusiness Center (i.e., eDMR).
+At least one person at a facility must have privileges that require a PIN before anyone can begin preparing or viewing information for the facility. Put simply, if you will only be preparing applications and reports prior to submittal, you do not need a PIN. However, you cannot gain access to any facility data, unless a Responsible Official with a PIN (or a person authorized to manage access to Air Services for the facility, see below) has access to the facility data and delegates access to you. For additional information on obtaining a PIN, please visit the eBiz help wizard .
+Request Access to Your Facility Data
+In order to protect your data we are requiring users to complete an online form to gain access to any facility data. To get into the Air Services software and access your account, you need to gain access to your facility data by either being delegated a role, or by signing up for the Certify/Submit/Manage Access (CSMA) role via the eBusiness Center. Ohio EPA grants the first CSMA role for each facility. That first person must meet certain regulatory criteria. Click on one of the following links to review the appropriate Air Services Role Decision Diagrams: Title V Facility or non-Title V and Synthetic Minor Facility. This should help you determine which path you should take to establish access to your facility information. Once the request has been granted it will indicate such in the eBusiness Center and an e-mail notification will be sent to the account holder.
+There are two levels of facility data access currently available:
+Certify/Submit/Manage Access - A user granted this access will have the ability to edit information and submit it to Ohio EPA, DAPC. In addition, this user will be able to delegate access at any of the levels to other users. For example, a company president that does not want to perform any preparation work in the eBusiness Center: Air Services, can delegate this level of access to another user.
+Preparer/Reviewer - User has the capability to add or update data and save it in Air Services, but not submit to Ohio EPA. This level of access must be delegated, as discussed below.
+The process by which eBusiness Center users are assigned the privileges of Certify/Submit/Manage Access Preparer/Reviewer is called Delegation Management. Once the Responsible Official obtains access to your facility data, he/she can delegate data access privileges via the simple to use eBusiness Center Delegation Management features. The person(s) to whom you are delegating must already have established an account in the eBusiness Center.
+Useful Reference
+Help within Air Services - click the word "Help" in the top right corner of any Air Services screen to get context specific information.
+Searchable topics and fast responses to new questions - DAPC heavily relies on the Agency "Answer Place" to post topics, videos, and links to guidance on all information related to Air Services. If you can not find an answer, simply ask a new question and get a response within one business day.
+Phone assistance - DAPC Central Office staff along with your District Office or Local Air Agency contacts are ready and waiting to assist you. Contact Safaa El-Oraby , 614.644.3571 .
+Share this
+odx-more-information 
+Big changes coming to Air Services in 2025! Check out the new look by watching this brief video: 
+Creating and Submitting an Emissions Report 
+Creating and Submitting a Permit Application 
+Expand All Sections 
+Web Content Viewer 
+Actions 
+Get help with permitting and environmental requirements
+Visit the Resource Hub - FAQs, Ask an Expert, and more.
+Go Now 
+Who We Are
+About Ohio EPA
+Divisions & Offices
+Administrative Leadership
+Districts
+What We Do
+Compliance
+Permits, Licenses & Certification
+Maps & Advisories
+Education and How-to
+What's New
+Current Topics
+Proposed Rules Hub
+Events
+News
+Connect With Us
+Media Resources
+Public Records
+Employment
+Contact Information
+Public Notices and Weekly Review
+Ohio Environmental Protection Agency | 50 W. Town St., Suite 700 Columbus, OH 43215 | Call: 614-644-3020 
+Powered by 
+Privacy Notice and Policies
+Checkbook
+Accessibility
+instagram icon 
+x icon 
+youtube icon 
+linkedin icon 
+facebook icon 
+Subscribe to Updates icon 
+top-menu 
+top-close 
+top-help 
+top-search 
+odx-searchbox-label 
+Submit your search 
+Close 
+Complementary Content 
+${title} ${badge}
+${loading}

@@ -1,0 +1,520 @@
+Air, Energy & Mining Division
+
+
+
+
+
+
+
+Instructions for Registering, Updating, or Deregistering an Oil or Gas Well Facility
+Prepared by:
+
+Montana Department of Environmental Quality
+Air Quality Bureau
+Field Services Section
+
+
+
+
+
+
+
+
+
+
+
+Updated: May 2024
+Table of Contents
+
+ TOC \h \z \t "Heading 1,2,Heading 2,3,Heading 3,4,Heading 4,5,Heading 5,6,Subtitle,1" 
+Introduction PAGEREF _Toc224632557 \h 1
+ 
+ Overview of Subchapter 17 PAGEREF _Toc224632558 \h 1
+ Registration Section PAGEREF _Toc224632559 \h 1
+
+Registering an Oil or Gas Well Facility PAGEREF _Toc224632560 \h 2
+ 
+ Registration Submittal Process PAGEREF _Toc224632561 \h 2
+ Step 1 – General Site Information PAGEREF _Toc224632562 \h 3
+ Step 2 – Facility Process Description PAGEREF _Toc224632563 \h 4
+ Step 3 – Emissions Unit Equipment Identification and Information PAGEREF _Toc224632564 \h 5
+ Step 4 – Facility Air Pollution Control Unit(s) Identification and Information PAGEREF _Toc224632565 \h 6
+ Step 5 – Facility Emissions Summary PAGEREF _Toc224632566 \h 6
+ Step 6 – Certification of Accuracy and Completeness PAGEREF _Toc224632567 \h 6
+ Step 7 – Registration Fee PAGEREF _Toc224632568 \h 7
+ Step 8 – Submittal to DEQ PAGEREF _Toc224632569 \h 7
+ Registration Acknowledgement Process PAGEREF _Toc224632570 \h 7
+
+Updating an Oil or Gas Well Facility Registration PAGEREF _Toc224632571 \h 8
+ 
+ Registration Update Submittal Process PAGEREF _Toc224632572 \h 8
+ Step 1 – Summary of Registration Update PAGEREF _Toc224632573 \h 8
+ Step 2 – Certification of Accuracy and Completeness PAGEREF _Toc224632574 \h 9
+ Step 3 – Registration Fee PAGEREF _Toc224632575 \h 9
+ Step 4 – Submittal to DEQ PAGEREF _Toc224632576 \h 9
+ Updated Registration Acknowledgement Process PAGEREF _Toc224632577 \h 9
+
+Deregistering an Oil or Gas Well Facility PAGEREF _Toc224632578 \h 10
+ 
+ Deregistration Submittal Process PAGEREF _Toc224632579 \h 10
+ Step 1 – Justification of Deregistration PAGEREF _Toc224632580 \h 10
+ Step 2 – Deregistration Fee PAGEREF _Toc224632581 \h 10
+ Step 3 – Submittal to DEQ PAGEREF _Toc224632582 \h 10
+ Deregistration Acknowledgement Process PAGEREF _Toc224632583 \h 10
+ 
+Appendix A – Examples of Emission Calculation Methods PAGEREF _Toc224632584 \h 12
+
+Introduction PAGEREF _Toc224632585 \h 13
+
+Emission Factors PAGEREF _Toc224632586 \h 13
+
+Emitting Unit Emission Estimations PAGEREF _Toc224632587 \h 13
+ Internal Combustion Engines PAGEREF _Toc224632588 \h 14
+ Natural Gas Burners PAGEREF _Toc224632589 \h 15
+ Produced Oil Storage Tanks PAGEREF _Toc224632590 \h 16
+ E&P TANK v2.0 PAGEREF _Toc224632591 \h 17
+ Site Process and Analytical Data PAGEREF _Toc224632592 \h 17
+ Produced Water Storage Tanks PAGEREF _Toc224632593 \h 18
+ Smokeless Combustion Devices (Flares) PAGEREF _Toc224632594 \h 19
+ Truck Loading Losses PAGEREF _Toc224632595 \h 20
+ Fugitive Equipment Leaks PAGEREF _Toc224632596 \h 22
+ Fugitive Dust Sources PAGEREF _Toc224632597 \h 23
+
+ List of Acronyms
+ARM Administrative Rules of Montana
+BACT best available control technology
+bbl barrel
+BER Board of Environmental Review
+bpd barrels per day
+Btu British thermal unit
+CFR Code of Federal Regulations
+CHIEF Clearinghouse for Inventories & Emissions Factors
+CO carbon monoxide
+DEQ Department of Environmental Quality
+DRE destruction and reduction efficiency
+EFIG Emission Factor and Inventory Group
+EPA U. S. Environmental Protection Agency
+FC fuel consumption
+gal gallon
+H2S hydrogen sulfide
+HAP hazardous air pollutants
+hp horse power
+hr hour
+lb pound MAQP Montana Air Quality Permit
+MBtu thousand British thermal units
+MCA Montana Code Annotated
+MMBtu million British thermal units
+Mscf thousand standard cubic feet
+MMscf million standard cubic feet
+NESHAP National Emission Standards for Hazardous Air Pollutants
+NOx nitrogen oxides
+NSCR non-selective catalytic reduction
+NSPS Standards of Performance for New Stationary Sources
+OAQPS Office of Air Quality Planning and Standards
+PM10 particulate matter with diameter 10-micrometers or less
+PTE potential to emit
+RVP Reid Vapor Pressure
+scf standard cubic feet
+SIC Standard Industrial Classification
+SO2 sulfur dioxide
+TOC total organic compounds
+tpy tons per year
+VMT vehicle miles traveled
+VOC volatile organic compounds
+VRU vapor recovery unit
+yr year
+
+Introduction
+This guidance document was developed by the Montana Department of Environmental Quality -Air Quality Bureau (DEQ) to assist industry in the registration, updating, and/or deregistration of an oil or gas well facility in accordance with the regulatory requirements described in Administrative Rules of Montana (ARM) Title 17, Chapter 8, Subchapter 17 – Registration of Air Contaminant Sources. The information provided within this document is not all inclusive to the operation of an oil or gas well facility. Other state and federal statutes and regulations including, but not limited to, National Emission Standards for Hazardous Air Pollutants (NESHAP) and Standards of Performance for New Stationary Sources (NSPS) may have additional requirements for oil or gas well facilities.
+Overview of Subchapter 17
+ARM Title 17, Chapter 8, Subchapter 17 – Registration of Air Contaminant Sources (Subchapter 17) allows oil or gas well facilities to register with DEQ in lieu of obtaining a Montana Air Quality Permit (MAQP). Subchapter 17 does not preclude an owner or operator of an oil or gas well facility from obtaining and/or maintaining an MAQP. Subchapter 17 provides industry with more operational flexibility than provided with an MAQP and reduces the administrative burden for both industry and DEQ, while ensuring that the appropriate operating, emission control, inspection/repair, and recordkeeping/reporting requirements are maintained.
+Subchapter 17 can be found online at: https://rules.mt.gov or by clicking HERE
+Please note that this link may not be the most current, official version of Subchapter 17 as the ARM may be periodically updated/revised and readopted. Although every effort is made to ensure that the online rules are the most current versions available, a lapse in time may occur between adoption and the electronic posting of the new rules. For an official version of the ARM please contact the Field Services Section Office.
+Registration Section
+Registration of oil and gas facilities is overseen by the Filed Services Section, and they can be contacted at:
+ Montana Department of Environmental Quality
+ Field Services Section
+Air Quality Bureau
+1520 E. Sixth Avenue
+P.O. Box 200901
+Helena, MT 59620-0901
+Phone: (406) 247-4446
+ Email: deq-armb-admin@mt.gov
+ Registering an Oil or Gas Well Facility
+Pursuant to ARM 17.8.1701, a registration eligible facility must meet the definition of an oil or gas well facility as defined in 75-2-103(13), Montana Code Annotated (MCA), and be subject to the requirements of ARM 17.8.743. A typical oil or gas well facility includes an oil or natural gas producing well, or group of wells, and the equipment associated with producing, separating, treating, or storing the oil, natural gas, or other liquids from the well. A schematic of a typical oil or gas well facility is shown in Figure 1.
+
+
+Figure 1. General Schematic of an Oil or Gas Well Facility
+In general, an oil or gas well facility is eligible for registration if the facility commenced construction after November 23, 1968, and has the potential to emit (PTE) greater than 25-tons per year (tpy) of any regulated airborne pollutant is eligible for registration. Oil or gas well facilities that commenced construction before November 23, 1968 do not require an MAQP or registration unless the facility is modified after that date and the modification increases the PTE by more than 25-tpy of any regulated, airborne pollutant. Please note that PTE is based on the maximum operational capacity of the facility to emit a pollutant as defined in ARM 17.8.1701(2). The owner or operator of a registration eligible oil or gas well facility must register the facility with DEQ within 60-days after the initial well completion date of the facility. As per ARM 17.8.1703(7), the owner or operator of a registration eligible facility for which a valid MAQP has been issued may request to revoke the MAQP and register the facility instead. However, an oil or gas well facility subject to the requirements of ARM Title 17, Chapter 8, Subchapter 12, Operating Permit Program, is not eligible for registration.
+Registration Submittal Process
+The Field Services Section has developed a Montana Air Quality Registration Form for Oil or Gas Well Facilities (Registration Form) to assist with registering an oil or gas well facility. The Registration Form can be found online at:
+https://deq.mt.gov/air/assistance 
+Select Forms, Applications, Instructions, and Manuals. 
+Scroll down to Oil and Gas. 
+Select Oil and Gas Registration Form. 
+On the first page of the Registration Form is a box marked “New Facility.” This box should be checked when registering a new oil or gas well facility. The following is a step by step process to fill out a Registration Form.
+Step 1 – General Site Information
+The owner/operator of a registration eligible facility must provide general information about the oil or gas well facility (ARM 17.8.1703). The following is a list of general information required on the Registration Form.
+Company Name
+Name of the company that owns/operates the facility
+Facility Name
+Name that the facility will be referred to by the owner/operator and DEQ
+Mailing Address
+
+Mailing address that DEQ correspondence regarding the facility should be sent
+Owner’s Name 
+
+Name of the company’s owner or name of a company representative responsible for the facility
+Owner’s Telephone
+
+Telephone number for the person named as Owner; If available, also provide an e-mail address
+Contact Person
+Name of person, if different from Owner that DEQ should contact regarding the facility; “Same As Owner” should be noted here if the owner is the contact person.
+Contact Person’s Telephone
+
+Telephone number for the person named as Contact; If available, also provide an e-mail address
+Facility Location
+
+A latitude and longitude representative of the facility location; For example, a representative latitude and longitude for a facility with a single oil or gas well could be the surveyed well location
+Legal description
+
+County, township, range, section, and quarter-quarter that the facility resides in
+SIC Code
+
+Applicable Standard Industrial Classification (SIC) Codes(s) for the facility (e.g., 1311 for Crude Petroleum or Natural Gas) http://www.osha.gov/pls/imis/sicsearch.html 
+SIC Description
+
+Standard Industrial Classification (SIC) Description(s) corresponding to the entered SIC Code(s) (e.g., Crude Petroleum or Natural Gas for 1311)
+http://www.osha.gov/pls/imis/sicsearch.html
+Facility/Well Completion Date
+The date when the first oil is produced through wellhead equipment into lease tanks from the ultimate producing interval after casing has been run.
+Gas Production
+Maximum volume, in units of million standard cubic feet per day (Mscf/day), of gas produced daily not expected to be exceeded during normal operation; For new facilities this rate should be based on the initial, maximum production rate of the facility 
+Oil Production Rate
+Maximum volume, in units of barrels per day (bbl/day or bpd), of oil produced daily not expected to be exceeded during normal operation; For new facilities this rate should be based on the initial, maximum production rate of the facility
+Water Production Rate
+Maximum volume, in units of barrels per day (bbl/day or bpd), of water produced daily not expected to be exceeded during normal operation; For new facilities this rate should be based on the initial production rate of the facility
+Pursuant to ARM 17.8.1701(2), PTE is the maximum capacity of a facility or emitting unit, within physical and operational design, to emit a pollutant. Any physical or operational limitation on the capacity of the facility or emitting unit to emit a pollutant, including air pollution control equipment and restrictions on hours of operation or on the type or amount of material combusted, stored, or processed, is treated as part of its design only if the limitation or the effect it would have on emissions is federally enforceable. Secondary emissions are not considered in determining potential to emit.
+The PTE of an oil or gas well facility must be based on the maximum daily operational capacity that is not expected to be exceeded during normal operation. PTE is used to determine compliance with registration and/or emission control requirements. If oil and/or gas production exceeds the rate at which the facility was registered, the facility may be out of compliance with registration and/or emission control requirements.
+Step 2 – Facility Process Description
+The owner/operator of a registration eligible facility must provide a written description of the facility and facility process (ARM 17.8.1703). For example, narratives for the site and facility description and project summary should include answers to the following:
+What is the primary operating equipment?
+What is the process flow?
+How many oil or gas wells supply the facility? Identify (e.g., well name, API number, etc.) each well? What field and formation(s) are the well(s) in?
+Is the produced gas sold (i.e., routed to a sales pipeline)?
+What pollution control equipment is used?
+Is hydrogen sulfide (H2S) gas present? If yes, provide an air quality analysis demonstrating that Montana ambient air quality standards for H2S are not exceeded.
+How were the oil and gas production rates determined?
+Are oil and/or gas analytical data provided?
+Are the analytical data site-specific? If not, what is the justification for using the data?
+When, where, and how were the analytical data acquired?
+A facility site map showing the layout of the facility must be included with the Registration Form. Although not required, DEQ would appreciate a map showing the facility’s location in relation to the surrounding area (e.g., road map, topographic map, and/or aerial map).
+Step 3 – Emissions Unit Equipment Identification and Information
+Common emitting units at typical oil or gas well facilities include, but are not limited to, the following:
+Internal combustion engines;
+Natural gas burners;
+Produced oil storage tanks;
+Produced water storage tanks;
+Smokeless combustion devices;
+Fugitive equipment leaks; and
+Fugitive dust sources.
+ARM 17.8.1703 requires that the following information be supplied for each emitting unit, as applicable:
+Manufacturer’s Name;
+Model;
+Unit Type;
+Size;
+Date of Manufacture;
+Date of Installation; and 
+Maximum Rated Design Capacity or Throughput.
+DEQ understands that some information may not be applicable to certain emitting units. The Date of Manufacture must be provided for all stationary spark ignition internal combustion engines and reciprocating internal combustion engines in order to determine the applicability of federal rules including, but not limited to:
+40 Code of Federal Regulations (CFR) 60 Subpart JJJJ-Standards of Performance for Stationary Spark Ignition Internal Combustion Engines; and
+40 CFR 63 Subpart ZZZZ-National Emission Standards for Hazardous Air Pollutants for Reciprocating Internal Combustion Engines.
+Step 4 – Facility Air Pollution Control Unit(s) Identification and Information
+The owner/operator of a registration eligible facility must list each piece of air pollution control equipment (ARM 17.8.1703). Common air pollution control units include, but are not limited to, the following:
+Smokeless combustion flare;
+Vapor recovery unit (VRU);
+Scrubbers;
+Non-selective catalytic reduction (NSCR) unit; and
+Oxidation catalyst.
+The following information should be provided for each piece of air pollution control equipment:
+Manufacturer’s Name;
+Model;
+Unit Type;
+Size;
+Date of Manufacture;
+Date of Installation;
+Emitting Unit Controlled;
+Estimated Control Efficiency; and
+Estimated Cost of Pollution Control Equipment.
+Step 5 – Facility Emissions Summary
+Uncontrolled and controlled potential emissions from each emission source, identified in Step 3, must be estimated and included in the supplied tables. Emissions should be reported in units of tpy.
+Examples of emission calculation methods are provided in Appendix A. Calculations, including equations and factors, manufacturer data, oil and/or gas analytical data, and model inputs and outputs must be provided as attachments to the Registration Form to support the emissions summary.
+Step 6 – Certification of Accuracy and Completeness
+Each Registration Form must be signed and dated by a company representative to certify accuracy and completeness of the information provided. An original signature or electronic signature, if submitted via electronic mail (email), is required on each Registration Form submitted to DEQ.
+Step 7 – Registration Fee
+Pursuant to ARM 17.8.1704, the registration fee required by ARM 17.8.504 must be submitted to DEQ with each registration submitted. The registration fee is currently $500.00 per facility, and must be paid in its entirety at the time the Registration Form is submitted to DEQ. After the registration year, an annual operating fee of $850.00 is required by ARM 17.8.505 and is assessed on March 1 of the calendar year. If registering multiple facilities, a single check may be submitted. Checks should be addressed to the Montana DEQ - Air Quality Bureau. Online payments can be made, please reach out to DEQfor further instructions if online payment is required.
+A new registration is incomplete until the registration fee is paid. 
+Step 8 – Submittal to DEQ
+Registration submittals (i.e., Registration Forms, fees, maps, calculations, analytical data, model inputs and outputs, etc.) can be submitted to DEQ by mail or e-mail. The submitted Registration Form(s) may be either the original signed hard copy or a signed electronic copy. Registration forms can be mailed to:
+ Montana Department of Environmental Quality
+ Air Quality Bureau
+ Field Services Section
+P.O. Box 200901
+Helena, MT 59620-0901
+Or submitted via email to deqair@mt.gov 
+The appropriate registration fee (see Step 7) should be included with the paper copy or mailed at the same time the electronic version is sent.
+Registration Acknowledgement Process
+A registration eligible facility is considered registered upon DEQ’s receipt of the completed Registration Form and appropriate fee. Within 30-days after receiving the registration materials, DEQ will either acknowledge the registration of the facility or request additional information. If DEQ determines that the registration is incomplete, a letter detailing the registration deficiency(s) will be sent to the facility owner/operator. The request for additional information does not necessarily delay registration of the facility but may be necessary to determine applicable requirements. 
+ Updating an Oil or Gas Well Facility Registration
+ARM 17.8.1703 requires the owner or operator of a registered facility to notify DEQ in writing of changes to the facility’s registration information. DEQ must be notified of any changes in ownership or any changes that may increase the facility’s PTE or alter the emission control requirements. ARM 17.8.1703 requires that the owner/operator submit the facility registration update within 15 days after the change(s).
+Registration Update Submittal Process
+The Registration Form or the Change of Ownership Form must be used to update an oil or gas well facility registration, when appropriate. The Registration Form and the Change of Ownership Form can be found online at:
+https://deq.mt.gov/air/assistance
+Select Forms, applications, Instructions and Manuals
+Scroll down to Oil & Gas
+Select Oil & Gas Change of Ownership Form
+
+On the first page of the Registration Form is a box marked “Update to Registered Facility.” This box should be checked when updating a registered oil or gas well facility. A change in the name of the operating company can be addressed using the Change of Ownership Form. The following summarizes the process to fill out the Change in Ownership Form and update the Registration Form.
+Step 1 – Summary of Registration Update
+For a change in ownership, the owner/operator should complete the Change of Ownership Form. Information requested on the Change of Ownership Form includes:
+Facility name and registration number;
+County in which facility is located; 
+Previous owner name and contact information;
+New owner name and contact information; and
+Date of ownership change.
+For a change in ownership of multiple oil or gas well facilities, one form may be completed as long as a list or table that identifies each applicable facility name, registration number, and county is attached.
+For all other updates, the Registration Form should be used. ARM 17.8.1703 requires the owner/operator follow Steps 1-5 of the Registration Process (see above) to modify the necessary information concerning the changes made to the oil or gas well facility. Changes should be clearly described in the general site and process descriptions. New or modified emitting units and/or air pollution control equipment should be listed and the requested information provided. 
+If the facility change(s) affect the PTE, the total uncontrolled and controlled potential emissions must be re-calculated and included in the supplied tables. Examples of emission calculations are provided in Appendix A. Calculations, including equations and emission factors; manufacturer’s data; oil and/or gas analytical data; and model inputs and outputs, should be provided as attachments to the Registration Form to support the emissions summary.
+Step 2 – Certification of Accuracy and Completeness
+Registration Forms and Change of Ownership Form must be signed and dated by a company representative to certify accuracy and completeness of the information provided. An original signature or electronic signature, if submitted via email, is required on each registration update form submitted to DEQ.
+Step 3 – Registration Fee
+Pursuant to ARM 17.8.1704, no fee is required for submitting updates to registered facilities.
+Step 4 – Submittal to DEQ
+Registration update submittals (i.e., Registration Forms, Change of Ownership Form, maps, calculations, analytical data, model inputs and outputs, etc.) can be submitted to DEQ by mail or e-mail. The submitted Registration Form(s) may be either the original signed hard copy or a signed electronic copy. Registration forms can be submitted to DEQ by mail or e-mail in accordance with Step 8 of the Registration Process.
+Updated Registration Acknowledgement Process
+Within 30-days after receiving the registration update, DEQ will acknowledge the receipt and completeness of the registration update or request additional information. If DEQ determines that the registration update is incomplete, a letter detailing the deficiency(s) will be sent to the facility owner/operator. The acknowledgement letter will provide the incremented registration number (e.g., change from 1234-00 to 1234-01).
+ Deregistering an Oil or Gas Well Facility
+The owner/operator of a registered oil or gas well facility may request to deregister the facility if it can be clearly demonstrated that the PTE of the facility is less 25-tpy of any airborne pollutant regulated by ARM 17.8. Deregistration requests must be received and acknowledged by DEQ prior to March 1 (see ARM 17.8.505(2)) each year in order to avoid paying the annual operation fees for that year. DEQ recommends submitting deregistration requests no later than February 1 to allow DEQ enough time to review the requests. Facilities with incomplete deregistration requests and/or requiring additional information that are not deregistered prior to March 1 are subject to the annual operating fees for that year. 
+Deregistration Submittal Process
+The owner/operator must provide, in writing (hard copy or email), the intent to deregister along with supporting information (e.g., PTE calculations, analytical data, model inputs and outputs). Currently, DEQ has no specific form(s) for submitting an oil or gas well facility deregistration request. However, companies have found it helpful to use the Registration Form and request deregistration in a cover letter. A step by step process to assist in the deregistration of a facility is provided below.
+Step 1 – Justification of Deregistration
+The owner/operator must provide justification for deregistering an oil or gas well facility. The justification should include the facility name and registration number as well as the basis for deregistering (e.g., production has sufficiently decreased or ceased, facility has been combined with another registered facility, etc.). DEQ requests that the total uncontrolled potential emissions for every emitting unit be reassessed and included in the justification. Calculations, including equations and emission factors; manufacturer data; oil and/or gas analytical data; and model inputs and outputs, should also be included with the deregistration request. Site-specific oil and gas analytical data may be required to deregister a facility. Examples of emission calculations are provided in Appendix A.
+Step 2 – Deregistration Fee
+No fee is required for submitting an oil or gas well facility deregistration request.
+Step 3 – Submittal to DEQ
+Deregistration submittals (i.e., cover letter, calculations, analytical data, model inputs and outputs, etc.) can be submitted to DEQ by mail or e-mail. The submitted deregistration request(s) may be either the original signed hard copy or a signed electronic copy. Deregistration requests can be submitted to DEQ by mail or e-mail in accordance with Step 8 of the Registration Process.
+Deregistration Acknowledgement Process
+DEQ’s goal is to respond to deregistration requests within 30 days of receiving the request. DEQ will either acknowledge the receipt and completeness of the deregistration request or request additional information. If DEQ determines that the deregistration request is incomplete, a letter detailing the deficiency(s) will be sent to the facility owner/operator.
+Please note that if changes are made to a deregistered oil or gas well facility, DEQ recommends the owner/operator re-evaluate the PTE. If the changes result in the facility’s PTE exceeding 25-tpy, the owner/operator must re-register the facility.
+ 
+ 
+Appendix A – Examples of Emission Calculation Methods
+ Introduction
+To assist with the preparation of a Montana Air Quality Registration Form, DEQ has provided the following information and examples on estimating emissions from common emitting units found at oil or gas well facilities. Emission estimates are included for the following equipment:
+Internal Combustion Engines;
+Natural Gas Burners;
+Produced Oil Storage Tanks;
+Produced Water Storage Tanks;
+Smokeless Combustion Devices;
+Truck Loading Losses ;
+Fugitive Equipment Leaks; and
+Fugitive Dust Sources.
+Please note that the methods and factors in this appendix are provided to assist the owner/operator with preparing a Registration Form. The methods and emission factors should not be considered final. It is the responsibility of the Registration Form preparer to ensure that the method and/or emission factor(s) used is appropriate and adequately estimates site specific emissions. Various aspects such as site variability, equipment variability, and available information will influence the preparation of the Registration Form. Discussions and/or questions should be directed to the Field Services Section Section’s staff prior to submittal of the Registration Form.
+Emission Factors
+Emission factors relate the quantity of a pollutant released to an activity or production associated with the release of the pollutant. Emission factors for an emitting unit can be obtained from the manufacturer. However, DEQ may require a guarantee from the manufacturer that the emission factors are accurate.
+Emission factors can also be obtained from state/federal agency references. The U. S. Environmental Protection Agency’s (EPA) Office of Air Quality Planning and Standards (OAQPS) AP-42 provides emission factors for a number of equipment and processes. The AP-42 is maintained by the Emission Factor and Inventory Group (EFIG) and can be found online at the EPA’s Clearinghouse for Inventories & Emissions Factors (CHIEF):
+https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors-stationary-sources
+The EPA’s CHIEF website (https://www.epa.gov/chief) contains information on and links for emissions inventories, emissions factors, emissions modeling, and emissions monitoring.
+ Emitting Unit Emission Estimations
+The general equation for emission estimation is:
+ Equation 1
+ 
+where:
+EX = emissions for pollutant X,
+Q = activity or production rate,
+EFX = emission factor for pollutant X, and
+DRE = destruction and removal efficiency, %.
+Emission estimates are used to determine the need for registering an oil or gas well facility and control requirements for registration eligible facilities. Source-specific emission tests or continuous emissions monitoring provide real emissions data. However, these methods are not always available or practicable or may not represent the actual emissions over time. As a result, emission estimates are often calculated using emission factors.
+Internal Combustion Engines
+Emission estimates for internal combustion engines are typically calculated using either manufacturer guaranteed emission factors or AP-42 emission factors. The AP-42 factors can be found at https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-3-stationary-0 in Section 3.2 Natural Gas-fired Reciprocating Engines. Depending on the available information, internal combustion engine emissions can be estimated using the following equation:
+ Equation 2
+where:
+EX = emissions for pollutant X (tpy);
+EFX = emission factor for pollutant X (lb/hp-hr or lb/MMBtu);
+ER = engine rating (hp or MMBtu/hr);
+HO = annual hours of operation (hr/yr);
+DRE = destruction and removal efficiency (%); and
+1-ton = 2000-lb.
+Potential emissions must be calculated based on 8760-hours per year (hrs/yr) and using the manufacturer's guaranteed maximum rated design capacity (horsepower). The horsepower (hp) rating should not be adjusted for elevation and temperature. For uncontrolled emissions, the destruction and removal efficiency (DRE) is zero. Also, if the heat content of the fuel is not available, a value of 1020-Btu/scf may be assumed.
+An example using the above factors and equations for estimating emissions from an internal combustion engine is provided below. 
+Example: An oil or gas well facility uses a 60-hp natural gas-fired engine to operate the pump jack. What are the uncontrolled carbon monoxide (CO) emissions?
+Answer: From the manufacture, a guaranteed CO emission factor of 0.00419-lb/hp-hr was obtained. The maximum horsepower rating of the engine is 60-hp. The resulting CO emissions are:
+
+
+Natural Gas Burners
+Emission estimates for natural gas burners, such as those found on heater/treaters or some flares, are typically calculated using AP-42 emission factors. The AP-42 factors can be found at https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-1-external-0 in Section 1.4.- Natural Gas Combustion.
+Natural gas burner emissions can be estimated using the following equation:
+ Equation 3
+where:
+EX = emissions for pollutant X (tpy);
+EFX = emission factor for pollutant X (lb/MMscf);
+BR = burner rating (MMBtu/hr);
+BEff = burner efficiency (%);
+HO = annual hours of operation (hr/yr);
+HVAvg = average gas heating value (Btu/scf);
+HVProd = produced gas heating value (Btu/scf);
+DRE = destruction and removal efficiency (%);
+1-ton = 2000-lb;
+ 1-MMBtu = 106-Btu; and
+ 1-MMscf = 106-scf.
+
+Potential emissions must be calculated based on 8760-hrs/yr and using the manufacturer's maximum rated design capacity of the burner. If the burner efficiency in not known, a value no greater than 80% may be assumed. For uncontrolled emissions, the DRE is zero. An average gas heating value of 1020-Btu/scf may be assumed.
+An example using the above factors and equations for estimating emissions from a natural gas burner is provided below. 
+Example: A heater/treater at an oil or gas well facility has a burner with a rating of 500,000-Btu/hr. The burner operates at 80% efficiency. Produced gas is used to fuel the burner. Analysis indicates the produced gas has a heating value of 1439-Btu/scf. What are the uncontrolled nitrogen oxide (NOX) emissions?
+Answer: From AP-42, natural gas burners rated less than 1-MMBtu/hr but greater than 0.3-MMBtu/hr have a NOX emission factor of 100-lb/MMscf. The resulting NOX emissions are:
+ 
+Produced Oil Storage Tanks
+Emissions from storage tanks that store crude oil (or other process condensate) include flashing losses, working losses, and breathing losses. Flashing losses occur when the vapors are released from the crude oil (or other hydrocarbon liquid) in the storage tanks as it is transferred from a higher pressure vessel (separator) to a lower pressure vessel (storage tank). Working losses are those losses caused as the tank is filled and emptied; and, breathing losses occur from the daily changes in temperature and barometric pressure. Flashing losses are normally greater than the working and breathing vapor losses.
+A variety of software packages and other empirical methods to estimate tank flashing losses, working losses, and breathing losses are available. Common software packages used in estimating tank emissions include:
+E&P TANK v2.0;
+TANKS 4.0;
+HYSYS (previously known as HYSIM);
+PROSIM;
+K-FLASH; and
+TANKCalc.
+Empirical methods used for estimating storage tank emissions include:
+Vasquez-Beggs Correlation; and
+AP-42 Chapter 7.
+In general, simulation models accepted by DEQ use Peng-Robinson or S-R-K methods based on widely acknowledged principals of behavior for hydrocarbon vapors and liquids. The Registration Form preparer should be aware of limitations a method may have. For example, the empirical Vasquez-Beggs correlation method can provide a rough estimate of tank vapors for certain conditions and crude oil type. However, this method appears to be more appropriate for heavier crude oils when the analysis of the extended hydrocarbons may be difficult. If the facility emissions are close to any regulatory or emission control requirements, a more precise method should be used to more accurately estimate tank emissions. Any alternative methods for determining emissions will be reviewed by DEQ on a case-by-case basis. 
+The oil production rate used to calculate potential oil tank emissions should be a daily maximum production rate not expected to be exceeded during normal operation. This helps ensure that the site is in compliance with registration and/or emission control requirements. Otherwise, if the production rate exceeds the registered production rate and adequate controls are not in place, the facility is not in compliance with ARM Title 17, Chapter 8, Subchapter 17. 
+If tank emissions require controls, a destruction and removal efficiency (DRE) of at least 95% is required, per ARM 17.8.1711(1). If it can be justified, a higher DRE may be used. For instance, if a vapor recovery system is installed, a higher destruction and removal efficiency may be appropriate.
+E&P TANK v2.0
+The E&P TANK v2.0 model was commonly utilized by applicants to register oil or gas well facilities. However, support for E&P TANK v2.0 has been discontinued, and AP-42 Chapter 7 is currently the recommended method for estimating emissions from storage tanks. EPA is currently in Beta testing for Tanks 5.0 which may provide a new method of emission estimations in the near future. 
+Site Process and Analytical Data
+In order to obtain accurate emission estimates from the use of computer modeling or empirical methods, site- and process-specific information may be needed. For example, using E&P TANK v2.0 with the RVP Distillation Column Method and low-pressure oil data requires a site-specific extended hydrocarbon analysis of the low-pressure oil, Reid Vapor Pressure (RVP) and API gravity of the sales oil, separator pressure and temperature, and oil production rate.
+Any sample should be collected and analyzed using methods consistent with the requirements of the selected method/model to ensure sample quality and integrity. Low pressure oil samples must be collected by experienced personnel using a piston cylinder type method during normal operating conditions. Low pressure oil samples collected using the water displacement method is not recommended by DEQ. Recommended sampling and analytical methods are provided below:
+
+Gas Processors Association (GPA) Method 2174: Obtaining Liquid Hydrocarbon Samples for Analysis by Gas Chromatography (using only the Floating Piston Cylinder Method);
+
+American Society of Testing and Methods (ASTM) Method D6730: Standard Test Method for Determination of Individual Components in Spark Ignition Engine Fuels by 100–Metre Capillary (with Precolumn) High-Resolution Gas Chromatography; and
+
+GPA Method 2186: Method for the Extended Analysis of Hydrocarbon Liquid Mixtures Containing Nitrogen and Carbon Dioxide by Temperature Programmed Gas Chromatography.
+
+Sample collection and analysis methods other than those listed above will be reviewed by DEQ on a case-by-case basis. For any additional questions, please contact the Field Services Section at (406) 782-2689.
+The use of default values offered by the software or non site-specific data is discouraged unless the registration form preparer can provide adequate justification (e.g., analytical data was taken from a nearby well producing from the same geologic formation, etc.). Default values or non site-specific data may not be acceptable when evaluating/reviewing facility emission control requirements, emission inventories, or deregistration requests.
+Produced Water Storage Tanks
+Emissions from storage tanks containing water produced during oil production are typically much less than emissions from the oil storage tanks. Emissions can be estimated using the methods described in AP-42 Chapter 7: Liquid Storage Tanks (see https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-7-liquid-storage-0). However, this requires the Registration Form preparer to have sufficient information on the physical and chemical properties of the mixture (i.e., water and petroleum liquids) in the water tanks.
+Since analytical data for the water and petroleum liquids mixture are often not available, DEQ has determined an acceptable alternative to estimating water storage tank emissions using EPA-450/3-85-001a – VOC Emissions from Petroleum Refinery Wastewater Systems - Background Information for Proposed Standards. An emission factor of 0.0000195-ton VOC per barrel of wastewater produced is given for VOC emissions from wastewater in an oil-water separator. The water production rate used to calculate potential water tank emissions should be a daily maximum production rate not expected to be exceeded during normal operation. This helps ensure that the site will have adequate emission controls when operating.
+If tank emissions require controls, DRE of at least 95% is required. If it can be justified, a higher DRE may be used. For instance, if a vapor recovery system is installed, a higher destruction and removal efficiency may be appropriate.
+An example using the above factors and equations for estimating emissions from a produced water tank is provided below. 
+Example: During the first 60-days of production, an oil well produces 10,116-barrels of water. What are the uncontrolled VOC emissions?
+ Answer: 
+Smokeless Combustion Devices (Flares)
+Emissions from a smokeless combustion device (e.g., flare) can be estimated using the following methods. Emission factors for estimating NOX, CO, and total organic compounds (TOC) emissions can be found in AP-42 Chapter 13.5: Miscellaneous Sources – Industrial Flares (see https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-13-miscellaneous-0). 
+If the flared gas composition is not known, VOC emissions may be estimated using the TOC emission factor in the above table. Calculations must be performed assuming TOC concentration is equivalent to total VOC concentration. NOX, CO, and VOC flare emissions can be estimated using the following equation:
+ Equation 4
+where:
+EX = emissions for pollutant X (tpy);
+EFX = emission factor for pollutant X (lb/MMBtu);
+FC = fuel consumption (MMscf/yr);
+HV = fuel heating value (Btu/scf); and
+1-ton = 2000-lb.
+The fuel consumption (FC) can be calculated using the equation:
+ Equation 5
+where:
+FC = fuel consumption (MMscf/yr);
+DPRGAS = maximum daily gas production rate (MMscf/day);
+HO = annual hours of operation (hr/yr); and
+1-day = 24-hours.
+The annual hours of operation used in the uncontrolled and controlled produced gas flare emission estimations will depend on the facility process. If produced gas is routed to a sales line, uncontrolled emissions may be estimated using 500 to 2,000-hrs/yr of operation (i.e., emergency flaring or venting). However, if the hours of operation are expected to exceed 2,000-hrs/yr uncontrolled emissions must be estimated using 8,760-hrs/yr. If produced gas is not routed to a sales line, uncontrolled emissions must be calculated based on venting the maximum daily production capacity for 8760-hrs/yr. Additional information on calculating PTE can be found at https://deq.mt.gov/air/assistance in DEQ’s guidance statement Oil & Gas Well Facilities and Calculating Potential to Emit (PTE).
+An example using the above factors and equations for estimating emissions from an onsite flare is provided below. 
+Example: At an oil or gas well facility, the maximum daily production rate of produced gas is 57-Mscf. Analysis of the produced gas shows that it has a heating value of 1767-Btu/scf and a VOC weight fraction of 0.515. Under normal operating conditions, the produced gas is routed to a sales pipeline. What are the uncontrolled VOC emissions?
+ Answer: The fuel consumption (FC) is calculated to be:
+
+
+
+Hours of operation for determining the uncontrolled emissions are assumed to be 500-hours because the produced gas is sold (i.e., routed to a sales pipeline). From AP-42, an emission factor of 0.14-lb/MMBtu is given for TOC. TOC emissions are then calculated to be:
+
+
+ 
+Using the 0.515 VOC produced gas weight fraction, the uncontrolled VOC emissions are calculated as follows:
+
+
+Truck Loading Losses
+ARM 17.8.1711(1)(b) requires that “hydrocarbon liquids must be loaded into, or unloaded from, transport vehicles using submerged fill technology.” Loading losses occur as hydrocarbon vapors in the empty tank are displaced to the atmosphere as the stored oil is loaded into the tank. Methods and emission factors for estimating tank loading losses may be found in AP-42 Chapter 5.2 – Transportation and Marketing of Petroleum Liquids (see https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-5-petroleum-1). The equation for estimating loading loss is:
+ Equation 6
+where:
+LL = loading loss per 1000 gallons of liquid loaded (lb/1000-gal);
+S = saturation factor (unitless);
+P = true vapor pressure of liquid loaded (psia);
+M = molecular weight of vapors (lb/lb-mole); and
+T = temperature of bulk liquid loaded (°F).
+VOC emissions resulting from truck loading losses can be estimated using the following equation:
+ Equation 7
+where:
+EX = emissions for pollutant X (tpy);
+LL = loading loss per 1000 gallons of liquid loaded (lb/1000-gal);
+DPROIL = maximum daily oil production rate (bbl/day);
+1-year = 365-days;
+1-bbl = 42-gallons; and
+1-ton = 2000-lb.
+The oil production rate used to calculate potential truck loading loss emissions should be a daily maximum production rate not expected to be exceeded during normal operation.
+An example using the above factors and equations for estimating emissions from truck loading losses is provided below. 
+Example: An oil or gas well facility produces crude oil at a maximum daily rate of 124-bbl and is stored on-site. The average annual temperature at the facility is 50°F. A tanker truck, designed to fill from the bottom up, is used to haul the crude oil to a refinery. What are the uncontrolled VOC emissions?
+Answer: From AP-42 a saturation factor (S) of 0.6 is given for a submerged loading tank dedicated to normal service. In addition, AP-42 gives a molecular weight (M) and vapor pressure (P) of 50-lb/lb-mol and 2.3-psia, respectively, for a crude oil at 50°F. The loading loss (LL) is calculated to be:
+
+
+
+Uncontrolled VOC emissions are then calculated to be:
+
+Fugitive Equipment Leaks
+Emissions from fugitive equipment leaks may be estimated using EPA methods or with applicable software. For example, the EPA publication EPA-453/R-95-017, Protocol for Equipment Leak Emission Estimates (see: Document Display | NEPIS | US EPA - Protocol for Equipment Leak Emission Estimates) contains methods or the software package GRI-HAPCalc may be used. Fugitive emission estimates should include a list of components (e.g., connectors, flanges, open-ended lines, pumps, valves, etc.) at the facility as well as the number of each component. Component quantities may be counted or estimated. Estimates should include a justification (e.g., based on facility drawings or numbers observed at similar facilities).
+VOC and HAP fugitive emissions can be estimated using the following equation:
+
+ Equation 8
+where:
+EX = emissions for pollutant X (tpy);
+EFC1, EFC2 …EFCn = emission factor for component C1, C2, …Cn (lb/hr/component);
+#C1, #C2 …#Cn = number of C1, C2, …Cn components;
+WFX = weight fraction of pollutant X (wt W/wt TOC);
+1-year = 8760-hr; and
+1-ton = 2000-lb.
+Potential emissions must be calculated based on 8760-hrs/yr.
+An example using the above factors and equations for estimating emissions from fugitive equipment leaks is provided below. 
+Example: An oil or gas well facility produces crude oil with an API of 30.7. An inventory of fugitive emission components found that there are 10 flanges servicing the gas lines and 150 flanges servicing the oil lines. It was estimated that 20% (by weight) of the vapor emitted from the components is VOCs. What are the uncontrolled VOC emissions from the flanges?
+Answer: Using the appropriate emission factors from AP-42, the uncontrolled VOC emissions are calculated to be:
+
+
+Fugitive Dust Sources
+Fugitive dust sources at oil or gas well facilities are primarily vehicle traffic. The principal pollutant from these sources is PM10. Methods for estimating PM10 emissions can be found in AP-42 Chapter 13.2: Miscellaneous Sources – Introduction to Fugitive Dust Sources (see https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-13-miscellaneous-0). Emission factors for vehicles traveling on unpaved roads at industrial sites can be estimated using the equation:
+
+ Equation 9
+where:
+k, a, and b = empirical constants;
+s = surface material silt content (%); and
+W = mean vehicle weight (tons).
+The following table provides DEQ Guidance Policy PM10 fugitive dust emission factors for estimating uncontrolled emissions.
+Table 1. DEQ Recommended PM10 Fugitive Dust Emission Factors
+Vehicle Size
+PM10 Emission Factor (lb/VMT)
+Small (<50-tons)
+2.7
+Medium (50- to 100-tons)
+3.6
+Large (>100-tons)
+4.5
+Emission factors, other than those listed in the table above, used in estimating PM10 fugitive dust emissions should include a justification for their use. PM10 fugitive dust emissions can be calculated using the equation:
+
+ Equation 10
+where:
+EX = emissions for pollutant X (tpy);
+EFX = emission factor for pollutant X (lb/VMT);
+AVMT = annual vehicle miles traveled (miles/yr); and
+1-ton = 2000-lb.
+Vehicle miles traveled (VMT) include all miles traveled on the site and non-public site access roads.
+An example using the above factors and equations for estimating emissions from fugitive dust sources is provided below. 
+Example: It is estimated that each week a tanker truck weighing approximately 15-tons is driven to an oil or gas well facility 3 times. On each site visit the truck travels approximately 500-yards along the site and access road. What are the uncontrolled PM10 emissions?
+ Answer: The annual vehicle miles traveled (AVMT) are calculated to be:
+
+
+Uncontrolled PM10 emissions are calculated to be:

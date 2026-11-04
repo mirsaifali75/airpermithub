@@ -1,0 +1,1092 @@
+Class II General Air Quality
+Operating Permit for Nonmetallic
+Minerals Crushing and Screening
+Plants
+Application Form
+Facility Name: _______________________
+Existing Facility ID: A__________________
+Existing Class II General AQOP for Nonmetallic Minerals Crushing
+and Screening Plants: AP__________________
+
+Application Type:
+
+☐ New Class II General AQOP for Nonmetallic Minerals Crushing and
+Screening Plants
+☐ Revision of Existing Class II General AQOP for Nonmetallic
+Minerals Crushing and Screening Plants
+
+☐ Renewal of Existing Class II General AQOP for Nonmetallic
+Minerals Crushing and Screening Plants
+
+Please Submit Application to:
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control, Class II Permitting Branch
+901 South Stewart Street, Suite 4001
+Carson City, Nevada 89701-5249
+Phone (775) 687-9349
+August 2022
+
+Revised – 8/2022
+
+IMPORTANT INFORMATION
+
+
+The application packet contains:
+
+General Company Information Form
+
+Application Fee
+
+Special Use Area Additional Information Forms (if applicable)
+
+Emission Factors
+
+Emission Limits
+
+Emission Calculation Form(s)
+
+Surface Area Disturbance Form
+
+Application Certification Document with Required Attachments
+
+Process Narrative
+
+Process Flow Diagram(s)
+
+Location Map(s)
+
+
+
+
+Please see the Guidance Document for additional instructions on how to complete the application.
+A printed copy of the application must be submitted (mailed or hand delivered), along with an electronic
+version.
+The application filing fee required by Nevada Administrative Code (NAC) 445B.327 must be submitted
+with the completed application. Checks must be made payable to the “Nevada State Treasurer,
+Environmental Protection” with “BAPC” noted in the memo line. Fees may also be submitted
+electronically at https://epayments.ndep.nv.gov/.
+This application shall be used for new Class II General sources (Nonmetallic Minerals Crushing and
+Screening Plants), revisions to existing Class II General Air Quality Operating Permits for Nonmetallic
+Minerals Crushing and Screening Plants, and the renewal of Class II General Air Quality Operating
+Permits for Nonmetallic Minerals Crushing and Screening Plants. This application packet is not to be
+used for an Administrative Amendment, Class II Air Quality Operating Permits, a stand-alone Surface
+Area Disturbance (SAD) permit, nor for a Request for Change of Location Approval permit for a
+temporary source.
+An application for a Class II General Air Quality Operating Permit for Nonmetallic Minerals Crushing
+and Screening Plants must be signed by the Responsible Official, as defined in NAC 445B.156. The
+certification/signature page is the last page of the application and the original “wet” signature must be
+provided.
+All items in the application must be addressed. If an item does not apply “N/A” or similar notation must
+be entered in the appropriate blank. All other information must be provided. Incomplete applications will
+be returned to the Responsible Official within 10 working days of receipt of the application.
+For the renewal of a Class II General Air Quality Operating Permit for Nonmetallic Minerals Crushing
+and Screening Plants, a complete application and corresponding filing fee must be submitted in accordance
+with NAC 445B.3477(12), at least 30 days prior to the expiration date of the current permit. The Nevada
+Division of Environmental Protection – Bureau of Air Pollution Control (BAPC) suggests that the
+application be submitted well in advance of the timeline outlined in NAC 445B.3477(12) to ensure the
+application is deemed complete.
+
+
+
+
+
+
+
+
+
+
+Page 2 of 14
+
+GENERAL COMPANY INFORMATION FORM
+1.
+
+Company Name and
+[NAC 445B.295(1)]:
+Name:
+Address:
+City:
+State:
+
+2.
+
+are
+
+to
+
+appear
+
+on
+
+the
+
+operating
+
+permit
+
+Zip Code:
+
+Zip Code:
+
+Facility Name and Address, if different from #2 [NAC 445B.295(1)]:
+Name:
+Address:
+City:
+State:
+
+4.
+
+that
+
+Owner's Name and Address [NAC 445B.295(1)]:
+Name:
+Address:
+City:
+State:
+E-mail Address:
+
+3.
+
+Address
+
+Zip Code:
+
+If records are required under the operating permit will be kept at a location other than the facility,
+specify that location [NAC 445B.295(7)]:
+Name:
+Address:
+City:
+State:
+
+Zip Code:
+
+Page 3 of 14
+
+GENERAL COMPANY INFORMATION FORM (continued)
+5.
+
+Responsible Official Name, Title and Mailing Address [NAC 445B.295(1)]:
+Name:
+Title:
+Address:
+City:
+State:
+Phone Number:
+Fax Number:
+E-mail Address:
+
+6.
+
+Zip Code:
+
+Plant Manager or other appropriate Contact Name, Title and Address [NAC 445B.295(1)]:
+Name:
+Title:
+Address:
+City:
+State:
+Phone Number:
+Fax Number:
+E-mail Address:
+
+7.
+
+Zip Code:
+
+Location and Driving Directions to the Facility (For Example: From Elko, Nevada, 4 miles south of
+I-80 at xx Interchange) [NAC 445B.295(8)]:
+Township(s):
+
+N; Range(s):
+
+E; Section(s):
+
+UTM Coordinates for the Front Gate of the Facility (NAD 83, Zone 11):
+m North;
+m East;
+Nearest City:
+County:
+Hydrographic
+Area:
+Driving Directions from nearest city to the Facility:
+
+Page 4 of 14
+
+8.
+
+What is the minimum setback of equipment from public access and maximum hours of operation?
+Minimum Setback:
+
+Maximum Hours of Operation:
+
+☐ 25 meters
+
+☐ 8 hrs
+
+☐ 50 meters
+
+☐ 12 hrs
+
+☐ 75 meters
+
+☐ 16 hrs
+
+☐ 100 meters
+
+☐ 24 hrs
+
+Page 5 of 14
+
+CLASS II GENERAL PERMIT SPECIAL USE AREA
+Under the authority of NAC 445B.22097, the following exceptions and additional requirements apply to
+applicants applying for this Class II General Air Quality Operating Permit for Nonmetallic Minerals Crushing
+and Screening Plants:
+1.
+For stationary sources applying to operate under this general permit in the Class II General Special Use
+Area described in this section, the following constraints apply:
+a.
+The Director will require a 30-day time period to conduct an Environmental Evaluation to
+demonstrate compliance with the Nevada Ambient Air Quality Standards (NAAQS) for any
+regulated air pollutant.
+b.
+If compliance with the NAAQS for any regulated air pollutant cannot be demonstrated under the
+requirements of the Class II General Air Quality Operating Permit for Nonmetallic Minerals
+Crushing and Screening Plants, authorization to operate will not be approved. A Class II Air Quality
+Operating Permit must be applied for and approved prior to operation.
+2.
+Tracy Segment – Hydrographic Area (HA) 83
+Township
+19 North
+19 North
+19 North
+20 North
+20 North
+
+Range
+21 East
+22 East
+23 East
+22 East
+23 East
+
+Page 6 of 14
+
+Sections
+1, 2, 10 through 14, and 23 through 25
+All Sections
+3 through 10, 16 through 21, and 29 through 31
+24 through 26, 28, 29, and 31 through 36
+19 through 21, and 27 through 34
+
+EMISSION FACTORS
+Under the authority of NAC 445B.305, the emission factors listed below are to be used to calculate the Potential
+to Emit (PTE), for operating scenarios authorized by the general permit:
+Nonmetallic Crushing and Screening
+Emission Factor (lb/ton)
+
+Emission Unit
+Truck Unloading to Hopper - Controlled1
+Truck Unloading to Hopper - Uncontrolled
+Primary Crusher - Water Spray Controlled1
+Primary Crusher - Enclosure Controlled2
+Primary Crusher - Uncontrolled
+Secondary Crusher - Water Spray Controlled1
+Secondary Crusher - Enclosure Controlled2
+Secondary Crusher - Uncontrolled
+Tertiary Crusher - Water Spray Controlled1
+Tertiary Crusher - Enclosure Controlled2
+Tertiary Crusher - Uncontrolled
+Primary Screen - Water Spray Controlled1
+Primary Screen - Enclosure Controlled2
+Primary Screen - Uncontrolled
+Secondary Screen - Water Spray Controlled1
+Secondary Screen - Enclosure Controlled2
+Secondary Screen - Uncontrolled
+Tertiary Screen - Water Spray Controlled1
+Tertiary Screen - Enclosure Controlled2
+Tertiary Screen - Uncontrolled
+Conveyor Transfer Point - Water Spray Controlled1
+Conveyor Transfer Point - Enclosure Controlled2
+Conveyor Transfer Point - Uncontrolled
+Notes:
+
+PM
+0.00075
+0.003
+0.0014
+0.0027
+0.0054
+0.0014
+0.0027
+0.0054
+0.0014
+0.0027
+0.0054
+0.0063
+0.0027
+
+PM10
+0.00028
+0.0011
+0.0006
+0.0012
+0.0024
+0.0006
+0.0012
+0.0024
+0.0006
+0.0012
+0.0024
+0.0022
+0.0012
+
+PM2.5
+0.00004
+0.00017
+0.0001
+0.0002
+0.0004
+0.0001
+0.0002
+0.0004
+0.0001
+0.0002
+0.0004
+0.00033
+0.0002
+
+0.025
+0.0063
+0.0013
+0.025
+0.0063
+0.0013
+0.025
+0.00075
+0.0015
+0.003
+
+0.0087
+0.0022
+0.0044
+0.0087
+0.0022
+0.0044
+0.0087
+0.00028
+0.00055
+0.0011
+
+0.0013
+0.00033
+0.0007
+0.0013
+0.00033
+0.0007
+0.0013
+0.00004
+0.00009
+0.00017
+
+(1) The emission factors listed for controlled emissions require wet dust suppression located at each
+emission unit and transfer point. Wet dust suppression consists of water sprays, fogging water sprays,
+fogging water sprays with chemical surfactant, or pneumatic fogging water sprays. Pre-wetting of
+material does not constitute wet dust suppression.
+(2) The emission factors listed for controlled emissions require the use of an enclosure at the transfer point.
+An enclosure must have a solid cover surrounding the transfer point. This excludes entries and exits.
+Transfer points must not be clearly visible.
+
+Diesel Engines
+Emission Unit
+Diesel Engine Equal to or Less Than 299
+Horsepower Combusting 15 Gallons Per
+Hour or Less of Diesel Fuel
+
+PM
+
+PM10
+
+Emission Factor (lb/hr)
+PM2.5
+NOx
+SO2
+
+CO
+
+VOC
+
+0.651
+
+0.651
+
+0.651
+
+1.995
+
+0.735
+
+Page 7 of 14
+
+9.261
+
+0.609
+
+EMISSION LIMITS
+Under the authority of NAC 445B.305, NAC 445B.22017, and NAC 445B.346, the calculated emissions at any
+one location shall not equal or exceed any of the emission limits specified in the table below:
+Emission Limits (lb/day)
+
+Operating Parameters
+Operating Scenario
+
+Minimum
+Setback
+(meters)
+
+25
+Crushers, screens, and
+conveyors operated
+only for the processing
+of nonmetallic
+minerals, including
+diesel engines that are
+equal to or less than
+299 horsepower,
+combusting 15 gallons
+per hour or less of
+diesel fuel.
+
+50
+
+75
+
+100
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+Opacity
+
+8
+
+14.54
+
+6.53
+
+74.09
+
+4.87
+
+15.96
+
+5.88
+
+18.47
+
+9.32
+
+111.14
+
+7.31
+
+23.94
+
+8.82
+
+20%
+
+12
+16
+
+21.85
+
+12.03
+
+148.18
+
+9.74
+
+31.92
+
+11.76
+
+24
+
+28.16
+
+17.40
+
+222.27
+
+14.62
+
+47.88
+
+17.64
+
+8
+
+16.81
+
+6.85
+
+74.09
+
+4.87
+
+15.96
+
+5.88
+
+12
+
+21.19
+
+9.71
+
+111.14
+
+7.31
+
+23.94
+
+8.82
+
+16
+
+24.85
+
+12.46
+
+148.18
+
+9.74
+
+31.92
+
+11.76
+
+24
+
+31.85
+
+17.92
+
+222.27
+
+14.62
+
+47.88
+
+17.64
+
+8
+
+19.17
+
+7.18
+
+74.09
+
+4.87
+
+15.96
+
+5.88
+
+12
+
+15.88
+
+6.72
+
+74.09
+
+4.87
+
+15.96
+
+5.88
+
+16
+
+27.86
+
+12.88
+
+148.18
+
+9.74
+
+31.92
+
+11.76
+
+24
+
+35.33
+
+18.41
+
+222.27
+
+14.62
+
+47.88
+
+17.64
+
+8
+
+21.42
+
+7.50
+
+74.09
+
+4.87
+
+15.96
+
+5.88
+
+12
+
+26.44
+
+10.45
+
+111.14
+
+7.31
+
+23.94
+
+8.82
+
+16
+
+30.78
+
+13.30
+
+148.18
+
+9.74
+
+31.92
+
+11.76
+
+24
+
+38.38
+
+18.84
+
+222.27
+
+14.62
+
+47.88
+
+17.64
+
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+
+Note: PM emissions should be calculated using the emission factors listed on page 7 of this application; however, since there are
+no Nevada Ambient Air Quality standards for PM, there will be no emission limits for PM emissions.
+
+Page 8 of 14
+
+Form 1A – Emission Unit List: Particulate Emissions (PM) Units Calculation Form4
+[Use this table or equivalent spreadsheet to request operating parameters and calculated particulate emissions for each emission unit.]
+
+Source
+#
+
+A
+
+Source Description
+
+B
+
+Minimum
+Setback
+
+Maximum
+Throughput
+Rate
+
+Maximum
+Operating
+Hours
+
+meters
+
+tons/hr
+
+hrs/day
+
+C
+
+D
+
+E
+
+Air
+Pollution
+Controls
+F
+
+Emission Factor,
+lb/ton1
+
+Calculated
+PM
+Emissions
+
+Calculated
+PM10
+Emissions
+
+Calculated
+PM2.5
+Emissions
+
+PM
+
+PM10
+
+PM2.5
+
+lb/day
+
+lb/day
+
+lb/day
+
+G
+
+H
+
+I
+
+J
+(=D*E*G)
+
+K
+(=D*E*H)
+
+L
+(=D*E*I)
+
+15.62
+
+15.62
+
+15.62
+
+System 1 -
+
+Crushing and Screening Total
+Emission Limits2
+Engine Contribution3
+Footnotes:
+
+(1) The Emission Factors as stated in this application must be used.
+(2) The total of PM10 and PM2.5 emissions combined for all units must not exceed the limits established for the minimum setback and hours of operation that are being requested.
+(3) Engine PM/PM10/PM2.5 lb/day emissions will always be 15.62 lb/day each. This is to show that engine emissions were accounted for. These engine contributions are considered part of the
+background and do not need to be considered when comparing to the limit established for the minimum setback and hours of operation that are being requested.
+(4) Use additional forms as necessary.
+
+Page 9 of 14
+
+Form 1B – Diesel Engine(s) Form
+
+[Use Form 1B for any diesel engines that are being requested]
+
+Source
+#
+A
+System 2 - Diesel Engine(s)
+
+Source Description
+B
+
+Maximum
+Rated
+Engine
+Horsepower
+BHp
+C
+
+Combined Fuel Consumption (gal/hr)
+Fuel Consumption Limit (gal/hr)
+Footnote: Please provide manufacturer's specifications
+
+Page 10 of 14
+
+Maximum
+Rated Fuel
+Consumption
+
+Maximum
+Operating
+Hours
+
+gal/hr
+C
+
+hrs/day
+D
+
+15
+
+1C – Special Use Area Additional Information1
+
+[Use Form 1C if applying for a Class II General Air Quality Operating Permit for Nonmetallic Minerals Crushing and Screening Plants in the Special Use Area as described in this application.]
+
+Emission Unit Description
+
+Emission
+Unit
+Identifier
+
+A
+
+B
+
+UTM Coordinates (NAD
+83, Zone 11)
+Easting
+Northing
+(m)
+(m)
+C
+
+D
+
+Release
+Height
+(ft)
+
+Drop
+Length
+(ft)
+
+E
+
+F
+
+Emission
+Unit
+Dimensions
+LxWxH
+(ft)
+G
+
+Footnote: (1) Use additional forms as necessary.
+
+Page 11 of 14
+
+Stack
+Height
+(ft)
+H
+
+Stack Inside
+Diameter or
+LxW
+Dimensions
+(ft)
+I
+
+Stack
+Flow
+Rate
+(acfm)
+
+Stack
+Exit
+Velocity
+(ft/sec)
+
+Stack
+Temperature
+(°F)
+
+J
+
+K
+
+L
+
+Requested Hours of
+Operation
+Start
+End Time
+Time
+(AM/PM)
+(AM/PM)
+M
+N
+
+Form 1D – Special Use Area Additional Information
+
+[Use Form 1D if applying for a Class II General Air Quality Operating Permit for Nonmetallic Minerals Crushing and Screening Plants in the Special Use Area as
+described in this application. In addition to filling out this form, please provide a topographic map (or similar satellite-image map) showing the entire fence line
+boundary for the proposed location.]
+Corner Number
+A
+
+Corner Location of Fence Line Boundary for the Proposed Facility Location
+UTM Easting (m)
+UTM Easting (m)
+(NAD 83, Zone 11)
+(NAD 83, Zone 11)
+B
+C
+
+Page 12 of 14
+
+SURFACE AREA DISTURBANCE FORM
+1.
+2.
+3.
+
+4.
+
+Project Name:
+Total Acres Disturbed:
+NAC 445B.22037 requires fugitive dust to be controlled (regardless of the size or amount of acreage
+disturbed), and requires an ongoing program, using best practical methods, to prevent particulate matter
+from becoming airborne. All activities which have the potential to adversely affect the local air quality
+must implement all appropriate measures to limit controllable emissions. Appropriate measures for dust
+control may consist of a phased approach to acreage disturbance rather than disturbing the entire area all
+at once; using wet suppression through such application methods as water trucks or water spray systems
+to control wind-blown dust; the application of soil binding agents or chemical surfactant to roadways and
+areas of disturbed soil; as well as the use of wind-break or wind limiting fencing designed to limit wind
+erosion soils.
+Please check each box that applies for Best Management Practices (BMPs) used for controlling dust on
+project’s disturbed areas:
+☐ Water trucks
+
+☐ Graveling/paving of roadway storage areas and staging areas
+
+☐ Dust palliatives
+
+☐ Posting and limiting vehicle speeds
+
+☐ Ceasing operations during high wind events
+
+☐ Fencing or berming to prevent unauthorized access to disturbed areas
+
+☐ Application of water sprays on material storage piles on a regular basis
+☐ Covering material storage piles with tarpaulin or geo-textiles; tenting
+
+☐ Use of overhead water spray racks or water hoses
+
+☐ Track-out controls (graveled entranced, exit area, and street sweeping)
+☐ Landscape preservation and impact avoidance
+☐ Wind fence
+
+☐ Pre-watering of areas to be disturbed (including all unpaved onsite roads and staging areas)
+
+☐ Inform all subcontractors (including truck drivers) of their responsibilities for the control of fugitive
+dust while they are on the project site
+
+☐ Training of equipment operators to recognize fugitive dust generation and having the authority to shut
+down operations until water truck arrives and sprays water on the disturbed areas
+
+☐ Other Applicable BMPs:
+☐ Other Applicable BMPs:
+
+☐ If using water trucks, list how many water trucks are used and their capacity in gallons:
+
+Page 13 of 14
+
+APPLICATION CERTIFICATION DOCUMENT
+(With Required Attachments)
+
+Please check all applicable boxes below to indicate the information provided in your application submittal:
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+
+General Company Information Form
+$500 Application Fee Attached (NAC 445B.327)
+$500 Application Fee Electronically Submitted (NAC 445B.327)
+Form 1A – Particulate Emissions Calculation Form(s)
+Form 1B – Diesel Engine(s) Form
+Form 1C – Special Use Area Form (if applicable)
+Form 1D – Special Use Area Form (if applicable)
+Surface Area Disturbance Form
+Process Flow Diagrams(s) of the emission units as they will be set up, including identification of all
+pollution control(s) and which emission units are controlled by these devices. All emission units must
+be identified by name.
+Process Narrative which details the flow of material as shown in the Process Flow Diagram(s).
+Topographic Map (or similar satellite-image map) indicating the exact location of each emission unit.
+Special Use Area Map (topographic map or similar satellite-image map) – showing the entire fence line
+boundary for the proposed location (if applicable).
+Application Certification Document with Original “Wet” Signature from the Responsible Official
+
+PLEASE NOTE THE FOLLOWING REQUIREMENTS WHICH APPLY TO APPLICANTS DURING
+THE APPLICATION PROCESS:
+A.
+B.
+C.
+
+A permit applicant must submit supplementary facts or corrected information upon discovery
+[NAC 445B.297(1)(b)].
+A permit applicant is required to provide any additional information which the Director requests
+in writing within the time specified in the Director's request [NAC 445B.297(1)(c)].
+Submission of fraudulent data or other information may result in prosecution for an alleged
+criminal offense [NRS 445B.470].
+
+CERTIFICATION:
+I certify that, based on information and belief formed after reasonable inquiry, the statements and
+information contained in this application are true, accurate and complete.
+
+Signature of Responsible Official
+Print or Type Name and Title
+Date
+
+

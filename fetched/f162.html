@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Air Quality General Permitting</title>
+    <link rel="icon" href="/DEQ-AIR/favicon.ico" />
+    <script src="/DEQ-AIR/Scripts/tabCheck.js"></script>
+    <link href="/DEQ-AIR/Content/datepicker?v=ZaIuLD1dvRrL0AtVInFmLU9JldUnYN8Qaz6Iti1fkTQ1" rel="stylesheet"/>
+
+    <link href="/DEQ-AIR/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/DEQ-AIR/Content/font?v=FnfVmn3P28216lVJBHKPnwvoeisgz6cynIONCnaqm681" rel="stylesheet"/>
+
+    <link href="/DEQ-AIR/Content/site?v=iNMCzNqoaLvYLj1euXc9MK22eKbtkbKAmH7qiTnO_Z81" rel="stylesheet"/>
+
+    <script src="/DEQ-AIR/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+    <script src="/DEQ-AIR/bundles/jquery?v=N2YlHnRI7it2_JoqUZTYWxPtx-s61zIGkk78Q0eabPM1"></script>
+
+    <script src="/DEQ-AIR/bundles/maskedinput?v=AMCHGeZwlDmWLZIYLrJi5-22PDQURd0uAiPTnlqwDWI1"></script>
+
+    <script src="/DEQ-AIR/bundles/angular?v=3Nn3yG5jnfNIW2eCbQp6ZeoaAWZbE3qhBlx3mdCDiA81"></script>
+
+    <script src="/DEQ-AIR/Scripts/vue.global.prod.js"></script>
+    <script src="/DEQ-AIR/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="/DEQ-AIR/Scripts/datepicker-full.min.js"></script> 
+    <script src="/DEQ-AIR/bundles/site?v=9BMUJpmzW6DyP_SjMtiW-J00QNPgRE_J6fzroBo8DKk1"></script>
+
+    
+    
+    <script>
+        $(document).ready(function () {
+
+            HideLoading();
+
+            $("#Password").on("keyup", function (e) {
+                if (e.which === 13) {
+                    $("#btnLogin").click();
+                }
+            });
+
+        });
+
+        var environment = 'PROD';
+        var message = 'This is a TEST environment. Any data uploaded or forms filled out on this website will not be reviewed.';
+        if (environment === "CAT"){
+            window.onload = warningScreen();
+        }
+
+        function warningScreen(){
+            alert(message);
+        }
+    </script>
+
+    <script>
+        try {
+            (function (d) { const s = d.createElement("script"); s.setAttribute("data-account", "6O3UHImmac"); s.setAttribute("src", "https://cdn.userway.org/widget.js"); (d.body || d.head).appendChild(s); })(document);
+        }
+        catch (e) {
+            console.log(e);
+        }
+    </script>
+</head>
+<body>
+    <div id="loading" name="loading" ref="loading" style="height: 100%; opacity: .8; position: fixed; width: 100%; z-index: 1200; text-align: center; background-color: #818575;">
+        <div style="width: 20rem; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%)">
+            <div class="loadingLogo">&nbsp;</div>
+            <div id="bm"></div>
+            <div class="loadingText">Loading...</div>
+        </div>
+    </div>
+    <div id="myContainer" class="myContainer blurred">
+        <header class="header d-print-none">
+            <div class="headBanner">
+                <div class="row">
+                    <div class="col-sm-4 d-none d-sm-block">
+                        <object alt="Welcome" aria-label="Welcome" data="/DEQ-AIR/Content/svg/NDEQ.Logo.svg" id="imgDee" type="image/svg+xml">Logo</object>
+                    </div>
+                    <div class="col-sm-8">
+                        <object alt="Welcome" aria-label="Welcome" data="/DEQ-AIR/Content/svg/Welcome.NDWEE.svg" id="imgBanner" type="image/svg+xml">Banner</object>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            
+            <div class="padding">
+                <div class="container-xxl">
+                    
+
+
+<form action="/DEQ-AIR/Account/Login" method="post"><input name="__RequestVerificationToken" type="hidden" value="GFoQPae8dnelgcxlrnW-2gr1CV9JGifvCe7nDw1eVvJoBwMBvgkkGR_B7uz_Id-SJ5_IkzrzEuSgP5HHfNi1gTz4BqhdyRhZen-c6-whfiQ1" />    <p class="display-6 mb-2 myH2">Air Quality General Permitting</p>
+    <hr />
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="fw-light text-center">Log In</h2>
+            <div class="row g-3 mt-1">
+                <div class="col-xl-6 col-xxl-5">
+                    <div class="form-floating">
+                        <input autocomplete="username" class="form-control" data-val="true" data-val-required="The User Name field is required." id="UserName" name="UserName" type="text" value="" />
+                        <label for="UserName">User Name</label>
+                    </div>
+                    <span class="field-validation-valid text-danger" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+                </div>
+                <div class="col-xl-6 col-xxl-5">
+                    <div class="form-floating">
+                        <input autocomplete="current-password" class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password" />
+                        <label for="Password">Password</label>
+                    </div>
+                    <span class="field-validation-valid text-danger" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                </div>
+                <div class="col-xxl-2 text-center">
+                    <span class="btn-group bg-white rounded shadow-sm mt-2">
+                        <button class="btn btn-outline-primary" type="submit" id="btnLogin" onclick="ShowLoading(event);"><span class="fal fa-arrow-right-to-arc me-2"></span>Login</button>
+                    </span>
+                </div>
+            </div>
+            <div class="m-3">
+                <p>
+                    <a href="https://enterpriseregistration.nebraska.gov/PasswordReminder.aspx?Return=NDEQ-AIR" target="_blank">Reset Password</a>
+                </p>
+                <p>
+                    <a href="https://enterpriseregistration.nebraska.gov/Login_Verify.aspx?Return=NDEQ-AIR" target="_blank">Update User Account Information</a>
+                </p>
+            </div>
+            <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+        </div>
+        <div class="col-md-6">
+            <div class="ms-5 me-5 text-center">
+                <h2 class="fw-light">New Users</h2>
+                <p>
+                    If you are a first time user and have not yet registered for an account, click the following link and follow the instructions
+                </p>
+                <p>
+                    <a href="https://enterpriseregistration.nebraska.gov/SelfRegistration.aspx?Return=NDEQ-AIR" target="_blank">Register Here</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-12" style="color: #143e72;">
+            <hr />
+            <p class="fw-light text-center myH3">
+                This is a government computer system. UNAUTHORIZED ACCESS IS PROHIBITED. Anyone using this system is subject to monitoring. UNAUTHORIZED ACCESS or ATTEMPTS to use, alter, destroy or damage data, programs or equipment could result in criminal prosecution.
+            </p>
+        </div>
+    </div>
+</form>
+
+                    <div class="text-center d-print-none">
+                        <div class="fw-lighter mt-3"><span class="fat fa-envelope-open-text me-2"></span>Contact Us:<a class="mx-2 btn-link fw-normal" href="mailto:DWEE.AirQuality@nebraska.gov">DWEE.AirQuality@nebraska.gov</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footerContainer fixed-bottom d-print-none">
+            <div class="footer">
+                <div class="float-end opacity-25 text-success font-weight-lighter me-2">2</div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="navFooter">
+                            <li>
+                                <a href="https://dwee.nebraska.gov/" rel="noreferrer noopener" target="_blank">The DWEE State Website</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nebraska.gov/policies.html" rel="noreferrer noopener" target="_blank">Security, Privacy & Accessibility Policy</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nebraska.gov/" rel="noreferrer noopener" target="_blank">The State of Nebraska Website</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="m-3">
+                            THIS IS A GOVERNMENT COMPUTER SYSTEM. UNAUTHORIZED ACCESS IS PROHIBITED. ANYONE USING THIS SYSTEM IS SUBJECT TO MONITORING. UNAUTHORIZED ACCESS OR ATTEMPTS TO USE, ALTER, DESTROY OR DAMAGE DATA, PROGRAMS OR EQUIPMENT COULD RESULT IN CRIMINAL PROSECUTION.<br /><br />
+                            Nebraska Department of Water, Energy, and Environment<br />245 Fallbrook Blvd, Lincoln, NE 68521 <span>&bull;</span> (402) 471-2186
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

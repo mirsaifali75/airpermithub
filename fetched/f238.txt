@@ -1,0 +1,132 @@
+Guidance Document for
+Process Flow Diagrams
+
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control (BAPC)
+Permitting Branch
+901 South Stewart Street, Suite 4001
+Carson City, Nevada 89701-5249
+Phone (775) 687-9349
+September 3, 2019
+
+Disclaimer: The BAPC reserves the right to modify this guidance at any time. This document
+supersedes any previous documents that relate to process flow diagrams issued by the BAPC.
+
+Example of a Process Flow Diagram
+Baghouse
+
+PF1.001
+40 tph
+
+Hopper
+
+Conveyor 4
+20 tph
+
+PF1.002
+40 tph
+Conveyor 1
+
+PF1.003
+40 tph
+
+S2.002
+Crusher
+20 tph
+
+Conveyor 2
+40 tph
+S2.001
+Screen
+60 tph
+IA1.001
+1,000 gallon
+Diesel Fuel
+Tank
+
+IA1.002
+13,000 gallon
+Diesel Fuel
+Tank
+
+Conveyor 5
+40 tph
+
+Conveyor 3
+20 tph
+
+PF1.005
+Lime Silo
+Loading
+30 tph
+
+PF1.004
+40 tph
+Lime
+Silo
+
+Legend
+
+Stockpile 1
+PF1.006
+Lime Silo
+Unloading
+30 tph
+
+Baghouse Flow
+Water Sprays
+Material Flow Path
+Weigh Belt
+
+PF1.007
+30 tph
+
+Auger 1
+
+Example of a Process Flow Diagram
+The following items, at a minimum, must be shown:
+1) All emission units at the facility are accounted for;
+2) If the diagram spans multiple pages, the continuation
+of pages are coherent;
+3) All air pollution controls are shown;
+4) If hand drawn, must be legible;
+5) All units are labelled with corresponding emission unit
+ID (ex. S2.001, PF1.002, IA1.003, etc.);
+6) Emission unit and associated transfers are combined
+(ex. S2.001 – Screen and Associated Transfers (In from
+Conveyor 2, Out to Conveyor 3);
+7) Location of Weigh Belts;
+8) Insignificant Activities are included;
+9) Location and size of Tanks;
+10) Bypass and recirculation lines; and
+11) Throughput rates (e.g. tons per hour, gallons per
+hour) to determine the flow of material.
+
+Emission Unit List Example
+Emission Unit #
+PF1.001
+PF1.002
+PF1.003
+S2.001
+
+S2.002
+PF1.004
+PF1.005
+PF1.006
+PF1.007
+
+Emission Unit Name
+Loader Transfer to Hopper
+Hopper Transfer to Conveyor 1
+Conveyor 1 Transfer to Conveyor 2
+Screen and Associated Transfers (In
+from Conveyor 2, Conveyor 4; Out to
+Conveyor 3 and Conveyor 5)
+Crusher and Associated Transfers (In
+from Conveyor 3; Out to Conveyor 4)
+Conveyor 5 Transfer to Stockpile 1
+Lime Silo Loading
+Lime Silo Unloading (to Auger 1)
+Auger 1 Transfer to Truck
+
+

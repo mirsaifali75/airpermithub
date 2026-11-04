@@ -1,0 +1,1077 @@
+CHAPTER 115
+AIR EMISSION LICENSE APPLICATION FORM
+
+State of Maine
+Department of Environmental Protection
+Bureau of Air Quality
+17 State House Station
+Augusta, Maine 04333-0017
+Phone: (207) 287-7688
+
+Section A: FACILITY INFORMATION
+
+ Owner or Operator (Legal name as registered with the Secretary of State):
+ FORMTEXT      
+ Facility Site Name: FORMTEXT      
+ Facility Site Address (Physical, no post office boxes): FORMTEXT      
+ City/Town: FORMTEXT       Zip Code: FORMTEXT       County: FORMTEXT      
+ Facility Description: FORMTEXT      
+ Application Description: 
+ FORMTEXT      
+ 
+ Current License #: A- FORMTEXT       - FORMTEXT       - FORMTEXT       - FORMTEXT      
+ 
+Check When Done:
+
+All Sources
+ FORMCHECKBOX Application Completed
+ FORMCHECKBOX Copy Sent to Municipality on: FORMTEXT      
+ FORMCHECKBOX Public Notice Published. Provide paper name: FORMTEXT       and date of publication: FORMTEXT      
+ FORMCHECKBOX Enclosed Public Notice Tear Sheet
+ FORMCHECKBOX Signed Signatory Form (Section K)
+ 
+Additional Requirements for New Sources
+ FORMCHECKBOX Schedule for construction or installation of equipment
+ FORMCHECKBOX Title, Right or Interest (e.g., copy of deed or lease
+ FORMCHECKBOX Payment of Fee
+ 
+Additional Requirements for New Major Sources and Major Modifications.
+ FORMCHECKBOX Notify Abbutting Landowners
+
+ 
+ 
+Facility Contact:
+ 
+ Name: FORMTEXT       Title: FORMTEXT      
+ Company: FORMTEXT      
+ Mailing Address: FORMTEXT      
+ FORMTEXT      
+ City/Town: FORMTEXT       State: FORMTEXT       Zip Code: FORMTEXT      
+ Phone: FORMTEXT       e-mail: FORMTEXT      
+ 
+ 
+Application Contact:
+ 
+ Name: FORMTEXT       Title: FORMTEXT      
+ Company: FORMTEXT      
+ Mailing Address: FORMTEXT      
+ FORMTEXT      
+ City/Town: FORMTEXT       State: FORMTEXT       Zip Code: FORMTEXT      
+ Phone: FORMTEXT       e-mail: FORMTEXT      
+ 
+ 
+Billing Contact:
+ 
+ Name: FORMTEXT       Title: FORMTEXT      
+ Company: FORMTEXT      
+ Mailing Address: FORMTEXT      
+ FORMTEXT      
+ City/Town: FORMTEXT       State: FORMTEXT       Zip Code: FORMTEXT      
+ Phone: FORMTEXT       e-mail: FORMTEXT      
+ 
+ 
+ 
+ 
+ 
+Section B1: STATIONARY FUEL BURNING EQUIPMENT
+ 
+ (List equipment such as boilers, hot water heaters, etc.)
+ 
+ Emission Unit ID
+ Type of Equipment
+ (boiler, water heater, etc.)
+ Maximum Design Capacity
+ Maximum
+ Firing Rate
+Fuel Type
+ % Sulfur
+ Date of Manufacture
+ Date of Installation
+ Stack #
+ Boiler #1 (Example)
+ asphalt heater
+ (Example)
+ 5.0 MMBtu/hr
+ (Example)
+ 35.7 gal/hr (Example)
+ #2 fuel oil
+ (Example)
+ 0.35%
+ (Example)
+ 1984 (Example)
+ 1990 (Example)
+ #1 (Example)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ 
+ 
+
+Section B2: INTERNAL COMBUSTION ENGINES
+ 
+ (List equipment such as generators, diesel drive units, fire pumps, etc. Do not list wheeled mobile equipment such as loaders, backhoes, trucks, etc.)
+ 
+ Emission Unit ID
+ Maximum Design Heat Input Capacity
+ (MMBtu/hr)
+ Maximum
+ Output Capacity
+ (kW or Hp)
+ Maximum
+ Firing Rate
+ Fuel Type
+ % Sulfur
+ (oil only)
+ Date of Manuf.
+ Date of Install
+ Portable or Stationary
+ Generator #1
+ (Example)
+ 5.0 MMBtu/hr
+ (Example)
+ 512 kW
+ (Example)
+ 35.7 gal/hr
+ (Example)
+ Diesel
+ (Example)
+ 0.0015%
+ (Example)
+ 2010
+ (Example)
+ 2012
+ (Example)
+ Stationary
+ (Example)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ Does your facility participate in a Demand Response program in which the generator(s) may be operated for more than 15 hours per calendar year?
+ FORMCHECKBOX yes FORMCHECKBOX no
+ 
+ If yes, what units? FORMTEXT      
+ 
+Control Equipment for Fuel Burning Equipment
+ If applicable, indicate the types of required/operated add-on pollution control equipment, including baghouses, cyclones/multiclones, SCR, SNCR, etc.
+ 
+ Emission Unit
+ Type of Control
+ Pollutant Controlled
+ Control Efficiency
+ Boiler #1
+ (Example)
+ Cyclone
+ (Example)
+ PM
+ (Example)
+ 90%
+ (Example)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ 
+Monitors for Fuel Burning Equipment:
+ If applicable, indicate types of required/operated monitors, including Continuous Emission Monitors (CEM), Continuous Opacity Monitors (COM), parameter monitors for operational purposes, etc.
+ 
+ Emission Unit
+ Type of Monitor
+ Data Measured
+ Boiler #1
+ (Example)
+ CEM
+ (Example)
+ NOx
+ (Example)
+ Boiler #1
+ (Example)
+ Parameter – operational
+ (Example)
+ Temperature
+ (Example)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ 
+Section C: INCINERATORS
+ 
+ 
+ Incinerator Unit 1
+ Incinerator Unit 2
+ Incinerator Type (medical waste, municipal, etc.)
+ FORMTEXT      
+ FORMTEXT      
+ Waste Type
+ FORMTEXT      
+ FORMTEXT      
+ Make (Shenandoah, Crawford, etc.)
+ FORMTEXT      
+ FORMTEXT      
+ Model Number
+ FORMTEXT      
+ FORMTEXT      
+ Date of Manufacture
+ FORMTEXT      
+ FORMTEXT      
+ Date of Installation
+ FORMTEXT      
+ FORMTEXT      
+ Number of Chambers
+ FORMTEXT      
+ FORMTEXT      
+ Max. Initial Charge
+ FORMTEXT       lb
+ FORMTEXT       lb
+ Max. Design Combustion Rate
+ FORMTEXT       lb/hr
+ FORMTEXT       lb/hr
+ Heat Recovery? (Yes or No)
+ FORMTEXT      
+ FORMTEXT      
+ Retention Time of Exhaust Gases
+ FORMTEXT       seconds
+ FORMTEXT       seconds
+ Automatic Feeder? (Yes or No)
+ FORMTEXT      
+ FORMTEXT      
+ Temperature Range
+ Primary
+ FORMTEXT       to FORMTEXT       º F
+ FORMTEXT       to FORMTEXT       º F
+ Secondary
+ FORMTEXT       to FORMTEXT       º F
+ FORMTEXT       to FORMTEXT       º F
+ Auxiliary Burner - Primary Chamber
+ max. rating (MMBtu/hr)
+ FORMTEXT      
+ FORMTEXT      
+ type of fuel used
+ FORMTEXT      
+ FORMTEXT      
+ Auxiliary Burner - Secondary Chamber
+ max. rating (MMBtu/hr)
+ FORMTEXT      
+ FORMTEXT      
+ type of fuel used
+ FORMTEXT      
+ FORMTEXT      
+ Annual Waste Combusted for _____(yr)
+ FORMTEXT      
+ FORMTEXT      
+ Pollution Control Equipment (if any)
+ FORMTEXT      
+ FORMTEXT      
+ Stack Number
+ FORMTEXT      
+ FORMTEXT      
+ Monitors (ie - temperature recorder)
+ FORMTEXT      
+ FORMTEXT      
+ Section D: PROCESS EQUIPMENT
+ 
+ Emission Unit ID
+ Type of Equipment
+ Maximum Raw Material Process Rate
+ (name and rate)
+ Maximum Finished Material Process Rate (name and rate)
+ Date of Manufacture
+ Date of Installation
+ Stack #
+ Control Device
+ Kilns (Example)
+ Drying Kilns (Example)
+ N/A (Example)
+ 25 MMBF/year (Example)
+ 1990 (Example)
+ 1990 (Example)
+ fugitive (Ex.)
+ none (Example)
+ PB#1
+ (Example)
+ Paint Booth (Example)
+ 10 gal/hr
+ (Example)
+ N/A
+ (Example)
+ 2001
+ (Example
+ 2001
+ (Example)
+ #4
+ (Ex.)
+ Paper Filters
+ (Example)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ 
+Solvent Cleaners
+ (Also known as Parts Washers and/or Solvent Degreasers)
+ 
+ Emission
+ Unit ID
+ Capacity (gallons)
+ Solvent Used
+ Solvent % VOC
+ Degreaser #1 (Example) 
+ 15
+ (Example)
+ Kerosene
+ (Example)
+ 100%
+ (Example)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ 
+ 
+Chemical Usage
+ 
+ Note: Complete this section for any chemicals integral to your process, for example, a cementing process for outersoles, dyes, surface coating, printing, cleaning, etc. Attach additional pages or MSDS sheets as needed.
+ 
+ Process
+ Chemical used in process
+ Actual Annual
+ Usage 
+ (gal or lb)
+ Hazardous chemical(s) in substance
+ Percent VOC1
+ (%)
+ Percent HAP2
+ (%)
+ Total VOC emitted (lb/year)
+ Total HAP emitted (lb/year)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 1 Volatile Organic Compounds
+ 2 Hazardous Air Pollutants
+ 
+ Describe the method of record keeping (ie. monthly calculations from purchase records, flow monitors on solvent tanks, etc.). 
+ 
+ FORMTEXT      
+ 
+ Describe methods used to calculate VOC/HAP emitted (ie – test results, if control equipment was taken into account; if conditions exist where solvents remain in the substrate rather than complete volatilization, etc.)
+ 
+ FORMTEXT      
+ 
+ Section E: STACK DATA
+ 
+ Stack #
+ Height
+ Above Ground
+ (ft)
+ Inside Diameter
+ (ft)
+ Exit Temperature (º F)
+ Exhaust Flow Rate
+ (ft3/s)
+ [indicate actual or standard]
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ 
+Section F: ANNUAL FACILITY FUEL USE
+ 
+ Fuel Type
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Avg % sulfur (oil only)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Avg % moisture (biomass only)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Annual Fue Usage 
+ (include units)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Proposed Limit (if applicable)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ 
+ Section G: LIQUID ORGANIC MATERIAL STORAGE
+ 
+ Tank #
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Capacity (gallons)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Materials Stored 
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Reid Vapor Pressure (RVP)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Annual Throughput
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Roof Type (fixed, IFR, EFR)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Year Installed
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Color 
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Fully Insullated (yes/no)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Dimensions - Height (ft)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Dimensions - Diameter (ft)
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Construction Material
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ Control Device
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ FORMTEXT      
+ 
+ 
+Section H: MISCELLANEOUS
+ 
+ Note: Use this section to describe any equipment, activities, or other air emission sources that did not fit in any of the above categories. Include descriptions of the associated emissions. Attach additional pages if necessary.
+ FORMTEXT      
+ 
+Section I: BPT/BACT AND ATTACHMENTS
+ 
+BPT/BACT Analysis:
+ 
+ For a license renewal for existing equipment, the applicant is required to submit a Best Practical Treatment (BPT) analysis to the Department. A BPT analysis establishes what equipment or requirements are appropriate for control or reduction of emissions of regulated pollutants to the lowest possible level considering the existing state of technology, the effectiveness of available alternatives, and the economic feasibility. 
+ 
+ For a new license or the addition of new equipment to an existing license, the applicant is required to submit a Best Available Control Technology (BACT) analysis. A BACT analysis is a top-down approach to selecting air emission controls. It is done on a case-by-case basis and develops emission limits based on the maximum degree of reduction for each pollutant emitted taking into account economic, environmental and energy impacts. 
+ 
+ 
+ FORMCHECKBOX I certify that, to the best of my knowledge, the control equipment, fuel limitations, and process constraints outlined in this application represent BPT / BACT for the equipment and processes listed.
+ 
+ 
+ OR
+ 
+ 
+ FORMCHECKBOX I have attached a separate BPT / BACT analysis to this application.
+ 
+ 
+Attachments:
+ 
+ Please list any attachments included with this application.
+ 
+ FORMTEXT      
+ 
+Section J: APPLICABLE RULES
+ 
+ Please indicate any rules you believe may be applicable to your facility by checking the associated box.
+ 
+ 
+ Citation
+ Title
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 101
+ Visible Emissions
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 103
+ Fuel Burning Equipment Particulate Emission Standard
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 105
+ General Process Source particulate Emission Standard
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 111
+ Petroleum Liquid Storage Vapor Control
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 112
+ Bulk Terminal Petroleum Liquid Transfer Requirements
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 117
+ Source Surveillance
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 118
+ Gasoline Dispensing Facilities Vapor Control
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 121
+ Emission Limitations and Emission Testing of Resource Recovery Facilities
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 123
+ Paper Coating Regulation
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 124
+ Total Reduced Sulfur Control from Kraft Mills
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 126
+ Capture Efficiency Test Proceedures
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 129
+ Surface Coating Facilities
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 130
+ Solvent Degreasers
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 131
+ Cutback Asphalt and Emulsified Asphalt
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 132
+ Graphic Arts – Rotogravure and Flexography
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 133
+ Petroleum Liquids Transfer Vapor Recovery at Bulk Gasoline Plants
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 134
+ Reasonably Available Control Technology for Facilities That Emit Volatile Organic Compounds
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 137
+ Emission Statements
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 138
+ Reasonably Available Control Technology for Facilities That Emit Nitrogen Oxides
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 145
+ NOx Control Program
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 153
+ Mobile Equipment Repair and Refinishing
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 154
+ Control of Volatile Organic Compounds from Flexible Package Printing
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 159
+ Control of Volatile Organic Compounds from Adhesives and Sealants
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 161
+ Graphic Arts – Offset Lithography and Letterpress Printing
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 162
+ Control for Fiberglass Boat Manuracturing Materials
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 166
+ Industrial Cleaning Solvents
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 169
+ Stationary Generators
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 170
+ Degassing of Petroleum Storage Tanks, Marine Vessels, and Transport Vessels
+ FORMCHECKBOX 
+ 06-096 C.M.R. ch. 171
+ Control of Petroleum Storage Facilities
+ FORMCHECKBOX 
+ 40 CFR Part 60
+ New Source Performance Standards (NSPS)
+ Please list Subpart(s): FORMTEXT      
+ FORMCHECKBOX 
+ 40 CFR Part 63
+ National Emission Standards for Hazardous Air Pollutants (NESHAP)
+ Please list Subpart(s): FORMTEXT      
+ FORMCHECKBOX 
+ Other (list)
+ FORMTEXT      
+ FORMCHECKBOX 
+ Other (list)
+ FORMTEXT      
+ 
+ 
+ 
+ 
+Section K: SIGNATORY REQUIREMENT
+ 
+ Each application submitted to the Department must include the following certification signed by a Responsible Official*:
+ 
+ "I certify under penalty of law that, based on information and belief formed after reasonable inquiry, I believe the information included in the attached document is true, complete, and accurate."
+ 
+ Responsible Official Signature
+ 
+ Responsible Official Name
+ FORMTEXT      
+ Title
+ FORMTEXT      
+ Date
+ FORMTEXT      
+ 
+ 
+ * A Responsible Official is defined by MEDEP Rule, Chapter 100 as:
+
+A. For a corporation: a president, secretary, treasurer, or vice-president of the corporation in charge of a principal business function, or any other person who performs similar policy or decision-making functions for the corporation, or a duly authorized representative of such person if the representative is responsible for the overall operation of one or more manufacturing, production, or operating facilities applying for or subject to a permit and either:
+ 
+(1) The facilities employ more than 250 persons or have gross annual sales or expenditures exceeding $25 million (in second quarter 1980 dollars); or
+
+(2) The delegation of authority to such representatives is approved in advance by the permitting authority;
+ 
+B. For a partnership or sole proprietorship: a general partner or the proprietor, respectively;
+
+C. For a municipality, State, Federal, or other public agency: Either a principal executive officer or ranking elected official. For the purposes of this part, a principal executive officer of a Federal agency includes the chief executive officer having responsibility for the overall operations of a principal geographic unit of the agency (e.g., a Regional Administrator of EPA).

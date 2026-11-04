@@ -1,0 +1,4129 @@
+Class II
+Air Quality Operating Permit for Temporary Construction
+Sources Change of Location Approval Request Form
+
+Guidance Document
+Guide for completing the application for a Change Of
+Location Approval Request Form
+
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control
+901 South Stewart Street, Suite 4001
+Carson City, NV 89701
+(775) 687-9349
+
+Our goal is to achieve and
+maintain levels of air quality
+that will protect human health,
+prevent injury to plant and
+animal life, prevent damage to
+property, and preserve the
+scenic, historical, and aesthetic
+treasures of the state
+
+Table of Contents
+ACRONYMS AND ABBREVIATIONS
+
+1
+
+INTRODUCTION
+
+2
+
+TWO THINGS TO REMEMBER BEFORE STARTING
+
+2
+
+APPLICATION SUBMITTAL AND PROCESSING TIMELINE
+
+2
+
+1.
+
+COVER PAGE
+
+3
+
+2.
+
+IMPORTANT INFORMATION
+
+3
+
+3.
+
+GENERAL COMPANY INFORMATION FORM
+
+3
+
+4.
+
+DETAILED EMISSION CALCULATIONS: FORMS 1A AND 1B
+
+5
+
+4.1
+
+Emission Unit Description
+
+5
+
+4.2
+
+Operating Hours
+
+5
+
+4.3
+
+Emissions Control Technology
+
+5
+
+4.4
+
+Emission Factors
+
+5
+
+4.5
+
+Calculated Emissions
+
+8
+
+4.6
+
+COLA Wide Totals
+
+8
+
+5.
+
+SPECIAL USE AREA ADDITIONAL INFORMATION
+
+8
+
+6.
+
+ADDITIONAL REQUIRED ATTACHMENTS
+
+9
+
+7.
+
+PROCESS FLOW DIAGRAM(S)
+
+9
+
+PROCESS NARRATIVE
+
+10
+
+MAPS: FACILITY LOCATION AND AREA MAP OF THE FACILITY
+
+10
+
+APPLICATION CERTIFICATION DOCUMENT
+
+APPENDIX 1
+
+11
+12
+
+ACRONYMS AND ABBREVIATIONS
+ACFM
+AQOP
+BAPC
+BAQP
+CFR
+CO
+COLA
+HA
+hr
+lb
+N/A
+NAC
+NAD 83
+NDEP
+NOX
+NRS
+NSPS
+PM
+PM10
+
+PM2.5
+
+RO
+SO2
+U.S.C
+UTM
+VOC
+
+Actual Cubic Feet per Minute
+Air Quality Operating Permit
+Bureau of Air Pollution
+Control
+Bureau of Air Quality
+Planning
+Code of Federal Regulations
+Carbon Monoxide
+Change of Location Approval
+Hydrographic Area (Basin)
+Hour
+Pound
+Not Applicable
+Nevada Administrative Code
+North American Datum of
+1983
+Nevada Division of
+Environmental Protection
+Oxides of Nitrogen
+Nevada Revised Statutes
+New Source Performance
+Standards
+Particulate Matter
+Particulate Matter with an
+Aerodynamic Diameter Less
+Than or Equal to 10
+Micrometers
+Particulate Matter with an
+Aerodynamic Diameter Less
+Than or Equal to 2.5
+Micrometers
+Responsible Official
+Sulfur Dioxide
+United States Code
+Universal Transverse
+Mercator
+Volatile Organic Compounds
+
+1
+
+INTRODUCTION
+This document is a detailed guide for completing an application for a Class II General Air Quality
+Operating Permit for Temporary Construction Sources Change of Location Approval Request
+Form (COLA Request Form).
+For additional questions, call (775) 687-9349.
+This guide and its associated application forms can be found on the Nevada Division of
+Environmental Protection (NDEP) website.
+
+TWO THINGS TO REMEMBER BEFORE STARTING
+1.
+
+When filling out the application, complete every blank or explain why no information
+is provided. Specify "N/A” (Not Applicable) if necessary. Fields that are left blank
+may cause a delay in the processing time.
+
+2.
+
+If revising a permit, the facility must still submit all pages of the application and
+attachments.
+
+APPLICATION SUBMITTAL AND PROCESSING TIMELINE
+In order to start processing the application, both the application packet and fee must be received
+in accordance with NAC 445B.327.
+Mail or hand deliver the application and fee(s), payable by check, to the following address:
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control, Class II Permitting Branch
+901 South Stewart Street, Suite 4001
+Carson City, Nevada 89701-5249
+Fees may also be submitted online.
+When submitting an electronic payment,
+include the facility’s name and, if
+applicable, its existing permit number and
+facility identification number.
+The application and fees are date stamped
+when received. The regulatory time frame
+allocates 10 working days in accordance
+with NAC 445B.331.
+
+Bind the physical copies of the
+application.
+Ensure the physical application contains
+the wet signature of the responsible
+official on the Certification Document page
+(See
+“Application
+Certification
+Document”).
+
+Guidance Document for Change of Location Approval Application
+
+2
+
+1. COVER PAGE
+The cover page is the first page of the application, which includes the type of application and
+whether the facility is new or existing.
+Company Name – Please put the name of the company that is requesting the COLA here.
+Specific company information will be requested on page 3 of the COLA Request Form.
+Class II General Permit No. – This refers to the existing permit number located in the header
+section of the Class II General Air Quality Operating Permit For Temporary Construction
+Sources. (Example: Permit No. AP1499-3576). If the facility has applied for the Class II
+General Air Quality Operating Permit For Temporary Construction Sources at the same time as
+applying for a COLA, specify “N/A.”
+Number of Emission Units Requested or Revised – Specify how many emission units are in
+the application or how many units you will be changing in a previously issued COLA.
+
+2. IMPORTANT INFORMATION
+The application contains a section titled “Important Information.” Read this information
+carefully before completing the application. It contains a list of application forms, due dates,
+regulations, and fee(s) associated with a permit.
+
+3. GENERAL COMPANY INFORMATION FORM
+The General Company Information Form requests a brief description of the operations of the
+facility, the contact and mailing information of the company, the responsible official (RO) of the
+facility, the plant manager or other appropriate contact, and the location and driving directions
+to the facility.
+Section 1: Company name and address — Provide the company name and address as you want
+it to appear on the permit.
+Section 2: Responsible official — Provide the name, title, and mailing address for the
+responsible official (RO). If the facility already has an air permit, the RO should be the same as
+what the BAPC already has on file.
+The RO can be:1
+1. For a corporation:
+(a) A president;
+(b) A vice president in charge of a principal business function;
+(c) A secretary;
+(d) A treasurer; or
+
+1
+
+NAC 445B.156
+
+Guidance Document for Change of Location Approval Application
+
+3
+
+(e) An authorized representative of such a person who is responsible for the overall
+operation of the facility and who is designated in writing by an officer of the
+corporation and approved in advance by the director of the Nevada Department of
+Conservation and Natural Resources.
+2. For a partnership or sole proprietorship, a general partner or the proprietor, respectively.
+3. For a municipality or a state, federal, or other public agency, a ranking elected official or a
+principal executive officer, including, for a federal agency, a chief executive officer who
+has responsibility for the overall operations of a principal geographic unit of the agency.
+4. For an affected source, the designated representative or his or her alternate, as defined in
+42 U.S.C. § 7651a(26).
+Section 3: Location and driving directions to the
+facility:
+
+
+Provide the hydrographic area (HA) number(s)
+and name(s), township(s), range(s), and
+section(s) of the facility;
+
+
+
+Provide the Universal Transverse Mercator
+(UTM) coordinates of the front gate of the
+facility. The UTM coordinates must be in
+metric units using North American Datum of
+1983 (NAD 83), Zone 11;
+
+
+
+
+
+Describe the location of the facility with
+respect to the nearest road and city (such as 8th
+Street, Wells, Nevada) and the county the
+facility is located in;
+
+Find the right maps.
+The BAPC keeps online maps that
+can help determine HA basin
+number and names; township,
+section, and range; and UTM
+coordinates.
+Maps can be found online
+
+Provide driving directions from nearest city to
+the facility.
+
+Section 4: Does any other temporary or stationary source exist at this proposed COLA
+request location? — If you are applying for a COLA where another temporary source already
+holds a permit you will need to discuss the situation with the BAPC. If you are applying for a
+COLA that is at a site that holds a Class I or Class II stationary air quality operating permit a
+modeling demonstration will need to be submitted with the COLA application (typically
+completed by the stationary source); these COLA’s will take 30 days to process rather than the
+typical 10 working days.
+Section 5: Does the proposed COLA request project disturb more than 5 acres of land?
+— If your project will be disturbing more than 5 acres of land then you will need to also submit
+an application for a Surface Area Disturbance permit and associated fees. The application can
+be found here: https://ndep.nv.gov/air/permitting/air-permit-forms-and-resources
+Application fees can be found here:
+https://ndep.nv.gov/uploads/air-aqm-docs/200701_ndep_air_program_application__fees.pdf
+
+Guidance Document for Change of Location Approval Application
+
+4
+
+Section 6: Does the COLA request include a Hot Mix Asphalt plant? — If you will be
+operating a hot mix asphalt plant with the requested COLA please check yes and provide the
+date of the last source test that was completed for the asphalt plant.
+Section 7: Which type of COLA are you applying for? — Please choose which option best
+fits your facility.
+Section 8: What is the minimum setback of equipment from public access and maximum
+hours of operation? — When choosing a minimum setback please choose the option for where
+any piece of equipment will be the closest to the fence line or where the public has access. For
+the maximum hours of operation please choose the maximum hours you could operate for the
+COLA.
+
+4. DETAILED EMISSION
+FORMS 1A AND 1B
+
+CALCULATIONS:
+
+Tables for detailed emission calculations has been provided in Form 1A and Form 1B. Form 1A
+is to be utilized for units that only have emissions from particulate matter such as crushers or
+conveyor transfers. Form 1B is to be utilized for units that emit gaseous emissions such as a
+natural gas fired dryer. The submitted detailed emission calculations do not need to follow the
+same format as those provided by the BAPC, as long as all of the information is included.
+
+Give each emission unit a name. Emission units can be grouped in systems (Example: System 1
+– Conveyor 1; System 1 – Screen 1; etc.). A system contains emission units that are part of the
+same process (Example: Crushing Plant- a screening process and associated conveyors) or are
+controlled by the same air pollution control equipment (Example: all stacks lead to one
+baghouse).
+
+Specify maximum daily hours you intend to operate. These calculations should match the
+operating hours you answered for Question 8 of the General Company Information section of
+the application.
+
+Provide the type of control equipment used (baghouse, bin vent, enclosure, water spray, wet
+scrubber, etc.) and add a label and number (Example: Baghouse BH-1). If an emission unit is
+not equipped with control equipment, write “no control” in this section.
+
+Emission factors are used to calculate the requested emission limits for regulated pollutants and
+are pre-defined for COLA applications. The throughput rate with the emission factor gives the
+emission limit of a pollutant. The emission factors that are to be utilized are in the tables in the
+General Permit for Temporary Construction Sources but have also been provided below.
+Guidance Document for Change of Location Approval Application
+
+5
+
+Nonmetallic Minerals Crushing and Screening
+Emission Factor (lb/ton)
+
+Emission Unit
+Loader to Feeder or Bin - Controlled1
+Loader to Feeder or Bin - Uncontrolled
+Crusher - Controlled1
+Screen - Controlled1
+Conveyor Transfer Point - Controlled1
+Notes:
+
+PM
+
+PM10
+
+PM2.5
+
+0.00014
+0.0030
+0.0012
+0.0022
+0.00014
+
+0.000046
+0.0011
+0.00054
+0.00074
+0.000046
+
+0.000013
+0.00017
+0.00010
+0.000050
+0.000013
+
+(1) The emission factors listed for controlled emissions require wet dust suppression located at each
+emission unit and transfer point. Wet dust suppression consists of water sprays, fogging water sprays,
+fogging water sprays with chemical surfactant, or pneumatic fogging water sprays. Pre-wetting of
+material does not constitute wet dust suppression.
+Hot Mix Asphalt Plant
+Emission Unit
+Hot Mix Asphalt Plant - No.2
+Fuel Oil Fired Dryer Controlled1
+Hot Mix Asphalt Plant - Natural
+Gas Fired Dryer - Controlled1
+Hot Mix Asphalt Plant - Waste
+Oil Fired Dryer - Controlled1
+Hot Mix Asphalt Plant - No.2
+Fuel Oil Fired Dryer Controlled2
+Hot Mix Asphalt Plant - Natural
+Gas Fired Dryer - Controlled2
+Hot Mix Asphalt Plant - Waste
+Oil Fired Dryer - Controlled2
+Cold Aggregate/RAP4 Bin
+Feeders - Controlled3
+Cold Aggregate/RAP4 Bin
+Feeders - Uncontrolled
+Cold Aggregate/RAP4 Bin
+Discharge - Controlled3
+Cold Aggregate/RAP4 Bin
+Discharge - Uncontrolled
+Drum Dryer Discharge to
+Conveyor - Uncontrolled
+Hot Mix Asphalt Silo Loading Uncontrolled
+Hot
+Mix
+Asphalt
+Silo
+Discharge - Uncontrolled
+
+Emission Factor (lb/ton)
+PM
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+0.045
+
+0.045
+
+0.045
+
+0.055
+
+0.011
+
+0.13
+
+0.032
+
+0.045
+
+0.045
+
+0.045
+
+0.026
+
+0.0034
+
+0.13
+
+0.032
+
+0.045
+
+0.045
+
+0.045
+
+0.055
+
+0.058
+
+0.13
+
+0.032
+
+0.020
+
+0.020
+
+0.020
+
+0.055
+
+0.011
+
+0.13
+
+0.032
+
+0.033
+
+0.033
+
+0.033
+
+0.026
+
+0.0034
+
+0.13
+
+0.032
+
+0.033
+
+0.033
+
+0.033
+
+0.055
+
+0.058
+
+0.13
+
+0.032
+
+0.00014
+
+0.000046
+
+0.000013
+
+
+
+
+
+
+
+
+
+0.0030
+
+0.0011
+
+0.00017
+
+
+
+
+
+
+
+
+
+0.00014
+
+0.000046
+
+0.000013
+
+
+
+
+
+
+
+
+
+0.0030
+
+0.0011
+
+0.00017
+
+
+
+
+
+
+
+
+
+0.00052
+
+0.00052
+
+0.00052
+
+
+
+
+
+0.0013
+
+0.0042
+
+0.00059
+
+0.00059
+
+0.00059
+
+
+
+
+
+0.0012
+
+0.0122
+
+0.00052
+
+0.00052
+
+0.00052
+
+
+
+
+
+0.0013
+
+0.0042
+
+Notes:
+(1) Wet Scrubber Required
+
+(3) Wet Dust Suppression Required
+
+(2) Bag House Required
+
+(4) Reclaimed/Recycled Asphalt Pavement
+
+Guidance Document for Change of Location Approval Application
+
+6
+
+Lime Marination Plant
+Emission Factor (lb/ton)
+
+Emission Unit
+Loader to Feeder or Bin - Controlled1
+Loader to Feeder or Bin - Uncontrolled
+Feeder to Conveyor - Controlled1
+Feeder to Conveyor - Uncontrolled
+Conveyor to Pugmill - Controlled1
+Conveyor to Pugmill - Uncontrolled
+Pugmill and Discharge to Conveyor - Controlled1
+Pugmill and Discharge to Conveyor - Uncontrolled
+Conveyor Transfer Point - Controlled1
+Conveyor Transfer Point - Uncontrolled
+Lime Silo Loading - Controlled2
+Lime Silo Unloading - Uncontrolled
+Notes:
+
+PM
+
+PM10
+
+PM2.5
+
+0.00014
+0.0030
+0.00014
+0.0030
+0.00014
+0.0030
+0.00014
+0.0030
+0.00014
+0.0030
+0.00099
+0.0048
+
+0.000046
+0.0011
+0.000046
+0.0011
+0.000046
+0.0011
+0.000046
+0.0011
+0.000046
+0.0011
+0.00034
+0.0028
+
+0.000013
+0.00017
+0.000013
+0.00017
+0.000013
+0.00017
+0.000013
+0.00017
+0.000013
+0.00017
+0.00005
+0.00040
+
+(1) Wet Dust Suppression Required
+(2) Emissions during loading are controlled by a bin vent
+Concrete Batching
+Emission Unit
+Loader to Feeder or Bin - Controlled1
+Loader to Feeder or Bin - Uncontrolled
+Aggregate/Sand Conveyor Transfer Point - Controlled1
+Aggregate/Sand Conveyor Transfer Point - Uncontrolled
+Cement Silo Loading - Controlled2
+Cement Silo Unloading - Uncontrolled
+Weigh Hopper Loading – Controlled4
+Weigh Hopper Loading - Uncontrolled
+Cement Supplement Silo Loading - Controlled2
+Cement Supplement Silo Unloading - Uncontrolled
+Central Mixer Loading - Controlled3
+Central Mixer Loading - Uncontrolled
+Truck Mixer Loading - Controlled3
+Truck Mixer Loading - Uncontrolled
+Notes:
+
+Emission Factor (lb/ton)
+PM
+
+PM10
+
+PM2.5
+
+0.00014
+0.0030
+0.00014
+0.0030
+0.00099
+0.0048
+0.0024
+0.0048
+0.0089
+0.0048
+0.0184
+0.572
+0.098
+1.118
+
+0.000046
+0.0011
+0.000046
+0.0011
+0.00034
+0.0028
+0.0014
+0.0028
+0.0049
+0.0028
+0.0055
+0.156
+0.0263
+0.31
+
+0.000013
+0.00017
+0.000013
+0.00017
+0.000050
+0.00040
+0.00020
+0.00040
+0.00070
+0.00040
+0.00080
+0.024
+0.0040
+0.047
+
+(1) The emission factors listed for controlled emissions require wet dust suppression located at each
+emission unit and transfer point. Wet dust suppression consists of water sprays, fogging water sprays,
+fogging water sprays with chemical surfactant, or pneumatic fogging water sprays.
+Pre-wetting of material does not constitute wet dust suppression.
+(2) Emissions during loading are controlled by a bin vent.
+(3) Installations that employ water sprays, enclosures, hoods, curtains, shrouds, moveable and
+telescoping chutes, and central duct collection systems.
+(4) Emissions during loading are controlled by an enclosure utilizing 50% control efficiency.
+
+Guidance Document for Change of Location Approval Application
+
+7
+
+Calculate and enter the projected emissions in lbs/day for each emission unit. Below is an
+example of the emission calculations.
+𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑟𝑎𝑡𝑒
+
+𝑡𝑜𝑛𝑠
+ℎ𝑟𝑠
+𝑙𝑏𝑠
+𝑙𝑏𝑠
+𝑥 𝑂𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 𝐻𝑜𝑢𝑟𝑠
+𝑥 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟
+= 𝐶𝑎𝑙𝑐𝑢𝑙𝑎𝑡𝑒𝑑 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛𝑠
+ℎ𝑟
+𝑑𝑎𝑦
+𝑡𝑜𝑛
+𝑑𝑎𝑦
+
+Example:
+500
+
+𝑡𝑜𝑛𝑠
+ℎ𝑟𝑠
+𝑙𝑏𝑠
+𝑙𝑏𝑠
+𝑥 16
+𝑥 0.00014
+= 1.12
+ℎ𝑟
+𝑑𝑎𝑦
+𝑡𝑜𝑛
+𝑑𝑎𝑦
+
+At the bottom of Form 1B there is table for the total emissions for the COLA. Please fill in the
+totals from all units requested in the COLA application. The total of all emissions for all units
+must not exceed limits in Section V of the Class II General AQOP for Temporary Construction
+Sources or in Appendix 1 of this document.
+
+5. SPECIAL
+USE
+INFORMATION
+
+AREA
+
+ADDITIONAL
+
+Forms 1C and 1D only need to be used if a request for a COLA is being made in the areas of
+Hydrographic Basin (HA) 83 – Tracy Segment listed in the able below. These forms provide
+the additional information that the BAPC will need to conduct an environmental evaluation.
+Township
+
+Range
+
+Sections
+
+19 North
+
+21 East
+
+1, 2, 10 through 14, and 23 through 25
+
+19 North
+
+22 East
+
+All Sections
+
+19 North
+
+23 East
+
+3 through 10, 16 through 21, and 29 through 31
+
+20 North
+
+22 East
+
+24 through 26, 28, 29, and 31 through 36
+
+20 North
+
+23 East
+
+19 through 21, and 27 through 34
+
+Emission Unit Descriptions — These should match the descriptions listed in Forms 1A and 1B.
+UTM Coordinates — The specific UTM coordinates for each emission unit. The UTM
+coordinates must be in metric units using North American Datum of 1983 (NAD 83), Zone 11.
+Release Height — The release height is the distance from the top of the emission unit to ground
+level.
+Drop Length — The drop length is how far material falls from one emission unit to the next
+emission unit (i.e. such as from a conveyor to crusher or stockpile, or a screen to a conveyor).
+Emission Unit Dimensions — Provide the physical dimensions of the emission unit - length
+(L), width (W), and height (H) of the equipment in feet. For example, a feed hopper would be 8
+Guidance Document for Change of Location Approval Application
+
+8
+
+feet long x 6 feed wide x 7 feet high (8x7x6), and a conveyor would be 3 feet wide x 4 feet high
+(3x4).
+Stack Height — Provide the height of the stack in feet (i.e. the height of the stack on the
+baghouse controlling the HMA Plant).
+Stack Inside Diameter — Provide the inside diameter of the stack in feet. If the diameter is
+non-cylindrical, provide the actual dimensions (LxW).
+Stack Flow Rate — Provide the gas volume flow rate through the stack measured in actual cubic
+feet per minute (acfm).
+Stack Exit Velocity — Provide the exit velocity of the of the exhaust gas from the stack
+measured in feet per second (ft/sec).
+Stack Temperature — Provide the temperature of the stack exhaust in degrees Fahrenheit.
+Start Time — You may request to operate certain hours of the day. If you choose to do so,
+provide your start time in this section. Conditions will be written into the COLA accordingly.
+End Time — You may request to operate certain hours of the day. If you choose to do so,
+provide your end time in this section. Conditions will be written into the COLA accordingly.
+Corner Number — Provide a map showing the fence line of the COLA operations. Number
+each corner of the fence line and provide the UTM coordinates for each corner.
+
+6. ADDITIONAL REQUIRED ATTACHMENTS
+There are several other attachments that support and
+contextualize the information the facility provides
+elsewhere in the application. The BAPC uses these
+attachments to inform the public of facilities that need
+permits, prepare the technical review supporting the
+permit, verify data used in the application, and write
+permit conditions. Please draft the required attachments
+in a readable format, with both appropriate font and size.
+
+PROCESS FLOW DIAGRAM(S)
+A process flow diagram is a drawing that illustrates how
+all processes are interconnected. The process flow diagram should include each emission unit(s),
+drop point(s), and minimum requirements as described in our Guidance Document for Process
+Flow Diagrams.
+Only include information that is relevant to air pollution control. The facility does not need to
+include the locations of valves and electrical and water plans.
+
+Guidance Document for Change of Location Approval Application
+
+9
+
+PROCESS NARRATIVE
+The process narrative should describe all processes in the application and any renewal or revision
+details. The goal is to give the BAPC a clear picture of the process of the facility so the BAPC
+can understand how the facility will monitor emissions and know what to write into the permit.
+Make sure the process narrative matches the process flow diagram.
+Here’s a basic outline to follow when drafting the process narrative:
+
+
+Specify the location of the facility and its parent company, if part of a larger business
+(Example: Arturo Mine is located 45 miles Northwest of Elko in Elko County, Nevada,
+Hydrographic Area 61 – Boulder Flat. The mine is part of the Nevada Gold, LLC.).
+
+
+
+Describe what the facility does (Example: mining gold ore, crushing and screening
+aggregates, etc).
+
+
+
+Describe the emission units (equipment) used at the facility. Include information that
+helps describe what the facility does and how it functions.
+
+
+
+Characterize all regulated air pollutants that may be emitted by each emission unit.
+
+
+
+If the facility is requesting a revision, explain what is going to change and why it is
+necessary.
+
+
+
+Outline how and where the facility will be monitoring throughputs to show compliance.
+
+MAPS: FACILITY LOCATION AND AREA MAP OF THE FACILITY
+Submit the following maps as visible, readable printouts (color optional):
+1. A vicinity map that shows the location of the facility with respect to the nearest
+recognizable city, town, and major road, all labeled. Outline the facility.
+2. An area map of the facility with a closer, aerial view that includes the fence line, the
+location of the front gate, and emission unit locations (clearly labeled).
+3. For COLAs located in the Special Area provide the site plan of the entire facility,
+preferably on an aerial or topographic map (drawn to scale). Include the dimensions
+scale and north arrow. The site plan should include the UTM coordinates (NAD 83 /
+UTM Zone 11), though this can be formatted as an excel table for UTM coordinates
+(NAD 83 / UTM Zone 11) and dimensions. Make sure the facility site plan indicates
+and labels the locations of systems.
+
+Guidance Document for Change of Location Approval Application
+
+10
+
+7. APPLICATION CERTIFICATION DOCUMENT
+The last page of the Class II air permit application packet is the Application Certification
+Document — a short summary of the required documents in the application. It must be signed
+in ink by the responsible official (RO) of the company or facility.
+Check the boxes next to each submitted document, and make sure the Application Certification
+Document is signed by the RO listed in Section 6 of the General Company Information Form.
+Create a digital copy of the application, including all requested documents, and submit a digital
+and hard copy of the application with the application processing fee. The complete application
+package can be mailed or hand delivered to the BAPC office (see “Application Submittal and
+Processing Timeline”).
+
+Guidance Document for Change of Location Approval Application
+
+11
+
+Appendix 1
+General Operating Scenarios
+Operating Parameters
+Type of
+Emission Unit
+
+1
+
+Sand/Gravel
+Crushing
+and
+Screening
+(ONLY)
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+37.73
+40.67
+43.05
+45.03
+46.51
+44.53
+48.09
+51.03
+53.26
+55.42
+51.71
+55.82
+59.38
+61.92
+64.58
+83.50
+94.02
+104.66
+113.01
+118.26
+108.00
+121.85
+136.39
+151.11
+164.28
+135.83
+152.32
+169.79
+187.70
+203.87
+165.03
+182.31
+203.00
+226.01
+247.17
+
+13.49
+14.54
+15.39
+16.10
+16.63
+15.93
+17.20
+18.25
+19.04
+19.82
+18.49
+19.96
+21.23
+22.14
+23.09
+29.86
+33.62
+37.42
+40.41
+42.29
+38.62
+43.57
+48.77
+54.04
+58.75
+48.57
+54.47
+60.72
+67.12
+72.90
+59.01
+65.19
+72.59
+80.82
+88.39
+
+1.91
+2.06
+2.18
+2.28
+2.35
+2.25
+2.43
+2.58
+2.69
+2.80
+2.62
+2.82
+3.00
+3.13
+3.27
+4.22
+4.76
+5.29
+5.72
+5.98
+5.46
+6.16
+6.90
+7.64
+8.31
+6.87
+7.71
+8.59
+9.50
+10.31
+8.35
+9.22
+10.27
+11.43
+12.50
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+Guidance Document for Change of Location Approval Application
+
+12
+
+Operating Parameters
+Type of
+Emission Unit
+
+2
+
+Hot Mix
+Asphalt
+with Lime
+Marination
+(ONLY)
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+71.77
+78.07
+85.76
+92.88
+101.14
+95.73
+100.85
+111.13
+117.56
+119.52
+114.47
+122.18
+131.76
+127.29
+136.33
+189.11
+207.95
+215.76
+226.32
+236.57
+282.07
+315.49
+326.60
+338.54
+351.24
+366.99
+412.82
+443.94
+466.21
+478.99
+436.05
+480.18
+540.13
+590.17
+577.40
+
+58.77
+63.93
+70.22
+76.05
+82.82
+78.39
+82.58
+91.00
+96.27
+97.87
+93.73
+100.05
+107.89
+104.23
+111.64
+154.85
+170.28
+176.67
+185.33
+193.72
+230.97
+258.34
+267.44
+277.21
+287.61
+300.51
+338.04
+363.52
+381.76
+392.22
+357.06
+393.20
+442.29
+483.27
+472.81
+
+52.48 133.61 26.72 321.94
+57.09 145.35 29.07 350.23
+62.70 159.65 31.93 384.70
+67.91 172.91 34.58 416.64
+73.95 188.29 37.66 453.70
+70.00 178.23 35.65 429.46
+73.74 187.75 37.55 452.40
+81.25 206.88 41.38 498.51
+85.96 218.87 43.77 527.38
+87.39 222.51 44.50 536.16
+83.70 213.10 42.62 513.49
+89.34 227.47 45.49 548.11
+96.34 245.30 49.06 591.07
+93.08 236.98 47.40 571.03
+99.69 253.81 50.76 611.58
+138.28 352.06 70.41 848.34
+152.05 387.13 77.43 932.84
+157.76 401.67 80.33 967.87
+165.48 421.34 84.27 1015.27
+172.98 440.42 88.08 1061.24
+206.25 525.12 105.02 1265.34
+230.69 587.35 117.47 1415.28
+238.81 608.03 121.61 1465.12
+247.54 630.25 126.05 1518.66
+256.82 653.89 130.78 1575.63
+268.34 683.21 136.64 1646.27
+301.85 768.54 153.71 1851.90
+324.60 826.46 165.29 1991.47
+340.89 867.94 173.59 2091.40
+350.23 891.72 178.34 2148.71
+318.83 811.78 162.36 1956.08
+351.11 893.95 178.79 2154.08
+394.94 1005.55 201.11 2423.00
+431.53 1098.71 219.74 2647.48
+422.19 1074.94 214.99 2590.20
+
+Guidance Document for Change of Location Approval Application
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+117.44
+127.76
+140.34
+151.99
+165.51
+156.66
+165.03
+181.85
+192.39
+195.59
+187.32
+199.95
+215.62
+208.31
+223.10
+309.47
+340.29
+353.07
+370.36
+387.13
+461.59
+516.28
+534.47
+554.00
+574.78
+600.55
+675.56
+726.47
+762.93
+783.83
+713.56
+785.79
+883.89
+965.78
+944.88
+
+13
+
+Operating Parameters
+Type of
+Emission Unit
+
+3
+
+Hot Mix
+Asphalt
+without
+Lime
+Marination
+(ONLY)
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+53.82
+58.39
+64.86
+72.58
+80.60
+74.25
+80.95
+90.33
+101.34
+112.62
+98.54
+107.68
+120.39
+126.13
+130.04
+183.45
+208.30
+210.23
+221.90
+231.75
+283.53
+310.22
+325.33
+342.22
+344.43
+360.58
+394.09
+434.17
+461.43
+466.90
+435.67
+473.26
+508.36
+574.16
+573.94
+
+46.13
+50.05
+55.59
+62.21
+69.08
+63.64
+69.38
+77.42
+86.86
+96.52
+84.46
+92.30
+103.19
+108.11
+111.46
+157.23
+178.53
+180.19
+190.19
+198.63
+243.01
+265.89
+278.84
+293.31
+295.21
+309.05
+337.77
+372.12
+395.48
+400.17
+373.41
+405.63
+435.71
+492.10
+491.92
+
+42.39 108.63 21.73 261.75
+45.99 117.87 23.57 284.02
+51.09 130.93 26.19 315.48
+57.17 146.51 29.30 353.04
+63.48 162.69 32.54 392.02
+58.48 149.87 29.97 361.12
+63.76 163.41 32.68 393.74
+71.14 182.33 36.47 439.34
+79.82 204.55 40.91 492.90
+88.70 227.32 45.46 547.76
+77.61 198.90 39.78 479.28
+84.81 217.36 43.47 523.76
+94.82 243.01 48.60 585.56
+99.34 254.60 50.92 613.49
+102.42 262.50 52.50 632.51
+144.49 370.30 74.06 892.28
+164.06 420.46 84.09 1013.14
+165.58 424.35 84.87 1022.52
+174.77 447.91 89.58 1079.28
+182.53 467.79 93.56 1127.21
+223.31 572.31 114.46 1379.05
+244.34 626.19 125.24 1508.87
+256.24 656.69 131.34 1582.38
+269.53 690.76 138.15 1664.48
+271.28 695.24 139.05 1675.26
+284.00 727.83 145.57 1753.79
+310.39 795.48 159.10 1916.80
+341.96 876.38 175.28 2111.74
+363.43 931.39 186.28 2244.30
+367.73 942.43 188.49 2270.91
+343.14 879.40 175.88 2119.02
+372.75 955.29 191.06 2301.88
+400.40 1026.14 205.23 2472.60
+452.21 1158.94 231.79 2792.60
+452.05 1158.51 231.70 2791.57
+
+Guidance Document for Change of Location Approval Application
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+95.49
+103.61
+115.09
+128.79
+143.01
+131.74
+143.64
+160.27
+179.81
+199.82
+174.84
+191.06
+213.61
+223.80
+230.74
+325.50
+369.59
+373.01
+393.71
+411.20
+503.07
+550.42
+577.24
+607.19
+611.12
+639.77
+699.24
+770.35
+818.70
+828.41
+773.00
+839.71
+901.99
+1018.72
+1018.34
+
+14
+
+Operating Parameters
+Type of
+Emission Unit
+
+4
+
+Concrete
+Batch Plant
+(ONLY)
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+50.75
+53.92
+57.68
+60.62
+63.89
+72.62
+77.88
+83.33
+87.50
+88.89
+88.49
+96.73
+102.38
+107.64
+109.52
+139.29
+150.79
+160.12
+168.75
+175.40
+197.62
+213.29
+229.17
+243.06
+254.76
+251.19
+272.82
+294.64
+312.50
+327.78
+298.02
+323.91
+347.62
+366.67
+380.95
+
+17.86
+18.97
+20.29
+21.33
+22.48
+25.55
+27.40
+29.32
+30.78
+31.27
+31.13
+34.03
+36.02
+37.87
+38.53
+49.00
+53.05
+56.33
+59.37
+61.71
+69.53
+75.04
+80.62
+85.51
+89.63
+88.37
+95.98
+103.66
+109.94
+115.32
+104.85
+113.96
+122.30
+129.00
+134.03
+
+2.70
+2.87
+3.07
+3.23
+3.40
+3.87
+4.15
+4.44
+4.66
+4.73
+4.71
+5.15
+5.45
+5.73
+5.83
+7.42
+8.03
+8.53
+8.99
+9.34
+10.52
+11.36
+12.20
+12.94
+13.57
+13.38
+14.53
+15.69
+16.64
+17.45
+15.87
+17.25
+18.51
+19.52
+20.29
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+Guidance Document for Change of Location Approval Application
+
+15
+
+Operating Parameters
+Type of
+Emission Unit
+
+5
+
+Sand/Gravel
+Crushing
+and
+Screening
+and Hot Mix
+Asphalt
+with Lime
+Marination
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+50.17
+54.49
+60.47
+67.71
+75.39
+68.59
+74.83
+83.39
+93.61
+104.32
+89.11
+97.42
+108.84
+122.22
+135.85
+185.16
+206.69
+217.26
+229.18
+232.37
+244.14
+282.42
+286.00
+316.28
+322.34
+306.29
+335.60
+345.97
+374.58
+395.88
+386.49
+418.22
+430.14
+471.33
+494.86
+
+41.08
+44.62
+49.51
+55.45
+61.73
+56.16
+61.27
+68.29
+76.65
+85.42
+72.97
+79.77
+89.12
+100.08
+111.24
+151.62
+169.25
+177.91
+187.66
+190.28
+199.91
+231.26
+234.19
+258.99
+263.95
+250.81
+274.81
+283.30
+306.73
+324.17
+316.48
+342.46
+352.22
+385.95
+405.22
+
+36.68
+39.84
+44.21
+49.51
+55.12
+50.15
+54.71
+60.98
+68.44
+76.28
+65.16
+71.23
+79.58
+89.37
+99.33
+135.39
+151.13
+158.86
+167.57
+169.91
+178.51
+206.51
+209.12
+231.26
+235.69
+223.96
+245.39
+252.97
+273.89
+289.46
+282.60
+305.80
+314.52
+344.63
+361.84
+
+93.39
+101.44
+112.57
+126.06
+140.35
+127.69
+139.30
+155.25
+174.27
+194.21
+165.89
+181.37
+202.62
+227.54
+252.91
+344.71
+384.79
+404.47
+426.65
+432.60
+454.51
+525.78
+532.44
+588.81
+600.09
+570.22
+624.78
+644.09
+697.35
+737.00
+719.52
+778.59
+800.79
+877.46
+921.27
+
+18.68
+20.29
+22.51
+25.21
+28.07
+25.54
+27.86
+31.05
+34.85
+38.84
+33.18
+36.27
+40.52
+45.51
+50.58
+68.94
+76.96
+80.89
+85.33
+86.52
+90.90
+105.16
+106.49
+117.76
+120.02
+114.04
+124.96
+128.82
+139.47
+147.40
+143.90
+155.72
+160.16
+175.49
+184.25
+
+225.05
+244.43
+271.25
+303.76
+338.19
+307.67
+335.66
+374.09
+419.92
+467.97
+399.74
+437.02
+488.24
+548.28
+609.41
+830.61
+927.21
+974.63
+1028.07
+1042.41
+1095.20
+1266.94
+1282.99
+1418.81
+1445.99
+1374.01
+1505.48
+1552.01
+1680.35
+1775.88
+1733.77
+1876.10
+1929.59
+2114.34
+2219.92
+
+82.10
+89.17
+98.95
+110.81
+123.37
+112.24
+122.45
+136.47
+153.18
+170.71
+145.82
+159.42
+178.11
+200.01
+222.31
+303.00
+338.24
+355.54
+375.03
+380.26
+399.52
+462.17
+468.03
+517.57
+527.49
+501.23
+549.19
+566.16
+612.98
+647.83
+632.47
+684.39
+703.90
+771.30
+809.81
+
+Guidance Document for Change of Location Approval Application
+
+16
+
+Operating Parameters
+Type of
+Emission Unit
+
+6
+
+Sand/Gravel
+Crushing
+and
+Screening
+and Hot Mix
+Asphalt
+without
+Lime
+Marination
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+48.15
+52.27
+57.97
+64.89
+72.20
+66.02
+72.00
+80.20
+89.99
+100.21
+85.95
+93.94
+104.89
+117.75
+130.85
+175.69
+192.00
+205.65
+218.71
+221.84
+232.45
+268.78
+274.77
+299.68
+308.71
+298.57
+324.44
+336.49
+356.49
+374.87
+373.40
+421.42
+423.08
+466.37
+480.96
+
+41.27
+44.80
+49.69
+55.62
+61.88
+56.58
+61.71
+68.74
+77.13
+85.89
+73.67
+80.52
+89.90
+100.92
+112.15
+150.58
+164.56
+176.26
+187.45
+190.14
+199.23
+230.37
+235.50
+256.85
+264.59
+255.90
+278.08
+288.41
+305.54
+321.29
+320.04
+361.20
+362.61
+399.72
+412.23
+
+37.92
+41.17
+45.66
+51.11
+56.87
+52.00
+56.71
+63.17
+70.88
+78.93
+67.70
+73.99
+82.61
+92.74
+103.06
+138.37
+151.22
+161.98
+172.26
+174.73
+183.08
+211.70
+216.42
+236.03
+243.15
+235.16
+255.54
+265.03
+280.77
+295.25
+294.10
+331.92
+333.22
+367.32
+378.82
+
+97.19
+105.51
+117.02
+130.98
+145.74
+133.26
+145.33
+161.89
+181.65
+202.28
+173.50
+189.62
+211.73
+237.67
+264.11
+354.63
+387.56
+415.11
+441.47
+447.79
+469.20
+542.54
+554.63
+604.91
+623.14
+602.66
+654.89
+679.22
+719.57
+756.67
+753.72
+850.65
+853.98
+941.37
+970.83
+
+19.44
+21.10
+23.40
+26.20
+29.15
+26.65
+29.07
+32.38
+36.33
+40.46
+34.70
+37.92
+42.35
+47.53
+52.82
+70.93
+77.51
+83.02
+88.29
+89.56
+93.84
+108.51
+110.93
+120.98
+124.63
+120.53
+130.98
+135.84
+143.91
+151.33
+150.74
+170.13
+170.80
+188.27
+194.17
+
+234.18
+254.23
+281.97
+315.62
+351.19
+321.09
+350.20
+390.10
+437.72
+487.41
+418.07
+456.92
+510.18
+572.70
+636.42
+854.51
+933.86
+1000.27
+1063.77
+1079.00
+1130.58
+1307.32
+1336.45
+1457.60
+1501.52
+1452.18
+1578.05
+1636.66
+1733.90
+1823.29
+1816.17
+2049.74
+2057.78
+2268.35
+2339.34
+
+85.43
+92.74
+102.86
+115.14
+128.11
+117.13
+127.75
+142.31
+159.68
+177.80
+152.51
+166.68
+186.11
+208.92
+232.16
+311.72
+340.67
+364.89
+388.05
+393.61
+412.43
+476.90
+487.53
+531.72
+547.74
+529.74
+575.66
+597.04
+632.51
+665.12
+662.53
+747.73
+750.66
+827.48
+853.37
+
+Guidance Document for Change of Location Approval Application
+
+17
+
+Operating Parameters
+Type of
+Emission Unit
+
+7
+
+Sand/Gravel
+Crushing
+and
+Screening
+and
+Concrete
+Batch Plant
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+56.08
+60.88
+67.80
+76.02
+84.80
+82.34
+89.80
+100.51
+110.31
+113.46
+112.51
+123.04
+129.55
+135.97
+140.53
+190.67
+204.21
+217.45
+230.51
+241.54
+242.42
+260.01
+279.82
+296.30
+309.23
+303.51
+325.33
+348.79
+368.35
+383.07
+343.60
+381.69
+414.25
+437.30
+454.92
+
+19.81
+21.50
+23.95
+26.85
+29.95
+29.08
+31.72
+35.50
+38.96
+40.07
+39.74
+43.46
+45.76
+48.02
+49.63
+67.34
+72.13
+76.80
+81.41
+85.31
+85.62
+91.83
+98.83
+104.65
+109.22
+107.20
+114.90
+123.19
+130.10
+135.29
+121.36
+134.81
+146.31
+154.45
+160.67
+
+2.95
+3.20
+3.57
+4.00
+4.46
+4.33
+4.73
+5.29
+5.80
+5.97
+5.92
+6.47
+6.82
+7.15
+7.39
+10.03
+10.75
+11.44
+12.13
+12.71
+12.76
+13.68
+14.72
+15.59
+16.27
+15.97
+17.12
+18.35
+19.38
+20.16
+18.08
+20.08
+21.80
+23.01
+23.94
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+Guidance Document for Change of Location Approval Application
+
+18
+
+Operating Parameters
+Type of
+Emission Unit
+
+8
+
+Sand/Gravel
+Crushing
+and
+Screening,
+Hot Mix
+Asphalt
+with Lime
+Marination,
+and
+Concrete
+Batching
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+34.94
+37.87
+42.05
+46.96
+52.20
+49.30
+53.56
+59.57
+66.70
+73.69
+63.98
+69.57
+77.55
+86.98
+90.67
+122.54
+134.89
+142.82
+147.03
+153.17
+154.59
+165.23
+176.38
+185.81
+192.58
+179.46
+192.70
+204.91
+214.36
+222.17
+201.56
+227.56
+247.78
+261.18
+271.26
+
+28.61
+31.01
+34.44
+38.45
+42.75
+40.37
+43.85
+48.78
+54.62
+60.34
+52.39
+56.97
+63.51
+71.22
+74.25
+100.34
+110.46
+116.95
+120.39
+125.42
+126.59
+135.30
+144.43
+152.15
+157.70
+146.95
+157.80
+167.79
+175.53
+181.92
+165.05
+186.34
+202.90
+213.86
+222.12
+
+25.55
+27.69
+30.75
+34.34
+38.17
+36.05
+39.16
+43.55
+48.77
+53.88
+46.78
+50.87
+56.71
+63.60
+66.30
+89.60
+98.63
+104.43
+107.51
+112.00
+113.04
+120.81
+128.97
+135.86
+140.82
+131.22
+140.90
+149.83
+156.73
+162.45
+147.38
+166.39
+181.17
+190.97
+198.34
+
+65.04
+70.50
+78.29
+87.43
+97.19
+91.78
+99.70
+110.89
+124.17
+137.19
+119.11
+129.53
+144.38
+161.93
+168.80
+228.13
+251.13
+265.89
+273.72
+285.16
+287.80
+307.60
+328.36
+345.91
+358.53
+334.09
+358.75
+381.48
+399.06
+413.60
+375.24
+423.64
+461.29
+486.22
+505.00
+
+13.01
+14.10
+15.66
+17.49
+19.44
+18.36
+19.94
+22.18
+24.83
+27.44
+23.82
+25.91
+28.88
+32.39
+33.76
+45.63
+50.23
+53.18
+54.74
+57.03
+57.56
+61.52
+65.67
+69.18
+71.71
+66.82
+71.75
+76.30
+79.81
+82.72
+75.05
+84.73
+92.26
+97.24
+101.00
+
+156.72
+169.88
+188.65
+210.66
+234.18
+221.16
+240.25
+267.21
+299.20
+330.58
+287.01
+312.11
+347.91
+390.19
+406.75
+549.71
+605.13
+640.69
+659.56
+687.12
+693.50
+741.21
+791.23
+833.52
+863.92
+805.04
+864.46
+919.22
+961.58
+996.62
+904.19
+1020.82
+1111.53
+1171.62
+1216.85
+
+57.17
+61.97
+68.82
+76.85
+85.43
+80.68
+87.64
+97.48
+109.15
+120.59
+104.70
+113.85
+126.91
+142.34
+148.38
+200.53
+220.75
+233.72
+240.60
+250.65
+252.98
+270.39
+288.64
+304.06
+315.15
+293.67
+315.35
+335.33
+350.78
+363.56
+329.84
+372.39
+405.48
+427.40
+443.90
+
+Guidance Document for Change of Location Approval Application
+
+19
+
+Operating Parameters
+Type of
+Emission Unit
+
+9
+
+Sand/Gravel
+Crushing
+and
+Screening,
+Hot Mix
+Asphalt
+without
+Lime
+Marination,
+and
+Concrete
+Batching
+
+Emission Limits (lbs/day)
+
+Minimum
+Setback
+(meters)
+
+Maximum
+Daily
+Hours of
+Operation
+
+PM
+
+PM10
+
+PM2.5
+
+NOx
+
+SO2
+
+CO
+
+VOC
+
+50
+50
+50
+50
+50
+75
+75
+75
+75
+75
+100
+100
+100
+100
+100
+200
+200
+200
+200
+200
+300
+300
+300
+300
+300
+400
+400
+400
+400
+400
+500
+500
+500
+500
+500
+
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+8
+10
+12
+14
+16
+
+32.52
+35.25
+39.16
+43.73
+48.60
+46.02
+50.01
+55.64
+62.29
+69.13
+59.93
+65.19
+72.69
+81.51
+85.26
+115.25
+125.38
+132.65
+138.47
+143.26
+144.51
+154.43
+164.78
+173.32
+179.77
+169.54
+182.04
+193.46
+202.07
+209.59
+191.80
+216.28
+234.58
+247.74
+257.55
+
+27.87
+30.22
+33.56
+37.48
+41.66
+39.45
+42.86
+47.69
+53.38
+59.25
+51.37
+55.87
+62.30
+69.86
+73.07
+98.78
+107.46
+113.69
+118.68
+122.79
+123.86
+132.36
+141.23
+148.55
+154.08
+145.31
+156.03
+165.81
+173.19
+179.63
+164.39
+185.37
+201.06
+212.34
+220.74
+
+25.61
+27.77
+30.84
+34.44
+38.28
+36.25
+39.38
+43.82
+49.06
+54.45
+47.20
+51.34
+57.25
+64.20
+67.15
+90.77
+98.75
+104.47
+109.06
+112.83
+113.82
+121.63
+129.78
+136.51
+141.59
+133.53
+143.38
+152.37
+159.16
+165.07
+151.06
+170.35
+184.76
+195.13
+202.85
+
+65.64
+71.16
+79.04
+88.27
+98.10
+92.90
+100.94
+112.31
+125.73
+139.53
+120.97
+131.58
+146.72
+164.53
+172.09
+232.64
+253.08
+267.75
+279.51
+289.17
+291.69
+311.72
+332.61
+349.86
+362.88
+342.21
+367.46
+390.50
+407.88
+423.05
+387.15
+436.57
+473.51
+500.07
+519.87
+
+13.13
+14.23
+15.81
+17.65
+19.62
+18.58
+20.19
+22.46
+25.15
+27.91
+24.19
+26.32
+29.34
+32.91
+34.42
+46.53
+50.62
+53.55
+55.90
+57.83
+58.34
+62.34
+66.52
+69.97
+72.58
+68.44
+73.49
+78.10
+81.58
+84.61
+77.43
+87.31
+94.70
+100.01
+103.97
+
+158.17
+171.47
+190.46
+212.70
+236.39
+223.86
+243.22
+270.61
+302.95
+336.22
+291.50
+317.06
+353.53
+396.46
+414.68
+560.57
+609.82
+645.17
+673.51
+696.79
+702.87
+751.12
+801.47
+843.02
+874.40
+824.61
+885.43
+940.95
+982.85
+1019.39
+932.88
+1051.96
+1140.98
+1204.98
+1252.69
+
+57.70
+62.55
+69.48
+77.59
+86.23
+81.66
+88.72
+98.72
+110.51
+122.65
+106.34
+115.66
+128.97
+144.63
+151.27
+204.49
+222.46
+235.35
+245.69
+254.18
+256.40
+274.00
+292.37
+307.53
+318.97
+300.81
+323.00
+343.25
+358.54
+371.87
+340.31
+383.75
+416.22
+439.57
+456.97
+
+Guidance Document for Change of Location Approval Application
+
+20
+
+

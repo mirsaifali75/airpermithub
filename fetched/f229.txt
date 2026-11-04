@@ -1,0 +1,489 @@
+Change of Location Approval Request
+For Temporary Construction Sources
+
+Hot Mix Asphalt Plants
+Concrete Batch Plants
+Sand & Gravel Processing Plants
+
+Company Name: ______________________________
+Class II General Permit No.: AP _________________
+Number of Emission Units Requested or Revised _________________
+DRA
+
+FT
+
+Please Submit Request to:
+Nevada Division of Environmental Protection
+Bureau of Air Pollution Control, Class II Permitting Branch
+901 South Stewart Street, Suite 4001
+Carson City, Nevada 89701-5249
+Phone (775) 687-9349
+
+IMPORTANT INFORMATION
+
+
+The request packet contains:
+
+General Company Information Form
+
+Request Fee
+
+Emission Calculation Form(s)
+
+Special Use Area Additional Information Forms (if applicable)
+
+Process Narrative
+
+Process Flow Diagram(s)
+
+Location Map(s)
+
+Request Certification Document with Required Attachments
+
+
+
+
+Please see the Guidance Document for additional instructions on how to complete the request.
+A printed copy of the request must be submitted (mailed or hand delivered), along with an electronic
+version.
+The request filing fee of $200 per emission unit as required by Nevada Administrative Code (NAC)
+445B.327 must be submitted with the completed request. Checks must be made payable to the “Nevada
+State Treasurer, Environmental Protection” with “BAPC” noted in the memo line. Fees may also be
+submitted electronically at https://epayments.ndep.nv.gov/.
+For crushers and screens, the BAPC considers the associated transfers in and out as part of the crusher or
+screen. As a result, the crusher and screen, along with the associated transfers in and out are considered
+as one emission unit. Fee wise this means that the $200 that is submitted for each crusher and screen also
+covers their associated transfers in and out.
+This request shall only be used to apply for Change of Location Approvals for operating scenarios as
+prescribed under the Class II General Air Quality Operating Permit For Temporary Construction Sources
+(Hot Mix Asphalt Plants, Concrete Batch Plants, and Sand & Gravel Processing Plants) issued on May 7,
+2022. If other activities that have the potential to impact air quality are planned, other permits may be
+required
+This request for a Change of Location Approval under the Class II General Air Quality Operating Permit
+For Temporary Construction Sources must be signed by the Responsible Official, as defined in NAC
+445B.156. The certification/signature page is the last page of the request and the original “wet” signature
+must be provided.
+All items in the request must be addressed. If an item does not apply, “N/A” or similar notation must be
+entered in the appropriate blank. All other information must be provided. Incomplete requests will be
+returned to the Responsible Official within 10 working days of receipt of the request.
+
+
+
+
+
+
+
+
+
+
+
+GENERAL COMPANY INFORMATION FORM
+1.
+
+Company Name and Address:
+Name:
+Address:
+City:
+State:
+Phone:
+
+2.
+
+Zip Code: Company Zip Code
+Fax: Company Fax
+
+Responsible Official Name, Title, and Address:
+Name:
+Title:
+Address:
+City:
+State:
+Phone:
+Email:
+
+3.
+
+Company Name
+Mailing Address
+Company City
+Company State
+Company Phone
+
+RO Name
+RO Title
+RO Address
+RO City
+RO State
+RO Phone
+RO Email
+
+Zip Code: RO Zip Code
+Fax: RO Fax
+
+Location and Driving Directions for the requested Change of Location Approval (COLA)
+Hydrographic Basin (HA) Number and Name : (Ex. 072-Imlay Area)
+
+Public Land Survey System (Mount Diablo Baseline and Meridian):
+Township(s):
+
+N; Range(s):
+
+E; Section(s):
+
+UTM Coordinates for the location of COLA (NAD 83, Zone 11):
+m North;
+Nearest City:
+County:
+Driving Directions from nearest city to the location of COLA:
+
+m East;
+
+4.
+
+Does any other temporary or stationary source exist at this proposed COLA request location?
+☐ Yes ☐ No
+If yes please provide name of the facility and the Air Quality Operating Permit number:
+
+5.
+
+Does the proposed COLA request project disturb more than 5 acres of land?
+☐ Yes ☐ No
+If yes, has a Surface Area Disturbance permit been applied for?
+☐ Yes ☐ No
+
+6.
+
+Does the COLA request include a Hot Mix Asphalt plant?
+☐ Yes ☐ No
+If yes, please provide the date that the most recent performance test was conducted:_______________
+
+7.
+
+Which type of COLA are you applying for?
+☐ Sand/Gravel Crushing and Screening (ONLY)
+☐ Hot Mix Asphalt with Lime Marination (ONLY)
+☐ Hot Mix Asphalt without Lime Marination (ONLY)
+☐ Concrete Batch Plant (ONLY)
+☐ Sand/Gravel Crushing and Screening and Hot Mix Asphalt with Lime Marination
+☐ Sand/Gravel Crushing and Screening and Hot Mix Asphalt without Lime Marination
+☐ Sand/Gravel Crushing and Screening and Concrete Batch Plant
+☐ Sand/Gravel Crushing and Screening and Hot Mix Asphalt with Lime Marination and
+Concrete Batching
+☐ Sand/Gravel Crushing and Screening and Hot Mix Asphalt without Lime Marination and
+Concrete Batching
+
+8.
+
+What is the minimum setback of equipment from public access and maximum hours of operation?
+Minimum Setback:
+
+Maximum Hours of Operation:
+
+☐ 50 meters
+
+☐ 8 hrs
+
+☐ 75 meters
+
+☐ 10 hrs
+
+☐ 100 meters
+
+☐ 12 hrs
+
+☐ 200 meters
+
+☐ 14 hrs
+
+☐ 300 meters
+
+☐ 16 hrs
+
+☐ 400 meters
+☐ 500 meters
+
+Form 1A – Change of Location Emission Unit List: Particulate Emissions (PM) Units Calculation Form3
+[Use this table or equivalent spreadsheet to request operating parameters and calculated particulate emissions for each emission unit. Use Form 1B in addition to Form 1A for units that also emit gaseous pollutants (e.g.,
+Asphalt Plant Drum Dryers, etc.)]
+
+Emission Unit Description
+
+Material Process
+Rate
+tons/
+tons/
+hr
+project
+
+Ex. Conveyor 1 to 2
+
+500
+
+500,000
+
+Operating
+Hours
+(hrs/day)
+
+Emissions Control
+Technology
+
+16
+
+Water Sprays
+
+Emission Factor1
+PM
+(lbs/ton)
+
+PM10
+(lbs/ton)
+
+PM2.5
+(lbs/ton)
+
+0.00014
+
+0.000046
+
+0.000013
+
+Calculated PM
+Emissions
+(lbs/day)
+
+Calculated PM10
+Emissions
+(lbs/day)
+
+Calculated PM2.5
+Emissions
+(lbs/day)
+
+1.12
+
+0.368
+
+0.104
+
+Total2
+1. The Emission Factors established in Section IV of the Class II General Air Quality Operating Permit For Temporary Construction Sources must be used.
+2. The total of PM, PM10, PM2.5, NOX, SO2, CO and VOC emissions for all units must not exceed limits in Section V of the Class II General Air Quality Operating Permit For Temporary Construction Sources.
+3. Use additional forms as necessary.
+Example Calculation: 500 tons/hr x 16 hr/day x 0.00014 lbs/ton = 1.12 lbs/day
+
+Form 1B – Change of Location Emission Unit List: Gaseous Emissions Units Calculation Form3
+[Use Form 1B in addition to Form 1A for emission units that also emit gaseous pollutants (e.g., Asphalt Plant Drum Dryers, etc.)]
+
+Emission Unit Description
+
+Material Process
+Rate
+tons/
+tons/
+hr
+project
+
+Operating
+Hours
+(hrs/day)
+
+Emissions Control
+Technology
+
+Emission
+Factor1
+(lbs/ton)
+
+Pollutant
+
+Calculated
+Emissions
+(lbs/day)
+
+PM
+PM10
+PM2.5
+NOx
+SO2
+CO
+VOCs
+PM
+PM10
+PM2.5
+NOx
+SO2
+CO
+VOCs
+
+COLA Wide Totals
+
+Total
+PM Emissions
+(lbs/day)
+
+Total
+PM10 Emissions
+(lbs/day)
+
+Total
+PM2.5 Emissions
+(lbs/day)
+
+Total
+NOx Emissions
+(lbs/day)
+
+Total
+SO2 Emissions
+(lbs/day)
+
+Total
+CO Emissions
+(lbs/day)
+
+Total
+VOC Emissions
+(lbs/day)
+
+Emissions Totals 2
+1. The Emission Factors established in Section IV of the Class II General Air Quality Operating Permit For Temporary Construction Sources must be used.
+2. The total of PM, PM10, PM2.5, NOX, SO2, CO and VOC emissions for all units must not exceed limits in Section V of the Class II General Air Quality Operating Permit For Temporary Construction Sources.
+3. Use additional forms as necessary.
+
+Form 1C – Special Use Area Additional Information1
+[Use Form 1C if applying for a Change of Location Approval in the Special Use Area as described in the Class II General Air Quality Operating Permit For Temporary Construction Sources]
+
+Emission Unit Description
+
+1. Use additional forms as necessary.
+
+Emission
+Unit
+Identifier
+
+UTM Coordinates
+(NAD 83, Zone 11)
+Easting (m)
+Northing
+(m)
+
+Release
+Height
+(ft)
+
+Drop
+Length
+(ft)
+
+Emission
+Unit
+Dimensions
+LxWxH
+(ft)
+
+Stack
+Height
+(ft)
+
+Stack
+Inside
+Diameter or
+LxW
+Dimensions
+(ft)
+
+Stack Flow
+Rate
+(acfm)
+
+Stack
+Exit
+Velocity
+(ft/sec)
+
+Stack
+Temperature
+(°F)
+
+Requested Hours of
+Operation
+Start Time
+(AM/PM)
+
+End Time
+(AM/PM)
+
+Form 1D – Special Use Area Additional Information
+[Use Form 1D if applying for a Change of Location Approval in the Special Use Area as described in the Class II General Air Quality Operating Permit For Temporary
+Construction Sources. In addition to filling out this form, please provide a topographic map (or similar satellite-image map) showing the entire fence line boundary for
+the proposed Change of Location.]
+
+Corner Number
+
+Corner Location of Fence Line Boundary for the proposed Change of Location
+UTM Easting (m)
+UTM Northing (m)
+(NAD 83, Zone 11)
+(NAD 83, Zone 11)
+
+REQUEST CERTIFICATION DOCUMENT
+(With Required Attachments)
+Please check all applicable boxes below to indicate the information provided in your request submittal:
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+☐
+
+☐
+☐
+☐
+☐
+
+General Company Information Form
+Request Fee Attached ($200 for each emission unit (NAC 445B.327))
+Request Fee Electronically Submitted ($200 for each emission unit (NAC 445B.327))
+Form 1A – Particulate Emissions Calculation Form(s)
+Form 1B – Gaseous Emissions Calculation Form (if applicable)
+Form 1C – Special Use Area Form (if applicable)
+Form 1D – Special Use Area Form (if applicable)
+Process Flow Diagrams(s) of the emission units as they will be set up, including identification of all
+pollution control(s) and which emission units are controlled by these devices. All emission units must
+be identified by name
+Process Narrative which details the flow of material as shown in the Process Flow Diagram(s)
+Topographic Map (or similar satellite-image map) indicating the exact location of each emission unit
+Special Use Area Map (topographic map or similar satellite-image map) – showing the entire fence line
+boundary for the proposed Change of Location (if applicable)
+Request Certification Document with Original “Wet” Signature
+
+PLEASE NOTE THE FOLLOWING REQUIREMENTS WHICH APPLY TO APPLICANTS DURING
+THE REQUEST PROCESS:
+A.
+
+B.
+C.
+
+A request for a change of the location of an emission unit must be made in writing to the
+Director and submitted with the fee for each operating permit at least 10 days before each change
+of location. An owner or operator must not operate the emission unit at the new location until the
+Director approves the location [NAC 445B.331].
+A permit applicant is required to provide any additional information which the Director requests
+in writing within the time specified in the Director's request [NAC 445B.297(1)(c)].
+Submission of fraudulent data or other information may result in prosecution for an alleged
+criminal offense [NRS 445B.470].
+
+CERTIFICATION:
+I certify that, based on information and belief formed after reasonable inquiry, the statements and
+information contained in this request are true, accurate and complete.
+
+Signature of Responsible Official
+
+Print or Type Name and Title
+
+Date
+
+

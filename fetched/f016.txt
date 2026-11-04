@@ -1,0 +1,105 @@
+Permits to Construct and Operate 
+Skip to Content 
+Accessibility Information 
+Search 
+Search 
+Home 
+Home 
+About 
+Air 
+Water 
+Land 
+Climate 
+Permits 
+Contact Us 
+Maryland 
+Department of the Environment 
+Section Menu 
+Air and Radiation Permits Air Quality General Permit Permits to Construct and Operate Title V Program Information Toxic Air Pollutant Regulations Radiation Machines Forms and Guidance Documents Radioactive Materials Forms and Guidance Documents Vaughn Greene Status Update Public Hearing CSX Transportation Permit Maryland Offshore Wind Project W.R. Grace and Co. - Curtis Bay Permit 
+Left_Content
+​​​​​​​​​​​
+Permits to Construct and Operate Application Forms
+Main_Content
+​​​ 
+​The following forms are used to apply for a Permit to Construct or a Permit to Operate from the Air and Radiation Administration (ARA). Please refer to the General Instructions or call us at 410-537-3225 for information.
+The permit to construct and permit to operate forms are available for download in Adobe Acrobat's (.pdf) format. To view the documents, you will have to download and install the Acrobat Reader​ . Zipped files (.zip) are compressed files which may be uncompressed to extract a file or several files using archiving utilities such as the 
+Power Archiver and 
+WinZip software.
+​Special Instructions for Submitting Permit to Construct Application Forms
+After downloading the necessary form(s), complete the form(s) as required. Complete an application checklist and submit one copy along with the appropriate application forms. Make 3 photocopies of the completed form(s), giving a total of 4 completed forms. Make sure that all forms are signed and dated individually. Submit 3 completed copies of the form to the Maryland Department of the Environment, while retaining one copy for your records. Please call us at (410) 537-3225 for any assistance.
+Please Note : Effective May 4, 2016 New Form 5T replaces old Form 5A, and Form 5EP replaces Form 5B. 
+Please Note : the 
+new checklist is now included with Forms 5, 10, 11, 41, 42 and 44. 
+Please Note : If you are applying for a diesel-fired emergency generator set rated at 500 brake horsepower or greater certified by the US EPA, please use the Diesel-Fired Emergency Generator aplplication under Air Quality General Permits to Construct Application Forms 
+The form to be used will depend on the nature of the equipment to be constructed. Form 5 is used for all equipment required to obtain a Permit to Construct other than air pollution control devices, incinerators, and fuel burning equipment (burners). Forms 5T and 5EP are used as supplements to Forms 5 and 10 for sources subject to the toxic air pollutant requirements. Form 6 is used for air pollution control equipment. Form 10 is used for incinerators and Form 11 for fuel burning equipment (boilers). Brief instructions for completing these forms are presented below. More detailed instructions and further guidance for all application forms are available from ARA. Please call us at (410) 537-3225 if you have any questions.
+Ready to Apply?
+You can apply online for all Air Quality General Permits through our Environmental Service Center​ . Here you can submit your application, pay any associated fees, and track the status of your application.​
+Apply for a Permit​ 
+Permit to Construct Application Forms
+Form 5 Application for Processing or Manufacturing Equipment 
+Form 5T Air Toxics Summary Sheet 
+Form 5EP Air Toxic Emission Point Data 
+Form 6 Application for Control Device 
+Form 10 Application for Incinerator 
+Form 11 Application for Fuel Burning Equipment (Boilers) ​
+Form 41 Applica​tion for Portable C​rushing and Screening Equipment for Temporary Sites 
+Form 42 Appli​cation for Emergency Generators ​ 
+Form 44 Application for Internal Combustion Engines (Electrical Power Generators, Power Equipment, Fire Protection Pumps) 
+Form 5
+This is the general application form for all equipment capable of creating air pollution and which is not an air pollution control device, an incinerator, or a boiler. For sources subject to COMAR 26.11.15, Toxic Air Pollutants, a Form 5T and 5EP must accompany the Form 5. A Form 6 is required for any control device associated with the equipment described in Form 5. 
+Information is indicated in the appropriate blanks on the form. Additional comments on certain items of Form 5 follow. Item 12 requests information on stacks. If the source is subject to the toxic air pollutant requirement, one Form 5EP will be used for each stack and Item 12 may be left blank. For other sources, this item should be completed as indicated.
+The block diagram of the process/process line should be a complete diagram including all major process equipment, control devices, discharge points to the atmosphere, and material flow. In some cases, it may be necessary to use additional pages to provide an adequate level of detail.
+In Item 13, list all chemicals or mixtures of chemicals that are used as raw materials, cleaning agents, or any other use connected with the proposed construction. In many cases, it is easier to attach an additional sheet and list raw materials that way. Items 14 and 15 may also be itemized on a separate piece of paper if necessary. 
+Form 5T
+This form is used to summarize the demonstration for meeting the T-BACT (26.11.15.05) and Ambient Impact (26.11.15.06) Requirements for sources subject to COMAR 26.11.15 Toxic Air Pollutants.
+Best Available Control Technology for Toxics (T-BACT) Requirement Part 3 of Form 5T summarizes the T-BACT demonstration. New sources as defined in the regulations are subject to the T-BACT requirement. T-BACT would include any technique that would reduce the impact of process emissions, including the substitution of less toxic materials or a process that uses less material or more efficiently contains material. T-BACT would therefore include options other than control devices installed at emission points. Most modifications are not considered a new source. The T-BACT demonstration must consider the full range of control options available and choose the most effective means of limiting Toxic Air Pollutant emissions, subject only to a showing of compelling reasons of economic or energy impracticality. 
+The first step is to determine the 
+most effective control option for similar or identical sources. If it can be shown that the most effective control option is not technically or economically feasible, then the next most effective control option must be considered. This process is continued until a T-BACT is selected. A form would not be considered complete which states that no T-BACT would be employed with the proposed process. Any applicant not proposing to use the most effective control option would have to supply detailed supporting documentation explaining why the most effective option or options should not be used on the proposed process.
+Ambient Impact Requirement Part 4 of Form 5T summarizes the Demonstration required to meet the Ambient Impact Requirement. All sources, subject to air toxics, are subject to the ambient impact requirements. For each Toxic Air Pollutant (TAP) discharged, the maximum ground level concentration off the property, and the appropriate screening level(s) must be documented for each TAP. To calculate off-site concentrations, you may use TM 86-02 or other acceptable dispersion modeling procedures, or you may call ARMA for assistance. In certain cases, off-site concentrations need not be calculated. Consult the regulations or contact ARMA for assistance. Screening levels are calculated using the procedures defined in COMAR 26.11.15.08. ARMA maintains a list of screening levels. CAS (Chemical Abstract Service) numbers may be found in most chemical reference documents or in the regulations.
+​
+Form 5EP
+This form is used to summarize the estimated emissions discharged from each stack or other emission point subject to COMAR 26.11.15, Toxic Air Pollutants. A Form 5EP must be filled out for each stack or emission point of the source or installation requesting the permit that has emissions of TAPs. If emissions generated from two or more pieces of equipment are discharged from one stack, you will need to fill out one Form 5EP and identify on the required process flow diagram that the number of pieces of equipment contribute to that emission point.
+Form 6
+Use this application form for any type of device that is used to reduce the concentration of air pollutants in the gas stream being discharged to the atmosphere. The information requested on Form 6 relates to the control device only. Usually a Form 6 is submitted with another application such as Form 5, 10, or 11. Form 6 is used to specifically describe the air pollution control device, whereas the other forms are used for the equipment that is creating the air pollution. In some cases, where a new control device is being added to existing equipment, a Form 6 may need to be submitted independently. The information needed on the Form 6 is indicated on the form itself. For Item 15, which requests a flow diagram, a general diagram submitted with Form 5, 10, or 11 will be adequate, as long as all control devices and discharge points to the atmosphere are clearly indicated.
+Form 10
+Use this form for municipal waste, industrial waste, special medical waste, or sewage sludge incinerators. Since incinerators are subject to the toxic air pollutant requirements, Forms 5T and 5EP must be submitted with each Form 10. If the incinerator also has an air pol​lution control device, a Form 6 must be used.
+Form 11
+Use this application form for fuel burning equipment (boilers). The information requested on the form should be provided. If there is a separate control device, a Form 6 should also be completed. Forms 5T and 5EP are not required.
+Part 70 Permit Application Forms for Initial, Renewal and Modification
+Initial Application for Part 70 Operating Permit 
+Renewal Application for Part 70 Operating Permit 
+Application for an Administrative Amendment to a Part 70 Operating Permit 
+Application for a Minor Modification to a Part 70 ​Operating Permit​ 
+Application for a Significant Modification to a Part 70 Operating Permit 
+State Permit to Operate Application Forms
+Form 26 Application for Permit to Operate Process Equipment 
+​ 
+Form 27 Application for Permit to Operate Incinerators 
+Form 28 Application for Permit to Operate Fuel Burning Equipment 
+FEIN HB Request Form ​​
+Center_Content
+Maryland Department of the Environment 
+1800 Washington Blvd 
+Baltimore, MD 21230 
+Contact Us 
+Our Social Media Channels
+We're available on the following channels.
+Google Plus 
+YouTube 
+Vimeo 
+Video 
+Flickr 
+Pinterest 
+Snapchat 
+LinkedIn 
+Blogger 
+Delicious 
+Issuu 
+RSS Feed 
+Slack 
+Reddit 
+SoundCloud 
+Podcast 
+iTunes 
+eNews 
+GovDelivery

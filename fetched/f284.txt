@@ -1,0 +1,550 @@
+Application for Permit to Install (PTI)
+and Permit to Install/Operate (PTIO)
+Division of Air Pollution Control
+Lazarus Government Center
+50 West Town Street, Suite 700
+P.O. Box 1049
+Columbus, Ohio 43216-1049
+
+Note: Application is incomplete if all bolded questions throughout
+the application are not completed.
+
+For EPA Use Only
+Application Number: ____________________
+Date Received: ____________________
+
+Facility Information
+Legal Facility Name:
+Alternate Name (if any):
+Facility Physical Address:
+City:
+
+Zip code:
+
+
+
+County:
+
+Facility ID:
+Facility Description:
+NAICS Code:
+
+SIC Code:
+
+Facility Latitude:
+Decimal Degrees:
+
+degrees
+
+minutes
+
+seconds
+
+Facility Longitude:
+Decimal Degrees:
+
+degrees
+
+minutes
+
+seconds
+
+Core Place ID (if known)
+SCSC ID (if known)
+Portable?
+
+Yes
+
+No
+
+Portable Type:
+
+Asphalt Plant
+
+Concrete Plant
+
+Grinder
+
+Other
+
+Initial Location County:
+
+Generator
+
+Aggregate Processing
+
+Concrete Crusher
+
+If “Other”, describe:
+
+Contact Information
+No change to information on file.
+1.
+
+Billing
+
+Owner
+
+Primary
+
+Operator
+
+First Name:
+Phone: (
+
+Responsible Official
+
+State:
+
+Zip Code:
+
+Last Name:
+)
+
+Address 1:
+City or Township:
+
+Page 1 of 2
+
+On-Site
+
+
+
+Fax: (
+
+)
+
+
+
+Email:
+Address 2:
+
+
+DAPC PTI/PTIO App Gen (Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO Application – General Information
+Contact Information (continued)
+2.
+Billing
+Owner
+
+Primary
+
+Operator
+
+First Name:
+Phone: (
+
+)
+
+
+
+Fax: (
+
+)
+
+
+
+Billing
+
+Owner
+
+Primary
+
+Operator
+
+)
+
+
+
+Fax: (
+
+)
+
+
+
+Owner
+
+Primary
+
+Operator
+
+First Name:
+)
+
+
+
+Fax: (
+
+)
+
+
+
+Responsible Official
+
+State:
+
+Zip Code:
+
+On-Site
+
+Responsible Official
+
+State:
+
+Zip Code:
+
+On-Site
+
+Responsible Official
+
+State:
+
+Zip Code:
+
+Address 2:
+
+Billing
+
+Owner
+
+Primary
+
+Operator
+
+First Name:
+
+
+
+Last Name:
+)
+
+
+
+Fax: (
+
+)
+
+
+
+Address 1:
+
+Email:
+Address 2:
+
+City or Township:
+
+Billing
+
+Owner
+
+Primary
+
+Operator
+
+First Name:
+
+
+
+Last Name:
+)
+
+Address 1:
+City or Township:
+
+Page 2 of 2
+
+On-Site
+
+
+
+Email:
+
+City or Township:
+
+Phone: (
+
+Zip Code:
+
+Last Name:
+
+Address 1:
+
+6.
+
+State:
+
+Address 2:
+
+Billing
+
+Phone: (
+
+Responsible Official
+
+Email:
+
+City or Township:
+
+5.
+
+On-Site
+
+
+
+Last Name:
+
+Address 1:
+
+Phone: (
+
+Zip Code:
+
+Address 2:
+
+First Name:
+
+4.
+
+State:
+
+Email:
+
+City or Township:
+
+Phone: (
+
+Responsible Official
+
+Last Name:
+
+Address 1:
+
+3.
+
+On-Site
+
+
+
+Fax: (
+
+)
+
+
+
+Email:
+Address 2:
+
+
+DAPC PTI/PTIO App Gen (Revised 1/23)
+
+Division of Air Pollution Control
+Application for Permit-to-Install or Permit-to-Install and Operate
+
+Section I – General Application Information
+This section should be filled out for each permit to install (PTI) or Permit to Install and Operate (PTIO) application. A PTI is required for
+all air contaminant sources (emissions units) installed or modified after January 1, 1974, that are subject to OAC Chapter 3745-77. A
+PTIO is required for all air contaminant sources (emissions units) that are not subject to OAC Chapter 3745-77 (Title V). See the
+application instructions for additional information.
+
+For OEPA use only:
+
+Installation
+Modification
+Renewal
+
+Request Federally enforceable restrictions
+General Permit
+Other
+
+1. Is the purpose of this application to transition from OAC Chapter 3745-77 (Title V) to OAC Chapter 3745-31 (PTIO)?
+yes
+
+no
+
+2. Establish PER Due Date - Select an annual Permit Evaluation Report (PER) due date for this facility (does not apply to
+facilities subject to Title V, OAC Chapter 3745-77). If the PER has previously been established and a change is now
+desired, a PER Change Request form must be filed instead of selecting a date here.
+Due Date:
+February 15
+May 15
+August 15
+November 15
+
+For Time Period:
+January 1 through December 31
+April 1 through March 31
+July 1 through June 30
+October 1 through September 30
+
+PER not applicable (Title V) or due date already established
+PER Request Permit Change form attached
+
+3. Federal Rules Applicability - Please check all of the appropriate boxes below.
+New Source Performance Standards (NSPS)
+not affected
+subject to Subpart:
+New Source Performance Standards are listed under 40 CFR
+unknown
+exempt - explain below
+60 - Standards of Performance for New Stationary Sources.
+https://www.epa.gov/stationary-sources-air-pollution/new-source-performance-standards
+National Emission Standards for Hazardous Air Pollutant
+not affected
+subject to Subpart:
+(NESHAP)
+unknown
+subject, but exempt -explain below
+National Emissions Standards for Hazardous Air Pollutants are listed under 40 CFR 61.
+(These include asbestos, benzene, beryllium, mercury, and vinyl chloride).
+https://www.epa.gov/stationary-sources-air-pollution/national-emission-standards-hazardous-air-pollutants-neshap-8
+Maximum Achievable Control Technology (MACT)
+not affected
+subject to Subpart:
+The Maximum Achievable Control Technology standards are
+unknown
+subject, but exempt – explain below
+listed under 40 CFR 63 and OAC rule 3745-31-28.
+https://www.epa.gov/stationary-sources-air-pollution/national-emission-standards-hazardous-air-pollutants-neshap-8
+Page 1 of 3
+
+DAPC PTI/PTIO App Sec 1 (Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO Application Section 1 – General Application Information
+
+Prevention of Significant Deterioration (PSD)
+These rules are found under OAC rule 3745-31-10 through
+OAC rule 3745-31-20.
+https://www.epa.gov/nsr/psd-regulations
+
+not affected
+unknown
+
+subject to regulation
+
+Non-Attainment New Source Review
+These rules are found under OAC rule 3745-31-21 through
+OAC rule 3745-31-27.
+https://www.epa.gov/nsr/nonattainment-nsr-basic-information
+
+not affected
+unknown
+
+subject to regulation
+
+112 (r) - Risk Management Plan
+These rules are found under 40 CFR 68.
+https://www.epa.gov/rmp
+
+not affected
+unknown
+
+subject to regulation
+
+Title IV (Acid Rain Requirements)
+not affected
+subject to regulation
+These rules are found under 40 CFR 72 and 40 CFR 73.
+unknown
+https://www.epa.gov/acidrain/acid-rain-program
+Please explain why you checked “exempt” in this question for one or more federal rules. Identify each exemption and whether the
+entire facility and/or the specific air contaminant sources included in this permit application is exempted. Attach an additional page
+if necessary.
+
+4.
+
+Express PTI/PTIO - Do you want/qualify for express PTI or PTIO processing (no associated extra fees)?
+yes
+
+5.
+
+no
+
+Air Contaminant Sources in this Application - Identify the air contaminant source(s) for which you are applying below. Attach
+additional pages if necessary. Section II of this application and an EAC form should be completed for each air contaminant source.
+Emission Unit ID*
+
+Page 2 of 3
+
+Company Equipment ID (company’s name
+for air contaminate source)
+
+Equipment Description (List all equipment that
+are a part of the air contaminant source)
+
+DAPC PTI/PTIO App Sec 1 (Revised 1/23)
+
+Ohio EPA, Division of Air Pollution Control – PTI/PTIO Application Section 1 – General Application Information
+
+Air Contaminant Sources Table (continued)
+
+* This ID would have been created when a previous air permit was issued. If no previous permits have been issued for this
+air contaminant source, leave this field blank. If this air contaminant source was previously identified in STARShip
+applications as a “Z” source (e.g., Z001), please provide that identification and a new ID will be assigned when the
+PTI/PTIO is issued.
+
+6.
+
+Trade Secret Information - Is any information included in this application being claimed as a trade secret per Ohio Revised Code
+(ORC) 3704.08? http://codes.ohio.gov/orc/3704.08
+yes (A “non-confidential” version must also be submitted in order for this application to be deemed
+complete.)
+no
+
+7.
+
+Permit Application Contact - Person to contact for questions about this application:
+Name:
+
+Title :
+
+Address:
+City/Township:
+Phone: (
+
+8.
+
+)
+
+State:
+
+
+ext.
+
+Fax: (
+
+)
+
+
+
+Zip Code:
+
+
+
+Email:
+
+Authorized Signature – OAC rule 3745-31-04 states that applications for permits to install or permits to install and operate shall be
+signed:
+https://epa.ohio.gov/static/Portals/27/regs/3745-31/3745-31-04f.pdf
+https://epa.ohio.gov/static/Portals/27/regs/3745-77/3745-77-07_Final.pdf
+(1) In the case of a corporation, by a principal executive officer of at least the level of vice president, or his duly authorized
+representative, if such representative is responsible for the overall operation of the facility.
+(2) In the case of a partnership by a general partner.
+(3) In the case of sole proprietorship, by the proprietor, and
+(4) In the case of a municipal, state, federal or other governmental facility, by the principal executive officer, the ranking
+elected official, or other duly authorized employee.
+Under OAC rule 3745-31-04, this signature shall constitute personal affirmation that all statements or assertions of fact made in the
+application are true and complete, comply fully with applicable state requirements, and shall subject the signatory to liability under
+applicable state laws forbidding false or misleading statements.
+___________________________________________________________________________________________________
+Authorized Signature (for facility)
+Date
+___________________________________________________________________________________________________
+Print Name
+Title
+
+Page 3 of 3
+
+DAPC PTI/PTIO App Sec 1 (Revised 1/23)
+
+
