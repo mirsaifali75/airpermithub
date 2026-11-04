@@ -1,0 +1,26 @@
+{
+ "f001.txt": {
+  "url": "https://www.epa.gov/air-emissions-inventories",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/air-emissions-inventories",
+  "type": "text/html",
+  "title": "Air Emissions Inventories | US EPA",
+  "length": 2988
+ },
+ "f002.txt": {
+  "url": "https://www.epa.gov/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring",
+  "type": "text/html",
+  "title": "Compliance Assurance Monitoring | US EPA",
+  "length": 4867
+ },
+ "f003.txt": {
+  "url": "https://www.epa.gov/haps/initial-list-hazardous-air-pollutants-modifications",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/haps/initial-list-hazardous-air-pollutants-modifications",
+  "type": "text/html",
+  "title": "Initial List of Hazardous Air Pollutants with Modifications | US EPA",
+  "length": 8868
+ }
+}
