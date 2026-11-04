@@ -6,7 +6,7 @@ import { exportContent } from "./export";
 import { readFileContent } from "./files";
 import { importContent, SYSTEM_EMAIL, type ImportSummary } from "./import";
 import { proposeChanges } from "./propose";
-import { approveTask, declineTask, removeOfficialDomain } from "./review";
+import { approveTask, closeTask, declineTask, removeOfficialDomain } from "./review";
 
 /**
  * Runs against a throwaway Postgres (TEST_DATABASE_URL), which it wipes first.
@@ -257,6 +257,15 @@ describe.skipIf(!throwaway)("content database", () => {
       expect(await db.reviewTask.findFirstOrThrow({ where: { kind: "SOURCE_CHANGED", entityId: term.id } })).toMatchObject({ versionId: v.id, status: "OPEN" });
       expect(await db.officialDomain.findUnique({ where: { domain: "example.net" } })).toBeNull();
       expect(await db.auditLog.count({ where: { action: "domain.remove" } })).toBe(1);
+
+      const task = await db.reviewTask.findFirstOrThrow({ where: { kind: "SOURCE_CHANGED", entityId: term.id } });
+      await expect(approveTask(db, task.id, reviewerId)).rejects.toThrow(/official citation is published/);
+      await expect(declineTask(db, task.id, reviewerId, "REJECTED", "x")).rejects.toThrow(/Only a proposed change/);
+      await expect(closeTask(db, task.id, reviewerId, "")).rejects.toThrow(/Say why/);
+      await closeTask(db, task.id, reviewerId, "The host was restored.");
+      expect(await db.reviewTask.findUniqueOrThrow({ where: { id: task.id } })).toMatchObject({ status: "CLOSED", decidedById: reviewerId });
+      const restated = await db.reviewTask.findFirstOrThrow({ where: { kind: "RESTATED_THRESHOLD", status: "OPEN" } });
+      await expect(closeTask(db, restated.id, reviewerId, "x")).rejects.toThrow(/closes with a decision/);
     });
   });
 });

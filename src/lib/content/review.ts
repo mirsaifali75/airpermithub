@@ -83,6 +83,7 @@ function approveIn(db: PrismaClient, taskId: string, reviewerId: string, note?: 
     const current = await v.findFirst({ where: { [ident]: task.entityId, status: "PUBLISHED" } });
 
     if (task.kind === "RESTATED_THRESHOLD") throw new ReviewError("A restated threshold closes when a version with verbatim text is approved.");
+    if (task.kind === "SOURCE_CHANGED") throw new ReviewError("This closes when a version with an official citation is published. Close it with a note if the source is fine.");
     if (!task.versionId) {
       // A proposed removal: the record keeps its history but has no published version.
       const proposal = await tx.auditLog.findFirst({ where: { action: "proposal.remove", after: { path: ["taskId"], equals: taskId } } });
@@ -99,6 +100,11 @@ function approveIn(db: PrismaClient, taskId: string, reviewerId: string, note?: 
     if (current) await v.update({ where: { id: current.id }, data: { status: "SUPERSEDED", supersededAt: now } });
     await v.update({ where: { id: draft.id }, data: { status: "PUBLISHED", publishedAt: now, reviewedById: reviewerId, reviewedAt: now } });
     await tx.reviewTask.update({ where: { id: taskId }, data: decided("APPROVED", reviewerId, note) });
+    // The new version passed R1, so it cites an official source again.
+    await tx.reviewTask.updateMany({
+      where: { kind: "SOURCE_CHANGED", entityType: entity, entityId: task.entityId, status: { in: [...openStatuses] } },
+      data: decided("CLOSED", reviewerId, `Version ${draft.versionNo} cites an official source.`),
+    });
     if (entity === "PERMIT_PROGRAM" && !draft.restatedThreshold) {
       await tx.reviewTask.updateMany({
         where: { kind: "RESTATED_THRESHOLD", entityId: task.entityId, status: { in: [...openStatuses] } },
@@ -114,6 +120,7 @@ export async function declineTask(db: PrismaClient, taskId: string, reviewerId: 
   if (!note?.trim()) throw new ReviewError("Say why, so the author knows what to change.");
   return db.$transaction(async (tx) => {
     const task = await openTask(tx, taskId);
+    if (task.kind !== "CHANGE" && task.kind !== "NEW_RECORD") throw new ReviewError("Only a proposed change can be sent back or rejected.");
     if (task.versionId && isVersioned(task.entityType)) {
       const v = versions(tx, task.entityType);
       const draft = await v.findUnique({ where: { id: task.versionId } });
@@ -121,6 +128,19 @@ export async function declineTask(db: PrismaClient, taskId: string, reviewerId: 
     }
     await tx.reviewTask.update({ where: { id: taskId }, data: decided(how, reviewerId, note) });
     await tx.auditLog.create({ data: { actorId: reviewerId, action: how === "REJECTED" ? "review.reject" : "review.send-back", entityType: task.entityType, entityId: task.entityId, after: { taskId, note } } });
+  });
+}
+
+/** Tasks that only ask a reviewer to look at something; they close with a note instead of a decision on a version. */
+export const closableKinds = ["SOURCE_CHANGED", "ERROR_REPORT", "FEDERAL_REGISTER_MATCH"] as const;
+
+export async function closeTask(db: PrismaClient, taskId: string, reviewerId: string, note?: string) {
+  if (!note?.trim()) throw new ReviewError("Say why it can close, for the record.");
+  return db.$transaction(async (tx) => {
+    const task = await openTask(tx, taskId);
+    if (!closableKinds.includes(task.kind as (typeof closableKinds)[number])) throw new ReviewError("This task closes with a decision, not a note.");
+    await tx.reviewTask.update({ where: { id: taskId }, data: decided("CLOSED", reviewerId, note) });
+    await tx.auditLog.create({ data: { actorId: reviewerId, action: "review.close", entityType: task.entityType, entityId: task.entityId, after: { taskId, note } } });
   });
 }
 
