@@ -99,8 +99,8 @@ export function HapTracker() {
           </div>
         </div>
         {s.demo && <p className="mt-2"><Badge tone="amber">Demo data: illustrative numbers, not a real facility or emission factors</Badge></p>}
-        <p role="status" className={cn("mt-4 rounded-xl border p-4 text-sm font-semibold", sum.status === "major" ? "border-red-200 bg-red-50 text-red-800" : sum.status === "area" ? "border-eco-500/30 bg-eco-50 text-eco-700" : "border-line bg-canvas text-slate-700")}>
-          {sum.status === "major" ? "At or above a HAP major source threshold" : sum.status === "area" ? "Below both HAP major source thresholds with the values entered" : "Enter HAP potential to emit to screen the site"}. Screening aid, not a determination.
+        <p role="status" className={cn("mt-4 rounded-xl border p-4 text-sm font-semibold", sum.status === "major" ? "border-red-200 bg-red-50 text-red-800" : sum.status === "area" ? "border-eco-500/30 bg-eco-50 text-eco-700" : sum.gaps.length ? "border-amber-200 bg-amber-50 text-amber-900" : "border-line bg-canvas text-slate-700")}>
+          {sum.status === "major" ? "At or above a HAP major source threshold" : sum.status === "area" ? "Below both HAP major source thresholds with the values entered" : sum.gaps.length ? `Not confirmed below the thresholds yet. ${sum.gaps.join(" ")} Fix those first` : "Enter HAP potential to emit to screen the site"}. Screening aid, not a determination.
         </p>
         {lines.length > 0 && (
           <ul className="mt-4 space-y-3">

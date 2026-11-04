@@ -41,6 +41,16 @@ export interface RollingRow {
   status: RollingStatus;
 }
 
+/**
+ * Rounds away floating-point noise, so 0.1 + 0.2 against a limit of 0.3 is
+ * equal to the limit (not over it), as it is by hand.
+ */
+export const clean = (n: number) => Math.round(n * 1e9) / 1e9;
+
+/** Limit minus the window value: what is left under the limit for that window. */
+export const windowHeadroom = (r: RollingRow, limit: number | null, mode: RollingMode) =>
+  limit === null || r.total === null || (mode === "average" && r.count === 0) ? null : clean(limit - r.total);
+
 export function computeRolling(points: RollingPoint[], o: RollingOptions): RollingRow[] {
   return points.map((p, i) => {
     const win = points.slice(Math.max(0, i - o.period + 1), i + 1);
@@ -49,10 +59,15 @@ export function computeRolling(points: RollingPoint[], o: RollingOptions): Rolli
     const sum = vals.reduce((a, v) => a + v, 0);
     const full = win.length === o.period;
     const missing = count < win.length;
-    const total = count === 0 ? null : o.mode === "sum" ? sum : sum / count;
+    const total = count === 0 ? null : clean(o.mode === "sum" ? sum : sum / count);
     const pct = total !== null && o.limit ? (total / o.limit) * 100 : null;
+    // For a sum limit, months still to come (or missing) can only add, so a
+    // window whose recorded months already exceed the limit is over whatever
+    // the rest turn out to be (as long as no recorded month is negative).
+    const alreadyOver = o.mode === "sum" && o.limit !== null && total !== null && total > o.limit && vals.every((v) => v >= 0);
     let status: RollingStatus;
-    if (!full) status = "partial";
+    if (alreadyOver) status = "over";
+    else if (!full) status = "partial";
     else if (missing) status = "missing";
     else if (o.limit === null || total === null) status = "ok";
     else if (total > o.limit) status = "over";
@@ -74,7 +89,7 @@ export function nextMonthHeadroom(points: RollingPoint[], o: RollingOptions): nu
   const recent = points.slice(Math.max(0, points.length - need));
   if (recent.length < need || recent.some((r) => r.value === null)) return null;
   const sum = recent.reduce((a, r) => a + (r.value ?? 0), 0);
-  return o.mode === "sum" ? o.limit - sum : o.limit * o.period - sum;
+  return clean(o.mode === "sum" ? o.limit - sum : o.limit * o.period - sum);
 }
 
 /** Index of the first forecast row whose window is over the limit, or -1. */

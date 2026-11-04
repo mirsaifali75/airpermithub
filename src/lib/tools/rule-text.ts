@@ -295,7 +295,7 @@ export const RT = {
   ap42Total: q(AP42_7_1.title, "Total routine losses from fixed roof tanks are equal to the sum of the standing loss and working loss:", AP42_7_1.url),
   ap42Standing: q(AP42_7_1.title, "LS = 365 VVWVKEKS", AP42_7_1.url),
   ap42Kn: q(AP42_7_1.title, "for turnovers > 36, KN = (180 + N)/6N", AP42_7_1.url),
-  ap42KnLow: q(AP42_7_1.title, "for turnovers £ 36, KN = 1", AP42_7_1.url),
+  ap42KnLow: q(AP42_7_1.title, "for turnovers ≤ 36, KN = 1", AP42_7_1.url),
   ap42Kp: q(AP42_7_1.title, "for crude oils, KP = 0.75;", AP42_7_1.url),
   ap42KpOther: q(AP42_7_1.title, "for all other organic liquids, KP = 1", AP42_7_1.url),
   ap42Vq: q(AP42_7_1.title, "5.614 = the conversion of barrels to cubic feet, ft3/bbl", AP42_7_1.url),

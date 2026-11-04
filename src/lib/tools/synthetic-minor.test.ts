@@ -87,7 +87,29 @@ describe("facility comparison", () => {
   it("lists rows that are incomplete", () => {
     const s = summarize([row({}), row({ uncontrolled: 5, limitType: "hours" })], settings);
     expect(s.rowProblems).toHaveLength(2);
-    expect(s.overall).toBe("under");
+    // A blank row means the totals are not complete, so "under" cannot be shown yet.
+    expect(s.overall).toBe("incomplete");
+    expect(s.gaps[0]).toMatch(/1 row has no usable uncontrolled PTE/);
+  });
+  it("still reports major when a blank row is present, since missing rows can only add", () => {
+    expect(summarize([row({}), row({ uncontrolled: 120 })], settings).overall).toBe("major");
+  });
+  it("leaves a negative uncontrolled PTE out instead of letting it reduce the total", () => {
+    const s = summarize([row({ uncontrolled: -50 }), row({ uncontrolled: 120 })], settings);
+    expect(s.pollutants[0].limited).toBe(120);
+    expect(s.overall).toBe("major");
+  });
+  it("compares a hand result of exactly 100 tpy as 100 (175.2 × 5,000 ÷ 8,760)", () => {
+    const s = summarize([row({ uncontrolled: 175.2, limitType: "hours", limitValue: 5000 })], settings);
+    expect(s.pollutants[0].comparisons[0].status).toBe("at-or-above");
+    expect(s.pollutants[0].comparisons[0].headroom).toBe(0);
+  });
+  it("does not call the site under when unnamed HAP could put one HAP at 10 tpy", () => {
+    const unnamed = summarize([row({ pollutant: "HAP", hapName: "", uncontrolled: 12 })], settings);
+    expect(unnamed.overall).toBe("incomplete");
+    expect(unnamed.gaps[0]).toMatch(/not named/);
+    const small = summarize([row({ pollutant: "HAP", hapName: "Benzene", uncontrolled: 2 }), row({ pollutant: "HAP", hapName: "", uncontrolled: 1 })], settings);
+    expect(small.overall).toBe("under");
   });
   it("exports every step and the citations", () => {
     const csv = smCsv([row({ uncontrolled: 150, limitType: "hours", limitValue: 4380, condition: "Hours ≤ 4,380 per 12 months" })], settings, "Demo");

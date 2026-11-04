@@ -94,7 +94,7 @@ export interface RowResult {
 export function limitRow(r: SmRow): RowResult {
   const problems: string[] = [];
   if (!has(r.uncontrolled)) return { uncontrolled: null, limited: null, steps: "Enter the uncontrolled potential to emit.", problems };
-  if (r.uncontrolled < 0) problems.push("Uncontrolled PTE is negative.");
+  if (r.uncontrolled < 0) return { uncontrolled: null, limited: null, steps: "Uncontrolled PTE cannot be negative.", problems: ["Uncontrolled PTE is negative, so the row is left out until it is corrected."] };
   let value = r.uncontrolled;
   let steps = `${fmt(r.uncontrolled)} tpy`;
 
@@ -165,7 +165,15 @@ export interface PollutantSummary {
   comparisons: Comparison[];
 }
 
-function compare(program: Comparison["program"], basis: string, tpy: number, quotes: RuleQuote[], uncontrolled: number, limited: number, margin: number | null, note?: string): Comparison {
+/**
+ * Rounds away floating-point noise before a threshold comparison, so a hand
+ * calculation of exactly 100 tpy (175.2 × 5,000 ÷ 8,760) is compared as 100.
+ */
+export const clean = (n: number) => Math.round(n * 1e9) / 1e9;
+
+function compare(program: Comparison["program"], basis: string, tpy: number, quotes: RuleQuote[], uncontrolledRaw: number, limitedRaw: number, margin: number | null, note?: string): Comparison {
+  const uncontrolled = clean(uncontrolledRaw);
+  const limited = clean(limitedRaw);
   const near = has(margin) && margin > 0 ? tpy * (1 - margin / 100) : Infinity;
   const status: ThresholdStatus = limited >= tpy ? "at-or-above" : limited >= near ? "near" : "below";
   return { program, basis, tpy, quotes, status, limitsNeeded: uncontrolled >= tpy, headroom: tpy - limited, note };
@@ -185,6 +193,12 @@ export interface SmSummary {
   hapTotal: PollutantSummary | null;
   /** Rows whose calculation is incomplete or has a problem. */
   rowProblems: { row: SmRow; problems: string[] }[];
+  /**
+   * Reasons an "under" result cannot be relied on yet: rows left out of the
+   * sums, or unnamed HAP that could put a single HAP at the threshold. A result
+   * already at or above a threshold stands, since missing rows can only add.
+   */
+  gaps: string[];
   overall: "major" | "near" | "under" | "incomplete";
 }
 
@@ -240,8 +254,15 @@ export function summarize(rows: SmRow[], s: SmSettings): SmSummary {
     : null;
 
   const all = [...pollutants.flatMap((p) => p.comparisons), ...haps.map((h) => h.comparison), ...(hapTotal?.comparisons ?? [])];
-  const overall: SmSummary["overall"] = !all.length ? "incomplete" : all.some((c) => c.status === "at-or-above") ? "major" : all.some((c) => c.status === "near") ? "near" : "under";
-  return { pollutants, haps, unspeciated, hapTotal, rowProblems, overall };
+  const gaps: string[] = [];
+  const left = results.length - done.length;
+  if (left) gaps.push(`${left} ${left === 1 ? "row has" : "rows have"} no usable uncontrolled PTE and ${left === 1 ? "is" : "are"} left out of the totals.`);
+  const topNamed = haps.length ? haps[0].limited : 0;
+  if (unspeciated.limited > 0 && clean(topNamed + unspeciated.limited) >= HAP_SINGLE)
+    gaps.push(`${fmt(unspeciated.limited)} tpy of HAP is not named. Added to the largest single HAP it would reach ${fmt(HAP_SINGLE)} tpy, so name each HAP to confirm the single-HAP result.`);
+  const major = all.some((c) => c.status === "at-or-above");
+  const overall: SmSummary["overall"] = major ? "major" : !all.length || gaps.length ? "incomplete" : all.some((c) => c.status === "near") ? "near" : "under";
+  return { pollutants, haps, unspeciated, hapTotal, rowProblems, gaps, overall };
 }
 
 export const statusLabel: Record<ThresholdStatus, string> = {
@@ -258,6 +279,7 @@ export function smCsv(rows: SmRow[], s: SmSettings, facility: string): string {
     ["Ozone classification", s.ozone],
     ["PSD listed source category", s.listed],
     ["Design margin (%) (user choice, not a rule value)", s.marginPct ?? ""],
+    ["Screening result", { major: "At or above a major source threshold with the limits entered", near: "Under every threshold, inside the design margin on at least one", under: "Under every threshold compared", incomplete: ["Not confirmed", ...sum.gaps].join(" ") }[sum.overall]],
     [],
     ["Unit", "Description", "Pollutant", "HAP name", "Uncontrolled PTE (tpy)", "Control (%)", "Control enforceable", "Limit type", "Limit value", "Limit units", "Full-capacity throughput", "Limited PTE (tpy)", "Calculation", "Basis / method", "Problems"],
     ...rows.map((r) => {
@@ -326,6 +348,6 @@ export function hapCsv(rows: HapRow[], marginPct: number | null, oilGas: boolean
     ...(s.unspeciated.uncontrolled ? [["Unspeciated HAP (total only)", round(s.unspeciated.limited)]] : []),
     ...(s.hapTotal ? [["All HAP combined", round(s.hapTotal.limited), s.hapTotal.comparisons[0].tpy, round(s.hapTotal.comparisons[0].headroom), statusLabel[s.hapTotal.comparisons[0].status], "40 CFR 63.2"]] : []),
     [],
-    ["Screening result", s.status === "major" ? "At or above a HAP major source threshold" : s.status === "area" ? "Below both HAP major source thresholds" : "Incomplete"],
+    ["Screening result", s.status === "major" ? "At or above a HAP major source threshold" : s.status === "area" ? "Below both HAP major source thresholds" : ["Not confirmed", ...s.gaps].join(" ")],
   ]);
 }

@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
 import { addMonths, isMonth, monthName, parsePastedColumn, thisMonth } from "@/lib/tools/months";
-import { computeRolling, firstForecastExceedance, nextMonthHeadroom, type RollingMode, type RollingRow } from "@/lib/tools/rolling";
+import { computeRolling, firstForecastExceedance, nextMonthHeadroom, windowHeadroom, type RollingMode, type RollingRow } from "@/lib/tools/rolling";
 import { NumberField, csvFileName, downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
 
 interface TrackerState {
@@ -60,6 +60,8 @@ export function RollingTracker() {
   const rows = useMemo(() => computeRolling(points, opts), [points, opts]);
   const actualRows = rows.filter((r) => !r.forecast);
   const latest = [...actualRows].reverse().find((r) => r.status !== "partial");
+  /** Limit minus the window value, shown only where the window is complete (or already over). */
+  const shownHeadroom = (r: RollingRow) => (r.status === "partial" || r.status === "missing" ? null : windowHeadroom(r, s.limit, opts.mode));
   const headroom = nextMonthHeadroom(s.values.map((value) => ({ value })), opts);
   const firstOver = firstForecastExceedance(rows);
   const label = (i: number) => (isMonth(s.start) ? monthName(addMonths(s.start, i)) : `Month ${i + 1}`);
@@ -74,8 +76,8 @@ export function RollingTracker() {
   };
 
   const exportCsv = () => {
-    const head = ["Month", `Value (${u})`, "Forecast", `Rolling ${opts.period}-month ${opts.mode} (${u})`, "Months in window", "% of limit", "Status"];
-    const body = rows.map((r) => [isMonth(s.start) ? addMonths(s.start, r.index) : r.index + 1, r.value ?? "", r.forecast ? "yes" : "", r.total ?? "", r.count, r.pct === null ? "" : r.pct.toFixed(1), statusMeta[r.status].label]);
+    const head = ["Month", `Value (${u})`, "Forecast", `Rolling ${opts.period}-month ${opts.mode} (${u})`, "Months in window", "% of limit", `Headroom: limit minus rolling value (${u})`, "Status"];
+    const body = rows.map((r) => [isMonth(s.start) ? addMonths(s.start, r.index) : r.index + 1, r.value ?? "", r.forecast ? "yes" : "", r.total ?? "", r.count, r.pct === null ? "" : r.pct.toFixed(1), shownHeadroom(r) ?? "", statusMeta[r.status].label]);
     const meta = [
       ...(s.demo ? [["DEMO DATA: illustrative numbers, not a real facility"]] : []),
       ["Recordkeeping aid. The limit, window, and sum or average come from your permit condition; check every value against your records."],
@@ -212,6 +214,7 @@ export function RollingTracker() {
                 <th scope="col" className="px-3 py-2 text-right font-semibold">Value ({u})</th>
                 <th scope="col" className="px-3 py-2 text-right font-semibold">Rolling {opts.mode === "sum" ? "total" : "average"}</th>
                 <th scope="col" className="px-3 py-2 text-right font-semibold">% of limit</th>
+                <th scope="col" className="px-3 py-2 text-right font-semibold">Headroom ({u})</th>
                 <th scope="col" className="px-3 py-2 font-semibold">Status</th>
               </tr>
             </thead>
@@ -220,8 +223,9 @@ export function RollingTracker() {
                 <tr key={r.index} className={cn(r.forecast && "bg-brand-50/40")}>
                   <th scope="row" className="px-3 py-2 text-left font-medium text-ink">{label(r.index)}{r.forecast && <span className="ml-1.5 text-xs font-semibold text-brand-700">forecast</span>}</th>
                   <td className="px-3 py-2 text-right tabular-nums">{n2(r.value, 3)}</td>
-                  <td className="px-3 py-2 text-right tabular-nums">{n2(r.total, 3)}{r.status === "partial" && <span className="ml-1 text-xs text-muted">({r.count} mo)</span>}</td>
+                  <td className="px-3 py-2 text-right tabular-nums">{n2(r.total, 3)}{(r.status === "partial" || (r.status === "over" && r.index + 1 < opts.period)) && <span className="ml-1 text-xs text-muted">({r.count} mo)</span>}</td>
                   <td className="px-3 py-2 text-right tabular-nums">{r.pct === null ? "—" : `${n2(r.pct, 1)}%`}</td>
+                  <td className="px-3 py-2 text-right tabular-nums">{n2(shownHeadroom(r), 3)}</td>
                   <td className="px-3 py-2"><span className={cn("inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold", statusMeta[r.status].cls)}>{r.status === "over" ? <AlertTriangle className="h-3 w-3" aria-hidden="true" /> : r.status === "ok" ? <CheckCircle2 className="h-3 w-3" aria-hidden="true" /> : null}{statusMeta[r.status].label}</span></td>
                 </tr>
               ))}

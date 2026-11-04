@@ -39,12 +39,13 @@ export interface InvResult { tpy: number | null; steps: string; problems: string
 
 export function invRow(r: InvRow): InvResult {
   const problems: string[] = [];
+  if (has(r.otherTpy) && r.otherTpy < 0) return { tpy: null, steps: "Emissions cannot be negative.", problems: ["The other-method value is negative, so the row is left out of the totals until it is corrected."] };
   if (has(r.otherTpy)) {
     if (has(r.factor)) problems.push("Both a factor and an other-method value are entered; the other-method value is used.");
     return { tpy: r.otherTpy, steps: `${fmt(r.otherTpy)} tpy by ${r.method.trim() || "another method"}`, problems };
   }
   if (!has(r.activity) || !has(r.factor)) return { tpy: null, steps: "Enter activity and an emission factor, or a value from another method.", problems };
-  if (r.activity < 0 || r.factor < 0) problems.push("Activity and factor should not be negative.");
+  if (r.activity < 0 || r.factor < 0) return { tpy: null, steps: "Activity and factor cannot be negative.", problems: ["Activity or factor is negative, so the row is left out of the totals until it is corrected."] };
   let lb = r.activity * r.factor;
   const u = r.activityUnits.trim() || "units";
   let steps = `${fmt(r.activity)} ${u} × ${fmt(r.factor)} lb/${u.replace(/\/(yr|year)$/i, "")}`;

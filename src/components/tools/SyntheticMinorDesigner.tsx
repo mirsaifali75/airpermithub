@@ -65,7 +65,9 @@ export function SyntheticMinorDesigner() {
     major: { t: "At or above a major source threshold with the limits entered", c: "border-red-200 bg-red-50 text-red-800" },
     near: { t: "Under every threshold, but inside your design margin on at least one", c: "border-amber-200 bg-amber-50 text-amber-900" },
     under: { t: "Under every threshold compared, with the limits entered", c: "border-eco-500/30 bg-eco-50 text-eco-700" },
-    incomplete: { t: "Enter at least one unit to compare with the thresholds", c: "border-line bg-canvas text-slate-700" },
+    incomplete: sum.gaps.length
+      ? { t: `Not confirmed under the thresholds yet. ${sum.gaps.join(" ")} Fix those first`, c: "border-amber-200 bg-amber-50 text-amber-900" }
+      : { t: "Enter at least one unit to compare with the thresholds", c: "border-line bg-canvas text-slate-700" },
   }[sum.overall];
 
   return (
