@@ -108,6 +108,7 @@ export const ruleGuides: Guide[] = [
       { title: "40 CFR 60.5365b: OOOOb applicability, including tank battery limits (eCFR)", url: ecfr("60.5365b", "(e)(2)(i)") },
     ],
     related: [
+      { label: "Synthetic Minor Limit Designer", href: "/tools/synthetic-minor-limit-designer" },
       { label: "Potential to emit, explained", href: "/resources/potential-to-emit-explained" },
       { label: "Tracking a 12-month rolling limit", href: "/resources/tracking-rolling-12-month-limits" },
       { label: "Rolling 12-Month Limit Tracker", href: "/tools/rolling-12-month-tracker" },
@@ -276,6 +277,7 @@ export const ruleGuides: Guide[] = [
       { title: "40 CFR 63.761: Subpart HH definitions (eCFR)", url: ecfr("63.761") },
     ],
     related: [
+      { label: "HAP Major Source Tracker", href: "/tools/hap-major-source-tracker" },
       { label: "Applicability Checker", href: "/applicability" },
       { label: "Writing a synthetic minor limit", href: "/resources/writing-a-synthetic-minor-limit" },
       { label: "NESHAP HH in the Rule Library", href: "/regulations/neshap/subpart-hh" },
@@ -441,6 +443,66 @@ export const ruleGuides: Guide[] = [
       { label: "Storage tank rules: Kb, Kc, and OOOOb", href: "/resources/storage-tank-rules-kb-kc-oooob" },
       { label: "Emission Calculators", href: "/calculators" },
       { label: "Potential to emit, explained", href: "/resources/potential-to-emit-explained" },
+    ],
+  },
+  {
+    slug: "does-cam-apply-part-64",
+    title: "Does CAM apply? The Part 64 criteria and what a CAM plan contains",
+    summary: "How to read the three applicability criteria in 40 CFR 64.2(a) unit by unit, which limits are exempt, and what the monitoring submittal has to include.",
+    category: "Compliance",
+    scene: "industrial",
+    readMinutes: 8,
+    published: "2026-11-04",
+    sections: [
+      {
+        heading: "Who Part 64 reaches",
+        paragraphs: [
+          "Compliance assurance monitoring is a Title V program. It applies only at a source that must hold a Part 70 or Part 71 operating permit as a major source, and even there it works one pollutant-specific emissions unit at a time: one unit, one pollutant.",
+          "So the first step is a list: every unit with a control device, and every pollutant that device is there to control.",
+        ],
+        quotes: [RT.camApplies],
+      },
+      {
+        heading: "The three criteria, read together",
+        paragraphs: [
+          "A unit and pollutant pair is in only when all three hold. The first is about the requirement: an emission limitation or standard for that pollutant that is not one of the exempt kinds. The second is about how the unit complies: through a control device. The third is about size before control.",
+          "The size test uses potential pre-control device emissions: potential to emit as Part 64 defines it, but without the reduction the control device provides. Compare it with the amount that makes a source major for that pollutant in your area, which is the Part 70 threshold.",
+        ],
+        quotes: [RT.camLimit, RT.camControl, RT.camPrecontrol],
+      },
+      {
+        heading: "Limits that do not count",
+        paragraphs: [
+          "Part 64 lists limitations and standards it does not apply to. Two come up most: new source performance standards and air toxics standards EPA proposed after the Clean Air Act Amendments, which carry their own monitoring, and limits where the permit already specifies a continuous compliance determination method.",
+          "The list in 40 CFR 64.2(b) has more items, including Acid Rain requirements, emissions trading programs, and certain emissions caps. Read it in full for each limit before you set a unit aside.",
+        ],
+        quotes: [RT.camPost1990, RT.camContinuous],
+      },
+      {
+        heading: "What the CAM submittal contains",
+        paragraphs: [
+          "For each unit and pollutant that is in, the owner proposes monitoring that meets the design criteria in 40 CFR 64.3 and submits it with the permit application. The monitoring watches indicators of control device performance and compares them with ranges set so that staying inside them gives reasonable assurance of compliance.",
+        ],
+        quotes: [RT.camIndicators, RT.camRanges, RT.camSubmitIndicators, RT.camSubmitRanges, RT.camSubmitPerformance, RT.camSubmitCems],
+      },
+      {
+        heading: "Excursions and exceedances",
+        paragraphs: [
+          "The two words mean different things. An excursion is leaving the indicator range. An exceedance is monitoring data, in the units of the limit, showing emissions above the limit. Define both in the plan with the averaging period that applies, and say what operators do when one happens.",
+        ],
+        quotes: [RT.camExcursion, RT.camExceedance],
+      },
+    ],
+    sources: [
+      { title: "40 CFR Part 64: Compliance Assurance Monitoring (eCFR)", url: "https://www.ecfr.gov/current/title-40/part-64" },
+      { title: "40 CFR 64.2: applicability (eCFR)", url: ecfr("64.2") },
+      { title: "EPA: Compliance Assurance Monitoring", url: "https://www.epa.gov/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring" },
+    ],
+    related: [
+      { label: "CAM Plan Builder", href: "/tools/cam-plan-builder" },
+      { label: "Title V operating permits: what they require", href: "/resources/title-v-basics" },
+      { label: "Building a Title V compliance matrix", href: "/resources/building-a-title-v-compliance-matrix" },
+      { label: "Deviation & Prompt Reporting Tracker", href: "/tools/deviation-log" },
     ],
   },
 ];
