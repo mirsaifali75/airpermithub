@@ -72,6 +72,7 @@ export const workbooks: Workbook[] = [
     description: "Annual actual emissions by unit and pollutant from activity, emission factor (lb per activity unit), and control, or from another method you name. Totals by pollutant and HAP by name.",
     sheets: ["Inventory", "Summary"],
     cites: [],
+    web: { label: "Emission Inventory Builder", href: "/tools/emission-inventory" },
   },
   {
     slug: "cam-plan-builder",
@@ -80,6 +81,7 @@ export const workbooks: Workbook[] = [
     description: "Screen each pollutant-specific emissions unit against the three 40 CFR 64.2(a) criteria, then record indicators, ranges, performance criteria, and excursion response, with the 64.4(a) submittal checklist.",
     sheets: ["CAM Applicability", "CAM Plan Details", "Checklist"],
     cites: ["40 CFR 64.1", "40 CFR 64.2", "40 CFR 64.3(a)", "40 CFR 64.4(a)"],
+    web: { label: "CAM Plan Builder", href: "/tools/cam-plan-builder" },
   },
   {
     slug: "nsps-neshap-applicability-matrix",

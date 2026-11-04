@@ -5,7 +5,7 @@ import { converters } from "./converters";
  * the tools hub, the home page, search, and the sitemap.
  */
 
-export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap";
+export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap" | "inventory" | "cam";
 
 export interface ToolEntry {
   slug: string;
@@ -46,6 +46,24 @@ export const coreTools: ToolEntry[] = [
     description: "List HAP by unit with enforceable controls. Each HAP is summed across the site and compared with 10 tpy; all HAP together with 25 tpy, with the 40 CFR 63.2 text quoted.",
     icon: "hap",
     keywords: "hap major source tracker area source hazardous air pollutants 10 tpy 25 tpy single hap combined hap formaldehyde benzene neshap mact gact potential to emit",
+  },
+  {
+    slug: "emission-inventory",
+    href: "/tools/emission-inventory",
+    name: "Emission Inventory Builder",
+    problem: "What did each unit actually emit last year, and can I show the math behind every number?",
+    description: "Annual actual emissions by unit and pollutant from activity × your emission factor × control ÷ 2,000, or from CEMS and test results. Totals by pollutant and HAP by name, with every line's calculation in the export.",
+    icon: "inventory",
+    keywords: "emission inventory annual emissions inventory actual emissions calculation emission factor activity data ap-42 cems tpy state emission inventory report",
+  },
+  {
+    slug: "cam-plan-builder",
+    href: "/tools/cam-plan-builder",
+    name: "CAM Plan Builder",
+    problem: "Which units need Compliance Assurance Monitoring, and what goes in the CAM plan?",
+    description: "Screen each unit and pollutant against the three 40 CFR 64.2(a) criteria, then record indicators, ranges, performance criteria, and excursion response, with the Part 64 text quoted beside each item.",
+    icon: "cam",
+    keywords: "cam plan compliance assurance monitoring part 64 64.2 applicability indicator range excursion exceedance pre-control potential to emit title v monitoring",
   },
   {
     slug: "rolling-12-month-tracker",
