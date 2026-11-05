@@ -1,5 +1,7 @@
 import { ArrowRight, BookOpen, ClipboardList, Factory, GraduationCap, HardHat, MapPin, UserCog, Users } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
+import aerialPhoto from "../../../public/images/site/10-aerial-well-pad.webp";
 import { SectionHeading } from "@/components/ui/Section";
 import { Badge, DemoBadge } from "@/components/ui/Badge";
 import { buttonClass } from "@/components/ui/Button";
@@ -96,15 +98,17 @@ export function LatestJobs() {
 
 export function FinalCta() {
   return (
-    <section className="relative overflow-hidden bg-navy-900 py-20 text-white">
-      <div aria-hidden="true" className="absolute -top-24 left-1/4 h-72 w-72 rounded-full bg-brand-500/30 blur-3xl" />
-      <div aria-hidden="true" className="absolute -bottom-24 right-1/4 h-72 w-72 rounded-full bg-eco-500/20 blur-3xl" />
+    <section className="relative isolate overflow-hidden bg-navy-950 py-24 text-white sm:py-28">
+      {/* MIR's aerial well pad photo (shot list #10), darkened for the headline. */}
+      <Image src={aerialPhoto} alt="" placeholder="blur" fill sizes="100vw" className="-z-10 object-cover" />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-navy-950/55" />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950/90 via-transparent to-navy-950/60" />
       <div className="container-page relative text-center">
         <h2 className="mx-auto max-w-3xl text-3xl font-extrabold text-balance sm:text-5xl">Stop Searching Across Dozens of Websites.</h2>
         <p className="mx-auto mt-4 max-w-xl text-lg text-white/75">Find the air permitting information and tools you need in one place.</p>
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-          <Link href="/sign-up" className={buttonClass("primary", "lg")}>Get Started Free <ArrowRight className="h-5 w-5" aria-hidden="true" /></Link>
-          <Link href="/permit-finder" className={buttonClass("outline-light", "lg")}>Explore AirPermitHub</Link>
+          <Link href="/sign-up" className={buttonClass("primary", "lg")}>Create your free account <ArrowRight className="h-5 w-5" aria-hidden="true" /></Link>
+          <Link href="/sign-in" className={buttonClass("outline-light", "lg")}>Sign in</Link>
         </div>
       </div>
     </section>

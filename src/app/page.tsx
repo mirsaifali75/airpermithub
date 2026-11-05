@@ -2,8 +2,8 @@ import { Hero } from "@/components/home/Hero";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { ProblemSolvers } from "@/components/home/ProblemSolvers";
 import { IndustriesAndRegulations } from "@/components/home/IndustriesAndRegulations";
-import { Audiences, FinalCta, LatestJobs, LatestResources } from "@/components/home/LowerSections";
-import { SectorStrip } from "@/components/home/SectorStrip";
+import { Audiences, FinalCta, LatestResources } from "@/components/home/LowerSections";
+import { FieldCoverage, ProductPreviews, WorkspaceSection } from "@/components/home/PhotoSections";
 import { ToolCards } from "@/components/home/ToolCards";
 import { StateExplorer } from "@/components/states/StateExplorer";
 import { SectionHeading } from "@/components/ui/Section";
@@ -18,10 +18,11 @@ export default function HomePage() {
       <div className="bg-canvas">
         <ToolCards />
       </div>
-      <SectorStrip />
+      <ProductPreviews />
+      <HowItWorks />
       <ProblemSolvers />
       <IndustriesAndRegulations />
-      <HowItWorks />
+      <FieldCoverage />
       <section className="bg-canvas py-16 sm:py-20" aria-labelledby="states-heading">
         <div className="container-page">
           <SectionHeading
@@ -34,9 +35,9 @@ export default function HomePage() {
           <StateExplorer profiles={profiles} compact />
         </div>
       </section>
+      <WorkspaceSection />
       <Audiences />
       <LatestResources />
-      <LatestJobs />
       <FinalCta />
       <div className="bg-canvas py-6">
         <div className="container-page"><Disclaimer /></div>

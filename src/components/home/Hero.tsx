@@ -2,7 +2,8 @@ import { BookOpenCheck, Calculator, Link2, MapPinned, Search } from "lucide-reac
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/brand/airpermithub-logo.png";
-import heroPhoto from "../../../public/images/industries/oil-and-gas.jpg";
+import heroPhoto from "../../../public/images/site/01-hero-production-site.webp";
+import { buttonClass } from "@/components/ui/Button";
 
 const features = [
   { icon: Link2, title: "Official Source Links", sub: "EPA, eCFR, and state agencies", href: "/regulations" },
@@ -35,8 +36,8 @@ const popular = [
 export function Hero({ stateCount }: { stateCount: number }) {
   return (
     <section className="relative isolate overflow-hidden bg-navy-950 text-white">
-      {/* MIR's oil and gas photo, darkened so the headline and search stay readable. */}
-      <Image src={heroPhoto} alt="" priority placeholder="blur" sizes="100vw" className="absolute inset-0 -z-10 h-full w-full object-cover object-[70%_center]" />
+      {/* MIR's production-site photo (shot list #1), darkened on the left so the headline and search stay readable. */}
+      <Image src={heroPhoto} alt="" priority placeholder="blur" sizes="100vw" className="absolute inset-0 -z-10 h-full w-full object-cover object-[75%_center]" />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/95 via-navy-950/65 to-navy-950/20" />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/50" />
       <div className="container-page pt-40 pb-24 sm:pt-44 sm:pb-28 lg:pt-52 lg:pb-32">
@@ -55,6 +56,10 @@ export function Hero({ stateCount }: { stateCount: number }) {
           <p className="mt-5 max-w-xl text-lg text-white/80 sm:text-xl">
             Tools, guidance and resources for environmental professionals to navigate air permitting and compliance with confidence.
           </p>
+          <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+            <Link href="/sign-up" className={buttonClass("primary", "lg")}>Get started free</Link>
+            <Link href="/sign-in" className={buttonClass("outline-light", "lg")}>Sign in</Link>
+          </div>
         </div>
         </div>
 

@@ -357,16 +357,16 @@ const palettes: Record<SceneTone, { sky: [number, string][]; sun: string; far: s
  * read as a cartoon next to the photos on the home page.
  */
 export const scenePhoto: Record<SceneKind, string> = {
-  refinery: "/images/industries/refining.jpg",
-  "oil-gas": "/images/industries/oil-and-gas.jpg",
-  midstream: "/images/industries/midstream.jpg",
-  power: "/images/industries/power-generation.jpg",
+  refinery: "/images/site/04-refinery.webp",
+  "oil-gas": "/images/site/05-tank-battery.webp",
+  midstream: "/images/site/03-compressor-station.webp",
+  power: "/images/site/11-power-plant.webp",
   chemical: "/images/industries/chemical.jpg",
-  manufacturing: "/images/industries/manufacturing.jpg",
-  mining: "/images/industries/mining-aggregates.jpg",
-  waste: "/images/industries/waste-landfills.jpg",
-  "tank-farm": "/images/industries/midstream.jpg",
-  industrial: "/images/industries/manufacturing.jpg",
+  manufacturing: "/images/site/14-manufacturing.webp",
+  mining: "/images/site/12-quarry.webp",
+  waste: "/images/site/13-landfill-gas.webp",
+  "tank-farm": "/images/site/05-tank-battery.webp",
+  industrial: "/images/site/14-manufacturing.webp",
 };
 
 export function Scene({
