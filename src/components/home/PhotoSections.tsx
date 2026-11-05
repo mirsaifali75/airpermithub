@@ -1,4 +1,4 @@
-import { ArrowRight, CircleCheck, Clock } from "lucide-react";
+import { ArrowRight, CircleCheck, Clock, Lock } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { buttonClass } from "@/components/ui/Button";
@@ -42,9 +42,9 @@ export function ProductPreviews() {
       <div className="container-page">
         <SectionHeading
           id="previews-heading"
-          eyebrow="Inside the tools"
-          title="See the work, not just the answer"
-          description="Screenshots of the real tools with their example data loaded."
+          eyebrow="Sneak peek"
+          title="A first look inside the tools"
+          description="Real screenshots with example data. Create a free account to run them on your own facility."
           action={{ label: "All tools", href: "/tools" }}
         />
         <ul className="grid gap-5 lg:grid-cols-3">
@@ -53,6 +53,12 @@ export function ProductPreviews() {
               <Link href={p.href} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
                 <div className="relative aspect-[16/10] overflow-hidden border-b border-line bg-canvas">
                   <Image src={p.image} alt={`${p.title} with example data`} width={p.width} height={p.height} sizes="(min-width: 1024px) 400px, 100vw" className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]" />
+                  {/* Trailer effect: the top of the tool shows, the results stay behind a frosted panel. */}
+                  <div aria-hidden="true" className="absolute inset-x-0 bottom-0 flex h-[55%] items-end justify-center bg-white/40 pb-5 backdrop-blur-[6px] [mask-image:linear-gradient(to_bottom,transparent,black_35%)]">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-navy-900/90 px-3 py-1.5 text-xs font-semibold text-white shadow-lift">
+                      <Lock className="h-3.5 w-3.5" aria-hidden="true" /> Full results with a free account
+                    </span>
+                  </div>
                 </div>
                 <div className="flex flex-1 flex-col p-5">
                   <h3 className="font-semibold text-ink group-hover:text-brand-700">{p.title}</h3>
