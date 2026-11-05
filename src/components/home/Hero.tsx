@@ -37,7 +37,7 @@ export function Hero({ stateCount }: { stateCount: number }) {
   return (
     <section className="relative isolate overflow-hidden bg-navy-950 text-white">
       {/* MIR's production-site photo (shot list #1), darkened on the left so the headline and search stay readable. */}
-      <Image src={heroPhoto} alt="" priority placeholder="blur" sizes="100vw" className="absolute inset-0 -z-10 h-full w-full object-cover object-[75%_center]" />
+      <Image src={heroPhoto} alt="" priority sizes="100vw" className="absolute inset-0 -z-10 h-full w-full object-cover object-[75%_center]" />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/95 via-navy-950/65 to-navy-950/20" />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/50" />
       <div className="container-page pt-40 pb-24 sm:pt-44 sm:pb-28 lg:pt-52 lg:pb-32">

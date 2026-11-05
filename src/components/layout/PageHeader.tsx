@@ -30,7 +30,6 @@ export function PageHeader({
         aria-hidden="true"
         className="absolute inset-0 opacity-60 [background-image:linear-gradient(rgb(226_232_240/0.6)_1px,transparent_1px),linear-gradient(90deg,rgb(226_232_240/0.6)_1px,transparent_1px)] [background-size:40px_40px] [mask-image:linear-gradient(to_bottom,black,transparent_85%)]"
       />
-      <div aria-hidden="true" className="absolute -top-24 right-[8%] h-72 w-72 rounded-full bg-brand-500/10 blur-3xl" />
       {scene && (
         <div aria-hidden="true" className="absolute inset-y-0 right-0 hidden w-[40%] lg:block [mask-image:linear-gradient(to_right,transparent,black_45%)]">
           <Scene kind={scene} className="h-full w-full opacity-95" grain={false} />

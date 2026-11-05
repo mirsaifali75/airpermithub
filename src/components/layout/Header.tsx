@@ -76,7 +76,7 @@ export function Header() {
       <header
         className={cn(
           "fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300",
-          solid ? "bg-navy-900/92 shadow-[0_1px_0_rgb(255_255_255/0.08)] backdrop-blur-md" : "bg-transparent",
+          solid ? "bg-navy-900 shadow-[0_1px_0_rgb(255_255_255/0.08)]" : "bg-transparent",
         )}
       >
         <div className={cn("container-page flex items-center gap-4 transition-[height] duration-300", compact ? "h-[4.5rem] lg:h-[5.5rem]" : "h-32 lg:h-40")}>

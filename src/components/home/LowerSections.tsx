@@ -100,7 +100,7 @@ export function FinalCta() {
   return (
     <section className="relative isolate overflow-hidden bg-navy-950 py-24 text-white sm:py-28">
       {/* MIR's aerial well pad photo (shot list #10), darkened for the headline. */}
-      <Image src={aerialPhoto} alt="" placeholder="blur" fill sizes="100vw" className="-z-10 object-cover" />
+      <Image src={aerialPhoto} alt="" fill sizes="100vw" className="-z-10 object-cover" />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-navy-950/55" />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950/90 via-transparent to-navy-950/60" />
       <div className="container-page relative text-center">

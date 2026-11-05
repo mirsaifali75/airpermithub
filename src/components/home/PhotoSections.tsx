@@ -53,12 +53,10 @@ export function ProductPreviews() {
               <Link href={p.href} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
                 <div className="relative aspect-[16/10] overflow-hidden border-b border-line bg-canvas">
                   <Image src={p.image} alt={`${p.title} with example data`} width={p.width} height={p.height} sizes="(min-width: 1024px) 400px, 100vw" className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]" />
-                  {/* Trailer effect: the top of the tool shows, the results stay behind a frosted panel. */}
-                  <div aria-hidden="true" className="absolute inset-x-0 bottom-0 flex h-[55%] items-end justify-center bg-white/40 pb-5 backdrop-blur-[6px] [mask-image:linear-gradient(to_bottom,transparent,black_35%)]">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-navy-900/90 px-3 py-1.5 text-xs font-semibold text-white shadow-lift">
-                      <Lock className="h-3.5 w-3.5" aria-hidden="true" /> Full results with a free account
-                    </span>
-                  </div>
+                  {/* Trailer: a clear look at the tool, with a lock badge for the full version. */}
+                  <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded-md bg-navy-900 px-3 py-1.5 text-xs font-semibold text-white shadow-lift">
+                    <Lock className="h-3.5 w-3.5" aria-hidden="true" /> Full version with a free account
+                  </span>
                 </div>
                 <div className="flex flex-1 flex-col p-5">
                   <h3 className="font-semibold text-ink group-hover:text-brand-700">{p.title}</h3>
@@ -91,7 +89,7 @@ export function FieldCoverage() {
           {coverage.map((c) => (
             <li key={c.title}>
               <Link href={c.href} className="group relative isolate flex aspect-[4/5] flex-col justify-end overflow-hidden rounded-2xl text-white shadow-card ring-1 ring-black/5 md:aspect-[3/4] xl:aspect-[4/5]">
-                <Image src={c.photo} alt={c.alt} placeholder="blur" fill sizes="(min-width: 768px) 33vw, 100vw" className="-z-10 object-cover transition-transform duration-700 group-hover:scale-105" />
+                <Image src={c.photo} alt={c.alt} fill sizes="(min-width: 768px) 33vw, 100vw" className="-z-10 object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950/95 via-navy-950/45 to-transparent" />
                 <div className="p-5 sm:p-6">
                   <h3 className="text-xl font-bold">{c.title}</h3>
@@ -126,7 +124,7 @@ export function WorkspaceSection() {
     <section className="bg-white py-16 sm:py-20" aria-labelledby="workspace-heading">
       <div className="container-page grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
         <div className="relative overflow-hidden rounded-2xl shadow-lift ring-1 ring-black/5">
-          <Image src={reviewPhoto} alt="Environmental engineer in a field truck reviewing permit records on a laptop" placeholder="blur" sizes="(min-width: 1024px) 50vw, 100vw" className="h-auto w-full" />
+          <Image src={reviewPhoto} alt="Environmental engineer in a field truck reviewing permit records on a laptop" sizes="(min-width: 1024px) 50vw, 100vw" className="h-auto w-full" />
         </div>
         <div>
           <p className="mb-2 text-xs font-bold tracking-[0.18em] text-brand-600 uppercase">Your workspace</p>

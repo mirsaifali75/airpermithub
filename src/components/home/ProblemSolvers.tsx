@@ -8,7 +8,6 @@ export function ProblemSolvers() {
   const tools = coreTools.filter((t) => t.slug !== "glossary");
   return (
     <section className="relative isolate overflow-hidden bg-navy-950 py-16 text-white sm:py-20" aria-labelledby="solvers-heading">
-      <div aria-hidden="true" className="absolute -top-32 left-1/2 -z-10 h-96 w-[48rem] -translate-x-1/2 rounded-full bg-brand-500/20 blur-3xl" />
       <div className="container-page">
         <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="max-w-2xl">

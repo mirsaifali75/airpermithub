@@ -59,7 +59,12 @@
   --color-line: #e2e8f0;
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-serif), Georgia, "Times New Roman", serif;
+
+  /* Classic look: tighter corners than the default rounded-2xl cards. */
+  --radius-xl: 0.5rem;
+  --radius-2xl: 0.625rem;
+  --radius-3xl: 0.875rem;
   --font-mono: ui-monospace, "SFMono-Regular", Menlo, monospace;
 
   --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 4px 16px rgb(15 23 42 / 0.06);
@@ -106,11 +111,9 @@
   }
 }
 
+/* Classic look: a solid brand color in place of the old gradient text. */
 @utility text-gradient-brand {
-  background-image: linear-gradient(90deg, #147dff 0%, #00b8ff 50%, #1fa463 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: #38bdf8;
 }
 
 @utility bg-gradient-brand {
@@ -118,10 +121,8 @@
 }
 
 @utility glass-dark {
-  background: rgb(11 41 66 / 0.55);
+  background: rgb(11 41 66 / 0.9);
   border: 1px solid rgb(255 255 255 / 0.12);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
 }
 
 @utility container-page {

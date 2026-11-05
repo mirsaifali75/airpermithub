@@ -18,7 +18,7 @@ export function HowItWorks() {
             <p className="mb-2 text-xs font-bold tracking-[0.18em] text-brand-600 uppercase">How it works</p>
             <h2 id="how-heading" className="text-2xl font-bold text-ink sm:text-3xl">From first question to ongoing compliance</h2>
             <div className="mt-6 overflow-hidden rounded-2xl shadow-lift ring-1 ring-black/5">
-              <Image src={ogiPhoto} alt="Field technician checking storage tanks with an optical gas imaging camera" placeholder="blur" sizes="(min-width: 1024px) 40vw, 100vw" className="h-auto w-full" />
+              <Image src={ogiPhoto} alt="Field technician checking storage tanks with an optical gas imaging camera" sizes="(min-width: 1024px) 40vw, 100vw" className="h-auto w-full" />
             </div>
           </div>
           <ol className="grid gap-4">
