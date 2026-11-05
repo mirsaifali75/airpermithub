@@ -159,14 +159,14 @@ export const industryScene: Record<string, SceneKind> = {
 
 /** Photos for the home page "Explore by Industry" cards, supplied by MIR (public/images/industries). */
 export const industryPhoto: Record<string, string> = {
-  "oil-gas": "/images/site/05-tank-battery.webp",
-  midstream: "/images/site/03-compressor-station.webp",
-  refining: "/images/site/04-refinery.webp",
-  "power-generation": "/images/site/11-power-plant.webp",
+  "oil-gas": "/images/industries/oil-and-gas.jpg",
+  midstream: "/images/industries/midstream.jpg",
+  refining: "/images/industries/refining.jpg",
+  "power-generation": "/images/industries/power-generation.jpg",
   chemical: "/images/industries/chemical.jpg",
-  manufacturing: "/images/site/14-manufacturing.webp",
-  aggregates: "/images/site/12-quarry.webp",
-  "landfills-waste": "/images/site/13-landfill-gas.webp",
+  manufacturing: "/images/industries/manufacturing.jpg",
+  aggregates: "/images/industries/mining-aggregates.jpg",
+  "landfills-waste": "/images/industries/waste-landfills.jpg",
 };
 
 /** Display order used on the Industries page and home grid. */
