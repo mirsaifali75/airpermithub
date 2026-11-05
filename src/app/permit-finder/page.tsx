@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Route } from "lucide-react";
+import { ToolGate } from "@/components/auth/ToolGate";
 import { HelpSidebar } from "@/components/layout/HelpSidebar";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { PermitFinderWizard } from "@/components/permit-finder/PermitFinderWizard";
@@ -23,7 +24,9 @@ export default function PermitFinderPage() {
       />
       <div className="container-page grid grid-cols-[minmax(0,1fr)] gap-6 py-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
         <div className="min-w-0">
-          <PermitFinderWizard profiles={stateProfileSummaries()} />
+          <ToolGate name="Permit Finder" next="/permit-finder">
+            <PermitFinderWizard profiles={stateProfileSummaries()} />
+          </ToolGate>
         </div>
         <HelpSidebar />
       </div>

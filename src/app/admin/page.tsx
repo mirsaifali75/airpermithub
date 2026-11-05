@@ -3,7 +3,8 @@ import Link from "next/link";
 import { ClipboardCheck, Database, History, Lock, ShieldCheck } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge } from "@/components/ui/Badge";
-import { requireReviewer } from "@/lib/auth/session";
+import { ReviewerOnly } from "@/components/admin/ReviewerOnly";
+import { requireReviewer, staffNeedsTwoStep } from "@/lib/auth/session";
 import { kindLabels, queueCounts } from "@/lib/content/queue";
 import { prisma } from "@/lib/db/prisma";
 import type { ReviewKind } from "@prisma/client";
@@ -28,9 +29,9 @@ export default async function AdminPage() {
     <>
       <PageHeader crumbs={[{ label: "Admin" }]} eyebrow="Internal" title="Admin Console" icon={<ShieldCheck className="h-7 w-7" />} description="Editorial and data-management tools. Every change to regulatory content is versioned and attributed." />
       <div className="container-page space-y-6 py-10">
-        {!reviewer && (
+        {!reviewer && (await staffNeedsTwoStep() ? <ReviewerOnly /> : (
           <p className="flex items-center gap-2 rounded-xl border border-line bg-white px-4 py-3 text-sm text-muted"><Lock className="h-4 w-4" aria-hidden="true" /> Admin access requires a signed-in admin or reviewer account. This page shows the planned module map.</p>
-        )}
+        ))}
         {queue && (
           <section className="grid gap-4 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
             <Link href="/admin/review" className="flex flex-col rounded-2xl border border-line bg-white p-5 shadow-card hover:border-brand-200">

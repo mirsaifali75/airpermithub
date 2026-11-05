@@ -42,7 +42,8 @@ const csp = [
   "connect-src 'self'",
   "frame-ancestors 'none'",
   "base-uri 'self'",
-  "form-action 'self'",
+  // A sign-in form posted without JavaScript redirects on to Google's sign-in page.
+  "form-action 'self' https://accounts.google.com",
   "object-src 'none'",
   ...(isDev ? [] : ["upgrade-insecure-requests"]),
 ].join("; ");

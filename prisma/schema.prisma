@@ -168,11 +168,25 @@ model User {
   plan          PlanTier     @default(FREE)
   /// The import and other automated writers. Never signs in.
   isSystem      Boolean      @default(false)
+  company       String?
+  /// Argon2id hash. Null for accounts that only use Google.
+  passwordHash      String?
+  passwordChangedAt DateTime?
+  /// TOTP secret, AES-256-GCM encrypted with a key derived from AUTH_SECRET.
+  /// Set but not enabled while the user is still confirming their first code.
+  twoFactorSecret    String?
+  twoFactorEnabledAt DateTime?
+  /// The last TOTP time step accepted, so a code can't be used twice.
+  twoFactorLastStep  Int?
   createdAt     DateTime     @default(now())
   updatedAt     DateTime     @updatedAt
 
   accounts        Account[]
   sessions        Session[]
+  authTokens      AuthToken[]
+  backupCodes     BackupCode[]
+  challenges      TwoFactorChallenge[]
+  devices         KnownDevice[]
   auditLogs       AuditLog[]
   reviewsAssigned ReviewTask[]     @relation("ReviewAssignee")
   reviewsDecided  ReviewTask[]     @relation("ReviewDecider")
@@ -223,6 +237,76 @@ model VerificationToken {
   expires    DateTime
 
   @@unique([identifier, token])
+}
+
+enum AuthTokenKind {
+  VERIFY_EMAIL
+  RESET_PASSWORD
+}
+
+/// One-time links for email verification and password resets. Only a hash of the token is stored.
+model AuthToken {
+  id        String        @id @default(cuid())
+  userId    String
+  kind      AuthTokenKind
+  tokenHash String        @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime      @default(now())
+  user      User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, kind])
+}
+
+/// One-time codes for two-step login when the authenticator app isn't at hand. Stored hashed.
+model BackupCode {
+  id        String    @id @default(cuid())
+  userId    String
+  codeHash  String
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+/// The step between a correct password (or Google) and the two-step code. Keyed by a token hash.
+model TwoFactorChallenge {
+  id        String    @id
+  userId    String
+  next      String
+  attempts  Int       @default(0)
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+/// Browsers an account has signed in from, so a new one triggers an email. Keyed by a hash of a cookie.
+model KnownDevice {
+  id          String   @id @default(cuid())
+  userId      String
+  deviceHash  String
+  userAgent   String?
+  firstSeenAt DateTime @default(now())
+  lastSeenAt  DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, deviceHash])
+}
+
+/// Sign-in, sign-up, and reset attempts, counted per key (an email or a network) to slow guessing.
+model AuthAttempt {
+  id        String   @id @default(cuid())
+  key       String
+  action    String
+  ok        Boolean
+  createdAt DateTime @default(now())
+
+  @@index([key, action, createdAt])
+  @@index([createdAt])
 }
 
 // ─────────────────────── Provenance ───────────────────────

@@ -1,38 +1,55 @@
 "use server";
 
-import { headers } from "next/headers";
 import { redirect } from "next/navigation";
-import { AuthError } from "next-auth";
 import { signIn } from "@/auth";
-import { clientKey, createRateLimiter } from "@/lib/api/rate-limit";
-import { accountsEnabled, safeNext } from "@/lib/auth/config";
+import { accountsEnabled, googleEnabled, safeNext } from "@/lib/auth/config";
+import { answerChallenge, checkPassword, createChallenge, normalizeEmail } from "@/lib/auth/flows";
+import { closedMessage, field, type FormState } from "@/lib/auth/forms";
+import { emailKey, networkKey, overLimit, record, rules } from "@/lib/auth/limits";
+import { clientNetwork, signInAs } from "@/lib/auth/server";
 import { prisma } from "@/lib/db/prisma";
 
-export interface LinkState {
-  error?: string;
+const tooMany = "Too many sign-in attempts. Wait 15 minutes, or reset your password.";
+
+/** Email and password. Accounts with two-step login go on to the code step. */
+export async function signInWithPassword(_: FormState, form: FormData): Promise<FormState> {
+  if (!accountsEnabled) return { error: closedMessage };
+  const email = normalizeEmail(field(form, "email"));
+  const password = field(form, "password");
+  const next = safeNext(field(form, "next"));
+  const values = { email };
+  if (!email || !password) return { error: "Enter your email and password.", values };
+
+  const keys = [emailKey(email), networkKey(await clientNetwork())];
+  if ((await overLimit(prisma, keys[0], rules.signInEmail)) || (await overLimit(prisma, keys[1], rules.signInNetwork))) return { error: tooMany, values };
+
+  const user = await checkPassword(prisma, email, password);
+  if (!user) {
+    await record(prisma, keys, "sign-in", false);
+    return { error: "That email and password don't match. If you signed up with Google, use Continue with Google.", values };
+  }
+  if (user.twoFactorEnabledAt) redirect(`/sign-in/two-step?c=${encodeURIComponent(await createChallenge(prisma, user.id, next))}`);
+  await signInAs(prisma, user);
+  redirect(next);
 }
 
-const perClient = createRateLimiter({ limit: 5, windowMs: 10 * 60_000 });
-/** Unused links per address at once; each expires after LINK_MINUTES. */
-const MAX_OPEN_LINKS = 3;
-
-/** Emails a one-time sign-in link. New addresses get an account when they click it. */
-export async function requestSignInLink(_: LinkState, form: FormData): Promise<LinkState> {
-  if (!accountsEnabled) return { error: "Accounts are not open yet. Every tool works without one." };
-  const email = String(form.get("email") ?? "").trim().toLowerCase();
-  if (email.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return { error: "Enter a valid email address." };
-
-  if (!perClient.check(clientKey({ headers: await headers() })).allowed) {
-    return { error: "Too many sign-in requests from this connection. Try again in a few minutes." };
+/** The code from an authenticator app, or a backup code. */
+export async function answerTwoStep(_: FormState, form: FormData): Promise<FormState> {
+  if (!accountsEnabled) return { error: closedMessage };
+  const net = networkKey(await clientNetwork());
+  if (await overLimit(prisma, net, rules.twoStepNetwork)) return { error: "Too many wrong codes from this network. Wait 15 minutes and sign in again.", restart: true };
+  const result = await answerChallenge(prisma, field(form, "c"), field(form, "code"));
+  if ("error" in result) {
+    await record(prisma, [net], "two-step", false);
+    return { error: result.error, restart: result.restart };
   }
-  const open = await prisma.verificationToken.count({ where: { identifier: email, expires: { gt: new Date() } } });
-  if (open >= MAX_OPEN_LINKS) return { error: "We've already sent several links to this address. Use the newest one, or try again in 15 minutes." };
+  const user = await prisma.user.findUniqueOrThrow({ where: { id: result.userId } });
+  await signInAs(prisma, user);
+  redirect(safeNext(result.next));
+}
 
-  try {
-    await signIn("resend", { email, redirectTo: safeNext(form.get("next")), redirect: false });
-  } catch (e) {
-    if (e instanceof AuthError) return { error: "We couldn't send the link just now. Try again in a few minutes." };
-    throw e;
-  }
-  redirect("/sign-in/check-email");
+/** Hands off to Google; Auth.js brings the person back signed in, or to the code step. */
+export async function continueWithGoogle(form: FormData) {
+  if (!accountsEnabled || !googleEnabled()) redirect("/sign-in?error=GoogleOff");
+  await signIn("google", { redirectTo: safeNext(field(form, "next")) });
 }

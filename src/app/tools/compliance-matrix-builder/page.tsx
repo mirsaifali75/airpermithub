@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { MatrixBuilder } from "@/components/tools/MatrixBuilder";
+import { ToolGate } from "@/components/auth/ToolGate";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { coreTools } from "@/lib/tools/catalog";
 
@@ -49,7 +50,9 @@ export default function MatrixBuilderPage() {
         { label: "Title V Deviation Log", href: "/tools/deviation-log" },
       ]}
     >
-      <MatrixBuilder />
+      <ToolGate name={tool.name} next="/tools/compliance-matrix-builder">
+        <MatrixBuilder />
+      </ToolGate>
     </ToolPage>
   );
 }

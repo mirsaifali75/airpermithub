@@ -1,0 +1,28 @@
+import type { Metadata } from "next";
+import { MailCheck } from "lucide-react";
+import Link from "next/link";
+import { AuthLayout } from "@/components/auth/AuthLayout";
+import { emailFrom } from "@/lib/auth/config";
+import { VERIFY_HOURS } from "@/lib/auth/email";
+
+const sender = emailFrom.match(/<([^>]+)>/)?.[1] ?? emailFrom;
+
+export const metadata: Metadata = { title: "Check your email", robots: { index: false } };
+
+export default function Page() {
+  return (
+    <AuthLayout>
+      <div className="mx-auto w-full max-w-md">
+        <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-brand-600"><MailCheck className="h-7 w-7" aria-hidden="true" /></span>
+        <h1 className="mt-6 text-3xl font-extrabold text-navy-900">Check your email</h1>
+        <p className="mt-3 text-slate-700">We sent a link to the address you entered. Open it to confirm your email and go to your dashboard.</p>
+        <ul className="mt-5 list-disc space-y-1.5 pl-5 text-sm text-muted">
+          <li>The link works once and expires in {VERIFY_HOURS} hours.</li>
+          <li>It comes from {sender}. Check spam or quarantine if it hasn&apos;t arrived in a few minutes.</li>
+          <li>Already had an account with that address? The email says so, with a link to sign in.</li>
+        </ul>
+        <p className="mt-6 text-sm text-muted">You can also <Link href="/sign-in" className="font-semibold text-brand-600">sign in</Link> now and confirm your email later.</p>
+      </div>
+    </AuthLayout>
+  );
+}

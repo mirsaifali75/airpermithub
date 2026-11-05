@@ -1,7 +1,17 @@
 import { Lock } from "lucide-react";
+import Link from "next/link";
+import { staffNeedsTwoStep } from "@/lib/auth/session";
 
-/** Shown in place of a review page to anyone who isn't signed in as a reviewer or admin. */
-export function ReviewerOnly() {
+/** Shown in place of a review page to anyone who isn't signed in as a reviewer or admin with two-step login on. */
+export async function ReviewerOnly() {
+  if (await staffNeedsTwoStep()) {
+    return (
+      <p className="flex flex-wrap items-center gap-2 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+        <Lock className="h-4 w-4" aria-hidden="true" /> Admin and reviewer pages need two-step login.
+        <Link href="/account/two-step" className="font-semibold text-brand-700 underline">Turn it on</Link>
+      </p>
+    );
+  }
   return (
     <p className="flex items-center gap-2 rounded-xl border border-line bg-white px-4 py-3 text-sm text-muted">
       <Lock className="h-4 w-4" aria-hidden="true" /> The review queue is open to signed-in reviewers and admins.

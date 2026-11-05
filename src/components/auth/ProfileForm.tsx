@@ -4,26 +4,33 @@ import { useActionState, useId } from "react";
 import { saveProfile, type ProfileState } from "@/app/account/actions";
 import { Button } from "@/components/ui/Button";
 import { accountTypes, type AccountType } from "@/lib/auth/types";
+import { Field, FormAlert, inputClass } from "./fields";
 
-/** Name and account type, asked once after the first sign-in and editable from the account page. */
-export function ProfileForm({ name, accountType, submitLabel }: { name: string; accountType: AccountType; submitLabel: string }) {
+/** Name, company, and account type. Asked once after a first Google sign-in, and editable in settings. */
+export function ProfileForm({ name, company, accountType, submitLabel, setup = false }: {
+  name: string; company: string; accountType: AccountType; submitLabel: string; setup?: boolean;
+}) {
   const id = useId();
   const [state, action, pending] = useActionState<ProfileState, FormData>(saveProfile, {});
-  const field = "h-12 w-full rounded-xl border border-line px-3 text-ink focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none";
   return (
     <form action={action} className="space-y-4">
-      <div>
-        <label htmlFor={`${id}-name`} className="mb-1.5 block text-sm font-semibold text-ink">Full name</label>
-        <input id={`${id}-name`} name="name" defaultValue={name} autoComplete="name" required maxLength={120} className={field} />
+      {setup && <input type="hidden" name="setup" value="1" />}
+      <Field id={`${id}-name`} label="Full name">
+        <input id={`${id}-name`} name="name" defaultValue={name} autoComplete="name" required maxLength={120} className={inputClass} />
+      </Field>
+      <div className="grid gap-4 sm:grid-cols-2">
+        <Field id={`${id}-type`} label="I am">
+          <select id={`${id}-type`} name="accountType" defaultValue={accountType} className={inputClass}>
+            {accountTypes.map((t) => <option key={t.value} value={t.value}>{t.label}</option>)}
+          </select>
+        </Field>
+        <Field id={`${id}-company`} label={<>Company <span className="font-normal text-muted">(optional)</span></>}>
+          <input id={`${id}-company`} name="company" defaultValue={company} autoComplete="organization" maxLength={120} className={inputClass} />
+        </Field>
       </div>
-      <div>
-        <label htmlFor={`${id}-type`} className="mb-1.5 block text-sm font-semibold text-ink">Account type</label>
-        <select id={`${id}-type`} name="accountType" defaultValue={accountType} className={field}>
-          {accountTypes.map((t) => <option key={t.value} value={t.value}>{t.label}</option>)}
-        </select>
-      </div>
-      {state.error && <p role="alert" className="rounded-xl bg-red-50 px-4 py-2.5 text-sm text-red-700">{state.error}</p>}
-      <Button type="submit" size="lg" className="w-full" disabled={pending}>{pending ? "Saving..." : submitLabel}</Button>
+      <FormAlert message={state.error} />
+      <FormAlert message={state.saved ? "Saved." : undefined} tone="ok" />
+      <Button type="submit" size={setup ? "lg" : "md"} className={setup ? "w-full" : ""} disabled={pending}>{pending ? "Saving..." : submitLabel}</Button>
     </form>
   );
 }

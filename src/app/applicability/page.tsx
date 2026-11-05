@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ArrowRight, ClipboardCheck } from "lucide-react";
 import Link from "next/link";
+import { ToolGate } from "@/components/auth/ToolGate";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { ApplicabilityScreener } from "@/components/tools/ApplicabilityScreener";
 import { ApplicabilityBadge, Badge } from "@/components/ui/Badge";
@@ -57,7 +58,9 @@ export default function ApplicabilityPage() {
     <>
       <PageHeader crumbs={[{ label: "Applicability Checker" }]} eyebrow="Guided screening" title="Applicability Checker" icon={<ClipboardCheck className="h-7 w-7" />} description="A screen of federal air rules for your facility and equipment. Each result shows a status, the reason, the rule text it rests on, and what information would settle the question." />
       <div className="container-page space-y-10 py-10">
-        <ApplicabilityScreener states={stateProfileSummaries().map(({ slug, name, agency }) => ({ slug, name, agency }))} />
+        <ToolGate name="Applicability Checker" next="/applicability">
+          <ApplicabilityScreener states={stateProfileSummaries().map(({ slug, name, agency }) => ({ slug, name, agency }))} />
+        </ToolGate>
 
         <section>
           <h2 className="text-xl font-bold text-ink">Status labels</h2>

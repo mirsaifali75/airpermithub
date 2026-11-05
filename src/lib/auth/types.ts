@@ -17,9 +17,13 @@ export interface SessionUser {
   id: string;
   email: string;
   name: string | null;
+  company: string | null;
   accountType: AccountType;
   platformRole: PlatformRole;
   plan: PlanTier;
+  emailVerified: boolean;
+  hasPassword: boolean;
+  twoStep: boolean;
 }
 
 export interface Session {

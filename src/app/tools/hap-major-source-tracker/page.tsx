@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { HapTracker } from "@/components/tools/HapTracker";
+import { ToolGate } from "@/components/auth/ToolGate";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { coreTools } from "@/lib/tools/catalog";
 import { RT } from "@/lib/tools/rule-text";
@@ -52,7 +53,9 @@ export default function HapTrackerPage() {
         { label: "Templates & Workbooks", href: "/templates" },
       ]}
     >
-      <HapTracker />
+      <ToolGate name={tool.name} next="/tools/hap-major-source-tracker">
+        <HapTracker />
+      </ToolGate>
     </ToolPage>
   );
 }

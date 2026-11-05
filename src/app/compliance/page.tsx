@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CalendarClock } from "lucide-react";
+import { ToolGate } from "@/components/auth/ToolGate";
 import { ComplianceCalendar } from "@/components/compliance/ComplianceCalendar";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge } from "@/components/ui/Badge";
@@ -17,7 +18,9 @@ export default function CompliancePage() {
     <>
       <PageHeader crumbs={[{ label: "Compliance" }]} title="Compliance Calendar" icon={<CalendarClock />} scene="midstream" description="Track permitting, reporting and compliance deadlines. Add your own tasks with repeats and reminders, and export them to Outlook, Google, or Apple Calendar." />
       <div className="container-page space-y-12 py-10">
-        <ComplianceCalendar />
+        <ToolGate name="Compliance Calendar" next="/compliance">
+          <ComplianceCalendar />
+        </ToolGate>
         <DemoNotice>Example tasks are fictional and labeled Demo. They show only until you add your own, are never counted in your totals, and are never exported. Tasks you add stay in your browser.</DemoNotice>
 
         <section className="grid grid-cols-1 gap-6 lg:grid-cols-2">

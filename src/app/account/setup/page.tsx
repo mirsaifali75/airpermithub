@@ -14,7 +14,7 @@ export default async function Page() {
       <div className="mx-auto w-full max-w-md">
         <h1 className="text-3xl font-extrabold text-navy-900">Welcome to AirPermitHub</h1>
         <p className="mt-2 text-sm text-muted">You&apos;re signed in as {s.user.email}. Tell us who you are to finish setting up.</p>
-        <div className="mt-6"><ProfileForm name={s.user.name ?? ""} accountType={s.user.accountType} submitLabel="Continue to my dashboard" /></div>
+        <div className="mt-6"><ProfileForm name={s.user.name ?? ""} company={s.user.company ?? ""} accountType={s.user.accountType} submitLabel="Continue to my dashboard" setup /></div>
       </div>
     </AuthLayout>
   );

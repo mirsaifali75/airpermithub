@@ -35,11 +35,11 @@ export function DashboardHome() {
   const upcoming = (d?.tasks ?? []).filter((t) => new Date(t.date + "T00:00") >= today).sort((a, b) => a.date.localeCompare(b.date));
 
   const stats = [
-    { label: "Projects", value: 0, icon: FolderKanban, note: "With accounts" },
+    { label: "Projects", value: 0, icon: FolderKanban, note: "Coming soon" },
     { label: "Saved jobs", value: d?.jobs.length ?? 0, icon: BookmarkCheck, href: "/jobs" },
     { label: "Upcoming deadlines", value: upcoming.length, icon: CalendarClock, href: "/compliance" },
     { label: "Calculations", value: d?.calcs.length ?? 0, icon: Calculator, href: "/calculators" },
-    { label: "Applications", value: 0, icon: FileStack, note: "With accounts" },
+    { label: "Applications", value: 0, icon: FileStack, note: "Coming soon" },
   ];
 
   const activity = [
@@ -51,12 +51,12 @@ export function DashboardHome() {
   return (
     <div className="min-w-0 space-y-6">
       <div>
-        <h1 className="text-2xl font-extrabold text-navy-900 sm:text-3xl">Welcome back</h1>
-        <p className="mt-1 text-muted">Manage your projects, tools and resources. Until accounts launch, this page shows what you have saved in this browser.</p>
+        <h2 className="text-xl font-extrabold text-navy-900">Saved in this browser</h2>
+        <p className="mt-1 text-sm text-muted">Calculations, deadlines, and bookmarks you save in the tools are kept in this browser for now. Saving them to your account comes next.</p>
       </div>
 
       <section aria-labelledby="qs">
-        <h2 id="qs" className="mb-3 font-bold text-ink">Quick Stats</h2>
+        <h3 id="qs" className="mb-3 font-bold text-ink">Quick Stats</h3>
         <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-5">
           {stats.map(({ label, value, icon: Icon, href, note }) => {
             const body = (
@@ -140,7 +140,7 @@ export function DashboardHome() {
           ))}
         </ul>
       </section>
-      <p className="flex items-center gap-2 text-xs text-muted"><Briefcase className="h-3.5 w-3.5" aria-hidden="true" />Data on this page stays in this browser. Accounts (coming soon) will sync it across devices and teams.</p>
+      <p className="flex items-center gap-2 text-xs text-muted"><Briefcase className="h-3.5 w-3.5" aria-hidden="true" />Data in this section stays in this browser until saving to your account is ready.</p>
     </div>
   );
 }

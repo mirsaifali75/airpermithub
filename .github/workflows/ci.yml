@@ -48,5 +48,5 @@ jobs:
           PGPASSWORD=aph psql -h localhost -U aph -d aph_test -c 'CREATE DATABASE aph_shadow'
           npx prisma migrate diff --from-migrations prisma/migrations --to-schema-datamodel prisma/schema.prisma \
             --shadow-database-url postgresql://aph:aph@localhost:5432/aph_shadow --exit-code
-      - name: Import, parity with data/, and the database rules
-        run: npx vitest run src/lib/content/db.test.ts
+      - name: Import, parity with data/, the database rules, and the account rules
+        run: npx vitest run src/lib/content/db.test.ts src/lib/auth/accounts.db.test.ts
