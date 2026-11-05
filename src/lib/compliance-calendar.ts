@@ -4,7 +4,7 @@ import type { ComplianceStatus } from "./data/types";
 
 /**
  * The user's compliance tasks: storage shape, repeat rules, status, and
- * exports (.ics and CSV). Tasks live in this browser until accounts launch.
+ * exports (.ics and CSV). Tasks live in this browser, and in the account when signed in.
  * Other tools (the Compliance Matrix Builder) write one-off tasks to the same
  * store, so every field added here is optional.
  */

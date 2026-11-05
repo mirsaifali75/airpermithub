@@ -2,10 +2,12 @@
 
 import { AlarmClock, CalendarClock, CalendarPlus, Check, ChevronLeft, ChevronRight, Download, Pencil, Plus, Repeat as RepeatIcon, RotateCcw, Trash2, X } from "lucide-react";
 import { useEffect, useId, useMemo, useState } from "react";
-import { downloadText } from "@/components/tools/shared";
+import { downloadText, useStoredState } from "@/components/tools/shared";
 import { ComplianceBadge, DemoBadge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
+import { readStored } from "@/lib/storage/browser";
+import { keptIn } from "@/lib/storage/where";
 import {
   facilityStatus, occurrences, parseYmd, repeatLabels, STORE, summarize, tasksCsv, toIcs, ymd,
   type Category, type Repeat, type StoredTask,
@@ -47,13 +49,13 @@ const slug = (s: string) => s.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")
  * choice linkable). Your own tasks come first: they repeat, carry the permit
  * condition or rule they come from, and export to .ics with reminders. Example
  * (demo) tasks show only until you add one, are always labeled, and are never
- * exported. Tasks are kept in this browser (localStorage) until accounts launch.
+ * exported. Tasks are saved in this browser, and in the account when signed in.
  */
 export function ComplianceCalendar() {
   const uid = useId();
   const [today, setToday] = useState<Date | null>(null);
   const [cursor, setCursor] = useState<Date | null>(null);
-  const [mine, setMine] = useState<StoredTask[]>([]);
+  const [mine, persist] = useStoredState<StoredTask[]>(STORE, []);
   const [showDemo, setShowDemo] = useState(false);
   const [view, setView] = useState<View>("month");
   const [filter, setFilter] = useState<Category | "">("");
@@ -66,16 +68,14 @@ export function ComplianceCalendar() {
     setCursor(d);
     const v = new URLSearchParams(window.location.search).get("view");
     if (views.includes(v as View)) setView(v as View);
-    let stored: StoredTask[] = [];
-    try { stored = JSON.parse(localStorage.getItem(STORE) ?? "[]"); } catch {}
-    setMine(stored);
-    setShowDemo(stored.length === 0);
+    setShowDemo(readStored<StoredTask[]>(STORE, []).length === 0);
   }, []);
 
-  const persist = (next: StoredTask[]) => {
-    setMine(next);
-    try { localStorage.setItem(STORE, JSON.stringify(next)); } catch {}
-  };
+  // Examples step aside once your own tasks arrive, including ones loaded from your account.
+  const hasOwn = mine.length > 0;
+  useEffect(() => {
+    if (hasOwn) setShowDemo(false);
+  }, [hasOwn]);
 
   // Occurrences in a window around today and the date being viewed.
   const own = useMemo(() => {
@@ -408,7 +408,7 @@ export function ComplianceCalendar() {
                 <label htmlFor={`${uid}-n`} className="block text-xs font-semibold text-ink">Notes <span className="font-normal text-muted">(optional)</span></label>
                 <textarea id={`${uid}-n`} value={form.notes} onChange={(e) => setForm({ ...form, notes: e.target.value })} rows={2} className="w-full rounded-lg border border-line bg-white px-3 py-2 text-sm focus:border-brand-500 focus:outline-none" />
                 <Button type="submit" size="sm" className="w-full">{form.id ? "Save changes" : "Save task"}</Button>
-                <p className="text-[0.7rem] text-muted">Saved in this browser only until accounts launch. Use the date your permit condition or the rule sets; AirPermitHub doesn&apos;t supply deadlines.</p>
+                <p className="text-[0.7rem] text-muted">Tasks are {keptIn}. Use the date your permit condition or the rule sets; AirPermitHub doesn&apos;t supply deadlines.</p>
               </form>
             )}
             <ul className="mt-3 divide-y divide-line">

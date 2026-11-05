@@ -16,6 +16,7 @@ import { localDate } from "@/lib/csv";
 import { equipmentOptions, facilityTypesByIndustry, permitFinderIndustries, pollutants as pollutantOptions } from "@/lib/data/equipment";
 import type { StateProfileSummary } from "@/lib/data/state-profiles";
 import { stateTiles } from "@/lib/data/states";
+import { keptIn } from "@/lib/storage/where";
 import { applicabilityHandoff, calculatorsFor, permitFinderCsv, screen, type ScreeningInput, type ScreeningItem } from "@/lib/screening";
 import { quoteHref } from "@/lib/tools/rule-text";
 
@@ -251,7 +252,7 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
                   <MapPin className="absolute top-3.5 left-3 h-5 w-5 text-slate-400" aria-hidden="true" />
                   <input id={`${ids}-loc`} value={form.location} onChange={(e) => set("location", e.target.value)} placeholder="e.g., 32.0000, -103.0000" className={cn(field, "pl-10")} />
                 </div>
-                <p className="mt-1.5 text-xs text-muted">Kept in your browser only. Attainment-area and local-agency lookups come in a later release.</p>
+                <p className="mt-1.5 text-xs text-muted">Your answers are {keptIn}. Attainment-area and local-agency lookups come in a later release.</p>
               </div>
             </div>
             {profile && (

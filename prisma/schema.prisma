@@ -187,6 +187,7 @@ model User {
   backupCodes     BackupCode[]
   challenges      TwoFactorChallenge[]
   devices         KnownDevice[]
+  savedWork       SavedWork[]
   auditLogs       AuditLog[]
   reviewsAssigned ReviewTask[]     @relation("ReviewAssignee")
   reviewsDecided  ReviewTask[]     @relation("ReviewDecider")
@@ -295,6 +296,20 @@ model KnownDevice {
   user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([userId, deviceHash])
+}
+
+/// Work saved in a tool, under the same key the browser uses (for example
+/// "aph.tools.deviations.v1"), so it follows the account to any device.
+model SavedWork {
+  id        String   @id @default(cuid())
+  userId    String
+  key       String
+  value     Json
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, key])
+  @@index([userId, updatedAt])
 }
 
 /// Sign-in, sign-up, and reset attempts, counted per key (an email or a network) to slow guessing.

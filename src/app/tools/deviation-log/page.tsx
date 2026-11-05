@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DeviationLog } from "@/components/tools/DeviationLog";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { ToolPage } from "@/components/tools/ToolPage";
+import { keptIn } from "@/lib/storage/where";
 import { coreTools } from "@/lib/tools/catalog";
 import { RT } from "@/lib/tools/rule-text";
 
@@ -37,7 +38,7 @@ export default function DeviationLogPage() {
             "Pick the deadline when you log a deviation. The tool shows the due date with its arithmetic, lists reports due or overdue, and grades each sent report as on time or late.",
             "Record the prompt report date when one is sent, so the periodic report can reference it.",
             "Export the CSV or print a period when drafting the report. The log is an AirPermitHub template, not an agency form; use your agency's report forms where required.",
-            "Entries stay in this browser. Export regularly and keep the file with your compliance records.",
+            `Entries are ${keptIn}. Export regularly and keep the file with your compliance records.`,
           ],
         },
       ]}

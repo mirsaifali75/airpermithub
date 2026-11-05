@@ -6,6 +6,7 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge } from "@/components/ui/Badge";
 import { DemoNotice, Disclaimer } from "@/components/ui/Notices";
 import { complianceCategories } from "@/lib/data/compliance";
+import { keptIn } from "@/lib/storage/where";
 
 export const metadata: Metadata = {
   title: "Air Compliance Calendar & Dashboard",
@@ -21,7 +22,7 @@ export default function CompliancePage() {
         <ToolGate name="Compliance Calendar" next="/compliance">
           <ComplianceCalendar />
         </ToolGate>
-        <DemoNotice>Example tasks are fictional and labeled Demo. They show only until you add your own, are never counted in your totals, and are never exported. Tasks you add stay in your browser.</DemoNotice>
+        <DemoNotice>Example tasks are fictional and labeled Demo. They show only until you add your own, are never counted in your totals, and are never exported. Tasks you add are {keptIn}.</DemoNotice>
 
         <section className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-line bg-white p-6 shadow-card">

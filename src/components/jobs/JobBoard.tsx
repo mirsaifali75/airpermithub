@@ -2,8 +2,9 @@
 
 import { Bookmark, BookmarkCheck, MapPin, Search, SlidersHorizontal } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { Badge, DemoBadge } from "@/components/ui/Badge";
+import { useStoredState } from "@/components/tools/shared";
 import { EmptyState } from "@/components/ui/Notices";
 import { cn } from "@/lib/cn";
 import { companyFor, demoJobs, jobCategories, roleGroups, type Job } from "@/lib/data/jobs";
@@ -18,17 +19,10 @@ export function JobBoard({ jobs: source = demoJobs, compact = false }: { jobs?: 
   const [group, setGroup] = useState("All Roles");
   const [more, setMore] = useState({ category: "", type: "", experience: "", industry: "", remote: false });
   const [showMore, setShowMore] = useState(false);
-  const [saved, setSaved] = useState<string[]>([]);
+  const [saved, setSaved] = useStoredState<string[]>(STORE, []);
   const [savedOnly, setSavedOnly] = useState(false);
 
-  useEffect(() => {
-    try { setSaved(JSON.parse(localStorage.getItem(STORE) ?? "[]")); } catch {}
-  }, []);
-  const toggleSave = (id: string) => {
-    const next = saved.includes(id) ? saved.filter((x) => x !== id) : [...saved, id];
-    setSaved(next);
-    try { localStorage.setItem(STORE, JSON.stringify(next)); } catch {}
-  };
+  const toggleSave = (id: string) => setSaved(saved.includes(id) ? saved.filter((x) => x !== id) : [...saved, id]);
 
   const states = uniq(source, "state");
   const allDemo = source.every((j) => j.isDemo);

@@ -11,6 +11,8 @@ import {
 import { clearFailures, emailKey, overLimit, record, rules } from "./limits";
 import { verifyPassword } from "./password";
 import { stepAt, totpAt } from "./totp";
+import { loadSavedWork, storeSavedWork } from "../storage/account";
+import { SAVED_LIMITS } from "../storage/saved";
 
 /**
  * The account rules against a real Postgres. Uses its own schema in the
@@ -307,6 +309,65 @@ describe.skipIf(!throwaway)("accounts database", () => {
     });
   });
 
+  describe("saved work", () => {
+    const ok = (r: Awaited<ReturnType<typeof storeSavedWork>>) => {
+      if ("error" in r) throw new Error(r.error);
+      return r;
+    };
+
+    it("keeps each tool's work by key, with a version per change", async () => {
+      const a = await account();
+      const b = await account();
+      const first = ok(await storeSavedWork(db, a.id, [{ key: "aph.jobs.saved.v1", value: ["j1"], base: null }, { key: "aph.tools.deviations.v1", value: { cycle: 6, items: [] }, base: null }]));
+      expect(first.conflicts).toEqual([]);
+      const v1 = first.saved.find((x) => x.key === "aph.jobs.saved.v1")!.version!;
+      const second = ok(await storeSavedWork(db, a.id, [{ key: "aph.jobs.saved.v1", value: ["j1", "j2"], base: v1 }], () => new Date(Date.parse(v1) + 1000)));
+      expect(second.saved).toEqual([{ key: "aph.jobs.saved.v1", version: new Date(Date.parse(v1) + 1000).toISOString() }]);
+      expect((await loadSavedWork(db, a.id)).map(({ key, value }) => ({ key, value }))).toEqual([
+        { key: "aph.jobs.saved.v1", value: ["j1", "j2"] },
+        { key: "aph.tools.deviations.v1", value: { cycle: 6, items: [] } },
+      ]);
+      expect(await loadSavedWork(db, b.id)).toEqual([]);
+      const v2 = second.saved[0].version!;
+      expect(ok(await storeSavedWork(db, a.id, [{ key: "aph.jobs.saved.v1", value: null, base: v2 }])).saved).toEqual([{ key: "aph.jobs.saved.v1", version: null }]);
+      expect((await loadSavedWork(db, a.id)).map((i) => i.key)).toEqual(["aph.tools.deviations.v1"]);
+    });
+
+    it("never lets a browser that hasn't seen the account's copy overwrite it", async () => {
+      const a = await account();
+      const laptop = ok(await storeSavedWork(db, a.id, [{ key: "aph.tools.rolling.v1", value: { values: [1, 2, 3] }, base: null }]));
+      const v1 = laptop.saved[0].version!;
+      // A new browser opens the tool before the account's copy arrives and saves a blank form.
+      const phone = ok(await storeSavedWork(db, a.id, [{ key: "aph.tools.rolling.v1", value: { values: [] }, base: null }]));
+      expect(phone.saved).toEqual([]);
+      expect(phone.conflicts).toEqual([{ key: "aph.tools.rolling.v1", value: { values: [1, 2, 3] }, version: v1 }]);
+      // A browser holding an older version gets the newer copy instead of overwriting it.
+      const later = new Date(Date.parse(v1) + 5000);
+      ok(await storeSavedWork(db, a.id, [{ key: "aph.tools.rolling.v1", value: { values: [1, 2, 3, 4] }, base: v1 }], () => later));
+      const stale = ok(await storeSavedWork(db, a.id, [{ key: "aph.tools.rolling.v1", value: { values: [9] }, base: v1 }]));
+      expect(stale.conflicts).toEqual([{ key: "aph.tools.rolling.v1", value: { values: [1, 2, 3, 4] }, version: later.toISOString() }]);
+      expect(ok(await storeSavedWork(db, a.id, [{ key: "aph.tools.rolling.v1", value: null, base: v1 }])).conflicts).toHaveLength(1);
+      expect((await loadSavedWork(db, a.id))[0].value).toEqual({ values: [1, 2, 3, 4] });
+    });
+
+    it("refuses other keys and work over the size limits", async () => {
+      const a = await account();
+      expect(await storeSavedWork(db, a.id, [{ key: "aph.sync.owner", value: "x", base: null }])).toMatchObject({ error: expect.any(String) });
+      expect(await storeSavedWork(db, a.id, [{ key: "aph.tools.x.v1", value: 1, base: "not a date" }])).toMatchObject({ error: expect.any(String) });
+      expect(await storeSavedWork(db, a.id, [{ key: "aph.tools.x.v1", value: 1 }])).toMatchObject({ error: expect.any(String) });
+      expect(await storeSavedWork(db, a.id, [])).toMatchObject({ error: expect.any(String) });
+      expect(await storeSavedWork(db, a.id, "nope")).toMatchObject({ error: expect.any(String) });
+      expect(await storeSavedWork(db, a.id, [{ key: "aph.tools.big.v1", value: "x".repeat(SAVED_LIMITS.bytesPerKey), base: null }])).toMatchObject({ error: expect.stringMatching(/too large/) });
+      const chunk = "x".repeat(SAVED_LIMITS.bytesPerKey - 10);
+      const fill = Array.from({ length: Math.floor(SAVED_LIMITS.bytesPerAccount / SAVED_LIMITS.bytesPerKey) }, (_, i) => ({ key: `aph.tools.fill-${i}.v1`, value: chunk, base: null }));
+      const filled = ok(await storeSavedWork(db, a.id, fill));
+      expect(await storeSavedWork(db, a.id, [{ key: "aph.tools.one-more.v1", value: chunk, base: null }])).toMatchObject({ error: expect.stringMatching(/storage limit/) });
+      // Replacing a key counts its new size, not old plus new.
+      const v = filled.saved.find((x) => x.key === "aph.tools.fill-0.v1")!.version;
+      expect(ok(await storeSavedWork(db, a.id, [{ key: "aph.tools.fill-0.v1", value: chunk, base: v }])).conflicts).toEqual([]);
+    });
+  });
+
   it("deletes an account and everything stored with it", async () => {
     const a = await twoStepAccount();
     await session(a.id);
@@ -315,6 +376,7 @@ describe.skipIf(!throwaway)("accounts database", () => {
     await db.knownDevice.create({ data: { userId: a.id, deviceHash: sha256("d"), firstSeenAt: a.now, lastSeenAt: a.now } });
     await db.account.create({ data: { userId: a.id, provider: "google", providerAccountId: `del-${a.id}`, type: "oidc" } });
     await db.auditLog.create({ data: { actorId: null, action: "user.two-step-on", entityType: "User", entityId: a.id } });
+    await storeSavedWork(db, a.id, [{ key: "aph.calc.saved.v1", value: [{ id: "c1" }], base: null }]);
 
     await db.$transaction([
       db.auditLog.create({ data: { actorId: null, action: "user.delete", entityType: "User", entityId: a.id } }),
@@ -323,6 +385,7 @@ describe.skipIf(!throwaway)("accounts database", () => {
     for (const count of [
       db.session.count({ where: { userId: a.id } }), db.authToken.count({ where: { userId: a.id } }), db.backupCode.count({ where: { userId: a.id } }),
       db.twoFactorChallenge.count({ where: { userId: a.id } }), db.knownDevice.count({ where: { userId: a.id } }), db.account.count({ where: { userId: a.id } }),
+      db.savedWork.count({ where: { userId: a.id } }),
     ]) expect(await count).toBe(0);
     expect(await db.auditLog.count({ where: { entityId: a.id } })).toBe(2);
   });
