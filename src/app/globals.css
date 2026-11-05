@@ -11,9 +11,9 @@
  * brand-600 / brand-700, which pass WCAG AA.
  */
 @theme {
-  --color-navy-950: #071a2b;
-  --color-navy-900: #0b2942;
-  --color-navy-800: #113657;
+  --color-navy-950: #0a1e33;
+  --color-navy-900: #0f2a47;
+  --color-navy-800: #163a5f;
   --color-navy-700: #18466f;
   --color-navy-600: #215a8c;
 
@@ -53,18 +53,27 @@
 
   --color-slate-500: #5e6d82;
 
-  --color-canvas: #f5f8fc;
+  --color-canvas: #fbf9f4;
+  --color-parchment: #f3eee3;
+  --color-gold-200: #e9dfc6;
+  --color-gold-300: #d9cba8;
+  --color-gold-500: #a8875a;
+  --color-gold-700: #8a6a35;
+  --color-rule: #d8cfbc;
   --color-ink: #0f172a;
   --color-muted: #5e6d82;
-  --color-line: #e2e8f0;
+  --color-line: #e6dfd1;
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-serif), Georgia, "Times New Roman", serif;
+  --font-display: var(--font-classic), Georgia, "Times New Roman", serif;
+  --font-serif: var(--font-serif-text), Georgia, "Times New Roman", serif;
 
   /* Classic look: tighter corners than the default rounded-2xl cards. */
-  --radius-xl: 0.5rem;
-  --radius-2xl: 0.625rem;
-  --radius-3xl: 0.875rem;
+  --radius-md: 0.1875rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.25rem;
+  --radius-2xl: 0.375rem;
+  --radius-3xl: 0.5rem;
   --font-mono: ui-monospace, "SFMono-Regular", Menlo, monospace;
 
   --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 4px 16px rgb(15 23 42 / 0.06);
@@ -92,9 +101,19 @@
   fieldset {
     min-width: 0;
   }
-  h1, h2, h3, h4 {
+  /* Option E: Cormorant Garamond for page and section titles, a sturdier
+     text serif for the small headings inside cards and tools. */
+  h1, h2 {
     font-family: var(--font-display);
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+  h3, h4 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+  html {
+    scroll-padding-top: 5rem;
   }
   :focus-visible {
     outline: 2px solid var(--color-cyan-500);

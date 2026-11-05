@@ -1,9 +1,11 @@
 "use client";
 
 import { Calculator, ChevronDown, FileSearch, Landmark, Menu, Route, Search, ShieldCheck, Wrench, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
+import fullLogo from "@/assets/brand/airpermithub-logo.png";
 import { Logo } from "@/components/brand/Logo";
 import { SearchDialog, preloadSearchIndex } from "@/components/search/SearchDialog";
 import { buttonClass } from "@/components/ui/Button";
@@ -22,14 +24,19 @@ const mobilePriority = [
 export function Header() {
   const pathname = usePathname();
   const isHome = pathname === "/";
-  const [scrolled, setScrolled] = useState(false);
+  // True once the masthead has scrolled away and the nav row is pinned to the top.
+  const [stuck, setStuck] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
   const resourcesRef = useRef<HTMLDivElement>(null);
+  const headerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
+    const onScroll = () => {
+      const el = headerRef.current;
+      setStuck(!!el && window.scrollY > 0 && el.getBoundingClientRect().top <= 0);
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -63,121 +70,144 @@ export function Header() {
   }, [pathname]);
 
   const closeSearch = useCallback(() => setSearchOpen(false), []);
-  const solid = !isHome || scrolled || mobileOpen;
-  // Large logo at the top of the page; a little smaller once the page scrolls.
-  const compact = scrolled && !mobileOpen;
   const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
+  const navLink = "relative px-1 py-1 font-display text-[0.95rem] font-semibold tracking-[0.1em] whitespace-nowrap uppercase transition-colors 2xl:text-base";
 
   return (
     <>
       <a href="#main" className="sr-only z-[70] rounded-lg bg-white px-4 py-2 text-ink focus:not-sr-only focus:fixed focus:top-3 focus:left-3">
         Skip to content
       </a>
+      {/* Option E masthead: navy utility strip, then the full logo centered on ivory. It scrolls away; the nav row below stays. */}
+      <div className="bg-navy-950 text-[0.8rem] text-gold-300 print:hidden">
+        <div className="container-page flex items-center justify-between gap-4 py-2">
+          <span className="hidden tracking-[0.08em] md:inline">Official EPA, eCFR and state agency sources on every record</span>
+          <span className="ml-auto flex items-center gap-5">
+            <Link href="/sign-in" className="text-gold-200 hover:text-white">Sign in</Link>
+            <Link href="/sign-up" className="font-semibold text-white hover:text-gold-200">Create a free account</Link>
+          </span>
+        </div>
+      </div>
+      <div className="bg-canvas pt-6 text-center sm:pt-8">
+        <Link href="/" aria-label="AirPermitHub home" className="inline-block">
+          <Image
+            src={fullLogo}
+            alt="AirPermitHub: Nationwide Air Permitting Excellence"
+            priority
+            sizes="(min-width: 1024px) 400px, 260px"
+            className={cn("mx-auto w-auto", isHome ? "h-32 sm:h-40 lg:h-[12.5rem]" : "h-24 sm:h-28 lg:h-36")}
+          />
+        </Link>
+      </div>
       <header
+        ref={headerRef}
         className={cn(
-          "fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300",
-          solid ? "bg-navy-900 shadow-[0_1px_0_rgb(255_255_255/0.08)]" : "bg-transparent",
+          "sticky top-0 z-50 bg-canvas transition-shadow duration-300",
+          stuck && "shadow-[0_6px_18px_-12px_rgb(10_30_51/0.45)]",
         )}
       >
-        <div className={cn("container-page flex items-center gap-4 transition-[height] duration-300", compact ? "h-[4.5rem] lg:h-[5.5rem]" : "h-32 lg:h-40")}>
-          <Link href="/" aria-label="AirPermitHub home" className="shrink-0">
-            <Logo tone="dark" priority className={cn("p-1 transition-[height] duration-300", compact ? "h-16 lg:h-[4.5rem]" : "h-28 lg:h-36")} />
-          </Link>
+        <div className="container-page">
+          <div className="flex h-14 items-center gap-3 border-y-[3px] border-double border-navy-900 lg:h-16">
+            <Link
+              href="/"
+              aria-label="AirPermitHub home"
+              tabIndex={stuck ? 0 : -1}
+              className={cn("shrink-0 transition-opacity duration-300", stuck ? "opacity-100" : "pointer-events-none opacity-0 xl:w-0 xl:overflow-hidden")}
+            >
+              <Logo tone="light" className="h-10 lg:h-12" />
+            </Link>
 
-          <nav aria-label="Primary" className="ml-2 hidden flex-1 items-center gap-0 xl:flex">
-            {primaryNav.filter((n) => n.href !== "/resources").map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                aria-current={isActive(item.href) ? "page" : undefined}
-                className={cn(
-                  "relative rounded-lg px-2 py-2 text-[0.875rem] font-medium whitespace-nowrap transition-colors 2xl:px-2.5",
-                  isActive(item.href) ? "text-white" : "text-white/75 hover:text-white",
+            <nav aria-label="Primary" className="hidden flex-1 items-center justify-center gap-5 xl:flex 2xl:gap-7">
+              {primaryNav.filter((n) => n.href !== "/resources").map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  aria-current={isActive(item.href) ? "page" : undefined}
+                  className={cn(navLink, isActive(item.href) ? "text-gold-700" : "text-navy-900 hover:text-gold-700")}
+                >
+                  {item.label}
+                  {isActive(item.href) && <span className="absolute inset-x-1 -bottom-1 h-px bg-gold-700" />}
+                </Link>
+              ))}
+              <div ref={resourcesRef} className="relative">
+                <button
+                  onClick={() => setResourcesOpen((o) => !o)}
+                  aria-expanded={resourcesOpen}
+                  aria-haspopup="true"
+                  className={cn(
+                    navLink,
+                    "inline-flex items-center gap-1",
+                    ["/resources", "/templates", "/states", "/applicability", "/regulatory-updates", "/glossary"].some(isActive) ? "text-gold-700" : "text-navy-900 hover:text-gold-700",
+                  )}
+                >
+                  Resources <ChevronDown className={cn("h-4 w-4 transition-transform", resourcesOpen && "rotate-180")} aria-hidden="true" />
+                </button>
+                {resourcesOpen && (
+                  <div className="absolute top-full left-1/2 mt-3 w-72 -translate-x-1/2 border border-rule bg-white p-2 text-left shadow-lift">
+                    {resourcesMenu.map((r) => (
+                      <Link key={r.href} href={r.href} className="block px-3 py-2.5 hover:bg-canvas">
+                        <span className="block text-sm font-semibold text-navy-900">{r.label}</span>
+                        <span className="block text-xs text-muted">{r.description}</span>
+                      </Link>
+                    ))}
+                  </div>
                 )}
-              >
-                {item.label}
-                {isActive(item.href) && <span className="absolute inset-x-2 -bottom-0.5 h-0.5 rounded-full bg-cyan-500 2xl:inset-x-2.5" />}
-              </Link>
-            ))}
-            <div ref={resourcesRef} className="relative">
+              </div>
+            </nav>
+
+            <div className="ml-auto flex items-center gap-1.5 xl:ml-0">
               <button
-                onClick={() => setResourcesOpen((o) => !o)}
-                aria-expanded={resourcesOpen}
-                aria-haspopup="true"
-                className={cn(
-                  "inline-flex items-center gap-1 rounded-lg px-2.5 py-2 text-[0.875rem] font-medium",
-                  ["/resources", "/templates", "/states", "/applicability", "/regulatory-updates", "/glossary"].some(isActive) ? "text-white" : "text-white/75 hover:text-white",
-                )}
+                onClick={() => setSearchOpen(true)}
+                onPointerEnter={preloadSearchIndex}
+                onFocus={preloadSearchIndex}
+                className="inline-flex h-10 w-10 items-center justify-center text-navy-900 hover:text-gold-700"
+                aria-label="Search (Ctrl+K)"
               >
-                Resources <ChevronDown className={cn("h-4 w-4 transition-transform", resourcesOpen && "rotate-180")} aria-hidden="true" />
+                <Search className="h-5 w-5" />
               </button>
-              {resourcesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-72 rounded-2xl border border-line bg-white p-2 shadow-lift">
-                  {resourcesMenu.map((r) => (
-                    <Link key={r.href} href={r.href} className="block rounded-xl px-3 py-2.5 hover:bg-canvas">
-                      <span className="block text-sm font-semibold text-ink">{r.label}</span>
-                      <span className="block text-xs text-muted">{r.description}</span>
-                    </Link>
-                  ))}
-                </div>
-              )}
+              <Link href="/sign-up" className={cn(buttonClass("primary", "sm"), "hidden sm:inline-flex xl:hidden")}>Get Started</Link>
+              <button
+                onClick={() => setMobileOpen((o) => !o)}
+                className="inline-flex h-10 items-center justify-center gap-2 px-2 font-display text-base font-semibold tracking-[0.1em] text-navy-900 uppercase hover:text-gold-700 xl:hidden"
+                aria-expanded={mobileOpen}
+                aria-controls="mobile-nav"
+                aria-label={mobileOpen ? "Close menu" : "Open menu"}
+              >
+                {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                <span className="hidden sm:inline" aria-hidden="true">Menu</span>
+              </button>
             </div>
-          </nav>
-
-          <div className="ml-auto flex items-center gap-2">
-            <button
-              onClick={() => setSearchOpen(true)}
-              onPointerEnter={preloadSearchIndex}
-              onFocus={preloadSearchIndex}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-xl text-white/85 hover:bg-white/10 hover:text-white"
-              aria-label="Search (Ctrl+K)"
-            >
-              <Search className="h-5 w-5" />
-            </button>
-            <div className="hidden items-center gap-2 sm:flex">
-              <Link href="/sign-in" className={buttonClass("outline-light", "sm", "xl:hidden 2xl:inline-flex")}>Sign In</Link>
-              <Link href="/sign-up" className={buttonClass("primary", "sm")}>Get Started</Link>
-            </div>
-            <button
-              onClick={() => setMobileOpen((o) => !o)}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-xl text-white hover:bg-white/10 xl:hidden"
-              aria-expanded={mobileOpen}
-              aria-controls="mobile-nav"
-              aria-label={mobileOpen ? "Close menu" : "Open menu"}
-            >
-              {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
           </div>
         </div>
 
         {mobileOpen && (
-          <div id="mobile-nav" className="max-h-[calc(100dvh-8rem)] overflow-y-auto border-t border-white/10 bg-navy-900 xl:hidden">
+          <div id="mobile-nav" className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-b border-rule bg-canvas xl:hidden">
             <div className="container-page py-4">
               <button
                 onClick={() => {
                   setMobileOpen(false);
                   setSearchOpen(true);
                 }}
-                className="mb-4 flex h-12 w-full items-center gap-3 rounded-xl bg-white/10 px-4 text-left text-white/70"
+                className="mb-4 flex h-12 w-full items-center gap-3 border border-rule bg-white px-4 text-left text-muted"
               >
-                <Search className="h-5 w-5 text-cyan-400" aria-hidden="true" /> Search permits, regulations, equipment...
+                <Search className="h-5 w-5 text-gold-700" aria-hidden="true" /> Search permits, regulations, equipment...
               </button>
               <div className="grid grid-cols-2 gap-2">
                 {mobilePriority.map(({ label, href, icon: Icon }) => (
-                  <Link key={href} href={href} className="glass-dark flex items-center gap-2.5 rounded-xl px-3 py-3.5 text-sm font-semibold text-white">
-                    <Icon className="h-5 w-5 text-cyan-400" aria-hidden="true" /> {label}
+                  <Link key={href} href={href} className="flex items-center gap-2.5 border border-rule bg-white px-3 py-3.5 text-sm font-semibold text-navy-900">
+                    <Icon className="h-5 w-5 text-gold-700" aria-hidden="true" /> {label}
                   </Link>
                 ))}
               </div>
-              <nav aria-label="Mobile" className="mt-4 grid grid-cols-2 gap-x-4 border-t border-white/10 pt-4">
+              <nav aria-label="Mobile" className="mt-4 grid grid-cols-2 gap-x-4 border-t border-rule pt-4">
                 {[...primaryNav, ...resourcesMenu.slice(1), { label: "Dashboard", href: "/dashboard" }].filter((n) => !mobilePriority.some((p) => p.href === n.href)).map((n) => (
-                  <Link key={n.href} href={n.href} className="py-2.5 text-white/80 hover:text-white">
+                  <Link key={n.href} href={n.href} className="py-2.5 text-navy-900 hover:text-gold-700">
                     {n.label}
                   </Link>
                 ))}
               </nav>
-              <div className="mt-4 grid grid-cols-2 gap-2 border-t border-white/10 pt-4">
-                <Link href="/sign-in" className={buttonClass("outline-light", "md")}>Sign In</Link>
+              <div className="mt-4 grid grid-cols-2 gap-2 border-t border-rule pt-4">
+                <Link href="/sign-in" className={buttonClass("subtle", "md")}>Sign In</Link>
                 <Link href="/sign-up" className={buttonClass("primary", "md")}>Get Started</Link>
               </div>
             </div>
