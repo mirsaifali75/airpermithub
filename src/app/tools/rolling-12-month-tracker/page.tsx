@@ -24,8 +24,9 @@ export default function RollingTrackerPage() {
           points: [
             "Each month's rolling value is the sum (or average) of that month and the months before it, for the window length you set.",
             "A window is flagged over the limit only when its value is above the limit you entered; equal to the limit is not over.",
-            "Next-month headroom is the limit minus the most recent months that will still be in next month's window. For an average limit, it is the limit times the window length minus that sum.",
-            "Months with no value are treated as missing data, and any window that contains one is flagged instead of being compared.",
+            "Each forecast month drops the oldest month from the window and adds the planned month. The Headroom column is the limit minus that month's rolling value.",
+            "Next-month headroom is the limit minus the most recent months that will still be in next month's window: the most next month can be. For an average limit, it is the limit times the window length minus that sum.",
+            "Months with no value are treated as missing data, and any window that contains one is flagged instead of being compared. For a sum limit, a window whose recorded months already add up to more than the limit is flagged over, because missing or later months can only add to it.",
           ],
         },
         {

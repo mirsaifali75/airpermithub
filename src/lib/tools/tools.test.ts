@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { converterDefaults, converters, getConverter, molarVolumeScf } from "./converters";
-import { deviationsCsv, groupByPeriod, periodFor, type Deviation } from "./deviations";
+import { deviationsCsv, groupByPeriod, periodFor, promptDeadline, type Deviation, type PromptRule } from "./deviations";
 import { addMonthsToDate, calendarCategory, calendarTask, conditionTitle, parsePermitText } from "./matrix";
 import { dueDates, parseYmd } from "../compliance-calendar";
 import { addMonths, monthIndex, parsePastedColumn, parsePastedTable } from "./months";
 import { baselineWindows, bestBaseline, projectIncrease } from "./nsr";
-import { computeRolling, firstForecastExceedance, nextMonthHeadroom } from "./rolling";
+import { computeRolling, firstForecastExceedance, nextMonthHeadroom, windowHeadroom } from "./rolling";
 
 const pts = (vals: (number | null)[]) => vals.map((value) => ({ value }));
 const range = (a: number, b: number) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
@@ -47,6 +47,28 @@ describe("rolling limits", () => {
     const points = [...pts(Array(12).fill(8)), ...Array(3).fill({ value: 10, forecast: true })];
     const r = computeRolling(points, o); // 96, then 98, 100, 102
     expect(firstForecastExceedance(r)).toBe(14);
+  });
+  it("compares 0.1 + 0.2 with a limit of 0.3 as equal, not over (floating point)", () => {
+    const r = computeRolling(pts([0.1, 0.2, ...Array(10).fill(0)]), { ...o, limit: 0.3 });
+    expect(r[11]).toMatchObject({ total: 0.3, status: "watch" });
+  });
+  it("flags a sum window over when its recorded months already exceed the limit, even with a month missing", () => {
+    const r = computeRolling(pts([...Array(11).fill(4), null]), { ...o, limit: 36 });
+    expect(r[11].status).toBe("over");
+    expect(r[8].status).toBe("partial"); // 36 so far: equal, not over
+    expect(r[9].status).toBe("over"); // 40 in ten months is already over a 12-month limit of 36
+  });
+  it("still flags a missing month when the recorded months are under the limit", () => {
+    expect(computeRolling(pts([...Array(11).fill(1), null]), o)[11].status).toBe("missing");
+  });
+  it("gives each window's headroom as the limit minus the window value, forecast included", () => {
+    const ex = [2.6, 2.4, 2.9, 3.1, 3.4, 3.6, 3.2, 2.8, 2.7, 3.0, 3.3, 3.5, 3.4, 3.1, 3.6, 3.8, 3.7, 3.4];
+    const points = [...pts(ex), ...[3.6, 3.7, 3.9].map((value) => ({ value, forecast: true }))];
+    const opts = { ...o, limit: 41 };
+    const r = computeRolling(points, opts);
+    expect(r.slice(17).map((x) => x.total)).toEqual([39.5, 39.9, 40.8, 42]);
+    expect(r.slice(17).map((x) => windowHeadroom(x, 41, "sum"))).toEqual([1.5, 1.1, 0.2, -1]);
+    expect(nextMonthHeadroom(pts(ex), opts)).toBe(4.7);
   });
 });
 
@@ -103,6 +125,11 @@ describe("NSR baseline and project test", () => {
     expect(withDecreases.significant).toBe(false);
     expect(projectIncrease(units, null, false).significant).toBeNull();
   });
+  it("compares a hand total of exactly the significance level as significant (40.3 − 0.3 = 40)", () => {
+    const r = projectIncrease([{ name: "EU-1", kind: "existing", baseline: 0.3, projected: 40.3, usesPte: false, excluded: 0 }], 40, false);
+    expect(r.total).toBe(40);
+    expect(r.significant).toBe(true);
+  });
   it("ignores the demand-growth exclusion when potential to emit is used", () => {
     const r = projectIncrease([{ name: "EU-1", kind: "existing", baseline: 30, projected: 50, usesPte: true, excluded: 5 }], null, false);
     expect(r.total).toBe(20);
@@ -144,6 +171,12 @@ describe("unit converters", () => {
     expect(run("ppm-to-mg-m3", { ppm: 1, mw: 64.058, tC: 25, pAtm: 1 }).results[0].value).toBeCloseTo(2.6183, 4);
     expect(run("wet-to-dry", { c: 40, bws: 12 }).results[0].value).toBeCloseTo(45.4545, 4);
     expect(run("lb-mmbtu-to-lb-hr", { ef: 0.1, fuel: 10000, hv: 1000, hrs: 8760 }, "fuel").results[0].value).toBeCloseTo(1, 12);
+  });
+  it("refuses negative inputs and more hours than a year has", () => {
+    expect(run("lb-hr-to-tpy", { lbhr: 1, hrs: 9000 }).error).toMatch(/more than a year/);
+    expect(run("lb-hr-to-tpy", { lbhr: 1, hrs: 8784 }).results[0].value).toBe(4.392);
+    expect(run("lb-hr-to-tpy", { lbhr: -1, hrs: 8760 }).error).toMatch(/negative/);
+    expect(run("ppm-to-mg-m3", { ppm: 1, mw: 64.058, tC: -10, pAtm: 1 }).error).toBeUndefined();
   });
   it("has unique slugs, related links that resolve, and sources", () => {
     const slugs = converters.map((c) => c.slug);
@@ -230,5 +263,30 @@ describe("deviation reporting periods", () => {
     const csv = deviationsCsv(devs, 1, 6);
     expect(csv.split("\r\n")[0]).toContain("AirPermitHub Template");
     expect(csv).toContain('"Flare ""pilot"" out, briefly"');
+  });
+});
+
+describe("prompt reporting deadlines", () => {
+  const base: Deviation = { id: "d", start: "2026-03-01", end: "", unit: "FLR-1", requirement: "Cond 4", description: "", cause: "", corrective: "", durationHours: null, pollutants: "", excessEstimate: "", reportedOn: "", status: "open", discovered: "2026-03-02T09:30", ruleId: "r" };
+  const rule = (p: Partial<PromptRule>): PromptRule => ({ id: "r", name: "Cond 3.4", amount: 2, unit: "days", from: "discovery", source: "Condition 3.4", ...p });
+  it("adds calendar days to the discovery date", () => {
+    expect(promptDeadline(base, [rule({})], "2026-03-03")).toMatchObject({ status: "due", due: "2026-03-04" });
+    expect(promptDeadline(base, [rule({})], "2026-03-05").status).toBe("overdue");
+  });
+  it("adds hours to the discovery time, across midnight", () => {
+    expect(promptDeadline(base, [rule({ amount: 24, unit: "hours" })], "2026-03-02").due).toBe("2026-03-03 09:30");
+  });
+  it("counts from the start date when the rule says so", () => {
+    expect(promptDeadline(base, [rule({ from: "start", amount: 7 })], "2026-03-01").due).toBe("2026-03-08");
+  });
+  it("asks for a time before computing an hours deadline", () => {
+    expect(promptDeadline({ ...base, discovered: "2026-03-02" }, [rule({ unit: "hours", amount: 24 })], "2026-03-02").status).toBe("incomplete");
+  });
+  it("grades a report as on time or late", () => {
+    expect(promptDeadline({ ...base, reportedOn: "2026-03-04" }, [rule({})], "2026-04-01").status).toBe("on-time");
+    expect(promptDeadline({ ...base, reportedOn: "2026-03-05" }, [rule({})], "2026-04-01").status).toBe("late");
+  });
+  it("has no deadline without a rule and prefills none", () => {
+    expect(promptDeadline({ ...base, ruleId: "" }, [], "2026-03-02").status).toBe("no-rule");
   });
 });

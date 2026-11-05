@@ -59,6 +59,22 @@ describe("facility screen", () => {
     expect(find(screenFacility(facility({ pte: pte({ NOx: 5 }) })), "title-v").status).toBe("more-info-needed");
   });
 
+  it("uses each ozone class threshold (100, 100, 50, 25, 10) at the boundary", () => {
+    const tv = (VOC: number, ozone: FacilityInput["ozone"]) => find(screenFacility(facility({ pte: pte({ VOC }), ozone, hap: "area" })), "title-v").status;
+    for (const [cls, t] of Object.entries(TV_OZONE) as [keyof typeof TV_OZONE, number][]) {
+      expect(tv(t, cls)).toBe("potentially-applicable");
+      expect(tv(t - 0.1, cls)).toBe("likely-not-applicable");
+    }
+  });
+  it("words the ozone reason correctly and does not repeat the 100 tpy comparison", () => {
+    expect(find(screenFacility(facility({ pte: pte({ VOC: 10 }), ozone: "extreme", hap: "area" })), "title-v").why).toContain("for an extreme ozone");
+    const moderate = find(screenFacility(facility({ pte: pte({ NOx: 100 }), ozone: "moderate", hap: "area" })), "title-v").why;
+    expect(moderate.match(/at or above/g)).toHaveLength(1);
+  });
+  it("does not compare a negative potential to emit", () => {
+    expect(find(screenFacility(facility({ pte: { NOx: -500, CO: 1, VOC: null, SO2: null, PM10: null, "PM2.5": null, PM: null }, ozone: "none", hap: "area" })), "title-v").status).toBe("more-info-needed");
+  });
+
   it("uses 100 tpy for listed PSD categories and 250 tpy otherwise", () => {
     expect(find(screenFacility(facility({ pte: pte({ CO: 150 }), listedCategory: "yes" })), "psd-major").status).toBe("potentially-applicable");
     expect(find(screenFacility(facility({ pte: pte({ CO: 150 }), listedCategory: "no" })), "psd-major").status).toBe("likely-not-applicable");

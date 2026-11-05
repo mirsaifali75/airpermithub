@@ -165,6 +165,9 @@ const human = (d: string) => {
 };
 const isDate = (d?: string): d is string => !!d && /^\d{4}-\d{2}-\d{2}$/.test(d);
 const has = (n?: number | null): n is number => typeof n === "number" && Number.isFinite(n);
+/** A potential-to-emit entry that can be compared: entered, finite, and not negative. */
+const hasPte = (n?: number | null): n is number => has(n) && n >= 0;
+const article = (w: string) => (/^[aeiou]/i.test(w) ? "an" : "a");
 
 /** The facility's HAP status, from the selection or from the potential HAP entered. */
 export function hapStatus(f: FacilityInput): HapStatus {
@@ -183,7 +186,9 @@ function finding(p: Omit<Finding, "needed" | "basis"> & { basis?: RuleQuote[]; n
 export function screenFacility(f: FacilityInput): Finding[] {
   const out: Finding[] = [];
   const hap = hapStatus(f);
-  const entered = ptePollutants.filter((p) => has(f.pte[p]));
+  const entered = ptePollutants.filter((p) => hasPte(f.pte[p]));
+  const negative = ptePollutants.filter((p) => has(f.pte[p]) && (f.pte[p] as number) < 0);
+  const fixFirst = negative.length ? ` Potential to emit cannot be negative: correct ${negative.join(", ")} first.` : "";
   const maxPte = entered.length ? Math.max(...entered.map((p) => f.pte[p] as number)) : null;
   const maxName = entered.find((p) => f.pte[p] === maxPte);
 
@@ -206,14 +211,15 @@ export function screenFacility(f: FacilityInput): Finding[] {
   if (maxPte !== null && maxPte >= TV_MAJOR) tvHits.push(`${maxName} potential ${fmt(maxPte)} tpy is at or above ${TV_MAJOR} tpy`);
   if (f.ozone !== "none" && f.ozone !== "unknown") {
     const t = TV_OZONE[f.ozone];
-    for (const p of ["VOC", "NOx"] as const) if (has(f.pte[p]) && (f.pte[p] as number) >= t) tvHits.push(`${p} potential ${fmt(f.pte[p] as number)} tpy is at or above ${t} tpy for a ${f.ozone} ozone nonattainment area`);
+    // Only add the ozone line when it is lower than the general threshold, so the same comparison is not listed twice.
+    if (t < TV_MAJOR) for (const p of ["VOC", "NOx"] as const) if (hasPte(f.pte[p]) && (f.pte[p] as number) >= t && !(p === maxName && (maxPte as number) >= TV_MAJOR)) tvHits.push(`${p} potential ${fmt(f.pte[p] as number)} tpy is at or above ${t} tpy for ${article(f.ozone)} ${f.ozone} ozone nonattainment area`);
   }
   if (hap === "major") tvHits.push("the site is a major source of HAP");
-  const tvKnown = entered.length >= 3 && f.ozone !== "unknown" && hap !== "unknown";
+  const tvKnown = entered.length >= 3 && !negative.length && f.ozone !== "unknown" && hap !== "unknown";
   out.push(finding({
     key: "title-v", rule: "Title V operating permit", citation: "40 CFR Part 70", title: "Title V major source screen",
     status: tvHits.length ? "potentially-applicable" : tvKnown ? "likely-not-applicable" : "more-info-needed",
-    why: tvHits.length ? `Major source screen: ${tvHits.join("; ")}.` : tvKnown ? "The potential to emit you entered is below the Part 70 major source thresholds. Part 70 also lists other kinds of sources that need a permit (40 CFR 70.3(a)), and your state's program may be broader." : "Enter potential to emit for the main pollutants, the ozone classification, and HAP status to screen against the major source thresholds.",
+    why: tvHits.length ? `Major source screen: ${tvHits.join("; ")}.` : tvKnown ? "The potential to emit you entered is below the Part 70 major source thresholds. Part 70 also lists other kinds of sources that need a permit (40 CFR 70.3(a)), and your state's program may be broader." : `Enter potential to emit for the main pollutants, the ozone classification, and HAP status to screen against the major source thresholds.${fixFirst}`,
     basis: [RT.tvMajor100, RT.tvOzone, RT.tvHap, RT.ptePart70],
     needed: ["Potential to emit for every regulated pollutant, including fugitives where the definition requires them", "Your area's attainment status and classification", "Other reasons Part 70 lists for needing a permit, in 40 CFR 70.3(a)"],
     href: "https://www.ecfr.gov/current/title-40/part-70",
@@ -227,6 +233,7 @@ export function screenFacility(f: FacilityInput): Finding[] {
     if (maxPte >= PSD_OTHER) { psdStatus = "potentially-applicable"; psdWhy = `${maxName} potential ${fmt(maxPte)} tpy is at or above ${PSD_OTHER} tpy.`; }
     else if (maxPte >= PSD_LISTED && f.listedCategory === "yes") { psdStatus = "potentially-applicable"; psdWhy = `${maxName} potential ${fmt(maxPte)} tpy is at or above ${PSD_LISTED} tpy for a listed source category.`; }
     else if (maxPte >= PSD_LISTED && f.listedCategory === "unknown") { psdWhy = `${maxName} potential ${fmt(maxPte)} tpy is between ${PSD_LISTED} and ${PSD_OTHER} tpy. Whether the source is in a listed category decides the threshold.`; }
+    else if (negative.length) psdWhy = `The potential to emit entered is below the thresholds, but some entries are negative.${fixFirst}`;
     else if (entered.length >= 3) { psdStatus = "likely-not-applicable"; psdWhy = `The potential to emit you entered is below ${f.listedCategory === "yes" ? PSD_LISTED : PSD_OTHER} tpy for each pollutant entered.`; }
   }
   out.push(finding({

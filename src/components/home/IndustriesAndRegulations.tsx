@@ -57,12 +57,12 @@ export function IndustriesAndRegulations() {
               Browse All <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>
-          <ul className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-2 2xl:grid-cols-3">
+          <ul className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-2">
             {regCards.map(({ title, body, href, icon: Icon }) => (
               <li key={title}>
-                <Link href={href} className="flex h-full items-start gap-2.5 rounded-xl border border-line p-3 transition-colors hover:border-brand-200 hover:bg-brand-50/60">
+                <Link href={href} className="flex h-full min-w-0 items-start gap-2.5 rounded-xl border border-line p-3 transition-colors hover:border-brand-200 hover:bg-brand-50/60">
                   <Icon className="mt-0.5 h-5 w-5 shrink-0 text-brand-500" aria-hidden="true" />
-                  <span>
+                  <span className="min-w-0 break-words">
                     <span className="block text-sm font-semibold text-ink">{title}</span>
                     <span className="block text-xs text-muted">{body}</span>
                   </span>

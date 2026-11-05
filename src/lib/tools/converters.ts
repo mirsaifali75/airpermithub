@@ -80,7 +80,12 @@ const stdTempPreset = { field: "tF", label: "Standard temperature", options: [{ 
 
 const need = (v: Record<string, number | null>, keys: string[]): string | null => {
   const missing = keys.filter((k) => v[k] === null || v[k] === undefined || !Number.isFinite(v[k] as number));
-  return missing.length ? "Fill in every field to see the result." : null;
+  if (missing.length) return "Fill in every field to see the result.";
+  // Temperatures can be below zero; nothing else on these forms can.
+  if (keys.some((k) => k !== "tF" && k !== "tC" && (v[k] as number) < 0)) return "Values cannot be negative (only a temperature can be below zero).";
+  // A year has at most 8,784 hours (a leap year); potential to emit uses 8,760.
+  if (keys.includes("hrs") && (v.hrs as number) > 8784) return "Operating hours cannot be more than a year: 8,760 hr/yr (8,784 in a leap year).";
+  return null;
 };
 const fail = (error: string): ConvOutput => ({ results: [], steps: [], error });
 
