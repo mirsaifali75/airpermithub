@@ -5,6 +5,7 @@ import Link from "next/link";
 import { csvFileName, downloadText, useStoredState } from "@/components/tools/shared";
 import { Button } from "@/components/ui/Button";
 import { factorsCsv, MY_FACTORS_STORE, type EmissionFactorRecord } from "@/lib/calc/factors";
+import { keptIn } from "@/lib/storage/where";
 
 /** Factors the user saved from the calculators, with their citations. */
 export function MyFactors({ methodNames }: { methodNames: Record<string, string> }) {
@@ -16,7 +17,7 @@ export function MyFactors({ methodNames }: { methodNames: Record<string, string>
         <div>
           <h2 id="my-factors" className="flex items-center gap-2 text-lg font-bold text-ink"><BookMarked className="h-5 w-5 text-brand-500" aria-hidden="true" /> My factors</h2>
           <p className="mt-1 max-w-2xl text-sm text-muted">
-            Factors you save from a calculator, each with the reference you cited. Pick them from the list under any factor field. Kept in this browser until accounts launch.
+            Factors you save from a calculator, each with the reference you cited. Pick them from the list under any factor field. They are {keptIn}.
           </p>
         </div>
         <Button size="sm" variant="subtle" onClick={() => downloadText(csvFileName("my-factors"), factorsCsv(factors))} disabled={!factors.length}>

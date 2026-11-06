@@ -11,6 +11,8 @@ import {
   calendarTask, classify, conditionTitle, conditionTypes, frequencies, matrixTaskId, parsePermitText, recurrence,
   type ConditionType, type Frequency, type ParsedCondition,
 } from "@/lib/tools/matrix";
+import { readStored, writeStored } from "@/lib/storage/browser";
+import { keptIn } from "@/lib/storage/where";
 import { csvFileName, downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
 
 interface MatrixRow extends ParsedCondition {
@@ -102,15 +104,14 @@ export function MatrixBuilder() {
 
   const toCalendar = () => {
     if (s.sample) return;
-    let existing: StoredTask[] = [];
-    try { existing = JSON.parse(localStorage.getItem(CAL_STORE) ?? "[]"); } catch {}
+    const existing = readStored<StoredTask[]>(CAL_STORE, []);
     const tasks = dated.map((r) => calendarTask(r, s.facility, ymd(new Date())));
     const ids = new Set(tasks.map((t) => t.id));
     // Replace this condition's earlier entries, including the one-per-month entries older versions wrote.
     const stale = (id: string) => ids.has(id) || dated.some((r) => id.startsWith(`${matrixTaskId(r.ref)}-`));
     const kept = existing.filter((t) => !stale(t.id));
     const merged = tasks.map((t) => ({ ...t, done: existing.find((e) => e.id === t.id)?.done }));
-    try { localStorage.setItem(CAL_STORE, JSON.stringify([...kept, ...merged])); } catch {}
+    writeStored(CAL_STORE, [...kept, ...merged]);
     const repeating = tasks.filter((t) => t.repeat !== "none").length;
     setMsg(`Added ${tasks.length} calendar task${tasks.length === 1 ? "" : "s"}${repeating ? `, ${repeating} repeating` : ""}, each with its condition number as the basis.`);
   };
@@ -119,7 +120,7 @@ export function MatrixBuilder() {
     <div className="space-y-6">
       <section className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-a`}>
         <h2 id={`${uid}-a`} className="text-lg font-bold text-ink">1. Paste permit conditions</h2>
-        <p className="mt-1 text-sm text-muted">Copy the conditions from the permit PDF and paste them here. Numbered items (1., 3.1.2, A.1, Condition 5) start new rows; wrapped lines join the row above. Text stays in this browser.</p>
+        <p className="mt-1 text-sm text-muted">Copy the conditions from the permit PDF and paste them here. Numbered items (1., 3.1.2, A.1, Condition 5) start new rows; wrapped lines join the row above. The text is {keptIn}.</p>
         <div className="mt-4 grid gap-4 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-end">
           <div>
             <label htmlFor={`${uid}-f`} className={labelCls}>Facility</label>

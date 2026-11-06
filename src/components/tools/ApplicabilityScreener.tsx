@@ -13,6 +13,7 @@ import {
   type EquipmentInput, type EquipmentType, type FacilityInput, type Finding, type HapStatus, type ScreenStatus, type Site,
 } from "@/lib/tools/applicability";
 import { quoteHref } from "@/lib/tools/rule-text";
+import { keptIn } from "@/lib/storage/where";
 import { NumberField, csvFileName, downloadText, field, labelCls, useStoredState } from "./shared";
 
 interface ScreenState { facility: FacilityInput; equipment: EquipmentInput[]; demo: boolean }
@@ -127,7 +128,7 @@ export function ApplicabilityScreener({ states }: { states: { slug: string; name
     <div className="space-y-6">
       <div className="rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-900">
         <p className="font-semibold">Screening only. Not an applicability determination.</p>
-        <p className="mt-1">Each result compares what you enter with the dates and sizes in the rule text quoted under it. Confirm against the current eCFR, your permit, and your state&apos;s rules before relying on it. Entries stay in this browser.</p>
+        <p className="mt-1">Each result compares what you enter with the dates and sizes in the rule text quoted under it. Confirm against the current eCFR, your permit, and your state&apos;s rules before relying on it. Entries are {keptIn}.</p>
       </div>
 
       {handoff && (

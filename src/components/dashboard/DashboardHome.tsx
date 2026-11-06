@@ -4,9 +4,11 @@ import { ArrowRight, BookmarkCheck, Briefcase, Calculator, CalendarClock, FileSt
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ComplianceBadge, DemoBadge } from "@/components/ui/Badge";
+import { accountsEnabled } from "@/lib/auth/config";
 import { cn } from "@/lib/cn";
 import { demoFacilities } from "@/lib/data/compliance";
 import { demoJobs } from "@/lib/data/jobs";
+import { onStored, readStored } from "@/lib/storage/browser";
 
 interface Local {
   calcs: { id: string; sourceName: string; method: string; pollutant: string; tpy: number; savedAt?: string }[];
@@ -14,20 +16,18 @@ interface Local {
   jobs: string[];
 }
 
-const read = <T,>(k: string, d: T): T => {
-  try { return JSON.parse(localStorage.getItem(k) ?? "") as T; } catch { return d; }
-};
-
+const load = (): Local => ({ calcs: readStored("aph.calc.saved.v1", []), tasks: readStored("aph.compliance.tasks.v1", []), jobs: readStored("aph.jobs.saved.v1", []) });
 
 /**
- * Dashboard home. Until accounts launch, it reads what this browser has
- * saved (calculations, compliance tasks, bookmarked jobs) and shows demo
+ * Dashboard home: what the tools have saved (calculations, compliance tasks,
+ * bookmarked jobs), reloaded when the account's copy arrives, and demo
  * facilities, clearly labeled, to preview the facility workspace.
  */
 export function DashboardHome() {
   const [d, setD] = useState<Local | null>(null);
   useEffect(() => {
-    setD({ calcs: read("aph.calc.saved.v1", []), tasks: read("aph.compliance.tasks.v1", []), jobs: read("aph.jobs.saved.v1", []) });
+    setD(load());
+    return onStored(() => setD(load()));
   }, []);
 
   const today = new Date();
@@ -35,11 +35,11 @@ export function DashboardHome() {
   const upcoming = (d?.tasks ?? []).filter((t) => new Date(t.date + "T00:00") >= today).sort((a, b) => a.date.localeCompare(b.date));
 
   const stats = [
-    { label: "Projects", value: 0, icon: FolderKanban, note: "With accounts" },
+    { label: "Projects", value: 0, icon: FolderKanban, note: "Coming soon" },
     { label: "Saved jobs", value: d?.jobs.length ?? 0, icon: BookmarkCheck, href: "/jobs" },
     { label: "Upcoming deadlines", value: upcoming.length, icon: CalendarClock, href: "/compliance" },
     { label: "Calculations", value: d?.calcs.length ?? 0, icon: Calculator, href: "/calculators" },
-    { label: "Applications", value: 0, icon: FileStack, note: "With accounts" },
+    { label: "Applications", value: 0, icon: FileStack, note: "Coming soon" },
   ];
 
   const activity = [
@@ -51,12 +51,16 @@ export function DashboardHome() {
   return (
     <div className="min-w-0 space-y-6">
       <div>
-        <h1 className="text-2xl font-extrabold text-navy-900 sm:text-3xl">Welcome back</h1>
-        <p className="mt-1 text-muted">Manage your projects, tools and resources. Until accounts launch, this page shows what you have saved in this browser.</p>
+        <h2 id="saved-work" className="scroll-mt-24 text-xl font-extrabold text-navy-900">{accountsEnabled ? "Your saved work" : "Saved in this browser"}</h2>
+        <p className="mt-1 text-sm text-muted">
+          {accountsEnabled
+            ? "Calculations, deadlines, tool entries, and bookmarks you save are kept in your account, so they're here on any device you sign in from."
+            : "Calculations, deadlines, and bookmarks you save in the tools are kept in this browser for now."}
+        </p>
       </div>
 
       <section aria-labelledby="qs">
-        <h2 id="qs" className="mb-3 font-bold text-ink">Quick Stats</h2>
+        <h3 id="qs" className="mb-3 font-bold text-ink">Quick Stats</h3>
         <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-5">
           {stats.map(({ label, value, icon: Icon, href, note }) => {
             const body = (
@@ -140,7 +144,7 @@ export function DashboardHome() {
           ))}
         </ul>
       </section>
-      <p className="flex items-center gap-2 text-xs text-muted"><Briefcase className="h-3.5 w-3.5" aria-hidden="true" />Data on this page stays in this browser. Accounts (coming soon) will sync it across devices and teams.</p>
+      <p className="flex items-center gap-2 text-xs text-muted"><Briefcase className="h-3.5 w-3.5" aria-hidden="true" />These facilities are demo data. The facility workspace is coming soon.</p>
     </div>
   );
 }

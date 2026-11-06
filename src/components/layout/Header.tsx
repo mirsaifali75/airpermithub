@@ -4,7 +4,8 @@ import { Calculator, ChevronDown, FileSearch, Landmark, Menu, Route, Search, Shi
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, useTransition } from "react";
+import { signOutHere } from "@/app/account/actions";
 import fullLogo from "@/assets/brand/airpermithub-logo.png";
 import { Logo } from "@/components/brand/Logo";
 import { SearchDialog, preloadSearchIndex } from "@/components/search/SearchDialog";
@@ -30,6 +31,7 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
   const resourcesRef = useRef<HTMLDivElement>(null);
+  const signedIn = useSignedIn(pathname);
   const headerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -83,8 +85,18 @@ export function Header() {
         <div className="container-page flex items-center justify-between gap-4 py-2">
           <span className="hidden tracking-[0.08em] md:inline">Official EPA, eCFR and state agency sources on every record</span>
           <span className="ml-auto flex items-center gap-5">
-            <Link href="/sign-in" className="text-gold-200 hover:text-white">Sign in</Link>
-            <Link href="/sign-up" className="font-semibold text-white hover:text-gold-200">Create a free account</Link>
+            {signedIn ? (
+              <>
+                <Link href="/account" className="text-gold-200 hover:text-white">My account</Link>
+                <Link href="/dashboard" className="font-semibold text-white hover:text-gold-200">Dashboard</Link>
+                <SignOutButton className="text-gold-200 hover:text-white" />
+              </>
+            ) : (
+              <>
+                <Link href="/sign-in" className="text-gold-200 hover:text-white">Sign in</Link>
+                <Link href="/sign-up" className="font-semibold text-white hover:text-gold-200">Create a free account</Link>
+              </>
+            )}
           </span>
         </div>
       </div>
@@ -165,7 +177,7 @@ export function Header() {
               >
                 <Search className="h-5 w-5" />
               </button>
-              <Link href="/sign-up" className={cn(buttonClass("primary", "sm"), "hidden sm:inline-flex xl:hidden")}>Get Started</Link>
+              <Link href={signedIn ? "/dashboard" : "/sign-up"} className={cn(buttonClass("primary", "sm"), "hidden sm:inline-flex xl:hidden")}>{signedIn ? "Dashboard" : "Get Started"}</Link>
               <button
                 onClick={() => setMobileOpen((o) => !o)}
                 className="inline-flex h-10 items-center justify-center gap-2 px-2 font-display text-base font-semibold tracking-[0.1em] text-navy-900 uppercase hover:text-gold-700 xl:hidden"
@@ -207,8 +219,9 @@ export function Header() {
                 ))}
               </nav>
               <div className="mt-4 grid grid-cols-2 gap-2 border-t border-rule pt-4">
-                <Link href="/sign-in" className={buttonClass("subtle", "md")}>Sign In</Link>
-                <Link href="/sign-up" className={buttonClass("primary", "md")}>Get Started</Link>
+                <Link href={signedIn ? "/account" : "/sign-in"} className={buttonClass("subtle", "md")}>{signedIn ? "My Account" : "Sign In"}</Link>
+                <Link href={signedIn ? "/dashboard" : "/sign-up"} className={buttonClass("primary", "md")}>{signedIn ? "Dashboard" : "Get Started"}</Link>
+                {signedIn && <SignOutButton className={cn(buttonClass("subtle", "md"), "col-span-2")} />}
               </div>
             </div>
           </div>
@@ -217,4 +230,47 @@ export function Header() {
       <SearchDialog open={searchOpen} onClose={closeSearch} />
     </>
   );
+}
+
+/** Signs out here, then reloads the home page so every part of the page sees the change. */
+function SignOutButton({ className }: { className?: string }) {
+  const [pending, start] = useTransition();
+  return (
+    <button
+      type="button"
+      disabled={pending}
+      className={cn("disabled:opacity-60", className)}
+      onClick={() =>
+        start(async () => {
+          try {
+            await signOutHere();
+          } finally {
+            window.location.assign("/");
+          }
+        })
+      }
+    >
+      {pending ? "Signing out..." : "Sign out"}
+    </button>
+  );
+}
+
+/**
+ * Whether a visitor is signed in, checked after each navigation so pages stay
+ * statically generated. Always false until accounts are open.
+ */
+function useSignedIn(pathname: string) {
+  const [signedIn, setSignedIn] = useState(false);
+  useEffect(() => {
+    if (process.env.NEXT_PUBLIC_ACCOUNTS !== "1") return;
+    let live = true;
+    fetch("/api/auth/session", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((s) => live && setSignedIn(Boolean(s?.user)))
+      .catch(() => {});
+    return () => {
+      live = false;
+    };
+  }, [pathname]);
+  return signedIn;
 }

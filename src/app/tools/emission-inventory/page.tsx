@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { EmissionInventory } from "@/components/tools/EmissionInventory";
+import { ToolGate } from "@/components/auth/ToolGate";
+import { EmissionInventoryPreview } from "@/components/previews";
 import { ToolPage } from "@/components/tools/ToolPage";
+import { keptIn } from "@/lib/storage/where";
 import { coreTools } from "@/lib/tools/catalog";
 
 const tool = coreTools.find((t) => t.slug === "emission-inventory")!;
@@ -33,7 +36,7 @@ export default function EmissionInventoryPage() {
           points: [
             "Not a state form. Each state sets which pollutants, units, and thresholds its inventory covers and how it is submitted.",
             "Not potential to emit: this is actual emissions for one year. For PTE and limits, use the Synthetic Minor Limit Designer.",
-            "Entries stay in this browser. Export the CSV to keep a record with your inventory files.",
+            `Entries are ${keptIn}. Export the CSV to keep a record with your inventory files.`,
           ],
         },
       ]}
@@ -48,7 +51,9 @@ export default function EmissionInventoryPage() {
         { label: "Templates & Workbooks", href: "/templates" },
       ]}
     >
-      <EmissionInventory />
+      <ToolGate name={tool.name} next="/tools/emission-inventory" preview={<EmissionInventoryPreview />}>
+        <EmissionInventory />
+      </ToolGate>
     </ToolPage>
   );
 }

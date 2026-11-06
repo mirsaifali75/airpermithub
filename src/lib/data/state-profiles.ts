@@ -3,13 +3,15 @@ import { join } from "node:path";
 import type { StateAirPermitProfile } from "./state-profile-types";
 
 /**
- * Server-only loader for researched state profiles in /data/states/*.json.
- * Profiles come from the AirPermitHub state research dataset; each carries
- * its own verification level and last-reviewed date. Adding a JSON file adds
- * a state hub, no code change needed. Phase 2 swaps this for a Prisma query.
+ * Server-only loader for researched state profiles. Each carries its own
+ * verification level and last-reviewed date. Profiles come from
+ * /data/states/*.json, or, when the build exported the content database
+ * (.content/manifest.json exists), from the published versions in
+ * .content/states. See src/lib/content/config.ts.
  */
 
-const DIR = join(process.cwd(), "data", "states");
+const EXPORT = join(process.cwd(), ".content");
+const DIR = existsSync(join(EXPORT, "manifest.json")) ? join(EXPORT, "states") : join(process.cwd(), "data", "states");
 
 let cache: Map<string, StateAirPermitProfile> | null = null;
 

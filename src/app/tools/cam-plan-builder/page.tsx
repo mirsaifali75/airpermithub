@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { CamPlanBuilder } from "@/components/tools/CamPlanBuilder";
+import { ToolGate } from "@/components/auth/ToolGate";
+import { CamPlanPreview } from "@/components/previews";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { coreTools } from "@/lib/tools/catalog";
 import { RT } from "@/lib/tools/rule-text";
@@ -52,7 +54,9 @@ export default function CamPage() {
         { label: "Templates & Workbooks", href: "/templates" },
       ]}
     >
-      <CamPlanBuilder />
+      <ToolGate name={tool.name} next="/tools/cam-plan-builder" preview={<CamPlanPreview />}>
+        <CamPlanBuilder />
+      </ToolGate>
     </ToolPage>
   );
 }
