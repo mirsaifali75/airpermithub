@@ -1,0 +1,883 @@
+{
+ "f001.txt": {
+  "url": "https://www.epa.gov/green-book",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/green-book",
+  "type": "text/html",
+  "title": "Nonattainment Areas for Criteria Pollutants (Green Book) | US EPA",
+  "length": 3490
+ },
+ "f002.txt": {
+  "url": "https://texreg.sos.state.tx.us/public/readtac$ext.ViewTAC?tac_view=4&ti=30&pt=1&ch=106",
+  "status": 200,
+  "finalUrl": "https://texreg.sos.state.tx.us/public/readtac$ext.ViewTAC?tac_view=4&ti=30&pt=1&ch=106",
+  "type": "text/html",
+  "title": "Site Has Moved",
+  "length": 185,
+  "gone": "Has Moved"
+ },
+ "f003.txt": {
+  "url": "https://www.epa.gov/nsr",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/nsr",
+  "type": "text/html",
+  "title": "New Source Review (NSR) Permitting | US EPA",
+  "length": 3835
+ },
+ "f004.txt": {
+  "url": "https://www.epa.gov/title-v-operating-permits",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/title-v-operating-permits",
+  "type": "text/html",
+  "title": "Operating Permits Issued under Title V of the Clean Air Act | US EPA",
+  "length": 2649
+ },
+ "f005.txt": {
+  "url": "https://www.epa.gov/stationary-sources-air-pollution",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/stationary-sources-air-pollution",
+  "type": "text/html",
+  "title": "Stationary Sources of Air Pollution | US EPA",
+  "length": 3052
+ },
+ "f006.txt": {
+  "url": "https://www.epa.gov/controlling-air-pollution-oil-and-natural-gas-industry",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/controlling-air-pollution-oil-and-natural-gas-operations",
+  "type": "text/html",
+  "title": "Controlling Air Pollution from Oil and Natural Gas Operations | US EPA",
+  "length": 3708
+ },
+ "f007.txt": {
+  "url": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors-stationary-sources",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors-stationary-sources",
+  "type": "text/html",
+  "title": "AP-42: Compilation of Air Emissions Factors from Stationary Sources | US EPA",
+  "length": 4942
+ },
+ "f008.txt": {
+  "url": "https://www.epa.gov/ghgreporting",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/ghgreporting",
+  "type": "text/html",
+  "title": "Greenhouse Gas Reporting Program (GHGRP) | US EPA",
+  "length": 4391
+ },
+ "f009.txt": {
+  "url": "https://www.epa.gov/criteria-air-pollutants/naaqs-table",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/criteria-air-pollutants/naaqs-table",
+  "type": "text/html",
+  "title": "NAAQS Table | US EPA",
+  "length": 6716
+ },
+ "f010.txt": {
+  "url": "https://www.ecfr.gov/current/title-40",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40",
+  "type": "text/html",
+  "title": "eCFR :: Title 40 of the CFR -- Protection of Environment",
+  "length": 7614
+ },
+ "f011.txt": {
+  "url": "https://www.usajobs.gov/search/results/?k=air%20quality",
+  "status": 200,
+  "finalUrl": "https://www.usajobs.gov/search/results/?k=air%20quality",
+  "type": "text/html",
+  "title": "USAJOBS - Search",
+  "length": 6648
+ },
+ "f012.txt": {
+  "url": "https://www.epa.gov/careers",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/careers",
+  "type": "text/html",
+  "title": "Careers | US EPA",
+  "length": 3352
+ },
+ "f013.txt": {
+  "url": "https://www.tceq.texas.gov/jobs",
+  "status": 200,
+  "finalUrl": "https://www.tceq.texas.gov/jobs",
+  "type": "text/html",
+  "title": "Job Opportunities at the TCEQ - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+  "length": 2737
+ },
+ "f014.txt": {
+  "url": "https://www.deq.louisiana.gov/page/careers",
+  "status": 200,
+  "finalUrl": "https://www.deq.louisiana.gov/page/careers",
+  "type": "text/html",
+  "title": "Careers | Louisiana Department of Environmental Quality",
+  "length": 8197
+ },
+ "f015.txt": {
+  "url": "https://cdphe.colorado.gov/careers",
+  "status": 200,
+  "finalUrl": "https://cdphe.colorado.gov/careers",
+  "type": "text/html",
+  "title": "Careers | Colorado Department of Public Health and Environment",
+  "length": 5380
+ },
+ "f016.txt": {
+  "url": "https://www.calcareers.ca.gov/",
+  "status": 200,
+  "finalUrl": "https://calcareers.ca.gov/",
+  "type": "text/html",
+  "title": "CalCareers",
+  "length": 4574
+ },
+ "f017.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/CFR-2020-title40-vol3/pdf/CFR-2020-title40-vol3-sec52-21.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/CFR-2020-title40-vol3/pdf/CFR-2020-title40-vol3-sec52-21.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 173431
+ },
+ "f018.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 60 -- Standards of Performance for New Stationary Sources",
+  "length": 180433
+ },
+ "f019.txt": {
+  "url": "https://www.epa.gov/emc",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/emc",
+  "type": "text/html",
+  "title": "Air Emission Measurement Center (EMC) | US EPA",
+  "length": 6261
+ },
+ "f020.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 51 -- Requirements for Preparation, Adoption, and Submittal of Implementation Plans",
+  "length": 2054231
+ },
+ "f021.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 52 -- Approval and Promulgation of Implementation Plans",
+  "length": 64071
+ },
+ "f022.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/part-64",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-64",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 64 -- Compliance Assurance Monitoring",
+  "length": 52583
+ },
+ "f023.txt": {
+  "url": "https://www.epa.gov/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring",
+  "type": "text/html",
+  "title": "Compliance Assurance Monitoring | US EPA",
+  "length": 4867
+ },
+ "f024.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-A/section-63.2",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.2 -- Definitions.",
+  "length": 34513
+ },
+ "f025.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/part-70",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 70 -- State Operating Permit Programs",
+  "length": 276636
+ },
+ "f026.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(1",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f027.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-98.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-98/subpart-A/section-98.2",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 98.2 -- Who must report?",
+  "length": 23808
+ },
+ "f028.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.18",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-A/section-60.18",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.18 -- General control device and work practice requirements.",
+  "length": 24253
+ },
+ "f029.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-50",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-50",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 50 -- National Primary and Secondary Ambient Air Quality Standards",
+  "length": 575275
+ },
+ "f030.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f031.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2015-08/documents/lmitpotl.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2015-08/documents/lmitpotl.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 34279
+ },
+ "f032.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2015-07/documents/ptememo.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2015-07/documents/ptememo.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 113399
+ },
+ "f033.txt": {
+  "url": "https://www.epa.gov/system/files/documents/2026-08/c7s1_2026.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/system/files/documents/2026-08/c7s1_2026.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 441310
+ },
+ "f034.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 35928
+ },
+ "f035.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2020-09/documents/protocol_for_equipment_leak_emission_estimates.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2020-09/documents/protocol_for_equipment_leak_emission_estimates.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 516130
+ },
+ "f036.txt": {
+  "url": "https://www.federalregister.gov/",
+  "status": 200,
+  "finalUrl": "https://www.federalregister.gov/",
+  "type": "text/html",
+  "title": "Federal Register :: Home - Friday, November 6th",
+  "length": 6345
+ },
+ "f037.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-70.6",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.6",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.6 -- Permit content.",
+  "length": 27512
+ },
+ "f038.txt": {
+  "url": "https://www.epa.gov/air-emissions-inventories",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/air-emissions-inventories",
+  "type": "text/html",
+  "title": "Air Emissions Inventories | US EPA",
+  "length": 2988
+ },
+ "f039.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.760",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-HH/section-63.760",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.760 -- Applicability and designation of affected source.",
+  "length": 19984
+ },
+ "f040.txt": {
+  "url": "https://www.epa.gov/haps/initial-list-hazardous-air-pollutants-modifications",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/haps/initial-list-hazardous-air-pollutants-modifications",
+  "type": "text/html",
+  "title": "Initial List of Hazardous Air Pollutants with Modifications | US EPA",
+  "length": 8868
+ },
+ "f041.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(4",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f042.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-70.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.2",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.2 -- Definitions.",
+  "length": 27339
+ },
+ "f043.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(21",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f044.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-A/section-60.2",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.2 -- Definitions.",
+  "length": 17067
+ },
+ "f045.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(16",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f046.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-70.6#p-70.6(c)(5",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.6",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.6 -- Permit content.",
+  "length": 27512
+ },
+ "f047.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7412.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7412.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 178042
+ },
+ "f048.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-81",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-81",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 81 -- Designation of Areas for Air Quality Planning Purposes",
+  "length": 26097
+ },
+ "f049.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7407.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7407.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 37039
+ },
+ "f050.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(12",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f051.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(48",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f052.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(11",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f053.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-64",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-64",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 64 -- Compliance Assurance Monitoring",
+  "length": 52583
+ },
+ "f054.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.13",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-A/section-60.13",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.13 -- Monitoring requirements.",
+  "length": 21484
+ },
+ "f055.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(9",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f056.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.6675",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-ZZZZ/subject-group-ECFRb1f4f81f9f023bc/section-63.6675",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.6675 -- What definitions apply to this subpart?",
+  "length": 25562
+ },
+ "f057.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-70.6#p-70.6(a)(3)(iii",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.6",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.6 -- Permit content.",
+  "length": 27512
+ },
+ "f058.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(7",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f059.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-64.1",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-64/section-64.1",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 64.1 -- Definitions.",
+  "length": 14733
+ },
+ "f060.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(17",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f061.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(20",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f062.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-98",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-98",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 98 -- Mandatory Greenhouse Gas Reporting",
+  "length": 2469984
+ },
+ "f063.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-70.5#p-70.5(c",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.5",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.5 -- Permit applications.",
+  "length": 19364
+ },
+ "f064.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-51.165#p-51.165(a)(1)(xiii",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/subpart-I/section-51.165",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 51.165 -- Permit requirements.",
+  "length": 109841
+ },
+ "f065.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 63 -- National Emission Standards for Hazardous Air Pollutants for Source Categories",
+  "length": 277957
+ },
+ "f066.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f067.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(a)(2)(iv",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f068.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.14",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-A/section-60.14",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.14 -- Modification.",
+  "length": 12628
+ },
+ "f069.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(3",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f070.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-61",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-61",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 61 -- National Emission Standards for Hazardous Air Pollutants",
+  "length": 1243482
+ },
+ "f071.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-51.165",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/subpart-I/section-51.165",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 51.165 -- Permit requirements.",
+  "length": 109841
+ },
+ "f072.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-51.165#p-51.165(a)(3",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/subpart-I/section-51.165",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 51.165 -- Permit requirements.",
+  "length": 109841
+ },
+ "f073.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(aa",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f074.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.8",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-A/section-60.8",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.8 -- Performance tests.",
+  "length": 26175
+ },
+ "f075.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.7",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-A/section-63.7",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.7 -- Performance testing requirements.",
+  "length": 41357
+ },
+ "f076.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-70.6#p-70.6(f",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.6",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.6 -- Permit content.",
+  "length": 27512
+ },
+ "f077.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-51.160",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/subpart-I/section-51.160",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 51.160 -- Legally enforceable procedures.",
+  "length": 8903
+ },
+ "f078.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(41",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f079.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-51.166",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/subpart-I/section-51.166",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 51.166 -- Prevention of significant deterioration of air quality.",
+  "length": 145577
+ },
+ "f080.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.15",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-A/section-60.15",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.15 -- Reconstruction.",
+  "length": 8601
+ },
+ "f081.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(50",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f082.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-70.6#p-70.6(a)(3)(iii)(A",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.6",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.6 -- Permit content.",
+  "length": 27512
+ },
+ "f083.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(23",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f084.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7410.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/pdf/USCODE-2024-title42-chap85-subchapI-partA-sec7410.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 56654
+ },
+ "f085.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(5",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f086.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-52.21#p-52.21(b)(6",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f087.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 70 -- State Operating Permit Programs",
+  "length": 276636
+ },
+ "f088.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-71",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-71",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR Part 71 -- Federal Operating Permit Programs",
+  "length": 228507
+ },
+ "f089.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-51.100#p-51.100(s",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/subpart-F/section-51.100",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 51.100 -- Definitions.",
+  "length": 31415
+ },
+ "f090.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.5365b#p-60.5365b(e)(2)(i",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-OOOOb/section-60.5365b",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.5365b -- Am I subject to this subpart?",
+  "length": 28568
+ },
+ "f091.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.4200",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-IIII/subject-group-ECFRfafdbb934fcf23c/section-60.4200",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.4200 -- Am I subject to this subpart?",
+  "length": 8850
+ },
+ "f092.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.4230",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-JJJJ/subject-group-ECFRf4886e3c3fec26f/section-60.4230",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.4230 -- Am I subject to this subpart?",
+  "length": 10495
+ },
+ "f093.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.6585",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-ZZZZ/subject-group-ECFR2bd787918291576/section-63.6585",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.6585 -- Am I subject to this subpart?",
+  "length": 8763
+ },
+ "f094.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.6590",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-ZZZZ/subject-group-ECFR2bd787918291576/section-63.6590",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.6590 -- What parts of my plant does this subpart cover?",
+  "length": 12521
+ },
+ "f095.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.7485",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-DDDDD/subject-group-ECFR096f337d54662a0/section-63.7485",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.7485 -- Am I subject to this subpart?",
+  "length": 6552
+ },
+ "f096.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.11193",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-JJJJJJ/subject-group-ECFR3176880d58d22c2/section-63.11193",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 63.11193 -- Am I subject to this subpart?",
+  "length": 6355
+ },
+ "f097.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-63.761",
+  "status": 429,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/section-63.761",
+  "type": "text/plain",
+  "title": "",
+  "length": 132
+ },
+ "f098.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.110b",
+  "status": 429,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/section-60.110b",
+  "type": "text/plain",
+  "title": "",
+  "length": 132
+ },
+ "f099.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.110c",
+  "status": 429,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/section-60.110c",
+  "type": "text/plain",
+  "title": "",
+  "length": 132
+ },
+ "f100.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.5365",
+  "status": 429,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/section-60.5365",
+  "type": "text/plain",
+  "title": "",
+  "length": 132
+ },
+ "f101.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.5365a",
+  "status": 429,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/section-60.5365a",
+  "type": "text/plain",
+  "title": "",
+  "length": 132
+ },
+ "f102.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.5365b",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-OOOOb/section-60.5365b",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.5365b -- Am I subject to this subpart?",
+  "length": 28568
+ },
+ "f103.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.5360c",
+  "status": 429,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/section-60.5360c",
+  "type": "text/plain",
+  "title": "",
+  "length": 132
+ },
+ "f104.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.5365b#p-60.5365b(e)(2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-OOOOb/section-60.5365b",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.5365b -- Am I subject to this subpart?",
+  "length": 28568
+ },
+ "f105.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-64.2",
+  "status": 429,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/section-64.2",
+  "type": "text/plain",
+  "title": "",
+  "length": 132
+ },
+ "f106.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-70.7",
+  "status": 429,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/section-70.7",
+  "type": "text/plain",
+  "title": "",
+  "length": 132
+ },
+ "f107.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/section-52.21",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-52/subpart-A/section-52.21",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 52.21 -- Prevention of significant deterioration of air quality.",
+  "length": 148249
+ },
+ "f108.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.2",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-70/section-70.2",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 70.2 -- Definitions.",
+  "length": 27339
+ },
+ "f109.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/section-51.165",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-51/subpart-I/section-51.165",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 51.165 -- Permit requirements.",
+  "length": 109841
+ },
+ "f110.txt": {
+  "url": "https://www.ecfr.gov/current/title-40/section-60.4233",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-JJJJ/subject-group-ECFR9dcaa92eb62138c/section-60.4233",
+  "type": "text/html",
+  "title": "eCFR :: 40 CFR 60.4233 -- What emission standards must I meet if I am an owner or operator of a stationary SI internal combustion engine?",
+  "length": 14499
+ }
+}
