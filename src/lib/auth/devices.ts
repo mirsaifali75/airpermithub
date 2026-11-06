@@ -16,9 +16,10 @@ export function describeAgent(ua: string | null | undefined) {
 
 /**
  * Records a sign-in from this browser. The first browser an account uses is
- * just remembered; any later new one gets an email to the account's address.
+ * just remembered; any later new one gets an email to the account's address
+ * (accounts made with a phone number have none, so they get no alert).
  */
-export async function noteSignIn(db: PrismaClient, user: { id: string; email: string }, deviceId: string, userAgent: string | null, now = new Date()) {
+export async function noteSignIn(db: PrismaClient, user: { id: string; email: string | null }, deviceId: string, userAgent: string | null, now = new Date()) {
   const deviceHash = sha256(`device:${deviceId}`);
   const known = await db.knownDevice.findUnique({ where: { userId_deviceHash: { userId: user.id, deviceHash } } });
   if (known) {
@@ -27,7 +28,7 @@ export async function noteSignIn(db: PrismaClient, user: { id: string; email: st
   }
   const others = await db.knownDevice.count({ where: { userId: user.id } });
   await db.knownDevice.create({ data: { userId: user.id, deviceHash, userAgent: userAgent?.slice(0, 300) ?? null, firstSeenAt: now, lastSeenAt: now } });
-  if (others > 0) {
+  if (others > 0 && user.email) {
     await sendEmail(user.email, newDeviceEmail({ device: describeAgent(userAgent), when: now })).catch((e) => console.error("new-device email failed", e));
   }
   return { newDevice: others > 0 };

@@ -74,6 +74,11 @@ jobs:
       ADMIN_EMAILS: admin@example.com
       AUTH_TRUST_HOST: "true"
       AUTH_URL: http://localhost:3124
+      # Stand-in values: texts go to e2e/fake-twilio.cjs, never to Twilio.
+      TWILIO_ACCOUNT_SID: AC_stand_in
+      TWILIO_AUTH_TOKEN: stand_in_token
+      TWILIO_VERIFY_SERVICE_SID: VA_stand_in
+      TWILIO_VERIFY_URL: http://localhost:4020
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

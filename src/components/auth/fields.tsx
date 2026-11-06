@@ -1,6 +1,6 @@
 "use client";
 
-import { Eye, EyeOff } from "lucide-react";
+import { Eye, EyeOff, Mail, Smartphone } from "lucide-react";
 import { useState, type ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -49,5 +49,62 @@ export function FormAlert({ message, tone = "error" }: { message?: string; tone?
     <p role={tone === "error" ? "alert" : "status"} className={cn("rounded-xl px-4 py-2.5 text-sm", tone === "error" ? "bg-red-50 text-red-700" : "bg-eco-50 text-eco-700")}>
       {message}
     </p>
+  );
+}
+
+export type Method = "email" | "phone";
+
+/**
+ * Email or phone number, as two radio buttons styled as a switch. The radios
+ * are named "method", so the form submits the choice without extra code.
+ */
+export function MethodSwitch({ value, onChange, legend, disabled }: { value: Method; onChange: (m: Method) => void; legend: string; disabled?: boolean }) {
+  const options: { m: Method; label: string; Icon: typeof Mail }[] = [
+    { m: "email", label: "Email", Icon: Mail },
+    { m: "phone", label: "Phone number", Icon: Smartphone },
+  ];
+  return (
+    <fieldset>
+      <legend className="sr-only">{legend}</legend>
+      <div className="grid grid-cols-2 gap-1 rounded-xl border border-line bg-canvas p-1">
+        {options.map(({ m, label, Icon }) => (
+          <label
+            key={m}
+            className={cn(
+              "flex h-10 cursor-pointer items-center justify-center gap-2 rounded-lg text-sm font-semibold transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-brand-500",
+              value === m ? "bg-white text-ink shadow-sm" : "text-muted hover:text-ink",
+            )}
+          >
+            <input
+              type="radio" name="method" value={m} checked={value === m} onChange={() => onChange(m)} disabled={disabled} className="sr-only"
+              aria-label={`${legend} ${label.toLowerCase()}`}
+            />
+            <Icon className="h-4 w-4" aria-hidden="true" /> {label}
+          </label>
+        ))}
+      </div>
+    </fieldset>
+  );
+}
+
+/** A US or Canadian phone number. The server checks and formats it. */
+export function PhoneInput({ id, defaultValue, invalid, describedBy, disabled, autoFocus }: {
+  id: string; defaultValue?: string; invalid?: boolean; describedBy?: string; disabled?: boolean; autoFocus?: boolean;
+}) {
+  return (
+    <input
+      id={id} name="phone" type="tel" inputMode="tel" autoComplete="tel" required maxLength={40} placeholder="(555) 555-0123"
+      defaultValue={defaultValue} className={inputClass} aria-invalid={invalid || undefined} aria-describedby={describedBy} disabled={disabled} autoFocus={autoFocus}
+    />
+  );
+}
+
+/** The 6-digit code from a text. */
+export function TextCodeInput({ id, autoFocus = true }: { id: string; autoFocus?: boolean }) {
+  return (
+    <input
+      id={id} name="code" required autoFocus={autoFocus} inputMode="numeric" autoComplete="one-time-code" placeholder="123456" maxLength={8}
+      className={`${inputClass} text-center font-mono text-xl tracking-[0.3em]`}
+    />
   );
 }

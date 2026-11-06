@@ -120,8 +120,12 @@ export function twoStepChangedEmail(on: boolean, at: Date): Email {
   };
 }
 
-/** Sends through Resend's HTTP API. RESEND_API_URL points local end-to-end tests at a stand-in server. */
-export async function sendEmail(to: string, { subject, text, html }: Email) {
+/**
+ * Sends through Resend's HTTP API. RESEND_API_URL points local end-to-end tests at a stand-in server.
+ * Accounts made with a phone number have no address, so for them nothing is sent.
+ */
+export async function sendEmail(to: string | null, { subject, text, html }: Email) {
+  if (!to) return;
   const res = await fetch(`${process.env.RESEND_API_URL || "https://api.resend.com"}/emails`, {
     method: "POST",
     headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY ?? ""}`, "Content-Type": "application/json" },

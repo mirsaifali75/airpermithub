@@ -11,6 +11,7 @@ import {
 import { field, textField, type FormState } from "@/lib/auth/forms";
 import { claim, emailKey, release, rules } from "@/lib/auth/limits";
 import { verifyPassword } from "@/lib/auth/password";
+import { normalizePhone } from "@/lib/auth/phone";
 import { currentSessionToken } from "@/lib/auth/server";
 import { getSession } from "@/lib/auth/session";
 import { accountTypes, type AccountType } from "@/lib/auth/types";
@@ -46,6 +47,7 @@ export async function saveProfile(_: ProfileState, form: FormData): Promise<Prof
 
 export async function resendVerification(): Promise<FormState> {
   const s = await me();
+  if (!s.user.email) return { error: "This account signs in with a phone number, so there's no email to confirm." };
   const tries = await claim(prisma, [[emailKey(s.user.email), rules.emailSend]]);
   if (!tries) return { error: "We've sent several links in the last hour. Use the newest one, or try again later." };
   const issued = await reissueVerification(prisma, s.user.id);
@@ -152,7 +154,10 @@ export async function newBackupCodesAction(_: TwoStepState, form: FormData): Pro
 export async function deleteAccount(_: FormState, form: FormData): Promise<FormState> {
   const s = await me();
   if (s.user.platformRole !== "USER") return { error: "Editor, reviewer, and admin accounts are removed by an admin, because their reviews stay on record." };
-  if (field(form, "confirm").trim().toLowerCase() !== s.user.email.toLowerCase()) return { error: "The email you typed doesn't match this account, so nothing was deleted." };
+  const typed = field(form, "confirm").trim();
+  if (s.user.email ? typed.toLowerCase() !== s.user.email.toLowerCase() : !s.user.phone || normalizePhone(typed) !== s.user.phone) {
+    return { error: `The ${s.user.email ? "email" : "phone number"} you typed doesn't match this account, so nothing was deleted.` };
+  }
   if (s.user.hasPassword) {
     const u = await prisma.user.findUniqueOrThrow({ where: { id: s.user.id } });
     if (!(await verifyPassword(u.passwordHash!, field(form, "password")))) return { error: "That password isn't right, so nothing was deleted." };

@@ -151,13 +151,13 @@ describe.skipIf(!throwaway)("accounts database", () => {
     it("lets a Google-only account add a password without a current one", async () => {
       const u = await db.user.create({ data: { email: `google${++n}@example.com`, emailVerified: new Date() } });
       expect(await changePassword(db, u.id, "", "a first passphrase here", { breached: notBreached })).toMatchObject({ ok: true, added: true });
-      expect((await checkPassword(db, u.email, "a first passphrase here"))?.id).toBe(u.id);
+      expect((await checkPassword(db, u.email!, "a first passphrase here"))?.id).toBe(u.id);
     });
 
     it("never signs in or resets a system account", async () => {
       const sys = await db.user.create({ data: { email: `system${++n}@example.com`, isSystem: true, emailVerified: new Date() } });
-      expect(await startReset(db, sys.email)).toBeNull();
-      expect(await registerAccount(db, { name: "x", email: sys.email, password: strong, accountType: "INDIVIDUAL" }, { breached: notBreached })).toMatchObject({ created: false, canSignIn: false });
+      expect(await startReset(db, sys.email!)).toBeNull();
+      expect(await registerAccount(db, { name: "x", email: sys.email!, password: strong, accountType: "INDIVIDUAL" }, { breached: notBreached })).toMatchObject({ created: false, canSignIn: false });
     });
   });
 

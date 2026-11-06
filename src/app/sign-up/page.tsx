@@ -8,10 +8,11 @@ import { SignUpForm } from "@/components/auth/SignUpForm";
 import { Logo } from "@/components/brand/Logo";
 import { accountsEnabled, googleEnabled, safeNext } from "@/lib/auth/config";
 import { getSession } from "@/lib/auth/session";
+import { phoneEnabled } from "@/lib/auth/sms";
 
 export const metadata: Metadata = { title: "Sign Up", robots: { index: false } };
 
-export default async function Page({ searchParams }: { searchParams: Promise<{ next?: string; callbackUrl?: string }> }) {
+export default async function Page({ searchParams }: { searchParams: Promise<{ next?: string; callbackUrl?: string; method?: string }> }) {
   const sp = await searchParams;
   const next = safeNext(sp.next ?? sp.callbackUrl);
   if (await getSession()) redirect(next);
@@ -29,7 +30,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ n
             <OrDivider />
           </>
         )}
-        <div className={accountsEnabled && googleEnabled() ? "" : "mt-6"}><SignUpForm next={next} enabled={accountsEnabled} /></div>
+        <div className={accountsEnabled && googleEnabled() ? "" : "mt-6"}><SignUpForm next={next} enabled={accountsEnabled} phone={accountsEnabled && phoneEnabled()} initialMethod={sp.method === "phone" ? "phone" : "email"} /></div>
         <p className="mt-6 text-center text-sm text-muted">Already have an account? <Link href={signInHref} className="font-semibold text-brand-600">Sign in</Link></p>
       </div>
     </AuthLayout>

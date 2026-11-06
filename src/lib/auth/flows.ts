@@ -2,13 +2,16 @@ import type { AuthTokenKind, Prisma, PrismaClient } from "@prisma/client";
 import { decrypt, encrypt, newToken, sha256 } from "./crypto";
 import { RESET_MINUTES, VERIFY_HOURS } from "./email";
 import { hashPassword, isBreached, passwordProblem, verifyDecoy, verifyPassword } from "./password";
+import { normalizePhone, phoneProblem } from "./phone";
+import type { CodeCheck } from "./sms";
 import { hashBackupCode, looksLikeBackupCode, matchTotp, newBackupCodes, newTotpSecret, otpauthUrl } from "./totp";
 import { accountTypes, type AccountType } from "./types";
 
 /**
  * The account rules, kept apart from Next.js so tests can drive them against
- * a real database: sign-up, sign-in, email and reset links, two-step login,
- * and Google sign-in. Pages and server actions add cookies and redirects.
+ * a real database: sign-up, sign-in, email and reset links, texted codes for
+ * phone accounts, two-step login, and Google sign-in. Pages and server
+ * actions add cookies, texts and redirects.
  */
 
 type Db = PrismaClient;
@@ -23,9 +26,10 @@ export const CHALLENGE_ATTEMPTS = 5;
 
 const breachMessage = "This password has appeared in a known data breach, so it's easy to guess. Choose a different one.";
 
-async function newPasswordProblem(password: string, email: string, breached: Breach) {
-  const problem = passwordProblem(password, email);
+async function newPasswordProblem(password: string, who: { email: string | null; phone?: string | null }, breached: Breach) {
+  const problem = passwordProblem(password, who.email ?? undefined);
   if (problem) return problem;
+  if (who.phone && password.replace(/\D/g, "").includes(who.phone.slice(-7))) return "Don't use your phone number in your password.";
   return (await breached(password)) === true ? breachMessage : null;
 }
 
@@ -76,7 +80,7 @@ export async function registerAccount(db: Db, input: SignUpInput, { breached = i
   if (!name) return { error: "Enter your name.", field: "name" };
   if (!validEmail(email)) return { error: "Enter a valid email address.", field: "email" };
   if (!accountTypes.some((t) => t.value === input.accountType)) return { error: "Choose what describes you best.", field: "accountType" };
-  const problem = await newPasswordProblem(input.password, email, breached);
+  const problem = await newPasswordProblem(input.password, { email }, breached);
   if (problem) return { error: problem, field: "password" };
 
   const existing = await db.user.findUnique({ where: { email }, select: { isSystem: true } });
@@ -114,15 +118,28 @@ export async function confirmEmail(db: Db, token: string, now = new Date()) {
 
 // ───────── Password sign-in and resets ─────────
 
-/** Checks an email and password. Unknown addresses take as long as wrong passwords. */
-export async function checkPassword(db: Db, rawEmail: string, password: string) {
-  const email = normalizeEmail(rawEmail);
-  const user = validEmail(email) && password ? await db.user.findUnique({ where: { email } }) : null;
+type UserRow = NonNullable<Awaited<ReturnType<Db["user"]["findUnique"]>>>;
+
+/** Unknown accounts take as long as wrong passwords, so the reply doesn't tell which accounts exist. */
+async function passwordMatches(user: UserRow | null, password: string) {
   if (!user || !user.passwordHash || user.isSystem || password.length > 1024) {
     await verifyDecoy(password.slice(0, 1024));
     return null;
   }
   return (await verifyPassword(user.passwordHash, password)) ? user : null;
+}
+
+/** Checks an email and password. */
+export async function checkPassword(db: Db, rawEmail: string, password: string) {
+  const email = normalizeEmail(rawEmail);
+  return passwordMatches(validEmail(email) && password ? await db.user.findUnique({ where: { email } }) : null, password);
+}
+
+/** Checks a phone number and password. */
+export async function checkPhonePassword(db: Db, rawPhone: string, password: string) {
+  const phone = normalizePhone(rawPhone);
+  const user = phone && password ? await db.user.findUnique({ where: { phone } }) : null;
+  return passwordMatches(user?.phoneVerified ? user : null, password);
 }
 
 /** A reset link for an address, or null when no account (or only a system account) has it. */
@@ -143,7 +160,7 @@ export async function finishReset(db: Db, token: string, password: string, { bre
   const userId = await peekAuthToken(db, token, "RESET_PASSWORD", now);
   if (!userId) return { error: "This reset link has expired or was already used. Ask for a new one." };
   const user = await db.user.findUniqueOrThrow({ where: { id: userId } });
-  const problem = await newPasswordProblem(password, user.email, breached);
+  const problem = await newPasswordProblem(password, user, breached);
   if (problem) return { error: problem };
   const passwordHash = await hashPassword(password);
   return db.$transaction(async (tx) => {
@@ -165,7 +182,7 @@ export async function changePassword(
 ) {
   const user = await db.user.findUniqueOrThrow({ where: { id: userId } });
   if (user.passwordHash && !(await verifyPassword(user.passwordHash, current))) return { error: "Your current password isn't right." };
-  const problem = await newPasswordProblem(next, user.email, breached);
+  const problem = await newPasswordProblem(next, user, breached);
   if (problem) return { error: problem };
   const passwordHash = await hashPassword(next);
   await db.$transaction([
@@ -175,16 +192,134 @@ export async function changePassword(
   return { ok: true as const, email: user.email, added: !user.passwordHash };
 }
 
+// ───────── Phone accounts ─────────
+
+export const PHONE_SIGNUP_MINUTES = 30;
+const signupExpired = "This sign-up has expired. Start again.";
+
+export interface PhoneSignUpInput { name: string; phone: string; password: string; accountType: string; company?: string; next: string }
+
+/**
+ * Keeps a phone sign-up until the texted code comes back. The caller texts
+ * the code and keeps the token in a cookie; the account itself is created by
+ * `finishPhoneSignup`, so a number nobody confirmed never holds an account.
+ */
+export type PhoneSignupStart = { error: string; field: "name" | "phone" | "accountType" | "password" } | { token: string; phone: string };
+
+export async function startPhoneSignup(db: Db, input: PhoneSignUpInput, { breached = isBreached as Breach, now = new Date() } = {}): Promise<PhoneSignupStart> {
+  const name = input.name.trim().slice(0, 120);
+  const phone = normalizePhone(input.phone);
+  const company = input.company?.trim().slice(0, 120) || null;
+  if (!name) return { error: "Enter your name.", field: "name" };
+  if (!phone) return { error: phoneProblem, field: "phone" };
+  if (!accountTypes.some((t) => t.value === input.accountType)) return { error: "Choose what describes you best.", field: "accountType" };
+  const problem = await newPasswordProblem(input.password, { email: null, phone }, breached);
+  if (problem) return { error: problem, field: "password" };
+  const { token, hash } = newToken();
+  await db.phoneSignup.deleteMany({ where: { expiresAt: { lt: now } } });
+  await db.phoneSignup.create({
+    data: {
+      id: hash, phone, name, company, accountType: input.accountType as AccountType, passwordHash: await hashPassword(input.password),
+      next: input.next, expiresAt: new Date(now.getTime() + PHONE_SIGNUP_MINUTES * 60_000),
+    },
+  });
+  return { token, phone };
+}
+
+/** The sign-up a cookie points at, while it can still be finished. */
+export async function pendingPhoneSignup(db: Db, token: string, now = new Date()) {
+  if (!token) return null;
+  const row = await db.phoneSignup.findUnique({ where: { id: sha256(token) } });
+  return row && row.expiresAt > now && row.attempts < CHALLENGE_ATTEMPTS ? row : null;
+}
+
+export type PhoneSignupResult =
+  | { error: string; restart: boolean }
+  | { exists: true; phone: string }
+  | { user: UserRow; next: string };
+
+/**
+ * Checks the texted code and creates the account. Five wrong codes or 30
+ * minutes end the sign-up. If the number got an account in the meantime, the
+ * person (who has just proven they hold the number) is told to sign in instead.
+ */
+export async function finishPhoneSignup(db: Db, token: string, code: string, check: CodeCheck, now = new Date()): Promise<PhoneSignupResult> {
+  const id = sha256(token || "-");
+  // Counted before the code is checked, in one conditional update, as for two-step codes.
+  const { count: claimed } = await db.phoneSignup.updateMany({
+    where: { id, expiresAt: { gt: now }, attempts: { lt: CHALLENGE_ATTEMPTS } },
+    data: { attempts: { increment: 1 } },
+  });
+  const row = claimed === 1 ? await db.phoneSignup.findUnique({ where: { id } }) : null;
+  if (!row) return { error: signupExpired, restart: true };
+  if (!(await check(row.phone, code))) {
+    const left = CHALLENGE_ATTEMPTS - row.attempts;
+    return left > 0
+      ? { error: `That code didn't match. ${left} ${left === 1 ? "try" : "tries"} left.`, restart: false }
+      : { error: "Too many wrong codes. Start again.", restart: true };
+  }
+  // Only one try can turn the sign-up into an account.
+  const { count: taken } = await db.phoneSignup.deleteMany({ where: { id } });
+  if (taken !== 1) return { error: signupExpired, restart: true };
+  try {
+    const user = await db.user.create({
+      data: {
+        phone: row.phone, phoneVerified: now, name: row.name, company: row.company, accountType: row.accountType,
+        passwordHash: row.passwordHash, passwordChangedAt: now,
+      },
+    });
+    return { user, next: row.next };
+  } catch (e) {
+    if ((e as { code?: string }).code === "P2002") return { exists: true, phone: row.phone };
+    throw e;
+  }
+}
+
+/** Whether a reset code should be texted: only to a number that belongs to an account. */
+export async function phoneCanReset(db: Db, phone: string) {
+  const user = await db.user.findUnique({ where: { phone }, select: { isSystem: true, phoneVerified: true } });
+  return !!user && !user.isSystem && !!user.phoneVerified;
+}
+
+/**
+ * Sets a new password from a texted code. The code is checked with Twilio
+ * even when the number has no account, so the reply takes as long either way.
+ * Every session ends and any pending two-step challenge is dropped; two-step
+ * login itself stays on.
+ */
+export async function finishPhoneReset(
+  db: Db, rawPhone: string, code: string, password: string, check: CodeCheck,
+  { breached = isBreached as Breach, now = new Date() } = {},
+) {
+  const phone = normalizePhone(rawPhone);
+  if (!phone) return { error: "Ask for a new code.", field: "code" as const, restart: true };
+  const user = await db.user.findUnique({ where: { phone } });
+  const problem = await newPasswordProblem(password, { email: user?.email ?? null, phone }, breached);
+  if (problem) return { error: problem, field: "password" as const };
+  const approved = await check(phone, code);
+  if (!approved || !user || user.isSystem || !user.phoneVerified) return { error: "That code didn't match, or it has expired.", field: "code" as const };
+  const passwordHash = await hashPassword(password);
+  await db.$transaction([
+    db.user.update({ where: { id: user.id }, data: { passwordHash, passwordChangedAt: now } }),
+    db.session.deleteMany({ where: { userId: user.id } }),
+    db.twoFactorChallenge.deleteMany({ where: { userId: user.id } }),
+  ]);
+  return { userId: user.id, email: user.email };
+}
+
 // ───────── Two-step login ─────────
+
+/** How an authenticator app names the account: its email, or its phone number. */
+const accountLabel = (user: { email: string | null; phone: string | null }) => user.email ?? user.phone ?? "account";
 
 /** Starts setting up two-step login: a new secret, kept until the first code confirms it. */
 export async function beginTwoStep(db: Db, userId: string) {
   const user = await db.user.findUniqueOrThrow({ where: { id: userId } });
   if (user.twoFactorEnabledAt) return { error: "Two-step login is already on." };
-  if (!user.emailVerified) return { error: "Confirm your email address before turning on two-step login." };
+  if (!user.emailVerified && !user.phoneVerified) return { error: "Confirm your email address before turning on two-step login." };
   const secret = newTotpSecret();
   await db.user.update({ where: { id: userId }, data: { twoFactorSecret: encrypt(secret, TOTP_PURPOSE), twoFactorLastStep: null } });
-  return { secret, url: otpauthUrl(secret, user.email) };
+  return { secret, url: otpauthUrl(secret, accountLabel(user)) };
 }
 
 /** The secret waiting for its first code, to show again if the setup page reloads. */
@@ -192,7 +327,7 @@ export async function pendingTwoStep(db: Db, userId: string) {
   const user = await db.user.findUniqueOrThrow({ where: { id: userId } });
   if (user.twoFactorEnabledAt || !user.twoFactorSecret) return null;
   const secret = decrypt(user.twoFactorSecret, TOTP_PURPOSE);
-  return { secret, url: otpauthUrl(secret, user.email) };
+  return { secret, url: otpauthUrl(secret, accountLabel(user)) };
 }
 
 async function storeBackupCodes(tx: Prisma.TransactionClient, userId: string) {
@@ -299,6 +434,8 @@ export interface OAuthAccount { provider: string; providerAccountId: string; typ
 /**
  * Decides a Google sign-in before Auth.js links or creates the account:
  * - Google must have verified the address.
+ * - A Google account already connected decides the account; otherwise the
+ *   address does.
  * - An existing account whose email was never confirmed loses its password
  *   and sessions first, so whoever registered the address can't keep a way in.
  * - An account with two-step login gets its Google account linked here and
@@ -311,12 +448,17 @@ export async function googleGate(
 ): Promise<boolean | string> {
   const email = profile.email ? normalizeEmail(profile.email) : "";
   if (!email || profile.email_verified !== true) return "/sign-in?error=GoogleUnverified";
-  const user = await db.user.findUnique({ where: { email } });
+  // A Google account already connected to an account signs in to that one, whatever
+  // its email, so two-step login applies to it too (a phone account has no email, and
+  // Google can be connected from an account with a different address).
+  const { provider, providerAccountId } = account;
+  const linked = await db.account.findUnique({ where: { provider_providerAccountId: { provider, providerAccountId } }, include: { user: true } });
+  const user = linked?.user ?? (await db.user.findUnique({ where: { email } }));
   if (!user) return true;
   if (user.isSystem) return false;
   // Connecting Google from account settings: this session already passed sign-in.
   if (signedInAs === user.id) return true;
-  if (!user.emailVerified) {
+  if (!linked && !user.emailVerified) {
     await db.$transaction([
       db.user.update({ where: { id: user.id }, data: { emailVerified: now, passwordHash: null, passwordChangedAt: null } }),
       db.session.deleteMany({ where: { userId: user.id } }),
@@ -324,7 +466,7 @@ export async function googleGate(
     ]);
   }
   if (user.twoFactorEnabledAt) {
-    const { provider, providerAccountId, type } = account;
+    const { type } = account;
     await db.account.upsert({
       where: { provider_providerAccountId: { provider, providerAccountId } },
       create: { userId: user.id, provider, providerAccountId, type },

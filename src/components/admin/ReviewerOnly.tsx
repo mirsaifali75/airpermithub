@@ -29,4 +29,5 @@ export function SourceNote() {
 }
 
 export const when = (d: Date) => d.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }) + " UTC";
-export const who = (u: { name: string | null; email: string; isSystem?: boolean } | null) => (u ? (u.isSystem ? "Import (system)" : u.name || u.email) : "System");
+export const who = (u: { name: string | null; email: string | null; phone?: string | null; isSystem?: boolean } | null) =>
+  u ? (u.isSystem ? "Import (system)" : u.name || u.email || u.phone || "Account") : "System";

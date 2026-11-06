@@ -12,8 +12,8 @@ export async function getSession(): Promise<Session | null> {
   if (!u || u.isSystem) return null;
   return {
     user: {
-      id: u.id, email: u.email, name: u.name, company: u.company, accountType: u.accountType, platformRole: u.platformRole, plan: u.plan,
-      emailVerified: !!u.emailVerified, hasPassword: !!u.passwordHash, twoStep: !!u.twoFactorEnabledAt,
+      id: u.id, email: u.email, phone: u.phone, name: u.name, company: u.company, accountType: u.accountType, platformRole: u.platformRole, plan: u.plan,
+      emailVerified: !!u.emailVerified, phoneVerified: !!u.phoneVerified, hasPassword: !!u.passwordHash, twoStep: !!u.twoFactorEnabledAt,
     },
     expires: s.expires,
   };

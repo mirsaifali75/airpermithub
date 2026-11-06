@@ -159,8 +159,12 @@ enum ErrorReportStatus {
 
 model User {
   id            String       @id @default(cuid())
-  email         String       @unique
+  /// Null for accounts made with a phone number. Every account has an email or a phone (a database check).
+  email         String?      @unique
   emailVerified DateTime?
+  /// E.164, for example +15555550123. Set only after a texted code confirms it.
+  phone         String?      @unique
+  phoneVerified DateTime?
   name          String?
   image         String?
   platformRole  PlatformRole @default(USER)
@@ -286,6 +290,24 @@ model TwoFactorChallenge {
 }
 
 /// Browsers an account has signed in from, so a new one triggers an email. Keyed by a hash of a cookie.
+/// A phone sign-up waiting for its texted code. The account is created only
+/// once the code matches, so no unconfirmed phone account ever exists.
+model PhoneSignup {
+  /// sha256 of the token in the visitor's cookie.
+  id           String      @id
+  phone        String
+  name         String
+  company      String?
+  accountType  AccountType
+  passwordHash String
+  next         String
+  attempts     Int         @default(0)
+  expiresAt    DateTime
+  createdAt    DateTime    @default(now())
+
+  @@index([expiresAt])
+}
+
 model KnownDevice {
   id          String   @id @default(cuid())
   userId      String

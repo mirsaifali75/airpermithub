@@ -10,6 +10,7 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge } from "@/components/ui/Badge";
 import { Button, buttonClass } from "@/components/ui/Button";
 import { googleEnabled } from "@/lib/auth/config";
+import { formatPhone } from "@/lib/auth/phone";
 import { getSession } from "@/lib/auth/session";
 import { prisma } from "@/lib/db/prisma";
 import { connectGoogle, disconnectGoogle, signOutAction, signOutEverywhere } from "./actions";
@@ -42,11 +43,12 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ g
     prisma.knownDevice.count({ where: { userId: s.user.id } }),
   ]);
   const u = s.user;
+  const phone = u.phone ? formatPhone(u.phone) : null;
   const note = sp.google ? googleNotes[sp.google] : sp.twostep === "off" ? "Two-step login is off." : undefined;
 
   return (
     <>
-      <PageHeader crumbs={[{ label: "Dashboard", href: "/dashboard" }, { label: "Account settings" }]} eyebrow="Account" title="Account settings" icon={<UserRound className="h-7 w-7" />} description={`Signed in as ${u.email}.`} />
+      <PageHeader crumbs={[{ label: "Dashboard", href: "/dashboard" }, { label: "Account settings" }]} eyebrow="Account" title="Account settings" icon={<UserRound className="h-7 w-7" />} description={`Signed in as ${u.email ?? phone}.`} />
       <div className="container-page space-y-6 py-10">
         {note && <p role="status" className="rounded-xl bg-brand-50 px-4 py-3 text-sm text-brand-700">{note}</p>}
         <div className="grid gap-6 lg:grid-cols-2">
@@ -54,7 +56,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ g
             <Card title="Profile">
               <ProfileForm name={u.name ?? ""} company={u.company ?? ""} accountType={u.accountType} submitLabel="Save profile" />
             </Card>
-            <Card title="Email">
+            {u.email ? <Card title="Email">
               <p className="flex flex-wrap items-center gap-2 text-sm text-ink">
                 <span className="font-semibold">{u.email}</span>
                 {u.emailVerified
@@ -67,9 +69,18 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ g
                   <ResendVerificationForm />
                 </div>
               )}
-            </Card>
+            </Card> : null}
+            {phone && (
+              <Card title="Phone number">
+                <p className="flex flex-wrap items-center gap-2 text-sm text-ink">
+                  <span className="font-semibold">{phone}</span>
+                  <Badge tone="green" icon={<CircleCheck className="h-3.5 w-3.5" />}>Confirmed</Badge>
+                </p>
+                {!u.email && <p className="mt-3 text-sm text-muted">You sign in with this number and your password. If you forget the password, we text a code to this number to reset it.</p>}
+              </Card>
+            )}
             <Card title={u.hasPassword ? "Password" : "Add a password"}>
-              {!u.hasPassword && <p className="mb-4 text-sm text-muted">You sign in with Google. Add a password to sign in with your email too.</p>}
+              {!u.hasPassword && <p className="mb-4 text-sm text-muted">You sign in with Google. Add a password to sign in with your {u.email ? "email" : "phone number"} too.</p>}
               <PasswordForm hasPassword={u.hasPassword} />
             </Card>
           </div>
@@ -103,7 +114,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ g
             </Card>
             <Card title="Devices and sign-out">
               <p className="text-sm text-muted">
-                {sessions} active {sessions === 1 ? "session" : "sessions"} · {devices} {devices === 1 ? "browser" : "browsers"} seen. We email you when a new browser signs in.
+                {sessions} active {sessions === 1 ? "session" : "sessions"} · {devices} {devices === 1 ? "browser" : "browsers"} seen.{u.email ? " We email you when a new browser signs in." : ""}
               </p>
               <div className="mt-4 flex flex-wrap gap-3">
                 <form action={signOutAction}><Button type="submit" variant="subtle"><LogOut className="h-4 w-4" aria-hidden="true" /> Sign out</Button></form>
@@ -114,7 +125,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ g
               {u.platformRole === "USER" ? (
                 <>
                   <p className="mb-4 text-sm text-muted">Deletes your account and everything saved in it. This can&apos;t be undone.</p>
-                  <DeleteAccountForm email={u.email} hasPassword={u.hasPassword} />
+                  <DeleteAccountForm email={u.email} phone={phone ?? undefined} hasPassword={u.hasPassword} />
                 </>
               ) : (
                 <p className="text-sm text-muted">Editor, reviewer, and admin accounts are removed by an admin, because their reviews stay on record.</p>
