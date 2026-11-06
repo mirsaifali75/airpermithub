@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { readCapped } from "@/lib/api/body";
 import { clientKey, createRateLimiter } from "@/lib/api/rate-limit";
 import { validateScreening } from "@/lib/api/validate-screening";
 import { stateProfileSummaries } from "@/lib/data/state-profiles";
@@ -23,8 +24,8 @@ export async function POST(req: Request) {
     );
   }
 
-  const text = await req.text();
-  if (new TextEncoder().encode(text).length > MAX_BODY_BYTES) {
+  const text = await readCapped(req, MAX_BODY_BYTES);
+  if (text === null) {
     return NextResponse.json({ error: "Request body too large" }, { status: 413 });
   }
 

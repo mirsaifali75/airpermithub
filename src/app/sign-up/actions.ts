@@ -4,8 +4,8 @@ import { redirect } from "next/navigation";
 import { accountsEnabled, safeNext } from "@/lib/auth/config";
 import { accountExistsEmail, appUrl, sendEmail, verifyEmail } from "@/lib/auth/email";
 import { registerAccount } from "@/lib/auth/flows";
-import { closedMessage, field, type FormState } from "@/lib/auth/forms";
-import { emailKey, networkKey, overLimit, record, rules } from "@/lib/auth/limits";
+import { closedMessage, field, textField, type FormState } from "@/lib/auth/forms";
+import { claim, emailKey, networkKey, rules } from "@/lib/auth/limits";
 import { clientNetwork } from "@/lib/auth/server";
 import { prisma } from "@/lib/db/prisma";
 
@@ -16,12 +16,10 @@ import { prisma } from "@/lib/db/prisma";
  */
 export async function signUp(_: FormState, form: FormData): Promise<FormState> {
   if (!accountsEnabled) return { error: closedMessage };
-  const values = { name: field(form, "name"), email: field(form, "email").trim(), company: field(form, "company"), accountType: field(form, "accountType") };
+  const values = { name: textField(form, "name"), email: field(form, "email").trim(), company: textField(form, "company"), accountType: field(form, "accountType") };
   if (form.get("terms") !== "on") return { error: "Agree to the Terms and Privacy Policy to continue.", field: "terms", values };
 
-  const net = networkKey(await clientNetwork());
-  if (await overLimit(prisma, net, rules.signUpNetwork)) return { error: "Too many sign-ups from this network. Try again in an hour.", values };
-  await record(prisma, [net], "sign-up", true);
+  if (!(await claim(prisma, [[networkKey(await clientNetwork()), rules.signUpNetwork]]))) return { error: "Too many sign-ups from this network. Try again in an hour.", values };
 
   const result = await registerAccount(prisma, { ...values, password: field(form, "password") });
   if ("error" in result) return { error: result.error, field: result.field, values };
@@ -31,8 +29,7 @@ export async function signUp(_: FormState, form: FormData): Promise<FormState> {
       const next = safeNext(field(form, "next"));
       const back = next === "/dashboard" ? "" : `&next=${encodeURIComponent(next)}`;
       await sendEmail(result.email, verifyEmail(appUrl(`/verify-email?token=${encodeURIComponent(result.verifyToken)}${back}`)));
-    } else if (result.canSignIn && !(await overLimit(prisma, emailKey(result.email), rules.emailSend))) {
-      await record(prisma, [emailKey(result.email)], "email", true);
+    } else if (result.canSignIn && (await claim(prisma, [[emailKey(result.email), rules.emailSend]]))) {
       await sendEmail(result.email, accountExistsEmail());
     }
   } catch (e) {

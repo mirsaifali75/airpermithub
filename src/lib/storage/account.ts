@@ -21,12 +21,51 @@ export async function loadSavedWork(db: PrismaClient, userId: string): Promise<A
   return rows.map((r) => ({ key: r.key, value: r.value as unknown, version: r.updatedAt.toISOString() }));
 }
 
+/** Saved tool data is a few levels deep; anything past this is a crafted request. */
+export const MAX_SAVED_DEPTH = 32;
+
+/**
+ * Postgres can't store NUL inside JSON text, so it's dropped from every string
+ * (keys too). Returns undefined for values nested deeper than MAX_SAVED_DEPTH.
+ */
+export function withoutNul(value: unknown, depth = 0): unknown {
+  if (depth > MAX_SAVED_DEPTH) return undefined;
+  if (typeof value === "string") return value.includes("\u0000") ? value.replace(/\u0000/g, "") : value;
+  if (Array.isArray(value)) {
+    const out = [];
+    for (const v of value) {
+      const clean = withoutNul(v, depth + 1);
+      if (clean === undefined && v !== undefined) return undefined;
+      out.push(clean);
+    }
+    return out;
+  }
+  if (value && typeof value === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value)) {
+      const clean = withoutNul(v, depth + 1);
+      if (clean === undefined && v !== undefined) return undefined;
+      out[k.replace(/\u0000/g, "")] = clean;
+    }
+    return out;
+  }
+  return value;
+}
+
 const validBase = (b: unknown) => b === null || (typeof b === "string" && b.length <= 40 && !Number.isNaN(Date.parse(b)));
 
 /** Stores (or, for a null value, removes) saved work for an account, within the size limits. */
 export async function storeSavedWork(db: PrismaClient, userId: string, items: unknown, now = () => new Date()): Promise<PushResult> {
   if (!Array.isArray(items) || items.length === 0 || items.length > SAVED_LIMITS.itemsPerPush) return { error: "Nothing to save, or too much at once." };
   const sizes = new Map<string, number>();
+  const cleaned: unknown[] = [];
+  for (const it of items as PushItem[]) {
+    if (!it || typeof it !== "object") return { error: "That isn't saved work this site keeps." };
+    const value = it.value === null || it.value === undefined ? it.value : withoutNul(it.value);
+    if (value === undefined && it.value !== undefined) return { error: "That isn't saved work this site keeps." };
+    cleaned.push({ ...it, value });
+  }
+  items = cleaned;
   for (const it of items as PushItem[]) {
     if (!it || typeof it !== "object" || !isSavedKey(it.key) || !validBase(it.base) || sizes.has(it.key)) return { error: "That isn't saved work this site keeps." };
     const raw = JSON.stringify(it.value ?? null);

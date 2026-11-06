@@ -9,6 +9,7 @@ import { PrintStamp } from "@/components/layout/PrintStamp";
 import { MobileTabBar } from "@/components/layout/MobileTabBar";
 import { accountsEnabled } from "@/lib/auth/config";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/ui/JsonLd";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -50,7 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <MobileTabBar />
         {accountsEnabled && <AccountSync />}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
+        <JsonLd data={orgJsonLd} />
         <Analytics />
         <SpeedInsights />
       </body>

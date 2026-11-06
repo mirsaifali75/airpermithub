@@ -12,6 +12,7 @@ import { getRule, listRules, type LibraryRule } from "@/lib/data/ecfr";
 import { getRegulation } from "@/lib/data/regulations";
 import { ecfrSectionUrl, programForPart, ruleCategories, ruleCitation, ruleHref, ruleName, ruleSlug, sectionTopics, topicsFor, type RuleCategory } from "@/lib/rules";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/ui/JsonLd";
 
 export const dynamicParams = false;
 
@@ -262,7 +263,7 @@ export default async function SubpartPage({ params }: Params) {
           <Link href="/permit-finder" className={buttonClass("secondary", "md", "w-full")}>Screen a facility <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
         </aside>
       </div>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
     </>
   );
 }

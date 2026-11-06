@@ -6,6 +6,7 @@ import { Disclaimer } from "@/components/ui/Notices";
 import { ShareLinks } from "@/components/ui/ShareLinks";
 import { glossary } from "@/lib/data/glossary";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/ui/JsonLd";
 
 export const metadata: Metadata = {
   title: "Air Permitting Glossary: PTE, PSD, BACT, Title V, NSPS & More",
@@ -43,7 +44,7 @@ export default function GlossaryPage() {
         <ShareLinks path="/glossary" title="Air Permitting Glossary" />
         <Disclaimer />
       </div>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
     </>
   );
 }

@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { field } from "@/lib/auth/forms";
 import { requireReviewer } from "@/lib/auth/session";
 import { approveTask, closeTask, declineTask, removeOfficialDomain, ReviewError } from "@/lib/content/review";
 import { prisma } from "@/lib/db/prisma";
@@ -15,9 +16,9 @@ const NOTE_MAX = 2000;
 export async function decide(_: DecisionState, form: FormData): Promise<DecisionState> {
   const session = await requireReviewer();
   if (!session) return { error: "Sign in with a reviewer account to decide review tasks." };
-  const taskId = String(form.get("taskId") ?? "");
-  const decision = String(form.get("decision") ?? "");
-  const note = String(form.get("note") ?? "").trim().slice(0, NOTE_MAX) || undefined;
+  const taskId = field(form, "taskId");
+  const decision = field(form, "decision");
+  const note = field(form, "note").trim().slice(0, NOTE_MAX) || undefined;
   try {
     if (decision === "approve") await approveTask(prisma, taskId, session.user.id, note);
     else if (decision === "send-back") await declineTask(prisma, taskId, session.user.id, "SENT_BACK", note);
@@ -36,7 +37,7 @@ export async function decide(_: DecisionState, form: FormData): Promise<Decision
 export async function removeHost(_: HostState, form: FormData): Promise<HostState> {
   const session = await requireReviewer();
   if (!session) return { error: "Sign in with a reviewer account to change the official-source list." };
-  const domain = String(form.get("domain") ?? "").trim().toLowerCase();
+  const domain = field(form, "domain").trim().toLowerCase();
   try {
     // No revalidation here: re-rendering would swap the row for its "Removed" badge before the reviewer sees the count.
     return { removed: true, flagged: await removeOfficialDomain(prisma, domain, session.user.id) };

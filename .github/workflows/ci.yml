@@ -50,3 +50,51 @@ jobs:
             --shadow-database-url postgresql://aph:aph@localhost:5432/aph_shadow --exit-code
       - name: Import, parity with data/, the database rules, and the account rules
         run: npx vitest run src/lib/content/db.test.ts src/lib/auth/accounts.db.test.ts
+
+  # Break-in attempts, floods and junk input, sign-in, and saved-work sync,
+  # against a production build with a stand-in email service (e2e/run.sh).
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: aph
+          POSTGRES_PASSWORD: aph
+          POSTGRES_DB: aph_e2e
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://aph:aph@localhost:5432/aph_e2e
+      DATABASE_URL_UNPOOLED: postgresql://aph:aph@localhost:5432/aph_e2e
+      RESEND_API_KEY: re_stand_in
+      RESEND_API_URL: http://localhost:4010
+      ADMIN_EMAILS: admin@example.com
+      AUTH_TRUST_HOST: "true"
+      AUTH_URL: http://localhost:3124
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # A fresh session secret for each run, so none is ever written down.
+      - run: |
+          secret=$(openssl rand -hex 32)
+          echo "::add-mask::$secret"
+          echo "AUTH_SECRET=$secret" >> "$GITHUB_ENV"
+      - run: npx playwright install --with-deps chromium
+      - run: npx prisma migrate deploy
+      - run: npx tsx scripts/db-build.ts
+      - run: npx next build
+      - run: sh e2e/run.sh
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e2e-output
+          path: e2e/.out/
+          include-hidden-files: true
+          retention-days: 7
