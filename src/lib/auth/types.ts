@@ -15,13 +15,17 @@ export const accountTypes: { value: AccountType; label: string }[] = [
 
 export interface SessionUser {
   id: string;
-  email: string;
+  /** Null for accounts made with a phone number. */
+  email: string | null;
+  /** E.164; set only once a texted code confirmed it. */
+  phone: string | null;
   name: string | null;
   company: string | null;
   accountType: AccountType;
   platformRole: PlatformRole;
   plan: PlanTier;
   emailVerified: boolean;
+  phoneVerified: boolean;
   hasPassword: boolean;
   twoStep: boolean;
 }

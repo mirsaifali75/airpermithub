@@ -4,7 +4,8 @@ import { createHmac } from "node:crypto";
 /**
  * Attempt limits kept in the database, so they hold across every server
  * instance. Each rule counts attempts (or only failures) for one key, an
- * email address or a network, inside a sliding window.
+ * email address, a phone number, a network, or the whole site, inside a
+ * sliding window.
  */
 
 type Db = PrismaClient | Prisma.TransactionClient;
@@ -18,12 +19,21 @@ export const rules = {
   emailSend: { action: "email", limit: 3, minutes: 60 },
   emailNetwork: { action: "email", limit: 15, minutes: 60 },
   twoStepNetwork: { action: "two-step", limit: 20, minutes: 15, failuresOnly: true },
+  /** Texted codes: each one costs money, so a number, a network, and the whole site each have a cap. */
+  smsSend: { action: "sms", limit: 3, minutes: 60 },
+  smsNetwork: { action: "sms", limit: 10, minutes: 60 },
+  smsDaily: { action: "sms", limit: Number(process.env.SMS_DAILY_LIMIT) || 300, minutes: 1440 },
+  /** Wrong texted codes for one number, on top of Twilio's 5 checks per code. */
+  phoneCode: { action: "phone-code", limit: 10, minutes: 60, failuresOnly: true },
 } satisfies Record<string, Rule>;
 
 /** Keys are keyed hashes, so the table never holds an email or IP address in the clear. */
 const keyed = (s: string) => createHmac("sha256", process.env.AUTH_SECRET ?? "").update(s).digest("base64url");
 export const emailKey = (email: string) => `email:${keyed(email.trim().toLowerCase())}`;
 export const networkKey = (ip: string) => `net:${keyed(ip)}`;
+export const phoneKey = (phone: string) => `phone:${keyed(phone)}`;
+/** One key for the whole site, for the daily cap on texts. */
+export const SITE_KEY = "site";
 
 export async function overLimit(db: Db, key: string, rule: Rule, now = new Date()) {
   const since = new Date(now.getTime() - rule.minutes * 60_000);

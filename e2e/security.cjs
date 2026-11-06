@@ -181,8 +181,8 @@ const callFormAction = (page, id, prev, fields, at = "/dashboard") =>
   if (!secret) throw new Error("Run with the server's AUTH_SECRET set, so the bundle check can look for it.");
   const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]));
   const staticFiles = walk(path.join(ROOT, ".next/static"));
-  const values = [secret, process.env.RESEND_API_KEY, process.env.DATABASE_URL, ...(process.env.ADMIN_EMAILS ?? "").split(/[\s,;]+/)].filter((v) => v && v.length > 5);
-  const leaks = staticFiles.filter((f) => { const s = fs.readFileSync(f, "utf8"); return values.some((v) => s.includes(v)) || /postgres(ql)?:\/\/|DATABASE_URL|RESEND_API_KEY|AUTH_SECRET/.test(s); });
+  const values = [secret, process.env.RESEND_API_KEY, process.env.DATABASE_URL, process.env.TWILIO_AUTH_TOKEN, process.env.TWILIO_ACCOUNT_SID, ...(process.env.ADMIN_EMAILS ?? "").split(/[\s,;]+/)].filter((v) => v && v.length > 5);
+  const leaks = staticFiles.filter((f) => { const s = fs.readFileSync(f, "utf8"); return values.some((v) => s.includes(v)) || /postgres(ql)?:\/\/|DATABASE_URL|RESEND_API_KEY|AUTH_SECRET|TWILIO_AUTH_TOKEN/.test(s); });
   ok(`no secrets in ${staticFiles.length} browser files`, leaks.length === 0, leaks.slice(0, 3).join(", "));
 
   // ── 12. Sign-in timing doesn't reveal which emails have accounts ──

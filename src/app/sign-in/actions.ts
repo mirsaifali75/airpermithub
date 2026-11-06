@@ -3,28 +3,39 @@
 import { redirect } from "next/navigation";
 import { signIn } from "@/auth";
 import { accountsEnabled, googleEnabled, safeNext } from "@/lib/auth/config";
-import { answerChallenge, checkPassword, createChallenge, normalizeEmail } from "@/lib/auth/flows";
+import { answerChallenge, checkPassword, checkPhonePassword, createChallenge, normalizeEmail } from "@/lib/auth/flows";
 import { closedMessage, field, type FormState } from "@/lib/auth/forms";
-import { claim, emailKey, networkKey, rules, succeeded } from "@/lib/auth/limits";
+import { claim, emailKey, networkKey, phoneKey, rules, succeeded } from "@/lib/auth/limits";
+import { normalizePhone } from "@/lib/auth/phone";
 import { clientNetwork, signInAs } from "@/lib/auth/server";
 import { prisma } from "@/lib/db/prisma";
 
 const tooMany = "Too many sign-in attempts. Wait 15 minutes, or reset your password.";
 
-/** Email and password. Accounts with two-step login go on to the code step. */
+/** Email (or phone number) and password. Accounts with two-step login go on to the code step. */
 export async function signInWithPassword(_: FormState, form: FormData): Promise<FormState> {
   if (!accountsEnabled) return { error: closedMessage };
-  const email = normalizeEmail(field(form, "email"));
   const password = field(form, "password");
   const next = safeNext(field(form, "next"));
-  const values = { email };
-  if (!email || !password) return { error: "Enter your email and password.", values };
+  const byPhone = field(form, "method") === "phone";
+  const rawPhone = field(form, "phone").trim().slice(0, 40);
+  const phone = byPhone ? normalizePhone(rawPhone) : null;
+  const email = byPhone ? "" : normalizeEmail(field(form, "email"));
+  const values: Record<string, string> = byPhone ? { method: "phone", phone: rawPhone } : { method: "email", email };
+  if (byPhone ? !rawPhone || !password : !email || !password) return { error: `Enter your ${byPhone ? "phone number" : "email"} and password.`, values };
 
-  const tries = await claim(prisma, [[emailKey(email), rules.signInEmail], [networkKey(await clientNetwork()), rules.signInNetwork]]);
+  // A number that can't be an account still counts against this network, so guessing numbers costs tries too.
+  const account = byPhone ? phoneKey(phone ?? rawPhone) : emailKey(email);
+  const tries = await claim(prisma, [[account, rules.signInEmail], [networkKey(await clientNetwork()), rules.signInNetwork]]);
   if (!tries) return { error: tooMany, values };
 
-  const user = await checkPassword(prisma, email, password);
-  if (!user) return { error: "That email and password don't match. If you signed up with Google, use Continue with Google.", values };
+  const user = byPhone ? await checkPhonePassword(prisma, rawPhone, password) : await checkPassword(prisma, email, password);
+  if (!user) {
+    return {
+      error: byPhone ? "That phone number and password don't match." : "That email and password don't match. If you signed up with Google, use Continue with Google.",
+      values,
+    };
+  }
   await succeeded(prisma, tries);
   if (user.twoFactorEnabledAt) redirect(`/sign-in/two-step?c=${encodeURIComponent(await createChallenge(prisma, user.id, next))}`);
   await signInAs(prisma, user);

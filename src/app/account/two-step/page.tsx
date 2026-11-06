@@ -56,7 +56,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
               </Card>
             )}
           </>
-        ) : !s.user.emailVerified ? (
+        ) : !s.user.emailVerified && !s.user.phoneVerified ? (
           <Card title="Confirm your email first">
             <p className="text-sm text-muted">Two-step login needs a confirmed email address, so a lost phone can always be recovered. Use the link we emailed you, or send a new one from account settings.</p>
           </Card>

@@ -8,6 +8,7 @@ import { SignInForm } from "@/components/auth/SignInForm";
 import { Logo } from "@/components/brand/Logo";
 import { accountsEnabled, googleEnabled, safeNext } from "@/lib/auth/config";
 import { getSession } from "@/lib/auth/session";
+import { phoneEnabled } from "@/lib/auth/sms";
 
 export const metadata: Metadata = { title: "Sign In", robots: { index: false } };
 
@@ -21,7 +22,7 @@ const notices: Record<string, string> = {
   Configuration: "Sign-in is having trouble right now. Try again in a few minutes.",
 };
 
-type Search = Promise<{ next?: string; callbackUrl?: string; error?: string; reset?: string; verified?: string; expired?: string }>;
+type Search = Promise<{ next?: string; callbackUrl?: string; error?: string; reset?: string; verified?: string; expired?: string; method?: string; exists?: string }>;
 
 export default async function Page({ searchParams }: { searchParams: Search }) {
   const sp = await searchParams;
@@ -30,7 +31,8 @@ export default async function Page({ searchParams }: { searchParams: Search }) {
   const error = sp.error ? notices[sp.error] ?? notices.Configuration : undefined;
   const notice = sp.reset ? "Your password is changed and every device was signed out. Sign in with the new password."
     : sp.verified ? "Your email is confirmed. Sign in to continue."
-    : sp.expired ? "That sign-in step expired. Sign in again." : undefined;
+    : sp.expired ? "That sign-in step expired. Sign in again."
+    : sp.exists ? "That number already has an AirPermitHub account, so we didn't make a new one. Sign in with it, or use Forgot password if you don't remember the password." : undefined;
   const signUpHref = `/sign-up${next !== "/dashboard" ? `?next=${encodeURIComponent(next)}` : ""}`;
 
   return (
@@ -47,7 +49,7 @@ export default async function Page({ searchParams }: { searchParams: Search }) {
             <OrDivider />
           </>
         )}
-        <div className={accountsEnabled && googleEnabled() ? "" : "mt-6"}><SignInForm next={next} enabled={accountsEnabled} notice={notice} /></div>
+        <div className={accountsEnabled && googleEnabled() ? "" : "mt-6"}><SignInForm next={next} enabled={accountsEnabled} notice={notice} phone={accountsEnabled && phoneEnabled()} initialMethod={sp.method === "phone" ? "phone" : "email"} /></div>
         <p className="mt-6 text-center text-sm text-muted">New to AirPermitHub? <Link href={signUpHref} className="font-semibold text-brand-600">Create a free account</Link></p>
       </div>
     </AuthLayout>

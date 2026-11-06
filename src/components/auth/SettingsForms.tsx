@@ -41,7 +41,8 @@ export function PasswordForm({ hasPassword }: { hasPassword: boolean }) {
   );
 }
 
-export function DeleteAccountForm({ email, hasPassword }: { email: string; hasPassword: boolean }) {
+/** `phone` is set for accounts made with a phone number: they confirm with the number instead of an email. */
+export function DeleteAccountForm({ email, phone, hasPassword }: { email: string | null; phone?: string; hasPassword: boolean }) {
   const id = useId();
   const [state, action, pending] = useActionState<FormState, FormData>(deleteAccount, {});
   return (
@@ -50,8 +51,8 @@ export function DeleteAccountForm({ email, hasPassword }: { email: string; hasPa
       onSubmit={(e) => { if (!window.confirm("Delete your AirPermitHub account and everything saved in it? This can't be undone.")) e.preventDefault(); }}
     >
       <FormAlert message={state.error} />
-      <Field id={`${id}-confirm`} label="Type your email to confirm">
-        <input id={`${id}-confirm`} name="confirm" type="email" autoComplete="off" placeholder={email} className={inputClass} />
+      <Field id={`${id}-confirm`} label={email ? "Type your email to confirm" : "Type your phone number to confirm"}>
+        <input id={`${id}-confirm`} name="confirm" type={email ? "email" : "tel"} autoComplete="off" placeholder={email ?? phone} className={inputClass} />
       </Field>
       {hasPassword && (
         <Field id={`${id}-password`} label="Your password">

@@ -6,11 +6,14 @@ import { ClosedNotice } from "@/components/auth/ClosedNotice";
 import { ForgotForm } from "@/components/auth/CodeForms";
 import { accountsEnabled } from "@/lib/auth/config";
 import { RESET_MINUTES } from "@/lib/auth/email";
+import { phoneEnabled } from "@/lib/auth/sms";
 
 export const metadata: Metadata = { title: "Reset your password", robots: { index: false } };
 
-export default async function Page({ searchParams }: { searchParams: Promise<{ sent?: string }> }) {
-  const sent = !!(await searchParams).sent;
+export default async function Page({ searchParams }: { searchParams: Promise<{ sent?: string; method?: string }> }) {
+  const sp = await searchParams;
+  const sent = !!sp.sent;
+  const phone = accountsEnabled && phoneEnabled();
   return (
     <AuthLayout>
       <div className="mx-auto w-full max-w-md">
@@ -25,8 +28,12 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ s
           </>
         ) : (
           <>
-            <p className="mt-2 text-sm text-muted">Enter the email you signed up with and we&apos;ll send a link to choose a new password.</p>
-            {!accountsEnabled ? <ClosedNotice /> : <div className="mt-6"><ForgotForm /></div>}
+            <p className="mt-2 text-sm text-muted">
+              {phone
+                ? "Enter the email or phone number you signed up with. We'll send a link or text a code to choose a new password."
+                : "Enter the email you signed up with and we'll send a link to choose a new password."}
+            </p>
+            {!accountsEnabled ? <ClosedNotice /> : <div className="mt-6"><ForgotForm phone={phone} initialMethod={sp.method === "phone" ? "phone" : "email"} /></div>}
           </>
         )}
         <p className="mt-6 text-sm text-muted"><Link href="/sign-in" className="font-semibold text-brand-600">Back to sign in</Link></p>
