@@ -59,7 +59,8 @@ export function CalculatorGrid({ methods, categories }: { methods: CalcCard[]; c
         </label>
       </div>
 
-      <ul className="mt-5 grid grid-cols-[minmax(0,1fr)] gap-4 sm:grid-cols-2 xl:grid-cols-3" role="tabpanel">
+      <div role="tabpanel">
+      <ul className="mt-5 grid grid-cols-[minmax(0,1fr)] gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {list.map((m) => {
           const Icon = icons[m.icon];
           return (
@@ -83,6 +84,7 @@ export function CalculatorGrid({ methods, categories }: { methods: CalcCard[]; c
         })}
         {list.length === 0 && <li className="col-span-full rounded-2xl border border-dashed border-line p-10 text-center text-sm text-muted">No calculators match. Try another category.</li>}
       </ul>
+      </div>
     </div>
   );
 }

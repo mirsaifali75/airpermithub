@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
 /*
- * AirPermitHub design tokens (2026-10 palette).
+ * AirPermitHub design tokens. 2026-11-05: Option E (classic) retunes the
+ * brand blues to muted navy-blues and the cyan accents to antique gold, so
+ * every tool page follows the classic look without per-page edits.
+ * (Original 2026-10 palette notes follow.)
  * Deep navy and navy carry navigation and brand, blue carries interaction,
  * cyan accents data, green is reserved for verified / compliant / success,
  * amber for warnings, red for errors.
@@ -17,17 +20,20 @@
   --color-navy-700: #18466f;
   --color-navy-600: #215a8c;
 
-  --color-brand-50: #ebf4ff;
-  --color-brand-100: #d6e8ff;
-  --color-brand-200: #add1ff;
-  --color-brand-500: #147dff;
-  --color-brand-600: #0066db;
-  --color-brand-700: #0052b0;
-  --color-electric: #0077ff;
+  --color-brand-50: #eef2f7;
+  --color-brand-100: #dde5ef;
+  --color-brand-200: #c3d0e0;
+  --color-brand-300: #9fb2c9;
+  --color-brand-500: #2c5282;
+  --color-brand-600: #1f4470;
+  --color-brand-700: #163a5f;
+  --color-electric: #1f4470;
 
-  --color-cyan-300: #66d4ff;
-  --color-cyan-400: #33c6ff;
-  --color-cyan-500: #00b8ff;
+  --color-cyan-200: #f1e9d5;
+  --color-cyan-300: #e9dfc6;
+  --color-cyan-400: #d9cba8;
+  --color-cyan-500: #a8875a;
+  --color-cyan-700: #7a5c2e;
 
   --color-eco-50: #eaf7ef;
   --color-eco-100: #cdeeda;
@@ -58,7 +64,7 @@
   --color-gold-200: #e9dfc6;
   --color-gold-300: #d9cba8;
   --color-gold-500: #a8875a;
-  --color-gold-700: #8a6a35;
+  --color-gold-700: #7a5c2e;
   --color-rule: #d8cfbc;
   --color-ink: #0f172a;
   --color-muted: #5e6d82;
@@ -103,6 +109,10 @@
   }
   /* Option E: Cormorant Garamond for page and section titles, a sturdier
      text serif for the small headings inside cards and tools. */
+  /* Cormorant's default old-style figures sit low ("0" looks like "o"); use lining figures. */
+  h1, h2, h3, h4, .font-display, .font-serif {
+    font-variant-numeric: lining-nums;
+  }
   h1, h2 {
     font-family: var(--font-display);
     letter-spacing: 0;
@@ -116,7 +126,7 @@
     scroll-padding-top: 5rem;
   }
   :focus-visible {
-    outline: 2px solid var(--color-cyan-500);
+    outline: 2px solid var(--color-brand-500);
     outline-offset: 2px;
     border-radius: 6px;
   }
@@ -132,11 +142,11 @@
 
 /* Classic look: a solid brand color in place of the old gradient text. */
 @utility text-gradient-brand {
-  color: #38bdf8;
+  color: var(--color-gold-200);
 }
 
 @utility bg-gradient-brand {
-  background-image: linear-gradient(90deg, #0077ff 0%, #00b8ff 60%, #1fa463 100%);
+  background-image: linear-gradient(90deg, var(--color-navy-900) 0%, var(--color-gold-500) 100%);
 }
 
 @utility glass-dark {

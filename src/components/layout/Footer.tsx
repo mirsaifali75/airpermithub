@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Logo } from "@/components/brand/Logo";
+import Image from "next/image";
+import fullLogo from "@/assets/brand/airpermithub-logo.png";
 import { footerNav, site } from "@/lib/site";
 import { NewsletterForm } from "./NewsletterForm";
 import { SocialIcons } from "./SocialIcons";
@@ -13,7 +14,9 @@ export function Footer() {
           {/* Brand and newsletter run across the top so the five link columns below get the full width and their labels stay on one line. */}
           <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:gap-8">
-              <Logo tone="dark" className="h-44 w-fit !rounded-none !bg-canvas p-2.5" />
+              <Link href="/" aria-label="AirPermitHub home" className="inline-flex w-fit bg-canvas p-3">
+                <Image src={fullLogo} alt="AirPermitHub: Nationwide Air Permitting Excellence" sizes="240px" className="h-36 w-auto" />
+              </Link>
               <p className="max-w-sm text-sm leading-relaxed text-white/60">{site.description}</p>
             </div>
             <div className="w-full max-w-sm">

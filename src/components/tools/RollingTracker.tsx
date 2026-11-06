@@ -205,7 +205,7 @@ export function RollingTracker() {
 
         <RollingChart rows={rows} limit={s.limit} alertPct={opts.alertPct} label={label} units={u} />
 
-        <div className="relative mt-6 overflow-x-auto rounded-xl border border-line">
+        <div className="relative mt-6 overflow-x-auto rounded-xl border border-line" tabIndex={0} role="region" aria-label="Scrollable table">
           <table className="w-full min-w-[40rem] text-sm">
             <caption className="sr-only">Rolling {opts.period}-month {opts.mode} by month</caption>
             <thead className="bg-canvas text-left text-xs text-muted">
@@ -285,14 +285,14 @@ function RollingChart({ rows, limit, alertPct, label, units }: { rows: RollingRo
             <text x={W - R} y={y(limit * (alertPct / 100)) + 13} textAnchor="end" fontSize="11" fill="#92400e">Alert {alertPct}%</text>
           </g>
         )}
-        <path d={path(actual)} fill="none" stroke="#0066db" strokeWidth="2" strokeLinejoin="round" />
-        {fc.length > 0 && <path d={path(lastActual ? [lastActual, ...fc] : fc)} fill="none" stroke="#0066db" strokeWidth="2" strokeDasharray="5 4" />}
+        <path d={path(actual)} fill="none" stroke="#1F4470" strokeWidth="2" strokeLinejoin="round" />
+        {fc.length > 0 && <path d={path(lastActual ? [lastActual, ...fc] : fc)} fill="none" stroke="#1F4470" strokeWidth="2" strokeDasharray="5 4" />}
         {pts.filter((p) => p.status === "over").map((p) => <circle key={p.index} cx={x(p.index)} cy={y(p.total as number)} r="4.5" fill="#d92d20" stroke="#fff" strokeWidth="2" />)}
         {pts.map((p, k) => k % every === 0 && <text key={p.index} x={x(p.index)} y={H - 10} textAnchor="middle" fontSize="11" fill="#5e6d82">{label(p.index)}</text>)}
         {h && (
           <g pointerEvents="none">
             <line x1={x(h.index)} x2={x(h.index)} y1={T} y2={H - B} stroke="#94a3b8" strokeWidth="1" />
-            <circle cx={x(h.index)} cy={y(h.total as number)} r="5" fill="#0066db" stroke="#fff" strokeWidth="2" />
+            <circle cx={x(h.index)} cy={y(h.total as number)} r="5" fill="#1F4470" stroke="#fff" strokeWidth="2" />
             <g transform={`translate(${Math.min(W - R - 170, Math.max(L, x(h.index) + 10))},${T + 4})`}>
               <rect width="170" height="46" rx="8" fill="#0b2942" />
               <text x="10" y="18" fontSize="11" fill="#fff" fontWeight="600">{label(h.index)}{h.forecast ? " (forecast)" : ""}</text>

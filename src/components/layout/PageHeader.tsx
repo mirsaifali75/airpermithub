@@ -40,9 +40,9 @@ export function PageHeader({
               {icon}
             </div>
           )}
-          <div className="max-w-2xl">
+          <div className="max-w-3xl">
             {eyebrow && <p className="mb-1.5 text-xs font-semibold tracking-[0.24em] text-gold-700 uppercase">{eyebrow}</p>}
-            <h1 className="text-4xl leading-[1.08] font-semibold text-navy-900 sm:text-5xl">{title}</h1>
+            <h1 className={title.length > 60 ? "text-3xl leading-[1.12] font-semibold text-navy-900 sm:text-4xl" : "text-4xl leading-[1.08] font-semibold text-navy-900 sm:text-5xl"}>{title}</h1>
             {description && <div className="mt-3 text-base text-muted sm:text-lg">{description}</div>}
           </div>
         </div>

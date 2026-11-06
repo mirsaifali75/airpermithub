@@ -243,7 +243,7 @@ export function NsrBaseline() {
               <p className="mt-1 text-xl font-bold text-ink">{label(best.start)} – {label(best.start + win - 1)}</p>
               <p className="mt-1 text-sm text-slate-700">Combined baseline: <strong className="tabular-nums">{n(best.total, 3)} tpy</strong> across {s.units.length} unit{s.units.length > 1 ? "s" : ""}, using one window for all units as the rule requires.</p>
             </div>
-            <div className="relative mt-4 overflow-x-auto rounded-xl border border-line">
+            <div className="relative mt-4 overflow-x-auto rounded-xl border border-line" tabIndex={0} role="region" aria-label="Scrollable table">
               <table className="w-full min-w-[32rem] text-sm">
                 <caption className="sr-only">Top eligible baseline windows</caption>
                 <thead className="bg-canvas text-left text-xs text-muted">
@@ -275,7 +275,7 @@ export function NsrBaseline() {
       <section className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-d`}>
         <h2 id={`${uid}-d`} className="text-lg font-bold text-ink">4. Project emissions increase (Step 1)</h2>
         <p className="mt-1 text-sm text-muted">For each unit in the project, enter projected actual emissions (or its potential to emit). New units have a baseline of zero, so the sum below is the hybrid test when the project has both.</p>
-        <div className="relative mt-4 overflow-x-auto rounded-xl border border-line">
+        <div className="relative mt-4 overflow-x-auto rounded-xl border border-line" tabIndex={0} role="region" aria-label="Scrollable table">
           <table className="w-full min-w-[48rem] text-sm">
             <thead className="bg-canvas text-left text-xs text-muted">
               <tr>

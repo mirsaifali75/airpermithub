@@ -100,8 +100,8 @@ export function IndustrialScene({ className }: { className?: string }) {
           <stop offset="1" stopColor="#ff5a1f" stopOpacity="0" />
         </linearGradient>
         <linearGradient id="airstream" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#147DFF" stopOpacity="0" />
-          <stop offset="0.4" stopColor="#00B8FF" stopOpacity="0.55" />
+          <stop offset="0" stopColor="#2C5282" stopOpacity="0" />
+          <stop offset="0.4" stopColor="#A8875A" stopOpacity="0.55" />
           <stop offset="1" stopColor="#1FA463" stopOpacity="0" />
         </linearGradient>
         <linearGradient id="streamFade" x1="0" y1="0" x2="1" y2="0">

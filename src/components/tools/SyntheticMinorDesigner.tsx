@@ -192,7 +192,7 @@ export function SyntheticMinorDesigner() {
         {s.demo && <p className="mt-2"><Badge tone="amber">Demo data: illustrative numbers, not a real facility or emission factors</Badge></p>}
         <p className={cn("mt-4 rounded-xl border p-4 text-sm font-semibold", overall.c)} role="status">{overall.t}. This is a design screen, not an applicability determination.</p>
         {(sum.pollutants.length > 0 || sum.hapTotal) && (
-          <div className="relative mt-4 overflow-x-auto rounded-xl border border-line">
+          <div className="relative mt-4 overflow-x-auto rounded-xl border border-line" tabIndex={0} role="region" aria-label="Scrollable table">
             <table className="w-full min-w-[44rem] text-sm">
               <caption className="sr-only">Facility potential to emit compared with major source thresholds</caption>
               <thead className="bg-canvas text-left text-xs text-muted">

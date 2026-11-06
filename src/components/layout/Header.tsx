@@ -174,7 +174,7 @@ export function Header() {
                 aria-label={mobileOpen ? "Close menu" : "Open menu"}
               >
                 {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-                <span className="hidden sm:inline" aria-hidden="true">Menu</span>
+                <span aria-hidden="true" className="hidden min-[360px]:inline">Menu</span>
               </button>
             </div>
           </div>

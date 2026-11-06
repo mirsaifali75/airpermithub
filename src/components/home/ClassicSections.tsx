@@ -12,7 +12,7 @@ import { buttonClass } from "@/components/ui/Button";
  */
 
 export function Eyebrow({ children, tone = "light" }: { children: ReactNode; tone?: "light" | "dark" }) {
-  return <p className={`text-xs font-semibold tracking-[0.24em] uppercase ${tone === "dark" ? "text-gold-300" : "text-gold-700"}`}>{children}</p>;
+  return <p className={`flex items-center gap-3 text-xs font-semibold tracking-[0.24em] uppercase before:h-px before:w-8 ${tone === "dark" ? "before:bg-gold-300" : "before:bg-gold-500"} ${tone === "dark" ? "text-gold-300" : "text-gold-700"}`}>{children}</p>;
 }
 
 export function TrustRow({ stateCount }: { stateCount: number }) {

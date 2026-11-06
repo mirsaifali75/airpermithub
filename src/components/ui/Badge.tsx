@@ -13,7 +13,7 @@ const tones: Record<Tone, string> = {
   red: "bg-red-50 text-red-700 ring-red-500/25",
   gray: "bg-slate-100 text-slate-700 ring-slate-400/25",
   navy: "bg-navy-900 text-white ring-navy-900",
-  cyan: "bg-cyan-500/10 text-sky-800 ring-cyan-500/30",
+  cyan: "bg-gold-200/50 text-gold-700 ring-gold-500/30",
 };
 
 /** `wrap` lets a long label break onto two lines on narrow screens instead of overflowing. */
@@ -21,7 +21,7 @@ export function Badge({ tone = "gray", icon, children, className, wrap = false }
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ring-1 ring-inset",
+        "inline-flex items-center gap-1 rounded-sm px-2.5 py-0.5 text-xs font-semibold ring-1 ring-inset",
         wrap ? "whitespace-normal" : "max-w-full whitespace-normal sm:whitespace-nowrap",
         tones[tone],
         className,
