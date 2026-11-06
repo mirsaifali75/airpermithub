@@ -29,7 +29,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
   const jobs = demoJobs.filter((j) => j.company === c.name);
   return (
     <>
-      <section className="relative isolate overflow-hidden bg-navy-950 pt-40 text-white lg:pt-48">
+      <section className="relative isolate overflow-hidden bg-navy-950 pt-12 text-white lg:pt-16">
         <Scene kind={sceneFor(c.kind)} className="absolute inset-0 -z-10 h-full w-full" />
         <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/90 via-navy-950/60 to-transparent" />
         <div className="container-page pb-6">
@@ -44,8 +44,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
             <DemoBadge>Fictional company</DemoBadge>
           </div>
           <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-white/10 sm:max-w-md">
-            <div className="glass-dark px-5 py-3"><dt className="text-xs text-white/60">Sample listings</dt><dd className="font-display text-2xl font-extrabold">{jobs.length}</dd></div>
-            <div className="glass-dark px-5 py-3"><dt className="text-xs text-white/60">Locations</dt><dd className="font-display text-2xl font-extrabold">{c.locations.length}</dd></div>
+            <div className="glass-dark px-5 py-3"><dt className="text-xs text-white/60">Sample listings</dt><dd className="font-serif text-2xl font-bold">{jobs.length}</dd></div>
+            <div className="glass-dark px-5 py-3"><dt className="text-xs text-white/60">Locations</dt><dd className="font-serif text-2xl font-bold">{c.locations.length}</dd></div>
           </dl>
         </div>
       </section>

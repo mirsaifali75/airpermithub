@@ -54,7 +54,7 @@ const toRow = (c: ParsedCondition, i: number): MatrixRow => {
 
 const typeTone: Record<ConditionType, string> = {
   Limit: "bg-red-50 text-red-700",
-  Monitoring: "bg-cyan-500/10 text-sky-800",
+  Monitoring: "bg-gold-200/50 text-gold-700",
   Testing: "bg-violet-50 text-violet-700",
   Recordkeeping: "bg-slate-100 text-slate-700",
   Reporting: "bg-brand-50 text-brand-700",

@@ -36,7 +36,7 @@ export default function StatesPage() {
           ].map(({ k, v }) => (
             <div key={k} className="rounded-xl border border-line bg-white/90 px-4 py-2.5 shadow-card">
               <dt className="text-xs text-muted">{k}</dt>
-              <dd className="font-display text-xl font-bold text-navy-900">{v}</dd>
+              <dd className="font-serif text-xl font-bold text-navy-900">{v}</dd>
             </div>
           ))}
         </dl>
@@ -47,7 +47,7 @@ export default function StatesPage() {
         <section aria-labelledby="all">
           <SectionHeading id="all" title="All states and agencies" description="Counts come straight from each state hub. Partial hubs say which parts still need checking." />
           <div className="overflow-hidden rounded-2xl border border-line bg-white shadow-card">
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto" tabIndex={0} role="region" aria-label="Scrollable table">
               <table className="w-full min-w-[44rem] text-left text-sm">
                 <thead className="bg-canvas text-xs tracking-wide text-muted uppercase">
                   <tr>

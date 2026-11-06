@@ -296,7 +296,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
           </li>
         ))}
       </ul>
-      <div className="mt-3 hidden overflow-x-auto rounded-xl border border-line sm:block">
+      <div className="mt-3 hidden overflow-x-auto rounded-xl border border-line sm:block" tabIndex={0} role="region" aria-label="Scrollable table">
         <table className="w-full text-sm">
           <caption className="sr-only">Uncontrolled and controlled emissions by pollutant</caption>
           <thead className="bg-canvas text-left text-xs text-muted uppercase">
@@ -363,8 +363,8 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
       <section>
         <h2 className="flex items-center gap-2 text-lg font-bold text-ink"><Sigma className="h-5 w-5 text-brand-500" aria-hidden="true" /> Method</h2>
         <p className="mt-2 text-sm text-slate-700">{method.methodology}</p>
-        <div className="mt-3 overflow-x-auto rounded-xl bg-navy-950 px-4 py-3 font-mono text-sm text-cyan-300">{method.formula}</div>
-        <div className="mt-3 overflow-x-auto rounded-xl border border-line">
+        <div className="mt-3 overflow-x-auto rounded-xl bg-navy-950 px-4 py-3 font-mono text-sm text-cyan-300" tabIndex={0} role="region" aria-label="Scrollable table">{method.formula}</div>
+        <div className="mt-3 overflow-x-auto rounded-xl border border-line" tabIndex={0} role="region" aria-label="Scrollable table">
           <table className="w-full text-sm">
             <caption className="sr-only">Symbols in the formula</caption>
             <thead className="bg-canvas text-left text-xs text-muted uppercase"><tr><th scope="col" className="px-3 py-2">Symbol</th><th scope="col" className="px-3 py-2">Meaning</th><th scope="col" className="px-3 py-2">Unit</th></tr></thead>

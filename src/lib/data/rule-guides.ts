@@ -17,7 +17,7 @@ export const ruleGuides: Guide[] = [
     title: "Writing a synthetic minor limit that holds up",
     summary: "What EPA guidance says an enforceable limit on potential to emit has to contain, how to choose the averaging period and the parameter you limit, and the records that keep a synthetic minor source minor.",
     category: "Air Permitting",
-    scene: "midstream",
+    scene: "manufacturing",
     readMinutes: 10,
     published: "2026-10-31",
     sections: [

@@ -15,11 +15,11 @@ export type MapProfile = Pick<StateAirPermitProfile, "slug" | "code" | "name" | 
 const shortAgency = (name: string) => name.match(/\(([A-Z][A-Za-z&. -]{1,13})\)/)?.[1] ?? name;
 
 const fillFor = (v: MapProfile["verification"] | undefined, selected: boolean, hovered: boolean) => {
-  if (selected) return "#147DFF";
-  if (hovered) return "#8fb4ff";
-  if (v === "verified") return "#cddcf7";
-  if (v === "partial") return "#e3e8f0";
-  return "#eef1f6";
+  if (selected) return "#0F2A47";
+  if (hovered) return "#C9B78F";
+  if (v === "verified") return "#D3DBE5";
+  if (v === "partial") return "#E8E3D8";
+  return "#F0EDE6";
 };
 
 /**
@@ -75,9 +75,9 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
               <g pointerEvents="none" aria-hidden="true">
                 <defs>
                   <linearGradient id="map-scan" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0" stopColor="#00B8FF" stopOpacity="0" />
-                    <stop offset="0.85" stopColor="#00B8FF" stopOpacity="0.22" />
-                    <stop offset="1" stopColor="#00B8FF" stopOpacity="0" />
+                    <stop offset="0" stopColor="#A8875A" stopOpacity="0" />
+                    <stop offset="0.85" stopColor="#A8875A" stopOpacity="0.22" />
+                    <stop offset="1" stopColor="#A8875A" stopOpacity="0" />
                   </linearGradient>
                 </defs>
                 <rect className="aph-scan" x={0} y={0} width={110} height={usMap.height} fill="url(#map-scan)" />
@@ -86,16 +86,16 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
             {usMap.states
               .filter((s) => s.slug === selected)
               .map((s) => (
-                <path key="sel" d={s.d} fill="none" stroke="#0B2942" strokeWidth={1.5} pointerEvents="none" />
+                <path key="sel" d={s.d} fill="none" stroke="#8A6A35" strokeWidth={1.5} pointerEvents="none" />
               ))}
           </svg>
           <div className="pointer-events-none absolute top-3 left-3 rounded-lg bg-white/90 px-2.5 py-1 text-xs font-semibold text-navy-900 shadow-card sm:top-5 sm:left-5">
             {hovered ? hovered.name : "Select a state"}
           </div>
           <ul className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs text-muted">
-            <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-[#cddcf7]" />Verified against agency pages ({verifiedCount})</li>
-            {verifiedCount < profiles.length && <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-[#e3e8f0] ring-1 ring-line" />Partially verified ({profiles.length - verifiedCount})</li>}
-            <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-brand-500" />Selected</li>
+            <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-[#D3DBE5]" />Verified against agency pages ({verifiedCount})</li>
+            {verifiedCount < profiles.length && <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-[#E8E3D8] ring-1 ring-line" />Partially verified ({profiles.length - verifiedCount})</li>}
+            <li className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-sm bg-navy-900" />Selected</li>
           </ul>
         </div>
 
@@ -107,7 +107,9 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
               <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Find a state or agency" className="h-9 w-full rounded-lg border border-line pr-3 pl-9 text-sm focus:border-brand-500 focus:outline-none" />
             </label>
           </div>
-          <ul className="max-h-64 overflow-y-auto p-1.5 lg:max-h-[24rem]" aria-label="States">
+          {/* On desktop the list fills the panel to the map's height (no blank space under it) and scrolls inside. */}
+          <div className="relative lg:min-h-[16rem] lg:flex-1">
+          <ul className="max-h-64 overflow-y-auto p-1.5 lg:absolute lg:inset-0 lg:max-h-none" aria-label="States">
             {list.map((s) => (
               <li key={s.slug}>
                 <button
@@ -115,7 +117,7 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
                   aria-pressed={s.slug === selected}
                   className={cn(
                     "flex w-full items-center justify-between gap-2 rounded-lg px-3 py-2 text-left text-sm",
-                    s.slug === selected ? "bg-brand-600 font-semibold text-white" : "text-ink hover:bg-canvas",
+                    s.slug === selected ? "bg-navy-900 font-semibold text-white" : "text-ink hover:bg-canvas",
                   )}
                 >
                   <span className="truncate">{s.name}</span>
@@ -125,6 +127,7 @@ export function StateExplorer({ profiles, initial = "texas", compact = false }: 
             ))}
             {list.length === 0 && <li className="px-3 py-6 text-center text-sm text-muted">No match.</li>}
           </ul>
+          </div>
           <Link href="/states" className="border-t border-line px-4 py-3 text-sm font-semibold text-brand-600 hover:text-brand-700">All states &amp; agencies →</Link>
         </div>
       </div>

@@ -29,7 +29,7 @@ export function MyFactors({ methodNames }: { methodNames: Record<string, string>
           None saved yet. In a calculator, enter a factor and its reference, then choose <strong>Save to My factors</strong>.
         </p>
       ) : (
-        <div className="mt-4 overflow-x-auto rounded-xl border border-line">
+        <div className="mt-4 overflow-x-auto rounded-xl border border-line" tabIndex={0} role="region" aria-label="Scrollable table">
           <table className="w-full text-sm">
             <caption className="sr-only">Saved emission factors</caption>
             <thead className="bg-canvas text-left text-xs text-muted uppercase">

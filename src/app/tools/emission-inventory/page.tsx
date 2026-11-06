@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { EmissionInventory } from "@/components/tools/EmissionInventory";
 import { ToolGate } from "@/components/auth/ToolGate";
+import { EmissionInventoryPreview } from "@/components/previews";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { keptIn } from "@/lib/storage/where";
 import { coreTools } from "@/lib/tools/catalog";
@@ -50,7 +51,7 @@ export default function EmissionInventoryPage() {
         { label: "Templates & Workbooks", href: "/templates" },
       ]}
     >
-      <ToolGate name={tool.name} next="/tools/emission-inventory">
+      <ToolGate name={tool.name} next="/tools/emission-inventory" preview={<EmissionInventoryPreview />}>
         <EmissionInventory />
       </ToolGate>
     </ToolPage>

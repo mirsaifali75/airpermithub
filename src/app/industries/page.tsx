@@ -16,7 +16,7 @@ export default function IndustriesPage() {
     <>
       <PageHeader crumbs={[{ label: "Industries" }]} title="Industries" icon={<Factory />} scene="manufacturing" description="Industry-specific permitting guidance, regulations and resources: common emission sources, typical equipment, programs worth screening, and the right calculators." />
       <div className="container-page py-10">
-        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {orderedIndustries().map((i) => (
             <li key={i.slug}>
               <Link href={`/industries/${i.slug}`} className="group block h-full overflow-hidden rounded-2xl border border-line bg-white shadow-card transition-all hover:-translate-y-1 hover:shadow-lift">

@@ -19,7 +19,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
   const first = session?.user.name?.split(/\s+/)[0];
 
   return (
-    <div className="bg-canvas pt-32 lg:pt-40">
+    <div className="bg-canvas pt-8 lg:pt-10">
       <div className="container-page grid grid-cols-[minmax(0,1fr)] gap-6 py-8 lg:grid-cols-[15rem_1fr]">
         <aside className="lg:sticky lg:top-24 lg:self-start">
           <nav aria-label="Dashboard" className="rounded-2xl border border-line bg-white p-2 shadow-card">

@@ -4,6 +4,7 @@ import {
 import Link from "next/link";
 import type { ComponentType } from "react";
 import { Badge } from "@/components/ui/Badge";
+import { accountsEnabled } from "@/lib/auth/config";
 
 /**
  * Every area MIR listed for the signed-in dashboard. "Live" means the page
@@ -20,7 +21,9 @@ export const dashboardTools: { title: string; text: string; href?: string; icon:
   { title: "Compliance Calendar", text: "Deadlines and reminders, exportable to your calendar.", href: "/compliance", icon: CalendarClock },
   { title: "Regulatory Updates", text: "Recent federal rule changes that affect air permits.", href: "/regulatory-updates", icon: Newspaper },
   { title: "Facility Workspace", text: "Facilities, equipment lists, and permit limits in one record.", icon: Building2 },
-  { title: "Saved Projects and Calculations", text: "Your work saved to your account and available on any device.", icon: FolderKanban },
+  accountsEnabled
+    ? { title: "Saved Calculations and Work", text: "Calculations, compliance tasks, tool entries, and saved jobs, kept in your account on any device.", href: "#saved-work", icon: FolderKanban }
+    : { title: "Saved Projects and Calculations", text: "Your work saved to your account and available on any device.", icon: FolderKanban },
   { title: "Reports and Documents", text: "PDF reports and documents built from your saved work.", icon: FileBarChart },
   { title: "Account Settings", text: "Profile, password, Google, two-step login, and sign-out.", href: "/account", icon: Settings },
 ];

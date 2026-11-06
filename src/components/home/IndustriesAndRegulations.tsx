@@ -15,19 +15,19 @@ const regCards = [
 
 export function IndustriesAndRegulations() {
   return (
-    <section className="bg-canvas pt-12 pb-6">
+    <section className="bg-canvas pt-16 pb-6 sm:pt-20">
       <div className="container-page grid gap-4 lg:grid-cols-[1.9fr_1fr]">
-        <div className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6">
-          <div className="mb-5 flex items-center justify-between">
-            <h2 className="flex items-center gap-2.5 text-xl font-bold"><LayoutGrid className="h-5 w-5 text-navy-800" aria-hidden="true" /> Explore by Industry</h2>
-            <Link href="/industries" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:text-brand-700">
+        <div className="rounded-2xl border border-rule bg-white p-5 shadow-card sm:p-6">
+          <div className="mb-5 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+            <h2 className="flex items-center gap-2.5 font-display text-3xl font-semibold text-navy-900"><LayoutGrid className="h-5 w-5 text-gold-700" aria-hidden="true" /> Explore by Industry</h2>
+            <Link href="/industries" className="inline-flex items-center gap-1 text-xs font-semibold tracking-[0.12em] whitespace-nowrap text-gold-700 uppercase hover:text-navy-900">
               View All Industries <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>
           <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             {orderedIndustries().slice(0, 8).map((i) => (
               <li key={i.slug}>
-                <Link href={`/industries/${i.slug}`} className="group relative block overflow-hidden rounded-xl ring-1 ring-line transition-all hover:-translate-y-0.5 hover:ring-2 hover:ring-brand-500">
+                <Link href={`/industries/${i.slug}`} className="group relative block overflow-hidden rounded-xl ring-1 ring-rule transition-all hover:-translate-y-0.5 hover:ring-2 hover:ring-gold-500">
                   {industryPhoto[i.slug] ? (
                     <div className="relative aspect-[4/3] w-full">
                       <Image
@@ -41,7 +41,7 @@ export function IndustriesAndRegulations() {
                   ) : (
                     <Scene kind={industryScene[i.slug]} grain={false} className="aspect-[4/3] h-full w-full transition-transform duration-500 group-hover:scale-105" />
                   )}
-                  <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950/95 to-transparent px-2 pt-8 pb-2.5 text-center text-sm font-semibold text-white">
+                  <span className="block border-t border-rule bg-white px-2 py-2.5 text-center font-display text-lg leading-tight font-semibold text-navy-900 group-hover:text-gold-700">
                     {i.name}
                   </span>
                 </Link>
@@ -50,18 +50,18 @@ export function IndustriesAndRegulations() {
           </ul>
         </div>
 
-        <div className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6">
-          <div className="mb-5 flex items-center justify-between">
-            <h2 className="flex items-center gap-2.5 text-xl font-bold"><Gavel className="h-5 w-5 text-navy-800" aria-hidden="true" /> Regulations &amp; Guidance</h2>
-            <Link href="/regulations" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:text-brand-700">
+        <div className="rounded-2xl border border-rule bg-white p-5 shadow-card sm:p-6">
+          <div className="mb-5 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+            <h2 className="flex items-center gap-2.5 font-display text-3xl font-semibold text-navy-900"><Gavel className="h-5 w-5 text-gold-700" aria-hidden="true" /> Regulations &amp; Guidance</h2>
+            <Link href="/regulations" className="inline-flex items-center gap-1 text-xs font-semibold tracking-[0.12em] whitespace-nowrap text-gold-700 uppercase hover:text-navy-900">
               Browse All <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>
           <ul className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-2">
             {regCards.map(({ title, body, href, icon: Icon }) => (
               <li key={title}>
-                <Link href={href} className="flex h-full min-w-0 items-start gap-2.5 rounded-xl border border-line p-3 transition-colors hover:border-brand-200 hover:bg-brand-50/60">
-                  <Icon className="mt-0.5 h-5 w-5 shrink-0 text-brand-500" aria-hidden="true" />
+                <Link href={href} className="flex h-full min-w-0 items-start gap-2.5 rounded-xl border border-rule p-3 transition-colors hover:border-gold-500 hover:bg-canvas">
+                  <Icon className="mt-0.5 h-5 w-5 shrink-0 text-gold-700" aria-hidden="true" />
                   <span className="min-w-0 break-words">
                     <span className="block text-sm font-semibold text-ink">{title}</span>
                     <span className="block text-xs text-muted">{body}</span>

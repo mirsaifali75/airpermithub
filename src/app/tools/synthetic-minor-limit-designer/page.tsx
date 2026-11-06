@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SyntheticMinorDesigner } from "@/components/tools/SyntheticMinorDesigner";
 import { ToolGate } from "@/components/auth/ToolGate";
+import { SyntheticMinorPreview } from "@/components/previews";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { coreTools } from "@/lib/tools/catalog";
 import { EPA_PTE_1989, EPA_PTE_1995, RT } from "@/lib/tools/rule-text";
@@ -57,7 +58,7 @@ export default function SyntheticMinorPage() {
         { label: "Templates & Workbooks", href: "/templates" },
       ]}
     >
-      <ToolGate name={tool.name} next="/tools/synthetic-minor-limit-designer">
+      <ToolGate name={tool.name} next="/tools/synthetic-minor-limit-designer" preview={<SyntheticMinorPreview />}>
         <SyntheticMinorDesigner />
       </ToolGate>
     </ToolPage>

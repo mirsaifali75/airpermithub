@@ -423,7 +423,7 @@ export function PermitFinderWizard({ profiles }: { profiles: StateProfileSummary
               {outcomes.map(({ status, label, color, note }) => (
                 <div key={status} className="flex flex-col-reverse rounded-xl border border-line px-4 py-3">
                   <dt className="text-xs text-muted"><span className="block font-semibold text-ink">{label}</span>{note}</dt>
-                  <dd className={cn("font-display text-2xl font-extrabold", color)}>{[...result.pathways, ...result.federalRules].filter((i) => i.status === status).length}</dd>
+                  <dd className={cn("font-serif text-2xl font-bold", color)}>{[...result.pathways, ...result.federalRules].filter((i) => i.status === status).length}</dd>
                 </div>
               ))}
             </dl>

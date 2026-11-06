@@ -1,5 +1,7 @@
 import { ArrowRight, BookOpen, ClipboardList, Factory, GraduationCap, HardHat, MapPin, UserCog, Users } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
+import aerialPhoto from "../../../public/images/site/10-aerial-well-pad.webp";
 import { SectionHeading } from "@/components/ui/Section";
 import { Badge, DemoBadge } from "@/components/ui/Badge";
 import { buttonClass } from "@/components/ui/Button";
@@ -24,8 +26,8 @@ export function Audiences() {
         <SectionHeading id="aud-heading" eyebrow="Who it's for" title="Built for Environmental Professionals" description="AirPermitHub organizes agency websites, federal rules, PDFs, and spreadsheets into one place to start." />
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {audiences.map(({ title, body, icon: Icon }) => (
-            <li key={title} className="flex gap-4 rounded-2xl border border-line bg-white p-5 shadow-card">
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
+            <li key={title} className="flex gap-4 rounded-2xl border border-rule bg-white p-5 shadow-card">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm bg-navy-900 text-gold-200">
                 <Icon className="h-5 w-5" aria-hidden="true" />
               </span>
               <span>
@@ -48,11 +50,11 @@ export function LatestResources() {
         <ul className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {guides.slice(0, 4).map((g) => (
             <li key={g.slug}>
-              <Link href={`/resources/${g.slug}`} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
+              <Link href={`/resources/${g.slug}`} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-rule bg-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
                 <Scene kind={g.scene} grain={false} className="aspect-[16/9] w-full" />
                 <div className="flex flex-1 flex-col p-5">
-                  <span className="text-xs font-semibold text-brand-600">{g.category}</span>
-                  <h3 className="mt-1.5 font-semibold text-ink group-hover:text-brand-700">{g.title}</h3>
+                  <span className="text-xs font-semibold tracking-[0.12em] text-gold-700 uppercase">{g.category}</span>
+                  <h3 className="mt-1.5 font-semibold text-ink group-hover:text-gold-700">{g.title}</h3>
                   <p className="mt-2 line-clamp-3 flex-1 text-sm text-muted">{g.summary}</p>
                   <p className="mt-4 flex items-center gap-1.5 text-xs text-muted"><BookOpen className="h-3.5 w-3.5" aria-hidden="true" /> {g.readMinutes} min read</p>
                 </div>
@@ -73,17 +75,18 @@ export function LatestJobs() {
         <ul className="grid gap-3 md:grid-cols-2">
           {demoJobs.slice(0, 4).map((j) => (
             <li key={j.id} className="min-w-0">
-              <Link href="/jobs" className="flex items-center gap-4 rounded-2xl border border-line bg-white p-4 shadow-card transition-colors hover:border-brand-200">
+              <Link href="/jobs" className="flex items-center gap-4 rounded-2xl border border-rule bg-white p-4 shadow-card transition-colors hover:border-gold-500">
                 <CompanyLogo company={j.company} />
                 <span className="min-w-0 flex-1">
-                  <span className="block truncate font-semibold text-ink">{j.title}</span>
+                  <span className="block font-semibold text-ink sm:truncate">{j.title}</span>
                   <span className="flex flex-wrap items-center gap-x-3 text-sm text-muted">
                     
                     <span>{j.company}</span>
                     <span className="inline-flex items-center gap-1"><MapPin className="h-3.5 w-3.5" aria-hidden="true" />{j.city}, {j.state}</span>
+                    <span className="sm:hidden">{j.remote ? "Remote" : j.type}</span>
                   </span>
                 </span>
-                <Badge tone={j.remote ? "green" : "gray"}>{j.remote ? "Remote" : j.type}</Badge>
+                <span className="hidden shrink-0 sm:block"><Badge tone={j.remote ? "green" : "gray"}>{j.remote ? "Remote" : j.type}</Badge></span>
               </Link>
             </li>
           ))}
@@ -95,15 +98,18 @@ export function LatestJobs() {
 
 export function FinalCta() {
   return (
-    <section className="relative overflow-hidden bg-navy-900 py-20 text-white">
-      <div aria-hidden="true" className="absolute -top-24 left-1/4 h-72 w-72 rounded-full bg-brand-500/30 blur-3xl" />
-      <div aria-hidden="true" className="absolute -bottom-24 right-1/4 h-72 w-72 rounded-full bg-eco-500/20 blur-3xl" />
+    <section className="relative isolate overflow-hidden bg-navy-950 py-24 text-white sm:py-28">
+      {/* MIR's aerial well pad photo (shot list #10), darkened for the headline. */}
+      <Image src={aerialPhoto} alt="" fill sizes="100vw" className="-z-10 object-cover" />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-navy-950/55" />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950/80 via-transparent to-navy-950/50" />
       <div className="container-page relative text-center">
-        <h2 className="mx-auto max-w-3xl text-3xl font-extrabold sm:text-5xl">Stop Searching Across Dozens of Websites.</h2>
-        <p className="mx-auto mt-4 max-w-xl text-lg text-white/75">Find the air permitting information and tools you need in one place.</p>
+        <p className="text-xs font-semibold tracking-[0.24em] text-gold-200 uppercase">Stop searching across dozens of websites</p>
+        <h2 className="mx-auto mt-4 max-w-3xl text-4xl leading-[1.1] text-balance sm:text-[3.4rem]">Preview everything. Sign in to use it.</h2>
+        <p className="mx-auto mt-4 max-w-xl text-lg text-white/80">Find the air permitting information and tools you need in one place. A free account opens every tool and the full state map, and keeps your work.</p>
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-          <Link href="/sign-up" className={buttonClass("primary", "lg")}>Get Started Free <ArrowRight className="h-5 w-5" aria-hidden="true" /></Link>
-          <Link href="/permit-finder" className={buttonClass("outline-light", "lg")}>Explore AirPermitHub</Link>
+          <Link href="/sign-up" className={buttonClass("subtle", "lg")}>Create your free account <ArrowRight className="h-5 w-5" aria-hidden="true" /></Link>
+          <Link href="/sign-in" className={buttonClass("outline-light", "lg")}>Sign in</Link>
         </div>
       </div>
     </section>

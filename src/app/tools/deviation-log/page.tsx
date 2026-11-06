@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DeviationLog } from "@/components/tools/DeviationLog";
 import { ToolGate } from "@/components/auth/ToolGate";
+import { DeviationLogPreview } from "@/components/previews";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { keptIn } from "@/lib/storage/where";
 import { coreTools } from "@/lib/tools/catalog";
@@ -55,7 +56,7 @@ export default function DeviationLogPage() {
         { label: "Compliance Calendar", href: "/compliance" },
       ]}
     >
-      <ToolGate name={tool.name} next="/tools/deviation-log">
+      <ToolGate name={tool.name} next="/tools/deviation-log" preview={<DeviationLogPreview />}>
         <DeviationLog />
       </ToolGate>
     </ToolPage>

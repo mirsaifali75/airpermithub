@@ -6,11 +6,11 @@ type Variant = "primary" | "secondary" | "ghost" | "outline-light" | "subtle";
 type Size = "sm" | "md" | "lg";
 
 const variants: Record<Variant, string> = {
-  primary: "bg-brand-600 text-white hover:bg-brand-700 shadow-[0_8px_24px_-8px_rgb(0_102_219/0.6)]",
+  primary: "bg-navy-900 text-white tracking-[0.02em] hover:bg-navy-800",
   secondary: "bg-navy-900 text-white hover:bg-navy-800",
   ghost: "text-brand-600 hover:bg-brand-50",
-  "outline-light": "border border-white/30 text-white hover:bg-white/10 hover:border-white/60",
-  subtle: "border border-line bg-white text-ink hover:border-brand-200 hover:bg-brand-50",
+  "outline-light": "border border-gold-200/80 text-white tracking-[0.02em] hover:bg-white/10 hover:border-gold-200",
+  subtle: "border border-rule bg-white text-navy-900 hover:border-gold-500 hover:bg-canvas",
 };
 
 const sizes: Record<Size, string> = {
@@ -20,7 +20,7 @@ const sizes: Record<Size, string> = {
 };
 
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-xl font-semibold transition-[color,background-color,border-color,box-shadow,transform] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 disabled:active:scale-100 whitespace-nowrap";
+  "inline-flex items-center justify-center gap-2 rounded-sm font-semibold transition-[color,background-color,border-color,box-shadow,transform] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 disabled:active:scale-100 whitespace-nowrap";
 
 export function buttonClass(variant: Variant = "primary", size: Size = "md", className?: string) {
   return cn(base, variants[variant], sizes[size], className);

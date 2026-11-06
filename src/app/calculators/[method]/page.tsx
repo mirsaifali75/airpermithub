@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Calculator } from "lucide-react";
 import { notFound } from "next/navigation";
 import { ToolGate } from "@/components/auth/ToolGate";
+import { CalculatorPreview } from "@/components/previews";
 import { EmissionCalculator } from "@/components/calculator/EmissionCalculator";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Disclaimer } from "@/components/ui/Notices";
@@ -35,7 +36,7 @@ export default async function MethodPage({ params }: { params: Promise<{ method:
         description={m.description}
       />
       <div className="container-page space-y-6 py-10">
-        <ToolGate name={m.title} next={`/calculators/${m.slug}`}>
+        <ToolGate name={m.title} next={`/calculators/${m.slug}`} preview={<CalculatorPreview method={m.slug} />}>
           <EmissionCalculator
             methodSlug={m.slug}
             related={federalRegulations.filter((r) => r.relatedCalculators.includes(m.slug)).map((r) => ({ slug: r.slug, shortName: r.shortName, citation: r.citation }))}
