@@ -4,7 +4,7 @@ import {
   ArrowRight, BookMarked, BookmarkPlus, Copy, CopyPlus, Download, ExternalLink, FlaskConical, FolderPlus, Info, Plus, Printer, RotateCcw, Sigma, Trash2, TriangleAlert,
 } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { useId, useMemo, useState } from "react";
 import { downloadText, useStoredState } from "@/components/tools/shared";
 import { DemoBadge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
@@ -14,6 +14,7 @@ import { csvFileName, csvLines } from "@/lib/csv";
 import { factorLibrary, factorsFor, MY_FACTORS_STORE, sameFactor, type EmissionFactorRecord } from "@/lib/calc/factors";
 import { annualize, getMethod, type AnnualizedResult, type CalcStep } from "@/lib/calc/methods";
 import { quoteHref } from "@/lib/tools/rule-text";
+import { keptIn } from "@/lib/storage/where";
 import { pollutants, type Pollutant } from "@/lib/data/equipment";
 
 interface FactorSource {
@@ -55,7 +56,7 @@ export interface RelatedRule {
   citation: string;
 }
 
-/** Calculation set persists in this browser until accounts launch (shared across calculators and the dashboard). */
+/** The calculation set, shared across calculators and the dashboard; saved in this browser and in the account when signed in. */
 export const CALC_STORE = "aph.calc.saved.v1";
 
 const fmt = (n: number) =>
@@ -112,18 +113,9 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
   const setUsedDemo = setter("usedDemo");
   const [myFactors, setMyFactors] = useStoredState<EmissionFactorRecord[]>(MY_FACTORS_STORE, []);
   const knownFactors = useMemo(() => [...factorLibrary, ...myFactors], [myFactors]);
-  const [saved, setSaved] = useState<SavedCalc[]>([]);
+  const [saved, setSaved] = useStoredState<SavedCalc[]>(CALC_STORE, []);
   const [notice, setNotice] = useState<string | null>(null);
-  const loaded = useRef(false);
 
-  useEffect(() => {
-    try { setSaved(JSON.parse(localStorage.getItem(CALC_STORE) ?? "[]")); } catch {}
-  }, []);
-  useEffect(() => {
-    // Skip the first run so the empty initial state never overwrites stored work.
-    if (!loaded.current) { loaded.current = true; return; }
-    try { localStorage.setItem(CALC_STORE, JSON.stringify(saved)); } catch {}
-  }, [saved]);
 
   const shared = useMemo(() => {
     const values = Object.fromEntries(sharedInputs.map((x) => [x.key, num(inputs[x.key])]));
@@ -597,7 +589,7 @@ export function EmissionCalculator({ methodSlug, related = [] }: { methodSlug: s
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <h2 className="text-lg font-bold text-ink">Calculation set</h2>
-            <p className="text-sm text-muted">Saved calculations from every calculator, totaled by pollutant. Kept in this browser until accounts launch.</p>
+            <p className="text-sm text-muted">Saved calculations from every calculator, totaled by pollutant, {keptIn}.</p>
           </div>
           <div className="flex gap-2">
             <Button size="sm" variant="subtle" onClick={exportSet} disabled={!saved.length}><Download className="h-4 w-4" aria-hidden="true" /> Export Excel (CSV)</Button>

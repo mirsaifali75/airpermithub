@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { RollingTracker } from "@/components/tools/RollingTracker";
+import { ToolGate } from "@/components/auth/ToolGate";
+import { RollingTrackerPreview } from "@/components/previews";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { coreTools } from "@/lib/tools/catalog";
 
@@ -50,7 +52,9 @@ export default function RollingTrackerPage() {
         { label: "Compliance Calendar", href: "/compliance" },
       ]}
     >
-      <RollingTracker />
+      <ToolGate name={tool.name} next="/tools/rolling-12-month-tracker" preview={<RollingTrackerPreview />}>
+        <RollingTracker />
+      </ToolGate>
     </ToolPage>
   );
 }

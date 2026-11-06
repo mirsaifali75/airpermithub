@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ToolGate } from "@/components/auth/ToolGate";
+import { ConverterPreview } from "@/components/previews";
 import { ConverterTool } from "@/components/tools/ConverterTool";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { AccordionItem } from "@/components/ui/Accordion";
@@ -43,7 +45,9 @@ export default async function ConverterPage({ params }: { params: Promise<{ slug
       ]}
     >
       <p className="max-w-3xl text-[1.05rem] leading-relaxed text-slate-700">{c.intro}</p>
-      <ConverterTool slug={c.slug} />
+      <ToolGate name={`${c.name} converter`} next={`/tools/${c.slug}`} preview={<ConverterPreview slug={c.slug} />}>
+        <ConverterTool slug={c.slug} />
+      </ToolGate>
       <section aria-labelledby="faq-heading">
         <h2 id="faq-heading" className="mb-3 text-lg font-bold text-ink">Questions engineers ask</h2>
         <div className="overflow-hidden rounded-2xl border border-line bg-white shadow-card">

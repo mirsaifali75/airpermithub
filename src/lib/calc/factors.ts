@@ -55,7 +55,7 @@ export const factorRecordFields: { key: keyof EmissionFactorRecord; label: strin
 /** Reviewed factors. Empty until factors pass the review pipeline; nothing here is invented. */
 export const factorLibrary: EmissionFactorRecord[] = [];
 
-/** Factors the user saved, kept in this browser until accounts launch. */
+/** Factors the user saved: in this browser, and in the account when signed in. */
 export const MY_FACTORS_STORE = "aph.calc.factors.v1";
 
 /** Saved and library factors that fit one factor field of one calculator. */

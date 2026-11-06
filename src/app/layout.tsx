@@ -2,10 +2,12 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter, Source_Serif_4 } from "next/font/google";
+import { AccountSync } from "@/components/account/AccountSync";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { PrintStamp } from "@/components/layout/PrintStamp";
 import { MobileTabBar } from "@/components/layout/MobileTabBar";
+import { accountsEnabled } from "@/lib/auth/config";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -47,6 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer />
         <MobileTabBar />
+        {accountsEnabled && <AccountSync />}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
         <Analytics />
         <SpeedInsights />

@@ -22,7 +22,7 @@ const promptTone: Record<PromptStatus, string> = {
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const empty = (): Omit<Deviation, "id"> => ({ start: "", end: "", unit: "", requirement: "", description: "", cause: "", corrective: "", durationHours: null, pollutants: "", excessEstimate: "", reportedOn: "", status: "open", discovered: "", ruleId: "" });
 
-/** Deviation log grouped by the permit's reporting periods. Entries stay in this browser. */
+/** Deviation log grouped by the permit's reporting periods. */
 export function DeviationLog() {
   const uid = useId();
   const [s, setS] = useStoredState<LogState>("aph.tools.deviations.v1", { cycle: 6, startMonth: 1, items: [] });

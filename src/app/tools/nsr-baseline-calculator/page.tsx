@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { NsrBaseline } from "@/components/tools/NsrBaseline";
+import { ToolGate } from "@/components/auth/ToolGate";
+import { NsrBaselinePreview } from "@/components/previews";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { coreTools } from "@/lib/tools/catalog";
 import { nsrRuleText } from "@/lib/tools/nsr";
@@ -49,7 +51,9 @@ export default function NsrBaselinePage() {
         { label: "Rolling 12-Month Limit Tracker", href: "/tools/rolling-12-month-tracker" },
       ]}
     >
-      <NsrBaseline />
+      <ToolGate name={tool.name} next="/tools/nsr-baseline-calculator" preview={<NsrBaselinePreview />}>
+        <NsrBaseline />
+      </ToolGate>
     </ToolPage>
   );
 }

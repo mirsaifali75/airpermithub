@@ -24,6 +24,9 @@ const seoAliases: Record<string, string> = {
 
 const isDev = process.env.NODE_ENV !== "production";
 
+/** Accounts open once the database, session secret, and email service are configured (see src/lib/auth/config.ts). */
+const accounts = Boolean(process.env.DATABASE_URL && process.env.AUTH_SECRET && process.env.RESEND_API_KEY);
+
 /**
  * Content Security Policy. Pages are statically generated, so scripts can't
  * carry per-request nonces; inline scripts are allowed but every external
@@ -39,7 +42,8 @@ const csp = [
   "connect-src 'self'",
   "frame-ancestors 'none'",
   "base-uri 'self'",
-  "form-action 'self'",
+  // A sign-in form posted without JavaScript redirects on to Google's sign-in page.
+  "form-action 'self' https://accounts.google.com",
   "object-src 'none'",
   ...(isDev ? [] : ["upgrade-insecure-requests"]),
 ].join("; ");
@@ -57,6 +61,10 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  env: { NEXT_PUBLIC_ACCOUNTS: accounts ? "1" : "0" },
+  // Routes that render on request (the screening API, search) read the content
+  // database export when the build wrote one; see src/lib/content/config.ts.
+  outputFileTracingIncludes: { "/**": ["./.content/**/*.json"] },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },

@@ -6,6 +6,7 @@ import { toolIcons } from "@/components/tools/ToolIcon";
 import { Disclaimer } from "@/components/ui/Notices";
 import { ShareLinks } from "@/components/ui/ShareLinks";
 import { practitionerGuides } from "@/lib/data/practitioner-guides";
+import { accountsEnabled } from "@/lib/auth/config";
 import { site } from "@/lib/site";
 import { converterTools, coreTools } from "@/lib/tools/catalog";
 
@@ -81,7 +82,9 @@ export default function ToolsPage() {
             {[
               { icon: Eye, title: "The math is on the page", body: "Every result lists its formula and each intermediate step, so you can check it by hand or hand it to a reviewer." },
               { icon: Quote, title: "Rule text, not paraphrase", body: "Where a tool follows a regulation, the governing words are quoted from a government source with the citation. You enter the regulatory values from the rule that applies to you." },
-              { icon: Lock, title: "Your data stays with you", body: "Entries are kept in your browser, not sent to AirPermitHub. Export to CSV to keep a record or share it with your team." },
+              accountsEnabled
+                ? { icon: Lock, title: "Your work, in your account", body: "Entries are saved to your account, so they're there on any device you sign in from. Export to CSV to keep a record or share it with your team." }
+                : { icon: Lock, title: "Your data stays with you", body: "Entries are kept in your browser, not sent to AirPermitHub. Export to CSV to keep a record or share it with your team." },
             ].map(({ icon: Icon, title, body }) => (
               <li key={title}>
                 <Icon className="h-6 w-6 text-cyan-400" aria-hidden="true" />

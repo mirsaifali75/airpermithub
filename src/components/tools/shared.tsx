@@ -1,27 +1,31 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { onStored, readStored, writeStored } from "@/lib/storage/browser";
 
 export const field = "h-10 w-full rounded-lg border border-line bg-white px-3 text-sm text-ink focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none";
 export const labelCls = "mb-1 block text-xs font-semibold text-slate-700";
 
 /**
- * State kept in this browser (localStorage) under `key`. Loads after mount so
- * server and client render the same first frame; saves on every change.
+ * State saved under `key`: in this browser, and in the account when signed
+ * in (see AccountSync). Loads after mount so server and client render the
+ * same first frame, saves on every change, and reloads when the account's
+ * copy arrives. Nothing is written until the state changes, so opening a
+ * tool in a new browser never replaces the account's work with a blank form.
  */
 export function useStoredState<T>(key: string, initial: T) {
+  const first = useRef(initial);
   const [value, setValue] = useState<T>(initial);
   const loaded = useRef(false);
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(key);
-      if (raw) setValue(JSON.parse(raw) as T);
-    } catch {}
+    const stored = readStored<T | undefined>(key, undefined);
+    if (stored !== undefined) setValue(stored);
     loaded.current = true;
+    return onStored((k) => { if (k === key) setValue(readStored(key, first.current)); });
   }, [key]);
   useEffect(() => {
-    if (!loaded.current) return;
-    try { localStorage.setItem(key, JSON.stringify(value)); } catch {}
+    if (!loaded.current || value === first.current) return;
+    writeStored(key, value);
   }, [key, value]);
   return [value, setValue] as const;
 }

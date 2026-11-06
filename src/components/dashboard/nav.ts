@@ -8,6 +8,6 @@ export const dashboardNav = [
   { label: "Calculations", href: "/dashboard#calculations", icon: Calculator },
   { label: "Permit Applications", href: "/permits?tab=applications", icon: FileStack },
   { label: "Job Alerts", href: "/jobs", icon: Bell },
-  { label: "Profile", href: "/sign-in", icon: User },
-  { label: "Settings", href: "/sign-in", icon: Settings },
+  { label: "Profile", href: "/account", icon: User },
+  { label: "Settings", href: "/account", icon: Settings },
 ];

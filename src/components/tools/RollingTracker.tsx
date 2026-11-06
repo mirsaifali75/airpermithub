@@ -5,6 +5,7 @@ import { useEffect, useId, useMemo, useState } from "react";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
+import { keptIn } from "@/lib/storage/where";
 import { addMonths, isMonth, monthName, parsePastedColumn, thisMonth } from "@/lib/tools/months";
 import { computeRolling, firstForecastExceedance, nextMonthHeadroom, windowHeadroom, type RollingMode, type RollingRow } from "@/lib/tools/rolling";
 import { NumberField, csvFileName, downloadText, field, labelCls, toCsv, useStoredState } from "./shared";
@@ -43,7 +44,7 @@ const statusMeta: Record<RollingRow["status"], { label: string; cls: string }> =
   over: { label: "Over limit", cls: "bg-red-50 text-red-700" },
 };
 
-/** Rolling 12-month (or any N-month) limit tracker. Data stays in this browser. */
+/** Rolling 12-month (or any N-month) limit tracker. */
 export function RollingTracker() {
   const uid = useId();
   const [s, setS] = useStoredState<TrackerState>("aph.tools.rolling.v1", blank());
@@ -130,7 +131,7 @@ export function RollingTracker() {
           </div>
         </div>
         {s.demo && <p className="mt-3"><Badge tone="amber">Demo data: illustrative numbers, not a real facility</Badge></p>}
-        <p className="mt-3 text-xs text-muted">Your permit condition defines the limit, the window, and whether it is a sum or an average. Enter them exactly as written. Data stays in this browser.</p>
+        <p className="mt-3 text-xs text-muted">Your permit condition defines the limit, the window, and whether it is a sum or an average. Enter them exactly as written. Your data is {keptIn}.</p>
       </section>
 
       <section className="rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6" aria-labelledby={`${uid}-data`}>
