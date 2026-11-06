@@ -16,6 +16,7 @@ export default function AboutPage() {
         <li>We do not invent thresholds, emission factors, deadlines, or agency interpretations. Where we cannot verify something, we say so.</li>
         <li>A script checks every quote, threshold, citation, and link against its government source each month. <Link href="/verification" className="font-semibold text-brand-600 hover:underline">See how, and what the last check found</Link>.</li>
         <li>Demo and placeholder content is always labeled.</li>
+        <li>Errors are fixed in public. <Link href="/editorial-policy" className="font-semibold text-brand-600 hover:underline">Read our editorial and corrections policy</Link>.</li>
       </ul>
       <h2>Who it&apos;s for</h2>
       <p>Environmental engineers, EHS professionals, air quality consultants, facility operators, compliance managers, and students.</p>
