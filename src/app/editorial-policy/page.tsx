@@ -40,7 +40,7 @@ export default function Page() {
 
       <h2 id="report">5. Reporting an error</h2>
       {contactEmail ? (
-        <p>Use the &quot;Report an error on this page&quot; link at the bottom of any regulatory or tool page, or email <a href={`mailto:${contactEmail}`} className={link}>{contactEmail}</a>. Include the page and, if you can, a link to the official source that shows the correct information.</p>
+        <p>Use the &quot;Report an error on this page&quot; link at the bottom of any regulatory or tool page, the <Link href="/contact" className={link}>contact form</Link>, or email <a href={`mailto:${contactEmail}`} className={link}>{contactEmail}</a>. Include the page and, if you can, a link to the official source that shows the correct information.</p>
       ) : (
         <p>A public inbox for error reports is being set up. When it is live, every regulatory and tool page will carry a &quot;Report an error on this page&quot; link. Until then, the monthly source check is how errors are caught.</p>
       )}

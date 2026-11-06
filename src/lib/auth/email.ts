@@ -9,7 +9,7 @@ import { emailFrom } from "./config";
 
 export interface Email { subject: string; text: string; html: string }
 
-const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
+export const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 /**
  * Where links in emails point. Never taken from the request's Host header,
@@ -124,12 +124,12 @@ export function twoStepChangedEmail(on: boolean, at: Date): Email {
  * Sends through Resend's HTTP API. RESEND_API_URL points local end-to-end tests at a stand-in server.
  * Accounts made with a phone number have no address, so for them nothing is sent.
  */
-export async function sendEmail(to: string | null, { subject, text, html }: Email) {
+export async function sendEmail(to: string | null, { subject, text, html }: Email, { replyTo }: { replyTo?: string } = {}) {
   if (!to) return;
   const res = await fetch(`${process.env.RESEND_API_URL || "https://api.resend.com"}/emails`, {
     method: "POST",
     headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY ?? ""}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ from: emailFrom, to, subject, text, html }),
+    body: JSON.stringify({ from: emailFrom, to, subject, text, html, ...(replyTo ? { reply_to: replyTo } : {}) }),
   });
   if (!res.ok) throw new Error(`Resend refused the email (${res.status}): ${await res.text()}`);
 }

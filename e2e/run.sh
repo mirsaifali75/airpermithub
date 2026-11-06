@@ -1,5 +1,5 @@
 #!/bin/sh
-# Break-in attempts, floods and junk input, sign-in (email and phone), and
+# Break-in attempts, floods and junk input, sign-in (email and phone), the contact form, and
 # saved-work sync, run against a production build of the site with stand-ins
 # for the email service and Twilio Verify.
 #
@@ -33,7 +33,7 @@ until curl -s -o /dev/null http://localhost:3124/; do
 done
 
 failed=""
-for s in ${E2E_SCRIPTS:-security stress accounts phone sync}; do
+for s in ${E2E_SCRIPTS:-security stress accounts phone contact sync}; do
   echo "── $s"
   node e2e/clear-limits.cjs || exit 1
   node "e2e/$s.cjs" || failed="$failed $s"

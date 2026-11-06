@@ -14,11 +14,10 @@ export const site = {
 } as const;
 
 /**
- * Public inbox for questions and error reports. Leave null until mail to the
- * address is confirmed to arrive; while null, "Report an error" links stay
- * hidden so nobody sends a report that bounces.
+ * Public inbox for questions and error reports (a Hostinger mailbox; the
+ * domain's MX records point there). The contact form sends to it too.
  */
-export const contactEmail: string | null = null;
+export const contactEmail: string | null = "contact@airpermithub.com";
 
 /** Date the current Terms of Use and Privacy Policy drafts were written. */
 export const policyDate = "2026-11-06";
