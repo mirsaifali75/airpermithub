@@ -59,7 +59,8 @@ export function CalculatorGrid({ methods, categories }: { methods: CalcCard[]; c
         </label>
       </div>
 
-      <ul className="mt-5 grid grid-cols-[minmax(0,1fr)] gap-4 sm:grid-cols-2 xl:grid-cols-3" role="tabpanel">
+      <div role="tabpanel">
+      <ul className="mt-5 grid grid-cols-[minmax(0,1fr)] gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {list.map((m) => {
           const Icon = icons[m.icon];
           return (
@@ -71,7 +72,7 @@ export function CalculatorGrid({ methods, categories }: { methods: CalcCard[]; c
                 <span className="flex min-w-0 flex-1 flex-col">
                   <span className="font-bold text-navy-900">{m.title}</span>
                   <span className="mt-1 text-sm text-muted">{m.short}</span>
-                  <code className="mt-3 block truncate rounded-lg bg-canvas px-2.5 py-1.5 text-[0.7rem] text-navy-800">{m.formula}</code>
+                  <code className="mt-3 block rounded-lg bg-canvas px-2.5 py-1.5 text-[0.7rem] leading-relaxed break-words whitespace-normal text-navy-800">{m.formula}</code>
                   <span className="mt-3 flex flex-wrap gap-1">
                     {m.categories.filter((c) => c !== "Popular").map((c) => <span key={c} className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[0.65rem] font-semibold text-slate-600">{c}</span>)}
                   </span>
@@ -83,6 +84,7 @@ export function CalculatorGrid({ methods, categories }: { methods: CalcCard[]; c
         })}
         {list.length === 0 && <li className="col-span-full rounded-2xl border border-dashed border-line p-10 text-center text-sm text-muted">No calculators match. Try another category.</li>}
       </ul>
+      </div>
     </div>
   );
 }

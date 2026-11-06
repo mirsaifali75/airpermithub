@@ -45,7 +45,7 @@ export default function VerificationPage() {
           <section aria-labelledby="last-h">
             <h2 id="last-h" className="text-xl font-bold text-ink">Last check: {status.checkedOn}</h2>
             <p className="mt-1 text-sm text-muted">Federal rule text compared with eCFR current through {status.ecfrDate}. &ldquo;Could not read&rdquo; means the agency site refused the request or needs a browser to show its text; those items are checked by hand where we can.</p>
-            <div className="mt-4 overflow-x-auto rounded-2xl border border-line bg-white shadow-card">
+            <div className="mt-4 overflow-x-auto rounded-2xl border border-line bg-white shadow-card" tabIndex={0} role="region" aria-label="Scrollable table">
               <table className="w-full min-w-[34rem] text-left text-sm">
                 <thead className="border-b border-line text-xs text-muted uppercase">
                   <tr><th className="px-4 py-3 font-semibold">What we check</th><th className="px-4 py-3 font-semibold">Confirmed</th><th className="px-4 py-3 font-semibold">Under review</th><th className="px-4 py-3 font-semibold">Could not read</th></tr>
@@ -90,7 +90,7 @@ export default function VerificationPage() {
           <section aria-labelledby="states-h">
             <h2 id="states-h" className="text-xl font-bold text-ink">By state</h2>
             <p className="mt-1 text-sm text-muted">Confirmed out of all items on each state page. Each quote and threshold on a state page also shows its own result.</p>
-            <div className="mt-4 overflow-x-auto rounded-2xl border border-line bg-white shadow-card">
+            <div className="mt-4 overflow-x-auto rounded-2xl border border-line bg-white shadow-card" tabIndex={0} role="region" aria-label="Scrollable table">
               <table className="w-full min-w-[36rem] text-left text-sm">
                 <thead className="border-b border-line text-xs text-muted uppercase">
                   <tr><th className="px-4 py-3 font-semibold">State</th><th className="px-4 py-3 font-semibold">Quotes</th><th className="px-4 py-3 font-semibold">Thresholds</th><th className="px-4 py-3 font-semibold">Links</th></tr>

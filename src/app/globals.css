@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
 /*
- * AirPermitHub design tokens (2026-10 palette).
+ * AirPermitHub design tokens. 2026-11-05: Option E (classic) retunes the
+ * brand blues to muted navy-blues and the cyan accents to antique gold, so
+ * every tool page follows the classic look without per-page edits.
+ * (Original 2026-10 palette notes follow.)
  * Deep navy and navy carry navigation and brand, blue carries interaction,
  * cyan accents data, green is reserved for verified / compliant / success,
  * amber for warnings, red for errors.
@@ -11,23 +14,26 @@
  * brand-600 / brand-700, which pass WCAG AA.
  */
 @theme {
-  --color-navy-950: #071a2b;
-  --color-navy-900: #0b2942;
-  --color-navy-800: #113657;
+  --color-navy-950: #0a1e33;
+  --color-navy-900: #0f2a47;
+  --color-navy-800: #163a5f;
   --color-navy-700: #18466f;
   --color-navy-600: #215a8c;
 
-  --color-brand-50: #ebf4ff;
-  --color-brand-100: #d6e8ff;
-  --color-brand-200: #add1ff;
-  --color-brand-500: #147dff;
-  --color-brand-600: #0066db;
-  --color-brand-700: #0052b0;
-  --color-electric: #0077ff;
+  --color-brand-50: #eef2f7;
+  --color-brand-100: #dde5ef;
+  --color-brand-200: #c3d0e0;
+  --color-brand-300: #9fb2c9;
+  --color-brand-500: #2c5282;
+  --color-brand-600: #1f4470;
+  --color-brand-700: #163a5f;
+  --color-electric: #1f4470;
 
-  --color-cyan-300: #66d4ff;
-  --color-cyan-400: #33c6ff;
-  --color-cyan-500: #00b8ff;
+  --color-cyan-200: #f1e9d5;
+  --color-cyan-300: #e9dfc6;
+  --color-cyan-400: #d9cba8;
+  --color-cyan-500: #a8875a;
+  --color-cyan-700: #7a5c2e;
 
   --color-eco-50: #eaf7ef;
   --color-eco-100: #cdeeda;
@@ -53,13 +59,27 @@
 
   --color-slate-500: #5e6d82;
 
-  --color-canvas: #f5f8fc;
+  --color-canvas: #fbf9f4;
+  --color-parchment: #f3eee3;
+  --color-gold-200: #e9dfc6;
+  --color-gold-300: #d9cba8;
+  --color-gold-500: #a8875a;
+  --color-gold-700: #7a5c2e;
+  --color-rule: #d8cfbc;
   --color-ink: #0f172a;
   --color-muted: #5e6d82;
-  --color-line: #e2e8f0;
+  --color-line: #e6dfd1;
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-classic), Georgia, "Times New Roman", serif;
+  --font-serif: var(--font-serif-text), Georgia, "Times New Roman", serif;
+
+  /* Classic look: tighter corners than the default rounded-2xl cards. */
+  --radius-md: 0.1875rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.25rem;
+  --radius-2xl: 0.375rem;
+  --radius-3xl: 0.5rem;
   --font-mono: ui-monospace, "SFMono-Regular", Menlo, monospace;
 
   --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 4px 16px rgb(15 23 42 / 0.06);
@@ -87,12 +107,26 @@
   fieldset {
     min-width: 0;
   }
-  h1, h2, h3, h4 {
+  /* Option E: Cormorant Garamond for page and section titles, a sturdier
+     text serif for the small headings inside cards and tools. */
+  /* Cormorant's default old-style figures sit low ("0" looks like "o"); use lining figures. */
+  h1, h2, h3, h4, .font-display, .font-serif {
+    font-variant-numeric: lining-nums;
+  }
+  h1, h2 {
     font-family: var(--font-display);
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+  h3, h4 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+  html {
+    scroll-padding-top: 5rem;
   }
   :focus-visible {
-    outline: 2px solid var(--color-cyan-500);
+    outline: 2px solid var(--color-brand-500);
     outline-offset: 2px;
     border-radius: 6px;
   }
@@ -106,22 +140,18 @@
   }
 }
 
+/* Classic look: a solid brand color in place of the old gradient text. */
 @utility text-gradient-brand {
-  background-image: linear-gradient(90deg, #147dff 0%, #00b8ff 50%, #1fa463 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--color-gold-200);
 }
 
 @utility bg-gradient-brand {
-  background-image: linear-gradient(90deg, #0077ff 0%, #00b8ff 60%, #1fa463 100%);
+  background-image: linear-gradient(90deg, var(--color-navy-900) 0%, var(--color-gold-500) 100%);
 }
 
 @utility glass-dark {
-  background: rgb(11 41 66 / 0.55);
+  background: rgb(11 41 66 / 0.9);
   border: 1px solid rgb(255 255 255 / 0.12);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
 }
 
 @utility container-page {

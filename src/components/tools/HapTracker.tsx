@@ -53,7 +53,7 @@ export function HapTracker() {
           <div><label htmlFor={`${uid}-m`} className={labelCls}>Design margin (%), your choice</label><NumberField id={`${uid}-m`} value={s.marginPct} onChange={(v) => set({ marginPct: v })} /></div>
           <label className="flex items-center gap-2 self-end pb-2 text-sm text-slate-700"><input type="checkbox" checked={s.oilGas} onChange={(e) => set({ oilGas: e.target.checked })} /> Oil and gas production facility</label>
         </div>
-        <div className="relative mt-4 overflow-x-auto rounded-xl border border-line">
+        <div className="relative mt-4 overflow-x-auto rounded-xl border border-line" tabIndex={0} role="region" aria-label="Scrollable table">
           <table className="w-full min-w-[60rem] text-sm">
             <caption className="sr-only">HAP emission units</caption>
             <thead className="bg-canvas text-left text-xs text-muted">

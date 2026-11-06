@@ -62,7 +62,7 @@ export function DashboardHome() {
             const body = (
               <>
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-50 text-brand-600"><Icon className="h-5 w-5" aria-hidden="true" /></span>
-                <span className="mt-3 block font-display text-3xl font-extrabold text-navy-900 tabular-nums">{d ? value : "–"}</span>
+                <span className="mt-3 block font-serif text-3xl font-bold text-navy-900 tabular-nums">{d ? value : "–"}</span>
                 <span className="block text-sm text-muted">{label}</span>
                 {note && <span className="mt-1 block text-[0.7rem] text-muted">{note}</span>}
               </>
@@ -104,7 +104,7 @@ export function DashboardHome() {
                   <li key={t.id} className="flex items-center gap-3 py-2.5">
                     <span className="flex w-11 shrink-0 flex-col items-center rounded-lg bg-brand-50 py-1 text-brand-700">
                       <span className="text-[0.6rem] font-bold uppercase">{dt.toLocaleDateString(undefined, { month: "short" })}</span>
-                      <span className="font-display text-base leading-none font-extrabold">{dt.getDate()}</span>
+                      <span className="font-serif text-base leading-none font-bold">{dt.getDate()}</span>
                     </span>
                     <span className="min-w-0"><span className="block truncate text-sm font-semibold text-ink">{t.title}</span><span className="text-xs text-muted">{t.facility} · {t.category}</span></span>
                   </li>

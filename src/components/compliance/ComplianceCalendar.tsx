@@ -24,16 +24,16 @@ const startOfWeek = (d: Date) => addDays(d, -d.getDay());
 
 const bar: Record<Category, string> = {
   // Dark enough for white text (WCAG AA).
-  Testing: "bg-violet-600",
-  Inspection: "bg-teal-700",
+  Testing: "bg-[#5b3f6e]",
+  Inspection: "bg-[#2f5d5a]",
   Reporting: "bg-brand-600",
   Certification: "bg-eco-600",
-  "Permit Renewal": "bg-orange-700",
+  "Permit Renewal": "bg-[#9a4a1f]",
   Monitoring: "bg-cyan-700",
   Recordkeeping: "bg-slate-600",
-  LDAR: "bg-rose-700",
+  LDAR: "bg-[#7a2a35]",
   "Emission Inventory": "bg-amber-800",
-  "Deviation Reporting": "bg-red-600",
+  "Deviation Reporting": "bg-red-700",
 };
 
 const remindOptions = [0, 1, 3, 7, 14, 30];
@@ -176,7 +176,7 @@ export function ComplianceCalendar() {
   );
 
   const taskRow = (t: CalTask, showDate: boolean) => (
-    <li key={t.key} className={cn("flex items-start gap-3 py-3", t.demo && "opacity-75")}>
+    <li key={t.key} className={cn("flex items-start gap-3 py-3")}>
       <span className={cn("mt-1 h-10 w-1.5 shrink-0 rounded-full", bar[t.category])} aria-hidden="true" />
       <div className="min-w-0 flex-1">
         <p className={cn("text-sm font-semibold text-ink", t.status === "completed" && "text-muted line-through")}>{t.title}</p>
@@ -192,7 +192,7 @@ export function ComplianceCalendar() {
   );
 
   const field = "h-10 w-full rounded-lg border border-line bg-white px-3 text-sm focus:border-brand-500 focus:outline-none";
-  const chip = (t: CalTask) => cn("block truncate rounded px-1 py-0.5 font-semibold text-white", bar[t.category], t.demo && "opacity-60", t.status === "completed" && "line-through opacity-50");
+  const chip = (t: CalTask) => cn("block truncate rounded px-1 py-0.5 font-semibold text-white", bar[t.category], t.demo && "italic", t.status === "completed" && "line-through");
 
   return (
     <div className="space-y-6">
@@ -206,7 +206,7 @@ export function ComplianceCalendar() {
         ].map(({ label, value, icon: Icon, tone }) => (
           <li key={label} className="rounded-2xl border border-line bg-white p-4 shadow-card">
             <Icon className={`h-5 w-5 ${tone}`} aria-hidden="true" />
-            <p className="mt-3 font-display text-3xl font-extrabold text-ink tabular-nums">{value}</p>
+            <p className="mt-3 font-serif text-3xl font-bold text-ink tabular-nums">{value}</p>
             <p className="text-xs font-medium text-muted">{label}</p>
           </li>
         ))}
@@ -326,7 +326,7 @@ export function ComplianceCalendar() {
                 <span className="text-sm text-muted">{listed.length} task{listed.length === 1 ? "" : "s"} from a year ago to two years ahead</span>
               </div>
               <ul className="divide-y divide-line sm:hidden">{listed.map((t) => taskRow(t, true))}</ul>
-              <div className="hidden overflow-x-auto rounded-xl border border-line sm:block">
+              <div className="hidden overflow-x-auto rounded-xl border border-line sm:block" tabIndex={0} role="region" aria-label="Scrollable table">
                 <table className="w-full text-sm">
                   <caption className="sr-only">Compliance tasks</caption>
                   <thead className="bg-canvas text-left text-xs text-muted uppercase">
@@ -334,7 +334,7 @@ export function ComplianceCalendar() {
                   </thead>
                   <tbody className="divide-y divide-line">
                     {listed.map((t) => (
-                      <tr key={t.key} className={cn(t.demo && "opacity-75")}>
+                      <tr key={t.key}>
                         <td className="px-4 py-2.5 whitespace-nowrap tabular-nums">{t.due.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}</td>
                         <td className="px-4 py-2.5">
                           <span className={cn("font-medium text-ink", t.status === "completed" && "text-muted line-through")}>{t.title}</span> {t.demo && <DemoBadge>Example (demo)</DemoBadge>}
@@ -414,10 +414,10 @@ export function ComplianceCalendar() {
             <ul className="mt-3 divide-y divide-line">
               {upcoming.length === 0 && mine.length > 0 && <li className="py-6 text-center text-sm text-muted">Nothing open. Every task is marked done.</li>}
               {upcoming.map((t) => (
-                <li key={t.key} className={cn("flex items-start gap-3 py-3", t.demo && "opacity-75")}>
+                <li key={t.key} className={cn("flex items-start gap-3 py-3")}>
                   <span className={cn("flex w-11 shrink-0 flex-col items-center rounded-lg py-1 text-white", bar[t.category])}>
                     <span className="text-[0.6rem] font-bold uppercase">{t.due.toLocaleDateString(undefined, { month: "short" })}</span>
-                    <span className="font-display text-lg leading-none font-extrabold">{t.due.getDate()}</span>
+                    <span className="font-serif text-lg leading-none font-bold">{t.due.getDate()}</span>
                   </span>
                   <div className="min-w-0 flex-1">
                     <p className="text-sm font-semibold text-ink">{t.title}</p>

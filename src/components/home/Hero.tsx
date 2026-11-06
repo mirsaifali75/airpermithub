@@ -1,8 +1,9 @@
 import { BookOpenCheck, Calculator, Link2, MapPinned, Search } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/brand/airpermithub-logo.png";
-import { IndustrialScene } from "@/components/illustrations/IndustrialScene";
+import heroPhoto from "../../../public/images/industries/oil-and-gas.jpg";
+import { buttonClass } from "@/components/ui/Button";
+import { cn } from "@/lib/cn";
 
 const features = [
   { icon: Link2, title: "Official Source Links", sub: "EPA, eCFR, and state agencies", href: "/regulations" },
@@ -34,64 +35,61 @@ const popular = [
 
 export function Hero({ stateCount }: { stateCount: number }) {
   return (
-    <section className="relative isolate overflow-hidden bg-navy-950 text-white">
-      <IndustrialScene className="absolute inset-0 -z-10 h-full w-full" />
-      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950/85 via-navy-950/35 to-transparent" />
-      <div className="container-page pt-40 pb-24 sm:pt-44 sm:pb-28 lg:pt-52 lg:pb-32">
-        <div className="flex flex-col gap-8 xl:flex-row-reverse xl:items-center xl:justify-between">
-        {/* The official logo at a size where the wordmark and tagline can be read. */}
-        <div className="w-full max-w-md shrink-0 animate-fade-up rounded-3xl bg-white p-3 shadow-lift ring-1 ring-black/5 sm:p-4 xl:w-[27.5rem] xl:max-w-none 2xl:w-[31rem]">
-          <Image src={logo} alt="AirPermitHub: Nationwide Air Permitting Excellence" priority sizes="(min-width: 1536px) 496px, (min-width: 1280px) 440px, 448px" className="h-auto w-full" />
-        </div>
-        <div className="max-w-2xl animate-fade-up">
-          <p className="text-xs font-bold tracking-[0.28em] text-cyan-400 sm:text-sm">FROM REGULATIONS TO OPERATIONS</p>
-          <h1 className="mt-4 text-[2.75rem] leading-[1.02] font-extrabold sm:text-6xl lg:text-7xl">
-            Air Permitting
-            <br />
-            <span className="text-gradient-brand">Made Simple.</span>
-          </h1>
-          <p className="mt-5 max-w-xl text-lg text-white/80 sm:text-xl">
-            Tools, guidance and resources for environmental professionals to navigate air permitting and compliance with confidence.
-          </p>
-        </div>
+    <section className="bg-canvas pt-6 sm:pt-9">
+      <div className="container-page">
+        {/* Option E: the photo sits in a frame with a thin ivory rule inside it; the full logo is in the masthead above. */}
+        <div className="relative isolate overflow-hidden bg-navy-950 text-white">
+          <Image src={heroPhoto} alt="" priority sizes="(min-width: 1280px) 1216px, 100vw" className="absolute inset-0 -z-10 h-full w-full object-cover" />
+          <div aria-hidden="true" className="absolute inset-0 -z-10 bg-navy-950/55" />
+          <div aria-hidden="true" className="pointer-events-none absolute inset-3 border border-gold-200/60 sm:inset-[22px]" />
+          <div className="relative mx-auto max-w-4xl px-6 pt-16 pb-20 text-center sm:px-10 sm:pt-24 sm:pb-28 lg:pt-28 lg:pb-32">
+            <p className="animate-fade-up text-[0.7rem] font-semibold tracking-[0.3em] text-gold-200 uppercase sm:text-[0.8rem]">Nationwide Air Permitting Excellence</p>
+            <h1 className="mt-5 animate-fade-up text-[2.6rem] leading-[1.04] font-semibold sm:text-6xl lg:text-[4.6rem]">Air Permitting. Compliance. Simplified.</h1>
+            <p className="mx-auto mt-5 max-w-2xl animate-fade-up text-base leading-relaxed text-white/90 sm:text-lg">
+              Tools, guidance and resources for environmental professionals to navigate air permitting and compliance with confidence.
+            </p>
+            <div className="mt-8 flex animate-fade-up flex-col justify-center gap-3 sm:flex-row">
+              <Link href="/sign-up" className={cn(buttonClass("subtle", "lg"), "border-white")}>Create a free account</Link>
+              <Link href="/calculators" className={buttonClass("outline-light", "lg")}>Preview the tools</Link>
+              <Link href="/sign-in" className={buttonClass("outline-light", "lg")}>Sign in</Link>
+            </div>
+          </div>
         </div>
 
-        <form action="/search" role="search" className="mt-8 flex animate-fade-up [animation-delay:120ms] max-w-4xl flex-col gap-2 rounded-2xl bg-white p-2 shadow-lift sm:flex-row sm:items-center">
+        <form action="/search" role="search" className="relative z-10 mx-auto -mt-8 flex max-w-3xl animate-fade-up flex-col gap-2 border border-rule bg-white p-2 shadow-[0_12px_30px_rgb(10_30_51/0.12)] [animation-delay:120ms] sm:-mt-9 sm:flex-row sm:items-center sm:gap-0 sm:p-0">
           <label htmlFor="hero-q" className="sr-only">Search AirPermitHub</label>
-          <div className="flex min-w-0 flex-1 items-center gap-3 px-3">
-            <Search className="h-5 w-5 shrink-0 text-muted" aria-hidden="true" />
-            <input id="hero-q" name="q" type="search" required placeholder="Search regulations, permits, equipment, or keywords..." className="h-12 min-w-0 flex-1 bg-transparent text-ink outline-none placeholder:text-slate-400" />
+          <div className="flex min-w-0 flex-1 items-center gap-3 px-3 sm:px-5">
+            <Search className="h-5 w-5 shrink-0 text-gold-700" aria-hidden="true" />
+            <input id="hero-q" name="q" type="search" required placeholder="Search regulations, permits, equipment or keywords" className="h-12 min-w-0 flex-1 bg-transparent text-ink outline-none placeholder:text-slate-500 sm:h-16" />
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 sm:gap-0">
             <label htmlFor="hero-type" className="sr-only">Search in</label>
-            <select id="hero-type" name="type" defaultValue="" className="h-12 min-w-0 flex-1 rounded-xl border border-line bg-white px-3 text-sm font-medium text-ink sm:w-40 sm:flex-none">
+            <select id="hero-type" name="type" defaultValue="" className="h-12 min-w-0 flex-1 border border-rule bg-white px-3 text-sm font-medium text-ink sm:h-16 sm:w-40 sm:flex-none sm:border-y-0 sm:border-r-0">
               {scopes.map((s) => <option key={s.label} value={s.value}>{s.label}</option>)}
             </select>
-            <button type="submit" className="h-12 shrink-0 rounded-xl bg-brand-600 px-6 font-semibold text-white hover:bg-brand-700">Search</button>
+            <button type="submit" className="h-12 shrink-0 bg-navy-900 px-7 font-semibold tracking-[0.04em] text-white hover:bg-navy-800 sm:h-16 sm:px-8">Search</button>
           </div>
         </form>
-        <div className="mt-4 flex max-w-4xl animate-fade-up flex-wrap items-center gap-2 text-sm [animation-delay:220ms]">
-          <span className="font-semibold text-white/80">Popular:</span>
+        <div className="mx-auto mt-5 flex max-w-4xl animate-fade-up flex-wrap items-center justify-center gap-2 text-sm [animation-delay:220ms]">
+          <span className="font-semibold tracking-[0.1em] text-gold-700 uppercase">Popular:</span>
           {popular.map((p) => (
-            <Link key={p.label} href={p.href} className="rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/90 transition-colors hover:border-cyan-400/60 hover:bg-white/15">
+            <Link key={p.label} href={p.href} className="border border-rule bg-white px-3 py-1 text-navy-900 transition-colors hover:border-gold-500 hover:text-gold-700">
               {p.label}
             </Link>
           ))}
         </div>
-        <p className="mt-4 animate-fade-up text-sm text-white/60 [animation-delay:300ms]">
+        <p className="mt-4 animate-fade-up text-center text-sm text-muted [animation-delay:300ms]">
           {stateCount >= 51 ? "All 50 states + DC" : `${stateCount} state hubs`} · Federal programs · Official sources linked on every record
         </p>
 
-        <ul className="glass-dark mt-10 grid animate-fade-up [animation-delay:380ms] grid-cols-1 overflow-hidden rounded-2xl sm:grid-cols-2 lg:mt-12 lg:grid-cols-4">
+        <ul className="mt-10 grid animate-fade-up grid-cols-1 border-y border-rule [animation-delay:380ms] sm:grid-cols-2 lg:grid-cols-4">
           {features.map(({ icon: Icon, title, sub, href }) => (
-            <li key={title} className="border-white/10 max-sm:[&:not(:first-child)]:border-t sm:max-lg:[&:nth-child(odd)]:border-r sm:max-lg:[&:nth-child(n+3)]:border-t lg:[&:not(:last-child)]:border-r">
-              <Link href={href} className="flex items-center gap-3 px-4 py-4 transition-colors hover:bg-white/5 sm:px-5">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-cyan-400/30 bg-brand-500/15 text-cyan-400">
-                  <Icon className="h-5 w-5" aria-hidden="true" />
-                </span>
-                <span className="text-sm leading-tight font-semibold">
+            <li key={title} className="border-rule max-sm:[&:not(:first-child)]:border-t sm:max-lg:[&:nth-child(odd)]:border-r sm:max-lg:[&:nth-child(n+3)]:border-t lg:[&:not(:last-child)]:border-r">
+              <Link href={href} className="flex items-center gap-3 px-4 py-5 transition-colors hover:bg-white sm:px-5">
+                <Icon className="h-6 w-6 shrink-0 text-gold-700" aria-hidden="true" />
+                <span className="text-sm leading-tight font-semibold text-navy-900">
                   {title}
-                  <span className="block font-normal text-white/65">{sub}</span>
+                  <span className="block font-normal text-muted">{sub}</span>
                 </span>
               </Link>
             </li>

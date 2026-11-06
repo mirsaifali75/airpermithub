@@ -1,7 +1,7 @@
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { Cormorant_Garamond, Inter, Source_Serif_4 } from "next/font/google";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { PrintStamp } from "@/components/layout/PrintStamp";
@@ -10,7 +10,8 @@ import { site } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
-const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-jakarta", display: "swap", weight: ["600", "700", "800"] });
+const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-serif-text", display: "swap" });
+const classic = Cormorant_Garamond({ subsets: ["latin"], weight: ["500", "600", "700"], style: ["normal", "italic"], variable: "--font-classic", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-export const viewport: Viewport = { themeColor: "#0B2942", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#0F2A47", width: "device-width", initialScale: 1 };
 
 const orgJsonLd = {
   "@context": "https://schema.org",
@@ -39,7 +40,7 @@ const orgJsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
+    <html lang="en" className={`${inter.variable} ${serif.variable} ${classic.variable}`}>
       <body className="min-h-screen pb-16 lg:pb-0">
         <Header />
         <PrintStamp />
