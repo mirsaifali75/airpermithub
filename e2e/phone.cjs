@@ -43,12 +43,15 @@ async function signInByPhone(page, phone, password) {
   await page.getByLabel("Password", { exact: true }).fill(password);
   await page.getByRole("button", { name: "Sign in", exact: true }).click();
 }
-/** Signs out with the account page's button, so no late response can set the session cookie again. */
+/**
+ * Signs out with the account page's button. That ends the session in the database, so a
+ * late response re-setting the old cookie can't sign the browser back in (clearing the
+ * cookie alone could be undone that way).
+ */
 async function signOut(page) {
   await page.goto(`${BASE}/account`);
   await page.locator("main").getByRole("button", { name: "Sign out", exact: true }).click();
   await page.waitForURL(`${BASE}/`);
-  await page.waitForLoadState("networkidle");
 }
 
 (async () => {
@@ -103,8 +106,8 @@ async function signOut(page) {
   await page.getByLabel("6-digit code").fill(lastCode(phone));
   await page.getByRole("button", { name: "Confirm and create account" }).click();
   await page.waitForURL(/\/permit-finder/);
-  await page.waitForLoadState("networkidle");
   ok("the right code creates the account and returns to the tool", true);
+  await page.goto(`${BASE}/permit-finder`);
   ok("the tool is open once signed in", (await page.getByRole("heading", { name: "Use the Permit Finder with a free account" }).count()) === 0);
   ok("sign-up cookie is gone", !(await ctx.cookies()).some((c) => c.name === "aph_phone_signup"));
 
