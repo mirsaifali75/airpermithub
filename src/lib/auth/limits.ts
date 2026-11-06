@@ -25,6 +25,10 @@ export const rules = {
   smsDaily: { action: "sms", limit: Number(process.env.SMS_DAILY_LIMIT) || 300, minutes: 1440 },
   /** Wrong texted codes for one number, on top of Twilio's 5 checks per code. */
   phoneCode: { action: "phone-code", limit: 10, minutes: 60, failuresOnly: true },
+  /** The contact form: a sender, a network, and the whole site each have a cap, so nobody can flood the inbox. */
+  contactSender: { action: "contact", limit: 3, minutes: 60 },
+  contactNetwork: { action: "contact", limit: 5, minutes: 60 },
+  contactDaily: { action: "contact", limit: Number(process.env.CONTACT_DAILY_LIMIT) || 100, minutes: 1440 },
 } satisfies Record<string, Rule>;
 
 /** Keys are keyed hashes, so the table never holds an email or IP address in the clear. */
