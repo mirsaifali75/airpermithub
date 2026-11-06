@@ -13,6 +13,12 @@ export const site = {
     "This tool provides preliminary regulatory screening and does not constitute legal or regulatory advice. Verify requirements with the applicable regulatory agency or qualified professional.",
 } as const;
 
+/**
+ * Public inbox for questions and error reports (a Hostinger mailbox; the
+ * domain's MX records point there). The contact form sends to it too.
+ */
+export const contactEmail: string | null = "contact@airpermithub.com";
+
 export type NavItem = { label: string; href: string; description?: string };
 
 export const primaryNav: NavItem[] = [
