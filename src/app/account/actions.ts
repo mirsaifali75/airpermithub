@@ -91,6 +91,15 @@ export async function signOutAction() {
   await signOut({ redirectTo: "/" });
 }
 
+/**
+ * Ends this session without redirecting. The header's Sign out calls it and then
+ * reloads the page, so the header, the tool gates and the saved-work sync all start
+ * fresh as signed out (the sync then clears the account's work from this browser).
+ */
+export async function signOutHere() {
+  await signOut({ redirect: false });
+}
+
 /** Ends every session, this one included. */
 export async function signOutEverywhere() {
   const s = await me();
