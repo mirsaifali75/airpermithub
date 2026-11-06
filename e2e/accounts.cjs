@@ -8,7 +8,9 @@ const BASE = process.env.E2E_BASE || "http://localhost:3124";
 const SHOTS = process.env.E2E_SHOTS || "e2e/.out/shots";
 fs.mkdirSync(SHOTS, { recursive: true });
 fs.mkdirSync(SHOTS, { recursive: true });
-const PW = "correct horse battery staple";
+// Fresh each run: the sign-up form refuses passwords found in known breaches (checked live against Have I Been Pwned).
+const RUN = require("crypto").randomBytes(6).toString("hex");
+const PW = `aph e2e ${RUN} first passphrase`;
 const results = [];
 const ok = (name, cond, extra = "") => { results.push(`${cond ? "PASS" : "FAIL"} ${name}${extra ? ` (${extra})` : ""}`); if (!cond) console.log("FAIL", name, extra); };
 
@@ -137,8 +139,8 @@ const alertText = async (page) => (await page.locator("form [role=alert]").allIn
   const reset = lastEmail(lee, /Reset your/);
   ok("reset email sent", !!reset);
   await p2.goto(linkIn(reset));
-  await p2.getByLabel("New password").fill("a whole new passphrase");
-  await p2.getByLabel("Type it again").fill("a whole new passphrase");
+  await p2.getByLabel("New password").fill(`aph e2e ${RUN} reset passphrase`);
+  await p2.getByLabel("Type it again").fill(`aph e2e ${RUN} reset passphrase`);
   await p2.getByRole("button", { name: "Set new password" }).click();
   await p2.waitForURL(/\/sign-in\?reset=1/);
   ok("reset leads to sign-in", true);
@@ -171,8 +173,8 @@ const alertText = async (page) => (await page.locator("form [role=alert]").allIn
   await page.getByRole("button", { name: /Save/ }).first().click();
   await page.waitForTimeout(800);
   await page.getByLabel("Current password").fill(PW);
-  await page.getByLabel("New password").fill("another fine passphrase");
-  await page.getByLabel("Type it again").fill("another fine passphrase");
+  await page.getByLabel("New password").fill(`aph e2e ${RUN} changed passphrase`);
+  await page.getByLabel("Type it again").fill(`aph e2e ${RUN} changed passphrase`);
   await page.getByRole("button", { name: "Change password" }).click();
   await page.waitForTimeout(1000);
   ok("password change notice", /Password changed/.test(await page.locator("body").innerText()));
@@ -206,7 +208,7 @@ const alertText = async (page) => (await page.locator("form [role=alert]").allIn
 
   // Sign in with password + backup code.
   const p4 = await (await browser.newContext()).newPage();
-  await signIn(p4, dana, "another fine passphrase", "/compliance");
+  await signIn(p4, dana, `aph e2e ${RUN} changed passphrase`, "/compliance");
   await p4.waitForURL(/\/sign-in\/two-step/);
   ok("password then code step", true);
   await p4.screenshot({ path: `${SHOTS}/sign-in-code.png` });
@@ -224,7 +226,7 @@ const alertText = async (page) => (await page.locator("form [role=alert]").allIn
   const wait = 30000 - (Date.now() % 30000) + 500;
   await new Promise((r) => setTimeout(r, wait));
   const p5 = await (await browser.newContext()).newPage();
-  await signIn(p5, dana, "another fine passphrase");
+  await signIn(p5, dana, `aph e2e ${RUN} changed passphrase`);
   await p5.waitForURL(/\/sign-in\/two-step/);
   const code = totp(key);
   await p5.locator('input[name="code"]').fill(code);
@@ -232,7 +234,7 @@ const alertText = async (page) => (await page.locator("form [role=alert]").allIn
   await p5.waitForURL(/\/dashboard/);
   ok("app code signs in", true);
   const p6 = await (await browser.newContext()).newPage();
-  await signIn(p6, dana, "another fine passphrase");
+  await signIn(p6, dana, `aph e2e ${RUN} changed passphrase`);
   await p6.waitForURL(/\/sign-in\/two-step/);
   await p6.locator('input[name="code"]').fill(code);
   await p6.getByRole("button", { name: "Verify and sign in" }).click();
@@ -249,11 +251,11 @@ const alertText = async (page) => (await page.locator("form [role=alert]").allIn
   await p7.getByRole("button", { name: "Email me a reset link" }).click();
   await p7.waitForURL(/sent=1/);
   await p7.goto(linkIn(lastEmail(admin, /Reset your/)));
-  await p7.getByLabel("New password").fill("staff review passphrase 26");
-  await p7.getByLabel("Type it again").fill("staff review passphrase 26");
+  await p7.getByLabel("New password").fill(`aph e2e ${RUN} staff passphrase`);
+  await p7.getByLabel("Type it again").fill(`aph e2e ${RUN} staff passphrase`);
   await p7.getByRole("button", { name: "Set new password" }).click();
   await p7.waitForURL(/reset=1/);
-  await signIn(p7, admin, "staff review passphrase 26", "/admin");
+  await signIn(p7, admin, `aph e2e ${RUN} staff passphrase`, "/admin");
   await p7.waitForURL(/\/admin|\/sign-in\/two-step/);
   if (p7.url().includes("/admin")) {
     ok("admin without two-step is asked to set it up", /two-step/i.test(await p7.locator("main").innerText()));
@@ -264,18 +266,18 @@ const alertText = async (page) => (await page.locator("form [role=alert]").allIn
   page.on("dialog", (d) => d.accept());
   await page.goto(`${BASE}/account`);
   await page.getByLabel("Type your email to confirm").fill("wrong@example.com");
-  await page.getByLabel("Your password").fill("another fine passphrase");
+  await page.getByLabel("Your password").fill(`aph e2e ${RUN} changed passphrase`);
   await page.getByRole("button", { name: "Delete account" }).click();
   await page.waitForTimeout(800);
   ok("delete refuses a mismatched email", /doesn.t match/.test(await page.locator("body").innerText()));
   await page.getByLabel("Type your email to confirm").fill(dana);
-  await page.getByLabel("Your password").fill("another fine passphrase");
+  await page.getByLabel("Your password").fill(`aph e2e ${RUN} changed passphrase`);
   await page.getByRole("button", { name: "Delete account" }).click();
   await page.waitForURL(/account=deleted/);
   ok("account deleted", true);
   await p5.goto(`${BASE}/dashboard`);
   ok("deleted account's other sessions end", p5.url().includes("/sign-in"));
-  await signIn(page, dana, "another fine passphrase");
+  await signIn(page, dana, `aph e2e ${RUN} changed passphrase`);
   await page.waitForTimeout(800);
   ok("deleted account can't sign in", page.url().includes("/sign-in"));
 

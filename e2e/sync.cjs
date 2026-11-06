@@ -4,7 +4,9 @@ const fs = require("fs");
 const EMAILS = process.env.EMAILS_FILE || "e2e/.out/emails.jsonl";
 
 const BASE = process.env.E2E_BASE || "http://localhost:3124";
-const PW = "correct horse battery staple";
+// Fresh each run: the sign-up form refuses passwords found in known breaches (checked live against Have I Been Pwned).
+const RUN = require("crypto").randomBytes(6).toString("hex");
+const PW = `aph e2e ${RUN} first passphrase`;
 const results = [];
 const ok = (name, cond, extra = "") => { results.push(`${cond ? "PASS" : "FAIL"} ${name}${extra ? ` (${extra})` : ""}`); };
 const emails = () => fs.readFileSync(EMAILS, "utf8").trim().split("\n").map((l) => JSON.parse(l).body);

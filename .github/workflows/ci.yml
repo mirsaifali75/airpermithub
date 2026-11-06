@@ -82,7 +82,10 @@ jobs:
           cache: npm
       - run: npm ci
       # A fresh session secret for each run, so none is ever written down.
-      - run: echo "AUTH_SECRET=$(openssl rand -hex 32)" >> "$GITHUB_ENV"
+      - run: |
+          secret=$(openssl rand -hex 32)
+          echo "::add-mask::$secret"
+          echo "AUTH_SECRET=$secret" >> "$GITHUB_ENV"
       - run: npx playwright install --with-deps chromium
       - run: npx prisma migrate deploy
       - run: npx tsx scripts/db-build.ts
@@ -93,4 +96,5 @@ jobs:
         with:
           name: e2e-output
           path: e2e/.out/
+          include-hidden-files: true
           retention-days: 7
