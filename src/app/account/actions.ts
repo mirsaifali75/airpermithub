@@ -8,8 +8,8 @@ import { appUrl, passwordChangedEmail, sendEmail, twoStepChangedEmail, verifyEma
 import {
   beginTwoStep, changePassword, confirmTwoStep, disableTwoStep, regenerateBackupCodes, reissueVerification,
 } from "@/lib/auth/flows";
-import { field, type FormState } from "@/lib/auth/forms";
-import { emailKey, overLimit, record, rules } from "@/lib/auth/limits";
+import { field, textField, type FormState } from "@/lib/auth/forms";
+import { claim, emailKey, release, rules } from "@/lib/auth/limits";
 import { verifyPassword } from "@/lib/auth/password";
 import { currentSessionToken } from "@/lib/auth/server";
 import { getSession } from "@/lib/auth/session";
@@ -33,8 +33,8 @@ export interface ProfileState { error?: string; saved?: boolean }
 /** Name, company, and account type: asked after a first Google sign-in and editable in settings. */
 export async function saveProfile(_: ProfileState, form: FormData): Promise<ProfileState> {
   const s = await me();
-  const name = field(form, "name").trim().slice(0, 120);
-  const company = field(form, "company").trim().slice(0, 120) || null;
+  const name = textField(form, "name").trim().slice(0, 120);
+  const company = textField(form, "company").trim().slice(0, 120) || null;
   const accountType = field(form, "accountType") as AccountType;
   if (!name) return { error: "Enter your name." };
   if (!accountTypes.some((t) => t.value === accountType)) return { error: "Choose an account type." };
@@ -46,11 +46,13 @@ export async function saveProfile(_: ProfileState, form: FormData): Promise<Prof
 
 export async function resendVerification(): Promise<FormState> {
   const s = await me();
-  const key = emailKey(s.user.email);
-  if (await overLimit(prisma, key, rules.emailSend)) return { error: "We've sent several links in the last hour. Use the newest one, or try again later." };
+  const tries = await claim(prisma, [[emailKey(s.user.email), rules.emailSend]]);
+  if (!tries) return { error: "We've sent several links in the last hour. Use the newest one, or try again later." };
   const issued = await reissueVerification(prisma, s.user.id);
-  if (!issued) return { notice: "Your email is already confirmed." };
-  await record(prisma, [key], "email", true);
+  if (!issued) {
+    await release(prisma, tries);
+    return { notice: "Your email is already confirmed." };
+  }
   try {
     await sendEmail(issued.email, verifyEmail(appUrl(`/verify-email?token=${encodeURIComponent(issued.token)}`)));
   } catch (e) {

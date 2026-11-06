@@ -8,7 +8,7 @@ import {
   createChallenge, disableTwoStep, finishReset, googleGate, peekAuthToken, pendingTwoStep, regenerateBackupCodes, registerAccount,
   reissueVerification, spendSecondFactor, startReset,
 } from "./flows";
-import { clearFailures, emailKey, overLimit, record, rules } from "./limits";
+import { claim, clearFailures, emailKey, networkKey, overLimit, record, release, rules, succeeded } from "./limits";
 import { verifyPassword } from "./password";
 import { stepAt, totpAt } from "./totp";
 import { loadSavedWork, storeSavedWork } from "../storage/account";
@@ -272,6 +272,46 @@ describe.skipIf(!throwaway)("accounts database", () => {
   });
 
   describe("attempt limits and devices", () => {
+    it("lets no more than the limit through when tries arrive all at once", async () => {
+      const key = emailKey(`burst${++n}@example.com`);
+      const net = networkKey(`198.51.100.${n}`);
+      const burst = await Promise.all(Array.from({ length: 30 }, () => claim(db, [[key, rules.signInEmail], [net, rules.signInNetwork]])));
+      // A burst may be refused outright (every try sees the others); it can never get more than the limit.
+      const through = burst.filter(Boolean);
+      expect(through.length).toBeLessThanOrEqual(rules.signInEmail.limit);
+      // Refused tries leave nothing behind; the ones let through stay counted as failures.
+      expect(await db.authAttempt.count({ where: { key } })).toBe(through.length);
+      // One at a time, the rest of the limit is still there, and no more.
+      let later = 0;
+      while (await claim(db, [[key, rules.signInEmail]])) later++;
+      expect(through.length + later).toBe(rules.signInEmail.limit);
+    });
+
+    it("stops counting a try that worked, and forgets one taken back", async () => {
+      const key = emailKey(`claim${++n}@example.com`);
+      for (let i = 0; i < rules.signInEmail.limit - 1; i++) expect(await claim(db, [[key, rules.signInEmail]])).not.toBeNull();
+      const last = await claim(db, [[key, rules.signInEmail]]);
+      expect(last).not.toBeNull();
+      await succeeded(db, last!);
+      expect(await claim(db, [[key, rules.signInEmail]])).not.toBeNull();
+      expect(await claim(db, [[key, rules.signInEmail]])).toBeNull();
+
+      const send = emailKey(`taken-back${n}@example.com`);
+      const sends = await Promise.all(Array.from({ length: 10 }, () => claim(db, [[send, rules.emailSend]])));
+      expect(sends.filter(Boolean).length).toBeLessThanOrEqual(rules.emailSend.limit);
+      for (const t of sends) if (t) await release(db, t);
+      expect(await db.authAttempt.count({ where: { key: send } })).toBe(0);
+    });
+
+    it("gives a two-step challenge no extra tries when codes arrive all at once", async () => {
+      const a = await twoStepAccount();
+      const token = await createChallenge(db, a.id, "/dashboard", a.now);
+      const answers = await Promise.all(Array.from({ length: 20 }, () => answerChallenge(db, token, "000000", a.now)));
+      const checked = answers.filter((r) => "error" in r && /didn't match|Too many wrong/.test(r.error));
+      expect(checked.length).toBe(CHALLENGE_ATTEMPTS);
+      expect((await db.twoFactorChallenge.findUniqueOrThrow({ where: { id: sha256(token) } })).attempts).toBe(CHALLENGE_ATTEMPTS);
+    });
+
     it("counts failures in the window and clears them after a sign-in", async () => {
       const key = emailKey(`Limit${++n}@Example.com`);
       for (let i = 0; i < rules.signInEmail.limit - 1; i++) await record(db, [key], "sign-in", false);

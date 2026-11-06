@@ -15,7 +15,7 @@ type Db = PrismaClient;
 type Breach = (password: string) => Promise<boolean | null>;
 
 export const normalizeEmail = (email: string) => email.trim().toLowerCase();
-export const validEmail = (email: string) => email.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+export const validEmail = (email: string) => email.length <= 254 && /^[^\s@\u0000-\u001f\u007f]+@[^\s@\u0000-\u001f\u007f]+\.[^\s@\u0000-\u001f\u007f]+$/.test(email);
 
 const TOTP_PURPOSE = "totp-secret";
 export const CHALLENGE_MINUTES = 10;
@@ -269,15 +269,18 @@ export type ChallengeResult = { userId: string; next: string; via: "app" | "back
 /** Answers a challenge with a code. Five wrong codes, ten minutes, or one success ends it. */
 export async function answerChallenge(db: Db, token: string, code: string, now = new Date()): Promise<ChallengeResult> {
   const id = sha256(token || "-");
-  const ch = await db.twoFactorChallenge.findUnique({ where: { id } });
-  if (!ch || ch.usedAt || ch.expiresAt <= now || ch.attempts >= CHALLENGE_ATTEMPTS) {
-    return { error: "This sign-in step has expired. Sign in again.", restart: true };
-  }
+  // The try is counted before the code is checked, in one conditional update, so
+  // codes fired all at once still get no more than CHALLENGE_ATTEMPTS tries.
+  const { count: claimed } = await db.twoFactorChallenge.updateMany({
+    where: { id, usedAt: null, expiresAt: { gt: now }, attempts: { lt: CHALLENGE_ATTEMPTS } },
+    data: { attempts: { increment: 1 } },
+  });
+  const ch = claimed === 1 ? await db.twoFactorChallenge.findUnique({ where: { id } }) : null;
+  if (!ch) return { error: "This sign-in step has expired. Sign in again.", restart: true };
   return db.$transaction(async (tx) => {
     const via = await spendSecondFactor(tx, ch.userId, code, now);
     if (!via) {
-      const updated = await tx.twoFactorChallenge.update({ where: { id }, data: { attempts: { increment: 1 } } });
-      const left = CHALLENGE_ATTEMPTS - updated.attempts;
+      const left = CHALLENGE_ATTEMPTS - ch.attempts;
       return left > 0
         ? { error: `That code didn't match. ${left} ${left === 1 ? "try" : "tries"} left.`, restart: false }
         : { error: "Too many wrong codes. Sign in again.", restart: true };

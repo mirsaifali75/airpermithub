@@ -5,6 +5,7 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { Disclaimer } from "@/components/ui/Notices";
 import { ShareLinks } from "@/components/ui/ShareLinks";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/ui/JsonLd";
 
 export interface ToolPageProps {
   path: string;
@@ -105,7 +106,7 @@ export function ToolPage({ path, title, description, problem, children, how, quo
           </Link>
         </aside>
       </div>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
     </>
   );
 }

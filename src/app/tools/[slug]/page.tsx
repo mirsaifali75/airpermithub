@@ -7,6 +7,7 @@ import { ConverterTool } from "@/components/tools/ConverterTool";
 import { ToolPage } from "@/components/tools/ToolPage";
 import { AccordionItem } from "@/components/ui/Accordion";
 import { converters, getConverter } from "@/lib/tools/converters";
+import { JsonLd } from "@/components/ui/JsonLd";
 
 export function generateStaticParams() {
   return converters.map((c) => ({ slug: c.slug }));
@@ -55,7 +56,7 @@ export default async function ConverterPage({ params }: { params: Promise<{ slug
         </div>
         <p className="mt-3 text-sm text-muted">More converters: {converters.filter((x) => x.slug !== c.slug).map((x, i, a) => <span key={x.slug}><Link href={`/tools/${x.slug}`} className="font-medium text-brand-700 hover:underline">{x.name}</Link>{i < a.length - 1 ? ", " : ""}</span>)}.</p>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <JsonLd data={faqLd} />
     </ToolPage>
   );
 }

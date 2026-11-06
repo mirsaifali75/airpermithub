@@ -31,11 +31,48 @@ export async function overLimit(db: Db, key: string, rule: Rule, now = new Date(
   return n >= rule.limit;
 }
 
+// Old rows only matter for a day; trim now and then rather than on a schedule.
+const trimNowAndThen = async (db: Db) => {
+  if (Math.random() < 0.02) await db.authAttempt.deleteMany({ where: { createdAt: { lt: new Date(Date.now() - 86_400_000) } } });
+};
+
 export async function record(db: Db, keys: string[], action: string, ok: boolean) {
   await db.authAttempt.createMany({ data: keys.map((key) => ({ key, action, ok })) });
-  // Old rows only matter for a day; trim now and then rather than on a schedule.
-  if (Math.random() < 0.02) await db.authAttempt.deleteMany({ where: { createdAt: { lt: new Date(Date.now() - 86_400_000) } } });
+  await trimNowAndThen(db);
 }
+
+/**
+ * Counts a try before acting on it. Its rows are written first and counted
+ * after, so when many tries arrive at once (a script firing in parallel), each
+ * sees the ones written before it and no more than `limit` get through.
+ * Checking first and writing after would let every try in a burst see the
+ * same old count. Rows for failure-only rules start as failures; call
+ * `succeeded` when the try works. Returns the rows' ids, or null when any rule
+ * is over its limit, in which case nothing stays written.
+ */
+export async function claim(db: Db, checks: [key: string, rule: Rule][], now = new Date()): Promise<string[] | null> {
+  const rows = await db.authAttempt.createManyAndReturn({
+    data: checks.map(([key, rule]) => ({ key, action: rule.action, ok: !rule.failuresOnly, createdAt: now })),
+    select: { id: true },
+  });
+  const ids = rows.map((r) => r.id);
+  for (const [key, rule] of checks) {
+    const since = new Date(now.getTime() - rule.minutes * 60_000);
+    const n = await db.authAttempt.count({ where: { key, action: rule.action, createdAt: { gte: since, lte: now }, ...(rule.failuresOnly ? { ok: false } : {}) } });
+    if (n > rule.limit) {
+      await release(db, ids);
+      return null;
+    }
+  }
+  await trimNowAndThen(db);
+  return ids;
+}
+
+/** The claimed try worked, so it no longer counts against failure-only limits. */
+export const succeeded = (db: Db, ids: string[]) => db.authAttempt.updateMany({ where: { id: { in: ids } }, data: { ok: true } });
+
+/** Takes a claimed try back, for when nothing was done after all. */
+export const release = (db: Db, ids: string[]) => db.authAttempt.deleteMany({ where: { id: { in: ids } } });
 
 /** A successful sign-in clears that address's failures, so one typo doesn't count against later sign-ins. */
 export const clearFailures = (db: Db, key: string, action: string) => db.authAttempt.deleteMany({ where: { key, action, ok: false } });

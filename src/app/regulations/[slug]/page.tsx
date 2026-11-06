@@ -13,6 +13,7 @@ import { federalRegulations, getRegulation } from "@/lib/data/regulations";
 import type { RegulationSection } from "@/lib/data/types";
 import { metaForCode, programForPart, ruleCitation, ruleHref } from "@/lib/rules";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/ui/JsonLd";
 
 export function generateStaticParams() {
   return federalRegulations.map((r) => ({ slug: r.slug }));
@@ -226,7 +227,7 @@ export default async function RegulationPage({ params }: { params: Promise<{ slu
           <Link href="/permit-finder" className={buttonClass("secondary", "md", "w-full")}>Screen a facility <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
         </aside>
       </div>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
     </>
   );
 }

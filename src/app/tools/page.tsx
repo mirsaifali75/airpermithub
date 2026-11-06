@@ -9,6 +9,7 @@ import { practitionerGuides } from "@/lib/data/practitioner-guides";
 import { accountsEnabled } from "@/lib/auth/config";
 import { site } from "@/lib/site";
 import { converterTools, coreTools } from "@/lib/tools/catalog";
+import { JsonLd } from "@/components/ui/JsonLd";
 
 export const metadata: Metadata = {
   title: "Air Permitting Tools: Rolling Limits, NSR Baselines, Compliance Matrix & Converters",
@@ -127,7 +128,7 @@ export default function ToolsPage() {
         <ShareLinks path="/tools" title="Air permitting tools on AirPermitHub" />
         <Disclaimer />
       </div>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
     </>
   );
 }

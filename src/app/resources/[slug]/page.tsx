@@ -9,6 +9,7 @@ import { Disclaimer } from "@/components/ui/Notices";
 import { getGuide, guides, type Guide } from "@/lib/data/guides";
 import { site } from "@/lib/site";
 import { quoteHref } from "@/lib/tools/rule-text";
+import { JsonLd } from "@/components/ui/JsonLd";
 
 export function generateStaticParams() {
   return guides.map((g) => ({ slug: g.slug }));
@@ -122,7 +123,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           </div>
         </aside>
       </div>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
     </>
   );
 }
