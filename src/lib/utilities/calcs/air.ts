@@ -90,7 +90,7 @@ const leakTest: SectionDef = {
   formulas: ["Leakage % = T × 100 ÷ (T + t)", "Leak flow = Leakage % × capacity", "Leak cost ≈ Leakage % × loaded kW × hours × price"],
   inputs: leakInputs,
   example: { title: "With the plant idle, the compressor loads for 40 s and unloads for 110 s; 1,500 Nm³/h, 160 kW, 8,000 h/yr.", values: { on: [40, "s"], off: [110, "s"], cap: [1500, "nm3h"], kw: [160, "kw"], hours: [8000, "h"], price: [0.1, "kwh"] } },
-  refs: [REF.doeLeaks, REF.doeAir],
+  refs: [{ ...REF.doeAir, title: `${REF.doeAir.title} (Fact Sheet 3, Compressed Air System Leaks)` }],
   compute(v) {
     const c = new Calc(v);
     const miss = c.blank("on", "off");
