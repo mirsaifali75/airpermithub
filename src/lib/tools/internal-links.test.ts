@@ -9,11 +9,12 @@ import { ruleHref } from "../rules";
 import { allToolPages, coreTools } from "./catalog";
 import { equipmentTypes, screenAll, type FacilityInput } from "./applicability";
 import { converters } from "./converters";
-import { UTIL_BASE, utilities } from "../utilities";
+import { OILGAS_BASE, UTIL_BASE, oilGasCalcs, utilities } from "../utilities";
 import { applicabilityHandoff, calculatorsFor, screen } from "../screening";
 import { equipmentOptions, permitFinderIndustries } from "../data/equipment";
 import { stateProfileSummaries } from "../data/state-profiles";
 import { calculatorMethods } from "../calc/methods";
+import { industries } from "../data/industries";
 
 const appDir = join(__dirname, "..", "..", "app");
 
@@ -37,10 +38,13 @@ const known = new Set([
   ...guides.map((g) => `/resources/${g.slug}`),
   ...converters.map((c) => `/tools/${c.slug}`),
   ...utilities.map((u) => `${UTIL_BASE}/${u.slug}`),
+  OILGAS_BASE,
+  ...oilGasCalcs.map((u) => `${OILGAS_BASE}/${u.slug}`),
   ...federalRegulations.map((r) => `/regulations/${r.slug}`),
   ...listRules().map(ruleHref),
   ...calculatorMethods.map((m) => `/calculators/${m.slug}`),
   ...stateProfileSummaries().map((s) => `/states/${s.slug}`),
+  ...industries.map((i) => `/industries/${i.slug}`),
 ]);
 const terms = new Set(glossary.map((g) => g.slug));
 

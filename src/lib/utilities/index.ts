@@ -5,14 +5,38 @@ import { nitrogen } from "./calcs/nitrogen";
 import { processWater } from "./calcs/process";
 import { steam } from "./calcs/steam";
 import { thermalFluid } from "./calcs/thermal";
+import { oilGasCalcs } from "./oilgas";
+import { OILGAS_WORKBOOK_PATH, WORKBOOK_PATH } from "./workbook-layout";
 import type { InputDef, ListRows, Outcome, SectionDef, UtilityDef, Values } from "./types";
 import { fmt, fromSI, toSI, unitOf, type Family } from "./units";
 
 export const utilities: UtilityDef[] = [steam, coolingWater, chilledWater, processWater, compressedAir, nitrogen, thermalFluid];
-
-export const getUtility = (slug: string) => utilities.find((u) => u.slug === slug);
+export { oilGasCalcs };
 
 export const UTIL_BASE = "/tools/utility-calculators";
+export const OILGAS_BASE = "/tools/oil-gas-calculators";
+
+/** A family of calculators that shares one hub page, one Excel workbook, and one unit preference. */
+export interface Collection {
+  id: "plant" | "oil-gas";
+  name: string;
+  base: string;
+  workbook: string;
+  /** Prefix for exported file names. */
+  file: string;
+  list: UtilityDef[];
+  /** Units shown first: plant calculators start in metric, oil and gas in oilfield (US) units. */
+  system: "metric" | "us";
+}
+
+export const COLLECTIONS: Collection[] = [
+  { id: "plant", name: "Plant Utility Calculators", base: UTIL_BASE, workbook: WORKBOOK_PATH, file: "plant-utilities", list: utilities, system: "metric" },
+  { id: "oil-gas", name: "Oil and Gas Engineering Calculators", base: OILGAS_BASE, workbook: OILGAS_WORKBOOK_PATH, file: "oil-gas-calculators", list: oilGasCalcs, system: "us" },
+];
+
+const ALL = COLLECTIONS.flatMap((c) => c.list);
+export const getUtility = (slug: string) => ALL.find((u) => u.slug === slug);
+export const collectionOf = (slug: string) => COLLECTIONS.find((c) => c.list.some((u) => u.slug === slug)) ?? COLLECTIONS[0];
 
 /** One input as kept in the form: what was typed, as a number or null, and its unit. */
 export interface Entry {
@@ -38,7 +62,7 @@ export const exampleSection = (s: SectionDef): SectionState => {
   return { entries: st.entries, lists: s.example.lists ? JSON.parse(JSON.stringify(s.example.lists)) : st.lists, example: true };
 };
 
-const POSITIVE = new Set<Family>(["pabs", "mflow", "vflow", "gasflow", "cp", "hspec", "hv", "rho", "visc", "diam", "area", "volume", "uval"]);
+const POSITIVE = new Set<Family>(["pabs", "mflow", "vflow", "gasflow", "cp", "hspec", "hv", "rho", "visc", "diam", "area", "volume", "uval", "mudwt"]);
 
 const bounds = (i: InputDef) => {
   const show = (x: number) => `${fmt(fromSI(i.family, i.unit, x), 4)}${unitOf(i.family, i.unit).label ? " " + unitOf(i.family, i.unit).label : ""}`;

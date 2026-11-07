@@ -14,6 +14,7 @@ import { demoJobs } from "@/lib/data/jobs";
 import { getRegulation } from "@/lib/data/regulations";
 import { guides as allGuides } from "@/lib/data/guides";
 import { listStateProfiles } from "@/lib/data/state-profiles";
+import { OILGAS_BASE, oilGasCalcs } from "@/lib/utilities";
 
 export function generateStaticParams() {
   return industries.map((i) => ({ slug: i.slug }));
@@ -114,6 +115,16 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
                   <Link href={`/states/${s.slug}?tab=oil-gas`} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">All {s.name} oil & gas programs <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
                 </li>
               ))}
+            </ul>
+          </section>
+        )}
+
+        {["oil-gas", "midstream"].includes(ind.slug) && (
+          <section aria-labelledby="og-tools" className="rounded-2xl border border-gold-500/50 bg-white p-6 shadow-card">
+            <SectionHeading id="og-tools" eyebrow="Engineering tools" title="Oil & gas engineering calculators" />
+            <p className="text-sm text-muted">Turn a gas analysis into VOC and HAP weight % for the application, then size chokes, lines, separators, and pumps with every step shown.</p>
+            <ul className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              {oilGasCalcs.map((u) => <li key={u.slug}><Link href={`${OILGAS_BASE}/${u.slug}`} className="flex items-center justify-between rounded-xl bg-canvas px-3 py-2.5 text-sm font-medium text-ink hover:bg-brand-50">{u.short} <ArrowRight className="h-4 w-4 text-brand-500" aria-hidden="true" /></Link></li>)}
             </ul>
           </section>
         )}

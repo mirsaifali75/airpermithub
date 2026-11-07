@@ -5,10 +5,10 @@
  */
 import type { Workbook, Worksheet, Cell } from "exceljs";
 import { csvFileName } from "@/lib/csv";
-import { blankSection, getUtility, runSection, type SectionState } from "./index";
+import { blankSection, collectionOf, getUtility, runSection, type SectionState } from "./index";
 import { reviewCells, type CellModel, type ReviewReport } from "./review";
 import { families, fmt, fromSI, toSI, unitOf } from "./units";
-import { KEY_COL, LIST_ROWS, WORKBOOK_PATH, inKey, listKey, parseKey } from "./workbook-layout";
+import { KEY_COL, LIST_ROWS, inKey, listKey, parseKey } from "./workbook-layout";
 
 const MAX_BYTES = 15 * 1024 * 1024;
 const MAX_CELLS = 200_000;
@@ -203,7 +203,8 @@ function download(buf: ArrayBuffer, name: string) {
  * site's results and steps.
  */
 export async function exportUtilities(slugs: string[], saved: Record<string, Record<string, SectionState>>) {
-  const res = await fetch(WORKBOOK_PATH);
+  const col = collectionOf(slugs[0]);
+  const res = await fetch(col.workbook);
   if (!res.ok) throw new Error("the workbook template could not be loaded");
   const wb = await load(await res.arrayBuffer());
   const where = new Map<string, Cell>();
@@ -219,7 +220,7 @@ export async function exportUtilities(slugs: string[], saved: Record<string, Rec
   });
   const rec = wb.addWorksheet("Calculation Record");
   rec.columns = [{ width: 46 }, { width: 22 }, { width: 22 }, { width: 90 }];
-  rec.addRow(["AirPermitHub plant utility calculation record (engineering aid, not an agency form)"]).font = { bold: true, size: 13 };
+  rec.addRow([`AirPermitHub ${col.name.toLowerCase()} calculation record (engineering aid, not an agency form)`]).font = { bold: true, size: 13 };
   rec.addRow(["Exported", new Date().toISOString().slice(0, 10)]);
   rec.addRow(["The yellow input cells on each sheet hold the same inputs; Excel recalculates those sheets when the file opens. This sheet lists the website's own results for comparison."]);
   let skipped = 0;
@@ -265,5 +266,5 @@ export async function exportUtilities(slugs: string[], saved: Record<string, Rec
   if (skipped) rec.addRow(["Note", "", "", `${skipped} list rows beyond the workbook's ${LIST_ROWS} rows are in this record but not in the formula sheet.`]);
   wb.calcProperties = { ...(wb.calcProperties ?? {}), fullCalcOnLoad: true };
   const buf = (await wb.xlsx.writeBuffer()) as ArrayBuffer;
-  download(buf, csvFileName("plant-utilities", slugs.length === 1 ? slugs[0] : "all").replace(/\.csv$/, ".xlsx"));
+  download(buf, csvFileName(col.file, slugs.length === 1 ? slugs[0] : "all").replace(/\.csv$/, ".xlsx"));
 }

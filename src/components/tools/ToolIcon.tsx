@@ -1,4 +1,4 @@
-import { ArrowLeftRight, Cog, FileSearch, Atom, Gauge, Factory, MonitorCheck, BookA, Calculator, ClipboardCheck, ClipboardList, ListChecks, Newspaper, Route, Scale, TrendingUp, type LucideIcon } from "lucide-react";
+import { ArrowLeftRight, Cog, Droplets, FileSearch, Atom, Gauge, Factory, MonitorCheck, BookA, Calculator, ClipboardCheck, ClipboardList, ListChecks, Newspaper, Route, Scale, TrendingUp, type LucideIcon } from "lucide-react";
 import type { ToolIcon as IconKey } from "@/lib/tools/catalog";
 
 export const toolIcons: Record<IconKey, LucideIcon> = {
@@ -17,5 +17,6 @@ export const toolIcons: Record<IconKey, LucideIcon> = {
   inventory: Factory,
   cam: MonitorCheck,
   utility: Cog,
+  oilgas: Droplets,
   review: FileSearch,
 };

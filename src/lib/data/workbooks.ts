@@ -30,6 +30,15 @@ export const workbooks: Workbook[] = [
     web: { label: "Plant Utility Calculators", href: "/tools/utility-calculators" },
   },
   {
+    slug: "oil-gas-calculators",
+    title: "Oil and Gas Engineering Calculations (gas and oil properties, wells, chokes, pipelines, well control, lift)",
+    file: "airpermithub-oil-gas-calculators.xlsx",
+    description: "26 live-formula calculations in oilfield units: gas analysis to VOC and HAP weight %, Z-factor, Bg and viscosity, Standing bubble point and Bo, oil viscosity, productivity index and Vogel IPR, back-pressure AOF, static and flowing bottomhole pressure, gas well nodal analysis, Turner critical rate, Gilbert and gas chokes, gas and liquid line pressure drop, erosional velocity, separator sizing, tank gauging, kill sheet, annular velocity, rod pump and ESP sizing. Formulas are locked; only the yellow input cells accept entries.",
+    sheets: ["Gas Properties", "Oil PVT", "Inflow (IPR)", "Gas Well", "Chokes", "Pipelines", "Separators and Tanks", "Drilling", "Artificial Lift"],
+    cites: ["Dranchuk & Abou-Kassem (1975)", "Standing (1947)", "Vogel (1968)", "Rawlins & Schellhardt (USBM Monograph 7)", "Turner et al. (1969)", "Gilbert (1954)", "Colebrook (1939)", "40 CFR 51.100(s)"],
+    web: { label: "Oil & Gas Engineering Calculators", href: "/tools/oil-gas-calculators" },
+  },
+  {
     slug: "synthetic-minor-limit-designer",
     title: "Synthetic Minor Limit Designer",
     file: "airpermithub-synthetic-minor-limit-designer.xlsx",
