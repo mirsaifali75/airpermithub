@@ -225,7 +225,7 @@ const receiver: SectionDef = {
 
 const demandInputs: SectionDef["inputs"] = [
   { id: "leak", label: "Leak allowance", family: "pct", unit: "pct", optional: true, min: 0, max: 100 },
-  { id: "margin", label: "Future growth margin", family: "pct", unit: "pct", optional: true, min: 0, max: 200 },
+  { id: "margin", soft: true, label: "Future growth margin", family: "pct", unit: "pct", optional: true, min: 0, max: 200 },
 ];
 
 const demand: SectionDef = {

@@ -71,10 +71,19 @@ export function balance(v: Values, cfg: BalanceCfg, inputs: InputDef[], c = new 
       else hi = known + dT;
     } else props = pick(((lo as number) + (hi as number)) / 2);
   } catch (e) {
+    if (solve === cfg.lo.id || solve === cfg.hi.id)
+      return { c, out: c.done(`The solved ${L[solve].toLowerCase()} would be below freezing or above boiling, outside the range for plain water. Check the load and flow, or for a glycol mix enter its specific heat and density.`) };
     return { c, out: c.done((e as Error).message) };
   }
   const tMean = ((lo as number) + (hi as number)) / 2;
-  if (cfg.water && (v.cp === null || v.cp === undefined || v.rho === null || v.rho === undefined))
+  const waterProps = cfg.water && (v.cp === null || v.cp === undefined || v.rho === null || v.rho === undefined);
+  if (waterProps && (solve === cfg.lo.id || solve === cfg.hi.id)) {
+    const T = (solve === cfg.lo.id ? lo : hi) as number;
+    if (T < 0) return { c, out: c.done(`The solved ${L[solve].toLowerCase()} is ${fmt(T)} °C, below freezing. Check the load and flow, or for a glycol mix enter its specific heat and density.`) };
+    if (T > 100) return { c, out: c.done(`The solved ${L[solve].toLowerCase()} is ${fmt(T)} °C, above the boiling point of water at atmospheric pressure. Check the load and flow.`) };
+  }
+  if (waterProps && ((lo as number) < 0 || (hi as number) > 100)) c.warn("A water temperature is below 0 °C or above 100 °C. Plain water would freeze or (unless the loop is pressurized) boil; for glycol, enter its specific heat and density.");
+  if (waterProps)
     c.step("Water properties at the mean temperature", `T_mean = ${fmt(tMean)} °C:  cp = ${fmt(props.cp)} kJ/kg·K,  ρ = ${fmt(props.rho)} kg/m³ (IAPWS-IF97 region 1)`);
   else c.step("Fluid properties (entered)", `cp = ${fmt(props.cp)} kJ/kg·K,  ρ = ${fmt(props.rho)} kg/m³`);
   const { cp, rho } = props;
