@@ -29,7 +29,7 @@ const spec = utilities.map((u) => ({
       formulas: s.formulas,
       solveNote: s.solveNote ?? null,
       refs: s.refs,
-      inputs: s.inputs.map((i) => ({ id: i.id, label: i.label, sym: i.sym ?? "", family: i.family, unit: unit(i.family, i.unit), optional: !!i.optional, solvable: !!i.solvable, choices: i.choices ?? null, help: i.help ?? "" })),
+      inputs: s.inputs.map((i) => ({ id: i.id, label: i.label, sym: i.sym ?? "", family: i.family, unit: unit(i.family, i.unit), optional: !!i.optional, solvable: !!i.solvable, choices: i.choices ?? null, help: i.help ?? "", min: i.min ?? null, max: i.max ?? null, soft: !!i.soft })),
       list: s.list ?? null,
       example: { title: s.example.title, values: Object.fromEntries(Object.entries(s.example.values).map(([k, v]) => [k, v ? { v: v[0], unit: unit(s.inputs.find((i) => i.id === k)!.family, v[1]) } : null])), lists: s.example.lists ?? null },
       exampleResults: Object.fromEntries(ex.results.map((r) => [r.id, { si: r.value, family: r.family, unit: unit(r.family, r.show[0]), label: r.label }])),

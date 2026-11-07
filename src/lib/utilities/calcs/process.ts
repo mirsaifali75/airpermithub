@@ -23,7 +23,7 @@ export function frictionFactor(Re: number, relRough: number) {
 
 const balanceInputs: SectionDef["inputs"] = [
   { id: "loss", label: "Losses (evaporation, leaks, spillage), % of consumption", sym: "L%", family: "pct", unit: "pct", optional: true, min: 0, max: 100 },
-  { id: "margin", label: "Design margin", family: "pct", unit: "pct", optional: true, min: 0, max: 200 },
+  { id: "margin", soft: true, label: "Design margin", family: "pct", unit: "pct", optional: true, min: 0, max: 200 },
   { id: "rec", label: "Treatment recovery (RO / DM / softener), % (blank = none)", sym: "r", family: "pct", unit: "pct", optional: true, min: 1, max: 100, help: "Product water ÷ feed water for the treatment train, from the vendor's design." },
 ];
 

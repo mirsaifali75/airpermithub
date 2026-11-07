@@ -28,7 +28,7 @@ const towerInputs: SectionDef["inputs"] = [
   { id: "thot", label: "Hot water to the tower", sym: "T_hot", family: "temp", unit: "c", min: 0, max: 100 },
   { id: "tcold", label: "Cold water from the tower", sym: "T_cold", family: "temp", unit: "c", min: 0, max: 100 },
   { id: "C", label: "Cycles of concentration", sym: "C", family: "ratio", unit: "x", min: 1.01, help: "Ratio of a dissolved solid (often conductivity or chloride) in the tower water to the makeup water." },
-  { id: "drift", label: "Drift loss, % of circulating flow", sym: "D%", family: "pct", unit: "pct", optional: true, min: 0, max: 5, help: "From the tower manufacturer's drift eliminator rating." },
+  { id: "drift", soft: true, label: "Drift loss, % of circulating flow", sym: "D%", family: "pct", unit: "pct", optional: true, min: 0, max: 5, help: "From the tower manufacturer's drift eliminator rating." },
   { id: "fevap", label: "Share of heat rejected by evaporation (blank = 100 %)", sym: "f", family: "pct", unit: "pct", optional: true, min: 1, max: 100, help: "100 % gives the upper bound. Part of the heat leaves as sensible heat to the air, more so in cold weather." },
   { id: "twb", label: "Ambient wet-bulb temperature", sym: "T_wb", family: "temp", unit: "c", optional: true },
   { id: "hours", label: "Operating hours per year", family: "time", unit: "h", optional: true, min: 0, max: 8784 * 3600 },
@@ -110,7 +110,7 @@ const hxInputs: SectionDef["inputs"] = [
   { id: "tci", label: "Cold side in", sym: "Tc,i", family: "temp", unit: "c" },
   { id: "tco", label: "Cold side out", sym: "Tc,o", family: "temp", unit: "c" },
   { id: "flow", label: "Flow arrangement", family: "count", unit: "n", choices: [{ value: 1, label: "Counterflow" }, { value: 2, label: "Parallel flow" }] },
-  { id: "F", label: "LMTD correction factor F (blank = 1)", sym: "F", family: "ratio", unit: "x", optional: true, min: 0.5, max: 1, help: "For multi-pass shell-and-tube units, from the exchanger's correction-factor chart." },
+  { id: "F", soft: true, label: "LMTD correction factor F (blank = 1)", sym: "F", family: "ratio", unit: "x", optional: true, min: 0.5, max: 1, help: "For multi-pass shell-and-tube units, from the exchanger's correction-factor chart." },
   { id: "Q", label: "Duty", sym: "Q", family: "power", unit: "kw", solvable: true, min: 0 },
   { id: "U", label: "Overall heat transfer coefficient", sym: "U", family: "uval", unit: "wm2k", solvable: true, min: 0, help: "From the exchanger data sheet, or your design value including fouling." },
   { id: "A", label: "Heat transfer area", sym: "A", family: "area", unit: "m2", solvable: true, min: 0 },
@@ -134,6 +134,7 @@ const hx: SectionDef = {
     const d1 = counter ? c.n("thi") - c.n("tco") : c.n("thi") - c.n("tci");
     const d2 = counter ? c.n("tho") - c.n("tci") : c.n("tho") - c.n("tco");
     c.step("End temperature differences", counter ? `ΔT₁ = ${fmt(c.n("thi"))} − ${fmt(c.n("tco"))} = ${fmt(d1)} °C;  ΔT₂ = ${fmt(c.n("tho"))} − ${fmt(c.n("tci"))} = ${fmt(d2)} °C` : `ΔT₁ = ${fmt(c.n("thi"))} − ${fmt(c.n("tci"))} = ${fmt(d1)} °C;  ΔT₂ = ${fmt(c.n("tho"))} − ${fmt(c.n("tco"))} = ${fmt(d2)} °C`, counter ? "Counterflow: ΔT₁ = Th,i − Tc,o, ΔT₂ = Th,o − Tc,i" : "Parallel: ΔT₁ = Th,i − Tc,i, ΔT₂ = Th,o − Tc,o");
+    if (!(c.n("thi") > c.n("tho")) || !(c.n("tco") > c.n("tci"))) return c.done("The hot side must cool down (inlet hotter than outlet) and the cold side must warm up (outlet hotter than inlet).");
     if (d1 <= 0 || d2 <= 0) return c.done("A temperature cross: the hot side must stay hotter than the cold side at both ends for this arrangement.");
     const lmtd = Math.abs(d1 - d2) < 1e-9 ? d1 : (d1 - d2) / Math.log(d1 / d2);
     c.step("LMTD", `LMTD = (${fmt(d1)} − ${fmt(d2)}) ÷ ln(${fmt(d1)} ÷ ${fmt(d2)}) = ${fmt(lmtd)} °C`, "LMTD = (ΔT₁ − ΔT₂) ÷ ln(ΔT₁/ΔT₂)");

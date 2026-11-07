@@ -25,7 +25,7 @@ from datetime import date
 from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
-from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Protection, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 
 SPEC_PATH, OUT = sys.argv[1], Path(sys.argv[2])
@@ -64,6 +64,10 @@ DISCLAIMER = (
     "AirPermitHub provides educational and engineering-support information. It is not professional engineering advice. "
     "Check every input, unit, and result, and have a qualified engineer approve designs."
 )
+
+
+# Families that cannot be zero or negative when entered (same list as POSITIVE in src/lib/utilities/index.ts).
+POSITIVE = {"pabs", "mflow", "vflow", "gasflow", "cp", "hspec", "hv", "rho", "visc", "diam", "area", "volume", "uval"}
 
 
 def unit(family, uid):
@@ -151,6 +155,31 @@ def if97_sheet(wb):
     }
 
 
+# ---------------------------------------------------------------- locking
+# Only the yellow input cells can be edited; every formula is locked. The sheets have no password, so an
+# engineer who wants to change a formula can still use Review > Unprotect Sheet on purpose.
+UNLOCKED = Protection(locked=False)
+_NUMBER_DV = {}
+
+
+def number_only(ws):
+    """One data validation per sheet that accepts numbers only (blank allowed)."""
+    if ws.title not in _NUMBER_DV:
+        dv = DataValidation(type="decimal", operator="between", formula1="-1E+300", formula2="1E+300", allow_blank=True,
+                            showErrorMessage=True, errorTitle="Numbers only", error="Type a number in the unit shown in column C, or leave the cell blank.")
+        ws.add_data_validation(dv)
+        _NUMBER_DV[ws.title] = dv
+    return _NUMBER_DV[ws.title]
+
+
+def lock(ws):
+    ws.protection.sheet = True
+    ws.protection.formatRows = False  # allowed: unhide the grey intermediate rows
+    ws.protection.formatColumns = False
+    ws.protection.selectLockedCells = False
+    ws.protection.selectUnlockedCells = False
+
+
 # ---------------------------------------------------------------- section builder
 class Sec:
     def __init__(self, ws, row, util, sec):
@@ -158,6 +187,8 @@ class Sec:
         self.E = {}
         self.inputs = {i["id"]: i for i in sec["inputs"]}
         self.outs = []
+        self.checks = []
+        self.check_row = None
 
     @property
     def slug(self):
@@ -195,6 +226,7 @@ class Sec:
             b = ws.cell(row=r, column=2)
             b.fill = FILL_IN
             b.border = BOX
+            b.protection = UNLOCKED
             if i["choices"]:
                 ws.cell(row=r, column=3, value="; ".join(f"{c['value']} = {c['label']}" for c in i["choices"]))
                 b.value = i["choices"][0]["value"]
@@ -205,6 +237,7 @@ class Sec:
             else:
                 u = i["unit"]
                 ws.cell(row=r, column=3, value=u["label"])
+                number_only(ws).add(b)
                 off, fac = u.get("offset", 0) or 0, u["factor"]
                 conv = f"(B{r}{'+' + num(off) if off else ''})*{num(fac)}" if fac != 1 or off else f"B{r}"
                 ws.cell(row=r, column=5, value=f'=IF(ISNUMBER(B{r}),{conv},"")')
@@ -233,9 +266,13 @@ class Sec:
         first = self.r
         for k in range(LIST_ROWS):
             r = self.r
-            for j in range(len(L["columns"])):
-                ws.cell(row=r, column=1 + j).fill = FILL_IN
-                ws.cell(row=r, column=1 + j).border = BOX
+            for j, col in enumerate(L["columns"]):
+                cell = ws.cell(row=r, column=1 + j)
+                cell.fill = FILL_IN
+                cell.border = BOX
+                cell.protection = UNLOCKED
+                if not col.get("text"):
+                    number_only(ws).add(cell)
             for col, f in si_cols(r).items():
                 ws[f"{col}{r}"] = f
             ws.cell(row=r, column=6, value=f"list:{self.slug}.{self.sec['id']}.{L['id']}.{k}").font = F_KEY
@@ -269,7 +306,48 @@ class Sec:
         self.r += 1
         return f"$E${r}"
 
+    def chk(self, cond, msg):
+        """Adds an input check: when the Excel condition is TRUE, the section's check row shows msg."""
+        self.checks.append((cond, msg))
+
+    def reserve_check(self):
+        """Keeps the row under the inputs for the input-check message, and adds the checks every section shares."""
+        self.check_row = self.r
+        self.r += 1
+        for i in self.sec["inputs"]:
+            e = self.E[i["id"]]
+            if not i.get("soft") and not i["choices"] and (i.get("min") is not None or i.get("max") is not None):
+                u = i["unit"]
+                off, fac = u.get("offset", 0) or 0, u["factor"]
+                shown = lambda x: f"{x / fac - off:.4g} {u['label']}".strip()
+                conds, words = [], []
+                if i.get("min") is not None:
+                    conds.append(f"{e}<{num(i['min'])}-1E-9")
+                if i.get("max") is not None:
+                    conds.append(f"{e}>{num(i['max'])}+1E-9")
+                if i.get("min") is not None and i.get("max") is not None:
+                    rng = f"between {shown(i['min'])} and {shown(i['max'])}"
+                else:
+                    rng = f"at least {shown(i['min'])}" if i.get("min") is not None else f"no more than {shown(i['max'])}"
+                self.chk(f"AND(ISNUMBER({e}),OR({','.join(conds)}))", f"{i['label']} must be {rng}.")
+            if i["family"] == "pct" and "efficiency" in i["label"].lower():
+                self.chk(f"AND(ISNUMBER({e}),OR({e}<=0,{e}>100))", f"{i['label']} must be more than 0 % and no more than 100 %.")
+            elif i["family"] in POSITIVE and not i["optional"]:
+                self.chk(f"AND(ISNUMBER({e}),{e}<=0)", f"{i['label']} must be greater than zero.")
+
+    def write_check(self):
+        ws, r = self.ws, self.check_row
+        parts = "&".join(f'IF(IFERROR({c},FALSE),"{m} ","")' for c, m in self.checks) or '""'
+        ws.cell(row=r, column=1, value="Input check").font = F_B
+        ws.cell(row=r, column=7, value=f"={parts}")
+        c = ws.cell(row=r, column=2, value=f'=IF(LEN(G{r})=0,"OK","CHECK: "&TRIM(G{r}))')
+        c.font = Font(bold=True, color="B42318")
+        ws.merge_cells(start_row=r, start_column=2, end_row=r, end_column=4)
+        c.alignment = WRAP
+        ws.cell(row=r, column=6, value=f"chk:{self.slug}.{self.sec['id']}").font = F_KEY
+
     def done(self):
+        self.write_check()
         self.r += 1
         return self.r
 
@@ -364,6 +442,11 @@ def build_section(sec, C, nsat, nliq):
         st = sat(sec, E["ps"], nsat, "Steam: ")
         h2, _ = r2(sec, E["ps"], E["ts"], C, "Superheated steam:")
         hc1, _ = r1(sec, E["ps"], E["tc"], C, "Subcooled condensate:")
+        sec.chk(f'AND({blank(E["Q"])},ISNUMBER({E["t2"]}),{E["t2"]}>={st["T"]})', "Steam condensing at this pressure cannot heat the product to the outlet temperature. Raise the steam pressure.")
+        sec.chk(f'AND({blank(E["Q"])},ISNUMBER({E["t1"]}),ISNUMBER({E["t2"]}),{E["t2"]}<={E["t1"]})', "The process outlet must be hotter than the inlet.")
+        sec.chk(f'AND(ISNUMBER({E["loss"]}),{E["loss"]}>=100)', "Heat losses must be below 100 %.")
+        sec.chk(f'AND(ISNUMBER({E["tc"]}),{E["tc"]}>{st["T"]}+0.05)', "Condensate is above the saturation temperature; it would be steam.")
+        sec.chk(f'AND(ISNUMBER({E["ts"]}),{E["ts"]}<{st["T"]}-0.05)', "Steam temperature is below saturation, so it would be liquid. Leave it blank for saturated steam.")
         hs = sec.calc("Steam enthalpy", f'IF({blank(E["ts"])},{st["hg"]},{h2})', "hspec", "kjkg", "hg if saturated, IF97 region 2 if superheated")
         hc = sec.calc("Condensate enthalpy", f'IF({blank(E["tc"])},{st["hf"]},{hc1})', "hspec", "kjkg", "hf if saturated")
         dh = sec.calc("Heat given up per kg of steam", f"{hs}-{hc}", "hspec", "kjkg", out="dh")
@@ -376,6 +459,10 @@ def build_section(sec, C, nsat, nliq):
         st = sat(sec, E["p"], nsat, "Drum: ")
         h2, _ = r2(sec, E["p"], E["ts"], C, "Superheated steam:")
         hfw, _ = r1(sec, E["p"], E["tfw"], C, "Feedwater:")
+        sec.chk(f'{E["tfw"]}>={st["T"]}', "Feedwater is at or above the drum saturation temperature.")
+        sec.chk(f'AND(ISNUMBER({E["tdsf"]}),ISNUMBER({E["tdsb"]}),{E["tdsf"]}>={E["tdsb"]})', "Maximum boiler water TDS must be higher than the feedwater TDS.")
+        sec.chk(f'AND(ISNUMBER({E["bd"]}),{E["bd"]}>=100)', "Blowdown must be below 100 %.")
+        sec.chk(f'AND(ISNUMBER({E["ts"]}),{E["ts"]}<{st["T"]}-0.05)', "Steam temperature is below saturation, so it would be liquid.")
         hs = sec.calc("Steam enthalpy", f'IF({blank(E["ts"])},{st["hg"]},{h2})', "hspec", "kjkg")
         mfw = sec.calc("Feedwater", f"{E['ms']}/(1-{b})", "mflow", "kgh", "ṁfw = ṁs ÷ (1 − b)", out="mfw")
         mbd = sec.calc("Blowdown", f"{mfw}*{b}", "mflow", "kgh", out="mbd")
@@ -388,6 +475,7 @@ def build_section(sec, C, nsat, nliq):
         sec.calc("Annual fuel cost", f'IF(OR({blank(E["hours"])},{blank(E["price"])}),"",{fuel}*{E["hours"]}/1000000*{E["price"]})', "money", out="cost", key=True)
 
     elif key == "steam/flash":
+        sec.chk(f'{E["p2"]}>={E["p1"]}', "The flash vessel pressure must be lower than the condensate pressure.")
         a = sat(sec, E["p1"], nsat, "At P₁: ", want=("hf",))
         b = sat(sec, E["p2"], nsat, "At P₂: ", want=("T", "hf", "hfg"))
         x = sec.calc("Flash fraction", f"({a['hf']}-{b['hf']})/{b['hfg']}*100", "pct", "pct", "x = (hf₁ − hf₂) ÷ hfg₂", out="x", key=True)
@@ -399,6 +487,7 @@ def build_section(sec, C, nsat, nliq):
     elif key == "steam/pipe":
         st = sat(sec, E["p"], nsat, want=("vg",))
         _, v2 = r2(sec, E["p"], E["t"], C, "Superheated steam:")
+        sec.chk(f'AND({blank(E["d"])},{blank(E["u"])})', "Enter the pipe inside diameter, or a target velocity to size the pipe.")
         v = sec.calc("Specific volume (m³/kg)", f'IF({blank(E["t"])},{st["vg"]},{v2})')
         V = sec.calc("Actual volumetric flow", f"{E['m']}*{v}", "vflow", "m3h", "V̇ = ṁ × v", out="V")
         sec.calc("Velocity", f'IF({blank(E["d"])},"",{V}/(PI()*{E["d"]}^2/4))', "vel", "ms", "u = V̇ ÷ A", out="u", key=True)
@@ -423,8 +512,14 @@ def build_section(sec, C, nsat, nliq):
                 dT = f"{Q}/({rho}*{V}*{cp})"
                 tm = sec.calc(f"Iteration {it}: next mean temperature", f'IF({blank(L)},{H}-({dT})/2,IF({blank(H)},{L}+({dT})/2,{tm}))', "temp", "c", helper=True)
         dT = sec.calc("Temperature difference ΔT", f'IF(OR({blank(L)},{blank(H)}),{Q}/({rho}*{V}*{cp}),{H}-{L})', "dtemp", "k", out="dT")
-        sec.calc(f"Solved: {sec.inputs[lo]['label']}", f'IF({blank(L)},{H}-{dT},"")', "temp", "c", out=lo, key=True)
-        sec.calc(f"Solved: {sec.inputs[hi]['label']}", f'IF({blank(H)},{L}+{dT},"")', "temp", "c", out=hi, key=True)
+        sL = sec.calc(f"Solved: {sec.inputs[lo]['label']}", f'IF({blank(L)},{H}-{dT},"")', "temp", "c", out=lo, key=True)
+        sH = sec.calc(f"Solved: {sec.inputs[hi]['label']}", f'IF({blank(H)},{L}+{dT},"")', "temp", "c", out=hi, key=True)
+        nblank = f"({blank(Q)})+({blank(V)})+({blank(L)})+({blank(H)})"
+        sec.chk(f"{nblank}>1", "Leave only one of heat load, flow, and the two temperatures blank.")
+        sec.chk(f"AND(ISNUMBER({L}),ISNUMBER({H}),{H}<={L})", f"{sec.inputs[hi]['label']} must be higher than {sec.inputs[lo]['label']}.")
+        sec.chk(f"AND({nblank}=0,ABS({rho}*{V}*{cp}*({H}-{L})-{Q})>0.01*{Q})", "The four entered values disagree by more than 1 %. Leave one blank to have it solved.")
+        if water:
+            sec.chk(f'AND(OR({blank(E["cp"])},{blank(E["rho"])}),OR(AND(ISNUMBER({sL}),{sL}<0),AND(ISNUMBER({sH}),{sH}>100)))', "The solved temperature is below 0 °C or above 100 °C, outside the range for plain water. Check the load and flow.")
         Qs = sec.calc({"cooling-water/flow": "Heat load", "chilled-water/load": "Cooling load", "hot-oil/circulation": "Heat duty"}[key], f'IF({blank(Q)},{rho}*{V}*{cp}*{dT},{Q})', "power", "kw", "Q = ρ V̇ cp ΔT", out="Q", key=True)
         m = sec.calc("Mass flow", f'IF({blank(V)},{Qs}/({cp}*{dT}),{rho}*{V})', "mflow", "kgs", "ṁ = Q ÷ (cp ΔT)", out="m", key=True)
         sec.calc("Volumetric flow", f'IF({blank(V)},{m}/{rho},{V})', "vflow", "m3h", "V̇ = ṁ ÷ ρ", out="V", key=True)
@@ -434,6 +529,9 @@ def build_section(sec, C, nsat, nliq):
     elif key == "cooling-water/tower":
         tm = sec.calc("Mean water temperature", f"({E['thot']}+{E['tcold']})/2", "temp", "c")
         rho, cp, hfg = liq(sec, tm, nliq, "rho"), liq(sec, tm, nliq, "cp"), liq(sec, tm, nliq, "hfg")
+        sec.chk(f"{E['thot']}<={E['tcold']}", "Hot water (return) must be warmer than cold water (supply).")
+        sec.chk(f"{E['C']}<=1", "Cycles of concentration must be greater than 1.")
+        sec.chk(f"AND(ISNUMBER({E['twb']}),{E['tcold']}<={E['twb']})", "Cold water at or below the wet bulb is not possible for an evaporative tower.")
         rng = sec.calc("Range", f"{E['thot']}-{E['tcold']}", "dtemp", "k", out="range")
         mc = sec.calc("Circulating mass flow", f"{rho}*{E['V']}", "mflow", "kgs")
         Q = sec.calc("Heat rejected", f"{mc}*{cp}*{rng}", "power", "kw", "Q = ṁc cp Range", out="Q")
@@ -452,6 +550,9 @@ def build_section(sec, C, nsat, nliq):
 
     elif key == "cooling-water/exchanger":
         cf = f"{E['flow']}=1"
+        sec.chk(f"IF({cf},OR({E['thi']}<={E['tco']},{E['tho']}<={E['tci']}),OR({E['thi']}<={E['tci']},{E['tho']}<={E['tco']}))", "A temperature cross: the hot side must stay hotter than the cold side at both ends for this arrangement.")
+        sec.chk(f"OR({E['thi']}<={E['tho']},{E['tco']}<={E['tci']})", "The hot side must cool down and the cold side must warm up.")
+        sec.chk(f"({blank(E['Q'])})+({blank(E['U'])})+({blank(E['A'])})<>1", "Leave exactly one of duty, U, or area blank.")
         d1 = sec.calc("ΔT₁", f"IF({cf},{E['thi']}-{E['tco']},{E['thi']}-{E['tci']})", "dtemp", "k")
         d2 = sec.calc("ΔT₂", f"IF({cf},{E['tho']}-{E['tci']},{E['tho']}-{E['tco']})", "dtemp", "k")
         lm = sec.calc("LMTD", f"IF(ABS({d1}-{d2})<1E-9,{d1},({d1}-{d2})/LN({d1}/{d2}))", "dtemp", "k", "(ΔT₁ − ΔT₂) ÷ ln(ΔT₁/ΔT₂)", out="lmtd")
@@ -462,6 +563,7 @@ def build_section(sec, C, nsat, nliq):
 
     elif key == "chilled-water/chiller":
         Q, W, k = E["Q"], E["W"], E["kwt"]
+        sec.chk(f"({blank(Q)})+({blank(W)})+({blank(k)})<>1", "Enter two of load, input power, and kW/ton, and leave the third blank.")
         Qs = sec.calc("Cooling load", f"IF({blank(Q)},{W}/{k}*{num(TON)},{Q})", "power", "tr", out="Q", key=True)
         Ws = sec.calc("Chiller input power", f"IF({blank(W)},{Q}/{num(TON)}*{k},{W})", "power", "kw", "W = tons × kW/ton", out="W", key=True)
         ks = sec.calc("Efficiency (kW per ton)", f"IF({blank(k)},{W}/({Q}/{num(TON)}),{k})", note="kW/ton = W ÷ tons", out="kwt", key=True)
@@ -515,6 +617,8 @@ def build_section(sec, C, nsat, nliq):
         sec.calc("Design compressor capacity", f"{avg}*(1+{nz(E['leak'])}/100)*(1+{nz(E['margin'])}/100)", "gasflow", "nm3h", out="design", key=True)
 
     elif key == "compressed-air/compressor":
+        sec.chk(f"{E['p2']}<={E['p1']}", "Discharge pressure must be above inlet pressure.")
+        sec.chk(f"AND(ISNUMBER({E['k']}),{E['k']}<=1)", "k must be greater than 1.")
         k = sec.calc("k used", f"IF({blank(E['k'])},1.4,{E['k']})")
         r = sec.calc("Pressure ratio per stage", f"({E['p2']}/{E['p1']})^(1/{E['N']})", note="r = (P₂/P₁)^(1/N)")
         e = sec.calc("(k − 1)/k", f"({k}-1)/{k}", helper=True)
@@ -530,6 +634,7 @@ def build_section(sec, C, nsat, nliq):
         sec.calc("Annual electricity cost", f'IF(OR({blank(E["hours"])},{blank(E["price"])}),"",{kwh}*{E["price"]})', "money", out="cost", key=True)
 
     elif key == "compressed-air/leaks":
+        sec.chk(f"OR({E['on']}<0,{E['off']}<0,{E['on']}+{E['off']}<=0)", "Enter the on and off times (not negative).")
         pct = sec.calc("Leakage, % of compressor capacity", f"{E['on']}*100/({E['on']}+{E['off']})", "pct", "pct", "T × 100 ÷ (T + t)", out="pct", key=True)
         sec.calc("Leak flow", f'IF({blank(E["cap"])},"",{E["cap"]}*{pct}/100)', "gasflow", "nm3h", out="flow", key=True)
         lkw = sec.calc("Power going to leaks", f'IF({blank(E["kw"])},"",{E["kw"]}*{pct}/100)', "power", "kw", out="lkw")
@@ -541,6 +646,8 @@ def build_section(sec, C, nsat, nliq):
         Pa = sec.calc("Ambient pressure (Pa abs)", f"IF({blank(E['pa'])},101.325,{E['pa']})*1000", helper=True)
         T0 = f"({E['t0']}+273.15)"
         A = sec.calc("Hole area (m²)", f"PI()*{E['d']}^2/4", helper=True)
+        sec.chk(f"{P0}<={Pa}", "Line pressure must be above the ambient pressure.")
+        sec.chk(f"OR({E['cd']}<=0,{E['cd']}>1)", "The discharge coefficient must be more than 0 and no more than 1.")
         choked = f"{P0}/{Pa}>=1.2^3.5"
         m_ch = f"{E['cd']}*{A}*{P0}*SQRT(1.4*{num(M_AIR)}/({num(R)}*{T0}))*(2/2.4)^(2.4/0.8)"
         m_sub = f"{E['cd']}*{A}*{P0}*SQRT(2*{num(M_AIR)}*1.4/(0.4*{num(R)}*{T0})*(({Pa}/{P0})^(2/1.4)-({Pa}/{P0})^(2.4/1.4)))"
@@ -552,12 +659,15 @@ def build_section(sec, C, nsat, nliq):
         sec.calc("Annual cost of this leak", f'IF(OR({blank(E["spec"])},{blank(E["hours"])},{blank(E["price"])}),"",{kwh}*{E["price"]})', "money", out="cost", key=True)
 
     elif key == "compressed-air/receiver":
+        sec.chk(f"{E['p1']}<={E['p2']}", "Start pressure must be above the lowest acceptable pressure.")
+        sec.chk(f"({blank(E['V'])})+({blank(E['t'])})<>1", "Leave either the volume or the duration blank.")
         dP = sec.calc("Pressure band ΔP (Pa)", f"({E['p1']}-{E['p2']})*1000", helper=True)
         RT = sec.calc("R × T (J/mol)", f"{num(R)}*({E['T']}+273.15)", helper=True)
         sec.calc("Receiver volume", f'IF({blank(E["V"])},{E["t"]}*{E["n"]}*{RT}/{dP},"")', "volume", "m3", "V = t ṅ R T ÷ ΔP", out="V", key=True)
         sec.calc("Time the receiver can supply", f'IF({blank(E["t"])},{E["V"]}*{dP}/({E["n"]}*{RT}),"")', "time", "min", "t = V ΔP ÷ (ṅ R T)", out="t", key=True)
 
     elif key == "nitrogen/pressurize":
+        sec.chk(f"{E['p2']}<={E['p1']}", "Final pressure must be above the starting pressure.")
         n = sec.calc("Moles of nitrogen", f"{E['V']}*({E['p2']}-{E['p1']})*1000/({num(R)}*({E['T']}+273.15))", note="n = V ΔP ÷ RT (mol)")
         sec.calc("Nitrogen required (Nm³, 0 °C, 1 atm)", f"{n}*{num(NM3)}", out="nm3", key=True)
         sec.calc("Nitrogen mass (kg)", f"{n}*{num(M_N2)}", out="kg", key=True)
@@ -566,6 +676,8 @@ def build_section(sec, C, nsat, nliq):
 
     elif key == "nitrogen/pressure-purge":
         cs = nz(E["cs"])
+        sec.chk(f"{E['ph']}<={E['pl']}", "Pressurize-to pressure must be above the vent-down pressure.")
+        sec.chk(f"OR({E['ct']}<={cs},{E['ct']}>={E['c0']})", "The target must be between the nitrogen supply's oxygen and the starting oxygen.")
         ratio = sec.calc("P_H ÷ P_L", f"{E['ph']}/{E['pl']}")
         jx = sec.calc("Cycles (exact)", f"LN(({E['c0']}-{cs})/({E['ct']}-{cs}))/LN({ratio})", note="ln(ΔC₀/ΔC) ÷ ln(P_H/P_L)")
         j = sec.calc("Cycles needed", f"ROUNDUP({jx}-1E-9,0)", "count", "n", out="j", key=True)
@@ -576,6 +688,8 @@ def build_section(sec, C, nsat, nliq):
 
     elif key == "nitrogen/sweep-purge":
         cs = nz(E["cs"])
+        sec.chk(f"OR({E['ct']}<={cs},{E['ct']}>={E['c0']})", "The target must be between the nitrogen supply's oxygen and the starting oxygen.")
+        sec.chk(f"AND(ISNUMBER({E['k']}),OR({E['k']}<=0,{E['k']}>1))", "The mixing factor K must be more than 0 and no more than 1.")
         vols = sec.calc("Vessel volumes of nitrogen", f"LN(({E['c0']}-{cs})/({E['ct']}-{cs}))/IF({blank(E['k'])},1,{E['k']})", note="(1/K) ln(ΔC₀/ΔC)", out="vols", key=True)
         n = sec.calc("Nitrogen (mol)", f"{vols}*{E['V']}*101325/({num(R)}*({nz(E['T'])}+273.15))")
         sec.calc("Nitrogen (Nm³)", f"{n}*{num(NM3)}", out="nm3", key=True)
@@ -596,6 +710,7 @@ def build_section(sec, C, nsat, nliq):
 
 
 def build():
+    _NUMBER_DV.clear()
     wb = Workbook()
     ws0 = wb.active
     ws0.title = "Read Me"
@@ -606,7 +721,8 @@ def build():
         ("", None),
         ("How to use", F_H),
         ("1. Type your values in the yellow cells, in the units shown in column C. Leave optional cells blank.", None),
-        ("2. Results are the blue rows; the most important ones are bold. Grey rows are intermediate steps (click the + in the margin to show them).", None),
+        ("2. Results are the blue rows; the most important ones are bold. Grey intermediate steps are hidden: select the rows around them, right-click, and choose Unhide to see them.", None),
+        ("   Only the yellow cells accept typing, and only numbers. Every formula is locked so it cannot be overwritten by mistake. The 'Input check' row under each section's inputs says OK, or names the value to fix.", None),
         ("3. Where a section says 'leave blank to solve', leave exactly one of those cells blank and it is calculated.", None),
         ("4. Column E holds every value in SI units; the formulas work in SI so any unit conversion is visible.", None),
         ("5. Column F holds keys the website uses to import this workbook. Do not edit or move them.", None),
@@ -648,6 +764,7 @@ def build():
             sec = Sec(ws, row, u, s)
             sec.header()
             sec.inputs_block()
+            sec.reserve_check()
             build_section(sec, C, nsat, nliq)
             row = sec.done() + 1
         ws.column_dimensions["A"].width = 52
@@ -662,6 +779,8 @@ def build():
             if ws.row_dimensions[r].outlineLevel:
                 ws.row_dimensions[r].hidden = True
         ws.freeze_panes = "A4"
+    for ws in wb.worksheets:
+        lock(ws)
     wb.calculation.fullCalcOnLoad = True
     return wb
 
@@ -706,7 +825,8 @@ def fill(path, out, cases):
     wb.save(out)
 
 
-def recalc_compare(path, cases, expected, tmp, tag):
+def recalc_compare(path, cases, expected, tmp, tag, flagged=None):
+    """flagged: {(slug, section): text expected in its input check}; other filled sections must read OK."""
     filled = tmp / f"{tag}.xlsx"
     fill(path, filled, cases)
     outdir = tmp / f"out-{tag}"
@@ -721,6 +841,18 @@ def recalc_compare(path, cases, expected, tmp, tag):
             k = ws.cell(row=r, column=6).value
             if isinstance(k, str) and k.startswith("out:"):
                 got[k] = ws.cell(row=r, column=5).value
+            if isinstance(k, str) and k.startswith("chk:"):
+                sk = tuple(k[4:].split(".", 1))
+                msg = ws.cell(row=r, column=2).value
+                want = (flagged or {}).get(sk)
+                if sk in cases and want is None and msg != "OK":
+                    print(f"  [{tag}] input check should be OK at {u['sheet']}!B{r}: {msg!r}")
+                    bad += 1
+                elif want is not None and (not isinstance(msg, str) or want not in msg):
+                    print(f"  [{tag}] input check at {u['sheet']}!B{r} should contain {want!r}, got {msg!r}")
+                    bad += 1
+                elif want is not None:
+                    checked += 1
             v = ws.cell(row=r, column=2).value
             if isinstance(v, str) and v.startswith("#"):
                 print(f"  [{tag}] error value {v} at {u['sheet']}!B{r}")
@@ -772,7 +904,26 @@ def verify(path):
         b, c = recalc_compare(path, cases, expected, tmp, f"variants{n}")
         bad += b
         checked += c
-    print(f"verify: {checked} results compared, {bad} problems")
+    # Impossible inputs: each must be named in that section's input check.
+    def val(fam, uid, v):
+        return {"v": v, "unit": unit(fam, uid)}
+    bad_inputs = [
+        ("cooling-water", "flow", {"Q": val("power", "kw", 50000), "V": val("vflow", "m3h", 100), "tin": val("temp", "c", 30)}, "above 100"),
+        ("cooling-water", "flow", {"Q": val("power", "kw", 1200), "tin": val("temp", "c", 40), "tout": val("temp", "c", 30)}, "must be higher"),
+        ("steam", "heating", {"mp": val("mflow", "kgh", 20000), "cp": val("cp", "kjkgk", 4.18), "t1": val("temp", "c", 30), "t2": val("temp", "c", 160), "ps": val("pabs", "barg", 4)}, "cannot heat"),
+        ("steam", "flash", {"mc": val("mflow", "kgh", 5000), "p1": val("pabs", "barg", 1), "p2": val("pabs", "barg", 10)}, "must be lower"),
+        ("cooling-water", "exchanger", {"thi": val("temp", "c", 80), "tho": val("temp", "c", 40), "tci": val("temp", "c", 30), "tco": val("temp", "c", 85), "flow": {"v": 1, "unit": None}, "Q": val("power", "kw", 1000), "U": val("uval", "wm2k", 500)}, "temperature cross"),
+        ("process-water", "pump", {"V": val("vflow", "m3h", 50), "H": val("head", "m", 36), "ep": val("pct", "pct", 0)}, "more than 0 %"),
+        ("process-water", "pipe", {"V": val("vflow", "m3h", 50), "d": val("diam", "mm", 0), "len": val("length", "m", 200), "eps": val("rough", "mm", 0.045), "t": val("temp", "c", 25)}, "greater than zero"),
+        ("nitrogen", "pressure-purge", {"V": val("volume", "m3", 20), "ph": val("pabs", "barg", 4), "pl": val("pabs", "barg", 0.2), "T": val("temp", "c", 25), "c0": val("pct", "pct", 20.9), "ct": val("pct", "pct", 0.4), "cs": val("pct", "pct", 0.5)}, "between"),
+        ("compressed-air", "receiver", {"n": val("gasflow", "nm3min", 10), "p1": val("pabs", "barg", 6), "p2": val("pabs", "barg", 7), "T": val("temp", "c", 30), "t": val("time", "min", 2)}, "Start pressure"),
+        ("hot-oil", "heater", {"Q": val("power", "kw", 1500), "eff": val("pct", "pct", 120)}, "no more than 100"),
+    ]
+    for n, (sl, sid, vals, want) in enumerate(bad_inputs):
+        b, c = recalc_compare(path, {(sl, sid): (vals, None)}, {}, tmp, f"bad{n}", {(sl, sid): want})
+        bad += b
+        checked += c
+    print(f"verify: {checked} results and input checks compared, {bad} problems")
     shutil.rmtree(tmp, ignore_errors=True)
     return bad
 

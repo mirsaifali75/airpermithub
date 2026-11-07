@@ -151,10 +151,43 @@ describe("hand checks", () => {
     const { r } = run("process-water", "demand", { loss: [10, "pct"] }, { users: [["A", 10, 2, 50], ["B", 5, null, null]] });
     expect(r("net")! * 3600).toBeCloseTo(25 - 10 + 2.5, 9);
   });
-  it("flags an input outside its range", () => {
+  it("stops on an input outside its physical range", () => {
     const { out } = run("steam", "flash", { mc: [-5, "kgh"], p1: [10, "barg"], p2: [1, "barg"] });
-    expect(out.warnings[0]).toMatch(/Outside the expected range/);
+    expect(out.error).toMatch(/Condensate flow must be at least 0/);
+    expect(out.results).toHaveLength(0);
   });
+  it("only warns outside a typical (soft) range", () => {
+    const { out, r } = run("steam", "boiler", { ms: [10000, "kgh"], p: [10, "barg"], tfw: [105, "c"], bd: [60, "pct"], eff: [82, "pct"] });
+    expect(out.error).toBeUndefined();
+    expect(out.warnings[0]).toMatch(/usually between 0 % and 50 %/);
+    expect(r("mbd")).toBeGreaterThan(0);
+  });
+});
+
+// Every case here once gave a number instead of an error. None may return a result.
+describe("impossible inputs give an error, not a number", () => {
+  const cases: [string, string, Record<string, [number, string]>, RegExp][] = [
+    ["cooling-water", "flow", { Q: [50, "mw"], V: [100, "m3h"], tin: [30, "c"] }, /above the boiling point/],
+    ["chilled-water", "load", { Q: [5000, "kw"], V: [50, "m3h"], tr: [12, "c"] }, /below freezing/],
+    ["steam", "heating", { mp: [20000, "kgh"], cp: [4.18, "kjkgk"], t1: [30, "c"], t2: [160, "c"], ps: [4, "barg"] }, /cannot heat the product/],
+    ["steam", "heating", { Q: [1000, "kw"], ps: [4, "barg"], loss: [100, "pct"] }, /between 0 % and 99 %/],
+    ["steam", "boiler", { ms: [10000, "kgh"], p: [10, "barg"], tfw: [105, "c"], bd: [100, "pct"], eff: [82, "pct"] }, /below 100 %/],
+    ["process-water", "pipe", { V: [50, "m3h"], d: [0, "mm"], len: [200, "m"], eps: [0.045, "mm"], t: [25, "c"] }, /greater than zero/],
+    ["process-water", "pump", { V: [50, "m3h"], H: [36, "m"], ep: [0, "pct"] }, /Pump efficiency must be between/],
+    ["hot-oil", "heater", { Q: [1500, "kw"], eff: [120, "pct"] }, /Heater efficiency must be between/],
+    ["compressed-air", "hole", { d: [3, "mm"], p0: [7, "barg"], t0: [25, "c"], cd: [1.5, "x"] }, /Discharge coefficient must be between/],
+    ["compressed-air", "compressor", { n: [1000, "nm3h"], p1: [1.013, "bara"], t1: [30, "c"], p2: [7, "barg"], N: [1, "n"], k: [0.9, "x"], eta: [80, "pct"] }, /between 1.01 and 1.7/],
+    ["compressed-air", "leaks", { on: [-5, "s"], off: [100, "s"] }, /at least 0 s/],
+    ["nitrogen", "sweep-purge", { V: [30, "m3"], c0: [20.9, "pct"], ct: [5, "pct"], k: [1.5, "x"] }, /between 0.05 and 1/],
+    ["cooling-water", "exchanger", { thi: [40, "c"], tho: [80, "c"], tci: [10, "c"], tco: [20, "c"], flow: [1, "n"], Q: [1000, "kw"], U: [500, "wm2k"] }, /hot side must cool down/],
+  ];
+  for (const [slug, section, values, msg] of cases) {
+    it(`${slug} ${section}: ${msg.source}`, () => {
+      const { out } = run(slug, section, values);
+      expect(out.error).toMatch(msg);
+      expect(out.results.filter((x) => x.key)).toHaveLength(0);
+    });
+  }
 });
 
 describe("spreadsheet review", () => {
@@ -203,6 +236,28 @@ describe("workbook keys and Excel round trip", () => {
         for (const i of s.inputs) expect(keys.has(`in:${u.slug}.${s.id}.${i.id}`), `${u.slug}.${s.id}.${i.id}`).toBe(true);
         if (s.list) expect(keys.has(`list:${u.slug}.${s.id}.${s.list.id}.0`)).toBe(true);
       }
+  });
+
+  it("locks every formula, leaves only the input cells open, and keeps that after the site's export", async () => {
+    const src = new ExcelJS.Workbook();
+    await src.xlsx.load(file() as never);
+    src.addWorksheet("Calculation Record"); // what exportUtilities adds
+    const wb = new ExcelJS.Workbook();
+    await wb.xlsx.load((await src.xlsx.writeBuffer()) as never);
+    for (const u of utilities) {
+      const ws = wb.getWorksheet(u.sheet)!;
+      expect((ws as unknown as { sheetProtection?: { sheet?: boolean } }).sheetProtection?.sheet, u.sheet).toBe(true);
+      ws.eachRow((row) =>
+        row.eachCell((c) => {
+          const key = row.getCell(6).value;
+          const isInput = Number(c.col) === 2 && typeof key === "string" && key.startsWith("in:");
+          if (c.formula) expect(c.protection?.locked, `${u.sheet}!${c.address} formula`).not.toBe(false);
+          if (isInput) expect(c.protection?.locked, `${u.sheet}!${c.address} input`).toBe(false);
+          if (isInput && !u.sections.some((s) => s.inputs.some((i) => i.choices && key === `in:${u.slug}.${s.id}.${i.id}`)))
+            expect(c.dataValidation?.type, `${u.sheet}!${c.address} number-only`).toBe("decimal");
+        }),
+      );
+    }
   });
 
   it("imports inputs typed into the workbook, in the units written beside them", async () => {

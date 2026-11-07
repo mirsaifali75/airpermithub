@@ -18,6 +18,8 @@ export interface InputDef {
   /** Allowed range in SI base units; outside it the input is flagged. */
   min?: number;
   max?: number;
+  /** The range is a typical bound, not a physical one: outside it is a warning, not an error. */
+  soft?: boolean;
 }
 
 /** A table input, e.g. a list of water users. */

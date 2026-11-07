@@ -106,10 +106,15 @@ const heating: SectionDef = {
       if (Q <= 0) return c.done("The outlet must be hotter than the inlet for steam heating.");
     }
     const loss = v.loss ?? 0;
+    if (!(loss < 100)) return c.done("Heat losses must be below 100 %.");
     const Qs = Q / (1 - loss / 100);
     if (loss) c.step("Allow for losses", `Q_steam = ${fmt(Q)} ÷ (1 − ${fmt(loss)}/100) = ${q(Qs, "power", "kw")}`, "Q_steam = Q ÷ (1 − L)");
     try {
       const s = steamState(c, c.n("ps"), v.ts ?? null);
+      const tsatS = s.sat.T - 273.15;
+      if (v.t2 !== null && v.t2 !== undefined && (v.Q ?? null) === null && v.t2 >= tsatS)
+        return c.done(`Steam condensing at ${fmt(tsatS)} °C cannot heat the product to ${fmt(v.t2)} °C. Raise the steam pressure (the product outlet should be at least 5 to 10 °C below the steam's saturation temperature).`);
+      if (v.t2 !== null && v.t2 !== undefined && (v.Q ?? null) === null && v.t2 > tsatS - 5) c.warn(`The product outlet (${fmt(v.t2)} °C) is within 5 °C of the steam's saturation temperature (${fmt(tsatS)} °C). The heater would need a very large area; check the steam pressure.`);
       let hc = s.sat.hf;
       if (v.tc !== null && v.tc !== undefined) {
         const tsatC = s.sat.T - 273.15;
@@ -152,7 +157,7 @@ const boiler: SectionDef = {
     P("p", "Boiler drum pressure", "P"),
     { id: "ts", label: "Steam temperature (blank = saturated)", sym: "Ts", family: "temp", unit: "c", optional: true },
     { id: "tfw", label: "Feedwater temperature", sym: "Tfw", family: "temp", unit: "c", min: 0, max: 350 },
-    { id: "bd", label: "Blowdown, % of feedwater", sym: "b", family: "pct", unit: "pct", optional: true, min: 0, max: 50 },
+    { id: "bd", soft: true, label: "Blowdown, % of feedwater", sym: "b", family: "pct", unit: "pct", optional: true, min: 0, max: 50 },
     { id: "tdsf", label: "Or: feedwater TDS", family: "ppm", unit: "ppm", optional: true, min: 0 },
     { id: "tdsb", label: "and: maximum boiler water TDS", family: "ppm", unit: "ppm", optional: true, min: 0 },
     { id: "eff", label: "Boiler efficiency (fuel to steam, HHV basis)", sym: "η", family: "pct", unit: "pct", min: 1, max: 100, help: "From your boiler test or the manufacturer. State whether it is HHV or LHV, and use the matching heating value." },
@@ -173,6 +178,7 @@ const boiler: SectionDef = {
     let b = 0;
     if (v.bd !== null && v.bd !== undefined) {
       b = v.bd / 100;
+      if (!(b < 1)) return c.done("Blowdown must be below 100 % of feedwater.");
       c.step("Blowdown fraction (entered)", `b = ${fmt(v.bd)} % ÷ 100 = ${fmt(b)}`);
     } else if (v.tdsf && v.tdsb) {
       if (v.tdsb <= v.tdsf) return c.done("Maximum boiler water TDS must be higher than the feedwater TDS.");
