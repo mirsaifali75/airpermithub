@@ -94,6 +94,9 @@
 }
 
 @layer base {
+  /* Full-width pages: keep running text at a readable line length. Zero specificity, so any max-w-* utility wins. */
+  :where(p, dd, blockquote) { max-width: 78ch; }
+  :where(.text-center) > :where(p), :where(p.text-center) { margin-inline: auto; }
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
@@ -157,10 +160,11 @@
 @utility container-page {
   margin-inline: auto;
   width: 100%;
-  max-width: 80rem;
+  /* Full screen width with a slim edge margin: MIR asked for no side gaps (2026-11-07).
+     Reading text keeps its own max-w-* cap (e.g. "container-page max-w-3xl"). */
   padding-inline: 1rem;
   @media (width >= 40rem) { padding-inline: 1.5rem; }
-  @media (width >= 64rem) { padding-inline: 2rem; }
+  @media (width >= 64rem) { padding-inline: clamp(2rem, 2.5vw, 3rem); }
 }
 
 @media print {

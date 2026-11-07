@@ -7,9 +7,9 @@ import { cn } from "@/lib/cn";
 /** Quiet inline disclaimer used on tools and regulatory pages. */
 export function Disclaimer({ variant = "general", className }: { variant?: "general" | "screening"; className?: string }) {
   return (
-    <p className={cn("flex gap-2 rounded-xl border border-line bg-white/70 px-4 py-3 text-xs leading-relaxed text-muted", className)}>
+    <p className={cn("flex max-w-none gap-2 rounded-xl border border-line bg-white/70 px-4 py-3 text-xs leading-relaxed text-muted", className)}>
       <Info className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" aria-hidden="true" />
-      <span>
+      <span className="max-w-[120ch]">
         {variant === "screening" ? site.screeningDisclaimer : site.disclaimer}{" "}
         <Link href="/disclaimer" className="font-medium text-brand-600 underline-offset-2 hover:underline">
           Full disclaimer
