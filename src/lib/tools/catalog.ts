@@ -1,11 +1,12 @@
 import { converters } from "./converters";
+import { UTIL_BASE, utilities } from "../utilities";
 
 /**
  * Practitioner tools, each framed by the everyday problem it answers. Used by
  * the tools hub, the home page, search, and the sitemap.
  */
 
-export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap" | "inventory" | "cam";
+export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap" | "inventory" | "cam" | "utility" | "review";
 
 export interface ToolEntry {
   slug: string;
@@ -64,6 +65,15 @@ export const coreTools: ToolEntry[] = [
     description: "Screen each unit and pollutant against the three 40 CFR 64.2(a) criteria, then record indicators, ranges, performance criteria, and excursion response, with the Part 64 text quoted beside each item.",
     icon: "cam",
     keywords: "cam plan compliance assurance monitoring part 64 64.2 applicability indicator range excursion exceedance pre-control potential to emit title v monitoring",
+  },
+  {
+    slug: "utility-calculators",
+    href: UTIL_BASE,
+    name: "Plant Utility Calculators",
+    problem: "How much steam, cooling water, chilled water, compressed air, or nitrogen does this unit need, and what does it cost?",
+    description: "Steam (IAPWS-IF97), cooling water and towers, chilled water, process water and pumps, compressed air, nitrogen, and hot oil: 24 calculations with worked examples, metric and US units, every step shown, and Excel import and export.",
+    icon: "utility",
+    keywords: "utility calculation process plant utilities steam cooling water chilled water process water compressed air nitrogen hot oil thermal fluid calculation sheet excel",
   },
   {
     slug: "rolling-12-month-tracker",
@@ -140,5 +150,18 @@ export const converterTools: ToolEntry[] = converters.map((c) => ({
   keywords: c.keywords,
 }));
 
+export const utilityTools: ToolEntry[] = [
+  ...utilities.map((u) => ({ slug: `utility-${u.slug}`, href: `${UTIL_BASE}/${u.slug}`, name: u.name, problem: u.problem, description: u.description, icon: "utility" as const, keywords: u.keywords })),
+  {
+    slug: "excel-review",
+    href: `${UTIL_BASE}/excel-review`,
+    name: "Excel Calculation Sheet Review",
+    problem: "Is my utility calculation spreadsheet right? Are there broken formulas, blank inputs, or rules of thumb used out of range?",
+    description: "Import any .xlsx calculation sheet to find error cells, broken references, formulas that read blank cells, numbers stored as text, and hard-coded constants with what they assume. AirPermitHub workbooks are fully recalculated and compared.",
+    icon: "review",
+    keywords: "excel calculation sheet review spreadsheet check formula audit engineering spreadsheet errors div/0 ref hard coded constants 500 rule",
+  },
+];
+
 /** Every tool with its own page (converters individually, not the hub anchor). */
-export const allToolPages = [...coreTools.filter((t) => t.slug !== "converters"), ...converterTools];
+export const allToolPages = [...coreTools.filter((t) => t.slug !== "converters"), ...utilityTools, ...converterTools];

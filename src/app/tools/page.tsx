@@ -8,7 +8,7 @@ import { ShareLinks } from "@/components/ui/ShareLinks";
 import { practitionerGuides } from "@/lib/data/practitioner-guides";
 import { accountsEnabled } from "@/lib/auth/config";
 import { site } from "@/lib/site";
-import { converterTools, coreTools } from "@/lib/tools/catalog";
+import { converterTools, coreTools, utilityTools } from "@/lib/tools/catalog";
 import { JsonLd } from "@/components/ui/JsonLd";
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export default function ToolsPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "AirPermitHub practitioner tools",
-    itemListElement: [...coreTools.filter((t) => t.slug !== "converters"), ...converterTools].map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, url: `${site.url}${t.href}` })),
+    itemListElement: [...coreTools.filter((t) => t.slug !== "converters"), ...utilityTools, ...converterTools].map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, url: `${site.url}${t.href}` })),
   };
   return (
     <>
@@ -59,6 +59,21 @@ export default function ToolsPage() {
                 </li>
               );
             })}
+          </ul>
+        </section>
+
+        <section id="utilities" aria-labelledby="util-heading" className="scroll-mt-24">
+          <h2 id="util-heading" className="text-2xl font-bold text-ink sm:text-3xl">Plant utility calculators</h2>
+          <p className="mt-2 max-w-2xl text-muted">Steam, cooling and chilled water, process water, compressed air, nitrogen, and hot oil, with worked examples, every formula, and Excel import and export.</p>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {utilityTools.map((t) => (
+              <li key={t.slug}>
+                <Link href={t.href} className="group flex h-full flex-col rounded-xl border border-line bg-white p-4 shadow-card hover:border-brand-200">
+                  <span className="font-bold text-navy-900 group-hover:text-brand-700">{t.name}</span>
+                  <span className="mt-1 line-clamp-3 text-xs text-muted">{t.description}</span>
+                </Link>
+              </li>
+            ))}
           </ul>
         </section>
 
