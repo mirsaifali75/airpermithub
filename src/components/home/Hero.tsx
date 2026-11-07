@@ -36,26 +36,26 @@ const popular = [
 export function Hero({ stateCount }: { stateCount: number }) {
   return (
     <section className="bg-canvas pt-6 sm:pt-9">
-      <div className="container-page">
-        {/* Option E: the photo sits in a frame with a thin ivory rule inside it; the full logo is in the masthead above. */}
-        <div className="relative isolate overflow-hidden bg-navy-950 text-white">
-          <Image src={heroPhoto} alt="" priority sizes="(min-width: 1280px) 1216px, 100vw" className="absolute inset-0 -z-10 h-full w-full object-cover" />
-          <div aria-hidden="true" className="absolute inset-0 -z-10 bg-navy-950/55" />
-          <div aria-hidden="true" className="pointer-events-none absolute inset-3 border border-gold-200/60 sm:inset-[22px]" />
-          <div className="relative mx-auto max-w-4xl px-6 pt-16 pb-20 text-center sm:px-10 sm:pt-24 sm:pb-28 lg:pt-28 lg:pb-32">
-            <p className="animate-fade-up text-[0.7rem] font-semibold tracking-[0.3em] text-gold-200 uppercase sm:text-[0.8rem]">Nationwide Air Permitting Excellence</p>
-            <h1 className="mt-5 animate-fade-up text-[2.6rem] leading-[1.04] font-semibold sm:text-6xl lg:text-[4.6rem]">Air Permitting. Compliance. Simplified.</h1>
-            <p className="mx-auto mt-5 max-w-2xl animate-fade-up text-base leading-relaxed text-white/90 sm:text-lg">
-              Tools, guidance and resources for environmental professionals to navigate air permitting and compliance with confidence.
-            </p>
-            <div className="mt-8 flex animate-fade-up flex-col justify-center gap-3 sm:flex-row">
-              <Link href="/sign-up" className={cn(buttonClass("subtle", "lg"), "border-white")}>Create a free account</Link>
-              <Link href="/calculators" className={buttonClass("outline-light", "lg")}>Preview the tools</Link>
-              <Link href="/sign-in" className={buttonClass("outline-light", "lg")}>Sign in</Link>
-            </div>
+      {/* Option E, full width (2026-11-07): the photo runs edge to edge with a thin ivory rule inside it; the full logo is in the masthead above. */}
+      <div className="relative isolate overflow-hidden bg-navy-950 text-white">
+        <Image src={heroPhoto} alt="" priority sizes="100vw" className="absolute inset-0 -z-10 h-full w-full object-cover" />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-navy-950/55" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-3 border border-gold-200/60 sm:inset-[22px]" />
+        <div className="relative mx-auto max-w-4xl px-6 pt-16 pb-20 text-center sm:px-10 sm:pt-24 sm:pb-28 lg:pt-28 lg:pb-32">
+          <p className="animate-fade-up text-[0.7rem] font-semibold tracking-[0.3em] text-gold-200 uppercase sm:text-[0.8rem]">Nationwide Air Permitting Excellence</p>
+          <h1 className="mt-5 animate-fade-up text-[2.6rem] leading-[1.04] font-semibold sm:text-6xl lg:text-[4.6rem]">Air Permitting. Compliance. Simplified.</h1>
+          <p className="mx-auto mt-5 max-w-2xl animate-fade-up text-base leading-relaxed text-white/90 sm:text-lg">
+            Tools, guidance and resources for environmental professionals to navigate air permitting and compliance with confidence.
+          </p>
+          <div className="mt-8 flex animate-fade-up flex-col justify-center gap-3 sm:flex-row">
+            <Link href="/sign-up" className={cn(buttonClass("subtle", "lg"), "border-white")}>Create a free account</Link>
+            <Link href="/calculators" className={buttonClass("outline-light", "lg")}>Preview the tools</Link>
+            <Link href="/sign-in" className={buttonClass("outline-light", "lg")}>Sign in</Link>
           </div>
         </div>
+      </div>
 
+      <div className="container-page">
         <form action="/search" role="search" className="relative z-10 mx-auto -mt-8 flex max-w-3xl animate-fade-up flex-col gap-2 border border-rule bg-white p-2 shadow-[0_12px_30px_rgb(10_30_51/0.12)] [animation-delay:120ms] sm:-mt-9 sm:flex-row sm:items-center sm:gap-0 sm:p-0">
           <label htmlFor="hero-q" className="sr-only">Search AirPermitHub</label>
           <div className="flex min-w-0 flex-1 items-center gap-3 px-3 sm:px-5">

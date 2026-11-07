@@ -52,7 +52,7 @@ export function ProductPreviews() {
             <li key={p.title}>
               <Link href={p.href} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-rule bg-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-lift">
                 <div className="relative aspect-[16/10] overflow-hidden border-b border-rule bg-canvas">
-                  <Image src={p.image} alt={`${p.title} with example data`} width={p.width} height={p.height} sizes="(min-width: 1024px) 400px, 100vw" className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]" />
+                  <Image src={p.image} alt={`${p.title} with example data`} width={p.width} height={p.height} sizes="(min-width: 1024px) 33vw, 100vw" className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]" />
                   {/* Trailer: a clear look at the tool, with a lock badge for the full version. */}
                   <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 bg-navy-900 px-3 py-1.5 text-xs font-semibold text-white shadow-lift">
                     <Lock className="h-3.5 w-3.5" aria-hidden="true" /> Full version with a free account

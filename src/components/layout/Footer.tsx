@@ -42,7 +42,9 @@ export function Footer() {
             ))}
           </div>
         </div>
-        <p className="mt-12 border-t border-gold-200/20 pt-6 text-xs leading-relaxed text-white/65">{site.disclaimer}</p>
+        <p className="mt-12 max-w-none border-t border-gold-200/20 pt-6 text-xs leading-relaxed text-white/65">
+          <span className="block max-w-[120ch]">{site.disclaimer}</span>
+        </p>
         <div className="mt-6 flex flex-col-reverse gap-4 text-sm text-white/65 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} AirPermitHub. All rights reserved.</p>
           <SocialIcons />

@@ -34,7 +34,7 @@ export function IndustriesAndRegulations() {
                         src={industryPhoto[i.slug]}
                         alt=""
                         fill
-                        sizes="(min-width: 1536px) 220px, (min-width: 1024px) 18vw, (min-width: 640px) 24vw, 48vw"
+                        sizes="(min-width: 1024px) 18vw, (min-width: 640px) 24vw, 48vw"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>

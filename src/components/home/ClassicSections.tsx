@@ -54,7 +54,7 @@ export function WhatWeCover() {
           <Eyebrow>What we cover</Eyebrow>
           <h2 id="cover-heading" className="mt-3 text-4xl leading-[1.08] text-navy-900 sm:text-5xl">Everything an air permit asks of you, in one place</h2>
           <div className="mt-8 border-8 border-white shadow-[0_1px_0_var(--color-rule)]">
-            <Image src={reviewPhoto} alt="Engineer reviewing permit records on a laptop in a field truck" sizes="(min-width: 1024px) 520px, 100vw" className="h-64 w-full object-cover sm:h-[21rem]" />
+            <Image src={reviewPhoto} alt="Engineer reviewing permit records on a laptop in a field truck" sizes="(min-width: 1024px) 45vw, 100vw" className="h-64 w-full object-cover sm:h-[21rem]" />
           </div>
         </div>
         <ol className="self-start">
