@@ -59,7 +59,7 @@ async function signOut(page) {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const page = await ctx.newPage();
   const errors = [];
-  page.on("pageerror", (e) => errors.push(String(e)));
+  page.on("pageerror", (e) => errors.push(`${String(e)} on ${page.url().replace(BASE, "")}`));
   page.on("console", (m) => { if (m.type() === "error" && !/favicon|_vercel/.test(m.text() + (m.location()?.url ?? ""))) errors.push(m.text()); });
   const phone = freshNumber();
 
@@ -120,7 +120,7 @@ async function signOut(page) {
   await page.goto(`${BASE}/account`);
   const acct = await page.locator("main").innerText();
   ok("account page shows the confirmed number", /Phone number/.test(acct) && acct.includes(pretty(phone)) && /Confirmed/.test(acct));
-  ok("account page has no email card", (await page.getByRole("heading", { name: "Email", exact: true }).count()) === 0);
+  ok("account page offers to add an email", (await page.getByRole("button", { name: "Add an email address" }).count()) === 1 && !(await page.getByRole("button", { name: "Change email" }).count()));
   ok("delete asks for the phone number", await page.getByLabel("Type your phone number to confirm").isVisible());
   await page.screenshot({ path: `${SHOTS}/phone-account.png`, fullPage: true });
 

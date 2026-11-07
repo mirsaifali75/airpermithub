@@ -4,15 +4,15 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { signIn, signOut } from "@/auth";
 import { googleEnabled } from "@/lib/auth/config";
-import { appUrl, passwordChangedEmail, sendEmail, twoStepChangedEmail, verifyEmail } from "@/lib/auth/email";
+import { appUrl, confirmNewEmail, emailChangeNotice, emailInUseEmail, passwordChangedEmail, sendEmail, twoStepChangedEmail, verifyEmail } from "@/lib/auth/email";
 import {
-  beginTwoStep, changePassword, confirmTwoStep, disableTwoStep, regenerateBackupCodes, reissueVerification,
+  beginTwoStep, changePassword, confirmTwoStep, disableTwoStep, regenerateBackupCodes, reissueVerification, startEmailChange,
 } from "@/lib/auth/flows";
 import { field, textField, type FormState } from "@/lib/auth/forms";
-import { claim, emailKey, release, rules } from "@/lib/auth/limits";
+import { claim, emailKey, networkKey, release, rules, succeeded, userKey } from "@/lib/auth/limits";
 import { verifyPassword } from "@/lib/auth/password";
 import { normalizePhone } from "@/lib/auth/phone";
-import { currentSessionToken } from "@/lib/auth/server";
+import { clientNetwork, currentSessionToken } from "@/lib/auth/server";
 import { getSession } from "@/lib/auth/session";
 import { accountTypes, type AccountType } from "@/lib/auth/types";
 import { prisma } from "@/lib/db/prisma";
@@ -62,6 +62,37 @@ export async function resendVerification(): Promise<FormState> {
     return { error: "We couldn't send the email just now. Try again in a few minutes." };
   }
   return { notice: `We sent a new link to ${issued.email}.` };
+}
+
+/**
+ * Asks to change the account's email (or add one to a phone account). The new
+ * address gets a link; the old one gets a notice. The reply is the same when
+ * the new address already has an account.
+ */
+export async function requestEmailChange(_: FormState, form: FormData): Promise<FormState> {
+  const s = await me();
+  const values = { email: field(form, "email").trim().slice(0, 300) };
+  const tries = await claim(prisma, [[userKey(s.user.id), rules.accountCheck]]);
+  if (!tries) return { error: "Too many wrong passwords or codes. Wait 15 minutes and try again.", values };
+  const started = await startEmailChange(prisma, s.user.id, { email: values.email, password: field(form, "password"), code: field(form, "code") });
+  if ("error" in started) {
+    // Only a wrong password or code counts toward the limit.
+    if (started.field === "email") await release(prisma, tries);
+    return { error: started.error, field: started.field, values };
+  }
+  await succeeded(prisma, tries);
+  const sends = await claim(prisma, [[emailKey(started.email), rules.emailSend], [networkKey(await clientNetwork()), rules.emailNetwork]]);
+  if (!sends) return { error: "We've sent several emails to that address in the last hour. Try again later.", values };
+  try {
+    await sendEmail(started.email, started.token ? confirmNewEmail(appUrl(`/account/confirm-email?token=${encodeURIComponent(started.token)}`)) : emailInUseEmail());
+  } catch (e) {
+    await release(prisma, sends);
+    console.error("email change link failed", e instanceof Error ? e.message : e);
+    return { error: "We couldn't send the email just now. Try again in a few minutes.", values };
+  }
+  await sendEmail(started.oldEmail, emailChangeNotice(started.email, false, new Date())).catch((e) => console.error("email change notice failed", e instanceof Error ? e.message : e));
+  await audit(s.user.id, "user.email-change-requested");
+  return { notice: `We sent a link to ${started.email}. Open it within 24 hours to finish the change. Until then, your account keeps ${s.user.email ? "its current email" : "signing in with your phone number"}.` };
 }
 
 export async function changePasswordAction(_: FormState, form: FormData): Promise<FormState> {

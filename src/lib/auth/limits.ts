@@ -25,6 +25,8 @@ export const rules = {
   smsDaily: { action: "sms", limit: Number(process.env.SMS_DAILY_LIMIT) || 300, minutes: 1440 },
   /** Wrong texted codes for one number, on top of Twilio's 5 checks per code. */
   phoneCode: { action: "phone-code", limit: 10, minutes: 60, failuresOnly: true },
+  /** Wrong passwords or codes on account-settings forms that need them, per account. */
+  accountCheck: { action: "account-check", limit: 8, minutes: 15, failuresOnly: true },
   /** The contact form: a sender, a network, and the whole site each have a cap, so nobody can flood the inbox. */
   contactSender: { action: "contact", limit: 3, minutes: 60 },
   contactNetwork: { action: "contact", limit: 5, minutes: 60 },
@@ -38,6 +40,7 @@ export const networkKey = (ip: string) => `net:${keyed(ip)}`;
 export const phoneKey = (phone: string) => `phone:${keyed(phone)}`;
 /** One key for the whole site, for the daily cap on texts. */
 export const SITE_KEY = "site";
+export const userKey = (id: string) => `user:${id}`;
 
 export async function overLimit(db: Db, key: string, rule: Rule, now = new Date()) {
   const since = new Date(now.getTime() - rule.minutes * 60_000);

@@ -1,7 +1,8 @@
 "use client";
 
-import { useActionState, useId } from "react";
-import { changePasswordAction, deleteAccount, resendVerification } from "@/app/account/actions";
+import { useActionState, useId, useState } from "react";
+import { changePasswordAction, deleteAccount, requestEmailChange, resendVerification } from "@/app/account/actions";
+import { confirmEmailChangeAction } from "@/app/account/confirm-email/actions";
 import { Button } from "@/components/ui/Button";
 import type { FormState } from "@/lib/auth/forms";
 import { PASSWORD_MIN } from "@/lib/auth/password-rules";
@@ -14,6 +15,54 @@ export function ResendVerificationForm() {
       <FormAlert message={state.error} />
       <FormAlert message={state.notice} tone="ok" />
       <Button type="submit" variant="subtle" size="sm" disabled={pending}>{pending ? "Sending..." : "Send a new confirmation link"}</Button>
+    </form>
+  );
+}
+
+/**
+ * Change the account's email, or add one to a phone account. Opens from a
+ * button so the settings page stays short. Needs the password, and a two-step
+ * code when two-step login is on.
+ */
+export function EmailChangeForm({ adding, twoStep }: { adding: boolean; twoStep: boolean }) {
+  const id = useId();
+  const [open, setOpen] = useState(false);
+  const [state, action, pending] = useActionState<FormState, FormData>(requestEmailChange, {});
+  const err = (f: string) => (state.field === f ? state.error : undefined);
+  if (state.notice) return <FormAlert message={state.notice} tone="ok" />;
+  if (!open) {
+    return <Button type="button" variant="subtle" size="sm" onClick={() => setOpen(true)}>{adding ? "Add an email address" : "Change email"}</Button>;
+  }
+  return (
+    <form action={action} className="space-y-4">
+      <FormAlert message={state.field ? undefined : state.error} />
+      <Field id={`${id}-email`} label={adding ? "Email address" : "New email address"} error={err("email")} hint="We'll send a link there to confirm it.">
+        <input id={`${id}-email`} name="email" type="email" autoComplete="email" required maxLength={254} defaultValue={state.values?.email} className={inputClass} aria-invalid={!!err("email") || undefined} aria-describedby={err("email") ? `${id}-email-err` : `${id}-email-hint`} />
+      </Field>
+      <Field id={`${id}-password`} label="Your password" error={err("password")}>
+        <PasswordInput id={`${id}-password`} name="password" autoComplete="current-password" invalid={!!err("password")} />
+      </Field>
+      {twoStep && (
+        <Field id={`${id}-code`} label="Two-step code" error={err("code")} hint="From your authenticator app, or a backup code.">
+          <input id={`${id}-code`} name="code" required autoComplete="one-time-code" maxLength={20} className={inputClass} aria-invalid={!!err("code") || undefined} aria-describedby={err("code") ? `${id}-code-err` : `${id}-code-hint`} />
+        </Field>
+      )}
+      <div className="flex flex-wrap gap-3">
+        <Button type="submit" disabled={pending}>{pending ? "Sending..." : "Send confirmation link"}</Button>
+        <Button type="button" variant="subtle" onClick={() => setOpen(false)}>Cancel</Button>
+      </div>
+    </form>
+  );
+}
+
+/** The button on the page the new address's link opens. */
+export function ConfirmEmailChangeForm({ token }: { token: string }) {
+  const [state, action, pending] = useActionState<FormState, FormData>(confirmEmailChangeAction, {});
+  return (
+    <form action={action} className="space-y-4">
+      <input type="hidden" name="token" value={token} />
+      <FormAlert message={state.error} />
+      <Button type="submit" size="lg" className="w-full" disabled={pending}>{pending ? "Confirming..." : "Use this email"}</Button>
     </form>
   );
 }
