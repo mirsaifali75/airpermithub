@@ -250,7 +250,7 @@ describe("workbook keys and Excel round trip", () => {
       ws.eachRow((row) =>
         row.eachCell((c) => {
           const key = row.getCell(6).value;
-          const isInput = c.col === 2 && typeof key === "string" && key.startsWith("in:");
+          const isInput = Number(c.col) === 2 && typeof key === "string" && key.startsWith("in:");
           if (c.formula) expect(c.protection?.locked, `${u.sheet}!${c.address} formula`).not.toBe(false);
           if (isInput) expect(c.protection?.locked, `${u.sheet}!${c.address} input`).toBe(false);
           if (isInput && !u.sections.some((s) => s.inputs.some((i) => i.choices && key === `in:${u.slug}.${s.id}.${i.id}`)))
