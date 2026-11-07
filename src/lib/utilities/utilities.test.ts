@@ -238,6 +238,28 @@ describe("workbook keys and Excel round trip", () => {
       }
   });
 
+  it("locks every formula, leaves only the input cells open, and keeps that after the site's export", async () => {
+    const src = new ExcelJS.Workbook();
+    await src.xlsx.load(file() as never);
+    src.addWorksheet("Calculation Record"); // what exportUtilities adds
+    const wb = new ExcelJS.Workbook();
+    await wb.xlsx.load((await src.xlsx.writeBuffer()) as never);
+    for (const u of utilities) {
+      const ws = wb.getWorksheet(u.sheet)!;
+      expect((ws as unknown as { sheetProtection?: { sheet?: boolean } }).sheetProtection?.sheet, u.sheet).toBe(true);
+      ws.eachRow((row) =>
+        row.eachCell((c) => {
+          const key = row.getCell(6).value;
+          const isInput = c.col === 2 && typeof key === "string" && key.startsWith("in:");
+          if (c.formula) expect(c.protection?.locked, `${u.sheet}!${c.address} formula`).not.toBe(false);
+          if (isInput) expect(c.protection?.locked, `${u.sheet}!${c.address} input`).toBe(false);
+          if (isInput && !u.sections.some((s) => s.inputs.some((i) => i.choices && key === `in:${u.slug}.${s.id}.${i.id}`)))
+            expect(c.dataValidation?.type, `${u.sheet}!${c.address} number-only`).toBe("decimal");
+        }),
+      );
+    }
+  });
+
   it("imports inputs typed into the workbook, in the units written beside them", async () => {
     const wb = new ExcelJS.Workbook();
     await wb.xlsx.load(file() as never);

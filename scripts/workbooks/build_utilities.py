@@ -25,7 +25,7 @@ from datetime import date
 from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
-from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Protection, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 
 SPEC_PATH, OUT = sys.argv[1], Path(sys.argv[2])
@@ -155,6 +155,31 @@ def if97_sheet(wb):
     }
 
 
+# ---------------------------------------------------------------- locking
+# Only the yellow input cells can be edited; every formula is locked. The sheets have no password, so an
+# engineer who wants to change a formula can still use Review > Unprotect Sheet on purpose.
+UNLOCKED = Protection(locked=False)
+_NUMBER_DV = {}
+
+
+def number_only(ws):
+    """One data validation per sheet that accepts numbers only (blank allowed)."""
+    if ws.title not in _NUMBER_DV:
+        dv = DataValidation(type="decimal", operator="between", formula1="-1E+300", formula2="1E+300", allow_blank=True,
+                            showErrorMessage=True, errorTitle="Numbers only", error="Type a number in the unit shown in column C, or leave the cell blank.")
+        ws.add_data_validation(dv)
+        _NUMBER_DV[ws.title] = dv
+    return _NUMBER_DV[ws.title]
+
+
+def lock(ws):
+    ws.protection.sheet = True
+    ws.protection.formatRows = False  # allowed: unhide the grey intermediate rows
+    ws.protection.formatColumns = False
+    ws.protection.selectLockedCells = False
+    ws.protection.selectUnlockedCells = False
+
+
 # ---------------------------------------------------------------- section builder
 class Sec:
     def __init__(self, ws, row, util, sec):
@@ -201,6 +226,7 @@ class Sec:
             b = ws.cell(row=r, column=2)
             b.fill = FILL_IN
             b.border = BOX
+            b.protection = UNLOCKED
             if i["choices"]:
                 ws.cell(row=r, column=3, value="; ".join(f"{c['value']} = {c['label']}" for c in i["choices"]))
                 b.value = i["choices"][0]["value"]
@@ -211,6 +237,7 @@ class Sec:
             else:
                 u = i["unit"]
                 ws.cell(row=r, column=3, value=u["label"])
+                number_only(ws).add(b)
                 off, fac = u.get("offset", 0) or 0, u["factor"]
                 conv = f"(B{r}{'+' + num(off) if off else ''})*{num(fac)}" if fac != 1 or off else f"B{r}"
                 ws.cell(row=r, column=5, value=f'=IF(ISNUMBER(B{r}),{conv},"")')
@@ -239,9 +266,13 @@ class Sec:
         first = self.r
         for k in range(LIST_ROWS):
             r = self.r
-            for j in range(len(L["columns"])):
-                ws.cell(row=r, column=1 + j).fill = FILL_IN
-                ws.cell(row=r, column=1 + j).border = BOX
+            for j, col in enumerate(L["columns"]):
+                cell = ws.cell(row=r, column=1 + j)
+                cell.fill = FILL_IN
+                cell.border = BOX
+                cell.protection = UNLOCKED
+                if not col.get("text"):
+                    number_only(ws).add(cell)
             for col, f in si_cols(r).items():
                 ws[f"{col}{r}"] = f
             ws.cell(row=r, column=6, value=f"list:{self.slug}.{self.sec['id']}.{L['id']}.{k}").font = F_KEY
@@ -679,6 +710,7 @@ def build_section(sec, C, nsat, nliq):
 
 
 def build():
+    _NUMBER_DV.clear()
     wb = Workbook()
     ws0 = wb.active
     ws0.title = "Read Me"
@@ -689,7 +721,8 @@ def build():
         ("", None),
         ("How to use", F_H),
         ("1. Type your values in the yellow cells, in the units shown in column C. Leave optional cells blank.", None),
-        ("2. Results are the blue rows; the most important ones are bold. Grey rows are intermediate steps (click the + in the margin to show them).", None),
+        ("2. Results are the blue rows; the most important ones are bold. Grey intermediate steps are hidden: select the rows around them, right-click, and choose Unhide to see them.", None),
+        ("   Only the yellow cells accept typing, and only numbers. Every formula is locked so it cannot be overwritten by mistake. The 'Input check' row under each section's inputs says OK, or names the value to fix.", None),
         ("3. Where a section says 'leave blank to solve', leave exactly one of those cells blank and it is calculated.", None),
         ("4. Column E holds every value in SI units; the formulas work in SI so any unit conversion is visible.", None),
         ("5. Column F holds keys the website uses to import this workbook. Do not edit or move them.", None),
@@ -746,6 +779,8 @@ def build():
             if ws.row_dimensions[r].outlineLevel:
                 ws.row_dimensions[r].hidden = True
         ws.freeze_panes = "A4"
+    for ws in wb.worksheets:
+        lock(ws)
     wb.calculation.fullCalcOnLoad = True
     return wb
 
