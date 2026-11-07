@@ -16,3 +16,4 @@ export { PermitFinderPreview } from "./PermitFinderPreview";
 export { RollingTrackerPreview } from "./RollingTrackerPreview";
 export { SyntheticMinorPreview } from "./SyntheticMinorPreview";
 export { ToolPreview, type ToolPreviewProps } from "./ToolPreview";
+export { UtilityPreview } from "./UtilityPreview";

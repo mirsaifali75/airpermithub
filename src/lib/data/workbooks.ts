@@ -21,6 +21,15 @@ export const WORKBOOK_VERSION = "1.1";
 
 export const workbooks: Workbook[] = [
   {
+    slug: "plant-utilities",
+    title: "Plant Utility Calculations (steam, water, air, nitrogen, hot oil)",
+    file: "airpermithub-plant-utilities.xlsx",
+    description: "24 live-formula calculations: steam tables and steam loads, boiler fuel and blowdown, flash steam, cooling water and tower makeup, exchanger area, chilled water and chillers, water balance, pipe friction and pump power, compressed air power, leaks and receivers, nitrogen purging and blanketing, and hot oil. Steam properties use the IAPWS-IF97 equations inside Excel.",
+    sheets: ["Steam", "Cooling Water", "Chilled Water", "Process Water", "Compressed Air", "Nitrogen", "Hot Oil", "Water Tables", "IF97"],
+    cites: ["IAPWS-IF97", "IAPWS 2008 viscosity", "U.S. DOE steam, compressed air, and pumping sourcebooks"],
+    web: { label: "Plant Utility Calculators", href: "/tools/utility-calculators" },
+  },
+  {
     slug: "synthetic-minor-limit-designer",
     title: "Synthetic Minor Limit Designer",
     file: "airpermithub-synthetic-minor-limit-designer.xlsx",
