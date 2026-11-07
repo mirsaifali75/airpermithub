@@ -73,7 +73,8 @@ export function Header() {
 
   const closeSearch = useCallback(() => setSearchOpen(false), []);
   const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
-  const navLink = "relative px-1 py-1 font-display text-[0.95rem] font-semibold tracking-[0.1em] whitespace-nowrap uppercase transition-colors 2xl:text-base";
+  // Sized so all nine items, the search button and the pinned logo fit inside the double rule at every desktop width (1280 px and up).
+  const navLink = "relative px-0.5 py-1 font-display text-[0.82rem] font-semibold tracking-[0.06em] whitespace-nowrap uppercase transition-colors min-[1440px]:text-[0.9rem] min-[1440px]:tracking-[0.08em] min-[1680px]:text-base min-[1680px]:tracking-[0.1em]";
 
   return (
     <>
@@ -129,7 +130,7 @@ export function Header() {
               <Logo tone="light" className="h-10 lg:h-12" />
             </Link>
 
-            <nav aria-label="Primary" className="hidden flex-1 items-center justify-center gap-5 xl:flex 2xl:gap-7">
+            <nav aria-label="Primary" className="hidden min-w-0 flex-1 items-center justify-center gap-3.5 xl:flex min-[1440px]:gap-5 min-[1680px]:gap-7">
               {primaryNav.filter((n) => n.href !== "/resources").map((item) => (
                 <Link
                   key={item.href}
