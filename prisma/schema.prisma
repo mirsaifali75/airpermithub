@@ -158,43 +158,44 @@ enum ErrorReportStatus {
 // ─────────────────────── Sign-in (Auth.js) ───────────────────────
 
 model User {
-  id            String       @id @default(cuid())
+  id                 String       @id @default(cuid())
   /// Null for accounts made with a phone number. Every account has an email or a phone (a database check).
-  email         String?      @unique
-  emailVerified DateTime?
+  email              String?      @unique
+  emailVerified      DateTime?
   /// E.164, for example +15555550123. Set only after a texted code confirms it.
-  phone         String?      @unique
-  phoneVerified DateTime?
-  name          String?
-  image         String?
-  platformRole  PlatformRole @default(USER)
-  accountType   AccountType  @default(INDIVIDUAL)
-  plan          PlanTier     @default(FREE)
+  phone              String?      @unique
+  phoneVerified      DateTime?
+  name               String?
+  image              String?
+  platformRole       PlatformRole @default(USER)
+  accountType        AccountType  @default(INDIVIDUAL)
+  plan               PlanTier     @default(FREE)
   /// The import and other automated writers. Never signs in.
-  isSystem      Boolean      @default(false)
-  company       String?
+  isSystem           Boolean      @default(false)
+  company            String?
   /// Argon2id hash. Null for accounts that only use Google.
-  passwordHash      String?
-  passwordChangedAt DateTime?
+  passwordHash       String?
+  passwordChangedAt  DateTime?
   /// TOTP secret, AES-256-GCM encrypted with a key derived from AUTH_SECRET.
   /// Set but not enabled while the user is still confirming their first code.
   twoFactorSecret    String?
   twoFactorEnabledAt DateTime?
   /// The last TOTP time step accepted, so a code can't be used twice.
   twoFactorLastStep  Int?
-  createdAt     DateTime     @default(now())
-  updatedAt     DateTime     @updatedAt
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
 
   accounts        Account[]
   sessions        Session[]
   authTokens      AuthToken[]
+  emailChanges    EmailChange[]
   backupCodes     BackupCode[]
   challenges      TwoFactorChallenge[]
   devices         KnownDevice[]
   savedWork       SavedWork[]
   auditLogs       AuditLog[]
-  reviewsAssigned ReviewTask[]     @relation("ReviewAssignee")
-  reviewsDecided  ReviewTask[]     @relation("ReviewDecider")
+  reviewsAssigned ReviewTask[]         @relation("ReviewAssignee")
+  reviewsDecided  ReviewTask[]         @relation("ReviewDecider")
   errorReports    ErrorReport[]
   domainsAdded    OfficialDomain[]
 
@@ -261,6 +262,19 @@ model AuthToken {
   user      User          @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId, kind])
+}
+
+/// A requested change of an account's email address, waiting for the link sent
+/// to the new address. Only a hash of the link's token is stored (the id).
+model EmailChange {
+  id        String   @id
+  userId    String
+  email     String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }
 
 /// One-time codes for two-step login when the authenticator app isn't at hand. Stored hashed.
@@ -446,12 +460,12 @@ model State {
 }
 
 model StateProfileVersion {
-  id               String    @id @default(cuid())
+  id               String   @id @default(cuid())
   stateId          String
   overview         String
   notes            String?
   oilAndGasSummary String?
-  lastReviewed     DateTime  @db.Date
+  lastReviewed     DateTime @db.Date
   /// [{ name, jurisdiction, url, notes? }]
   localAgencies    Json?
   /// [{ citation, title, url? }]

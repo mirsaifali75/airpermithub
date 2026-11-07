@@ -1,6 +1,6 @@
 import type { AuthTokenKind, Prisma, PrismaClient } from "@prisma/client";
 import { decrypt, encrypt, newToken, sha256 } from "./crypto";
-import { RESET_MINUTES, VERIFY_HOURS } from "./email";
+import { EMAIL_CHANGE_HOURS, RESET_MINUTES, VERIFY_HOURS } from "./email";
 import { hashPassword, isBreached, passwordProblem, verifyDecoy, verifyPassword } from "./password";
 import { normalizePhone, phoneProblem } from "./phone";
 import type { CodeCheck } from "./sms";
@@ -190,6 +190,84 @@ export async function changePassword(
     db.session.deleteMany({ where: { userId, ...(keepSessionToken ? { sessionToken: { not: keepSessionToken } } : {}) } }),
   ]);
   return { ok: true as const, email: user.email, added: !user.passwordHash };
+}
+
+// ───────── Changing or adding an email address ─────────
+
+export type EmailChangeStart =
+  | { error: string; field: "email" | "password" | "code" }
+  | { email: string; oldEmail: string | null; token: string | null };
+
+/**
+ * Starts moving an account to a new email address (or adding one to a phone
+ * account). Needs the password, and a two-step code when two-step login is on,
+ * so a borrowed session alone can't take the account. Nothing changes until
+ * the link sent to the new address is opened. When the address already has an
+ * account, `token` is null and the caller tells that address instead, so the
+ * form never says which addresses are registered.
+ */
+export async function startEmailChange(
+  db: Db, userId: string, input: { email: string; password: string; code?: string }, now = new Date(),
+): Promise<EmailChangeStart> {
+  const user = await db.user.findUniqueOrThrow({ where: { id: userId } });
+  const email = normalizeEmail(input.email);
+  if (!validEmail(email)) return { error: "Enter a valid email address.", field: "email" };
+  if (email === user.email) return { error: "That's already the email on your account.", field: "email" };
+  if (!user.passwordHash) return { error: "Add a password to your account first.", field: "password" };
+  if (input.password.length > 1024 || !(await verifyPassword(user.passwordHash, input.password))) return { error: "Your password isn't right.", field: "password" };
+  if (user.twoFactorEnabledAt && !(await spendSecondFactor(db, userId, (input.code ?? "").trim(), now))) {
+    return { error: "That two-step code didn't match. Use a code from your authenticator app or a backup code.", field: "code" };
+  }
+  if (await db.user.findUnique({ where: { email } })) return { email, oldEmail: user.email, token: null };
+  const { token, hash } = newToken();
+  await db.$transaction([
+    db.emailChange.deleteMany({ where: { OR: [{ userId }, { expiresAt: { lt: now } }] } }),
+    db.emailChange.create({ data: { id: hash, userId, email, expiresAt: new Date(now.getTime() + EMAIL_CHANGE_HOURS * 3_600_000) } }),
+  ]);
+  return { email, oldEmail: user.email, token };
+}
+
+export type EmailChangeResult = { error: string } | { userId: string; email: string; oldEmail: string | null };
+
+const changeExpired = "This link has expired or was already used. Ask for a new one from your account settings.";
+
+/**
+ * Finishes an email change from the link. Only one open of the link can win.
+ * The new address counts as confirmed; links sent to the old address stop
+ * working, and sessions stay as they are.
+ */
+export async function confirmEmailChange(db: Db, token: string, now = new Date()): Promise<EmailChangeResult> {
+  if (!token) return { error: changeExpired };
+  const id = sha256(token);
+  const row = await db.emailChange.findUnique({ where: { id } });
+  if (!row || row.expiresAt <= now) return { error: changeExpired };
+  const holder = await db.user.findUnique({ where: { email: row.email } });
+  if (holder && holder.id !== row.userId) {
+    await db.emailChange.deleteMany({ where: { id } });
+    return { error: "That address now belongs to another account, so nothing changed." };
+  }
+  try {
+    return await db.$transaction(async (tx) => {
+      const { count } = await tx.emailChange.deleteMany({ where: { id, expiresAt: { gt: now } } });
+      if (count !== 1) return { error: changeExpired };
+      const user = await tx.user.findUniqueOrThrow({ where: { id: row.userId } });
+      await tx.user.update({ where: { id: user.id }, data: { email: row.email, emailVerified: now } });
+      await tx.emailChange.deleteMany({ where: { userId: user.id } });
+      await tx.authToken.deleteMany({ where: { userId: user.id, usedAt: null } });
+      await tx.auditLog.create({ data: { actorId: null, action: user.email ? "user.email-change" : "user.email-add", entityType: "User", entityId: user.id } });
+      return { userId: user.id, email: row.email, oldEmail: user.email };
+    });
+  } catch (e) {
+    if ((e as { code?: string }).code === "P2002") return { error: "That address now belongs to another account, so nothing changed." };
+    throw e;
+  }
+}
+
+/** The address a change link is waiting on, if it is still usable. Doesn't use it up. */
+export async function pendingEmailChange(db: Db, token: string, now = new Date()) {
+  if (!token) return null;
+  const row = await db.emailChange.findUnique({ where: { id: sha256(token) } });
+  return row && row.expiresAt > now ? row.email : null;
 }
 
 // ───────── Phone accounts ─────────

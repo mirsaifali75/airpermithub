@@ -1,4 +1,4 @@
-// Browser run of the Contact page and its form against the production build on :3124 with fake Resend on :4010.
+// Browser run of the Contact page and its form, plus the 404 page, against the production build on :3124 with fake Resend on :4010.
 const { chromium } = require("playwright");
 const fs = require("fs");
 
@@ -110,6 +110,15 @@ async function send(page, { topic, name, email, message, pageLink, source }) {
   await phone.close();
 
   ok("no page errors", errors.length === 0, errors.slice(0, 3).join(" | "));
+
+  // ── The 404 page hydrates cleanly (its print stamp once showed "/_not-found") ──
+  const crashes = [];
+  const onCrash = (e) => crashes.push(String(e));
+  page.on("pageerror", onCrash);
+  await page.goto(`${BASE}/no-such-page-${stamp}`, { waitUntil: "networkidle" });
+  page.off("pageerror", onCrash);
+  ok("the 404 page has no script errors", crashes.length === 0, crashes.join(" | "));
+
   await browser.close();
   console.log(results.join("\n"));
   const failed = results.filter((r) => r.startsWith("FAIL")).length;

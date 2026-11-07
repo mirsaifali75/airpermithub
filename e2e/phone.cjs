@@ -120,7 +120,7 @@ async function signOut(page) {
   await page.goto(`${BASE}/account`);
   const acct = await page.locator("main").innerText();
   ok("account page shows the confirmed number", /Phone number/.test(acct) && acct.includes(pretty(phone)) && /Confirmed/.test(acct));
-  ok("account page has no email card", (await page.getByRole("heading", { name: "Email", exact: true }).count()) === 0);
+  ok("account page offers to add an email", (await page.getByRole("button", { name: "Add an email address" }).count()) === 1 && !(await page.getByRole("button", { name: "Change email" }).count()));
   ok("delete asks for the phone number", await page.getByLabel("Type your phone number to confirm").isVisible());
   await page.screenshot({ path: `${SHOTS}/phone-account.png`, fullPage: true });
 
