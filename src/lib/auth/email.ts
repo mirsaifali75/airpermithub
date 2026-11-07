@@ -120,6 +120,55 @@ export function twoStepChangedEmail(on: boolean, at: Date): Email {
   };
 }
 
+export const EMAIL_CHANGE_HOURS = 24;
+
+/** "d•••@example.com": enough for the owner to recognise, not enough to read off a screenshot. */
+export const maskEmail = (email: string) => {
+  const [name, domain] = email.split("@");
+  return `${name.slice(0, 1)}•••@${domain}`;
+};
+
+/** Sent to the new address: the link that finishes the change. */
+export function confirmNewEmail(url: string): Email {
+  return {
+    subject: "Confirm your new AirPermitHub email",
+    ...layout({
+      title: "Confirm your new email",
+      lines: ["Someone signed in to an AirPermitHub account asked to use this address for it. If it was you, confirm with the button below."],
+      button: { label: "Use this email", url },
+      footer: `The link works once and expires in ${EMAIL_CHANGE_HOURS} hours. If you didn't ask, ignore this email and nothing changes.`,
+    }),
+  };
+}
+
+/** Sent to the new address when it already belongs to another account. */
+export function emailInUseEmail(): Email {
+  return {
+    subject: "This address already has an AirPermitHub account",
+    ...layout({
+      title: "This address is already in use",
+      lines: ["Someone asked to move an AirPermitHub account to this email address, but the address already has its own account, so nothing changed.", "To use this address, sign in to the account that has it."],
+      button: { label: "Sign in", url: appUrl("/sign-in") },
+      footer: "If it wasn't you, ignore this email.",
+    }),
+  };
+}
+
+/** Sent to the old address: once when a change is asked for, once when it's done. */
+export function emailChangeNotice(newEmail: string, done: boolean, at: Date): Email {
+  return {
+    subject: done ? "Your AirPermitHub email was changed" : "Someone asked to change your AirPermitHub email",
+    ...layout({
+      title: done ? "Email changed" : "Email change requested",
+      lines: [done
+        ? `The email for your AirPermitHub account was changed to ${maskEmail(newEmail)} on ${when(at)}. Emails and sign-in now use the new address.`
+        : `On ${when(at)}, someone signed in to your account asked to change its email to ${maskEmail(newEmail)}. Nothing changes until the new address confirms.`],
+      button: { label: "Review account security", url: appUrl("/account") },
+      footer: "If you didn't do this, reset your password and sign out of all devices from your account settings.",
+    }),
+  };
+}
+
 /**
  * Sends through Resend's HTTP API. RESEND_API_URL points local end-to-end tests at a stand-in server.
  * Accounts made with a phone number have no address, so for them nothing is sent.

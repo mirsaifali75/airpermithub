@@ -33,7 +33,7 @@ until curl -s -o /dev/null http://localhost:3124/; do
 done
 
 failed=""
-for s in ${E2E_SCRIPTS:-security stress accounts phone contact sync}; do
+for s in ${E2E_SCRIPTS:-security stress accounts phone contact email-change sync}; do
   echo "── $s"
   node e2e/clear-limits.cjs || exit 1
   node "e2e/$s.cjs" || failed="$failed $s"

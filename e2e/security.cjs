@@ -54,7 +54,7 @@ const callFormAction = (page, id, prev, fields, at = "/dashboard") =>
   const page = await ctx.newPage();
   const errors = [];
   const dialogs = [];
-  page.on("pageerror", (e) => errors.push(String(e)));
+  page.on("pageerror", (e) => errors.push(`${String(e)} on ${page.url().replace(BASE, "")}`));
   page.on("dialog", (d) => { dialogs.push(d.message()); d.dismiss(); });
   const stamp = Date.now();
 

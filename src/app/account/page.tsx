@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import type { ReactNode } from "react";
 import { GoogleMark } from "@/components/auth/GoogleButton";
 import { ProfileForm } from "@/components/auth/ProfileForm";
-import { DeleteAccountForm, PasswordForm, ResendVerificationForm } from "@/components/auth/SettingsForms";
+import { DeleteAccountForm, EmailChangeForm, PasswordForm, ResendVerificationForm } from "@/components/auth/SettingsForms";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge } from "@/components/ui/Badge";
 import { Button, buttonClass } from "@/components/ui/Button";
@@ -33,7 +33,7 @@ function Card({ title, children, danger = false }: { title: string; children: Re
   );
 }
 
-export default async function Page({ searchParams }: { searchParams: Promise<{ google?: string; twostep?: string }> }) {
+export default async function Page({ searchParams }: { searchParams: Promise<{ google?: string; twostep?: string; email?: string }> }) {
   const s = await getSession();
   if (!s) redirect("/sign-in?next=/account");
   const sp = await searchParams;
@@ -44,7 +44,11 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ g
   ]);
   const u = s.user;
   const phone = u.phone ? formatPhone(u.phone) : null;
-  const note = sp.google ? googleNotes[sp.google] : sp.twostep === "off" ? "Two-step login is off." : undefined;
+  const note = sp.google ? googleNotes[sp.google]
+    : sp.twostep === "off" ? "Two-step login is off."
+    : sp.email === "changed" ? `Your email is now ${u.email}. We let your old address know.`
+    : sp.email === "added" ? `${u.email} is added and confirmed. You can sign in with it or your phone number.`
+    : undefined;
 
   return (
     <>
@@ -69,6 +73,11 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ g
                   <ResendVerificationForm />
                 </div>
               )}
+              <div className="mt-4">
+                {u.hasPassword
+                  ? <EmailChangeForm adding={false} twoStep={u.twoStep} />
+                  : <p className="text-sm text-muted">To change your email, add a password first.</p>}
+              </div>
             </Card> : null}
             {phone && (
               <Card title="Phone number">
@@ -77,6 +86,12 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ g
                   <Badge tone="green" icon={<CircleCheck className="h-3.5 w-3.5" />}>Confirmed</Badge>
                 </p>
                 {!u.email && <p className="mt-3 text-sm text-muted">You sign in with this number and your password. If you forget the password, we text a code to this number to reset it.</p>}
+              </Card>
+            )}
+            {!u.email && (
+              <Card title="Email">
+                <p className="mb-4 text-sm text-muted">Add an email address to sign in with it, reset your password by email, and get security alerts when a new browser signs in.</p>
+                <EmailChangeForm adding twoStep={u.twoStep} />
               </Card>
             )}
             <Card title={u.hasPassword ? "Password" : "Add a password"}>

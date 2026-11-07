@@ -9,6 +9,11 @@ import { useEffect, useState } from "react";
  */
 export function PrintStamp() {
   const pathname = usePathname();
+  // The address is read in the browser: the static 404 page is built once as
+  // "/_not-found", so rendering usePathname() on the server would disagree with
+  // the address the visitor actually opened and break hydration.
+  const [path, setPath] = useState("");
+  useEffect(() => setPath(window.location.pathname), [pathname]);
   const [printed, setPrinted] = useState("");
   useEffect(() => {
     const stamp = () => setPrinted(new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }));
@@ -18,7 +23,7 @@ export function PrintStamp() {
   }, []);
   return (
     <div className="hidden border-b border-slate-300 px-1 pb-2 text-[11px] leading-snug text-slate-600 print:block">
-      <p><span className="font-bold text-ink">AirPermitHub</span> · airpermithub.com{pathname === "/" ? "" : pathname}{printed && ` · Printed ${printed}`}</p>
+      <p><span className="font-bold text-ink">AirPermitHub</span> · airpermithub.com{path === "/" ? "" : path}{printed && ` · Printed ${printed}`}</p>
       <p>Screening and calculation aid, not a regulatory determination. Confirm against your permit, the rule text, and the agency.</p>
     </div>
   );
