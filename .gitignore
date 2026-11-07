@@ -11,3 +11,4 @@ link-urls.json
 # Database export written by scripts/db-build.ts
 /.content/
 e2e/.out/
+__pycache__/

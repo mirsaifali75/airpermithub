@@ -5,6 +5,7 @@ import { guides } from "./data/guides";
 import { federalRegulations } from "./data/regulations";
 import { converters } from "./tools/converters";
 import { nsrRuleText } from "./tools/nsr";
+import { COLLECTIONS } from "./utilities";
 
 /**
  * Every outbound source URL built in code (including URLs assembled by helper
@@ -17,6 +18,7 @@ function collect() {
   for (const g of guides) for (const s of g.sources) out.push({ url: s.url, where: `guide: ${g.slug}` });
   for (const r of federalRegulations) for (const s of r.sources) out.push({ url: s.url, where: `regulation: ${r.slug}` });
   for (const c of converters) for (const s of c.sources) out.push({ url: s.url, where: `converter: ${c.slug}` });
+  for (const col of COLLECTIONS) for (const u of col.list) for (const s of u.sections) for (const r of s.refs) out.push({ url: r.url, where: `calculator: ${u.slug}/${s.id}` });
   out.push({ url: nsrRuleText.printEdition.url, where: "nsr tool" }, { url: nsrRuleText.current.url, where: "nsr tool" });
   return out;
 }

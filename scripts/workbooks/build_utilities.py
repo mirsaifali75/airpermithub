@@ -27,14 +27,19 @@ from pathlib import Path
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Protection, Side
 from openpyxl.worksheet.datavalidation import DataValidation
+from openpyxl.utils import get_column_letter
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # -I leaves the script folder off the path
+import build_oilgas  # noqa: E402
 
 SPEC_PATH, OUT = sys.argv[1], Path(sys.argv[2])
 VERIFY = "--verify" in sys.argv
 D = json.loads(Path(SPEC_PATH).read_text())
+OILGAS = D.get("collection") == "oil-gas"
 FAM = D["families"]
 LIST_ROWS = D["listRows"]
 VERSION = "1.0"
-FNAME = "airpermithub-plant-utilities.xlsx"
+FNAME = "airpermithub-oil-gas-calculators.xlsx" if OILGAS else "airpermithub-plant-utilities.xlsx"
 
 NAVY = "0B2545"
 F_TITLE = Font(bold=True, size=14, color=NAVY)
@@ -67,7 +72,7 @@ DISCLAIMER = (
 
 
 # Families that cannot be zero or negative when entered (same list as POSITIVE in src/lib/utilities/index.ts).
-POSITIVE = {"pabs", "mflow", "vflow", "gasflow", "cp", "hspec", "hv", "rho", "visc", "diam", "area", "volume", "uval"}
+POSITIVE = {"pabs", "mflow", "vflow", "gasflow", "cp", "hspec", "hv", "rho", "visc", "diam", "area", "volume", "uval", "mudwt"}
 
 
 def unit(family, uid):
@@ -415,6 +420,8 @@ def nz(x, d=0):
 
 # ---------------------------------------------------------------- utilities
 def build_section(sec, C, nsat, nliq):
+    if OILGAS:
+        return build_oilgas.build_section(sec, sys.modules[__name__])
     s, slug, sid, E = sec.sec, sec.slug, sec.sec["id"], sec.E
     key = f"{slug}/{sid}"
 
@@ -709,13 +716,38 @@ def build_section(sec, C, nsat, nliq):
         raise SystemExit(f"No workbook formulas for {key}")
 
 
+OILGAS_README = [
+    ("AirPermitHub Oil and Gas Engineering Calculations", F_TITLE),
+    (f"Version {VERSION}, built {date.today().isoformat()}. Companion to airpermithub.com/tools/oil-gas-calculators", F_SMALL),
+    ("", None),
+    ("How to use", F_H),
+    ("1. Type your values in the yellow cells, in the units shown in column C (oilfield units). Leave optional cells blank.", None),
+    ("2. Results are the blue rows; the most important ones are bold. Grey intermediate steps are hidden: select the rows around them, right-click, and choose Unhide to see them.", None),
+    ("   Only the yellow cells accept typing, and only numbers. Every formula is locked so it cannot be overwritten by mistake. The 'Input check' row under each section's inputs says OK, or names the value to fix.", None),
+    ("3. Where a section says 'leave blank to solve', leave exactly one of those cells blank and it is calculated.", None),
+    ("4. Column E holds every value in SI units; the formulas convert to oilfield units inside each step so every conversion is visible.", None),
+    ("5. Iterative solutions (Z-factor, friction factor, bottomhole pressure, nodal analysis, pipe size) are worked step by step along the row in hidden columns from H to the right, with the same number of steps the website uses.", None),
+    ("6. Column F holds keys the website uses to import this workbook. Do not edit or move them.", None),
+    ("7. To check your numbers, use Import Excel on the website: it reloads your inputs, recalculates, and lists any result that differs.", None),
+    ("", None),
+    ("Methods", F_H),
+    ("Gas: Sutton pseudo-criticals, Wichert-Aziz sour-gas correction, Kay's rule for an analysis, Dranchuk & Abou-Kassem Z-factor (20 Newton steps), Lee-Gonzalez-Eakin viscosity.", None),
+    ("Oil: Standing bubble point, solution GOR and Bo; Beggs-Robinson and Vasquez-Beggs viscosity. Water at 60 °F is 999.016 kg/m³.", None),
+    ("Wells: radial Darcy flow (141.2 from exact unit definitions), Vogel and composite IPR, back-pressure equation, average temperature and Z gas column, Turner critical rate.", None),
+    ("Flow: Colebrook-White friction factor (8 steps from Swamee-Jain), gas line equation with elevation, Gilbert-type chokes, isentropic gas choke, C ÷ √ρ erosional velocity, Souders-Brown.", None),
+    ("Standard conditions are 60 °F and 14.696 psia. No regulatory limits or vendor data are built in: enter your own K factor, C constant, discharge coefficient, and pump curve values.", None),
+    ("", None),
+    (DISCLAIMER, F_SMALL),
+]
+
+
 def build():
     _NUMBER_DV.clear()
     wb = Workbook()
     ws0 = wb.active
     ws0.title = "Read Me"
     nsat, nliq = 0, 0
-    readme_rows = [
+    readme_rows = OILGAS_README if OILGAS else [
         ("AirPermitHub Plant Utility Calculations", F_TITLE),
         (f"Version {VERSION}, built {date.today().isoformat()}. Companion to airpermithub.com/tools/utility-calculators", F_SMALL),
         ("", None),
@@ -746,8 +778,7 @@ def build():
     for u in D["utilities"]:
         ws = wb.create_sheet(u["sheet"])
         sheets.append((u, ws))
-    nsat, nliq = tables_sheet(wb)
-    C = if97_sheet(wb)
+    nsat, nliq, C = (0, 0, None) if OILGAS else (*tables_sheet(wb), if97_sheet(wb))
     contents_row = len(readme_rows) + 2
     ws0.cell(row=contents_row, column=1, value="Sheets").font = F_H
     for u, ws in sheets:
@@ -774,6 +805,9 @@ def build():
         ws.column_dimensions["E"].width = 14
         ws.column_dimensions["F"].width = 34
         ws.column_dimensions["G"].hidden = True
+        last = build_oilgas.MAXCOL.get(ws.title)
+        if last:  # iteration steps run along the row from column H; keep them out of the way
+            ws.column_dimensions.group("H", get_column_letter(last), hidden=True, outline_level=1)
         ws.sheet_properties.outlinePr.summaryBelow = False
         for r in range(1, ws.max_row + 1):
             if ws.row_dimensions[r].outlineLevel:
@@ -880,6 +914,31 @@ def recalc_compare(path, cases, expected, tmp, tag, flagged=None):
     return bad, checked
 
 
+def OILGAS_BAD(val):
+    """Impossible oil and gas inputs, each from the worked example with some values changed."""
+    def ex(slug, sid, over, want):
+        u = next(x for x in D["utilities"] if x["slug"] == slug)
+        sec = next(x for x in u["sections"] if x["id"] == sid)
+        vals = dict(sec["example"]["values"])
+        for k, v in over.items():
+            vals[k] = None if v is None else val(next(i for i in sec["inputs"] if i["id"] == k)["family"], v[1], v[0])
+        return (slug, sid, vals, want)
+    return [
+        ex("well-inflow", "darcy", {"pwf": (3500, "psia")}, "below reservoir pressure"),
+        ex("well-inflow", "darcy", {"k": None}, "exactly one"),
+        ex("natural-gas-properties", "composition", {"c1": (35, "pct")}, "about 100 %"),
+        ex("pipeline-flow", "gas-line", {"q": (60, "mmscfd")}, "cannot carry"),
+        ex("drilling-well-control", "annular", {"od": (9, "in")}, "smaller than the hole"),
+        ex("gas-well-deliverability", "nodal", {"pt": (1950, "psia")}, "cannot flow"),
+        ex("choke-calculator", "gas-choke", {"p2": (1200, "psia")}, "below upstream"),
+        ex("separators-and-tanks", "tank-gauge", {"h1": (25, "ft")}, "higher than the tank"),
+        ex("artificial-lift", "rod-pump", {"ev": (0, "pct")}, "between"),
+        ex("crude-oil-pvt", "gravity", {"api": None, "sg": (1.5, "x")}, "between"),
+        ex("natural-gas-properties", "z-factor", {"gamma": (0.3, "x")}, "between"),
+        ex("artificial-lift", "esp", {"pip": (3500, "psig")}, "flow without a pump"),
+    ]
+
+
 def verify(path):
     tmp = Path(tempfile.mkdtemp())
     ex_cases, ex_expected = {}, {}
@@ -907,7 +966,7 @@ def verify(path):
     # Impossible inputs: each must be named in that section's input check.
     def val(fam, uid, v):
         return {"v": v, "unit": unit(fam, uid)}
-    bad_inputs = [
+    bad_inputs = OILGAS_BAD(val) if OILGAS else [
         ("cooling-water", "flow", {"Q": val("power", "kw", 50000), "V": val("vflow", "m3h", 100), "tin": val("temp", "c", 30)}, "above 100"),
         ("cooling-water", "flow", {"Q": val("power", "kw", 1200), "tin": val("temp", "c", 40), "tout": val("temp", "c", 30)}, "must be higher"),
         ("steam", "heating", {"mp": val("mflow", "kgh", 20000), "cp": val("cp", "kjkgk", 4.18), "t1": val("temp", "c", 30), "t2": val("temp", "c", 160), "ps": val("pabs", "barg", 4)}, "cannot heat"),

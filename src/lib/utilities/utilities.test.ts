@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import ExcelJS from "exceljs";
 import { describe, expect, it } from "vitest";
-import { blankSection, exampleSection, getUtility, runSection, utilities, type SectionState } from "./index";
+import { COLLECTIONS, blankSection, exampleSection, getUtility, runSection, utilities, type SectionState } from "./index";
 import { psat, region1, region2, satP, tsat, viscosity, waterPT } from "./if97";
 import { frictionFactor } from "./calcs/process";
 import { formulaLiterals, matchConstant, reviewCells, sameSheetRefs } from "./review";
@@ -224,41 +224,43 @@ describe("workbook keys and Excel round trip", () => {
     expect(parseKey(42)).toBeNull();
   });
 
-  const file = () => readFileSync(join(process.cwd(), "public", "workbooks", "airpermithub-plant-utilities.xlsx"));
+  const file = (path = COLLECTIONS[0].workbook) => readFileSync(join(process.cwd(), "public", path));
 
-  it("has a cell for every calculator input and list row", async () => {
-    const wb = new ExcelJS.Workbook();
-    await wb.xlsx.load(file() as never);
-    const keys = new Set<string>();
-    wb.eachSheet((ws) => ws.eachRow((row) => { const v = row.getCell(6).value; if (typeof v === "string") keys.add(v); }));
-    for (const u of utilities)
-      for (const s of u.sections) {
-        for (const i of s.inputs) expect(keys.has(`in:${u.slug}.${s.id}.${i.id}`), `${u.slug}.${s.id}.${i.id}`).toBe(true);
-        if (s.list) expect(keys.has(`list:${u.slug}.${s.id}.${s.list.id}.0`)).toBe(true);
+  for (const col of COLLECTIONS) {
+    it(`${col.name}: has a cell for every calculator input and list row`, async () => {
+      const wb = new ExcelJS.Workbook();
+      await wb.xlsx.load(file(col.workbook) as never);
+      const keys = new Set<string>();
+      wb.eachSheet((ws) => ws.eachRow((row) => { const v = row.getCell(6).value; if (typeof v === "string") keys.add(v); }));
+      for (const u of col.list)
+        for (const s of u.sections) {
+          for (const i of s.inputs) expect(keys.has(`in:${u.slug}.${s.id}.${i.id}`), `${u.slug}.${s.id}.${i.id}`).toBe(true);
+          if (s.list) expect(keys.has(`list:${u.slug}.${s.id}.${s.list.id}.0`)).toBe(true);
+        }
+    });
+
+    it(`${col.name}: locks every formula, leaves only the input cells open, and keeps that after the site's export`, async () => {
+      const src = new ExcelJS.Workbook();
+      await src.xlsx.load(file(col.workbook) as never);
+      src.addWorksheet("Calculation Record"); // what exportUtilities adds
+      const wb = new ExcelJS.Workbook();
+      await wb.xlsx.load((await src.xlsx.writeBuffer()) as never);
+      for (const u of col.list) {
+        const ws = wb.getWorksheet(u.sheet)!;
+        expect((ws as unknown as { sheetProtection?: { sheet?: boolean } }).sheetProtection?.sheet, u.sheet).toBe(true);
+        ws.eachRow((row) =>
+          row.eachCell((c) => {
+            const key = row.getCell(6).value;
+            const isInput = Number(c.col) === 2 && typeof key === "string" && key.startsWith("in:");
+            if (c.formula) expect(c.protection?.locked, `${u.sheet}!${c.address} formula`).not.toBe(false);
+            if (isInput) expect(c.protection?.locked, `${u.sheet}!${c.address} input`).toBe(false);
+            if (isInput && !u.sections.some((s) => s.inputs.some((i) => i.choices && key === `in:${u.slug}.${s.id}.${i.id}`)))
+              expect(c.dataValidation?.type, `${u.sheet}!${c.address} number-only`).toBe("decimal");
+          }),
+        );
       }
-  });
-
-  it("locks every formula, leaves only the input cells open, and keeps that after the site's export", async () => {
-    const src = new ExcelJS.Workbook();
-    await src.xlsx.load(file() as never);
-    src.addWorksheet("Calculation Record"); // what exportUtilities adds
-    const wb = new ExcelJS.Workbook();
-    await wb.xlsx.load((await src.xlsx.writeBuffer()) as never);
-    for (const u of utilities) {
-      const ws = wb.getWorksheet(u.sheet)!;
-      expect((ws as unknown as { sheetProtection?: { sheet?: boolean } }).sheetProtection?.sheet, u.sheet).toBe(true);
-      ws.eachRow((row) =>
-        row.eachCell((c) => {
-          const key = row.getCell(6).value;
-          const isInput = Number(c.col) === 2 && typeof key === "string" && key.startsWith("in:");
-          if (c.formula) expect(c.protection?.locked, `${u.sheet}!${c.address} formula`).not.toBe(false);
-          if (isInput) expect(c.protection?.locked, `${u.sheet}!${c.address} input`).toBe(false);
-          if (isInput && !u.sections.some((s) => s.inputs.some((i) => i.choices && key === `in:${u.slug}.${s.id}.${i.id}`)))
-            expect(c.dataValidation?.type, `${u.sheet}!${c.address} number-only`).toBe("decimal");
-        }),
-      );
-    }
-  });
+    }, 60000);
+  }
 
   it("imports inputs typed into the workbook, in the units written beside them", async () => {
     const wb = new ExcelJS.Workbook();

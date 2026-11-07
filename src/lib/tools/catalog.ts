@@ -1,12 +1,12 @@
 import { converters } from "./converters";
-import { UTIL_BASE, utilities } from "../utilities";
+import { OILGAS_BASE, UTIL_BASE, oilGasCalcs, utilities } from "../utilities";
 
 /**
  * Practitioner tools, each framed by the everyday problem it answers. Used by
  * the tools hub, the home page, search, and the sitemap.
  */
 
-export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap" | "inventory" | "cam" | "utility" | "review";
+export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap" | "inventory" | "cam" | "utility" | "review" | "oilgas";
 
 export interface ToolEntry {
   slug: string;
@@ -74,6 +74,15 @@ export const coreTools: ToolEntry[] = [
     description: "Steam (IAPWS-IF97), cooling water and towers, chilled water, process water and pumps, compressed air, nitrogen, and hot oil: 24 calculations with worked examples, metric and US units, every step shown, and Excel import and export.",
     icon: "utility",
     keywords: "utility calculation process plant utilities steam cooling water chilled water process water compressed air nitrogen hot oil thermal fluid calculation sheet excel",
+  },
+  {
+    slug: "oil-gas-calculators",
+    href: OILGAS_BASE,
+    name: "Oil & Gas Engineering Calculators",
+    problem: "What is the Z-factor, bubble point, IPR, bottomhole pressure, choke size, line pressure drop, kill mud weight, or pump size?",
+    description: `Gas and oil properties, well inflow and nodal analysis, chokes, pipelines, separators and tanks, drilling and well control, and artificial lift: ${oilGasCalcs.reduce((a, u) => a + u.sections.length, 0)} calculations in oilfield or metric units, every step shown, with Excel import and export.`,
+    icon: "oilgas",
+    keywords: "oil and gas calculator petroleum engineering z factor bubble point ipr vogel nodal analysis choke gilbert pipeline pressure drop separator sizing kill mud weight esp rod pump",
   },
   {
     slug: "rolling-12-month-tracker",
@@ -163,5 +172,7 @@ export const utilityTools: ToolEntry[] = [
   },
 ];
 
+export const oilGasTools: ToolEntry[] = oilGasCalcs.map((u) => ({ slug: `oilgas-${u.slug}`, href: `${OILGAS_BASE}/${u.slug}`, name: u.name, problem: u.problem, description: u.description, icon: "oilgas" as const, keywords: u.keywords }));
+
 /** Every tool with its own page (converters individually, not the hub anchor). */
-export const allToolPages = [...coreTools.filter((t) => t.slug !== "converters"), ...utilityTools, ...converterTools];
+export const allToolPages = [...coreTools.filter((t) => t.slug !== "converters"), ...utilityTools, ...oilGasTools, ...converterTools];

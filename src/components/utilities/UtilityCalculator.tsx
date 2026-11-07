@@ -6,10 +6,9 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { NumberField, field, labelCls, useStoredState } from "@/components/tools/shared";
 import { cn } from "@/lib/cn";
-import { blankSection, exampleSection, getUtility, runSection, storageKey, type SectionState } from "@/lib/utilities";
+import { blankSection, collectionOf, exampleSection, getUtility, runSection, storageKey, type SectionState } from "@/lib/utilities";
 import type { InputDef, SectionDef } from "@/lib/utilities/types";
 import { families, fmt, fromSI, toSI, unitOf, type Family } from "@/lib/utilities/units";
-import { WORKBOOK_PATH } from "@/lib/utilities/workbook-layout";
 
 type Saved = Record<string, SectionState>;
 
@@ -17,9 +16,28 @@ type Saved = Record<string, SectionState>;
 const US: Partial<Record<Family, string>> = {
   dp: "psi", temp: "f", dtemp: "f", mflow: "lbh", vflow: "gpm", gasflow: "scfm", cp: "btulbf", hspec: "btulb", hv: "btulb",
   rho: "lbft3", length: "ft", head: "ft", diam: "in", rough: "in", area: "ft2", volume: "ft3", vel: "fts", spower: "kw100cfm", uval: "btuhft2f",
+  grad: "psift", mudwt: "ppg", cap: "bblft", pindex: "bpdpsi", compress: "perpsi", gor: "scfbbl",
 };
 
-const US_IDS = new Set(["psig", "psia", "psi", "f", "lbh", "klbh", "gpm", "scfm", "scfm68", "btuh", "mmbtuh", "tr", "hp", "btulbf", "btulb", "lbft3", "ft", "in", "ft2", "ft3", "gal", "fts", "ftmin", "kw100cfm", "btuhft2f", "mmbtu"]);
+const US_IDS = new Set([
+  "psig", "psia", "psi", "f", "r", "lbh", "klbh", "gpm", "scfm", "scfm68", "btuh", "mmbtuh", "tr", "hp", "btulbf", "btulb", "lbft3", "ft", "mi", "in", "in64", "ft2", "in2", "ft3", "gal", "bbl", "fts", "ftmin", "kw100cfm", "btuhft2f", "mmbtu",
+  "bpd", "bph", "scfd", "mscfd", "mmscfd", "ppg", "pcf", "psift", "scfbbl", "mscfbbl", "bblft", "galft", "bpdpsi", "perpsi",
+]);
+
+/** Metric unit for an input whose default unit is a US or oilfield unit. */
+const METRIC: Partial<Record<Family, string>> = {
+  dp: "bar", temp: "c", mflow: "kgh", vflow: "m3d", gasflow: "ksm3d", power: "kw", cp: "kjkgk", hspec: "kjkg", hv: "kjkg", rho: "kgm3", length: "m", head: "m",
+  diam: "mm", rough: "mm", area: "m2", volume: "m3", vel: "ms", spower: "kwm3min", uval: "wm2k", energy: "kwh", grad: "kpam", mudwt: "sg", cap: "m3m", pindex: "m3dbar", compress: "perbar", gor: "sm3m3",
+};
+
+function metricUnit(i: InputDef) {
+  if (!US_IDS.has(i.unit)) return i.unit;
+  if (i.family === "pabs") return i.unit === "psig" ? "barg" : "bara";
+  if (i.family === "vflow" && i.unit === "gpm") return "m3h";
+  if (i.family === "gasflow") return i.unit === "scfm" || i.unit === "scfm68" ? "nm3h" : i.unit === "scfd" ? "sm3d" : "ksm3d";
+  if (i.family === "length" && i.unit === "mi") return "km";
+  return METRIC[i.family] ?? i.unit;
+}
 
 /** Puts the first US unit in front when the calculator is in US units. */
 const order = (show: string[], us: boolean) => {
@@ -29,6 +47,7 @@ const order = (show: string[], us: boolean) => {
 };
 
 function usUnit(i: InputDef) {
+  if (US_IDS.has(i.unit)) return i.unit;
   if (i.family === "pabs") return ["bara", "kpaa", "mpaa"].includes(i.unit) ? "psia" : "psig";
   if (i.family === "power") return i.id === "Q" && i.unit !== "tr" ? "mmbtuh" : i.unit;
   if (i.family === "volume" && i.unit === "m3" && i.id === "V") return "ft3";
@@ -41,28 +60,31 @@ function convertEntry(i: InputDef, e: { v: number | null; u: string }, to: strin
   return { v: Number(fromSI(i.family, to, si).toPrecision(6)), u: to };
 }
 
+/** Converts every unit-bearing input of a section to the US or metric unit. */
+function inSystem(s: SectionDef, st: SectionState, us: boolean): SectionState {
+  const entries = { ...st.entries };
+  for (const i of s.inputs) {
+    if (i.choices || families[i.family].units.length < 2) continue;
+    entries[i.id] = convertEntry(i, entries[i.id] ?? { v: null, u: i.unit }, us ? usUnit(i) : metricUnit(i));
+  }
+  return { ...st, entries };
+}
+
 export function UtilityCalculator({ slug }: { slug: string }) {
   const util = getUtility(slug)!;
+  const col = collectionOf(slug);
   const [saved, setSaved] = useStoredState<Saved>(storageKey(slug), {});
-  const stateOf = (s: SectionDef) => saved[s.id] ?? blankSection(s);
-  const setSection = (s: SectionDef, st: SectionState) => setSaved({ ...saved, [s.id]: st });
-  const [system, setSystemPref] = useStoredState<"metric" | "us">("aph.tools.utilities.units.v1", "metric");
+  const [system, setSystemPref] = useStoredState<"metric" | "us">(col.id === "plant" ? "aph.tools.utilities.units.v1" : `aph.tools.${col.id}.units.v1`, col.system);
   const us = system === "us";
+  const stateOf = (s: SectionDef) => saved[s.id] ?? inSystem(s, blankSection(s), us);
+  const setSection = (s: SectionDef, st: SectionState) => setSaved({ ...saved, [s.id]: st });
   const [busy, setBusy] = useState<string | null>(null);
   const [note, setNote] = useState<{ tone: "green" | "amber" | "red"; text: string } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
 
   const setSystem = (us: boolean) => {
     const next: Saved = {};
-    for (const s of util.sections) {
-      const st = stateOf(s);
-      const entries = { ...st.entries };
-      for (const i of s.inputs) {
-        if (i.choices || families[i.family].units.length < 2) continue;
-        entries[i.id] = convertEntry(i, entries[i.id] ?? { v: null, u: i.unit }, us ? usUnit(i) : i.unit);
-      }
-      next[s.id] = { ...st, entries };
-    }
+    for (const s of util.sections) next[s.id] = inSystem(s, stateOf(s), us);
     setSaved(next);
     setSystemPref(us ? "us" : "metric");
   };
@@ -89,7 +111,7 @@ export function UtilityCalculator({ slug }: { slug: string }) {
       const r = await importUtilities(file);
       const mine = r.states[util.slug];
       if (!mine || !Object.keys(mine).length) {
-        setNote({ tone: "amber", text: r.recognized ? `That workbook has no ${util.short.toLowerCase()} inputs. Open the other calculators, or use the Excel Sheet Review to check any workbook.` : "That file is not an AirPermitHub utility workbook. Use the Excel Sheet Review to check any workbook's formulas." });
+        setNote({ tone: "amber", text: r.recognized ? `That workbook has no ${util.short.toLowerCase()} inputs. Open the other calculators, or use the Excel Sheet Review to check any workbook.` : "That file is not an AirPermitHub calculator workbook. Use the Excel Sheet Review to check any workbook's formulas." });
       } else {
         setSaved({ ...saved, ...mine });
         setNote({ tone: "green", text: `Loaded ${r.count[util.slug] ?? 0} values from ${file.name}. Results below are recalculated by the site.${r.mismatches.length ? ` ${r.mismatches.length} result${r.mismatches.length > 1 ? "s" : ""} in the file differ from the site's; see the Excel Sheet Review for the list.` : ""}` });
@@ -118,7 +140,7 @@ export function UtilityCalculator({ slug }: { slug: string }) {
           <Button variant="subtle" size="sm" disabled={busy !== null} onClick={exportExcel}><Download className="h-4 w-4" aria-hidden="true" /> {busy === "export" ? "Building…" : "Export to Excel"}</Button>
           <Button variant="subtle" size="sm" disabled={busy !== null} onClick={() => fileRef.current?.click()}><Upload className="h-4 w-4" aria-hidden="true" /> {busy === "import" ? "Reading…" : "Import Excel"}</Button>
           <input ref={fileRef} type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" className="hidden" aria-label="Import an Excel workbook" onChange={(e) => e.target.files?.[0] && importExcel(e.target.files[0])} />
-          <a href={WORKBOOK_PATH} download className="inline-flex h-9 items-center gap-2 rounded-sm border border-rule bg-white px-3.5 text-sm font-semibold text-navy-900 hover:border-gold-500"><FileSpreadsheet className="h-4 w-4" aria-hidden="true" /> Blank workbook</a>
+          <a href={col.workbook} download className="inline-flex h-9 items-center gap-2 rounded-sm border border-rule bg-white px-3.5 text-sm font-semibold text-navy-900 hover:border-gold-500"><FileSpreadsheet className="h-4 w-4" aria-hidden="true" /> Blank workbook</a>
           <Button variant="subtle" size="sm" onClick={() => window.print()}><Printer className="h-4 w-4" aria-hidden="true" /> Print / PDF</Button>
         </div>
         {note && <p role="status" className={cn("w-full rounded-lg px-3 py-2 text-sm", note.tone === "green" ? "bg-eco-50 text-eco-700" : note.tone === "amber" ? "bg-amber-50 text-amber-800" : "bg-red-50 text-red-700")}>{note.text}</p>}
@@ -148,11 +170,11 @@ function SectionCard({ n, s, st, us, set }: { n: number; s: SectionDef; st: Sect
           <p className="mt-1 text-sm text-muted">{s.question}</p>
         </div>
         <div className="no-print flex flex-wrap gap-2">
-          <Button variant="subtle" size="sm" onClick={() => set(us ? toUs(s, exampleSection(s)) : exampleSection(s))}><FlaskConical className="h-4 w-4" aria-hidden="true" /> Worked example</Button>
-          <Button variant="subtle" size="sm" onClick={() => set(blankSection(s))}><RotateCcw className="h-4 w-4" aria-hidden="true" /> Clear</Button>
+          <Button variant="subtle" size="sm" onClick={() => set(inSystem(s, exampleSection(s), us))}><FlaskConical className="h-4 w-4" aria-hidden="true" /> Worked example</Button>
+          <Button variant="subtle" size="sm" onClick={() => set(inSystem(s, blankSection(s), us))}><RotateCcw className="h-4 w-4" aria-hidden="true" /> Clear</Button>
         </div>
       </div>
-      {st.example && <p className="mt-3"><Badge tone="amber" wrap>Worked example: {s.example.title} Example values, not data from a real plant.</Badge></p>}
+      {st.example && <p className="mt-3"><Badge tone="amber" wrap>Worked example: {s.example.title} Example values, not data from a real plant or well.</Badge></p>}
       <div className="mt-4 rounded-xl bg-canvas px-4 py-3">
         <p className="flex items-center gap-1.5 text-xs font-bold tracking-wider text-muted uppercase"><Sigma className="h-3.5 w-3.5" aria-hidden="true" /> Formulas</p>
         <ul className="mt-1.5 space-y-1">
@@ -250,12 +272,6 @@ function SectionCard({ n, s, st, us, set }: { n: number; s: SectionDef; st: Sect
       </p>
     </section>
   );
-}
-
-function toUs(s: SectionDef, st: SectionState): SectionState {
-  const entries = { ...st.entries };
-  for (const i of s.inputs) if (!i.choices && families[i.family].units.length > 1) entries[i.id] = convertEntry(i, entries[i.id], usUnit(i));
-  return { ...st, entries };
 }
 
 const show = (family: Family, u: string, v: number) => {
