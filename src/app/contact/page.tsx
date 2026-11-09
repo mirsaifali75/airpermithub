@@ -41,7 +41,7 @@ export default function ContactPage() {
         <li>what looks wrong, such as a threshold, a deadline, a citation, or a link;</li>
         <li>if you have it, a link to the official agency source that shows the correct information.</li>
       </ul>
-      <p>We check every report against the official source before changing anything. See <Link href="/verification" className={link}>How We Verify</Link> for how pages are sourced and checked.</p>
+      <p>We check every report against the official source before changing anything. See <Link href="/verification" className={link}>How We Verify</Link> for how pages are sourced and checked. Corrections to published facts are listed in the <Link href="/editorial-policy#corrections" className={link}>corrections log</Link>.</p>
 
       <h2>Partnerships</h2>
       <p>Tell us who you are and what you have in mind.</p>

@@ -1,18 +1,28 @@
 import type { Metadata } from "next";
 import { ProsePage } from "@/components/layout/ProsePage";
-import { VerifyNotice } from "@/components/ui/Notices";
+import Link from "next/link";
+import { PolicyDraftNotice } from "@/components/trust/PolicyNotice";
 import { accountsEnabled } from "@/lib/auth/config";
 import { phoneEnabled } from "@/lib/auth/sms";
 
-export const metadata: Metadata = { title: "Privacy Policy", alternates: { canonical: "/privacy" } };
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "What AirPermitHub stores, where your saved work is kept, and what our hosting, email, and analytics providers see.",
+  alternates: { canonical: "/privacy" },
+};
 
 export default function Page() {
   const phone = accountsEnabled && phoneEnabled();
   return (
-    <ProsePage title="Privacy Policy">
-      <VerifyNotice>Placeholder. The Privacy Policy must be drafted and reviewed by qualified counsel before launch.</VerifyNotice>
+    <ProsePage title="Privacy Policy" description="What we store, where your work is kept, and who else sees anything.">
+      <PolicyDraftNotice />
+      <h2>The short version</h2>
+      <ul>
+        <li>We collect only what the site needs to work{accountsEnabled ? ", and you can delete your account at any time" : ""}.</li>
+        <li>We do not sell or share personal information, and we do not run advertising trackers.</li>
+        <li>We count page views without cookies and without identifying you.</li>
+      </ul>
       <h2>What the site does today</h2>
-      <p>This is a plain description of the site&apos;s current behavior, not a legal policy.</p>
       <ul>
         {accountsEnabled ? (
           <>
@@ -41,6 +51,12 @@ export default function Page() {
         <li><strong>Analytics.</strong> The site uses Vercel Web Analytics and Speed Insights to count page views and measure page speed. They do not set cookies and do not identify individual visitors.</li>
         <li><strong>Hosting logs.</strong> The hosting provider (Vercel) processes standard request data, such as IP address and browser type, to serve and protect the site.</li>
       </ul>
+      <h2>Official sources and other sites</h2>
+      <p>Links to agency and other websites take you to sites with their own privacy practices. The Federal Air Rule Tracker loads data from the Federal Register on our server, so your browser does not contact the Federal Register when you view it.</p>
+      <h2>Changes</h2>
+      <p>This page is updated whenever the site starts storing something new, and the date at the top changes with it.</p>
+      <h2>Questions</h2>
+      <p>See the <Link href="/contact" className="font-semibold text-brand-600 hover:underline">Contact</Link> page.</p>
     </ProsePage>
   );
 }
