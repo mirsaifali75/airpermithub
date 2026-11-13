@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { MatrixBuilder } from "@/components/tools/MatrixBuilder";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { ComplianceMatrixPreview } from "@/components/previews";
@@ -7,11 +8,11 @@ import { coreTools } from "@/lib/tools/catalog";
 
 const tool = coreTools.find((t) => t.slug === "compliance-matrix-builder")!;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Title V Compliance Matrix Builder (Permit Conditions to Tasks)",
   description: tool.description,
   alternates: { canonical: tool.href },
-};
+});
 
 export default function MatrixBuilderPage() {
   return (

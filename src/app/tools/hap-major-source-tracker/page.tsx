@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { HapTracker } from "@/components/tools/HapTracker";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { HapTrackerPreview } from "@/components/previews";
@@ -8,11 +9,11 @@ import { RT } from "@/lib/tools/rule-text";
 
 const tool = coreTools.find((t) => t.slug === "hap-major-source-tracker")!;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "HAP Major Source Tracker (10 tpy Single HAP / 25 tpy Combined)",
   description: tool.description,
   alternates: { canonical: tool.href },
-};
+});
 
 export default function HapTrackerPage() {
   return (

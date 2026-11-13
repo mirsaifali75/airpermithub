@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { KeyRound } from "lucide-react";
 import Link from "next/link";
 import { AuthLayout } from "@/components/auth/AuthLayout";
@@ -7,7 +8,7 @@ import { accountsEnabled } from "@/lib/auth/config";
 import { peekAuthToken } from "@/lib/auth/flows";
 import { prisma } from "@/lib/db/prisma";
 
-export const metadata: Metadata = { title: "Choose a new password", robots: { index: false }, referrer: "no-referrer" };
+export const metadata: Metadata = withSocial({ title: "Choose a new password", robots: { index: false }, referrer: "no-referrer" });
 
 export default async function Page({ searchParams }: { searchParams: Promise<{ token?: string }> }) {
   const token = (await searchParams).token ?? "";

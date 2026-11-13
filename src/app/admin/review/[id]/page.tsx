@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ClipboardCheck, ExternalLink, ShieldCheck, ShieldOff } from "lucide-react";
@@ -11,7 +12,7 @@ import { requireReviewer } from "@/lib/auth/session";
 import { hostRows, isOpen, kindLabels, statusLabels, taskDetail, versionStatusLabels, type CitationRow, type FieldRow } from "@/lib/content/queue";
 import { prisma } from "@/lib/db/prisma";
 
-export const metadata: Metadata = { title: "Review task", robots: { index: false, follow: false } };
+export const metadata: Metadata = withSocial({ title: "Review task", robots: { index: false, follow: false } });
 
 const card = "rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6";
 

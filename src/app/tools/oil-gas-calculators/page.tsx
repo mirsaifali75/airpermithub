@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, FileSearch, FileSpreadsheet, Lock, Quote, Sigma } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -12,11 +13,11 @@ import { OILGAS_WORKBOOK_PATH } from "@/lib/utilities/workbook-layout";
 
 const count = oilGasCalcs.reduce((a, u) => a + u.sections.length, 0);
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Oil & Gas Engineering Calculators: Z-Factor, PVT, IPR, Nodal, Chokes, Pipelines, Well Control",
   description: `${count} oil and gas calculations with every formula and step shown: gas analysis to VOC and HAP weight %, Z-factor, bubble point and Bo, Vogel IPR and AOF, bottomhole pressure and nodal analysis, liquid loading, Gilbert chokes, pipeline pressure drop, erosional velocity, separator sizing, tank gauging, kill sheet, rod pump and ESP sizing. Oilfield and metric units, Excel import and export.`,
   alternates: { canonical: OILGAS_BASE },
-};
+});
 
 export default function OilGasHub() {
   const Icon = toolIcons.oilgas;

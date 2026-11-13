@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { EmissionInventory } from "@/components/tools/EmissionInventory";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { EmissionInventoryPreview } from "@/components/previews";
@@ -8,11 +9,11 @@ import { coreTools } from "@/lib/tools/catalog";
 
 const tool = coreTools.find((t) => t.slug === "emission-inventory")!;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Emission Inventory Builder (Annual Actual Emissions Calculator)",
   description: tool.description,
   alternates: { canonical: tool.href },
-};
+});
 
 export default function EmissionInventoryPage() {
   return (

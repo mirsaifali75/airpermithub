@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { Calculator, Database, Eye, FileCheck2, History } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge } from "@/components/ui/Badge";
@@ -9,11 +10,11 @@ import { MyFactors } from "@/components/calculator/MyFactors";
 import { factorRecordFields } from "@/lib/calc/factors";
 import { pollutants } from "@/lib/data/equipment";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Emissions Calculator for Industrial Equipment",
   description: "Transparent emission calculations for engines, heaters, flares, storage tanks, and fugitives. See the formula, factor, source, and every step.",
   alternates: { canonical: "/calculators" },
-};
+});
 
 
 export default function CalculatorsPage() {

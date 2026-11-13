@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ProsePage } from "@/components/layout/ProsePage";
 import { VerifyNotice } from "@/components/ui/Notices";
 import { accountsEnabled } from "@/lib/auth/config";
 import { phoneEnabled } from "@/lib/auth/sms";
 
-export const metadata: Metadata = { title: "Privacy Policy", alternates: { canonical: "/privacy" } };
+export const metadata: Metadata = withSocial({ title: "Privacy Policy", alternates: { canonical: "/privacy" } });
 
 export default function Page() {
   const phone = accountsEnabled && phoneEnabled();

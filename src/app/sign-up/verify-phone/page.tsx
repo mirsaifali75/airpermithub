@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { MessageSquareText } from "lucide-react";
 import { cookies } from "next/headers";
 import Link from "next/link";
@@ -10,7 +11,7 @@ import { maskPhone } from "@/lib/auth/phone";
 import { PHONE_SIGNUP_COOKIE } from "@/lib/auth/server";
 import { prisma } from "@/lib/db/prisma";
 
-export const metadata: Metadata = { title: "Enter your code", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Enter your code", robots: { index: false } });
 
 export default async function Page() {
   const token = (await cookies()).get(PHONE_SIGNUP_COOKIE)?.value ?? "";

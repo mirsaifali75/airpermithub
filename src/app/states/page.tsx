@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, MapPinned } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -8,11 +9,11 @@ import { Disclaimer } from "@/components/ui/Notices";
 import { SectionHeading } from "@/components/ui/Section";
 import { agencyShortName, listStateProfiles, stateMapProfiles } from "@/lib/data/state-profiles";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Explore Air Permitting by State",
   description: "State-by-state air permitting programs, agencies, forms, and guidance for all 50 states and DC, each checked against the agency's own pages.",
   alternates: { canonical: "/states" },
-};
+});
 
 export default function StatesPage() {
   const profiles = stateMapProfiles();

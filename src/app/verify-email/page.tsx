@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { MailCheck } from "lucide-react";
 import Link from "next/link";
 import { AuthLayout } from "@/components/auth/AuthLayout";
@@ -7,7 +8,7 @@ import { accountsEnabled, safeNext } from "@/lib/auth/config";
 import { peekAuthToken } from "@/lib/auth/flows";
 import { prisma } from "@/lib/db/prisma";
 
-export const metadata: Metadata = { title: "Confirm your email", robots: { index: false }, referrer: "no-referrer" };
+export const metadata: Metadata = withSocial({ title: "Confirm your email", robots: { index: false }, referrer: "no-referrer" });
 
 /**
  * Opening the link only shows a button; pressing it confirms. Mail scanners

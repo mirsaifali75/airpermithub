@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { CalendarClock } from "lucide-react";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { ComplianceCalendarPreview } from "@/components/previews";
@@ -9,11 +10,11 @@ import { DemoNotice, Disclaimer } from "@/components/ui/Notices";
 import { complianceCategories } from "@/lib/data/compliance";
 import { keptIn } from "@/lib/storage/where";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Air Compliance Calendar & Dashboard",
   description: "Track air permit testing, inspections, reporting, certifications, LDAR, and renewal deadlines across facilities.",
   alternates: { canonical: "/compliance" },
-};
+});
 
 export default function CompliancePage() {
   return (

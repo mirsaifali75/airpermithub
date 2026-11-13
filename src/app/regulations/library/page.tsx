@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ScrollText } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -7,11 +8,11 @@ import { Disclaimer, VerifyNotice } from "@/components/ui/Notices";
 import { ruleSummaries } from "@/lib/data/ecfr";
 import { ruleCategories } from "@/lib/rules";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Federal Rule Library: NSPS, NESHAP, and GHG Reporting Subparts",
   description: "Who each NSPS, NESHAP, and greenhouse gas reporting subpart covers, quoted from eCFR, with every section and amendment date. Quad O, Ob, and Oc, JJJJ, IIII, ZZZZ, Boiler MACT, Subpart W, and more.",
   alternates: { canonical: "/regulations/library" },
-};
+});
 
 export default function RuleLibraryPage() {
   const rules = ruleSummaries();

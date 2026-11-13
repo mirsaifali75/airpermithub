@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { Route } from "lucide-react";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { PermitFinderPreview } from "@/components/previews";
@@ -7,11 +8,11 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { PermitFinderWizard } from "@/components/permit-finder/PermitFinderWizard";
 import { stateProfileSummaries } from "@/lib/data/state-profiles";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Permit Finder: Screen Your Air Permitting Path",
   description: "Find the right air permit path for your facility. Guided questions on facility, location, emission sources, and operations return state and federal programs to review, with citations.",
   alternates: { canonical: "/permit-finder" },
-};
+});
 
 export default function PermitFinderPage() {
   return (

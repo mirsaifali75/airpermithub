@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ExternalLink, Newspaper } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { UpdatesBrowser } from "@/components/tools/UpdatesBrowser";
@@ -8,11 +9,11 @@ import { fetchAirRuleUpdates, updateGroups } from "@/lib/fedreg";
 
 export const revalidate = 21600;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "EPA Air Rule Tracker: New Federal Register Rules and Comment Deadlines",
   description: "The latest EPA final and proposed rules for NSPS, NESHAP, SIPs, Title V, NSR, NAAQS, and GHG reporting, from the Federal Register, with comment deadlines.",
   alternates: { canonical: "/regulatory-updates" },
-};
+});
 
 export default async function RegulatoryUpdatesPage() {
   const { docs, fetchedAt, failed } = await fetchAirRuleUpdates();

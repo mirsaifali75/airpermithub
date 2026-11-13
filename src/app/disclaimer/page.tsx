@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ProsePage } from "@/components/layout/ProsePage";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Disclaimer", alternates: { canonical: "/disclaimer" } };
+export const metadata: Metadata = withSocial({ title: "Disclaimer", alternates: { canonical: "/disclaimer" } });
 
 export default function DisclaimerPage() {
   return (

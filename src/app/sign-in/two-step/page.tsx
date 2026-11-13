@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import { AuthLayout } from "@/components/auth/AuthLayout";
 import { TwoStepForm } from "@/components/auth/CodeForms";
 
-export const metadata: Metadata = { title: "Two-step login", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Two-step login", robots: { index: false } });
 
 export default async function Page({ searchParams }: { searchParams: Promise<{ c?: string }> }) {
   const { c } = await searchParams;
