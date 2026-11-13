@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { MailWarning, PartyPopper, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
@@ -11,7 +12,7 @@ import { accountsEnabled } from "@/lib/auth/config";
 import { formatPhone } from "@/lib/auth/phone";
 import { getSession } from "@/lib/auth/session";
 
-export const metadata: Metadata = { title: "My Dashboard", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "My Dashboard", robots: { index: false } });
 
 export default async function DashboardPage({ searchParams }: { searchParams: Promise<{ verified?: string }> }) {
   const session = await getSession();

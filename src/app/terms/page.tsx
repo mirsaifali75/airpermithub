@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ProsePage } from "@/components/layout/ProsePage";
 import { VerifyNotice } from "@/components/ui/Notices";
 
-export const metadata: Metadata = { title: "Terms of Use", alternates: { canonical: "/terms" } };
+export const metadata: Metadata = withSocial({ title: "Terms of Use", alternates: { canonical: "/terms" } });
 
 export default function Page() {
   return (

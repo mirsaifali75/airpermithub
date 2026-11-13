@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { CircleAlert, CircleCheck, LogOut, ShieldCheck, UserRound } from "lucide-react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
@@ -15,7 +16,7 @@ import { getSession } from "@/lib/auth/session";
 import { prisma } from "@/lib/db/prisma";
 import { connectGoogle, disconnectGoogle, signOutAction, signOutEverywhere } from "./actions";
 
-export const metadata: Metadata = { title: "Account settings", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Account settings", robots: { index: false } });
 
 const googleNotes: Record<string, string> = {
   connected: "Google is connected. You can sign in with either.",

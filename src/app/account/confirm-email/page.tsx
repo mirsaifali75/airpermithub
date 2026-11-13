@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { MailCheck } from "lucide-react";
 import Link from "next/link";
 import { AuthLayout } from "@/components/auth/AuthLayout";
@@ -7,7 +8,7 @@ import { accountsEnabled } from "@/lib/auth/config";
 import { pendingEmailChange } from "@/lib/auth/flows";
 import { prisma } from "@/lib/db/prisma";
 
-export const metadata: Metadata = { title: "Confirm your new email", robots: { index: false }, referrer: "no-referrer" };
+export const metadata: Metadata = withSocial({ title: "Confirm your new email", robots: { index: false }, referrer: "no-referrer" });
 
 /** Opening the link only shows a button, so mail scanners that open every link can't use it up. */
 export default async function Page({ searchParams }: { searchParams: Promise<{ token?: string }> }) {

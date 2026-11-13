@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, Landmark, ScrollText } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -6,11 +7,11 @@ import { RegulationCard } from "@/components/regulations/RegulationCard";
 import { Disclaimer, VerifyNotice } from "@/components/ui/Notices";
 import { federalRegulations } from "@/lib/data/regulations";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Federal Air Regulations (EPA)",
   description: "Federal Clean Air Act programs for stationary sources: NSPS, NESHAP, Title V, NSR, PSD, Nonattainment NSR, and AP-42 emission factors.",
   alternates: { canonical: "/regulations/federal" },
-};
+});
 
 export default function FederalPage() {
   return (

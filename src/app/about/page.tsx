@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import Link from "next/link";
 import { ProsePage } from "@/components/layout/ProsePage";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = { title: "About", description: site.description, alternates: { canonical: "/about" } };
+export const metadata: Metadata = withSocial({ title: { absolute: "About AirPermitHub" }, description: "What AirPermitHub covers, who it is for, and how its air permitting content is drawn from official government sources and checked.", alternates: { canonical: "/about" } });
 
 export default function AboutPage() {
   return (

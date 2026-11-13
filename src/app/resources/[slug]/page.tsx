@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, BookOpen, CalendarDays, Clock, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -18,7 +19,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const g = getGuide((await params).slug);
   if (!g) return {};
-  return { title: g.title, description: g.summary, alternates: { canonical: `/resources/${g.slug}` }, openGraph: { type: "article", title: g.title, description: g.summary } };
+  return withSocial({ title: g.title, description: g.summary, alternates: { canonical: `/resources/${g.slug}` }, openGraph: { type: "article", title: g.title, description: g.summary } });
 }
 
 /** Up to six other guides: same category first, then the newest. */

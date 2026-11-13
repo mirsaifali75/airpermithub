@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import Link from "next/link";
 import { ClipboardCheck } from "lucide-react";
 import { ReviewerOnly, SourceNote, when, who } from "@/components/admin/ReviewerOnly";
@@ -10,7 +11,7 @@ import { prisma } from "@/lib/db/prisma";
 import { cn } from "@/lib/cn";
 import type { ReviewKind, ReviewStatus } from "@prisma/client";
 
-export const metadata: Metadata = { title: "Review queue", robots: { index: false, follow: false } };
+export const metadata: Metadata = withSocial({ title: "Review queue", robots: { index: false, follow: false } });
 
 const kinds = Object.keys(kindLabels) as ReviewKind[];
 const statusTone = (s: ReviewStatus) => (s === "APPROVED" ? "green" : s === "REJECTED" ? "red" : s === "SENT_BACK" ? "amber" : "gray");

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, Eye, Lock, Quote, Wrench } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -11,11 +12,11 @@ import { site } from "@/lib/site";
 import { converterTools, coreTools, oilGasTools, utilityTools } from "@/lib/tools/catalog";
 import { JsonLd } from "@/components/ui/JsonLd";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Air Permitting Tools: Rolling Limits, NSR Baselines, Compliance Matrix & Converters",
   description: "Free tools for the problems air permitting professionals hit every week: 12-month rolling limits, NSR baselines, permit compliance matrices, deviation logs, stack test converters, and EPA rule tracking.",
   alternates: { canonical: "/tools" },
-};
+});
 
 const more = [
   { name: "Permit Finder", href: "/permit-finder", body: "Screen which permitting programs deserve a closer look for a facility or project.", icon: toolIcons.finder },

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { Calculator } from "lucide-react";
 import { notFound } from "next/navigation";
 import { ToolGate } from "@/components/auth/ToolGate";
@@ -16,11 +17,11 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ method: string }> }): Promise<Metadata> {
   const m = getMethod((await params).method);
   if (!m) return {};
-  return {
+  return withSocial({
     title: m.title,
     description: `${m.description} Formula: ${m.formula}.`,
     alternates: { canonical: `/calculators/${m.slug}` },
-  };
+  });
 }
 
 export default async function MethodPage({ params }: { params: Promise<{ method: string }> }) {

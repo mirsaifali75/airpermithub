@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { KeyRound, MailCheck } from "lucide-react";
 import Link from "next/link";
 import { AuthLayout } from "@/components/auth/AuthLayout";
@@ -8,7 +9,7 @@ import { accountsEnabled } from "@/lib/auth/config";
 import { RESET_MINUTES } from "@/lib/auth/email";
 import { phoneEnabled } from "@/lib/auth/sms";
 
-export const metadata: Metadata = { title: "Reset your password", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Reset your password", robots: { index: false } });
 
 export default async function Page({ searchParams }: { searchParams: Promise<{ sent?: string; method?: string }> }) {
   const sp = await searchParams;
