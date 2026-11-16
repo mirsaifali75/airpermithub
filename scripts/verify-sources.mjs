@@ -205,7 +205,7 @@ async function fetchPage(url) {
     let last = { status: 0, error: "not attempted" };
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
-        const res = await fetch(key, { redirect: "follow", signal: AbortSignal.timeout(45000), headers: { "user-agent": UA, accept: "text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8" } });
+        const res = await fetch(key, { redirect: "follow", signal: AbortSignal.timeout(45000), headers: { "user-agent": UA, accept: /\.(gif|png|jpe?g)$/i.test(key) ? "image/*" : "text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8" } });
         const type = res.headers.get("content-type") ?? "";
         const buf = Buffer.from(await res.arrayBuffer());
         const isPdf = type.includes("pdf") || buf.subarray(0, 5).toString() === "%PDF-";
