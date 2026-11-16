@@ -210,8 +210,11 @@ async function fetchPage(url) {
         const buf = Buffer.from(await res.arrayBuffer());
         const isPdf = type.includes("pdf") || buf.subarray(0, 5).toString() === "%PDF-";
         const isDocx = type.includes("wordprocessingml") || (/\.docx$/i.test(key) && buf.subarray(0, 2).toString() === "PK");
-        let text = "", title = "", raw;
-        if (isDocx) {
+        let text = "", title = "", raw, image;
+        if (/^image\//.test(type)) {
+          // Equation graphics in eCFR (e.g. /graphics/*.gif): kept as files so an editor can read them.
+          if (keepRaw) image = { buf, ext: (type.split("/")[1] ?? "bin").split(";")[0].replace("jpeg", "jpg") };
+        } else if (isDocx) {
           const f = join(tmp, `p${pdfCount++}.docx`);
           writeFileSync(f, buf);
           // Word splits text into runs mid-word, so drop run tags without adding spaces
@@ -228,7 +231,7 @@ async function fetchPage(url) {
           title = titleOf(html);
           if (keepRaw) raw = html;
         }
-        last = { status: res.status, finalUrl: res.url, type: isPdf ? "pdf" : isDocx ? "docx" : type.split(";")[0], title, text, textAlnum: alnum(text), raw };
+        last = { status: res.status, finalUrl: res.url, type: isPdf ? "pdf" : isDocx ? "docx" : type.split(";")[0], title, text, textAlnum: alnum(text), raw, image };
         if (res.status < 500 && res.status !== 429) return last;
       } catch (e) {
         last = { status: 0, error: e.cause?.code ?? e.name ?? String(e), text: "", textAlnum: "" };
@@ -378,6 +381,7 @@ async function fetchOnly(listFile, outDir) {
       gone: /\b(page|file|document)\s+(was\s+|is\s+)?not\s+found\b|\b404\b|no longer (available|exists)|has (been )?(moved|removed)|cannot be found|could not be found/i.exec(`${page.title ?? ""} ${(page.text ?? "").slice(0, 1500)}`)?.[0] };
     writeFileSync(join(outDir, name), page.text ?? "");
     if (page.raw) writeFileSync(join(outDir, name.replace(/\.txt$/, ".html")), page.raw);
+    if (page.image) writeFileSync(join(outDir, name.replace(/\.txt$/, `.${page.image.ext}`)), page.image.buf);
   }
   writeFileSync(join(outDir, "index.json"), JSON.stringify(index, null, 1));
   console.log(JSON.stringify(index, null, 1));
