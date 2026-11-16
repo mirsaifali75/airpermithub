@@ -1,11 +1,12 @@
 "use client";
 
-import { AlertTriangle, Calculator, Download, FileSpreadsheet, FlaskConical, Plus, Printer, RotateCcw, Sigma, Trash2, Upload } from "lucide-react";
+import { AlertTriangle, Calculator, CheckCircle2, Download, FileSpreadsheet, FlaskConical, Plus, Printer, RotateCcw, ScrollText, Sigma, Trash2, Upload, XCircle } from "lucide-react";
 import { useId, useMemo, useRef, useState } from "react";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { NumberField, field, labelCls, useStoredState } from "@/components/tools/shared";
 import { cn } from "@/lib/cn";
+import { quoteHref } from "@/lib/tools/rule-text";
 import { blankSection, collectionOf, exampleSection, getUtility, runSection, storageKey, type SectionState } from "@/lib/utilities";
 import type { InputDef, SectionDef } from "@/lib/utilities/types";
 import { families, fmt, fromSI, toSI, unitOf, type Family } from "@/lib/utilities/units";
@@ -17,23 +18,27 @@ const US: Partial<Record<Family, string>> = {
   dp: "psi", temp: "f", dtemp: "f", mflow: "lbh", vflow: "gpm", gasflow: "scfm", cp: "btulbf", hspec: "btulb", hv: "btulb",
   rho: "lbft3", length: "ft", head: "ft", diam: "in", rough: "in", area: "ft2", volume: "ft3", vel: "fts", spower: "kw100cfm", uval: "btuhft2f",
   grad: "psift", mudwt: "ppg", cap: "bblft", pindex: "bpdpsi", compress: "perpsi", gor: "scfbbl",
+  erate: "tpy", costton: "usdton", ef: "lbmmbtu", ffac: "scfmmbtu", conc: "lbscf", vhv: "btuscf",
 };
 
 const US_IDS = new Set([
   "psig", "psia", "psi", "f", "r", "lbh", "klbh", "gpm", "scfm", "scfm68", "btuh", "mmbtuh", "tr", "hp", "btulbf", "btulb", "lbft3", "ft", "mi", "in", "in64", "ft2", "in2", "ft3", "gal", "bbl", "fts", "ftmin", "kw100cfm", "btuhft2f", "mmbtu",
   "bpd", "bph", "scfd", "mscfd", "mmscfd", "ppg", "pcf", "psift", "scfbbl", "mscfbbl", "bblft", "galft", "bpdpsi", "perpsi",
+  "tpy", "lbyr", "usdton", "lbmmbtu", "scfmmbtu", "lbscf", "grscf", "btuscf", "scfh20", "scfm20",
 ]);
 
 /** Metric unit for an input whose default unit is a US or oilfield unit. */
 const METRIC: Partial<Record<Family, string>> = {
   dp: "bar", temp: "c", mflow: "kgh", vflow: "m3d", gasflow: "ksm3d", power: "kw", cp: "kjkgk", hspec: "kjkg", hv: "kjkg", rho: "kgm3", length: "m", head: "m",
   diam: "mm", rough: "mm", area: "m2", volume: "m3", vel: "ms", spower: "kwm3min", uval: "wm2k", energy: "kwh", grad: "kpam", mudwt: "sg", cap: "m3m", pindex: "m3dbar", compress: "perbar", gor: "sm3m3",
+  erate: "tonnepy", costton: "usdtonne", ef: "ngj", ffac: "scmj", conc: "mgscm", vhv: "mjscm",
 };
 
 function metricUnit(i: InputDef) {
   if (!US_IDS.has(i.unit)) return i.unit;
   if (i.family === "pabs") return i.unit === "psig" ? "barg" : "bara";
   if (i.family === "vflow" && i.unit === "gpm") return "m3h";
+  if (i.family === "gasflow" && (i.unit === "scfh20" || i.unit === "scfm20")) return "scmh20";
   if (i.family === "gasflow") return i.unit === "scfm" || i.unit === "scfm68" ? "nm3h" : i.unit === "scfd" ? "sm3d" : "ksm3d";
   if (i.family === "length" && i.unit === "mi") return "km";
   return METRIC[i.family] ?? i.unit;
@@ -182,6 +187,21 @@ function SectionCard({ n, s, st, us, set }: { n: number; s: SectionDef; st: Sect
         </ul>
         {s.solveNote && <p className="mt-2 text-xs font-semibold text-brand-700">{s.solveNote}</p>}
       </div>
+      {s.quotes && s.quotes.length > 0 && (
+        <details className="mt-3 rounded-xl border border-gold-500/40 bg-gold-200/10">
+          <summary className="flex cursor-pointer items-center gap-1.5 px-4 py-2.5 text-xs font-bold tracking-wider text-navy-800 uppercase"><ScrollText className="h-3.5 w-3.5" aria-hidden="true" /> Rule and guidance text, word for word ({s.quotes.length})</summary>
+          <ul className="space-y-2.5 px-4 pb-4">
+            {s.quotes.map((q, k) => (
+              <li key={k} className="text-sm">
+                <blockquote className="border-l-2 border-gold-500 pl-3 break-words text-slate-800">“{q.text}”</blockquote>
+                <p className="mt-0.5 pl-3 text-xs text-muted">
+                  {quoteHref(q) ? <a href={quoteHref(q)!} target="_blank" rel="noopener noreferrer" className="font-medium text-brand-700 hover:underline">{q.cite}</a> : q.cite}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
 
       <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {s.inputs.map((i) => {
@@ -223,6 +243,16 @@ function SectionCard({ n, s, st, us, set }: { n: number; s: SectionDef; st: Sect
         </div>
         <div className="p-4">
           {out.error && <p className="text-sm text-slate-700">{out.error}</p>}
+          {!out.error && out.checks && out.checks.length > 0 && (
+            <ul className="mb-4 space-y-2">
+              {out.checks.map((c, k) => (
+                <li key={k} className={cn("flex gap-2 rounded-lg border px-3 py-2 text-sm", c.pass ? "border-eco-500/40 bg-eco-500/5 text-ink" : "border-red-300 bg-red-50 text-red-900")}>
+                  {c.pass ? <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-eco-600" aria-hidden="true" /> : <XCircle className="mt-0.5 h-4 w-4 shrink-0 text-red-700" aria-hidden="true" />}
+                  <span><span className="font-semibold">{c.pass ? "Meets" : "Does not meet"}:</span> {c.text}</span>
+                </li>
+              ))}
+            </ul>
+          )}
           {keys.length > 0 && (
             <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {keys.map((r) => (
@@ -276,6 +306,8 @@ function SectionCard({ n, s, st, us, set }: { n: number; s: SectionDef; st: Sect
 
 const show = (family: Family, u: string, v: number) => {
   if (family === "money") return `$${fmt(v, 6)}`;
+  if (family === "costyr") return `$${fmt(v, 6)}/yr`;
+  if (family === "costton") return `$${fmt(fromSI(family, u, v), 5)}/${u === "usdtonne" ? "tonne" : "ton"}`;
   const lbl = unitOf(family, u).label;
   return `${fmt(fromSI(family, u, v))}${lbl ? ` ${lbl}` : ""}`;
 };

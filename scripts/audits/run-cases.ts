@@ -1,5 +1,5 @@
 /**
- * Runs oil and gas (or utility) calculator sections for a list of cases and
+ * Runs oil and gas, utility or air permit calculator sections for a list of cases and
  * prints the site's results as JSON, for the independent accuracy audit:
  *
  *   npx tsx scripts/audits/run-cases.ts < cases.json > results.json
@@ -15,6 +15,6 @@ const out = cases.map((k) => {
   const st = blankSection(s);
   for (const [id, [v, u]] of Object.entries(k.values)) st.entries[id] = { v, u };
   const r = runSection(s, st);
-  return { error: r.error ?? null, solved: r.solved ?? null, results: Object.fromEntries(r.results.map((x) => [x.id, x.value])), warnings: r.warnings };
+  return { error: r.error ?? null, solved: r.solved ?? null, results: Object.fromEntries(r.results.map((x) => [x.id, x.value])), warnings: r.warnings, checks: r.checks ?? [] };
 });
 process.stdout.write(JSON.stringify(out));

@@ -5,20 +5,22 @@ import { nitrogen } from "./calcs/nitrogen";
 import { processWater } from "./calcs/process";
 import { steam } from "./calcs/steam";
 import { thermalFluid } from "./calcs/thermal";
+import { airCalcs } from "./airtools";
 import { oilGasCalcs } from "./oilgas";
-import { OILGAS_WORKBOOK_PATH, WORKBOOK_PATH } from "./workbook-layout";
+import { AIR_WORKBOOK_PATH, OILGAS_WORKBOOK_PATH, WORKBOOK_PATH } from "./workbook-layout";
 import type { InputDef, ListRows, Outcome, SectionDef, UtilityDef, Values } from "./types";
 import { fmt, fromSI, toSI, unitOf, type Family } from "./units";
 
 export const utilities: UtilityDef[] = [steam, coolingWater, chilledWater, processWater, compressedAir, nitrogen, thermalFluid];
-export { oilGasCalcs };
+export { airCalcs, oilGasCalcs };
 
 export const UTIL_BASE = "/tools/utility-calculators";
 export const OILGAS_BASE = "/tools/oil-gas-calculators";
+export const AIR_BASE = "/tools/air-permit-engineering";
 
 /** A family of calculators that shares one hub page, one Excel workbook, and one unit preference. */
 export interface Collection {
-  id: "plant" | "oil-gas";
+  id: "plant" | "oil-gas" | "air";
   name: string;
   base: string;
   workbook: string;
@@ -27,11 +29,16 @@ export interface Collection {
   list: UtilityDef[];
   /** Units shown first: plant calculators start in metric, oil and gas in oilfield (US) units. */
   system: "metric" | "us";
+  /** Prefix of the preview screenshots, public/previews/<prefix>-<slug>.webp. */
+  preview: string;
+  /** "Worked examples, ... units" line on the signed-out preview. */
+  unitsLine: string;
 }
 
 export const COLLECTIONS: Collection[] = [
-  { id: "plant", name: "Plant Utility Calculators", base: UTIL_BASE, workbook: WORKBOOK_PATH, file: "plant-utilities", list: utilities, system: "metric" },
-  { id: "oil-gas", name: "Oil and Gas Engineering Calculators", base: OILGAS_BASE, workbook: OILGAS_WORKBOOK_PATH, file: "oil-gas-calculators", list: oilGasCalcs, system: "us" },
+  { id: "plant", name: "Plant Utility Calculators", base: UTIL_BASE, workbook: WORKBOOK_PATH, file: "plant-utilities", list: utilities, system: "metric", preview: "utility", unitsLine: "Worked examples, metric and US units, and Excel import and export" },
+  { id: "oil-gas", name: "Oil and Gas Engineering Calculators", base: OILGAS_BASE, workbook: OILGAS_WORKBOOK_PATH, file: "oil-gas-calculators", list: oilGasCalcs, system: "us", preview: "oilgas", unitsLine: "Worked examples, oilfield and metric units, and Excel import and export" },
+  { id: "air", name: "Air Permit Engineering Calculators", base: AIR_BASE, workbook: AIR_WORKBOOK_PATH, file: "air-permit-engineering", list: airCalcs, system: "us", preview: "air", unitsLine: "Rule text quoted word for word, worked examples, and Excel import and export" },
 ];
 
 const ALL = COLLECTIONS.flatMap((c) => c.list);

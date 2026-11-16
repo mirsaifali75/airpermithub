@@ -1,3 +1,4 @@
+import type { RuleQuote } from "../tools/rule-text";
 import type { Family } from "./units";
 
 /** One input of a calculation. Values reach `compute` in the family's SI base unit. */
@@ -58,6 +59,13 @@ export interface Outcome {
   error?: string;
   /** Which input was solved for, when the section solves for a blank. */
   solved?: string;
+  /** Pass or fail lines against criteria quoted on the page (for example a 40 CFR 60.18 limit). */
+  checks?: Check[];
+}
+
+export interface Check {
+  pass: boolean;
+  text: string;
 }
 
 export type Values = Record<string, number | null>;
@@ -86,6 +94,8 @@ export interface SectionDef {
   compute: (v: Values, lists: ListRows) => Outcome;
   /** References for this section (title and URL). */
   refs: { title: string; url: string }[];
+  /** Rule or guidance text the section relies on, word for word (from src/lib/tools/rule-text.ts). */
+  quotes?: RuleQuote[];
 }
 
 export interface UtilityDef {
