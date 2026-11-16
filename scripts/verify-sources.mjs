@@ -222,6 +222,8 @@ async function fetchPage(url) {
         } else if (isPdf) {
           const f = join(tmp, `p${pdfCount++}.pdf`);
           writeFileSync(f, buf);
+          // Equations in eCFR and EPA PDFs are often pictures; keep the PDF so an editor can read them.
+          if (keepRaw) image = { buf, ext: "pdf" };
           try { text = execFileSync("pdftotext", ["-q", f, "-"], { maxBuffer: 64 * 1024 * 1024 }).toString(); } catch { text = ""; }
           // List bullets come out as lines of their own ("o", "•"); they are not part of the wording
           text = text.replace(/^[ \t]*[o•▪◦■□➢✓\uf0b7\uf0a7-][ \t]*$/gm, "");
