@@ -1,0 +1,4389 @@
+Section 1
+
+Introduction
+
+-1-
+
+Chapter 2
+
+Cost Estimation: Concepts and Methodology
+John L. Sorrels
+Thomas G. Walton
+Air Economics Group
+Health and Environmental Impacts Division
+Office of Air Quality Planning and Standards
+U.S. Environmental Protection Agency
+Research Triangle Park, NC 27711
+
+November 2017
+
+-2-
+
+Contents
+2.1 Introduction .........................................................................................................................................................2-4
+2.2 Private versus Social Cost ...................................................................................................................................2-4
+2.3 Types of Cost Estimates ......................................................................................................................................2-5
+2.4 Cost Categories Defined ......................................................................................................................................2-8
+2.4.1 Elements of Total Capital Investment .......................................................................................................2-8
+2.4.2 Elements of Total Annual Cost................................................................................................................2-12
+2.5 Financial Concepts ............................................................................................................................................2-14
+2.5.1 Time Frame .............................................................................................................................................2-14
+2.5.2 Interest Rates ...........................................................................................................................................2-14
+2.5.3 Prices and Inflation ..................................................................................................................................2-16
+2.5.4 Financial Analysis ...................................................................................................................................2-19
+2.5.4.1 Net Present Value ..........................................................................................................................2-19
+2.5.4.2 Equivalent Uniform Annual Cost and Annualization ....................................................................2-21
+2.6 Estimating Procedure .........................................................................................................................................2-22
+2.6.1 Facility Parameters and Regulatory Options ...........................................................................................2-23
+2.6.2 Control System Design ............................................................................................................................2-24
+2.6.3 Sizing the Control System .......................................................................................................................2-24
+2.6.4 Estimating Total Capital Investment .......................................................................................................2-25
+2.6.4.1 General Considerations ..................................................................................................................2-25
+2.6.4.2 Retrofit Cost Considerations ..........................................................................................................2-27
+2.6.5 Estimating Annual Costs .........................................................................................................................2-31
+2.6.5.1 Raw Materials ................................................................................................................................2-31
+2.6.5.2 Labor............................................................................................................................................2-326
+2.6.5.3 Maintenance Materials ...................................................................................................................2-33
+2.6.5.4 Utilities ..........................................................................................................................................2-33
+2.6.5.5 Waste Treatment and Disposal ......................................................................................................2-33
+2.6.5.6 Replacement Materials ..................................................................................................................2-34
+2.6.5.7 Overhead ........................................................................................................................................2-35
+2.6.5.8 Property Taxes, Insurance, and Administrative Charges ...............................................................2-35
+2.7 Example .............................................................................................................................................................2-36
+References ................................................................................................................................................................2-40
+APPENDIX A ..........................................................................................................................................................2-42
+
+-3-
+
+2.1
+
+Introduction
+
+This chapter presents a methodology that will enable the user, having knowledge of the
+source being controlled, to produce study-level estimates of the costs incurred by regulated entities
+for a control system applied to that source. The methodology, which applies to each of the control
+systems included in this Manual, is general enough to be used with other “add-on” systems as well.
+Further, the methodology can apply to estimating the costs of fugitive emission controls and other
+non-stack abatement methods.
+There are several types of users for this Manual. Industrial users are the most common,
+but State, local, other officials, and other environmental stakeholders (e.g., environmental groups)
+are other users of the Manual. EPA strongly recommends that the methodology in this Manual be
+followed as part of compliance with various Clean Air Act programs.
+The cost estimation methodology can be used in the development of assessing private
+compliance decisions/strategies or effects of permits as various alternatives are considered. If the
+regulation or permit prescribes a particular control technology (e.g., installation of a scrubber),
+then the costs of individual controls can be estimated for affected entities. If the regulation or
+permit establishes performance standards, with flexibility as to how the standards can be achieved,
+then the cost estimation methods can be used to estimate the costs of various options for achieving
+the standards.
+We note that these cost estimation procedures are meant to support the calculation of the
+costs of purchasing and installing pollution control equipment, and then operating and maintaining
+this equipment, at a facility. Such costs are private costs because they reflect the private choices
+and decisions of the owners and operators of the facilities. Broader costs associated with the
+installation and operation of pollution control equipment, such as impacts on society (e.g., changes
+in prices to consumers due to the impact on a producer from additional pollution control) are
+analyzed using methods that assess the social costs of regulatory intervention.
+Again, the methods provided in this Manual is to aid in assessing private choices that
+regulated entities may undertake in complying with regulation. Analyzing private decisions and
+the associated costs are important in and of itself and can be used as inputs to assessing the likely
+effects of regulations. In other words, the cost estimation methodology in this Manual is meant
+for private cost estimation, not social cost estimation. Information on social cost estimation can
+be found in the EPA Economic Guidelines and the U.S. Office of Management and Budget’s
+Circular A-4. This Manual is not intended to assess the likely effects of federal regulations to
+society, but is intended to provide assessment of private actions which can be inputs to social
+impacts analysis.
+Users with the role of developing or reviewing compliance plans can use this Manual to
+estimate private costs of installing and operating control equipment. Regulated entities facing
+regulation can use this Manual to help decide how to comply with the requirements they are facing.
+-4-
+
+2.2
+
+Private Versus Social Costs
+
+Before delving deeper into a discussion on estimating private costs, identifying the
+differences between private and social costs is important. The Manual focuses on private cost,
+which refers to the costs borne by a private entity for an action the private entity decides. For
+example, if the private entity pays for the cost of installing and operating pollution control
+equipment, among many options available to the entity, the entirety of these costs would be
+considered private costs.
+The EPA’s Guidelines for Preparing Economic Analysis define social cost as follows:
+“Social cost represents the total burden a regulation will impose on the economy; it can be defined
+as the sum of all opportunity costs incurred as a result of a regulation. These opportunity costs
+consist of the value lost to society of all the goods and services that will not be produced and
+consumed if firms comply with the regulation and reallocate resources away from production
+activities and towards pollution abatement. To be complete, an estimate of social cost should
+include both the opportunity costs of current consumption that will be forgone as a result of the
+regulation, and the losses that may result if the regulation reduces capital investment and thus
+future consumption.”1
+The term social cost refers to the overall cost of an action to society, not just to the private
+entity that incurs the expense to control pollution. Social cost is based on the concept of
+opportunity cost, the value associated with production and consumption that are reduced or
+changed as a result of reallocating resources to reduce pollution.
+Assessing private cost is more straightforward because it attempts to tally up expenses that
+individual entities or facilities incur to purchase, finance, and operate pollution abatement
+equipment or strategies. Suppose a state government wanted to encourage pollution control for a
+certain industry and provided grants to pay half of the costs of a scrubber. The private cost for the
+industry would be 50% of the cost of a scrubber. Using another example, suppose a firm purchases
+equipment, pays sales tax on the item, and receives an immediate tax rebate. The private cost to
+the firm is the sum of the equipment price plus the sales tax amount minus the excise tax amount.
+The estimation of private costs is the focus of the cost estimation procedures and data in
+this Manual. Both EPA and OMB have developed guidance on methods appropriate for use in
+estimating social costs for regulatory impact analysis or economic impact analysis where the social
+costs of government interventions are assessed. The guidelines presented in this Manual are not
+suitable in conducting regulatory impact analysis or economic impact analysis where the social
+costs of government interventions are assessed. Because this Manual focuses on private costs to
+facilities of installing and operating pollution control equipment, we will not present the
+
+1
+
+U.S. Environmental Protection Agency, Office of Policy, National Center for Environmental Economics.
+Guidelines for Preparing Analysis. May 2014. Pp. 8-1 – 8-2.
+
+-5-
+
+methodologies for social cost calculations. For more information on social cost estimation
+methods, please see EPA’s Economics Guidelines [5] and OMB Circular A-4 [6].
+
+2.3
+
+Types of Cost Estimates
+
+As mentioned in Chapter 1.1, the costs and estimating methodology in this Manual are
+directed toward the “study” estimate with a probable error of 30% percent. According to Perry’s
+Chemical Engineer’s Handbook, a study estimate is “… used to estimate the economic feasibility
+of a project before expending significant funds for piloting, marketing, land surveys, and
+acquisition … [I]t can be prepared at relatively low cost with minimum data.” [1] The accuracy of
+the study-level estimate is consistent with that for a Class 4 cost estimate as defined by the
+Association for Advancement of Cost Engineering International (AACEI), which AACEI defines
+as a “study or feasibility”-level estimate. [2]
+Specifically, to develop a study estimate, the following must be known:
+ Location of the plant;
+ Location of the source within the plant;
+ Design parameters, such as source size or capacity rating, uncontrolled pollutant
+concentrations, pollutant removal requirements, etc.
+ Rough sketch of the process flow sheet (i.e., the relative locations of the equipment in
+the system);
+ Preliminary sizes of, and material specifications for, the system equipment items;
+ Approximate sizes and types of construction of any buildings required to house the
+control system;
+ Rough estimates of utility requirements (e.g. electricity, steam, water, and waste
+disposal);
+ Quantity and cost materials consumed in the process (e.g., water, reagents, and
+catalyst);
+ Preliminary flow sheet and specifications for ducts and piping; Approximate sizes of
+motors required;
+ Economic parameters (e.g. annual interest rate, equipment life, cost year, and taxes.)
+[1]
+
+Besides the labor requirements for construction and operation of a project, the user will
+need an estimate of the labor hours required for engineering and drafting activities because the
+accuracy of an estimate (study or otherwise) depends on the amount of engineering work expended
+on the project. There are four other types of estimates, three of which are more accurate than the
+study estimate. Figure 2.1 below displays the relative accuracy of each type of cost estimation
+process. The other processes are: [1]
+
+
+Order-of-magnitude. This estimate provides “a rule-of-thumb procedure applied only
+to repetitive types of plant installations for which there exists good cost history.” Its
+-6-
+
+
+
+
+
+
+
+probable error bounds are greater than 30%. (However, according to Perry’s, “… no
+limits of accuracy can safely be applied to it.”) The sole input required for making this
+level of estimate is the control system’s capacity (often measured by the maximum
+volumetric flow rate of the gas passing through the system).
+Scope, Budget Authorization, or Preliminary. This estimate, with probable error of
+20%, requires more detailed knowledge than the study estimate regarding the site,
+flow sheet, equipment, buildings, etc. In addition, rough specifications for the
+insulation and instrumentation are also needed.
+Project Control or Definitive. This estimate, with a probable error of 10%, requires yet
+more information than the scope estimates, especially concerning the site, equipment,
+and electrical requirements.
+Firm, Contractor’s, or Detailed. This is the most accurate (probable error of 5%) of the
+estimate types, requiring complete drawings, specifications, and site surveys.
+Consequently, detailed cost estimates are typically not available until right before
+construction, since “time seldom permits the preparation of such estimates prior to an
+approval to proceed with the project.”[1]
+
+ACCURACY
+±0%
+
+±5%
+
+PostDetailed
+Construction
+Reports
+
+± 10 %
+
+± 20 %
+
+± 30 %
+
+Project
+Control
+
+Scoping
+
+Study
+
+Order of Magnitude
+
+Figure 2.1: The Continuum of Accuracy for Cost Analyses
+These error bands are attempts at assessing the probable errors associated with each
+estimation method based on past practices of the engineering cost-estimation discipline. However,
+the error bands do not shed any light on the distribution of the likely errors. The users of this
+Manual should not draw conclusions about probable errors that this Manual does not intend.
+Study-level estimates represent a compromise between the less accurate order-ofmagnitude estimates and the more accurate estimate types. The former is too imprecise to be of
+much value in the context of pollution control installation and operation, while the latter are very
+expensive for an entity to prepare, and require detailed site- and process-specific knowledge that
+some Manual users are unlikely to have. Over time, this Manual has become the standard for air
+pollution control costing methodologies for many State regulatory agencies. For example, Virginia
+requires that the Manual be used in making cost estimates for BACT and other permit applications,
+unless the permit applicant can provide convincing proof that another cost reference should be
+-7-
+
+used. 2 Texas accepts the Manual methodology “as a sound source for the quantitative cost
+analysis” for BACT analyses it reviews.3
+The industrial user is more likely to have site-specific and detailed information than the
+average cost and sizing information used in a study estimate. The methodology laid out in this
+Manual can provide cost estimates that are more accurate when using detailed site-specific
+information. The anecdotal evidence from most testimonials volunteered by industrial users
+indicates that much greater accuracy than 30 percent probable error can be attained. However,
+this Manual does not assume that detailed site-specific information will always be available to
+estimate costs associated with installing and operating pollution abatement equipment at a much
+higher accuracy level. This Manual retains the conclusion that the cost methodology laid out in
+this chapter and information in each control measure chapter with 30% probable error is relevant
+to be used in air pollution control cost estimation for permitting actions. It is the affected industry
+source that bears the burden of providing information of sufficient quality that will yield cost
+estimates of at least a study-level estimate for permitting decisions pertaining to their facilities.
+
+2.4
+
+Cost Categories Defined
+
+The terminology addressing cost categories used in the earlier editions of this Manual was
+adapted from the AACEI. [2]. However, different disciplines give different names to the same cost
+components, and the objective of this edition is to reach out to a broader scientific audience. For
+example, engineers determine a series of equal payments over a long period of time that fully funds
+a capital project (and its operations and maintenance) by multiplying the present value of those
+costs by a capital recovery factor, which produces an Equivalent Uniform Annual Cost (EUAC)
+value. This is identical to the process used by accountants and financial analysts, who adjust the
+present value of the project’s cash flows to derive an annualized cost number.
+2.4.1 Elements of Total Capital Investment
+In assessing the total capital investment, this Manual takes the viewpoint of an owner, the
+firms making the investment, or those who have material interest in the project. Total capital
+investment (TCI) includes all costs required to purchase equipment needed for the control system
+(purchased equipment costs), the costs of labor and materials for installing that equipment (direct
+installation costs), costs for site preparation and buildings, and certain other costs (indirect
+installation costs). TCI also includes costs for land, working capital, and off-site facilities.4 Taxes,
+permitting costs, and other administrative costs are covered in Section 2.6.5.8. Financing costs
+
+2
+
+State of Virginia, Department of Environmental Quality. Draft PSD Guidelines, August 4, 2011. Pp. 4-4 to 4-5.
+Texas Commission on Environmental Quality. Air Permits Division. Air Permit Reviewer Reference Guide,
+APDG 6110. Appendix G. p. 45. January 2011.
+4
+Estimates of TCI for some control measures may not necessarily be calculated in this way due to availability
+of public information on capital investment costs and equations for those measures, such as the SNCR and SCR
+chapters in this Manual.
+3
+
+-8-
+
+are covered in Sections 2.5.3 and 2.5.4. Foregone revenue associated with facility shut downs are
+covered in Section 2.6.4.2.
+Direct installation costs include costs for foundations and supports, erecting and handling
+the equipment, electrical work, piping, insulation, and painting. Indirect installation costs include
+such costs as engineering costs; construction and field expenses (i.e., costs for construction
+supervisory personnel, office personnel, rental of temporary offices, etc.); contractor fees (for
+construction and engineering firms involved in the project); start-up and performance test costs (to
+get the control system running and to verify that it meets performance guarantees); and
+contingencies. Another item within owner’s costs, technology royalties, is not separately included
+with the Manual’s methodology because technology royalties are assumed to be reflected within
+the purchased equipment costs. Contingencies is a catch-all category that covers unforeseen costs
+that may arise, such as “… possible redesign and modification of equipment, escalation increases
+in cost of equipment, increases in field labor costs, and delays encountered in start-up.” [2]
+Contingencies are discussed in more detail later in this chapter. Contingencies are not the same
+thing as uncertainty and retrofit factor costs, which are treated separately in this chapter. Escalation
+is not treated as part of contingencies. Please refer to section 2.6.4 for further discussion.
+The elements of TCI are displayed in Figure 2.2. Note that the sum of the purchased
+equipment cost, direct and indirect installation costs, site preparation, and buildings costs
+comprises the battery limits estimate. A battery limit is the geographic boundary defining the
+coverage of a specific project [3]. Usually this encompasses all equipment of interest (in this
+case, the pollution control equipment), but excluding provision of storage, utilities,
+administrative buildings, or auxiliary facilities unless so specified [3]. This estimate would
+mainly apply to control systems installed in existing plants, though it could also apply to those
+systems installed in new plants when no special facilities for supporting the control system (i.e.,
+off-site facilities) would be required. Off-site facilities include units to produce steam, electricity,
+and treated water; laboratory buildings; and railroad spurs, roads, and other transportation
+infrastructure items. Some pollution control systems do not generally have off-site capital units
+dedicated to them since these pollution control devices rarely consume energy at that level.
+However, it may be necessary—especially in the case of control systems installed in new or
+“grass roots” plants—for extra capacity to be built into the site generating plant to service the
+system. For example, installation of a venturi scrubber, which often requires large amounts of
+electricity, would require including costs associated with off-site facilities.
+Note, however, that the capital cost of a device does not include routine utility costs
+(which can include the cost of steam, electricity, process and cooling water, compressed air,
+refrigeration, waste treatment and disposal, and fuel), even if the device were to require an offsite
+facility. Utility costs are categorized as operating costs that covers both the investment and
+operating and maintenance costs for the utility. The utility costs associated with start-up
+operations are included in the “Start-Up” component of the indirect installation costs. Operating
+costs are discussed in greater detail below. In addition, not every air pollution control system
+installation will have all of the elements for its TCI that are listed below (e.g., buildings).
+-9-
+
+e
+
+a
+
+Typically factored from the sum of the primary control device and auxiliary equipment costs.
+Typically factored from the purchases equipment cost.
+c
+Usually required only at “grass roots” installations.
+d
+Unlike the other direct and indirect costs, costs for these items usually are not factored from the purchased equipment
+cost. Rather, they are sized and costed separately.
+e
+Normally not required with add-on control systems.
+b
+
+Figure 2.2: Elements of Total Capital Investment
+
+As Figure 2.2 shows, the installation of pollution control equipment may also require land,
+but since some add-on control systems take up very little space (often a quarter-acre or less), this
+cost may be relatively small. Certain control systems, such as those used for flue gas
+desulfurization (FGD) or selective catalytic reduction (SCR), require larger quantities of land for
+the equipment, chemicals storage, and waste disposal. In these cases, especially when performing
+a retrofit installation, space constraints can significantly influence the cost of installation, and the
+purchase of additional land and remediation of existing land and property may be a significant
+factor in the development of the project’s capital costs.
+- 10 -
+
+However, land is not treated the same as other capital investments, since it is not
+depreciated for accounting purposes. The value of the land may fluctuate depending on the market
+conditions, but for accounting purposes and assessing private costs, land is not depreciated. The
+purchase price of new land needed for siting a pollution control device can be added to the TCI,
+but it must not be depreciated. If the firm plans on dismantling the device at some future time, the
+value of the land should be included at the disposal point as an “income” to the project to net it
+out of the cash flow analysis (more on cash flow analysis later, in section 2.5.4).
+One might expect initial operational costs (the initial costs of fuel, chemicals, and other
+materials, as well as labor and maintenance related to start-up) to be included in the operating
+cost section of the cost analysis instead of in the capital component, but such an allocation would
+be inappropriate. Routine operation of the control does not begin until the system has been
+tested, balanced, and adjusted to work within its design parameters. Until then, all utilities
+consumed, all labor expended, and all maintenance and repairs performed are a part of the
+construction phase of the project and are included in the TCI in the “Start-Up” component of the
+indirect installation costs.
+In addition, the TCI of controls for sources that affect fan capacity (e.g., FGD scrubbers,
+SCRs) may be impacted by the unit’s elevation with respect to sea level. Cost calculations for the
+control measures within the Manual have typically been developed for systems located at sea level.
+For systems located at higher elevations (generally over 500 feet above sea level), the purchased
+equipment cost and balance of plant cost should be increased based on the ratio of the atmospheric
+pressure between sea level and the location of the system, i.e., atmospheric pressure at sea level
+divided by atmospheric pressure at the elevation of the unit.5
+
+The method for estimating TCI in this Manual is an “overnight” estimation method. This
+method estimates capital cost as if no interest was incurred during construction and therefore
+estimates capital cost as if the project is completed “overnight.” An alternate way of describing
+this method is the present value cost that would have to be paid as a lump sum up front to
+completely pay for a construction project. Cost items such as Allowance for Funds Used During
+Construction (AFUDC), which is defined as the costs of debt and equity funds used to finance
+plant construction, and is an amount credited on the firm’s statement of income and charged to
+construction in progress on the firm’s balance sheet, is treated separately in Section 2.5.3 in this
+Manual. This item is an estimate that is incurred over the timespan of construction. For
+example, this is considered as a cost item within the electric power industry.6 [15] Other cost
+items similarly treated separately include escalation of costs to a future year due to inflation in
+Section 2.5.4. We provide more discussion later in this chapter on these cost items that are not
+included in this section.
+
+5
+
+One instance of this is the estimates of costs for the recently revised SNCR and SCR Control Cost Manual
+chapters, which are available at http://www.epa.gov/ttn/ecas/costmodels.html.
+6
+See the National Energy Technology Laboratory’s “Quality Guidelines for Energy System Studies: Cost
+Estimation Methodology for NETL Assessments of Power Plant Performance.”
+
+- 11 -
+
+2.4.2
+
+Elements of Total Cost
+
+Total Cost (TC) refers to costs that are incurred yearly. TC has three elements: direct costs
+(DC), indirect costs (IC), and recovery credits (RC), which are related by the following equation:
+TC = DC + IC − RC
+
+(2.1)
+
+The basis of direct costs and recovery credits is one year, as this period allows for seasonal
+variations in production (and emissions generation) and is directly usable in financial analyses.
+(See Section 2.3.) [4] The various annual costs and their interrelationships are displayed in Figure
+2.3. Some indirect costs are not incurred on an annual basis. Purchase, installation, and start-up
+of pollution abatement capital equipment often take multiple years. To incorporate these multiyear costs with other annual costs, the capital costs are amortized and converted into capital
+recovery. If the timing between direct costs and indirect costs are different, then an alternative
+approach for estimating total cost is to calculate the present value of these costs before summing
+them.
+Variable costs are those that vary with some measure of productivity - generally the
+company’s productive output. But for our purposes, the proper metric may be the quantity of
+exhaust gas processed by the control system per unit time. Semi-variable costs also vary with some
+measure of production, but have a positive cost even when production is zero.
+An example would be a boiler producing process steam for only sixteen hours a day. During
+the time the boiler is idle, it costs less to keep the boiler running at some idle level than to re-heat
+it at the beginning of the next shift. Consequently, that idle level operation cannot be attributed to
+production and should be considered the fixed component of the semi-variable fuel cost of the
+boiler. Direct costs include costs for raw materials (reagents or adsorbers), utilities (steam,
+electricity, process and cooling water), waste treatment and disposal, maintenance materials
+(greases and other lubricants, gaskets, and seals), replacement parts, and operating, supervisory,
+and maintenance labor. Generally, raw materials, utilities, and waste treatment and disposal are
+variable costs, but there is no hard and fast rule concerning any of the direct cost components.
+Each situation requires a certain level of insight and expertise on the part of the analyst to present
+the cost components accurately
+
+- 12 -
+
+Figure 2.3: Elements of Total Annual Cost
+Indirect, or “fixed” annual costs are independent of the level of production (or whatever
+unit of measure serves as the analytical metric) and, in fact, would be incurred even if the control
+system were shut down. Indirect costs include such categories as administrative charges, property
+taxes, insurance, administrative charges including permitting costs and capital cost amortized into
+capital recovery.
+Capital is depreciable, indicating that, as the capital is used, it wears out and that lost value
+cannot be recovered. Economic depreciation, which is the lost value due to wear and tear, is
+different than accounting depreciation, the declared lost value, that is usually used in a cost
+analysis. Depreciation costs are a variable or semi-variable cost that is also included in the
+calculation of tax credits (if any) and depreciation allowances whenever taxes are considered in a
+cost analysis. However, taxes are not uniformly applied, and subsidies, tax moratoriums, and
+deferred tax opportunities distort how the direct application of a tax works.
+Finally, direct and indirect annual costs can be offset by recovery credits, taken for
+materials or energy recovered by the control system, which may be sold, recycled to the process,
+or reused elsewhere at the site. An example of such credits is the by-product of controlling sulfur
+with a FGD scrubber. As the lime or limestone reagent reacts with the sulfur in the exhaust gas
+stream, it becomes transformed into CaSO4 - gypsum - which can be landfilled inexpensively (a
+direct cost) or collected and sold to wallboard manufacturers (a recovery credit). These credits,
+- 13 -
+
+must be calculated as net of any associated processing, storage, transportation, and any other costs
+required to make the recovered materials or energy reusable or resalable. Great care and judgment
+must be exercised in assigning values to recovery credits, since materials recovered may be of
+small quantity or of doubtful purity, resulting in their having less value than virgin material. Like
+direct annual costs, recovery credits are variable, in that their magnitude is directly proportional
+to level of production.
+A more thorough description of these costs and how they may be estimated is provided in
+Section 2.6
+
+2.5
+
+Financial Concepts
+
+Firms have latitude in developing compliance strategies. For standards that are
+performance oriented, firms have great latitude. Even for standards that are fairly prescriptive and
+technical in nature, firms still have to make some choices on how to comply. How do they compare
+these choices or alternatives?
+Alternatives will usually have expenditures at multiple times. Not only may the
+expenditures be different but the timing of expenditures may also be different. When comparing
+two different investment opportunities, how do you distill all of these data into one comprehensive
+and coherent form so that an informed decision can be made? This section deals with a number of
+the concepts and operations that are needed to make a meaningful comparison. They include:
+selection of an appropriate timeframe, addressing the time value of money, adjusting for prices
+over time, and selection of the appropriate measure of cost.
+2.5.1 Time Frame
+To compare two alternatives in a meaningful way, the comparison is more meaningful
+when the alternatives are examined over the same time frame or calculate the net present value of
+the alternatives. For example, if one alternative uses a control device that lasts two years and
+another alternative uses a device that lasts three years, the alternatives may be difficult to compare
+directly because of the inconsistent lifetimes of the devices. One approach to developing a more
+meaningful comparison would be to assume a common time frame by using each type of device
+for six years, with the two-year alternative being replaced two times and the three-year alternative
+being replaced once. Another approach is to calculate the net present value of the two alternatives.
+Amortization or the EUAC method also can be helpful in comparing alternatives with different
+lifetimes.
+2.5.2 Interest Rates
+Firms may borrow to finance the expenses associated with their compliance strategies. The
+interest rate at which a firm borrows is a key component in estimating the total costs of compliance.
+Financial markets set different interest rates for different activities depending on many factors.
+
+- 14 -
+
+The three factors that are relevant to this Manual are: time value of money, inflation risk, and credit
+risk of borrowers.
+Time value of money reflects the timing aspect of borrowing money—a firm would like to
+borrow now and pay back later and a financial institution would like to lend now and collect later.
+The time value of money is also known as the real interest rate. Financial institutions know that
+the price of goods and services will probably increase in the future, but they don’t know by how
+much. So they hedge against this risk by building in a premium for this risk. The credit risk of
+borrowers refers to the risk associated with whether the loan will be paid back. The credit risk
+premium will depend on the credit rating of the borrowing firms.
+The interest rates that firms face are nominal interest rates. For the rest of the discussion,
+this Manual assumes that the credit risk of borrowers is essentially zero. Removing the inflation
+adjustment from the nominal interest rate yields the real rate of interest - the actual cost of
+borrowing from a societal perspective. In equation form, the nominal interest rate (i) equals the ex
+ante real interest rate (ir) plus the expected rate of inflation (pe) plus the product of the expected
+inflation rate and the real interest rate as seen in Equation 2.3.
+e
+e
+i = ir + p + ir p
+
+(2.3)
+
+This is the well-known Fisher Equation. Since the product of the ex ante real interest rate and
+expected inflation is small, Equation 2.3 simplifies to:
+i = ir + p
+
+e
+
+When performing cost analysis, it is important to ensure that the correct interest rate is
+being used. Because this Manual is concerned with estimating private costs, the correct interest
+rate to use is the nominal interest rate, which is the rate firms actually face. Accounting for
+inflation should be done separately rather than using the real interest rate.
+The determination of appropriate private nominal interest rates is important for analyses
+of private costs done for permit applications where the costs assessed are for the permitted
+source. Different firms may structure how they finance their purchases differently. Some may
+choose to finance their purchases through cash holding or other means of equity; some may
+choose to borrow to finance their investment. When firms choose to borrow, depending on the
+size of the investment, borrowing could be structured very differently at very different interest
+rates given the choices firms have for financing an investment. For permit applications, if firmspecific nominal interest rates are not available, then the bank prime rate can be an appropriate
+estimate for interest rates given the potential difficulties in eliciting accurate private nominal
+interest rates since these rates may be regarded as confidential business information or difficult
+to verify. The bank prime rate is published by the Board of Governors of the Federal Reserve
+- 15 -
+
+System.7 The bank prime rate is the “rate posted by a majority of the top 25 (by assets in
+domestic offices) insured U.S. chartered commercial banks. The bank prime rate is one of
+several base rates used by banks to price short-term business loans.”8 Analysts should use the
+bank prime rate with caution as these base rates used by banks do not reflect entity and project
+specific characteristics and risks including the length of the project, and credit risks of the
+borrowers.
+For input to analysis of rulemakings, assessments of private cost should be prepared
+using firm-specific nominal interest rates if possible, or the bank prime rate if firm-specific
+interest rates cannot be estimated or verified. If neither of these types of private nominal rates are
+available, then the cost analysis should use 3% or 7%, rates that are used for social cost
+estimation as discussed later in this section, as a default. Analysts should be especially cautious
+using 3% and 7% rates in assessing cost of short term assets or projects. These rates represent
+long-run, real interest rates as described later in this section. Conflating real and nominal interest
+rates may lead to different conclusions than using consistent interest rates throughout the
+analysis. Private interest rates are but one component of the overall cost analysis, which will
+include social cost estimation to reflect relevant guidance from OMB.
+To clarify potential confusion that might arise, this Manual discusses the difference
+between private interest rate and social discount rate. If capital markets are perfect with no
+distortions (e.g., no taxes, no risk), then the return to savings (the consumption rate of interest)
+equals the return on private sector investments. Therefore, when the government needs to convert
+future costs and benefits into present value terms in the same way as the affected individuals would
+do so, it should also discount using this single market rate of interest. In other words, in this “first
+best” world, the private market interest rate would be an unambiguous choice for the social
+discount rate. However, ‘real-world’ issues make the issue much more complicated. For example,
+private sector investment returns are taxed (often at multiple levels), capital markets are not
+perfect, and capital investments often involve risks reflected in market interest rates (i.e., lenders
+charge riskier projects higher rates of interest to compensate for lenders’ risk). All of these factors
+drive a wedge between the social rate at which consumption can be traded through time (the pretax rate of return to private investments) and the rate at which individuals can trade consumption
+over time (the post-tax consumption rate of interest).
+As stated earlier, interest rate accounts for the time value of money, inflation, and other
+premiums, including risks, faced by lenders. The social discount rate is the rate at which society
+can trade consumption through time (i.e., the time value of money). When assessing the societal
+effect of regulations, such as for EPA rulemakings that are economically significant according to
+Executive Order 12866, analysts should use the 3% and 7% real discount rates as specified in the
+U.S. Office of Management and Budget (OMB)’s Circular A-4 [6]. The 3% discount rate
+represents the social discount rate when consumption is displaced by regulation and the 7% rate
+Board of Governors of the Federal Reserve System. “Selected Interest Rate (Daily) – H.15.” Available at:
+https://www.federalreserve.gov/releases/h15/ (Accessed August 4, 2017).
+8
+Board of Governors of the Federal Reserve System. “Selected Interest Rate (Daily) – H.15.” Available at:
+https://www.federalreserve.gov/releases/h15/ (Accessed August 4, 2017).
+7
+
+- 16 -
+
+represents the social discount rate when capital investment is displaced. Regardless, these are real
+social discount rates that are riskless. Therefore, they are not appropriate to use to assess private
+costs that will be incurred by firms in making their investment decisions. In assessing these private
+decisions, interest rates that face firms must be used, not social rates.
+2.5.3 Prices and Inflation
+With changes in prices over time for all relevant goods and services such as capital
+equipment, engineering services, other materials and reagents used in the construction and
+operation of control equipment, inflation’s impacts on prices and their effect on cost estimates is
+of concern to Manual users. The prices in the Manual were not standardized. Some chapters had
+prices for materials and reagents developed in the late 1990s, and other chapters had prices
+developed from as far back as 1985. Because these differences were not explicitly discussed in
+these earlier additions, the Agency attempted to standardize all prices into a particular base year’s
+dollar in subsequent editions of the Manual to reduce the chance for analytical error. In the sixth
+edition of the Manual, EPA updated all the costs to at least 1990. For the seventh edition of the
+Manual, EPA will update the costs to at least 2012.
+Updating costs for this Manual is an effort with a goal of standardizing all costs to one base
+year for a particular analysis. Each chapter of the Manual fully discloses the limitations of the
+costing information found in that chapter. This allows the analyst to make any adjustment they
+deem necessary, provided sufficient basis exists, and assuming the approval of the appropriate
+regulatory agency.
+To develop the costs used in each of the chapters of this Manual, we attempted to survey
+the largest possible group of vendors and collected information from industry literature and other
+technical reports to determine an industry average price for each cost component. In many cases,
+this involved contact with a number of vendors, including trade associations, and the assimilation
+of large amounts of data. In other cases, the pollution control equipment was supplied by only a
+few vendors, which limited the robustness of our models. And, in still other cases, the number of
+existing manufacturers or the highly site-specific nature of their installation made it difficult for
+us to develop robust prices for some components. While recognizing the difficulties in providing
+manufacturer-specific or site-specific information, this Manual also knowledges that timeliness of
+such information is important. If the survey information is not timely, errors to the cost estimation
+would be introduced in unknown ways. Thus, every effort is made to update the information in as
+timely a manner as possible.
+In collecting and using prices in estimating pollution control costs, one should be cognizant
+of the effect of inflation. We can define prices in “real” and “nominal” terms. Real and nominal
+prices act in the same way as real and nominal interest rates. Nominal prices are actual prices (i.e.,
+the sticker or spot price) and represent the value of a particular good at a particular point in time.
+Real prices remove the effect of inflation. The reason for using real price is that purchases may
+happen over several years especially for projects that invest heavily in capital. Because purchasing
+- 17 -
+
+power in any given year may be different than other years, combining nominal prices is like mixing
+apples and oranges.
+This Manual uses real prices for estimation of capital costs (in this case, an older capital
+cost to a more recent year), and other costs for any given cost analysis, not nominal prices. Using
+a price of reagent, catalyst, or other cost input to reflect possible price changes over the equipment
+lifetime is not correct in adjusting for inflation. Hence, the inclusion of price inflation via
+escalation estimates or having input prices reflect price changes over time as part of capital cost
+estimation is not allowed under the Control Cost Manual Methodology. The capital cost should
+be estimated for the time that the cost estimate is prepared, and should not be escalated to some
+future year, such as an anticipated date that construction will be completed or some other future
+year unless the analyst has a robust method to forecast future inflation. A linear extrapolation of
+past inflation is not a robust method of forecasting future inflation.
+Adjusting nominal prices to real prices involves establishing a base year for comparison
+purposes and then creating an adjustment factor for each year’s prices relative to those in the base
+period. This adjustment factor is a price index (PI) that can then be used to adjust nominal prices
+to an equivalent base year value; derived through the following formula:
+
+price in given year
+PI =
+
+(2.5)
+price in base year
+
+For example, if the price of a reagent in 2010 is 100, and we want a reagent price for
+2012, then an index value of 1.2 for that reagent price between 2012 and 2010 will yield a 2012
+price of 120. The Federal government and industry develop a variety of indexes tailored to the
+analysis of specific price issues. The most recognizable of these indexes are the Consumer Price
+Index (CPI), the Producer Price Index (PPI) and Gross Domestic Price (GDP) implicit deflator,
+which investigate the change in prices across the entire economy. The most relevant price index
+for private cost estimation is PPI, and PPI is provided at the 6-digit North American Industry
+Classification System (NAICS) level. However, for some equipment and materials, even a 6digit NAICS code level PPI may be too general for the specific needs of industry in the course of
+an analysis and should only be used if other indexes, particularly well-documented indexes for
+specific industries, materials, or uses, are not available.
+The CPI is not recommended because the price change of interest is among consumer
+goods and services which have little relevance to capital project spending or industrial
+intermediate goods such as raw materials such as reagents [8]. The Gross Domestic Product
+(GDP) implicit price deflator measures broad price changes in the economy rather than CPI,
+which is a measure of only goods bought by consumers. PPI is a measure of inflation faced by
+
+- 18 -
+
+industries.9 Other indexes are also available from industry and academic sources through the
+Internet, industry publications, trade journals, and financial institutions. One index that has been
+used extensively by EPA for escalation purposes is the Chemical Engineering Plant Cost Index
+(CEPCI), an index that tracks costs of equipment, construction labor, buildings, and supervision
+in chemical process industries.10 Other cost indexes exist, such as Marshall & Swift (M&S),
+another equipment cost index that is widely used.11
+It should be noted that the accuracy associated with escalation (and its reverse, deescalation) declines the longer the time period over which this is done. Escalation with a time
+horizon of more than five years is typically not considered appropriate as such escalation does not
+yield a reasonably accurate estimate. [9] Thus, obtaining new price quotes for cost items is
+advisable beyond five years. If longer escalation periods are unavoidable due to limited recent
+cost data that is reasonably available, then the analysis should use the principles in this Manual
+chapter to provide as accurate an escalation as possible consistent with the Manual given the
+limitations of the cost analysis. The appropriate length of time for escalation can vary as a result
+of significant changes in the cost of major production inputs (e.g., energy, steel, chemical reagents,
+etc.) and technological changes in control measures, particularly if these changes occur in an
+unusually short period of time. Hence, shorter time periods for escalation and de-escalation are
+clearly preferred over longer ones.
+2.5.4
+
+Financial Analysis
+
+Firms make purchase decisions that occur at different times for different durations and
+schedule paybacks which also occur at different times as well. Because of these reasons, the
+following financial analysis tools are necessary because they allow firms, state regulators, and
+other users of the Manual to be able to compare the costs of different compliance strategies.
+2.5.4.1
+
+Net Present Value
+
+The process through which future cash flows are translated into current dollars is called
+present value analysis. When the cash flows involve income and expenses, it is also commonly
+referred to as net present value (NPV) analysis. In either case, the calculation is the same: adjust
+the value of future money to values based on the same year (generally year zero of the project),
+employing an appropriate interest (discount) rate and then add them together, after all income and
+expenses have been converted into the same year dollar using appropriate price indices.
+Derivation of a cash flow’s net present value involves the following steps:
+
+U.S. Bureau of Labor Statistics. “Comparing the Consumer Price Index with the gross domestic product price
+index and gross domestic product implicit price deflator.” Monthly Labor Review. March 2016.
+10
+This index is available at http://www.chemengonline.com/pci. It is also available in Chemical Engineering
+magazine. Mention of this index is not meant to offer commercial endorsement by EPA.
+11
+More information on this cost index can be found at http://www.corelogic.com/products/marshall-swiftvaluation-service.aspx.
+9
+
+- 19 -
+
+•
+
+
+
+Identification of alternatives. For example, the choice between a fabric
+filter/baghouse and an electrostatic precipitator (ESP) for removing particulate
+matter (PM) from a flue gas stream.
+
+
+
+Determination of costs and cash flows over the life of each alternative. Each of the
+subsequent chapters of this Manual offers detailed costing information on specific
+air pollution control devices and equipment.
+
+
+
+Determination of an appropriate real interest or discount rate(s). The appropriate
+interest rate in private cost assessment is the private interest rate for each firm
+affected. Determining private interest rates may be difficult due to the firm-specific
+nature of the private nominal interest rates faced by firms. If firm-specific private
+nominal interest rates are available, then the appropriate rates are simply the
+difference between the nominal interest rate minus the prevailing inflation in the
+industry.
+Industrial and other users of this Manual should consult with their
+financial officers and/or trade associations for input regarding such rates. More
+extensive discussion of interest rates can be found earlier in this Manual in Section
+2.5.2. If discounting is performed using the same rate across all alternatives,
+ranking of alternatives by cost will always yield the same order, no matter which
+rate is used.
+
+
+
+For each alternative: Calculate a discounting factor for each year over the life of
+the equipment. The discount factor formula is: DFt={1/(1+i)t} where i is the
+discount rate and t is the number of years. For example, using a seven percent
+discount rate produces discount factors of: 0.9346, 0.8734, 0.8163, 0.7629, and
+0.7130 for the 1st, 2nd, 3rd, 4th, and 5th years of a piece of equipment’s life,
+respectively. Table A.1 in Appendix A displays discount factors for interest rates
+from 5.5 to 15 percent, in half-percent increments for 25 years.
+
+
+
+For each year’s cash flows, sum all incomes and expenses to determine the net cash
+flow for that year in nominal terms.
+
+
+
+Multiply each years’ net cash flow by the appropriate discount factor.
+
+
+
+Sum the discounted net cash flows to derive the net present value.
+
+Compare the net present values from each alternative. The net present value of a stream of cash
+flows over the life of an investment can be calculated using equation 2.6:
+NPV =∑ NCFt *[i/(1-(1+i)-t)]
+
+(2.6)
+
+where NCFt represents the net cash flow for year t, and i is the interest rate.
+- 20 -
+
+If discounting is performed using a uniform rate across different mutually exclusive
+alternatives, ranking of alternatives by cost or net cash flow will always yield the same order, no
+matter which rate is used or cost approach is employed.
+
+2.5.4.2 Amortization: Equivalent Uniform Annual Cost and Annualization
+Net present value (NPV) analysis allows us to evaluate between investments by summing
+the present value of all future incomes and expenses, but that does not give us an insight into the
+expected cash flows that will actually occur. NPV allows for comparison of alternatives by
+compressing the value of cost streams or return on investments over same or different time
+horizons to a single point in time. It’s as though regulated entities are paying up front for all the
+future costs of installation, maintenance, and operation of a pollution control device. However,
+firms may want to pay back their expenses in equal sums over the life of the control. A common
+engineering cost tool for this sort of evaluation is called the equivalent uniform annual cash flow
+(EUAC) approach. [4] In the finance literature, this approach is called amortization.
+EPA uses the EUAC approach as the basis for the Control Cost Methodology for the
+following reason:
+
+
+The methodology is general enough to be used for estimating costs for any pollution
+control measure applied to any industry. In this respect, the EUAC is different from
+the levelized cost method (LCM), which is a method specific to the electric power
+industry and requires relatively extensive information to be applied properly as
+compared to application of the EUAC. The EUAC thus provides consistency in cost
+analysis of pollution control measures for sources in all industries as part of actions for
+which the Control Cost Manual is applicable. [7]
+
+Annualization is a process similar to EUAC but is not limited to constant cash flows. It
+involves determining the NPV of each alternative equipment investment and then determining the
+equal payment that would have to be made at the end of each year to attain the same level of
+expenditure. In essence, annualization involves establishing an annual “payment” sufficient to
+finance the investment for its entire life, using the formula:
+PM T = NPV*(i/1-(1+i)-n)
+
+(2.7)
+
+where PMT is the equivalent uniform payment amount over the life of the control equipment, n,
+at an interest rate, i. NPV indicates the present value of the investment as defined above in equation
+2.6.
+
+- 21 -
+
+This payment is the capital recovery cost (CRC), which is calculated by multiplying the
+NPV of the investment by the capital recovery factor (CRF):
+
+CRC = NPV × CRF
+
+(2.8)
+
+where CRF is defined according to the formula:
+
+CRF = i(1+i)n / ((1+i)n-1)
+(2.8a)
+The CRF equation is a transformation of the PMT form in equation 2.7 and returns the
+same information. Table A.2 in Appendix A lists the CRF for interest rates between 5.5 percent
+and 15 percent for annualization periods from one to 25 years.
+The life of the control is defined in this Manual as the equipment life. This is the expected
+design or operational life of the control equipment. This is not an estimate of the economic life,
+for there are many parameters and plant-specific considerations that can yield widely differing
+estimates for a particular type of control equipment.
+The life of the control is appropriate to use when the analytic timeline or the length of the
+analysis is longer than the useful life of the control equipment. If the analytic timeline is shorter
+than the useful life of the control equipment, use the analytic timeline to annualize the capital cost.
+It is crucial that the analyst use the same interest or discount rate to estimate costs using
+NPV and when amortizing (i.e., EUAC).
+
+2.6
+
+Estimating Procedure
+
+The estimating procedure used in the Manual consists of five steps: (1) obtaining the
+facility parameters and compliance options for a given facility; (2) preparing the control system
+design; (3) sizing the control system components; (4) estimating the costs of these individual
+components; and (5) estimating the costs (capital and annual) of the entire system.
+2.6.1
+
+Facility Parameters and Regulatory Options
+
+Obtaining the facility parameters and regulatory options involves not only assembling the
+parameters of the air pollution source (i.e., the quantity, temperature, and composition of the
+emission stream(s)), but also compiling data for the facility’s operation. (Table 2.2 lists examples
+of these.) We identify two facility parameters: intensive (with values independent of quantity or
+dimensions) and extensive (size-dependent variables, such as the gas volumetric flow rate).
+
+- 22 -
+
+Compliance options are usually specified by others (generally a regulatory authority) and
+are often technology driven, typically defining allowable ways to achieve a predetermined
+emission limit. These options range from “no control” to a requirement for the system to reach the
+maximum control technically achievable. The options allowed will depend, firstly, on whether the
+emission source is a point source (a stack or other identifiable primary source of pollution), a
+fugitive source (a process leak or other source of pollution that could not reasonably pass through
+a stack, chimney, vent, or other functionally-equivalent opening) or an area fugitive source (an
+unenclosed or partly enclosed area, such as a storage pile or a construction site). Stacks are
+normally controlled by “add-on” devices - the primary focus of this Manual. (However, some of
+these devices can be used to control process fugitive emissions in certain cases, such as a fabric
+filter used in conjunction with a building evacuation system.) Add-on or end-of-pipe pollution
+controls are normally used to meet a specified emission limit, although in the case of particulate
+emissions, they may also be required to meet an opacity level.
+Table 2.2: Facility Parameters and Compliance Options
+Facility Parameters
+
+Compliance Options
+
+Intensive
+Facility status (new or existing, location)
+Gas Characteristics (temperature, pressure,
+moisture control)
+Pollutant concentration(s) and/or particle
+size distribution
+
+No control
+
+Extensive
+Facility capacity
+Facility life
+Exhaust gas flow rate
+Pollutant emission rate(s)
+
+2.6.2
+
+Add-on devices
+Emission limits
+Opacity limits
+
+Process modification
+Raw material changes
+Fuel substitution
+Source/Feedstock pretreatment
+Coal desulfurization
+Wet dust suppression
+
+Control System Design
+
+Preparing the control system design for an end of pipe device at a plant involves deciding
+what kinds of systems will be priced (a decision that will depend on the pollutants to be controlled,
+exhaust gas stream conditions, and other factors), and what auxiliary equipment will be needed.
+When specifying the auxiliary equipment for a typical add-on control device (e.g., a coal fired
+FGD scrubber), several questions may need to be answered, among others, depending on the
+specific control device:
+
+
+What is the fuel’s (in this case, coal’s) sulfur content? What is the content of other
+toxic substances in the fuel (heavy metals, mercury)?
+- 23 -
+
+•
+
+How many absorber modules will be needed?
+
+
+
+Does the exhaust stream pose any hazard to the materials of the hoods, ducts, fans,
+and other auxiliary equipment? Is the exhaust caustic or acidic? Is it abrasive? Does
+the treatment of the exhaust render it caustic or acidic?
+
+
+
+Does the exhaust stream require any pre-treatment (e.g., particulate control
+equipment, which will likely be in operation at the source) before it enters the
+control device?
+
+
+
+Will the captured pollutants be disposed of or recycled? How will this be done?
+Will a salable byproduct be produced (e.g., gypsum for drywall)?
+
+
+
+Can the on-site capacity (e.g., utilities, stockpiling space) accommodate the added
+requirements of the control system? Is additional wastewater and solid waste
+disposal capacity needed?
+
+2.6.3 Sizing the Control System
+Once the system components have been selected, they must be sized (i.e., the correct size
+of components must be determined). Sizing is probably the most critical step because the
+assumptions made in this step will more heavily influence capital investment than any other.
+Table 2.3 lists examples of these parameters. Also listed in Table 2.3 are general parameters
+which must be specified before the purchased cost of the system equipment can be estimated.
+Note that, unlike the control device parameters, these parameters may apply to any kind of
+control system. They include materials of construction (which may range from carbon steel to
+various stainless steels to fiberglass-reinforced plastic), presence or absence of insulation, and
+the equipment or useful life of the system. As indicated in Section 2.4.2, this last parameter is
+required for estimating the annual capital recovery costs as long as the analytic length exceeds
+the useful life of the equipment. The lifetime not only varies according to the type of the control
+system, but with the severity of the environment in which it is installed. Each of the controlspecific chapters of this Manual include a comprehensive list of the specific parameters that must
+be considered for each device.
+
+Table 2.3: Examples of Typical Control Device Parameters [3]
+General
+
+Device-Specific
+
+Material of construction: carbon steel
+Insulated? Yes
+Equipment life: 30 years
+
+Gas-to-cloth ratio (critical parameter): 3.0 to 1
+Pressure drop: 6.0 in w.c. (inches water column)
+Construction: standard (vs. custom)
+
+- 24 -
+
+Redundancya: none
+
+Duty: continuous (vs. intermittent)
+Filter type: shaker
+Bag material: polyester, 16-oz.
+
+a
+
+Refers to whether there are any extra equipment items installed (e.g., fans) to function in case the basic items become inoperative, so as to avoid
+shutting down the entire system. Please note that values in this table are shown only for illustrative purposes.
+
+2.6.4 Estimating Total Capital Investment
+2.6.4.1
+
+General Considerations
+
+The fourth step is estimating the purchased equipment cost of the control system
+equipment. As discussed in Section 2.2, total direct cost includes purchased equipment cost, which
+in turn, is the sum of the base equipment cost (control device plus auxiliaries), freight,
+instrumentation, and sales tax. The values of these installation factors depend on the type of the
+control system installed and are, therefore, listed in the individual Manual chapters dedicated to
+them. These costs are available from this Manual for the most commonly used add-on control
+devices and auxiliary equipment, with each type of equipment covered in a separate chapter (see
+Table of Contents and the discussion in Chapter 1). Total Direct Cost also includes Direct
+Installation Cost, which contains many of the cost categories included in Section 2 of this Manual,
+Generic Equipment and Devices.12
+As mentioned previously, most of the costs in each of the subsequent sections of this
+Manual were derived from data obtained from reputable control equipment vendors. For many
+control devices there are many vendors, which allowed us to offer robust average costs of
+components submitted by large samples of vendors in response to Agency survey efforts. [10] For
+items that are mass produced or “off-the-shelf” equipment, vendors provided a written quotation
+listing their costs, model designations, date of quotation, estimated shipment date, and other
+information. For other equipment there are not as many vendors or we did not receive sufficient
+number of responses to our inquiries, resulting in small samples. Thus, there could be a limited
+number of observations in the data sets available for estimation of average costs. In these cases,
+we offer these average costs and the cost discussion in that control’s particular chapter offers
+appropriate caveats to the analyst.
+For some controls, no amount of vendor data would have made our cost numbers more
+accurate because the control in question is either so large or so site-specific in design that suppliers
+design, fabricate, and construct each control according to the specific needs of the facility. For
+these kinds of controls, the vendor may still give quotations, but will likely take much longer to
+do so and may even charge for this service, to recoup the labor and overhead expenses of his
+estimating department. When performing a cost analysis, the cost of the quotation is a part of the
+TCI.
+12
+
+Estimates of TCI for some control measures may not necessarily be calculated in this way due to availability
+of public information on capital investment costs and equations for those measures, such as the SNCR and SCR
+chapters in this Manual.
+
+- 25 -
+
+Generally, vendor quotes are “F.O.B.” (free-on-board) for the vendor, meaning that no
+taxes, freight, or other charges are included. For these equipment, the analyst must take care to
+identify and include the cost of transportation, taxes, and other necessary charges in the TCI (see
+Figure 2.1). The costs of freight, instrumentation, and sales tax are calculated differently from
+the direct and indirect installation costs. These items are developed by multiplying the base
+equipment cost (F.O.B. the vendor) by an industry-accepted factor. Unlike other estimating
+factors that differ from system to system, installation factors are essentially equal for all control
+systems. [10] Table 2.4, below, displays values for these factors.
+Table 2.4: Cost Ranges for Freight, Sales Tax, and Instrumentation
+% of Total Equipment Cost, FOB
+Cost
+
+Range
+
+Typical
+
+Freight
+Sales Tax
+
+0.01 - 0.10
+0 - 0.08
+
+0.05
+0.03
+
+Instrumentation
+
+0.05- 0.30
+
+0.10
+
+To some extent, the application of an appropriate factor requires the subjective application
+of the analyst’s best judgment. For example, the range in freight costs is, in part, a function of the
+distance between the vendor and the site. The lower end of the factor range represents shorter
+distance deliveries, while the upper end of the range would reflect freight charges to remote
+locations such as Alaska and Hawaii. [10] The sales tax factors simply reflect the range of local
+and state tax rates currently in effect in the United States. [10] In some locations, and for many
+institutional and governmental purchases, sales taxes do not apply; (hence the zero value at the
+low end of the sales tax factor range). The range of instrumentation factors is also quite large. For
+systems requiring only simple continuous or manual control, the lower factor would apply.
+However, if the control is intermittent and/or requires safety backup instrumentation, the higher
+end of the range would be applicable. [10] Finally, some “package” control systems (e.g.,
+incinerators covered in Chapter 3) have built-in controls, with instrumentation costs included in
+the base equipment cost. In those cases, the instrumentation factor to use would, of course, be zero.
+Regarding the amount of labor for construction and installation of a control device, EPA
+has prepared a number of analyses that include estimates for power plants in particular. These
+analyses are extensive in nature, and we refer readers wanting more information to appendixes in
+several recent Regulatory Impact Analyses (RIAs) that include employment data for various addon control devices, including some of the control devices found in the Control Cost Manual.13
+
+13
+
+One example of this is Appendix 6A in the RIA for the Mercury and Air Toxics Standards (MATS), which
+provides an estimate of the labor necessary to construct and install an FGD scrubber on a coal-fired power plant
+
+- 26 -
+
+2.6.4.2
+
+Retrofit Cost Considerations
+
+Probably the most subjective part of a cost estimate occurs when the control system is to
+be installed on an existing facility. Unless the original designers had the foresight to include
+additional floor space and room between components for new equipment, the installation of
+retrofitted pollution control devices can impose an additional expense to “shoe-horn” the
+equipment into the right locations. For example, an SCR reactor can occupy thousands of square
+feet and may be installed directly behind a boiler’s combustion chamber to offer the best
+environment for NOx removal. Many of the utility boilers currently considering or have installed
+an SCR reactor to meet Federal or other NOx limits are over thirty years old - designed and
+constructed before SCR was a proven technology in the United States. For these boilers, there is
+often little room for the reactor to fit in the existing space and additional ductwork, fans, and flue
+gas heaters may be needed to make the system work properly.
+To quantify the additional costs of installation not directly related to the capital cost of the
+controls themselves, engineers and cost analysts typically multiply the cost of the system by a
+retrofit factor. The proper application of a retrofit factor is as much an art as it is a science, in that
+it requires a good deal of insight, experience, and intuition on the part of the analyst. The key
+behind a good cost estimate using a retrofit factor is to make the factor no larger than is necessary
+to cover the occurrence of expected (but reasonable) extra costs for demolition and installation.
+Such expected but extra costs include - but are certainly not limited to - the unexpected magnitude
+of anticipated cost elements; the costs of unexpected delays; the cost of re-engineering and refabrication; and the cost of correcting design errors.
+The magnitude of the retrofit factor varies across the kinds of estimates made as well as
+across the spectrum of control devices. The retrofit factor is calculated as a multiplier applied to
+the TCI. For instance, if a retrofit factor of as much as 50 percent can be justified, then the retrofit
+factor in the cost estimate is 1.5. For systems installed at the end of the stack, such as flares,
+retrofit uncertainty is typically a factor. In these cases, an appropriate retrofit factor may be as little
+as one or two percent of the TCI. In complicated systems requiring many pieces of auxiliary
+equipment, it is not uncommon to see retrofit factors of much greater magnitude being used.
+Since each retrofit installation is unique, no general factors can be developed. Nonetheless,
+if necessary, some general information can be given concerning the kinds of system modifications
+one might expect to be considered in developing a retrofit factor:
+1.
+
+Handling and erection. Because of a “tight fit,” special care may need to be taken
+when unloading, transporting, and placing the equipment. This cost could increase
+
+boiler. This RIA can be found at http://www.epa.gov/ttn/ecas/regdata/RIAs/matsriafinal.pdf. In addition, the
+RIA for the Cross-State Air Pollution Rule (CSAPR) provides estimates of the labor necessary to construct and
+install an SCR, dry sorbent injection (DSI) and FGD scrubber on coal-fired power plant boilers. The CSAPR
+RIA can be found at http://www.epa.gov/airtransport/pdfs/FinalRIA.pdf.
+
+- 27 -
+
+significantly if special means (e.g., helicopters) are needed to get the equipment on
+roofs or to other inaccessible places.
+2.
+
+Site Preparation. Site preparation includes the surveying, clearing, leveling,
+grading, and other civil engineering tasks involved in preparing the site for
+construction. Unlike the other categories, this cost may be zero or decreases, since
+most of this work would have been done when the original facility was built [11].
+However, if the site is crowded and the control device is large, the size of the site
+may need to be increased and then site preparation may prove to be a major source
+of retrofit related costs. As mentioned earlier in the chapter, if additional land is
+purchased to accommodate the installation of the control equipment, this cost needs
+to be added in as well. If other production related equipment must be relocated to
+allow for the installation of the control equipment, the cost associated with the
+relocation needs to be included.
+
+3.
+
+Off-Site Facilities. Off-site facilities should not be a major source of retrofit costs,
+since they are typically used for well-planned activities, such as the delivery of
+utilities, transportation, or storage.
+
+4.
+
+Limited Space for Staging Equipment. During construction, materials and
+equipment are transported, received, and stored on site. These commodities are
+marked, arranged, and placed in a sequence for retrieval by construction crews prior
+to final installation. In many ways, the storage yard on a construction site
+represents a depot with shipments being received from vendors and commodities
+being constantly repositioned to facilitate retrieval to meet a scheduled installation
+sequence. For large sites, repositioning becomes less of an issue; however, for
+small limited area sites, repositioning items in the construction queue becomes a
+major logistical effort, and in some cases, requires JIT (just-in-time) delivery to
+allow for direct off-loading from carrier and then straight to installation. To allow
+schedule flexibility (for the unseen), equipment can be stored off-site (for a fee) or
+at the fabricator's shop (once again, for a space rental fee).
+
+5.
+
+Transportation. The delivery of equipment is more than the arrival of commodities
+at plant site. It is the examination of the destination route from shop to plant site
+with all special aspects taken into consideration, such as: road bearing limitations,
+bridge overpass height restrictions, permits for oversized shipments (extra wide
+loads), required special escorts, time-of-day transit limitations (non-traffic hour,
+weekends only), railway restrictions, waterway provisions (locks, docking,
+piloting), tunnel limitations. Depending on the site's location in relationship to the
+origin point, the typical transit route for normal cargo shipments yields to alternate
+routes and times for large special shop fabricated assemblies.
+
+- 28 -
+
+6.
+
+Lost Production. The shut-down for installation of a control device into the system
+should be a well-planned and anticipated event, and typically occurs during routine,
+scheduled outages. As such, its cost should be considered a part of the indirect
+installation cost (start-up). However, unanticipated problems with the installation
+due to retrofit-related conditions if they happen could impose significant costs on
+the system. Retrofit factors should be reserved for those items directly related to
+the demolition, fabrication, and installation of the control system. A contingency
+factor should be reserved (and applied to) only those items that could incur a
+reasonable but unanticipated increase but are not directly related to the demolition,
+fabrication, and installation of the system. For example, a hundred year flood may
+postpone delivery of materials, but their arrival at the job site is not a problem
+unique to a retrofit situation. If the shut-downs do not occur in a well planned and
+routine manner, any additional foregone production of goods and products would
+need to be included as a private cost attributable to the retrofit cost.
+
+It is important to consider the type of contract and its influence on contingency factors. The
+two types of major contract vehicles that exist for the buyer (owner) to issue to a seller (vendor)
+are: lump-sum / fixed price and cost-plus. Between these extremes, a myriad of hybrids exists.
+The lump-sum contract vehicle stipulates a fixed price for delivery of a product performing to
+specified conditions set by the buyer with all materials, services, engineering/ design, installation,
+and commissioning supplied by the seller. Under this fixed price, the seller is at financial risk for
+delivering a conforming product at the contracted price; corrections to attain conformance and cost
+overruns are at the seller's expense; however, realized savings are solely to the seller's benefit. The
+buyer's risk involves changes to the supplied product outside of contractually agreed upon
+conditions due to unforeseen events or issues. Under such contracts, the engineering contractor
+assumes the majority of the risk. A cost-plus vehicle allows the buyer to pay for actual expenses
+incurred by the vendor (materials, labor, engineering / design, etc.) without mark-up plus an agreed
+upon surcharge to cover the vendor's overhead and profit. The owner is at risk because this type
+of contract can become open-ended; however, the buyer has extreme control over the cost process
+and can terminate the project at any time without penalty. The seller settles for minor risk while
+forgoing the chance to realize cost efficient savings; however, an assured profit margin exists.
+This is also known as a "time and materials" contract. In between these two extreme contract
+vehicles, a multitude of blended hybrids exist to suit both buyer and seller and blend the likenesses
+of each; for example: lump sum + fee, cost-plus + award with shared savings / overruns, lump sum
+on materials / cost plus on labor, and many more. Contingency cost placement differs between the
+two vehicles. For cost-plus contracts, the owner determines the contingency amount set aside; for
+lump-sum / fixed price contracts, the seller determines contingency allowances, (which is reflected
+in the price).
+Project execution typically follows one of two forms: Design-Build (DB) or Design, Bid,
+Build (DBB) [12]. A contract issued under Design-Build conditions allows the buyer to have a
+single entity contact (supplier) which performs the engineering, design, purchasing and installation
+for the vended product plus retains responsibility for that product. DB project execution operates
+under shorter time schedule since the single entity can design, procure, and construct
+- 29 -
+
+simultaneously from commencement through completion. The owner's main disadvantage
+becomes losing control over the design process and selection of equipment, which consequently
+affects cost. While DB is a common term, it is better known as EPC (engineer, procure, construct),
+EPCM (engineer, procure, construct, manage), and EPM (engineer, procure, manage with
+construction under separate contract). DBB project execution follows a more deliberate path with
+each phase completed before the next. The design phase involves hiring an architect/engineering
+firm (via contract vehicle) create a complete documentation package for a product. This involves
+specifications, drawings, fabrication drawings, construction drawings, and all documentation
+necessary for competitive bid to supply materials, commodities, and construction services for
+installation. General contractors bid on this design package and a bid is selected. This type of
+project execution distinctly separates the design/engineering phase from the procurement and
+installation phase, but takes longer to implement. The method's main advantage allows revising
+design before equipment and services are procured.
+Regardless of execution form selected (DB or DBB), the buyer tends to become involved
+with the vendor's process (to varying degrees) to coordinate activities between the owner's staff
+and the supplier's personnel. There is one exception to this case, and it is termed the "turnkey"
+project. In its purest sense, the buyer's involvement on a turnkey project is negligible; the owner
+meets the supplier on the first day to award the contract and returns on the final day to receive
+ownership. In reality, the buyer exercises minor involvement to ensure ongoing progress.
+Lump-sum or EPC contracts are generally awarded on the basis of a competitive tender
+and often lead to the lowest direct cost compared to other type of contracts. These contracts are
+often turnkey in nature. Thus, these contracts will have larger contingencies than engineer, procure,
+construction, and management (EPCM) contracts. EPCM contractors are paid when their costs
+are incurred (cost-reimbursable contracts) and the owner assumes more of the risk (though the
+owner has more flexibility to specify changes during construction). Most contracts awarded to
+pollution control vendors are EPC or turnkey due to their shorter time schedules.
+Contingency also accounts for inadequacies in cost estimating methods and for expected
+unknowns that may arise during project execution. The contingency funds are born by the owner
+or by the supplier, depending on contract vehicle issued. In any case, it is reflected in the TCI.
+Contingency is inversely proportional to the level of accuracy for a cost estimate. A study-level
+cost estimate, which is the level of analysis accuracy for estimates arrived at using the Control
+Cost Methodology, will have a higher contingency as compared for a more accurate (20% probable
+error) cost estimate that was arrived at with a greater amount of data and effort. Contingency can
+also vary depending primarily on the age of the technology. For mature control technologies,
+which reflect the control technologies covered in the other chapters of this Manual, the
+contingency can range from 5 to 15% of the TCI [3] This contingency is quite consistent with
+
+- 30 -
+
+general cost guidance for mature or well-known technologies.14 Finally, contingency should not
+account for events such as price escalation, work stoppages, and disasters. [13]
+2.6.5
+
+Estimating Annual Costs
+
+Determining the total annual cost is the last step in the estimating procedure. As
+mentioned in Section 2.3 the total annual cost is comprised of three components—direct and
+indirect costs and recovery credits. Some cost items are annual; others are multi-year. Unlike the
+installation costs, which are factored from the purchased equipment cost, annual cost items are
+usually computed from known data on the system size and operating mode, as well as from the
+facility and control device parameters.
+Following is a more detailed discussion of the items comprising the total cost.
+(Values/factors for these costs are given in the chapters for individual devices.)
+2.6.5.1
+
+Raw Materials
+
+Raw materials may be needed with control systems. Examples would be chemicals used in
+gas absorbers or venturi scrubbers as absorbents or to neutralize acidic exhaust gases (e.g.,
+hydrochloric acid). Chemicals may also be required to treat wastewater discharged by scrubbers
+or absorbers before releasing it to surface waters. If the source uses the same raw materials for
+production, the analyst must be careful to include only are only those costs that are attributable to
+the raw materials needed by the control device. Quantities of chemicals required are calculated via
+material balances, with an extra 10 to 20% added for miscellaneous losses on average. Specifying
+one or several sources for a recent reagent cost should be sufficient for cost estimation that is
+consistent with the Control Cost Methodology. Costs for chemicals are available from vendors,
+governmental sources such as the U.S. Geological Survey (USGS), and from ICIS Chemical
+Business, IHS Chemical Week, and similar well-recognized business publications.15 A list of
+well-regarded sources for chemicals used as reagents in pollution control operations and other
+industrial chemical operations and processes can be found at university library web sites, with one
+maintained by Texas A&M’s University Library being a particularly good example.16 If the price
+of these reagents and raw materials become more volatile and deviate significantly from historical
+price trends, then the analyst is advised to take this into account in assessing the cost of material.
+2.6.5.2
+
+Labor
+
+This section discusses the amount of labor required to operate and maintain a pollution
+control system. The necessary labor depends on the system’s size, complexity, level of automation,
+Hollman, John K. “Improving Your Contingency Estimates for More Realistic Project Budgets.” Chemical
+Engineering, December 2014. Available at http://www.chemengonline.com/improve-your-contingencyestimates-for-more-realistic-project-budgets/?printmode=1#disqus_thread.
+15
+No endorsement by US EPA is made or implied of any publication that is named here, or anywhere else in
+the Manual.
+16
+The link is at http://guides.library.tamu.edu/chemicalengineering. Click on “Chemical Prices” for industrial
+chemical data sites and publications.
+14
+
+- 31 -
+
+and operating mode (i.e., batch or continuous). The labor is usually estimated on an hours-pershift basis. As a rule, though, data showing explicit correlations between the labor requirement
+and capacity are often hard to obtain. One non-linear correlation found in the literature is shown
+below: [3]
+L2/L1= (V2/V1)y
+
+(2.9)
+
+where
+L1, L2 =
+V1, V2 =
+y
+
+=
+
+labor requirements for systems 1 and 2
+capacities of systems 1 and 2 (as measured by the gas flow rate,
+for instance)
+0.2 to 0.25 (typically)
+
+The exponent in Equation 2.9 can vary considerably. Conversely, in many cases, the amount of
+operator labor required for a system will be approximately the same regardless of its size.
+Maintenance labor is calculated in the same way as operating labor and is influenced by
+the same variables. The maintenance labor rate, however, is normally higher than the operating
+labor rate, mainly because more skilled personnel are required. Many cost studies use a flat ten
+percent premium over the operations labor wage rate for maintenance labor costs. [13] A certain
+amount must also be added to operating labor to cover supervisory requirements. Generally, cost
+estimates include supervisory labor as a flat fifteen per cent of the operating labor requirement.
+[13] To obtain the annual labor cost, multiply the operating and supervisory labor requirements
+(labor-hr/operating-hr) by the respective wage rates (in $/labor-hr) and the system operating factor
+(number of hours per year the system is in operation). Wage rates also vary widely, depending
+upon the source category, geographical location, etc. These data are tabulated and periodically
+updated by the U.S. Department of Labor, Bureau of Labor Statistics, in its Monthly Labor Review
+and in other publications. This Manual uses labor rates that are representative of industries at the
+national level. For cost assessments, these wages (adjusted for inflation through an appropriate
+cost index) should be adequate for study level purposes.
+Finally, please note that the wage rates used by the Manual and its supplemental
+programs are base labor rates, which do not include payroll and plant overhead. Wages found in
+reports from the Bureau of Labor Statistics or some other reliable source may or may not include
+overhead. The analyst must be careful to apply overhead and other wage adjustment factors
+uniformly. (See the discussion on Overhead, below.)
+2.6.5.3
+
+Maintenance Materials
+
+Maintenance also requires maintenance materials—oil, other lubricants, duct tape, etc.,
+and a host of small tools. The costs for these items can be figured individually, but since they are
+normally so small, they are usually factored from the maintenance labor. Reference [3] suggests
+a factor of 100% of the maintenance labor to cover the maintenance materials cost.
+- 32 -
+
+2.6.5.4
+
+Utilities
+
+This cost category covers many different items, ranging from electricity to compressed air.
+Of these, only electricity is common to all control devices, where fuel oil and natural gas are
+generally used only by incinerators; water and water treatment, by venturi scrubbers, quenchers,
+and spray chambers; steam, by carbon adsorbers; and compressed air, by pulse-jet fabric filters.
+Techniques and factors for estimating utility costs for specific devices are presented in their
+respective sections. However, because nearly every system requires a fan to convey the exhaust
+gases to and through it, a general expression for computing the fan electricity cost (Ce) is given
+here: [10]
+Ce = 0.746 Q ∆P s ϴpe/6356η
+
+(2.10)
+
+Where
+gas flow rate (actual ft3 /min, acfm)
+pressure drop through system (inches of water, column) (Values for P
+are given in the chapters covering the equipment items.)
+s = specific gravity of gas relative to air (1.000, for all practical
+purposes)
+ϴ = operating factor (hr/yr)
+η = combined fan and motor efficiency (usually 0.60 to 0.70)
+pe = electricity cost17 ($/kw-hr)
+A similar expression can be developed for calculating pump motor electricity requirements.
+Q
+P
+
+2.6.5.5
+
+=
+=
+
+Waste Treatment and Disposal
+
+Though often overlooked, there can be a significant cost associated with treating and/or
+disposing of waste material captured by a control system that neither can be sold nor recycled to
+the process. Liquid waste streams, such as the effluent from a gas absorber, are usually processed
+before being released to surface waters. The type and extent of this processing will, of course,
+depend on the characteristics of the effluent. For example, the waste can first be sent to one (or
+more) clarifiers, for coagulation and removal of suspended solids. The precipitate from the
+clarifier is then conveyed to a rotary filter, where most of the liquid is removed. The resulting
+filter cake is then disposed of, via landfilling, for example. The costs of waste treatment and
+disposal should be estimated where appropriate and consistent with the Control Cost
+Methodology. If installation of control equipment is expected to increase the waste generation
+from the current level, the difference between the expected level and the current level is
+attributable to the control equipment and should be accounted for in the cost estimate.
+Estimation of costs is accounted for in the chapters for specific control measures where waste
+treatment and disposal is a concern (e.g., gas absorbers, carbon adsorbers).
+
+17
+
+The electricity cost in this equation is the cost to the power plant to generate its electricity, or busbar cost.
+Data on busbar costs is collected in Form 1 of the Federal Energy Regulatory Commission (FERC). Information
+on Form 1 can be found at http://www.ferc.gov/docs-filing/forms/form-1/data.asp.
+
+- 33 -
+
+2.6.5.6
+
+Replacement Materials
+
+The cost of maintenance materials is a component of the operations and maintenance
+function of the system and is not the same thing as the system’s replacement materials cost, which
+is the cost of such items as carbon (for carbon absorbers), bags (for fabric filters) and catalyst (for
+catalytic incinerators), along with the labor for their installation. Because replacement materials
+last for more than a year but are consumed by the system, they cannot be included in the general
+maintenance and operations costs, which are annual in nature. Instead, these the present value of
+these costs in constant dollar must be calculated before being annualized by taking into account
+the life of the material (see section 2.5.5.3, above). The annual cost of the replacement materials
+is a function of the initial parts cost, the parts replacement labor cost, the life of the parts, and the
+interest rate, as follows:
+
+(
+
+CRC p = C p + C pl
+
+) CRF
+
+p
+
+(2.11)
+
+Where
+CRCp
+Cp
+
+=
+=
+
+Cpl
+CRFp
+
+=
+=
+
+capital recovery cost of replacement parts ($/yr)
+initial cost of replacement parts, including sales taxes and freight
+($)
+cost of parts-replacement labor ($)
+capital recovery factor for replacement parts (defined in Section
+2.3).
+
+The useful life of replacement materials is generally less than the useful life of the rest of
+the control system - typically two to five years. Consequently, the analyst can choose to keep the
+length of the analysis as same as the life of the control system, and input the cost of the replacement
+materials accordingly before annualizing or annualize the replacement material cost stream
+separately from the control system. Furthermore, the annualized cost of the pollution control
+system should be performed net of the cost of the replacement materials needed at the beginning
+of operations to prevent double counting. Replacement materials labor will vary, depending upon
+the amount of the material, its workability, accessibility of the control device, and other factors.
+The cost of replacement materials labor should be included in the cost of the materials before
+annualization. Either way, this approach is appropriate when only the cost is under consideration
+in the overall analysis.
+
+2.6.5.7
+
+Overhead
+
+This cost is easy to calculate, but often difficult to comprehend. Much of the confusion
+surrounding overhead is due to the many different ways it is computed and to the several costs it
+includes, some of which may appear to be duplicative.
+
+- 34 -
+
+There are, generally, two categories of overhead: payroll and plant. Payroll overhead
+includes expenses directly associated with operating, supervisory, and maintenance labor, such as:
+workmen’s compensation, Social Security and pension fund contributions, vacations, group
+insurance, and other fringe benefits. Some of these are fixed costs (i.e., they must be paid
+regardless of how many hours per year an employee works). Payroll overhead is traditionally
+computed as a percentage of the total annual labor cost (operating, supervisory, and maintenance).
+Conversely, plant (or “factory”) overhead accounts for expenses not necessarily tied to the
+operation and maintenance of the control system, including: plant protection, control laboratories,
+employee amenities, plant lighting, parking areas, and landscaping. Some estimators compute
+plant overhead by taking a percentage of all labor plus maintenance materials [3], while others
+factor it from the total labor costs alone. [3]
+For study estimates, it is sufficiently accurate to combine payroll and plant overhead into
+a single indirect cost. This is done in this Manual. Also, overhead is factored from the sum of all
+labor (operating, supervisory, and maintenance) plus maintenance materials, the approach
+recommended in reference [3]. The factors recommended therein range from 50 to 70% [3]. An
+average value of 60% is used in this Manual.
+2.6.5.8 Property Taxes, Insurance, Administrative Charges and Permitting Costs
+The first three indirect operating costs are factored from the system total capital
+investment, at 1, 1, and 2%, respectively. Property taxes and insurance are self-explanatory.
+Administrative charges cover sales, research and development, accounting, and other home
+office expenses. (It should not be confused with plant overhead, however.) For simplicity, the
+three items are usually combined into a single, 4% factor. These estimates can serve for cost
+estimates if sources do not have any reliable and accurate information on these indirect operating
+costs. This is the standard approach used in actions for which the cost methodology in this Cost
+Manual is a basis.
+The permitting costs are costs borne by the facilities to get the necessary approval to
+design and install the control equipment. This is a site-specific cost where the costs borne by one
+facility may not translate well into another facility. However, because of potentials for delays,
+re-design and other considerations, permitting costs should be included in the overall cost
+assessment. While the cost of re-design and lost production are explicitly taken into account,
+analysts should carefully the effects of permitting process and their associated costs on the
+overall cost assessment.
+
+2.7
+
+Example
+
+As an illustrative example of applying the cost methodology discussed in this chapter,
+consider the hypothetical All-American Electrical (AAE) 1 that operates a single 600 MWe
+tangentially fired high sulfur bituminous coal-fired boiler to produce steam to power its generators.
+- 35 -
+
+It emits an uncontrolled 50,000 tons of sulfur dioxide per year, and because it is planning on a
+major renovation, it must install devices to reduce its sulfur emissions to less than 1,000 tons per
+year (98 percent removal efficiency). After careful study of the available technologies, AAE has
+determined that either a wet limestone flue gas desulfurization (FGD) scrubber or a wet buffered
+lime FGD would be the most logical choice to achieve such a high removal rate. For simplification
+purposes we will assume either device would have an operating life of thirty years, after which the
+scrubbers could be sold as scrap for a salvage value of about $500,000. We also provide an
+estimate of annual gypsum sales in the overall calculation given that gypsum can be a by-product
+of FGD scrubber operation. Table 2.5, below, displays the capital and annual costs associated
+with each of the alternative devices.
+
+Table 2.5: Capital, O&M, and Parasitic Energy Costs (Including Revenue Streams) of
+Alternative FGD Controls
+Wet Limestone FGD
+
+Wet Buffered Lime FGD
+
+$200,000,000
+
+$180,000,000
+
+$2,000,000
+
+$1,800,000
+
+Reagent
+
+$1,200,000
+
+$3.750,000
+
+Auxiliary Power
+
+$1,300,000
+
+$1,150,000
+
+Annual Gypsum Sales
+
+$1,200,000
+
+$600,000
+
+Parasitic Power b
+
+$950,000
+
+$375,000
+
+Capital Cost
+Annual O&M Costs
+Fixed O&M Costs a
+
+a
+b
+
+Estimated at 1% of capital cost
+In many systems, the insertion of a pollution control device causes the system to lose productive capacity. This can be caused by the device
+creating obstructions in the flue, temperature losses that create imbalances, or other physical changes that affect performance. These losses are
+collectively termed “parasitic power” losses.
+
+From the information in Table 2.5, neither device can be shown to be superior to the
+other. It costs $20 million less to install a wet buffered lime scrubber, but a buffered lime FGD
+would cost over three times as much each year for the purchase of the lime, relative to the cost of
+the reagent in a limestone FGD. Each FGD has similar fixed O&M costs, but because a buffered
+lime FGD uses much less reagent, it requires less power to run - about half the power demand
+and about 40 percent of the productive loss of the limestone FGD. While these factors indicate
+the wet buffered lime FGD may be a better alternative, the use of less reagent also means the
+production of less gypsum by-product - for about half the expected revenue generating capability
+of a limestone system. To make our selection, we must rely upon our financial tools.
+The exercise does not lend itself to a payback analysis, even though there are revenues to
+be generated from the sale of the scrubber’s byproduct. So long as annual costs exceed annual
+- 36 -
+
+revenues, payback will not an alternative because there will be no net revenue to help offset the
+capital costs of the project. Furthermore, even if one were to ignore the cost component of the
+cash flow, the revenues from most pollution control devices are so low that their payback values
+are meaningless. For instance, the limestone and buffered lime scrubbers in this exercise have a
+simple payback (without considering costs) of 167 and 300 years, respectively. Consequently,
+the analyst must look to the more sophisticated tools available: cash flow analysis and net present
+value.
+Table 2.6 shows the hypothetical cash flows from each alternative control in nominal
+dollars. You will notice that the cost for O&M and the revenues from selling the gypsum byproduct are constant over time. That is because we have ignored any inflation rate change in prices
+and have created our cash flow analysis in real dollars. This is the preferred way to approach this
+kind of analysis, since it relies on the most accurate information available (current prices) and does
+not try to extrapolate those prices into the future. Because we will perform our cash flow analysis
+in real dollars, we must use the real interest rate to determine net present values. We will assume
+AAE can borrow funds at will at a nominal interest rate of nine percent and sources the company
+consults expect the inflation rate over the relevant range to be, on average, two percent.
+Consequently, the real rate of interest is (nine percent minus two percent) seven percent. Using
+real dollars for revenues and costs and then using nominal interest rates for our discounting factors
+(nine percent) would have led to an understatement of the net present value of the projects, making
+them appear less beneficial to AAE.
+Translating the costs in each future year to year zero values means applying the factors
+found in Table A.1 from Appendix A. From the 10 percent column, we applied the factors 0.90909,
+0.82645, 0.75131, 0.68301, and 062092, respectively, to the net costs of years 1, 2, 3, 4, and 5 to
+determine the year zero costs, and then sum all of the values to derive the net present value for
+each control alternative. Based upon the information developed in the cash flow analysis and the
+NPV calculation, which control device is the best one for AAE to install? The answer is still not
+evident! Even with a twenty million dollar capital cost savings, the net present value of the wet
+buffered lime FGD is only about a half million dollars more expensive than the wet limestone
+FGD! This is a function of the other cash flow components - the higher operating cost of the
+buffered lime system versus the higher revenue generating capacity of the limestone FGD, both of
+which work to almost completely eliminate the capital cost advantage of the buffered lime
+scrubber. Clearly, relying on just the sticker price of the two units could have driven us to a
+potentially bad decision. So now what? Payback analysis does not offer any help, (nor will internal
+rate of return (IRR), which also relies upon a positive net cash flow to work). Cash flow analysis
+tells us that, within our study-level estimation range, the two devices are almost identical. That in
+and of itself is important information, because the environmental engineer can be fairly certain
+that whichever device they choose, the effect of that choice on his company will be about the same.
+That leaves them free to look at other considerations that are not accounted for easily within this
+cost analysis: Twice as much limestone means twice as much storage and twice as much
+stockpiling of the gypsum by-product. Is that an important factor? Limestone is more caustic than
+buffered lime, but it takes less equipment to operate the system. Should the engineer opt for
+simplicity in design or potentially higher rates of repair? These are the sort of considerations, some
+- 37 -
+
+numerical and can be accounted for in the cost analysis, and some not, that can now come into
+play in making a decision, now that the relative values of each device has been determined.
+This does not mean that our process has failed. Far from it. If our input assumptions have
+been made correctly, then we have determined that from a cost standpoint, there does not seem to
+be an appreciably different risk to choosing one device over the other. However, other
+considerations may play a role in making the choice clearer. For instance, the limestone scrubber
+will produce about twice as much gypsum as the wet buffered lime scrubber. Does the storage,
+transportation, or marketability of that amount of gypsum create a problem? Likewise, it takes
+about three times as much limestone to remove the same amount of sulfur, relative to the amount
+of lime needed, but the lime costs between five and seven times as much as the limestone. Do
+these considerations clarify the choice? Finally, the power demands for each device differ
+significantly, both in terms of operation and in lost productive capacity. Perhaps these
+considerations will make one device more attractive to the firm. The bottom line is that there is no
+clear-cut “cookbook” process through which the analyst will be able to make the right informed
+decision each time, and the formalized costing methodology employed by the Manual is only a
+part of that process. However, if the Manual’s methodology is followed rigorously and in an
+unbiased manner, then the analyst can feel safe about the study-level cost of his alternative projects
+and can then move on to a more formal cost determination with the help of an engineering or
+consulting firm.
+
+- 38 -
+
+Table 2.6: Cash Flow Analyses Exercise (in thousands of dollars)
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+0
+0
+
+1,200
+0
+
+1,200
+0
+
+1,200
+0
+
+1,200
+0
+
+1,200
+0
+
+1,200
+0
+
+1,200
+0
+
+1,200
+0
+
+1,200
+0
+
+1,200
+500
+
+200,000
+0
+
+0
+4,500
+
+0
+4,500
+
+0
+4,500
+
+0
+4,500
+
+0
+4,500
+
+0
+4,500
+
+0
+4,500
+
+0
+4,500
+
+0
+4,500
+
+0
+4,500
+
+Parasitic Power
+
+0
+
+950
+
+950
+
+950
+
+950
+
+950
+
+950
+
+950
+
+950
+
+950
+
+950
+
+Net Annual Cost
+
+-200,000
+
+-4,250
+
+-4,250
+
+-4,250
+
+-4,250
+
+-4,250
+
+-4,250
+
+-4,250
+
+-4,250
+
+-4,250
+
+-3,750
+
+Present Value
+
+-200,000
+
+-4,048
+
+-3,855
+
+-3,671
+
+-3,496
+
+-3,330
+
+-3,171
+
+-3,020
+
+-2,877
+
+-2,740
+
+-2,302
+
+NPV
+
+-232,510
+
+0
+0
+
+600
+0
+
+600
+0
+
+600
+0
+
+600
+0
+
+600
+0
+
+600
+0
+
+600
+0
+
+600
+0
+
+600
+0
+
+600
+500
+
+180,000
+0
+
+0
+7,000
+
+0
+7,000
+
+0
+7,000
+
+0
+7,000
+
+0
+7,000
+
+0
+7,000
+
+0
+7,000
+
+0
+7,000
+
+0
+7,000
+
+0
+7,000
+
+Parasitic Power
+
+0
+
+375
+
+375
+
+375
+
+375
+
+375
+
+375
+
+375
+
+375
+
+375
+
+375
+
+Net Annual Cost
+
+-180,000
+
+-6,775
+
+-6,775
+
+-6,775
+
+-6,775
+
+-6,775
+
+-6,775
+
+-6,775
+
+-6,775
+
+-6,775
+
+-6,275
+
+Present Value
+NPV
+
+-180,000
+-232,008
+
+-6,452
+
+-6,145
+
+-5,852
+
+-5,574
+
+-5,308
+
+-5,056
+
+-4,815
+
+-4,586
+
+-4,367
+
+-3,852
+
+Years
+Limestone Scrubber
+Income
+Gypsum Sales
+Salvage Value
+Expenses
+Capital Investment
+Annual O&M Costs
+
+Buffered Lime Scrubber
+Income
+Gypsum Sales
+Salvage Value
+Expenses
+Capital Investment
+Annual O&M Costs
+
+- 39 -
+
+References
+[1] Perry, Robert H., and Chilton, Cecil H., Perry’s Chemical Engineers’ Handbook (Eighth
+Edition), McGraw-Hill, New York, 2008, Chapter 9.
+[2] Association for the Advancement of Cost Engineering International. Recommended
+Practices, No. 17R-97, Cost Estimate Classification System, and No. 18R-97, Cost Estimate
+Classification System – As Applied in Engineering, Procurement and Construction for the
+Process Industries. June 15, 2011.
+[3] Peters, M.S. and Timmerhaus, K.D., Plant Design and Economics for Chemical Engineers
+(Fifth Edition), McGraw-Hill, New York, 2002.
+[4} Grant, E.L., Ireson, W.G., and Leavenworth, R.S., Principles of Engineering Economy, Eighth
+Edition, John Wiley & Sons, New York, 1990.
+[5] U.S. Environmental Protection Agency, Office of Policy, National Center for Environmental
+Economics. Guidelines for Preparing Economic Analyses. May 2014. Available on the Internet
+at http://yosemite.epa.gov/ee/epa/eed.nsf/webpages/Guidelines.html.
+[6] Executive Office of the President, Office of Management and Budget. “Circular A-4:
+Regulatory
+Analysis.”,
+September17,2013.
+Available
+at
+https://www.whitehouse.gov/omb/circulars_a004_a-4/.
+[7] Vatavuk, W.M. “The OAQPS Control Cost Method vs. the Levelized Cost Method,”
+Environmental Progress, Winter 2000. Vol. 19, No. 4.
+[8] Association for the Advancement of Cost Engineering International. Recommended
+Practices, No. 58R-10, Escalation Estimating Principles and Methods Using Indicies. May 25,
+2011.
+[9] Vatavuk, W.M. “Updating the CE Plant Cost Index.” Chemical Engineering, January 2002.
+Available at http://www.chemengonline.com/Assets/File/CEPCI_2002.pdf.
+[10] Vatavuk, W.M. and Neveril, R.B. “Estimating Costs of Air-Pollution Control Systems— Part
+I: Parameters for Sizing Systems,” Chemical Engineering, October 6, 1980, pp. 165-168.
+[11] Vatavuk. W.M. Estimating Cost of Air Pollution Control. Lewis Publishers. 1990. p. 60.
+[12] Design-Build Institute of America. “Choosing a Project Delivery Method, A Design Build
+Done Right Primer.” April 2015. Available at http://www.dbia.org.
+
+- 40 -
+
+[13] Vatavuk, W.M. and Neveril, R.B. “Estimating Costs of Air Pollution Control Systems— Part
+II: Factors for Estimating Capital and Operating Costs,” Chemical Engineering, November 3,
+1980, pp. 157-162.
+[14] Crundwell, F.K. Finance for Engineers: Evaluation and Funding for Capital Projects.
+Springer-Verlag London Limited. 2008. pp. 95-96.
+[15] U.S. Department of Energy, National Energy Technology Laboratory. “Quality Guidelines
+for Energy System Studies: Cost Estimation Methodology for NETL Assessments of Power Plant
+Performance,”
+DOE/NETL-2011/1455,
+April
+2011.
+Available
+at
+https://www.netl.doe.gov/File%20Library/Research/Energy%20Analysis/Publications/QGESSN
+ETLCostEstMethod.pdf (accessed on August 1, 2017).
+
+- 41 -
+
+APPENDIX A
+Net Present Value and Capital Recovery Factor Tables
+Table A.1 shows an example of present value calculations that includes illustrative
+discount rates and illustrative investment lifespans.18 The table displays the amount an individual
+would be willing to accept today for a dollar promised in the future assuming the illustrative
+discount rates and investment lifespans. Select the year in which the dollar is supposed to be paid
+from the leftmost column and the discount rate from the top row. The value where the column and
+row intersect is the present value of that future dollar. For instance, if you were promised a dollar
+twelve years from now, and you believed the interest rate over that period would be 9.5 percent,
+then you would be willing to accept 33.7 cents for that dollar today.
+Table A.1: Present Value Factors for a Dollar to Be Paid Now Instead of in a Future Year
+5.50%
+
+6.00%
+
+6.50%
+
+7.00%
+
+7.50%
+
+8.00%
+
+8.50%
+
+9.00%
+
+9.50%
+
+10.00%
+
+1
+
+0.94787
+
+0.9434
+
+0.93897
+
+0.93458
+
+0.93023
+
+0.92593
+
+0.92166
+
+0.91743
+
+0.91324
+
+0.90909
+
+2
+
+0.89845
+
+0.89
+
+0.88166
+
+0.87344
+
+0.86533
+
+0.85734
+
+0.84946
+
+0.84168
+
+0.83401
+
+0.82645
+
+3
+
+0.85161
+
+0.83962
+
+0.82785
+
+0.8163
+
+0.80496
+
+0.79383
+
+0.78291
+
+0.77218
+
+0.76165
+
+0.75131
+
+4
+
+0.80722
+
+0.79209
+
+0.77732
+
+0.7629
+
+0.7488
+
+0.73503
+
+0.72157
+
+0.70843
+
+0.69557
+
+0.68301
+
+5
+
+0.76513
+
+0.74726
+
+0.72988
+
+0.71299
+
+0.69656
+
+0.68058
+
+0.66505
+
+0.64993
+
+0.63523
+
+0.62092
+
+6
+
+0.72525
+
+0.70496
+
+0.68533
+
+0.66634
+
+0.64796
+
+0.63017
+
+0.61295
+
+0.59627
+
+0.58012
+
+0.56447
+
+7
+
+0.68744
+
+0.66506
+
+0.64351
+
+0.62275
+
+0.60275
+
+0.58349
+
+0.56493
+
+0.54703
+
+0.52979
+
+0.51316
+
+8
+
+0.6516
+
+0.62741
+
+0.60423
+
+0.58201
+
+0.5607
+
+0.54027
+
+0.52067
+
+0.50187
+
+0.48382
+
+0.46651
+
+9
+
+0.61763
+
+0.5919
+
+0.56735
+
+0.54393
+
+0.52158
+
+0.50025
+
+0.47988
+
+0.46043
+
+0.44185
+
+0.4241
+
+10
+
+0.58543
+
+0.55839
+
+0.53273
+
+0.50835
+
+0.48519
+
+0.46319
+
+0.44229
+
+0.42241
+
+0.40351
+
+0.38554
+
+11
+
+0.55491
+
+0.52679
+
+0.50021
+
+0.47509
+
+0.45134
+
+0.42888
+
+0.40764
+
+0.38753
+
+0.36851
+
+0.35049
+
+12
+
+0.52598
+
+0.49697
+
+0.46968
+
+0.44401
+
+0.41985
+
+0.39711
+
+0.3757
+
+0.35553
+
+0.33654
+
+0.31863
+
+13
+
+0.49856
+
+0.46884
+
+0.44102
+
+0.41496
+
+0.39056
+
+0.3677
+
+0.34627
+
+0.32618
+
+0.30734
+
+0.28966
+
+14
+
+0.47257
+
+0.4423
+
+0.4141
+
+0.38782
+
+0.36331
+
+0.34046
+
+0.31914
+
+0.29925
+
+0.28067
+
+0.26333
+
+15
+
+0.44793
+
+0.41727
+
+0.38883
+
+0.36245
+
+0.33797
+
+0.31524
+
+0.29414
+
+0.27454
+
+0.25632
+
+0.23939
+
+16
+
+0.42458
+
+0.39365
+
+0.3651
+
+0.33873
+
+0.31439
+
+0.29189
+
+0.2711
+
+0.25187
+
+0.23409
+
+0.21763
+
+17
+
+0.40245
+
+0.37136
+
+0.34281
+
+0.31657
+
+0.29245
+
+0.27027
+
+0.24986
+
+0.23107
+
+0.21378
+
+0.19784
+
+18
+
+0.38147
+
+0.35034
+
+0.32189
+
+0.29586
+
+0.27205
+
+0.25025
+
+0.23028
+
+0.21199
+
+0.19523
+
+0.17986
+
+19
+
+0.36158
+
+0.33051
+
+0.30224
+
+0.27651
+
+0.25307
+
+0.23171
+
+0.21224
+
+0.19449
+
+0.17829
+
+0.16351
+
+20
+
+0.34273
+
+0.3118
+
+0.2838
+
+0.25842
+
+0.23541
+
+0.21455
+
+0.19562
+
+0.17843
+
+0.16282
+
+0.14864
+
+21
+
+0.32486
+
+0.29416
+
+0.26648
+
+0.24151
+
+0.21899
+
+0.19866
+
+0.18029
+
+0.1637
+
+0.1487
+
+0.13513
+
+22
+
+0.30793
+
+0.27751
+
+0.25021
+
+0.22571
+
+0.20371
+
+0.18394
+
+0.16617
+
+0.15018
+
+0.1358
+
+0.12285
+
+23
+
+0.29187
+
+0.2618
+
+0.23494
+
+0.21095
+
+0.1895
+
+0.17032
+
+0.15315
+
+0.13778
+
+0.12402
+
+0.11168
+
+24
+
+0.27666
+
+0.24698
+
+0.2206
+
+0.19715
+
+0.17628
+
+0.1577
+
+0.14115
+
+0.1264
+
+0.11326
+
+0.10153
+
+25
+
+0.26223
+
+0.233
+
+0.20714
+
+0.18425
+
+0.16398
+
+0.14602
+
+0.13009
+
+0.11597
+
+0.10343
+
+0.0923
+
+18
+
+The example calculations in Table A.1 are all illustrative in nature. Nothing in this example is meant to
+contradict language earlier in this chapter concerning the appropriate use of interest rates, equipment life, and
+the EUAC in cost analysis to which the Control Cost Methodology is a basis.
+
+- 42 -
+
+Table A.1: Continued
+10.50%
+
+11.00%
+
+11.50%
+
+12.00%
+
+12.50%
+
+13.00%
+
+13.50%
+
+14.00%
+
+14.50%
+
+15.00%
+
+1
+
+0.90498
+
+0.9009
+
+0.89686
+
+0.89286
+
+0.88889
+
+0.88496
+
+0.88106
+
+0.87719
+
+0.87336
+
+0.86957
+
+2
+
+0.81898
+
+0.81162
+
+0.80436
+
+0.79719
+
+0.79012
+
+0.78315
+
+0.77626
+
+0.76947
+
+0.76276
+
+0.75614
+
+3
+
+0.74116
+
+0.73119
+
+0.7214
+
+0.71178
+
+0.70233
+
+0.69305
+
+0.68393
+
+0.67497
+
+0.66617
+
+0.65752
+
+4
+
+0.67073
+
+0.65873
+
+0.64699
+
+0.63552
+
+0.6243
+
+0.61332
+
+0.60258
+
+0.59208
+
+0.58181
+
+0.57175
+
+5
+
+0.607
+
+0.59345
+
+0.58026
+
+0.56743
+
+0.55493
+
+0.54276
+
+0.53091
+
+0.51937
+
+0.50813
+
+0.49718
+
+6
+
+0.54932
+
+0.53464
+
+0.52042
+
+0.50663
+
+0.49327
+
+0.48032
+
+0.46776
+
+0.45559
+
+0.44378
+
+0.43233
+
+7
+
+0.49712
+
+0.48166
+
+0.46674
+
+0.45235
+
+0.43846
+
+0.42506
+
+0.41213
+
+0.39964
+
+0.38758
+
+0.37594
+
+8
+
+0.44989
+
+0.43393
+
+0.4186
+
+0.40388
+
+0.38974
+
+0.37616
+
+0.36311
+
+0.35056
+
+0.3385
+
+0.3269
+
+9
+
+0.40714
+
+0.39092
+
+0.37543
+
+0.36061
+
+0.34644
+
+0.33288
+
+0.31992
+
+0.30751
+
+0.29563
+
+0.28426
+
+10
+
+0.36845
+
+0.35218
+
+0.33671
+
+0.32197
+
+0.30795
+
+0.29459
+
+0.28187
+
+0.26974
+
+0.25819
+
+0.24718
+
+11
+
+0.33344
+
+0.31728
+
+0.30198
+
+0.28748
+
+0.27373
+
+0.2607
+
+0.24834
+
+0.23662
+
+0.2255
+
+0.21494
+
+12
+
+0.30175
+
+0.28584
+
+0.27083
+
+0.25668
+
+0.24332
+
+0.23071
+
+0.2188
+
+0.20756
+
+0.19694
+
+0.18691
+
+13
+
+0.27308
+
+0.25751
+
+0.2429
+
+0.22917
+
+0.21628
+
+0.20416
+
+0.19278
+
+0.18207
+
+0.172
+
+0.16253
+
+14
+
+0.24713
+
+0.23199
+
+0.21785
+
+0.20462
+
+0.19225
+
+0.18068
+
+0.16985
+
+0.15971
+
+0.15022
+
+0.14133
+
+15
+
+0.22365
+
+0.209
+
+0.19538
+
+0.1827
+
+0.17089
+
+0.15989
+
+0.14964
+
+0.1401
+
+0.1312
+
+0.12289
+
+16
+
+0.2024
+
+0.18829
+
+0.17523
+
+0.16312
+
+0.1519
+
+0.1415
+
+0.13185
+
+0.12289
+
+0.11458
+
+0.10686
+
+17
+
+0.18316
+
+0.16963
+
+0.15715
+
+0.14564
+
+0.13502
+
+0.12522
+
+0.11616
+
+0.1078
+
+0.10007
+
+0.09293
+
+18
+
+0.16576
+
+0.15282
+
+0.14095
+
+0.13004
+
+0.12002
+
+0.11081
+
+0.10235
+
+0.09456
+
+0.0874
+
+0.08081
+
+19
+
+0.15001
+
+0.13768
+
+0.12641
+
+0.11611
+
+0.10668
+
+0.09806
+
+0.09017
+
+0.08295
+
+0.07633
+
+0.07027
+
+20
+
+0.13575
+
+0.12403
+
+0.11337
+
+0.10367
+
+0.09483
+
+0.08678
+
+0.07945
+
+0.07276
+
+0.06666
+
+0.0611
+
+21
+
+0.12285
+
+0.11174
+
+0.10168
+
+0.09256
+
+0.08429
+
+0.0768
+
+0.07
+
+0.06383
+
+0.05822
+
+0.05313
+
+22
+
+0.11118
+
+0.10067
+
+0.09119
+
+0.08264
+
+0.07493
+
+0.06796
+
+0.06167
+
+0.05599
+
+0.05085
+
+0.0462
+
+23
+
+0.10062
+
+0.09069
+
+0.08179
+
+0.07379
+
+0.0666
+
+0.06014
+
+0.05434
+
+0.04911
+
+0.04441
+
+0.04017
+
+24
+
+0.09106
+
+0.0817
+
+0.07335
+
+0.06588
+
+0.0592
+
+0.05323
+
+0.04787
+
+0.04308
+
+0.03879
+
+0.03493
+
+25
+
+0.0824
+
+0.07361
+
+0.06579
+
+0.05882
+
+0.05262
+
+0.0471
+
+0.04218
+
+0.03779
+
+0.03387
+
+0.03038
+
+- 43 -
+
+Table A.2 displays the annual payment you would have to make for a specific number of years to
+equal the present value of a single dollar borrowed today. Select the number of years you will
+make payments from the leftmost column and the discount rate from the top row. The value
+where the column and row intersect is annual payment on that borrowed dollar. For example, if
+you plan on making equal payments for twelve years at 9.5 percent interest to repay a dollar
+borrowed today, you would make annual payments of 14.3 cents.
+
+Table A.2: Capital Recovery Factors for Equal Payments on a Dollar over a Number of Years
+5.50%
+
+6.00%
+
+6.50%
+
+7.00%
+
+7.50%
+
+8.00%
+
+8.50%
+
+9.00%
+
+9.50%
+
+10.00%
+
+1
+
+1.055
+
+1.06
+
+1.065
+
+1.07
+
+1.075
+
+1.08
+
+1.085
+
+1.09
+
+1.095
+
+1.1
+
+2
+
+0.54162
+
+0.54544
+
+0.54926
+
+0.55309
+
+0.55693
+
+0.56077
+
+0.56462
+
+0.56847
+
+0.57233
+
+0.57619
+
+3
+
+0.37065
+
+0.37411
+
+0.37758
+
+0.38105
+
+0.38454
+
+0.38803
+
+0.39154
+
+0.39505
+
+0.39858
+
+0.40211
+
+4
+
+0.28529
+
+0.28859
+
+0.2919
+
+0.29523
+
+0.29857
+
+0.30192
+
+0.30529
+
+0.30867
+
+0.31206
+
+0.31547
+
+5
+
+0.23418
+
+0.2374
+
+0.24063
+
+0.24389
+
+0.24716
+
+0.25046
+
+0.25377
+
+0.25709
+
+0.26044
+
+0.2638
+
+6
+
+0.20018
+
+0.20336
+
+0.20657
+
+0.2098
+
+0.21304
+
+0.21632
+
+0.21961
+
+0.22292
+
+0.22625
+
+0.22961
+
+7
+
+0.17596
+
+0.17914
+
+0.18233
+
+0.18555
+
+0.1888
+
+0.19207
+
+0.19537
+
+0.19869
+
+0.20204
+
+0.20541
+
+8
+
+0.15786
+
+0.16104
+
+0.16424
+
+0.16747
+
+0.17073
+
+0.17401
+
+0.17733
+
+0.18067
+
+0.18405
+
+0.18744
+
+9
+
+0.14384
+
+0.14702
+
+0.15024
+
+0.15349
+
+0.15677
+
+0.16008
+
+0.16342
+
+0.1668
+
+0.1702
+
+0.17364
+
+10
+
+0.13267
+
+0.13587
+
+0.1391
+
+0.14238
+
+0.14569
+
+0.14903
+
+0.15241
+
+0.15582
+
+0.15927
+
+0.16275
+
+11
+
+0.12357
+
+0.12679
+
+0.13006
+
+0.13336
+
+0.1367
+
+0.14008
+
+0.14349
+
+0.14695
+
+0.15044
+
+0.15396
+
+12
+
+0.11603
+
+0.11928
+
+0.12257
+
+0.1259
+
+0.12928
+
+0.1327
+
+0.13615
+
+0.13965
+
+0.14319
+
+0.14676
+
+13
+
+0.10968
+
+0.11296
+
+0.11628
+
+0.11965
+
+0.12306
+
+0.12652
+
+0.13002
+
+0.13357
+
+0.13715
+
+0.14078
+
+14
+
+0.10428
+
+0.10758
+
+0.11094
+
+0.11434
+
+0.1178
+
+0.1213
+
+0.12484
+
+0.12843
+
+0.13207
+
+0.13575
+
+15
+
+0.09963
+
+0.10296
+
+0.10635
+
+0.10979
+
+0.11329
+
+0.11683
+
+0.12042
+
+0.12406
+
+0.12774
+
+0.13147
+
+16
+
+0.09558
+
+0.09895
+
+0.10238
+
+0.10586
+
+0.10939
+
+0.11298
+
+0.11661
+
+0.1203
+
+0.12403
+
+0.12782
+
+17
+
+0.09204
+
+0.09544
+
+0.09891
+
+0.10243
+
+0.106
+
+0.10963
+
+0.11331
+
+0.11705
+
+0.12083
+
+0.12466
+
+18
+
+0.08892
+
+0.09236
+
+0.09585
+
+0.09941
+
+0.10303
+
+0.1067
+
+0.11043
+
+0.11421
+
+0.11805
+
+0.12193
+
+19
+
+0.08615
+
+0.08962
+
+0.09316
+
+0.09675
+
+0.10041
+
+0.10413
+
+0.1079
+
+0.11173
+
+0.11561
+
+0.11955
+
+20
+
+0.08368
+
+0.08718
+
+0.09076
+
+0.09439
+
+0.09809
+
+0.10185
+
+0.10567
+
+0.10955
+
+0.11348
+
+0.11746
+
+21
+
+0.08146
+
+0.085
+
+0.08861
+
+0.09229
+
+0.09603
+
+0.09983
+
+0.1037
+
+0.10762
+
+0.11159
+
+0.11562
+
+22
+
+0.07947
+
+0.08305
+
+0.08669
+
+0.09041
+
+0.09419
+
+0.09803
+
+0.10194
+
+0.1059
+
+0.10993
+
+0.11401
+
+23
+
+0.07767
+
+0.08128
+
+0.08496
+
+0.08871
+
+0.09254
+
+0.09642
+
+0.10037
+
+0.10438
+
+0.10845
+
+0.11257
+
+24
+
+0.07604
+
+0.07968
+
+0.0834
+
+0.08719
+
+0.09105
+
+0.09498
+
+0.09897
+
+0.10302
+
+0.10713
+
+0.1113
+
+25
+
+0.07455
+
+0.07823
+
+0.08198
+
+0.08581
+
+0.08971
+
+0.09368
+
+0.09771
+
+0.10181
+
+0.10596
+
+0.11017
+
+- 44 -
+
+Table A.2: Continued
+10.50%
+
+11.00%
+
+11.50%
+
+12.00%
+
+12.50%
+
+13.00%
+
+13.50%
+
+14.00%
+
+14.50%
+
+15.00%
+
+1
+
+1.105
+
+1.11
+
+1.115
+
+1.12
+
+1.125
+
+1.13
+
+1.135
+
+1.14
+
+1.145
+
+1.15
+
+2
+
+0.58006
+
+0.58393
+
+0.58781
+
+0.5917
+
+0.59559
+
+0.59948
+
+0.60338
+
+0.60729
+
+0.6112
+
+0.61512
+
+3
+
+0.40566
+
+0.40921
+
+0.41278
+
+0.41635
+
+0.41993
+
+0.42352
+
+0.42712
+
+0.43073
+
+0.43435
+
+0.43798
+
+4
+
+0.31889
+
+0.32233
+
+0.32577
+
+0.32923
+
+0.33271
+
+0.33619
+
+0.33969
+
+0.3432
+
+0.34673
+
+0.35027
+
+5
+
+0.26718
+
+0.27057
+
+0.27398
+
+0.27741
+
+0.28085
+
+0.28431
+
+0.28779
+
+0.29128
+
+0.29479
+
+0.29832
+
+6
+
+0.23298
+
+0.23638
+
+0.23979
+
+0.24323
+
+0.24668
+
+0.25015
+
+0.25365
+
+0.25716
+
+0.26069
+
+0.26424
+
+7
+
+0.2088
+
+0.21222
+
+0.21566
+
+0.21912
+
+0.2226
+
+0.22611
+
+0.22964
+
+0.23319
+
+0.23677
+
+0.24036
+
+8
+
+0.19087
+
+0.19432
+
+0.1978
+
+0.2013
+
+0.20483
+
+0.20839
+
+0.21197
+
+0.21557
+
+0.2192
+
+0.22285
+
+9
+
+0.17711
+
+0.1806
+
+0.18413
+
+0.18768
+
+0.19126
+
+0.19487
+
+0.19851
+
+0.20217
+
+0.20586
+
+0.20957
+
+10
+
+0.16626
+
+0.1698
+
+0.17338
+
+0.17698
+
+0.18062
+
+0.18429
+
+0.18799
+
+0.19171
+
+0.19547
+
+0.19925
+
+11
+
+0.15752
+
+0.16112
+
+0.16475
+
+0.16842
+
+0.17211
+
+0.17584
+
+0.1796
+
+0.18339
+
+0.18722
+
+0.19107
+
+12
+
+0.15038
+
+0.15403
+
+0.15771
+
+0.16144
+
+0.16519
+
+0.16899
+
+0.17281
+
+0.17667
+
+0.18056
+
+0.18448
+
+13
+
+0.14445
+
+0.14815
+
+0.1519
+
+0.15568
+
+0.1595
+
+0.16335
+
+0.16724
+
+0.17116
+
+0.17512
+
+0.17911
+
+14
+
+0.13947
+
+0.14323
+
+0.14703
+
+0.15087
+
+0.15475
+
+0.15867
+
+0.16262
+
+0.16661
+
+0.17063
+
+0.17469
+
+15
+
+0.13525
+
+0.13907
+
+0.14292
+
+0.14682
+
+0.15076
+
+0.15474
+
+0.15876
+
+0.16281
+
+0.1669
+
+0.17102
+
+16
+
+0.13164
+
+0.13552
+
+0.13943
+
+0.14339
+
+0.14739
+
+0.15143
+
+0.1555
+
+0.15962
+
+0.16376
+
+0.16795
+
+17
+
+0.12854
+
+0.13247
+
+0.13644
+
+0.14046
+
+0.14451
+
+0.14861
+
+0.15274
+
+0.15692
+
+0.16112
+
+0.16537
+
+18
+
+0.12586
+
+0.12984
+
+0.13387
+
+0.13794
+
+0.14205
+
+0.1462
+
+0.15039
+
+0.15462
+
+0.15889
+
+0.16319
+
+19
+
+0.12353
+
+0.12756
+
+0.13164
+
+0.13576
+
+0.13993
+
+0.14413
+
+0.14838
+
+0.15266
+
+0.15698
+
+0.16134
+
+20
+
+0.12149
+
+0.12558
+
+0.1297
+
+0.13388
+
+0.1381
+
+0.14235
+
+0.14665
+
+0.15099
+
+0.15536
+
+0.15976
+
+21
+
+0.11971
+
+0.12384
+
+0.12802
+
+0.13224
+
+0.13651
+
+0.14081
+
+0.14516
+
+0.14954
+
+0.15396
+
+0.15842
+
+22
+
+0.11813
+
+0.12231
+
+0.12654
+
+0.13081
+
+0.13512
+
+0.13948
+
+0.14387
+
+0.1483
+
+0.15277
+
+0.15727
+
+23
+
+0.11675
+
+0.12097
+
+0.12524
+
+0.12956
+
+0.13392
+
+0.13832
+
+0.14276
+
+0.14723
+
+0.15174
+
+0.15628
+
+24
+
+0.11552
+
+0.11979
+
+0.1241
+
+0.12846
+
+0.13287
+
+0.13731
+
+0.14179
+
+0.1463
+
+0.15085
+
+0.15543
+
+25
+
+0.11443
+
+0.11874
+
+0.1231
+
+0.1275
+
+0.13194
+
+0.13643
+
+0.14095
+
+0.1455
+
+0.15008
+
+0.1547
+
+- 45 -
+
+

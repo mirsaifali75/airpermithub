@@ -1,0 +1,51 @@
+{
+ "f001.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.18",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&section=60.18",
+  "type": "text/xml",
+  "title": "",
+  "length": 18306
+ },
+ "f002.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.11",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&section=63.11",
+  "type": "text/xml",
+  "title": "",
+  "length": 18216
+ },
+ "f003.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&appendix=Appendix%20A-7%20to%20Part%2060",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=60&appendix=Appendix%20A-7%20to%20Part%2060",
+  "type": "text/xml",
+  "title": "",
+  "length": 364372
+ },
+ "f004.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2017-12/documents/epaccmcostestimationmethodchapter_7thedition_2017.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2017-12/documents/epaccmcostestimationmethodchapter_7thedition_2017.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 121624
+ },
+ "f005.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2015-07/documents/1990wman.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2015-07/documents/1990wman.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 535927
+ },
+ "f006.txt": {
+  "url": "https://www.epa.gov/economic-and-cost-analysis-air-pollution-regulations/cost-reports-and-guidance-air",
+  "status": 404,
+  "finalUrl": "https://www.epa.gov/economic-and-cost-analysis-air-pollution-regulations/cost-reports-and-guidance-air",
+  "type": "text/html",
+  "title": "Page Not Found | US EPA",
+  "length": 694,
+  "gone": "Page Not Found"
+ }
+}
