@@ -1,0 +1,146 @@
+{
+ "f001.txt": {
+  "url": "https://www.ecfr.gov/graphics/ec01jn92.008.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/ec01jn92.008.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f002.txt": {
+  "url": "https://www.ecfr.gov/graphics/ec01jn92.009.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/ec01jn92.009.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f003.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.321.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.321.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f004.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.322.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.322.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f005.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.323.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.323.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f006.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.324.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.324.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f007.txt": {
+  "url": "https://www.ecfr.gov/graphics/er29mr23.002.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er29mr23.002.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f008.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.326.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.326.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f009.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.327.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.327.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f010.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.328.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.328.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f011.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.329.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.329.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f012.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.333.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.333.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f013.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.334.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.334.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f014.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.335.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.335.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f015.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.336.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.336.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f016.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.337.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.337.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f017.txt": {
+  "url": "https://www.ecfr.gov/graphics/er17oc00.338.gif",
+  "status": 406,
+  "finalUrl": "https://www.ecfr.gov/graphics/er17oc00.338.gif",
+  "type": "text/plain",
+  "title": "",
+  "length": 18
+ },
+ "f018.txt": {
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&subpart=CC",
+  "status": 200,
+  "finalUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-28/title-40.xml?part=63&subpart=CC",
+  "type": "application/xml",
+  "title": "",
+  "length": 464884
+ }
+}
