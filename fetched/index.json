@@ -1,0 +1,27 @@
+{
+ "f001.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2017-08/documents/method_19.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2017-08/documents/method_19.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 25197
+ },
+ "f002.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/pdf/CFR-2023-title40-vol7-sec60-18.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/pdf/CFR-2023-title40-vol7-sec60-18.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 20483
+ },
+ "f003.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol10/pdf/CFR-2023-title40-vol10-sec63-11.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/error",
+  "type": "text/html",
+  "title": "Page Not Found | GovInfo",
+  "length": 1582,
+  "gone": "Page Not Found"
+ }
+}
