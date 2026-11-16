@@ -1,0 +1,53 @@
+{
+ "f001.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2017-08/documents/method_19.pdf",
+  "status": 200,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2017-08/documents/method_19.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 25197
+ },
+ "f002.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/pdf/CFR-2023-title40-vol7-sec60-18.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/pdf/CFR-2023-title40-vol7-sec60-18.pdf",
+  "type": "pdf",
+  "title": "",
+  "length": 20483
+ },
+ "f003.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/graphics/EC01JN92.008.gif",
+  "status": 404,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/graphics/EC01JN92.008.gif",
+  "type": "text/html",
+  "title": "404 Not Found",
+  "length": 34,
+  "gone": "404"
+ },
+ "f004.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/graphics/EC01JN92.009.gif",
+  "status": 404,
+  "finalUrl": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/graphics/EC01JN92.009.gif",
+  "type": "text/html",
+  "title": "404 Not Found",
+  "length": 34,
+  "gone": "404"
+ },
+ "f005.txt": {
+  "url": "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol9/pdf/CFR-2023-title40-vol9-part60-appA-7.pdf",
+  "status": 200,
+  "finalUrl": "https://www.govinfo.gov/error",
+  "type": "text/html",
+  "title": "Page Not Found | GovInfo",
+  "length": 1582,
+  "gone": "Page Not Found"
+ },
+ "f006.txt": {
+  "url": "https://www.epa.gov/sites/default/files/2020-12/documents/flares.pdf",
+  "status": 403,
+  "finalUrl": "https://www.epa.gov/sites/default/files/2020-12/documents/flares.pdf",
+  "type": "application/xml",
+  "title": "",
+  "length": 179
+ }
+}

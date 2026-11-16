@@ -1,0 +1,732 @@
+Method 19
+
+3/29/2023
+
+While we have taken steps to ensure the accuracy of this Internet version of the document, it is not the
+official version. To see a complete version including any recent edits, visit:
+https://www.ecfr.gov/cgi-bin/ECFR?page=browse and search under Title 40, Protection of
+Environment.
+METHOD 19 - DETERMINATION OF SULFUR DIOXIDE REMOVAL EFFICIENCY AND
+PARTICULATE MATTER, SULFUR DIOXIDE, AND NITROGEN OXIDE EMISSION RATES
+1.0 Scope and Application
+1.1 Analytes. This method provides data reduction procedures relating to the following pollutants, but
+does not include any sample collection or analysis procedures.
+Analyte
+
+CAS No.
+
+Sensitivity
+
+Nitric oxide (NO)
+
+10102–43–9
+
+N/A
+
+Nitrogen dioxide (NO2)
+
+10102–44–0
+
+Nitrogen oxides (NOX), including:
+
+Particulate matter (PM)
+
+None assigned
+
+N/A
+
+Sulfur dioxide (SO2)
+
+7499–09–05
+
+N/A
+
+1.2 Applicability. Where specified by an applicable subpart of the regulations, this method is applicable
+for the determination of (a) PM, SO2, and NOX emission rates; (b) sulfur removal efficiencies of fuel
+pretreatment and SO2 control devices; and (c) overall reduction of potential SO2 emissions.
+2.0 Summary of Method
+2.1 Emission Rates. Oxygen (O2) or carbon dioxide (CO2) concentrations and appropriate F factors
+(ratios of combustion gas volumes to heat inputs) are used to calculate pollutant emission rates from
+pollutant concentrations.
+2.2 Sulfur Reduction Efficiency and SO2 Removal Efficiency. An overall SO2 emission reduction
+efficiency is computed from the efficiency of fuel pretreatment systems, where applicable, and the
+efficiency of control devices.
+2.2.1 The sulfur removal efficiency of a fuel pretreatment system is determined by fuel sampling and
+analysis of the sulfur and heat contents of the fuel before and after the pretreatment system.
+2.2.2 The SO2 removal efficiency of a control device is determined by measuring the SO2 rates before
+and after the control device.
+2.2.2.1 The inlet rates to SO2 control systems (or, when SO2 control systems are not used, SO2 emission
+rates to the atmosphere) are determined by fuel sampling and analysis.
+3.0 Definitions[Reserved]
+4.0 Interferences[Reserved]
+
+1
+
+Method 19
+
+3/29/2023
+
+5.0 Safety[Reserved]
+6.0 Equipment and Supplies[Reserved]
+7.0 Reagents and Standards[Reserved]
+8.0 Sample Collection, Preservation, Storage, and Transport[Reserved]
+9.0 Quality Control[Reserved]
+10.0 Calibration and Standardization[Reserved]
+11.0 Analytical Procedures[Reserved]
+12.0 Data Analysis and Calculations
+12.1 Nomenclature
+Bwa = Moisture fraction of ambient air, percent.
+Bws = Moisture fraction of effluent gas, percent.
+%C = Concentration of carbon from an ultimate analysis of fuel, weight percent.
+Cd = Pollutant concentration, dry basis, ng/scm (lb/scf)
+%CO2d,%CO2w = Concentration of carbon dioxide on a dry and wet basis, respectively, percent.
+Cw = Pollutant concentration, wet basis, ng/scm (lb/scf).
+D = Number of sampling periods during the performance test period.
+E = Pollutant emission rate, ng/J (lb/million Btu).
+Ea = Average pollutant rate for the specified performance test period, ng/J (lb/million Btu).
+Eao, Eai = Average pollutant rate of the control device, outlet and inlet, respectively, for the performance
+test period, ng/J (lb/million Btu).
+Ebi = Pollutant rate from the steam generating unit, ng/J (lb/million Btu)
+Ebo = Pollutant emission rate from the steam generating unit, ng/J (lb/million Btu).
+Eci = Pollutant rate in combined effluent, ng/J (lb/million Btu).
+Eco = Pollutant emission rate in combined effluent, ng/J (lb/million Btu).
+
+2
+
+Method 19
+
+3/29/2023
+
+Ed = Average pollutant rate for each sampling period (e.g., 24-hr Method 6B sample or 24-hr fuel sample)
+or for each fuel lot (e.g., amount of fuel bunkered), ng/J (lb/million Btu).
+Edi=Average inlet SO2 rate for each sampling period d, ng/J (lb/million Btu)
+Eg = Pollutant rate from gas turbine, ng/J (lb/million Btu).
+Ega = Daily geometric average pollutant rate, ng/J (lbs/million Btu) or ppm corrected to 7 percent O2.
+Ejo,Eji = Matched pair hourly arithmetic average pollutant rate, outlet and inlet, respectively, ng/J
+(lb/million Btu) or ppm corrected to 7 percent O2.
+Eh = Hourly average pollutant, ng/J (lb/million Btu).
+Ehj = Hourly arithmetic average pollutant rate for hour “j,” ng/J (lb/million Btu) or ppm corrected to 7
+percent O2.
+EXP = Natural logarithmic base (2.718) raised to the value enclosed by brackets.
+Fd, Fw, Fc = Volumes of combustion components per unit of heat content, scm/J (scf/million Btu).
+GCV = Gross calorific value of the fuel consistent with the ultimate analysis, kJ/kg (Btu/lb).
+GCVp, GCVr = Gross calorific value for the product and raw fuel lots, respectively, dry basis, kJ/kg
+(Btu/lb).
+%H = Concentration of hydrogen from an ultimate analysis of fuel, weight percent.
+H = Total number of operating hours for which pollutant rates are determined in the performance test
+period.
+Hb = Heat input rate to the steam generating unit from fuels fired in the steam generating unit, J/hr
+(million Btu/hr).
+Hg = Heat input rate to gas turbine from all fuels fired in the gas turbine, J/hr (million Btu/hr).
+%H2O = Concentration of water from an ultimate analysis of fuel, weight percent.
+Hr = Total numbers of hours in the performance test period (e.g., 720 hours for 30-day performance test
+period).
+K = Conversion factor, 10−5(kJ/J)/(%) [106 Btu/million Btu].
+Kc = (9.57 scm/kg)/% [(1.53 scf/lb)/%].
+Kcc = (2.0 scm/kg)/% [(0.321 scf/lb)/%].
+Khd = (22.7 scm/kg)/% [(3.64 scf/lb)/%].
+
+3
+
+Method 19
+
+3/29/2023
+
+Khw = (34.74 scm/kg)/% [(5.57 scf/lb)/%].
+Kn = (0.86 scm/kg)/% [(0.14 scf/lb)/%].
+Ko = (2.85 scm/kg)/% [(0.46 scf/lb)/%].
+Ks = (3.54 scm/kg)/% [(0.57 scf/lb)/%].
+Kw = (1.30 scm/kg)/% [(0.21 scf/lb)/%].
+ln =Natural log of indicated value.
+Lp,L r= Weight of the product and raw fuel lots, respectively, metric ton (ton).
+%N = Concentration of nitrogen from an ultimate analysis of fuel, weight percent.
+N = Number of fuel lots during the averaging period.
+n = Number of fuels being burned in combination.
+nd = Number of operating hours of the affected facility within the performance test period for each Ed
+determined.
+nt = Total number of hourly averages for which paired inlet and outlet pollutant rates are available within
+the 24-hr midnight to midnight daily period.
+%O = Concentration of oxygen from an ultimate analysis of fuel, weight percent.
+%O2d, %O2w = Concentration of oxygen on a dry and wet basis, respectively, percent.
+Ps = Potential SO2 emissions, percent.
+%Rf = SO2 removal efficiency from fuel pretreatment, percent.
+%Rg = SO2 removal efficiency of the control device, percent.
+%Rga = Daily geometric average percent reduction.
+%Ro = Overall SO2 reduction, percent.
+%S = Sulfur content of as-fired fuel lot, dry basis, weight percent.
+Se = Standard deviation of the hourly average pollutant rates for each performance test period, ng/J
+(lb/million Btu).
+%Sf = Concentration of sulfur from an ultimate analysis of fuel, weight percent.
+
+4
+
+Method 19
+
+3/29/2023
+
+Si = Standard deviation of the hourly average inlet pollutant rates for each performance test period, ng/J
+(lb/million Btu).
+So = Standard deviation of the hourly average emission rates for each performance test period, ng/J
+(lb/million Btu).
+%Sp, %Sr = Sulfur content of the product and raw fuel lots respectively, dry basis, weight percent.
+T0.95 = Values shown in Table 19–3 for the indicated number of data points n.
+Xk = Fraction of total heat input from each type of fuel k.
+12.2 Emission Rates of PM, SO2, and NOX. Select from the following sections the applicable procedure
+to compute the PM, SO2, or NOX emission rate (E) in ng/J (lb/million Btu). The pollutant concentration
+must be in ng/scm (lb/scf) and the F factor must be in scm/J (scf/million Btu). If the pollutant
+concentration (C) is not in the appropriate units, use Table 19–1 in Section 17.0 to make the proper
+conversion. An F factor is the ratio of the gas volume of the products of combustion to the heat content of
+the fuel. The dry F factor (Fd) includes all components of combustion less water, the wet F factor (Fw)
+includes all components of combustion, and the carbon F factor (Fc) includes only carbon dioxide.
+Note: Since Fw factors include water resulting only from the combustion of hydrogen in the fuel, the
+procedures using Fw factors are not applicable for computing E from steam generating units with wet
+scrubbers or with other processes that add water (e.g., steam injection).
+12.2.1 Oxygen-Based F Factor, Dry Basis. When measurements are on a dry basis for both O (%O2d) and
+pollutant (Cd) concentrations, use the following equation:
+
+12.2.2 Oxygen-Based F Factor, Wet Basis. When measurements are on a wet basis for both O2 (%O2w)
+and pollutant (Cw) concentrations, use either of the following:
+12.2.2.1 If the moisture fraction of ambient air (Bwa) is measured:
+
+Instead of actual measurement, Bwa may be estimated according to the procedure below.
+Note: The estimates are selected to ensure that negative errors will not be larger than −1.5 percent.
+However, positive errors, or over-estimation of emissions by as much as 5 percent may be introduced
+depending upon the geographic location of the facility and the associated range of ambient moisture.
+12.2.2.1.1 Bwa = 0.027. This value may be used at any location at all times.
+
+5
+
+Method 19
+
+3/29/2023
+
+12.2.2.1.2 Bwa = Highest monthly average of Bwa that occurred within the previous calendar year at the
+nearest Weather Service Station. This value shall be determined annually and may be used as an estimate
+for the entire current calendar year.
+12.2.2.1.3 Bwa = Highest daily average of Bwa that occurred within a calendar month at the nearest
+Weather Service Station, calculated from the data from the past 3 years. This value shall be computed for
+each month and may be used as an estimate for the current respective calendar month.
+12.2.2.2 If the moisture fraction (Bws) of the effluent gas is measured:
+
+12.2.3 Oxygen-Based F Factor, Dry/Wet Basis.
+12.2.3.1 When the pollutant concentration is measured on a wet basis (Cw) and O2 concentration is
+measured on a dry basis (%O2d), use the following equation:
+
+12.2.3.2 When the pollutant concentration is measured on a dry basis (Cd) and the O2 concentration is
+measured on a wet basis (%O2w), use the following equation:
+
+12.2.4 Carbon Dioxide-Based F Factor, Dry Basis. When measurements are on a dry basis for both CO2
+(%CO2d) and pollutant (Cd) concentrations, use the following equation:
+
+12.2.5 Carbon Dioxide-Based F Factor, Wet Basis. When measurements are on a wet basis for both CO2
+(%CO2w) and pollutant (Cw) concentrations, use the following equation:
+
+12.2.6 Carbon Dioxide-Based F Factor, Dry/Wet Basis.
+12.2.6.1 When the pollutant concentration is measured on a wet basis (Cw) and CO2 concentration is
+measured on a dry basis (%CO2d), use the following equation:
+
+6
+
+Method 19
+
+3/29/2023
+
+12.2.6.2 When the pollutant concentration is measured on a dry basis (Cd) and CO2 concentration is
+measured on a wet basis (%CO2w), use the following equation:
+
+12.2.7 Direct-Fired Reheat Fuel Burning. The effect of direct-fired reheat fuel burning (for the purpose of
+raising the temperature of the exhaust effluent from wet scrubbers to above the moisture dew-point) on
+emission rates will be less than 1.0 percent and, therefore, may be ignored.
+12.2.8 Combined Cycle-Gas Turbine Systems. For gas turbine-steam generator combined cycle systems,
+determine the emissions from the steam generating unit or the percent reduction in potential SO2
+emissions as follows:
+12.2.8.1 Compute the emission rate from the steam generating unit using the following equation:
+
+12.2.8.1.1 Use the test methods and procedures section of 40 CFR Part 60, Subpart GG to obtain Eco and
+Eg. Do not use Fw factors for determining Eg or Eco. If an SO2 control device is used, measure Eco after the
+control device.
+12.2.8.1.2 Suitable methods shall be used to determine the heat input rates to the steam generating units
+(Hb) and the gas turbine (Hg).
+12.2.8.2 If a control device is used, compute the percent of potential SO2 emissions (Ps) using the
+following equations:
+
+Note: Use the test methods and procedures section of Subpart GG to obtain Eci and Eg. Do not use Fw
+factors for determining Eg or Eci.
+
+7
+
+Method 19
+
+3/29/2023
+
+12.3 F Factors. Use an average F factor according to Section 12.3.1 or determine an applicable F factor
+according to Section 12.3.2. If combined fuels are fired, prorate the applicable F factors using the
+procedure in Section 12.3.3.
+12.3.1 Average F Factors. Average F factors (Fd, Fw, or Fc) from Table 19–2 in Section 17.0 may be used.
+12.3.2 Determined F Factors. If the fuel burned is not listed in Table 19–2 or if the owner or operator
+chooses to determine an F factor rather than use the values in Table 19–2, use the procedure below:
+12.3.2.1 Equations. Use the equations below, as appropriate, to compute the F factors:
+
+Note: Omit the %H2O term in the equations for Fw if %H and %O include the unavailable hydrogen and
+oxygen in the form of H2O.)
+12.3.2.2 Use applicable sampling procedures in Section 12.5.2.1 or 12.5.2.2 to obtain samples for
+analyses.
+12.3.2.3 Use ASTM D 3176–74 or 89 (all cited ASTM standards are incorporated by reference—see
+§60.17) for ultimate analysis of the fuel.
+12.3.2.4 Use applicable methods in Section 12.5.2.1 or 12.5.2.2 to determine the heat content of solid or
+liquid fuels. For gaseous fuels, use ASTM D 1826–77 or 94 (incorporated by reference—see §60.17) to
+determine the heat content.
+12.3.3 F Factors for Combination of Fuels. If combinations of fuels are burned, use the following
+equations, as applicable unless otherwise specified in an applicable subpart:
+
+8
+
+Method 19
+
+3/29/2023
+
+12.4 Determination of Average Pollutant Rates.
+12.4.1 Average Pollutant Rates from Hourly Values. When hourly average pollutant rates (Eh), inlet or
+outlet, are obtained (e.g., CEMS values), compute the average pollutant rate (Ea) for the performance test
+period (e.g., 30 days) specified in the applicable regulation using the following equation:
+
+12.4.2 Average Pollutant Rates from Other than Hourly Averages. When pollutant rates are determined
+from measured values representing longer than 1-hour periods (e.g., daily fuel sampling and analyses or
+Method 6B values), or when pollutant rates are determined from combinations of 1-hour and longer than
+1-hour periods (e.g., CEMS and Method 6B values), compute the average pollutant rate (Ea) for the
+performance test period (e.g., 30 days) specified in the applicable regulation using the following equation:
+
+12.4.3 Daily Geometric Average Pollutant Rates from Hourly Values. The geometric average pollutant
+rate (Ega) is computed using the following equation:
+
+12.5 Determination of Overall Reduction in Potential Sulfur Dioxide Emission.
+12.5.1 Overall Percent Reduction. Compute the overall percent SO2 reduction (%Ro) using the following
+equation:
+
+12.5.2 Pretreatment Removal Efficiency (Optional). Compute the SO2 removal efficiency from fuel
+pretreatment (%Rf) for the averaging period (e.g., 90 days) as specified in the applicable regulation using
+the following equation:
+
+9
+
+Method 19
+
+3/29/2023
+
+Note: In calculating %Rf, include %S and GCV values for all fuel lots that are not pretreated and are used
+during the averaging period.
+12.5.2.1 Solid Fossil (Including Waste) Fuel/Sampling and Analysis.
+Note: For the purposes of this method, raw fuel (coal or oil) is the fuel delivered to the desulfurization
+(pretreatment) facility. For oil, the input oil to the oil desulfurization process (e.g., hydrotreatment) is
+considered to be the raw fuel.
+12.5.2.1.1 Sample Increment Collection. Use ASTM D 2234–76, 96, 97a, or 98 (incorporated by
+reference—see §60.17), Type I, Conditions A, B, or C, and systematic spacing. As used in this method,
+systematic spacing is intended to include evenly spaced increments in time or increments based on equal
+weights of coal passing the collection area. As a minimum, determine the number and weight of
+increments required per gross sample representing each coal lot according to Table 2 or Paragraph 7.1.5.2
+of ASTM D 2234. Collect one gross sample for each lot of raw coal and one gross sample for each lot of
+product coal.
+12.5.2.1.2 ASTM Lot Size. For the purpose of Section 12.5.2 (fuel pretreatment), the lot size of product
+coal is the weight of product coal from one type of raw coal. The lot size of raw coal is the weight of raw
+coal used to produce one lot of product coal. Typically, the lot size is the weight of coal processed in a 1day (24-hour) period. If more than one type of coal is treated and produced in 1 day, then gross samples
+must be collected and analyzed for each type of coal. A coal lot size equaling the 90-day quarterly fuel
+quantity for a steam generating unit may be used if representative sampling can be conducted for each
+raw coal and product coal.
+Note: Alternative definitions of lot sizes may be used, subject to prior approval of the Administrator.
+12.5.2.1.3 Gross Sample Analysis. Use ASTM D 2013–72 or 86 to prepare the sample, ASTM D 3177–
+75 or 89 or ASTM D 4239–85, 94, or 97 to determine sulfur content (%S), ASTM D 3173–73 or 87 to
+determine moisture content, and ASTM D 2015–77 (Reapproved 1978) or 96, D 3286–85 or 96, or D
+5865–98 to determine gross calorific value (GCV) (all standards cited are incorporated by reference—see
+§60.17 for acceptable versions of the standards) on a dry basis for each gross sample.
+12.5.2.2 Liquid Fossil Fuel-Sampling and Analysis. See Note under Section 12.5.2.1.
+12.5.2.2.1 Sample Collection. Follow the procedures for continuous sampling in ASTM D 270 or D
+4177–95 (incorporated by reference—see §60.17) for each gross sample from each fuel lot.
+12.5.2.2.2 Lot Size. For the purpose of Section 12.5.2 (fuel pretreatment), the lot size of a product oil is
+the weight of product oil from one pretreatment facility and intended as one shipment (ship load, barge
+load, etc.). The lot size of raw oil is the weight of each crude liquid fuel type used to produce a lot of
+product oil.
+
+10
+
+Method 19
+
+3/29/2023
+
+Note: Alternative definitions of lot sizes may be used, subject to prior approval of the Administrator.
+12.5.2.2.3 Sample Analysis. Use ASTM D 129–64, 78, or 95, ASTM D 1552–83 or 95, or ASTM D
+4057–81 or 95 to determine the sulfur content (%S) and ASTM D 240–76 or 92 (all standards cited are
+incorporated by reference—see §60.17) to determine the GCV of each gross sample. These values may be
+assumed to be on a dry basis. The owner or operator of an affected facility may elect to determine the
+GCV by sampling the oil combusted on the first steam generating unit operating day of each calendar
+month and then using the lowest GCV value of the three GCV values per quarter for the GCV of all oil
+combusted in that calendar quarter.
+12.5.2.3 Use appropriate procedures, subject to the approval of the Administrator, to determine the
+fraction of total mass input derived from each type of fuel.
+12.5.3 Control Device Removal Efficiency. Compute the percent removal efficiency (%Rg) of the control
+device using the following equation:
+
+12.5.3.1 Use continuous emission monitoring systems or test methods, as appropriate, to determine the
+outlet SO2 rates and, if appropriate, the inlet SO2 rates. The rates may be determined as hourly (Eh) or
+other sampling period averages (Ed). Then, compute the average pollutant rates for the performance test
+period (Eao and Eai) using the procedures in Section 12.4.
+12.5.3.2 As an alternative, as-fired fuel sampling and analysis may be used to determine inlet SO2 rates as
+follows:
+12.5.3.2.1 Compute the average inlet SO2 rate (Edi) for each sampling period using the following
+equation:
+
+Where:
+
+After calculating Edi, use the procedures in Section 12.4 to determine the average inlet SO2 ate for the
+performance test period (Eai).
+12.5.3.2.2 Collect the fuel samples from a location in the fuel handling system that provides a sample
+representative of the fuel bunkered or consumed during a steam generating unit operating day. For the
+purpose of as-fired fuel sampling under Section 12.5.3.2 or Section 12.6, the lot size for coal is the weight
+of coal bunkered or consumed during each steam generating unit operating day. The lot size for oil is the
+weight of oil supplied to the “day” tank or consumed during each steam generating unit operating day.
+For reporting and calculation purposes, the gross sample shall be identified with the calendar day on
+
+11
+
+Method 19
+
+3/29/2023
+
+which sampling began. For steam generating unit operating days when a coal-fired steam generating unit
+is operated without coal being added to the bunkers, the coal analysis from the previous “as bunkered”
+coal sample shall be used until coal is bunkered again. For steam generating unit operating days when an
+oil-fired steam generating unit is operated without oil being added to the oil “day” tank, the oil analysis
+from the previous day shall be used until the “day” tank is filled again. Alternative definitions of fuel lot
+size may be used, subject to prior approval of the Administrator.
+12.5.3.2.3 Use ASTM procedures specified in Section 12.5.2.1 or 12.5.2.2 to determine %S and GCV.
+12.5.4 Daily Geometric Average Percent Reduction from Hourly Values. The geometric average percent
+reduction (%Rga) is computed using the following equation:
+
+Note: The calculation includes only paired data sets (hourly average) for the inlet and outlet pollutant
+measurements.
+12.6 Sulfur Retention Credit for Compliance Fuel. If fuel sampling and analysis procedures in Section
+12.5.2.1 are being used to determine average SO2 emission rates (Eas) to the atmosphere from a coal-fired
+steam generating unit when there is no SO2 control device, the following equation may be used to adjust
+the emission rate for sulfur retention credits (no credits are allowed for oil-fired systems) (Edi) for each
+sampling period using the following equation:
+
+Where:
+
+After calculating Edi, use the procedures in Section 12.4.2 to determine the average SO2 emission rate to
+the atmosphere for the performance test period (Eao).
+12.7 Determination of Compliance When Minimum Data Requirement Is Not Met.
+12.7.1 Adjusted Emission Rates and Control Device Removal Efficiency. When the minimum data
+requirement is not met, the Administrator may use the following adjusted emission rates or control device
+removal efficiencies to determine compliance with the applicable standards.
+12.7.1.1 Emission Rate. Compliance with the emission rate standard may be determined by using the
+lower confidence limit of the emission rate (Eao*) as follows:
+
+12
+
+Method 19
+
+3/29/2023
+
+12.7.1.2 Control Device Removal Efficiency. Compliance with the overall emission reduction (%Ro)
+may be determined by using the lower confidence limit of the emission rate (Eao*) and the upper
+confidence limit of the inlet pollutant rate (Eai*) in calculating the control device removal efficiency
+(%Rg) as follows:
+
+12.7.2 Standard Deviation of Hourly Average Pollutant Rates. Compute the standard deviation (Se) of the
+hourly average pollutant rates using the following equation:
+
+Equation 19–19 through 19–31 may be used to compute the standard deviation for both the outlet (So)
+and, if applicable, inlet (Si) pollutant rates.
+13.0 Method Performance[Reserved]
+14.0 Pollution Prevention[Reserved]
+15.0 Waste Management[Reserved]
+16.0 References[Reserved]
+17.0 Tables, Diagrams, Flowcharts, and Validation Data
+Table 19–1—Conversion Factors for Concentration
+From
+
+To
+
+Multiply by
+
+g/scm
+
+ng/scm
+
+109
+
+mg/scm
+
+ng/scm
+
+106
+
+lb/scf
+
+ng/scm
+
+1.602 × 1013
+
+ppm SO2
+
+ng/scm
+
+2.66 × 106
+
+ppm NOX
+
+ng/scm
+
+1.912 × 106
+
+ppm SO2
+
+lb/scf
+
+1.660 × 10−7
+
+ppm NOX
+
+lb/scf
+
+1.194 × 10−7
+
+13
+
+Method 19
+
+3/29/2023
+
+Table 19–2—F Factors for Various Fuels1
+Fd
+Fuel Type
+
+dscm/J
+
+Fw
+
+dscf/106Btu
+
+wscm/J
+
+Fc
+
+wscf/106Btu
+
+scm/J
+
+scf/106Btu
+
+Coal:
+Anthracite2
+
+2.71×10−7
+
+10,100 2.83×10−7
+
+10,540 0.530×10−7
+
+1,970
+
+Bituminus2
+
+2.63×10−7
+
+9,780 2.86×10−7
+
+10,640 0.484×10−7
+
+1,800
+
+Lignite
+
+2.65×10−7
+
+9,860 3.21×10−7
+
+11,950 0.513×10−7
+
+1,910
+
+Oil3
+
+2.47×10−7
+
+9,190 2.77×10−7
+
+10,320 0.383×10−7
+
+1,420
+
+Natural
+
+2.34×10−7
+
+8,710 2.85×10−7
+
+10,610 0.287×10−7
+
+1,040
+
+Propane
+
+2.34×10−7
+
+8,710 2.74×10−7
+
+10,200 0.321×10−7
+
+1,190
+
+Butane
+
+2.34×10−7
+
+8,710 2.79×10−7
+
+10,390 0.337×10−7
+
+1,250
+
+Wood
+
+2.48×10−7
+
+9,240
+
+0.492×10−7
+
+1,830
+
+Wood Bark
+
+2.58×10−7
+
+9,600
+
+0.516×10−7
+
+1,920
+
+Municipal
+
+2.57×10−7
+
+9,570
+
+0.488×10−7
+
+1,820
+
+Gas:
+
+Solid Waste
+Determined at standard conditions: 20°C (68°F) and 760 mm Hg (29.92 in Hg)
+
+1
+
+As classified according to ASTM D 388.
+
+2
+
+Crude, residual, or distillate.
+
+3
+
+14
+
+Method 19
+
+3/29/2023
+Table 19–3—Values for T0.95*
+
+n1
+
+t0.95
+
+n1
+
+t0.95
+
+n1
+
+t0.95
+
+2
+
+6.31
+
+8
+
+1.89
+
+22–26
+
+1.71
+
+3
+
+2.42
+
+9
+
+1.86
+
+27–31
+
+1.70
+
+4
+
+2.35
+
+10
+
+1.83
+
+32–51
+
+1.68
+
+5
+
+2.13
+
+11
+
+1.81
+
+52–91
+
+1.67
+
+6
+
+2.02
+
+12–16
+
+1.77
+
+92–151
+
+1.66
+
+7
+
+1.94
+
+17–21
+
+1.73
+
+152 or more
+
+1.65
+
+The values of this table are corrected for n-1 degrees of freedom. Use n equal to the number (H) of
+hourly average data points.
+1
+
+15
+
+
