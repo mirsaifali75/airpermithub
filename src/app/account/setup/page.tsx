@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { redirect } from "next/navigation";
 import { AuthLayout } from "@/components/auth/AuthLayout";
 import { ProfileForm } from "@/components/auth/ProfileForm";
 import { getSession } from "@/lib/auth/session";
 
-export const metadata: Metadata = { title: "Finish setting up", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Finish setting up", robots: { index: false } });
 
 export default async function Page() {
   const s = await getSession();

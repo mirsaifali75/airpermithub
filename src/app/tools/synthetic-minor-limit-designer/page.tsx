@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { SyntheticMinorDesigner } from "@/components/tools/SyntheticMinorDesigner";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { SyntheticMinorPreview } from "@/components/previews";
@@ -8,11 +9,11 @@ import { EPA_PTE_1989, EPA_PTE_1995, RT } from "@/lib/tools/rule-text";
 
 const tool = coreTools.find((t) => t.slug === "synthetic-minor-limit-designer")!;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Synthetic Minor Limit Designer (PTE Limits for Title V, PSD, and HAP)",
   description: tool.description,
   alternates: { canonical: tool.href },
-};
+});
 
 export default function SyntheticMinorPage() {
   return (

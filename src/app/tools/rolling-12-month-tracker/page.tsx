@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { RollingTracker } from "@/components/tools/RollingTracker";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { RollingTrackerPreview } from "@/components/previews";
@@ -7,11 +8,11 @@ import { coreTools } from "@/lib/tools/catalog";
 
 const tool = coreTools.find((t) => t.slug === "rolling-12-month-tracker")!;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "12-Month Rolling Total Calculator for Permit Limits",
   description: tool.description,
   alternates: { canonical: tool.href },
-};
+});
 
 export default function RollingTrackerPage() {
   return (

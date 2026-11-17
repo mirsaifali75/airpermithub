@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { BookA } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { GlossaryList } from "@/components/tools/GlossaryList";
@@ -8,11 +9,11 @@ import { glossary } from "@/lib/data/glossary";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/ui/JsonLd";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Air Permitting Glossary: PTE, PSD, BACT, Title V, NSPS & More",
   description: "Plain-language definitions of air permitting terms (potential to emit, major modification, BACT, LAER, deviation, CAM, and more), each linked to the regulation that defines it.",
   alternates: { canonical: "/glossary" },
-};
+});
 
 export default function GlossaryPage() {
   const terms = [...glossary].sort((a, b) => a.term.localeCompare(b.term));

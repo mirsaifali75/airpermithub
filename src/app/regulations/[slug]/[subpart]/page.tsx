@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, BookOpen, Calculator, ExternalLink, History, ScrollText, ShieldCheck, Wrench } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -28,11 +29,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug, subpart } = await params;
   const r = getRule(slug, subpart);
   if (!r) return {};
-  return {
+  return withSocial({
     title: titleFor(r),
     description: `Who ${ruleCitation(r)} covers, quoted from eCFR, with every section heading and amendment date. ${r.fullHeading}.`.slice(0, 300),
     alternates: { canonical: ruleHref(r) },
-  };
+  });
 }
 
 /** Calculators and guides that fit each group of rules. Links only; nothing here decides applicability. */

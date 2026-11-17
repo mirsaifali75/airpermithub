@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, Calculator, ExternalLink, FileText } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -22,11 +23,11 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const r = getRegulation((await params).slug);
   if (!r) return {};
-  return {
+  return withSocial({
     title: `${r.shortName}: ${r.name} (${r.citation})`,
     description: r.summary,
     alternates: { canonical: `/regulations/${r.slug}` },
-  };
+  });
 }
 
 const sectionOrder = [

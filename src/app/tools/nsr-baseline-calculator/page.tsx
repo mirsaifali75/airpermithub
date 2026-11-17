@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { NsrBaseline } from "@/components/tools/NsrBaseline";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { NsrBaselinePreview } from "@/components/previews";
@@ -8,11 +9,11 @@ import { nsrRuleText } from "@/lib/tools/nsr";
 
 const tool = coreTools.find((t) => t.slug === "nsr-baseline-calculator")!;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "NSR Baseline Actual Emissions Calculator (24-Month Lookback)",
   description: tool.description,
   alternates: { canonical: tool.href },
-};
+});
 
 export default function NsrBaselinePage() {
   return (

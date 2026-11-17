@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, BookOpen, Download, FileSpreadsheet, Landmark, ListChecks, MapPinned, } from "lucide-react";
 import Link from "next/link";
 import { Scene } from "@/components/illustrations/Scene";
@@ -12,11 +13,11 @@ import { resources } from "@/lib/data/resources";
 import { listStateProfiles } from "@/lib/data/state-profiles";
 import { aphTemplates } from "@/lib/data/templates";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Air Permitting Resources: Guides, Templates & FAQs",
   description: "Guides, articles, templates and tools for air permitting professionals: where to start, potential to emit, PSD vs. NSR, Title V, state guides, CSV templates, and FAQs.",
   alternates: { canonical: "/resources" },
-};
+});
 
 function Row({ href, title, sub, thumb, meta, download }: { href: string; title: string; sub: string; thumb: React.ReactNode; meta?: React.ReactNode; download?: boolean }) {
   const inner = (

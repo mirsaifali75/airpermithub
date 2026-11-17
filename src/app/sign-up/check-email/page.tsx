@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { MailCheck } from "lucide-react";
 import Link from "next/link";
 import { AuthLayout } from "@/components/auth/AuthLayout";
@@ -7,7 +8,7 @@ import { VERIFY_HOURS } from "@/lib/auth/email";
 
 const sender = emailFrom.match(/<([^>]+)>/)?.[1] ?? emailFrom;
 
-export const metadata: Metadata = { title: "Check your email", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Check your email", robots: { index: false } });
 
 export default function Page() {
   return (

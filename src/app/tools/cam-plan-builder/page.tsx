@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { CamPlanBuilder } from "@/components/tools/CamPlanBuilder";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { CamPlanPreview } from "@/components/previews";
@@ -8,11 +9,11 @@ import { RT } from "@/lib/tools/rule-text";
 
 const tool = coreTools.find((t) => t.slug === "cam-plan-builder")!;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "CAM Plan Builder (40 CFR Part 64 Applicability and Monitoring Plan)",
   description: tool.description,
   alternates: { canonical: tool.href },
-};
+});
 
 export default function CamPage() {
   return (

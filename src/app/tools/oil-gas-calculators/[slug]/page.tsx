@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { UtilityPreview } from "@/components/previews";
@@ -17,7 +18,7 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const u = getUtility((await params).slug);
   if (!u) return {};
-  return { title: `${u.name}: Formulas, Worked Examples & Excel`, description: u.description, alternates: { canonical: `${OILGAS_BASE}/${u.slug}` } };
+  return withSocial({ title: `${u.name}: Formulas, Worked Examples & Excel`, description: u.description, alternates: { canonical: `${OILGAS_BASE}/${u.slug}` } });
 }
 
 export default async function OilGasCalcPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import { ContactForm } from "@/components/contact/ContactForm";
@@ -6,11 +7,11 @@ import { ProsePage } from "@/components/layout/ProsePage";
 import { accountsEnabled } from "@/lib/auth/config";
 import { contactEmail } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Contact",
   description: "How to reach AirPermitHub with questions, error reports, partnerships, and job postings.",
   alternates: { canonical: "/contact" },
-};
+});
 
 const link = "font-semibold text-brand-600 hover:underline";
 

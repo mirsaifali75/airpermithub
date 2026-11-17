@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { KeyRound } from "lucide-react";
 import { cookies } from "next/headers";
 import Link from "next/link";
@@ -8,7 +9,7 @@ import { accountsEnabled } from "@/lib/auth/config";
 import { maskPhone } from "@/lib/auth/phone";
 import { PHONE_RESET_COOKIE } from "@/lib/auth/server";
 
-export const metadata: Metadata = { title: "Choose a new password", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Choose a new password", robots: { index: false } });
 
 export default async function Page() {
   const phone = (await cookies()).get(PHONE_RESET_COOKIE)?.value ?? "";

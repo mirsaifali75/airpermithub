@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
+import { site } from "@/lib/site";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { ArrowRight, Building2, CircleAlert, CircleCheck, CircleDashed, Gauge, ExternalLink, FileText, Landmark, Quote, Route } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -22,12 +25,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const tile = getStateTile(slug);
   if (!tile) return {};
   const p = getStateProfile(slug);
-  return {
-    title: `${tile.name} Air Permits${p ? `: ${p.agency.name}` : ""}`,
-    description: p ? p.overview.slice(0, 155) : `${tile.name} air permitting hub (in research).`,
+  return withSocial({
+    title: p ? `${tile.name} Air Permit Requirements (${agencyShortName(p.agency.name)})` : `${tile.name} Air Permits`,
+    description: p ? p.overview : `${tile.name} air permitting hub (in research).`,
     alternates: { canonical: `/states/${slug}` },
     robots: p ? undefined : { index: false },
-  };
+  });
 }
 
 const typeLabel: Record<PermitType, string> = {
@@ -347,8 +350,23 @@ export default async function StatePage({ params }: { params: Promise<{ slug: st
     },
   ];
 
+  const pageLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `${p.name} Air Permit Requirements`,
+    url: `${site.url}/states/${slug}`,
+    description: p.overview,
+    inLanguage: "en-US",
+    ...(Number.isNaN(Date.parse(p.lastReviewed)) ? {} : { dateModified: p.lastReviewed }),
+    about: { "@type": "GovernmentOrganization", name: p.agency.name, url: p.agency.url },
+    isBasedOn: p.sources.map((s) => s.url).filter(Boolean).slice(0, 10),
+    isPartOf: { "@type": "WebSite", name: site.name, url: site.url },
+    publisher: { "@type": "Organization", name: site.name, url: site.url },
+  };
+
   return (
     <>
+      <JsonLd data={pageLd} />
       <PageHeader
         crumbs={[{ label: "States", href: "/states" }, { label: tile.name }]}
         eyebrow={`${p.code} · EPA Region ${p.epaRegion}`}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, FileSearch, FileSpreadsheet, Quote, Sigma } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -10,11 +11,11 @@ import { site } from "@/lib/site";
 import { UTIL_BASE, utilities } from "@/lib/utilities";
 import { WORKBOOK_PATH } from "@/lib/utilities/workbook-layout";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Plant Utility Calculators: Steam, Cooling Water, Chilled Water, Compressed Air, Nitrogen",
   description: "Utility calculations for process plants with every formula and step shown: steam tables (IAPWS-IF97), boiler fuel, flash steam, cooling water and towers, chilled water, water balance and pumps, compressed air, nitrogen purging, and hot oil. Worked examples, metric and US units, Excel import and export.",
   alternates: { canonical: UTIL_BASE },
-};
+});
 
 export default function UtilityHub() {
   const Icon = toolIcons.utility;

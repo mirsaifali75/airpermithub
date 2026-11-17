@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, Briefcase, Calculator, Cog, Flame, Gavel, Wind } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -23,7 +24,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const i = getIndustry((await params).slug);
   if (!i) return {};
-  return { title: `${i.name} Air Permits & Compliance`, description: i.summary, alternates: { canonical: `/industries/${i.slug}` } };
+  return withSocial({ title: `${i.name} Air Permits & Compliance`, description: i.summary, alternates: { canonical: `/industries/${i.slug}` } });
 }
 
 export default async function IndustryPage({ params }: { params: Promise<{ slug: string }> }) {

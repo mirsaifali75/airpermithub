@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { DeviationLog } from "@/components/tools/DeviationLog";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { DeviationLogPreview } from "@/components/previews";
@@ -9,11 +10,11 @@ import { RT } from "@/lib/tools/rule-text";
 
 const tool = coreTools.find((t) => t.slug === "deviation-log")!;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Deviation & Prompt Reporting Tracker (Title V Deviation Log)",
   description: tool.description,
   alternates: { canonical: tool.href },
-};
+});
 
 export default function DeviationLogPage() {
   return (

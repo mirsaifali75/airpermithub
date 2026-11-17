@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, ClipboardCheck } from "lucide-react";
 import Link from "next/link";
 import { ToolGate } from "@/components/auth/ToolGate";
@@ -9,11 +10,11 @@ import { ApplicabilityBadge, Badge } from "@/components/ui/Badge";
 import { Disclaimer, VerifyNotice } from "@/components/ui/Notices";
 import { stateProfileSummaries } from "@/lib/data/state-profiles";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Air Regulatory Applicability Checker",
   description: "Screen potential NSPS, NESHAP, MACT, Title V, PSD, and GHG reporting requirements for your facility and equipment, with the rule text, citations, and clear status labels.",
   alternates: { canonical: "/applicability" },
-};
+});
 
 const fields = ["Status", "Rule and citation", "Why, from your entries", "Rule text quoted word for word", "Link to the paragraph in the eCFR", "What to confirm", "Rule Library page"];
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { FileStack } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { PermitLibrary, type LibraryItem } from "@/components/permits/PermitLibrary";
@@ -7,11 +8,11 @@ import { demoPermits } from "@/lib/data/permits";
 import { agencyShortName, listStateProfiles } from "@/lib/data/state-profiles";
 import { aphTemplates } from "@/lib/data/templates";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Permit Library: Permits, Templates, Forms & Checklists",
   description: "Official state air permit forms and application pages, AirPermitHub templates and checklists, and example permit records, searchable by state, industry, and type.",
   alternates: { canonical: "/permits" },
-};
+});
 
 const isApplication = (name: string) => /applica|registration|notice of intent|\bnoi\b|claim/i.test(name);
 

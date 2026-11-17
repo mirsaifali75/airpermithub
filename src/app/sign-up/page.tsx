@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { AuthLayout } from "@/components/auth/AuthLayout";
@@ -10,7 +11,7 @@ import { accountsEnabled, googleEnabled, safeNext } from "@/lib/auth/config";
 import { getSession } from "@/lib/auth/session";
 import { phoneEnabled } from "@/lib/auth/sms";
 
-export const metadata: Metadata = { title: "Sign Up", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Sign Up", robots: { index: false } });
 
 export default async function Page({ searchParams }: { searchParams: Promise<{ next?: string; callbackUrl?: string; method?: string }> }) {
   const sp = await searchParams;

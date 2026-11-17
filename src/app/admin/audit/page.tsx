@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import Link from "next/link";
 import { History } from "lucide-react";
 import { ReviewerOnly, when, who } from "@/components/admin/ReviewerOnly";
@@ -7,7 +8,7 @@ import { requireReviewer } from "@/lib/auth/session";
 import { auditPage, PAGE_SIZE } from "@/lib/content/queue";
 import { prisma } from "@/lib/db/prisma";
 
-export const metadata: Metadata = { title: "Audit log", robots: { index: false, follow: false } };
+export const metadata: Metadata = withSocial({ title: "Audit log", robots: { index: false, follow: false } });
 
 export default async function AuditLogPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
   const reviewer = await requireReviewer();

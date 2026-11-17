@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ToolGate } from "@/components/auth/ToolGate";
 import { UtilityPreview } from "@/components/previews";
 import { ToolPage } from "@/components/tools/ToolPage";
@@ -10,11 +11,11 @@ import { utilityTools } from "@/lib/tools/catalog";
 const tool = utilityTools.find((t) => t.slug === "excel-review")!;
 const path = `${UTIL_BASE}/excel-review`;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Excel Calculation Sheet Review: Check Engineering Spreadsheet Formulas",
   description: tool.description,
   alternates: { canonical: path },
-};
+});
 
 export default function ExcelReviewPage() {
   return (

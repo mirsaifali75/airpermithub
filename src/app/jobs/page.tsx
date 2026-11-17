@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { Briefcase, Building2, ExternalLink, Landmark } from "lucide-react";
 import Link from "next/link";
 import { CompanyLogo } from "@/components/jobs/CompanyLogo";
@@ -7,11 +8,11 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { DemoNotice } from "@/components/ui/Notices";
 import { demoCompanies, demoJobs, publicJobBoards } from "@/lib/data/jobs";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Air Quality Jobs: Air Permitting & Environmental Roles",
   description: "A preview of the AirPermitHub job board for air permitting, air quality engineering, EHS, compliance, consulting, and LDAR roles, with links to official public job boards.",
   alternates: { canonical: "/jobs" },
-};
+});
 
 export default function JobsPage() {
   return (

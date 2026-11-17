@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { Briefcase, MapPin } from "lucide-react";
 import { notFound } from "next/navigation";
 import { Scene } from "@/components/illustrations/Scene";
@@ -17,7 +18,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const c = getCompany((await params).slug);
-  return c ? { title: `${c.name} – Company page preview`, robots: { index: false } } : {};
+  return c ? withSocial({ title: `${c.name} – Company page preview`, robots: { index: false } }) : {};
 }
 
 const sceneFor = (kind: string): SceneKind =>

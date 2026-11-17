@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ToolGate } from "@/components/auth/ToolGate";
@@ -18,7 +19,7 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const c = getConverter((await params).slug);
   if (!c) return {};
-  return { title: c.title, description: c.description, alternates: { canonical: `/tools/${c.slug}` } };
+  return withSocial({ title: c.title, description: c.description, alternates: { canonical: `/tools/${c.slug}` } });
 }
 
 export default async function ConverterPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, Factory } from "lucide-react";
 import Link from "next/link";
 import { Scene } from "@/components/illustrations/Scene";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { industryScene, orderedIndustries } from "@/lib/data/industries";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Air Permitting by Industry",
   description: "Industry-specific permitting guidance, regulations and resources for oil and gas, midstream, refining, power generation, chemical, manufacturing, mining, and waste.",
   alternates: { canonical: "/industries" },
-};
+});
 
 export default function IndustriesPage() {
   return (

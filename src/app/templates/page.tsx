@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ArrowRight, Download, FileSpreadsheet, FolderDown, ListChecks, Sheet } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -7,11 +8,11 @@ import { Disclaimer, VerifyNotice } from "@/components/ui/Notices";
 import { aphTemplates } from "@/lib/data/templates";
 import { WORKBOOK_VERSION, workbooks } from "@/lib/data/workbooks";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Air Permitting Templates & Workbooks (Free Excel and CSV Downloads)",
   description: "Free AirPermitHub Excel workbooks (synthetic minor limits, HAP major source, NSR baseline, oil and gas PTE, deviations, emission inventory, CAM, NSPS/NESHAP matrix) and CSV templates and checklists.",
   alternates: { canonical: "/templates" },
-};
+});
 
 export default function TemplatesPage() {
   return (

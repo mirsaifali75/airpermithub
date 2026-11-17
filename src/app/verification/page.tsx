@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -6,11 +7,11 @@ import { VerifyNotice } from "@/components/ui/Notices";
 import { listStateProfiles } from "@/lib/data/state-profiles";
 import { verificationStatus, type Tally } from "@/lib/data/verification";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "How We Verify Air Permitting Information",
   description: "How AirPermitHub checks every quote, threshold, rule citation, and link against government sources and current eCFR, and what the last check found.",
   alternates: { canonical: "/verification" },
-};
+});
 
 const kinds: { key: string; label: string; what: string }[] = [
   { key: "quote", label: "Quotes", what: "Text shown as a quotation must appear word for word in the cited agency page or PDF. Spacing, punctuation, and line breaks are ignored; nothing else is. Excerpts joined with an ellipsis must each match." },

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { Landmark } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { RegulationsExplorer, type ExplorerEntry } from "@/components/regulations/RegulationsExplorer";
@@ -9,11 +10,11 @@ import { ruleSummaries } from "@/lib/data/ecfr";
 import { ruleCitation, ruleHref, ruleName } from "@/lib/rules";
 import { agencyShortName, listStateProfiles } from "@/lib/data/state-profiles";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: "Regulations Explorer: Federal & State Air Regulations",
   description: "Search and browse federal and state air regulations, permit programs, guidance, and requirements: NSPS, NESHAP, MACT, Title V, NSR, PSD, GHG reporting, and all 50 state programs.",
   alternates: { canonical: "/regulations" },
-};
+});
 
 /** Plain-language descriptions of program types; numbers live in each state's quoted sources. */
 const programTypes: { type: string; title: string; description: string; href: string }[] = [

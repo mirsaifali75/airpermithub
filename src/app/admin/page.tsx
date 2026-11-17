@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import Link from "next/link";
 import { ClipboardCheck, Database, History, Lock, ShieldCheck } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -9,7 +10,7 @@ import { kindLabels, queueCounts } from "@/lib/content/queue";
 import { prisma } from "@/lib/db/prisma";
 import type { ReviewKind } from "@prisma/client";
 
-export const metadata: Metadata = { title: "Admin", robots: { index: false, follow: false } };
+export const metadata: Metadata = withSocial({ title: "Admin", robots: { index: false, follow: false } });
 
 const modules = [
   { title: "Regulations", items: ["Add / update regulations", "Version history & effective dates", "Track last-reviewed dates"], model: "Regulation, RegulationVersion" },

@@ -21,9 +21,10 @@ export const metadata: Metadata = {
   title: { default: `${site.name} | ${site.tagline}`, template: `%s | ${site.name}` },
   description: site.description,
   applicationName: site.name,
-  openGraph: { type: "website", siteName: site.name, title: `${site.name} | ${site.headline}`, description: site.description, url: site.url },
-  twitter: { card: "summary_large_image", title: site.name, description: site.description },
-  alternates: { canonical: "/" },
+  // No title, url or canonical here: those are per page (see withSocial in lib/seo.ts).
+  // Defaults set here leaked to every page, so shares of any page showed the home page.
+  openGraph: { type: "website", siteName: site.name, locale: "en_US" },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = { themeColor: "#0F2A47", width: "device-width", initialScale: 1 };

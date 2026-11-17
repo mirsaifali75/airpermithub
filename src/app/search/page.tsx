@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { Search } from "lucide-react";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -8,7 +9,7 @@ import { listStateProfiles } from "@/lib/data/state-profiles";
 import { ruleSummaries } from "@/lib/data/ecfr";
 import { buildSearchIndex, exampleQueries, search, type SearchKind } from "@/lib/search";
 
-export const metadata: Metadata = { title: "Search", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Search", robots: { index: false } });
 
 const kinds: SearchKind[] = ["Regulation", "State", "Industry", "Calculator", "Resource", "Tool"];
 const futureFilters = ["Permit", "Agency", "Equipment", "Pollutant", "Document type"];

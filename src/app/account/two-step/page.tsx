@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/seo";
 import { ShieldCheck } from "lucide-react";
 import { redirect } from "next/navigation";
 import QRCode from "qrcode";
@@ -11,7 +12,7 @@ import { getSession } from "@/lib/auth/session";
 import { prisma } from "@/lib/db/prisma";
 import { startTwoStep } from "../actions";
 
-export const metadata: Metadata = { title: "Two-step login", robots: { index: false } };
+export const metadata: Metadata = withSocial({ title: "Two-step login", robots: { index: false } });
 
 function Card({ title, children }: { title: string; children: ReactNode }) {
   return (
