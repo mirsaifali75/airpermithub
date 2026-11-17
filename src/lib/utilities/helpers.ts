@@ -1,4 +1,4 @@
-import type { Outcome, Result, Step, Values } from "./types";
+import type { Check, Outcome, Result, Step, Values } from "./types";
 import { fmt, fromSI, unitOf, type Family } from "./units";
 
 /** "12.3 kg/h" from an SI value. */
@@ -11,6 +11,7 @@ export class Calc {
   steps: Step[] = [];
   results: Result[] = [];
   warnings: string[] = [];
+  checks: Check[] = [];
   solved?: string;
   constructor(public v: Values) {}
   step(label: string, work: string, formula?: string) {
@@ -22,12 +23,16 @@ export class Calc {
   warn(w: string) {
     this.warnings.push(w);
   }
+  check(pass: boolean, text: string) {
+    this.checks.push({ pass, text });
+    return pass;
+  }
   /** Ids among `ids` that are blank. */
   blank(...ids: string[]) {
     return ids.filter((i) => this.v[i] === null || this.v[i] === undefined);
   }
   done(error?: string): Outcome {
-    return { steps: this.steps, results: this.results, warnings: this.warnings, error, solved: this.solved };
+    return { steps: this.steps, results: this.results, warnings: this.warnings, error, solved: this.solved, ...(this.checks.length ? { checks: this.checks } : {}) };
   }
   /** Ends with an error naming the blank required inputs. */
   missing(ids: string[], labels: Record<string, string>) {

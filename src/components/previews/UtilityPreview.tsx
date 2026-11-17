@@ -1,7 +1,7 @@
 import { UTIL_BASE, collectionOf, getUtility } from "@/lib/utilities";
 import { ToolPreview } from "./ToolPreview";
 
-/** Screenshot sizes of public/previews/utility-<slug>.webp and oilgas-<slug>.webp (taken with each calculator's worked example). */
+/** Screenshot sizes of public/previews/utility-<slug>.webp, oilgas-<slug>.webp and air-<slug>.webp (taken with each calculator's worked example). */
 const sizes: Record<string, [number, number]> = {
   steam: [1400, 1391],
   "cooling-water": [1400, 1400],
@@ -21,6 +21,10 @@ const sizes: Record<string, [number, number]> = {
   "separators-and-tanks": [1394, 1400],
   "drilling-well-control": [1394, 1400],
   "artificial-lift": [1394, 1371],
+  // public/previews/air-<slug>.webp
+  "bact-cost-effectiveness": [1394, 1400],
+  "flare-60-18-check": [1394, 1400],
+  "method-19-f-factor": [1394, 1400],
 };
 
 /** Signed-out preview for a plant utility or oil and gas calculator, or for the Excel review (slug "excel-review"). */
@@ -48,11 +52,11 @@ export function UtilityPreview({ slug }: { slug: string }) {
   return (
     <ToolPreview
       name={u.name}
-      image={`/previews/${col.id === "plant" ? "utility" : "oilgas"}-${slug}.webp`}
+      image={`/previews/${col.preview}-${slug}.webp`}
       width={width}
       height={height}
       next={`${col.base}/${slug}`}
-      points={[...u.sections.slice(0, 3).map((s) => s.title), col.id === "plant" ? "Worked examples, metric and US units, and Excel import and export" : "Worked examples, oilfield and metric units, and Excel import and export"]}
+      points={[...u.sections.slice(0, 3).map((s) => s.title), col.unitsLine]}
       formula={u.sections[0].formulas[0]}
     />
   );

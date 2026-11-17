@@ -1,12 +1,12 @@
 import { converters } from "./converters";
-import { OILGAS_BASE, UTIL_BASE, oilGasCalcs, utilities } from "../utilities";
+import { AIR_BASE, OILGAS_BASE, UTIL_BASE, airCalcs, oilGasCalcs, utilities } from "../utilities";
 
 /**
  * Practitioner tools, each framed by the everyday problem it answers. Used by
  * the tools hub, the home page, search, and the sitemap.
  */
 
-export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap" | "inventory" | "cam" | "utility" | "review" | "oilgas";
+export type ToolIcon = "rolling" | "nsr" | "matrix" | "deviation" | "convert" | "updates" | "glossary" | "finder" | "calc" | "applicability" | "synthetic" | "hap" | "inventory" | "cam" | "utility" | "review" | "oilgas" | "airtools";
 
 export interface ToolEntry {
   slug: string;
@@ -83,6 +83,15 @@ export const coreTools: ToolEntry[] = [
     description: `Gas and oil properties, well inflow and nodal analysis, chokes, pipelines, separators and tanks, drilling and well control, and artificial lift: ${oilGasCalcs.reduce((a, u) => a + u.sections.length, 0)} calculations in oilfield or metric units, every step shown, with Excel import and export.`,
     icon: "oilgas",
     keywords: "oil and gas calculator petroleum engineering z factor bubble point ipr vogel nodal analysis choke gilbert pipeline pressure drop separator sizing kill mud weight esp rod pump",
+  },
+  {
+    slug: "air-permit-engineering",
+    href: AIR_BASE,
+    name: "Air Permit Engineering Calculators",
+    problem: "Is this control cost-effective, does my flare meet 60.18, and what is my emission rate in lb/MMBtu?",
+    description: `BACT cost-effectiveness by the EPA Cost Manual, the 40 CFR 60.18 flare heating value and exit velocity check, and EPA Method 19 F factors and emission rates: ${airCalcs.reduce((a, u) => a + u.sections.length, 0)} calculations with the rule text quoted word for word, every step shown, and Excel import and export.`,
+    icon: "airtools",
+    keywords: "air permit engineering calculator bact cost effectiveness $/ton flare 60.18 net heating value exit velocity method 19 f factor lb/mmbtu emission rate",
   },
   {
     slug: "rolling-12-month-tracker",
@@ -172,7 +181,9 @@ export const utilityTools: ToolEntry[] = [
   },
 ];
 
+export const airTools: ToolEntry[] = airCalcs.map((u) => ({ slug: `air-${u.slug}`, href: `${AIR_BASE}/${u.slug}`, name: u.name, problem: u.problem, description: u.description, icon: "airtools" as const, keywords: u.keywords }));
+
 export const oilGasTools: ToolEntry[] = oilGasCalcs.map((u) => ({ slug: `oilgas-${u.slug}`, href: `${OILGAS_BASE}/${u.slug}`, name: u.name, problem: u.problem, description: u.description, icon: "oilgas" as const, keywords: u.keywords }));
 
 /** Every tool with its own page (converters individually, not the hub anchor). */
-export const allToolPages = [...coreTools.filter((t) => t.slug !== "converters"), ...utilityTools, ...oilGasTools, ...converterTools];
+export const allToolPages = [...coreTools.filter((t) => t.slug !== "converters"), ...utilityTools, ...oilGasTools, ...airTools, ...converterTools];

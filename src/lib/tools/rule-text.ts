@@ -47,6 +47,28 @@ export const LEAK_PROTOCOL = {
   url: "https://www.epa.gov/sites/default/files/2020-09/documents/protocol_for_equipment_leak_emission_estimates.pdf",
 };
 
+export const EPA_COST_MANUAL_CH2 = {
+  title: "EPA Air Pollution Control Cost Manual, 7th ed., Section 1, Chapter 2: Cost Estimation: Concepts and Methodology (November 2017)",
+  url: "https://www.epa.gov/sites/default/files/2017-12/documents/epaccmcostestimationmethodchapter_7thedition_2017.pdf",
+};
+export const EPA_NSR_MANUAL = {
+  title: "EPA New Source Review Workshop Manual, Chapter B: BACT (Draft, October 1990)",
+  url: "https://www.epa.gov/sites/default/files/2015-07/documents/1990wman.pdf",
+};
+export const ECFR_METHOD_19 = {
+  title: "40 CFR Part 60, Appendix A-7, Method 19 (eCFR)",
+  url: "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/appendix-Appendix%20A-7%20to%20Part%2060",
+};
+export const ECFR_63_CC_TABLE12 = {
+  title: "40 CFR Part 63, Subpart CC, Table 12: Individual Component Properties (eCFR)",
+  url: "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-CC",
+};
+/** 40 CFR 60.18 as printed in the annual CFR: the HT equation and its constant K are pictures in eCFR, so this PDF is cited for them. */
+export const CFR_60_18_PDF = {
+  title: "40 CFR 60.18, annual edition (GovInfo, July 1, 2023), page 87: HT equation and constant K",
+  url: "https://www.govinfo.gov/content/pkg/CFR-2023-title40-vol7/pdf/CFR-2023-title40-vol7-sec60-18.pdf",
+};
+
 export const RT = {
   // ---------- Major source definitions ----------
   hapMajor: q("40 CFR 63.2", "Major source means any stationary source or group of stationary sources located within a contiguous area and under common control that emits or has the potential to emit considering controls, in the aggregate, 10 tons per year or more of any hazardous air pollutant or 25 tons per year or more of any combination of hazardous air pollutants"),
@@ -328,6 +350,59 @@ export const RT = {
   leakWfDef: q(LEAK_PROTOCOL.title, "Average weight fraction of TOC in the stream;", LEAK_PROTOCOL.url),
   leakNDef: q(LEAK_PROTOCOL.title, "Number of pieces of equipment of the applicable equipment type in the stream.", LEAK_PROTOCOL.url),
   leakSpeciate: q(LEAK_PROTOCOL.title, "Ex = ETOC × (WPx/WPTOC)", LEAK_PROTOCOL.url),
+  // Advanced air permit engineering calculators (src/lib/utilities/airtools).
+  flareChoice: q("40 CFR 60.18(c)(3)", "An owner/operator has the choice of adhering to either the heat content specifications in paragraph (c)(3)(ii) of this section and the maximum tip velocity specifications in paragraph (c)(4) of this section, or adhering to the requirements in paragraph (c)(3)(i) of this section."),
+  flareH2: q("40 CFR 60.18(c)(3)(i)(A)", "Flares shall be used that have a diameter of 3 inches or greater, are nonassisted, have a hydrogen content of 8.0 percent (by volume), or greater, and are designed for and operated with an exit velocity less than 37.2 m/sec (122 ft/sec) and less than the velocity, V max , as determined by the following equation:"),
+  flareH2Vmax: q("40 CFR 60.18(c)(3)(i)(A)", "V max = (X H2 −K 1 )* K 2"),
+  flareH2K1: q("40 CFR 60.18(c)(3)(i)(A)", "K 1 = Constant, 6.0 volume-percent hydrogen."),
+  flareH2K2: q("40 CFR 60.18(c)(3)(i)(A)", "K 2 = Constant, 3.9(m/sec)/volume-percent hydrogen."),
+  flareNhv: q("40 CFR 60.18(c)(3)(ii)", "Flares shall be used only with the net heating value of the gas being combusted being 11.2 MJ/scm (300 Btu/scf) or greater if the flare is steam-assisted or air-assisted; or with the net heating value of the gas being combusted being 7.45 MJ/scm (200 Btu/scf) or greater if the flare is nonassisted."),
+  flareV60: q("40 CFR 60.18(c)(4)(i)", "Steam-assisted and nonassisted flares shall be designed for and operated with an exit velocity, as determined by the methods specified in paragraph (f)(4) of this section, less than 18.3 m/sec (60 ft/sec), except as provided in paragraphs (c)(4) (ii) and (iii) of this section."),
+  flareV400: q("40 CFR 60.18(c)(4)(ii)", "Steam-assisted and nonassisted flares designed for and operated with an exit velocity, as determined by the methods specified in paragraph (f)(4), equal to or greater than 18.3 m/sec (60 ft/sec) but less than 122 m/sec (400 ft/sec) are allowed if the net heating value of the gas being combusted is greater than 37.3 MJ/scm (1,000 Btu/scf)."),
+  flareVmaxAllowed: q("40 CFR 60.18(c)(4)(iii)", "Steam-assisted and nonassisted flares designed for and operated with an exit velocity, as determined by the methods specified in paragraph (f)(4), less than the velocity, V max , as determined by the method specified in paragraph (f)(5), and less than 122 m/sec (400 ft/sec) are allowed."),
+  flareAir: q("40 CFR 60.18(c)(5)", "Air-assisted flares shall be designed and operated with an exit velocity less than the velocity, V max , as determined by the method specified in paragraph (f)(6)."),
+  flareHt: q("40 CFR 60.18(f)(3)", "H T = Net heating value of the sample, MJ/scm; where the net enthalpy per mole of offgas is based on combustion at 25 °C and 760 mm Hg, but the standard temperature for determining the volume corresponding to one mole is 20 °C;"),
+  flareCi: q("40 CFR 60.18(f)(3)", "C i = Concentration of sample component i in ppm on a wet basis, as measured for organics by Reference Method 18 and measured for hydrogen and carbon monoxide by ASTM D1946-77 or 90 (Reapproved 1994)"),
+  flareHi: q("40 CFR 60.18(f)(3)", "H i = Net heat of combustion of sample component i, kcal/g mole at 25 °C and 760 mm Hg. The heats of combustion may be determined using ASTM D2382-76 or 88 or D4809-95 (incorporated by reference as specified in § 60.17) if published values are not available or cannot be calculated."),
+  flareExitV: q("40 CFR 60.18(f)(4)", "The actual exit velocity of a flare shall be determined by dividing the volumetric flowrate (in units of standard temperature and pressure), as determined by Reference Methods 2, 2A, 2C, or 2D as appropriate; by the unobstructed (free) cross sectional area of the flare tip."),
+  flareVmaxF5: q("40 CFR 60.18(f)(5)", "Log 10 (V max ) = (H T + 28.8)/31.7"),
+  flareVmaxF6: q("40 CFR 60.18(f)(6)", "V max = 8.706 + 0.7084 (H T )"),
+  flare63Vmax: q("40 CFR 63.11(b)(8)", "V max = 8.71 + 0.708(H T )"),
+  flare63Nhv: q("40 CFR 63.11(b)(6)(ii)", "Flares shall be used only with the net heating value of the gas being combusted at 11.2 MJ/scm (300 Btu/scf) or greater if the flare is steam-assisted or air-assisted; or with the net heating value of the gas being combusted at 7.45 M/scm (200 Btu/scf) or greater if the flares is non-assisted."),
+  flare63ExitV: q("40 CFR 63.11(b)(7)(i)", "The actual exit velocity of a flare shall be determined by dividing by the volumetric flow rate of gas being combusted (in units of emission standard temperature and pressure), as determined by Test Method 2, 2A, 2C, or 2D in appendix A to 40 CFR part 60 of this chapter, as appropriate, by the unobstructed (free) cross-sectional area of the flare tip."),
+  ccNhvi: q("40 CFR 63.670(l)(1)", "NHV i = Net heating value of component i according to table 12 of this subpart, Btu/scf. If the component is not specified in table 12 of this subpart, the heats of combustion may be determined using any published values where the net enthalpy per mole of offgas is based on combustion at 25 °C and 1 atmosphere (or constant pressure) with offgas water in the gaseous state, but the standard temperature for determining the volume corresponding to one mole of vent gas is 20 °C."),
+  ccH2: q(ECFR_63_CC_TABLE12.title, "The theoretical net heating value for hydrogen is 274 Btu/scf, but for the purposes of the flare requirement in this subpart, a net heating value of 1,212 Btu/scf shall be used.", ECFR_63_CC_TABLE12.url),
+  m19F: q(ECFR_METHOD_19.title + ", section 12.2", "An F factor is the ratio of the gas volume of the products of combustion to the heat content of the fuel. The dry F factor (F d ) includes all components of combustion less water, the wet F factor (F w ) includes all components of combustion, and the carbon F factor (F c ) includes only carbon dioxide.", ECFR_METHOD_19.url),
+  m19Units: q(ECFR_METHOD_19.title + ", section 12.2", "The pollutant concentration must be in ng/scm (lb/scf) and the F factor must be in scm/J (scf/million Btu). If the pollutant concentration (C) is not in the appropriate units, use Table 19-1 in section 17.0 to make the proper conversion.", ECFR_METHOD_19.url),
+  m19FwNote: q(ECFR_METHOD_19.title + ", section 12.2", "Since F w factors include water resulting only from the combustion of hydrogen in the fuel, the procedures using F w factors are not applicable for computing E from steam generating units with wet scrubbers or with other processes that add water ( e.g., steam injection).", ECFR_METHOD_19.url),
+  m19Bwa: q(ECFR_METHOD_19.title + ", section 12.2.2.1.1", "B wa = 0.027. This value may be used at any location at all times.", ECFR_METHOD_19.url),
+  m19Avg: q(ECFR_METHOD_19.title + ", section 12.3.1", "Average F factors (F d , F w , or F c ) from Table 19-2 in section 17.0 may be used.", ECFR_METHOD_19.url),
+  m19Determined: q(ECFR_METHOD_19.title + ", section 12.3.2", "If the fuel burned is not listed in Table 19-2 or if the owner or operator chooses to determine an F factor rather than use the values in Table 19-2, use the procedure below:", ECFR_METHOD_19.url),
+  m19FwOmit: q(ECFR_METHOD_19.title + ", section 12.3.2.1", "Omit the %H 2 O term in the equations for F w if %H and %O include the unavailable hydrogen and oxygen in the form of H 2 O.", ECFR_METHOD_19.url),
+  m19K: q(ECFR_METHOD_19.title + ", section 12.1", "K = Conversion factor, 10 −5 (kJ/J)/(%) [10 6 Btu/million Btu].", ECFR_METHOD_19.url),
+  m19Kc: q(ECFR_METHOD_19.title + ", section 12.1", "K c = (9.57 scm/kg)/% [(1.53 scf/lb)/%].", ECFR_METHOD_19.url),
+  m19Kcc: q(ECFR_METHOD_19.title + ", section 12.1", "K cc = (2.0 scm/kg)/% [(0.321 scf/lb)/%].", ECFR_METHOD_19.url),
+  m19Khd: q(ECFR_METHOD_19.title + ", section 12.1", "K hd = (22.7 scm/kg)/% [(3.64 scf/lb)/%].", ECFR_METHOD_19.url),
+  m19Khw: q(ECFR_METHOD_19.title + ", section 12.1", "K hw = (34.74 scm/kg)/% [(5.57 scf/lb)/%].", ECFR_METHOD_19.url),
+  m19Kn: q(ECFR_METHOD_19.title + ", section 12.1", "K n = (0.86 scm/kg)/% [(0.14 scf/lb)/%].", ECFR_METHOD_19.url),
+  m19Ko: q(ECFR_METHOD_19.title + ", section 12.1", "K o = (2.85 scm/kg)/% [(0.46 scf/lb)/%].", ECFR_METHOD_19.url),
+  m19Ks: q(ECFR_METHOD_19.title + ", section 12.1", "K s = (3.54 scm/kg)/% [(0.57 scf/lb)/%].", ECFR_METHOD_19.url),
+  m19Kw: q(ECFR_METHOD_19.title + ", section 12.1", "K w = (1.30 scm/kg)/% [(0.21 scf/lb)/%].", ECFR_METHOD_19.url),
+  m19Gcv: q(ECFR_METHOD_19.title + ", section 12.1", "GCV = Gross calorific value of the fuel consistent with the ultimate analysis, kJ/kg (Btu/lb).", ECFR_METHOD_19.url),
+  m19Combo: q(ECFR_METHOD_19.title + ", section 12.3.3", "If combinations of fuels are burned, use the following equations, as applicable unless otherwise specified in an applicable subpart:", ECFR_METHOD_19.url),
+  m19Xk: q(ECFR_METHOD_19.title + ", section 12.1", "X k = Fraction of total heat input from each type of fuel k.", ECFR_METHOD_19.url),
+  m19So2: q(ECFR_METHOD_19.title + ", Table 19-1", "ppm SO 2 lb/scf 1.660 × 10 −7", ECFR_METHOD_19.url),
+  m19Nox: q(ECFR_METHOD_19.title + ", Table 19-1", "ppm NO X lb/scf 1.194 × 10 −7", ECFR_METHOD_19.url),
+  costCrc: q(EPA_COST_MANUAL_CH2.title, "This payment is the capital recovery cost (CRC), which is calculated by multiplying the NPV of the investment by the capital recovery factor (CRF):", EPA_COST_MANUAL_CH2.url),
+  costCrf: q(EPA_COST_MANUAL_CH2.title, "CRF = i(1+i)n / ((1+i)n-1)", EPA_COST_MANUAL_CH2.url),
+  costLife: q(EPA_COST_MANUAL_CH2.title, "The life of the control is defined in this Manual as the equipment life. This is the expected design or operational life of the control equipment.", EPA_COST_MANUAL_CH2.url),
+  costRate: q(EPA_COST_MANUAL_CH2.title, "For permit applications, if firmspecific nominal interest rates are not available, then the bank prime rate can be an appropriate estimate for interest rates", EPA_COST_MANUAL_CH2.url),
+  costSameRate: q(EPA_COST_MANUAL_CH2.title, "It is crucial that the analyst use the same interest or discount rate to estimate costs using NPV and when amortizing (i.e., EUAC).", EPA_COST_MANUAL_CH2.url),
+  costTac: q(EPA_COST_MANUAL_CH2.title, "the total annual cost is comprised of three components—direct and indirect costs and recovery credits.", EPA_COST_MANUAL_CH2.url),
+  bactAvg: q(EPA_NSR_MANUAL.title, "Average cost effectiveness (total annualized costs of control divided by annual emission reductions, or the difference between the baseline emission rate and the controlled emission rate) is a way to present the costs of control.", EPA_NSR_MANUAL.url),
+  bactBaseline: q(EPA_NSR_MANUAL.title, "In other words, baseline emissions are essentially uncontrolled emissions, calculated using realistic upper boundary operating assumptions.", EPA_NSR_MANUAL.url),
+  bactIncr: q(EPA_NSR_MANUAL.title, "The incremental cost effectiveness calculation compares the costs and emissions performance level of a control option to those of the next most stringent option, as shown in the following formula:", EPA_NSR_MANUAL.url),
+  bactDominant: q(EPA_NSR_MANUAL.title, "In calculating incremental costs, the analysis should only be conducted for control options that are dominant among all possible options.", EPA_NSR_MANUAL.url),
 } as const satisfies Record<string, RuleQuote>;
 
 export type RuleTextKey = keyof typeof RT;

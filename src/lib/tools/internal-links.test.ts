@@ -9,7 +9,7 @@ import { ruleHref } from "../rules";
 import { allToolPages, coreTools } from "./catalog";
 import { equipmentTypes, screenAll, type FacilityInput } from "./applicability";
 import { converters } from "./converters";
-import { OILGAS_BASE, UTIL_BASE, oilGasCalcs, utilities } from "../utilities";
+import { AIR_BASE, OILGAS_BASE, UTIL_BASE, airCalcs, oilGasCalcs, utilities } from "../utilities";
 import { applicabilityHandoff, calculatorsFor, screen } from "../screening";
 import { equipmentOptions, permitFinderIndustries } from "../data/equipment";
 import { stateProfileSummaries } from "../data/state-profiles";
@@ -40,6 +40,8 @@ const known = new Set([
   ...utilities.map((u) => `${UTIL_BASE}/${u.slug}`),
   OILGAS_BASE,
   ...oilGasCalcs.map((u) => `${OILGAS_BASE}/${u.slug}`),
+  AIR_BASE,
+  ...airCalcs.map((u) => `${AIR_BASE}/${u.slug}`),
   ...federalRegulations.map((r) => `/regulations/${r.slug}`),
   ...listRules().map(ruleHref),
   ...calculatorMethods.map((m) => `/calculators/${m.slug}`),

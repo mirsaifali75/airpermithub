@@ -39,6 +39,15 @@ export const workbooks: Workbook[] = [
     web: { label: "Oil & Gas Engineering Calculators", href: "/tools/oil-gas-calculators" },
   },
   {
+    slug: "air-permit-engineering",
+    title: "Air Permit Engineering Calculations (BACT cost-effectiveness, flare 60.18 check, Method 19)",
+    file: "airpermithub-air-permit-engineering.xlsx",
+    description: "9 live-formula calculations: capital recovery factor and total annual cost, average and incremental cost-effectiveness in $/ton with the dominant-option test, flare net heating value from a gas analysis and exit velocity against the 40 CFR 60.18 and 63.11 limits, Method 19 F factors from an ultimate analysis, lb/MMBtu by Eq. 19-1 to 19-9, mixed-fuel F factors, and lb/h and tons per year. Formulas are locked; only the yellow input cells accept entries.",
+    sheets: ["BACT Cost", "Flare 60.18", "Method 19"],
+    cites: ["EPA Air Pollution Control Cost Manual, Section 1, Chapter 2", "EPA NSR Workshop Manual, Chapter B", "40 CFR 60.18", "40 CFR 63.11", "40 CFR 63 subpart CC, Table 12", "40 CFR 60, Appendix A-7, Method 19"],
+    web: { label: "Air Permit Engineering Calculators", href: "/tools/air-permit-engineering" },
+  },
+  {
     slug: "synthetic-minor-limit-designer",
     title: "Synthetic Minor Limit Designer",
     file: "airpermithub-synthetic-minor-limit-designer.xlsx",

@@ -18,6 +18,10 @@ const HP = 0.745699872; // kW, mechanical horsepower (550 ft·lbf/s)
 const TON_R = (12000 * BTU) / 3600; // kW, ton of refrigeration = 12,000 Btu/h
 const BBL = 42 * GAL; // m³, oil barrel = 42 US gallons, exact
 const DAY = 86400; // s
+const YEAR = 8760 * 3600; // s, the 8,760-hour year used for tons per year
+const SHORT_TON = 2000 * LB; // kg
+const SCF = FT ** 3; // m³
+const MMBTU_J = 1e9 * BTU; // J in 10⁶ Btu
 /** Petroleum standard conditions for gas: 60 °F and 14.696 psia (101.325 kPa). */
 export const T_SC_K = (60 + 459.67) * (5 / 9);
 /** Metric standard conditions for gas: 15 °C and 101.325 kPa. */
@@ -29,7 +33,9 @@ export type Family =
   | "pabs" | "dp" | "temp" | "dtemp" | "mflow" | "vflow" | "gasflow" | "power" | "cp" | "hspec" | "rho" | "visc"
   | "length" | "diam" | "rough" | "area" | "volume" | "vel" | "time" | "pct" | "ratio" | "count" | "money" | "price" | "ppm" | "spower" | "energy" | "hv" | "head" | "uval" | "fprice"
   // Oil and gas families.
-  | "grad" | "perm" | "gor" | "pindex" | "cap" | "mudwt" | "compress";
+  | "grad" | "perm" | "gor" | "pindex" | "cap" | "mudwt" | "compress"
+  // Air permit engineering families.
+  | "erate" | "costyr" | "costton" | "years" | "ef" | "ffac" | "conc" | "ppmv" | "vhv";
 
 export interface Unit {
   id: string;
@@ -75,6 +81,10 @@ export const families: Record<Family, { base: string; units: Unit[] }> = {
       std("mmscfd", "MMscf/d (60 °F, 14.696 psia)", T_SC_K, P_ATM_KPA, DAY, 1e6 * FT ** 3),
       std("sm3d", "Sm³/d (15 °C, 1 atm)", T_SC_METRIC_K, P_ATM_KPA, DAY, 1),
       std("ksm3d", "10³ Sm³/d (15 °C, 1 atm)", T_SC_METRIC_K, P_ATM_KPA, DAY, 1000),
+      // EPA standard conditions, 20 °C (68 °F) and 760 mm Hg (40 CFR 60.2).
+      std("scfh20", "scf/h (68 °F, 29.92 in Hg)", 293.15, P_ATM_KPA, 3600, FT ** 3),
+      std("scfm20", "scfm (68 °F, 29.92 in Hg)", 293.15, P_ATM_KPA, 60, FT ** 3),
+      std("scmh20", "scm/h (20 °C, 760 mm Hg)", 293.15, P_ATM_KPA, 3600, 1),
     ],
   },
   power: {
@@ -111,6 +121,15 @@ export const families: Record<Family, { base: string; units: Unit[] }> = {
   cap: { base: "m³/m", units: [u("bblft", "bbl/ft", BBL / FT), u("m3m", "m³/m", 1), u("lm", "L/m", 1e-3), u("galft", "US gal/ft", GAL / FT)] },
   compress: { base: "1/kPa", units: [u("perpsi", "1/psi", 1 / PSI), u("perbar", "1/bar", 1 / 100), u("perkpa", "1/kPa", 1)] },
   mudwt: { base: "kg/m³", units: [u("ppg", "lb/gal (ppg)", LB / GAL), u("sg", "SG (g/cm³)", 1000), u("kgm3", "kg/m³", 1), u("pcf", "lb/ft³", LB / FT ** 3)] },
+  erate: { base: "kg/s", units: [u("tpy", "tons/yr", SHORT_TON / YEAR), u("lbh", "lb/h", LB / 3600), u("kgh", "kg/h", 1 / 3600), u("tonnepy", "tonnes/yr", 1000 / YEAR), u("lbyr", "lb/yr", LB / YEAR)] },
+  costyr: { base: "$/yr", units: [u("usdyr", "$/yr", 1)] },
+  costton: { base: "$/short ton", units: [u("usdton", "$/ton", 1), u("usdtonne", "$/tonne", SHORT_TON / 1000)] },
+  years: { base: "yr", units: [u("yr", "years", 1)] },
+  ef: { base: "ng/J", units: [u("lbmmbtu", "lb/MMBtu", (LB * 1e12) / MMBTU_J), u("ngj", "ng/J", 1)] },
+  ffac: { base: "m³/J", units: [u("scfmmbtu", "scf/10⁶ Btu", SCF / MMBTU_J), u("scmj", "scm/J", 1)] },
+  conc: { base: "kg/m³", units: [u("lbscf", "lb/scf", LB / SCF), u("ngscm", "ng/scm", 1e-12), u("mgscm", "mg/scm", 1e-6), u("grscf", "gr/scf", 64.79891e-6 / SCF)] },
+  ppmv: { base: "ppmv", units: [u("ppmv", "ppmv", 1), u("pctv", "% by volume", 1e4)] },
+  vhv: { base: "MJ/m³", units: [u("btuscf", "Btu/scf", (BTU / 1000) / SCF), u("mjscm", "MJ/scm", 1)] },
   uval: { base: "W/(m²·K)", units: [u("wm2k", "W/m²·K", 1), u("btuhft2f", "Btu/h·ft²·°F", 5.678263)] },
 };
 

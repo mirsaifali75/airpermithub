@@ -10,6 +10,7 @@
  */
 export const WORKBOOK_PATH = "/workbooks/airpermithub-plant-utilities.xlsx";
 export const OILGAS_WORKBOOK_PATH = "/workbooks/airpermithub-oil-gas-calculators.xlsx";
+export const AIR_WORKBOOK_PATH = "/workbooks/airpermithub-air-permit-engineering.xlsx";
 export const KEY_COL = 6;
 export const LIST_ROWS = 25;
 

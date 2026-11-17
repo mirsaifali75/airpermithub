@@ -6,9 +6,10 @@
  *   python3 -I scripts/workbooks/build_utilities.py /tmp/util.json public/workbooks
  *
  * With "oil-gas" as the argument it writes the oil and gas calculators instead
- * (no water tables; build_utilities.py then names the file airpermithub-oil-gas-calculators.xlsx).
+ * (no water tables; build_utilities.py then names the file airpermithub-oil-gas-calculators.xlsx),
+ * and with "air" the air permit engineering calculators (airpermithub-air-permit-engineering.xlsx).
  */
-import { utilities as plant, oilGasCalcs, exampleSection, runSection } from "../../src/lib/utilities";
+import { utilities as plant, airCalcs, oilGasCalcs, exampleSection, runSection } from "../../src/lib/utilities";
 import { liquid, satP, satT, psat, P_SAT_MAX } from "../../src/lib/utilities/if97";
 import { families, unitOf } from "../../src/lib/utilities/units";
 import { R1, R2_0, R2_R } from "../../src/lib/utilities/if97";
@@ -19,8 +20,8 @@ const unit = (family: keyof typeof families, id: string) => {
   return { id: u.id, label: u.label, factor: u.factor, offset: u.offset ?? 0 };
 };
 
-const COLLECTION = process.argv[2] === "oil-gas" ? "oil-gas" : "plant";
-const utilities = COLLECTION === "oil-gas" ? oilGasCalcs : plant;
+const COLLECTION = process.argv[2] === "oil-gas" ? "oil-gas" : process.argv[2] === "air" ? "air" : "plant";
+const utilities = COLLECTION === "oil-gas" ? oilGasCalcs : COLLECTION === "air" ? airCalcs : plant;
 
 const spec = utilities.map((u) => ({
   slug: u.slug,
@@ -125,7 +126,42 @@ const OG_VARIANTS: typeof VARIANTS = [
   ["artificial-lift", "esp", { chp: null, ps: null }],
 ];
 
-const variants = (COLLECTION === "oil-gas" ? OG_VARIANTS : VARIANTS).map(([slug, sid, over]) => {
+// Air permit engineering: every equation, rule, flare type, and option path.
+const AIR_VARIANTS: typeof VARIANTS = [
+  ["bact-cost-effectiveness", "annual-cost", { i: [0, "pct"] }],
+  ["bact-cost-effectiveness", "annual-cost", { iac: null, rc: [50_000, "usdyr"], n: [10, "yr"] }],
+  ["bact-cost-effectiveness", "average", { ce: null, ctrl: [40, "tpy"] }],
+  ["bact-cost-effectiveness", "incremental", { tac4: null, e4: null }],
+  ["bact-cost-effectiveness", "incremental", { tac2: [100_000, "usdyr"] }],
+  ["bact-cost-effectiveness", "incremental", { tac3: [120_000, "usdyr"], e3: [125, "tpy"] }],
+  ["bact-cost-effectiveness", "incremental", { tac1: null, e1: null, tac2: null, e2: null }],
+  ["flare-60-18-check", "net-heating-value", { basis: [2, "n"] }],
+  ["flare-60-18-check", "net-heating-value", { type: [3, "n"], ox1: [3, "pct"], hx1: [1000, "btuscf"], n2: [7, "pct"] }],
+  ["flare-60-18-check", "net-heating-value", { type: [2, "n"], c1: [10, "pct"], c2: null, c3: null, nc4: null, h2: null, n2: [80, "pct"], co2: [10, "pct"] }],
+  ["flare-60-18-check", "exit-velocity", { type: [2, "n"] }],
+  ["flare-60-18-check", "exit-velocity", { rule: [2, "n"], type: [2, "n"] }],
+  ["flare-60-18-check", "exit-velocity", { type: [3, "n"], xh2: [30, "pct"], q: [200_000, "scfh20"], d: [12, "in"] }],
+  ["flare-60-18-check", "exit-velocity", { q: [5_000_000, "scfh20"] }],
+  ["flare-60-18-check", "exit-velocity", { d: null, area: [2.5, "ft2"] }],
+  ["flare-60-18-check", "exit-velocity", { ht: [1100, "btuscf"], q: [2_500_000, "scfh20"] }],
+  ["flare-60-18-check", "exit-velocity", { q: [150_000, "scfh20"] }],
+  ["method-19-f-factor", "f-factor", { W: [8, "pct"], gcvw: [12_000, "btulb"] }],
+  ["method-19-f-factor", "emission-rate", { eq: [2, "n"], b: [0.027, "x"], F: [10_610, "scfmmbtu"], dil: [3, "pct"] }],
+  ["method-19-f-factor", "emission-rate", { eq: [3, "n"], b: [0.15, "x"], dil: [3, "pct"] }],
+  ["method-19-f-factor", "emission-rate", { eq: [4, "n"], b: [0.15, "x"] }],
+  ["method-19-f-factor", "emission-rate", { eq: [5, "n"], b: [0.15, "x"], dil: [3, "pct"] }],
+  ["method-19-f-factor", "emission-rate", { eq: [6, "n"], F: [1040, "scfmmbtu"], dil: [10, "pct"] }],
+  ["method-19-f-factor", "emission-rate", { eq: [7, "n"], F: [1040, "scfmmbtu"], dil: [8.5, "pct"] }],
+  ["method-19-f-factor", "emission-rate", { eq: [8, "n"], F: [1040, "scfmmbtu"], dil: [10, "pct"], b: [0.12, "x"] }],
+  ["method-19-f-factor", "emission-rate", { eq: [9, "n"], F: [1040, "scfmmbtu"], dil: [9, "pct"], b: [0.12, "x"] }],
+  ["method-19-f-factor", "emission-rate", { pol: [1, "n"], ppm: [120, "ppmv"] }],
+  ["method-19-f-factor", "emission-rate", { pol: [3, "n"], ppm: [50, "ppmv"], mw: [28.01, "x"] }],
+  ["method-19-f-factor", "emission-rate", { ppm: null, cm: [0.01, "grscf"], F: [9780, "scfmmbtu"] }],
+  ["method-19-f-factor", "fuel-mix", { x1: [50, "pct"], x2: [30, "pct"], x3: [20, "pct"], f3: [9780, "scfmmbtu"] }],
+  ["method-19-f-factor", "mass-rate", { hrs: null }],
+];
+
+const variants = (COLLECTION === "oil-gas" ? OG_VARIANTS : COLLECTION === "air" ? AIR_VARIANTS : VARIANTS).map(([slug, sid, over]) => {
   const u = utilities.find((x) => x.slug === slug)!;
   const s = u.sections.find((x) => x.id === sid)!;
   const st = exampleSection(s);
