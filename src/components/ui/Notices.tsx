@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { site } from "@/lib/site";
 import { cn } from "@/lib/cn";
+import { ReportError } from "@/components/trust/ReportError";
 
 /** Quiet inline disclaimer used on tools and regulatory pages. */
 export function Disclaimer({ variant = "general", className }: { variant?: "general" | "screening"; className?: string }) {
@@ -13,7 +14,8 @@ export function Disclaimer({ variant = "general", className }: { variant?: "gene
         {variant === "screening" ? site.screeningDisclaimer : site.disclaimer}{" "}
         <Link href="/disclaimer" className="font-medium text-brand-600 underline-offset-2 hover:underline">
           Full disclaimer
-        </Link>
+        </Link>{" "}
+        <ReportError className="ml-1" />
       </span>
     </p>
   );

@@ -19,6 +19,9 @@ export const site = {
  */
 export const contactEmail: string | null = "contact@airpermithub.com";
 
+/** Date the current Terms of Use and Privacy Policy drafts were written. */
+export const policyDate = "2026-11-06";
+
 export type NavItem = { label: string; href: string; description?: string };
 
 export const primaryNav: NavItem[] = [
@@ -104,6 +107,7 @@ export const footerNav: { title: string; links: NavItem[] }[] = [
     links: [
       { label: "About", href: "/about" },
       { label: "How We Verify", href: "/verification" },
+      { label: "Editorial Policy", href: "/editorial-policy" },
       { label: "Contact", href: "/contact" },
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Use", href: "/terms" },
