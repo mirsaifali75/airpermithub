@@ -3,10 +3,10 @@
   "part": 60,
   "subpart": "TTTT",
   "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-TTTT",
-  "ecfrDate": "2026-10-28",
-  "retrievedOn": "2026-10-30",
-  "latestAmendment": "2026-09-17",
-  "hash": "dfb058cf52d4fa3b91d4a0b59597f6686f205a490369bf940d87ea4df87b6e95",
+  "ecfrDate": "2026-11-20",
+  "retrievedOn": "2026-11-24",
+  "latestAmendment": "2026-11-16",
+  "hash": "2c247857064f93a0afdd2c04915762bb1f9365d1315570ba7f8f7b4385a4f600",
   "heading": "Standards of Performance for Greenhouse Gas Emissions for Electric Generating Units",
   "fullHeading": "Subpart TTTT—Standards of Performance for Greenhouse Gas Emissions for Electric Generating Units",
   "source": "80 FR 64648, Oct. 23, 2015, unless otherwise noted.",
@@ -16,7 +16,7 @@
       "heading": "What is the purpose of this subpart?",
       "group": "Applicability",
       "kind": "section",
-      "lastAmended": "2026-09-17"
+      "lastAmended": "2026-11-16"
     },
     {
       "id": "60.5509",
@@ -107,7 +107,7 @@
       "heading": "What definitions apply to this subpart?",
       "group": "Other Requirements and Information",
       "kind": "section",
-      "lastAmended": "2026-09-17"
+      "lastAmended": "2026-11-16"
     },
     {
       "id": null,
@@ -136,9 +136,9 @@
       "id": "60.5508",
       "heading": "What is the purpose of this subpart?",
       "paragraphs": [
-        "This subpart establishes emission standards and compliance schedules for the control of greenhouse gas (GHG) emissions from a steam generating unit or an integrated gasification combined cycle (IGCC) facility that commences construction after January 8, 2014, commences reconstruction after June 18, 2014, or commences modification after January 8, 2014, but on or before May 23, 2023. This subpart also establishes emission standards and compliance schedules for the control of GHG emissions from a stationary combustion turbine that commences construction after January 8, 2014, but on or before May 23, 2023, or commences reconstruction after June 18, 2014, but on or before May 23, 2023. An affected steam generating unit, IGCC, or stationary combustion turbine shall, for the purposes of this subpart, be referred to as an affected electric generating unit (EGU)."
+        "This subpart establishes emission standards and compliance schedules for the control of greenhouse gas (GHG) emissions from a steam generating unit or an integrated gasification combined cycle (IGCC) facility that commences construction after January 8, 2014, commences reconstruction after June 18, 2014, or commences modification after January 8, 2014. This subpart also establishes emission standards and compliance schedules for the control of GHG emissions from a stationary combustion turbine that commences construction after January 8, 2014, but on or before May 23, 2023, or commences reconstruction after June 18, 2014, but on or before May 23, 2023. An affected steam generating unit, IGCC, or stationary combustion turbine shall, for the purposes of this subpart, be referred to as an affected electric generating unit (EGU)."
       ],
-      "cita": "[89 FR 40028, May 9, 2024]"
+      "cita": "[91 FR 58996, Sept. 17, 2026]"
     },
     {
       "id": "60.5509",
@@ -163,6 +163,7 @@
     }
   ],
   "amendmentDates": [
+    "2026-11-16",
     "2026-09-17",
     "2024-07-08",
     "2024-05-09",

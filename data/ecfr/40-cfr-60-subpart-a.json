@@ -3,10 +3,10 @@
   "part": 60,
   "subpart": "A",
   "url": "https://www.ecfr.gov/current/title-40/part-60/subpart-A",
-  "ecfrDate": "2026-10-28",
-  "retrievedOn": "2026-10-30",
-  "latestAmendment": "2026-09-17",
-  "hash": "c28d5d591d232ca4789b35fb281062fe3125e9a19328f8dffded9dbb9ff17571",
+  "ecfrDate": "2026-11-20",
+  "retrievedOn": "2026-11-24",
+  "latestAmendment": "2026-11-16",
+  "hash": "be2f2b9c94eed326fa199ee9c60bd49ed8e3b318aac931e7b14ad0a16354cf32",
   "heading": "General Provisions",
   "fullHeading": "Subpart A—General Provisions",
   "source": null,
@@ -128,7 +128,7 @@
       "heading": "Incorporations by reference.",
       "group": null,
       "kind": "section",
-      "lastAmended": "2026-09-17"
+      "lastAmended": "2026-11-16"
     },
     {
       "id": "60.18",
@@ -168,6 +168,7 @@
     }
   ],
   "amendmentDates": [
+    "2026-11-16",
     "2026-09-17",
     "2026-06-08",
     "2026-05-11",
